@@ -1,0 +1,26 @@
+---
+layout: none
+---
+# scopes.apis.io — OAuth Scopes on the APIs.io Network
+
+> scopes.apis.io is the OAuth-scope slice of the APIs.io network. It indexes the OAuth 2.0 scopes published by API providers — the fine-grained permissions an application requests at authorization time — one record per provider, with the provider's OAuth schemes (flows, authorization/token URLs) and its full list of scopes (scope string, description, flows).
+
+Each provider page is generated from that provider's `scopes/<slug>-scopes.yml` artifact (type `OAuthScopes`), derived from its OpenAPI security definitions and, where available, its documented scope reference. Records refresh on every APIs.io network build. Search indexing, AI grounding/RAG, and AI training are explicitly permitted.
+
+## Core entry points
+
+- [OAuth Scopes index](https://apis.io/scopes/): Browse every provider's scopes; filter by provider or by scope string
+- [sitemap.xml](https://apis.io/sitemap.xml): Sitemap of every provider scopes page
+
+## Sister sites in the APIs.io network
+
+- [apis.io](https://apis.io/): Search hub and blog (master [llms.txt](https://apis.io/llms.txt))
+- [providers.apis.io](https://apis.io/providers/): API provider profiles
+- [security.apis.io](https://apis.io/security/): Security posture (auth, TLS/DNS, disclosure, trust)
+- [apis.apis.io](https://apis.io/apis/): Individual API records
+
+See https://apis.io/llms.txt for the full network map.
+
+## License and usage
+
+Public catalog of API OAuth-scope metadata, intended for both human and machine consumption. See https://apis.io/terms/.

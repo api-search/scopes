@@ -1,0 +1,125 @@
+---
+layout: default
+---
+<style>
+  .hero { background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); border: 1px solid #ddd6fe; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+  .overline { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #7c3aed; font-weight: 600; margin-bottom: 0.5rem; }
+  .overline a { color: #7c3aed; text-decoration: none; }
+  .overline a:hover { text-decoration: underline; }
+  .title { font-size: 2rem; font-weight: 700; margin-bottom: 0.75rem; color: #1a1a2e; }
+  .desc { color: #4a5568; line-height: 1.6; font-size: 1.05rem; }
+  .kind-chip { display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; background: #ede9fe; color: #6d28d9; }
+  .method-chip { display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; font-size: 0.72rem; font-weight: 600; margin-left: 0.4rem; }
+  .method-derived { background: #eef2f7; color: #475569; }
+  .method-searched { background: #dcfce7; color: #15803d; }
+  .section-title { font-size: 1.1rem; font-weight: 700; color: #1a1a2e; margin: 2rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e3e7ee; }
+  .stat-badges { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 1rem 0; }
+  .stat-badge { background: white; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.5rem 1rem; font-size: 0.85rem; }
+  .stat-badge strong { color: #7c3aed; }
+  .scheme-card { background: white; border: 1px solid #e3e7ee; border-radius: 10px; padding: 1rem 1.25rem; margin-bottom: 0.75rem; }
+  .scheme-card .k { font-weight: 600; color: #4a5568; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.4px; }
+  .scheme-card .v { font-family: monospace; font-size: 0.85rem; color: #1a1a2e; word-break: break-all; }
+  .flow-pill { display: inline-block; padding: 0.12em 0.6em; background: #ede9fe; color: #6d28d9; border-radius: 999px; font-size: 0.72rem; font-family: monospace; margin: 0.1rem; }
+  .scope-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; background: white; border: 1px solid #e3e7ee; border-radius: 10px; overflow: hidden; }
+  .scope-table th, .scope-table td { padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid #eef2f7; vertical-align: top; }
+  .scope-table th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.5px; color: #6c757d; font-weight: 600; background: #faf9ff; }
+  .scope-table tr:last-child td { border-bottom: none; }
+  .scope-table tr:hover td { background: #faf5ff; }
+  .scope-name { font-family: monospace; font-size: 0.83rem; color: #6d28d9; font-weight: 600; word-break: break-all; }
+  .scope-flows { font-family: monospace; font-size: 0.72rem; color: #94a3b8; }
+  .tag-sm { display: inline-block; padding: 0.2em 0.6em; background: #eef2f7; color: #4a5568; border-radius: 999px; font-size: 0.75rem; }
+  .empty-note { color: #6c757d; font-size: 0.95rem; background: #faf9ff; border: 1px solid #ede9fe; border-radius: 8px; padding: 1rem 1.25rem; }
+  .docs-link { font-size: 0.9rem; }
+</style>
+
+<nav aria-label="breadcrumb" style="margin-bottom: 1rem;">
+  <ol class="breadcrumb" style="font-size: 0.85rem;">
+    <li class="breadcrumb-item"><a href="https://apis.io/">Home</a></li>
+    <li class="breadcrumb-item"><a href="https://apis.io/scopes/">OAuth Scopes</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.provider_name }}</li>
+  </ol>
+</nav>
+
+<div class="hero">
+  <div class="overline">
+    <a href="https://apis.io/providers/{{ page.provider_slug }}/">{{ page.provider_name }}</a> &middot; {{ page.source_heading }}
+  </div>
+  <h1 class="title">{{ page.provider_name }} OAuth Scopes</h1>
+  <div style="margin-bottom: 0.75rem;">
+    <span class="kind-chip">OAuth 2.0</span>
+    {% if page.method %}<span class="method-chip method-{{ page.method }}">{{ page.method }}</span>{% endif %}
+  </div>
+  {% if page.overview %}
+  <div class="page-overview" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #ddd6fe; font-size: 0.95rem; line-height: 1.65; color: #2c3e50;">
+    {{ page.overview | markdownify }}
+  </div>
+  {% endif %}
+</div>
+
+{% if page.tags.size > 0 %}
+<div style="display: flex; flex-wrap: wrap; gap: 0.25rem; margin-bottom: 1rem;">
+  {% for tag in page.tags %}<span class="tag-sm">{{ tag }}</span>{% endfor %}
+</div>
+{% endif %}
+
+<div class="stat-badges">
+  <span class="stat-badge">Scopes: <strong>{{ page.scope_count }}</strong></span>
+  {% if page.flows %}<span class="stat-badge">Flows: <strong>{{ page.flows | join: ', ' }}</strong></span>{% endif %}
+  {% if page.method %}<span class="stat-badge">Method: <strong>{{ page.method }}</strong></span>{% endif %}
+</div>
+
+{% if page.authorization_urls.size > 0 or page.token_urls.size > 0 %}
+<h2 class="section-title">OAuth endpoints</h2>
+<div class="scheme-card">
+  {% if page.authorization_urls.size > 0 %}<div><span class="k">Authorization URL</span><br><span class="v">{{ page.authorization_urls | join: ' ' }}</span></div>{% endif %}
+  {% if page.token_urls.size > 0 %}<div style="margin-top: 0.6rem;"><span class="k">Token URL</span><br><span class="v">{{ page.token_urls | join: ' ' }}</span></div>{% endif %}
+  {% if page.flows %}<div style="margin-top: 0.6rem;"><span class="k">Flows</span><br>{% for f in page.flows %}<span class="flow-pill">{{ f }}</span>{% endfor %}</div>{% endif %}
+</div>
+{% endif %}
+
+<h2 class="section-title">Scopes ({{ page.scope_count }})</h2>
+{% if page.scopes.size > 0 %}
+<table class="scope-table">
+  <thead>
+    <tr><th style="width: 34%;">Scope</th><th>Description</th><th style="width: 14%;">Flows</th></tr>
+  </thead>
+  <tbody>
+    {% for s in page.scopes %}
+    <tr>
+      <td><span class="scope-name">{{ s.scope }}</span></td>
+      <td>{{ s.description }}</td>
+      <td class="scope-flows">{{ s.flows | join: ', ' }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<div class="empty-note">
+  {{ page.provider_name }} implements OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (client-credentials or role-based authorization) rather than per-scope consent.
+  {% if page.note %}<br><br>{{ page.note }}{% endif %}
+</div>
+{% endif %}
+
+{% if page.docs %}
+<p class="docs-link" style="margin-top: 1rem;">📄 Provider scope reference: <a href="{{ page.docs }}" target="_blank" rel="noopener">{{ page.docs }}</a></p>
+{% endif %}
+
+{% if page.source_yaml %}
+<h2 class="section-title">Source</h2>
+{% include source-widget.html %}
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "name": {{ page.provider_name | append: " OAuth Scopes" | jsonify }},
+  {% if page.overview %}"description": {{ page.overview | markdownify | strip_html | strip_newlines | truncate: 300 | jsonify }},{% endif %}
+  "url": "{{ page.url | prepend: site.url }}",
+  "about": {
+    "@type": "SoftwareApplication",
+    "name": {{ page.provider_name | jsonify }},
+    "url": "https://apis.io/providers/{{ page.provider_slug }}/"
+  }
+}
+</script>

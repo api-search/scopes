@@ -1,0 +1,35 @@
+name: APIs.io OAuth Scopes
+description: Browse the OAuth 2.0 scopes published by API providers across the APIs.io network — the fine-grained permissions applications request at authorization time, indexed from provider OpenAPI security definitions and scope references.
+image: https://apis.io/assets/branding/apisio-social-card.png
+url: https://apis.io
+node: website
+nav_active: scopes
+
+keywords:
+  - APIs
+  - OAuth
+  - OAuth 2.0
+  - Scopes
+  - Authorization
+  - Permissions
+  - Access Control
+  - Security
+  - Authentication
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+include: [".well-known"]
+
+github_org: api-search
+github_repo: scopes
+
+collections:
+  scopes:
+    output: true
+    permalink: /scopes/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: scopes
+    values:
+      layout: scope

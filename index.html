@@ -1,0 +1,90 @@
+---
+layout: default
+meta_title: "OAuth Scopes Index — Browse API Permissions | APIs.io"
+meta_description: "Browse the OAuth 2.0 scopes published by API providers across the APIs.io network — the fine-grained permissions apps request at authorization time. Filter by provider or by scope string; indexed from provider OpenAPI security definitions on every network build."
+---
+
+<style>
+  .page-hero { text-align: center; padding: 2rem 0 1.5rem; }
+  .page-hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  .page-hero p { color: #666; margin-bottom: 1.25rem; max-width: 720px; margin-left: auto; margin-right: auto; }
+  .filter-bar { max-width: 960px; margin: 0 auto 1rem; }
+  .method-tabs { display: flex; gap: 0.4rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1rem; }
+  .method-tab { cursor: pointer; border: 1px solid #e3e7ee; background: white; border-radius: 999px; padding: 0.35rem 0.9rem; font-size: 0.8rem; font-weight: 600; color: #4a5568; }
+  .method-tab.active { background: #2563eb; color: white; border-color: #2563eb; }
+  .item-list { max-width: 960px; margin: 0 auto; }
+  .item-row { background: white; border: 1px solid #e3e7ee; border-left: 3px solid #7c3aed; border-radius: 8px; padding: 0.75rem 1.25rem; margin-bottom: 0.4rem; transition: all 0.15s; }
+  .item-row:hover { border-color: #7c3aed; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .item-row h3 { font-size: 0.95rem; font-weight: 600; margin: 0; }
+  .item-row h3 a { color: #1a1a2e; text-decoration: none; }
+  .item-row h3 a:hover { color: #7c3aed; }
+  .item-provider { font-size: 0.8rem; color: #6c757d; }
+  .item-stats { font-size: 0.8rem; color: #999; }
+  .cchip { display: inline-block; padding: 0.1em 0.55em; border-radius: 999px; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.3px; margin-left: 0.4rem; vertical-align: middle; font-family: monospace; }
+  .c-count { background: #ede9fe; color: #6d28d9; }
+  .m-derived { background: #eef2f7; color: #475569; }
+  .m-searched { background: #dcfce7; color: #15803d; }
+  .no-match { text-align: center; color: #6c757d; padding: 2rem; display: none; }
+</style>
+
+<div class="page-hero">
+  <h1>OAuth Scopes</h1>
+  <p>Every OAuth 2.0 scope published by providers on the APIs.io network — the fine-grained permissions an application requests at authorization time. Indexed from provider OpenAPI security definitions (and documented scope references) across <strong>{{ site.scopes | size }}</strong> providers, refreshed on every network build.</p>
+  <div class="method-tabs">
+    <span class="method-tab active" data-method="">All</span>
+    <span class="method-tab" data-method="searched">Docs-verified</span>
+    <span class="method-tab" data-method="derived">Spec-derived</span>
+    <span class="method-tab" data-method="_has">Has scopes</span>
+  </div>
+  <div class="filter-bar">
+    <input type="text" class="form-control" id="item-filter" placeholder="Filter by provider or scope string (e.g. read:users)…" style="max-width: 480px; margin: 0 auto;">
+  </div>
+</div>
+
+<div class="item-list" id="item-list">
+  {% for s in site.scopes %}
+  <div class="item-row"
+       data-name="{{ s.provider_name | downcase }} {{ s.name | downcase }}"
+       data-scopes="{{ s.scope_names | join: ' ' | downcase }}"
+       data-method="{{ s.method }}"
+       data-count="{{ s.scope_count }}">
+    <h3><a href="{{ s.url }}">{{ s.provider_name }}</a>{% if s.scope_count > 0 %}<span class="cchip c-count">{{ s.scope_count }} scope{% if s.scope_count != 1 %}s{% endif %}</span>{% endif %}{% if s.method %}<span class="cchip m-{{ s.method }}">{{ s.method }}</span>{% endif %}</h3>
+    <div class="item-provider"><a href="https://apis.io/providers/{{ s.provider_slug }}/">{{ s.provider_slug }}</a></div>
+    <div class="item-stats">{{ s.summary_line }}</div>
+  </div>
+  {% endfor %}
+</div>
+<div class="no-match" id="no-match">No scopes match your filter.</div>
+
+<script>
+(function () {
+  var q = '', method = '';
+  var rows = Array.prototype.slice.call(document.querySelectorAll('.item-row'));
+  var noMatch = document.getElementById('no-match');
+  function apply() {
+    var shown = 0;
+    rows.forEach(function (item) {
+      var okText = !q
+        || item.getAttribute('data-name').indexOf(q) !== -1
+        || item.getAttribute('data-scopes').indexOf(q) !== -1;
+      var okMethod = true;
+      if (method === '_has') okMethod = parseInt(item.getAttribute('data-count'), 10) > 0;
+      else if (method) okMethod = item.getAttribute('data-method') === method;
+      var show = okText && okMethod;
+      item.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+    noMatch.style.display = shown ? 'none' : 'block';
+  }
+  document.getElementById('item-filter').addEventListener('input', function () {
+    q = this.value.toLowerCase().trim(); apply();
+  });
+  document.querySelectorAll('.method-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      document.querySelectorAll('.method-tab').forEach(function (t) { t.classList.remove('active'); });
+      this.classList.add('active');
+      method = this.getAttribute('data-method'); apply();
+    });
+  });
+})();
+</script>
