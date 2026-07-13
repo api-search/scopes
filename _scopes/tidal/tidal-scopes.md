@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: tidal-catalog-api-openapi.yml
+  format: yaml
+  label: TIDAL Catalog API
+  slug: tidal-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-catalog-api-openapi.yml
+- filename: tidal-search-api-openapi.yml
+  format: yaml
+  label: TIDAL Search API
+  slug: tidal-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-search-api-openapi.yml
+- filename: tidal-playlists-api-openapi.yml
+  format: yaml
+  label: TIDAL Playlists API
+  slug: tidal-playlists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-playlists-api-openapi.yml
+- filename: tidal-users-api-openapi.yml
+  format: yaml
+  label: TIDAL Users API
+  slug: tidal-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-users-api-openapi.yml
+- filename: tidal-user-collections-api-openapi.yml
+  format: yaml
+  label: TIDAL User Collections API
+  slug: tidal-user-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-user-collections-api-openapi.yml
+- filename: tidal-recommendations-api-openapi.yml
+  format: yaml
+  label: TIDAL Recommendations API
+  slug: tidal-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-recommendations-api-openapi.yml
+- filename: tidal-playback-api-openapi.yml
+  format: yaml
+  label: TIDAL Playback API
+  slug: tidal-playback-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-playback-api-openapi.yml
+- filename: tidal-social-api-openapi.yml
+  format: yaml
+  label: TIDAL Social API
+  slug: tidal-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-social-api-openapi.yml
+- filename: tidal-commerce-api-openapi.yml
+  format: yaml
+  label: TIDAL Commerce API
+  slug: tidal-commerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-commerce-api-openapi.yml
+- filename: tidal-claims-api-openapi.yml
+  format: yaml
+  label: TIDAL Claims API
+  slug: tidal-claims-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/openapi/tidal-claims-api-openapi.yml
 authorization_urls:
 - https://login.tidal.com/authorize
 description: ''

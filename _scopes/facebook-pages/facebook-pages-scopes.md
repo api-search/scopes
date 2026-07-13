@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: facebook-pages-openapi.yml
+  format: yaml
+  label: Meta Graph API - Pages
+  slug: graph-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-openapi.yml
 authorization_urls:
 - https://www.facebook.com/v22.0/dialog/oauth
 description: ''

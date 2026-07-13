@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: looker-studio-api-openapi.yml
+  format: yaml
+  label: Looker Studio API
+  slug: looker-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-api-openapi.yml
+- filename: looker-studio-linking-api-openapi.yml
+  format: yaml
+  label: Looker Studio Linking API
+  slug: looker-studio-linking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-linking-api-openapi.yml
+- filename: looker-studio-embedding-api-openapi.yml
+  format: yaml
+  label: Looker Studio Embedding API
+  slug: looker-studio-embedding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-embedding-api-openapi.yml
+- filename: looker-studio-community-connector-api-openapi.yml
+  format: yaml
+  label: Looker Studio Community Connector API
+  slug: looker-studio-community-connector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-community-connector-api-openapi.yml
+- filename: looker-studio-community-visualization-api-openapi.yml
+  format: yaml
+  label: Looker Studio Community Visualization API
+  slug: looker-studio-community-visualization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-community-visualization-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

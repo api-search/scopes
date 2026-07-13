@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: sketchfab-data-api-openapi.yml
+  format: yaml
+  label: Sketchfab Data API
+  slug: sketchfab-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-data-api-openapi.yml
+- filename: sketchfab-download-api-openapi.yml
+  format: yaml
+  label: Sketchfab Download API
+  slug: sketchfab-download-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-download-api-openapi.yml
+- filename: sketchfab-oembed-api-openapi.yml
+  format: yaml
+  label: Sketchfab oEmbed API
+  slug: sketchfab-oembed-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-oembed-api-openapi.yml
+- filename: sketchfab-oauth-api-openapi.yml
+  format: yaml
+  label: Sketchfab OAuth 2.0 API
+  slug: sketchfab-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/openapi/sketchfab-oauth-api-openapi.yml
 authorization_urls:
 - https://sketchfab.com/oauth2/authorize/
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: public_api.html
+  format: yaml
+  label: Paigo API
+  slug: paigo-api
+  spec_type: OpenAPI
+  url: https://paigo-public-information.s3.us-east-2.amazonaws.com/public_api.html
 authorization_urls: []
 description: ''
 docs: https://docs.paigo.tech/overview/getting-started-with-paigo

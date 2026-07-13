@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: SumUp REST API
+  slug: sumup-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/sumup/sumup-openapi/main/openapi.yaml
 authorization_urls:
 - https://api.sumup.com/authorize
 description: ''

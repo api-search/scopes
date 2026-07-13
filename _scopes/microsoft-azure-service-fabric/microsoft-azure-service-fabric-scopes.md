@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-service-fabric-openapi.yml
+  format: yaml
+  label: Azure Service Fabric REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-fabric/refs/heads/main/openapi/microsoft-azure-service-fabric-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

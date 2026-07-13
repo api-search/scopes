@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: monday-com-webhooks-asyncapi.yml
+  format: yaml
+  label: Monday.com API
+  slug: monday-com
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/asyncapi/monday-com-webhooks-asyncapi.yml
 authorization_urls:
 - https://auth.monday.com/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: gke-openapi.yml
+  format: yaml
+  label: Google Kubernetes Engine API
+  slug: google-kubernetes-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kubernetes-engine/refs/heads/main/openapi/gke-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-artifact-registry-openapi.yml
+  format: yaml
+  label: Google Artifact Registry
+  slug: google-artifact-registry
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-artifact-registry/refs/heads/main/openapi/google-artifact-registry-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-cloud-datastream-openapi.yml
+  format: yaml
+  label: Google Cloud Datastream API
+  slug: google-cloud-datastream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

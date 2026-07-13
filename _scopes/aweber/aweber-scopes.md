@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aweber-openapi.yml
+  format: yaml
+  label: AWeber REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-openapi.yml
 authorization_urls:
 - https://auth.aweber.com/oauth2/authorize
 description: ''

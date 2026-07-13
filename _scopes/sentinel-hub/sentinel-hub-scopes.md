@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: process
+  format: yaml
+  label: Sentinel Hub Process API
+  slug: process
+  spec_type: OpenAPI
+  url: https://docs.sentinel-hub.com/api/latest/reference/#tag/process
+- filename: catalog
+  format: yaml
+  label: Sentinel Hub Catalog API
+  slug: catalog
+  spec_type: OpenAPI
+  url: https://docs.sentinel-hub.com/api/latest/reference/#tag/catalog
+- filename: statistical
+  format: yaml
+  label: Sentinel Hub Statistical API
+  slug: statistical
+  spec_type: OpenAPI
+  url: https://docs.sentinel-hub.com/api/latest/reference/#tag/statistical
+- filename: batch_process
+  format: yaml
+  label: Sentinel Hub Batch Processing API
+  slug: batch
+  spec_type: OpenAPI
+  url: https://docs.sentinel-hub.com/api/latest/reference/#tag/batch_process
+- filename: byoc
+  format: yaml
+  label: Sentinel Hub BYOC API
+  slug: byoc
+  spec_type: OpenAPI
+  url: https://docs.sentinel-hub.com/api/latest/reference/#tag/byoc
 authorization_urls: []
 description: ''
 docs: ''

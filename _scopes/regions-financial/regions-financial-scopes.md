@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: regions-open-banking-openapi.yml
+  format: yaml
+  label: Regions Open Banking API
+  slug: regions-open-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/regions-financial/refs/heads/main/openapi/regions-open-banking-openapi.yml
 authorization_urls:
 - https://auth.regions.com/oauth/authorize
 description: ''

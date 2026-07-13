@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Xoxoday Plum Rewards API
+  slug: plum-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/openapi.yml
 authorization_urls: []
 description: ''
 docs: https://xoxoday.gitbook.io/plum/developer-resources/storefront-integration/api-endpoints/authorization

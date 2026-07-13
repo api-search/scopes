@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloud-storage-openapi.yml
+  format: yaml
+  label: Cloud Storage JSON API
+  slug: cloud-storage-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-storage/refs/heads/main/openapi/cloud-storage-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

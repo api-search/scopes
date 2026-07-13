@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: puzzle-io-openapi.yml
+  format: yaml
+  label: Puzzle Companies API
+  slug: puzzle-io-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
+- filename: puzzle-io-openapi.yml
+  format: yaml
+  label: Puzzle Transactions API
+  slug: puzzle-io-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
+- filename: puzzle-io-openapi.yml
+  format: yaml
+  label: Puzzle Ledger Accounts API
+  slug: puzzle-io-ledger-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
+- filename: puzzle-io-openapi.yml
+  format: yaml
+  label: Puzzle Journal Entries API
+  slug: puzzle-io-journal-entries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
+- filename: puzzle-io-openapi.yml
+  format: yaml
+  label: Puzzle Financial Reports API
+  slug: puzzle-io-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
+- filename: puzzle-io-openapi.yml
+  format: yaml
+  label: Puzzle Metrics API
+  slug: puzzle-io-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
+- filename: puzzle-io-openapi.yml
+  format: yaml
+  label: Puzzle Categories API
+  slug: puzzle-io-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
+- filename: puzzle-io-openapi.yml
+  format: yaml
+  label: Puzzle Integrations API
+  slug: puzzle-io-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/puzzle-io/refs/heads/main/openapi/puzzle-io-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

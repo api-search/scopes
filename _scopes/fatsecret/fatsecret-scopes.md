@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: fatsecret-platform-openapi.yml
+  format: yaml
+  label: FatSecret Platform API
+  slug: platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-platform-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

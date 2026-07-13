@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Cloud Storage JSON API
+  slug: google-cloud-storage-json-api
+  spec_type: OpenAPI
+  url: https://storage.googleapis.com/$discovery/rest?version=v1
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

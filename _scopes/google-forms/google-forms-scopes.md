@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-forms-api.yaml
+  format: yaml
+  label: Google Forms API v1
+  slug: google-forms-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/openapi/google-forms-api.yaml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

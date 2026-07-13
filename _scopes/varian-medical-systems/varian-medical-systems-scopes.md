@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: varian-aria-fhir-openapi.yml
+  format: yaml
+  label: ARIA FHIR API
+  slug: aria-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-aria-fhir-openapi.yml
 authorization_urls:
 - https://varian-smart.dynamicfhir.com/core/connect/authorize
 description: ''

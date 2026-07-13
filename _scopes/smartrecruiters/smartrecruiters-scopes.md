@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: smartrecruiters-posting-openapi.yml
+  format: yaml
+  label: SmartRecruiters Posting API
+  slug: posting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-posting-openapi.yml
+- filename: smartrecruiters-jobs-openapi.yml
+  format: yaml
+  label: SmartRecruiters Job API
+  slug: job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-jobs-openapi.yml
+- filename: smartrecruiters-candidates-openapi.yml
+  format: yaml
+  label: SmartRecruiters Candidate API
+  slug: candidate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-candidates-openapi.yml
 authorization_urls:
 - https://www.smartrecruiters.com/identity/oauth/allow
 description: ''

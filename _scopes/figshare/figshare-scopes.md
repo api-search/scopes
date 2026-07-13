@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: swagger.json
+  format: json
+  label: Figshare API
+  slug: figshare-api
+  spec_type: OpenAPI
+  url: https://docs.figshare.com/swagger.json
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

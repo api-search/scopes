@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: strava-openapi.yml
+  format: yaml
+  label: Strava API
+  slug: strava
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-openapi.yml
 authorization_urls:
 - https://www.strava.com/oauth/authorize
 description: ''

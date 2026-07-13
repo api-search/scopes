@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: flexport-openapi.yml
+  format: yaml
+  label: Flexport REST API
+  slug: flexport-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes

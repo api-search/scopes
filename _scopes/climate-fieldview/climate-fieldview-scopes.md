@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: climate-fieldview-platform-openapi.yml
+  format: yaml
+  label: Climate FieldView Platform API
+  slug: fieldview-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/openapi/climate-fieldview-platform-openapi.yml
 authorization_urls:
 - https://api.climate.com/api/oauth/authorize
 description: ''

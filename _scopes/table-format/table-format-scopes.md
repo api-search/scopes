@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: rest-catalog-open-api.yaml
+  format: yaml
+  label: Apache Iceberg REST Catalog API
+  slug: apache-iceberg-rest-catalog
+  spec_type: OpenAPI
+  url: https://github.com/apache/iceberg/blob/main/open-api/rest-catalog-open-api.yaml
+- filename: all.yaml
+  format: yaml
+  label: Unity Catalog
+  slug: unity-catalog
+  spec_type: OpenAPI
+  url: https://github.com/unitycatalog/unitycatalog/blob/main/api/all.yaml
 authorization_urls: []
 description: ''
 docs: ''

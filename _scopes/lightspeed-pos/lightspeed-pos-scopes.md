@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: lightspeed-pos-retail-x-series-openapi.yml
+  format: yaml
+  label: Lightspeed Retail X-Series API (Vend)
+  slug: retail-x-series
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-retail-x-series-openapi.yml
+- filename: lightspeed-pos-retail-r-series-openapi.yml
+  format: yaml
+  label: Lightspeed Retail R-Series API
+  slug: retail-r-series
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-retail-r-series-openapi.yml
+- filename: lightspeed-pos-restaurant-k-series-openapi.yml
+  format: yaml
+  label: Lightspeed Restaurant K-Series API
+  slug: restaurant-k-series
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-restaurant-k-series-openapi.yml
 authorization_urls:
 - /oauth/authorize
 - https://cloud.lightspeedapp.com/oauth/authorize.php

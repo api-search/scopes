@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: WHOOP API
+  slug: whoop-api
+  spec_type: OpenAPI
+  url: https://developer.whoop.com/api/
 authorization_urls:
 - https://api.prod.whoop.com/oauth/oauth2/auth
 description: ''

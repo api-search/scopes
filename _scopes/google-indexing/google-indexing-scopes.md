@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Indexing API
+  slug: google-indexing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/openapi/openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

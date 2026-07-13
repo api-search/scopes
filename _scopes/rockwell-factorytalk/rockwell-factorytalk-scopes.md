@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: rockwell-factorytalk-optix-openapi.yml
+  format: yaml
+  label: Rockwell FactoryTalk Optix REST API
+  slug: factorytalk-optix-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-optix-openapi.yml
+- filename: rockwell-factorytalk-realtime-asyncapi.yml
+  format: yaml
+  label: Rockwell FactoryTalk Hub API
+  slug: factorytalk-hub-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/asyncapi/rockwell-factorytalk-realtime-asyncapi.yml
 authorization_urls: []
 description: ''
 docs: ''

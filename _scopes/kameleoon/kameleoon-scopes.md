@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: kameleoon-openapi.yml
+  format: yaml
+  label: Kameleoon Automation API
+  slug: kameleoon-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-openapi.yml
 authorization_urls:
 - https://api.kameleoon.com/oauth/authorize
 description: ''

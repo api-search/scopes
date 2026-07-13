@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: guardant-health-openapi.yml
+  format: yaml
+  label: Guardant Health EMR Ordering Integration
+  slug: guardant-health-emr-ordering-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/openapi/guardant-health-openapi.yml
+- filename: guardant-health-openapi.yml
+  format: yaml
+  label: Guardant Health Results Delivery Integration
+  slug: guardant-health-results-delivery
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/openapi/guardant-health-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://guardanthealth.com/precision-oncology/for-institutional-partners/emr-integration-services/

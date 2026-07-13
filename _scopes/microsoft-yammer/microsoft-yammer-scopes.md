@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-yammer-openapi.yml
+  format: yaml
+  label: Yammer REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-openapi.yml
 authorization_urls:
 - https://www.yammer.com/dialog/oauth
 description: ''

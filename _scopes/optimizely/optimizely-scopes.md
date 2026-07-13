@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: optimizely-web-experimentation-openapi.yml
+  format: yaml
+  label: Optimizely Web Experimentation REST API
+  slug: web-experimentation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-web-experimentation-openapi.yml
+- filename: optimizely-feature-experimentation-openapi.yml
+  format: yaml
+  label: Optimizely Feature Experimentation REST API
+  slug: feature-experimentation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-feature-experimentation-openapi.yml
+- filename: optimizely-campaign-openapi.yml
+  format: yaml
+  label: Optimizely Campaign REST API
+  slug: campaign
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-campaign-openapi.yml
+- filename: optimizely-content-delivery-openapi.yml
+  format: yaml
+  label: Optimizely Content Delivery API
+  slug: content-delivery
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-content-delivery-openapi.yml
+- filename: optimizely-content-management-openapi.yml
+  format: yaml
+  label: Optimizely Content Management API
+  slug: content-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-content-management-openapi.yml
+- filename: optimizely-graph-openapi.yml
+  format: yaml
+  label: Optimizely Graph API
+  slug: graph
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-graph-openapi.yml
+- filename: optimizely-data-platform-openapi.yml
+  format: yaml
+  label: Optimizely Data Platform REST API
+  slug: data-platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-data-platform-openapi.yml
+- filename: optimizely-cmp-openapi.yml
+  format: yaml
+  label: Optimizely CMP Open REST API
+  slug: cmp
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-cmp-openapi.yml
+- filename: optimizely-commerce-service-openapi.yml
+  format: yaml
+  label: Optimizely Commerce Service API
+  slug: commerce-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-commerce-service-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.developers.optimizely.com/web-experimentation/docs/registration

@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: controlplane-rover-server-openapi.yml
+  format: yaml
+  label: TARDIS Rover API
+  slug: tardis-rover-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/controlplane-rover-server-openapi.yml
+- filename: controlplane-cpapi-openapi.yml
+  format: yaml
+  label: TARDIS Controlplane API
+  slug: tardis-controlplane-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/controlplane-cpapi-openapi.yml
+- filename: controlplane-identity-openapi.yml
+  format: yaml
+  label: TARDIS Identity API
+  slug: tardis-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/controlplane-identity-openapi.yml
+- filename: controlplane-discovery-application-openapi.yml
+  format: yaml
+  label: TARDIS Discovery Application API
+  slug: tardis-discovery-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/controlplane-discovery-application-openapi.yml
+- filename: controlplane-discovery-event-openapi.yml
+  format: yaml
+  label: TARDIS Discovery Event API
+  slug: tardis-discovery-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/controlplane-discovery-event-openapi.yml
+- filename: controlplane-discovery-stargate-openapi.yml
+  format: yaml
+  label: TARDIS Discovery Stargate API
+  slug: tardis-discovery-stargate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/controlplane-discovery-stargate-openapi.yml
+- filename: controlplane-file-manager-openapi.yml
+  format: yaml
+  label: TARDIS File Manager API
+  slug: tardis-file-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/controlplane-file-manager-openapi.yml
+- filename: controlplane-secret-manager-openapi.yml
+  format: yaml
+  label: TARDIS Secret Manager API
+  slug: tardis-secret-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/controlplane-secret-manager-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

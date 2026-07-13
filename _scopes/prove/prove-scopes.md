@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: prove-openapi.yml
+  format: yaml
+  label: Prove Identity Verification (v3 Flows)
+  slug: identity-verification-v3-flows
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-openapi.yml
+- filename: prove-openapi.yml
+  format: yaml
+  label: Prove Trust Score (Unified Authentication)
+  slug: trust-score
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-openapi.yml
+- filename: prove-openapi.yml
+  format: yaml
+  label: Prove Pre-Fill (Identity Discovery)
+  slug: pre-fill
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-openapi.yml
+- filename: prove-openapi.yml
+  format: yaml
+  label: Prove Auth
+  slug: auth
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-openapi.yml
+- filename: prove-openapi.yml
+  format: yaml
+  label: Prove Identity Manager
+  slug: identity
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.prove.com/tutorial/access-api-keys

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: tiaa-fdx-openapi.yml
+  format: yaml
+  label: TIAA Financial Data Exchange API
+  slug: tiaa-fdx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-fdx-openapi.yml
+- filename: tiaa-sia-openapi.yml
+  format: yaml
+  label: TIAA Secure Income Account API
+  slug: tiaa-sia-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/openapi/tiaa-sia-openapi.yml
 authorization_urls:
 - https://auth.tiaa.org/oauth2/authorize
 description: ''

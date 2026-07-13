@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: encompass-openapi.yml
+  format: yaml
+  label: Encompass Loan Management API
+  slug: encompass-loan-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-openapi.yml
+- filename: encompass-openapi.yml
+  format: yaml
+  label: Encompass Loan Pipeline API
+  slug: encompass-loan-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-openapi.yml
+- filename: encompass-openapi.yml
+  format: yaml
+  label: Encompass Borrower Pair & Applications API
+  slug: encompass-borrower-pair-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-openapi.yml
+- filename: encompass-openapi.yml
+  format: yaml
+  label: Encompass Contacts API
+  slug: encompass-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-openapi.yml
+- filename: encompass-openapi.yml
+  format: yaml
+  label: Encompass eFolder Documents & Attachments API
+  slug: encompass-efolder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-openapi.yml
+- filename: encompass-openapi.yml
+  format: yaml
+  label: Encompass Milestones & Associates API
+  slug: encompass-milestones-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-openapi.yml
+- filename: encompass-openapi.yml
+  format: yaml
+  label: Encompass Conditions API
+  slug: encompass-conditions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-openapi.yml
+- filename: encompass-openapi.yml
+  format: yaml
+  label: Encompass Users API
+  slug: encompass-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-openapi.yml
+- filename: encompass-openapi.yml
+  format: yaml
+  label: Encompass Webhooks API
+  slug: encompass-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/openapi/encompass-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.icemortgagetechnology.com/developer-connect/docs/authentication

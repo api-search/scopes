@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: monash-figshare.yaml
+  format: yaml
+  label: Monash University Research Repository (monash.figshare)
+  slug: figshare
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/monash/refs/heads/main/openapi/monash-figshare.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

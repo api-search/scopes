@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: epidemic-sound-partner-content-api-openapi.yml
+  format: yaml
+  label: Epidemic Sound Partner Content API
+  slug: epidemic-sound-partner-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-partner-content-api-openapi.yml
 authorization_urls:
 - https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
 description: ''

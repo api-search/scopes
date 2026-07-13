@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: paychex-payroll-companies-openapi.yml
+  format: yaml
+  label: Paychex Payroll Companies API
+  slug: paychex-payroll-companies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-payroll-companies-openapi.yml
+- filename: paychex-workers-openapi.yml
+  format: yaml
+  label: Paychex Workers API
+  slug: paychex-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-workers-openapi.yml
+- filename: paychex-time-openapi.yml
+  format: yaml
+  label: Paychex Time API
+  slug: paychex-time-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-time-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.paychex.com/getting-started/authentication

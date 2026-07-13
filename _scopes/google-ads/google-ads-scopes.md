@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-ads-api-openapi.yml
+  format: yaml
+  label: Google Ads API
+  slug: google-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

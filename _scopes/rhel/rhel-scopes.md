@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Red Hat Subscription Management API
+  slug: subscription-management-api
+  spec_type: OpenAPI
+  url: https://api.access.redhat.com/management/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Red Hat Insights API
+  slug: insights-api
+  spec_type: OpenAPI
+  url: https://cloud.redhat.com/api/insights/v1/openapi.json
+- filename: rhel-security-data-openapi.yml
+  format: yaml
+  label: Red Hat Security Data API
+  slug: security-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-security-data-openapi.yml
+- filename: openapi.json
+  format: json
+  label: Red Hat Insights Compliance API
+  slug: compliance-api
+  spec_type: OpenAPI
+  url: https://console.redhat.com/api/compliance/v2/openapi.json
+- filename: openapi.json
+  format: json
+  label: Red Hat Insights Vulnerability API
+  slug: vulnerability-api
+  spec_type: OpenAPI
+  url: https://console.redhat.com/api/vulnerability/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Red Hat Insights Patch API
+  slug: patch-api
+  spec_type: OpenAPI
+  url: https://console.redhat.com/api/patch/v3/openapi.json
+- filename: openapi.json
+  format: json
+  label: Red Hat Insights Host Inventory API
+  slug: inventory-api
+  spec_type: OpenAPI
+  url: https://console.redhat.com/api/inventory/v1/openapi.json
+- filename: openapi.json
+  format: json
+  label: Red Hat Insights Remediations API
+  slug: remediations-api
+  spec_type: OpenAPI
+  url: https://console.redhat.com/api/remediations/v1/openapi.json
 authorization_urls: []
 description: ''
 docs: https://docs.redhat.com/en/documentation/red_hat_insights/1-latest/html/using_the_red_hat_insights_api/apis-authentication

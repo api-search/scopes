@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: pushbullet-openapi.yml
+  format: yaml
+  label: Pushbullet HTTP API
+  slug: http-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-openapi.yml
+- filename: pushbullet-asyncapi.yml
+  format: yaml
+  label: Pushbullet Realtime Event Stream
+  slug: realtime-event-stream
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-asyncapi.yml
 authorization_urls:
 - https://www.pushbullet.com/authorize
 description: ''

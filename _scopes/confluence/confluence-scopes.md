@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: swagger.v3.json
+  format: json
+  label: Confluence Cloud REST API v1
+  slug: confluence-cloud-rest-api-v1
+  spec_type: OpenAPI
+  url: https://dac-static.atlassian.com/cloud/confluence/swagger.v3.json
+- filename: openapi.yaml
+  format: yaml
+  label: Confluence Cloud REST API v2
+  slug: confluence-cloud-rest-api-v2
+  spec_type: OpenAPI
+  url: https://developer.atlassian.com/cloud/confluence/rest/v2/api-spec/
 authorization_urls:
 - https://auth.atlassian.com/authorize
 description: ''

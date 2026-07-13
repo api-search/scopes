@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: camara-openapi.yml
+  format: yaml
+  label: CAMARA Quality On Demand API
+  slug: quality-on-demand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/camara/refs/heads/main/openapi/camara-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

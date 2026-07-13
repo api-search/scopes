@@ -1,4 +1,71 @@
 ---
+api_specs:
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Bookings API
+  slug: ownerrez-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Properties API
+  slug: ownerrez-properties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Listings API
+  slug: ownerrez-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Guests API
+  slug: ownerrez-guests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Inquiries API
+  slug: ownerrez-inquiries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Quotes API
+  slug: ownerrez-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Reviews API
+  slug: ownerrez-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Messages API
+  slug: ownerrez-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Custom Fields and Tags API
+  slug: ownerrez-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Payments and Financials API
+  slug: ownerrez-financials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
+- filename: ownerrez-openapi.yml
+  format: yaml
+  label: OwnerRez Webhook Subscriptions API
+  slug: ownerrez-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ownerrez/refs/heads/main/openapi/ownerrez-openapi.yml
 authorization_urls:
 - https://app.ownerrez.com/oauth/authorize
 description: ''

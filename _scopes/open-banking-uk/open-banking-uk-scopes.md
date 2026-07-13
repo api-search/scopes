@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: account-info-openapi.yaml
+  format: yaml
+  label: UK Open Banking Read/Write API
+  slug: uk-open-banking-readwrite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/OpenBankingUK/read-write-api-specs/master/dist/openapi/account-info-openapi.yaml
 authorization_urls:
 - https://authserver.example/authorization
 description: ''

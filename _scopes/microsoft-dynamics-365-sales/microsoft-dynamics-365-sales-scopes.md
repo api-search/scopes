@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-dynamics-365-sales-openapi.yml
+  format: yaml
+  label: Microsoft Dataverse Web API (Dynamics 365 Sales)
+  slug: dataverse-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/openapi/microsoft-dynamics-365-sales-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

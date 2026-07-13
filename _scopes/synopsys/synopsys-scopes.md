@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: synopsys-polaris-openapi.yml
+  format: yaml
+  label: Synopsys Polaris API
+  slug: polaris
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-polaris-openapi.yml
+- filename: synopsys-cloud-openlink-openapi.yml
+  format: yaml
+  label: Synopsys Cloud OpenLink API
+  slug: cloud-openlink
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-cloud-openlink-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

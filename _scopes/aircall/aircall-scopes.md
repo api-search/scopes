@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aircall-webhooks-asyncapi.yml
+  format: yaml
+  label: Aircall Webhooks API
+  slug: aircall-webhooks-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/asyncapi/aircall-webhooks-asyncapi.yml
 authorization_urls:
 - https://auth.aircall.io/oauth/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: storage-transfer-api-openapi.yml
+  format: yaml
+  label: Storage Transfer API
+  slug: storage-transfer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/storage-transfer-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

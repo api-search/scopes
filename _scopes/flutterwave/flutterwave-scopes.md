@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: flutterwave-payments-api-openapi.yml
+  format: yaml
+  label: Flutterwave Payments API
+  slug: flutterwave-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-payments-api-openapi.yml
+- filename: flutterwave-transfers-api-openapi.yml
+  format: yaml
+  label: Flutterwave Transfers API
+  slug: flutterwave-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-transfers-api-openapi.yml
+- filename: flutterwave-settlements-api-openapi.yml
+  format: yaml
+  label: Flutterwave Settlements API
+  slug: flutterwave-settlements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-settlements-api-openapi.yml
+- filename: flutterwave-wallets-api-openapi.yml
+  format: yaml
+  label: Flutterwave Wallets API
+  slug: flutterwave-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-wallets-api-openapi.yml
+- filename: flutterwave-banks-api-openapi.yml
+  format: yaml
+  label: Flutterwave Banks API
+  slug: flutterwave-banks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-banks-api-openapi.yml
+- filename: flutterwave-webhooks-api-openapi.yml
+  format: yaml
+  label: Flutterwave Webhooks API
+  slug: flutterwave-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.flutterwave.com/docs/authentication

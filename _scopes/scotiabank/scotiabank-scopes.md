@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: scotiabank-tranxact-openapi.yml
+  format: yaml
+  label: Scotia TranXact APIs
+  slug: scotia-tranxact
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-tranxact-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

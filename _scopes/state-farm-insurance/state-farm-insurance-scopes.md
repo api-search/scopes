@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: state-farm-insurance-renters-openapi.yml
+  format: yaml
+  label: Renters Insurance API
+  slug: renters-insurance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance/refs/heads/main/openapi/state-farm-insurance-renters-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

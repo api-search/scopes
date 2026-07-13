@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: scrive-openapi.yml
+  format: yaml
+  label: Scrive Documents API
+  slug: scrive-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-openapi.yml
+- filename: scrive-openapi.yml
+  format: yaml
+  label: Scrive Templates API
+  slug: scrive-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-openapi.yml
+- filename: scrive-openapi.yml
+  format: yaml
+  label: Scrive Signing API
+  slug: scrive-signing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-openapi.yml
+- filename: scrive-openapi.yml
+  format: yaml
+  label: Scrive e-ID Authentication API
+  slug: scrive-eid-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-openapi.yml
+- filename: scrive-openapi.yml
+  format: yaml
+  label: Scrive Attachments API
+  slug: scrive-attachments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-openapi.yml
+- filename: scrive-openapi.yml
+  format: yaml
+  label: Scrive Callbacks API
+  slug: scrive-callbacks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-openapi.yml
+- filename: scrive-openapi.yml
+  format: yaml
+  label: Scrive Access Control API
+  slug: scrive-access-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-openapi.yml
 authorization_urls:
 - https://oauth2.scrive.com/oauth2/authorization
 description: ''

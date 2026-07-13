@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: td-synnex-streamone-ion-openapi.yml
+  format: yaml
+  label: TD SYNNEX StreamOne Ion API
+  slug: streamone-ion
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/openapi/td-synnex-streamone-ion-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

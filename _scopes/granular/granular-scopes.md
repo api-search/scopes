@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: granular-farm-management-openapi.yml
+  format: yaml
+  label: Granular Farm Management API
+  slug: granular-farm-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-farm-management-openapi.yml
 authorization_urls:
 - https://auth.granular.ag/oauth/authorize
 description: ''

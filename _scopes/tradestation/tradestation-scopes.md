@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: tradestation-api-openapi.yml
+  format: yaml
+  label: TradeStation API
+  slug: tradestation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-api-openapi.yml
+- filename: tradestation-streaming-asyncapi.yml
+  format: yaml
+  label: TradeStation Streaming API
+  slug: tradestation-streaming
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/asyncapi/tradestation-streaming-asyncapi.yml
 authorization_urls:
 - https://signin.tradestation.com/authorize
 description: ''

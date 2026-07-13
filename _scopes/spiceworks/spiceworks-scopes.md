@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: spiceworks-cloud-apps-openapi.yml
+  format: yaml
+  label: Spiceworks Cloud Apps API
+  slug: spiceworks-cloud-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-cloud-apps-openapi.yml
 authorization_urls:
 - https://community.spiceworks.com/oauth/authorize
 description: ''

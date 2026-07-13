@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: $metadata
+  format: yaml
+  label: Dynamics 365 Sales API
+  slug: dynamics-365-sales-api
+  spec_type: OpenAPI
+  url: https://[org].api.crm.dynamics.com/api/data/v9.2/$metadata
+- filename: $metadata
+  format: yaml
+  label: Dynamics 365 Customer Service API
+  slug: dynamics-365-customer-service-api
+  spec_type: OpenAPI
+  url: https://[org].api.crm.dynamics.com/api/data/v9.2/$metadata
+- filename: openapi
+  format: yaml
+  label: Dynamics 365 Business Central API
+  slug: dynamics-365-business-central-api
+  spec_type: OpenAPI
+  url: https://docs.microsoft.com/dynamics365/business-central/dev-itpro/api-reference/v2.0/openapi
+- filename: microsoft-dynamics-365-dataverse-web-api-openapi.yml
+  format: yaml
+  label: Microsoft Dataverse Web API
+  slug: microsoft-dataverse-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365/refs/heads/main/openapi/microsoft-dynamics-365-dataverse-web-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
 description: ''

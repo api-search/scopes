@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: trioptima-trireduce-api-openapi.yml
+  format: yaml
+  label: Trioptima triReduce API
+  slug: trireduce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-trireduce-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

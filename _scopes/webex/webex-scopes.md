@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: webex-messaging-openapi.json
+  format: json
+  label: Webex Messaging
+  slug: messaging
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-messaging-openapi.json
+- filename: webex-meeting-openapi.json
+  format: json
+  label: Webex Meetings
+  slug: meetings
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-meeting-openapi.json
+- filename: webex-admin-openapi.json
+  format: json
+  label: Webex Admin
+  slug: admin
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-admin-openapi.json
+- filename: webex-cloud-calling-openapi.json
+  format: json
+  label: Webex Cloud Calling
+  slug: cloud-calling
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-cloud-calling-openapi.json
+- filename: webex-contact-center-openapi.json
+  format: json
+  label: Webex Contact Center
+  slug: contact-center
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-contact-center-openapi.json
+- filename: webex-device-openapi.json
+  format: json
+  label: Webex Devices
+  slug: devices
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-device-openapi.json
+- filename: webex-broadworks-openapi.json
+  format: json
+  label: Webex Broadworks Calling
+  slug: broadworks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-broadworks-openapi.json
+- filename: webex-ucm-openapi.json
+  format: json
+  label: Webex for UCM
+  slug: ucm
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-ucm-openapi.json
+- filename: webex-wholesale-openapi.json
+  format: json
+  label: Webex Wholesale
+  slug: wholesale
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/openapi/webex-wholesale-openapi.json
 authorization_urls:
 - /
 - https://webexapis.com/v1/authorize

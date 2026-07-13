@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zettle-finance-api-openapi.yaml
+  format: yaml
+  label: Zettle Finance API
+  slug: zettle-finance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-finance-api-openapi.yaml
 authorization_urls:
 - https://oauth.zettle.com/authorize
 description: ''

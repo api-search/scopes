@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Aha.io REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://www.aha.io/openapi.json
 authorization_urls:
 - https://{account-domain}.aha.io/oauth/authorize
 description: ''

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: pydantic-ai-discovery-openapi.yml
+  format: yaml
+  label: PydanticAI Agent Framework
+  slug: pydantic-ai-agent-framework
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-discovery-openapi.yml
+- filename: pydantic-ai-logfire-openapi.yml
+  format: yaml
+  label: Pydantic Logfire
+  slug: pydantic-logfire
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/openapi/pydantic-ai-logfire-openapi.yml
 authorization_urls:
 - api/oauth/authorize
 description: ''

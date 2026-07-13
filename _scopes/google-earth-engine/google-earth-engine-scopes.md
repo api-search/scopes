@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: earth-engine.yml
+  format: yaml
+  label: Google Earth Engine REST API v1
+  slug: google-earth-engine-rest-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/openapi/earth-engine.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

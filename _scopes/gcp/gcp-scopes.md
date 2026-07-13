@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: rest
+  format: yaml
+  label: Compute Engine API
+  slug: compute-engine
+  spec_type: OpenAPI
+  url: https://compute.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Cloud Storage API
+  slug: cloud-storage
+  spec_type: OpenAPI
+  url: https://storage.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Cloud Functions API
+  slug: cloud-functions
+  spec_type: OpenAPI
+  url: https://cloudfunctions.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Cloud Pub/Sub API
+  slug: cloud-pubsub
+  spec_type: OpenAPI
+  url: https://pubsub.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: BigQuery API
+  slug: bigquery
+  spec_type: OpenAPI
+  url: https://bigquery.googleapis.com/$discovery/rest?version=v2
+- filename: rest
+  format: yaml
+  label: Cloud Vision API
+  slug: cloud-vision
+  spec_type: OpenAPI
+  url: https://vision.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Cloud Natural Language API
+  slug: cloud-natural-language
+  spec_type: OpenAPI
+  url: https://language.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Kubernetes Engine API
+  slug: kubernetes-engine
+  spec_type: OpenAPI
+  url: https://container.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Cloud SQL Admin API
+  slug: cloud-sql
+  spec_type: OpenAPI
+  url: https://sqladmin.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Cloud Firestore API
+  slug: cloud-firestore
+  spec_type: OpenAPI
+  url: https://firestore.googleapis.com/$discovery/rest?version=v1
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

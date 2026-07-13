@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: hostaway-listings-api-openapi.yml
+  format: yaml
+  label: Hostaway Listings API
+  slug: hostaway-listings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listings-api-openapi.yml
+- filename: hostaway-reservations-api-openapi.yml
+  format: yaml
+  label: Hostaway Reservations API
+  slug: hostaway-reservations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservations-api-openapi.yml
+- filename: hostaway-calendar-api-openapi.yml
+  format: yaml
+  label: Hostaway Calendar API
+  slug: hostaway-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-calendar-api-openapi.yml
+- filename: hostaway-webhooks-api-openapi.yml
+  format: yaml
+  label: Hostaway Webhooks API
+  slug: hostaway-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-maps-openapi.yml
+  format: yaml
+  label: Azure Maps Search API
+  slug: azure-maps-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/openapi/microsoft-azure-maps-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

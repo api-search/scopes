@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: charliehr-openapi.yml
+  format: yaml
+  label: CharlieHR Team Members
+  slug: team-members
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-openapi.yml
+- filename: charliehr-openapi.yml
+  format: yaml
+  label: CharlieHR Leave / Absences
+  slug: leave-absences
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-openapi.yml
+- filename: charliehr-openapi.yml
+  format: yaml
+  label: CharlieHR Leave Allowances
+  slug: leave-allowances
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-openapi.yml
+- filename: charliehr-openapi.yml
+  format: yaml
+  label: CharlieHR Company
+  slug: company
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.charliehr.com/api_docs/

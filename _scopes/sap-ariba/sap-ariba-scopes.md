@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: sap-ariba-procurement-api.yml
+  format: yaml
+  label: SAP Ariba Procurement API
+  slug: sap-ariba-procurement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/openapi/sap-ariba-procurement-api.yml
+- filename: openapi.json
+  format: json
+  label: SAP Ariba Sourcing API
+  slug: sap-ariba-sourcing-api
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/sourcing/openapi.json
+- filename: openapi.json
+  format: json
+  label: SAP Ariba Supplier Management API
+  slug: sap-ariba-supplier-management-api
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/supplier/openapi.json
+- filename: openapi.json
+  format: json
+  label: SAP Ariba Contract Management API
+  slug: sap-ariba-contract-management-api
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/contracts/openapi.json
+- filename: openapi.json
+  format: json
+  label: SAP Ariba Analytical Reporting API
+  slug: sap-ariba-analytical-reporting-api
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/analytics/openapi.json
+- filename: openapi.json
+  format: json
+  label: SAP Ariba Invoice Management API
+  slug: sap-ariba-invoice-management-api
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/invoices/openapi.json
 authorization_urls: []
 description: ''
 docs: https://help.sap.com/docs/ariba-apis/help-for-sap-ariba-developer-portal/sap-ariba-developer-portal-authentication

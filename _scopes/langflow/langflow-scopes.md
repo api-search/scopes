@@ -1,4 +1,83 @@
 ---
+api_specs:
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow API
+  slug: langflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow Flows API
+  slug: langflow-flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow Run API
+  slug: langflow-run-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow Build API
+  slug: langflow-build-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow Projects API
+  slug: langflow-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow Files API
+  slug: langflow-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow Monitor API
+  slug: langflow-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow Traces API
+  slug: langflow-traces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow Users API
+  slug: langflow-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow MCP API
+  slug: langflow-mcp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow Workflow API
+  slug: langflow-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow OpenAI Responses API
+  slug: langflow-openai-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
+- filename: langflow-openapi.yml
+  format: yaml
+  label: Langflow API Keys API
+  slug: langflow-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.langflow.org/api-keys-and-authentication

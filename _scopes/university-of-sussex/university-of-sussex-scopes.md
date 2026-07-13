@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-sussex-figshare-repository.yaml
+  format: yaml
+  label: University of Sussex Research Repository (Figshare)
+  slug: figshare-repository
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-figshare-repository.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

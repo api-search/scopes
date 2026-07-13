@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: disqus-openapi.yml
+  format: yaml
+  label: Disqus Public API
+  slug: public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/disqus/refs/heads/main/openapi/disqus-openapi.yml
 authorization_urls:
 - https://disqus.com/api/oauth/2.0/authorize/
 description: ''

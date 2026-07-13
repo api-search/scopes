@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-machine-learning-openapi.yml
+  format: yaml
+  label: Azure Machine Learning REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/openapi/microsoft-azure-machine-learning-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

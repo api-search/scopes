@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: airflow-openapi.yml
+  format: yaml
+  label: Apache Airflow API
+  slug: airflow
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airflow/refs/heads/main/openapi/airflow-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://airflow.apache.org/docs/apache-airflow/stable/security/api.html

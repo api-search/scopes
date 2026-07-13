@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Mangopay REST API
+  slug: mangopay-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/openapi/openapi.json
 authorization_urls: []
 description: ''
 docs: https://docs.mangopay.com/api-reference/overview/api-keys/scopes

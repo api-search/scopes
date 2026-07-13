@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: meditech-fhir-openapi.yml
+  format: yaml
+  label: Meditech Expanse FHIR API
+  slug: meditech-expanse-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-fhir-openapi.yml
 authorization_urls:
 - https://yourhospital.meditech.com/oauth/authorize
 description: ''

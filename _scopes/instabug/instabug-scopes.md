@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: instabug-mcp-server-openapi.yml
+  format: yaml
+  label: Luciq MCP Server
+  slug: mcp-server
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-mcp-server-openapi.yml
+- filename: instabug-webhooks-asyncapi.yml
+  format: yaml
+  label: Luciq Webhooks
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/asyncapi/instabug-webhooks-asyncapi.yml
 authorization_urls:
 - https://api.luciq.ai/oauth/authorize
 description: ''

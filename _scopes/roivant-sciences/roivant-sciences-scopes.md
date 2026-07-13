@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: datavant-healthjump-ehr-openapi.yml
+  format: yaml
+  label: Datavant Healthjump EHR Integration API
+  slug: datavant-healthjump-ehr
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/openapi/datavant-healthjump-ehr-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

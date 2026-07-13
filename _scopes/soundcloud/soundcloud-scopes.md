@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: soundcloud-openapi.yml
+  format: yaml
+  label: SoundCloud API
+  slug: platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-openapi.yml
 authorization_urls:
 - https://secure.soundcloud.com/authorize
 description: ''

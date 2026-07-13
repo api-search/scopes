@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: teachable-admin-openapi.yml
+  format: yaml
+  label: Teachable Admin API
+  slug: teachable-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-admin-openapi.yml
+- filename: teachable-oauth-openapi.yml
+  format: yaml
+  label: Teachable OAuth API
+  slug: teachable-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teachable/refs/heads/main/openapi/teachable-oauth-openapi.yml
 authorization_urls:
 - https://developers.teachable.com/oauth/authorize
 description: ''

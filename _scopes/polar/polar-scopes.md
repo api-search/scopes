@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: swagger.yaml
+  format: yaml
+  label: Polar AccessLink API
+  slug: polar-accesslink-api
+  spec_type: OpenAPI
+  url: https://www.polar.com/accesslink-api/swagger.yaml
+- filename: swagger.yaml
+  format: yaml
+  label: Polar TeamPro API
+  slug: polar-teampro-api
+  spec_type: OpenAPI
+  url: https://www.polar.com/teampro-api/swagger.yaml
 authorization_urls:
 - https://flow.polar.com/oauth2/authorization
 - https://auth.polar.com/oauth/authorize

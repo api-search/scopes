@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-power-platform-openapi.yml
+  format: yaml
+  label: Microsoft Dataverse Web API
+  slug: dataverse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/openapi/microsoft-power-platform-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

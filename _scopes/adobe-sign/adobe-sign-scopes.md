@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi
+  format: yaml
+  label: Adobe Acrobat Sign REST API
+  slug: adobe-acrobat-sign-api
+  spec_type: OpenAPI
+  url: https://developer.adobe.com/acrobat-sign/docs/overview/sdks/openapi
 authorization_urls:
 - https://secure.adobesign.com/public/oauth/v2
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: otter-public-api-openapi.yml
+  format: yaml
+  label: Otter Public API
+  slug: public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/openapi/otter-public-api-openapi.yml
 authorization_urls:
 - /v1/auth/oauth2/authorize
 description: ''

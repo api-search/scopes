@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: uon-open-research-figshare.yaml
+  format: yaml
+  label: Open Research Newcastle (Figshare REST API)
+  slug: open-research-figshare
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/openapi/uon-open-research-figshare.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

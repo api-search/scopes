@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: nextdoor-openapi.yml
+  format: yaml
+  label: Nextdoor
+  slug: nextdoor
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/openapi/nextdoor-openapi.yml
 authorization_urls:
 - https://auth.nextdoor.com/v3/authorize
 description: ''

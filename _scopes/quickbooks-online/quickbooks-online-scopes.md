@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi-specifications
+  format: yaml
+  label: QuickBooks Online Accounting API
+  slug: accounting-api
+  spec_type: OpenAPI
+  url: https://developer.intuit.com/app/developer/qbo/docs/develop/explore-the-quickbooks-online-api/openapi-specifications
 authorization_urls:
 - https://appcenter.intuit.com/connect/oauth2
 description: ''

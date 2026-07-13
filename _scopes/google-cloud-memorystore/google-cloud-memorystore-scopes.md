@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloud-memorystore-openapi.yml
+  format: yaml
+  label: Memorystore for Redis API
+  slug: memorystore-for-redis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-memorystore/refs/heads/main/openapi/cloud-memorystore-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

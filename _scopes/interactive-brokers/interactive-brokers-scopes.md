@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: interactive-brokers-web-api-openapi.yml
+  format: yaml
+  label: Interactive Brokers Web API
+  slug: web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-web-api-openapi.yml
 authorization_urls:
 - https://www.interactivebrokers.com/authorize
 description: ''

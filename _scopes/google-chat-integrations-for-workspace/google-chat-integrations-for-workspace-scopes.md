@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-chat-integrations-for-workspace-openapi.yml
+  format: yaml
+  label: Google Chat API
+  slug: chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

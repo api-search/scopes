@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: truist-personal-small-business-accounts-openapi.yml
+  format: yaml
+  label: Truist Personal and Small Business Accounts API
+  slug: truist-personal-small-business-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-personal-small-business-accounts-openapi.yml
+- filename: truist-personal-small-business-transactions-openapi.yml
+  format: yaml
+  label: Truist Personal and Small Business Transactions API
+  slug: truist-personal-small-business-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-personal-small-business-transactions-openapi.yml
+- filename: truist-commercial-accounts-openapi.yml
+  format: yaml
+  label: Truist Commercial Accounts API
+  slug: truist-commercial-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-commercial-accounts-openapi.yml
+- filename: truist-commercial-account-transactions-openapi.yml
+  format: yaml
+  label: Truist Commercial Account Transactions API
+  slug: truist-commercial-account-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-commercial-account-transactions-openapi.yml
 authorization_urls:
 - https://api.truist.com/oauth2/authorize
 description: ''

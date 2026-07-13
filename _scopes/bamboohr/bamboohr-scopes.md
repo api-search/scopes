@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: bamboohr-openapi.yml
+  format: yaml
+  label: BambooHR REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-openapi.yml
+- filename: bamboohr-asyncapi.yml
+  format: yaml
+  label: BambooHR Webhooks
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-asyncapi.yml
 authorization_urls:
 - https://api.bamboohr.com/oauth/authorize.php
 description: ''

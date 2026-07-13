@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: envato-openapi.yml
+  format: yaml
+  label: Envato Market API
+  slug: market
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-openapi.yml
 authorization_urls:
 - https://api.envato.com/authorization
 description: ''

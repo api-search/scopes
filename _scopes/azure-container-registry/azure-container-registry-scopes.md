@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-container-registry-openapi.yaml
+  format: yaml
+  label: Azure Container Registry
+  slug: azure-container-registry
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-openapi.yaml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

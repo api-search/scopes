@@ -1,4 +1,77 @@
 ---
+api_specs:
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Connect API
+  slug: bud-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud First-Party Ingestion API
+  slug: bud-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Customers Platform API
+  slug: bud-customers-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Financial Data API
+  slug: bud-financial-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Enrichment API
+  slug: bud-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Financial Insights API
+  slug: bud-financial-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Intelligent Search API
+  slug: bud-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Affordability and Assess API
+  slug: bud-affordability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Customer Characteristics API
+  slug: bud-characteristics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Goals and Budgets API
+  slug: bud-goals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Payments API
+  slug: bud-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
+- filename: bud-platform-openapi.yml
+  format: yaml
+  label: Bud Embedded Widgets API
+  slug: bud-widgets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/openapi/bud-platform-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.thisisbud.com/docs/authentication

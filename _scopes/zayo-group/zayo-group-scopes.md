@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zayo-group-openapi.yml
+  format: yaml
+  label: Zayo Group Holdings API
+  slug: zayo-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/openapi/zayo-group-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.zayo.com/docs/getting-started

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: spec
+  format: yaml
+  label: Culture Amp Public API
+  slug: culture-amp-public-api
+  spec_type: OpenAPI
+  url: https://api.cultureamp.com/spec
 authorization_urls: []
 description: ''
 docs: ''

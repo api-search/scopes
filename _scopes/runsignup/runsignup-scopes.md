@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: runsignup-openapi.yml
+  format: yaml
+  label: RunSignup API
+  slug: runsignup
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-openapi.yml
 authorization_urls:
 - https://runsignup.com/OAuth/Authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Cloud KMS API
+  slug: google-cloud-kms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

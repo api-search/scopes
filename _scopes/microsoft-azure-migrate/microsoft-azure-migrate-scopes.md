@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-migrate-openapi.yml
+  format: yaml
+  label: Azure Migrate Projects API
+  slug: azure-migrate-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/openapi/microsoft-azure-migrate-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ups-shipping-openapi.yml
+  format: yaml
+  label: UPS Shipping API
+  slug: ups-shipping
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/openapi/ups-shipping-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.ups.com/api/reference/oauth/client-credentials

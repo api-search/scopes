@@ -1,4 +1,107 @@
 ---
+api_specs:
+- filename: sap-sd-sales-order-openapi.yml
+  format: yaml
+  label: Sales Order API
+  slug: sales-order
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-sales-order-openapi.yml
+- filename: sap-sd-customer-master-data-openapi.yml
+  format: yaml
+  label: Customer Master Data API
+  slug: customer-master-data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-customer-master-data-openapi.yml
+- filename: sap-sd-outbound-delivery-openapi.yml
+  format: yaml
+  label: Outbound Delivery API
+  slug: outbound-delivery
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-outbound-delivery-openapi.yml
+- filename: sap-sd-billing-document-openapi.yml
+  format: yaml
+  label: Billing Document API
+  slug: billing-document
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-billing-document-openapi.yml
+- filename: sap-sd-pricing-openapi.yml
+  format: yaml
+  label: Pricing API
+  slug: pricing
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-pricing-openapi.yml
+- filename: sap-sd-sales-quotation-openapi.yml
+  format: yaml
+  label: Sales Quotation API
+  slug: sales-quotation
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-sales-quotation-openapi.yml
+- filename: sap-sd-credit-management-openapi.yml
+  format: yaml
+  label: Credit Management API
+  slug: credit-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-credit-management-openapi.yml
+- filename: sap-sd-material-master-openapi.yml
+  format: yaml
+  label: Material Master API
+  slug: material-master
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-material-master-openapi.yml
+- filename: sap-sd-credit-memo-request-openapi.yml
+  format: yaml
+  label: Credit Memo Request API
+  slug: credit-memo-request
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-credit-memo-request-openapi.yml
+- filename: sap-sd-debit-memo-request-openapi.yml
+  format: yaml
+  label: Debit Memo Request API
+  slug: debit-memo-request
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-debit-memo-request-openapi.yml
+- filename: sap-sd-sales-contract-openapi.yml
+  format: yaml
+  label: Sales Contract API
+  slug: sales-contract
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-sales-contract-openapi.yml
+- filename: sap-sd-sales-inquiry-openapi.yml
+  format: yaml
+  label: Sales Inquiry API
+  slug: sales-inquiry
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-sales-inquiry-openapi.yml
+- filename: sap-sd-sales-scheduling-agreement-openapi.yml
+  format: yaml
+  label: Sales Scheduling Agreement API
+  slug: sales-scheduling-agreement
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-sales-scheduling-agreement-openapi.yml
+- filename: sap-sd-customer-return-openapi.yml
+  format: yaml
+  label: Customer Return API
+  slug: customer-return
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-customer-return-openapi.yml
+- filename: sap-sd-customer-returns-delivery-openapi.yml
+  format: yaml
+  label: Customer Returns Delivery API
+  slug: customer-returns-delivery
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-customer-returns-delivery-openapi.yml
+- filename: sap-sd-customer-material-openapi.yml
+  format: yaml
+  label: Customer Material API
+  slug: customer-material
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-customer-material-openapi.yml
+- filename: sap-sd-inbound-delivery-openapi.yml
+  format: yaml
+  label: Inbound Delivery API
+  slug: inbound-delivery
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/openapi/sap-sd-inbound-delivery-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

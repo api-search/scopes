@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-document-intelligence-openapi.json
+  format: json
+  label: Azure AI Document Intelligence REST API
+  slug: rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-openapi.json
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

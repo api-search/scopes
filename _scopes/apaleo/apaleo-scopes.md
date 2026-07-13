@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: apaleo-openapi.yml
+  format: yaml
+  label: apaleo Booking API
+  slug: booking
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
+- filename: apaleo-openapi.yml
+  format: yaml
+  label: apaleo Inventory API
+  slug: inventory
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
+- filename: apaleo-openapi.yml
+  format: yaml
+  label: apaleo Rate Plan API
+  slug: rateplan
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
+- filename: apaleo-openapi.yml
+  format: yaml
+  label: apaleo Availability API
+  slug: availability
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
+- filename: apaleo-openapi.yml
+  format: yaml
+  label: apaleo Finance API
+  slug: finance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
+- filename: apaleo-openapi.yml
+  format: yaml
+  label: apaleo Settings API
+  slug: settings
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
+- filename: apaleo-openapi.yml
+  format: yaml
+  label: apaleo Webhook API
+  slug: webhooks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-openapi.yml
 authorization_urls:
 - https://identity.apaleo.com/connect/authorize
 description: ''

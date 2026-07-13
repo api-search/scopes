@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: chats.yml
+  format: yaml
+  label: Zoho Cliq API
+  slug: zoho-cliq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/chats.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''

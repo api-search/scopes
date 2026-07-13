@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: moesif-openapi.yml
+  format: yaml
+  label: Moesif Management API
+  slug: moesif
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/openapi/moesif-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

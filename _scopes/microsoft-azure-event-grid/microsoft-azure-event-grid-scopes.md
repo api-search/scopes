@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-event-grid-openapi.yml
+  format: yaml
+  label: Azure Event Grid API
+  slug: azure-event-grid-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-grid/refs/heads/main/openapi/microsoft-azure-event-grid-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

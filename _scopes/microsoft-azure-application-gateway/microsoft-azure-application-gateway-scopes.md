@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-application-gateway-openapi.yml
+  format: yaml
+  label: Azure Application Gateway REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/openapi/microsoft-azure-application-gateway-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

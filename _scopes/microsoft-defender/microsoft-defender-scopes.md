@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: microsoft-defender-for-endpoint-api-openapi.yml
+  format: yaml
+  label: Microsoft Defender for Endpoint API
+  slug: microsoft-defender-for-endpoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/openapi/microsoft-defender-for-endpoint-api-openapi.yml
+- filename: graph-explorer
+  format: yaml
+  label: Microsoft Graph Security API
+  slug: microsoft-graph-security-api
+  spec_type: OpenAPI
+  url: https://developer.microsoft.com/en-us/graph/graph-explorer
 authorization_urls:
 - https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
 description: ''

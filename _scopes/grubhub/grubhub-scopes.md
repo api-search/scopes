@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: grubhub-menu-openapi.yml
+  format: yaml
+  label: Grubhub Menu API
+  slug: menu-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-menu-openapi.yml
+- filename: grubhub-orders-openapi.yml
+  format: yaml
+  label: Grubhub Orders API
+  slug: orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-orders-openapi.yml
+- filename: grubhub-merchant-data-openapi.yml
+  format: yaml
+  label: Grubhub Merchant Data API
+  slug: merchant-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchant-data-openapi.yml
+- filename: grubhub-merchant-schedules-openapi.yml
+  format: yaml
+  label: Grubhub Merchant Schedules API
+  slug: merchant-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-merchant-schedules-openapi.yml
+- filename: grubhub-deliveries-openapi.yml
+  format: yaml
+  label: Grubhub Deliveries API
+  slug: deliveries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-deliveries-openapi.yml
+- filename: grubhub-onboarding-openapi.yml
+  format: yaml
+  label: Grubhub Onboarding API
+  slug: onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-onboarding-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://grubhub-developers.zendesk.com/hc/en-us/articles/115004598023-Open-ID-Authentication

@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: servicetitan-crm-api-openapi.yml
+  format: yaml
+  label: ServiceTitan CRM API
+  slug: servicetitan-crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/openapi/servicetitan-crm-api-openapi.yml
+- filename: servicetitan-jpm-api-openapi.yml
+  format: yaml
+  label: ServiceTitan Job Planning & Management API
+  slug: servicetitan-jpm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/openapi/servicetitan-jpm-api-openapi.yml
+- filename: servicetitan-dispatch-api-openapi.yml
+  format: yaml
+  label: ServiceTitan Dispatch API
+  slug: servicetitan-dispatch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/openapi/servicetitan-dispatch-api-openapi.yml
+- filename: servicetitan-accounting-api-openapi.yml
+  format: yaml
+  label: ServiceTitan Accounting API
+  slug: servicetitan-accounting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/openapi/servicetitan-accounting-api-openapi.yml
+- filename: servicetitan-pricebook-api-openapi.yml
+  format: yaml
+  label: ServiceTitan Pricebook API
+  slug: servicetitan-pricebook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/openapi/servicetitan-pricebook-api-openapi.yml
+- filename: servicetitan-inventory-api-openapi.yml
+  format: yaml
+  label: ServiceTitan Inventory API
+  slug: servicetitan-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/openapi/servicetitan-inventory-api-openapi.yml
+- filename: servicetitan-equipment-systems-api-openapi.yml
+  format: yaml
+  label: ServiceTitan Equipment Systems API
+  slug: servicetitan-equipment-systems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/openapi/servicetitan-equipment-systems-api-openapi.yml
+- filename: servicetitan-settings-api-openapi.yml
+  format: yaml
+  label: ServiceTitan Settings API
+  slug: servicetitan-settings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/openapi/servicetitan-settings-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.servicetitan.io/docs/oauth20/

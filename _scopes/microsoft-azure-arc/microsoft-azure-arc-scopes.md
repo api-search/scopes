@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-arc-openapi.yml
+  format: yaml
+  label: Azure Arc REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-arc/refs/heads/main/openapi/microsoft-azure-arc-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

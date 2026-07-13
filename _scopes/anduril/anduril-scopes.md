@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: anduril-openapi.yml
+  format: yaml
+  label: Anduril Lattice SDK
+  slug: lattice-sdk
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.anduril.com/reference/rest/oauth/get-token

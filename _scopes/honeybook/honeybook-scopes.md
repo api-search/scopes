@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: honeybook-openapi.yml
+  format: yaml
+  label: HoneyBook Clients & Contacts API
+  slug: honeybook-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-openapi.yml
+- filename: honeybook-openapi.yml
+  format: yaml
+  label: HoneyBook Projects API
+  slug: honeybook-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-openapi.yml
+- filename: honeybook-openapi.yml
+  format: yaml
+  label: HoneyBook Contracts API
+  slug: honeybook-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-openapi.yml
+- filename: honeybook-openapi.yml
+  format: yaml
+  label: HoneyBook Proposals API
+  slug: honeybook-proposals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-openapi.yml
+- filename: honeybook-openapi.yml
+  format: yaml
+  label: HoneyBook Invoices & Payments API
+  slug: honeybook-invoices-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-openapi.yml
+- filename: honeybook-openapi.yml
+  format: yaml
+  label: HoneyBook Scheduler API
+  slug: honeybook-scheduler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-openapi.yml
+- filename: honeybook-openapi.yml
+  format: yaml
+  label: HoneyBook Webhooks / Automation Events
+  slug: honeybook-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-openapi.yml
 authorization_urls:
 - https://api.honeybook.com/oauth/authorize
 description: ''

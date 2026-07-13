@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: hyperscience-openapi.yml
+  format: yaml
+  label: Hyperscience REST API
+  slug: rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://help.hyperscience.ai/deployment/docs/machine-to-machine-authentication-with-oauth-20

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Cloud Armor API
+  slug: google-cloud-armor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

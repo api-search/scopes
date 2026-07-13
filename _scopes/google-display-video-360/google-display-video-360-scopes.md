@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Display & Video 360 API
+  slug: google-display-video-360-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

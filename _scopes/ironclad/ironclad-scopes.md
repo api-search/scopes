@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: ironclad-public-api-openapi.yml
+  format: yaml
+  label: Ironclad Public API
+  slug: ironclad-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-public-api-openapi.yml
+- filename: ironclad-oauth-20-api-openapi.yml
+  format: yaml
+  label: Ironclad OAuth 2.0 API
+  slug: ironclad-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-oauth-20-api-openapi.yml
+- filename: ironclad-scim-api-openapi.yml
+  format: yaml
+  label: Ironclad SCIM 2.0 API
+  slug: ironclad-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-scim-api-openapi.yml
 authorization_urls:
 - https://na1.ironcladapp.com/oauth/authorize
 description: ''

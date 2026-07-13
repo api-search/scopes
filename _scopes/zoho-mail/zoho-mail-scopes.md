@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Zoho Mail API
+  slug: zoho-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/openapi.json
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''

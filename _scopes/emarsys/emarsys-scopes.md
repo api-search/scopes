@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: emarsys-openapi.yml
+  format: yaml
+  label: SAP Emarsys Core API
+  slug: core-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings

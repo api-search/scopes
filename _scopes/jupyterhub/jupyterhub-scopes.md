@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: jupyterhub-rest-api-openapi.yml
+  format: yaml
+  label: JupyterHub REST API
+  slug: jupyterhub-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-rest-api-openapi.yml
 authorization_urls:
 - /hub/api/oauth2/authorize
 description: ''

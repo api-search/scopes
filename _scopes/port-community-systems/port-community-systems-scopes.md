@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: portbase-port-community-openapi.yml
+  format: yaml
+  label: Portbase Port Community System API
+  slug: portbase
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/portbase-port-community-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

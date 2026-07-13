@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-data-factory-openapi.yml
+  format: yaml
+  label: Azure Data Factory REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

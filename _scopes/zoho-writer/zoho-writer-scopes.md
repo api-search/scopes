@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zoho-writer-openapi.json
+  format: json
+  label: Zoho Writer API
+  slug: zoho-writer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-openapi.json
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''

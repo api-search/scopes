@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: gorgias-openapi.yml
+  format: yaml
+  label: Gorgias REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-openapi.yml
+- filename: gorgias-asyncapi.yml
+  format: yaml
+  label: Gorgias Webhooks
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/asyncapi/gorgias-asyncapi.yml
 authorization_urls:
 - https://{account}.gorgias.com/oauth/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-cloud-dataflow-api-openapi.yml
+  format: yaml
+  label: Google Cloud Dataflow API
+  slug: google-cloud-dataflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataflow/refs/heads/main/openapi/google-cloud-dataflow-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

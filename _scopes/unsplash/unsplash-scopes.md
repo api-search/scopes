@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: unsplash-openapi.yml
+  format: yaml
+  label: Unsplash API
+  slug: unsplash
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-openapi.yml
 authorization_urls:
 - https://unsplash.com/oauth/authorize
 description: ''

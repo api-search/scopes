@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: wahoo-cloud-api-openapi.yml
+  format: yaml
+  label: Wahoo Cloud API
+  slug: wahoo-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-cloud-api-openapi.yml
 authorization_urls:
 - https://api.wahooligan.com/oauth/authorize
 description: ''

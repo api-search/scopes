@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: pulsoid-openapi.yml
+  format: yaml
+  label: Pulsoid
+  slug: pulsoid
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-openapi.yml
 authorization_urls:
 - https://pulsoid.net/oauth2/authorize
 description: ''

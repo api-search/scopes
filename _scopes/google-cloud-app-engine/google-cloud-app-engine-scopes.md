@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: appengine-openapi.yml
+  format: yaml
+  label: Google Cloud App Engine Admin API
+  slug: google-cloud-app-engine-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/appengine-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

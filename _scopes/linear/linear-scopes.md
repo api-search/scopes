@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: linear-graphql-openapi.yml
+  format: yaml
+  label: Linear GraphQL API
+  slug: linear-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/openapi/linear-graphql-openapi.yml
+- filename: linear-webhooks-asyncapi.yml
+  format: yaml
+  label: Linear Webhooks API
+  slug: linear-webhooks-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/asyncapi/linear-webhooks-asyncapi.yml
 authorization_urls:
 - https://linear.app/oauth/authorize
 description: ''

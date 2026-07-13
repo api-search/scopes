@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: gridshare-partner-api-openapi.yml
+  format: yaml
+  label: Gridshare Partner API
+  slug: gridshare-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/gridshare-partner-api-openapi.yml
+- filename: gridshare-customer-api-openapi.yml
+  format: yaml
+  label: Gridshare Customer API
+  slug: gridshare-customer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/openapi/gridshare-customer-api-openapi.yml
 authorization_urls:
 - https://lunar-customer-prod-us-west-1.auth.us-west-1.amazoncognito.com/oauth2/authorize
 description: ''

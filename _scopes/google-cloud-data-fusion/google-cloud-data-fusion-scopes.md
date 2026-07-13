@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-cloud-data-fusion-openapi.yml
+  format: yaml
+  label: Google Cloud Data Fusion API
+  slug: google-cloud-data-fusion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

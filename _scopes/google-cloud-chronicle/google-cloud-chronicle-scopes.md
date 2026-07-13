@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: chronicle-api-openapi.yml
+  format: yaml
+  label: Chronicle API
+  slug: chronicle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/openapi/chronicle-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

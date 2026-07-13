@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: logic-apps-management-api-openapi.yml
+  format: yaml
+  label: Azure Logic Apps Management API
+  slug: management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logic-apps/refs/heads/main/openapi/logic-apps-management-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

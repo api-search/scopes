@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: formance-openapi.yml
+  format: yaml
+  label: Formance Ledger API
+  slug: formance-ledger-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
+- filename: formance-openapi.yml
+  format: yaml
+  label: Formance Payments API
+  slug: formance-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
+- filename: formance-openapi.yml
+  format: yaml
+  label: Formance Orchestration API
+  slug: formance-orchestration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
+- filename: formance-openapi.yml
+  format: yaml
+  label: Formance Wallets API
+  slug: formance-wallets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
+- filename: formance-openapi.yml
+  format: yaml
+  label: Formance Reconciliation API
+  slug: formance-reconciliation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
+- filename: formance-openapi.yml
+  format: yaml
+  label: Formance Auth API
+  slug: formance-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
+- filename: formance-openapi.yml
+  format: yaml
+  label: Formance Webhooks API
+  slug: formance-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
+- filename: formance-openapi.yml
+  format: yaml
+  label: Formance Search API
+  slug: formance-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/openapi/formance-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

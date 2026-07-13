@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: downloadOAS
+  format: yaml
+  label: Zoho Creator REST API v2.1
+  slug: zoho-creator-rest-api-v21
+  spec_type: OpenAPI
+  url: https://creator.zoho.com/api/v2/downloadOAS
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth?access_type=offline
 description: ''

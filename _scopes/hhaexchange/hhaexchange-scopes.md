@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: hhaexchange-fhir-openapi.yml
+  format: yaml
+  label: HHAeXchange EVV API
+  slug: hhaexchange-evv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-fhir-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

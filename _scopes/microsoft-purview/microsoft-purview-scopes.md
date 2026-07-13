@@ -1,4 +1,77 @@
 ---
+api_specs:
+- filename: microsoft-purview-catalog-openapi.yml
+  format: yaml
+  label: Microsoft Purview Catalog API
+  slug: microsoft-purview-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-catalog-openapi.yml
+- filename: microsoft-purview-scanning-openapi.yml
+  format: yaml
+  label: Microsoft Purview Scanning API
+  slug: microsoft-purview-scanning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-scanning-openapi.yml
+- filename: microsoft-purview-account-openapi.yml
+  format: yaml
+  label: Microsoft Purview Account API
+  slug: microsoft-purview-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-account-openapi.yml
+- filename: microsoft-purview-data-map-openapi.yml
+  format: yaml
+  label: Microsoft Purview Data Map API
+  slug: microsoft-purview-data-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-data-map-openapi.yml
+- filename: microsoft-purview-metadata-policies-openapi.yml
+  format: yaml
+  label: Microsoft Purview Metadata Policies API
+  slug: microsoft-purview-metadata-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-metadata-policies-openapi.yml
+- filename: microsoft-purview-workflow-openapi.yml
+  format: yaml
+  label: Microsoft Purview Workflow API
+  slug: microsoft-purview-workflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-workflow-openapi.yml
+- filename: microsoft-purview-unified-catalog-openapi.yml
+  format: yaml
+  label: Microsoft Purview Unified Catalog API
+  slug: microsoft-purview-unified-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-unified-catalog-openapi.yml
+- filename: microsoft-purview-data-quality-openapi.yml
+  format: yaml
+  label: Microsoft Purview Data Quality API
+  slug: microsoft-purview-data-quality-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-data-quality-openapi.yml
+- filename: microsoft-purview-ediscovery-openapi.yml
+  format: yaml
+  label: Microsoft Purview eDiscovery API
+  slug: microsoft-purview-ediscovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-ediscovery-openapi.yml
+- filename: microsoft-purview-information-protection-openapi.yml
+  format: yaml
+  label: Microsoft Purview Information Protection API
+  slug: microsoft-purview-information-protection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-information-protection-openapi.yml
+- filename: microsoft-purview-data-security-governance-openapi.yml
+  format: yaml
+  label: Microsoft Purview Data Security and Governance API
+  slug: microsoft-purview-data-security-and-governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-data-security-governance-openapi.yml
+- filename: microsoft-purview-records-management-openapi.yml
+  format: yaml
+  label: Microsoft Purview Records Management API
+  slug: microsoft-purview-records-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/openapi/microsoft-purview-records-management-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

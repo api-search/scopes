@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: greenhouse-harvest-api-openapi.yml
+  format: yaml
+  label: Greenhouse Harvest API
+  slug: greenhouse-harvest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-harvest-api-openapi.yml
+- filename: greenhouse-job-board-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Board API
+  slug: greenhouse-job-board-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-job-board-api-openapi.yml
+- filename: greenhouse-audit-log-api-openapi.yml
+  format: yaml
+  label: Greenhouse Audit Log API
+  slug: greenhouse-audit-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-audit-log-api-openapi.yml
+- filename: greenhouse-candidate-ingestion-api-openapi.yml
+  format: yaml
+  label: Greenhouse Candidate Ingestion (Partner) API
+  slug: greenhouse-candidate-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-candidate-ingestion-api-openapi.yml
+- filename: greenhouse-onboarding-api-openapi.yml
+  format: yaml
+  label: Greenhouse Onboarding API
+  slug: greenhouse-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-onboarding-api-openapi.yml
+- filename: greenhouse-assessment-api-openapi.yml
+  format: yaml
+  label: Greenhouse Assessment Partner API
+  slug: greenhouse-assessment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/openapi/greenhouse-assessment-api-openapi.yml
 authorization_urls:
 - https://app.greenhouse.io/oauth/authorize
 description: ''

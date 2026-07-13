@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: sinch-sms-openapi.yml
+  format: yaml
+  label: Sinch SMS API
+  slug: sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-sms-openapi.yml
+- filename: sinch-conversation-openapi.yml
+  format: yaml
+  label: Sinch Conversation API
+  slug: conversation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-conversation-openapi.yml
+- filename: sinch-voice-openapi.yml
+  format: yaml
+  label: Sinch Voice API
+  slug: voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-voice-openapi.yml
+- filename: sinch-verification-openapi.yml
+  format: yaml
+  label: Sinch Verification API
+  slug: verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-verification-openapi.yml
+- filename: sinch-numbers-openapi.yml
+  format: yaml
+  label: Sinch Numbers API
+  slug: numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-numbers-openapi.yml
+- filename: sinch-fax-openapi.yml
+  format: yaml
+  label: Sinch Fax API
+  slug: fax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-fax-openapi.yml
+- filename: sinch-elastic-sip-trunking-openapi.yml
+  format: yaml
+  label: Sinch Elastic SIP Trunking API
+  slug: elastic-sip-trunking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-elastic-sip-trunking-openapi.yml
+- filename: sinch-brands-openapi.yml
+  format: yaml
+  label: Sinch Brands API
+  slug: brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-brands-openapi.yml
+- filename: sinch-provisioning-openapi.yml
+  format: yaml
+  label: Sinch Provisioning API
+  slug: provisioning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-provisioning-openapi.yml
+- filename: sinch-registration-openapi.yml
+  format: yaml
+  label: Sinch Registration API
+  slug: registration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/openapi/sinch-registration-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.sinch.com/docs/numbers/api-reference/authentication/oauth

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: pointclickcare-ehr-openapi.yml
+  format: yaml
+  label: PointClickCare Long-Term Care EHR API
+  slug: pointclickcare-ehr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-ehr-openapi.yml
 authorization_urls:
 - https://login.pointclickcare.com/oauth2/authorize
 description: ''

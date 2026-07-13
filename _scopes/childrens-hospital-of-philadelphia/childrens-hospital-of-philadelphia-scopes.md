@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: chop-fhir-r4-openapi.yml
+  format: yaml
+  label: CHOP FHIR R4 API
+  slug: chop-fhir-r4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/openapi/chop-fhir-r4-openapi.yml
 authorization_urls:
 - https://epicnsproxy.chop.edu/fhir/oauth2/authorize
 description: ''

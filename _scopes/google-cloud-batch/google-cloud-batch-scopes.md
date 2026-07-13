@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: batch-openapi.yml
+  format: yaml
+  label: Google Cloud Batch API
+  slug: google-cloud-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/openapi/batch-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

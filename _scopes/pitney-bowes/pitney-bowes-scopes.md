@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: pitney-bowes-openapi.yml
+  format: yaml
+  label: Pitney Bowes APIs
+  slug: pitney-bowes
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.shippingapi.pitneybowes.com/api/post-oauth-token.html

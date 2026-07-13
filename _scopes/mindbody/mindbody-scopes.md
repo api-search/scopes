@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: mindbody-public-api-v6-openapi-original.yml
+  format: yaml
+  label: Mindbody Public API v6
+  slug: public-api-v6
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-public-api-v6-openapi-original.yml
+- filename: mindbody-webhooks-api-openapi-original.yml
+  format: yaml
+  label: Mindbody Webhooks API
+  slug: webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindbody/refs/heads/main/openapi/mindbody-webhooks-api-openapi-original.yml
 authorization_urls:
 - https://signin.mindbodyonline.com/connect/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: trade.yaml
+  format: yaml
+  label: Saxo Bank OpenAPI
+  slug: saxo-bank-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/openapi/trade.yaml
 authorization_urls:
 - https://sim.logonvalidation.net/authorize
 description: ''

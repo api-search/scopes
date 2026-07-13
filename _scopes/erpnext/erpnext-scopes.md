@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: frappe_api-docs
+  format: yaml
+  label: ERPNext REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://github.com/alyf-de/frappe_api-docs
 authorization_urls:
 - /method/frappe.integrations.oauth2.authorize
 description: ''

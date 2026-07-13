@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-auckland-figshare-rest.yaml
+  format: yaml
+  label: University of Auckland Figshare Research Repository API
+  slug: figshare-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/openapi/university-of-auckland-figshare-rest.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

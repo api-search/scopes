@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: scalekit-openapi.yml
+  format: yaml
+  label: Scalekit SSO Connections API
+  slug: scalekit-sso-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-openapi.yml
+- filename: scalekit-openapi.yml
+  format: yaml
+  label: Scalekit Organizations API
+  slug: scalekit-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-openapi.yml
+- filename: scalekit-openapi.yml
+  format: yaml
+  label: Scalekit Directory / SCIM API
+  slug: scalekit-directory-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-openapi.yml
+- filename: scalekit-openapi.yml
+  format: yaml
+  label: Scalekit Users & Memberships API
+  slug: scalekit-users-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-openapi.yml
+- filename: scalekit-openapi.yml
+  format: yaml
+  label: Scalekit Agent / M2M Auth API
+  slug: scalekit-agent-m2m-auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.scalekit.com/apis/

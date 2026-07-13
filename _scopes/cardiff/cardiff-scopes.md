@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: cardiff-courses.yaml
+  format: yaml
+  label: Courses
+  slug: courses
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-courses.yaml
+- filename: cardiff-modules.yaml
+  format: yaml
+  label: Modules
+  slug: modules
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-modules.yaml
+- filename: cardiff-lookups.yaml
+  format: yaml
+  label: Lookups
+  slug: lookups
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-lookups.yaml
+- filename: cardiff-publications.yaml
+  format: yaml
+  label: Publications
+  slug: publications
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-publications.yaml
+- filename: cardiff-echo.yaml
+  format: yaml
+  label: EchoTest
+  slug: echo
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/openapi/cardiff-echo.yaml
 authorization_urls:
 - https://api.data.cardiff.ac.uk/authorize
 description: ''

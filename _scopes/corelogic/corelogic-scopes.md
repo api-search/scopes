@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: corelogic-trestle-reso-web-api-openapi.yml
+  format: yaml
+  label: Trestle RESO Web API
+  slug: trestle-reso-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-trestle-reso-web-api-openapi.yml
+- filename: corelogic-direct-webapi-crm-openapi.yml
+  format: yaml
+  label: Direct Web API — CRM
+  slug: direct-webapi-crm
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/openapi/corelogic-direct-webapi-crm-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: eloqua-rest-openapi.yml
+  format: yaml
+  label: Eloqua REST API
+  slug: eloqua-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/openapi/eloqua-rest-openapi.yml
+- filename: eloqua-bulk-openapi.yml
+  format: yaml
+  label: Eloqua Bulk API
+  slug: eloqua-bulk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eloqua/refs/heads/main/openapi/eloqua-bulk-openapi.yml
 authorization_urls:
 - https://login.eloqua.com/auth/oauth2/authorize
 description: ''

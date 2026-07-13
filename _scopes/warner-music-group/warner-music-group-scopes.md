@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: warner-music-group-licensing-openapi.yml
+  format: yaml
+  label: Warner Music Group Licensing API
+  slug: wmg-licensing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-licensing-openapi.yml
 authorization_urls:
 - https://auth.wmg.com/oauth/authorize
 description: ''

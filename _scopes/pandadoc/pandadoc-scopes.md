@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: pandadoc-rest-api-openapi.yml
+  format: yaml
+  label: PandaDoc REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-rest-api-openapi.yml
+- filename: pandadoc-rest-api-openapi.yml
+  format: yaml
+  label: PandaDoc Document Generation API
+  slug: document-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-rest-api-openapi.yml
+- filename: pandadoc-rest-api-openapi.yml
+  format: yaml
+  label: PandaDoc E-Signature API
+  slug: e-signature-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-rest-api-openapi.yml
+- filename: pandadoc-rest-api-openapi.yml
+  format: yaml
+  label: PandaDoc Embedded Editing API
+  slug: embedded-editing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-rest-api-openapi.yml
+- filename: pandadoc-rest-api-openapi.yml
+  format: yaml
+  label: PandaDoc Webhooks API
+  slug: webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/openapi/pandadoc-rest-api-openapi.yml
 authorization_urls:
 - https://app.pandadoc.com/oauth2/authorize
 description: ''

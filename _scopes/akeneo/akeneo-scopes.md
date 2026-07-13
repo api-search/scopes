@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Akeneo PIM REST API
+  slug: pim-rest-api
+  spec_type: OpenAPI
+  url: https://storage.googleapis.com/akecld-prd-pim-saas-shared-openapi-spec/openapi.yaml
 authorization_urls: []
 description: ''
 docs: https://api.akeneo.com/apps/authentication-and-authorization.html

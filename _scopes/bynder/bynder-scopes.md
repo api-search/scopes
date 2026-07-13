@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bynder-openapi.yml
+  format: yaml
+  label: Bynder API
+  slug: bynder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/openapi/bynder-openapi.yml
 authorization_urls:
 - https://yourportal.bynder.com/v6/authentication/oauth2/auth
 description: ''

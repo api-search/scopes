@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-postgresql-openapi.yml
+  format: yaml
+  label: Azure Database for PostgreSQL REST API
+  slug: azure-database-for-postgresql-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/openapi/microsoft-azure-postgresql-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

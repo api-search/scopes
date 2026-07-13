@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: spreaker-openapi.yml
+  format: yaml
+  label: Spreaker Users API
+  slug: spreaker-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-openapi.yml
+- filename: spreaker-openapi.yml
+  format: yaml
+  label: Spreaker Shows API
+  slug: spreaker-shows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-openapi.yml
+- filename: spreaker-openapi.yml
+  format: yaml
+  label: Spreaker Episodes API
+  slug: spreaker-episodes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-openapi.yml
+- filename: spreaker-openapi.yml
+  format: yaml
+  label: Spreaker Statistics API
+  slug: spreaker-statistics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-openapi.yml
+- filename: spreaker-openapi.yml
+  format: yaml
+  label: Spreaker Search and Discovery API
+  slug: spreaker-search-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-openapi.yml
+- filename: spreaker-openapi.yml
+  format: yaml
+  label: Spreaker Advertising Campaigns API
+  slug: spreaker-advertising-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-openapi.yml
 authorization_urls:
 - https://www.spreaker.com/oauth2/authorize
 description: ''

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: wellcare-fhir-patient-access-api-openapi.yml
+  format: yaml
+  label: WellCare FHIR Patient Access API
+  slug: fhir-patient-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-fhir-patient-access-api-openapi.yml
+- filename: wellcare-fhir-provider-directory-api-openapi.yml
+  format: yaml
+  label: WellCare FHIR Provider Directory API
+  slug: fhir-provider-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wellcare-health-plans/refs/heads/main/openapi/wellcare-fhir-provider-directory-api-openapi.yml
 authorization_urls:
 - https://partners.centene.com/oauth2/authorize
 description: ''

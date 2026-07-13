@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: toast-tab-authentication-openapi.yml
+  format: yaml
+  label: Toast Authentication API
+  slug: toast-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/openapi/toast-tab-authentication-openapi.yml
+- filename: toast-tab-restaurants-openapi.yml
+  format: yaml
+  label: Toast Restaurants API
+  slug: toast-restaurants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/openapi/toast-tab-restaurants-openapi.yml
+- filename: toast-tab-menus-openapi.yml
+  format: yaml
+  label: Toast Menus API (V2)
+  slug: toast-menus-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/openapi/toast-tab-menus-openapi.yml
+- filename: toast-tab-orders-openapi.yml
+  format: yaml
+  label: Toast Orders API
+  slug: toast-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/openapi/toast-tab-orders-openapi.yml
+- filename: toast-tab-labor-openapi.yml
+  format: yaml
+  label: Toast Labor API
+  slug: toast-labor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/openapi/toast-tab-labor-openapi.yml
+- filename: toast-tab-stock-openapi.yml
+  format: yaml
+  label: Toast Stock API
+  slug: toast-stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/openapi/toast-tab-stock-openapi.yml
+- filename: toast-tab-partners-openapi.yml
+  format: yaml
+  label: Toast Partners API
+  slug: toast-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/openapi/toast-tab-partners-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

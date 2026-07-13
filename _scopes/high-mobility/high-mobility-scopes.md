@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: high-mobility-openapi.yml
+  format: yaml
+  label: High Mobility Vehicle API
+  slug: high-mobility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/openapi/high-mobility-openapi.yml
 authorization_urls:
 - https://owner-panel.high-mobility.com/oauth/new
 description: ''

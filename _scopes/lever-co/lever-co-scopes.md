@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: lever-data-api-openapi.yml
+  format: yaml
+  label: Lever Data API
+  slug: lever-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/openapi/lever-data-api-openapi.yml
+- filename: lever-postings-api-openapi.yml
+  format: yaml
+  label: Lever Postings API
+  slug: lever-postings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/openapi/lever-postings-api-openapi.yml
+- filename: lever-webhooks-asyncapi.yml
+  format: yaml
+  label: Lever Webhooks
+  slug: lever-webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/openapi/lever-webhooks-asyncapi.yml
 authorization_urls:
 - https://auth.lever.co/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: reclaim-api-0.1.yml
+  format: yaml
+  label: Reclaim API
+  slug: reclaim-api
+  spec_type: OpenAPI
+  url: https://api.app.reclaim.ai/swagger/reclaim-api-0.1.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aol-openapi.yml
+  format: yaml
+  label: Yahoo Developer Network (formerly AOL Developer)
+  slug: yahoo-developer-network-formerly-aol-developer
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/openapi/aol-openapi.yml
 authorization_urls:
 - https://api.login.yahoo.com/oauth2/request_auth
 description: ''

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: choreo-api-management-openapi.yml
+  format: yaml
+  label: Choreo API Management API
+  slug: api-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-api-management-openapi.yml
+- filename: choreo-developer-portal-openapi.yml
+  format: yaml
+  label: Choreo Developer Portal API
+  slug: developer-portal
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-developer-portal-openapi.yml
+- filename: choreo-insights-openapi.yml
+  format: yaml
+  label: Choreo Insights API
+  slug: insights
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/openapi/choreo-insights-openapi.yml
 authorization_urls:
 - https://console.choreo.dev/oauth2/authorize
 - https://devportal.choreo.dev/oauth2/authorize

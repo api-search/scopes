@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: sap-api-management-portal-openapi.yml
+  format: yaml
+  label: SAP API Management API Portal API
+  slug: sap-api-management-api-portal
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/openapi/sap-api-management-portal-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

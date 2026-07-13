@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: unionai-openapi.yml
+  format: yaml
+  label: Union FlyteAdmin Projects API
+  slug: flyteadmin-projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-openapi.yml
+- filename: unionai-openapi.yml
+  format: yaml
+  label: Union FlyteAdmin Workflows API
+  slug: flyteadmin-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-openapi.yml
+- filename: unionai-openapi.yml
+  format: yaml
+  label: Union FlyteAdmin Tasks API
+  slug: flyteadmin-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-openapi.yml
+- filename: unionai-openapi.yml
+  format: yaml
+  label: Union FlyteAdmin Launch Plans API
+  slug: flyteadmin-launch-plans-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-openapi.yml
+- filename: unionai-openapi.yml
+  format: yaml
+  label: Union FlyteAdmin Executions API
+  slug: flyteadmin-executions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-openapi.yml
+- filename: unionai-openapi.yml
+  format: yaml
+  label: Union Serverless
+  slug: union-serverless
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/openapi/unionai-openapi.yml
 authorization_urls:
 - https://{org}.app.union.ai/oauth2/authorize
 description: ''

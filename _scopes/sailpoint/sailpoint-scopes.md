@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: SailPoint Identity Security Cloud V3 API
+  slug: identity-security-cloud-v3-api
+  spec_type: OpenAPI
+  url: https://developer.sailpoint.com/docs/api/v3/identity-security-cloud-v-3-api/
+- filename: openapi.yaml
+  format: yaml
+  label: SailPoint Identity Security Cloud V2024 API
+  slug: identity-security-cloud-v2024-api
+  spec_type: OpenAPI
+  url: https://developer.sailpoint.com/docs/api/v2024/identity-security-cloud-v-2024-api/
+- filename: openapi.yaml
+  format: yaml
+  label: SailPoint Identity Security Cloud V2025 API
+  slug: identity-security-cloud-v2025-api
+  spec_type: OpenAPI
+  url: https://developer.sailpoint.com/docs/api/v2025/identity-security-cloud-v-2025-api/
+- filename: openapi.yaml
+  format: yaml
+  label: SailPoint Identity Security Cloud Beta API
+  slug: identity-security-cloud-beta-api
+  spec_type: OpenAPI
+  url: https://developer.sailpoint.com/docs/api/beta/identity-security-cloud-beta-api/
+- filename: openapi.yaml
+  format: yaml
+  label: SailPoint IdentityIQ SCIM API
+  slug: identityiq-scim-api
+  spec_type: OpenAPI
+  url: https://developer.sailpoint.com/docs/api/iiq/identityiq-scim-rest-api/
+- filename: openapi.yaml
+  format: yaml
+  label: SailPoint Identity Security Cloud V2026 API
+  slug: identity-security-cloud-v2026-api
+  spec_type: OpenAPI
+  url: https://developer.sailpoint.com/docs/api/v2026/identity-security-cloud-v-2026-api/
 authorization_urls:
 - https://{tenant}.identitynow.com/oauth/authorize
 description: ''

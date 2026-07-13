@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: contacts.yml
+  format: yaml
+  label: Google People API v1
+  slug: google-people-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-contacts/refs/heads/main/openapi/contacts.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

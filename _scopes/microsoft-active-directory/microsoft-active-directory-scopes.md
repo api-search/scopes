@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph API (Azure AD)
+  slug: microsoft-graph-api-azure-ad
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/openapi.yaml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

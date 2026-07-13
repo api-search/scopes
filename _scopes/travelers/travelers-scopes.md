@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: travelers-openapi.yml
+  format: yaml
+  label: Travelers API
+  slug: travelers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

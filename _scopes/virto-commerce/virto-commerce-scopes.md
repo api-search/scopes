@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: VirtoCommerce.Catalog
+  format: yaml
+  label: Virto Commerce Catalog API
+  slug: catalog
+  spec_type: OpenAPI
+  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Catalog
+- filename: VirtoCommerce.Pricing
+  format: yaml
+  label: Virto Commerce Pricing API
+  slug: pricing
+  spec_type: OpenAPI
+  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Pricing
+- filename: VirtoCommerce.Inventory
+  format: yaml
+  label: Virto Commerce Inventory API
+  slug: inventory
+  spec_type: OpenAPI
+  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Inventory
+- filename: VirtoCommerce.Orders
+  format: yaml
+  label: Virto Commerce Order Management API
+  slug: orders
+  spec_type: OpenAPI
+  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Orders
+- filename: VirtoCommerce.Cart
+  format: yaml
+  label: Virto Commerce Shopping Cart API
+  slug: cart
+  spec_type: OpenAPI
+  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Cart
+- filename: VirtoCommerce.Customer
+  format: yaml
+  label: Virto Commerce Customer API
+  slug: customer
+  spec_type: OpenAPI
+  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Customer
+- filename: VirtoCommerce.Marketing
+  format: yaml
+  label: Virto Commerce Marketing API
+  slug: marketing
+  spec_type: OpenAPI
+  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Marketing
+- filename: VirtoCommerce.Quote
+  format: yaml
+  label: Virto Commerce Quotes API
+  slug: quotes
+  spec_type: OpenAPI
+  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Quote
+- filename: VirtoCommerce.Store
+  format: yaml
+  label: Virto Commerce Store API
+  slug: store
+  spec_type: OpenAPI
+  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Store
+- filename: VirtoCommerce.Platform
+  format: yaml
+  label: Virto Commerce Platform API
+  slug: platform
+  spec_type: OpenAPI
+  url: https://virtostart-demo-admin.govirto.com/docs/v3/VirtoCommerce.Platform
 authorization_urls: []
 description: ''
 docs: ''

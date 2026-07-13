@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: linkedin-ads-openapi.yml
+  format: yaml
+  label: LinkedIn Marketing API
+  slug: marketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-openapi.yml
 authorization_urls:
 - https://www.linkedin.com/oauth/v2/authorization
 description: ''

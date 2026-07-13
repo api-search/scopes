@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: nimble-openapi.yml
+  format: yaml
+  label: Nimble REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-openapi.yml
 authorization_urls:
 - https://app.nimble.com/oauth/authorize
 description: ''

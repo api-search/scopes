@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: infor-ion-api-gateway-openapi.yml
+  format: yaml
+  label: Infor ION API Gateway
+  slug: infor-ion-api-gateway
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/openapi/infor-ion-api-gateway-openapi.yml
 authorization_urls:
 - https://inforos.infor.com/INFOR_DEV/as/authorization.oauth2
 description: ''

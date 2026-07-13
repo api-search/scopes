@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: xcel-energy-green-button-api.yaml
+  format: yaml
+  label: Xcel Energy Green Button Connect My Data API
+  slug: xcel-energy-green-button-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-green-button-api.yaml
+- filename: xcel-energy-smart-meter-api.yaml
+  format: yaml
+  label: Xcel Energy Smart Meter IEEE 2030.5 API
+  slug: xcel-energy-smart-meter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/openapi/xcel-energy-smart-meter-api.yaml
 authorization_urls:
 - https://api.xcelenergy.com/DataCustodian/oauth/authorize
 description: ''

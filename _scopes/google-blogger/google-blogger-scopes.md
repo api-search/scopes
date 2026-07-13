@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: blogger.yml
+  format: yaml
+  label: Google Blogger API V3
+  slug: google-blogger
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/openapi/blogger.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

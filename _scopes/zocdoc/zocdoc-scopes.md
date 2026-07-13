@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apis.md
+  format: yaml
+  label: Zocdoc API
+  slug: zocdoc-api
+  spec_type: OpenAPI
+  url: https://api-docs.zocdoc.com/apis.md
 authorization_urls:
 - https://auth.zocdoc.com/authorize
 description: ''

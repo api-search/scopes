@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: microsoft-azure-api-management-rest-api-openapi.yaml
+  format: yaml
+  label: Azure API Management REST API
+  slug: azure-api-management-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-rest-api-openapi.yaml
+- filename: microsoft-azure-api-management-gateway-openapi.yaml
+  format: yaml
+  label: Azure API Management Gateway
+  slug: azure-api-management-gateway
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-gateway-openapi.yaml
+- filename: microsoft-azure-api-management-self-hosted-gateway-openapi.yaml
+  format: yaml
+  label: Azure API Management Self-Hosted Gateway
+  slug: azure-api-management-self-hosted-gateway
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-self-hosted-gateway-openapi.yaml
+- filename: microsoft-azure-api-management-ai-gateway-openapi.yaml
+  format: yaml
+  label: Azure API Management AI Gateway
+  slug: azure-api-management-ai-gateway
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-ai-gateway-openapi.yaml
+- filename: microsoft-azure-api-management-developer-portal-openapi.yaml
+  format: yaml
+  label: Azure API Management Developer Portal
+  slug: azure-api-management-developer-portal
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/openapi/microsoft-azure-api-management-developer-portal-openapi.yaml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

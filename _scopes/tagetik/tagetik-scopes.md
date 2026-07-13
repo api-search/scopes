@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cch-tagetik-odata-openapi.yml
+  format: yaml
+  label: CCH Tagetik OData API
+  slug: cch-tagetik-odata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/cch-tagetik-odata-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

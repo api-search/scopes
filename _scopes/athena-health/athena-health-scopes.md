@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: athenahealth-athenaone-rest-api-openapi.yml
+  format: yaml
+  label: athenahealth athenaOne REST API
+  slug: athenahealth-athenaone-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athenahealth-athenaone-rest-api-openapi.yml
+- filename: athenahealth-fhir-r4-api-openapi.yml
+  format: yaml
+  label: athenahealth FHIR R4 API
+  slug: athenahealth-fhir-r4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athenahealth-fhir-r4-api-openapi.yml
+- filename: athenahealth-fhir-subscriptions-api-openapi.yml
+  format: yaml
+  label: athenahealth FHIR Subscriptions API
+  slug: athenahealth-fhir-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athenahealth-fhir-subscriptions-api-openapi.yml
+- filename: athenahealth-fhir-bulk-data-api-openapi.yml
+  format: yaml
+  label: athenahealth FHIR Bulk Data Access API
+  slug: athenahealth-fhir-bulk-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athenahealth-fhir-bulk-data-api-openapi.yml
+- filename: athenahealth-cds-hooks-api-openapi.yml
+  format: yaml
+  label: athenahealth CDS Hooks API
+  slug: athenahealth-cds-hooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/openapi/athenahealth-cds-hooks-api-openapi.yml
 authorization_urls:
 - https://api.platform.athenahealth.com/oauth2/v1/authorize
 description: ''

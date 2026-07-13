@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: pg-and-e-share-my-data-api-openapi.yml
+  format: yaml
+  label: PG&E Share My Data API
+  slug: share-my-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/openapi/pg-and-e-share-my-data-api-openapi.yml
 authorization_urls:
 - https://api.pge.com/datacustodian/oauth/v2/authorize
 description: ''

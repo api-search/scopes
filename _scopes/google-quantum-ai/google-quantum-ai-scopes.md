@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: quantum-engine-api-openapi.yml
+  format: yaml
+  label: Google Quantum Engine API
+  slug: quantum-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/openapi/quantum-engine-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-private-link-openapi.yml
+  format: yaml
+  label: Azure Private Link REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

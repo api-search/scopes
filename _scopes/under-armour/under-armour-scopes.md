@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: mapmyfitness-openapi.yml
+  format: yaml
+  label: MapMyFitness API
+  slug: mapmyfitness-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/mapmyfitness-openapi.yml
 authorization_urls:
 - https://www.mapmyfitness.com/v7.1/oauth2/authorize/
 description: ''

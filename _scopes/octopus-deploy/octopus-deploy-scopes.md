@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: octopus-deploy-openapi.yml
+  format: yaml
+  label: Octopus Deploy REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/openapi/octopus-deploy-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://octopus.com/docs/octopus-rest-api/openid-connect

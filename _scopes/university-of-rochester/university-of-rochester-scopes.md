@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-rochester-figshare-urrr.yaml
+  format: yaml
+  label: University of Rochester Research Repository (URRR) - Figshare API
+  slug: figshare-urrr
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/openapi/university-of-rochester-figshare-urrr.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

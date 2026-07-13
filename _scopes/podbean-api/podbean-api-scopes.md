@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: podbean-api-openapi.yml
+  format: yaml
+  label: Podbean API
+  slug: podbean-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podbean-api/refs/heads/main/openapi/podbean-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.podbean.com/podbean-api-docs/#api-appendix-permissions

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloud-dataproc-openapi.yml
+  format: yaml
+  label: Cloud Dataproc API
+  slug: cloud-dataproc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dataproc/refs/heads/main/openapi/cloud-dataproc-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

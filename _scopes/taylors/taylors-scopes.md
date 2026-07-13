@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: taylors-library-rest.yaml
+  format: yaml
+  label: Taylor's Library Koha REST API
+  slug: library-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-library-rest.yaml
 authorization_urls: []
 description: ''
 docs: https://librarycatalogue.taylors.edu.my/api/v1/.html

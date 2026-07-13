@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: m3ter-openapi.yml
+  format: yaml
+  label: M3ter API
+  slug: m3ter
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/openapi/m3ter-openapi.yml
 authorization_urls:
 - https://m3ter.auth.us-east-1.amazoncognito.com/oauth2/authorize
 description: ''

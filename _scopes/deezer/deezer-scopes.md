@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: deezer-openapi.yml
+  format: yaml
+  label: Deezer API
+  slug: platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-openapi.yml
 authorization_urls:
 - https://connect.deezer.com/oauth/auth.php
 description: ''

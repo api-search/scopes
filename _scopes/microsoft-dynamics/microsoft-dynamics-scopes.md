@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: microsoft-dynamics-business-central-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics 365 Business Central API
+  slug: business-central-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics/refs/heads/main/openapi/microsoft-dynamics-business-central-openapi.yml
+- filename: microsoft-dynamics-dataverse-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics 365 Dataverse Web API
+  slug: dataverse-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics/refs/heads/main/openapi/microsoft-dynamics-dataverse-openapi.yml
+- filename: microsoft-dynamics-finance-operations-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics 365 Finance & Operations Data API
+  slug: finance-operations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics/refs/heads/main/openapi/microsoft-dynamics-finance-operations-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

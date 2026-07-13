@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: swagger
+  format: yaml
+  label: Getty Images API
+  slug: platform
+  spec_type: OpenAPI
+  url: https://api.gettyimages.com/swagger
 authorization_urls: []
 description: ''
 docs: ''

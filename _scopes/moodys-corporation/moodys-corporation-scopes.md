@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: moodys-analytics-developer-openapi.yml
+  format: yaml
+  label: Moody's Analytics Developer Platform
+  slug: developer-platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-analytics-developer-openapi.yml
+- filename: moodys-data-buffet-api-openapi.yml
+  format: yaml
+  label: Moody's Analytics Data Buffet API
+  slug: data-buffet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-data-buffet-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

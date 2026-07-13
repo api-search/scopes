@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: mercado-pago-openapi.yml
+  format: yaml
+  label: Mercado Pago Payments API
+  slug: payments
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/openapi/mercado-pago-openapi.yml
+- filename: mercado-pago-asyncapi.yml
+  format: yaml
+  label: Mercado Pago Webhooks / Notifications
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/asyncapi/mercado-pago-asyncapi.yml
 authorization_urls:
 - https://auth.mercadopago.com/authorization
 description: ''

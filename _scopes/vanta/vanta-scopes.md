@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: vanta-openapi.yml
+  format: yaml
+  label: Vanta API
+  slug: vanta-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-openapi.yml
+- filename: vanta-auditor-openapi.yml
+  format: yaml
+  label: Vanta Auditor API
+  slug: vanta-auditor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-auditor-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

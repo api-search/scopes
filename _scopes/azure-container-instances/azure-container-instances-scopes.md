@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-container-instances-openapi.yaml
+  format: yaml
+  label: Azure Container Instances
+  slug: azure-container-instances
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-openapi.yaml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

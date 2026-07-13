@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: duck-creek-policy-openapi.yml
+  format: yaml
+  label: Duck Creek Anywhere REST API
+  slug: duck-creek-anywhere-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policy-openapi.yml
+- filename: duck-creek-policy-openapi.yml
+  format: yaml
+  label: Duck Creek Policy Administration API
+  slug: duck-creek-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policy-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

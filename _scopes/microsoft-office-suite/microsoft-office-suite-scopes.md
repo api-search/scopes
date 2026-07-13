@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: overview
+  format: yaml
+  label: Microsoft Graph API
+  slug: microsoft-graph-api
+  spec_type: OpenAPI
+  url: https://learn.microsoft.com/en-us/graph/api/overview
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

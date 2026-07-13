@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: $metadata
+  format: yaml
+  label: WHO GHO OData API
+  slug: who-gho-odata-api
+  spec_type: OpenAPI
+  url: https://ghoapi.azureedge.net/api/$metadata
+- filename: index.html
+  format: yaml
+  label: WHO ICD API
+  slug: who-icd-api
+  spec_type: OpenAPI
+  url: https://id.who.int/swagger/index.html
 authorization_urls: []
 description: ''
 docs: ''

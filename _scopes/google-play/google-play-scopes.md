@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Play Developer API
+  slug: google-play-developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/openapi/openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

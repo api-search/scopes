@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: taskrabbit-openapi.yml
+  format: yaml
+  label: TaskRabbit Home Services Estimate API
+  slug: taskrabbit-home-services-estimate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-openapi.yml
+- filename: taskrabbit-openapi.yml
+  format: yaml
+  label: TaskRabbit Home Services Availability API
+  slug: taskrabbit-home-services-availability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-openapi.yml
+- filename: taskrabbit-openapi.yml
+  format: yaml
+  label: TaskRabbit Home Services Booking API
+  slug: taskrabbit-home-services-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-openapi.yml
+- filename: taskrabbit-openapi.yml
+  format: yaml
+  label: TaskRabbit Home Services Catalog API
+  slug: taskrabbit-home-services-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-openapi.yml
+- filename: taskrabbit-openapi.yml
+  format: yaml
+  label: TaskRabbit Delivery API (Dolly)
+  slug: taskrabbit-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.taskrabbit.com/docs/getting-started

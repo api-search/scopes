@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: yourmembership-openapi.yml
+  format: yaml
+  label: YourMembership Members API
+  slug: yourmembership-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
+- filename: yourmembership-openapi.yml
+  format: yaml
+  label: YourMembership Events API
+  slug: yourmembership-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
+- filename: yourmembership-openapi.yml
+  format: yaml
+  label: YourMembership Certifications API
+  slug: yourmembership-certifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
+- filename: yourmembership-openapi.yml
+  format: yaml
+  label: YMCareers API
+  slug: yourmembership-careers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
+- filename: yourmembership-openapi.yml
+  format: yaml
+  label: YourMembership Content and Community API
+  slug: yourmembership-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
+- filename: yourmembership-openapi.yml
+  format: yaml
+  label: YourMembership Commerce and Sales API
+  slug: yourmembership-commerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-openapi.yml
 authorization_urls:
 - https://{your-ym-site}/lock.aspx
 description: ''

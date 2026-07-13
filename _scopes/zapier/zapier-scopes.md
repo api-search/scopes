@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zapier-partner-api.yml
+  format: yaml
+  label: Zapier Partner API
+  slug: partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-partner-api.yml
 authorization_urls:
 - https://zapier.com/oauth/authorize/
 description: ''

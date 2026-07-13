@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aps-sdk-openapi
+  format: yaml
+  label: Autodesk Fusion API
+  slug: autodesk-fusion-api
+  spec_type: OpenAPI
+  url: https://github.com/autodesk-platform-services/aps-sdk-openapi
 authorization_urls:
 - https://developer.api.autodesk.com/authentication/v2/authorize
 description: ''

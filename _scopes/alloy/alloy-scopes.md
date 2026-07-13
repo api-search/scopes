@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: llms.txt
+  format: yaml
+  label: Alloy Identity API
+  slug: alloy-identity-api
+  spec_type: OpenAPI
+  url: https://developer.alloy.com/llms.txt
 authorization_urls: []
 description: ''
 docs: https://developer.alloy.com/public/docs/authentication-guide

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-canterbury-figshare-api.yaml
+  format: yaml
+  label: Canterbury Figshare (figshare REST and OAI-PMH)
+  slug: figshare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/openapi/university-of-canterbury-figshare-api.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

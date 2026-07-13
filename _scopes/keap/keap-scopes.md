@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: keap-openapi.yml
+  format: yaml
+  label: Keap REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/openapi/keap-openapi.yml
+- filename: keap-resthooks-asyncapi.yml
+  format: yaml
+  label: Keap REST Hooks
+  slug: rest-hooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/asyncapi/keap-resthooks-asyncapi.yml
 authorization_urls:
 - https://accounts.infusionsoft.com/app/oauth/authorize
 description: ''

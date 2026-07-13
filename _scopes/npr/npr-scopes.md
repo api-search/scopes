@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: npr-station-finder-openapi-original.yml
+  format: yaml
+  label: NPR Station Finder
+  slug: station-finder
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npr/main/openapi/npr-station-finder-openapi-original.yml
+- filename: npr-identity-openapi-original.yml
+  format: yaml
+  label: NPR Identity
+  slug: identity
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npr/main/openapi/npr-identity-openapi-original.yml
+- filename: npr-authorization-openapi-original.yml
+  format: yaml
+  label: NPR Authorization
+  slug: authorization
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/npr/main/openapi/npr-authorization-openapi-original.yml
 authorization_urls:
 - https://authorization.api.npr.org/v2/authorize
 description: ''

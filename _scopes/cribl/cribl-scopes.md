@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: cribl-cloud-api-openapi.yml
+  format: yaml
+  label: Cribl Cloud API
+  slug: cribl-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-cloud-api-openapi.yml
+- filename: cribl-stream-api-openapi.yml
+  format: yaml
+  label: Cribl Stream API
+  slug: cribl-stream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-stream-api-openapi.yml
+- filename: cribl-edge-api-openapi.yml
+  format: yaml
+  label: Cribl Edge API
+  slug: cribl-edge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-edge-api-openapi.yml
+- filename: cribl-search-api-openapi.yml
+  format: yaml
+  label: Cribl Search API
+  slug: cribl-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-search-api-openapi.yml
+- filename: cribl-lake-api-openapi.yml
+  format: yaml
+  label: Cribl Lake API
+  slug: cribl-lake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-lake-api-openapi.yml
+- filename: cribl-as-code-api-openapi.yml
+  format: yaml
+  label: Cribl As Code API
+  slug: cribl-as-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cribl/refs/heads/main/openapi/cribl-as-code-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.cribl.io/cribl-as-code/api-auth/

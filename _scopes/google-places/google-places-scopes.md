@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Places API
+  slug: google-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/openapi/openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

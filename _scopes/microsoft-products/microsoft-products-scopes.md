@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph API
+  slug: microsoft-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+- filename: azure-rest-api-specs
+  format: yaml
+  label: Azure REST API
+  slug: azure-rest-api
+  spec_type: OpenAPI
+  url: https://github.com/Azure/azure-rest-api-specs
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

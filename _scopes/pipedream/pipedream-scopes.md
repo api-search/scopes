@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: pipedream-openapi.yml
+  format: yaml
+  label: Pipedream REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-openapi.yml
+- filename: pipedream-openapi.yml
+  format: yaml
+  label: Pipedream Connect
+  slug: connect
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-openapi.yml
+- filename: pipedream-mcp-openapi.yml
+  format: yaml
+  label: Pipedream MCP Server
+  slug: mcp-server
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/openapi/pipedream-mcp-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

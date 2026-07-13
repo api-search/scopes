@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: drupal-rest-api-openapi.yml
+  format: yaml
+  label: Drupal REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-rest-api-openapi.yml
+- filename: drupal-jsonapi-openapi.yml
+  format: yaml
+  label: Drupal JSON:API
+  slug: jsonapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-jsonapi-openapi.yml
 authorization_urls:
 - https://example.com/oauth/authorize
 description: ''

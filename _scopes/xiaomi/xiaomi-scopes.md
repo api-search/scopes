@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: xiaomi-open-api-openapi.yml
+  format: yaml
+  label: Xiaomi Open API
+  slug: xiaomi-open-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-open-api-openapi.yml
+- filename: xiaomi-galaxy-fds-openapi.yml
+  format: yaml
+  label: Xiaomi Galaxy FDS API
+  slug: xiaomi-galaxy-fds
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-galaxy-fds-openapi.yml
+- filename: xiaomi-mimo-api-openapi.yml
+  format: yaml
+  label: Xiaomi MiMo AI API
+  slug: xiaomi-mimo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-mimo-api-openapi.yml
 authorization_urls:
 - https://account.xiaomi.com/oauth2/authorize
 description: ''

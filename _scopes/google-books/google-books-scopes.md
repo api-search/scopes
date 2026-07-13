@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: books.yml
+  format: yaml
+  label: Google Books API V1
+  slug: google-books
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/openapi/books.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

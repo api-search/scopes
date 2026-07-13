@@ -1,4 +1,77 @@
 ---
+api_specs:
+- filename: miro-openapi.json
+  format: json
+  label: Miro Boards API
+  slug: miro-boards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro Board Items API
+  slug: miro-board-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro Connectors API
+  slug: miro-connectors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro Tags API
+  slug: miro-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro Mind Map API
+  slug: miro-mind-map-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro Board Members API
+  slug: miro-board-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro Webhooks API
+  slug: miro-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro Organization API
+  slug: miro-organization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro Teams API
+  slug: miro-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro Audit Logs API
+  slug: miro-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro SCIM API
+  slug: miro-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
+- filename: miro-openapi.json
+  format: json
+  label: Miro Web SDK
+  slug: miro-web-sdk
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/openapi/miro-openapi.json
 authorization_urls:
 - https://miro.com/oauth/authorize
 description: ''

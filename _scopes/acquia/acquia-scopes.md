@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: acquia-cloud-openapi.yml
+  format: yaml
+  label: Acquia Cloud API
+  slug: acquia-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-cloud-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.acquia.com/acquia-cloud-platform/cloud-platform-api-v2-authentication

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: schlage-home-openapi.yml
+  format: yaml
+  label: Schlage Home API
+  slug: schlage-home-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/schlage-home-openapi.yml
+- filename: engage-credentialing-openapi.yml
+  format: yaml
+  label: ENGAGE Cloud Credentialing API
+  slug: engage-credentialing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/engage-credentialing-openapi.yml
 authorization_urls:
 - https://account.schlage.com/OAuth2/authorize
 description: ''

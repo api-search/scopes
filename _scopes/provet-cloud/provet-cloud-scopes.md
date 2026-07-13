@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: provet-cloud-openapi.yml
+  format: yaml
+  label: Provet Cloud Clients API
+  slug: provet-cloud-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-openapi.yml
+- filename: provet-cloud-openapi.yml
+  format: yaml
+  label: Provet Cloud Patients API
+  slug: provet-cloud-patients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-openapi.yml
+- filename: provet-cloud-openapi.yml
+  format: yaml
+  label: Provet Cloud Appointments API
+  slug: provet-cloud-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-openapi.yml
+- filename: provet-cloud-openapi.yml
+  format: yaml
+  label: Provet Cloud Consultations API
+  slug: provet-cloud-consultations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-openapi.yml
+- filename: provet-cloud-openapi.yml
+  format: yaml
+  label: Provet Cloud Billing & Invoicing API
+  slug: provet-cloud-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-openapi.yml
+- filename: provet-cloud-openapi.yml
+  format: yaml
+  label: Provet Cloud Items & Reference Data API
+  slug: provet-cloud-items-reference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-openapi.yml
+- filename: provet-cloud-openapi.yml
+  format: yaml
+  label: Provet Cloud Webhooks API
+  slug: provet-cloud-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-openapi.yml
 authorization_urls:
 - https://provetcloud.com/0/oauth2/authorize/
 description: ''

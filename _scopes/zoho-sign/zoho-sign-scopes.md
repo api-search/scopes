@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Zoho Sign API
+  slug: zoho-sign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/openapi/openapi.json
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: allianz-api-connect.yaml
+  format: yaml
+  label: Allianz API Connect
+  slug: allianz-api-connect
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-api-connect.yaml
 authorization_urls: []
 description: ''
 docs: ''

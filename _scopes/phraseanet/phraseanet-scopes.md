@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: phraseanet-openapi.yml
+  format: yaml
+  label: Phraseanet Records API
+  slug: phraseanet-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
+- filename: phraseanet-openapi.yml
+  format: yaml
+  label: Phraseanet Databoxes and Collections API
+  slug: phraseanet-databoxes-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
+- filename: phraseanet-openapi.yml
+  format: yaml
+  label: Phraseanet Metadata API
+  slug: phraseanet-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
+- filename: phraseanet-openapi.yml
+  format: yaml
+  label: Phraseanet Search API
+  slug: phraseanet-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
+- filename: phraseanet-openapi.yml
+  format: yaml
+  label: Phraseanet Stories API
+  slug: phraseanet-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
+- filename: phraseanet-openapi.yml
+  format: yaml
+  label: Phraseanet Baskets API
+  slug: phraseanet-baskets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
+- filename: phraseanet-openapi.yml
+  format: yaml
+  label: Phraseanet Feeds API
+  slug: phraseanet-feeds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
+- filename: phraseanet-openapi.yml
+  format: yaml
+  label: Phraseanet Account API
+  slug: phraseanet-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/openapi/phraseanet-openapi.yml
 authorization_urls:
 - https://your-phraseanet-instance/api/oauthv2/authorize
 description: ''

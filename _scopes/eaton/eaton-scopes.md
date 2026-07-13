@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: smart-breaker-openapi.yml
+  format: yaml
+  label: Eaton Smart Breaker API
+  slug: eaton-smart-breaker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/smart-breaker-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://api.em.eaton.com/docs

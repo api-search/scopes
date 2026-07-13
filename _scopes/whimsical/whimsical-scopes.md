@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: whimsical-openapi.yml
+  format: yaml
+  label: Whimsical API (Beta)
+  slug: whimsical-api-beta
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/openapi/whimsical-openapi.yml
 authorization_urls:
 - https://whimsical.com/oauth/authorize
 description: ''

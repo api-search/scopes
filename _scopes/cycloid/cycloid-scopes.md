@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cycloid-api-openapi.yml
+  format: yaml
+  label: Cycloid HTTP API
+  slug: http-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/openapi/cycloid-api-openapi.yml
 authorization_urls:
 - https://console.cycloid.io/oauth/authorize
 description: ''

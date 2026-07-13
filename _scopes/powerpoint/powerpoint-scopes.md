@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: powerpoint-openapi.yml
+  format: yaml
+  label: PowerPoint via Microsoft Graph
+  slug: powerpoint-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/powerpoint/refs/heads/main/openapi/powerpoint-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

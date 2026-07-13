@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: axway-amplify-platform-openapi-original.json
+  format: json
+  label: Axway Amplify Platform API
+  slug: axway-amplify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/openapi/axway-amplify-platform-openapi-original.json
 authorization_urls:
 - https://login.axway.com/auth/realms/Broker/openid-connect/auth
 description: ''

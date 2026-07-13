@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: oura-oura-ring-api-openapi.yml
+  format: yaml
+  label: Oura Ring API
+  slug: oura-ring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oura/refs/heads/main/openapi/oura-oura-ring-api-openapi.yml
 authorization_urls:
 - https://cloud.ouraring.com/oauth/authorize
 description: ''

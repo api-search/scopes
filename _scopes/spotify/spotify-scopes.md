@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: spotify-openapi-original.yml
+  format: yaml
+  label: Spotify Web API
+  slug: spotify-web-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-openapi-original.yml
 authorization_urls:
 - https://accounts.spotify.com/authorize
 description: ''

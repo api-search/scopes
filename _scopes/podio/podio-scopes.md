@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: podio-openapi.yml
+  format: yaml
+  label: Podio REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-openapi.yml
 authorization_urls:
 - https://podio.com/oauth/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: fis-payments-openapi.yml
+  format: yaml
+  label: FIS Payments API
+  slug: fis-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/openapi/fis-payments-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

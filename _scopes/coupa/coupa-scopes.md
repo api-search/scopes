@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: api_docs
+  format: yaml
+  label: Coupa Core API
+  slug: coupa-core-api
+  spec_type: OpenAPI
+  url: https://compass.coupa.com/en-us/api_docs
 authorization_urls: []
 description: ''
 docs: ''

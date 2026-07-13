@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: mediavalet-openapi.yml
+  format: yaml
+  label: MediaValet Assets API
+  slug: mediavalet-assets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
+- filename: mediavalet-openapi.yml
+  format: yaml
+  label: MediaValet Categories API
+  slug: mediavalet-categories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
+- filename: mediavalet-openapi.yml
+  format: yaml
+  label: MediaValet Attributes API
+  slug: mediavalet-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
+- filename: mediavalet-openapi.yml
+  format: yaml
+  label: MediaValet Keywords API
+  slug: mediavalet-keywords-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
+- filename: mediavalet-openapi.yml
+  format: yaml
+  label: MediaValet Uploads API
+  slug: mediavalet-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
+- filename: mediavalet-openapi.yml
+  format: yaml
+  label: MediaValet Users API
+  slug: mediavalet-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-openapi.yml
 authorization_urls:
 - https://login.mediavalet.com/connect/authorize
 description: ''

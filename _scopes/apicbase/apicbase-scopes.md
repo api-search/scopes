@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: apicbase-openapi.yml
+  format: yaml
+  label: Apicbase Ingredients API
+  slug: ingredients
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
+- filename: apicbase-openapi.yml
+  format: yaml
+  label: Apicbase Recipes API
+  slug: recipes
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
+- filename: apicbase-openapi.yml
+  format: yaml
+  label: Apicbase Products API
+  slug: products
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
+- filename: apicbase-openapi.yml
+  format: yaml
+  label: Apicbase Inventory & Stock API
+  slug: inventory-stock
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
+- filename: apicbase-openapi.yml
+  format: yaml
+  label: Apicbase Purchase Orders API
+  slug: purchase-orders
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
+- filename: apicbase-openapi.yml
+  format: yaml
+  label: Apicbase Suppliers API
+  slug: suppliers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
+- filename: apicbase-openapi.yml
+  format: yaml
+  label: Apicbase Outlets API
+  slug: outlets
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
+- filename: apicbase-openapi.yml
+  format: yaml
+  label: Apicbase Webhooks
+  slug: webhooks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apicbase/refs/heads/main/openapi/apicbase-openapi.yml
 authorization_urls:
 - https://app.apicbase.com/oauth/authorize/
 description: ''

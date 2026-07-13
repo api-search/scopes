@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: books-api-openapi.yml
+  format: yaml
+  label: Books API
+  slug: books-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/books-api-openapi.yml
+- filename: google-drive-api-openapi.yml
+  format: yaml
+  label: Google Drive API
+  slug: google-drive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-drive-api-openapi.yml
+- filename: google-drive-activity-api-openapi.yml
+  format: yaml
+  label: Google Drive Activity API
+  slug: google-drive-activity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-drive-activity-api-openapi.yml
+- filename: google-drive-labels-api-openapi.yml
+  format: yaml
+  label: Google Drive Labels API
+  slug: google-drive-labels-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-drive-labels-api-openapi.yml
+- filename: google-calendar-api-openapi.yml
+  format: yaml
+  label: Google Calendar API
+  slug: google-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-calendar-api-openapi.yml
+- filename: google-gmail-api-openapi.yml
+  format: yaml
+  label: Google Gmail API
+  slug: google-gmail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-gmail-api-openapi.yml
+- filename: google-sheets-api-openapi.yml
+  format: yaml
+  label: Google Sheets API
+  slug: google-sheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-sheets-api-openapi.yml
+- filename: google-docs-api-openapi.yml
+  format: yaml
+  label: Google Docs API
+  slug: google-docs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-docs-api-openapi.yml
+- filename: google-places-api-openapi.yml
+  format: yaml
+  label: Google Places API
+  slug: google-places-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-places-api-openapi.yml
+- filename: google-gemini-api-openapi.yml
+  format: yaml
+  label: Google Gemini API
+  slug: google-gemini-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/openapi/google-gemini-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 - https://accounts.google.com/o/oauth2/auth

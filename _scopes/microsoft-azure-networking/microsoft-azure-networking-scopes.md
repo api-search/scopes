@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-networking-openapi.yml
+  format: yaml
+  label: Azure Virtual Networks API
+  slug: azure-virtual-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/openapi/microsoft-azure-networking-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Zoho Sheet Data API
+  slug: zoho-sheet-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/openapi/openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''

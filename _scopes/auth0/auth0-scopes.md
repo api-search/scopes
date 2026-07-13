@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: auth0-management-api-openapi.yml
+  format: yaml
+  label: Auth0 Management API
+  slug: auth0-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-management-api-openapi.yml
+- filename: auth0-authentication-api-openapi.yml
+  format: yaml
+  label: Auth0 Authentication API
+  slug: auth0-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-authentication-api-openapi.yml
+- filename: auth0-fga-openapi.yml
+  format: yaml
+  label: Auth0 FGA (Fine-Grained Authorization)
+  slug: auth0-fga
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/openapi/auth0-fga-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

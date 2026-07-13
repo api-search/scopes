@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: fortellis-appointments-openapi.yml
+  format: yaml
+  label: Fortellis Service Appointments API
+  slug: fortellis-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/fortellis-appointments-openapi.yml
+- filename: fortellis-user-service-openapi.yml
+  format: yaml
+  label: Fortellis User / Booking Sessions API
+  slug: fortellis-user-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/fortellis-user-service-openapi.yml
+- filename: fortellis-parts-store-openapi.yml
+  format: yaml
+  label: Fortellis Parts Store API
+  slug: fortellis-parts-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/fortellis-parts-store-openapi.yml
+- filename: fortellis-pet-adoption-openapi.yml
+  format: yaml
+  label: Fortellis Reference Pet Adoption API
+  slug: fortellis-pet-adoption-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/fortellis-pet-adoption-openapi.yml
+- filename: fortellis-event-relay-webhook-openapi.yml
+  format: yaml
+  label: Fortellis Event Relay Webhook
+  slug: fortellis-event-relay-webhook
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/fortellis-event-relay-webhook-openapi.yml
+- filename: fortellis-event-relay-data-plane-proxy-asyncapi.yml
+  format: yaml
+  label: Fortellis Event Relay Data Plane Proxy (AsyncAPI)
+  slug: fortellis-event-relay-data-plane
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/asyncapi/fortellis-event-relay-data-plane-proxy-asyncapi.yml
+- filename: fortellis-hello-world-asyncapi.yml
+  format: yaml
+  label: Fortellis AsyncAPI Hello World Reference
+  slug: fortellis-async-hello-world
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/asyncapi/fortellis-hello-world-asyncapi.yml
 authorization_urls:
 - https://identity.fortellis.io/oauth2/
 description: ''

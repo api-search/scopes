@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: wso2-publisher-api.yaml
+  format: yaml
+  label: WSO2 Publisher API
+  slug: publisher-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-publisher-api.yaml
+- filename: wso2-devportal-api.yaml
+  format: yaml
+  label: WSO2 Developer Portal API
+  slug: devportal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-devportal-api.yaml
+- filename: wso2-admin-api.yaml
+  format: yaml
+  label: WSO2 Admin Portal API
+  slug: admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-admin-api.yaml
+- filename: wso2-gateway-api.yaml
+  format: yaml
+  label: WSO2 Gateway API
+  slug: gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-gateway-api.yaml
+- filename: wso2-service-catalog-api.yaml
+  format: yaml
+  label: WSO2 Service Catalog API
+  slug: service-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-service-catalog-api.yaml
+- filename: wso2-devops-api.yaml
+  format: yaml
+  label: WSO2 DevOps API
+  slug: devops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-devops-api.yaml
+- filename: wso2-dcr-api.yaml
+  format: yaml
+  label: WSO2 DCR API
+  slug: dcr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-dcr-api.yaml
+- filename: wso2-governance-api.yaml
+  format: yaml
+  label: WSO2 Governance API
+  slug: governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/openapi/wso2-governance-api.yaml
 authorization_urls: []
 description: ''
 docs: ''

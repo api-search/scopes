@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: analytics-oas
+  format: yaml
+  label: Zoho Analytics API
+  slug: zoho-analytics-api
+  spec_type: OpenAPI
+  url: https://github.com/zoho/analytics-oas
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''

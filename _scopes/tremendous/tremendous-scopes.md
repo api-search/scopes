@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tremendous-api-openapi.yml
+  format: yaml
+  label: Tremendous API
+  slug: tremendous
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-api-openapi.yml
 authorization_urls:
 - https://www.tremendous.com/oauth/authorize
 description: ''

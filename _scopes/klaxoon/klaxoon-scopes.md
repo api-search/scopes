@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: klaxoon-openapi.yml
+  format: yaml
+  label: Klaxoon API
+  slug: klaxoon-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-openapi.yml
 authorization_urls:
 - https://access.klaxoon.com/auth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloud-sql-openapi.yml
+  format: yaml
+  label: Cloud SQL Admin API
+  slug: cloud-sql-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-sql/refs/heads/main/openapi/cloud-sql-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

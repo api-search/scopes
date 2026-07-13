@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: llms.txt
+  format: yaml
+  label: Tango RaaS API
+  slug: tango-raas-api
+  spec_type: OpenAPI
+  url: https://developers.tangocard.com/llms.txt
 authorization_urls: []
 description: ''
 docs: https://developers.tangocard.com/docs/acquire-service-account-token

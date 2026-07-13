@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: formassembly-formassembly-api-openapi.yml
+  format: yaml
+  label: FormAssembly REST API
+  slug: formassembly-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-formassembly-api-openapi.yml
 authorization_urls:
 - https://app.formassembly.com/oauth/login
 description: ''

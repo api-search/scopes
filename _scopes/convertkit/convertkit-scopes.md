@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: v4.json
+  format: json
+  label: Kit API
+  slug: kit-api
+  spec_type: OpenAPI
+  url: https://developers.kit.com/api-reference/v4.json
 authorization_urls:
 - https://api.kit.com/v4/oauth/authorize
 description: ''

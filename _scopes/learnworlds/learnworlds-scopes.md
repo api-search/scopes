@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: learnworlds-openapi.yml
+  format: yaml
+  label: LearnWorlds Users API
+  slug: learnworlds-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-openapi.yml
+- filename: learnworlds-openapi.yml
+  format: yaml
+  label: LearnWorlds Courses API
+  slug: learnworlds-courses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-openapi.yml
+- filename: learnworlds-openapi.yml
+  format: yaml
+  label: LearnWorlds Enrollments API
+  slug: learnworlds-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-openapi.yml
+- filename: learnworlds-openapi.yml
+  format: yaml
+  label: LearnWorlds Payments API
+  slug: learnworlds-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-openapi.yml
+- filename: learnworlds-openapi.yml
+  format: yaml
+  label: LearnWorlds Progress API
+  slug: learnworlds-progress-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-openapi.yml
+- filename: learnworlds-openapi.yml
+  format: yaml
+  label: LearnWorlds Tags API
+  slug: learnworlds-tags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-openapi.yml
+- filename: learnworlds-openapi.yml
+  format: yaml
+  label: LearnWorlds Webhooks API
+  slug: learnworlds-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.learnworlds.dev/docs/api/b6b6c2d4906e9-authentication

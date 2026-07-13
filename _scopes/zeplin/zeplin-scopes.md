@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi
+  format: yaml
+  label: Zeplin API
+  slug: zeplin-api
+  spec_type: OpenAPI
+  url: https://github.com/zeplin/openapi
 authorization_urls:
 - /v1/oauth/authorize
 description: ''

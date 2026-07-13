@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: loop-returns-returns-openapi.yml
+  format: yaml
+  label: Loop Returns API
+  slug: loop-returns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-returns-openapi.yml
 authorization_urls:
 - https://oauth.loopreturns.com/authorize
 description: ''

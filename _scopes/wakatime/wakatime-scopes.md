@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: wakatime-api-v1-openapi.yml
+  format: yaml
+  label: WakaTime API v1
+  slug: wakatime-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/openapi/wakatime-api-v1-openapi.yml
 authorization_urls:
 - https://wakatime.com/oauth/authorize
 description: ''

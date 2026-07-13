@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: radius-applications-core-openapi.json
+  format: json
+  label: Radius Applications.Core API
+  slug: applications-core
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-applications-core-openapi.json
+- filename: radius-applications-dapr-openapi.json
+  format: json
+  label: Radius Applications.Dapr API
+  slug: applications-dapr
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-applications-dapr-openapi.json
+- filename: radius-applications-datastores-openapi.json
+  format: json
+  label: Radius Applications.Datastores API
+  slug: applications-datastores
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-applications-datastores-openapi.json
+- filename: radius-applications-messaging-openapi.json
+  format: json
+  label: Radius Applications.Messaging API
+  slug: applications-messaging
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-applications-messaging-openapi.json
+- filename: radius-ucp-openapi.json
+  format: json
+  label: Radius Universal Control Plane (UCP) API
+  slug: ucp
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/openapi/radius-ucp-openapi.json
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

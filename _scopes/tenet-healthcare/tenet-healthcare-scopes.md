@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tenet-healthcare-fhir-openapi.yml
+  format: yaml
+  label: Tenet Health Patient Portal API
+  slug: tenet-health-patient-portal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-fhir-openapi.yml
 authorization_urls:
 - https://auth.tenethealth.com/oauth2/authorize
 description: ''

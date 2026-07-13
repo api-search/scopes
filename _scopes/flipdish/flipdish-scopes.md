@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: flipdish-apps-openapi.json
+  format: json
+  label: Flipdish Apps & Channels API
+  slug: apps
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-apps-openapi.json
+- filename: flipdish-catalog-openapi.json
+  format: json
+  label: Flipdish Catalog API
+  slug: catalog
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-catalog-openapi.json
+- filename: flipdish-customers-openapi.json
+  format: json
+  label: Flipdish Customers & Accounts API
+  slug: customers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-customers-openapi.json
+- filename: flipdish-devices-openapi.json
+  format: json
+  label: Flipdish Devices API
+  slug: devices
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-devices-openapi.json
+- filename: flipdish-marketing-openapi.json
+  format: json
+  label: Flipdish Marketing API
+  slug: marketing
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-marketing-openapi.json
+- filename: flipdish-menus-openapi.json
+  format: json
+  label: Flipdish Menus API
+  slug: menus
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-menus-openapi.json
+- filename: flipdish-orders-openapi.json
+  format: json
+  label: Flipdish Orders API
+  slug: orders
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-orders-openapi.json
+- filename: flipdish-payments-openapi.json
+  format: json
+  label: Flipdish Payments & Payouts API
+  slug: payments
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-payments-openapi.json
+- filename: flipdish-platform-openapi.json
+  format: json
+  label: Flipdish Platform API
+  slug: platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-platform-openapi.json
+- filename: flipdish-stores-openapi.json
+  format: json
+  label: Flipdish Stores API
+  slug: stores
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/openapi/flipdish-stores-openapi.json
 authorization_urls:
 - https://api.flipdish.co/identity/connect/authorize
 description: ''

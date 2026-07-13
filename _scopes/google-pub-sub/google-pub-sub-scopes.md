@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-pub-sub-openapi.yml
+  format: yaml
+  label: Google Pub/Sub
+  slug: google-pub-sub
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ms-products-openapi.yml
+  format: yaml
+  label: Microsoft Graph API
+  slug: microsoft-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ms-products/refs/heads/main/openapi/ms-products-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

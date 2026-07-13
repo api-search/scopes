@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: upwork-graphql-api-openapi.yml
+  format: yaml
+  label: Upwork GraphQL API
+  slug: graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-graphql-api-openapi.yml
+- filename: upwork-rest-api-openapi.yml
+  format: yaml
+  label: Upwork REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-rest-api-openapi.yml
 authorization_urls:
 - https://www.upwork.com/ab/account-security/oauth2/authorize
 description: ''

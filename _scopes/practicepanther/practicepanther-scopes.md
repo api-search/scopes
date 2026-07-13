@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: practicepanther-practicepanther-api-openapi.yml
+  format: yaml
+  label: PracticePanther API
+  slug: practicepanther-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/openapi/practicepanther-practicepanther-api-openapi.yml
 authorization_urls:
 - /OAuth/Authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: compute-openapi.yml
+  format: yaml
+  label: Google Compute Engine API
+  slug: google-compute-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/openapi/compute-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

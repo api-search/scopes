@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: sage-accounting-openapi.yml
+  format: yaml
+  label: Sage Accounting API
+  slug: accounting
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/sage-accounting-openapi.yml
 authorization_urls:
 - https://www.sageone.com/oauth2/auth
 description: ''

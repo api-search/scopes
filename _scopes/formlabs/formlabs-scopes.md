@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: formlabs-openapi.yml
+  format: yaml
+  label: Formlabs Web API (Dashboard) - Printers
+  slug: formlabs-web-api-printers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-openapi.yml
+- filename: formlabs-openapi.yml
+  format: yaml
+  label: Formlabs Web API (Dashboard) - Prints
+  slug: formlabs-web-api-prints
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-openapi.yml
+- filename: formlabs-openapi.yml
+  format: yaml
+  label: Formlabs Web API (Dashboard) - Consumables
+  slug: formlabs-web-api-consumables
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-openapi.yml
+- filename: formlabs-openapi.yml
+  format: yaml
+  label: Formlabs Web API (Dashboard) - Events
+  slug: formlabs-web-api-events
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-openapi.yml
+- filename: formlabs-openapi.yml
+  format: yaml
+  label: Formlabs Web API (Dashboard) - Groups
+  slug: formlabs-web-api-groups
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

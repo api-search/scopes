@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Procurify API
+  slug: procurify-api
+  spec_type: OpenAPI
+  url: https://developer.procurify.com/openapi.json
 authorization_urls:
 - https://<your-domain>.procurify.com/oauth/authorize
 description: ''

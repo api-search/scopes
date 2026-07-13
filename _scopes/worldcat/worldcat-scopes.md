@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: wcv2
+  format: yaml
+  label: WorldCat Search API
+  slug: worldcat-search-api
+  spec_type: OpenAPI
+  url: https://developer.api.oclc.org/wcv2
+- filename: wc-metadata-v2
+  format: yaml
+  label: WorldCat Metadata API
+  slug: worldcat-metadata-api
+  spec_type: OpenAPI
+  url: https://developer.api.oclc.org/wc-metadata-v2
+- filename: worldcat-knowledge-base-api.yml
+  format: yaml
+  label: WorldCat Knowledge Base API
+  slug: worldcat-knowledge-base-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/openapi/worldcat-knowledge-base-api.yml
+- filename: entity-data
+  format: yaml
+  label: WorldCat Entities Data API
+  slug: worldcat-entities-data-api
+  spec_type: OpenAPI
+  url: https://developer.api.oclc.org/entity-data
 authorization_urls:
 - https://oauth.oclc.org/auth
 description: ''

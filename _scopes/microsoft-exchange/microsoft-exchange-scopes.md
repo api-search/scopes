@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: microsoft-exchange-graph-mail-openapi.yml
+  format: yaml
+  label: Microsoft Graph Mail API
+  slug: microsoft-graph-mail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/openapi/microsoft-exchange-graph-mail-openapi.yml
+- filename: microsoft-exchange-graph-calendar-openapi.yml
+  format: yaml
+  label: Microsoft Graph Calendar API
+  slug: microsoft-graph-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/openapi/microsoft-exchange-graph-calendar-openapi.yml
+- filename: microsoft-exchange-graph-contacts-openapi.yml
+  format: yaml
+  label: Microsoft Graph Contacts API
+  slug: microsoft-graph-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/openapi/microsoft-exchange-graph-contacts-openapi.yml
+- filename: microsoft-exchange-graph-people-openapi.yml
+  format: yaml
+  label: Microsoft Graph People API
+  slug: microsoft-graph-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/openapi/microsoft-exchange-graph-people-openapi.yml
+- filename: microsoft-exchange-admin-api-openapi.yml
+  format: yaml
+  label: Exchange Online Admin API
+  slug: exchange-online-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/openapi/microsoft-exchange-admin-api-openapi.yml
+- filename: microsoft-exchange-graph-import-export-openapi.yml
+  format: yaml
+  label: Microsoft Graph Mailbox Import Export API
+  slug: microsoft-graph-mailbox-import-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/openapi/microsoft-exchange-graph-import-export-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

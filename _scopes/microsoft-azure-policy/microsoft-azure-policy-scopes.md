@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-policy-openapi.yml
+  format: yaml
+  label: Azure Policy REST API
+  slug: azure-policy-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/openapi/microsoft-azure-policy-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

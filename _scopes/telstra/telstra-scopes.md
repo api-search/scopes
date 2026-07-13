@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: telstra-messaging-api-openapi.yml
+  format: yaml
+  label: Telstra Messaging API
+  slug: telstra-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-messaging-api-openapi.yml
+- filename: telstra-mobile-number-verification-api-openapi.yml
+  format: yaml
+  label: Telstra Mobile Number Verification API
+  slug: telstra-mobile-number-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/heads/main/openapi/telstra-mobile-number-verification-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

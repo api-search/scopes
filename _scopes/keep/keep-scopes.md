@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Keep REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://api.keephq.dev/openapi.json
 authorization_urls: []
 description: ''
 docs: https://docs.keephq.dev/deployment/authentication/overview

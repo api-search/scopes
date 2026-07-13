@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: wiktionary-mediawiki-action-api-openapi-original.yml
+  format: yaml
+  label: MediaWiki Action API (Wiktionary)
+  slug: mediawiki-action-api-wiktionary
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-mediawiki-action-api-openapi-original.yml
+- filename: wiktionary-rest-api-openapi-original.yml
+  format: yaml
+  label: Wikimedia REST API (Wiktionary)
+  slug: wikimedia-rest-api-wiktionary
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-rest-api-openapi-original.yml
+- filename: wiktionary-core-rest-api-openapi-original.yml
+  format: yaml
+  label: MediaWiki Core REST API (Wiktionary)
+  slug: mediawiki-core-rest-api-wiktionary
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/openapi/wiktionary-core-rest-api-openapi-original.yml
 authorization_urls:
 - https://meta.wikimedia.org/w/rest.php/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: v2.json
+  format: json
+  label: Red Hat Satellite REST API
+  slug: red-hat-satellite-rest-api
+  spec_type: OpenAPI
+  url: https://satellite.example.com/apidoc/v2.json
 authorization_urls:
 - https://satellite.example.com/users/extlogin
 description: ''

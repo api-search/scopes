@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: salla-merchant-api-openapi.yml
+  format: yaml
+  label: Salla Merchant API
+  slug: salla-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-merchant-api-openapi.yml
+- filename: salla-apps-api-openapi.yml
+  format: yaml
+  label: Salla Apps API
+  slug: salla-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-apps-api-openapi.yml
+- filename: salla-shipping-fulfillment-api-openapi.yml
+  format: yaml
+  label: Salla Shipping and Fulfillment API
+  slug: salla-shipping-fulfillment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-shipping-fulfillment-api-openapi.yml
+- filename: salla-webhooks-asyncapi.yml
+  format: yaml
+  label: Salla Webhooks
+  slug: salla-webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/openapi/salla-webhooks-asyncapi.yml
 authorization_urls:
 - https://accounts.salla.sa/oauth2/auth
 description: ''

@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: memberclicks-openapi.yml
+  format: yaml
+  label: MemberClicks Profiles API
+  slug: memberclicks-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
+- filename: memberclicks-openapi.yml
+  format: yaml
+  label: MemberClicks Profile Search API
+  slug: memberclicks-profile-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
+- filename: memberclicks-openapi.yml
+  format: yaml
+  label: MemberClicks Attributes API
+  slug: memberclicks-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
+- filename: memberclicks-openapi.yml
+  format: yaml
+  label: MemberClicks Member Types and Statuses API
+  slug: memberclicks-member-types-statuses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
+- filename: memberclicks-openapi.yml
+  format: yaml
+  label: MemberClicks Groups API
+  slug: memberclicks-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
+- filename: memberclicks-openapi.yml
+  format: yaml
+  label: MemberClicks Events API
+  slug: memberclicks-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
+- filename: memberclicks-openapi.yml
+  format: yaml
+  label: MemberClicks Continuing Education API
+  slug: memberclicks-continuing-education-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/openapi/memberclicks-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

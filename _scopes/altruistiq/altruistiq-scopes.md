@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: altruistiq-openapi.yml
+  format: yaml
+  label: Altruistiq Datasource API
+  slug: altruistiq-datasource-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-openapi.yml
+- filename: altruistiq-openapi.yml
+  format: yaml
+  label: Altruistiq PACT API
+  slug: altruistiq-pact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.altruistiq.com

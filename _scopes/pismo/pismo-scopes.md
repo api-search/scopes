@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: pismo-openapi.yml
+  format: yaml
+  label: Pismo Accounts API
+  slug: pismo-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-openapi.yml
+- filename: pismo-openapi.yml
+  format: yaml
+  label: Pismo Customers API
+  slug: pismo-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-openapi.yml
+- filename: pismo-openapi.yml
+  format: yaml
+  label: Pismo Cards API
+  slug: pismo-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-openapi.yml
+- filename: pismo-openapi.yml
+  format: yaml
+  label: Pismo Authorizations API
+  slug: pismo-authorizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-openapi.yml
+- filename: pismo-openapi.yml
+  format: yaml
+  label: Pismo Transactions and Statements API
+  slug: pismo-transactions-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-openapi.yml
+- filename: pismo-openapi.yml
+  format: yaml
+  label: Pismo Programs API
+  slug: pismo-programs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-openapi.yml
+- filename: pismo-openapi.yml
+  format: yaml
+  label: Pismo Events API
+  slug: pismo-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.pismo.io/pismo-docs/docs/authentication-with-oauth2

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: leafly-menu-integration-openapi.yml
+  format: yaml
+  label: Leafly Menu Integration API
+  slug: leafly-menu-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/openapi/leafly-menu-integration-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.leafly.io/menu-integration-docs/v2.html

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: erasmus-university-rotterdam-figshare-data.yaml
+  format: yaml
+  label: EUR Research Data Repository (Figshare API)
+  slug: figshare-data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/openapi/erasmus-university-rotterdam-figshare-data.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

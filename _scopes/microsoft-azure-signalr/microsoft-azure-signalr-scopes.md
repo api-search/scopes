@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-signalr-openapi.yml
+  format: yaml
+  label: Azure SignalR Service REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/openapi/microsoft-azure-signalr-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

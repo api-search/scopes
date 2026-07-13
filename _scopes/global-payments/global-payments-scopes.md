@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: global-payments-unified-payments-api-openapi.yml
+  format: yaml
+  label: Global Payments Unified Payments API
+  slug: payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-unified-payments-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

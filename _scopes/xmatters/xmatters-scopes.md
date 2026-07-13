@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: xmatters-openapi.yml
+  format: yaml
+  label: xMatters REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xmatters/refs/heads/main/openapi/xmatters-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://help.xmatters.com/ondemand/api/oauth.htm

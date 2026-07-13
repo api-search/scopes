@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: bitwarden-public-swagger.json
+  format: json
+  label: Bitwarden Public API - Members
+  slug: public-members
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-public-swagger.json
+- filename: bitwarden-public-swagger.json
+  format: json
+  label: Bitwarden Public API - Groups
+  slug: public-groups
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-public-swagger.json
+- filename: bitwarden-public-swagger.json
+  format: json
+  label: Bitwarden Public API - Collections
+  slug: public-collections
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-public-swagger.json
+- filename: bitwarden-public-swagger.json
+  format: json
+  label: Bitwarden Public API - Policies
+  slug: public-policies
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-public-swagger.json
+- filename: bitwarden-public-swagger.json
+  format: json
+  label: Bitwarden Public API - Event Logs
+  slug: public-events
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-public-swagger.json
 authorization_urls: []
 description: ''
 docs: ''

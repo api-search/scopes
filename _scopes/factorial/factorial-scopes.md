@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: factorial-openapi.yml
+  format: yaml
+  label: Factorial Developer API
+  slug: developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factorial/refs/heads/main/openapi/factorial-openapi.yml
 authorization_urls:
 - https://api.factorialhr.com/oauth/authorize
 description: ''

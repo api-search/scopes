@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: warner-bros-discovery-content-partner-openapi.yml
+  format: yaml
+  label: Warner Bros. Discovery Content Partner API
+  slug: wbd-content-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-content-partner-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

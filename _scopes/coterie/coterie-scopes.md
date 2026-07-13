@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: coterie-openapi.yml
+  format: yaml
+  label: Coterie Quotes API
+  slug: coterie-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-openapi.yml
+- filename: coterie-openapi.yml
+  format: yaml
+  label: Coterie Policies API
+  slug: coterie-policies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-openapi.yml
+- filename: coterie-openapi.yml
+  format: yaml
+  label: Coterie Applications API
+  slug: coterie-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-openapi.yml
+- filename: coterie-openapi.yml
+  format: yaml
+  label: Coterie Industry / NAICS API
+  slug: coterie-industry-naics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-openapi.yml
+- filename: coterie-openapi.yml
+  format: yaml
+  label: Coterie Documents API
+  slug: coterie-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-openapi.yml
+- filename: coterie-openapi.yml
+  format: yaml
+  label: Coterie Webhooks API
+  slug: coterie-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.coterieinsurance.com/#authentication-guide

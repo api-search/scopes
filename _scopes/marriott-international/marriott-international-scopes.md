@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: marriott-international-developer-api-openapi.yml
+  format: yaml
+  label: Marriott Developer API
+  slug: developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/marriott-international/refs/heads/main/openapi/marriott-international-developer-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

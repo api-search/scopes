@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: clever-data-api-openapi.yml
+  format: yaml
+  label: Clever Data API
+  slug: clever-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-data-api-openapi.yml
+- filename: clever-lms-connect-api-openapi.yml
+  format: yaml
+  label: Clever LMS Connect API
+  slug: clever-lms-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-lms-connect-api-openapi.yml
+- filename: clever-events-api-openapi.yml
+  format: yaml
+  label: Clever Events API
+  slug: clever-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-events-api-openapi.yml
 authorization_urls:
 - https://clever.com/oauth/authorize
 description: ''

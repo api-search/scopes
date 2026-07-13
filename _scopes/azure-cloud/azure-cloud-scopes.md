@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: compute.json
+  format: json
+  label: Azure Compute API
+  slug: azure-compute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/compute/resource-manager/Microsoft.Compute/stable/2023-03-01/compute.json
+- filename: storage.json
+  format: json
+  label: Azure Storage API
+  slug: azure-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/storage/resource-manager/Microsoft.Storage/stable/2023-01-01/storage.json
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

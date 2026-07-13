@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: hbku-figshare-api.yaml
+  format: yaml
+  label: Figshare API v2 (Manara - HBKU Research)
+  slug: figshare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-figshare-api.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

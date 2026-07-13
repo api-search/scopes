@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: wildapricot-admin-api-openapi.yml
+  format: yaml
+  label: WildApricot Admin API
+  slug: wildapricot-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/openapi/wildapricot-admin-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

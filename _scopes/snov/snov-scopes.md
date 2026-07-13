@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: snov-openapi.yml
+  format: yaml
+  label: Snov.io Authentication API
+  slug: snov-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snov/refs/heads/main/openapi/snov-openapi.yml
+- filename: snov-openapi.yml
+  format: yaml
+  label: Snov.io Email Finder API
+  slug: snov-email-finder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snov/refs/heads/main/openapi/snov-openapi.yml
+- filename: snov-openapi.yml
+  format: yaml
+  label: Snov.io Domain Search API
+  slug: snov-domain-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snov/refs/heads/main/openapi/snov-openapi.yml
+- filename: snov-openapi.yml
+  format: yaml
+  label: Snov.io Email Verifier API
+  slug: snov-email-verifier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snov/refs/heads/main/openapi/snov-openapi.yml
+- filename: snov-openapi.yml
+  format: yaml
+  label: Snov.io Enrichment API
+  slug: snov-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snov/refs/heads/main/openapi/snov-openapi.yml
+- filename: snov-openapi.yml
+  format: yaml
+  label: Snov.io Prospects & Lists API
+  slug: snov-prospects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snov/refs/heads/main/openapi/snov-openapi.yml
+- filename: snov-openapi.yml
+  format: yaml
+  label: Snov.io Drip Campaigns API
+  slug: snov-campaigns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snov/refs/heads/main/openapi/snov-openapi.yml
+- filename: snov-openapi.yml
+  format: yaml
+  label: Snov.io Sender Accounts API
+  slug: snov-sender-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snov/refs/heads/main/openapi/snov-openapi.yml
+- filename: snov-openapi.yml
+  format: yaml
+  label: Snov.io Email Warm-up API
+  slug: snov-warmup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snov/refs/heads/main/openapi/snov-openapi.yml
+- filename: snov-openapi.yml
+  format: yaml
+  label: Snov.io User & Balance API
+  slug: snov-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snov/refs/heads/main/openapi/snov-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://snov.io/api

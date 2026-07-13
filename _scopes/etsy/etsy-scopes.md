@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: etsy-openapi-original.yml
+  format: yaml
+  label: Etsy Open API v3
+  slug: open-api-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/openapi/etsy-openapi-original.yml
+- filename: etsy-webhooks-asyncapi.yml
+  format: yaml
+  label: Etsy Open API v3 Webhooks
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/asyncapi/etsy-webhooks-asyncapi.yml
 authorization_urls:
 - https://www.etsy.com/oauth/connect
 description: ''

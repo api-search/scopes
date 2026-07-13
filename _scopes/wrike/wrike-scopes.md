@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: wrike-openapi.yml
+  format: yaml
+  label: Wrike API
+  slug: wrike
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/openapi/wrike-openapi.yml
 authorization_urls:
 - https://www.wrike.com/oauth2/authorize
 description: ''

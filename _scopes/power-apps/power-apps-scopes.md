@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Power Apps REST API
+  slug: power-apps-rest-api
+  spec_type: OpenAPI
+  url: https://learn.microsoft.com/en-us/connectors/powerappsforappmakers/
+- filename: openapi
+  format: yaml
+  label: Microsoft Dataverse Web API
+  slug: microsoft-dataverse-web-api
+  spec_type: OpenAPI
+  url: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/webapi/openapi
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

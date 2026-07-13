@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: openapi
+  format: yaml
+  label: Gravatar Avatar API
+  slug: avatar-api
+  spec_type: OpenAPI
+  url: https://api.gravatar.com/v3/openapi
+- filename: openapi
+  format: yaml
+  label: Gravatar REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://api.gravatar.com/v3/openapi
 authorization_urls:
 - https://public-api.wordpress.com/oauth2/authorize
 description: ''

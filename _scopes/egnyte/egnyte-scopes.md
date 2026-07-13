@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: egnyte-openapi.yml
+  format: yaml
+  label: Egnyte Public API
+  slug: public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-openapi.yml
 authorization_urls:
 - https://{domain}.egnyte.com/puboauth/token
 description: ''

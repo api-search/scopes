@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: digits-com-openapi.yml
+  format: yaml
+  label: Digits Transactions API
+  slug: digits-com-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-openapi.yml
+- filename: digits-com-openapi.yml
+  format: yaml
+  label: Digits Source Sync API
+  slug: digits-com-source-sync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-openapi.yml
+- filename: digits-com-openapi.yml
+  format: yaml
+  label: Digits Parties API
+  slug: digits-com-parties-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-openapi.yml
+- filename: digits-com-openapi.yml
+  format: yaml
+  label: Digits Chart of Accounts API
+  slug: digits-com-chart-of-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-openapi.yml
+- filename: digits-com-openapi.yml
+  format: yaml
+  label: Digits Financial Statements API
+  slug: digits-com-financial-statements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-openapi.yml
+- filename: digits-com-openapi.yml
+  format: yaml
+  label: Digits Connections API
+  slug: digits-com-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-openapi.yml
+- filename: digits-com-openapi.yml
+  format: yaml
+  label: Digits Organizations API
+  slug: digits-com-organizations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/openapi/digits-com-openapi.yml
 authorization_urls:
 - https://connect.digits.com/v1/oauth/authorize
 description: ''

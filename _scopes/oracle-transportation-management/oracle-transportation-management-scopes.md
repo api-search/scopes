@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: oracle-otm-business-objects-openapi.yml
+  format: yaml
+  label: Oracle Transportation Management Business Object Resources REST API
+  slug: oracle-transportation-management-business-object-resources-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-otm-business-objects-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: gotowebinar-rest-openapi.yml
+  format: yaml
+  label: GoToWebinar REST API
+  slug: gotowebinar-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-rest-openapi.yml
+- filename: gotowebinar-webhooks-openapi.yml
+  format: yaml
+  label: GoToWebinar Webhooks API
+  slug: gotowebinar-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-webhooks-openapi.yml
 authorization_urls:
 - https://authentication.logmeininc.com/oauth/authorize
 description: ''

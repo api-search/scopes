@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: oracle-database-19c-ords-openapi.yml
+  format: yaml
+  label: Oracle REST Data Services (ORDS)
+  slug: oracle-rest-data-services-ords
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/openapi/oracle-database-19c-ords-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/19.4/aelig/OAUTH-reference.html

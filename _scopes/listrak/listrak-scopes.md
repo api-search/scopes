@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: listrak-email-openapi.yml
+  format: yaml
+  label: Listrak Email REST API
+  slug: email
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-email-openapi.yml
+- filename: listrak-sms-openapi.yml
+  format: yaml
+  label: Listrak SMS REST API
+  slug: sms
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-sms-openapi.yml
+- filename: listrak-crosschannel-openapi.yml
+  format: yaml
+  label: Listrak Cross Channel REST API
+  slug: crosschannel
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-crosschannel-openapi.yml
+- filename: listrak-data-openapi.yml
+  format: yaml
+  label: Listrak Data Import REST API
+  slug: data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-data-openapi.yml
+- filename: listrak-twowaysms-openapi.yml
+  format: yaml
+  label: Listrak Two-Way SMS Conversation REST API
+  slug: twowaysms
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-twowaysms-openapi.yml
+- filename: listrak-mobileclient-openapi.yml
+  format: yaml
+  label: Listrak Mobile App Push API
+  slug: mobileclient
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-mobileclient-openapi.yml
+- filename: listrak-privacy-openapi.yml
+  format: yaml
+  label: Listrak Privacy REST API
+  slug: privacy
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-privacy-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: huntington-bank-treasury-management-api-openapi.yml
+  format: yaml
+  label: Huntington Bank Treasury Management API
+  slug: treasury-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bank-treasury-management-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ciena-blue-planet-openapi.yml
+  format: yaml
+  label: Ciena Blue Planet Open API
+  slug: blue-planet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-blue-planet-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

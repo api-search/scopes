@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-openai-openapi.yml
+  format: yaml
+  label: Azure OpenAI Service API
+  slug: azure-openai-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/openapi/microsoft-azure-openai-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

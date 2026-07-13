@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: hku-datahub.yaml
+  format: yaml
+  label: HKU DataHub (Figshare)
+  slug: datahub
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-datahub.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

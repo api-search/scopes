@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: ryder-fleet-management-api-openapi.yml
+  format: yaml
+  label: Ryder Fleet Management API
+  slug: fleet-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-fleet-management-api-openapi.yml
+- filename: ryder-carrier-api-openapi.yml
+  format: yaml
+  label: Ryder Carrier API
+  slug: carrier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-carrier-api-openapi.yml
+- filename: ryder-tm-shipment-api-openapi.yml
+  format: yaml
+  label: Ryder TM Shipment Management API
+  slug: tm-shipment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/openapi/ryder-tm-shipment-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.ryder.com/docs/authentication

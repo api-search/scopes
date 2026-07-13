@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cognite-data-fusion-api.yaml
+  format: yaml
+  label: Cognite Data Fusion API
+  slug: cognite-data-fusion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/openapi/cognite-data-fusion-api.yaml
 authorization_urls:
 - https://your-idps.authorization.url/
 description: ''

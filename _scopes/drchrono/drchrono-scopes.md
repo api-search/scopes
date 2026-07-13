@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: drchrono REST API
+  slug: drchrono-rest-api
+  spec_type: OpenAPI
+  url: https://app.drchrono.com/api-docs/
 authorization_urls:
 - https://app.drchrono.com/o/authorize/
 description: ''

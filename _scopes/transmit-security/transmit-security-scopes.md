@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: api_ref_intro
+  format: yaml
+  label: Mosaic Identity Management, Authentication & Journeys API
+  slug: mosaic-identity-management-authentication-journeys-api
+  spec_type: OpenAPI
+  url: https://developer.transmitsecurity.com/openapi/api_ref_intro
+- filename: api_ref_intro
+  format: yaml
+  label: Mosaic Fraud Prevention API
+  slug: mosaic-fraud-prevention-api
+  spec_type: OpenAPI
+  url: https://developer.transmitsecurity.com/openapi/api_ref_intro
+- filename: api_ref_intro
+  format: yaml
+  label: Mosaic Identity Verification API
+  slug: mosaic-identity-verification-api
+  spec_type: OpenAPI
+  url: https://developer.transmitsecurity.com/openapi/api_ref_intro
+- filename: transmit-security-platform-administration-openapi.yml
+  format: yaml
+  label: Mosaic Platform Administration API
+  slug: mosaic-platform-administration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/openapi/transmit-security-platform-administration-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.transmitsecurity.com/guides/user/auth_oidc

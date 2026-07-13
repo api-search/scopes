@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: d-wave-solvers-api-openapi.yml
+  format: yaml
+  label: D-Wave Solver API (SAPI) - Solvers
+  slug: d-wave-solver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-solvers-api-openapi.yml
+- filename: d-wave-problems-api-openapi.yml
+  format: yaml
+  label: D-Wave Solver API (SAPI) - Problems
+  slug: d-wave-problems-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-problems-api-openapi.yml
+- filename: d-wave-metadata-api-openapi.yml
+  format: yaml
+  label: D-Wave Metadata API - Regions
+  slug: d-wave-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-metadata-api-openapi.yml
+- filename: d-wave-leap-account-api-openapi.yml
+  format: yaml
+  label: D-Wave Leap Account API
+  slug: d-wave-leap-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-leap-account-api-openapi.yml
+- filename: d-wave-hybrid-solvers-openapi.yml
+  format: yaml
+  label: D-Wave Leap Hybrid Solvers
+  slug: d-wave-hybrid-solvers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-hybrid-solvers-openapi.yml
+- filename: d-wave-qpu-samplers-openapi.yml
+  format: yaml
+  label: D-Wave QPU Samplers (Advantage / Advantage2)
+  slug: d-wave-qpu-samplers
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-qpu-samplers-openapi.yml
 authorization_urls:
 - https://cloud.dwavesys.com/leap/oauth/authorize
 description: ''

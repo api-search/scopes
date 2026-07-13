@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: atlassian-compass-openapi.yml
+  format: yaml
+  label: Atlassian Compass REST API
+  slug: atlassian-compass-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-openapi.yml
 authorization_urls:
 - https://auth.atlassian.com/authorize
 description: ''

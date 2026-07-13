@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: salesforce-automation-flow-openapi.yml
+  format: yaml
+  label: Salesforce Flow Automation API
+  slug: salesforce-flow-automation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-automation-system/refs/heads/main/openapi/salesforce-automation-flow-openapi.yml
 authorization_urls:
 - https://login.salesforce.com/services/oauth2/authorize
 description: ''

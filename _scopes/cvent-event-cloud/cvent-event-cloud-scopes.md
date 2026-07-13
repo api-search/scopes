@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cvent-event-cloud-openapi.yml
+  format: yaml
+  label: Cvent Platform REST API (Event Cloud)
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/openapi/cvent-event-cloud-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

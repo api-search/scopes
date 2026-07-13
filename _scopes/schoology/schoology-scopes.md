@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: schoology-openapi.yml
+  format: yaml
+  label: Schoology REST API v1
+  slug: rest-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-openapi.yml
+- filename: schoology-webhooks-openapi.yml
+  format: yaml
+  label: Schoology Event Triggers (Webhooks) API
+  slug: event-triggers-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/schoology/refs/heads/main/openapi/schoology-webhooks-openapi.yml
 authorization_urls:
 - https://api.schoology.com/v1/oauth/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: toornament-openapi.yml
+  format: yaml
+  label: Toornament Organizer API
+  slug: organizer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/toornament/refs/heads/main/openapi/toornament-openapi.yml
 authorization_urls:
 - https://app.toornament.com/oauth/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: rest-api-spec
+  format: yaml
+  label: Figma REST API
+  slug: figma-api
+  spec_type: OpenAPI
+  url: https://github.com/figma/rest-api-spec
 authorization_urls:
 - https://www.figma.com/oauth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: core-exchange
+  format: yaml
+  label: FDX Accounts API
+  slug: fdx-accounts-api
+  spec_type: OpenAPI
+  url: https://github.com/plaid/core-exchange
 authorization_urls:
 - https://www.your-organization.com/authorize
 description: ''

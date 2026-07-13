@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bitbucket-pipelines-openapi.json
+  format: json
+  label: Bitbucket Cloud REST API v2.0 (Pipelines)
+  slug: rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitbucket-pipelines/refs/heads/main/openapi/bitbucket-pipelines-openapi.json
 authorization_urls:
 - https://bitbucket.org/site/oauth2/authorize
 description: ''

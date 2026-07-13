@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bitrix24-openapi.json
+  format: json
+  label: Bitrix24 REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/openapi/bitrix24-openapi.json
 authorization_urls:
 - https://oauth.bitrix.info/oauth/authorize/
 description: ''

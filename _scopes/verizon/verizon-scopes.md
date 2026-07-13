@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: verizon-thingspace-connectivity-openapi.yml
+  format: yaml
+  label: Verizon ThingSpace
+  slug: thingspace
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-thingspace-connectivity-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

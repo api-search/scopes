@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: inflection-openapi.json
+  format: json
+  label: Inflection Chat API
+  slug: inflection-chat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
+- filename: inflection-openapi.json
+  format: json
+  label: Inflection Models API
+  slug: inflection-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
+- filename: inflection-openapi.json
+  format: json
+  label: Inflection Playground
+  slug: inflection-playground
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
+- filename: inflection-openapi.json
+  format: json
+  label: Inflection Usage API
+  slug: inflection-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
+- filename: inflection-openapi.json
+  format: json
+  label: Pi Personal AI
+  slug: inflection-pi-app
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
+- filename: inflection-openapi.json
+  format: json
+  label: Inflection for Enterprise
+  slug: inflection-enterprise
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-openapi.json
 authorization_urls: []
 description: ''
 docs: https://developers.inflection.ai/docs/authentication

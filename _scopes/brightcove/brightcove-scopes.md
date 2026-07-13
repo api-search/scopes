@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: cms-api-swagger.yaml
+  format: yaml
+  label: Brightcove CMS API
+  slug: brightcove-cms-api
+  spec_type: OpenAPI
+  url: https://apis.support.brightcove.com/cms/references/cms-api-swagger.yaml
+- filename: ssai-openapi.yaml
+  format: yaml
+  label: Brightcove SSAI API
+  slug: brightcove-ssai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/ssai-openapi.yaml
+- filename: delivery-rules-openapi.yaml
+  format: yaml
+  label: Brightcove Delivery Rules API
+  slug: brightcove-delivery-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/delivery-rules-openapi.yaml
+- filename: social-openapi.yaml
+  format: yaml
+  label: Brightcove Social API
+  slug: brightcove-social-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/openapi/social-openapi.yaml
 authorization_urls: []
 description: ''
 docs: ''

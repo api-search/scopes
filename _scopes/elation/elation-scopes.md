@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: llms.txt
+  format: yaml
+  label: Elation Health REST API
+  slug: elation-health-api
+  spec_type: OpenAPI
+  url: https://docs.elationhealth.com/llms.txt
 authorization_urls: []
 description: ''
 docs: ''

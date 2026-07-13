@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: rest.apidoc.blueconic.com
+  format: yaml
+  label: BlueConic REST API v2
+  slug: blueconic-rest-api-v2
+  spec_type: OpenAPI
+  url: https://rest.apidoc.blueconic.com
 authorization_urls:
 - /rest/v2/oauth/authorize
 description: ''

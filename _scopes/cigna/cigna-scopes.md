@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: cigna-patient-access-api-openapi.yml
+  format: yaml
+  label: Cigna Patient Access API
+  slug: patient-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-patient-access-api-openapi.yml
+- filename: cigna-provider-directory-api-openapi.yml
+  format: yaml
+  label: Cigna Provider Directory API
+  slug: provider-directory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-provider-directory-api-openapi.yml
+- filename: cigna-drug-formulary-api-openapi.yml
+  format: yaml
+  label: Cigna Drug Formulary API
+  slug: drug-formulary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-drug-formulary-api-openapi.yml
+- filename: cigna-provider-access-api-openapi.yml
+  format: yaml
+  label: Cigna Provider Access API
+  slug: provider-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/openapi/cigna-provider-access-api-openapi.yml
 authorization_urls:
 - https://r-hi2.cigna.com/mga/sps/oauth/oauth20/authorize
 description: ''

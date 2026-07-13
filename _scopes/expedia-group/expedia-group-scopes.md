@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: expedia-rapid-openapi-original.yml
+  format: yaml
+  label: Expedia Rapid API
+  slug: rapid
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-rapid-openapi-original.yml
+- filename: expedia-fraud-protection-openapi-original.yml
+  format: yaml
+  label: Expedia Fraud Protection API
+  slug: fraud-protection
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-fraud-protection-openapi-original.yml
+- filename: expedia-lodging-product-openapi-original.yml
+  format: yaml
+  label: Expedia Lodging API
+  slug: lodging
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-lodging-product-openapi-original.yml
+- filename: expedia-deposit-openapi-original.yml
+  format: yaml
+  label: Expedia EPS Deposit API
+  slug: deposit
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-deposit-openapi-original.yml
+- filename: expedia-loyalty-openapi-original.yml
+  format: yaml
+  label: Expedia Loyalty Earn API
+  slug: loyalty
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/openapi/expedia-loyalty-openapi-original.yml
 authorization_urls: []
 description: ''
 docs: ''

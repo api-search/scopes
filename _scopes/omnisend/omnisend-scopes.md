@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: omnisend-openapi.yml
+  format: yaml
+  label: Omnisend REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-openapi.yml
 authorization_urls:
 - https://app.omnisend.com/oauth/authorize
 description: ''

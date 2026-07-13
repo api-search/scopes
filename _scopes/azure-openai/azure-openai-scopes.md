@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-openai-asyncapi.yml
+  format: yaml
+  label: Azure OpenAI Inference REST API
+  slug: inference-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/asyncapi/azure-openai-asyncapi.yml
 authorization_urls: []
 description: ''
 docs: ''

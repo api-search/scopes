@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: weave-hq-openapi.yml
+  format: yaml
+  label: Weave Messaging API
+  slug: weave-hq-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-hq/refs/heads/main/openapi/weave-hq-openapi.yml
+- filename: weave-hq-openapi.yml
+  format: yaml
+  label: Weave Phone & Calls API
+  slug: weave-hq-phone-calls-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-hq/refs/heads/main/openapi/weave-hq-openapi.yml
+- filename: weave-hq-openapi.yml
+  format: yaml
+  label: Weave Contacts API
+  slug: weave-hq-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-hq/refs/heads/main/openapi/weave-hq-openapi.yml
+- filename: weave-hq-openapi.yml
+  format: yaml
+  label: Weave Scheduling & Appointments API
+  slug: weave-hq-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-hq/refs/heads/main/openapi/weave-hq-openapi.yml
+- filename: weave-hq-openapi.yml
+  format: yaml
+  label: Weave Payments API
+  slug: weave-hq-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-hq/refs/heads/main/openapi/weave-hq-openapi.yml
+- filename: weave-hq-openapi.yml
+  format: yaml
+  label: Weave Digital Forms API
+  slug: weave-hq-forms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-hq/refs/heads/main/openapi/weave-hq-openapi.yml
+- filename: weave-hq-openapi.yml
+  format: yaml
+  label: Weave Reviews API
+  slug: weave-hq-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-hq/refs/heads/main/openapi/weave-hq-openapi.yml
+- filename: weave-hq-openapi.yml
+  format: yaml
+  label: Weave Events & Subscriptions API
+  slug: weave-hq-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/weave-hq/refs/heads/main/openapi/weave-hq-openapi.yml
 authorization_urls:
 - https://auth.weaveconnect.com/oauth2/default/v1/authorize
 description: ''

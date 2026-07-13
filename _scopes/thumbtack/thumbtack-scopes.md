@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: thumbtack-demand-openapi.yml
+  format: yaml
+  label: Thumbtack Demand API
+  slug: thumbtack-demand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-demand-openapi.yml
+- filename: thumbtack-pro-openapi.yml
+  format: yaml
+  label: Thumbtack Pro API
+  slug: thumbtack-pro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-pro-openapi.yml
 authorization_urls:
 - https://www.thumbtack.com/services/partner-connect/
 description: ''

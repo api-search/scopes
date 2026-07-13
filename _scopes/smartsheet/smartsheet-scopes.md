@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: smartsheet-openapi.yml
+  format: yaml
+  label: Smartsheet REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-openapi.yml
 authorization_urls:
 - https://app.smartsheet.com/b/authorize
 description: ''

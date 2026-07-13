@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: manhattan-associates-omni-openapi.yml
+  format: yaml
+  label: Manhattan Active Omni and Enterprise Promise & Fulfill API
+  slug: manhattan-active-omni-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-omni-openapi.yml
+- filename: manhattan-associates-wms-openapi.yml
+  format: yaml
+  label: Manhattan Active Supply Chain API
+  slug: manhattan-active-supply-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-wms-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: Recruiting_OpenAPI.yaml
+  format: yaml
+  label: Workday Recruiting REST API
+  slug: workday-recruiting-rest-api
+  spec_type: OpenAPI
+  url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Recruiting/v41.2/Recruiting_OpenAPI.yaml
 authorization_urls:
 - https://{tenant}.workday.com/authorize
 description: ''

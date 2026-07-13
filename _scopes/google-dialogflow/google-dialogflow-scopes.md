@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: rest
+  format: yaml
+  label: Dialogflow API
+  slug: dialogflow-api
+  spec_type: OpenAPI
+  url: https://dialogflow.googleapis.com/$discovery/rest?version=v2
+- filename: rest
+  format: yaml
+  label: Dialogflow CX API
+  slug: dialogflow-cx-api
+  spec_type: OpenAPI
+  url: https://dialogflow.googleapis.com/$discovery/rest?version=v3
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

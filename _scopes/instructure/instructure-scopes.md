@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: canvas.openapi.yaml
+  format: yaml
+  label: Canvas LMS REST API
+  slug: canvas-lms-rest-api
+  spec_type: OpenAPI
+  url: https://github.com/instructure/canvas-lms/blob/master/public/doc/openapi/canvas.openapi.yaml
+- filename: instructure-canvas-lti-openapi.yml
+  format: yaml
+  label: Canvas LTI 1.3 API
+  slug: canvas-lti-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-canvas-lti-openapi.yml
 authorization_urls:
 - https://{canvas_domain}/login/oauth2/auth
 description: ''

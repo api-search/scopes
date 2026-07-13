@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-app-service-openapi.yml
+  format: yaml
+  label: Azure App Service API
+  slug: azure-app-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-app-service/refs/heads/main/openapi/microsoft-azure-app-service-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

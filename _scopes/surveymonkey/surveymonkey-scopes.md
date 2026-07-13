@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: surveymonkey-openapi.yml
+  format: yaml
+  label: SurveyMonkey API v3
+  slug: rest-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/openapi/surveymonkey-openapi.yml
 authorization_urls:
 - https://api.surveymonkey.com/oauth/authorize
 description: ''

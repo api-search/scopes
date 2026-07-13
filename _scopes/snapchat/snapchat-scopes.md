@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: snapchat-ads-api-openapi.yml
+  format: yaml
+  label: Snapchat Ads API
+  slug: snapchat-ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-ads-api-openapi.yml
+- filename: snapchat-conversions-api-openapi.yml
+  format: yaml
+  label: Snapchat Conversions API
+  slug: snapchat-conversions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-conversions-api-openapi.yml
+- filename: snapchat-login-kit-openapi.yml
+  format: yaml
+  label: Snapchat Login Kit API
+  slug: snapchat-login-kit
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-login-kit-openapi.yml
 authorization_urls:
 - https://accounts.snapchat.com/accounts/oauth2/auth
 description: ''

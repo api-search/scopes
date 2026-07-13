@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ramp-developer-api-openapi.yml
+  format: yaml
+  label: Ramp Developer API
+  slug: ramp-developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/openapi/ramp-developer-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

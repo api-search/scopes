@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: sap-concur-expense-report-openapi.yml
+  format: yaml
+  label: Expense Report v3 API
+  slug: expense-report-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/openapi/sap-concur-expense-report-openapi.yml
+- filename: sap-concur-expense-report-openapi.yml
+  format: yaml
+  label: Expense Entry v3 API
+  slug: expense-entry-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/openapi/sap-concur-expense-report-openapi.yml
+- filename: sap-concur-expense-report-openapi.yml
+  format: yaml
+  label: Quick Expense v3 API
+  slug: quick-expense-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/openapi/sap-concur-expense-report-openapi.yml
+- filename: sap-concur-expense-report-openapi.yml
+  format: yaml
+  label: Receipt Image v3 API
+  slug: receipt-image-v3-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/openapi/sap-concur-expense-report-openapi.yml
 authorization_urls:
 - https://us.api.concursolutions.com/oauth2/v0/authorize
 description: ''

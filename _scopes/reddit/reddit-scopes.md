@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: reddit-data-api-openapi.yml
+  format: yaml
+  label: Reddit Data API
+  slug: data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-data-api-openapi.yml
+- filename: reddit-ads-api-openapi.yml
+  format: yaml
+  label: Reddit Ads API
+  slug: ads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-ads-api-openapi.yml
+- filename: reddit-embeds-openapi.yml
+  format: yaml
+  label: Reddit Embeds (oEmbed)
+  slug: embeds
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-embeds-openapi.yml
 authorization_urls:
 - https://www.reddit.com/api/v1/authorize
 description: ''

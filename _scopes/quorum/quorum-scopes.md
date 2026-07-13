@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: quorum-land-management-openapi.yml
+  format: yaml
+  label: Quorum Land Management API
+  slug: quorum-land-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-land-management-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

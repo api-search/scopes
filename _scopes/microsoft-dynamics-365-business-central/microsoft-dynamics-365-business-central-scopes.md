@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: dynamics-open-api
+  format: yaml
+  label: Business Central API (v2.0)
+  slug: api-v2
+  spec_type: OpenAPI
+  url: https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-open-api
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

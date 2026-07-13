@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: wealthbox-openapi.yml
+  format: yaml
+  label: Wealthbox CRM API
+  slug: crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wealthbox/refs/heads/main/openapi/wealthbox-openapi.yml
 authorization_urls:
 - https://app.crmworkspace.com/oauth/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: wikidata-mediawiki-openapi.yml
+  format: yaml
+  label: Wikibase REST API
+  slug: wikibase-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-mediawiki-openapi.yml
 authorization_urls:
 - https://www.mediawiki.org/w/index.php?title=Special:OAuth/authorize
 description: ''

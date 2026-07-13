@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: api.yaml
+  format: yaml
+  label: Vimeo API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://github.com/vimeo/openapi/blob/master/api.yaml
+- filename: vimeo-asyncapi.yml
+  format: yaml
+  label: Vimeo Webhooks
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-asyncapi.yml
 authorization_urls:
 - https://api.vimeo.com/oauth/authorize
 description: ''

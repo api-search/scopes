@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Dropbox Sign REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://github.com/hellosign/hellosign-openapi/blob/main/openapi.yaml
+- filename: dropbox-sign-events-asyncapi.yml
+  format: yaml
+  label: Dropbox Sign Events and Callbacks API
+  slug: events-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dropbox-sign/refs/heads/main/asyncapi/dropbox-sign-events-asyncapi.yml
 authorization_urls:
 - https://app.hellosign.com/oauth/authorize
 description: ''

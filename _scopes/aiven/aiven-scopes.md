@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Aiven REST API
+  slug: aiven-api
+  spec_type: OpenAPI
+  url: https://api.aiven.io/doc/
 authorization_urls:
 - https://console.aiven.io/oauth/authorize
 description: ''

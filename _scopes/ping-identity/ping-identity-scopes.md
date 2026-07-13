@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ping-identity-openapi.yaml
+  format: yaml
+  label: PingOne Platform API
+  slug: pingone-platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-openapi.yaml
 authorization_urls:
 - /as/authorize
 description: ''

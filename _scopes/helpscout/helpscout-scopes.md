@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: helpscout-openapi.yml
+  format: yaml
+  label: Help Scout Conversations API
+  slug: helpscout-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-openapi.yml
+- filename: helpscout-webhooks-asyncapi.yml
+  format: yaml
+  label: Help Scout Webhooks API
+  slug: helpscout-webhooks-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/asyncapi/helpscout-webhooks-asyncapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.helpscout.com/mailbox-api/overview/authentication/

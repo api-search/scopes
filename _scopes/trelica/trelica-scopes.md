@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: trelica-rest-api-openapi.yml
+  format: yaml
+  label: Trelica REST API
+  slug: trelica
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-rest-api-openapi.yml
 authorization_urls:
 - https://app.trelica.com/connect/authorize
 description: ''

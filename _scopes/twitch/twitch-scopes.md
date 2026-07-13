@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: reference
+  format: yaml
+  label: Twitch API
+  slug: twitch-api
+  spec_type: OpenAPI
+  url: https://dev.twitch.tv/docs/api/reference
+- filename: twitch-eventsub-asyncapi.yml
+  format: yaml
+  label: Twitch EventSub
+  slug: twitch-eventsub
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/asyncapi/twitch-eventsub-asyncapi.yml
+- filename: twitch-extensions-openapi.yml
+  format: yaml
+  label: Twitch Extensions API
+  slug: twitch-extensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/openapi/twitch-extensions-openapi.yml
+- filename: twitch-drops-openapi.yml
+  format: yaml
+  label: Twitch Drops API
+  slug: twitch-drops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/openapi/twitch-drops-openapi.yml
+- filename: twitch-video-broadcast-openapi.yml
+  format: yaml
+  label: Twitch Video Broadcast API
+  slug: twitch-video-broadcast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/openapi/twitch-video-broadcast-openapi.yml
+- filename: twitch-insights-analytics-openapi.yml
+  format: yaml
+  label: Twitch Insights and Analytics API
+  slug: twitch-insights-and-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/openapi/twitch-insights-analytics-openapi.yml
+- filename: twitch-igdb-openapi.yml
+  format: yaml
+  label: IGDB API
+  slug: igdb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/openapi/twitch-igdb-openapi.yml
 authorization_urls:
 - https://id.twitch.tv/oauth2/authorize
 description: ''

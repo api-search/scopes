@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Meet REST API v2
+  slug: rest-api-v2
+  spec_type: OpenAPI
+  url: https://meet.googleapis.com/$discovery/rest?version=v2
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

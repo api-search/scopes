@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: trustpilot-business-units-openapi.yml
+  format: yaml
+  label: Trustpilot Business Units API
+  slug: trustpilot-business-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-business-units-openapi.yml
+- filename: trustpilot-service-reviews-openapi.yml
+  format: yaml
+  label: Trustpilot Service Reviews API
+  slug: trustpilot-service-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-service-reviews-openapi.yml
+- filename: trustpilot-invitation-openapi.yml
+  format: yaml
+  label: Trustpilot Invitation API
+  slug: trustpilot-invitation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-invitation-openapi.yml
+- filename: trustpilot-product-reviews-openapi.yml
+  format: yaml
+  label: Trustpilot Product Reviews API
+  slug: trustpilot-product-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trustpilot/refs/heads/main/openapi/trustpilot-product-reviews-openapi.yml
 authorization_urls:
 - https://authenticate.trustpilot.com/oauth/connect/authorize
 description: ''

@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: cms-gov-blue-button-2-openapi.yml
+  format: yaml
+  label: CMS Blue Button 2.0 API
+  slug: blue-button-2-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-blue-button-2-openapi.yml
+- filename: cms-gov-bcda-openapi.yml
+  format: yaml
+  label: CMS Beneficiary Claims Data API (BCDA)
+  slug: beneficiary-claims-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-bcda-openapi.yml
+- filename: cms-gov-ab2d-openapi.yml
+  format: yaml
+  label: CMS AB2D API
+  slug: ab2d-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-ab2d-openapi.yml
+- filename: cms-gov-dpc-openapi.yml
+  format: yaml
+  label: CMS Data at the Point of Care API (DPC)
+  slug: data-at-point-of-care-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-dpc-openapi.yml
+- filename: cms-gov-bfd-openapi.yml
+  format: yaml
+  label: CMS Beneficiary FHIR Data Server (BFD)
+  slug: bfd-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-bfd-openapi.yml
+- filename: cms-gov-marketplace-openapi.yml
+  format: yaml
+  label: CMS Marketplace API
+  slug: marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-marketplace-openapi.yml
+- filename: cms-gov-open-data-openapi.yml
+  format: yaml
+  label: CMS Open Data API (data.cms.gov)
+  slug: data-cms-gov-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-open-data-openapi.yml
+- filename: cms-gov-provider-data-openapi.yml
+  format: yaml
+  label: CMS Provider Data Catalog API
+  slug: provider-data-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-provider-data-openapi.yml
+- filename: cms-gov-qpp-openapi.yml
+  format: yaml
+  label: CMS Quality Payment Program API
+  slug: quality-payment-program-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-qpp-openapi.yml
+- filename: cms-gov-mcd-openapi.yml
+  format: yaml
+  label: CMS Medicare Coverage Database API
+  slug: medicare-coverage-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/openapi/cms-gov-mcd-openapi.yml
 authorization_urls:
 - https://api.bluebutton.cms.gov/v2/o/authorize/
 description: ''

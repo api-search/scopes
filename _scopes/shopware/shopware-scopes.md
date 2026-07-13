@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: adminapi.json
+  format: json
+  label: Shopware Admin API
+  slug: admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/shopware/admin-api-reference/main/adminapi.json
+- filename: storeapi.json
+  format: json
+  label: Shopware Store API
+  slug: store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/shopware/store-api-reference/main/storeapi.json
 authorization_urls: []
 description: ''
 docs: ''

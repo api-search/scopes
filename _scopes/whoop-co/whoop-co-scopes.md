@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: WHOOP API
+  slug: whoop-api
+  spec_type: OpenAPI
+  url: https://api.prod.whoop.com/developer/doc/openapi.json
+- filename: whoop-api-openapi.yml
+  format: yaml
+  label: WHOOP Trusted Partner API
+  slug: whoop-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/openapi/whoop-api-openapi.yml
 authorization_urls:
 - https://api.prod.whoop.com/oauth/oauth2/auth
 description: ''

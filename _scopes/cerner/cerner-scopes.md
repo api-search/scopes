@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cerner-oracle-health-fhir-r4-api-openapi.yml
+  format: yaml
+  label: Oracle Health Millennium Platform FHIR R4 API
+  slug: oracle-health-fhir-r4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/openapi/cerner-oracle-health-fhir-r4-api-openapi.yml
 authorization_urls:
 - https://authorization.cerner.com/tenants/{tenant}/protocols/oauth2/profiles/smart-v1/personas/patient/authorize
 description: ''

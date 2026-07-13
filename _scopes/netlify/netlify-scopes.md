@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: netlify-openapi-original.yml
+  format: yaml
+  label: Netlify API
+  slug: netlify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/openapi/netlify-openapi-original.yml
 authorization_urls:
 - https://app.netlify.com/authorize
 description: ''

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: bread-pay-platform-openapi.yml
+  format: yaml
+  label: Bread Pay Platform API
+  slug: bread-pay-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/bread-pay-platform-openapi.yml
+- filename: bread-classic-merchant-openapi.yml
+  format: yaml
+  label: Bread Classic Merchant API
+  slug: bread-classic-merchant-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/bread-classic-merchant-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

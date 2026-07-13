@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: encompass-developer-connect-openapi.yml
+  format: yaml
+  label: Encompass Developer Connect API
+  slug: encompass-developer-connect
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/encompass-developer-connect/refs/heads/main/openapi/encompass-developer-connect-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-advisor-openapi.yml
+  format: yaml
+  label: Azure Advisor REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/openapi/microsoft-azure-advisor-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

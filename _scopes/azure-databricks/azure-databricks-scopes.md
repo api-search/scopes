@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: azure-databricks-openapi.yml
+  format: yaml
+  label: Azure Databricks REST API
+  slug: azure-databricks-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
+- filename: azure-databricks-openapi.yml
+  format: yaml
+  label: Clusters API
+  slug: clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
+- filename: azure-databricks-openapi.yml
+  format: yaml
+  label: Jobs API
+  slug: jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
+- filename: azure-databricks-openapi.yml
+  format: yaml
+  label: Workspace API
+  slug: workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/authorize
 description: ''

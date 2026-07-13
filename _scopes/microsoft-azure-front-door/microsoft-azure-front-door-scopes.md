@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-front-door-openapi.yml
+  format: yaml
+  label: Azure Front Door REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/openapi/microsoft-azure-front-door-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

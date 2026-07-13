@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: digitail-openapi.yml
+  format: yaml
+  label: Digitail Pets API
+  slug: digitail-pets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-openapi.yml
+- filename: digitail-openapi.yml
+  format: yaml
+  label: Digitail Pet Parents and Clients API
+  slug: digitail-pet-parents-clients-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-openapi.yml
+- filename: digitail-openapi.yml
+  format: yaml
+  label: Digitail Appointments API
+  slug: digitail-appointments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-openapi.yml
+- filename: digitail-openapi.yml
+  format: yaml
+  label: Digitail Clinical Records API
+  slug: digitail-clinical-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-openapi.yml
+- filename: digitail-openapi.yml
+  format: yaml
+  label: Digitail Labs API
+  slug: digitail-labs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-openapi.yml
+- filename: digitail-openapi.yml
+  format: yaml
+  label: Digitail Billing and Invoicing API
+  slug: digitail-billing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-openapi.yml
+- filename: digitail-openapi.yml
+  format: yaml
+  label: Digitail Clinics and Staff API
+  slug: digitail-clinics-staff-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-openapi.yml
+- filename: digitail-openapi.yml
+  format: yaml
+  label: Digitail Client Communication API
+  slug: digitail-client-communication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-openapi.yml
+- filename: digitail-openapi.yml
+  format: yaml
+  label: Digitail Files API
+  slug: digitail-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-openapi.yml
+- filename: digitail-openapi.yml
+  format: yaml
+  label: Digitail Reports API
+  slug: digitail-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/openapi/digitail-openapi.yml
 authorization_urls:
 - https://vet.digitail.io/oauth/authorize
 description: ''

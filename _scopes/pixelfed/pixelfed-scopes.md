@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Pixelfed REST API
+  slug: pixelfed-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pixelfed/refs/heads/main/openapi.yml
 authorization_urls:
 - https://{instance}/oauth/authorize
 description: ''

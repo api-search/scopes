@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: azure-quantum-data-plane-openapi.json
+  format: json
+  label: Azure Quantum Workspace Data-Plane API
+  slug: azure-quantum-workspace-data-plane
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/azure-quantum-data-plane-openapi.json
+- filename: azure-quantum-resource-manager-openapi.json
+  format: json
+  label: Azure Quantum Resource Manager API
+  slug: azure-quantum-resource-manager
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/azure-quantum-resource-manager-openapi.json
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Authelia REST API
+  slug: authelia-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/authelia/authelia/master/api/openapi.yml
 authorization_urls:
 - https://auth.example.com/api/oidc/authorization
 description: ''

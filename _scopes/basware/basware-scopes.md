@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: api-reference
+  format: yaml
+  label: Basware P2P API
+  slug: basware-p2p-api
+  spec_type: OpenAPI
+  url: https://developer.basware.com/en/api/basware/api-reference
+- filename: api-reference
+  format: yaml
+  label: Basware Network API
+  slug: basware-network-api
+  spec_type: OpenAPI
+  url: https://developer.basware.com/en/api/network/api-reference
+- filename: basware-vault-openapi.yaml
+  format: yaml
+  label: Basware Vault API
+  slug: basware-vault-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/openapi/basware-vault-openapi.yaml
 authorization_urls: []
 description: ''
 docs: ''

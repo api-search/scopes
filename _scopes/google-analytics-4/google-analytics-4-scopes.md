@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Analytics Data API
+  slug: google-analytics-data-api
+  spec_type: OpenAPI
+  url: https://analyticsdata.googleapis.com/$discovery/rest?version=v1beta
+- filename: rest
+  format: yaml
+  label: Google Analytics Admin API
+  slug: google-analytics-admin-api
+  spec_type: OpenAPI
+  url: https://analyticsadmin.googleapis.com/$discovery/rest?version=v1beta
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

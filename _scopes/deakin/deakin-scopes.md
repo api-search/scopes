@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: deakin-figshare-api.yaml
+  format: yaml
+  label: figshare REST API (DRO platform)
+  slug: figshare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deakin/refs/heads/main/openapi/deakin-figshare-api.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: x-api-openapi.json
+  format: json
+  label: X API
+  slug: x-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/openapi/x-api-openapi.json
 authorization_urls:
 - https://api.x.com/2/oauth2/authorize
 description: ''

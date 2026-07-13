@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: thefork-b2b-openapi.yml
+  format: yaml
+  label: TheFork B2B API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-b2b-openapi.yml
+- filename: thefork-pos-openapi.yml
+  format: yaml
+  label: TheFork POS API
+  slug: pos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/openapi/thefork-pos-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.thefork.io/B2B-API/authentication

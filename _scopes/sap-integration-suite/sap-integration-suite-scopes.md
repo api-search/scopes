@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: sap-integration-suite-cloud-integration-openapi.yml
+  format: yaml
+  label: SAP Cloud Integration API
+  slug: sap-cloud-integration
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-cloud-integration-openapi.yml
+- filename: sap-integration-suite-api-management-openapi.yml
+  format: yaml
+  label: SAP API Management API
+  slug: sap-api-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-api-management-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://help.sap.com/docs/integration-suite/sap-integration-suite/tasks-and-permissions-556d5575d4b0483e85d4f3251f21d0ec

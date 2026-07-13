@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: esri-arcgis-platform-openapi.yml
+  format: yaml
+  label: ESRI ArcGIS Platform API
+  slug: esri-arcgis-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/openapi/esri-arcgis-platform-openapi.yml
 authorization_urls:
 - https://www.arcgis.com/sharing/rest/oauth2/authorize
 description: ''

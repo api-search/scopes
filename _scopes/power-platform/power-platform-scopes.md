@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: v1
+  format: yaml
+  label: Power Apps API
+  slug: power-apps-api
+  spec_type: OpenAPI
+  url: https://api.powerapps.com/openapi/v1
+- filename: v1
+  format: yaml
+  label: Power Automate API
+  slug: power-automate-api
+  spec_type: OpenAPI
+  url: https://api.flow.microsoft.com/openapi/v1
+- filename: swagger.json
+  format: json
+  label: Power BI REST API
+  slug: power-bi-rest-api
+  spec_type: OpenAPI
+  url: https://api.powerbi.com/v1.0/myorg/swagger.json
+- filename: power-platform-api-openapi.json
+  format: json
+  label: Power Platform Unified API
+  slug: power-platform-unified-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-api-openapi.json
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

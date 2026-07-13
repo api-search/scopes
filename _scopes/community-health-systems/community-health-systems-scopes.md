@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: chs-patient-access-api-openapi.yml
+  format: yaml
+  label: Community Health Systems Patient Access API
+  slug: patient-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/chs-patient-access-api-openapi.yml
 authorization_urls:
 - https://api.chs.net/oauth2/authorize
 description: ''

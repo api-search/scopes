@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: quartzy-openapi.yml
+  format: yaml
+  label: Quartzy Inventory Items API
+  slug: quartzy-inventory-items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-openapi.yml
+- filename: quartzy-openapi.yml
+  format: yaml
+  label: Quartzy Order Requests API
+  slug: quartzy-order-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-openapi.yml
+- filename: quartzy-openapi.yml
+  format: yaml
+  label: Quartzy Types API
+  slug: quartzy-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-openapi.yml
+- filename: quartzy-openapi.yml
+  format: yaml
+  label: Quartzy Labs API
+  slug: quartzy-labs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-openapi.yml
+- filename: quartzy-openapi.yml
+  format: yaml
+  label: Quartzy Webhooks API
+  slug: quartzy-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/openapi/quartzy-openapi.yml
 authorization_urls:
 - https://app.quartzy.com/oauth/authorize
 description: ''

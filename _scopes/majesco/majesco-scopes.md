@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: majesco-policy-openapi.yml
+  format: yaml
+  label: Majesco Insurance SaaS API
+  slug: majesco-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/openapi/majesco-policy-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

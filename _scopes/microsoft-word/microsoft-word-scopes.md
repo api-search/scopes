@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: microsoft-word-graph-api.yaml
+  format: yaml
+  label: Microsoft Graph Word API
+  slug: microsoft-graph-word-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-graph-api.yaml
+- filename: microsoft-word-javascript-api.yaml
+  format: yaml
+  label: Office JavaScript API for Word
+  slug: office-javascript-api-for-word
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-javascript-api.yaml
+- filename: microsoft-word-open-xml-sdk.yaml
+  format: yaml
+  label: Open XML SDK for Word
+  slug: open-xml-sdk-for-word
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-open-xml-sdk.yaml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

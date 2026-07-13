@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: castoredc-openapi.yml
+  format: yaml
+  label: Castor Studies API
+  slug: castoredc-studies-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
+- filename: castoredc-openapi.yml
+  format: yaml
+  label: Castor Participants (Records) API
+  slug: castoredc-participants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
+- filename: castoredc-openapi.yml
+  format: yaml
+  label: Castor Institutes API
+  slug: castoredc-institutes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
+- filename: castoredc-openapi.yml
+  format: yaml
+  label: Castor Users API
+  slug: castoredc-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
+- filename: castoredc-openapi.yml
+  format: yaml
+  label: Castor Fields API
+  slug: castoredc-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
+- filename: castoredc-openapi.yml
+  format: yaml
+  label: Castor Study Data Points API
+  slug: castoredc-study-data-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
+- filename: castoredc-openapi.yml
+  format: yaml
+  label: Castor Reports (Repeating Data) API
+  slug: castoredc-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
+- filename: castoredc-openapi.yml
+  format: yaml
+  label: Castor Surveys API
+  slug: castoredc-surveys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
+- filename: castoredc-openapi.yml
+  format: yaml
+  label: Castor Audit Trail API
+  slug: castoredc-audit-trail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
+- filename: castoredc-openapi.yml
+  format: yaml
+  label: Castor Data Export API
+  slug: castoredc-data-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/openapi/castoredc-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://data.castoredc.com/api

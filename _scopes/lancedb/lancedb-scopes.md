@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: lance-namespace-openapi.yaml
+  format: yaml
+  label: LanceDB OSS
+  slug: oss
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lancedb/main/openapi/lance-namespace-openapi.yaml
+- filename: lance-namespace-openapi.yaml
+  format: yaml
+  label: LanceDB Cloud
+  slug: cloud
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lancedb/main/openapi/lance-namespace-openapi.yaml
+- filename: spec.yaml
+  format: yaml
+  label: Lance Namespace Specification
+  slug: lance-namespace
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/lance-format/lance-namespace/main/docs/src/spec.yaml
 authorization_urls: []
 description: ''
 docs: https://docs.lancedb.com/api-reference/rest

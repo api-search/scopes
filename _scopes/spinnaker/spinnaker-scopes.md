@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: spinnaker-gate-openapi.yml
+  format: yaml
+  label: Spinnaker Gate API
+  slug: spinnaker-gate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-gate-openapi.yml
 authorization_urls:
 - https://accounts.example.com/oauth/authorize
 description: ''

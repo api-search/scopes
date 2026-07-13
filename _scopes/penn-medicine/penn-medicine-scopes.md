@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: penn-medicine-fhir-r4-openapi.yml
+  format: yaml
+  label: Penn Medicine FHIR R4 API
+  slug: penn-medicine-fhir-r4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/openapi/penn-medicine-fhir-r4-openapi.yml
 authorization_urls:
 - https://ssproxy.pennhealth.com/PRD-FHIR/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Benefits Intake API
+  slug: benefits-intake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/department-of-veterans-affairs/vets-api-clients/master/services/benefits-intake/openapi.yaml
 authorization_urls:
 - https://api.va.gov/oauth2/appeals/v1/authorization
 - https://sandbox-api.va.gov/oauth2/appeals/v1/authorization

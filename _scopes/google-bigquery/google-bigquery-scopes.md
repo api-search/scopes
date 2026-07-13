@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bigquery-api-openapi.yml
+  format: yaml
+  label: BigQuery API
+  slug: bigquery
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-bigquery/refs/heads/main/openapi/bigquery-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

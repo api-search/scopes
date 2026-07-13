@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: citizens-bank-accounts-api-openapi.yml
+  format: yaml
+  label: Citizens Bank Accounts API
+  slug: accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/openapi/citizens-bank-accounts-api-openapi.yml
+- filename: citizens-bank-atm-locator-api-openapi.yml
+  format: yaml
+  label: Citizens Bank ATM Locator API
+  slug: atm-locator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/openapi/citizens-bank-atm-locator-api-openapi.yml
 authorization_urls:
 - https://api.citizensbank.com/oauth/authorize
 description: ''

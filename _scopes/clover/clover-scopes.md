@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: clover-platform-rest-api-openapi.yml
+  format: yaml
+  label: Clover REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/openapi/clover-platform-rest-api-openapi.yml
+- filename: clover-ecommerce-api-openapi.yml
+  format: yaml
+  label: Clover Ecommerce API
+  slug: ecommerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/openapi/clover-ecommerce-api-openapi.yml
 authorization_urls:
 - https://www.clover.com/oauth/authorize
 description: ''

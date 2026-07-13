@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: genius-openapi.yml
+  format: yaml
+  label: Genius
+  slug: genius
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/genius/refs/heads/main/openapi/genius-openapi.yml
 authorization_urls:
 - https://api.genius.com/oauth/authorize
 description: ''

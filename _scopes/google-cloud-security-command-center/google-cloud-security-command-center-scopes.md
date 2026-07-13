@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: security-command-center-api-openapi.yml
+  format: yaml
+  label: Security Command Center API
+  slug: security-command-center-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/openapi/security-command-center-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

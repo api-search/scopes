@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: beyondcorp-api-openapi.yml
+  format: yaml
+  label: BeyondCorp API
+  slug: beyondcorp
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/beyondcorp-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: medidata-rave-openapi.yml
+  format: yaml
+  label: Medidata Rave EDC API
+  slug: medidata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/medidata/refs/heads/main/openapi/medidata-rave-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Docs API
+  slug: google-docs-api
+  spec_type: OpenAPI
+  url: https://docs.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Google Sheets API
+  slug: google-sheets-api
+  spec_type: OpenAPI
+  url: https://sheets.googleapis.com/$discovery/rest?version=v4
+- filename: rest
+  format: yaml
+  label: Google Slides API
+  slug: google-slides-api
+  spec_type: OpenAPI
+  url: https://slides.googleapis.com/$discovery/rest?version=v1
+- filename: rest
+  format: yaml
+  label: Gmail API
+  slug: gmail-api
+  spec_type: OpenAPI
+  url: https://gmail.googleapis.com/$discovery/rest?version=v1
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

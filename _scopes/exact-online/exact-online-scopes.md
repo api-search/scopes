@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: exact-online-openapi.yml
+  format: yaml
+  label: Exact Online REST / OData API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-openapi.yml
 authorization_urls:
 - https://start.exactonline.nl/api/oauth2/auth
 description: ''

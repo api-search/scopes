@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: restream-openapi.yml
+  format: yaml
+  label: Restream API
+  slug: restream-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-openapi.yml
 authorization_urls:
 - https://api.restream.io/oauth/authorize
 description: ''

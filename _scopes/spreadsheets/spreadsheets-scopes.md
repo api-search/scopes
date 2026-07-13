@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-sheets-openapi.yml
+  format: yaml
+  label: Google Sheets API
+  slug: google-sheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spreadsheets/refs/heads/main/openapi/google-sheets-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

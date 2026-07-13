@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google AdSense Management API
+  slug: google-adsense
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

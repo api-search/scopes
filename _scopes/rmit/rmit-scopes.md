@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: rmit-figshare-api.yaml
+  format: yaml
+  label: RMIT Research Data (Figshare REST API)
+  slug: figshare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rmit/refs/heads/main/openapi/rmit-figshare-api.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

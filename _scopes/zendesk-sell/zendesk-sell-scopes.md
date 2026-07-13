@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zendesk-sell-openapi.yml
+  format: yaml
+  label: Zendesk Sell (Sales CRM) API
+  slug: sales-crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-openapi.yml
 authorization_urls:
 - https://api.getbase.com/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: Xero-OpenAPI
+  format: yaml
+  label: Xero Accounting API
+  slug: api
+  spec_type: OpenAPI
+  url: https://github.com/XeroAPI/Xero-OpenAPI
 authorization_urls:
 - https://login.xero.com/identity/connect/authorize
 description: ''

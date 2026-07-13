@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: centers-for-medicare-and-medicaid-services-cms-blue-button-2-openapi.yml
+  format: yaml
+  label: CMS Blue Button 2.0 API
+  slug: cms-blue-button-2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/centers-for-medicare-and-medicaid-services/refs/heads/main/openapi/centers-for-medicare-and-medicaid-services-cms-blue-button-2-openapi.yml
 authorization_urls:
 - https://api.bluebutton.cms.gov/v2/o/authorize/
 description: ''

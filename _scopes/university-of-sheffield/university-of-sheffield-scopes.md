@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-sheffield-orda.yaml
+  format: yaml
+  label: ORDA Research Data Repository (figshare API)
+  slug: orda
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-orda.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

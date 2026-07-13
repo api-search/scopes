@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: workday-studio-integration-openapi.yml
+  format: yaml
+  label: Workday Studio Integration API
+  slug: workday-studio-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-integration-openapi.yml
+- filename: workday-studio-web-services-openapi.yml
+  format: yaml
+  label: Workday Web Services API
+  slug: workday-web-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/openapi/workday-studio-web-services-openapi.yml
 authorization_urls:
 - https://{baseUrl}/authorize
 description: ''

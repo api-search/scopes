@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-adelaide-figshare.yaml
+  format: yaml
+  label: Adelaide Figshare Research Data API
+  slug: figshare
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/openapi/university-of-adelaide-figshare.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

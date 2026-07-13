@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: flowdock-rest-api-openapi.yml
+  format: yaml
+  label: Flowdock REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-rest-api-openapi.yml
+- filename: flowdock-push-api-openapi.yml
+  format: yaml
+  label: Flowdock Push API (Deprecated)
+  slug: push-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-push-api-openapi.yml
+- filename: flowdock-streaming-api-asyncapi.yml
+  format: yaml
+  label: Flowdock Streaming API
+  slug: streaming-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/asyncapi/flowdock-streaming-api-asyncapi.yml
+- filename: flowdock-scim-api-openapi.yml
+  format: yaml
+  label: Flowdock SCIM Provisioning API
+  slug: scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flowdock/refs/heads/main/openapi/flowdock-scim-api-openapi.yml
 authorization_urls:
 - https://api.flowdock.com/oauth/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: uclapi.json
+  format: json
+  label: UCL API Room Bookings
+  slug: roombookings
+  spec_type: OpenAPI
+  url: https://github.com/uclapi/uclapi-openapi/blob/master/uclapi.json
 authorization_urls:
 - /authorise
 description: ''

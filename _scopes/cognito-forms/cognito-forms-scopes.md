@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cognito-forms-openapi.yml
+  format: yaml
+  label: Cognito Forms REST API
+  slug: cognito-forms-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-openapi.yml
 authorization_urls:
 - https://cognitoforms.com/api-connection
 description: ''

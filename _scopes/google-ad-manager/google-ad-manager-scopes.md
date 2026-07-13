@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Ad Manager API
+  slug: google-ad-manager
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

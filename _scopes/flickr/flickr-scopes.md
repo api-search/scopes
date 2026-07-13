@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: flickr-openapi.yml
+  format: yaml
+  label: Flickr API
+  slug: flickr-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flickr/refs/heads/main/openapi/flickr-openapi.yml
 authorization_urls:
 - https://www.flickr.com/services/oauth/authorize
 description: ''

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: engine.oas3.json
+  format: json
+  label: Seldon Inference API
+  slug: seldon-inference-api
+  spec_type: OpenAPI
+  url: https://github.com/SeldonIO/seldon-core/blob/master/openapi/engine.oas3.json
+- filename: seldon-enterprise-platform-api-openapi.yml
+  format: yaml
+  label: Seldon Enterprise Platform REST API
+  slug: seldon-enterprise-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/openapi/seldon-enterprise-platform-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

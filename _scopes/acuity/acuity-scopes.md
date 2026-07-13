@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: llms.txt
+  format: yaml
+  label: Acuity Scheduling API
+  slug: acuity-scheduling-api
+  spec_type: OpenAPI
+  url: https://developers.acuityscheduling.com/llms.txt
 authorization_urls:
 - https://acuityscheduling.com/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: linode-api-v4-openapi.yml
+  format: yaml
+  label: Linode API V4
+  slug: api-v4
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/openapi/linode-api-v4-openapi.yml
 authorization_urls:
 - https://login.linode.com/oauth/authorize
 description: ''

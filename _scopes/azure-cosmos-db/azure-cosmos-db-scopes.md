@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-cosmos-db-openapi.yml
+  format: yaml
+  label: Azure Cosmos DB Data Plane REST API
+  slug: data-plane-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

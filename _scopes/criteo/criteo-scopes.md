@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: criteo-openapi.yml
+  format: yaml
+  label: Criteo Retail Media API
+  slug: criteo-retail-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-openapi.yml
 authorization_urls:
 - https://consent.criteo.com/authorize
 description: ''

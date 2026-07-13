@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-express-route-openapi.yml
+  format: yaml
+  label: Azure ExpressRoute REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-express-route/refs/heads/main/openapi/microsoft-azure-express-route-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

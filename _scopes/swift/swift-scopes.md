@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: swift-swiftref-api-openapi.yml
+  format: yaml
+  label: SwiftRef API
+  slug: swiftref-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/openapi/swift-swiftref-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,209 @@
 ---
+api_specs:
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Payments API
+  slug: payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Orders API
+  slug: orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Catalog API
+  slug: catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Inventory API
+  slug: inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Customers API
+  slug: customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Locations API
+  slug: locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Team API
+  slug: team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Labor API
+  slug: labor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Bookings API
+  slug: bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Loyalty API
+  slug: loyalty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Gift Cards API
+  slug: gift-cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Invoices API
+  slug: invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Subscriptions API
+  slug: subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Checkout API
+  slug: checkout-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Terminal API
+  slug: terminal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Refunds API
+  slug: refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Disputes API
+  slug: disputes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Merchants API
+  slug: merchants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Cards API
+  slug: cards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Vendors API
+  slug: vendors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Cash Drawers API
+  slug: cash-drawers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Bank Accounts API
+  slug: bank-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Payouts API
+  slug: payouts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Apple Pay API
+  slug: apple-pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Sites API
+  slug: sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Snippets API
+  slug: snippets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square OAuth API
+  slug: oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Webhook Subscriptions API
+  slug: webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Events API
+  slug: events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Devices API
+  slug: devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Customer Groups API
+  slug: customer-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Customer Segments API
+  slug: customer-segments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Gift Card Activities API
+  slug: gift-card-activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
+- filename: square-openapi.yml
+  format: yaml
+  label: Square Custom Attributes API
+  slug: custom-attributes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/openapi/square-openapi.yml
 authorization_urls:
 - https://connect.squareup.com/oauth2/authorize
 description: ''

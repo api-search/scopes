@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: lufthansa-openapi.yml
+  format: yaml
+  label: Lufthansa Public API
+  slug: public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-openapi.yml
 authorization_urls:
 - https://api.lufthansa.com/v1/oauth/token
 description: ''

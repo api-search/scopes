@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: wix-openapi.yml
+  format: yaml
+  label: Wix REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-openapi.yml
+- filename: wix-asyncapi.yml
+  format: yaml
+  label: Wix Webhooks
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/asyncapi/wix-asyncapi.yml
 authorization_urls:
 - https://www.wix.com/installer/install
 description: ''

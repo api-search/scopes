@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: orion-fhir-openapi.yml
+  format: yaml
+  label: Orion Health FHIR API
+  slug: orion-health-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion/refs/heads/main/openapi/orion-fhir-openapi.yml
+- filename: orion-population-health-openapi.yml
+  format: yaml
+  label: Orion Health Population Health API
+  slug: orion-health-population-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion/refs/heads/main/openapi/orion-population-health-openapi.yml
+- filename: orion-hie-openapi.yml
+  format: yaml
+  label: Orion Health HIE API
+  slug: orion-health-hie-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion/refs/heads/main/openapi/orion-hie-openapi.yml
+- filename: orion-rhapsody-openapi.yml
+  format: yaml
+  label: Orion Health Rhapsody Integration API
+  slug: orion-health-rhapsody-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orion/refs/heads/main/openapi/orion-rhapsody-openapi.yml
 authorization_urls:
 - https://auth.orionhealth.com/oauth2/authorize
 description: ''

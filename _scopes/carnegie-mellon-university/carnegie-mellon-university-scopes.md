@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: carnegie-mellon-university-kilthub-figshare.yaml
+  format: yaml
+  label: KiltHub Repository OAI-PMH (figshare)
+  slug: kilthub-oai-pmh
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-kilthub-figshare.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-file-storage-openapi.yml
+  format: yaml
+  label: Azure Files FileREST API
+  slug: filerest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

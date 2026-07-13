@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ariba-sourcing-external-approval-api.yaml
+  format: yaml
+  label: Ariba Sourcing - External Approval API
+  slug: ariba-sourcing-external-approval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/openapi/ariba-sourcing-external-approval-api.yaml
 authorization_urls: []
 description: ''
 docs: https://help.sap.com/docs/ariba-apis/help-for-sap-ariba-developer-portal/use-of-api-gateway-and-oauth-to-authenticate-applications

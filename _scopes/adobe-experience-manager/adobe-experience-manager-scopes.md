@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: adobe-experience-manager-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager APIs
+  slug: apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/openapi/adobe-experience-manager-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/using-communications/oauth-api-authetication

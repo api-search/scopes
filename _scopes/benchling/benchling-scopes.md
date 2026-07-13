@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: llms.txt
+  format: yaml
+  label: Benchling REST API
+  slug: benchling-rest-api
+  spec_type: OpenAPI
+  url: https://docs.benchling.com/llms.txt
 authorization_urls: []
 description: ''
 docs: https://docs.benchling.com/docs/authentication

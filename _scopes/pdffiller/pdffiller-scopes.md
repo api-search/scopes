@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: docs.pdffiller.com
+  format: yaml
+  label: PDFfiller REST API
+  slug: pdffiller-api
+  spec_type: OpenAPI
+  url: https://docs.pdffiller.com
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,89 @@
 ---
+api_specs:
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Devices API
+  slug: smartthings-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Device Commands & Status API
+  slug: smartthings-device-commands-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Locations API
+  slug: smartthings-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Rooms API
+  slug: smartthings-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Scenes API
+  slug: smartthings-scenes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Rules API
+  slug: smartthings-rules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Capabilities API
+  slug: smartthings-capabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Subscriptions API
+  slug: smartthings-subscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Schedules API
+  slug: smartthings-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Apps API
+  slug: smartthings-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Installed Apps API
+  slug: smartthings-installed-apps-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Presentations API
+  slug: smartthings-presentations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings History API
+  slug: smartthings-history-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
+- filename: smartthings-openapi.yml
+  format: yaml
+  label: SmartThings Virtual Devices API
+  slug: smartthings-virtual-devices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-openapi.yml
 authorization_urls:
 - https://api.smartthings.com/oauth/authorize
 description: ''

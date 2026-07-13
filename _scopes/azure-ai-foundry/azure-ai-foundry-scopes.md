@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-ai-foundry-openapi.yml
+  format: yaml
+  label: Azure AI Foundry REST API
+  slug: foundry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

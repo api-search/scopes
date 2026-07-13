@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: hmrc-vat-mtd-openapi.yml
+  format: yaml
+  label: HMRC VAT (Making Tax Digital) API
+  slug: hmrc-vat-mtd-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hmrc/refs/heads/main/openapi/hmrc-vat-mtd-openapi.yml
 authorization_urls:
 - https://api.service.hmrc.gov.uk/oauth/authorize
 description: ''

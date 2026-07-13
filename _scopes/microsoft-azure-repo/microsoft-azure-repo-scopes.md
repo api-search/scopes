@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: git.json
+  format: json
+  label: Azure DevOps Services REST API - Git
+  slug: azure-devops-services-rest-api-git
+  spec_type: OpenAPI
+  url: https://github.com/MicrosoftDocs/vsts-rest-api-specs/blob/master/specification/git/7.1/git.json
+- filename: tfvc.json
+  format: json
+  label: Azure DevOps Services REST API - TFVC
+  slug: azure-devops-services-rest-api-tfvc
+  spec_type: OpenAPI
+  url: https://github.com/MicrosoftDocs/vsts-rest-api-specs/blob/master/specification/tfvc/7.1/tfvc.json
+- filename: policy.json
+  format: json
+  label: Azure DevOps Services REST API - Policy
+  slug: azure-devops-services-rest-api-policy
+  spec_type: OpenAPI
+  url: https://github.com/MicrosoftDocs/vsts-rest-api-specs/blob/master/specification/policy/7.1/policy.json
 authorization_urls:
 - https://app.vssps.visualstudio.com/oauth2/authorize
 description: ''

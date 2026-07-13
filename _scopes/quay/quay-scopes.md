@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: quay-openapi.yml
+  format: yaml
+  label: Quay
+  slug: quay
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-openapi.yml
 authorization_urls:
 - https://quay.io/oauth/authorize
 description: ''

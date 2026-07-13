@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: swagger.json
+  format: json
+  label: EVE Swagger Interface (ESI)
+  slug: eve-swagger-interface
+  spec_type: OpenAPI
+  url: https://esi.evetech.net/latest/swagger.json
 authorization_urls:
 - https://login.eveonline.com/v2/oauth/authorize
 description: ''

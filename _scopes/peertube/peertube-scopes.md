@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: PeerTube REST API
+  slug: peertube-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Chocobozzz/PeerTube/develop/support/doc/api/openapi.yaml
 authorization_urls: []
 description: ''
 docs: ''

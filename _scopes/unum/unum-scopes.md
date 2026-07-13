@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: unum-hr-connect-openapi.yml
+  format: yaml
+  label: Unum HR Connect API
+  slug: hr-connect
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-hr-connect-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

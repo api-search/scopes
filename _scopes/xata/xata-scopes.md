@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Xata Management API
+  slug: management-api
+  spec_type: OpenAPI
+  url: https://api.xata.tech/openapi.json
+- filename: openapi.json
+  format: json
+  label: Xata SQL Gateway
+  slug: sql-gateway
+  spec_type: OpenAPI
+  url: https://api.xata.tech/openapi.json
 authorization_urls:
 - https://auth.xata.io/realms/xata/protocol/openid-connect/auth
 description: ''

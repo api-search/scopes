@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-integration-services-openapi.yml
+  format: yaml
+  label: Azure API Management
+  slug: azure-api-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/openapi/microsoft-azure-integration-services-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

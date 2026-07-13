@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: texas-instruments-store-openapi.yml
+  format: yaml
+  label: Texas Instruments Store API
+  slug: ti-store-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/openapi/texas-instruments-store-openapi.yml
+- filename: texas-instruments-product-information-openapi.yml
+  format: yaml
+  label: Texas Instruments Product Information API
+  slug: ti-product-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/texas-instruments/refs/heads/main/openapi/texas-instruments-product-information-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.ti.com/developer-api/store-api/authentication.html

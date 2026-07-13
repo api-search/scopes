@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: chase-account-and-customer-information-api-openapi.yml
+  format: yaml
+  label: Chase Account and Customer Information API
+  slug: account-and-customer-information-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-account-and-customer-information-api-openapi.yml
+- filename: chase-account-aggregation-user-consent-api-openapi.yml
+  format: yaml
+  label: Chase Account Aggregation User Consent API
+  slug: account-aggregation-user-consent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-account-aggregation-user-consent-api-openapi.yml
+- filename: chase-rewards-balance-api-openapi.yml
+  format: yaml
+  label: Chase Rewards Balance API
+  slug: rewards-balance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-rewards-balance-api-openapi.yml
+- filename: chase-loyalty-pay-with-points-order-service-api-openapi.yml
+  format: yaml
+  label: Chase Loyalty Pay with Points Order Service API
+  slug: loyalty-pay-with-points-order-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-loyalty-pay-with-points-order-service-api-openapi.yml
+- filename: chase-loyalty-pay-with-points-enrollment-service-api-openapi.yml
+  format: yaml
+  label: Chase Loyalty Pay with Points Enrollment Service API
+  slug: loyalty-pay-with-points-enrollment-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-loyalty-pay-with-points-enrollment-service-api-openapi.yml
+- filename: chase-loyalty-pci-merchant-relationship-manager-api-openapi.yml
+  format: yaml
+  label: Chase Loyalty PCI Merchant Relationship Manager API
+  slug: loyalty-pci-merchant-relationship-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-loyalty-pci-merchant-relationship-manager-api-openapi.yml
 authorization_urls:
 - https://api.chase.com/oauth2/authorize
 description: ''

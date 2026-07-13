@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: planning-center-openapi.yml
+  format: yaml
+  label: Planning Center People API
+  slug: planning-center-people-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-openapi.yml
+- filename: planning-center-openapi.yml
+  format: yaml
+  label: Planning Center Services API
+  slug: planning-center-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-openapi.yml
+- filename: planning-center-openapi.yml
+  format: yaml
+  label: Planning Center Giving API
+  slug: planning-center-giving-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-openapi.yml
+- filename: planning-center-openapi.yml
+  format: yaml
+  label: Planning Center Groups API
+  slug: planning-center-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-openapi.yml
+- filename: planning-center-openapi.yml
+  format: yaml
+  label: Planning Center Check-Ins API
+  slug: planning-center-check-ins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-openapi.yml
+- filename: planning-center-openapi.yml
+  format: yaml
+  label: Planning Center Calendar API
+  slug: planning-center-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-openapi.yml
+- filename: planning-center-openapi.yml
+  format: yaml
+  label: Planning Center Registrations API
+  slug: planning-center-registrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-openapi.yml
+- filename: planning-center-openapi.yml
+  format: yaml
+  label: Planning Center Publishing API
+  slug: planning-center-publishing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-openapi.yml
+- filename: planning-center-openapi.yml
+  format: yaml
+  label: Planning Center Webhooks API
+  slug: planning-center-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-openapi.yml
 authorization_urls:
 - https://api.planningcenteronline.com/oauth/authorize
 description: ''

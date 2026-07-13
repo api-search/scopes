@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: microsoft-teams-graph-api.yaml
+  format: yaml
+  label: Microsoft Graph Teams API
+  slug: microsoft-graph-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/openapi/microsoft-teams-graph-api.yaml
+- filename: microsoft-teams-asyncapi.yaml
+  format: yaml
+  label: Microsoft Teams Bot Framework API
+  slug: microsoft-teams-bot-framework-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/asyncapi/microsoft-teams-asyncapi.yaml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

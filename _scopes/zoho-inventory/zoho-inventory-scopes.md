@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: batches.yml
+  format: yaml
+  label: Zoho Inventory API
+  slug: zoho-inventory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/openapi/batches.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''

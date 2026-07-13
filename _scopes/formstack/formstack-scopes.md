@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: formstack-asyncapi.yml
+  format: yaml
+  label: Formstack Webhooks API
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/openapi/formstack-asyncapi.yml
 authorization_urls:
 - https://www.formstack.com/api/v2/oauth2/authorize
 description: ''

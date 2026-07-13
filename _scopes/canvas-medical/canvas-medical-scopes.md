@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: canvas-medical-fhir-api-openapi.yml
+  format: yaml
+  label: Canvas Medical FHIR API
+  slug: canvas-medical-fhir-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-fhir-api-openapi.yml
 authorization_urls:
 - https://{canvas-instance}.canvasmedical.com/auth/authorize/
 description: ''

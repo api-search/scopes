@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: openstreetmap-main-openapi.yml
+  format: yaml
+  label: OpenStreetMap Main Editing API v0.6
+  slug: main-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-main-openapi.yml
+- filename: openstreetmap-nominatim-openapi.yml
+  format: yaml
+  label: OpenStreetMap Nominatim Geocoding API
+  slug: nominatim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/openapi/openstreetmap-nominatim-openapi.yml
 authorization_urls:
 - https://www.openstreetmap.org/oauth2/authorize
 description: ''

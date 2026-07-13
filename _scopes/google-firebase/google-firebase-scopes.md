@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: firebase-realtime-database-openapi.yml
+  format: yaml
+  label: Firebase Realtime Database API
+  slug: firebase-realtime-database-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/openapi/firebase-realtime-database-openapi.yml
+- filename: firebase-cloud-messaging-openapi.yml
+  format: yaml
+  label: Firebase Cloud Messaging API (FCM)
+  slug: firebase-cloud-messaging-api-fcm
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/openapi/firebase-cloud-messaging-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

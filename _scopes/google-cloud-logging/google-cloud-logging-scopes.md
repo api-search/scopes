@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Google Cloud Logging API
+  slug: google-cloud-logging-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/googleapis.com/logging/v2/openapi.yaml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

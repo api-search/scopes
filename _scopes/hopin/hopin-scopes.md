@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: RingCentral Events API
+  slug: ringcentral-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/openapi/openapi.json
 authorization_urls: []
 description: ''
 docs: ''

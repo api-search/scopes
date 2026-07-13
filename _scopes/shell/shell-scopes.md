@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: shell-b2b-mobility-openapi.yml
+  format: yaml
+  label: Shell B2B Mobility Card Management API
+  slug: b2b-mobility-card-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-b2b-mobility-openapi.yml
+- filename: shell-b2b-mobility-openapi.yml
+  format: yaml
+  label: Shell B2B Mobility Card Transaction Data API
+  slug: b2b-mobility-card-transaction-data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-b2b-mobility-openapi.yml
+- filename: shell-b2b-mobility-openapi.yml
+  format: yaml
+  label: Shell B2B Mobility Invoice API
+  slug: b2b-mobility-invoice
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-b2b-mobility-openapi.yml
+- filename: shell-loyalty-openapi.yml
+  format: yaml
+  label: Shell Loyalty Catalogue API
+  slug: loyalty-catalogue
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-loyalty-openapi.yml
+- filename: shell-loyalty-openapi.yml
+  format: yaml
+  label: Shell Loyalty Account Management API
+  slug: loyalty-account-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-loyalty-openapi.yml
+- filename: shell-loyalty-openapi.yml
+  format: yaml
+  label: Shell Loyalty Points Balance API
+  slug: loyalty-points-balance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-loyalty-openapi.yml
+- filename: shell-loyalty-openapi.yml
+  format: yaml
+  label: Shell Loyalty Points Redemption API
+  slug: loyalty-points-redemption
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-loyalty-openapi.yml
+- filename: shell-lubricants-openapi.yml
+  format: yaml
+  label: Shell Lubricants Order Management API
+  slug: lubricants-order-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-lubricants-openapi.yml
+- filename: shell-b2b-mobility-openapi.yml
+  format: yaml
+  label: Shell B2B Mobility Sites API
+  slug: b2b-mobility-sites
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-b2b-mobility-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

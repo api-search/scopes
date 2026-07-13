@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: td-ameritrade-accounts-trading-openapi.yml
+  format: yaml
+  label: TD Ameritrade Accounts and Trading API
+  slug: accounts-and-trading
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/openapi/td-ameritrade-accounts-trading-openapi.yml
 authorization_urls:
 - https://auth.tdameritrade.com/auth
 description: ''

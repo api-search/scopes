@@ -1,4 +1,77 @@
 ---
+api_specs:
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Users API
+  slug: brightspace-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Enrollments API
+  slug: brightspace-enrollments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Org Units API
+  slug: brightspace-org-units-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Content API
+  slug: brightspace-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Grades API
+  slug: brightspace-grades-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Assignments (Dropbox) API
+  slug: brightspace-assignments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Quizzes API
+  slug: brightspace-quizzes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Discussions API
+  slug: brightspace-discussions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Calendar API
+  slug: brightspace-calendar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace News (Announcements) API
+  slug: brightspace-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Learning Outcomes API
+  slug: brightspace-learning-outcomes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
+- filename: brightspace-openapi.yml
+  format: yaml
+  label: Brightspace Data Hub API
+  slug: brightspace-data-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-openapi.yml
 authorization_urls:
 - https://auth.brightspace.com/oauth2/auth
 description: ''

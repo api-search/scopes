@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: state-street-alpha-data-platform-openapi.yml
+  format: yaml
+  label: Alpha Data Platform API
+  slug: alpha-data-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-alpha-data-platform-openapi.yml
+- filename: state-street-fund-connect-openapi.yml
+  format: yaml
+  label: Fund Connect API
+  slug: fund-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/openapi/state-street-fund-connect-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: oracle-primavera-p6-eppm-openapi.yml
+  format: yaml
+  label: Oracle Primavera P6 EPPM REST API
+  slug: oracle-primavera-p6-eppm-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/openapi/oracle-primavera-p6-eppm-openapi.yml
 authorization_urls:
 - https://identity.oraclecloud.com/oauth2/v1/authorize
 description: ''

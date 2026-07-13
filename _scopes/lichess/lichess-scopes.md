@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: lichess-openapi.yml
+  format: yaml
+  label: Lichess API
+  slug: lichess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-openapi.yml
 authorization_urls:
 - https://lichess.org/oauth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-cache-for-redis-openapi.yml
+  format: yaml
+  label: Azure Cache for Redis REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

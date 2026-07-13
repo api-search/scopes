@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: macquarie-rdr-figshare.yaml
+  format: yaml
+  label: Macquarie University Research Data Repository (Figshare API)
+  slug: rdr-figshare
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-rdr-figshare.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

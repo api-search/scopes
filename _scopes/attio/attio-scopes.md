@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi
+  format: yaml
+  label: Attio REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://docs.attio.com/rest-api/endpoint-reference/openapi
 authorization_urls:
 - https://app.attio.com/authorize
 description: ''

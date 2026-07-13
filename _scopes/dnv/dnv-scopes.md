@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: dnv-class-status-openapi.yml
+  format: yaml
+  label: DNV Class Status API
+  slug: dnv-class-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/openapi/dnv-class-status-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

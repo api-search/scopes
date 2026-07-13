@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: ory-hydra-openapi.json
+  format: json
+  label: Ory Hydra
+  slug: hydra
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-hydra-openapi.json
+- filename: ory-kratos-openapi.json
+  format: json
+  label: Ory Kratos
+  slug: kratos
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-kratos-openapi.json
+- filename: ory-keto-openapi.json
+  format: json
+  label: Ory Keto
+  slug: keto
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-keto-openapi.json
+- filename: ory-oathkeeper-openapi.json
+  format: json
+  label: Ory Oathkeeper
+  slug: oathkeeper
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/openapi/ory-oathkeeper-openapi.json
 authorization_urls:
 - https://hydra.demo.ory.sh/oauth2/auth
 description: ''

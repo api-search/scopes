@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: kings-college-london-figshare-repository.yaml
+  format: yaml
+  label: King's College London Research Repository (Figshare)
+  slug: figshare-repository
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kings-college-london/refs/heads/main/openapi/kings-college-london-figshare-repository.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

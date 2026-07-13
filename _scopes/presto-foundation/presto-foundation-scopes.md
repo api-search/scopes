@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: presto-foundation-openapi.yml
+  format: yaml
+  label: Presto Client REST API
+  slug: presto-client-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/openapi/presto-foundation-openapi.yml
 authorization_urls:
 - https://example.com/oauth/authorize
 description: ''

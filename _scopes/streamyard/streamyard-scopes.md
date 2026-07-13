@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: streamyard-openapi.yml
+  format: yaml
+  label: StreamYard API
+  slug: streamyard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-openapi.yml
 authorization_urls:
 - https://streamyard.com/oauth/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: leanix-openapi.json
+  format: json
+  label: LeanIX Integration API
+  slug: integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-openapi.json
 authorization_urls: []
 description: ''
 docs: https://help.sap.com/docs/leanix/ea/authentication-to-sap-leanix-services

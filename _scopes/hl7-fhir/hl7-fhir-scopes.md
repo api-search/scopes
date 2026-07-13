@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: hl7-fhir-r4-openapi.yml
+  format: yaml
+  label: HL7 FHIR R4 Healthcare API
+  slug: hl7-fhir-r4-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-r4-openapi.yml
 authorization_urls:
 - https://auth.example.com/authorize
 description: ''

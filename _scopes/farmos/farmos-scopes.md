@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: farmos-farmos-api-openapi.yml
+  format: yaml
+  label: farmOS JSON:API
+  slug: farmos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-farmos-api-openapi.yml
 authorization_urls:
 - /oauth/authorize
 description: ''

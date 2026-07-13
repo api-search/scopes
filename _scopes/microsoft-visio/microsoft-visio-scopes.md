@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-visio-graph-api.yaml
+  format: yaml
+  label: Microsoft Graph Visio API
+  slug: microsoft-graph-visio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/openapi/microsoft-visio-graph-api.yaml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

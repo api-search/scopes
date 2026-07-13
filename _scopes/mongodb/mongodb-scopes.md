@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: mongodb-atlas-openapi.yaml
+  format: yaml
+  label: MongoDB Atlas Administration API
+  slug: mongodb-atlas-administration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-atlas-openapi.yaml
 authorization_urls: []
 description: ''
 docs: https://www.mongodb.com/docs/atlas/api/api-authentication/

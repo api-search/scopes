@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: discogs-openapi-original.yml
+  format: yaml
+  label: Discogs API
+  slug: discogs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-openapi-original.yml
 authorization_urls:
 - https://discogs.com/oauth/authorize
 description: ''

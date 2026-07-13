@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: apigee-api-management-openapi.yml
+  format: yaml
+  label: Apigee API Management
+  slug: apigee-api-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-management-openapi.yml
+- filename: apigee-api-hub-openapi.yml
+  format: yaml
+  label: Apigee API Hub API
+  slug: apigee-api-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-hub-openapi.yml
+- filename: apigee-integrations-openapi.yml
+  format: yaml
+  label: Apigee Integrations API
+  slug: apigee-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-integrations-openapi.yml
+- filename: apigee-apim-openapi.yml
+  format: yaml
+  label: Apigee API Management API
+  slug: apigee-api-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-apim-openapi.yml
+- filename: apigee-registry-openapi.yml
+  format: yaml
+  label: Apigee Registry API
+  slug: apigee-registry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-registry-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

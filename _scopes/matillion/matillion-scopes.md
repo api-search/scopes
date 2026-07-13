@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: matillion-openapi.yml
+  format: yaml
+  label: DPC Projects
+  slug: dpc-projects
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
+- filename: matillion-openapi.yml
+  format: yaml
+  label: DPC Environments
+  slug: dpc-environments
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
+- filename: matillion-openapi.yml
+  format: yaml
+  label: DPC Pipeline Executions
+  slug: dpc-pipeline-executions
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
+- filename: matillion-openapi.yml
+  format: yaml
+  label: DPC Schedules
+  slug: dpc-schedules
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
+- filename: matillion-openapi.yml
+  format: yaml
+  label: DPC Agents
+  slug: dpc-agents
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
+- filename: matillion-openapi.yml
+  format: yaml
+  label: ETL Groups & Projects (legacy)
+  slug: etl-groups-projects
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
+- filename: matillion-openapi.yml
+  format: yaml
+  label: ETL Jobs & Runs (legacy)
+  slug: etl-jobs-runs
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
+- filename: matillion-openapi.yml
+  format: yaml
+  label: ETL Tasks (legacy)
+  slug: etl-tasks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
+- filename: matillion-openapi.yml
+  format: yaml
+  label: ETL Schedules (legacy)
+  slug: etl-schedules
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.maia.ai/docs/api-reference/maia-api-authentication

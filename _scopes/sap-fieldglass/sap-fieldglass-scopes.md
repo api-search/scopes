@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: sap-fieldglass-approval-openapi.yaml
+  format: yaml
+  label: SAP Fieldglass Approval API
+  slug: sap-fieldglass-approval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-approval-openapi.yaml
+- filename: sap-fieldglass-odata-analytic-openapi.json
+  format: json
+  label: SAP Fieldglass OData-Based Analytic API
+  slug: sap-fieldglass-odata-based-analytic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-odata-analytic-openapi.json
+- filename: sap-fieldglass-background-check-openapi.json
+  format: json
+  label: SAP Fieldglass Background Check API
+  slug: sap-fieldglass-background-check-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-background-check-openapi.json
+- filename: sap-fieldglass-audit-trail-openapi.json
+  format: json
+  label: SAP Fieldglass Audit Trail API
+  slug: sap-fieldglass-audit-trail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-audit-trail-openapi.json
+- filename: sap-fieldglass-business-analytics-openapi.json
+  format: json
+  label: SAP Fieldglass Business Analytics API
+  slug: sap-fieldglass-business-analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-business-analytics-openapi.json
 authorization_urls: []
 description: ''
 docs: ''

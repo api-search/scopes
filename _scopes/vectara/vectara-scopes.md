@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: vectara-openapi.yml
+  format: yaml
+  label: Vectara REST API
+  slug: vectara-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-openapi.yml
+- filename: vectara-openapi.yml
+  format: yaml
+  label: Vectara Corpora API
+  slug: vectara-corpora-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-openapi.yml
+- filename: vectara-openapi.yml
+  format: yaml
+  label: Vectara Indexing API
+  slug: vectara-indexing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-openapi.yml
+- filename: vectara-openapi.yml
+  format: yaml
+  label: Vectara Query API
+  slug: vectara-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-openapi.yml
+- filename: vectara-openapi.yml
+  format: yaml
+  label: Vectara Agents API
+  slug: vectara-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.vectara.com/docs/security/authentication/oauth-2

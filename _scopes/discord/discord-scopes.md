@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: discord-api-spec
+  format: yaml
+  label: Discord REST API
+  slug: discord-rest-api
+  spec_type: OpenAPI
+  url: https://github.com/discord/discord-api-spec
+- filename: discord-gateway-api-asyncapi.yml
+  format: yaml
+  label: Discord Gateway API
+  slug: discord-gateway-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/asyncapi/discord-gateway-api-asyncapi.yml
+- filename: discord-interactions-api-openapi.yml
+  format: yaml
+  label: Discord Interactions API
+  slug: discord-interactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-interactions-api-openapi.yml
+- filename: discord-oauth2-api-openapi.yml
+  format: yaml
+  label: Discord OAuth2 API
+  slug: discord-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-oauth2-api-openapi.yml
+- filename: discord-webhook-events-api-openapi.yml
+  format: yaml
+  label: Discord Webhook Events API
+  slug: discord-webhook-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-webhook-events-api-openapi.yml
+- filename: discord-voice-api-asyncapi.yml
+  format: yaml
+  label: Discord Voice API
+  slug: discord-voice-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/asyncapi/discord-voice-api-asyncapi.yml
+- filename: discord-linked-roles-api-openapi.yml
+  format: yaml
+  label: Discord Linked Roles API
+  slug: discord-linked-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-linked-roles-api-openapi.yml
 authorization_urls:
 - discord.com/oauth2/authorize
 - https://discord.com/oauth2/authorize

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-event-grid-openapi.yml
+  format: yaml
+  label: Azure Event Grid Publisher API
+  slug: publisher-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

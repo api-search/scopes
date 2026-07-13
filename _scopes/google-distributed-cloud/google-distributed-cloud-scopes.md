@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: distributed-cloud-edge-network-api-openapi.yml
+  format: yaml
+  label: Distributed Cloud Edge Network API
+  slug: distributed-cloud-edge-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/openapi/distributed-cloud-edge-network-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

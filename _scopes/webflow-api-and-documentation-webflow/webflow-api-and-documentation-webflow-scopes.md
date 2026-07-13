@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: webflow-data-api-openapi.yml
+  format: yaml
+  label: Webflow Data API
+  slug: data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-data-api-openapi.yml
+- filename: webflow-sites-openapi.yml
+  format: yaml
+  label: Webflow Sites API
+  slug: sites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-sites-openapi.yml
+- filename: webflow-collections-openapi.yml
+  format: yaml
+  label: Webflow Collections API
+  slug: collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-collections-openapi.yml
+- filename: webflow-items-openapi.yml
+  format: yaml
+  label: Webflow CMS Items API
+  slug: items-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-items-openapi.yml
+- filename: webflow-webhooks-openapi.yml
+  format: yaml
+  label: Webflow Webhooks API
+  slug: webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-webhooks-openapi.yml
 authorization_urls:
 - https://webflow.com/oauth/authorize
 description: ''

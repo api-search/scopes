@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: campaigns-api-openapi.yaml
+  format: yaml
+  label: MediaMath Campaigns V2.0 API
+  slug: mediamath-campaigns-v20-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/campaigns-api-openapi.yaml
+- filename: reporting-api-openapi.yaml
+  format: yaml
+  label: MediaMath Reporting API V2
+  slug: mediamath-reporting-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/openapi/reporting-api-openapi.yaml
 authorization_urls:
 - https://auth.mediamath.com/authorize
 description: ''

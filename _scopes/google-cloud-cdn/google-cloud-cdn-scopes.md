@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cdn-openapi.yml
+  format: yaml
+  label: Google Cloud CDN API
+  slug: google-cloud-cdn-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/cdn-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: sas-viya-rest-api-openapi.yml
+  format: yaml
+  label: SAS Viya REST API
+  slug: viya-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-viya-rest-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: blacksmith-sh-openapi.yml
+  format: yaml
+  label: Blacksmith GitHub Actions Runners
+  slug: github-actions-runners
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/openapi/blacksmith-sh-openapi.yml
+- filename: blacksmith-sh-openapi.yml
+  format: yaml
+  label: Blacksmith Docker Builds
+  slug: docker-builds
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/openapi/blacksmith-sh-openapi.yml
+- filename: blacksmith-sh-openapi.yml
+  format: yaml
+  label: Blacksmith Cache
+  slug: cache
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blacksmith-sh/refs/heads/main/openapi/blacksmith-sh-openapi.yml
 authorization_urls:
 - https://github.com/apps/blacksmith
 description: ''

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: simon-data-event-ingestion-openapi.yml
+  format: yaml
+  label: Simon Data Event Ingestion API
+  slug: simon-data-event-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-event-ingestion-openapi.yml
+- filename: simon-data-contact-openapi.yml
+  format: yaml
+  label: Simon Data Contact API
+  slug: simon-data-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-contact-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.simondata.com/reference/getting-started

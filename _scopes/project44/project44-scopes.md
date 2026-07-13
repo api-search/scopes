@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: project44-tracking-openapi.yml
+  format: yaml
+  label: project44 API v4
+  slug: project44-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-tracking-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

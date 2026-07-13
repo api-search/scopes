@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: logto-openapi-original.yml
+  format: yaml
+  label: Logto API
+  slug: logto-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/logto/refs/heads/main/openapi/logto-openapi-original.yml
 authorization_urls: []
 description: ''
 docs: ''

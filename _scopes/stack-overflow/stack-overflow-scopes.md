@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: stack-overflow-openapi.yml
+  format: yaml
+  label: Stack Overflow API
+  slug: stack-overflow-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-openapi.yml
+- filename: stack-overflow-for-teams-openapi.yml
+  format: yaml
+  label: Stack Overflow for Teams API v3
+  slug: stack-overflow-for-teams-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-for-teams-openapi.yml
 authorization_urls:
 - https://stackoverflow.com/oauth
 description: ''

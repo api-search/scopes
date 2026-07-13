@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting API
+  slug: google-search-ads-360-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/openapi/openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

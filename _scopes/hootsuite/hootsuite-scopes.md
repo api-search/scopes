@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: hootsuite-openapi.yml
+  format: yaml
+  label: Hootsuite REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-openapi.yml
 authorization_urls:
 - https://platform.hootsuite.com/oauth2/auth
 description: ''

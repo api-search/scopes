@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: photos.yml
+  format: yaml
+  label: Google Photos Library API v1
+  slug: google-photos-library-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/openapi/photos.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

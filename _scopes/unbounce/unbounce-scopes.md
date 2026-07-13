@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: unbounce-openapi.yml
+  format: yaml
+  label: Unbounce REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-openapi.yml
 authorization_urls:
 - https://api.unbounce.com/oauth/authorize
 description: ''

@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: aml-api-oauth.json
+  format: json
+  label: Elliptic AML API
+  slug: elliptic-aml-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/aml-api-oauth.json
+- filename: ia-api.json
+  format: json
+  label: Elliptic AI API
+  slug: elliptic-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/ia-api.json
+- filename: sanctions-api.json
+  format: json
+  label: Elliptic Sanctions API
+  slug: elliptic-sanctions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/sanctions-api.json
+- filename: data-fabric.yaml
+  format: yaml
+  label: Elliptic Data Fabric API
+  slug: elliptic-data-fabric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/data-fabric.yaml
 authorization_urls:
 - https://login.elliptic.co/authorize
 description: ''

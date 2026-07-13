@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: kit-openapi.yml
+  format: yaml
+  label: Kit API V4
+  slug: kit-api-v4
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kit/refs/heads/main/openapi/kit-openapi.yml
 authorization_urls:
 - https://app.kit.com/oauth/authorize
 description: ''

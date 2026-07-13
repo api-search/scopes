@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: servicefusion-openapi.yml
+  format: yaml
+  label: Service Fusion Customers API
+  slug: servicefusion-customers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
+- filename: servicefusion-openapi.yml
+  format: yaml
+  label: Service Fusion Contacts API
+  slug: servicefusion-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
+- filename: servicefusion-openapi.yml
+  format: yaml
+  label: Service Fusion Jobs API
+  slug: servicefusion-jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
+- filename: servicefusion-openapi.yml
+  format: yaml
+  label: Service Fusion Estimates API
+  slug: servicefusion-estimates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
+- filename: servicefusion-openapi.yml
+  format: yaml
+  label: Service Fusion Invoices API
+  slug: servicefusion-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
+- filename: servicefusion-openapi.yml
+  format: yaml
+  label: Service Fusion Products and Services API
+  slug: servicefusion-products-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
+- filename: servicefusion-openapi.yml
+  format: yaml
+  label: Service Fusion Payments API
+  slug: servicefusion-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
+- filename: servicefusion-openapi.yml
+  format: yaml
+  label: Service Fusion Techs and Users API
+  slug: servicefusion-techs-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
+- filename: servicefusion-openapi.yml
+  format: yaml
+  label: Service Fusion Calendar Tasks API
+  slug: servicefusion-calendar-tasks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-openapi.yml
 authorization_urls:
 - https://api.servicefusion.com/oauth/authorize
 description: ''

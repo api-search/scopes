@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cms-energy-openapi.yml
+  format: yaml
+  label: Consumers Energy Green Button Connect My Data API
+  slug: consumers-green-button-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-openapi.yml
 authorization_urls:
 - https://utilityapi.com/authorize
 description: ''

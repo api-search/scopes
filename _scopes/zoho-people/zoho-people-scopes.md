@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zoho-people-openapi.yml
+  format: yaml
+  label: Zoho People REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-power-automate-management-api.yaml
+  format: yaml
+  label: Power Automate Management API
+  slug: power-automate-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-management-api.yaml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: stackexchange-api-v2-3.yaml
+  format: yaml
+  label: Stack Exchange API v2.3
+  slug: stack-exchange-api-v23
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/openapi/stackexchange-api-v2-3.yaml
 authorization_urls:
 - https://stackoverflow.com/oauth
 description: ''

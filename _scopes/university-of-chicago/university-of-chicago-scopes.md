@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: university-of-chicago-fence.yaml
+  format: yaml
+  label: Gen3 Data Commons APIs (CTDS)
+  slug: gen3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/openapi/university-of-chicago-fence.yaml
 authorization_urls:
 - /oauth/authorize
 description: ''

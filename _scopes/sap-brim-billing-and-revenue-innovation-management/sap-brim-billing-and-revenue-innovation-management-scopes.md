@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: overview
+  format: yaml
+  label: SAP Convergent Charging API
+  slug: sap-convergent-charging-api
+  spec_type: OpenAPI
+  url: https://api.sap.com/api/convergent_charging/overview
+- filename: overview
+  format: yaml
+  label: SAP Convergent Invoicing API
+  slug: sap-convergent-invoicing-api
+  spec_type: OpenAPI
+  url: https://api.sap.com/api/convergent_invoicing/overview
+- filename: overview
+  format: yaml
+  label: SAP Subscription Billing API
+  slug: sap-subscription-billing-api
+  spec_type: OpenAPI
+  url: https://api.sap.com/api/subscription_billing/overview
+- filename: overview
+  format: yaml
+  label: SAP Contract Accounts Receivable and Payable API
+  slug: sap-contract-accounts-receivable-and-payable-api
+  spec_type: OpenAPI
+  url: https://api.sap.com/api/fica/overview
+- filename: overview
+  format: yaml
+  label: SAP BRIM Usage Data Intake API
+  slug: sap-brim-usage-data-intake-api
+  spec_type: OpenAPI
+  url: https://api.sap.com/api/usage_data_intake/overview
+- filename: overview
+  format: yaml
+  label: SAP Revenue Accounting and Reporting API
+  slug: sap-revenue-accounting-and-reporting-api
+  spec_type: OpenAPI
+  url: https://api.sap.com/api/revenue_accounting/overview
 authorization_urls: []
 description: ''
 docs: ''

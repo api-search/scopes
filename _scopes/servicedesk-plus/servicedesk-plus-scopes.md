@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: servicedesk-plus-openapi.yml
+  format: yaml
+  label: ServiceDesk Plus REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/openapi/servicedesk-plus-openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''

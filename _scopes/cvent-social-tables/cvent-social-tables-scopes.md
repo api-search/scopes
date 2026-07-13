@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cvent-social-tables-openapi.json
+  format: json
+  label: Social Tables Events API (Legacy)
+  slug: events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/openapi/cvent-social-tables-openapi.json
 authorization_urls:
 - https://auth.socialtables.com/oauth/authorize
 description: ''

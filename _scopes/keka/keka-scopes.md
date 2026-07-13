@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Keka HR REST API
+  slug: keka-hr-rest-api
+  spec_type: OpenAPI
+  url: https://apidocs.keka.com/
 authorization_urls: []
 description: ''
 docs: ''

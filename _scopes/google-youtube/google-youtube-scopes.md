@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: youtube.yml
+  format: yaml
+  label: YouTube Data API v3
+  slug: youtube-data-api-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/openapi/youtube.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

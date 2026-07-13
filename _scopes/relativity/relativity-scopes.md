@@ -1,4 +1,65 @@
 ---
+api_specs:
+- filename: relativity-object-manager-openapi.yml
+  format: yaml
+  label: Relativity Object Manager API
+  slug: relativity-object-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-object-manager-openapi.yml
+- filename: relativity-import-openapi.yml
+  format: yaml
+  label: Relativity Import Service API
+  slug: relativity-import-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-import-openapi.yml
+- filename: relativity-export-openapi.yml
+  format: yaml
+  label: Relativity Export Service API
+  slug: relativity-export-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-export-openapi.yml
+- filename: relativity-workspace-openapi.yml
+  format: yaml
+  label: Relativity Workspace Manager API
+  slug: relativity-workspace-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-workspace-openapi.yml
+- filename: relativity-productions-openapi.yml
+  format: yaml
+  label: Relativity Production Manager API
+  slug: relativity-production-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-productions-openapi.yml
+- filename: relativity-legal-hold-openapi.yml
+  format: yaml
+  label: Relativity Legal Hold API
+  slug: relativity-legal-hold-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-legal-hold-openapi.yml
+- filename: relativity-automated-workflows-openapi.yml
+  format: yaml
+  label: Relativity Automated Workflows API
+  slug: relativity-automated-workflows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-automated-workflows-openapi.yml
+- filename: relativity-permissions-openapi.yml
+  format: yaml
+  label: Relativity Audit API
+  slug: relativity-audit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-permissions-openapi.yml
+- filename: relativity-identity-openapi.yml
+  format: yaml
+  label: Relativity User and Permission Manager API
+  slug: relativity-user-and-permission-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-identity-openapi.yml
+- filename: relativity-billing-v2-openapi.yml
+  format: yaml
+  label: Relativity Billing Insights API
+  slug: relativity-billing-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/openapi/relativity-billing-v2-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://platform.relativity.com/RelativityOne/Content/REST_API/REST_API_authentication.htm

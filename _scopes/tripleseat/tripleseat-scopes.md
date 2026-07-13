@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tripleseat-openapi.yml
+  format: yaml
+  label: Tripleseat API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-openapi.yml
 authorization_urls:
 - https://api.tripleseat.com/oauth/authorize
 description: ''

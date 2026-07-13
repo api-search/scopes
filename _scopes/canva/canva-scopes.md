@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Canva Connect API
+  slug: canva-connect-api
+  spec_type: OpenAPI
+  url: https://www.canva.com/developers/docs/connect-api/openapi/
 authorization_urls:
 - https://www.canva.com/api/oauth/authorize
 description: ''

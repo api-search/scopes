@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: 7shifts-openapi.yml
+  format: yaml
+  label: 7shifts REST API v2
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.7shifts.com/docs/oauth-authentication

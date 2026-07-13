@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: musicbrainz-web-service-openapi.yml
+  format: yaml
+  label: MusicBrainz Web Service v2
+  slug: musicbrainz-web-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/openapi/musicbrainz-web-service-openapi.yml
 authorization_urls:
 - https://musicbrainz.org/oauth2/authorize
 description: ''

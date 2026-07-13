@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: employment-hero-openapi.yml
+  format: yaml
+  label: Employment Hero REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-openapi.yml
 authorization_urls:
 - https://oauth.employmenthero.com/oauth2/authorize
 description: ''

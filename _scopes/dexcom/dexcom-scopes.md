@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: dexcom-dexcom-api.yml
+  format: yaml
+  label: Dexcom Developer API
+  slug: dexcom-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/openapi/dexcom-dexcom-api.yml
 authorization_urls:
 - https://api.dexcom.com/v2/oauth2/login
 description: ''

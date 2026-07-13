@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: canvas-lms-rest-api-openapi.yml
+  format: yaml
+  label: Canvas REST API
+  slug: canvas-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-rest-api-openapi.yml
+- filename: canvas-lms-live-events-asyncapi.yml
+  format: yaml
+  label: Canvas Live Events
+  slug: canvas-live-events
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/openapi/canvas-lms-live-events-asyncapi.yml
 authorization_urls:
 - https://canvas.instructure.com/login/oauth2/auth
 description: ''

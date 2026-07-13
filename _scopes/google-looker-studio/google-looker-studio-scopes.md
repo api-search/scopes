@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Looker Studio API
+  slug: google-looker-studio-api
+  spec_type: OpenAPI
+  url: https://lookerstudio.googleapis.com/$discovery/rest
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

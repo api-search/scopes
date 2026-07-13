@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zoom-api.yaml
+  format: yaml
+  label: Zoom API
+  slug: zoom-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/zoom/api/master/openapi/zoom-api.yaml
 authorization_urls:
 - https://zoom.us/oauth/authorize
 description: ''

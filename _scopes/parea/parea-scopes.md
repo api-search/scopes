@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: overview
+  format: yaml
+  label: Parea REST API
+  slug: parea-rest-api
+  spec_type: OpenAPI
+  url: https://docs.parea.ai/api-reference/overview
 authorization_urls: []
 description: ''
 docs: https://docs.parea.ai/api-reference/authentication

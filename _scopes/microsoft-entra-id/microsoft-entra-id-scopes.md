@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-entra-id-openapi.yml
+  format: yaml
+  label: Microsoft Entra ID
+  slug: microsoft-entra-id
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra-id/refs/heads/main/openapi/microsoft-entra-id-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''

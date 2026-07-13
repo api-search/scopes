@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: tibber-graphql-api-openapi.yml
+  format: yaml
+  label: Tibber GraphQL API
+  slug: tibber-graphql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-graphql-api-openapi.yml
+- filename: tibber-data-api-openapi.yml
+  format: yaml
+  label: Tibber Data API
+  slug: tibber-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-data-api-openapi.yml
 authorization_urls:
 - https://thewall.tibber.com/connect/authorize
 description: ''

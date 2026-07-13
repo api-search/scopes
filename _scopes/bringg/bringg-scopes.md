@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: bringg-delivery-hub-api-openapi.yml
+  format: yaml
+  label: Bringg Delivery Hub API
+  slug: bringg-delivery-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/openapi/bringg-delivery-hub-api-openapi.yml
+- filename: bringg-drivers-shifts-api-openapi.yml
+  format: yaml
+  label: Bringg Drivers And Shifts API
+  slug: bringg-drivers-shifts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/openapi/bringg-drivers-shifts-api-openapi.yml
+- filename: bringg-fleet-partners-api-openapi.yml
+  format: yaml
+  label: Bringg Fleet Partners API
+  slug: bringg-fleet-partners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/openapi/bringg-fleet-partners-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

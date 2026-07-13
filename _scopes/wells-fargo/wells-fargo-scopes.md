@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: wells-fargo-gateway-api-openapi.yml
+  format: yaml
+  label: Wells Fargo Gateway API
+  slug: gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-gateway-api-openapi.yml
+- filename: wells-fargo-account-transactions-api-openapi.yml
+  format: yaml
+  label: Wells Fargo Account Transactions API
+  slug: account-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-account-transactions-api-openapi.yml
+- filename: wells-fargo-ach-payments-api-openapi.yml
+  format: yaml
+  label: Wells Fargo ACH Payments API
+  slug: ach-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-ach-payments-api-openapi.yml
 authorization_urls:
 - https://api.wellsfargo.com/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: salesforce-net-zero-cloud-rest-api-openapi.yml
+  format: yaml
+  label: Net Zero Cloud REST API
+  slug: net-zero-cloud-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-rest-api-openapi.yml
 authorization_urls:
 - https://login.salesforce.com/services/oauth2/authorize
 description: ''

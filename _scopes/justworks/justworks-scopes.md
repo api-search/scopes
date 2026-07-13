@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: justworks-members-api-openapi.yml
+  format: yaml
+  label: Justworks Members API
+  slug: justworks-members-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-members-api-openapi.yml
+- filename: justworks-company-api-openapi.yml
+  format: yaml
+  label: Justworks Company API
+  slug: justworks-company-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-company-api-openapi.yml
+- filename: justworks-payroll-api-openapi.yml
+  format: yaml
+  label: Justworks Payroll API
+  slug: justworks-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-payroll-api-openapi.yml
+- filename: justworks-deductions-api-openapi.yml
+  format: yaml
+  label: Justworks Deductions API
+  slug: justworks-deductions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-deductions-api-openapi.yml
+- filename: justworks-time-off-api-openapi.yml
+  format: yaml
+  label: Justworks Time Off API
+  slug: justworks-time-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-api-openapi.yml
+- filename: justworks-webhooks-api-openapi.yml
+  format: yaml
+  label: Justworks Webhooks API
+  slug: justworks-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-webhooks-api-openapi.yml
+- filename: justworks-oauth-api-openapi.yml
+  format: yaml
+  label: Justworks OAuth API
+  slug: justworks-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-oauth-api-openapi.yml
 authorization_urls:
 - https://secure.justworks.com/oauth/authorize
 description: ''

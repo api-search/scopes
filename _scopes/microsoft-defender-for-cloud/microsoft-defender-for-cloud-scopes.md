@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-defender-for-cloud-openapi.yml
+  format: yaml
+  label: Microsoft Defender for Cloud REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

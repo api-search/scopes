@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: VATSIM Core API
+  slug: vatsim-core-api
+  spec_type: OpenAPI
+  url: https://api.vatsim.net/v2/openapi.json
+- filename: openapi.json
+  format: json
+  label: VATSIM Data API
+  slug: vatsim-data-api
+  spec_type: OpenAPI
+  url: https://data.vatsim.net/openapi.json
+- filename: metar.yaml
+  format: yaml
+  label: VATSIM METAR API
+  slug: vatsim-metar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/metar.yaml
+- filename: connect.yaml
+  format: yaml
+  label: VATSIM Connect API
+  slug: vatsim-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/connect.yaml
+- filename: slurper.yaml
+  format: yaml
+  label: VATSIM Slurper API
+  slug: vatsim-slurper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/slurper.yaml
 authorization_urls:
 - /oauth/authorize
 description: ''

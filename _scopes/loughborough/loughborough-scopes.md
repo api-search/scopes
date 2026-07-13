@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: loughborough-research-repository-rest.yaml
+  format: yaml
+  label: Loughborough Research Repository (figshare REST API)
+  slug: research-repository-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/openapi/loughborough-research-repository-rest.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

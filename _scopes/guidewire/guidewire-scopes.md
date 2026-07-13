@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: guidewire-policycenter-openapi.yml
+  format: yaml
+  label: Guidewire PolicyCenter API
+  slug: guidewire-policycenter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-policycenter-openapi.yml
+- filename: guidewire-claimcenter-openapi.yml
+  format: yaml
+  label: Guidewire ClaimCenter API
+  slug: guidewire-claimcenter-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/openapi/guidewire-claimcenter-openapi.yml
+- filename: guidewire-integration-gateway-asyncapi.yml
+  format: yaml
+  label: Guidewire Integration Gateway API
+  slug: guidewire-integration-gateway-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/asyncapi/guidewire-integration-gateway-asyncapi.yml
 authorization_urls:
 - https://login.guidewire.com/oauth/authorize
 description: ''

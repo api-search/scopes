@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: efi-cobrancas-openapi.yml
+  format: yaml
+  label: Efí Pay Cobranças API
+  slug: efi-cobrancas
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/openapi/efi-cobrancas-openapi.yml
+- filename: efi-pix-openapi.yml
+  format: yaml
+  label: Efí Pay Pix API
+  slug: efi-pix
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/openapi/efi-pix-openapi.yml
+- filename: efi-openfinance-openapi.yml
+  format: yaml
+  label: Efí Pay Open Finance API
+  slug: efi-openfinance
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/openapi/efi-openfinance-openapi.yml
+- filename: efi-contas-openapi.yml
+  format: yaml
+  label: Efí Pay Contas (Account Opening) API
+  slug: efi-contas
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/openapi/efi-contas-openapi.yml
+- filename: efi-pagamentos-openapi.yml
+  format: yaml
+  label: Efí Pay Pagamentos (Bill Payment) API
+  slug: efi-pagamentos
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/openapi/efi-pagamentos-openapi.yml
+- filename: efi-extratos-openapi.yml
+  format: yaml
+  label: Efí Pay Extratos (Statements) API
+  slug: efi-extratos
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/openapi/efi-extratos-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: gke-on-prem-api-openapi.yml
+  format: yaml
+  label: GKE On-Prem API
+  slug: gke-on-prem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/gke-on-prem-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

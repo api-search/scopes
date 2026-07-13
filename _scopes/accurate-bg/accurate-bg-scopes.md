@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: accurate-bg-openapi.yml
+  format: yaml
+  label: Accurate Candidates API
+  slug: accurate-bg-candidates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
+- filename: accurate-bg-openapi.yml
+  format: yaml
+  label: Accurate Orders API
+  slug: accurate-bg-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
+- filename: accurate-bg-openapi.yml
+  format: yaml
+  label: Accurate Packages API
+  slug: accurate-bg-packages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
+- filename: accurate-bg-openapi.yml
+  format: yaml
+  label: Accurate Reports API
+  slug: accurate-bg-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
+- filename: accurate-bg-openapi.yml
+  format: yaml
+  label: Accurate Documents API
+  slug: accurate-bg-documents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
+- filename: accurate-bg-openapi.yml
+  format: yaml
+  label: Accurate Adjudication API
+  slug: accurate-bg-adjudication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
+- filename: accurate-bg-openapi.yml
+  format: yaml
+  label: Accurate Verifications API
+  slug: accurate-bg-verifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
+- filename: accurate-bg-openapi.yml
+  format: yaml
+  label: Accurate Notifications API
+  slug: accurate-bg-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://accurate.readme.io/reference/authentication

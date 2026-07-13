@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: shutterstock-openapi.yml
+  format: yaml
+  label: Shutterstock API
+  slug: shutterstock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/openapi/shutterstock-openapi.yml
 authorization_urls:
 - https://accounts.shutterstock.com/oauth/authorize
 description: ''

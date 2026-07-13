@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ifs-cloud-erp-openapi.yml
+  format: yaml
+  label: IFS Cloud ERP API
+  slug: ifs-cloud-erp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-cloud-erp-openapi.yml
 authorization_urls:
 - https://login.ifs.cloud/oauth2/authorize
 description: ''

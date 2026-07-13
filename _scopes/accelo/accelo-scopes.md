@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: accelo-openapi.yml
+  format: yaml
+  label: Accelo REST API
+  slug: accelo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/openapi/accelo-openapi.yml
 authorization_urls:
 - https://{deployment}.api.accelo.com/oauth2/v0/authorize
 description: ''

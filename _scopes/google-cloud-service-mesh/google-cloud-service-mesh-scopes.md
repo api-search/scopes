@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-cloud-service-mesh-openapi.yml
+  format: yaml
+  label: Google Cloud Network Services API
+  slug: network-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

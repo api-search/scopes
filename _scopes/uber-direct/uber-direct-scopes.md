@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: uber-direct-openapi.yml
+  format: yaml
+  label: Uber Direct API
+  slug: uber-direct-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/openapi/uber-direct-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: broadridge-wealth-openapi.yml
+  format: yaml
+  label: Broadridge Wealth Management API
+  slug: broadridge-wealth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-wealth-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

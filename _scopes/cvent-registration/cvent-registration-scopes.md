@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cvent-registration-openapi.yml
+  format: yaml
+  label: Cvent Registration REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/openapi/cvent-registration-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

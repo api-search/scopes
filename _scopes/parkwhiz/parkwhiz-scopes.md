@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: parkwhiz-openapi.yml
+  format: yaml
+  label: ParkWhiz Quotes & Locations API
+  slug: parkwhiz-quotes-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-openapi.yml
+- filename: parkwhiz-openapi.yml
+  format: yaml
+  label: ParkWhiz Bookings API
+  slug: parkwhiz-bookings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-openapi.yml
+- filename: parkwhiz-openapi.yml
+  format: yaml
+  label: ParkWhiz Monthly Parking API
+  slug: parkwhiz-monthly-parking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-openapi.yml
+- filename: parkwhiz-openapi.yml
+  format: yaml
+  label: ParkWhiz Venues & Events API
+  slug: parkwhiz-venues-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-openapi.yml
+- filename: parkwhiz-openapi.yml
+  format: yaml
+  label: ParkWhiz Accounts & Vehicles API
+  slug: parkwhiz-accounts-vehicles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-openapi.yml
+- filename: parkwhiz-openapi.yml
+  format: yaml
+  label: ParkWhiz Tickets API
+  slug: parkwhiz-tickets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-openapi.yml
 authorization_urls:
 - https://api.parkwhiz.com/v4/oauth/authorize
 description: ''

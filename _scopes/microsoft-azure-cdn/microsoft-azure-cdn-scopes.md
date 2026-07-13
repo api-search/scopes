@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-cdn-openapi.yml
+  format: yaml
+  label: Azure CDN REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cdn/refs/heads/main/openapi/microsoft-azure-cdn-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

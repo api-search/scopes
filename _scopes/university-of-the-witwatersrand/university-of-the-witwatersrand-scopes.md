@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: university-of-the-witwatersrand-wiredspace-rest.yaml
+  format: yaml
+  label: WIReDSpace DSpace REST API
+  slug: wiredspace-rest
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-wiredspace-rest.yaml
+- filename: university-of-the-witwatersrand-wiredspace-oai.yaml
+  format: yaml
+  label: WIReDSpace OAI-PMH
+  slug: wiredspace-oai
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-wiredspace-oai.yaml
+- filename: university-of-the-witwatersrand-open-data-vault.yaml
+  format: yaml
+  label: Wits Open Data Vault (Figshare)
+  slug: open-data-vault
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/openapi/university-of-the-witwatersrand-open-data-vault.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: upvest-investment-api-openapi.yml
+  format: yaml
+  label: Upvest Investment API
+  slug: investment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/upvest/refs/heads/main/openapi/upvest-investment-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

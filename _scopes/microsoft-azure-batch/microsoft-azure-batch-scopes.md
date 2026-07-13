@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-batch-openapi.yml
+  format: yaml
+  label: Azure Batch REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-batch/refs/heads/main/openapi/microsoft-azure-batch-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

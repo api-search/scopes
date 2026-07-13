@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: facebook-lead-ads-openapi.yml
+  format: yaml
+  label: Meta Marketing API - Lead Ads
+  slug: graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-openapi.yml
 authorization_urls:
 - https://www.facebook.com/v22.0/dialog/oauth
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: rest
+  format: yaml
+  label: Google Vault API
+  slug: google-vault-api
+  spec_type: OpenAPI
+  url: https://vault.googleapis.com/$discovery/rest?version=v1
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''

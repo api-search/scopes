@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: audius-openapi.yml
+  format: yaml
+  label: Audius REST API
+  slug: platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/openapi/audius-openapi.yml
 authorization_urls:
 - /v1/oauth/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: freeagent-openapi.yml
+  format: yaml
+  label: FreeAgent REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-openapi.yml
 authorization_urls:
 - https://api.freeagent.com/v2/approve_app
 description: ''

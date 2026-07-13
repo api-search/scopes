@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: civic-pass-customer-api.yaml
+  format: yaml
+  label: Civic Pass API
+  slug: civic-pass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/civic/refs/heads/main/openapi/civic-pass-customer-api.yaml
 authorization_urls: []
 description: ''
 docs: ''

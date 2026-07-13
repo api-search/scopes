@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-azure-site-recovery-openapi.yml
+  format: yaml
+  label: Azure Site Recovery REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/openapi/microsoft-azure-site-recovery-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: stockholm-figshare.yaml
+  format: yaml
+  label: Stockholm University Research Data Repository (Figshare)
+  slug: figshare
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/openapi/stockholm-figshare.yaml
 authorization_urls:
 - https://figshare.com/account/applications/authorize
 description: ''

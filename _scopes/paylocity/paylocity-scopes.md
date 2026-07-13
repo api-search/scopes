@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: paylocity-openapi.yml
+  format: yaml
+  label: Paylocity Integrations REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.paylocity.com/integrations/reference/authentication-weblink
