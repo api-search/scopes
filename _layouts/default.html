@@ -249,8 +249,10 @@
                 <li><a class="dropdown-item" href="https://apis.io/plans/">Plans</a></li>
                 <li><a class="dropdown-item" href="https://apis.io/rate-limits/">Rate Limits</a></li>
                 <li><a class="dropdown-item" href="https://apis.io/finops/">FinOps</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'security' %} active{% endif %}" href="https://apis.io/security/">Security</a></li>
-                <li><a class="dropdown-item{% if site.nav_active == 'scopes' %} active{% endif %}" href="https://apis.io/scopes/">OAuth Scopes</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><h6 class="dropdown-header">Security</h6></li>
+                <li><a class="dropdown-item{% if site.nav_active == 'security' %} active{% endif %}" href="https://apis.io/security/">Posture</a></li>
+                <li><a class="dropdown-item{% if site.nav_active == 'scopes' %} active{% endif %}" href="https://apis.io/scopes/">Scopes</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="https://apis.io/about/">About</a></li>
                 <li><a class="dropdown-item" href="https://apis.io/support/">Support</a></li>
@@ -284,7 +286,7 @@
     <!-- Laneworks ad network (ads.laneworks.net) -->
     <script async src="https://ads.laneworks.net/embed.js"></script>
     <div data-laneworks-ad="top-banner"></div>
-    <main class="container mt-3 mb-5" role="main">
+    <main class="container mt-2 mb-5" role="main">
       {{ content }}
     </main>
 
