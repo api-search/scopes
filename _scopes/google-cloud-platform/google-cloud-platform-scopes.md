@@ -219,12 +219,12 @@ api_specs:
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
-docs: ''
+docs: https://developers.google.com/identity/protocols/oauth2/scopes
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Google Cloud Platform Scopes
 name_suffix: OAuth Scopes
 note: ''
@@ -262,7 +262,8 @@ slug: google-cloud-platform-scopes
 source_filename: google-cloud-platform-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloud-resource-manager-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cloud-resource-manager-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication using Google Cloud service accounts or user credentials.\n    Supports both service-to-service and end-user authentication flows.\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to view and manage Google Cloud resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-resource-manager-openapi.yml\n- scope: https://www.googleapis.com/auth/cloud-platform.read-only\n  description: Read-only access to view Google Cloud resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-resource-manager-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/cloud-resource-manager-openapi.yml\ndocs: https://developers.google.com/identity/protocols/oauth2/scopes\nnotes: >-\n  Google publishes the full OAuth 2.0 scope reference across all APIs at the\n  docs URL above. Cloud Resource Manager uses the two platform-wide scopes\n  below; most GCP services also accept the broad cloud-platform scope in\n  addition to any service-specific scopes.\nschemes:\n- name: oauth2\n  source: openapi/cloud-resource-manager-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication using Google Cloud service accounts or user credentials.\n    Supports both service-to-service and end-user authentication flows.\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to view and manage Google Cloud resources.\n\
+  \  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-resource-manager-openapi.yml\n- scope: https://www.googleapis.com/auth/cloud-platform.read-only\n  description: Read-only access to view Google Cloud resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-resource-manager-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/scopes/google-cloud-platform-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:

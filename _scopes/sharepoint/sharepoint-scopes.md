@@ -15,16 +15,16 @@ api_specs:
 authorization_urls:
 - https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize
 description: ''
-docs: ''
+docs: https://learn.microsoft.com/en-us/graph/permissions-reference#sites-permissions
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Sharepoint Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Microsoft SharePoint publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft SharePoint API on a user''s behalf.
+overview: 'Microsoft SharePoint publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft SharePoint API on a user''s behalf.
 
 
   Tokens are issued from https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token.
@@ -41,12 +41,13 @@ schemes:
     tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token
   name: oauth2
   source: openapi/sharepoint-rest-api.yaml
-scope_count: 4
+scope_count: 5
 scope_names:
 - Sites.FullControl.All
 - Sites.Manage.All
 - Sites.Read.All
 - Sites.ReadWrite.All
+- Sites.Selected
 scopes:
 - description: Full control of all site collections.
   flows:
@@ -64,14 +65,18 @@ scopes:
   flows:
   - authorizationCode
   scope: Sites.ReadWrite.All
+- description: Access only to specific SharePoint site collections granted explicitly by an admin (per-site authorization).
+  flows:
+  - authorizationCode
+  scope: Sites.Selected
 slug: sharepoint-scopes
 source_filename: sharepoint-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sharepoint-rest-api.yaml\nschemes:\n- name: oauth2\n  source: openapi/sharepoint-rest-api.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n  description: OAuth 2.0 via Azure AD / Microsoft Identity Platform.\nscopes:\n- scope: Sites.FullControl.All\n  description: Full control of all site collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope: Sites.Manage.All\n  description: Create, edit, and delete items and lists.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope: Sites.Read.All\n  description: Read all site collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope: Sites.ReadWrite.All\n  description: Read and write all\
-  \ site collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/sharepoint-rest-api.yaml\ndocs: https://learn.microsoft.com/en-us/graph/permissions-reference#sites-permissions\nnotes: >-\n  SharePoint permissions are Microsoft Graph / Microsoft Entra scopes. The Sites.* set below\n  is documented in the Microsoft Graph permissions reference. Both delegated and application\n  permission variants exist; Sites.Selected additionally supports per-site granular grants.\nschemes:\n- name: oauth2\n  source: openapi/sharepoint-rest-api.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n  description: OAuth 2.0 via Azure AD / Microsoft Identity Platform.\nscopes:\n- scope: Sites.FullControl.All\n  description: Full control of all site collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope:\
+  \ Sites.Manage.All\n  description: Create, edit, and delete items and lists.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope: Sites.Read.All\n  description: Read all site collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope: Sites.ReadWrite.All\n  description: Read and write all site collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope: Sites.Selected\n  description: Access only to specific SharePoint site collections granted explicitly by an admin (per-site authorization).\n  flows:\n  - authorizationCode\n  sources:\n  - https://learn.microsoft.com/en-us/graph/permissions-reference#sites-permissions\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/scopes/sharepoint-scopes.yml
-summary_line: 4 scopes · authorizationCode
+summary_line: 5 scopes · authorizationCode
 tags:
 - Collaboration
 - Document Management

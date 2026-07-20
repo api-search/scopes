@@ -9,12 +9,12 @@ api_specs:
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
-docs: ''
+docs: https://learn.microsoft.com/en-us/power-automate/web-api#authentication
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Microsoft Power Automate Scopes
 name_suffix: OAuth Scopes
 note: ''
@@ -47,7 +47,8 @@ slug: microsoft-power-automate-scopes
 source_filename: microsoft-power-automate-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-power-automate-management-api.yaml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-power-automate-management-api.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: Microsoft Entra ID (Azure AD) OAuth 2.0 authentication.\nscopes:\n- scope: https://service.flow.microsoft.com/.default\n  description: Access Power Automate Management API\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-power-automate-management-api.yaml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microsoft-power-automate-management-api.yaml\ndocs: https://learn.microsoft.com/en-us/power-automate/web-api#authentication\nnotes: >-\n  The Power Automate Management API is accessed with the resource-level\n  \".default\" scope of the Power Automate service application\n  (https://service.flow.microsoft.com/.default). Effective permissions are\n  governed by the caller's Microsoft Entra ID roles and Power Platform\n  environment access, not by fine-grained per-operation OAuth scopes.\nschemes:\n- name: oauth2\n  source: openapi/microsoft-power-automate-management-api.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: Microsoft Entra ID (Azure AD) OAuth 2.0 authentication.\nscopes:\n- scope: https://service.flow.microsoft.com/.default\n  description: Access Power\
+  \ Automate Management API\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-power-automate-management-api.yaml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/scopes/microsoft-power-automate-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:

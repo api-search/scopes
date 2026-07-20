@@ -15,12 +15,12 @@ api_specs:
 authorization_urls:
 - https://canvas.instructure.com/login/oauth2/auth
 description: ''
-docs: ''
+docs: https://developerdocs.instructure.com/services/canvas/resources/api_token_scopes.md
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Canvas Lms Scopes
 name_suffix: OAuth Scopes
 note: ''
@@ -63,7 +63,8 @@ slug: canvas-lms-scopes
 source_filename: canvas-lms-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/canvas-lms-rest-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/canvas-lms-rest-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://canvas.instructure.com/login/oauth2/auth\n    tokenUrl: https://canvas.instructure.com/login/oauth2/token\n  description: Canvas OAuth2 (RFC 6749) authorization code grant. Register a Developer Key in\n    the target Canvas account to obtain a client_id and client_secret.\nscopes:\n- scope: url:GET|/api/v1/accounts\n  description: Read accounts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/canvas-lms-rest-api-openapi.yml\n- scope: url:GET|/api/v1/courses\n  description: Read courses\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/canvas-lms-rest-api-openapi.yml\n- scope: url:GET|/api/v1/users/{user_id}\n  description: Read a user\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/canvas-lms-rest-api-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/canvas-lms-rest-api-openapi.yml\ndocs: https://developerdocs.instructure.com/services/canvas/resources/api_token_scopes.md\nscope_format: \"url:{VERB}|{path}  e.g. url:GET|/api/v1/courses\"\nscope_notes: >-\n  Canvas scopes are per-endpoint and dynamic: each is url:VERB|/api/v1/<path>.\n  Developer keys are configured with the subset of scopes a token may request;\n  when a developer key is set to \"enforce scopes\", tokens are restricted to the\n  listed scopes. The full live list is enumerable via\n  GET /api/v1/accounts/:account_id/scopes (group_by=resource_name). The scopes\n  below are those the captured OpenAPI operations map to; the docs reference is\n  the authoritative, install-specific source.\nschemes:\n- name: OAuth2\n  source: openapi/canvas-lms-rest-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://canvas.instructure.com/login/oauth2/auth\n    tokenUrl: https://canvas.instructure.com/login/oauth2/token\n\
+  \  description: Canvas OAuth2 (RFC 6749) authorization code grant. Register a Developer Key in\n    the target Canvas account to obtain a client_id and client_secret.\nscopes:\n- scope: url:GET|/api/v1/accounts\n  description: Read accounts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/canvas-lms-rest-api-openapi.yml\n- scope: url:GET|/api/v1/courses\n  description: Read courses\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/canvas-lms-rest-api-openapi.yml\n- scope: url:GET|/api/v1/users/{user_id}\n  description: Read a user\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/canvas-lms-rest-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/scopes/canvas-lms-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
