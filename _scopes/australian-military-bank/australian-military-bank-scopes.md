@@ -1,35 +1,47 @@
 ---
 api_specs:
-- filename: australian-military-bank-cds-banking-products-openapi.yml
+- filename: australian-military-bank-banking-account-balances-api-openapi.yml
   format: yaml
-  label: Australian Military Bank CDR Product Reference Data API
-  slug: australian-military-bank-cdr-product-reference-data-api
+  label: Australian Military Bank Banking Account Balances API
+  slug: australian-military-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-cds-banking-products-openapi.yml
-- filename: australian-military-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-balances-api-openapi.yml
+- filename: australian-military-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
-  label: Australian Military Bank CDR Accounts & Balances API
-  slug: australian-military-bank-cdr-accounts-balances-api
+  label: Australian Military Bank Banking Account Direct Debits API
+  slug: australian-military-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-cds-banking-products-openapi.yml
-- filename: australian-military-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-direct-debits-api-openapi.yml
+- filename: australian-military-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
-  label: Australian Military Bank CDR Transactions API
-  slug: australian-military-bank-cdr-transactions-api
+  label: Australian Military Bank Banking Account Scheduled Payments API
+  slug: australian-military-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-cds-banking-products-openapi.yml
-- filename: australian-military-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-scheduled-payments-api-openapi.yml
+- filename: australian-military-bank-banking-account-transactions-api-openapi.yml
   format: yaml
-  label: Australian Military Bank CDR Direct Debits & Scheduled Payments API
-  slug: australian-military-bank-cdr-direct-debits-scheduled-payments-api
+  label: Australian Military Bank Banking Account Transactions API
+  slug: australian-military-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-cds-banking-products-openapi.yml
-- filename: australian-military-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-transactions-api-openapi.yml
+- filename: australian-military-bank-banking-accounts-api-openapi.yml
   format: yaml
-  label: Australian Military Bank CDR Payees API
-  slug: australian-military-bank-cdr-payees-api
+  label: Australian Military Bank Banking Accounts API
+  slug: australian-military-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-cds-banking-products-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-accounts-api-openapi.yml
+- filename: australian-military-bank-banking-payees-api-openapi.yml
+  format: yaml
+  label: Australian Military Bank Banking Payees API
+  slug: australian-military-bank-banking-payees-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-payees-api-openapi.yml
+- filename: australian-military-bank-banking-products-api-openapi.yml
+  format: yaml
+  label: Australian Military Bank Banking Products API
+  slug: australian-military-bank-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: OAuth2 authorization scopes for the consumer-authorized surface of Australian Military Bank's CDR (Consumer Data Right) Banking API. The bank declares no formal OpenAPI securitySchemes; scopes are published per-operation as `x-scopes` extensions in the Data Standards Body CDR Banking API (v1.36.0) that the bank implements as a registered ADI / CDR data holder. These scopes are granted only to CDR-accredited data recipients (ADRs) through the FAPI-profiled OAuth2/OIDC consent flow over mutual-TLS; the public Product Reference Data endpoints (listBankingProducts, getBankingProductDetail) require no scope and no auth.
 docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile

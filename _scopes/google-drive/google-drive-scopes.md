@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: google-drive-openapi.yml
+- filename: google-drive-files-api-openapi.yml
   format: yaml
-  label: Google Drive API v3
-  slug: google-drive-api-v3
+  label: Google Drive Files API
+  slug: google-drive-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/openapi/google-drive-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/openapi/google-drive-files-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: 'OAuth 2.0 scopes for the Google Drive API v3. The captured OpenAPI does not declare securitySchemes, so the derive pass yields nothing; these scopes were read from Google''s Drive API-specific authorization reference and grouped by Google''s sensitivity tier (non-sensitive / sensitive / restricted). Restricted scopes require a Google security assessment before production use. Authorization server: accounts.google.com (see well-known/google-drive-openid-configuration.json).'

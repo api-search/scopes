@@ -12,6 +12,24 @@ api_specs:
   slug: webhooks
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/asyncapi/razorpay-webhooks-asyncapi.yml
+- filename: razorpay-orders-api-openapi.yml
+  format: yaml
+  label: Razorpay Orders API
+  slug: razorpay-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-orders-api-openapi.yml
+- filename: razorpay-payments-api-openapi.yml
+  format: yaml
+  label: Razorpay Payments API
+  slug: razorpay-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-payments-api-openapi.yml
+- filename: razorpay-refunds-api-openapi.yml
+  format: yaml
+  label: Razorpay Refunds API
+  slug: razorpay-refunds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-refunds-api-openapi.yml
 authorization_urls: []
 description: Razorpay's OAuth 2.0 scopes. The core Razorpay API authenticates with HTTP Basic key_id/key_secret, not OAuth, so the OpenAPI securitySchemes carry no oauth2 scopes. OAuth is used by Razorpay Partners (technology partners / aggregators) to obtain access tokens acting on onboarded merchant accounts, and by the Razorpay MCP server. This is the searched fill capturing the partner OAuth scope surface. Multiple scopes are requested with array notation (scope[]=read_only&scope[]=rx_read_write).
 docs: https://razorpay.com/docs/partners/technology-partners/onboard-businesses/integrate-oauth/

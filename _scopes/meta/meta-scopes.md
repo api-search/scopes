@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: meta-openapi.yml
+- filename: meta-custom-audiences-api-openapi.yml
   format: yaml
-  label: Facebook Graph API - User
-  slug: facebook-graph-api-user
+  label: Meta Custom Audiences API
+  slug: meta-custom-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-custom-audiences-api-openapi.yml
+- filename: meta-pages-api-openapi.yml
+  format: yaml
+  label: Meta Pages API
+  slug: meta-pages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-pages-api-openapi.yml
+- filename: meta-users-api-openapi.yml
+  format: yaml
+  label: Meta Users API
+  slug: meta-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-users-api-openapi.yml
 authorization_urls:
 - https://www.facebook.com/v25.0/dialog/oauth
 description: Meta uses OAuth 2.0 "permissions" as its scope surface (Facebook Login / Graph API). The baseline (public_profile) was derived from openapi/meta-openapi.yml; the remaining entries are the canonical documented permissions from the Meta Permissions Reference (https://developers.facebook.com/docs/permissions). Most permissions require App Review before use in Production. This is a representative subset across the major products, not the full registry.

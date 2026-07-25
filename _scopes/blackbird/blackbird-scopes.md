@@ -1,11 +1,65 @@
 ---
 api_specs:
-- filename: blackbird-flynet-openapi-original.yml
+- filename: blackbird-app-api-openapi.yml
   format: yaml
-  label: Flynet API
-  slug: flynet-api
+  label: Blackbird App API
+  slug: blackbird-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-flynet-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-app-api-openapi.yml
+- filename: blackbird-challenges-api-openapi.yml
+  format: yaml
+  label: Blackbird Challenges API
+  slug: blackbird-challenges-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-challenges-api-openapi.yml
+- filename: blackbird-check-ins-api-openapi.yml
+  format: yaml
+  label: Blackbird Check-ins API
+  slug: blackbird-check-ins-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-check-ins-api-openapi.yml
+- filename: blackbird-locations-api-openapi.yml
+  format: yaml
+  label: Blackbird Locations API
+  slug: blackbird-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-locations-api-openapi.yml
+- filename: blackbird-memberships-api-openapi.yml
+  format: yaml
+  label: Blackbird Memberships API
+  slug: blackbird-memberships-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-memberships-api-openapi.yml
+- filename: blackbird-payments-api-openapi.yml
+  format: yaml
+  label: Blackbird Payments API
+  slug: blackbird-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-payments-api-openapi.yml
+- filename: blackbird-restaurants-api-openapi.yml
+  format: yaml
+  label: Blackbird Restaurants API
+  slug: blackbird-restaurants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-restaurants-api-openapi.yml
+- filename: blackbird-rewards-api-openapi.yml
+  format: yaml
+  label: Blackbird Rewards API
+  slug: blackbird-rewards-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-rewards-api-openapi.yml
+- filename: blackbird-specials-api-openapi.yml
+  format: yaml
+  label: Blackbird Specials API
+  slug: blackbird-specials-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-specials-api-openapi.yml
+- filename: blackbird-users-api-openapi.yml
+  format: yaml
+  label: Blackbird Users API
+  slug: blackbird-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-users-api-openapi.yml
 authorization_urls: []
 description: 'OAuth 2.0 scopes for the Flynet API. Flynet''s OAuth implementation follows the Token-Mediating Backend variant of OAuth 2.0 + PKCE (S256). Member routes are gated per-scope: a valid bearer that lacks the scope a route requires returns HTTP 403 insufficient_scope (in the WWW-Authenticate header for member routes, a JSON body for API-key Discovery routes). Scope names are exact-match; a token is granted exactly the scopes it requests. The scope-to-operation map below is derived from the per-operation 403 response descriptions in the OpenAPI and enriched from the docs OAuth reference. The spec models the bearer as an http/JWT scheme (oauthBearer), so this scope surface is documented rather than declared as an OpenAPI oauth2 flow object.'
 docs: https://docs.flynet.org/concepts/oauth

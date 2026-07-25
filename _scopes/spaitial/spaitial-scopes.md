@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: spaitial-developer-api-openapi.json
-  format: json
-  label: SpAItial Developer API
-  slug: spaitial-developer-api
+- filename: spaitial-files-api-openapi.yml
+  format: yaml
+  label: SpAItial files API
+  slug: spaitial-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-developer-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-files-api-openapi.yml
+- filename: spaitial-models-api-openapi.yml
+  format: yaml
+  label: SpAItial models API
+  slug: spaitial-models-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-models-api-openapi.yml
+- filename: spaitial-panoramas-api-openapi.yml
+  format: yaml
+  label: SpAItial panoramas API
+  slug: spaitial-panoramas-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-panoramas-api-openapi.yml
+- filename: spaitial-worlds-api-openapi.yml
+  format: yaml
+  label: SpAItial worlds API
+  slug: spaitial-worlds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spaitial/refs/heads/main/openapi/spaitial-worlds-api-openapi.yml
 authorization_urls: []
 description: SpAItial API keys carry an explicit scope set enforced server-side; calls outside the granted scopes return 403 FORBIDDEN. Scopes are attached to the bearer API key (not obtained via an OAuth 2.0 authorization-code flow), and the same scopes apply to the hosted MCP server. This is the documented scope-to-endpoint mapping, captured verbatim.
 docs: https://docs.spaitial.ai/api/llm-skills

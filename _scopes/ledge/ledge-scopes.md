@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ledge-api-openapi.yml
+- filename: ledge-sources-api-openapi.yml
   format: yaml
-  label: Ledge API
-  slug: ledge-api
+  label: Ledge Sources API
+  slug: ledge-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-sources-api-openapi.yml
+- filename: ledge-transactions-api-openapi.yml
+  format: yaml
+  label: Ledge Transactions API
+  slug: ledge-transactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/openapi/ledge-transactions-api-openapi.yml
 authorization_urls: []
 description: Ledge authorizes API calls with OAuth 2.0 client_credentials but publishes NO named OAuth scopes. The documented token request sends only grant_type, client_id, client_secret and audience — there is no scope parameter — and the token response returns access_token, token_type and expires_in with no scope claim. Authorization is instead enforced by a role-based fine-grained permissions model. The empty scopes[] below is a verified absence, not a gap in this capture.
 docs: https://docs.ledge.co/api-reference/fundamentals/fine-grained-permissions

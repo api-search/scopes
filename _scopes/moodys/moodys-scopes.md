@@ -1,19 +1,11 @@
 ---
 api_specs:
-- filename: generate-a-client-from-openapi-definition
-  format: yaml
-  label: Moody's KYC API
-  slug: moodys
-  spec_type: OpenAPI
-  url: 'https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/
-
-    https://www.kompany.com/kycapi/docs/resources/resources/customer-facing-documents/generate-a-client-from-openapi-definition'
-- filename: moodys-data-buffet-api-openapi.yml
+- filename: moodys-series-api-openapi.yml
   format: yaml
   label: Moody's Data Buffet API
   slug: data-buffet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-data-buffet-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-series-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://github.com/moodysanalytics/databuffet-api-codesamples/blob/master/dataBuffet-api-userguide.md
@@ -41,6 +33,24 @@ schemes:
     tokenUrl: https://api.economy.com/data/v1/oauth2/token
   name: oauth2
   source: openapi/moodys-data-buffet-api-openapi.yml
+- description: OAuth2 Client Credentials (Scenario Studio API) — empty scopes map.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.economy.com/scenario-studio/v2/oauth2/token
+  name: oauth2
+  source: openapi/moodys-scenario-studio-api-swagger.json
+- description: OAuth2 Client Credentials (AutoCycle API) — empty scopes map.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.economy.com/autocycle/v1/oauth2/token
+  name: oauth2
+  source: openapi/moodys-autocycle-api-swagger.json
+- description: OAuth2 Client Credentials (Muni Loss Forecast API) — empty scopes map.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.economy.com/muni/v1/oauth2/token
+  name: oauth2
+  source: openapi/moodys-municipal-api-swagger.json
 scope_count: 0
 scope_names: []
 scopes: []
@@ -48,7 +58,8 @@ slug: moodys-scopes
 source_filename: moodys-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/moodys-data-buffet-api-openapi.yml\ndocs: https://github.com/moodysanalytics/databuffet-api-codesamples/blob/master/dataBuffet-api-userguide.md\nnote: Moody's APIs do not use OAuth scopes — the Data Buffet API user guide (https://github.com/moodysanalytics/databuffet-api-codesamples/blob/master/dataBuffet-api-userguide.md)\n  documents an OAuth2 client_credentials flow with access/encryption keys and no scope\n  parameter, and permissions across Moody's products are tied to account entitlements\n  and roles rather than scopes.\nschemes:\n- name: oauth2\n  source: openapi/moodys-data-buffet-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/data/v1/oauth2/token\n  description: OAuth2 client credentials flow for authenticating API requests. Obtain client_id\n    and client_secret from your Moody's Analytics account.\nscopes: []\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/moodys-data-buffet-api-openapi.yml\ndocs: https://github.com/moodysanalytics/databuffet-api-codesamples/blob/master/dataBuffet-api-userguide.md\nnote: Moody's APIs do not use OAuth scopes — the Data Buffet API user guide (https://github.com/moodysanalytics/databuffet-api-codesamples/blob/master/dataBuffet-api-userguide.md)\n  documents an OAuth2 client_credentials flow with access/encryption keys and no scope\n  parameter, and permissions across Moody's products are tied to account entitlements\n  and roles rather than scopes.\nschemes:\n- name: oauth2\n  source: openapi/moodys-data-buffet-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/data/v1/oauth2/token\n  description: OAuth2 client credentials flow for authenticating API requests. Obtain client_id\n    and client_secret from your Moody's Analytics account.\n- name: oauth2\n  source: openapi/moodys-scenario-studio-api-swagger.json\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/scenario-studio/v2/oauth2/token\n  description: OAuth2 Client Credentials (Scenario Studio API) — empty scopes map.\n- name: oauth2\n  source: openapi/moodys-autocycle-api-swagger.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/autocycle/v1/oauth2/token\n  description: OAuth2 Client Credentials (AutoCycle API) — empty scopes map.\n- name: oauth2\n  source: openapi/moodys-municipal-api-swagger.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/muni/v1/oauth2/token\n  description: OAuth2 Client Credentials (Muni Loss Forecast API) — empty scopes map.\nscopes: []\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/scopes/moodys-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
@@ -64,4 +75,7 @@ tags:
 - Screening
 token_urls:
 - https://api.economy.com/data/v1/oauth2/token
+- https://api.economy.com/scenario-studio/v2/oauth2/token
+- https://api.economy.com/autocycle/v1/oauth2/token
+- https://api.economy.com/muni/v1/oauth2/token
 ---

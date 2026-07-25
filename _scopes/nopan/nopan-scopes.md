@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: nopan-openapi-original.yml
+- filename: nopan-authentication-apis-api-openapi.yml
   format: yaml
-  label: Nopan API
-  slug: nopan-api
+  label: Nopan Authentication APIs API
+  slug: nopan-authentication-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-openapi-original.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-authentication-apis-api-openapi.yml
+- filename: nopan-payment-processing-apis-api-openapi.yml
+  format: yaml
+  label: Nopan Payment Processing APIs API
+  slug: nopan-payment-processing-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-payment-processing-apis-api-openapi.yml
+- filename: nopan-reporting-apis-api-openapi.yml
+  format: yaml
+  label: Nopan Reporting APIs API
+  slug: nopan-reporting-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-reporting-apis-api-openapi.yml
+- filename: nopan-testing-apis-api-openapi.yml
+  format: yaml
+  label: Nopan Testing APIs API
+  slug: nopan-testing-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-testing-apis-api-openapi.yml
+- filename: nopan-webhooks-api-openapi.yml
+  format: yaml
+  label: Nopan Webhooks API
+  slug: nopan-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nopan/refs/heads/main/openapi/nopan-webhooks-api-openapi.yml
 authorization_urls: []
 description: OAuth2 client_credentials scopes for the Nopan API. Scopes are requested as a space-delimited `scope` form parameter on POST /auth/token; the default is payments:read. Captured from the /auth/token operation in the OpenAPI definition.
 docs: https://docs.nopan.com/guides/authentication
