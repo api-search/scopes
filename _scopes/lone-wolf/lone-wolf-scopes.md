@@ -1,0 +1,152 @@
+---
+api_specs:
+- filename: lone-wolf-transact-api-openapi.yml
+  format: yaml
+  label: Lone Wolf Transact API
+  slug: lone-wolf-transact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-transact-api-openapi.yml
+- filename: lone-wolf-deals-api-openapi.yml
+  format: yaml
+  label: Lone Wolf Deals API
+  slug: lone-wolf-deals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-deals-api-openapi.yml
+- filename: lone-wolf-back-office-online-api-openapi.yml
+  format: yaml
+  label: Lone Wolf Back Office API
+  slug: lone-wolf-back-office-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-back-office-online-api-openapi.yml
+- filename: lone-wolf-authentisign-api-openapi.yml
+  format: yaml
+  label: Lone Wolf Authentisign API
+  slug: lone-wolf-authentisign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-authentisign-api-openapi.yml
+- filename: lone-wolf-transactiondesk-api-openapi.yml
+  format: yaml
+  label: Lone Wolf TransactionDesk Partner API
+  slug: lone-wolf-transactiondesk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-transactiondesk-api-openapi.yml
+- filename: lone-wolf-zipform-api-openapi.yml
+  format: yaml
+  label: Lone Wolf zipForm Partner API
+  slug: lone-wolf-zipform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-zipform-api-openapi.yml
+- filename: lone-wolf-wolfconnect-api-openapi.yml
+  format: yaml
+  label: Lone Wolf WolfConnect API
+  slug: lone-wolf-wolfconnect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/openapi/lone-wolf-wolfconnect-api-openapi.yml
+authorization_urls: []
+description: ''
+docs: https://apidocs.lwolf.com/doc/transact-api.md#authentication
+flows: []
+kind: oauth-scopes
+layout: scope
+method: searched
+name: Lone Wolf Scopes
+name_suffix: OAuth Scopes
+note: ''
+overview: 'Lone Wolf Technologies publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Lone Wolf Technologies API on a user''s behalf.
+
+
+  This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
+provider_name: Lone Wolf Technologies
+provider_slug: lone-wolf
+schemes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- offline_access
+- name
+- given_name
+- family_name
+- nickname
+- email
+- email_verified
+- picture
+- created_at
+- identities
+- phone
+- address
+scopes:
+- description: Request an ID token (OIDC).
+  flows: []
+  scope: openid
+- description: Basic profile claims.
+  flows: []
+  scope: profile
+- description: Issue a refresh token.
+  flows: []
+  scope: offline_access
+- description: name claim.
+  flows: []
+  scope: name
+- description: given_name claim.
+  flows: []
+  scope: given_name
+- description: family_name claim.
+  flows: []
+  scope: family_name
+- description: nickname claim.
+  flows: []
+  scope: nickname
+- description: email claim.
+  flows: []
+  scope: email
+- description: email_verified claim.
+  flows: []
+  scope: email_verified
+- description: picture claim.
+  flows: []
+  scope: picture
+- description: created_at claim.
+  flows: []
+  scope: created_at
+- description: Linked identity records.
+  flows: []
+  scope: identities
+- description: phone_number claim.
+  flows: []
+  scope: phone
+- description: address claim.
+  flows: []
+  scope: address
+slug: lone-wolf-scopes
+source_filename: lone-wolf-scopes.yml
+source_heading: OAuth Scopes
+source_url: ''
+source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://gateway.lwolf.com/.well-known/openid-configuration\ndocs: https://apidocs.lwolf.com/doc/transact-api.md#authentication\nsummary: >-\n  None of Lone Wolf's seven OpenAPI definitions declares an oauth2 securityScheme, so no scopes\n  are derivable from the specs (derive-oauth-scopes.py found zero). The real OAuth surface is\n  published one layer below the specs: the Lone Wolf identity gateway at gateway.lwolf.com is\n  an Auth0 tenant whose OIDC discovery document advertises a scope set. Those scopes are the\n  standard OIDC identity scopes — Lone Wolf publishes NO API-permission scopes (nothing of the\n  form transactions:read, deals:write). Authorization for the product APIs is carried by the\n  lw-subscription-key, the client GUID (lwt_client_id) and account-level permissions granted\n  by the integrations team, not by OAuth scope.\nauthorization_server:\n  issuer: https://gateway.lwolf.com/\n  platform: Auth0\n \
+  \ authorization_endpoint: https://gateway.lwolf.com/authorize\n  token_endpoint: https://gateway.lwolf.com/oauth/token\n  device_authorization_endpoint: https://gateway.lwolf.com/oauth/device/code\n  userinfo_endpoint: https://gateway.lwolf.com/userinfo\n  revocation_endpoint: https://gateway.lwolf.com/oauth/revoke\n  registration_endpoint: https://gateway.lwolf.com/oidc/register\n  jwks_uri: https://gateway.lwolf.com/.well-known/jwks.json\n  backchannel_authentication_endpoint: https://gateway.lwolf.com/bc-authorize\n  pkce: [S256, plain]\n  dpop_signing_alg_values_supported: [ES256]\n  token_endpoint_auth_methods_supported: [client_secret_basic, client_secret_post, private_key_jwt, none]\n  grant_types_supported:\n    - client_credentials\n    - authorization_code\n    - refresh_token\n    - password\n    - implicit\n    - 'urn:ietf:params:oauth:grant-type:device_code'\n    - 'urn:ietf:params:oauth:grant-type:token-exchange'\n    - 'urn:ietf:params:oauth:grant-type:jwt-bearer'\n  audience_used_by_lone_wolf:\
+  \ https://api.lwolf.com\n  well_known: well-known/lone-wolf-openid-configuration.json\nscopes:\n  - scope: openid\n    description: Request an ID token (OIDC).\n    kind: oidc\n  - scope: profile\n    description: Basic profile claims.\n    kind: oidc\n  - scope: offline_access\n    description: Issue a refresh token.\n    kind: oidc\n  - scope: name\n    description: name claim.\n    kind: oidc\n  - scope: given_name\n    description: given_name claim.\n    kind: oidc\n  - scope: family_name\n    description: family_name claim.\n    kind: oidc\n  - scope: nickname\n    description: nickname claim.\n    kind: oidc\n  - scope: email\n    description: email claim.\n    kind: oidc\n  - scope: email_verified\n    description: email_verified claim.\n    kind: oidc\n  - scope: picture\n    description: picture claim.\n    kind: oidc\n  - scope: created_at\n    description: created_at claim.\n    kind: oidc\n  - scope: identities\n    description: Linked identity records.\n    kind: oidc\n  -\
+  \ scope: phone\n    description: phone_number claim.\n    kind: oidc\n  - scope: address\n    description: address claim.\n    kind: oidc\napi_permission_scopes:\n  published: false\n  note: >-\n    No resource scopes are published. The Transact API's documented token request sends\n    grant_type=client_credentials with an audience and a client GUID and no scope parameter at\n    all; per-tenant and per-resource authorization is enforced by the subscription key and by\n    account permissions (WolfConnect documents a Permissions section describing what an API\n    account may see). An agent cannot request least-privilege access to a Lone Wolf API,\n    because least privilege is not expressible in the published contract.\nother_authorization_servers:\n  - api: TransactionDesk Partner API\n    authorize: https://api.pre.transactiondesk.com/oauth/authorize\n    token: POST /oauth/token\n    flows: [authorization_code, client_credentials]\n    scopes_published: false\n    note: >-\n    \
+  \  A separate OAuth surface from gateway.lwolf.com, documented only against the\n      preproduction host. The authorization-code flow uses a one-time code with a 10-minute\n      expiry; client_credentials requires an On-Behalf-Of header carrying the target user GUID.\n  - api: Deals API\n    token: https://authentication.api.lwolf.com/v1/login\n    flows: [password-style login returning a JWT]\n    scopes_published: false\n    note: Not an OAuth 2.0 server — a bespoke login endpoint returning {token, expiresIn}.\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/scopes/lone-wolf-scopes.yml
+summary_line: 14 scopes
+tags:
+- Real Estate
+- United States
+- PropTech
+- Transactions
+- Transaction Management
+- Brokerage Back Office
+- Real Estate Accounting
+- Commissions
+- Forms
+- zipForm
+- TransactionDesk
+- E-Signature
+- CMA
+- Valuation
+- CRM
+- MLS
+- Real Estate Agents
+- Brokers
+token_urls: []
+---
