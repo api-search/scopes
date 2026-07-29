@@ -28,13 +28,5 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/makerme/refs/h
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Website Builder
-- No-Code
-- Content Generation
-- Design
-- Ecommerce
-- MCP
-- Agents
 token_urls: []
 ---

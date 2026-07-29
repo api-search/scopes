@@ -1,17 +1,4 @@
 ---
-api_specs:
-- filename: nas-academy-ai-discovery-api-openapi.yml
-  format: yaml
-  label: Nas.com (Nas Academy) AI discovery API
-  slug: nas-academy-ai-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-ai-discovery-api-openapi.yml
-- filename: nas-academy-developer-discovery-api-openapi.yml
-  format: yaml
-  label: Nas.com (Nas Academy) Developer discovery API
-  slug: nas-academy-developer-discovery-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-developer-discovery-api-openapi.yml
 authorization_urls:
 - https://auth.nas.com/oauth/authorize
 description: ''
@@ -24,14 +11,14 @@ method: searched
 name: Nas Academy Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Nas.com (Nas Academy) publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Nas.com (Nas Academy) API on a user''s behalf.
+overview: 'Nas Academy publishes 6 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Nas Academy API on a user''s behalf.
 
 
   Tokens are issued from https://auth.nas.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: Nas.com (Nas Academy)
+provider_name: Nas Academy
 provider_slug: nas-academy
 schemes:
 - flows:
@@ -85,14 +72,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nas-academy/re
 summary_line: 6 scopes · authorizationCode
 tags:
 - Company
-- Creator Economy
-- Community
-- E-commerce
-- AI
-- Agents
-- MCP
-- Online Courses
-- Sellers
 token_urls:
 - https://auth.nas.com/oauth/token
 ---
