@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: jane-app-jdp-openapi.yml
+  format: yaml
+  label: Jane JDP API
+  slug: jane-app-jdp-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/openapi/jane-app-jdp-openapi.yml
 authorization_urls:
 - https://login.id.janeapp.com/realms/jane_partner_sandbox/protocol/openid-connect/auth?response_type=code&resource=https://jdpdocsdemo.jane.qa&prompt=consent
 description: ''
