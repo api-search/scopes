@@ -55,7 +55,27 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token
   name: OAuth2ClientCredentials
-  source: openapi/verizon-thingspace-connectivity-openapi.yml
+  source: openapi/verizon-accounts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token
+  name: OAuth2ClientCredentials
+  source: openapi/verizon-callbacks-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token
+  name: OAuth2ClientCredentials
+  source: openapi/verizon-devices-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token
+  name: OAuth2ClientCredentials
+  source: openapi/verizon-session-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token
+  name: OAuth2ClientCredentials
+  source: openapi/verizon-sms-api-openapi.yml
 scope_count: 3
 scope_names:
 - DISCOVERYREAD
@@ -78,7 +98,9 @@ slug: verizon-scopes
 source_filename: verizon-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/verizon-thingspace-connectivity-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-thingspace-connectivity-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token\nscopes:\n- scope: DISCOVERYREAD\n  description: Read discovery information\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/verizon-thingspace-connectivity-openapi.yml\n- scope: EVENTSREAD\n  description: Read device events\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/verizon-thingspace-connectivity-openapi.yml\n- scope: SERVICEPROFILEREAD\n  description: Read service profiles\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/verizon-thingspace-connectivity-openapi.yml\n"
+source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/verizon-accounts-api-openapi.yml, openapi/verizon-callbacks-api-openapi.yml,\n  openapi/verizon-devices-api-openapi.yml, openapi/verizon-session-api-openapi.yml, openapi/verizon-sms-api-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-callbacks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-devices-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-session-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
+  \ https://thingspace.verizon.com/api/m2m/v2/session/token\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-sms-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token\nscopes:\n- scope: DISCOVERYREAD\n  description: Read discovery information\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/verizon-accounts-api-openapi.yml\n  - openapi/verizon-callbacks-api-openapi.yml\n  - openapi/verizon-devices-api-openapi.yml\n  - openapi/verizon-session-api-openapi.yml\n  - openapi/verizon-sms-api-openapi.yml\n- scope: EVENTSREAD\n  description: Read device events\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/verizon-accounts-api-openapi.yml\n  - openapi/verizon-callbacks-api-openapi.yml\n  - openapi/verizon-devices-api-openapi.yml\n  - openapi/verizon-session-api-openapi.yml\n  - openapi/verizon-sms-api-openapi.yml\n- scope: SERVICEPROFILEREAD\n  description: Read service profiles\n  flows:\n  -\
+  \ clientCredentials\n  sources:\n  - openapi/verizon-accounts-api-openapi.yml\n  - openapi/verizon-callbacks-api-openapi.yml\n  - openapi/verizon-devices-api-openapi.yml\n  - openapi/verizon-session-api-openapi.yml\n  - openapi/verizon-sms-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/scopes/verizon-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
