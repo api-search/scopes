@@ -48,6 +48,7 @@ tags:
 - Marketing
 - Artificial Intelligence
 - Content Generation
+- Design
 - Video
 - Social Media
 - Developer Tools

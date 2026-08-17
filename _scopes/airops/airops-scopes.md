@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: airops-api-openapi.yml
+  format: yaml
+  label: AirOps API
+  slug: airops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/openapi/airops-api-openapi.yml
 authorization_urls:
 - https://app.airops.com/oauth/authorize
 description: ''
@@ -72,6 +79,11 @@ tags:
 - Workflows
 - MCP
 - Analytics
+- Agent Skills
+- OpenAPI
+- Knowledge Base
+- Content Marketing
+- Citations
 token_urls:
 - https://app.airops.com/oauth/token
 ---

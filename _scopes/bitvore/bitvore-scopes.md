@@ -139,17 +139,17 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.bitvore.com/oauth/accesstoken
   name: OAuth
-  source: openapi/bitvore-corporate-openapi.yml
+  source: openapi/_original/bitvore-corporate-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api.bitvore.com/oauth/accesstoken
   name: OAuth
-  source: openapi/bitvore-legacy-openapi.yml
+  source: openapi/_original/bitvore-legacy-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api.bitvore.com/oauth/accesstoken
   name: OAuth
-  source: openapi/bitvore-muni-openapi.yml
+  source: openapi/_original/bitvore-muni-openapi.yml
 scope_count: 1
 scope_names:
 - Global
@@ -162,7 +162,7 @@ slug: bitvore-scopes
 source_filename: bitvore-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-08-07'\nmethod: derived\nsource: openapi/bitvore-corporate-openapi.yml, openapi/bitvore-legacy-openapi.yml, openapi/bitvore-muni-openapi.yml\nschemes:\n- name: OAuth\n  source: openapi/bitvore-corporate-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\n- name: OAuth\n  source: openapi/bitvore-legacy-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\n- name: OAuth\n  source: openapi/bitvore-muni-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\nscopes:\n- scope: Global\n  description: Includes all Bitvore APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bitvore-corporate-openapi.yml\n  - openapi/bitvore-legacy-openapi.yml\n  - openapi/bitvore-muni-openapi.yml\n"
+source_yaml: "generated: '2026-08-07'\nmethod: derived\nsource: openapi/_original/bitvore-corporate-openapi.yml, openapi/_original/bitvore-legacy-openapi.yml, openapi/_original/bitvore-muni-openapi.yml\nschemes:\n- name: OAuth\n  source: openapi/_original/bitvore-corporate-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\n- name: OAuth\n  source: openapi/_original/bitvore-legacy-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\n- name: OAuth\n  source: openapi/_original/bitvore-muni-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\nscopes:\n- scope: Global\n  description: Includes all Bitvore APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/_original/bitvore-corporate-openapi.yml\n  - openapi/_original/bitvore-legacy-openapi.yml\n  - openapi/_original/bitvore-muni-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/scopes/bitvore-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:

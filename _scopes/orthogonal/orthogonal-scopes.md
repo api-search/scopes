@@ -18,6 +18,12 @@ api_specs:
   slug: orthogonal-run-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/openapi/orthogonal-run-api-openapi.yml
+- filename: orthogonal-marketplace-openapi.json
+  format: json
+  label: Orthogonal API Marketplace
+  slug: orthogonal-marketplace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/openapi/_original/orthogonal-marketplace-openapi.json
 authorization_urls: []
 description: OAuth 2.0 scopes advertised by Orthogonal's authorization server metadata (issuer clerk.orthogonal.com). These govern the hosted MCP OAuth flow; the REST API itself uses opaque API keys with no scope model. Scopes below are the Clerk scoped-access set exposed for api.orthogonal.com.
 docs: https://clerk.com/docs/oauth/scoped-access

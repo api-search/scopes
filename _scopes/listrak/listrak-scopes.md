@@ -318,18 +318,36 @@ api_specs:
   slug: listrak-transactionalmessageresend-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-transactionalmessageresend-api-openapi.yml
+- filename: listrak-media-directories-api-openapi.yml
+  format: yaml
+  label: Listrak Media Directories API
+  slug: listrak-media-directories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-directories-api-openapi.yml
+- filename: listrak-media-files-api-openapi.yml
+  format: yaml
+  label: Listrak Media Files API
+  slug: listrak-media-files-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-files-api-openapi.yml
+- filename: listrak-media-fonts-api-openapi.yml
+  format: yaml
+  label: Listrak Media Fonts API
+  slug: listrak-media-fonts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-media-fonts-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: ''
+docs: https://api.listrak.com/email
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Listrak Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Listrak publishes 6 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Listrak API on a user''s behalf.
+overview: 'Listrak publishes 10 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Listrak API on a user''s behalf.
 
 
   Tokens are issued from https://auth.listrak.com/OAuth2/Token.
@@ -343,23 +361,13 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://auth.listrak.com/OAuth2/Token
   name: OAuth2
-  source: openapi/listrak-data-openapi.yml
-- flows:
-  - flow: clientCredentials
-    tokenUrl: https://auth.listrak.com/OAuth2/Token
-  name: OAuth2
-  source: openapi/listrak-email-openapi.yml
-- flows:
-  - flow: clientCredentials
-    tokenUrl: https://auth.listrak.com/OAuth2/Token
-  name: OAuth2
-  source: openapi/listrak-privacy-openapi.yml
-- flows:
-  - flow: clientCredentials
-    tokenUrl: https://auth.listrak.com/OAuth2/Token
-  name: OAuth2
-  source: openapi/listrak-sms-openapi.yml
-scope_count: 6
+  sources:
+  - openapi/_original/listrak-email-openapi.json
+  - openapi/_original/listrak-sms-openapi.json
+  - openapi/_original/listrak-data-openapi.json
+  - openapi/_original/listrak-privacy-openapi.json
+  type: oauth2
+scope_count: 10
 scope_names:
 - Contact
 - Event
@@ -367,39 +375,62 @@ scope_names:
 - Message
 - Report
 - Segmentation
+- Customer
+- Order
+- Product
+- Review
 scopes:
-- description: Contact access
+- description: Contact access - read, create, update, subscribe and unsubscribe contacts on a list.
   flows:
   - clientCredentials
   scope: Contact
-- description: Event access
+- description: Event access - contact events used to drive triggered/behavioral sends.
   flows:
   - clientCredentials
   scope: Event
-- description: List access
+- description: List access - lists, folders, IP pools, imports and the resources scoped under a list.
   flows:
   - clientCredentials
   scope: List
-- description: Message access
+- description: Message access - messages, saved messages, content, campaigns, split tests and sends.
   flows:
   - clientCredentials
   scope: Message
-- description: Report access
+- description: Report access - message activity, link clickers, summaries and other reporting reads.
   flows:
   - clientCredentials
   scope: Report
-- description: Segmentation access
+- description: Segmentation access - profile (segmentation) fields, field groups and field values.
   flows:
   - clientCredentials
   scope: Segmentation
+- description: Customer access - import retail customer records.
+  flows:
+  - clientCredentials
+  scope: Customer
+- description: Order access - import retail order records.
+  flows:
+  - clientCredentials
+  scope: Order
+- description: Product access - import retail product catalog records.
+  flows:
+  - clientCredentials
+  scope: Product
+- description: Review access - import product reviews and rating summaries.
+  flows:
+  - clientCredentials
+  scope: Review
 slug: listrak-scopes
 source_filename: listrak-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/listrak-data-openapi.yml, openapi/listrak-email-openapi.yml, openapi/listrak-privacy-openapi.yml,\n  openapi/listrak-sms-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/listrak-data-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.listrak.com/OAuth2/Token\n- name: OAuth2\n  source: openapi/listrak-email-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.listrak.com/OAuth2/Token\n- name: OAuth2\n  source: openapi/listrak-privacy-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.listrak.com/OAuth2/Token\n- name: OAuth2\n  source: openapi/listrak-sms-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.listrak.com/OAuth2/Token\nscopes:\n- scope: Contact\n  description: Contact access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/listrak-email-openapi.yml\n- scope: Event\n  description: Event\
-  \ access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/listrak-email-openapi.yml\n- scope: List\n  description: List access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/listrak-email-openapi.yml\n- scope: Message\n  description: Message access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/listrak-email-openapi.yml\n- scope: Report\n  description: Report access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/listrak-email-openapi.yml\n- scope: Segmentation\n  description: Segmentation access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/listrak-email-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api.listrak.com/email/swagger/docs/v1\ndocs: https://api.listrak.com/email\nnotes: >-\n  Listrak declares one OAuth 2.0 client_credentials scheme per API, all issuing from\n  https://auth.listrak.com/OAuth2/Token. Only the Email REST API publishes a populated `scopes` map\n  in its securityDefinitions; the Data Import API declares an empty scopes map but its operations\n  still carry per-operation scope requirements, so the Data scopes below were read from the\n  operation-level `security` requirements rather than the flow map. The SMS and Privacy APIs declare\n  the same OAuth2 scheme with an empty scopes map and their operations request no named scope - for\n  those APIs access is governed by the Integration's configured access level rather than by a scope\n  string. The Media API's 403 condition names a `Media` role on the token, which is the same\n  permission concept expressed as a role claim rather than an OAuth\
+  \ scope.\n  In Listrak's model a \"scope\" maps to the permission checkboxes on the Integration in the Listrak\n  application; a token can only carry scopes the Integration was granted.\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.listrak.com/OAuth2/Token\n  sources:\n  - openapi/_original/listrak-email-openapi.json\n  - openapi/_original/listrak-sms-openapi.json\n  - openapi/_original/listrak-data-openapi.json\n  - openapi/_original/listrak-privacy-openapi.json\nscopes:\n- scope: Contact\n  description: Contact access - read, create, update, subscribe and unsubscribe contacts on a list.\n  api: Email REST API\n  flows: [clientCredentials]\n  operation_count: 6\n  sources: [openapi/_original/listrak-email-openapi.json]\n- scope: Event\n  description: Event access - contact events used to drive triggered/behavioral sends.\n  api: Email REST API\n  flows: [clientCredentials]\n  operation_count: 9\n  sources: [openapi/_original/listrak-email-openapi.json]\n\
+  - scope: List\n  description: List access - lists, folders, IP pools, imports and the resources scoped under a list.\n  api: Email REST API\n  flows: [clientCredentials]\n  operation_count: 73\n  sources: [openapi/_original/listrak-email-openapi.json]\n- scope: Message\n  description: Message access - messages, saved messages, content, campaigns, split tests and sends.\n  api: Email REST API\n  flows: [clientCredentials]\n  operation_count: 39\n  sources: [openapi/_original/listrak-email-openapi.json]\n- scope: Report\n  description: Report access - message activity, link clickers, summaries and other reporting reads.\n  api: Email REST API\n  flows: [clientCredentials]\n  operation_count: 16\n  sources: [openapi/_original/listrak-email-openapi.json]\n- scope: Segmentation\n  description: Segmentation access - profile (segmentation) fields, field groups and field values.\n  api: Email REST API\n  flows: [clientCredentials]\n  operation_count: 11\n  sources: [openapi/_original/listrak-email-openapi.json]\n\
+  - scope: Customer\n  description: Customer access - import retail customer records.\n  api: Data Import REST API\n  flows: [clientCredentials]\n  operation_count: 1\n  sources: [openapi/_original/listrak-data-openapi.json]\n- scope: Order\n  description: Order access - import retail order records.\n  api: Data Import REST API\n  flows: [clientCredentials]\n  operation_count: 1\n  sources: [openapi/_original/listrak-data-openapi.json]\n- scope: Product\n  description: Product access - import retail product catalog records.\n  api: Data Import REST API\n  flows: [clientCredentials]\n  operation_count: 1\n  sources: [openapi/_original/listrak-data-openapi.json]\n- scope: Review\n  description: Review access - import product reviews and rating summaries.\n  api: Data Import REST API\n  flows: [clientCredentials]\n  operation_count: 2\n  sources: [openapi/_original/listrak-data-openapi.json]\nrole_claims:\n- name: Media\n  description: >-\n    Not an OAuth scope. The Media REST API checks for\
+  \ a `Media` role on the bearer token plus\n    `CompanyID` / `MasterAdminID` claims; a token without them fails 403 ERROR_FORBIDDEN.\n  api: Media REST API\n  sources: [openapi/_original/listrak-media-openapi.json]\nunscoped_apis:\n- api: SMS REST API\n  note: OAuth2 declared with an empty scopes map; no operation requests a named scope.\n- api: Privacy REST API\n  note: OAuth2 declared with an empty scopes map; no operation requests a named scope.\n- api: Cross Channel REST API\n  note: Fronted by an AWS API Gateway custom authorizer; no scopes published.\n- api: Two-Way SMS Conversation API\n  note: Fronted by an AWS API Gateway custom authorizer; no scopes published.\n- api: Mobile App Push API\n  note: Uses an `x-api-key` device key, not OAuth; no scopes.\ncross_links:\n  authentication: authentication/listrak-authentication.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/scopes/listrak-scopes.yml
-summary_line: 6 scopes · clientCredentials
+summary_line: 10 scopes · clientCredentials
 tags:
 - Email Marketing
 - SMS Marketing
@@ -409,6 +440,14 @@ tags:
 - Push Notifications
 - Data Import
 - Privacy
+- Ecommerce
+- Customer Data
+- Transactional Messaging
+- Segmentation
+- Product Reviews
+- Media Management
+- Two-Way SMS
+- RCS
 token_urls:
 - https://auth.listrak.com/OAuth2/Token
 ---

@@ -58,7 +58,35 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://www.linkedin.com/oauth/v2/accessToken
   name: oauth2
-  source: openapi/microsoft-linkedin-openapi.yml
+  source: openapi/microsoft-linkedin-adaccounts-api-openapi.yml
+- description: LinkedIn OAuth 2.0 (3-legged or 2-legged)
+  flows:
+  - authorizationUrl: https://www.linkedin.com/oauth/v2/authorization
+    flow: authorizationCode
+    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken
+  name: oauth2
+  source: openapi/microsoft-linkedin-adaccountusers-api-openapi.yml
+- description: LinkedIn OAuth 2.0 (3-legged or 2-legged)
+  flows:
+  - authorizationUrl: https://www.linkedin.com/oauth/v2/authorization
+    flow: authorizationCode
+    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken
+  name: oauth2
+  source: openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml
+- description: LinkedIn OAuth 2.0 (3-legged or 2-legged)
+  flows:
+  - authorizationUrl: https://www.linkedin.com/oauth/v2/authorization
+    flow: authorizationCode
+    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken
+  name: oauth2
+  source: openapi/microsoft-linkedin-adcampaigns-api-openapi.yml
+- description: LinkedIn OAuth 2.0 (3-legged or 2-legged)
+  flows:
+  - authorizationUrl: https://www.linkedin.com/oauth/v2/authorization
+    flow: authorizationCode
+    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken
+  name: oauth2
+  source: openapi/microsoft-linkedin-adcreatives-api-openapi.yml
 scope_count: 5
 scope_names:
 - r_ads
@@ -91,8 +119,10 @@ slug: microsoft-linkedin-scopes
 source_filename: microsoft-linkedin-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-linkedin-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-linkedin-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.linkedin.com/oauth/v2/authorization\n    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken\n  description: LinkedIn OAuth 2.0 (3-legged or 2-legged)\nscopes:\n- scope: r_ads\n  description: Read LinkedIn ads data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-linkedin-openapi.yml\n- scope: r_ads_reporting\n  description: Read LinkedIn ads reporting\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-linkedin-openapi.yml\n- scope: r_organization_social\n  description: Read organization social actions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-linkedin-openapi.yml\n- scope: rw_ads\n  description: Read and write LinkedIn ads data\n  flows:\n  - authorizationCode\n  sources:\n\
-  \  - openapi/microsoft-linkedin-openapi.yml\n- scope: w_organization_social\n  description: Write organization social actions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-linkedin-openapi.yml\n"
+source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/microsoft-linkedin-adaccounts-api-openapi.yml, openapi/microsoft-linkedin-adaccountusers-api-openapi.yml,\n  openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml, openapi/microsoft-linkedin-adcampaigns-api-openapi.yml,\n  openapi/microsoft-linkedin-adcreatives-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-linkedin-adaccounts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.linkedin.com/oauth/v2/authorization\n    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken\n  description: LinkedIn OAuth 2.0 (3-legged or 2-legged)\n- name: oauth2\n  source: openapi/microsoft-linkedin-adaccountusers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.linkedin.com/oauth/v2/authorization\n    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken\n  description: LinkedIn OAuth 2.0 (3-legged or 2-legged)\n- name: oauth2\n\
+  \  source: openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.linkedin.com/oauth/v2/authorization\n    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken\n  description: LinkedIn OAuth 2.0 (3-legged or 2-legged)\n- name: oauth2\n  source: openapi/microsoft-linkedin-adcampaigns-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.linkedin.com/oauth/v2/authorization\n    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken\n  description: LinkedIn OAuth 2.0 (3-legged or 2-legged)\n- name: oauth2\n  source: openapi/microsoft-linkedin-adcreatives-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.linkedin.com/oauth/v2/authorization\n    tokenUrl: https://www.linkedin.com/oauth/v2/accessToken\n  description: LinkedIn OAuth 2.0 (3-legged or 2-legged)\nscopes:\n- scope: r_ads\n  description: Read LinkedIn ads data\n  flows:\n  -\
+  \ authorizationCode\n  sources:\n  - openapi/microsoft-linkedin-adaccounts-api-openapi.yml\n  - openapi/microsoft-linkedin-adaccountusers-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigns-api-openapi.yml\n  - openapi/microsoft-linkedin-adcreatives-api-openapi.yml\n- scope: r_ads_reporting\n  description: Read LinkedIn ads reporting\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-linkedin-adaccounts-api-openapi.yml\n  - openapi/microsoft-linkedin-adaccountusers-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigns-api-openapi.yml\n  - openapi/microsoft-linkedin-adcreatives-api-openapi.yml\n- scope: r_organization_social\n  description: Read organization social actions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-linkedin-adaccounts-api-openapi.yml\n  - openapi/microsoft-linkedin-adaccountusers-api-openapi.yml\n\
+  \  - openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigns-api-openapi.yml\n  - openapi/microsoft-linkedin-adcreatives-api-openapi.yml\n- scope: rw_ads\n  description: Read and write LinkedIn ads data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-linkedin-adaccounts-api-openapi.yml\n  - openapi/microsoft-linkedin-adaccountusers-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigns-api-openapi.yml\n  - openapi/microsoft-linkedin-adcreatives-api-openapi.yml\n- scope: w_organization_social\n  description: Write organization social actions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-linkedin-adaccounts-api-openapi.yml\n  - openapi/microsoft-linkedin-adaccountusers-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigngroups-api-openapi.yml\n  - openapi/microsoft-linkedin-adcampaigns-api-openapi.yml\n  - openapi/microsoft-linkedin-adcreatives-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/scopes/microsoft-linkedin-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:

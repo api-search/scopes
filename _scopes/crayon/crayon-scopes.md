@@ -1,68 +1,20 @@
 ---
-api_specs:
-- filename: crayon-agreements-api-openapi.yml
-  format: yaml
-  label: Crayon Agreements API
-  slug: crayon-agreements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-agreements-api-openapi.yml
-- filename: crayon-authentication-api-openapi.yml
-  format: yaml
-  label: Crayon Authentication API
-  slug: crayon-authentication-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-authentication-api-openapi.yml
-- filename: crayon-billing-api-openapi.yml
-  format: yaml
-  label: Crayon Billing API
-  slug: crayon-billing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-billing-api-openapi.yml
-- filename: crayon-clients-api-openapi.yml
-  format: yaml
-  label: Crayon Clients API
-  slug: crayon-clients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-clients-api-openapi.yml
-- filename: crayon-customertenants-api-openapi.yml
-  format: yaml
-  label: Crayon CustomerTenants API
-  slug: crayon-customertenants-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-customertenants-api-openapi.yml
-- filename: crayon-organizations-api-openapi.yml
-  format: yaml
-  label: Crayon Organizations API
-  slug: crayon-organizations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-organizations-api-openapi.yml
-- filename: crayon-subscriptions-api-openapi.yml
-  format: yaml
-  label: Crayon Subscriptions API
-  slug: crayon-subscriptions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-subscriptions-api-openapi.yml
-- filename: crayon-users-api-openapi.yml
-  format: yaml
-  label: Crayon Users API
-  slug: crayon-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/openapi/crayon-users-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://app.crayon.co/oauth/authorize/
 description: ''
-docs: https://apidocs.crayon.com/scenarios/token-get.html
+docs: ''
 flows:
-- clientCredentials
+- authorizationCode
 kind: oauth-scopes
 layout: scope
-method: searched
+method: probed
 name: Crayon Scopes
 name_suffix: OAuth Scopes
-note: Crayon's API (Cloud-iQ) documents a single OAuth2 scope, CustomerApi, used when requesting a token from the connect/token endpoint; no finer-grained scopes are published (https://apidocs.crayon.com/getting-started/authentication.html).
-overview: 'Crayon publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Crayon API on a user''s behalf.
+note: Read from Crayon's RFC 8414 authorization-server metadata, which is served anonymously. Crayon publishes no scopes/permissions reference page, so the metadata is the only scope surface. Note that the RFC 9728 protected-resource document for the MCP endpoint declares an EMPTY scopes_supported array while the authorization server declares mcp:read — the two disagree, and that disagreement is recorded rather than reconciled. The earlier version of this file described the "CustomerApi" scope of Crayon Group ASA's Cloud-iQ platform (crayon.com), a different company; it is quarantined in _wrong-company/.
+overview: 'Crayon publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Crayon API on a user''s behalf.
 
 
-  Tokens are issued from https://api.crayon.com/api/v1/connect/token.
+  Tokens are issued from https://app.crayon.co/oauth/token/.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -70,32 +22,36 @@ provider_name: Crayon
 provider_slug: crayon
 schemes:
 - flows:
-  - flow: clientCredentials
-    tokenUrl: https://api.crayon.com/api/v1/connect/token
-  name: OAuth2
-  source: openapi/crayon-openapi.yml
+  - authorizationUrl: https://app.crayon.co/oauth/authorize/
+    flow: authorizationCode
+    tokenUrl: https://app.crayon.co/oauth/token/
+  name: CrayonOAuth2
+  source: well-known/crayon-oauth-authorization-server.json
 scope_count: 1
 scope_names:
-- CustomerApi
+- mcp:read
 scopes:
-- description: Grants access to the Crayon customer API (Cloud-iQ); the single scope value passed when requesting an OAuth2 token.
-  flows: []
-  scope: CustomerApi
+- description: Read access to the Crayon competitive-intelligence MCP server at https://mcp.crayon.co/mcp/. The only scope Crayon's authorization server advertises; no write or admin scope is published.
+  flows:
+  - authorizationCode
+  scope: mcp:read
 slug: crayon-scopes
 source_filename: crayon-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/crayon-openapi.yml\ndocs: https://apidocs.crayon.com/scenarios/token-get.html\nnote: >-\n  Crayon's API (Cloud-iQ) documents a single OAuth2 scope, CustomerApi, used\n  when requesting a token from the connect/token endpoint; no finer-grained\n  scopes are published (https://apidocs.crayon.com/getting-started/authentication.html).\nschemes:\n- name: OAuth2\n  source: openapi/crayon-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.crayon.com/api/v1/connect/token\nscopes:\n- scope: CustomerApi\n  description: >-\n    Grants access to the Crayon customer API (Cloud-iQ); the single scope\n    value passed when requesting an OAuth2 token.\n  sources:\n  - https://apidocs.crayon.com/scenarios/token-get.html\n"
+source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.crayon.co/.well-known/oauth-authorization-server\ndocs: null\nnote: >-\n  Read from Crayon's RFC 8414 authorization-server metadata, which is served anonymously. Crayon\n  publishes no scopes/permissions reference page, so the metadata is the only scope surface. Note\n  that the RFC 9728 protected-resource document for the MCP endpoint declares an EMPTY\n  scopes_supported array while the authorization server declares mcp:read — the two disagree, and\n  that disagreement is recorded rather than reconciled. The earlier version of this file described\n  the \"CustomerApi\" scope of Crayon Group ASA's Cloud-iQ platform (crayon.com), a different\n  company; it is quarantined in _wrong-company/.\n\nschemes:\n- name: CrayonOAuth2\n  source: well-known/crayon-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.crayon.co/oauth/authorize/\n    tokenUrl: https://app.crayon.co/oauth/token/\n\
+  \nscopes:\n- scope: mcp:read\n  description: >-\n    Read access to the Crayon competitive-intelligence MCP server at\n    https://mcp.crayon.co/mcp/. The only scope Crayon's authorization server advertises; no\n    write or admin scope is published.\n  flows:\n  - authorizationCode\n  sources:\n  - https://mcp.crayon.co/.well-known/oauth-authorization-server\n  - https://app.crayon.co/.well-known/oauth-authorization-server\n\ndiscrepancies:\n- resource: https://mcp.crayon.co/mcp/\n  document: https://mcp.crayon.co/.well-known/oauth-protected-resource/mcp/\n  issue: scopes_supported is [] on the protected resource but [\"mcp:read\"] on the authorization server\n  observed: '2026-08-14'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crayon/refs/heads/main/scopes/crayon-scopes.yml
-summary_line: 1 scope · clientCredentials
+summary_line: 1 scope · authorizationCode
 tags:
 - Competitive Intelligence
 - Market Intelligence
 - Sales Enablement
 - Battlecards
 - Win-Loss Analysis
+- Product Marketing
 - AI
 - MCP
 token_urls:
-- https://api.crayon.com/api/v1/connect/token
+- https://app.crayon.co/oauth/token/
 ---

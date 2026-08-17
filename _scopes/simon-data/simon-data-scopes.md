@@ -1,44 +1,46 @@
 ---
 api_specs:
-- filename: simon-data-contacts-api-openapi.yml
+- filename: simon-data-audience-api-openapi.yml
   format: yaml
-  label: Simon Data Contacts API
+  label: Simon Data Audience API
   slug: simon-data-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-contacts-api-openapi.yml
-- filename: simon-data-events-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-audience-api-openapi.yml
+- filename: simon-data-event-ingestion-openapi.yml
   format: yaml
-  label: Simon Data Events API
+  label: Simon Data Event Ingestion API
   slug: simon-data-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-events-api-openapi.yml
-authorization_urls: []
+  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-event-ingestion-openapi.yml
+authorization_urls:
+- https://app.simondata.com/mcp/oauth/authorize
 description: ''
 docs: https://docs.simondata.com/reference/getting-started
 flows:
-- clientCredentials
+- authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Simon Data Scopes
 name_suffix: OAuth Scopes
-note: Simon Data does not publish OAuth scopes; its Audience/Contact API uses bearer tokens issued by a Client Solutions Manager and the Signal event API uses a shared partner secret, with OAuth 2.0 only referenced for outbound integrations to third-party systems (https://docs.simondata.com/reference/getting-started).
+note: Simon Data publishes no OAuth scope vocabulary. The Audience API uses opaque bearer tokens issued by a Client Solutions Manager, and the Event Ingestion API uses a shared partnerSecret in the payload — neither has a scope surface. The one OAuth authorization server Simon does publish, the MCP metadata document at https://app.simondata.com/.well-known/oauth-authorization-server, omits scopes_supported entirely. Recorded as a real zero, not a gap.
 overview: 'Simon Data uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
-  Tokens are issued from https://api.simondata.com/oauth/token.
+  Tokens are issued from https://app.simondata.com/mcp/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Simon Data
 provider_slug: simon-data
 schemes:
-- description: OAuth 2.0 authentication required for all endpoints.
+- description: MCP authorization server; scopes_supported is absent from the published metadata.
   flows:
-  - flow: clientCredentials
-    tokenUrl: https://api.simondata.com/oauth/token
-  name: oauth2
-  source: openapi/simon-data-contact-openapi.yml
+  - authorizationUrl: https://app.simondata.com/mcp/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://app.simondata.com/mcp/oauth/token
+  name: mcp-oauth
+  source: well-known/simon-data-oauth-authorization-server.json
 scope_count: 0
 scope_names: []
 scopes: []
@@ -46,7 +48,8 @@ slug: simon-data-scopes
 source_filename: simon-data-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/simon-data-contact-openapi.yml\ndocs: https://docs.simondata.com/reference/getting-started\nnote: Simon Data does not publish OAuth scopes; its Audience/Contact API uses bearer\n  tokens issued by a Client Solutions Manager and the Signal event API uses a shared\n  partner secret, with OAuth 2.0 only referenced for outbound integrations to third-party\n  systems (https://docs.simondata.com/reference/getting-started).\nschemes:\n- name: oauth2\n  source: openapi/simon-data-contact-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.simondata.com/oauth/token\n  description: OAuth 2.0 authentication required for all endpoints.\nscopes: []\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.simondata.com/reference/getting-started\ndocs: https://docs.simondata.com/reference/getting-started\nnote: >-\n  Simon Data publishes no OAuth scope vocabulary. The Audience API uses opaque bearer tokens issued by a Client\n  Solutions Manager, and the Event Ingestion API uses a shared partnerSecret in the payload — neither has a scope\n  surface. The one OAuth authorization server Simon does publish, the MCP metadata document at\n  https://app.simondata.com/.well-known/oauth-authorization-server, omits scopes_supported entirely. Recorded as a real\n  zero, not a gap.\nschemes:\n- name: mcp-oauth\n  source: well-known/simon-data-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.simondata.com/mcp/oauth/authorize\n    tokenUrl: https://app.simondata.com/mcp/oauth/token\n  description: MCP authorization server; scopes_supported is absent from the published metadata.\n\
+  scopes: []\nscope_count: 0\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/scopes/simon-data-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
@@ -58,6 +61,10 @@ tags:
 - Data Ingestion
 - Personalization
 - Marketing Technology
+- Identity Resolution
+- Customer Profiles
+- Journey Orchestration
+- Snowflake
 token_urls:
-- https://api.simondata.com/oauth/token
+- https://app.simondata.com/mcp/oauth/token
 ---

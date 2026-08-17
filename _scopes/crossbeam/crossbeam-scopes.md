@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: postman.yaml
+  format: yaml
+  label: Crossbeam Partner API
+  slug: crossbeam-partner-api
+  spec_type: Postman
+  url: https://developers.crossbeam.com/
 authorization_urls: []
 description: ''
 docs: https://developers.crossbeam.com/

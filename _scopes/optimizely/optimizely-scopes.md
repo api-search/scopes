@@ -1,5 +1,95 @@
 ---
 api_specs:
+- filename: optimizely-web-experimentation-optimizely-api-openapi.json
+  format: json
+  label: Optimizely Experimentation REST API v2
+  slug: experimentation-rest-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json
+- filename: optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json
+  format: json
+  label: Optimizely Feature Experimentation Flags API v1
+  slug: feature-experimentation-flags-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json
+- filename: optimizely-feature-experimentation-optimizely-flags-scheduling-api-openapi.json
+  format: json
+  label: Optimizely Flags Scheduling API
+  slug: flags-scheduling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-optimizely-flags-scheduling-api-openapi.json
+- filename: optimizely-feature-experimentation-permission-service-openapi.json
+  format: json
+  label: Optimizely Permission Service API
+  slug: permission-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-permission-service-openapi.json
+- filename: optimizely-feature-experimentation-optimizely-agent-api-openapi.json
+  format: json
+  label: Optimizely Agent API
+  slug: agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-feature-experimentation-optimizely-agent-api-openapi.json
+- filename: optimizely-experimentation-data-optimizely-event-api-openapi.json
+  format: json
+  label: Optimizely Event API
+  slug: event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-experimentation-data-optimizely-event-api-openapi.json
+- filename: optimizely-performance-edge-optimizely-edge-decider-openapi.json
+  format: json
+  label: Optimizely Edge Decider API
+  slug: edge-decider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-performance-edge-optimizely-edge-decider-openapi.json
+- filename: optimizely-data-platform-advanced-openapi.json
+  format: json
+  label: Optimizely Data Platform (ODP) API v3
+  slug: data-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-data-platform-advanced-openapi.json
+- filename: optimizely-platform-optimizely-swagger-openapi.json
+  format: json
+  label: Optimizely Graph API
+  slug: graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-platform-optimizely-swagger-openapi.json
+- filename: optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json
+  format: json
+  label: Optimizely Content Marketing Platform (CMP) API v3
+  slug: content-marketing-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json
+- filename: optimizely-campaign-optimizely-campaign-rest-api-openapi.json
+  format: json
+  label: Optimizely Campaign REST API
+  slug: campaign-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-campaign-optimizely-campaign-rest-api-openapi.json
+- filename: optimizely-configured-commerce-admin-api-v1-openapi.json
+  format: json
+  label: Optimizely Configured Commerce API
+  slug: configured-commerce-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-configured-commerce-admin-api-v1-openapi.json
+- filename: optimizely-content-management-system-episervercontentapidocs-openapi.json
+  format: json
+  label: Optimizely CMS Content Delivery API v3.0
+  slug: cms-content-delivery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-content-management-system-episervercontentapidocs-openapi.json
+- filename: optimizely-recommendations-public-api-spec-openapi.yaml
+  format: yaml
+  label: Optimizely Content Recommendations API
+  slug: content-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-recommendations-public-api-spec-openapi.yaml
+- filename: optimizely-digital-experience-platform-episerver-cloud-api-1-openapi.json
+  format: json
+  label: Optimizely DXP Cloud API
+  slug: dxp-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/_original/optimizely-digital-experience-platform-episerver-cloud-api-1-openapi.json
 - filename: optimizely-assets-api-openapi.yml
   format: yaml
   label: Optimizely Assets API
@@ -204,60 +294,101 @@ api_specs:
   slug: optimizely-unsubscribes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/openapi/optimizely-unsubscribes-api-openapi.yml
-authorization_urls: []
-description: ''
+authorization_urls:
+- https://app.optimizely.com/oauth2/authorize
+- https://auth.mcp.opal.optimizely.com/oauth/authorize
+description: OAuth 2.0 scopes across the Optimizely estate. The headline finding is that the Experimentation REST API — the largest and most consequential surface, 163 operations across v2 and Flags v1 — has exactly ONE scope, `all`, meaning "full access to your account". There is no read-only, no per-project and no per-entity scope. Granularity exists, but it lives in the Permission Service and in role assignment, not in the token.
 docs: https://docs.developers.optimizely.com/web-experimentation/docs/registration
 flows:
+- authorizationCode
 - clientCredentials
+- refreshToken
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Optimizely Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Optimizely publishes 4 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Optimizely API on a user''s behalf.
+overview: 'Optimizely publishes 6 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Optimizely API on a user''s behalf.
 
 
-  Tokens are issued from https://api.cmp.optimizely.com/oauth/token.
+  Tokens are issued from https://app.optimizely.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Optimizely
 provider_slug: optimizely
 schemes:
-- description: OAuth 2.0 authentication for the CMP API.
+- description: Write applications that authenticate with the REST API via OAuth 2.0, or authenticate with a personal access token.
   flows:
+  - authorizationUrl: https://app.optimizely.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://app.optimizely.com/oauth2/token
+  name: OAuth2
+  product: Web Experimentation + Feature Experimentation
+  source: openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json
+- flows:
+  - flow: authorizationCode
+    tokenUrl: https://api.cmp.optimizely.com/oauth/token
   - flow: clientCredentials
     tokenUrl: https://api.cmp.optimizely.com/oauth/token
-  name: oauth2
-  source: openapi/optimizely-cmp-openapi.yml
-scope_count: 4
+  name: OAuth2
+  product: Content Marketing Platform
+  source: openapi/_original/optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json
+- flows:
+  - authorizationUrl: https://auth.mcp.opal.optimizely.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mcp.opal.optimizely.com/oauth/token
+  - flow: refreshToken
+  issuer: https://auth.mcp.opal.optimizely.com
+  name: Opal MCP OAuth
+  product: MCP (Experimentation, Analytics, CMS/Graph)
+  source: well-known/optimizely-mcp-oauth-authorization-server.json
+scope_count: 6
 scope_names:
 - all
 - openid
 - profile
+- email
 - offline_access
+- mcp:tools
 scopes:
-- description: The only supported scope for the Optimizely Web Experimentation REST API OAuth 2.0 flow. The generated token has permissions that match the user role of the authorizing user.
-  flows: []
+- description: Full access to your account. The only scope the Experimentation REST API OAuth 2.0 flow supports — the issued token carries every permission the authorizing user holds in the Optimizely UI.
+  flows:
+  - authorizationCode
   scope: all
-- description: OpenID Connect scope used in the Optimizely CMP authorization code flow to identify the user.
-  flows: []
+- description: OIDC subject identity for the MCP authorization server.
+  flows:
+  - authorizationCode
   scope: openid
-- description: OpenID Connect scope used in the Optimizely CMP authorization code flow to access user profile information.
-  flows: []
+- description: OIDC profile claims.
+  flows:
+  - authorizationCode
   scope: profile
-- description: OpenID Connect scope used in the Optimizely CMP authorization code flow to obtain refresh tokens for long-lived access.
-  flows: []
+- description: OIDC email claim.
+  flows:
+  - authorizationCode
+  scope: email
+- description: Issues a refresh token so the MCP session survives beyond the access-token lifetime.
+  flows:
+  - authorizationCode
   scope: offline_access
+- description: Permission to invoke MCP tools on the Optimizely Opal MCP servers. Declared as the only entry in scopes_supported on every /.well-known/oauth-protected-resource — exp, analytics and cms all gate on this one scope.
+  flows:
+  - authorizationCode
+  scope: mcp:tools
 slug: optimizely-scopes
 source_filename: optimizely-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/optimizely-cmp-openapi.yml\ndocs: https://docs.developers.optimizely.com/web-experimentation/docs/registration\nschemes:\n- name: oauth2\n  source: openapi/optimizely-cmp-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.cmp.optimizely.com/oauth/token\n  description: OAuth 2.0 authentication for the CMP API.\nscopes:\n- scope: all\n  description: >-\n    The only supported scope for the Optimizely Web Experimentation REST API\n    OAuth 2.0 flow. The generated token has permissions that match the user\n    role of the authorizing user.\n  sources:\n  - https://docs.developers.optimizely.com/web-experimentation/docs/registration\n- scope: openid\n  description: >-\n    OpenID Connect scope used in the Optimizely CMP authorization code flow to\n    identify the user.\n  sources:\n  - https://docs.developers.optimizely.com/content-marketing-platform/docs/authentication-1\n- scope: profile\n\
-  \  description: >-\n    OpenID Connect scope used in the Optimizely CMP authorization code flow to\n    access user profile information.\n  sources:\n  - https://docs.developers.optimizely.com/content-marketing-platform/docs/authentication-1\n- scope: offline_access\n  description: >-\n    OpenID Connect scope used in the Optimizely CMP authorization code flow to\n    obtain refresh tokens for long-lived access.\n  sources:\n  - https://docs.developers.optimizely.com/content-marketing-platform/docs/authentication-1\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json,\n  openapi/_original/optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json,\n  openapi/_original/optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json,\n  well-known/optimizely-mcp-oauth-authorization-server.json\ndocs: https://docs.developers.optimizely.com/web-experimentation/docs/registration\ndescription: >-\n  OAuth 2.0 scopes across the Optimizely estate. The headline finding is that the\n  Experimentation REST API — the largest and most consequential surface, 163 operations\n  across v2 and Flags v1 — has exactly ONE scope, `all`, meaning \"full access to your\n  account\". There is no read-only, no per-project and no per-entity scope. Granularity\n  exists, but it lives in the Permission Service and in role assignment, not in the token.\nschemes:\n- name: OAuth2\n  product:\
+  \ Web Experimentation + Feature Experimentation\n  source: openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.optimizely.com/oauth2/authorize\n    tokenUrl: https://app.optimizely.com/oauth2/token\n  description: >-\n    Write applications that authenticate with the REST API via OAuth 2.0, or authenticate\n    with a personal access token.\n- name: OAuth2\n  product: Content Marketing Platform\n  source: openapi/_original/optimizely-content-marketing-platform-optimizely-cmp-open-api-documentation-openapi.json\n  flows:\n  - {flow: authorizationCode, tokenUrl: 'https://api.cmp.optimizely.com/oauth/token'}\n  - {flow: clientCredentials, tokenUrl: 'https://api.cmp.optimizely.com/oauth/token'}\n- name: Opal MCP OAuth\n  product: MCP (Experimentation, Analytics, CMS/Graph)\n  source: well-known/optimizely-mcp-oauth-authorization-server.json\n  issuer: https://auth.mcp.opal.optimizely.com\n  flows:\n\
+  \  - {flow: authorizationCode, authorizationUrl: 'https://auth.mcp.opal.optimizely.com/oauth/authorize', tokenUrl: 'https://auth.mcp.opal.optimizely.com/oauth/token'}\n  - {flow: refreshToken}\nscopes:\n- scope: all\n  description: >-\n    Full access to your account. The only scope the Experimentation REST API OAuth 2.0 flow\n    supports — the issued token carries every permission the authorizing user holds in the\n    Optimizely UI.\n  flows: [authorizationCode]\n  products: [Web Experimentation, Feature Experimentation]\n  sources: [openapi/_original/optimizely-web-experimentation-optimizely-api-openapi.json, openapi/_original/optimizely-feature-experimentation-optimizely-feature-experimentation-api-openapi.json]\n- {scope: openid, description: 'OIDC subject identity for the MCP authorization server.', flows: [authorizationCode], products: [MCP], sources: ['well-known/optimizely-mcp-oauth-authorization-server.json']}\n- {scope: profile, description: 'OIDC profile claims.', flows: [authorizationCode],\
+  \ products: [MCP], sources: ['well-known/optimizely-mcp-oauth-authorization-server.json']}\n- {scope: email, description: 'OIDC email claim.', flows: [authorizationCode], products: [MCP], sources: ['well-known/optimizely-mcp-oauth-authorization-server.json']}\n- {scope: offline_access, description: 'Issues a refresh token so the MCP session survives beyond the access-token lifetime.', flows: [authorizationCode], products: [MCP], sources: ['well-known/optimizely-mcp-oauth-authorization-server.json']}\n- scope: mcp:tools\n  description: >-\n    Permission to invoke MCP tools on the Optimizely Opal MCP servers. Declared as the only\n    entry in scopes_supported on every /.well-known/oauth-protected-resource — exp,\n    analytics and cms all gate on this one scope.\n  flows: [authorizationCode]\n  products: [MCP]\n  sources: [well-known/optimizely-mcp-oauth-protected-resource.json]\ngranularity:\n  token_level: none\n  note: >-\n    Fine-grained authorization is enforced server-side, not\
+  \ by scope. The Permission Service\n    (openapi/_original/optimizely-feature-experimentation-permission-service-openapi.json,\n    added 2025-03-18) exposes per-entity permissions for users and teams —\n    get_user_permissions_for_project_entity_type, get_team_permissions_for_project_entity_type,\n    get_entity_permissions, change_permissions — and the MCP servers inherit the signed-in\n    user's UI permissions. An agent cannot narrow its own blast radius by requesting a\n    smaller scope; it can only be given a user account with fewer permissions.\nnon_oauth_products:\n- {product: Optimizely Data Platform, model: 'x-api-key header, region-scoped', scopes: none}\n- {product: Configured Commerce, model: 'access_token query parameter', scopes: none}\n- {product: Campaign, model: Authorization apiKey header, scopes: none}\n- {product: Content Recommendations, model: key query parameter, scopes: none}\n- {product: Optimizely Graph, model: 'single-key / HMAC / Basic / Bearer', scopes:\
+  \ none}\nscope_count: 6\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/scopes/optimizely-scopes.yml
-summary_line: 4 scopes · clientCredentials
+summary_line: 6 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - A/B Testing
 - Content Management
@@ -267,5 +398,7 @@ tags:
 - Feature Flags
 - Marketing
 token_urls:
+- https://app.optimizely.com/oauth2/token
 - https://api.cmp.optimizely.com/oauth/token
+- https://auth.mcp.opal.optimizely.com/oauth/token
 ---

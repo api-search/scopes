@@ -239,11 +239,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-mar
 summary_line: 42 scopes · clientCredentials
 tags:
 - Automation
+- Content Management
 - Customer Journey
 - Digital Marketing
 - Email
 - Marketing
+- Marketing Automation
+- MCP
+- Mobile Messaging
 - Personalization
+- SMS
+- Webhooks
 token_urls:
 - https://YOUR_SUBDOMAIN.auth.marketingcloudapis.com/v2/token
 ---

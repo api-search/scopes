@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: jasper-api-openapi.yml
+  format: yaml
+  label: Jasper API
+  slug: jasper-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/openapi/jasper-api-openapi.yml
 authorization_urls:
 - https://api.jasper.ai/oauth2/authorize
 description: ''
@@ -64,8 +71,8 @@ slug: jasper-scopes
 source_filename: jasper-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: >-\n  https://api.jasper.ai/.well-known/openid-configuration ;\n  https://api.jasper.ai/.well-known/oauth-authorization-server\ndocs: https://developers.jasper.ai/docs/authentication\nschemes:\n- name: OAuth2\n  source: https://api.jasper.ai/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.jasper.ai/oauth2/authorize\n    tokenUrl: https://api.jasper.ai/oauth2/token\nscopes:\n- scope: mcp\n  description: Access the Jasper hosted MCP server tools (brand voices, audiences, agents, content generation).\n  flows: [authorizationCode]\n- scope: user\n  description: Act on behalf of the authenticated Jasper user (default user scope for API/agent access).\n  flows: [authorizationCode]\n- scope: user:read\n  description: Read the authenticated user's Jasper profile and workspace membership.\n  flows: [authorizationCode]\n- scope: openid\n  description: OpenID Connect authentication\
-  \ — issue an ID token for the user.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the user's email address claim.\n  flows: [authorizationCode]\n- scope: profile\n  description: Access the user's basic profile claims.\n  flows: [authorizationCode]\n"
+source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://api.jasper.ai/.well-known/openid-configuration ;\n  https://api.jasper.ai/.well-known/oauth-authorization-server ;\n  https://mcp.jasper.ai/.well-known/oauth-protected-resource ;\n  openapi/jasper-api-openapi.yml\ndocs: https://developers.jasper.ai/docs/authentication\nspec_divergence: >-\n  The captured OpenAPI's oauth2 securityScheme declares only two scopes — `user:read` (\"Read user\n  information\") and `user` (\"Read and write user information\") — and every one of the 50 operations\n  requires `user`. The live RFC 8414 authorization-server document additionally advertises `mcp`,\n  `openid`, `email` and `profile`. The spec therefore under-declares the scope surface, and no\n  operation is scoped more finely than \"read and write user information\": there is no per-resource\n  authorization in the contract.\nschemes:\n- name: OAuth2\n  source: https://api.jasper.ai/.well-known/oauth-authorization-server\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.jasper.ai/oauth2/authorize\n    tokenUrl: https://api.jasper.ai/oauth2/token\nscopes:\n- scope: mcp\n  description: Access the Jasper hosted MCP server tools (brand voices, audiences, agents, content generation).\n  flows: [authorizationCode]\n- scope: user\n  description: Act on behalf of the authenticated Jasper user (default user scope for API/agent access).\n  flows: [authorizationCode]\n- scope: user:read\n  description: Read the authenticated user's Jasper profile and workspace membership.\n  flows: [authorizationCode]\n- scope: openid\n  description: OpenID Connect authentication — issue an ID token for the user.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the user's email address claim.\n  flows: [authorizationCode]\n- scope: profile\n  description: Access the user's basic profile claims.\n  flows: [authorizationCode]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/scopes/jasper-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
