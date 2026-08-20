@@ -269,8 +269,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toast/refs/hea
 summary_line: 22 scopes · clientCredentials
 tags:
 - Food Service
-- Point of Sale
-- Restaurants
+- Point-of-Sale
+- Restaurant
 - Hospitality
 token_urls:
 - https://toast-api-server/authentication/v1/authentication/login

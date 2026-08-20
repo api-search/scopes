@@ -104,19 +104,18 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflectionio/r
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Marketing
 - Marketing Automation
 - Email Marketing
 - Customer Data
 - B2B
 - Contacts
-- API
 - MCP
 - Agents
 - Artificial Intelligence
 - Customer Journeys
-- Webhooks
+- Webhook
 token_urls:
 - https://auth-v2.inflection.io/oauth2/token
 ---

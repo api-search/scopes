@@ -126,7 +126,7 @@ tags:
 - Calendar
 - Contacts
 - Organization Management
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://accounts.zoho.com/oauth/v2/token
 ---

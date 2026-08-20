@@ -64,7 +64,7 @@ tags:
 - MCP
 - Contact Data
 - Lead Generation
-- Jobs
+- Job
 - Agents
 token_urls:
 - https://api.theorg.com/oauth/token

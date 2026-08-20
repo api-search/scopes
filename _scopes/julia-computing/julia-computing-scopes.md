@@ -83,7 +83,7 @@ tags:
 - Data Science
 - Programming Language
 - Package Registry
-- Machine Learning
+- Machine-Learning
 - Pharma
 token_urls:
 - https://auth.juliahub.com/dex/token

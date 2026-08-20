@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-books/r
 summary_line: 1 scope · authorizationCode
 tags:
 - Books
-- eBooks
+- Ebooks
 - Google
 - Library
 - Publishing

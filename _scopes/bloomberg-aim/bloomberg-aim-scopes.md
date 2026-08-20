@@ -158,7 +158,7 @@ tags:
 - Financial Data
 - Market Data
 - Order Management
-- Portfolio Management
+- Portfolio-Management
 - Trading
 token_urls:
 - https://bsso.blpprofessional.com/ext/api/as/token.oauth2

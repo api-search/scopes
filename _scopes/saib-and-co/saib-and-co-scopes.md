@@ -76,7 +76,7 @@ tags:
 - Wellness
 - Retail
 - Cafe24
-- OAuth
+- Authentication
 token_urls:
 - https://saibnco.cafe24api.com/api/v2/oauth/token
 ---

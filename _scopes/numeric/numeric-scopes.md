@@ -67,7 +67,7 @@ tags:
 - Reconciliation
 - MCP
 - Agent Skills
-- OAuth
+- Authentication
 token_urls:
 - https://auth.numeric.io/oauth2/token
 ---

@@ -75,7 +75,7 @@ tags:
 - E-Commerce
 - Personal Care
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Shopify
 token_urls:
 - https://shopify.com/authentication/88395284786/oauth/token

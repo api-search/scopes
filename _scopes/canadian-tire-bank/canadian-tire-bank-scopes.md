@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.ctf
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canadian-tire-bank/refs/heads/main/scopes/canadian-tire-bank-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Schedule I Bank

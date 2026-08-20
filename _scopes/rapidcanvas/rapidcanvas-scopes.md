@@ -62,13 +62,13 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Agentic AI
 - Data Science
 - MLOps
 - Enterprise AI
 - AI Governance
-- Low Code
+- Low-Code
 - Developer Tools
 token_urls:
 - https://app.rapidcanvas.ai/oauth/token

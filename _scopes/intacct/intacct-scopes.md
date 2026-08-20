@@ -75,9 +75,9 @@ tags:
 - Cloud Accounting
 - Invoicing
 - Payments
-- SaaS
+- Software-as-a-Service
 - REST API
-- OAuth
+- Authentication
 token_urls:
 - https://api.intacct.com/ia/api/v1/oauth2/token
 ---

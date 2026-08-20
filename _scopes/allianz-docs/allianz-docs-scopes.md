@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/allianz-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/scopes/allianz-docs-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
-- Financial Services
+- Financial-Services
 - Insurance
 - Asset Management
 token_urls:

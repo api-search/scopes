@@ -50,9 +50,9 @@ tags:
 - Quotes
 - Contracts
 - E-Signature
-- Webhooks
+- Webhook
 - MCP
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://api.qwilr.com/oauth/token
 ---

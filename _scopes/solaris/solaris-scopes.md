@@ -52,8 +52,8 @@ tags:
 - KYC
 - Lending
 - Compliance
-- OAuth2
-- Webhooks
+- Authentication
+- Webhook
 - Germany
 token_urls:
 - https://auth.solarisbank.de/oauth2/token

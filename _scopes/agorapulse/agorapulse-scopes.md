@@ -139,7 +139,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agorapulse/ref
 summary_line: 1 scope · authorizationCode
 tags:
 - Social Media Management
-- Social Media
+- Social-Media
 - CRM
 - Analytics
 - Publishing

@@ -175,6 +175,6 @@ tags:
 - Augmented Reality
 - Marketing
 - Messaging
-- Social Media
+- Social-Media
 token_urls: []
 ---

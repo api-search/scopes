@@ -35,6 +35,6 @@ tags:
 - Travel
 - Invoices
 - Fintech
-- SaaS
+- Software-as-a-Service
 token_urls: []
 ---

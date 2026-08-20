@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.regal
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/scopes/regal-ai-scopes.yml
 summary_line: 4 scopes · authorizationCode/refreshToken
 tags:
-- AI
+- Artificial Intelligence
 - AI Agents
 - Voice AI
 - Contact Center

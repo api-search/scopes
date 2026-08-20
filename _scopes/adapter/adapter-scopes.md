@@ -210,7 +210,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adapter/refs/h
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Cognition
 - Knowledge Graph
 - Memory

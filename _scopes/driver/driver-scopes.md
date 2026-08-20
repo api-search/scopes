@@ -56,7 +56,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/driver/refs/he
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Code Documentation
 - MCP

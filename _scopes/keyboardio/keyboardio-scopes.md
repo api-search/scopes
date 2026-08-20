@@ -63,10 +63,10 @@ tags:
 - Mechanical Keyboards
 - Hardware
 - Ergonomics
-- Open Source
+- Open-Source
 - Firmware
 - Keyboards
-- E-commerce
+- E-Commerce
 token_urls:
 - https://account.keyboard.io/authentication/oauth/token
 ---

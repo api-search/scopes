@@ -86,12 +86,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/h
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Vector Database
-- Multimodal
+- Multi-Modal
 - Lance Format
 - Lakehouse
 - RAG
 - Agent Memory
-- Open Source
+- Open-Source
 - Embeddings
 - Full-Text Search
 - Hybrid Search

@@ -118,7 +118,7 @@ summary_line: 7 scopes · authorizationCode/implicit/deviceCode/password
 tags:
 - Insurance
 - Australia
-- Broker
+- Brokers
 - Insurance Broker Network
 - General Insurance
 - Property and Casualty

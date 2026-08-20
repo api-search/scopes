@@ -161,7 +161,7 @@ tags:
 - Wiki
 - Documents
 - Collaboration
-- Open Source
+- Open-Source
 - Team
 token_urls:
 - https://app.getoutline.com/oauth/token

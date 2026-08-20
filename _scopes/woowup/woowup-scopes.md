@@ -93,7 +93,7 @@ tags:
 - Customer Data
 - Marketing Automation
 - Retail
-- eCommerce
+- E-Commerce
 - Push Notifications
 token_urls:
 - https://mcp.woowup.com/oauth/token

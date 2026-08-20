@@ -241,10 +241,10 @@ tags:
 - AISP
 - PISP
 - Financial Data
-- FinTech
+- Fintech
 - UK
-- AI
-- Machine Learning
+- Artificial Intelligence
+- Machine-Learning
 token_urls:
 - /v1/oauth/token
 ---

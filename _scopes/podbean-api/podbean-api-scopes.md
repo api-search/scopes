@@ -92,7 +92,7 @@ tags:
 - Podcasting
 - Audio
 - Media
-- OAuth
+- Authentication
 - Episodes
 token_urls:
 - https://api.podbean.com/v1/oauth/token

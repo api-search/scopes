@@ -78,16 +78,15 @@ source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: https://app.botif
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/scopes/botify-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- seo
+- SEO
 - organic-search
-- search-engine-optimization
-- web-crawling
-- log-analysis
-- search-console
-- marketing-analytics
-- ai-search
-- data-export
-- mcp
+- Web Crawling
+- Log Analysis
+- Search Console
+- Marketing Analytics
+- AI Search
+- Data Export
+- MCP
 - agent-native
 token_urls: []
 ---

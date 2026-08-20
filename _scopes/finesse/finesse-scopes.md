@@ -30,16 +30,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finesse/refs/h
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- retail
-- ecommerce
-- fashion
-- apparel
-- direct-to-consumer
-- agentic-commerce
-- ucp
-- mcp
+- Retail
+- E-Commerce
+- Fashion
+- Apparel
+- Direct to Consumer
+- Agentic Commerce
+- UCP
+- MCP
 - agent-native
-- shopify
-- consumer
+- Shopify
+- Consumer
 token_urls: []
 ---

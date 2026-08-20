@@ -141,9 +141,8 @@ tags:
 - Revenue Management
 - Dynamic Pricing
 - Pricing
-- Real Estate
+- Real-Estate
 - Market Intelligence
-- API
 token_urls:
 - https://developers.beyondpricing.com/o/token/
 ---

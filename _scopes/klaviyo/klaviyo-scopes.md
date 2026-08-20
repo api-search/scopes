@@ -385,7 +385,7 @@ tags:
 - Email
 - SMS
 - Customer Data
-- Ecommerce
+- E-Commerce
 - Automation
 token_urls:
 - https://a.klaviyo.com/oauth/token

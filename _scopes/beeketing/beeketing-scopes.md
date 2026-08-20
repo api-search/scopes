@@ -145,13 +145,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs
 summary_line: 24 scopes · authorizationCode
 tags:
 - Company
-- E-commerce
-- Cross-border Commerce
+- E-Commerce
+- Cross-Border Commerce
 - Marketing
 - Shopify Apps
 - REST API
-- OAuth
-- Webhooks
+- Authentication
+- Webhook
 - Themes
 - Payments
 token_urls:

@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/r
 summary_line: 2 scopes · clientCredentials
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Fraud Detection
 - Financial Crime
 - Document Verification
@@ -68,7 +68,7 @@ tags:
 - AML
 - Identity Verification
 - Fintech
-- Machine Learning
+- Machine-Learning
 token_urls:
 - https://eu.id.resistant.ai/oauth2/aus2un1hkrKhPjir4417/v1/token
 ---

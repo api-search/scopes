@@ -125,7 +125,7 @@ tags:
 - Project Management
 - Collaboration
 - Productivity
-- Workflow Automation
+- Workflow-Automation
 - Spreadsheets
 token_urls:
 - https://api.smartsheet.com/2.0/token

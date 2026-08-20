@@ -139,7 +139,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/business-softw
 summary_line: 16 scopes · authorizationCode
 tags:
 - B2B
-- SaaS
+- Software-as-a-Service
 - Software Reviews
 - Buyer Intent
 - Competitive Intelligence

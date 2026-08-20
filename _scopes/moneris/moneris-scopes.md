@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/moneris-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/scopes/moneris-scopes.yml
 summary_line: 14 scopes · clientCredentials
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - Payment Processing
 - Card Payments

@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://docs.ap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/scopes/vaultre-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - New Zealand
 - PropTech
@@ -61,6 +61,6 @@ tags:
 - Property Management
 - Rentals
 - Commercial Real Estate
-- Webhooks
+- Webhook
 token_urls: []
 ---

@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: >-\n  UK Open B
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/scopes/danske-bank-uk-scopes.yml
 summary_line: 4 scopes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

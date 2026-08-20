@@ -99,13 +99,13 @@ summary_line: 14 scopes
 tags:
 - Company
 - Advertising
-- Digital Out-of-Home
+- Digital Out Of Home
 - DOOH
 - Mobility
 - Advertising Technology
 - AdTech
 - Marketing
-- Measurement
+- Measurements
 - Programmatic Advertising
 token_urls: []
 ---

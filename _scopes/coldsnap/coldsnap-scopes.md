@@ -71,11 +71,11 @@ tags:
 - Consumer Products
 - Hardware
 - Appliances
-- Foodservice
+- Food Service
 - Agentic Commerce
 - Shopify
 - GraphQL
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 token_urls:
 - https://shopify.com/authentication/97378959650/oauth/token

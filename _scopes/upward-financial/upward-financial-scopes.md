@@ -199,7 +199,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upward-financi
 summary_line: 9 scopes · clientCredentials/token-exchange (urn:ietf:params:oauth:grant-type:token-exchange)
 tags:
 - Company
-- FinTech
+- Fintech
 - Credit
 - Credit Building
 - Payments

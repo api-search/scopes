@@ -100,15 +100,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/hea
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Meetings
 - Transcription
-- Notetaking
+- Note Taking
 - Conversation Intelligence
 - Productivity
 - Video
-- Webhooks
-- API
+- Webhook
 token_urls:
 - https://keycloak.tldv.io/realms/mcp.tldv.io/protocol/openid-connect/token
 ---

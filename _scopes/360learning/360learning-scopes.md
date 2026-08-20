@@ -327,13 +327,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/360learning/re
 summary_line: 45 scopes
 tags:
 - Company
-- Edtech
+- EdTech
 - Learning Management System
 - E-Learning
 - Training
 - Collaborative Learning
 - HR Tech
 - Skills
-- API
 token_urls: []
 ---

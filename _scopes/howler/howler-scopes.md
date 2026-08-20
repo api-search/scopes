@@ -158,7 +158,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/howler/refs/he
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company
-- Events
+- Event
 - Ticketing
 - Payments
 - Cashless

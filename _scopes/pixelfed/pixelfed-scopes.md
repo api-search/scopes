@@ -164,8 +164,8 @@ tags:
 - Fediverse
 - ActivityPub
 - Photo Sharing
-- Social Media
-- Open Source
+- Social-Media
+- Open-Source
 - Decentralized
 - Mastodon Compatible
 - Federation

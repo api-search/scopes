@@ -69,12 +69,12 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Company
 - Sales
-- AI
+- Artificial Intelligence
 - Conversation Intelligence
 - Video Conferencing
 - CRM
 - Transcription
-- Webhooks
+- Webhook
 - MCP
 token_urls:
 - https://demodesk.com/oauth/token

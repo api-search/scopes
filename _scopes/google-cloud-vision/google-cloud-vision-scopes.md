@@ -67,10 +67,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vision/refs/heads/main/scopes/google-cloud-vision-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- Computer Vision
+- Computer-Vision
 - Google Cloud
 - Image Analysis
-- Machine Learning
+- Machine-Learning
 - OCR
 token_urls:
 - https://oauth2.googleapis.com/token

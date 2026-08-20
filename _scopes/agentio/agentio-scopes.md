@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentio/refs/h
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- Adtech
+- AdTech
 - Advertising
 - Creator Economy
 - Influencer Marketing
@@ -54,7 +54,6 @@ tags:
 - Artificial Intelligence
 - YouTube
 - MCP
-- Model Context Protocol
 - Agents
 - Analytics
 token_urls:

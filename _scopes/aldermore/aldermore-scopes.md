@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/aldermor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aldermore/refs/heads/main/scopes/aldermore-scopes.yml
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Savings
 - Specialist Lending

@@ -148,7 +148,7 @@ tags:
 - Real-Time
 - Streaming
 - WebSocket
-- OAuth2
+- Authentication
 token_urls:
 - https://pulsoid.net/oauth2/token
 ---

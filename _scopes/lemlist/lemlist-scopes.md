@@ -250,7 +250,7 @@ tags:
 - Deliverability
 - CRM
 - Multichannel Messaging
-- Webhooks
+- Webhook
 - MCP
 token_urls:
 - https://app.lemlist.com/oauth/token

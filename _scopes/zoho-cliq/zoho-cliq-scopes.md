@@ -584,9 +584,9 @@ tags:
 - Team Collaboration
 - Chat
 - Bots
-- Webhooks
+- Webhook
 - Slash Commands
-- Communication
+- Communications
 token_urls:
 - https://accounts.zoho.com/oauth/v2/token
 ---

@@ -95,14 +95,13 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://api.6sens
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/scopes/6sense-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
-- ABM
-- Account-Based Marketing
+- Account Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics
 - Revenue
 - Sales Intelligence
-- AI
+- Artificial Intelligence
 - Marketing Technology
 token_urls:
 - https://auth.6sense.com/oauth2/v1/apps/agentic/P32lusHUPY06hG8MJtqJnKEmq7hJ/MS3CTIZ4l7VZ4pFeraAIy18Y6wIVN/token

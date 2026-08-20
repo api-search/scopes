@@ -84,11 +84,11 @@ tags:
 - Workplace Giving
 - Corporate Social Responsibility
 - Employee Engagement
-- Nonprofits
+- Non-Profit
 - Grants Management
 - Donations
 - Volunteering
-- OAuth
+- Authentication
 - OpenID Connect
 token_urls:
 - https://www.brightfunds.org/oauth/token

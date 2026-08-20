@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getty/refs/hea
 summary_line: 2 scopes · clientCredentials
 tags:
 - Stock Media
-- Images
+- Image
 - Editorial
 - Video
 - Music

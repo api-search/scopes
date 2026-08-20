@@ -107,7 +107,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/ref
 summary_line: 3 scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Search
 - Answer Engine Optimization
 - Generative Engine Optimization

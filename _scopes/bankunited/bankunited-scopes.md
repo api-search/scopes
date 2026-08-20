@@ -186,7 +186,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankunited/refs/heads/main/scopes/bankunited-scopes.yml
 summary_line: 36 scopes · authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - United States
 - Regional Bank

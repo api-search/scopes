@@ -73,7 +73,7 @@ tags:
 - iPaaS
 - Integration
 - Microsoft
-- Workflow Automation
+- Workflow-Automation
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/token
 ---

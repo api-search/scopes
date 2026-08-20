@@ -362,12 +362,12 @@ summary_line: 44 scopes · password
 tags:
 - Company
 - Food Delivery
-- Restaurants
+- Restaurant
 - Order Management
 - Logistics
 - Delivery
 - Menu Management
-- Point of Sale
+- Point-of-Sale
 token_urls:
 - https://auth.deliverart.it/oauth
 ---

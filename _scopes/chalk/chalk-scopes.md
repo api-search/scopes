@@ -58,7 +58,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chalk/refs/hea
 summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
 - Company
-- Machine Learning
+- Machine-Learning
 - Feature Store
 - Artificial Intelligence
 - Data Platform

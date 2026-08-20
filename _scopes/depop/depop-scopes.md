@@ -148,11 +148,11 @@ tags:
 - Company
 - Fashion
 - Marketplace
-- E-commerce
+- E-Commerce
 - Resale
 - Retail
 - Inventory Management
-- Orders
+- Order
 - Sustainability
 token_urls:
 - https://partnerapi.depop.com/api/v1/oauth2/access-token/

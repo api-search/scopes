@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandwatch/ref
 summary_line: 3 scopes · password
 tags:
 - Analytics
-- Social Media
+- Social-Media
 - Social Media Monitoring
 - Consumer Intelligence
 - Brand Management

@@ -74,9 +74,9 @@ tags:
 - E-Commerce
 - Small Business
 - Contacts
-- Subscriptions
-- Webhooks
-- OAuth 2.0
+- Subscription
+- Webhook
+- Authentication
 token_urls:
 - https://api.infusionsoft.com/token
 ---

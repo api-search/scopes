@@ -73,7 +73,7 @@ tags:
 - Flow
 - Process Builder
 - Salesforce
-- Workflow
+- Workflows
 token_urls:
 - https://login.salesforce.com/services/oauth2/token
 ---

@@ -41,12 +41,12 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api-doc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/scopes/splashthat-scopes.yml
 summary_line: 1 scope
 tags:
-- Events
+- Event
 - Event Marketing
 - Event Management
 - Guest Registration
 - Ticketing
-- Check-In
+- Check-in
 - Analytics
 token_urls: []
 ---

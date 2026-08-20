@@ -69,7 +69,7 @@ tags:
 - Body Care
 - Athletics
 - Direct to Consumer
-- E-commerce
+- E-Commerce
 - Shopify
 token_urls:
 - https://shopify.com/authentication/26410184/oauth/token

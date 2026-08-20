@@ -77,17 +77,17 @@ source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: https://api.moloc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/scopes/moloco-scopes.yml
 summary_line: 2 scopes
 tags:
-- advertising
-- adtech
-- demand-side-platform
-- retail-media
-- commerce-media
-- programmatic-advertising
-- campaign-management
-- ad-serving
-- machine-learning
-- mobile-marketing
-- reporting
+- Advertising
+- AdTech
+- Demand-Side Platform
+- Retail Media
+- Commerce Media
+- Programmatic Advertising
+- Campaign Management
+- Ad Serving
+- Machine-Learning
+- Mobile Marketing
+- Reporting
 - user-events
 token_urls: []
 ---

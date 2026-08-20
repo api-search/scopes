@@ -304,8 +304,8 @@ tags:
 - Marketplace
 - Fulfillment
 - Merchant Platform
-- Orders
-- Products
+- Order
+- Product
 token_urls:
 - https://api.merchants.zalando.com/auth/token
 - https://api-sandbox.merchants.zalando.com/auth/token

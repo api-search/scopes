@@ -101,7 +101,7 @@ summary_line: 6 scopes · clientCredentials
 tags:
 - Cloud Platform
 - Enterprise
-- Financial Services
+- Financial-Services
 - Insurance
 - Platform Engineering
 - Kubernetes

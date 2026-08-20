@@ -105,8 +105,8 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Company
 - Artificial Intelligence
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Fashion
 - Trend Forecasting
 - Demand Forecasting

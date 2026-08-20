@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hypersci
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/scopes/hyperscience-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - IDP
 - Enterprise

@@ -166,18 +166,18 @@ source_yaml: "generated: '2026-08-07'\nmethod: derived\nsource: openapi/_origina
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/scopes/bitvore-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
-- financial-data
-- market-intelligence
-- alternative-data
-- news-api
-- nlp
-- esg
-- municipal-bonds
-- credit-risk
-- company-data
-- sentiment-analysis
-- unstructured-data
-- fixed-income
+- Financial Data
+- Market Intelligence
+- Alternative Data
+- News API
+- NLP
+- ESG
+- Municipal Bonds
+- Credit Risk
+- Company Data
+- Sentiment Analysis
+- Unstructured Data
+- Fixed Income
 token_urls:
 - https://api.bitvore.com/oauth/accesstoken
 ---

@@ -98,13 +98,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullview/refs/
 summary_line: 12 scopes · authorizationCode/clientCredentials
 tags:
 - Company
-- Customer Support
-- Cobrowsing
+- Customer-Support
+- Co-Browsing
 - Session Replay
 - Customer Experience
 - Developer Tools
 - Help Desk
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://auth.eu1.fullview.io/realms/fullview-idp-users-eu1/protocol/openid-connect/token
 ---

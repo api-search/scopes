@@ -80,6 +80,6 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - MCP
-- Webhooks
+- Webhook
 token_urls: []
 ---

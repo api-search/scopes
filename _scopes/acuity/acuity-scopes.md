@@ -68,7 +68,7 @@ tags:
 - Calendar
 - Booking
 - HIPAA
-- Webhooks
+- Webhook
 token_urls:
 - https://acuityscheduling.com/oauth2/token
 ---

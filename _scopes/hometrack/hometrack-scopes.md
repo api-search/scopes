@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\ndocs: https://developer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/scopes/hometrack-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Valuation

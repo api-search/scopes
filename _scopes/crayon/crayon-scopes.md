@@ -50,7 +50,7 @@ tags:
 - Battlecards
 - Win-Loss Analysis
 - Product Marketing
-- AI
+- Artificial Intelligence
 - MCP
 token_urls:
 - https://app.crayon.co/oauth/token/

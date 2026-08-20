@@ -61,11 +61,11 @@ summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Foundation Models
 - Large Language Models
 - Generative AI
-- Computer Vision
+- Computer-Vision
 - LLM API
 token_urls:
 - https://signin.sensecore.cn/oauth2/token

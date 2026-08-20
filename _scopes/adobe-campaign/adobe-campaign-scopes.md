@@ -142,7 +142,7 @@ tags:
 - Adobe Experience Cloud
 - SMS
 - Push Notifications
-- Workflow Automation
+- Workflow-Automation
 - Privacy
 token_urls: []
 ---

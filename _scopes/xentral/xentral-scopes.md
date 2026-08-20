@@ -1004,13 +1004,13 @@ summary_line: 100 scopes
 tags:
 - Company
 - ERP
-- eCommerce
+- E-Commerce
 - Fulfillment
 - Warehousing
 - Invoicing
 - Accounting
-- Orders
-- Products
+- Order
+- Product
 - Germany
 token_urls: []
 ---

@@ -57,6 +57,6 @@ tags:
 - Azure
 - Integration
 - iPaaS
-- Workflow
+- Workflows
 token_urls: []
 ---

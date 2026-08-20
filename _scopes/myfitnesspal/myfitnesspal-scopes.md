@@ -72,8 +72,8 @@ tags:
 - Fitness Tracking
 - Food Diary
 - Wellness
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 token_urls:
 - https://api.myfitnesspal.com/v2/oauth2/token
 ---

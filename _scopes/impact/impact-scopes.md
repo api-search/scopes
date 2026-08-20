@@ -59,7 +59,7 @@ source_yaml: "name: Impact OAuth Scopes and Token Scoping\ndescription: The OAut
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/scopes/impact-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Affiliate
+- Affiliates
 - Partnerships
 - Performance Marketing
 - Commission

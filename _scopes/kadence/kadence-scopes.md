@@ -118,7 +118,7 @@ tags:
 - Visitor Management
 - Workplace Analytics
 - Facilities
-- OAuth
+- Authentication
 token_urls:
 - https://login.onkadence.co/oauth2/token
 ---

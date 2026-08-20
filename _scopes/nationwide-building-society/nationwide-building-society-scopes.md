@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/scopes/nationwide-building-society-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Open Banking

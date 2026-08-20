@@ -752,7 +752,7 @@ tags:
 - Sequence Management
 - Experiment Workflows
 - REST
-- Webhooks
+- Webhook
 token_urls:
 - /api/v2/token
 - /oauth/token

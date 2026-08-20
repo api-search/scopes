@@ -316,7 +316,7 @@ tags:
 - Forecasting
 - Analytics
 - Spreadsheets
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://api.cubesoftware.com/o/token/
 ---

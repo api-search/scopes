@@ -170,7 +170,7 @@ tags:
 - Performance Management
 - Onboarding
 - Zoho
-- OAuth 2.0
+- Authentication
 token_urls:
 - https://accounts.zoho.com/oauth/v2/token
 ---

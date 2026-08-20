@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.coa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coast-capital/refs/heads/main/scopes/coast-capital-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Credit Union

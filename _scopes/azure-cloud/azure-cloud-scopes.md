@@ -79,17 +79,16 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-cl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/scopes/azure-cloud-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
-- AI
+- Artificial Intelligence
 - Cloud Computing
 - Databases
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
-- Machine Learning
+- Machine-Learning
 - Microsoft
 - Networking
-- PaaS
-- Platform as a Service
-- SaaS
+- Platform-as-a-Service
+- Software-as-a-Service
 - Storage
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token

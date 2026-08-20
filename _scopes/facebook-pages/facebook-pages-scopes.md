@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/facebook
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/scopes/facebook-pages-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
-- Social Media
+- Social-Media
 - Facebook
 - Meta Graph API
 - Pages

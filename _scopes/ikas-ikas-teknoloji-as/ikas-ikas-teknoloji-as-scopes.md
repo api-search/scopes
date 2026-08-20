@@ -99,15 +99,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-tekn
 summary_line: 10 scopes · clientCredentials/authorizationCode
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Storefront
-- Orders
-- Products
+- Order
+- Product
 - Inventory
 - GraphQL
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 - SDK
 - MCP
 token_urls:

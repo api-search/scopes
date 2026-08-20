@@ -604,21 +604,21 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cobot/refs/hea
 summary_line: 60 scopes · authorizationCode
 tags:
 - Company
-- Coworking
+- Co-Working
 - Workspace Management
 - Space Management
-- Real Estate
+- Real-Estate
 - Bookings
 - Reservations
 - Memberships
 - Invoicing
 - Payments
-- Events
+- Event
 - Access Control
-- SaaS
+- Software-as-a-Service
 - Germany
 - JSON:API
-- OAuth
+- Authentication
 token_urls:
 - https://www.cobot.me/oauth/access_token
 ---

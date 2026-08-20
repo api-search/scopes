@@ -159,12 +159,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workstream/ref
 summary_line: 10 scopes · implicit
 tags:
 - Company
-- Hr Tech
+- HR Tech
 - Hiring
 - Payroll
 - Onboarding
 - Applicant Tracking
 - Hourly Workforce
-- Restaurants
+- Restaurant
 token_urls: []
 ---

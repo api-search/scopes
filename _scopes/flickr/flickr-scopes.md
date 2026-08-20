@@ -258,7 +258,7 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Photography
 - Photos
-- Social Media
+- Social-Media
 - Public APIs
 token_urls:
 - https://www.flickr.com/services/oauth/access_token

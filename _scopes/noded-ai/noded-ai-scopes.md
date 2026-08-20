@@ -51,11 +51,11 @@ tags:
 - Churn
 - Retention
 - Revenue Operations
-- SaaS
+- Software-as-a-Service
 - AI Agents
 - GraphQL
 - MCP
-- Agent Native
+- agent-native
 - Customer Context Graph
 token_urls: []
 ---

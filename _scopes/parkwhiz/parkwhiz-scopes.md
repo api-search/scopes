@@ -113,7 +113,7 @@ tags:
 - Bookings
 - Transportation
 - Location
-- Events
+- Event
 token_urls:
 - https://api.parkwhiz.com/v4/oauth/token
 ---

@@ -61,7 +61,7 @@ tags:
 - Cloud
 - Networking
 - Edge
-- AI
+- Artificial Intelligence
 - DNS
 - Infrastructure
 - CDN

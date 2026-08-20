@@ -126,7 +126,7 @@ tags:
 - Vrbo
 - Booking.com
 - Expedia
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://api.hostaway.com/v1/accessTokens
 ---

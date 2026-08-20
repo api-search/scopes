@@ -271,7 +271,7 @@ tags:
 - CAPIF
 - NGSI-LD
 - IoT
-- Open Source
+- Open-Source
 - Europe
 - OpenAPI
 - Network Slicing

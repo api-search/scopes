@@ -55,16 +55,16 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: https://portal.de
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deep-instinct/refs/heads/main/scopes/deep-instinct-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- cybersecurity
-- endpoint-security
+- Cybersecurity
+- Endpoint Security
 - malware-prevention
-- ransomware
-- deep-learning
-- threat-prevention
-- data-security
-- edr
-- soc-automation
-- mcp
+- Ransomware
+- Deep Learning
+- Threat Prevention
+- Data Security
+- EDR
+- SOC Automation
+- MCP
 token_urls:
 - https://portal.deepinstinct.com/oauth/token
 ---

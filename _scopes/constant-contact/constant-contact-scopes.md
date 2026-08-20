@@ -484,7 +484,7 @@ tags:
 - Campaigns
 - Contacts
 - Email Marketing
-- Events
+- Event
 - Reporting
 - SMS
 - Surveys

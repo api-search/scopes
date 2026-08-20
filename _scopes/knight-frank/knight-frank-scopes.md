@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  authentic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/scopes/knight-frank-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Commercial Real Estate

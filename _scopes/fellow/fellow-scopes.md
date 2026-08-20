@@ -73,14 +73,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/he
 summary_line: 5 scopes · authorizationCode
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Meetings
-- AI
+- Artificial Intelligence
 - Meeting Notes
 - Transcription
 - Productivity
 - Action Items
-- Webhooks
+- Webhook
 - MCP
 token_urls:
 - https://fellow.app/mcp/token

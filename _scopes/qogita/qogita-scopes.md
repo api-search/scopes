@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qogita/refs/he
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Wholesale
 - Marketplace
 - Health and Beauty

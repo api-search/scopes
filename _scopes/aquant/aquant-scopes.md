@@ -133,9 +133,9 @@ tags:
 - Manufacturing
 - Medical Devices
 - Industrial Equipment
-- Knowledge Management
+- Knowledge-Management
 - Voice AI
-- Model Context Protocol
+- MCP
 - Predictive Maintenance
 token_urls:
 - https://login.aquant.ai/oauth2/v1/token

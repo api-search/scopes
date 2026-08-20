@@ -140,7 +140,7 @@ tags:
 - Video
 - Networking
 - Marketing
-- Events
-- Webhooks
+- Event
+- Webhook
 token_urls: []
 ---

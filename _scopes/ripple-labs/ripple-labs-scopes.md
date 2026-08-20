@@ -264,15 +264,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripple-labs/re
 summary_line: 2 scopes · clientCredentials
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Payments
 - Cross-Border Payments
 - Blockchain
 - Cryptocurrency
-- Stablecoin
+- Stablecoins
 - Digital Assets
 - Custody
-- Wallet
+- Wallets
 - Fintech
 token_urls:
 - https://api.ripple.com/v2/oauth/token

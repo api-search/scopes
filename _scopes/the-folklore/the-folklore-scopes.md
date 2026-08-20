@@ -64,7 +64,7 @@ tags:
 - Wholesale
 - Marketplace
 - Retail
-- E-commerce
+- E-Commerce
 - Fashion
 - Agentic Commerce
 - Shopify

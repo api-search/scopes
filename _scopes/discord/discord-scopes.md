@@ -451,7 +451,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discord/refs/h
 summary_line: 33 scopes · implicit/clientCredentials/authorizationCode
 tags:
 - Chat
-- Communication
+- Communications
 - Gaming
 - Messaging
 - Social

@@ -90,9 +90,9 @@ tags:
 - CRM Enrichment
 - Sales Engagement
 - GraphQL
-- Model Context Protocol
+- MCP
 - Revenue Operations
-- Go To Market
+- Go-To-Market
 token_urls:
 - https://leadiq-mcp-prod.us.auth0.com/oauth/token
 ---

@@ -114,7 +114,7 @@ tags:
 - Sales Enablement
 - Marketing
 - No-Code
-- Webhooks
+- Webhook
 - CRM Integration
 - Sales Automation
 - MCP

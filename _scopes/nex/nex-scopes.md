@@ -203,9 +203,8 @@ tags:
 - Context
 - Memory
 - MCP
-- Model Context Protocol
-- Workflow Automation
-- Integrations
+- Workflow-Automation
+- Integration
 - Developer API
 token_urls: []
 ---

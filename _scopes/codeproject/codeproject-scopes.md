@@ -131,10 +131,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/codeproj
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/scopes/codeproject-scopes.yml
 summary_line: 1 scope · clientCredentials/authorizationCode/implicit
 tags:
-- AI
+- Artificial Intelligence
 - Articles
 - Community
-- Computer Vision
+- Computer-Vision
 - Developer Community
 - Face Recognition
 - Forum

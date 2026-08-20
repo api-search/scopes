@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://online.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steinbach-credit-union/refs/heads/main/scopes/steinbach-credit-union-scopes.yml
 summary_line: 7 scopes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Credit Union

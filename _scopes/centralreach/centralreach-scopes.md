@@ -67,7 +67,7 @@ tags:
 - Behavioral Health
 - Special Education
 - Billing
-- OAuth
+- Authentication
 token_urls:
 - https://login.centralreach.com/connect/token
 ---

@@ -635,7 +635,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/alto-ap
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/scopes/alto-vebra-scopes.yml
 summary_line: 104 scopes · clientCredentials
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Listings
@@ -645,8 +645,8 @@ tags:
 - Conveyancing
 - Estate Agency
 - Tenancy
-- Webhooks
-- Events
+- Webhook
+- Event
 - Lettings
 - Sales Progression
 - Property Data

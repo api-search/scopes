@@ -228,7 +228,7 @@ tags:
 - Accounts Receivable
 - Accounts Payable
 - Invoicing
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://api.rillet.com/oauth2/token
 ---

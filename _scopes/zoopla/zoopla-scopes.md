@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\ndocs: https://developer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/scopes/zoopla-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Listings
 - Property Portal

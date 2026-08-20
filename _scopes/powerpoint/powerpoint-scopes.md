@@ -72,7 +72,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powerpoint/ref
 summary_line: 4 scopes · authorizationCode
 tags:
 - Microsoft Office
-- Microsoft 365
+- Microsoft-365
 - Presentations
 - Productivity
 - Documents

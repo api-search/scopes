@@ -51,7 +51,7 @@ tags:
 - Financial Advisors
 - RIA
 - Investing
-- OAuth
+- Authentication
 token_urls:
 - https://openapi.altruist.com/altruist-open-api/oauth2/token
 ---

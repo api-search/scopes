@@ -219,8 +219,8 @@ summary_line: 1 scope · clientCredentials
 tags:
 - Membership Management
 - Associations
-- Nonprofit
-- Events
+- Non-Profit
+- Event
 - Payments
 token_urls:
 - https://oauth.wildapricot.org/auth/token

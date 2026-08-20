@@ -89,7 +89,7 @@ tags:
 - Hospitality Cloud
 - Hotels
 - Housing
-- OAuth 2.0
+- Authentication
 - Passkey
 - Reservations
 - RFP

@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/rtr-bala
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/scopes/payments-canada-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - Canada
 - Payment Infrastructure

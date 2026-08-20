@@ -30,14 +30,14 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Baby Products
 - Consumer Goods
 - Apparel
 - Direct to Consumer
 - Shopify
 - MCP
-- Agent Native
+- agent-native
 - Universal Commerce Protocol
 token_urls: []
 ---

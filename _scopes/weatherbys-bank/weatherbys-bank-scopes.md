@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://openban
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/scopes/weatherbys-bank-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

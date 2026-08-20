@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/scopes/azure-openai-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Generative AI
 - Azure

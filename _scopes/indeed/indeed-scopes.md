@@ -75,7 +75,7 @@ tags:
 - Employment
 - Hiring
 - Job Search
-- Jobs
+- Job
 - Recruiting
 token_urls:
 - https://apis.indeed.com/oauth/v2/tokens

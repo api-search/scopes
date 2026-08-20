@@ -482,17 +482,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gofundme/refs/
 summary_line: 2 scopes · clientCredentials/password
 tags:
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Crowdfunding
 - Donations
 - Payments
 - Peer-to-Peer Fundraising
 - Recurring Giving
-- Events
+- Event
 - Philanthropy
 - Social Impact
 - CRM
-- Webhooks
+- Webhook
 token_urls:
 - /oauth2/auth
 ---

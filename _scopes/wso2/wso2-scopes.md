@@ -862,7 +862,7 @@ summary_line: 51 scopes · password
 tags:
 - API Management
 - Gateways
-- Open Source
+- Open-Source
 - API Lifecycle
 - GraphQL
 - SOAP

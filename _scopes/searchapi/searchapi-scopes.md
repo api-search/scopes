@@ -42,14 +42,14 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://www.searc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs/heads/main/scopes/searchapi-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- search
-- serp-api
-- google-search
-- web-scraping
-- search-data
-- market-intelligence
-- seo
-- mcp
+- Search
+- SERP API
+- Google Search
+- Web Scraping
+- Search data
+- Market Intelligence
+- SEO
+- MCP
 - agent-native
 token_urls: []
 ---

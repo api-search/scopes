@@ -543,12 +543,12 @@ tags:
 - Commerce
 - Disputes
 - Invoices
-- Orders
+- Order
 - Payments
 - Payouts
-- Subscriptions
+- Subscription
 - Tokens
-- Webhooks
+- Webhook
 token_urls:
 - /v1/oauth2/token
 - https://api-m.paypal.com/v1/oauth2/token

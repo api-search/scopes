@@ -816,7 +816,7 @@ tags:
 - Deliverability
 - Lead Database
 - Email Verification
-- Webhooks
+- Webhook
 token_urls:
 - https://api.instantly.ai/oauth/token
 ---

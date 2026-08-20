@@ -92,18 +92,18 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: https://www.brook
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/scopes/brooklinen-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
-- ecommerce
-- retail
-- direct-to-consumer
-- home-goods
-- bedding
-- shopify
-- agentic-commerce
-- universal-commerce-protocol
-- mcp
+- E-Commerce
+- Retail
+- Direct to Consumer
+- Home Goods
+- Bedding
+- Shopify
+- Agentic Commerce
+- Universal Commerce Protocol
+- MCP
 - agent-native
-- catalog
-- checkout
+- Catalog
+- Checkout
 token_urls:
 - https://account.brooklinen.com/authentication/oauth/token
 ---

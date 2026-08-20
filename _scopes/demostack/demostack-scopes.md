@@ -63,13 +63,13 @@ tags:
 - Sales Demo
 - Demo Automation
 - Product Simulation
-- Webhooks
+- Webhook
 - CRM Integration
 - Sales Enablement
 - Presales
 - Sales Engineering
 - Analytics
-- AI
+- Artificial Intelligence
 - MCP
 token_urls:
 - https://mcp.demostack.com/token

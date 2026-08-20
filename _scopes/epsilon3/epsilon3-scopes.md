@@ -120,13 +120,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/
 summary_line: 15 scopes · authorizationCode
 tags:
 - Company
-- Operations
 - Aerospace
 - Space
 - Defense
 - Manufacturing
 - Procedures
-- Workflow
+- Workflows
 - Inventory
 - Telemetry
 - Test Management

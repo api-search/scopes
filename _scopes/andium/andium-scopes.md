@@ -68,10 +68,10 @@ tags:
 - Remote Monitoring
 - Methane Detection
 - Emissions
-- Computer Vision
+- Computer-Vision
 - Edge Computing
 - Commerce
-- Model Context Protocol
+- MCP
 token_urls:
 - https://shopify.com/authentication/85535392078/oauth/token
 ---

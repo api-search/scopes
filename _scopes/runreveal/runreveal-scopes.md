@@ -211,7 +211,7 @@ tags:
 - Observability
 - SQL
 - MCP
-- AI
+- Artificial Intelligence
 token_urls:
 - https://www-api.runreveal.com/oauth/token
 ---

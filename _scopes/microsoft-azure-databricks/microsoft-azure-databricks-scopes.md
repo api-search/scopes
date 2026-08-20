@@ -73,7 +73,7 @@ tags:
 - Apache Spark
 - Big Data
 - Data Engineering
-- Machine Learning
+- Machine-Learning
 token_urls:
 - https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token
 ---

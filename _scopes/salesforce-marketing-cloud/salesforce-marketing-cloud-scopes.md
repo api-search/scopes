@@ -249,7 +249,7 @@ tags:
 - Mobile Messaging
 - Personalization
 - SMS
-- Webhooks
+- Webhook
 token_urls:
 - https://YOUR_SUBDOMAIN.auth.marketingcloudapis.com/v2/token
 ---

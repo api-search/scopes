@@ -591,10 +591,10 @@ tags:
 - Collaboration
 - Productivity
 - Project Management
-- Projects
+- Project
 - Task Management
-- Tasks
-- Workflow
+- Task
+- Workflows
 token_urls:
 - https://app.asana.com/-/oauth_token
 ---

@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/airship-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/scopes/airship-scopes.yml
 summary_line: 11 scopes · clientCredentials
 tags:
-- Notifications
+- Notification
 - Push
 - Email
 - Mobile

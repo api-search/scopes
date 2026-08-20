@@ -128,7 +128,7 @@ tags:
 - Media
 - AI Agents
 - MCP
-- OAuth
+- Authentication
 - Agent Readiness
 token_urls: []
 ---

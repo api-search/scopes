@@ -84,12 +84,12 @@ tags:
 - Networking
 - Network Security
 - Container Security
-- Cloud Native
+- Cloud-Native
 - Observability
 - Microsegmentation
 - Zero Trust
 - eBPF
-- Open Source
+- Open-Source
 token_urls:
 - https://www.tigera.io/oauth/token
 ---

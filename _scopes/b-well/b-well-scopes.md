@@ -94,7 +94,7 @@ tags:
 - Interoperability
 - Patient Access
 - Health Records
-- Model Context Protocol
+- MCP
 token_urls:
 - https://fhir-bwell.auth.us-east-1.amazoncognito.com/oauth2/token
 - https://client-sandbox-fhir.auth.us-east-1.amazoncognito.com/oauth2/token

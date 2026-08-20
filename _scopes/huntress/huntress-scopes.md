@@ -159,7 +159,7 @@ tags:
 - SIEM
 - Identity Threat Detection
 - MSP
-- Webhooks
+- Webhook
 token_urls:
 - https://api.huntress.io/v1/mcp/token
 ---

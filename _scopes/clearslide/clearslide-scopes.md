@@ -102,7 +102,7 @@ tags:
 - Analytics
 - Meetings
 - CRM
-- OAuth
+- Authentication
 - SCIM
 token_urls:
 - https://oauth.platform.clearslide.com/oauth/token

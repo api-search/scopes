@@ -332,7 +332,7 @@ tags:
 - Project Management
 - Contractors
 - Documentation
-- Webhooks
+- Webhook
 token_urls:
 - https://app.companycam.com/oauth/token
 ---

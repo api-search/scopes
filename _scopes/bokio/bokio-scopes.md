@@ -278,7 +278,7 @@ tags:
 - Payments
 - Sweden
 - SMB
-- OAuth
+- Authentication
 token_urls:
 - /token
 ---

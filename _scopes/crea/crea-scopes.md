@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://identit
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/scopes/crea-scopes.yml
 summary_line: 5 scopes · clientCredentials/authorizationCode
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/bank-of
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/scopes/bank-of-ireland-uk-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

@@ -139,20 +139,20 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: >-\n  https://moe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/scopes/moengage-scopes.yml
 summary_line: 5 scopes
 tags:
-- customer-engagement
-- marketing-automation
-- customer-data-platform
-- push-notifications
-- email
-- sms
-- whatsapp
-- in-app-messaging
-- segmentation
-- personalization
-- campaign-management
-- analytics
-- mobile-sdk
-- mcp
-- martech
+- Customer Engagement
+- Marketing Automation
+- Customer Data Platform
+- Push Notifications
+- Email
+- SMS
+- WhatsApp
+- In-App Messaging
+- Segmentation
+- Personalization
+- Campaign Management
+- Analytics
+- Mobile SDK
+- MCP
+- MarTech
 token_urls: []
 ---

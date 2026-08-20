@@ -98,7 +98,7 @@ tags:
 - DAM
 - Media
 - Metadata
-- Open Source
+- Open-Source
 - Search
 token_urls:
 - https://your-phraseanet-instance/api/oauthv2/token

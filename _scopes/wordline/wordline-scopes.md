@@ -499,7 +499,7 @@ tags:
 - Issuing
 - Open Banking
 - Digital Banking
-- FinTech
+- Fintech
 - Europe
 token_urls:
 - https://sbx-wlip.api1-eu2.psapigateway.preprod.giservices.io/token

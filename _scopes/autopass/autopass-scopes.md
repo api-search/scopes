@@ -71,8 +71,8 @@ tags:
 - Parking
 - Payments
 - Automotive
-- Financial Services
-- OAuth
+- Financial-Services
+- Authentication
 - Taiwan
 token_urls:
 - https://api.autopass.xyz/oauth/token

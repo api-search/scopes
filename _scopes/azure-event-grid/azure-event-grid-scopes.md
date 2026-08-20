@@ -56,10 +56,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-event-gr
 summary_line: 1 scope · clientCredentials
 tags:
 - Eventing
-- Event Driven
-- Pub Sub
+- Event-Driven
+- Pub-Sub
 - Messaging
-- Webhooks
+- Webhook
 - CloudEvents
 - Cloud
 - Azure

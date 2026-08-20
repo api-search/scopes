@@ -270,7 +270,7 @@ tags:
 - Voice
 - Video
 - Identity Verification
-- Webhooks
+- Webhook
 - Cloud Communications
 token_urls:
 - https://api.8x8.com/oauth/v2/token

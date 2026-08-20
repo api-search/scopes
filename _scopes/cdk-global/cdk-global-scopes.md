@@ -149,8 +149,8 @@ tags:
 - Digital Retail
 - Marketplace
 - Developer Platform
-- Events
-- Webhooks
+- Event
+- Webhook
 - AsyncAPI
 token_urls: []
 ---

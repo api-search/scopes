@@ -83,7 +83,7 @@ tags:
 - Music
 - Streaming
 - Audio
-- OAuth
+- Authentication
 - Tracks
 - Playlists
 token_urls:

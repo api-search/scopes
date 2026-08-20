@@ -143,7 +143,7 @@ tags:
 - Reporting
 - Compliance
 - Fintech
-- SaaS
+- Software-as-a-Service
 - Belgium
 token_urls:
 - https://live.getsilverfin.com/f/{firm_id}/oauth/token

@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://h
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/scopes/offerpad-scopes.yml
 summary_line: 9 scopes · authorizationCode
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - iBuyer
 - PropTech

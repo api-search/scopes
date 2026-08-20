@@ -49,6 +49,6 @@ tags:
 - Publishing
 - ByteDance
 - China
-- OAuth
+- Authentication
 token_urls: []
 ---

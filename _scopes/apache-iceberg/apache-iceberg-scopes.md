@@ -71,7 +71,7 @@ tags:
 - Apache
 - Data Lake
 - Lakehouse
-- Open Source
+- Open-Source
 - Table Format
 token_urls:
 - /v1/oauth/tokens

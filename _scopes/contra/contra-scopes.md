@@ -56,7 +56,7 @@ tags:
 - Talent
 - Hiring
 - Professional Network
-- Model Context Protocol
+- MCP
 - Developer API
 token_urls:
 - https://contra.com/api/mcp/oauth/token

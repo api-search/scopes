@@ -62,11 +62,11 @@ tags:
 - Company
 - Consumer
 - Retail
-- Ecommerce
+- E-Commerce
 - Apparel
 - Children
 - Shopify
-- Agent
+- Agents
 token_urls:
 - https://shopify.com/authentication/30430134331/oauth/token
 ---

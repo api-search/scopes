@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://auth.co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/scopes/corelogic-au-scopes.yml
 summary_line: 5 scopes · authorizationCode/clientCredentials/implicit
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Property Data
 - Valuation

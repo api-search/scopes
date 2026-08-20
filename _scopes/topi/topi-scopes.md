@@ -138,13 +138,12 @@ tags:
 - Company
 - Fintech
 - Hardware as a Service
-- Rental
+- Rentals
 - Embedded Finance
 - B2B Payments
 - Financing
 - Checkout
 - Germany
-- API
 token_urls:
 - https://identity.topi.eu/oauth2/token
 ---

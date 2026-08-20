@@ -54,15 +54,15 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Consumer
-- Restaurants
+- Restaurant
 - Reservations
 - Booking
 - Hospitality
-- Point of Sale
+- Point-of-Sale
 - Reviews
 - Marketplace
 - Travel and Dining
-- Webhooks
+- Webhook
 - France
 token_urls:
 - https://auth.thefork.io/oauth/token

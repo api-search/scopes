@@ -69,7 +69,6 @@ summary_line: 4 scopes · authorizationCode/deviceCode
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Agent Governance
 - Team Memory

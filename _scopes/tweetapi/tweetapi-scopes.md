@@ -53,18 +53,18 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: https://tweetapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tweetapi/refs/heads/main/scopes/tweetapi-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- twitter
-- x
-- social-media
-- social-data
-- search
-- analytics
-- research
-- developer-tools
-- mcp
+- Twitter
+- X
+- Social-Media
+- Social Data
+- Search
+- Analytics
+- Research
+- Developer Tools
+- MCP
 - agent-native
 - llms-txt
-- rest-api
+- REST API
 token_urls:
 - https://tweetapi.com/api/oauth/token
 ---

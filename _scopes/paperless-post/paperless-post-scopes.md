@@ -61,7 +61,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Invitations
-- Events
+- Event
 - Greeting Cards
 - Stationery
 - Consumer

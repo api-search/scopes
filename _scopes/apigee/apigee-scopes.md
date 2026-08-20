@@ -325,10 +325,9 @@ tags:
 - Enterprise
 - Generative AI
 - Hybrid
-- Integrations
+- Integration
 - Microservices
 - MCP
-- Model Context Protocol
 - Monetization
 token_urls:
 - https://oauth2.googleapis.com/token

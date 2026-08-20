@@ -227,8 +227,8 @@ tags:
 - Telehealth
 - Health and Wellness
 - REST API
-- OAuth2
-- Webhooks
+- Authentication
+- Webhook
 token_urls:
 - https://login.id.janeapp.com/realms/jane_partner_sandbox/protocol/openid-connect/token
 ---

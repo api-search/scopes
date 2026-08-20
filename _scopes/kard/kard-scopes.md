@@ -207,9 +207,9 @@ tags:
 - Fintech
 - Commerce Media
 - Advertising
-- Transactions
+- Transaction
 - Cashback
-- Webhooks
+- Webhook
 token_urls:
 - https://{client-subdomain}.getkard.com/v2/auth/token
 ---

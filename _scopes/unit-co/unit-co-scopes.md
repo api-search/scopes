@@ -319,8 +319,8 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.uni
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/scopes/unit-co-scopes.yml
 summary_line: 46 scopes
 tags:
-- FinTech
-- BaaS
+- Fintech
+- Backend-as-a-Service
 - Banking
 - Payments
 - Card Issuing

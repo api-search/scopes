@@ -241,11 +241,11 @@ tags:
 - Health
 - Healthcare
 - Artificial Intelligence
-- Speech to Text
+- Speech-to-Text
 - Medical Coding
 - Clinical Documentation
 - Agents
-- Machine Learning
+- Machine-Learning
 token_urls:
 - https://auth.eu.corti.app/realms/base/protocol/openid-connect/token
 ---

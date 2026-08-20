@@ -35,10 +35,9 @@ tags:
 - AI Agents
 - Revenue Intelligence
 - Sales
-- Go To Market
+- Go-To-Market
 - MCP
-- OAuth
-- Model Context Protocol
+- Authentication
 - Sales Intelligence
 - Enterprise Software
 token_urls: []

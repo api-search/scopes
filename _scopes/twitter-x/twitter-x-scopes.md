@@ -282,7 +282,7 @@ summary_line: 21 scopes · authorizationCode
 tags:
 - Company
 - Social
-- Social Media
+- Social-Media
 - Posts
 - Real-Time
 - Streaming

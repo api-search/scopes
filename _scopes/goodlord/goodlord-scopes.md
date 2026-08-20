@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/goodlor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/scopes/goodlord-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Management

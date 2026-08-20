@@ -367,7 +367,7 @@ tags:
 - Wires
 - FedNow
 - Cards
-- Financial Services
+- Financial-Services
 token_urls:
 - /v2/oauth/token/
 ---

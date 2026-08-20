@@ -30,7 +30,7 @@ tags:
 - Company
 - Loyalty
 - Rewards
-- Ecommerce
+- E-Commerce
 - Customer Engagement
 - Marketing
 - Retail

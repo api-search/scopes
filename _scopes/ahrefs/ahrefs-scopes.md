@@ -77,7 +77,7 @@ tags:
 - Rank Tracking
 - Site Audit
 - Brand Monitoring
-- Social Media
+- Social-Media
 token_urls:
 - https://ahrefs.com/oauth/token
 ---

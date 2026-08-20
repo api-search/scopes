@@ -66,7 +66,7 @@ tags:
 - Reservations
 - Booking
 - Dining
-- Point Of Sale
+- Point-of-Sale
 - Marketplace
 token_urls:
 - https://auth.thefork.io/oauth/token

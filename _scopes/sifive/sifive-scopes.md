@@ -64,7 +64,7 @@ tags:
 - Hardware
 - Developer Tools
 - Electronic Design Automation
-- OAuth
+- Authentication
 token_urls:
 - https://scs.sifive.com/o/token/
 ---

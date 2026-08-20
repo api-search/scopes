@@ -273,12 +273,12 @@ tags:
 - Company
 - Logistics
 - Shipping
-- Ecommerce
+- E-Commerce
 - Cross-Border
 - Fulfillment
 - Customs
 - Tracking
-- Webhooks
+- Webhook
 token_urls:
 - https://accounts.boxc.com/auth/v1/token
 ---

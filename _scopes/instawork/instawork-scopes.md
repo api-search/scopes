@@ -56,7 +56,7 @@ tags:
 - Workforce
 - Labor
 - MCP
-- Agent
+- Agents
 token_urls:
 - https://finch.instawork.com/mcp/partner/token
 ---

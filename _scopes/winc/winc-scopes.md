@@ -29,7 +29,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Wine
-- Ecommerce
+- E-Commerce
 - Retail
 - Subscription
 - Agentic Commerce

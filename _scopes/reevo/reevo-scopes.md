@@ -156,7 +156,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reevo/refs/hea
 summary_line: 22 scopes · authorizationCode
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Sales
 - CRM
 - Revenue Operations

@@ -443,8 +443,8 @@ tags:
 - Retail
 - Omnichannel
 - Order Management
-- Point of Sale
-- Ecommerce
+- Point-of-Sale
+- E-Commerce
 - Fulfillment
 - Inventory
 - Store Operations

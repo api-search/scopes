@@ -83,7 +83,7 @@ summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - Company
 - Brand Management
-- Image Generation
+- Image-Generation
 - Artificial Intelligence
 - Agents
 - MCP

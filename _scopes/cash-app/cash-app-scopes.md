@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/scopes/cash-app-scopes.yml
 summary_line: 4 scopes
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - United States
 - Fintech

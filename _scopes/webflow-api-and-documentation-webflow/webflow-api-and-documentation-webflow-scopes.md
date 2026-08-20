@@ -348,7 +348,7 @@ summary_line: 29 scopes · authorizationCode
 tags:
 - CMS
 - Content Management
-- Ecommerce
+- E-Commerce
 - No-Code
 - Publishing
 - Web Development

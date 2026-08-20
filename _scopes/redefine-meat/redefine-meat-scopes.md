@@ -79,7 +79,7 @@ tags:
 - WooCommerce
 - WordPress
 - Retail
-- Model Context Protocol
+- MCP
 token_urls:
 - https://www.redefinemeat.com/oauth/token
 ---

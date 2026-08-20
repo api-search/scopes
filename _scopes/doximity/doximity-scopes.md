@@ -160,11 +160,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/
 summary_line: 21 scopes · authorizationCode
 tags:
 - Company
-- Healthtech
+- Health Tech
 - Identity
-- OAuth
-- OpenID Connect
 - Authentication
+- OpenID Connect
 - Physician Network
 - Healthcare
 - SSO

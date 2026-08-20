@@ -62,8 +62,8 @@ tags:
 - Company
 - Fashion
 - Retail
-- E-commerce
-- Direct-to-Consumer
+- E-Commerce
+- Direct to Consumer
 - Apparel
 - Leather Goods
 - Sustainable Fashion

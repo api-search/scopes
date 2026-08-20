@@ -85,7 +85,7 @@ tags:
 - Wealth Management
 - Asset Servicing
 - Asset Management
-- Financial Services
+- Financial-Services
 - United States
 token_urls:
 - https://login.ntrs.com/oauth2/aus1m4yuzpqNFht7o0h8/v1/token

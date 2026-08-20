@@ -64,7 +64,7 @@ tags:
 - Sales Enablement
 - Customer Success
 - Revenue Operations
-- AI
+- Artificial Intelligence
 - MCP
 token_urls:
 - https://app.matik.io/api/v1/oauth/token/

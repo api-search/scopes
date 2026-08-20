@@ -55,7 +55,7 @@ summary_line: 1 scope · implicit
 tags:
 - Database
 - Managed Database
-- Open Source
+- Open-Source
 - PostgreSQL
 - Relational
 token_urls: []

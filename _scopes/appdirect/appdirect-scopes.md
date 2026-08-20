@@ -562,8 +562,8 @@ tags:
 - Billing
 - Reseller
 - Cloud Distribution
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 token_urls:
 - https://{marketplaceURL}/oauth2/token
 ---

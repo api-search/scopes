@@ -68,8 +68,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-t
 summary_line: 2 scopes · authorizationCode
 tags:
 - Google Cloud
-- Jobs
-- Machine Learning
+- Job
+- Machine-Learning
 - Recruitment
 - Search
 - Talent

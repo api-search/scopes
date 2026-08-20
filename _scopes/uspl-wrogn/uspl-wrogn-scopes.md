@@ -48,7 +48,7 @@ tags:
 - Consumer
 - Fashion
 - Apparel
-- eCommerce
+- E-Commerce
 - Retail
 - India
 - Agentic Commerce

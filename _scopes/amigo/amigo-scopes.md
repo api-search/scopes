@@ -683,7 +683,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amigo/refs/hea
 summary_line: 53 scopes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - AI Agents
 - Voice

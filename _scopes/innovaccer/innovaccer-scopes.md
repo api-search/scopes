@@ -38,6 +38,6 @@ tags:
 - Artificial Intelligence
 - Data Platform
 - Design System
-- Model Context Protocol
+- MCP
 token_urls: []
 ---

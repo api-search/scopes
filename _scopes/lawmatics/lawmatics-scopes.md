@@ -54,11 +54,11 @@ tags:
 - Marketing Automation
 - Matter Management
 - E-Signature
-- Workflow Automation
+- Workflow-Automation
 - Legal Tech
 - Time and Billing
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 token_urls:
 - https://api.lawmatics.com/oauth/token
 ---

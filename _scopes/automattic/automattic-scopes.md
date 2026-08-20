@@ -223,9 +223,9 @@ tags:
 - Analytics
 - Domains
 - E-Commerce
-- Open Source
+- Open-Source
 - Developer Tools
-- Model Context Protocol
+- MCP
 token_urls:
 - https://public-api.wordpress.com/oauth2-1/token
 ---

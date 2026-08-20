@@ -80,7 +80,7 @@ tags:
 - Data Preparation
 - Data Science
 - ETL
-- Machine Learning
+- Machine-Learning
 - Predictive Analytics
 token_urls:
 - https://{serverHostname}/webapi/oauth2/token

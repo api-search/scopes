@@ -61,13 +61,13 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Shopping
-- Ecommerce
+- E-Commerce
 - Retail
 - Commerce
 - Agent Commerce
 - MCP
 - Shopify
-- AI
+- Artificial Intelligence
 token_urls:
 - https://shopify.com/authentication/69560926386/oauth/token
 ---

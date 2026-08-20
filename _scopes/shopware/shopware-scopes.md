@@ -107,12 +107,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopware/refs/
 summary_line: 1 scope · clientCredentials/password
 tags:
 - E-Commerce
-- Open Source
+- Open-Source
 - Headless Commerce
 - B2B
 - B2C
 - REST
-- OAuth2
+- Authentication
 token_urls:
 - /api/oauth/token
 ---

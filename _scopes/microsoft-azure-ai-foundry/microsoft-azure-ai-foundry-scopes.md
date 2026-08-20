@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsof
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-ai-foundry/refs/heads/main/scopes/microsoft-azure-ai-foundry-scopes.yml
 summary_line: 1 scope · implicit
 tags:
-- AI
+- Artificial Intelligence
 - AI Services
 - Generative AI
 - Microsoft Azure

@@ -158,12 +158,12 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Payments
 - Checkout
-- Subscriptions
-- POS
+- Subscription
+- Point-of-Sale
 - QR
-- PIX
-- SDKs
-- Wallet
+- Pix
+- SDK
+- Wallets
 - Acquiring
 - Lending
 - Issuing

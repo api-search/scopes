@@ -123,11 +123,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/
 summary_line: 8 scopes · authorizationCode
 tags:
 - Photos
-- Images
+- Image
 - Photography
 - Stock Photos
 - Creative
-- Open Source
+- Open-Source
 - Media
 token_urls:
 - https://unsplash.com/oauth/token

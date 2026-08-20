@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/obie-ac
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-scotland/refs/heads/main/scopes/bank-of-scotland-scopes.yml
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

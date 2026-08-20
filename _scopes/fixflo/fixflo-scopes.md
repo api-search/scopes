@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: well-known/fixf
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixflo/refs/heads/main/scopes/fixflo-scopes.yml
 summary_line: 4 scopes
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Property Management
 - PropTech

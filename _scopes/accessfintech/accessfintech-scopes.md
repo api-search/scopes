@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accessfintech/
 summary_line: 7 scopes · authorizationCode/implicit/deviceCode
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Post-Trade
 - Settlement

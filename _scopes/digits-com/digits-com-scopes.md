@@ -108,8 +108,8 @@ tags:
 - Bookkeeping
 - Finance
 - General Ledger
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 token_urls:
 - https://connect.digits.com/v1/oauth/token
 ---

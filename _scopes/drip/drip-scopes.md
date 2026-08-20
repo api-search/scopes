@@ -92,7 +92,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Email Marketing
 - Marketing Automation
-- Ecommerce
+- E-Commerce
 - Customer Engagement
 - Campaigns
 - Workflows

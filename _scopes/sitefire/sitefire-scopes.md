@@ -81,7 +81,7 @@ tags:
 - Artificial Intelligence
 - Content Generation
 - MCP
-- Agent
+- Agents
 token_urls:
 - https://qhfesxmsojjleewjufcn.supabase.co/auth/v1/oauth/token
 ---

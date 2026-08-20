@@ -74,7 +74,7 @@ tags:
 - Prototyping
 - Hardware
 - Fulfillment
-- eCommerce
+- E-Commerce
 token_urls:
 - https://api.shapeways.com/oauth2/token
 ---

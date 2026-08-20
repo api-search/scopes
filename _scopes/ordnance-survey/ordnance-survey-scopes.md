@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/ordnanc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/scopes/ordnance-survey-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - Land Registry
 - Geospatial

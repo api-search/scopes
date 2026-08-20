@@ -171,7 +171,7 @@ tags:
 - Accounts Payable
 - Bill Pay
 - Accounting
-- Reimbursements
+- Reimbursement
 token_urls:
 - https://api.ramp.com/developer/v1/token
 ---

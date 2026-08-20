@@ -110,12 +110,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs
 summary_line: 2 scopes · authorizationCode
 tags:
 - ERP
-- E-commerce
+- E-Commerce
 - Order Management
 - Inventory
 - Warehouse Management
 - Manufacturing
-- Operations
 token_urls:
 - https://{merchant_id}.fulfil.io/oauth/token
 ---

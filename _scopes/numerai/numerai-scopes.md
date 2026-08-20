@@ -69,13 +69,12 @@ summary_line: 8 scopes
 tags:
 - Company
 - Fintech
-- Machine Learning
+- Machine-Learning
 - Data Science
 - Hedge Fund
 - GraphQL
 - Crypto
 - Quantitative Finance
 - Tournament
-- API
 token_urls: []
 ---

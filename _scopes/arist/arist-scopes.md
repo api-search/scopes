@@ -131,7 +131,7 @@ tags:
 - Messaging
 - Artificial Intelligence
 - Employee Communications
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://auth.arist.app/oauth/token
 ---

@@ -127,7 +127,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/langflow
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/scopes/langflow-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
 - Artificial Intelligence
 - Agents
 - Workflows
@@ -136,7 +135,7 @@ tags:
 - LangChain
 - RAG
 - MCP
-- Open Source
+- Open-Source
 - FastAPI
 token_urls:
 - api/v1/login

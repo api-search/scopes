@@ -182,7 +182,7 @@ tags:
 - GraphQL
 - CRM
 - Customer Experience
-- Open Source
+- Open-Source
 - Marketing Automation
 - Sales Pipeline
 - Help Desk
@@ -192,7 +192,7 @@ tags:
 - Apollo Federation
 - Project Management
 - Knowledge Base
-- Webhooks
+- Webhook
 - Agent Skills
 token_urls: []
 ---

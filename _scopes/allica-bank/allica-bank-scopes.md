@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/allica-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/scopes/allica-bank-scopes.yml
 summary_line: 17 scopes · clientCredentials/authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

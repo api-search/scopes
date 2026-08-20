@@ -63,7 +63,7 @@ tags:
 - Consumer
 - Beauty
 - Cosmetics
-- Ecommerce
+- E-Commerce
 - Retail
 - Agent Commerce
 - Universal Commerce Protocol

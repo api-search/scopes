@@ -87,7 +87,6 @@ tags:
 - Company
 - Authentication
 - OpenID Connect
-- OAuth 2.0
 - Single Sign-On
 - Identity
 token_urls: []

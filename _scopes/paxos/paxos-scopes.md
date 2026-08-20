@@ -624,7 +624,7 @@ tags:
 - Trading
 - Custody
 - Blockchain
-- Financial Services
+- Financial-Services
 - Digital Assets
 token_urls:
 - https://oauth.paxos.com/oauth2/token

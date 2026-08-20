@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pushbull
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/scopes/pushbullet-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- Notifications
+- Notification
 - Messaging
 - Push Notifications
 - Device Sync

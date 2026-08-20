@@ -89,7 +89,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aifi/refs/head
 summary_line: 10 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Company
-- Computer Vision
+- Computer-Vision
 - Retail
 - Autonomous Checkout
 - Spatial Intelligence
@@ -97,7 +97,7 @@ tags:
 - Analytics
 - Identity
 - Fraud Prevention
-- Point of Sale
+- Point-of-Sale
 token_urls:
 - https://auth.aifi.com/realms/aifi/protocol/openid-connect/token
 ---

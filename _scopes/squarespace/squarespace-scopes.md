@@ -87,6 +87,6 @@ tags:
 - Payments
 - Retail
 - Website Builder
-- Webhooks
+- Webhook
 token_urls: []
 ---

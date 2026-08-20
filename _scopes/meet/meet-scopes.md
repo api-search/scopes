@@ -86,7 +86,7 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Video Conferencing
 - Meetings
-- Communication
+- Communications
 - Collaboration
 - Google Workspace
 - Recordings

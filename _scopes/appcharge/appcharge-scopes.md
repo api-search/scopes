@@ -166,7 +166,7 @@ tags:
 - Checkout
 - In-Game Purchases
 - Web Store
-- eCommerce
+- E-Commerce
 token_urls:
 - https://api.appcharge.com/oauth/token
 ---

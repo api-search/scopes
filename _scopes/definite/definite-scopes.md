@@ -54,7 +54,7 @@ tags:
 - Semantic Layer
 - Artificial Intelligence
 - AI Agents
-- Model Context Protocol
+- MCP
 - ETL
 token_urls:
 - https://api.definite.app/oauth/token

@@ -73,7 +73,7 @@ summary_line: 2 scopes · clientCredentials
 tags:
 - CME Group
 - Derivatives
-- Financial Services
+- Financial-Services
 - OSTTRA
 - Portfolio Compression
 - Post-Trade Services

@@ -138,8 +138,8 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge Management
-- Model Context Protocol
+- Knowledge-Management
+- MCP
 - Document Intelligence
 - Agents
 - Enterprise AI

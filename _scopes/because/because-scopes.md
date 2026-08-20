@@ -61,7 +61,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Health
 - Incontinence
 - Senior Care

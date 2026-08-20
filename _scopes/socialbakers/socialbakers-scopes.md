@@ -90,7 +90,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Marketing
-- Social Media
+- Social-Media
 - Analytics
 - Social Media Analytics
 - Social Listening

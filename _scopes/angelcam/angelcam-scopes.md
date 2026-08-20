@@ -509,14 +509,14 @@ summary_line: 51 scopes · authorizationCode/password
 tags:
 - Company
 - Video Surveillance
-- Cameras
+- Camera
 - IP Camera
 - Cloud Recording
 - Video Streaming
 - IoT
 - ONVIF
 - Security
-- Webhooks
+- Webhook
 token_urls:
 - https://my.angelcam.com/oauth/token/
 - https://api.angelcam.com/oauth/token/

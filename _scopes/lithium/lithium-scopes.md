@@ -678,11 +678,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/h
 summary_line: 1 scope · clientCredentials/authorizationCode
 tags:
 - Company
-- Martech
+- MarTech
 - Community
-- Social Media
+- Social-Media
 - Customer Engagement
-- Customer Support
+- Customer-Support
 - Chatbots
 - Messaging
 - Analytics

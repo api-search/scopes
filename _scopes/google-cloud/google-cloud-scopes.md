@@ -63,8 +63,8 @@ tags:
 - Cloud Computing
 - Data Analytics
 - Infrastructure
-- Machine Learning
-- Platform as a Service
+- Machine-Learning
+- Platform-as-a-Service
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

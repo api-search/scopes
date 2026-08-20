@@ -41,14 +41,14 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Commerce
-- E-commerce
+- E-Commerce
 - Retail
 - Commerce Cloud
 - Storefront
 - Shopper
 - Catalog
-- Orders
-- SaaS
+- Order
+- Software-as-a-Service
 - Salesforce
 token_urls: []
 ---

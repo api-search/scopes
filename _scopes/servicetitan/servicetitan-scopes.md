@@ -326,7 +326,7 @@ tags:
 - Pricebook
 - Marketing
 - Memberships
-- Webhooks
+- Webhook
 token_urls:
 - https://auth.servicetitan.io/connect/token
 ---

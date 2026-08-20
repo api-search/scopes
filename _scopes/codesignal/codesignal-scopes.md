@@ -57,7 +57,7 @@ tags:
 - Assessment
 - Education
 - GraphQL
-- Webhooks
+- Webhook
 token_urls:
 - https://codesignal.com/learn/api/v1/oauth/token
 ---

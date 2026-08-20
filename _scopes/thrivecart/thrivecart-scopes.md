@@ -50,12 +50,12 @@ tags:
 - Checkout
 - Shopping Cart
 - Payments
-- eCommerce
-- Subscriptions
+- E-Commerce
+- Subscription
 - Affiliate Marketing
 - Learning Management
 - Creator Economy
-- Webhooks
+- Webhook
 token_urls:
 - https://thrivecart.com/authorization/token
 ---

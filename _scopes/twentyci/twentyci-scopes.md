@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: derived\nsource: openapi/twentyci
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/scopes/twentyci-scopes.yml
 summary_line: 1 scope · password
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Data

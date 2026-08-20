@@ -60,7 +60,7 @@ tags:
 - Healthcare
 - Electronic Medical Records
 - GraphQL
-- Webhooks
+- Webhook
 - Geospatial
 token_urls: []
 ---

@@ -193,7 +193,7 @@ tags:
 - Hive
 - Presto
 - Enterprise
-- AI
+- Artificial Intelligence
 - Marketing
 - Analytics
 token_urls:

@@ -61,7 +61,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Marketplace
 - Live Shopping
 - Luxury Resale

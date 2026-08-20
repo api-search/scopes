@@ -364,7 +364,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planday/refs/h
 summary_line: 78 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Workforce Management
 - Scheduling
 - Time Tracking
@@ -373,7 +373,7 @@ tags:
 - Hospitality
 - Retail
 - REST
-- OAuth2
+- Authentication
 token_urls:
 - https://id.planday.com/connect/token
 ---

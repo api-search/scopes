@@ -148,8 +148,8 @@ summary_line: 10 scopes · authorizationCode
 tags:
 - Chat
 - Collaboration
-- Communication
-- Microsoft 365
+- Communications
+- Microsoft-365
 - Productivity
 - Video Conferencing
 token_urls:

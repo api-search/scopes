@@ -101,9 +101,9 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://api.posti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/scopes/postiz-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- Social Media
+- Social-Media
 - Scheduling
-- Open Source
+- Open-Source
 - Content
 - Marketing
 - Agents

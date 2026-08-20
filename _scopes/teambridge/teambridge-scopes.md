@@ -73,7 +73,7 @@ tags:
 - Payroll
 - HR
 - Frontline
-- Webhooks
+- Webhook
 token_urls:
 - https://teambridge.us.auth0.com/oauth/token
 ---

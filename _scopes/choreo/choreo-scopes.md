@@ -152,10 +152,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/choreo-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/scopes/choreo-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- AI Apps
+- Ai Apps
 - API Management
 - CI/CD
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Developer Portal
 - FinOps
@@ -166,7 +166,7 @@ tags:
 - Observability
 - Orchestration
 - Platform Engineering
-- Pro-Code API Composition
+- Pro-Code-API-Composition
 - Unified
 - WSO2
 - Workflows

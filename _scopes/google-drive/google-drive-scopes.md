@@ -102,9 +102,9 @@ summary_line: 13 scopes · authorizationCode
 tags:
 - Cloud Storage
 - Collaboration
-- Document Management
-- Drive
-- Files
+- Document-Management
+- Drives
+- File
 - Google
 - Storage
 token_urls:

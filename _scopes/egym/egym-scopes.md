@@ -93,11 +93,11 @@ tags:
 - Connected Equipment
 - Gym Management
 - Member Management
-- Check-In
+- Check-in
 - Measurements
 - Workouts
 - Analytics
-- Webhooks
+- Webhook
 - Germany
 token_urls:
 - /api/v1/oauth/token

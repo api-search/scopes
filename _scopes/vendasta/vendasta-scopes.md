@@ -638,7 +638,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/
 summary_line: 73 scopes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Marketplace
 - SMB
 - White Label

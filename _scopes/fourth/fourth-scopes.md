@@ -42,13 +42,13 @@ summary_line: 1 scope · clientCredentials
 tags:
 - Company
 - Workforce Management
-- Restaurants
+- Restaurant
 - Hospitality
 - Inventory Management
 - Payroll
 - Scheduling
-- Human Capital Management
-- Point of Sale
+- HCM
+- Point-of-Sale
 - Food and Beverage
 token_urls:
 - '[ROOT]/oauth/connect/token'

@@ -29,12 +29,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1mind/refs/hea
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AI Agents
 - Sales
 - Go-To-Market
 - Conversational AI
 - Sales Enablement
-- RevOps
+- Revenue Operations
 token_urls: []
 ---

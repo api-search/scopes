@@ -41,13 +41,13 @@ tags:
 - Ad Intelligence
 - Competitive Intelligence
 - Marketing
-- AI
+- Artificial Intelligence
 - MCP
-- SaaS
+- Software-as-a-Service
 - OpenAPI
 - REST
 - Analytics
-- Social Media
-- Agent Native
+- Social-Media
+- agent-native
 token_urls: []
 ---

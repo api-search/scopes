@@ -66,10 +66,10 @@ tags:
 - AML
 - Accreditation
 - Compliance
-- Financial Services
+- Financial-Services
 - Onboarding
 - Investor Verification
-- Webhooks
+- Webhook
 token_urls:
 - https://api.parallelmarkets.com/v1/oauth/token
 ---

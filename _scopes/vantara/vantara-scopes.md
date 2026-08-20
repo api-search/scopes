@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vantara/refs/h
 summary_line: 7 scopes · authorizationCode
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Session Replay
 - Product Analytics
 - Developer Tools

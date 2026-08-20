@@ -88,7 +88,7 @@ tags:
 - Customer Experience
 - Product Management
 - Surveys
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://id.usersnap.com/auth/oauth2/token
 ---

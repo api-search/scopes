@@ -236,7 +236,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://partner
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/scopes/keller-williams-scopes.yml
 summary_line: 40 scopes · authorizationCode/implicit/clientCredentials/tokenExchange/jwtBearer
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Residential Real Estate
 - Brokerage

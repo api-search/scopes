@@ -116,7 +116,7 @@ tags:
 - Retail
 - Syndication
 - Data Management
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://app.salsify.com/oauth/token
 ---

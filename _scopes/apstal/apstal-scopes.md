@@ -57,21 +57,21 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://apstal.co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/scopes/apstal-scopes.yml
 summary_line: 3 scopes · authorizationCode/refreshToken
 tags:
-- analytics
-- web-analytics
-- privacy
-- session-replay
-- heatmaps
-- mcp
+- Analytics
+- Web Analytics
+- Privacy
+- Session Replay
+- Heatmaps
+- MCP
 - agent-native
-- cookieless
+- Cookieless
 - llms-txt
-- bigquery
-- gdpr
-- a2a
-- agent-skills
-- bot-detection
-- core-web-vitals
+- BigQuery
+- GDPR
+- A2A
+- Agent Skills
+- Bot Detection
+- Core Web Vitals
 token_urls:
 - https://apstal.com/api/auth/token
 ---

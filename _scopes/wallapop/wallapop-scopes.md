@@ -100,11 +100,11 @@ tags:
 - Company
 - Consumer
 - Marketplace
-- Ecommerce
-- Second-Hand
+- E-Commerce
+- Secondhand
 - Classifieds
 - Shipping
-- Webhooks
+- Webhook
 token_urls:
 - https://iam.wallapop.com/realms/wallapop-connect/protocol/openid-connect/token
 ---

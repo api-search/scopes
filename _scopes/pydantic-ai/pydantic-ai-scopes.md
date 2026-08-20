@@ -338,7 +338,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pydantic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/scopes/pydantic-ai-scopes.yml
 summary_line: 38 scopes · authorizationCode
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Python
 - LLM

@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/obie-acc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/scopes/vanquis-banking-group-scopes.yml
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

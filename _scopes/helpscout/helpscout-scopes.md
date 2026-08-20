@@ -139,12 +139,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/helpscou
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/scopes/helpscout-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Customer Support
+- Customer-Support
 - Help Desk
 - Email
 - Live Chat
 - Knowledge Base
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://api.helpscout.net/v2/oauth2/token
 ---

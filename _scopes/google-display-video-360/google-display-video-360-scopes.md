@@ -86,7 +86,7 @@ tags:
 - Video Ads
 - Advertising
 - AdTech
-- Demand Side Platform
+- Demand-Side Platform
 - Media Buying
 - Audiences
 - Google Marketing Platform

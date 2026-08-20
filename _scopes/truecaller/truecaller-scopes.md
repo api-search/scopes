@@ -82,7 +82,7 @@ tags:
 - Caller ID
 - Phone Verification
 - Identity
-- OAuth
+- Authentication
 - Spam Detection
 - Communications
 - Mobile SDK

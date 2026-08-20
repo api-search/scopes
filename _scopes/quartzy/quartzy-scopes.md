@@ -82,7 +82,7 @@ tags:
 - Procurement
 - Ordering
 - Laboratory
-- Webhooks
+- Webhook
 token_urls:
 - https://api.quartzy.com/oauth/token
 ---

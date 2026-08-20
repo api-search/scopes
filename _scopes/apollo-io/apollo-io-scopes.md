@@ -613,7 +613,7 @@ tags:
 - Sales Engagement
 - Conversation Intelligence
 - MCP
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://app.apollo.io/api/v1/oauth/token
 - https://mcp.apollo.io/api/v1/oauth/token

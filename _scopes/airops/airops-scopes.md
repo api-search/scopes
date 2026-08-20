@@ -69,8 +69,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airops/refs/he
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
-- Applications
-- AI
+- Application
+- Artificial Intelligence
 - Content
 - SEO
 - AEO

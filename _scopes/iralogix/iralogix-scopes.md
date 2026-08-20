@@ -106,7 +106,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iralogix/refs/
 summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Retirement
 - IRA
 - Recordkeeping

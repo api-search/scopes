@@ -368,11 +368,11 @@ tags:
 - Marketplace
 - Retail
 - Merchants
-- Orders
-- Products
+- Order
+- Product
 - Fulfillment
 - Shopping
-- OAuth
+- Authentication
 token_urls:
 - https://merchant.wish.com/api/v3/oauth/access_token
 ---

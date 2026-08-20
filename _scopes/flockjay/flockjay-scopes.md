@@ -36,9 +36,9 @@ tags:
 - Revenue Operations
 - AI Coaching
 - Content Management
-- SaaS
+- Software-as-a-Service
 - MCP
-- Agent Native
-- OAuth
+- agent-native
+- Authentication
 token_urls: []
 ---

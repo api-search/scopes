@@ -72,10 +72,9 @@ tags:
 - Company
 - Bitcoin Services
 - Cryptocurrency
-- Financial Services
+- Financial-Services
 - Banking
-- OAuth
-- API
+- Authentication
 token_urls:
 - https://river.com/oauth2/token
 ---

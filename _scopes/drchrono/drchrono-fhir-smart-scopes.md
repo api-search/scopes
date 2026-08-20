@@ -1025,8 +1025,8 @@ tags:
 - SMART on FHIR
 - USCDI
 - Interoperability
-- Webhooks
-- OAuth 2.0
+- Webhook
+- Authentication
 - ONC Certified
 - Telehealth
 - Revenue Cycle Management

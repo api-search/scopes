@@ -189,8 +189,8 @@ summary_line: 11 scopes · authorizationCode
 tags:
 - Company
 - Commercial Real Estate
-- Real Estate
-- Proptech
+- Real-Estate
+- PropTech
 - CRE Financing
 - Lending
 - CRM

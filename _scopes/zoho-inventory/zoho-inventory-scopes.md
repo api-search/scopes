@@ -944,7 +944,7 @@ tags:
 - Purchase Orders
 - Stock Adjustment
 - Shipments
-- Items
-- E-commerce
+- Item
+- E-Commerce
 token_urls: []
 ---

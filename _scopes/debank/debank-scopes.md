@@ -73,18 +73,18 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://docs.cl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/scopes/debank-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
-- web3
-- defi
-- blockchain
-- crypto
-- portfolio-tracking
-- on-chain-data
-- wallet
+- Web3
+- DeFi
+- Blockchain
+- Crypto
+- Portfolio Tracking
+- On-Chain Data
+- Wallets
 - token-data
-- nft
-- ethereum
-- oauth
-- market-data
+- NFT
+- Ethereum
+- Authentication
+- Market Data
 token_urls:
 - https://api.connect.debank.com/oauth/token
 ---

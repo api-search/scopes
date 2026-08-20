@@ -77,6 +77,9 @@ tags:
 - Location
 - Data
 - GIS
+- OGC
+- STAC
+- WMTS
 - Company
 token_urls:
 - https://login.planet.com/oauth/token

@@ -466,7 +466,7 @@ tags:
 - Marketing
 - Audiences
 - Campaign Management
-- Model Context Protocol
+- MCP
 token_urls:
 - https://api2.madhive.com/oauth/token
 ---

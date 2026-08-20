@@ -62,7 +62,7 @@ tags:
 - Company
 - Consumer
 - Consumer Goods
-- Ecommerce
+- E-Commerce
 - Retail
 - Baby
 - Personal Care

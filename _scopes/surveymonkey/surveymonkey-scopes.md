@@ -128,7 +128,7 @@ tags:
 - Feedback
 - NPS
 - Forms
-- OAuth
+- Authentication
 token_urls:
 - https://api.surveymonkey.com/oauth/token
 ---

@@ -61,7 +61,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Consumer Goods
-- E-commerce
+- E-Commerce
 - Retail
 - Baby Care
 - Personal Care

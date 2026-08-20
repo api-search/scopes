@@ -273,7 +273,7 @@ tags:
 - Advertising
 - Communities
 - Content
-- Social Media
+- Social-Media
 - Social News
 token_urls:
 - https://www.reddit.com/api/v1/access_token

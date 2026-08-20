@@ -45,7 +45,7 @@ tags:
 - CRM
 - Marketing Automation
 - Email Marketing
-- Ecommerce
+- E-Commerce
 - Landing Pages
 - Membership Sites
 - MCP

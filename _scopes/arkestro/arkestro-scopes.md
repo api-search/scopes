@@ -138,18 +138,18 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: https://api.arkes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/scopes/arkestro-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
-- procurement
-- sourcing
-- supply-chain
-- spend-management
-- e-sourcing
-- supplier-management
-- purchase-orders
+- Procurement
+- Sourcing
+- Supply Chain
+- Spend Management
+- eSourcing
+- Supplier Management
+- Purchase Orders
 - procurement-analytics
-- enterprise-software
+- Enterprise Software
 - predictive-procurement
-- mcp
-- webhooks
+- MCP
+- Webhook
 token_urls:
 - https://api.arkestro.com/oauth/token
 ---

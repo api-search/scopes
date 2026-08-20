@@ -297,13 +297,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facilio/refs/h
 summary_line: 7 scopes · authorizationCode/password
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Facility Management
 - CMMS
 - Property Operations
 - Maintenance
 - Asset Management
-- Real Estate
+- Real-Estate
 - IoT
 - Buildings
 token_urls:

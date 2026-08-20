@@ -419,7 +419,7 @@ tags:
 - Video
 - Decentralized
 - Federation
-- Open Source
+- Open-Source
 - ActivityPub
 - Self-Hosted
 - Streaming

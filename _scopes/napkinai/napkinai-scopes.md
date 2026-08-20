@@ -57,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/napkinai/refs/
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Visualization
 - Diagrams
 - Charts

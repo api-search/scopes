@@ -562,7 +562,7 @@ tags:
 - Enterprise Software
 - Financial Management
 - HCM
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://wd2-impl-services1.workday.com/ccx/oauth2/{tenant}/token
 ---

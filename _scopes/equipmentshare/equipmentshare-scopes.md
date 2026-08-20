@@ -58,7 +58,7 @@ tags:
 - Equipment Rental
 - GraphQL
 - Developer Platform
-- OAuth
+- Authentication
 token_urls:
 - https://equipmentshare-erp.us.auth0.com/oauth/token
 ---

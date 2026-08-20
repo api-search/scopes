@@ -52,7 +52,7 @@ tags:
 - Skincare
 - Beauty
 - Cosmetics
-- Ecommerce
+- E-Commerce
 - Shopify
 - Commerce
 - Agent Commerce

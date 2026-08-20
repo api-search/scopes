@@ -134,6 +134,6 @@ tags:
 - MCP
 - Fintech
 - Cards
-- Onramp
+- On-Ramp
 token_urls: []
 ---

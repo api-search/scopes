@@ -44,12 +44,12 @@ summary_line: 2 scopes · clientCredentials
 tags:
 - Company
 - Website Builder
-- eCommerce
+- E-Commerce
 - CMS
 - Bookings
 - Payments
 - Headless
-- SaaS
-- No Code
+- Software-as-a-Service
+- No-Code
 token_urls: []
 ---

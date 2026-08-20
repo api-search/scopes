@@ -89,16 +89,16 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://zillapi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/scopes/zillapi-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- real estate
-- proptech
-- property data
-- zillow
-- zestimate
-- valuation
+- Real-Estate
+- PropTech
+- Property Data
+- Zillow
+- Zestimate
+- Valuation
 - AVM
-- listings
+- Listings
 - MCP
-- AI agent
+- AI Agent
 - REST API
 token_urls:
 - https://api.zillapi.com/oauth/token

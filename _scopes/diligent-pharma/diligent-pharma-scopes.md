@@ -40,6 +40,6 @@ tags:
 - Compliance
 - GxP
 - Auditing
-- SaaS
+- Software-as-a-Service
 token_urls: []
 ---

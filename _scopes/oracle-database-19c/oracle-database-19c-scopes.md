@@ -63,12 +63,12 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Database
 - Enterprise
-- Json
+- JSON
 - Machine-Learning
-- Nosql
+- NoSQL
 - Oracle
-- Rest
-- Sql
+- REST
+- SQL
 token_urls:
 - https://{host}:{port}/ords/{schema}/oauth/token
 ---

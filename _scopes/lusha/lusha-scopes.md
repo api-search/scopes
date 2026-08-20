@@ -144,7 +144,7 @@ tags:
 - Intent
 - Signals
 - Lookalikes
-- Webhooks
+- Webhook
 - MCP
 token_urls:
 - https://auth.lusha.com/oauth/token

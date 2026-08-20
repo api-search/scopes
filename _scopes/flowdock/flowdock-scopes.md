@@ -148,7 +148,7 @@ tags:
 - Team Inbox
 - Collaboration
 - Real-Time Messaging
-- Integrations
+- Integration
 - Discontinued
 token_urls:
 - https://api.flowdock.com/oauth/token

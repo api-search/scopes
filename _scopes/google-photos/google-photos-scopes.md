@@ -80,7 +80,7 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Albums
 - Google
-- Images
+- Image
 - Media
 - Photos
 - Sharing

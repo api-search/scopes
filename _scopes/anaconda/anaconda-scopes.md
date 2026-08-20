@@ -209,7 +209,7 @@ summary_line: 3 scopes · authorizationCode/clientCredentials/deviceCode/passwor
 tags:
 - Company
 - Data Science
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Package Management
 - Python

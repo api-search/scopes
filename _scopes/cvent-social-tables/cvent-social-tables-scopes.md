@@ -162,7 +162,7 @@ tags:
 - Diagramming
 - Event Design
 - Event Management
-- Events
+- Event
 - Floor Plans
 - Hospitality
 - Hotel

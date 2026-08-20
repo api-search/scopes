@@ -118,7 +118,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads
 summary_line: 8 scopes · clientCredentials/authorizationCode
 tags:
 - Company
-- Edtech
+- EdTech
 - Learning
 - E-Learning
 - Corporate Training
@@ -126,7 +126,7 @@ tags:
 - Learning Management
 - LMS
 - Education
-- Webhooks
+- Webhook
 token_urls:
 - https://auth.go1.com/oauth/token
 ---

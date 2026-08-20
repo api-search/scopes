@@ -722,7 +722,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/basware/refs/h
 summary_line: 86 scopes · clientCredentials
 tags:
 - E-Invoicing
-- Purchase-to-Pay
+- Purchase-To-Pay
 - Accounts Payable
 - Procurement
 - Electronic Invoicing

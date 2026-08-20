@@ -307,7 +307,7 @@ summary_line: 20 scopes · clientCredentials
 tags:
 - Email Marketing
 - Marketing Automation
-- Ecommerce
+- E-Commerce
 - SMS Marketing
 - Customer Engagement
 - Segmentation

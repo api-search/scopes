@@ -298,14 +298,14 @@ summary_line: 23 scopes · authorizationCode
 tags:
 - Chess
 - Games
-- Open Source
-- Nonprofit
+- Open-Source
+- Non-Profit
 - Tournaments
 - Puzzles
 - Bots
 - Streaming
 - ND-JSON
-- OAuth
+- Authentication
 token_urls:
 - https://lichess.org/api/token
 ---

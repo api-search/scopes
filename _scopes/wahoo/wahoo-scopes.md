@@ -162,8 +162,8 @@ tags:
 - Wearables
 - Hardware
 - FIT Files
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 token_urls:
 - https://api.wahooligan.com/oauth/token
 ---

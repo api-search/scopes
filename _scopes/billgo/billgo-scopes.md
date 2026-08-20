@@ -77,7 +77,7 @@ summary_line: 8 scopes · authorizationCode
 tags:
 - Payments
 - Bill Pay
-- Financial Services
+- Financial-Services
 - Banking
 - ACH
 - Virtual Cards

@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardless/refs/
 summary_line: 1 scope · authorizationCode/clientCredentials/refreshToken
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Fintech
 - Credit Cards
 - Card Issuing

@@ -126,7 +126,7 @@ tags:
 - Enrollments
 - Coaching
 - Memberships
-- Transactions
+- Transaction
 token_urls:
 - https://developers.teachable.com/oauth/token
 ---

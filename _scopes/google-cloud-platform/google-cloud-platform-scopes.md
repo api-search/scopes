@@ -96,7 +96,7 @@ tags:
 - API Management
 - Cloud Computing
 - Infrastructure
-- Platform as a Service
+- Platform-as-a-Service
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

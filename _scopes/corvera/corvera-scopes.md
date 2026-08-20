@@ -69,7 +69,6 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - CPG
 - Consumer Packaged Goods
 - Retail

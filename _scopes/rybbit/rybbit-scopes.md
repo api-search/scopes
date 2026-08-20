@@ -206,7 +206,7 @@ tags:
 - Web Analytics
 - Product Analytics
 - Privacy
-- Open Source
+- Open-Source
 - Cookieless
 token_urls:
 - https://app.rybbit.io/api/auth/mcp/token

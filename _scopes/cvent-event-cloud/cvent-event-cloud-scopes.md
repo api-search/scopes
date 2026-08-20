@@ -2233,24 +2233,24 @@ tags:
 - Event Cloud
 - Event Management
 - Event Marketing
-- Events
+- Event
 - Exhibitors
 - Hybrid Events
 - MCP
-- OAuth 2.0
-- Onsite
+- Authentication
+- OnSite
 - OpenAPI
 - Overlay
 - Registration
 - REST
 - SCIM
-- SDKs
+- SDK
 - Sessions
 - Speakers
 - Surveys
 - Virtual Events
 - Webcasts
-- Webhooks
+- Webhook
 token_urls:
 - https://api-platform.cvent.com/ea/oauth2/token
 ---

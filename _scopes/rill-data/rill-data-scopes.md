@@ -64,7 +64,7 @@ tags:
 - Metrics
 - Data
 - OLAP
-- Open Source
+- Open-Source
 - Developer Tools
 token_urls:
 - https://admin.rilldata.com/auth/oauth/token

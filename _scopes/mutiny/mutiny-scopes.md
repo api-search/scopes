@@ -38,7 +38,7 @@ tags:
 - AI Agents
 - Sales Enablement
 - Account Based Marketing
-- Workflow Automation
-- Model Context Protocol
+- Workflow-Automation
+- MCP
 token_urls: []
 ---

@@ -56,7 +56,7 @@ tags:
 - Card Issuance
 - Foreign Exchange
 - Expense Management
-- Financial Services
+- Financial-Services
 - Singapore
 token_urls:
 - https://api.aspireapp.com/public/v1/login

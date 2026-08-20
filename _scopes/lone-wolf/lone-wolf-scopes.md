@@ -130,10 +130,10 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://gateway
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lone-wolf/refs/heads/main/scopes/lone-wolf-scopes.yml
 summary_line: 14 scopes
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - PropTech
-- Transactions
+- Transaction
 - Transaction Management
 - Brokerage Back Office
 - Real Estate Accounting

@@ -275,8 +275,8 @@ tags:
 - Human Resources
 - HR Tech
 - Postings
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 token_urls:
 - https://auth.lever.co/oauth/token
 ---

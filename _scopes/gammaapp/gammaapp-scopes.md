@@ -48,6 +48,6 @@ tags:
 - Productivity
 - MCP
 - Websites
-- Social Media
+- Social-Media
 token_urls: []
 ---

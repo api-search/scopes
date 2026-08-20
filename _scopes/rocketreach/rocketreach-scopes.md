@@ -59,6 +59,6 @@ tags:
 - Data Enrichment
 - Prospecting
 - Recruiting
-- Webhooks
+- Webhook
 token_urls: []
 ---

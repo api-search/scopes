@@ -131,13 +131,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roivant-scienc
 summary_line: 3 scopes · clientCredentials
 tags:
 - Biotech
-- Pharmaceutical
+- Pharmaceuticals
 - Drug Development
 - Clinical Trials
 - Health Data
 - Tokenization
 - Electronic Health Records
-- Real World Evidence
+- Real-World Evidence
 - Holding Company
 - Healthcare
 token_urls:

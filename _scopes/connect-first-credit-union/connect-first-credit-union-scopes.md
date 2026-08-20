@@ -27,7 +27,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.con
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connect-first-credit-union/refs/heads/main/scopes/connect-first-credit-union-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Canada
 - Credit Union

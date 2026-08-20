@@ -92,7 +92,7 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Checkout
 - Payments
-- eCommerce
+- E-Commerce
 - One-Click Checkout
 - Shopper Network
 - Fraud Protection

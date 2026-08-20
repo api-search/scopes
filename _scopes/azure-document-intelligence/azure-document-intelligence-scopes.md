@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-do
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/scopes/azure-document-intelligence-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- AI
+- Artificial Intelligence
 - Document AI
 - Azure
 - IDP

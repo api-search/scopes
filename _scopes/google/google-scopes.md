@@ -689,7 +689,7 @@ summary_line: 18 scopes · authorizationCode/implicit
 tags:
 - Advertising
 - Cloud
-- Developer
+- Developers
 - Google
 - Platform
 - Search

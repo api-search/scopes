@@ -51,7 +51,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Business Communications
 - Conversations
-- Customer Support
+- Customer-Support
 - Google
 - Messaging
 token_urls:

@@ -144,7 +144,7 @@ tags:
 - Style Guides
 - Components
 - Assets
-- Webhooks
+- Webhook
 token_urls:
 - /v1/oauth/token
 ---

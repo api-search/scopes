@@ -46,11 +46,10 @@ tags:
 - Company
 - Artificial Intelligence
 - Generative AI
-- Image Generation
+- Image-Generation
 - Video Generation
 - Creative Tools
 - MCP
-- Model Context Protocol
 token_urls:
 - https://openart.ai/suite/api/auth/oauth/token
 ---

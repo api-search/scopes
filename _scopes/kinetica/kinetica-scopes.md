@@ -55,20 +55,20 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: https://app.toolb
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/scopes/kinetica-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- database
-- analytics
+- Database
+- Analytics
 - gpu-acceleration
-- real-time-analytics
-- vector-search
-- graph-analytics
-- geospatial
-- time-series
-- sql
-- streaming
-- data-infrastructure
-- mcp
+- Real-Time Analytics
+- Vector Search
+- Graph Analytics
+- Geospatial
+- Time Series
+- SQL
+- Streaming
+- Data Infrastructure
+- MCP
 - agent-native
-- rag
+- RAG
 token_urls:
 - https://app.toolbelt.ai/oauth/token
 ---

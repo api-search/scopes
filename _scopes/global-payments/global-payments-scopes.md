@@ -81,11 +81,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/global-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/scopes/global-payments-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
-- eCommerce
+- E-Commerce
 - Payment Processing
 - Payment Technology
 - Payments
-- POS
+- Point-of-Sale
 - Fortune 1000
 token_urls:
 - https://apis.globalpay.com/oauth2/token

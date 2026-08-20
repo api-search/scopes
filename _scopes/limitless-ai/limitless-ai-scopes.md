@@ -85,13 +85,12 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: well-known/limi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/scopes/limitless-ai-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
-- AI
+- Artificial Intelligence
 - Wearable
 - Pendant
 - Meeting Notes
 - Lifelogs
 - Personal AI
-- API
 - MCP
 - OpenAPI
 token_urls:

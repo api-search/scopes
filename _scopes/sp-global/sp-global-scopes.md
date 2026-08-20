@@ -105,7 +105,7 @@ tags:
 - Market Intelligence
 - Mobility
 - Named Entity Recognition
-- Speech to Text
+- Speech-to-Text
 token_urls:
 - https://kfinance.kensho.com/integrations/token
 ---

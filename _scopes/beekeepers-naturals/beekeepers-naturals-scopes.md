@@ -69,7 +69,7 @@ tags:
 - Shopify
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 token_urls:
 - https://account.beekeepersnaturals.com/authentication/oauth/token
 ---

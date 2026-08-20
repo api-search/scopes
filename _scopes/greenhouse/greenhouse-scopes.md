@@ -139,7 +139,7 @@ tags:
 - ATS
 - Recruiting
 - Candidates
-- Jobs
+- Job
 - Onboarding
 - HR
 token_urls:

@@ -77,7 +77,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - CMS
-- eCommerce
+- E-Commerce
 - Headless
 - Website Builder
 token_urls:

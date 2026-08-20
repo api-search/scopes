@@ -98,11 +98,11 @@ tags:
 - Company
 - Estate Planning
 - Wealth Management
-- Financial Services
+- Financial-Services
 - Legal Tech
 - Document AI
 - Family Office
-- OAuth2
+- Authentication
 token_urls:
 - https://auth.withluminary.com/oauth2/token
 ---

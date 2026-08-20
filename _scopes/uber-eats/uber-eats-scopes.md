@@ -99,12 +99,12 @@ tags:
 - Uber Direct
 - Food Delivery
 - Last-Mile Logistics
-- Restaurants
+- Restaurant
 - Menus
-- Orders
+- Order
 - Fulfillment
-- Courier
-- OAuth2
+- Couriers
+- Authentication
 token_urls:
 - https://auth.uber.com/oauth/v2/token
 ---

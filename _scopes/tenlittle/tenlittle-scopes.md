@@ -57,11 +57,11 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Consumer Goods
 - Children
 - Footwear
-- Direct-to-Consumer
+- Direct to Consumer
 - Shopify
 token_urls:
 - https://shopify.com/authentication/26030735465/oauth/token

@@ -86,7 +86,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Company
 - A/B Testing
-- Ecommerce
+- E-Commerce
 - Pricing
 - Personalization
 - Conversion Rate Optimization
@@ -94,7 +94,7 @@ tags:
 - Analytics
 - Experimentation
 - MCP
-- Webhooks
+- Webhook
 - Profit Optimization
 token_urls:
 - https://ai.intelligems.io/oauth/token

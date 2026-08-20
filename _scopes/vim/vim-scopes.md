@@ -99,7 +99,7 @@ tags:
 - Interoperability
 - Value-Based Care
 - Care Gaps
-- OAuth
+- Authentication
 token_urls:
 - https://auth.getvim.com/oauth/token
 ---

@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/he
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 token_urls:
 - https://api.zubale.com/oauth2/token
 ---

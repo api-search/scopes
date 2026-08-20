@@ -50,7 +50,7 @@ tags:
 - Brokerage
 - Financial Education
 - MCP
-- Agent
+- Agents
 token_urls:
 - https://treasury.app/oauth/token
 ---

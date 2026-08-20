@@ -51,12 +51,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-play/re
 summary_line: 1 scope · authorizationCode
 tags:
 - Android
-- Apps
+- Application
 - Google Play
 - In-App Purchases
 - Mobile
 - Publishing
-- Subscriptions
+- Subscription
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

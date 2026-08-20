@@ -227,7 +227,7 @@ tags:
 - Tokenization
 - Cash Management
 - Payments
-- Webhooks
+- Webhook
 token_urls:
 - https://investor-auth.spiko.io/oauth2/token
 ---

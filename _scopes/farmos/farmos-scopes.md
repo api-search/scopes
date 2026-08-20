@@ -108,9 +108,9 @@ summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
 - Agriculture
 - Farm Management
-- Open Source
+- Open-Source
 - JSON:API
-- Record Keeping
+- Recordkeeping
 - Self-Hosted
 - Drupal
 token_urls:

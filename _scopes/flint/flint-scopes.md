@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flint/refs/hea
 summary_line: 7 scopes · authorizationCode
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketing
 - Landing Pages
 - Agents

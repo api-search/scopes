@@ -126,7 +126,7 @@ tags:
 - Marketing
 - Quizzes
 - Product Feeds
-- Webhooks
+- Webhook
 - Customer Data
 - JSON:API
 token_urls: []

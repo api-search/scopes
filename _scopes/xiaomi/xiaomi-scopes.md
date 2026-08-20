@@ -119,7 +119,7 @@ tags:
 - Mobile
 - Artificial Intelligence
 - Cloud Storage
-- Machine Learning
+- Machine-Learning
 token_urls:
 - https://account.xiaomi.com/oauth2/token
 ---

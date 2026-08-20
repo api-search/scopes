@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/scopes/realtor-ca-scopes.yml
 summary_line: 5 scopes · clientCredentials
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Listings
 - MLS

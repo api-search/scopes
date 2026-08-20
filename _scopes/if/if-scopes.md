@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/
 summary_line: 11 scopes · clientCredentials
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Embedded Finance
 - Banking as a Service
 - Payments
@@ -91,7 +91,6 @@ tags:
 - Foreign Exchange
 - Compliance
 - Open Banking
-- API
 token_urls:
 - https://account.integrated.finance/auth/realms/ifp/protocol/openid-connect/token
 ---

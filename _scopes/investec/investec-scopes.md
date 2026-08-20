@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/obie-ac
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/scopes/investec-scopes.yml
 summary_line: 4 scopes · clientCredentials/authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

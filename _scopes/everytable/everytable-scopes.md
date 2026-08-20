@@ -64,14 +64,14 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Food
-- Restaurants
+- Restaurant
 - Meal Delivery
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Shopify
 - Social Enterprise
 - Nutrition
-- Subscriptions
+- Subscription
 token_urls:
 - https://account.everytable.com/authentication/oauth/token
 ---

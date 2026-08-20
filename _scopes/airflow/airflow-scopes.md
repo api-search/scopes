@@ -197,7 +197,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Workflow Orchestration
 - Data Pipeline
-- Open Source
+- Open-Source
 - Apache
 - DAG
 - Scheduling

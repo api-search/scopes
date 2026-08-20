@@ -79,7 +79,7 @@ tags:
 - Customer Experience
 - Artificial Intelligence
 - Speech Analytics
-- Model Context Protocol
+- MCP
 - Agents
 token_urls:
 - https://clerk.voiceops.com/oauth/token

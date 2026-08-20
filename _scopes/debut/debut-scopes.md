@@ -37,7 +37,7 @@ tags:
 - Synthetic Biology
 - Artificial Intelligence
 - Manufacturing
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 token_urls: []
 ---

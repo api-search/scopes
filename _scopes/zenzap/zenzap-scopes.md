@@ -158,9 +158,9 @@ tags:
 - Collaboration
 - Chat
 - Bots
-- Webhooks
+- Webhook
 - Productivity
-- Tasks
+- Task
 token_urls:
 - https://api.zenzap.co/oauth/token
 ---

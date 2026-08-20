@@ -142,7 +142,7 @@ tags:
 - Linux Foundation
 - Scanning
 - SPDX
-- Open Source
+- Open-Source
 token_urls:
 - https://api.example.com/oauth2/authorize
 ---

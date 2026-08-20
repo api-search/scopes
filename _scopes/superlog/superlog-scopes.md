@@ -90,7 +90,7 @@ tags:
 - Metrics
 - Incident Management
 - AI Agents
-- Model Context Protocol
+- MCP
 - Developer Tools
 token_urls:
 - https://api.superlog.sh/oauth/token

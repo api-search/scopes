@@ -181,6 +181,6 @@ tags:
 - Booking
 - Channel Manager
 - Connectivity
-- Affiliate
+- Affiliates
 token_urls: []
 ---

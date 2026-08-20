@@ -157,7 +157,6 @@ tags:
 - Hub
 - Multi-User
 - Notebooks
-- OAuth2
 - Python
 token_urls:
 - /hub/api/oauth2/token

@@ -56,11 +56,11 @@ tags:
 - Company
 - Retail
 - Grocery
-- E-commerce
+- E-Commerce
 - Delivery
 - Logistics
 - MCP
-- OAuth
+- Authentication
 - Europe
 token_urls:
 - https://identity.rohlik.cz/oauth2/token

@@ -56,7 +56,6 @@ tags:
 - Lead Generation
 - Campaign Management
 - Customer Data
-- Webhooks
-- API
+- Webhook
 token_urls: []
 ---

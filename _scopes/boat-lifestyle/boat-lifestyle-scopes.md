@@ -64,7 +64,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Consumer Electronics
-- Ecommerce
+- E-Commerce
 - Retail
 - Audio
 - Wearables

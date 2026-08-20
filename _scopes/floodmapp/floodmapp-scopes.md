@@ -50,7 +50,7 @@ tags:
 - GIS
 - Emergency Management
 - Climate Risk
-- Machine Learning
+- Machine-Learning
 - Hydrology
 token_urls:
 - https://login.floodmapp.com/oauth2/token

@@ -906,7 +906,7 @@ tags:
 - Digital Transaction Management
 - Documents
 - Electronic Signatures
-- eSignature
+- E-Signature
 token_urls:
 - https://account.docusign.com/oauth/auth
 - https://account-d.docusign.com/oauth/token

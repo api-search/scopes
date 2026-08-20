@@ -69,23 +69,23 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://mcp.sta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/scopes/stayingapi-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- travel
-- hospitality
+- Travel
+- Hospitality
 - accommodation-data
 - hotel-api
-- vacation-rental
-- short-term-rental
-- airbnb
-- booking.com
-- vrbo
+- Vacation Rental
+- Short-Term Rental
+- Airbnb
+- Booking.com
+- Vrbo
 - google-hotels
 - cross-ota-price-comparison
-- availability
-- reviews
-- rest
-- mcp
+- Availability
+- Reviews
+- REST
+- MCP
 - agent-native
-- openapi
+- OpenAPI
 token_urls:
 - https://mcp.stayingapi.com/mcp/oauth/token
 ---

@@ -3658,16 +3658,15 @@ summary_line: 458 scopes · authorizationCode/clientCredentials
 tags:
 - CRM
 - Sales
-- Customer Relationship Management
 - Marketing Automation
 - Lead Management
 - Customer Engagement
 - Sales Automation
 - Contact Management
 - Pipeline Management
-- SaaS
+- Software-as-a-Service
 - OpenAPI
-- OAuth
+- Authentication
 token_urls:
 - https://accounts.zoho.com/oauth/v2/token
 ---

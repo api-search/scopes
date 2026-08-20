@@ -1007,7 +1007,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/he
 summary_line: 2 scopes
 tags:
 - Commerce
-- Financial Services
+- Financial-Services
 - Fintech
 - Payments
 - T1

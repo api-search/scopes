@@ -70,11 +70,11 @@ tags:
 - Mobile
 - Payments
 - In-App Purchases
-- Subscriptions
+- Subscription
 - Developer Platform
 - App Distribution
 - Advertising
-- OAuth
+- Authentication
 token_urls:
 - https://now.gg/accounts/oauth2/v1/token
 ---

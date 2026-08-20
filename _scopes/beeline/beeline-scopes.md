@@ -69,7 +69,7 @@ tags:
 - Maps
 - Mobile App
 - Consumer Electronics
-- Ecommerce
+- E-Commerce
 token_urls:
 - https://shopify.com/authentication/18978919/oauth/token
 ---

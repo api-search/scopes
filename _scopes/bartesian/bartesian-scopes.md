@@ -64,7 +64,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Retail
-- Ecommerce
+- E-Commerce
 - Consumer Products
 - Appliances
 - Beverages
@@ -72,7 +72,7 @@ tags:
 - Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 token_urls:
 - https://shopify.com/authentication/3860496433/oauth/token

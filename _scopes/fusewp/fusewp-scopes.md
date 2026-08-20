@@ -38,8 +38,8 @@ tags:
 - CRM
 - Integration
 - Data Synchronization
-- OAuth
+- Authentication
 - Plugins
-- No Code
+- No-Code
 token_urls: []
 ---

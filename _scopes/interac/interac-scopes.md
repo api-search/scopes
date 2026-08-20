@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://gateway
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/scopes/interac-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Payments
 - Canada
 - Interac

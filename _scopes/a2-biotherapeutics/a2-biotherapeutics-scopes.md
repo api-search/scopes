@@ -84,7 +84,7 @@ tags:
 - Pharmaceuticals
 - Clinical Trials
 - Healthcare
-- Model Context Protocol
+- MCP
 - WordPress
 token_urls:
 - https://www.a2bio.com/oauth/token

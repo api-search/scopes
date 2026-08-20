@@ -91,7 +91,7 @@ tags:
 - Command and Control
 - Geospatial
 - Situational Awareness
-- OAuth
+- Authentication
 - Video Streaming
 token_urls:
 - https://auth.legion-prod.picogrid.com/realms/legion/protocol/openid-connect/token

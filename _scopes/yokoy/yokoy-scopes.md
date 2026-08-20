@@ -180,7 +180,7 @@ tags:
 - Finance Automation
 - Corporate Cards
 - Fintech
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://accounts[.test].yokoy.ai/oauth2/token
 ---

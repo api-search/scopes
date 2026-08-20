@@ -116,14 +116,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/physna/refs/he
 summary_line: 6 scopes · authorizationCode
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - 3D
 - Geometric Search
 - Manufacturing
 - Engineering
-- Machine Learning
+- Machine-Learning
 - Search
-- Computer Vision
+- Computer-Vision
 - Product Development
 token_urls:
 - https://physna.okta.com/oauth2/default/v1/token

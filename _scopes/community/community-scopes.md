@@ -65,7 +65,7 @@ tags:
 - Conversational
 - Marketing
 - Creators
-- Webhooks
+- Webhook
 - Company
 token_urls:
 - /oauth/v1/token

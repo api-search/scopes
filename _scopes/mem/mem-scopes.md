@@ -101,7 +101,7 @@ summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
 - Company
 - Notes
-- Knowledge Management
+- Knowledge-Management
 - Productivity
 - Artificial Intelligence
 - Note Taking

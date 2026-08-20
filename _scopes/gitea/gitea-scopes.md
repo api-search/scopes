@@ -103,8 +103,8 @@ tags:
 - DevOps
 - CI/CD
 - Code Hosting
-- Open Source
-- Self Hosted
+- Open-Source
+- Self-Hosted
 - Package Registry
 - Issue Tracking
 - Pull Requests

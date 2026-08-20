@@ -53,8 +53,8 @@ tags:
 - Services
 - Vendor Management
 - Payments
-- OAuth
-- SaaS
+- Authentication
+- Software-as-a-Service
 - Procurement
 token_urls: []
 ---

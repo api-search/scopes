@@ -60,11 +60,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genspark/refs/
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - AI Agents
 - MCP
-- Model Context Protocol
 - Productivity
 - Automation
 - Search

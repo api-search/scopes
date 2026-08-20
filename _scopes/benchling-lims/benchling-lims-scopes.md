@@ -167,7 +167,7 @@ tags:
 - Inventory Management
 - Assay Management
 - Workflows
-- Webhooks
+- Webhook
 - REST
 token_urls:
 - https://{tenant}.benchling.com/api/v2/token

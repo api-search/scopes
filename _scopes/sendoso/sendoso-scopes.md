@@ -126,7 +126,7 @@ tags:
 - Employee Recognition
 - Account Based Marketing
 - SCIM Provisioning
-- Webhooks
+- Webhook
 token_urls:
 - https://app.sendoso.com/oauth/token
 ---

@@ -83,7 +83,7 @@ tags:
 - Collectibles
 - Catalog
 - Selling
-- Orders
+- Order
 token_urls:
 - https://accounts.stockx.com/oauth/token
 ---

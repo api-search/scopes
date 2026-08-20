@@ -416,7 +416,7 @@ tags:
 - Compensation
 - Skills
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 token_urls:
 - /v1/auth/oauth2/token
 ---

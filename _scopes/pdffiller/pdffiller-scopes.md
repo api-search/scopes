@@ -120,7 +120,7 @@ summary_line: 2 scopes · password/clientCredentials
 tags:
 - PDF
 - E-Signature
-- Document Management
+- Document-Management
 - Form Builder
 - PDF Editing
 - Electronic Signature

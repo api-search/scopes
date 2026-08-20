@@ -65,7 +65,7 @@ tags:
 - Gaming
 - Tournaments
 - GraphQL
-- Events
+- Event
 - Developer API
 token_urls:
 - https://api.start.gg/oauth/access_token

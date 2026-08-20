@@ -138,16 +138,16 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: https://auth.imme
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/scopes/leia-scopes.yml
 summary_line: 20 scopes · clientCredentials/authorizationCode
 tags:
-- 3d
-- spatial-computing
-- computer-vision
+- 3D
+- Spatial Computing
+- Computer-Vision
 - depth-estimation
-- image-processing
-- video-processing
-- generative-ai
-- displays
+- Image Processing
+- Video Processing
+- Generative AI
+- Displays
 - media-transformation
-- immersive-experiences
+- Immersive Experiences
 token_urls:
 - https://auth.immersity.ai/auth/realms/immersity/protocol/openid-connect/token
 ---

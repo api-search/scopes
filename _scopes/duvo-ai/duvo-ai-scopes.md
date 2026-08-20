@@ -223,12 +223,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/h
 summary_line: 8 scopes
 tags:
 - Company
-- Enterprise; Ai
+- Enterprise AI
 - Process Intelligence
 - Automation
 - Agents
 - SAP Migration
-- Operations
 - ERP
 - Transformation
 - Approvals

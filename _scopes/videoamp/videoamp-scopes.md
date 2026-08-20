@@ -152,16 +152,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/videoamp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/scopes/videoamp-scopes.yml
 summary_line: 4 scopes · authorizationCode/deviceAuthorization
 tags:
-- media-measurement
-- advertising
-- adtech
+- Media Measurement
+- Advertising
+- AdTech
 - tv-currency
-- audience-measurement
-- media-planning
-- streaming
-- attribution
-- data-collaboration
-- mcp
+- Audience Measurement
+- Media Planning
+- Streaming
+- Attribution
+- Data Collaboration
+- MCP
 - agent-native
 token_urls:
 - https://login.videoamp.com/oauth/token

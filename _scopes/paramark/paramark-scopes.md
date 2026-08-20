@@ -29,13 +29,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paramark/refs/
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Applications
+- Application
 - Marketing
 - Analytics
-- Measurement
+- Measurements
 - Marketing Mix Modeling
 - Incrementality
 - Advertising
-- AI
+- Artificial Intelligence
 token_urls: []
 ---

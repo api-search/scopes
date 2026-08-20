@@ -85,9 +85,9 @@ tags:
 - ERP
 - Distribution
 - Wholesale
-- E-Procurement
+- eProcurement
 - Supply Chain
-- Orders
+- Order
 token_urls:
 - https://api.recurrency.com/oauth/token
 - https://login.recurrency.ai/oauth/token

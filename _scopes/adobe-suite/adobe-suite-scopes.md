@@ -229,7 +229,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://raw.git
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-suite/refs/heads/main/scopes/adobe-suite-scopes.yml
 summary_line: 10 scopes
 tags:
-- Ai
+- Artificial Intelligence
 - Analytics
 - Automation
 - Commerce

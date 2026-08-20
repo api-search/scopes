@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://account
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/scopes/factiva-scopes.yml
 summary_line: 8 scopes · password/authorizationCode/implicit
 tags:
-- AI
+- Artificial Intelligence
 - Business Intelligence
 - Content Aggregation
 - Enterprise Data

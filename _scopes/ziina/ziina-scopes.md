@@ -128,6 +128,6 @@ tags:
 - UAE
 - MENA
 - Money Transfer
-- Wallet
+- Wallets
 token_urls: []
 ---

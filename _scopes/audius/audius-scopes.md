@@ -190,7 +190,7 @@ tags:
 - Streaming
 - Decentralized
 - Web3
-- Open Source
+- Open-Source
 - Blockchain
 token_urls:
 - /v1/oauth/token

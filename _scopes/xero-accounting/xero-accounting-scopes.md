@@ -111,7 +111,7 @@ tags:
 - Invoicing
 - Bookkeeping
 - Financial Reporting
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://identity.xero.com/connect/token
 ---

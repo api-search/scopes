@@ -103,19 +103,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-copilot
 summary_line: 5 scopes · authorizationCode
 tags:
 - Agents
-- AI
 - Artificial Intelligence
 - Code Generation
 - Code Review
-- Coding Agent
+- Coding Agents
 - Custom Instructions
 - Developer Tools
 - Extensions
 - IDE
-- Machine Learning
+- Machine-Learning
 - MCP
 - Metrics
-- Model Context Protocol
 - Productivity
 token_urls:
 - https://github.com/login/oauth/access_token

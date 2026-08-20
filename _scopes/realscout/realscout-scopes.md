@@ -45,7 +45,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Company
 - Enterprise
-- Real Estate
+- Real-Estate
 - PropTech
 - Lead Nurture
 - Home Search

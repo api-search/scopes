@@ -82,10 +82,10 @@ tags:
 - Transcription
 - Productivity
 - Collaboration
-- Model Context Protocol
+- MCP
 - Agents
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 token_urls:
 - https://authn.read.ai/oauth2/token
 ---

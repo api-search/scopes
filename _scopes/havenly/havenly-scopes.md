@@ -111,7 +111,7 @@ tags:
 - Marketplace
 - Design
 - Retail
-- AI
+- Artificial Intelligence
 token_urls:
 - https://api.havenly.com/oauth
 ---

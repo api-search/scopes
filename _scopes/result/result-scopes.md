@@ -51,21 +51,21 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Company
 - Business Operations
-- SaaS
+- Software-as-a-Service
 - Entrepreneurship
 - Payments
 - Marketing
 - No-Code
 - Startups
 - Artificial Intelligence
-- Backend as a Service
-- Model Context Protocol
+- Backend-as-a-Service
+- MCP
 - Agents
 - Database
 - Authentication
 - Storage
 - Serverless
-- Realtime
+- Real-Time
 token_urls:
 - https://api.descope.com/oauth2/v1/apps/token
 ---

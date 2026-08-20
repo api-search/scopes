@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel/refs/
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Web Search
 - Agents
 - Deep Research

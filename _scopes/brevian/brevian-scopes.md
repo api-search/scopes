@@ -49,7 +49,7 @@ tags:
 - Revenue Execution
 - AI Agents
 - CRM
-- Model Context Protocol
+- MCP
 - Enterprise
 token_urls:
 - https://app.brevian.ai/mcp/token

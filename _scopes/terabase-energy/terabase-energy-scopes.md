@@ -194,18 +194,18 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: https://docs.pl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terabase-energy/refs/heads/main/scopes/terabase-energy-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
-- solar
-- renewable-energy
-- energy-modeling
+- Solar
+- Renewable Energy
+- Energy Modeling
 - utility-scale-solar
-- simulation
-- photovoltaics
-- construction-technology
-- geospatial
+- Simulation
+- Photovoltaics
+- Construction Technology
+- Geospatial
 - terrain-analysis
-- climate-tech
-- mcp
-- energy-storage
+- Climate Tech
+- MCP
+- Energy Storage
 token_urls:
 - https://terabase-prd.auth.us-west-2.amazoncognito.com/oauth2/token
 ---

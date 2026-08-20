@@ -112,6 +112,6 @@ tags:
 - Collaboration
 - GraphQL
 - Team Productivity
-- Open Source
+- Open-Source
 token_urls: []
 ---

@@ -137,7 +137,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/he
 summary_line: 9 scopes · authorizationCode
 tags:
 - Freelancing
-- Jobs
+- Job
 - Talent
 - Marketplace
 - Contracts

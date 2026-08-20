@@ -29,12 +29,11 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - Enterprise AI
 - Data Governance
 - AI Agents
 - Data Integration
 - Security
-- OAuth
+- Authentication
 token_urls: []
 ---

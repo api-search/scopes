@@ -198,7 +198,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-word
 summary_line: 8 scopes · authorizationCode
 tags:
 - Documents
-- Microsoft 365
+- Microsoft-365
 - Office
 - Productivity
 - Word Processing

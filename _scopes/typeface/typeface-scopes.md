@@ -151,7 +151,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typeface/refs/
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
-- Ai
 - Artificial Intelligence
 - Content Generation
 - Marketing

@@ -117,7 +117,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spredfast/refs
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- Social Media
+- Social-Media
 - Social Media Management
 - Marketing
 - Social Marketing
@@ -125,8 +125,8 @@ tags:
 - Analytics
 - Engagement
 - Content Management
-- Webhooks
-- Events
+- Webhook
+- Event
 - Enterprise
 token_urls:
 - https://login.spredfast.com/v3/oauth/token

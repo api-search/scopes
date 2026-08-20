@@ -141,7 +141,7 @@ tags:
 - Commerce
 - Payments
 - MCP
-- Webhooks
+- Webhook
 - Rewards
 token_urls:
 - https://api.ongoody.com/oauth/token

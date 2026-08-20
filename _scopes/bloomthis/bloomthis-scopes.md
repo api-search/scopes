@@ -62,7 +62,7 @@ tags:
 - Company
 - Flowers
 - Gifting
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopify
 - Agent Commerce

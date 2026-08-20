@@ -105,8 +105,8 @@ tags:
 - Communications
 - Marketing
 - Civic Engagement
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 token_urls:
 - https://api.hustle.com/v3/oauth/token
 ---

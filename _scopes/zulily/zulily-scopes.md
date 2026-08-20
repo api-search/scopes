@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zulily/refs/he
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Shopping
 - Commerce

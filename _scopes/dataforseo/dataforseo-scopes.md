@@ -152,7 +152,7 @@ tags:
 - App Store
 - Business Data
 - AI Optimization
-- Social Media
+- Social-Media
 token_urls:
 - https://data.dataforseo.com/oauth/token
 ---

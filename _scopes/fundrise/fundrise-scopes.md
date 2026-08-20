@@ -96,9 +96,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/
 summary_line: 2 scopes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investing
-- Real Estate
+- Real-Estate
 - Private Credit
 - Venture Capital
 - Alternative Assets

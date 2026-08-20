@@ -36,19 +36,19 @@ source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: https://login.fut
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/scopes/futureverse-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- blockchain
-- web3
-- metaverse
-- digital-assets
-- nft
-- graphql
-- identity
-- openid-connect
+- Blockchain
+- Web3
+- Metaverse
+- Digital Assets
+- NFT
+- GraphQL
+- Identity
+- OpenID Connect
 - asset-registry
-- layer-1
-- evm
-- gaming
+- Layer 1
+- EVM
+- Gaming
 - agent-native
-- mcp
+- MCP
 token_urls: []
 ---

@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/coutts-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coutts/refs/heads/main/scopes/coutts-scopes.yml
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Private Bank
 - Wealth Management

@@ -119,7 +119,7 @@ tags:
 - Personalization
 - Artificial Intelligence
 - Video Messaging
-- Webhooks
+- Webhook
 - MCP
 token_urls:
 - https://auth.sendspark.com/oauth2/token

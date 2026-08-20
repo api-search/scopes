@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://api.plana
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/scopes/planable-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Social Media
+- Social-Media
 - Content Collaboration
 - Approval Workflows
 - Social Media Management

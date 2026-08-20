@@ -57,7 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-beard-club
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Men's Grooming
 - Consumer Goods

@@ -270,7 +270,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/
 summary_line: 57 scopes · authorizationCode
 tags:
 - Company
-- Communication
+- Communications
 - Customer Service
 - Shared Inbox
 - Email

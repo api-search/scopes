@@ -29,7 +29,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Body Measurement
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Sizing
 - Retail

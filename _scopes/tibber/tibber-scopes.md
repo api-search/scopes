@@ -122,15 +122,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/he
 summary_line: 11 scopes · authorizationCode
 tags:
 - Energy
-- SmartHome
-- SmartMeter
+- Smart Home
+- Smart Meter
 - ElectricityPricing
-- ElectricVehicleCharging
+- Electric Vehicle Charging
 - HeatPump
 - SolarInverter
-- HomeBattery
+- Home Battery
 - GraphQL
-- OAuth2
+- Authentication
 - Nordic
 token_urls:
 - https://thewall.tibber.com/connect/token

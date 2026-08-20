@@ -57,7 +57,7 @@ tags:
 - India
 - Credit
 - MCP
-- Agent
+- Agents
 token_urls:
 - https://www.fibe.in/api/mcp/oauth/token
 ---

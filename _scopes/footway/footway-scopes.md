@@ -62,7 +62,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Consumer
-- E-commerce
+- E-Commerce
 - Marketplace
 - Retail
 - Footwear

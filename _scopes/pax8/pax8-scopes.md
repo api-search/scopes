@@ -250,8 +250,8 @@ tags:
 - Provisioning
 - Billing
 - Quoting
-- Subscriptions
-- Webhooks
+- Subscription
+- Webhook
 token_urls:
 - https://token-manager.pax8.com/oauth/token
 - https://api.pax8.com/v1/token

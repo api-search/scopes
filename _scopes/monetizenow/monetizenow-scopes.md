@@ -59,15 +59,15 @@ tags:
 - Company
 - Monetization
 - Billing
-- Subscriptions
+- Subscription
 - Usage-Based Pricing
 - Quote-to-Cash
 - CPQ
 - Payments
 - Invoicing
 - Revenue
-- SaaS
-- FinTech
+- Software-as-a-Service
+- Fintech
 token_urls:
 - https://mcp.monetizeplatform.com/oauth/token
 ---

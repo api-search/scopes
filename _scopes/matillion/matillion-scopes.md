@@ -100,7 +100,7 @@ tags:
 - Data Integration
 - ETL
 - ELT
-- Data Pipelines
+- Data Pipeline
 - Cloud Data Warehouse
 token_urls:
 - https://id.core.matillion.com/oauth/dpc/token

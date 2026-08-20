@@ -86,8 +86,8 @@ tags:
 - Customer Experience
 - Analytics
 - Product Analytics
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 token_urls:
 - https://api.sprig.com/oauth/token
 ---

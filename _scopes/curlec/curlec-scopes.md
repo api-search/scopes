@@ -234,13 +234,13 @@ tags:
 - Payments
 - Payment Gateway
 - Recurring Payments
-- Subscriptions
+- Subscription
 - Direct Debit
-- FinTech
+- Fintech
 - Malaysia
 - DuitNow
 - FPX
-- Webhooks
+- Webhook
 - Razorpay
 token_urls:
 - https://mcp.razorpay.com/token

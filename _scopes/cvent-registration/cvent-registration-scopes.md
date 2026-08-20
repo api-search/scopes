@@ -129,14 +129,14 @@ tags:
 - Attendees
 - Conferences
 - Event Management
-- Events
-- OAuth 2.0
+- Event
+- Authentication
 - On-Site Check-In
 - Payments
 - Registration
 - REST API
 - Ticketing
-- Webhooks
+- Webhook
 token_urls:
 - https://api-platform.cvent.com/ea/oauth2/token
 ---

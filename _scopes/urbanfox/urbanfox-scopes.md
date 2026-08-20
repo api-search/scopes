@@ -148,7 +148,7 @@ tags:
 - Risk Management
 - Security
 - Artificial Intelligence
-- eCommerce
+- E-Commerce
 token_urls:
 - https://api.demo-retail.urbanfox.io/v2/oauth/token
 ---

@@ -62,7 +62,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Retail
-- E-commerce
+- E-Commerce
 - Fashion
 - Apparel
 - Shopify

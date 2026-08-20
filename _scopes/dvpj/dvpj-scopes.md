@@ -61,7 +61,7 @@ tags:
 - Payments
 - SMB
 - Brazil
-- OAuth
+- Authentication
 token_urls:
 - https://auth.contaazul.com/oauth2/token
 ---

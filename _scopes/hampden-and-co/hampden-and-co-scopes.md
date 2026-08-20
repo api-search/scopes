@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/hampden-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/scopes/hampden-and-co-scopes.yml
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Private Banking
 - Open Banking

@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://auth.co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lifetise/refs/heads/main/scopes/lifetise-scopes.yml
 summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode/implicit
 tags:
-- Real Estate
+- Real-Estate
 - United Kingdom
 - PropTech
 - Property Transactions

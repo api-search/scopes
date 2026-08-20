@@ -72,7 +72,7 @@ tags:
 - Procurement
 - RFP
 - Legislative Intelligence
-- Speech to Text
+- Speech-to-Text
 - Artificial Intelligence
 token_urls:
 - https://auth.cloverleaf.ai/oauth/token

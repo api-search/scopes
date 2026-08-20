@@ -149,11 +149,11 @@ tags:
 - Beauty
 - Scheduling
 - Booking
-- Point of Sale
+- Point-of-Sale
 - Studios
 - Salons
 - Spas
-- Webhooks
+- Webhook
 token_urls:
 - https://signin.mindbodyonline.com/connect/token
 ---

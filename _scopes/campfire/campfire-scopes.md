@@ -139,7 +139,7 @@ tags:
 - Revenue Recognition
 - Accounts Payable
 - Accounts Receivable
-- AI
+- Artificial Intelligence
 token_urls:
 - https://api.meetcampfire.com/auth/token
 ---

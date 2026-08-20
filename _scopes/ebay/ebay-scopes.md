@@ -740,7 +740,7 @@ summary_line: 27 scopes · authorizationCode/clientCredentials
 tags:
 - Auctions
 - Commerce
-- Products
+- Product
 - Marketplace
 - Fortune 500
 token_urls:

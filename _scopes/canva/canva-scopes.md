@@ -264,7 +264,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.can
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/scopes/canva-scopes.yml
 summary_line: 18 scopes · authorizationCode
 tags:
-- Apps
+- Application
 - Automation
 - Brand Management
 - Collaboration

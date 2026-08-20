@@ -354,7 +354,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-banking-u
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
 - Open Banking
-- Financial Services
+- Financial-Services
 - Payments
 - Account Information
 - PSD2

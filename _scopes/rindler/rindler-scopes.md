@@ -59,7 +59,6 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - AI Agents
 - Web Automation
 - Browser Automation

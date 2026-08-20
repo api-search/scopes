@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://mcp.vir
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/scopes/yardi-canada-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
-- Real Estate
+- Real-Estate
 - Canada
 - Property Management
 - Rentals
@@ -92,7 +92,7 @@ tags:
 - Tenancy
 - Payments
 - MCP
-- AI
+- Artificial Intelligence
 token_urls:
 - https://mcp.virtuoso.ai/oauth/token
 ---

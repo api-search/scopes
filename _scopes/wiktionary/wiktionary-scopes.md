@@ -130,7 +130,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wiktionary/ref
 summary_line: 3 scopes · authorizationCode
 tags:
 - Dictionaries
-- Open Source
+- Open-Source
 - Wikimedia
 - MediaWiki
 - Linguistics

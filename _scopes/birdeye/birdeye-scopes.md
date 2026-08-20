@@ -229,7 +229,7 @@ tags:
 - Surveys
 - Messaging
 - Multi-Location
-- AI
+- Artificial Intelligence
 token_urls:
 - https://mcp.birdeye.com/token
 ---

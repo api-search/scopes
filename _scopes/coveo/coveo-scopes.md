@@ -1143,13 +1143,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coveo-ac
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/scopes/coveo-scopes.yml
 summary_line: 1 scope · authorizationCode/implicit
 tags:
-- AI
+- Artificial Intelligence
 - Analytics
 - Catalog
 - Commerce
 - Customers
-- Experiences
-- Machine Learning
+- Experience
+- Machine-Learning
 - Personalization
 - Recommendations
 - Search

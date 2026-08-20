@@ -59,10 +59,10 @@ tags:
 - Marketplace
 - Retail
 - Sellers
-- Orders
+- Order
 - Fulfillment
 - India
-- OAuth
+- Authentication
 token_urls:
 - https://api.flipkart.net/oauth-service/oauth/token
 ---

@@ -434,7 +434,7 @@ tags:
 - Metering
 - Billing
 - Pricing
-- SaaS
+- Software-as-a-Service
 token_urls:
 - /oauth/token
 - https://m3ter.auth.us-east-1.amazoncognito.com/oauth2/token

@@ -30,12 +30,12 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Food Delivery
-- Restaurants
+- Restaurant
 - Online Ordering
 - Marketplace
 - Local Commerce
 - Consumer
-- Point of Sale
-- OAuth
+- Point-of-Sale
+- Authentication
 token_urls: []
 ---

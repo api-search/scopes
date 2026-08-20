@@ -123,10 +123,10 @@ tags:
 - Electronic Signature
 - E-Signature
 - Digital Sales Room
-- Document Management
+- Document-Management
 - Contract Management
 - Proposals
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://app.getaccept.com/oauth2/token
 ---

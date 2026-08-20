@@ -115,7 +115,7 @@ tags:
 - PL/SQL
 - REST API
 - Web Applications
-- Workflow
+- Workflows
 token_urls:
 - /ords/{schema}/oauth/token
 ---

@@ -99,7 +99,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weave/refs/hea
 summary_line: 3 scopes
 tags:
 - Company
-- Communication
+- Communications
 - Messaging
 - Payments
 - Healthcare
@@ -109,6 +109,6 @@ tags:
 - Scheduling
 - SMB
 - Developer Platform
-- OAuth
+- Authentication
 token_urls: []
 ---

@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: derived\nsource: openapi/cynergy-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cynergy-bank/refs/heads/main/scopes/cynergy-bank-scopes.yml
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

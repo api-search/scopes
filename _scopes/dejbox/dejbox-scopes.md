@@ -64,7 +64,7 @@ tags:
 - B2B
 - France
 - Meal Delivery
-- OAuth2
+- Authentication
 - OpenID Connect
 token_urls:
 - https://customers.refectory.fr/oauth2/token

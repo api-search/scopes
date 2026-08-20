@@ -30,12 +30,12 @@ tags:
 - Company
 - Payments
 - Fintech
-- Stablecoin
+- Stablecoins
 - Cryptocurrency
-- Wallet
+- Wallets
 - Agentic Payments
 - Machine Payments Protocol
 - x402
-- OAuth
+- Authentication
 token_urls: []
 ---

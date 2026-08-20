@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://publer.co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/scopes/publer-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Publishing
 - Content Management

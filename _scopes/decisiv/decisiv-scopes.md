@@ -120,16 +120,16 @@ summary_line: 5 scopes · authorizationCode/password
 tags:
 - Company
 - commercial-vehicle
-- fleet-management
+- Fleet Management
 - service-relationship-management
-- telematics
-- asset-management
+- Telematics
+- Asset Management
 - maintenance-and-repair
-- heavy-duty-trucking
-- transportation
-- dealer-management
-- json-api
-- webhooks
+- Heavy Duty Trucking
+- Transportation
+- Dealer Management
+- JSON:API
+- Webhook
 token_urls:
 - https://login.decisiv.net/oauth/token
 - https://portal.decisivapps.com/oauth/token

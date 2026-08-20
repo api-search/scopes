@@ -158,9 +158,9 @@ tags:
 - Glossary
 - Ecommerce Localization
 - Product Information Management
-- Webhooks
-- OAuth2
-- SaaS
+- Webhook
+- Authentication
+- Software-as-a-Service
 token_urls:
 - https://api.textmaster.com/oauth/token
 ---

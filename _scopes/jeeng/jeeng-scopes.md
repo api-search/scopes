@@ -64,6 +64,6 @@ tags:
 - Reporting
 - Analytics
 - OData
-- OAuth
+- Authentication
 token_urls: []
 ---

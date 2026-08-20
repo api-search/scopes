@@ -268,7 +268,7 @@ summary_line: 20 scopes · clientCredentials
 tags:
 - Payments
 - Marketplace Payments
-- Digital Wallets
+- Digital Wallet
 - KYC
 - KYB
 - Fund Transfers

@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/barn-and-willo
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Retail
 - Home Furnishings
 - Window Treatments

@@ -116,10 +116,10 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Forms
 - Documents
-- eSignature
-- Workflow Automation
+- E-Signature
+- Workflow-Automation
 - No-Code
-- OAuth2
+- Authentication
 token_urls:
 - https://www.formstack.com/api/v2/oauth2/token
 ---

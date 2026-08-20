@@ -49,7 +49,7 @@ tags:
 - Sales
 - MCP
 - Agent Tools
-- Webhooks
+- Webhook
 - Embeds
 - oEmbed
 - Demo Automation Platform

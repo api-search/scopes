@@ -86,11 +86,10 @@ tags:
 - Artificial Intelligence
 - Personal Finance
 - Wealth Management
-- Model Context Protocol
 - MCP
-- Agent Native
+- agent-native
 - Open Banking
-- OAuth
+- Authentication
 token_urls:
 - https://forge.era.app/oauth/token
 ---

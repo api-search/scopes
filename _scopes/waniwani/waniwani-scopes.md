@@ -138,7 +138,7 @@ summary_line: 25 scopes
 tags:
 - Company
 - Artificial Intelligence
-- Model Context Protocol
+- MCP
 - AI Distribution
 - Conversational AI
 - Lead Generation

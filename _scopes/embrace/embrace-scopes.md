@@ -72,7 +72,7 @@ tags:
 - Crash Reporting
 - Application Performance Monitoring
 - Developer Tools
-- Model Context Protocol
+- MCP
 token_urls:
 - https://dash-api.embrace.io/oauth/token
 ---

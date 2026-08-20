@@ -268,15 +268,15 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/toast-ta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/scopes/toast-tab-scopes.yml
 summary_line: 22 scopes · clientCredentials
 tags:
-- Restaurants
-- Point Of Sale
+- Restaurant
+- Point-of-Sale
 - Payments
 - Online Ordering
 - Delivery
 - Loyalty
 - Gift Cards
 - Menus
-- Orders
+- Order
 - Kitchen
 - Labor
 - Scheduling

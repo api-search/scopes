@@ -391,7 +391,7 @@ tags:
 - Whiteboard
 - Visual Collaboration
 - Diagramming
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://api.miro.com/v1/oauth/token
 ---

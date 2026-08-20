@@ -53,7 +53,7 @@ tags:
 - Company
 - Meetings
 - Transcription
-- Speech to Text
+- Speech-to-Text
 - Conversation Intelligence
 - Artificial Intelligence
 - GraphQL

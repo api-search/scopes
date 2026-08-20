@@ -111,7 +111,7 @@ tags:
 - Marketing
 - Lead Capture
 - Registration
-- Webhooks
+- Webhook
 - Event Management
 - Collaboration
 - Analytics

@@ -155,7 +155,7 @@ tags:
 - WhatsApp
 - SMS
 - Marketing Automation
-- E-commerce
+- E-Commerce
 - Agents
 - MCP
 token_urls:

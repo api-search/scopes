@@ -35,9 +35,9 @@ tags:
 - Managed Detection and Response
 - Threat Intelligence
 - Incident Response
-- Model Context Protocol
+- MCP
 - Agents
-- OAuth
-- SaaS
+- Authentication
+- Software-as-a-Service
 token_urls: []
 ---

@@ -57,7 +57,7 @@ tags:
 - Artificial Intelligence
 - Patent Search
 - Prior Art
-- Model Context Protocol
+- MCP
 - Agents
 - Research
 token_urls:

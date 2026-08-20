@@ -255,7 +255,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Affiliate Marketing
 - Referral Tracking
-- SaaS
+- Software-as-a-Service
 - Commission Management
 - Reward Distribution
 - Promoters
@@ -263,7 +263,7 @@ tags:
 - Influencer Marketing
 - Payouts
 - Attribution
-- Webhooks
+- Webhook
 - MCP
 token_urls: []
 ---

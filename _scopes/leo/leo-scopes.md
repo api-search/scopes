@@ -50,9 +50,9 @@ tags:
 - Prospecting
 - Data Enrichment
 - Sales Intelligence
-- Nonprofits
+- Non-Profit
 - Trucking
 - MCP
-- Agent Native
+- agent-native
 token_urls: []
 ---

@@ -610,7 +610,6 @@ tags:
 - Email Marketing
 - Marketing
 - Marketing Automation
-- Operations
 - Sales
 token_urls:
 - https://api.hubapi.com/oauth/v1/token

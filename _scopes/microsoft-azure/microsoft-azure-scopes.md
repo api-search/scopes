@@ -13322,8 +13322,8 @@ tags:
 - Cloud
 - Cloud Computing
 - Enterprise
-- Infrastructure as a Service
-- Platform as a Service
+- Infrastructure-as-a-Service
+- Platform-as-a-Service
 - T1
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/token

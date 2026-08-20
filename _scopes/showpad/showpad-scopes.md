@@ -126,7 +126,7 @@ tags:
 - Training
 - CRM Integration
 - Digital Sales Rooms
-- Model Context Protocol
+- MCP
 - SCIM
 token_urls:
 - https://{subdomain}.showpad.biz/api/v3/oauth2/token

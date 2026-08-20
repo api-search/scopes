@@ -75,14 +75,14 @@ source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/fingoal-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/scopes/fingoal-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Transaction Enrichment
 - Data Enrichment
 - Personal Financial Management
 - Banking
 - Categorization
-- Webhooks
+- Webhook
 token_urls:
 - https://findmoney.fingoal.com/v3/authentication
 ---

@@ -65,7 +65,7 @@ tags:
 - Drug Development
 - Healthcare
 - Mental Health
-- Model Context Protocol
+- MCP
 token_urls:
 - https://www.engrail.com/oauth/token
 ---

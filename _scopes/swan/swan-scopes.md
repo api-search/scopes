@@ -72,6 +72,6 @@ tags:
 - SEPA
 - GraphQL
 - Europe
-- Accounts
+- Account
 token_urls: []
 ---

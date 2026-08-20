@@ -199,10 +199,9 @@ tags:
 - Commerce
 - Retail Media
 - Advertising
-- E-commerce
+- E-Commerce
 - Marketing
 - Retail
-- APIs
 token_urls:
 - https://api.criteo.com/oauth2/token
 ---

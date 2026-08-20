@@ -191,7 +191,7 @@ tags:
 - Campaign Management
 - No-Code
 - SCIM
-- Webhooks
+- Webhook
 token_urls:
 - https://enterprise.knak.io/oauth/token
 ---

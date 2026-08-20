@@ -77,9 +77,9 @@ tags:
 - Company
 - Banking
 - Core Banking
-- Financial Services
+- Financial-Services
 - Payments
-- Cloud Native
+- Cloud-Native
 - Smart Contracts
 - ISO 20022
 - Ledger

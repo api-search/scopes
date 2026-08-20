@@ -48,13 +48,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/
 summary_line: 2 scopes · clientCredentials
 tags:
 - Company
-- Proptech
+- PropTech
 - Notarization
 - Remote Online Notarization
 - Identity Verification
-- eSignature
+- E-Signature
 - Digital Credentials
-- Real Estate
+- Real-Estate
 - Mortgage
 - Legal Tech
 token_urls:

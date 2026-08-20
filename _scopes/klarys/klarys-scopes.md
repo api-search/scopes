@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klarys/refs/he
 summary_line: 6 scopes · authorizationCode/clientCredentials
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - eProcurement
 - Procurement
 - Supply Chain

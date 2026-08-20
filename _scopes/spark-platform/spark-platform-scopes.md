@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://sparkpl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spark-platform/refs/heads/main/scopes/spark-platform-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - MLS
 - RESO

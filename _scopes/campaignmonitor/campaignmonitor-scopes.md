@@ -37,7 +37,7 @@ tags:
 - Newsletters
 - Automation
 - Marketing Automation
-- Webhooks
+- Webhook
 - Email Deliverability
 - Marketing
 token_urls: []

@@ -57,7 +57,7 @@ tags:
 - Flexible Server
 - Managed Database
 - MySQL
-- Open Source
+- Open-Source
 - Relational Database
 token_urls: []
 ---

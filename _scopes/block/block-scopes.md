@@ -102,10 +102,10 @@ summary_line: 6 scopes · authorizationCode
 tags:
 - Commerce
 - Cryptocurrency
-- eCommerce
+- E-Commerce
 - Fintech
 - Payments
-- Point Of Sale
+- Point-of-Sale
 - Square
 token_urls:
 - https://connect.squareup.com/oauth2/token

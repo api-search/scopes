@@ -46,7 +46,7 @@ tags:
 - Mapping
 - Data Management
 - Raster
-- Vector
+- Vectors
 - OGC
 - Cloud Storage
 - Remote Sensing

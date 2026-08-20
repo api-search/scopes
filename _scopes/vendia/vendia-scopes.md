@@ -62,7 +62,6 @@ summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
 - Company
 - MCP
-- Model Context Protocol
 - Artificial Intelligence
 - Data Sharing
 - Data Platform

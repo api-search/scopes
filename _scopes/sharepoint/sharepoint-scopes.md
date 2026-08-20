@@ -103,7 +103,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharepoint/ref
 summary_line: 5 scopes · authorizationCode
 tags:
 - Collaboration
-- Document Management
+- Document-Management
 - Enterprise Content Management
 - Intranet
 - Microsoft

@@ -88,7 +88,7 @@ tags:
 - Customer Management
 - MVNO
 - 5G
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://auth.amdocs-dbs.com/oauth/token
 ---

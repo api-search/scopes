@@ -101,14 +101,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mason/refs/hea
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Commerce
-- AI
+- Artificial Intelligence
 - Agents
 - Content Generation
 - Discounts
 - Promotions
-- Webhooks
+- Webhook
 - Shopify
 token_urls:
 - token

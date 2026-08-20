@@ -77,7 +77,7 @@ tags:
 - CRM
 - Customer Service
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Support
 token_urls:
 - https://login.salesforce.com/services/oauth2/token

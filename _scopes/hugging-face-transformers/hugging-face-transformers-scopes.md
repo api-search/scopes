@@ -251,11 +251,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hugging-face-t
 summary_line: 15 scopes · authorizationCode/deviceCode
 tags:
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Deep Learning
-- Machine Learning
+- Machine-Learning
 - Natural Language Processing
-- Open Source
+- Open-Source
 - Transformers
 token_urls:
 - https://huggingface.co/oauth/token

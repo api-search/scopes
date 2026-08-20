@@ -52,7 +52,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Analytics
 - Android
-- Apps
+- Application
 - Google Play Console
 - Quality
 - Reporting

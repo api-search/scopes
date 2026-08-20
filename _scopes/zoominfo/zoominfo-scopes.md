@@ -380,7 +380,7 @@ tags:
 - Marketing Intelligence
 - Sales Intelligence
 - Intent Data
-- Go To Market
+- Go-To-Market
 - Data Enrichment
 - AI Agents
 - MCP

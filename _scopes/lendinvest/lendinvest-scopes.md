@@ -36,8 +36,8 @@ tags:
 - Lending
 - Mortgages
 - Property Finance
-- Real Estate
-- Financial Services
+- Real-Estate
+- Financial-Services
 - United Kingdom
 token_urls: []
 ---

@@ -231,19 +231,19 @@ tags:
 - Akoya
 - Banking
 - Bank Secrecy Act
-- Bill Payment
+- Bill Payments
 - Consent
 - Consumer Banking
 - FDX
-- Financial Services
+- Financial-Services
 - Merchant Solutions
-- Notifications
+- Notification
 - Open Banking
 - Payments
 - Rewards
 - Tax Forms
 - Token Management
-- Transactions
+- Transaction
 token_urls:
 - https://api.openbanking.amcb.developer.td.com/oauth/v1/token
 ---

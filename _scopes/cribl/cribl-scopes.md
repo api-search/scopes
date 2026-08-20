@@ -264,7 +264,7 @@ summary_line: 6 scopes · clientCredentials
 tags:
 - Configuration
 - Data Lake
-- Data Pipelines
+- Data Pipeline
 - Data Routing
 - Edge Computing
 - Infrastructure as Code

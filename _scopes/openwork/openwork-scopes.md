@@ -253,7 +253,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - AI Agents
-- Open Source
+- Open-Source
 - Desktop
 - Agent Runtime
 - MCP

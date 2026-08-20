@@ -90,10 +90,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/
 summary_line: 3 scopes · clientCredentials
 tags:
 - API Testing
-- Cloud Native
+- Cloud-Native
 - DevOps
 - Mocking
-- Open Source
+- Open-Source
 token_urls:
 - https://keycloak.example.com/realms/microcks/protocol/openid-connect/token
 ---

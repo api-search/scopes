@@ -100,7 +100,7 @@ tags:
 - Checkout
 - Marketplace
 - Onboarding
-- Subscriptions
+- Subscription
 - Agent Payments
 - Europe
 token_urls:

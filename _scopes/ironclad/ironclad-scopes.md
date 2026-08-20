@@ -490,12 +490,12 @@ tags:
 - LegalOps
 - Enterprise
 - Workflows
-- eSignature
+- E-Signature
 - Clickwrap
-- AI
-- OAuth
+- Artificial Intelligence
+- Authentication
 - SCIM
-- Webhooks
+- Webhook
 token_urls:
 - https://na1.ironcladapp.com/oauth/token
 ---

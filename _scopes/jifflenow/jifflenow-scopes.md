@@ -44,7 +44,7 @@ summary_line: 1 scope · clientCredentials
 tags:
 - Company
 - Automation
-- Events
+- Event
 - Meetings
 - Scheduling
 - Event Marketing

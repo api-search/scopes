@@ -99,11 +99,11 @@ tags:
 - Agents
 - AI Assistant
 - Artificial Intelligence
-- Chatbot
+- Chatbots
 - Copilot
 - Extensibility
 - Generative AI
-- Microsoft 365
+- Microsoft-365
 - Productivity
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token

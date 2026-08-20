@@ -71,7 +71,7 @@ tags:
 - Sales
 - CRM
 - HR
-- Open Source
+- Open-Source
 token_urls:
 - /method/frappe.integrations.oauth2.get_token
 ---

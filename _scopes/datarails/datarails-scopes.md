@@ -63,10 +63,10 @@ tags:
 - Business Intelligence
 - Reporting
 - Data Integration
-- Model Context Protocol
+- MCP
 - Artificial Intelligence
 - Excel
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://mcp.datarails.com/token
 ---

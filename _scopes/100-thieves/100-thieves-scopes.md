@@ -70,7 +70,7 @@ tags:
 - E-Commerce
 - Entertainment
 - Media
-- Direct To Consumer
+- Direct to Consumer
 - Agentic Commerce
 token_urls:
 - https://shopify.com/authentication/31052262/oauth/token

@@ -89,10 +89,10 @@ tags:
 - AI Agents
 - Enterprise Software
 - Decision Intelligence
-- Knowledge Management
+- Knowledge-Management
 - Private Equity
 - Due Diligence
-- Model Context Protocol
+- MCP
 - Y Combinator
 token_urls:
 - https://api.cerenovus.ai/token

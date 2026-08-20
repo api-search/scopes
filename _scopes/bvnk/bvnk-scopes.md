@@ -801,7 +801,7 @@ tags:
 - Wallets
 - Virtual Accounts
 - Cross-Border Payments
-- Financial Services
+- Financial-Services
 - Cards
 - Digital Assets
 - Banking

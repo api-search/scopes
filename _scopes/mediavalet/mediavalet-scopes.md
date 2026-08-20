@@ -606,8 +606,8 @@ tags:
 - Cloud Storage
 - Metadata
 - Video
-- Images
-- Webhooks
+- Image
+- Webhook
 - Azure
 token_urls:
 - https://login.mediavalet.com/connect/token

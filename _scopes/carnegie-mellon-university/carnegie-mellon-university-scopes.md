@@ -1,118 +1,67 @@
 ---
 api_specs:
-- filename: carnegie-mellon-university-altmetric-api-openapi.yml
+- filename: carnegie-mellon-university-delphi-epidata-openapi.yml
   format: yaml
-  label: Carnegie Mellon University altmetric API
-  slug: carnegie-mellon-university-altmetric-api
+  label: Delphi Epidata API
+  slug: delphi-epidata
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-altmetric-api-openapi.yml
-- filename: carnegie-mellon-university-articles-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-delphi-epidata-openapi.yml
+- filename: carnegie-mellon-university-cert-vulnerability-notes-openapi.yml
   format: yaml
-  label: Carnegie Mellon University articles API
-  slug: carnegie-mellon-university-articles-api
+  label: CERT/CC Vulnerability Notes API
+  slug: cert-vulnerability-notes
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-articles-api-openapi.yml
-- filename: carnegie-mellon-university-authors-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-cert-vulnerability-notes-openapi.yml
+- filename: carnegie-mellon-university-library-publishing-openapi.yml
   format: yaml
-  label: Carnegie Mellon University authors API
-  slug: carnegie-mellon-university-authors-api
+  label: CMU Library Publishing Service API + OAI-PMH
+  slug: library-publishing
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-authors-api-openapi.yml
-- filename: carnegie-mellon-university-collections-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University collections API
-  slug: carnegie-mellon-university-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-collections-api-openapi.yml
-- filename: carnegie-mellon-university-institutions-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University institutions API
-  slug: carnegie-mellon-university-institutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-institutions-api-openapi.yml
-- filename: carnegie-mellon-university-oauth-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University oauth API
-  slug: carnegie-mellon-university-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-oauth-api-openapi.yml
-- filename: carnegie-mellon-university-other-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University other API
-  slug: carnegie-mellon-university-other-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-other-api-openapi.yml
-- filename: carnegie-mellon-university-profiles-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University profiles API
-  slug: carnegie-mellon-university-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-profiles-api-openapi.yml
-- filename: carnegie-mellon-university-projects-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University projects API
-  slug: carnegie-mellon-university-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-projects-api-openapi.yml
-- filename: carnegie-mellon-university-symplectic-api-openapi.yml
-  format: yaml
-  label: Carnegie Mellon University symplectic API
-  slug: carnegie-mellon-university-symplectic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-symplectic-api-openapi.yml
-authorization_urls:
-- https://figshare.com/account/applications/authorize
-description: ''
+  url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/openapi/carnegie-mellon-university-library-publishing-openapi.yml
+authorization_urls: []
+description: Carnegie Mellon University operates no OAuth 2.0 or OpenID Connect authorization server on a public, institution-owned API surface, so there are no institution-published scopes to record. Both institution-operated public APIs — Delphi Epidata and the CERT/CC Vulnerability Notes API — are anonymous and read-only, with no scoped authorization layer of any kind. This file exists to state that absence explicitly rather than leave it ambiguous; it is a REWARD-ONLY artifact and no scope has been invented to fill it.
 docs: ''
-flows:
-- authorizationCode
+flows: []
 kind: oauth-scopes
 layout: scope
-method: derived
+method: probed
 name: Carnegie Mellon University Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Carnegie Mellon University publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Carnegie Mellon University API on a user''s behalf.
-
-
-  Tokens are issued from https://api.figshare.com/v2/token.
+overview: 'Carnegie Mellon University uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Carnegie Mellon University
 provider_slug: carnegie-mellon-university
-schemes:
-- flows:
-  - authorizationUrl: https://figshare.com/account/applications/authorize
-    flow: authorizationCode
-    tokenUrl: https://api.figshare.com/v2/token
-  name: OAuth2
-  source: openapi/carnegie-mellon-university-kilthub-figshare.yaml
-scope_count: 1
-scope_names:
-- all
-scopes:
-- description: Grants all access
-  flows:
-  - authorizationCode
-  scope: all
+schemes: []
+scope_count: 0
+scope_names: []
+scopes: []
 slug: carnegie-mellon-university-scopes
 source_filename: carnegie-mellon-university-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/carnegie-mellon-university-kilthub-figshare.yaml\nschemes:\n- name: OAuth2\n  source: openapi/carnegie-mellon-university-kilthub-figshare.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://figshare.com/account/applications/authorize\n    tokenUrl: https://api.figshare.com/v2/token\nscopes:\n- scope: all\n  description: Grants all access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/carnegie-mellon-university-kilthub-figshare.yaml\n"
+source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  Live probes 2026-08-19 of https://api.delphi.cmu.edu/epidata and https://kb.cert.org/vuls/api,\n  plus the SAML metadata at https://login.cmu.edu/idp/shibboleth.\nprovider: Carnegie Mellon University\nproviderId: carnegie-mellon-university\nsummary:\n  oauth_scopes_published_by_the_institution: 0\n  reason: no_oauth_surface_operated_by_the_institution\ndescription: >-\n  Carnegie Mellon University operates no OAuth 2.0 or OpenID Connect authorization server on a\n  public, institution-owned API surface, so there are no institution-published scopes to record.\n  Both institution-operated public APIs — Delphi Epidata and the CERT/CC Vulnerability Notes API\n  — are anonymous and read-only, with no scoped authorization layer of any kind. This file exists\n  to state that absence explicitly rather than leave it ambiguous; it is a REWARD-ONLY artifact and\n  no scope has been invented to fill it.\nscopes: []\nauthorization_model_in_use_instead:\n\
+  - model: SAML 2.0 attribute release\n  operator: institution\n  surface: https://login.cmu.edu/idp/shibboleth\n  detail: >-\n    CMU's authorization boundary for federated services is SAML attribute release through Web\n    Login, governed by the InCommon Research & Scholarship entity category rather than by OAuth\n    scopes. R&S commits the IdP to releasing a defined baseline attribute bundle (eduPersonPrincipalName,\n    mail, displayName / givenName + sn, eduPersonScopedAffiliation) to R&S-tagged service\n    providers. That is the closest thing CMU publishes to a machine-readable permission\n    vocabulary, and it is a federation profile, not a scope list.\n  evidence:\n    url: https://login.cmu.edu/idp/shibboleth\n    status: 200\npreviously_recorded_and_removed:\n- source: figshare OAuth 2.0\n  operator: vendor\n  detail: >-\n    The 2026-06 profile carried a scopes file derived from the figshare v2 OpenAPI. Those scopes\n    are figshare's product, published for every figshare\
+  \ customer, and were credited to CMU\n    because the spec sat in CMU's repo. Removed 2026-08-19 under the university pipeline's\n    operator rule.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/scopes/carnegie-mellon-university-scopes.yml
-summary_line: 1 scope · authorizationCode
+summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United States
+- Private Research University
 - Research
 - Epidemiology
-- Open Data
-- Library
+- Public Health
+- Cybersecurity
+- Vulnerability Disclosure
+- Scholarly Publishing
 - Institutional Repository
-token_urls:
-- https://api.figshare.com/v2/token
+- Identity Federation
+- Open Access
+- Open Data
+token_urls: []
 ---

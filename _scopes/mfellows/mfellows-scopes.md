@@ -51,7 +51,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Company
 - Fintech
-- Financial Services
+- Financial-Services
 - Savings
 - Lending
 - ROSCA

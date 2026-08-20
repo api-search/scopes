@@ -255,7 +255,7 @@ tags:
 - Company
 - Commercial Real Estate
 - PropTech
-- Real Estate
+- Real-Estate
 - Leasing
 - Asset Management
 - Property Management

@@ -141,8 +141,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nectar-social/
 summary_line: 18 scopes · authorizationCode
 tags:
 - Company
-- AI
-- Social Media
+- Artificial Intelligence
+- Social-Media
 - Community Management
 - Social Listening
 - Influencer Marketing
@@ -150,7 +150,7 @@ tags:
 - Social Commerce
 - MCP
 - Agents
-- OAuth
+- Authentication
 token_urls:
 - https://beta-api.nectarsocial.com/oauth/token
 ---

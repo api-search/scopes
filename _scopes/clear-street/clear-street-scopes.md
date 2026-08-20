@@ -240,7 +240,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clear-street/r
 summary_line: 5 scopes · clientCredentials/authorizationCode
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Prime Brokerage
 - Trading

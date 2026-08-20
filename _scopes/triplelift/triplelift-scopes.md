@@ -247,9 +247,9 @@ tags:
 - Header Bidding
 - Connected TV
 - Supply Side Platform
-- Demand Side Platform
+- Demand-Side Platform
 - GraphQL
-- Ad Tech
+- AdTech
 - Publisher Reporting
 - Real-Time Bidding
 token_urls: []

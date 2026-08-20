@@ -110,7 +110,7 @@ tags:
 - Collaboration
 - Content Management
 - Documentation
-- Knowledge Management
+- Knowledge-Management
 - Wiki
 token_urls:
 - https://auth.atlassian.com/oauth/token

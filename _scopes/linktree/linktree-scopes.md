@@ -210,7 +210,7 @@ tags:
 - Media
 - Link in Bio
 - Creator Economy
-- Social Media
+- Social-Media
 - Marketing
 - Analytics
 - MCP

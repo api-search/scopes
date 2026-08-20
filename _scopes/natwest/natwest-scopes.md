@@ -194,7 +194,7 @@ summary_line: 5 scopes
 tags:
 - Banking
 - Open Banking
-- Financial Services
+- Financial-Services
 - Payments
 - PSD2
 - FAPI

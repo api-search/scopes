@@ -57,7 +57,7 @@ tags:
 - Fintech
 - MCP
 - Agentic Commerce
-- OAuth
+- Authentication
 token_urls:
 - https://coinvest.liquid.trade/oauth/token
 ---

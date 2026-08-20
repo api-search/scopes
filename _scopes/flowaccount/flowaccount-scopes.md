@@ -155,7 +155,7 @@ tags:
 - Accounting
 - Invoicing
 - Payroll
-- Point of Sale
+- Point-of-Sale
 - SME
 - Finance
 - Tax

@@ -202,7 +202,7 @@ tags:
 - Reliability
 - Bulk Power System
 - Critical Infrastructure
-- Cyber Security
+- Cybersecurity
 - Energy Markets
 - Compliance
 token_urls:

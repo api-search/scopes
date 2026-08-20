@@ -159,7 +159,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/head
 summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Translation
 - Localization
 - Machine Translation

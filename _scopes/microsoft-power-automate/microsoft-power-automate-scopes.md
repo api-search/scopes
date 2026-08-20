@@ -89,7 +89,7 @@ tags:
 - Microsoft
 - Power Platform
 - RPA
-- Workflow
+- Workflows
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/token
 ---

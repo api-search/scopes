@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/our-place/refs
 summary_line: 4 scopes
 tags:
 - Company
-- Ecommerce
+- E-Commerce
 - Retail
 - Cookware
 - Consumer

@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/va-clini
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/scopes/department-of-veterans-affairs-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
-- Federal Government
+- Federal-Government
 - Healthcare
 - Veterans
 token_urls:

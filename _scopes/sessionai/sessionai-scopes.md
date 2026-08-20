@@ -67,15 +67,15 @@ summary_line: 5 scopes · authorizationCode
 tags:
 - Company
 - Artificial Intelligence
-- Ecommerce
+- E-Commerce
 - Retail
 - Personalization
 - Marketing
 - Agentic AI
 - Decisioning
 - Customer Data
-- Events
-- Real Time
+- Event
+- Real-Time
 - MCP
 token_urls:
 - https://jsaqyxhgmkgcyaocjnzz.supabase.co/auth/v1/oauth/token

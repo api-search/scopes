@@ -63,7 +63,7 @@ tags:
 - Consumer
 - Fashion
 - Retail
-- eCommerce
+- E-Commerce
 - Apparel
 - Agentic Commerce
 token_urls:

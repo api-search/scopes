@@ -244,7 +244,7 @@ tags:
 - Human Resources
 - Per Diem
 - Shifts
-- Webhooks
+- Webhook
 token_urls:
 - https://auth.nursa.com/oidc/oauth/token
 ---

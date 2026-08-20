@@ -34,7 +34,7 @@ tags:
 - E-Commerce
 - Furniture
 - Home Goods
-- Direct To Consumer
+- Direct to Consumer
 - Agentic Commerce
 - Shopify
 - MCP

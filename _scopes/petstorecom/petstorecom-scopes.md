@@ -61,7 +61,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Commerce
-- E-commerce
+- E-Commerce
 - Retail
 - Pet Supplies
 - Agentic Commerce

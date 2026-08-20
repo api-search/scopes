@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: >-\n  https://s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/scopes/mettle-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Business Banking
 - Open Banking

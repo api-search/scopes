@@ -87,8 +87,8 @@ tags:
 - Legal
 - Legal Tech
 - Case Management
-- Communication
-- OAuth
+- Communications
+- Authentication
 - OpenID Connect
 token_urls:
 - https://app.manifestlaw.com/api/auth/oauth2/token

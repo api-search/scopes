@@ -56,7 +56,7 @@ tags:
 - Retail
 - Marketplace
 - Strains
-- Ecommerce
+- E-Commerce
 token_urls:
 - https://api.leafly.com/oauth/token
 ---

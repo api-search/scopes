@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://identity.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprout-social/refs/heads/main/scopes/sprout-social-scopes.yml
 summary_line: 6 scopes · clientCredentials/authorizationCode
 tags:
-- Social Media
+- Social-Media
 - Social Media Management
 - Publishing
 - Analytics

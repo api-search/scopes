@@ -125,10 +125,10 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://api.firef
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/scopes/fireflies-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- AI
+- Artificial Intelligence
 - Meeting Assistant
 - Transcription
-- Summaries
+- Summary
 - Action Items
 - GraphQL
 - Meetings

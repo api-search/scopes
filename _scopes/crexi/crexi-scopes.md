@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: https://api.crexi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crexi/refs/heads/main/scopes/crexi-scopes.yml
 summary_line: 2 scopes · password/refresh_token/switch_user/single_use_token_exchange
 tags:
-- Real Estate
+- Real-Estate
 - Commercial Real Estate
 - Marketplace
 - Property Data

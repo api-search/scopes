@@ -246,9 +246,9 @@ tags:
 - Collaboration
 - No-Code
 - Workspace
-- AI
+- Artificial Intelligence
 - Content Management
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://coda.io/v4/api/oauth2/token
 ---

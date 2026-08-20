@@ -114,7 +114,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investment Research
 - Artificial Intelligence
 - Agents

@@ -33,6 +33,6 @@ tags:
 - Strategy Execution
 - Goal Management
 - Performance Management
-- SaaS
+- Software-as-a-Service
 token_urls: []
 ---

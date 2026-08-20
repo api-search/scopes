@@ -50,7 +50,6 @@ tags:
 - ASPM
 - Security
 - Vulnerability Management
-- API
 token_urls:
 - https://auth.jit.io/oauth/token
 ---

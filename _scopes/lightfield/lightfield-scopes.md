@@ -221,14 +221,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightfield/ref
 summary_line: 26 scopes
 tags:
 - Company
-- Applications
+- Application
 - CRM
 - Sales
 - Artificial Intelligence
 - Agents
-- Customer Relationship Management
-- Go To Market
+- Go-To-Market
 - Productivity
-- SaaS
+- Software-as-a-Service
 token_urls: []
 ---

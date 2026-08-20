@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://sign-on
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/scopes/landgate-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
-- Real Estate
+- Real-Estate
 - Australia
 - Land Registry
 - Title

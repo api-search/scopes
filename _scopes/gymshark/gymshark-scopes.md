@@ -113,7 +113,7 @@ tags:
 - Apparel
 - Fitness
 - Consumer
-- Direct To Consumer
+- Direct to Consumer
 - Identity
 - OpenID Connect
 token_urls:

@@ -64,7 +64,7 @@ tags:
 - Insurance
 - Maintenance
 - Agentic AI
-- Model Context Protocol
+- MCP
 - Transportation
 token_urls:
 - https://auth.serviceup.com/api/auth/oauth2/token

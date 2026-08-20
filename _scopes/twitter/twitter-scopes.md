@@ -273,7 +273,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/x-api-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/scopes/twitter-scopes.yml
 summary_line: 21 scopes · authorizationCode
 tags:
-- Social Media
+- Social-Media
 - Microblogging
 - Real-Time Data
 - Streaming

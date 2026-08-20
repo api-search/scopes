@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zapier-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/scopes/zapier-scopes.yml
 summary_line: 10 scopes · authorizationCode/implicit
 tags:
-- Integrations
+- Integration
 - iPaaS
 token_urls:
 - https://zapier.com/oauth/token/

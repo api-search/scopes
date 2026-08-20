@@ -132,7 +132,7 @@ tags:
 - Campaign Analytics
 - Marketing Automation
 - Transactional Email
-- Webhooks
+- Webhook
 token_urls:
 - https://accounts.zoho.com/oauth/v2/token
 ---

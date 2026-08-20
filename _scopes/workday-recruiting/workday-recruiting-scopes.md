@@ -125,7 +125,7 @@ tags:
 - HCM
 - Human Resources
 - Recruiting
-- SaaS
+- Software-as-a-Service
 - Talent Acquisition
 token_urls:
 - https://{tenant}.workday.com/ccx/oauth2/token

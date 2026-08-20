@@ -80,7 +80,7 @@ summary_line: 1 scope · clientCredentials
 tags:
 - Security
 - Password Manager
-- Open Source
+- Open-Source
 - Vault
 - Identity
 - SCIM

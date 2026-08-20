@@ -114,7 +114,7 @@ summary_line: 11 scopes · implicit
 tags:
 - Company
 - Shopify
-- Ecommerce
+- E-Commerce
 - Photo Editing
 - Image Optimization
 - Image Processing
@@ -122,8 +122,8 @@ tags:
 - Background Removal
 - SEO
 - Automation
-- AI
-- Webhooks
+- Artificial Intelligence
+- Webhook
 - Digital Asset Management
 token_urls: []
 ---

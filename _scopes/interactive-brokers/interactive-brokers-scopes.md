@@ -153,7 +153,7 @@ summary_line: 18 scopes · authorizationCode
 tags:
 - Brokerage
 - Market Data
-- Orders
+- Order
 - Portfolio
 - Trading
 token_urls:

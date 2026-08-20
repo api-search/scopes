@@ -81,7 +81,7 @@ tags:
 - PayID
 - NPP
 - Direct Debit
-- Digital Wallets
+- Digital Wallet
 - Payouts
 token_urls:
 - https://au-0000.sandbox.auth.assemblypay.com/tokens

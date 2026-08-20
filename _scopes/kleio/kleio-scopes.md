@@ -104,11 +104,11 @@ tags:
 - Enterprise Sales
 - Conversational AI
 - Knowledge Engine
-- Model Context Protocol
-- Agent To Agent
+- MCP
+- Agent-to-Agent
 - Retail
 - Travel
-- Real Estate
+- Real-Estate
 - Automotive
 - France
 token_urls:

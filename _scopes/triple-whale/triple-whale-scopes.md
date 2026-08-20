@@ -61,13 +61,13 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://triplew
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/scopes/triple-whale-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- E-commerce
+- E-Commerce
 - Analytics
 - Attribution
 - Shopify
 - Pixel Tracking
 - ROAS
-- DTC
+- Direct to Consumer
 - Marketing
 token_urls: []
 ---

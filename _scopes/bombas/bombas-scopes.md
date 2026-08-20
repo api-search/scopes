@@ -64,13 +64,13 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Retail
-- Ecommerce
+- E-Commerce
 - Apparel
 - Direct to Consumer
 - Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 token_urls:
 - https://shopify.com/authentication/11195850/oauth/token

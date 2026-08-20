@@ -183,7 +183,7 @@ tags:
 - Carbon Emissions
 - Sustainability
 - AdTech
-- Measurement
+- Measurements
 - Artificial Intelligence
 - Agentic
 - AdCP

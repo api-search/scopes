@@ -76,7 +76,7 @@ tags:
 - Identity
 - Profiles
 - Social
-- Images
+- Image
 - GraphQL
 - REST
 token_urls: []

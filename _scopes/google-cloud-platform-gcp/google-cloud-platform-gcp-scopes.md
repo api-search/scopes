@@ -57,10 +57,10 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Cloud Computing
 - Data Analytics
-- IaaS
-- Machine Learning
-- PaaS
-- SaaS
+- Infrastructure-as-a-Service
+- Machine-Learning
+- Platform-as-a-Service
+- Software-as-a-Service
 - Serverless
 token_urls:
 - https://oauth2.googleapis.com/token

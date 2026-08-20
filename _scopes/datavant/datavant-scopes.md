@@ -74,7 +74,7 @@ tags:
 - Medical Records
 - Release of Information
 - Privacy
-- OAuth 2.0
+- Authentication
 - Health Information Exchange
 token_urls:
 - https://api.datavant.io/v2/oauth2/token

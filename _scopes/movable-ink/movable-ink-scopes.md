@@ -38,6 +38,6 @@ tags:
 - Artificial Intelligence
 - Advertising Technology
 - Content
-- Events
+- Event
 token_urls: []
 ---

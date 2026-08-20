@@ -165,16 +165,16 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://docs.ad
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/scopes/ada-scopes.yml
 summary_line: 8 scopes · authorizationCode/refreshToken
 tags:
-- ai
-- customer-service
-- chatbot
-- automation
-- conversational-ai
-- helpdesk
-- crm
-- integrations
-- knowledge-management
-- data-export
+- Artificial Intelligence
+- Customer Service
+- Chatbots
+- Automation
+- Conversational AI
+- Help Desk
+- CRM
+- Integration
+- Knowledge-Management
+- Data Export
 token_urls:
 - https://{bot-handle}.ada.support/api/platform_integrations/oauth/token
 ---

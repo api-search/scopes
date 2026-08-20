@@ -416,6 +416,6 @@ tags:
 - Channel Management
 - Booking
 - Reservations
-- Point of Sale
+- Point-of-Sale
 token_urls: []
 ---

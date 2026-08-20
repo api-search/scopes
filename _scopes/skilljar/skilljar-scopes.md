@@ -977,7 +977,7 @@ tags:
 - Training
 - Online Courses
 - Certification
-- Webhooks
+- Webhook
 - Enrollment
 token_urls:
 - https://api.skilljar.com/v2/auth/token

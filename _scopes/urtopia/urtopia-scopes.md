@@ -67,7 +67,7 @@ tags:
 - Cycling
 - Smart Hardware
 - Mobility
-- eCommerce
+- E-Commerce
 token_urls:
 - https://shopify.com/authentication/58358104213/oauth/token
 ---

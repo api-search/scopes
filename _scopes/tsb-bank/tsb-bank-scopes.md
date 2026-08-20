@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/tsb-ban
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/scopes/tsb-bank-scopes.yml
 summary_line: 9 scopes · implicit
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

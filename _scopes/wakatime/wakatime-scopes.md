@@ -218,7 +218,7 @@ tags:
 - Coding Analytics
 - Leaderboards
 - IDE Plugins
-- Open Source
+- Open-Source
 - Public APIs
 token_urls:
 - https://wakatime.com/oauth/token

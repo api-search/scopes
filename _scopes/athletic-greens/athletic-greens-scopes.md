@@ -67,7 +67,7 @@ tags:
 - Nutrition
 - Supplements
 - Direct to Consumer
-- Ecommerce
+- E-Commerce
 - Subscription
 - Wellness
 - Agentic Commerce

@@ -94,7 +94,7 @@ tags:
 - Fintech
 - India
 - UPI
-- Subscriptions
+- Subscription
 - Payouts
 - Checkout
 token_urls: []

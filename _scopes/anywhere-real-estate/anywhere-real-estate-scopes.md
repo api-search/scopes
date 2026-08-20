@@ -40,7 +40,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anywhere-real-estate/refs/heads/main/scopes/anywhere-real-estate-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - Property Listings
 - MLS
@@ -52,6 +52,6 @@ tags:
 - Escrow
 - Relocation
 - Leads
-- Transactions
+- Transaction
 token_urls: []
 ---

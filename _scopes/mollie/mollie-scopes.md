@@ -367,11 +367,11 @@ tags:
 - Company
 - Payments
 - Fintech
-- Financial Services
+- Financial-Services
 - Checkout
-- Ecommerce
-- Subscriptions
-- Point of Sale
+- E-Commerce
+- Subscription
+- Point-of-Sale
 - Europe
 - Netherlands
 token_urls:

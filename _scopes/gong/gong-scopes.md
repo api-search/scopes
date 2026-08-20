@@ -235,7 +235,7 @@ tags:
 - Revenue Intelligence
 - Conversation
 - Analytics
-- AI
+- Artificial Intelligence
 - Conversation Intelligence
 - Sales Engagement
 - CRM

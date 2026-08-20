@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: >-\n  OBIE Read
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/scopes/metro-bank-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Open Banking
 - PSD2

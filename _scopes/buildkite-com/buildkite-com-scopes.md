@@ -327,6 +327,6 @@ tags:
 - GraphQL
 - REST
 - MCP
-- Webhooks
+- Webhook
 token_urls: []
 ---

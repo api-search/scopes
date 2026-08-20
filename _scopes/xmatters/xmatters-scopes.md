@@ -102,8 +102,8 @@ tags:
 - Alerting
 - Service Reliability
 - DevOps
-- Communication
-- Workflow Automation
+- Communications
+- Workflow-Automation
 token_urls:
 - https://{company}.{deployment}.xmatters.com/api/xm/1/oauth2/token
 ---

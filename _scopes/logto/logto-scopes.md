@@ -287,9 +287,8 @@ tags:
 - Authorization
 - Identity
 - OIDC
-- OAuth
 - SAML
-- Open Source
+- Open-Source
 token_urls:
 - /oidc/token
 ---

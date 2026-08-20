@@ -132,7 +132,7 @@ tags:
 - Investing
 - Market Data
 - Social Finance
-- Watchlists
+- Watchlist
 - Messaging
 token_urls:
 - https://api.stocktwits.com/api/2/oauth/token

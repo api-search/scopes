@@ -65,7 +65,7 @@ tags:
 - Company
 - Spirits
 - Whiskey
-- Ecommerce
+- E-Commerce
 - Retail
 - Beverages
 - Subscription

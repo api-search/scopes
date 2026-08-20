@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://auth.bu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/scopes/buffer-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
-- Social Media
+- Social-Media
 - Scheduling
 - Analytics
 - Publishing

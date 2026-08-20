@@ -64,9 +64,9 @@ tags:
 - Audio
 - Bluetooth Speakers
 - Hardware
-- E-commerce
+- E-Commerce
 - Shopify
-- Direct-to-Consumer
+- Direct to Consumer
 token_urls:
 - https://us-account.soundboks.com/authentication/oauth/token
 ---

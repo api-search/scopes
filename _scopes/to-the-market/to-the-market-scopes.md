@@ -61,7 +61,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Commerce
-- Ecommerce
+- E-Commerce
 - Sustainability
 - Supply Chain
 - Agent Commerce

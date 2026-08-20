@@ -64,7 +64,7 @@ tags:
 - Inventory
 - Invoicing
 - Small Business
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://bifrost-us.deskera.com/oauth/token
 ---

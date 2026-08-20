@@ -208,7 +208,7 @@ tags:
 - Medical Devices
 - SMART on FHIR
 - Interoperability
-- AI
+- Artificial Intelligence
 token_urls:
 - https://onc.api.staging-ehr.athelas.com/token
 ---

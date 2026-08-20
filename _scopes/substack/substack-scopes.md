@@ -90,7 +90,7 @@ tags:
 - Newsletters
 - Publishing
 - Creator Economy
-- Subscriptions
+- Subscription
 - Email
 - Podcasting
 - Notes

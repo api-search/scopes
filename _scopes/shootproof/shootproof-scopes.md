@@ -113,7 +113,7 @@ tags:
 - Digital Downloads
 - Photo Studio Management
 - E-Commerce
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://auth.shootproof.com/oauth2/authorization/token
 ---

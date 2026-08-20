@@ -75,7 +75,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Sales Intelligence
 - Outbound
-- ABM
+- Account Based Marketing
 - Champion Tracking
 - Job Changes
 - Buying Signals
@@ -83,7 +83,7 @@ tags:
 - Sales Engagement
 - CRM
 - Revenue Operations
-- GTM
+- Go-To-Market
 - MCP
 - AI Agents
 token_urls:

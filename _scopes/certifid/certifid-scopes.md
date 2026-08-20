@@ -180,14 +180,14 @@ summary_line: 12 scopes · authorizationCode
 tags:
 - Company
 - Wire Fraud Prevention
-- Real Estate
+- Real-Estate
 - Title Insurance
 - Identity Verification
 - Business Verification
 - Payments
 - Fraud Prevention
 - Escrow and Settlement
-- Financial Services
+- Financial-Services
 - Security
 token_urls:
 - https://auth.certifid.com/oauth/token

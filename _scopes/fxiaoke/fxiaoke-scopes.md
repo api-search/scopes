@@ -38,8 +38,8 @@ tags:
 - Sales
 - Marketing
 - Customer Service
-- SaaS
+- Software-as-a-Service
 - China
-- PaaS
+- Platform-as-a-Service
 token_urls: []
 ---

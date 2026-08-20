@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bread-pa
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/scopes/alliance-data-systems-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
-- Financial Services
+- Financial-Services
 - Fintech
 - Buy Now Pay Later
 - BNPL

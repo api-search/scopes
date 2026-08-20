@@ -53,9 +53,9 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsof
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/scopes/microsoft-azure-machine-learning-scopes.yml
 summary_line: 1 scope · implicit
 tags:
-- AI
+- Artificial Intelligence
 - Azure
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Model Deployment
 - Model Training

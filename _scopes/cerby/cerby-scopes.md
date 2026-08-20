@@ -112,6 +112,6 @@ tags:
 - Identity Governance
 - Nonfederated Applications
 - Automation
-- Webhooks
+- Webhook
 token_urls: []
 ---

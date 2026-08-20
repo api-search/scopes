@@ -114,7 +114,7 @@ summary_line: 2 scopes · clientCredentials
 tags:
 - Billing
 - Enterprise
-- Order to Cash
+- Order-to-Cash
 - Revenue Management
 - SAP
 - Subscription Management

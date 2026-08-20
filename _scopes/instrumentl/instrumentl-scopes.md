@@ -53,7 +53,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Company
 - Grants
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Grant Management
 - Foundation Data

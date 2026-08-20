@@ -472,8 +472,8 @@ tags:
 - Banking
 - Accounts Receivable
 - E-Invoicing
-- Financial Services
-- FinTech
+- Financial-Services
+- Fintech
 - Applicative Saas
 token_urls:
 - https://myaccount.agicap.com/connect/token

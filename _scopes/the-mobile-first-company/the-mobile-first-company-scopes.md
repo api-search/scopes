@@ -110,14 +110,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-mobile-fir
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Communication
+- Communications
 - Telephony
 - Voice
 - SMS
 - CRM
 - Artificial Intelligence
 - MCP
-- Webhooks
+- Webhook
 - Small Business
 token_urls: []
 ---

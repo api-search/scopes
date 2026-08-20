@@ -213,12 +213,12 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Commerce
-- eCommerce
+- E-Commerce
 - Marketplace
 - Dropship
 - Retail
 - Catalog
-- Orders
+- Order
 - Retail Media
 - B2B
 token_urls:

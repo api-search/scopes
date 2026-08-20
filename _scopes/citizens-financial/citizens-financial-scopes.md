@@ -67,13 +67,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/citizens
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/scopes/citizens-financial-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- Accounts
+- Account
 - ATMs
 - Banking
 - Open Banking
 - Payments
-- Point of Sale
-- Transactions
+- Point-of-Sale
+- Transaction
 token_urls:
 - https://api.citizensbank.com/oauth/token
 ---

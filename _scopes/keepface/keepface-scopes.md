@@ -79,13 +79,13 @@ tags:
 - Influencer Marketing
 - Creator Economy
 - Marketing
-- Social Media
+- Social-Media
 - Affiliate Marketing
 - Advocacy
 - Campaign Management
 - MCP
 - AI Agents
 - Attribution
-- Webhooks
+- Webhook
 token_urls: []
 ---

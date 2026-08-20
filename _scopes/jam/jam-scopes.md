@@ -57,7 +57,7 @@ tags:
 - Quality Assurance
 - Observability
 - Screen Recording
-- Model Context Protocol
+- MCP
 token_urls:
 - https://api.jam.dev/oauth/token
 ---

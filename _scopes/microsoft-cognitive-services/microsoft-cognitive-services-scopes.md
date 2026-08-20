@@ -50,11 +50,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-cogn
 summary_line: 1 scope · clientCredentials
 tags:
 - Azure AI
-- Computer Vision
+- Computer-Vision
 - Speech
 - NLP
 - OpenAI
-- Machine Learning
+- Machine-Learning
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 ---

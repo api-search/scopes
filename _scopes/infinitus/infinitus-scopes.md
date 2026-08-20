@@ -51,7 +51,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infinitus/refs
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- Ai
+- Artificial Intelligence
 - Healthcare
 - Voice AI
 - Benefit Verification

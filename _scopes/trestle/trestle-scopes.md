@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trestle/refs/heads/main/scopes/trestle-scopes.yml
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
-- Real Estate
+- Real-Estate
 - United States
 - MLS
 - RESO

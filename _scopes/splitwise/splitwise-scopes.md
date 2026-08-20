@@ -107,7 +107,7 @@ tags:
 - Bill Splitting
 - Payments
 - REST API
-- OAuth
+- Authentication
 token_urls:
 - /oauth/token
 ---

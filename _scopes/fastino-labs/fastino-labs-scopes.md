@@ -79,7 +79,7 @@ summary_line: 4 scopes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Small Language Models
 - Fine-Tuning
 - Inference

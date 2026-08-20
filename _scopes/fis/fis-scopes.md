@@ -84,7 +84,7 @@ summary_line: 3 scopes · clientCredentials
 tags:
 - Banking
 - Core Banking
-- Financial Services
+- Financial-Services
 - Payments
 - Fintech
 token_urls:

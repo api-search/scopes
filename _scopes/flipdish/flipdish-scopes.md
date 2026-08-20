@@ -638,11 +638,11 @@ tags:
 - Restaurant
 - Online Ordering
 - Mobile Apps
-- Point of Sale
-- Orders
-- Menu
+- Point-of-Sale
+- Order
+- Menus
 - Payments
-- Webhooks
+- Webhook
 token_urls:
 - https://api.flipdish.co/identity/connect/token
 ---

@@ -34,7 +34,7 @@ tags:
 - Consumer Packaged Goods
 - E-Commerce
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Shopify
 - Retail
 token_urls: []

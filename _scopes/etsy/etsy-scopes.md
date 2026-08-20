@@ -312,15 +312,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etsy/refs/head
 summary_line: 20 scopes · authorizationCode
 tags:
 - Marketplace
-- Ecommerce
+- E-Commerce
 - Handmade
 - Listings
-- Orders
+- Order
 - Payments
 - Reviews
 - Shipping
 - Taxonomy
-- OAuth2
+- Authentication
 token_urls:
 - https://openapi.etsy.com/v3/public/oauth/token
 ---

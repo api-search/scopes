@@ -66,13 +66,13 @@ tags:
 - Consumer Packaged Goods
 - Nicotine Pouches
 - Smokeless Tobacco Alternative
-- Ecommerce
+- E-Commerce
 - Direct to Consumer
 - Retail
 - Agentic Commerce
 - Shopify
 - GraphQL
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 token_urls:
 - https://shopify.com/authentication/22588521/oauth/token

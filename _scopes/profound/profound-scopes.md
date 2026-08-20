@@ -89,7 +89,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/profound/refs/
 summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Answer Engine Optimization
 - AEO
 - AI Search

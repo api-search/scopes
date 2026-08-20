@@ -70,11 +70,11 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/google-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/scopes/android-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- AI
+- Artificial Intelligence
 - Android
 - Automotive
 - Google
-- Machine Learning
+- Machine-Learning
 - Mobile Development
 - SDK
 - TV

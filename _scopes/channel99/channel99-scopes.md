@@ -44,7 +44,7 @@ tags:
 - Advertising
 - Marketing Technology
 - Artificial Intelligence
-- Account-Based Marketing
+- Account Based Marketing
 - Reporting
 - MCP
 - Agent Ready

@@ -119,7 +119,7 @@ tags:
 - Claims Technology
 - CIECA
 - Partner Gated
-- OAuth
+- Authentication
 - OpenID Connect
 token_urls:
 - https://auth.cccis.com/oauth2/v1/token

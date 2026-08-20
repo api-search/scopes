@@ -218,7 +218,7 @@ tags:
 - Rocket Engines
 - Defense
 - Manufacturing
-- E-commerce
+- E-Commerce
 - MCP
 token_urls:
 - https://shopify.com/authentication/30100881545/oauth/token

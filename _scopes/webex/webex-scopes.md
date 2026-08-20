@@ -1262,7 +1262,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Calling
 - Collaboration
-- Communication
+- Communications
 - Enterprise
 - Messaging
 - Video Conferencing

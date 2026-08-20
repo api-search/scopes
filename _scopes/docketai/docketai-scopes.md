@@ -79,7 +79,6 @@ tags:
 - Lead Qualification
 - Go-To-Market
 - MCP
-- Model Context Protocol
 token_urls:
 - https://angelic-precision-36.authkit.app/oauth2/token
 ---

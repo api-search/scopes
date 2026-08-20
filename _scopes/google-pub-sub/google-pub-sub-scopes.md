@@ -89,7 +89,7 @@ tags:
 - Event-Driven
 - Google Cloud
 - Messaging
-- Pub/Sub
+- Pub-Sub
 - Streaming
 token_urls:
 - https://oauth2.googleapis.com/token

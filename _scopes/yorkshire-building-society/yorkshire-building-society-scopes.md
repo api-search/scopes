@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/yorkshi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/scopes/yorkshire-building-society-scopes.yml
 summary_line: 4 scopes
 tags:
-- Financial Services
+- Financial-Services
 - Banking
 - Building Society
 - Open Banking

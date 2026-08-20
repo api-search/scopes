@@ -165,10 +165,10 @@ tags:
 - Data Enrichment
 - Sequences
 - Analytics
-- Tasks
+- Task
 - Bulk API
 - MCP
 - Agent Skills
-- Webhooks
+- Webhook
 token_urls: []
 ---

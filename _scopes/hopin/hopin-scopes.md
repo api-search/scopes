@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/scopes/hopin-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
-- Events
+- Event
 - Virtual Events
 - Hybrid Events
 - Webinars

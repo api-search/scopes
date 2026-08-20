@@ -78,7 +78,7 @@ tags:
 - Subscription
 - Agentic Commerce
 - Shopify
-- Model Context Protocol
+- MCP
 token_urls:
 - https://shopify.com/authentication/74101293355/oauth/token
 ---

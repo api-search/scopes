@@ -142,9 +142,9 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Document Automation
 - E-Signature
-- Document Management
+- Document-Management
 - Document Generation
-- Webhooks
+- Webhook
 token_urls:
 - https://api.pandadoc.com/oauth2/access_token
 ---

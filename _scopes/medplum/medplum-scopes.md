@@ -105,7 +105,7 @@ summary_line: 12 scopes · authorizationCode/clientCredentials
 tags:
 - Healthcare
 - FHIR
-- Open Source
+- Open-Source
 - Developer Platform
 - HIPAA
 - SMART on FHIR

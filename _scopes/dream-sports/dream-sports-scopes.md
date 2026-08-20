@@ -458,23 +458,22 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dream-sports/r
 summary_line: 7 scopes · authorizationCode
 tags:
 - Company
-- sports-technology
-- fantasy-sports
-- open-source
-- developer-tools
-- platform-engineering
-- authentication
-- openid-connect
-- oauth2
-- mobile
-- react-native
-- devops
-- observability
-- test-management
-- ota-updates
-- feature-flags
-- india
-- mcp
+- Sports Technology
+- Fantasy Sports
+- Open-Source
+- Developer Tools
+- Platform Engineering
+- Authentication
+- OpenID Connect
+- Mobile
+- React Native
+- DevOps
+- Observability
+- Test Management
+- OTA Updates
+- Feature Flags
+- India
+- MCP
 - agent-native
 token_urls:
 - https://auth.dream11.com/token

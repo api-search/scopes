@@ -97,7 +97,7 @@ tags:
 - Invoicing
 - Payments
 - Accounting
-- FinTech
+- Fintech
 - Automation
 - Artificial Intelligence
 - ERP Integration

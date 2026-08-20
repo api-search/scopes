@@ -68,7 +68,7 @@ tags:
 - Property and Casualty
 - Carrier
 - Mutual Insurer
-- Broker
+- Brokers
 - Commercial Lines
 - Personal Lines
 - Underwriting

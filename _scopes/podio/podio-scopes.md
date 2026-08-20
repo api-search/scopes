@@ -95,7 +95,7 @@ tags:
 - Collaboration
 - Project Management
 - CRM
-- Workflow
+- Workflows
 - Custom Apps
 token_urls:
 - https://api.podio.com/oauth/token/v2

@@ -69,7 +69,7 @@ tags:
 - Employee Benefits
 - Health
 - B2B
-- Subscriptions
+- Subscription
 token_urls:
 - https://auth.calm.com/v0/authorize
 ---

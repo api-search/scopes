@@ -34,8 +34,8 @@ tags:
 - Lead Generation
 - WordPress
 - Newsletters
-- Webhooks
-- Model Context Protocol
+- Webhook
+- MCP
 - Plugins
 token_urls: []
 ---

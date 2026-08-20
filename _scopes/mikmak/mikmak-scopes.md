@@ -44,14 +44,14 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Analytics
 - Commerce
-- eCommerce
-- Multichannel
+- E-Commerce
+- Multi-Channel
 - Retail Media
 - Where to Buy
 - Shoppable Media
 - Product Availability
 - MCP
-- Agent Native
+- agent-native
 - Reporting
 - CPG
 token_urls: []

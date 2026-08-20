@@ -181,11 +181,10 @@ tags:
 - Cloud Services
 - Digital Workflows
 - Enterprise Platform
-- IT Service Management
 - ITSM
 - Processes
 - T1
-- Workflow Automation
+- Workflow-Automation
 - Workflows
 token_urls:
 - https://{instance}.service-now.com/oauth_token.do

@@ -221,7 +221,6 @@ tags:
 - Digital Agriculture
 - Farm Management
 - Geospatial
-- APIs
 token_urls:
 - https://api.climate.com/api/oauth/token
 ---

@@ -313,7 +313,7 @@ summary_line: 37 scopes
 tags:
 - Company
 - Search
-- Ecommerce
+- E-Commerce
 - Product Discovery
 - Recommendations
 - Personalization

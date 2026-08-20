@@ -447,8 +447,8 @@ tags:
 - Pipeline Management
 - AI Agents
 - MCP
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 token_urls:
 - https://api.close.com/oauth2/token/
 ---

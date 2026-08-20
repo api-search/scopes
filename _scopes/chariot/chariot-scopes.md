@@ -234,16 +234,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chariot/refs/h
 summary_line: 4 scopes · authorizationCode
 tags:
 - Payments
-- Donor Advised Funds
+- Donor-Advised Funds
 - Charitable Giving
-- Nonprofit
+- Non-Profit
 - Fintech
 - DAFpay
 - Grants
 - Disbursements
 - Open Banking
 - FDX
-- Webhooks
+- Webhook
 - Company
 token_urls:
 - https://api.givechariot.com/auth/oauth/token

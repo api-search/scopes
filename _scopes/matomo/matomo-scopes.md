@@ -447,14 +447,14 @@ summary_line: 3 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - Analytics
 - Web Analytics
-- Open Source
+- Open-Source
 - Privacy
 - Data Ownership
 - Self-Hosted
 - GDPR
 - Tag Management
 - Conversion Optimization
-- Model Context Protocol
+- MCP
 token_urls:
 - https://{matomo_host}/index.php?module=OAuth2&action=token
 ---

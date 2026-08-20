@@ -47,11 +47,11 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Computer Vision
+- Computer-Vision
 - Hospitals
 - Ambient Intelligence
 - Electronic Health Records
-- Machine Learning
+- Machine-Learning
 - Patient Monitoring
 - Internet of Things
 token_urls:

@@ -541,11 +541,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reclaim-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reclaim-ai/refs/heads/main/scopes/reclaim-ai-scopes.yml
 summary_line: 3 scopes
 tags:
-- AI
+- Artificial Intelligence
 - Scheduling
 - Calendar
 - Productivity
-- Tasks
+- Task
 - Habits
 - Time Management
 - Meetings

@@ -184,7 +184,7 @@ tags:
 - Chargebacks
 - Fraud Prevention
 - Invoicing
-- Subscriptions
+- Subscription
 token_urls:
 - https://api.romit.io/v1/oauth/token
 ---

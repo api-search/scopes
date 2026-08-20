@@ -125,7 +125,7 @@ summary_line: 1 scope · clientCredentials
 tags:
 - Contingent Workforce
 - External Talent
-- Human Capital Management
+- HCM
 - Services Procurement
 - Statements of Work
 - Vendor Management

@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unionai-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/scopes/unionai-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
-- AI
+- Artificial Intelligence
 - ML
 - Orchestration
 - Workflows

@@ -534,8 +534,8 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://app.rob
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/scopes/roboflow-scopes.yml
 summary_line: 67 scopes · authorizationCode
 tags:
-- Computer Vision
-- Machine Learning
+- Computer-Vision
+- Machine-Learning
 - Artificial Intelligence
 - Object Detection
 - Image Annotation

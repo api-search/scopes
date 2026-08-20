@@ -112,13 +112,13 @@ tags:
 - Company
 - Payments
 - Checkout
-- eCommerce
+- E-Commerce
 - Fintech
-- Subscriptions
+- Subscription
 - Tokenization
 - Fraud
 - Identity
-- Webhooks
+- Webhook
 token_urls:
 - https://api.boltapp.com/v1/oauth/token
 - /v1/oauth/token

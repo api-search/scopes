@@ -67,10 +67,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/inflecti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/scopes/inflection-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Personal AI
-- Pi
+- PI
 - Foundation Models
 - Empathetic AI
 token_urls:

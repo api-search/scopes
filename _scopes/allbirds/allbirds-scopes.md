@@ -62,11 +62,11 @@ tags:
 - Company
 - Consumer
 - Retail
-- E-commerce
+- E-Commerce
 - Footwear
 - Apparel
 - Sustainability
-- Direct-to-Consumer
+- Direct to Consumer
 - Agent Commerce
 - Shopify
 token_urls:

@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thamarah-al-ji
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Marketplace
 - Luxury
 - Resale

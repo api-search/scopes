@@ -30,11 +30,11 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Data
-- Coding Agent
+- Coding Agents
 - AI Agents
 - Developer Tools
 - Automation
-- OAuth
+- Authentication
 - MCP
 token_urls: []
 ---

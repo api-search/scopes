@@ -68,7 +68,7 @@ tags:
 - Agents
 - MCP
 - Compliance
-- Financial Services
+- Financial-Services
 token_urls:
 - https://myaccount.persado.com/realms/persado-portal/protocol/openid-connect/token
 ---

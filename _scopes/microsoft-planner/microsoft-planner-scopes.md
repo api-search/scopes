@@ -102,7 +102,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-plan
 summary_line: 6 scopes · authorizationCode
 tags:
 - Collaboration
-- Microsoft 365
+- Microsoft-365
 - Productivity
 - Project Management
 - Task Management

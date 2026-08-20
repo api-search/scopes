@@ -88,7 +88,7 @@ summary_line: 11 scopes
 tags:
 - Company
 - Agriculture
-- Agritech
+- AgriTech
 - Precision Agriculture
 - Plant Health
 - Photosynthesis

@@ -60,7 +60,7 @@ tags:
 - Compute
 - Google Cloud
 - HPC
-- Jobs
+- Job
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

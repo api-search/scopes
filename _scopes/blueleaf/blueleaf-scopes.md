@@ -60,7 +60,7 @@ tags:
 - Investment Reporting
 - Account Aggregation
 - Client Portal
-- OAuth
+- Authentication
 - OpenID Connect
 token_urls:
 - https://secure.blueleaf.com/oauth/token

@@ -45,7 +45,7 @@ tags:
 - Health
 - Consumer Genetics
 - Ancestry
-- OAuth
+- Authentication
 - Personal Genomics
 token_urls:
 - https://genomelink.io/oauth/token

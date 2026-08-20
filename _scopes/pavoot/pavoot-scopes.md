@@ -37,12 +37,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/he
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Marketing
 - AI Agent
 - Attendee Intelligence
-- GTM
+- Go-To-Market
 - Field Marketing
 - Pipeline
 token_urls: []

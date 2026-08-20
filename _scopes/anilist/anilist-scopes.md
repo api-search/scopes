@@ -62,7 +62,7 @@ tags:
 - Social
 - Database
 - GraphQL
-- OAuth2
+- Authentication
 - Public APIs
 token_urls:
 - https://anilist.co/api/v2/oauth/token
