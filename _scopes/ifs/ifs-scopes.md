@@ -79,6 +79,7 @@ tags:
 - Manufacturing
 - Energy
 - Cloud
+- Sweden
 token_urls:
 - https://login.ifs.cloud/oauth2/token
 ---

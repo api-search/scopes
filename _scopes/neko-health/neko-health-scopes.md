@@ -68,6 +68,7 @@ tags:
 - Diagnostics
 - Consumer Health
 - OpenID Connect
+- Sweden
 token_urls:
 - https://account.nekohealth.com/connect/token
 ---
