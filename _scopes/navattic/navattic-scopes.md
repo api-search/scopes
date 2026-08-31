@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: navattic-website-openapi.json
-  format: json
-  label: Navattic API
-  slug: navattic-api
+- filename: navattic-health-api-openapi.yml
+  format: yaml
+  label: Navattic Health API
+  slug: navattic-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/openapi/navattic-website-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/openapi/navattic-health-api-openapi.yml
 authorization_urls:
 - https://app.navattic.com/api/mcp/oauth/authorize
 description: 'Navattic publishes its OAuth scope list twice — machine-readably in the RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata, and in prose as a scope/permission table on the MCP docs page, which adds the required workspace role for each. The two lists agree on the seven scopes the docs describe; the metadata advertises four more that the docs do not yet document. Both facts are recorded below.

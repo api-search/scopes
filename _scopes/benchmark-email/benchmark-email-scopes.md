@@ -174,12 +174,42 @@ api_specs:
   slug: benchmark-email-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-webhooks-api-openapi.yml
-- filename: benchmark-email-api-openapi.json
-  format: json
-  label: Benchmark Email API
-  slug: benchmark-email-api
+- filename: benchmark-email-contact-api-openapi.yml
+  format: yaml
+  label: Benchmark Email Contact API
+  slug: benchmark-email-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-contact-api-openapi.yml
+- filename: benchmark-email-contact-structure-api-openapi.yml
+  format: yaml
+  label: Benchmark Email Contact Structure API
+  slug: benchmark-email-contact-structure-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-contact-structure-api-openapi.yml
+- filename: benchmark-email-email-campaign-api-openapi.yml
+  format: yaml
+  label: Benchmark Email Email Campaign API
+  slug: benchmark-email-email-campaign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-email-campaign-api-openapi.yml
+- filename: benchmark-email-email-domain-api-openapi.yml
+  format: yaml
+  label: Benchmark Email Email Domain API
+  slug: benchmark-email-email-domain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-email-domain-api-openapi.yml
+- filename: benchmark-email-email-template-api-openapi.yml
+  format: yaml
+  label: Benchmark Email Email Template API
+  slug: benchmark-email-email-template-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-email-template-api-openapi.yml
+- filename: benchmark-email-lists-api-openapi.yml
+  format: yaml
+  label: Benchmark Email Lists API
+  slug: benchmark-email-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/openapi/benchmark-email-lists-api-openapi.yml
 authorization_urls: []
 description: Benchmark Email publishes a complete, enumerated permission reference for its v1 API. These are API-KEY scopes, not OAuth scopes — there is no OAuth or OIDC anywhere in the product, and derive-oauth-scopes.py found zero oauth2 security schemes in the spec. The scopes are nevertheless a real, documented, per-key authorization model in the {resource}:{access} form, enforced at request time with a 403 that names the scope you are missing.
 docs: https://developers.benchmarkemail.io/authentication

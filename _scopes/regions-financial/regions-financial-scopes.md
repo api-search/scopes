@@ -42,14 +42,14 @@ method: derived
 name: Regions Financial Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'regions-financial publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the regions-financial API on a user''s behalf.
+overview: 'Regions Financial Corporation publishes 4 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Regions Financial Corporation API on a user''s behalf.
 
 
   Tokens are issued from https://auth.regions.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: regions-financial
+provider_name: Regions Financial Corporation
 provider_slug: regions-financial
 schemes:
 - description: OAuth 2.0 with customer consent (FDX standard)

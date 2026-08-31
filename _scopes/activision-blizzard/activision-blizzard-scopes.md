@@ -43,14 +43,14 @@ method: derived
 name: Activision Blizzard Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'activision-blizzard publishes 3 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the activision-blizzard API on a user''s behalf.
+overview: 'Activision Blizzard publishes 3 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Activision Blizzard API on a user''s behalf.
 
 
   Tokens are issued from https://oauth.battle.net/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: activision-blizzard
+provider_name: Activision Blizzard
 provider_slug: activision-blizzard
 schemes:
 - description: OAuth2 authentication. Create a client at develop.battle.net for client ID and secret.

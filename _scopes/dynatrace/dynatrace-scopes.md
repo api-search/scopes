@@ -80,7 +80,25 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://sso.dynatrace.com/sso/oauth2/token
   name: oauth2
-  source: openapi/dynatrace-account-management-api-openapi.yml
+  source: openapi/dynatrace-environments-api-openapi.yml
+- description: 'OAuth 2.0 authentication for the Account Management API. Use the client credentials flow to obtain a bearer token. Required scopes vary by endpoint: account-idm-read for GET operations, account-idm-write for POST/PUT/DELETE operations.'
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://sso.dynatrace.com/sso/oauth2/token
+  name: oauth2
+  source: openapi/dynatrace-groups-api-openapi.yml
+- description: 'OAuth 2.0 authentication for the Account Management API. Use the client credentials flow to obtain a bearer token. Required scopes vary by endpoint: account-idm-read for GET operations, account-idm-write for POST/PUT/DELETE operations.'
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://sso.dynatrace.com/sso/oauth2/token
+  name: oauth2
+  source: openapi/dynatrace-permissions-api-openapi.yml
+- description: 'OAuth 2.0 authentication for the Account Management API. Use the client credentials flow to obtain a bearer token. Required scopes vary by endpoint: account-idm-read for GET operations, account-idm-write for POST/PUT/DELETE operations.'
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://sso.dynatrace.com/sso/oauth2/token
+  name: oauth2
+  source: openapi/dynatrace-users-api-openapi.yml
 scope_count: 3
 scope_names:
 - account-env-read
@@ -103,8 +121,9 @@ slug: dynatrace-scopes
 source_filename: dynatrace-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dynatrace-account-management-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/dynatrace-account-management-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://sso.dynatrace.com/sso/oauth2/token\n  description: 'OAuth 2.0 authentication for the Account Management API. Use the client credentials\n    flow to obtain a bearer token. Required scopes vary by endpoint: account-idm-read for GET\n    operations, account-idm-write for POST/PUT/DELETE operations.'\nscopes:\n- scope: account-env-read\n  description: Read access to environment information\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/dynatrace-account-management-api-openapi.yml\n- scope: account-idm-read\n  description: Read access to account identity and management data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/dynatrace-account-management-api-openapi.yml\n- scope: account-idm-write\n  description:\
-  \ Write access to manage users, groups, and permissions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/dynatrace-account-management-api-openapi.yml\n"
+source_yaml: "generated: '2026-08-29'\nmethod: derived\nsource: openapi/dynatrace-environments-api-openapi.yml, openapi/dynatrace-groups-api-openapi.yml,\n  openapi/dynatrace-permissions-api-openapi.yml, openapi/dynatrace-users-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/dynatrace-environments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://sso.dynatrace.com/sso/oauth2/token\n  description: 'OAuth 2.0 authentication for the Account Management API. Use the client credentials\n    flow to obtain a bearer token. Required scopes vary by endpoint: account-idm-read for GET\n    operations, account-idm-write for POST/PUT/DELETE operations.'\n- name: oauth2\n  source: openapi/dynatrace-groups-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://sso.dynatrace.com/sso/oauth2/token\n  description: 'OAuth 2.0 authentication for the Account Management API. Use the client credentials\n    flow to obtain a bearer token. Required scopes\
+  \ vary by endpoint: account-idm-read for GET\n    operations, account-idm-write for POST/PUT/DELETE operations.'\n- name: oauth2\n  source: openapi/dynatrace-permissions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://sso.dynatrace.com/sso/oauth2/token\n  description: 'OAuth 2.0 authentication for the Account Management API. Use the client credentials\n    flow to obtain a bearer token. Required scopes vary by endpoint: account-idm-read for GET\n    operations, account-idm-write for POST/PUT/DELETE operations.'\n- name: oauth2\n  source: openapi/dynatrace-users-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://sso.dynatrace.com/sso/oauth2/token\n  description: 'OAuth 2.0 authentication for the Account Management API. Use the client credentials\n    flow to obtain a bearer token. Required scopes vary by endpoint: account-idm-read for GET\n    operations, account-idm-write for POST/PUT/DELETE operations.'\nscopes:\n- scope: account-env-read\n\
+  \  description: Read access to environment information\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/dynatrace-environments-api-openapi.yml\n  - openapi/dynatrace-groups-api-openapi.yml\n  - openapi/dynatrace-permissions-api-openapi.yml\n  - openapi/dynatrace-users-api-openapi.yml\n- scope: account-idm-read\n  description: Read access to account identity and management data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/dynatrace-environments-api-openapi.yml\n  - openapi/dynatrace-groups-api-openapi.yml\n  - openapi/dynatrace-permissions-api-openapi.yml\n  - openapi/dynatrace-users-api-openapi.yml\n- scope: account-idm-write\n  description: Write access to manage users, groups, and permissions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/dynatrace-environments-api-openapi.yml\n  - openapi/dynatrace-groups-api-openapi.yml\n  - openapi/dynatrace-permissions-api-openapi.yml\n  - openapi/dynatrace-users-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/scopes/dynatrace-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:

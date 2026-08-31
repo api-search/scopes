@@ -1,23 +1,17 @@
 ---
 api_specs:
-- filename: reliance-jio-jiomeet-platform-openapi.yml
+- filename: reliance-jio-jioeventscpaasplatform-api-openapi.yml
   format: yaml
-  label: JioMeet Platform Server API
-  slug: jiomeet-platform-server-api
+  label: Reliance Jio Jio Events Cpaas Platform API
+  slug: reliance-jio-jioeventscpaasplatform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jiomeet-platform-openapi.yml
-- filename: reliance-jio-jiomeet-oauth-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jioeventscpaasplatform-api-openapi.yml
+- filename: reliance-jio-jiomeetcpaasplatform-api-openapi.yml
   format: yaml
-  label: JioMeet Platform OAuth API
-  slug: jiomeet-platform-oauth-api
+  label: Reliance Jio Jio Meet Cpaas Platform API
+  slug: reliance-jio-jiomeetcpaasplatform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jiomeet-oauth-openapi.yml
-- filename: reliance-jio-jioevents-platform-openapi.yml
-  format: yaml
-  label: JioEvents Platform Server API
-  slug: jioevents-platform-server-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jioevents-platform-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jiomeetcpaasplatform-api-openapi.yml
 authorization_urls:
 - https://jiomeetpro.jio.com/oauth2/authorize
 description: 'OAuth 2.0 authorization-code scopes for the JioMeet Platform OAuth API. These scopes are documented on Jio''s OAuth integration guide, NOT in the machine-readable spec - the harvested OpenAPI models the OAuth API with plain http basic / http bearer security schemes and declares no oauth2 flow object, so the scope list exists only in prose. Scope is nevertheless returned at runtime: the token response carries a `scope` field described as "the permissions that are granted to the access token". This applies to the user-authorized JioMeet surface only; the JioMeet Platform Server API and the JioEvents Platform Server API are app-credential JWT surfaces with no scope model at all.'

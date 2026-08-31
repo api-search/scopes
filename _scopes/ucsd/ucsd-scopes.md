@@ -42,12 +42,18 @@ api_specs:
   slug: tritonai-scim-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-scim-api-openapi.yml
-- filename: ucsd-library-digital-collections-openapi.yml
+- filename: ucsd-objects-api-openapi.yml
   format: yaml
-  label: UC San Diego Library Digital Collections JSON API
-  slug: library-digital-collections-api
+  label: University of California, San Diego Objects API
+  slug: ucsd-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-library-digital-collections-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-objects-api-openapi.yml
+- filename: ucsd-search-api-openapi.yml
+  format: yaml
+  label: University of California, San Diego Search API
+  slug: ucsd-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-search-api-openapi.yml
 authorization_urls: []
 description: Authorization scopes observable on UC San Diego's institution-operated API surfaces. Both surfaces are credential-gated; the scope names below were read from endpoints that answer anonymously, not from published developer documentation, because UC San Diego does not publish a scope reference outside its Single Sign-On boundary.
 docs: ''

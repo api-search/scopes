@@ -6,42 +6,42 @@ api_specs:
   slug: synthflow-default-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-default-api-openapi.yml
-- filename: synthflow-subpackage-chat-api-openapi.yml
+- filename: synthflow-chat-api-openapi.yml
   format: yaml
-  label: Synthflow subpackage_chat API
-  slug: synthflow-subpackage-chat-api
+  label: Synthflow Chat API
+  slug: synthflow-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-chat-api-openapi.yml
-- filename: synthflow-subpackage-contacts-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-chat-api-openapi.yml
+- filename: synthflow-contacts-api-openapi.yml
   format: yaml
-  label: Synthflow subpackage_contacts API
-  slug: synthflow-subpackage-contacts-api
+  label: Synthflow Contacts API
+  slug: synthflow-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-contacts-api-openapi.yml
-- filename: synthflow-subpackage-mcp-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-contacts-api-openapi.yml
+- filename: synthflow-mcp-api-openapi.yml
   format: yaml
-  label: Synthflow subpackage_mcp API
-  slug: synthflow-subpackage-mcp-api
+  label: Synthflow MCP API
+  slug: synthflow-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-mcp-api-openapi.yml
-- filename: synthflow-subpackage-memorystores-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-mcp-api-openapi.yml
+- filename: synthflow-memorystores-api-openapi.yml
   format: yaml
-  label: Synthflow subpackage_memoryStores API
-  slug: synthflow-subpackage-memorystores-api
+  label: Synthflow Memory Stores API
+  slug: synthflow-memorystores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-memorystores-api-openapi.yml
-- filename: synthflow-subpackage-phonenumbers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-memorystores-api-openapi.yml
+- filename: synthflow-phonenumbers-api-openapi.yml
   format: yaml
-  label: Synthflow subpackage_phoneNumbers API
-  slug: synthflow-subpackage-phonenumbers-api
+  label: Synthflow Phone Numbers API
+  slug: synthflow-phonenumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-phonenumbers-api-openapi.yml
-- filename: synthflow-subpackage-webhooklogs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phonenumbers-api-openapi.yml
+- filename: synthflow-webhooklogs-api-openapi.yml
   format: yaml
-  label: Synthflow subpackage_webhookLogs API
-  slug: synthflow-subpackage-webhooklogs-api
+  label: Synthflow Webhook Logs API
+  slug: synthflow-webhooklogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subpackage-webhooklogs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-webhooklogs-api-openapi.yml
 authorization_urls:
 - https://kind-prelude-27.authkit.app/oauth2/authorize
 description: OAuth scopes reachable on the Synthflow estate. These belong to the MCP surface only — the REST Platform API declares no oauth2 security scheme and has no scope model at all (a single bearer API key carries full workspace authority). The scopes below are the IDENTITY scopes advertised by Synthflow's delegated authorization server; they are not Synthflow capability scopes, and no per-tool or per-resource scope is published.

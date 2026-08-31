@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: nus-identity-openapi.yml
+- filename: nus-authorization-api-openapi.yml
   format: yaml
-  label: NUS Federated Identity Service (VAFS)
-  slug: identity
+  label: National University of Singapore Authorization API
+  slug: nus-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-identity-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-authorization-api-openapi.yml
+- filename: nus-discovery-api-openapi.yml
+  format: yaml
+  label: National University of Singapore Discovery API
+  slug: nus-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-discovery-api-openapi.yml
+- filename: nus-session-api-openapi.yml
+  format: yaml
+  label: National University of Singapore Session API
+  slug: nus-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-session-api-openapi.yml
 authorization_urls: []
 description: The complete set of OAuth 2.0 / OpenID Connect scopes the National University of Singapore's own authorization server advertises to clients, plus the claims it will assert. These were read from the institution's live discovery document, not inferred. NUS publishes no prose documentation of these scopes anywhere public — the discovery document is the only description of them that exists on the open internet.
 docs: ''

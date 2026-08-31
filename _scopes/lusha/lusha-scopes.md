@@ -78,6 +78,36 @@ api_specs:
   slug: lusha-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-account-api-openapi.yml
+- filename: lusha-account-management-api-openapi.yml
+  format: yaml
+  label: Lusha Account Management API
+  slug: lusha-account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-account-management-api-openapi.yml
+- filename: lusha-company-filters-api-openapi.yml
+  format: yaml
+  label: Lusha Company Filters API
+  slug: lusha-company-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-company-filters-api-openapi.yml
+- filename: lusha-contact-filters-api-openapi.yml
+  format: yaml
+  label: Lusha Contact Filters API
+  slug: lusha-contact-filters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-contact-filters-api-openapi.yml
+- filename: lusha-enrichment-api-openapi.yml
+  format: yaml
+  label: Lusha Enrichment API
+  slug: lusha-enrichment-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-enrichment-api-openapi.yml
+- filename: lusha-prospecting-search-enrich-api-openapi.yml
+  format: yaml
+  label: Lusha Prospecting - Search & Enrich API
+  slug: lusha-prospecting-search-enrich-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/openapi/lusha-prospecting-search-enrich-api-openapi.yml
 authorization_urls:
 - https://auth.lusha.com/oauth-ui/authorize
 description: The Lusha REST API has NO OAuth surface — it authenticates with a single `api_key` header and therefore has no scopes (derive-oauth-scopes.py over the OpenAPI correctly finds zero oauth2 schemes). OAuth exists only in front of the MCP server, and it advertises exactly one coarse scope, `mcp`, which grants a connected agent the whole published tool set. There is no read/write split, no per-product scope, and no per-tool consent surface.

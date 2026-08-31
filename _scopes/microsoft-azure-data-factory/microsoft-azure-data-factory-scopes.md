@@ -24,11 +24,11 @@ method: derived
 name: Microsoft Azure Data Factory Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'microsoft-azure-data-factory publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the microsoft-azure-data-factory API on a user''s behalf.
+overview: 'Azure Data Factory publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Data Factory API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: microsoft-azure-data-factory
+provider_name: Azure Data Factory
 provider_slug: microsoft-azure-data-factory
 schemes:
 - description: Azure Active Directory OAuth2 Flow.

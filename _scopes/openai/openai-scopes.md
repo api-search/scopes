@@ -294,6 +294,12 @@ api_specs:
   slug: openai-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-videos-api-openapi.yml
+- filename: openai-openai-api-api-openapi.yml
+  format: yaml
+  label: OpenAI OpenAI API
+  slug: openai-openai-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-openai-api-api-openapi.yml
 authorization_urls: []
 description: 'OpenAI''s published OAuth scope set is the OIDC core four and nothing else — openid, profile, email, offline_access. There is no scope for reading models, creating responses, managing files or administering an organization, because OAuth at OpenAI grants IDENTITY, not API authority. A token from auth.openai.com tells your application who the user is; it does not let you call api.openai.com on their behalf. Platform API authority is carried by a long-lived project API key whose permissions are set in the console, and the permission model there is coarse: a key is scoped to one project, and the contract distinguishes exactly two security schemes (ApiKeyAuth, AdminApiKeyAuth). For an agent this is the load-bearing fact: there is no least-privilege, user-consented, per-operation grant available. You hold a key that can do everything the project can do, or you hold nothing.'
 docs: ''

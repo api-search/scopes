@@ -49,14 +49,14 @@ method: derived
 name: Wells Fargo Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'wells-fargo publishes 4 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the wells-fargo API on a user''s behalf.
+overview: 'Wells Fargo publishes 4 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Wells Fargo API on a user''s behalf.
 
 
   Tokens are issued from https://api.wellsfargo.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: wells-fargo
+provider_name: Wells Fargo
 provider_slug: wells-fargo
 schemes:
 - flows:

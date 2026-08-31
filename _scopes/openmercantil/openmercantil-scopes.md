@@ -60,12 +60,6 @@ api_specs:
   slug: openmercantil-public-procurement-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-public-procurement-api-openapi.yml
-- filename: openmercantil-risk-signals-api-openapi.yml
-  format: yaml
-  label: OpenMercantil Risk Signals API
-  slug: openmercantil-risk-signals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-risk-signals-api-openapi.yml
 - filename: openmercantil-search-api-openapi.yml
   format: yaml
   label: OpenMercantil Search API
@@ -108,6 +102,54 @@ api_specs:
   slug: openmercantil-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-webhooks-api-openapi.yml
+- filename: openmercantil-contracts-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Contracts API
+  slug: openmercantil-contracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-contracts-api-openapi.yml
+- filename: openmercantil-daily-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Daily API
+  slug: openmercantil-daily-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-daily-api-openapi.yml
+- filename: openmercantil-export-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Export API
+  slug: openmercantil-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-export-api-openapi.yml
+- filename: openmercantil-geocode-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Geocode API
+  slug: openmercantil-geocode-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-geocode-api-openapi.yml
+- filename: openmercantil-network-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Network API
+  slug: openmercantil-network-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-network-api-openapi.yml
+- filename: openmercantil-risk-signals-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Risk Signals API
+  slug: openmercantil-risk-signals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-risk-signals-api-openapi.yml
+- filename: openmercantil-score-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Score API
+  slug: openmercantil-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-score-api-openapi.yml
+- filename: openmercantil-stats-api-openapi.yml
+  format: yaml
+  label: OpenMercantil Stats API
+  slug: openmercantil-stats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-stats-api-openapi.yml
 authorization_urls: []
 description: 'OpenMercantil publishes a real, named authorization scope registry — but it is NOT OAuth 2.0. Scopes attach to opaque `omk_*` API credentials issued from the account panel and presented as `X-API-Key` (or `Authorization: Bearer`). The registry is declared machine-readably in the OpenAPI document under `components.x-api-credential-scopes`, and 43 of the 139 operations carry an `x-api-credential-scope` naming the scope that selects the caller''s account quota for that route. There is no authorization server, no consent screen and no token exchange — a scope selects quota and read plane, it does not grant access a caller lacked, because the public read plane is anonymous by default.'
 docs: https://openmercantil.es/api/documentacion

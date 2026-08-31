@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: ubc-open-collections-api-openapi.yml
-  format: yaml
-  label: UBC Library Open Collections API
-  slug: open-collections
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/openapi/ubc-open-collections-api-openapi.yml
 - filename: ubc-access-api-openapi.yml
   format: yaml
   label: UBC Library Abacus Dataverse API
   slug: abacus-dataverse
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/openapi/ubc-access-api-openapi.yml
+- filename: ubc-collections-api-openapi.yml
+  format: yaml
+  label: University of British Columbia Collections API
+  slug: ubc-collections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/openapi/ubc-collections-api-openapi.yml
 authorization_urls: []
 description: UBC operates no OAuth-scoped API surface. Open Collections authorizes by API key and rate tier, Abacus Dataverse by API token and repository role, and the enterprise gateway at api.ubc.ca by an out-of-band Data Access Framework request. The one authorization vocabulary UBC does publish is SAML attribute release from its Shibboleth IdP, which is not a scope model and is not enumerated in the public metadata.
 docs: ''

@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: hyperice-storefront-openapi.yml
+- filename: hyperice-collections-api-openapi.yml
   format: yaml
-  label: Hyperice Storefront JSON API
-  slug: hyperice-storefront-json-api
+  label: Hyperice Collections API
+  slug: hyperice-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-storefront-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-collections-api-openapi.yml
+- filename: hyperice-discovery-api-openapi.yml
+  format: yaml
+  label: Hyperice Discovery API
+  slug: hyperice-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-discovery-api-openapi.yml
+- filename: hyperice-products-api-openapi.yml
+  format: yaml
+  label: Hyperice Products API
+  slug: hyperice-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/openapi/hyperice-products-api-openapi.yml
 authorization_urls:
 - https://accounts.hyperice.com/authentication/oauth/authorize
 description: 'The complete OAuth scope surface Hyperice advertises, taken verbatim from the scopes_supported array of the OIDC discovery document served on its own domain. Four scopes, all coarse-grained: two OIDC standard scopes and two full-access product scopes. There is no fine-grained read/write scope split and no per-resource scoping.'

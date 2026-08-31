@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: rose-rocket-platform-model-api.json
-  format: json
-  label: Rose Rocket Platform Model API
-  slug: rose-rocket-platform-model-api
+- filename: rose-rocket-boards-api-openapi.yml
+  format: yaml
+  label: Rose Rocket Boards API
+  slug: rose-rocket-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-platform-model-api.json
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-boards-api-openapi.yml
+- filename: rose-rocket-events-api-openapi.yml
+  format: yaml
+  label: Rose Rocket Events API
+  slug: rose-rocket-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-events-api-openapi.yml
+- filename: rose-rocket-object-records-api-openapi.yml
+  format: yaml
+  label: Rose Rocket Object Records API
+  slug: rose-rocket-object-records-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-object-records-api-openapi.yml
+- filename: rose-rocket-user-groups-api-openapi.yml
+  format: yaml
+  label: Rose Rocket User Groups API
+  slug: rose-rocket-user-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/openapi/rose-rocket-user-groups-api-openapi.yml
 authorization_urls: []
 description: 'Rose Rocket''s OAuth 2.0 layer carries NO API authorization scopes. The scopes the Authentication Guide tells you to request — `offline_access email profile` — are the standard OIDC identity scopes of the Auth0 authorization server at a.roserocket.com; none of them names a Rose Rocket resource or a permission on one. Authorization is enforced entirely server-side by the ROLE the token''s user or service account holds inside the organization, against a per-object, per-field permission matrix administered in the product. This is a real and reasonably granular authorization model, but it is invisible to a client: an agent holding a token cannot read from the token, or from any documented scope list, what it is allowed to do. It finds out by receiving a 403.'
 docs: https://roserocket.readme.io/docs/roles-and-permissions

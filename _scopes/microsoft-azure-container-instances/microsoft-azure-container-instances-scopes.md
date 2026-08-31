@@ -24,11 +24,11 @@ method: derived
 name: Microsoft Azure Container Instances Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'microsoft-azure-container-instances publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the microsoft-azure-container-instances API on a user''s behalf.
+overview: 'Azure Container Instances publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Azure Container Instances API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: microsoft-azure-container-instances
+provider_name: Azure Container Instances
 provider_slug: microsoft-azure-container-instances
 schemes:
 - description: Azure Active Directory OAuth2 Flow.

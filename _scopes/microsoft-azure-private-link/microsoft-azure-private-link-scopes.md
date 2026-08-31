@@ -24,11 +24,11 @@ method: derived
 name: Microsoft Azure Private Link Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'microsoft-azure-private-link publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the microsoft-azure-private-link API on a user''s behalf.
+overview: 'Microsoft Azure Private Link publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Azure Private Link API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: microsoft-azure-private-link
+provider_name: Microsoft Azure Private Link
 provider_slug: microsoft-azure-private-link
 schemes:
 - description: Azure Active Directory OAuth2 Flow.

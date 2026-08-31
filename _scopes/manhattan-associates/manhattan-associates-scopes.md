@@ -47,14 +47,14 @@ method: derived
 name: Manhattan Associates Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'manhattan-associates publishes 5 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the manhattan-associates API on a user''s behalf.
+overview: 'Manhattan Associates publishes 5 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Manhattan Associates API on a user''s behalf.
 
 
   Tokens are issued from https://auth.developer.manh.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: manhattan-associates
+provider_name: Manhattan Associates
 provider_slug: manhattan-associates
 schemes:
 - flows:

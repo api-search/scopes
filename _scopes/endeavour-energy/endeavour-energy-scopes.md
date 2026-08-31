@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: endeavour-energy-open-data-explore-api-v2-1-openapi.json
-  format: json
-  label: Endeavour Energy Open Data Explore API
-  slug: endeavour-energy-open-data-explore-api
+- filename: endeavour-energy-catalog-api-openapi.yml
+  format: yaml
+  label: Endeavour Energy Catalog API
+  slug: endeavour-energy-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/openapi/endeavour-energy-open-data-explore-api-v2-1-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/openapi/endeavour-energy-catalog-api-openapi.yml
+- filename: endeavour-energy-dataset-api-openapi.yml
+  format: yaml
+  label: Endeavour Energy Dataset API
+  slug: endeavour-energy-dataset-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/openapi/endeavour-energy-dataset-api-openapi.yml
 authorization_urls:
 - https://data.endeavourenergy.com.au/oauth2/authorize/
 description: 'Endeavour Energy''s open data portal runs the Opendatasoft OAuth2 authorization-code flow, RFC 6749 compliant with RFC 6750 bearer tokens. The scope model is deliberately trivial: there is exactly ONE scope, `all`, and it is the only value the platform accepts. There is no read/write split, no per-dataset scope, and no least-privilege story — an authorized application gets whatever its authorizing user has. This is worth recording precisely because it is the opposite of a granular scope catalogue, and an agent planning consent needs to know that "all" is the only option.'

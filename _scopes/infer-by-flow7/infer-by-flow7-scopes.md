@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: openapi-public.json
-  format: json
-  label: Infer Responses API
-  slug: infer-responses-api
+- filename: infer-by-flow7-catalog-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Catalog API
+  slug: infer-by-flow7-catalog-api
   spec_type: OpenAPI
-  url: https://infer.flow7.org/openapi-public.json
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-catalog-api-openapi.yml
+- filename: infer-by-flow7-inference-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Inference API
+  slug: infer-by-flow7-inference-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-inference-api-openapi.yml
+- filename: infer-by-flow7-status-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Status API
+  slug: infer-by-flow7-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-status-api-openapi.yml
 authorization_urls: []
 description: Infer publishes a permission scope on its API keys, but it is NOT OAuth 2.0. There is no authorization server (both /.well-known/oauth-authorization-server and /.well-known/openid-configuration return 404), no token endpoint and no consent flow. The scope is a property attached to a workspace API key at creation time. This file records that honestly rather than leaving a documented permission model unrecorded.
 docs: ''

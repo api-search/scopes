@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amuncore-dynamic-api-openapi.yml
+- filename: amuncore-dynamic-api-api-openapi.yml
   format: yaml
-  label: AmunCore API
-  slug: amuncore-api
+  label: AmunCore Dynamic API
+  slug: amuncore-dynamic-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/openapi/amuncore-dynamic-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/openapi/amuncore-dynamic-api-api-openapi.yml
 authorization_urls:
 - https://amuncore.com/oauth/authorize
 description: AmunCore's OAuth surface exists solely to authorize the MCP endpoint. The RFC 8414 authorization server metadata declares exactly one scope — "mcp" — and the RFC 9728 protected resource metadata confirms it applies to https://amuncore.com/mcp. The REST API itself does not use OAuth at all; it is authenticated with an X-Api-Key header, so there is no scope surface on the REST side and none is invented here.

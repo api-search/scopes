@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: clari-copilot-api-openapi.yml
-  format: yaml
-  label: Clari Copilot API
-  slug: clari-copilot-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-copilot-api-openapi.yml
 - filename: clari-activity-api-api-openapi.yml
   format: yaml
   label: Clari Activity API API
@@ -60,6 +54,48 @@ api_specs:
   slug: clari-opportunity-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-opportunity-api-api-openapi.yml
+- filename: clari-account-api-openapi.yml
+  format: yaml
+  label: Clari Account API
+  slug: clari-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-account-api-openapi.yml
+- filename: clari-call-api-openapi.yml
+  format: yaml
+  label: Clari Call API
+  slug: clari-call-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-call-api-openapi.yml
+- filename: clari-contact-api-openapi.yml
+  format: yaml
+  label: Clari Contact API
+  slug: clari-contact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-contact-api-openapi.yml
+- filename: clari-deal-api-openapi.yml
+  format: yaml
+  label: Clari Deal API
+  slug: clari-deal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-deal-api-openapi.yml
+- filename: clari-scorecard-api-openapi.yml
+  format: yaml
+  label: Clari Scorecard API
+  slug: clari-scorecard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-scorecard-api-openapi.yml
+- filename: clari-topics-api-openapi.yml
+  format: yaml
+  label: Clari Topics API
+  slug: clari-topics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-topics-api-openapi.yml
+- filename: clari-user-api-openapi.yml
+  format: yaml
+  label: Clari User API
+  slug: clari-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-user-api-openapi.yml
 authorization_urls: []
 description: Clari's OAuth surface exists ONLY on the MCP server. Neither published OpenAPI declares an oauth2 securityScheme — the Revenue API uses an `apikey` header and the Copilot API uses `X-Api-Key` + `X-Api-Password`. The scopes below are read verbatim from the RFC 9728 / RFC 8414 metadata the Clari MCP gateway serves anonymously. They are standard OpenID Connect scopes; Clari publishes NO product-specific authorization scopes (nothing like forecast:read or calls:read), so a granted MCP token is not scoped by Clari data domain at the protocol level. Access is instead gated by tenant admin toggles and the user's own Clari permissions.
 docs: ''

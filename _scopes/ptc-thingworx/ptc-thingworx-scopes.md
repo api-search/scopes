@@ -54,14 +54,14 @@ method: derived
 name: Ptc Thingworx Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'ptc-thingworx publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ptc-thingworx API on a user''s behalf.
+overview: 'PTC ThingWorx publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the PTC ThingWorx API on a user''s behalf.
 
 
   Tokens are issued from https://thingworx.example.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: ptc-thingworx
+provider_name: PTC ThingWorx
 provider_slug: ptc-thingworx
 schemes:
 - flows:

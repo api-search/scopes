@@ -90,14 +90,14 @@ method: derived
 name: Wellcare Health Plans Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'wellcare-health-plans publishes 8 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the wellcare-health-plans API on a user''s behalf.
+overview: 'WellCare Health Plans publishes 8 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the WellCare Health Plans API on a user''s behalf.
 
 
   Tokens are issued from https://partners.centene.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: wellcare-health-plans
+provider_name: WellCare Health Plans
 provider_slug: wellcare-health-plans
 schemes:
 - description: SMART on FHIR OAuth 2.0 authorization for patient-facing apps.

@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: green-button-alliance-green-button-api-openapi.yml
+- filename: green-button-alliance-applicationinformation-api-openapi.yml
   format: yaml
-  label: Green Button Connect My Data (CMD) ESPI Resource Server API
-  slug: green-button-connect-my-data-api
+  label: Green Button Alliance Application Information API
+  slug: green-button-alliance-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-green-button-api-openapi.yml
-- filename: green-button-alliance-authorization-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-applicationinformation-api-openapi.yml
+- filename: green-button-alliance-authorization-api-openapi.yml
   format: yaml
-  label: Green Button Alliance OpenESPI Authorization Server API
-  slug: green-button-alliance-authorization-server-openapi
+  label: Green Button Alliance Authorization API
+  slug: green-button-alliance-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-authorization-server-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-authorization-api-openapi.yml
+- filename: green-button-alliance-batch-api-openapi.yml
+  format: yaml
+  label: Green Button Alliance Batch API
+  slug: green-button-alliance-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-batch-api-openapi.yml
+- filename: green-button-alliance-datacustodian-integration-api-openapi.yml
+  format: yaml
+  label: Green Button Alliance DataCustodian Integration API
+  slug: green-button-alliance-datacustodian-integration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-datacustodian-integration-api-openapi.yml
+- filename: green-button-alliance-oauth2-client-management-api-openapi.yml
+  format: yaml
+  label: Green Button Alliance OAuth2 Client Management API
+  slug: green-button-alliance-oauth2-client-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oauth2-client-management-api-openapi.yml
+- filename: green-button-alliance-oauth2-standard-api-openapi.yml
+  format: yaml
+  label: Green Button Alliance OAuth2 Standard API
+  slug: green-button-alliance-oauth2-standard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oauth2-standard-api-openapi.yml
+- filename: green-button-alliance-oidc-api-openapi.yml
+  format: yaml
+  label: Green Button Alliance OIDC API
+  slug: green-button-alliance-oidc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oidc-api-openapi.yml
+- filename: green-button-alliance-usagepoint-api-openapi.yml
+  format: yaml
+  label: Green Button Alliance Usage Point API
+  slug: green-button-alliance-usagepoint-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-usagepoint-api-openapi.yml
 authorization_urls:
 - https://sandbox.greenbuttonalliance.org:8443/oauth/authorize
 description: Green Button does not use conventional string scopes such as "read:usage". The NAESB REQ.21 ESPI profile encodes the entire authorization request into a single structured OAuth 2.0 scope value built from Function Block ids plus data-shape parameters. GBA's own words on /function-blocks - "The NAESB REQ.21 ESPI standard uses Function Blocks to define the type of data a Utility can provide a Third Party service provider and the type of data a Third Party service provider requests from the Utility during the OAuth 2.0 access-token request process. The list of available Function Blocks a Utility supports is shown in the <scope> element field of the <ApplicationInformation> resource - and the resource may contain multiple <scope> entries." The harvested OpenAPI declares oauth2 with an EMPTY scopes map for both flows, so the scope vocabulary below comes from GBA's published Function Block catalog and from GBA's own wire-contract fixtures - not from the spec, and not invented.

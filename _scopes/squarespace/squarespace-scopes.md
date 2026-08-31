@@ -42,12 +42,36 @@ api_specs:
   slug: squarespace-site-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-site-api-openapi.yml
-- filename: squarespace-commerce-api-v2-openapi.json
-  format: json
-  label: Squarespace Commerce API
-  slug: squarespace-commerce-api
+- filename: squarespace-analytics-api-openapi.yml
+  format: yaml
+  label: Squarespace Analytics API
+  slug: squarespace-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-commerce-api-v2-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-analytics-api-openapi.yml
+- filename: squarespace-contacts-api-openapi.yml
+  format: yaml
+  label: Squarespace Contacts API
+  slug: squarespace-contacts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-contacts-api-openapi.yml
+- filename: squarespace-discounts-api-openapi.yml
+  format: yaml
+  label: Squarespace Discounts API
+  slug: squarespace-discounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-discounts-api-openapi.yml
+- filename: squarespace-webhooksubscriptions-api-openapi.yml
+  format: yaml
+  label: Squarespace Webhook Subscriptions API
+  slug: squarespace-webhooksubscriptions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-webhooksubscriptions-api-openapi.yml
+- filename: squarespace-websites-api-openapi.yml
+  format: yaml
+  label: Squarespace Websites API
+  slug: squarespace-websites-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-websites-api-openapi.yml
 authorization_urls: []
 description: Squarespace authorizes third-party applications (Squarespace Extensions) with OAuth 2.0 authorization code grant. The scope parameter on the authorize endpoint takes a COMMA-separated list of permission values — not the space-separated list RFC 6749 describes — and the confirmation page always presents the merchant's website(s) for selection because every scope is rooted at `website.*`. The scope list below is transcribed verbatim from the provider's OAuth guide. Note that the published OpenAPI declares only a single `http bearer` security scheme and no `oauth2` scheme, so these scopes exist ONLY in prose documentation and cannot be derived from the machine-readable contract — `derive-oauth-scopes.py` finds zero.
 docs: https://developers.squarespace.com/oauth

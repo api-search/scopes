@@ -49,7 +49,22 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://auth.insurer-internal.example.com/oauth/token
   name: oauth2
-  source: openapi/acord-ngds-openapi.yml
+  source: openapi/acord-claims-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.insurer-internal.example.com/oauth/token
+  name: oauth2
+  source: openapi/acord-party-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.insurer-internal.example.com/oauth/token
+  name: oauth2
+  source: openapi/acord-policy-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.insurer-internal.example.com/oauth/token
+  name: oauth2
+  source: openapi/acord-underwriting-api-openapi.yml
 scope_count: 4
 scope_names:
 - read:claims
@@ -77,15 +92,21 @@ slug: acord-scopes
 source_filename: acord-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/acord-ngds-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/acord-ngds-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\nscopes:\n- scope: read:claims\n  description: Read claim data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/acord-ngds-openapi.yml\n- scope: read:policies\n  description: Read policy data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/acord-ngds-openapi.yml\n- scope: write:claims\n  description: Submit and update claims\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/acord-ngds-openapi.yml\n- scope: write:policies\n  description: Create and modify policies\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/acord-ngds-openapi.yml\n"
+source_yaml: "generated: '2026-08-30'\nmethod: derived\nsource: openapi/acord-claims-api-openapi.yml, openapi/acord-party-api-openapi.yml, openapi/acord-policy-api-openapi.yml,\n  openapi/acord-underwriting-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/acord-claims-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\n- name: oauth2\n  source: openapi/acord-party-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\n- name: oauth2\n  source: openapi/acord-policy-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\n- name: oauth2\n  source: openapi/acord-underwriting-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\nscopes:\n- scope: read:claims\n  description: Read claim data\n  flows:\n \
+  \ - clientCredentials\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n  - openapi/acord-underwriting-api-openapi.yml\n- scope: read:policies\n  description: Read policy data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n  - openapi/acord-underwriting-api-openapi.yml\n- scope: write:claims\n  description: Submit and update claims\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n  - openapi/acord-underwriting-api-openapi.yml\n- scope: write:policies\n  description: Create and modify policies\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n\
+  \  - openapi/acord-underwriting-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/scopes/acord-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - Claims
+- Data Standards
 - Insurance
 - Policy
+- Property Casualty
+- Reinsurance
 - Standards
 - Underwriting
+- XML
 token_urls:
 - https://auth.insurer-internal.example.com/oauth/token
 ---

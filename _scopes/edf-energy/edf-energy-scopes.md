@@ -1,17 +1,53 @@
 ---
 api_specs:
-- filename: edf-energy-kraken-openapi.yml
+- filename: edf-energy-account-import-api-openapi.yml
   format: yaml
-  label: EDF Kraken REST API
-  slug: edf-kraken-rest-api
+  label: EDF Energy Account Import API
+  slug: edf-energy-account-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-kraken-openapi.yml
-- filename: edf-energy-kraken-data-import-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-account-import-api-openapi.yml
+- filename: edf-energy-data-import-api-openapi.yml
   format: yaml
-  label: EDF Kraken Customer Migration (Data Import) API
-  slug: edf-kraken-customer-migration-api
+  label: EDF Energy Data Import API
+  slug: edf-energy-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-kraken-data-import-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-data-import-api-openapi.yml
+- filename: edf-energy-external-client-healthcheck-api-openapi.yml
+  format: yaml
+  label: EDF Energy External Client Healthcheck API
+  slug: edf-energy-external-client-healthcheck-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-external-client-healthcheck-api-openapi.yml
+- filename: edf-energy-external-events-api-openapi.yml
+  format: yaml
+  label: EDF Energy External Events API
+  slug: edf-energy-external-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-external-events-api-openapi.yml
+- filename: edf-energy-post-account-import-api-openapi.yml
+  format: yaml
+  label: EDF Energy Post Account Import API
+  slug: edf-energy-post-account-import-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-post-account-import-api-openapi.yml
+- filename: edf-energy-query-api-openapi.yml
+  format: yaml
+  label: EDF Energy Query API
+  slug: edf-energy-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-query-api-openapi.yml
+- filename: edf-energy-v1-api-openapi.yml
+  format: yaml
+  label: EDF Energy V1 API
+  slug: edf-energy-v1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-v1-api-openapi.yml
+- filename: edf-energy-v2-api-openapi.yml
+  format: yaml
+  label: EDF Energy V2 API
+  slug: edf-energy-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-v2-api-openapi.yml
 authorization_urls:
 - https://auth.edfgb-kraken.energy/authorize/
 description: 'The OAuth 2.0 / OpenID Connect scope surface of the EDF GB Kraken authorisation server. Harvested verbatim from the anonymously served OpenID Provider Metadata document (HTTP 200, 2026-07-27) at auth.edfgb-kraken.energy, which advertises 111 scopes_supported. Scope grammar is verb:resource (query:, view:, create:, update:, manage:, cancel:, request:, change:, set:, add:, join:, edit:, verify:, configure:, accept:, register:, delete:, revoke:), plus the two coarse scopes openid and full-customer-access. There is no separate published scope-reference page: the discovery document is the reference. Scopes are granted to an OAuth application by EDF/Kraken on request — the auth server''s own getting-started text states an application must be requested by contacting them with the client type, grant type, redirect URIs and the resources it needs.'

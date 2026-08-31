@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: alphaai-rest-api-openapi.yml
+- filename: alphaai-calendar-api-openapi.yml
   format: yaml
-  label: AlphaAI REST API
-  slug: alphaai-rest-api
+  label: AlphaAI Calendar API
+  slug: alphaai-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-calendar-api-openapi.yml
+- filename: alphaai-news-api-openapi.yml
+  format: yaml
+  label: AlphaAI News API
+  slug: alphaai-news-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-news-api-openapi.yml
+- filename: alphaai-symbols-api-openapi.yml
+  format: yaml
+  label: AlphaAI Symbols API
+  slug: alphaai-symbols-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-symbols-api-openapi.yml
 authorization_urls:
 - https://mcp.alphai.io/oauth/authorize
 description: AlphaAI's OAuth surface belongs to the MCP server, not the REST API. The REST OpenAPI declares only a bearer API key and no oauth2 scheme, so the mechanical derive pass (derive-oauth-scopes.py) correctly found nothing. The scopes below were read from the live RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata on the MCP host — both anonymous, both 200.

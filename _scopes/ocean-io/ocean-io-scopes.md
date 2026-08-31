@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: ocean-io-api-openapi.yml
+- filename: ocean-io-autocomplete-api-openapi.yml
   format: yaml
-  label: Ocean.io API
-  slug: oceanio-api
+  label: Ocean.io Autocomplete API
+  slug: ocean-io-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-autocomplete-api-openapi.yml
+- filename: ocean-io-enrich-api-openapi.yml
+  format: yaml
+  label: Ocean.io Enrich API
+  slug: ocean-io-enrich-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-enrich-api-openapi.yml
+- filename: ocean-io-lookup-api-openapi.yml
+  format: yaml
+  label: Ocean.io Lookup API
+  slug: ocean-io-lookup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-lookup-api-openapi.yml
+- filename: ocean-io-ocean-io-api-documentation-api-openapi.yml
+  format: yaml
+  label: Ocean.io Ocean.io API Documentation API
+  slug: ocean-io-ocean-io-api-documentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-ocean-io-api-documentation-api-openapi.yml
+- filename: ocean-io-other-api-openapi.yml
+  format: yaml
+  label: Ocean.io Other API
+  slug: ocean-io-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-other-api-openapi.yml
+- filename: ocean-io-reveal-api-openapi.yml
+  format: yaml
+  label: Ocean.io Reveal API
+  slug: ocean-io-reveal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-reveal-api-openapi.yml
+- filename: ocean-io-search-api-openapi.yml
+  format: yaml
+  label: Ocean.io Search API
+  slug: ocean-io-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-search-api-openapi.yml
+- filename: ocean-io-segmentation-api-openapi.yml
+  format: yaml
+  label: Ocean.io Segmentation API
+  slug: ocean-io-segmentation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-segmentation-api-openapi.yml
 authorization_urls: []
 description: Ocean.io publishes RFC 8414 OAuth 2.0 Authorization Server Metadata at https://api.ocean.io/.well-known/oauth-authorization-server (HTTP 200, application/json). The document advertises a client_credentials token endpoint and an EMPTY scopes_supported array, and no public documentation page describes the flow. The REST API itself is authenticated with a single unscoped account API token, and the OpenAPI declares no oauth2 security scheme. There is therefore no scope surface to enumerate — this file records that absence with the evidence, rather than inventing one.
 docs: ''
