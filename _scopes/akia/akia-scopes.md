@@ -122,7 +122,7 @@ tags:
 - Artificial Intelligence
 - Agents
 - Property Management
-- Check-in
+- Check-In
 token_urls:
 - https://api.akia.com/oauth/token
 - https://sys.akia.ai/oauth/token

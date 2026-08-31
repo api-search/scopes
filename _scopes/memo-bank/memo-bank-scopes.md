@@ -161,19 +161,19 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Company
 - Fintech Insurtech
-- Banking
-- Business Banking
+- banking
+- business-banking
 - Payments
-- SEPA
-- SEPA Direct Debit
-- Virtual IBAN
-- Wire Transfers
-- Open Banking
-- PSD2
-- Berlin Group
+- sepa
+- sepa-direct-debit
+- virtual-iban
+- wire-transfers
+- open-banking
+- psd2
+- berlin-group
 - Webhook
 - MCP
-- France
+- france
 token_urls:
 - /oauth2/token
 - https://api.memo.bank/oauth2/token

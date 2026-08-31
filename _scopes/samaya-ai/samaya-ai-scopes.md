@@ -47,15 +47,15 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://mcp.samay
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/scopes/samaya-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Artificial Intelligence
-- Financial Services
-- Investment Research
+- artificial-intelligence
+- Financial-Services
+- investment-research
 - AI Agents
 - MCP
 - agent-native
-- Capital Markets
-- Enterprise Search
-- Retrieval
-- GraphQL
+- capital-markets
+- enterprise-search
+- retrieval
+- graphql
 token_urls: []
 ---

@@ -88,7 +88,7 @@ tags:
 - Retail
 - Health and Wellness
 - Consumer Hardware
-- Sports And Fitness
+- Sports and Fitness
 - Agentic Commerce
 - GraphQL
 - MCP

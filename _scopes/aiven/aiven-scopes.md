@@ -429,7 +429,7 @@ tags:
 - MySQL
 - Open-Source
 - Cloud Database
-- Database-as-a-Service
+- DBaaS
 - Data Streaming
 - Data Platform
 token_urls:

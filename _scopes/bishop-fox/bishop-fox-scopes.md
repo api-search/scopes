@@ -77,15 +77,15 @@ summary_line: 7 scopes · clientCredentials
 tags:
 - Company
 - Cybersecurity
-- Offensive Security
-- Penetration Testing
-- Attack Surface Management
-- Exposure Management
-- Red Teaming
-- Vulnerability Management
-- Security Findings
-- Asset Discovery
-- Continuous Threat Exposure Management
+- offensive-security
+- penetration-testing
+- attack-surface-management
+- exposure-management
+- red-teaming
+- vulnerability-management
+- security-findings
+- asset-discovery
+- continuous-threat-exposure-management
 - Authentication
 token_urls:
 - https://bishopfox.auth0.com/oauth/token

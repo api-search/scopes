@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsof
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-application-gateway/refs/heads/main/scopes/microsoft-azure-application-gateway-scopes.yml
 summary_line: 1 scope · implicit
 tags:
-- Layer-7
+- Layer 7
 - Load Balancing
 - Reverse Proxy
 - WAF

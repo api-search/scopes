@@ -288,9 +288,9 @@ tags:
 - Health
 - Manufacturing
 - Fulfillment
-- Ecommerce
+- E-Commerce
 - Personalization
-- Orders
+- Order
 - Shipping
 - Agents
 - MCP

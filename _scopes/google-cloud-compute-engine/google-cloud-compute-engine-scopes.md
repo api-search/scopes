@@ -75,7 +75,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Compute
 - Google Cloud
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
 - Virtual Machines
 token_urls:

@@ -104,18 +104,18 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource:\n- openapi/cano
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/scopes/canoe-intelligence-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Alternative Investments
-- Private Markets
-- Document Automation
-- Data Extraction
-- Fund Administration
+- alternative-investments
+- private-markets
+- document-automation
+- data-extraction
+- fund-administration
 - capital-calls
 - k-1-tax-documents
-- Portfolio Reporting
+- portfolio-reporting
 - Financial-Services
 - Fintech
-- Wealth Management
-- Institutional Investors
+- wealth-management
+- institutional-investors
 token_urls:
 - https://api.canoesoftware.com/oauth/token
 - https://api.canoesoftware.com/v1/tokens

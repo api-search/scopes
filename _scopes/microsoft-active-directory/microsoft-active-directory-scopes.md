@@ -125,7 +125,7 @@ tags:
 - Directory Services
 - Enterprise
 - Identity
-- LDAP
+- Ldap
 - Windows
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token

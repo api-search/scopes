@@ -60,7 +60,7 @@ tags:
 - Consent Management
 - Data Wallets
 - Agent Infrastructure
-- Model Context Protocol
+- MCP
 - Enterprise Software
 token_urls: []
 ---

@@ -30,7 +30,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Storage
 - Enterprise Storage
-- Software Defined Storage
+- Software-Defined Storage
 - Data Management
 - Infrastructure
 - Block Storage

@@ -178,6 +178,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attio/refs/hea
 summary_line: 7 scopes · authorizationCode
 tags:
 - CRM
+- Customer Relationship Management
 - Sales
 - Contacts
 - Companies

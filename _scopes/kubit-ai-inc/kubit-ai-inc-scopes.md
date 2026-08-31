@@ -36,6 +36,6 @@ tags:
 - MCP
 - Agent Analytics
 - OpenTelemetry
-- DevOps
+- Devops
 token_urls: []
 ---

@@ -30,7 +30,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense-insight
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Account Based Marketing
+- ABM
+- Account-Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics

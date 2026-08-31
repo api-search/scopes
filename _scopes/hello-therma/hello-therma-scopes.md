@@ -39,9 +39,9 @@ tags:
 - Building Automation
 - Food Safety
 - Facilities Management
-- Restaurants
+- Restaurant
 - Retail
-- Model Context Protocol
+- MCP
 - Agents
 token_urls: []
 ---

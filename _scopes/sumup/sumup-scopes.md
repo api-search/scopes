@@ -168,6 +168,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sumup/refs/hea
 summary_line: 10 scopes · authorizationCode/clientCredentials
 tags:
 - Payments
+- POS
 - Point-of-Sale
 - Card Readers
 - Checkout

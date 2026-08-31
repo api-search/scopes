@@ -31,10 +31,10 @@ tags:
 - Fediverse
 - Mastodon
 - Open-Source
-- Social-Networking
+- Social Networking
 - Social-Media
-- Web-Client
+- Web Client
 - Progressive-Web-App
-- OAuth
+- Authentication
 token_urls: []
 ---

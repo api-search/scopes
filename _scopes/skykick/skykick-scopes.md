@@ -31,7 +31,7 @@ tags:
 - Company
 - Backup
 - Migration
-- Microsoft 365
+- Microsoft-365
 - Managed Service Providers
 - SaaS Security
 - Cloud Automation

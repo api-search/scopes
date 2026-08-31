@@ -63,18 +63,18 @@ source_yaml: "generated: '2026-07-31'\nmethod: searched\nsource: https://drinkol
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olipop/refs/heads/main/scopes/olipop-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
-- Beverage
-- Consumer Packaged Goods
-- Direct to Consumer
+- beverage
+- consumer-packaged-goods
+- direct-to-consumer
 - E-Commerce
 - Retail
-- Agent Commerce
-- Universal Commerce Protocol
+- agent-commerce
+- universal-commerce-protocol
 - MCP
-- GraphQL
-- Shopify
+- graphql
+- shopify
 - prebiotic-soda
-- Functional Beverage
+- functional-beverage
 token_urls:
 - https://shopify.com/authentication/3466100806/oauth/token
 ---

@@ -94,16 +94,16 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - E-Commerce
 - Retail
-- Direct to Consumer
-- Home Goods
-- Bedding
-- Shopify
-- Agentic Commerce
-- Universal Commerce Protocol
+- direct-to-consumer
+- home-goods
+- bedding
+- shopify
+- agentic-commerce
+- universal-commerce-protocol
 - MCP
 - agent-native
 - Catalog
-- Checkout
+- checkout
 token_urls:
 - https://account.brooklinen.com/authentication/oauth/token
 ---

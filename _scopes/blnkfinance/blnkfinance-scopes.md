@@ -178,17 +178,17 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/scopes/blnkfinance-scopes.yml
 summary_line: 24 scopes
 tags:
-- fintech
-- financial-services
-- ledger
+- Fintech
+- Financial-Services
+- Ledger
 - double-entry-accounting
-- payments
-- wallets
-- lending
-- banking-infrastructure
-- open-source
-- mcp
-- ai-agents
-- developer-tools
+- Payments
+- Wallets
+- Lending
+- Banking Infrastructure
+- Open-Source
+- MCP
+- AI Agents
+- Developer Tools
 token_urls: []
 ---

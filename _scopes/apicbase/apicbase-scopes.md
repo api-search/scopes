@@ -88,7 +88,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Food and Beverage
 - Restaurant
-- Back of House
+- Back Of House
 - Inventory
 - Procurement
 - Recipes

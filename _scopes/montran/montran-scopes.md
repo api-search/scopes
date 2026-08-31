@@ -232,7 +232,7 @@ tags:
 - Messaging
 - Payments
 - Real-Time Payments
-- Swift
+- SWIFT
 token_urls:
 - https://auth.montran.com/oauth2/token
 ---

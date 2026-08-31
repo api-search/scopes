@@ -59,7 +59,7 @@ tags:
 - Business Process Management
 - Process Orchestration
 - Agentic AI
-- Workflow Automation
+- Workflow-Automation
 - Enterprise Software
 token_urls:
 - https://auth-server/connect/token

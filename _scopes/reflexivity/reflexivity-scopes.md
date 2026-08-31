@@ -31,11 +31,11 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reflexivity/re
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investment Analysis
 - Market Data
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Fintech
 - Research
 - Knowledge Graph

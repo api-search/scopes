@@ -119,7 +119,7 @@ summary_line: 6 scopes · clientCredentials
 tags:
 - Financial Infrastructure
 - Ledger
-- Double-Entry Accounting
+- double-entry-accounting
 - Payments
 - Orchestration
 - Money Movement

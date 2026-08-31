@@ -30,7 +30,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Fortune 1000
 - Manufacturing
-- Powersports
+- Power-Sports
 - Automotive
 - Consumer Products
 - Connected Vehicles

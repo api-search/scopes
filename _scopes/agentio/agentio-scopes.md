@@ -46,7 +46,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentio/refs/h
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- AdTech
+- Adtech
 - Advertising
 - Creator Economy
 - Influencer Marketing

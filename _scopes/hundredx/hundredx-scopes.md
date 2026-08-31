@@ -28,15 +28,11 @@ source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: >-\n  https://log
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hundredx/refs/heads/main/scopes/hundredx-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Company
-- Customer Experience
-- Consumer Insights
-- Market Research
-- Data and Analytics
-- Alternative Data
-- Investment Research
-- Sentiment Analysis
-- Data Licensing
-- No Public API
+- customer-experience
+- consumer-insights
+- market-research
+- alternative-data
+- investment-research
+- data-licensing
 token_urls: []
 ---

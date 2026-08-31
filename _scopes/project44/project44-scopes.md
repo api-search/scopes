@@ -80,7 +80,7 @@ tags:
 - Supply Chain Visibility
 - Tracking
 - Freight
-- Multi-Modal
+- Multi-modal
 token_urls:
 - https://api.project44.com/api/v4/oauth2/token
 ---

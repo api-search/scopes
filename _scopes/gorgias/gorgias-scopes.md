@@ -155,7 +155,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/h
 summary_line: 6 scopes · authorizationCode
 tags:
 - Customer-Support
-- Help Desk
+- Helpdesk
 - E-Commerce
 - Shopify
 - Tickets

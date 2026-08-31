@@ -36,7 +36,7 @@ tags:
 - Dietary Supplements
 - Colostrum
 - Animal Health
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 token_urls: []
 ---

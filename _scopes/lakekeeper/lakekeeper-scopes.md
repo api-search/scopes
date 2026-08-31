@@ -126,18 +126,18 @@ source_yaml: "generated: '2026-08-27'\nmethod: derived\nsource: openapi/lakekeep
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/scopes/lakekeeper-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
-- Apache Iceberg
-- Data Catalog
-- Lakehouse
-- Open Source
-- Rust
-- Data Governance
-- Access Control
-- Object Storage
+- apache-iceberg
+- data-catalog
+- lakehouse
+- Open-Source
+- rust
+- data-governance
+- access-control
+- object-storage
 - Metadata
-- Self-Hosted
-- OpenFGA
-- Data Engineering
+- self-hosted
+- openfga
+- data-engineering
 token_urls:
 - /v1/oauth/tokens
 ---

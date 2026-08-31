@@ -217,14 +217,10 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/scopes/service-cloud-scopes.yml
 summary_line: 36 scopes · authorizationCode/implicit
 tags:
-- Agents
 - Cloud
-- Contact Center
 - CRM
-- Customer Service
+- Customer-Service
 - Enterprise
-- Help Desk
-- Knowledge Management
 - Salesforce
 - Support
 token_urls:

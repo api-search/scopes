@@ -97,7 +97,7 @@ summary_line: 1 scope · clientCredentials/saml2Bearer
 tags:
 - ERP
 - Cloud
-- Mid-Market
+- Midmarket
 - Financials
 - CRM
 - Procurement

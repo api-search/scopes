@@ -34,7 +34,7 @@ tags:
 - Financial Operations
 - Payments
 - Accounting
-- FinTech
+- Fintech
 - Financial Close
 - Data Integration
 - Agents

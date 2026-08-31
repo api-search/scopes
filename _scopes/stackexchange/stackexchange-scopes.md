@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stackexc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/scopes/stackexchange-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
-- Q&A
+- Q And A
 - Developer Community
 - Knowledge Graph
 - Stack Overflow

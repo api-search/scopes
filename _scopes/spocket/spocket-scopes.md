@@ -75,14 +75,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://www.spo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spocket/refs/heads/main/scopes/spocket-scopes.yml
 summary_line: 5 scopes · authorizationCode/clientCredentials
 tags:
-- Platform-as-a-Service
-- Application Hosting
+- PaaS
+- application-hosting
 - bot-hosting
 - Developer Tools
-- Agent Infrastructure
+- agent-infrastructure
 - MCP
 - Deployment
-- Serverless
+- serverless
 - always-on
 token_urls:
 - https://www.spocket.dev/oauth/token

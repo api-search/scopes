@@ -115,12 +115,12 @@ tags:
 - Mapping
 - Geospatial
 - Transportation
-- Computer Vision
+- Computer-Vision
 - Autonomous Vehicles
 - Smart Cities
 - Imagery
 - Road Data
-- Machine Learning
+- Machine-Learning
 token_urls:
 - https://nexar.okta.com/oauth2/aus3qkg89t55hJZsT4x7/v1/token
 ---

@@ -550,6 +550,6 @@ tags:
 - Data Visualization
 - Embedded Analytics
 - Enterprise
-- Machine Learning
+- Machine-Learning
 token_urls: []
 ---

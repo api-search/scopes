@@ -147,7 +147,7 @@ summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
 - Authoring
 - Education
-- E-Learning
+- eLearning
 - LMS
 - SCORM
 - Training

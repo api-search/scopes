@@ -40,6 +40,6 @@ tags:
 - Data Synchronization
 - Authentication
 - Plugins
-- No-Code
+- No Code
 token_urls: []
 ---

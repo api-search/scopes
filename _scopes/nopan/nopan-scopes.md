@@ -79,7 +79,7 @@ summary_line: 2 scopes · clientCredentials
 tags:
 - Payments
 - Payment Service Provider
-- Account-to-Account
+- Account to Account
 - Wallet Payments
 - Open Banking
 - PSD2

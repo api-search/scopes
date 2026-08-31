@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ianacare/refs/
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Health Care
+- Healthcare
 - Caregiving
 - Employee Benefits
 - Digital Health

@@ -73,7 +73,7 @@ tags:
 - Market Data
 - Analytics
 - Freight Rates
-- Sonar
+- SONAR
 token_urls:
 - https://api.freightwaves.com/oauth/token
 ---

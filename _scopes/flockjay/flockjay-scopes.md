@@ -38,7 +38,7 @@ tags:
 - Content Management
 - Software-as-a-Service
 - MCP
-- agent-native
+- Agent Native
 - Authentication
 token_urls: []
 ---

@@ -36,7 +36,7 @@ tags:
 - Neurology
 - Neurostimulation
 - Wearables
-- Model Context Protocol
+- MCP
 - Agent Readiness
 token_urls: []
 ---

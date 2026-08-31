@@ -217,7 +217,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pipedrea
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/scopes/pipedream-scopes.yml
 summary_line: 16 scopes · clientCredentials
 tags:
-- Pro-Code-API-Composition
+- ProCode_API_Composition
 - Workflows
 - Connect
 - MCP

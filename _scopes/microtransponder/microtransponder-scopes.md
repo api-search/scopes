@@ -30,13 +30,13 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Medical Devices
-- Health Care
+- Healthcare
 - Neurotechnology
 - Neuromodulation
 - Stroke Rehabilitation
 - Implantable Devices
 - Life Sciences
 - WordPress
-- Model Context Protocol
+- MCP
 token_urls: []
 ---

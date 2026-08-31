@@ -40,20 +40,20 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://docs.sk
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyvia/refs/heads/main/scopes/skyvia-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Data Integration
-- iPaaS
-- ETL
-- ELT
-- Data Replication
-- Cloud Backup
-- OData
+- data-integration
+- ipaas
+- etl
+- elt
+- data-replication
+- cloud-backup
+- odata
 - SQL
-- Workflow-Automation
-- No-Code
+- workflow-automation
+- no-code
 - Connectors
-- Data Management
+- data-management
 - MCP
 - agent-native
-- Data Access
+- data-access
 token_urls: []
 ---

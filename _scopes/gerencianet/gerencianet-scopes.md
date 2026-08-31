@@ -350,7 +350,7 @@ tags:
 - Open Finance
 - Banking as a Service
 - Account Opening
-- Bill Payments
+- Bill Payment
 - CNAB
 - Brazil
 - Fintech

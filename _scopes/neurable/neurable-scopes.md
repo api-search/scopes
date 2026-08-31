@@ -80,18 +80,18 @@ source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: https://pipe.neur
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neurable/refs/heads/main/scopes/neurable-scopes.yml
 summary_line: 5 scopes
 tags:
-- Neurotechnology
-- Brain-Computer Interface
-- EEG
-- Neuroscience
-- Wearables
+- neurotechnology
+- brain-computer-interface
+- eeg
+- neuroscience
+- wearables
 - biosignals
-- Hardware
-- Consumer Electronics
-- Research Tools
+- hardware
+- consumer-electronics
+- research-tools
 - cognitive-analytics
-- Health Data
+- health-data
 - Authentication
-- OpenID Connect
+- openid-connect
 token_urls: []
 ---

@@ -223,7 +223,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/h
 summary_line: 8 scopes
 tags:
 - Company
-- Enterprise AI
+- Enterprise; Ai
 - Process Intelligence
 - Automation
 - Agents

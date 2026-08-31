@@ -39,6 +39,6 @@ tags:
 - Hospitality
 - Ordering
 - GraphQL
-- OAuth
+- Authentication
 token_urls: []
 ---

@@ -99,13 +99,13 @@ tags:
 - Analytics
 - Commerce
 - E-Commerce
-- Multi-Channel
+- Multichannel
 - Retail Media
 - Where to Buy
 - Shoppable Media
 - Product Availability
 - MCP
-- agent-native
+- Agent Native
 - Reporting
 - CPG
 token_urls: []

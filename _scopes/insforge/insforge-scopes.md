@@ -185,8 +185,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/
 summary_line: 11 scopes · authorizationCode/deviceCode
 tags:
 - Company
-- Backend-as-a-Service
-- agent-native
+- Backend as a Service
+- Agent Native
 - Cloud Infrastructure
 - Database
 - Authentication

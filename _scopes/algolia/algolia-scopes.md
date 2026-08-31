@@ -115,9 +115,5 @@ tags:
 - Personalization
 - Analytics
 - E-Commerce
-- AI
-- Agents
-- MCP
-- Indexing
 token_urls: []
 ---

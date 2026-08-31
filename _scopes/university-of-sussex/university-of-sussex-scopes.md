@@ -1,81 +1,20 @@
 ---
-api_specs:
-- filename: university-of-sussex-altmetric-api-openapi.yml
-  format: yaml
-  label: University of Sussex altmetric API
-  slug: university-of-sussex-altmetric-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-altmetric-api-openapi.yml
-- filename: university-of-sussex-articles-api-openapi.yml
-  format: yaml
-  label: University of Sussex articles API
-  slug: university-of-sussex-articles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-articles-api-openapi.yml
-- filename: university-of-sussex-authors-api-openapi.yml
-  format: yaml
-  label: University of Sussex authors API
-  slug: university-of-sussex-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-authors-api-openapi.yml
-- filename: university-of-sussex-collections-api-openapi.yml
-  format: yaml
-  label: University of Sussex collections API
-  slug: university-of-sussex-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-collections-api-openapi.yml
-- filename: university-of-sussex-institutions-api-openapi.yml
-  format: yaml
-  label: University of Sussex institutions API
-  slug: university-of-sussex-institutions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-institutions-api-openapi.yml
-- filename: university-of-sussex-oauth-api-openapi.yml
-  format: yaml
-  label: University of Sussex oauth API
-  slug: university-of-sussex-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-oauth-api-openapi.yml
-- filename: university-of-sussex-other-api-openapi.yml
-  format: yaml
-  label: University of Sussex other API
-  slug: university-of-sussex-other-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-other-api-openapi.yml
-- filename: university-of-sussex-profiles-api-openapi.yml
-  format: yaml
-  label: University of Sussex profiles API
-  slug: university-of-sussex-profiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-profiles-api-openapi.yml
-- filename: university-of-sussex-projects-api-openapi.yml
-  format: yaml
-  label: University of Sussex projects API
-  slug: university-of-sussex-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-projects-api-openapi.yml
-- filename: university-of-sussex-symplectic-api-openapi.yml
-  format: yaml
-  label: University of Sussex symplectic API
-  slug: university-of-sussex-symplectic-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/openapi/university-of-sussex-symplectic-api-openapi.yml
 authorization_urls:
-- https://figshare.com/account/applications/authorize
+- https://okta.sussex.ac.uk/oauth2/v1/authorize
 description: ''
 docs: ''
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: probed
 name: University Of Sussex Scopes
 name_suffix: OAuth Scopes
-note: ''
-overview: 'University of Sussex publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of Sussex API on a user''s behalf.
+note: These are the standard OpenID Connect scopes exposed by the org authorization server. They are not a Sussex-authored API permission model, and no institution-operated resource API publishes its own scopes. Access is gated to enrolled applications and to holders of @sussex.ac.uk credentials; there is no public developer registration.
+overview: 'University of Sussex publishes 7 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of Sussex API on a user''s behalf.
 
 
-  Tokens are issued from https://api.figshare.com/v2/token.
+  Tokens are issued from https://okta.sussex.ac.uk/oauth2/v1/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -83,33 +22,66 @@ provider_name: University of Sussex
 provider_slug: university-of-sussex
 schemes:
 - flows:
-  - authorizationUrl: https://figshare.com/account/applications/authorize
+  - authorizationUrl: https://okta.sussex.ac.uk/oauth2/v1/authorize
     flow: authorizationCode
-    tokenUrl: https://api.figshare.com/v2/token
-  name: OAuth2
-  source: openapi/university-of-sussex-figshare-repository.yaml
-scope_count: 1
+    tokenUrl: https://okta.sussex.ac.uk/oauth2/v1/token
+  issuer: https://okta.sussex.ac.uk
+  name: Okta OpenID Connect (Sussex tenant)
+  source: https://okta.sussex.ac.uk/.well-known/openid-configuration
+  x-operator: tenant
+scope_count: 7
 scope_names:
-- all
+- openid
+- profile
+- email
+- address
+- phone
+- groups
+- offline_access
 scopes:
-- description: Grants all access
-  flows:
-  - authorizationCode
-  scope: all
+- description: Required OpenID Connect scope; requests an ID token for the authenticated Sussex account.
+  flows: []
+  scope: openid
+- description: Basic profile claims (name, preferred_username, locale, updated_at).
+  flows: []
+  scope: profile
+- description: The account's email address and email_verified claim.
+  flows: []
+  scope: email
+- description: Postal address claim.
+  flows: []
+  scope: address
+- description: Phone number and phone_number_verified claims.
+  flows: []
+  scope: phone
+- description: Group memberships asserted by the Sussex Okta directory.
+  flows: []
+  scope: groups
+- description: Issues a refresh token so a client can renew access without re-prompting.
+  flows: []
+  scope: offline_access
 slug: university-of-sussex-scopes
 source_filename: university-of-sussex-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/university-of-sussex-figshare-repository.yaml\nschemes:\n- name: OAuth2\n  source: openapi/university-of-sussex-figshare-repository.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://figshare.com/account/applications/authorize\n    tokenUrl: https://api.figshare.com/v2/token\nscopes:\n- scope: all\n  description: Grants all access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/university-of-sussex-figshare-repository.yaml\n"
+source_yaml: "# x-method: derived\n# x-source-url: https://okta.sussex.ac.uk/.well-known/openid-configuration\n# Authorship: written by API Evangelist tooling from LIVE PROBES of the URL above.\n# `x-method: derived` is the provenance-manifest vocabulary (build-provenance-manifest.py,\n# which has no `probed` term); `method: probed` below is the enrichment-pipeline vocabulary.\n# They agree: this artifact is ours, and its facts came off the wire, not off a claim.\n# University of Sussex — OAuth / OIDC scopes\n# Rebuilt 2026-08-30. The previous version listed FIGSHARE'S single `all` scope, derived\n# from Figshare's generic v2 OpenAPI, and credited it to the university. Removed.\n# The scopes below are read straight from the Sussex Okta tenant's OIDC discovery document.\ngenerated: '2026-08-30'\nmethod: probed\nsource: https://okta.sussex.ac.uk/.well-known/openid-configuration\nprovider: University of Sussex\nproviderId: university-of-sussex\n\nschemes:\n- name: Okta OpenID Connect (Sussex\
+  \ tenant)\n  x-operator: tenant\n  issuer: https://okta.sussex.ac.uk\n  source: https://okta.sussex.ac.uk/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://okta.sussex.ac.uk/oauth2/v1/authorize\n    tokenUrl: https://okta.sussex.ac.uk/oauth2/v1/token\n\nscopes:\n- scope: openid\n  description: Required OpenID Connect scope; requests an ID token for the authenticated Sussex account.\n- scope: profile\n  description: Basic profile claims (name, preferred_username, locale, updated_at).\n- scope: email\n  description: The account's email address and email_verified claim.\n- scope: address\n  description: Postal address claim.\n- scope: phone\n  description: Phone number and phone_number_verified claims.\n- scope: groups\n  description: Group memberships asserted by the Sussex Okta directory.\n- scope: offline_access\n  description: Issues a refresh token so a client can renew access without re-prompting.\n\nnote: >-\n  These are the standard\
+  \ OpenID Connect scopes exposed by the org authorization server. They\n  are not a Sussex-authored API permission model, and no institution-operated resource API\n  publishes its own scopes. Access is gated to enrolled applications and to holders of\n  @sussex.ac.uk credentials; there is no public developer registration.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-sussex/refs/heads/main/scopes/university-of-sussex-scopes.yml
-summary_line: 1 scope · authorizationCode
+summary_line: 7 scopes · authorizationCode
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- United Kingdom
+- Russell Group
+- Public Research University
+- Identity Federation
+- Research Repository
+- Library
+- Learning Management
 - Research
 - Open Access
-- United Kingdom
 token_urls:
-- https://api.figshare.com/v2/token
+- https://okta.sussex.ac.uk/oauth2/v1/token
 ---

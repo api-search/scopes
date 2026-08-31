@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightforce/ref
 summary_line: 14 scopes · authorizationCode
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Orthodontics
 - Dentistry
 - Medical Devices

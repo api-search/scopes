@@ -95,7 +95,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://api.6sens
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/scopes/6sense-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
-- Account Based Marketing
+- ABM
+- Account-Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics

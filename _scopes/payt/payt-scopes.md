@@ -151,9 +151,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payt/refs/head
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Applicative Saas
+- Applicative SaaS
 - Accounts Receivable
-- Order-to-Cash
+- Order to Cash
 - Invoicing
 - Debt Collection
 - Payments

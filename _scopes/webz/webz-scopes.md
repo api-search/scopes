@@ -28,18 +28,18 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: https://news-sear
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/scopes/webz-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- news-data
-- web-data
-- web-scraping
-- dark-web
+- News Data
+- Web Data
+- Web Scraping
+- Dark Web
 - deep-web
-- cybersecurity
-- threat-intelligence
-- data-breach
+- Cybersecurity
+- Threat Intelligence
+- Data Breach
 - pii-monitoring
-- osint
+- OSINT
 - reviews-data
-- ai-training-data
-- media-monitoring
+- AI Training Data
+- Media Monitoring
 token_urls: []
 ---

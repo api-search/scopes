@@ -97,10 +97,10 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Company Data
 - Web Intelligence
-- funding-data
+- Funding Data
 - Firmographics
 - B2B Data
-- investor-data
+- Investor Data
 - Reference Data
 - Private Markets
 - Predictions

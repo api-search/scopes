@@ -131,7 +131,8 @@ tags:
 - Account Based Marketing
 - Buying Groups
 - Signal Orchestration
-- Go-To-Market
+- Go to Market
+- GTM
 - CRM
 - AppExchange
 token_urls:

@@ -778,6 +778,7 @@ summary_line: 90 scopes · authorizationCode
 tags:
 - Commerce
 - Point-of-Sale
+- POS
 - Retail
 - Restaurant
 - Inventory

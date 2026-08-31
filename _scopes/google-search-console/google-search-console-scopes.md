@@ -137,7 +137,7 @@ tags:
 - Search
 - Search Analytics
 - SEO
-- Sitemap
+- Sitemaps
 - URL Inspection
 - Webmaster Tools
 token_urls:

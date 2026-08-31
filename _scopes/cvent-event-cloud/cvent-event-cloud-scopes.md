@@ -2316,7 +2316,7 @@ tags:
 - Hybrid Events
 - MCP
 - Authentication
-- OnSite
+- Onsite
 - OpenAPI
 - Overlay
 - Registration

@@ -77,7 +77,7 @@ tags:
 - Ad Exchange
 - Supply Side Platform
 - SSP
-- Real-Time Bidding
+- Real Time Bidding
 - OpenRTB
 - Header Bidding
 - Prebid

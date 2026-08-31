@@ -65,7 +65,7 @@ tags:
 - Cloud Computing
 - Skills
 - Reporting
-- E-Learning
+- eLearning
 token_urls:
 - https://platform.qa.com/oauth2/token/
 ---

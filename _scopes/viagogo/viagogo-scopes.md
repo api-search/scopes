@@ -233,6 +233,6 @@ tags:
 - Entertainment
 - Secondary Market
 - Commerce
-- Travel And Leisure
+- Travel and Leisure
 token_urls: []
 ---

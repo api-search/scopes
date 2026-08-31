@@ -131,12 +131,12 @@ tags:
 - DeFi
 - Blockchain
 - Crypto
-- Portfolio Tracking
-- On-Chain Data
+- portfolio-tracking
+- on-chain-data
 - Wallets
 - token-data
-- NFT
-- Ethereum
+- nft
+- ethereum
 - Authentication
 - Market Data
 token_urls:

@@ -168,16 +168,16 @@ summary_line: 1 scope · clientCredentials
 tags:
 - Financial Data
 - Market Intelligence
-- Alternative Data
-- News API
+- alternative-data
+- news-api
 - NLP
 - ESG
-- Municipal Bonds
-- Credit Risk
-- Company Data
-- Sentiment Analysis
-- Unstructured Data
-- Fixed Income
+- municipal-bonds
+- credit-risk
+- company-data
+- sentiment-analysis
+- unstructured-data
+- fixed-income
 token_urls:
 - https://api.bitvore.com/oauth/accesstoken
 ---

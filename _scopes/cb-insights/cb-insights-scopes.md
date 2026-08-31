@@ -152,17 +152,17 @@ tags:
 - Company
 - Market Intelligence
 - private-company-data
-- Venture Capital
+- venture-capital
 - funding-data
 - investor-data
-- Company Data
-- People Data
-- BusinessRelationships
+- company-data
+- people-data
+- business-relationships
 - predictive-scoring
 - MCP
 - agent-native
 - Data Enrichment
-- Snowflake
+- snowflake
 token_urls:
 - https://mcp.cbinsights.com/token
 ---

@@ -1147,17 +1147,17 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smart-pension/refs/heads/main/scopes/smart-pension-scopes.yml
 summary_line: 41 scopes · authorizationCode/clientCredentials
 tags:
-- Pensions
-- Retirement
+- pensions
+- retirement
 - workplace-pension
 - auto-enrolment
-- Payroll
+- payroll
 - Fintech
 - Financial-Services
-- United Kingdom
+- united-kingdom
 - master-trust
-- Employee Benefits
-- Contributions
+- employee-benefits
+- contributions
 - papdis
 token_urls:
 - https://id.sandbox.autoenrolment.co.uk/oauth/token

@@ -144,18 +144,18 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: https://vidmob-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/scopes/vidmob-scopes.yml
 summary_line: 12 scopes · authorizationCode/refreshToken/jwtBearer
 tags:
-- Creative Intelligence
+- creative-intelligence
 - creative-data
 - Advertising
 - Marketing
-- Media Measurement
+- media-measurement
 - Video
-- Computer-Vision
-- Creative Analytics
-- AdTech
+- computer-vision
+- creative-analytics
+- adtech
 - MCP
 - agent-native
-- MarTech
+- martech
 token_urls:
 - https://mcp-auth.vidmob.com/v1/oauth2/token
 ---

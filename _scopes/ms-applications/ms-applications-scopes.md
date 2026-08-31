@@ -93,7 +93,7 @@ tags:
 - Microsoft-365
 - Office
 - Productivity
-- Software-as-a-Service
+- Saas
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 ---

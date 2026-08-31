@@ -84,7 +84,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Company
 - Customer Experience
-- NPS
+- Net Promoter Score
 - Surveys
 - Feedback
 - Reputation Management

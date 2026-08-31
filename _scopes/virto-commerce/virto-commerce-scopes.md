@@ -564,7 +564,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: 'openapi/virto-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/scopes/virto-commerce-scopes.yml
 summary_line: 84 scopes · password/clientCredentials
 tags:
-- B2B E-Commerce
+- B2B eCommerce
 - Catalog Management
 - Order Management
 - Pricing

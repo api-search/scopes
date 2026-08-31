@@ -314,7 +314,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lightspe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/scopes/lightspeed-pos-scopes.yml
 summary_line: 24 scopes · authorizationCode
 tags:
-- Point-of-Sale
+- POS
 - Retail
 - Restaurant
 - E-Commerce

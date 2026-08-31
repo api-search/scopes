@@ -124,7 +124,7 @@ tags:
 - Methane
 - Greenhouse Gas
 - Scientific Instruments
-- Semiconductors
+- Semiconductor
 - Industrial IoT
 - Sensors
 - Analytics

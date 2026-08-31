@@ -127,7 +127,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/losant/refs/he
 summary_line: 7 scopes · authorizationCode
 tags:
 - IoT
-- Internet of Things
+- Internet Of Things
 - Devices
 - Edge Compute
 - Embedded

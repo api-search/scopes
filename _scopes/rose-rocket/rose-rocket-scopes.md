@@ -59,13 +59,13 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Transportation
 - Logistics
-- Freight
-- Trucking
-- Transportation Management System
+- freight
+- trucking
+- transportation-management-system
 - Supply Chain
-- Dispatch
-- Webhooks
-- OAuth
-- Canada
+- dispatch
+- Webhook
+- Authentication
+- canada
 token_urls: []
 ---

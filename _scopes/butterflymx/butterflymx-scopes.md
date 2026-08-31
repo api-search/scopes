@@ -153,15 +153,15 @@ source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: https://accounts.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/scopes/butterflymx-scopes.yml
 summary_line: 6 scopes · authorizationCode/clientCredentials
 tags:
-- Access Control
+- access-control
 - physical-access
 - smart-intercom
-- PropTech
-- Property Management
-- Multifamily
-- Building Automation
-- Visitor Management
-- IoT
+- proptech
+- property-management
+- multifamily
+- building-automation
+- visitor-management
+- iot
 - smart-locks
 - Authentication
 - Webhook

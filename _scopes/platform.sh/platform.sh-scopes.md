@@ -410,17 +410,17 @@ source_yaml: "generated: '2026-08-26'\nmethod: derived\nsource: openapi/platform
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/scopes/platform.sh-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Cloud Hosting
 - Application Hosting
 - Deployment
 - DevOps
 - Continuous Deployment
 - Containers
-- Managed Services
+- Managed Service
 - Developer Tools
 - Infrastructure
-- Multicloud
+- Multi-Cloud
 - Web Hosting
 token_urls:
 - https://auth.api.platform.sh/oauth2/token

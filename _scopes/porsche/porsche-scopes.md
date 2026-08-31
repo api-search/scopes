@@ -37,7 +37,7 @@ tags:
 - Identity
 - OpenID Connect
 - Design System
-- Open Source
+- Open-Source
 - Germany
 token_urls: []
 ---

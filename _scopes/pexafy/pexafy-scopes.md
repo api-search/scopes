@@ -91,16 +91,16 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: https://pexafy.co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/scopes/pexafy-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- images
-- photos
-- stock photos
-- image search
-- semantic search
-- computer vision
-- embeddings
-- mcp
+- Image
+- Photos
+- Stock Photos
+- Image Search
+- Semantic Search
+- Computer-Vision
+- Embeddings
+- MCP
 - agent-native
-- content licensing
+- Content Licensing
 token_urls:
 - https://pexafy.com/oauth/token/
 ---

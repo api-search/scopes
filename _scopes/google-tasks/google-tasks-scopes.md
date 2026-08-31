@@ -65,7 +65,6 @@ tags:
 - Productivity
 - Task Management
 - Task
-- To-Do
 - Workspace
 token_urls:
 - https://oauth2.googleapis.com/token

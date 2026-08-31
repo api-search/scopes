@@ -689,17 +689,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guestready/ref
 summary_line: 54 scopes · authorizationCode
 tags:
 - Property Management
-- Short Term Rentals
+- Short-Term Rentals
 - Vacation Rentals
 - Hospitality
 - Travel
-- Real Estate
+- Real-Estate
 - Channel Management
 - Reservations
 - Revenue Management
 - PMS
 - MCP
-- OAuth
+- Authentication
 token_urls:
 - /o/token/
 ---

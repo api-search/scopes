@@ -80,7 +80,7 @@ tags:
 - Interoperability
 - Patient Access
 - Provider Directory
-- SMART on FHIR
+- SMART-on-FHIR
 - Fortune 500
 token_urls:
 - https://api.chs.net/oauth2/token

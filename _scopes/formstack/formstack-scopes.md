@@ -116,7 +116,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Forms
 - Documents
-- E-Signature
+- eSignature
 - Workflow-Automation
 - No-Code
 - Authentication

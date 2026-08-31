@@ -35,7 +35,7 @@ tags:
 - E-Commerce
 - Agent Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - Snacks
 token_urls: []

@@ -149,7 +149,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clover/refs/he
 summary_line: 13 scopes · authorizationCode
 tags:
 - Restaurant
-- Point-of-Sale
+- POS
 - Payments
 - Retail
 - SMB

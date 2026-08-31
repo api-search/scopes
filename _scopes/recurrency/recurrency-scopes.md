@@ -85,7 +85,7 @@ tags:
 - ERP
 - Distribution
 - Wholesale
-- eProcurement
+- E-Procurement
 - Supply Chain
 - Order
 token_urls:

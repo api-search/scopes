@@ -179,9 +179,9 @@ tags:
 - Digital Asset Management
 - Marketing
 - Marketing Resource Management
-- Workflow
+- Workflows
 - Publishing
-- Webhooks
+- Webhook
 - Acquired
 token_urls:
 - https://accounts.cmp.optimizely.com/o/oauth2/v1/token

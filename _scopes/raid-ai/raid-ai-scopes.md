@@ -36,7 +36,7 @@ tags:
 - Voice / Audio Detection
 - Image Forensics
 - Document Forensics
-- Fact Checking
+- Fact-Checking
 - Trust and Safety
 - Security
 token_urls: []

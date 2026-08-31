@@ -222,7 +222,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Cannabis
 - ERP
-- Seed-to-Sale
+- Seed to Sale
 - Compliance
 - Inventory Management
 - Supply Chain

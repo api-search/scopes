@@ -49,7 +49,7 @@ tags:
 - Fintech
 - Cryptocurrency
 - Stablecoins
-- Banking as a Service
+- Banking-as-a-Service
 - Embedded Finance
 - Compliance
 - KYC

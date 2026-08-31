@@ -28,15 +28,15 @@ source_yaml: "generated: '2026-08-07'\nmethod: probed\nsource: https://shopbinsk
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/scopes/binske-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Cannabis
-- Consumer Packaged Goods
-- Direct to Consumer
+- cannabis
+- consumer-packaged-goods
+- direct-to-consumer
 - E-Commerce
 - Retail
-- Shopify
-- Agent Commerce
+- shopify
+- agent-commerce
 - UCP
 - MCP
-- Storefront
+- storefront
 token_urls: []
 ---

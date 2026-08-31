@@ -103,7 +103,7 @@ tags:
 - Menus
 - Order
 - Fulfillment
-- Couriers
+- Courier
 - Authentication
 token_urls:
 - https://auth.uber.com/oauth/v2/token

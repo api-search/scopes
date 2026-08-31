@@ -363,7 +363,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/360learning/re
 summary_line: 45 scopes
 tags:
 - Company
-- EdTech
+- Edtech
 - Learning Management System
 - E-Learning
 - Training

@@ -35,7 +35,7 @@ tags:
 - Cell Therapy
 - Laboratory Equipment
 - Manufacturing
-- Ecommerce
+- E-Commerce
 - Agent Commerce
 - MCP
 token_urls: []

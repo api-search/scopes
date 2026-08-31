@@ -31,17 +31,17 @@ source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: https://mcp.synca
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syncari/refs/heads/main/scopes/syncari-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Company
-- Master Data Management
-- Data Unification
-- Data Integration
-- iPaaS
-- Data Quality
-- Data Governance
-- Embedded Integration
+- company
+- master-data-management
+- data-unification
+- data-integration
+- ipaas
+- data-quality
+- data-governance
+- embedded-integration
 - MCP
 - agent-native
-- RevOps
-- Data Synchronization
+- revops
+- data-synchronization
 token_urls: []
 ---

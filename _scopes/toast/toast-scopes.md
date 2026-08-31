@@ -510,11 +510,5 @@ tags:
 - Point-of-Sale
 - Restaurant
 - Hospitality
-- Restaurant Technology
-- Payments
-- Online Ordering
-- Labor Management
-- Inventory
-- API Partner Program
 token_urls: []
 ---

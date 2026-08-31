@@ -75,7 +75,7 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Broadcasting
 - Live Streaming
-- Multistreaming
+- Multi-Streaming
 - Recordings
 - Video
 token_urls:

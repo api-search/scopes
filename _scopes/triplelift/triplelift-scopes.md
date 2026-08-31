@@ -249,7 +249,7 @@ tags:
 - Supply Side Platform
 - Demand-Side Platform
 - GraphQL
-- AdTech
+- Ad Tech
 - Publisher Reporting
 - Real-Time Bidding
 token_urls: []

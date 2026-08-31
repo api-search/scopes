@@ -68,18 +68,18 @@ source_yaml: "generated: '2026-08-25'\nmethod: derived\nsource: openapi/levitate
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/levitate/refs/heads/main/scopes/levitate-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- Relationship Marketing
+- relationship-marketing
 - CRM
-- Email Marketing
+- email-marketing
 - Contacts
-- Small Business
+- small-business
 - Insurance
-- Financial Services
-- Nonprofit
-- Marketing Automation
+- Financial-Services
+- nonprofit
+- marketing-automation
 - MCP
 - agent-native
-- SaaS
+- saas
 token_urls:
 - https://login.levitate.ai/oauth2/token
 ---

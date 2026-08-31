@@ -68,7 +68,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/articulate/ref
 summary_line: 7 scopes · authorizationCode
 tags:
 - Company
-- EdTech
+- Edtech
 - E-Learning
 - Learning Management
 - Training

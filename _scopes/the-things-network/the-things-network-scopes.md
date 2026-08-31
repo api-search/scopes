@@ -391,7 +391,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - LoRaWAN
 - IoT
-- Internet of Things
+- Internet Of Things
 - Open-Source
 - Network Server
 - LPWAN

@@ -493,23 +493,23 @@ source_yaml: "generated: '2026-08-20'\nmethod: searched\nsource: https://taskfol
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/scopes/taskfolk-scopes.yml
 summary_line: 47 scopes · authorizationCode
 tags:
-- Project Management
-- Issue Tracking
-- Task Management
-- Productivity
+- project-management
+- issue-tracking
+- task-management
+- productivity
 - Collaboration
 - MCP
 - AI Agents
 - agent-native
-- Agentic Commerce
+- agentic-commerce
 - A2A
 - REST API
 - OpenAPI
 - Webhook
 - Authentication
-- Agile
-- Sprints
-- OKR
+- agile
+- sprints
+- okr
 - Developer Tools
 token_urls:
 - https://taskfolk.ai/api/oauth/token

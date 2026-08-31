@@ -158,15 +158,15 @@ source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/polysign
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polysign/refs/heads/main/scopes/polysign-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
-- Digital Assets
+- digital-assets
 - Blockchain
-- institutional-custody
-- Settlement
-- Escrow
-- Capital Markets
+- Institutional Custody
+- settlement
+- escrow
+- capital-markets
 - Payments
 - Fintech
-- Distributed Ledger
+- distributed-ledger
 - atomicnet
 token_urls:
 - /v1/auth/token

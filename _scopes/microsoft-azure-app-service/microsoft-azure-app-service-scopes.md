@@ -56,7 +56,7 @@ tags:
 - App Service
 - Hosting
 - Microsoft Azure
-- Platform-as-a-Service
-- Web App
+- PaaS
+- Web Apps
 token_urls: []
 ---

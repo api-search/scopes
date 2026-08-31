@@ -99,7 +99,7 @@ tags:
 - Agents
 - AI Assistant
 - Artificial Intelligence
-- Chatbots
+- Chatbot
 - Copilot
 - Extensibility
 - Generative AI

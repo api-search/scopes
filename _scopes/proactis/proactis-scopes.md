@@ -32,10 +32,10 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Procurement
 - Purchase-To-Pay
-- Source-To-Pay
+- Source-to-Pay
 - Spend Management
 - Contract Management
-- eInvoicing
+- E-Invoicing
 - Accounts Payable
 - Supplier Management
 - eSourcing

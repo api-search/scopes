@@ -231,6 +231,6 @@ tags:
 - Application Platform
 - Cloud-Native
 - Infrastructure
-- Multi-Cloud
+- Multi Cloud
 token_urls: []
 ---

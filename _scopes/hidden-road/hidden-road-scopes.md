@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hidden-road/re
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Prime Brokerage
 - Clearing
 - Digital Assets

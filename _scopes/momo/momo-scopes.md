@@ -39,13 +39,13 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Payments
 - Mobile Payments
-- FinTech
+- Fintech
 - Digital Wallet
 - Payment Gateway
 - QR Payments
 - Disbursement
 - Buy Now Pay Later
-- E-commerce
+- E-Commerce
 - Vietnam
 token_urls: []
 ---

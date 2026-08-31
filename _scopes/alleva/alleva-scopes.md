@@ -278,18 +278,18 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: https://helloalle
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/scopes/alleva-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- Behavioral Health
-- Electronic Health Records
-- EMR
-- EHR
-- Substance Use Disorder
-- Mental Health
-- Healthcare
+- behavioral-health
+- electronic-health-records
+- emr
+- ehr
+- substance-use-disorder
+- mental-health
+- healthcare
 - treatment-centers
-- Clinical Documentation
-- Revenue Cycle Management
-- Patient Intake
-- Healthcare Compliance
+- clinical-documentation
+- revenue-cycle-management
+- patient-intake
+- healthcare-compliance
 token_urls:
 - https://helloalleva.com/oauth/token
 ---

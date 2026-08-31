@@ -166,7 +166,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cintoo/refs/he
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Infrastructure Saas
+- Infrastructure SaaS
 - Reality Capture
 - Digital Twin
 - Point Cloud

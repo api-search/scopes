@@ -49,10 +49,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Search
-- SERP API
-- Google Search
+- serp-api
+- google-search
 - Web Scraping
-- Search data
+- search-data
 - Market Intelligence
 - SEO
 - MCP

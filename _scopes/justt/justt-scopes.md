@@ -110,10 +110,10 @@ tags:
 - Disputes
 - Fraud
 - Risk
-- Financial Services
+- Financial-Services
 - E-Commerce
 - Artificial Intelligence
-- Webhooks
+- Webhook
 token_urls:
 - https://justt.ai/oauth/token
 ---

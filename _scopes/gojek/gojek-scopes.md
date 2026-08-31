@@ -156,15 +156,15 @@ tags:
 - Super App
 - Ride Hailing
 - Food Delivery
-- Point of Sale
+- Point-of-Sale
 - Merchant Platform
 - Payments
 - QRIS
 - Logistics
 - Indonesia
 - Southeast Asia
-- Webhooks
-- OAuth
+- Webhook
+- Authentication
 token_urls:
 - https://accounts.go-jek.com/oauth2/token
 ---

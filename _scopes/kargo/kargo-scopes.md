@@ -61,14 +61,14 @@ tags:
 - Logistics
 - Supply Chain
 - Warehouse
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Shipping
 - Inventory
 - Industrial Automation
 - Freight
 - GraphQL
-- Webhooks
+- Webhook
 token_urls:
 - https://mykargo.us.auth0.com/oauth/token
 ---

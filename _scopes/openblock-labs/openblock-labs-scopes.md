@@ -30,7 +30,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Data
-- Coding Agents
+- Coding Agent
 - AI Agents
 - Developer Tools
 - Automation

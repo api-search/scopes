@@ -40,6 +40,6 @@ tags:
 - Customer Service
 - Software-as-a-Service
 - China
-- Platform-as-a-Service
+- PaaS
 token_urls: []
 ---

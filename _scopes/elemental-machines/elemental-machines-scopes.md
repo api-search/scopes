@@ -142,18 +142,18 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - lab-operations
 - laboratory-monitoring
-- IoT
-- Sensors
-- Life Sciences
-- Cold Chain
-- Environmental Monitoring
+- iot
+- sensors
+- life-sciences
+- cold-chain
+- environmental-monitoring
 - equipment-utilization
-- Asset Management
+- asset-management
 - Alerting
 - Compliance
-- GxP
+- gxp
 - Manufacturing
-- Time Series
+- time-series
 token_urls:
 - https://api.elementalmachines.io/oauth/token
 - https://elementalmachines.com/oauth/token
