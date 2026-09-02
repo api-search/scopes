@@ -53,7 +53,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serval/refs/he
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- IT Service Management
 - ITSM
 - Help Desk
 - Workflow-Automation

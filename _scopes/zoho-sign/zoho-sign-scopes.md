@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs
 summary_line: 3 scopes · authorizationCode
 tags:
 - Electronic Signatures
-- eSignature
+- E-Signature
 - Document-Management
 - Digital Signatures
 - Signature Workflows

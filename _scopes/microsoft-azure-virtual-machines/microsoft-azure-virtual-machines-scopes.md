@@ -49,7 +49,7 @@ summary_line: 1 scope · implicit
 tags:
 - Cloud Computing
 - Compute
-- IaaS
+- Infrastructure-as-a-Service
 - Infrastructure
 - Virtual Machines
 token_urls: []

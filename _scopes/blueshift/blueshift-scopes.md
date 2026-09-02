@@ -158,19 +158,19 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: >-\n  https://api
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/scopes/blueshift-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- customer-data-platform
+- Customer Data Platform
 - Customer Engagement
-- marketing-automation
-- cross-channel-messaging
+- Marketing Automation
+- Cross-Channel Messaging
 - Email
 - SMS
 - Push Notifications
-- segmentation
-- personalization
-- product-recommendations
-- event-tracking
-- product-catalog
-- martech
+- Segmentation
+- Personalization
+- Product Recommendations
+- Event Tracking
+- Product Catalog
+- MarTech
 - MCP
 - agent-native
 token_urls: []

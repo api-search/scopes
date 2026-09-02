@@ -258,17 +258,17 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://api.sig
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sigma-computing/refs/heads/main/scopes/sigma-computing-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- business-intelligence
+- Business Intelligence
 - Analytics
-- embedded-analytics
-- data-modeling
-- data-warehouse
+- Embedded Analytics
+- Data Modeling
+- Data Warehouse
 - Reporting
-- spreadsheets
+- Spreadsheets
 - MCP
 - AI Agents
-- snowflake
-- databricks
-- data-governance
+- Snowflake
+- Databricks
+- Data Governance
 token_urls: []
 ---

@@ -189,7 +189,7 @@ tags:
 - Labels
 - Cover Art
 - Open-Source
-- Non Profit
+- Non-Profit
 token_urls:
 - https://musicbrainz.org/oauth2/token
 ---

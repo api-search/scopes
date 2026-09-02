@@ -55,7 +55,7 @@ tags:
 - AI Agents
 - GraphQL
 - MCP
-- Agent Native
+- agent-native
 - Customer Context Graph
 token_urls: []
 ---

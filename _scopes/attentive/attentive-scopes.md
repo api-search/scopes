@@ -221,7 +221,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/attentive/refs
 summary_line: 14 scopes · authorizationCode
 tags:
 - Company
-- Martech
+- MarTech
 - SMS Marketing
 - Email Marketing
 - E-Commerce

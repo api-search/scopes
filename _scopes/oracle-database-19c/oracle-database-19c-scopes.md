@@ -65,10 +65,10 @@ tags:
 - Enterprise
 - JSON
 - Machine-Learning
-- Nosql
+- NoSQL
 - Oracle
 - REST
-- Sql
+- SQL
 token_urls:
 - https://{host}:{port}/ords/{schema}/oauth/token
 ---

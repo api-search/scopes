@@ -141,7 +141,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hellosign/refs
 summary_line: 7 scopes
 tags:
 - Company
-- eSignature
+- E-Signature
 - Electronic Signatures
 - Documents
 - Digital Agreements

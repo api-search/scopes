@@ -350,19 +350,19 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moengage/refs/
 summary_line: 5 scopes
 tags:
 - Customer Engagement
-- marketing-automation
-- customer-data-platform
+- Marketing Automation
+- Customer Data Platform
 - Push Notifications
 - Email
 - SMS
 - WhatsApp
-- in-app-messaging
-- segmentation
-- personalization
-- campaign-management
+- In-App Messaging
+- Segmentation
+- Personalization
+- Campaign Management
 - Analytics
-- mobile-sdk
+- Mobile SDK
 - MCP
-- martech
+- MarTech
 token_urls: []
 ---

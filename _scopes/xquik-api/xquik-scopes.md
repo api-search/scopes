@@ -183,14 +183,14 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://xquik.com
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/scopes/xquik-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- social media data
+- social-media-data
 - X / Twitter
-- social listening
-- data extraction
-- automation
+- Social Listening
+- Data Extraction
+- Automation
 - Webhook
 - MCP
-- developer API
+- Developer API
 token_urls:
 - https://xquik.com/api/oauth/token
 ---

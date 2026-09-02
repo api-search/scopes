@@ -119,7 +119,6 @@ summary_line: 2 scopes · authorizationCode/clientCredentials
 tags:
 - CRM
 - Sales
-- Customer Relationship Management
 - Dynamics 365
 - Microsoft
 - Dataverse

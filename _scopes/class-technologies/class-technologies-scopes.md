@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/class-technolo
 summary_line: 12 scopes
 tags:
 - Company
-- Edtech
+- EdTech
 - Education
 - Virtual Classroom
 - E-Learning

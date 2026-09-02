@@ -61,7 +61,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Experimentation
-- AB Testing
+- A/B Testing
 - Personalization
 - Feature Flags
 - Artificial Intelligence

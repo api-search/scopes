@@ -57,9 +57,9 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Cloud Computing
 - Data Analytics
-- IaaS
+- Infrastructure-as-a-Service
 - Machine-Learning
-- PaaS
+- Platform-as-a-Service
 - Software-as-a-Service
 - Serverless
 token_urls:

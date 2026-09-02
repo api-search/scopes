@@ -134,16 +134,16 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Industrial market intelligence
 - Commodity price forecasting
-- Economic forecasting
+- Economic Forecasting
 - Time-series forecasting
 - Procurement
-- Supply-chain risk
+- Supply Chain Risk
 - Trading analytics
 - AI decision support
 - MCP
-- Agent-native
-- Causal inference
-- Anomaly detection
+- agent-native
+- Causal Inference
+- Anomaly Detection
 token_urls:
 - https://mcp.sybilion.dev/oauth/token
 ---

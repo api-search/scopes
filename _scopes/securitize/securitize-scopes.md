@@ -83,18 +83,18 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: https://sec-con
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/scopes/securitize-scopes.yml
 summary_line: 3 scopes
 tags:
-- tokenization
-- digital-securities
-- real-world-assets
-- capital-markets
-- fund-administration
-- transfer-agent
-- kyc
+- Tokenization
+- Digital Securities
+- Real World Assets
+- Capital Markets
+- Fund Administration
+- Transfer Agent
+- KYC
 - AML
 - Identity Verification
 - Blockchain
-- broker-dealer
-- private-credit
+- Broker-Dealer
+- Private Credit
 - MCP
 - Webhook
 token_urls: []

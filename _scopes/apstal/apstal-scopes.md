@@ -58,20 +58,20 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apstal/refs/he
 summary_line: 3 scopes · authorizationCode/refreshToken
 tags:
 - Analytics
-- web-analytics
-- privacy
-- session-replay
-- heatmaps
+- Web Analytics
+- Privacy
+- Session Replay
+- Heatmaps
 - MCP
 - agent-native
-- cookieless
+- Cookieless
 - llms-txt
-- bigquery
-- gdpr
+- BigQuery
+- GDPR
 - A2A
-- agent-skills
-- bot-detection
-- core-web-vitals
+- Agent Skills
+- Bot Detection
+- Core Web Vitals
 token_urls:
 - https://apstal.com/api/auth/token
 ---

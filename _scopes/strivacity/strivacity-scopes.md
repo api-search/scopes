@@ -72,15 +72,15 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Identity
 - customer-identity-and-access-management
-- ciam
+- CIAM
 - Authentication
 - Authorization
-- openid-connect
-- consent-management
-- multi-factor-authentication
+- OpenID Connect
+- Consent Management
+- Multi-Factor Authentication
 - Identity Verification
-- fraud-detection
-- agentic-identity
+- Fraud Detection
+- Agentic Identity
 - Security
 token_urls: []
 ---

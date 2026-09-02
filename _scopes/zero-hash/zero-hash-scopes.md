@@ -233,24 +233,24 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs
 summary_line: 4 scopes
 tags:
 - Company
-- crypto-infrastructure
-- digital-assets
-- stablecoins
+- Crypto Infrastructure
+- Digital Assets
+- Stablecoins
 - Payments
 - Payouts
-- tokenization
-- custody
-- staking
-- settlement
-- embedded-finance
-- on-off-ramp
-- liquidity
-- fix-protocol
+- Tokenization
+- Custody
+- Staking
+- Settlement
+- Embedded Finance
+- On-Off Ramp
+- Liquidity
+- FIX Protocol
 - Webhook
-- websockets
-- kyc
+- WebSockets
+- KYC
 - Compliance
-- remittances
-- agentic-finance
+- Remittances
+- Agentic Finance
 token_urls: []
 ---

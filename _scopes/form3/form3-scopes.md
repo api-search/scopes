@@ -217,7 +217,7 @@ tags:
 - Direct Debit
 - Confirmation of Payee
 - Cross-Border
-- Banking-as-a-Service
+- Banking as a Service
 - Embedded Payments
 token_urls:
 - https://api.form3.tech/v1/oauth2/token

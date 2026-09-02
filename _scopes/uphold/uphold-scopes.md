@@ -534,17 +534,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/he
 summary_line: 64 scopes · clientCredentials
 tags:
 - Company
-- cryptocurrency
-- digital-assets
+- Cryptocurrency
+- Digital Assets
 - Payments
-- banking
+- Banking
 - Fintech
-- kyc
+- KYC
 - Compliance
-- crypto-exchange
+- Crypto Exchange
 - Market Data
-- embedded-finance
-- travel-rule
+- Embedded Finance
+- Travel Rule
 - Webhook
 - agent-native
 token_urls:

@@ -85,7 +85,7 @@ tags:
 - Payment Processing
 - Payment Technology
 - Payments
-- POS
+- Point-of-Sale
 - Fortune 1000
 token_urls:
 - https://apis.globalpay.com/oauth2/token

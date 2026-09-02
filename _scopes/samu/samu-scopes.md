@@ -86,7 +86,7 @@ tags:
 - Transcription
 - WhatsApp
 - MCP
-- Agent Native
+- agent-native
 token_urls:
 - https://api.samu.ai/oauth/token
 ---

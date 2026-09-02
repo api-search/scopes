@@ -32,14 +32,14 @@ tags:
 - Company
 - Retail
 - E-Commerce
-- fashion
-- apparel
-- direct-to-consumer
-- agentic-commerce
+- Fashion
+- Apparel
+- Direct to Consumer
+- Agentic Commerce
 - UCP
 - MCP
 - agent-native
-- shopify
-- consumer
+- Shopify
+- Consumer
 token_urls: []
 ---

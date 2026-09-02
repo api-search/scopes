@@ -310,19 +310,19 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happyrobot/ref
 summary_line: 8 scopes · authorizationCode/clientCredentials
 tags:
 - AI Agents
-- agent-orchestration
-- voice-ai
-- conversational-ai
+- Agent Orchestration
+- Voice AI
+- Conversational AI
 - Logistics
-- freight
+- Freight
 - Supply Chain
-- workflow-automation
-- contact-center
-- telephony
+- Workflow-Automation
+- Contact Center
+- Telephony
 - MCP
 - agent-native
-- agent-governance
-- enterprise-automation
+- Agent Governance
+- Enterprise Automation
 token_urls:
 - https://platform.happyrobot.ai/api/mcp/token
 - https://docs.happyrobot.ai/mcp/oauth/token

@@ -161,7 +161,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://g
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/scopes/demandbase-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
-- Account-Based Marketing
+- Account Based Marketing
 - Advertising
 - AI Agents
 - B2B Marketing

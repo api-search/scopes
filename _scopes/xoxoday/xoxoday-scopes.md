@@ -72,7 +72,7 @@ tags:
 - Recognition
 - Digital Rewards
 - Points Programs
-- Redemption
+- Redemptions
 - Fintech
 token_urls:
 - https://accounts.xoxoday.com/chef/v1/oauth/token

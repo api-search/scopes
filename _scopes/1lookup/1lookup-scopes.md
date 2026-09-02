@@ -48,14 +48,14 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: https://app.1look
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/scopes/1lookup-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- phone validation
-- email validation
-- IP intelligence
-- fraud & risk
-- data enrichment
+- Phone Validation
+- Email Validation
+- IP Intelligence
+- Fraud and Risk
+- Data Enrichment
 - B2B contact & company data
 - SEO / web analytics
-- audio transcription
+- Audio Transcription
 - MCP / agent-native
 - REST API
 token_urls:

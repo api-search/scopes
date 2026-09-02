@@ -213,16 +213,16 @@ source_yaml: "generated: '2026-08-26'\nmethod: derived\nsource: openapi/nasuni-p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nasuni/refs/heads/main/scopes/nasuni-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- company
-- file-storage
-- hybrid-cloud
-- object-storage
-- enterprise-storage
-- data-management
-- backup-and-recovery
-- ransomware-protection
+- Company
+- File Storage
+- Hybrid Cloud
+- Object Storage
+- Enterprise Storage
+- Data Management
+- Backup and Recovery
+- Ransomware Protection
 - Infrastructure
-- observability
+- Observability
 - MCP
 - agent-native
 token_urls:

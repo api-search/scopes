@@ -53,13 +53,13 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: https://tweetapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tweetapi/refs/heads/main/scopes/tweetapi-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- Twitter
-- x
-- social-media
-- social-data
+- twitter
+- X
+- Social-Media
+- Social Data
 - Search
 - Analytics
-- research
+- Research
 - Developer Tools
 - MCP
 - agent-native

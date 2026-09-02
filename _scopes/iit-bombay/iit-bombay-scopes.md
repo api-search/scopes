@@ -48,6 +48,6 @@ tags:
 - OpenID Connect
 - Campus Life
 - Research Repository
-- Open Source
+- Open-Source
 token_urls: []
 ---

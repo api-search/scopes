@@ -60,7 +60,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelerant/ref
 summary_line: 4 scopes · authorizationCode
 tags:
 - Insurance
-- InsurTech
+- Insurtech
 - Specialty Insurance
 - Underwriting
 - Risk Management

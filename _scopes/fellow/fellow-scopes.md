@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/he
 summary_line: 5 scopes · authorizationCode
 tags:
 - Company
-- Saas
+- Software-as-a-Service
 - Meetings
 - Artificial Intelligence
 - Meeting Notes

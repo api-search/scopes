@@ -70,7 +70,7 @@ tags:
 - Artificial Intelligence
 - LLM
 - Personal AI
-- Pi
+- PI
 - Foundation Models
 - Empathetic AI
 token_urls:

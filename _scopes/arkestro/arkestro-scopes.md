@@ -139,14 +139,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/
 summary_line: 3 scopes · authorizationCode
 tags:
 - Procurement
-- sourcing
+- Sourcing
 - Supply Chain
-- spend-management
-- e-sourcing
-- supplier-management
-- purchase-orders
+- Spend Management
+- eSourcing
+- Supplier Management
+- Purchase Orders
 - procurement-analytics
-- enterprise-software
+- Enterprise Software
 - predictive-procurement
 - MCP
 - Webhook

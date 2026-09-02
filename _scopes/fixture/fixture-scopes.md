@@ -104,6 +104,5 @@ tags:
 - Artificial Intelligence
 - Agents
 - MCP
-- Customer Relationship Management
 token_urls: []
 ---

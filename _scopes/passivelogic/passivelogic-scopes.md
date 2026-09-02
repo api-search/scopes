@@ -220,16 +220,16 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passivelogic/r
 summary_line: 13 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Company
-- digital-twin
-- building-automation
-- hvac
-- smart-buildings
-- autonomous-systems
-- graphql
+- Digital Twin
+- Building Automation
+- HVAC
+- Smart Buildings
+- Autonomous Systems
+- GraphQL
 - Ontology
-- iot
-- edge-computing
-- physical-ai
+- IoT
+- Edge Computing
+- Physical AI
 - Energy
 token_urls:
 - https://login.passivelogic.com/realms/prod/protocol/openid-connect/token

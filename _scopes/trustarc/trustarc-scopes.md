@@ -374,7 +374,7 @@ tags:
 - Certifications
 - RegTech
 - Trust Center
-- Enterprise SaaS
+- Enterprise Saas
 token_urls:
 - https://login.truste.com/oauth/token
 ---

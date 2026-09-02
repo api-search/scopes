@@ -62,7 +62,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/
 summary_line: 1 scope
 tags:
 - Prospecting
-- GTM
+- Go-To-Market
 - Sales
 - Enrichment
 - Automation

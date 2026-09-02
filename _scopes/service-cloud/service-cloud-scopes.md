@@ -219,7 +219,7 @@ summary_line: 36 scopes · authorizationCode/implicit
 tags:
 - Cloud
 - CRM
-- Customer-Service
+- Customer Service
 - Enterprise
 - Salesforce
 - Support

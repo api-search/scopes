@@ -45,7 +45,7 @@ tags:
 - Higher Education
 - University
 - Public Research University
-- Land Grant University
+- Land-Grant University
 - Big Ten
 - United States
 - Michigan

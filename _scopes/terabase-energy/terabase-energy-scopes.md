@@ -195,17 +195,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terabase-energ
 summary_line: 2 scopes · clientCredentials
 tags:
 - Solar
-- renewable-energy
-- energy-modeling
+- Renewable Energy
+- Energy Modeling
 - utility-scale-solar
-- simulation
-- photovoltaics
-- construction-technology
-- geospatial
+- Simulation
+- Photovoltaics
+- Construction Technology
+- Geospatial
 - terrain-analysis
-- climate-tech
+- Climate Tech
 - MCP
-- energy-storage
+- Energy Storage
 token_urls:
 - https://terabase-prd.auth.us-west-2.amazoncognito.com/oauth2/token
 ---

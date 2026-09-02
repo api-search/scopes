@@ -82,7 +82,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Online Courses
 - LMS
-- eLearning
+- E-Learning
 - Education
 - Course Platform
 - Creator Economy

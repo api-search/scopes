@@ -261,11 +261,11 @@ tags:
 - Company
 - marketing-gamification
 - interactive-marketing
-- campaign-management
-- zero-party-data
-- lead-generation
-- loyalty
-- martech
+- Campaign Management
+- Zero-Party Data
+- Lead Generation
+- Loyalty
+- MarTech
 - Webhook
 - Authentication
 token_urls:

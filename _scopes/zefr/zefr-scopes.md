@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zefr/refs/head
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Adtech
+- AdTech
 - Brand Safety
 - Brand Suitability
 - Content Intelligence

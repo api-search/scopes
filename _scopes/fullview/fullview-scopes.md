@@ -99,7 +99,7 @@ summary_line: 12 scopes · authorizationCode/clientCredentials
 tags:
 - Company
 - Customer-Support
-- Cobrowsing
+- Co-Browsing
 - Session Replay
 - Customer Experience
 - Developer Tools

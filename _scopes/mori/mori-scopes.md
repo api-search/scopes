@@ -37,7 +37,7 @@ tags:
 - Direct to Consumer
 - Shopify
 - MCP
-- Agent Native
+- agent-native
 - Universal Commerce Protocol
 token_urls: []
 ---

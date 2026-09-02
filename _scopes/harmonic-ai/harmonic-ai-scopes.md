@@ -57,16 +57,16 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://mcp.api
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/scopes/harmonic-ai-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- startup-intelligence
-- venture-capital
-- company-data
-- people-data
+- Startup Intelligence
+- Venture Capital
+- Company Data
+- People Data
 - investor-data
-- funding-data
+- Funding Data
 - Data Enrichment
-- sales-intelligence
+- Sales Intelligence
 - Market Intelligence
-- graphql
+- GraphQL
 - MCP
 - agent-native
 token_urls:

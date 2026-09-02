@@ -38,7 +38,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Consumer
-- Cash Back
+- Cashback
 - Rewards
 - Retail Media
 - Coupons

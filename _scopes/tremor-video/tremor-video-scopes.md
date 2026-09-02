@@ -79,7 +79,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tremor-video/r
 summary_line: 1 scope · clientCredentials
 tags:
 - Company
-- Martech
+- MarTech
 - Advertising
 - AdTech
 - DSP

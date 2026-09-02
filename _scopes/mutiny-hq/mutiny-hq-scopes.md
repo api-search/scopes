@@ -66,14 +66,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mutiny-hq/refs
 summary_line: 5 scopes · authorizationCode
 tags:
 - Company
-- GTM
+- Go-To-Market
 - Sales Enablement
 - Marketing
 - Website Personalization
 - Artificial Intelligence
 - Agents
 - MCP
-- ABM
+- Account Based Marketing
 - Content Generation
 token_urls:
 - https://mcp.mutinyhq.com/oauth/token

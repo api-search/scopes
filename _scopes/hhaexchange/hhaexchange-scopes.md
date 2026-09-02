@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hhaexcha
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/scopes/hhaexchange-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
-- Homecare
+- Home Care
 - EVV
 - Electronic Visit Verification
 - Medicaid

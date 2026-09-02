@@ -195,7 +195,7 @@ tags:
 - HCM
 - Integration
 - Orchestration
-- PaaS
+- Platform-as-a-Service
 token_urls:
 - https://{baseUrl}/oauth2/{tenant}/token
 ---

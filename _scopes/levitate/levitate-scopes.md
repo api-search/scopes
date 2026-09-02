@@ -70,16 +70,16 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - relationship-marketing
 - CRM
-- email-marketing
+- Email Marketing
 - Contacts
-- small-business
+- Small Business
 - Insurance
 - Financial-Services
-- nonprofit
-- marketing-automation
+- Non-Profit
+- Marketing Automation
 - MCP
 - agent-native
-- saas
+- Software-as-a-Service
 token_urls:
 - https://login.levitate.ai/oauth2/token
 ---

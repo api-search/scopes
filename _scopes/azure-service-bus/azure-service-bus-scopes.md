@@ -69,7 +69,7 @@ tags:
 - Enterprise
 - Message Broker
 - Messaging
-- Pub/Sub
+- Pub-Sub
 - Queues
 token_urls: []
 ---

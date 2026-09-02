@@ -214,15 +214,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads
 summary_line: 8 scopes · authorizationCode/refreshToken
 tags:
 - Artificial Intelligence
-- customer-service
+- Customer Service
 - Chatbots
-- automation
-- conversational-ai
-- helpdesk
+- Automation
+- Conversational AI
+- Help Desk
 - CRM
 - Integration
-- knowledge-management
-- data-export
+- Knowledge-Management
+- Data Export
 token_urls:
 - https://{bot-handle}.ada.support/api/platform_integrations/oauth/token
 ---

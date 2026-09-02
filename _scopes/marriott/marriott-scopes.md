@@ -134,7 +134,7 @@ tags:
 - Booking
 - Distribution
 - Loyalty
-- Short Term Rental
+- Short-Term Rental
 - Corporate Travel
 token_urls:
 - /v3/ent-auth/sso/token

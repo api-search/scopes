@@ -45,17 +45,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundguard/refs
 summary_line: 1 scope · authorizationCode
 tags:
 - investment-accounting
-- fund-accounting
+- Fund Accounting
 - ibor
 - abor
-- nav
-- asset-management
+- NAV
+- Asset Management
 - portfolio-accounting
-- private-markets
+- Private Markets
 - Financial-Services
 - Fintech
-- saas
-- artificial-intelligence
+- Software-as-a-Service
+- Artificial Intelligence
 - MCP
 token_urls:
 - https://www.fundguard.com/oauth/token

@@ -283,24 +283,24 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mcp360/refs/he
 summary_line: 2 scopes · authorizationCode
 tags:
 - MCP
-- mcp-server
-- mcp-gateway
+- MCP Server
+- MCP Gateway
 - AI Agents
-- agent-tools
-- tool-integration
-- unified-api
-- api-gateway
-- no-code
-- llmstxt
+- Agent Tools
+- Tool Integration
+- Unified-API
+- API Gateway
+- No-Code
+- llms-txt
 - SEO
 - Search
-- serp
+- SERP
 - Web Scraping
-- e-commerce
-- whois
-- dns
-- geolocation
-- email-verification
+- E-Commerce
+- WHOIS
+- DNS
+- Geolocation
+- Email Verification
 token_urls:
 - https://api.mcp360.ai/api/v1/oauth/token
 ---

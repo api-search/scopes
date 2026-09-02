@@ -353,7 +353,7 @@ tags:
 - Company
 - Infrastructure Saas
 - Cloud
-- PaaS
+- Platform-as-a-Service
 - Hosting
 - Deployment
 - DevOps

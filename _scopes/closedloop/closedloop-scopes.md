@@ -37,15 +37,15 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: https://mcp.close
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/scopes/closedloop-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- product intelligence
-- customer feedback
-- voice-of-customer
-- product management
-- agentic AI
+- Product Intelligence
+- Customer Feedback
+- Voice of Customer
+- Product Management
+- Agentic AI
 - MCP
 - SaaS analytics
 - A2A
 - SCIM
-- product discovery
+- Product Discovery
 token_urls: []
 ---

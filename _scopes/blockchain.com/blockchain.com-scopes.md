@@ -107,16 +107,16 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://docs.bl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/scopes/blockchain.com-scopes.yml
 summary_line: 2 scopes
 tags:
-- cryptocurrency
-- bitcoin
+- Cryptocurrency
+- Bitcoin
 - Blockchain
-- exchange
+- Exchange
 - Trading
 - Market Data
 - Payments
-- on-ramp
+- On-Ramp
 - Wallets
-- block-explorer
+- Block Explorer
 - Fintech
 - Webhook
 token_urls: []

@@ -557,18 +557,18 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: https://cloud.cor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/scopes/corestack-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- cloud-governance
-- finops
-- cloud-cost-management
-- cloud-security-posture-management
+- Cloud Governance
+- FinOps
+- Cloud Cost Management
+- Cloud Security Posture Management
 - Compliance
-- multi-cloud
-- cnapp
-- policy-as-code
+- Multi-Cloud
+- CNAPP
+- Policy as Code
 - cloudops
 - MCP
 - agent-native
-- kubernetes
+- Kubernetes
 token_urls:
 - https://cloud.corestack.io/mcp/oauth/token
 ---

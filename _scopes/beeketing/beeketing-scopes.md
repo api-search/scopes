@@ -302,7 +302,7 @@ summary_line: 24 scopes · authorizationCode
 tags:
 - Company
 - E-Commerce
-- Cross-border Commerce
+- Cross-Border Commerce
 - Marketing
 - Shopify Apps
 - REST API

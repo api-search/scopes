@@ -98,7 +98,7 @@ summary_line: 16 scopes
 tags:
 - Payments
 - United States
-- Bill Payment
+- Bill Payments
 - Electronic Bill Presentment
 - Payment Processing
 - Payment Gateway

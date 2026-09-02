@@ -106,7 +106,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Artificial Intelligence
 - Candidate Screening
-- Chatbot
+- Chatbots
 - Conversational AI
 - Hiring Automation
 - HR Technology

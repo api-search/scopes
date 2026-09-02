@@ -501,18 +501,18 @@ source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/onerail-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/scopes/onerail-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- last-mile-delivery
-- delivery-orchestration
+- Last Mile Delivery
+- Delivery Orchestration
 - Logistics
 - Supply Chain
-- route-optimization
+- Route Optimization
 - courier-network
 - Shipping
-- fleet-management
+- Fleet Management
 - Transportation
-- order-management
+- Order Management
 - Webhook
-- final-mile
+- Final Mile
 token_urls:
 - https://dummy-unused-url.com
 ---

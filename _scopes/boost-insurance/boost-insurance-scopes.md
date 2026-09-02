@@ -64,7 +64,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Insurance
 - Embedded Insurance
-- Insurance-as-a-Service
+- Insurance As A Service
 - Policy Administration
 - Claims
 token_urls:

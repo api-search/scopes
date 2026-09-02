@@ -89,7 +89,7 @@ tags:
 - Songwriting
 - Generative AI
 - MCP Server
-- Agent Skill
+- AgentSkill
 - A2A
 - Developer Tools
 token_urls:
