@@ -24,11 +24,11 @@ method: derived
 name: Microsoft Azure Cache For Redis Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'microsoft-azure-cache-for-redis publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the microsoft-azure-cache-for-redis API on a user''s behalf.
+overview: 'Microsoft Azure Cache For Redis publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Azure Cache For Redis API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: microsoft-azure-cache-for-redis
+provider_name: Microsoft Azure Cache For Redis
 provider_slug: microsoft-azure-cache-for-redis
 schemes:
 - description: Azure Active Directory OAuth2 Flow.

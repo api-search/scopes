@@ -78,14 +78,14 @@ method: derived
 name: Airbnb Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'airbnb publishes 13 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the airbnb API on a user''s behalf.
+overview: 'Airbnb publishes 13 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Airbnb API on a user''s behalf.
 
 
   Tokens are issued from https://api.airbnb.com/v2/oauth2/authorizations.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: airbnb
+provider_name: Airbnb
 provider_slug: airbnb
 schemes:
 - description: Airbnb uses OAuth 2.0 for authentication. Partners must register their application to receive a client ID and secret, then obtain access tokens through the authorization code flow.

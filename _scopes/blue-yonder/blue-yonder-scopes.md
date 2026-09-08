@@ -35,14 +35,14 @@ method: derived
 name: Blue Yonder Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'blue-yonder publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the blue-yonder API on a user''s behalf.
+overview: 'Blue Yonder publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Blue Yonder API on a user''s behalf.
 
 
   Tokens are issued from https://auth.blueyonder.example.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: blue-yonder
+provider_name: Blue Yonder
 provider_slug: blue-yonder
 schemes:
 - flows:

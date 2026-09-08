@@ -70,11 +70,11 @@ method: searched
 name: Braintree Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'braintree publishes 40 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the braintree API on a user''s behalf.
+overview: 'Braintree publishes 40 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Braintree API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: braintree
+provider_name: Braintree
 provider_slug: braintree
 schemes:
 - connect_url_note: Generated server-side via gateway.oauth.connectUrl(redirectUri, scope, state).

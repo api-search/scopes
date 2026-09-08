@@ -35,14 +35,14 @@ method: derived
 name: Majesco Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'majesco publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the majesco API on a user''s behalf.
+overview: 'Majesco publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Majesco API on a user''s behalf.
 
 
   Tokens are issued from https://auth.majesco.example.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: majesco
+provider_name: Majesco
 provider_slug: majesco
 schemes:
 - flows:

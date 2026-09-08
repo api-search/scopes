@@ -30,14 +30,14 @@ method: derived
 name: Pg And E Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'pg-and-e publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the pg-and-e API on a user''s behalf.
+overview: 'Pg And E publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Pg And E API on a user''s behalf.
 
 
   Tokens are issued from https://api.pge.com/datacustodian/oauth/v2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: pg-and-e
+provider_name: Pg And E
 provider_slug: pg-and-e
 schemes:
 - flows:

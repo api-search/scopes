@@ -30,6 +30,30 @@ api_specs:
   slug: crunchbase-data-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-search-api-openapi.yml
+- filename: crunchbase-autocomplete-api-openapi.yml
+  format: yaml
+  label: Crunchbase Autocomplete API
+  slug: crunchbase-autocomplete-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-autocomplete-api-openapi.yml
+- filename: crunchbase-deletes-api-openapi.yml
+  format: yaml
+  label: Crunchbase Deletes API
+  slug: crunchbase-deletes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-deletes-api-openapi.yml
+- filename: crunchbase-entities-api-openapi.yml
+  format: yaml
+  label: Crunchbase Entities API
+  slug: crunchbase-entities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-entities-api-openapi.yml
+- filename: crunchbase-search-api-openapi.yml
+  format: yaml
+  label: Crunchbase Search API
+  slug: crunchbase-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-search-api-openapi.yml
 authorization_urls:
 - https://www.crunchbase.com/oauth/authorize
 description: 'The REST Data API has no OAuth surface at all - it is a single account-level API key (X-cb-user-key) with no scopes, so the six published OpenAPI documents declare no oauth2 security scheme and derive-oauth-scopes.py correctly finds nothing. The OAuth surface belongs entirely to the MCP server: mcp.crunchbase.com is an RFC 9728 protected resource whose authorization server is www.crunchbase.com, and both metadata documents are anonymously readable. The scopes below are read verbatim from those two live documents, not from the specs.'

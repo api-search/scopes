@@ -21,7 +21,7 @@ api_specs:
 authorization_urls:
 - https://www.arcgis.com/sharing/rest/oauth2/authorize
 description: ''
-docs: https://developers.arcgis.com/documentation/security-and-authentication/reference/privileges/
+docs: ''
 flows:
 - clientCredentials
 - authorizationCode
@@ -30,7 +30,7 @@ layout: scope
 method: derived
 name: Esri Scopes
 name_suffix: OAuth Scopes
-note: Esri ArcGIS OAuth 2.0 does not use OAuth scopes — the /oauth2/authorize endpoint has no scope parameter, and access is instead governed by privileges assigned to ArcGIS accounts and developer credentials (https://developers.arcgis.com/documentation/security-and-authentication/reference/privileges/).
+note: ''
 overview: 'Esri uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -48,7 +48,23 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token
   name: oauth2
-  source: openapi/esri-openapi.yml
+  source: openapi/esri-auth-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token
+  - authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token
+  name: oauth2
+  source: openapi/esri-geocoding-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token
+  - authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token
+  name: oauth2
+  source: openapi/esri-routing-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -56,7 +72,8 @@ slug: esri-scopes
 source_filename: esri-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/esri-openapi.yml\ndocs: https://developers.arcgis.com/documentation/security-and-authentication/reference/privileges/\nnote: >-\n  Esri ArcGIS OAuth 2.0 does not use OAuth scopes — the /oauth2/authorize\n  endpoint has no scope parameter, and access is instead governed by\n  privileges assigned to ArcGIS accounts and developer credentials\n  (https://developers.arcgis.com/documentation/security-and-authentication/reference/privileges/).\nschemes:\n- name: oauth2\n  source: openapi/esri-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\nscopes: []\n"
+source_yaml: "generated: '2026-09-07'\nmethod: derived\nsource: openapi/esri-auth-api-openapi.yml, openapi/esri-geocoding-api-openapi.yml, openapi/esri-routing-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/esri-auth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: oauth2\n  source: openapi/esri-geocoding-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: oauth2\n  source: openapi/esri-routing-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n\
+  \  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\nscopes: []\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/scopes/esri-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

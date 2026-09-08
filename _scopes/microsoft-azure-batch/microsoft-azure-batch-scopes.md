@@ -30,11 +30,11 @@ method: derived
 name: Microsoft Azure Batch Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'microsoft-azure-batch publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the microsoft-azure-batch API on a user''s behalf.
+overview: 'Microsoft Azure Batch publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Azure Batch API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: microsoft-azure-batch
+provider_name: Microsoft Azure Batch
 provider_slug: microsoft-azure-batch
 schemes:
 - flows:

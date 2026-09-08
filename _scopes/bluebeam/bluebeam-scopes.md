@@ -36,14 +36,14 @@ method: derived
 name: Bluebeam Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'bluebeam publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the bluebeam API on a user''s behalf.
+overview: 'Bluebeam publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bluebeam API on a user''s behalf.
 
 
   Tokens are issued from https://authserver.bluebeam.com/auth/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: bluebeam
+provider_name: Bluebeam
 provider_slug: bluebeam
 schemes:
 - flows:

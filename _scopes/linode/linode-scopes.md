@@ -126,14 +126,14 @@ method: derived
 name: Linode Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'linode publishes 28 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the linode API on a user''s behalf.
+overview: 'Linode publishes 28 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Linode API on a user''s behalf.
 
 
   Tokens are issued from https://login.linode.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: linode
+provider_name: Linode
 provider_slug: linode
 schemes:
 - description: OAuth 2.0 authentication for third-party applications.

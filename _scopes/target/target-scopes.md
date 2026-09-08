@@ -46,11 +46,11 @@ method: probed
 name: Target Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'target uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Target uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: target
+provider_name: Target
 provider_slug: target
 schemes: []
 scope_count: 0

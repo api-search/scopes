@@ -53,14 +53,14 @@ method: derived
 name: Duck Creek Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'duck-creek publishes 5 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the duck-creek API on a user''s behalf.
+overview: 'Duck Creek publishes 5 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Duck Creek API on a user''s behalf.
 
 
   Tokens are issued from https://api.duckcreek.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: duck-creek
+provider_name: Duck Creek
 provider_slug: duck-creek
 schemes:
 - description: OAuth 2.0 for Duck Creek Anywhere API authentication

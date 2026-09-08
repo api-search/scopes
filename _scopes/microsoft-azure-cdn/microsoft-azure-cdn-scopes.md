@@ -24,11 +24,11 @@ method: derived
 name: Microsoft Azure Cdn Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'microsoft-azure-cdn publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the microsoft-azure-cdn API on a user''s behalf.
+overview: 'Microsoft Azure Cdn publishes 1 OAuth 2.0 scope via the implicit flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Azure Cdn API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: microsoft-azure-cdn
+provider_name: Microsoft Azure Cdn
 provider_slug: microsoft-azure-cdn
 schemes:
 - description: Azure Active Directory OAuth2 Flow.
