@@ -2,7 +2,7 @@
 api_specs:
 - filename: lacuna-lacuna-music-api-api-openapi.yml
   format: yaml
-  label: Lacuna Lacuna Music API API
+  label: Lacuna Music API Events
   slug: lacuna-lacuna-music-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-lacuna-music-api-api-openapi.yml
@@ -12,6 +12,12 @@ api_specs:
   slug: lacuna-music-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-music-api-openapi.yml
+- filename: lacuna-account-openapi.yml
+  format: yaml
+  label: Lacuna Account API
+  slug: lacuna-account-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-account-openapi.yml
 authorization_urls:
 - https://www.lacuna.fm/oauth/authorize
 description: ''
@@ -92,6 +98,8 @@ tags:
 - AgentSkill
 - A2A
 - Developer Tools
+- Account
+- OAuth
 token_urls:
 - https://www.lacuna.fm/oauth/token
 ---
