@@ -96,7 +96,7 @@ tags:
 - Company
 - E-Commerce
 - Retail
-- Online Stores
+- Online Store
 - Payments
 - Shipping
 - Webhook

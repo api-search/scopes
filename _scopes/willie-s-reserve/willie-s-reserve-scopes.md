@@ -32,9 +32,9 @@ tags:
 - Cannabis
 - Consumer Products
 - Retail
-- Ecommerce
-- Agent Commerce
-- Model Context Protocol
+- E-Commerce
+- Agentic Commerce
+- MCP
 - Universal Commerce Protocol
 - Shopify
 token_urls: []

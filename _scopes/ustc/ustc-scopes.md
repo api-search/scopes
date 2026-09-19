@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: ustc-campus-status-api-openapi.yml
+- filename: ustc-health-api-openapi.yml
   format: yaml
-  label: USTC Campus Enrollment Status Query API (在校状态查询接口)
-  slug: campus-status
+  label: University of Science and Technology of China Health API
+  slug: ustc-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/openapi/ustc-campus-status-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/openapi/ustc-health-api-openapi.yml
+- filename: ustc-status-api-openapi.yml
+  format: yaml
+  label: University of Science and Technology of China Status API
+  slug: ustc-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/openapi/ustc-status-api-openapi.yml
 authorization_urls: []
 description: The authorization scopes USTC's unified identity authorization server advertises, and the claims it says it can release. Institution-operated. Scope here governs access to personal attributes of campus members rather than to a data API — this is an identity provider, not a data platform, and the scope list is the only published authorization vocabulary the institution has.
 docs: ''
@@ -45,7 +51,7 @@ tags:
 - Chinese Academy of Sciences
 - Research
 - Identity Federation
-- Single Sign-On
+- SSO
 - Course Catalog
 - Research Computing
 - Open Source Mirror

@@ -96,7 +96,7 @@ tags:
 - Employment Screening
 - Identity Verification
 - Compliance
-- HR Tech
+- Human Resources
 - Screening
 token_urls:
 - https://api.accuratebackground.com/v3/oauth/token

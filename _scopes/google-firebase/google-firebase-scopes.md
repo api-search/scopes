@@ -64,6 +64,7 @@ tags:
 - Hosting
 - Mobile
 - Real-Time Database
+- Identity Federation
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

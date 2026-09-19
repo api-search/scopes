@@ -272,7 +272,7 @@ tags:
 - Warranty
 - Address Validation
 - Fulfillment
-- Carriers
+- Carrier
 - Webhook
 - MCP
 - Retail

@@ -95,6 +95,18 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: >-\n  https://d
   \ OIDC subject-claim customization.'}\n  - {permission: organization_secrets, access: 'read|write', description: Organization Actions secrets.}\n  - {permission: organization_self_hosted_runners, access: 'read|write', description: Organization self-hosted runners and runner groups.}\nnotes:\n  - GITHUB_TOKEN (the automatic token inside a workflow run) is governed by the workflow's `permissions:` block, which maps onto these fine-grained permissions.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/scopes/github-actions-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
-tags: []
+tags:
+- CI/CD
+- Continuous Integration
+- Continuous Deployment
+- DevOps
+- Pipelines
+- Workflows
+- Automation
+- Developer Tools
+- Software Development
+- Build Automation
+- T1
+- GitHub
 token_urls: []
 ---

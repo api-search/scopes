@@ -121,7 +121,7 @@ summary_line: 6 scopes · authorizationCode
 tags:
 - Returns
 - E-Commerce
-- Exchanges
+- Exchange
 - Refunds
 - Shipping
 - Post-Purchase

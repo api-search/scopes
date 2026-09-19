@@ -105,7 +105,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/duck-cre
   \ flows:\n  - clientCredentials\n  sources:\n  - openapi/duck-creek-policy-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/scopes/duck-creek-scopes.yml
 summary_line: 5 scopes · clientCredentials
-tags: []
+tags:
+- Insurance
+- Payments
+- Claims
+- Payment Processing
+- Product
 token_urls:
 - https://api.duckcreek.com/oauth/token
 ---

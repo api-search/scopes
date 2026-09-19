@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unionai/refs/h
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
 - Artificial Intelligence
-- ML
+- Machine-Learning
 - Orchestration
 - Workflows
 - MLOps

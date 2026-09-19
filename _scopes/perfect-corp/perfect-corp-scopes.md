@@ -1,11 +1,41 @@
 ---
 api_specs:
-- filename: perfect-corp-ai_abs_filter-openapi.yml
+- filename: perfect-corp-s2s-api-openapi.yml
   format: yaml
-  label: YouCam AI REST API
-  slug: youcam-ai-rest-api
+  label: Perfect Corp S2s API
+  slug: perfect-corp-s2s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-ai_abs_filter-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-s2s-api-openapi.yml
+- filename: perfect-corp-v1-0-api-openapi.yml
+  format: yaml
+  label: Perfect Corp V1.0 API
+  slug: perfect-corp-v1-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v1-0-api-openapi.yml
+- filename: perfect-corp-v2-0-api-openapi.yml
+  format: yaml
+  label: Perfect Corp V2.0 API
+  slug: perfect-corp-v2-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v2-0-api-openapi.yml
+- filename: perfect-corp-v2-1-api-openapi.yml
+  format: yaml
+  label: Perfect Corp V2.1 API
+  slug: perfect-corp-v2-1-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v2-1-api-openapi.yml
+- filename: perfect-corp-v3-0-api-openapi.yml
+  format: yaml
+  label: Perfect Corp V3.0 API
+  slug: perfect-corp-v3-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v3-0-api-openapi.yml
+- filename: perfect-corp-v4-0-api-openapi.yml
+  format: yaml
+  label: Perfect Corp V4.0 API
+  slug: perfect-corp-v4-0-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v4-0-api-openapi.yml
 authorization_urls: []
 description: The 65 published OpenAPI documents declare only HTTP bearer security, so nothing OAuth-shaped is derivable from the contracts. The OAuth surface is discoverable instead at the RFC 8414 Authorization Server Metadata document the API host serves anonymously, which names two scopes. Perfect Corp's prose documentation describes only the API-key bearer flow and does not document these scopes anywhere, so this artifact is the only public record of them.
 docs: ''
@@ -36,29 +66,29 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: https://yce-api-0
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/scopes/perfect-corp-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- beauty
-- skincare
-- cosmetics
-- fashion
-- apparel
-- jewelry
-- watches
+- Beauty
+- Skincare
+- Cosmetics
+- Fashion
+- Apparel
+- Jewelry
+- Watches
 - hair
-- virtual-try-on
-- image-editing
-- generative-ai
-- computer-vision
+- Virtual Try-On
+- Image Editing
+- Generative AI
+- Computer-Vision
 - AR
 - visual-commerce
-- ai
-- machine-learning
-- video-generation
+- Artificial Intelligence
+- Machine-Learning
+- Video Generation
 - skin-analysis
-- mcp
-- agents
-- photo-editing
-- beauty-tech
-- retail
+- MCP
+- Agents
+- Photo Editing
+- Beauty Tech
+- Retail
 - ar-try-on
 token_urls: []
 ---

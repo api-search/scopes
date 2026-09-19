@@ -35,6 +35,6 @@ tags:
 - Agentic Commerce
 - MCP
 - Shopify
-- UCP
+- Universal Commerce Protocol
 token_urls: []
 ---

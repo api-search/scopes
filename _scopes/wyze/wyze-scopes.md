@@ -69,7 +69,7 @@ summary_line: 4 scopes · authorizationCode/refreshToken
 tags:
 - Company
 - Smart Home
-- Internet of Things
+- IoT
 - Home Security
 - Camera
 - Consumer Electronics

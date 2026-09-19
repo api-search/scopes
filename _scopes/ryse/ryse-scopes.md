@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ryse/refs/head
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Smart Home
-- Internet of Things
+- IoT
 - Consumer Electronics
 - Home Automation
 - Window Coverings

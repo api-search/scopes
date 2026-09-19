@@ -75,6 +75,7 @@ summary_line: 1 scope · clientCredentials
 tags:
 - API Management
 - Developer Portal
+- Developer Tools
 - Enterprise
 - SAP
 token_urls:

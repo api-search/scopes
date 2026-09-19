@@ -76,7 +76,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/iec-cim-61968-distribution-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/iec-cim-61968-distribution-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.utility.example.com/oauth/token\nscopes:\n- scope: cim.read\n  description: Read CIM data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/iec-cim-61968-distribution-openapi.yml\n- scope: cim.write\n  description: Write CIM data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/iec-cim-61968-distribution-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/scopes/iec-cim-scopes.yml
 summary_line: 2 scopes · clientCredentials
-tags: []
+tags:
+- Energy
+- Utilities
+- Metering
 token_urls:
 - https://auth.utility.example.com/oauth/token
 ---

@@ -24,12 +24,6 @@ api_specs:
   slug: xiaoman-default-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-default-api-openapi.yml
-- filename: xiaoman-devops-api-openapi.yml
-  format: yaml
-  label: Xiaoman (OKKI CRM) devops相关 API
-  slug: xiaoman-devops-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-devops-api-openapi.yml
 - filename: xiaoman-emails-api-openapi.yml
   format: yaml
   label: OKKI Go Emails API
@@ -42,6 +36,12 @@ api_specs:
   slug: xiaoman-s7-1-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-s7-1-api-openapi.yml
+- filename: xiaoman-dev-ops-api-openapi.yml
+  format: yaml
+  label: Xiaoman (OKKI) Dev Ops API
+  slug: xiaoman-dev-ops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-dev-ops-api-openapi.yml
 authorization_urls: []
 description: Module scopes for the Xiaoman OKKI CRM Open API OAuth2 token endpoint (POST /v1/oauth2/access_token). The scope parameter is a space-separated list; a token can only call APIs of modules whose scope it carries (otherwise "no permission <module> scopes"). Each module's scope is also shown on the first page of that module's docs section.
 docs: https://open.xiaoman.cn/api-3473041

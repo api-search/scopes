@@ -61,7 +61,7 @@ tags:
 - Content Management
 - Digital Experience Platform
 - Content Delivery
-- Webhooks
+- Webhook
 - Higher Education
 token_urls: []
 ---

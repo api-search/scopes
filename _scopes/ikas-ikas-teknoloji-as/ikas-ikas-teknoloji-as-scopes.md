@@ -11,14 +11,14 @@ method: searched
 name: Ikas Ikas Teknoloji As Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Ikas, IKAS Teknoloji AS publishes 10 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Ikas, IKAS Teknoloji AS API on a user''s behalf.
+overview: 'Ikas publishes 10 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Ikas API on a user''s behalf.
 
 
   Tokens are issued from https://{store_name}.myikas.com/api/admin/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: Ikas, IKAS Teknoloji AS
+provider_name: Ikas
 provider_slug: ikas-ikas-teknoloji-as
 schemes:
 - flows:

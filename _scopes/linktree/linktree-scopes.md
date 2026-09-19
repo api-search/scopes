@@ -215,7 +215,7 @@ tags:
 - Analytics
 - MCP
 - Agents
-- Design System
+- Design Systems
 - Developer Tools
 token_urls:
 - https://ciam.linktr.ee/oauth2/v1/apps/agentic/P32ACVpudk8MNftmpf1LR1pW5k8s/MS3C64tMj5Trl5KunDJVudGIMAeGB/token

@@ -169,7 +169,7 @@ tags:
 - Business Intelligence
 - Content Aggregation
 - Enterprise Data
-- GenAI
+- Generative AI
 - Market Data
 - Media Monitoring
 - News

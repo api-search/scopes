@@ -74,7 +74,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angellist/refs
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
 - Documents
-- Funds
+- Fund
 - Investing
 - Job
 - Startups

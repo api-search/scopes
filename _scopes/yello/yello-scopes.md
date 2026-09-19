@@ -50,8 +50,8 @@ tags:
 - Applicant Tracking
 - Recruitment CRM
 - Interview Scheduling
-- Jobs
-- Model Context Protocol
+- Job
+- MCP
 - Government
 token_urls:
 - https://www.wayup.com/api/v1/oauth/o/token/

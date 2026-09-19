@@ -67,7 +67,7 @@ tags:
 - Apparel
 - Sustainability
 - Direct to Consumer
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 token_urls:
 - https://accounts.allbirds.com/authentication/oauth/token

@@ -64,7 +64,7 @@ tags:
 - E-Commerce
 - Sustainability
 - Supply Chain
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 - MCP
 token_urls:

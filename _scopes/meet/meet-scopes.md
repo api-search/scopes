@@ -89,7 +89,7 @@ tags:
 - Communications
 - Collaboration
 - Google Workspace
-- Recordings
+- Recording
 - Transcripts
 token_urls:
 - https://oauth2.googleapis.com/token

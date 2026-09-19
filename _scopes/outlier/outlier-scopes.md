@@ -66,7 +66,7 @@ tags:
 - Dual Enrollment
 - E-Commerce
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 - MCP
 token_urls:
 - https://shopify.com/authentication/40681930915/oauth/token

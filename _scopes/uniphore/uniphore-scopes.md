@@ -129,7 +129,7 @@ tags:
 - Customer Data Platform
 - Contact Center
 - Machine-Learning
-- Large Language Models
+- LLM
 - Enterprise Software
 - Automation
 - Customer Experience

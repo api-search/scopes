@@ -27,16 +27,16 @@ source_yaml: "name: Motomarks OAuth Scopes\ngenerated: '2026-09-09'\nmethod: pro
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/motomarks/refs/heads/main/scopes/motomarks-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- automotive
-- logo
-- image-cdn
-- manufacturer
-- brand-assets
-- images
+- Automotive
+- Logo
+- Image CDN
+- Manufacturer
+- Brand Assets
+- Image
 - CDN
-- developer-tools
+- Developer Tools
 - agent-native
 - MCP
-- reference-data
+- Reference Data
 token_urls: []
 ---

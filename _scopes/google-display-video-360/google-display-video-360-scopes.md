@@ -170,7 +170,7 @@ tags:
 - Video Ads
 - Advertising
 - AdTech
-- Demand-Side Platform
+- DSP
 - Media Buying
 - Audiences
 - Google Marketing Platform

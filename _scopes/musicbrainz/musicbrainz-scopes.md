@@ -184,7 +184,7 @@ tags:
 - DiscID
 - Artists
 - Releases
-- Recordings
+- Recording
 - Works
 - Labels
 - Cover Art

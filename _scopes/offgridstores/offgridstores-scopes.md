@@ -42,6 +42,6 @@ tags:
 - Agentic Commerce
 - MCP
 - GraphQL
-- UCP
+- Universal Commerce Protocol
 token_urls: []
 ---

@@ -78,6 +78,12 @@ api_specs:
   slug: apollo-api-documentation-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-tasks-api-openapi.yml
+- filename: apollo-api-documentation-users-api-openapi.yml
+  format: yaml
+  label: Apollo API Documentation Users API
+  slug: apollo-api-documentation-users-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/openapi/apollo-api-documentation-users-api-openapi.yml
 authorization_urls: []
 description: Apollo's OAuth 2.0 scope vocabulary, read verbatim from the RFC 8414 authorization-server metadata Apollo serves anonymously at https://mcp.apollo.io/.well-known/oauth-authorization-server (HTTP 200, 2026-08-14). The identical list is served at /.well-known/oauth-protected-resource and /.well-known/openid-configuration. Scopes are per-endpoint capability grants, not read/write tiers — a partner app requests exactly the endpoints it calls. Apollo adds read_user_profile and app_scopes by default to every registered app. Note the REST OpenAPI declares OAuth as a plain `http bearer` securityScheme with no flows block, so these scopes are NOT derivable from the spec; this artifact is the only machine-readable record of them.
 docs: https://docs.apollo.io/docs/use-oauth-20-authorization-flow-to-access-apollo-user-information-partners

@@ -6,18 +6,18 @@ api_specs:
   slug: snapchat-conversion-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-conversion-events-api-openapi.yml
-- filename: snapchat-oauth-api-openapi.yml
-  format: yaml
-  label: Snapchat OAuth API
-  slug: snapchat-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-oauth-api-openapi.yml
 - filename: snapchat-user-profile-api-openapi.yml
   format: yaml
   label: Snapchat User Profile API
   slug: snapchat-user-profile-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-user-profile-api-openapi.yml
+- filename: snapchat-oauth-api-openapi.yml
+  format: yaml
+  label: Snapchat O Auth API
+  slug: snapchat-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-oauth-api-openapi.yml
 authorization_urls: []
 description: 'Snap''s OAuth scope surface is deliberately narrow and splits across three authorization servers. Login Kit publishes four fully-qualified URI scopes covering identity only — Snap states plainly that Login Kit "does not provide access to personal user data, such as private messages, shared content or contacts". The Marketing API is coarse: one scope for the whole ads surface, with real authorization carried by Business Manager ROLES rather than scopes. The Ads MCP server has exactly one scope, snapads.read, matching its read-only release.'
 docs: https://developers.snap.com/snap-kit/login-kit/overview#scopes

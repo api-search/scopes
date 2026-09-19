@@ -146,6 +146,7 @@ tags:
 - Microsoft
 - Office
 - Productivity
+- Microsoft Office
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 ---

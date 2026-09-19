@@ -72,12 +72,6 @@ api_specs:
   slug: klarna-merchant-urls-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchant-urls-validation-api-openapi.yml
-- filename: klarna-merchantcard-api-openapi.yml
-  format: yaml
-  label: Klarna Merchantcard API
-  slug: klarna-merchantcard-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchantcard-api-openapi.yml
 - filename: klarna-orders-api-openapi.yml
   format: yaml
   label: Klarna Orders API
@@ -114,6 +108,12 @@ api_specs:
   slug: klarna-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-transactions-api-openapi.yml
+- filename: klarna-merchant-card-api-openapi.yml
+  format: yaml
+  label: Klarna Merchant Card API
+  slug: klarna-merchant-card-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchant-card-api-openapi.yml
 authorization_urls:
 - https://login.klarna.com/oauth2/auth
 description: OAuth 2.0 / OIDC scopes for Sign in with Klarna, read verbatim from Klarna's own OpenID Connect discovery document at login.klarna.com. Klarna's server-to-server REST APIs (Payments, Order Management, Settlements) do NOT use OAuth — they authenticate with HTTP Basic and an API key, so no scope surface exists there. Every scope below belongs to the consumer-authorization surface.
@@ -347,7 +347,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/he
 summary_line: 34 scopes · authorizationCode
 tags:
 - Fintech
-- BNPL
+- Buy Now Pay Later
 - Payments
 - Cards
 - Shopping

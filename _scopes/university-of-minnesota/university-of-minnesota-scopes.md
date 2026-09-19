@@ -1,17 +1,47 @@
 ---
 api_specs:
-- filename: university-of-minnesota-gems-exchange-soil-openapi.yml
+- filename: university-of-minnesota-catchment-api-openapi.yml
   format: yaml
-  label: GEMS Informatics Exchange APIs
-  slug: gems-exchange-apis
+  label: University of Minnesota Catchment API
+  slug: university-of-minnesota-catchment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-gems-exchange-soil-openapi.yml
-- filename: university-of-minnesota-umedia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-catchment-api-openapi.yml
+- filename: university-of-minnesota-dataset-api-openapi.yml
   format: yaml
-  label: UMedia Digital Collections JSON API
-  slug: umedia-digital-collections
+  label: University of Minnesota Dataset API
+  slug: university-of-minnesota-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-umedia-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-dataset-api-openapi.yml
+- filename: university-of-minnesota-item-api-openapi.yml
+  format: yaml
+  label: University of Minnesota Item API
+  slug: university-of-minnesota-item-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-item-api-openapi.yml
+- filename: university-of-minnesota-lake-api-openapi.yml
+  format: yaml
+  label: University of Minnesota Lake API
+  slug: university-of-minnesota-lake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-lake-api-openapi.yml
+- filename: university-of-minnesota-pedtools-api-openapi.yml
+  format: yaml
+  label: University of Minnesota Pedtools API
+  slug: university-of-minnesota-pedtools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-pedtools-api-openapi.yml
+- filename: university-of-minnesota-search-json-api-openapi.yml
+  format: yaml
+  label: University of Minnesota Search.json API
+  slug: university-of-minnesota-search-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-search-json-api-openapi.yml
+- filename: university-of-minnesota-co-p-api-openapi.yml
+  format: yaml
+  label: University of Minnesota Co P API
+  slug: university-of-minnesota-co-p-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-co-p-api-openapi.yml
 authorization_urls: []
 description: 'What authorization granularity the University''s programmable surfaces actually expose. Recorded including its absence: no University of Minnesota surface publishes an OAuth scope vocabulary, and pretending otherwise would credit the institution for a model it has not published.'
 docs: ''

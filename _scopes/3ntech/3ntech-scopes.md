@@ -65,10 +65,10 @@ tags:
 - Medical Devices
 - Consumer Health
 - Contact Lenses
-- Ecommerce
+- E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Manufacturing
 token_urls:
 - https://account.3neyecare.com/authentication/oauth/token

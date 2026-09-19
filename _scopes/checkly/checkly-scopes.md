@@ -96,12 +96,6 @@ api_specs:
   slug: checkly-check-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/openapi/checkly-check-status-api-openapi.yml
-- filename: checkly-client-certificates-api-openapi.yml
-  format: yaml
-  label: Checkly Client certificates API
-  slug: checkly-client-certificates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/openapi/checkly-client-certificates-api-openapi.yml
 - filename: checkly-deployment-triggers-api-openapi.yml
   format: yaml
   label: Checkly Deployment Triggers API
@@ -246,6 +240,12 @@ api_specs:
   slug: checkly-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/openapi/checkly-triggers-api-openapi.yml
+- filename: checkly-clientcertificates-api-openapi.yml
+  format: yaml
+  label: Checkly Clientcertificates API
+  slug: checkly-clientcertificates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/openapi/checkly-clientcertificates-api-openapi.yml
 authorization_urls: []
 description: Checkly's OAuth scopes are published for its MCP surface, not its REST API. The REST Public API authenticates with a bearer API key plus an X-Checkly-Account header and declares no oauth2 securityScheme in its OpenAPI. The 14 scopes below are machine-readable at the protected-resource document and are repeated verbatim in the 401 challenge, so an MCP client can discover the full permission surface without credentials.
 docs: https://www.checklyhq.com/docs/ai/mcp-server/security-and-permissions

@@ -47,7 +47,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Company
 - E-Commerce
-- Consumer Brands
+- Consumer Brand
 - Retail
 - Amazon Aggregator
 - Marketplace-Seller

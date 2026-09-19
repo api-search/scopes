@@ -12,12 +12,6 @@ api_specs:
   slug: wistia-account-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-account-api-openapi.yml
-- filename: wistia-alloweddomains-api-openapi.yml
-  format: yaml
-  label: Wistia AllowedDomains API
-  slug: wistia-alloweddomains-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-alloweddomains-api-openapi.yml
 - filename: wistia-captions-api-openapi.yml
   format: yaml
   label: Wistia Captions API
@@ -258,12 +252,6 @@ api_specs:
   slug: wistia-stats-visitors-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-stats-visitors-api-openapi.yml
-- filename: wistia-subfolders-api-openapi.yml
-  format: yaml
-  label: Wistia Subfolders API
-  slug: wistia-subfolders-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-subfolders-api-openapi.yml
 - filename: wistia-taggings-api-openapi.yml
   format: yaml
   label: Wistia Taggings API
@@ -288,6 +276,12 @@ api_specs:
   slug: wistia-webinar-registrations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-webinar-registrations-api-openapi.yml
+- filename: wistia-sub-folders-api-openapi.yml
+  format: yaml
+  label: Wistia Sub Folders API
+  slug: wistia-sub-folders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/openapi/wistia-sub-folders-api-openapi.yml
 authorization_urls: []
 description: 'Wistia''s OAuth 2.0 authorization surface publishes its scopes in machine-readable form: `scopes_supported` appears in both the RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata at api.wistia.com, and the same names are documented in prose on the OAuth2 guide. Two of the seven live scopes (`project:write` and `all:delegate_to_contact_permissions`) are advertised by the metadata but are NOT described on the docs page — recorded here from the metadata with that gap noted rather than invented. Note that OAuth scopes are a separate axis from API-token PERMISSIONS: a Wistia API access token is issued with one of a small set of permission tiers, which is what the API reference cites per-operation. Both are captured below.'
 docs: https://docs.wistia.com/docs/authenticating-with-oauth2

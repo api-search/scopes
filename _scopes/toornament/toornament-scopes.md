@@ -107,7 +107,7 @@ tags:
 - Gaming
 - Tournaments
 - Brackets
-- Competition
+- Competitions
 token_urls:
 - https://api.toornament.com/oauth/v2/token
 ---

@@ -68,7 +68,7 @@ tags:
 - Hair Care
 - Professional Beauty Products
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 token_urls:
 - https://shopify.com/authentication/25099010151/oauth/token
 ---

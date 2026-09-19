@@ -29,14 +29,14 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://stellar
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/scopes/stellary-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- project-management
-- productivity
-- AI-agents
-- agent-orchestration
+- Project Management
+- Productivity
+- AI Agents
+- Agent Orchestration
 - MCP
-- remote-mcp
-- developer-tools
-- SaaS
-- collaboration
+- Remote MCP
+- Developer Tools
+- Software-as-a-Service
+- Collaboration
 token_urls: []
 ---

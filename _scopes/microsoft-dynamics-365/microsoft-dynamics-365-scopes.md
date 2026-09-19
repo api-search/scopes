@@ -69,6 +69,7 @@ tags:
 - Enterprise
 - ERP
 - Microsoft
+- Microsoft Dynamics 365
 token_urls:
 - https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
 ---

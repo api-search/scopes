@@ -24,12 +24,6 @@ api_specs:
   slug: archera-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-metrics-api-openapi.yml
-- filename: archera-oauth-api-openapi.yml
-  format: yaml
-  label: Archera OAuth API
-  slug: archera-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-oauth-api-openapi.yml
 - filename: archera-orgs-api-openapi.yml
   format: yaml
   label: Archera Orgs API
@@ -54,6 +48,12 @@ api_specs:
   slug: archera-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-well-known-api-openapi.yml
+- filename: archera-oauth-api-openapi.yml
+  format: yaml
+  label: Archera O Auth API
+  slug: archera-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-oauth-api-openapi.yml
 authorization_urls:
 - https://api.archera.ai/oauth/authorize
 description: OAuth 2.0 scopes advertised by the Archera authorization server (scopes_supported) and echoed by the MCP protected-resource metadata at https://mcp.archera.ai/.well-known/oauth-protected-resource/mcp. The OpenAPI does not enumerate per-operation scope requirements, so scope-to-operation mapping is inferred from the read/write naming convention.

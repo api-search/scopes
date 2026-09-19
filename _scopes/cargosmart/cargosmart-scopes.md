@@ -88,7 +88,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargosmart/ref
 summary_line: 4 scopes · clientCredentials
 tags:
 - Booking
-- Container
+- Containers
 - Documentation
 - GSBN
 - IQAX

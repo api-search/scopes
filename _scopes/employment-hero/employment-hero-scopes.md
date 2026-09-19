@@ -99,13 +99,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/employme
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/scopes/employment-hero-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- HR
+- Human Resources
 - HRIS
 - Payroll
 - Recruitment
 - Employee Benefits
 - Workforce Management
-- HR Tech
 token_urls:
 - https://oauth.employmenthero.com/oauth2/token
 ---

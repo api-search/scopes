@@ -78,6 +78,12 @@ api_specs:
   slug: algolia-monitoring-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-monitoring-api-openapi.yml
+- filename: algolia-ab-testing-api-openapi.yml
+  format: yaml
+  label: Algolia Ab Testing API
+  slug: algolia-ab-testing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-ab-testing-api-openapi.yml
 authorization_urls: []
 description: 'Algolia''s REST APIs do NOT use OAuth - all 15 first-party OpenAPI documents declare apiKey-in-header (x-algolia-application-id + x-algolia-api-key) or, for the Crawler, HTTP Basic. Running derive-oauth-scopes.py over openapi/ finds zero oauth2 securitySchemes, correctly. OAuth exists in exactly one place in the estate: the Algolia Productivity MCP server. Its scope set was read from the RFC 9728 protected-resource metadata document, not inferred.'
 docs: ''

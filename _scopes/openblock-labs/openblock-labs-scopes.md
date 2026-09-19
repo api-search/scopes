@@ -36,5 +36,6 @@ tags:
 - Automation
 - Authentication
 - MCP
+- Identity Federation
 token_urls: []
 ---

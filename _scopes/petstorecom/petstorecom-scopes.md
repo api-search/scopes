@@ -65,7 +65,7 @@ tags:
 - Retail
 - Pet Supplies
 - Agentic Commerce
-- UCP
+- Universal Commerce Protocol
 - MCP
 - Shopify
 token_urls:

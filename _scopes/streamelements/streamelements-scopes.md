@@ -301,7 +301,7 @@ tags:
 - Twitch
 - YouTube
 - Real-Time
-- WebSockets
+- WebSocket
 - Webhook
 - REST
 token_urls:

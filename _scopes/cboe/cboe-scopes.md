@@ -213,11 +213,11 @@ summary_line: 42 scopes · clientCredentials/authorizationCode
 tags:
 - Market Data
 - Options
-- Equities
+- Stocks
 - Derivatives
 - Volatility
 - Financial Markets
-- Exchanges
+- Exchange
 - Trading
 token_urls:
 - https://id.livevol.com/connect/token

@@ -75,7 +75,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Access Management
 - Google Cloud
-- IAM
+- Identity and Access Management
 - Identity
 - Permissions
 - Security

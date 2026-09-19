@@ -169,7 +169,7 @@ tags:
 - KYC
 - Background Checks
 - Fraud Prevention
-- LatAm
+- Latin America
 - WhatsApp
 token_urls:
 - https://api.pass.truora.com/v1/oauth2/token

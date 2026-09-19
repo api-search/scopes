@@ -71,7 +71,7 @@ tags:
 - Telecommunications
 - Voice
 - Kids
-- Phones
+- Phone
 token_urls:
 - https://manage.tincan.kids/authentication/oauth/token
 ---

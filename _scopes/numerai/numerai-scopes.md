@@ -71,7 +71,7 @@ tags:
 - Fintech
 - Machine-Learning
 - Data Science
-- Hedge Fund
+- Hedge Funds
 - GraphQL
 - Crypto
 - Quantitative Finance

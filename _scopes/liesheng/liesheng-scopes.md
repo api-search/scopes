@@ -51,7 +51,7 @@ tags:
 - Sports
 - Fitness
 - Health
-- Internet of Things
+- IoT
 - ODM
 - OEM
 - China

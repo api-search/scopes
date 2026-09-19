@@ -65,8 +65,8 @@ tags:
 - Retail
 - E-Commerce
 - Shopify
-- Agent Commerce
-- UCP
+- Agentic Commerce
+- Universal Commerce Protocol
 token_urls:
 - https://shopify.com/authentication/77478658352/oauth/token
 ---

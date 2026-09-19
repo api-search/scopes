@@ -63,7 +63,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constellation-
 summary_line: 3 scopes
 tags:
 - Company
-- Satellites
+- Satellite
 - Space
 - Telemetry
 - Machine-Learning

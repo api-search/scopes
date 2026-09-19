@@ -85,7 +85,7 @@ summary_line: 2 scopes · clientCredentials/authorizationCode
 tags:
 - Telecommunications
 - Sweden
-- Nordics
+- Nordic
 - Baltics
 - Mobile Network Operator
 - Network APIs

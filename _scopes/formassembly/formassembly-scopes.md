@@ -24,12 +24,6 @@ api_specs:
   slug: formassembly-forms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-forms-api-openapi.yml
-- filename: formassembly-oauth2-api-openapi.yml
-  format: yaml
-  label: FormAssembly OAuth2 API
-  slug: formassembly-oauth2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-oauth2-api-openapi.yml
 - filename: formassembly-responses-api-openapi.yml
   format: yaml
   label: FormAssembly Responses API
@@ -42,6 +36,12 @@ api_specs:
   slug: formassembly-themes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-themes-api-openapi.yml
+- filename: formassembly-oauth2-api-openapi.yml
+  format: yaml
+  label: FormAssembly O Auth2 API
+  slug: formassembly-oauth2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-oauth2-api-openapi.yml
 authorization_urls:
 - https://app.formassembly.com/oauth/login
 description: ''
@@ -90,7 +90,7 @@ tags:
 - Government
 - FedRAMP
 - Workflows
-- E-Signatures
+- E-Signature
 token_urls:
 - https://app.formassembly.com/oauth/access_token
 ---

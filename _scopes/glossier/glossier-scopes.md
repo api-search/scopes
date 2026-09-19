@@ -65,7 +65,7 @@ tags:
 - Cosmetics
 - E-Commerce
 - Retail
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - Shopify
 - MCP

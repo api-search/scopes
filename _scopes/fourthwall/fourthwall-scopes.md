@@ -188,7 +188,7 @@ tags:
 - E-Commerce
 - Merch
 - Storefront
-- Memberships
+- Membership
 - Donations
 - Print on Demand
 token_urls:

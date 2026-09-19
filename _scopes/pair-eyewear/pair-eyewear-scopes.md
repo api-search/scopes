@@ -66,9 +66,9 @@ tags:
 - Retail
 - Shopify
 - Direct to Consumer
-- Agent Commerce
+- Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 token_urls:
 - https://shopify.com/authentication/11479910/oauth/token
 ---

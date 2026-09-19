@@ -38,7 +38,7 @@ tags:
 - Specification Management
 - Supply Chain
 - Packaging
-- Product Lifecycle Management
+- PLM
 - Manufacturing
 - Sustainability
 - Supplier Collaboration

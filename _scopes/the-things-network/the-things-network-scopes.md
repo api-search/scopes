@@ -258,12 +258,6 @@ api_specs:
   slug: the-things-network-managedgatewaywifiprofileconfigurationservice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-managedgatewaywifiprofileconfigurationservice-api-openapi.yml
-- filename: the-things-network-notificationservice-api-openapi.yml
-  format: yaml
-  label: The Things Network / The Things Stack NotificationService API
-  slug: the-things-network-notificationservice-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-notificationservice-api-openapi.yml
 - filename: the-things-network-ns-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Ns API
@@ -300,12 +294,6 @@ api_specs:
   slug: the-things-network-oauthauthorizationregistry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-oauthauthorizationregistry-api-openapi.yml
-- filename: the-things-network-organizationaccess-api-openapi.yml
-  format: yaml
-  label: The Things Network / The Things Stack OrganizationAccess API
-  slug: the-things-network-organizationaccess-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-organizationaccess-api-openapi.yml
 - filename: the-things-network-organizationregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack OrganizationRegistry API
@@ -318,12 +306,6 @@ api_specs:
   slug: the-things-network-pba-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-pba-api-openapi.yml
-- filename: the-things-network-useraccess-api-openapi.yml
-  format: yaml
-  label: The Things Network / The Things Stack UserAccess API
-  slug: the-things-network-useraccess-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-useraccess-api-openapi.yml
 - filename: the-things-network-userbookmarkregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack UserBookmarkRegistry API
@@ -348,6 +330,24 @@ api_specs:
   slug: the-things-network-usersessionregistry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-usersessionregistry-api-openapi.yml
+- filename: the-things-network-notification-service-api-openapi.yml
+  format: yaml
+  label: The Things Network / The Things Stack Notification Service API
+  slug: the-things-network-notification-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-notification-service-api-openapi.yml
+- filename: the-things-network-organization-access-api-openapi.yml
+  format: yaml
+  label: The Things Network / The Things Stack Organization Access API
+  slug: the-things-network-organization-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-organization-access-api-openapi.yml
+- filename: the-things-network-user-access-api-openapi.yml
+  format: yaml
+  label: The Things Network / The Things Stack User Access API
+  slug: the-things-network-user-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-user-access-api-openapi.yml
 authorization_urls: []
 description: 'The Things Stack Identity Server is a full OAuth 2.0 authorization server. Its scope surface is the "Rights" enum: every OAuth access token and every API key carries an explicit list of Rights, and the server checks the requested RPC against that list. The 70 Rights below are transcribed verbatim (name + doc comment) from rights.proto at tag v3.36.2 — they are the contract, not a reading of a marketing page. The harvested OpenAPI documents declare only the ApiKeyAuth scheme because the gRPC-gateway generator does not emit oauth2 securitySchemes; the OAuth flow is real and documented, and derive-oauth-scopes.py therefore found nothing to derive.'
 docs: https://www.thethingsindustries.com/docs/api/concepts/auth/
@@ -391,7 +391,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - LoRaWAN
 - IoT
-- Internet of Things
 - Open-Source
 - Network Server
 - LPWAN

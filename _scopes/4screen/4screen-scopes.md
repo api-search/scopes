@@ -35,7 +35,7 @@ tags:
 - AdTech
 - Automotive
 - Mobility
-- Connected Vehicle
+- Connected Vehicles
 - In-Car Commerce
 - Location
 - Navigation

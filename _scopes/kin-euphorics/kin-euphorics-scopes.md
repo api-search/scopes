@@ -70,7 +70,7 @@ tags:
 - Shopify
 - Direct to Consumer
 - Agentic Commerce
-- UCP
+- Universal Commerce Protocol
 - MCP
 token_urls:
 - https://account.kineuphorics.com/authentication/oauth/token

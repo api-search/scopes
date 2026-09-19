@@ -180,7 +180,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/airbnb-a
   \  flows:\n  - authorizationCode\n  sources:\n  - openapi/airbnb-homes-api-openapi.yml\n- scope: reviews:read\n  description: Read reviews\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/airbnb-homes-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/scopes/airbnb-scopes.yml
 summary_line: 13 scopes · authorizationCode
-tags: []
+tags:
+- Reservations
+- Hospitality
+- Travel
+- Airbnb
 token_urls:
 - https://api.airbnb.com/v2/oauth2/authorizations
 ---

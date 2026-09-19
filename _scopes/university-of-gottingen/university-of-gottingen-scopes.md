@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: university-of-gottingen-gdz-oai-pmh-openapi.yml
+- filename: university-of-gottingen-iiif-image-api-openapi.yml
   format: yaml
-  label: GDZ OAI-PMH Metadata Harvesting
-  slug: gdz-oai-pmh
+  label: University of Göttingen IIIF Image API
+  slug: university-of-gottingen-iiif-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-gdz-oai-pmh-openapi.yml
-- filename: university-of-gottingen-ediss-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-iiif-image-api-openapi.yml
+- filename: university-of-gottingen-iiif-presentation-api-openapi.yml
   format: yaml
-  label: eDiss Göttingen OAI-PMH Metadata Harvesting
-  slug: ediss-oai-pmh
+  label: University of Göttingen IIIF Presentation API
+  slug: university-of-gottingen-iiif-presentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-ediss-oai-pmh-openapi.yml
-- filename: university-of-gottingen-sub-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-iiif-presentation-api-openapi.yml
+- filename: university-of-gottingen-oai-pmh-api-openapi.yml
   format: yaml
-  label: SUB Göttingen IIIF Image and Presentation
-  slug: sub-iiif
+  label: University of Göttingen OAI PMH API
+  slug: university-of-gottingen-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-sub-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/openapi/university-of-gottingen-oai-pmh-api-openapi.yml
 authorization_urls: []
 description: The University of Göttingen defines no API scopes. Its three verified institution-operated surfaces are read-only and anonymous, so there is nothing to scope; the authorisation that does exist is SAML attribute release through DFN-AAI, which is an entitlement model rather than an OAuth scope model. This file exists so that the absence is recorded rather than inferred.
 docs: ''

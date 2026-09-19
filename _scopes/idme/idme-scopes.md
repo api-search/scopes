@@ -90,11 +90,12 @@ tags:
 - Authentication
 - OpenID Connect
 - SAML
-- Single Sign-On
+- SSO
 - Digital Identity
 - KYC
 - Fraud Prevention
 - Government
+- Identity Federation
 token_urls:
 - https://api.id.me/oauth/token
 ---

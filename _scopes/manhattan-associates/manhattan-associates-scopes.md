@@ -103,7 +103,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/manhatta
   - scope: wms:read\n  description: Read warehouse data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/manhattan-associates-wms-openapi.yml\n- scope: wms:write\n  description: Write warehouse operations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/manhattan-associates-wms-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/scopes/manhattan-associates-scopes.yml
 summary_line: 5 scopes · clientCredentials
-tags: []
+tags:
+- Logistics
+- Supply Chain
+- Platform
+- Software-as-a-Service
+- Transportation
 token_urls:
 - https://auth.developer.manh.com/oauth2/token
 ---

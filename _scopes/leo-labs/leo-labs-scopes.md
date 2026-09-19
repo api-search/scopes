@@ -43,7 +43,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Space
-- Satellites
+- Satellite
 - Space Situational Awareness
 - Space Traffic Management
 - Orbital Data

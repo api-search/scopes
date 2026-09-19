@@ -114,7 +114,7 @@ tags:
 - Expense Tracking
 - Fintech
 - Banking
-- Consumer Apps
+- Consumer App
 - Company
 token_urls:
 - https://toshl.com/oauth2/token

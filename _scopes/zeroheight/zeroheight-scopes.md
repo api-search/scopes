@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: zeroheight-open-api-v2.yml
+- filename: zeroheight-pages-api-openapi.yml
   format: yaml
-  label: Zeroheight API
-  slug: zeroheight
+  label: Zeroheight Pages API
+  slug: zeroheight-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-open-api-v2.yml
+  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-pages-api-openapi.yml
+- filename: zeroheight-styleguides-api-openapi.yml
+  format: yaml
+  label: Zeroheight Styleguides API
+  slug: zeroheight-styleguides-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-styleguides-api-openapi.yml
+- filename: zeroheight-tokens-api-openapi.yml
+  format: yaml
+  label: Zeroheight Tokens API
+  slug: zeroheight-tokens-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/openapi/zeroheight-tokens-api-openapi.yml
 authorization_urls: []
 description: 'zeroheight''s REST API is key-authenticated, not OAuth, so there is no OAuth scope registry to derive. What zeroheight does publish is a token-scoping model: every token is created against a pre-defined "use case" that fixes its scope set, with an access level of Read or Read and write, and Enterprise customers can additionally pick granular CLI scopes. The named use cases below are the closest thing zeroheight publishes to a scope reference; the individual granular scope strings are only shown inside the Enterprise token-creation UI and are not published, so they are recorded as unknown rather than guessed.'
 docs: https://help.zeroheight.com/hc/en-us/articles/35887043412251-Zeroheight-API-Authentication-token-creation

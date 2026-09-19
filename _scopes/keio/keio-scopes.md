@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: keio-koara-oai-pmh-openapi.yml
+- filename: keio-iiif-api-openapi.yml
   format: yaml
-  label: KOARA OAI-PMH Metadata API
-  slug: koara-oai-pmh
+  label: Keio University IIIF API
+  slug: keio-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-koara-oai-pmh-openapi.yml
-- filename: keio-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-iiif-api-openapi.yml
+- filename: keio-metadata-harvesting-api-openapi.yml
   format: yaml
-  label: Keio Media Center Digital Collections IIIF API
-  slug: iiif
+  label: Keio University Metadata Harvesting API
+  slug: keio-metadata-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-iiif-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-metadata-harvesting-api-openapi.yml
 authorization_urls: []
 description: 'Keio University defines no authorization scopes on any surface it operates itself. This file records that as a measured absence rather than leaving the artifact out, because the reason matters: the two institution-operated APIs — KOARA''s OAI-PMH interface and the Media Center''s IIIF endpoints — are fully anonymous, and an anonymous API has no scope model by construction, not by omission. There is nothing to divide because there is nothing to grant.
 

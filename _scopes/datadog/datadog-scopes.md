@@ -480,12 +480,6 @@ api_specs:
   slug: datadog-logs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-logs-api-openapi.yml
-- filename: datadog-metric-metadata-api-openapi.yml
-  format: yaml
-  label: Datadog Metric Metadata API
-  slug: datadog-metric-metadata-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-metric-metadata-api-openapi.yml
 - filename: datadog-metric-tags-api-openapi.yml
   format: yaml
   label: Datadog Metric Tags API
@@ -660,6 +654,12 @@ api_specs:
   slug: datadog-upload-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-upload-api-openapi.yml
+- filename: datadog-metric-meta-data-api-openapi.yml
+  format: yaml
+  label: Datadog Metric Meta Data API
+  slug: datadog-metric-meta-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-metric-meta-data-api-openapi.yml
 authorization_urls:
 - /oauth2/v1/authorize
 description: ''
@@ -1058,7 +1058,7 @@ tags:
 - Monitoring
 - Platform
 - T1
-- Visualizations
+- Visualization
 token_urls:
 - /oauth2/v1/token
 ---

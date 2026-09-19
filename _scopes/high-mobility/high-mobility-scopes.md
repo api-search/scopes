@@ -73,7 +73,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/high-mobility/
 summary_line: 1 scope · clientCredentials/authorizationCode
 tags:
 - Automotive
-- Connected Cars
+- Connected Car
 - IoT
 - Vehicle Data
 token_urls:

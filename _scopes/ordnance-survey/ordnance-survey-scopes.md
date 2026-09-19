@@ -36,12 +36,6 @@ api_specs:
   slug: ordnance-survey-find-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-find-api-openapi.yml
-- filename: ordnance-survey-getcapabilities-api-openapi.yml
-  format: yaml
-  label: Ordnance Survey Get Capabilities API
-  slug: ordnance-survey-getcapabilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-getcapabilities-api-openapi.yml
 - filename: ordnance-survey-landing-page-api-openapi.yml
   format: yaml
   label: Ordnance Survey Landing Page API
@@ -72,12 +66,6 @@ api_specs:
   slug: ordnance-survey-polygon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-polygon-api-openapi.yml
-- filename: ordnance-survey-postcode-api-openapi.yml
-  format: yaml
-  label: Ordnance Survey Postcode API
-  slug: ordnance-survey-postcode-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-postcode-api-openapi.yml
 - filename: ordnance-survey-radius-api-openapi.yml
   format: yaml
   label: Ordnance Survey Radius API
@@ -114,12 +102,6 @@ api_specs:
   slug: ordnance-survey-tile-request-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-tile-request-api-openapi.yml
-- filename: ordnance-survey-tile-sets-api-openapi.yml
-  format: yaml
-  label: Ordnance Survey Tile Sets API
-  slug: ordnance-survey-tile-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-tile-sets-api-openapi.yml
 - filename: ordnance-survey-tiling-schemes-api-openapi.yml
   format: yaml
   label: Ordnance Survey Tiling Schemes API
@@ -138,6 +120,24 @@ api_specs:
   slug: ordnance-survey-vector-tiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-vector-tiles-api-openapi.yml
+- filename: ordnance-survey-get-capabilities-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Get Capabilities API
+  slug: ordnance-survey-get-capabilities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-get-capabilities-api-openapi.yml
+- filename: ordnance-survey-post-code-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Post Code API
+  slug: ordnance-survey-post-code-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-post-code-api-openapi.yml
+- filename: ordnance-survey-tilesets-api-openapi.yml
+  format: yaml
+  label: Ordnance Survey Tilesets API
+  slug: ordnance-survey-tilesets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/openapi/ordnance-survey-tilesets-api-openapi.yml
 authorization_urls: []
 description: 'Ordnance Survey runs OAuth 2.0 as a bare client-credentials token service and publishes NO named scopes. The OS OAuth 2 API documentation describes only grant_type=client_credentials against https://api.os.uk/oauth2/token/v1 with HTTP Basic (Project API Key : Project API Secret), returning access_token / expires_in / issued_at / token_type. Authorisation is carried by which APIs are attached to the OS Data Hub API Project, not by scope strings - so a token that is refused returns 403 (not entitled) rather than an insufficient_scope error. The single scope below is the literal "read" scope declared in the operation security requirements of the OS Linked Identifiers OpenAPI fragments; it is not documented anywhere in prose and no other OS spec declares it.'
 docs: https://docs.os.uk/os-apis/core-concepts/authentication

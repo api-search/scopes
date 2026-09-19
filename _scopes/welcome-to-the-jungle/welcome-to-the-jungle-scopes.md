@@ -36,10 +36,9 @@ tags:
 - Human Resources
 - Recruiting
 - Applicant Tracking
-- Jobs
+- Job
 - Employer Branding
 - Talent Acquisition
-- HR Tech
 - France
 token_urls: []
 ---

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: tigera-apis-api-openapi.yml
-  format: yaml
-  label: Tigera APIS API
-  slug: tigera-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-apis-api-openapi.yml
 - filename: tigera-projectcalicoorg-api-openapi.yml
   format: yaml
   label: Tigera Projectcalico Org API
@@ -24,6 +18,12 @@ api_specs:
   slug: tigera-version-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-version-api-openapi.yml
+- filename: tigera-apis-api-openapi.yml
+  format: yaml
+  label: Tigera APIS API
+  slug: tigera-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tigera/refs/heads/main/openapi/tigera-apis-api-openapi.yml
 authorization_urls:
 - https://www.tigera.io/oauth/authorize
 description: Tigera's only public OAuth surface is the authorization server advertised on www.tigera.io for its remote MCP server. It declares a single coarse scope, `mcp`. There is no published scope or permission reference in the Tigera documentation, and no other Tigera or Calico Cloud host publishes RFC 8414 or OIDC discovery metadata. The Calico API itself has no OAuth surface — it is a Kubernetes aggregated API server and delegates authentication and authorization to the cluster's own authenticators and RBAC.

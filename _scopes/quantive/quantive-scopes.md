@@ -29,7 +29,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Business Applications
-- OKR
+- OKRs
 - Strategy Execution
 - Goal Management
 - Performance Management

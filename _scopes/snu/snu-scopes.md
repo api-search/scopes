@@ -6,12 +6,12 @@ api_specs:
   slug: snu-oai-pmh-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-oai-pmh-api-openapi.yml
-- filename: snu-opensearch-api-openapi.yml
+- filename: snu-open-search-api-openapi.yml
   format: yaml
   label: Seoul National University Open Search API
-  slug: snu-opensearch-api
+  slug: snu-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-opensearch-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/openapi/snu-open-search-api-openapi.yml
 authorization_urls: []
 description: Seoul National University publishes no OAuth 2.0 or OIDC authorization server, so there are no scopes in the OAuth sense and none are invented here. The nearest real equivalent — the attribute-release contract that governs what SNU's Identity Provider discloses about a person to a relying party — is recorded below, because for a university that IS the authorization surface.
 docs: ''

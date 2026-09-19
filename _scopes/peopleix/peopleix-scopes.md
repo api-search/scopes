@@ -29,11 +29,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peopleix/refs/
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- HR
+- Human Resources
 - People Analytics
 - People Intelligence
 - Conversation Intelligence
-- Human Resources
 - Workforce Analytics
 - Artificial Intelligence
 - MCP

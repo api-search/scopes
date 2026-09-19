@@ -233,6 +233,7 @@ tags:
 - Streaming
 - Podcasts
 - Playlists
+- Spotify
 token_urls:
 - https://accounts.spotify.com/api/token
 ---

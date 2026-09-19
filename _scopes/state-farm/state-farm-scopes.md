@@ -18,24 +18,6 @@ api_specs:
   slug: state-farm-quotes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-quotes-api-openapi.yml
-- filename: state-farm-insurance-coverage-api-openapi.yml
-  format: yaml
-  label: State Farm Insurance Coverage API
-  slug: state-farm-insurance-coverage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-insurance-coverage-api-openapi.yml
-- filename: state-farm-insurance-policies-api-openapi.yml
-  format: yaml
-  label: State Farm Insurance Policies API
-  slug: state-farm-insurance-policies-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-insurance-policies-api-openapi.yml
-- filename: state-farm-insurance-quotes-api-openapi.yml
-  format: yaml
-  label: State Farm Insurance Quotes API
-  slug: state-farm-insurance-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-insurance-quotes-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -87,7 +69,13 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/state-farm-renters-insurance-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/state-farm-renters-insurance-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.statefarm.com/oauth/token\nscopes:\n- scope: renters:policy:read\n  description: Read renters insurance policy details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/state-farm-renters-insurance-openapi.yml\n- scope: renters:policy:write\n  description: Bind and manage renters insurance policies\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/state-farm-renters-insurance-openapi.yml\n- scope: renters:quote\n  description: Create and retrieve renters insurance quotes\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/state-farm-renters-insurance-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/scopes/state-farm-scopes.yml
 summary_line: 3 scopes · clientCredentials
-tags: []
+tags:
+- Insurance
+- Mortgage
+- Auto Insurance
+- Vehicles
+- Embedded Insurance
+- B2B
 token_urls:
 - https://api.statefarm.com/oauth/token
 ---

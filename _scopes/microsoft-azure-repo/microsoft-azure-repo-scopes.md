@@ -110,6 +110,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-re
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/scopes/microsoft-azure-repo-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
+- Developer Tools
 - DevOps
 - Git
 - Repositories

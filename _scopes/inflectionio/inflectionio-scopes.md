@@ -114,7 +114,7 @@ tags:
 - MCP
 - Agents
 - Artificial Intelligence
-- Customer Journeys
+- Customer Journey
 - Webhook
 token_urls:
 - https://auth-v2.inflection.io/oauth2/token

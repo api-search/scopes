@@ -53,7 +53,7 @@ tags:
 - K-12
 - Authentication
 - OpenID Connect
-- Single Sign-On
+- SSO
 - Rostering
 - Identity
 token_urls:

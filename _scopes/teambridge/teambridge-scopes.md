@@ -26,7 +26,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-utilities-api-openapi.yml
 - filename: teambridge-teambridge-external-api-api-openapi.yml
   format: yaml
-  label: Teambridge Teambridge External API
+  label: Teambridge External API
   slug: teambridge-teambridge-external-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-teambridge-external-api-api-openapi.yml
@@ -77,7 +77,7 @@ tags:
 - Scheduling
 - Time Tracking
 - Payroll
-- HR
+- Human Resources
 - Frontline
 - Webhook
 token_urls:

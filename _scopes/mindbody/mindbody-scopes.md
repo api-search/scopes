@@ -150,8 +150,8 @@ tags:
 - Scheduling
 - Booking
 - Point-of-Sale
-- Studios
-- Salons
+- Studio
+- Salon
 - Spas
 - Webhook
 token_urls:

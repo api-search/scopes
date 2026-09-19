@@ -72,9 +72,9 @@ tags:
 - Private Sales
 - Marketplace
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 token_urls:
 - https://shopify.com/authentication/86227812661/oauth/token
 ---

@@ -814,7 +814,7 @@ tags:
 - MCP
 - Agents
 - Dialer
-- Pipeline
+- Pipelines
 - Forecasting
 token_urls: []
 ---

@@ -255,7 +255,7 @@ tags:
 - Company
 - Aerospace
 - Space
-- Satellites
+- Satellite
 - Satellite Servicing
 - Spacecraft
 - Space Robotics

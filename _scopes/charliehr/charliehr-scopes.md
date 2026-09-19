@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/charlieh
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/scopes/charliehr-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- HR
+- Human Resources
 - HRIS
 - People
 - Leave

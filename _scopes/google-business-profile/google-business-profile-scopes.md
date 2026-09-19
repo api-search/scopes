@@ -53,7 +53,7 @@ tags:
 - Business Profiles
 - Google
 - Local Business
-- Locations
+- Location
 - Reviews
 token_urls:
 - https://oauth2.googleapis.com/token

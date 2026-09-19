@@ -81,7 +81,7 @@ tags:
 - Travel
 - United States
 - Aviation
-- Airline
+- Airlines
 - Distribution
 - NDC
 - GDS

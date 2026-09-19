@@ -174,12 +174,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propelplm/refs
 summary_line: 4 scopes · implicit/authorizationCode
 tags:
 - Company
-- Product Lifecycle Management
 - PLM
 - Quality Management
 - QMS
 - Product Information Management
-- PIM
 - Manufacturing
 - Salesforce
 - Bill of Materials

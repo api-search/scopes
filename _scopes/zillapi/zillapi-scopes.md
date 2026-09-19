@@ -98,7 +98,7 @@ tags:
 - AVM
 - Listings
 - MCP
-- AI Agent
+- AI Agents
 - REST API
 token_urls:
 - https://api.zillapi.com/oauth/token

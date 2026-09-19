@@ -54,7 +54,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azur
 summary_line: 1 scope · implicit
 tags:
 - Real-Time
-- WebSockets
+- WebSocket
 - SignalR
 - Messaging
 - Push

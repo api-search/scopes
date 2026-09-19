@@ -112,8 +112,8 @@ summary_line: 20 scopes
 tags:
 - Business Process Management
 - Decision Management
-- Workflow Automation
-- Low Code
+- Workflow-Automation
+- Low-Code
 - BPMN
 - DMN
 - CMMN
@@ -122,7 +122,7 @@ tags:
 - Clinical Decision Support
 - Standards
 - AI Agents
-- Model Context Protocol
+- MCP
 - Enterprise Architecture
 token_urls: []
 ---

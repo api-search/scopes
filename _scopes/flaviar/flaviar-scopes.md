@@ -69,7 +69,7 @@ tags:
 - Retail
 - Beverages
 - Subscription
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 token_urls:
 - https://shopify.com/authentication/80863265050/oauth/token

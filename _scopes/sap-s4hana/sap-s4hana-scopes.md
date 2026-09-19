@@ -81,7 +81,6 @@ summary_line: 1 scope · clientCredentials
 tags:
 - Business Applications
 - Cloud
-- Enterprise Resource Planning
 - ERP
 - Finance
 - Human Resources

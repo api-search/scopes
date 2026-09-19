@@ -65,7 +65,7 @@ tags:
 - Retail
 - E-Commerce
 - Luggage
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 - MCP
 token_urls:

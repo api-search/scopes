@@ -108,7 +108,7 @@ tags:
 - Cloud Software
 - ERP
 - Payroll
-- HR
+- Human Resources
 token_urls:
 - https://oauth.accounting.sage.com/token
 ---

@@ -38,7 +38,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Advertising
 - Programmatic Advertising
-- Demand-Side Platform
+- DSP
 - Fantasy Sports
 - Sports Data
 - Identity

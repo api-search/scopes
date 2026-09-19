@@ -163,7 +163,7 @@ tags:
 - Analytics
 - Surveillance
 - Time Series
-- Equities
+- Stocks
 - Options
 token_urls:
 - https://cloud-auth.parent.onetick.com/realms/OMD/protocol/openid-connect/token

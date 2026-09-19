@@ -61,7 +61,7 @@ tags:
 - Group Benefits
 - Claims
 - Carrier
-- Association
+- Associations
 - No Public API
 token_urls:
 - https://pac.bluecross.ca/umbraco/delivery/api/v1/security/member/token

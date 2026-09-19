@@ -484,7 +484,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/
 summary_line: 60 scopes · authorizationCode/clientCredentials
 tags:
 - Contract Lifecycle Management
-- CLM
 - Contracts
 - Legal Tech
 - LegalOps

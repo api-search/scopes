@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: university-of-waikato-uowidp-openapi.yml
+- filename: university-of-waikato-authentication-api-openapi.yml
   format: yaml
-  label: University of Waikato Identity Provider (uowidp)
-  slug: uowidp
+  label: University of Waikato Authentication API
+  slug: university-of-waikato-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-uowidp-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-authentication-api-openapi.yml
+- filename: university-of-waikato-discovery-api-openapi.yml
+  format: yaml
+  label: University of Waikato Discovery API
+  slug: university-of-waikato-discovery-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-discovery-api-openapi.yml
+- filename: university-of-waikato-session-api-openapi.yml
+  format: yaml
+  label: University of Waikato Session API
+  slug: university-of-waikato-session-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-session-api-openapi.yml
 authorization_urls: []
 description: The complete authorization scope surface the University of Waikato publishes. The institution's own OpenID Connect provider declares three scopes in scopes_supported, and nothing else on the estate publishes a scope vocabulary — the DSpace REST API and OAI-PMH interface are anonymous reads, the One-Time Secret API is HTTP Basic with no scoping, and LTI 1.3 tool launches carry 1EdTech message claims rather than named OAuth scopes. Scopes here are transcribed from the provider's own discovery document; none is inferred.
 docs: https://api.svc.waikato.ac.nz/uowidp/v1/.well-known/openid-configuration
@@ -66,6 +78,6 @@ tags:
 - SAML
 - OpenID Connect
 - Learning Management
-- Machine Learning
+- Machine-Learning
 token_urls: []
 ---

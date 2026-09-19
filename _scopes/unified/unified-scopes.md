@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: unified-mcp-service-openapi.json
-  format: json
-  label: Unified MCP Service
-  slug: unified-mcp-service
+- filename: unified-health-api-openapi.yml
+  format: yaml
+  label: Unified Health API
+  slug: unified-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-mcp-service-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-health-api-openapi.yml
+- filename: unified-unified-mcp-service-api-openapi.yml
+  format: yaml
+  label: Unified Unified Mcp Service API
+  slug: unified-unified-mcp-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-unified-mcp-service-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -37,7 +43,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Advertising
-- Social Media
+- Social-Media
 - Digital Advertising
 - Marketing
 - Analytics

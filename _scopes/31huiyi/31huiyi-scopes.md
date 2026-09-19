@@ -37,15 +37,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/31huiyi/refs/h
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Events
+- Event
 - Event Management
 - Conferences
 - Exhibitions
 - Registration
-- Check-In
+- Check-in
 - Scheduling
 - Ticketing
-- SaaS
+- Software-as-a-Service
 - China
 token_urls: []
 ---

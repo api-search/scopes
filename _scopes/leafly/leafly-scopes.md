@@ -55,7 +55,7 @@ tags:
 - POS Integration
 - Retail
 - Marketplace
-- Strains
+- Strain
 - E-Commerce
 token_urls:
 - https://api.leafly.com/oauth/token

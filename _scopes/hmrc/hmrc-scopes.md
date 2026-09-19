@@ -78,7 +78,7 @@ tags:
 - Making Tax Digital
 - Regulatory
 - Tax
-- UK
+- United Kingdom
 token_urls:
 - https://api.service.hmrc.gov.uk/oauth/token
 ---

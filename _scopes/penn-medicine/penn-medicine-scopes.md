@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/penn-medicine/
 summary_line: 6 scopes · authorizationCode/clientCredentials
 tags:
 - Healthcare
-- Hospital
+- Hospitals
 - Academic Medical Center
 - FHIR
 - SMART on FHIR

@@ -30,12 +30,6 @@ api_specs:
   slug: dialnexa-languages-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/openapi/dialnexa-languages-api-openapi.yml
-- filename: dialnexa-llms-api-openapi.yml
-  format: yaml
-  label: DialNexa LL Ms API
-  slug: dialnexa-llms-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/openapi/dialnexa-llms-api-openapi.yml
 - filename: dialnexa-organization-folders-api-openapi.yml
   format: yaml
   label: DialNexa Organization Folders API
@@ -78,6 +72,12 @@ api_specs:
   slug: dialnexa-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/openapi/dialnexa-workflows-api-openapi.yml
+- filename: dialnexa-llms-api-openapi.yml
+  format: yaml
+  label: DialNexa LL Ms API
+  slug: dialnexa-llms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/openapi/dialnexa-llms-api-openapi.yml
 authorization_urls: []
 description: OAuth scopes apply to the MCP surface only. The REST /v1 API uses dashboard-provisioned API keys (bearer) and declares no oauth2 securityScheme in its OpenAPI; the dialnexa.com oauth-authorization-server metadata says plainly that public OAuth token issuance is not available for the REST API. The api.dialnexa.com authorization server (OAuth 2.1, authorization-code + PKCE S256, PAR, DPoP) issues tokens for the MCP endpoint https://api.dialnexa.com/v1/mcp.
 docs: https://dialnexa.com/docs/mcp-tools/overview

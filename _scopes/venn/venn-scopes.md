@@ -29,15 +29,15 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: https://cognito-i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/venn/refs/heads/main/scopes/venn-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Real Estate
+- Real-Estate
 - Property Management
 - Multifamily
 - Resident Experience
-- Proptech
+- PropTech
 - Leasing
 - Community
 - Payments
 - GraphQL
-- Mobile Apps
+- Mobile App
 token_urls: []
 ---

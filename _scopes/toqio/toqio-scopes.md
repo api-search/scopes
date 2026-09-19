@@ -420,7 +420,7 @@ tags:
 - Corporate Banking
 - Lending
 - Compliance
-- SMEs
+- SME
 token_urls:
 - https://api.toq.io/iam/oauth/token
 ---

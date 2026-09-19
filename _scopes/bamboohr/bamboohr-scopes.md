@@ -87,9 +87,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bamboohr
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/scopes/bamboohr-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- HR
-- HRIS
 - Human Resources
+- HRIS
 - Payroll
 - Time Tracking
 - Applicant Tracking

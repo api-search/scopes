@@ -149,7 +149,7 @@ tags:
 - Point-of-Sale
 - Onboarding
 - Due Diligence
-- Know Your Customer
+- KYC
 - Data Aggregation
 token_urls: []
 ---

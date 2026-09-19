@@ -108,9 +108,9 @@ tags:
 - 3PL
 - B2B
 - EDI
-- Ecommerce
+- E-Commerce
 - JanSan
-- Foodservice
+- Food Service
 token_urls:
 - https://sso.essendant.com/adfs/oauth2/token/
 - https://login.essendant.com/adfs/oauth2/token/

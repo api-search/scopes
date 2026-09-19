@@ -74,12 +74,11 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/culture-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/scopes/culture-amp-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
-- HR
+- Human Resources
 - Employee Engagement
 - Performance Management
 - People Analytics
 - Surveys
-- Human Resources
 token_urls:
 - /oauth2/token
 ---

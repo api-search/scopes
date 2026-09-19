@@ -30,12 +30,6 @@ api_specs:
   slug: pluralsight-dora-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-dora-metrics-api-openapi.yml
-- filename: pluralsight-graphql-api-openapi.yml
-  format: yaml
-  label: Pluralsight GraphQL API
-  slug: pluralsight-graphql-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-graphql-api-openapi.yml
 - filename: pluralsight-integrations-api-openapi.yml
   format: yaml
   label: Pluralsight Integrations API
@@ -66,12 +60,6 @@ api_specs:
   slug: pluralsight-repos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-repos-api-openapi.yml
-- filename: pluralsight-teams-api-openapi.yml
-  format: yaml
-  label: Pluralsight Teams API
-  slug: pluralsight-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-teams-api-openapi.yml
 - filename: pluralsight-tickets-api-openapi.yml
   format: yaml
   label: Pluralsight Tickets API
@@ -84,6 +72,12 @@ api_specs:
   slug: pluralsight-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-users-api-openapi.yml
+- filename: pluralsight-graph-ql-api-openapi.yml
+  format: yaml
+  label: Pluralsight Graph QL API
+  slug: pluralsight-graph-ql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-graph-ql-api-openapi.yml
 authorization_urls: []
 description: Pluralsight's only OAuth-scoped surface is its remote MCP gateway. The Skills GraphQL API uses plan-admin API keys with no OAuth scopes at all - entitlement there is expressed as release-stage access on the key plus plan permissions, not as scopes. The four scopes below are published anonymously in the gateway's RFC 9728 protected-resource metadata and its RFC 8414 authorization-server metadata.
 docs: ''

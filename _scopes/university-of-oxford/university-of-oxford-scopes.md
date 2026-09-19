@@ -6,24 +6,12 @@ api_specs:
   slug: university-of-oxford-iiif-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-iiif-api-openapi.yml
-- filename: university-of-oxford-oai-pmh-api-openapi.yml
-  format: yaml
-  label: University of Oxford OAI PMH API
-  slug: university-of-oxford-oai-pmh-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-oai-pmh-api-openapi.yml
 - filename: university-of-oxford-repository-api-openapi.yml
   format: yaml
   label: University of Oxford Repository API
   slug: university-of-oxford-repository-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-repository-api-openapi.yml
-- filename: university-of-oxford-textarchive-api-openapi.yml
-  format: yaml
-  label: University of Oxford Text Archive API
-  slug: university-of-oxford-textarchive-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/openapi/university-of-oxford-textarchive-api-openapi.yml
 authorization_urls: []
 description: There are none, and the absence is the finding rather than a gap in our research. No institution-operated Oxford API uses OAuth, OIDC or any token-based authorization, so there is no scope vocabulary to record. This file exists so that a reader does not have to wonder whether scopes were simply never looked for.
 docs: ''

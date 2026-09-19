@@ -371,6 +371,6 @@ tags:
 - Demand Response
 - Solar
 - Home Energy
-- Internet of Things
+- IoT
 token_urls: []
 ---

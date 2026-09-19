@@ -30,12 +30,6 @@ api_specs:
   slug: chili-piper-distro-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-distro-api-openapi.yml
-- filename: chili-piper-handoff-api-openapi.yml
-  format: yaml
-  label: Chili Piper Handoff API
-  slug: chili-piper-handoff-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-handoff-api-openapi.yml
 - filename: chili-piper-meeting-type-api-openapi.yml
   format: yaml
   label: Chili Piper Meeting Type API
@@ -60,12 +54,6 @@ api_specs:
   slug: chili-piper-rule-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-rule-api-openapi.yml
-- filename: chili-piper-schedulinglinks-api-openapi.yml
-  format: yaml
-  label: Chili Piper Scheduling Links API
-  slug: chili-piper-schedulinglinks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-schedulinglinks-api-openapi.yml
 - filename: chili-piper-team-api-openapi.yml
   format: yaml
   label: Chili Piper Team API
@@ -90,6 +78,18 @@ api_specs:
   slug: chili-piper-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-workspace-api-openapi.yml
+- filename: chili-piper-hand-off-api-openapi.yml
+  format: yaml
+  label: Chili Piper Hand off API
+  slug: chili-piper-hand-off-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-hand-off-api-openapi.yml
+- filename: chili-piper-scheduling-links-api-openapi.yml
+  format: yaml
+  label: Chili Piper Scheduling Links API
+  slug: chili-piper-scheduling-links-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-scheduling-links-api-openapi.yml
 authorization_urls: []
 description: 'Chili Piper API access tokens are scoped in Command Center at issue time. Scope is a matrix: a permission verb is granted per API section, so a token can be limited to exactly the surface a script or agent needs. The published OpenAPI documents declare only the apiKeyAuth bearer scheme and carry no oauth2 scope maps, so the matrix below is transcribed from Chili Piper documentation rather than derived from a spec.'
 docs: https://help.chilipiper.com/hc/en-us/articles/35576029581971-Edge-API-References

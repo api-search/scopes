@@ -164,7 +164,7 @@ summary_line: 11 scopes · authorizationCode
 tags:
 - Field Service
 - Job Management
-- Trades
+- Trade
 - Scheduling
 - Dispatch
 - Invoicing

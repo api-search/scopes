@@ -66,7 +66,7 @@ tags:
 - E-Commerce
 - Retail
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 token_urls:
 - https://accounts.teabox.com/authentication/oauth/token
 ---

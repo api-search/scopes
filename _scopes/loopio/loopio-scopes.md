@@ -388,7 +388,7 @@ tags:
 - Response Management
 - Content Library
 - Sales Enablement
-- Questionnaires
+- Questionnaire
 - Compliance
 - Collaboration
 - Documents

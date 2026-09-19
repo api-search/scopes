@@ -69,7 +69,7 @@ tags:
 - Universal Commerce Protocol
 - Shopify
 - India
-- Subscriptions
+- Subscription
 token_urls:
 - https://shopify.com/authentication/54968025206/oauth/token
 ---

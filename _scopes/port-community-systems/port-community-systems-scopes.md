@@ -88,7 +88,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/port-community
 summary_line: 4 scopes · clientCredentials
 tags:
 - Maritime
-- Port
+- Ports
 - Logistics
 - Customs
 - Cargo

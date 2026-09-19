@@ -38,6 +38,6 @@ tags:
 - MCP
 - LTI
 - Rostering
-- Single Sign-On
+- SSO
 token_urls: []
 ---

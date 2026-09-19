@@ -119,7 +119,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Music
 - Lyrics
-- Annotations
+- Annotation
 - Crowdsourced
 - Reference Data
 - Public APIs

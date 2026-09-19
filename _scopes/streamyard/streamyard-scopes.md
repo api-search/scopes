@@ -76,7 +76,7 @@ tags:
 - Broadcasting
 - Live Streaming
 - Multistreaming
-- Recordings
+- Recording
 - Video
 token_urls:
 - https://streamyard.com/oauth/token

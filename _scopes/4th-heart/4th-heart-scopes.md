@@ -67,7 +67,7 @@ tags:
 - E-Commerce
 - Agentic Commerce
 - Universal Commerce Protocol
-- Model Context Protocol
+- MCP
 - Shopify
 - Direct to Consumer
 token_urls:

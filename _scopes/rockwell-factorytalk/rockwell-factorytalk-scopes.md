@@ -81,7 +81,11 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rockwell-factorytalk-optix-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/rockwell-factorytalk-optix-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://optix.example.com/auth/token\nscopes:\n- scope: optix.admin\n  description: Manage recipes and project configuration\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/rockwell-factorytalk-optix-openapi.yml\n- scope: optix.read\n  description: Read tag values and alarm data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/rockwell-factorytalk-optix-openapi.yml\n- scope: optix.write\n  description: Write tag values\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/rockwell-factorytalk-optix-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/scopes/rockwell-factorytalk-scopes.yml
 summary_line: 3 scopes · clientCredentials
-tags: []
+tags:
+- Automation
+- Manufacturing
+- Cloud
+- Recipes
 token_urls:
 - https://optix.example.com/auth/token
 ---

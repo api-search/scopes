@@ -701,6 +701,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft/refs
 summary_line: 42 scopes · authorizationCode/clientCredentials
 tags:
 - Fortune 100
+- Microsoft
 token_urls:
 - https://app.vssps.visualstudio.com/oauth2/token
 - https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token

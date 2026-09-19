@@ -196,7 +196,7 @@ tags:
 - Payroll
 - Human Resources
 - Benefits
-- Investments
+- Investment
 - Wealth Management
 token_urls:
 - https://app.401go.com/api/o/token

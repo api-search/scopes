@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextworld/refs
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Enterprise Resource Planning
+- ERP
 - No-Code
 - Enterprise Application Platform
 - Workflow-Automation

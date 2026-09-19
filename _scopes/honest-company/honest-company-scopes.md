@@ -69,7 +69,7 @@ tags:
 - Shopify
 - Agentic Commerce
 - MCP
-- UCP
+- Universal Commerce Protocol
 token_urls:
 - https://shopify.com/authentication/64768475320/oauth/token
 ---

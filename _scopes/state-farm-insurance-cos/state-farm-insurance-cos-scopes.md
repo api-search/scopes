@@ -69,7 +69,12 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/state-farm-insurance-cos-renters-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/state-farm-insurance-cos-renters-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.statefarm.com/oauth/token\nscopes:\n- scope: renters:policy:read\n  description: Read renters insurance policy details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/state-farm-insurance-cos-renters-openapi.yml\n- scope: renters:policy:write\n  description: Bind and manage renters insurance policies\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/state-farm-insurance-cos-renters-openapi.yml\n- scope: renters:quote\n  description: Create and retrieve renters insurance quotes\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/state-farm-insurance-cos-renters-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/scopes/state-farm-insurance-cos-scopes.yml
 summary_line: 3 scopes · clientCredentials
-tags: []
+tags:
+- Insurance
+- API Gateway
+- B2B
+- Mortgage
+- Verification
 token_urls:
 - https://api.statefarm.com/oauth/token
 ---

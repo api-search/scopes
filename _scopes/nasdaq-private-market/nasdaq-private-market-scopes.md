@@ -87,10 +87,10 @@ summary_line: 7 scopes · authorizationCode/implicit
 tags:
 - Company
 - Private Markets
-- Secondary Markets
+- Secondary Market
 - Market Data
 - Financial-Services
-- Valuations
+- Valuation
 - Pre-IPO Equity
 - Capital Markets
 token_urls:

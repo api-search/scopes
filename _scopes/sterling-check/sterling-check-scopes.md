@@ -82,8 +82,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Background Screening
 - Identity Verification
-- Background Check
-- HR Tech
+- Background Checks
+- Human Resources
 - Compliance
 - Gated API
 token_urls:

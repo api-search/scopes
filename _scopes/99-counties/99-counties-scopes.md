@@ -61,7 +61,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - E-Commerce
-- Agent Commerce
+- Agentic Commerce
 - Regenerative Agriculture
 - Food and Beverage
 - Shopify

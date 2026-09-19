@@ -74,7 +74,7 @@ tags:
 - MBSE
 - AI Agents
 - CAD
-- Product Lifecycle Management
+- PLM
 - GraphQL
 token_urls:
 - https://flowengineering.auth.eu-west-2.amazoncognito.com/oauth2/token

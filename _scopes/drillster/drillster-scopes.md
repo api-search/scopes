@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://www.dri
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/scopes/drillster-scopes.yml
 summary_line: 1 scope · authorizationCode/urn:ietf:params:oauth:grant-type:jwt-bearer
 tags:
-- Assessments
+- Assessment
 - Education
 - Learning
 - Quizzes
@@ -57,7 +57,7 @@ tags:
 - LMS
 - Adaptive Learning
 - Compliance Training
-- Webhooks
+- Webhook
 token_urls:
 - https://www.drillster.com/daas/oauth/token
 ---

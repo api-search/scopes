@@ -289,6 +289,7 @@ tags:
 - OIDC
 - SAML
 - Open-Source
+- Identity Federation
 token_urls:
 - /oidc/token
 ---

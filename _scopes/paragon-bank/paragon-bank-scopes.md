@@ -300,7 +300,7 @@ tags:
 - Financial-Services
 - Banking
 - Savings
-- Mortgages
+- Mortgage
 - Specialist Lender
 - Open Banking
 - PSD2

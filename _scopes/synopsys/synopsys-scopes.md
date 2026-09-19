@@ -91,6 +91,7 @@ tags:
 - EDA Tools
 - Semiconductor Design
 - Fortune 1000
+- Developer Tools
 token_urls:
 - https://api.synopsys.com/oauth/token
 ---

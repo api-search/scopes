@@ -97,7 +97,7 @@ tags:
 - IDP
 - Enterprise
 - Automation
-- GenAI
+- Generative AI
 - FedRAMP
 token_urls:
 - https://{server}.{company}.com/oauth/token

@@ -64,13 +64,12 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/h
 summary_line: 1 scope · authorizationCode
 tags:
 - ERP
-- Enterprise Resource Planning
 - Accounting
 - Inventory
 - Manufacturing
 - Sales
 - CRM
-- HR
+- Human Resources
 - Open-Source
 token_urls:
 - /method/frappe.integrations.oauth2.get_token

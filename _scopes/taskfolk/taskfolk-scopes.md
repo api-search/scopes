@@ -509,7 +509,7 @@ tags:
 - Authentication
 - Agile
 - Sprints
-- OKR
+- OKRs
 - Developer Tools
 token_urls:
 - https://taskfolk.ai/api/oauth/token

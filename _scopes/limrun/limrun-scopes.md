@@ -95,7 +95,7 @@ tags:
 - Mobile
 - iOS
 - Android
-- Simulators
+- Simulator
 - Emulators
 - Cloud Infrastructure
 - Continuous Integration
@@ -103,7 +103,7 @@ tags:
 - Testing
 - Agents
 - MCP
-- Sandboxes
+- Sandbox
 - Xcode
 token_urls:
 - https://api.limrun.com/authn/oauth/token

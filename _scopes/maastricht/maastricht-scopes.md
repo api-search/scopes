@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: maastricht-oai-pmh-openapi.yml
+- filename: maastricht-harvesting-api-openapi.yml
   format: yaml
-  label: Maastricht University Research Portal OAI-PMH
-  slug: oai-pmh
+  label: Maastricht University Harvesting API
+  slug: maastricht-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/openapi/maastricht-oai-pmh-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/openapi/maastricht-harvesting-api-openapi.yml
 authorization_urls: []
 description: OAuth 2.0 / OpenID Connect scopes advertised by the Maastricht University ADFS identity provider. Read verbatim from the institution's own public discovery document on 2026-08-30 — not inferred and not a vendor's default list. These govern access to UM-affiliated relying parties; they are NOT scopes on a public data API, and Maastricht publishes no scoped public data API.
 docs: ''

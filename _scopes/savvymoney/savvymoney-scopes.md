@@ -34,13 +34,13 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Financial-Services
-- Credit Scores
+- Credit Score
 - Credit Monitoring
 - Financial Wellness
 - Banking
-- Credit Unions
+- Credit Union
 - Fintech
-- Single Sign-On
+- SSO
 - Embedded Finance
 - Lending
 - Account Opening

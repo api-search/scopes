@@ -40,7 +40,7 @@ tags:
 - Startups
 - MCP
 - agent-native
-- OAuth
+- Authentication
 - AI Sourcing
 token_urls: []
 ---

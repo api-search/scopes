@@ -48,18 +48,13 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearstream/refs/heads/main/scopes/clearstream-scopes.yml
 summary_line: 4 scopes
 tags:
-- API Platform
 - Capital Markets
 - Collateral Management
 - Custody
 - Financial-Services
 - ISO 15022
 - ISO 20022
-- Mutual TLS
-- OAuth 2.0
-- Post-Trade
 - Post-Trade Infrastructure
-- SCIM
 - Securities
 - Settlement
 - Swift

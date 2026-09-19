@@ -66,7 +66,7 @@ tags:
 - Apparel
 - E-Commerce
 - Shopify
-- Agent Commerce
+- Agentic Commerce
 - MCP
 token_urls:
 - https://shopify.com/authentication/1501528/oauth/token

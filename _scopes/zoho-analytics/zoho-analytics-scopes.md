@@ -308,8 +308,8 @@ tags:
 - Reports
 - Data Import
 - Data Export
-- Workspaces
-- Visualizations
+- Workspace
+- Visualization
 token_urls:
 - https://accounts.zoho.com/oauth/v2/token
 ---

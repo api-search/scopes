@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-ad-groups-api-openapi.yml
 - filename: google-ads-ads-api-openapi.yml
   format: yaml
-  label: Google Ads Ads API
+  label: Google Ads API
   slug: google-ads-ads-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-ads-api-openapi.yml
@@ -42,12 +42,6 @@ api_specs:
   slug: google-ads-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-reporting-api-openapi.yml
-- filename: google-ads-audienceinsights-api-openapi.yml
-  format: yaml
-  label: Google Ads Audience Insights API
-  slug: google-ads-audienceinsights-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-audienceinsights-api-openapi.yml
 - filename: google-ads-customers-accountbudgetproposals-api-openapi.yml
   format: yaml
   label: Google Ads Customers.account Budget Proposals API
@@ -648,6 +642,12 @@ api_specs:
   slug: google-ads-v25-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-v25-api-openapi.yml
+- filename: google-ads-audience-insights-api-openapi.yml
+  format: yaml
+  label: Google Ads Audience Insights API
+  slug: google-ads-audience-insights-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/openapi/google-ads-audience-insights-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: 'The Google Ads API has exactly ONE OAuth scope, and it is all-or-nothing. There is no read-only scope, no per-resource scope, and no way for a user to grant an application reporting access without also granting it the ability to change campaigns and spend. For anyone delegating this API to an agent, that is the single most important fact on this page: least privilege is not expressible in the token. It has to be enforced outside it — by the tools you expose, by the customer IDs you allow, and by review before mutate.'
@@ -703,6 +703,7 @@ tags:
 - Google
 - Marketing
 - PPC
+- Google Ads
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

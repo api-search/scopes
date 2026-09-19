@@ -30,7 +30,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Non-Alcoholic Beer
-- Beverage
+- Beverages
 - Consumer Packaged Goods
 - Direct to Consumer
 - E-Commerce

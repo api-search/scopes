@@ -56,6 +56,7 @@ tags:
 - GSMA
 - Connectivity
 - 5G
+- CAMARA
 token_urls:
 - https://api.example.com/oauth2/token
 ---

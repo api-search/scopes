@@ -669,7 +669,6 @@ summary_line: 2 scopes · authorizationCode/password/clientCredentials
 tags:
 - Programmatic Advertising
 - DSP
-- Demand-Side Platform
 - Campaign Management
 - AdTech
 - Bidding

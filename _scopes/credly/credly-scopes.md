@@ -86,7 +86,7 @@ tags:
 - Digital Credentials
 - Open Badges
 - Badging
-- Certifications
+- Certification
 - Verifiable Credentials
 - Pearson
 token_urls:

@@ -315,7 +315,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicetitan/r
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Field Service Management
-- Trades
+- Trade
 - HVAC
 - Plumbing
 - Electrical
@@ -325,7 +325,7 @@ tags:
 - Accounting
 - Pricebook
 - Marketing
-- Memberships
+- Membership
 - Webhook
 token_urls:
 - https://auth.servicetitan.io/connect/token

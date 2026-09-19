@@ -66,7 +66,7 @@ tags:
 - Cosmetics
 - K-Beauty
 - Skincare
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 token_urls:
 - https://shopify.com/authentication/9377939535/oauth/token

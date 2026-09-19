@@ -66,8 +66,8 @@ tags:
 - Subscription
 - Retail
 - Shopify
-- Agent Commerce
-- UCP
+- Agentic Commerce
+- Universal Commerce Protocol
 token_urls:
 - https://account.candyclub.com/authentication/oauth/token
 ---

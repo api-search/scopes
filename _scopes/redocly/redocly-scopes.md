@@ -1,29 +1,53 @@
 ---
 api_specs:
-- filename: redocly-search-api-openapi.yaml
+- filename: redocly-health-api-openapi.yml
   format: yaml
-  label: Redocly Realm Search API
+  label: Redocly Health API
+  slug: redocly-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-health-api-openapi.yml
+- filename: redocly-metadata-api-openapi.yml
+  format: yaml
+  label: Redocly Metadata API
+  slug: redocly-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-metadata-api-openapi.yml
+- filename: redocly-remotes-api-openapi.yml
+  format: yaml
+  label: Redocly Remotes API
+  slug: redocly-remotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-remotes-api-openapi.yml
+- filename: redocly-search-api-openapi.yml
+  format: yaml
+  label: Redocly Search API
   slug: redocly-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-search-api-openapi.yaml
-- filename: redocly-docs-mcp-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-search-api-openapi.yml
+- filename: redocly-status-api-openapi.yml
   format: yaml
-  label: Redocly Docs MCP Server
-  slug: redocly-docs-mcp
+  label: Redocly Status API
+  slug: redocly-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-docs-mcp-openapi.yaml
-- filename: redocly-scout-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-status-api-openapi.yml
+- filename: redocly-tasks-api-openapi.yml
   format: yaml
-  label: Redocly Scout API
-  slug: redocly-scout
+  label: Redocly Tasks API
+  slug: redocly-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-scout-openapi.yaml
-- filename: redocly-scout-agent-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-tasks-api-openapi.yml
+- filename: redocly-webhooks-api-openapi.yml
   format: yaml
-  label: Redocly Scout Agent API
-  slug: redocly-scout-agent
+  label: Redocly Webhooks API
+  slug: redocly-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-scout-agent-openapi.yaml
+  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-webhooks-api-openapi.yml
+- filename: redocly-to-dos-api-openapi.yml
+  format: yaml
+  label: Redocly To Dos API
+  slug: redocly-to-dos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/openapi/redocly-to-dos-api-openapi.yml
 authorization_urls:
 - https://{projectHost}/_mcp/oauth2/auth
 description: 'Redocly''s OAuth 2.0 authorization-code flow for the Docs MCP server declares an EMPTY scopes object: authorization is not carried by OAuth scopes at all. Access is decided by Redocly''s RBAC engine — the same teams and roles that gate the portal gate the MCP server and the API descriptions it serves. The nearest thing to a published scope vocabulary is the API-key permission model, which is a UI-selected list of organization and project permissions typed read / write / delete, and Redocly does not publish that list as machine-readable identifiers.'

@@ -260,7 +260,7 @@ summary_line: 38 scopes
 tags:
 - Automotive
 - Connected Car
-- Connected Vehicle
+- Connected Vehicles
 - Daimler
 - Fleet Management
 - Mercedes me

@@ -612,12 +612,6 @@ api_specs:
   slug: atlassian-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-properties-api-openapi.yml
-- filename: atlassian-pullrequests-api-openapi.yml
-  format: yaml
-  label: Atlassian Pullrequests API
-  slug: atlassian-pullrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-pullrequests-api-openapi.yml
 - filename: atlassian-pullrequests-commit-statuses-api-openapi.yml
   format: yaml
   label: Atlassian Pullrequests - Commit Statuses API
@@ -864,6 +858,12 @@ api_specs:
   slug: atlassian-workspaces-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-workspaces-webhooks-api-openapi.yml
+- filename: atlassian-pull-requests-api-openapi.yml
+  format: yaml
+  label: Atlassian Pull Requests API
+  slug: atlassian-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/openapi/atlassian-pull-requests-api-openapi.yml
 authorization_urls:
 - https://auth.atlassian.com/authorize
 - https://bitbucket.org/site/oauth2/authorize
@@ -2403,6 +2403,7 @@ tags:
 - Platform
 - Productivity
 - Software Development
+- Atlassian
 token_urls:
 - https://auth.atlassian.com/oauth/token
 - https://bitbucket.org/site/oauth2/access_token

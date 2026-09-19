@@ -98,7 +98,7 @@ tags:
 - Sales Automation
 - Leads
 - Deals
-- Pipeline
+- Pipelines
 - Customer Experience
 token_urls:
 - https://api.getbase.com/oauth2/token

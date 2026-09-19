@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/payloci
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/scopes/paylocity-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
-- HR
+- Human Resources
 - Payroll
 - HCM
 - Benefits

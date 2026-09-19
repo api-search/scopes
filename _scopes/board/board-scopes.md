@@ -63,7 +63,7 @@ tags:
 - Commerce
 - E-Commerce
 - Board Games
-- Agent Commerce
+- Agentic Commerce
 - Universal Commerce Protocol
 - Shopify
 - MCP

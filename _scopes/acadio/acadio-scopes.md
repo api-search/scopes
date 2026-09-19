@@ -36,7 +36,7 @@ tags:
 - Certification
 - Exam Preparation
 - SCORM
-- Webhooks
+- Webhook
 - Agentic Commerce
 token_urls: []
 ---

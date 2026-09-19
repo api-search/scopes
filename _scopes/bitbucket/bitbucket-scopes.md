@@ -72,12 +72,6 @@ api_specs:
   slug: bitbucket-properties-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-properties-api-openapi.yml
-- filename: bitbucket-pullrequests-api-openapi.yml
-  format: yaml
-  label: Bitbucket Pullrequests API
-  slug: bitbucket-pullrequests-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-pullrequests-api-openapi.yml
 - filename: bitbucket-refs-api-openapi.yml
   format: yaml
   label: Bitbucket Refs API
@@ -138,6 +132,12 @@ api_specs:
   slug: bitbucket-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-workspaces-api-openapi.yml
+- filename: bitbucket-pull-requests-api-openapi.yml
+  format: yaml
+  label: Bitbucket Pull Requests API
+  slug: bitbucket-pull-requests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-pull-requests-api-openapi.yml
 authorization_urls:
 - https://bitbucket.org/site/oauth2/authorize
 description: ''
@@ -316,11 +316,13 @@ tags:
 - CI/CD
 - Code Collaboration
 - Code Review
+- Developer Tools
 - DevOps
 - Git
 - Pull Requests
 - Repository Hosting
 - Version Control
+- Bitbucket
 token_urls:
 - https://bitbucket.org/site/oauth2/access_token
 ---

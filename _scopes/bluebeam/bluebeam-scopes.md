@@ -77,7 +77,11 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bluebeam-studio-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/bluebeam-studio-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://authserver.bluebeam.com/auth/oauth/authorize\n    tokenUrl: https://authserver.bluebeam.com/auth/oauth/token\nscopes:\n- scope: full\n  description: Full access to Bluebeam Studio API\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bluebeam-studio-openapi.yml\n- scope: jobs.create\n  description: Create and manage sessions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bluebeam-studio-openapi.yml\n- scope: jobs.read\n  description: Read session data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bluebeam-studio-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluebeam/refs/heads/main/scopes/bluebeam-scopes.yml
 summary_line: 3 scopes · authorizationCode
-tags: []
+tags:
+- Construction
+- PDF
+- Project Management
+- Documents
 token_urls:
 - https://authserver.bluebeam.com/auth/oauth/token
 ---

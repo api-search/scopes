@@ -143,7 +143,7 @@ tags:
 - Image
 - Creative
 - Moodboards
-- Artificial Intelligence (AI)
+- Artificial Intelligence
 token_urls:
 - https://savee.com/api/oauth/token/
 ---

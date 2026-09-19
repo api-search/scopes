@@ -32,7 +32,6 @@ tags:
 - Health
 - Healthcare
 - Telehealth
-- Telemedicine
 - Functional Medicine
 - Primary Care
 - Wellness

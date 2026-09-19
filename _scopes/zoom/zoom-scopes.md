@@ -245,7 +245,7 @@ tags:
 - Communications
 - Meetings
 - Video Conferencing
-- Videos
+- Video
 - Webinars
 token_urls:
 - https://zoom.us/oauth/token

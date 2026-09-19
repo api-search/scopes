@@ -68,7 +68,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Benefits
 - HCM
-- HR
+- Human Resources
 - Paychex Flex
 - Payroll
 - Time and Attendance

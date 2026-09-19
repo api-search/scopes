@@ -233,7 +233,7 @@ summary_line: 6 scopes
 tags:
 - Sales
 - Revenue Intelligence
-- Conversation
+- Conversations
 - Analytics
 - Artificial Intelligence
 - Conversation Intelligence

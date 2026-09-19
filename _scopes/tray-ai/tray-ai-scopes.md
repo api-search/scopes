@@ -72,6 +72,24 @@ api_specs:
   slug: tray-ai-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workspaces-api-openapi.yml
+- filename: tray-ai-agent-groups-api-openapi.yml
+  format: yaml
+  label: Tray.ai Agent Groups API
+  slug: tray-ai-agent-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-agent-groups-api-openapi.yml
+- filename: tray-ai-agent-instances-api-openapi.yml
+  format: yaml
+  label: Tray.ai Agent Instances API
+  slug: tray-ai-agent-instances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-agent-instances-api-openapi.yml
+- filename: tray-ai-permissions-api-openapi.yml
+  format: yaml
+  label: Tray.ai Permissions API
+  slug: tray-ai-permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-permissions-api-openapi.yml
 authorization_urls: []
 description: 'Tray''s OAuth 2.0 scope surface, read verbatim from the RFC 8414 authorization server metadata served at https://api.tray.io/.well-known/oauth-authorization-server (HTTP 200, probed 2026-09-02). These scopes govern the remote MCP server at https://api.tray.io/mcp — Tray''s REST Platform API and GraphQL Embedded API do NOT use OAuth: they take a master or user bearer token and have no scope model. Scope DESCRIPTIONS below are inferred from the scope names and the WWW-Authenticate challenge on the MCP endpoint; Tray publishes no scope reference page.'
 docs: https://tray.ai/documentation/platform/artificial-intelligence/agent-gateway/authentication-and-access
@@ -108,11 +126,10 @@ tags:
 - AI Agents
 - MCP
 - Orchestration
-- Workflow Automation
+- Workflow-Automation
 - Connectors
 - Agent Gateway
 - Embedded Integration
 - Enterprise Automation
-- Model Context Protocol
 token_urls: []
 ---

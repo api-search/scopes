@@ -141,6 +141,7 @@ tags:
 - Open Data
 - Geocoding
 - Editing
+- OpenStreetMap
 token_urls:
 - https://www.openstreetmap.org/oauth2/token
 ---

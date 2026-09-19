@@ -106,7 +106,7 @@ tags:
 - Fintech
 - Digital Retail
 - Auto Finance
-- Dealerships
+- Dealership
 - Sales Enablement
 - Software-as-a-Service
 - Lending

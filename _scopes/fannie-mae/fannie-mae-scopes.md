@@ -32,7 +32,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Federal-Government
 - Housing
-- Mortgages
+- Mortgage
 - Finance
 - GSE
 - Fortune 100

@@ -87,6 +87,7 @@ tags:
 - Identity
 - Authentication
 - Software-as-a-Service
+- Identity Federation
 token_urls:
 - https://app.easywebinar.com/oauth/token/
 ---

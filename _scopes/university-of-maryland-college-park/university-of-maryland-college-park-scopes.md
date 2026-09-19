@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: university-of-maryland-college-park-libraries-website-tools-openapi.yml
+- filename: university-of-maryland-college-park-art-api-openapi.yml
   format: yaml
-  label: UMD Libraries Website Tools API
-  slug: libraries-website-tools
+  label: University of Maryland College Park Art API
+  slug: university-of-maryland-college-park-art-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-libraries-website-tools-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-art-api-openapi.yml
+- filename: university-of-maryland-college-park-makerspace-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Makerspace API
+  slug: university-of-maryland-college-park-makerspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-makerspace-api-openapi.yml
+- filename: university-of-maryland-college-park-mckeldin-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Mckeldin API
+  slug: university-of-maryland-college-park-mckeldin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-mckeldin-api-openapi.yml
+- filename: university-of-maryland-college-park-mspal-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Mspal API
+  slug: university-of-maryland-college-park-mspal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-mspal-api-openapi.yml
+- filename: university-of-maryland-college-park-stem-api-openapi.yml
+  format: yaml
+  label: University of Maryland College Park Stem API
+  slug: university-of-maryland-college-park-stem-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/university-of-maryland-college-park/refs/heads/main/openapi/university-of-maryland-college-park-stem-api-openapi.yml
 authorization_urls: []
 description: Scope inventory for the University of Maryland's institution-operated API surfaces. There are no scopes to inventory. The library and repository surfaces are keyless and read-only, so authorisation there is all-or-nothing at the endpoint rather than partitioned by scope; the one credentialed surface, the campus Enterprise GIS, gates access with an ArcGIS token whose privileges come from a UMD Portal account role, which is not a scope either. This record exists so the absence is a measured finding rather than an untested assumption.
 docs: ''

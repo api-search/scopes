@@ -12,18 +12,18 @@ api_specs:
   slug: microsoft-entra-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-groups-api-openapi.yml
-- filename: microsoft-entra-serviceprincipals-api-openapi.yml
-  format: yaml
-  label: Microsoft Entra ServicePrincipals API
-  slug: microsoft-entra-serviceprincipals-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-serviceprincipals-api-openapi.yml
 - filename: microsoft-entra-users-api-openapi.yml
   format: yaml
   label: Microsoft Entra Users API
   slug: microsoft-entra-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-users-api-openapi.yml
+- filename: microsoft-entra-service-principals-api-openapi.yml
+  format: yaml
+  label: Microsoft Entra Service Principals API
+  slug: microsoft-entra-service-principals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-service-principals-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -144,6 +144,7 @@ tags:
 - Network Security
 - Security
 - Zero Trust
+- Identity Federation
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 - https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token

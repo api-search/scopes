@@ -78,7 +78,7 @@ tags:
 - SLA
 - SLS
 - Hardware
-- Dashboard
+- Dashboards
 token_urls:
 - https://api.formlabs.com/developer/v1/o/token/
 ---

@@ -72,7 +72,7 @@ tags:
 - Deployment
 - DevOps
 - Kubernetes
-- Pipeline
+- Pipelines
 - Release Management
 token_urls:
 - https://oauth2.googleapis.com/token

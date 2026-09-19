@@ -44,7 +44,7 @@ tags:
 - Venture Capital
 - Startups
 - Company Data
-- Investors
+- Investor
 - Funding
 token_urls: []
 ---

@@ -32,12 +32,12 @@ tags:
 - Company
 - Beauty
 - Personal Care
-- Haircare
+- Hair Care
 - Consumer Products
 - E-Commerce
 - Retail
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - South Korea
 token_urls: []
 ---

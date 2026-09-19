@@ -137,7 +137,7 @@ summary_line: 11 scopes · clientCredentials/authorizationCode
 tags:
 - Access Governance
 - Compliance
-- IAM
+- Identity and Access Management
 - Identity Management
 - Identity Security
 - Security

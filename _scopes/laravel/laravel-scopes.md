@@ -610,7 +610,7 @@ tags:
 - Server Management
 - Application Hosting
 - Infrastructure
-- Frameworks
+- Framework
 - Monitoring
 token_urls:
 - https://forge.laravel.com/oauth/token

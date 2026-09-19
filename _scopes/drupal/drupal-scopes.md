@@ -70,20 +70,62 @@ overview: 'Drupal publishes 2 OAuth 2.0 scopes via the authorizationCode flow. S
 provider_name: Drupal
 provider_slug: drupal
 schemes:
-- description: OAuth 2.0 via the Simple OAuth module.
-  flows:
-  - authorizationUrl: https://example.com/oauth/authorize
-    flow: authorizationCode
-    tokenUrl: https://example.com/oauth/token
-  name: oAuth2
-  source: openapi/drupal-jsonapi-openapi.yml
 - description: OAuth 2.0 authentication via the Simple OAuth module.
   flows:
   - authorizationUrl: https://example.com/oauth/authorize
     flow: authorizationCode
     tokenUrl: https://example.com/oauth/token
   name: oAuth2
-  source: openapi/drupal-rest-api-openapi.yml
+  source: openapi/drupal-comments-api-openapi.yml
+- description: OAuth 2.0 via the Simple OAuth module.
+  flows:
+  - authorizationUrl: https://example.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://example.com/oauth/token
+  name: oAuth2
+  source: openapi/drupal-files-api-openapi.yml
+- description: OAuth 2.0 via the Simple OAuth module.
+  flows:
+  - authorizationUrl: https://example.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://example.com/oauth/token
+  name: oAuth2
+  source: openapi/drupal-node-articles-api-openapi.yml
+- description: OAuth 2.0 via the Simple OAuth module.
+  flows:
+  - authorizationUrl: https://example.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://example.com/oauth/token
+  name: oAuth2
+  source: openapi/drupal-node-pages-api-openapi.yml
+- description: OAuth 2.0 authentication via the Simple OAuth module.
+  flows:
+  - authorizationUrl: https://example.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://example.com/oauth/token
+  name: oAuth2
+  source: openapi/drupal-nodes-api-openapi.yml
+- description: OAuth 2.0 via the Simple OAuth module.
+  flows:
+  - authorizationUrl: https://example.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://example.com/oauth/token
+  name: oAuth2
+  source: openapi/drupal-taxonomy-terms-api-openapi.yml
+- description: OAuth 2.0 authentication via the Simple OAuth module.
+  flows:
+  - authorizationUrl: https://example.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://example.com/oauth/token
+  name: oAuth2
+  source: openapi/drupal-taxonomy-vocabularies-api-openapi.yml
+- description: OAuth 2.0 via the Simple OAuth module.
+  flows:
+  - authorizationUrl: https://example.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://example.com/oauth/token
+  name: oAuth2
+  source: openapi/drupal-users-api-openapi.yml
 scope_count: 2
 scope_names:
 - content
@@ -101,11 +143,23 @@ slug: drupal-scopes
 source_filename: drupal-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/drupal-jsonapi-openapi.yml, openapi/drupal-rest-api-openapi.yml\nschemes:\n- name: oAuth2\n  source: openapi/drupal-jsonapi-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-rest-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 authentication via the Simple OAuth module.\nscopes:\n- scope: content\n  description: Access and manage content entities\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/drupal-jsonapi-openapi.yml\n  - openapi/drupal-rest-api-openapi.yml\n- scope: user\n  description: Access and manage user entities\n  flows:\n  - authorizationCode\n  sources:\n  -\
-  \ openapi/drupal-jsonapi-openapi.yml\n  - openapi/drupal-rest-api-openapi.yml\n"
+source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/drupal-comments-api-openapi.yml, openapi/drupal-files-api-openapi.yml, openapi/drupal-node-articles-api-openapi.yml,\n  openapi/drupal-node-pages-api-openapi.yml, openapi/drupal-nodes-api-openapi.yml, openapi/drupal-taxonomy-terms-api-openapi.yml,\n  openapi/drupal-taxonomy-vocabularies-api-openapi.yml, openapi/drupal-users-api-openapi.yml\nschemes:\n- name: oAuth2\n  source: openapi/drupal-comments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 authentication via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-files-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-node-articles-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-node-pages-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-nodes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 authentication via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-taxonomy-terms-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 via the\
+  \ Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-taxonomy-vocabularies-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 authentication via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 via the Simple OAuth module.\nscopes:\n- scope: content\n  description: Access and manage content entities\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/drupal-comments-api-openapi.yml\n  - openapi/drupal-files-api-openapi.yml\n  - openapi/drupal-node-articles-api-openapi.yml\n  - openapi/drupal-node-pages-api-openapi.yml\n  - openapi/drupal-nodes-api-openapi.yml\n  - openapi/drupal-taxonomy-terms-api-openapi.yml\n  - openapi/drupal-taxonomy-vocabularies-api-openapi.yml\n\
+  \  - openapi/drupal-users-api-openapi.yml\n- scope: user\n  description: Access and manage user entities\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/drupal-comments-api-openapi.yml\n  - openapi/drupal-files-api-openapi.yml\n  - openapi/drupal-node-articles-api-openapi.yml\n  - openapi/drupal-node-pages-api-openapi.yml\n  - openapi/drupal-nodes-api-openapi.yml\n  - openapi/drupal-taxonomy-terms-api-openapi.yml\n  - openapi/drupal-taxonomy-vocabularies-api-openapi.yml\n  - openapi/drupal-users-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/scopes/drupal-scopes.yml
 summary_line: 2 scopes · authorizationCode
-tags: []
+tags:
+- Content Management
+- CMS
+- Open-Source
+- JSON:API
+- GraphQL
+- Headless
+- PHP
+- Self-Hosted
+- Publishing
+- Digital Experience
 token_urls:
 - https://example.com/oauth/token
 ---

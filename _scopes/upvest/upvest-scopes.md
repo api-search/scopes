@@ -343,7 +343,7 @@ summary_line: 18 scopes · clientCredentials
 tags:
 - Banking Infrastructure
 - Fintech
-- Investments
+- Investment
 - Securities
 - Fractional Investing
 - Custody

@@ -6,42 +6,6 @@ api_specs:
   slug: websocket-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-websocket-asyncapi.yml
-- filename: polygon-aggregates-api-openapi.yml
-  format: yaml
-  label: Polygon Aggregates API
-  slug: polygon-aggregates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-aggregates-api-openapi.yml
-- filename: polygon-books-api-openapi.yml
-  format: yaml
-  label: Polygon Books API
-  slug: polygon-books-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-books-api-openapi.yml
-- filename: polygon-contracts-api-openapi.yml
-  format: yaml
-  label: Polygon Contracts API
-  slug: polygon-contracts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-contracts-api-openapi.yml
-- filename: polygon-conversion-api-openapi.yml
-  format: yaml
-  label: Polygon Conversion API
-  slug: polygon-conversion-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-conversion-api-openapi.yml
-- filename: polygon-corporateactions-api-openapi.yml
-  format: yaml
-  label: Polygon CorporateActions API
-  slug: polygon-corporateactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-corporateactions-api-openapi.yml
-- filename: polygon-dailybars-api-openapi.yml
-  format: yaml
-  label: Polygon DailyBars API
-  slug: polygon-dailybars-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-dailybars-api-openapi.yml
 - filename: polygon-markets-api-openapi.yml
   format: yaml
   label: Polygon Markets API
@@ -54,18 +18,6 @@ api_specs:
   slug: polygon-news-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-news-api-openapi.yml
-- filename: polygon-quotes-api-openapi.yml
-  format: yaml
-  label: Polygon Quotes API
-  slug: polygon-quotes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-quotes-api-openapi.yml
-- filename: polygon-snapshots-api-openapi.yml
-  format: yaml
-  label: Polygon Snapshots API
-  slug: polygon-snapshots-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-snapshots-api-openapi.yml
 - filename: polygon-tickers-api-openapi.yml
   format: yaml
   label: Polygon Tickers API
@@ -426,6 +378,48 @@ api_specs:
   slug: polygon-us-stocks-reference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-us-stocks-reference-api-openapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Stocks API
+  slug: polygonio-stocks-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Options API
+  slug: polygonio-options-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Indices API
+  slug: polygonio-indices-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Forex API
+  slug: polygonio-forex-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Crypto API
+  slug: polygonio-crypto-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-io-asyncapi.yml
+  format: yaml
+  label: Polygon.io Futures API
+  slug: polygonio-futures-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/asyncapi/polygon-io-asyncapi.yml
+- filename: polygon-corporate-actions-api-openapi.yml
+  format: yaml
+  label: Polygon Corporate Actions API
+  slug: polygon-corporate-actions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/openapi/polygon-corporate-actions-api-openapi.yml
 authorization_urls:
 - https://auth.massive.com/oauth2/auth
 description: ''
@@ -439,14 +433,14 @@ method: searched
 name: Polygon Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Polygon publishes 6 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Polygon API on a user''s behalf.
+overview: 'Massive (formerly Polygon.io) publishes 6 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Massive (formerly Polygon.io) API on a user''s behalf.
 
 
   Tokens are issued from https://auth.massive.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: Polygon
+provider_name: Massive (formerly Polygon.io)
 provider_slug: polygon
 schemes:
 - bearer_methods:
@@ -506,7 +500,7 @@ tags:
 - Crypto
 - Indices
 - Futures
-- WebSockets
+- WebSocket
 - Real-Time
 - Historical
 - Public APIs

@@ -68,7 +68,7 @@ tags:
 - Agentic Commerce
 - Shopify
 - MCP
-- UCP
+- Universal Commerce Protocol
 token_urls:
 - https://account.shoptiques.com/authentication/oauth/token
 ---

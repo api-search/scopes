@@ -67,7 +67,7 @@ tags:
 - Artificial Intelligence
 - Computer-Vision
 - Monitoring
-- Internet of Things
+- IoT
 - Commerce
 token_urls:
 - https://account.deepsentinel.com/authentication/oauth/token

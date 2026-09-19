@@ -90,7 +90,7 @@ tags:
 - Patient Engagement
 - Authentication
 - FHIR
-- Telemedicine
+- Telehealth
 - Germany
 token_urls:
 - https://patient.samedi.de/oauth/token

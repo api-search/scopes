@@ -36,6 +36,18 @@ api_specs:
   slug: cms-energy-outage-map-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-outage-map-api-openapi.yml
+- filename: cms-energy-catalog-api-openapi.yml
+  format: yaml
+  label: CMS Energy Catalog API
+  slug: cms-energy-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-catalog-api-openapi.yml
+- filename: cms-energy-service-dashboard-api-openapi.yml
+  format: yaml
+  label: CMS Energy Service Dashboard API
+  slug: cms-energy-service-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-service-dashboard-api-openapi.yml
 authorization_urls: []
 description: Authorization scope reference for the Consumers Energy Green Button Connect My Data program. Green Button does not use OAuth scope as a flat list of strings — the scope value is a semicolon-separated parameter string whose required `FB` member is an underscore-joined list of ESPI Function Blocks. Recorded here as the provider documents it, not flattened into pseudo-scopes.
 docs: https://utilityapi.com/docs/greenbutton/scope

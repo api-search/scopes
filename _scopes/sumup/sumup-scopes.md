@@ -169,7 +169,7 @@ summary_line: 10 scopes · authorizationCode/clientCredentials
 tags:
 - Payments
 - Point-of-Sale
-- Card Readers
+- Card Reader
 - Checkout
 - Fintech
 - Mobile Payments

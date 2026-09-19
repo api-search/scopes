@@ -155,7 +155,8 @@ tags:
 - Evidence of Insurability
 - ACA Reporting
 - Eligibility
-- Single Sign-On
+- SSO
+- Identity Federation
 token_urls:
 - https://api.plansource.com/oauth/v2/token
 - https://api.plansource.com/sso/oauth2/token

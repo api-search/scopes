@@ -261,6 +261,10 @@ source_yaml: "generated: '2026-07-14'\nmethod: searched\nsource: https://develop
   \ schemes: [Braintree OAuth]}\n  - {scope: 'dispute:accept', description: 'Accept a dispute.', schemes: [Braintree OAuth]}\n  - {scope: 'dispute:finalize', description: 'Finalize a dispute.', schemes: [Braintree OAuth]}\n  - {scope: 'dispute:add_evidence', description: 'Add evidence to a dispute.', schemes: [Braintree OAuth]}\n  - {scope: 'dispute:remove_evidence', description: 'Remove evidence from a dispute.', schemes: [Braintree OAuth]}\n  - {scope: 'client_token:generate', description: 'Generate client tokens for client SDK initialization.', schemes: [Braintree OAuth]}\n  - {scope: 'credit_card_verification:search', description: 'Search credit card verifications.', schemes: [Braintree OAuth]}\n  - {scope: 'credit_card:expiring_between', description: 'Find credit cards expiring within a date range.', schemes: [Braintree OAuth]}\n  - {scope: 'apple_pay:manage_web_domains', description: 'Manage registered Apple Pay web domains.', schemes: [Braintree OAuth]}\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/scopes/braintree-scopes.yml
 summary_line: 40 scopes
-tags: []
+tags:
+- Payments
+- Transaction
+- Mobile
+- Subscription
 token_urls: []
 ---

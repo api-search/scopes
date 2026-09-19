@@ -38,6 +38,6 @@ tags:
 - Museums
 - Tourism
 - Retail
-- Mobile Apps
+- Mobile App
 token_urls: []
 ---

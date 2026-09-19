@@ -64,7 +64,7 @@ tags:
 - Fiber
 - Infrastructure
 - Internet
-- Network
+- Networks
 - Networking
 - Security
 - Telecom

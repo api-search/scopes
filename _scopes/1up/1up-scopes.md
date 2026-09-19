@@ -63,12 +63,12 @@ tags:
 - Company
 - Artificial Intelligence
 - Sales Enablement
-- Knowledge Management
+- Knowledge-Management
 - RFP Automation
 - Security Questionnaires
-- Model Context Protocol
+- MCP
 - Agents
-- SaaS
+- Software-as-a-Service
 - Revenue Operations
 token_urls:
 - https://mcp.1up.ai/token

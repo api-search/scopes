@@ -70,7 +70,17 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/majesco-policy-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/majesco-policy-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.majesco.example.com/oauth2/token\nscopes:\n- scope: read\n  description: Read access to policies, claims, and billing\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/majesco-policy-openapi.yml\n- scope: write\n  description: Write access for policy and claim operations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/majesco-policy-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/scopes/majesco-scopes.yml
 summary_line: 2 scopes · clientCredentials
-tags: []
+tags:
+- Insurance
+- Insurtech
+- Policy Administration
+- Claims
+- Billing
+- Underwriting
+- Life and Annuity
+- Property and Casualty
+- Absence Management
+- Enterprise Software
 token_urls:
 - https://auth.majesco.example.com/oauth2/token
 ---

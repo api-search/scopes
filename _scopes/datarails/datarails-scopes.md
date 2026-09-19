@@ -6,12 +6,6 @@ api_specs:
   slug: datarails-health-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-health-api-openapi.yml
-- filename: datarails-oauth-api-openapi.yml
-  format: yaml
-  label: Datarails OAUTH API
-  slug: datarails-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
 - filename: datarails-ready-api-openapi.yml
   format: yaml
   label: Datarails Ready API
@@ -24,6 +18,12 @@ api_specs:
   slug: datarails-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-well-known-api-openapi.yml
+- filename: datarails-oauth-api-openapi.yml
+  format: yaml
+  label: Datarails OAUTH API
+  slug: datarails-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
 authorization_urls:
 - https://mcp.datarails.com/authorize
 description: Datarails publishes exactly one OAuth scope. The FinanceOS MCP authorization server advertises scopes_supported ["datarails"] in both its RFC 8414 and its OIDC discovery documents — a single coarse scope that grants an agent the caller's whole readable FinanceOS surface. There is no read/write split, no per-table scope and no per-tool scope; granularity is delegated entirely to the tenant's in-app permission model and to per-tenant feature flags.

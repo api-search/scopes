@@ -249,8 +249,10 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/he
 summary_line: 25 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Code
+- Developer Tools
 - Platform
 - Software Development
 - Source Control
+- GitLab
 token_urls: []
 ---

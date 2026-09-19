@@ -24,24 +24,24 @@ api_specs:
   slug: synthflow-mcp-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-mcp-api-openapi.yml
-- filename: synthflow-memorystores-api-openapi.yml
+- filename: synthflow-memory-stores-api-openapi.yml
   format: yaml
   label: Synthflow Memory Stores API
-  slug: synthflow-memorystores-api
+  slug: synthflow-memory-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-memorystores-api-openapi.yml
-- filename: synthflow-phonenumbers-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-memory-stores-api-openapi.yml
+- filename: synthflow-phone-numbers-api-openapi.yml
   format: yaml
   label: Synthflow Phone Numbers API
-  slug: synthflow-phonenumbers-api
+  slug: synthflow-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phonenumbers-api-openapi.yml
-- filename: synthflow-webhooklogs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phone-numbers-api-openapi.yml
+- filename: synthflow-webhook-logs-api-openapi.yml
   format: yaml
   label: Synthflow Webhook Logs API
-  slug: synthflow-webhooklogs-api
+  slug: synthflow-webhook-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-webhooklogs-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-webhook-logs-api-openapi.yml
 authorization_urls:
 - https://kind-prelude-27.authkit.app/oauth2/authorize
 description: OAuth scopes reachable on the Synthflow estate. These belong to the MCP surface only — the REST Platform API declares no oauth2 security scheme and has no scope model at all (a single bearer API key carries full workspace authority). The scopes below are the IDENTITY scopes advertised by Synthflow's delegated authorization server; they are not Synthflow capability scopes, and no per-tool or per-resource scope is published.
@@ -138,7 +138,7 @@ tags:
 - Agent Skills
 - Conversational AI
 - SIP
-- Simulations
+- Simulation
 - Knowledge Base
 token_urls:
 - https://kind-prelude-27.authkit.app/oauth2/token

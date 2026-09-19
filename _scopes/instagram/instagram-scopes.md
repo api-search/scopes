@@ -200,7 +200,7 @@ tags:
 - Meta
 - Photos
 - Social-Media
-- Videos
+- Video
 - Content Publishing
 token_urls:
 - https://graph.facebook.com/oauth/access_token

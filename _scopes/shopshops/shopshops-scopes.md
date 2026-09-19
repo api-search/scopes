@@ -65,7 +65,7 @@ tags:
 - Marketplace
 - Live Shopping
 - Luxury Resale
-- Agent Commerce
+- Agentic Commerce
 - Shopify
 token_urls:
 - https://shopify.com/authentication/59001897017/oauth/token

@@ -12,12 +12,12 @@ api_specs:
   slug: google-cloud-build-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/openapi/google-cloud-build-triggers-api-openapi.yml
-- filename: google-cloud-build-workerpools-api-openapi.yml
+- filename: google-cloud-build-worker-pools-api-openapi.yml
   format: yaml
-  label: Google Cloud Build WorkerPools API
-  slug: google-cloud-build-workerpools-api
+  label: Google Cloud Build Worker Pools API
+  slug: google-cloud-build-worker-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/openapi/google-cloud-build-workerpools-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/openapi/google-cloud-build-worker-pools-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -67,6 +67,7 @@ tags:
 - Container Build
 - Continuous Delivery
 - Continuous Integration
+- Developer Tools
 - DevOps
 token_urls:
 - https://oauth2.googleapis.com/token

@@ -61,7 +61,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - Wine
-- Beverage
+- Beverages
 - Consumer Products
 - E-Commerce
 - Shopify

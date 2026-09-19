@@ -379,7 +379,7 @@ tags:
 - Data Governance
 - SQL
 - Apache Iceberg
-- Model Context Protocol
+- MCP
 - T1
 token_urls:
 - https://org-account.snowflakecomputing.com/oauth/token-request

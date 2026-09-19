@@ -156,7 +156,7 @@ tags:
 - AdTech
 - Realize
 - Backstage
-- Recommendation
+- Recommendations
 - Publishers
 - Programmatic
 token_urls: []

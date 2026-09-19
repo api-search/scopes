@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: scanverity-resolution-api-openapi.json
-  format: json
-  label: Scanverity Resolution API
-  slug: scanverity-resolution-api
+- filename: scanverity-resolution-api-resolution-assessments-api-openapi.yml
+  format: yaml
+  label: Scanverity Resolution API Resolution assessments API
+  slug: scanverity-resolution-api-resolution-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scanverity-resolution-api/refs/heads/main/openapi/scanverity-resolution-api-openapi.json
+  url: https://raw.githubusercontent.com/api-evangelist/scanverity-resolution-api/refs/heads/main/openapi/scanverity-resolution-api-resolution-assessments-api-openapi.yml
+- filename: scanverity-resolution-api-resolution-usage-api-openapi.yml
+  format: yaml
+  label: Scanverity Resolution API Resolution usage API
+  slug: scanverity-resolution-api-resolution-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scanverity-resolution-api/refs/heads/main/openapi/scanverity-resolution-api-resolution-usage-api-openapi.yml
+- filename: scanverity-resolution-api-webhook-endpoints-api-openapi.yml
+  format: yaml
+  label: Scanverity Resolution API Webhook endpoints API
+  slug: scanverity-resolution-api-webhook-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/scanverity-resolution-api/refs/heads/main/openapi/scanverity-resolution-api-webhook-endpoints-api-openapi.yml
 authorization_urls: []
 description: 'Four named, deny-by-default scopes bound to the opaque bearer token at issue time. IMPORTANT -- this is NOT OAuth 2.0: the API declares a single http/bearer security scheme, there is no authorization server, no /token endpoint, no consent screen and no scope negotiation. The scopes are recorded here because they are real, documented and gate individual operations; the canonical OAuthScopes pointer is used because it is the catalog''s scope-reference type, not because an OAuth flow exists.'
 docs: https://scanverity.com/resolution-api/docs
@@ -40,7 +52,7 @@ tags:
 - Resolution Risk
 - Market Intelligence
 - Due Diligence
-- Webhooks
+- Webhook
 - OpenAPI
 - Fintech
 - Risk Analytics
