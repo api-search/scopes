@@ -5397,6 +5397,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: openapi/canvas-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/scopes/canvas-scopes.yml
 summary_line: 1117 scopes · authorizationCode
 tags:
+- Canvas
 - Education
 - EdTech
 - GraphQL

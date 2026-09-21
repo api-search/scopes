@@ -390,6 +390,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/discord-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/scopes/discord-scopes.yml
 summary_line: 33 scopes · implicit/clientCredentials/authorizationCode
 tags:
+- Discord
 - Chat
 - Communications
 - Gaming

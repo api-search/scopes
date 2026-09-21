@@ -596,8 +596,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/square-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/scopes/square-scopes.yml
 summary_line: 58 scopes · authorizationCode
 tags:
-- Restaurant
 - Booking
+- Location
+- Square
+- Restaurant
 - Catalog
 - Checkout
 - Customers
@@ -608,7 +610,6 @@ tags:
 - Inventory
 - Invoicing
 - Labor
-- Location
 - Loyalty
 - Merchants
 - Order

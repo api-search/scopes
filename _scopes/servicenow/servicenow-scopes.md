@@ -177,6 +177,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\ndocs: https://www.servic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/scopes/servicenow-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
+- ServiceNow
 - Automation
 - Cloud Services
 - Digital Workflows

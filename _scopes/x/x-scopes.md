@@ -289,6 +289,9 @@ source_yaml: "generated: '2026-08-28'\nmethod: searched\nsource: openapi/_origin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/scopes/x-scopes.yml
 summary_line: 29 scopes
 tags:
+- Space
+- Conversations
+- X
 - Social
 - Social-Media
 - Posts
@@ -299,9 +302,7 @@ tags:
 - Real-Time
 - Trends
 - Media
-- Space
 - Content
-- Conversations
 - Agents
 - MCP
 token_urls: []

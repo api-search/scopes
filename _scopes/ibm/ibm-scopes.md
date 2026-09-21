@@ -111,13 +111,14 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: https://iam.clo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/scopes/ibm-scopes.yml
 summary_line: 7 scopes
 tags:
+- Database
+- IBM
 - API Management
 - Artificial Intelligence
 - Billing
 - Cloud Computing
 - Containers
 - Data Governance
-- Database
 - DevOps
 - Enterprise
 - Generative AI

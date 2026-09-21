@@ -536,5 +536,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/h
 summary_line: 24 scopes
 tags:
 - Tax
+- Avalara
 token_urls: []
 ---

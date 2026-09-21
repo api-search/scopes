@@ -163,11 +163,12 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: https://starlin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/scopes/starlink-scopes.yml
 summary_line: 5 scopes · clientCredentials
 tags:
+- Non-Terrestrial Network
+- Starlink
 - Telecommunications
 - United States
 - Satellite
 - Broadband
-- Non-Terrestrial Network
 - Connectivity
 - Device Management
 - Telemetry

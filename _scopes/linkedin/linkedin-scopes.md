@@ -536,6 +536,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/linkedin
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/scopes/linkedin-scopes.yml
 summary_line: 7 scopes · authorizationCode/clientCredentials
 tags:
+- LinkedIn
 - Business
 - Careers
 - Marketing

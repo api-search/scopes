@@ -144,6 +144,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sap-ai-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/scopes/sap-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
+- SAP
 - Artificial Intelligence
 - BTP
 - Business Applications

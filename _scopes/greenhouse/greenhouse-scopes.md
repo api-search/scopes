@@ -136,12 +136,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/greenho
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/scopes/greenhouse-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
+- Human Resources
+- Greenhouse
 - ATS
 - Recruiting
 - Candidates
 - Job
 - Onboarding
-- Human Resources
 token_urls:
 - https://api.greenhouse.io/oauth/token
 ---

@@ -1053,12 +1053,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/datadog-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/scopes/datadog-scopes.yml
 summary_line: 68 scopes · authorizationCode
 tags:
+- Visualization
+- Datadog
 - Analytics
 - Dashboards
 - Monitoring
 - Platform
 - T1
-- Visualization
 token_urls:
 - /oauth2/v1/token
 ---

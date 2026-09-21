@@ -703,6 +703,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/canonica
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/scopes/canonical-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
+- Canonical
 - Cloud
 - Linux
 - Open-Source

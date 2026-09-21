@@ -216,6 +216,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reddit-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/scopes/reddit-scopes.yml
 summary_line: 20 scopes · authorizationCode
 tags:
+- Reddit
 - Advertising
 - Communities
 - Content

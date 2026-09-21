@@ -483,6 +483,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/autodesk
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/scopes/autodesk-scopes.yml
 summary_line: 12 scopes · authorizationCode/clientCredentials
 tags:
+- Digital Twin
+- Autodesk
 - Fortune 1000
 - 3D Modeling
 - Architecture
@@ -490,7 +492,6 @@ tags:
 - CAD
 - Construction
 - Design
-- Digital Twin
 - Engineering
 - Manufacturing
 - Media and Entertainment

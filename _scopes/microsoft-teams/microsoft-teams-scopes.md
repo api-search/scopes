@@ -146,6 +146,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microso
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/scopes/microsoft-teams-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
+- Microsoft Teams
 - Chat
 - Collaboration
 - Communications

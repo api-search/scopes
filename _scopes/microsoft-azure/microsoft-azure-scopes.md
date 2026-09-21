@@ -13180,6 +13180,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ace-prov
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/scopes/microsoft-azure-scopes.yml
 summary_line: 25 scopes · implicit/authorizationCode/clientCredentials
 tags:
+- Microsoft Azure
 - API Management
 - Cloud
 - Cloud Computing

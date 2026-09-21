@@ -217,6 +217,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cox-automotive/refs/heads/main/scopes/cox-automotive-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
+- Cox Automotive
 - Automotive
 - Vehicle Data
 - Vehicle Valuations

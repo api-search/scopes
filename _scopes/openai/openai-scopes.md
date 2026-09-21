@@ -332,8 +332,9 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: >-\n  https://aut
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/scopes/openai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Artificial Intelligence
 - LLM
+- OpenAI
+- Artificial Intelligence
 - T1
 token_urls: []
 ---

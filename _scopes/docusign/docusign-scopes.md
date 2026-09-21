@@ -901,11 +901,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/docusign
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/scopes/docusign-scopes.yml
 summary_line: 13 scopes · authorizationCode/implicit
 tags:
+- Electronic Signature
+- DocuSign
 - Agreements
 - Contracts
 - Digital Transaction Management
 - Documents
-- Electronic Signature
 - E-Signature
 token_urls:
 - https://account.docusign.com/oauth/auth

@@ -369,6 +369,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: >-\n  Baseline 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/scopes/snowflake-scopes.yml
 summary_line: 5 scopes · authorizationCode/implicit
 tags:
+- Snowflake
 - Data
 - Data Warehouse
 - Data Lakehouse

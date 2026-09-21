@@ -98,6 +98,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: well-known/gite
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/scopes/gitea-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
+- Gitea
 - Git
 - Source Control
 - DevOps

@@ -185,12 +185,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\ndocs: https://developer
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/scopes/instructure-scopes.yml
 summary_line: 17 scopes · authorizationCode
 tags:
+- Enrollment
+- Instructure
 - EdTech
 - Education
 - LMS
 - Canvas
 - Courses
-- Enrollment
 - Assignments
 - Grades
 - Discussions

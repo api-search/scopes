@@ -241,11 +241,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/youtube-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/scopes/youtube-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
+- Video
+- YouTube
 - Google
 - Media
 - Social
 - Streaming
-- Video
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

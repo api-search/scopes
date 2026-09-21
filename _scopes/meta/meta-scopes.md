@@ -116,6 +116,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/meta-op
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/scopes/meta-scopes.yml
 summary_line: 15 scopes · implicit
 tags:
+- Meta
 - Advertising
 - Analytics
 - Artificial Intelligence

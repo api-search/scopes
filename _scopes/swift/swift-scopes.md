@@ -95,6 +95,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/swift-sw
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/scopes/swift-scopes.yml
 summary_line: 2 scopes · password
 tags:
+- Swift
 - Banking
 - Cross-Border Payments
 - Financial Messaging

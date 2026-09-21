@@ -641,6 +641,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/lithium
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/scopes/lithium-scopes.yml
 summary_line: 1 scope · clientCredentials/authorizationCode
 tags:
+- Lithium
 - Company
 - MarTech
 - Community

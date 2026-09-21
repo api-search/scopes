@@ -240,12 +240,13 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zoom-mee
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/scopes/zoom-scopes.yml
 summary_line: 19 scopes · authorizationCode
 tags:
+- Video
+- Zoom
 - Chat
 - Collaboration
 - Communications
 - Meetings
 - Video Conferencing
-- Video
 - Webinars
 token_urls:
 - https://zoom.us/oauth/token

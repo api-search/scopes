@@ -126,6 +126,7 @@ source_yaml: "specification: OAuth Scopes\nspecificationVersion: '0.1'\nprovider
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/scopes/clickhouse-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
+- ClickHouse
 - Analytics
 - Cloud Database
 - Column-Oriented

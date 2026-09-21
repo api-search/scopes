@@ -1607,6 +1607,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/auth0-ma
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/scopes/auth0-scopes.yml
 summary_line: 221 scopes · clientCredentials
 tags:
+- Auth0
 - AI Agents
 - Authentication
 - Authorization
