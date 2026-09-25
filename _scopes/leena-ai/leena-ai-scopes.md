@@ -61,15 +61,15 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Ai Ml
-- Agentic AI
+- AI Agents
 - Artificial Intelligence
 - Enterprise Software
 - Human Resources
 - ITSM
 - Employee Experience
-- Workflow-Automation
+- Workflow Automation
 - Conversational AI
 - MCP
-- Knowledge-Management
+- Knowledge Management
 token_urls: []
 ---

@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/qudos-ba
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/scopes/qudos-bank-scopes.yml
 summary_line: 5 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

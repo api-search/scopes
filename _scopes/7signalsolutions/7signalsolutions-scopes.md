@@ -292,7 +292,7 @@ tags:
 - Endpoint Monitoring
 - Time Series
 - MCP
-- agent-native
+- Agent-Native
 - Company
 token_urls:
 - https://api-v2.7signal.com/oauth2/token

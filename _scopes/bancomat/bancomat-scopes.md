@@ -359,7 +359,7 @@ summary_line: 55 scopes · authorizationCode/clientCredentials
 tags:
 - ATM
 - Banking
-- Financial-Services
+- Financial Services
 - Italy
 - Mobile Payments
 - Payments

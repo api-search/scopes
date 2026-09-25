@@ -34,6 +34,6 @@ tags:
 - AI Interviewing
 - Human Resources
 - Workforce Planning
-- Agentic AI
+- AI Agents
 token_urls: []
 ---

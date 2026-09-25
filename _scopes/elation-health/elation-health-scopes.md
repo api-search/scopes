@@ -1676,6 +1676,7 @@ tags:
 - Scheduling
 - e-Prescribing
 - Digital Health
+- A2A
 token_urls:
 - https://example.com/oauth2/token
 - /api/2.0/oauth2/token/

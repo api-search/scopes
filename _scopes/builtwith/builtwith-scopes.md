@@ -334,5 +334,7 @@ tags:
 - MCP
 - Agentic Commerce
 - Real-Time Data
+- Real-Time
+- A2A
 token_urls: []
 ---

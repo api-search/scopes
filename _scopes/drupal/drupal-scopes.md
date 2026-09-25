@@ -152,7 +152,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Content Management
 - CMS
-- Open-Source
+- Open Source
 - JSON:API
 - GraphQL
 - Headless

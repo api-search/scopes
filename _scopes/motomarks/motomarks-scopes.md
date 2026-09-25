@@ -35,7 +35,7 @@ tags:
 - Image
 - CDN
 - Developer Tools
-- agent-native
+- Agent-Native
 - MCP
 - Reference Data
 token_urls: []

@@ -69,8 +69,8 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Google Cloud
 - Job
-- Machine-Learning
-- Recruitment
+- Machine Learning
+- Recruiting
 - Search
 - Talent
 token_urls:

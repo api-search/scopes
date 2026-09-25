@@ -576,7 +576,7 @@ tags:
 - Shipping
 - Subscription
 - Headless Commerce
-- Open-Source
+- Open Source
 - .NET
 - Webhook
 - Event-Driven

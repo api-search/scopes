@@ -55,7 +55,7 @@ summary_line: 1 scope · implicit
 tags:
 - Artificial Intelligence
 - Azure
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Model Deployment
 - Model Training

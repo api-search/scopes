@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/instabug
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/scopes/instabug-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- Agentic AI
+- AI Agents
 - APM
 - Application Performance Monitoring
 - Bug Reporting

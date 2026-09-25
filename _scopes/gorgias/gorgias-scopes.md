@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gorgias-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/scopes/gorgias-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
-- Customer-Support
+- Customer Support
 - Help Desk
 - E-Commerce
 - Shopify

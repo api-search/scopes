@@ -87,5 +87,6 @@ tags:
 - Last Mile Delivery
 - On-Demand
 - Order
+- Restaurant
 token_urls: []
 ---

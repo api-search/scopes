@@ -1068,6 +1068,7 @@ tags:
 - Voice
 - SMS
 - IoT
+- Telecommunications
 token_urls:
 - https://api.telnyx.com/v2/oauth/token
 ---

@@ -186,7 +186,7 @@ summary_line: 11 scopes · authorizationCode/deviceCode
 tags:
 - Company
 - Backend-as-a-Service
-- agent-native
+- Agent-Native
 - Cloud Infrastructure
 - Database
 - Authentication
@@ -196,7 +196,7 @@ tags:
 - AI Gateway
 - Payments
 - Real-Time
-- Open-Source
+- Open Source
 - Y Combinator
 token_urls:
 - https://api.insforge.dev/api/oauth/v1/token

@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/regional
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/scopes/regional-australia-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

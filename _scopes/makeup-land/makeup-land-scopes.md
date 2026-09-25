@@ -16,11 +16,11 @@ method: searched
 name: Makeup Land Scopes
 name_suffix: OAuth Scopes
 note: These are NOT OAuth 2.0 scopes negotiated at request time. derive-oauth-scopes.py found no oauth2 scheme (correctly). The provider publishes the same five scope names in three places — the OpenAPI root x-scopes map and per-operation security[] requirements on the bearerAuth scheme, the RFC 8414 authorization-server metadata scopes_supported, and the RFC 9728 protected-resource metadata scopes_supported — and auth.md explains they are fixed on a bearer token when a human issues it. read_only is a flag, not a scope, but the provider lists it under scopes_supported.
-overview: 'א. ט. הפקות בע״מ / A.T. Hafakot Ltd. publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the א. ט. הפקות בע״מ / A.T. Hafakot Ltd. API on a user''s behalf.
+overview: 'makeup.land publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the makeup.land API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: א. ט. הפקות בע״מ / A.T. Hafakot Ltd.
+provider_name: makeup.land
 provider_slug: makeup-land
 schemes:
 - bearerFormat: ml_<hex24>
@@ -76,7 +76,8 @@ tags:
 - Product Search
 - Agentic Commerce
 - MCP
-- agent-native
+- Agent-Native
 - Israel
+- A2A
 token_urls: []
 ---

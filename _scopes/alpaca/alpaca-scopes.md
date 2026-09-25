@@ -184,6 +184,8 @@ tags:
 - Brokerage
 - Market Data
 - Options
+- Real-Time
+- Investing
 token_urls:
 - https://api.alpaca.markets/oauth/token
 - https://authx.alpaca.markets/v1/oauth2/token

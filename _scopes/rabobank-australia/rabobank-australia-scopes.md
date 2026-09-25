@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  Data Stan
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/scopes/rabobank-australia-scopes.yml
 summary_line: 10 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

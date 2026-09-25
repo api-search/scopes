@@ -61,7 +61,7 @@ summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Financial Data
 - Speech-to-Text
 - Transcription

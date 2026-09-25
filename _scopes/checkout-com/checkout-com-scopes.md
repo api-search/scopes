@@ -96,6 +96,7 @@ tags:
 - Cards
 - Acquiring
 - Cross-Border
+- Agentic Commerce
 token_urls:
 - https://access.checkout.com/connect/token
 ---

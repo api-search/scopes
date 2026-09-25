@@ -39,7 +39,7 @@ tags:
 - Prompt Injection
 - Security
 - LLM
-- agent-native
+- Agent-Native
 - MCP
 - DLP
 - PII

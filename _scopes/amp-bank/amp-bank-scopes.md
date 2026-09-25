@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/amp-bank
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/scopes/amp-bank-scopes.yml
 summary_line: 5 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

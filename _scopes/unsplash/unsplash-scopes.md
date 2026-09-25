@@ -127,7 +127,7 @@ tags:
 - Photography
 - Stock Photos
 - Creative
-- Open-Source
+- Open Source
 - Media
 token_urls:
 - https://unsplash.com/oauth/token

@@ -71,7 +71,6 @@ tags:
 - Company
 - Artificial Intelligence
 - AI Agents
-- Agentic
 - Productivity
 - Collaboration
 - MCP

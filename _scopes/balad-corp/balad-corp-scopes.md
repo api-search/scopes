@@ -52,11 +52,11 @@ method: searched
 name: Balad Corp Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'BALAD CORP uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'BALAD uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: BALAD CORP
+provider_name: BALAD
 provider_slug: balad-corp
 schemes:
 - flow: clientCredentials

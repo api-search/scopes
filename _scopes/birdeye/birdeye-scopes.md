@@ -230,6 +230,7 @@ tags:
 - Messaging
 - Multi-Location
 - Artificial Intelligence
+- A2A
 token_urls:
 - https://mcp.birdeye.com/token
 ---

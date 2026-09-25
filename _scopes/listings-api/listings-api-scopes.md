@@ -81,6 +81,6 @@ tags:
 - Local Marketing
 - social-publishing
 - MCP
-- agent-native
+- Agent-Native
 token_urls: []
 ---

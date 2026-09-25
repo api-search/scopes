@@ -129,7 +129,7 @@ summary_line: 7 scopes · authorizationCode/deviceCode
 tags:
 - AI Agents
 - Agent Marketplace
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Task Orchestration

@@ -224,7 +224,7 @@ tags:
 - Infrastructure
 - Observability
 - MCP
-- agent-native
+- Agent-Native
 token_urls:
 - /auth/token
 ---

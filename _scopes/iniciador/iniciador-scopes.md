@@ -116,7 +116,7 @@ tags:
 - Brazil
 - FAPI
 - Authentication
-- Financial-Services
+- Financial Services
 token_urls:
 - https://api-mtls.iniciador.com.br/token
 ---

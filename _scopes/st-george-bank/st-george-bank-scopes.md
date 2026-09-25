@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  The harve
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/scopes/st-george-bank-scopes.yml
 summary_line: 9 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

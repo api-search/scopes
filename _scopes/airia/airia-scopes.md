@@ -52,6 +52,6 @@ tags:
 - Guardrails
 - Knowledge Retrieval
 - RAG
-- agent-native
+- Agent-Native
 token_urls: []
 ---

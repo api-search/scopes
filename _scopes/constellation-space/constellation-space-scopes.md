@@ -66,7 +66,7 @@ tags:
 - Satellite
 - Space
 - Telemetry
-- Machine-Learning
+- Machine Learning
 - Fleet Operations
 - Ground Segment
 - Predictions

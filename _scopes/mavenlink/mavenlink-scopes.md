@@ -690,10 +690,11 @@ tags:
 - Invoicing
 - Project Accounting
 - Business Intelligence
-- Workflow-Automation
+- Workflow Automation
 - MCP
-- agent-native
+- Agent-Native
 - Company
+- A2A
 token_urls:
 - https://app.mavenlink.com/oauth/token
 - https://api.mavenlink.com/oauth/token

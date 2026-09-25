@@ -124,8 +124,8 @@ tags:
 - Marketing
 - Data Science
 - Automation
-- Agentic AI
-- B2C
+- AI Agents
+- Consumer
 token_urls:
 - https://hilbert-app.us.auth0.com/oauth/token
 ---

@@ -500,7 +500,7 @@ tags:
 - Collaboration
 - MCP
 - AI Agents
-- agent-native
+- Agent-Native
 - Agentic Commerce
 - A2A
 - REST API

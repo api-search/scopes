@@ -85,6 +85,7 @@ tags:
 - Runbooks
 - CI/CD
 - Developer Tools
+- Australia
 token_urls:
 - https://your-octopus-instance/api/oidc/token
 ---

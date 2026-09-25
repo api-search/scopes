@@ -80,7 +80,7 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Electronic Signature
 - E-Signature
-- Document-Management
+- Document Management
 - Digital Signature
 - Signature Workflows
 - Templates

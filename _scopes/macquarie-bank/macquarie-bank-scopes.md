@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: |\n  Australian
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/scopes/macquarie-bank-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

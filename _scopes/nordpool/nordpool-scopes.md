@@ -106,6 +106,7 @@ tags:
 - Intraday Trading
 - Market Data
 - Europe
+- Real-Time
 token_urls:
 - https://sts.nordpoolgroup.com/connect/token
 ---

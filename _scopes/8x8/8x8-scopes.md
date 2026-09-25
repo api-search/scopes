@@ -476,6 +476,7 @@ tags:
 - Identity Verification
 - Webhook
 - Cloud Communications
+- Communications
 token_urls:
 - https://api.8x8.com/oauth/v2/token
 ---

@@ -174,6 +174,7 @@ tags:
 - Activity Tracking
 - Sensors
 - Bluetooth
+- Wellness
 token_urls:
 - https://polarremote.com/v2/oauth2/token
 - https://auth.polar.com/oauth/token

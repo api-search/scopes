@@ -229,6 +229,7 @@ tags:
 - Subscribers
 - Webhook
 - Customer Engagement
+- SMS
 token_urls:
 - https://api.attentivemobile.com/v1/authorization-codes/tokens
 ---

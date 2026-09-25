@@ -59,7 +59,7 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Analytics
 - Datasets
-- Financial-Services
+- Financial Services
 - Market Data
 - Reference Data
 - Historical Data

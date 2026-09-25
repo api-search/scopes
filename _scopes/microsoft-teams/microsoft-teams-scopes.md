@@ -150,7 +150,7 @@ tags:
 - Chat
 - Collaboration
 - Communications
-- Microsoft-365
+- Microsoft 365
 - Productivity
 - Video Conferencing
 token_urls:

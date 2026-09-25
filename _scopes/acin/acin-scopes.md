@@ -33,10 +33,10 @@ tags:
 - Operational Risk
 - Risk Management
 - Non-Financial Risk
-- Financial-Services
+- Financial Services
 - Banking
 - Compliance
-- Regulatory Technology
+- RegTech
 - Benchmarking
 - Data Standards
 token_urls: []

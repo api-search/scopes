@@ -63,7 +63,7 @@ tags:
 - Mechanical Keyboards
 - Hardware
 - Ergonomics
-- Open-Source
+- Open Source
 - Firmware
 - Keyboards
 - E-Commerce

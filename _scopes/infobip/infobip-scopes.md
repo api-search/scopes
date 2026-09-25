@@ -779,6 +779,7 @@ tags:
 - Omnichannel
 - Aggregator
 - Customer Engagement
+- Communications
 token_urls:
 - https://api.infobip.com/auth/1/oauth2/token
 - https://auth.infobip.com/realms/infobip/protocol/openid-connect/token

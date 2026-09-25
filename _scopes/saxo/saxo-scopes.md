@@ -620,9 +620,9 @@ tags:
 - Options
 - Futures
 - Market Data
-- Portfolio-Management
+- Portfolio Management
 - Order
-- Financial
+- Finance
 token_urls:
 - https://sim.logonvalidation.net/token
 ---

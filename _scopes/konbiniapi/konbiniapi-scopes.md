@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://mcp.konbi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/scopes/konbiniapi-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Social-Media
+- Social Media
 - Instagram
 - TikTok
 - X
@@ -77,5 +77,6 @@ tags:
 - MCP
 - Agent Skills
 - Agents
+- A2A
 token_urls: []
 ---

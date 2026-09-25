@@ -34,6 +34,6 @@ tags:
 - Connectors
 - AI Governance
 - Developer Tools
-- agent-native
+- Agent-Native
 token_urls: []
 ---

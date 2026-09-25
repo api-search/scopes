@@ -195,6 +195,6 @@ tags:
 - Clinical Data Repository
 - Interoperability
 - Germany
-- Open-Source
+- Open Source
 token_urls: []
 ---

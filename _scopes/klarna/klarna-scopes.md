@@ -359,6 +359,7 @@ tags:
 - PSD2
 - Consumer Credit
 - Sweden
+- Agentic Commerce
 token_urls:
 - https://login.klarna.com/oauth2/token
 ---

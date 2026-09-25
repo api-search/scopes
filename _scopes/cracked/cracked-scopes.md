@@ -180,6 +180,7 @@ tags:
 - E-Commerce
 - Finance
 - Weather
+- A2A
 token_urls:
 - https://cracked.ai/oauth/token
 ---

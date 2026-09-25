@@ -17793,7 +17793,7 @@ summary_line: 3317 scopes · authorizationCode/clientCredentials
 tags:
 - Infrastructure
 - Cloud Operations
-- Data-Center
+- Data Center
 - Compute
 - Networking
 - Enterprise

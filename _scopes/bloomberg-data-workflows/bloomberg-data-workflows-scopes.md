@@ -44,7 +44,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Enterprise Data
 - Financial Analytics
-- Financial-Services
+- Financial Services
 - Investment Management
 - Market Data
 - Reference Data

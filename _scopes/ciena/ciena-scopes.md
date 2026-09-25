@@ -95,7 +95,7 @@ tags:
 - Optical
 - RESTCONF
 - SDN
-- Telecom
+- Telecommunications
 - TM Forum
 - Fortune 1000
 token_urls:

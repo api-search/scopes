@@ -5404,7 +5404,7 @@ tags:
 - Learning Management System
 - LMS
 - LTI
-- Open-Source
+- Open Source
 - REST
 token_urls:
 - https://canvas.instructure.com/login/oauth2/token

@@ -496,11 +496,11 @@ tags:
 - Artificial Intelligence
 - AI Gateway
 - LLM
-- Machine-Learning
+- Machine Learning
 - OCR
 - Translation
 - Speech
-- Computer-Vision
+- Computer Vision
 - MCP
 - Emotion Detection
 token_urls: []

@@ -411,7 +411,7 @@ tags:
 - Annotation
 - RLHF
 - Model Evaluation
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Crowdsourcing
 - Preference Data

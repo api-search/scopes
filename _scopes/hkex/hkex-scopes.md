@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://www.hke
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hkex/refs/heads/main/scopes/hkex-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Derivatives

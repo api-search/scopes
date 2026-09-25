@@ -617,7 +617,7 @@ tags:
 - Business Cards
 - Prepaid Cards
 - Fintech
-- Financial-Services
+- Financial Services
 - Webhook
 token_urls:
 - https://api.soldo.com/oauth/authorize

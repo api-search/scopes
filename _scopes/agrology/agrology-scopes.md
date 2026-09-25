@@ -132,7 +132,7 @@ tags:
 - Predictive Analytics
 - Geospatial
 - Time Series
-- Machine-Learning
+- Machine Learning
 - Viticulture
 - Sustainability
 - Environmental Monitoring

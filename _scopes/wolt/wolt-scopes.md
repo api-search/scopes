@@ -49,6 +49,7 @@ tags:
 - Webhook
 - Authentication
 - Point-of-Sale
+- Restaurant
 token_urls:
 - https://integrations-authentication-service.wolt.com/oauth2/token
 ---

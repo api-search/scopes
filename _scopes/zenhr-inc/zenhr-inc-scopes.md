@@ -360,14 +360,14 @@ method: searched
 name: Zenhr Inc Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'ZenHR Inc publishes 9 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ZenHR Inc API on a user''s behalf.
+overview: 'ZenHR publishes 9 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ZenHR API on a user''s behalf.
 
 
   Tokens are issued from https://api.zenhr.com/en/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: ZenHR Inc
+provider_name: ZenHR
 provider_slug: zenhr-inc
 schemes:
 - flows:

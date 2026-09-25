@@ -114,7 +114,7 @@ tags:
 - Financial Advisors
 - Wealth Management
 - Contact Management
-- Workflow-Automation
+- Workflow Automation
 - Software-as-a-Service
 token_urls:
 - https://app.crmworkspace.com/oauth/token

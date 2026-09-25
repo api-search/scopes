@@ -37,12 +37,12 @@ tags:
 - Live Streaming
 - Advertising
 - Marketing
-- Social-Media
+- Social Media
 - Content
 - China
 - Artificial Intelligence
 - Generative AI
-- Machine-Learning
+- Machine Learning
 - MCP
 token_urls: []
 ---

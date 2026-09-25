@@ -224,6 +224,7 @@ tags:
 - Authorization
 - SSO
 - MFA
+- Identity Federation
 token_urls:
 - /as/token
 ---

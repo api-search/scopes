@@ -490,6 +490,7 @@ tags:
 - Subscription
 - Tokens
 - Webhook
+- Agentic Commerce
 token_urls:
 - /v1/oauth2/token
 - https://api-m.paypal.com/v1/oauth2/token

@@ -231,10 +231,11 @@ tags:
 - Blockchain
 - AML
 - Compliance
-- Financial-Services
+- Financial Services
 - Analytics
 - Prediction Markets
 - MCP
+- Real-Time
 token_urls:
 - https://sso.lukka.tech/oauth2/aus1imo2fqcx5Ik4Q0h8/v1/token
 - https://sso.lukka.tech/oauth2/aus1imo2g7ugEl49C0h8/v1/token

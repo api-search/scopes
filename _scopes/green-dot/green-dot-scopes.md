@@ -9,11 +9,11 @@ method: searched
 name: Green Dot Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Green Dot Corporation publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Green Dot Corporation API on a user''s behalf.
+overview: 'Green Dot publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Green Dot API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: Green Dot Corporation
+provider_name: Green Dot
 provider_slug: green-dot
 schemes:
 - flow: clientCredentials

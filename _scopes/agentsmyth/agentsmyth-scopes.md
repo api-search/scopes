@@ -28,7 +28,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: https://app.auth.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentsmyth/refs/heads/main/scopes/agentsmyth-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Financial-Services
+- Financial Services
 - Capital Markets
 - Artificial Intelligence
 - AI Agents
@@ -36,7 +36,7 @@ tags:
 - Investment Research
 - Market Intelligence
 - MCP
-- agent-native
+- Agent-Native
 - Fintech
 token_urls: []
 ---

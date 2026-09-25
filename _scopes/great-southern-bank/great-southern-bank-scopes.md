@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://secure.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/scopes/great-southern-bank-scopes.yml
 summary_line: 13 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://cloud-a
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/scopes/onetick-scopes.yml
 summary_line: 28 scopes · clientCredentials/authorizationCode
 tags:
-- Financial
+- Finance
 - Market Data
 - Tick Data
 - Historical Data

@@ -151,10 +151,10 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Image
-- Image-Generation
+- Image Generation
 - Image Editing
 - Video
-- Machine-Learning
+- Machine Learning
 - Media
 - Content
 - Agents

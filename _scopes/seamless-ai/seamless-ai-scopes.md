@@ -82,6 +82,7 @@ tags:
 - MCP
 - Agents
 - Sales Automation
+- A2A
 token_urls:
 - https://api.seamless.ai/api/client/v1/oauth/accessToken
 ---

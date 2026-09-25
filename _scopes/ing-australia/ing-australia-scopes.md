@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://id.ob.i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/scopes/ing-australia-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

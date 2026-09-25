@@ -76,6 +76,7 @@ tags:
 - Connected Car
 - IoT
 - Vehicle Data
+- Mobility
 token_urls:
 - https://api.high-mobility.com/v1/access_token
 ---

@@ -121,9 +121,9 @@ tags:
 - Geometric Search
 - Manufacturing
 - Engineering
-- Machine-Learning
+- Machine Learning
 - Search
-- Computer-Vision
+- Computer Vision
 - Product Development
 token_urls:
 - https://physna.okta.com/oauth2/default/v1/token

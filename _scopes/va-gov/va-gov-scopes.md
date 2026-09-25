@@ -68,7 +68,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-enrolled-benefits-api-openapi.yml
 - filename: va-gov-facilities-api-openapi.yml
   format: yaml
-  label: VA Lighthouse facilities API
+  label: VA Lighthouse Facilities API
   slug: va-gov-facilities-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-facilities-api-openapi.yml
@@ -110,7 +110,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-letters-api-openapi.yml
 - filename: va-gov-loanreviewpublic-api-openapi.yml
   format: yaml
-  label: VA Lighthouse loanReviewPublic API
+  label: VA Lighthouse Loan Review Public API
   slug: va-gov-loanreviewpublic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/openapi/va-gov-loanreviewpublic-api-openapi.yml
@@ -192,14 +192,14 @@ method: derived
 name: Va Gov Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'VA Lighthouse publishes 35 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the VA Lighthouse API on a user''s behalf.
+overview: 'Department of Veterans Affairs (VA Lighthouse) publishes 35 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Department of Veterans Affairs (VA Lighthouse) API on a user''s behalf.
 
 
   Tokens are issued from https://api.va.gov/oauth2/appeals/v1/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: VA Lighthouse
+provider_name: Department of Veterans Affairs (VA Lighthouse)
 provider_slug: va-gov
 schemes:
 - description: 'The authorization model for the Appealable Issues API uses OAuth 2.0/OpenID Connect. The following models are supported: [Authorization Code Grant (ACG)](/explore/api/appealable-issues/authorization-code) and [Client Credentials Grant (CCG)](/explore/api/appealable-issues/client-credentials).'

@@ -225,7 +225,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/pexa-no
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/scopes/pexa-scopes.yml
 summary_line: 11 scopes · clientCredentials/authorizationCode
 tags:
-- Real-Estate
+- Real Estate
 - Australia
 - Conveyancing
 - Property Settlement

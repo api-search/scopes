@@ -173,7 +173,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land
 summary_line: 12 scopes · authorizationCode
 tags:
 - Environment
-- Federal-Government
+- Federal Government
 - Land
 - Resources
 - GIS

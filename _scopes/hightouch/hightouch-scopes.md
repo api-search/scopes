@@ -132,6 +132,7 @@ tags:
 - Advertising
 - AI Agents
 - Data Warehouse
+- A2A
 token_urls:
 - https://mcp-auth.hightouch.com/oauth2/token
 ---

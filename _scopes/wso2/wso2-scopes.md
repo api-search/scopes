@@ -862,11 +862,12 @@ summary_line: 51 scopes · password
 tags:
 - API Management
 - Gateways
-- Open-Source
+- Open Source
 - API Lifecycle
 - GraphQL
 - SOAP
 - REST
+- Identity Federation
 token_urls:
 - https://localhost:9443/oauth2/token
 ---

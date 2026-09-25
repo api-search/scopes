@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://zillapi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zillapi/refs/heads/main/scopes/zillapi-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- Real-Estate
+- Real Estate
 - PropTech
 - Property Data
 - Zillow

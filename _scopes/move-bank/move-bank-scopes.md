@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\ndocs: https://consumerd
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/scopes/move-bank-scopes.yml
 summary_line: 9 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

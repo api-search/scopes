@@ -337,7 +337,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deutsche-bank/
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Banking
-- Financial
+- Finance
 - Wealth Management
 - Open Banking
 - PSD2
@@ -347,6 +347,6 @@ tags:
 - Credit Cards
 - Merchant Solutions
 - Germany
-- Financial-Services
+- Financial Services
 token_urls: []
 ---

@@ -38,7 +38,7 @@ tags:
 - Remote Patient Monitoring
 - Wearables
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - MCP
 token_urls: []
 ---

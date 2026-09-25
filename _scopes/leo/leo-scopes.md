@@ -59,6 +59,6 @@ tags:
 - Non-Profit
 - Trucking
 - MCP
-- agent-native
+- Agent-Native
 token_urls: []
 ---

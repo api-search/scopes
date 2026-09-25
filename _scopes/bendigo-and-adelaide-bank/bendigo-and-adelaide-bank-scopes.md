@@ -182,7 +182,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.up.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/scopes/bendigo-and-adelaide-bank-scopes.yml
 summary_line: 10 scopes · authorizationCode/clientCredentials
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

@@ -104,7 +104,7 @@ tags:
 - Escrow
 - Negotiation
 - Trust
-- agent-native
+- Agent-Native
 - Agentic Commerce
 token_urls:
 - https://mcp.cogdepot.com/oauth/token

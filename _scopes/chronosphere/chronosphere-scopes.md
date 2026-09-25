@@ -387,5 +387,6 @@ tags:
 - Infrastructure as Code
 - MCP
 - Agent Ready
+- A2A
 token_urls: []
 ---

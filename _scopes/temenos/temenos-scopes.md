@@ -415,11 +415,12 @@ tags:
 - Cloud Banking
 - Core Banking
 - Digital Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Open Banking
 - Payments
 - Wealth Management
+- Real-Time
 token_urls:
 - https://journey.temenos.com/oauth2/token
 - https://auth.temenos.com/oauth2/token

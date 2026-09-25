@@ -69,7 +69,7 @@ tags:
 - CRM
 - Lead Management
 - Cold Outreach
-- agent-native
+- Agent-Native
 - MCP
 - A2A
 - Webhook

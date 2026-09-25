@@ -152,7 +152,7 @@ summary_line: 20 scopes · clientCredentials/authorizationCode
 tags:
 - 3D
 - Spatial Computing
-- Computer-Vision
+- Computer Vision
 - depth-estimation
 - Image Processing
 - Video Processing

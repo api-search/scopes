@@ -84,7 +84,7 @@ tags:
 - Reviews
 - REST
 - MCP
-- agent-native
+- Agent-Native
 - OpenAPI
 token_urls:
 - https://mcp.stayingapi.com/mcp/oauth/token

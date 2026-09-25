@@ -298,7 +298,7 @@ summary_line: 23 scopes · authorizationCode
 tags:
 - Chess
 - Games
-- Open-Source
+- Open Source
 - Non-Profit
 - Tournaments
 - Puzzles

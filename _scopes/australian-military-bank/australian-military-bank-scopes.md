@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/australi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/scopes/australian-military-bank-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

@@ -69,17 +69,17 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/movehom
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/movehome-org/refs/heads/main/scopes/movehome-org-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
-- Real-Estate
+- Real Estate
 - Property
 - Lettings
 - Property Sales
 - Agents
 - A2A
 - MCP
-- agent-native
+- Agent-Native
 - Agent Registry
 - Non-Profit
-- Open-Source
+- Open Source
 - RAIA Protocol
 - United Kingdom
 token_urls:

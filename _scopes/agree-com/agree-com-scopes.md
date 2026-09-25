@@ -74,9 +74,9 @@ tags:
 - Payments
 - Accounts Receivable
 - Fintech
-- Financial-Services
+- Financial Services
 - Webhook
 - MCP
-- agent-native
+- Agent-Native
 token_urls: []
 ---

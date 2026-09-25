@@ -221,6 +221,7 @@ tags:
 - Digital Experience Management
 - Intelligence
 - Observability
+- Monitoring
 token_urls:
 - https://sso.dynatrace.com/sso/oauth2/token
 ---

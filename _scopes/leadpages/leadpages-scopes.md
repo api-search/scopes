@@ -115,6 +115,7 @@ tags:
 - Content Management
 - Agents
 - Analytics
+- A2A
 token_urls:
 - https://leadpages.com/api/mcp/oauth/token
 ---

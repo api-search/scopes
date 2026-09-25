@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/bankvic
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/scopes/bankvic-scopes.yml
 summary_line: 9 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

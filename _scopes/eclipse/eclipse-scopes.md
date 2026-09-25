@@ -582,7 +582,7 @@ summary_line: 11 scopes · authorizationCode/clientCredentials
 tags:
 - Eclipse Foundation
 - Foundations
-- Open-Source
+- Open Source
 - Standards
 - Developer Tools
 - Extensions

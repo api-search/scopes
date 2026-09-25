@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  Consumer 
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/scopes/commonwealth-bank-scopes.yml
 summary_line: 10 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Consumer Banking
 - Business Banking

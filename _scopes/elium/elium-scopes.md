@@ -50,7 +50,7 @@ summary_line: 1 scope · authorizationCode/password
 tags:
 - Company
 - Software-as-a-Service
-- Knowledge-Management
+- Knowledge Management
 - Knowledge Base
 - Enterprise Search
 - AI Search

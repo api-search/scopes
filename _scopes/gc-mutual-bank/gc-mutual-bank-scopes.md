@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://consume
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gc-mutual-bank/refs/heads/main/scopes/gc-mutual-bank-scopes.yml
 summary_line: 9 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

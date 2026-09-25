@@ -94,7 +94,7 @@ tags:
 - CAPTCHA Solving
 - Human-in-the-Loop
 - Computer Use
-- agent-native
+- Agent-Native
 - United Kingdom
 token_urls:
 - https://agent.humanbrowser.cloud/oauth/token

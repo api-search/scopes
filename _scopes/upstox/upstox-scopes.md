@@ -185,7 +185,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/he
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Stock Trading
 - Brokerage
 - Market Data

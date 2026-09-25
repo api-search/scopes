@@ -191,7 +191,6 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://docs.me
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/scopes/complyadvantage-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Anti-Money Laundering
 - AML
 - Fraud Detection
 - Sanctions Screening

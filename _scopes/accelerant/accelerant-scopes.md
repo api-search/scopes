@@ -67,7 +67,7 @@ tags:
 - Reinsurance
 - Marketplace
 - Risk Scoring
-- Financial-Services
+- Financial Services
 - Artificial Intelligence
 token_urls:
 - https://app.accelerant.ai/api/auth/oidc/token

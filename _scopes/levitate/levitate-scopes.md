@@ -74,11 +74,11 @@ tags:
 - Contacts
 - Small Business
 - Insurance
-- Financial-Services
+- Financial Services
 - Non-Profit
 - Marketing Automation
 - MCP
-- agent-native
+- Agent-Native
 - Software-as-a-Service
 token_urls:
 - https://login.levitate.ai/oauth2/token

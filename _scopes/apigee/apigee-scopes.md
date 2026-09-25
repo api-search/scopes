@@ -322,7 +322,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Apigee
 - Advanced API Security
-- Agentic AI
+- AI Agents
 - Analytics
 - API Gateway
 - API Governance

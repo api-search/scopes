@@ -57,6 +57,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superset/refs/
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
+- A2A
 token_urls:
 - https://api.superset.sh/api/auth/oauth2/token
 ---

@@ -104,7 +104,7 @@ tags:
 - Video
 - Y Combinator
 - MCP
-- agent-native
+- Agent-Native
 - Analytics
 - Conversation Intelligence
 token_urls:

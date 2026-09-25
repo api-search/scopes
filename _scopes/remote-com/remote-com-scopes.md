@@ -608,6 +608,7 @@ tags:
 - Workforce
 - MCP
 - AI Agents
+- Payroll
 token_urls:
 - https://gateway.remote.com/auth/oauth2/token
 ---

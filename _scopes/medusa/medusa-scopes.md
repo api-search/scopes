@@ -410,7 +410,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - E-Commerce
 - Headless Commerce
-- Open-Source
+- Open Source
 - Commerce
 - Storefront
 - Order Management

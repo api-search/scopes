@@ -785,6 +785,7 @@ tags:
 - Payments
 - E-Commerce
 - Omnichannel
+- Canada
 token_urls:
 - /oauth/token
 - https://{domain_prefix}.retail.lightspeed.app/api/1.0/token

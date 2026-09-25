@@ -2272,14 +2272,14 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/h
 summary_line: 105 scopes
 tags:
 - Compliance
-- Financial-Services
+- Financial Services
 - KYC
 - AML
 - Onboarding
 - Client Lifecycle Management
 - Transaction Monitoring
 - Screening
-- Risk
+- Risk Management
 - RegTech
 - Software-as-a-Service
 - Identity

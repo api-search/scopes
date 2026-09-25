@@ -31,7 +31,7 @@ tags:
 - Company
 - Education
 - Student Loans
-- Financial-Services
+- Financial Services
 - Lending
 - Fintech
 - Africa

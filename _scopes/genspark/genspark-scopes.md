@@ -67,6 +67,7 @@ tags:
 - Automation
 - Search
 - Workspace
+- A2A
 token_urls:
 - https://www.genspark.ai/api/mcp/oauth/token
 ---

@@ -348,7 +348,7 @@ tags:
 - Risk Management
 - Trust Center
 - Audit
-- Vendor Risk Management
+- Third-Party Risk Management
 - Compliance Automation
 token_urls: []
 ---

@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nsource: https://docs.ad
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advicepay/refs/heads/main/scopes/advicepay-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
-- Financial-Services
+- Financial Services
 - Payments
 - Billing
 - Invoicing

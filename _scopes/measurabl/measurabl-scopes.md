@@ -203,7 +203,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/measurabl/refs
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - ESG
-- Real-Estate
+- Real Estate
 - Sustainability
 - Carbon Accounting
 - Energy Management

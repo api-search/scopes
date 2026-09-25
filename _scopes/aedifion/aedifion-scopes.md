@@ -194,7 +194,7 @@ tags:
 - Smart Buildings
 - Energy Management
 - IoT
-- Real-Estate
+- Real Estate
 - HVAC
 - Sustainability
 - Time Series
@@ -204,6 +204,7 @@ tags:
 - ESG
 - PropTech
 - Germany
+- Real-Time
 token_urls:
 - https://auth.aedifion.io/realms/aedifion/protocol/openid-connect/token
 ---

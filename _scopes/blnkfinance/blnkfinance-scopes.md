@@ -179,16 +179,17 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/re
 summary_line: 24 scopes
 tags:
 - Fintech
-- Financial-Services
+- Financial Services
 - Ledger
 - double-entry-accounting
 - Payments
 - Wallets
 - Lending
 - Banking Infrastructure
-- Open-Source
+- Open Source
 - MCP
 - AI Agents
 - Developer Tools
+- A2A
 token_urls: []
 ---

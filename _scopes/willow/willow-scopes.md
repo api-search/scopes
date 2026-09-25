@@ -37,7 +37,7 @@ tags:
 - Agentic Commerce
 - MCP
 - Universal Commerce Protocol
-- agent-native
+- Agent-Native
 - Shopify
 token_urls: []
 ---

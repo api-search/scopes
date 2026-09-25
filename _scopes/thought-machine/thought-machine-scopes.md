@@ -77,7 +77,7 @@ tags:
 - Company
 - Banking
 - Core Banking
-- Financial-Services
+- Financial Services
 - Payments
 - Cloud-Native
 - Smart Contracts

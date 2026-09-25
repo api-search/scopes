@@ -276,7 +276,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/re
 summary_line: 12 scopes · authorizationCode
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Open Banking
 - Truist
 - BB&T

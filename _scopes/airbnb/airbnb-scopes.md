@@ -185,6 +185,7 @@ tags:
 - Hospitality
 - Travel
 - Airbnb
+- Booking
 token_urls:
 - https://api.airbnb.com/v2/oauth2/authorizations
 ---

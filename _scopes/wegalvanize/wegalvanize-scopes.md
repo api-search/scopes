@@ -487,7 +487,7 @@ summary_line: 7 scopes · authorizationCode/clientCredentials/implicit/refreshTo
 tags:
 - Company
 - Governance
-- Risk
+- Risk Management
 - Compliance
 - Audit
 - GRC

@@ -31,7 +31,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Insurance
 - Annuities
-- Financial-Services
+- Financial Services
 - Life Insurance
 - Retirement
 - Pension-Risk-Transfer

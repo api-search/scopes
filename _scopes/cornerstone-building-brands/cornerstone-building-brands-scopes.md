@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: cornerstone-building-brands-content-api-openapi.yml
-  format: yaml
-  label: Cornerstone Building Brands Content API (WordPress REST wp/v2)
-  slug: cornerstone-building-brands-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornerstone-building-brands/refs/heads/main/openapi/cornerstone-building-brands-content-api-openapi.yml
 authorization_urls:
 - https://www.cornerstonebuildingbrands.com/oauth/authorize
 description: Cornerstone Building Brands publishes RFC 8414 authorization-server metadata on www.cornerstonebuildingbrands.com, emitted by the WordPress MCP Adapter. It declares exactly one scope, `mcp`, which gates the remote MCP server. This is not a documented developer scope model — the company publishes no OAuth or permissions reference page — it is what the discovery document itself states. No scope description is recorded because the provider publishes none; writing one would be invention.
@@ -60,7 +53,6 @@ tags:
 - Construction
 - Manufacturing
 - Building Materials
-- Content
 - MCP
 - WordPress
 - News

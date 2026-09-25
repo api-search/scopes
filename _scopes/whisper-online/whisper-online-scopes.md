@@ -70,7 +70,7 @@ tags:
 - RDAP
 - Transparency Log
 - Graph Database
-- agent-native
+- Agent-Native
 - Netherlands
 token_urls: []
 ---

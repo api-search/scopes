@@ -159,7 +159,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://mcp.mor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/scopes/morningstar-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Market Data
 - Investing
 - Stocks
@@ -169,6 +169,7 @@ tags:
 - Portfolio Analytics
 - Research
 - Index
+- Wealth Management
 token_urls:
 - https://mcp.morningstar.com/token
 ---

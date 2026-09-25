@@ -447,7 +447,7 @@ summary_line: 3 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - Analytics
 - Web Analytics
-- Open-Source
+- Open Source
 - Privacy
 - Data Ownership
 - Self-Hosted

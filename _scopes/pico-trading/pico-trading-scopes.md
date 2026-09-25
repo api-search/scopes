@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://portal.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/scopes/pico-trading-scopes.yml
 summary_line: 36 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Market Data
 - Trading
 - Real-Time

@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/camara-o
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camara/refs/heads/main/scopes/camara-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
-- Telecom
+- Telecommunications
 - Network APIs
 - Standards
 - Linux Foundation

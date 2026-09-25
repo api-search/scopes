@@ -285,6 +285,7 @@ tags:
 - Voice
 - Verification
 - CPaaS
+- Telecommunications
 token_urls:
 - https://auth.sinch.com/oauth2/token
 ---

@@ -235,7 +235,7 @@ tags:
 - Claims
 - Knowledge Graph
 - MCP
-- agent-native
+- Agent-Native
 - Authentication
 - Data Engineering
 - Interoperability

@@ -567,7 +567,7 @@ tags:
 - Policy as Code
 - cloudops
 - MCP
-- agent-native
+- Agent-Native
 - Kubernetes
 token_urls:
 - https://cloud.corestack.io/mcp/oauth/token

@@ -184,6 +184,7 @@ tags:
 - Brand Visibility
 - Citations
 - MCP
+- A2A
 token_urls:
 - https://auth.tryprofound.com/oauth2/token
 ---

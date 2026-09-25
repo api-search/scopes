@@ -96,10 +96,10 @@ tags:
 - Stock Photos
 - Image Search
 - Semantic Search
-- Computer-Vision
+- Computer Vision
 - Embeddings
 - MCP
-- agent-native
+- Agent-Native
 - Content Licensing
 token_urls:
 - https://pexafy.com/oauth/token/

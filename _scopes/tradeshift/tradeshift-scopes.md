@@ -342,7 +342,8 @@ tags:
 - business-documents
 - Fintech
 - MCP
-- agent-native
+- Agent-Native
+- Procurement
 token_urls:
 - https://mcp.tradeshift.com/oauth/token
 - https://api.tradeshift.com/tradeshift/auth/token

@@ -126,6 +126,7 @@ tags:
 - Agent Skills
 - RPA
 - Enterprise Automation
+- A2A
 token_urls:
 - https://vantage-us.abbyy.com/auth2/connect/token
 ---

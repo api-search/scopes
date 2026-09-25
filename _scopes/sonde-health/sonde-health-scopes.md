@@ -50,7 +50,7 @@ tags:
 - Vocal Biomarkers
 - Voice
 - Audio
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Mental Health
 - Respiratory

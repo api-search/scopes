@@ -243,6 +243,7 @@ tags:
 - ESPI
 - IEEE 2030.5
 - Fortune 500
+- Utilities
 token_urls:
 - https://api.xcelenergy.com/DataCustodian/oauth/token
 ---

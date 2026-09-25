@@ -40,7 +40,7 @@ tags:
 - Data Governance
 - Embedded Integration
 - MCP
-- agent-native
+- Agent-Native
 - Revenue Operations
 - Data Synchronization
 token_urls: []

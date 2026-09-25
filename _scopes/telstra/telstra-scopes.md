@@ -90,7 +90,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telstra/refs/h
 summary_line: 2 scopes · clientCredentials
 tags:
 - Telecommunications
-- Telco
 - Mobile
 - Messaging
 - SMS

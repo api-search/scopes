@@ -113,13 +113,14 @@ tags:
 - Account
 - Banking
 - Brokerage
-- Financial-Services
+- Financial Services
 - Investing
 - Market Data
 - Authentication
 - Order
 - Trading
 - Fortune 500
+- Wealth Management
 token_urls:
 - https://api.schwabapi.com/v1/oauth/token
 ---

@@ -105,7 +105,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Enterprise Social
 - Microsoft
-- Social Networking
+- Social Network
 - Viva Engage
 - Yammer
 token_urls:

@@ -368,9 +368,10 @@ tags:
 - Parquet
 - Bulk Data
 - MCP
-- agent-native
+- Agent-Native
 - x402
 - OpenAPI
 - REST
+- A2A
 token_urls: []
 ---

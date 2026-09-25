@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/bankwes
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/scopes/bankwest-scopes.yml
 summary_line: 5 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

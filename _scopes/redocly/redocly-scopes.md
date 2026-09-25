@@ -98,6 +98,7 @@ tags:
 - MCP
 - Monitoring
 - OpenAPI
+- A2A
 token_urls:
 - https://{projectHost}/_mcp/oauth2/token-portal
 ---

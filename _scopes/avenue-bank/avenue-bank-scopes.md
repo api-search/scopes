@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/avenue-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/scopes/avenue-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

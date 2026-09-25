@@ -109,8 +109,8 @@ tags:
 - Chargebacks
 - Disputes
 - Fraud
-- Risk
-- Financial-Services
+- Risk Management
+- Financial Services
 - E-Commerce
 - Artificial Intelligence
 - Webhook

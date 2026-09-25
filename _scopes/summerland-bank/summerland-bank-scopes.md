@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/summerl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/scopes/summerland-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

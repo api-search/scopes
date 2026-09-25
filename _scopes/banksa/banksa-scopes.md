@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/scopes/banksa-scopes.yml
 summary_line: 9 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

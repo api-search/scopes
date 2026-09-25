@@ -101,6 +101,7 @@ tags:
 - MCP
 - Desktop
 - Aggregator
+- Real-Time
 token_urls:
 - http://localhost:23373/oauth/token
 ---

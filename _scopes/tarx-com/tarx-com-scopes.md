@@ -9,11 +9,11 @@ method: probed
 name: Tarx Com Scopes
 name_suffix: OAuth Scopes
 note: The scope names come verbatim from the provider's RFC 8414 / RFC 9728 metadata. No scopes reference page was found on docs.tarx.com or howdy.tarx.com, so descriptions are recorded only where a provider document states the meaning; the rest are null rather than guessed. ai-plugin.json requests scope "user" for the ChatGPT connector.
-overview: 'TARXAN Inc uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'TARXAN uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: TARXAN Inc
+provider_name: TARXAN
 provider_slug: tarx-com
 schemes: []
 scope_count: 0

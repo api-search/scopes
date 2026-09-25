@@ -81,7 +81,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Agriculture
 - Farm Management
-- Financial
+- Finance
 - Crop Planning
 - Agronomy
 token_urls:

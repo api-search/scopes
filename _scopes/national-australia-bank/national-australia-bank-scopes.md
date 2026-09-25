@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://openban
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/scopes/national-australia-bank-scopes.yml
 summary_line: 11 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

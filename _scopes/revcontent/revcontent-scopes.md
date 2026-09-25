@@ -120,7 +120,7 @@ tags:
 - Ad Network
 - Publisher Monetization
 - Programmatic Advertising
-- Advertising Technology
+- AdTech
 - Campaign Management
 - Audience Targeting
 - Conversion Tracking

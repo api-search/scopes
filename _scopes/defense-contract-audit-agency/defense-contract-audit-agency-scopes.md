@@ -47,12 +47,12 @@ source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: >-\n  https://csp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/scopes/defense-contract-audit-agency-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- Federal-Government
+- Federal Government
 - Defense
 - Department of Defense
 - Audit
 - Contract Audit
-- Financial
+- Finance
 - Government Contracting
 - CAGE Code
 - Unique Entity Identifier

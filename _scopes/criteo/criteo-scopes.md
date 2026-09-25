@@ -229,6 +229,8 @@ tags:
 - Retail
 - Retail Media
 - Sponsored Products
+- A2A
+- AdTech
 token_urls:
 - https://api.criteo.com/oauth2/token
 ---

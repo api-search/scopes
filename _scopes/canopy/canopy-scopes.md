@@ -111,7 +111,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Auto Insurance
 - Casualty
-- Financial-Services
+- Financial Services
 - Homeowners Insurance
 - Insurance
 - Insurance Verification

@@ -404,7 +404,7 @@ tags:
 - E-Commerce
 - Card Issuing
 - Remittances
-- Financial-Services
+- Financial Services
 - B2B Payments
 - Digital Wallet
 - China

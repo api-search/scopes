@@ -80,7 +80,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aig/refs/heads
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Insurance
-- Financial-Services
+- Financial Services
 - Property Casualty
 - Cyber Insurance
 - Enterprise

@@ -191,13 +191,13 @@ tags:
 - Data Profiling
 - Data Validation
 - Data Engineering
-- Machine-Learning
+- Machine Learning
 - Snowflake
 - Databricks
 - BigQuery
 - Enterprise Data
 - MCP
-- agent-native
+- Agent-Native
 token_urls:
 - https://app.anomalo.com/oauth/token/
 ---

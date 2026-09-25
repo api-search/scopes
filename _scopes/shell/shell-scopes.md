@@ -160,14 +160,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shell/refs/hea
 summary_line: 9 scopes · clientCredentials
 tags:
 - Aviation
-- Electric Vehicle Charging
+- EV Charging
 - Energy
 - Fleet Management
 - Fuel
 - Gas
 - Loyalty
 - Lubricants
-- Mobility
 - Oil and Gas
 - Renewable Energy
 token_urls:

@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/gateway-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/scopes/gateway-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

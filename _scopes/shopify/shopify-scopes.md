@@ -558,5 +558,9 @@ tags:
 - Shopping Cart
 - T1
 - Shopify
+- Agentic Commerce
+- Universal Commerce Protocol
+- Point-of-Sale
+- Canada
 token_urls: []
 ---

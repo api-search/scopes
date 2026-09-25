@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/bank-of-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/scopes/bank-of-sydney-scopes.yml
 summary_line: 5 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

@@ -117,6 +117,7 @@ tags:
 - Taxonomy
 - Prices
 - Search
+- Food and Beverage
 token_urls:
 - auth
 ---

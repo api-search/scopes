@@ -103,7 +103,6 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://debounce.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/scopes/debounce-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- Email Validation
 - Email Verification
 - Deliverability
 - Disposable Email Detection
@@ -113,6 +112,7 @@ tags:
 - Syntax Validation
 - Reverse Email Lookup
 - Logo API
+- A2A
 token_urls:
 - https://debounce.com/wp-json/novamira/v1/oauth/token
 ---

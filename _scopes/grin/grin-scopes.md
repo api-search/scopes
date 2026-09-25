@@ -131,7 +131,7 @@ tags:
 - Creator Management
 - Affiliate Marketing
 - Marketing
-- Social-Media
+- Social Media
 - E-Commerce
 token_urls:
 - https://auth.grin.co/oauth/token

@@ -189,7 +189,7 @@ tags:
 - Data Management
 - Cloud Storage
 - Analytics
-- Machine-Learning
+- Machine Learning
 token_urls:
 - https://oauth2.tiledb.com/oauth2/token
 ---

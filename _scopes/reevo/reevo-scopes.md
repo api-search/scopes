@@ -165,6 +165,7 @@ tags:
 - Agents
 - MCP
 - Sales Engagement
+- A2A
 token_urls:
 - https://mcp.reevo.ai/token
 ---

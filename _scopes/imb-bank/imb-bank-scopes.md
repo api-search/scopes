@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://openban
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/scopes/imb-bank-scopes.yml
 summary_line: 12 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

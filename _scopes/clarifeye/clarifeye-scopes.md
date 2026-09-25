@@ -138,7 +138,7 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Company
 - Artificial Intelligence
-- Knowledge-Management
+- Knowledge Management
 - MCP
 - Document Intelligence
 - Agents

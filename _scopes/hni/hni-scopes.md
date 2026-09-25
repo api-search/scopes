@@ -9,11 +9,11 @@ method: probed
 name: Hni Scopes
 name_suffix: OAuth Scopes
 note: Scopes are read verbatim from the scopes_supported array of the authorization server metadata served at hearthnhome.com. HNI publishes no scope reference page; the authorization server is operated by Shopify. No OpenAPI exists, so derive-oauth-scopes.py produced nothing and this file was written from the live discovery document instead.
-overview: 'HNI Corporation uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'HNI uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: HNI Corporation
+provider_name: HNI
 provider_slug: hni
 schemes: []
 scope_count: 0

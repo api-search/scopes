@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://openban
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/scopes/newcastle-permanent-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

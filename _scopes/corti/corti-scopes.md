@@ -245,7 +245,8 @@ tags:
 - Medical Coding
 - Clinical Documentation
 - Agents
-- Machine-Learning
+- Machine Learning
+- Real-Time
 token_urls:
 - https://auth.eu.corti.app/realms/base/protocol/openid-connect/token
 ---

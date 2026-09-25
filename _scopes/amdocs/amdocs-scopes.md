@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amdocs-c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/scopes/amdocs-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
-- Telecom
+- Telecommunications
 - BSS
 - OSS
 - Billing
@@ -89,6 +89,7 @@ tags:
 - MVNO
 - 5G
 - Software-as-a-Service
+- Real-Time
 token_urls:
 - https://auth.amdocs-dbs.com/oauth/token
 ---

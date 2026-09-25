@@ -89,9 +89,10 @@ tags:
 - Generative AI
 - AI Agents
 - Foundation Models
-- Machine-Learning
+- Machine Learning
 - Cloud
 - Azure
+- A2A
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 ---

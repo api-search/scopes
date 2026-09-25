@@ -114,6 +114,7 @@ tags:
 - Kubernetes
 - Root Cause Analysis
 - MCP
+- A2A
 token_urls:
 - https://antimetal.authkit.app/oauth2/token
 ---

@@ -161,7 +161,7 @@ tags:
 - Financial Analytics
 - Insurance
 - KYC
-- Risk
+- Risk Management
 - Screening
 token_urls:
 - https://api.economy.com/data/v1/oauth2/token

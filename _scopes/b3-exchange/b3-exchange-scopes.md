@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: derived\nsource: openapi/ (Swagge
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/scopes/b3-exchange-scopes.yml
 summary_line: 2 scopes · clientCredentials/password
 tags:
-- Financial
+- Finance
 - Market Data
 - Stocks
 - Trading

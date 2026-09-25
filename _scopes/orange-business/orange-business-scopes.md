@@ -561,7 +561,7 @@ tags:
 - SD-WAN
 - SMS
 - SASE
-- Telco
+- Telecommunications
 - Voice
 token_urls:
 - https://liveobjects.orange-business.com/api/v1/oauth2/token

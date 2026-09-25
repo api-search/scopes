@@ -30,9 +30,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Fediverse
 - Mastodon
-- Open-Source
-- Social Networking
-- Social-Media
+- Open Source
+- Social Network
+- Social Media
 - Web-Client
 - Progressive Web App
 - Authentication

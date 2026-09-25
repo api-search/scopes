@@ -37,7 +37,7 @@ tags:
 - Point Cloud
 - Carbon Measurement
 - Forestry
-- Machine-Learning
+- Machine Learning
 - Spatial Analytics
 - Company
 token_urls: []

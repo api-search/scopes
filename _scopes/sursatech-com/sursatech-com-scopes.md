@@ -66,14 +66,13 @@ summary_line: 4 scopes · clientCredentials
 tags:
 - AI Agents
 - A2A
-- Agent-to-Agent
 - AI Consulting
 - Product Engineering
 - Software Development
 - RAG
 - QA Automation
 - Nepal
-- agent-native
+- Agent-Native
 - Company
 token_urls:
 - https://api.sursatech.com/api/a2a/token

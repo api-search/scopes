@@ -332,7 +332,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/worldcat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/scopes/worldcat-scopes.yml
 summary_line: 26 scopes · clientCredentials/authorizationCode
 tags:
-- Libraries
+- Library
 - Bibliographic Records
 - WorldCat
 - OCLC

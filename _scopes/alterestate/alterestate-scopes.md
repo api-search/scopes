@@ -76,7 +76,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alterestate/re
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - CRM
 - Property Management
 - Lead Management

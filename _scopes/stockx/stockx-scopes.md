@@ -84,6 +84,7 @@ tags:
 - Catalog
 - Selling
 - Order
+- Fashion
 token_urls:
 - https://accounts.stockx.com/oauth/token
 ---

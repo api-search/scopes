@@ -88,6 +88,7 @@ tags:
 - Brand Context
 - Merchant Enrichment
 - Agent Tools
+- A2A
 token_urls:
 - https://developers.brandfetch.com/api/oauth/token
 ---

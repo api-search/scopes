@@ -121,6 +121,7 @@ tags:
 - Video Messaging
 - Webhook
 - MCP
+- A2A
 token_urls:
 - https://auth.sendspark.com/oauth2/token
 ---

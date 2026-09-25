@@ -55,6 +55,7 @@ tags:
 - Liquid Biopsy
 - Genomics
 - EMR Integration
+- Diagnostics
 token_urls:
 - https://example.invalid/guardant-health/oauth/token
 ---

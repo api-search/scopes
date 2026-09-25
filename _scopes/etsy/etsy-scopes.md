@@ -321,6 +321,7 @@ tags:
 - Shipping
 - Taxonomy
 - Authentication
+- Agentic Commerce
 token_urls:
 - https://openapi.etsy.com/v3/public/oauth/token
 ---

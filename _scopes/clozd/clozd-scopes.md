@@ -135,7 +135,7 @@ tags:
 - Revenue Intelligence
 - Software-as-a-Service
 - MCP
-- agent-native
+- Agent-Native
 token_urls:
 - https://oauth.clozd.com/token
 ---

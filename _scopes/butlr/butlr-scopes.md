@@ -88,6 +88,6 @@ tags:
 - IoT
 - GraphQL
 - Webhook
-- Real-Estate
+- Real Estate
 token_urls: []
 ---

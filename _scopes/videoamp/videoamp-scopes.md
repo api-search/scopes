@@ -162,7 +162,7 @@ tags:
 - Attribution
 - Data Collaboration
 - MCP
-- agent-native
+- Agent-Native
 token_urls:
 - https://login.videoamp.com/oauth/token
 ---

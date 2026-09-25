@@ -112,7 +112,7 @@ tags:
 - Web3
 - Blockchain
 - DAO
-- agent-native
+- Agent-Native
 token_urls:
 - https://auth.execution.market/oauth/token
 ---

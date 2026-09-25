@@ -98,7 +98,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullview/refs/
 summary_line: 12 scopes · authorizationCode/clientCredentials
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Co-Browsing
 - Session Replay
 - Customer Experience

@@ -143,9 +143,9 @@ tags:
 - Cannabis
 - Compliance
 - Banking
-- Financial-Services
+- Financial Services
 - BSA/AML
-- Regulatory Technology
+- RegTech
 - Point-of-Sale
 - Onboarding
 - Due Diligence

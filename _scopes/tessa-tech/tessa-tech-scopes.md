@@ -65,7 +65,7 @@ tags:
 - Agent Directory
 - A2A
 - MCP
-- agent-native
+- Agent-Native
 - Company
 token_urls:
 - https://tessa.tech/oauth/token

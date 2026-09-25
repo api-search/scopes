@@ -164,8 +164,8 @@ tags:
 - Broker Research
 - Expert Networks
 - Speech-to-Text
-- Financial-Services
+- Financial Services
 - MCP
-- agent-native
+- Agent-Native
 token_urls: []
 ---

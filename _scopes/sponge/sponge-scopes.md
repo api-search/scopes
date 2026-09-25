@@ -122,7 +122,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/he
 summary_line: 5 scopes
 tags:
 - Company
-- Agent Payments
+- Agentic Payments
 - AI Agents
 - Wallets
 - Cryptocurrency

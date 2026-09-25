@@ -206,6 +206,7 @@ tags:
 - Sleep
 - Google
 - IoT
+- Wellness
 token_urls:
 - https://api.fitbit.com/oauth2/token
 ---

@@ -507,7 +507,7 @@ tags:
 - Just-In-Time Access
 - Non-Human Identity
 - Secrets Management
-- Agentic AI
+- AI Agents
 - Cybersecurity
 - Identity Federation
 token_urls: []

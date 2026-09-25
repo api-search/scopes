@@ -505,7 +505,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glacier-bancor
 summary_line: 116 scopes
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Digital Banking
 - OpenID Connect
 - Authentication

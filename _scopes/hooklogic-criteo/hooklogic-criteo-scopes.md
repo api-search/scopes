@@ -202,6 +202,7 @@ tags:
 - E-Commerce
 - Marketing
 - Retail
+- A2A
 token_urls:
 - https://api.criteo.com/oauth2/token
 ---

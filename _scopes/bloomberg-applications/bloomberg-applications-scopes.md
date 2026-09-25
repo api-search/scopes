@@ -31,7 +31,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Enterprise API
 - Financial Analytics
-- Financial-Services
+- Financial Services
 - Market Data
 - Real-Time Data
 token_urls: []

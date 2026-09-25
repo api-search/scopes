@@ -579,7 +579,7 @@ summary_line: 1 scope · clientCredentials/authorizationCode
 tags:
 - Company
 - Banking
-- Financial-Services
+- Financial Services
 - Lending
 - Mortgage
 - Loan Origination

@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: https://api.theta
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thetaray/refs/heads/main/scopes/thetaray-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
-- Anti-Money Laundering
+- AML
 - Financial Crime
 - Transaction Monitoring
 - Sanctions Screening

@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/scopes/suncorp-bank-scopes.yml
 summary_line: 10 scopes · authorizationCode/clientCredentials
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

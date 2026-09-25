@@ -95,7 +95,7 @@ tags:
 - Booking
 - Channels
 - XML
-- JSON-Schema
+- JSON Schema
 token_urls:
 - https://opentravel.org/oauth/token
 ---

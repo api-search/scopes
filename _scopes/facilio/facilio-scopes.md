@@ -303,7 +303,7 @@ tags:
 - Property Operations
 - Maintenance
 - Asset Management
-- Real-Estate
+- Real Estate
 - IoT
 - Buildings
 token_urls:

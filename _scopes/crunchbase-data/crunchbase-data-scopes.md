@@ -107,6 +107,7 @@ tags:
 - Market Insights
 - MCP
 - Fortune 1000
+- Startups
 token_urls:
 - https://oauth.crunchbase.com/token
 ---

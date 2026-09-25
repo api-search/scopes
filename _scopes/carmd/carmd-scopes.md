@@ -38,12 +38,12 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Automobiles
 - Cars
-- Diagnostics
 - Vehicles
 - Automotive
 - OBD-II
 - Agentic Commerce
 - MCP
 - E-Commerce
+- Vehicle Diagnostics
 token_urls: []
 ---

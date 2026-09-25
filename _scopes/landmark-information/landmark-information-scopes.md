@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: derived\nsource: openapi/landmark
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/scopes/landmark-information-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Real-Estate
+- Real Estate
 - United Kingdom
 - PropTech
 - Property Data
@@ -97,7 +97,7 @@ tags:
 - Land Registry
 - Geospatial
 - Valuation
-- Anti-Money Laundering
+- AML
 - Planning Data
 - Mortgage
 token_urls:

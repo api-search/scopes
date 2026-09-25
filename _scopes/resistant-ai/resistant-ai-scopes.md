@@ -68,7 +68,7 @@ tags:
 - AML
 - Identity Verification
 - Fintech
-- Machine-Learning
+- Machine Learning
 token_urls:
 - https://eu.id.resistant.ai/oauth2/aus2un1hkrKhPjir4417/v1/token
 ---

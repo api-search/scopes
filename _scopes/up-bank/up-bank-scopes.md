@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.up.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/scopes/up-bank-scopes.yml
 summary_line: 10 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

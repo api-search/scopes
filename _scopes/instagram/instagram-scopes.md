@@ -199,7 +199,7 @@ tags:
 - Instagram
 - Meta
 - Photos
-- Social-Media
+- Social Media
 - Video
 - Content Publishing
 token_urls:

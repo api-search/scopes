@@ -226,7 +226,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Banking
 - Central Banking
-- Financial-Services
+- Financial Services
 - ISO 20022
 - Market Infrastructure
 - Messaging

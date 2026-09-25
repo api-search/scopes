@@ -89,7 +89,7 @@ tags:
 - Microsegmentation
 - Zero Trust
 - eBPF
-- Open-Source
+- Open Source
 token_urls:
 - https://www.tigera.io/oauth/token
 ---

@@ -188,7 +188,7 @@ tags:
 - Works
 - Labels
 - Cover Art
-- Open-Source
+- Open Source
 - Non-Profit
 token_urls:
 - https://musicbrainz.org/oauth2/token

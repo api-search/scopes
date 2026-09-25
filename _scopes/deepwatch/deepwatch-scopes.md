@@ -84,7 +84,7 @@ tags:
 - Threat Intelligence
 - Vulnerability Management
 - Managed Security Services
-- Agentic AI
+- AI Agents
 token_urls:
 - https://deepwatch.okta.com/oauth2/v1/token
 ---

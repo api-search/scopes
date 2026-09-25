@@ -192,7 +192,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worklittle/ref
 summary_line: 11 scopes · authorizationCode
 tags:
 - Job Search
-- ATS
+- Applicant Tracking
 - Recruiting
 - Workforce Intelligence
 - Job Board

@@ -500,6 +500,7 @@ tags:
 - Reporting
 - SMS
 - Surveys
+- Email
 token_urls:
 - https://authz.constantcontact.com/oauth2/default/v1/token
 ---

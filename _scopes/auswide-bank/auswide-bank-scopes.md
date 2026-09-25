@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/auswide-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/scopes/auswide-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

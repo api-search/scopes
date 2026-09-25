@@ -187,7 +187,7 @@ tags:
 - Manufacturing
 - Medical Devices
 - Industrial Equipment
-- Knowledge-Management
+- Knowledge Management
 - Voice AI
 - MCP
 - Predictive Maintenance

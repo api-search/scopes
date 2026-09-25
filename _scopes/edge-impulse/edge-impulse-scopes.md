@@ -253,13 +253,15 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/r
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Embedded Machine Learning
 - Edge AI
 - MLOps
-- Computer-Vision
+- Computer Vision
 - IoT
 - Model Deployment
 - Developer Tools
+- Real-Time
+- A2A
 token_urls: []
 ---

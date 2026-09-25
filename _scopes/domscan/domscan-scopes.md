@@ -253,6 +253,6 @@ tags:
 - OSINT
 - Threat Intelligence
 - MCP
-- agent-native
+- Agent-Native
 token_urls: []
 ---

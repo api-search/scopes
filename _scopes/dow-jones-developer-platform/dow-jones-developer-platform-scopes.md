@@ -158,7 +158,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Business Data
 - Compliance
-- Financial
+- Finance
 - Market Data
 - News
 - Risk and Compliance

@@ -55,14 +55,14 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - twitter
 - X
-- Social-Media
+- Social Media
 - Social Data
 - Search
 - Analytics
 - Research
 - Developer Tools
 - MCP
-- agent-native
+- Agent-Native
 - llms-txt
 - REST API
 token_urls:

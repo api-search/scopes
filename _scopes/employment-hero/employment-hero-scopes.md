@@ -102,9 +102,10 @@ tags:
 - Human Resources
 - HRIS
 - Payroll
-- Recruitment
+- Recruiting
 - Employee Benefits
 - Workforce Management
+- Australia
 token_urls:
 - https://oauth.employmenthero.com/oauth2/token
 ---

@@ -69,7 +69,7 @@ tags:
 - Social Sharing
 - Website Tools
 - Audience Data
-- Advertising Technology
+- AdTech
 - Analytics
 - Consent Management
 - Publishing

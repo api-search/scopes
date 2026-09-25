@@ -185,8 +185,9 @@ tags:
 - ITSM
 - Processes
 - T1
-- Workflow-Automation
+- Workflow Automation
 - Workflows
+- A2A
 token_urls:
 - https://{instance}.service-now.com/oauth_token.do
 ---

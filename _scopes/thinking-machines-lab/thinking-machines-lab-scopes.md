@@ -69,7 +69,7 @@ summary_line: 4 scopes · authorizationCode/deviceCode
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - LLM
 - Fine-Tuning
 - Model Training

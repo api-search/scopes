@@ -84,7 +84,7 @@ tags:
 - Image
 - Music
 - Messaging
-- Communities
+- Community
 - Holding Company
 token_urls:
 - https://api.genius.com/oauth/token

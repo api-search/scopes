@@ -77,6 +77,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broadridge/ref
 summary_line: 3 scopes · clientCredentials
 tags:
 - Fortune 1000
+- Wealth Management
 token_urls:
 - https://auth.broadridge.example.com/oauth/token
 ---

@@ -56,6 +56,6 @@ tags:
 - Market Intelligence
 - SEO
 - MCP
-- agent-native
+- Agent-Native
 token_urls: []
 ---

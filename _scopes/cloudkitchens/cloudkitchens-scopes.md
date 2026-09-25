@@ -384,7 +384,7 @@ tags:
 - Delivery
 - Reporting
 - Loyalty
-- Real-Estate
+- Real Estate
 token_urls:
 - /v1/auth/token
 ---

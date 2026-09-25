@@ -120,6 +120,7 @@ tags:
 - MCP
 - Agents
 - Product Analytics
+- A2A
 token_urls:
 - https://app.navattic.com/api/mcp/oauth/token
 ---

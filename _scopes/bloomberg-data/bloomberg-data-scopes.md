@@ -30,7 +30,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-data
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Analytics
-- Financial-Services
+- Financial Services
 - Market Data
 - News
 - Real-Time Data

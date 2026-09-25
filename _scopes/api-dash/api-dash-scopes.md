@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - API Client
-- Open-Source
+- Open Source
 - Flutter
 - Desktop
 - Mobile

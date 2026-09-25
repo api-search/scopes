@@ -173,11 +173,12 @@ tags:
 - Blockchain
 - Cryptocurrency
 - Fintech
-- Financial-Services
+- Financial Services
 - Custody
 - Tokenization
 - On-Ramp
 - Off-Ramp
+- A2A
 token_urls:
 - https://auth.brale.xyz/oauth2/token
 ---

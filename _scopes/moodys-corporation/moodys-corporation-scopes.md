@@ -65,14 +65,14 @@ method: derived
 name: Moodys Corporation Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Moody''s Corporation publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Moody''s Corporation API on a user''s behalf.
+overview: 'Moody''s publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Moody''s API on a user''s behalf.
 
 
   Tokens are issued from https://api.economy.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: Moody's Corporation
+provider_name: Moody's
 provider_slug: moodys-corporation
 schemes:
 - flows:
@@ -116,7 +116,7 @@ tags:
 - ESG
 - Financial Data
 - KYC
-- Risk
+- Risk Management
 - Fortune 1000
 token_urls:
 - https://api.economy.com/oauth2/token

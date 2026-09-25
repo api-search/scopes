@@ -271,12 +271,12 @@ summary_line: 21 scopes
 tags:
 - Company
 - Accounting
-- Financial
+- Finance
 - Bookkeeping
 - Fintech
 - General Ledger
 - Payroll
-- agent-native
+- Agent-Native
 - MCP
 token_urls: []
 ---

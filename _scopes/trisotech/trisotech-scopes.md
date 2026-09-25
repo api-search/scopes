@@ -112,7 +112,7 @@ summary_line: 20 scopes
 tags:
 - Business Process Management
 - Decision Management
-- Workflow-Automation
+- Workflow Automation
 - Low-Code
 - BPMN
 - DMN

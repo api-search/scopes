@@ -546,7 +546,8 @@ tags:
 - Embedded Finance
 - Travel Rule
 - Webhook
-- agent-native
+- Agent-Native
+- A2A
 token_urls:
 - /core/oauth2/token
 ---

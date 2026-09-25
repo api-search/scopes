@@ -108,7 +108,7 @@ summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
 - Agriculture
 - Farm Management
-- Open-Source
+- Open Source
 - JSON:API
 - Recordkeeping
 - Self-Hosted

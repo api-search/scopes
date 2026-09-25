@@ -99,10 +99,9 @@ summary_line: 1 scope · clientCredentials/authorizationCode
 tags:
 - Company
 - Payments
-- Money-Transfer
-- FinTech
+- Money Transfer
+- Fintech
 - Banking
-- API
 token_urls:
 - https://sandbox.api.ofx.com/v1/oauth/token
 ---

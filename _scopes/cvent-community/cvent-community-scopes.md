@@ -227,7 +227,7 @@ summary_line: 36 scopes · authorizationCode
 tags:
 - Certification
 - Community
-- Customer-Support
+- Customer Support
 - Cvent Academy
 - Education
 - Forums

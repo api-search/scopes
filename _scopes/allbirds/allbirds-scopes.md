@@ -69,6 +69,7 @@ tags:
 - Direct to Consumer
 - Agentic Commerce
 - Shopify
+- Fashion
 token_urls:
 - https://accounts.allbirds.com/authentication/oauth/token
 ---

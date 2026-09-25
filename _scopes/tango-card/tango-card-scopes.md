@@ -126,6 +126,7 @@ tags:
 - Digital Rewards
 - Prepaid Cards
 - Payments
+- Loyalty
 token_urls:
 - https://auth.tangocard.com/oauth/token
 ---

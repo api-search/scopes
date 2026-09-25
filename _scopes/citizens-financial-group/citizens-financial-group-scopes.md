@@ -166,7 +166,7 @@ summary_line: 5 scopes
 tags:
 - Banking
 - Buy Now Pay Later
-- Financial-Services
+- Financial Services
 - FDX
 - Locator
 - Open Banking

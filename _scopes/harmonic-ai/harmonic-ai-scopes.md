@@ -68,7 +68,7 @@ tags:
 - Market Intelligence
 - GraphQL
 - MCP
-- agent-native
+- Agent-Native
 token_urls:
 - https://mcp.api.harmonic.ai/token
 ---

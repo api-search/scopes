@@ -244,7 +244,7 @@ tags:
 - Fintech
 - United Kingdom
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 token_urls:
 - /v1/oauth/token
 ---

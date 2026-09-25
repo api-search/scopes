@@ -36,7 +36,7 @@ tags:
 - Marketing
 - Artificial Intelligence
 - Generative AI
-- Advertising Technology
+- AdTech
 - Marketing Automation
 token_urls: []
 ---

@@ -360,9 +360,10 @@ tags:
 - Text-to-Speech
 - Voice Cloning
 - MCP
-- agent-native
+- Agent-Native
 - Saudi Arabia
 - MENA
+- A2A
 token_urls:
 - https://platform-api.sarj.ai/api/v1/oauth/token
 ---

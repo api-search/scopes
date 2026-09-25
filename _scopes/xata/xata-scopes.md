@@ -183,7 +183,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xata/refs/head
 summary_line: 15 scopes · implicit
 tags:
 - Database
-- Postgres
+- PostgreSQL
 - Serverless
 - Developer Tools
 - Branching

@@ -79,7 +79,7 @@ tags:
 - Influencer Marketing
 - Creator Economy
 - Marketing
-- Social-Media
+- Social Media
 - Affiliate Marketing
 - Advocacy
 - Campaign Management

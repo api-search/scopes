@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aladdin-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/scopes/aladdin-studio-scopes.yml
 summary_line: 7 scopes · clientCredentials/authorizationCode
 tags:
-- Financial
+- Finance
 - Investment Management
 - Portfolio Analytics
 - Risk Management

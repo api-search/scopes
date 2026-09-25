@@ -188,7 +188,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://p
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/scopes/hootsuite-scopes.yml
 summary_line: 2 scopes · authorizationCode/clientCredentials
 tags:
-- Social-Media
+- Social Media
 - Social Media Management
 - Marketing
 - Content Scheduling
@@ -200,6 +200,8 @@ tags:
 - SCIM
 - Authentication
 - Webhook
+- Scheduling
+- Canada
 token_urls:
 - https://platform.hootsuite.com/oauth2/token
 - TO_BE_CONFIGURED_IN_INBOX_2_0

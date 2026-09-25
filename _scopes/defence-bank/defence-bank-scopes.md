@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/defence
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/scopes/defence-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

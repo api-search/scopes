@@ -218,9 +218,9 @@ summary_line: 20 scopes · authorizationCode
 tags:
 - Reddit
 - Advertising
-- Communities
+- Community
 - Content
-- Social-Media
+- Social Media
 - Social News
 token_urls:
 - https://www.reddit.com/api/v1/access_token

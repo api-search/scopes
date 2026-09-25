@@ -525,5 +525,7 @@ tags:
 - Booking
 - Reservations
 - Point-of-Sale
+- Restaurant
+- Real-Time
 token_urls: []
 ---

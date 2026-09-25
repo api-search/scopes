@@ -172,6 +172,6 @@ tags:
 - Product Catalog
 - MarTech
 - MCP
-- agent-native
+- Agent-Native
 token_urls: []
 ---

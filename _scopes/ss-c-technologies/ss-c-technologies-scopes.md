@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: https://ssoprod.s
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/scopes/ss-c-technologies-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Financial-Services
+- Financial Services
 - Investment Management
 - Fund Administration
 - Wealth Management

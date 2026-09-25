@@ -161,7 +161,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Advertising
 - Marketing
-- Social-Media
+- Social Media
 - Ad Campaigns
 - Performance Marketing
 - Conversion Tracking

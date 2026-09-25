@@ -1149,10 +1149,11 @@ tags:
 - Commerce
 - Customers
 - Experience
-- Machine-Learning
+- Machine Learning
 - Personalization
 - Recommendations
 - Search
+- Canada
 token_urls:
 - https://platform.cloud.coveo.com/oauth/token
 ---

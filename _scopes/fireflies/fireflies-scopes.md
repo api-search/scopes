@@ -105,6 +105,7 @@ tags:
 - Productivity
 - Collaboration
 - Conversation Intelligence
+- A2A
 token_urls:
 - https://api.fireflies.ai/token
 - https://mcp.fireflies.ai/token

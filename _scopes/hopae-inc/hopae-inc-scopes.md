@@ -64,11 +64,11 @@ method: searched
 name: Hopae Inc Scopes
 name_suffix: OAuth Scopes
 note: The hConnect REST OpenAPI declares only HTTP basic + bearer security schemes (no oauth2 block), but the OIDC OP surface (connect.hopae.com) publishes an OpenID Connect discovery document that declares scopes_supported. These are the OIDC request scopes used in the Authorization Code flow for browser-based sign-in.
-overview: 'Hopae, Inc. publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Hopae, Inc. API on a user''s behalf.
+overview: 'Hopae publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Hopae API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: Hopae, Inc.
+provider_name: Hopae
 provider_slug: hopae-inc
 schemes:
 - authorization_endpoint: https://connect.hopae.com/auth

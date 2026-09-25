@@ -69,7 +69,7 @@ summary_line: 8 scopes
 tags:
 - Company
 - Fintech
-- Machine-Learning
+- Machine Learning
 - Data Science
 - Hedge Funds
 - GraphQL

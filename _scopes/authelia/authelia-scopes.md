@@ -147,9 +147,10 @@ tags:
 - Authorization
 - LDAP
 - MFA
-- Open-Source
+- Open Source
 - OpenID Connect
 - Self-Hosted
 - SSO
+- Identity Federation
 token_urls: []
 ---

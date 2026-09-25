@@ -325,7 +325,7 @@ tags:
 - Application
 - Backend
 - Mobile
-- Open-Source
+- Open Source
 - Database
 - Storage
 - Serverless

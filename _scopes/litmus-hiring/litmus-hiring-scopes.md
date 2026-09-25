@@ -88,7 +88,7 @@ summary_line: 7 scopes · authorizationCode
 tags:
 - Company
 - Hiring
-- Recruitment
+- Recruiting
 - Technical Assessment
 - Developer Hiring
 - MCP

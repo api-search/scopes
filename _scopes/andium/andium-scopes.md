@@ -68,7 +68,7 @@ tags:
 - Remote Monitoring
 - Methane Detection
 - Emissions
-- Computer-Vision
+- Computer Vision
 - Edge Computing
 - Commerce
 - MCP

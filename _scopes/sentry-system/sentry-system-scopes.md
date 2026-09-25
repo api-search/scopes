@@ -416,6 +416,7 @@ tags:
 - Observability
 - Performance Monitoring
 - Real-Time Monitoring
+- Monitoring
 token_urls:
 - https://sentry.io/oauth/token/
 ---

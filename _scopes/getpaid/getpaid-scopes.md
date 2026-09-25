@@ -113,7 +113,7 @@ tags:
 - Marketplace
 - Onboarding
 - Subscription
-- Agent Payments
+- Agentic Payments
 - Europe
 token_urls:
 - https://auth.getpaid.io/oauth/token

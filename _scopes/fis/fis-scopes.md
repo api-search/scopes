@@ -523,7 +523,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Banking
 - Core Banking
-- Financial-Services
+- Financial Services
 - Payments
 - Fintech
 token_urls: []

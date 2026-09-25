@@ -320,12 +320,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/h
 summary_line: 46 scopes
 tags:
 - Fintech
-- Backend-as-a-Service
+- Banking as a Service
 - Banking
 - Payments
 - Card Issuing
 - ACH
 - Lending
 - JSON:API
+- Embedded Finance
 token_urls: []
 ---

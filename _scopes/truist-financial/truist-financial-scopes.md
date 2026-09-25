@@ -102,7 +102,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truist-financi
 summary_line: 4 scopes · clientCredentials/authorizationCode
 tags:
 - Banking
-- Financial-Services
+- Financial Services
 - Open Banking
 - Commercial Banking
 - Personal Banking

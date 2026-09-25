@@ -81,7 +81,7 @@ tags:
 - Biometrics
 - OpenID Connect
 - Healthcare
-- Financial-Services
+- Financial Services
 token_urls:
 - https://verified.clearme.com/integrations/oauth2/token
 ---

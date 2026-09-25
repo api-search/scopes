@@ -123,7 +123,7 @@ tags:
 - Advertising
 - Out-of-Home
 - Digital Out Of Home
-- Advertising Technology
+- AdTech
 - Marketing
 - Media
 - AI Agents

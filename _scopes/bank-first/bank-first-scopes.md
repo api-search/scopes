@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/bank-fi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/scopes/bank-first-scopes.yml
 summary_line: 7 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

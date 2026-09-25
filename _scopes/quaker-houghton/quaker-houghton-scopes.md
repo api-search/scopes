@@ -1,17 +1,4 @@
 ---
-api_specs:
-- filename: quaker-houghton-tribe-events-v1-openapi-original.json
-  format: json
-  label: Quaker Houghton Events API
-  slug: quaker-houghton-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaker-houghton/refs/heads/main/openapi/_original/quaker-houghton-tribe-events-v1-openapi-original.json
-- filename: quaker-houghton-tec-v1-openapi-original.json
-  format: json
-  label: Quaker Houghton TEC v1 Events API
-  slug: quaker-houghton-tec-v1-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaker-houghton/refs/heads/main/openapi/_original/quaker-houghton-tec-v1-openapi-original.json
 authorization_urls:
 - https://home.quakerhoughton.com/oauth/authorize
 description: Quaker Houghton's only public OAuth surface is the authorization server advertised on home.quakerhoughton.com for its remote MCP server. It declares a single coarse scope, `mcp`. There is no scope or permission reference anywhere on the site, and no other Quaker Houghton host publishes RFC 8414 or OIDC discovery metadata. The Events Calendar REST APIs on the same host have no OAuth surface at all — their reads are anonymous and their writes declare HTTP Basic (WordPress Application Passwords).

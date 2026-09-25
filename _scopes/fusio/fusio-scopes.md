@@ -677,7 +677,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/hea
 summary_line: 58 scopes · clientCredentials/authorizationCode
 tags:
 - API Management
-- Open-Source
+- Open Source
 - REST API
 - API Gateway
 - Developer Portal

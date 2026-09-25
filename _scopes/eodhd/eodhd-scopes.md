@@ -252,7 +252,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://mcpv2.e
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/scopes/eodhd-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Market Data
 - Stock Options
 - Stocks
@@ -261,6 +261,7 @@ tags:
 - Cryptocurrency
 - Fundamentals
 - News
+- Real-Time
 token_urls:
 - https://mcpv2.eodhd.dev/token
 ---

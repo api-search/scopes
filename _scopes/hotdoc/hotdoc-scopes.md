@@ -58,6 +58,7 @@ tags:
 - Primary Care
 - Digital Health
 - e-Prescribing
+- Scheduling
 token_urls:
 - https://www.hotdoc.com.au/oauth/token
 ---

@@ -9,11 +9,11 @@ method: searched
 name: Kubit Ai Inc Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Kubit AI, Inc. uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Kubit AI uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: Kubit AI, Inc.
+provider_name: Kubit AI
 provider_slug: kubit-ai-inc
 schemes: []
 scope_count: 0

@@ -175,9 +175,9 @@ tags:
 - Data Infrastructure
 - Developer Tools
 - Cloud
-- Open-Source
+- Open Source
 - gRPC
-- Agentic AI
+- AI Agents
 token_urls:
 - https://identity.eventstore.com/oauth/token
 ---

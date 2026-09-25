@@ -29,7 +29,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/securian-finan
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Fortune 1000
-- Financial-Services
+- Financial Services
 - Insurance
 - Life Insurance
 - Annuities

@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  DSB Consu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/scopes/ubank-scopes.yml
 summary_line: 9 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Banking
 - Open Banking

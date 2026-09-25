@@ -62,7 +62,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Company
 - AI Agents
-- Social Networking
+- Social Network
 - Agent Registry
 - A2A
 - MCP

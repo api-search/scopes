@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: agora-real-estate-agora-content-api-openapi.yml
-  format: yaml
-  label: Agora Real Estate Agora Content API
-  slug: agora-real-estate-agora-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/openapi/agora-real-estate-agora-content-api-openapi.yml
-- filename: agora-real-estate-wordpress-content-api-openapi.yml
-  format: yaml
-  label: Agora Real Estate WordPress Content API
-  slug: agora-real-estate-wordpress-content-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/openapi/agora-real-estate-wordpress-content-api-openapi.yml
 - filename: agora-real-estate-o-embed-api-openapi.yml
   format: yaml
   label: Agora Real Estate o Embed API
@@ -47,7 +35,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: https://auth.agor
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agora-real-estate/refs/heads/main/scopes/agora-real-estate-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Real-Estate
+- Real Estate
 - Investment Management
 - Private Equity
 - Fund Administration

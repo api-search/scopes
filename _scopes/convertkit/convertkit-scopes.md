@@ -189,6 +189,8 @@ tags:
 - Email Campaigns
 - Software-as-a-Service
 - Commerce
+- A2A
+- Email
 token_urls:
 - https://api.kit.com/oauth/token
 - https://api.kit.com/v4/oauth/token

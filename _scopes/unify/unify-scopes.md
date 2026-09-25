@@ -128,5 +128,6 @@ tags:
 - MCP
 - Agent Skills
 - Webhook
+- A2A
 token_urls: []
 ---

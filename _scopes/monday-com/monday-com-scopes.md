@@ -91,6 +91,8 @@ tags:
 - CRM
 - Automation
 - GraphQL
+- Collaboration
+- A2A
 token_urls:
 - https://auth.monday.com/oauth2/token
 ---

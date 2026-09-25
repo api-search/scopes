@@ -120,7 +120,7 @@ tags:
 - Revenue Operations
 - Commercial Intelligence
 - Customer Success
-- Agentic AI
+- AI Agents
 - Demand Generation
 token_urls:
 - https://mcp.knownwell.com/token

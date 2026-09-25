@@ -360,7 +360,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/scopes/dow-jones-scopes.yml
 summary_line: 7 scopes · authorizationCode/implicit/password/jwt-bearer/refresh_token
 tags:
-- Financial
+- Finance
 - Market Data
 - News
 - Publishing

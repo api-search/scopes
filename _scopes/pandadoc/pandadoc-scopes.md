@@ -142,7 +142,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Document Automation
 - E-Signature
-- Document-Management
+- Document Management
 - Document Generation
 - Webhook
 token_urls:

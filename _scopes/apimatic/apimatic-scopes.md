@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: apimatic-portals-api-openapi.yml
+- filename: apimatic-docs-portal-api-openapi.yml
   format: yaml
   label: APIMatic Portals API
   slug: apimatic-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-portals-api-openapi.yml
-- filename: apimatic-sdk-generation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-docs-portal-api-openapi.yml
+- filename: apimatic-sdk-api-openapi.yml
   format: yaml
   label: APIMatic SDK Generation API
   slug: apimatic-sdk-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-sdk-generation-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-sdk-api-openapi.yml
 - filename: apimatic-transformation-api-openapi.yml
   format: yaml
   label: APIMatic Transformation API
@@ -24,12 +24,6 @@ api_specs:
   slug: apimatic-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-validation-api-openapi.yml
-- filename: apimatic-apis-api-openapi.yml
-  format: yaml
-  label: APIMatic AP Is API
-  slug: apimatic-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-apis-api-openapi.yml
 authorization_urls:
 - https://chatbotapi.apimatic.io/authorize
 description: ''

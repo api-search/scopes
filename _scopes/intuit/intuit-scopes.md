@@ -71,8 +71,8 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Accounting
 - Custom Fields
-- Financial
-- Financial-Services
+- Finance
+- Financial Services
 - Invoicing
 - Payments
 - Payroll

@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/bank-of
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/scopes/bank-of-queensland-scopes.yml
 summary_line: 9 scopes
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

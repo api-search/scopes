@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://consume
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/scopes/australian-unity-bank-scopes.yml
 summary_line: 9 scopes · authorizationCode/hybrid
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

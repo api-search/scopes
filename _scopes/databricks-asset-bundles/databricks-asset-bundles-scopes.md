@@ -35,7 +35,7 @@ tags:
 - Deployment
 - Infrastructure as Code
 - Job
-- Machine-Learning
+- Machine Learning
 - MLOps
 - Pipelines
 - Workflows

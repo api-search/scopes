@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/bcu-ban
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/scopes/bcu-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

@@ -61,9 +61,9 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Artificial Intelligence
 - Video Generation
-- Image-Generation
+- Image Generation
 - MCP
-- agent-native
+- Agent-Native
 - Text-to-Video
 - Image-to-Video
 - Creative Production

@@ -94,11 +94,11 @@ method: searched
 name: Sadq Holding Limited Scopes
 name_suffix: OAuth Scopes
 note: The OpenAPI declares only BearerAuth (JWT), but the docs host publishes full OAuth 2.0 authorization-server metadata (RFC 8414), OIDC discovery, and an auth.md. Scopes are captured from those searched discovery documents.
-overview: 'Sadq Holding Limited publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Sadq Holding Limited API on a user''s behalf.
+overview: 'Sadq publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Sadq API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: Sadq Holding Limited
+provider_name: Sadq
 provider_slug: sadq-holding-limited
 schemes:
 - authorizationServer: https://identity.sadq.sa
@@ -142,7 +142,7 @@ tags:
 - Digital Signature
 - Identity
 - KYB
-- Document-Management
+- Document Management
 - Saudi Arabia
 - Nafath
 - Webhook

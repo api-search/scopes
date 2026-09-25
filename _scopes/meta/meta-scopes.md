@@ -122,7 +122,7 @@ tags:
 - Artificial Intelligence
 - Messaging
 - Social
-- Social-Media
+- Social Media
 - Virtual Reality
 token_urls: []
 ---

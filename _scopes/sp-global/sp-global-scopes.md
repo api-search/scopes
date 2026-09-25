@@ -142,6 +142,7 @@ tags:
 - Mobility
 - Named Entity Recognition
 - Speech-to-Text
+- Real-Time
 token_urls:
 - https://kfinance.kensho.com/integrations/token
 ---

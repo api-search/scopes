@@ -121,10 +121,10 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Social
-- Social Networking
+- Social Network
 - Decentralized
 - Federated
-- Open-Source
+- Open Source
 - Privacy
 - Fediverse
 - Messaging

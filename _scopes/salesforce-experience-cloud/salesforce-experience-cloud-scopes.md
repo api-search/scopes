@@ -336,7 +336,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-exp
 summary_line: 5 scopes · authorizationCode
 tags:
 - CMS
-- Communities
+- Community
 - CRM
 - Customer Portal
 - Digital Experience

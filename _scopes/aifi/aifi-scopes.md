@@ -89,7 +89,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aifi/refs/head
 summary_line: 10 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Company
-- Computer-Vision
+- Computer Vision
 - Retail
 - Autonomous Checkout
 - Spatial Intelligence

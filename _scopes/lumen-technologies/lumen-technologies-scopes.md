@@ -67,7 +67,7 @@ tags:
 - Networks
 - Networking
 - Security
-- Telecom
+- Telecommunications
 token_urls:
 - https://api.lumen.com/oauth2/token
 ---

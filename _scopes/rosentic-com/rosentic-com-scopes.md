@@ -78,7 +78,7 @@ tags:
 - MCP
 - A2A
 - GitHub Actions
-- agent-native
+- Agent-Native
 token_urls:
 - https://api.rosentic.com/oauth/token
 ---

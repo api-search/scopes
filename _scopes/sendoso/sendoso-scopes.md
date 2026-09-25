@@ -145,6 +145,7 @@ tags:
 - Account Based Marketing
 - SCIM Provisioning
 - Webhook
+- A2A
 token_urls:
 - https://app.sendoso.com/oauth/token
 ---

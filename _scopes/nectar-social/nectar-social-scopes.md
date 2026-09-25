@@ -142,7 +142,7 @@ summary_line: 18 scopes · authorizationCode
 tags:
 - Company
 - Artificial Intelligence
-- Social-Media
+- Social Media
 - Community Management
 - Social Listening
 - Influencer Marketing

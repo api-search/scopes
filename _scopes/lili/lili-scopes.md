@@ -38,14 +38,14 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Banking
 - Business Banking
-- Financial-Services
+- Financial Services
 - Fintech
 - Embedded Finance
 - Onboarding
 - KYC
 - Webhook
 - MCP
-- agent-native
+- Agent-Native
 - Invoicing
 - Bill Pay
 - Accounting

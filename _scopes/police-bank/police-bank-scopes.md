@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/police-b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/scopes/police-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
-- Financial
+- Finance
 - Banks
 - Open Banking
 - CDR

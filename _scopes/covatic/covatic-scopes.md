@@ -139,7 +139,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/h
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Advertising Technology
 - AdTech
 - Audience Intelligence
 - Data Management Platform

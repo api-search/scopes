@@ -150,11 +150,11 @@ tags:
 - Marketing
 - Media Measurement
 - Video
-- Computer-Vision
+- Computer Vision
 - Creative Analytics
 - AdTech
 - MCP
-- agent-native
+- Agent-Native
 - MarTech
 token_urls:
 - https://mcp-auth.vidmob.com/v1/oauth2/token

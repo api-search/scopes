@@ -57,7 +57,7 @@ tags:
 - Employee Onboarding
 - Employee Experience
 - HR Technology
-- Workflow-Automation
+- Workflow Automation
 - SCIM
 - Identity Provisioning
 - Webhook

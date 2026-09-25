@@ -42,9 +42,9 @@ tags:
 - A2A
 - Cryptographic Proofs
 - AI Inference Routing
-- Agent Payments
+- Agentic Payments
 - Agentic Commerce
-- agent-native
+- Agent-Native
 - United Kingdom
 token_urls: []
 ---

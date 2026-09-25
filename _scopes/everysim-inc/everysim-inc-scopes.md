@@ -9,11 +9,11 @@ method: searched
 name: Everysim Inc Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'EverySim Inc. publishes 13 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the EverySim Inc. API on a user''s behalf.
+overview: 'EverySim publishes 13 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the EverySim API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
-provider_name: EverySim Inc.
+provider_name: EverySim
 provider_slug: everysim-inc
 schemes:
 - authorizationUrl: https://auth.everysim.io/realms/everysim/protocol/openid-connect/auth

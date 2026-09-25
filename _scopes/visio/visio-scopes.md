@@ -97,7 +97,7 @@ tags:
 - Diagrams
 - Enterprise
 - Flowcharts
-- Microsoft-365
+- Microsoft 365
 - Visualization
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
