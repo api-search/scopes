@@ -115,6 +115,7 @@ tags:
 - Market Research
 - Payouts
 - Rewards
+- Loyalty & Incentives
 token_urls:
 - https://www.tremendous.com/oauth/token
 ---

@@ -191,6 +191,7 @@ tags:
 - Membership
 - Donations
 - Print on Demand
+- Creator Economy
 token_urls:
 - https://api.fourthwall.com/open-api/v1.0/platform/token
 ---

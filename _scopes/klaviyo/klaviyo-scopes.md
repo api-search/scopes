@@ -387,6 +387,8 @@ tags:
 - Customer Data
 - E-Commerce
 - Automation
+- Marketing Automation
+- Email Marketing
 token_urls:
 - https://a.klaviyo.com/oauth/token
 ---

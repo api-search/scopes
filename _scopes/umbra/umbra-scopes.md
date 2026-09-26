@@ -142,6 +142,7 @@ tags:
 - Tasking
 - Defense and Intelligence
 - Company
+- Satellite
 token_urls:
 - https://auth.canopy.umbra.space/oauth/token
 ---

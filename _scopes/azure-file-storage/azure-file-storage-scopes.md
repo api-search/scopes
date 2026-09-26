@@ -76,10 +76,10 @@ tags:
 - Storage
 - File Storage
 - File Shares
-- SMB
 - NFS
 - Cloud
 - Azure
+- Server Message Block
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 ---

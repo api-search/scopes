@@ -84,6 +84,7 @@ tags:
 - Finance
 - Crop Planning
 - Agronomy
+- AgTech
 token_urls:
 - https://auth.granular.ag/oauth/token
 ---

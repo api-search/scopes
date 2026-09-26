@@ -626,6 +626,7 @@ tags:
 - Blockchain
 - Financial Services
 - Digital Assets
+- Stablecoin Issuance
 token_urls:
 - https://oauth.paxos.com/oauth2/token
 ---

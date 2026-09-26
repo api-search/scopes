@@ -203,6 +203,7 @@ tags:
 - MODIS
 - OGC
 - STAC
+- Satellite
 token_urls:
 - https://services.sentinel-hub.com/auth/realms/main/protocol/openid-connect/token
 ---

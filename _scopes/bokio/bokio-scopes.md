@@ -277,7 +277,7 @@ tags:
 - Invoicing
 - Payments
 - Sweden
-- SMB
+- Small Business
 - Authentication
 token_urls:
 - /token

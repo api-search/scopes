@@ -262,6 +262,7 @@ tags:
 - Fundamentals
 - News
 - Real-Time
+- Financial Data
 token_urls:
 - https://mcpv2.eodhd.dev/token
 ---

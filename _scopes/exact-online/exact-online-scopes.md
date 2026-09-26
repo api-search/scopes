@@ -81,7 +81,7 @@ tags:
 - Business Software
 - CRM
 - Financial Software
-- SME
+- Small Business
 token_urls:
 - https://start.exactonline.nl/api/oauth2/token
 ---

@@ -88,5 +88,6 @@ tags:
 - On-Demand
 - Order
 - Restaurant
+- Delivery
 token_urls: []
 ---

@@ -545,6 +545,9 @@ tags:
 - FHIR
 - Open Data
 - Federal
+- Health
+- Appeals
+- Federal Government
 token_urls:
 - https://api.va.gov/oauth2/appeals/v1/token
 - https://api.va.gov/oauth2/appeals/system/v1/token

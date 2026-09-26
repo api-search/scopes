@@ -157,7 +157,7 @@ tags:
 - E-Commerce
 - Resale
 - Retail
-- Inventory Management
+- Inventory
 - Order
 - Sustainability
 token_urls:

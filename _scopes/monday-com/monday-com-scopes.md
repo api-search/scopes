@@ -93,6 +93,7 @@ tags:
 - GraphQL
 - Collaboration
 - A2A
+- Project Management
 token_urls:
 - https://auth.monday.com/oauth2/token
 ---

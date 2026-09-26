@@ -74,6 +74,7 @@ tags:
 - Points Programs
 - Redemptions
 - Fintech
+- Loyalty & Incentives
 token_urls:
 - https://accounts.xoxoday.com/chef/v1/oauth/token
 ---

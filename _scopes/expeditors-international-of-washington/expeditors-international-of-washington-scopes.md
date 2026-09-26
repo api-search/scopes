@@ -51,6 +51,7 @@ tags:
 - Order Management
 - Customs Brokerage
 - Visibility
+- Freight
 token_urls:
 - https://api.expeditors.com/tracking/v2/oauth2/token
 ---

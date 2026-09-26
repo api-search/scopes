@@ -77,6 +77,7 @@ tags:
 - Quantitative Analysis
 - Trading
 - Transaction Cost Analysis
+- Financial Data
 token_urls:
 - https://login.bloomberg.com/api/oauth/token
 ---

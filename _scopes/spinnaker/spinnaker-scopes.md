@@ -114,6 +114,7 @@ tags:
 - DevOps
 - Multi-Cloud
 - Pipelines
+- CI/CD
 token_urls:
 - https://accounts.example.com/oauth/token
 ---

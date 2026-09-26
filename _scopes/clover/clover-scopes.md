@@ -152,7 +152,7 @@ tags:
 - Point-of-Sale
 - Payments
 - Retail
-- SMB
+- Small Business
 - Hardware
 token_urls:
 - https://api.clover.com/oauth/token

@@ -71,7 +71,6 @@ tags:
 - Risk Assessment
 - Authentication
 - Fintech
-- Anti-Fraud
 token_urls:
 - https://api.incognia.com/api/v2/token
 ---

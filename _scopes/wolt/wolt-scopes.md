@@ -50,6 +50,7 @@ tags:
 - Authentication
 - Point-of-Sale
 - Restaurant
+- Delivery
 token_urls:
 - https://integrations-authentication-service.wolt.com/oauth2/token
 ---

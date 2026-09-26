@@ -127,6 +127,7 @@ tags:
 - Coaching
 - Membership
 - Transaction
+- Creator Economy
 token_urls:
 - https://developers.teachable.com/oauth/token
 ---

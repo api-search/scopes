@@ -101,9 +101,10 @@ tags:
 - Messaging
 - Collaboration
 - Chat Apps
-- Space
+- Spaces
 - Slash Commands
 - Bots
+- Space
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

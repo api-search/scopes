@@ -216,6 +216,7 @@ tags:
 - Transaction
 - Cashback
 - Webhook
+- Loyalty & Incentives
 token_urls:
 - https://{client-subdomain}.getkard.com/v2/auth/token
 ---

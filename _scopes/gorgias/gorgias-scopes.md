@@ -158,7 +158,7 @@ tags:
 - Help Desk
 - E-Commerce
 - Shopify
-- Tickets
+- Ticketing
 - Conversations
 token_urls:
 - https://{account}.gorgias.com/oauth/token

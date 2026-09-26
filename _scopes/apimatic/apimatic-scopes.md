@@ -86,6 +86,7 @@ tags:
 - Developer Tools
 - Documentation
 - SDK Generation
+- OpenAPI
 token_urls:
 - https://chatbotapi.apimatic.io/token
 ---

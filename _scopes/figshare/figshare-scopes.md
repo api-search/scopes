@@ -105,7 +105,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/
 summary_line: 1 scope · authorizationCode
 tags:
 - Research Data
-- Data Repository
+- Research Repository
 - Open Science
 - DOI
 - Datasets
@@ -113,6 +113,7 @@ tags:
 - File Storage
 - Open Access
 - Figshare
+- OAI-PMH
 token_urls:
 - https://api.figshare.com/v2/token
 ---

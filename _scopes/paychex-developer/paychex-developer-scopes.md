@@ -74,6 +74,7 @@ tags:
 - Time and Attendance
 - Workforce
 - Fortune 1000
+- Employee Benefits
 token_urls:
 - https://api.paychex.com/auth/oauth/v2/token
 ---

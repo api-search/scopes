@@ -938,7 +938,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/batches.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/scopes/zoho-inventory-scopes.yml
 summary_line: 96 scopes · implicit
 tags:
-- Inventory Management
+- Inventory
 - Warehousing
 - Sales Orders
 - Purchase Orders

@@ -192,7 +192,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complyadvantag
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - AML
-- Fraud Detection
+- Fraud Prevention
 - Sanctions Screening
 - Compliance
 - PEP Screening

@@ -117,6 +117,12 @@ tags:
 - Healthcare
 - HL7
 - Interoperability
+- CDA
+- DICOM
+- ICD
+- LOINC
+- SNOMED CT
+- US Core
 token_urls:
 - https://auth.example.com/token
 ---

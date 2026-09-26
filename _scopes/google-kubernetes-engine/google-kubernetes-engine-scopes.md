@@ -30,6 +30,12 @@ api_specs:
   slug: google-kubernetes-engine-node-pools-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-node-pools-api-openapi.yml
+- filename: google-cloud-kubernetes-engine-clusters-api-openapi.yml
+  format: yaml
+  label: Google Kubernetes Engine Clusters API
+  slug: google-cloud-kubernetes-engine-clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-cloud-kubernetes-engine-clusters-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''

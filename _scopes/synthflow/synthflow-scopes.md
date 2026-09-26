@@ -140,6 +140,7 @@ tags:
 - SIP
 - Simulation
 - Knowledge Base
+- Voice AI
 token_urls:
 - https://kind-prelude-27.authkit.app/oauth2/token
 ---

@@ -98,13 +98,14 @@ tags:
 - Uber Eats
 - Uber Direct
 - Food Delivery
-- Last-Mile Logistics
+- Last Mile Delivery
 - Restaurant
 - Menus
 - Order
 - Fulfillment
 - Couriers
 - Authentication
+- Delivery
 token_urls:
 - https://auth.uber.com/oauth/v2/token
 ---

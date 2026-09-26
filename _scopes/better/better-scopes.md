@@ -68,6 +68,8 @@ tags:
 - Home Equity
 - Insurance
 - Financial Services
+- HELOC
+- Home Finance
 token_urls:
 - https://prod.bettermg.com/api/idp/token
 ---

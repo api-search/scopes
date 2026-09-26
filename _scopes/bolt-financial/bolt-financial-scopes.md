@@ -164,7 +164,7 @@ tags:
 - Fintech
 - Subscription
 - Tokenization
-- Fraud
+- Fraud Prevention
 - Identity
 - Webhook
 token_urls:

@@ -102,6 +102,8 @@ tags:
 - Mapping
 - Maps
 - Spatial Analysis
+- Geocoding
+- Routing
 token_urls:
 - https://www.arcgis.com/sharing/rest/oauth2/token
 ---

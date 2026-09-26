@@ -504,6 +504,7 @@ tags:
 - Real-Time
 - Historical
 - Public APIs
+- Financial Data
 token_urls:
 - https://auth.massive.com/oauth2/token
 ---

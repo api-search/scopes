@@ -242,6 +242,7 @@ tags:
 - Coupons
 - Points
 - Membership
+- Loyalty & Incentives
 token_urls:
 - /v1/auth/token
 ---

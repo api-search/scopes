@@ -30,7 +30,6 @@ source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: >-\n  scopes_supp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fannie-mae/refs/heads/main/scopes/fannie-mae-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Federal Government
 - Housing
 - Mortgage
 - Finance

@@ -35,5 +35,6 @@ tags:
 - Marketing
 - Retail
 - Cashback
+- Loyalty & Incentives
 token_urls: []
 ---

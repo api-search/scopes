@@ -223,6 +223,7 @@ tags:
 - Customer Acquisition
 - Webhook
 - MCP
+- Loyalty & Incentives
 token_urls:
 - https://www.talkable.com/oauth/token
 ---

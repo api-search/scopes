@@ -120,5 +120,6 @@ tags:
 - Menu Management
 - Hospitality
 - Local Commerce
+- Delivery
 token_urls: []
 ---

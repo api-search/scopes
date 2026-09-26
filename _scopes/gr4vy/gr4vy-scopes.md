@@ -851,7 +851,7 @@ tags:
 - Checkout
 - Tokenization
 - Vault
-- Fraud
+- Fraud Prevention
 - 3D Secure
 - Webhook
 - Commerce

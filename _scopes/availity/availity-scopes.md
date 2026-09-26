@@ -130,5 +130,6 @@ tags:
 - Revenue Cycle Management
 - Payers
 - Price Transparency
+- Health Insurance
 token_urls: []
 ---

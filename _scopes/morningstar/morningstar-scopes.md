@@ -170,6 +170,7 @@ tags:
 - Research
 - Index
 - Wealth Management
+- Financial Data
 token_urls:
 - https://mcp.morningstar.com/token
 ---

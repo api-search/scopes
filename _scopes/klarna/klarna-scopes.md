@@ -360,6 +360,7 @@ tags:
 - Consumer Credit
 - Sweden
 - Agentic Commerce
+- Consumer Finance
 token_urls:
 - https://login.klarna.com/oauth2/token
 ---

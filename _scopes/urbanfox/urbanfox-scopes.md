@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/urbanfo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/scopes/urbanfox-scopes.yml
 summary_line: 13 scopes · clientCredentials
 tags:
-- Fraud Detection
+- Fraud Prevention
 - Payment Fraud
 - Account Takeover
 - Bot Detection

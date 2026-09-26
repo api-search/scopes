@@ -226,6 +226,7 @@ tags:
 - Managed Auth
 - AI Agents
 - Workflow Automation
+- Integration
 token_urls:
 - https://api.pipedream.com/v1/oauth/token
 ---

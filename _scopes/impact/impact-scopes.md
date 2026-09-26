@@ -409,5 +409,8 @@ tags:
 - Advertising
 - MCP
 - Agents
+- Affiliate Marketing
+- Influencer Marketing
+- Referral Marketing
 token_urls: []
 ---

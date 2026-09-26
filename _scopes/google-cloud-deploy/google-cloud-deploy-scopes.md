@@ -74,6 +74,7 @@ tags:
 - Kubernetes
 - Pipelines
 - Release Management
+- CI/CD
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

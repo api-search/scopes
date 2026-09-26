@@ -222,9 +222,8 @@ summary_line: 9 scopes · clientCredentials/authorizationCode
 tags:
 - Company
 - Marketplace
-- Tickets
-- Event
 - Ticketing
+- Event
 - Live Events
 - Secondary Market
 - E-Commerce

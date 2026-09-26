@@ -250,6 +250,6 @@ tags:
 - Financial Data
 - Banking
 - France
-- SME
+- Small Business
 token_urls: []
 ---

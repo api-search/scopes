@@ -79,7 +79,7 @@ tags:
 - Business Logic Abuse
 - CNAPP
 - Cybersecurity
-- Fraud
+- Fraud Prevention
 - Unified API Protection
 token_urls:
 - https://mcp.aigateway.cequence.ai/token

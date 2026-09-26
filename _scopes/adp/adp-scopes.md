@@ -1220,6 +1220,7 @@ tags:
 - Human Resources
 - Payroll
 - Workforce
+- Employee Benefits
 token_urls:
 - https://accounts.adp.com/auth/oauth/v2/token
 ---

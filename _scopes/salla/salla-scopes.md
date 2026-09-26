@@ -213,7 +213,7 @@ tags:
 - Online Store
 - Retail
 - Saudi Arabia
-- SMB
+- Small Business
 - Storefront
 token_urls:
 - https://accounts.salla.sa/oauth2/token

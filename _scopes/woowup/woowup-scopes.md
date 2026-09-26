@@ -95,6 +95,7 @@ tags:
 - Retail
 - E-Commerce
 - Push Notifications
+- Loyalty & Incentives
 token_urls:
 - https://mcp.woowup.com/oauth/token
 ---

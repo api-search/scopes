@@ -31,7 +31,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Healthcare
-- Health Technology
+- Health Tech
 - Patient Access
 - Financial Assistance
 - Oncology

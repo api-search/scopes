@@ -378,6 +378,7 @@ tags:
 - Same-Day Delivery
 - Curbside Pickup
 - Returns
+- Delivery
 token_urls:
 - https://admin-api.bringg.com/oauth/token
 ---

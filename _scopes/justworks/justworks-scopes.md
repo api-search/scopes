@@ -225,6 +225,7 @@ tags:
 - Small Business
 - Employer of Record
 - HRIS
+- Employee Benefits
 token_urls:
 - https://public-api.justworks.com/oauth/token
 ---

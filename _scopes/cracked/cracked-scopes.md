@@ -178,7 +178,6 @@ tags:
 - SEO
 - social-media-data
 - E-Commerce
-- Finance
 - Weather
 - A2A
 token_urls:

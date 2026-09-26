@@ -500,6 +500,7 @@ tags:
 - Enterprise
 - File Sharing
 - Box
+- Storage
 token_urls:
 - https://api.box.com/oauth2/token
 ---

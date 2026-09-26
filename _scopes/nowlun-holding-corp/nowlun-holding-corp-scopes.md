@@ -59,7 +59,7 @@ tags:
 - Freight Forwarding
 - Shipping
 - Supply Chain
-- Sea Freight
+- Ocean Freight
 - Customs
 - MENA
 - MCP

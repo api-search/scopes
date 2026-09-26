@@ -346,7 +346,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/
 summary_line: 1 scope · implicit
 tags:
 - Privacy
-- Data Privacy
 - SCIM
 - Identity
 - Authentication

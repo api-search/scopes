@@ -174,5 +174,6 @@ tags:
 - Buy Now Pay Later
 - Payment Acceptance
 - Digital Wallet
+- Consumer Finance
 token_urls: []
 ---

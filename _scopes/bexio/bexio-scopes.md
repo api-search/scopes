@@ -382,7 +382,7 @@ tags:
 - Accounting
 - ERP
 - Invoicing
-- SMB
+- Small Business
 - Switzerland
 token_urls: []
 ---

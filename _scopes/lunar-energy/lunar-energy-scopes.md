@@ -157,6 +157,7 @@ tags:
 - Telemetry
 - VPP
 - Flex Events
+- Energy Storage
 token_urls:
 - https://lunar-customer-prod-us-west-1.auth.us-west-1.amazoncognito.com/oauth2/token
 ---

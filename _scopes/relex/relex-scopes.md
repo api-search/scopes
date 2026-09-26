@@ -301,7 +301,7 @@ tags:
 - Supply Chain
 - Retail
 - Demand Planning
-- Inventory Management
+- Inventory
 - Forecasting
 - Pricing
 - Enterprise Software

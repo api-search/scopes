@@ -202,6 +202,7 @@ tags:
 - Social Media
 - Video
 - Content Publishing
+- Social
 token_urls:
 - https://graph.facebook.com/oauth/access_token
 - https://api.instagram.com/oauth/access_token

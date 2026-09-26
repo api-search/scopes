@@ -103,7 +103,8 @@ tags:
 - Harvest
 - Authentication
 - Planting
-- Precision Ag
+- Precision Agriculture
+- AgTech
 token_urls:
 - https://api.climate.com/api/oauth/token
 ---
