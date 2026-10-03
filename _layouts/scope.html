@@ -95,7 +95,7 @@ layout: default
 </table>
 {% else %}
 <div class="empty-note">
-  {{ page.provider_name }} implements OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (client-credentials or role-based authorization) rather than per-scope consent.
+  {% if page.token_bound %}{{ page.provider_name }} uses a bearer token, not OAuth 2.0, and publishes no discrete scopes.{% else %}{{ page.provider_name }} implements OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (client-credentials or role-based authorization) rather than per-scope consent.{% endif %}
   {% if page.note %}<br><br>{{ page.note }}{% endif %}
 </div>
 {% endif %}
