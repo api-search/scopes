@@ -84,18 +84,36 @@ api_specs:
   slug: trello-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-webhooks-api-openapi.yml
+- filename: trello-applications-api-openapi.yml
+  format: yaml
+  label: Trello Applications API
+  slug: trello-applications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-applications-api-openapi.yml
+- filename: trello-batch-api-openapi.yml
+  format: yaml
+  label: Trello Batch API
+  slug: trello-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-batch-api-openapi.yml
+- filename: trello-emoji-api-openapi.yml
+  format: yaml
+  label: Trello Emoji API
+  slug: trello-emoji-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-emoji-api-openapi.yml
+- filename: trello-enterprises-api-openapi.yml
+  format: yaml
+  label: Trello Enterprises API
+  slug: trello-enterprises-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-enterprises-api-openapi.yml
 - filename: trello-custom-fields-api-openapi.yml
   format: yaml
   label: Trello Custom Fields API
   slug: trello-custom-fields-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-custom-fields-api-openapi.yml
-- filename: trello-rest-api-openapi.json
-  format: json
-  label: Trello REST API
-  slug: trello-rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/openapi/trello-rest-api-openapi.json
 authorization_urls:
 - https://auth.atlassian.com/authorize
 description: Trello OAuth 2.0 3LO scopes. OAuth 2.0 reached GA for Trello on 2026-09-15; these ten scopes replace the three coarse legacy Trello Auth scopes (read, write, account), which remain live on the 1/authorize route. Scope-to-resource mapping for the webhook surface is documented by Trello and recorded per scope below.

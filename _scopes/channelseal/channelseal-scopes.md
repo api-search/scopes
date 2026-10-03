@@ -1,29 +1,95 @@
 ---
 api_specs:
-- filename: channelseal-platform-api-openapi.yml
-  format: yaml
-  label: ChannelSeal Platform API
-  slug: platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-platform-api-openapi.yml
-- filename: channelseal-api-discovery-service-api-openapi.yml
-  format: yaml
-  label: ChannelSeal API Discovery Service API
-  slug: api-discovery-service-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-api-discovery-service-api-openapi.yml
 - filename: channelseal-api-catalog-api-openapi.yml
   format: yaml
   label: ChannelSeal API Catalog API
   slug: api-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-api-catalog-api-openapi.yml
-- filename: channelseal-data-classification-api-openapi.yml
+- filename: channelseal-alert-api-openapi.yml
   format: yaml
-  label: ChannelSeal Data Classification API
-  slug: data-classification-api
+  label: ChannelSeal Alert API
+  slug: channelseal-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-data-classification-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-alert-api-openapi.yml
+- filename: channelseal-apis-api-openapi.yml
+  format: yaml
+  label: ChannelSeal APIs API
+  slug: channelseal-apis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-apis-api-openapi.yml
+- filename: channelseal-application-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Application API
+  slug: channelseal-application-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-application-api-openapi.yml
+- filename: channelseal-auditevent-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Audit Event API
+  slug: channelseal-auditevent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-auditevent-api-openapi.yml
+- filename: channelseal-channel-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Channel API
+  slug: channelseal-channel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-channel-api-openapi.yml
+- filename: channelseal-classification-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Classification API
+  slug: channelseal-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-classification-api-openapi.yml
+- filename: channelseal-monitor-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Monitor API
+  slug: channelseal-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-monitor-api-openapi.yml
+- filename: channelseal-non-human-identity-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Non Human Identity API
+  slug: channelseal-non-human-identity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-non-human-identity-api-openapi.yml
+- filename: channelseal-sensitive-data-element-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Sensitive Data Element API
+  slug: channelseal-sensitive-data-element-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-sensitive-data-element-api-openapi.yml
+- filename: channelseal-sensitive-info-group-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Sensitive Info Group API
+  slug: channelseal-sensitive-info-group-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-sensitive-info-group-api-openapi.yml
+- filename: channelseal-sensitive-info-type-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Sensitive Info Type API
+  slug: channelseal-sensitive-info-type-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-sensitive-info-type-api-openapi.yml
+- filename: channelseal-service-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Service API
+  slug: channelseal-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-service-api-openapi.yml
+- filename: channelseal-service-provider-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Service Provider API
+  slug: channelseal-service-provider-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-service-provider-api-openapi.yml
+- filename: channelseal-summary-discovery-metrics-api-openapi.yml
+  format: yaml
+  label: ChannelSeal Summary Discovery Metrics API
+  slug: channelseal-summary-discovery-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/channelseal/refs/heads/main/openapi/channelseal-summary-discovery-metrics-api-openapi.yml
 authorization_urls: []
 description: 'The OpenAPI declares a single oauth2 clientCredentials scheme (security_auth) with an EMPTY scopes map, and no operation carries a security[] requirement, so the derived baseline had zero scopes. The docs'' Authentication section publishes four coarse scopes requested at the Auth0 token endpoint with audience https://api.channelseal.com; the provider''s own OpenTelemetry collector integration (github.com/channelseal/integrations) requests a fifth, import:telemetry, against audience https://telemetry.channelseal.com. Scope-to-operation mapping is not published; the docs'' 403 example shows the server naming a required scope in the problem detail ("Required scope: ''admin''").'
 docs: https://docs.channelseal.com/api-reference#available-scopes

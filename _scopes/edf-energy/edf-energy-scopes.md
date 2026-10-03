@@ -36,18 +36,60 @@ api_specs:
   slug: edf-energy-query-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-query-api-openapi.yml
-- filename: edf-energy-v1-api-openapi.yml
+- filename: edf-energy-accounts-api-openapi.yml
   format: yaml
-  label: EDF Energy V1 API
-  slug: edf-energy-v1-api
+  label: EDF Energy Accounts API
+  slug: edf-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-v1-api-openapi.yml
-- filename: edf-energy-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-accounts-api-openapi.yml
+- filename: edf-energy-electricity-meter-points-api-openapi.yml
   format: yaml
-  label: EDF Energy V2 API
-  slug: edf-energy-v2-api
+  label: EDF Energy Electricity Meter Points API
+  slug: edf-energy-electricity-meter-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-v2-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-electricity-meter-points-api-openapi.yml
+- filename: edf-energy-gas-meter-points-api-openapi.yml
+  format: yaml
+  label: EDF Energy Gas Meter Points API
+  slug: edf-energy-gas-meter-points-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-gas-meter-points-api-openapi.yml
+- filename: edf-energy-industry-api-openapi.yml
+  format: yaml
+  label: EDF Energy Industry API
+  slug: edf-energy-industry-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-industry-api-openapi.yml
+- filename: edf-energy-orders-api-openapi.yml
+  format: yaml
+  label: EDF Energy Orders API
+  slug: edf-energy-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-orders-api-openapi.yml
+- filename: edf-energy-payment-intents-api-openapi.yml
+  format: yaml
+  label: EDF Energy Payment Intents API
+  slug: edf-energy-payment-intents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-payment-intents-api-openapi.yml
+- filename: edf-energy-products-api-openapi.yml
+  format: yaml
+  label: EDF Energy Products API
+  slug: edf-energy-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-products-api-openapi.yml
+- filename: edf-energy-quotes-api-openapi.yml
+  format: yaml
+  label: EDF Energy Quotes API
+  slug: edf-energy-quotes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-quotes-api-openapi.yml
+- filename: edf-energy-voice-api-openapi.yml
+  format: yaml
+  label: EDF Energy Voice API
+  slug: edf-energy-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/openapi/edf-energy-voice-api-openapi.yml
 authorization_urls:
 - https://auth.edfgb-kraken.energy/authorize/
 description: 'The OAuth 2.0 / OpenID Connect scope surface of the EDF GB Kraken authorisation server. Harvested verbatim from the anonymously served OpenID Provider Metadata document (HTTP 200, 2026-07-27) at auth.edfgb-kraken.energy, which advertises 111 scopes_supported. Scope grammar is verb:resource (query:, view:, create:, update:, manage:, cancel:, request:, change:, set:, add:, join:, edit:, verify:, configure:, accept:, register:, delete:, revoke:), plus the two coarse scopes openid and full-customer-access. There is no separate published scope-reference page: the discovery document is the reference. Scopes are granted to an OAuth application by EDF/Kraken on request — the auth server''s own getting-started text states an application must be requested by contacting them with the client type, grant type, redirect URIs and the resources it needs.'

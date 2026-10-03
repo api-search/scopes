@@ -6,36 +6,6 @@ api_specs:
   slug: perfect-corp-s2s-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-s2s-api-openapi.yml
-- filename: perfect-corp-v1-0-api-openapi.yml
-  format: yaml
-  label: Perfect Corp V1.0 API
-  slug: perfect-corp-v1-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v1-0-api-openapi.yml
-- filename: perfect-corp-v2-0-api-openapi.yml
-  format: yaml
-  label: Perfect Corp V2.0 API
-  slug: perfect-corp-v2-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v2-0-api-openapi.yml
-- filename: perfect-corp-v2-1-api-openapi.yml
-  format: yaml
-  label: Perfect Corp V2.1 API
-  slug: perfect-corp-v2-1-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v2-1-api-openapi.yml
-- filename: perfect-corp-v3-0-api-openapi.yml
-  format: yaml
-  label: Perfect Corp V3.0 API
-  slug: perfect-corp-v3-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v3-0-api-openapi.yml
-- filename: perfect-corp-v4-0-api-openapi.yml
-  format: yaml
-  label: Perfect Corp V4.0 API
-  slug: perfect-corp-v4-0-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perfect-corp/refs/heads/main/openapi/perfect-corp-v4-0-api-openapi.yml
 authorization_urls: []
 description: The 65 published OpenAPI documents declare only HTTP bearer security, so nothing OAuth-shaped is derivable from the contracts. The OAuth surface is discoverable instead at the RFC 8414 Authorization Server Metadata document the API host serves anonymously, which names two scopes. Perfect Corp's prose documentation describes only the API-key bearer flow and does not document these scopes anywhere, so this artifact is the only public record of them.
 docs: ''

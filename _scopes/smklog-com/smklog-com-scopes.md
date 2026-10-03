@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: smklog-com-openapi.yml
+- filename: smklog-com-agent-api-openapi.yml
+  format: yaml
+  label: SMKlog Agent API
+  slug: smklog-com-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-agent-api-openapi.yml
+- filename: smklog-com-quote-api-openapi.yml
   format: yaml
   label: SMKlog Quote API
-  slug: smklog-quote-api
+  slug: smklog-com-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-quote-api-openapi.yml
+- filename: smklog-com-status-api-openapi.yml
+  format: yaml
+  label: SMKlog Status API
+  slug: smklog-com-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-status-api-openapi.yml
 authorization_urls: []
 description: The OpenAPI declares no securitySchemes (0-working/derive-oauth-scopes.py found nothing to derive), because the API is open; OAuth exists only as an optional rate-limit tier. The RFC 8414 metadata publishes one scope, quote, one grant (client_credentials) and two token-endpoint auth methods. Registration is manual by email; there is no authorization endpoint, no user identity and no dynamic client registration.
 docs: https://smklog.com/auth.md

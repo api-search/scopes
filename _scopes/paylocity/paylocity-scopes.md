@@ -109,6 +109,7 @@ tags:
 - Benefits
 - Workforce Management
 - Time Tracking
+- Employee Benefits
 token_urls:
 - https://api.paylocity.com/IdentityServer/connect/token
 ---

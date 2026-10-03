@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: aspiresingapore-openapi-generated.yml
+- filename: aspiresingapore-public-api-openapi.yml
   format: yaml
-  label: Aspiresingapore API
-  slug: aspiresingapore-api
+  label: Aspiresingapore Public API
+  slug: aspiresingapore-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aspiresingapore/refs/heads/main/openapi/_ae-authored/aspiresingapore-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/aspiresingapore/refs/heads/main/openapi/aspiresingapore-public-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -45,9 +45,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Finance
 - Banking
-- API
 - Singapore
-- SaaS
+- Software-as-a-Service
 token_urls:
 - https://api.aspireapp.com/public/v1/login
 ---

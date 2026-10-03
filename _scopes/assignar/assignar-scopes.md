@@ -194,9 +194,8 @@ summary_line: 1 scope · clientCredentials
 tags:
 - Construction
 - Software
-- API
 - Cloud
-- ProjectManagement
+- Project Management
 token_urls:
 - https://login.assignar.com/oauth2/token
 ---

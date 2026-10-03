@@ -305,6 +305,6 @@ tags:
 - Content
 - Agents
 - MCP
-- Space
+- A2A
 token_urls: []
 ---

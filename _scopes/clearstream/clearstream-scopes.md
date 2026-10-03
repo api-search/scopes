@@ -57,6 +57,6 @@ tags:
 - Post-Trade Infrastructure
 - Securities
 - Settlement
-- Swift
+- SWIFT
 token_urls: []
 ---
