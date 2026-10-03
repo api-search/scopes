@@ -306,6 +306,36 @@ api_specs:
   slug: mongodb-x-509-authentication-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-x-509-authentication-api-openapi.yml
+- filename: mongodb-ai-model-api-keys-api-openapi.yml
+  format: yaml
+  label: MongoDB AI Model API Keys API
+  slug: mongodb-ai-model-api-keys-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-ai-model-api-keys-api-openapi.yml
+- filename: mongodb-ai-model-rate-limits-api-openapi.yml
+  format: yaml
+  label: MongoDB AI Model Rate Limits API
+  slug: mongodb-ai-model-rate-limits-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-ai-model-rate-limits-api-openapi.yml
+- filename: mongodb-metric-integrations-api-openapi.yml
+  format: yaml
+  label: MongoDB Metric Integrations API
+  slug: mongodb-metric-integrations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-metric-integrations-api-openapi.yml
+- filename: mongodb-overload-protection-simulation-api-openapi.yml
+  format: yaml
+  label: MongoDB Overload Protection Simulation API
+  slug: mongodb-overload-protection-simulation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-overload-protection-simulation-api-openapi.yml
+- filename: mongodb-remote-mcp-configurations-api-openapi.yml
+  format: yaml
+  label: MongoDB Remote MCP Configurations API
+  slug: mongodb-remote-mcp-configurations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/openapi/mongodb-remote-mcp-configurations-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.mongodb.com/docs/atlas/api/api-authentication/
@@ -317,7 +347,7 @@ method: derived
 name: Mongodb Scopes
 name_suffix: OAuth Scopes
 note: MongoDB Atlas Service Accounts use the OAuth 2.0 client_credentials flow without scopes; permissions are governed by Atlas roles assigned to the service account (https://www.mongodb.com/docs/atlas/api/api-authentication/).
-overview: 'MongoDB uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'MongoDB publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the MongoDB API on a user''s behalf.
 
 
   Tokens are issued from https://cloud.mongodb.com/api/oauth/token.
@@ -333,22 +363,27 @@ schemes:
     tokenUrl: https://cloud.mongodb.com/api/oauth/token
   name: ServiceAccounts
   source: openapi/mongodb-atlas-openapi.yaml
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- none
+scopes:
+- description: No scopes required
+  flows: []
+  scope: none
 slug: mongodb-scopes
 source_filename: mongodb-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mongodb-atlas-openapi.yaml\ndocs: https://www.mongodb.com/docs/atlas/api/api-authentication/\nnote: MongoDB Atlas Service Accounts use the OAuth 2.0 client_credentials flow without\n  scopes; permissions are governed by Atlas roles assigned to the service account\n  (https://www.mongodb.com/docs/atlas/api/api-authentication/).\nschemes:\n- name: ServiceAccounts\n  source: openapi/mongodb-atlas-openapi.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cloud.mongodb.com/api/oauth/token\n  description: Learn more about [Service Accounts](https://www.mongodb.com/docs/atlas/api/service-accounts-overview).\nscopes: []\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mongodb-atlas-openapi.yaml\ndocs: https://www.mongodb.com/docs/atlas/api/api-authentication/\nnote: MongoDB Atlas Service Accounts use the OAuth 2.0 client_credentials flow without\n  scopes; permissions are governed by Atlas roles assigned to the service account\n  (https://www.mongodb.com/docs/atlas/api/api-authentication/).\nschemes:\n- name: ServiceAccounts\n  source: openapi/mongodb-atlas-openapi.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cloud.mongodb.com/api/oauth/token\n  description: Learn more about [Service Accounts](https://www.mongodb.com/docs/atlas/api/service-accounts-overview).\nscopes:\n  - name: none\n    description: No scopes required\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/scopes/mongodb-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope · clientCredentials
 tags:
 - Cloud Database
 - Database
 - Document Database
 - NoSQL
 - MongoDB
+token_bound: false
 token_urls:
 - https://cloud.mongodb.com/api/oauth/token
 ---

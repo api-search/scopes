@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: datarobot-openapi-generated.yml
+  format: yaml
+  label: DataRobot API
+  slug: datarobot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/openapi/_ae-authored/datarobot-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: https://docs.datarobot.com/en/docs/agentic-ai/agentic-develop/agentic-authentication.html
@@ -46,10 +53,10 @@ summary_line: 3 scopes
 tags:
 - Company
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - MLOps
 - Data Science
-- AI Agents
+- Agentic AI
 - Predictive Analytics
 - Generative AI
 token_urls: []

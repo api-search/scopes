@@ -702,6 +702,9 @@ summary_line: 42 scopes · authorizationCode/clientCredentials
 tags:
 - Fortune 100
 - Microsoft
+- Software
+- Cloud
+token_bound: false
 token_urls:
 - https://app.vssps.visualstudio.com/oauth2/token
 - https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token

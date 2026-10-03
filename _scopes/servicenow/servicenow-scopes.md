@@ -188,6 +188,7 @@ tags:
 - Workflow Automation
 - Workflows
 - A2A
+token_bound: false
 token_urls:
 - https://{instance}.service-now.com/oauth_token.do
 ---

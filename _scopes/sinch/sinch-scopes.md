@@ -221,7 +221,7 @@ method: derived
 name: Sinch Scopes
 name_suffix: OAuth Scopes
 note: Sinch OAuth 2.0 uses the client_credentials flow with project access keys (key ID and secret) and does not publish or use OAuth scopes (https://developers.sinch.com/docs/numbers/api-reference/authentication/oauth).
-overview: 'Sinch uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Sinch publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Sinch API on a user''s behalf.
 
 
   Tokens are issued from https://auth.sinch.com/oauth2/token.
@@ -267,17 +267,21 @@ schemes:
     tokenUrl: https://auth.sinch.com/oauth2/token
   name: oAuth2
   source: openapi/sinch-registration-openapi.yml
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- none
+scopes:
+- description: No OAuth scopes are published.
+  flows: []
+  scope: none
 slug: sinch-scopes
 source_filename: sinch-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\ndocs: https://developers.sinch.com/docs/numbers/api-reference/authentication/oauth\nnote: Sinch OAuth 2.0 uses the client_credentials flow with project access keys (key\n  ID and secret) and does not publish or use OAuth scopes (https://developers.sinch.com/docs/numbers/api-reference/authentication/oauth).\nsource: openapi/sinch-conversation-openapi.yml, openapi/sinch-elastic-sip-trunking-openapi.yml,\n  openapi/sinch-fax-openapi.yml, openapi/sinch-numbers-openapi.yml, openapi/sinch-provisioning-openapi.yml,\n  openapi/sinch-registration-openapi.yml\nschemes:\n- name: oAuth2\n  source: openapi/sinch-conversation-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinch.com/oauth2/token\n  description: OAuth 2.0 client credentials flow using project key ID and secret.\n- name: oAuth2\n  source: openapi/sinch-elastic-sip-trunking-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinch.com/oauth2/token\n\
-  \  description: OAuth 2.0 client credentials flow.\n- name: oAuth2\n  source: openapi/sinch-fax-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinch.com/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: oAuth2\n  source: openapi/sinch-numbers-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinch.com/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: oAuth2\n  source: openapi/sinch-provisioning-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinch.com/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: oAuth2\n  source: openapi/sinch-registration-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinch.com/oauth2/token\n  description: OAuth 2.0 client credentials flow.\nscopes: []\n"
+  \  description: OAuth 2.0 client credentials flow.\n- name: oAuth2\n  source: openapi/sinch-fax-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinch.com/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: oAuth2\n  source: openapi/sinch-numbers-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinch.com/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: oAuth2\n  source: openapi/sinch-provisioning-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinch.com/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: oAuth2\n  source: openapi/sinch-registration-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinch.com/oauth2/token\n  description: OAuth 2.0 client credentials flow.\nscopes:\n- name: none\n  description: No OAuth scopes are published.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/scopes/sinch-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope · clientCredentials
 tags:
 - Communications
 - Messaging
@@ -286,6 +290,7 @@ tags:
 - Verification
 - CPaaS
 - Telecommunications
+token_bound: false
 token_urls:
 - https://auth.sinch.com/oauth2/token
 ---
