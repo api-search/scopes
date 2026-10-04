@@ -3604,6 +3604,7 @@ tags:
 - SOAR
 - Threat Intelligence
 - XDR
+token_bound: false
 token_urls:
 - https://auth.apps.paloaltonetworks.com/oauth2/access_token
 ---

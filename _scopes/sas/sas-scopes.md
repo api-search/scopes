@@ -107,6 +107,7 @@ tags:
 - Artificial Intelligence
 - Machine Learning
 - Software
+token_bound: false
 token_urls:
 - /SASLogon/oauth/token
 ---

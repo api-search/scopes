@@ -192,6 +192,7 @@ tags:
 - Jenkins
 - Release Orchestration
 - Software Delivery
+token_bound: false
 token_urls:
 - https://id.cloudbees.io/realms/cloudbees/protocol/openid-connect/token
 ---

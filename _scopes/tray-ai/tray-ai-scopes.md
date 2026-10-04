@@ -90,7 +90,8 @@ api_specs:
   slug: tray-ai-permissions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-permissions-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://auth.tray.io/server/oauth2/authorize
 description: 'Tray''s OAuth 2.0 scope surface, read verbatim from the RFC 8414 authorization server metadata served at https://api.tray.io/.well-known/oauth-authorization-server (HTTP 200, probed 2026-09-02). These scopes govern the remote MCP server at https://api.tray.io/mcp — Tray''s REST Platform API and GraphQL Embedded API do NOT use OAuth: they take a master or user bearer token and have no scope model. Scope DESCRIPTIONS below are inferred from the scope names and the WWW-Authenticate challenge on the MCP endpoint; Tray publishes no scope reference page.'
 docs: https://tray.ai/documentation/platform/artificial-intelligence/agent-gateway/authentication-and-access
 flows: []
@@ -100,16 +101,31 @@ method: probed
 name: Tray Ai Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Tray.ai uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Tray.ai publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Tray.ai API on a user''s behalf.
+
+
+  Tokens are issued from https://auth.tray.io/server/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Tray.ai
 provider_slug: tray-ai
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- mcp:list_tools
+- mcp:call_tools
+- api:full
+scopes:
+- description: Discover the tools an MCP server exposes (tools/list). Named in the WWW-Authenticate challenge returned by POST https://api.tray.io/mcp and in the RFC 9728 protected resource metadata for that endpoint.
+  flows: []
+  scope: mcp:list_tools
+- description: Invoke a tool on an MCP server (tools/call). These calls act in the caller's Tray organization as the caller and can create, modify and delete projects, workflows and authentications.
+  flows: []
+  scope: mcp:call_tools
+- description: Full access to the Tray API on behalf of the signed-in user. Advertised in scopes_supported on the authorization server but NOT listed in the MCP resource metadata, so it is a broader grant than the two mcp:* scopes.
+  flows: []
+  scope: api:full
 slug: tray-ai-scopes
 source_filename: tray-ai-scopes.yml
 source_heading: OAuth Scopes
@@ -118,7 +134,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: https://api.tray.
   registration_endpoint: https://auth.tray.io/server/oauth2/register\nrevocation_endpoint: https://auth.tray.io/server/oauth2/revoke\ngrant_types_supported: [authorization_code, refresh_token]\nresponse_types_supported: [code]\ncode_challenge_methods_supported: [S256]\ntoken_endpoint_auth_methods_supported: [client_secret_basic, none]\ndynamic_client_registration: true\nclient_id_metadata_document_supported: true\nscopes:\n  - name: mcp:list_tools\n    description: >-\n      Discover the tools an MCP server exposes (tools/list). Named in the WWW-Authenticate\n      challenge returned by POST https://api.tray.io/mcp and in the RFC 9728 protected resource\n      metadata for that endpoint.\n    applies_to: https://api.tray.io/mcp\n    verified: probed\n  - name: mcp:call_tools\n    description: >-\n      Invoke a tool on an MCP server (tools/call). These calls act in the caller's Tray\n      organization as the caller and can create, modify and delete projects, workflows and\n      authentications.\n\
   \    applies_to: https://api.tray.io/mcp\n    verified: probed\n  - name: api:full\n    description: >-\n      Full access to the Tray API on behalf of the signed-in user. Advertised in\n      scopes_supported on the authorization server but NOT listed in the MCP resource metadata,\n      so it is a broader grant than the two mcp:* scopes.\n    verified: probed\n    note: >-\n      No Tray documentation page describes this scope. The description above is read from the\n      scope name and its absence from the MCP resource metadata; treat it as unconfirmed.\nnot_applicable:\n  - api: Tray.ai Platform API (REST)\n    reason: >-\n      Bearer master/user token only. Tray's own docs (\"Master and user tokens\") describe token\n      TYPES and RBAC roles, not OAuth scopes.\n  - api: Tray.ai Embedded API (GraphQL)\n    reason: Bearer master/user token only; authority is the token type, not a scope.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/scopes/tray-ai-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes
 tags:
 - Automation
 - Integration
@@ -131,5 +147,7 @@ tags:
 - Agent Gateway
 - Embedded Integration
 - Enterprise Automation
-token_urls: []
+token_bound: false
+token_urls:
+- https://auth.tray.io/server/oauth2/token
 ---

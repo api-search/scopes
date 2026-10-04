@@ -382,6 +382,7 @@ tags:
 - Apache Iceberg
 - MCP
 - T1
+token_bound: false
 token_urls:
 - https://org-account.snowflakecomputing.com/oauth/token-request
 ---

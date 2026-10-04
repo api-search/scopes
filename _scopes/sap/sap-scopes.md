@@ -155,6 +155,7 @@ tags:
 - Integration
 - Real-Time
 - A2A
+token_bound: false
 token_urls:
 - https://{subdomain}.authentication.{region}.hana.ondemand.com/oauth/token
 - https://{host}/oauth/token

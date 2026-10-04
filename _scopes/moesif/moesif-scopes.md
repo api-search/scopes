@@ -483,6 +483,7 @@ tags:
 - Platform
 - Insights
 - Developer Tools
+token_bound: false
 token_urls:
 - https://api.moesif.com/v1/:orgId/oauth/access_tokens
 ---

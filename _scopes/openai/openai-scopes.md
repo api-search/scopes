@@ -1,5 +1,77 @@
 ---
 api_specs:
+- filename: openai-responses-api-openapi.yml
+  format: yaml
+  label: OpenAI Responses API
+  slug: openai-responses-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-responses-api-openapi.yml
+- filename: openai-moderations-api-openapi.yml
+  format: yaml
+  label: OpenAI Moderations API
+  slug: openai-moderations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-moderations-api-openapi.yml
+- filename: openai-batch-api-openapi.yml
+  format: yaml
+  label: OpenAI Batch API
+  slug: openai-batch-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-batch-api-openapi.yml
+- filename: openai-vector-stores-api-openapi.yml
+  format: yaml
+  label: OpenAI Vector Stores API
+  slug: openai-vector-stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-vector-stores-api-openapi.yml
+- filename: openai-uploads-api-openapi.yml
+  format: yaml
+  label: OpenAI Uploads API
+  slug: openai-uploads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-uploads-api-openapi.yml
+- filename: openai-realtime-asyncapi.yml
+  format: yaml
+  label: OpenAI Realtime API
+  slug: openai-realtime-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/asyncapi/openai-realtime-asyncapi.yml
+- filename: openai-evals-api-openapi.yml
+  format: yaml
+  label: OpenAI Evals API
+  slug: openai-evals-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-evals-api-openapi.yml
+- filename: openai-videos-api-openapi.yml
+  format: yaml
+  label: OpenAI Videos API
+  slug: openai-videos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-videos-api-openapi.yml
+- filename: openai-conversations-api-openapi.yml
+  format: yaml
+  label: OpenAI Conversations API
+  slug: openai-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-conversations-api-openapi.yml
+- filename: openai-containers-api-openapi.yml
+  format: yaml
+  label: OpenAI Containers API
+  slug: openai-containers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-containers-api-openapi.yml
+- filename: openai-chatkit-api-openapi.yml
+  format: yaml
+  label: OpenAI ChatKit API
+  slug: openai-chatkit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chatkit-api-openapi.yml
+- filename: openai-skills-api-openapi.yml
+  format: yaml
+  label: OpenAI Skills API
+  slug: openai-skills-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-skills-api-openapi.yml
 - filename: openai-assistants-api-openapi.yml
   format: yaml
   label: OpenAI Assistants API
@@ -30,15 +102,9 @@ api_specs:
   slug: openai-certificates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-certificates-api-openapi.yml
-- filename: openai-chat-api-openapi.yml
-  format: yaml
-  label: OpenAI Chat API
-  slug: openai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chat-api-openapi.yml
 - filename: openai-chatkit-api-openapi.yml
   format: yaml
-  label: OpenAI ChatKit API
+  label: OpenAI Chatkit API
   slug: openai-chatkit-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chatkit-api-openapi.yml
@@ -212,7 +278,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-users-api-openapi.yml
 - filename: openai-vector-stores-api-openapi.yml
   format: yaml
-  label: OpenAI Vector Stores API
+  label: OpenAI Vector stores API
   slug: openai-vector-stores-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-vector-stores-api-openapi.yml
@@ -222,12 +288,78 @@ api_specs:
   slug: openai-videos-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-videos-api-openapi.yml
+- filename: openai-agents-api-openapi.yml
+  format: yaml
+  label: OpenAI Agents API
+  slug: openai-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-agents-api-openapi.yml
+- filename: openai-content-provenance-checks-api-openapi.yml
+  format: yaml
+  label: OpenAI Content Provenance Checks API
+  slug: openai-content-provenance-checks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-content-provenance-checks-api-openapi.yml
+- filename: openai-data-retention-api-openapi.yml
+  format: yaml
+  label: OpenAI Data retention API
+  slug: openai-data-retention-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-data-retention-api-openapi.yml
+- filename: openai-hosted-tools-api-openapi.yml
+  format: yaml
+  label: OpenAI Hosted tools API
+  slug: openai-hosted-tools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-hosted-tools-api-openapi.yml
+- filename: openai-live-api-openapi.yml
+  format: yaml
+  label: OpenAI Live API
+  slug: openai-live-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-live-api-openapi.yml
 - filename: openai-openai-api-api-openapi.yml
   format: yaml
-  label: OpenAI API
+  label: OpenAI OpenAI API
   slug: openai-openai-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-openai-api-api-openapi.yml
+- filename: openai-safety-api-openapi.yml
+  format: yaml
+  label: OpenAI Safety API
+  slug: openai-safety-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-safety-api-openapi.yml
+- filename: openai-spend-alerts-api-openapi.yml
+  format: yaml
+  label: OpenAI Spend alerts API
+  slug: openai-spend-alerts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-spend-alerts-api-openapi.yml
+- filename: openai-vaults-api-openapi.yml
+  format: yaml
+  label: OpenAI Vaults API
+  slug: openai-vaults-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-vaults-api-openapi.yml
+- filename: openai-webhook-endpoints-api-openapi.yml
+  format: yaml
+  label: OpenAI Webhook Endpoints API
+  slug: openai-webhook-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-webhook-endpoints-api-openapi.yml
+- filename: openai-webhook-event-types-api-openapi.yml
+  format: yaml
+  label: OpenAI Webhook Event Types API
+  slug: openai-webhook-event-types-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-webhook-event-types-api-openapi.yml
+- filename: openai-chat-completions-api-openapi.yml
+  format: yaml
+  label: OpenAI Chat Completions API
+  slug: openai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/openapi/openai-chat-completions-api-openapi.yml
 authorization_urls: []
 description: 'OpenAI''s published OAuth scope set is the OIDC core four and nothing else — openid, profile, email, offline_access. There is no scope for reading models, creating responses, managing files or administering an organization, because OAuth at OpenAI grants IDENTITY, not API authority. A token from auth.openai.com tells your application who the user is; it does not let you call api.openai.com on their behalf. Platform API authority is carried by a long-lived project API key whose permissions are set in the console, and the permission model there is coarse: a key is scoped to one project, and the contract distinguishes exactly two security schemes (ApiKeyAuth, AdminApiKeyAuth). For an agent this is the load-bearing fact: there is no least-privilege, user-consented, per-operation grant available. You hold a key that can do everything the project can do, or you hold nothing.'
 docs: ''
@@ -238,16 +370,32 @@ method: probed
 name: Openai Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'OpenAI uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'OpenAI publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the OpenAI API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: OpenAI
 provider_slug: openai
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+scopes:
+- description: Required to receive an ID token. Signals an OIDC authentication request rather than a bare OAuth authorization.
+  flows: []
+  scope: openid
+- description: 'Access to the end-user''s profile claims. The discovery document enumerates them: name, family_name, given_name, middle_name, nickname, preferred_username, profile, picture, website, gender, birthdate, zoneinfo, locale, updated_at.'
+  flows: []
+  scope: profile
+- description: Access to the email and email_verified claims.
+  flows: []
+  scope: email
+- description: Issues a refresh token so the client can obtain new access tokens without the user present. The only scope in the set with a durable consequence.
+  flows: []
+  scope: offline_access
 slug: openai-scopes
 source_filename: openai-scopes.yml
 source_heading: OAuth Scopes
@@ -258,12 +406,15 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: >-\n  https://aut
   \ email_verified claims.\n    grants: read-only email claims\n  - name: offline_access\n    description: >-\n      Issues a refresh token so the client can obtain new access tokens without\n      the user present. The only scope in the set with a durable consequence.\n    grants: refresh_token issuance\nclaims_supported:\n  - sub\n  - name\n  - family_name\n  - given_name\n  - middle_name\n  - nickname\n  - preferred_username\n  - profile\n  - picture\n  - website\n  - gender\n  - birthdate\n  - zoneinfo\n  - locale\n  - updated_at\n  - email\n  - email_verified\napi_authorization:\n  model: bearer API key\n  scheme_count: 2\n  schemes:\n    - {name: ApiKeyAuth, type: http, scheme: bearer, prefix: 'sk-proj-', boundary: one project}\n    - {name: AdminApiKeyAuth, type: http, scheme: bearer, prefix: 'sk-admin-', boundary: organization administration}\n  source: openapi/_original/openai-openapi-master.yml securitySchemes\n  granularity: >-\n    Project-level, not operation-level. The contract's\
   \ only distinction is\n    admin-vs-not; 242 operations share two schemes.\n  detail: authentication/openai-authentication.yml\ngaps:\n  - >-\n    No scope grants access to the platform REST API. An OAuth token from\n    auth.openai.com cannot call api.openai.com.\n  - >-\n    No registration_endpoint, so RFC 7591 dynamic client registration is not\n    available — every OAuth client is created by a human in the console.\n  - >-\n    No /.well-known/oauth-protected-resource (RFC 9728) on any host, so an agent\n    hitting a 401 from api.openai.com is given no machine-readable pointer to the\n    authorization server that protects it.\n  - >-\n    No per-operation or per-resource permission scopes on API keys in the\n    published contract. Least privilege has to be achieved structurally, by\n    provisioning a separate project (see sandbox/openai-sandbox.yml).\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/scopes/openai-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - LLM
 - OpenAI
 - Artificial Intelligence
+- Generative AI
+- Chatbot
+- Foundation Models
 - T1
-- Agentic Commerce
+token_bound: false
 token_urls: []
 ---

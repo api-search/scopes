@@ -99,6 +99,7 @@ tags:
 - Monitoring
 - OpenAPI
 - A2A
+token_bound: false
 token_urls:
 - https://{projectHost}/_mcp/oauth2/token-portal
 ---

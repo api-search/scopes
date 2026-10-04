@@ -151,6 +151,7 @@ tags:
 - NoSQL
 - SQL
 - A2A
+token_bound: false
 token_urls:
 - https://cloud-login.cdata.com/oauth/token
 ---

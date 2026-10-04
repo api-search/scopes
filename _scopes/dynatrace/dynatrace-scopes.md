@@ -222,6 +222,7 @@ tags:
 - Intelligence
 - Observability
 - Monitoring
+token_bound: false
 token_urls:
 - https://sso.dynatrace.com/sso/oauth2/token
 ---

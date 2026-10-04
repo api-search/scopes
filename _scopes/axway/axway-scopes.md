@@ -134,7 +134,7 @@ method: derived
 name: Axway Scopes
 name_suffix: OAuth Scopes
 note: Axway does not publish OAuth scopes for the Amplify Platform API; authorization is handled through org roles assigned to client-secret service accounts, and tokens carry only generic OIDC scopes (see https://blog.axway.com/product-insights/amplify-platform/axway-amplify-platform-api-calls).
-overview: 'Axway uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Axway publishes 1 OAuth 2.0 scope via the clientCredentials, authorizationCode, and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Axway API on a user''s behalf.
 
 
   Tokens are issued from https://login.axway.com/auth/realms/Broker/protocol/openid-connect/token.
@@ -154,22 +154,32 @@ schemes:
     flow: implicit
   name: OAuth2
   source: openapi/axway-amplify-platform-openapi-original.json
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- none
+scopes:
+- description: No OAuth scopes are published for this API; authorization is role‑based.
+  flows: []
+  scope: none
 slug: axway-scopes
 source_filename: axway-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/axway-amplify-platform-openapi-original.json\ndocs: https://blog.axway.com/product-insights/amplify-platform/axway-amplify-platform-api-calls\nnote: >-\n  Axway does not publish OAuth scopes for the Amplify Platform API; authorization is\n  handled through org roles assigned to client-secret service accounts, and tokens carry\n  only generic OIDC scopes (see\n  https://blog.axway.com/product-insights/amplify-platform/axway-amplify-platform-api-calls).\nschemes:\n- name: OAuth2\n  source: openapi/axway-amplify-platform-openapi-original.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.axway.com/auth/realms/Broker/protocol/openid-connect/token\n  - flow: authorizationCode\n    authorizationUrl: https://login.axway.com/auth/realms/Broker/openid-connect/auth\n    tokenUrl: https://login.axway.com/auth/realms/Broker/openid-connect/token\n  - flow: implicit\n    authorizationUrl: https://login.axway.com/auth/realms/Broker/openid-connect/auth\n\
-  scopes: []\n"
+  scopes:\n  - name: none\n    description: No OAuth scopes are published for this API; authorization is role‑based.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/scopes/axway-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope · clientCredentials/authorizationCode/implicit
 tags:
 - API Management
 - Enterprise
 - Integration
 - Security
+- Managed File Transfer
+- B2B Integration
+- Financial Accounting
+- Enterprise Integration
+- Regulated Industries - API Management - Enterprise - Integration - Security
+token_bound: false
 token_urls:
 - https://login.axway.com/auth/realms/Broker/protocol/openid-connect/token
 - https://login.axway.com/auth/realms/Broker/openid-connect/token

@@ -65,5 +65,6 @@ tags:
 - Cloud Security
 - Zero Trust
 - SASE
+token_bound: false
 token_urls: []
 ---

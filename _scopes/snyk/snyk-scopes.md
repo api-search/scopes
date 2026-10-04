@@ -282,26 +282,137 @@ api_specs:
   slug: snyk-service-accounts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/openapi/snyk-service-accounts-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://app.snyk.io/oauth2/authorize
 description: 'Snyk''s OAuth2 scopes apply to Snyk Apps, the RFC 6749 authorization-code integration path documented at https://docs.snyk.io/developer-tools/snyk-api/oauth2-api and specified in openapi/snyk-oauth2-app-openapi.yml and openapi/snyk-oauth2-token-openapi.yml. The vocabulary is a strict dotted resource.action hierarchy rooted at org, with 27 published scopes. Note two hard constraints Snyk states in the docs: org.read is mandatory and must always be requested, and scopes CANNOT be changed after an App is created - a scope change means creating a new App with a new clientId/clientSecret and having every user re-authorize. These scopes govern Snyk Apps only; personal access tokens and service-account tokens are not scoped through this vocabulary.'
 docs: https://docs.snyk.io/developer-tools/snyk-api/using-specific-snyk-apis/snyk-apps-apis/scopes-to-request
-flows: []
+flows:
+- authorization_code
+- refresh_token
+- client_credentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Snyk Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Snyk uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Snyk publishes 26 OAuth 2.0 scopes via the authorization_code, refresh_token, and client_credentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Snyk API on a user''s behalf.
+
+
+  Tokens are issued from https://api.snyk.io/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Snyk
 provider_slug: snyk
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 26
+scope_names:
+- org.read
+- org.edit
+- org.report.read
+- org.project.create
+- org.project.read
+- org.project.edit
+- org.project.delete
+- org.project.status
+- org.project.test
+- org.project.ignore.create
+- org.project.ignore.read
+- org.project.ignore.edit
+- org.project.ignore.delete
+- org.project.attributes.edit
+- org.project.tag.edit
+- org.project.pr.create
+- org.project.pr.skip
+- org.project.jira.issue.read
+- org.project.jira.issue.create
+- org.project.snapshot.read
+- org.package.test
+- org.container_image.read
+- org.collection.create
+- org.collection.read
+- org.collection.edit
+- org.collection.delete
+scopes:
+- description: View Organization information and settings.
+  flows: []
+  scope: org.read
+- description: Edit Organization information and settings.
+  flows: []
+  scope: org.edit
+- description: View reports in your Organization.
+  flows: []
+  scope: org.report.read
+- description: Add new Projects.
+  flows: []
+  scope: org.project.create
+- description: View Project information and settings and view Organization targets.
+  flows: []
+  scope: org.project.read
+- description: Edit Project information.
+  flows: []
+  scope: org.project.edit
+- description: Permanently remove Projects and permanently remove Organization targets.
+  flows: []
+  scope: org.project.delete
+- description: Activate and deactivate Projects.
+  flows: []
+  scope: org.project.status
+- description: Test Projects.
+  flows: []
+  scope: org.project.test
+- description: Create new Project ignores.
+  flows: []
+  scope: org.project.ignore.create
+- description: View Project ignore information.
+  flows: []
+  scope: org.project.ignore.read
+- description: Configure Project ignores.
+  flows: []
+  scope: org.project.ignore.edit
+- description: Permanently remove Project ignores.
+  flows: []
+  scope: org.project.ignore.delete
+- description: Apply and remove project attributes.
+  flows: []
+  scope: org.project.attributes.edit
+- description: Create, apply and remove Project tags.
+  flows: []
+  scope: org.project.tag.edit
+- description: Create fix pull requests for Projects.
+  flows: []
+  scope: org.project.pr.create
+- description: Skip failed security tests on pull requests by marking checks as successful.
+  flows: []
+  scope: org.project.pr.skip
+- description: View Jira issue information.
+  flows: []
+  scope: org.project.jira.issue.read
+- description: Create new Jira issues.
+  flows: []
+  scope: org.project.jira.issue.create
+- description: View project dependencies, vulnerabilities, and other information obtained by scanning Projects.
+  flows: []
+  scope: org.project.snapshot.read
+- description: Test packages in ecosystems supported by Snyk.
+  flows: []
+  scope: org.package.test
+- description: View container images.
+  flows: []
+  scope: org.container_image.read
+- description: Create a collection of Projects.
+  flows: []
+  scope: org.collection.create
+- description: View Project collections.
+  flows: []
+  scope: org.collection.read
+- description: Add and remove Projects from collections.
+  flows: []
+  scope: org.collection.edit
+- description: Delete Project collections.
+  flows: []
+  scope: org.collection.delete
 slug: snyk-scopes
 source_filename: snyk-scopes.yml
 source_heading: OAuth Scopes
@@ -312,7 +423,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   \  - name: org.project.test\n    description: Test Projects.\n  - name: org.project.ignore.create\n    description: Create new Project ignores.\n  - name: org.project.ignore.read\n    description: View Project ignore information.\n  - name: org.project.ignore.edit\n    description: Configure Project ignores.\n  - name: org.project.ignore.delete\n    description: Permanently remove Project ignores.\n  - name: org.project.attributes.edit\n    description: Apply and remove project attributes.\n  - name: org.project.tag.edit\n    description: Create, apply and remove Project tags.\n  - name: org.project.pr.create\n    description: Create fix pull requests for Projects.\n  - name: org.project.pr.skip\n    description: Skip failed security tests on pull requests by marking checks as successful.\n  - name: org.project.jira.issue.read\n    description: View Jira issue information.\n  - name: org.project.jira.issue.create\n    description: Create new Jira issues.\n  - name: org.project.snapshot.read\n\
   \    description: View project dependencies, vulnerabilities, and other information obtained by scanning Projects.\n  - name: org.package.test\n    description: Test packages in ecosystems supported by Snyk.\n  - name: org.container_image.read\n    description: View container images.\n  - name: org.collection.create\n    description: Create a collection of Projects.\n  - name: org.collection.read\n    description: View Project collections.\n  - name: org.collection.edit\n    description: Add and remove Projects from collections.\n  - name: org.collection.delete\n    description: Delete Project collections.\nconstraints:\n  - >-\n    Scopes are immutable for the lifetime of a Snyk App. Changing them requires creating a\n    new App and re-authorizing every installed user.\n  - >-\n    A user can only complete authorization if they personally hold every permission the\n    requested scopes imply, so over-requesting blocks installs outright.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/scopes/snyk-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 26 scopes · authorization_code/refresh_token/client_credentials
 tags:
 - Security
 - DevSecOps
@@ -322,5 +433,7 @@ tags:
 - SAST
 - Container Security
 - IaC
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.snyk.io/oauth2/token
 ---

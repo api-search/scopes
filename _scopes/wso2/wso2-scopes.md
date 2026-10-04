@@ -868,6 +868,7 @@ tags:
 - SOAP
 - REST
 - Identity Federation
+token_bound: false
 token_urls:
 - https://localhost:9443/oauth2/token
 ---
