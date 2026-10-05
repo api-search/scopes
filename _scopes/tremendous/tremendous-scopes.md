@@ -116,6 +116,7 @@ tags:
 - Payouts
 - Rewards
 - Loyalty & Incentives
+token_bound: false
 token_urls:
 - https://www.tremendous.com/oauth/token
 ---

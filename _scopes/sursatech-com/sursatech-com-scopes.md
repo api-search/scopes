@@ -74,6 +74,7 @@ tags:
 - Nepal
 - Agent-Native
 - Company
+token_bound: false
 token_urls:
 - https://api.sursatech.com/api/a2a/token
 ---

@@ -28,16 +28,52 @@ method: probed
 name: Nus Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'National University of Singapore uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'National University of Singapore publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the National University of Singapore API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: National University of Singapore
 provider_slug: nus
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 9
+scope_names:
+- openid
+- profile
+- email
+- allatclaims
+- user_impersonation
+- aza
+- logon_cert
+- vpn_cert
+- winhello_cert
+scopes:
+- description: Requests an ID token; required for any OpenID Connect flow against this provider.
+  flows: []
+  scope: openid
+- description: Requests the end user's basic profile claims.
+  flows: []
+  scope: profile
+- description: Requests the end user's email address claim.
+  flows: []
+  scope: email
+- description: ADFS-specific scope that asks the provider to place all claims from the access token into the ID token as well. Broad by construction — grant it deliberately, not by default.
+  flows: []
+  scope: allatclaims
+- description: Permits a client to act on behalf of the signed-in user against a downstream NUS resource. The highest-consequence scope this provider advertises.
+  flows: []
+  scope: user_impersonation
+- description: Broker/primary-refresh-token scope used by Microsoft device authentication brokers.
+  flows: []
+  scope: aza
+- description: Requests a logon certificate for the authenticated user.
+  flows: []
+  scope: logon_cert
+- description: Requests a VPN client certificate for the authenticated user.
+  flows: []
+  scope: vpn_cert
+- description: Requests a Windows Hello for Business certificate for the authenticated user.
+  flows: []
+  scope: winhello_cert
 slug: nus-scopes
 source_filename: nus-scopes.yml
 source_heading: OAuth Scopes
@@ -46,7 +82,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  scopes_supp
   \ the end user's basic profile claims.\n- name: email\n  standard: true\n  description: Requests the end user's email address claim.\n- name: allatclaims\n  standard: false\n  vendor: Microsoft ADFS\n  description: >-\n    ADFS-specific scope that asks the provider to place all claims from the access token into\n    the ID token as well. Broad by construction — grant it deliberately, not by default.\n- name: user_impersonation\n  standard: false\n  vendor: Microsoft ADFS\n  description: >-\n    Permits a client to act on behalf of the signed-in user against a downstream NUS resource.\n    The highest-consequence scope this provider advertises.\n- name: aza\n  standard: false\n  vendor: Microsoft ADFS\n  description: Broker/primary-refresh-token scope used by Microsoft device authentication brokers.\n- name: logon_cert\n  standard: false\n  vendor: Microsoft ADFS\n  description: Requests a logon certificate for the authenticated user.\n- name: vpn_cert\n  standard: false\n  vendor: Microsoft\
   \ ADFS\n  description: Requests a VPN client certificate for the authenticated user.\n- name: winhello_cert\n  standard: false\n  vendor: Microsoft ADFS\n  description: Requests a Windows Hello for Business certificate for the authenticated user.\nclaims_supported:\n- aud\n- iss\n- iat\n- exp\n- auth_time\n- nonce\n- at_hash\n- c_hash\n- sub\n- upn\n- unique_name\n- pwd_url\n- pwd_exp\n- mfa_auth_time\n- sid\n- nbf\nnotes: >-\n  Three of the nine advertised scopes (logon_cert, vpn_cert, winhello_cert) mint credentials\n  rather than grant data access, and two more (allatclaims, user_impersonation) are broad by\n  design. Only three are standard OIDC scopes. An agent integrating with NUS should request\n  `openid profile email` and nothing else; the remainder exist for Microsoft device and VPN\n  enrolment flows and have no third-party use case.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/scopes/nus-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 9 scopes
 tags:
 - University
 - Higher Education
@@ -58,5 +94,6 @@ tags:
 - Course Catalog
 - Open Access
 - Learning Management
+token_bound: false
 token_urls: []
 ---

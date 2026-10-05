@@ -99,6 +99,7 @@ tags:
 - Metadata
 - Open Source
 - Search
+token_bound: false
 token_urls:
 - https://your-phraseanet-instance/api/oauthv2/token
 ---

@@ -126,6 +126,7 @@ tags:
 - Data
 - Snowflake
 - MCP
+token_bound: false
 token_urls:
 - https://auth.komodohealth.com/oauth/token
 ---

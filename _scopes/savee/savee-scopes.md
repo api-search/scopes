@@ -144,6 +144,7 @@ tags:
 - Creative
 - Moodboards
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://savee.com/api/oauth/token/
 ---

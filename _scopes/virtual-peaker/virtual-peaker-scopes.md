@@ -123,6 +123,7 @@ tags:
 - EV Charging
 - Smart Thermostats
 - Energy Storage
+token_bound: false
 token_urls:
 - https://example.com/oauth/token
 ---

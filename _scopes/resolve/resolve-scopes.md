@@ -124,5 +124,6 @@ tags:
 - Invoicing
 - Financing
 - Embedded Finance
+token_bound: false
 token_urls: []
 ---

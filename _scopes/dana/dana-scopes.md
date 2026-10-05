@@ -40,16 +40,48 @@ method: probed
 name: Dana Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Dana uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Dana publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Dana API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Dana
 provider_slug: dana
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 8
+scope_names:
+- openid
+- offline_access
+- profile
+- email
+- roles
+- epi_content_delivery
+- epi_content_definitions
+- epi_forms_api
+scopes:
+- description: Standard OpenID Connect scope requesting an ID token for the authenticated subject.
+  flows: []
+  scope: openid
+- description: Requests a refresh token so the client can renew access without user interaction.
+  flows: []
+  scope: offline_access
+- description: Standard OIDC scope releasing basic profile claims.
+  flows: []
+  scope: profile
+- description: Standard OIDC scope releasing the email claim.
+  flows: []
+  scope: email
+- description: Releases the role claim for the authenticated subject.
+  flows: []
+  scope: roles
+- description: Optimizely (Episerver) Content Delivery API — read published CMS content.
+  flows: []
+  scope: epi_content_delivery
+- description: Optimizely (Episerver) Content Definitions API — read/manage content type definitions.
+  flows: []
+  scope: epi_content_definitions
+- description: Optimizely (Episerver) Forms API — read form submissions.
+  flows: []
+  scope: epi_forms_api
 slug: dana-scopes
 source_filename: dana-scopes.yml
 source_heading: OAuth Scopes
@@ -58,7 +90,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   \ ID token for the authenticated subject.\n    standard: true\n  - name: offline_access\n    description: Requests a refresh token so the client can renew access without user interaction.\n    standard: true\n  - name: profile\n    description: Standard OIDC scope releasing basic profile claims.\n    standard: true\n  - name: email\n    description: Standard OIDC scope releasing the email claim.\n    standard: true\n  - name: roles\n    description: Releases the role claim for the authenticated subject.\n    standard: false\n  - name: epi_content_delivery\n    description: Optimizely (Episerver) Content Delivery API — read published CMS content.\n    standard: false\n  - name: epi_content_definitions\n    description: Optimizely (Episerver) Content Definitions API — read/manage content type definitions.\n    standard: false\n  - name: epi_forms_api\n    description: Optimizely (Episerver) Forms API — read form submissions.\n    standard: false\nmaintainers:\n  - FN: Kin Lane\n    email:\
   \ kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/scopes/dana-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 8 scopes
 tags:
 - Aftermarket
 - Auto Parts
@@ -66,5 +98,6 @@ tags:
 - E-Commerce
 - Supply Chain
 - Fortune 500
+token_bound: false
 token_urls: []
 ---

@@ -93,6 +93,7 @@ tags:
 - Situational Awareness
 - Authentication
 - Video Streaming
+token_bound: false
 token_urls:
 - https://auth.legion-prod.picogrid.com/realms/legion/protocol/openid-connect/token
 ---

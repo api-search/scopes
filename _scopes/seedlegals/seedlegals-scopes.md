@@ -90,7 +90,7 @@ tags:
 - Equity
 - Compliance
 - MCP
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://api.seedlegals.com/mcp/oauth2/token
 - https://auth.seedlegals.com/oauth2/token

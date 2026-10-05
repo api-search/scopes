@@ -97,6 +97,7 @@ tags:
 - Remote Monitoring
 - Health System
 - Terminology Services
+token_bound: false
 token_urls:
 - https://api-{tenant-id}.developer.commure.com/auth/token
 ---

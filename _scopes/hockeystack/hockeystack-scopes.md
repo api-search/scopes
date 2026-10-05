@@ -52,6 +52,7 @@ tags:
 - Account Intelligence
 - MCP
 - AI Agents
+token_bound: false
 token_urls:
 - https://hockeystack.com/api/mcp/oauth/token
 ---

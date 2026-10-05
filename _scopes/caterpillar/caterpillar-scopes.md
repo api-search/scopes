@@ -120,6 +120,7 @@ tags:
 - Fleet Management
 - ISO 15143-3
 - AEMP
+token_bound: false
 token_urls:
 - https://fedlogin.cat.com/as/token.oauth2
 ---

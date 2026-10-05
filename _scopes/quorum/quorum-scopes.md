@@ -83,6 +83,7 @@ tags:
 - Land Management
 - Royalty Accounting
 - Production Reporting
+token_bound: false
 token_urls:
 - https://auth.quorumsoftware.com/oauth2/token
 ---

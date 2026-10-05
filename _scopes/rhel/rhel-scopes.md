@@ -82,6 +82,7 @@ tags:
 - Security
 - Subscription Management
 - Vulnerability Management
+token_bound: false
 token_urls:
 - https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/token
 ---

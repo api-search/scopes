@@ -60,6 +60,7 @@ tags:
 - e-Prescribing
 - Terminology
 - Government
+token_bound: false
 token_urls:
 - https://api.healthterminologies.gov.au/oauth2/token
 ---

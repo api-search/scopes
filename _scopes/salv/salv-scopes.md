@@ -173,6 +173,7 @@ tags:
 - Sanctions Screening
 - Transaction Monitoring
 - Fraud Prevention
+token_bound: false
 token_urls:
 - https://app.salv.com/oauth/token
 ---

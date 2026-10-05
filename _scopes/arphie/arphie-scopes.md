@@ -55,6 +55,7 @@ tags:
 - Go-To-Market
 - MCP
 - Agents
+token_bound: false
 token_urls:
 - https://ogxxofxbnksprbjqojnc.supabase.co/auth/v1/oauth/token
 ---

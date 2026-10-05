@@ -64,6 +64,7 @@ tags:
 - Telehealth
 - Consumer Health
 - Identity
+token_bound: false
 token_urls:
 - https://secure.everlywell.com/oauth2/token
 ---

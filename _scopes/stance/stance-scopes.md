@@ -66,6 +66,7 @@ tags:
 - Socks
 - Direct to Consumer
 - Shopify
+token_bound: false
 token_urls:
 - https://account.stance.com/authentication/oauth/token
 ---

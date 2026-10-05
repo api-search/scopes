@@ -74,6 +74,7 @@ tags:
 - Security
 - Threat Detection
 - Vulnerability Management
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

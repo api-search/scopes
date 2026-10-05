@@ -86,6 +86,7 @@ tags:
 - Open Data
 - Demand Response
 - Carbon
+token_bound: false
 token_urls:
 - https://donnees.hydroquebec.com/oauth2/token/
 ---

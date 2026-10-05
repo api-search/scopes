@@ -52,6 +52,7 @@ tags:
 - Fintech
 - Wealth Management
 - Europe
+token_bound: false
 token_urls:
 - https://api.lightyear.com/oauth2/internal-mcp/token
 ---

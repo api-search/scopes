@@ -71,6 +71,7 @@ tags:
 - Hospitality
 - Agentic Commerce
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/82272813382/oauth/token
 ---

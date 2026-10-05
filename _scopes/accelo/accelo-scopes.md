@@ -107,6 +107,7 @@ tags:
 - Time Tracking
 - Invoicing
 - Service Operations
+token_bound: false
 token_urls:
 - https://{deployment}.api.accelo.com/oauth2/v0/token
 ---

@@ -407,6 +407,7 @@ tags:
 - Urban Mobility
 - Smart Cities
 - EV Charging
+token_bound: false
 token_urls:
 - https://auth.appyway.com/oauth/token
 ---

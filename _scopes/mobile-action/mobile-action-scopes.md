@@ -84,6 +84,7 @@ tags:
 - Agent Tools
 - App Store Intelligence
 - Mobile Measurement
+token_bound: false
 token_urls:
 - https://www.mobileaction.co/wp-json/awfah_oauth/v1/token
 ---

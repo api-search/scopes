@@ -57,6 +57,7 @@ tags:
 - Defense
 - Content Management
 - MCP
+token_bound: false
 token_urls:
 - https://www.starfishspace.com/oauth/token
 ---

@@ -106,6 +106,7 @@ tags:
 - Collaboration
 - Conversation Intelligence
 - A2A
+token_bound: false
 token_urls:
 - https://api.fireflies.ai/token
 - https://mcp.fireflies.ai/token

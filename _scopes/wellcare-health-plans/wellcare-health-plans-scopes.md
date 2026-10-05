@@ -160,6 +160,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellcare-healt
 summary_line: 8 scopes · authorizationCode
 tags:
 - Fortune 500
+token_bound: false
 token_urls:
 - https://partners.centene.com/oauth2/token
 ---

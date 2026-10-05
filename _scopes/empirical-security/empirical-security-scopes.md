@@ -70,6 +70,7 @@ tags:
 - EPSS
 - Exploit Prediction
 - Threat Intelligence
+token_bound: false
 token_urls:
 - https://empiricalsecurity.fusionauth.io/oauth2/token
 ---

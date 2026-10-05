@@ -194,6 +194,7 @@ tags:
 - Patient Support Services
 - Drug Discovery
 - Genomics
+token_bound: false
 token_urls:
 - https://developer.gene.com/services/oauth2/token
 ---

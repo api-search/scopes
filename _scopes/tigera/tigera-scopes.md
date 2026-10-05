@@ -90,6 +90,7 @@ tags:
 - Zero Trust
 - eBPF
 - Open Source
+token_bound: false
 token_urls:
 - https://www.tigera.io/oauth/token
 ---

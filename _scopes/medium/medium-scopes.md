@@ -36,26 +36,47 @@ api_specs:
   slug: medium-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-users-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://medium.com/m/oauth/authorize
 description: 'OAuth2 scopes for Medium''s browser-based authorization flow, read from the scope table in section 2.2 of Medium''s own API documentation. Note that derive-oauth-scopes.py finds NOTHING in the repository''s OpenAPIs — none of the six refined specs declares an oauth2 securityScheme, so this artifact could only come from the docs. Scope grants are closed to new integrations: Medium states it does not allow new integrations, and the flow is "supported for existing integrations only".'
 docs: https://github.com/Medium/medium-api-docs#22-browser-based-authentication
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Medium Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Medium uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Medium publishes 4 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Medium API on a user''s behalf.
+
+
+  Tokens are issued from https://api.medium.com/v1/tokens.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Medium
 provider_slug: medium
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- basicProfile
+- listPublications
+- publishPost
+- uploadImage
+scopes:
+- description: Grants basic access to a user's profile (not including their email).
+  flows: []
+  scope: basicProfile
+- description: Grants the ability to list publications related to the user.
+  flows: []
+  scope: listPublications
+- description: Grants the ability to publish a post to the user's profile.
+  flows: []
+  scope: publishPost
+- description: Grants the ability to upload an image for use within a Medium post.
+  flows: []
+  scope: uploadImage
 slug: medium-scopes
 source_filename: medium-scopes.yml
 source_heading: OAuth Scopes
@@ -64,7 +85,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: https://github.
   \ in the `scope` query parameter, not space-separated as RFC\n    6749 section 3.3 specifies. Access tokens are valid for 60 days; refresh tokens do not expire.\n    Self-issued integration tokens (the recommended path) carry no scope selection at all.\nsummary:\n  scope_count: 4\n  extended_count: 1\nscopes:\n- name: basicProfile\n  description: Grants basic access to a user's profile (not including their email).\n  extended: false\n  operations:\n  - getAuthenticatedUser\n- name: listPublications\n  description: Grants the ability to list publications related to the user.\n  extended: false\n  operations:\n  - listUserPublications\n- name: publishPost\n  description: Grants the ability to publish a post to the user's profile.\n  extended: false\n  operations:\n  - createUserPost\n  - createPublicationPost\n- name: uploadImage\n  description: Grants the ability to upload an image for use within a Medium post.\n  extended: true\n  operations:\n  - uploadImage\n  note: >-\n    Extended\
   \ scope. Medium's docs state integrations are not permitted to request extended scope\n    without explicit prior permission from Medium, and that requesting it through the standard flow\n    errors if the integration has not been authorized for it.\nrecommended_default:\n- basicProfile\n- publishPost\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/scopes/medium-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes · authorization_code
 tags:
 - Publishing
 - Content
@@ -74,5 +95,7 @@ tags:
 - Writing
 - Authentication
 - Deprecated API
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.medium.com/v1/tokens
 ---

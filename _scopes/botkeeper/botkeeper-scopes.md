@@ -9,16 +9,32 @@ method: probed
 name: Botkeeper Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Botkeeper uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Botkeeper publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Botkeeper API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Botkeeper
 provider_slug: botkeeper
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- phone
+- profile
+scopes:
+- description: Standard OIDC scope — requests an ID token for the authenticated user.
+  flows: []
+  scope: openid
+- description: Standard OIDC scope — releases the email and email_verified claims.
+  flows: []
+  scope: email
+- description: Standard OIDC scope — releases the phone_number and phone_number_verified claims.
+  flows: []
+  scope: phone
+- description: Standard OIDC scope — releases the standard profile claims.
+  flows: []
+  scope: profile
 slug: botkeeper-scopes
 source_filename: botkeeper-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +43,7 @@ source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: https://cognito-i
   \ user.\n    standard: true\n  - name: email\n    description: Standard OIDC scope — releases the email and email_verified claims.\n    standard: true\n  - name: phone\n    description: Standard OIDC scope — releases the phone_number and phone_number_verified claims.\n    standard: true\n  - name: profile\n    description: Standard OIDC scope — releases the standard profile claims.\n    standard: true\n\ncustom_scopes: []\n\ndocs: null\n\ngaps:\n  - >-\n    No resource-server (custom) scopes are advertised. The Botkeeper Partner\n    Platform API on ipa.botkeeper.com is protected by an API Gateway authorizer,\n    but no scope taxonomy for it is published.\n  - No scopes/permissions reference page exists on botkeeper.com.\n  - >-\n    Least-privilege delegation is therefore not expressible against Botkeeper —\n    a third party can only receive whole-user identity, not a scoped grant.\n\nx-evidence:\n  fetched: '2026-08-08'\n  probes:\n    - url: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_MZqyuuurX/.well-known/openid-configuration\n\
   \      status: 200\n      content_type: application/json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botkeeper/refs/heads/main/scopes/botkeeper-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Company
 - Accounting
@@ -39,5 +55,6 @@ tags:
 - Banking Data
 - Practice Management
 - Small Business
+token_bound: false
 token_urls: []
 ---

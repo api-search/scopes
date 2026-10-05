@@ -192,6 +192,7 @@ tags:
 - Donations
 - Print on Demand
 - Creator Economy
+token_bound: false
 token_urls:
 - https://api.fourthwall.com/open-api/v1.0/platform/token
 ---

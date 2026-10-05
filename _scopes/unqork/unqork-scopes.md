@@ -172,6 +172,7 @@ tags:
 - Insurance
 - Government
 - Application Modernization
+token_bound: false
 token_urls:
 - https://{subdomain}.unqork.io/api/1.0/oauth2/access_token
 ---

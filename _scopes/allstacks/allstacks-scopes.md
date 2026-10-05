@@ -51,6 +51,7 @@ tags:
 - DevOps
 - Analytics
 - AI Agents
+token_bound: false
 token_urls:
 - https://app.allstacks.com/oauth/token/
 ---

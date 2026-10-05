@@ -58,6 +58,7 @@ tags:
 - Membership
 - Telehealth
 - HIPAA
+token_bound: false
 token_urls:
 - https://sollishealthprod.b2clogin.com/sollishealthprod.onmicrosoft.com/b2c_1_google/oauth2/v2.0/token
 ---

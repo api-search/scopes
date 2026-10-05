@@ -107,6 +107,7 @@ tags:
 - Market Data
 - Europe
 - Real-Time
+token_bound: false
 token_urls:
 - https://sts.nordpoolgroup.com/connect/token
 ---

@@ -1507,6 +1507,7 @@ tags:
 - Interconnection
 - Certification
 - MEF
+token_bound: false
 token_urls:
 - http://mef.net/example/token
 ---

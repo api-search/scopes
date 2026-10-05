@@ -217,6 +217,7 @@ tags:
 - National Mapping
 - GNSS
 - Vector Tiles
+token_bound: false
 token_urls:
 - https://api.os.uk/oauth2/token/v1
 - OAUTH_TOKEN_URL

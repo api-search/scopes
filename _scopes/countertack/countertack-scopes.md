@@ -115,6 +115,7 @@ tags:
 - Threat Detection
 - Incident Response
 - SIEM
+token_bound: false
 token_urls:
 - https://login.gosecure.net/realms/gosec-titan/protocol/openid-connect/token
 ---

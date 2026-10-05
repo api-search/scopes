@@ -72,6 +72,7 @@ tags:
 - Travel
 - Aviation
 - Flights
+token_bound: false
 token_urls:
 - https://api.lufthansa.com/v1/oauth/token
 ---

@@ -134,6 +134,7 @@ tags:
 - Automation
 - Customer Experience
 - Knowledge Management
+token_bound: false
 token_urls:
 - https://uniphore.us.auth0.com/oauth/token
 ---

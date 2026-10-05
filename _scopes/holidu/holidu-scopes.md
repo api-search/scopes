@@ -182,5 +182,6 @@ tags:
 - Channel Manager
 - Connectivity
 - Affiliates
+token_bound: false
 token_urls: []
 ---

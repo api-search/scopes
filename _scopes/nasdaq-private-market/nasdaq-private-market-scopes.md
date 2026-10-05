@@ -93,6 +93,7 @@ tags:
 - Valuation
 - Pre-IPO Equity
 - Capital Markets
+token_bound: false
 token_urls:
 - https://fe.login.secondmarket.com/oauth2/v1/token
 ---

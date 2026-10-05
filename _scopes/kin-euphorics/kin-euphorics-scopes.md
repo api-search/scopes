@@ -72,6 +72,7 @@ tags:
 - Agentic Commerce
 - Universal Commerce Protocol
 - MCP
+token_bound: false
 token_urls:
 - https://account.kineuphorics.com/authentication/oauth/token
 ---

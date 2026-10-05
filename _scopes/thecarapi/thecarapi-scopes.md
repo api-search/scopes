@@ -76,16 +76,56 @@ method: searched
 name: Thecarapi Scopes
 name_suffix: OAuth Scopes
 note: TheCarApi publishes a real, named scope reference, but the scopes are attached to an API key rather than issued through an OAuth2 authorization flow. There are no oauth2 securitySchemes in the OpenAPI and no authorization/token endpoints. Scopes are granted per endpoint by the operator; a request to a route the key does not cover returns 403.
-overview: 'TheCarApi uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'TheCarApi publishes 10 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TheCarApi API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: TheCarApi
 provider_slug: thecarapi
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 10
+scope_names:
+- search
+- catalog
+- seo
+- auctions
+- details
+- top-offers
+- theparking
+- market
+- calculator
+- ops
+scopes:
+- description: Inventory search, filter facets (individually or combined via /api/facets), sources, and the full model catalog.
+  flows: []
+  scope: search
+- description: Manufacturer and model-group catalog.
+  flows: []
+  scope: catalog
+- description: Popular searches and brand/model slug resolution.
+  flows: []
+  scope: seo
+- description: Auction detail, images, price history, and VIN history.
+  flows: []
+  scope: auctions
+- description: Full vehicle details, including upstream fetches.
+  flows: []
+  scope: details
+- description: Auctions priced below their market reference.
+  flows: []
+  scope: top-offers
+- description: European classifieds feed, facets, and models.
+  flows: []
+  scope: theparking
+- description: Cars.bg and auction market price snapshots.
+  flows: []
+  scope: market
+- description: Import cost calculator and supported countries.
+  flows: []
+  scope: calculator
+- description: Service health, the contract, and the API index. The provider warns that this group also covers internal routes outside the published contract, which are unversioned and may change without a changelog entry.
+  flows: []
+  scope: ops
 slug: thecarapi-scopes
 source_filename: thecarapi-scopes.yml
 source_heading: OAuth Scopes
@@ -95,7 +135,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://thecara
   \ integrations. New keys are issued against the groups above.\ndefault_grant:\n  enabled_by_default:\n    - /api/search\n    - /api/brands\n    - /api/models\n    - /api/years\n    - /api/fuels\n    - /api/countries\n    - /api/gearboxes\n    - /api/sites\n    - /load-models\n    - /api/facets\n    - /api/catalog/*\n    - /api/seo/*\n    - /api/auction/*\n    - /api/auction-images/*\n    - /api/calculator/*\n    - /api/top-offers\n    - /api/theparking/*\n    - /api/car-details\n    - /api/contract\n    - /api/health\n    - /\n  granted_on_request:\n    - /api/vin/{vin}/history\n    - /api/cars-bg-market\n    - /api/auction-market\n    - /api/listVehicles\n    - /listVehicles\n    - /api/search/auction-ids\n  no_key_required:\n    - /api/health/live\n    - /api/health/ready\ndiscovery:\n  startup_check: GET /api/contract\n  guidance: >-\n    The provider tells clients to call /api/contract once at process start and fail loudly if the\n    surface they depend on is absent — a missing scope\
   \ is a deployment problem, not a runtime one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/scopes/thecarapi-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 10 scopes
 tags:
 - Automotive
 - Vehicle Data
@@ -110,5 +150,6 @@ tags:
 - Europe
 - South Korea
 - Japan Auctions
+token_bound: false
 token_urls: []
 ---

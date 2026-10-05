@@ -9,16 +9,72 @@ method: probed
 name: Prompt Scopes
 name_suffix: OAuth Scopes
 note: These are the scopes the Prompt identity provider advertises in `scopes_supported`. They are the standard OpenID Connect scopes and OIDC standard-claim scopes only — Prompt publishes no product/API permission scopes anywhere public, because it publishes no public API reference. Do not read this file as an authorization model for a Prompt product API; it is the login surface.
-overview: 'Prompt uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Prompt publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Prompt API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Prompt
 provider_slug: prompt
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- offline_access
+- email
+- email_verified
+- address
+- phone
+- name
+- given_name
+- family_name
+- nickname
+- picture
+- created_at
+- identities
+scopes:
+- description: Required OIDC scope; requests an ID token for the authenticated user.
+  flows: []
+  scope: openid
+- description: Requests the OIDC standard profile claims.
+  flows: []
+  scope: profile
+- description: Requests a refresh token for long-lived access.
+  flows: []
+  scope: offline_access
+- description: Requests the user's email address claim.
+  flows: []
+  scope: email
+- description: Requests the email verification status claim.
+  flows: []
+  scope: email_verified
+- description: Requests the OIDC standard address claim.
+  flows: []
+  scope: address
+- description: Requests the OIDC standard phone claims.
+  flows: []
+  scope: phone
+- description: Requests the user's full name claim.
+  flows: []
+  scope: name
+- description: Requests the user's given name claim.
+  flows: []
+  scope: given_name
+- description: Requests the user's family name claim.
+  flows: []
+  scope: family_name
+- description: Requests the user's nickname claim.
+  flows: []
+  scope: nickname
+- description: Requests the user's profile picture claim.
+  flows: []
+  scope: picture
+- description: Requests the account creation timestamp claim (identity-provider extension).
+  flows: []
+  scope: created_at
+- description: Requests linked-identity metadata (identity-provider extension).
+  flows: []
+  scope: identities
 slug: prompt-scopes
 source_filename: prompt-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +83,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://authentic
   \ Requests the user's email address claim.\n  standard: openid-connect-core\n- name: email_verified\n  description: Requests the email verification status claim.\n  standard: openid-connect-core\n- name: address\n  description: Requests the OIDC standard address claim.\n  standard: openid-connect-core\n- name: phone\n  description: Requests the OIDC standard phone claims.\n  standard: openid-connect-core\n- name: name\n  description: Requests the user's full name claim.\n  standard: openid-connect-core\n- name: given_name\n  description: Requests the user's given name claim.\n  standard: openid-connect-core\n- name: family_name\n  description: Requests the user's family name claim.\n  standard: openid-connect-core\n- name: nickname\n  description: Requests the user's nickname claim.\n  standard: openid-connect-core\n- name: picture\n  description: Requests the user's profile picture claim.\n  standard: openid-connect-core\n- name: created_at\n  description: Requests the account creation\
   \ timestamp claim (identity-provider extension).\n  standard: provider-extension\n- name: identities\n  description: Requests linked-identity metadata (identity-provider extension).\n  standard: provider-extension\nclaims_supported:\n- aud\n- auth_time\n- created_at\n- email\n- email_verified\n- exp\n- family_name\n- given_name\n- iat\n- identities\n- iss\n- name\n- nickname\n- phone_number\n- picture\n- sub\nx-evidence:\n  fetched: '2026-08-26'\n  url: https://authenticate.promptemr.com/.well-known/openid-configuration\n  http_status: 200\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prompt/refs/heads/main/scopes/prompt-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Company
 - Healthcare
@@ -39,5 +95,6 @@ tags:
 - Medical Billing
 - Patient Engagement
 - Artificial Intelligence
+token_bound: false
 token_urls: []
 ---

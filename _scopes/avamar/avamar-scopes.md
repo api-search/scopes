@@ -87,6 +87,7 @@ tags:
 - Infrastructure
 - Dell Technologies
 - On-Premises
+token_bound: false
 token_urls:
 - https://<AvamarServer>/api/oauth/token
 ---

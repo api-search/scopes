@@ -65,7 +65,7 @@ tags:
 - France
 - Meal Delivery
 - Authentication
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://customers.refectory.fr/oauth2/token
 ---

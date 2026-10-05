@@ -684,6 +684,7 @@ tags:
 - OpenAPI
 - Self-Hosted
 - MCP
+token_bound: false
 token_urls:
 - https://demo.fusio-project.org/authorization/token
 ---

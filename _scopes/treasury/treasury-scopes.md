@@ -51,6 +51,7 @@ tags:
 - Financial Education
 - MCP
 - Agents
+token_bound: false
 token_urls:
 - https://treasury.app/oauth/token
 ---

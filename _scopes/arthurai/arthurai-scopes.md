@@ -1235,6 +1235,7 @@ tags:
 - Model Monitoring
 - Guardrails
 - MLOps
+token_bound: false
 token_urls:
 - https://platform-auth.arthur.ai/realms/arthur/protocol/openid-connect/token
 ---

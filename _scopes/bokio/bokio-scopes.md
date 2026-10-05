@@ -279,6 +279,7 @@ tags:
 - Sweden
 - Small Business
 - Authentication
+token_bound: false
 token_urls:
 - /token
 ---

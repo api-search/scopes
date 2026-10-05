@@ -115,6 +115,9 @@ note: ''
 overview: 'Celonis publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Celonis API on a user''s behalf.
 
 
+  Tokens are issued from https://{team_domain}.{realm}.celonis.cloud/oauth2/token.
+
+
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Celonis
 provider_slug: celonis
@@ -153,5 +156,7 @@ tags:
 - AI Agents
 - Enterprise
 - Workflow Automation
-token_urls: []
+token_bound: false
+token_urls:
+- https://{team_domain}.{realm}.celonis.cloud/oauth2/token
 ---

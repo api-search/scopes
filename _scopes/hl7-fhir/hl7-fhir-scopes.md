@@ -123,6 +123,7 @@ tags:
 - LOINC
 - SNOMED CT
 - US Core
+token_bound: false
 token_urls:
 - https://auth.example.com/token
 ---

@@ -110,6 +110,7 @@ tags:
 - Authentication
 - SDK
 - MCP
+token_bound: false
 token_urls:
 - https://{store_name}.myikas.com/api/admin/oauth/token
 ---

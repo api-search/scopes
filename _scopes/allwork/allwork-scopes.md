@@ -99,6 +99,7 @@ tags:
 - Scheduling
 - Time and Attendance
 - Compliance
+token_bound: false
 token_urls:
 - https://auth.allworknow.com/realms/AWN1/protocol/openid-connect/token
 ---

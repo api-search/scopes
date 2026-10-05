@@ -133,6 +133,7 @@ tags:
 - Supply Chain
 - Predictive Analytics
 - Industrial
+token_bound: false
 token_urls:
 - https://example.com/token
 ---

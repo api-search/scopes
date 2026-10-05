@@ -307,6 +307,7 @@ tags:
 - SME Lending
 - Fintech
 - Account Information
+token_bound: false
 token_urls:
 - https://authserver.example/token
 ---

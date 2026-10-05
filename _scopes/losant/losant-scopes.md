@@ -139,6 +139,7 @@ tags:
 - Time Series
 - Connected Products
 - Enterprise
+token_bound: false
 token_urls:
 - https://api.losant.com/oauth/token
 ---

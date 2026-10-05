@@ -75,6 +75,7 @@ tags:
 - Flowcharts
 - Wireframes
 - Mind Maps
+token_bound: false
 token_urls:
 - https://whimsical.com/oauth/token
 ---

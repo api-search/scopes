@@ -328,6 +328,7 @@ tags:
 - Membership
 - Webhook
 - Scheduling
+token_bound: false
 token_urls:
 - https://auth.servicetitan.io/connect/token
 ---

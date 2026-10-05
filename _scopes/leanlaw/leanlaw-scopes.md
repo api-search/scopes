@@ -60,26 +60,100 @@ api_specs:
   slug: leanlaw-time-entry-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-time-entry-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://api.myleanlaw.co/oauth/authorize
 description: ''
 docs: https://platform.leanlaw.io/agents
-flows: []
+flows:
+- authorization_code
+- refresh_token
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Leanlaw Scopes
 name_suffix: OAuth Scopes
 note: Derived from the LIVE OAuth metadata, not from the OpenAPI. The published OpenAPI declares only a `BearerAuth` (http/bearer) scheme with no oauth2 flows, so derive-oauth-scopes.py found zero scopes in the spec; the real scope surface is published in the authorization-server and protected-resource discovery documents. This is a genuine gap between LeanLaw's contract and its deployed auth.
-overview: 'LeanLaw uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'LeanLaw publishes 17 OAuth 2.0 scopes via the authorization_code and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the LeanLaw API on a user''s behalf.
+
+
+  Tokens are issued from https://api.myleanlaw.co/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: LeanLaw
 provider_slug: leanlaw
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 17
+scope_names:
+- openid
+- offline_access
+- read:*
+- write:*
+- read:clients
+- write:clients
+- read:matters
+- write:matters
+- read:time-entries
+- write:time-entries
+- read:expenses
+- write:expenses
+- read:fixed-fees
+- write:fixed-fees
+- read:invoices
+- read:balances
+- read:codes
+scopes:
+- description: OpenID Connect authentication; issues an ID token (RS256).
+  flows: []
+  scope: openid
+- description: Issue a refresh token so the agent can act after the initial session expires.
+  flows: []
+  scope: offline_access
+- description: Read access to every supported resource. Wildcard grant.
+  flows: []
+  scope: read:*
+- description: Write access to every supported resource. Wildcard grant.
+  flows: []
+  scope: write:*
+- description: Read law-firm clients, including contact details when requested via select=contact.
+  flows: []
+  scope: read:clients
+- description: Create, update and delete clients.
+  flows: []
+  scope: write:clients
+- description: Read matters, their responsible/originator users, practice area and LEDES configuration.
+  flows: []
+  scope: read:matters
+- description: Create, update and delete matters. Creating a matter can also create the matching QuickBooks Online customer/sub-customer for firms on the QBO integration.
+  flows: []
+  scope: write:matters
+- description: Read billable time entries.
+  flows: []
+  scope: read:time-entries
+- description: Create, update and delete time entries.
+  flows: []
+  scope: write:time-entries
+- description: Read matter expenses.
+  flows: []
+  scope: read:expenses
+- description: Create, update and delete expenses.
+  flows: []
+  scope: write:expenses
+- description: Read fixed-fee (flat-fee) billable items.
+  flows: []
+  scope: read:fixed-fees
+- description: Create, update and delete fixed fees.
+  flows: []
+  scope: write:fixed-fees
+- description: Read invoices. There is no write scope for invoices — the invoice surface is read-only.
+  flows: []
+  scope: read:invoices
+- description: Read client account balances.
+  flows: []
+  scope: read:balances
+- description: Read LEDES activity, task and expense code sets.
+  flows: []
+  scope: read:codes
 slug: leanlaw-scopes
 source_filename: leanlaw-scopes.yml
 source_heading: OAuth Scopes
@@ -89,7 +163,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: https://api.leanl
   \ LEDES configuration.\n  source: both\n- name: 'write:matters'\n  description: Create, update and delete matters. Creating a matter can also create the matching\n    QuickBooks Online customer/sub-customer for firms on the QBO integration.\n  source: both\n- name: 'read:time-entries'\n  description: Read billable time entries.\n  source: both\n- name: 'write:time-entries'\n  description: Create, update and delete time entries.\n  source: both\n- name: 'read:expenses'\n  description: Read matter expenses.\n  source: both\n- name: 'write:expenses'\n  description: Create, update and delete expenses.\n  source: both\n- name: 'read:fixed-fees'\n  description: Read fixed-fee (flat-fee) billable items.\n  source: both\n- name: 'write:fixed-fees'\n  description: Create, update and delete fixed fees.\n  source: both\n- name: 'read:invoices'\n  description: Read invoices. There is no write scope for invoices — the invoice surface is read-only.\n  source: both\n- name: 'read:balances'\n  description:\
   \ Read client account balances.\n  source: both\n- name: 'read:codes'\n  description: Read LEDES activity, task and expense code sets.\n  source: both\nobservations:\n- No write scope exists for invoices, balances or codes — those surfaces are read-only by design and\n  the scope list reflects it.\n- Trust accounts and settlements are explicitly excluded from the agent surface per\n  https://platform.leanlaw.io/agents, and no scope is published for them.\n- The `read:*` / `write:*` wildcards let a client request blanket access; a least-privilege\n  integration should request the specific resource scopes instead.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/scopes/leanlaw-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 17 scopes · authorization_code/refresh_token
 tags:
 - Legal
 - Legal Billing
@@ -104,5 +178,7 @@ tags:
 - Payments
 - Legal Tech
 - Software-as-a-Service
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.myleanlaw.co/oauth/token
 ---

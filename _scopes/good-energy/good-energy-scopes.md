@@ -89,6 +89,7 @@ tags:
 - Solar
 - EV Charging
 - Energy Retail
+token_bound: false
 token_urls:
 - https://login.goodenergy.co.uk/connect/token
 ---

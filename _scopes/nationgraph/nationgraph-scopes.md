@@ -346,16 +346,36 @@ method: probed
 name: Nationgraph Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'NationGraph uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'NationGraph publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the NationGraph API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: NationGraph
 provider_slug: nationgraph
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+- mcp:read
+scopes:
+- description: Standard OIDC scope. Requests an ID token identifying the authenticated end user.
+  flows: []
+  scope: openid
+- description: Standard OIDC scope. Grants access to the end user's basic profile claims via the userinfo endpoint.
+  flows: []
+  scope: profile
+- description: Standard OIDC scope. Grants access to the end user's email address claim.
+  flows: []
+  scope: email
+- description: Standard OIDC scope. Requests a refresh token so a client can act without the user present — the scope that makes long-running agent sessions possible against this API.
+  flows: []
+  scope: offline_access
+- description: First-party, NationGraph-specific scope. Grants READ access to the NationGraph MCP server at https://api.nationgraph.com/internal/mcp. Required — the endpoint's WWW-Authenticate challenge names this scope explicitly on an unauthenticated request.
+  flows: []
+  scope: mcp:read
 slug: nationgraph-scopes
 source_filename: nationgraph-scopes.yml
 source_heading: OAuth Scopes
@@ -366,7 +386,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://api.natio
   \  introspection: https://api.nationgraph.com/auth/oauth2/introspect\n  revocation: https://api.nationgraph.com/auth/oauth2/revoke\n  userinfo: https://api.nationgraph.com/auth/oauth2/userinfo\n  end_session: https://api.nationgraph.com/auth/oauth2/end-session\n  jwks: https://api.nationgraph.com/auth/.well-known/jwks.json\ncross_links:\n  authentication: authentication/nationgraph-authentication.yml\n  mcp: mcp/nationgraph-mcp.yml\n  well_known: well-known/nationgraph-well-known.yml\n  conformance: conformance/nationgraph-conformance.yml\nx-evidence:\n  fetched: '2026-08-14'\n  probes:\n  - {url: 'https://api.nationgraph.com/.well-known/oauth-authorization-server', http_status: 200}\n  - {url: 'https://api.nationgraph.com/.well-known/openid-configuration', http_status: 200}\n  - {url: 'https://api.nationgraph.com/.well-known/oauth-protected-resource', http_status: 200}\n  - {url: 'https://api.nationgraph.com/internal/mcp', http_status: 401, note: 'WWW-Authenticate names scope=\"mcp:read\"\
   '}\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/scopes/nationgraph-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes
 tags:
 - Company
 - Sales Intelligence
@@ -378,5 +398,6 @@ tags:
 - RFP
 - Data
 - Sales
+token_bound: false
 token_urls: []
 ---

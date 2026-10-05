@@ -87,14 +87,17 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://www.coned.com/en/accounts-billing/share-energy-usage-data/become-a-third-party
-flows: []
+flows:
+- authorizationCode
+- refreshToken
+- clientCredentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Con Edison Scopes
 name_suffix: OAuth Scopes
 note: 'Con Edison''s Swagger 2.0 definition declares no securityDefinitions, so derive-oauth-scopes.py produced nothing. The scope model below is transcribed from section 3.2.3 "Functional Blocks and its description" of the Third-Party Technical Onboarding Document v4.4 (last updated 2026-05-07). Scopes are NAESB REQ.21 ESPI functional blocks (FB), not free-form strings: a single scope value is a semicolon-delimited string carrying the FB list plus interval/history qualifiers.'
-overview: 'Con Edison publishes 17 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Con Edison API on a user''s behalf.
+overview: 'Con Edison publishes 17 OAuth 2.0 scopes via the authorizationCode, refreshToken, and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Con Edison API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -182,7 +185,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: https://www.con
   \  block: 60\n- scope: FB=67\n  name: Retail Customer Bulk\n  block: 67\nmandatory_minimums:\n- use_case: Consumption\n  blocks: [1, 3, 4]\n- use_case: Billing\n  blocks: [1, 3]\n- use_case: Retail Customer\n  blocks: [51, 53]\npublished_scope_examples:\n- name: Consumption Electricity Scope\n  value: FB=1_3_4_5;IntervalDuration=Monthly_3600_900_300;BlockDuration=Monthly_Daily;HistoryLength=63072000;BR=000092\n- name: Consumption Electricity Net Scope\n  value: FB=1_3_4_7;IntervalDuration=Monthly_3600_900_300;BlockDuration=Monthly_Daily;HistoryLength=63072000;BR=000092\n- name: Consumption Gas Scope\n  value: FB=1_3_4_10;IntervalDuration=Monthly_3600_900_300;BlockDuration=Monthly_Daily;HistoryLength=63072000;BR=000092\n- name: Consumption Forward Reverse Scope\n  value: FB=1_3_4_8;IntervalDuration=Monthly_3600_900_300;BlockDuration=Monthly_Daily;HistoryLength=63072000;BR=000092\n- name: Billing Information Without Cost Scope\n  value: FB=1_3_15;IntervalDuration=Monthly;BlockDuration=Monthly;HistoryLength=63072000;BR=000092\n\
   - name: Billing Information With Cost Scope\n  value: FB=1_3_15_16;IntervalDuration=Monthly;BlockDuration=Monthly;HistoryLength=63072000;BR=000092\n- name: RetailCustomer Billing Account Scope\n  value: FB=51_53_56;BR=000092\n- name: RetailCustomer Meter Scope\n  value: FB=51_53_56_57_58_60;BR=000092\n- name: Multiple Scopes combined\n  value: FB=1_3_4_5_7_8_10_15_16_51_53_56_57_58_60;IntervalDuration=Monthly_3600_900_300;BlockDuration=Monthly_Daily;HistoryLength=63072000;BR=000092\n- name: Third-Party Client Access Token (client_credentials)\n  value: FB=34_35\n  note: The bulk/client-credentials scope published in section 3.3.2; FB_34 is not described in the document's functional-block table.\n- name: Refresh-token example\n  value: FB=1_3_4_5_7_10_15_16_51_53_56_57_58_60\nflows: [authorizationCode, refreshToken, clientCredentials]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/scopes/con-edison-scopes.yml
-summary_line: 17 scopes
+summary_line: 17 scopes · authorizationCode/refreshToken/clientCredentials
 tags:
 - Energy
 - United States
@@ -201,5 +204,6 @@ tags:
 - Solar
 - EV Charging
 - Demand Response
+token_bound: false
 token_urls: []
 ---

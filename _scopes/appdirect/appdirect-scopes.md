@@ -564,6 +564,7 @@ tags:
 - Cloud Distribution
 - Webhook
 - Authentication
+token_bound: false
 token_urls:
 - https://{marketplaceURL}/oauth2/token
 ---

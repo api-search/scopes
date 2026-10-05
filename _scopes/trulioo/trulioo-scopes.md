@@ -206,6 +206,7 @@ tags:
 - Fraud Prevention
 - Compliance
 - Global Identity
+token_bound: false
 token_urls:
 - https://auth-api.trulioo.com/connect/token
 - https://api.trulioo.com/customer/v2/auth/customer

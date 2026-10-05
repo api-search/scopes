@@ -774,6 +774,7 @@ tags:
 - Data Collection
 - Analytics
 - Voice of the Customer
+token_bound: false
 token_urls:
 - /oauth2/token/
 ---

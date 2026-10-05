@@ -590,6 +590,7 @@ tags:
 - eNote
 - Webhook
 - MCP
+token_bound: false
 token_urls:
 - https://api.ncinomortgage.com/oauth/token
 ---

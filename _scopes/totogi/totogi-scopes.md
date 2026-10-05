@@ -57,6 +57,7 @@ tags:
 - Vertical AI
 - GraphQL
 - Policy Control
+token_bound: false
 token_urls:
 - https://oauth.totogi.io/oauth2/token
 ---

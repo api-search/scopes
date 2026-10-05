@@ -146,6 +146,7 @@ tags:
 - GRC
 - SOC 2
 - MCP
+token_bound: false
 token_urls:
 - https://api.thoropass.com/oauth/token/
 ---

@@ -82,6 +82,7 @@ tags:
 - Provider Directory
 - SMART on FHIR
 - Fortune 500
+token_bound: false
 token_urls:
 - https://api.chs.net/oauth2/token
 ---

@@ -55,6 +55,7 @@ tags:
 - Authentication
 - Webhook
 - Germany
+token_bound: false
 token_urls:
 - https://auth.solarisbank.de/oauth2/token
 ---

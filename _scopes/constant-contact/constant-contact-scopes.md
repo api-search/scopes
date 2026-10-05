@@ -501,6 +501,7 @@ tags:
 - SMS
 - Surveys
 - Email
+token_bound: false
 token_urls:
 - https://authz.constantcontact.com/oauth2/default/v1/token
 ---

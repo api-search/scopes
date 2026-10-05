@@ -193,6 +193,7 @@ tags:
 - SMART on FHIR
 - Patient Records
 - HL7
+token_bound: false
 token_urls:
 - https://www.healthgorilla.com/oauth/token
 ---

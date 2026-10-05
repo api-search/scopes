@@ -656,6 +656,7 @@ tags:
 - Endpoint Monitoring
 - OpenTelemetry
 - Cisco
+token_bound: false
 token_urls:
 - https://api.thousandeyes.com/v7/oauth2/token
 ---

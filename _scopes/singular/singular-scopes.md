@@ -79,6 +79,7 @@ tags:
 - MCP
 - Ad Monetization
 - Privacy
+token_bound: false
 token_urls:
 - https://mcp.singular.net/oauth_server/token
 - https://www.singular.net/oauth/token

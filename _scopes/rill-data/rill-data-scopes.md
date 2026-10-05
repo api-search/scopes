@@ -66,6 +66,7 @@ tags:
 - OLAP
 - Open Source
 - Developer Tools
+token_bound: false
 token_urls:
 - https://admin.rilldata.com/auth/oauth/token
 ---

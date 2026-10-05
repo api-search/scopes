@@ -156,6 +156,7 @@ tags:
 - Data Visualization
 - Reporting
 - SAP
+token_bound: false
 token_urls:
 - https://{tenant}.authentication.{region}.hana.ondemand.com/oauth/token
 ---

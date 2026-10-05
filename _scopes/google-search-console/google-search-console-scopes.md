@@ -140,6 +140,7 @@ tags:
 - Sitemap
 - URL Inspection
 - Webmaster Tools
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

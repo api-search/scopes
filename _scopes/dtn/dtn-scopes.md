@@ -1269,6 +1269,7 @@ tags:
 - Observations
 - Commodities
 - Real-Time
+token_bound: false
 token_urls:
 - https://api.auth.dtn.com/v1/tokens/authorize
 ---

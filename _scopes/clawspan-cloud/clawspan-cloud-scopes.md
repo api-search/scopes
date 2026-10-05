@@ -263,6 +263,7 @@ tags:
 - x402
 - Marketplace
 - Billing
+token_bound: false
 token_urls:
 - https://clerk.clawspan.cloud/oauth/token
 ---

@@ -45,23 +45,48 @@ api_specs:
 authorization_urls: []
 description: OAuth2 authorization scopes for the consumer-authorized surface of Australian Military Bank's CDR (Consumer Data Right) Banking API. The bank declares no formal OpenAPI securitySchemes; scopes are published per-operation as `x-scopes` extensions in the Data Standards Body CDR Banking API (v1.36.0) that the bank implements as a registered ADI / CDR data holder. These scopes are granted only to CDR-accredited data recipients (ADRs) through the FAPI-profiled OAuth2/OIDC consent flow over mutual-TLS; the public Product Reference Data endpoints (listBankingProducts, getBankingProductDetail) require no scope and no auth.
 docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: derived
 name: Australian Military Bank Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Australian Military Bank uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Australian Military Bank publishes 6 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Australian Military Bank API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Australian Military Bank
 provider_slug: australian-military-bank
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- bank:accounts.basic:read
+- bank:accounts.detail:read
+- bank:transactions:read
+- bank:regular_payments:read
+- bank:payees:read
+- common:customer.basic:read
+scopes:
+- description: Read basic account information (account list and balances).
+  flows: []
+  scope: bank:accounts.basic:read
+- description: Read detailed account information including account numbers and features.
+  flows: []
+  scope: bank:accounts.detail:read
+- description: Read transactions for authorized accounts.
+  flows: []
+  scope: bank:transactions:read
+- description: Read direct debits, scheduled payments, and instalment plans.
+  flows: []
+  scope: bank:regular_payments:read
+- description: Read saved payees.
+  flows: []
+  scope: bank:payees:read
+- description: Read basic customer identity information. Declared in the CDR common standards for the customer endpoints; not present as an x-scopes value on the banking paths in this spec but required in the CDR consent for customer data.
+  flows: []
+  scope: common:customer.basic:read
 slug: australian-military-bank-scopes
 source_filename: australian-military-bank-scopes.yml
 source_heading: OAuth Scopes
@@ -70,7 +95,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/australi
   \    description: Read basic account information (account list and balances).\n    operations:\n      - listBankingAccounts\n      - listBankingBalancesBulk\n      - listBankingBalancesSpecificAccounts\n      - getBankingBalance\n  - name: bank:accounts.detail:read\n    description: Read detailed account information including account numbers and features.\n    operations:\n      - getBankingAccountDetail\n  - name: bank:transactions:read\n    description: Read transactions for authorized accounts.\n    operations:\n      - listBankingTransactions\n      - getBankingTransactionDetail\n  - name: bank:regular_payments:read\n    description: Read direct debits, scheduled payments, and instalment plans.\n    operations:\n      - listDirectDebits\n      - listDirectDebitsBulk\n      - listDirectDebitsSpecificAccounts\n      - listScheduledPayments\n      - listScheduledPaymentsBulk\n      - listScheduledPaymentsSpecificAccounts\n      - listInstalmentPlans\n      - listInstalmentPlansBulk\n\
   \  - name: bank:payees:read\n    description: Read saved payees.\n    operations:\n      - listBankingPayees\n      - getBankingPayeeDetail\n  - name: common:customer.basic:read\n    description: >-\n      Read basic customer identity information. Declared in the CDR common\n      standards for the customer endpoints; not present as an x-scopes value on\n      the banking paths in this spec but required in the CDR consent for\n      customer data.\n    operations: []\nnotes: >-\n  The public unauthenticated Product Reference Data surface (GET /banking/products\n  and GET /banking/products/{productId}) requires no OAuth scope. All scoped\n  operations are only exercisable by accredited data recipients registered with\n  the CDR Register; they are not callable from this public repo.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/scopes/australian-military-bank-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes · authorization_code
 tags:
 - Finance
 - Banks
@@ -80,5 +105,6 @@ tags:
 - Australia
 - Mutual
 - Defence
+token_bound: false
 token_urls: []
 ---

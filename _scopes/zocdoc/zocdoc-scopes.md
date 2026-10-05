@@ -463,6 +463,7 @@ tags:
 - Insurance
 - Telehealth
 - Scheduling
+token_bound: false
 token_urls:
 - https://auth.zocdoc.com/oauth/token
 ---

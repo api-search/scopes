@@ -52,6 +52,7 @@ tags:
 - E-Commerce
 - GraphQL
 - MCP
+token_bound: false
 token_urls:
 - https://app.archive.com/oauth/token
 ---

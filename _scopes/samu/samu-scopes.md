@@ -87,6 +87,7 @@ tags:
 - WhatsApp
 - MCP
 - Agent-Native
+token_bound: false
 token_urls:
 - https://api.samu.ai/oauth/token
 ---

@@ -322,6 +322,7 @@ tags:
 - Taxonomy
 - Authentication
 - Agentic Commerce
+token_bound: false
 token_urls:
 - https://openapi.etsy.com/v3/public/oauth/token
 ---

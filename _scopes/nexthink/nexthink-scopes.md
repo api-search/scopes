@@ -99,7 +99,7 @@ tags:
 - IT Operations
 - Automation
 - Observability
-- DEX
+token_bound: false
 token_urls:
 - https://{instance}-login.{region}.nexthink.cloud/oauth2/default/v1/token
 ---

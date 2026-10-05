@@ -131,11 +131,12 @@ tags:
 - Budgeting
 - Gantt Charts
 - Microsoft
-- Portfolio Management
 - Project Management
 - Resource Management
 - Scheduling
 - Task Management
+- Project Portfolio Management
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/token
 ---

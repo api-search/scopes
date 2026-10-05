@@ -492,6 +492,7 @@ tags:
 - Logistics
 - AI Agents
 - MCP
+token_bound: false
 token_urls:
 - https://api.opply.com/api/v1/oauth/token/
 ---

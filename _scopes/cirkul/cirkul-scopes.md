@@ -74,6 +74,7 @@ tags:
 - Universal Commerce Protocol
 - Shopify
 - Hydration
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/5052170330/oauth/token
 ---

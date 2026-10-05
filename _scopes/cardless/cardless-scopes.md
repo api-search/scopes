@@ -72,6 +72,7 @@ tags:
 - Lending
 - Co-Branded Cards
 - Loyalty
+token_bound: false
 token_urls:
 - https://docs.cardless.com/mcp/oauth/token
 ---

@@ -64,6 +64,7 @@ tags:
 - GraphQL
 - Authentication
 - Public APIs
+token_bound: false
 token_urls:
 - https://anilist.co/api/v2/oauth/token
 ---

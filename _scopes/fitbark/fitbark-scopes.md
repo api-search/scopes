@@ -87,6 +87,7 @@ tags:
 - Health
 - IoT
 - Fitness
+token_bound: false
 token_urls:
 - https://app.fitbark.com/oauth/token
 ---

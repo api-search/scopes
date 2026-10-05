@@ -150,5 +150,6 @@ tags:
 - ACH
 - Open Banking
 - Fintech
+token_bound: false
 token_urls: []
 ---

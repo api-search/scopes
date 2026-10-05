@@ -421,6 +421,7 @@ tags:
 - Payments
 - Wealth Management
 - Real-Time
+token_bound: false
 token_urls:
 - https://journey.temenos.com/oauth2/token
 - https://auth.temenos.com/oauth2/token

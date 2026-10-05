@@ -119,6 +119,7 @@ tags:
 - Permits
 - Parking Operators
 - Norway
+token_bound: false
 token_urls:
 - https://api-auth.autopay.io/oauth/token
 ---

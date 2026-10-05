@@ -102,5 +102,6 @@ tags:
 - Secure Messaging
 - France
 - HL7
+token_bound: false
 token_urls: []
 ---

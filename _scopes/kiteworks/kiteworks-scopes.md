@@ -300,6 +300,7 @@ tags:
 - Private Data Network
 - CMMC
 - SCIM
+token_bound: false
 token_urls:
 - https://{kiteworks_server}/oauth/token
 ---

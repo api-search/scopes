@@ -103,6 +103,7 @@ tags:
 - Document AI
 - Family Office
 - Authentication
+token_bound: false
 token_urls:
 - https://auth.withluminary.com/oauth2/token
 ---

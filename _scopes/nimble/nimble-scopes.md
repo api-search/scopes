@@ -140,6 +140,7 @@ tags:
 - Email Marketing
 - Sales Automation
 - Lead Management
+token_bound: false
 token_urls:
 - https://app.nimble.com/api/oauth/token
 ---

@@ -61,6 +61,7 @@ tags:
 - Defense
 - MCP
 - Systems Engineering
+token_bound: false
 token_urls:
 - https://app.violetlabs.com/api/oauth/token
 ---

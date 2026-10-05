@@ -79,7 +79,7 @@ method: probed
 name: Snov Io Scopes
 name_suffix: OAuth Scopes
 note: Upgraded from derived to probed. The previous round recorded "no OAuth scopes are documented", which was true of the REST API but missed the MCP authorization server entirely. Both discovery documents are now captured verbatim under well-known/.
-overview: 'Snov.io uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Snov.io publishes 1 OAuth 2.0 scope via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Snov.io API on a user''s behalf.
 
 
   Tokens are issued from https://api.snov.io/v1/oauth/access_token.
@@ -112,9 +112,13 @@ schemes:
   - mcp
   source: https://app.snov.io/.well-known/oauth-authorization-server
   surface: MCP server
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp
+scopes:
+- description: Grants an authorized MCP client the full published Snov.io action surface — prospect search and enrichment, list and folder management, email verification, the Sales CRM (pipelines, deals, notes, loss reasons, tasks) and LinkedIn account setup and outreach.
+  flows: []
+  scope: mcp
 slug: snov-io-scopes
 source_filename: snov-io-scopes.yml
 source_heading: OAuth Scopes
@@ -124,7 +128,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  https://app
   \        tokenUrl: https://app.snov.io/back/mcp/oauth/token\n        registrationUrl: https://app.snov.io/back/mcp/oauth/register\n        pkce: S256\n    scopes_supported:\n      - mcp\n    description: >-\n      Public-client authorization code flow with PKCE and dynamic client registration. One\n      scope, granted or not granted.\n\nscopes:\n  - name: mcp\n    surface: MCP server\n    resource: https://mcp.snov.io/mcp\n    description: >-\n      Grants an authorized MCP client the full published Snov.io action surface — prospect\n      search and enrichment, list and folder management, email verification, the Sales CRM\n      (pipelines, deals, notes, loss reasons, tasks) and LinkedIn account setup and outreach.\n    read_write: both\n    source: https://app.snov.io/.well-known/oauth-authorization-server\n    evidence: 'scopes_supported: [\"mcp\"] in the RFC 8414 metadata; scope=\"mcp\" in the RFC 9728 WWW-Authenticate challenge from mcp.snov.io.'\n\nsummary:\n  scope_count: 1\n \
   \ granular_scopes: false\n  read_only_scope_available: false\n  finding: >-\n    A single all-or-nothing scope covering more than 100 actions, including irreversible\n    write actions — sending LinkedIn connection requests and InMails, deleting prospect lists,\n    marking deals lost. An account holder connecting an AI assistant cannot grant it read access\n    only, and cannot withhold LinkedIn outreach while allowing prospect search. This is the most\n    consequential authorization gap on the Snov.io agent surface.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/scopes/snov-io-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope · clientCredentials/authorizationCode
 tags:
 - Sales Automation
 - Email Finder
@@ -136,6 +140,7 @@ tags:
 - Prospect Management
 - Data Enrichment
 - Cold Email
+token_bound: false
 token_urls:
 - https://api.snov.io/v1/oauth/access_token
 - https://app.snov.io/back/mcp/oauth/token

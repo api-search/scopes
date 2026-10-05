@@ -173,5 +173,6 @@ tags:
 - Biometrics
 - Transaction Monitoring
 - Crypto
+token_bound: false
 token_urls: []
 ---

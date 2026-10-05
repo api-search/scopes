@@ -374,6 +374,8 @@ tags:
 - Point-of-Sale
 - Europe
 - Netherlands
+- Payment Processing
+token_bound: false
 token_urls:
 - https://api.mollie.com/oauth2/tokens
 ---

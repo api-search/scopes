@@ -64,16 +64,56 @@ method: probed
 name: Medblocks Scopes
 name_suffix: OAuth Scopes
 note: These scopes are NOT declared in openapi/medblocks-platform-openapi.json, which secures every operation with a single bearer API key (BearerAuth). They belong to the OAuth authorization server that fronts the hosted MCP server, and they were read from the provider's own RFC 8414 and RFC 9728 metadata documents plus the RFC 6750 challenge the MCP endpoint returns to an unauthenticated caller. The three tick boxes a user sees on the consent screen are a product-level grouping over these scopes; the mapping between the two is not published, so the consent grouping is recorded separately rather than asserted against individual scopes.
-overview: 'Medblocks uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Medblocks publishes 10 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Medblocks API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Medblocks
 provider_slug: medblocks
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 10
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+- patients:read
+- patients:write
+- patient_sessions:read
+- patient_sessions:write
+- connections:read
+- fhir:read
+scopes:
+- description: OpenID Connect authentication; issues an ID token identifying the signed-in user.
+  flows: []
+  scope: openid
+- description: Standard OIDC profile claims (name, picture, family_name, given_name).
+  flows: []
+  scope: profile
+- description: Standard OIDC email claims (email, email_verified).
+  flows: []
+  scope: email
+- description: Issues a refresh token so the client can keep access without re-prompting.
+  flows: []
+  scope: offline_access
+- description: Read patients (the "people" in the MCP surface) in the workspace.
+  flows: []
+  scope: patients:read
+- description: Create, update and delete patients in the workspace.
+  flows: []
+  scope: patients:write
+- description: Read patient authorization sessions and their status.
+  flows: []
+  scope: patient_sessions:read
+- description: Start a patient authorization session against one or more sources.
+  flows: []
+  scope: patient_sessions:write
+- description: Read the EHR/FHIR source catalog and the workspace's configured connections.
+  flows: []
+  scope: connections:read
+- description: Read the patient's stored FHIR records.
+  flows: []
+  scope: fhir:read
 slug: medblocks-scopes
 source_filename: medblocks-scopes.yml
 source_heading: OAuth Scopes
@@ -84,7 +124,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: >-\n  https://app
   \ api.retrievePatientSession]\n- name: patient_sessions:write\n  description: Start a patient authorization session against one or more sources.\n  category: patient-sessions\n  rest_equivalent: [api.initPatientSession]\n- name: connections:read\n  description: Read the EHR/FHIR source catalog and the workspace's configured connections.\n  category: connections\n  rest_equivalent: [api.listFhirSources, api.getFhirSource]\n- name: fhir:read\n  description: Read the patient's stored FHIR records.\n  category: records\n  rest_equivalent: [api.getPatientRecords]\nconsent_screen:\n  note: >-\n    Interactive OAuth users are shown three tick boxes rather than raw scopes. All three are\n    ticked by default and a user may grant fewer than requested; identity and workspace\n    visibility are granted without a prompt.\n  choices:\n  - label: Connect your healthcare facilities\n    default: on\n  - label: Read your health records\n    default: on\n  - label: Manage people and delete data\n   \
   \ default: on\n    destructive: true\napi_key_alternative: >-\n  A developer client may send an mb_sk_ API key as a bearer token instead of running the OAuth\n  flow. The docs state a key uses the permissions stamped on it rather than these consent\n  scopes, and that a key connection stays bound to the workspace that minted it.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/scopes/medblocks-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 10 scopes
 tags:
 - Health
 - Healthcare
@@ -98,5 +138,6 @@ tags:
 - Webhook
 - MCP
 - Company
+token_bound: false
 token_urls: []
 ---

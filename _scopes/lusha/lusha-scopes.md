@@ -176,6 +176,7 @@ tags:
 - Lookalikes
 - Webhook
 - MCP
+token_bound: false
 token_urls:
 - https://auth.lusha.com/oauth/token
 ---

@@ -77,6 +77,7 @@ tags:
 - Automation
 - Developer Tools
 - Y Combinator
+token_bound: false
 token_urls:
 - https://qualified-tree-19-staging.authkit.app/oauth2/token
 ---

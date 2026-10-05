@@ -34,5 +34,6 @@ tags:
 - Alternative Data
 - Investment Research
 - Data Licensing
+token_bound: false
 token_urls: []
 ---

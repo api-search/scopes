@@ -170,6 +170,7 @@ tags:
 - Battlecards
 - Agents
 - MCP
+token_bound: false
 token_urls:
 - https://app.klue.com/oauth/token
 ---

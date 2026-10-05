@@ -860,5 +860,6 @@ tags:
 - Global
 - Embedded Finance
 - Multi-Currency
+token_bound: false
 token_urls: []
 ---

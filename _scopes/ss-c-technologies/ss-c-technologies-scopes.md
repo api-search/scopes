@@ -40,16 +40,72 @@ method: probed
 name: Ss C Technologies Scopes
 name_suffix: OAuth Scopes
 note: 'These are the scopes_supported values the SS&C APIM Keycloak realm advertises in its own OpenID Connect discovery document, read anonymously on 2026-09-13. They are NOT derived from an OpenAPI: the Eze EMS xAPI spec declares no oauth2 securityScheme, so there is no scope surface to derive there. Most entries below are Keycloak built-ins; only events_enrichment_api_member and voucher are realm-specific, and SS&C publishes no scope reference page describing what either grants — the portal''s own documentation is behind SSO.'
-overview: 'SS&C Technologies uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'SS&C Technologies publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the SS&C Technologies API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: SS&C Technologies
 provider_slug: ss-c-technologies
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- roles
+- web-origins
+- acr
+- basic
+- microprofile-jwt
+- offline_access
+- service_account
+- events_enrichment_api_member
+- voucher
+scopes:
+- description: OpenID Connect authentication request marker (standard).
+  flows: []
+  scope: openid
+- description: Basic profile claims (standard OIDC claim set).
+  flows: []
+  scope: profile
+- description: Email address claims (standard OIDC claim set).
+  flows: []
+  scope: email
+- description: Address claims (standard OIDC claim set).
+  flows: []
+  scope: address
+- description: Phone number claims (standard OIDC claim set).
+  flows: []
+  scope: phone
+- description: Keycloak realm and client role claims.
+  flows: []
+  scope: roles
+- description: Keycloak CORS allowed-origins claim.
+  flows: []
+  scope: web-origins
+- description: Authentication context class reference (standard).
+  flows: []
+  scope: acr
+- description: Keycloak basic claim set (sub, auth_time).
+  flows: []
+  scope: basic
+- description: Eclipse MicroProfile JWT claim mapping (upn, groups).
+  flows: []
+  scope: microprofile-jwt
+- description: Requests a refresh token usable while the user is offline (standard).
+  flows: []
+  scope: offline_access
+- description: Keycloak service-account client scope, used for client_credentials grants.
+  flows: []
+  scope: service_account
+- description: Realm-specific scope. Its name binds it to an SS&C events-enrichment API product surfaced through the APIM gateway. SS&C publishes no description of what it grants; recorded verbatim from scopes_supported.
+  flows: []
+  scope: events_enrichment_api_member
+- description: Realm-specific scope with no published description. Recorded verbatim from scopes_supported.
+  flows: []
+  scope: voucher
 slug: ss-c-technologies-scopes
 source_filename: ss-c-technologies-scopes.yml
 source_heading: OAuth Scopes
@@ -58,7 +114,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: https://ssoprod.s
   \ true\n- name: profile\n  description: Basic profile claims (standard OIDC claim set).\n  standard: true\n- name: email\n  description: Email address claims (standard OIDC claim set).\n  standard: true\n- name: address\n  description: Address claims (standard OIDC claim set).\n  standard: true\n- name: phone\n  description: Phone number claims (standard OIDC claim set).\n  standard: true\n- name: roles\n  description: Keycloak realm and client role claims.\n  standard: true\n- name: web-origins\n  description: Keycloak CORS allowed-origins claim.\n  standard: true\n- name: acr\n  description: Authentication context class reference (standard).\n  standard: true\n- name: basic\n  description: Keycloak basic claim set (sub, auth_time).\n  standard: true\n- name: microprofile-jwt\n  description: Eclipse MicroProfile JWT claim mapping (upn, groups).\n  standard: true\n- name: offline_access\n  description: Requests a refresh token usable while the user is offline (standard).\n  standard: true\n\
   - name: service_account\n  description: Keycloak service-account client scope, used for client_credentials grants.\n  standard: true\n- name: events_enrichment_api_member\n  description: >-\n    Realm-specific scope. Its name binds it to an SS&C events-enrichment API product surfaced\n    through the APIM gateway. SS&C publishes no description of what it grants; recorded verbatim\n    from scopes_supported.\n  standard: false\n- name: voucher\n  description: >-\n    Realm-specific scope with no published description. Recorded verbatim from scopes_supported.\n  standard: false\ngrant_types_supported:\n- authorization_code\n- client_credentials\n- implicit\n- password\n- refresh_token\n- urn:ietf:params:oauth:grant-type:device_code\n- urn:ietf:params:oauth:grant-type:jwt-bearer\n- urn:ietf:params:oauth:grant-type:token-exchange\n- urn:ietf:params:oauth:grant-type:uma-ticket\n- urn:openid:params:grant-type:ciba\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/scopes/ss-c-technologies-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Financial Services
 - Investment Management
@@ -70,5 +126,6 @@ tags:
 - Trading
 - gRPC
 - Enterprise Software
+token_bound: false
 token_urls: []
 ---

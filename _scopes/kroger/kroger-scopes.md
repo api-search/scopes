@@ -69,5 +69,6 @@ tags:
 - Authentication
 - Partner API
 - Fortune 100
+token_bound: false
 token_urls: []
 ---

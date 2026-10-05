@@ -220,6 +220,7 @@ tags:
 - Manufacturing
 - E-Commerce
 - MCP
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/30100881545/oauth/token
 - https://payloads.blueorigin.com/services/oauth2/token

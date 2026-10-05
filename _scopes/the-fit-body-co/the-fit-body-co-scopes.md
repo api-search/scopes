@@ -57,5 +57,6 @@ tags:
 - Consumer Products
 - Mexico
 - Shopify
+token_bound: false
 token_urls: []
 ---

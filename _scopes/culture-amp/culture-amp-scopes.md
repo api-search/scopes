@@ -80,6 +80,7 @@ tags:
 - People Analytics
 - Surveys
 - Australia
+token_bound: false
 token_urls:
 - /oauth2/token
 ---

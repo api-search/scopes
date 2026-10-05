@@ -9,16 +9,80 @@ method: searched
 name: Flywire Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Flywire uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Flywire publishes 16 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Flywire API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Flywire
 provider_slug: flywire
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 16
+scope_names:
+- invoicing.contact.read
+- invoicing.contact.write
+- invoicing.invoice.read
+- invoicing.invoice.write
+- invoicing.creditnote.read
+- invoicing.creditnote.write
+- invoicing.payments.read
+- invoicing.payments.write
+- invoicing.company.read
+- invoicing.company.update
+- invoicing.company.write
+- invoicing.payment_method.read
+- invoicing.payment_method.write
+- invoicing.payment.charge
+- invoicing.payment_request.read
+- invoicing.payment_request.write
+scopes:
+- description: ''
+  flows: []
+  scope: invoicing.contact.read
+- description: ''
+  flows: []
+  scope: invoicing.contact.write
+- description: ''
+  flows: []
+  scope: invoicing.invoice.read
+- description: ''
+  flows: []
+  scope: invoicing.invoice.write
+- description: ''
+  flows: []
+  scope: invoicing.creditnote.read
+- description: ''
+  flows: []
+  scope: invoicing.creditnote.write
+- description: ''
+  flows: []
+  scope: invoicing.payments.read
+- description: ''
+  flows: []
+  scope: invoicing.payments.write
+- description: ''
+  flows: []
+  scope: invoicing.company.read
+- description: ''
+  flows: []
+  scope: invoicing.company.update
+- description: ''
+  flows: []
+  scope: invoicing.company.write
+- description: ''
+  flows: []
+  scope: invoicing.payment_method.read
+- description: ''
+  flows: []
+  scope: invoicing.payment_method.write
+- description: ''
+  flows: []
+  scope: invoicing.payment.charge
+- description: ''
+  flows: []
+  scope: invoicing.payment_request.read
+- description: ''
+  flows: []
+  scope: invoicing.payment_request.write
 slug: flywire-scopes
 source_filename: flywire-scopes.yml
 source_heading: OAuth Scopes
@@ -29,7 +93,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://solutio
   \  access: write\n- name: invoicing.company.write\n  grants: Company creation\n  resource: company\n  access: write\n- name: invoicing.payment_method.read\n  grants: Stored payer payment methods (read)\n  resource: payment_method\n  access: read\n- name: invoicing.payment_method.write\n  grants: Stored payer payment methods (write)\n  resource: payment_method\n  access: write\n- name: invoicing.payment.charge\n  grants: Charging a stored payment method\n  resource: payment\n  access: write\n- name: invoicing.payment_request.read\n  grants: Payment requests (read)\n  resource: payment_request\n  access: read\n- name: invoicing.payment_request.write\n  grants: Payment requests (write)\n  resource: payment_request\n  access: write\nauthorization_axes:\n- axis: scope\n  rule: The token must carry the scope for the resource and operation.\n  failure: 403 with no body\n- axis: company\n  rule: >-\n    The token must be scoped to the company in the URL. The :reference path\n    segment is matched\
   \ against the accounts the token was issued for; a token for\n    another company gets 403, whatever its scopes.\n  failure: 403 with no body\nunreachable_operations_note: >-\n  Permissions that belong to dashboard users (rather than to applications) are\n  never granted to an application token — an operation that requires one is not\n  reachable through the API at all.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flywire/refs/heads/main/scopes/flywire-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 16 scopes
 tags:
 - Company
 - Payments
@@ -41,5 +105,6 @@ tags:
 - B2B Payments
 - Checkout
 - Webhook
+token_bound: false
 token_urls: []
 ---

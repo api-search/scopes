@@ -274,6 +274,7 @@ tags:
 - Custody
 - Wallets
 - Fintech
+token_bound: false
 token_urls:
 - https://api.ripple.com/v2/oauth/token
 ---

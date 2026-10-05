@@ -219,6 +219,7 @@ tags:
 - Package Registry
 - Conda
 - MCP
+token_bound: false
 token_urls:
 - https://anaconda.com/api/auth/oauth2/token
 ---

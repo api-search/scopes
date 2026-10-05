@@ -532,6 +532,7 @@ tags:
 - Payment Initiation
 - Invoicing
 - pagoPA
+token_bound: false
 token_urls:
 - https://core.flowpay.it/api/oauth/token
 - /oauth/token

@@ -76,6 +76,7 @@ tags:
 - Retail
 - Logistics
 - API Management
+token_bound: false
 token_urls:
 - https://auth.blueyonder.example.com/oauth/token
 ---

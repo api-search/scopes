@@ -128,6 +128,7 @@ tags:
 - Project Management
 - Issue Tracking
 - Collaboration
+token_bound: false
 token_urls:
 - https://auth.bimtrackapp.co/connect/token
 ---

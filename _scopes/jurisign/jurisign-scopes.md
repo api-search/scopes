@@ -58,16 +58,36 @@ method: searched
 name: Jurisign Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'JuriSign uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'JuriSign publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the JuriSign API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: JuriSign
 provider_slug: jurisign
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- documents:read
+- documents:write
+- sign-requests:read
+- sign-requests:write
+- webhooks:manage
+scopes:
+- description: Read documents - list, retrieve and download uploaded documents.
+  flows: []
+  scope: documents:read
+- description: Create and remove documents - upload PDFs (including multi-file merge) and delete drafts.
+  flows: []
+  scope: documents:write
+- description: 'Read signature requests, and also covers the templates and bulk-* read endpoints, per the spec: "sign-requests:read / sign-requests:write also cover the templates and bulk-* endpoints."'
+  flows: []
+  scope: sign-requests:read
+- description: Create, send, cancel and otherwise mutate signature requests, and also covers the templates and bulk-* write endpoints.
+  flows: []
+  scope: sign-requests:write
+- description: Manage webhook endpoints - list, create, update, delete, read delivery logs and regenerate secrets.
+  flows: []
+  scope: webhooks:manage
 slug: jurisign-scopes
 source_filename: jurisign-scopes.yml
 source_heading: OAuth Scopes
@@ -78,7 +98,7 @@ source_yaml: "generated: '2026-08-31'\nmethod: searched\nsource: https://www.jur
   operation_mapping_note: >-\n  The spec names the five scopes and states the templates/bulk coverage rule, but does not annotate each operation\n  with its required scope. The per-scope `operations` lists above apply that stated rule to the operation set; they\n  are a faithful reading of the published rule, not a per-operation assertion by the provider. Least-privilege\n  callers should verify against a 403 in the sandbox.\nuse_case_published:\n  description: >-\n    The developer page frames scopes as a least-privilege pattern - \"Un jeton en lecture seule pour votre tableau\n    de bord, un autre en ecriture pour vos automatisations.\"\n  source: https://www.jurisign.fr/developpeurs\nunscoped_operations:\n  note: >-\n    Five operations sit outside the scope model. The three authentication operations issue or revoke the token\n    itself and so cannot require one; getStatus is unauthenticated; getAccountCredits is documented as scoped\n    strictly to the authenticated token's organization\
   \ but is not attributed to a named scope in the spec.\n  operations: [createToken, createSandboxToken, revokeToken, getStatus, getAccountCredits]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/scopes/jurisign-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes
 tags:
 - Electronic Signature
 - E-Signature
@@ -93,5 +113,6 @@ tags:
 - Identity Verification
 - Audit Trail
 - data-residency-eu
+token_bound: false
 token_urls: []
 ---

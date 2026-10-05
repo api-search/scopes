@@ -106,6 +106,7 @@ tags:
 - Workflow Intelligence
 - Enterprise Software
 - Observability
+token_bound: false
 token_urls:
 - https://login.larridin.com/oauth2/token
 ---

@@ -962,6 +962,7 @@ tags:
 - eUICC
 - Fleet Telematics
 - Machine-to-Machine
+token_bound: false
 token_urls:
 - /iot/api/auth/token
 - https://iot-api.aeris.com/iot/api/auth/token

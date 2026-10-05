@@ -55,6 +55,7 @@ tags:
 - MCP
 - Agents
 - Y Combinator
+token_bound: false
 token_urls:
 - https://tday.com/api/mcp/oauth/token
 ---

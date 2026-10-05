@@ -87,6 +87,7 @@ tags:
 - Asset Discovery
 - Continuous Threat Exposure Management
 - Authentication
+token_bound: false
 token_urls:
 - https://bishopfox.auth0.com/oauth/token
 ---

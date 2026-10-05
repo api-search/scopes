@@ -306,6 +306,7 @@ tags:
 - Real Estate
 - IoT
 - Buildings
+token_bound: false
 token_urls:
 - https://us.facilioapis.com/identity/oauth2/token
 - https://mcp.facilio.com/token

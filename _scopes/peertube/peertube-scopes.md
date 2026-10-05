@@ -423,6 +423,7 @@ tags:
 - ActivityPub
 - Self-Hosted
 - Streaming
+token_bound: false
 token_urls:
 - /api/v1/users/token
 ---

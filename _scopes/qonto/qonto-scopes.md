@@ -306,6 +306,7 @@ tags:
 - Open Banking
 - EUR
 - Europe
+token_bound: false
 token_urls:
 - https://thirdparty.qonto.com/oauth2/token
 ---

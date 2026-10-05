@@ -228,6 +228,7 @@ tags:
 - Canary Deployment
 - A/B Testing
 - LLMOps
+token_bound: false
 token_urls:
 - https://Y.Y.Y.Y
 ---

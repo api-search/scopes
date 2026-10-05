@@ -207,6 +207,7 @@ tags:
 - MCP
 - Energy Storage
 - A2A
+token_bound: false
 token_urls:
 - https://terabase-prd.auth.us-west-2.amazoncognito.com/oauth2/token
 ---

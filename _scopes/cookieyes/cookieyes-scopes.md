@@ -73,6 +73,7 @@ tags:
 - Compliance
 - Data Protection
 - MCP
+token_bound: false
 token_urls:
 - https://app.cookieyes.com/oauth2/token
 ---

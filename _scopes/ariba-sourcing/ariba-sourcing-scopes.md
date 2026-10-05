@@ -66,6 +66,7 @@ tags:
 - Sourcing
 - Supplier Management
 - Supply Chain
+token_bound: false
 token_urls:
 - https://api.ariba.com/v2/oauth/token
 ---

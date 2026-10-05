@@ -151,6 +151,7 @@ tags:
 - Data Analytics
 - Artificial Intelligence
 - Capital Markets
+token_bound: false
 token_urls:
 - https://agora-data.us.auth0.com/oauth/token
 - https://api.agoradata.com/oauth/token

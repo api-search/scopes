@@ -69,6 +69,7 @@ tags:
 - MCP
 - Consumer Goods
 - India
+token_bound: false
 token_urls:
 - https://account.duroflexworld.com/authentication/oauth/token
 ---

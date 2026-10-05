@@ -88,6 +88,7 @@ tags:
 - Graphics
 - Subscription
 - Australia
+token_bound: false
 token_urls:
 - https://api.envato.com/token
 ---

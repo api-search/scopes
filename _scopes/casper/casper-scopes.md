@@ -63,6 +63,7 @@ tags:
 - Direct to Consumer
 - Agentic Commerce
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/60822683729/oauth/token
 ---

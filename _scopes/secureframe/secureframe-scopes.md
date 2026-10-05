@@ -256,16 +256,20 @@ method: probed
 name: Secureframe Scopes
 name_suffix: OAuth Scopes
 note: A single scope named "mcp" grants the whole surface. There is no read-only scope, no per-resource scope and no way to grant an agent a subset — even though the provider labels 63 of its 112 tools read and 49 write. Effective permissions are whatever the authorizing user's RBAC role allows, which the agent cannot enumerate through the API.
-overview: 'Secureframe uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Secureframe publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Secureframe API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Secureframe
 provider_slug: secureframe
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp
+scopes:
+- description: Permission for an MCP client to use the Secureframe API as the authorizing user, inside one selected company.
+  flows: []
+  scope: mcp
 slug: secureframe-scopes
 source_filename: secureframe-scopes.yml
 source_heading: OAuth Scopes
@@ -274,7 +278,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   \ — apiKey in the Authorization header\n  scopes_supported: []\n  note: 'components.securitySchemes declares exactly one scheme, header_authorization (apiKey, in: header).\n    No oauth2 or openIdConnect scheme exists.'\nscopes:\n- name: mcp\n  description: Permission for an MCP client to use the Secureframe API as the authorizing user, inside one\n    selected company.\n  surface: MCP\n  granted_by: the consent screen during the browser sign-in flow\n  source: scopes_supported in the RFC 8414 metadata; described at https://mcp.secureframe.com/mcp_docs\ngranularity: coarse\nnote: A single scope named \"mcp\" grants the whole surface. There is no read-only scope, no per-resource scope\n  and no way to grant an agent a subset — even though the provider labels 63 of its 112 tools read and 49 write.\n  Effective permissions are whatever the authorizing user's RBAC role allows, which the agent cannot enumerate\n  through the API.\ntoken:\n  access_token_lifetime: 1 hour\n  refresh: silent;\
   \ the refresh credential rotates on each use\n  revocation_endpoint: https://mcp.secureframe.com/oauth/revoke\n  introspection_endpoint: https://mcp.secureframe.com/oauth/introspect\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/secureframe/refs/heads/main/scopes/secureframe-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - GRC
 - Compliance
@@ -286,5 +290,6 @@ tags:
 - Security
 - Audit
 - Trust
+token_bound: false
 token_urls: []
 ---

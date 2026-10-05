@@ -118,6 +118,7 @@ tags:
 - Distributed Ledger
 - Estate Agents
 - Mortgage
+token_bound: false
 token_urls:
 - https://auth.coadjute.com/oauth/token
 ---

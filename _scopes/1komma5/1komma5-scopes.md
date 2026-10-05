@@ -292,6 +292,7 @@ tags:
 - Virtual Power Plant
 - Energy Management
 - Germany
+token_bound: false
 token_urls:
 - https://auth.1komma5grad.com/oauth/token
 ---

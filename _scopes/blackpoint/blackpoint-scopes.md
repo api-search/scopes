@@ -75,6 +75,7 @@ tags:
 - Security Posture Management
 - MSP
 - SIEM
+token_bound: false
 token_urls:
 - https://login.bpsnap.com/oauth/token
 ---

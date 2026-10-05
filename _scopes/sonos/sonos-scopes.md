@@ -53,6 +53,7 @@ tags:
 - Speakers
 - Home Automation
 - Voice
+token_bound: false
 token_urls:
 - https://api.sonos.com/login/v3/oauth/access
 ---

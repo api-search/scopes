@@ -220,6 +220,7 @@ tags:
 - Self-Hosted
 - Agent-Native
 - Montenegro
+token_bound: false
 token_urls:
 - https://web.aaaai.me/api/auth/login
 ---

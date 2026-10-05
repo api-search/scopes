@@ -67,6 +67,7 @@ tags:
 - Solana
 - Web3
 - Wallets
+token_bound: false
 token_urls:
 - https://auth0.civic.com/oauth/token
 ---

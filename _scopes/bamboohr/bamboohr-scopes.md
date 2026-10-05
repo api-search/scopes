@@ -93,6 +93,7 @@ tags:
 - Time Tracking
 - Applicant Tracking
 - Performance Management
+token_bound: false
 token_urls:
 - https://api.bamboohr.com/token.php
 ---

@@ -86,6 +86,7 @@ tags:
 - Artificial Intelligence
 - Interaction Analytics
 - Business Process Outsourcing
+token_bound: false
 token_urls:
 - https://login.247.ai/oauth2/v1/token
 ---

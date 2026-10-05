@@ -9,16 +9,40 @@ method: probed
 name: Diligent Pharma Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Diligent Pharma uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Diligent Pharma publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Diligent Pharma API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Diligent Pharma
 provider_slug: diligent-pharma
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+- public_metadata
+- private_metadata
+scopes:
+- description: OpenID Connect sign-in; requests an ID token for the authenticated user.
+  flows: []
+  scope: openid
+- description: Basic profile claims — name, given_name, family_name, preferred_username, picture.
+  flows: []
+  scope: profile
+- description: Email address and its verification state (email, email_verified claims).
+  flows: []
+  scope: email
+- description: Issues a refresh token so the client can renew access without re-prompting.
+  flows: []
+  scope: offline_access
+- description: Clerk public metadata attached to the user record — application-defined, readable by the client and the frontend.
+  flows: []
+  scope: public_metadata
+- description: Clerk private metadata attached to the user record — application-defined, backend-only data.
+  flows: []
+  scope: private_metadata
 slug: diligent-pharma-scopes
 source_filename: diligent-pharma-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +51,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: https://clerk.dil
   \  - name: openid\n    description: OpenID Connect sign-in; requests an ID token for the authenticated user.\n    standard: true\n  - name: profile\n    description: >-\n      Basic profile claims — name, given_name, family_name, preferred_username, picture.\n    standard: true\n  - name: email\n    description: Email address and its verification state (email, email_verified claims).\n    standard: true\n  - name: offline_access\n    description: Issues a refresh token so the client can renew access without re-prompting.\n    standard: true\n  - name: public_metadata\n    description: >-\n      Clerk public metadata attached to the user record — application-defined,\n      readable by the client and the frontend.\n    standard: false\n  - name: private_metadata\n    description: >-\n      Clerk private metadata attached to the user record — application-defined,\n      backend-only data.\n    standard: false\nclaims_supported:\n  - sub\n  - iss\n  - aud\n  - exp\n  - iat\n  - email\n  -\
   \ email_verified\n  - preferred_username\n  - given_name\n  - family_name\n  - name\n  - picture\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diligent-pharma/refs/heads/main/scopes/diligent-pharma-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - Company
 - Clinical Trials
@@ -41,5 +65,6 @@ tags:
 - GxP
 - Auditing
 - Software-as-a-Service
+token_bound: false
 token_urls: []
 ---

@@ -9,16 +9,20 @@ method: probed
 name: Cardiosense Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Cardiosense uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Cardiosense publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cardiosense API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Cardiosense
 provider_slug: cardiosense
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp
+scopes:
+- description: Access to the Cardiosense Model Context Protocol server at /wp-json/mcp/mcp-oauth-server. The scope name is all that is published; Cardiosense documents no semantics for it — no read/write split, no resource qualification, and no statement of what an `mcp`-scoped token is permitted to do.
+  flows: []
+  scope: mcp
 slug: cardiosense-scopes
 source_filename: cardiosense-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +31,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: https://cardiosen
   \ to do.\n    granularity: coarse\n    read_write: undocumented\n    source: /.well-known/oauth-authorization-server + /.well-known/oauth-protected-resource\n\ncoverage:\n  scopes_declared: 1\n  scopes_documented: 0\n  note: >-\n    A single coarse scope means an agent client cannot request least privilege:\n    the only grant available is all-or-nothing access to the MCP server.\n\nobservations:\n  - Both discovery documents agree, so this is not a metadata drift case.\n  - No incremental authorization, no scope-per-tool mapping, no consent-screen copy is published.\n  - Because tools/list is itself gated (HTTP 401), it is not possible to check what the `mcp` scope actually unlocks without credentials.\n\nx-evidence:\n  fetched: '2026-08-09'\n  probes:\n    - url: https://cardiosense.com/.well-known/oauth-authorization-server\n      status: 200\n    - url: https://cardiosense.com/.well-known/oauth-protected-resource\n      status: 200\n    - url: https://cardiosense.com/wp-json/mcp/mcp-oauth-server\n\
   \      status: 401\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardiosense/refs/heads/main/scopes/cardiosense-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Company
 - Health
@@ -40,5 +44,6 @@ tags:
 - Artificial Intelligence
 - Machine Learning
 - MCP
+token_bound: false
 token_urls: []
 ---

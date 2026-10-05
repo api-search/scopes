@@ -57,5 +57,6 @@ tags:
 - Load Balancing
 - Reverse Proxy
 - WAF
+token_bound: false
 token_urls: []
 ---

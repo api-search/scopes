@@ -106,6 +106,7 @@ tags:
 - Agents
 - Data Warehouse
 - Advertising
+token_bound: false
 token_urls:
 - https://cogny.com/api/mcp/oauth/token
 ---

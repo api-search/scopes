@@ -70,6 +70,7 @@ tags:
 - Agentic Commerce
 - Shopify
 - Fashion
+token_bound: false
 token_urls:
 - https://accounts.allbirds.com/authentication/oauth/token
 ---

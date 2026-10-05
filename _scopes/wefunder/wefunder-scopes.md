@@ -212,6 +212,7 @@ tags:
 - Fundraising
 - Syndicates
 - Regulation Crowdfunding
+token_bound: false
 token_urls:
 - https://wefunder.com/oauth/token
 ---

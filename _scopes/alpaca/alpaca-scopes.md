@@ -186,6 +186,8 @@ tags:
 - Options
 - Real-Time
 - Investing
+- Financial Services
+token_bound: false
 token_urls:
 - https://api.alpaca.markets/oauth/token
 - https://authx.alpaca.markets/v1/oauth2/token

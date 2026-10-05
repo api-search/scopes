@@ -235,6 +235,7 @@ tags:
 - Learning Centers
 - Software-as-a-Service
 - Training
+token_bound: false
 token_urls:
 - https://support.cvent.com/services/oauth2/token
 ---

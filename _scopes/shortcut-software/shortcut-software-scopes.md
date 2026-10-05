@@ -231,6 +231,7 @@ tags:
 - Software Development
 - Sprints
 - Roadmaps
+token_bound: false
 token_urls:
 - https://api.app.shortcut.com/oauth-authorization-code-flow/token
 ---

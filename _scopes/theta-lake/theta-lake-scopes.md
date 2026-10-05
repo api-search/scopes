@@ -340,6 +340,7 @@ tags:
 - Unified Communications
 - AI Governance
 - Regulatory Compliance
+token_bound: false
 token_urls:
 - https://developer.thetalake.ai/api/v1/token
 ---

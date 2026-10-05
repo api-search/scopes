@@ -170,6 +170,7 @@ tags:
 - Unified
 - WSO2
 - Workflows
+token_bound: false
 token_urls:
 - https://console.choreo.dev/oauth2/token
 - https://devportal.choreo.dev/oauth2/token

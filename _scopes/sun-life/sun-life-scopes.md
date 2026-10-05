@@ -184,6 +184,7 @@ tags:
 - DentaQuest
 - SMART on FHIR
 - Dental Benefits
+token_bound: false
 token_urls:
 - https://api.dentaquest.com/FhirPatientAccess/v1/token
 ---

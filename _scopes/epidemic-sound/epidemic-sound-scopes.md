@@ -112,6 +112,7 @@ tags:
 - AI Voiceover
 - Semantic Search
 - MCP
+token_bound: false
 token_urls:
 - https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token
 ---

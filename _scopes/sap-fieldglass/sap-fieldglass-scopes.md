@@ -130,6 +130,7 @@ tags:
 - Statements of Work
 - Vendor Management
 - Workforce Management
+token_bound: false
 token_urls:
 - ' '
 - https://api1.fgvms.com/api/oauth2/v2.0/token?grant_type=client_credentials

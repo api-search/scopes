@@ -126,6 +126,7 @@ tags:
 - Payments
 - Artificial Intelligence
 - Automation
+token_bound: false
 token_urls:
 - https://auth.adonis.io/oauth/token
 ---

@@ -137,6 +137,7 @@ tags:
 - Ratings
 - Business Profiles
 - Product Reviews
+token_bound: false
 token_urls:
 - https://authenticate.trustpilot.com/oauth/token
 ---

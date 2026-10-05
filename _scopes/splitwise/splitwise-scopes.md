@@ -108,6 +108,7 @@ tags:
 - Payments
 - REST API
 - Authentication
+token_bound: false
 token_urls:
 - /oauth/token
 ---

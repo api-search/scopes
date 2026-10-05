@@ -113,6 +113,7 @@ tags:
 - Recordkeeping
 - Self-Hosted
 - Drupal
+token_bound: false
 token_urls:
 - /oauth/token
 ---

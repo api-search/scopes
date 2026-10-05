@@ -126,6 +126,7 @@ tags:
 - Life Insurance
 - Fortune 500
 - Employee Benefits
+token_bound: false
 token_urls:
 - https://api.unum.com/v1/oauth/token
 ---

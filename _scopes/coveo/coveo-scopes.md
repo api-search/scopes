@@ -1154,6 +1154,7 @@ tags:
 - Recommendations
 - Search
 - Canada
+token_bound: false
 token_urls:
 - https://platform.cloud.coveo.com/oauth/token
 ---

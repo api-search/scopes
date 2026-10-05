@@ -475,6 +475,7 @@ tags:
 - Financial Services
 - Fintech
 - Applicative Saas
+token_bound: false
 token_urls:
 - https://myaccount.agicap.com/connect/token
 ---

@@ -89,6 +89,7 @@ tags:
 - Hospitality
 - Streaming Video
 - MCP
+token_bound: false
 token_urls:
 - https://tv.garten.co/oauth/token
 ---

@@ -79,6 +79,7 @@ tags:
 - A2A
 - GitHub Actions
 - Agent-Native
+token_bound: false
 token_urls:
 - https://api.rosentic.com/oauth/token
 ---

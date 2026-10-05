@@ -285,6 +285,7 @@ tags:
 - Bulk FHIR
 - Patient Access
 - 21st Century Cures
+token_bound: false
 token_urls:
 - https://fhir.nextgen.com/nge/prod/patient-oauth/token
 - https://idp-prod.prod.ngo.nextgenaws.net/auth/realms/nextgen/protocol/openid-connect/token

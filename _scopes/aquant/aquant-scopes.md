@@ -191,6 +191,7 @@ tags:
 - Voice AI
 - MCP
 - Predictive Maintenance
+token_bound: false
 token_urls:
 - https://login.aquant.ai/oauth2/v1/token
 ---

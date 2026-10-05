@@ -112,6 +112,7 @@ tags:
 - Telematics
 - Equipment
 - FieldOps
+token_bound: false
 token_urls:
 - https://develop.cnh.com/oauth/token
 ---

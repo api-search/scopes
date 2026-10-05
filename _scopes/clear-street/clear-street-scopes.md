@@ -249,6 +249,7 @@ tags:
 - Market Data
 - Fintech
 - Investing
+token_bound: false
 token_urls:
 - https://auth.clearstreet.io/oauth/token
 ---

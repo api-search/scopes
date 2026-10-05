@@ -301,6 +301,7 @@ tags:
 - DNS
 - Geolocation
 - Email Verification
+token_bound: false
 token_urls:
 - https://api.mcp360.ai/api/v1/oauth/token
 ---

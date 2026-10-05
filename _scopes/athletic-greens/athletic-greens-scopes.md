@@ -75,6 +75,7 @@ tags:
 - Universal Commerce Protocol
 - Shopify
 - GraphQL
+token_bound: false
 token_urls:
 - https://account.drinkag1.com/authentication/oauth/token
 ---

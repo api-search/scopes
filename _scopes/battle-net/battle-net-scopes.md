@@ -86,6 +86,7 @@ tags:
 - Diablo
 - Hearthstone
 - Starcraft
+token_bound: false
 token_urls:
 - https://oauth.battle.net/token
 ---

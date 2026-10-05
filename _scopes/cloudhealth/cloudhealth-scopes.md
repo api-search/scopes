@@ -105,6 +105,7 @@ tags:
 - Cost Optimization
 - FinOps
 - Multi-Cloud
+token_bound: false
 token_urls:
 - https://apps.cloudhealthtech.com/oauth2/token
 ---

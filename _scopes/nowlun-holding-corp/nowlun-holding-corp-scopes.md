@@ -63,6 +63,7 @@ tags:
 - Customs
 - MENA
 - MCP
+token_bound: false
 token_urls:
 - https://nowlun.com/oauth/token
 ---

@@ -50,5 +50,6 @@ tags:
 - OGC
 - Cloud Storage
 - Remote Sensing
+token_bound: false
 token_urls: []
 ---

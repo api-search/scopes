@@ -63,6 +63,7 @@ tags:
 - Hardware
 - Telecommunications
 - France
+token_bound: false
 token_urls:
 - https://sequans.com/oauth/token
 ---

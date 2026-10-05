@@ -66,6 +66,7 @@ tags:
 - Classification
 - Vessel
 - Data Platform
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/dnvglb2cprod.onmicrosoft.com/oauth2/token
 ---

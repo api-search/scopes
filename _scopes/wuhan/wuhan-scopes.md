@@ -9,16 +9,40 @@ method: searched
 name: Wuhan Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Wuhan University uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Wuhan University publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Wuhan University API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Wuhan University
 provider_slug: wuhan
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- offline_access
+scopes:
+- description: Required to request an ID token; identifies the request as an OIDC authentication.
+  flows: []
+  scope: openid
+- description: 'Releases the profile claim set the server advertises: name, preferred_username, family_name, given_name, middle_name, nickname, picture, website, gender, birthdate, zoneinfo, locale, updated_at.'
+  flows: []
+  scope: profile
+- description: Releases email and email_verified.
+  flows: []
+  scope: email
+- description: Releases the address claim.
+  flows: []
+  scope: address
+- description: Releases phone_number and phone_number_verified.
+  flows: []
+  scope: phone
+- description: Requests a refresh token for use when the subject is not present.
+  flows: []
+  scope: offline_access
 slug: wuhan-scopes
 source_filename: wuhan-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +52,7 @@ source_yaml: "specification: API Evangelist Scopes\nspecificationVersion: '0.1'\
   - name: address\n  standard: OpenID Connect Core 1.0\n  description: Releases the address claim.\n- name: phone\n  standard: OpenID Connect Core 1.0\n  description: Releases phone_number and phone_number_verified.\n- name: offline_access\n  standard: OpenID Connect Core 1.0\n  description: Requests a refresh token for use when the subject is not present.\n\nclaims_supported:\n- sub\n- name\n- preferred_username\n- family_name\n- given_name\n- middle_name\n- profile\n- picture\n- nickname\n- website\n- zoneinfo\n- locale\n- updated_at\n- birthdate\n- email\n- email_verified\n- phone_number\n- phone_number_verified\n- address\n- gender\n\nobservations:\n- >-\n  claims_supported lists given_name twice. A duplicate entry in a published discovery document\n  is a small correctness defect in the artifact, and it is reproduced faithfully above minus the\n  duplicate.\n- >-\n  No institution-defined scope exists. Every scope is the OIDC standard set, which is the\n  expected shape for a campus\
   \ SSO and the expected absence for an institution that operates no\n  public API.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wuhan/refs/heads/main/scopes/wuhan-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - Education
 - Higher Education
@@ -41,5 +65,6 @@ tags:
 - GNSS
 - Library
 - Open Source
+token_bound: false
 token_urls: []
 ---

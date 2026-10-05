@@ -66,6 +66,7 @@ tags:
 - Sensors
 - Health
 - Developer API
+token_bound: false
 token_urls:
 - https://oauth2.awair.is/v2/token
 ---

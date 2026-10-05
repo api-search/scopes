@@ -292,6 +292,7 @@ tags:
 - Trust Accounting
 - Time Tracking
 - Legal Tech
+token_bound: false
 token_urls:
 - /OAuth/Token
 ---

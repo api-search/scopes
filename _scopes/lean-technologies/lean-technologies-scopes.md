@@ -454,6 +454,7 @@ tags:
 - Bank Data
 - Account Verification
 - Payouts
+token_bound: false
 token_urls:
 - https://auth.leantech.me/oauth2/token
 ---

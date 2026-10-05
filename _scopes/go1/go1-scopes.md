@@ -127,6 +127,7 @@ tags:
 - LMS
 - Education
 - Webhook
+token_bound: false
 token_urls:
 - https://auth.go1.com/oauth/token
 ---

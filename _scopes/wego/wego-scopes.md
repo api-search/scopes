@@ -106,6 +106,7 @@ tags:
 - Agent-Native
 - Tourism
 - Search
+token_bound: false
 token_urls:
 - https://auth.wego.com/user-auth/v2/users/oauth/token
 ---

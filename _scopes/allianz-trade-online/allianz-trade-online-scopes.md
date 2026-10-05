@@ -128,6 +128,7 @@ tags:
 - Trade Credit
 - E-Commerce
 - Surety
+token_bound: false
 token_urls:
 - https://api.allianz-trade.com/oauth2/token
 ---

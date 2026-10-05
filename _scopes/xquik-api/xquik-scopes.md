@@ -192,6 +192,7 @@ tags:
 - MCP
 - Developer API
 - A2A
+token_bound: false
 token_urls:
 - https://xquik.com/api/oauth/token
 ---

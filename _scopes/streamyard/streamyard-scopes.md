@@ -78,6 +78,7 @@ tags:
 - Multistreaming
 - Recording
 - Video
+token_bound: false
 token_urls:
 - https://streamyard.com/oauth/token
 ---

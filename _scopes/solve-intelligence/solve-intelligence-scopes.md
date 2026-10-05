@@ -9,16 +9,24 @@ method: probed
 name: Solve Intelligence Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Solve Intelligence uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Solve Intelligence publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Solve Intelligence API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Solve Intelligence
 provider_slug: solve-intelligence
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- offline_access
+- mcp:ask_solve
+scopes:
+- description: Standard OpenID Connect scope requesting a refresh token, so an MCP client can renew its access token without sending the user back through a browser sign-in.
+  flows: []
+  scope: offline_access
+- description: Grants access to the Solve MCP research surface - patent and non-patent literature search, jurisdictional legal-text and case-law search, and SEP standard documentation search.
+  flows: []
+  scope: mcp:ask_solve
 slug: solve-intelligence-scopes
 source_filename: solve-intelligence-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +35,7 @@ source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: https://api.solve
   \      access token without sending the user back through a browser sign-in.\n    standard: true\n    specification: OpenID Connect Core 1.0\n  - name: mcp:ask_solve\n    description: >-\n      Grants access to the Solve MCP research surface - patent and non-patent literature search,\n      jurisdictional legal-text and case-law search, and SEP standard documentation search.\n    standard: false\n    note: >-\n      The scope name carries the server's tool name, ask_solve. The tool's input schema was not\n      observable anonymously.\n\nscope_count: 2\ngranularity: coarse\ngranularity_note: >-\n  One functional scope covers the entire research surface. There is no read/write split and no\n  per-capability scope, so an agent granted mcp:ask_solve receives every capability the server\n  exposes. This is typical for a single-tool MCP server and is recorded as an observation, not a\n  defect.\n\nevidence:\n  - url: https://api.solveintelligence.com/.well-known/oauth-protected-resource\n \
   \   status: 200\n  - url: https://api.solveintelligence.com/mcp/\n    status: 401\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solve-intelligence/refs/heads/main/scopes/solve-intelligence-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Company
 - Legal
@@ -39,5 +47,6 @@ tags:
 - Search
 - MCP
 - Agents
+token_bound: false
 token_urls: []
 ---

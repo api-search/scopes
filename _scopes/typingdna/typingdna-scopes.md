@@ -92,6 +92,7 @@ tags:
 - Identity
 - Security
 - Fraud Prevention
+token_bound: false
 token_urls:
 - https://verify.typingdna.com/oidc/token
 ---

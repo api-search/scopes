@@ -90,8 +90,9 @@ tags:
 - Engineering
 - Project Management
 - Scheduling
-- Portfolio Management
 - Oracle
+- Project Portfolio Management
+token_bound: false
 token_urls:
 - https://identity.oraclecloud.com/oauth2/v1/token
 ---

@@ -232,6 +232,7 @@ tags:
 - Brokers
 - Algorithmic Underwriting
 - Reinsurance
+token_bound: false
 token_urls:
 - https://login.ki-insurance.com/oauth/token
 ---

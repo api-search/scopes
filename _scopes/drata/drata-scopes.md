@@ -316,16 +316,152 @@ method: searched
 name: Drata Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Drata uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Drata publishes 34 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Drata API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Drata
 provider_slug: drata
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 34
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+- read:controls
+- read:control
+- create:control
+- update:control
+- read:monitor-test
+- read:policy
+- read:assigned-policies
+- read:risk
+- read:risk-registers
+- create:risk
+- update:risk
+- delete:risk
+- read:workspace
+- read:company
+- read:users
+- read:user
+- read:framework
+- read:evidence
+- create:evidence
+- update:evidence
+- delete:evidence
+- read:vendor
+- create:vendor
+- update:vendor
+- delete:vendor
+- read:vendor-security-review
+- read:vendor-document
+- read:personnel
+- update:personnel
+- read:device
+scopes:
+- description: OpenID Connect subject identifier.
+  flows: []
+  scope: openid
+- description: OpenID Connect profile claims.
+  flows: []
+  scope: profile
+- description: OpenID Connect email claim.
+  flows: []
+  scope: email
+- description: Issue a refresh token so the client can renew access without re-consent.
+  flows: []
+  scope: offline_access
+- description: View Controls list
+  flows: []
+  scope: read:controls
+- description: View Control details and requirements
+  flows: []
+  scope: read:control
+- description: Create a control.
+  flows: []
+  scope: create:control
+- description: Update a control.
+  flows: []
+  scope: update:control
+- description: View Monitoring Tests
+  flows: []
+  scope: read:monitor-test
+- description: View Policies
+  flows: []
+  scope: read:policy
+- description: View User Assigned Policies
+  flows: []
+  scope: read:assigned-policies
+- description: View Risks in Risk Registers
+  flows: []
+  scope: read:risk
+- description: View Risk Registers
+  flows: []
+  scope: read:risk-registers
+- description: Create a risk.
+  flows: []
+  scope: create:risk
+- description: Update a risk.
+  flows: []
+  scope: update:risk
+- description: Delete a risk.
+  flows: []
+  scope: delete:risk
+- description: View Workspaces
+  flows: []
+  scope: read:workspace
+- description: Read company profile.
+  flows: []
+  scope: read:company
+- description: List users.
+  flows: []
+  scope: read:users
+- description: Read a single user.
+  flows: []
+  scope: read:user
+- description: Read frameworks.
+  flows: []
+  scope: read:framework
+- description: Read evidence.
+  flows: []
+  scope: read:evidence
+- description: Create evidence.
+  flows: []
+  scope: create:evidence
+- description: Update evidence.
+  flows: []
+  scope: update:evidence
+- description: Delete evidence.
+  flows: []
+  scope: delete:evidence
+- description: Read vendors.
+  flows: []
+  scope: read:vendor
+- description: Create a vendor.
+  flows: []
+  scope: create:vendor
+- description: Update a vendor.
+  flows: []
+  scope: update:vendor
+- description: Delete a vendor.
+  flows: []
+  scope: delete:vendor
+- description: Read vendor security reviews.
+  flows: []
+  scope: read:vendor-security-review
+- description: Read vendor documents.
+  flows: []
+  scope: read:vendor-document
+- description: Read personnel records.
+  flows: []
+  scope: read:personnel
+- description: Update personnel records.
+  flows: []
+  scope: update:personnel
+- description: Read devices.
+  flows: []
+  scope: read:device
 slug: drata-scopes
 source_filename: drata-scopes.yml
 source_heading: OAuth Scopes
@@ -338,7 +474,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://mcp.dra
   \ update:personnel\n  description: Update personnel records.\n  source: protected-resource-metadata\n- name: read:device\n  description: Read devices.\n  source: protected-resource-metadata\napi_key_scopes:\n  note: >-\n    The Public API v2 uses bearer API keys rather than OAuth. Drata API keys carry their own\n    scope model, selected at key-creation time under Settings -> API Keys: \"Custom\" (pick\n    individual scopes), \"All read\" (all current and future read scopes), or \"All read and\n    write\". Drata does not publish the individual API-key scope names outside the product UI,\n    so they are not enumerated here.\n  docs: https://help.drata.com/en/articles/6695964-drata-public-api\nevidence:\n- url: https://mcp.drata.com/.well-known/oauth-protected-resource\n  status: 200\n- url: https://mcp.drata.com/.well-known/oauth-authorization-server\n  status: 200\n- url: https://developers.drata.com/developer-portal/v2/recipes/mcp-oauth-setup/\n  status: 200\n- url: https://help.drata.com/en/articles/6695964-drata-public-api\n\
   \  status: 200\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drata/refs/heads/main/scopes/drata-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 34 scopes
 tags:
 - GRC
 - Compliance
@@ -350,5 +486,6 @@ tags:
 - Audit
 - Third-Party Risk Management
 - Compliance Automation
+token_bound: false
 token_urls: []
 ---

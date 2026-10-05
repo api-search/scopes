@@ -67,6 +67,7 @@ tags:
 - Firmware
 - Keyboards
 - E-Commerce
+token_bound: false
 token_urls:
 - https://account.keyboard.io/authentication/oauth/token
 ---

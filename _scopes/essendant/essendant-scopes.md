@@ -111,6 +111,7 @@ tags:
 - E-Commerce
 - JanSan
 - Food Service
+token_bound: false
 token_urls:
 - https://sso.essendant.com/adfs/oauth2/token/
 - https://login.essendant.com/adfs/oauth2/token/

@@ -58,6 +58,7 @@ tags:
 - Media
 - MCP
 - Content Generation
+token_bound: false
 token_urls:
 - https://api.laminalabs.ai/oauth/token
 ---

@@ -107,6 +107,7 @@ tags:
 - Standards
 - Underwriting
 - XML
+token_bound: false
 token_urls:
 - https://auth.insurer-internal.example.com/oauth/token
 ---

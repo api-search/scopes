@@ -579,6 +579,7 @@ tags:
 - Enterprise Software
 - Unified Communications
 - Customer Service
+token_bound: false
 token_urls:
 - https://{{server}}/auth/realms/avaya/protocol/openid-connect/token
 ---

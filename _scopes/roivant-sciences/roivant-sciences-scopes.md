@@ -135,11 +135,11 @@ tags:
 - Drug Development
 - Clinical Trials
 - Health Data
-- Tokenization
 - Electronic Health Records
 - Real-World Evidence
 - Holding Company
 - Healthcare
+token_bound: false
 token_urls:
 - https://api.healthjump.com/oauth/token
 ---

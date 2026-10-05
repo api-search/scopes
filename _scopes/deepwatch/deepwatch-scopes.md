@@ -85,6 +85,7 @@ tags:
 - Vulnerability Management
 - Managed Security Services
 - AI Agents
+token_bound: false
 token_urls:
 - https://deepwatch.okta.com/oauth2/v1/token
 ---

@@ -129,5 +129,6 @@ tags:
 - Webhook
 - Customer Data
 - JSON:API
+token_bound: false
 token_urls: []
 ---

@@ -403,6 +403,7 @@ tags:
 - Listing Management
 - PropTech
 - Portal Marketplace
+token_bound: false
 token_urls:
 - https://auth.domain.com.au/v1/connect/token
 ---

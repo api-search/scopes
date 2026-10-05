@@ -585,6 +585,7 @@ tags:
 - Returns
 - MCP
 - B2B Quotes
+token_bound: false
 token_urls:
 - /connect/token
 ---

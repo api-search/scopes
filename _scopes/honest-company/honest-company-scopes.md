@@ -70,6 +70,7 @@ tags:
 - Agentic Commerce
 - MCP
 - Universal Commerce Protocol
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/64768475320/oauth/token
 ---

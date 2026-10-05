@@ -70,16 +70,24 @@ method: probed
 name: Drip Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Drip uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Drip publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Drip API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Drip
 provider_slug: drip
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- public
+- write
+scopes:
+- description: Default scope returned in the OAuth token response documented at https://developer.drip.com/#oauth. Grants an application access to the authorized Drip account through the REST API.
+  flows: []
+  scope: public
+- description: Mutating access. Not broken down per resource — a single grant covering every writable endpoint on the account.
+  flows: []
+  scope: write
 slug: drip-scopes
 source_filename: drip-scopes.yml
 source_heading: OAuth Scopes
@@ -88,7 +96,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  https://api
   \ OpenAPI: the specs in openapi/\n  declare only HTTP basic and bearer securitySchemes, no oauth2 scheme, so\n  derive-oauth-scopes.py found nothing to derive. Everything here is probed.\nauthorization_server:\n  issuer: https://api.getdrip.com\n  metadata: well-known/drip-oauth-authorization-server.json\n  authorization_endpoint: https://www.getdrip.com/oauth/authorize\n  token_endpoint: https://www.getdrip.com/oauth/token\n  registration_endpoint: https://api.getdrip.com/oauth/register\n  grant_types_supported: [authorization_code, refresh_token]\n  response_types_supported: [code]\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [none, client_secret_basic, client_secret_post]\nscopes:\n  - name: public\n    description: >-\n      Default scope returned in the OAuth token response documented at\n      https://developer.drip.com/#oauth. Grants an application access to the\n      authorized Drip account through the REST API.\n    source: /.well-known/oauth-authorization-server\
   \ (scopes_supported)\n  - name: write\n    description: >-\n      Mutating access. Not broken down per resource — a single grant covering\n      every writable endpoint on the account.\n    source: /.well-known/oauth-authorization-server (scopes_supported)\nscope_count: 2\nnotes:\n  - >-\n    Drip's docs state that OAuth access tokens do not expire (\"You should only\n    have to do this once, as tokens do not expire\"), while the metadata\n    advertises refresh_token support. Long-lived non-expiring bearer tokens with\n    only two coarse scopes is the security posture an integrator should plan\n    around.\n  - >-\n    The authorization code from /oauth/authorize expires in 10 minutes per the\n    docs.\n  - >-\n    The same authorization server governs the MCP endpoint at\n    https://api.getdrip.com/mcp — see mcp/drip-mcp.yml.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/scopes/drip-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Email Marketing
 - Marketing Automation
@@ -96,5 +104,6 @@ tags:
 - Customer Engagement
 - Campaigns
 - Workflows
+token_bound: false
 token_urls: []
 ---

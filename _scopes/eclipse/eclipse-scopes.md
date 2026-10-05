@@ -592,6 +592,7 @@ tags:
 - Java
 - IDE
 - Project-Metadata
+token_bound: false
 token_urls:
 - https://accounts.eclipse.org/oauth2/token
 - https://accounts.php55.dev.docker/oauth2/token

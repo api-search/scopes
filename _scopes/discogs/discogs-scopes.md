@@ -104,6 +104,7 @@ tags:
 - Community
 - Vinyl
 - Public APIs
+token_bound: false
 token_urls:
 - https://api.discogs.com/oauth/access_token
 ---

@@ -141,6 +141,7 @@ tags:
 - Australia
 - Product Reference Data
 - ADI
+token_bound: false
 token_urls:
 - https://secure.ob.ing.com.au/token
 ---

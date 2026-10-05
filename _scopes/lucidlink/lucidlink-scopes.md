@@ -68,7 +68,7 @@ tags:
 - MCP
 - AI Agents
 - Zero-Knowledge Encryption
-- Identity and Access Management
+token_bound: false
 token_urls:
 - https://auth.lucidlink.com/oauth2/token
 ---

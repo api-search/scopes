@@ -86,6 +86,7 @@ tags:
 - Payments
 - Developer Tools
 - Company
+token_bound: false
 token_urls:
 - https://account.bitski.com/oauth2/token
 ---

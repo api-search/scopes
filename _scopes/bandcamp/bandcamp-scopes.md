@@ -67,6 +67,7 @@ tags:
 - Audio
 - Sales
 - Merch
+token_bound: false
 token_urls:
 - https://bandcamp.com/oauth_token
 ---

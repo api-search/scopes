@@ -1,5 +1,6 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://account.fromourplace.com/authentication/oauth/authorize
 description: ''
 docs: ''
 flows: []
@@ -50,5 +51,6 @@ tags:
 - Consumer
 - Agentic Commerce
 - Shopify
+token_bound: false
 token_urls: []
 ---

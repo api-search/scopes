@@ -271,6 +271,7 @@ tags:
 - Account Information
 - Confirmation of Funds
 - Specialist Lender
+token_bound: false
 token_urls:
 - https://authserver.example/token
 ---

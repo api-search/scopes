@@ -193,6 +193,7 @@ tags:
 - Open Source
 - Blockchain
 - Audio
+token_bound: false
 token_urls:
 - /v1/oauth/token
 ---

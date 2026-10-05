@@ -1,5 +1,6 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://developer.pearson.com/services/oauth2/authorize
 description: ''
 docs: ''
 flows: []
@@ -9,16 +10,163 @@ method: probed
 name: Pearson Scopes
 name_suffix: OAuth Scopes
 note: 'Read verbatim from the scopes_supported array of the OpenID Connect discovery document Pearson serves at developer.pearson.com. IMPORTANT READING: this is the stock Salesforce Experience Cloud platform scope vocabulary exposed by the identity provider that gates the Pearson Developers Network portal. It is NOT a Pearson-authored scope surface for a Pearson API product, and no scope here grants access to a Pearson learning, assessment or certification API. Pearson publishes no public scopes or permissions reference — every documentation path under developer.pearson.com answers 401.'
-overview: 'Pearson uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Pearson publishes 36 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Pearson API on a user''s behalf.
+
+
+  Tokens are issued from https://developer.pearson.com/services/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Pearson
 provider_slug: pearson
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 36
+scope_names:
+- address
+- api
+- cdp_api
+- cdp_calculated_insight_api
+- cdp_identityresolution_api
+- cdp_ingest_api
+- cdp_profile_api
+- cdp_query_api
+- cdp_segment_api
+- chatbot_api
+- chatter_api
+- content
+- custom_permissions
+- data_cloud_user_claims
+- eclair_api
+- einstein_gpt_api
+- email
+- forgot_password
+- full
+- id
+- interaction_api
+- lightning
+- mcp_api
+- offline_access
+- openid
+- pardot_api
+- phone
+- profile
+- pwdless_login_api
+- refresh_token
+- scrt_api
+- sfap_api
+- user_registration_api
+- visualforce
+- wave_api
+- web
+scopes:
+- description: ''
+  flows: []
+  scope: address
+- description: ''
+  flows: []
+  scope: api
+- description: ''
+  flows: []
+  scope: cdp_api
+- description: ''
+  flows: []
+  scope: cdp_calculated_insight_api
+- description: ''
+  flows: []
+  scope: cdp_identityresolution_api
+- description: ''
+  flows: []
+  scope: cdp_ingest_api
+- description: ''
+  flows: []
+  scope: cdp_profile_api
+- description: ''
+  flows: []
+  scope: cdp_query_api
+- description: ''
+  flows: []
+  scope: cdp_segment_api
+- description: ''
+  flows: []
+  scope: chatbot_api
+- description: ''
+  flows: []
+  scope: chatter_api
+- description: ''
+  flows: []
+  scope: content
+- description: ''
+  flows: []
+  scope: custom_permissions
+- description: ''
+  flows: []
+  scope: data_cloud_user_claims
+- description: ''
+  flows: []
+  scope: eclair_api
+- description: ''
+  flows: []
+  scope: einstein_gpt_api
+- description: ''
+  flows: []
+  scope: email
+- description: ''
+  flows: []
+  scope: forgot_password
+- description: ''
+  flows: []
+  scope: full
+- description: ''
+  flows: []
+  scope: id
+- description: ''
+  flows: []
+  scope: interaction_api
+- description: ''
+  flows: []
+  scope: lightning
+- description: ''
+  flows: []
+  scope: mcp_api
+- description: ''
+  flows: []
+  scope: offline_access
+- description: ''
+  flows: []
+  scope: openid
+- description: ''
+  flows: []
+  scope: pardot_api
+- description: ''
+  flows: []
+  scope: phone
+- description: ''
+  flows: []
+  scope: profile
+- description: ''
+  flows: []
+  scope: pwdless_login_api
+- description: ''
+  flows: []
+  scope: refresh_token
+- description: ''
+  flows: []
+  scope: scrt_api
+- description: ''
+  flows: []
+  scope: sfap_api
+- description: ''
+  flows: []
+  scope: user_registration_api
+- description: ''
+  flows: []
+  scope: visualforce
+- description: ''
+  flows: []
+  scope: wave_api
+- description: ''
+  flows: []
+  scope: web
 slug: pearson-scopes
 source_filename: pearson-scopes.yml
 source_heading: OAuth Scopes
@@ -29,7 +177,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: https://developer
   \ false\n- name: id\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: interaction_api\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: lightning\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: mcp_api\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: offline_access\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: openid\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: pardot_api\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: phone\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: profile\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: pwdless_login_api\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: refresh_token\n  source: openid-configuration\
   \ scopes_supported\n  pearson_authored: false\n- name: scrt_api\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: sfap_api\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: user_registration_api\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: visualforce\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: wave_api\n  source: openid-configuration scopes_supported\n  pearson_authored: false\n- name: web\n  source: openid-configuration scopes_supported\n  pearson_authored: false\nstandard_oidc_scopes:\n- openid\n- profile\n- email\n- address\n- phone\n- offline_access\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pearson/refs/heads/main/scopes/pearson-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 36 scopes
 tags:
 - Education
 - Learning
@@ -41,5 +189,7 @@ tags:
 - Testing
 - Learning Management
 - Workforce Skills
-token_urls: []
+token_bound: false
+token_urls:
+- https://developer.pearson.com/services/oauth2/token
 ---

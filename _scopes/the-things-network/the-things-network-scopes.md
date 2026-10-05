@@ -358,16 +358,296 @@ method: searched
 name: The Things Network Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'The Things Network / The Things Stack uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'The Things Network / The Things Stack publishes 70 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the The Things Network / The Things Stack API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: The Things Network / The Things Stack
 provider_slug: the-things-network
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 70
+scope_names:
+- RIGHT_USER_INFO
+- RIGHT_USER_SETTINGS_BASIC
+- RIGHT_USER_LIST
+- RIGHT_USER_CREATE
+- RIGHT_USER_SETTINGS_API_KEYS
+- RIGHT_USER_DELETE
+- RIGHT_USER_PURGE
+- RIGHT_USER_AUTHORIZED_CLIENTS
+- RIGHT_USER_APPLICATIONS_LIST
+- RIGHT_USER_APPLICATIONS_CREATE
+- RIGHT_USER_GATEWAYS_LIST
+- RIGHT_USER_GATEWAYS_CREATE
+- RIGHT_USER_CLIENTS_LIST
+- RIGHT_USER_CLIENTS_CREATE
+- RIGHT_USER_ORGANIZATIONS_LIST
+- RIGHT_USER_ORGANIZATIONS_CREATE
+- RIGHT_USER_NOTIFICATIONS_READ
+- RIGHT_USER_ALL
+- RIGHT_APPLICATION_INFO
+- RIGHT_APPLICATION_SETTINGS_BASIC
+- RIGHT_APPLICATION_SETTINGS_API_KEYS
+- RIGHT_APPLICATION_SETTINGS_COLLABORATORS
+- RIGHT_APPLICATION_SETTINGS_PACKAGES
+- RIGHT_APPLICATION_DELETE
+- RIGHT_APPLICATION_PURGE
+- RIGHT_APPLICATION_DEVICES_READ
+- RIGHT_APPLICATION_DEVICES_WRITE
+- RIGHT_APPLICATION_DEVICES_READ_KEYS
+- RIGHT_APPLICATION_DEVICES_WRITE_KEYS
+- RIGHT_APPLICATION_TRAFFIC_READ
+- RIGHT_APPLICATION_TRAFFIC_UP_WRITE
+- RIGHT_APPLICATION_TRAFFIC_DOWN_WRITE
+- RIGHT_APPLICATION_LINK
+- RIGHT_APPLICATION_ALL
+- RIGHT_CLIENT_ALL
+- RIGHT_CLIENT_INFO
+- RIGHT_CLIENT_SETTINGS_BASIC
+- RIGHT_CLIENT_SETTINGS_COLLABORATORS
+- RIGHT_CLIENT_DELETE
+- RIGHT_CLIENT_PURGE
+- RIGHT_GATEWAY_INFO
+- RIGHT_GATEWAY_SETTINGS_BASIC
+- RIGHT_GATEWAY_SETTINGS_API_KEYS
+- RIGHT_GATEWAY_SETTINGS_COLLABORATORS
+- RIGHT_GATEWAY_DELETE
+- RIGHT_GATEWAY_PURGE
+- RIGHT_GATEWAY_TRAFFIC_READ
+- RIGHT_GATEWAY_TRAFFIC_DOWN_WRITE
+- RIGHT_GATEWAY_LINK
+- RIGHT_GATEWAY_STATUS_READ
+- RIGHT_GATEWAY_LOCATION_READ
+- RIGHT_GATEWAY_WRITE_SECRETS
+- RIGHT_GATEWAY_READ_SECRETS
+- RIGHT_GATEWAY_ALL
+- RIGHT_ORGANIZATION_INFO
+- RIGHT_ORGANIZATION_SETTINGS_BASIC
+- RIGHT_ORGANIZATION_SETTINGS_API_KEYS
+- RIGHT_ORGANIZATION_SETTINGS_MEMBERS
+- RIGHT_ORGANIZATION_DELETE
+- RIGHT_ORGANIZATION_PURGE
+- RIGHT_ORGANIZATION_APPLICATIONS_LIST
+- RIGHT_ORGANIZATION_APPLICATIONS_CREATE
+- RIGHT_ORGANIZATION_GATEWAYS_LIST
+- RIGHT_ORGANIZATION_GATEWAYS_CREATE
+- RIGHT_ORGANIZATION_CLIENTS_LIST
+- RIGHT_ORGANIZATION_CLIENTS_CREATE
+- RIGHT_ORGANIZATION_ADD_AS_COLLABORATOR
+- RIGHT_ORGANIZATION_ALL
+- RIGHT_SEND_INVITES
+- RIGHT_ALL
+scopes:
+- description: The right to view user information.
+  flows: []
+  scope: RIGHT_USER_INFO
+- description: The right to edit basic user settings.
+  flows: []
+  scope: RIGHT_USER_SETTINGS_BASIC
+- description: The right to list users accounts.
+  flows: []
+  scope: RIGHT_USER_LIST
+- description: The right to create an user account.
+  flows: []
+  scope: RIGHT_USER_CREATE
+- description: The right to view and edit user API keys.
+  flows: []
+  scope: RIGHT_USER_SETTINGS_API_KEYS
+- description: The right to delete user account.
+  flows: []
+  scope: RIGHT_USER_DELETE
+- description: The right to delete user account.
+  flows: []
+  scope: RIGHT_USER_PURGE
+- description: The right to view and edit authorized OAuth clients of the user.
+  flows: []
+  scope: RIGHT_USER_AUTHORIZED_CLIENTS
+- description: The right to list applications the user is a collaborator of.
+  flows: []
+  scope: RIGHT_USER_APPLICATIONS_LIST
+- description: The right to create an application under the user account.
+  flows: []
+  scope: RIGHT_USER_APPLICATIONS_CREATE
+- description: The right to list gateways the user is a collaborator of.
+  flows: []
+  scope: RIGHT_USER_GATEWAYS_LIST
+- description: The right to create a gateway under the account of the user.
+  flows: []
+  scope: RIGHT_USER_GATEWAYS_CREATE
+- description: The right to list OAuth clients the user is a collaborator of.
+  flows: []
+  scope: RIGHT_USER_CLIENTS_LIST
+- description: The right to create an OAuth client under the account of the user.
+  flows: []
+  scope: RIGHT_USER_CLIENTS_CREATE
+- description: The right to list organizations the user is a member of.
+  flows: []
+  scope: RIGHT_USER_ORGANIZATIONS_LIST
+- description: The right to create an organization under the user account.
+  flows: []
+  scope: RIGHT_USER_ORGANIZATIONS_CREATE
+- description: The right to read notifications sent to the user.
+  flows: []
+  scope: RIGHT_USER_NOTIFICATIONS_READ
+- description: The pseudo-right for all (current and future) user rights.
+  flows: []
+  scope: RIGHT_USER_ALL
+- description: The right to view application information.
+  flows: []
+  scope: RIGHT_APPLICATION_INFO
+- description: The right to edit basic application settings.
+  flows: []
+  scope: RIGHT_APPLICATION_SETTINGS_BASIC
+- description: The right to view and edit application API keys.
+  flows: []
+  scope: RIGHT_APPLICATION_SETTINGS_API_KEYS
+- description: The right to view and edit application collaborators.
+  flows: []
+  scope: RIGHT_APPLICATION_SETTINGS_COLLABORATORS
+- description: The right to view and edit application packages and associations.
+  flows: []
+  scope: RIGHT_APPLICATION_SETTINGS_PACKAGES
+- description: The right to delete application.
+  flows: []
+  scope: RIGHT_APPLICATION_DELETE
+- description: The right to purge application.
+  flows: []
+  scope: RIGHT_APPLICATION_PURGE
+- description: The right to view devices in application.
+  flows: []
+  scope: RIGHT_APPLICATION_DEVICES_READ
+- description: The right to create devices in application.
+  flows: []
+  scope: RIGHT_APPLICATION_DEVICES_WRITE
+- description: The right to view device keys in application. Note that keys may not be stored in a way that supports viewing them.
+  flows: []
+  scope: RIGHT_APPLICATION_DEVICES_READ_KEYS
+- description: The right to edit device keys in application.
+  flows: []
+  scope: RIGHT_APPLICATION_DEVICES_WRITE_KEYS
+- description: The right to read application traffic (uplink and downlink).
+  flows: []
+  scope: RIGHT_APPLICATION_TRAFFIC_READ
+- description: The right to write uplink application traffic.
+  flows: []
+  scope: RIGHT_APPLICATION_TRAFFIC_UP_WRITE
+- description: The right to write downlink application traffic.
+  flows: []
+  scope: RIGHT_APPLICATION_TRAFFIC_DOWN_WRITE
+- description: The right to link as Application to a Network Server for traffic exchange, i.e. read uplink and write downlink (API keys only). This right is typically only given to an Application Server. This right implies RIGHT_APPLICATION_INFO, RIGHT_APPLICATION_TRAFFIC_READ, and RIGHT_APPLICATION_TRAFFIC_DOWN_WRITE.
+  flows: []
+  scope: RIGHT_APPLICATION_LINK
+- description: The pseudo-right for all (current and future) application rights.
+  flows: []
+  scope: RIGHT_APPLICATION_ALL
+- description: The pseudo-right for all (current and future) OAuth client rights.
+  flows: []
+  scope: RIGHT_CLIENT_ALL
+- description: The right to read client information.
+  flows: []
+  scope: RIGHT_CLIENT_INFO
+- description: The right to edit basic client settings.
+  flows: []
+  scope: RIGHT_CLIENT_SETTINGS_BASIC
+- description: The right to view and edit client collaborators.
+  flows: []
+  scope: RIGHT_CLIENT_SETTINGS_COLLABORATORS
+- description: The right to delete a client.
+  flows: []
+  scope: RIGHT_CLIENT_DELETE
+- description: The right to purge a client.
+  flows: []
+  scope: RIGHT_CLIENT_PURGE
+- description: The right to view gateway information.
+  flows: []
+  scope: RIGHT_GATEWAY_INFO
+- description: The right to edit basic gateway settings.
+  flows: []
+  scope: RIGHT_GATEWAY_SETTINGS_BASIC
+- description: The right to view and edit gateway API keys.
+  flows: []
+  scope: RIGHT_GATEWAY_SETTINGS_API_KEYS
+- description: The right to view and edit gateway collaborators.
+  flows: []
+  scope: RIGHT_GATEWAY_SETTINGS_COLLABORATORS
+- description: The right to delete gateway.
+  flows: []
+  scope: RIGHT_GATEWAY_DELETE
+- description: The right to purge gateway.
+  flows: []
+  scope: RIGHT_GATEWAY_PURGE
+- description: The right to read gateway traffic.
+  flows: []
+  scope: RIGHT_GATEWAY_TRAFFIC_READ
+- description: The right to write downlink gateway traffic.
+  flows: []
+  scope: RIGHT_GATEWAY_TRAFFIC_DOWN_WRITE
+- description: The right to link as Gateway to a Gateway Server for traffic exchange, i.e. write uplink and read downlink (API keys only) This right is typically only given to a gateway. This right implies RIGHT_GATEWAY_INFO.
+  flows: []
+  scope: RIGHT_GATEWAY_LINK
+- description: The right to view gateway status.
+  flows: []
+  scope: RIGHT_GATEWAY_STATUS_READ
+- description: The right to view view gateway location.
+  flows: []
+  scope: RIGHT_GATEWAY_LOCATION_READ
+- description: The right to store secrets associated with this gateway.
+  flows: []
+  scope: RIGHT_GATEWAY_WRITE_SECRETS
+- description: The right to retrieve secrets associated with this gateway.
+  flows: []
+  scope: RIGHT_GATEWAY_READ_SECRETS
+- description: The pseudo-right for all (current and future) gateway rights.
+  flows: []
+  scope: RIGHT_GATEWAY_ALL
+- description: The right to view organization information.
+  flows: []
+  scope: RIGHT_ORGANIZATION_INFO
+- description: The right to edit basic organization settings.
+  flows: []
+  scope: RIGHT_ORGANIZATION_SETTINGS_BASIC
+- description: The right to view and edit organization API keys.
+  flows: []
+  scope: RIGHT_ORGANIZATION_SETTINGS_API_KEYS
+- description: The right to view and edit organization members.
+  flows: []
+  scope: RIGHT_ORGANIZATION_SETTINGS_MEMBERS
+- description: The right to delete organization.
+  flows: []
+  scope: RIGHT_ORGANIZATION_DELETE
+- description: The right to purge organization.
+  flows: []
+  scope: RIGHT_ORGANIZATION_PURGE
+- description: The right to list the applications the organization is a collaborator of.
+  flows: []
+  scope: RIGHT_ORGANIZATION_APPLICATIONS_LIST
+- description: The right to create an application under the organization.
+  flows: []
+  scope: RIGHT_ORGANIZATION_APPLICATIONS_CREATE
+- description: The right to list the gateways the organization is a collaborator of.
+  flows: []
+  scope: RIGHT_ORGANIZATION_GATEWAYS_LIST
+- description: The right to create a gateway under the organization.
+  flows: []
+  scope: RIGHT_ORGANIZATION_GATEWAYS_CREATE
+- description: The right to list the OAuth clients the organization is a collaborator of.
+  flows: []
+  scope: RIGHT_ORGANIZATION_CLIENTS_LIST
+- description: The right to create an OAuth client under the organization.
+  flows: []
+  scope: RIGHT_ORGANIZATION_CLIENTS_CREATE
+- description: The right to add the organization as a collaborator on an existing entity.
+  flows: []
+  scope: RIGHT_ORGANIZATION_ADD_AS_COLLABORATOR
+- description: The pseudo-right for all (current and future) organization rights.
+  flows: []
+  scope: RIGHT_ORGANIZATION_ALL
+- description: The right to send invites to new users. Note that this is not prefixed with "USER_"; it is not a right on the user entity.
+  flows: []
+  scope: RIGHT_SEND_INVITES
+- description: The pseudo-right for all (current and future) possible rights.
+  flows: []
+  scope: RIGHT_ALL
 slug: the-things-network-scopes
 source_filename: the-things-network-scopes.yml
 source_heading: OAuth Scopes
@@ -387,7 +667,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://github.
   \  entity: organization\n  description: The right to list the gateways the organization is a collaborator of.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_GATEWAYS_CREATE\n  entity: organization\n  description: The right to create a gateway under the organization.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_CLIENTS_LIST\n  entity: organization\n  description: The right to list the OAuth clients the organization is a collaborator of.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_CLIENTS_CREATE\n  entity: organization\n  description: The right to create an OAuth client under the organization.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_ADD_AS_COLLABORATOR\n  entity: organization\n  description: The right to add the organization as a collaborator on an existing entity.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_ALL\n  entity: organization\n  description: The pseudo-right for all (current and future) organization rights.\n  pseudo: true\n- name: RIGHT_SEND_INVITES\n  entity: global\n  description:\
   \ The right to send invites to new users. Note that this is not prefixed with \"USER_\"; it\n    is not a right on the user entity.\n  pseudo: false\n- name: RIGHT_ALL\n  entity: global\n  description: The pseudo-right for all (current and future) possible rights.\n  pseudo: true\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/scopes/the-things-network-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 70 scopes
 tags:
 - LoRaWAN
 - IoT
@@ -399,5 +679,6 @@ tags:
 - Gateways
 - Connectivity
 - Apache 2.0
+token_bound: false
 token_urls: []
 ---

@@ -69,6 +69,7 @@ tags:
 - Agents
 - API Gateway
 - Data Governance
+token_bound: false
 token_urls:
 - https://auth.share.vendia.com/token
 ---

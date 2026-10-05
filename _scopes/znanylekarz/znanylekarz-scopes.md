@@ -124,6 +124,7 @@ tags:
 - Poland
 - Practice Management
 - Telehealth
+token_bound: false
 token_urls:
 - https://www.{domain}/oauth/v2/token
 ---

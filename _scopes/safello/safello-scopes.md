@@ -146,6 +146,8 @@ tags:
 - Trading
 - KYC
 - BankID
+- Financial Services
+token_bound: false
 token_urls:
 - /oauth2/token
 ---

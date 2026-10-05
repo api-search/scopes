@@ -73,5 +73,6 @@ tags:
 - Compliance
 - Vulnerability Management
 - Azure
+token_bound: false
 token_urls: []
 ---

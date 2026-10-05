@@ -161,6 +161,7 @@ tags:
 - Webhook
 - Productivity
 - Task
+token_bound: false
 token_urls:
 - https://api.zenzap.co/oauth/token
 ---

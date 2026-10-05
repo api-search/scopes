@@ -79,6 +79,7 @@ tags:
 - Payroll
 - Bookkeeping
 - Blockchain
+token_bound: false
 token_urls:
 - https://auth.request.finance/oauth/token
 ---

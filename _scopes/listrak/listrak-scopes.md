@@ -448,6 +448,7 @@ tags:
 - Media Management
 - Two-Way SMS
 - RCS
+token_bound: false
 token_urls:
 - https://auth.listrak.com/OAuth2/Token
 ---

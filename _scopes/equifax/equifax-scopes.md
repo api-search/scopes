@@ -2,7 +2,8 @@
 authorization_urls: []
 description: ''
 docs: https://developer.equifax.com/documentation
-flows: []
+flows:
+- clientCredentials
 kind: oauth-scopes
 layout: scope
 method: searched
@@ -10,6 +11,9 @@ name: Equifax Scopes
 name_suffix: OAuth Scopes
 note: 'Equifax documents that a `scope` parameter is REQUIRED in the OAuth 2.0 client_credentials token request ("you obtain the Access Token by providing only the client_id, client_secret, and the scope"), but publishes no scope reference. Scope values are per-API-product and are rendered only on the signed-in application page in the Equifax Developer Portal — the public quick-start guide instructs integrators to "Expand each API to confirm the appropriate endpoint ''Scope'' to use in test mode" (https://assets.equifax.com/marketing/US/assets/developer-quick-start-guide.PDF). scope_count is an honest zero: zero scope values are published, not zero scopes exist. Recovering the real list requires an authenticated portal session, which this pipeline does not create.'
 overview: 'Equifax uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+
+
+  Tokens are issued from https://api.equifax.com/v2/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -34,5 +38,7 @@ tags:
 - Identity
 - Fraud Prevention
 - Fortune 1000
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.equifax.com/v2/oauth/token
 ---

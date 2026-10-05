@@ -106,6 +106,7 @@ tags:
 - Authentication
 - MCP
 - E-Commerce
+token_bound: false
 token_urls:
 - https://api.arccosgolf.com/oauth2/token
 ---

@@ -60,6 +60,7 @@ tags:
 - Access Management
 - Employee Support
 - Ticketing
+token_bound: false
 token_urls:
 - https://public.api.serval.com/oauth/token
 ---

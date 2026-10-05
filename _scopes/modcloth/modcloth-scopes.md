@@ -68,6 +68,7 @@ tags:
 - Shopify
 - Agentic Commerce
 - MCP
+token_bound: false
 token_urls:
 - https://account.modcloth.com/authentication/oauth/token
 ---

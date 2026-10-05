@@ -566,6 +566,7 @@ tags:
 - API Marketplace
 - Agentic Payments
 - x402
+token_bound: false
 token_urls:
 - https://api.getanyapi.com/oauth/token
 ---

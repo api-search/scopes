@@ -248,6 +248,7 @@ tags:
 - Keywords
 - Enterprise
 - AI Search
+token_bound: false
 token_urls:
 - https://mcp2.brightedge.com/token
 - https://mcp.brightedge.com/token

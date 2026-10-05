@@ -150,6 +150,7 @@ tags:
 - PSD2
 - SCA
 - STET
+token_bound: false
 token_urls:
 - https://api.sandbox.cib.bnpparibas.com/oauth2/v1/token
 - https://api.cib.bnpparibas.com/oauth2/v1/token

@@ -67,6 +67,7 @@ tags:
 - Retail
 - Shopify
 - Agentic Commerce
+token_bound: false
 token_urls:
 - https://accounts.teabox.com/authentication/oauth/token
 ---

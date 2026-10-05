@@ -52,16 +52,24 @@ method: probed
 name: Reachdesk Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Reachdesk uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Reachdesk publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Reachdesk API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Reachdesk
 provider_slug: reachdesk
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- mcp:tools.user.read
+- mcp:tools.user.write
+scopes:
+- description: Read access to MCP tools acting on behalf of the authenticated Reachdesk user. Description is inferred from the scope name — Reachdesk publishes the scope string with no human-readable description and no scopes reference page. Advertised in both scopes_supported lists.
+  flows: []
+  scope: mcp:tools.user.read
+- description: Write access to MCP tools acting on behalf of the authenticated Reachdesk user. Description inferred from the scope name; not documented by the provider.
+  flows: []
+  scope: mcp:tools.user.write
 slug: reachdesk-scopes
 source_filename: reachdesk-scopes.yml
 source_heading: OAuth Scopes
@@ -70,7 +78,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://app.reach
   \      Advertised in both scopes_supported lists.\n    access: read\n    documented_description: false\n  - name: mcp:tools.user.write\n    description: >-\n      Write access to MCP tools acting on behalf of the authenticated Reachdesk\n      user. Description inferred from the scope name; not documented by the\n      provider.\n    access: write\n    documented_description: false\ngrant_types:\n  - authorization_code\n  - client_credentials\n  - refresh_token\npkce: S256\ndynamic_client_registration: true\nnotes:\n  - >-\n    The `user` segment in both scope names indicates tools are scoped to the\n    calling user, which mirrors the REST API's `sender` field (a send is always\n    made on behalf of a platform user).\n  - >-\n    No scopes/permissions reference page exists on reachdesk.readme.io or in the\n    Reachdesk knowledge base. method is `probed` rather than `searched` for exactly\n    that reason: these values come from a machine-readable endpoint, not from docs.\n  - >-\n \
   \   The REST API's OpenAPI declares a single apiKey security scheme with no scopes.\n    Nothing here applies to https://app.reachdesk.com/api/v2.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/scopes/reachdesk-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Corporate Gifting
 - Direct Mail
@@ -84,5 +92,6 @@ tags:
 - MCP
 - AI Agents
 - OpenAPI
+token_bound: false
 token_urls: []
 ---

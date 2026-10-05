@@ -67,6 +67,7 @@ tags:
 - GraphQL
 - Event
 - Developer API
+token_bound: false
 token_urls:
 - https://api.start.gg/oauth/access_token
 ---

@@ -119,6 +119,7 @@ tags:
 - SAP
 - Subscription Management
 - Usage-Based Pricing
+token_bound: false
 token_urls:
 - https://auth.sap.com/oauth/token
 ---

@@ -118,6 +118,7 @@ tags:
 - Privacy
 - Authentication
 - Health Information Exchange
+token_bound: false
 token_urls:
 - https://api.datavant.io/v2/oauth2/token
 - https://datavant.auth0.com/oauth/token

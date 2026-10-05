@@ -72,6 +72,7 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/11195850/oauth/token
 ---

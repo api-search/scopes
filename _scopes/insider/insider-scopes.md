@@ -219,6 +219,7 @@ tags:
 - Agents
 - Consent
 - GDPR
+token_bound: false
 token_urls:
 - https://gw.useinsider.com/oauth2/token
 ---

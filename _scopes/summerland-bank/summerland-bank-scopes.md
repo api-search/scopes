@@ -120,6 +120,7 @@ tags:
 - Consumer Banking
 - Australia
 - Mutual Bank
+token_bound: false
 token_urls:
 - discovered-per-holder-via-oidc
 ---

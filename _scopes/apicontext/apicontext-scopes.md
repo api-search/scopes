@@ -415,6 +415,7 @@ tags:
 - SLO
 - Synthetic Testing
 - Testing
+token_bound: false
 token_urls:
 - https://auth.apimetrics.io/oauth/token
 ---

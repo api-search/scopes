@@ -276,6 +276,7 @@ tags:
 - Manufacturing
 - Industrial Automation
 - Robotics as a Service
+token_bound: false
 token_urls:
 - https://vecnarobotics.my.site.com/services/oauth2/token
 ---

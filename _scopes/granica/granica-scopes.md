@@ -40,5 +40,6 @@ tags:
 - Cloud Cost Optimization
 - Compression
 - Data Infrastructure
+token_bound: false
 token_urls: []
 ---

@@ -167,6 +167,7 @@ tags:
 - Identity Federation
 - Course Catalog
 - Research Computing
+token_bound: false
 token_urls:
 - https://git.tu-berlin.de/oauth/token
 ---

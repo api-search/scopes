@@ -122,6 +122,7 @@ tags:
 - DER
 - Solar
 - Renewables
+token_bound: false
 token_urls:
 - https://data.endeavourenergy.com.au/oauth2/token/
 ---

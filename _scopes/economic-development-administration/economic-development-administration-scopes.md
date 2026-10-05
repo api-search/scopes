@@ -1,15 +1,17 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://sfgrants.eda.gov/services/oauth2/authorize
 description: ''
 docs: ''
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Economic Development Administration Scopes
 name_suffix: OAuth Scopes
 note: 'scopes_supported read verbatim from the OpenID Provider metadata served at https://sfgrants.eda.gov/.well-known/openid-configuration (HTTP 200, 2026-09-06). This is the Salesforce Experience Cloud platform scope vocabulary exposed by EDA''s grants-portal tenant under EDA''s own domain — it is NOT an EDA-authored scope taxonomy, and EDA publishes no scopes/permissions reference page. Descriptions below are the platform meanings of each scope, not EDA prose. Which of these scopes EDA actually grants to a portal client cannot be determined anonymously: every data endpoint behind the issuer returned 401.'
-overview: 'Economic Development Administration publishes 36 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Economic Development Administration API on a user''s behalf.
+overview: 'Economic Development Administration publishes 36 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Economic Development Administration API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -172,7 +174,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: https://sfgrants.
   - scope: eclair_api\n  description: Access CRM Analytics chart/Eclair APIs.\n- scope: einstein_gpt_api\n  description: Access Einstein Generative AI APIs.\n- scope: email\n  description: Standard OIDC email and email_verified claims.\n- scope: forgot_password\n  description: Forgot-password API for Experience Cloud users.\n- scope: full\n  description: Full access to all data the authenticated portal user can reach.\n- scope: id\n  description: Salesforce identity URL access (user id, organization id, urls).\n- scope: interaction_api\n  description: Access the Interaction (Salesforce Interactions) API.\n- scope: lightning\n  description: Access Lightning Experience / Lightning component endpoints.\n- scope: mcp_api\n  description: Access the Salesforce platform Model Context Protocol API surface.\n- scope: offline_access\n  description: Synonym of refresh_token — offline access to the portal API.\n- scope: openid\n  description: Issue an OpenID Connect ID token for the authenticated portal\
   \ user.\n- scope: pardot_api\n  description: Access Account Engagement (Pardot) APIs.\n- scope: phone\n  description: Standard OIDC phone_number and phone_number_verified claims.\n- scope: profile\n  description: Standard OIDC profile claims (name, preferred_username, picture, zoneinfo).\n- scope: pwdless_login_api\n  description: Passwordless login API for Experience Cloud users.\n- scope: refresh_token\n  description: Issue a refresh token for long-lived access.\n- scope: scrt_api\n  description: Access Service Cloud Real-Time (Messaging) APIs.\n- scope: sfap_api\n  description: Access Salesforce Agentforce Platform APIs.\n- scope: user_registration_api\n  description: Self-registration API for Experience Cloud users.\n- scope: visualforce\n  description: Access Visualforce pages in the org.\n- scope: wave_api\n  description: Access CRM Analytics (Wave) APIs.\n- scope: web\n  description: Access the portal web session (Experience Cloud).\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/economic-development-administration/refs/heads/main/scopes/economic-development-administration-scopes.yml
-summary_line: 36 scopes
+summary_line: 36 scopes · authorization_code
 tags:
 - Economic Development
 - Federal Government
@@ -180,5 +182,6 @@ tags:
 - Public Sector
 - Regional Development
 - Economic Data
+token_bound: false
 token_urls: []
 ---

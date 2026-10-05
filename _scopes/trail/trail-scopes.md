@@ -113,6 +113,7 @@ tags:
 - Task Management
 - Compliance
 - Food Safety
+token_bound: false
 token_urls:
 - /api/evo_api/oauth/token
 ---

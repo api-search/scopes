@@ -108,6 +108,7 @@ tags:
 - Bulk Data
 - Research Data
 - Open Data
+token_bound: false
 token_urls:
 - https://epicnsproxy.chop.edu/fhir/oauth2/token
 ---

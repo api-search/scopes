@@ -88,16 +88,32 @@ method: searched
 name: Dialnexa Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'DialNexa uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'DialNexa publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the DialNexa API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: DialNexa
 provider_slug: dialnexa
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- mcp:read
+- mcp:write
+- offline_access
+- openid
+scopes:
+- description: Read DialNexa workspace data through MCP tools.
+  flows: []
+  scope: mcp:read
+- description: Run state-changing MCP tools after any tool-specific confirmation requirements are satisfied.
+  flows: []
+  scope: mcp:write
+- description: Let a compatible client refresh access without re-authenticating every request.
+  flows: []
+  scope: offline_access
+- description: OpenID Connect scope advertised by the authorization server metadata (id_token issuance).
+  flows: []
+  scope: openid
 slug: dialnexa-scopes
 source_filename: dialnexa-scopes.yml
 source_heading: OAuth Scopes
@@ -105,12 +121,13 @@ source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: https://api.dialnexa.com/.well-known/oauth-authorization-server + https://dialnexa.com/docs/mcp-tools/overview.md\ndocs: https://dialnexa.com/docs/mcp-tools/overview\ndescription: >-\n  OAuth scopes apply to the MCP surface only. The REST /v1 API uses dashboard-provisioned API keys\n  (bearer) and declares no oauth2 securityScheme in its OpenAPI; the dialnexa.com\n  oauth-authorization-server metadata says plainly that public OAuth token issuance is not\n  available for the REST API. The api.dialnexa.com authorization server (OAuth 2.1,\n  authorization-code + PKCE S256, PAR, DPoP) issues tokens for the MCP endpoint\n  https://api.dialnexa.com/v1/mcp.\noauth_surface: https://api.dialnexa.com/v1/mcp\nauthorization_server: https://api.dialnexa.com\nscopes:\n- name: mcp:read\n  description: Read DialNexa workspace data through MCP tools.\n- name: mcp:write\n  description: Run state-changing MCP tools after any tool-specific confirmation\
   \ requirements are satisfied.\n- name: offline_access\n  description: Let a compatible client refresh access without re-authenticating every request.\n- name: openid\n  description: OpenID Connect scope advertised by the authorization server metadata (id_token issuance).\nscope_count: 4\nnotes:\n- OAuth grants are tied to the approving user AND the workspace chosen on the consent screen; tool arguments cannot switch workspaces.\n- API-key Bearer auth is the alternative for MCP clients that support custom headers; the key resolves the workspace.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dialnexa/refs/heads/main/scopes/dialnexa-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Voice AI
 - AI Agents
 - Telephony
 - Lead Qualification
 - Multilingual
+token_bound: false
 token_urls: []
 ---

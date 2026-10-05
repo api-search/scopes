@@ -93,6 +93,7 @@ tags:
 - Google Workspace
 - Productivity
 - Spreadsheets
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

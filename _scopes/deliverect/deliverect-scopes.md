@@ -310,6 +310,7 @@ tags:
 - Point-of-Sale
 - Order Management
 - Integration
+token_bound: false
 token_urls:
 - https://api.deliverect.com/oauth/token
 ---

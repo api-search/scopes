@@ -66,5 +66,6 @@ tags:
 - Automation
 - Advertising
 - White Label
+token_bound: false
 token_urls: []
 ---

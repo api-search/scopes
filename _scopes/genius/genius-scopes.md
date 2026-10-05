@@ -123,6 +123,7 @@ tags:
 - Crowdsourced
 - Reference Data
 - Public APIs
+token_bound: false
 token_urls:
 - https://api.genius.com/oauth/token
 ---

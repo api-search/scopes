@@ -95,6 +95,7 @@ tags:
 - Subscription
 - Developer Tools
 - FinOps
+token_bound: false
 token_urls:
 - https://auth.paigo.tech/oauth/token
 ---

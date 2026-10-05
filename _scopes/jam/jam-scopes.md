@@ -58,6 +58,7 @@ tags:
 - Observability
 - Screen Recording
 - MCP
+token_bound: false
 token_urls:
 - https://api.jam.dev/oauth/token
 ---

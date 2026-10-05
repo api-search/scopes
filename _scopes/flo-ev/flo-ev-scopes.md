@@ -219,6 +219,7 @@ tags:
 - OpenADR
 - Charge Point Operator
 - Quebec
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/85271511350/oauth/token
 - https://network.flo.com/services/oauth2/token

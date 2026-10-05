@@ -40,16 +40,36 @@ method: probed
 name: Konbiniapi Scopes
 name_suffix: OAuth Scopes
 note: These scopes govern the hosted MCP server only. The REST API at api.konbiniapi.com uses a static Bearer API key with NO scopes at all — one key carries the whole surface, all 67 operations, with no way to issue a read-only or platform-restricted credential. The OpenAPI declares no oauth2 securityScheme, so `derive-oauth-scopes.py` correctly found nothing; every scope below was read from live authorization-server metadata instead.
-overview: 'KonbiniAPI uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'KonbiniAPI publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the KonbiniAPI API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: KonbiniAPI
 provider_slug: konbiniapi
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- api_key
+- offline_access
+- openid
+- profile
+- email
+scopes:
+- description: Authorizes the MCP server to call KonbiniAPI on the account's behalf using its API key, and to spend that account's credits. This is the only scope that grants data access, and it grants all of it — there is no per-platform or read-only subdivision.
+  flows: []
+  scope: api_key
+- description: Issues a refresh token so an agent can keep calling without the user present. Required for unattended automation (Zapier, n8n, Make, Pipedream).
+  flows: []
+  scope: offline_access
+- description: Standard OIDC scope; requests an ID token identifying the signed-in KonbiniAPI account.
+  flows: []
+  scope: openid
+- description: Standard OIDC scope; releases name, picture, given_name and family_name claims.
+  flows: []
+  scope: profile
+- description: Standard OIDC scope; releases the email and email_verified claims.
+  flows: []
+  scope: email
 slug: konbiniapi-scopes
 source_filename: konbiniapi-scopes.yml
 source_heading: OAuth Scopes
@@ -59,7 +79,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://mcp.konbi
   \    description: Standard OIDC scope; releases name, picture, given_name and family_name claims.\n    resource: https://app.konbiniapi.com/api/auth\n    granted_by: authorization-server metadata\n    consequence: identity\n  - name: email\n    description: Standard OIDC scope; releases the email and email_verified claims.\n    resource: https://app.konbiniapi.com/api/auth\n    granted_by: authorization-server metadata\n    consequence: identity\ngrants:\n  - authorization_code\n  - client_credentials\n  - refresh_token\npkce:\n  - S256\nclaims_supported:\n  - sub\n  - iss\n  - aud\n  - exp\n  - iat\n  - sid\n  - scope\n  - azp\n  - email\n  - email_verified\n  - name\n  - picture\n  - family_name\n  - given_name\ngaps:\n  - >-\n    No read-only scope. Every KonbiniAPI operation is a read, so this costs nothing today, but it\n    also means a consumer cannot narrow a delegated token below \"all five platforms\".\n  - >-\n    No per-platform scope (e.g. tiktok:read). An agent granted api_key\
   \ can call LinkedIn and Reddit\n    even if it was authorized for a TikTok task.\n  - >-\n    No spend-limiting scope. api_key implies the ability to consume the account's entire credit\n    balance; the only ceiling is the plan.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/scopes/konbiniapi-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes
 tags:
 - Social Media
 - Instagram
@@ -78,5 +98,6 @@ tags:
 - Agent Skills
 - Agents
 - A2A
+token_bound: false
 token_urls: []
 ---

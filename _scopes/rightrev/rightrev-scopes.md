@@ -52,5 +52,6 @@ tags:
 - IFRS 15
 - Revenue
 - SaaS Metrics
+token_bound: false
 token_urls: []
 ---

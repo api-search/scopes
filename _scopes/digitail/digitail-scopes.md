@@ -156,6 +156,7 @@ tags:
 - Scheduling
 - Billing
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://vet.digitail.io/oauth/token
 ---

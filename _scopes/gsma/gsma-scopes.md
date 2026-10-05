@@ -433,5 +433,6 @@ tags:
 - Fraud Prevention
 - Specification
 - GSMA
+token_bound: false
 token_urls: []
 ---

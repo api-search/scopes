@@ -57,6 +57,7 @@ tags:
 - Distribution
 - Loyalty
 - GDS
+token_bound: false
 token_urls:
 - https://www.wyndhambusiness.com/oauth/token
 ---

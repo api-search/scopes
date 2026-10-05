@@ -129,6 +129,7 @@ tags:
 - Sensors
 - Analytics
 - gRPC
+token_bound: false
 token_urls:
 - https://identity-prod.picarro.com/auth/realms/picarro/protocol/openid-connect/token
 ---

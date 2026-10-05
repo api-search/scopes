@@ -70,6 +70,7 @@ tags:
 - Compliance
 - MCP
 - AI Security
+token_bound: false
 token_urls:
 - https://auth.cyera.io/oauth/token
 ---

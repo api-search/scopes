@@ -84,5 +84,6 @@ tags:
 - Payouts
 - Money Transfer
 - Banking
+token_bound: false
 token_urls: []
 ---

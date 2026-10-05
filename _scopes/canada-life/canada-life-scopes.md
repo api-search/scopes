@@ -213,6 +213,7 @@ tags:
 - ACORD
 - Partner Gated
 - No Public API
+token_bound: false
 token_urls:
 - https://api.canadalife.com/oauth2/v1/generate
 - https://my.canadalife.com/services/oauth2/token

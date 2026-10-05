@@ -1,5 +1,6 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://help.evolve.com/services/oauth2/authorize
 description: The scopes_supported list advertised by the OpenID Connect provider on help.evolve.com. Read verbatim from the live discovery document — nothing is derived from an OpenAPI, because Evolve publishes none.
 docs: ''
 flows: []
@@ -9,16 +10,163 @@ method: probed
 name: Evolve Vacation Rental Network Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Evolve uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Evolve publishes 36 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Evolve API on a user''s behalf.
+
+
+  Tokens are issued from https://help.evolve.com/services/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Evolve
 provider_slug: evolve-vacation-rental-network
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 36
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- id
+- offline_access
+- refresh_token
+- api
+- full
+- web
+- lightning
+- visualforce
+- content
+- custom_permissions
+- chatter_api
+- wave_api
+- eclair_api
+- pardot_api
+- interaction_api
+- chatbot_api
+- scrt_api
+- sfap_api
+- einstein_gpt_api
+- mcp_api
+- cdp_api
+- cdp_query_api
+- cdp_ingest_api
+- cdp_profile_api
+- cdp_segment_api
+- cdp_calculated_insight_api
+- cdp_identityresolution_api
+- data_cloud_user_claims
+- user_registration_api
+- pwdless_login_api
+- forgot_password
+scopes:
+- description: Return an OpenID Connect ID token.
+  flows: []
+  scope: openid
+- description: Standard OIDC profile claims.
+  flows: []
+  scope: profile
+- description: Email address and email_verified claim.
+  flows: []
+  scope: email
+- description: Address claim.
+  flows: []
+  scope: address
+- description: Phone number and phone_number_verified claim.
+  flows: []
+  scope: phone
+- description: Salesforce identity URL access.
+  flows: []
+  scope: id
+- description: Long-lived access without the user present.
+  flows: []
+  scope: offline_access
+- description: Issue a refresh token.
+  flows: []
+  scope: refresh_token
+- description: Salesforce REST/SOAP data API access.
+  flows: []
+  scope: api
+- description: All permissions the user holds. Broad — the platform's widest grant.
+  flows: []
+  scope: full
+- description: Web/session access via the access token.
+  flows: []
+  scope: web
+- description: Lightning application access.
+  flows: []
+  scope: lightning
+- description: Visualforce page access.
+  flows: []
+  scope: visualforce
+- description: Salesforce Files/Content access.
+  flows: []
+  scope: content
+- description: Return the connected app's custom permissions for the user.
+  flows: []
+  scope: custom_permissions
+- description: Connect (Chatter) REST API access.
+  flows: []
+  scope: chatter_api
+- description: CRM Analytics (Wave) REST API access.
+  flows: []
+  scope: wave_api
+- description: CRM Analytics chart/Eclair API access.
+  flows: []
+  scope: eclair_api
+- description: Account Engagement (Pardot) API access.
+  flows: []
+  scope: pardot_api
+- description: Marketing Cloud interaction/journey API access.
+  flows: []
+  scope: interaction_api
+- description: Einstein Bots API access.
+  flows: []
+  scope: chatbot_api
+- description: Service Cloud real-time (Messaging for In-App and Web) API access.
+  flows: []
+  scope: scrt_api
+- description: Salesforce AI platform (Models/Agent) API access.
+  flows: []
+  scope: sfap_api
+- description: Einstein GPT / generative AI API access.
+  flows: []
+  scope: einstein_gpt_api
+- description: Salesforce Model Context Protocol API access. Platform-advertised only — no MCP endpoint was reachable on any Evolve host during this pass.
+  flows: []
+  scope: mcp_api
+- description: Data Cloud API access.
+  flows: []
+  scope: cdp_api
+- description: Data Cloud query API.
+  flows: []
+  scope: cdp_query_api
+- description: Data Cloud ingestion API.
+  flows: []
+  scope: cdp_ingest_api
+- description: Data Cloud profile API.
+  flows: []
+  scope: cdp_profile_api
+- description: Data Cloud segmentation API.
+  flows: []
+  scope: cdp_segment_api
+- description: Data Cloud calculated insights API.
+  flows: []
+  scope: cdp_calculated_insight_api
+- description: Data Cloud identity resolution API.
+  flows: []
+  scope: cdp_identityresolution_api
+- description: Data Cloud user claims in the token.
+  flows: []
+  scope: data_cloud_user_claims
+- description: Self-registration API for external identity users.
+  flows: []
+  scope: user_registration_api
+- description: Passwordless login API.
+  flows: []
+  scope: pwdless_login_api
+- description: Forgot-password flow API.
+  flows: []
+  scope: forgot_password
 slug: evolve-vacation-rental-network-scopes
 source_filename: evolve-vacation-rental-network-scopes.yml
 source_heading: OAuth Scopes
@@ -29,7 +177,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: https://help.evol
   \  description: Marketing Cloud interaction/journey API access.\n- name: chatbot_api\n  family: service\n  description: Einstein Bots API access.\n- name: scrt_api\n  family: service\n  description: Service Cloud real-time (Messaging for In-App and Web) API access.\n- name: sfap_api\n  family: ai\n  description: Salesforce AI platform (Models/Agent) API access.\n- name: einstein_gpt_api\n  family: ai\n  description: Einstein GPT / generative AI API access.\n- name: mcp_api\n  family: ai\n  description: >-\n    Salesforce Model Context Protocol API access. Platform-advertised only — no MCP\n    endpoint was reachable on any Evolve host during this pass.\n- name: cdp_api\n  family: data-cloud\n  description: Data Cloud API access.\n- name: cdp_query_api\n  family: data-cloud\n  description: Data Cloud query API.\n- name: cdp_ingest_api\n  family: data-cloud\n  description: Data Cloud ingestion API.\n- name: cdp_profile_api\n  family: data-cloud\n  description: Data Cloud profile API.\n-\
   \ name: cdp_segment_api\n  family: data-cloud\n  description: Data Cloud segmentation API.\n- name: cdp_calculated_insight_api\n  family: data-cloud\n  description: Data Cloud calculated insights API.\n- name: cdp_identityresolution_api\n  family: data-cloud\n  description: Data Cloud identity resolution API.\n- name: data_cloud_user_claims\n  family: data-cloud\n  description: Data Cloud user claims in the token.\n- name: user_registration_api\n  family: identity\n  description: Self-registration API for external identity users.\n- name: pwdless_login_api\n  family: identity\n  description: Passwordless login API.\n- name: forgot_password\n  family: identity\n  description: Forgot-password flow API.\nx-evidence:\n  fetched: '2026-08-12'\n  url: https://help.evolve.com/.well-known/openid-configuration\n  http_status: 200\n  content_type: application/json;charset=UTF-8\nchecked: '2026-08-12'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evolve-vacation-rental-network/refs/heads/main/scopes/evolve-vacation-rental-network-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 36 scopes
 tags:
 - Company
 - Travel
@@ -39,5 +187,7 @@ tags:
 - Property Management
 - Real Estate
 - Booking
-token_urls: []
+token_bound: false
+token_urls:
+- https://help.evolve.com/services/oauth2/token
 ---

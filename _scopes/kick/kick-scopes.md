@@ -60,6 +60,7 @@ tags:
 - MCP
 - AI Agents
 - Small Business
+token_bound: false
 token_urls:
 - https://use.kick.co/mcp/oauth/token
 ---

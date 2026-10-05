@@ -124,6 +124,7 @@ tags:
 - SEC Filings
 - RAG
 - MCP
+token_bound: false
 token_urls:
 - https://api.linqalpha.com/oauth/token
 ---

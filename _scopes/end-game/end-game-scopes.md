@@ -106,5 +106,6 @@ tags:
 - CRM
 - Conversation Intelligence
 - A2A
+token_bound: false
 token_urls: []
 ---

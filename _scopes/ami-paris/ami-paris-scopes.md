@@ -67,6 +67,7 @@ tags:
 - Shopify
 - Agentic Commerce
 - Universal Commerce Protocol
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/77478658352/oauth/token
 ---

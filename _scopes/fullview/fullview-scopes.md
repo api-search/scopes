@@ -105,6 +105,7 @@ tags:
 - Developer Tools
 - Help Desk
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://auth.eu1.fullview.io/realms/fullview-idp-users-eu1/protocol/openid-connect/token
 ---

@@ -64,16 +64,24 @@ method: probed
 name: Ucla Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'University of California, Los Angeles uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'University of California, Los Angeles publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the University of California, Los Angeles API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: University of California, Los Angeles
 provider_slug: ucla
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- read
+- write
+scopes:
+- description: '"Read access to protected resources", verbatim from the contract. Requested by every operation in all six SIS contracts, including the entire 61-operation Registrar data dictionary and every class, class-section and course-detail route.'
+  flows: []
+  scope: read
+- description: '"Write access to protected resources", verbatim from the contract. Declared in all six SIS contracts even though every operation in all six is an HTTP GET. Nothing published on the portal exercises it, so it is either aspirational or reserved for products that are only visible after campus sign-in.'
+  flows: []
+  scope: write
 slug: ucla-scopes
 source_filename: ucla-scopes.yml
 source_heading: OAuth Scopes
@@ -83,7 +91,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  securityDef
   \ or reserved for products that are only\n    visible after campus sign-in.\n  declared_in:\n  - openapi/_original/ucla-sis-classes-openapi.yml\n  - openapi/_original/ucla-sis-courses-openapi.yml\n  - openapi/_original/ucla-sis-dictionary-openapi.yml\n  - openapi/_original/ucla-sis-production-calendar-jobs-openapi.yml\n  - openapi/_original/ucla-sis-verify-connectivity-openapi.yml\n  - openapi/_original/ucla-myucla-menu-data-openapi.yml\nnon_scoped_credentials:\n- name: x-apikey\n  surface: UCLA Weather API\n  x-operator: institution\n  description: >-\n    The UCLA Weather contract uses a header API key with no scope model at all. Fourteen\n    read-only operations, one credential, no partition.\naccess_boundary: >-\n  The real authorization boundary at UCLA is not the token scope - it is the API Product an\n  application is subscribed to, approved per product by the owning campus unit through the\n  developer portal. The scope vocabulary is coarse on purpose because the product bundle\
   \ is\n  where the decision is made. That decision is not machine-readable anywhere public.\ngaps:\n- No per-resource or per-domain scope (nothing like sis.classes.read).\n- No scope documentation outside the contracts themselves.\n- No OpenID Connect discovery document on the gateway, so scopes_supported cannot be discovered.\n- write is declared on six read-only contracts.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/scopes/ucla-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - University
 - Higher Education
@@ -99,5 +107,6 @@ tags:
 - Library
 - IIIF
 - Campus Life
+token_bound: false
 token_urls: []
 ---

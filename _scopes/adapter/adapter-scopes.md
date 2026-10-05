@@ -217,6 +217,7 @@ tags:
 - Agents
 - MCP
 - LLM
+token_bound: false
 token_urls:
 - https://api.adapter.com/v1/oauth2/token
 ---

@@ -69,23 +69,68 @@ api_specs:
 authorization_urls: []
 description: Squarespace authorizes third-party applications (Squarespace Extensions) with OAuth 2.0 authorization code grant. The scope parameter on the authorize endpoint takes a COMMA-separated list of permission values — not the space-separated list RFC 6749 describes — and the confirmation page always presents the merchant's website(s) for selection because every scope is rooted at `website.*`. The scope list below is transcribed verbatim from the provider's OAuth guide. Note that the published OpenAPI declares only a single `http bearer` security scheme and no `oauth2` scheme, so these scopes exist ONLY in prose documentation and cannot be derived from the machine-readable contract — `derive-oauth-scopes.py` finds zero.
 docs: https://developers.squarespace.com/oauth
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Squarespace Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Squarespace uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Squarespace publishes 11 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Squarespace API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Squarespace
 provider_slug: squarespace
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 11
+scope_names:
+- website.orders
+- website.orders.read
+- website.transactions.read
+- website.inventory
+- website.inventory.read
+- website.products
+- website.products.read
+- website.contacts
+- website.contacts.read
+- website.discounts
+- website.discounts.read
+scopes:
+- description: Send order data and mark orders as fulfilled.
+  flows: []
+  scope: website.orders
+- description: View order and fulfillment information.
+  flows: []
+  scope: website.orders.read
+- description: Access transactional order and donation data.
+  flows: []
+  scope: website.transactions.read
+- description: View and update inventory stock levels.
+  flows: []
+  scope: website.inventory
+- description: View inventory stock levels.
+  flows: []
+  scope: website.inventory.read
+- description: View product information and modify products.
+  flows: []
+  scope: website.products
+- description: View product information.
+  flows: []
+  scope: website.products.read
+- description: View customer contact information and address book entries; create, update, and delete contacts and address book entries.
+  flows: []
+  scope: website.contacts
+- description: View customer contact information and address book entries.
+  flows: []
+  scope: website.contacts.read
+- description: View and manage discounts.
+  flows: []
+  scope: website.discounts
+- description: View discounts.
+  flows: []
+  scope: website.discounts.read
 slug: squarespace-scopes
 source_filename: squarespace-scopes.yml
 source_heading: OAuth Scopes
@@ -97,7 +142,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \  apis:\n    - api: Forms\n      levels: [read]\n      note: For Zapier integration only.\n    - api: Inventory\n      levels: [read, read-write]\n    - api: Orders\n      levels: [read, read-write]\n    - api: Products\n      levels: [read, read-write]\n    - api: Contacts\n      levels: [read, read-write]\n      note: API key support added 2026-06-17; previously OAuth only.\n    - api: Discounts\n      levels: [read, read-write]\n    - api: Webhook Subscriptions\n      levels: [read-write]\n      note: OAuth only — no API key path.\n    - api: Profiles\n      levels: [read]\n      note: Maintenance mode; new integrations should use Contacts.\n    - api: Transactions\n      levels: [read]\ngaps:\n  - The published OpenAPI declares no oauth2 securityScheme, so scopes are not machine-readable.\n  - >-\n    No scope is documented for the Webhook Subscriptions API even though it is OAuth-only; the docs\n    describe the permission by name but do not publish a website.* scope string for it.\n\
   \  - No scope is published for the Analytics API surfaced in the OpenAPI (POST /v1/analytics/transaction-summaries).\nevidence:\n  - url: https://developers.squarespace.com/oauth\n    status: 200\n  - url: https://developers.squarespace.com/commerce-apis/authentication-and-permissions\n    status: 200\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/scopes/squarespace-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 11 scopes · authorization_code
 tags:
 - Commerce
 - E-Commerce
@@ -106,5 +151,6 @@ tags:
 - Retail
 - Website Builder
 - Webhook
+token_bound: false
 token_urls: []
 ---

@@ -956,6 +956,7 @@ tags:
 - Payers
 - Fortune 100
 - CVS Health
+token_bound: false
 token_urls:
 - https://devapih1.int.aetna.com/healthcare/devpath1/v7/auth/oauth2/token
 - https://$(catalog.url)/v1/internal/fhirserver_auth/oauth2/token

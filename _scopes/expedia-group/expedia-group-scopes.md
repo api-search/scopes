@@ -158,6 +158,7 @@ tags:
 - Lodging
 - Travel
 - Fortune 500
+token_bound: false
 token_urls:
 - https://api.expediagroup.com/identity/oauth2/v3/token?grant_type=client_credentials
 - https://test.analytics.ean.com/template/v1/oauth/token

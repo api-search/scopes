@@ -155,6 +155,7 @@ tags:
 - Transportation
 - Food and Beverage
 - REIT
+token_bound: false
 token_urls:
 - https://lineage-ciam.us.auth0.com/oauth/token
 - https://lineagelinkhelp.onelineage.com/support/services/oauth2/token

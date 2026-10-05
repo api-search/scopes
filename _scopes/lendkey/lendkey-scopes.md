@@ -151,6 +151,7 @@ tags:
 - Payments
 - E-Signature
 - Treasury
+token_bound: false
 token_urls:
 - /oauth2/token
 - https://api.lendkey.com/lo_partnerintegrationinternalapi/oauth2/token

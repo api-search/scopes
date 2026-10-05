@@ -77,5 +77,6 @@ tags:
 - Mental Health
 - Patient Authentication
 - Healthcare
+token_bound: false
 token_urls: []
 ---

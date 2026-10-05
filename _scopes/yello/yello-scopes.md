@@ -53,6 +53,7 @@ tags:
 - Job
 - MCP
 - Government
+token_bound: false
 token_urls:
 - https://www.wayup.com/api/v1/oauth/o/token/
 ---

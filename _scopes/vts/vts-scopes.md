@@ -260,6 +260,7 @@ tags:
 - Asset Management
 - Property Management
 - Tenant Experience
+token_bound: false
 token_urls:
 - https://sandbox.vts.com/oauth/token
 ---

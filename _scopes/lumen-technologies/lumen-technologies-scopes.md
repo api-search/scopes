@@ -68,6 +68,7 @@ tags:
 - Networking
 - Security
 - Telecommunications
+token_bound: false
 token_urls:
 - https://api.lumen.com/oauth2/token
 ---

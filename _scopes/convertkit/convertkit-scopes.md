@@ -191,6 +191,7 @@ tags:
 - Commerce
 - A2A
 - Email
+token_bound: false
 token_urls:
 - https://api.kit.com/oauth/token
 - https://api.kit.com/v4/oauth/token

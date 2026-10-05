@@ -57,6 +57,7 @@ tags:
 - Labor
 - MCP
 - Agents
+token_bound: false
 token_urls:
 - https://finch.instawork.com/mcp/partner/token
 ---

@@ -62,6 +62,7 @@ tags:
 - NFT Marketplace
 - Agent Identity
 - Blockchain
+token_bound: false
 token_urls:
 - https://namewhisper.ai/oauth/token
 ---

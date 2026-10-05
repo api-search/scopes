@@ -138,6 +138,7 @@ tags:
 - Self-Hosted
 - openfga
 - Data Engineering
+token_bound: false
 token_urls:
 - /v1/oauth/tokens
 ---

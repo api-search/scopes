@@ -94,6 +94,7 @@ tags:
 - EDI
 - Invoicing
 - France
+token_bound: false
 token_urls:
 - https://klarys.app/api/public/o/token/
 ---

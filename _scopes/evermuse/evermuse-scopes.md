@@ -71,6 +71,7 @@ tags:
 - Product Analytics
 - MCP
 - Developer Tools
+token_bound: false
 token_urls:
 - https://api.evermuse.com/oauth/token
 ---

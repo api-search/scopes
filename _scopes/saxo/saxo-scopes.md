@@ -623,6 +623,7 @@ tags:
 - Portfolio Management
 - Order
 - Finance
+token_bound: false
 token_urls:
 - https://sim.logonvalidation.net/token
 ---

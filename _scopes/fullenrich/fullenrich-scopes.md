@@ -175,6 +175,8 @@ tags:
 - Reverse Email Lookup
 - Agent Ready
 - A2A
+- Data Enrichment
+token_bound: false
 token_urls:
 - https://app.fullenrich.com/oauth2/token
 - https://mcp.fullenrich.com/token

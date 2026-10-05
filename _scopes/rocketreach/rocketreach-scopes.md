@@ -18,26 +18,36 @@ api_specs:
   slug: rocketreach-people-data-api-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/openapi/rocketreach-people-data-api-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://rocketreach.co/mcp-oauth/authorize
 description: ''
 docs: https://docs.rocketreach.co/reference/mcp-auth
-flows: []
+flows:
+- authorization_code
+- refresh_token
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Rocketreach Scopes
 name_suffix: OAuth Scopes
 note: The RocketReach REST API is API-key authenticated and has no scope surface. OAuth exists solely for the RocketReach MCP server, and the scope list below is read verbatim from the provider's own RFC 8414 authorization-server metadata (scopes_supported), corroborated by the published Authentication page. It is a single coarse scope — there is no per-tool or read/write separation.
-overview: 'RocketReach uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'RocketReach publishes 1 OAuth 2.0 scope via the authorization_code and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the RocketReach API on a user''s behalf.
+
+
+  Tokens are issued from https://rocketreach.co/mcp-oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: RocketReach
 provider_slug: rocketreach
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- rocketreach:read
+scopes:
+- description: Grants access to all RocketReach MCP tools — person and company search, person and company lookup, and account. Authorizing this single scope authorizes the whole tool set, including the three credit-consuming lookup tools.
+  flows: []
+  scope: rocketreach:read
 slug: rocketreach-scopes
 source_filename: rocketreach-scopes.yml
 source_heading: OAuth Scopes
@@ -46,7 +56,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://rocketrea
   \  rfc: RFC 7591\n  endpoint: https://rocketreach.co/mcp-oauth/register\n  open: true\n  note: No pre-approval required. Redirect URIs are bound at registration; non-localhost redirects must be https.\ntoken_endpoint_auth_methods_supported:\n- none\nresponse_types_supported:\n- code\ngrant_types_supported:\n- authorization_code\n- refresh_token\ncode_challenge_methods_supported:\n- S256\nscopes:\n- name: rocketreach:read\n  description: >-\n    Grants access to all RocketReach MCP tools — person and company search, person and company lookup, and\n    account. Authorizing this single scope authorizes the whole tool set, including the three\n    credit-consuming lookup tools.\n  default: true\n  note: >-\n    An empty scope parameter on the authorize request defaults to rocketreach:read. Requesting any other\n    scope returns HTTP 400 invalid_scope.\nscope_count: 1\ngranularity: coarse\ngap: >-\n  There is no way for a user to authorize read-only search (free) without also authorizing the\n\
   \  credit-consuming lookup tools. A finer split — for example rocketreach:search versus rocketreach:enrich —\n  would let an agent be granted a spend-free capability. Worth raising with the provider.\nrevocation:\n  endpoint: https://rocketreach.co/mcp-oauth/revoke\n  note: Revoking a refresh token invalidates every access token issued from it.\nx-evidence:\n- url: https://rocketreach.co/.well-known/oauth-authorization-server\n  http_status: 200\n  fetched: '2026-08-13'\n- url: https://mcp.rocketreach.co/.well-known/oauth-protected-resource\n  http_status: 200\n  fetched: '2026-08-13'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/scopes/rocketreach-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope · authorization_code/refresh_token
 tags:
 - B2B
 - Contact Data
@@ -60,5 +70,7 @@ tags:
 - Prospecting
 - Recruiting
 - Webhook
-token_urls: []
+token_bound: false
+token_urls:
+- https://rocketreach.co/mcp-oauth/token
 ---

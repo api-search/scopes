@@ -405,6 +405,7 @@ tags:
 - Team Communication
 - Slack
 - Real-Time
+token_bound: false
 token_urls:
 - https://slack.com/api/oauth.v2.access
 - https://slack.com/api/openid.connect.token

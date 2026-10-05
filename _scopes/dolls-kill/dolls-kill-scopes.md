@@ -74,6 +74,7 @@ tags:
 - MCP
 - GraphQL
 - Direct to Consumer
+token_bound: false
 token_urls:
 - https://account.dollskill.com/authentication/oauth/token
 ---

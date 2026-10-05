@@ -204,6 +204,7 @@ tags:
 - Aerospace
 - Hardware
 - Public Safety
+token_bound: false
 token_urls:
 - https://portal.echodyne.com/services/oauth2/token
 ---

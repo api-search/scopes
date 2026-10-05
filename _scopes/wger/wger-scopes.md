@@ -448,7 +448,6 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://wger.de
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wger/refs/heads/main/scopes/wger-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
-- Sports And Fitness
 - Public APIs
 - Fitness
 - Nutrition
@@ -458,6 +457,7 @@ tags:
 - Workout Tracking
 - Django
 - REST
+token_bound: false
 token_urls:
 - https://wger.de/identity/o/api/token
 ---

@@ -113,6 +113,7 @@ tags:
 - Point-of-Sale
 - Omnichannel
 - Oracle
+token_bound: false
 token_urls:
 - https://identity.oraclecloud.com/oauth2/v1/token
 ---

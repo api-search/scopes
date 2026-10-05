@@ -359,6 +359,7 @@ tags:
 - DevOps
 - Containers
 - Observability
+token_bound: false
 token_urls:
 - https://auth.api.platform.sh/oauth2/token
 ---

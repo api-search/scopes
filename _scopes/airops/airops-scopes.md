@@ -186,6 +186,7 @@ tags:
 - Knowledge Base
 - Content Marketing
 - Citations
+token_bound: false
 token_urls:
 - https://app.airops.com/oauth/token
 ---

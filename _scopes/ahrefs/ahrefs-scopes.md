@@ -324,6 +324,7 @@ tags:
 - Site Audit
 - Brand Monitoring
 - Social Media
+token_bound: false
 token_urls:
 - https://ahrefs.com/oauth/token
 ---

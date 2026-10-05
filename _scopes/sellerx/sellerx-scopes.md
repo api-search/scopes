@@ -53,6 +53,7 @@ tags:
 - Marketplace-Seller
 - Consumer Packaged Goods
 - Germany
+token_bound: false
 token_urls:
 - https://mcp.sellerx.com/token
 ---

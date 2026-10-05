@@ -67,6 +67,7 @@ tags:
 - Network Planning
 - RF Engineering
 - Government
+token_bound: false
 token_urls:
 - https://federatedwireless.ai/oauth/token
 ---

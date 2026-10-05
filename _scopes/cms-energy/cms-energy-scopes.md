@@ -130,5 +130,6 @@ tags:
 - Natural Gas
 - Utility
 - Fortune 500
+token_bound: false
 token_urls: []
 ---

@@ -94,16 +94,356 @@ method: searched
 name: Facebook Business Manager Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Facebook Business Manager uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Facebook Business Manager publishes 85 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Facebook Business Manager API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Facebook Business Manager
 provider_slug: facebook-business-manager
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 85
+scope_names:
+- public_profile
+- email
+- ads_management
+- ads_read
+- ads_mcp_management
+- attribution_read
+- read_insights
+- read_audience_network_insights
+- business_management
+- catalog_management
+- commerce_manage_accounts
+- commerce_account_manage_orders
+- commerce_account_read_orders
+- commerce_account_read_reports
+- commerce_account_read_settings
+- leads_retrieval
+- pages_show_list
+- pages_read_engagement
+- pages_read_user_content
+- pages_manage_posts
+- pages_manage_engagement
+- pages_manage_metadata
+- pages_manage_ads
+- pages_manage_cta
+- pages_manage_instant_articles
+- pages_messaging
+- pages_utility_messaging
+- pages_events
+- pages_user_gender
+- pages_user_locale
+- pages_user_timezone
+- publish_video
+- instagram_basic
+- instagram_business_basic
+- instagram_content_publish
+- instagram_business_content_publish
+- instagram_manage_comments
+- instagram_business_manage_comments
+- instagram_manage_insights
+- instagram_manage_messages
+- instagram_business_manage_messages
+- instagram_manage_events
+- instagram_manage_upcoming_events
+- instagram_manage_contents
+- instagram_manage_engagement
+- instagram_shopping_tag_products
+- instagram_branded_content_brand
+- instagram_branded_content_ads_brand
+- instagram_branded_content_creator
+- instagram_creator_marketplace_discovery
+- instagram_creator_marketplace_messaging
+- whatsapp_business_management
+- whatsapp_business_messaging
+- whatsapp_business_manage_events
+- threads_basic
+- threads_business_basic
+- threads_content_publish
+- threads_delete
+- threads_read_replies
+- threads_manage_replies
+- threads_manage_mentions
+- threads_manage_insights
+- threads_keyword_search
+- threads_location_tagging
+- threads_profile_discovery
+- threads_share_to_instagram
+- threads_user_id
+- manage_app_solutions
+- manage_fundraisers
+- user_age_range
+- user_birthday
+- user_friends
+- user_gender
+- user_hometown
+- user_likes
+- user_link
+- user_location
+- user_messenger_contact
+- user_photos
+- user_posts
+- user_videos
+- gaming_profile
+- gaming_user_locale
+- developer_tools_mcp_app_read
+- developer_tools_mcp_app_management
+scopes:
+- description: Default permission granted with every Facebook Login. Basic profile fields.
+  flows: []
+  scope: public_profile
+- description: The app user's primary email address.
+  flows: []
+  scope: email
+- description: 'Read and manage the ad accounts the app owns or has been granted access to. Programmatically create campaigns, manage ads, fetch ad metrics. Dependencies: pages_read_engagement, pages_show_list.'
+  flows: []
+  scope: ads_management
+- description: Read-only access to ads performance data for owned or granted ad accounts.
+  flows: []
+  scope: ads_read
+- description: Access the Meta ads Model Context Protocol (MCP) server and enable AI agents to interact with Meta Ads on behalf of advertisers — create and manage campaigns, retrieve insights and reporting, and manage business assets like catalogs, ad accounts and pixels.
+  flows: []
+  scope: ads_mcp_management
+- description: Read Meta attribution and measurement data.
+  flows: []
+  scope: attribution_read
+- description: Read Insights data for Pages, apps and web domains the app user owns.
+  flows: []
+  scope: read_insights
+- description: Read Audience Network insights for apps the app user administers.
+  flows: []
+  scope: read_audience_network_insights
+- description: Read and write Business Manager assets, users and asset assignments.
+  flows: []
+  scope: business_management
+- description: Create, read, update and delete product catalogs owned by a business.
+  flows: []
+  scope: catalog_management
+- description: Manage commerce accounts for a business.
+  flows: []
+  scope: commerce_manage_accounts
+- description: Manage orders on a commerce account.
+  flows: []
+  scope: commerce_account_manage_orders
+- description: Read orders on a commerce account.
+  flows: []
+  scope: commerce_account_read_orders
+- description: Read commerce account reports.
+  flows: []
+  scope: commerce_account_read_reports
+- description: Read commerce account settings.
+  flows: []
+  scope: commerce_account_read_settings
+- description: Download lead data generated by Lead Ads forms on Pages the app user manages.
+  flows: []
+  scope: leads_retrieval
+- description: List the Pages the app user manages.
+  flows: []
+  scope: pages_show_list
+- description: Read content, engagement and metadata on Pages the app user manages.
+  flows: []
+  scope: pages_read_engagement
+- description: Read user-generated content (posts, comments, ratings) on managed Pages.
+  flows: []
+  scope: pages_read_user_content
+- description: Create, edit and delete posts on managed Pages.
+  flows: []
+  scope: pages_manage_posts
+- description: Create, edit and delete comments and likes on managed Pages.
+  flows: []
+  scope: pages_manage_engagement
+- description: Manage Page settings and subscribe/unsubscribe apps to Page webhooks.
+  flows: []
+  scope: pages_manage_metadata
+- description: Manage ads associated with a Page.
+  flows: []
+  scope: pages_manage_ads
+- description: Manage the call-to-action button on a Page.
+  flows: []
+  scope: pages_manage_cta
+- description: Manage Instant Articles on behalf of Pages the app user administers.
+  flows: []
+  scope: pages_manage_instant_articles
+- description: Send and receive messages through a Page (Messenger Platform).
+  flows: []
+  scope: pages_messaging
+- description: Send utility (non-promotional) messages through a Page.
+  flows: []
+  scope: pages_utility_messaging
+- description: Log Page events for advertising and analytics.
+  flows: []
+  scope: pages_events
+- description: Read the gender of a user interacting with a managed Page.
+  flows: []
+  scope: pages_user_gender
+- description: Read the locale of a user interacting with a managed Page.
+  flows: []
+  scope: pages_user_locale
+- description: Read the time zone of a user interacting with a managed Page.
+  flows: []
+  scope: pages_user_timezone
+- description: Publish live and on-demand video to a Page, group or user.
+  flows: []
+  scope: publish_video
+- description: Read basic metadata and media for an Instagram Business or Creator account.
+  flows: []
+  scope: instagram_basic
+- description: Basic access under Business Login for Instagram.
+  flows: []
+  scope: instagram_business_basic
+- description: Publish content to an Instagram Business account.
+  flows: []
+  scope: instagram_content_publish
+- description: Publish content under Business Login for Instagram.
+  flows: []
+  scope: instagram_business_content_publish
+- description: Read and manage comments on Instagram media.
+  flows: []
+  scope: instagram_manage_comments
+- description: Manage comments under Business Login for Instagram.
+  flows: []
+  scope: instagram_business_manage_comments
+- description: Read insights for an Instagram Business account and its media.
+  flows: []
+  scope: instagram_manage_insights
+- description: Send and receive Instagram Direct messages.
+  flows: []
+  scope: instagram_manage_messages
+- description: Messaging under Business Login for Instagram.
+  flows: []
+  scope: instagram_business_manage_messages
+- description: Log events for an Instagram Business account.
+  flows: []
+  scope: instagram_manage_events
+- description: Manage upcoming events on an Instagram Business account.
+  flows: []
+  scope: instagram_manage_upcoming_events
+- description: Manage content on an Instagram Business account.
+  flows: []
+  scope: instagram_manage_contents
+- description: Manage engagement on an Instagram Business account.
+  flows: []
+  scope: instagram_manage_engagement
+- description: Tag products from a catalog in Instagram media.
+  flows: []
+  scope: instagram_shopping_tag_products
+- description: Branded content access on the brand side.
+  flows: []
+  scope: instagram_branded_content_brand
+- description: Run partnership ads against creator branded content.
+  flows: []
+  scope: instagram_branded_content_ads_brand
+- description: Branded content access on the creator side.
+  flows: []
+  scope: instagram_branded_content_creator
+- description: Discover creators in the Instagram Creator Marketplace.
+  flows: []
+  scope: instagram_creator_marketplace_discovery
+- description: Message creators in the Instagram Creator Marketplace.
+  flows: []
+  scope: instagram_creator_marketplace_messaging
+- description: Manage WhatsApp Business Accounts, phone numbers, templates and settings.
+  flows: []
+  scope: whatsapp_business_management
+- description: Send and receive messages through the WhatsApp Business Platform Cloud API.
+  flows: []
+  scope: whatsapp_business_messaging
+- description: Log WhatsApp business events.
+  flows: []
+  scope: whatsapp_business_manage_events
+- description: Read basic profile and media data for a Threads account.
+  flows: []
+  scope: threads_basic
+- description: Basic access for Threads business accounts.
+  flows: []
+  scope: threads_business_basic
+- description: Publish posts to Threads.
+  flows: []
+  scope: threads_content_publish
+- description: Delete Threads posts.
+  flows: []
+  scope: threads_delete
+- description: Read replies to Threads posts.
+  flows: []
+  scope: threads_read_replies
+- description: Hide, unhide and reply to Threads replies.
+  flows: []
+  scope: threads_manage_replies
+- description: Read and respond to Threads mentions.
+  flows: []
+  scope: threads_manage_mentions
+- description: Read Threads media and account insights.
+  flows: []
+  scope: threads_manage_insights
+- description: Search Threads by keyword.
+  flows: []
+  scope: threads_keyword_search
+- description: Tag locations on Threads posts.
+  flows: []
+  scope: threads_location_tagging
+- description: Discover public Threads profiles.
+  flows: []
+  scope: threads_profile_discovery
+- description: Share Threads content to Instagram.
+  flows: []
+  scope: threads_share_to_instagram
+- description: Access the Threads user id.
+  flows: []
+  scope: threads_user_id
+- description: Manage app solutions on behalf of a business.
+  flows: []
+  scope: manage_app_solutions
+- description: Create and manage fundraisers on behalf of the app user.
+  flows: []
+  scope: manage_fundraisers
+- description: The app user's age range bucket.
+  flows: []
+  scope: user_age_range
+- description: The app user's birthday.
+  flows: []
+  scope: user_birthday
+- description: The app user's friends who also use the app.
+  flows: []
+  scope: user_friends
+- description: The app user's gender.
+  flows: []
+  scope: user_gender
+- description: The app user's hometown.
+  flows: []
+  scope: user_hometown
+- description: Pages the app user has liked.
+  flows: []
+  scope: user_likes
+- description: The URL of the app user's Facebook profile.
+  flows: []
+  scope: user_link
+- description: The app user's current city.
+  flows: []
+  scope: user_location
+- description: Contact the app user on Messenger following a defined interaction.
+  flows: []
+  scope: user_messenger_contact
+- description: Photos the app user has uploaded or is tagged in.
+  flows: []
+  scope: user_photos
+- description: Posts on the app user's timeline.
+  flows: []
+  scope: user_posts
+- description: Videos the app user has uploaded or is tagged in.
+  flows: []
+  scope: user_videos
+- description: Gaming-scoped profile access.
+  flows: []
+  scope: gaming_profile
+- description: Gaming-scoped locale access.
+  flows: []
+  scope: gaming_user_locale
+- description: Read access for the Meta Devtools MCP server. Sourced from https://mcp.facebook.com/.well-known/oauth-protected-resource/devtools, not from the Permissions Reference page.
+  flows: []
+  scope: developer_tools_mcp_app_read
+- description: Management access for the Meta Devtools MCP server. Sourced from https://mcp.facebook.com/.well-known/oauth-protected-resource/devtools.
+  flows: []
+  scope: developer_tools_mcp_app_management
 slug: facebook-business-manager-scopes
 source_filename: facebook-business-manager-scopes.yml
 source_heading: OAuth Scopes
@@ -123,7 +463,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \  - name: user_link\n    group: user\n    description: The URL of the app user's Facebook profile.\n  - name: user_location\n    group: user\n    description: The app user's current city.\n  - name: user_messenger_contact\n    group: user\n    description: Contact the app user on Messenger following a defined interaction.\n  - name: user_photos\n    group: user\n    description: Photos the app user has uploaded or is tagged in.\n  - name: user_posts\n    group: user\n    description: Posts on the app user's timeline.\n  - name: user_videos\n    group: user\n    description: Videos the app user has uploaded or is tagged in.\n  - name: gaming_profile\n    group: gaming\n    description: Gaming-scoped profile access.\n  - name: gaming_user_locale\n    group: gaming\n    description: Gaming-scoped locale access.\n  - name: developer_tools_mcp_app_read\n    group: mcp\n    description: >-\n      Read access for the Meta Devtools MCP server. Sourced from\n      https://mcp.facebook.com/.well-known/oauth-protected-resource/devtools,\
   \ not from the Permissions\n      Reference page.\n  - name: developer_tools_mcp_app_management\n    group: mcp\n    description: >-\n      Management access for the Meta Devtools MCP server. Sourced from\n      https://mcp.facebook.com/.well-known/oauth-protected-resource/devtools.\nscope_count: 82\ncompleteness_note: >-\n  Meta's Permissions Reference is paginated A-Z in a partly client-rendered layout. The list above is what\n  was legible in the served markup on 2026-08-13 plus the two MCP servers' machine-readable scope arrays.\n  It is a large and representative sample, not a guaranteed exhaustive enumeration; treat\n  https://developers.facebook.com/docs/permissions as canonical.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/scopes/facebook-business-manager-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 85 scopes
 tags:
 - Advertising
 - Analytics
@@ -135,5 +475,6 @@ tags:
 - Agents
 - MCP
 - Webhook
+token_bound: false
 token_urls: []
 ---

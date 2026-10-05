@@ -152,6 +152,7 @@ tags:
 - Pages
 - Content Publishing
 - Social Insights
+token_bound: false
 token_urls:
 - https://graph.facebook.com/v22.0/oauth/access_token
 ---

@@ -374,6 +374,7 @@ tags:
 - Retail
 - REST
 - Authentication
+token_bound: false
 token_urls:
 - https://id.planday.com/connect/token
 ---

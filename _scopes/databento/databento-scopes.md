@@ -180,6 +180,7 @@ tags:
 - Reference Data
 - Historical Market Data
 - Trading
+token_bound: false
 token_urls:
 - /v0/auth/login
 ---

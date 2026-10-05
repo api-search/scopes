@@ -123,6 +123,7 @@ tags:
 - No-Code
 - Power Pages
 - Power Platform
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 - https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token

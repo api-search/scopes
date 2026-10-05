@@ -190,6 +190,7 @@ tags:
 - Cover Art
 - Open Source
 - Non-Profit
+token_bound: false
 token_urls:
 - https://musicbrainz.org/oauth2/token
 ---

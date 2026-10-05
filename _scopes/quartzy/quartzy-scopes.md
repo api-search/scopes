@@ -83,6 +83,7 @@ tags:
 - Ordering
 - Laboratory
 - Webhook
+token_bound: false
 token_urls:
 - https://api.quartzy.com/oauth/token
 ---

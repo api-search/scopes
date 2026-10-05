@@ -88,6 +88,7 @@ tags:
 - B2B
 - Marketplace
 - Payments
+token_bound: false
 token_urls:
 - https://auth.jooraccess.com/auth/realms/joor/protocol/openid-connect/token
 ---

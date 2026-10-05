@@ -196,6 +196,7 @@ tags:
 - Software
 - Cloud
 - Project Management
+token_bound: false
 token_urls:
 - https://login.assignar.com/oauth2/token
 ---

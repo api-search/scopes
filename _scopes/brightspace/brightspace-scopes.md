@@ -147,6 +147,7 @@ tags:
 - D2L
 - Brightspace
 - Canada
+token_bound: false
 token_urls:
 - https://auth.brightspace.com/core/connect/token
 ---

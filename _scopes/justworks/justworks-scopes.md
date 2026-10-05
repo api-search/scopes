@@ -226,6 +226,7 @@ tags:
 - Employer of Record
 - HRIS
 - Employee Benefits
+token_bound: false
 token_urls:
 - https://public-api.justworks.com/oauth/token
 ---

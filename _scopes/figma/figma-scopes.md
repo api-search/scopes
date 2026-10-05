@@ -235,6 +235,7 @@ tags:
 - Prototyping
 - UI/UX
 - Figma
+token_bound: false
 token_urls:
 - https://api.figma.com/v1/oauth/token
 - https://www.figma.com/api/oauth/token

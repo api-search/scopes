@@ -154,6 +154,7 @@ tags:
 - GxP
 - Manufacturing
 - Time Series
+token_bound: false
 token_urls:
 - https://api.elementalmachines.io/oauth/token
 - https://elementalmachines.com/oauth/token

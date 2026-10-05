@@ -501,6 +501,7 @@ tags:
 - Digital Banking
 - Fintech
 - Europe
+token_bound: false
 token_urls:
 - https://sbx-wlip.api1-eu2.psapigateway.preprod.giservices.io/token
 ---

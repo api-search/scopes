@@ -214,6 +214,7 @@ tags:
 - PropTech
 - Utility Data
 - Capital Markets
+token_bound: false
 token_urls:
 - https://api.measurabl.com/token
 ---

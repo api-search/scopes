@@ -200,6 +200,8 @@ tags:
 - Open Banking
 - Pay with Points
 - Rewards
+- Consumer Banking
+token_bound: false
 token_urls:
 - https://api.chase.com/oauth2/token
 ---

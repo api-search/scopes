@@ -120,7 +120,7 @@ tags:
 - CIECA
 - Partner Gated
 - Authentication
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://auth.cccis.com/oauth2/v1/token
 - https://auth.cccis.com/oauth2/aus294ajl2Qs1RgY24x7/v1/token

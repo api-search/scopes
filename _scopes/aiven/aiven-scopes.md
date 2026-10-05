@@ -433,6 +433,7 @@ tags:
 - Data Streaming
 - Data Platform
 - Database
+token_bound: false
 token_urls:
 - https://api.aiven.io/v1/oauth2/token
 ---

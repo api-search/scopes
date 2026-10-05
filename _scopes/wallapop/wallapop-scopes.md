@@ -105,6 +105,7 @@ tags:
 - Classifieds
 - Shipping
 - Webhook
+token_bound: false
 token_urls:
 - https://iam.wallapop.com/realms/wallapop-connect/protocol/openid-connect/token
 ---

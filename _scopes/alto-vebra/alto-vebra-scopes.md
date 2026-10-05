@@ -801,6 +801,7 @@ tags:
 - Sales Progression
 - Property Data
 - Real Estate Software
+token_bound: false
 token_urls:
 - https://api.alto.zoopladev.co.uk/token
 - https://services-auth.services.zoopla.co.uk/oauth2/token

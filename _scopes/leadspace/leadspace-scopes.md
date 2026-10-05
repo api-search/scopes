@@ -119,6 +119,7 @@ tags:
 - Firmographics
 - Lead Scoring
 - Company
+token_bound: false
 token_urls:
 - https://stg-sk.us.auth0.com/oauth/token
 ---

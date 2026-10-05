@@ -108,6 +108,7 @@ tags:
 - US Core
 - Bulk Data
 - Epic
+token_bound: false
 token_urls:
 - https://ssproxy.pennhealth.com/PRD-FHIR/oauth2/token
 ---

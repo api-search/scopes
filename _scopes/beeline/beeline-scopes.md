@@ -70,6 +70,7 @@ tags:
 - Mobile App
 - Consumer Electronics
 - E-Commerce
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/18978919/oauth/token
 ---

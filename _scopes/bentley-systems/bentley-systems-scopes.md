@@ -792,6 +792,7 @@ tags:
 - Geospatial
 - iTwin
 - iModel
+token_bound: false
 token_urls:
 - https://ims.bentley.com/connect/token
 ---

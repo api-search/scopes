@@ -104,6 +104,7 @@ tags:
 - Payouts
 - KYC
 - Latin America
+token_bound: false
 token_urls:
 - https://api.caliza.com/auth/realms/caliza/protocol/openid-connect/token
 ---

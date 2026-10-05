@@ -73,6 +73,7 @@ tags:
 - Consumer Products
 - Fortune 1000
 - Private Equity Owned
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/1157103680/oauth/token
 ---

@@ -68,5 +68,6 @@ tags:
 - Smart Campus
 - API Gateway
 - Wayfinding
+token_bound: false
 token_urls: []
 ---

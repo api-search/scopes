@@ -279,6 +279,7 @@ tags:
 - Customs
 - Tracking
 - Webhook
+token_bound: false
 token_urls:
 - https://accounts.boxc.com/auth/v1/token
 ---

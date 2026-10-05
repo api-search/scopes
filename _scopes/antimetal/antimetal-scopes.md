@@ -115,6 +115,7 @@ tags:
 - Root Cause Analysis
 - MCP
 - A2A
+token_bound: false
 token_urls:
 - https://antimetal.authkit.app/oauth2/token
 ---

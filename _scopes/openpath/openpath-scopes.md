@@ -534,7 +534,8 @@ api_specs:
   slug: openpath-tokens-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/openapi/openpath-tokens-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://helium.prod.openpath.com/oauth/authorize
 description: ''
 docs: https://openpath.readme.io/docs/using-the-api
 flows: []
@@ -545,6 +546,9 @@ name: Openpath Scopes
 name_suffix: OAuth Scopes
 note: The Openpath API primarily authorizes with fine-grained JWT scope strings of the form o{orgId}-<resource>:<r|w> (e.g. o123-hw:r, o123-site:w, o:w, s-o:r) issued by the Login API. In addition, an OpenID Connect / OAuth2 authorization server (issuer helium.prod.openpath.com) advertises the standard OIDC scopes below for authorization_code + PKCE flows.
 overview: 'Openpath publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Openpath API on a user''s behalf.
+
+
+  Tokens are issued from https://helium.prod.openpath.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -588,5 +592,7 @@ tags:
 - Smart Buildings
 - Avigilon Alta
 - Motorola Solutions
-token_urls: []
+token_bound: false
+token_urls:
+- https://helium.prod.openpath.com/oauth/token
 ---

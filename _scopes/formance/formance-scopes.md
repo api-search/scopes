@@ -125,6 +125,7 @@ tags:
 - Money Movement
 - Open Source
 - Fintech
+token_bound: false
 token_urls:
 - https://{organization}.{environment}.formance.cloud/api/auth/oauth/token
 ---

@@ -75,6 +75,7 @@ tags:
 - Workforce
 - Fortune 1000
 - Employee Benefits
+token_bound: false
 token_urls:
 - https://api.paychex.com/auth/oauth/v2/token
 ---

@@ -96,6 +96,7 @@ tags:
 - Chrome Extensions
 - Developer Tools
 - Web Platform
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

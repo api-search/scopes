@@ -177,5 +177,6 @@ tags:
 - CDR
 - Smart Metering
 - Energy Markets
+token_bound: false
 token_urls: []
 ---

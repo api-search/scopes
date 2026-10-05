@@ -65,6 +65,7 @@ tags:
 - Content Generation
 - Developer API
 - Design
+token_bound: false
 token_urls:
 - https://api.napkin.ai/v1/oauth/token
 ---

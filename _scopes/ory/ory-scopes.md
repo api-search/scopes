@@ -198,6 +198,7 @@ tags:
 - OpenID Connect
 - Open Source
 - Identity Federation
+token_bound: false
 token_urls:
 - https://hydra.demo.ory.sh/oauth2/token
 ---

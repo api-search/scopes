@@ -28,16 +28,28 @@ method: searched
 name: Zeroheight Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Zeroheight uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Zeroheight publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Zeroheight API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Zeroheight
 provider_slug: zeroheight
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- Measure Adoption
+- Zapier
+- Style Dictionary Exports
+scopes:
+- description: Authenticates @zeroheight/adoption-cli to monitor package versions and track component usage.
+  flows: []
+  scope: Measure Adoption
+- description: Authenticates Zapier to run automation workflows against page statuses and styleguide releases.
+  flows: []
+  scope: Zapier
+- description: Authenticates requests to private design-token export URLs.
+  flows: []
+  scope: Style Dictionary Exports
 slug: zeroheight-scopes
 source_filename: zeroheight-scopes.yml
 source_heading: OAuth Scopes
@@ -46,7 +58,7 @@ source_yaml: "specification: API Commons Scopes\nspecificationVersion: '0.1'\npr
   \ recorded\n  as unknown rather than guessed.\nmodel: use-case-scoped API keys (no OAuth scopes on the REST surface)\naccess_levels:\n  - id: read\n    description: Read-only access to the resources covered by the token's use case.\n  - id: read-write\n    description: Required for any action that changes content in zeroheight, e.g. Zapier \"Update Page Status\".\nscopes:\n  - id: measure-adoption\n    name: Measure Adoption\n    type: use-case\n    description: Authenticates @zeroheight/adoption-cli to monitor package versions and track component usage.\n    docs: https://help.zeroheight.com/hc/en-us/articles/35887094424347-Using-the-Adoption-CLI-as-part-a-CI-pipeline\n  - id: zapier\n    name: Zapier\n    type: use-case\n    description: Authenticates Zapier to run automation workflows against page statuses and styleguide releases.\n    docs: https://help.zeroheight.com/hc/en-us/articles/35887062307355-Automate-zeroheight-with-Zapier\n  - id: style-dictionary-exports\n    name: Style\
   \ Dictionary Exports\n    type: use-case\n    description: Authenticates requests to private design-token export URLs.\n    docs: https://help.zeroheight.com/hc/en-us/articles/35887016596123-Exporting-and-integrating-design-tokens-into-developer-pipelines\ngranular_scopes:\n  available: true\n  plans: Enterprise only\n  description: Specific CLI scopes selectable at token creation for precise control over access levels.\n  enumerated: false\n  note: The scope identifiers are not published anywhere zeroheight makes public; they are shown only in the Enterprise token-creation form. Not guessed here.\nmcp_scopes:\n  model: role-derived, not scope-string based\n  note: >-\n    Over MCP, capability follows the signed-in user's zeroheight role rather than a scope claim.\n    Admins/editors connected via MCP via login get the closed-beta write tools; SSO viewers, MCP via\n    link and local MCP connections are read-only.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/scopes/zeroheight-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes
 tags:
 - Design Systems
 - Design Tokens
@@ -58,5 +70,6 @@ tags:
 - Figma
 - Storybook
 - Design Operations
+token_bound: false
 token_urls: []
 ---

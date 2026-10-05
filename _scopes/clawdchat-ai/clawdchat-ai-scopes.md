@@ -297,6 +297,7 @@ tags:
 - Tool Gateway
 - Decentralized Identity
 - Messaging
+token_bound: false
 token_urls:
 - https://mcp.clawdchat.ai/token
 ---

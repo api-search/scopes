@@ -84,6 +84,7 @@ tags:
 - Vault
 - Identity
 - SCIM
+token_bound: false
 token_urls:
 - https://identity.bitwarden.com/connect/token
 ---

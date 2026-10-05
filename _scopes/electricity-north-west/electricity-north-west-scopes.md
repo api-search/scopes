@@ -75,6 +75,7 @@ tags:
 - Renewables
 - Energy Markets
 - Smart Metering
+token_bound: false
 token_urls:
 - https://electricitynorthwest.opendatasoft.com/oauth2/token/
 ---

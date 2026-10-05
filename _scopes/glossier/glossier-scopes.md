@@ -69,6 +69,7 @@ tags:
 - Universal Commerce Protocol
 - Shopify
 - MCP
+token_bound: false
 token_urls:
 - https://account.glossier.com/authentication/oauth/token
 ---

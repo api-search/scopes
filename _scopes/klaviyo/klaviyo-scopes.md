@@ -389,6 +389,7 @@ tags:
 - Automation
 - Marketing Automation
 - Email Marketing
+token_bound: false
 token_urls:
 - https://a.klaviyo.com/oauth/token
 ---

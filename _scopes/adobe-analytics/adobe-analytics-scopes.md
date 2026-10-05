@@ -184,16 +184,28 @@ method: probed
 name: Adobe Analytics Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Adobe Analytics uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Adobe Analytics publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Adobe Analytics API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Adobe Analytics
 provider_slug: adobe-analytics
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- openid
+- AdobeID
+- additional_info.projectedProductContext
+scopes:
+- description: Standard OpenID Connect scope; requests an ID token identifying the Adobe user.
+  flows: []
+  scope: openid
+- description: Adobe IMS scope granting a token bound to the user's Adobe ID. Required on every Adobe Analytics OAuth authorization.
+  flows: []
+  scope: AdobeID
+- description: Adobe IMS scope that projects the user's product entitlements (product profiles and permission items) into the token. This is what carries the Adobe Analytics company access and, for the MCP server, the "MCP Access" permission item.
+  flows: []
+  scope: additional_info.projectedProductContext
 slug: adobe-analytics-scopes
 source_filename: adobe-analytics-scopes.yml
 source_heading: OAuth Scopes
@@ -203,7 +215,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  https://aa-
   \ true\n  - name: AdobeID\n    description: >-\n      Adobe IMS scope granting a token bound to the user's Adobe ID. Required on every\n      Adobe Analytics OAuth authorization.\n    standard: false\n  - name: additional_info.projectedProductContext\n    description: >-\n      Adobe IMS scope that projects the user's product entitlements (product profiles and\n      permission items) into the token. This is what carries the Adobe Analytics company\n      access and, for the MCP server, the \"MCP Access\" permission item.\n    standard: false\nauthorization:\n  model: >-\n    Scopes are coarse. Actual authorization is enforced downstream by Adobe Analytics\n    product profiles and permission items (report suite access, component access,\n    admin rights) attached to the authenticated user, not by fine-grained OAuth scopes.\n    There is no per-endpoint or per-resource scope on the Analytics 2.0 REST API.\n  credential_types:\n    - OAuth Server-to-Server (client credentials, Adobe Developer\
   \ Console)\n    - OAuth User Authentication (authorization code + PKCE, used by the MCP server)\nnotes: >-\n  No scopes/permissions reference page enumerating per-operation scopes is published for\n  the Adobe Analytics 2.0 API — the docs describe credential setup, not a scope catalog.\n  Recording that absence honestly rather than inventing per-operation scopes.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/scopes/adobe-analytics-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes
 tags:
 - Adobe
 - Analytics
@@ -212,5 +224,6 @@ tags:
 - Digital Marketing
 - Marketing
 - Web Analytics
+token_bound: false
 token_urls: []
 ---

@@ -63,6 +63,7 @@ tags:
 - Grooming
 - Agentic Commerce
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/57105744010/oauth/token
 ---

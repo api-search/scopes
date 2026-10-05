@@ -168,6 +168,7 @@ tags:
 - Multi-Carrier
 - Ratings
 - Webhook
+token_bound: false
 token_urls:
 - /oauth/token/
 ---

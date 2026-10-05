@@ -75,6 +75,8 @@ tags:
 - Model Training
 - Developer Tools
 - Reinforcement Learning
+- Foundation Models
+token_bound: false
 token_urls:
 - https://auth.thinkingmachines.ai/oauth2/token
 ---

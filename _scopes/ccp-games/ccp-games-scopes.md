@@ -598,6 +598,7 @@ tags:
 - OpenID Connect
 - Player Data
 - Virtual Economy
+token_bound: false
 token_urls:
 - https://login.eveonline.com/v2/oauth/token
 ---

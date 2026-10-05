@@ -281,6 +281,7 @@ tags:
 - Financial Management
 - HCM
 - Supply Chain Management
+token_bound: false
 token_urls:
 - https://{hostname}:{port}/psft/oauth/token
 ---

@@ -59,6 +59,7 @@ tags:
 - Egypt
 - Mobile
 - Consumer Finance
+token_bound: false
 token_urls:
 - https://moneyfellows.com/umbraco/delivery/api/v1/security/member/token
 ---

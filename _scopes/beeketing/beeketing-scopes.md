@@ -310,6 +310,7 @@ tags:
 - Webhook
 - Themes
 - Payments
+token_bound: false
 token_urls:
 - https://{shop}.onshopbase.com/admin/oauth/access_token.json
 ---

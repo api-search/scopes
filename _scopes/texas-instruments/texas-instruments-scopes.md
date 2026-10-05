@@ -86,6 +86,7 @@ tags:
 - Semiconductors
 - Supply Chain
 - Fortune 500
+token_bound: false
 token_urls:
 - https://transact.ti.com/v1/oauth/accesstoken
 ---

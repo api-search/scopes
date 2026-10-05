@@ -70,6 +70,7 @@ tags:
 - Healthcare
 - Life Sciences
 - MCP
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/901bf24d-83de-4486-804c-8c263fdb31f4/oauth2/v2.0/token
 ---

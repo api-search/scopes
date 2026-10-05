@@ -621,6 +621,8 @@ tags:
 - Team
 - Terminal
 - Webhook
+- Payment Processing
+token_bound: false
 token_urls:
 - https://connect.squareup.com/oauth2/token
 ---

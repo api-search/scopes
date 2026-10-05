@@ -68,6 +68,7 @@ tags:
 - E-Commerce
 - RSVP
 - Design
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/53345157285/oauth/token
 ---

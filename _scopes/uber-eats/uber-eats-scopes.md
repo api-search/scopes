@@ -106,6 +106,7 @@ tags:
 - Couriers
 - Authentication
 - Delivery
+token_bound: false
 token_urls:
 - https://auth.uber.com/oauth/v2/token
 ---

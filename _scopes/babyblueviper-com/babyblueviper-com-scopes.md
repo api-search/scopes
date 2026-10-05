@@ -208,6 +208,7 @@ tags:
 - Trading
 - Cryptographic Proofs
 - Agent Marketplace
+token_bound: false
 token_urls:
 - https://api.babyblueviper.com/oauth/token
 ---

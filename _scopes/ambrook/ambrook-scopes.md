@@ -72,6 +72,7 @@ tags:
 - Payments
 - Farm Management
 - MCP
+token_bound: false
 token_urls:
 - https://ambrook.com/api/v1/oauth/mcp/token
 ---

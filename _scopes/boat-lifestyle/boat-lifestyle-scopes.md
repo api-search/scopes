@@ -72,6 +72,7 @@ tags:
 - MCP
 - Shopify
 - India
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/5789384802/oauth/token
 ---

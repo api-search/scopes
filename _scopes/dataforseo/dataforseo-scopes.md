@@ -153,6 +153,7 @@ tags:
 - Business Data
 - AI Optimization
 - Social Media
+token_bound: false
 token_urls:
 - https://data.dataforseo.com/oauth/token
 ---

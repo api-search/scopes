@@ -53,12 +53,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsof
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/scopes/microsoft-azure-migrate-scopes.yml
 summary_line: 1 scope · implicit
 tags:
-- Assessment
 - Cloud Migration
 - Database Migration
 - Discovery
 - Migration
 - Replication
 - Server Migration
+token_bound: false
 token_urls: []
 ---

@@ -66,6 +66,7 @@ tags:
 - Media
 - Publishing
 - Statistics
+token_bound: false
 token_urls:
 - https://api.blubrry.com/oauth2/token
 ---

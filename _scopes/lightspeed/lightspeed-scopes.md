@@ -786,6 +786,7 @@ tags:
 - E-Commerce
 - Omnichannel
 - Canada
+token_bound: false
 token_urls:
 - /oauth/token
 - https://{domain_prefix}.retail.lightspeed.app/api/1.0/token

@@ -68,6 +68,7 @@ tags:
 - Special Education
 - Billing
 - Authentication
+token_bound: false
 token_urls:
 - https://login.centralreach.com/connect/token
 ---

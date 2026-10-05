@@ -97,6 +97,7 @@ tags:
 - Consumer Banking
 - Wealth Management
 - Fortune 500
+token_bound: false
 token_urls:
 - https://auth.regions.com/oauth/token
 ---

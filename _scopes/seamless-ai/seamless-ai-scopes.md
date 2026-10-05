@@ -83,6 +83,7 @@ tags:
 - Agents
 - Sales Automation
 - A2A
+token_bound: false
 token_urls:
 - https://api.seamless.ai/api/client/v1/oauth/accessToken
 ---

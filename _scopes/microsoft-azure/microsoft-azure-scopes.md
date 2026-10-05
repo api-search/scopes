@@ -13187,6 +13187,7 @@ tags:
 - Infrastructure-as-a-Service
 - Platform-as-a-Service
 - T1
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/token
 - https://login.microsoftonline.com/common/oauth2/v2.0/token

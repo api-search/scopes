@@ -211,6 +211,7 @@ tags:
 - Artificial Intelligence
 - Unstructured Data
 - Infrastructure
+token_bound: false
 token_urls:
 - https://supportportal.hammerspace.com/services/oauth2/token
 ---

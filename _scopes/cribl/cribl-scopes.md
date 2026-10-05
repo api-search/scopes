@@ -273,6 +273,7 @@ tags:
 - Security Data
 - Stream Processing
 - Telemetry
+token_bound: false
 token_urls:
 - https://login.cribl.cloud/oauth/token
 ---

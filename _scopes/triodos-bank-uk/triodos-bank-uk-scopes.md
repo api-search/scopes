@@ -131,5 +131,6 @@ tags:
 - Ethical Banking
 - Sustainable Finance
 - Specialist Lender
+token_bound: false
 token_urls: []
 ---

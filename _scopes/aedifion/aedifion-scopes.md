@@ -205,6 +205,7 @@ tags:
 - PropTech
 - Germany
 - Real-Time
+token_bound: false
 token_urls:
 - https://auth.aedifion.io/realms/aedifion/protocol/openid-connect/token
 ---

@@ -81,6 +81,8 @@ tags:
 - Property and Casualty
 - Absence Management
 - Enterprise Software
+- Invoicing
+token_bound: false
 token_urls:
 - https://auth.majesco.example.com/oauth2/token
 ---

@@ -9,16 +9,48 @@ method: probed
 name: Primerica Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Primerica uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Primerica publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Primerica API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Primerica
 provider_slug: primerica
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 8
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+- client-portal:write
+- cm.readonly
+- device_sso
+- openid_client_registration
+scopes:
+- description: Requests an ID token; required for OIDC.
+  flows: []
+  scope: openid
+- description: Standard OIDC profile claims.
+  flows: []
+  scope: profile
+- description: Standard OIDC email and email_verified claims.
+  flows: []
+  scope: email
+- description: Requests a refresh token.
+  flows: []
+  scope: offline_access
+- description: Primerica-defined application scope requested by the MyPrimerica SPA. Write access to the client portal surface. No published definition — recorded verbatim from the authorize URL Primerica publishes at https://www.primerica.com/public/primerica-client-portals.html
+  flows: []
+  scope: client-portal:write
+- description: Primerica-defined application scope requested by the MyPrimerica SPA alongside the `cm` BFF endpoint (https://gtw.primericaonline.com/prod/exp/pc2/bff). Read-only. No published definition.
+  flows: []
+  scope: cm.readonly
+- description: Okta device single sign-on.
+  flows: []
+  scope: device_sso
+- description: Dynamic client registration scope advertised by the gateway OIDC provider.
+  flows: []
+  scope: openid_client_registration
 slug: primerica-scopes
 source_filename: primerica-scopes.yml
 source_heading: OAuth Scopes
@@ -29,14 +61,14 @@ source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: >-\n  https://log
   \ the gateway OIDC provider.\nplatform_default_scopes:\n  note: >-\n    The client-portal authorization server also advertises the full Okta `okta.myAccount.*` scope family\n    (16 scopes) and the org server advertises address, phone and groups. These are Okta platform\n    defaults, not Primerica product scopes, and are not counted above.\n  okta_myaccount:\n    - okta.myAccount.read\n    - okta.myAccount.manage\n    - okta.myAccount.profile.read\n    - okta.myAccount.profile.manage\n    - okta.myAccount.email.read\n    - okta.myAccount.email.manage\n    - okta.myAccount.phone.read\n    - okta.myAccount.phone.manage\n    - okta.myAccount.authenticators.read\n    - okta.myAccount.authenticators.manage\n    - okta.myAccount.appAuthenticator.read\n    - okta.myAccount.appAuthenticator.manage\n    - okta.myAccount.appAuthenticator.maintenance.read\n    - okta.myAccount.appAuthenticator.maintenance.manage\n    - okta.myAccount.oktaApplications.read\n    - okta.myAccount.organization.read\n\
   maintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primerica/refs/heads/main/scopes/primerica-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 8 scopes
 tags:
 - Insurance
 - Financial Services
 - Life Insurance
 - Identity
 - Authentication
-- OpenID Connect
 - API Gateway
+token_bound: false
 token_urls: []
 ---

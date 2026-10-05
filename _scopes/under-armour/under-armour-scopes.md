@@ -92,6 +92,7 @@ tags:
 - Connected Fitness
 - Sports
 - Fortune 1000
+token_bound: false
 token_urls:
 - https://api.ua.com/v7.1/oauth2/access_token/
 ---

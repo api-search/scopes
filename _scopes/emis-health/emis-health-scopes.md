@@ -149,6 +149,7 @@ tags:
 - NHS
 - Clinical Data
 - Electronic Patient Record
+token_bound: false
 token_urls:
 - https://identity.stg.emis-x.uk/b205162c-c95a-4639-8076-bb1fcb152d2b/b2c_1a_clientcredentials/oauth2/token
 ---

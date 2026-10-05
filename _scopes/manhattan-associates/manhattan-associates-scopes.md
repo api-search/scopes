@@ -109,6 +109,7 @@ tags:
 - Platform
 - Software-as-a-Service
 - Transportation
+token_bound: false
 token_urls:
 - https://auth.developer.manh.com/oauth2/token
 ---

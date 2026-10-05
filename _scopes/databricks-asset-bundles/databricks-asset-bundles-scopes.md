@@ -9,16 +9,52 @@ method: probed
 name: Databricks Asset Bundles Scopes
 name_suffix: OAuth Scopes
 note: The baseline scope list is read verbatim from the RFC 8414 authorization server metadata document Databricks serves anonymously on the account console host — not from prose. The managed-MCP scopes below are read from the managed MCP documentation and are not present in scopes_supported.
-overview: 'Databricks Asset Bundles uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Databricks Asset Bundles publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Databricks Asset Bundles API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Databricks Asset Bundles
 provider_slug: databricks-asset-bundles
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 9
+scope_names:
+- all-apis
+- sql
+- openid
+- profile
+- email
+- offline_access
+- genie
+- ai-search
+- unity-catalog
+scopes:
+- description: Full access to every Databricks REST API the principal is entitled to. This is the scope the Databricks CLI (and therefore every `databricks bundle` command) requests for OAuth U2M and M2M authentication.
+  flows: []
+  scope: all-apis
+- description: Access to Databricks SQL warehouses and query APIs.
+  flows: []
+  scope: sql
+- description: OIDC — request an ID token.
+  flows: []
+  scope: openid
+- description: OIDC — basic profile claims (name, family_name, given_name, preferred_username).
+  flows: []
+  scope: profile
+- description: OIDC — email claim.
+  flows: []
+  scope: email
+- description: Issue a refresh token so the CLI can renew without re-prompting.
+  flows: []
+  scope: offline_access
+- description: Access the Genie One / Genie Agent managed MCP servers.
+  flows: []
+  scope: genie
+- description: Access the AI Search (vector search index) managed MCP server.
+  flows: []
+  scope: ai-search
+- description: Access the Unity Catalog functions managed MCP server.
+  flows: []
+  scope: unity-catalog
 slug: databricks-asset-bundles-scopes
 source_filename: databricks-asset-bundles-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +63,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: https://accounts.
   \ >-\n      Full access to every Databricks REST API the principal is entitled to.\n      This is the scope the Databricks CLI (and therefore every `databricks\n      bundle` command) requests for OAuth U2M and M2M authentication.\n    source: scopes_supported\n  - name: sql\n    description: Access to Databricks SQL warehouses and query APIs.\n    source: scopes_supported\n  - name: openid\n    description: OIDC — request an ID token.\n    source: scopes_supported\n  - name: profile\n    description: OIDC — basic profile claims (name, family_name, given_name, preferred_username).\n    source: scopes_supported\n  - name: email\n    description: OIDC — email claim.\n    source: scopes_supported\n  - name: offline_access\n    description: Issue a refresh token so the CLI can renew without re-prompting.\n    source: scopes_supported\n  - name: genie\n    description: Access the Genie One / Genie Agent managed MCP servers.\n    source: managed-mcp-docs\n    docs: https://docs.databricks.com/aws/en/generative-ai/mcp/managed-mcp\n\
   \  - name: ai-search\n    description: Access the AI Search (vector search index) managed MCP server.\n    source: managed-mcp-docs\n    docs: https://docs.databricks.com/aws/en/generative-ai/mcp/managed-mcp\n  - name: unity-catalog\n    description: Access the Unity Catalog functions managed MCP server.\n    source: managed-mcp-docs\n    docs: https://docs.databricks.com/aws/en/generative-ai/mcp/managed-mcp\nscope_count: 9\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/databricks-asset-bundles/refs/heads/main/scopes/databricks-asset-bundles-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 9 scopes
 tags:
 - CI/CD
 - Data Engineering
@@ -39,5 +75,6 @@ tags:
 - MLOps
 - Pipelines
 - Workflows
+token_bound: false
 token_urls: []
 ---

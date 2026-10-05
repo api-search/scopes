@@ -290,6 +290,7 @@ tags:
 - SAML
 - Open Source
 - Identity Federation
+token_bound: false
 token_urls:
 - /oidc/token
 ---

@@ -175,6 +175,7 @@ tags:
 - Aviation
 - Maritime
 - Enterprise
+token_bound: false
 token_urls:
 - https://starlink.com/api/auth/connect/token
 ---

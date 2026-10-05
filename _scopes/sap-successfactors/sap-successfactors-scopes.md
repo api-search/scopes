@@ -92,6 +92,7 @@ tags:
 - Payroll
 - Enterprise
 - SAP
+token_bound: false
 token_urls:
 - https://api.successfactors.com/oauth/token
 ---

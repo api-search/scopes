@@ -78,6 +78,7 @@ tags:
 - Food and Beverage
 - Consumer Packaged Goods
 - Shopify
+token_bound: false
 token_urls:
 - https://account.davidprotein.com/authentication/oauth/token
 ---

@@ -244,6 +244,7 @@ tags:
 - Authentication
 - Steam
 - Utility
+token_bound: false
 token_urls:
 - https://api.coned.com/gbc/espi/1_1/oauth/Token
 ---

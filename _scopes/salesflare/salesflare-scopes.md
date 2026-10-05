@@ -190,6 +190,7 @@ tags:
 - Email
 - Automation
 - Lead Generation
+token_bound: false
 token_urls:
 - https://api.salesflare.com/oidc/token
 ---

@@ -116,6 +116,7 @@ tags:
 - Maritime
 - Oil and Gas
 - Manufacturing
+token_bound: false
 token_urls:
 - https://arundo.eu.auth0.com/oauth/token
 ---

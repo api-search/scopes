@@ -114,5 +114,6 @@ tags:
 - MCP
 - Agent Tools
 - Workflow Automation
+token_bound: false
 token_urls: []
 ---

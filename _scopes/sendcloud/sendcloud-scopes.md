@@ -328,6 +328,7 @@ tags:
 - Tracking
 - Europe
 - A2A
+token_bound: false
 token_urls:
 - https://account.sendcloud.com/oauth2/token/
 ---

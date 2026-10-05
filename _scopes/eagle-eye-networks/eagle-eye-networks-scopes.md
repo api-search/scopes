@@ -75,6 +75,7 @@ tags:
 - Streaming
 - Webhook
 - Authentication
+token_bound: false
 token_urls:
 - https://auth.eagleeyenetworks.com/oauth2/token
 ---

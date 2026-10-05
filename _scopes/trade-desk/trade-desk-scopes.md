@@ -480,6 +480,7 @@ tags:
 - Open Internet
 - Real-Time Bidding
 - Open Measurement
+token_bound: false
 token_urls:
 - https://auth.thetradedesk.com/connect/token
 ---

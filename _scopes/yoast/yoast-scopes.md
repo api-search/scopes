@@ -68,7 +68,7 @@ method: probed
 name: Yoast Scopes
 name_suffix: OAuth Scopes
 note: 'derive-oauth-scopes.py found no oauth2 securityScheme in any OpenAPI in this repo, and that is correct — the MyYoast Provisioning API is Basic Auth. The scopes below are NOT derived from a spec; they were read live from the MyYoast OpenID Connect discovery document at https://my.yoast.com/.well-known/openid-configuration (HTTP 200, application/json). They are the standard OIDC scope set: MyYoast issues identity tokens for the Yoast SEO plugin''s site/user authentication, and publishes no product-specific scopes (nothing like seo:read or subscriptions:write). An integrator cannot request granular Yoast permissions, because none are advertised.'
-overview: 'Yoast uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Yoast publishes 6 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Yoast API on a user''s behalf.
 
 
   Tokens are issued from https://my.yoast.com/api/oauth/token.
@@ -90,9 +90,33 @@ schemes:
   name: MyYoast OpenID Connect
   source: well-known/yoast-openid-configuration.json
   type: openIdConnect
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- openid
+- profile
+- email
+- phone
+- address
+- offline_access
+scopes:
+- description: Standard OIDC scope; requests an ID token identifying the subject.
+  flows: []
+  scope: openid
+- description: Standard OIDC scope; basic profile claims.
+  flows: []
+  scope: profile
+- description: Standard OIDC scope; email claims.
+  flows: []
+  scope: email
+- description: Standard OIDC scope; phone claims.
+  flows: []
+  scope: phone
+- description: Standard OIDC scope; address claims.
+  flows: []
+  scope: address
+- description: Standard OIDC scope; requests a refresh token for long-lived access.
+  flows: []
+  scope: offline_access
 slug: yoast-scopes
 source_filename: yoast-scopes.yml
 source_heading: OAuth Scopes
@@ -101,7 +125,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://my.yoast.
   \    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://my.yoast.com/api/oauth/auth\n        tokenUrl: https://my.yoast.com/api/oauth/token\n        pkce: S256\n      - flow: clientCredentials\n        tokenUrl: https://my.yoast.com/api/oauth/token\n      - flow: refreshToken\n        tokenUrl: https://my.yoast.com/api/oauth/token\nscopes:\n  - name: openid\n    description: Standard OIDC scope; requests an ID token identifying the subject.\n    standard: true\n  - name: profile\n    description: Standard OIDC scope; basic profile claims.\n    standard: true\n  - name: email\n    description: Standard OIDC scope; email claims.\n    standard: true\n  - name: phone\n    description: Standard OIDC scope; phone claims.\n    standard: true\n  - name: address\n    description: Standard OIDC scope; address claims.\n    standard: true\n  - name: offline_access\n    description: Standard OIDC scope; requests a refresh token for long-lived access.\n    standard: true\nclaims_supported:\n\
   \  - sub\n  - sid\n  - auth_time\n  - iss\nscope_count: 6\nproduct_specific_scope_count: 0\ngaps:\n  - >-\n    Every advertised scope is a standard OIDC scope. MyYoast publishes no\n    product-permission scopes, so an authorized client's actual authority over Yoast\n    resources is not expressible or inspectable through the scope model.\nx-evidence:\n  fetched: '2026-08-13'\n  url: https://my.yoast.com/.well-known/openid-configuration\n  http_status: 200\n  content_type: application/json; charset=utf-8\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/scopes/yoast-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - SEO
 - WordPress
@@ -109,10 +133,10 @@ tags:
 - Schema
 - Metadata
 - Structured Data
-- Headless CMS
 - Content Analysis
 - Agent Readiness
 - Plugins
+token_bound: false
 token_urls:
 - https://my.yoast.com/api/oauth/token
 ---

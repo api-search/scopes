@@ -39,5 +39,6 @@ tags:
 - Energy Data
 - Transmission
 - Distribution
+token_bound: false
 token_urls: []
 ---

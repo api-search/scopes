@@ -173,6 +173,7 @@ tags:
 - Personalization
 - Sales Intelligence
 - Technographics
+token_bound: false
 token_urls:
 - https://authentication.demandbase.com/oauth2/aus7fu7m8kDj90Z532p7/v1/token
 ---

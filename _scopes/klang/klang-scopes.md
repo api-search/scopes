@@ -76,8 +76,8 @@ tags:
 - Simulation
 - Entertainment
 - Identity
-- OpenID Connect
 - Berlin
+token_bound: false
 token_urls:
 - https://login.seed.game/oauth2/token
 ---

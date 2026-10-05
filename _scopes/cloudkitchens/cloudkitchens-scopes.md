@@ -385,6 +385,7 @@ tags:
 - Reporting
 - Loyalty
 - Real Estate
+token_bound: false
 token_urls:
 - /v1/auth/token
 ---

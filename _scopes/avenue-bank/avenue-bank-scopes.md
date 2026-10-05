@@ -112,6 +112,7 @@ tags:
 - Bank Guarantees
 - Australia
 - ADI
+token_bound: false
 token_urls:
 - https://consumerdatastandardsaustralia.github.io/standards/#security-profile
 ---

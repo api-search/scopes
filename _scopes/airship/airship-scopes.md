@@ -181,6 +181,7 @@ tags:
 - Email
 - Mobile
 - CDP
+token_bound: false
 token_urls:
 - https://oauth2.asnapieu.com/token
 ---

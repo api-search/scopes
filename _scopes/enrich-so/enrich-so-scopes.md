@@ -118,16 +118,20 @@ method: probed
 name: Enrich So Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Enrich uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Enrich publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Enrich API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Enrich
 provider_slug: enrich-so
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp:tools
+scopes:
+- description: The only scope Enrich advertises. Grants an MCP client access to the server's tools. Enrich publishes no description for it and no finer-grained scopes.
+  flows: []
+  scope: mcp:tools
 slug: enrich-so-scopes
 source_filename: enrich-so-scopes.yml
 source_heading: OAuth Scopes
@@ -136,7 +140,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.enric
   \ https://mcp.enrich.so/authorize\n  token_endpoint: https://mcp.enrich.so/token\n  revocation_endpoint: https://mcp.enrich.so/revoke\n  registration_endpoint: https://mcp.enrich.so/register\n  grant_types:\n  - authorization_code\n  - refresh_token\n  pkce: S256\n  applies_to: MCP (https://mcp.enrich.so/mcp)\nscopes:\n- name: mcp:tools\n  server: https://mcp.enrich.so/\n  description: >-\n    The only scope Enrich advertises. Grants an MCP client access to the server's tools.\n    Enrich publishes no description for it and no finer-grained scopes.\n  documented: false\n  granularity: coarse\nanalysis:\n  scope_count: 1\n  read_write_split: false\n  per_product_scopes: false\n  note: >-\n    One scope for everything is all-or-nothing consent. A user authorizing an agent\n    against Enrich's MCP server cannot grant email validation (1 credit per call) without\n    also granting phone lookup (500 credits per call) and lead reveal (up to 575 credits\n    per lead). Given the API is metered\
   \ against a prepaid balance, coarse scope\n    granularity is a direct financial exposure, not just a privacy one.\nrest_api:\n  oauth: false\n  scopes: false\n  permission_model: >-\n    API keys are scoped to an organization and carry \"member-level permissions\"\n    (https://doc.enrich.so/authentication-1951026m0). Enrich does not publish what those\n    permissions are, does not offer per-key scoping, and the Teams endpoints note that\n    invitation management requires an admin or owner role — so a role model exists inside\n    the product but is not expressible on an API key.\n  recommendation: >-\n    Issue a separate key per workload so credit consumption maps to a cost centre; that\n    is the only isolation mechanism available.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/scopes/enrich-so-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Data Enrichment
 - Contact Discovery
@@ -151,5 +155,6 @@ tags:
 - LinkedIn
 - Reference Data
 - MCP
+token_bound: false
 token_urls: []
 ---

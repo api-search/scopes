@@ -74,6 +74,7 @@ tags:
 - Cryptography
 - Secret Sharing
 - Key Management
+token_bound: false
 token_urls:
 - https://vault12.com/core/users/oauth2/token
 ---

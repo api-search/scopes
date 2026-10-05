@@ -188,6 +188,7 @@ tags:
 - Inventory
 - Webhook
 - Order Management
+token_bound: false
 token_urls:
 - https://auth.optiturn.com/oauth/token
 ---

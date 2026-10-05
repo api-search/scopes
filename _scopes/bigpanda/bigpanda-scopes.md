@@ -184,16 +184,20 @@ method: probed
 name: Bigpanda Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'BigPanda uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'BigPanda publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the BigPanda API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: BigPanda
 provider_slug: bigpanda
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp
+scopes:
+- description: The single scope advertised by BigPanda's WordPress MCP authorization server. Declared in scopes_supported of both /.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource.
+  flows: []
+  scope: mcp
 slug: bigpanda-scopes
 source_filename: bigpanda-scopes.yml
 source_heading: OAuth Scopes
@@ -202,7 +206,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: https://www.bigpa
   \ well-known/bigpanda-oauth-authorization-server.json\n    http_status: 200\n    checked: '2026-09-04'\noauth_metadata:\n  issuer: https://www.bigpanda.io\n  authorization_endpoint: https://www.bigpanda.io/oauth/authorize\n  token_endpoint: https://www.bigpanda.io/oauth/token\n  revocation_endpoint: https://www.bigpanda.io/oauth/revoke\n  response_types_supported: [code]\n  grant_types_supported: [authorization_code, refresh_token]\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [none]\n  client_id_metadata_document_supported: true\nproduct_api_authorization:\n  mechanism: role-permissions\n  note: >-\n    A User API Key inherits the permissions of the user's role; a 403 means \"the token is valid but the\n    user's role lacks the permission\". The permission surface is itself an API — see\n    openapi/bigpanda-roles-permissions-api-openapi.yml (create-a-role, update-a-role, deleteRoleUsers,\n    getAllPermissions) and /resources/v2.1/users/{user_id}/permissions\
   \ in\n    openapi/bigpanda-users-api-openapi.yml — so an administrator can read and set the effective scope of\n    a key programmatically, but the token itself carries no scope claim.\n  org_token:\n    note: >-\n      The Org Token is organization-wide and unscoped. BigPanda restricts it to the inbound Alerts API\n      and a small number of legacy endpoints and tells new integrations to use a User API Key instead.\n  docs:\n    - https://api-docs.bigpanda.io/api-credentials\n    - https://docs.bigpanda.io/en/roles-management.html\n    - https://docs.bigpanda.io/en/api-key-management.html\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/scopes/bigpanda-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Incidents
 - Monitoring
@@ -214,5 +218,6 @@ tags:
 - Observability
 - Agents
 - MCP
+token_bound: false
 token_urls: []
 ---

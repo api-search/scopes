@@ -75,6 +75,7 @@ tags:
 - Hardware
 - Fulfillment
 - E-Commerce
+token_bound: false
 token_urls:
 - https://api.shapeways.com/oauth2/token
 ---

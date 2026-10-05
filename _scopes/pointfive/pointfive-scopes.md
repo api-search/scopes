@@ -56,6 +56,7 @@ tags:
 - Kubernetes
 - AI Infrastructure
 - MCP
+token_bound: false
 token_urls:
 - https://mcp.pointfive.co/token
 ---

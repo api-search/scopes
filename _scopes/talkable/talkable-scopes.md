@@ -224,6 +224,7 @@ tags:
 - Webhook
 - MCP
 - Loyalty & Incentives
+token_bound: false
 token_urls:
 - https://www.talkable.com/oauth/token
 ---

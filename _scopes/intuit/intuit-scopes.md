@@ -83,6 +83,7 @@ tags:
 - Tax Preparation
 - Time Tracking
 - Fortune 1000
+token_bound: false
 token_urls:
 - https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer
 ---

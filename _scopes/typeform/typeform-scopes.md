@@ -100,6 +100,7 @@ tags:
 - Software-as-a-Service
 - Webhook
 - Embed
+token_bound: false
 token_urls:
 - https://api.typeform.com/oauth/token
 ---

@@ -72,6 +72,7 @@ tags:
 - Media Buying
 - Marketing
 - MCP
+token_bound: false
 token_urls:
 - https://www.adquick.com/mcp/oauth/token
 ---

@@ -69,6 +69,7 @@ tags:
 - GraphQL
 - MCP
 - Agent-Native
+token_bound: false
 token_urls:
 - https://mcp.api.harmonic.ai/token
 ---

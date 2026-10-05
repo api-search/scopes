@@ -387,6 +387,7 @@ tags:
 - Video
 - Voice
 - Real-Time
+token_bound: false
 token_urls:
 - https://discord.com/api/oauth2/token
 - https://discord.com/api/v10/oauth2/token

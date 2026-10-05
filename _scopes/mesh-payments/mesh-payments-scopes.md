@@ -62,6 +62,7 @@ tags:
 - Fintech
 - Card Issuing
 - Accounting Automation
+token_bound: false
 token_urls:
 - https://api.meshpayments.com/as/token
 ---

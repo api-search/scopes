@@ -54,6 +54,7 @@ tags:
 - Meeting Automation
 - Appointments
 - Badge Scanning
+token_bound: false
 token_urls:
 - https://<companyname>.jifflenow.com/api/oauth/token
 ---

@@ -121,6 +121,7 @@ tags:
 - Imagery
 - Road Data
 - Machine Learning
+token_bound: false
 token_urls:
 - https://nexar.okta.com/oauth2/aus3qkg89t55hJZsT4x7/v1/token
 ---

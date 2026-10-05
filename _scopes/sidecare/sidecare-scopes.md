@@ -69,7 +69,7 @@ tags:
 - Human Resources
 - HRIS
 - France
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://www.sidecare.com/accounts/oauth/tokens
 ---

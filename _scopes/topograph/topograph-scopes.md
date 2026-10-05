@@ -119,5 +119,6 @@ tags:
 - AML
 - Due Diligence
 - Fintech
+token_bound: false
 token_urls: []
 ---

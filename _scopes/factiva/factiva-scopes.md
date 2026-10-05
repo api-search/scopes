@@ -176,6 +176,7 @@ tags:
 - News API
 - Research
 - Taxonomy
+token_bound: false
 token_urls:
 - https://accounts.dowjones.com/oauth2/v1/token
 - https://sso.accounts.dowjones.com/oauth/token

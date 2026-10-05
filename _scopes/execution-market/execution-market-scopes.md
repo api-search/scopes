@@ -335,6 +335,7 @@ tags:
 - Blockchain
 - DAO
 - Agent-Native
+token_bound: false
 token_urls:
 - https://auth.execution.market/oauth/token
 ---

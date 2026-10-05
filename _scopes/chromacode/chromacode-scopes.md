@@ -111,6 +111,7 @@ tags:
 - Bioinformatics
 - Clinical Diagnostics
 - Cloud Software
+token_bound: false
 token_urls:
 - https://openid.chromacodecloud.com/auth/realms/apps/protocol/openid-connect/token
 - https://openid.chromacodecloud.com/auth/realms/cloud/protocol/openid-connect/token

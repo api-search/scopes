@@ -449,6 +449,7 @@ tags:
 - Tag Management
 - Conversion Optimization
 - MCP
+token_bound: false
 token_urls:
 - https://{matomo_host}/index.php?module=OAuth2&action=token
 ---

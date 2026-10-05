@@ -155,6 +155,7 @@ tags:
 - Productivity
 - Workflow Automation
 - Task Management
+token_bound: false
 token_urls:
 - https://www.wrike.com/oauth2/token
 ---

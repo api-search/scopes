@@ -107,6 +107,7 @@ tags:
 - Agent-Native
 - Analytics
 - Conversation Intelligence
+token_bound: false
 token_urls:
 - https://qmfmxcidbawbvkcstvio.supabase.co/auth/v1/oauth/token
 ---

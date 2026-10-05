@@ -89,6 +89,7 @@ tags:
 - Product Management
 - Surveys
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://id.usersnap.com/auth/oauth2/token
 ---

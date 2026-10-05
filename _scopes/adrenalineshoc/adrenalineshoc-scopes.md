@@ -72,6 +72,7 @@ tags:
 - Agentic Commerce
 - Shopify
 - Sports Nutrition
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/7133691957/oauth/token
 ---

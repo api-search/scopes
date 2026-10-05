@@ -2055,6 +2055,7 @@ tags:
 - SOAP
 - Ticketing
 - Webhook
+token_bound: false
 token_urls:
 - https://api-platform.cvent.com/ea/oauth2/token
 ---

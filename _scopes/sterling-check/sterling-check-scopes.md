@@ -86,6 +86,7 @@ tags:
 - Human Resources
 - Compliance
 - Gated API
+token_bound: false
 token_urls:
 - https://auth.sterlingcheck.app/oauth/token
 ---

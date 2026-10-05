@@ -88,6 +88,7 @@ tags:
 - Mailing
 - Shipping
 - Fortune 1000
+token_bound: false
 token_urls:
 - https://shipping-api.pitneybowes.com/oauth/token
 ---

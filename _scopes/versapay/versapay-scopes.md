@@ -236,6 +236,7 @@ tags:
 - E-Commerce
 - Card Present
 - Webhook
+token_bound: false
 token_urls:
 - https://secure.versapay.com/oauth/token
 ---

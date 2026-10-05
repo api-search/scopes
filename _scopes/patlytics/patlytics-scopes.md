@@ -60,6 +60,7 @@ tags:
 - MCP
 - Agents
 - Research
+token_bound: false
 token_urls:
 - https://mcp.patlytics.ai/token
 ---

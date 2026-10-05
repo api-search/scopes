@@ -2,7 +2,9 @@
 authorization_urls: []
 description: ''
 docs: https://partner-api-docs.myalex.com/
-flows: []
+flows:
+- clientCredentials
+- authorizationCode
 kind: oauth-scopes
 layout: scope
 method: searched
@@ -10,6 +12,9 @@ name: Jellyvision Scopes
 name_suffix: OAuth Scopes
 note: Jellyvision does not publish a scope/permission reference page. The single Partner Integration API scope below is read from the decoded JWT access-token example printed in the authentication section of the public API reference. The second scope is read from the RFC 9728 protected-resource metadata served at https://www.jellyvision.com/.well-known/oauth-protected-resource and applies to the MCP server on the marketing site, not to the Partner Integration API.
 overview: 'Jellyvision uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+
+
+  Tokens are issued from https://login.myalex.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -39,5 +44,7 @@ tags:
 - HR Technology
 - Insurance
 - Employee Engagement
-token_urls: []
+token_bound: false
+token_urls:
+- https://login.myalex.com/oauth/token
 ---

@@ -885,6 +885,7 @@ tags:
 - Retail
 - Personalization
 - Campaign Management
+token_bound: false
 token_urls:
 - https://api.emarsys.net/api/v3/auth/token
 ---

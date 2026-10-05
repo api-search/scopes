@@ -9,16 +9,32 @@ method: probed
 name: Apollo Global Management Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Apollo Global Management uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Apollo Global Management publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Apollo Global Management API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Apollo Global Management
 provider_slug: apollo-global-management
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+scopes:
+- description: Standard OpenID Connect scope requesting an ID token. Advertised by both the authorization server and the MCP protected resource.
+  flows: []
+  scope: openid
+- description: Standard OpenID Connect scope for basic profile claims. Advertised by both the authorization server and the MCP protected resource.
+  flows: []
+  scope: profile
+- description: Standard OpenID Connect scope for the email and email_verified claims. Advertised by both the authorization server and the MCP protected resource.
+  flows: []
+  scope: email
+- description: Standard scope requesting a refresh token. Advertised by the authorization server only; the MCP protected-resource document does not list it.
+  flows: []
+  scope: offline_access
 slug: apollo-global-management-scopes
 source_filename: apollo-global-management-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +43,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: >-\n  https://api
   \ server and the MCP protected resource.\n    standard: openid-connect-core\n    resources:\n      - https://api.apollo.com/mcp\n  - name: profile\n    description: >-\n      Standard OpenID Connect scope for basic profile claims. Advertised by both the\n      authorization server and the MCP protected resource.\n    standard: openid-connect-core\n    resources:\n      - https://api.apollo.com/mcp\n  - name: email\n    description: >-\n      Standard OpenID Connect scope for the email and email_verified claims. Advertised by\n      both the authorization server and the MCP protected resource.\n    standard: openid-connect-core\n    resources:\n      - https://api.apollo.com/mcp\n  - name: offline_access\n    description: >-\n      Standard scope requesting a refresh token. Advertised by the authorization server\n      only; the MCP protected-resource document does not list it.\n    standard: openid-connect-core\n    resources: []\nscope_count: 4\ngaps:\n  - >-\n    No resource-specific\
   \ or business-domain scopes are advertised. Whatever the MCP server\n    lets an authorized agent read or write is not expressed in the scope surface, so an\n    integrator cannot reason about least privilege from public documents.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo-global-management/refs/heads/main/scopes/apollo-global-management-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Alternative Investments
 - Asset Management
@@ -36,5 +52,6 @@ tags:
 - Investment Management
 - Private Equity
 - Real Assets
+token_bound: false
 token_urls: []
 ---

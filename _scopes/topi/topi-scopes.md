@@ -144,6 +144,7 @@ tags:
 - Financing
 - Checkout
 - Germany
+token_bound: false
 token_urls:
 - https://identity.topi.eu/oauth2/token
 ---

@@ -110,6 +110,7 @@ tags:
 - Promotions
 - Webhook
 - Shopify
+token_bound: false
 token_urls:
 - token
 ---

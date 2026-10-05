@@ -79,6 +79,7 @@ tags:
 - SLS
 - Hardware
 - Dashboards
+token_bound: false
 token_urls:
 - https://api.formlabs.com/developer/v1/o/token/
 ---

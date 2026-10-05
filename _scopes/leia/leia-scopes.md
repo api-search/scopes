@@ -160,6 +160,7 @@ tags:
 - Displays
 - Media Transformation
 - Immersive Experiences
+token_bound: false
 token_urls:
 - https://auth.immersity.ai/auth/realms/immersity/protocol/openid-connect/token
 ---

@@ -100,6 +100,7 @@ tags:
 - Developer Tools
 - Account
 - Authentication
+token_bound: false
 token_urls:
 - https://www.lacuna.fm/oauth/token
 ---

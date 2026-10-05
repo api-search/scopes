@@ -66,6 +66,7 @@ tags:
 - Lead Generation
 - Job
 - Agents
+token_bound: false
 token_urls:
 - https://api.theorg.com/oauth/token
 ---

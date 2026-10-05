@@ -148,8 +148,8 @@ tags:
 - Company
 - Health
 - Fitness
-- API
 - Data
+token_bound: false
 token_urls:
 - https://auth.bodyspec.com/realms/bodyspec/protocol/openid-connect/token
 ---

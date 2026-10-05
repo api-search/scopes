@@ -44,5 +44,6 @@ tags:
 - Generative AI
 - Machine Learning
 - MCP
+token_bound: false
 token_urls: []
 ---

@@ -94,6 +94,7 @@ tags:
 - Health Data Exchange
 - Claims
 - Risk Adjustment
+token_bound: false
 token_urls:
 - https://${environment}-api.moxehealth.com/oauth/token
 ---

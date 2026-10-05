@@ -66,6 +66,7 @@ tags:
 - Agentic Commerce
 - Product Discovery
 - 3D
+token_bound: false
 token_urls:
 - https://chat.curie.app/api/oauth/token
 ---

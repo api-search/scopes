@@ -91,6 +91,7 @@ tags:
 - MCP
 - Reporting
 - Audience Targeting
+token_bound: false
 token_urls:
 - https://api.openx.com/oauth2/v1/token
 ---

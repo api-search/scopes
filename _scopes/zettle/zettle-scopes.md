@@ -64,6 +64,7 @@ tags:
 - PayPal
 - Card Payments
 - Merchant Services
+token_bound: false
 token_urls:
 - https://oauth.zettle.com/token
 ---

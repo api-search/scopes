@@ -364,6 +364,7 @@ tags:
 - Saudi Arabia
 - MENA
 - A2A
+token_bound: false
 token_urls:
 - https://platform-api.sarj.ai/api/v1/oauth/token
 ---

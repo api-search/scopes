@@ -81,6 +81,7 @@ tags:
 - HIPAA
 - Workflows
 - Digital Health
+token_bound: false
 token_urls:
 - https://auth.morf.health/v1/oauth2/token
 ---

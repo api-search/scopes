@@ -76,6 +76,7 @@ tags:
 - Payments
 - Compliance
 - MCP
+token_bound: false
 token_urls:
 - https://api.thetaray.com/_mcp/oauth2/token-portal
 ---

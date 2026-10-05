@@ -188,6 +188,7 @@ tags:
 - Revenue
 - Software-as-a-Service
 - Fintech
+token_bound: false
 token_urls:
 - https://mcp.monetizeplatform.com/oauth/token
 ---

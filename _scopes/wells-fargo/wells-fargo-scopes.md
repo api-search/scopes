@@ -111,6 +111,9 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/re
 summary_line: 4 scopes · clientCredentials/authorizationCode
 tags:
 - Fortune 100
+- Banking
+- Consumer Banking
+token_bound: false
 token_urls:
 - https://api.wellsfargo.com/oauth2/token
 ---

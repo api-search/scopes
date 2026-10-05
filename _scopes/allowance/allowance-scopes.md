@@ -83,6 +83,7 @@ tags:
 - Consumer Trust
 - Spending Controls
 - AP2
+token_bound: false
 token_urls:
 - https://useallowance.com/oauth/token
 ---

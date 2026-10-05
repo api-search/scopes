@@ -105,6 +105,7 @@ tags:
 - 3D Printing
 - Manufacturing
 - Identity
+token_bound: false
 token_urls:
 - https://id.lightforceortho.com/oauth/token
 ---

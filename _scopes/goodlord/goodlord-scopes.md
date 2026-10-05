@@ -165,6 +165,7 @@ tags:
 - Tenancy Management
 - Insurance
 - Payments
+token_bound: false
 token_urls:
 - https://api.goodoverlord.com/auth/token
 - https://api-sandbox.goodlord.co/auth/token

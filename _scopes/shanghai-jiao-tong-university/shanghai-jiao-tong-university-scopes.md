@@ -393,6 +393,7 @@ tags:
 - SAML
 - Shibboleth
 - Payments
+token_bound: false
 token_urls:
 - https://jaccount.sjtu.edu.cn/oauth2/token
 ---

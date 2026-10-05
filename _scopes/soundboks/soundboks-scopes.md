@@ -67,6 +67,7 @@ tags:
 - E-Commerce
 - Shopify
 - Direct to Consumer
+token_bound: false
 token_urls:
 - https://us-account.soundboks.com/authentication/oauth/token
 ---

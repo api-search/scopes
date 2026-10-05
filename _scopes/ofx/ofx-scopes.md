@@ -126,6 +126,7 @@ tags:
 - Money Transfer
 - Fintech
 - Banking
+token_bound: false
 token_urls:
 - https://sandbox.api.ofx.com/v1/oauth/token
 ---

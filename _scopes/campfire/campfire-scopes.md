@@ -140,6 +140,7 @@ tags:
 - Accounts Payable
 - Accounts Receivable
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://api.meetcampfire.com/auth/token
 ---

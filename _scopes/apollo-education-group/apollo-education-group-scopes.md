@@ -74,6 +74,7 @@ tags:
 - Online Education
 - Private Education
 - University
+token_bound: false
 token_urls:
 - https://login.phoenix.edu:443/am/oauth2/access_token
 ---

@@ -163,6 +163,7 @@ tags:
 - KYC
 - Risk Management
 - Screening
+token_bound: false
 token_urls:
 - https://api.economy.com/data/v1/oauth2/token
 - https://api.economy.com/scenario-studio/v2/oauth2/token

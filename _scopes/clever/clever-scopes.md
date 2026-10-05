@@ -143,6 +143,7 @@ tags:
 - LMS
 - SIS
 - Identity Federation
+token_bound: false
 token_urls:
 - https://clever.com/oauth/tokens
 ---

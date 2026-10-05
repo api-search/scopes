@@ -76,6 +76,7 @@ tags:
 - Payments
 - Treasury
 - Fortune 1000
+token_bound: false
 token_urls:
 - https://api.huntington.com/oauth/token
 ---

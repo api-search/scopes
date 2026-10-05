@@ -89,5 +89,6 @@ tags:
 - Order
 - Restaurant
 - Delivery
+token_bound: false
 token_urls: []
 ---

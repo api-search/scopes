@@ -71,6 +71,7 @@ tags:
 - Universal Commerce Protocol
 - Shopify
 - MCP
+token_bound: false
 token_urls:
 - https://account.soylent.com/authentication/oauth/token
 ---

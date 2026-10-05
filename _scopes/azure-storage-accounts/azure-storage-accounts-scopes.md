@@ -156,5 +156,6 @@ tags:
 - Queue Storage
 - Storage
 - Table Storage
+token_bound: false
 token_urls: []
 ---

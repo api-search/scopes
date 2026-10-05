@@ -263,6 +263,7 @@ tags:
 - Self-Hosted
 - Personal Media
 - Home Automation
+token_bound: false
 token_urls:
 - https://plex.tv/internal/mcp/oauth/token
 ---

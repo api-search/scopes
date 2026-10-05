@@ -320,6 +320,7 @@ tags:
 - Telecommunications
 - Wireless
 - Wireline
+token_bound: false
 token_urls:
 - https://api.att.com/oauth/v4/token
 - https://devex-web.att.com/oauth/token

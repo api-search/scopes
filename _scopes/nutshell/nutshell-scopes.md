@@ -154,16 +154,24 @@ method: probed
 name: Nutshell Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Nutshell uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Nutshell publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Nutshell API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Nutshell
 provider_slug: nutshell
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- read
+- write
+scopes:
+- description: Read access to Nutshell CRM data granted to an OAuth client (the MCP server and any registered connector).
+  flows: []
+  scope: read
+- description: Write access advertised by the authorization server. Advertised in metadata and in the MCP 401 challenge (scope="read write"); not exercised by the documented MCP tool set.
+  flows: []
+  scope: write
 slug: nutshell-scopes
 source_filename: nutshell-scopes.yml
 source_heading: OAuth Scopes
@@ -172,7 +180,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://app.nutsh
   \ data granted to an OAuth client (the MCP server and any registered connector).\n  source: well-known/nutshell-oauth-authorization-server.json\n- name: write\n  description: Write access advertised by the authorization server. Advertised in metadata and in the MCP 401 challenge\n    (scope=\"read write\"); not exercised by the documented MCP tool set.\n  source: well-known/nutshell-oauth-authorization-server.json\nauthorization_server:\n  issuer: https://app.nutshell.com\n  authorization_endpoint: https://app.nutshell.com/oauth/authorize\n  token_endpoint: https://app.nutshell.com/oauth/token\n  registration_endpoint: https://app.nutshell.com/oauth/register\n  revocation_endpoint: https://app.nutshell.com/oauth/revoke\n  grant_types_supported:\n  - authorization_code\n  response_types_supported:\n  - code\n  code_challenge_methods_supported:\n  - S256\n  token_endpoint_auth_methods_supported:\n  - none\n  - client_secret_post\n  - client_secret_basic\napi_key_permissions:\n  documented:\
   \ false\n  note: The help centre says a \"permission type\" is selected when creating an API key and names only \"API + user\n    impersonation\" (for Zapier). No permission matrix is published.\n  source: https://support.nutshell.com/en/articles/8429060-api-keys-create-api-keys-for-3rd-party-apps\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/scopes/nutshell-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - CRM
 - Sales
@@ -184,5 +192,6 @@ tags:
 - Marketing Automation
 - MCP
 - B2B
+token_bound: false
 token_urls: []
 ---

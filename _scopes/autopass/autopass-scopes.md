@@ -74,6 +74,7 @@ tags:
 - Financial Services
 - Authentication
 - Taiwan
+token_bound: false
 token_urls:
 - https://api.autopass.xyz/oauth/token
 ---

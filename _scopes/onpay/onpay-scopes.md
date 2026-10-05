@@ -118,6 +118,7 @@ tags:
 - Fintech
 - Time and Attendance
 - retirement-401k
+token_bound: false
 token_urls:
 - https://app.onpay.com/app/oauth/authorize
 ---

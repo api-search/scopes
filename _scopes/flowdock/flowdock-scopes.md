@@ -150,6 +150,7 @@ tags:
 - Real-Time Messaging
 - Integration
 - Discontinued
+token_bound: false
 token_urls:
 - https://api.flowdock.com/oauth/token
 ---

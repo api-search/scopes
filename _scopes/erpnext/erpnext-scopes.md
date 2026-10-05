@@ -71,6 +71,7 @@ tags:
 - CRM
 - Human Resources
 - Open Source
+token_bound: false
 token_urls:
 - /method/frappe.integrations.oauth2.get_token
 ---

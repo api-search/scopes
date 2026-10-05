@@ -116,7 +116,7 @@ tags:
 - Employee Benefits
 - Health Plans
 - Identity
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://auth.recurohealth.com/oauth/token
 ---

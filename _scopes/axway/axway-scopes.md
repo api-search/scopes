@@ -178,7 +178,6 @@ tags:
 - B2B Integration
 - Financial Accounting
 - Enterprise Integration
-- Regulated Industries - API Management - Enterprise - Integration - Security
 token_bound: false
 token_urls:
 - https://login.axway.com/auth/realms/Broker/protocol/openid-connect/token

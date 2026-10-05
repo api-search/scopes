@@ -345,6 +345,7 @@ tags:
 - Local Business
 - SMS
 - Lead Generation
+token_bound: false
 token_urls:
 - https://api.podium.com/oauth/token
 ---

@@ -9,16 +9,24 @@ method: probed
 name: Abm Industries Scopes
 name_suffix: OAuth Scopes
 note: 'ABM publishes no scopes reference page. What follows is not a reconstruction — it is the authorisation configuration ABM''s own first-party client ships to every browser. ABM Connect uses a SINGLE coarse application scope across every protected resource: there is no per-resource or per-verb scoping, so a token that can read a service location can also reach finance, talent-management and safety resources. That is a real, material finding for anyone assessing delegated access.'
-overview: 'ABM Industries uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'ABM Industries publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ABM Industries API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: ABM Industries
 provider_slug: abm-industries
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- https://connect2ABM.onmicrosoft.com/31f16065-3479-4b3c-a3cd-e337cafc33c9/cft_client_access
+- openid
+scopes:
+- description: The one application scope MSAL requests for every ABM Connect protected resource. Granted against ABM's Azure AD B2C application (app ID URI connect2ABM.onmicrosoft.com).
+  flows: []
+  scope: https://connect2ABM.onmicrosoft.com/31f16065-3479-4b3c-a3cd-e337cafc33c9/cft_client_access
+- description: The only scope advertised in `scopes_supported` by ABM's B2C discovery document.
+  flows: []
+  scope: openid
 slug: abm-industries-scopes
 source_filename: abm-industries-scopes.yml
 source_heading: OAuth Scopes
@@ -30,12 +38,13 @@ source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: >-\n  MSAL protec
   \ path: internal/quality/, audience: abm-internal }\n    - { name: In_TalentManagementApi, path: internal/talentmanagement/, audience: abm-internal }\n    - { name: WebAssetsApi, url: https://connectapi.abm.com/web-assets/ }\n    - { name: DocumentApi.blobUrl, url: https://connectapi.abm.com/emp-documents/ }\n    - { name: InvoiceEndpoint, url: https://connectapi.abm.com/emp-invoices-clone/ }\n    - { name: TaskManagementOpsApi, url: https://appservices.abm.com/external/task-mgmt/cust-api/ }\n    - { name: OpsConnectApi, url: https://appservices.abm.com/external/task-mgmt/cust-api/ }\n    - { name: RoutesApi, url: https://appservices-uat.abm.com/external/task-mgmt/tasks-api/, note: points at a UAT host in production }\n    - { name: TaskAIManagementOpsApi, url: https://appservices-uat.abm.com/external/task-mgmt/ai-assitant/, note: points at a UAT host in production }\nresource_count: 44\nevidence:\n  - url: https://connect.abm.com/chunk-QN7SXVIA.js\n    status: 200\n  - url: https://connect2abm.b2clogin.com/connect2abm.onmicrosoft.com/B2C_1_cft-signin/v2.0/.well-known/openid-configuration\n\
   \    status: 200\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abm-industries/refs/heads/main/scopes/abm-industries-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Facilities Management
 - Engineering
 - Infrastructure
 - Mobility
 - Fortune 500
+token_bound: false
 token_urls: []
 ---

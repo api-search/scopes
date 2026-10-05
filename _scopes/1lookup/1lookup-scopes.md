@@ -58,6 +58,7 @@ tags:
 - Audio Transcription
 - MCP / agent-native
 - REST API
+token_bound: false
 token_urls:
 - https://app.1lookup.io/api/mcp/oauth/token
 ---

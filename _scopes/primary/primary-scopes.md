@@ -67,6 +67,7 @@ tags:
 - Children
 - Shopify
 - Agents
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/30430134331/oauth/token
 ---

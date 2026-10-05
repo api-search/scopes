@@ -514,6 +514,7 @@ tags:
 - Document Management
 - Human Resources
 - Business Suite
+token_bound: false
 token_urls:
 - https://oauth.bitrix.info/oauth/token/
 ---

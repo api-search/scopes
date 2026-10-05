@@ -167,6 +167,7 @@ tags:
 - Asset Management
 - BlackRock
 - Data Cloud
+token_bound: false
 token_urls:
 - https://api.blackrock.com/oauth/token
 ---

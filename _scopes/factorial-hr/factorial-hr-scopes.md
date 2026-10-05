@@ -78,6 +78,7 @@ tags:
 - Spain
 - Barcelona
 - All-in-One
+token_bound: false
 token_urls:
 - /oauth/token
 ---

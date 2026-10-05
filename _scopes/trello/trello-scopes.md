@@ -215,6 +215,7 @@ tags:
 - Workflows
 - Boards
 - Atlassian
+token_bound: false
 token_urls:
 - https://auth.atlassian.com/authorize/oauth/token
 ---

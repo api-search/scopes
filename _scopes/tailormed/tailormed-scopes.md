@@ -9,16 +9,48 @@ method: probed
 name: Tailormed Scopes
 name_suffix: OAuth Scopes
 note: These are platform sign-in scopes. The Application Data API, Claims Data API and HL7/FHIR data-exchange surfaces are documented only behind the login on hub.tailormed.co, so any API-specific scope or permission model they use is not publicly readable.
-overview: 'TailorMed uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'TailorMed publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TailorMed API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: TailorMed
 provider_slug: tailormed
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 8
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- offline_access
+- groups
+- tableau:views:embed
+scopes:
+- description: OpenID Connect sign-in; returns an ID token.
+  flows: []
+  scope: openid
+- description: Basic profile claims (name, given_name, family_name, preferred_username, locale, ...).
+  flows: []
+  scope: profile
+- description: email and email_verified claims.
+  flows: []
+  scope: email
+- description: address claim.
+  flows: []
+  scope: address
+- description: phone_number claim.
+  flows: []
+  scope: phone
+- description: Issues a refresh token.
+  flows: []
+  scope: offline_access
+- description: Group membership claim used for platform authorization.
+  flows: []
+  scope: groups
+- description: Custom scope requested by the TailorMed platform SPA to embed Tableau analytics views inside the application.
+  flows: []
+  scope: tableau:views:embed
 slug: tailormed-scopes
 source_filename: tailormed-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +59,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: https://auth.tail
   \ preferred_username, locale, ...).\n  source: scopes_supported\n- name: email\n  description: email and email_verified claims.\n  source: scopes_supported\n- name: address\n  description: address claim.\n  source: scopes_supported\n- name: phone\n  description: phone_number claim.\n  source: scopes_supported\n- name: offline_access\n  description: Issues a refresh token.\n  source: scopes_supported\n- name: groups\n  description: Group membership claim used for platform authorization.\n  source: scopes_supported\n- name: 'tableau:views:embed'\n  description: >-\n    Custom scope requested by the TailorMed platform SPA to embed Tableau analytics\n    views inside the application.\n  source: >-\n    REACT_APP_OKTA_SCOPES in the public tenant bundle\n    /ap-search-client/0.37.1-2746777299/static/js/main.f597607c.js\nclaims_supported:\n- iss\n- ver\n- sub\n- aud\n- iat\n- exp\n- jti\n- auth_time\n- amr\n- idp\n- nonce\n- name\n- nickname\n- preferred_username\n- given_name\n- middle_name\n\
   - family_name\n- email\n- email_verified\n- profile\n- zoneinfo\n- locale\n- address\n- phone_number\n- picture\n- website\n- gender\n- birthdate\n- updated_at\n- at_hash\n- c_hash\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tailormed/refs/heads/main/scopes/tailormed-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 8 scopes
 tags:
 - Company
 - Healthcare
@@ -42,5 +74,6 @@ tags:
 - HL7
 - FHIR
 - Life Sciences
+token_bound: false
 token_urls: []
 ---

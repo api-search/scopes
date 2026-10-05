@@ -87,6 +87,7 @@ tags:
 - Europe
 - Tokenization
 - Recurring Payments
+token_bound: false
 token_urls:
 - https://api.nopan.io/auth/token
 ---

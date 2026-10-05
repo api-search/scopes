@@ -146,6 +146,7 @@ tags:
 - Property Management
 - Hotels
 - API-First
+token_bound: false
 token_urls:
 - https://identity.apaleo.com/connect/token
 ---

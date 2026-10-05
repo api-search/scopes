@@ -51,6 +51,7 @@ tags:
 - CRM
 - MCP
 - Enterprise
+token_bound: false
 token_urls:
 - https://app.brevian.ai/mcp/token
 ---

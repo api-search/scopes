@@ -57,6 +57,7 @@ tags:
 - Benefit Verification
 - Prior Authorization
 - HIPAA
+token_bound: false
 token_urls:
 - https://www.infinitus.ai/oauth/token
 ---

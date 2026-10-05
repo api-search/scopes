@@ -143,6 +143,7 @@ tags:
 - Adventure Travel
 - Distribution
 - Affiliates
+token_bound: false
 token_urls:
 - https://auth.tourradar.com/oauth2/token
 ---

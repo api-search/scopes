@@ -154,5 +154,6 @@ tags:
 - Managed Service
 - Microsoft
 - Redis
+token_bound: false
 token_urls: []
 ---

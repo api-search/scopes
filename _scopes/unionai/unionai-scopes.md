@@ -104,6 +104,7 @@ tags:
 - MLOps
 - Flyte
 - Serverless
+token_bound: false
 token_urls:
 - https://{org}.app.union.ai/oauth2/token
 ---

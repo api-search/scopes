@@ -39,5 +39,6 @@ tags:
 - Machine Learning
 - Industrial IoT
 - Industrial
+token_bound: false
 token_urls: []
 ---

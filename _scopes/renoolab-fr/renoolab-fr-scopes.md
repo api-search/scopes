@@ -81,6 +81,7 @@ tags:
 - AI Agents
 - Agent Skills
 - France
+token_bound: false
 token_urls:
 - https://mcp.renoolab.fr/token
 ---

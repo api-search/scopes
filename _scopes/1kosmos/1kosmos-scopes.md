@@ -129,5 +129,6 @@ tags:
 - FIDO2
 - Security
 - Company
+token_bound: false
 token_urls: []
 ---

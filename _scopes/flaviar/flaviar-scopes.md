@@ -71,6 +71,7 @@ tags:
 - Subscription
 - Agentic Commerce
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/80863265050/oauth/token
 ---

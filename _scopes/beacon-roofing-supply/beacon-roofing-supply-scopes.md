@@ -1072,16 +1072,31 @@ method: searched
 name: Beacon Roofing Supply Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Beacon Roofing Supply uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Beacon Roofing Supply publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Beacon Roofing Supply API on a user''s behalf.
+
+
+  Tokens are issued from https://beaconproplus.com/rest/model/REST/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Beacon Roofing Supply
 provider_slug: beacon-roofing-supply
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- (empty)
+- all
+- refresh_token
+scopes:
+- description: Only refresh access_token. The refresh_token is left as-is.
+  flows: []
+  scope: (empty)
+- description: Refresh access_token AND refresh_token.
+  flows: []
+  scope: all
+- description: Also refresh access_token and refresh_token. Multiple values are separated by whitespace, per the field description.
+  flows: []
+  scope: refresh_token
 slug: beacon-roofing-supply-scopes
 source_filename: beacon-roofing-supply-scopes.yml
 source_heading: OAuth Scopes
@@ -1091,7 +1106,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  https://b
   \  note: >-\n    The published request takes client_id with no client_secret. The initial grant that issues the\n    first refresh_token is not published anywhere — it is arranged through partner onboarding at\n    https://go.qxo.com/qxoapi.\npermission_model:\n  style: profile + permission template (server-side, not scope-based)\n  operations:\n    - GET /getCurrentUserPermission\n    - GET /permissionTemplateList\n    - GET /getPermissionTemplateDetail\n    - POST /createPermissionTemplate\n    - POST /updatePermissionTemplate\n    - POST /deletePermissionTemplate\n  roles_referenced: [master admin user, admin user]\n  evidence: >-\n    102 operations declare a 403 whose description is \"Forbidden, user do not has permission to\n    access this API\"; eleven of those narrow it to \"only master admin user or admin user\". Message\n    code 2006 is \"Current profile is permission denied\".\n  agent_note: >-\n    An agent cannot determine from the contract which operations its token may\
   \ call. There is no\n    scope string to inspect and no capability discovery endpoint — the only way to learn the\n    permission surface is to call GET /getCurrentUserPermission at runtime, or to fail with 403.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/scopes/beacon-roofing-supply-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes
 tags:
 - Construction
 - Distribution
@@ -1103,5 +1118,7 @@ tags:
 - Order
 - Catalog
 - Delivery
-token_urls: []
+token_bound: false
+token_urls:
+- https://beaconproplus.com/rest/model/REST/oauth/token
 ---

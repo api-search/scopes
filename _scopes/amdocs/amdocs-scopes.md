@@ -90,6 +90,8 @@ tags:
 - 5G
 - Software-as-a-Service
 - Real-Time
+- Subscription Billing
+token_bound: false
 token_urls:
 - https://auth.amdocs-dbs.com/oauth/token
 ---

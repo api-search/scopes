@@ -171,6 +171,7 @@ tags:
 - EV Charging
 - Certification
 - Real-Time
+token_bound: false
 token_urls:
 - auth/token
 ---

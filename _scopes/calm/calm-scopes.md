@@ -70,6 +70,7 @@ tags:
 - Health
 - B2B
 - Subscription
+token_bound: false
 token_urls:
 - https://auth.calm.com/v0/authorize
 ---

@@ -165,6 +165,7 @@ tags:
 - Life Sciences
 - SCIM
 - Authentication
+token_bound: false
 token_urls:
 - https://api.beauthenticx.com/connect/token
 ---

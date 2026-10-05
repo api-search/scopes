@@ -126,7 +126,8 @@ api_specs:
   slug: viagogo-payment-methods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/openapi/viagogo-payment-methods-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://account.viagogo.com/authorize
 description: ''
 docs: https://developer.viagogo.net/docs/authentication/scopes
 flows: []
@@ -137,6 +138,9 @@ name: Viagogo Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'viagogo publishes 17 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the viagogo API on a user''s behalf.
+
+
+  Tokens are issued from https://account.viagogo.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -234,5 +238,7 @@ tags:
 - Secondary Market
 - Commerce
 - Travel And Leisure
-token_urls: []
+token_bound: false
+token_urls:
+- https://account.viagogo.com/oauth2/token
 ---

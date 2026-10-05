@@ -90,6 +90,7 @@ tags:
 - Agent-Native
 - Open Banking
 - Authentication
+token_bound: false
 token_urls:
 - https://forge.era.app/oauth/token
 ---

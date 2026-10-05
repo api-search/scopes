@@ -106,6 +106,7 @@ tags:
 - OData
 - SOAP
 - SAP
+token_bound: false
 token_urls:
 - https://{tenant}.bydesign.cloud.sap/sap/bc/sec/oauth2/token
 ---

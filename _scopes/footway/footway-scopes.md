@@ -72,6 +72,7 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - Nordic
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/89171296584/oauth/token
 ---

@@ -226,6 +226,7 @@ tags:
 - ESG
 - Artificial Intelligence
 - Analytics
+token_bound: false
 token_urls:
 - https://api.signal-ai.com/auth/token
 ---

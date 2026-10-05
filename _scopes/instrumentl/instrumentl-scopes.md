@@ -59,6 +59,7 @@ tags:
 - Foundation Data
 - Philanthropy
 - MCP
+token_bound: false
 token_urls:
 - https://www.instrumentl.com/oauth/token
 ---

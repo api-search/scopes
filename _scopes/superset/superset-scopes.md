@@ -58,6 +58,7 @@ summary_line: 4 scopes · authorizationCode
 tags:
 - Company
 - A2A
+token_bound: false
 token_urls:
 - https://api.superset.sh/api/auth/oauth2/token
 ---

@@ -9,16 +9,32 @@ method: probed
 name: Super73 Scopes
 name_suffix: OAuth Scopes
 note: These are the scopes the SUPER73 storefront's own OpenID Connect discovery document advertises as supported. They are Shopify customer-account scopes served per-merchant; SUPER73 publishes no scope reference page of its own, so descriptions below are read from the scope names and Shopify's customer account documentation, not invented.
-overview: 'Super73 uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Super73 publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Super73 API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Super73
 provider_slug: super73
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- customer-account-api:full
+- customer-account-mcp-api:full
+scopes:
+- description: Standard OpenID Connect scope; returns an ID token identifying the signed-in buyer.
+  flows: []
+  scope: openid
+- description: Standard OIDC scope releasing the buyer's email address claim.
+  flows: []
+  scope: email
+- description: Full access to the buyer's Shopify Customer Account API surface — profile, addresses, orders and subscriptions for that customer.
+  flows: []
+  scope: customer-account-api:full
+- description: Full access to the customer-account MCP surface, the authenticated counterpart of the anonymous UCP commerce endpoint at /api/ucp/mcp.
+  flows: []
+  scope: customer-account-mcp-api:full
 slug: super73-scopes
 source_filename: super73-scopes.yml
 source_heading: OAuth Scopes
@@ -26,7 +42,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: https://super73.com/.well-known/openid-configuration (HTTP 200, 2026-08-29)\ndocs: https://shopify.dev/docs/api/customer\nissuer: https://shopify.com/authentication/13743231\nnote: >-\n  These are the scopes the SUPER73 storefront's own OpenID Connect discovery document advertises as\n  supported. They are Shopify customer-account scopes served per-merchant; SUPER73 publishes no scope\n  reference page of its own, so descriptions below are read from the scope names and Shopify's customer\n  account documentation, not invented.\nscopes:\n- name: openid\n  description: Standard OpenID Connect scope; returns an ID token identifying the signed-in buyer.\n  standard: true\n- name: email\n  description: Standard OIDC scope releasing the buyer's email address claim.\n  standard: true\n- name: customer-account-api:full\n  description: >-\n    Full access to the buyer's Shopify Customer Account API surface — profile, addresses, orders\
   \ and\n    subscriptions for that customer.\n  standard: false\n- name: customer-account-mcp-api:full\n  description: >-\n    Full access to the customer-account MCP surface, the authenticated counterpart of the anonymous\n    UCP commerce endpoint at /api/ucp/mcp.\n  standard: false\nscope_count: 4\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/scopes/super73-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Electric Bikes
 - Micromobility
@@ -39,5 +55,6 @@ tags:
 - Direct to Consumer
 - IoT
 - Transportation
+token_bound: false
 token_urls: []
 ---

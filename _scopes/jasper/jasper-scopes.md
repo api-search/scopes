@@ -162,6 +162,7 @@ tags:
 - Generative AI
 - Agents
 - MCP
+token_bound: false
 token_urls:
 - https://api.jasper.ai/oauth2/token
 ---

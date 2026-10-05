@@ -103,6 +103,7 @@ tags:
 - Loyalty
 - Flight Status
 - Fortune 500
+token_bound: false
 token_urls:
 - https://api.alaskaair.com/oauth/token
 ---

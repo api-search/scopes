@@ -96,6 +96,7 @@ tags:
 - Ontario
 - Demand Response
 - Renewables
+token_bound: false
 token_urls:
 - https://gateway.ieso.ca/oauth2/v1/token
 ---

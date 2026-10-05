@@ -82,6 +82,7 @@ tags:
 - Content Generation
 - MCP
 - Agents
+token_bound: false
 token_urls:
 - https://qhfesxmsojjleewjufcn.supabase.co/auth/v1/oauth/token
 ---

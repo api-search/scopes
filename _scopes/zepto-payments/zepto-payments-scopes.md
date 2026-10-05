@@ -227,6 +227,7 @@ tags:
 - Direct Entry
 - Open Banking
 - Money Movement
+token_bound: false
 token_urls:
 - /oauth/token
 ---

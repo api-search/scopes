@@ -16,16 +16,36 @@ method: probed
 name: Ipstack Scopes
 name_suffix: OAuth Scopes
 note: APILayer publishes no human-readable scopes/permissions reference page; the scope list exists only in the machine-readable discovery documents. That is recorded as an honest gap rather than filled in.
-overview: 'IPstack uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'IPstack publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the IPstack API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: IPstack
 provider_slug: ipstack
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- openid
+- offline
+- offline_access
+- mcp:read
+- api:ipstack
+scopes:
+- description: Standard OpenID Connect scope; requests an ID token.
+  flows: []
+  scope: openid
+- description: Requests a refresh token (Ory/Hydra-style alias of offline_access).
+  flows: []
+  scope: offline
+- description: Standard OIDC scope requesting a refresh token for long-lived agent sessions.
+  flows: []
+  scope: offline_access
+- description: Read access through the APILayer MCP server. Advertised by the protected-resource document at mcp.apilayer.com as one of the two scopes that endpoint accepts.
+  flows: []
+  scope: mcp:read
+- description: Access to the IPstack product surface through an APILayer token. The only product-named scope in the discovery document.
+  flows: []
+  scope: api:ipstack
 slug: ipstack-scopes
 source_filename: ipstack-scopes.yml
 source_heading: OAuth Scopes
@@ -34,7 +54,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: >-\n  https://aut
   \ - name: offline\n    description: Requests a refresh token (Ory/Hydra-style alias of offline_access).\n    source: authorization-server metadata scopes_supported\n  - name: offline_access\n    description: Standard OIDC scope requesting a refresh token for long-lived agent sessions.\n    source: authorization-server metadata scopes_supported\n  - name: mcp:read\n    description: >-\n      Read access through the APILayer MCP server. Advertised by the protected-resource\n      document at mcp.apilayer.com as one of the two scopes that endpoint accepts.\n    source: both authorization-server and protected-resource metadata\n  - name: api:ipstack\n    description: >-\n      Access to the IPstack product surface through an APILayer token. The only\n      product-named scope in the discovery document.\n    source: both authorization-server and protected-resource metadata\ndocs: null\nnote: >-\n  APILayer publishes no human-readable scopes/permissions reference page; the scope list\n  exists\
   \ only in the machine-readable discovery documents. That is recorded as an honest\n  gap rather than filled in.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ipstack/refs/heads/main/scopes/ipstack-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes
 tags:
 - Geocoding
 - IP Geolocation
@@ -43,5 +63,6 @@ tags:
 - Networking
 - MCP
 - Public APIs
+token_bound: false
 token_urls: []
 ---

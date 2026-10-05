@@ -178,6 +178,7 @@ tags:
 - Sentiment Analysis
 - Unstructured Data
 - Fixed Income
+token_bound: false
 token_urls:
 - https://api.bitvore.com/oauth/accesstoken
 ---

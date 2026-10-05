@@ -100,6 +100,7 @@ tags:
 - Deals
 - Pipelines
 - Customer Experience
+token_bound: false
 token_urls:
 - https://api.getbase.com/oauth2/token
 ---

@@ -58,5 +58,6 @@ tags:
 - Layer 4
 - Load Balancing
 - Networks
+token_bound: false
 token_urls: []
 ---

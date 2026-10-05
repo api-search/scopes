@@ -539,6 +539,7 @@ tags:
 - Managed Private Cloud
 - CSPM
 - Container Security
+token_bound: false
 token_urls:
 - https://api.armor.com/auth/authorize
 - https://auth.armor.com/token

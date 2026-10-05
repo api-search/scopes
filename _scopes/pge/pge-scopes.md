@@ -194,6 +194,7 @@ tags:
 - Grid
 - Demand Response
 - Investor-Owned Utility
+token_bound: false
 token_urls:
 - https://api.pge.com/datacustodian/oauth/v2/token
 - https://sandbox.greenbuttonalliance.org:8443/oauth/token

@@ -411,6 +411,7 @@ tags:
 - MCP
 - Payments
 - Sales Automation
+token_bound: false
 token_urls:
 - https://api.infusionsoft.com/token
 ---

@@ -126,6 +126,8 @@ tags:
 - Streaming
 - Real-Time
 - Investing
+- Financial Services
+token_bound: false
 token_urls:
 - https://api.tradier.com/v1/oauth/accesstoken
 ---

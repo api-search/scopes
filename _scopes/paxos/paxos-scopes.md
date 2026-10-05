@@ -258,7 +258,8 @@ api_specs:
   slug: paxos-travelrulepublic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/paxos/refs/heads/main/openapi/paxos-travelrulepublic-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://oauth.paxos.com/oauth2/auth
 description: ''
 docs: https://docs.paxos.com/api-reference/introduction
 flows:
@@ -627,6 +628,7 @@ tags:
 - Financial Services
 - Digital Assets
 - Stablecoin Issuance
+token_bound: false
 token_urls:
 - https://oauth.paxos.com/oauth2/token
 ---

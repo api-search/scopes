@@ -1689,14 +1689,17 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://docs.fenergox.com/developer-hub/api-and-system-security/api-scopes-and-access-control
-flows: []
+flows:
+- clientCredentials
+- authorizationCode
+- external-token-exchange
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Fenergo Scopes
 name_suffix: OAuth Scopes
 note: 'Fenergo publishes a complete fenx.* scope registry on its documentation portal and a live OpenID Connect discovery document. The two are recorded separately: `scopes` below is the DOCUMENTED registry (105 scopes, verbatim names/display names/descriptions from the docs table); `discovery_only_scopes` are values the live /.well-known/openid-configuration advertises that the docs table does not list. The harvested OpenAPI contracts themselves declare almost no oauth2 scopes — the CLM services use a bearer apiKey scheme — so the scope model lives in the docs and the IdP, not in the specs.'
-overview: 'Fenergo publishes 105 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Fenergo API on a user''s behalf.
+overview: 'Fenergo publishes 105 OAuth 2.0 scopes via the clientCredentials, authorizationCode, and external-token-exchange flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Fenergo API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -2269,7 +2272,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nsource: https://docs.fe
   - fenx.internal\n- fenx.portal-tenant.read.private\n- identityapi.externaluser.write\n- identityapi.scimuser.create\n- identityapi.scimuser.delete\n- identityapi.scimuser.read\n- identityapi.scimuser.update\n- offline_access\n- openid\n- profile\n- refresh_token\n- roles\n- scimapi.resource.add\n- scimapi.resource.bulk\n- scimapi.resource.delete\n- scimapi.resource.query\n- scimapi.resource.update\n- selected-tenant\n- tenant\nscim_scopes:\n- scope: scimapi.resource.query\n  description: Required for SCIM GET operations\n- scope: scimapi.resource.add\n  description: Required for SCIM POST operations\n- scope: scimapi.resource.update\n  description: Required for SCIM PUT and PATCH operations\n- scope: scimapi.resource.delete\n  description: Required for SCIM DELETE operations\n- scope: scimapi.resource.bulk\n  description: Required for SCIM Bulk requests (does not imply add/update/delete)\nscim_scopes_source: https://docs.fenergox.com/developer-hub/api-and-system-security/scim-overview\n\
   spec_declared_scopes:\n- scope: export_all\n  description: all exports operations\n  sources:\n  - openapi/fenergo-tm-dataexport-api-spec-openapi.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fenergo/refs/heads/main/scopes/fenergo-scopes.yml
-summary_line: 105 scopes
+summary_line: 105 scopes · clientCredentials/authorizationCode/external-token-exchange
 tags:
 - Compliance
 - Financial Services
@@ -2283,5 +2286,6 @@ tags:
 - RegTech
 - Software-as-a-Service
 - Identity
+token_bound: false
 token_urls: []
 ---

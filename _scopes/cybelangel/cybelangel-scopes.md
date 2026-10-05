@@ -180,6 +180,7 @@ tags:
 - security-alerts
 - Asset Inventory
 - Audit Logs
+token_bound: false
 token_urls:
 - https://auth.cybelangel.com/oauth/token
 ---

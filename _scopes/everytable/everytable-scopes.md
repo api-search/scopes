@@ -72,6 +72,7 @@ tags:
 - Social Enterprise
 - Nutrition
 - Subscription
+token_bound: false
 token_urls:
 - https://account.everytable.com/authentication/oauth/token
 ---

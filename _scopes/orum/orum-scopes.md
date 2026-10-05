@@ -296,6 +296,7 @@ tags:
 - ACH
 - Money Movement
 - Bank Account Verification
+token_bound: false
 token_urls:
 - https://api-sandbox.orum.io/oauth/token
 ---

@@ -68,6 +68,7 @@ tags:
 - Fashion
 - Agentic Commerce
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/63533449453/oauth/token
 ---

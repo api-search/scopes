@@ -262,16 +262,72 @@ method: probed
 name: Zinnia Scopes
 name_suffix: OAuth Scopes
 note: These are the OIDC identity scopes the Zinnia Auth0 tenant advertises, not API permissions. Zinnia carries API authorization in a custom claim - the Kong OpenID Connect plugin config in every published spec sets scopes_claim to "https://api.zinnia.io/permissions" (dev/qa/uat variants use the matching environment host) and requires an "aud" of the environment API host. The permission values themselves are issued per partner tenant and are not published, so the API-level scope list cannot be enumerated from public material.
-overview: 'Zinnia uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Zinnia publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Zinnia API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Zinnia
 provider_slug: zinnia
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- offline_access
+- name
+- given_name
+- family_name
+- nickname
+- email
+- email_verified
+- picture
+- created_at
+- identities
+- phone
+- address
+scopes:
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: openid
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: profile
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: offline_access
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: name
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: given_name
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: family_name
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: nickname
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: email
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: email_verified
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: picture
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: created_at
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: identities
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: phone
+- description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.
+  flows: []
+  scope: address
 slug: zinnia-scopes
 source_filename: zinnia-scopes.yml
 source_heading: OAuth Scopes
@@ -281,7 +337,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: https://login.zin
   \  description: OpenID Connect standard scope advertised by the Zinnia Auth0 tenant discovery document.\nnote: These are the OIDC identity scopes the Zinnia Auth0 tenant advertises, not API permissions. Zinnia carries API authorization in a custom claim - the Kong OpenID Connect plugin config in every published\n  spec sets scopes_claim to \"https://api.zinnia.io/permissions\" (dev/qa/uat variants use the matching environment host) and requires an \"aud\" of the environment API host. The permission values themselves\n  are issued per partner tenant and are not published, so the API-level scope list cannot be enumerated from public material.\naudiences:\n- https://api.zinnia.io\n- https://dev.api.zinnia.io\n- https://uat.api.zinnia.io\nauthorization_servers:\n- environment: production\n  issuer: https://login.zinnia.com/\n  discovery: https://login.zinnia.com/.well-known/openid-configuration\n  status: 200\n- environment: uat\n  issuer: https://login.uat.zinnia.com/\n  discovery: https://login.uat.zinnia.com/.well-known/openid-configuration\n\
   \  status: 200\n- environment: qa\n  issuer: https://login.qa.zinnia.com/\n  discovery: https://login.qa.zinnia.com/.well-known/openid-configuration\n  status: 200\n- environment: dev\n  issuer: https://login.dev.zinnia.com/\n  discovery: https://login.dev.zinnia.com/.well-known/openid-configuration\n  status: 200\nadditional_issuers_allowed:\n- https://login.mypolicyview.com/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zinnia/refs/heads/main/scopes/zinnia-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Insurance
 - Life Insurance
@@ -295,5 +351,6 @@ tags:
 - Document Management
 - Underwriting
 - Enterprise
+token_bound: false
 token_urls: []
 ---

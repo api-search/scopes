@@ -64,6 +64,7 @@ tags:
 - Credit
 - Prepaid
 - Multi-Currency
+token_bound: false
 token_urls:
 - https://docs.episodesix.com/mcp/oauth/token
 ---

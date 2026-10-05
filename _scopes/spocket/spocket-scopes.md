@@ -84,6 +84,7 @@ tags:
 - Deployment
 - Serverless
 - always-on
+token_bound: false
 token_urls:
 - https://www.spocket.dev/oauth/token
 - https://www.spocket.dev/api/v1/token

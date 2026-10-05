@@ -182,5 +182,6 @@ tags:
 - Fintech
 - Brazil
 - Wealth Management
+token_bound: false
 token_urls: []
 ---

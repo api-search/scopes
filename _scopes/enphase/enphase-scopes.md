@@ -220,5 +220,6 @@ tags:
 - Smart Metering
 - Telemetry
 - Clean Energy
+token_bound: false
 token_urls: []
 ---

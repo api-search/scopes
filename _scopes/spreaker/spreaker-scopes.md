@@ -87,6 +87,7 @@ tags:
 - Media
 - Monetization
 - Analytics
+token_bound: false
 token_urls:
 - https://api.spreaker.com/oauth2/token
 ---

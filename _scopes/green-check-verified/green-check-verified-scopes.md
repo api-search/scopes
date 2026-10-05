@@ -111,23 +111,67 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://developer.greencheckverified.com/guides/integration-overview
-flows: []
+flows:
+- client_credentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Green Check Verified Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Green Check Verified uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Green Check Verified publishes 10 OAuth 2.0 scopes via the client_credentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Green Check Verified API on a user''s behalf.
+
+
+  Tokens are issued from https://prod-api.greencheckverified.com/auth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Green Check Verified
 provider_slug: green-check-verified
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 10
+scope_names:
+- service-provider:read
+- service-provider:write
+- point-of-sale:read
+- point-of-sale:write
+- crb:read
+- ein:read
+- connect-crb-to-sp:write
+- create-crb-api-key:write
+- trace
+- admin
+scopes:
+- description: Read the calling service provider's own organization record, its connected CRBs, POS credential schemas, license search, onboarding templates and CRB profiles.
+  flows: []
+  scope: service-provider:read
+- description: Create a CRB under the calling service provider (POST /service-providers/{sp_id}/crbs).
+  flows: []
+  scope: service-provider:write
+- description: Read POS-sourced operational data for a connected CRB — sales, products, inventory, inventory locations, customers and documents.
+  flows: []
+  scope: point-of-sale:read
+- description: Applied to the CRB customer-search operation (GET .../customers-search). Note this is a read in HTTP terms but is scoped as a write in the contract.
+  flows: []
+  scope: point-of-sale:write
+- description: Read a CRB directly by crb_id, and list/read that CRB's documents, on the CRB-scoped (non service-provider) routes.
+  flows: []
+  scope: crb:read
+- description: Search existing CRBs by EIN (GET /service-providers/{sp_id}/ein-search).
+  flows: []
+  scope: ein:read
+- description: Connect an existing CRB to the calling service provider by CRB_ID.
+  flows: []
+  scope: connect-crb-to-sp:write
+- description: Generate Green Check Access credentials on behalf of a CRB so the service provider can operate that CRB's document-management calls.
+  flows: []
+  scope: create-crb-api-key:write
+- description: Use the Trace proxy pass-through to state contracted track-and-trace systems (all HTTP methods on /trace/*).
+  flows: []
+  scope: trace
+- description: Present as an alternative on every operation except the token endpoint. A token carrying `admin` satisfies the requirement on all 48 secured operations, including every Trace write. This is the one scope an integrator should never accept if a narrower one will do.
+  flows: []
+  scope: admin
 slug: green-check-verified-scopes
 source_filename: green-check-verified-scopes.yml
 source_heading: OAuth Scopes
@@ -137,7 +181,7 @@ source_yaml: "generated: '2026-08-22'\nmethod: searched\nsource: >-\n  openapi/g
   \ customers and documents.\n  - name: point-of-sale:write\n    operations: 1\n    description: Applied to the CRB customer-search operation (GET .../customers-search). Note this is a read in HTTP terms but is scoped as a write in the contract.\n  - name: crb:read\n    operations: 3\n    description: Read a CRB directly by crb_id, and list/read that CRB's documents, on the CRB-scoped (non service-provider) routes.\n  - name: ein:read\n    operations: 1\n    description: Search existing CRBs by EIN (GET /service-providers/{sp_id}/ein-search).\n  - name: connect-crb-to-sp:write\n    operations: 1\n    description: Connect an existing CRB to the calling service provider by CRB_ID.\n  - name: create-crb-api-key:write\n    operations: 1\n    description: Generate Green Check Access credentials on behalf of a CRB so the service provider can operate that CRB's document-management calls.\n  - name: trace\n    operations: 6\n    description: Use the Trace proxy pass-through to state contracted track-and-trace\
   \ systems (all HTTP methods on /trace/*).\n  - name: admin\n    operations: 48\n    description: >-\n      Present as an alternative on every operation except the token endpoint. A token carrying `admin`\n      satisfies the requirement on all 48 secured operations, including every Trace write. This is the\n      one scope an integrator should never accept if a narrower one will do.\npublished_scope_example:\n  source: https://developer.greencheckverified.com/guides/integration-overview\n  scope: [ServiceProviderRead, ServiceProviderWrite]\n  note: >-\n    The docs' example token response shows human-readable scope names (ServiceProviderRead /\n    ServiceProviderWrite) that do NOT match the colon-delimited scope strings in the OpenAPI\n    (service-provider:read / service-provider:write). Recorded verbatim from both sources rather than\n    reconciled — an integrator should expect one naming or the other and confirm with Green Check\n    which the issued token actually carries.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/scopes/green-check-verified-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 10 scopes · client_credentials
 tags:
 - Company
 - Cannabis
@@ -151,5 +195,7 @@ tags:
 - Due Diligence
 - KYC
 - Data Aggregation
-token_urls: []
+token_bound: false
+token_urls:
+- https://prod-api.greencheckverified.com/auth/token
 ---

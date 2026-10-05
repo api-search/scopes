@@ -85,5 +85,6 @@ tags:
 - Software-as-a-Service
 - MCP
 - Agent Surface
+token_bound: false
 token_urls: []
 ---

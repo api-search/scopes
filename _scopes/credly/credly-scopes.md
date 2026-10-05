@@ -89,6 +89,7 @@ tags:
 - Certification
 - Verifiable Credentials
 - Pearson
+token_bound: false
 token_urls:
 - https://api.credly.com/oauth/token
 ---

@@ -113,6 +113,7 @@ tags:
 - Transportation
 - Trucking
 - Fortune 500
+token_bound: false
 token_urls:
 - https://login.okta.com/oauth2/v1/token
 ---

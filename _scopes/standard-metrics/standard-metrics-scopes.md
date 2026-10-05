@@ -97,6 +97,9 @@ note: ''
 overview: 'Standard Metrics publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Standard Metrics API on a user''s behalf.
 
 
+  Tokens are issued from https://api.standardmetrics.io/o/token/.
+
+
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Standard Metrics
 provider_slug: standard-metrics
@@ -138,5 +141,7 @@ tags:
 - Metrics
 - Reporting
 - MCP
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.standardmetrics.io/o/token/
 ---

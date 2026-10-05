@@ -245,6 +245,7 @@ tags:
 - Candidates
 - Job
 - Onboarding
+token_bound: false
 token_urls:
 - https://api.greenhouse.io/oauth/token
 ---

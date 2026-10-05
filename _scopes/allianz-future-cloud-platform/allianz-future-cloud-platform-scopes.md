@@ -105,6 +105,7 @@ tags:
 - Insurance
 - Platform Engineering
 - Kubernetes
+token_bound: false
 token_urls:
 - https://platform.allianz.com/oauth2/token
 ---

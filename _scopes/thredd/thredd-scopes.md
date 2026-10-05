@@ -72,5 +72,6 @@ tags:
 - Fraud Prevention
 - Open Banking
 - FAPI
+token_bound: false
 token_urls: []
 ---

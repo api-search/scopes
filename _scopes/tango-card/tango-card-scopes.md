@@ -128,6 +128,7 @@ tags:
 - Payments
 - Loyalty
 - Loyalty & Incentives
+token_bound: false
 token_urls:
 - https://auth.tangocard.com/oauth/token
 ---

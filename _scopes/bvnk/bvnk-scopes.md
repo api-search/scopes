@@ -806,6 +806,7 @@ tags:
 - Digital Assets
 - Banking
 - Compliance
+token_bound: false
 token_urls:
 - https://auth.layer1.com/auth/realms/bvnk/protocol/openid-connect/token
 ---

@@ -128,6 +128,7 @@ tags:
 - Membership
 - Transaction
 - Creator Economy
+token_bound: false
 token_urls:
 - https://developers.teachable.com/oauth/token
 ---

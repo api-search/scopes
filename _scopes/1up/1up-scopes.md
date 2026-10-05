@@ -70,6 +70,7 @@ tags:
 - Agents
 - Software-as-a-Service
 - Revenue Operations
+token_bound: false
 token_urls:
 - https://mcp.1up.ai/token
 ---

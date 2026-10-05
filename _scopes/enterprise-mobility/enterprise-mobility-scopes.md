@@ -124,6 +124,7 @@ tags:
 - Fleet Management
 - Insurance Replacement Rental
 - Booking
+token_bound: false
 token_urls:
 - https://apimarketplaceprod.b2clogin.com/apimarketplaceprod.onmicrosoft.com/b2c_1a_signin/oauth2/v2.0/token
 ---

@@ -98,6 +98,7 @@ tags:
 - Careers
 - Community Brands
 - Momentive Software
+token_bound: false
 token_urls:
 - https://ws.yourmembership.com/Ams/Authenticate
 - https://ws.yourmembership.com/OAuth/GetAccessToken

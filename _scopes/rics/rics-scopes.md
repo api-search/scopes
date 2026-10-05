@@ -115,6 +115,7 @@ tags:
 - Regulations
 - Construction
 - PropTech
+token_bound: false
 token_urls:
 - https://b2clogin.rics.org/ricsb2clive.onmicrosoft.com/b2c_1a_rics_signup_signin/oauth2/v2.0/token
 ---

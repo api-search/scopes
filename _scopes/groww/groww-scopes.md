@@ -84,6 +84,7 @@ tags:
 - Market Data
 - Algorithmic Trading
 - India
+token_bound: false
 token_urls:
 - https://api.groww.in/oauth2/v1/token
 ---

@@ -1,15 +1,21 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://{instance}.trisotech.com/oauth2/auth
 description: ''
 docs: https://cloud.trisotech.com/help/admin/client-apps.html
-flows: []
+flows:
+- authorization_code
+- client_credentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Trisotech Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Trisotech publishes 20 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Trisotech API on a user''s behalf.
+overview: 'Trisotech publishes 20 OAuth 2.0 scopes via the authorization_code and client_credentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Trisotech API on a user''s behalf.
+
+
+  Tokens are issued from https://{instance}.trisotech.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -108,7 +114,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://cloud.t
   \ Provider explicitly discourages use.\n  - scope: mvn_r\n    name: Execution environment read\n    description: Query the execution environments and their content.\n  - scope: mvn_w\n    name: Execution environment write\n    description: Publish and delete services in execution environments.\n  - scope: mvn_d\n    name: Execution environment download\n    description: Download services from execution environments.\n  - scope: emitter_r\n    name: Emitter read\n    description: Read emitter configuration and audit log files.\n  - scope: emitter_w\n    name: Emitter write\n    description: Write emitter configuration.\n  - scope: bpmn_x\n    name: BPMN execution\n    description: Access the workflow automation API.\n  - scope: cmmn_x\n    name: CMMN execution\n    description: Access the case automation API.\n  - scope: dmn_x\n    name: DMN execution\n    description: Access the decision automation API.\n  - scope: docker_r\n    name: Docker read\n    description: Download containers built\
   \ locally.\n  - scope: asset_w\n    name: Assets write\n    description: Write to the static assets resource.\n  - scope: openid\n    name: OpenID\n    description: >-\n      Can be used by Digital Distributed Containers to obtain an OpenID token identity.\nnotes:\n  - >-\n    20 grants are published. One (service_x) is marked deprecated by the provider and\n    one (openid) is an identity grant rather than an API access scope; both are kept\n    in the list and flagged rather than dropped.\n  - >-\n    Scopes are granted at the Client App level in the Administration application,\n    not requested per-authorization-request in the docs shown.\nevidence:\n  - url: https://cloud.trisotech.com/help/admin/client-apps.html\n    status: 200\n  - url: https://cloud.trisotech.com/oauth2/token\n    status: 405\n    note: GET rejected with \"HTTP method GET is not supported by this URL\" — endpoint is live and POST-only.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trisotech/refs/heads/main/scopes/trisotech-scopes.yml
-summary_line: 20 scopes
+summary_line: 20 scopes · authorization_code/client_credentials
 tags:
 - Business Process Management
 - Decision Management
@@ -124,5 +130,7 @@ tags:
 - AI Agents
 - MCP
 - Enterprise Architecture
-token_urls: []
+token_bound: false
+token_urls:
+- https://{instance}.trisotech.com/oauth2/token
 ---

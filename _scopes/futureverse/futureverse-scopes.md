@@ -12,7 +12,8 @@ api_specs:
   slug: futureverse-quests-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/openapi/futureverse-quests-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://login.futureverse.app/auth
 description: ''
 docs: https://docs.therootnetwork.com/learn/features/identity-protocol
 flows: []
@@ -22,16 +23,27 @@ method: probed
 name: Futureverse Scopes
 name_suffix: OAuth Scopes
 note: derive-oauth-scopes.py found no oauth2 securityScheme to derive from — the only OpenAPI in this repo is the generated RootRewards description, which uses an API key. These scopes are read directly from the live FuturePass OIDC discovery document instead, and saved verbatim to well-known/futureverse-openid-configuration.json.
-overview: 'Futureverse uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Futureverse publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Futureverse API on a user''s behalf.
+
+
+  Tokens are issued from https://login.futureverse.app/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Futureverse
 provider_slug: futureverse
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- openid
+- offline_access
+scopes:
+- description: Required OIDC scope. Requests an ID token identifying the FuturePass subject.
+  flows: []
+  scope: openid
+- description: Requests a refresh token so the client can obtain new access tokens without user interaction.
+  flows: []
+  scope: offline_access
 slug: futureverse-scopes
 source_filename: futureverse-scopes.yml
 source_heading: OAuth Scopes
@@ -40,7 +52,7 @@ source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: https://login.fut
   \ a refresh token so the client can obtain new access tokens without user interaction.\n    standard: true\n\nfinding: >-\n  FuturePass publishes exactly the two baseline OIDC scopes and nothing else. There is no\n  product-level authorization vocabulary — no read/write split, no per-resource scope, no\n  consent-visible permission a user could reason about. Everything an integrating application is\n  permitted to do is decided outside the token. What FuturePass DOES carry is unusually rich\n  identity: the discovery document advertises custom claims (eoa, custodian, chainId, futurepass,\n  connectorId, passName) that bind the OIDC subject to an on-chain smart wallet. So the token is\n  strong on WHO and silent on WHAT.\n\nclaims_supported:\n  - sub\n  - iss\n  - sid\n  - auth_time\n  - email\n  - profile\n  - eoa\n  - custodian\n  - chainId\n  - futurepass\n  - connectorId\n  - passName\n\nother_surfaces:\n  - api: Futureverse Asset Register API\n    model: >-\n      No OAuth scopes.\
   \ Authorization is either a SIWE bearer token (admin operations) or a\n      wallet-signed ARTM transaction (state changes). Permission is proven by key ownership, not\n      granted by scope.\n  - api: RootRewards Quest API\n    model: >-\n      No OAuth. An `sk_`-prefixed API key bound to the quest owner account; authorization is\n      ownership of the quest, checked server-side.\n  - api: The Root Network Documentation MCP Server\n    model: >-\n      Unauthenticated. Neither /.well-known/oauth-protected-resource nor\n      /.well-known/oauth-authorization-server is served on the MCP host (both 404).\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/scopes/futureverse-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Blockchain
 - Web3
@@ -57,5 +69,7 @@ tags:
 - Agent-Native
 - MCP
 - A2A
-token_urls: []
+token_bound: false
+token_urls:
+- https://login.futureverse.app/token
 ---

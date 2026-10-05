@@ -412,5 +412,6 @@ tags:
 - Affiliate Marketing
 - Influencer Marketing
 - Referral Marketing
+token_bound: false
 token_urls: []
 ---

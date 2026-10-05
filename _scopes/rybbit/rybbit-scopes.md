@@ -208,6 +208,7 @@ tags:
 - Privacy
 - Open Source
 - Cookieless
+token_bound: false
 token_urls:
 - https://app.rybbit.io/api/auth/mcp/token
 ---

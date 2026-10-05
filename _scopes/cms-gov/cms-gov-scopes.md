@@ -366,6 +366,7 @@ tags:
 - Quality Measures
 - Claims Data
 - Government Data
+token_bound: false
 token_urls:
 - https://api.bluebutton.cms.gov/v2/o/token/
 ---

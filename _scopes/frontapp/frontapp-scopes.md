@@ -277,6 +277,7 @@ tags:
 - Messaging
 - Collaboration
 - Help Desk
+token_bound: false
 token_urls:
 - https://app.frontapp.com/oauth/token
 ---

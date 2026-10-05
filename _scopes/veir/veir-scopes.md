@@ -66,6 +66,7 @@ tags:
 - Infrastructure
 - Superconductors
 - Content
+token_bound: false
 token_urls:
 - https://veir.com/oauth/token
 ---

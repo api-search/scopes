@@ -49,6 +49,7 @@ tags:
 - Recommendations
 - Courseware
 - Higher Education
+token_bound: false
 token_urls:
 - https://api.knewton.com/v0/oauth/token
 ---

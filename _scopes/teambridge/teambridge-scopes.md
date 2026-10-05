@@ -80,6 +80,7 @@ tags:
 - Human Resources
 - Frontline
 - Webhook
+token_bound: false
 token_urls:
 - https://teambridge.us.auth0.com/oauth/token
 ---

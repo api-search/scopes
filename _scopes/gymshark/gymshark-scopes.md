@@ -115,7 +115,7 @@ tags:
 - Consumer
 - Direct to Consumer
 - Identity
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://auth.gymshark.com/oauth/token
 ---

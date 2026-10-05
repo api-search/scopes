@@ -68,6 +68,7 @@ tags:
 - Agentic Commerce
 - Shopify
 - MCP
+token_bound: false
 token_urls:
 - https://accounts.awaytravel.com/authentication/oauth/token
 ---

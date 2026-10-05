@@ -184,16 +184,32 @@ method: probed
 name: Launchdarkly Scopes
 name_suffix: OAuth Scopes
 note: These scopes come from LaunchDarkly's own RFC 8414 Authorization Server Metadata document, fetched anonymously — not from prose. The v2 REST OpenAPI declares only an ApiKey security scheme and no oauth2 securityScheme at all, so derive-oauth-scopes.py finds nothing in the spec; the OAuth surface is real but lives outside the contract, which is exactly the gap this artifact closes.
-overview: 'LaunchDarkly uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'LaunchDarkly publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LaunchDarkly API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: LaunchDarkly
 provider_slug: launchdarkly
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- reader
+- writer
+- observability
+- offline_access
+scopes:
+- description: Read access across LaunchDarkly resources. Declared in scopes_supported; the metadata document does not enumerate which resources, and the provider publishes no per-scope permission table, so the resource mapping is not recorded here rather than being invented.
+  flows: []
+  scope: reader
+- description: Write access across LaunchDarkly resources. Corresponds in spirit to the Writer base role the MCP-server docs recommend for an access token.
+  flows: []
+  scope: writer
+- description: Access to the observability surface — sessions, errors, logs, traces, alerts and dashboards. This is the surface the hosted MCP server exposes through its 21 observability tools, none of which have a public REST equivalent.
+  flows: []
+  scope: observability
+- description: Standard OIDC/OAuth scope requesting a refresh token for long-lived agent sessions.
+  flows: []
+  scope: offline_access
 slug: launchdarkly-scopes
 source_filename: launchdarkly-scopes.yml
 source_heading: OAuth Scopes
@@ -203,7 +219,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   \    description: >-\n      Access to the observability surface — sessions, errors, logs, traces, alerts and\n      dashboards. This is the surface the hosted MCP server exposes through its 21\n      observability tools, none of which have a public REST equivalent.\n  - name: offline_access\n    description: Standard OIDC/OAuth scope requesting a refresh token for long-lived agent sessions.\nscope_count: 4\ngranularity: coarse\nfinding: >-\n  Four coarse scopes for a 401-operation API. An agent granted `writer` can delete a\n  project, a flag and 50 other resource types; there is no way to grant flag-write\n  without also granting environment-delete. Fine-grained authorization exists in\n  LaunchDarkly, but it lives in custom roles attached to a token (resource specifiers\n  like proj/{key}:env/*:flag/*), not in the OAuth scope set — so the OAuth path is the\n  BLUNTER of the two authorization models this provider offers.\nalternative_authorization:\n  model: custom-roles\n  docs: https://launchdarkly.com/docs/home/account/roles\n\
   \  syntax: 'resources: [\"proj/${roleAttribute/projectKey}:env/*:flag/*\"], actions: [\"*\"]'\n  availability: Enterprise plan (custom roles and teams are an Enterprise feature per the pricing page)\n  note: >-\n    The provider's own MCP-server documentation publishes a recommended custom role for\n    an MCP access token, granting all actions on flags and AgentControl configs plus\n    viewProject, scoped to one project. That is the finest-grained authorization\n    LaunchDarkly documents for an agent.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/scopes/launchdarkly-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Feature Flags
 - Feature Management
@@ -215,5 +231,6 @@ tags:
 - Release Management
 - Developer Tools
 - T1
+token_bound: false
 token_urls: []
 ---

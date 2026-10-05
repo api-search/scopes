@@ -67,6 +67,7 @@ tags:
 - WordPress
 - Retail
 - MCP
+token_bound: false
 token_urls:
 - https://www.redefinemeat.com/oauth/token
 ---

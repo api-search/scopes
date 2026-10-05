@@ -162,5 +162,6 @@ tags:
 - Manufacturing Execution Systems
 - Historian
 - Grid
+token_bound: false
 token_urls: []
 ---

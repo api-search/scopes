@@ -255,6 +255,7 @@ tags:
 - Security
 - Smart Home
 - Fortune 1000
+token_bound: false
 token_urls:
 - https://auth.adt.com/services/oauth2/token
 ---

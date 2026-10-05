@@ -253,6 +253,7 @@ tags:
 - Webhook
 - MCP
 - A2A
+token_bound: false
 token_urls:
 - https://app.lemlist.com/oauth/token
 ---

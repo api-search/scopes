@@ -139,6 +139,7 @@ tags:
 - Wallets
 - Agentic Payments
 - MCP
+token_bound: false
 token_urls:
 - https://api.natural.com/oauth/token
 ---

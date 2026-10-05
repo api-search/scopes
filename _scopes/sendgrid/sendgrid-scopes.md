@@ -427,5 +427,6 @@ tags:
 - Email Marketing
 - Deliverability
 - Marketing
+token_bound: false
 token_urls: []
 ---

@@ -209,9 +209,10 @@ tags:
 - Logistics
 - Transportation Management System
 - Supply Chain
-- Brokerage
 - Shipping
 - Payments
 - Company
+- Freight Brokerage
+token_bound: false
 token_urls: []
 ---

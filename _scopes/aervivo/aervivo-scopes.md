@@ -1,5 +1,6 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://portal.aervivo.com/services/oauth2/authorize
 description: ''
 docs: ''
 flows: []
@@ -10,6 +11,9 @@ name: Aervivo Scopes
 name_suffix: OAuth Scopes
 note: 'scopes_supported as advertised by the authorization server at issuer https://portal.aervivo.com. IMPORTANT: this is a Salesforce Experience Cloud identity surface running on an Aervivo host - the vocabulary below is the Salesforce platform''s standard scope set (api, web, lightning, pardot_api, cdp_* and so on), not scopes Aervivo defined for an Aervivo API. Recorded verbatim because it is what the server publishes; do not read it as evidence that Aervivo ships a scoped public API.'
 overview: 'Aervivo publishes 36 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Aervivo API on a user''s behalf.
+
+
+  Tokens are issued from https://portal.aervivo.com/services/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -182,5 +186,7 @@ tags:
 - Connectivity
 - Real Estate
 - Cloud
-token_urls: []
+token_bound: false
+token_urls:
+- https://portal.aervivo.com/services/oauth2/token
 ---

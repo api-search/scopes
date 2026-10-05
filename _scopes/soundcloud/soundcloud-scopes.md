@@ -86,6 +86,7 @@ tags:
 - Authentication
 - Tracks
 - Playlists
+token_bound: false
 token_urls:
 - https://secure.soundcloud.com/oauth/token
 ---

@@ -156,6 +156,7 @@ tags:
 - License Management
 - SaaS Management
 - Software Asset Management
+token_bound: false
 token_urls:
 - https://app.trelica.com/connect/token
 ---

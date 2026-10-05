@@ -321,6 +321,9 @@ note: ''
 overview: 'Zoom Phone publishes 435 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Zoom Phone API on a user''s behalf.
 
 
+  Tokens are issued from https://zoom.us/oauth/token.
+
+
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Zoom Phone
 provider_slug: zoom-phone
@@ -2569,5 +2572,7 @@ tags:
 - Carrier Peering
 - Contact Center
 - Communications
-token_urls: []
+token_bound: false
+token_urls:
+- https://zoom.us/oauth/token
 ---

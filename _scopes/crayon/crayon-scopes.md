@@ -52,6 +52,7 @@ tags:
 - Product Marketing
 - Artificial Intelligence
 - MCP
+token_bound: false
 token_urls:
 - https://app.crayon.co/oauth/token/
 ---

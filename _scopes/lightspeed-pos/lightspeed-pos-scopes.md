@@ -319,6 +319,7 @@ tags:
 - Retail
 - Restaurant
 - E-Commerce
+token_bound: false
 token_urls:
 - /oauth/token
 - https://cloud.lightspeedapp.com/oauth/access_token.php

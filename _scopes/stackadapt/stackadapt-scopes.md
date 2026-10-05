@@ -75,6 +75,7 @@ tags:
 - Real-Time Bidding
 - Conversion Tracking
 - Performance Reporting
+token_bound: false
 token_urls:
 - https://www.stackadapt.com/oauth/token
 ---

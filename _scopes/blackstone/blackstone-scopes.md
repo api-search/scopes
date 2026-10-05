@@ -36,5 +36,6 @@ tags:
 - Private Equity
 - Real Estate
 - Fortune 500
+token_bound: false
 token_urls: []
 ---

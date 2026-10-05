@@ -178,6 +178,7 @@ tags:
 - Open Source
 - gRPC
 - AI Agents
+token_bound: false
 token_urls:
 - https://identity.eventstore.com/oauth/token
 ---

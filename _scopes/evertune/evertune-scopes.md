@@ -112,6 +112,7 @@ tags:
 - AI Visibility
 - Analytics
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://auth.evertune.ai/oauth/token
 ---

@@ -119,6 +119,7 @@ tags:
 - Solar
 - EV Charging
 - Identity
+token_bound: false
 token_urls:
 - https://auth.eonnext.com/oauth/token
 ---

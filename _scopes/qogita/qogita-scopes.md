@@ -51,6 +51,7 @@ tags:
 - B2B
 - Retail
 - Distribution
+token_bound: false
 token_urls:
 - https://api.qogita.com/staff/oauth/token
 ---

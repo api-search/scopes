@@ -71,6 +71,7 @@ tags:
 - Universal Commerce Protocol
 - Shopify
 - Direct to Consumer
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/56010965185/oauth/token
 ---

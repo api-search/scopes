@@ -40,16 +40,20 @@ method: searched
 name: Runbuggy Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'RunBuggy uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'RunBuggy publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the RunBuggy API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: RunBuggy
 provider_slug: runbuggy
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- openid
+scopes:
+- description: The only scope value published by RunBuggy. Requested in the body of the platform oauth2/token call to mint the short-lived JWT that authorizes an unauthenticated buyer or seller to view a single order's status in an iframe.
+  flows: []
+  scope: openid
 slug: runbuggy-scopes
 source_filename: runbuggy-scopes.yml
 source_heading: OAuth Scopes
@@ -58,7 +62,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: well-known/runb
   \  can act for another company only after RunBuggy establishes that authorization\n    out-of-band (\"Your Runbuggy support contact can work with you to establish this\n    authorization\"), and the caller then discovers it via the Companies API.'\n  docs: https://docs.runbuggy.com/docs/shipping/94fced2e96c5f-placing-an-order-for-another-company\nscopes:\n- name: openid\n  used_by: embeddable order-status iframe token exchange\n  description: The only scope value published by RunBuggy. Requested in the body of the\n    platform oauth2/token call to mint the short-lived JWT that authorizes an\n    unauthenticated buyer or seller to view a single order's status in an iframe.\n  grants: read access to one order's status for the token lifetime (documented as 60\n    seconds)\n  source: https://docs.runbuggy.com/docs/shipping/d483faef38c3b-embedding-i-frame-order-status\nmcp_authorization_server:\n  issuer: https://apps.runbuggy.com/runbuggy/mcp-datascience\n  metadata: well-known/runbuggy-oauth-authorization-server.json\n\
   \  scopes_supported: null\n  detail: The RFC 8414 metadata document omits `scopes_supported` entirely. An MCP\n    client performing dynamic client registration has no published vocabulary to request\n    against, and the protected-resource metadata that would normally carry it is not\n    served.\ngaps:\n- No scope or permission reference page exists on docs.runbuggy.com.\n- The REST API has no scopes, so a bearer token is all-or-nothing across all 28\n  operations — including order creation and cancellation.\n- The MCP authorization server advertises no scopes_supported.\nx-evidence:\n  fetched: '2026-08-05'\n  probes:\n  - url: https://apps.runbuggy.com/.well-known/oauth-authorization-server\n    http_status: 200\n  - url: https://docs.runbuggy.com/docs/shipping/d483faef38c3b-embedding-i-frame-order-status\n    http_status: 200\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/scopes/runbuggy-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Company
 - Automotive
@@ -70,5 +74,6 @@ tags:
 - Fleet
 - TMS
 - Freight
+token_bound: false
 token_urls: []
 ---

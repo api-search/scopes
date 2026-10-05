@@ -9,16 +9,72 @@ method: probed
 name: Oncolens Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'OncoLens uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'OncoLens publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the OncoLens API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: OncoLens
 provider_slug: oncolens
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- email
+- email_verified
+- address
+- phone
+- offline_access
+- name
+- given_name
+- family_name
+- nickname
+- picture
+- created_at
+- identities
+scopes:
+- description: Required to issue an ID token; signals an OpenID Connect request.
+  flows: []
+  scope: openid
+- description: Basic profile claims (name, given_name, family_name, nickname, picture, updated_at).
+  flows: []
+  scope: profile
+- description: The end user's email address claim.
+  flows: []
+  scope: email
+- description: Whether the end user's email address has been verified.
+  flows: []
+  scope: email_verified
+- description: The end user's postal address claim.
+  flows: []
+  scope: address
+- description: The end user's phone number and verification status.
+  flows: []
+  scope: phone
+- description: Requests a refresh token so the client can obtain new access tokens without the user present.
+  flows: []
+  scope: offline_access
+- description: Full display name claim.
+  flows: []
+  scope: name
+- description: First name claim.
+  flows: []
+  scope: given_name
+- description: Last name claim.
+  flows: []
+  scope: family_name
+- description: Nickname / short display name claim.
+  flows: []
+  scope: nickname
+- description: Profile picture URL claim.
+  flows: []
+  scope: picture
+- description: Account creation timestamp claim.
+  flows: []
+  scope: created_at
+- description: Linked identity-provider connections for the account.
+  flows: []
+  scope: identities
 slug: oncolens-scopes
 source_filename: oncolens-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +83,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://login.onc
   \ Required to issue an ID token; signals an OpenID Connect request.\n  standard: OpenID Connect Core 1.0\n- name: profile\n  description: Basic profile claims (name, given_name, family_name, nickname, picture, updated_at).\n  standard: OpenID Connect Core 1.0\n- name: email\n  description: The end user's email address claim.\n  standard: OpenID Connect Core 1.0\n- name: email_verified\n  description: Whether the end user's email address has been verified.\n  standard: Auth0 profile claim\n- name: address\n  description: The end user's postal address claim.\n  standard: OpenID Connect Core 1.0\n- name: phone\n  description: The end user's phone number and verification status.\n  standard: OpenID Connect Core 1.0\n- name: offline_access\n  description: Requests a refresh token so the client can obtain new access tokens without the user present.\n  standard: OpenID Connect Core 1.0\n- name: name\n  description: Full display name claim.\n  standard: Auth0 profile claim\n- name: given_name\n\
   \  description: First name claim.\n  standard: Auth0 profile claim\n- name: family_name\n  description: Last name claim.\n  standard: Auth0 profile claim\n- name: nickname\n  description: Nickname / short display name claim.\n  standard: Auth0 profile claim\n- name: picture\n  description: Profile picture URL claim.\n  standard: Auth0 profile claim\n- name: created_at\n  description: Account creation timestamp claim.\n  standard: Auth0 profile claim\n- name: identities\n  description: Linked identity-provider connections for the account.\n  standard: Auth0 profile claim\nclaims_supported:\n- aud\n- auth_time\n- created_at\n- email\n- email_verified\n- exp\n- family_name\n- given_name\n- iat\n- identities\n- iss\n- name\n- nickname\n- phone_number\n- picture\n- sub\nchecked: '2026-08-26'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oncolens/refs/heads/main/scopes/oncolens-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Company
 - Healthcare
@@ -42,5 +98,6 @@ tags:
 - Cancer Registry
 - Life Sciences
 - Software-as-a-Service
+token_bound: false
 token_urls: []
 ---

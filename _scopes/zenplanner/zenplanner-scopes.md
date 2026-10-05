@@ -88,6 +88,7 @@ tags:
 - Scheduling
 - Class Booking
 - Daxko
+token_bound: false
 token_urls:
 - https://api.partners.daxko.com/v3/partners/oauth2/token
 ---

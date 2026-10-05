@@ -80,6 +80,7 @@ tags:
 - E-Commerce
 - Headless
 - Website Builder
+token_bound: false
 token_urls:
 - https://www.wixapis.com/oauth2/token
 ---

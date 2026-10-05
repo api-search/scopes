@@ -160,6 +160,7 @@ tags:
 - Order Management
 - Portfolio Management
 - Trading
+token_bound: false
 token_urls:
 - https://bsso.blpprofessional.com/ext/api/as/token.oauth2
 ---

@@ -105,6 +105,7 @@ tags:
 - Planting
 - Precision Agriculture
 - AgTech
+token_bound: false
 token_urls:
 - https://api.climate.com/api/oauth/token
 ---

@@ -65,6 +65,7 @@ tags:
 - AI Agents
 - ERP Integration
 - Finance Automation
+token_bound: false
 token_urls:
 - https://goledge.us.auth0.com/oauth/token
 ---

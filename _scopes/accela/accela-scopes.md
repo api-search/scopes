@@ -654,23 +654,154 @@ docs:
 - https://developer.accela.com/docs/construct-permissionScopes.html
 - https://developer.accela.com/docs/construct-apiAuth.html
 - https://developer.accela.com/docs/api_reference/api-index.html
-flows: []
+flows:
+- authorization_code
+- implicit
+- password
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Accela Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Accela uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Accela publishes 32 OAuth 2.0 scopes via the authorization_code, implicit, and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Accela API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Accela
 provider_slug: accela
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 32
+scope_names:
+- records
+- inspections
+- contacts
+- settings
+- users
+- assets
+- documents
+- addresses
+- professionals
+- assessments
+- parcels
+- agencies
+- conditions
+- civicid
+- owners
+- shoppingcart
+- payments
+- reports
+- timeaccounting
+- announcements
+- app_data
+- filters
+- gis
+- batch_request
+- costs
+- global_search
+- invoices
+- mileage
+- parts
+- search_costs
+- trustaccounts
+- workflows
+scopes:
+- description: Transactional records (permits, licenses, service requests, applications) and every child resource that hangs off a record — addresses, contacts, conditions, comments, costs, fees, documents, owners, parcels, professionals, workflows and votes.
+  flows: []
+  scope: records
+- description: Inspections, inspection scheduling and results, checklists and checklist items, inspection conditions and approvals, inspectors and inspection time accounting.
+  flows: []
+  scope: inspections
+- description: Reference contacts and their addresses, conditions, custom forms and custom tables.
+  flows: []
+  scope: contacts
+- description: 'Read-only Civic Platform Administration configuration: standard choices, record/inspection/asset types, departments, priorities, statuses, pick lists and drilldowns.'
+  flows: []
+  scope: settings
+- description: Citizen Access user accounts, self-registration, delegates and delegate privileges, and CivicID-linked citizen profiles.
+  flows: []
+  scope: users
+- description: Assets, asset attributes, linked assets, asset documents and the records attached to an asset.
+  flows: []
+  scope: assets
+- description: Document metadata, upload, download and thumbnails, plus the document review surface and document settings.
+  flows: []
+  scope: documents
+- description: Reference addresses, their conditions, the parcels and records they are attached to.
+  flows: []
+  scope: addresses
+- description: Licensed professionals, their conditions and the records they appear on.
+  flows: []
+  scope: professionals
+- description: Condition assessments against assets — observations, attributes, documents and generated work orders.
+  flows: []
+  scope: assessments
+- description: Reference parcels, their conditions, owners, addresses and records.
+  flows: []
+  scope: parcels
+- description: Agency directory, agency environments, environment status and agency logo.
+  flows: []
+  scope: agencies
+- description: Standard conditions and standard approval conditions defined at the agency level.
+  flows: []
+  scope: conditions
+- description: CivicId accounts and profile — the cross-agency identity that links multiple agency Citizen Access accounts to one login.
+  flows: []
+  scope: civicid
+- description: Reference property owners and their conditions.
+  flows: []
+  scope: owners
+- description: Citizen shopping carts used to assemble fees before payment.
+  flows: []
+  scope: shoppingcart
+- description: Payment initialization, commit and void, and transaction fees.
+  flows: []
+  scope: payments
+- description: Report definitions, report categories and report execution.
+  flows: []
+  scope: reports
+- description: Time accounting entries against records and inspections.
+  flows: []
+  scope: timeaccounting
+- description: Agency announcements shown to citizens, and marking them read.
+  flows: []
+  scope: announcements
+- description: App settings and Civic Platform server properties (AA version).
+  flows: []
+  scope: app_data
+- description: Saved filters and filter result execution.
+  flows: []
+  scope: filters
+- description: Reverse geocoding and GIS dynamic themes.
+  flows: []
+  scope: gis
+- description: The batch endpoint, which composes multiple Construct calls into one request.
+  flows: []
+  scope: batch_request
+- description: Record cost items.
+  flows: []
+  scope: costs
+- description: The cross-object global search endpoint.
+  flows: []
+  scope: global_search
+- description: Invoices attached to records.
+  flows: []
+  scope: invoices
+- description: Mileage entries created by field staff.
+  flows: []
+  scope: mileage
+- description: The parts search endpoint.
+  flows: []
+  scope: parts
+- description: The cost search endpoint.
+  flows: []
+  scope: search_costs
+- description: Citizen and record trust accounts.
+  flows: []
+  scope: trustaccounts
+- description: Workflow tasks assigned to the authenticated user.
+  flows: []
+  scope: workflows
 slug: accela-scopes
 source_filename: accela-scopes.yml
 source_heading: OAuth Scopes
@@ -687,7 +818,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://develop
   \  - v4.get.filters\n  - v4.post.filters.id.results\n- name: gis\n  description: Reverse geocoding and GIS dynamic themes.\n  operations: 2\n  specs:\n  - accela-miscellaneous-openapi.yml\n  example_operations:\n  - v4.get.geo.geocode.reverse\n  - v4.get.gis.dynamic.themes\n- name: batch_request\n  description: The batch endpoint, which composes multiple Construct calls into one request.\n  operations: 1\n  specs:\n  - accela-miscellaneous-openapi.yml\n  example_operations:\n  - v4.post.batch\n- name: costs\n  description: Record cost items.\n  operations: 1\n  specs:\n  - accela-records-openapi.yml\n  example_operations:\n  - v4.put.records.recordId.costs.id\n- name: global_search\n  description: The cross-object global search endpoint.\n  operations: 1\n  specs:\n  - accela-search-openapi.yml\n  example_operations:\n  - v4.get.search.global\n- name: invoices\n  description: Invoices attached to records.\n  operations: 1\n  specs:\n  - accela-payments-openapi.yml\n  example_operations:\n\
   \  - v4.get.invoices.invoiceIds\n- name: mileage\n  description: Mileage entries created by field staff.\n  operations: 1\n  specs:\n  - accela-miscellaneous-openapi.yml\n  example_operations:\n  - v4.post.mileage\n- name: parts\n  description: The parts search endpoint.\n  operations: 1\n  specs:\n  - accela-search-openapi.yml\n  example_operations:\n  - v4.post.search.parts\n- name: search_costs\n  description: The cost search endpoint.\n  operations: 1\n  specs:\n  - accela-search-openapi.yml\n  example_operations:\n  - v4.post.search.costs\n- name: trustaccounts\n  description: Citizen and record trust accounts.\n  operations: 1\n  specs:\n  - accela-payments-openapi.yml\n  example_operations:\n  - v4.get.trustAccounts\n- name: workflows\n  description: Workflow tasks assigned to the authenticated user.\n  operations: 1\n  specs:\n  - accela-miscellaneous-openapi.yml\n  example_operations:\n  - v4.get.workflowTasks.mine\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accela/refs/heads/main/scopes/accela-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 32 scopes · authorization_code/implicit/password
 tags:
 - GovTech
 - Government
@@ -701,5 +832,6 @@ tags:
 - Civic Platform
 - Public Sector
 - Software-as-a-Service
+token_bound: false
 token_urls: []
 ---

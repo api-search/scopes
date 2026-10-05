@@ -304,6 +304,7 @@ tags:
 - WebSocket
 - Webhook
 - REST
+token_bound: false
 token_urls:
 - https://api.streamelements.com/oauth2/token
 ---

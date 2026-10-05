@@ -64,6 +64,7 @@ tags:
 - Providers
 - Analytics
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://auth.arbitalhealth.com/propelauth/oauth/token
 ---

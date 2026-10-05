@@ -17,7 +17,7 @@ method: derived
 name: Aspiresingapore Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Aspiresingapore uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Aspiresingapore publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Aspiresingapore API on a user''s behalf.
 
 
   Tokens are issued from https://api.aspireapp.com/public/v1/login.
@@ -32,21 +32,26 @@ schemes:
     tokenUrl: https://api.aspireapp.com/public/v1/login
   name: API_Key_client_credentials
   source: openapi/aspiresingapore-openapi-generated.yml
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- none
+scopes:
+- description: No scopes defined
+  flows: []
+  scope: none
 slug: aspiresingapore-scopes
 source_filename: aspiresingapore-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: derived\nsource: openapi/aspiresingapore-openapi-generated.yml\nschemes:\n- name: API_Key_client_credentials\n  source: openapi/aspiresingapore-openapi-generated.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.aspireapp.com/public/v1/login\nscopes:\n  - name: none\n    description: No scopes defined\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aspiresingapore/refs/heads/main/scopes/aspiresingapore-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope · clientCredentials
 tags:
 - Finance
 - Banking
 - Singapore
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://api.aspireapp.com/public/v1/login
 ---

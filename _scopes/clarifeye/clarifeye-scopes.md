@@ -144,6 +144,7 @@ tags:
 - Agents
 - Enterprise AI
 - Retrieval
+token_bound: false
 token_urls:
 - https://eu.app.clarifeye.ai/o/token/
 ---

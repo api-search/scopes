@@ -155,6 +155,7 @@ tags:
 - Account Information
 - FAPI
 - Fintech
+token_bound: false
 token_urls:
 - https://apis.tsb.co.uk/auth/oauth/v2/token
 ---

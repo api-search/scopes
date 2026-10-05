@@ -116,6 +116,7 @@ tags:
 - iPaaS
 - SAP
 - SAP BTP
+token_bound: false
 token_urls:
 - https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
 ---

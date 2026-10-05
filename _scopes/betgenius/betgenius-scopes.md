@@ -107,5 +107,6 @@ tags:
 - Player Engagement
 - Marketing Technology
 - Gambling
+token_bound: false
 token_urls: []
 ---

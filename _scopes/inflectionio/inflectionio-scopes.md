@@ -117,6 +117,7 @@ tags:
 - Customer Journey
 - Webhook
 - A2A
+token_bound: false
 token_urls:
 - https://auth-v2.inflection.io/oauth2/token
 ---

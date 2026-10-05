@@ -342,6 +342,7 @@ tags:
 - Digital Experience
 - Experience Cloud
 - Partner Portal
+token_bound: false
 token_urls:
 - https://login.salesforce.com/services/oauth2/token
 ---

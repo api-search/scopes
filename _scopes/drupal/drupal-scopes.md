@@ -160,6 +160,8 @@ tags:
 - Self-Hosted
 - Publishing
 - Digital Experience
+- Headless CMS
+token_bound: false
 token_urls:
 - https://example.com/oauth/token
 ---

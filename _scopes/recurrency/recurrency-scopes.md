@@ -88,6 +88,7 @@ tags:
 - eProcurement
 - Supply Chain
 - Order
+token_bound: false
 token_urls:
 - https://api.recurrency.com/oauth/token
 - https://login.recurrency.ai/oauth/token

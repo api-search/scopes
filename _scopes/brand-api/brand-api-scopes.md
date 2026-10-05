@@ -89,6 +89,7 @@ tags:
 - Merchant Enrichment
 - Agent Tools
 - A2A
+token_bound: false
 token_urls:
 - https://developers.brandfetch.com/api/oauth/token
 ---

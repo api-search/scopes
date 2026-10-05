@@ -104,6 +104,7 @@ tags:
 - Animal Health
 - Appointments
 - Billing
+token_bound: false
 token_urls:
 - https://provetcloud.com/0/oauth2/token/
 ---

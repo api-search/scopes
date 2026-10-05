@@ -162,6 +162,7 @@ tags:
 - Market Data
 - Transmission
 - System Operator
+token_bound: false
 token_urls:
 - relative /oauth2 against the spec placeholder server (no SPP host published)
 ---

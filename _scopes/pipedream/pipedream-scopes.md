@@ -227,6 +227,7 @@ tags:
 - AI Agents
 - Workflow Automation
 - Integration
+token_bound: false
 token_urls:
 - https://api.pipedream.com/v1/oauth/token
 ---

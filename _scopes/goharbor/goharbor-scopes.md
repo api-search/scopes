@@ -295,5 +295,6 @@ tags:
 - Kubernetes
 - DevOps
 - Replication
+token_bound: false
 token_urls: []
 ---

@@ -89,6 +89,7 @@ tags:
 - E-Commerce
 - Small Business
 - AI Employees
+token_bound: false
 token_urls:
 - https://clerk.madethis.com/oauth/token
 ---

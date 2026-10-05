@@ -72,6 +72,7 @@ tags:
 - OData
 - RETS
 - Listing Syndication
+token_bound: false
 token_urls:
 - https://api.cotality.com/trestle/oidc/connect/token
 - https://trestle-auth-prd.kfusw1prd.solutions.corelogic.com/connect/token

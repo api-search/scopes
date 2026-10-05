@@ -97,6 +97,7 @@ tags:
 - CRM
 - Workflows
 - Custom Apps
+token_bound: false
 token_urls:
 - https://api.podio.com/oauth/token/v2
 ---

@@ -114,5 +114,6 @@ tags:
 - Credit Decisioning
 - Payment Calculation
 - Prequalification
+token_bound: false
 token_urls: []
 ---

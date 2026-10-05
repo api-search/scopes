@@ -147,5 +147,6 @@ tags:
 - Intent Data
 - Account Identification
 - Data Export
+token_bound: false
 token_urls: []
 ---

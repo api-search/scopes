@@ -1019,6 +1019,7 @@ tags:
 - Identity
 - Data
 - MCP
+token_bound: false
 token_urls:
 - https://api.lucid.co/oauth2/token
 ---

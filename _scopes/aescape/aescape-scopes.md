@@ -86,6 +86,7 @@ tags:
 - Hospitality
 - Recovery
 - Identity
+token_bound: false
 token_urls:
 - https://aescape-8ocoec.zitadel.cloud/oauth/v2/token
 ---

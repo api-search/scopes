@@ -163,6 +163,7 @@ tags:
 - Case Management
 - Fintech
 - Banking
+token_bound: false
 token_urls:
 - /oauth/bearer
 ---

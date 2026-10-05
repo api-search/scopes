@@ -77,6 +77,7 @@ tags:
 - GraphQL
 - MCP
 - Universal Commerce Protocol
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/97378959650/oauth/token
 ---

@@ -220,6 +220,7 @@ tags:
 - IDE Plugins
 - Open Source
 - Public APIs
+token_bound: false
 token_urls:
 - https://wakatime.com/oauth/token
 ---

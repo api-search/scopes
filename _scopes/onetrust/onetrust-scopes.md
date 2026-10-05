@@ -1296,6 +1296,7 @@ tags:
 - ESG
 - Security
 - SCIM
+token_bound: false
 token_urls:
 - https://{hostname}/api/access/v1/oauth/token
 - https://{$$.env.host}/api/access/v1/oauth/token

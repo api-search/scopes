@@ -477,6 +477,7 @@ tags:
 - Webhook
 - Cloud Communications
 - Communications
+token_bound: false
 token_urls:
 - https://api.8x8.com/oauth/v2/token
 ---

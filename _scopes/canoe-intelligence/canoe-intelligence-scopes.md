@@ -116,6 +116,7 @@ tags:
 - Fintech
 - Wealth Management
 - Institutional Investors
+token_bound: false
 token_urls:
 - https://api.canoesoftware.com/oauth/token
 - https://api.canoesoftware.com/v1/tokens

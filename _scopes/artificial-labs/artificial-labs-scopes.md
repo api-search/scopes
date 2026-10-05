@@ -117,6 +117,7 @@ tags:
 - Policy Administration
 - ACORD
 - Algorithmic Underwriting
+token_bound: false
 token_urls:
 - https://auth.artificialos.com/oauth/token
 ---

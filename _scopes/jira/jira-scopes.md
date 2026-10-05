@@ -834,6 +834,7 @@ tags:
 - Project Management
 - Service Management
 - Jira
+token_bound: false
 token_urls:
 - https://auth.atlassian.com/oauth/token
 ---

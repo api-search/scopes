@@ -98,6 +98,7 @@ tags:
 - Cash Offer
 - Renovation
 - Home Buying
+token_bound: false
 token_urls:
 - https://offerpad.okta.com/oauth2/ausftur6n2aTu6Sur357/v1/token
 ---

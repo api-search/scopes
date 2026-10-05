@@ -160,6 +160,7 @@ tags:
 - Identity Threat Detection
 - MSP
 - Webhook
+token_bound: false
 token_urls:
 - https://api.huntress.io/v1/mcp/token
 ---

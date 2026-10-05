@@ -212,6 +212,7 @@ tags:
 - SQL
 - MCP
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://www-api.runreveal.com/oauth/token
 ---

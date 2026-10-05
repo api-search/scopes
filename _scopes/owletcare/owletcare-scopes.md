@@ -67,6 +67,7 @@ tags:
 - IoT
 - Sleep
 - Wearables
+token_bound: false
 token_urls:
 - https://b2b.owletcare.com/authentication/oauth/token
 ---

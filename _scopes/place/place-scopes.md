@@ -101,6 +101,7 @@ tags:
 - Title and Escrow
 - Business Services
 - Identity
+token_bound: false
 token_urls:
 - https://sso.place.com/oauth2/v1/token
 - https://sso.place.com/oauth2/default/v1/token

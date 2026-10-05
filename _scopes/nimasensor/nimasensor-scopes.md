@@ -67,6 +67,7 @@ tags:
 - Celiac
 - E-Commerce
 - IoT
+token_bound: false
 token_urls:
 - https://account.nimanow.com/authentication/oauth/token
 ---

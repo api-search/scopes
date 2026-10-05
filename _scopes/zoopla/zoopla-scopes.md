@@ -87,6 +87,7 @@ tags:
 - Estate Agents
 - Leads
 - CRM Integration
+token_bound: false
 token_urls:
 - https://services-auth.services.zoopla.co.uk/oauth2/token
 ---

@@ -72,5 +72,6 @@ tags:
 - MCP
 - llms-txt
 - EU-hosted
+token_bound: false
 token_urls: []
 ---

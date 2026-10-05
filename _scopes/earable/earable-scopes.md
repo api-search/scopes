@@ -67,6 +67,7 @@ tags:
 - Consumer Electronics
 - Agentic Commerce
 - Shopify
+token_bound: false
 token_urls:
 - https://account.frenzband.com/authentication/oauth/token
 ---

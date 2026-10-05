@@ -522,6 +522,7 @@ tags:
 - Talent Acquisition
 - Labor Compliance
 - HCM
+token_bound: false
 token_urls:
 - https://oauth.harri.com/oauth2/token
 - https://oauth.harristaging.com/oauth2/token

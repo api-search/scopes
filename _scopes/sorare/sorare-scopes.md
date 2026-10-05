@@ -57,6 +57,7 @@ tags:
 - Gaming
 - Sports
 - Web3
+token_bound: false
 token_urls:
 - https://api.sorare.com/oauth/token
 ---

@@ -159,6 +159,7 @@ tags:
 - Building Society
 - Mutual
 - Australia
+token_bound: false
 token_urls:
 - https://openbank-secure.newcastlepermanent.com.au/oauth2/token
 ---

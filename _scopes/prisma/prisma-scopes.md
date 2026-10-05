@@ -237,6 +237,7 @@ tags:
 - AI Agents
 - Provisioning
 - Data Platform
+token_bound: false
 token_urls:
 - https://auth.prisma.io/token
 ---

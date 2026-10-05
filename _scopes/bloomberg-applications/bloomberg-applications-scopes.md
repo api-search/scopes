@@ -9,16 +9,28 @@ method: searched
 name: Bloomberg Applications Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Bloomberg Applications uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Bloomberg Applications publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bloomberg Applications API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Bloomberg Applications
 provider_slug: bloomberg-applications
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- openid
+- user
+- entitlements
+scopes:
+- description: Standard OpenID Connect scope. Requests an id_token identifying the bloomberg.com account. Signed RS256; keys at the published jwks_uri.
+  flows: []
+  scope: openid
+- description: Access to the authenticated user's bloomberg.com profile. Bloomberg publishes the scope name in discovery but no claim-level reference page; description is limited to what the discovery document states.
+  flows: []
+  scope: user
+- description: 'Access to the account''s Bloomberg product entitlements. This is the scope that matters for API consumers: Bloomberg''s authorization model is entitlement-driven end to end, and the same concept appears in BLPAPI as EMRS entitlements and NOT_ENTITLED_FIELD errors.'
+  flows: []
+  scope: entitlements
 slug: bloomberg-applications-scopes
 source_filename: bloomberg-applications-scopes.yml
 source_heading: OAuth Scopes
@@ -27,12 +39,13 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://www.blo
   \    - S256\nscopes:\n  - name: openid\n    description: >-\n      Standard OpenID Connect scope. Requests an id_token identifying the bloomberg.com account.\n      Signed RS256; keys at the published jwks_uri.\n    source: openid-configuration scopes_supported\n  - name: user\n    description: >-\n      Access to the authenticated user's bloomberg.com profile. Bloomberg publishes the scope\n      name in discovery but no claim-level reference page; description is limited to what the\n      discovery document states.\n    source: openid-configuration scopes_supported\n  - name: entitlements\n    description: >-\n      Access to the account's Bloomberg product entitlements. This is the scope that matters for\n      API consumers: Bloomberg's authorization model is entitlement-driven end to end, and the\n      same concept appears in BLPAPI as EMRS entitlements and NOT_ENTITLED_FIELD errors.\n    source: openid-configuration scopes_supported\nunpublished:\n  - api: Bloomberg Data API (Data\
   \ License / HAPI)\n    reason: >-\n      Credentials issued for api.bloomberg.com/eap carry a scopes array, but the scope vocabulary\n      is delivered with the credential under a Data License contract. No anonymous page enumerates\n      it and /.well-known/oauth-authorization-server on that host returns 403.\ndocs: null\ndocs_note: >-\n  No public scopes or permissions reference page was found. developer.bloomberg.com, which would\n  carry it, requires sign-in for every route.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-applications/refs/heads/main/scopes/bloomberg-applications-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes
 tags:
 - Enterprise API
 - Financial Analytics
 - Financial Services
 - Market Data
 - Real-Time Data
+token_bound: false
 token_urls: []
 ---

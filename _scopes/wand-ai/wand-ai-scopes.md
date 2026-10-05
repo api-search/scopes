@@ -9,16 +9,60 @@ method: probed
 name: Wand Ai Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Wand uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Wand publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Wand API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Wand
 provider_slug: wand-ai
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 11
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- offline_access
+- roles
+- web-origins
+- microprofile-jwt
+- acr
+- picture
+scopes:
+- description: Required to make the request an OpenID Connect authentication request.
+  flows: []
+  scope: openid
+- description: Basic profile claims — name, given_name, family_name, preferred_username.
+  flows: []
+  scope: profile
+- description: The email and email_verified claims.
+  flows: []
+  scope: email
+- description: The address claim.
+  flows: []
+  scope: address
+- description: The phone_number and phone_number_verified claims.
+  flows: []
+  scope: phone
+- description: Requests a refresh token usable while the user is not present.
+  flows: []
+  scope: offline_access
+- description: Keycloak realm and client role mappings in the token.
+  flows: []
+  scope: roles
+- description: Keycloak CORS allowed-origins claim.
+  flows: []
+  scope: web-origins
+- description: Eclipse MicroProfile JWT claims (upn, groups).
+  flows: []
+  scope: microprofile-jwt
+- description: Authentication context class reference claim.
+  flows: []
+  scope: acr
+- description: The picture claim.
+  flows: []
+  scope: picture
 slug: wand-ai-scopes
 source_filename: wand-ai-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +71,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: https://auth.wand
   \ Core 1.0\n- name: profile\n  description: Basic profile claims — name, given_name, family_name, preferred_username.\n  standard: OpenID Connect Core 1.0\n- name: email\n  description: The email and email_verified claims.\n  standard: OpenID Connect Core 1.0\n- name: address\n  description: The address claim.\n  standard: OpenID Connect Core 1.0\n- name: phone\n  description: The phone_number and phone_number_verified claims.\n  standard: OpenID Connect Core 1.0\n- name: offline_access\n  description: Requests a refresh token usable while the user is not present.\n  standard: OpenID Connect Core 1.0\n- name: roles\n  description: Keycloak realm and client role mappings in the token.\n  standard: Keycloak built-in\n- name: web-origins\n  description: Keycloak CORS allowed-origins claim.\n  standard: Keycloak built-in\n- name: microprofile-jwt\n  description: Eclipse MicroProfile JWT claims (upn, groups).\n  standard: MicroProfile JWT RBAC\n- name: acr\n  description: Authentication context\
   \ class reference claim.\n  standard: OpenID Connect Core 1.0\n- name: picture\n  description: The picture claim.\n  standard: OpenID Connect Core 1.0\ngaps:\n- >-\n  These are identity scopes only. No authorization scopes for the Wand platform API surface are\n  published, so an integrator cannot tell from public material what a token is allowed to do.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wand-ai/refs/heads/main/scopes/wand-ai-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 11 scopes
 tags:
 - Company
 - Artificial Intelligence
@@ -38,5 +82,6 @@ tags:
 - Process Automation
 - Collaboration
 - Governance
+token_bound: false
 token_urls: []
 ---

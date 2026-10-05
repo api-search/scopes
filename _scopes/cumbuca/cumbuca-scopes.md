@@ -69,6 +69,7 @@ tags:
 - Open Banking
 - Financial Data
 - MCP
+token_bound: false
 token_urls:
 - https://idc.cumbuca.com/realms/cumbuca-mcp/protocol/openid-connect/token
 ---

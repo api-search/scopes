@@ -115,6 +115,7 @@ tags:
 - Inventory
 - Warehouse Management
 - Manufacturing
+token_bound: false
 token_urls:
 - https://{merchant_id}.fulfil.io/oauth/token
 ---

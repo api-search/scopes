@@ -219,6 +219,7 @@ tags:
 - Observability
 - MCP
 - Agent-Native
+token_bound: false
 token_urls:
 - /auth/token
 ---

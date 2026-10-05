@@ -85,6 +85,7 @@ tags:
 - Semantic Web
 - SPARQL
 - Wikipedia
+token_bound: false
 token_urls:
 - https://www.mediawiki.org/w/index.php?title=Special:OAuth/token
 ---

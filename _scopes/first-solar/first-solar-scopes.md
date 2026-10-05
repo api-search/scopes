@@ -232,6 +232,7 @@ tags:
 - Thin Film
 - Utility-Scale Solar
 - Clean Energy
+token_bound: false
 token_urls:
 - https://portal.firstsolar.com/developer/services/oauth2/token
 ---

@@ -107,6 +107,7 @@ tags:
 - Retail
 - Supply Chain
 - Fortune 500
+token_bound: false
 token_urls:
 - https://auth.advanceautoparts.com/oauth/token
 ---

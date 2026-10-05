@@ -105,6 +105,8 @@ tags:
 - MCP
 - Revenue Operations
 - Go-To-Market
+- Data Enrichment
+token_bound: false
 token_urls:
 - https://leadiq-mcp-prod.us.auth0.com/oauth/token
 ---

@@ -379,6 +379,7 @@ tags:
 - Curbside Pickup
 - Returns
 - Delivery
+token_bound: false
 token_urls:
 - https://admin-api.bringg.com/oauth/token
 ---

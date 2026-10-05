@@ -245,6 +245,7 @@ tags:
 - Per Diem
 - Shifts
 - Webhook
+token_bound: false
 token_urls:
 - https://auth.nursa.com/oidc/oauth/token
 ---

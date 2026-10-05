@@ -333,6 +333,7 @@ tags:
 - Contractors
 - Documentation
 - Webhook
+token_bound: false
 token_urls:
 - https://app.companycam.com/oauth/token
 ---

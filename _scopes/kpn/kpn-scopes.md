@@ -791,6 +791,7 @@ tags:
 - Wholesale
 - 5G
 - Europe
+token_bound: false
 token_urls:
 - https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
 - https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials

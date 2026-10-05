@@ -70,6 +70,7 @@ tags:
 - Onboarding
 - Investor Verification
 - Webhook
+token_bound: false
 token_urls:
 - https://api.parallelmarkets.com/v1/oauth/token
 ---

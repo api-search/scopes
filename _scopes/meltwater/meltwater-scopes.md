@@ -174,6 +174,7 @@ tags:
 - News API
 - Social Analytics
 - Media Intelligence
+token_bound: false
 token_urls:
 - https://app.meltwater.com/oauth/token
 ---

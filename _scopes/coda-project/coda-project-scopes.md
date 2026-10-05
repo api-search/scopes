@@ -249,6 +249,7 @@ tags:
 - Artificial Intelligence
 - Content Management
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://coda.io/v4/api/oauth2/token
 ---

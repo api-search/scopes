@@ -322,6 +322,7 @@ tags:
 - Prices
 - Search
 - Food and Beverage
+token_bound: false
 token_urls:
 - auth
 ---

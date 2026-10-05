@@ -67,6 +67,7 @@ tags:
 - People
 - Leave
 - Time Off
+token_bound: false
 token_urls:
 - https://charliehr.com/oauth/token
 ---

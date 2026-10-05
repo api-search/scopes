@@ -613,6 +613,7 @@ tags:
 - Demand Response
 - Tariffs
 - Energy Markets
+token_bound: false
 token_urls:
 - https://auth.edfgb-kraken.energy/token/
 ---

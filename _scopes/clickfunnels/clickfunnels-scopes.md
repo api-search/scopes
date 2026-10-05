@@ -697,6 +697,7 @@ tags:
 - Subscription
 - Marketing Automation
 - Agent Skills
+token_bound: false
 token_urls:
 - https://accounts.myclickfunnels.com/oauth/token
 ---

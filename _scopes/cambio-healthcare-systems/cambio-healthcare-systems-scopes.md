@@ -30,7 +30,8 @@ api_specs:
   slug: cambio-healthcare-systems-well-known-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-well-known-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://api.openservices.cambio.se/auth/realms/COS/protocol/openid-connect/auth
 description: ''
 docs: https://developer.openservices.cambio.se/getting-started
 flows: []
@@ -41,6 +42,9 @@ name: Cambio Healthcare Systems Scopes
 name_suffix: OAuth Scopes
 note: 'Scopes read verbatim from scopes_supported in the Cambio Open Services OpenID Connect discovery document (HTTP 200, anonymous). Cambio uses SMART-on-FHIR scope syntax — <context>/<Resource>.<permissions> where context is user, patient or system — over both the FHIR R4 server and the COSMIC REST APIs. Permission letters follow SMART v2: c=create, r=read, u=update, d=delete, s=search; the legacy .read/.write/-read/-write forms are also published.'
 overview: 'Cambio Healthcare Systems uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+
+
+  Tokens are issued from https://api.openservices.cambio.se/auth/realms/COS/protocol/openid-connect/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -94,5 +98,7 @@ tags:
 - openEHR
 - SMART on FHIR
 - Company
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.openservices.cambio.se/auth/realms/COS/protocol/openid-connect/token
 ---

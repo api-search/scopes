@@ -308,6 +308,7 @@ tags:
 - Payments
 - Account Information
 - Open Data
+token_bound: false
 token_urls:
 - https://authserver.example/token
 ---

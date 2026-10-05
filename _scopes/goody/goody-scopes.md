@@ -143,6 +143,7 @@ tags:
 - MCP
 - Webhook
 - Rewards
+token_bound: false
 token_urls:
 - https://api.ongoody.com/oauth/token
 ---

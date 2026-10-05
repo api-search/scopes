@@ -151,6 +151,7 @@ tags:
 - MCP
 - Agents
 - Authentication
+token_bound: false
 token_urls:
 - https://beta-api.nectarsocial.com/oauth/token
 ---

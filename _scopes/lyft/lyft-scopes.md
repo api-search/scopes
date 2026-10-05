@@ -42,7 +42,8 @@ api_specs:
   slug: lyft-rides-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-rides-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://api.lyft.com/oauth/authorize
 description: 'The complete OAuth 2.0 scope vocabulary Lyft publishes for api.lyft.com, read verbatim from the provider''s own RFC 8414 authorization-server metadata. Lyft''s developer portal is login-gated, so this anonymous discovery document is the only public source for the scope vocabulary; no scope reference page is publicly readable and Lyft publishes no human-readable description for any individual scope, so none is recorded here. The family: grouping is our own, derived from the scope prefix.'
 docs: ''
 flows: []
@@ -53,6 +54,9 @@ name: Lyft Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Lyft publishes 47 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Lyft API on a user''s behalf.
+
+
+  Tokens are issued from https://api.lyft.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -271,5 +275,7 @@ tags:
 - GBFS
 - Logistics
 - Travel
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.lyft.com/oauth/token
 ---

@@ -95,6 +95,7 @@ tags:
 - Customer Experience
 - Telephony
 - Analytics
+token_bound: false
 token_urls:
 - https://{region}.cc.vonage.com/Auth/connect/token
 ---

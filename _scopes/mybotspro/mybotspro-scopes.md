@@ -90,7 +90,7 @@ tags:
 - Instagram
 - Omnichannel
 - Lead Qualification
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://auth.mybots.pro/connect/token
 ---

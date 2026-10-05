@@ -128,6 +128,7 @@ tags:
 - Life Sciences
 - Medical Imaging
 - Health Data
+token_bound: false
 token_urls:
 - https://auth.precision.concertai.com/oauth/token
 ---

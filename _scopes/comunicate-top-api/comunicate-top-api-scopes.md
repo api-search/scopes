@@ -175,6 +175,7 @@ tags:
 - Open Data
 - Webhook
 - Authentication
+token_bound: false
 token_urls:
 - https://app.comunicate.top/api/v1/oauth/token
 ---

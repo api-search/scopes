@@ -66,6 +66,7 @@ tags:
 - Storage
 - Serverless
 - Real-Time
+token_bound: false
 token_urls:
 - https://api.descope.com/oauth2/v1/apps/token
 ---

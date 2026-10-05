@@ -194,6 +194,7 @@ tags:
 - Order Execution
 - Network Analytics
 - Exchange Connectivity
+token_bound: false
 token_urls:
 - https://portal.pico.net/services/oauth2/token
 ---

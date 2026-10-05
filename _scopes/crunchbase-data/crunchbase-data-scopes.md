@@ -108,6 +108,7 @@ tags:
 - MCP
 - Fortune 1000
 - Startups
+token_bound: false
 token_urls:
 - https://oauth.crunchbase.com/token
 ---

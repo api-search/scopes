@@ -567,6 +567,7 @@ tags:
 - JSON:API
 - Authentication
 - OpenAPI
+token_bound: false
 token_urls:
 - /oauth2/token
 - /oauth/token

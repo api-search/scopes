@@ -213,6 +213,7 @@ tags:
 - Artificial Intelligence
 - Retail
 - E-Commerce
+token_bound: false
 token_urls:
 - https://mcp.cordial.io/oauth/token
 ---

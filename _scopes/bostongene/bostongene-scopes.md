@@ -196,6 +196,7 @@ tags:
 - Diagnostics
 - Life Sciences
 - Clinical Laboratory
+token_bound: false
 token_urls:
 - https://bostongene.my.site.com/services/oauth2/token
 ---

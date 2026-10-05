@@ -294,6 +294,7 @@ tags:
 - MCP
 - Agent-Native
 - Company
+token_bound: false
 token_urls:
 - https://api-v2.7signal.com/oauth2/token
 - https://mcp-v2.7signal.com/token

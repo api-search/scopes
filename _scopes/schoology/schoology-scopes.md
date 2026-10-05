@@ -123,6 +123,7 @@ tags:
 - EdTech
 - LMS
 - K-12
+token_bound: false
 token_urls:
 - https://api.schoology.com/v1/oauth/access_token
 ---

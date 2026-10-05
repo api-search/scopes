@@ -56,6 +56,7 @@ tags:
 - Genomics
 - EMR Integration
 - Diagnostics
+token_bound: false
 token_urls:
 - https://example.invalid/guardant-health/oauth/token
 ---

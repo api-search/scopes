@@ -98,6 +98,7 @@ tags:
 - B2B SaaS
 - Agent Auth
 - Identity Federation
+token_bound: false
 token_urls:
 - https://{environment}.scalekit.com/oauth/token
 ---

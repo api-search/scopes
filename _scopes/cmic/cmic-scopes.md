@@ -83,6 +83,7 @@ tags:
 - ERP
 - Finance
 - Project Management
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
 ---

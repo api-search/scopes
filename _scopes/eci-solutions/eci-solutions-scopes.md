@@ -1311,6 +1311,7 @@ tags:
 - Payments
 - Retail
 - Shipping
+token_bound: false
 token_urls:
 - https://api-user.integrations.ecimanufacturing.com/oauth2/api-user/token
 ---

@@ -203,6 +203,7 @@ tags:
 - Email
 - SMS
 - Mobile
+token_bound: false
 token_urls:
 - https://rest.iad-01.braze.com/oauth/token
 ---

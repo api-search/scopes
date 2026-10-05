@@ -305,6 +305,7 @@ tags:
 - Open Badges
 - OID4VCI
 - Singapore
+token_bound: false
 token_urls:
 - /oauth/token
 ---

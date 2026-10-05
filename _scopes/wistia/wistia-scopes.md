@@ -292,16 +292,44 @@ method: searched
 name: Wistia Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Wistia uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Wistia publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Wistia API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Wistia
 provider_slug: wistia
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 7
+scope_names:
+- all:all
+- all:read
+- media:read
+- media:upload
+- stats:read
+- project:write
+- all:delegate_to_contact_permissions
+scopes:
+- description: Anything you can do with the Wistia API is allowed.
+  flows: []
+  scope: all:all
+- description: All requests for data are allowed, but no changes can be made.
+  flows: []
+  scope: all:read
+- description: All requests for media and project data are allowed. Extends to customization and captions data.
+  flows: []
+  scope: media:read
+- description: Uploading via the API is allowed, as well as fetching data about a single media by hashed ID (medias#show).
+  flows: []
+  scope: media:upload
+- description: All requests for stats data are allowed.
+  flows: []
+  scope: stats:read
+- description: ''
+  flows: []
+  scope: project:write
+- description: ''
+  flows: []
+  scope: all:delegate_to_contact_permissions
 slug: wistia-scopes
 source_filename: wistia-scopes.yml
 source_heading: OAuth Scopes
@@ -313,7 +341,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: >-\n  https://a
   \  - https://docs.wistia.com/reference/get_folders\ntoken_permissions:\n  note: >-\n    Distinct from OAuth scopes. Every operation in the API reference states which API-token\n    permission it requires. These four strings are quoted verbatim from the reference pages\n    indexed by https://docs.wistia.com/llms.txt.\n  tiers:\n  - name: Read all folder and media data\n    kind: read\n  - name: Read, update & delete anything\n    kind: write\n  - name: Read detailed stats\n    kind: stats\n  - name: (any scope allowed)\n    kind: unrestricted\n    note: Used by operations such as Get Account Usage that any token may call.\nagent_auth:\n  note: >-\n    The authorization-server metadata carries a non-standard `agent_auth` block aimed at\n    autonomous clients, pointing at a human/agent-readable onboarding document.\n  skill: https://api.wistia.com/auth.md\n  registration_types_supported:\n  - oauth_dynamic_client_registration\n  identity_types_supported:\n  - user_delegated\n  - application\n\
   \  credential_types_supported:\n  - client_secret\n  - pkce\n  - bearer_token\navailability:\n  note: >-\n    The OAuth2 guide states OAuth2 \"is not yet available for all accounts\" and that customers must\n    contact Wistia to have it enabled — the discovery metadata is public, the grant is gated.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/scopes/wistia-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 7 scopes
 tags:
 - Video Hosting
 - Video Marketing
@@ -325,5 +353,6 @@ tags:
 - Localization
 - MCP
 - Media Management
+token_bound: false
 token_urls: []
 ---

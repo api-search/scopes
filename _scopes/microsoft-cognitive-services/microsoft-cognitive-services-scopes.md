@@ -55,6 +55,7 @@ tags:
 - NLP
 - OpenAI
 - Machine Learning
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 ---

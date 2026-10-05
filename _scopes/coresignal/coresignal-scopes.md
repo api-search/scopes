@@ -113,6 +113,7 @@ tags:
 - Sales Intelligence
 - Talent Intelligence
 - Web Data
+token_bound: false
 token_urls:
 - https://dashboard.coresignal.com/api/auth/oauth2/token
 ---

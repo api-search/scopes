@@ -70,6 +70,7 @@ tags:
 - Cardiology
 - Remote Patient Monitoring
 - Commerce
+token_bound: false
 token_urls:
 - https://account.ekohealth.com/authentication/oauth/token
 ---

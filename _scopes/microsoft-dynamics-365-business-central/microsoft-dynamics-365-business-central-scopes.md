@@ -95,6 +95,7 @@ tags:
 - Small Business
 - Mid-Market
 - Microsoft Dynamics 365
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 ---

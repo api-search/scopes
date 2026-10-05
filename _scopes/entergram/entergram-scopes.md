@@ -106,16 +106,92 @@ method: searched
 name: Entergram Scopes
 name_suffix: OAuth Scopes
 note: Entergram's REST API authenticates with a workspace-scoped X-API-Key header and declares no OAuth flow in its OpenAPI. OAuth2 (authorization_code + PKCE) is used by the hosted MCP server; the scope set below is served verbatim in the RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata at mcp.entergram.com, and echoed in the 401 WWW-Authenticate challenge from the MCP endpoint. Scopes are workspace-granular read/write pairs plus OIDC scopes.
-overview: 'Entergram uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Entergram publishes 19 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Entergram API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Entergram
 provider_slug: entergram
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 19
+scope_names:
+- workspace.read
+- members.read
+- accounts.read
+- contacts.read
+- chats.read
+- chats.write
+- chat_custom_fields.read
+- chat_custom_fields.write
+- messages.read
+- messages.write
+- custom_fields.read
+- custom_fields.write
+- tickets.read
+- tickets.write
+- events.read
+- offline_access
+- openid
+- profile
+- email
+scopes:
+- description: Read workspace metadata.
+  flows: []
+  scope: workspace.read
+- description: Read workspace members.
+  flows: []
+  scope: members.read
+- description: Read connected Telegram accounts.
+  flows: []
+  scope: accounts.read
+- description: Read workspace contacts.
+  flows: []
+  scope: contacts.read
+- description: Read chats and chat metadata.
+  flows: []
+  scope: chats.read
+- description: Write to chats (e.g. internal comments).
+  flows: []
+  scope: chats.write
+- description: Read workspace-shared and actor-scoped chat custom field values.
+  flows: []
+  scope: chat_custom_fields.read
+- description: Write chat custom field values.
+  flows: []
+  scope: chat_custom_fields.write
+- description: Read Telegram message history.
+  flows: []
+  scope: messages.read
+- description: Send Telegram messages and fire broadcasts.
+  flows: []
+  scope: messages.write
+- description: Read custom-column definitions and options.
+  flows: []
+  scope: custom_fields.read
+- description: Manage custom-column definitions, options and values.
+  flows: []
+  scope: custom_fields.write
+- description: Read tickets and ticket comments.
+  flows: []
+  scope: tickets.read
+- description: Create and update tickets and ticket comments.
+  flows: []
+  scope: tickets.write
+- description: Read resumable workspace events.
+  flows: []
+  scope: events.read
+- description: Issue refresh tokens for long-lived access (authorization-server metadata only).
+  flows: []
+  scope: offline_access
+- description: OIDC authentication.
+  flows: []
+  scope: openid
+- description: OIDC profile claims.
+  flows: []
+  scope: profile
+- description: OIDC email claim.
+  flows: []
+  scope: email
 slug: entergram-scopes
 source_filename: entergram-scopes.yml
 source_heading: OAuth Scopes
@@ -124,7 +200,7 @@ source_yaml: "generated: '2026-09-11'\nmethod: searched\nsource: https://mcp.ent
   - name: contacts.read\n  description: Read workspace contacts.\n- name: chats.read\n  description: Read chats and chat metadata.\n- name: chats.write\n  description: Write to chats (e.g. internal comments).\n- name: chat_custom_fields.read\n  description: Read workspace-shared and actor-scoped chat custom field values.\n- name: chat_custom_fields.write\n  description: Write chat custom field values.\n- name: messages.read\n  description: Read Telegram message history.\n- name: messages.write\n  description: Send Telegram messages and fire broadcasts.\n- name: custom_fields.read\n  description: Read custom-column definitions and options.\n- name: custom_fields.write\n  description: Manage custom-column definitions, options and values.\n- name: tickets.read\n  description: Read tickets and ticket comments.\n- name: tickets.write\n  description: Create and update tickets and ticket comments.\n- name: events.read\n  description: Read resumable workspace events.\n- name: offline_access\n  description:\
   \ Issue refresh tokens for long-lived access (authorization-server metadata only).\n- name: openid\n  description: OIDC authentication.\n- name: profile\n  description: OIDC profile claims.\n- name: email\n  description: OIDC email claim.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/entergram/refs/heads/main/scopes/entergram-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 19 scopes
 tags:
 - Messaging
 - Notification
@@ -136,5 +212,6 @@ tags:
 - Sales
 - MCP
 - Webhook
+token_bound: false
 token_urls: []
 ---

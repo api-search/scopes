@@ -80,6 +80,7 @@ tags:
 - Reference Data
 - Market Intelligence
 - Risk Analysis
+token_bound: false
 token_urls:
 - https://login.bezerocarbonmarkets.com/oauth2/token
 ---

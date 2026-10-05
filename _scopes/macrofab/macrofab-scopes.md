@@ -56,6 +56,7 @@ tags:
 - Supply Chain
 - Manufacturing AI
 - ITAR
+token_bound: false
 token_urls:
 - https://factory.macrofab.com/oauth/token
 ---

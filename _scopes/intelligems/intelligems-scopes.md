@@ -126,6 +126,7 @@ tags:
 - MCP
 - Webhook
 - Profit Optimization
+token_bound: false
 token_urls:
 - https://ai.intelligems.io/oauth/token
 ---

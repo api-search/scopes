@@ -74,6 +74,7 @@ tags:
 - Process Builder
 - Salesforce
 - Workflows
+token_bound: false
 token_urls:
 - https://login.salesforce.com/services/oauth2/token
 ---

@@ -204,6 +204,7 @@ tags:
 - pay-per-call
 - Government Forms
 - Company
+token_bound: false
 token_urls:
 - https://api.getemboss.ai/oauth/token
 ---

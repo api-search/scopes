@@ -59,6 +59,7 @@ tags:
 - Vulnerability Management
 - GraphQL
 - Offensive Security
+token_bound: false
 token_urls:
 - https://oauth-proxy.horizon3ai.com/token
 ---

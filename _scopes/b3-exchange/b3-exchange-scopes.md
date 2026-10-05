@@ -112,6 +112,7 @@ tags:
 - Real-Time
 - Reference Data
 - Brazil
+token_bound: false
 token_urls:
 - https://localhost:8089/api/oauth/token
 ---

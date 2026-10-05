@@ -99,6 +99,7 @@ tags:
 - Claims
 - Payment Processing
 - Product
+token_bound: false
 token_urls:
 - https://api.duckcreek.com/oauth/token
 ---

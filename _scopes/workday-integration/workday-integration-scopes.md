@@ -1228,6 +1228,7 @@ tags:
 - HCM
 - Integration
 - Payroll
+token_bound: false
 token_urls:
 - https://{baseUrl}/oauth2/{tenant}/token
 ---

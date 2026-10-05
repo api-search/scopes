@@ -55,6 +55,7 @@ tags:
 - Life Sciences
 - Biotechnology
 - Clinical Laboratory
+token_bound: false
 token_urls:
 - https://dropletbiosci.com/wp-json/oauth/v1/token
 ---

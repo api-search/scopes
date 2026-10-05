@@ -111,6 +111,7 @@ tags:
 - Live Streaming
 - Multistreaming
 - Video Streaming
+token_bound: false
 token_urls:
 - https://api.restream.io/oauth/token
 ---

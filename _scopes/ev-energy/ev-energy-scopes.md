@@ -372,5 +372,6 @@ tags:
 - Solar
 - Home Energy
 - IoT
+token_bound: false
 token_urls: []
 ---

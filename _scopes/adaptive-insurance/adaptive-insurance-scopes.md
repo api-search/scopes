@@ -112,6 +112,7 @@ tags:
 - Managing General Agent
 - Flood
 - Power Outage
+token_bound: false
 token_urls:
 - https://auth.adaptiveinsurance.com/oauth/token
 ---

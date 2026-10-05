@@ -196,6 +196,7 @@ tags:
 - Integration
 - Orchestration
 - Platform-as-a-Service
+token_bound: false
 token_urls:
 - https://{baseUrl}/oauth2/{tenant}/token
 ---

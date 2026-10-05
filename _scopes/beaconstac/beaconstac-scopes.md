@@ -71,5 +71,6 @@ tags:
 - Proximity
 - Webhook
 - MCP
+token_bound: false
 token_urls: []
 ---

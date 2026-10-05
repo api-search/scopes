@@ -117,6 +117,7 @@ tags:
 - FAPI
 - Authentication
 - Financial Services
+token_bound: false
 token_urls:
 - https://api-mtls.iniciador.com.br/token
 ---

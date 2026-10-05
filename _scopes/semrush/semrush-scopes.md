@@ -28,16 +28,20 @@ method: probed
 name: Semrush Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Semrush uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Semrush publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Semrush API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Semrush
 provider_slug: semrush
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp.access
+scopes:
+- description: Grants an MCP client access to the Semrush MCP server, and through it to the Trends API, the whole SEO API, and the read-only methods of the Projects API v3. A single coarse scope — there is no per-API, per-report or read/write split at the OAuth layer.
+  flows: []
+  scope: mcp.access
 slug: semrush-scopes
 source_filename: semrush-scopes.yml
 source_heading: OAuth Scopes
@@ -47,7 +51,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  https://mcp
   \    scope — there is no per-API, per-report or read/write split at the OAuth layer.\n  resources:\n  - https://mcp.semrush.com/v1/mcp\n  - https://mcp.semrush.com/v2/mcp\n  source: RFC 8414 + RFC 9728 metadata documents, fetched 2026-08-13\n\nscope_count: 1\n\nnon_oauth_permissions:\n  note: >-\n    Semrush's real authorization granularity lives on the API key, not on OAuth scopes. A v4\n    API key carries one of two permission settings, plus a TTL.\n  model:\n  - permission: Read-only\n    grants: GET requests\n    example: Get Location\n  - permission: Read and write\n    grants: GET, POST, PUT, PATCH, DELETE\n    example: Create Location\n  key_limits:\n    max_v4_keys_per_account: 100\n    revocable: true\n    ttl_configurable: true\n\ngaps:\n- No scopes or permissions reference page is published in the developer portal.\n- >-\n  The OAuth-authorized REST APIs (Map Rank Tracker, deprecated Projects, deprecated Listing\n  Management) document no scope values at all — only \"include\
   \ an optional scope parameter\n  if the API requires scopes\".\n- >-\n  mcp.access is all-or-nothing: an agent granted it can read every report the subscription\n  entitles, with no way for a user to narrow the grant.\n\nx-evidence:\n- url: https://mcp.semrush.com/.well-known/oauth-authorization-server\n  http_status: 200\n- url: https://mcp.semrush.com/.well-known/oauth-protected-resource/v2/mcp\n  http_status: 200\n- url: https://developer.semrush.com/api/v4/get-started/authorization/\n  http_status: 200\nchecked: '2026-08-13'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/scopes/semrush-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Data
 - Search Engines
@@ -63,5 +67,6 @@ tags:
 - AI Search Visibility
 - Local SEO
 - MCP
+token_bound: false
 token_urls: []
 ---

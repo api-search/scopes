@@ -77,6 +77,7 @@ tags:
 - Video
 - Sensors
 - Commerce
+token_bound: false
 token_urls:
 - https://account.wyze.com/authentication/oauth/token
 ---

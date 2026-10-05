@@ -197,6 +197,7 @@ tags:
 - Retail Media
 - Attribution
 - Offers
+token_bound: false
 token_urls:
 - /v1/idp/oauth2/token
 - https://advertiser-auth-preprod.auth.us-east-1.amazoncognito.com/oauth2/token

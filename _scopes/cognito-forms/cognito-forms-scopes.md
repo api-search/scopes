@@ -80,6 +80,7 @@ tags:
 - Workflow Automation
 - Data Collection
 - OData
+token_bound: false
 token_urls:
 - https://cognitoforms.com/admin/oauthtoken
 ---

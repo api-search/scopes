@@ -166,5 +166,6 @@ tags:
 - Applicant Tracking
 - Hourly Workforce
 - Restaurant
+token_bound: false
 token_urls: []
 ---

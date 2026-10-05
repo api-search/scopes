@@ -361,6 +361,7 @@ tags:
 - Sweden
 - Agentic Commerce
 - Consumer Finance
+token_bound: false
 token_urls:
 - https://login.klarna.com/oauth2/token
 ---

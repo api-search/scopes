@@ -310,6 +310,8 @@ tags:
 - Data Export
 - Workspace
 - Visualization
+- Data Visualization
+token_bound: false
 token_urls:
 - https://accounts.zoho.com/oauth/v2/token
 ---

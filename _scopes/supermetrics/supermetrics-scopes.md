@@ -112,6 +112,7 @@ tags:
 - Reporting
 - Business Intelligence
 - Data Warehouse
+token_bound: false
 token_urls:
 - https://api.supermetrics.com/oauth/token
 ---

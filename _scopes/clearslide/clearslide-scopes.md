@@ -104,6 +104,7 @@ tags:
 - CRM
 - Authentication
 - SCIM
+token_bound: false
 token_urls:
 - https://oauth.platform.clearslide.com/oauth/token
 ---

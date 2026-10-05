@@ -158,6 +158,7 @@ tags:
 - Multi-User
 - Notebooks
 - Python
+token_bound: false
 token_urls:
 - /hub/api/oauth2/token
 ---

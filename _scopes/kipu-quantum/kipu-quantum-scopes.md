@@ -100,6 +100,7 @@ tags:
 - SDK
 - REST API
 - Germany
+token_bound: false
 token_urls:
 - https://login.hub.kipu-quantum.com/realms/planqk/protocol/openid-connect/token
 ---

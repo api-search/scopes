@@ -66,6 +66,7 @@ tags:
 - Power Electronics
 - Hardware
 - Content
+token_bound: false
 token_urls:
 - https://www.fabric8labs.com/oauth/token
 ---

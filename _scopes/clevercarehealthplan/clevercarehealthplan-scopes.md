@@ -94,6 +94,7 @@ tags:
 - Provider Directory
 - Drug Formulary
 - CMS-9115-F
+token_bound: false
 token_urls:
 - https://fhir-portal.clevercarehealthplan.com/oauth2/token
 ---

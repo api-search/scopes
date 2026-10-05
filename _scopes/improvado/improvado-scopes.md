@@ -82,6 +82,7 @@ tags:
 - AI Agents
 - MCP
 - Agent Readiness
+token_bound: false
 token_urls:
 - https://report.improvado.io/api/dts/v2/oauth/o/token/
 ---

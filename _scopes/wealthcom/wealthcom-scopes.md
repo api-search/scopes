@@ -58,5 +58,6 @@ tags:
 - Financial Advisors
 - Fintech
 - Artificial Intelligence
+token_bound: false
 token_urls: []
 ---

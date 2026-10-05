@@ -168,6 +168,7 @@ tags:
 - Employee Benefits
 - SOAP
 - OpenAPI
+token_bound: false
 token_urls:
 - https://{tenant}.workday.com/ccx/oauth2/{tenant}/token
 ---

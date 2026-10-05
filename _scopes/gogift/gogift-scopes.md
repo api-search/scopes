@@ -9,16 +9,60 @@ method: probed
 name: Gogift Scopes
 name_suffix: OAuth Scopes
 note: The API reference at docs.gogift.io never names a scope. Which of AuthApi / finance_api / retail_api a given client is granted is decided by GoGift when it provisions the client id and secret. Treat the non-standard scopes below as observed-from-discovery, not as a provider-published permissions reference.
-overview: 'GoGift uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'GoGift publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the GoGift API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: GoGift
 provider_slug: gogift
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 11
+scope_names:
+- openid
+- profile
+- email
+- address
+- offline_access
+- Permissions
+- PhoneNumber
+- Country
+- AuthApi
+- retail_api
+- finance_api
+scopes:
+- description: Requests an ID token; required for any OpenID Connect authentication request.
+  flows: []
+  scope: openid
+- description: Basic profile claims (name, family_name, given_name, preferred_username, locale, updated_at, picture, website, gender, birthdate, zoneinfo).
+  flows: []
+  scope: profile
+- description: The email and email_verified claims.
+  flows: []
+  scope: email
+- description: The address claim.
+  flows: []
+  scope: address
+- description: Issues a refresh token so the client can renew the access token without re-authenticating.
+  flows: []
+  scope: offline_access
+- description: GoGift-defined scope releasing the `Permissions` claim, which carries the caller's platform permission set.
+  flows: []
+  scope: Permissions
+- description: GoGift-defined scope releasing the `PhoneNumber` claim.
+  flows: []
+  scope: PhoneNumber
+- description: GoGift-defined scope releasing the `Country` claim, used for locale/currency resolution.
+  flows: []
+  scope: Country
+- description: Access to the GoGift authorization server's own administrative API surface (auth.gogift.io/api/user, /api/group, /api/permission, /api/client, /api/apiresource and the other endpoints advertised as *_endpoint in the discovery document).
+  flows: []
+  scope: AuthApi
+- description: Access to the retail/commerce surface on api.gogift.io — the product catalogue, basket and order endpoints (POST|GET /products/filter, GET /products/{id}, POST /baskets, PUT /baskets, POST /baskets/finalize).
+  flows: []
+  scope: retail_api
+- description: Access to the finance surface, consistent with the `InvoiceByFinance` payment method the basket finalisation endpoint accepts.
+  flows: []
+  scope: finance_api
 slug: gogift-scopes
 source_filename: gogift-scopes.yml
 source_heading: OAuth Scopes
@@ -29,7 +73,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: https://auth.gogi
   \ false\n  - name: retail_api\n    standard: false\n    description: >-\n      Access to the retail/commerce surface on api.gogift.io — the product catalogue, basket\n      and order endpoints (POST|GET /products/filter, GET /products/{id}, POST /baskets,\n      PUT /baskets, POST /baskets/finalize).\n    documented: false\n    inferred: true\n    inference_basis: scope name matched against the documented endpoint families; GoGift does not state the mapping.\n  - name: finance_api\n    standard: false\n    description: >-\n      Access to the finance surface, consistent with the `InvoiceByFinance` payment method the\n      basket finalisation endpoint accepts.\n    documented: false\n    inferred: true\n    inference_basis: scope name matched against the documented `InvoiceByFinance` payment method; GoGift does not state the mapping.\nclaims_supported:\n  - sub\n  - name\n  - family_name\n  - given_name\n  - middle_name\n  - nickname\n  - zoneinfo\n  - locale\n  - updated_at\n  - birthdate\n\
   \  - gender\n  - preferred_username\n  - profile\n  - picture\n  - website\n  - email\n  - email_verified\n  - Permissions\n  - PhoneNumber\n  - Country\n  - address\n  - openid\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gogift/refs/heads/main/scopes/gogift-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 11 scopes
 tags:
 - Gift Cards
 - Rewards
@@ -39,5 +83,6 @@ tags:
 - Payments
 - Employee Recognition
 - Loyalty & Incentives
+token_bound: false
 token_urls: []
 ---

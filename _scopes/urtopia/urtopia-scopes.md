@@ -68,6 +68,7 @@ tags:
 - Smart Hardware
 - Mobility
 - E-Commerce
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/58358104213/oauth/token
 ---

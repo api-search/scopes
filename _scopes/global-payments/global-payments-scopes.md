@@ -87,6 +87,7 @@ tags:
 - Payments
 - Point-of-Sale
 - Fortune 1000
+token_bound: false
 token_urls:
 - https://apis.globalpay.com/oauth2/token
 ---

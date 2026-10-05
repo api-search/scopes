@@ -233,6 +233,7 @@ tags:
 - Payments
 - Real-Time Payments
 - SWIFT
+token_bound: false
 token_urls:
 - https://auth.montran.com/oauth2/token
 ---

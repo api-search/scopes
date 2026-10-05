@@ -139,6 +139,7 @@ tags:
 - Kong
 - Platform
 - Self-Service
+token_bound: false
 token_urls:
 - https://developer.apiable.io/api/oauth2/token
 ---

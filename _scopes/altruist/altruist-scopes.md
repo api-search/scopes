@@ -52,6 +52,7 @@ tags:
 - RIA
 - Investing
 - Authentication
+token_bound: false
 token_urls:
 - https://openapi.altruist.com/altruist-open-api/oauth2/token
 ---

@@ -114,5 +114,6 @@ tags:
 - Customer Owned
 - Product Reference Data
 - Mutual Bank
+token_bound: false
 token_urls: []
 ---

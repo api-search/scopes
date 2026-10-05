@@ -59,6 +59,7 @@ tags:
 - GraphQL
 - Developer Platform
 - Authentication
+token_bound: false
 token_urls:
 - https://equipmentshare-erp.us.auth0.com/oauth/token
 ---

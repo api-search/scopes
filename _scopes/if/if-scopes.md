@@ -91,6 +91,7 @@ tags:
 - Foreign Exchange
 - Compliance
 - Open Banking
+token_bound: false
 token_urls:
 - https://account.integrated.finance/auth/realms/ifp/protocol/openid-connect/token
 ---

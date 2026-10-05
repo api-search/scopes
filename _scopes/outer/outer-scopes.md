@@ -71,6 +71,7 @@ tags:
 - Agentic Commerce
 - Shopify
 - Universal Commerce Protocol
+token_bound: false
 token_urls:
 - https://account.liveouter.com/authentication/oauth/token
 ---

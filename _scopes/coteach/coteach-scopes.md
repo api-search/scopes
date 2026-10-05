@@ -70,6 +70,7 @@ tags:
 - AI Assistant
 - Illustrative Mathematics
 - MCP
+token_bound: false
 token_urls:
 - https://www.coteach.ai/api/oauth/token
 ---

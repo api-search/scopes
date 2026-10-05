@@ -91,6 +91,7 @@ tags:
 - Agent Skills
 - Video Generation
 - Media Buying
+token_bound: false
 token_urls:
 - https://superscale.ai/__clerk/oauth/token
 ---

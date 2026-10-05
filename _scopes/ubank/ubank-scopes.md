@@ -123,5 +123,6 @@ tags:
 - Digital Bank
 - Consumer Banking
 - Australia
+token_bound: false
 token_urls: []
 ---

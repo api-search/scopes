@@ -77,6 +77,6 @@ tags:
 - Open Access
 - OAI-PMH
 - SAML
-- OpenID Connect
+token_bound: false
 token_urls: []
 ---

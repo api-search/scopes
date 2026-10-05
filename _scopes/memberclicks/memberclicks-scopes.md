@@ -103,6 +103,7 @@ tags:
 - Event
 - CRM
 - Personify
+token_bound: false
 token_urls:
 - https://{orgId}.memberclicks.net/oauth/v1/token
 ---

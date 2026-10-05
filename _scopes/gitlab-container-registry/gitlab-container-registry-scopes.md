@@ -60,6 +60,7 @@ tags:
 - Containers
 - GitLab
 - Registry
+token_bound: false
 token_urls:
 - https://gitlab.com/oauth/token
 ---

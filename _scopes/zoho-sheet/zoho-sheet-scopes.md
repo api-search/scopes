@@ -72,6 +72,7 @@ tags:
 - Data
 - Office
 - Zoho
+token_bound: false
 token_urls:
 - https://accounts.zoho.com/oauth/v2/token
 - https://accounts.zoho.com/oauth/v3/device/token

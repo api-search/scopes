@@ -59,6 +59,7 @@ tags:
 - Healthcare
 - Mental Health
 - MCP
+token_bound: false
 token_urls:
 - https://www.engrail.com/oauth/token
 ---

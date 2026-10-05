@@ -51,6 +51,7 @@ tags:
 - AI Security
 - Vulnerability Management
 - Container Security
+token_bound: false
 token_urls:
 - https://cspm.<tenant>.accuknox.com/api/v1/o/token/
 ---

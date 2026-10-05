@@ -90,6 +90,7 @@ tags:
 - Agents
 - MCP
 - Company
+token_bound: false
 token_urls:
 - https://mcp.conviva.com/oauth/token
 - https://dpi-mcp.conviva.com/oauth/token

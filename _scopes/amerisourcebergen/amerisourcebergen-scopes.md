@@ -79,6 +79,7 @@ tags:
 - Animal Health
 - Life Sciences
 - Fortune 100
+token_bound: false
 token_urls:
 - https://ab-cloud-foundry-prd.authentication.us21.hana.ondemand.com/oauth/token
 ---

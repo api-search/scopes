@@ -67,6 +67,7 @@ tags:
 - Generative AI
 - Computer Vision
 - LLM API
+token_bound: false
 token_urls:
 - https://signin.sensecore.cn/oauth2/token
 ---

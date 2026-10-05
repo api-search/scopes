@@ -2563,6 +2563,7 @@ tags:
 - Experimentation
 - Feature Flags
 - Marketing
+token_bound: false
 token_urls:
 - https://app.optimizely.com/oauth2/token
 - https://api.cmp.optimizely.com/oauth/token

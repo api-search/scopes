@@ -9,16 +9,68 @@ method: probed
 name: American International Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'American International Group (AIG) uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'American International Group (AIG) publishes 13 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the American International Group (AIG) API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: American International Group (AIG)
 provider_slug: american-international
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 13
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- offline_access
+- device_sso
+- interclient_access
+- emeasme
+- okta.myAccount.appAuthenticator.manage
+- okta.myAccount.appAuthenticator.read
+- okta.myAccount.appAuthenticator.maintenance.manage
+- okta.myAccount.appAuthenticator.maintenance.read
+scopes:
+- description: OpenID Connect authentication; required to receive an ID token.
+  flows: []
+  scope: openid
+- description: Basic profile claims (name, preferred_username, locale, updated_at).
+  flows: []
+  scope: profile
+- description: The email and email_verified claims.
+  flows: []
+  scope: email
+- description: The address claim.
+  flows: []
+  scope: address
+- description: The phone_number and phone_number_verified claims.
+  flows: []
+  scope: phone
+- description: Issues a refresh token so the client can renew access without user interaction.
+  flows: []
+  scope: offline_access
+- description: Okta device single-sign-on; binds the token to a registered device.
+  flows: []
+  scope: device_sso
+- description: Okta token-exchange scope permitting one client's token to be exchanged for another client's. AIG-configured; no AIG documentation states which clients it bridges.
+  flows: []
+  scope: interclient_access
+- description: AIG-specific custom scope. The name reads as EMEA + SME (small and medium enterprise), which would match AIG's EMEA small-business lines, but AIG publishes nothing that states its meaning or the resources it grants. Recorded as UNKNOWN — the reading is an observation, not a claim.
+  flows: []
+  scope: emeasme
+- description: Manage the user's own Okta app authenticator enrollment.
+  flows: []
+  scope: okta.myAccount.appAuthenticator.manage
+- description: Read the user's own Okta app authenticator enrollment.
+  flows: []
+  scope: okta.myAccount.appAuthenticator.read
+- description: Manage maintenance state of the user's own Okta app authenticator.
+  flows: []
+  scope: okta.myAccount.appAuthenticator.maintenance.manage
+- description: Read maintenance state of the user's own Okta app authenticator.
+  flows: []
+  scope: okta.myAccount.appAuthenticator.maintenance.read
 slug: american-international-scopes
 source_filename: american-international-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +80,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: >-\n  https://aut
   \ which\n      would match AIG's EMEA small-business lines, but AIG publishes nothing that states its meaning\n      or the resources it grants. Recorded as UNKNOWN — the reading is an observation, not a claim.\n    standard: false\n    vendor: AIG\n    meaning: unknown\n  - name: okta.myAccount.appAuthenticator.manage\n    description: Manage the user's own Okta app authenticator enrollment.\n    standard: false\n    vendor: Okta\n  - name: okta.myAccount.appAuthenticator.read\n    description: Read the user's own Okta app authenticator enrollment.\n    standard: false\n    vendor: Okta\n  - name: okta.myAccount.appAuthenticator.maintenance.manage\n    description: Manage maintenance state of the user's own Okta app authenticator.\n    standard: false\n    vendor: Okta\n  - name: okta.myAccount.appAuthenticator.maintenance.read\n    description: Read maintenance state of the user's own Okta app authenticator.\n    standard: false\n    vendor: Okta\nfinding: >-\n  Of the 13 scopes AIG's\
   \ customer-platform authorization server advertises, 11 are stock OIDC or\n  Okta platform scopes and exactly ONE (emeasme) is an AIG business scope. There is no scope that\n  names an insurance resource — no policy, quote, claim, certificate or producer scope is exposed\n  anonymously. Whatever authorization the commercial gateway applies is not expressed in the\n  discoverable scope set.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/american-international/refs/heads/main/scopes/american-international-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 13 scopes
 tags:
 - Insurance
 - Property Casualty
@@ -38,5 +90,6 @@ tags:
 - Financial Services
 - Reinsurance
 - Fortune 500
+token_bound: false
 token_urls: []
 ---

@@ -77,6 +77,7 @@ tags:
 - Citizenship
 - Case Status
 - FOIA
+token_bound: false
 token_urls:
 - https://api-int.uscis.gov/oauth/accesstoken
 ---

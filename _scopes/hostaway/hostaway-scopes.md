@@ -127,6 +127,7 @@ tags:
 - Booking.com
 - Expedia
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://api.hostaway.com/v1/accessTokens
 ---

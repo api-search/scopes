@@ -111,6 +111,7 @@ tags:
 - GraphQL
 - MCP
 - Agents
+token_bound: false
 token_urls:
 - https://auth.buffer.com/token
 ---

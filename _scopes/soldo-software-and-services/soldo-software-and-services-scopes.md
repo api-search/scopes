@@ -619,6 +619,7 @@ tags:
 - Fintech
 - Financial Services
 - Webhook
+token_bound: false
 token_urls:
 - https://api.soldo.com/oauth/authorize
 ---

@@ -81,6 +81,7 @@ tags:
 - Cybersecurity
 - Fraud Prevention
 - Unified API Protection
+token_bound: false
 token_urls:
 - https://mcp.aigateway.cequence.ai/token
 ---

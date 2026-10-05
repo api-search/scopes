@@ -158,6 +158,7 @@ tags:
 - Generative AI
 - Brand Management
 - Enterprise
+token_bound: false
 token_urls:
 - https://api-us.typeface.ai/mcp/oauth/token
 ---

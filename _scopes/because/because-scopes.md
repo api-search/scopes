@@ -67,6 +67,7 @@ tags:
 - Senior Care
 - Agentic Commerce
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/61841768621/oauth/token
 ---

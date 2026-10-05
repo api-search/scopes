@@ -110,6 +110,7 @@ tags:
 - Developer Experience
 - Software Catalog
 - GraphQL
+token_bound: false
 token_urls:
 - https://auth.atlassian.com/oauth/token
 ---

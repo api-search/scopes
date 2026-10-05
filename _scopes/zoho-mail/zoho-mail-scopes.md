@@ -127,6 +127,7 @@ tags:
 - Contacts
 - Organization Management
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://accounts.zoho.com/oauth/v2/token
 ---

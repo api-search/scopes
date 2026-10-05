@@ -86,6 +86,7 @@ tags:
 - Claims
 - Fintech
 - Fortune 500
+token_bound: false
 token_urls:
 - https://api.travelers.com/oauth/token
 ---

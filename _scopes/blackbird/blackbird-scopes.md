@@ -135,5 +135,6 @@ tags:
 - Crypto
 - Blockchain
 - Web3
+token_bound: false
 token_urls: []
 ---

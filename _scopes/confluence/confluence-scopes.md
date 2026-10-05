@@ -595,6 +595,8 @@ tags:
 - Documentation
 - Knowledge Base
 - Wiki
+- Knowledge Management
+token_bound: false
 token_urls:
 - https://auth.atlassian.com/oauth/token
 ---

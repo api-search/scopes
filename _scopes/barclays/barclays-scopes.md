@@ -625,6 +625,7 @@ tags:
 - Payments
 - UK Banking
 - Variable Recurring Payments
+token_bound: false
 token_urls:
 - https://authserver.example/token
 - https://token.tiaa-dev.us.barclays.intranet:8443/as/token.oauth2

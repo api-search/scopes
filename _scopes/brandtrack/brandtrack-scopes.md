@@ -114,6 +114,7 @@ tags:
 - In-Store Experience
 - Media
 - Sound
+token_bound: false
 token_urls:
 - https://api.brandtrack.fm/oauth/token
 ---

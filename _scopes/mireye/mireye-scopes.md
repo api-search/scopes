@@ -158,6 +158,7 @@ tags:
 - Risk Management
 - Insurance
 - Data
+token_bound: false
 token_urls:
 - https://api.mireye.com/token
 ---

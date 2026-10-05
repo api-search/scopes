@@ -553,6 +553,7 @@ tags:
 - Storefront
 - Catalog
 - Shipping
+token_bound: false
 token_urls:
 - https://[mystorename.com]/api/oauth/access_token
 ---

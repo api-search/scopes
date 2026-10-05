@@ -159,6 +159,7 @@ tags:
 - Content
 - Agents
 - MCP
+token_bound: false
 token_urls:
 - https://engine.prod.bria-api.com/v2/auth/token
 - https://mcp.internal.production.bria-api.com/token

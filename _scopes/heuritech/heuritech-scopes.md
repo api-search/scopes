@@ -66,6 +66,7 @@ tags:
 - Market Intelligence
 - Consumer Insights
 - Social Media Analytics
+token_bound: false
 token_urls:
 - https://heuritech.com/oauth/token
 ---

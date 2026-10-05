@@ -64,6 +64,7 @@ tags:
 - Shopify
 - Retail
 - MCP
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/56172019867/oauth/token
 ---

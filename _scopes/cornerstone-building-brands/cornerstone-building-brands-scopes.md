@@ -56,6 +56,7 @@ tags:
 - MCP
 - WordPress
 - News
+token_bound: false
 token_urls:
 - https://www.cornerstonebuildingbrands.com/oauth/token
 ---

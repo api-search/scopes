@@ -113,6 +113,7 @@ tags:
 - Reverse Email Lookup
 - Logo API
 - A2A
+token_bound: false
 token_urls:
 - https://debounce.com/wp-json/novamira/v1/oauth/token
 ---

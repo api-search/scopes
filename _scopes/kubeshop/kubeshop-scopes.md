@@ -219,6 +219,7 @@ tags:
 - Quality Assurance
 - Open Source
 - MCP
+token_bound: false
 token_urls:
 - https://api.testkube.io/mcp/auth/token
 ---

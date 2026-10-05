@@ -332,6 +332,7 @@ tags:
 - Lifecycle Stages
 - Connections
 - Privacy
+token_bound: false
 token_urls:
 - /rest/v2/oauth/token
 ---

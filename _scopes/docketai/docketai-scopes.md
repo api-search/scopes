@@ -79,6 +79,7 @@ tags:
 - Lead Qualification
 - Go-To-Market
 - MCP
+token_bound: false
 token_urls:
 - https://angelic-precision-36.authkit.app/oauth2/token
 ---

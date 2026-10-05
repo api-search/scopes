@@ -64,16 +64,20 @@ method: probed
 name: Astrology Api Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Astrology API uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Astrology API publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Astrology API API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Astrology API
 provider_slug: astrology-api
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- offline_access
+scopes:
+- description: Standard OIDC/OAuth scope requesting a refresh token so the client can obtain new access tokens without the user being present. Declared in scopes_supported.
+  flows: []
+  scope: offline_access
 slug: astrology-api-scopes
 source_filename: astrology-api-scopes.yml
 source_heading: OAuth Scopes
@@ -82,7 +86,7 @@ source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: https://mcp.astro
   \ client_credentials, refresh_token]\n  code_challenge_methods_supported: [S256, plain]\n  token_endpoint_auth_methods_supported: [none]\n  dynamic_client_registration: advertised\n  metadata_defect: >-\n    The authorization_servers entry in the protected-resource document, and the issuer in the\n    authorization-server document, both carry literal double-quote characters inside the value, so\n    the issuer they name is not a resolvable URL. See conformance/astrology-api-conformance.yml.\nscopes:\n  - name: offline_access\n    description: >-\n      Standard OIDC/OAuth scope requesting a refresh token so the client can obtain new access tokens\n      without the user being present. Declared in scopes_supported.\n    source: https://mcp.astrologyapi.com/.well-known/oauth-protected-resource\n    verified: probed\nscope_count: 1\nfindings:\n  - >-\n    offline_access is a token-lifetime scope, not a permission. It says the client may keep working\n    while the user is away; it says nothing\
   \ about which of the 109 advertised MCP tools the client\n    may call. There is no read/write split, no per-product scope (Vedic, Western, PDF, Vision, Chat),\n    and no way to issue an agent a credential narrower than the whole tool surface.\n  - >-\n    The REST API has no scope model whatsoever. Authorisation is by plan membership — a subscription\n    key reaches the endpoints in its package and 401s on the rest — which is a commercial boundary\n    enforced server-side, not a scope a client can request or attenuate.\n  - >-\n    A wallet access token reaches every wallet-billed endpoint including PDF generation, which is the\n    most expensive operation on the platform at up to ₹100 per report. There is no scope, no spend\n    cap, and no read-only variant, so an agent handed a token to compute a birth chart is also\n    handed the ability to bill unlimited PDF reports.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/scopes/astrology-api-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Astrology
 - Horoscopes
@@ -99,5 +103,6 @@ tags:
 - PDF Reports
 - MCP
 - Ephemeris
+token_bound: false
 token_urls: []
 ---

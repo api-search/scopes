@@ -150,26 +150,39 @@ api_specs:
   slug: budgetpixel-mini-max-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/openapi/budgetpixel-mini-max-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://mcp.budgetpixel.com/oauth/authorize
 description: ''
 docs: ''
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Budgetpixel Scopes
 name_suffix: OAuth Scopes
 note: derive-oauth-scopes.py found no oauth2 securityScheme in the OpenAPI -- correctly, because the REST API is bearer-API-key only and has no scope surface at all. The OAuth surface belongs entirely to the MCP server, and these scopes were read from its live RFC 8414 metadata document rather than from a spec.
-overview: 'BudgetPixel uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'BudgetPixel publishes 2 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the BudgetPixel API on a user''s behalf.
+
+
+  Tokens are issued from https://mcp.budgetpixel.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: BudgetPixel
 provider_slug: budgetpixel
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- openid
+- profile
+scopes:
+- description: OIDC-named scope advertised in the authorization server metadata. Note that no /.well-known/openid-configuration is served on any host, so this is an OAuth server offering an OIDC-named scope rather than a conformant OpenID Provider.
+  flows: []
+  scope: openid
+- description: Basic profile of the signed-in BudgetPixel account. The end user authenticates with Google SSO during the connect flow and the connector then acts as that account.
+  flows: []
+  scope: profile
 slug: budgetpixel-scopes
 source_filename: budgetpixel-scopes.yml
 source_heading: OAuth Scopes
@@ -178,7 +191,7 @@ source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: https://mcp.budge
   \ scope advertised in the authorization server metadata. Note that no /.well-known/openid-configuration\n    is served on any host, so this is an OAuth server offering an OIDC-named scope rather than a conformant\n    OpenID Provider.\n  source: 'probed: scopes_supported'\n- name: profile\n  description: Basic profile of the signed-in BudgetPixel account. The end user authenticates with Google\n    SSO during the connect flow and the connector then acts as that account.\n  source: 'probed: scopes_supported'\nauthorization_model:\n  note: 'The scopes carry NO capability semantics -- neither openid nor profile distinguishes reading\n    the model catalogue from spending credits on a 3,000-credit video generation or publishing publicly\n    to the community feed. Authorization is enforced OUT OF BAND, by the account plan: any account can\n    connect and call list_models, while generation, uploads and posting require Premium, Pro or Ultra.\n    An agent holding a token therefore cannot tell\
   \ from its scopes what it is permitted to do, or what\n    an action will cost.'\n  plan_gate:\n  - Premium\n  - Pro\n  - Ultra\n  anonymous: initialize and tools/list answer with no token at all (verified 2026-08-28); only tool CALLS\n    require the session.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/scopes/budgetpixel-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes · authorization_code
 tags:
 - Generative AI
 - AI Image Generation
@@ -204,5 +217,7 @@ tags:
 - Credit
 - Model Aggregator
 - A2A
-token_urls: []
+token_bound: false
+token_urls:
+- https://mcp.budgetpixel.com/oauth/token
 ---

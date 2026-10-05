@@ -176,6 +176,7 @@ tags:
 - Construction
 - Scan-to-BIM
 - GIS
+token_bound: false
 token_urls:
 - https://aec.cintoo.com/oauth/token
 ---

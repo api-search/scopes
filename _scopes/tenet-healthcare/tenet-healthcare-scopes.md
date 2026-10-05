@@ -112,6 +112,7 @@ tags:
 - Ambulatory Surgery Centers
 - Revenue Cycle Management
 - Fortune 500
+token_bound: false
 token_urls:
 - https://auth.tenethealth.com/oauth2/token
 ---

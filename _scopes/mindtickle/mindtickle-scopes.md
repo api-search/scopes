@@ -97,6 +97,7 @@ tags:
 - Content Management
 - Call AI
 - Revenue Intelligence
+token_bound: false
 token_urls:
 - https://app.mindtickle.com/api/users/v1/oauth/token
 ---

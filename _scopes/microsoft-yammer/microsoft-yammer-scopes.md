@@ -108,6 +108,7 @@ tags:
 - Social Network
 - Viva Engage
 - Yammer
+token_bound: false
 token_urls:
 - https://www.yammer.com/oauth2/access_token.json
 ---

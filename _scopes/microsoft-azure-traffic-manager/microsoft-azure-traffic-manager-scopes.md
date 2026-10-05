@@ -77,5 +77,6 @@ tags:
 - Networking
 - Traffic Distribution
 - Traffic Manager
+token_bound: false
 token_urls: []
 ---

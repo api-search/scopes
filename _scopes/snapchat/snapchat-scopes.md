@@ -116,5 +116,6 @@ tags:
 - Marketing
 - Messaging
 - Social Media
+token_bound: false
 token_urls: []
 ---

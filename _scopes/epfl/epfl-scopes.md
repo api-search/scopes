@@ -62,5 +62,6 @@ tags:
 - Event
 - Switzerland
 - Europe
+token_bound: false
 token_urls: []
 ---

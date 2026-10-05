@@ -78,6 +78,7 @@ tags:
 - Grid
 - Municipal Utility
 - ESPI
+token_bound: false
 token_urls:
 - https://sandbox.greenbuttonalliance.org:8443/oauth/token
 ---

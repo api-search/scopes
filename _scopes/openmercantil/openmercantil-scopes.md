@@ -160,16 +160,40 @@ method: searched
 name: Openmercantil Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'OpenMercantil uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'OpenMercantil publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the OpenMercantil API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: OpenMercantil
 provider_slug: openmercantil
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- public:read
+- companies:read
+- people:read
+- tenders:read
+- legal:read
+- integrations:read
+scopes:
+- description: Umbrella scope accepted by every public read route except bulk exports.
+  flows: []
+  scope: public:read
+- description: Companies, BORME, CNAE sectors and public aggregates.
+  flows: []
+  scope: companies:read
+- description: Documentary mentions of natural persons.
+  flows: []
+  scope: people:read
+- description: Sanitized public procurement projections.
+  flows: []
+  scope: tenders:read
+- description: BOE mercantile-law corpus.
+  flows: []
+  scope: legal:read
+- description: Public integration capability catalog.
+  flows: []
+  scope: integrations:read
 slug: openmercantil-scopes
 source_filename: openmercantil-scopes.yml
 source_heading: OAuth Scopes
@@ -181,7 +205,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: >-\n  openapi/_
   \      - listIntegrations\ncredential_lifecycle:\n  issuer: account panel (/mi-cuenta)\n  prefix: omk_\n  opaque: true\n  jwt: false\n  management_operations:\n    - listUserApiCredentials\n    - createUserApiCredential\n    - rotateUserApiCredential\n    - revokeUserApiCredential\n  secret_visibility: >-\n    The credential secret is returned once, in the original mutation response,\n    and is replayable only through an identical `Idempotency-Key` request\n    inside a 24-hour window. It is never returned by list or get.\n  rotation_supported: true\n  revocation_supported: true\n  transport_rules:\n    - 'Header only: X-API-Key, or Authorization: Bearer.'\n    - Never permitted in a query string (stated explicitly in the scheme description).\nunscoped_operations:\n  count: 96\n  note: >-\n    The remaining operations carry no x-api-credential-scope because they are\n    either account-plane (session cookie + CSRF, 65 User operations plus\n    billing, support and webhooks) or provider-callback\
   \ routes. Absence of a\n    scope on those is correct, not a gap.\nsee_also:\n  authentication: authentication/openmercantil-authentication.yml\n  conventions: conventions/openmercantil-conventions.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/scopes/openmercantil-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - BDNS
 - BORME
@@ -218,5 +242,6 @@ tags:
 - Tenders
 - Trust Score
 - Webhook
+token_bound: false
 token_urls: []
 ---

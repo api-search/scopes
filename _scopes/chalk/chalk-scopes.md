@@ -67,6 +67,7 @@ tags:
 - LLM
 - Agents
 - Feature Engineering
+token_bound: false
 token_urls:
 - https://api.chalk.ai/v1/oauth/token
 ---

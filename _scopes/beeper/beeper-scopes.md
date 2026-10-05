@@ -102,6 +102,7 @@ tags:
 - Desktop
 - Aggregator
 - Real-Time
+token_bound: false
 token_urls:
 - http://localhost:23373/oauth/token
 ---

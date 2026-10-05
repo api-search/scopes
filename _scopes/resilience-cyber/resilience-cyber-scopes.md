@@ -111,6 +111,7 @@ tags:
 - Technology Errors and Omissions
 - Brokers
 - Specialty Insurance
+token_bound: false
 token_urls:
 - https://auth.cyberresilience.com/oauth/token
 ---

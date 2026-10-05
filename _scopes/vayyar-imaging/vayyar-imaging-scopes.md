@@ -68,6 +68,7 @@ tags:
 - Elderly Care
 - Automotive
 - Smart Home
+token_bound: false
 token_urls:
 - https://account.walabot.com/authentication/oauth/token
 ---

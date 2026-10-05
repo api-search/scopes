@@ -452,6 +452,7 @@ tags:
 - Asset Management
 - Service Providers
 - Invoicing
+token_bound: false
 token_urls:
 - https://sb2login.servicechannel.com/oauth/token
 ---

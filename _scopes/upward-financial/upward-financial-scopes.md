@@ -208,6 +208,7 @@ tags:
 - Bill Pay
 - Banking
 - KYC
+token_bound: false
 token_urls:
 - https://auth.upwardli.com/auth/token/
 - https://auth.upwardli.com/auth/token/exchange/

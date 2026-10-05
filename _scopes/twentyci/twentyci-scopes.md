@@ -110,6 +110,7 @@ tags:
 - Homemover Data
 - Agent Performance
 - Data as a Service
+token_bound: false
 token_urls:
 - https://api.twentyci.co.uk/oauth/token
 ---

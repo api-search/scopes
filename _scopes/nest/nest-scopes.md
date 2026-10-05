@@ -52,6 +52,7 @@ tags:
 - Thermostat
 - Google
 - Device Access
+token_bound: false
 token_urls:
 - https://www.googleapis.com/token
 ---

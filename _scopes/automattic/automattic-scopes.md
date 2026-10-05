@@ -2482,6 +2482,7 @@ tags:
 - Open Source
 - Developer Tools
 - MCP
+token_bound: false
 token_urls:
 - https://public-api.wordpress.com/oauth2-1/token
 ---

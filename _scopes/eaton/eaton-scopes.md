@@ -102,6 +102,7 @@ tags:
 - Energy
 - IoT
 - Sustainability
+token_bound: false
 token_urls:
 - https://api.em.eaton.com/oauth2/token
 ---

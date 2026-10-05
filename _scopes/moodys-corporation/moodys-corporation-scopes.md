@@ -118,6 +118,7 @@ tags:
 - KYC
 - Risk Management
 - Fortune 1000
+token_bound: false
 token_urls:
 - https://api.economy.com/oauth2/token
 - https://api.economy.com/data/v1/oauth2/token

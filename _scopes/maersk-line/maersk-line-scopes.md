@@ -142,6 +142,7 @@ tags:
 - DCSA
 - Maritime
 - Freight
+token_bound: false
 token_urls:
 - https://api.maersk.com/customer-identity/oauth/v2/access_token
 ---

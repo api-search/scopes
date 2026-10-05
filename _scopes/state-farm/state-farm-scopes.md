@@ -76,6 +76,8 @@ tags:
 - Vehicles
 - Embedded Insurance
 - B2B
+- Property and Casualty
+token_bound: false
 token_urls:
 - https://api.statefarm.com/oauth/token
 ---

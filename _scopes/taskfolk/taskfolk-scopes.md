@@ -511,6 +511,7 @@ tags:
 - Sprints
 - OKRs
 - Developer Tools
+token_bound: false
 token_urls:
 - https://taskfolk.ai/api/oauth/token
 ---

@@ -222,6 +222,7 @@ tags:
 - Non-Profit
 - Event
 - Payments
+token_bound: false
 token_urls:
 - https://oauth.wildapricot.org/auth/token
 ---

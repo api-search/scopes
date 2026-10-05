@@ -99,6 +99,7 @@ tags:
 - Rigetti
 - Hybrid Quantum
 - Fault Tolerance
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 ---

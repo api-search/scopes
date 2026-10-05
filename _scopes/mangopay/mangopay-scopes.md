@@ -276,6 +276,7 @@ tags:
 - Payment Cards
 - Fintech
 - European
+token_bound: false
 token_urls:
 - https://api.mangopay.com/v2.01/{clientId}/oauth/token
 ---

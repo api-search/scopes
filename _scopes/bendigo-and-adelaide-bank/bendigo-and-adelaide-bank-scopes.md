@@ -190,6 +190,7 @@ tags:
 - Consumer Banking
 - Australia
 - Product Reference Data
+token_bound: false
 token_urls:
 - https://secure.api.up.com.au/oidc/token
 ---

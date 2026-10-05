@@ -102,6 +102,7 @@ tags:
 - Provider Directory
 - Drug Formulary
 - Transparency In Coverage
+token_bound: false
 token_urls:
 - https://eapics.ibx.com/oauth2/v2/token
 ---

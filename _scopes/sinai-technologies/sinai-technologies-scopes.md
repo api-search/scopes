@@ -103,6 +103,7 @@ tags:
 - ESG
 - Decarbonization
 - Climate
+token_bound: false
 token_urls:
 - https://auth.sinai.com/oauth2/token
 ---

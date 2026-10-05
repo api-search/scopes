@@ -146,6 +146,7 @@ tags:
 - Market Research
 - E-Commerce
 - SEO
+token_bound: false
 token_urls:
 - https://mcp-auth.similarweb.com/token
 ---

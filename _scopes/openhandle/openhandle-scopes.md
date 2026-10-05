@@ -107,6 +107,7 @@ tags:
 - MCP
 - creator-analytics
 - Social Listening
+token_bound: false
 token_urls:
 - https://api.openhandle.dev/oauth/token
 ---

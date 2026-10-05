@@ -57,5 +57,6 @@ tags:
 - Commerce
 - Agentic Commerce
 - MCP
+token_bound: false
 token_urls: []
 ---

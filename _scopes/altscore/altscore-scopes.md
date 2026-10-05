@@ -70,6 +70,7 @@ tags:
 - Data Aggregation
 - Workflows
 - Decisioning
+token_bound: false
 token_urls:
 - https://auth.altscore.ai/oauth/token
 ---

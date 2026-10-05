@@ -314,6 +314,7 @@ tags:
 - Supply Chain
 - Warehouse Management
 - Asset Tracking
+token_bound: false
 token_urls:
 - https://identity.scanbro.com/connect/token
 ---

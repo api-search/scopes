@@ -11,7 +11,7 @@ method: probed
 name: Enigma Analytics Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Enigma Analytics uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Enigma Analytics publishes 1 OAuth 2.0 scope via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Enigma Analytics API on a user''s behalf.
 
 
   Tokens are issued from https://oauth.enigma.com/token.
@@ -51,9 +51,13 @@ schemes:
   service_documentation: https://modelcontextprotocol.io/authorization
   type: oauth2
   version: OAuth 2.1 (MCP authorization profile)
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- openid
+scopes:
+- description: The only scope advertised in `scopes_supported`. There is no per-tool, per-dataset or read/write scope decomposition — an authorized MCP client receives the whole tool surface, and access is bounded by plan and by the per-tool rate limits rather than by scope.
+  flows: []
+  scope: openid
 slug: enigma-analytics-scopes
 source_filename: enigma-analytics-scopes.yml
 source_heading: OAuth Scopes
@@ -62,7 +66,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.enigm
   \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.enigma.com/authorize\n    tokenUrl: https://oauth.enigma.com/token\n    pkce_required_methods: [S256]\n    response_types: [code]\n    response_modes: [query, fragment]\n    grant_types: [authorization_code, refresh_token]\n    token_endpoint_auth_methods: [client_secret_basic]\n  dynamic_client_registration:\n    supported: true\n    registration_endpoint: https://oauth.enigma.com/register\n    note: >-\n      RFC 7591 dynamic client registration is open, which is what lets an arbitrary MCP client\n      onboard without a pre-provisioned client_id — the mechanism the MCP authorization spec relies on.\n  revocation_endpoint: https://oauth.enigma.com/revoke\n  introspection_endpoint: https://oauth.enigma.com/introspect\n  jwks_uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_00OC0VOa2/.well-known/jwks.json\n  identity_provider: Amazon Cognito (us-east-1)\nscopes:\n- name: openid\n  description: >-\n  \
   \  The only scope advertised in `scopes_supported`. There is no per-tool, per-dataset or\n    read/write scope decomposition — an authorized MCP client receives the whole tool surface, and\n    access is bounded by plan and by the per-tool rate limits rather than by scope.\n  source: https://mcp.enigma.com/.well-known/oauth-authorization-server\nscope_count: 1\ngaps:\n- >-\n    No granular scopes. A KYB/sanctions dataset is exactly the surface where an agent operator would\n    want to grant `screening:read` without `card-analytics:read`; today that separation does not\n    exist at the token layer.\n- No OpenID Connect discovery document (/.well-known/openid-configuration 404s on every host) despite `openid` being the advertised scope.\nx-evidence:\n  fetched: '2026-08-14'\n  url: https://mcp.enigma.com/.well-known/oauth-authorization-server\n  http_status: 200\n  content_type: application/json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/scopes/enigma-analytics-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope · authorizationCode
 tags:
 - Company
 - Business Data
@@ -76,6 +80,7 @@ tags:
 - MCP
 - Agent Skills
 - Payments Risk
+token_bound: false
 token_urls:
 - https://oauth.enigma.com/token
 ---

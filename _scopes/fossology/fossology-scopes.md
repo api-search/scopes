@@ -143,6 +143,7 @@ tags:
 - Scanning
 - SPDX
 - Open Source
+token_bound: false
 token_urls:
 - https://api.example.com/oauth2/authorize
 ---

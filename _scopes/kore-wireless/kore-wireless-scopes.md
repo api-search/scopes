@@ -298,6 +298,7 @@ tags:
 - SMS
 - Device Management
 - Network APIs
+token_bound: false
 token_urls:
 - https://api.korewireless.com/api-services/v1/auth/token
 - https://api.korewireless.com/Api/api/token

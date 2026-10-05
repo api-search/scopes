@@ -130,6 +130,7 @@ tags:
 - Consumer Banking
 - Australia
 - Product Reference Data
+token_bound: false
 token_urls:
 - https://mtls.ob.hsbc.com.au/cds-au/v1/oauth2/token
 ---

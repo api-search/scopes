@@ -8,7 +8,7 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-coreapi-service-info-api-openapi.yml
 - filename: mem-external-api-openapi.yml
   format: yaml
-  label: Mem External API
+  label: Mem external API
   slug: mem-external-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-external-api-openapi.yml
@@ -91,6 +91,7 @@ tags:
 - MCP
 - Agents
 - Meetings
+token_bound: false
 token_urls:
 - https://api.mem.ai/api/v2/oauth2/token
 ---

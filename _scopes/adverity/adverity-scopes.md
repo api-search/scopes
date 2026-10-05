@@ -11,7 +11,7 @@ method: searched
 name: Adverity Scopes
 name_suffix: OAuth Scopes
 note: 'The nine strings in verbatim_scope_strings were read directly out of the published Adverity documentation pages. The remaining entries are the documented UI permission families (Workspace Write, Monitor, User) whose literal scope strings do not appear in the docs; they are flagged spec_string_observed: false rather than being asserted as verbatim. Nothing here is invented.'
-overview: 'Adverity uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Adverity publishes 14 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Adverity API on a user''s behalf.
 
 
   Tokens are issued from https://mcp.eu.adverity.com/token.
@@ -39,9 +39,65 @@ schemes:
   name: AdverityMcpOAuth
   source: https://mcp.eu.adverity.com/.well-known/oauth-authorization-server
   type: oauth2
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- workspace:read
+- workspace:write
+- authorization:read
+- authorization:write
+- datastream:read
+- datastream:write
+- destination:read
+- destination:write
+- transformations:read
+- transformations:write
+- usage:read
+- monitor:read
+- monitor:write
+- user:write
+scopes:
+- description: Permissions equivalent to the Viewer user group across the key's workspace and its children.
+  flows: []
+  scope: workspace:read
+- description: Permissions equivalent to the Datastream Manager user group; also allows creating and updating workspaces through the Management API. Deleting a workspace is NOT covered — the owning user must have Administrator permissions in the root workspace.
+  flows: []
+  scope: workspace:write
+- description: Read which accounts an authorization is permitted to collect from, and discover available accounts, profiles, and campaigns.
+  flows: []
+  scope: authorization:read
+- description: Update the set of accounts an authorization is permitted to collect from.
+  flows: []
+  scope: authorization:write
+- description: List datastreams and retrieve their configuration, including the connector field hierarchy.
+  flows: []
+  scope: datastream:read
+- description: Update datastream configuration, including smart schedule and pulling-mode settings on the v1/v2 surfaces.
+  flows: []
+  scope: datastream:write
+- description: Read destination (Target) configuration and datastream-to-destination bindings.
+  flows: []
+  scope: destination:read
+- description: Create, update, and delete destinations, and requeue extracts. Assignable only at the root workspace level.
+  flows: []
+  scope: destination:write
+- description: List and retrieve transformations (Transformers).
+  flows: []
+  scope: transformations:read
+- description: Create, edit, and delete transformations.
+  flows: []
+  scope: transformations:write
+- description: Retrieve row-usage and billing metrics through the Management API.
+  flows: []
+  scope: usage:read
+- description: Discover custom monitors available for assignment through the Management API.
+  flows: []
+  scope: monitor:read
+- description: Assign or unassign custom monitors through the Management API.
+  flows: []
+  scope: monitor:write
+- description: Access user-management endpoints (root workspace level only, and only for keys generated in the Adverity user interface), and create, update, and delete notification subscriptions. Notification-subscription writes also work with a key minted from user credentials; subscriptions created that way are owned by the issuing user.
+  flows: []
+  scope: user:write
 slug: adverity-scopes
 source_filename: adverity-scopes.yml
 source_heading: OAuth Scopes
@@ -55,7 +111,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.ad
   \    generated in the Adverity user interface), and create, update, and delete notification\n    subscriptions. Notification-subscription writes also work with a key minted from user\n    credentials; subscriptions created that way are owned by the issuing user.\n  evidence: https://docs.adverity.com/guides/management-api/authorizing-to-management-api.html\n  spec_string_observed: false\nscope_count: 14\nverbatim_scope_strings:\n- authorization:read\n- datastream:read\n- datastream:write\n- destination:read\n- destination:write\n- transformations:read\n- transformations:write\n- usage:read\n- workspace:read\nnote: >-\n  The nine strings in verbatim_scope_strings were read directly out of the published\n  Adverity documentation pages. The remaining entries are the documented UI permission\n  families (Workspace Write, Monitor, User) whose literal scope strings do not appear in\n  the docs; they are flagged spec_string_observed: false rather than being asserted as\n  verbatim. Nothing here\
   \ is invented.\nrelated:\n- authentication/adverity-authentication.yml\n- mcp/adverity-mcp.yml\n- well-known/adverity-oauth-authorization-server.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adverity/refs/heads/main/scopes/adverity-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes · authorizationCode
 tags:
 - Company
 - Data Analytics
@@ -65,6 +121,7 @@ tags:
 - Business Intelligence
 - Marketing Intelligence
 - MCP
+token_bound: false
 token_urls:
 - https://mcp.eu.adverity.com/token
 ---

@@ -267,23 +267,601 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://appwrite.io/docs/partners/project/api-keys#scopes
-flows: []
+flows:
+- authorization_code
+- device_code
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Appwrite Scopes
 name_suffix: OAuth Scopes
 note: 'These are the scopes Appwrite ACTUALLY publishes, read off its own discovery documents rather than transcribed from a docs table. The set is RAR-shaped: outside the four OIDC scopes, every scope is namespaced by an authorization-details type — `project:` or `organization:` — matching the authorization_details_types_supported array. The authorization-server document lists 144 scopes and the protected-resource document 130; the difference is 14 project-policy and console-only scopes the MCP resource does not request. The same scope names appear as API-key scopes in the Appwrite Console.'
-overview: 'Appwrite uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Appwrite publishes 144 OAuth 2.0 scopes via the authorization_code and device_code flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Appwrite API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Appwrite
 provider_slug: appwrite
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 144
+scope_names:
+- all
+- email
+- openid
+- organization:all
+- organization:devKeys.read
+- organization:devKeys.write
+- organization:domains.read
+- organization:domains.write
+- organization:keys.read
+- organization:keys.write
+- organization:organization.installations.read
+- organization:organization.installations.write
+- organization:organization.keys.read
+- organization:organization.keys.write
+- organization:organization.memberships.read
+- organization:organization.memberships.write
+- organization:organization.read
+- organization:organization.write
+- organization:projects.read
+- organization:projects.write
+- phone
+- profile
+- project:all
+- project:apps.read
+- project:apps.write
+- project:archives.read
+- project:archives.write
+- project:assistant.read
+- project:attributes.read
+- project:attributes.write
+- project:avatars.read
+- project:backups.policies.read
+- project:backups.policies.write
+- project:buckets.read
+- project:buckets.write
+- project:collections.read
+- project:collections.write
+- project:columns.read
+- project:columns.write
+- project:databases.read
+- project:databases.write
+- project:documents.read
+- project:documents.write
+- project:documentsdb.collections.read
+- project:documentsdb.collections.write
+- project:documentsdb.documents.read
+- project:documentsdb.documents.write
+- project:documentsdb.indexes.read
+- project:documentsdb.indexes.write
+- project:documentsdb.read
+- project:documentsdb.write
+- project:domains.read
+- project:domains.write
+- project:embeddings.write
+- project:events.read
+- project:execution.read
+- project:execution.write
+- project:executions.read
+- project:executions.write
+- project:files.read
+- project:files.write
+- project:functions.read
+- project:functions.write
+- project:health.read
+- project:indexes.read
+- project:indexes.write
+- project:insights.read
+- project:insights.write
+- project:keys.read
+- project:keys.write
+- project:locale.read
+- project:log.read
+- project:log.write
+- project:messages.read
+- project:messages.write
+- project:migrations.read
+- project:migrations.write
+- project:mocks.read
+- project:mocks.write
+- project:oauth2.introspect
+- project:oauth2.read
+- project:oauth2.write
+- project:platforms.read
+- project:platforms.write
+- project:policies.read
+- project:policies.write
+- project:presences.read
+- project:presences.write
+- project:project.oauth2.read
+- project:project.oauth2.write
+- project:project.policies.read
+- project:project.policies.write
+- project:project.read
+- project:project.write
+- project:providers.read
+- project:providers.write
+- project:proxy.invalidations.write
+- project:reports.read
+- project:reports.write
+- project:restorations.read
+- project:restorations.write
+- project:rows.read
+- project:rows.write
+- project:rules.read
+- project:rules.write
+- project:schedules.read
+- project:schedules.write
+- project:sessions.read
+- project:sessions.write
+- project:sites.read
+- project:sites.write
+- project:stages.read
+- project:stages.write
+- project:subscribers.read
+- project:subscribers.write
+- project:tables.read
+- project:tables.write
+- project:targets.read
+- project:targets.write
+- project:teams.read
+- project:teams.write
+- project:templates.read
+- project:templates.write
+- project:tokens.read
+- project:tokens.write
+- project:topics.read
+- project:topics.write
+- project:usage.read
+- project:users.read
+- project:users.write
+- project:vcs.read
+- project:vcs.write
+- project:vectorsdb.collections.read
+- project:vectorsdb.collections.write
+- project:vectorsdb.documents.read
+- project:vectorsdb.documents.write
+- project:vectorsdb.indexes.read
+- project:vectorsdb.indexes.write
+- project:vectorsdb.read
+- project:vectorsdb.write
+- project:wafRules.read
+- project:wafRules.write
+- project:webhooks.read
+- project:webhooks.write
+scopes:
+- description: Full access across every resource the token subject can reach.
+  flows: []
+  scope: all
+- description: 'Standard OpenID Connect scope: email.'
+  flows: []
+  scope: email
+- description: 'Standard OpenID Connect scope: openid.'
+  flows: []
+  scope: openid
+- description: Full access to every organization resource.
+  flows: []
+  scope: organization:all
+- description: Read access to devKeys within the organization authorization detail type.
+  flows: []
+  scope: organization:devKeys.read
+- description: Write access to devKeys within the organization authorization detail type.
+  flows: []
+  scope: organization:devKeys.write
+- description: Read access to domains within the organization authorization detail type.
+  flows: []
+  scope: organization:domains.read
+- description: Write access to domains within the organization authorization detail type.
+  flows: []
+  scope: organization:domains.write
+- description: Read access to keys within the organization authorization detail type.
+  flows: []
+  scope: organization:keys.read
+- description: Write access to keys within the organization authorization detail type.
+  flows: []
+  scope: organization:keys.write
+- description: Read access to organization.installations within the organization authorization detail type.
+  flows: []
+  scope: organization:organization.installations.read
+- description: Write access to organization.installations within the organization authorization detail type.
+  flows: []
+  scope: organization:organization.installations.write
+- description: Read access to organization.keys within the organization authorization detail type.
+  flows: []
+  scope: organization:organization.keys.read
+- description: Write access to organization.keys within the organization authorization detail type.
+  flows: []
+  scope: organization:organization.keys.write
+- description: Read access to organization.memberships within the organization authorization detail type.
+  flows: []
+  scope: organization:organization.memberships.read
+- description: Write access to organization.memberships within the organization authorization detail type.
+  flows: []
+  scope: organization:organization.memberships.write
+- description: Read access to organization within the organization authorization detail type.
+  flows: []
+  scope: organization:organization.read
+- description: Write access to organization within the organization authorization detail type.
+  flows: []
+  scope: organization:organization.write
+- description: Read access to projects within the organization authorization detail type.
+  flows: []
+  scope: organization:projects.read
+- description: Write access to projects within the organization authorization detail type.
+  flows: []
+  scope: organization:projects.write
+- description: 'Standard OpenID Connect scope: phone.'
+  flows: []
+  scope: phone
+- description: 'Standard OpenID Connect scope: profile.'
+  flows: []
+  scope: profile
+- description: Full access to every project resource.
+  flows: []
+  scope: project:all
+- description: Read access to apps within the project authorization detail type.
+  flows: []
+  scope: project:apps.read
+- description: Write access to apps within the project authorization detail type.
+  flows: []
+  scope: project:apps.write
+- description: Read access to archives within the project authorization detail type.
+  flows: []
+  scope: project:archives.read
+- description: Write access to archives within the project authorization detail type.
+  flows: []
+  scope: project:archives.write
+- description: Read access to assistant within the project authorization detail type.
+  flows: []
+  scope: project:assistant.read
+- description: Read access to attributes within the project authorization detail type.
+  flows: []
+  scope: project:attributes.read
+- description: Write access to attributes within the project authorization detail type.
+  flows: []
+  scope: project:attributes.write
+- description: Read access to avatars within the project authorization detail type.
+  flows: []
+  scope: project:avatars.read
+- description: Read access to backups.policies within the project authorization detail type.
+  flows: []
+  scope: project:backups.policies.read
+- description: Write access to backups.policies within the project authorization detail type.
+  flows: []
+  scope: project:backups.policies.write
+- description: Read access to buckets within the project authorization detail type.
+  flows: []
+  scope: project:buckets.read
+- description: Write access to buckets within the project authorization detail type.
+  flows: []
+  scope: project:buckets.write
+- description: Read access to collections within the project authorization detail type.
+  flows: []
+  scope: project:collections.read
+- description: Write access to collections within the project authorization detail type.
+  flows: []
+  scope: project:collections.write
+- description: Read access to columns within the project authorization detail type.
+  flows: []
+  scope: project:columns.read
+- description: Write access to columns within the project authorization detail type.
+  flows: []
+  scope: project:columns.write
+- description: Read access to databases within the project authorization detail type.
+  flows: []
+  scope: project:databases.read
+- description: Write access to databases within the project authorization detail type.
+  flows: []
+  scope: project:databases.write
+- description: Read access to documents within the project authorization detail type.
+  flows: []
+  scope: project:documents.read
+- description: Write access to documents within the project authorization detail type.
+  flows: []
+  scope: project:documents.write
+- description: Read access to documentsdb.collections within the project authorization detail type.
+  flows: []
+  scope: project:documentsdb.collections.read
+- description: Write access to documentsdb.collections within the project authorization detail type.
+  flows: []
+  scope: project:documentsdb.collections.write
+- description: Read access to documentsdb.documents within the project authorization detail type.
+  flows: []
+  scope: project:documentsdb.documents.read
+- description: Write access to documentsdb.documents within the project authorization detail type.
+  flows: []
+  scope: project:documentsdb.documents.write
+- description: Read access to documentsdb.indexes within the project authorization detail type.
+  flows: []
+  scope: project:documentsdb.indexes.read
+- description: Write access to documentsdb.indexes within the project authorization detail type.
+  flows: []
+  scope: project:documentsdb.indexes.write
+- description: Read access to documentsdb within the project authorization detail type.
+  flows: []
+  scope: project:documentsdb.read
+- description: Write access to documentsdb within the project authorization detail type.
+  flows: []
+  scope: project:documentsdb.write
+- description: Read access to domains within the project authorization detail type.
+  flows: []
+  scope: project:domains.read
+- description: Write access to domains within the project authorization detail type.
+  flows: []
+  scope: project:domains.write
+- description: Write access to embeddings within the project authorization detail type.
+  flows: []
+  scope: project:embeddings.write
+- description: Read access to events within the project authorization detail type.
+  flows: []
+  scope: project:events.read
+- description: Read access to execution within the project authorization detail type.
+  flows: []
+  scope: project:execution.read
+- description: Write access to execution within the project authorization detail type.
+  flows: []
+  scope: project:execution.write
+- description: Read access to executions within the project authorization detail type.
+  flows: []
+  scope: project:executions.read
+- description: Write access to executions within the project authorization detail type.
+  flows: []
+  scope: project:executions.write
+- description: Read access to files within the project authorization detail type.
+  flows: []
+  scope: project:files.read
+- description: Write access to files within the project authorization detail type.
+  flows: []
+  scope: project:files.write
+- description: Read access to functions within the project authorization detail type.
+  flows: []
+  scope: project:functions.read
+- description: Write access to functions within the project authorization detail type.
+  flows: []
+  scope: project:functions.write
+- description: Read access to health within the project authorization detail type.
+  flows: []
+  scope: project:health.read
+- description: Read access to indexes within the project authorization detail type.
+  flows: []
+  scope: project:indexes.read
+- description: Write access to indexes within the project authorization detail type.
+  flows: []
+  scope: project:indexes.write
+- description: Read access to insights within the project authorization detail type.
+  flows: []
+  scope: project:insights.read
+- description: Write access to insights within the project authorization detail type.
+  flows: []
+  scope: project:insights.write
+- description: Read access to keys within the project authorization detail type.
+  flows: []
+  scope: project:keys.read
+- description: Write access to keys within the project authorization detail type.
+  flows: []
+  scope: project:keys.write
+- description: Read access to locale within the project authorization detail type.
+  flows: []
+  scope: project:locale.read
+- description: Read access to log within the project authorization detail type.
+  flows: []
+  scope: project:log.read
+- description: Write access to log within the project authorization detail type.
+  flows: []
+  scope: project:log.write
+- description: Read access to messages within the project authorization detail type.
+  flows: []
+  scope: project:messages.read
+- description: Write access to messages within the project authorization detail type.
+  flows: []
+  scope: project:messages.write
+- description: Read access to migrations within the project authorization detail type.
+  flows: []
+  scope: project:migrations.read
+- description: Write access to migrations within the project authorization detail type.
+  flows: []
+  scope: project:migrations.write
+- description: Read access to mocks within the project authorization detail type.
+  flows: []
+  scope: project:mocks.read
+- description: Write access to mocks within the project authorization detail type.
+  flows: []
+  scope: project:mocks.write
+- description: Introspect access to oauth2 within the project authorization detail type.
+  flows: []
+  scope: project:oauth2.introspect
+- description: Read access to oauth2 within the project authorization detail type.
+  flows: []
+  scope: project:oauth2.read
+- description: Write access to oauth2 within the project authorization detail type.
+  flows: []
+  scope: project:oauth2.write
+- description: Read access to platforms within the project authorization detail type.
+  flows: []
+  scope: project:platforms.read
+- description: Write access to platforms within the project authorization detail type.
+  flows: []
+  scope: project:platforms.write
+- description: Read access to policies within the project authorization detail type.
+  flows: []
+  scope: project:policies.read
+- description: Write access to policies within the project authorization detail type.
+  flows: []
+  scope: project:policies.write
+- description: Read access to presences within the project authorization detail type.
+  flows: []
+  scope: project:presences.read
+- description: Write access to presences within the project authorization detail type.
+  flows: []
+  scope: project:presences.write
+- description: Read access to project.oauth2 within the project authorization detail type.
+  flows: []
+  scope: project:project.oauth2.read
+- description: Write access to project.oauth2 within the project authorization detail type.
+  flows: []
+  scope: project:project.oauth2.write
+- description: Read access to project.policies within the project authorization detail type.
+  flows: []
+  scope: project:project.policies.read
+- description: Write access to project.policies within the project authorization detail type.
+  flows: []
+  scope: project:project.policies.write
+- description: Read access to project within the project authorization detail type.
+  flows: []
+  scope: project:project.read
+- description: Write access to project within the project authorization detail type.
+  flows: []
+  scope: project:project.write
+- description: Read access to providers within the project authorization detail type.
+  flows: []
+  scope: project:providers.read
+- description: Write access to providers within the project authorization detail type.
+  flows: []
+  scope: project:providers.write
+- description: Write access to proxy.invalidations within the project authorization detail type.
+  flows: []
+  scope: project:proxy.invalidations.write
+- description: Read access to reports within the project authorization detail type.
+  flows: []
+  scope: project:reports.read
+- description: Write access to reports within the project authorization detail type.
+  flows: []
+  scope: project:reports.write
+- description: Read access to restorations within the project authorization detail type.
+  flows: []
+  scope: project:restorations.read
+- description: Write access to restorations within the project authorization detail type.
+  flows: []
+  scope: project:restorations.write
+- description: Read access to rows within the project authorization detail type.
+  flows: []
+  scope: project:rows.read
+- description: Write access to rows within the project authorization detail type.
+  flows: []
+  scope: project:rows.write
+- description: Read access to rules within the project authorization detail type.
+  flows: []
+  scope: project:rules.read
+- description: Write access to rules within the project authorization detail type.
+  flows: []
+  scope: project:rules.write
+- description: Read access to schedules within the project authorization detail type.
+  flows: []
+  scope: project:schedules.read
+- description: Write access to schedules within the project authorization detail type.
+  flows: []
+  scope: project:schedules.write
+- description: Read access to sessions within the project authorization detail type.
+  flows: []
+  scope: project:sessions.read
+- description: Write access to sessions within the project authorization detail type.
+  flows: []
+  scope: project:sessions.write
+- description: Read access to sites within the project authorization detail type.
+  flows: []
+  scope: project:sites.read
+- description: Write access to sites within the project authorization detail type.
+  flows: []
+  scope: project:sites.write
+- description: Read access to stages within the project authorization detail type.
+  flows: []
+  scope: project:stages.read
+- description: Write access to stages within the project authorization detail type.
+  flows: []
+  scope: project:stages.write
+- description: Read access to subscribers within the project authorization detail type.
+  flows: []
+  scope: project:subscribers.read
+- description: Write access to subscribers within the project authorization detail type.
+  flows: []
+  scope: project:subscribers.write
+- description: Read access to tables within the project authorization detail type.
+  flows: []
+  scope: project:tables.read
+- description: Write access to tables within the project authorization detail type.
+  flows: []
+  scope: project:tables.write
+- description: Read access to targets within the project authorization detail type.
+  flows: []
+  scope: project:targets.read
+- description: Write access to targets within the project authorization detail type.
+  flows: []
+  scope: project:targets.write
+- description: Read access to teams within the project authorization detail type.
+  flows: []
+  scope: project:teams.read
+- description: Write access to teams within the project authorization detail type.
+  flows: []
+  scope: project:teams.write
+- description: Read access to templates within the project authorization detail type.
+  flows: []
+  scope: project:templates.read
+- description: Write access to templates within the project authorization detail type.
+  flows: []
+  scope: project:templates.write
+- description: Read access to tokens within the project authorization detail type.
+  flows: []
+  scope: project:tokens.read
+- description: Write access to tokens within the project authorization detail type.
+  flows: []
+  scope: project:tokens.write
+- description: Read access to topics within the project authorization detail type.
+  flows: []
+  scope: project:topics.read
+- description: Write access to topics within the project authorization detail type.
+  flows: []
+  scope: project:topics.write
+- description: Read access to usage within the project authorization detail type.
+  flows: []
+  scope: project:usage.read
+- description: Read access to users within the project authorization detail type.
+  flows: []
+  scope: project:users.read
+- description: Write access to users within the project authorization detail type.
+  flows: []
+  scope: project:users.write
+- description: Read access to vcs within the project authorization detail type.
+  flows: []
+  scope: project:vcs.read
+- description: Write access to vcs within the project authorization detail type.
+  flows: []
+  scope: project:vcs.write
+- description: Read access to vectorsdb.collections within the project authorization detail type.
+  flows: []
+  scope: project:vectorsdb.collections.read
+- description: Write access to vectorsdb.collections within the project authorization detail type.
+  flows: []
+  scope: project:vectorsdb.collections.write
+- description: Read access to vectorsdb.documents within the project authorization detail type.
+  flows: []
+  scope: project:vectorsdb.documents.read
+- description: Write access to vectorsdb.documents within the project authorization detail type.
+  flows: []
+  scope: project:vectorsdb.documents.write
+- description: Read access to vectorsdb.indexes within the project authorization detail type.
+  flows: []
+  scope: project:vectorsdb.indexes.read
+- description: Write access to vectorsdb.indexes within the project authorization detail type.
+  flows: []
+  scope: project:vectorsdb.indexes.write
+- description: Read access to vectorsdb within the project authorization detail type.
+  flows: []
+  scope: project:vectorsdb.read
+- description: Write access to vectorsdb within the project authorization detail type.
+  flows: []
+  scope: project:vectorsdb.write
+- description: Read access to wafRules within the project authorization detail type.
+  flows: []
+  scope: project:wafRules.read
+- description: Write access to wafRules within the project authorization detail type.
+  flows: []
+  scope: project:wafRules.write
+- description: Read access to webhooks within the project authorization detail type.
+  flows: []
+  scope: project:webhooks.read
+- description: Write access to webhooks within the project authorization detail type.
+  flows: []
+  scope: project:webhooks.write
 slug: appwrite-scopes
 source_filename: appwrite-scopes.yml
 source_heading: OAuth Scopes
@@ -320,7 +898,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: https://mcp.appwr
   \ description: Write access to vectorsdb.documents within the project authorization detail type.\n  on_authorization_server: true\n  on_protected_resource: true\n- name: project:vectorsdb.indexes.read\n  group: project\n  description: Read access to vectorsdb.indexes within the project authorization detail type.\n  on_authorization_server: true\n  on_protected_resource: true\n- name: project:vectorsdb.indexes.write\n  group: project\n  description: Write access to vectorsdb.indexes within the project authorization detail type.\n  on_authorization_server: true\n  on_protected_resource: true\n- name: project:vectorsdb.read\n  group: project\n  description: Read access to vectorsdb within the project authorization detail type.\n  on_authorization_server: true\n  on_protected_resource: true\n- name: project:vectorsdb.write\n  group: project\n  description: Write access to vectorsdb within the project authorization detail type.\n  on_authorization_server: true\n  on_protected_resource: true\n\
   - name: project:wafRules.read\n  group: project\n  description: Read access to wafRules within the project authorization detail type.\n  on_authorization_server: true\n  on_protected_resource: true\n- name: project:wafRules.write\n  group: project\n  description: Write access to wafRules within the project authorization detail type.\n  on_authorization_server: true\n  on_protected_resource: true\n- name: project:webhooks.read\n  group: project\n  description: Read access to webhooks within the project authorization detail type.\n  on_authorization_server: true\n  on_protected_resource: true\n- name: project:webhooks.write\n  group: project\n  description: Write access to webhooks within the project authorization detail type.\n  on_authorization_server: true\n  on_protected_resource: true\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/scopes/appwrite-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 144 scopes · authorization_code/device_code
 tags:
 - Application
 - Backend
@@ -332,5 +910,6 @@ tags:
 - Authentication
 - Hosting
 - Agents
+token_bound: false
 token_urls: []
 ---

@@ -74,7 +74,7 @@ tags:
 - Training
 - Course Authoring
 - SSO
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://id.articulate.com/oauth2/v1/token
 ---

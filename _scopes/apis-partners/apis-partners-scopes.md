@@ -56,6 +56,7 @@ tags:
 - Payments
 - Investor
 - Emerging Markets
+token_bound: false
 token_urls:
 - https://www.apis.pe/umbraco/delivery/api/v1/security/member/token
 ---

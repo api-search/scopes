@@ -328,6 +328,7 @@ tags:
 - AI Agents
 - MCP
 - Security
+token_bound: false
 token_urls:
 - /auth/v1/token
 ---

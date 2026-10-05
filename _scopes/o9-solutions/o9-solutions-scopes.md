@@ -66,6 +66,7 @@ tags:
 - Retail Planning
 - Revenue Growth Management
 - ERP
+token_bound: false
 token_urls:
 - not publicly documented
 ---

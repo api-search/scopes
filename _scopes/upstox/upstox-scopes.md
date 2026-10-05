@@ -194,6 +194,7 @@ tags:
 - Mutual Funds
 - Algorithmic Trading
 - India
+token_bound: false
 token_urls:
 - https://api.upstox.com/v2/login/authorization/token
 ---

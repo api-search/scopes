@@ -529,6 +529,7 @@ tags:
 - Task Management
 - Task
 - Workflows
+token_bound: false
 token_urls:
 - https://app.asana.com/-/oauth_token
 ---

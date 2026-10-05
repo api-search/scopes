@@ -167,6 +167,7 @@ tags:
 - In-Game Purchases
 - Web Store
 - E-Commerce
+token_bound: false
 token_urls:
 - https://api.appcharge.com/oauth/token
 ---

@@ -776,6 +776,7 @@ tags:
 - Booking
 - Packages
 - Metasearch
+token_bound: false
 token_urls:
 - https://prod.api.tui/oauth2/token
 - https://pre-prod.api.tui/oauth2/token

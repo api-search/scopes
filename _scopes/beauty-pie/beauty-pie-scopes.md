@@ -69,6 +69,7 @@ tags:
 - E-Commerce
 - Shopify
 - Agentic Commerce
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/73264758967/oauth/token
 ---

@@ -81,6 +81,7 @@ tags:
 - Tracking
 - Freight
 - Multi-Modal
+token_bound: false
 token_urls:
 - https://api.project44.com/api/v4/oauth2/token
 ---

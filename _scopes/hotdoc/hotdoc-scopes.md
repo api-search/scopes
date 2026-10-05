@@ -59,6 +59,7 @@ tags:
 - Digital Health
 - e-Prescribing
 - Scheduling
+token_bound: false
 token_urls:
 - https://www.hotdoc.com.au/oauth/token
 ---

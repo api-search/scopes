@@ -155,6 +155,7 @@ tags:
 - Land Registry
 - Cotality
 - RP Data
+token_bound: false
 token_urls:
 - https://auth.corelogic.asia/as/token.oauth2
 ---

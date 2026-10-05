@@ -75,6 +75,7 @@ tags:
 - Marketing
 - AdTech
 - Programmatic
+token_bound: false
 token_urls:
 - https://services.adroll.com/auth/token
 - https://services.adroll.com/mcp/auth/token

@@ -58,16 +58,24 @@ method: searched
 name: Mitratech Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Mitratech uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Mitratech publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Mitratech API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Mitratech
 provider_slug: mitratech
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- api
+- mcp
+scopes:
+- description: The only scope value documented for the TAP token request. Sent as `scope=api` in the password-grant body to /auth/identity/connect/token.
+  flows: []
+  scope: api
+- description: The only scope in scopes_supported on both the RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata at mitratech.com.
+  flows: []
+  scope: mcp
 slug: mitratech-scopes
 source_filename: mitratech-scopes.yml
 source_heading: OAuth Scopes
@@ -75,7 +83,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: >-\n  https://success.mitratech.com/TAP/TAP_Solutions/APIs_and_Integrations/TAP_API_Documentation +\n  https://mitratech.com/.well-known/oauth-authorization-server +\n  https://mitratech.com/.well-known/oauth-protected-resource\ndocs: https://success.mitratech.com/TAP/TAP_Solutions/APIs_and_Integrations/TAP_API_Documentation\nsummary: >-\n  Mitratech's OAuth surfaces are scope-bearing but scope-poor. Both published scope vocabularies are a\n  single opaque value, and neither is a permission vocabulary — authorization on TAP is carried by the\n  TAP user account behind the token, not by the scope.\nscopes:\n- name: api\n  api: Mitratech TAP Workflow Automation API\n  description: >-\n    The only scope value documented for the TAP token request. Sent as `scope=api` in the\n    password-grant body to /auth/identity/connect/token.\n  source: https://success.mitratech.com/TAP/TAP_Solutions/APIs_and_Integrations/TAP_API_Documentation\n\
   - name: mcp\n  api: Mitratech MCP Server\n  description: >-\n    The only scope in scopes_supported on both the RFC 8414 authorization-server metadata and the\n    RFC 9728 protected-resource metadata at mitratech.com.\n  source: https://mitratech.com/.well-known/oauth-authorization-server\nscope_count: 2\nnotes:\n- >-\n  TeamConnect's OAuth documentation describes scope as \"(Optional) Specify the scope required for\n  access\" and publishes no scope values at all. No TeamConnect scopes are recorded here because none\n  are published — an honest absence, not an omission.\n- >-\n  Least privilege is not expressible on TAP. Mitratech's own guidance is to use a Super Admin account\n  to obtain the token, warning that a narrower account may silently return incomplete results. An\n  agent therefore cannot be granted a read-only or single-object token.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mitratech/refs/heads/main/scopes/mitratech-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Legal
 - Legal Operations
@@ -90,5 +98,6 @@ tags:
 - Immigration
 - OData
 - MCP
+token_bound: false
 token_urls: []
 ---

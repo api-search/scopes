@@ -9,16 +9,72 @@ method: probed
 name: Acin Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Acin uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Acin publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Acin API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Acin
 provider_slug: acin
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- offline_access
+- email
+- email_verified
+- name
+- given_name
+- family_name
+- nickname
+- picture
+- phone
+- address
+- created_at
+- identities
+scopes:
+- description: OIDC — request an ID token.
+  flows: []
+  scope: openid
+- description: OIDC standard claim set for the end user's profile.
+  flows: []
+  scope: profile
+- description: OIDC — request a refresh token.
+  flows: []
+  scope: offline_access
+- description: OIDC standard claim — the user's email address.
+  flows: []
+  scope: email
+- description: OIDC standard claim — whether the email address is verified.
+  flows: []
+  scope: email_verified
+- description: OIDC standard claim — full name.
+  flows: []
+  scope: name
+- description: OIDC standard claim — given name.
+  flows: []
+  scope: given_name
+- description: OIDC standard claim — family name.
+  flows: []
+  scope: family_name
+- description: OIDC standard claim — nickname.
+  flows: []
+  scope: nickname
+- description: OIDC standard claim — profile picture URL.
+  flows: []
+  scope: picture
+- description: OIDC standard claim — phone number.
+  flows: []
+  scope: phone
+- description: OIDC standard claim — postal address.
+  flows: []
+  scope: address
+- description: Auth0 tenant claim — account creation timestamp.
+  flows: []
+  scope: created_at
+- description: Auth0 tenant claim — linked identity providers for the user.
+  flows: []
+  scope: identities
 slug: acin-scopes
 source_filename: acin-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +83,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: >-\n  scopes_supp
   \ verified.\n  standard: true\n- name: name\n  description: OIDC standard claim — full name.\n  standard: true\n- name: given_name\n  description: OIDC standard claim — given name.\n  standard: true\n- name: family_name\n  description: OIDC standard claim — family name.\n  standard: true\n- name: nickname\n  description: OIDC standard claim — nickname.\n  standard: true\n- name: picture\n  description: OIDC standard claim — profile picture URL.\n  standard: true\n- name: phone\n  description: OIDC standard claim — phone number.\n  standard: true\n- name: address\n  description: OIDC standard claim — postal address.\n  standard: true\n- name: created_at\n  description: Auth0 tenant claim — account creation timestamp.\n  standard: false\n- name: identities\n  description: Auth0 tenant claim — linked identity providers for the user.\n  standard: false\ngaps:\n- >-\n  No API-permission scopes are published. The GraphQL gateway at apim-prod.acin.com rejects\n  anonymous requests with HTTP 401,\
   \ so the audience and scope values a client would request cannot\n  be observed without a tenant credential.\n- No scopes or permissions reference page exists on any public Acin surface.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acin/refs/heads/main/scopes/acin-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Company
 - Operational Risk
@@ -39,5 +95,6 @@ tags:
 - RegTech
 - Benchmarking
 - Data Standards
+token_bound: false
 token_urls: []
 ---

@@ -94,16 +94,80 @@ method: searched
 name: Diaspora Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Diaspora uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Diaspora publishes 16 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Diaspora API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Diaspora
 provider_slug: diaspora
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 16
+scope_names:
+- openid
+- profile
+- email
+- profile:read_private
+- profile:modify
+- public:read
+- public:modify
+- private:read
+- private:modify
+- contacts:read
+- contacts:modify
+- conversations
+- interactions
+- notifications
+- tags:read
+- tags:modify
+scopes:
+- description: Defined by the OpenID Connect specification. Mandatory — allows using OpenID Connect authentication. If missing, API authentication will fail.
+  flows: []
+  scope: openid
+- description: Defined by the OpenID Connect specification. Allows reading the user's own claims (user properties) via the UserInfo route or from the ID Token, and grants access to the "read own profile" diaspora* API endpoint.
+  flows: []
+  scope: profile
+- description: Defined by the OpenID Connect specification. Allows reading the user's own email address using the UserInfo route or from the ID Token.
+  flows: []
+  scope: email
+- description: Gives access to additional profile fields which are part of the user's private profile.
+  flows: []
+  scope: profile:read_private
+- description: Gives access to updating a user's own profile.
+  flows: []
+  scope: profile:modify
+- description: Read public profiles of users, perform search among publicly searchable profiles, read public posts, read reshares, and read public post interactions (likes, comments). Granted to any authorized entity even when not explicitly requested.
+  flows: []
+  scope: public:read
+- description: Create public posts and reshares, post photos, delete public posts, and delete public photos.
+  flows: []
+  scope: public:modify
+- description: Read private posts, read private post interactions (likes, comments), and read streams — main stream, aspects stream, mention stream, activity stream, liked stream and commented stream.
+  flows: []
+  scope: private:read
+- description: Create private posts, post photos privately, delete private posts, and delete private photos.
+  flows: []
+  scope: private:modify
+- description: Read the aspect list, read aspect membership, read private user profiles of contacts, read contacts of contacts when allowed by the contact's aspect setting, and include contacts hidden from public search in user search results.
+  flows: []
+  scope: contacts:read
+- description: Add new aspects, rename aspects and change aspect properties, delete aspects, and add or remove a person to/from aspects. Also covers blocking and unblocking a user.
+  flows: []
+  scope: contacts:modify
+- description: Gives access to private messaging — create conversations and send private messages.
+  flows: []
+  scope: conversations
+- description: Create and delete comments, report posts and comments, post and remove likes, subscribe to and mute posts, hide posts from streams, and vote in polls. Read access to the underlying post must also be present (public:read for public posts, private:read for private posts).
+  flows: []
+  scope: interactions
+- description: Gives access to reading notifications.
+  flows: []
+  scope: notifications
+- description: Gives access to reading tag followings and reading the tags stream.
+  flows: []
+  scope: tags:read
+- description: Gives access to creation and deletion of tag followings.
+  flows: []
+  scope: tags:modify
 slug: diaspora-scopes
 source_filename: diaspora-scopes.yml
 source_heading: OAuth Scopes
@@ -117,7 +181,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://d
   \  - updateConversationsByConversationGuid\n  - getConversationsByConversationGuidMessages\n  - createConversationsByConversationGuidMessages\n- name: interactions\n  origin: diaspora\n  description: >-\n    Create and delete comments, report posts and comments, post and remove likes, subscribe to and\n    mute posts, hide posts from streams, and vote in polls. Read access to the underlying post must\n    also be present (public:read for public posts, private:read for private posts).\n  operations:\n  - createPostsByPostGuidComments\n  - deletePostsByPostGuidCommentsByCommentGuid\n  - createPostsByPostGuidCommentsByCommentGuidReport\n  - createPostsByPostGuidLikes\n  - deletePostsByPostGuidLikes\n  - createPostsByPostGuidCommentsByCommentGuidLikes\n  - deletePostsByPostGuidCommentsByCommentGuidLikes\n  - createPostsByPostGuidReport\n  - createPostsByPostGuidSubscribe\n  - createPostsByPostGuidMute\n  - createPostsByPostGuidHide\n  - createPostsByPostGuidVote\n- name: notifications\n  origin:\
   \ diaspora\n  description: Gives access to reading notifications.\n  operations:\n  - getNotifications\n  - getNotificationsByNotificationId\n  - updateNotificationsByNotificationId\n- name: tags:read\n  origin: diaspora\n  description: Gives access to reading tag followings and reading the tags stream.\n  operations:\n  - getTagFollowings\n- name: tags:modify\n  origin: diaspora\n  description: Gives access to creation and deletion of tag followings.\n  operations:\n  - createTagFollowings\n  - deleteTagFollowingsByTagName\n\ndependencies:\n- scope: private:read\n  requires:\n  - contacts:read\n- scope: private:modify\n  requires:\n  - contacts:read\n\nenforcement:\n  insufficient_scope_status: 403\n  insufficient_scope_body: none\n  unauthenticated_status: 401\n\nrelated:\n  authentication: authentication/diaspora-authentication.yml\n  openapi: openapi/diaspora-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/scopes/diaspora-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 16 scopes
 tags:
 - Company
 - Social
@@ -129,5 +193,6 @@ tags:
 - Fediverse
 - Messaging
 - OpenID Connect
+token_bound: false
 token_urls: []
 ---

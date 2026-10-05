@@ -169,6 +169,7 @@ tags:
 - Dispatch
 - Invoicing
 - Home Services
+token_bound: false
 token_urls:
 - https://go.servicem8.com/oauth/access_token
 ---

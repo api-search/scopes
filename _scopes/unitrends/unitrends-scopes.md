@@ -129,6 +129,7 @@ tags:
 - Ransomware Protection
 - MSP
 - Endpoint Backup
+token_bound: false
 token_urls:
 - https://login.backup.net/connect/token
 ---

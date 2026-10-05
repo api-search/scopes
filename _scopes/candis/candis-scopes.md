@@ -145,6 +145,7 @@ tags:
 - DATEV
 - OCR
 - Germany
+token_bound: false
 token_urls:
 - https://id.my.candis.io/auth/realms/candis/protocol/openid-connect/token
 ---

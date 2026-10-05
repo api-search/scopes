@@ -380,6 +380,7 @@ tags:
 - Online Ordering
 - Menu Management
 - Analytics
+token_bound: false
 token_urls:
 - /v1/auth/token
 ---

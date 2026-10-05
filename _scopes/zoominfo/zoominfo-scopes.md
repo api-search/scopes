@@ -462,6 +462,7 @@ tags:
 - Data Enrichment
 - AI Agents
 - MCP
+token_bound: false
 token_urls:
 - https://okta-login.zoominfo.com/oauth2/default/v1/token
 ---

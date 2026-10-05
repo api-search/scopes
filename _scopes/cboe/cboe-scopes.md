@@ -219,6 +219,7 @@ tags:
 - Financial Markets
 - Exchange
 - Trading
+token_bound: false
 token_urls:
 - https://id.livevol.com/connect/token
 ---

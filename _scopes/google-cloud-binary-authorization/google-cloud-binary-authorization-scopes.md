@@ -68,6 +68,7 @@ tags:
 - Kubernetes
 - Policy Enforcement
 - Supply Chain Security
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

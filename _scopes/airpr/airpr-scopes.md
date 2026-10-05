@@ -78,6 +78,7 @@ tags:
 - Marketing
 - PR Measurement
 - Onclusive
+token_bound: false
 token_urls:
 - https://crawler-api-auth.onclusive.com/oauth2/token
 ---

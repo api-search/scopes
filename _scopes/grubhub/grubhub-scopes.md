@@ -60,7 +60,8 @@ api_specs:
   slug: grubhub-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-webhooks-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://api-gtm.grubhub.com/oauth2/authorize
 description: ''
 docs: https://grubhub-developers.zendesk.com/hc/en-us/articles/115004598023-Open-ID-Authentication
 flows: []
@@ -71,6 +72,9 @@ name: Grubhub Scopes
 name_suffix: OAuth Scopes
 note: Upgraded 2026-09-17 from searched to probed. The scope list is no longer inferred from a docs article - it is read directly from Grubhub's own RFC 8414 authorization-server metadata, which both partner API hosts serve anonymously. scopes_supported is exactly ["openid", "diner"]. None of the twelve published partner OpenAPI documents declares an oauth2 securityScheme, so no scope is bound to an operation anywhere in the machine-readable contract.
 overview: 'Grubhub publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Grubhub API on a user''s behalf.
+
+
+  Tokens are issued from https://api-gtm.grubhub.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -109,5 +113,7 @@ tags:
 - Hospitality
 - Local Commerce
 - Delivery
-token_urls: []
+token_bound: false
+token_urls:
+- https://api-gtm.grubhub.com/oauth2/token
 ---

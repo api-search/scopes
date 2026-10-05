@@ -106,6 +106,7 @@ tags:
 - Product Analytics
 - Artificial Intelligence
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://api.sprig.com/oauth/token
 ---

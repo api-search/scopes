@@ -93,6 +93,7 @@ tags:
 - Chronic Care
 - MCP
 - WordPress
+token_bound: false
 token_urls:
 - https://mylocalinfusion.com/oauth/token
 ---

@@ -122,6 +122,7 @@ tags:
 - Webhook
 - MCP
 - A2A
+token_bound: false
 token_urls:
 - https://auth.sendspark.com/oauth2/token
 ---

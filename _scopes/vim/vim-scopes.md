@@ -124,6 +124,7 @@ tags:
 - Value-Based Care
 - Care Gaps
 - Authentication
+token_bound: false
 token_urls:
 - https://auth.getvim.com/oauth/token
 ---

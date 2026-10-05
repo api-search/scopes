@@ -137,6 +137,7 @@ tags:
 - MCP
 - AI Agents
 - Sales Compensation
+token_bound: false
 token_urls:
 - https://assistant.fullcast.io/oauth/token
 - https://app.fullcast.io/mcp/token

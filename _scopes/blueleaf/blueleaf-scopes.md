@@ -61,7 +61,7 @@ tags:
 - Account Aggregation
 - Client Portal
 - Authentication
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://secure.blueleaf.com/oauth/token
 ---

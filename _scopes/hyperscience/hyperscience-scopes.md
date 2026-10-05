@@ -99,6 +99,7 @@ tags:
 - Automation
 - Generative AI
 - FedRAMP
+token_bound: false
 token_urls:
 - https://{server}.{company}.com/oauth/token
 ---

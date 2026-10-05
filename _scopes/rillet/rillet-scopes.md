@@ -235,6 +235,7 @@ tags:
 - Accounts Payable
 - Invoicing
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://api.rillet.com/oauth2/token
 ---

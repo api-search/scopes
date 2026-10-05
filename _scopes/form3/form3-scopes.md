@@ -219,6 +219,7 @@ tags:
 - Cross-Border
 - Banking as a Service
 - Embedded Payments
+token_bound: false
 token_urls:
 - https://api.form3.tech/v1/oauth2/token
 ---

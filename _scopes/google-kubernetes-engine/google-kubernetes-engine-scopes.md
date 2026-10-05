@@ -79,7 +79,8 @@ tags:
 - Google Cloud
 - Kubernetes
 - Managed Service
-- Orchestration
+- Container Orchestration
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

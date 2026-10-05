@@ -9,16 +9,72 @@ method: probed
 name: Bekhealth Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'BEKHealth uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'BEKHealth publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the BEKHealth API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: BEKHealth
 provider_slug: bekhealth
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- offline_access
+- email
+- email_verified
+- name
+- given_name
+- family_name
+- nickname
+- picture
+- created_at
+- identities
+- phone
+- address
+scopes:
+- description: Requests an ID Token; required for any OIDC authentication request.
+  flows: []
+  scope: openid
+- description: Requests the default profile claims (name, family_name, given_name, nickname, picture).
+  flows: []
+  scope: profile
+- description: Requests a refresh token so the client can renew access without user interaction.
+  flows: []
+  scope: offline_access
+- description: Requests the email claim.
+  flows: []
+  scope: email
+- description: Requests the email_verified claim.
+  flows: []
+  scope: email_verified
+- description: Requests the name claim.
+  flows: []
+  scope: name
+- description: Requests the given_name claim.
+  flows: []
+  scope: given_name
+- description: Requests the family_name claim.
+  flows: []
+  scope: family_name
+- description: Requests the nickname claim.
+  flows: []
+  scope: nickname
+- description: Requests the picture claim.
+  flows: []
+  scope: picture
+- description: Requests the created_at claim (account creation timestamp).
+  flows: []
+  scope: created_at
+- description: Requests the identities claim (linked identity-provider accounts).
+  flows: []
+  scope: identities
+- description: Requests the phone_number claim.
+  flows: []
+  scope: phone
+- description: Requests the address claim.
+  flows: []
+  scope: address
 slug: bekhealth-scopes
 source_filename: bekhealth-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +84,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: https://auth.bekh
   \  standard: Auth0 claim scope\n  description: Requests the created_at claim (account creation timestamp).\n- name: identities\n  standard: Auth0 claim scope\n  description: Requests the identities claim (linked identity-provider accounts).\n- name: phone\n  standard: OpenID Connect Core 1.0\n  description: Requests the phone_number claim.\n- name: address\n  standard: OpenID Connect Core 1.0\n  description: Requests the address claim.\nobserved_in_use:\n- scope: openid\n  where: docs.bekhealth.com login redirect\n- scope: email\n  where: docs.bekhealth.com login redirect\ncoverage:\n  identity_scopes: 14\n  api_scopes: 0\n  note: >-\n    Zero API/product scopes are published. An integrator cannot determine from\n    any public artifact what a BEKhealth access token would be authorized to do.\nx-evidence:\n  fetched: '2026-08-06'\n  probes:\n  - url: https://auth.bekhealth.com/.well-known/openid-configuration\n    http_status: 200\n  - url: https://docs.bekhealth.com/\n    http_status:\
   \ 302\n    note: 'redirect carries scope=openid%20email'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bekhealth/refs/heads/main/scopes/bekhealth-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Company
 - Healthcare
@@ -40,5 +96,6 @@ tags:
 - Patient Recruitment
 - Life Sciences
 - Health Data
+token_bound: false
 token_urls: []
 ---

@@ -58,6 +58,7 @@ tags:
 - Professional Network
 - MCP
 - Developer API
+token_bound: false
 token_urls:
 - https://contra.com/api/mcp/oauth/token
 ---

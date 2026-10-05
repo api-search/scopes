@@ -27,7 +27,13 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://docs.unifygtm.com/developers/mcp/getting-started
-flows: []
+flows:
+- authorizationCode
+- deviceCode
+- clientCredentials
+- refreshToken
+- tokenExchange
+- implicit
 kind: oauth-scopes
 layout: scope
 method: probed
@@ -35,7 +41,7 @@ name: Unify Scopes
 name_suffix: OAuth Scopes
 note: 'None of Unify''s four OpenAPI documents declares an oauth2 securityScheme - the REST APIs are x-api-key (Data/Sequences/Tasks) and HTTP Basic (Analytics), so derive-oauth-scopes.py has nothing to read from the specs. OAuth exists on a different surface: the hosted MCP server at https://mcp.unifygtm.com/mcp returns an RFC 9728 protected-resource document naming https://auth.unifygtm.com/ as its authorization server. The scopes below are read from that server''s live RFC 8414 metadata, saved verbatim at well-known/unify-oauth-authorization-server.json. IMPORTANT: scopes_supported here is the standard OIDC identity set advertised by the Auth0 tenant. Unify publishes NO product-permission scopes (nothing of the form read:sequences / write:records). Authorization for MCP tool calls is enforced by the identity of the logged-in user and their Unify tenant, not by scope - "every tool call is scoped to the Unify user and tenant that authenticated the connection. A tool can only read or act
   on data that user can already see in Unify." Do not read this file as a permission model for the REST APIs; there is none.'
-overview: 'Unify publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Unify API on a user''s behalf.
+overview: 'Unify publishes 14 OAuth 2.0 scopes via the authorizationCode, deviceCode, clientCredentials, refreshToken, tokenExchange, and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Unify API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -111,7 +117,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://auth.unif
   \  - scope: profile\n    description: Standard OIDC scope for the user's basic profile claims.\n    kind: identity\n  - scope: offline_access\n    description: Requests a refresh token so an MCP client can keep the connection alive without re-prompting.\n    kind: identity\n  - scope: email\n    description: The user's email address.\n    kind: identity\n  - scope: email_verified\n    kind: identity\n  - scope: name\n    kind: identity\n  - scope: given_name\n    kind: identity\n  - scope: family_name\n    kind: identity\n  - scope: nickname\n    kind: identity\n  - scope: picture\n    kind: identity\n  - scope: phone\n    kind: identity\n  - scope: address\n    kind: identity\n  - scope: created_at\n    kind: identity\n  - scope: identities\n    description: Linked identity-provider records for the user.\n    kind: identity\nalternative_auth:\n  - method: api-key\n    header: x-api-key\n    detail: >-\n      Unify documents an API-key alternative for MCP clients that cannot run the\n\
   \      OAuth flow. A key carries the full authority of the Unify user it belongs to\n      and is not scope-limited.\n    source: https://docs.unifygtm.com/developers/mcp/getting-started\ngaps:\n  - id: no-product-scopes\n    detail: >-\n      There is no way for a caller - human or agent - to request less than the full\n      authority of the authenticating user. Neither the OAuth server nor the API\n      key model offers a read-only or resource-limited grant, so least-privilege\n      delegation to an agent is not expressible today.\ncross_links:\n  authentication: authentication/unify-authentication.yml\n  mcp: mcp/unify-mcp.yml\n  well_known: well-known/unify-well-known.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/scopes/unify-scopes.yml
-summary_line: 14 scopes
+summary_line: 14 scopes · authorizationCode/deviceCode/clientCredentials/refreshToken/tokenExchange/implicit
 tags:
 - Sales
 - Marketing
@@ -129,5 +135,6 @@ tags:
 - Agent Skills
 - Webhook
 - A2A
+token_bound: false
 token_urls: []
 ---

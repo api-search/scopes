@@ -71,6 +71,7 @@ tags:
 - Data Syndication
 - RESO
 - Company
+token_bound: false
 token_urls:
 - https://api.crexi.com/token
 ---

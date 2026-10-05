@@ -220,16 +220,40 @@ method: searched
 name: Benchmark Email Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Benchmark Email uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Benchmark Email publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Benchmark Email API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Benchmark Email
 provider_slug: benchmark-email
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- contacts:read
+- contacts:write
+- campaigns:read
+- campaigns:write
+- reports:read
+- domains:read
+scopes:
+- description: Read contacts, lists, contact structures, search contacts, export contacts, and view contact events and history.
+  flows: []
+  scope: contacts:read
+- description: Create, update and delete contacts and lists; update contact structures.
+  flows: []
+  scope: contacts:write
+- description: Read campaigns and browse email templates.
+  flows: []
+  scope: campaigns:read
+- description: Create, update, delete and duplicate campaigns.
+  flows: []
+  scope: campaigns:write
+- description: View dashboard summaries and email performance reports.
+  flows: []
+  scope: reports:read
+- description: View email sending domains.
+  flows: []
+  scope: domains:read
 slug: benchmark-email-scopes
 source_filename: benchmark-email-scopes.yml
 source_heading: OAuth Scopes
@@ -241,7 +265,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ Reports are inherently read-only, and domain\n  VERIFICATION is a deliberate web-only flow — the API can read a sending domain's\n  verification status but cannot verify one.\n- >-\n  The scope-to-operation mapping above is derived from the resource descriptions on the\n  authentication page plus the tag on each operation in the OpenAPI. The OpenAPI itself\n  declares a single apiKeyAuth scheme with NO per-operation security requirements, so the\n  spec does not tell a client which scope an operation needs — only the prose does. That is\n  the gap worth closing: adding per-operation security to the spec would make the scope\n  model machine-readable.\n- >-\n  Scope failures are self-describing at runtime: a 403 returns \"API key missing required\n  scope: contacts:write\", naming exactly what to grant.\n- >-\n  Least-privilege guidance is published, with worked examples (a reporting dashboard needs\n  only reports:read; a contact sync needs contacts:write).\nlegacy_api:\n  name: Benchmark\
   \ Classic RESTful API v3.0\n  scopes: none\n  note: >-\n    The classic API's Admin API Token is all-or-nothing over the whole account. The scoped\n    key model exists only on the v1 API.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/scopes/benchmark-email-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - Email Marketing
 - Campaigns
@@ -258,5 +282,6 @@ tags:
 - Webhook
 - Agent Ready
 - A2A
+token_bound: false
 token_urls: []
 ---

@@ -351,6 +351,7 @@ tags:
 - Open Source
 - Germany
 - Europe
+token_bound: false
 token_urls:
 - https://example.com/auth/realms/realm//protocol/openid-connect/token
 ---

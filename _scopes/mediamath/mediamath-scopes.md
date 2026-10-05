@@ -676,6 +676,7 @@ tags:
 - Creative Management
 - Reporting
 - Analytics
+token_bound: false
 token_urls:
 - https://auth.mediamath.com/oauth/token
 - https:/auth.mediamath.com/oauth/token

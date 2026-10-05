@@ -190,6 +190,7 @@ tags:
 - Supply Chain
 - Customs
 - B2B
+token_bound: false
 token_urls:
 - https://api.flexport.com/oauth/token
 ---

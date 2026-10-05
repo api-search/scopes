@@ -117,6 +117,7 @@ tags:
 - Service Catalog
 - StackForms
 - Terraform
+token_bound: false
 token_urls:
 - https://http-api.cycloid.io/oauth/token
 ---

@@ -69,6 +69,7 @@ tags:
 - Sentiment
 - Free
 - Financial Data
+token_bound: false
 token_urls:
 - https://mcp.alphavantage.co/token
 ---

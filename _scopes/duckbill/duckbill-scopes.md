@@ -77,6 +77,7 @@ tags:
 - Agents
 - MCP
 - Concierge
+token_bound: false
 token_urls:
 - https://clerk.getduckbill.com/oauth/token
 ---

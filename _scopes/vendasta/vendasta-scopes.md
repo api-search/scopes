@@ -522,17 +522,23 @@ api_specs:
   slug: vendasta-social-posts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/openapi/vendasta-social-posts-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://sso-api-demo.apigateway.co/oauth2/auth
+- https://sso-api-prod.apigateway.co/oauth2/auth
 description: ''
 docs: https://developers.vendasta.com/platform/f6cb51f2ee2f1-authorization
-flows: []
+flows:
+- authorizationCode
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Vendasta Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Vendasta publishes 73 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Vendasta API on a user''s behalf.
+overview: 'Vendasta publishes 73 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Vendasta API on a user''s behalf.
+
+
+  Tokens are issued from https://sso-api-demo.apigateway.co/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -929,7 +935,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://github.
   \ category, organization).\n    Without this scope an exact user id is required.'\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/vendasta-platform-openapi.yml\n- scope: user.permission\n  description: Read-write access to the permission info (accessible locations, features and roles) of all categories\n    of users\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/vendasta-platform-openapi.yml\n- scope: user.permission:read\n  description: Read access to the permission info (accessible locations, features and roles) of all categories of\n    users\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/vendasta-platform-openapi.yml\n- scope: user.profile:read\n  description: Read access to the profile fields of all categories of users\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/vendasta-platform-openapi.yml\n  - openapi/vendasta-scim-openapi.yml\n- scope: user:read\n  description: Allows the application view-only access to all of your users in the platform\n\
   \  flows:\n  - authorizationCode\n  sources:\n  - openapi/vendasta-wsp-support-tools-openapi.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/scopes/vendasta-scopes.yml
-summary_line: 73 scopes
+summary_line: 73 scopes · authorizationCode
 tags:
 - Company
 - Software-as-a-Service
@@ -941,5 +947,8 @@ tags:
 - CRM
 - Digital Agency
 - Platform
-token_urls: []
+token_bound: false
+token_urls:
+- https://sso-api-demo.apigateway.co/oauth2/token
+- https://sso-api-prod.apigateway.co/oauth2/token
 ---

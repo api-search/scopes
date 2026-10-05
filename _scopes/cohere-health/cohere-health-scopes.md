@@ -84,6 +84,7 @@ tags:
 - Da Vinci
 - SMART on FHIR
 - Interoperability
+token_bound: false
 token_urls:
 - https://login.coherehealth.com/oauth2/v1/token
 ---

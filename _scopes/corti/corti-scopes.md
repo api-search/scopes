@@ -247,6 +247,7 @@ tags:
 - Agents
 - Machine Learning
 - Real-Time
+token_bound: false
 token_urls:
 - https://auth.eu.corti.app/realms/base/protocol/openid-connect/token
 ---

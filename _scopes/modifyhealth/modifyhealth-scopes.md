@@ -69,6 +69,7 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - Direct to Consumer
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/7887683702/oauth/token
 ---

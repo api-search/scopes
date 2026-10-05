@@ -334,6 +334,7 @@ tags:
 - No-Code
 - Publishing
 - Web Development
+token_bound: false
 token_urls:
 - https://api.webflow.com/oauth/token
 ---

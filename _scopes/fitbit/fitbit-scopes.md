@@ -207,6 +207,7 @@ tags:
 - Google
 - IoT
 - Wellness
+token_bound: false
 token_urls:
 - https://api.fitbit.com/oauth2/token
 ---

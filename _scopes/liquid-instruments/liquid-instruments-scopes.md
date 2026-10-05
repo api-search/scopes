@@ -89,6 +89,7 @@ tags:
 - Scientific Instruments
 - Electronics
 - Laboratory
+token_bound: false
 token_urls:
 - https://auth.liquidinstruments.com/oauth2/token
 ---

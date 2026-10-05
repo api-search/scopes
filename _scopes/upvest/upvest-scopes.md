@@ -348,6 +348,7 @@ tags:
 - Fractional Investing
 - Custody
 - Wealth Management
+token_bound: false
 token_urls:
 - /auth/token
 ---

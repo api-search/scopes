@@ -93,6 +93,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activision-bli
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
 - Fortune 1000
+token_bound: false
 token_urls:
 - https://oauth.battle.net/token
 ---

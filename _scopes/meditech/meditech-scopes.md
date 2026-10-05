@@ -107,6 +107,7 @@ tags:
 - FHIR
 - HL7
 - Interoperability
+token_bound: false
 token_urls:
 - https://greenfield-prod-apis.meditech.com/oauth/token
 ---

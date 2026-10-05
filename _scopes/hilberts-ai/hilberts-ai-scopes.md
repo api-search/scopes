@@ -126,6 +126,7 @@ tags:
 - Automation
 - AI Agents
 - Consumer
+token_bound: false
 token_urls:
 - https://hilbert-app.us.auth0.com/oauth/token
 ---

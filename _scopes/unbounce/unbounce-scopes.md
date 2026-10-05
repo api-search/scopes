@@ -118,6 +118,7 @@ tags:
 - A/B Testing
 - Lead Generation
 - Marketing Automation
+token_bound: false
 token_urls:
 - https://api.unbounce.com/oauth/token
 - https://mcp.unbounce.com/token

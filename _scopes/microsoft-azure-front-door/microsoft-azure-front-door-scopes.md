@@ -58,5 +58,6 @@ tags:
 - Global Routing
 - Load Balancing
 - WAF
+token_bound: false
 token_urls: []
 ---

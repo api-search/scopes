@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: ucsd-chat-api-openapi.yml
-  format: yaml
-  label: TritonAI Developer API — chat
-  slug: tritonai-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-chat-api-openapi.yml
 - filename: ucsd-completions-api-openapi.yml
   format: yaml
   label: TritonAI Developer API — completions
@@ -54,6 +48,12 @@ api_specs:
   slug: ucsd-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-search-api-openapi.yml
+- filename: ucsd-chat-completions-api-openapi.yml
+  format: yaml
+  label: University of California, San Diego Chat Completions API
+  slug: ucsd-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/openapi/ucsd-chat-completions-api-openapi.yml
 authorization_urls: []
 description: Authorization scopes observable on UC San Diego's institution-operated API surfaces. Both surfaces are credential-gated; the scope names below were read from endpoints that answer anonymously, not from published developer documentation, because UC San Diego does not publish a scope reference outside its Single Sign-On boundary.
 docs: ''
@@ -99,5 +99,6 @@ tags:
 - API Gateway
 - Artificial Intelligence
 - Research Computing
+token_bound: false
 token_urls: []
 ---

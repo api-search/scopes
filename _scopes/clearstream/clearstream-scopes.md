@@ -58,5 +58,6 @@ tags:
 - Securities
 - Settlement
 - SWIFT
+token_bound: false
 token_urls: []
 ---

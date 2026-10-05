@@ -50,5 +50,6 @@ tags:
 - Research Data
 - Course Catalog
 - Campus Life
+token_bound: false
 token_urls: []
 ---

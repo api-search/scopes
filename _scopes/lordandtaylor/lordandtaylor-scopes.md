@@ -67,6 +67,7 @@ tags:
 - Department Store
 - Agentic Commerce
 - MCP
+token_bound: false
 token_urls:
 - https://account.lordandtaylor.com/authentication/oauth/token
 ---

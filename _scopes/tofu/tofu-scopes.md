@@ -89,6 +89,7 @@ tags:
 - Agents
 - Contact Data
 - A2A
+token_bound: false
 token_urls:
 - https://login.tofuhq.com/oauth2/token
 ---

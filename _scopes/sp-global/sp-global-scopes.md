@@ -113,6 +113,7 @@ tags:
 - Named Entity Recognition
 - Speech-to-Text
 - Real-Time
+token_bound: false
 token_urls:
 - https://kfinance.kensho.com/integrations/token
 ---

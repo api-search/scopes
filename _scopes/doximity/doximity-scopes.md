@@ -168,6 +168,7 @@ tags:
 - Healthcare
 - SSO
 - Verification
+token_bound: false
 token_urls:
 - https://auth.doximity.com/oauth/token
 ---

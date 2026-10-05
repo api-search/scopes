@@ -198,6 +198,7 @@ tags:
 - GraphQL
 - LTI
 - Learning Management
+token_bound: false
 token_urls:
 - https://{canvas_domain}/login/oauth2/token
 ---

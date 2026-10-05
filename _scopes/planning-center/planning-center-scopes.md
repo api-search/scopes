@@ -142,6 +142,7 @@ tags:
 - Scheduling
 - People
 - Non-Profit
+token_bound: false
 token_urls:
 - https://api.planningcenteronline.com/oauth/token
 ---

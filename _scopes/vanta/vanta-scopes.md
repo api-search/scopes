@@ -155,6 +155,7 @@ tags:
 - Security
 - Governance
 - Risk Management
+token_bound: false
 token_urls:
 - https://api.vanta.com/oauth/token
 ---

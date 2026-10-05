@@ -79,6 +79,7 @@ tags:
 - Post-Trade Services
 - Reconciliation
 - Risk Management
+token_bound: false
 token_urls:
 - https://auth.trireduce.com/oauth/token
 ---

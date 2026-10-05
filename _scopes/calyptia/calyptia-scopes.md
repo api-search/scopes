@@ -330,6 +330,7 @@ tags:
 - Data Pipeline
 - Kubernetes
 - DevOps
+token_bound: false
 token_urls:
 - https://sso.calyptia.com/oauth/token
 ---

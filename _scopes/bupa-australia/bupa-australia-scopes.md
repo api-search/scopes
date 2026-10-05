@@ -79,6 +79,7 @@ tags:
 - Policy Administration
 - Employee Benefits
 - Partner Gated
+token_bound: false
 token_urls:
 - https://partnerlogin.bupa.com.au/52bddae3-95ef-41bb-8c87-5561dead0bad/b2c_1a_prod_01_signup_signin/oauth2/v2.0/token
 - https://login.microsoftonline.com/fee9c112-179f-46e3-ab98-f8d58602cf19/oauth2/v2.0/token

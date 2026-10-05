@@ -50,6 +50,7 @@ tags:
 - Video Generation
 - Creative Tools
 - MCP
+token_bound: false
 token_urls:
 - https://openart.ai/suite/api/auth/oauth/token
 ---

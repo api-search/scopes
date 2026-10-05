@@ -291,6 +291,7 @@ tags:
 - Seating
 - Seating Charts
 - Venues
+token_bound: false
 token_urls:
 - https://auth.socialtables.com/oauth/token
 ---

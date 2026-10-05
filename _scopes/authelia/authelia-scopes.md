@@ -152,5 +152,6 @@ tags:
 - Self-Hosted
 - SSO
 - Identity Federation
+token_bound: false
 token_urls: []
 ---

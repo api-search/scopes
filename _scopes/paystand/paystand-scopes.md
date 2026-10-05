@@ -58,6 +58,7 @@ tags:
 - ACH
 - Billing
 - Checkout
+token_bound: false
 token_urls:
 - https://api.paystand.com/v3/api/v3/oauth/token
 ---

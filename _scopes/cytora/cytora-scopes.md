@@ -127,6 +127,7 @@ tags:
 - Brokers
 - Submission Intake
 - Document AI
+token_bound: false
 token_urls:
 - https://auth.cytora.com/oauth/token
 ---

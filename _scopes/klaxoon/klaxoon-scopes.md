@@ -113,6 +113,7 @@ tags:
 - Workshops
 - Brainstorming
 - Whiteboard
+token_bound: false
 token_urls:
 - https://access.klaxoon.com/token
 ---

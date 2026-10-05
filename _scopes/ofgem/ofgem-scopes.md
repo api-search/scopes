@@ -89,6 +89,7 @@ tags:
 - Energy Regulation
 - Renewables
 - Great Britain
+token_bound: false
 token_urls:
 - https://pk8sprdofgemcloudb2c.b2clogin.com/pk8sprdofgemcloudb2c.onmicrosoft.com/b2c_1a_rer_signin/oauth2/v2.0/token
 - https://epre-api.ofgem.gov.uk/tokens/

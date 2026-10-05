@@ -84,7 +84,8 @@ api_specs:
   slug: adsmom-inc-insights-tiktok-organic-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/openapi/adsmom-inc-insights-tiktok-organic-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://app.adsmom.com/oauth/authorize
 description: ''
 docs: ''
 flows: []
@@ -94,16 +95,35 @@ method: searched
 name: Adsmom Inc Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Adsmom uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Adsmom publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Adsmom API on a user''s behalf.
+
+
+  Tokens are issued from https://app.adsmom.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Adsmom
 provider_slug: adsmom-inc
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- mcp:invoke
+- api:read
+- api:write
+- billing:read
+scopes:
+- description: Invoke tools on the Adsmom MCP server. The only scope advertised by either protected-resource document, and the scope an MCP client (Claude, Codex, Cursor, Gemini) requests when connecting.
+  flows: []
+  scope: mcp:invoke
+- description: Read access to the REST API. Maps to the 66 GET operations in the OpenAPI — Explore (ad listing, hydration, detail, reach/impression timeseries, snapshots), Insights reads (tracked advertisers/accounts, AI summaries, weekly reports) and all of Analytics.
+  flows: []
+  scope: api:read
+- description: Write access to the REST API. Maps to the 12 mutating operations — the six POST track* operations (trackMetaAdvertiser, trackTiktokAdvertiser, trackGoogleAdvertiser, trackLinkedinAdvertiser, trackTiktokSocialAccount, trackInstagramSocialAccount) and the six DELETE untrack* operations.
+  flows: []
+  scope: api:write
+- description: Read access to billing/entitlement state. No REST operation in the published OpenAPI is billing-specific; the closest is getUsage (GET /api/v1/usage), which returns plan, credits and rate limit.
+  flows: []
+  scope: billing:read
 slug: adsmom-inc-scopes
 source_filename: adsmom-inc-scopes.yml
 source_heading: OAuth Scopes
@@ -112,7 +132,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://a
   \ document, and the scope an MCP client (Claude, Codex,\n    Cursor, Gemini) requests when connecting.\n  surfaces:\n  - mcp\n  advertised_by:\n  - /.well-known/oauth-authorization-server\n  - /.well-known/oauth-protected-resource\n  - /.well-known/oauth-protected-resource/mcp\n- name: api:read\n  description: >-\n    Read access to the REST API. Maps to the 66 GET operations in the OpenAPI —\n    Explore (ad listing, hydration, detail, reach/impression timeseries,\n    snapshots), Insights reads (tracked advertisers/accounts, AI summaries,\n    weekly reports) and all of Analytics.\n  surfaces:\n  - rest\n  advertised_by:\n  - /.well-known/oauth-authorization-server\n- name: api:write\n  description: >-\n    Write access to the REST API. Maps to the 12 mutating operations — the six\n    POST track* operations (trackMetaAdvertiser, trackTiktokAdvertiser,\n    trackGoogleAdvertiser, trackLinkedinAdvertiser, trackTiktokSocialAccount,\n    trackInstagramSocialAccount) and the six DELETE untrack*\
   \ operations.\n  surfaces:\n  - rest\n  advertised_by:\n  - /.well-known/oauth-authorization-server\n- name: billing:read\n  description: >-\n    Read access to billing/entitlement state. No REST operation in the published\n    OpenAPI is billing-specific; the closest is getUsage (GET /api/v1/usage),\n    which returns plan, credits and rate limit.\n  surfaces:\n  - rest\n  advertised_by:\n  - /.well-known/oauth-authorization-server\n\nmapping_note: >-\n  The OpenAPI declares its security scheme as an HTTP bearer scheme rather than an\n  oauth2 scheme with a flows/scopes map, so no operation in the spec names a scope.\n  The surface/operation mapping above is an honest derivation from the scope names\n  and the operation verbs; Adsmom does not publish a per-operation scope table.\n\ncross_links:\n  authentication: authentication/adsmom-inc-authentication.yml\n  well_known: well-known/adsmom-inc-well-known.yml\n  openapi: openapi/adsmom-inc-openapi.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/scopes/adsmom-inc-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Company
 - Advertising
@@ -127,5 +147,7 @@ tags:
 - Analytics
 - Social Media
 - Agent-Native
-token_urls: []
+token_bound: false
+token_urls:
+- https://app.adsmom.com/oauth/token
 ---

@@ -165,6 +165,7 @@ tags:
 - Software-as-a-Service
 - China
 - Open Platform
+token_bound: false
 token_urls:
 - https://graph.3vjia.com/oauth/token
 ---

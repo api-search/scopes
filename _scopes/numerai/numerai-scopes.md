@@ -76,5 +76,6 @@ tags:
 - Crypto
 - Quantitative Finance
 - Tournament
+token_bound: false
 token_urls: []
 ---

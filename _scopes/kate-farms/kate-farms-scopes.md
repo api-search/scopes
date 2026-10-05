@@ -73,6 +73,7 @@ tags:
 - Retail
 - Shopify
 - GraphQL
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/2056802/oauth/token
 ---

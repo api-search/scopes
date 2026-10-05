@@ -140,6 +140,7 @@ tags:
 - AI Agents
 - China
 - Alibaba
+token_bound: false
 token_urls:
 - https://api-sandbox.xiaoman.cn/v1/oauth2/access_token
 ---

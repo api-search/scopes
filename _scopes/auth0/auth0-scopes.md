@@ -1620,6 +1620,7 @@ tags:
 - Security
 - SCIM
 - Identity Federation
+token_bound: false
 token_urls:
 - /oauth/token/
 ---

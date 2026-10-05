@@ -70,6 +70,7 @@ tags:
 - Data Aggregation
 - MCP
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://auth.gotenzo.com/o/token/
 ---

@@ -260,6 +260,7 @@ tags:
 - Photos
 - Social Media
 - Public APIs
+token_bound: false
 token_urls:
 - https://www.flickr.com/services/oauth/access_token
 ---

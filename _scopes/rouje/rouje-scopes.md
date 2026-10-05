@@ -68,6 +68,7 @@ tags:
 - Shopify
 - Agentic Commerce
 - Paris
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/69929140544/oauth/token
 ---

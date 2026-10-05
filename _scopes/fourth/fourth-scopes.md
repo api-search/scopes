@@ -50,6 +50,7 @@ tags:
 - HCM
 - Point-of-Sale
 - Food and Beverage
+token_bound: false
 token_urls:
 - '[ROOT]/oauth/connect/token'
 ---

@@ -72,6 +72,7 @@ tags:
 - MCP
 - Retrieval
 - S&P Global
+token_bound: false
 token_urls:
 - https://kfinance.kensho.com/integrations/token
 ---

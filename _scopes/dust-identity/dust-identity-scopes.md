@@ -247,6 +247,7 @@ tags:
 - Aerospace and Defense
 - Manufacturing
 - Security
+token_bound: false
 token_urls:
 - https://authd.dustid.io/api/auth/oauth2/token
 - https://authd.dustid.io/api/auth/dust/service-accounts/token

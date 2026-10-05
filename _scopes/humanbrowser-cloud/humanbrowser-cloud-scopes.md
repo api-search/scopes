@@ -102,6 +102,7 @@ tags:
 - Computer Use
 - Agent-Native
 - United Kingdom
+token_bound: false
 token_urls:
 - https://agent.humanbrowser.cloud/oauth/token
 - https://agent.humanbrowser.cloud/token

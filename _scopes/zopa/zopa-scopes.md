@@ -157,6 +157,7 @@ tags:
 - United Kingdom
 - Digital Bank
 - Lending
+token_bound: false
 token_urls:
 - https://authserver.example/token
 ---

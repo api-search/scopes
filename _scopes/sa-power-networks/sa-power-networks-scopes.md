@@ -198,6 +198,7 @@ tags:
 - Solar
 - DER
 - Open Data
+token_bound: false
 token_urls:
 - https://customer.portal.sapowernetworks.com.au/meterdata/services/oauth2/token
 ---

@@ -72,6 +72,7 @@ tags:
 - Analytics
 - Artificial Intelligence
 - MCP
+token_bound: false
 token_urls:
 - https://social-server.syncly.app/oauth/token
 ---

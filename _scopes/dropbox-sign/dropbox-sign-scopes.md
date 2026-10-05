@@ -106,6 +106,7 @@ tags:
 - Document Signing
 - Workflow Automation
 - Documents
+token_bound: false
 token_urls:
 - https://app.hellosign.com/oauth/token
 ---

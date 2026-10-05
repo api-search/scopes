@@ -100,6 +100,8 @@ tags:
 - Treasury
 - CashPro
 - Fortune 100
+- Consumer Banking
+token_bound: false
 token_urls:
 - https://api.bankofamerica.com/oauth/token
 ---

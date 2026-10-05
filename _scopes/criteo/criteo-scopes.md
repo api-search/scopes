@@ -231,6 +231,7 @@ tags:
 - Sponsored Products
 - A2A
 - AdTech
+token_bound: false
 token_urls:
 - https://api.criteo.com/oauth2/token
 ---

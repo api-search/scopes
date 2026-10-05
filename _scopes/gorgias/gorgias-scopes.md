@@ -160,6 +160,7 @@ tags:
 - Shopify
 - Ticketing
 - Conversations
+token_bound: false
 token_urls:
 - https://{account}.gorgias.com/oauth/token
 ---

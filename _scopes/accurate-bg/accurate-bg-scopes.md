@@ -98,6 +98,7 @@ tags:
 - Compliance
 - Human Resources
 - Screening
+token_bound: false
 token_urls:
 - https://api.accuratebackground.com/v3/oauth/token
 ---

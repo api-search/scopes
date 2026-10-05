@@ -133,6 +133,7 @@ tags:
 - Marketing
 - Social Media
 - E-Commerce
+token_bound: false
 token_urls:
 - https://auth.grin.co/oauth/token
 ---

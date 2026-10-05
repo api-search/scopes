@@ -138,6 +138,7 @@ tags:
 - Security
 - SSO
 - Identity Federation
+token_bound: false
 token_urls:
 - https://{host}/ccx/oauth2/{tenant}/token
 ---

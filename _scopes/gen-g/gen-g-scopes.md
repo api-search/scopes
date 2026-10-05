@@ -66,6 +66,7 @@ tags:
 - Sports
 - Media
 - Consumer
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/55492378809/oauth/token
 ---

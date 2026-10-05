@@ -60,6 +60,7 @@ tags:
 - Documentation
 - RAG
 - Europe
+token_bound: false
 token_urls:
 - https://{platform}.elium.com/oauth/token
 ---

@@ -89,7 +89,7 @@ tags:
 - Case Management
 - Communications
 - Authentication
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://app.manifestlaw.com/api/auth/oauth2/token
 ---

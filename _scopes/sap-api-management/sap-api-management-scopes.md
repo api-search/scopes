@@ -78,6 +78,7 @@ tags:
 - Developer Tools
 - Enterprise
 - SAP
+token_bound: false
 token_urls:
 - https://{tenantUrl}/oauth/token
 ---

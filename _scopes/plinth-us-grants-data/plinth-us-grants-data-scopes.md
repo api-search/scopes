@@ -40,16 +40,20 @@ method: probed
 name: Plinth Us Grants Data Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Plinth US Grants Data uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Plinth US Grants Data publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Plinth US Grants Data API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Plinth US Grants Data
 provider_slug: plinth-us-grants-data
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- plinth:read
+scopes:
+- description: Read access to the Plinth grants warehouse through the MCP connector. Advertised in both the RFC 8414 authorization-server metadata (scopes_supported) and the RFC 9728 protected-resource metadata (scopes_supported) — the two agree.
+  flows: []
+  scope: plinth:read
 slug: plinth-us-grants-data-scopes
 source_filename: plinth-us-grants-data-scopes.yml
 source_heading: OAuth Scopes
@@ -59,7 +63,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://data.usep
   \ [authorization_code, refresh_token]\n  pkce: S256\n  pkce_required: true\n  client_registration: dynamic (RFC 7591) at https://data.useplinth.com/oauth/register\n  token_endpoint_auth_methods: [none]\n  response_types: [code]\n  bearer_methods: [header]\n  consent: >-\n    Browser sign-in required once. The provider's own onboarding descriptor lists \"No programmatic\n    signup\" as a gap: dynamic registration and PKCE are fully automatable, but the human consent\n    step and the plan check are not.\n\nauthorization_is_plan_shaped:\n  model: product-tiers\n  vocabulary_url: https://data.useplinth.com/pricing\n  provider_wording: >-\n    \"Plan-gated rather than scoped. The free tier reads /grants/* and the organization endpoints;\n    POST /api/sql, the people/board and asset tables and the MCP connector require a paid plan. A\n    request outside the plan answers 402 with a message naming the reason.\"\n    — /.well-known/api-onboarding, scopes.notes\n  effective_boundaries:\n   \
   \ - boundary: unauthenticated\n      reaches: GET /api/search only (security [] in the spec; unmetered)\n    - boundary: free key\n      reaches: /grants/* and the three organization endpoints, 50 calls/month\n    - boundary: paid key\n      reaches: '+ POST /api/sql, + the people/board and asset warehouse tables'\n    - boundary: For consultants ($250/mo)\n      reaches: '+ the MCP connector (plinth:read), 10,000 calls/month'\n  enforcement: 402 (plan/allowance) and 403 (gated warehouse table named in SQL)\n  see:\n    - errors/plinth-us-grants-data-problem-types.yml\n    - plans/plinth-us-grants-data-plans-pricing.yml\n\nrest_api_scopes:\n  applicable: false\n  note: >-\n    The REST API uses a static API key with no scope surface at all. One key per account, rotatable\n    at /account, prefixed `plinth_sk_`, shown once. See\n    authentication/plinth-us-grants-data-authentication.yml.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/scopes/plinth-us-grants-data-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Philanthropy
 - Grants
@@ -74,5 +78,6 @@ tags:
 - JSON
 - MCP
 - SQL
+token_bound: false
 token_urls: []
 ---

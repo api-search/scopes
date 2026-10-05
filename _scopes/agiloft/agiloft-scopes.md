@@ -66,6 +66,7 @@ tags:
 - Webhook
 - SCIM
 - Company
+token_bound: false
 token_urls:
 - https://{hostname}/ewws/otoken
 ---

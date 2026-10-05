@@ -133,6 +133,7 @@ tags:
 - Heart Rate
 - Performance
 - Wellness
+token_bound: false
 token_urls:
 - https://api.prod.whoop.com/oauth/oauth2/token
 - https://api.prod.whoop.com/developer/v2/partner/token

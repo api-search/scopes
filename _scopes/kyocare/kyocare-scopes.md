@@ -61,6 +61,7 @@ tags:
 - Digital Health
 - Scheduling
 - Private API
+token_bound: false
 token_urls:
 - https://api.attain.kyocare.com/oauth/token
 ---

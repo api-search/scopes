@@ -104,6 +104,7 @@ tags:
 - CRM
 - Fundraising
 - Fundraising Software
+token_bound: false
 token_urls:
 - https://api.bloomerang.co/v2/oauth/token
 ---

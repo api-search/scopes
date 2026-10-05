@@ -149,6 +149,7 @@ tags:
 - Streaming
 - WebSocket
 - Authentication
+token_bound: false
 token_urls:
 - https://pulsoid.net/oauth2/token
 ---

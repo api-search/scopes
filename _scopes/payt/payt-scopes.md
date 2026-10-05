@@ -160,5 +160,6 @@ tags:
 - Fintech
 - Credit Management
 - Netherlands
+token_bound: false
 token_urls: []
 ---

@@ -166,16 +166,40 @@ method: searched
 name: Getvda Ai Scopes
 name_suffix: OAuth Scopes
 note: 'The OAuth scopes live in the served C2MD agent card''s securitySchemes, not in any OpenAPI (the C2MD OpenAPI is an edge-proxy shell with no securitySchemes, so derive-oauth-scopes.py has nothing to read). The same five c2md:* scopes are declared identically under google_oauth2 and microsoft_oauth2 authorizationCode flows, plus one Microsoft clientCredentials scope for pre-registered service principals. The witness_bearer scheme maps a Witness ACCOUNT tier to the same access ladder without OAuth: SEALED -> assess-tier skills, ANCHORED -> generate_starter and above. Witness''s own whoami returns scopes ["seal","read"] for a key; those are account-level grants, not OAuth scopes, and are listed under witness_account_scopes.'
-overview: 'Verified Digital Agents (VDA) uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Verified Digital Agents (VDA) publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Verified Digital Agents (VDA) API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Verified Digital Agents (VDA)
 provider_slug: getvda-ai
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- c2md:assess
+- c2md:generate_starter
+- c2md:generate_pro
+- c2md:generate_journey
+- c2md:commercial_deploy
+- 7c89fa90-05ca-4779-8128-32c7f11f604b/.default
+scopes:
+- description: Risk assessment and framework translation. Free tier. Rate-limited per account.
+  flows: []
+  scope: c2md:assess
+- description: Single-jurisdiction, single-framework-stack bundle. Watermarked. Non-commercial licence.
+  flows: []
+  scope: c2md:generate_starter
+- description: Multi-jurisdiction, full-framework-stack bundle. Includes DPIA / FRIA scaffolding. Commercial deployment licence.
+  flows: []
+  scope: c2md:generate_pro
+- description: Full VDA-MD two-axis library for a given industry. Journey tier subscription.
+  flows: []
+  scope: c2md:generate_journey
+- description: Commercial deployment rights for any bundle previously generated on this account.
+  flows: []
+  scope: c2md:commercial_deploy
+- description: 'TIER 3 (by arrangement — enterprise/platform integrations, NOT self-serve): service-principal callers pre-registered to a C2MD platform-of-record account; tier and contract terms resolved server-side. Unregistered principals resolve to free-tier (assess only). Contact hello@getvda.ai.'
+  flows: []
+  scope: 7c89fa90-05ca-4779-8128-32c7f11f604b/.default
 slug: getvda-ai-scopes
 source_filename: getvda-ai-scopes.yml
 source_heading: OAuth Scopes
@@ -185,7 +209,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://c2md.ge
   \  tier: starter\n  skills: [generate_compliance_bundle]\n- name: c2md:generate_pro\n  description: Multi-jurisdiction, full-framework-stack bundle. Includes DPIA / FRIA scaffolding. Commercial deployment licence.\n  tier: pro\n  skills: [generate_compliance_bundle, generate_dpia_fria_scaffold]\n- name: c2md:generate_journey\n  description: Full VDA-MD two-axis library for a given industry. Journey tier subscription.\n  tier: journey\n  skills: [generate_journey_baseline]\n  note: The backing skill is PLANNED and returns -32601 today.\n- name: c2md:commercial_deploy\n  description: Commercial deployment rights for any bundle previously generated on this account.\n  tier: pro\n  skills: []\n- name: 7c89fa90-05ca-4779-8128-32c7f11f604b/.default\n  description: 'TIER 3 (by arrangement — enterprise/platform integrations, NOT self-serve): service-principal callers pre-registered to a C2MD platform-of-record account; tier and contract terms resolved server-side. Unregistered principals resolve\
   \ to free-tier (assess only). Contact hello@getvda.ai.'\n  tier: enterprise\n  flow: clientCredentials (Microsoft only)\nwitness_account_scopes:\n- name: seal\n  description: Returned by GET /api/witness/whoami for a valid key; grants sealing on the account's chains.\n- name: read\n  description: Returned by whoami; grants list_records / get_record / report on the account's own records.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getvda-ai/refs/heads/main/scopes/getvda-ai-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - Company
 - AI Agents
@@ -198,5 +222,6 @@ tags:
 - x402
 - EU AI Act
 - Human-in-the-Loop
+token_bound: false
 token_urls: []
 ---

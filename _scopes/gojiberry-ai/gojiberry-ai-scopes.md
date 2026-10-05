@@ -120,6 +120,7 @@ tags:
 - Prospecting
 - LinkedIn
 - CRM
+token_bound: false
 token_urls:
 - https://mcp.gojiberry.ai/token
 ---

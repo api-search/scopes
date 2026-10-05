@@ -1,5 +1,6 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://identity.reflexivity.com/oauth/authorize
 description: ''
 docs: https://api-docs.tgl.ai/
 flows: []
@@ -9,16 +10,111 @@ method: probed
 name: Reflexivity Scopes
 name_suffix: OAuth Scopes
 note: 'Read verbatim from Reflexivity''s own RFC 8414 Authorization Server Metadata document, which is served anonymously and enumerates scopes_supported. This is NOT derived from an OpenAPI spec — Reflexivity publishes no public OpenAPI, and the Theneo-hosted API reference is password-protected. Every scope below is the exact string the authorization server advertises. Descriptions are left empty rather than invented: the AS metadata carries no scope descriptions and the scope reference page is behind the documentation password. The naming is the finding — all 23 published scopes are namespaced `mcp:`, meaning Reflexivity''s authorization surface is organised around Model Context Protocol services rather than around REST resources.'
-overview: 'Reflexivity uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Reflexivity publishes 23 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Reflexivity API on a user''s behalf.
+
+
+  Tokens are issued from https://identity.reflexivity.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Reflexivity
 provider_slug: reflexivity
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 23
+scope_names:
+- mcp:*
+- mcp:alfred-integrations
+- mcp:attribution-insights
+- mcp:earnings
+- mcp:earnings-insights
+- mcp:entity-performance
+- mcp:entity-screener
+- mcp:file-processor
+- mcp:financial-events
+- mcp:financial-statements
+- mcp:insights
+- mcp:kg-insights
+- mcp:lseg-datastream-search
+- mcp:news
+- mcp:ontology
+- mcp:price-history
+- mcp:quant
+- mcp:scenario-orchestrator
+- mcp:search
+- mcp:theme
+- mcp:theme:v3
+- mcp:watchlist
+- mcp:web-search
+scopes:
+- description: ''
+  flows: []
+  scope: mcp:*
+- description: ''
+  flows: []
+  scope: mcp:alfred-integrations
+- description: ''
+  flows: []
+  scope: mcp:attribution-insights
+- description: ''
+  flows: []
+  scope: mcp:earnings
+- description: ''
+  flows: []
+  scope: mcp:earnings-insights
+- description: ''
+  flows: []
+  scope: mcp:entity-performance
+- description: ''
+  flows: []
+  scope: mcp:entity-screener
+- description: ''
+  flows: []
+  scope: mcp:file-processor
+- description: ''
+  flows: []
+  scope: mcp:financial-events
+- description: ''
+  flows: []
+  scope: mcp:financial-statements
+- description: ''
+  flows: []
+  scope: mcp:insights
+- description: ''
+  flows: []
+  scope: mcp:kg-insights
+- description: ''
+  flows: []
+  scope: mcp:lseg-datastream-search
+- description: ''
+  flows: []
+  scope: mcp:news
+- description: ''
+  flows: []
+  scope: mcp:ontology
+- description: ''
+  flows: []
+  scope: mcp:price-history
+- description: ''
+  flows: []
+  scope: mcp:quant
+- description: ''
+  flows: []
+  scope: mcp:scenario-orchestrator
+- description: ''
+  flows: []
+  scope: mcp:search
+- description: ''
+  flows: []
+  scope: mcp:theme
+- description: ''
+  flows: []
+  scope: mcp:theme:v3
+- description: ''
+  flows: []
+  scope: mcp:watchlist
+- description: ''
+  flows: []
+  scope: mcp:web-search
 slug: reflexivity-scopes
 source_filename: reflexivity-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +124,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://identity.
   \ ''\n  - name: 'mcp:financial-statements'\n    description: ''\n  - name: 'mcp:insights'\n    description: ''\n  - name: 'mcp:kg-insights'\n    description: ''\n    note: knowledge-graph insights — matches the published Knowledge Graph capability page\n  - name: 'mcp:lseg-datastream-search'\n    description: ''\n    note: LSEG Datastream is named as a licensed data source on reflexivity.com\n  - name: 'mcp:news'\n    description: ''\n  - name: 'mcp:ontology'\n    description: ''\n  - name: 'mcp:price-history'\n    description: ''\n  - name: 'mcp:quant'\n    description: ''\n  - name: 'mcp:scenario-orchestrator'\n    description: ''\n    note: matches the published Scenario Analysis capability page\n  - name: 'mcp:search'\n    description: ''\n  - name: 'mcp:theme'\n    description: ''\n  - name: 'mcp:theme:v3'\n    description: ''\n    note: the only versioned scope in the set — v3 of the theme service\n  - name: 'mcp:watchlist'\n    description: ''\n  - name: 'mcp:web-search'\n    description:\
   \ ''\nx-evidence:\n  fetched: '2026-08-26'\n  url: https://identity.reflexivity.com/.well-known/oauth-authorization-server\n  http_status: 200\n  content_type: application/json; charset=utf-8\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reflexivity/refs/heads/main/scopes/reflexivity-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 23 scopes
 tags:
 - Company
 - Financial Services
@@ -40,5 +136,7 @@ tags:
 - Research
 - Knowledge Graph
 - Agents
-token_urls: []
+token_bound: false
+token_urls:
+- https://identity.reflexivity.com/oauth/token
 ---

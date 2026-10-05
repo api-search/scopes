@@ -516,10 +516,13 @@ api_specs:
   slug: shopify-versions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/openapi/shopify-versions-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://{store}.myshopify.com/admin/oauth/authorize
 description: ''
 docs: https://shopify.dev/docs/api/usage/access-scopes
-flows: []
+flows:
+- authorization_code
+- token_exchange
 kind: oauth-scopes
 layout: scope
 method: searched
@@ -527,6 +530,9 @@ name: Shopify Scopes
 name_suffix: OAuth Scopes
 note: Shopify OAuth 2.0 access scopes, read verbatim from the published access-scopes reference (markdown twin of the HTML page, fetched 2026-08-27, HTTP 200). Three disjoint scope families, one per API surface. The OAuth endpoints themselves are UNVERSIONED per https://shopify.dev/docs/api/usage/versioning.
 overview: 'Shopify uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+
+
+  Tokens are issued from https://{store}.myshopify.com/admin/oauth/access_token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -562,5 +568,7 @@ tags:
 - Universal Commerce Protocol
 - Point-of-Sale
 - Canada
-token_urls: []
+token_bound: false
+token_urls:
+- https://{store}.myshopify.com/admin/oauth/access_token
 ---

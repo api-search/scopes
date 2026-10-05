@@ -548,6 +548,7 @@ tags:
 - Webhook
 - Agent-Native
 - A2A
+token_bound: false
 token_urls:
 - /core/oauth2/token
 ---

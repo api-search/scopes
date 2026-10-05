@@ -223,6 +223,7 @@ tags:
 - Social Media
 - Social News
 - Social
+token_bound: false
 token_urls:
 - https://www.reddit.com/api/v1/access_token
 ---

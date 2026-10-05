@@ -209,6 +209,7 @@ tags:
 - SMART on FHIR
 - Interoperability
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://onc.api.staging-ehr.athelas.com/token
 ---

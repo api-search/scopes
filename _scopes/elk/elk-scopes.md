@@ -1,5 +1,6 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://{server}/oauth/authorize
 description: ''
 docs: ''
 flows: []
@@ -10,6 +11,9 @@ name: Elk Scopes
 name_suffix: OAuth Scopes
 note: 'THESE ARE MASTODON''S SCOPES, NOT ELK''S. Elk does not define a permission vocabulary; it requests a fixed, non-configurable set of top-level Mastodon scopes on every sign-in and never asks for less. That is a real finding about Elk''s consent posture: a user signing into Elk cannot grant read-only access, because the client hard-codes write, follow and push alongside read. There is no incremental or per-feature consent.'
 overview: 'Elk uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+
+
+  Tokens are issued from https://{server}/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -36,5 +40,7 @@ tags:
 - Web-Client
 - Progressive Web App
 - Authentication
-token_urls: []
+token_bound: false
+token_urls:
+- https://{server}/oauth/token
 ---

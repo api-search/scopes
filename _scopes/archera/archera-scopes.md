@@ -123,6 +123,8 @@ tags:
 - MCP
 - Azure
 - Google Cloud
+- Reserved Instances
+token_bound: false
 token_urls:
 - https://api.archera.ai/oauth/token
 ---

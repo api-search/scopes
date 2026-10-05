@@ -145,6 +145,7 @@ tags:
 - Document Management
 - Document Generation
 - Webhook
+token_bound: false
 token_urls:
 - https://api.pandadoc.com/oauth2/access_token
 ---

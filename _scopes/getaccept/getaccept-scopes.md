@@ -127,6 +127,7 @@ tags:
 - Contract Management
 - Proposals
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://app.getaccept.com/oauth2/token
 ---

@@ -100,16 +100,44 @@ method: probed
 name: Clari Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Clari uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Clari publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Clari API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Clari
 provider_slug: clari
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 7
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- offline_access
+- device_sso
+scopes:
+- description: Standard OIDC scope requesting an ID token. Required by the MCP resource.
+  flows: []
+  scope: openid
+- description: Standard OIDC scope granting basic profile claims about the authenticating Clari user.
+  flows: []
+  scope: profile
+- description: Standard OIDC scope granting the user's email claim. Advertised by the authorization server; not required by the MCP resource.
+  flows: []
+  scope: email
+- description: Standard OIDC address claim scope. Advertised by the authorization server only.
+  flows: []
+  scope: address
+- description: Standard OIDC phone claim scope. Advertised by the authorization server only.
+  flows: []
+  scope: phone
+- description: Requests a refresh token so an agent can maintain a long-lived MCP session.
+  flows: []
+  scope: offline_access
+- description: Okta device single-sign-on scope, used with the device authorization grant.
+  flows: []
+  scope: device_sso
 slug: clari-scopes
 source_filename: clari-scopes.yml
 source_heading: OAuth Scopes
@@ -120,7 +148,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  https://mcp
   \ metadata (scopes_supported)\n  standard: openid-connect-core\n- name: address\n  description: Standard OIDC address claim scope. Advertised by the authorization server only.\n  required: false\n  source: authorization-server metadata (scopes_supported)\n  standard: openid-connect-core\n- name: phone\n  description: Standard OIDC phone claim scope. Advertised by the authorization server only.\n  required: false\n  source: authorization-server metadata (scopes_supported)\n  standard: openid-connect-core\n- name: offline_access\n  description: Requests a refresh token so an agent can maintain a long-lived MCP session.\n  required: false\n  source: authorization-server metadata (scopes_supported)\n  standard: openid-connect-core\n- name: device_sso\n  description: Okta device single-sign-on scope, used with the device authorization grant.\n  required: false\n  source: authorization-server metadata (scopes_supported)\n  standard: okta-extension\n\ntoken_claims_supported:\n- ver\n- jti\n-\
   \ iss\n- aud\n- iat\n- exp\n- cid\n- uid\n- scp\n- sub\n\nfindings:\n- Product-scoped authorization is absent. Nothing in the published metadata lets a client request read-only access to, say, calls but not deals.\n- Consent granularity is therefore all-or-nothing at the protocol layer; least-privilege has to be enforced by the Clari admin toggles and the user's own role.\n- The authorization server advertises `implicit` and `password` grants, both discouraged by OAuth 2.1. An MCP client should use authorization_code + PKCE (S256), which is supported.\n- Dynamic client registration is open at https://mcp.clari.com/okta/clients, which is what allows Claude and ChatGPT to connect without a pre-provisioned client id.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/scopes/clari-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 7 scopes
 tags:
 - Revenue Operations
 - Forecasting
@@ -137,5 +165,6 @@ tags:
 - Sales Engagement
 - Bulk Export
 - Data Ingestion
+token_bound: false
 token_urls: []
 ---

@@ -195,6 +195,7 @@ tags:
 - Sports
 - Health
 - Wearables
+token_bound: false
 token_urls:
 - https://oauth.trainingpeaks.com/oauth/token
 ---

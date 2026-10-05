@@ -1,5 +1,6 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://www.laundryheap.com/oauth/authorize
 description: 'The complete OAuth 2.0 scope surface Laundryheap''s authorization server advertises. There are two scopes and no published scope reference page: this list is the authorization server''s own machine-readable declaration, which is the only place either scope is named anywhere on Laundryheap''s public surface.'
 docs: ''
 flows: []
@@ -9,16 +10,27 @@ method: probed
 name: Laundryheap Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Laundryheap uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Laundryheap publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Laundryheap API on a user''s behalf.
+
+
+  Tokens are issued from https://www.laundryheap.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Laundryheap
 provider_slug: laundryheap
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- openid
+- orders.create
+scopes:
+- description: Standard OpenID Connect scope. Requests an ID token (RS256) identifying the end user; enables the /oauth/userinfo endpoint.
+  flows: []
+  scope: openid
+- description: Create orders on behalf of the account. Laundryheap's only business scope. Its dotted resource.action naming implies a wider intended scheme (orders.read, orders.cancel and so on) of which only this one is currently advertised.
+  flows: []
+  scope: orders.create
 slug: laundryheap-scopes
 source_filename: laundryheap-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +39,7 @@ source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: >-\n  https://www
   \  - name: openid\n    description: >-\n      Standard OpenID Connect scope. Requests an ID token (RS256) identifying the\n      end user; enables the /oauth/userinfo endpoint.\n    standard: true\n    spec: OpenID Connect Core 1.0\n  - name: orders.create\n    description: >-\n      Create orders on behalf of the account. Laundryheap's only business scope.\n      Its dotted resource.action naming implies a wider intended scheme\n      (orders.read, orders.cancel and so on) of which only this one is currently\n      advertised.\n    standard: false\n    resource: orders\n    action: create\n    write: true\n\nobservations:\n  - >-\n    The scope set is write-only in business terms: a partner can create an order\n    but the authorization server advertises no scope for reading, modifying or\n    cancelling one. Every read and every cancellation observed on the GraphQL\n    surface is gated behind the first-party session instead.\n  - >-\n    Dynamic client registration (RFC 7591) is open\
   \ at /oauth/registration, so\n    scopes can be requested by a self-registered client.\n\nx-evidence:\n  fetched: '2026-08-23'\n  url: https://www.laundryheap.com/.well-known/openid-configuration\n  http_status: 200\n  scopes_supported: [openid, orders.create]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/scopes/laundryheap-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Company
 - Laundry
@@ -40,5 +52,7 @@ tags:
 - Ordering
 - GraphQL
 - Authentication
-token_urls: []
+token_bound: false
+token_urls:
+- https://www.laundryheap.com/oauth/token
 ---

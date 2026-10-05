@@ -110,6 +110,7 @@ tags:
 - Talent Acquisition
 - Applicant Tracking
 - HR Technology
+token_bound: false
 token_urls:
 - https://www.smartrecruiters.com/identity/oauth/token
 ---

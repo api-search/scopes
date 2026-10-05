@@ -86,6 +86,7 @@ tags:
 - Spam Detection
 - Communications
 - Mobile SDK
+token_bound: false
 token_urls:
 - https://oauth-account-noneu.truecaller.com/v1/token
 ---

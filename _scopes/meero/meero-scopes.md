@@ -34,16 +34,20 @@ method: probed
 name: Meero Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Meero uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Meero publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Meero API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Meero
 provider_slug: meero
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp
+scopes:
+- description: Access to the CarCutter MCP server resource. The authorization server publishes no finer-grained scopes and no per-scope descriptions; this is the only value in scopes_supported on both the authorization-server and the protected-resource metadata documents.
+  flows: []
+  scope: mcp
 slug: meero-scopes
 source_filename: meero-scopes.yml
 source_heading: OAuth Scopes
@@ -52,7 +56,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: https://www.carcu
   - issuer: https://auth.eu.car-cutter.com/\n  kind: openid-connect\n  provider: Auth0\n  authorization_endpoint: https://auth.eu.car-cutter.com/authorize\n  token_endpoint: https://auth.eu.car-cutter.com/oauth/token\n  device_authorization_endpoint: https://auth.eu.car-cutter.com/oauth/device/code\n  userinfo_endpoint: https://auth.eu.car-cutter.com/userinfo\n  jwks_uri: https://auth.eu.car-cutter.com/.well-known/jwks.json\n  registration_endpoint: https://auth.eu.car-cutter.com/oidc/register\n  revocation_endpoint: https://auth.eu.car-cutter.com/oauth/revoke\n  code_challenge_methods_supported: [S256, plain]\n  protects: 'CarCutter Hub (hub.car-cutter.com) and the gated audience https://api2.car-cutter.com'\n  discovered_via: 'The Hub login redirect chain: https://hub.car-cutter.com/ -> /auth/login/ -> auth.eu.car-cutter.com/login?...&audience=https%3A%2F%2Fapi2.car-cutter.com'\n  scopes_note: 'scopes_supported is the stock Auth0 OIDC claim set (openid, profile, offline_access,\n    name,\
   \ given_name, family_name, nickname, email, email_verified, picture, created_at, identities,\n    phone, address). These are identity claims, not CarCutter API permissions — no product-scoped\n    values are published. The login request itself asks for only \"openid offline_access\".'\nscopes:\n- name: mcp\n  description: 'Access to the CarCutter MCP server resource. The authorization server publishes no\n    finer-grained scopes and no per-scope descriptions; this is the only value in scopes_supported\n    on both the authorization-server and the protected-resource metadata documents.'\n  source: /.well-known/oauth-authorization-server + /.well-known/oauth-protected-resource\nscope_count: 1\ngaps:\n- No scope decomposition (read vs write, per-tool) is published for the MCP resource.\n- The REST API has no scopes at all; a bearer token is all-or-nothing per account.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/scopes/meero-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Automotive
 - Image
@@ -63,5 +67,6 @@ tags:
 - E-Commerce
 - Vehicle Merchandising
 - Company
+token_bound: false
 token_urls: []
 ---

@@ -67,6 +67,7 @@ tags:
 - Luxury Resale
 - Agentic Commerce
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/59001897017/oauth/token
 ---

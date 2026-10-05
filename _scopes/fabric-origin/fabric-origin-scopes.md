@@ -146,5 +146,6 @@ tags:
 - Market Intelligence
 - Media
 - MCP
+token_bound: false
 token_urls: []
 ---

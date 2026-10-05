@@ -307,6 +307,7 @@ tags:
 - Account Information
 - Specialist Lender
 - Savings
+token_bound: false
 token_urls:
 - https://authserver.example/token
 ---

@@ -24,7 +24,8 @@ api_specs:
   slug: forcedream-ai-workforce-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-workforce-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://api.forcedream.ai/v1/oauth/authorize
 description: 'ForceDream''s OAuth scope surface is small and lives in machine-readable discovery documents rather than a scopes reference page (none exists): two scopes in the RFC 8414 / RFC 9728 metadata for the MCP resource, and one scope declared on the A2A agent card. The published OpenAPI declares only bearerAuth, so derive-oauth-scopes.py produced nothing; this file is authored from the discovery documents.'
 docs: https://forcedream.ai/mcp
 flows: []
@@ -35,6 +36,9 @@ name: Forcedream Ai Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'ForceDream uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+
+
+  Tokens are issued from https://api.forcedream.ai/v1/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -64,5 +68,7 @@ tags:
 - Agentic Commerce
 - Agent-Native
 - United Kingdom
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.forcedream.ai/v1/oauth/token
 ---

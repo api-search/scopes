@@ -53,6 +53,7 @@ tags:
 - Couriers
 - Fulfillment
 - DaaS
+token_bound: false
 token_urls:
 - https://auth.uber.com/oauth/v2/token
 ---

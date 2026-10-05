@@ -189,6 +189,7 @@ tags:
 - DCAT
 - Conservation
 - Mapping
+token_bound: false
 token_urls:
 - https://mlrs.blm.gov/services/oauth2/token
 - https://glorecords.blm.gov/services/oauth2/token

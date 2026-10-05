@@ -91,6 +91,7 @@ tags:
 - Transportation
 - Flight Information
 - Passenger Experience
+token_bound: false
 token_urls:
 - https://id.syd.com.au:443/am/oauth2/access_token
 ---

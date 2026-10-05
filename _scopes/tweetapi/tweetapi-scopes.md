@@ -65,6 +65,7 @@ tags:
 - Agent-Native
 - llms-txt
 - REST API
+token_bound: false
 token_urls:
 - https://tweetapi.com/api/oauth/token
 ---

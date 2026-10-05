@@ -217,6 +217,7 @@ tags:
 - Market Data
 - A2A
 - Real-Time
+token_bound: false
 token_urls:
 - https://cymetica.com/oauth/token
 ---

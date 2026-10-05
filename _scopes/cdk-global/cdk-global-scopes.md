@@ -152,5 +152,6 @@ tags:
 - Event
 - Webhook
 - AsyncAPI
+token_bound: false
 token_urls: []
 ---

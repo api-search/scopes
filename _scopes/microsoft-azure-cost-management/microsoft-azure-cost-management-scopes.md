@@ -237,6 +237,7 @@ tags:
 - Chargebacks
 - Focus
 - Azure
-- Reservations
+- Reserved Instances
+token_bound: false
 token_urls: []
 ---

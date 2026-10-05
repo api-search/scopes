@@ -70,16 +70,60 @@ method: searched
 name: Agendapro Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'AgendaPro uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'AgendaPro publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AgendaPro API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: AgendaPro
 provider_slug: agendapro
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 11
+scope_names:
+- bookings:read
+- bookings:write
+- clients:read
+- clients:write
+- locations:read
+- services:read
+- providers:read
+- custom_attributes:read
+- sales:read
+- carts:write
+- payment_requests:write
+scopes:
+- description: List and show bookings
+  flows: []
+  scope: bookings:read
+- description: Create, update, and cancel bookings
+  flows: []
+  scope: bookings:write
+- description: List and show clients
+  flows: []
+  scope: clients:read
+- description: Create and update clients
+  flows: []
+  scope: clients:write
+- description: List and show locations
+  flows: []
+  scope: locations:read
+- description: List and show services
+  flows: []
+  scope: services:read
+- description: List and show providers
+  flows: []
+  scope: providers:read
+- description: List custom attribute templates
+  flows: []
+  scope: custom_attributes:read
+- description: List and show sales
+  flows: []
+  scope: sales:read
+- description: Create and update carts and create payment requests
+  flows: []
+  scope: carts:write
+- description: Cancel a pending payment request
+  flows: []
+  scope: payment_requests:write
 slug: agendapro-scopes
 source_filename: agendapro-scopes.yml
 source_heading: OAuth Scopes
@@ -88,7 +132,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: https://develop
   \  description: Create, update, and cancel bookings\n  operations:\n  - createBooking\n  - updateBooking\n  - cancelBooking\n- name: clients:read\n  description: List and show clients\n  operations:\n  - listClients\n  - getClient\n  - quickSearchClients\n  - listClientCustomAttributes\n- name: clients:write\n  description: Create and update clients\n  operations:\n  - createClient\n  - updateClient\n  - deactivateClient\n- name: locations:read\n  description: List and show locations\n  operations:\n  - listLocations\n  - getLocation\n- name: services:read\n  description: List and show services\n  operations:\n  - listServices\n  - getService\n  - listCategories\n- name: providers:read\n  description: List and show providers\n  operations:\n  - listProviders\n  - getProvider\n- name: custom_attributes:read\n  description: List custom attribute templates\n  operations:\n  - listCustomAttributeTemplates\n- name: sales:read\n  description: List and show sales\n  operations:\n  - listSales\n\
   \  - getSale\n- name: carts:write\n  description: Create and update carts and create payment requests\n  operations:\n  - createCart\n  - updateCart\n  - getCart\n  - createPaymentRequest\n- name: payment_requests:write\n  description: Cancel a pending payment request\n  operations:\n  - cancelPaymentRequest\nnotes:\n- Nine scopes are enumerated in the OpenAPI info.description scope table. carts:write and payment_requests:write\n  are NOT in that table but are named as required scopes in the per-operation error dictionaries for the cart and\n  payment-request endpoints; both are recorded here with that provenance so the catalogue matches the enforced surface.\n- No write scope exists for locations, services, categories, providers or sales — those resources are read-only\n  through the public API.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agendapro/refs/heads/main/scopes/agendapro-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 11 scopes
 tags:
 - Appointment Scheduling
 - Booking
@@ -103,5 +147,6 @@ tags:
 - Latin America
 - Small Business
 - Scheduling
+token_bound: false
 token_urls: []
 ---

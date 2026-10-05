@@ -250,6 +250,7 @@ tags:
 - Personalization
 - SMS
 - Webhook
+token_bound: false
 token_urls:
 - https://YOUR_SUBDOMAIN.auth.marketingcloudapis.com/v2/token
 ---

@@ -119,6 +119,7 @@ tags:
 - Workplace Analytics
 - Facilities
 - Authentication
+token_bound: false
 token_urls:
 - https://login.onkadence.co/oauth2/token
 ---

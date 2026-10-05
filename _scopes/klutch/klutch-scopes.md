@@ -82,6 +82,7 @@ tags:
 - GraphQL
 - Embedded Finance
 - Agents
+token_bound: false
 token_urls:
 - https://graphql.klutchcard.com/oauth/token
 ---

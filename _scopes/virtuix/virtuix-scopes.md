@@ -69,6 +69,7 @@ tags:
 - Game Development
 - Location-Based Entertainment
 - Consumer Electronics
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/60989898907/oauth/token
 ---

@@ -93,6 +93,7 @@ tags:
 - Time Series
 - Open Data
 - Public APIs
+token_bound: false
 token_urls:
 - https://signin.nasdaq.com/oauth2/austt9dkdogT6EFRB417/v1/token
 ---

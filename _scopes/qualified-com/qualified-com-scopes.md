@@ -82,16 +82,60 @@ method: searched
 name: Qualified Com Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Qualified uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Qualified publishes 11 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Qualified API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Qualified
 provider_slug: qualified-com
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 11
+scope_names:
+- lead:view
+- lead:manage
+- company:manage
+- session:view
+- conversation:view
+- meeting:view
+- meeting:manage
+- email:view
+- bulk_job:manage
+- gdpr:manage
+- legacy:view
+scopes:
+- description: Read leads.
+  flows: []
+  scope: lead:view
+- description: Create and update leads. Implies lead:view.
+  flows: []
+  scope: lead:manage
+- description: Create and update companies. Companies cannot be read back.
+  flows: []
+  scope: company:manage
+- description: Read website sessions.
+  flows: []
+  scope: session:view
+- description: Read conversations and messages. Covers both message endpoints.
+  flows: []
+  scope: conversation:view
+- description: Read meetings.
+  flows: []
+  scope: meeting:view
+- description: Cancel meetings. Implies meeting:view.
+  flows: []
+  scope: meeting:manage
+- description: Read outbound email activity.
+  flows: []
+  scope: email:view
+- description: Submit bulk jobs and read their status. Covers both /v2/bulk endpoints.
+  flows: []
+  scope: bulk_job:manage
+- description: Submit GDPR deletion requests.
+  flows: []
+  scope: gdpr:manage
+- description: Read the legacy /v1 bot and rep reporting endpoints.
+  flows: []
+  scope: legacy:view
 slug: qualified-com-scopes
 source_filename: qualified-com-scopes.yml
 source_heading: OAuth Scopes
@@ -100,7 +144,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://app.qua
   \  description: Read leads.\n  operations: [listLeads, getLead]\n- name: lead:manage\n  description: Create and update leads. Implies lead:view.\n  operations: [upsertLead]\n- name: company:manage\n  description: Create and update companies. Companies cannot be read back.\n  operations: [upsertCompany]\n- name: session:view\n  description: Read website sessions.\n  operations: [listSessions, getSession]\n- name: conversation:view\n  description: Read conversations and messages. Covers both message endpoints.\n  operations: [listConversations, getConversation, listConversationMessages, listMessages, getMessage]\n- name: meeting:view\n  description: Read meetings.\n  operations: [listMeetings, getMeeting]\n- name: meeting:manage\n  description: Cancel meetings. Implies meeting:view.\n  operations: [cancelMeeting]\n- name: email:view\n  description: Read outbound email activity.\n  operations: [listEmails, getEmail]\n- name: bulk_job:manage\n  description: Submit bulk jobs and read their\
   \ status. Covers both /v2/bulk endpoints.\n  operations: [createBulkJob, getBulkJob]\n- name: gdpr:manage\n  description: Submit GDPR deletion requests.\n  operations: [createGdprDeletionRequest]\n- name: legacy:view\n  description: Read the legacy /v1 bot and rep reporting endpoints.\n  operations: [listBotConversations, listRepConversations]\nunscoped_operations:\n- operationId: listLeadFields\n  note: GET /v2/leads/fields requires only a valid token, no scope.\n- operationId: listCompanyFields\n  note: GET /v2/companies/fields requires only a valid token, no scope.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qualified-com/refs/heads/main/scopes/qualified-com-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 11 scopes
 tags:
 - Company
 - Conversational Marketing
@@ -112,5 +156,6 @@ tags:
 - Customer Engagement
 - Salesforce
 - Analytics
+token_bound: false
 token_urls: []
 ---

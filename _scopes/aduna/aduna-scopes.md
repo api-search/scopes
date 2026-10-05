@@ -74,6 +74,7 @@ tags:
 - Quality on Demand
 - Device Location
 - Ericsson
+token_bound: false
 token_urls:
 - '{baseURL}/auth/token'
 ---

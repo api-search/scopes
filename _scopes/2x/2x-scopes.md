@@ -122,6 +122,7 @@ tags:
 - Customer Success
 - AI Agents
 - Demand Generation
+token_bound: false
 token_urls:
 - https://mcp.knownwell.com/token
 ---

@@ -116,6 +116,7 @@ tags:
 - Learning Management
 - Creator Economy
 - Webhook
+token_bound: false
 token_urls:
 - https://thrivecart.com/authorization/token
 ---

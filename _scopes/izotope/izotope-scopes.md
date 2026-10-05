@@ -68,12 +68,11 @@ tags:
 - Mastering
 - Audio Restoration
 - Audio Repair
-- Post Production
+- Post-Production
 - Plugins
 - VST
 - AudioUnit
 - AAX
-- DSP
 - AI Audio
 - Machine Learning Audio
 - Vocal Processing
@@ -82,6 +81,8 @@ tags:
 - MCP
 - E-Commerce
 - Boris FX
+- Digital Signal Processing
+token_bound: false
 token_urls:
 - https://account.izotope.com/authentication/oauth/token
 ---

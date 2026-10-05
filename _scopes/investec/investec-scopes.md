@@ -278,6 +278,7 @@ tags:
 - Wealth Management
 - FAPI
 - Programmable Banking
+token_bound: false
 token_urls:
 - https://authserver.example/token
 ---

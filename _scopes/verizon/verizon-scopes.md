@@ -111,6 +111,7 @@ tags:
 - Enterprise
 - Network APIs
 - Fortune 100
+token_bound: false
 token_urls:
 - https://thingspace.verizon.com/api/m2m/v2/session/token
 ---

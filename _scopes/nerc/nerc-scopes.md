@@ -205,6 +205,7 @@ tags:
 - Cybersecurity
 - Energy Markets
 - Compliance
+token_bound: false
 token_urls:
 - https://www.eisac.com/services/oauth2/token
 ---

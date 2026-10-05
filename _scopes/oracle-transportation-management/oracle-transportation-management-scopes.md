@@ -78,6 +78,7 @@ tags:
 - Shipping
 - Global Trade
 - Oracle
+token_bound: false
 token_urls:
 - https://login.oracle.com/oauth2/v1/token
 ---

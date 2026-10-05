@@ -298,6 +298,7 @@ tags:
 - Analytics
 - MCP
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://console.doit.com/api/auth/token
 ---

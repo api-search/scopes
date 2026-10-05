@@ -61,5 +61,6 @@ tags:
 - GraphQL
 - MCP
 - Wealth Screening
+token_bound: false
 token_urls: []
 ---

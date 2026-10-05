@@ -12,12 +12,6 @@ api_specs:
   slug: aimlapi-assistants-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-assistants-api-openapi.yml
-- filename: aimlapi-chat-api-openapi.yml
-  format: yaml
-  label: AIMLAPI Chat API
-  slug: aimlapi-chat-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-chat-api-openapi.yml
 - filename: aimlapi-images-api-openapi.yml
   format: yaml
   label: AIMLAPI Images API
@@ -114,6 +108,12 @@ api_specs:
   slug: aimlapi-video-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-video-api-openapi.yml
+- filename: aimlapi-chat-completions-api-openapi.yml
+  format: yaml
+  label: AIMLAPI Chat Completions API
+  slug: aimlapi-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-chat-completions-api-openapi.yml
 authorization_urls: []
 description: AIMLAPI has two independent permission vocabularies. OAuth scopes exist only on the MCP authorization server and are coarse — one scope covers every tool call. The finer-grained permission model lives on API keys instead, as a set of model-category scopes attached at key creation. Both are recorded here because an integrator choosing between the REST API and the MCP server is choosing between the two.
 docs: https://docs.aimlapi.com/quickstart/mcp
@@ -155,5 +155,6 @@ tags:
 - Embeddings
 - API Gateway
 - Developer Tools
+token_bound: false
 token_urls: []
 ---

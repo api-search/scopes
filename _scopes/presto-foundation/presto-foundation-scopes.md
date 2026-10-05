@@ -53,6 +53,7 @@ tags:
 - Open Source
 - Query Engine
 - SQL
+token_bound: false
 token_urls:
 - https://example.com/oauth/token
 ---

@@ -1,24 +1,45 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://account.cerebelly.com/authentication/oauth/authorize
 description: The complete scopes_supported list published by Cerebelly's own OpenID Connect discovery document. Four scopes, no more — this is the whole authorization vocabulary the domain exposes. Cerebelly publishes no OpenAPI, so this was read directly from the live metadata document rather than derived from a spec.
 docs: ''
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Cerebelly Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Cerebelly uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Cerebelly publishes 4 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cerebelly API on a user''s behalf.
+
+
+  Tokens are issued from https://account.cerebelly.com/authentication/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Cerebelly
 provider_slug: cerebelly
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- customer-account-api:full
+- customer-account-mcp-api:full
+scopes:
+- description: Standard OpenID Connect scope. Requests an ID token identifying the customer; issues the sub, iss, aud, exp, iat, nonce and sid claims.
+  flows: []
+  scope: openid
+- description: Standard OpenID Connect scope. Adds the email and email_verified claims to the ID token.
+  flows: []
+  scope: email
+- description: Full read and write access to the authenticated customer's account through the Customer Account GraphQL API at account.cerebelly.com — profile, addresses, orders, subscriptions and payment methods.
+  flows: []
+  scope: customer-account-api:full
+- description: Full access to the customer-account MCP API — the authenticated, per-customer counterpart to the anonymous UCP commerce MCP endpoint on the storefront host.
+  flows: []
+  scope: customer-account-mcp-api:full
 slug: cerebelly-scopes
 source_filename: cerebelly-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +48,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://cerebel
   - name: email\n  description: >-\n    Standard OpenID Connect scope. Adds the email and email_verified claims to the\n    ID token.\n  standard: true\n  spec: https://openid.net/specs/openid-connect-core-1_0.html\n- name: 'customer-account-api:full'\n  description: >-\n    Full read and write access to the authenticated customer's account through the\n    Customer Account GraphQL API at account.cerebelly.com — profile, addresses,\n    orders, subscriptions and payment methods.\n  standard: false\n  granularity: all-or-nothing\n  note: >-\n    There is no read-only variant and no per-resource split. A customer consenting\n    to this scope consents to the entire account surface at once.\n- name: 'customer-account-mcp-api:full'\n  description: >-\n    Full access to the customer-account MCP API — the authenticated, per-customer\n    counterpart to the anonymous UCP commerce MCP endpoint on the storefront host.\n  standard: false\n  granularity: all-or-nothing\n  note: >-\n    Notable as\
   \ a first-class agent scope: the authorization server treats MCP as a\n    distinct protected surface with its own consent grant, rather than folding it\n    into the general account scope.\ncoverage:\n  total: 4\n  standard: 2\n  provider_specific: 2\n  read_only_variants: 0\nobservations:\n- >-\n  Both provider-specific scopes end in \":full\". Neither offers least-privilege\n  narrowing, so an agent that needs only order history must ask for write access to\n  the entire account.\n- >-\n  No scope governs the anonymous commerce surfaces. search_catalog, create_cart and\n  the Storefront GraphQL catalog fields require no grant at all.\nx-evidence:\n  fetched: '2026-08-09'\n  url: https://cerebelly.com/.well-known/openid-configuration\n  http_status: 200\n  content_type: application/json; charset=utf-8\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerebelly/refs/heads/main/scopes/cerebelly-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes · authorization_code
 tags:
 - Company
 - Baby Food
@@ -40,5 +61,7 @@ tags:
 - Agentic Commerce
 - Universal Commerce Protocol
 - Nutrition
-token_urls: []
+token_bound: false
+token_urls:
+- https://account.cerebelly.com/authentication/oauth/token
 ---

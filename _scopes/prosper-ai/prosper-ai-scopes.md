@@ -88,6 +88,7 @@ tags:
 - EHR Integration
 - AI Agents
 - MCP
+token_bound: false
 token_urls:
 - https://voice.getprosperapp.com/mcp/token
 ---

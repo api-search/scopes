@@ -186,6 +186,7 @@ tags:
 - Travel
 - Airbnb
 - Booking
+token_bound: false
 token_urls:
 - https://api.airbnb.com/v2/oauth2/authorizations
 ---

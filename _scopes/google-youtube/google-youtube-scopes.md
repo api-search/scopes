@@ -110,6 +110,7 @@ tags:
 - Streaming
 - Video
 - YouTube
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

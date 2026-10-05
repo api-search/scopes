@@ -1306,6 +1306,7 @@ tags:
 - SIM Swap
 - Identity Verification
 - Payments
+token_bound: false
 token_urls:
 - https://api.mtn.com/v1/oauth/access_token?grant_type=client_credentials
 - https://api.mtn.com/v1/oauth/access_token

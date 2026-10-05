@@ -50,6 +50,7 @@ tags:
 - Reservations
 - Travel Agencies
 - IATA
+token_bound: false
 token_urls:
 - /api/Selling/r3.x/Auth
 ---

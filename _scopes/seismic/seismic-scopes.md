@@ -112,16 +112,216 @@ method: searched
 name: Seismic Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Seismic uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Seismic publishes 50 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Seismic API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Seismic
 provider_slug: seismic
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 50
+scope_names:
+- seismic.self.view
+- seismic.self.manage
+- seismic.user.view
+- seismic.user.manage
+- seismic.configuration.view
+- seismic.configuration.manage
+- seismic.reporting
+- seismic.delivery
+- seismic.library.view
+- seismic.library.manage
+- seismic.workspace.view
+- seismic.workspace.manage
+- seismic.search
+- seismic.gen-search
+- seismic.livedoc_express.view
+- seismic.livedoc_express.manage
+- seismic.planner.view
+- seismic.planner.manage
+- seismic.custom_property.view
+- seismic.custom_property.manage
+- seismic.custom_schema.view
+- seismic.custom_schema.manage
+- seismic.workflow.view
+- seismic.workflow.manage
+- seismic.engagement.view
+- seismic.engagement.manage
+- seismic.learning.view
+- seismic.learning.manage
+- seismic.global_variable.view
+- seismic.global_variable.manage
+- seismic.channel.view
+- seismic.channel.manage
+- seismic.lessons.view
+- seismic.lessons.manage
+- seismic.skills.view
+- seismic.skills.manage
+- seismic.social.view
+- seismic.social.manage
+- seismic.distribution_list.manage
+- seismic.mcp
+- seismic.webhook
+- seismic.events
+- seismic.audit.view
+- seismic.crm
+- seismic.email
+- seismic.intelligence
+- offline_access
+- openid
+- email
+- profile
+scopes:
+- description: Read information about the current user
+  flows: []
+  scope: seismic.self.view
+- description: Manage information about the current user
+  flows: []
+  scope: seismic.self.manage
+- description: Read profile and group about all users in the system
+  flows: []
+  scope: seismic.user.view
+- description: Manage profile and group information about any user in the system
+  flows: []
+  scope: seismic.user.manage
+- description: Read information about how the system is configured
+  flows: []
+  scope: seismic.configuration.view
+- description: Manage information about how the system is configured
+  flows: []
+  scope: seismic.configuration.manage
+- description: Access to tenants reporting data
+  flows: []
+  scope: seismic.reporting
+- description: Access to all delivery methods including email, generated livesend links, and custom delivery options
+  flows: []
+  scope: seismic.delivery
+- description: Read item information and properties about an object (content manager, doccenter, newscenter)
+  flows: []
+  scope: seismic.library.view
+- description: Manage content, and folders, within a tenant (e.g. add, update, and delete)
+  flows: []
+  scope: seismic.library.manage
+- description: Read item information and properties about an object, with download capabilities
+  flows: []
+  scope: seismic.workspace.view
+- description: Manage content, and folders, within a users workspace (e.g. add, update, and delete)
+  flows: []
+  scope: seismic.workspace.manage
+- description: Access to search for content in all repositories
+  flows: []
+  scope: seismic.search
+- description: Access to generative search functionality
+  flows: []
+  scope: seismic.gen-search
+- description: Read LiveDoc Express batch and variant information
+  flows: []
+  scope: seismic.livedoc_express.view
+- description: Manage LiveDoc Express batch and variant data and execute batch generations
+  flows: []
+  scope: seismic.livedoc_express.manage
+- description: Read item information and properties about objects in planner
+  flows: []
+  scope: seismic.planner.view
+- description: Manage projects, tasks, and their item information and properties
+  flows: []
+  scope: seismic.planner.manage
+- description: Read information about custom properties
+  flows: []
+  scope: seismic.custom_property.view
+- description: Manage custom properties in the system
+  flows: []
+  scope: seismic.custom_property.manage
+- description: Read information about the custom schemas present in the system
+  flows: []
+  scope: seismic.custom_schema.view
+- description: Manage custom schemas in the system
+  flows: []
+  scope: seismic.custom_schema.manage
+- description: Read running approval workflow information and workflow properties
+  flows: []
+  scope: seismic.workflow.view
+- description: Take actions on approval workflows like approve, reject or submit
+  flows: []
+  scope: seismic.workflow.manage
+- description: Read information about engagements such as Seismic emails, links, and meetings
+  flows: []
+  scope: seismic.engagement.view
+- description: Manage information about engagements such as Seismic emails, links, and meetings
+  flows: []
+  scope: seismic.engagement.manage
+- description: Read information about objects associated with Learning
+  flows: []
+  scope: seismic.learning.view
+- description: Read and modify information about objects associated with Learning
+  flows: []
+  scope: seismic.learning.manage
+- description: View global variables in the system
+  flows: []
+  scope: seismic.global_variable.view
+- description: Manage global variables in the system
+  flows: []
+  scope: seismic.global_variable.manage
+- description: Read information about channels
+  flows: []
+  scope: seismic.channel.view
+- description: Manage channels in the system
+  flows: []
+  scope: seismic.channel.manage
+- description: Read information about Lessons in Learning
+  flows: []
+  scope: seismic.lessons.view
+- description: Manage information about Lessons in Learning
+  flows: []
+  scope: seismic.lessons.manage
+- description: Read information about objects associated with skills
+  flows: []
+  scope: seismic.skills.view
+- description: Read and modify information about objects associated with skills
+  flows: []
+  scope: seismic.skills.manage
+- description: Grants permission to view and read social features and related data within the system
+  flows: []
+  scope: seismic.social.view
+- description: Grants permission to create, update, and manage social features and related data
+  flows: []
+  scope: seismic.social.manage
+- description: Create, read, update and delete email distribution lists owned by the authenticated user
+  flows: []
+  scope: seismic.distribution_list.manage
+- description: Required to call the remote MCP server. Named in the RFC 9728 protected-resource metadata for https://mcp.seismic.com/v1 and in the MCP server documentation; it does not by itself grant tool invocation, which needs tenant-administrator permissions.
+  flows: []
+  scope: seismic.mcp
+- description: Advertised by the authorization server. Backs the webhook/event subscription surface documented at /docs/webhooksoverview.
+  flows: []
+  scope: seismic.webhook
+- description: Advertised by the authorization server alongside seismic.webhook for the event surface.
+  flows: []
+  scope: seismic.events
+- description: Advertised by the authorization server. Backs the audit query endpoints in the API reference.
+  flows: []
+  scope: seismic.audit.view
+- description: Advertised by the authorization server. Backs the CRM context tools exposed by the MCP server.
+  flows: []
+  scope: seismic.crm
+- description: Advertised by the authorization server. Backs the email delivery surface.
+  flows: []
+  scope: seismic.email
+- description: Advertised by the authorization server.
+  flows: []
+  scope: seismic.intelligence
+- description: Standard OAuth 2.0 scope for refresh tokens; advertised by the authorization server.
+  flows: []
+  scope: offline_access
+- description: OpenID Connect. Advertised by the authorization server.
+  flows: []
+  scope: openid
+- description: OpenID Connect standard claim scope.
+  flows: []
+  scope: email
+- description: OpenID Connect standard claim scope.
+  flows: []
+  scope: profile
 slug: seismic-scopes
 source_filename: seismic-scopes.yml
 source_heading: OAuth Scopes
@@ -139,7 +339,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: https://develop
   \ false\n  advertised_by_authorization_server: true\n- name: offline_access\n  description: Standard OAuth 2.0 scope for refresh tokens; advertised by the authorization server.\n  documented: false\n  advertised_by_authorization_server: true\n- name: openid\n  description: OpenID Connect. Advertised by the authorization server.\n  documented: false\n  advertised_by_authorization_server: true\n- name: email\n  description: OpenID Connect standard claim scope.\n  documented: false\n  advertised_by_authorization_server: true\n- name: profile\n  description: OpenID Connect standard claim scope.\n  documented: false\n  advertised_by_authorization_server: true\nnotes:\n- The MCP resource https://mcp.seismic.com/ advertises scopes_supported [seismic.engagement.manage, seismic.gen-search];\n  https://mcp.seismic.com/v1 advertises [seismic.mcp].\n- 'Scope names follow two conventions: the public seismic.<area>.<view|manage> family, and an older flat\n  internal family (library, reporting, download,\
   \ webhook). Only the first is documented.'\n- The local OpenAPI documents declare a bearer HTTP scheme rather than an oauth2 securityScheme, so derive-oauth-scopes.py\n  finds no scopes in the spec; every scope here comes from the provider docs and the live discovery document,\n  not from the spec.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/scopes/seismic-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 50 scopes
 tags:
 - Sales Enablement
 - Content Management
@@ -151,5 +351,6 @@ tags:
 - Learning
 - SCIM
 - MCP
+token_bound: false
 token_urls: []
 ---

@@ -58,6 +58,7 @@ tags:
 - Claims
 - Patient Access
 - Health Data
+token_bound: false
 token_urls:
 - https://auth.1up.health/oauth2/token
 ---

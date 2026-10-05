@@ -86,8 +86,8 @@ summary_line: 13 scopes
 tags:
 - Company
 - Authentication
-- OpenID Connect
 - SSO
 - Identity
+token_bound: false
 token_urls: []
 ---

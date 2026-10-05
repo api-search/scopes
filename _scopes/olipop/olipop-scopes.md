@@ -75,6 +75,7 @@ tags:
 - Shopify
 - prebiotic-soda
 - Functional Beverage
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/3466100806/oauth/token
 ---

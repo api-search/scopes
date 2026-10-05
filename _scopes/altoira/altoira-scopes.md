@@ -83,6 +83,7 @@ tags:
 - Wealth Management
 - Investing
 - Capital Raising
+token_bound: false
 token_urls:
 - https://altoira.sandbox.altoira.com/oauth/token
 ---

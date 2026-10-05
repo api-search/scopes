@@ -176,6 +176,7 @@ tags:
 - Data Visualization
 - Reporting
 - SAP
+token_bound: false
 token_urls:
 - https://{tenant}.sapanalytics.cloud/oauth/token
 - https://{tenant}.datasphere.cloud.sap/oauth/token

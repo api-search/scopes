@@ -328,6 +328,7 @@ tags:
 - Least Privilege
 - MCP Governance
 - Security
+token_bound: false
 token_urls:
 - /auth/v1/token
 ---

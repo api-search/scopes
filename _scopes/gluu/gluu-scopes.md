@@ -1451,6 +1451,7 @@ tags:
 - OpenID Connect
 - SCIM
 - Identity Federation
+token_bound: false
 token_urls:
 - https://{op-hostname}/.../token
 - https://localhost/jans-auth/restv1/token

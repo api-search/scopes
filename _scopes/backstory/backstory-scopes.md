@@ -57,6 +57,7 @@ tags:
 - Revenue Operations
 - MCP
 - AI Agents
+token_bound: false
 token_urls:
 - https://mcp.backstory.ai/token
 ---

@@ -111,6 +111,7 @@ tags:
 - Payments
 - MCP
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://mcp.virtuoso.ai/oauth/token
 ---

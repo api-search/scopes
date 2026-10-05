@@ -328,5 +328,6 @@ tags:
 - Lending
 - JSON:API
 - Embedded Finance
+token_bound: false
 token_urls: []
 ---

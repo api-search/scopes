@@ -198,6 +198,7 @@ tags:
 - Enterprise Data
 - MCP
 - Agent-Native
+token_bound: false
 token_urls:
 - https://app.anomalo.com/oauth/token/
 ---

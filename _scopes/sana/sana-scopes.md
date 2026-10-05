@@ -117,6 +117,7 @@ tags:
 - SCIM
 - xAPI
 - REST API
+token_bound: false
 token_urls:
 - https://{domain}.sana.ai/api/token
 ---

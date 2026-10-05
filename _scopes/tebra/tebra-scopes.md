@@ -327,6 +327,7 @@ tags:
 - Patient Engagement
 - Kareo
 - PatientPop
+token_bound: false
 token_urls:
 - https://fhir.prd.cloud.tebra.com/smartauth/oauth/token
 ---

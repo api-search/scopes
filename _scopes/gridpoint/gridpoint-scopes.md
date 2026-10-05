@@ -123,6 +123,7 @@ tags:
 - Demand Response
 - Facilities
 - Analytics
+token_bound: false
 token_urls:
 - https://hydra.gridpoint.com:443/oauth2/token
 ---

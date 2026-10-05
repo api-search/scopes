@@ -52,6 +52,7 @@ tags:
 - Blockchain
 - Solana
 - Agents
+token_bound: false
 token_urls:
 - https://sso.alien-api.com/oauth/token
 ---

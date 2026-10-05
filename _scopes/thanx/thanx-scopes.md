@@ -94,16 +94,64 @@ method: searched
 name: Thanx Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Thanx uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Thanx publishes 12 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Thanx API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Thanx
 provider_slug: thanx
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 12
+scope_names:
+- auth.create
+- rewards.issue
+- subscribers.write
+- purchases.write
+- users.read
+- users.write
+- tags.read
+- tags.write
+- feedbacks.read
+- feedbacks.write
+- promos.read
+- promos.write
+scopes:
+- description: Mint privileged end-user access tokens on behalf of a merchant's users.
+  flows: []
+  scope: auth.create
+- description: Create and read campaigns and reward templates, and issue or revoke rewards against a campaign variant. The broadest Partner scope — it spans the whole issuance flow.
+  flows: []
+  scope: rewards.issue
+- description: Ingest subscribers (email/SMS marketing opt-ins) for a merchant.
+  flows: []
+  scope: subscribers.write
+- description: Submit purchases to Thanx for processing so loyalty points accrue.
+  flows: []
+  scope: purchases.write
+- description: Read the users of a merchant, individually or as a collection.
+  flows: []
+  scope: users.read
+- description: Update a merchant's user records.
+  flows: []
+  scope: users.write
+- description: Read attribute tags on a merchant's users.
+  flows: []
+  scope: tags.read
+- description: Create, update and delete attribute tags.
+  flows: []
+  scope: tags.write
+- description: Read guest feedback records for a merchant.
+  flows: []
+  scope: feedbacks.read
+- description: Respond to a guest feedback record.
+  flows: []
+  scope: feedbacks.write
+- description: Read promotions and the codes in a promotion's active pool.
+  flows: []
+  scope: promos.read
+- description: Create promotions and generate batches of single-use promotion codes.
+  flows: []
+  scope: promos.write
 slug: thanx-scopes
 source_filename: thanx-scopes.yml
 source_heading: OAuth Scopes
@@ -116,7 +164,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://docs.than
   \ Read promotions and the codes in a promotion's active pool.\n    operations: []\n    endpoints: ['GET /partner/promotions', 'GET /partner/promotions/{id}', 'GET /partner/promotions/{id}/codes']\n    docs: https://docs.thanx.com/partner/promotions/overview\n    note: Documented endpoints not yet captured in openapi/.\n  - name: promos.write\n    description: Create promotions and generate batches of single-use promotion codes.\n    operations: []\n    endpoints: ['POST /partner/promotions', 'POST /partner/promotions/{id}/codes']\n    docs: https://docs.thanx.com/partner/promotions/create-promotion\n    note: >-\n      Documented endpoints not yet captured in openapi/. Both accept X-Idempotency-Key — see\n      conventions/thanx-conventions.yml.\nconsumer_oauth:\n  grant_type: authorization_code\n  spec: RFC 6749 §4.1\n  scope_value: passwordless\n  endpoints:\n    - 'POST /oauth/authorize — passwordless flow, emails an auth code link'\n    - 'POST /oauth/authorize-cross-domain — issues\
   \ a code for an already-authenticated user, no email'\n    - 'POST /oauth/token — exchange authorization code for access token'\n    - 'POST /oauth/revoke — revoke an access token'\n  docs: https://docs.thanx.com/consumer/sso/overview\nsummary:\n  scope_count: 12\n  scopes_in_openapi: 0\n  scopes_documented: 12\n  gap: >-\n    Every Partner scope is documented in prose but none is declared in an OpenAPI\n    securityScheme, so no generated client or agent can enforce or discover them from the spec.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/scopes/thanx-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 12 scopes
 tags:
 - Restaurant
 - Loyalty
@@ -130,5 +178,6 @@ tags:
 - Campaigns
 - A2A
 - Loyalty & Incentives
+token_bound: false
 token_urls: []
 ---

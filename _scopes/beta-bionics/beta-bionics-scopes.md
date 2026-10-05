@@ -73,6 +73,7 @@ tags:
 - Remote Patient Monitoring
 - HIPAA
 - Connected Devices
+token_bound: false
 token_urls:
 - https://us-east-2hnbbvuwo8.auth.us-east-2.amazoncognito.com/oauth2/token
 ---

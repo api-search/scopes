@@ -300,7 +300,8 @@ api_specs:
   slug: elevenlabs-workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/openapi/elevenlabs-workspace-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://elevenlabs.io/app/oauth/authorize
 description: 'OAuth 2.0 scopes ElevenLabs publishes in its RFC 8414 authorization-server metadata and
 
   repeats in its RFC 9728 protected-resource document for the hosted MCP server. These are
@@ -318,23 +319,55 @@ description: 'OAuth 2.0 scopes ElevenLabs publishes in its RFC 8414 authorizatio
 
   '
 docs: ''
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Elevenlabs Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'ElevenLabs uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'ElevenLabs publishes 7 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the ElevenLabs API on a user''s behalf.
+
+
+  Tokens are issued from https://api.us.elevenlabs.io/v1/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: ElevenLabs
 provider_slug: elevenlabs
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 7
+scope_names:
+- convai_read
+- convai_write
+- text_to_speech
+- speech_history_read
+- flows
+- image_video_generation
+- voice_generation
+scopes:
+- description: ''
+  flows: []
+  scope: convai_read
+- description: ''
+  flows: []
+  scope: convai_write
+- description: ''
+  flows: []
+  scope: text_to_speech
+- description: ''
+  flows: []
+  scope: speech_history_read
+- description: ''
+  flows: []
+  scope: flows
+- description: ''
+  flows: []
+  scope: image_video_generation
+- description: ''
+  flows: []
+  scope: voice_generation
 slug: elevenlabs-scopes
 source_filename: elevenlabs-scopes.yml
 source_heading: OAuth Scopes
@@ -343,7 +376,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: https://api.eleve
   authorization_endpoint: https://elevenlabs.io/app/oauth/authorize\ntoken_endpoint: https://api.us.elevenlabs.io/v1/oauth/token\nrevocation_endpoint: https://api.us.elevenlabs.io/v1/oauth/revoke\nflow: authorization_code\npkce: S256\nscope_count: 7\nscopes:\n- name: convai_read\n  grants: Read ElevenAgents (Conversational AI) resources — agents, configurations,\n    conversations and transcripts.\n- name: convai_write\n  grants: Create, update, duplicate and delete ElevenAgents resources. The provider flags\n    agent deletion as destructive.\n- name: text_to_speech\n  grants: Generate speech from text.\n- name: speech_history_read\n  grants: Read the workspace speech generation history.\n- name: flows\n  grants: Access ElevenAgents flows (the visual workflow surface).\n- name: image_video_generation\n  grants: Generate images and video.\n- name: voice_generation\n  grants: Generate and design voices.\nconsumers:\n- consumer: hosted MCP server\n  resource: https://api.us.elevenlabs.io/v1/mcp\n\
   \  source: https://api.elevenlabs.io/.well-known/oauth-protected-resource\n- consumer: ElevenLabs CLI (`elevenlabs auth login`)\n  source: https://elevenlabs.io/docs/eleven-agents/operate/cli\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elevenlabs/refs/heads/main/scopes/elevenlabs-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 7 scopes · authorization_code
 tags:
 - Artificial Intelligence
 - Text-to-Speech
@@ -358,5 +391,7 @@ tags:
 - Real-Time
 - Voice AI
 - Voice Agents
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.us.elevenlabs.io/v1/oauth/token
 ---

@@ -125,5 +125,6 @@ tags:
 - Timetabling
 - Student Information System
 - Open Data
+token_bound: false
 token_urls: []
 ---

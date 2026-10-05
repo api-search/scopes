@@ -99,6 +99,7 @@ tags:
 - Payments
 - Canada
 - Open Banking
+token_bound: false
 token_urls:
 - https://developer.api.scotiabank.com/auth/token
 ---

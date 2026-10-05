@@ -95,6 +95,7 @@ tags:
 - Search
 - Semantic Search
 - Vector Search
+token_bound: false
 token_urls:
 - https://auth.vectara.io/oauth2/token
 ---

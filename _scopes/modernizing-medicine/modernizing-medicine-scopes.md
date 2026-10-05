@@ -704,6 +704,7 @@ tags:
 - Medical Billing
 - SMART on FHIR
 - Telehealth
+token_bound: false
 token_urls:
 - https://fhirmp.mmi.prod.fhir.ema-api.com/fhir/r4/auth/realms/fhir/protocol/openid-connect/token
 ---

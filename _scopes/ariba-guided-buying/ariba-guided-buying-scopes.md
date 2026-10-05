@@ -64,6 +64,7 @@ tags:
 - Requisitions
 - SAP
 - Supply Chain
+token_bound: false
 token_urls:
 - https://api.ariba.com/v2/oauth/token
 ---

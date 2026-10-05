@@ -101,6 +101,7 @@ tags:
 - Mobile SDK
 - Advertising
 - Marketing
+token_bound: false
 token_urls:
 - https://manager.gimbal.com/oauth/token
 - https://mcp.infillion.com/oauth/token

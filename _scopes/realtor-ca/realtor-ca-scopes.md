@@ -114,6 +114,7 @@ tags:
 - PropTech
 - OData
 - Rentals
+token_bound: false
 token_urls:
 - https://identity.crea.ca/connect/token
 ---

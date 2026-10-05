@@ -495,23 +495,451 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://docs.strivacity.com/reference/getting-started-with-the-admin-api
-flows: []
+flows:
+- client_credentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Strivacity Scopes
 name_suffix: OAuth Scopes
 note: 'Strivacity does not declare oauth2 securitySchemes in its published OpenAPI documents — every spec declares only http/bearer — so no scope list is derivable from the specs. The scope catalogue below is harvested from the "REQUIRED API PERMISSION" table Strivacity prints on each operation page of its own API reference. Scopes are not granted by the token request alone: an API Access policy must first grant the client the scope, and the client must be of the "OIDC using no-code components" type.'
-overview: 'Strivacity uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Strivacity publishes 106 OAuth 2.0 scopes via the client_credentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Strivacity API on a user''s behalf.
+
+
+  Tokens are issued from https://{tenant}.strivacity.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Strivacity
 provider_slug: strivacity
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 106
+scope_names:
+- delete:account
+- delete:account_authenticator
+- delete:account_identity
+- delete:account_proofing
+- delete:admin_account
+- delete:admin_account_authenticator
+- delete:config_adaptive_mfa
+- delete:config_admin_api_access
+- delete:config_admin_email_service_provider
+- delete:config_admin_login_provider
+- delete:config_admin_policy_tag
+- delete:config_admin_telephony_service_provider
+- delete:config_admin_variable
+- delete:config_api_access
+- delete:config_application
+- delete:config_brand
+- delete:config_claim
+- delete:config_custom_mfa
+- delete:config_event_hook
+- delete:config_identity_proofing
+- delete:config_identity_store
+- delete:config_inbound_connection
+- delete:config_instance_webanalytics
+- delete:config_login_provider
+- delete:config_notification_policy
+- delete:config_password_policy
+- delete:config_self_service_policy
+- read:account
+- read:account_download
+- read:account_identity
+- read:account_proofing
+- read:admin_account
+- read:admin_account_download
+- read:admin_account_identity
+- read:admin_bulk_operation
+- read:admin_event_account
+- read:admin_event_audit
+- read:config_adaptive_mfa
+- read:config_admin_adaptive_mfa
+- read:config_admin_api_access
+- read:config_admin_brand
+- read:config_admin_email_service_provider
+- read:config_admin_identity_store
+- read:config_admin_login_provider
+- read:config_admin_notification_policy
+- read:config_admin_policy_tag
+- read:config_admin_telephony_service_provider
+- read:config_admin_translation
+- read:config_admin_variable
+- read:config_api_access
+- read:config_application
+- read:config_brand
+- read:config_claim
+- read:config_consent
+- read:config_custom_mfa
+- read:config_event_hook
+- read:config_identity_proofing
+- read:config_identity_store
+- read:config_inbound_connection
+- read:config_instance
+- read:config_instance_webanalytics
+- read:config_journey
+- read:config_login_provider
+- read:config_notification_policy
+- read:config_password_policy
+- read:config_self_service_policy
+- read:event_account
+- read:event_hook_log
+- read:statistic
+- write:account
+- write:account_authenticator
+- write:account_identity
+- write:account_impersonation
+- write:account_proofing
+- write:admin_account
+- write:admin_account_authenticator
+- write:admin_account_identity
+- write:admin_bulk_operation
+- write:config_adaptive_mfa
+- write:config_admin_adaptive_mfa
+- write:config_admin_api_access
+- write:config_admin_brand
+- write:config_admin_email_service_provider
+- write:config_admin_identity_store
+- write:config_admin_login_provider
+- write:config_admin_notification_policy
+- write:config_admin_policy_tag
+- write:config_admin_telephony_service_provider
+- write:config_admin_translation
+- write:config_admin_variable
+- write:config_api_access
+- write:config_application
+- write:config_brand
+- write:config_claim
+- write:config_consent
+- write:config_custom_mfa
+- write:config_event_hook
+- write:config_identity_proofing
+- write:config_identity_store
+- write:config_inbound_connection
+- write:config_instance
+- write:config_instance_webanalytics
+- write:config_login_provider
+- write:config_notification_policy
+- write:config_password_policy
+- write:config_self_service_policy
+scopes:
+- description: ''
+  flows: []
+  scope: delete:account
+- description: ''
+  flows: []
+  scope: delete:account_authenticator
+- description: ''
+  flows: []
+  scope: delete:account_identity
+- description: ''
+  flows: []
+  scope: delete:account_proofing
+- description: ''
+  flows: []
+  scope: delete:admin_account
+- description: ''
+  flows: []
+  scope: delete:admin_account_authenticator
+- description: ''
+  flows: []
+  scope: delete:config_adaptive_mfa
+- description: ''
+  flows: []
+  scope: delete:config_admin_api_access
+- description: ''
+  flows: []
+  scope: delete:config_admin_email_service_provider
+- description: ''
+  flows: []
+  scope: delete:config_admin_login_provider
+- description: ''
+  flows: []
+  scope: delete:config_admin_policy_tag
+- description: ''
+  flows: []
+  scope: delete:config_admin_telephony_service_provider
+- description: ''
+  flows: []
+  scope: delete:config_admin_variable
+- description: ''
+  flows: []
+  scope: delete:config_api_access
+- description: ''
+  flows: []
+  scope: delete:config_application
+- description: ''
+  flows: []
+  scope: delete:config_brand
+- description: ''
+  flows: []
+  scope: delete:config_claim
+- description: ''
+  flows: []
+  scope: delete:config_custom_mfa
+- description: ''
+  flows: []
+  scope: delete:config_event_hook
+- description: ''
+  flows: []
+  scope: delete:config_identity_proofing
+- description: ''
+  flows: []
+  scope: delete:config_identity_store
+- description: ''
+  flows: []
+  scope: delete:config_inbound_connection
+- description: ''
+  flows: []
+  scope: delete:config_instance_webanalytics
+- description: ''
+  flows: []
+  scope: delete:config_login_provider
+- description: ''
+  flows: []
+  scope: delete:config_notification_policy
+- description: ''
+  flows: []
+  scope: delete:config_password_policy
+- description: ''
+  flows: []
+  scope: delete:config_self_service_policy
+- description: ''
+  flows: []
+  scope: read:account
+- description: ''
+  flows: []
+  scope: read:account_download
+- description: ''
+  flows: []
+  scope: read:account_identity
+- description: ''
+  flows: []
+  scope: read:account_proofing
+- description: ''
+  flows: []
+  scope: read:admin_account
+- description: ''
+  flows: []
+  scope: read:admin_account_download
+- description: ''
+  flows: []
+  scope: read:admin_account_identity
+- description: ''
+  flows: []
+  scope: read:admin_bulk_operation
+- description: ''
+  flows: []
+  scope: read:admin_event_account
+- description: ''
+  flows: []
+  scope: read:admin_event_audit
+- description: ''
+  flows: []
+  scope: read:config_adaptive_mfa
+- description: ''
+  flows: []
+  scope: read:config_admin_adaptive_mfa
+- description: ''
+  flows: []
+  scope: read:config_admin_api_access
+- description: ''
+  flows: []
+  scope: read:config_admin_brand
+- description: ''
+  flows: []
+  scope: read:config_admin_email_service_provider
+- description: ''
+  flows: []
+  scope: read:config_admin_identity_store
+- description: ''
+  flows: []
+  scope: read:config_admin_login_provider
+- description: ''
+  flows: []
+  scope: read:config_admin_notification_policy
+- description: ''
+  flows: []
+  scope: read:config_admin_policy_tag
+- description: ''
+  flows: []
+  scope: read:config_admin_telephony_service_provider
+- description: ''
+  flows: []
+  scope: read:config_admin_translation
+- description: ''
+  flows: []
+  scope: read:config_admin_variable
+- description: ''
+  flows: []
+  scope: read:config_api_access
+- description: ''
+  flows: []
+  scope: read:config_application
+- description: ''
+  flows: []
+  scope: read:config_brand
+- description: ''
+  flows: []
+  scope: read:config_claim
+- description: ''
+  flows: []
+  scope: read:config_consent
+- description: ''
+  flows: []
+  scope: read:config_custom_mfa
+- description: ''
+  flows: []
+  scope: read:config_event_hook
+- description: ''
+  flows: []
+  scope: read:config_identity_proofing
+- description: ''
+  flows: []
+  scope: read:config_identity_store
+- description: ''
+  flows: []
+  scope: read:config_inbound_connection
+- description: ''
+  flows: []
+  scope: read:config_instance
+- description: ''
+  flows: []
+  scope: read:config_instance_webanalytics
+- description: ''
+  flows: []
+  scope: read:config_journey
+- description: ''
+  flows: []
+  scope: read:config_login_provider
+- description: ''
+  flows: []
+  scope: read:config_notification_policy
+- description: ''
+  flows: []
+  scope: read:config_password_policy
+- description: ''
+  flows: []
+  scope: read:config_self_service_policy
+- description: ''
+  flows: []
+  scope: read:event_account
+- description: ''
+  flows: []
+  scope: read:event_hook_log
+- description: ''
+  flows: []
+  scope: read:statistic
+- description: ''
+  flows: []
+  scope: write:account
+- description: ''
+  flows: []
+  scope: write:account_authenticator
+- description: ''
+  flows: []
+  scope: write:account_identity
+- description: ''
+  flows: []
+  scope: write:account_impersonation
+- description: ''
+  flows: []
+  scope: write:account_proofing
+- description: ''
+  flows: []
+  scope: write:admin_account
+- description: ''
+  flows: []
+  scope: write:admin_account_authenticator
+- description: ''
+  flows: []
+  scope: write:admin_account_identity
+- description: ''
+  flows: []
+  scope: write:admin_bulk_operation
+- description: ''
+  flows: []
+  scope: write:config_adaptive_mfa
+- description: ''
+  flows: []
+  scope: write:config_admin_adaptive_mfa
+- description: ''
+  flows: []
+  scope: write:config_admin_api_access
+- description: ''
+  flows: []
+  scope: write:config_admin_brand
+- description: ''
+  flows: []
+  scope: write:config_admin_email_service_provider
+- description: ''
+  flows: []
+  scope: write:config_admin_identity_store
+- description: ''
+  flows: []
+  scope: write:config_admin_login_provider
+- description: ''
+  flows: []
+  scope: write:config_admin_notification_policy
+- description: ''
+  flows: []
+  scope: write:config_admin_policy_tag
+- description: ''
+  flows: []
+  scope: write:config_admin_telephony_service_provider
+- description: ''
+  flows: []
+  scope: write:config_admin_translation
+- description: ''
+  flows: []
+  scope: write:config_admin_variable
+- description: ''
+  flows: []
+  scope: write:config_api_access
+- description: ''
+  flows: []
+  scope: write:config_application
+- description: ''
+  flows: []
+  scope: write:config_brand
+- description: ''
+  flows: []
+  scope: write:config_claim
+- description: ''
+  flows: []
+  scope: write:config_consent
+- description: ''
+  flows: []
+  scope: write:config_custom_mfa
+- description: ''
+  flows: []
+  scope: write:config_event_hook
+- description: ''
+  flows: []
+  scope: write:config_identity_proofing
+- description: ''
+  flows: []
+  scope: write:config_identity_store
+- description: ''
+  flows: []
+  scope: write:config_inbound_connection
+- description: ''
+  flows: []
+  scope: write:config_instance
+- description: ''
+  flows: []
+  scope: write:config_instance_webanalytics
+- description: ''
+  flows: []
+  scope: write:config_login_provider
+- description: ''
+  flows: []
+  scope: write:config_notification_policy
+- description: ''
+  flows: []
+  scope: write:config_password_policy
+- description: ''
+  flows: []
+  scope: write:config_self_service_policy
 slug: strivacity-scopes
 source_filename: strivacity-scopes.yml
 source_heading: OAuth Scopes
@@ -542,7 +970,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://docs.st
   \  - Create a web analytics integration\n  - Update a web analytics integration\n  operation_count: 2\n- name: write:config_login_provider\n  action: write\n  entity: config_login_provider\n  example_operations:\n  - Create a claim mapping\n  - Create a social login provider\n  - Create an enterprise login provider\n  - Update a social login provider\n  operation_count: 6\n- name: write:config_notification_policy\n  action: write\n  entity: config_notification_policy\n  example_operations:\n  - Create a notification policy\n  - Update a notification policy\n  - Update a notification template (SMS)\n  - Update a notification template (email)\n  operation_count: 4\n- name: write:config_password_policy\n  action: write\n  entity: config_password_policy\n  example_operations:\n  - Create a password quality policy\n  - Create a password word restriction\n  - Delete a password word restriction\n  - Update a password quality policy\n  operation_count: 5\n- name: write:config_self_service_policy\n\
   \  action: write\n  entity: config_self_service_policy\n  example_operations:\n  - Create a self-service policy\n  - Update a self-service policy\n  operation_count: 2\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strivacity/refs/heads/main/scopes/strivacity-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 106 scopes · client_credentials
 tags:
 - Identity
 - customer-identity-and-access-management
@@ -556,5 +984,7 @@ tags:
 - Fraud Prevention
 - Agentic Identity
 - Security
-token_urls: []
+token_bound: false
+token_urls:
+- https://{tenant}.strivacity.com/oauth2/token
 ---

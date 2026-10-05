@@ -234,6 +234,7 @@ tags:
 - E-Commerce
 - Omnichannel
 - Retail
+token_bound: false
 token_urls:
 - https://{tenant}.{region}.commercecloud.sap/authorizationserver/oauth/token
 ---

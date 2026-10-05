@@ -87,14 +87,15 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
-flows: []
+flows:
+- authorizationCode
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Commonwealth Bank Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Commonwealth Bank publishes 10 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Commonwealth Bank API on a user''s behalf.
+overview: 'Commonwealth Bank publishes 10 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Commonwealth Bank API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -152,7 +153,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  Consumer 
   \ type, and balance (basic account data cluster).\n    data_cluster: account-basic\n    operations: [listAccounts, listBankingAccounts]\n  - scope: bank:accounts.detail:read\n    description: Account numbers and detailed features (detailed account data cluster).\n    data_cluster: account-detail\n    operations: [getAccountDetail, getBankingAccountDetail]\n  - scope: bank:transactions:read\n    description: Transactions and details for authorised accounts.\n    data_cluster: transactions\n    operations: [getTransactions, getTransactionDetail, listBankingTransactions, getBankingTransactionDetail]\n  - scope: bank:payees:read\n    description: Saved payees (payee data cluster).\n    data_cluster: payees\n    operations: [listPayees, getPayeeDetail, listBankingPayees, getBankingPayeeDetail]\n  - scope: bank:regular_payments:read\n    description: Direct debits and scheduled/recurring payments.\n    data_cluster: regular-payments\n    operations: [listDirectDebits, listDirectDebitsBulk, listScheduledPayments,\
   \ listScheduledPaymentsBulk]\n  - scope: common:customer.basic:read\n    description: Customer name and occupation (basic customer data cluster).\n    data_cluster: customer-basic\n    operations: [getCustomer]\n  - scope: common:customer.detail:read\n    description: Customer contact details (detailed customer data cluster).\n    data_cluster: customer-detail\n    operations: [getCustomerDetail]\n  - scope: cdr:registration\n    description: Dynamic client registration management for the ADR software product.\n    data_cluster: registration\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/scopes/commonwealth-bank-scopes.yml
-summary_line: 10 scopes
+summary_line: 10 scopes · authorizationCode
 tags:
 - Finance
 - Banks
@@ -163,5 +164,6 @@ tags:
 - Product Reference Data
 - ADI
 - Australia
+token_bound: false
 token_urls: []
 ---

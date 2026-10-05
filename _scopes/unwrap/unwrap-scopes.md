@@ -81,6 +81,7 @@ tags:
 - NLP
 - GraphQL
 - MCP
+token_bound: false
 token_urls:
 - https://nlp.api.production.unwrap.ai/oauth/token
 ---

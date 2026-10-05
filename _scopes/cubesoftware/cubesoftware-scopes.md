@@ -317,6 +317,7 @@ tags:
 - Analytics
 - Spreadsheets
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://api.cubesoftware.com/o/token/
 ---

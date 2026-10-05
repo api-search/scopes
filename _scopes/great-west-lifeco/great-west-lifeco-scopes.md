@@ -62,6 +62,7 @@ tags:
 - Reinsurance
 - Annuities
 - Partner Gated
+token_bound: false
 token_urls:
 - https://api.canadalife.com/oauth2/v1/generate
 ---

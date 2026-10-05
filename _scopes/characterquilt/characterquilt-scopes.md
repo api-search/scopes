@@ -22,16 +22,36 @@ method: probed
 name: Characterquilt Scopes
 name_suffix: OAuth Scopes
 note: 'Scopes read verbatim from CharacterQuilt''s own RFC 9728 OAuth Protected Resource Metadata document, served at the MCP host and returned HTTP 200 with content-type application/json. CharacterQuilt publishes no scope reference page, so the descriptions below are read from the scope names themselves and are marked as such — nothing here is invented beyond naming what a read:/write:/publish: verb on a named resource means. The scopes are NOT declared in any OpenAPI securityScheme; the protected-resource metadata is the only place they appear.'
-overview: 'CharacterQuilt uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'CharacterQuilt publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the CharacterQuilt API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: CharacterQuilt
 provider_slug: characterquilt
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- read:design_brain
+- write:generated_artifacts
+- publish:public_file
+- read:agent_work
+- write:agent_work
+scopes:
+- description: Read access to the "design brain" — CharacterQuilt's per-customer brand model (the brand/creative knowledge its Design Agent operates from). Scope name is published; CharacterQuilt documents no per-scope reference.
+  flows: []
+  scope: read:design_brain
+- description: Write access to generated artifacts — the creative output the agents produce (emails, ads, landing pages, one-pagers, decks).
+  flows: []
+  scope: write:generated_artifacts
+- description: Publish a file to a public location. The only scope whose verb is neither read nor write, and the one with an externally visible consequence.
+  flows: []
+  scope: publish:public_file
+- description: Read access to agent work — the runs/tasks the agents execute.
+  flows: []
+  scope: read:agent_work
+- description: Write access to agent work — creating or modifying agent runs/tasks.
+  flows: []
+  scope: write:agent_work
 slug: characterquilt-scopes
 source_filename: characterquilt-scopes.yml
 source_heading: OAuth Scopes
@@ -41,7 +61,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://mcp.chara
   \  description: Read access to agent work — the runs/tasks the agents execute.\n- name: write:agent_work\n  access: write\n  resource: agent_work\n  description: Write access to agent work — creating or modifying agent runs/tasks.\ngaps:\n- issue: no-scope-reference-page\n  detail: >-\n    No public documentation maps these scopes to operations, so a client cannot\n    determine least privilege for a given task. The scope strings are only\n    discoverable by reading the protected-resource metadata.\n- issue: authorization-server-metadata-missing\n  detail: >-\n    authorization_servers names https://characterquilt-review-beta.vercel.app — a\n    Vercel preview deployment — and that host does NOT serve RFC 8414\n    authorization-server metadata: both /.well-known/oauth-authorization-server and\n    /.well-known/openid-configuration return HTTP 200 with the Next.js HTML app\n    shell, not JSON. The OAuth discovery chain therefore terminates: an MCP client\n    that follows the WWW-Authenticate\
   \ resource_metadata pointer correctly cannot\n    reach an authorization endpoint. Probed 2026-08-13.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/scopes/characterquilt-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes
 tags:
 - Company
 - Marketing
@@ -54,5 +74,6 @@ tags:
 - Y Combinator
 - Data
 - MCP
+token_bound: false
 token_urls: []
 ---

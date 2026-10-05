@@ -56,6 +56,7 @@ tags:
 - Enterprise
 - Identity
 - Developer Tools
+token_bound: false
 token_urls:
 - https://auth.{global.domain}/realms/boltmcp/protocol/openid-connect/token
 ---

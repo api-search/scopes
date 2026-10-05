@@ -82,6 +82,7 @@ tags:
 - Transcription
 - Webhook
 - MCP
+token_bound: false
 token_urls:
 - https://demodesk.com/oauth/token
 ---

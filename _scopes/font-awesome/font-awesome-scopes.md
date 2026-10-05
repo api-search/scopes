@@ -12,6 +12,9 @@ note: ''
 overview: 'Font Awesome publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Font Awesome API on a user''s behalf.
 
 
+  Tokens are issued from https://api.fontawesome.com/token.
+
+
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Font Awesome
 provider_slug: font-awesome
@@ -70,5 +73,7 @@ tags:
 - Frontend
 - Design Systems
 - Company
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.fontawesome.com/token
 ---

@@ -135,6 +135,7 @@ tags:
 - MCP
 - Agents
 - Prior Art Search
+token_bound: false
 token_urls:
 - https://auth.deepip.ai/oauth/token
 - https://app.deepip.ai/mcp/token

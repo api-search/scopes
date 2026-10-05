@@ -161,10 +161,11 @@ tags:
 - Historical Data
 - Trading
 - Analytics
-- Surveillance
 - Time Series
 - Stocks
 - Options
+- Trade Surveillance
+token_bound: false
 token_urls:
 - https://cloud-auth.parent.onetick.com/realms/OMD/protocol/openid-connect/token
 ---

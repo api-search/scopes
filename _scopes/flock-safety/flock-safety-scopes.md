@@ -147,6 +147,7 @@ tags:
 - Webhook
 - Geolocation
 - CAD
+token_bound: false
 token_urls:
 - https://api.flocksafety.com/oauth/token
 ---

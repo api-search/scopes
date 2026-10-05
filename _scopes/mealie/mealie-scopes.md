@@ -390,6 +390,7 @@ tags:
 - Household
 - Nutrition
 - Home Automation
+token_bound: false
 token_urls:
 - /api/auth/token
 ---

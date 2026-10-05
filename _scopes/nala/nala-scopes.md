@@ -105,5 +105,6 @@ tags:
 - Mobile Money
 - Stablecoins
 - Africa
+token_bound: false
 token_urls: []
 ---

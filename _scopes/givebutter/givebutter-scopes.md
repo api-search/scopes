@@ -136,16 +136,40 @@ method: probed
 name: Givebutter Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Givebutter uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Givebutter publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Givebutter API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Givebutter
 provider_slug: givebutter
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- mcp
+- openid
+- profile
+- email
+- wix:account.read
+- wix:campaigns.read
+scopes:
+- description: Access to the Givebutter MCP server at https://mcp.givebutter.com/mcp. Declared as the required scope in the RFC 9728 protected-resource document for that endpoint.
+  flows: []
+  scope: mcp
+- description: OpenID Connect sign-in; returns an ID token.
+  flows: []
+  scope: openid
+- description: Basic profile claims on the ID token.
+  flows: []
+  scope: profile
+- description: Email claim on the ID token.
+  flows: []
+  scope: email
+- description: Read access to Givebutter account data for the Wix integration.
+  flows: []
+  scope: wix:account.read
+- description: Read access to campaign data for the Wix integration.
+  flows: []
+  scope: wix:campaigns.read
 slug: givebutter-scopes
 source_filename: givebutter-scopes.yml
 source_heading: OAuth Scopes
@@ -154,7 +178,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: https://auth.give
   \  - refresh_token\n  response_types_supported:\n  - code\n  code_challenge_methods_supported:\n  - S256\n  token_endpoint_auth_methods_supported:\n  - none\n  - client_secret_basic\n  - client_secret_post\n  metadata_file: well-known/givebutter-oauth-authorization-server.json\n  openid_configuration: well-known/givebutter-openid-configuration.json\nscopes:\n- name: mcp\n  description: Access to the Givebutter MCP server at https://mcp.givebutter.com/mcp. Declared as the\n    required scope in the RFC 9728 protected-resource document for that endpoint.\n  surface: mcp\n  source: https://mcp.givebutter.com/.well-known/oauth-protected-resource\n- name: openid\n  description: OpenID Connect sign-in; returns an ID token.\n  surface: identity\n- name: profile\n  description: Basic profile claims on the ID token.\n  surface: identity\n- name: email\n  description: Email claim on the ID token.\n  surface: identity\n- name: wix:account.read\n  description: Read access to Givebutter account data\
   \ for the Wix integration.\n  surface: partner-integration\n- name: wix:campaigns.read\n  description: Read access to campaign data for the Wix integration.\n  surface: partner-integration\nscope_count: 6\nnotes:\n- The REST API (api.givebutter.com/v1) has no OAuth scheme and no scopes — one key, full account\n  access. An agent given a Givebutter API key holds every permission the account has.\n- Scope granularity exists only on the OAuth/MCP path, and there the only scope is the coarse \"mcp\".\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/scopes/givebutter-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - Donations
 - Fundraising
@@ -164,5 +188,6 @@ tags:
 - Webhook
 - Event
 - A2A
+token_bound: false
 token_urls: []
 ---

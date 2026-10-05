@@ -75,6 +75,7 @@ tags:
 - MCP
 - Account Based Marketing
 - Content Generation
+token_bound: false
 token_urls:
 - https://mcp.mutinyhq.com/oauth/token
 ---

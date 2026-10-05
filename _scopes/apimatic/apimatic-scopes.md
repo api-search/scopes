@@ -87,6 +87,7 @@ tags:
 - Documentation
 - SDK Generation
 - OpenAPI
+token_bound: false
 token_urls:
 - https://chatbotapi.apimatic.io/token
 ---

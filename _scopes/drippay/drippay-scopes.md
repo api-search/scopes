@@ -148,16 +148,24 @@ method: probed
 name: Drippay Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Drippay uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Drippay publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Drippay API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Drippay
 provider_slug: drippay
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- read
+- write
+scopes:
+- description: Read-only access to the granting account through the MCP server — account balance, credit usage, contact and signal lookups. Drippay's MCP page states "Access is scoped to read or write, so a read-only connection cannot make changes."
+  flows: []
+  scope: read
+- description: Mutating access through the MCP server — sourcing leads, drafting messages, and provisioning managed sending domains and inboxes.
+  flows: []
+  scope: write
 slug: drippay-scopes
 source_filename: drippay-scopes.yml
 source_heading: OAuth Scopes
@@ -166,7 +174,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://api.dripp
   \  issuer: https://api.drippay.dev\n  authorization_endpoint: https://api.drippay.dev/v1/mcp-oauth/authorize\n  token_endpoint: https://api.drippay.dev/v1/mcp-oauth/token\n  registration_endpoint: https://api.drippay.dev/v1/mcp-oauth/register\n  introspection_endpoint: https://api.drippay.dev/v1/mcp-oauth/introspect\n  response_types_supported: [code]\n  grant_types_supported: [authorization_code, refresh_token]\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [none]\n  dynamic_client_registration: true\nscope_count: 2\nscopes:\n- name: read\n  description: >-\n    Read-only access to the granting account through the MCP server — account\n    balance, credit usage, contact and signal lookups. Drippay's MCP page states\n    \"Access is scoped to read or write, so a read-only connection cannot make\n    changes.\"\n  source: oauth-authorization-server scopes_supported\n- name: write\n  description: >-\n    Mutating access through the MCP server — sourcing\
   \ leads, drafting messages,\n    and provisioning managed sending domains and inboxes.\n  source: oauth-authorization-server scopes_supported\nnotes: >-\n  Granularity is coarse: two scopes cover all seven hosted MCP tools, so a\n  client that needs any write tool receives authority over every write tool.\n  Drippay stores one dedicated encrypted API key per OAuth grant and revoking\n  the grant disables that key; access and refresh tokens are stored only as\n  hashes (https://dreach.ai/mcp).\nx-evidence:\n- url: https://api.drippay.dev/.well-known/oauth-authorization-server\n  http_status: 200\n  fetched: '2026-08-13'\n- url: https://mcp.drippay.dev/.well-known/oauth-protected-resource\n  http_status: 200\n  fetched: '2026-08-13'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/scopes/drippay-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Company
 - Billing
@@ -186,5 +194,6 @@ tags:
 - Recruiting
 - Outbound Sales
 - A2A
+token_bound: false
 token_urls: []
 ---

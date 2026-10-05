@@ -125,6 +125,7 @@ tags:
 - AIOps
 - Developer Tools
 - A2A
+token_bound: false
 token_urls:
 - https://deployxa.com/api/auth/token
 - https://mcp.deployxa.com/oauth/token

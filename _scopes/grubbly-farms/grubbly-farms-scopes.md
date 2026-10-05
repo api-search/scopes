@@ -69,6 +69,7 @@ tags:
 - Shopify
 - MCP
 - Agentic Commerce
+token_bound: false
 token_urls:
 - https://account.grubblyfarms.com/authentication/oauth/token
 ---

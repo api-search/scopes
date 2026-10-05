@@ -89,6 +89,7 @@ tags:
 - MCP
 - Marketing
 - Creative
+token_bound: false
 token_urls:
 - https://www.trybloom.ai/api/auth/oauth2/token
 ---

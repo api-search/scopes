@@ -88,6 +88,7 @@ tags:
 - Agentic Commerce
 - Logistics
 - Delivery
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/74758783200/oauth/token
 - https://idp.ridealso.com/oauth2/token

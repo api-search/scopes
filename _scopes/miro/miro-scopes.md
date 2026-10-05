@@ -393,6 +393,7 @@ tags:
 - Diagramming
 - Software-as-a-Service
 - Collaboration
+token_bound: false
 token_urls:
 - https://api.miro.com/v1/oauth/token
 ---

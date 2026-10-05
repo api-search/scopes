@@ -110,6 +110,7 @@ tags:
 - Solar Energy
 - Energy Data
 - Research Computing
+token_bound: false
 token_urls:
 - https://api.solar.sheffield.ac.uk/auth/jwt/login
 ---

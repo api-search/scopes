@@ -59,5 +59,6 @@ tags:
 - Microsoft Azure
 - Optimization
 - Recommendations
+token_bound: false
 token_urls: []
 ---

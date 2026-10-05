@@ -146,6 +146,7 @@ tags:
 - Supply Chain
 - Sales Intelligence
 - Monitoring
+token_bound: false
 token_urls:
 - https://agents.riskanalytics.dnb.com/token
 ---

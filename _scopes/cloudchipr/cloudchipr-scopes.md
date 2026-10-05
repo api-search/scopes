@@ -76,16 +76,32 @@ method: probed
 name: Cloudchipr Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'CloudChipr uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'CloudChipr publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the CloudChipr API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: CloudChipr
 provider_slug: cloudchipr
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+scopes:
+- description: OIDC - request an ID token identifying the CloudChipr user.
+  flows: []
+  scope: openid
+- description: OIDC - basic profile claims (name, nickname, picture, updated_at).
+  flows: []
+  scope: profile
+- description: OIDC - email and email_verified claims.
+  flows: []
+  scope: email
+- description: Issue a refresh token so the MCP client can hold a long-lived session.
+  flows: []
+  scope: offline_access
 slug: cloudchipr-scopes
 source_filename: cloudchipr-scopes.yml
 source_heading: OAuth Scopes
@@ -96,7 +112,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  https://mcp
   \ CloudChipr role and organization membership\n    (\"scoped to their permissions\" - https://cloudchipr.com/mcp), not by a scope granted at consent\n    time. An agent therefore cannot request a reduced permission set: it gets whatever its human's\n    account can see.\n  agent_risk: >-\n    There is no way to grant an agent read access to Billing Explorer while withholding Live\n    Resources, and no way to down-scope a token below the user's own role.\n\nunresolved:\n  - issue: 'API keys are documented as read-only, but the spec declares three mutating operations under the same ApiKey scheme.'\n    detail: >-\n      https://docs.cloudchipr.com/docs/api-keys states \"API keys provide read-only access to the\n      Cloudchipr API and your cloud resources\", while\n      openapi/cloudchipr-enterprise-api-openapi.yml declares POST /data-sources (201 create),\n      PUT /dimensions/category-structure (204) and POST /ingest/{destinationId} - all secured by\n      `ApiKey: []`. Either the\
   \ docs statement predates the custom-data write surface or those\n      operations require an entitlement the contract does not name. Recorded, not resolved.\n    checked: '2026-09-05'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/scopes/cloudchipr-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Azure
 - Cloud Cost Management
@@ -106,5 +122,6 @@ tags:
 - Multi-Cloud
 - Resource Cleanup
 - Rightsizing
+token_bound: false
 token_urls: []
 ---

@@ -79,5 +79,6 @@ tags:
 - Image
 - GraphQL
 - REST
+token_bound: false
 token_urls: []
 ---

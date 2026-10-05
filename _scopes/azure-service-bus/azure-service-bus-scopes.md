@@ -78,5 +78,6 @@ tags:
 - Pub-Sub
 - Queues
 - Real-Time
+token_bound: false
 token_urls: []
 ---

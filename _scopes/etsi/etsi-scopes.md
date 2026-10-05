@@ -276,6 +276,7 @@ tags:
 - OpenAPI
 - Network Slicing
 - Broadband
+token_bound: false
 token_urls:
 - https://portal.openslice.eu/auth/realms/openslice/protocol/openid-connect/token
 - '{tokenUrl}'

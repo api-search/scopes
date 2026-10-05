@@ -74,6 +74,8 @@ tags:
 - Columnar Storage
 - Arrow
 - AI Infrastructure
+- Vector Search
+token_bound: false
 token_urls:
 - /oauth/token
 ---

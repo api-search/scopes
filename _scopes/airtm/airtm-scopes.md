@@ -250,7 +250,7 @@ tags:
 - Emerging Markets
 - money-services-business
 - Authentication
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://api.enterprise.airtm.com/oidc/token
 ---

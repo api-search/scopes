@@ -102,6 +102,7 @@ tags:
 - NYSE BFH
 - Comenity Bank
 - Rebrand
+token_bound: false
 token_urls:
 - https://auth.platform.breadpayments.com/auth/sso/token
 ---

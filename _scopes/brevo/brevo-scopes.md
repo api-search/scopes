@@ -490,6 +490,7 @@ tags:
 - Automation
 - Messaging
 - Contacts
+token_bound: false
 token_urls:
 - https://oauth.brevo.com/realms/partner/oauth/token
 ---

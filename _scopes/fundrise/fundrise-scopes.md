@@ -105,5 +105,6 @@ tags:
 - Wealth Management
 - Fintech
 - Embedded Investing
+token_bound: false
 token_urls: []
 ---

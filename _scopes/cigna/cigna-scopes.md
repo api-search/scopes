@@ -178,6 +178,7 @@ tags:
 - Provider Directory
 - SMART on FHIR
 - Fortune 100
+token_bound: false
 token_urls:
 - https://r-hi2.cigna.com/mga/sps/oauth/oauth20/token
 ---

@@ -120,6 +120,7 @@ tags:
 - Identity Security
 - Managed Security Services
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://api.mitiga.cloud/oauth-2/token
 ---

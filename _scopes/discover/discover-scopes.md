@@ -102,6 +102,7 @@ tags:
 - Financial Services
 - Fraud Prevention
 - Fortune 500
+token_bound: false
 token_urls:
 - https://apis.discover.com/auth/oauth/v2/token
 - https://identity.discoverglobalnetwork.com/oauth2/default/v1/token

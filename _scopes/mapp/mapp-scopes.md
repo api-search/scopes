@@ -282,6 +282,7 @@ tags:
 - E-Commerce
 - Digital Analytics
 - Recommendations
+token_bound: false
 token_urls:
 - https://auth.mapp.com/oauth2/token
 ---

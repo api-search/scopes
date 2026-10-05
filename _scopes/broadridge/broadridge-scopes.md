@@ -78,6 +78,7 @@ summary_line: 3 scopes · clientCredentials
 tags:
 - Fortune 1000
 - Wealth Management
+token_bound: false
 token_urls:
 - https://auth.broadridge.example.com/oauth/token
 ---

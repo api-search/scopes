@@ -80,6 +80,7 @@ tags:
 - Energy
 - Utilities
 - Metering
+token_bound: false
 token_urls:
 - https://auth.utility.example.com/oauth/token
 ---

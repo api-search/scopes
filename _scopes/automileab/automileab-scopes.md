@@ -518,5 +518,6 @@ tags:
 - GPS Tracking
 - Mileage Logging
 - Software-as-a-Service
+token_bound: false
 token_urls: []
 ---

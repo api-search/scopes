@@ -204,6 +204,7 @@ tags:
 - OGC
 - STAC
 - Satellite
+token_bound: false
 token_urls:
 - https://services.sentinel-hub.com/auth/realms/main/protocol/openid-connect/token
 ---

@@ -72,6 +72,7 @@ tags:
 - Media
 - Direct to Consumer
 - Agentic Commerce
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/31052262/oauth/token
 ---

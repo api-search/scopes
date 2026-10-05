@@ -109,6 +109,7 @@ tags:
 - Content Management
 - Agents
 - Authentication
+token_bound: false
 token_urls:
 - https://mcp.spekit.co/token
 ---

@@ -166,6 +166,7 @@ tags:
 - Event Management
 - Fintech
 - South Africa
+token_bound: false
 token_urls:
 - /oauth/token
 ---

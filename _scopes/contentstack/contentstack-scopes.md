@@ -201,23 +201,444 @@ api_specs:
 authorization_urls: []
 description: 'Contentstack OAuth 2.0 publishes a complete scope reference: 95 scopes documented on the OAuth Scopes page, of which 39 are additionally declared by the first-party MCP tool catalogue. Scope names follow a <resource>:<action> convention (cm.entry:write, launch.projects:read, personalize:manage) and the docs state which token type — user token or app token — each scope supports.'
 docs: https://www.contentstack.com/docs/developer-hub/oauth-scopes
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Contentstack Scopes
 name_suffix: OAuth Scopes
 note: 10 scopes appear in the MCP tool catalogue but not on the published OAuth Scopes page — a gap between what the server requests and what the reference documents.
-overview: 'Contentstack uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Contentstack publishes 105 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Contentstack API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Contentstack
 provider_slug: contentstack
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 105
+scope_names:
+- analytics:read
+- app.authorizations:manage
+- app.installations.management:write
+- app.installations:read
+- app.manifest:read
+- app.manifest:write
+- automationhub.automations:read
+- automationhub.automations:write
+- automationhub.projects.management:read
+- automationhub.projects.management:write
+- brand-kits:manage
+- brand-kits:read
+- cm.asset:publish
+- cm.asset:read
+- cm.asset:unpublish
+- cm.asset:write
+- cm.assets.management:read
+- cm.assets.management:write
+- cm.assets.rt:read
+- cm.assets:download
+- cm.audit-logs:read
+- cm.branch-aliases.management:read
+- cm.branch-aliases.management:write
+- cm.branches.management:read
+- cm.branches.management:write
+- cm.bulk-operations:delete
+- cm.bulk-operations:publish
+- cm.bulk-operations:unpublish
+- cm.bulk-operations:workflow
+- cm.content-type:read
+- cm.content-types.management:read
+- cm.content-types.management:write
+- cm.content-types:export
+- cm.content-types:import
+- cm.entries.management:read
+- cm.entries.management:write
+- cm.entries:export
+- cm.entries:import
+- cm.entry.workflow:write
+- cm.entry:publish
+- cm.entry:read
+- cm.entry:unpublish
+- cm.entry:write
+- cm.environments.management:read
+- cm.environments.management:write
+- cm.extensions.management:read
+- cm.extensions.management:write
+- cm.global-fields.management:read
+- cm.global-fields.management:write
+- cm.global-fields:import
+- cm.labels.management:read
+- cm.labels.management:write
+- cm.languages.management:read
+- cm.languages.management:write
+- cm.publish-queue.management:read
+- cm.publish-queue.management:write
+- cm.release:clone
+- cm.release:deploy
+- cm.release:read
+- cm.release:write
+- cm.releases.management:read
+- cm.releases.management:write
+- cm.roles.management:read
+- cm.roles.management:write
+- cm.stack.delivery-tokens:read
+- cm.stack.delivery-tokens:write
+- cm.stack.management-tokens:read
+- cm.stack.management-tokens:write
+- cm.stack.management:write
+- cm.stack.settings:read
+- cm.stack.users:read
+- cm.stack.users:write
+- cm.stack:share
+- cm.stack:unshare
+- cm.stacks.management:read
+- cm.stacks.management:write
+- cm.taxonomies.management:read
+- cm.taxonomies.management:write
+- cm.taxonomy.terms:read
+- cm.taxonomy.terms:write
+- cm.webhook:read
+- cm.webhooks.management:read
+- cm.webhooks.management:write
+- cm.webhooks:export
+- cm.webhooks:import
+- cm.workflows.management:read
+- cm.workflows.management:write
+- cm.workflows.publishing-rules:read
+- cm.workflows.publishing-rules:write
+- launch.projects:delete
+- launch.projects:read
+- launch.projects:write
+- launch:manage
+- organization.logs:read
+- organization.ownership:write
+- organization.roles:read
+- organization.share:read
+- organization.share:write
+- organization:read
+- organizations:read
+- personalize:manage
+- personalize:read
+- user.assignments:read
+- user:read
+- user:write
+scopes:
+- description: ''
+  flows: []
+  scope: analytics:read
+- description: ''
+  flows: []
+  scope: app.authorizations:manage
+- description: ''
+  flows: []
+  scope: app.installations.management:write
+- description: ''
+  flows: []
+  scope: app.installations:read
+- description: ''
+  flows: []
+  scope: app.manifest:read
+- description: ''
+  flows: []
+  scope: app.manifest:write
+- description: ''
+  flows: []
+  scope: automationhub.automations:read
+- description: ''
+  flows: []
+  scope: automationhub.automations:write
+- description: ''
+  flows: []
+  scope: automationhub.projects.management:read
+- description: ''
+  flows: []
+  scope: automationhub.projects.management:write
+- description: Create, update, or delete Brand Kit and Voice Profile.
+  flows: []
+  scope: brand-kits:manage
+- description: View Brand Kit(s) and Voice Profile(s).
+  flows: []
+  scope: brand-kits:read
+- description: Publish an asset
+  flows: []
+  scope: cm.asset:publish
+- description: View asset details
+  flows: []
+  scope: cm.asset:read
+- description: Unpublish an asset
+  flows: []
+  scope: cm.asset:unpublish
+- description: Create, update, remove RTE assets
+  flows: []
+  scope: cm.asset:write
+- description: View all assets
+  flows: []
+  scope: cm.assets.management:read
+- description: Create, update, remove assets
+  flows: []
+  scope: cm.assets.management:write
+- description: View all RTE assets
+  flows: []
+  scope: cm.assets.rt:read
+- description: Download assets
+  flows: []
+  scope: cm.assets:download
+- description: View all audit logs
+  flows: []
+  scope: cm.audit-logs:read
+- description: View all aliases
+  flows: []
+  scope: cm.branch-aliases.management:read
+- description: Create, assign, delete a branch alias
+  flows: []
+  scope: cm.branch-aliases.management:write
+- description: View all branches
+  flows: []
+  scope: cm.branches.management:read
+- description: Create, delete a branch
+  flows: []
+  scope: cm.branches.management:write
+- description: Delete bulk operations
+  flows: []
+  scope: cm.bulk-operations:delete
+- description: Publish bulk operations
+  flows: []
+  scope: cm.bulk-operations:publish
+- description: Unpublish bulk operations
+  flows: []
+  scope: cm.bulk-operations:unpublish
+- description: Workflow bulk operations
+  flows: []
+  scope: cm.bulk-operations:workflow
+- description: View content type details
+  flows: []
+  scope: cm.content-type:read
+- description: View all content types
+  flows: []
+  scope: cm.content-types.management:read
+- description: Create, update, remove content types
+  flows: []
+  scope: cm.content-types.management:write
+- description: Export content types
+  flows: []
+  scope: cm.content-types:export
+- description: Import content types
+  flows: []
+  scope: cm.content-types:import
+- description: View all entries
+  flows: []
+  scope: cm.entries.management:read
+- description: Create, update, remove entries
+  flows: []
+  scope: cm.entries.management:write
+- description: Export entries
+  flows: []
+  scope: cm.entries:export
+- description: Import entries
+  flows: []
+  scope: cm.entries:import
+- description: Create a workflow for an entry
+  flows: []
+  scope: cm.entry.workflow:write
+- description: Publish an entry
+  flows: []
+  scope: cm.entry:publish
+- description: View details associated with an entry
+  flows: []
+  scope: cm.entry:read
+- description: Unpublish an entry
+  flows: []
+  scope: cm.entry:unpublish
+- description: Update details associated with an entry
+  flows: []
+  scope: cm.entry:write
+- description: View all environments
+  flows: []
+  scope: cm.environments.management:read
+- description: Create, update, remove environments
+  flows: []
+  scope: cm.environments.management:write
+- description: View all extensions
+  flows: []
+  scope: cm.extensions.management:read
+- description: Create, update, remove extensions
+  flows: []
+  scope: cm.extensions.management:write
+- description: View all global fields
+  flows: []
+  scope: cm.global-fields.management:read
+- description: Create, update, remove global fields
+  flows: []
+  scope: cm.global-fields.management:write
+- description: Export global fields
+  flows: []
+  scope: cm.global-fields:import
+- description: View all labels
+  flows: []
+  scope: cm.labels.management:read
+- description: Create, update, remove labels
+  flows: []
+  scope: cm.labels.management:write
+- description: View all languages
+  flows: []
+  scope: cm.languages.management:read
+- description: Create, update, remove languages
+  flows: []
+  scope: cm.languages.management:write
+- description: View all publish queues
+  flows: []
+  scope: cm.publish-queue.management:read
+- description: Create, update, remove publish queues
+  flows: []
+  scope: cm.publish-queue.management:write
+- description: Clone a release
+  flows: []
+  scope: cm.release:clone
+- description: Deploy a release
+  flows: []
+  scope: cm.release:deploy
+- description: View details associated with a release
+  flows: []
+  scope: cm.release:read
+- description: Update details associated with a release
+  flows: []
+  scope: cm.release:write
+- description: View all releases
+  flows: []
+  scope: cm.releases.management:read
+- description: Create, update, remove releases
+  flows: []
+  scope: cm.releases.management:write
+- description: View all roles
+  flows: []
+  scope: cm.roles.management:read
+- description: Create, update, remove roles
+  flows: []
+  scope: cm.roles.management:write
+- description: View delivery tokens associated with a stack
+  flows: []
+  scope: cm.stack.delivery-tokens:read
+- description: Create, update, remove delivery tokens in a stack
+  flows: []
+  scope: cm.stack.delivery-tokens:write
+- description: View management tokens associated with a stack
+  flows: []
+  scope: cm.stack.management-tokens:read
+- description: Create, update, remove management tokens in a stack
+  flows: []
+  scope: cm.stack.management-tokens:write
+- description: Update stack management properties
+  flows: []
+  scope: cm.stack.management:write
+- description: Update stack settings
+  flows: []
+  scope: cm.stack.settings:read
+- description: View users associated with a stack
+  flows: []
+  scope: cm.stack.users:read
+- description: Update user roles and user associations with a stack
+  flows: []
+  scope: cm.stack.users:write
+- description: Share stack invitation with users
+  flows: []
+  scope: cm.stack:share
+- description: Unshare stack invitations
+  flows: []
+  scope: cm.stack:unshare
+- description: View all stacks
+  flows: []
+  scope: cm.stacks.management:read
+- description: Create, update, remove stacks
+  flows: []
+  scope: cm.stacks.management:write
+- description: View all taxonomies
+  flows: []
+  scope: cm.taxonomies.management:read
+- description: Create, update, delete taxonomies
+  flows: []
+  scope: cm.taxonomies.management:write
+- description: View all terms of a taxonomy
+  flows: []
+  scope: cm.taxonomy.terms:read
+- description: Create, update, move, delete term(s) of a taxonomy
+  flows: []
+  scope: cm.taxonomy.terms:write
+- description: View webhook details
+  flows: []
+  scope: cm.webhook:read
+- description: View all webhooks
+  flows: []
+  scope: cm.webhooks.management:read
+- description: Create, update, remove webhooks
+  flows: []
+  scope: cm.webhooks.management:write
+- description: Export webhooks
+  flows: []
+  scope: cm.webhooks:export
+- description: Import webhooks
+  flows: []
+  scope: cm.webhooks:import
+- description: View all workflows
+  flows: []
+  scope: cm.workflows.management:read
+- description: Create, update, remove workflows
+  flows: []
+  scope: cm.workflows.management:write
+- description: View all workflow publishing rules
+  flows: []
+  scope: cm.workflows.publishing-rules:read
+- description: Create, update, remove workflow publishing rules
+  flows: []
+  scope: cm.workflows.publishing-rules:write
+- description: This scope lets you delete resources
+  flows: []
+  scope: launch.projects:delete
+- description: This scope lets you read resources
+  flows: []
+  scope: launch.projects:read
+- description: This scope lets you create and update resources
+  flows: []
+  scope: launch.projects:write
+- description: This scope lets you read, update, and manage resources
+  flows: []
+  scope: launch:manage
+- description: View organization logs
+  flows: []
+  scope: organization.logs:read
+- description: Create, update of organization ownership
+  flows: []
+  scope: organization.ownership:write
+- description: View organization level roles
+  flows: []
+  scope: organization.roles:read
+- description: View details of organization invitations shared with users
+  flows: []
+  scope: organization.share:read
+- description: Update, remove organization invitation shares
+  flows: []
+  scope: organization.share:write
+- description: View details of an organization
+  flows: []
+  scope: organization:read
+- description: View details of all organizations associated with the user
+  flows: []
+  scope: organizations:read
+- description: Create, update, or delete Attribute, Audience, Experience, Event, and Experience Version, and update Experiences Priority.
+  flows: []
+  scope: personalize:manage
+- description: View Attributes, Audiences, Events, Experiences, Experiences Priority, Analytics Summary, Time-series Analytics, Regions, Countries, and Cities.
+  flows: []
+  scope: personalize:read
+- description: View user assignments
+  flows: []
+  scope: user.assignments:read
+- description: View user details
+  flows: []
+  scope: user:read
+- description: Update user details
+  flows: []
+  scope: user:write
 slug: contentstack-scopes
 source_filename: contentstack-scopes.yml
 source_heading: OAuth Scopes
@@ -240,7 +661,7 @@ source_yaml: "specification: API Commons OAuthScopes\nspecificationVersion: '0.1
   - name: organization.ownership:write\n  group: Organization\n  description: Create, update of organization ownership\n  documented: true\n  used_by_mcp_tools: 0\n- name: organization.roles:read\n  group: Organization\n  description: View organization level roles\n  documented: true\n  used_by_mcp_tools: 0\n- name: organization.share:read\n  group: Organization\n  description: View details of organization invitations shared with users\n  documented: true\n  used_by_mcp_tools: 0\n- name: organization.share:write\n  group: Organization\n  description: Update, remove organization invitation shares\n  documented: true\n  used_by_mcp_tools: 0\n- name: organization:read\n  group: Organization\n  description: View details of an organization\n  documented: true\n  used_by_mcp_tools: 0\n- name: organizations:read\n  group: Organization\n  description: View details of all organizations associated with the user\n  documented: true\n  used_by_mcp_tools: 0\n- name: personalize:manage\n  group: Personalize\n\
   \  description: Create, update, or delete Attribute, Audience, Experience, Event, and Experience Version, and update\n    Experiences Priority.\n  documented: true\n  used_by_mcp_tools: 12\n- name: personalize:read\n  group: Personalize\n  description: View Attributes, Audiences, Events, Experiences, Experiences Priority, Analytics Summary, Time-series\n    Analytics, Regions, Countries, and Cities.\n  documented: true\n  used_by_mcp_tools: 12\n- name: user.assignments:read\n  group: Other\n  description: View user assignments\n  documented: true\n  used_by_mcp_tools: 0\n- name: user:read\n  group: Other\n  description: View user details\n  documented: true\n  used_by_mcp_tools: 0\n- name: user:write\n  group: Other\n  description: Update user details\n  documented: true\n  used_by_mcp_tools: 0\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/scopes/contentstack-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 105 scopes · authorization_code
 tags:
 - Headless CMS
 - Content Management
@@ -254,5 +675,6 @@ tags:
 - AI Agents
 - Webhook
 - Image Delivery
+token_bound: false
 token_urls: []
 ---

@@ -197,6 +197,7 @@ tags:
 - OpenAPI
 - API Governance
 - A2A
+token_bound: false
 token_urls:
 - https://apis.io/api/v1/auth/token
 ---

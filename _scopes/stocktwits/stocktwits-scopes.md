@@ -134,6 +134,7 @@ tags:
 - Social Finance
 - Watchlist
 - Messaging
+token_bound: false
 token_urls:
 - https://api.stocktwits.com/api/2/oauth/token
 ---

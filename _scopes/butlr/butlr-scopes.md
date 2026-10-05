@@ -89,5 +89,6 @@ tags:
 - GraphQL
 - Webhook
 - Real Estate
+token_bound: false
 token_urls: []
 ---

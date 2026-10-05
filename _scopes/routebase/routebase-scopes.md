@@ -76,5 +76,6 @@ tags:
 - OAuth 2.1
 - SCIM
 - Streamable HTTP
+token_bound: false
 token_urls: []
 ---

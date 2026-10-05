@@ -68,6 +68,7 @@ tags:
 - E-Commerce
 - Agentic Commerce
 - MCP
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/85119664427/oauth/token
 ---

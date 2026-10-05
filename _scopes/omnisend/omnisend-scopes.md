@@ -326,6 +326,7 @@ tags:
 - MCP
 - Agent Ready
 - Transactional Messaging
+token_bound: false
 token_urls:
 - https://app.omnisend.com/oauth2/token
 ---

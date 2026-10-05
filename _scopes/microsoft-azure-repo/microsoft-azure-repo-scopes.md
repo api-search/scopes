@@ -117,6 +117,7 @@ tags:
 - Source Control
 - TFVC
 - Version Control
+token_bound: false
 token_urls:
 - https://app.vssps.visualstudio.com/oauth2/token
 ---

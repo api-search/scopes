@@ -185,6 +185,7 @@ tags:
 - Citations
 - MCP
 - A2A
+token_bound: false
 token_urls:
 - https://auth.tryprofound.com/oauth2/token
 ---

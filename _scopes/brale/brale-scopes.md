@@ -179,6 +179,7 @@ tags:
 - On-Ramp
 - Off-Ramp
 - A2A
+token_bound: false
 token_urls:
 - https://auth.brale.xyz/oauth2/token
 ---

@@ -133,6 +133,8 @@ tags:
 - AI Agents
 - Data Warehouse
 - A2A
+- Customer Data Platform
+token_bound: false
 token_urls:
 - https://mcp-auth.hightouch.com/oauth2/token
 ---

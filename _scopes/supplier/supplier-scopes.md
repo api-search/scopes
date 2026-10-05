@@ -52,6 +52,7 @@ tags:
 - ESG
 - Sustainability
 - MCP
+token_bound: false
 token_urls:
 - https://supplier.io/token
 ---

@@ -70,16 +70,24 @@ method: probed
 name: Paragraph Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Paragraph uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Paragraph publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Paragraph API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Paragraph
 provider_slug: paragraph
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- api.read
+- api.write
+scopes:
+- description: Read access to the publication the user selects during approval — publications, posts, subscribers, coins, analytics, and profile reads.
+  flows: []
+  scope: api.read
+- description: Write access to the publication the user selects during approval — create/update/delete posts, add/remove subscribers, send test and custom emails, update publication settings.
+  flows: []
+  scope: api.write
 slug: paragraph-scopes
 source_filename: paragraph-scopes.yml
 source_heading: OAuth Scopes
@@ -89,7 +97,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://paragraph
   \  identity_types_supported: [anonymous]\n  credential_types_supported: [api_key]\n  credential_transport: 'Authorization: Bearer <api-key>'\n  backing_operations:\n    - createAuthSession   # POST /v1/api/auth/sessions\n    - getAuthSession      # GET  /v1/api/auth/sessions/{sessionId}\n    - deleteAuthSession   # DELETE /v1/api/auth/sessions/{sessionId}\nmcp_authorization_server:\n  issuer: https://mcp.paragraph.com\n  note: >-\n    The hosted MCP endpoint runs a SEPARATE authorization server from the REST API resource, and\n    it advertises NO scopes_supported — authorization is all-or-nothing for the connected account.\n  authorization_endpoint: https://mcp.paragraph.com/authorize\n  token_endpoint: https://mcp.paragraph.com/token\n  registration_endpoint: https://mcp.paragraph.com/register\n  grant_types_supported: [authorization_code, refresh_token]\n  code_challenge_methods_supported: [plain, S256]\n  scopes_supported: []\ncross_ref:\n  - authentication/paragraph-authentication.yml\n\
   \  - well-known/paragraph-well-known.yml\n  - mcp/paragraph-mcp.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/scopes/paragraph-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Company
 - Publishing
@@ -98,5 +106,6 @@ tags:
 - Content
 - Blogging
 - Creator Economy
+token_bound: false
 token_urls: []
 ---

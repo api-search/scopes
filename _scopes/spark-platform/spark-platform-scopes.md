@@ -91,6 +91,7 @@ tags:
 - PropTech
 - Listing Data Infrastructure
 - OData
+token_bound: false
 token_urls:
 - https://sparkplatform.com/openid/token
 ---

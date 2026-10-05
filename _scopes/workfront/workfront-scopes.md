@@ -183,6 +183,7 @@ tags:
 - Enterprise Software
 - Adobe
 - MCP
+token_bound: false
 token_urls:
 - https://mcp.workfront.adobe.com/oauth/token
 ---

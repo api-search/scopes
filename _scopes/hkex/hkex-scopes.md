@@ -46,6 +46,7 @@ tags:
 - Order Book
 - Reference Data
 - IPO
+token_bound: false
 token_urls:
 - https://openam.connect.hkex.com.hk/openam/oauth2/eu/access_token
 ---

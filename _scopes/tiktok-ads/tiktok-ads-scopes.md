@@ -169,5 +169,6 @@ tags:
 - Reporting
 - Product Catalog
 - Agent Ready
+token_bound: false
 token_urls: []
 ---

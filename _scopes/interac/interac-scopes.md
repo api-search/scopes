@@ -63,6 +63,7 @@ tags:
 - Open Banking
 - Consumer-Driven Banking
 - Infrastructure
+token_bound: false
 token_urls:
 - https://gateway-portal.hub-verify.innovation.interac.ca/oauth2/token
 ---

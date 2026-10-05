@@ -88,16 +88,104 @@ method: searched
 name: The Mobile First Company Scopes
 name_suffix: OAuth Scopes
 note: Scopes are attached to Allo API keys (created in Settings > API) and to OAuth clients / the MCP server. The 19 scopes below are advertised verbatim in the OAuth authorization-server metadata; WEBHOOKS_READ_WRITE, BILLING and PARTNER are documented in the API-key scope reference / partner endpoints but are not listed in scopes_supported.
-overview: 'The Mobile First Company uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'The Mobile First Company publishes 22 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the The Mobile First Company API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: The Mobile First Company
 provider_slug: the-mobile-first-company
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 22
+scope_names:
+- CONVERSATIONS_READ
+- CONVERSATIONS_WRITE
+- CONTACTS_READ
+- CONTACTS_READ_WRITE
+- SMS_SEND
+- DIALING_QUEUE_READ_WRITE
+- PHONE_NUMBERS_READ
+- TAGS_READ
+- TAGS_WRITE
+- USERS_READ
+- CRM_READ
+- CRM_WRITE
+- CRM_DELETE
+- SUMMARY_TEMPLATES_READ
+- SUMMARY_TEMPLATES_WRITE
+- NOTES_READ
+- NOTES_WRITE
+- THREADS_READ
+- THREADS_WRITE
+- WEBHOOKS_READ_WRITE
+- BILLING
+- PARTNER
+scopes:
+- description: Read calls, SMS, and conversation history.
+  flows: []
+  scope: CONVERSATIONS_READ
+- description: Write / mutate conversation items (e.g. update summaries, mark read/archived).
+  flows: []
+  scope: CONVERSATIONS_WRITE
+- description: Read contact information.
+  flows: []
+  scope: CONTACTS_READ
+- description: Read and write contact information.
+  flows: []
+  scope: CONTACTS_READ_WRITE
+- description: Send SMS and MMS messages.
+  flows: []
+  scope: SMS_SEND
+- description: Manage Power Dialer queues.
+  flows: []
+  scope: DIALING_QUEUE_READ_WRITE
+- description: List phone numbers and their capabilities.
+  flows: []
+  scope: PHONE_NUMBERS_READ
+- description: List available tags.
+  flows: []
+  scope: TAGS_READ
+- description: Add and remove tags on conversation items.
+  flows: []
+  scope: TAGS_WRITE
+- description: List team members and their roles.
+  flows: []
+  scope: USERS_READ
+- description: Read CRM people, companies, and deals.
+  flows: []
+  scope: CRM_READ
+- description: Create and update CRM people, companies, and deals.
+  flows: []
+  scope: CRM_WRITE
+- description: Delete CRM records (e.g. deals).
+  flows: []
+  scope: CRM_DELETE
+- description: Read call summary templates.
+  flows: []
+  scope: SUMMARY_TEMPLATES_READ
+- description: Create, update, and delete call summary templates.
+  flows: []
+  scope: SUMMARY_TEMPLATES_WRITE
+- description: Read notes.
+  flows: []
+  scope: NOTES_READ
+- description: Create and update notes.
+  flows: []
+  scope: NOTES_WRITE
+- description: Read message threads.
+  flows: []
+  scope: THREADS_READ
+- description: Write / mutate message threads.
+  flows: []
+  scope: THREADS_WRITE
+- description: Create and manage webhook configurations.
+  flows: []
+  scope: WEBHOOKS_READ_WRITE
+- description: Access billing and subscription information.
+  flows: []
+  scope: BILLING
+- description: Reseller / partner scope required to provision and manage Allo accounts for your customers (POST/GET/DELETE /v2/api/partner/accounts).
+  flows: []
+  scope: PARTNER
 slug: the-mobile-first-company-scopes
 source_filename: the-mobile-first-company-scopes.yml
 source_heading: OAuth Scopes
@@ -107,7 +195,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\ndocs: https://help.with
   \  source: oauth-metadata\n  description: List available tags.\n- name: TAGS_WRITE\n  source: oauth-metadata\n  description: Add and remove tags on conversation items.\n- name: USERS_READ\n  source: oauth-metadata\n  description: List team members and their roles.\n- name: CRM_READ\n  source: oauth-metadata\n  description: Read CRM people, companies, and deals.\n- name: CRM_WRITE\n  source: oauth-metadata\n  description: Create and update CRM people, companies, and deals.\n- name: CRM_DELETE\n  source: oauth-metadata\n  description: Delete CRM records (e.g. deals).\n- name: SUMMARY_TEMPLATES_READ\n  source: oauth-metadata\n  description: Read call summary templates.\n- name: SUMMARY_TEMPLATES_WRITE\n  source: oauth-metadata\n  description: Create, update, and delete call summary templates.\n- name: NOTES_READ\n  source: oauth-metadata\n  description: Read notes.\n- name: NOTES_WRITE\n  source: oauth-metadata\n  description: Create and update notes.\n- name: THREADS_READ\n  source: oauth-metadata\n\
   \  description: Read message threads.\n- name: THREADS_WRITE\n  source: oauth-metadata\n  description: Write / mutate message threads.\n- name: WEBHOOKS_READ_WRITE\n  source: docs\n  description: Create and manage webhook configurations.\n- name: BILLING\n  source: docs\n  description: Access billing and subscription information.\n- name: PARTNER\n  source: docs\n  description: >-\n    Reseller / partner scope required to provision and manage Allo accounts for\n    your customers (POST/GET/DELETE /v2/api/partner/accounts).\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/scopes/the-mobile-first-company-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 22 scopes
 tags:
 - Company
 - Communications
@@ -119,5 +207,6 @@ tags:
 - MCP
 - Webhook
 - Small Business
+token_bound: false
 token_urls: []
 ---

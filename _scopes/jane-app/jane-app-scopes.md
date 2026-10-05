@@ -307,6 +307,7 @@ tags:
 - REST API
 - Authentication
 - Webhook
+token_bound: false
 token_urls:
 - https://login.id.janeapp.com/realms/jane_partner_sandbox/protocol/openid-connect/token
 ---

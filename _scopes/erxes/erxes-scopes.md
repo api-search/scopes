@@ -194,5 +194,6 @@ tags:
 - Knowledge Base
 - Webhook
 - Agent Skills
+token_bound: false
 token_urls: []
 ---

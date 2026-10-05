@@ -108,6 +108,7 @@ tags:
 - Schlage
 - Von Duprin
 - ENGAGE
+token_bound: false
 token_urls:
 - https://account.schlage.com/OAuth2/token
 ---

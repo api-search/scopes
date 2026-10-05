@@ -358,16 +358,148 @@ method: searched
 name: Venafi Scopes
 name_suffix: OAuth Scopes
 note: 'Two different authorization models. (1) The self-hosted Trust Protection Foundation WebSDK is a full OAuth 2.0 authorization server (POST /vedauth/authorize/oauth, /device, /jwt, /certificate, /integrated, /token, and DELETE /vedauth/revoke/token) and every operation in the published contract annotates its required scope in the operation description. Scopes take the form <scope>:<privilege> where privilege is one of manage, delete, discover, revoke, approve, read; a bare scope name grants read. The provider docs describe a client declaring, e.g., "scope: certificate:discover,delete,manage,revoke". (2) The SaaS Control Plane does NOT use OAuth scopes in its OpenAPI securitySchemes — it authenticates with the tppl-api-key header or a service-account bearer token, and the scope a service account may hold is enumerated at runtime from GET /v1/serviceaccounts/scopes. Counts below are the number of operations in the WebSDK contract that declare each scope.'
-overview: 'Venafi uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Venafi publishes 33 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Venafi API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Venafi
 provider_slug: venafi
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 33
+scope_names:
+- any
+- configuration
+- configuration:manage
+- configuration:delete
+- admin
+- admin:recyclebin
+- admin:algorithms
+- admin:rotate
+- certificate
+- certificate:manage
+- certificate:delete
+- certificate:discover
+- certificate:revoke
+- codesign
+- codesign:manage
+- codesign:admin
+- codesign:delete
+- codesign:approve
+- codesignclient
+- security
+- security:manage
+- security:delete
+- restricted
+- restricted:manage
+- restricted:delete
+- statistics
+- statistics:manage
+- statistics:delete
+- agent
+- agent:delete
+- ssh
+- :manage
+- :approve
+scopes:
+- description: Implicitly granted alongside any other valid scope; covers read-only system, config-lookup, metadata, log and workflow-ticket endpoints.
+  flows: []
+  scope: any
+- description: Read policy-tree configuration objects.
+  flows: []
+  scope: configuration
+- description: Create, update and move configuration objects and policy folders.
+  flows: []
+  scope: configuration:manage
+- description: Delete configuration objects.
+  flows: []
+  scope: configuration:delete
+- description: Platform administration — engines, upgrades, system settings.
+  flows: []
+  scope: admin
+- description: Read and restore items from the recycle bin.
+  flows: []
+  scope: admin:recyclebin
+- description: Manage the algorithm selector.
+  flows: []
+  scope: admin:algorithms
+- description: Key/secret rotation administration.
+  flows: []
+  scope: admin:rotate
+- description: Read certificate objects and their details.
+  flows: []
+  scope: certificate
+- description: Request, renew, retry, import and provision certificates.
+  flows: []
+  scope: certificate:manage
+- description: Delete certificate objects.
+  flows: []
+  scope: certificate:delete
+- description: Run and manage certificate discovery jobs.
+  flows: []
+  scope: certificate:discover
+- description: Revoke issued certificates.
+  flows: []
+  scope: certificate:revoke
+- description: Read Code Sign Manager projects, applications, environments and templates.
+  flows: []
+  scope: codesign
+- description: Create and update code-signing projects, environments and applications.
+  flows: []
+  scope: codesign:manage
+- description: Code Signing Administrator operations, including HSM configuration.
+  flows: []
+  scope: codesign:admin
+- description: Delete code-signing objects.
+  flows: []
+  scope: codesign:delete
+- description: Approve code-signing requests.
+  flows: []
+  scope: codesign:approve
+- description: Client-side signing scope (API/Sign, API/SignJWT, GPG public key retrieval).
+  flows: []
+  scope: codesignclient
+- description: Read identity, credential and permission security objects.
+  flows: []
+  scope: security
+- description: Manage credentials, identities and permissions.
+  flows: []
+  scope: security:manage
+- description: Delete credentials and security objects.
+  flows: []
+  scope: security:delete
+- description: Read access to restricted objects (SecretStore and similar).
+  flows: []
+  scope: restricted
+- description: Manage restricted objects.
+  flows: []
+  scope: restricted:manage
+- description: Delete restricted objects.
+  flows: []
+  scope: restricted:delete
+- description: Read platform statistics.
+  flows: []
+  scope: statistics
+- description: Manage statistics collection.
+  flows: []
+  scope: statistics:manage
+- description: Delete statistics.
+  flows: []
+  scope: statistics:delete
+- description: Client/agent registration and management.
+  flows: []
+  scope: agent
+- description: Delete agent registrations.
+  flows: []
+  scope: agent:delete
+- description: SSH key and SSH certificate management.
+  flows: []
+  scope: ssh
+- description: 'Published verbatim in the contract as "_Required scope: :manage_" with an empty scope prefix. The provider''s own scope map documents this as the "any" scope carrying the Manage privilege (POST Log, POST Metadata/Set). Recorded as published — a consumer reading only the OpenAPI cannot resolve it.'
+  flows: []
+  scope: :manage
+- description: 'Published verbatim as "_Required scope: :approve_"; the scope map documents it as the "any" scope carrying the Approve privilege (Flow/Tickets/Approve, Flow/Tickets/Reject, Workflow/Ticket/UpdateStatus).'
+  flows: []
+  scope: :approve
 slug: venafi-scopes
 source_filename: venafi-scopes.yml
 source_heading: OAuth Scopes
@@ -380,7 +512,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: openapi/venafi-
   \ ssh\n  description: SSH key and SSH certificate management.\n  operations: 1\n- name: ':manage'\n  description: 'Published verbatim in the contract as \"_Required scope: :manage_\" with an empty\n    scope prefix. The provider''s own scope map documents this as the \"any\" scope carrying the\n    Manage privilege (POST Log, POST Metadata/Set). Recorded as published — a consumer reading\n    only the OpenAPI cannot resolve it.'\n  operations: 11\n- name: ':approve'\n  description: 'Published verbatim as \"_Required scope: :approve_\"; the scope map documents it as\n    the \"any\" scope carrying the Approve privilege (Flow/Tickets/Approve, Flow/Tickets/Reject,\n    Workflow/Ticket/UpdateStatus).'\n  operations: 4\nsaas_service_account_scopes:\n  discovery: GET /v1/serviceaccounts/scopes\n  note: The SaaS contract enumerates scopes at runtime rather than listing them statically; the\n    published schema examples name \"distributed-issuance\" and \"certificate-issuance\" with an\n    authenticationType\
   \ (e.g. rsaKey) per scope.\n  observed_in_spec:\n  - distributed-issuance\n  - certificate-issuance\nsummary:\n  scope_count: 33\n  source_operations_annotated: 388\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/venafi/refs/heads/main/scopes/venafi-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 33 scopes
 tags:
 - Company
 - Security
@@ -394,5 +526,6 @@ tags:
 - DevOps
 - Kubernetes
 - Code Signing
+token_bound: false
 token_urls: []
 ---

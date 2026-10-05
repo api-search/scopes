@@ -68,6 +68,7 @@ tags:
 - Shopify
 - Agentic Commerce
 - Universal Commerce Protocol
+token_bound: false
 token_urls:
 - https://account.candyclub.com/authentication/oauth/token
 ---

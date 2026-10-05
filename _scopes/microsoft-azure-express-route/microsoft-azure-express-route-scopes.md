@@ -57,5 +57,6 @@ tags:
 - Hybrid Network
 - Private Connectivity
 - WAN
+token_bound: false
 token_urls: []
 ---

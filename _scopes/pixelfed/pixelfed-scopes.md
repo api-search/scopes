@@ -169,6 +169,7 @@ tags:
 - Decentralized
 - Mastodon Compatible
 - Federation
+token_bound: false
 token_urls:
 - https://{instance}/oauth/token
 ---

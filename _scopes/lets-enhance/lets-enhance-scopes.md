@@ -86,6 +86,7 @@ tags:
 - Media
 - Photography
 - Video Generation
+token_bound: false
 token_urls:
 - token
 ---

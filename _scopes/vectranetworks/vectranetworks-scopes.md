@@ -146,6 +146,7 @@ tags:
 - Security Operations
 - Artificial Intelligence
 - SIEM
+token_bound: false
 token_urls:
 - https://{vectra_portal_url}/oauth2/token
 ---

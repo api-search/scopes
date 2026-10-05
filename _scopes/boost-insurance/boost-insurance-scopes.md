@@ -67,6 +67,7 @@ tags:
 - Insurance As A Service
 - Policy Administration
 - Claims
+token_bound: false
 token_urls:
 - https://api.insurtech.dev/auth/oauth2/token
 ---

@@ -120,6 +120,7 @@ tags:
 - Workflow Automation
 - No-Code
 - Authentication
+token_bound: false
 token_urls:
 - https://www.formstack.com/api/v2/oauth2/token
 ---

@@ -140,6 +140,7 @@ tags:
 - Registration
 - Sessions
 - Networking
+token_bound: false
 token_urls:
 - https://api.events.ringcentral.com/v1/auth/token
 ---

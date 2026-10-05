@@ -9,16 +9,56 @@ method: probed
 name: Express Scripts Holding Scopes
 name_suffix: OAuth Scopes
 note: No scopes/permissions reference page is publicly reachable — the developer portal renders client-side and its content backend answers 403 to anonymous requests. Everything below is read from documents the provider serves anonymously. The one Express Scripts-specific scope in the estate is `esrx.default`; every other scope advertised on the default authorization server is a standard OIDC or Okta scope.
-overview: 'Express Scripts Holding uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Express Scripts Holding publishes 10 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Express Scripts Holding API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Express Scripts Holding
 provider_slug: express-scripts-holding
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 10
+scope_names:
+- esrx.default
+- openid
+- profile
+- email
+- address
+- phone
+- offline_access
+- groups
+- device_sso
+- interclient_access
+scopes:
+- description: The Express Scripts application scope requested by the developer portal client. This is the only vendor-namespaced scope observed in the estate. What it grants is not published; the scope name is recorded, its permissions are not known.
+  flows: []
+  scope: esrx.default
+- description: Requests an ID token. Required for any OIDC flow.
+  flows: []
+  scope: openid
+- description: Basic profile claims (name, preferred_username, locale, updated_at).
+  flows: []
+  scope: profile
+- description: email and email_verified claims.
+  flows: []
+  scope: email
+- description: The address claim.
+  flows: []
+  scope: address
+- description: phone_number and phone_number_verified claims.
+  flows: []
+  scope: phone
+- description: Requests a refresh token.
+  flows: []
+  scope: offline_access
+- description: Group membership claim. Advertised on the org authorization server.
+  flows: []
+  scope: groups
+- description: Okta device single sign-on.
+  flows: []
+  scope: device_sso
+- description: Okta cross-client token exchange.
+  flows: []
+  scope: interclient_access
 slug: express-scripts-holding-scopes
 source_filename: express-scripts-holding-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +68,7 @@ source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: >-\n  scopes_supp
   \ Core 1.0\n    description: Basic profile claims (name, preferred_username, locale, updated_at).\n  - name: email\n    source: discovery\n    standard: OpenID Connect Core 1.0\n    description: email and email_verified claims.\n  - name: address\n    source: discovery\n    standard: OpenID Connect Core 1.0\n    description: The address claim.\n  - name: phone\n    source: discovery\n    standard: OpenID Connect Core 1.0\n    description: phone_number and phone_number_verified claims.\n  - name: offline_access\n    source: discovery\n    standard: OpenID Connect Core 1.0\n    description: Requests a refresh token.\n  - name: groups\n    source: discovery\n    server: org-level\n    description: Group membership claim. Advertised on the org authorization server.\n  - name: device_sso\n    source: discovery\n    server: default\n    description: Okta device single sign-on.\n  - name: interclient_access\n    source: discovery\n    server: default\n    description: Okta cross-client token\
   \ exchange.\ncounts:\n  total: 10\n  first_party: 1\n  standard_oidc: 6\n  vendor_platform: 3\ngaps:\n  - >-\n    No per-API or per-operation scope is published. `esrx.default` is a single coarse\n    application scope; there is no evidence of least-privilege scoping on the partner\n    APIs, and no public document maps a scope to a capability.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/express-scripts-holding/refs/heads/main/scopes/express-scripts-holding-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 10 scopes
 tags:
 - Health
 - Healthcare
@@ -37,5 +77,6 @@ tags:
 - Prescriptions
 - Claims
 - Fortune 100
+token_bound: false
 token_urls: []
 ---

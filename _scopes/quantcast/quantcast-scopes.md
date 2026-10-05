@@ -71,6 +71,7 @@ tags:
 - Display Advertising
 - Artificial Intelligence
 - Audience Graph
+token_bound: false
 token_urls:
 - https://auth.quantcast.com/oauth2/default/v1/token
 ---

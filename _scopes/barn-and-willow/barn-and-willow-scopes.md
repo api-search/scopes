@@ -67,6 +67,7 @@ tags:
 - Agentic Commerce
 - Shopify
 - Direct to Consumer
+token_bound: false
 token_urls:
 - https://account.barnandwillow.com/authentication/oauth/token
 ---

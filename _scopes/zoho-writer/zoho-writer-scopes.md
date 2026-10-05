@@ -103,6 +103,7 @@ tags:
 - Zoho
 - Office Suite
 - Automation
+token_bound: false
 token_urls:
 - https://accounts.zoho.com/oauth/v2/token
 ---

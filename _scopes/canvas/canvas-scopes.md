@@ -5406,6 +5406,7 @@ tags:
 - LTI
 - Open Source
 - REST
+token_bound: false
 token_urls:
 - https://canvas.instructure.com/login/oauth2/token
 ---

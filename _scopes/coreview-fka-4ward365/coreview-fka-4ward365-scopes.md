@@ -118,6 +118,7 @@ tags:
 - Workflows
 - License Management
 - IT Operations
+token_bound: false
 token_urls:
 - https://identity.coreview.com/connect/token
 ---

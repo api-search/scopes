@@ -116,6 +116,7 @@ tags:
 - Banking
 - Consumer App
 - Company
+token_bound: false
 token_urls:
 - https://toshl.com/oauth2/token
 ---

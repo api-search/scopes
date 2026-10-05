@@ -9,16 +9,32 @@ method: searched
 name: Laurence Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Laurence uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Laurence publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Laurence API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Laurence
 provider_slug: laurence
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- profile
+- email
+- laurence:mcp
+scopes:
+- description: Standard OpenID Connect scope requesting an ID token for the signed-in Laurence user.
+  flows: []
+  scope: openid
+- description: Standard OpenID Connect scope granting access to basic profile claims.
+  flows: []
+  scope: profile
+- description: Standard OpenID Connect scope granting access to the user's email address claim.
+  flows: []
+  scope: email
+- description: Grants a registered client read-only access to the Laurence MCP server's nine tools over the Amazon Advertising and Amazon Marketing Stream data for the Ads profiles the signed-in user belongs to. This is the only scope listed in scopes_supported on the MCP protected-resource metadata.
+  flows: []
+  scope: laurence:mcp
 slug: laurence-scopes
 source_filename: laurence-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +43,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://w
   \ Standard OpenID Connect scope requesting an ID token for the signed-in Laurence user.\n  - name: profile\n    standard: oidc\n    description: Standard OpenID Connect scope granting access to basic profile claims.\n  - name: email\n    standard: oidc\n    description: Standard OpenID Connect scope granting access to the user's email address claim.\n  - name: laurence:mcp\n    standard: vendor\n    description: >-\n      Grants a registered client read-only access to the Laurence MCP server's nine tools over the\n      Amazon Advertising and Amazon Marketing Stream data for the Ads profiles the signed-in user\n      belongs to. This is the only scope listed in scopes_supported on the MCP protected-resource\n      metadata.\n    resource: https://mcp.laurence.com/mcp\nnotes:\n  - No scope-to-tool mapping is published; laurence:mcp appears to gate the whole tool surface.\n  - >-\n    Per-record authorization is enforced by Amazon Ads profile membership, discoverable at runtime\n    via\
   \ the list_allowed_ads_profiles tool, not through scopes.\n  - >-\n    Re-probed 2026-08-13: the scope set is unchanged, but the protected resource the laurence:mcp\n    scope applies to moved from the modal.run deployment URL to https://mcp.laurence.com/mcp.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/laurence/refs/heads/main/scopes/laurence-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Company
 - Advertising
@@ -37,5 +53,6 @@ tags:
 - Machine Learning
 - Retail Media
 - MCP
+token_bound: false
 token_urls: []
 ---

@@ -40,16 +40,24 @@ method: probed
 name: Cello Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Cello uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Cello publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cello API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Cello
 provider_slug: cello
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- mcp:read
+- mcp:write
+scopes:
+- description: Read access to the Cello MCP server. Cello's own tool reference states that all MCP tools are currently read-only, so this is the scope every published tool needs — program metrics, referrers, top referrers, integration status, events, recommendations, knowledge-base search, and the docs filesystem query.
+  flows: []
+  scope: mcp:read
+- description: Write access to the Cello MCP server. Advertised in the protected-resource metadata but not exercised by any tool Cello currently documents; the tool reference says the assistant points you to the Cello Portal to make changes. Recorded as declared-but-unused.
+  flows: []
+  scope: mcp:write
 slug: cello-scopes
 source_filename: cello-scopes.yml
 source_heading: OAuth Scopes
@@ -59,7 +67,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://mcp.cello
   \ declared-unused\nauthorization_server:\n  issuer: https://auth.cello.so\n  metadata: ../well-known/cello-oauth-authorization-server.json\n  authorization_endpoint: https://auth.cello.so/oauth2/auth\n  token_endpoint: https://auth.cello.so/oauth2/token\n  registration_endpoint: https://auth.cello.so/oauth2/register\n  revocation_endpoint: https://auth.cello.so/oauth2/revoke\n  jwks_uri: https://auth.cello.so/.well-known/jwks.json\n  grant_types_supported:\n  - authorization_code\n  - implicit\n  - client_credentials\n  - refresh_token\n  - urn:ietf:params:oauth:grant-type:device_code\n  code_challenge_methods_supported:\n  - plain\n  - S256\n  scopes_supported:\n  - offline_access\n  - offline\n  - openid\n  note: >-\n    The authorization server advertises only the three OIDC/offline scopes in scopes_supported;\n    the mcp:read and mcp:write resource scopes appear solely in the MCP protected-resource\n    document. A client requesting them relies on the resource indicator, not on the\
   \ AS metadata.\nrest_api:\n  oauth2: false\n  note: >-\n    No oauth2 securityScheme in openapi/_original/cello-openapi-original.json — the only scheme is\n    bearerAuth (type http, scheme bearer). derive-oauth-scopes.py reports 0 oauth2 schemes for\n    this provider; nothing here was derived from the spec.\nx-evidence:\n  fetched: '2026-08-13'\n  probes:\n  - {url: 'https://mcp.cello.so/.well-known/oauth-protected-resource', http_status: 200}\n  - {url: 'https://auth.cello.so/.well-known/oauth-authorization-server', http_status: 200}\n  - {url: 'https://auth.cello.so/.well-known/openid-configuration', http_status: 200}\n  - {url: 'https://mcp.cello.so/mcp', http_status: 401, note: 'POST tools/list returned WWW-Authenticate: Bearer resource_metadata=...'}\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/scopes/cello-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Company
 - Referral Marketing
@@ -70,5 +78,6 @@ tags:
 - Partner Programs
 - Ai Enterprise Software
 - A2A
+token_bound: false
 token_urls: []
 ---

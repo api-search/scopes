@@ -82,6 +82,7 @@ tags:
 - Appointments
 - Remote Monitoring
 - REST
+token_bound: false
 token_urls:
 - /v1/auth/token
 ---

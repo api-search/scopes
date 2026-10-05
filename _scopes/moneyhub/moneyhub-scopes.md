@@ -610,5 +610,6 @@ tags:
 - AISP
 - PISP
 - Fintech
+token_bound: false
 token_urls: []
 ---

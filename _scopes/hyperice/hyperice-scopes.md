@@ -69,11 +69,12 @@ tags:
 - Retail
 - Health and Wellness
 - Consumer Hardware
-- Sports And Fitness
 - Agentic Commerce
 - GraphQL
 - MCP
 - Shopify
+- Fitness
+token_bound: false
 token_urls:
 - https://accounts.hyperice.com/authentication/oauth/token
 ---

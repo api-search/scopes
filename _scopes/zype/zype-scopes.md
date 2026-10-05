@@ -378,7 +378,8 @@ api_specs:
   slug: zype-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/openapi/zype-oauth-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://api.zype.com/oauth/authorize
 description: ''
 docs: https://docs.zype.com/reference/oauth
 flows: []
@@ -388,16 +389,611 @@ method: probed
 name: Zype Scopes
 name_suffix: OAuth Scopes
 note: The 148 scopes below are read verbatim from the scopes_supported array of Zype's RFC 8414 metadata document. The published OpenAPI files declare only apiKey and http bearer securitySchemes and carry no oauth2 flows object, so the scope list exists ONLY at the well-known endpoint — deriving it from the specs alone would have produced nothing. Descriptions are ours, expanded from the resource.action naming convention Zype uses; they are not provider prose.
-overview: 'Zype uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Zype publishes 148 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Zype API on a user''s behalf.
+
+
+  Tokens are issued from https://api.zype.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Zype
 provider_slug: zype
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 148
+scope_names:
+- videos.read
+- videos.create
+- videos.update
+- videos.delete
+- videos.encode
+- video_sources.read
+- video_sources.create
+- video_sources.update
+- video_sources.delete
+- video_imports.read
+- video_imports.create
+- video_imports.update
+- segments.read
+- segments.create
+- segments.update
+- segments.delete
+- subtitles.read
+- subtitles.create
+- subtitles.update
+- subtitles.delete
+- transcriptions.read
+- transcriptions.create
+- transcriptions.update
+- subtitle_playlists.create
+- subtitle_playlists.delete
+- playlists.read
+- playlists.create
+- playlists.update
+- playlists.delete
+- playlist_items.read
+- playlist_items.create
+- playlist_items.update
+- playlist_items.delete
+- series.read
+- series.create
+- series.update
+- series.delete
+- seasons.read
+- seasons.create
+- seasons.update
+- seasons.delete
+- episodes.read
+- episodes.create
+- episodes.update
+- episodes.delete
+- categories.read
+- categories.create
+- categories.update
+- categories.delete
+- zobjects.read
+- zobjects.create
+- zobjects.update
+- zobjects.delete
+- zobject_types.read
+- zobject_types.create
+- zobject_types.update
+- zobject_types.delete
+- prompt_contexts.read
+- prompt_contexts.create
+- prompt_contexts.update
+- prompt_contexts.delete
+- content_rules.read
+- content_rules.create
+- content_rules.update
+- content_rules.delete
+- uploads.read
+- uploads.create
+- devices.read
+- devices.pair
+- live.channels.read
+- live.channels.create
+- live.channels.update
+- live.channels.delete
+- live.channels.start
+- live.channels.stop
+- live.inputs.create
+- live.inputs.update
+- live.inputs.delete
+- playout.read
+- program_guides.read
+- program_guides.create
+- program_guides.update
+- program_guides.delete
+- live_events.read
+- live_events.create
+- live_events.update
+- live_events.delete
+- apps.read
+- apps.update
+- tve.authenticate
+- consumers.read
+- consumers.create
+- consumers.update
+- consumers.delete
+- consumers.billing.read
+- consumers.billing.create
+- consumers.billing.update
+- consumers.billing.delete
+- plans.read
+- plans.create
+- plans.update
+- plans.delete
+- revenue_models.read
+- subscriptions.read
+- subscriptions.create
+- subscriptions.update
+- subscriptions.delete
+- passes.read
+- passes.create
+- passes.update
+- passes.delete
+- ad_tags.read
+- ad_tags.create
+- ad_tags.update
+- ad_tags.delete
+- ad_timings.read
+- ad_timings.create
+- ad_timings.update
+- ad_timings.delete
+- redemption_codes.read
+- redemption_codes.create
+- redemption_codes.update
+- redemption_codes.delete
+- consumer_profile.read
+- consumer_entitlements.read
+- video_favorites.read
+- video_favorites.create
+- video_favorites.delete
+- video_ratings.read
+- video_ratings.create
+- redemption_codes.redeem
+- analytics.read
+- analytics.export
+- billing.read
+- billing.create
+- billing.update
+- billing.delete
+- account.cancel
+- transactions.read
+- transactions.create
+- transactions.update
+- transactions.delete
+- usage.read
+- settings.read
+- settings.update
+- analytics_bulk_export_jobs.read
+- analytics_bulk_export_jobs.create
+- user
+scopes:
+- description: Read videos.
+  flows: []
+  scope: videos.read
+- description: Create videos.
+  flows: []
+  scope: videos.create
+- description: Update videos.
+  flows: []
+  scope: videos.update
+- description: Delete videos.
+  flows: []
+  scope: videos.delete
+- description: Trigger encoding for videos.
+  flows: []
+  scope: videos.encode
+- description: Read video sources.
+  flows: []
+  scope: video_sources.read
+- description: Create video sources.
+  flows: []
+  scope: video_sources.create
+- description: Update video sources.
+  flows: []
+  scope: video_sources.update
+- description: Delete video sources.
+  flows: []
+  scope: video_sources.delete
+- description: Read video imports.
+  flows: []
+  scope: video_imports.read
+- description: Create video imports.
+  flows: []
+  scope: video_imports.create
+- description: Update video imports.
+  flows: []
+  scope: video_imports.update
+- description: Read segments.
+  flows: []
+  scope: segments.read
+- description: Create segments.
+  flows: []
+  scope: segments.create
+- description: Update segments.
+  flows: []
+  scope: segments.update
+- description: Delete segments.
+  flows: []
+  scope: segments.delete
+- description: Read subtitles.
+  flows: []
+  scope: subtitles.read
+- description: Create subtitles.
+  flows: []
+  scope: subtitles.create
+- description: Update subtitles.
+  flows: []
+  scope: subtitles.update
+- description: Delete subtitles.
+  flows: []
+  scope: subtitles.delete
+- description: Read transcriptions.
+  flows: []
+  scope: transcriptions.read
+- description: Create transcriptions.
+  flows: []
+  scope: transcriptions.create
+- description: Update transcriptions.
+  flows: []
+  scope: transcriptions.update
+- description: Create subtitle playlists.
+  flows: []
+  scope: subtitle_playlists.create
+- description: Delete subtitle playlists.
+  flows: []
+  scope: subtitle_playlists.delete
+- description: Read playlists.
+  flows: []
+  scope: playlists.read
+- description: Create playlists.
+  flows: []
+  scope: playlists.create
+- description: Update playlists.
+  flows: []
+  scope: playlists.update
+- description: Delete playlists.
+  flows: []
+  scope: playlists.delete
+- description: Read playlist items.
+  flows: []
+  scope: playlist_items.read
+- description: Create playlist items.
+  flows: []
+  scope: playlist_items.create
+- description: Update playlist items.
+  flows: []
+  scope: playlist_items.update
+- description: Delete playlist items.
+  flows: []
+  scope: playlist_items.delete
+- description: Read series.
+  flows: []
+  scope: series.read
+- description: Create series.
+  flows: []
+  scope: series.create
+- description: Update series.
+  flows: []
+  scope: series.update
+- description: Delete series.
+  flows: []
+  scope: series.delete
+- description: Read seasons.
+  flows: []
+  scope: seasons.read
+- description: Create seasons.
+  flows: []
+  scope: seasons.create
+- description: Update seasons.
+  flows: []
+  scope: seasons.update
+- description: Delete seasons.
+  flows: []
+  scope: seasons.delete
+- description: Read episodes.
+  flows: []
+  scope: episodes.read
+- description: Create episodes.
+  flows: []
+  scope: episodes.create
+- description: Update episodes.
+  flows: []
+  scope: episodes.update
+- description: Delete episodes.
+  flows: []
+  scope: episodes.delete
+- description: Read categories.
+  flows: []
+  scope: categories.read
+- description: Create categories.
+  flows: []
+  scope: categories.create
+- description: Update categories.
+  flows: []
+  scope: categories.update
+- description: Delete categories.
+  flows: []
+  scope: categories.delete
+- description: Read zobjects.
+  flows: []
+  scope: zobjects.read
+- description: Create zobjects.
+  flows: []
+  scope: zobjects.create
+- description: Update zobjects.
+  flows: []
+  scope: zobjects.update
+- description: Delete zobjects.
+  flows: []
+  scope: zobjects.delete
+- description: Read zobject types.
+  flows: []
+  scope: zobject_types.read
+- description: Create zobject types.
+  flows: []
+  scope: zobject_types.create
+- description: Update zobject types.
+  flows: []
+  scope: zobject_types.update
+- description: Delete zobject types.
+  flows: []
+  scope: zobject_types.delete
+- description: Read prompt contexts.
+  flows: []
+  scope: prompt_contexts.read
+- description: Create prompt contexts.
+  flows: []
+  scope: prompt_contexts.create
+- description: Update prompt contexts.
+  flows: []
+  scope: prompt_contexts.update
+- description: Delete prompt contexts.
+  flows: []
+  scope: prompt_contexts.delete
+- description: Read content rules.
+  flows: []
+  scope: content_rules.read
+- description: Create content rules.
+  flows: []
+  scope: content_rules.create
+- description: Update content rules.
+  flows: []
+  scope: content_rules.update
+- description: Delete content rules.
+  flows: []
+  scope: content_rules.delete
+- description: Read uploads.
+  flows: []
+  scope: uploads.read
+- description: Create uploads.
+  flows: []
+  scope: uploads.create
+- description: Read devices.
+  flows: []
+  scope: devices.read
+- description: Pair devices.
+  flows: []
+  scope: devices.pair
+- description: Read live channels.
+  flows: []
+  scope: live.channels.read
+- description: Create live channels.
+  flows: []
+  scope: live.channels.create
+- description: Update live channels.
+  flows: []
+  scope: live.channels.update
+- description: Delete live channels.
+  flows: []
+  scope: live.channels.delete
+- description: Start live channels.
+  flows: []
+  scope: live.channels.start
+- description: Stop live channels.
+  flows: []
+  scope: live.channels.stop
+- description: Create live inputs.
+  flows: []
+  scope: live.inputs.create
+- description: Update live inputs.
+  flows: []
+  scope: live.inputs.update
+- description: Delete live inputs.
+  flows: []
+  scope: live.inputs.delete
+- description: Read playout.
+  flows: []
+  scope: playout.read
+- description: Read program guides.
+  flows: []
+  scope: program_guides.read
+- description: Create program guides.
+  flows: []
+  scope: program_guides.create
+- description: Update program guides.
+  flows: []
+  scope: program_guides.update
+- description: Delete program guides.
+  flows: []
+  scope: program_guides.delete
+- description: Read live events.
+  flows: []
+  scope: live_events.read
+- description: Create live events.
+  flows: []
+  scope: live_events.create
+- description: Update live events.
+  flows: []
+  scope: live_events.update
+- description: Delete live events.
+  flows: []
+  scope: live_events.delete
+- description: Read apps.
+  flows: []
+  scope: apps.read
+- description: Update apps.
+  flows: []
+  scope: apps.update
+- description: Authenticate against tve.
+  flows: []
+  scope: tve.authenticate
+- description: Read consumers.
+  flows: []
+  scope: consumers.read
+- description: Create consumers.
+  flows: []
+  scope: consumers.create
+- description: Update consumers.
+  flows: []
+  scope: consumers.update
+- description: Delete consumers.
+  flows: []
+  scope: consumers.delete
+- description: Read consumers billing.
+  flows: []
+  scope: consumers.billing.read
+- description: Create consumers billing.
+  flows: []
+  scope: consumers.billing.create
+- description: Update consumers billing.
+  flows: []
+  scope: consumers.billing.update
+- description: Delete consumers billing.
+  flows: []
+  scope: consumers.billing.delete
+- description: Read plans.
+  flows: []
+  scope: plans.read
+- description: Create plans.
+  flows: []
+  scope: plans.create
+- description: Update plans.
+  flows: []
+  scope: plans.update
+- description: Delete plans.
+  flows: []
+  scope: plans.delete
+- description: Read revenue models.
+  flows: []
+  scope: revenue_models.read
+- description: Read subscriptions.
+  flows: []
+  scope: subscriptions.read
+- description: Create subscriptions.
+  flows: []
+  scope: subscriptions.create
+- description: Update subscriptions.
+  flows: []
+  scope: subscriptions.update
+- description: Delete subscriptions.
+  flows: []
+  scope: subscriptions.delete
+- description: Read passes.
+  flows: []
+  scope: passes.read
+- description: Create passes.
+  flows: []
+  scope: passes.create
+- description: Update passes.
+  flows: []
+  scope: passes.update
+- description: Delete passes.
+  flows: []
+  scope: passes.delete
+- description: Read ad tags.
+  flows: []
+  scope: ad_tags.read
+- description: Create ad tags.
+  flows: []
+  scope: ad_tags.create
+- description: Update ad tags.
+  flows: []
+  scope: ad_tags.update
+- description: Delete ad tags.
+  flows: []
+  scope: ad_tags.delete
+- description: Read ad timings.
+  flows: []
+  scope: ad_timings.read
+- description: Create ad timings.
+  flows: []
+  scope: ad_timings.create
+- description: Update ad timings.
+  flows: []
+  scope: ad_timings.update
+- description: Delete ad timings.
+  flows: []
+  scope: ad_timings.delete
+- description: Read redemption codes.
+  flows: []
+  scope: redemption_codes.read
+- description: Create redemption codes.
+  flows: []
+  scope: redemption_codes.create
+- description: Update redemption codes.
+  flows: []
+  scope: redemption_codes.update
+- description: Delete redemption codes.
+  flows: []
+  scope: redemption_codes.delete
+- description: Read consumer profile.
+  flows: []
+  scope: consumer_profile.read
+- description: Read consumer entitlements.
+  flows: []
+  scope: consumer_entitlements.read
+- description: Read video favorites.
+  flows: []
+  scope: video_favorites.read
+- description: Create video favorites.
+  flows: []
+  scope: video_favorites.create
+- description: Delete video favorites.
+  flows: []
+  scope: video_favorites.delete
+- description: Read video ratings.
+  flows: []
+  scope: video_ratings.read
+- description: Create video ratings.
+  flows: []
+  scope: video_ratings.create
+- description: Redeem redemption codes.
+  flows: []
+  scope: redemption_codes.redeem
+- description: Read analytics.
+  flows: []
+  scope: analytics.read
+- description: Export analytics.
+  flows: []
+  scope: analytics.export
+- description: Read billing.
+  flows: []
+  scope: billing.read
+- description: Create billing.
+  flows: []
+  scope: billing.create
+- description: Update billing.
+  flows: []
+  scope: billing.update
+- description: Delete billing.
+  flows: []
+  scope: billing.delete
+- description: Cancel account.
+  flows: []
+  scope: account.cancel
+- description: Read transactions.
+  flows: []
+  scope: transactions.read
+- description: Create transactions.
+  flows: []
+  scope: transactions.create
+- description: Update transactions.
+  flows: []
+  scope: transactions.update
+- description: Delete transactions.
+  flows: []
+  scope: transactions.delete
+- description: Read usage.
+  flows: []
+  scope: usage.read
+- description: Read settings.
+  flows: []
+  scope: settings.read
+- description: Update settings.
+  flows: []
+  scope: settings.update
+- description: Read analytics bulk export jobs.
+  flows: []
+  scope: analytics_bulk_export_jobs.read
+- description: Create analytics bulk export jobs.
+  flows: []
+  scope: analytics_bulk_export_jobs.create
+- description: Identify the authenticated user.
+  flows: []
+  scope: user
 slug: zype-scopes
 source_filename: zype-scopes.yml
 source_heading: OAuth Scopes
@@ -416,7 +1012,7 @@ source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: https://api.zype.
   \ Create video favorites.\n- name: video_favorites.delete\n  description: Delete video favorites.\n- name: video_ratings.read\n  description: Read video ratings.\n- name: video_ratings.create\n  description: Create video ratings.\n- name: redemption_codes.redeem\n  description: Redeem redemption codes.\n- name: analytics.read\n  description: Read analytics.\n- name: analytics.export\n  description: Export analytics.\n- name: billing.read\n  description: Read billing.\n- name: billing.create\n  description: Create billing.\n- name: billing.update\n  description: Update billing.\n- name: billing.delete\n  description: Delete billing.\n- name: account.cancel\n  description: Cancel account.\n- name: transactions.read\n  description: Read transactions.\n- name: transactions.create\n  description: Create transactions.\n- name: transactions.update\n  description: Update transactions.\n- name: transactions.delete\n  description: Delete transactions.\n- name: usage.read\n  description: Read usage.\n\
   - name: settings.read\n  description: Read settings.\n- name: settings.update\n  description: Update settings.\n- name: analytics_bulk_export_jobs.read\n  description: Read analytics bulk export jobs.\n- name: analytics_bulk_export_jobs.create\n  description: Create analytics bulk export jobs.\n- name: user\n  description: Identify the authenticated user.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/scopes/zype-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 148 scopes
 tags:
 - Video
 - Streaming
@@ -433,5 +1029,7 @@ tags:
 - Advertising
 - Encoding
 - EPG
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.zype.com/oauth/token
 ---

@@ -60,6 +60,7 @@ tags:
 - DSP
 - App Marketing
 - Attribution
+token_bound: false
 token_urls:
 - https://auth.jampp.com/v1/oauth/token
 ---

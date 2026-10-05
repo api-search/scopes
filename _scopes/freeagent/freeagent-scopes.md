@@ -75,6 +75,7 @@ tags:
 - VAT
 - HMRC
 - Making Tax Digital
+token_bound: false
 token_urls:
 - https://api.freeagent.com/v2/token_endpoint
 ---

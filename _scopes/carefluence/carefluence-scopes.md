@@ -6,7 +6,8 @@ api_specs:
   slug: openapi-r4
   spec_type: Postman
   url: https://api.carefluence.com/
-authorization_urls: []
+authorization_urls:
+- https://core.carefluence.com/cf.admin.core/connect/authorize
 description: 'The SMART on FHIR scope set advertised by the Carefluence authorization server at https://core.carefluence.com/cf.admin.core. Every clinical scope is read-only: the server advertises no .write or .* compound write scope, even though the FHIR CapabilityStatement declares create/update/patch interactions on 23 of its 24 resource types.'
 docs: https://api.carefluence.com/
 flows: []
@@ -17,6 +18,9 @@ name: Carefluence Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'Carefluence publishes 51 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Carefluence API on a user''s behalf.
+
+
+  Tokens are issued from https://core.carefluence.com/cf.admin.core/connect/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -261,5 +265,7 @@ tags:
 - Authentication
 - Telehealth
 - Health Information Exchange
-token_urls: []
+token_bound: false
+token_urls:
+- https://core.carefluence.com/cf.admin.core/connect/token
 ---

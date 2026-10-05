@@ -103,6 +103,7 @@ tags:
 - MCP
 - Lead Generation
 - CRM
+token_bound: false
 token_urls:
 - https://vigorous-paper-03.authkit.app/oauth2/token
 ---

@@ -67,6 +67,7 @@ tags:
 - Scheduling
 - Caregiver
 - Healthcare
+token_bound: false
 token_urls:
 - https://api.hhaexchange.com/v1/fhir/auth/token
 ---

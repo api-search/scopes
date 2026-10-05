@@ -136,6 +136,7 @@ tags:
 - Linguistics
 - Open Data
 - Public APIs
+token_bound: false
 token_urls:
 - https://meta.wikimedia.org/w/rest.php/oauth2/access_token
 ---

@@ -117,5 +117,6 @@ tags:
 - Geospatial
 - Public Safety
 - Logistics
+token_bound: false
 token_urls: []
 ---

@@ -199,6 +199,7 @@ tags:
 - Deal Management
 - Market Data
 - Documents
+token_bound: false
 token_urls:
 - https://auth.lev.com/oauth/token
 ---

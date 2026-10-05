@@ -83,6 +83,7 @@ tags:
 - Continuous Threat Exposure Management
 - Cyber Risk Quantification
 - Application Security
+token_bound: false
 token_urls:
 - https://login.balbix.net/oauth2/aus9g844oA86yTqSo356/v1/token
 ---

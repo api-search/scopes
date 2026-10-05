@@ -209,6 +209,7 @@ tags:
 - Time Tracking
 - HRIS
 - Labor
+token_bound: false
 token_urls:
 - https://api.7shifts.com/oauth2/token
 ---

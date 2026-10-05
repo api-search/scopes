@@ -78,6 +78,7 @@ tags:
 - RAG
 - Knowledge Base
 - Enterprise
+token_bound: false
 token_urls:
 - token
 ---

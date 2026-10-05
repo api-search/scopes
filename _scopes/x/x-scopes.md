@@ -138,17 +138,22 @@ api_specs:
   slug: x-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-webhooks-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://x.com/i/oauth2/authorize
 description: 'OAuth 2.0 scopes for the X API v2, reconciled across three authoritative sources X publishes: the securitySchemes block of its own OpenAPI, the RFC 8414 authorization server metadata at api.x.com, and the RFC 9728 protected-resource metadata that governs the hosted MCP server. The three lists DISAGREE, and the disagreement is recorded per scope rather than flattened.'
 docs: https://docs.x.com/fundamentals/authentication/oauth-2-0/authorization-code
-flows: []
+flows:
+- authorizationCode
 kind: oauth-scopes
 layout: scope
 method: searched
 name: X Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'X publishes 29 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the X API on a user''s behalf.
+overview: 'X publishes 29 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the X API on a user''s behalf.
+
+
+  Tokens are issued from https://api.x.com/2/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -287,7 +292,7 @@ source_yaml: "generated: '2026-08-28'\nmethod: searched\nsource: openapi/_origin
   \ muted.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: read\n- scope: mute.write\n  description: Mute and unmute accounts on your behalf.\n  in_spec: true\n  advertised_by_authorization_server: false\n  mcp_resource_scope: false\n  access: write\n- scope: offline.access\n  description: Request a refresh token for the app.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: other\n- scope: space.read\n  description: View all Spaces you have access to.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: read\n- scope: timeline.read\n  description: View all Custom Timelines you can see.\n  in_spec: true\n  advertised_by_authorization_server: false\n  mcp_resource_scope: false\n  access: read\n- scope: tweet.moderate.write\n  description: Hide and unhide replies to your posts.\n  in_spec: true\n  advertised_by_authorization_server: false\n  mcp_resource_scope:\
   \ false\n  access: write\n- scope: tweet.read\n  description: View all posts you can see, including those from protected accounts.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: read\n- scope: tweet.write\n  description: Create and repost on your behalf.\n  in_spec: true\n  advertised_by_authorization_server: false\n  mcp_resource_scope: false\n  access: write\n- scope: users.read\n  description: View any account you can see, including protected accounts.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: read\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/scopes/x-scopes.yml
-summary_line: 29 scopes
+summary_line: 29 scopes · authorizationCode
 tags:
 - Spaces
 - Conversations
@@ -306,5 +311,7 @@ tags:
 - Agents
 - MCP
 - A2A
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.x.com/2/oauth2/token
 ---

@@ -563,6 +563,7 @@ tags:
 - SASE
 - Telecommunications
 - Voice
+token_bound: false
 token_urls:
 - https://liveobjects.orange-business.com/api/v1/oauth2/token
 ---

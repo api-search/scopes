@@ -229,6 +229,7 @@ tags:
 - Remarketing
 - Event
 - Webhook
+token_bound: false
 token_urls:
 - https://api.manheim.com/oauth2/token.oauth2
 - https://uat.api.manheim.com/oauth2/token.oauth2

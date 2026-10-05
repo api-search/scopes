@@ -422,6 +422,7 @@ tags:
 - Commodity Trading
 - Logistics
 - Messaging
+token_bound: false
 token_urls:
 - https://{tenant}.sednanetwork.com/platform/oauth/token
 ---

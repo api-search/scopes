@@ -58,16 +58,24 @@ method: probed
 name: Ezoic Scopes
 name_suffix: OAuth Scopes
 note: 'Ezoic runs a real OAuth 2.0 authorization server at token.ezoic.com and publishes RFC 8414 metadata for it, but that metadata omits scopes_supported and Ezoic publishes no scope reference page. The access token issued to an MCP client is described in prose as "a scoped access token", and the gate is an Ezoic ROLE PERMISSION ("Analytics"), not a named OAuth scope a client can request. So there is nothing to enumerate: scope_count is 0 by measurement, not by omission.'
-overview: 'ezoic uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'ezoic publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the ezoic API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: ezoic
 provider_slug: ezoic
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- openid
+- profile
+scopes:
+- description: Standard OIDC scope. Published only by the bidsystem.ai MCP protected resource.
+  flows: []
+  scope: openid
+- description: Standard OIDC scope. Published only by the bidsystem.ai MCP protected resource.
+  flows: []
+  scope: profile
 slug: ezoic-scopes
 source_filename: ezoic-scopes.yml
 source_heading: OAuth Scopes
@@ -80,7 +88,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://token.ezo
   \ service (Big Data Analytics, CDN, Subscriptions) is off\n      until a publisher turns it on under Settings -> API Access; the shared developerKey\n      can only call enabled services, and only for domains on its own account.\n    surface: https://api-gateway.ezoic.com\n    docs: https://docs.ezoic.com/docs/api/\nobservations:\n  strong:\n  - PKCE (S256) is the only code challenge method offered — no plain.\n  - DPoP sender-constrained tokens are supported (ES256).\n  - Dynamic client registration (RFC 7591) is available at /register, which is what lets an\n    MCP client connect without a pre-provisioned client_id.\n  - Token revocation (RFC 7009) is published.\n  notable:\n  - >-\n    A vendor-specific grant type is advertised on BOTH authorization servers —\n    urn:bidsystem:params:oauth:grant-type:adcp-client-recovery — indicating Ezoic's token\n    service fronts an Ad Context Protocol (AdCP) bidding client. No AdCP discovery\n    document is published on any host probed (/.well-known/adcp.json\
   \ 404s on both\n    ezoic.com and api.bidsystem.ai), so this is recorded as an observation, not as a\n    catalogued API. It is, however, the thread that led to the third MCP server.\n  - >-\n    The bidsystem.ai advertiser console carries a Chrome WebMCP origin-trial token\n    (feature \"WebMCP\", origin https://admin.bidsystem.ai:443, expiry 2026-11-17) — Ezoic is\n    trialling in-page agent tool exposure alongside its server-side MCP endpoints.\n  - No OIDC. /.well-known/openid-configuration 404s on both token.ezoic.com and\n    login.ezoic.com, yet id_token_signing_alg_values_supported is present in the OAuth\n    metadata — an OIDC-shaped field on a non-OIDC discovery document.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/scopes/ezoic-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Company
 - Advertising
@@ -96,5 +104,6 @@ tags:
 - MCP
 - Authentication
 - Agents
+token_bound: false
 token_urls: []
 ---

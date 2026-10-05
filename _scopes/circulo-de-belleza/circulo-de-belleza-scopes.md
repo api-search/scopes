@@ -69,6 +69,7 @@ tags:
 - Professional Beauty Products
 - Shopify
 - Agentic Commerce
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/25099010151/oauth/token
 ---

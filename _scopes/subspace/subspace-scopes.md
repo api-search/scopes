@@ -111,6 +111,8 @@ tags:
 - Gaming
 - Latency
 - Infrastructure
+- Defunct
+token_bound: false
 token_urls:
 - https://id.subspace.com/oauth/token
 ---

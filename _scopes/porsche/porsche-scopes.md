@@ -9,16 +9,72 @@ method: probed
 name: Porsche Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Porsche uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Porsche publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Porsche API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Porsche
 provider_slug: porsche
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- offline_access
+- name
+- given_name
+- family_name
+- nickname
+- email
+- email_verified
+- picture
+- created_at
+- identities
+- phone
+- address
+scopes:
+- description: Request an ID token and initiate an OpenID Connect flow.
+  flows: []
+  scope: openid
+- description: Access the end user's default profile claims.
+  flows: []
+  scope: profile
+- description: Request a refresh token for long-lived access.
+  flows: []
+  scope: offline_access
+- description: Full name claim.
+  flows: []
+  scope: name
+- description: Given name claim.
+  flows: []
+  scope: given_name
+- description: Family name claim.
+  flows: []
+  scope: family_name
+- description: Nickname claim.
+  flows: []
+  scope: nickname
+- description: Email address claim.
+  flows: []
+  scope: email
+- description: Whether the email address has been verified.
+  flows: []
+  scope: email_verified
+- description: Profile picture URL claim.
+  flows: []
+  scope: picture
+- description: Account creation timestamp claim.
+  flows: []
+  scope: created_at
+- description: Linked external identity providers for the account.
+  flows: []
+  scope: identities
+- description: Phone number claim.
+  flows: []
+  scope: phone
+- description: Postal address claim.
+  flows: []
+  scope: address
 slug: porsche-scopes
 source_filename: porsche-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +83,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: https://identity.
   \  description: Request an ID token and initiate an OpenID Connect flow.\n    standard: OIDC Core 1.0\n  - name: profile\n    description: Access the end user's default profile claims.\n    standard: OIDC Core 1.0\n  - name: offline_access\n    description: Request a refresh token for long-lived access.\n    standard: OIDC Core 1.0\n  - name: name\n    description: Full name claim.\n  - name: given_name\n    description: Given name claim.\n  - name: family_name\n    description: Family name claim.\n  - name: nickname\n    description: Nickname claim.\n  - name: email\n    description: Email address claim.\n  - name: email_verified\n    description: Whether the email address has been verified.\n  - name: picture\n    description: Profile picture URL claim.\n  - name: created_at\n    description: Account creation timestamp claim.\n  - name: identities\n    description: Linked external identity providers for the account.\n  - name: phone\n    description: Phone number claim.\n  - name: address\n\
   \    description: Postal address claim.\nevidence:\n  - url: https://identity.porsche.com/.well-known/openid-configuration\n    status: 200\n  - url: https://developer.porsche.com/faq\n    status: 200\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/porsche/refs/heads/main/scopes/porsche-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Automobiles
 - Cars
@@ -35,9 +91,9 @@ tags:
 - Automotive
 - Connected Car
 - Identity
-- OpenID Connect
 - Design Systems
 - Open Source
 - Germany
+token_bound: false
 token_urls: []
 ---

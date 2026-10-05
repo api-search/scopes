@@ -72,6 +72,7 @@ tags:
 - Agentic Commerce
 - Universal Commerce Protocol
 - Product Catalog
+token_bound: false
 token_urls:
 - https://accounts.tecovas.com/authentication/oauth/token
 ---

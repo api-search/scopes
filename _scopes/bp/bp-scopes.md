@@ -58,16 +58,40 @@ method: searched
 name: Bp Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'BP uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'BP publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the BP API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: BP
 provider_slug: bp
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- openid
+- profile
+- email
+- phone
+- b2b-profile
+- b2b-consent
+scopes:
+- description: Standard OpenID Connect scope; requests an ID token.
+  flows: []
+  scope: openid
+- description: Standard OIDC profile claims.
+  flows: []
+  scope: profile
+- description: Standard OIDC email claims.
+  flows: []
+  scope: email
+- description: Standard OIDC phone claims.
+  flows: []
+  scope: phone
+- description: BP-specific scope carrying the B2B business-account profile.
+  flows: []
+  scope: b2b-profile
+- description: BP-specific scope covering B2B consent state for the authenticated business user.
+  flows: []
+  scope: b2b-consent
 slug: bp-scopes
 source_filename: bp-scopes.yml
 source_heading: OAuth Scopes
@@ -75,7 +99,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: https://b2bid.bp.com/.well-known/openid-configuration (fetched, HTTP 200)\nprovider: BP\nproviderId: bp\ndocs: https://developer.fleet.bp.com/DE/getting-started\ndescription: >-\n  OAuth scopes advertised by BP's B2B identity host (b2bid.bp.com, ForgeRock AM), which is the\n  authorization server behind the bp Open Fleet developer portal. These are the scopes the\n  authorization server itself publishes as supported.\nauthorization_server: https://b2bid.bp.com/am/oauth2\nscopes:\n  - name: openid\n    description: Standard OpenID Connect scope; requests an ID token.\n    standard: true\n  - name: profile\n    description: Standard OIDC profile claims.\n    standard: true\n  - name: email\n    description: Standard OIDC email claims.\n    standard: true\n  - name: phone\n    description: Standard OIDC phone claims.\n    standard: true\n  - name: b2b-profile\n    description: BP-specific scope carrying the B2B business-account\
   \ profile.\n    standard: false\n  - name: b2b-consent\n    description: BP-specific scope covering B2B consent state for the authenticated business user.\n    standard: false\nclaims_supported:\n  - sub\n  - email\n  - email_verified\n  - phone\n  - phone_verified\n  - nickname\n  - locale\n  - appname\n  - subname\n  - external_id\n  - custom_username\n  - passwordless\nnotes:\n  - >-\n    The six bp Open Fleet resource OpenAPIs declare a bearer securityScheme with NO oauth2\n    scopes block, so no per-operation scope requirements are published. The scopes above govern\n    the portal sign-in flow, not fine-grained API authorization.\n  - >-\n    Authorization for the resource APIs is instead scoped by the credential's environment\n    (sandbox vs production) and by the AuthorityIds / ParentIds the caller may query.\nmaintainers:\n  - FN: Kin Lane\n    email: info@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/scopes/bp-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - Energy
 - Oil
@@ -87,5 +111,7 @@ tags:
 - Mobility
 - Retail Fuel
 - EV Charging
+- Oil and Gas
+token_bound: false
 token_urls: []
 ---

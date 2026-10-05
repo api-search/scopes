@@ -98,6 +98,7 @@ tags:
 - Telecommunications
 - TM Forum
 - Fortune 1000
+token_bound: false
 token_urls:
 - https://api.blueplanet.com/oauth/token
 ---

@@ -81,6 +81,7 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - Shopify
+token_bound: false
 token_urls:
 - https://account.liquiddeath.com/authentication/oauth/token
 ---

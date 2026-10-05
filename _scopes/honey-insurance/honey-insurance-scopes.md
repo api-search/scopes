@@ -120,6 +120,7 @@ tags:
 - Smart Home
 - Claims
 - Underwriting
+token_bound: false
 token_urls:
 - https://auth.honeyinsurance.com/oauth/token
 ---

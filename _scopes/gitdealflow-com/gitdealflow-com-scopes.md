@@ -103,6 +103,9 @@ note: 'The OpenAPI declares no oauth2 securityScheme (derive-oauth-scopes.py fou
 overview: 'GitDealFlow publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the GitDealFlow API on a user''s behalf.
 
 
+  Tokens are issued from https://signals.gitdealflow.com/api/oauth/token.
+
+
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: GitDealFlow
 provider_slug: gitdealflow-com
@@ -133,5 +136,7 @@ tags:
 - Agents
 - Developer Tools
 - A2A
-token_urls: []
+token_bound: false
+token_urls:
+- https://signals.gitdealflow.com/api/oauth/token
 ---

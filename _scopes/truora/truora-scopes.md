@@ -171,6 +171,7 @@ tags:
 - Fraud Prevention
 - Latin America
 - WhatsApp
+token_bound: false
 token_urls:
 - https://api.pass.truora.com/v1/oauth2/token
 ---

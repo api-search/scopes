@@ -19,6 +19,9 @@ note: 'Splash publishes no OpenAPI and no scopes/permissions reference page, so 
 overview: 'Splash publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Splash API on a user''s behalf.
 
 
+  Tokens are issued from https://api.splashthat.com/oauth/v2/token.
+
+
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Splash
 provider_slug: splashthat
@@ -48,5 +51,7 @@ tags:
 - Ticketing
 - Check-in
 - Analytics
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.splashthat.com/oauth/v2/token
 ---

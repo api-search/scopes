@@ -124,5 +124,6 @@ tags:
 - Workforce
 - Enterprise Software
 - Artificial Intelligence
+token_bound: false
 token_urls: []
 ---

@@ -144,6 +144,7 @@ tags:
 - Agent-Native
 - Causal Inference
 - Anomaly Detection
+token_bound: false
 token_urls:
 - https://mcp.sybilion.dev/oauth/token
 ---

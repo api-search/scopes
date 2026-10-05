@@ -342,6 +342,7 @@ tags:
 - Retail
 - Hospitality
 - Company
+token_bound: false
 token_urls:
 - /oauth/v3/token
 ---

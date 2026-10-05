@@ -59,6 +59,7 @@ tags:
 - Germany
 - Content
 - MCP
+token_bound: false
 token_urls:
 - https://1000satellites.de/oauth/token
 ---

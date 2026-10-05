@@ -69,6 +69,7 @@ tags:
 - Identity Verification
 - Fintech
 - Machine Learning
+token_bound: false
 token_urls:
 - https://eu.id.resistant.ai/oauth2/aus2un1hkrKhPjir4417/v1/token
 ---

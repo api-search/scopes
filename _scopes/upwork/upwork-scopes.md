@@ -142,6 +142,7 @@ tags:
 - Marketplace
 - Contracts
 - Hiring
+token_bound: false
 token_urls:
 - https://www.upwork.com/api/v3/oauth2/token
 ---

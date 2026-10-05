@@ -86,6 +86,7 @@ tags:
 - Manufacturing
 - Cloud
 - Recipes
+token_bound: false
 token_urls:
 - https://optix.example.com/auth/token
 ---

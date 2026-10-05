@@ -69,6 +69,7 @@ tags:
 - Risk Scoring
 - Financial Services
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://app.accelerant.ai/api/auth/oidc/token
 ---

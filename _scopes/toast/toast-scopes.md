@@ -510,5 +510,6 @@ tags:
 - Point-of-Sale
 - Restaurant
 - Hospitality
+token_bound: false
 token_urls: []
 ---

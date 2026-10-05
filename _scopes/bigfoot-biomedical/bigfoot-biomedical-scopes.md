@@ -274,6 +274,7 @@ tags:
 - Continuous Glucose Monitoring
 - Connected Devices
 - Acquired
+token_bound: false
 token_urls:
 - https://clinichub.bigfootbiomedical.com/services/oauth2/token
 ---

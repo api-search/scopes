@@ -256,6 +256,7 @@ tags:
 - Telemetry
 - Sensors
 - Streaming
+token_bound: false
 token_urls:
 - https://kc.cloud.{region}.kontakt.io/realms/{tenant}/protocol/openid-connect/token
 ---

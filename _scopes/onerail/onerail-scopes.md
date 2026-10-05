@@ -514,6 +514,7 @@ tags:
 - Webhook
 - Final Mile
 - Delivery
+token_bound: false
 token_urls:
 - https://dummy-unused-url.com
 ---

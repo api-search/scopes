@@ -16,16 +16,32 @@ method: probed
 name: Carmd Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'CarMD uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'CarMD publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the CarMD API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: CarMD
 provider_slug: carmd
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- customer-account-api:full
+- customer-account-mcp-api:full
+scopes:
+- description: Standard OpenID Connect scope; requests an ID token identifying the shopper.
+  flows: []
+  scope: openid
+- description: Releases the shopper's email address and email_verified claim.
+  flows: []
+  scope: email
+- description: Full access to the customer-account API for the authenticated shopper.
+  flows: []
+  scope: customer-account-api:full
+- description: Full access to the customer-account MCP API for the authenticated shopper — the authenticated counterpart to the anonymous UCP commerce MCP endpoint at https://carmd.com/api/ucp/mcp.
+  flows: []
+  scope: customer-account-mcp-api:full
 slug: carmd-scopes
 source_filename: carmd-scopes.yml
 source_heading: OAuth Scopes
@@ -34,7 +50,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: https://carmd.com
   \  jwks_uri: https://shopify.com/authentication/93440671876/.well-known/jwks.json\n  end_session_endpoint: https://shopify.com/authentication/93440671876/logout\n  grant_types_supported:\n    - authorization_code\n    - refresh_token\n    - 'urn:ietf:params:oauth:grant-type:jwt-bearer'\n  response_types_supported:\n    - code\n  code_challenge_methods_supported:\n    - S256\n  token_endpoint_auth_methods_supported:\n    - client_secret_basic\n    - client_secret_post\n  id_token_signing_alg_values_supported:\n    - RS256\nscope_count: 4\nscopes:\n  - name: openid\n    description: Standard OpenID Connect scope; requests an ID token identifying the shopper.\n  - name: email\n    description: Releases the shopper's email address and email_verified claim.\n  - name: 'customer-account-api:full'\n    description: Full access to the customer-account API for the authenticated shopper.\n  - name: 'customer-account-mcp-api:full'\n    description: >-\n      Full access to the customer-account MCP\
   \ API for the authenticated shopper — the authenticated\n      counterpart to the anonymous UCP commerce MCP endpoint at https://carmd.com/api/ucp/mcp.\nclaims_supported: [iss, sub, aud, exp, iat, nonce, sid, email, email_verified]\ndocs: null\ndocs_note: CarMD publishes no scope reference page of its own; the scope list is machine-read from its discovery document.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carmd/refs/heads/main/scopes/carmd-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Automobiles
 - Cars
@@ -45,5 +61,6 @@ tags:
 - MCP
 - E-Commerce
 - Vehicle Diagnostics
+token_bound: false
 token_urls: []
 ---

@@ -104,6 +104,7 @@ tags:
 - DevOps
 - Communications
 - Workflow Automation
+token_bound: false
 token_urls:
 - https://{company}.{deployment}.xmatters.com/api/xm/1/oauth2/token
 ---

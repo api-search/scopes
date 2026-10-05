@@ -97,6 +97,7 @@ tags:
 - Shop Management
 - Fleet
 - Vertical SaaS
+token_bound: false
 token_urls:
 - https://shop.tekmetric.com/api/v1/oauth/token
 ---

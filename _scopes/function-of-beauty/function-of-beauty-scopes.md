@@ -68,6 +68,7 @@ tags:
 - Shopify
 - Direct to Consumer
 - MCP
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/69081399608/oauth/token
 ---

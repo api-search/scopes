@@ -9,16 +9,35 @@ method: probed
 name: Finesse Scopes
 name_suffix: OAuth Scopes
 note: Scopes are read verbatim from the `scopes_supported` array of the OAuth 2.0 / OpenID Connect metadata FINESSE serves at its own apex domain. FINESSE publishes no scope reference page of its own, so the descriptions below state only what the scope name asserts plus what the metadata itself proves; nothing is inferred beyond that. The authorization server is the Shopify-hosted customer identity provider for this merchant (issuer https://shopify.com/authentication/23733469261), with endpoints on account.finesse.us.
-overview: 'FINESSE uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'FINESSE publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the FINESSE API on a user''s behalf.
+
+
+  Tokens are issued from https://account.finesse.us/authentication/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: FINESSE
 provider_slug: finesse
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- customer-account-api:full
+- customer-account-mcp-api:full
+scopes:
+- description: Request an ID token identifying the signed-in FINESSE shopper.
+  flows: []
+  scope: openid
+- description: Release the shopper's email address and email_verified claim.
+  flows: []
+  scope: email
+- description: Full access to the customer account API on behalf of the signed-in shopper — the surface behind account.finesse.us (orders, addresses, profile). Not documented on any FINESSE page.
+  flows: []
+  scope: customer-account-api:full
+- description: Full access to a customer-account MCP API on behalf of the signed-in shopper. This is a logged-in agent surface distinct from the anonymous storefront MCP endpoint at /api/ucp/mcp; FINESSE publishes no documentation for it, and its tool manifest was not retrievable without a customer session.
+  flows: []
+  scope: customer-account-mcp-api:full
 slug: finesse-scopes
 source_filename: finesse-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +46,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: https://finesse.u
   \ shopper.\n  - name: email\n    standard: true\n    spec: OpenID Connect Core 1.0\n    description: Release the shopper's email address and email_verified claim.\n  - name: 'customer-account-api:full'\n    standard: false\n    description: >-\n      Full access to the customer account API on behalf of the signed-in shopper — the surface behind\n      account.finesse.us (orders, addresses, profile). Not documented on any FINESSE page.\n  - name: 'customer-account-mcp-api:full'\n    standard: false\n    description: >-\n      Full access to a customer-account MCP API on behalf of the signed-in shopper. This is a\n      logged-in agent surface distinct from the anonymous storefront MCP endpoint at\n      /api/ucp/mcp; FINESSE publishes no documentation for it, and its tool manifest was not\n      retrievable without a customer session.\nnotes: >-\n  These are end-user consent scopes for shopper identity, not developer API scopes. The public\n  agent commerce endpoint (https://finesse.us/api/ucp/mcp)\
   \ carries no OAuth scope requirement at\n  all — see authentication/finesse-authentication.yml.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finesse/refs/heads/main/scopes/finesse-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Company
 - Retail
@@ -41,5 +60,7 @@ tags:
 - Agent-Native
 - Shopify
 - Consumer
-token_urls: []
+token_bound: false
+token_urls:
+- https://account.finesse.us/authentication/oauth/token
 ---

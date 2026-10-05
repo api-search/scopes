@@ -194,6 +194,7 @@ tags:
 - First Responders
 - Government
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://community.envisagenow.com/cares/services/oauth2/token
 ---

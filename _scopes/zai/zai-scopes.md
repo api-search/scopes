@@ -215,6 +215,7 @@ tags:
 - Direct Debit
 - Digital Wallet
 - Payouts
+token_bound: false
 token_urls:
 - https://au-0000.sandbox.auth.assemblypay.com/tokens
 ---

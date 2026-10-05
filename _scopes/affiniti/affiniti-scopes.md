@@ -113,6 +113,7 @@ tags:
 - Rebates
 - Rewards
 - B2B SaaS
+token_bound: false
 token_urls:
 - https://cms-login.extu.com/oauth/token
 - https://pexp-login.extu.com/oauth/token

@@ -727,6 +727,7 @@ tags:
 - Content Licensing
 - Digital Asset Management
 - MCP
+token_bound: false
 token_urls:
 - https://api.gettyimages.com/v4/oauth2/token
 ---

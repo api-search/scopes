@@ -137,6 +137,7 @@ tags:
 - Audio
 - Licensing
 - Creative Content
+token_bound: false
 token_urls:
 - https://api.shutterstock.com/v2/oauth/access_token
 ---

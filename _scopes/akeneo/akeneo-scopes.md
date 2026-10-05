@@ -281,6 +281,7 @@ tags:
 - Catalog Management
 - Commerce
 - Retail
+token_bound: false
 token_urls:
 - https://{tenant}.cloud.akeneo.com/api/oauth/v1/token
 ---

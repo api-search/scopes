@@ -131,6 +131,7 @@ tags:
 - Test Management
 - Project Management
 - MCP
+token_bound: false
 token_urls:
 - https://app.epsilon3.io/oauth/token
 - https://api.epsilon3.io/oauth/token

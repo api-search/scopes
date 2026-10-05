@@ -132,6 +132,7 @@ tags:
 - Artificial Intelligence
 - Employee Communications
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://auth.arist.app/oauth/token
 ---

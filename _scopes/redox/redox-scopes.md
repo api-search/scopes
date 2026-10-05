@@ -64,6 +64,7 @@ tags:
 - HL7
 - Digital Health
 - Healthcare API
+token_bound: false
 token_urls:
 - https://api.redoxengine.com/platform/v1/oauth/token
 ---

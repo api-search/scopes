@@ -61,6 +61,7 @@ tags:
 - Consumer Finance
 - Financial Assistant
 - Personal Finance
+token_bound: false
 token_urls:
 - https://www.meetcleo.com/oauth/token
 ---

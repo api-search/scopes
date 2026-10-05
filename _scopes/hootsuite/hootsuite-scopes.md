@@ -202,6 +202,7 @@ tags:
 - Webhook
 - Scheduling
 - Canada
+token_bound: false
 token_urls:
 - https://platform.hootsuite.com/oauth2/token
 - TO_BE_CONFIGURED_IN_INBOX_2_0

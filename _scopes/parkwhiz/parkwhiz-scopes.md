@@ -114,6 +114,7 @@ tags:
 - Transportation
 - Location
 - Event
+token_bound: false
 token_urls:
 - https://api.parkwhiz.com/v4/oauth/token
 ---

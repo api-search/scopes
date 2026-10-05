@@ -94,6 +94,7 @@ tags:
 - x402
 - Stripe Checkout
 - Germany
+token_bound: false
 token_urls:
 - https://kannkidas.de/api/oauth/token
 ---

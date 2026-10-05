@@ -80,6 +80,7 @@ tags:
 - MCP
 - Agent-Native
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://login.levitate.ai/oauth2/token
 ---

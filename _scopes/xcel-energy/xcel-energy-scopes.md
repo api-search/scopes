@@ -244,6 +244,7 @@ tags:
 - IEEE 2030.5
 - Fortune 500
 - Utilities
+token_bound: false
 token_urls:
 - https://api.xcelenergy.com/DataCustodian/oauth/token
 ---

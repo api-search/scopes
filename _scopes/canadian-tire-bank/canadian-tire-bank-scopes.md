@@ -70,7 +70,7 @@ tags:
 - Credit Cards
 - Mastercard
 - Consumer-Driven Banking
-- Data Aggregation
+token_bound: false
 token_urls:
 - https://api.ctfs.com:443/auth/oauth/v2/token
 ---

@@ -77,6 +77,8 @@ tags:
 - IoT
 - Vehicle Data
 - Mobility
+- Telematics
+token_bound: false
 token_urls:
 - https://api.high-mobility.com/v1/access_token
 ---

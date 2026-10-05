@@ -112,6 +112,7 @@ tags:
 - Design
 - Retail
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://api.havenly.com/oauth
 ---

@@ -62,6 +62,7 @@ tags:
 - Healthcare
 - MCP
 - WordPress
+token_bound: false
 token_urls:
 - https://www.a2bio.com/oauth/token
 ---

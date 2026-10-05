@@ -239,6 +239,7 @@ tags:
 - Open Source
 - Community Data Platform
 - Open Source Intelligence
+token_bound: false
 token_urls:
 - https://linuxfoundation.auth0.com/oauth/token
 ---

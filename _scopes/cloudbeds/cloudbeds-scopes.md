@@ -230,6 +230,7 @@ tags:
 - Channel Manager
 - Booking Engine
 - Payments
+token_bound: false
 token_urls:
 - https://hotels.cloudbeds.com/api/v1.2/access_token
 ---

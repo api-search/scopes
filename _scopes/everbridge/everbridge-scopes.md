@@ -544,16 +544,35 @@ method: searched
 name: Everbridge Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Everbridge uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Everbridge publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Everbridge API on a user''s behalf.
+
+
+  Tokens are issued from https://api.everbridge.net/authorization/v1/tokens.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Everbridge
 provider_slug: everbridge
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- user-profile
+- role
+- service-profile
+scopes:
+- description: Standard OpenID Connect scope. Required in both the client-credentials and password grant scope strings; its presence is what makes the token endpoint return an id_token.
+  flows: []
+  scope: openid
+- description: Requests the API user's profile claims in the issued token. Present in both published grant examples.
+  flows: []
+  scope: user-profile
+- description: Requests the role claim. Works with the optional roleId request header, which selects which of a multi-role user's roles the token is minted for.
+  flows: []
+  scope: role
+- description: Requests the service-account profile claim. Published only in the client-credentials example, which is the machine-to-machine service-account grant.
+  flows: []
+  scope: service-profile
 slug: everbridge-scopes
 source_filename: everbridge-scopes.yml
 source_heading: OAuth Scopes
@@ -562,7 +581,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\ndocs: https://developer
   \ Required in both the client-credentials and password grant\n    scope strings; its presence is what makes the token endpoint return an id_token.\n  grants:\n  - client_credentials\n  - password\n  source: docs\n- name: user-profile\n  description: >-\n    Requests the API user's profile claims in the issued token. Present in both published\n    grant examples.\n  grants:\n  - client_credentials\n  - password\n  source: docs\n- name: role\n  description: >-\n    Requests the role claim. Works with the optional roleId request header, which selects\n    which of a multi-role user's roles the token is minted for.\n  grants:\n  - client_credentials\n  - password\n  source: docs\n- name: service-profile\n  description: >-\n    Requests the service-account profile claim. Published only in the client-credentials\n    example, which is the machine-to-machine service-account grant.\n  grants:\n  - client_credentials\n  source: docs\npermission_model:\n  style: resource + action (RBAC), configured\
   \ per service account\n  configured_in: >-\n    Manager Portal Service Account workflow — Account level (Users -> Service Accounts) or\n    Organization level (Settings -> Access -> Service Accounts)\n  example: >-\n    A contact workflow can be scoped to List all contacts + Create a contact + Retrieve the\n    details of a contact while rejecting Delete contact.\n  note: >-\n    Everbridge states that most but NOT all EB Suite REST methods support resource + action\n    permissions, and directs customers to their account manager for prioritization of any\n    method that does not. The concrete per-resource permission list is only visible inside\n    the authenticated Manager Portal, so it is not enumerated here.\n  docs: https://developers.everbridge.net/home/docs/ebs-gs-guide\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/scopes/everbridge-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Critical Event Management
 - Emergency Management
@@ -574,5 +593,7 @@ tags:
 - Business Continuity
 - Employee Safety
 - Travel Risk Management
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.everbridge.net/authorization/v1/tokens
 ---

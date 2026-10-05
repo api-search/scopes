@@ -496,6 +496,7 @@ tags:
 - Vehicle Data
 - Collision Repair
 - Vehicle Inspection
+token_bound: false
 token_urls:
 - https://dispatch-login-demo.audatex.com/connect/token
 ---

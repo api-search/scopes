@@ -307,6 +307,7 @@ tags:
 - Challenger Bank
 - Account Information
 - Payments
+token_bound: false
 token_urls:
 - https://authserver.example/token
 ---

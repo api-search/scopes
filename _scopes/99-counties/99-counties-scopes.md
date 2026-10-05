@@ -67,6 +67,7 @@ tags:
 - Shopify
 - MCP
 - Universal Commerce Protocol
+token_bound: false
 token_urls:
 - https://account.wallacefarms.com/authentication/oauth/token
 ---

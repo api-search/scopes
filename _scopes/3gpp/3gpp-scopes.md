@@ -1269,6 +1269,7 @@ tags:
 - OSS
 - Network Functions
 - 6G
+token_bound: false
 token_urls:
 - '{tokenUrl}'
 - '{nrfApiRoot}/oauth2/token'

@@ -132,6 +132,7 @@ tags:
 - GraphQL
 - Authentication
 - Nordic
+token_bound: false
 token_urls:
 - https://thewall.tibber.com/connect/token
 ---

@@ -403,6 +403,7 @@ tags:
 - Latin America
 - Fintech
 - Digital Banking
+token_bound: false
 token_urls:
 - https://sandbox-api.novopayment.com/oauth2/token
 ---

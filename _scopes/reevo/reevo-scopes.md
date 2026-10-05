@@ -166,6 +166,7 @@ tags:
 - MCP
 - Sales Engagement
 - A2A
+token_bound: false
 token_urls:
 - https://mcp.reevo.ai/token
 ---

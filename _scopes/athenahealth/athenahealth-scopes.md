@@ -368,6 +368,7 @@ tags:
 - Care Coordination
 - Interoperability
 - HL7
+token_bound: false
 token_urls:
 - https://api.platform.athenahealth.com/oauth2/v1/token
 ---

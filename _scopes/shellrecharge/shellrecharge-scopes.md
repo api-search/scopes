@@ -56,6 +56,7 @@ tags:
 - Charge Points
 - OCPI
 - Energy
+token_bound: false
 token_urls:
 - https://api.shell.com/v1/oauth/token
 ---

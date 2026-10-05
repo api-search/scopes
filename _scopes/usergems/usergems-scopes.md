@@ -86,6 +86,7 @@ tags:
 - Go-To-Market
 - MCP
 - AI Agents
+token_bound: false
 token_urls:
 - https://app.usergems.com/mcp/oauth/token
 ---

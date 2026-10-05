@@ -655,6 +655,7 @@ tags:
 - Fax
 - Telecommunications
 - Real-Time
+token_bound: false
 token_urls:
 - https://platform.ringcentral.com/restapi/oauth/token
 ---

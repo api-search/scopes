@@ -57,6 +57,7 @@ tags:
 - Facilities Management
 - Sensors
 - Building Management System
+token_bound: false
 token_urls:
 - https://api.75f.io/oauth/token
 ---

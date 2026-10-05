@@ -198,6 +198,7 @@ tags:
 - Integration
 - iPaaS
 - Process Automation
+token_bound: false
 token_urls:
 - https://{idcs-url}/oauth2/v1/token
 ---

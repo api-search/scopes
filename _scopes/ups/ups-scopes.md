@@ -89,6 +89,7 @@ tags:
 - Shipping
 - Fortune 500
 - Supply Chain
+token_bound: false
 token_urls:
 - https://onlinetools.ups.com/api/security/v1/oauth/token
 ---

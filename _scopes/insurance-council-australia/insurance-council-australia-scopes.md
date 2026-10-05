@@ -59,6 +59,7 @@ tags:
 - Catastrophe
 - Risk Data
 - Code of Practice
+token_bound: false
 token_urls:
 - https://icab2cprod.b2clogin.com/04c7fa07-b168-495f-9dcc-bcfceb1a274e/b2c_1_signin/oauth2/v2.0/token
 ---

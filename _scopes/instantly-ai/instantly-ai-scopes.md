@@ -980,6 +980,7 @@ tags:
 - Email Verification
 - Webhook
 - A2A
+token_bound: false
 token_urls:
 - https://api.instantly.ai/oauth/token
 ---

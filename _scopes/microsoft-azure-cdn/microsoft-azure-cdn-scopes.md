@@ -165,5 +165,6 @@ tags:
 - Azure
 - Content Delivery
 - Web Application Firewall
+token_bound: false
 token_urls: []
 ---

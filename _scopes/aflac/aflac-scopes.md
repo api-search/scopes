@@ -134,6 +134,7 @@ tags:
 - Enrollment
 - Policy Administration
 - Enterprise Integration
+token_bound: false
 token_urls:
 - https://auth.enterprise-connect.aflac.com/oauth/token
 ---

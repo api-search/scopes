@@ -62,6 +62,7 @@ tags:
 - Drug Development
 - Content
 - WordPress
+token_bound: false
 token_urls:
 - https://endeavorbiomedicines.com/oauth/token
 ---

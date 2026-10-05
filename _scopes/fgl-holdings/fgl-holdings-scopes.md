@@ -9,16 +9,72 @@ method: probed
 name: Fgl Holdings Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'FGL Holdings uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'FGL Holdings publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the FGL Holdings API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: FGL Holdings
 provider_slug: fgl-holdings
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- offline_access
+- name
+- given_name
+- family_name
+- nickname
+- picture
+- email_verified
+- created_at
+- identities
+scopes:
+- description: Required to obtain an ID token; signals an OpenID Connect authentication request.
+  flows: []
+  scope: openid
+- description: Requests the default profile claims (name, family_name, given_name, nickname, picture, updated_at).
+  flows: []
+  scope: profile
+- description: Requests the email and email_verified claims.
+  flows: []
+  scope: email
+- description: Requests the address claim.
+  flows: []
+  scope: address
+- description: Requests the phone_number and phone_number_verified claims.
+  flows: []
+  scope: phone
+- description: Requests a refresh token so the portal session can be renewed without re-prompting.
+  flows: []
+  scope: offline_access
+- description: Individual profile claim scope exposed by the Auth0 tenant.
+  flows: []
+  scope: name
+- description: Individual profile claim scope exposed by the Auth0 tenant.
+  flows: []
+  scope: given_name
+- description: Individual profile claim scope exposed by the Auth0 tenant.
+  flows: []
+  scope: family_name
+- description: Individual profile claim scope exposed by the Auth0 tenant.
+  flows: []
+  scope: nickname
+- description: Individual profile claim scope exposed by the Auth0 tenant.
+  flows: []
+  scope: picture
+- description: Individual profile claim scope exposed by the Auth0 tenant.
+  flows: []
+  scope: email_verified
+- description: Individual profile claim scope exposed by the Auth0 tenant.
+  flows: []
+  scope: created_at
+- description: Individual profile claim scope exposed by the Auth0 tenant (linked identity providers).
+  flows: []
+  scope: identities
 slug: fgl-holdings-scopes
 source_filename: fgl-holdings-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +83,7 @@ source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: https://auth.fgli
   observed_request:\n  source: https://saleslink.fglife.com/ (HTTP 302 Location)\n  scope: offline_access openid profile email\nscopes:\n  - name: openid\n    description: Required to obtain an ID token; signals an OpenID Connect authentication request.\n    standard: OIDC Core 1.0\n  - name: profile\n    description: Requests the default profile claims (name, family_name, given_name, nickname, picture, updated_at).\n    standard: OIDC Core 1.0\n  - name: email\n    description: Requests the email and email_verified claims.\n    standard: OIDC Core 1.0\n  - name: address\n    description: Requests the address claim.\n    standard: OIDC Core 1.0\n  - name: phone\n    description: Requests the phone_number and phone_number_verified claims.\n    standard: OIDC Core 1.0\n  - name: offline_access\n    description: Requests a refresh token so the portal session can be renewed without re-prompting.\n    standard: OIDC Core 1.0\n  - name: name\n    description: Individual profile claim scope exposed\
   \ by the Auth0 tenant.\n  - name: given_name\n    description: Individual profile claim scope exposed by the Auth0 tenant.\n  - name: family_name\n    description: Individual profile claim scope exposed by the Auth0 tenant.\n  - name: nickname\n    description: Individual profile claim scope exposed by the Auth0 tenant.\n  - name: picture\n    description: Individual profile claim scope exposed by the Auth0 tenant.\n  - name: email_verified\n    description: Individual profile claim scope exposed by the Auth0 tenant.\n  - name: created_at\n    description: Individual profile claim scope exposed by the Auth0 tenant.\n  - name: identities\n    description: Individual profile claim scope exposed by the Auth0 tenant (linked identity providers).\nscope_count: 14\nresource_scopes_published: false\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fgl-holdings/refs/heads/main/scopes/fgl-holdings-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Insurance
 - Annuities
@@ -35,5 +91,6 @@ tags:
 - Life Insurance
 - Retirement
 - Pension-Risk-Transfer
+token_bound: false
 token_urls: []
 ---

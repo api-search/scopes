@@ -111,6 +111,7 @@ tags:
 - Fintech
 - Ethical Finance
 - Banking as a Service
+token_bound: false
 token_urls:
 - https://secure.tell.systems/algbra/auth/oidc/token
 ---

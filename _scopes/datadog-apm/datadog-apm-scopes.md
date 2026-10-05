@@ -647,6 +647,7 @@ tags:
 - Service Catalog
 - OpenTelemetry
 - MCP
+token_bound: false
 token_urls:
 - /oauth2/v1/token
 ---

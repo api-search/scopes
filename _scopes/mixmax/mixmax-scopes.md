@@ -46,16 +46,28 @@ method: probed
 name: Mixmax Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Mixmax uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Mixmax publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Mixmax API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Mixmax
 provider_slug: mixmax
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- openid
+- offline_access
+- meetings:read
+scopes:
+- description: Request an ID token identifying the signed-in Mixmax user.
+  flows: []
+  scope: openid
+- description: Issue a refresh token so the client can keep calling after the access token expires — this is how an MCP client stays connected between sessions.
+  flows: []
+  scope: offline_access
+- description: Read-only access to the authenticated user's Mixmax Meeting Intelligence data — meeting summaries, transcripts, participant lists and action items. This is the only Mixmax-specific scope the authorization server advertises, and it is the only scope the MCP protected-resource metadata requires.
+  flows: []
+  scope: meetings:read
 slug: mixmax-scopes
 source_filename: mixmax-scopes.yml
 source_heading: OAuth Scopes
@@ -65,7 +77,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://app.mixma
   \ https://mcp.mixmax.com\n  access: read\n  description: >-\n    Read-only access to the authenticated user's Mixmax Meeting Intelligence data — meeting\n    summaries, transcripts, participant lists and action items. This is the only Mixmax-specific\n    scope the authorization server advertises, and it is the only scope the MCP protected-resource\n    metadata requires.\n  source: https://mcp.mixmax.com/.well-known/oauth-protected-resource\n\nobservations:\n- >-\n    The scope catalog is deliberately narrow: one product scope, read-only. Mixmax states in its\n    own docs that write actions (sequence enrollment, email sending, template management) are on\n    the roadmap, so no write scope exists yet.\n- >-\n    The MCP server also surfaces sequence data (list_sequences, get_sequence, get_sequence_insights,\n    find_contact_in_sequences), but no `sequences:read` scope is advertised. Either sequence access\n    rides on meetings:read or it is authorized outside the published scope model\
   \ — Mixmax does not\n    document which, and we did not guess.\n- >-\n    token_endpoint_auth_methods_supported on the MCP-facing metadata is [\"none\"], i.e. public\n    clients with PKCE. Combined with the open registration_endpoint this is the standard\n    MCP-client onboarding shape.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/scopes/mixmax-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes
 tags:
 - Company
 - Software-as-a-Service
@@ -80,5 +92,6 @@ tags:
 - Productivity
 - Meetings
 - Sequences
+token_bound: false
 token_urls: []
 ---

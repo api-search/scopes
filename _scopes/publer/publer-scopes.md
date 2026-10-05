@@ -58,16 +58,36 @@ method: searched
 name: Publer Scopes
 name_suffix: OAuth Scopes
 note: 'THESE ARE NOT OAUTH 2.0 SCOPES. Publer runs no OAuth 2.0 authorization server and issues no access tokens — there is no authorization endpoint, no token endpoint, and no /.well-known/oauth-authorization-server (probed 2026-08-13: publer.com returns the Framer SPA shell, app.publer.com returns 410). What Publer publishes is a real, user-selected PERMISSION SCOPE model bound to a long-lived API key: the user picks scopes when the key is created in Settings -> API & Webhooks, and the same scope set governs both REST and MCP access. Recorded here because it is the provider''s published permission reference.'
-overview: 'Publer uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Publer publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Publer API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Publer
 provider_slug: publer
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- workspaces
+- accounts
+- posts
+- media
+- analytics
+scopes:
+- description: Retrieve the user's workspaces.
+  flows: []
+  scope: workspaces
+- description: Retrieve the user's connected social accounts for the selected workspace.
+  flows: []
+  scope: accounts
+- description: Manage the user's posts — list, schedule, publish, update and delete.
+  flows: []
+  scope: posts
+- description: Upload and list media assets in the workspace library.
+  flows: []
+  scope: media
+- description: Read analytics — charts, chart data, post insights, hashtag analysis, best times to post, member activity and competitor analysis.
+  flows: []
+  scope: analytics
 slug: publer-scopes
 source_filename: publer-scopes.yml
 source_heading: OAuth Scopes
@@ -78,7 +98,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://publer.co
   \   in Publer's scope model.\n- name: media\n  description: Upload and list media assets in the workspace library.\n  required: false\n  example_endpoints:\n  - GET /media\n  - POST /media\n  - POST /media/from-url\n  operations:\n  - listMedia\n  - uploadAMediaFileDirectly\n  - uploadMediaFromURL\n  consequence: write\n- name: analytics\n  description: >-\n    Read analytics — charts, chart data, post insights, hashtag analysis, best\n    times to post, member activity and competitor analysis.\n  required: false\n  example_endpoints:\n  - GET /analytics/charts\n  - GET /analytics/chart_data\n  - GET /analytics/{account_id}/post_insights\n  - GET /analytics/{account_id}/best_times\n  - GET /analytics/{account_id}/hashtag_insights\n  - GET /analytics/members\n  - GET /competitors/{account_id}\n  operations:\n  - getAvailableAnalyticsCharts\n  - getAnalyticsChartData\n  - getPostInsights\n  - getBestTimesToPostForAccount\n  - getHashtagInsights\n  - getHashtagPerformingPosts\n  - getAnalyticsMembersData\n\
   \  - listCompetitors\n  - getCompetitorsAnalytics\n  consequence: read\n  note: >-\n    Named in the help center and MCP setup articles (\"select any additional\n    scopes ... such as Posts, Media, or Analytics\") but MISSING from the scope\n    table in the developer docs, which lists only workspaces, accounts, posts\n    and media. The analytics endpoints additionally return 403 \"requires\n    analytics access or paying subscription\", so scope alone is not sufficient.\n\ngaps:\n- The docs scope table omits `analytics`, which the help center documents.\n- No read-only variant of `posts` or `media`; read and write share one scope.\n- No scope is declared in the OpenAPI security requirements — the spec declares\n  only the apiKey scheme, so scope requirements are not machine-readable\n  per-operation. The operation mappings above are ours, derived from the docs.\n\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/scopes/publer-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes
 tags:
 - Social Media
 - Scheduling
@@ -90,5 +110,6 @@ tags:
 - Agents
 - MCP
 - Automation
+token_bound: false
 token_urls: []
 ---

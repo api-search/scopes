@@ -85,6 +85,7 @@ tags:
 - Real-Time Data
 - Analytics
 - GraphQL
+token_bound: false
 token_urls:
 - https://tempus-ex.okta.com/oauth2/v1/token
 ---

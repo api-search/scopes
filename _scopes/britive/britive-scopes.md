@@ -478,16 +478,28 @@ method: probed
 name: Britive Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Britive uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Britive publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Britive API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Britive
 provider_slug: britive
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- read
+- write
+- profile
+scopes:
+- description: Read access. Britive publishes no per-resource breakdown of what `read` grants.
+  flows: []
+  scope: read
+- description: Write access. Britive publishes no per-resource breakdown of what `write` grants.
+  flows: []
+  scope: write
+- description: Access to the authenticated subject's profile claims.
+  flows: []
+  scope: profile
 slug: britive-scopes
 source_filename: britive-scopes.yml
 source_heading: OAuth Scopes
@@ -497,7 +509,7 @@ source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: https://demo.brit
   \ Britive publishes no per-resource breakdown of what `write` grants.\n  source: openid-configuration scopes_supported\n- name: profile\n  description: Access to the authenticated subject's profile claims.\n  source: openid-configuration scopes_supported\nclaims_supported: [sub, aud, iss, exp, iat, scope]\ngaps:\n- >-\n  No scope is bound to any of the 443 published REST operations. `security: [{bearerAuth: []}]`\n  is declared globally and never refined per operation, so a client cannot compute least\n  privilege from the contract.\n- >-\n  The three scopes (read/write/profile) are coarse for a privileged-access product whose own\n  value proposition is least privilege — there is no scope granularity matching the platform's\n  own resource model (profiles, secrets, policies, identities, audit).\n- >-\n  id_token_signing_alg_values_supported is advertised as [\"S256\"]. S256 is a PKCE code-challenge\n  method, not a JWS signing algorithm (JWA names are RS256, ES256, etc.). This value is\
   \ not a\n  valid `id_token_signing_alg_values_supported` entry under OpenID Connect Discovery 1.0.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/scopes/britive-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes
 tags:
 - Company
 - Privileged Access Management
@@ -510,5 +522,6 @@ tags:
 - AI Agents
 - Cybersecurity
 - Identity Federation
+token_bound: false
 token_urls: []
 ---

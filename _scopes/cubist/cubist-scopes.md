@@ -784,5 +784,6 @@ tags:
 - Blockchain
 - Web3
 - Custody
+token_bound: false
 token_urls: []
 ---

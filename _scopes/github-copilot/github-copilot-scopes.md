@@ -115,6 +115,7 @@ tags:
 - MCP
 - Metrics
 - Productivity
+token_bound: false
 token_urls:
 - https://github.com/login/oauth/access_token
 ---

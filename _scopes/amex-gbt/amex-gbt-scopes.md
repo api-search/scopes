@@ -269,6 +269,7 @@ tags:
 - Expenses
 - Duty of Care
 - Reporting
+token_bound: false
 token_urls:
 - https://apis.egencia.com/auth/v1/token
 ---

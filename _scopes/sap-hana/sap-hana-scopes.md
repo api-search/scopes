@@ -74,6 +74,7 @@ tags:
 - Database
 - Enterprise
 - In-Memory
+token_bound: false
 token_urls:
 - https://{subdomain}.authentication.{region}.hana.ondemand.com/oauth/token
 ---

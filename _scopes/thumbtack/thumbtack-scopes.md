@@ -204,6 +204,7 @@ tags:
 - Home Services
 - Leads
 - Partner API
+token_bound: false
 token_urls:
 - https://api.thumbtack.com/v4/oauth/token
 - https://pro-api.thumbtack.com/v2/tokens/access

@@ -257,6 +257,7 @@ tags:
 - Natural Language Processing
 - Open Source
 - Transformers
+token_bound: false
 token_urls:
 - https://huggingface.co/oauth/token
 ---

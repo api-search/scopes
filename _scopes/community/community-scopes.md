@@ -66,6 +66,7 @@ tags:
 - Creators
 - Webhook
 - Company
+token_bound: false
 token_urls:
 - /oauth/v1/token
 ---

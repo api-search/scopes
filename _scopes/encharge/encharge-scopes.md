@@ -173,6 +173,7 @@ tags:
 - Customer Engagement
 - Customer Data
 - Webhook
+token_bound: false
 token_urls:
 - https://api.encharge.io/v1/oauth/token
 ---

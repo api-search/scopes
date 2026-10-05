@@ -70,6 +70,7 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - Manufacturing
+token_bound: false
 token_urls:
 - https://account.3neyecare.com/authentication/oauth/token
 ---

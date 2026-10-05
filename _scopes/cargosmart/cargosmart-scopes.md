@@ -89,7 +89,6 @@ summary_line: 4 scopes · clientCredentials
 tags:
 - Booking
 - Containers
-- Documentation
 - GSBN
 - IQAX
 - Logistics
@@ -101,6 +100,7 @@ tags:
 - Tracking
 - Visibility
 - Vessel
+token_bound: false
 token_urls:
 - https://auth.cargosmart.com/oauth/token
 ---

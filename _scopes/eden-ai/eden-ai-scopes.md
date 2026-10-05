@@ -472,16 +472,32 @@ method: searched
 name: Eden Ai Scopes
 name_suffix: OAuth Scopes
 note: These are NOT OAuth 2.0 scopes — Eden AI publishes no oauth2 securityScheme and serves no authorization-server metadata. They are explicit scopes carried by a management key (mgmt-eden-...) and checked per management endpoint, documented by Eden AI in the Management API reference and repeated in the operation descriptions of openapi/_original/eden-ai-organization-management-openapi.json. Recorded here because the scope surface is real and machine-relevant even though the grant mechanism is key issuance rather than an authorization flow.
-overview: 'Eden AI uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Eden AI publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Eden AI API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Eden AI
 provider_slug: eden-ai
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- manage:mint
+- manage:read
+- manage:write
+- (none)
+scopes:
+- description: Mint and revoke management (worker) keys. Held by an ISSUER key, which can do nothing else — it cannot read, write, or call inference, and it can never mint another issuer key.
+  flows: []
+  scope: manage:mint
+- description: Read the organization — inference keys, members, IdP-synced groups, usage, and key introspection. Org-scoped.
+  flows: []
+  scope: manage:read
+- description: Mint, update, rotate and revoke inference keys (sk-eden-...) and set member RBAC roles. This is the scope that can create a credential which spends money.
+  flows: []
+  scope: manage:write
+- description: GET /v3/manage/whoami requires only a valid management key with no scope at all — enough to prove the auth path end to end without granting any read.
+  flows: []
+  scope: (none)
 slug: eden-ai-scopes
 source_filename: eden-ai-scopes.yml
 source_heading: OAuth Scopes
@@ -491,7 +507,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://www.ede
   \ operationId: manage_groups_retrieve}\n      - {method: GET, path: /v3/manage/usage, operationId: manage_usage_retrieve}\n  - name: manage:write\n    description: >-\n      Mint, update, rotate and revoke inference keys (sk-eden-...) and set member RBAC roles.\n      This is the scope that can create a credential which spends money.\n    operations:\n      - {method: POST, path: /v3/manage/keys, operationId: manage_keys_create}\n      - {method: PATCH, path: '/v3/manage/keys/{key_id}', operationId: manage_keys_partial_update}\n      - {method: DELETE, path: '/v3/manage/keys/{key_id}', operationId: manage_keys_destroy}\n      - {method: POST, path: '/v3/manage/keys/{key_id}/rotate', operationId: manage_keys_rotate_create}\n      - {method: PATCH, path: '/v3/manage/members/{email}/role', operationId: manage_members_role_partial_update}\n  - name: (none)\n    description: >-\n      GET /v3/manage/whoami requires only a valid management key with no scope at all — enough to\n      prove the\
   \ auth path end to end without granting any read.\n    operations:\n      - {method: GET, path: /v3/manage/whoami, operationId: manage_whoami_retrieve}\ninference_surface:\n  scoped: false\n  note: >-\n    The inference surface (v3 chat/completions, universal-ai, embeddings, images, audio, upload) has\n    NO scope model. An inference key is all-or-nothing on inference; spend is bounded by per-key\n    budget (balance / balance_reset_period / balance_reset_amount), expiry, and guardrails rather\n    than by scopes.\n  docs: https://www.edenai.co/docs/v3/organization/guardrails\nscope_count: 4\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eden-ai/refs/heads/main/scopes/eden-ai-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Artificial Intelligence
 - AI Gateway
@@ -503,5 +519,6 @@ tags:
 - Computer Vision
 - MCP
 - Emotion Detection
+token_bound: false
 token_urls: []
 ---

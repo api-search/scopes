@@ -56,6 +56,7 @@ tags:
 - AI Agents
 - MCP
 - ETL
+token_bound: false
 token_urls:
 - https://api.definite.app/oauth/token
 ---

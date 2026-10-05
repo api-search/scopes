@@ -112,6 +112,7 @@ tags:
 - Account Information
 - Confirmation of Funds
 - FAPI
+token_bound: false
 token_urls:
 - https://secureapi.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/oidcapi/oauth2/token
 ---

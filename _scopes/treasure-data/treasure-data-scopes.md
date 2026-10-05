@@ -466,6 +466,7 @@ tags:
 - Artificial Intelligence
 - Marketing
 - Analytics
+token_bound: false
 token_urls:
 - https://console.us01.treasuredata.com/oauth/token
 ---

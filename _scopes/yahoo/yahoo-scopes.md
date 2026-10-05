@@ -16,16 +16,32 @@ method: searched
 name: Yahoo Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Yahoo uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Yahoo publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Yahoo API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Yahoo
 provider_slug: yahoo
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- openid2
+- profile
+- email
+scopes:
+- description: Requests an OpenID Connect ID token identifying the signed-in Yahoo user.
+  flows: []
+  scope: openid
+- description: Yahoo's legacy OpenID 2.0 compatibility scope, returned alongside openid for callers migrating from the retired OpenID 2.0 endpoints.
+  flows: []
+  scope: openid2
+- description: Basic profile claims - name, given_name, family_name, birthdate, locale.
+  flows: []
+  scope: profile
+- description: The user's email address and its verification state (email, email_verified).
+  flows: []
+  scope: email
 slug: yahoo-scopes
 source_filename: yahoo-scopes.yml
 source_heading: OAuth Scopes
@@ -34,7 +50,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   discovery: https://api.login.yahoo.com/.well-known/openid-configuration\nscopes:\n  - name: openid\n    description: Requests an OpenID Connect ID token identifying the signed-in Yahoo user.\n    source: discovery scopes_supported\n  - name: openid2\n    description: >-\n      Yahoo's legacy OpenID 2.0 compatibility scope, returned alongside openid for callers\n      migrating from the retired OpenID 2.0 endpoints.\n    source: discovery scopes_supported\n  - name: profile\n    description: >-\n      Basic profile claims - name, given_name, family_name, birthdate, locale.\n    source: discovery scopes_supported\n  - name: email\n    description: The user's email address and its verification state (email, email_verified).\n    source: discovery scopes_supported\nscope_count: 4\nnot_scope_based:\n  - api: Yahoo DSP Traffic API\n    reason: >-\n      Two-legged client_credentials with a JWT client assertion; access is bounded by the seat and\n      user role assigned in the DSP UI, not by\
   \ OAuth scope strings.\n  - api: Yahoo DSP Reporting API\n    reason: Same client_credentials model as the Traffic API; no scope parameter is documented.\n  - api: Yahoo Ad Tech DataX API\n    reason: >-\n      Access is provisioned per partner during onboarding via an exchanged RSA public key; no\n      scopes are published.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/scopes/yahoo-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Advertising
 - Programmatic Advertising
@@ -48,5 +64,6 @@ tags:
 - Media
 - Reporting
 - Conversion Tracking
+token_bound: false
 token_urls: []
 ---

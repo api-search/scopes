@@ -598,6 +598,7 @@ tags:
 - Agent-Native
 - Ontario
 - Canada
+token_bound: false
 token_urls:
 - https://piknik.spot/api/oauth/token
 ---

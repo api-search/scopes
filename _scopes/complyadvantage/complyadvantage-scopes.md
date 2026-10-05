@@ -202,5 +202,6 @@ tags:
 - Transaction Monitoring
 - Financial Crime
 - RegTech
+token_bound: false
 token_urls: []
 ---

@@ -98,6 +98,7 @@ tags:
 - OSS
 - Standards
 - Video Conferencing
+token_bound: false
 token_urls:
 - https://jiomeetpro.jio.com/api/oauth2/v2/token
 ---

@@ -30,7 +30,8 @@ api_specs:
   slug: snowsignals-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-user-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://snowsignals.io/oauth/authorize
 description: ''
 docs: ''
 flows: []
@@ -41,6 +42,9 @@ name: Snowsignals Scopes
 name_suffix: OAuth Scopes
 note: The REST OpenAPI declares only apiKey schemes (url / nonce methods), so OAuth scopes are not in the spec — the OAuth surface belongs to the MCP endpoint. One scope exists. Public client with PKCE S256, dynamic client registration open at /v1/oauth/register, token endpoint auth method `none`.
 overview: 'SnowSignals publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the SnowSignals API on a user''s behalf.
+
+
+  Tokens are issued from https://snowsignals.io/v1/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -75,5 +79,7 @@ tags:
 - Agent-Native
 - Financial Data
 - x402
-token_urls: []
+token_bound: false
+token_urls:
+- https://snowsignals.io/v1/oauth/token
 ---

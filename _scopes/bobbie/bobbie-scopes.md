@@ -74,6 +74,7 @@ tags:
 - Shopify
 - GraphQL
 - MCP
+token_bound: false
 token_urls:
 - https://account.hibobbie.com/authentication/oauth/token
 ---

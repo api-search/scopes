@@ -67,6 +67,7 @@ tags:
 - Direct to Consumer
 - Shopify
 - Agentic Commerce
+token_bound: false
 token_urls:
 - https://account.jolyn.com/authentication/oauth/token
 ---

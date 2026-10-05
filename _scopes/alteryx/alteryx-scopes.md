@@ -82,6 +82,7 @@ tags:
 - ETL
 - Machine Learning
 - Predictive Analytics
+token_bound: false
 token_urls:
 - https://{serverHostname}/webapi/oauth2/token
 ---

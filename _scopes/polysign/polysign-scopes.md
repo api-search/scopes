@@ -168,6 +168,7 @@ tags:
 - Fintech
 - Distributed Ledger
 - atomicnet
+token_bound: false
 token_urls:
 - /v1/auth/token
 ---

@@ -106,6 +106,7 @@ tags:
 - Employee Benefits
 - Workforce Management
 - Australia
+token_bound: false
 token_urls:
 - https://oauth.employmenthero.com/oauth2/token
 ---

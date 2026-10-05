@@ -1,5 +1,6 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://shopify.com/authentication/81803051309/oauth/authorize
 description: OAuth scopes published in the store's own OIDC discovery document (Shopify Customer Accounts, issuer https://shopify.com/authentication/81803051309, served from https://wrogn.com/.well-known/openid-configuration and mirrored at /.well-known/oauth-authorization-server). scopes_supported captured verbatim; no additional scope reference is published by the brand itself.
 docs: ''
 flows: []
@@ -10,6 +11,9 @@ name: Uspl Wrogn Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'USPL Wrogn publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the USPL Wrogn API on a user''s behalf.
+
+
+  Tokens are issued from https://shopify.com/authentication/81803051309/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -53,5 +57,7 @@ tags:
 - India
 - Agentic Commerce
 - MCP
-token_urls: []
+token_bound: false
+token_urls:
+- https://shopify.com/authentication/81803051309/oauth/token
 ---

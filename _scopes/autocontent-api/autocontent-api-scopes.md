@@ -190,16 +190,48 @@ method: probed
 name: Autocontent Api Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'AutoContent API uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'AutoContent API publishes 8 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AutoContent API API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: AutoContent API
 provider_slug: autocontent-api
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 8
+scope_names:
+- platform.read
+- platform.write
+- platform.generate
+- platform.billing.read
+- platform.billing.write
+- platform.keys.write
+- content.create
+- content.status
+scopes:
+- description: Read Projects, Collections, Sources, Assets, Generations, Content Loops, Content Loop Runs and the account record, plus the Asset Type / Model / Voice / Avatar discovery endpoints.
+  flows: []
+  scope: platform.read
+- description: Create and mutate Projects, Collections, Sources, logos, Asset feedback, Content Loop Run feedback and webhook destinations.
+  flows: []
+  scope: platform.write
+- description: Spend money. Preview and create Generations and full-Asset edits, cancel Generations, run Content Loops, and create or revoke custom Voices and Avatars.
+  flows: []
+  scope: platform.generate
+- description: Read authoritative usage and prepaid service balance.
+  flows: []
+  scope: platform.billing.read
+- description: Create a prepaid Checkout session to add USD service balance. The docs call this the OAuth-only prepayment endpoint.
+  flows: []
+  scope: platform.billing.write
+- description: Mint, list and revoke scoped Platform API keys.
+  flows: []
+  scope: platform.keys.write
+- description: Create content through the legacy AutoContent MCP resource.
+  flows: []
+  scope: content.create
+- description: Read the status of legacy content requests.
+  flows: []
+  scope: content.status
 slug: autocontent-api-scopes
 source_filename: autocontent-api-scopes.yml
 source_heading: OAuth Scopes
@@ -210,7 +242,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: >-\n  scopes_supp
   \ API v1\n  description: >-\n    Create a prepaid Checkout session to add USD service balance. The docs call this the OAuth-only\n    prepayment endpoint.\n  examples:\n  - createPrepaymentSession\n  note: >-\n    NOT requested by the Platform MCP — the MCP WWW-Authenticate challenge asks only for\n    platform.read, platform.write, platform.generate and platform.billing.read, so an MCP client\n    cannot move money into the account.\n- name: platform.keys.write\n  product: Platform API v1\n  description: Mint, list and revoke scoped Platform API keys.\n  examples:\n  - createApiKey\n  - listApiKeys\n  - revokeApiKey\n  note: >-\n    Credential minting. Also outside the Platform MCP's requested scope set. listApiKeys requires\n    the write scope, so there is no read-only view of an account's keys.\n- name: content.create\n  product: Legacy AutoContent MCP\n  description: Create content through the legacy AutoContent MCP resource.\n  resource: https://mcp.autocontentapi.com/mcp\n- name:\
   \ content.status\n  product: Legacy AutoContent MCP\n  description: Read the status of legacy content requests.\n  resource: https://mcp.autocontentapi.com/mcp\nmcp_scope_sets:\n- endpoint: https://mcp.autocontentapi.com/v1\n  scopes: [platform.read, platform.write, platform.generate, platform.billing.read]\n  evidence: WWW-Authenticate header on an anonymous POST, 2026-09-04.\n- endpoint: https://mcp.autocontentapi.com/mcp\n  scopes: [content.create, content.status]\n  evidence: https://mcp.autocontentapi.com/.well-known/oauth-protected-resource\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/scopes/autocontent-api-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 8 scopes
 tags:
 - Artificial Intelligence
 - Audio
@@ -220,5 +252,6 @@ tags:
 - Generative AI
 - Text-to-Speech
 - Automation
+token_bound: false
 token_urls: []
 ---

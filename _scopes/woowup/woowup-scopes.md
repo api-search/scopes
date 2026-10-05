@@ -96,6 +96,7 @@ tags:
 - E-Commerce
 - Push Notifications
 - Loyalty & Incentives
+token_bound: false
 token_urls:
 - https://mcp.woowup.com/oauth/token
 ---

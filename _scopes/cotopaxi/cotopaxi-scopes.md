@@ -67,6 +67,7 @@ tags:
 - Retail
 - Shopify
 - MCP
+token_bound: false
 token_urls:
 - https://account.cotopaxi.com/authentication/oauth/token
 ---

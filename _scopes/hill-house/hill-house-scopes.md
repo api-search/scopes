@@ -69,6 +69,7 @@ tags:
 - Consumer Brand
 - Shopify
 - MCP
+token_bound: false
 token_urls:
 - https://account.hillhousehome.com/authentication/oauth/token
 ---

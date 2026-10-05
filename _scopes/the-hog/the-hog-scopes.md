@@ -58,16 +58,44 @@ method: probed
 name: The Hog Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'The Hog uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'The Hog publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the The Hog API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: The Hog
 provider_slug: the-hog
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 7
+scope_names:
+- openid
+- profile
+- email
+- public_metadata
+- private_metadata
+- offline_access
+- user:org:read
+scopes:
+- description: OpenID Connect base scope; requests an ID token for the signed-in user.
+  flows: []
+  scope: openid
+- description: Basic profile claims for the signed-in user (name).
+  flows: []
+  scope: profile
+- description: The signed-in user's email address claim.
+  flows: []
+  scope: email
+- description: Clerk public user metadata attached to the account.
+  flows: []
+  scope: public_metadata
+- description: Clerk private user metadata attached to the account.
+  flows: []
+  scope: private_metadata
+- description: Issues a refresh token so the MCP client can keep the connection alive without re-prompting the user.
+  flows: []
+  scope: offline_access
+- description: Read the organizations the user belongs to. This is the scope that lets the MCP connect flow present the organization picker -- The Hog bills and rate-limits per organization-and-user, so the selected org determines which balance the agent's calls are charged against.
+  flows: []
+  scope: user:org:read
 slug: the-hog-scopes
 source_filename: the-hog-scopes.yml
 source_heading: OAuth Scopes
@@ -78,7 +106,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.theho
   \ the user.\n  - name: user:org:read\n    kind: organization\n    description: >-\n      Read the organizations the user belongs to. This is the scope that lets the MCP\n      connect flow present the organization picker -- The Hog bills and rate-limits\n      per organization-and-user, so the selected org determines which balance the\n      agent's calls are charged against.\n\ngaps:\n  - >-\n    No resource scopes. Nothing in scopes_supported distinguishes read from write,\n    search from enrichment, or monitors from scrapers. An agent granted MCP access\n    holds the full published tool surface for the selected organization.\n  - >-\n    No scope model on the REST API. The OpenAPI declares only apiKey schemes, so REST\n    consumers get all-or-nothing credentials with no per-capability narrowing.\n  - >-\n    Spend, not scope, is the control. The published cost boundary is the customer-set\n    spend cap on the pricing page, not an authorization boundary.\n\nrefs:\n  authentication:\
   \ authentication/the-hog-authentication.yml\n  well_known: well-known/the-hog-well-known.yml\n  mcp: mcp/the-hog-mcp.yml\n  plans: plans/the-hog-plans-pricing.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/scopes/the-hog-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 7 scopes
 tags:
 - Company
 - GTM Intelligence
@@ -93,5 +121,6 @@ tags:
 - AI Agents
 - Y Combinator
 - A2A
+token_bound: false
 token_urls: []
 ---

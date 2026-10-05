@@ -128,6 +128,7 @@ tags:
 - Cloud Phone
 - CRM
 - Sales
+token_bound: false
 token_urls:
 - https://auth.aircall.io/oauth/token
 ---

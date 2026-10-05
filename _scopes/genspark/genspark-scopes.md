@@ -68,6 +68,7 @@ tags:
 - Search
 - Workspace
 - A2A
+token_bound: false
 token_urls:
 - https://www.genspark.ai/api/mcp/oauth/token
 ---

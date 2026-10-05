@@ -149,6 +149,7 @@ tags:
 - Security
 - Artificial Intelligence
 - E-Commerce
+token_bound: false
 token_urls:
 - https://api.demo-retail.urbanfox.io/v2/oauth/token
 ---

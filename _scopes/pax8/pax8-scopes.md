@@ -252,6 +252,7 @@ tags:
 - Quoting
 - Subscription
 - Webhook
+token_bound: false
 token_urls:
 - https://token-manager.pax8.com/oauth/token
 - https://api.pax8.com/v1/token

@@ -108,6 +108,7 @@ tags:
 - Time Series
 - Analytics
 - Electricity
+token_bound: false
 token_urls:
 - https://auth.verdigris.co/oauth/token
 ---

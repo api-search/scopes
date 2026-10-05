@@ -130,16 +130,20 @@ method: probed
 name: Loops Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Loops uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Loops publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Loops API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Loops
 provider_slug: loops
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp
+scopes:
+- description: Grants an MCP client access to the Loops MCP server at https://mcp.loops.so. Advertised in both the authorization-server and protected-resource metadata and returned in the WWW-Authenticate challenge on an unauthenticated request.
+  flows: []
+  scope: mcp
 slug: loops-scopes
 source_filename: loops-scopes.yml
 source_heading: OAuth Scopes
@@ -149,7 +153,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://app.loops
   \ can\n      run any operation in the Loops REST API for any team the signed-in user\n      can reach, which includes writes — creating and updating contacts,\n      sending events, and sending transactional email. Loops' own FAQ asks \"Can\n      the MCP server change data or send email?\" on its MCP page.\nscope_count: 1\ngranularity: single-scope\nobservations:\n  - >-\n    There is no read-only scope. Consenting to `mcp` is consenting to the full\n    write surface of every team the user belongs to; an agent cannot be granted\n    a narrower grant.\n  - >-\n    Public-client posture is correct for an MCP server —\n    `token_endpoint_auth_methods_supported: [\"none\"]` with PKCE S256 required —\n    but client identity comes from Client ID Metadata Documents or\n    pre-registration rather than RFC 7591 dynamic registration, so an arbitrary\n    new client cannot self-register.\n  - Refresh tokens and a revocation endpoint are both supported.\n  - >-\n    The REST API declares one\
   \ securityScheme (`apiKey`, http bearer) applied to\n    all 64 operations, with no scopes. See\n    authentication/loops-authentication.yml.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/scopes/loops-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Email
 - Email API
@@ -163,5 +167,6 @@ tags:
 - MCP
 - Agents
 - Campaigns
+token_bound: false
 token_urls: []
 ---

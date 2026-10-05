@@ -181,6 +181,7 @@ tags:
 - Corporate Cards
 - Fintech
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://accounts[.test].yokoy.ai/oauth2/token
 ---

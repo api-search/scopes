@@ -1217,9 +1217,9 @@ tags:
 - Dental
 - Da Vinci
 - Patient Access
-- Remittances
 - Attachments
 - Payer Directory
+token_bound: false
 token_urls:
 - /apip/auth/sntl/v1/token
 - /apip/auth/v2/token

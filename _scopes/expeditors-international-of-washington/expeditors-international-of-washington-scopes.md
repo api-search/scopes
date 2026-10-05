@@ -52,6 +52,7 @@ tags:
 - Customs Brokerage
 - Visibility
 - Freight
+token_bound: false
 token_urls:
 - https://api.expeditors.com/tracking/v2/oauth2/token
 ---

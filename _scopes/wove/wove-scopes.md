@@ -138,6 +138,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wove/refs/head
 summary_line: 9 scopes · clientCredentials
 tags:
 - Company
+token_bound: false
 token_urls:
 - https://api.wove.com/api/v1/external/auth/token
 ---

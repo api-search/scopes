@@ -68,7 +68,6 @@ tags:
 - Property and Casualty
 - Carrier
 - Mutual Insurer
-- Brokers
 - Commercial Lines
 - Personal Lines
 - Underwriting
@@ -76,6 +75,7 @@ tags:
 - Policy Administration
 - CSIO
 - Partner Gated
+token_bound: false
 token_urls:
 - https://login.brokerplatform.wawanesa.com/oauth2/v1/token
 - https://brokerplatform.wawanesa.com/services/oauth2/token

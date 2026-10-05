@@ -67,6 +67,7 @@ tags:
 - Agentic Commerce
 - Shopify
 - Germany
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/47328854173/oauth/token
 ---

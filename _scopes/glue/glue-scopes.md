@@ -75,5 +75,6 @@ tags:
 - MCP
 - Productivity
 - AI Agents
+token_bound: false
 token_urls: []
 ---

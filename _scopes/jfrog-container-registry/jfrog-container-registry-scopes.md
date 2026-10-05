@@ -9,16 +9,36 @@ method: searched
 name: Jfrog Container Registry Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'JFrog Container Registry uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'JFrog Container Registry publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the JFrog Container Registry API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: JFrog Container Registry
 provider_slug: jfrog-container-registry
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- applied-permissions/user
+- applied-permissions/admin
+- applied-permissions/groups:<group-name>[,<group-name>...]
+- applied-permissions/roles:<project-key>:<role>[,<role>...]
+- system:info/storage:r
+scopes:
+- description: The token carries exactly the permissions of the user it was created for. This is the default for a self-created identity token.
+  flows: []
+  scope: applied-permissions/user
+- description: Admin-level permissions across the platform. Only an Artifactory administrator can mint this. Used by companion services (Xray, Mission Control) that require admin access.
+  flows: []
+  scope: applied-permissions/admin
+- description: The token is granted the permissions of the named group(s).
+  flows: []
+  scope: applied-permissions/groups:<group-name>[,<group-name>...]
+- description: Project-scoped role grant. Documented example — scope=applied-permissions/roles:project-key:developer,qa
+  flows: []
+  scope: applied-permissions/roles:<project-key>:<role>[,<role>...]
+- description: Resource-style read scope. Named explicitly by the Get Storage Summary Info operation, which states it "Requires authentication using Access Tokens, either as admin or using a scoped token with the system:info/storage:r scope."
+  flows: []
+  scope: system:info/storage:r
 slug: jfrog-container-registry-scopes
 source_filename: jfrog-container-registry-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +48,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   \      scoped token with the system:info/storage:r scope.\"\n    evidence: https://docs.jfrog.com/artifactory/reference/getstoragesummaryinfo\ntoken_kinds:\n  - name: Identity token\n    description: A user-scoped token any user can create for themselves.\n    docs: https://docs.jfrog.com/user-management/docs/identity-tokens\n  - name: Reference token\n    description: >-\n      A short opaque token that can be used in place of a password for basic authentication by\n      clients that only support basic auth.\n  - name: Admin scoped token\n  - name: Project admin token\n  - name: Group scoped token\nnotes:\n  - >-\n    A token's scope is visible in the Access Tokens UI as a Scope column from Artifactory 7.46.3.\n  - >-\n    This is not an RFC 6749 delegated-authorization scope list — JFrog's scopes are permission\n    assertions minted into the token, not consented OAuth scopes on an authorization endpoint.\n    The OAuth flow JFrog does expose is the MCP server's client authorization;\
   \ its scope set is\n    not published and could not be introspected anonymously.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jfrog-container-registry/refs/heads/main/scopes/jfrog-container-registry-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes
 tags:
 - Container Images
 - Containers
@@ -36,5 +56,6 @@ tags:
 - Helm
 - JFrog
 - Registry
+token_bound: false
 token_urls: []
 ---

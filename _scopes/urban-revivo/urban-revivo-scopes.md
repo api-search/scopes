@@ -66,6 +66,7 @@ tags:
 - E-Commerce
 - Apparel
 - Agentic Commerce
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/50476449942/oauth/token
 ---

@@ -290,6 +290,7 @@ tags:
 - Open Data
 - FAPI
 - Fintech
+token_bound: false
 token_urls:
 - https://api.obapi.bankofireland.com/oauth/as/token.oauth2
 ---

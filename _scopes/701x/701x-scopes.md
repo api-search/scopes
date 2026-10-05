@@ -1314,6 +1314,7 @@ tags:
 - GPS Tracking
 - Traceability
 - Beef Production
+token_bound: false
 token_urls:
 - https://login.701x.com/connect/token
 ---

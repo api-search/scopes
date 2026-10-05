@@ -524,6 +524,7 @@ tags:
 - OTT
 - Player
 - Ad Insertion
+token_bound: false
 token_urls:
 - https://oauth.brightcove.com/v4/access_token
 ---

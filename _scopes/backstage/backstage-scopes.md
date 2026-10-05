@@ -148,16 +148,20 @@ method: probed
 name: Backstage Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Backstage uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Backstage publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Backstage API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Backstage
 provider_slug: backstage
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- openid
+scopes:
+- description: The only scope advertised in scopes_supported by both the authorization server metadata and the MCP Actions protected-resource metadata. It carries OIDC identity, not per-resource permission.
+  flows: []
+  scope: openid
 slug: backstage-scopes
 source_filename: backstage-scopes.yml
 source_heading: OAuth Scopes
@@ -165,7 +169,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: >-\n  https://demo.backstage.io/.well-known/oauth-authorization-server and\n  https://demo.backstage.io/.well-known/oauth-protected-resource/api/mcp-actions/v1 (both HTTP 200),\n  plus https://backstage.io/docs/ai/mcp-actions\nprovider: Backstage\nproviderId: backstage\ndocs: https://backstage.io/docs/ai/mcp-actions\ndescription: >-\n  Backstage's first-party plugin OpenAPIs declare a bearer `JWT` scheme with no oauth2 flows and no\n  scopes, so there is no scope surface on the REST APIs. A real OAuth scope surface does exist on\n  the MCP Actions endpoint: the protected-resource and authorization-server metadata documents\n  served by a running Backstage backend advertise a single scope. Authorization inside Backstage is\n  not scope-based — it is the Permissions framework, which evaluates named permissions\n  (e.g. catalog.entity.read) through a policy, and that is a different mechanism from OAuth scopes.\nauthorization_server:\n\
   \  issuer: https://demo.backstage.io/api/auth\n  observed_on: demo.backstage.io\n  grant_types_supported: [authorization_code]\n  code_challenge_methods_supported: [S256, plain]\n  dynamic_client_registration: true\n  client_id_metadata_document_supported: true\n  revocation_endpoint: https://demo.backstage.io/api/auth/v1/revoke\nscopes:\n  - name: openid\n    description: >-\n      The only scope advertised in scopes_supported by both the authorization server metadata and\n      the MCP Actions protected-resource metadata. It carries OIDC identity, not per-resource\n      permission.\n    source: /.well-known/oauth-authorization-server\nscope_count: 1\nauthorization_model_note: >-\n  Fine-grained access is enforced by the Backstage Permissions framework rather than OAuth scopes.\n  See https://backstage.io/docs/permissions/overview — permissions are named\n  (<plugin>.<resource>.<action>) and resolved by a policy that can attach conditional rules.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/scopes/backstage-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Developer Portal
 - Internal Developer Platform
@@ -176,5 +180,6 @@ tags:
 - CNCF
 - Cloud-Native
 - Incubating
+token_bound: false
 token_urls: []
 ---

@@ -152,6 +152,7 @@ tags:
 - Settlement
 - Broker-Dealer
 - Banking as a Service
+token_bound: false
 token_urls:
 - https://authentication-portal.sandbox-api.jikoservices.com/api/oauth2/token
 ---

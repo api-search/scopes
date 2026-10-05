@@ -136,6 +136,7 @@ tags:
 - Software-as-a-Service
 - MCP
 - Agent-Native
+token_bound: false
 token_urls:
 - https://oauth.clozd.com/token
 ---

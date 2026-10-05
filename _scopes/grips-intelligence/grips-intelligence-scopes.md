@@ -51,6 +51,7 @@ tags:
 - Product Intelligence
 - Retail
 - Data
+token_bound: false
 token_urls:
 - https://app.gripsintelligence.com/token
 ---

@@ -87,6 +87,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - E-Commerce
+token_bound: false
 token_urls:
 - https://api.zubale.com/oauth2/token
 ---

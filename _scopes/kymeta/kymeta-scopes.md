@@ -104,6 +104,7 @@ tags:
 - Maritime
 - Remote Monitoring
 - Hardware
+token_bound: false
 token_urls:
 - https://access.kymeta.io/connect/token
 ---

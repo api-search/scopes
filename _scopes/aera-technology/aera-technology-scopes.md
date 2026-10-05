@@ -52,6 +52,7 @@ tags:
 - Automation
 - Analytics
 - Agents
+token_bound: false
 token_urls:
 - https://www.aeratechnology.com/oauth/token
 ---

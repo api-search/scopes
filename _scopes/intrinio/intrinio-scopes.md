@@ -56,6 +56,7 @@ tags:
 - Fundamentals
 - ETFs
 - Real-Time Data
+token_bound: false
 token_urls:
 - https://intrinio-mcp.intrinio.com/token
 ---

@@ -75,6 +75,7 @@ tags:
 - Flexibility
 - DER
 - Renewables
+token_bound: false
 token_urls:
 - https://northernpowergrid.opendatasoft.com/oauth2/token/
 ---

@@ -115,6 +115,7 @@ tags:
 - FHIR
 - Health IT
 - Speech Recognition
+token_bound: false
 token_urls:
 - https://auth.ambiencehealthcare.com/oauth/token
 ---

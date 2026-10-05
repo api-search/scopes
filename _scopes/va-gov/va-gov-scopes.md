@@ -548,6 +548,7 @@ tags:
 - Health
 - Appeals
 - Federal Government
+token_bound: false
 token_urls:
 - https://api.va.gov/oauth2/appeals/v1/token
 - https://api.va.gov/oauth2/appeals/system/v1/token

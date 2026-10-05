@@ -92,6 +92,7 @@ tags:
 - AI Agents
 - MCP
 - Developer Tools
+token_bound: false
 token_urls:
 - https://api.superlog.sh/oauth/token
 ---

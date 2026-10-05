@@ -362,6 +362,7 @@ tags:
 - AI Review
 - Litigation
 - Compliance
+token_bound: false
 token_urls:
 - https://auth.relone.preview.com/oauth/token
 ---

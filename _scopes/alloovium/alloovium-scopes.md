@@ -100,6 +100,7 @@ tags:
 - Construction Technology
 - Documents
 - MCP
+token_bound: false
 token_urls:
 - https://api.alloovium.com/api/v2/oauth/token
 ---

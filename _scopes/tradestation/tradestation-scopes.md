@@ -99,6 +99,8 @@ tags:
 - Options
 - Stocks
 - Trading
+- Financial Services
+token_bound: false
 token_urls:
 - https://signin.tradestation.com/oauth/token
 ---

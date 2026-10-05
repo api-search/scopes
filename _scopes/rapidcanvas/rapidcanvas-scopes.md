@@ -70,6 +70,7 @@ tags:
 - AI Governance
 - Low-Code
 - Developer Tools
+token_bound: false
 token_urls:
 - https://app.rapidcanvas.ai/oauth/token
 ---

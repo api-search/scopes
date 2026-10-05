@@ -107,6 +107,7 @@ tags:
 - SBTi
 - PACT
 - Sustainability Intelligence
+token_bound: false
 token_urls:
 - https://app.altruistiq.com/api/public/v1/oauth2/token
 ---

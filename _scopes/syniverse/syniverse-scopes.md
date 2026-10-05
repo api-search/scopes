@@ -346,6 +346,7 @@ tags:
 - Open Gateway
 - Network APIs
 - Aggregator
+token_bound: false
 token_urls:
 - https://api.mt1.messaging-trust.syniverse.com/oauth2/token
 ---

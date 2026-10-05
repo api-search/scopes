@@ -114,6 +114,7 @@ tags:
 - Digital Signature
 - Adobe
 - Agreements
+token_bound: false
 token_urls:
 - https://secure.adobesign.com/oauth/v2/token
 ---

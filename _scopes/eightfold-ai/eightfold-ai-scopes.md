@@ -35,5 +35,6 @@ tags:
 - Human Resources
 - Workforce Planning
 - AI Agents
+token_bound: false
 token_urls: []
 ---

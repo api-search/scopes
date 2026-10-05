@@ -131,6 +131,7 @@ tags:
 - Microsoft 365
 - Office
 - Spreadsheets
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token
 ---

@@ -85,6 +85,7 @@ tags:
 - Package Registry
 - Machine Learning
 - Pharma
+token_bound: false
 token_urls:
 - https://auth.juliahub.com/dex/token
 ---

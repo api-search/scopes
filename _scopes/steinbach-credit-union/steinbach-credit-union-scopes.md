@@ -67,7 +67,7 @@ tags:
 - Cooperative
 - Manitoba
 - Interac
-- Data Aggregation
 - Open Banking
+token_bound: false
 token_urls: []
 ---

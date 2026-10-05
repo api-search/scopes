@@ -176,6 +176,7 @@ tags:
 - Peru
 - Uruguay
 - Fintech
+token_bound: false
 token_urls:
 - https://api.mercadopago.com/oauth/token
 ---

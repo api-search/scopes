@@ -58,16 +58,20 @@ method: searched
 name: Parallel Web Systems Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Parallel Web Systems uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Parallel Web Systems publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Parallel Web Systems API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Parallel Web Systems
 provider_slug: parallel-web-systems
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- key:read
+scopes:
+- description: Use a Parallel API key to access the API on the user's behalf. The access_token returned by the token endpoint IS the user's Parallel API key, which is then sent as the x-api-key header on data-plane calls.
+  flows: []
+  scope: key:read
 slug: parallel-web-systems-scopes
 source_filename: parallel-web-systems-scopes.yml
 source_heading: OAuth Scopes
@@ -77,7 +81,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://docs.pa
   \ MCP endpoint; anonymous\n    requests return 401. The default /mcp endpoint does not advertise OAuth.\n- name: Third-party applications\n  flow: authorization_code\n  detail: >-\n    Applications identify by hostname as client_id and users explicitly consent per\n    application, selecting or generating an API key at consent time.\ncaveats:\n- >-\n  The scope surface is deliberately minimal. OAuth here is a key-issuance / delegation\n  layer, not a per-resource permission model - there are no read/write or per-product\n  scopes. The data plane authorizes with a single opaque API key whose entitlements are\n  set by the account, not by the token.\n- >-\n  The OpenAPI declares only ApiKeyAuth (x-api-key) and no oauth2 securityScheme, so this\n  file could not be derived from the spec; it was searched from the OAuth Provider docs,\n  the RFC 8414 metadata, and the A2A agent card.\nnotes: >-\n  derive-oauth-scopes.py found no oauth2 securityScheme in the OpenAPI (0 providers with\n  oauth2),\
   \ so this artifact is entirely searched/probed from Parallel's own published\n  OAuth surface. No scopes were invented - scopes_supported carries exactly one value.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/scopes/parallel-web-systems-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Company
 - Ai Ml
@@ -91,5 +95,6 @@ tags:
 - Agent Skills
 - Content Extraction
 - Entity Resolution
+token_bound: false
 token_urls: []
 ---

@@ -142,6 +142,7 @@ tags:
 - Geocoding
 - Editing
 - OpenStreetMap
+token_bound: false
 token_urls:
 - https://www.openstreetmap.org/oauth2/token
 ---

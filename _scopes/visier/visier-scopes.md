@@ -417,6 +417,7 @@ tags:
 - Skills
 - Artificial Intelligence
 - MCP
+token_bound: false
 token_urls:
 - /v1/auth/oauth2/token
 ---

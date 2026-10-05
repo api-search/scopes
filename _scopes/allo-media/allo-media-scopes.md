@@ -173,6 +173,7 @@ tags:
 - Speech Analytics
 - Transcription
 - France
+token_bound: false
 token_urls:
 - https://id.uh.live/realms/uhlive/protocol/openid-connect/token
 ---

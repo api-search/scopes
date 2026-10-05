@@ -67,6 +67,7 @@ tags:
 - E-Commerce
 - Health
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/59458650296/oauth/token
 ---

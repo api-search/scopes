@@ -160,6 +160,7 @@ tags:
 - Air Traffic Control
 - Real-Time Data
 - Community
+token_bound: false
 token_urls:
 - /oauth/token
 ---

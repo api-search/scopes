@@ -246,7 +246,8 @@ api_specs:
   slug: checkly-clientcertificates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/openapi/checkly-clientcertificates-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://auth.checklyhq.com/authorize
 description: Checkly's OAuth scopes are published for its MCP surface, not its REST API. The REST Public API authenticates with a bearer API key plus an X-Checkly-Account header and declares no oauth2 securityScheme in its OpenAPI. The 14 scopes below are machine-readable at the protected-resource document and are repeated verbatim in the 401 challenge, so an MCP client can discover the full permission surface without credentials.
 docs: https://www.checklyhq.com/docs/ai/mcp-server/security-and-permissions
 flows: []
@@ -256,16 +257,75 @@ method: probed
 name: Checkly Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Checkly uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Checkly publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Checkly API on a user''s behalf.
+
+
+  Tokens are issued from https://auth.checklyhq.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Checkly
 provider_slug: checkly
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- checkly:account:read
+- checkly:account:invite
+- checkly:checks:read
+- checkly:checks:write
+- checkly:checks:run
+- checkly:incidents:read
+- checkly:incidents:write
+- checkly:environment-variables:read
+- checkly:environment-variables:write
+- checkly:status-pages:read
+- checkly:rca:read
+- checkly:rca:run
+- checkly:test-sessions:read
+- checkly:assets:read
+scopes:
+- description: Read account membership, plan and feature entitlement state.
+  flows: []
+  scope: checkly:account:read
+- description: Invite a user to the resolved account. Requires Owner or Admin role and sends email.
+  flows: []
+  scope: checkly:account:invite
+- description: Read checks, their current pass/fail/degraded status and their results.
+  flows: []
+  scope: checkly:checks:read
+- description: Modify checks.
+  flows: []
+  scope: checkly:checks:write
+- description: Trigger existing deployed checks on demand. Consumes check-run execution quota.
+  flows: []
+  scope: checkly:checks:run
+- description: Read status page incidents and their updates.
+  flows: []
+  scope: checkly:incidents:read
+- description: Create, update and resolve status page incidents, optionally notifying subscribers.
+  flows: []
+  scope: checkly:incidents:write
+- description: List and read account-level environment variables. Secret values are returned as null.
+  flows: []
+  scope: checkly:environment-variables:read
+- description: Create and update account-level variables and secrets.
+  flows: []
+  scope: checkly:environment-variables:write
+- description: Read status pages including their cards and services.
+  flows: []
+  scope: checkly:status-pages:read
+- description: Read Rocky AI root cause analyses and their error groups.
+  flows: []
+  scope: checkly:rca:read
+- description: Trigger a new root cause analysis. Consumes RCA invocation quota.
+  flows: []
+  scope: checkly:rca:run
+- description: Read test sessions and their result rows.
+  flows: []
+  scope: checkly:test-sessions:read
+- description: Read check-result and test-session-result asset manifests and asset contents.
+  flows: []
+  scope: checkly:assets:read
 slug: checkly-scopes
 source_filename: checkly-scopes.yml
 source_heading: OAuth Scopes
@@ -275,7 +335,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: >-\n  https://api
   \ checkly:incidents:write\n  description: Create, update and resolve status page incidents, optionally notifying subscribers.\n  access: write\n- name: checkly:environment-variables:read\n  description: List and read account-level environment variables. Secret values are returned as null.\n  access: read\n- name: checkly:environment-variables:write\n  description: Create and update account-level variables and secrets.\n  access: write\n- name: checkly:status-pages:read\n  description: Read status pages including their cards and services.\n  access: read\n- name: checkly:rca:read\n  description: Read Rocky AI root cause analyses and their error groups.\n  access: read\n- name: checkly:rca:run\n  description: Trigger a new root cause analysis. Consumes RCA invocation quota.\n  access: write\n- name: checkly:test-sessions:read\n  description: Read test sessions and their result rows.\n  access: read\n- name: checkly:assets:read\n  description: Read check-result and test-session-result asset\
   \ manifests and asset contents.\n  access: read\nscope_count: 14\ncounts:\n  read: 8\n  write: 6\nnotes:\n- >-\n  Scope granularity is resource:action, and the read/write split is clean - an agent can be granted\n  a strictly read-only Checkly session, which is the posture the MCP docs recommend for incident\n  investigation.\n- >-\n  Scopes alone do not grant a write: the docs state some write tools additionally require a matching\n  Checkly account role such as Owner, Admin or Read & Write.\n- >-\n  The REST Public API does not accept these scopes. It uses a bearer API key (user or service key)\n  with the account selected by the X-Checkly-Account header.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/scopes/checkly-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Monitoring
 - Testing
@@ -287,5 +347,7 @@ tags:
 - Monitoring as Code
 - Playwright
 - DevOps
-token_urls: []
+token_bound: false
+token_urls:
+- https://auth.checklyhq.com/oauth/token
 ---

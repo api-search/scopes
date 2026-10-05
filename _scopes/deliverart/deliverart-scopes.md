@@ -368,6 +368,7 @@ tags:
 - Delivery
 - Menu Management
 - Point-of-Sale
+token_bound: false
 token_urls:
 - https://auth.deliverart.it/oauth
 ---

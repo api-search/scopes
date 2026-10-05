@@ -147,6 +147,7 @@ tags:
 - Authentication
 - Catalog
 - Playlists
+token_bound: false
 token_urls:
 - https://connect.deezer.com/oauth/access_token.php
 ---

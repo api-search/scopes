@@ -334,6 +334,7 @@ tags:
 - Account Information
 - Open Data
 - FAPI
+token_bound: false
 token_urls:
 - https://authserver.example/token
 ---

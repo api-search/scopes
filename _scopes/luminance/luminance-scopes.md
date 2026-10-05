@@ -178,6 +178,7 @@ tags:
 - Legal Tech
 - Enterprise Software
 - Automation
+token_bound: false
 token_urls:
 - https://moniker.app.luminance.com/auth/oauth2/token
 ---

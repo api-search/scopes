@@ -74,6 +74,7 @@ tags:
 - Reference Data
 - Trading
 - Fortune 1000
+token_bound: false
 token_urls:
 - https://auth.cmegroup.com/as/token.oauth2
 - https://authnr.cmegroup.com/as/token.oauth2

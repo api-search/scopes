@@ -64,6 +64,7 @@ tags:
 - WordPress
 - Community
 - Merchandise
+token_bound: false
 token_urls:
 - https://cloud9.gg/oauth/token
 ---

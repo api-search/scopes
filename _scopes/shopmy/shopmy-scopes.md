@@ -110,6 +110,7 @@ tags:
 - Influencer Marketing
 - E-Commerce
 - Retail
+token_bound: false
 token_urls:
 - https://api.shopmy.us/v1/Partners/oauth-exchange-token
 ---

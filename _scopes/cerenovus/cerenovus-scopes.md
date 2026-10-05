@@ -94,6 +94,7 @@ tags:
 - Due Diligence
 - MCP
 - Y Combinator
+token_bound: false
 token_urls:
 - https://api.cerenovus.ai/token
 ---

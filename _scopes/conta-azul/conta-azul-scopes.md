@@ -118,6 +118,7 @@ tags:
 - Financial Management
 - Invoicing
 - Payments
+token_bound: false
 token_urls:
 - https://auth.contaazul.com/oauth2/token
 ---

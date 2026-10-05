@@ -11,7 +11,7 @@ method: probed
 name: Bloomberg Data Workflows Scopes
 name_suffix: OAuth Scopes
 note: No public scopes/permissions reference page exists for any Bloomberg API. This artifact is probed from the live discovery document, not searched from documentation.
-overview: 'Bloomberg Data Workflows uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Bloomberg Data Workflows publishes 3 OAuth 2.0 scopes via the authorization_code and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bloomberg Data Workflows API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -29,9 +29,21 @@ schemes:
   source: https://www.bloomberg.com/.well-known/openid-configuration
   token_url: https://login.bloomberg.com/api/oauth/token
   type: openIdConnect
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- openid
+- user
+- entitlements
+scopes:
+- description: Standard OpenID Connect scope; requests an ID token for the authenticated Bloomberg account.
+  flows: []
+  scope: openid
+- description: Access to the authenticated user's Bloomberg.com profile. Bloomberg publishes no description or claim list for this scope.
+  flows: []
+  scope: user
+- description: Access to the authenticated user's Bloomberg subscription entitlements. Bloomberg publishes no description or claim list for this scope.
+  flows: []
+  scope: entitlements
 slug: bloomberg-data-workflows-scopes
 source_filename: bloomberg-data-workflows-scopes.yml
 source_heading: OAuth Scopes
@@ -40,7 +52,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: https://www.bloom
   \    token_url: https://login.bloomberg.com/api/oauth/token\n    flows: [authorization_code, refresh_token]\n    pkce_required_methods: [S256]\nscopes:\n  - name: openid\n    scheme: bloomberg-com-oidc\n    description: >-\n      Standard OpenID Connect scope; requests an ID token for the authenticated Bloomberg account.\n    description_source: OIDC Core 1.0 (the provider publishes no scope description)\n  - name: user\n    scheme: bloomberg-com-oidc\n    description: >-\n      Access to the authenticated user's Bloomberg.com profile. Bloomberg publishes no description\n      or claim list for this scope.\n    description_source: inferred-from-name\n  - name: entitlements\n    scheme: bloomberg-com-oidc\n    description: >-\n      Access to the authenticated user's Bloomberg subscription entitlements. Bloomberg publishes\n      no description or claim list for this scope.\n    description_source: inferred-from-name\nscope_count: 3\nnote: >-\n  No public scopes/permissions reference page\
   \ exists for any Bloomberg API. This artifact is\n  probed from the live discovery document, not searched from documentation.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-workflows/refs/heads/main/scopes/bloomberg-data-workflows-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes · authorization_code/refresh_token
 tags:
 - Enterprise Data
 - Financial Analytics
@@ -49,5 +61,6 @@ tags:
 - Market Data
 - Reference Data
 - Trading
+token_bound: false
 token_urls: []
 ---

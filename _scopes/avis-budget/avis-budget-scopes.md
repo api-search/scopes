@@ -72,6 +72,7 @@ tags:
 - Vehicle Rental
 - Partner API
 - Hospitality
+token_bound: false
 token_urls:
 - https://stage.abgapiservices.com/oauth/token/v2
 ---

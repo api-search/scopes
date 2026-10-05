@@ -784,6 +784,7 @@ tags:
 - REST
 - Schema Registry
 - Stream Processing
+token_bound: false
 token_urls:
 - https://api.confluent.cloud/sts/v1/oauth2/token
 - /oauth2/token

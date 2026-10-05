@@ -176,6 +176,7 @@ tags:
 - OpenAPI
 - Red Hat
 - Schema Registry
+token_bound: false
 token_urls:
 - https://example.com/realms/apicurio/protocol/openid-connect/token
 ---

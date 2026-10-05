@@ -75,6 +75,7 @@ tags:
 - App Distribution
 - Advertising
 - Authentication
+token_bound: false
 token_urls:
 - https://now.gg/accounts/oauth2/v1/token
 ---

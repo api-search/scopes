@@ -236,6 +236,7 @@ tags:
 - Prediction Markets
 - MCP
 - Real-Time
+token_bound: false
 token_urls:
 - https://sso.lukka.tech/oauth2/aus1imo2fqcx5Ik4Q0h8/v1/token
 - https://sso.lukka.tech/oauth2/aus1imo2g7ugEl49C0h8/v1/token

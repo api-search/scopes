@@ -125,6 +125,7 @@ tags:
 - Advertising
 - Community
 - Sharing
+token_bound: false
 token_urls:
 - https://auth.nextdoor.com/v3/token
 ---

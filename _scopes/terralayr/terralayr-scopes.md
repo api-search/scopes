@@ -56,6 +56,7 @@ tags:
 - Renewable Energy
 - Cleantech
 - Energy Trading
+token_bound: false
 token_urls:
 - https://www.trlyr.com/umbraco/delivery/api/v1/security/member/token
 ---

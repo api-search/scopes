@@ -645,6 +645,7 @@ tags:
 - Reporting
 - MCP
 - Enterprise Storage
+token_bound: false
 token_urls:
 - https://helios.cohesity.com/oauth2/token
 ---

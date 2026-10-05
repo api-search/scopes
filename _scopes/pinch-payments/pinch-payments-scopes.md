@@ -158,6 +158,7 @@ tags:
 - Payment Facilitator
 - Account-to-Account
 - New Zealand
+token_bound: false
 token_urls:
 - https://auth.getpinch.com.au/connect/token
 ---

@@ -75,6 +75,7 @@ tags:
 - Portfolio Analytics
 - Quantitative Investment Strategies
 - Factor Investing
+token_bound: false
 token_urls:
 - https://sso.plbtech.com/oauth2/v1/token
 ---

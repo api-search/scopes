@@ -78,6 +78,7 @@ tags:
 - Trading
 - Transaction Cost Analysis
 - Financial Data
+token_bound: false
 token_urls:
 - https://login.bloomberg.com/api/oauth/token
 ---

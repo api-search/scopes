@@ -132,6 +132,7 @@ tags:
 - Lynx
 - Crown Corporation
 - Faster Payments
+token_bound: false
 token_urls:
 - https://api.payments.ca/accesstoken
 ---

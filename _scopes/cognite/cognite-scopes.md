@@ -631,6 +631,7 @@ tags:
 - Time Series
 - Industrial AI
 - Industrial
+token_bound: false
 token_urls:
 - https://your-idps.token.url/
 - https://login.microsoftonline.com/48d5043c-cf70-4c49-881c-c638f5796997/oauth2/v2.0/token

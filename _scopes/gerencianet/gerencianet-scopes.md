@@ -354,6 +354,7 @@ tags:
 - CNAB
 - Brazil
 - Fintech
+token_bound: false
 token_urls:
 - https://cobrancas.api.efipay.com.br/v1/authorize
 - https://abrircontas.api.efipay.com.br/v1/oauth/token

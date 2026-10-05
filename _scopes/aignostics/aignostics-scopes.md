@@ -68,6 +68,7 @@ tags:
 - Biotechnology
 - Research
 - Germany
+token_bound: false
 token_urls:
 - https://aignostics-platform.eu.auth0.com/oauth/token
 ---

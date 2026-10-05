@@ -68,12 +68,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/migratio
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/scopes/google-cloud-migration-center-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- Assessment
 - Cloud Migration
 - Discovery
 - Infrastructure
 - Migration
 - Planning
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

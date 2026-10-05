@@ -281,6 +281,7 @@ tags:
 - Retail
 - Fashion
 - Shopify
+token_bound: false
 token_urls:
 - https://depict.eu.auth0.com/oauth/token
 ---

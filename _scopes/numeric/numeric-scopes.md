@@ -68,6 +68,7 @@ tags:
 - MCP
 - Agent Skills
 - Authentication
+token_bound: false
 token_urls:
 - https://auth.numeric.io/oauth2/token
 ---

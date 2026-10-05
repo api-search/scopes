@@ -237,6 +237,7 @@ tags:
 - Edge Computing
 - Physical AI
 - Energy
+token_bound: false
 token_urls:
 - https://login.passivelogic.com/realms/prod/protocol/openid-connect/token
 ---

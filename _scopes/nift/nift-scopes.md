@@ -62,6 +62,7 @@ tags:
 - Rewards
 - SDK
 - Partners
+token_bound: false
 token_urls:
 - https://www.gonift.com/oauth/token
 ---

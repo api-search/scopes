@@ -78,6 +78,7 @@ tags:
 - GraphQL
 - Shopify
 - Food Technology
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/59465728192/oauth/token
 ---

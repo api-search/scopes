@@ -65,6 +65,7 @@ tags:
 - Marketing
 - Organization Management
 - Platform Administration
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

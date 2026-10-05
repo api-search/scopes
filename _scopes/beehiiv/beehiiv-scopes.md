@@ -180,26 +180,151 @@ api_specs:
   slug: beehiiv-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/openapi/beehiiv-workspaces-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://app.beehiiv.com/oauth/authorize
 description: ''
 docs: https://developers.beehiiv.com/oauth2
-flows: []
+flows:
+- authorizationCode
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Beehiiv Scopes
 name_suffix: OAuth Scopes
 note: 'derive-oauth-scopes.py found nothing: the published OpenAPI declares only an HTTP bearer securityScheme and no oauth2 flows, so the scope surface exists only in the documentation and in the per-operation badges. This file is the searched reconciliation of both. The MCP server at mcp.beehiiv.com uses a separate, coarser scope vocabulary (read, write) — see mcp/beehiiv-mcp.yml.'
-overview: 'beehiiv uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'beehiiv publishes 30 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the beehiiv API on a user''s behalf.
+
+
+  Tokens are issued from https://app.beehiiv.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: beehiiv
 provider_slug: beehiiv
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 30
+scope_names:
+- identify:read
+- automations:read
+- automations:write
+- custom_fields:read
+- custom_fields:write
+- subscriptions:read
+- subscriptions:write
+- polls:read
+- polls:write
+- podcasts:read
+- podcasts:write
+- posts:read
+- posts:write
+- publications:read
+- publications:write
+- referral_program:read
+- referral_program:write
+- segments:read
+- segments:write
+- tiers:read
+- tiers:write
+- webhooks:read
+- webhooks:write
+- complimentary_access:read
+- condition_sets:read
+- data_deletion:read
+- data_deletion:write
+- newsletter_lists:read
+- newsletter_lists:write
+- posts
+scopes:
+- description: Default scope granted to every OAuth authorization. Identifies the authorizing user and workspace.
+  flows: []
+  scope: identify:read
+- description: Read access to automations resources.
+  flows: []
+  scope: automations:read
+- description: Write access (POST/PUT/DELETE) to automations resources.
+  flows: []
+  scope: automations:write
+- description: Read access to custom fields resources.
+  flows: []
+  scope: custom_fields:read
+- description: Write access (POST/PUT/DELETE) to custom fields resources.
+  flows: []
+  scope: custom_fields:write
+- description: Read access to subscriptions resources.
+  flows: []
+  scope: subscriptions:read
+- description: Write access (POST/PUT/DELETE) to subscriptions resources.
+  flows: []
+  scope: subscriptions:write
+- description: Read access to polls resources.
+  flows: []
+  scope: polls:read
+- description: Write access (POST/PUT/DELETE) to polls resources.
+  flows: []
+  scope: polls:write
+- description: Read access to podcasts resources.
+  flows: []
+  scope: podcasts:read
+- description: Write access (POST/PUT/DELETE) to podcasts resources.
+  flows: []
+  scope: podcasts:write
+- description: Read access to posts resources.
+  flows: []
+  scope: posts:read
+- description: Write access (POST/PUT/DELETE) to posts resources.
+  flows: []
+  scope: posts:write
+- description: Read access to publications resources.
+  flows: []
+  scope: publications:read
+- description: Write access (POST/PUT/DELETE) to publications resources.
+  flows: []
+  scope: publications:write
+- description: Read access to referral program resources.
+  flows: []
+  scope: referral_program:read
+- description: Write access (POST/PUT/DELETE) to referral program resources.
+  flows: []
+  scope: referral_program:write
+- description: Read access to segments resources.
+  flows: []
+  scope: segments:read
+- description: Write access (POST/PUT/DELETE) to segments resources.
+  flows: []
+  scope: segments:write
+- description: Read access to tiers resources.
+  flows: []
+  scope: tiers:read
+- description: Write access (POST/PUT/DELETE) to tiers resources.
+  flows: []
+  scope: tiers:write
+- description: Read access to webhooks resources.
+  flows: []
+  scope: webhooks:read
+- description: Write access (POST/PUT/DELETE) to webhooks resources.
+  flows: []
+  scope: webhooks:write
+- description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.
+  flows: []
+  scope: complimentary_access:read
+- description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.
+  flows: []
+  scope: condition_sets:read
+- description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.
+  flows: []
+  scope: data_deletion:read
+- description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.
+  flows: []
+  scope: data_deletion:write
+- description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.
+  flows: []
+  scope: newsletter_lists:read
+- description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.
+  flows: []
+  scope: newsletter_lists:write
+- description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.
+  flows: []
+  scope: posts
 slug: beehiiv-scopes
 source_filename: beehiiv-scopes.yml
 source_heading: OAuth Scopes
@@ -213,7 +338,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ in the API reference but not listed on the OAuth2 scopes page.\n  operations:\n  - List complimentary access\n  - Get complimentary access\n- name: condition_sets:read\n  type: observed-undocumented\n  description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.\n  operations:\n  - List condition sets\n  - Get condition set\n- name: data_deletion:read\n  type: observed-undocumented\n  description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.\n  operations:\n  - Get data deletion request\n  - List data deletion requests\n- name: data_deletion:write\n  type: observed-undocumented\n  description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.\n  operations:\n  - Create data deletion request\n- name: newsletter_lists:read\n  type: observed-undocumented\n  description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.\n  operations:\n\
   \  - List newsletter lists\n  - Get newsletter list\n  - List newsletter list subscriptions\n  - Get newsletter list subscription\n- name: newsletter_lists:write\n  type: observed-undocumented\n  description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.\n  operations:\n  - Create newsletter list\n  - Update newsletter list\n  - Delete newsletter list\n  - Create newsletter list subscription\n  - Update newsletter list subscription\n  - Update newsletter list subscription by subscription ID\n- name: posts\n  type: observed-undocumented\n  description: Advertised on operations in the API reference but not listed on the OAuth2 scopes page.\n  operations:\n  - Send test email\ngaps:\n- Scopes are not expressed in the OpenAPI securitySchemes, so no generated client or agent can discover them from\n  the contract.\n- 'Several scopes appear on operation badges but are absent from the documented scope list (see type: observed-undocumented).'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/scopes/beehiiv-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 30 scopes · authorizationCode
 tags:
 - Newsletters
 - Creators
@@ -223,5 +348,7 @@ tags:
 - Media
 - Advertising
 - Creator Economy
-token_urls: []
+token_bound: false
+token_urls:
+- https://app.beehiiv.com/oauth/token
 ---

@@ -61,6 +61,7 @@ tags:
 - Team Collaboration
 - Software-as-a-Service
 - Brazil
+token_bound: false
 token_urls:
 - https://runrun.it/api/v1.0/oauth/token
 ---

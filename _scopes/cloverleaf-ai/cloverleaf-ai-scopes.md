@@ -74,6 +74,7 @@ tags:
 - Legislative Intelligence
 - Speech-to-Text
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://auth.cloverleaf.ai/oauth/token
 ---

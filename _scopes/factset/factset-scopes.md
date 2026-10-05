@@ -1655,6 +1655,7 @@ tags:
 - Portfolio Analytics
 - Research
 - FactSet
+token_bound: false
 token_urls:
 - https://auth.factset.com/as/token.oauth2
 ---

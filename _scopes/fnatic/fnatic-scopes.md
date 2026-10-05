@@ -78,6 +78,7 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - United Kingdom
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/54359195821/oauth/token
 ---

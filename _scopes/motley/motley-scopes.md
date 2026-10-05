@@ -77,6 +77,7 @@ tags:
 - SQL
 - Data
 - Reporting
+token_bound: false
 token_urls:
 - https://clerk.motley.ai/oauth/token
 ---

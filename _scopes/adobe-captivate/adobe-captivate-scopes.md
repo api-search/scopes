@@ -152,6 +152,7 @@ tags:
 - SCORM
 - Training
 - xAPI
+token_bound: false
 token_urls:
 - https://learningmanager.adobe.com/oauth/token
 ---

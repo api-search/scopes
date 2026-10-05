@@ -167,6 +167,7 @@ tags:
 - Content
 - Translation Memory
 - Agents
+token_bound: false
 token_urls:
 - https://blissful-celebration-62.authkit.app/oauth2/token
 ---

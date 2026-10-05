@@ -72,6 +72,7 @@ tags:
 - Voice
 - Kids
 - Phone
+token_bound: false
 token_urls:
 - https://manage.tincan.kids/authentication/oauth/token
 ---

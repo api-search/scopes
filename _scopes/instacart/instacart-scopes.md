@@ -70,16 +70,40 @@ method: searched
 name: Instacart Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Instacart uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Instacart publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Instacart API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Instacart
 provider_slug: instacart
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- connect:fulfillment
+- Connect::Orders::RatingService
+- Connect::Orders::RatingService
+- connect:post_checkout
+- account_linking
+- connect:data_ingestion
+scopes:
+- description: Access stores, service options, reservations, order creation and order management.
+  flows: []
+  scope: connect:fulfillment
+- description: Create or update order feedback from a backend implementation.
+  flows: []
+  scope: Connect::Orders::RatingService
+- description: Create or update order feedback from a frontend implementation, on behalf of an end user.
+  flows: []
+  scope: Connect::Orders::RatingService
+- description: Access order detail and order status for a customer's order.
+  flows: []
+  scope: connect:post_checkout
+- description: Link a customer's Connect user account to their Instacart account.
+  flows: []
+  scope: account_linking
+- description: Submit products and items to the retailer catalog. Not listed in the public permissions table; captured from the bearerAuth description in Instacart's own Catalog API definition (openapi/_original/instacart-catalog-api-openapi.yml).
+  flows: []
+  scope: connect:data_ingestion
 slug: instacart-scopes
 source_filename: instacart-scopes.yml
 source_heading: OAuth Scopes
@@ -90,7 +114,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\ndocs: https://docs.inst
   \ API\n    description: >-\n      Submit products and items to the retailer catalog. Not listed in the public permissions table;\n      captured from the bearerAuth description in Instacart's own Catalog API definition\n      (openapi/_original/instacart-catalog-api-openapi.yml).\n    source: openapi\n    docs: https://docs.instacart.com/catalog/catalog_api/overview/\nno_scope_required:\n  - api: Transaction API\n    grant_type: client_credentials\n    description: Send point of sale transaction information to Instacart. Scope value is None.\n    docs: https://docs.instacart.com/connect/api/transaction/overview\nnotes:\n  - >-\n    \"Partner retailers may have access to private APIs\" with scope values published only in partner\n    documentation, so this list is the public subset, not the complete set.\n  - >-\n    The Developer Platform API (/idp/v1) does not use OAuth at all. It uses API keys with three\n    permission levels - read-only, read-write and admin - configured in the Developer\
   \ Dashboard.\n    Those are permission tiers, not OAuth scopes, and are recorded in\n    authentication/instacart-authentication.yml and conventions/instacart-conventions.yml.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/scopes/instacart-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - Grocery
 - E-Commerce
@@ -104,5 +128,6 @@ tags:
 - Agents
 - MCP
 - Agentic Commerce
+token_bound: false
 token_urls: []
 ---

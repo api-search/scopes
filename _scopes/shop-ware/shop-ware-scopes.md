@@ -235,6 +235,7 @@ tags:
 - Software-as-a-Service
 - Webhook
 - Payments
+token_bound: false
 token_urls:
 - /api/oauth/token
 ---

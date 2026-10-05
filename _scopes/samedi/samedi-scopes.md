@@ -92,6 +92,7 @@ tags:
 - FHIR
 - Telehealth
 - Germany
+token_bound: false
 token_urls:
 - https://patient.samedi.de/oauth/token
 ---

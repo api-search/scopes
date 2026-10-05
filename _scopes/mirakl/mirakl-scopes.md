@@ -269,6 +269,7 @@ tags:
 - Order
 - Retail Media
 - B2B
+token_bound: false
 token_urls:
 - https://auth.mirakl.net/oauth/token
 ---

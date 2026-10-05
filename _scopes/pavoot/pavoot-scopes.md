@@ -1078,16 +1078,44 @@ method: probed
 name: Pavoot Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Pavoot uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Pavoot publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Pavoot API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Pavoot
 provider_slug: pavoot
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 7
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+- public_metadata
+- private_metadata
+- user:org:read
+scopes:
+- description: OpenID Connect — request an ID token identifying the end user.
+  flows: []
+  scope: openid
+- description: Basic profile claims (name, given_name, family_name, preferred_username, picture).
+  flows: []
+  scope: profile
+- description: Email address and email_verified claim.
+  flows: []
+  scope: email
+- description: Issue a refresh token so the client can act after the user leaves.
+  flows: []
+  scope: offline_access
+- description: Read the Clerk user's public metadata.
+  flows: []
+  scope: public_metadata
+- description: Read the Clerk user's private metadata.
+  flows: []
+  scope: private_metadata
+- description: Read the user's organization membership.
+  flows: []
+  scope: user:org:read
 slug: pavoot-scopes
 source_filename: pavoot-scopes.yml
 source_heading: OAuth Scopes
@@ -1096,7 +1124,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://clerk.pav
   \ - authorization_code\n  - refresh_token\n  response_types_supported:\n  - code\n  code_challenge_methods_supported:\n  - S256\n  id_token_signing_alg_values_supported:\n  - RS256\n  service_documentation: https://clerk.com/docs/oauth/scoped-access\nscope_count: 7\nscopes:\n- name: openid\n  description: OpenID Connect — request an ID token identifying the end user.\n  standard: OIDC Core 1.0\n- name: profile\n  description: Basic profile claims (name, given_name, family_name,\n    preferred_username, picture).\n  standard: OIDC Core 1.0\n- name: email\n  description: Email address and email_verified claim.\n  standard: OIDC Core 1.0\n- name: offline_access\n  description: Issue a refresh token so the client can act after the user leaves.\n  standard: OIDC Core 1.0\n- name: public_metadata\n  description: Read the Clerk user's public metadata.\n  standard: Clerk-specific\n- name: private_metadata\n  description: Read the Clerk user's private metadata.\n  standard: Clerk-specific\n- name:\
   \ 'user:org:read'\n  description: Read the user's organization membership.\n  standard: Clerk-specific\nclaims_supported:\n- sub\n- aud\n- iss\n- exp\n- iat\n- email\n- email_verified\n- given_name\n- family_name\n- name\n- preferred_username\n- picture\n- org_id\napi_authorization_note: >-\n  The api.pavoot.com OpenAPI declares no securitySchemes and no per-operation\n  security, and none of the seven scopes above appear anywhere in the spec. API\n  authorization is enforced by Pavoot's own permission system — role and user\n  permission matrices (/org/permissions/role-matrix, /org/permissions/user-matrix),\n  per-task permissions (/org/permissions/tasks), permission presets with a\n  settable org default, an effective-permissions read (/getEffectivePermissions,\n  /getEffectiveOrgPermissions) and a middleware gate (/checkRouteAccess). Those\n  permission names are not published anywhere anonymous, so they cannot be\n  enumerated without an authenticated session.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pavoot/refs/heads/main/scopes/pavoot-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 7 scopes
 tags:
 - Company
 - Event
@@ -1107,5 +1135,6 @@ tags:
 - Go-To-Market
 - Field Marketing
 - Pipelines
+token_bound: false
 token_urls: []
 ---

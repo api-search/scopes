@@ -306,6 +306,7 @@ tags:
 - Merchant Platform
 - Order
 - Product
+token_bound: false
 token_urls:
 - https://api.merchants.zalando.com/auth/token
 - https://api-sandbox.merchants.zalando.com/auth/token

@@ -231,6 +231,7 @@ tags:
 - Multi-Location
 - Artificial Intelligence
 - A2A
+token_bound: false
 token_urls:
 - https://mcp.birdeye.com/token
 ---

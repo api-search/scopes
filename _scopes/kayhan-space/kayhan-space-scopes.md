@@ -175,6 +175,7 @@ tags:
 - Space Traffic Management
 - Aerospace
 - Astrodynamics
+token_bound: false
 token_urls:
 - login
 - oauth/token

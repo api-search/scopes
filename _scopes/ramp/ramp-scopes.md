@@ -172,6 +172,7 @@ tags:
 - Bill Pay
 - Accounting
 - Reimbursement
+token_bound: false
 token_urls:
 - https://api.ramp.com/developer/v1/token
 ---

@@ -461,6 +461,7 @@ tags:
 - MCP
 - Webhook
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://api.close.com/oauth2/token/
 ---

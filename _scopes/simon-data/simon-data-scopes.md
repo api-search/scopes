@@ -65,6 +65,7 @@ tags:
 - Customer Profiles
 - Journey Orchestration
 - Snowflake
+token_bound: false
 token_urls:
 - https://app.simondata.com/mcp/oauth/token
 ---

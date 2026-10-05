@@ -243,6 +243,7 @@ tags:
 - Points
 - Membership
 - Loyalty & Incentives
+token_bound: false
 token_urls:
 - /v1/auth/token
 ---

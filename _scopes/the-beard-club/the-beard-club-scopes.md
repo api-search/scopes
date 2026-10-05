@@ -66,6 +66,7 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - Subscription
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/5260181607/oauth/token
 ---

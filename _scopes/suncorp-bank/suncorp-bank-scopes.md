@@ -144,6 +144,7 @@ tags:
 - Australia
 - Product Reference Data
 - Consumer Data Right
+token_bound: false
 token_urls:
 - https://secure-id-ob.suncorpbank.com.au/token
 ---

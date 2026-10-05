@@ -164,6 +164,7 @@ tags:
 - FIT Files
 - Webhook
 - Authentication
+token_bound: false
 token_urls:
 - https://api.wahooligan.com/oauth/token
 ---

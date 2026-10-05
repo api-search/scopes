@@ -122,6 +122,7 @@ tags:
 - General Ledger
 - Artificial Intelligence
 - Fintech
+token_bound: false
 token_urls:
 - https://connect.digits.com/v1/oauth/token
 ---

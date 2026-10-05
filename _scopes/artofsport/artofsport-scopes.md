@@ -71,6 +71,7 @@ tags:
 - Direct to Consumer
 - E-Commerce
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/26410184/oauth/token
 ---

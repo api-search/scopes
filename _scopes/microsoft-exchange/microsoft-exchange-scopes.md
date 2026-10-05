@@ -276,6 +276,7 @@ tags:
 - Contacts
 - Email
 - Enterprise
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token
 - https://login.microsoftonline.com/common/oauth2/v2.0/token

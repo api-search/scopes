@@ -86,6 +86,7 @@ tags:
 - Analytics
 - MCP
 - Agents
+token_bound: false
 token_urls:
 - https://auth.bluefishai.com/v1/oauth2/token
 ---

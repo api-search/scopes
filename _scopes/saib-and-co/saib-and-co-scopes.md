@@ -77,6 +77,7 @@ tags:
 - Retail
 - Cafe24
 - Authentication
+token_bound: false
 token_urls:
 - https://saibnco.cafe24api.com/api/v2/oauth/token
 ---

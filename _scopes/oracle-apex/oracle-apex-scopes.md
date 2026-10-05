@@ -116,6 +116,7 @@ tags:
 - REST API
 - Web Applications
 - Workflows
+token_bound: false
 token_urls:
 - /ords/{schema}/oauth/token
 ---

@@ -93,5 +93,6 @@ tags:
 - Sustainability
 - Logistics
 - Fuel Cards
+token_bound: false
 token_urls: []
 ---

@@ -100,6 +100,7 @@ tags:
 - Regulatory
 - Webhook
 - Authentication
+token_bound: false
 token_urls:
 - https://api.demo.singlefile.ai/o/token/
 ---

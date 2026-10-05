@@ -232,6 +232,7 @@ tags:
 - Subscription Management
 - Wallet Passes
 - RCS
+token_bound: false
 token_urls:
 - https://vibes-rbm-prd.auth.us-west-2.amazoncognito.com/oauth2/token
 ---

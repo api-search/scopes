@@ -158,6 +158,7 @@ tags:
 - Budget Tracking
 - Procure-to-Pay
 - ERP Integration
+token_bound: false
 token_urls:
 - https://<your-domain>.procurify.com/oauth/token
 ---

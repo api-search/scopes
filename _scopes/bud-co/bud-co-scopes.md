@@ -245,6 +245,8 @@ tags:
 - United Kingdom
 - Artificial Intelligence
 - Machine Learning
+- Data Enrichment
+token_bound: false
 token_urls:
 - /v1/oauth/token
 ---

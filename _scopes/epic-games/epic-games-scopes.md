@@ -111,6 +111,9 @@ tags:
 - Sessions
 - Unreal Engine
 - Voice
+- Video Games
+- Gaming
+token_bound: false
 token_urls:
 - https://api.epicgames.dev/auth/v1/oauth/token
 ---

@@ -193,6 +193,7 @@ tags:
 - Turkey
 - ERP
 - JSON:API
+token_bound: false
 token_urls:
 - https://api.parasut.com/oauth/token
 ---

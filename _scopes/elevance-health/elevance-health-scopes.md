@@ -1561,6 +1561,7 @@ tags:
 - Provider Directory
 - Formulary
 - HL7
+token_bound: false
 token_urls:
 - https://totalview.healthos.elevancehealth.com/client.oauth2/registered/api/v1/token
 - https://patient360.anthem.com/P360Member/identityserver/connect/token

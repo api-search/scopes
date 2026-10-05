@@ -69,6 +69,7 @@ tags:
 - Agentic Commerce
 - Consumer
 - MCP
+token_bound: false
 token_urls:
 - https://account.ketone.com/authentication/oauth/token
 ---

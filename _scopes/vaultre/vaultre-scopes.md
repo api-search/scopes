@@ -300,13 +300,16 @@ api_specs:
   slug: vaultre-user-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/openapi/vaultre-user-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://login.vaultre.com.au/cgi-bin/clientvault/oauth-authorize.cgi
+- https://login.vaultre.com.au/cgi-bin/clientvault/oauth-authorize-user.cgi
 description: ''
 docs:
 - https://docs.api.vaultre.com.au/oauth.html
 - https://docs.api.vaultre.com.au/guide.html
 - https://docs.api.vaultre.com.au/basics.html
-flows: []
+flows:
+- authorizationCode
 kind: oauth-scopes
 layout: scope
 method: searched
@@ -314,6 +317,9 @@ name: Vaultre Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'VaultRE uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+
+
+  Tokens are issued from https://login.vaultre.com.au/cgi-bin/clientvault/integrations/oauthexchange.cgi.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -344,5 +350,7 @@ tags:
 - Rentals
 - Commercial Real Estate
 - Webhook
-token_urls: []
+token_bound: false
+token_urls:
+- https://login.vaultre.com.au/cgi-bin/clientvault/integrations/oauthexchange.cgi
 ---

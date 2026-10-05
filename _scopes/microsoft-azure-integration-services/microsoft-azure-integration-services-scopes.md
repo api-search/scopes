@@ -58,5 +58,6 @@ tags:
 - Event-Driven
 - Integration
 - Messaging
+token_bound: false
 token_urls: []
 ---

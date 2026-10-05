@@ -217,6 +217,7 @@ tags:
 - Cashback
 - Webhook
 - Loyalty & Incentives
+token_bound: false
 token_urls:
 - https://{client-subdomain}.getkard.com/v2/auth/token
 ---

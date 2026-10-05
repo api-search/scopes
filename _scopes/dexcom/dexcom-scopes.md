@@ -94,6 +94,7 @@ tags:
 - Healthcare
 - Medical Devices
 - Wearables
+token_bound: false
 token_urls:
 - https://api.dexcom.com/v2/oauth2/token
 ---

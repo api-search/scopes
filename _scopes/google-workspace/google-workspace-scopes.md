@@ -114,6 +114,7 @@ tags:
 - Storage
 - Video Conferencing
 - Google Workspace
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

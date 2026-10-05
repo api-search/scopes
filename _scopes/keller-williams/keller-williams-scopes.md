@@ -248,6 +248,7 @@ tags:
 - Partner API
 - Marketplace
 - Austin Texas
+token_bound: false
 token_urls:
 - https://partners.api.kw.com/idp/token
 ---

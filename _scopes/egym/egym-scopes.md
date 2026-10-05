@@ -267,6 +267,7 @@ tags:
 - Analytics
 - Webhook
 - Germany
+token_bound: false
 token_urls:
 - /api/v1/oauth/token
 ---

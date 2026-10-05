@@ -74,6 +74,7 @@ tags:
 - MCP
 - Agents
 - Agent Skills
+token_bound: false
 token_urls:
 - https://admakeai.com/api/oauth/token
 ---

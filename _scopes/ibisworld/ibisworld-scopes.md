@@ -72,6 +72,7 @@ tags:
 - Economics
 - Industry Data
 - Market Research
+token_bound: false
 token_urls:
 - https://api.ibisworld.com/oauth/token
 ---

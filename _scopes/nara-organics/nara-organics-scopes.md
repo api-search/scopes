@@ -57,5 +57,6 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - Infant Formula
+token_bound: false
 token_urls: []
 ---

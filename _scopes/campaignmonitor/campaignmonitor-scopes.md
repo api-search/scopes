@@ -1,5 +1,6 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://api.createsend.com/oauth
 description: Campaign Monitor calls its OAuth 2.0 scopes "permissions". The complete list is published verbatim on the Getting Started page under "Permissions"; there is no OpenAPI and no /.well-known/oauth-authorization-server document, so this artifact was transcribed from the provider's own reference page rather than derived from a spec. Permissions are supplied on the authorize request as a single comma-separated `scope` query parameter (URL-encoded, e.g. SendCampaigns%2CViewReports).
 docs: https://www.campaignmonitor.com/api/v3-3/getting-started/
 flows: []
@@ -9,16 +10,67 @@ method: searched
 name: Campaignmonitor Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Campaign Monitor uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Campaign Monitor publishes 12 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Campaign Monitor API on a user''s behalf.
+
+
+  Tokens are issued from https://api.createsend.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Campaign Monitor
 provider_slug: campaignmonitor
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 12
+scope_names:
+- ViewReports
+- ManageLists
+- CreateCampaigns
+- ImportSubscribers
+- SendCampaigns
+- ViewSubscribersInReports
+- ManageTemplates
+- AdministerPersons
+- AdministerAccount
+- ViewTransactional
+- SendTransactional
+- Automation
+scopes:
+- description: Permission to view reports.
+  flows: []
+  scope: ViewReports
+- description: Permission to manage lists.
+  flows: []
+  scope: ManageLists
+- description: Permission to create campaigns.
+  flows: []
+  scope: CreateCampaigns
+- description: Permission to import subscribers.
+  flows: []
+  scope: ImportSubscribers
+- description: Permission to send campaigns.
+  flows: []
+  scope: SendCampaigns
+- description: Permission to view subscribers in reports.
+  flows: []
+  scope: ViewSubscribersInReports
+- description: Permission to manage templates.
+  flows: []
+  scope: ManageTemplates
+- description: Permission to administer persons.
+  flows: []
+  scope: AdministerPersons
+- description: Permission to administer your account.
+  flows: []
+  scope: AdministerAccount
+- description: Permission to view transactional reports and logs.
+  flows: []
+  scope: ViewTransactional
+- description: Permission to send transactional email.
+  flows: []
+  scope: SendTransactional
+- description: Permission to view journey reports.
+  flows: []
+  scope: Automation
 slug: campaignmonitor-scopes
 source_filename: campaignmonitor-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +79,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.cam
   \ name: CreateCampaigns\n    description: Permission to create campaigns.\n  - name: ImportSubscribers\n    description: Permission to import subscribers.\n  - name: SendCampaigns\n    description: Permission to send campaigns.\n  - name: ViewSubscribersInReports\n    description: Permission to view subscribers in reports.\n  - name: ManageTemplates\n    description: Permission to manage templates.\n  - name: AdministerPersons\n    description: Permission to administer persons.\n  - name: AdministerAccount\n    description: Permission to administer your account.\n  - name: ViewTransactional\n    description: Permission to view transactional reports and logs.\n  - name: SendTransactional\n    description: Permission to send transactional email.\n  - name: Automation\n    description: Permission to view journey reports.\nnotes:\n  - >-\n    Scopes are coarse and product-shaped rather than resource/verb-shaped: there\n    is no read-only variant of ManageLists or ManageTemplates, so an integration\n\
   \    that only needs to read lists must still request write permission.\n  - >-\n    Requesting a permission the API does not recognise fails the OAuth exchange\n    with unknown_scope; calling an endpoint outside the granted permissions\n    returns HTTP 401 with error code 60.\n  - >-\n    API-key authentication has no scope surface at all — an API key carries the\n    full rights of the account or client it belongs to.\nrelated:\n  - authentication/campaignmonitor-authentication.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/scopes/campaignmonitor-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 12 scopes
 tags:
 - Email Marketing
 - Campaigns
@@ -40,5 +92,7 @@ tags:
 - Webhook
 - Email Deliverability
 - Marketing
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.createsend.com/oauth/token
 ---

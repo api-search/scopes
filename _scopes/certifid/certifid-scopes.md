@@ -189,6 +189,7 @@ tags:
 - Escrow and Settlement
 - Financial Services
 - Security
+token_bound: false
 token_urls:
 - https://auth.certifid.com/oauth/token
 ---

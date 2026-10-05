@@ -361,6 +361,7 @@ tags:
 - Invoicing
 - Payroll
 - Small Business
+token_bound: false
 token_urls:
 - https://identity.xero.com/connect/token
 ---

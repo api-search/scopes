@@ -50,5 +50,6 @@ tags:
 - Retail
 - Affiliates
 - Consumer Packaged Goods
+token_bound: false
 token_urls: []
 ---

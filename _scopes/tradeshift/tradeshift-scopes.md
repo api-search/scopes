@@ -344,6 +344,7 @@ tags:
 - MCP
 - Agent-Native
 - Procurement
+token_bound: false
 token_urls:
 - https://mcp.tradeshift.com/oauth/token
 - https://api.tradeshift.com/tradeshift/auth/token

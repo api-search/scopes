@@ -64,16 +64,32 @@ method: probed
 name: Renaissance Scopes
 name_suffix: OAuth Scopes
 note: Renaissance publishes no scope reference page. None of the three OpenAPI contracts declares an oauth2 securityScheme with a flows/scopes block, so nothing could be derived from the specs by derive-oauth-scopes.py (it reported 0 providers with oauth2). What IS published is the authorization server's own scopes_supported list plus one product scope named in prose inside the Lexile API securityScheme description. Both are recorded below with their exact evidence. The full product scope namespace is not public and would require authenticated client registration to enumerate.
-overview: 'Renaissance uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Renaissance publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Renaissance API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Renaissance
 provider_slug: renaissance
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- offline
+- offline_access
+- ren.lexile.read
+scopes:
+- description: Standard OpenID Connect scope, advertised in the authorization server discovery document.
+  flows: []
+  scope: openid
+- description: Advertised in the authorization server discovery document.
+  flows: []
+  scope: offline
+- description: Refresh-token scope, advertised in the authorization server discovery document.
+  flows: []
+  scope: offline_access
+- description: Read access to Lexile book data by ISBN-13. Enforced by the API Gateway in front of api.proxile.renaissance.com; the token audience must match the API URL.
+  flows: []
+  scope: ren.lexile.read
 slug: renaissance-scopes
 source_filename: renaissance-scopes.yml
 source_heading: OAuth Scopes
@@ -81,7 +97,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: https://auth.renaissance.com/.well-known/openid-configuration\ndocs: https://auth.renaissance.com/.well-known/openid-configuration\nnote: >-\n  Renaissance publishes no scope reference page. None of the three OpenAPI contracts declares an\n  oauth2 securityScheme with a flows/scopes block, so nothing could be derived from the specs by\n  derive-oauth-scopes.py (it reported 0 providers with oauth2). What IS published is the\n  authorization server's own scopes_supported list plus one product scope named in prose inside the\n  Lexile API securityScheme description. Both are recorded below with their exact evidence. The full\n  product scope namespace is not public and would require authenticated client registration to\n  enumerate.\nauthorization_server: https://auth.renaissance.com\nscope_count: 4\nscopes:\n  - name: openid\n    description: Standard OpenID Connect scope, advertised in the authorization server discovery document.\n\
   \    source: https://auth.renaissance.com/.well-known/openid-configuration\n  - name: offline\n    description: Advertised in the authorization server discovery document.\n    source: https://auth.renaissance.com/.well-known/openid-configuration\n  - name: offline_access\n    description: Refresh-token scope, advertised in the authorization server discovery document.\n    source: https://auth.renaissance.com/.well-known/openid-configuration\n  - name: ren.lexile.read\n    description: >-\n      Read access to Lexile book data by ISBN-13. Enforced by the API Gateway in front of\n      api.proxile.renaissance.com; the token audience must match the API URL.\n    api: Lexile API\n    source: openapi/renaissance-lexile-api-openapi.yml\ngaps:\n  - The `ren.` prefix implies a product scope namespace; only ren.lexile.read is publicly named.\n  - The Student Proficiency Service and Student Pathway Event Proxy declare a bare HTTP bearer scheme\n    and name no scope at all.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/renaissance/refs/heads/main/scopes/renaissance-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Education
 - EdTech
@@ -95,5 +111,6 @@ tags:
 - Rostering
 - Interoperability
 - Machine Learning
+token_bound: false
 token_urls: []
 ---

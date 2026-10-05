@@ -2,23 +2,35 @@
 authorization_urls: []
 description: ''
 docs: ''
-flows: []
+flows:
+- oauth2 client_credentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Infact Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'InFact uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'InFact publishes 2 OAuth 2.0 scopes via the oauth2 client_credentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the InFact API on a user''s behalf.
+
+
+  Tokens are issued from https://connect.govconext.nl/oidc/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: InFact
 provider_slug: infact
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- standard
+- extended
+scopes:
+- description: Read access to the pseudonymised subset of every HPZone entity — epidemiological, workflow and geographic fields with directly-identifying and special-category personal data withheld.
+  flows: []
+  scope: standard
+- description: Read access to the complete field set, including directly-identifying personal data (names, GP practice and address, telephone) and special-category health data (clinical conditions, ethnic origin) on Cases and Contacts.
+  flows: []
+  scope: extended
 slug: infact-scopes
 source_filename: infact-scopes.yml
 source_heading: OAuth Scopes
@@ -29,7 +41,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://cran.r-
   \  - Mogelijke_bron_in_zorginstelling_in_Nederland\n  - Newborn\n  - Nieraandoening\n  - Number_or_building\n  - Practice\n  - Pregnant\n  - Relationship_to_the_above_case\n  - Salmonella_subspecies\n  - Sputumkweek_gedaan\n  - Tussenvoegsel\n  - Works_in_education\n  - Works_in_health_care\n  - Works_with_food\n- endpoint: Contacts\n  fields_total: 60\n  readable_with_standard: 23\n  requires_extended: 37\n  extended_only_fields:\n  - Age_in_months\n  - Any_underlying_medical_condition\n  - Case_manager_identifier\n  - Entered_by_identifier\n  - Ethnic_origin\n  - Family_name\n  - First_name\n  - Full_name\n  - Gp\n  - Gp_address1\n  - Gp_address2\n  - Gp_address3\n  - Gp_address4\n  - Gp_postcode\n  - Gp_telephone\n  - Indicate_other_risk_factors\n  - Intravenous_drug_user\n  - Investigating_officer\n  - Investigating_officer_identifier\n  - Midwife\n  - Midwife_address1\n  - Midwife_address2\n  - Midwife_address3\n  - Midwife_address4\n  - Midwife_postcode\n  - Midwife_practice\n  -\
   \ Midwife_telephone\n  - Mogelijk_declarabele_zorg\n  - Newborn\n  - Number_or_building\n  - Practice\n  - Pregnant\n  - Relationship_to_the_above_case\n  - Tussenvoegsel\n  - Works_in_education\n  - Works_in_health_care\n  - Works_with_food\n- endpoint: Contexts\n  fields_total: 12\n  readable_with_standard: 12\n  requires_extended: 0\n  extended_only_fields: []\n- endpoint: Enquiries\n  fields_total: 18\n  readable_with_standard: 18\n  requires_extended: 0\n  extended_only_fields: []\n- endpoint: Situations\n  fields_total: 30\n  readable_with_standard: 30\n  requires_extended: 0\n  extended_only_fields: []\ndocs: null\ndocs_note: InFact publishes no public scope reference. The scope model above is read from the published\n  CRAN client and its HPZone_necessary_scope() field table; the provider-side documentation is customer-only\n  (see x-coverage in apis.yml).\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infact/refs/heads/main/scopes/infact-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes · oauth2 client_credentials
 tags:
 - Company
 - Health
@@ -43,5 +55,7 @@ tags:
 - openEHR
 - GraphQL
 - Government
-token_urls: []
+token_bound: false
+token_urls:
+- https://connect.govconext.nl/oidc/token
 ---

@@ -36,7 +36,8 @@ api_specs:
   slug: revinate-widget-reviews-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/openapi/revinate-widget-reviews-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://auth.revinate.com/authorize
 description: ''
 docs: https://porter.revinate.com/documentation
 flows: []
@@ -46,16 +47,75 @@ method: probed
 name: Revinate Scopes
 name_suffix: OAuth Scopes
 note: 'These scopes are read verbatim from the scopes_supported array of Revinate''s live OpenID Connect discovery document at auth.revinate.com, an Auth0-hosted issuer. IMPORTANT BOUNDARY: this issuer authenticates users into the Revinate web application; the public Porter REST API does not use OAuth at all and has no scope surface — it authenticates with four HMAC-SHA256 headers and access is provisioned per API key by a Revinate account manager. The scope list below is therefore the identity surface, not an API authorization surface. Every scope present is a standard OIDC scope or a standard OIDC claim-scope; Revinate declares no custom/product scopes.'
-overview: 'Revinate uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Revinate publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Revinate API on a user''s behalf.
+
+
+  Tokens are issued from https://auth.revinate.com/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Revinate
 provider_slug: revinate
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- offline_access
+- email
+- email_verified
+- name
+- given_name
+- family_name
+- nickname
+- picture
+- phone
+- address
+- created_at
+- identities
+scopes:
+- description: Standard OIDC scope requesting an ID token.
+  flows: []
+  scope: openid
+- description: Requests the default profile claims (name, family_name, given_name, nickname, picture, etc.).
+  flows: []
+  scope: profile
+- description: Requests a refresh token for long-lived access.
+  flows: []
+  scope: offline_access
+- description: Requests the email claim.
+  flows: []
+  scope: email
+- description: Requests the email_verified claim.
+  flows: []
+  scope: email_verified
+- description: Requests the full name claim.
+  flows: []
+  scope: name
+- description: Requests the given name claim.
+  flows: []
+  scope: given_name
+- description: Requests the family name claim.
+  flows: []
+  scope: family_name
+- description: Requests the nickname claim.
+  flows: []
+  scope: nickname
+- description: Requests the profile picture claim.
+  flows: []
+  scope: picture
+- description: Requests the phone_number claim.
+  flows: []
+  scope: phone
+- description: Requests the address claim.
+  flows: []
+  scope: address
+- description: Requests the account created_at claim.
+  flows: []
+  scope: created_at
+- description: Auth0 identities claim — linked identity-provider accounts for the user.
+  flows: []
+  scope: identities
 slug: revinate-scopes
 source_filename: revinate-scopes.yml
 source_heading: OAuth Scopes
@@ -64,7 +124,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://auth.revi
   \ https://auth.revinate.com/authorize\ntoken_endpoint: https://auth.revinate.com/oauth/token\nscope_count: 14\nscopes:\n- name: openid\n  description: Standard OIDC scope requesting an ID token.\n  standard: true\n- name: profile\n  description: Requests the default profile claims (name, family_name, given_name, nickname, picture, etc.).\n  standard: true\n- name: offline_access\n  description: Requests a refresh token for long-lived access.\n  standard: true\n- name: email\n  description: Requests the email claim.\n  standard: true\n- name: email_verified\n  description: Requests the email_verified claim.\n  standard: true\n- name: name\n  description: Requests the full name claim.\n  standard: true\n- name: given_name\n  description: Requests the given name claim.\n  standard: true\n- name: family_name\n  description: Requests the family name claim.\n  standard: true\n- name: nickname\n  description: Requests the nickname claim.\n  standard: true\n- name: picture\n  description: Requests\
   \ the profile picture claim.\n  standard: true\n- name: phone\n  description: Requests the phone_number claim.\n  standard: true\n- name: address\n  description: Requests the address claim.\n  standard: true\n- name: created_at\n  description: Requests the account created_at claim.\n  standard: true\n- name: identities\n  description: Auth0 identities claim — linked identity-provider accounts for the user.\n  standard: false\ngrant_types_supported:\n- authorization_code\n- client_credentials\n- refresh_token\n- implicit\n- password\n- urn:ietf:params:oauth:grant-type:device_code\n- urn:ietf:params:oauth:grant-type:token-exchange\n- urn:ietf:params:oauth:grant-type:jwt-bearer\npkce_methods_supported:\n- S256\n- plain\ntoken_endpoint_auth_methods_supported:\n- client_secret_basic\n- client_secret_post\n- private_key_jwt\n- none\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revinate/refs/heads/main/scopes/revinate-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Hospitality
 - Hotels
@@ -76,5 +136,7 @@ tags:
 - Travel
 - Marketing
 - Customer Feedback
-token_urls: []
+token_bound: false
+token_urls:
+- https://auth.revinate.com/oauth/token
 ---

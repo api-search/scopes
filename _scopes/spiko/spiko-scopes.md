@@ -228,6 +228,7 @@ tags:
 - Cash Management
 - Payments
 - Webhook
+token_bound: false
 token_urls:
 - https://investor-auth.spiko.io/oauth2/token
 ---

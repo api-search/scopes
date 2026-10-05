@@ -429,7 +429,10 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://developer.acronis.com/doc/outbound/apis/authentication/index.html
-flows: []
+flows:
+- client_credentials
+- authorization_code
+- password
 kind: oauth-scopes
 layout: scope
 method: derived
@@ -478,5 +481,6 @@ tags:
 - Managed Service Providers
 - Endpoint Detection and Response
 - Cloud Storage
+token_bound: false
 token_urls: []
 ---

@@ -168,6 +168,7 @@ tags:
 - WP Cloud
 - MCP
 - DevOps
+token_bound: false
 token_urls:
 - https://my.pressable.com/auth/token
 ---

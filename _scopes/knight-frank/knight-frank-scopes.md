@@ -99,5 +99,6 @@ tags:
 - Rentals
 - PropTech
 - Research
+token_bound: false
 token_urls: []
 ---

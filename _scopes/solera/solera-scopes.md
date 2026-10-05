@@ -176,6 +176,7 @@ tags:
 - Risk Data
 - CIECA
 - Insurtech
+token_bound: false
 token_urls:
 - https://dispatch-login-demo.audatex.com/connect/token
 - https://dispatch-login.audatex.com/connect/token

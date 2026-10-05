@@ -728,6 +728,7 @@ tags:
 - Finance Automation
 - B2B Payments
 - Invoicing
+token_bound: false
 token_urls:
 - https://api.basware.com/v1/tokens
 ---

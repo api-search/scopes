@@ -95,6 +95,7 @@ tags:
 - KYB
 - KYC
 - Liveness Check
+token_bound: false
 token_urls:
 - https://sandbox.authologic.com/api/oauth2/token
 ---

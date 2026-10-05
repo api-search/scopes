@@ -46,16 +46,20 @@ method: probed
 name: Agree Com Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Agree.com uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Agree.com publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Agree.com API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Agree.com
 provider_slug: agree-com
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp
+scopes:
+- description: Access to the Agree MCP server at https://secure.agree.com/mcp. Declared in scopes_supported in the authorization server metadata.
+  flows: []
+  scope: mcp
 slug: agree-com-scopes
 source_filename: agree-com-scopes.yml
 source_heading: OAuth Scopes
@@ -64,7 +68,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: https://secure.ag
   \ code\n  code_challenge_methods_supported:\n  - S256\n  token_endpoint_auth_methods_supported:\n  - none\n  - client_secret_post\n  - client_secret_basic\n  dynamic_client_registration: https://secure.agree.com/oauth/register\n  revocation_endpoint: https://secure.agree.com/oauth/revoke\n  op_policy_uri: https://agree.com/privacy\nscope_count: 1\nscopes:\n- name: mcp\n  description: >-\n    Access to the Agree MCP server at https://secure.agree.com/mcp. Declared in\n    scopes_supported in the authorization server metadata.\n  grants: unknown\n  grants_note: >-\n    NOT DOCUMENTED. Agree.com publishes no statement of what this scope permits. Because the\n    MCP tool list is itself OAuth-gated, the set of actions a holder of this scope can take -\n    including whether it can create and send invoices, send agreements for signature, or read\n    revenue reporting - cannot be established from any public source. This is the single\n    largest agent-readiness gap on this provider: a consent\
   \ screen backed by one opaque,\n    undocumented scope gives a user no basis to decide what they are authorizing.\n  resource: https://secure.agree.com/mcp\n  source: https://secure.agree.com/.well-known/oauth-authorization-server\nfindings:\n- >-\n  One coarse scope for an entire contract-and-payments surface. There is no read-only scope\n  and no separation between signing authority and money movement.\n- >-\n  Dynamic client registration is open at /oauth/register with token_endpoint_auth_method\n  \"none\" supported, which is the correct posture for public MCP clients and is what lets an\n  agent connect without a preregistered client ID.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agree-com/refs/heads/main/scopes/agree-com-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Agreements
 - Electronic Signature
@@ -78,5 +82,6 @@ tags:
 - Webhook
 - MCP
 - Agent-Native
+token_bound: false
 token_urls: []
 ---

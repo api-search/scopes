@@ -698,6 +698,7 @@ tags:
 - Content Operations
 - Media
 - Analytics
+token_bound: false
 token_urls:
 - https://{your-bynder-domain}/v6/authentication/oauth2/token
 ---

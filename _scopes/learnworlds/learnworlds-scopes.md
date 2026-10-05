@@ -86,6 +86,7 @@ tags:
 - Education
 - Course Platform
 - Creator Economy
+token_bound: false
 token_urls:
 - https://yourschool.learnworlds.com/admin/api/oauth2/access_token
 ---

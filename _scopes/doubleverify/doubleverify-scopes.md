@@ -150,6 +150,7 @@ tags:
 - Publisher Analytics
 - MRC Accredited
 - AdTech
+token_bound: false
 token_urls:
 - https://dv-ciam.doubleverify.com/realms/pinnacle/protocol/openid-connect/token
 ---

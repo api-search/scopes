@@ -95,6 +95,7 @@ tags:
 - Outbound Calling
 - speech (ASR/TTS)
 - agent tools / MCP
+token_bound: false
 token_urls:
 - /oauth/token/
 ---

@@ -47,6 +47,7 @@ tags:
 - Ancestry
 - Authentication
 - Personal Genomics
+token_bound: false
 token_urls:
 - https://genomelink.io/oauth/token
 ---

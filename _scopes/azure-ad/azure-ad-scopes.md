@@ -1341,6 +1341,7 @@ tags:
 - OpenID Connect
 - SSO
 - Identity Federation
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token
 ---

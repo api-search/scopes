@@ -139,6 +139,7 @@ tags:
 - Ethereum
 - Authentication
 - Market Data
+token_bound: false
 token_urls:
 - https://api.connect.debank.com/oauth/token
 ---

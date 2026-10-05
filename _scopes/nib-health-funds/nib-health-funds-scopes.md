@@ -128,6 +128,7 @@ tags:
 - New Zealand
 - NDIS
 - Partner Gated
+token_bound: false
 token_urls:
 - https://id.nib.com.au/oauth/token
 - https://id.nib.co.nz/oauth/token

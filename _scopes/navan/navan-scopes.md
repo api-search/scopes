@@ -118,6 +118,7 @@ tags:
 - T&E
 - Fintech
 - Business Travel
+token_bound: false
 token_urls:
 - https://app.navan.com/ta-auth/oauth/token
 ---

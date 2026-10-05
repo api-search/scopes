@@ -85,6 +85,7 @@ tags:
 - Artificial Intelligence
 - Excel
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://mcp.datarails.com/token
 ---

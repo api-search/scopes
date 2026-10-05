@@ -207,5 +207,6 @@ tags:
 - Payments
 - Account Information
 - Fintech
+token_bound: false
 token_urls: []
 ---

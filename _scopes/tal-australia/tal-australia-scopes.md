@@ -110,9 +110,9 @@ tags:
 - Embedded Insurance
 - Partner Gated
 - No Public API
-- OpenID Connect
 - GraphQL
 - Identity
+token_bound: false
 token_urls:
 - https://login.talpartner.tal.com.au/oauth2/v1/token
 - https://auth.acp.tal.com.au/oauth2/v1/token

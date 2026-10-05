@@ -22,16 +22,44 @@ method: probed
 name: Leo Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'LeO uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'LeO publishes 7 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LeO API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: LeO
 provider_slug: leo
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 7
+scope_names:
+- https://mcp.meetleo.com/prospects:read
+- https://mcp.meetleo.com/prospects:enrich
+- https://mcp.meetleo.com/account:read
+- openid
+- email
+- profile
+- aws.cognito.signin.user.admin
+scopes:
+- description: Read access to the LeO prospect graph -- firmographics, NAICS/NTEE class, renewal dates, workers' comp, OSHA, DOT/FMCSA, Form 5500 and IRS 990 data.
+  flows: []
+  scope: https://mcp.meetleo.com/prospects:read
+- description: Permission to queue a contact-enrichment job that resolves decision-maker emails and titles and consumes credits.
+  flows: []
+  scope: https://mcp.meetleo.com/prospects:enrich
+- description: Read the authenticated identity, tenant, plan entitlements (hasApiAccess / hasMcpAccess) and credit balance.
+  flows: []
+  scope: https://mcp.meetleo.com/account:read
+- description: Standard OpenID Connect scope; requests an ID token.
+  flows: []
+  scope: openid
+- description: Standard OIDC claim scope. Advertised by the authorization server only.
+  flows: []
+  scope: email
+- description: Standard OIDC claim scope. Advertised by the authorization server only.
+  flows: []
+  scope: profile
+- description: AWS Cognito built-in scope granting the token holder self-service management of its own user attributes. Not a LeO product scope.
+  flows: []
+  scope: aws.cognito.signin.user.admin
 slug: leo-scopes
 source_filename: leo-scopes.yml
 source_heading: OAuth Scopes
@@ -42,7 +70,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.meetl
   \ and credit balance.\n  method: derived\n  maps_to:\n  - AccountController_getAccount\n  - CreditsController_getCreditBalance\n  source: openapi/leo-account-api-openapi.yml, openapi/leo-credits-api-openapi.yml\n- name: openid\n  resource_scope: false\n  description: Standard OpenID Connect scope; requests an ID token.\n  method: probed\n- name: email\n  resource_scope: false\n  description: Standard OIDC claim scope. Advertised by the authorization server only.\n  method: probed\n- name: profile\n  resource_scope: false\n  description: Standard OIDC claim scope. Advertised by the authorization server only.\n  method: probed\n- name: aws.cognito.signin.user.admin\n  resource_scope: false\n  description: >-\n    AWS Cognito built-in scope granting the token holder self-service management\n    of its own user attributes. Not a LeO product scope.\n  method: probed\nobservations:\n- >-\n  The three LeO product scopes map one-to-one onto the three REST tag groups that\n  require authentication\
   \ (prospects, jobs+enrich, account+credits). Nothing in the\n  scope set corresponds to email sending, CRM writes or reporting, which supports\n  reading the compose_email / log_to_crm / daily_report steps in LeO's published\n  workflow illustration as client-side or third-party tools rather than LeO tools.\n- >-\n  Scope names are absolute resource URIs, the AWS Cognito resource-server\n  convention, so a client must request the full URI string, not a bare\n  \"prospects:read\".\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/scopes/leo-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 7 scopes
 tags:
 - Company
 - Insurance
@@ -60,5 +88,6 @@ tags:
 - Trucking
 - MCP
 - Agent-Native
+token_bound: false
 token_urls: []
 ---

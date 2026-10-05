@@ -78,6 +78,7 @@ tags:
 - Small Business
 - Embedded Insurance
 - Insurtech
+token_bound: false
 token_urls:
 - https://api.coterieinsurance.com/v1/oauth/token
 ---

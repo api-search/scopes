@@ -116,6 +116,7 @@ tags:
 - Account Information
 - Confirmation of Funds
 - Fintech
+token_bound: false
 token_urls:
 - https://bank-retail.apis.co-operativebank.co.uk/apis/oauth/v1/oauth2/token
 ---

@@ -154,6 +154,7 @@ tags:
 - Salon
 - Spas
 - Webhook
+token_bound: false
 token_urls:
 - https://signin.mindbodyonline.com/connect/token
 ---

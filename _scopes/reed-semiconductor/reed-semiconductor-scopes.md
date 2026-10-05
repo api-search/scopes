@@ -1,24 +1,35 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://www.reedsemi.com/wp-admin/admin.php?page=novamira-oauth-authorize
 description: Scope surface read directly from the RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata served at www.reedsemi.com. The deployment declares exactly one scope. There is no published scopes/permissions reference page — Reed operates no developer portal — so the metadata documents are the only source.
 docs: ''
-flows: []
+flows:
+- authorization_code
+- refresh_token
+- device_code
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Reed Semiconductor Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Reed Semiconductor uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Reed Semiconductor publishes 1 OAuth 2.0 scope via the authorization_code, refresh_token, and device_code flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Reed Semiconductor API on a user''s behalf.
+
+
+  Tokens are issued from https://www.reedsemi.com/wp-json/novamira/v1/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Reed Semiconductor
 provider_slug: reed-semiconductor
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp
+scopes:
+- description: The only scope the authorization server advertises. Grants access to the Model Context Protocol server at /wp-json/mcp/novamira-oauth and to the WordPress Abilities API at /wp-json/wp-abilities/v1/*, both of which return rest_oauth_required without it.
+  flows: []
+  scope: mcp
 slug: reed-semiconductor-scopes
 source_filename: reed-semiconductor-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +38,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://www.reeds
   \  - S256\n- type: refresh_token\n- type: device_code\n  grant: 'urn:ietf:params:oauth:grant-type:device_code'\n  device_authorization_endpoint: https://www.reedsemi.com/wp-json/novamira/v1/oauth/device\ntoken_endpoint_auth_methods:\n- none\ndynamic_client_registration:\n  supported: true\n  endpoint: https://www.reedsemi.com/wp-json/novamira/v1/oauth/register\n  note: RFC 7591 dynamic client registration is open — no pre-registration required.\nscope_count: 1\nscopes:\n- name: mcp\n  description: >-\n    The only scope the authorization server advertises. Grants access to the Model\n    Context Protocol server at /wp-json/mcp/novamira-oauth and to the WordPress\n    Abilities API at /wp-json/wp-abilities/v1/*, both of which return\n    rest_oauth_required without it.\n  resources:\n  - https://www.reedsemi.com/wp-json/mcp/novamira-oauth\n  - https://www.reedsemi.com/wp-json/wp-abilities/v1/abilities\n  source: '.well-known/oauth-authorization-server -> scopes_supported'\nfindings:\n \
   \ granularity: coarse\n  note: >-\n    A single undifferentiated scope covers the whole agent surface. Because the tool\n    list is gated, a client cannot tell before authorizing what capabilities \"mcp\"\n    actually confers — there is no read/write split and no per-tool scope.\nx-evidence:\n  fetched: '2026-08-26'\n  probes:\n  - url: https://www.reedsemi.com/.well-known/oauth-authorization-server\n    status: 200\n  - url: https://www.reedsemi.com/.well-known/oauth-protected-resource\n    status: 200\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reed-semiconductor/refs/heads/main/scopes/reed-semiconductor-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope · authorization_code/refresh_token/device_code
 tags:
 - Company
 - Semiconductors
@@ -39,5 +50,7 @@ tags:
 - Hardware
 - Manufacturing
 - Product Catalog
-token_urls: []
+token_bound: false
+token_urls:
+- https://www.reedsemi.com/wp-json/novamira/v1/oauth/token
 ---

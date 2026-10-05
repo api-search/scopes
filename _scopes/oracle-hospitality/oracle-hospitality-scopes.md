@@ -527,5 +527,6 @@ tags:
 - Point-of-Sale
 - Restaurant
 - Real-Time
+token_bound: false
 token_urls: []
 ---

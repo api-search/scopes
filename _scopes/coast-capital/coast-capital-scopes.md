@@ -55,7 +55,7 @@ tags:
 - Credit Union
 - Cooperative
 - Consumer-Driven Banking
-- Data Aggregation
+token_bound: false
 token_urls:
 - https://www.coastcapitalsavings.com/umbraco/delivery/api/v1/security/member/token
 ---

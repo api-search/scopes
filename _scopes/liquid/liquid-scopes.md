@@ -58,6 +58,7 @@ tags:
 - MCP
 - Agentic Commerce
 - Authentication
+token_bound: false
 token_urls:
 - https://coinvest.liquid.trade/oauth/token
 ---

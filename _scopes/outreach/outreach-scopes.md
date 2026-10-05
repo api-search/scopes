@@ -570,6 +570,7 @@ tags:
 - Agents
 - MCP
 - Outreach
+token_bound: false
 token_urls:
 - https://api.outreach.io/oauth/token
 - https://api.outreach.io/mcpOAuth/token

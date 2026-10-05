@@ -135,6 +135,7 @@ tags:
 - Red Hat
 - Registry
 - Security Scanning
+token_bound: false
 token_urls:
 - https://quay.io/oauth/access_token
 ---

@@ -153,6 +153,7 @@ tags:
 - Recipes
 - Weight Tracking
 - Food and Beverage
+token_bound: false
 token_urls:
 - https://oauth.fatsecret.com/connect/token
 ---

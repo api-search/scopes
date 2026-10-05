@@ -167,6 +167,7 @@ tags:
 - Fraud Prevention
 - Identity
 - Webhook
+token_bound: false
 token_urls:
 - https://api.boltapp.com/v1/oauth/token
 - /v1/oauth/token

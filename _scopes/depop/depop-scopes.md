@@ -160,6 +160,7 @@ tags:
 - Inventory
 - Order
 - Sustainability
+token_bound: false
 token_urls:
 - https://partnerapi.depop.com/api/v1/oauth2/access-token/
 ---

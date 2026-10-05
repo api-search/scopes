@@ -559,5 +559,6 @@ tags:
 - Email Verification
 - MCP
 - Agent Ready
+token_bound: false
 token_urls: []
 ---

@@ -311,6 +311,7 @@ tags:
 - Marketing
 - Consent
 - Audience Segments
+token_bound: false
 token_urls:
 - https://api.habu.com/v1/oauth/token
 - https://serviceaccounts.liveramp.com/authn/v1/oauth2/token

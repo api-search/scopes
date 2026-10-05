@@ -9,16 +9,32 @@ method: probed
 name: Agnikul Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Agnikul Cosmos uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Agnikul Cosmos publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Agnikul Cosmos API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Agnikul Cosmos
 provider_slug: agnikul
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- customer-account-api:full
+- customer-account-mcp-api:full
+scopes:
+- description: Request an ID token identifying the signed-in store customer.
+  flows: []
+  scope: openid
+- description: Release the email and email_verified claims for the signed-in customer.
+  flows: []
+  scope: email
+- description: Full access to the customer account surface on behalf of the signed-in customer — orders, addresses and profile for this shop.
+  flows: []
+  scope: customer-account-api:full
+- description: Full access to the customer-account MCP surface on behalf of the signed-in customer. This is the authenticated companion to the anonymous commerce MCP endpoint; it is the scope an agent would hold to act on a specific buyer's account rather than on the public catalog. Agnikul publishes no endpoint for it.
+  flows: []
+  scope: customer-account-mcp-api:full
 slug: agnikul-scopes
 source_filename: agnikul-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +43,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: https://shop.agni
   \ Connect Core\n  description: Release the email and email_verified claims for the signed-in customer.\n- name: customer-account-api:full\n  standard: Shopify Customer Account API\n  description: >-\n    Full access to the customer account surface on behalf of the signed-in customer — orders,\n    addresses and profile for this shop.\n- name: customer-account-mcp-api:full\n  standard: Shopify Customer Account MCP API\n  description: >-\n    Full access to the customer-account MCP surface on behalf of the signed-in customer. This is the\n    authenticated companion to the anonymous commerce MCP endpoint; it is the scope an agent would\n    hold to act on a specific buyer's account rather than on the public catalog. Agnikul publishes no\n    endpoint for it.\n\nnot_scoped:\n  surface: Agnikul Cosmos Store Commerce MCP API (https://shop.agnikul.in/api/ucp/mcp)\n  note: >-\n    The UCP commerce endpoint is anonymous — it accepts no bearer token and therefore has no scope\n    model. Buyer\
   \ authority is carried per-call by the payment instrument, not by an OAuth grant.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agnikul/refs/heads/main/scopes/agnikul-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Company
 - Aerospace
@@ -42,5 +58,6 @@ tags:
 - Universal Commerce Protocol
 - MCP
 - Shopify
+token_bound: false
 token_urls: []
 ---

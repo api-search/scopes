@@ -249,6 +249,7 @@ tags:
 - Identity
 - Marketing
 - Analytics
+token_bound: false
 token_urls:
 - https://api.habu.com/v1/oauth/token
 ---

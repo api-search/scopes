@@ -92,5 +92,6 @@ tags:
 - Linked Data
 - IIIF
 - Course Catalog
+token_bound: false
 token_urls: []
 ---

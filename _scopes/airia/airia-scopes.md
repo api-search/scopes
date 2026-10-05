@@ -1132,16 +1132,76 @@ method: probed
 name: Airia Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Airia uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Airia publishes 15 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Airia API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Airia
 provider_slug: airia
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 15
+scope_names:
+- mcp.read
+- mcp.write
+- openid
+- profile
+- email
+- address
+- phone
+- roles
+- groups
+- active_organization
+- enterprise
+- basic
+- acr
+- web-origins
+- microprofile-jwt
+scopes:
+- description: Read access to the MCP Gateway — list and inspect the tools, resources and skills a gateway exposes.
+  flows: []
+  scope: mcp.read
+- description: Invoke tools through the MCP Gateway.
+  flows: []
+  scope: mcp.write
+- description: Standard OIDC scope; issues an ID token.
+  flows: []
+  scope: openid
+- description: Standard OIDC profile claims.
+  flows: []
+  scope: profile
+- description: Standard OIDC email claim.
+  flows: []
+  scope: email
+- description: Standard OIDC address claim.
+  flows: []
+  scope: address
+- description: Standard OIDC phone claim.
+  flows: []
+  scope: phone
+- description: Keycloak realm/client roles claim — the roles that decide what a token can do inside Airia.
+  flows: []
+  scope: roles
+- description: Keycloak group membership claim.
+  flows: []
+  scope: groups
+- description: The tenant/organization the token is currently acting within.
+  flows: []
+  scope: active_organization
+- description: Airia enterprise client scope.
+  flows: []
+  scope: enterprise
+- description: Keycloak basic scope (sub, auth_time).
+  flows: []
+  scope: basic
+- description: Authentication context class reference.
+  flows: []
+  scope: acr
+- description: Keycloak CORS origins scope.
+  flows: []
+  scope: web-origins
+- description: MicroProfile JWT claims (upn, groups).
+  flows: []
+  scope: microprofile-jwt
 slug: airia-scopes
 source_filename: airia-scopes.yml
 source_heading: OAuth Scopes
@@ -1152,7 +1212,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: https://mcp-gatew
   \ Keycloak CORS origins scope.\n- name: microprofile-jwt\n  description: MicroProfile JWT claims (upn, groups).\nidentity_realm_only_scopes:\n- name: airia-knowledge\n  description: >-\n    Present on the identity.airia.ai realm but NOT in the MCP Gateway's advertised scope set —\n    knowledge/retrieval access issued to first-party surfaces.\n  source: https://identity.airia.ai/auth/realms/airia/.well-known/openid-configuration\n- name: service_account\n  description: Client-credentials service-account scope on the realm, not offered through the gateway.\n  source: https://identity.airia.ai/auth/realms/airia/.well-known/openid-configuration\nrest_api_authorization:\n  model: roles-on-api-key\n  note: >-\n    Not OAuth scopes. A key is created with either no roles (a personal access token carrying the\n    creating user's permissions) or one or more roles (a service account). Permissions are resolved\n    fresh on every request from those roles, Platform Admin can never be assigned to\
   \ a key, and a\n    key cannot be issued with more permission than its creator holds at creation time.\n  docs: https://airia.ai/docs/settings/developer/api-keys\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airia/refs/heads/main/scopes/airia-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 15 scopes
 tags:
 - Company
 - Enterprise AI
@@ -1169,5 +1229,6 @@ tags:
 - Knowledge Retrieval
 - RAG
 - Agent-Native
+token_bound: false
 token_urls: []
 ---

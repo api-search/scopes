@@ -114,7 +114,7 @@ method: searched
 name: Simba Chain Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'SIMBA Chain uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'SIMBA Chain publishes 3 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the SIMBA Chain API on a user''s behalf.
 
 
   Tokens are issued from https://blocks.simbachain.com/api/member-service-validator/oauth/token.
@@ -131,9 +131,21 @@ schemes:
     tokenUrl: https://blocks.simbachain.com/api/member-service-validator/oauth/token
   name: OAuth2AuthorizationCodeBearer
   source: openapi/simba-chain-member-service-openapi.json
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- openid
+- email
+- profile
+scopes:
+- description: Standard OpenID Connect scope requesting an ID token.
+  flows: []
+  scope: openid
+- description: Releases the email and email_verified claims.
+  flows: []
+  scope: email
+- description: Releases the profile claims (first_name, last_name, name).
+  flows: []
+  scope: profile
 slug: simba-chain-scopes
 source_filename: simba-chain-scopes.yml
 source_heading: OAuth Scopes
@@ -144,7 +156,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  Baseline 
   \ optional\n      resource_attributes and the URL patterns it governs — closer to a policy statement than a scope.\n  role_kinds: [global, org-scoped, domain-scoped, custom]\n  role_inheritance: true\n  lookup_operations:\n    - get_permissions_permissions__get\n    - get_permission_permissions__permission_id__get\n    - get_identity_permissions_by_simba_id_identity__simba_id__permissions__get\n    - get_identities_permissions_identity_permissions__get\n    - get_roles_roles__get\n    - get_org_scoped_roles_organisations__organisation_name__roles__get\n  assignment_operations:\n    - update_organisation_user_account_roles_organisations__organisation_name__users__user_account_id__roles__put\n    - add_organisation_user_account_roles_organisations__organisation_name__users__user_account_id__roles_add__post\n    - remove_organisation_user_account_roles_organisations__organisation_name__users__user_account_id__roles_remove__delete\n    - update_client_credential_roles_organisations__organisation_name__client_credentials__client_id__roles__put\n\
   \    - update_device_app_roles_organisations__organisation_name__device_apps__device_app_name__roles__put\n  enforcement: OPA middleware (Open Policy Agent) inside the Blocks platform\n  docs: https://docs.simbachain.com/documentation/simba-build/managing-an-organization/user-roles-and-permissions\napplication_level_permissions:\n  note: >-\n    The dynamic contract API adds a second, separate authorization layer: a \"permissioned application\"\n    checks a remote user's group against the method being called, which is what error codes 2001-2010\n    report (NO_PERMISSIONS, NO_USER, METHOD_ACCESS_DENIED, WRITE_BLOCKCHAIN_DENIED, and so on). See\n    errors/simba-chain-problem-types.yml.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/scopes/simba-chain-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes · authorizationCode
 tags:
 - Company
 - Blockchain
@@ -157,6 +169,7 @@ tags:
 - Defense
 - Government
 - Data Management
+token_bound: false
 token_urls:
 - https://blocks.simbachain.com/api/member-service-validator/oauth/token
 ---

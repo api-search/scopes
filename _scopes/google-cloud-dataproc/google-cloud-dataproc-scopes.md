@@ -67,6 +67,7 @@ tags:
 - Google Cloud
 - Hadoop
 - Spark
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

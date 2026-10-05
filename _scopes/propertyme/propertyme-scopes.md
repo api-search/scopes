@@ -185,6 +185,7 @@ tags:
 - Documents
 - Payments
 - New Zealand
+token_bound: false
 token_urls:
 - https://login.propertyme.com/connect/token
 ---

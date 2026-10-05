@@ -250,6 +250,7 @@ tags:
 - Small Business
 - Business Banking
 - Fintech
+token_bound: false
 token_urls:
 - https://as1.api.ob.allica.bank/token
 ---

@@ -67,6 +67,7 @@ tags:
 - JSON-RPC
 - Cryptocurrency
 - Developer Tools
+token_bound: false
 token_urls:
 - https://athena.skymavis.com/oauth2/token
 ---

@@ -130,5 +130,6 @@ tags:
 - MCP
 - Authentication
 - Agent Readiness
+token_bound: false
 token_urls: []
 ---

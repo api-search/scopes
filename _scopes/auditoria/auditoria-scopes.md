@@ -122,6 +122,7 @@ tags:
 - Software-as-a-Service
 - Invoicing
 - Procurement
+token_bound: false
 token_urls:
 - https://auth.auditoria.ai/oauth/token
 ---

@@ -78,6 +78,7 @@ tags:
 - Embedded Finance
 - Payments
 - Latin America
+token_bound: false
 token_urls:
 - https://auth.pomelo.la/oauth/token
 ---

@@ -72,6 +72,7 @@ tags:
 - MCP
 - GraphQL
 - Universal Commerce Protocol
+token_bound: false
 token_urls:
 - https://account.therabody.com/authentication/oauth/token
 ---

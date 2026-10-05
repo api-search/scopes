@@ -47,5 +47,6 @@ tags:
 - Wireless
 - Fortune 100
 - Telecommunications
+token_bound: false
 token_urls: []
 ---

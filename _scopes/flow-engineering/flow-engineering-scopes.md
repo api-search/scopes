@@ -76,6 +76,7 @@ tags:
 - CAD
 - PLM
 - GraphQL
+token_bound: false
 token_urls:
 - https://flowengineering.auth.eu-west-2.amazoncognito.com/oauth2/token
 ---

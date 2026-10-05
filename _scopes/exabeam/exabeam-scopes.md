@@ -64,6 +64,7 @@ tags:
 - SOC
 - Log Management
 - Incident Response
+token_bound: false
 token_urls:
 - https://api.us-west.exabeam.cloud/oauth/token
 ---

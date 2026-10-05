@@ -87,6 +87,7 @@ tags:
 - Asset Management
 - Financial Services
 - United States
+token_bound: false
 token_urls:
 - https://login.ntrs.com/oauth2/aus1m4yuzpqNFht7o0h8/v1/token
 ---

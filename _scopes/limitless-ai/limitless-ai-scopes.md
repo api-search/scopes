@@ -93,6 +93,7 @@ tags:
 - Personal AI
 - MCP
 - OpenAPI
+token_bound: false
 token_urls:
 - https://api.limitless.ai/api/auth/token
 ---

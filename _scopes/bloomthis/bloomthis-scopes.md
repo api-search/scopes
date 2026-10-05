@@ -68,6 +68,7 @@ tags:
 - Agentic Commerce
 - MCP
 - Malaysia
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/7814423/oauth/token
 ---

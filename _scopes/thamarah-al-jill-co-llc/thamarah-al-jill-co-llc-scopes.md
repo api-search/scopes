@@ -68,6 +68,7 @@ tags:
 - Agentic Commerce
 - Shopify
 - Saudi Arabia
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/29798400044/oauth/token
 ---

@@ -105,6 +105,7 @@ tags:
 - Scheduling
 - Dispatch
 - Invoicing
+token_bound: false
 token_urls:
 - https://api.servicefusion.com/oauth/access_token
 ---

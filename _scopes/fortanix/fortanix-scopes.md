@@ -354,6 +354,7 @@ tags:
 - Data Security
 - Post-Quantum
 - Secrets Management
+token_bound: false
 token_urls:
 - https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
 ---

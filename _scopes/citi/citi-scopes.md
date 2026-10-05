@@ -1466,6 +1466,7 @@ tags:
 - Trade Finance
 - Corporate Banking
 - API Gateway
+token_bound: false
 token_urls:
 - https://tts.apib2b.citi.com/tts/cards/api/v1/oauth2/token
 - /authenticationservices/v3/oauth/token

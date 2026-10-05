@@ -439,6 +439,7 @@ tags:
 - Distributed Energy Resources
 - Renewables
 - Utilities
+token_bound: false
 token_urls:
 - https://api.aemo.com.au/oauth/v1/token?grant_type=client_credentials
 - https://login.aemo.com.au/login.aemo.com.au/oauth2/v2.0/token?p=b2c_1a_derr_signupsignin

@@ -95,6 +95,7 @@ tags:
 - AEMP
 - Construction
 - Agriculture
+token_bound: false
 token_urls:
 - https://dataportal.proemion.com/auth/realms/af0b450b-63cb-4f6e-a994-bdab447c64ba/protocol/openid-connect/token
 ---

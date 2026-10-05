@@ -153,5 +153,6 @@ tags:
 - Product Reference Data
 - Smart Metering
 - Open Data
+token_bound: false
 token_urls: []
 ---

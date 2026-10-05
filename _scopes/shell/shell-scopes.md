@@ -169,6 +169,7 @@ tags:
 - Lubricants
 - Oil and Gas
 - Renewable Energy
+token_bound: false
 token_urls:
 - https://api.shell.com/oauth/token
 ---

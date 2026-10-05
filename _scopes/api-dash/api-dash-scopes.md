@@ -96,6 +96,7 @@ tags:
 - Flutter
 - Desktop
 - Mobile
+token_bound: false
 token_urls:
 - /login
 ---

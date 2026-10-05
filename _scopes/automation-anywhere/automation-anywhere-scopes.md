@@ -129,23 +129,33 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://ai-kb.automationanywhere.com/ekb-as-mcp/authentication
-flows: []
+flows:
+- authorization_code
+- refresh_token
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Automation Anywhere Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Automation Anywhere uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Automation Anywhere publishes 2 OAuth 2.0 scopes via the authorization_code and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Automation Anywhere API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Automation Anywhere
 provider_slug: automation-anywhere
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- odin:build
+- odin:use
+scopes:
+- description: Create and modify agents, workflows, smart tables, interfaces and knowledge bases -- the same toolkit surface Autopilot uses.
+  flows: []
+  scope: odin:build
+- description: Ask existing agents, run published tools, search a knowledge base and query smart tables.
+  flows: []
+  scope: odin:use
 slug: automation-anywhere-scopes
 source_filename: automation-anywhere-scopes.yml
 source_heading: OAuth Scopes
@@ -154,7 +164,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: >-\n  https://a
   \    pkce: S256\n    dynamic_client_registration: https://api.getodin.ai/oauth/mcp/register\n  - type: refresh_token\nscopes:\n  - name: odin:build\n    consent_label: Build in your workspace\n    audience: /builder/mcp\n    description: >-\n      Create and modify agents, workflows, smart tables, interfaces and knowledge\n      bases -- the same toolkit surface Autopilot uses.\n  - name: odin:use\n    consent_label: Use your agents and tools\n    audience: /runtime/mcp\n    description: >-\n      Ask existing agents, run published tools, search a knowledge base and query\n      smart tables.\nconstraints:\n  - A token issued for Runtime is rejected by Builder and vice versa (audience binding).\n  - The MCP service holds no credentials of its own; every call forwards the user's token or API key.\n  - Project membership, roles and knowledge-base Access Tags still apply on top of the scope.\n  - Denied consent returns error=access_denied to the client.\ncontrol_room:\n  oauth_scopes: false\n\
   \  model: >-\n    JWT bearer plus Control Room roles and permissions (for example AAE_Admin,\n    AAE_Bot Insight Admin); permissions are granted per role and per folder, not\n    per OAuth scope.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/scopes/automation-anywhere-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes · authorization_code/refresh_token
 tags:
 - RPA
 - Intelligent Automation
@@ -166,5 +176,6 @@ tags:
 - Enterprise Automation
 - Bots
 - A2A
+token_bound: false
 token_urls: []
 ---

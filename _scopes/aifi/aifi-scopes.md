@@ -98,6 +98,7 @@ tags:
 - Identity
 - Fraud Prevention
 - Point-of-Sale
+token_bound: false
 token_urls:
 - https://auth.aifi.com/realms/aifi/protocol/openid-connect/token
 ---

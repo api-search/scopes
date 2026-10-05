@@ -66,6 +66,7 @@ tags:
 - Skills
 - Reporting
 - E-Learning
+token_bound: false
 token_urls:
 - https://platform.qa.com/oauth2/token/
 ---

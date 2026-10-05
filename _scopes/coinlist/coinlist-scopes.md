@@ -119,6 +119,7 @@ tags:
 - Blockchain
 - Digital Assets
 - Embedded Finance
+token_bound: false
 token_urls:
 - /oauth/token
 ---

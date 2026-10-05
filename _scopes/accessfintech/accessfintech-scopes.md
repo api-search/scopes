@@ -89,6 +89,7 @@ tags:
 - Reconciliation
 - Fintech
 - GraphQL
+token_bound: false
 token_urls:
 - https://login.accessfintech.com/oauth2/v1/token
 ---

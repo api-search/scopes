@@ -59,6 +59,7 @@ tags:
 - Software-as-a-Service
 - MCP
 - Ireland
+token_bound: false
 token_urls:
 - https://legitfit.com/api/oauth2/token
 ---

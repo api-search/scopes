@@ -59,6 +59,7 @@ tags:
 - Payment Initiation
 - Account Information
 - Europe
+token_bound: false
 token_urls:
 - https://api.kevin.eu/platform/auth/token
 ---

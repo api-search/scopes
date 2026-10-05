@@ -225,6 +225,7 @@ tags:
 - SSO
 - MFA
 - Identity Federation
+token_bound: false
 token_urls:
 - /as/token
 ---

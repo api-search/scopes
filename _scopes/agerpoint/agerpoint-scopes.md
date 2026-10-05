@@ -9,16 +9,72 @@ method: probed
 name: Agerpoint Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Agerpoint uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Agerpoint publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Agerpoint API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Agerpoint
 provider_slug: agerpoint
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- email
+- email_verified
+- offline_access
+- name
+- given_name
+- family_name
+- nickname
+- picture
+- created_at
+- identities
+- phone
+- address
+scopes:
+- description: Issue an OpenID Connect ID token for the authenticated subject.
+  flows: []
+  scope: openid
+- description: Basic profile claims (name, nickname, picture, created_at).
+  flows: []
+  scope: profile
+- description: Email address claim.
+  flows: []
+  scope: email
+- description: Email verification status claim.
+  flows: []
+  scope: email_verified
+- description: Issue a refresh token for long-lived access.
+  flows: []
+  scope: offline_access
+- description: Full name claim.
+  flows: []
+  scope: name
+- description: Given name claim.
+  flows: []
+  scope: given_name
+- description: Family name claim.
+  flows: []
+  scope: family_name
+- description: Nickname claim.
+  flows: []
+  scope: nickname
+- description: Profile picture URL claim.
+  flows: []
+  scope: picture
+- description: Account creation timestamp claim.
+  flows: []
+  scope: created_at
+- description: Linked identity-provider identities claim.
+  flows: []
+  scope: identities
+- description: Phone number claim.
+  flows: []
+  scope: phone
+- description: Address claim.
+  flows: []
+  scope: address
 slug: agerpoint-scopes
 source_filename: agerpoint-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +83,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: https://agerpoint
   - name: email\n  description: Email address claim.\n  kind: oidc\n- name: email_verified\n  description: Email verification status claim.\n  kind: oidc\n- name: offline_access\n  description: Issue a refresh token for long-lived access.\n  kind: oidc\n- name: name\n  description: Full name claim.\n  kind: oidc\n- name: given_name\n  description: Given name claim.\n  kind: oidc\n- name: family_name\n  description: Family name claim.\n  kind: oidc\n- name: nickname\n  description: Nickname claim.\n  kind: oidc\n- name: picture\n  description: Profile picture URL claim.\n  kind: oidc\n- name: created_at\n  description: Account creation timestamp claim.\n  kind: oidc\n- name: identities\n  description: Linked identity-provider identities claim.\n  kind: oidc\n- name: phone\n  description: Phone number claim.\n  kind: oidc\n- name: address\n  description: Address claim.\n  kind: oidc\nscope_count: 14\ngaps:\n- >-\n  Agerpoint Cloud API scopes (the permissions that actually gate /api/Captures,\
   \ /api/Projects,\n  /api/PipelineJobs and the rest) are not published. Recovering them would require an authenticated\n  token introspection against the tenant, which this pipeline does not perform.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agerpoint/refs/heads/main/scopes/agerpoint-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Agriculture
 - Geospatial
@@ -40,5 +96,6 @@ tags:
 - Machine Learning
 - Spatial Analytics
 - Company
+token_bound: false
 token_urls: []
 ---

@@ -208,6 +208,7 @@ tags:
 - Carrier Billing
 - Consent Management
 - Machine-to-Machine
+token_bound: false
 token_urls:
 - https://openapi.airtel.in/locate/apis/customers/{customerBaId}/oauth2_token
 ---

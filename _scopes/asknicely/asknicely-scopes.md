@@ -92,6 +92,7 @@ tags:
 - Customer Success
 - Reviews
 - SMS
+token_bound: false
 token_urls:
 - https://mcp.asknice.ly/token
 ---

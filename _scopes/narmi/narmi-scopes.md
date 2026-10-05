@@ -368,6 +368,7 @@ tags:
 - FedNow
 - Cards
 - Financial Services
+token_bound: false
 token_urls:
 - /v2/oauth/token/
 ---

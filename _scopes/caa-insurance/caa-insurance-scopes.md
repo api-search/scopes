@@ -75,11 +75,11 @@ tags:
 - Auto Insurance
 - Home Insurance
 - Carrier
-- Brokers
 - Personal Lines
 - Telematics
 - Partner Gated
 - No Public API
+token_bound: false
 token_urls:
 - https://ccgexternalid.ciamlogin.com/018aba37-21fa-4b10-9382-01cdc448ba66/oauth2/v2.0/token
 ---

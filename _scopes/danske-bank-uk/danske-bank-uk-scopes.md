@@ -266,5 +266,6 @@ tags:
 - Account Information
 - FAPI
 - Fintech
+token_bound: false
 token_urls: []
 ---

@@ -58,16 +58,20 @@ method: probed
 name: Gameball Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Gameball uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Gameball publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Gameball API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Gameball
 provider_slug: gameball
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp
+scopes:
+- description: The single scope advertised in scopes_supported by both the RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata. Gameball publishes no finer-grained scope model — one scope grants access to the whole 54-tool MCP surface, which includes destructive operations (delete_reward_campaign, delete_redemption_option, delete_custom_earning_rule, deduct_customer_points).
+  flows: []
+  scope: mcp
 slug: gameball-scopes
 source_filename: gameball-scopes.yml
 source_heading: OAuth Scopes
@@ -76,7 +80,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://mcp.gameb
   \ true\nprotected_resource:\n  resource: https://mcp.gameball.co/\n  resource_name: Gameball MCP\n  authorization_servers: [https://mcp.gameball.co/]\nscope_count: 1\nscopes:\n  - name: mcp\n    description: >-\n      The single scope advertised in scopes_supported by both the RFC 8414\n      authorization-server metadata and the RFC 9728 protected-resource\n      metadata. Gameball publishes no finer-grained scope model — one scope\n      grants access to the whole 54-tool MCP surface, which includes destructive\n      operations (delete_reward_campaign, delete_redemption_option,\n      delete_custom_earning_rule, deduct_customer_points).\n    source: https://mcp.gameball.co/.well-known/oauth-authorization-server\nfinding: >-\n  A single coarse scope with no read/write or per-resource split. An agent\n  granted \"mcp\" can read customer data and also delete campaigns and deduct\n  customer points. There is no documented way for a client to request a\n  narrower grant.\nevidence:\n  -\
   \ url: https://mcp.gameball.co/.well-known/oauth-authorization-server\n    http_status: 200\n  - url: https://mcp.gameball.co/.well-known/oauth-protected-resource\n    http_status: 200\ndocs: null\ndocs_note: >-\n  No scopes/permissions reference page was found on docs.gameball.co; the scope\n  model is only discoverable from the two well-known metadata documents.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/scopes/gameball-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Company
 - Loyalty
@@ -89,5 +93,6 @@ tags:
 - E-Commerce
 - A2A
 - Loyalty & Incentives
+token_bound: false
 token_urls: []
 ---

@@ -244,16 +244,32 @@ method: searched
 name: Eliq Scopes
 name_suffix: OAuth Scopes
 note: Eliq does NOT publish a scope reference page. The scopes below are the ones the provider's own documentation and Auth API contract show by name in request examples and token-claim examples — they are transcribed, not enumerated from a catalogue, and the real per-client scope set is only visible inside the Client Admin Portal. `scopes_supported` is absent from the OIDC discovery document too. NO SCOPE HERE WAS INVENTED and this list is not claimed to be complete.
-overview: 'Eliq uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Eliq publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Eliq API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Eliq
 provider_slug: eliq
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- insights.read
+- insights.write
+- data.read
+- data.write
+scopes:
+- description: Read access to the Eliq Insights API.
+  flows: []
+  scope: insights.read
+- description: Write access to the Eliq Insights API.
+  flows: []
+  scope: insights.write
+- description: Read access to Eliq data.
+  flows: []
+  scope: data.read
+- description: Write access to Eliq data.
+  flows: []
+  scope: data.write
 slug: eliq-scopes
 source_filename: eliq-scopes.yml
 source_heading: OAuth Scopes
@@ -262,7 +278,7 @@ source_yaml: "# Eliq OAuth scopes — transcribed from the provider's auth docum
   \  complete.\nscope_count: 4\nscopes:\n- name: insights.read\n  description: Read access to the Eliq Insights API.\n  evidence: https://developer.eliq.com/doc/authentication (delegated token example)\n- name: insights.write\n  description: Write access to the Eliq Insights API.\n  evidence: https://developer.eliq.com/doc/authentication (delegated token example)\n- name: data.read\n  description: Read access to Eliq data.\n  evidence: https://developer.eliq.com/doc/authentication (token claims table, `scope` claim example)\n- name: data.write\n  description: Write access to Eliq data.\n  evidence: https://developer.eliq.com/doc/authentication (token claims table, `scope` claim example)\naudiences:\n- name: data-management-api\n  description: Eliq Data Management API\n- name: insights-api\n  description: Eliq Insights API\naccess_types:\n- name: application\n  description: App (machine-to-machine) token\n- name: delegated\n  description: Token issued on behalf of a named subject\ndiscovery:\n\
   \  scopes_supported_published: false\n  url: https://auth-api.eliq.com/.well-known/openid-configuration\n  note: The discovery document carries issuer and jwks_uri only.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eliq/refs/heads/main/scopes/eliq-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Energy
 - Utilities
@@ -276,5 +292,6 @@ tags:
 - Consumption
 - Tariffs
 - Insights
+token_bound: false
 token_urls: []
 ---

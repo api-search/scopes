@@ -25,6 +25,9 @@ note: ''
 overview: 'Andel publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Andel API on a user''s behalf.
 
 
+  Tokens are issued from https://api.descope.com/oauth2/v1/apps/token.
+
+
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Andel
 provider_slug: andel
@@ -55,5 +58,7 @@ tags:
 - Specialty Medications
 - Data Exchange
 - Webhook
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.descope.com/oauth2/v1/apps/token
 ---

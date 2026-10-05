@@ -374,6 +374,7 @@ summary_line: 24 scopes · authorizationCode/clientCredentials
 tags:
 - Health
 - Public APIs
+token_bound: false
 token_urls:
 - https://auth.orionhealth.com/oauth2/token
 ---

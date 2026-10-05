@@ -234,6 +234,7 @@ tags:
 - Podcasts
 - Playlists
 - Spotify
+token_bound: false
 token_urls:
 - https://accounts.spotify.com/api/token
 ---

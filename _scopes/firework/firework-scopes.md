@@ -125,6 +125,7 @@ tags:
 - Video
 - SDK
 - Webhook
+token_bound: false
 token_urls:
 - https://api.firework.com/oauth/token
 ---

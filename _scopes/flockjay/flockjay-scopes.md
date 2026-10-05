@@ -9,16 +9,24 @@ method: probed
 name: Flockjay Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Flockjay uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Flockjay publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Flockjay API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Flockjay
 provider_slug: flockjay
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- read
+- offline_access
+scopes:
+- description: Read access to the caller's Flockjay enablement data. Required by the MCP server — the WWW-Authenticate challenge on POST /mcp names scope="read" explicitly.
+  flows: []
+  scope: read
+- description: Issues a refresh token so an agent can keep calling after the access token expires. Backed by grant_types_supported including refresh_token.
+  flows: []
+  scope: offline_access
 slug: flockjay-scopes
 source_filename: flockjay-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +35,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: >-\n  https://api
   \  - https://api.flockjay.com/mcp\n  source: oauth-authorization-server metadata + WWW-Authenticate challenge\n- name: offline_access\n  description: >-\n    Issues a refresh token so an agent can keep calling after the access token\n    expires. Backed by grant_types_supported including refresh_token.\n  source: oauth-authorization-server metadata\n\nscope_count: 2\n\nfindings:\n- >-\n  The scope model is read-only. No write, admin, or resource-specific scope is\n  advertised, so an OAuth client — including the MCP server — cannot mutate\n  enablement data through this path. That is a deliberate and defensible posture\n  for an agent surface, and worth saying plainly.\n- >-\n  Scopes are coarse. There is no per-resource decomposition (no courses:read,\n  no scorecards:read), so a customer granting an AI assistant access grants it\n  everything readable at once. There is no way to consent to less.\n- >-\n  Because token_endpoint_auth_methods_supported is [\"none\"] and registration is\n\
   \  dynamic, any client can register and request these scopes; the control point is\n  the user's authorization decision at https://flockjay.com/oauth/authorize, not\n  client vetting.\n\nrelated:\n  authentication: authentication/flockjay-authentication.yml\n  mcp: mcp/flockjay-mcp.yml\n  well_known: well-known/flockjay-well-known.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/scopes/flockjay-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Company
 - Sales Enablement
@@ -40,5 +48,6 @@ tags:
 - MCP
 - Agent-Native
 - Authentication
+token_bound: false
 token_urls: []
 ---

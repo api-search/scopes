@@ -300,5 +300,6 @@ tags:
 - GraphQL
 - Developer Platform
 - Application
+token_bound: false
 token_urls: []
 ---

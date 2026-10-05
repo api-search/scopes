@@ -121,13 +121,13 @@ summary_line: 6 scopes · authorizationCode
 tags:
 - Returns
 - E-Commerce
-- Exchange
 - Refunds
 - Shipping
 - Post-Purchase
 - Shopify
 - Fraud Prevention
 - Retail
+token_bound: false
 token_urls:
 - https://oauth.loopreturns.com/oauth/token
 ---

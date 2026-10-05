@@ -256,16 +256,36 @@ method: searched
 name: Customer Io Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Customer.io uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Customer.io publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Customer.io API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Customer.io
 provider_slug: customer-io
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- read
+- read:sensitive
+- write
+- write:live
+- configure
+scopes:
+- description: Read automations, segments, profiles, content and delivery metrics — excluding data classified as sensitive. This is the default scope on every connection.
+  flows: []
+  scope: read
+- description: Read profile attributes classified as sensitive (PII).
+  flows: []
+  scope: read:sensitive
+- description: 'Create, edit and delete drafts: automations, segments, one-time sends, templates, profiles and other content.'
+  flows: []
+  scope: write
+- description: Send messages, manage subscriptions and suppressions, and enable subscription centers. Does not include editing content.
+  flows: []
+  scope: write:live
+- description: Configure integrations, webhooks, channel settings and other workspace settings. Does not include editing content or sending messages.
+  flows: []
+  scope: configure
 slug: customer-io-scopes
 source_filename: customer-io-scopes.yml
 source_heading: OAuth Scopes
@@ -275,7 +295,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.cu
   \ AI\n    settings.\n  - The user holds the Sensitive Data View permission on their role.\n- name: write\n  required: false\n  description: >-\n    Create, edit and delete drafts: automations, segments, one-time sends,\n    templates, profiles and other content.\n- name: write:live\n  required: false\n  description: >-\n    Send messages, manage subscriptions and suppressions, and enable\n    subscription centers. Does not include editing content.\n  preconditions:\n  - Account admin has enabled \"Allow MCP to edit live data\" in AI settings.\n- name: configure\n  required: false\n  description: >-\n    Configure integrations, webhooks, channel settings and other workspace\n    settings. Does not include editing content or sending messages.\nenforcement:\n- >-\n  Customer.io checks the account-level \"Customer.io MCP\" toggle on every call.\n  If an admin disables it, an already-authorized session receives 403 on every\n  tool without its OAuth token being revoked; re-enabling restores\
   \ access to the\n  same sessions.\n- >-\n  Scope approval happens in the browser during the OAuth authorization_code +\n  PKCE flow, not in client configuration.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/scopes/customer-io-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes
 tags:
 - Behavioral Data
 - Broadcast
@@ -293,5 +313,6 @@ tags:
 - SMS
 - Transactional Email
 - A2A
+token_bound: false
 token_urls: []
 ---

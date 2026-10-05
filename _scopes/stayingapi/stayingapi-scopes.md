@@ -86,6 +86,7 @@ tags:
 - MCP
 - Agent-Native
 - OpenAPI
+token_bound: false
 token_urls:
 - https://mcp.stayingapi.com/mcp/oauth/token
 ---

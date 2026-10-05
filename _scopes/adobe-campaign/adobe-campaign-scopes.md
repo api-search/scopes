@@ -112,16 +112,28 @@ method: probed
 name: Adobe Campaign Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Adobe Campaign uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Adobe Campaign publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Adobe Campaign API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Adobe Campaign
 provider_slug: adobe-campaign
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- openid
+- email
+- profile
+scopes:
+- description: OIDC identity scope. Requests an ID token for the authenticated Adobe identity.
+  flows: []
+  scope: openid
+- description: Releases the email claim on the ID token / userinfo response.
+  flows: []
+  scope: email
+- description: Releases the profile claims (sub, given_name, family_name, name) on the ID token / userinfo response. Unrelated to Adobe Campaign "profile" records.
+  flows: []
+  scope: profile
 slug: adobe-campaign-scopes
 source_filename: adobe-campaign-scopes.yml
 source_heading: OAuth Scopes
@@ -130,7 +142,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://ims-na1.a
   \ finding; it is not a gap in our harvest.\nauthorization_server:\n  issuer: https://ims-na1.adobelogin.com\n  authorization_endpoint: https://ims-na1.adobelogin.com/ims/authorize/v2\n  token_endpoint: https://ims-na1.adobelogin.com/ims/token/v3\n  revocation_endpoint: https://ims-na1.adobelogin.com/ims/revoke\n  userinfo_endpoint: https://ims-na1.adobelogin.com/ims/userinfo/v2\n  jwks_uri: https://ims-na1.adobelogin.com/ims/keys\n  registration_endpoint: https://ims-na1.adobelogin.com/ims/register\n  grant_types_supported:\n    - authorization_code\n    - implicit_grant\n    - refresh_token\n  code_challenge_methods_supported:\n    - S256\n    - plain\n  token_endpoint_auth_methods_supported:\n    - client_secret_basic\n    - client_secret_post\nscope_count: 3\nscopes:\n  - name: openid\n    description: OIDC identity scope. Requests an ID token for the authenticated Adobe identity.\n    source: ims discovery scopes_supported\n  - name: email\n    description: Releases the email claim\
   \ on the ID token / userinfo response.\n    source: ims discovery scopes_supported\n  - name: profile\n    description: >-\n      Releases the profile claims (sub, given_name, family_name, name) on the ID\n      token / userinfo response. Unrelated to Adobe Campaign \"profile\" records.\n    source: ims discovery scopes_supported\nnot_scoped:\n  - surface: Campaign Classic SOAP-over-HTTP\n    reason: >-\n      Session-token authentication (xtk:session#Logon) has no OAuth layer and\n      therefore no scopes.\n  - surface: Campaign REST resource permissions\n    reason: >-\n      Campaign APIs run in the administrator context and are excluded from the\n      role context by default, so resource access is not narrowed by a token\n      scope. See authentication/adobe-campaign-authentication.yml#tenancy.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/scopes/adobe-campaign-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes
 tags:
 - Campaign Management
 - Customer Experience
@@ -144,5 +156,6 @@ tags:
 - Push Notifications
 - Workflow Automation
 - Privacy
+token_bound: false
 token_urls: []
 ---

@@ -228,6 +228,7 @@ tags:
 - No-Code
 - SCIM
 - Webhook
+token_bound: false
 token_urls:
 - https://enterprise.knak.io/oauth/token
 ---

@@ -9,16 +9,36 @@ method: searched
 name: Perk Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Perk uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Perk publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Perk API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Perk
 provider_slug: perk
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- user:read
+- trip:read
+- expenses:read
+- report:write
+- my-travel-policy:read
+scopes:
+- description: ''
+  flows: []
+  scope: user:read
+- description: ''
+  flows: []
+  scope: trip:read
+- description: ''
+  flows: []
+  scope: expenses:read
+- description: ''
+  flows: []
+  scope: report:write
+- description: ''
+  flows: []
+  scope: my-travel-policy:read
 slug: perk-scopes
 source_filename: perk-scopes.yml
 source_heading: OAuth Scopes
@@ -26,7 +46,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://developers.perk.com/docs/authenticate-with-the-perk-mcp-server\ndocs: https://developers.perk.com/docs/perk-mcp-tools-reference\nname: Perk OAuth Scopes\ntype: OAuthScopes\ndescription: >-\n  Colon-separated OAuth 2.0 scope strings verified for the current release, used by\n  the Perk MCP server and OAuth partner integrations. Also confirmed in the MCP\n  protected-resource metadata (scopes_supported).\nstyle: colon-separated\nscopes:\n- name: user:read\n  grants: Read user profile and search results.\n  required: true\n- name: trip:read\n  grants: Read trips and trip breakdowns.\n  required: true\n- name: expenses:read\n  grants: Read the signed-in user's expenses.\n- name: report:write\n  grants: Generate, poll, and download travel and spend reports (same scope covers download/poll).\n- name: my-travel-policy:read\n  grants: Read the user's travel and spend policy.\nnotes:\n- Invoice, event, and card tools require\
   \ no additional scope; access follows the user's Perk role/permissions (RBAC).\n- Card and transaction tools additionally require a Spend subscription.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/scopes/perk-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes
 tags:
 - Company
 - Corporate Travel
@@ -36,5 +56,6 @@ tags:
 - Invoices
 - Fintech
 - Software-as-a-Service
+token_bound: false
 token_urls: []
 ---

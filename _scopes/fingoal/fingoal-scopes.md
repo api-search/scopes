@@ -101,6 +101,7 @@ tags:
 - Banking
 - Categorization
 - Webhook
+token_bound: false
 token_urls:
 - https://findmoney.fingoal.com/v3/authentication
 ---

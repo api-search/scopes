@@ -189,5 +189,6 @@ tags:
 - Computer Use
 - MCP
 - Managed Auth
+token_bound: false
 token_urls: []
 ---

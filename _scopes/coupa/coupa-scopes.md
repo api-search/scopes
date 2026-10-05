@@ -111,6 +111,7 @@ tags:
 - Invoicing
 - Procurement
 - Supply Chain
+token_bound: false
 token_urls:
 - https://{instance}.coupahost.com/oauth2/token
 ---

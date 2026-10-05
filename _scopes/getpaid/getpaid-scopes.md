@@ -115,6 +115,7 @@ tags:
 - Subscription
 - Agentic Payments
 - Europe
+token_bound: false
 token_urls:
 - https://auth.getpaid.io/oauth/token
 ---

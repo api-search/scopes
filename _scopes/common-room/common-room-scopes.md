@@ -241,6 +241,7 @@ tags:
 - SCIM
 - Signal Intelligence
 - Community
+token_bound: false
 token_urls:
 - https://login.commonroom.io/oauth/token
 ---

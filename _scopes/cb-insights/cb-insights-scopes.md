@@ -163,6 +163,7 @@ tags:
 - Agent-Native
 - Data Enrichment
 - Snowflake
+token_bound: false
 token_urls:
 - https://mcp.cbinsights.com/token
 ---

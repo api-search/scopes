@@ -323,6 +323,7 @@ tags:
 - Repository Hosting
 - Version Control
 - Bitbucket
+token_bound: false
 token_urls:
 - https://bitbucket.org/site/oauth2/access_token
 ---

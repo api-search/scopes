@@ -65,6 +65,7 @@ tags:
 - Developer Tools
 - Electronic Design Automation
 - Authentication
+token_bound: false
 token_urls:
 - https://scs.sifive.com/o/token/
 ---

@@ -76,5 +76,6 @@ tags:
 - Training
 - Risk Management
 - Software-as-a-Service
+token_bound: false
 token_urls: []
 ---

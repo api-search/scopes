@@ -187,6 +187,7 @@ tags:
 - Natural Language Processing
 - Predictive Analytics
 - Salesforce
+token_bound: false
 token_urls:
 - https://login.salesforce.com/services/oauth2/token
 ---

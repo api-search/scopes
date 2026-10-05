@@ -114,7 +114,8 @@ api_specs:
   slug: gemini-trust-volume-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/openapi/gemini-trust-volume-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://exchange.gemini.com/auth
 description: ''
 docs: https://developer.gemini.com/authentication/oauth
 flows: []
@@ -124,16 +125,147 @@ method: probed
 name: Gemini Trust Scopes
 name_suffix: OAuth Scopes
 note: These scopes are NOT in either OpenAPI - neither spec declares an oauth2 securityScheme, so the derive-from-spec path returns nothing. They come from the provider's live RFC 8414 authorization-server metadata, which is the authoritative machine-readable source. 33 scopes, resource:action shaped.
-overview: 'Gemini Trust Company uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Gemini Trust Company publishes 32 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Gemini Trust Company API on a user''s behalf.
+
+
+  Tokens are issued from https://exchange.gemini.com/auth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Gemini Trust Company
 provider_slug: gemini-trust
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 32
+scope_names:
+- account:read
+- addresses:create
+- addresses:read
+- balances:read
+- banks:create
+- banks:read
+- clearing:create
+- clearing:read
+- crypto:send
+- fdx:accountbasic:read
+- fdx:accountdetailed:read
+- fdx:customercontact:read
+- fdx:rewards:read
+- fdx:statements:read
+- fdx:transactions:read
+- history:read
+- orders:create
+- orders:read
+- payments:create
+- payments:read
+- payments:send
+- positions:read
+- predictions:balances:read
+- predictions:orders:read
+- predictions:orders:write
+- predictions:positions:read
+- savedAddresses:create
+- savedAddresses:read
+- settlement:create-update
+- settlement:read
+- settlement:read-all
+- settlement:update
+scopes:
+- description: ''
+  flows: []
+  scope: account:read
+- description: ''
+  flows: []
+  scope: addresses:create
+- description: ''
+  flows: []
+  scope: addresses:read
+- description: ''
+  flows: []
+  scope: balances:read
+- description: ''
+  flows: []
+  scope: banks:create
+- description: ''
+  flows: []
+  scope: banks:read
+- description: ''
+  flows: []
+  scope: clearing:create
+- description: ''
+  flows: []
+  scope: clearing:read
+- description: ''
+  flows: []
+  scope: crypto:send
+- description: ''
+  flows: []
+  scope: fdx:accountbasic:read
+- description: ''
+  flows: []
+  scope: fdx:accountdetailed:read
+- description: ''
+  flows: []
+  scope: fdx:customercontact:read
+- description: ''
+  flows: []
+  scope: fdx:rewards:read
+- description: ''
+  flows: []
+  scope: fdx:statements:read
+- description: ''
+  flows: []
+  scope: fdx:transactions:read
+- description: ''
+  flows: []
+  scope: history:read
+- description: ''
+  flows: []
+  scope: orders:create
+- description: ''
+  flows: []
+  scope: orders:read
+- description: ''
+  flows: []
+  scope: payments:create
+- description: ''
+  flows: []
+  scope: payments:read
+- description: ''
+  flows: []
+  scope: payments:send
+- description: ''
+  flows: []
+  scope: positions:read
+- description: ''
+  flows: []
+  scope: predictions:balances:read
+- description: ''
+  flows: []
+  scope: predictions:orders:read
+- description: ''
+  flows: []
+  scope: predictions:orders:write
+- description: ''
+  flows: []
+  scope: predictions:positions:read
+- description: ''
+  flows: []
+  scope: savedAddresses:create
+- description: ''
+  flows: []
+  scope: savedAddresses:read
+- description: ''
+  flows: []
+  scope: settlement:create-update
+- description: ''
+  flows: []
+  scope: settlement:read
+- description: ''
+  flows: []
+  scope: settlement:read-all
+- description: ''
+  flows: []
+  scope: settlement:update
 slug: gemini-trust-scopes
 source_filename: gemini-trust-scopes.yml
 source_heading: OAuth Scopes
@@ -142,7 +274,7 @@ source_yaml: "generated: '2026-09-18'\nmethod: probed\nsource: https://api.gemin
   \  access_token: 24 hours\n  refresh_token: non-expiring\nscope_count: 32\nscopes:\n- name: account:read\n- name: addresses:create\n- name: addresses:read\n- name: balances:read\n- name: banks:create\n- name: banks:read\n- name: clearing:create\n- name: clearing:read\n- name: crypto:send\n- name: fdx:accountbasic:read\n- name: fdx:accountdetailed:read\n- name: fdx:customercontact:read\n- name: fdx:rewards:read\n- name: fdx:statements:read\n- name: fdx:transactions:read\n- name: history:read\n- name: orders:create\n- name: orders:read\n- name: payments:create\n- name: payments:read\n- name: payments:send\n- name: positions:read\n- name: predictions:balances:read\n- name: predictions:orders:read\n- name: predictions:orders:write\n- name: predictions:positions:read\n- name: savedAddresses:create\n- name: savedAddresses:read\n- name: settlement:create-update\n- name: settlement:read\n- name: settlement:read-all\n- name: settlement:update\nscope_families:\n  fdx:\n    count: 6\n    note: 'Financial\
   \ Data Exchange (FDX) namespaced scopes - fdx:accountbasic:read, fdx:accountdetailed:read, fdx:customercontact:read,\n      fdx:rewards:read, fdx:statements:read, fdx:transactions:read. See conformance/gemini-trust-conformance.yml:\n      this is a real domain-standard signature carried in the contract, not a marketing claim.'\n  predictions:\n    count: 4\n  settlement:\n    count: 4\nsandbox:\n  issuer: https://exchange.sandbox.gemini.com\n  source: https://api.sandbox.gemini.com/.well-known/oauth-authorization-server\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gemini-trust/refs/heads/main/scopes/gemini-trust-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 32 scopes
 tags:
 - Company
 - Cryptocurrency
@@ -160,5 +292,7 @@ tags:
 - FIX
 - Real-Time
 - A2A
-token_urls: []
+token_bound: false
+token_urls:
+- https://exchange.gemini.com/auth/token
 ---

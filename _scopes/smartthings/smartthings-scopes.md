@@ -170,6 +170,7 @@ tags:
 - Home Automation
 - Devices
 - Samsung
+token_bound: false
 token_urls:
 - https://api.smartthings.com/oauth/token
 ---

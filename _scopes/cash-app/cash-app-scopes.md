@@ -211,5 +211,6 @@ tags:
 - Payment Acceptance
 - Digital Wallet
 - Consumer Finance
+token_bound: false
 token_urls: []
 ---

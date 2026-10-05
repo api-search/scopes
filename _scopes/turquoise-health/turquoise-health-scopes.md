@@ -70,6 +70,7 @@ tags:
 - Eligibility
 - Standard Service Packages
 - HIPAA
+token_bound: false
 token_urls:
 - https://api.turquoise.health/oauth/token
 ---

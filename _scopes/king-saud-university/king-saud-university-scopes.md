@@ -22,16 +22,40 @@ method: searched
 name: King Saud University Scopes
 name_suffix: OAuth Scopes
 note: 'These are the university''s declared scopes, not a reconstruction. Three are standard OpenID Connect scopes and three are deployment-specific to KSU''s e-portal. Scope grants are not self-service: the discovery document advertises a registration_endpoint at https://iam.ksu.edu.sa/as/clients.oauth2, but that URL returned HTTP 404 to an anonymous request on 2026-09-01, so a third-party developer cannot obtain a client — and therefore cannot obtain any of these scopes — without going through the university directly.'
-overview: 'King Saud University uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'King Saud University publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the King Saud University API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: King Saud University
 provider_slug: king-saud-university
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- openid
+- profile
+- email
+- eportalclaims
+- eportalWebScope
+- NoClaim
+scopes:
+- description: Requests an ID token; required for any OpenID Connect flow.
+  flows: []
+  scope: openid
+- description: Basic profile claims. Against this deployment's claims_supported that includes name, given_name, family_name, middle_name, nickname, preferred_username, picture, website, gender, birthdate, zoneinfo, locale and updated_at.
+  flows: []
+  scope: profile
+- description: The end user's email address and its verification status.
+  flows: []
+  scope: email
+- description: King Saud University e-portal claim set. Not documented publicly; the name appears only in the university's discovery document.
+  flows: []
+  scope: eportalclaims
+- description: King Saud University e-portal web scope, used by the university's own web-tier clients. Not documented publicly.
+  flows: []
+  scope: eportalWebScope
+- description: Issues a token carrying no claims — a PingFederate pattern for authentication-only or client-credentials use where no user attributes should be released.
+  flows: []
+  scope: NoClaim
 slug: king-saud-university-scopes
 source_filename: king-saud-university-scopes.yml
 source_heading: OAuth Scopes
@@ -41,7 +65,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: >-\n  The `scop
   \ used by the university's own\n      web-tier clients. Not documented publicly.\n  - name: NoClaim\n    standard: deployment-specific\n    description: >-\n      Issues a token carrying no claims — a PingFederate pattern for\n      authentication-only or client-credentials use where no user attributes\n      should be released.\nclaims_supported:\n  standard:\n    - sub\n    - name\n    - given_name\n    - family_name\n    - middle_name\n    - nickname\n    - preferred_username\n    - profile\n    - picture\n    - website\n    - email\n    - email_verified\n    - gender\n    - birthdate\n    - zoneinfo\n    - locale\n    - updated_at\n    - phone_number\n    - phone_number_verified\n    - address\n  deployment_specific:\n    - StudentName\n    - sAMAccountName\n    - userPrincipalName\n    - givenName\n    - sn\n    - mail\n    - mobile\n    - username\n    - sid\n    - pi.sri\n    - extensionAttribute1\n    - extensionAttribute3\n    - extensionAttribute4\n    - extensionAttribute6\n\
   \    - extensionAttribute7\n  note: >-\n    The deployment-specific list is Active Directory attribute passthrough\n    (sAMAccountName, userPrincipalName, sn, givenName, mail) plus a StudentName\n    claim, which tells you the identity provider is fronting the university's\n    directory and student records rather than a standalone user store.\nopen_data_surface:\n  api: king-saud-university:open-data\n  scopes: []\n  note: >-\n    The Open Data distribution surface at data.ksu.edu.sa requires no\n    authorization at all — no scope, key or token. It is governed by the King Saud\n    University Open Data Licence (https://data.ksu.edu.sa/ar/node/1178) rather\n    than by an authorization server.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/king-saud-university/refs/heads/main/scopes/king-saud-university-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - Education
 - Higher Education
@@ -56,5 +80,6 @@ tags:
 - SSO
 - Research
 - Linked Data
+token_bound: false
 token_urls: []
 ---

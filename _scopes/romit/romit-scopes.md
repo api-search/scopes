@@ -186,6 +186,7 @@ tags:
 - Invoicing
 - Subscription
 - Defunct
+token_bound: false
 token_urls:
 - https://api.romit.io/v1/oauth/token
 ---

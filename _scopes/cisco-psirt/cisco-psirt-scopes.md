@@ -74,6 +74,7 @@ tags:
 - Disclosure
 - Compliance
 - Networking
+token_bound: false
 token_urls:
 - https://id.cisco.com/oauth2/default/v1/token
 ---

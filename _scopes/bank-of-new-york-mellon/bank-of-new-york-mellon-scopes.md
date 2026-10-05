@@ -100,6 +100,7 @@ tags:
 - Treasury
 - Wire Transfers
 - Fortune 500
+token_bound: false
 token_urls:
 - https://api.bnymellon.com/oauth/token
 ---

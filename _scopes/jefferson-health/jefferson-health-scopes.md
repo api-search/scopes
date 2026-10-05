@@ -246,6 +246,7 @@ tags:
 - SMART on FHIR
 - US Core
 - USCDI
+token_bound: false
 token_urls:
 - https://fhir.jefferson.edu/FHIRProxy/oauth2/token
 ---

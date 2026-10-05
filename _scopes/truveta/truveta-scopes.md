@@ -115,6 +115,7 @@ tags:
 - Analytics
 - Artificial Intelligence
 - Data Platform
+token_bound: false
 token_urls:
 - https://login.truveta.com/oauth/token
 ---

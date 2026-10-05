@@ -184,6 +184,7 @@ tags:
 - Pipelines
 - Workflows
 - A2A
+token_bound: false
 token_urls:
 - https://api.attio.com/oauth/token
 ---

@@ -643,6 +643,7 @@ tags:
 - Menus
 - Payments
 - Webhook
+token_bound: false
 token_urls:
 - https://api.flipdish.co/identity/connect/token
 ---

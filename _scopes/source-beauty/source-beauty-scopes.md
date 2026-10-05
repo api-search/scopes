@@ -69,6 +69,7 @@ tags:
 - Egypt
 - Skincare
 - Consumer
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/68449239327/oauth/token
 ---

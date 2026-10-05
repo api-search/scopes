@@ -147,6 +147,7 @@ tags:
 - Lead Generation
 - Prospecting
 - Sales Intelligence
+token_bound: false
 token_urls:
 - https://hunter.io/oauth/token
 ---

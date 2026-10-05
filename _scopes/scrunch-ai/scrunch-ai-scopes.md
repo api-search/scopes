@@ -128,5 +128,6 @@ tags:
 - SEO
 - Agent Experience
 - MCP
+token_bound: false
 token_urls: []
 ---

@@ -59,6 +59,7 @@ tags:
 - xAPI
 - SCIM
 - Security Awareness
+token_bound: false
 token_urls:
 - https://app.cybrary.it/auth/oauth/token
 ---

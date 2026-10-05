@@ -493,6 +493,7 @@ tags:
 - Social Impact
 - CRM
 - Webhook
+token_bound: false
 token_urls:
 - /oauth2/auth
 ---

@@ -619,6 +619,7 @@ tags:
 - Germany
 - JSON:API
 - Authentication
+token_bound: false
 token_urls:
 - https://www.cobot.me/oauth/access_token
 ---

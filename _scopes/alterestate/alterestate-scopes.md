@@ -84,6 +84,7 @@ tags:
 - Software-as-a-Service
 - Artificial Intelligence
 - MCP
+token_bound: false
 token_urls:
 - https://secure.alterestate.com/oauth/token/
 ---

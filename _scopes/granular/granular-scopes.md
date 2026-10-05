@@ -85,6 +85,7 @@ tags:
 - Crop Planning
 - Agronomy
 - AgTech
+token_bound: false
 token_urls:
 - https://auth.granular.ag/oauth/token
 ---

@@ -114,6 +114,7 @@ tags:
 - E-Commerce
 - Artificial Intelligence
 - Webhook
+token_bound: false
 token_urls:
 - https://justt.ai/oauth/token
 ---

@@ -145,6 +145,7 @@ tags:
 - Fintech
 - Software-as-a-Service
 - Belgium
+token_bound: false
 token_urls:
 - https://live.getsilverfin.com/f/{firm_id}/oauth/token
 ---

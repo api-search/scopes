@@ -58,6 +58,7 @@ tags:
 - Expense Management
 - Financial Services
 - Singapore
+token_bound: false
 token_urls:
 - https://api.aspireapp.com/public/v1/login
 ---

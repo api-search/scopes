@@ -132,6 +132,7 @@ tags:
 - VR
 - Creative
 - Epic Games
+token_bound: false
 token_urls:
 - https://sketchfab.com/oauth2/token/
 ---

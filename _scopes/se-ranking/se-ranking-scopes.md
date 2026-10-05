@@ -120,6 +120,7 @@ tags:
 - MCP
 - AI Agents
 - Agent Skills
+token_bound: false
 token_urls:
 - https://seranking.com/wp-json/seranking-mcp-oauth/v1/token
 ---

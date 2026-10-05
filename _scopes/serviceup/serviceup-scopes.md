@@ -66,6 +66,7 @@ tags:
 - AI Agents
 - MCP
 - Transportation
+token_bound: false
 token_urls:
 - https://auth.serviceup.com/api/auth/oauth2/token
 ---

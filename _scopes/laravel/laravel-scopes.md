@@ -612,6 +612,7 @@ tags:
 - Infrastructure
 - Framework
 - Monitoring
+token_bound: false
 token_urls:
 - https://forge.laravel.com/oauth/token
 ---

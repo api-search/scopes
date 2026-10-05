@@ -53,6 +53,7 @@ tags:
 - Health IT
 - SMART on FHIR
 - Clinical Data
+token_bound: false
 token_urls:
 - https://api.practicefusion.com/fhir/r4/v1/{organizationId}/token
 ---

@@ -211,6 +211,7 @@ tags:
 - Publishing
 - Inbox Management
 - Social Listening
+token_bound: false
 token_urls:
 - https://api.identity.agorapulse.com/oauth/token
 ---

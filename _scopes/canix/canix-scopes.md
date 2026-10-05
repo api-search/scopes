@@ -232,6 +232,7 @@ tags:
 - Metrc
 - Cultivation
 - Distribution
+token_bound: false
 token_urls:
 - https://api.canix.com/oauth/token
 ---

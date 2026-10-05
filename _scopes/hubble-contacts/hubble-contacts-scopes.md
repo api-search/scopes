@@ -73,6 +73,7 @@ tags:
 - MCP
 - Shopify
 - GraphQL
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/15165228/oauth/token
 ---

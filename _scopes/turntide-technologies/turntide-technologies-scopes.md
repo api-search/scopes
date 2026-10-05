@@ -63,6 +63,7 @@ tags:
 - Sustainability
 - Building Automation
 - Content Management
+token_bound: false
 token_urls:
 - https://turntide.com/oauth/token
 ---

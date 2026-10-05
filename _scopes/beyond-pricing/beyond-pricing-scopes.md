@@ -143,6 +143,7 @@ tags:
 - Travel
 - Pricing
 - JSON:API
+token_bound: false
 token_urls:
 - https://developers.beyondpricing.com/o/token/
 ---

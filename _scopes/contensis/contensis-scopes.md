@@ -27,23 +27,47 @@ api_specs:
 authorization_urls: []
 description: OAuth 2.0 scopes for the Contensis Management API. They are passed as a space-separated list in the `scope` parameter of a client_credentials token request against the per-tenant token endpoint. The published table is short — four named scopes covering projects and entries — and one further scope, ContentType_Read, appears in the docs' own worked example without appearing in the table.
 docs: https://www.contensis.com/help-and-docs/apis/management-http/security/scopes
-flows: []
+flows:
+- clientCredentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Contensis Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Contensis uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Contensis publishes 5 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Contensis API on a user''s behalf.
+
+
+  Tokens are issued from https://cms-{alias}.cloud.contensis.com/authenticate/connect/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Contensis
 provider_slug: contensis
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- Project_Read
+- Entry_Read
+- Entry_Write
+- Entry_Delete
+- ContentType_Read
+scopes:
+- description: Read a project.
+  flows: []
+  scope: Project_Read
+- description: Read entries.
+  flows: []
+  scope: Entry_Read
+- description: Create, update and publish entries.
+  flows: []
+  scope: Entry_Write
+- description: Delete an entry.
+  flows: []
+  scope: Entry_Delete
+- description: Read content types. Not listed in the scopes table, but used in the provider's own token-request example on the same page (`scope=Entry_Read ContentType_Read Project_Read`).
+  flows: []
+  scope: ContentType_Read
 slug: contensis-scopes
 source_filename: contensis-scopes.yml
 source_heading: OAuth Scopes
@@ -53,7 +77,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   \ the same page (`scope=Entry_Read ContentType_Read Project_Read`).\n    operations: []\n    evidence: >-\n      Example request body on\n      https://www.contensis.com/help-and-docs/apis/management-http/security/scopes\nfindings:\n  - >-\n    The Management API surface is far larger than the scope table covers. The published\n    reference documents operations for components, content types, workflows, nodes,\n    domains, certificates, blocks, renderers, proxies, assets, roles, groups, users and\n    webhook subscriptions — none of which appear in the scopes table. Either those\n    operations are unscoped, or the table is incomplete; the docs do not say which.\n  - >-\n    ContentType_Read appearing in an example but not the table is a straightforward\n    documentation defect and the kind of thing that makes a client-credentials integration\n    fail on first run with a 401.\n  - >-\n    The Delivery API has no scopes at all — one environment-wide token, read everything.\n    See authentication/contensis-authentication.yml.\n\
   maintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contensis/refs/heads/main/scopes/contensis-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes · clientCredentials
 tags:
 - CMS
 - Content
@@ -63,5 +87,7 @@ tags:
 - Content Delivery
 - Webhook
 - Higher Education
-token_urls: []
+token_bound: false
+token_urls:
+- https://cms-{alias}.cloud.contensis.com/authenticate/connect/token
 ---

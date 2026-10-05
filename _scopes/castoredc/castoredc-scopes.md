@@ -122,6 +122,7 @@ tags:
 - Healthcare
 - Life Sciences
 - Research
+token_bound: false
 token_urls:
 - https://data.castoredc.com/api/oauth/token
 ---

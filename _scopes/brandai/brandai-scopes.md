@@ -108,6 +108,7 @@ tags:
 - MCP
 - Brand Governance
 - Brand Intelligence
+token_bound: false
 token_urls:
 - https://app.brand.ai/api/auth/oauth2/token
 ---

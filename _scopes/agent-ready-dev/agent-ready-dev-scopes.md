@@ -18,6 +18,12 @@ api_specs:
   slug: agent-ready-dev-scans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agent-ready-dev/refs/heads/main/openapi/agent-ready-dev-scans-api-openapi.yml
+- filename: agent-ready-dev-x402-api-openapi.yml
+  format: yaml
+  label: Agent Ready X402 API
+  slug: agent-ready-dev-x402-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agent-ready-dev/refs/heads/main/openapi/agent-ready-dev-x402-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://agent-ready.dev/auth
@@ -95,5 +101,6 @@ tags:
 - Accessibility
 - Agent-Native
 - Australia
+token_bound: false
 token_urls: []
 ---

@@ -68,6 +68,7 @@ tags:
 - Agentic Commerce
 - Universal Commerce Protocol
 - Wine Preservation
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/83805208849/oauth/token
 ---

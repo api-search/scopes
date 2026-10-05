@@ -336,6 +336,7 @@ tags:
 - Building Management
 - Access Control
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://api.kisi.io/oauth/token
 ---

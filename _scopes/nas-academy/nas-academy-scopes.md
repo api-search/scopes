@@ -85,6 +85,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nas-academy/re
 summary_line: 6 scopes · authorizationCode
 tags:
 - Company
+token_bound: false
 token_urls:
 - https://auth.nas.com/oauth/token
 ---

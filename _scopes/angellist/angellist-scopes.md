@@ -81,6 +81,7 @@ tags:
 - Transaction
 - Venture Capital
 - A2A
+token_bound: false
 token_urls:
 - https://auth.angellist.com/token
 - https://docs.angellist.com/mcp/oauth/token

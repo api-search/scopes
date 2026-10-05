@@ -1233,6 +1233,7 @@ tags:
 - Nordic
 - Payroll
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://connect.visma.com/connect/token
 ---

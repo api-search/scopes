@@ -130,6 +130,7 @@ tags:
 - Care Management
 - Payers
 - Medical Coding
+token_bound: false
 token_urls:
 - /api/oauth/token
 - https://digital-outreach.us.auth0.com/oauth/token

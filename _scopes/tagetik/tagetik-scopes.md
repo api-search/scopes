@@ -63,6 +63,7 @@ tags:
 - Financial Planning
 - OData
 - Reporting
+token_bound: false
 token_urls:
 - https://{environment}/oauth2/token
 ---

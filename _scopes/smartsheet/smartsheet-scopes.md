@@ -127,6 +127,7 @@ tags:
 - Productivity
 - Workflow Automation
 - Spreadsheets
+token_bound: false
 token_urls:
 - https://api.smartsheet.com/2.0/token
 ---

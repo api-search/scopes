@@ -115,6 +115,7 @@ tags:
 - Multi-Cloud
 - Pipelines
 - CI/CD
+token_bound: false
 token_urls:
 - https://accounts.example.com/oauth/token
 ---

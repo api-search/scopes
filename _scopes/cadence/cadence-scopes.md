@@ -9,16 +9,160 @@ method: probed
 name: Cadence Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Cadence Design Systems uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Cadence Design Systems publishes 36 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cadence Design Systems API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Cadence Design Systems
 provider_slug: cadence
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 36
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- id
+- api
+- web
+- full
+- lightning
+- visualforce
+- content
+- refresh_token
+- offline_access
+- custom_permissions
+- chatter_api
+- chatbot_api
+- interaction_api
+- wave_api
+- eclair_api
+- pardot_api
+- scrt_api
+- sfap_api
+- einstein_gpt_api
+- mcp_api
+- user_registration_api
+- pwdless_login_api
+- forgot_password
+- data_cloud_user_claims
+- cdp_api
+- cdp_query_api
+- cdp_profile_api
+- cdp_ingest_api
+- cdp_segment_api
+- cdp_identityresolution_api
+- cdp_calculated_insight_api
+scopes:
+- description: ''
+  flows: []
+  scope: openid
+- description: ''
+  flows: []
+  scope: profile
+- description: ''
+  flows: []
+  scope: email
+- description: ''
+  flows: []
+  scope: address
+- description: ''
+  flows: []
+  scope: phone
+- description: ''
+  flows: []
+  scope: id
+- description: ''
+  flows: []
+  scope: api
+- description: ''
+  flows: []
+  scope: web
+- description: ''
+  flows: []
+  scope: full
+- description: ''
+  flows: []
+  scope: lightning
+- description: ''
+  flows: []
+  scope: visualforce
+- description: ''
+  flows: []
+  scope: content
+- description: ''
+  flows: []
+  scope: refresh_token
+- description: ''
+  flows: []
+  scope: offline_access
+- description: ''
+  flows: []
+  scope: custom_permissions
+- description: ''
+  flows: []
+  scope: chatter_api
+- description: ''
+  flows: []
+  scope: chatbot_api
+- description: ''
+  flows: []
+  scope: interaction_api
+- description: ''
+  flows: []
+  scope: wave_api
+- description: ''
+  flows: []
+  scope: eclair_api
+- description: ''
+  flows: []
+  scope: pardot_api
+- description: ''
+  flows: []
+  scope: scrt_api
+- description: ''
+  flows: []
+  scope: sfap_api
+- description: ''
+  flows: []
+  scope: einstein_gpt_api
+- description: ''
+  flows: []
+  scope: mcp_api
+- description: ''
+  flows: []
+  scope: user_registration_api
+- description: ''
+  flows: []
+  scope: pwdless_login_api
+- description: ''
+  flows: []
+  scope: forgot_password
+- description: ''
+  flows: []
+  scope: data_cloud_user_claims
+- description: ''
+  flows: []
+  scope: cdp_api
+- description: ''
+  flows: []
+  scope: cdp_query_api
+- description: ''
+  flows: []
+  scope: cdp_profile_api
+- description: ''
+  flows: []
+  scope: cdp_ingest_api
+- description: ''
+  flows: []
+  scope: cdp_segment_api
+- description: ''
+  flows: []
+  scope: cdp_identityresolution_api
+- description: ''
+  flows: []
+  scope: cdp_calculated_insight_api
 slug: cadence-scopes
 source_filename: cadence-scopes.yml
 source_heading: OAuth Scopes
@@ -29,7 +173,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: https://support.c
   \ null}\n  - {name: scrt_api, description: null}\n  - {name: sfap_api, description: null}\n  - {name: einstein_gpt_api, description: null}\n  - {name: mcp_api, description: null}\n  - {name: user_registration_api, description: null}\n  - {name: pwdless_login_api, description: null}\n  - {name: forgot_password, description: null}\n  - {name: data_cloud_user_claims, description: null}\n  - {name: cdp_api, description: null}\n  - {name: cdp_query_api, description: null}\n  - {name: cdp_profile_api, description: null}\n  - {name: cdp_ingest_api, description: null}\n  - {name: cdp_segment_api, description: null}\n  - {name: cdp_identityresolution_api, description: null}\n  - {name: cdp_calculated_insight_api, description: null}\nscope_count: 36\ndescription_coverage: >-\n  0 of 36 scopes carry a published description — the discovery document lists\n  names only and Cadence publishes no scope reference page.\n\nclaims_supported:\n  - active\n  - address\n  - email\n  - email_verified\n  - family_name\n\
   \  - given_name\n  - is_app_installed\n  - language\n  - locale\n  - name\n  - nickname\n  - organization_id\n  - phone_number\n  - phone_number_verified\n  - photos\n  - picture\n  - preferred_username\n  - profile\n  - sub\n  - updated_at\n  - urls\n  - user_id\n  - user_type\n  - zoneinfo\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/scopes/cadence-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 36 scopes
 tags:
 - Electronic Design Automation
 - EDA
@@ -39,5 +183,6 @@ tags:
 - PCB Design
 - Software
 - Company
+token_bound: false
 token_urls: []
 ---

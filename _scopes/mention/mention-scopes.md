@@ -122,6 +122,7 @@ tags:
 - Competitive Intelligence
 - Streaming
 - Marketing
+token_bound: false
 token_urls:
 - https://web.mention.net/oauth/v2/token
 ---

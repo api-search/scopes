@@ -196,16 +196,20 @@ method: probed
 name: Sirenic Eu Scopes
 name_suffix: OAuth Scopes
 note: 'OAuth 2.0 exists for ONE surface: the MCP connector at https://api.sirenic.eu/mcp/connecteur used by Gemini CLI / Claude / ChatGPT style assistants. The REST API itself is not OAuth — it is x402 pay-per-call or an X-Api-Key. The OpenAPI declares no oauth2 securityScheme, so derive-oauth-scopes.py produced nothing; this file is read from the live discovery documents.'
-overview: 'Sirenic uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Sirenic publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Sirenic API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Sirenic
 provider_slug: sirenic-eu
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp
+scopes:
+- description: Call the data routes on behalf of the account holder, against the account's free monthly quota then its prepaid credit balance. Does NOT grant the e-mail address, invoices, or the right to top up or close the account (privacy policy, MCP connector section). The only scope the authorization server advertises.
+  flows: []
+  scope: mcp
 slug: sirenic-eu-scopes
 source_filename: sirenic-eu-scopes.yml
 source_heading: OAuth Scopes
@@ -214,7 +218,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: https://api.siren
   \  - authorization_code\n  - refresh_token\n  response_types_supported:\n  - code\n  code_challenge_methods_supported:\n  - S256\n  token_endpoint_auth_methods_supported:\n  - private_key_jwt\n  - none\n  - client_secret_post\n  - client_secret_basic\n  client_id_metadata_document_supported: true\n  dynamic_client_registration: true\nprotected_resource:\n  resource: https://api.sirenic.eu\n  resource_name: Sirenic MCP\n  authorization_servers:\n  - https://api.sirenic.eu\n  bearer_methods_supported:\n  - header\ntoken_lifetimes:\n  access_token: 1 hour\n  refresh_token: expires after 90 days without use\n  source: https://api.sirenic.eu/confidentialite\nscopes:\n- name: mcp\n  description: Call the data routes on behalf of the account holder, against the account's free monthly quota then\n    its prepaid credit balance. Does NOT grant the e-mail address, invoices, or the right to top up or close the\n    account (privacy policy, MCP connector section). The only scope the authorization\
   \ server advertises.\n  source: scopes_supported in both discovery documents\nscope_count: 1\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sirenic-eu/refs/heads/main/scopes/sirenic-eu-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Company Data
 - Business Registry
@@ -234,5 +238,6 @@ tags:
 - MCP
 - A2A
 - Company
+token_bound: false
 token_urls: []
 ---

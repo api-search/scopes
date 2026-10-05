@@ -97,6 +97,7 @@ tags:
 - Networks
 - Australia
 - Verification
+token_bound: false
 token_urls:
 - https://tapi.telstra.com/v2/oauth/token
 ---

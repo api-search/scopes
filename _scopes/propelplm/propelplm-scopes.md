@@ -182,6 +182,7 @@ tags:
 - Salesforce
 - Bill of Materials
 - Change Management
+token_bound: false
 token_urls:
 - https://login.salesforce.com/services/oauth2/token
 ---

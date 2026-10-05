@@ -198,6 +198,7 @@ tags:
 - Real-Time
 - Open Source
 - Y Combinator
+token_bound: false
 token_urls:
 - https://api.insforge.dev/api/oauth/v1/token
 ---

@@ -143,6 +143,7 @@ tags:
 - Data Pipeline
 - Analytics
 - Enterprise
+token_bound: false
 token_urls:
 - https://studio.precog.cloud/api/mcp/oauth/token
 ---

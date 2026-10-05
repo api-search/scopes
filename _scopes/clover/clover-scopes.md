@@ -154,6 +154,7 @@ tags:
 - Retail
 - Small Business
 - Hardware
+token_bound: false
 token_urls:
 - https://api.clover.com/oauth/token
 ---

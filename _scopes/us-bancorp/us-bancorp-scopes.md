@@ -155,6 +155,7 @@ tags:
 - Open Banking
 - Treasury Management
 - Consumer Banking
+token_bound: false
 token_urls:
 - https://api.usbank.com/oauth/token
 ---

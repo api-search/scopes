@@ -67,6 +67,7 @@ tags:
 - Precision Medicine
 - United States
 - Company
+token_bound: false
 token_urls:
 - https://harbinger-health.com/oauth/token
 ---

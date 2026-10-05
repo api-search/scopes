@@ -94,6 +94,7 @@ tags:
 - DevOps
 - Mocking
 - Open Source
+token_bound: false
 token_urls:
 - https://keycloak.example.com/realms/microcks/protocol/openid-connect/token
 ---

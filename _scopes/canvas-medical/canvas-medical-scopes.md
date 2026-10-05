@@ -337,6 +337,7 @@ tags:
 - Clinical Workflows
 - Patient Management
 - Care Coordination
+token_bound: false
 token_urls:
 - https://{canvas-instance}.canvasmedical.com/auth/token/
 ---

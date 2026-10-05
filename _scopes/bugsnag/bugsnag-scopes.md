@@ -159,23 +159,37 @@ api_specs:
 authorization_urls: []
 description: BugSnag's OAuth surface is the authorization server behind the remote MCP server (bugsnag.mcp.smartbear.com). The REST Data Access API itself does not use OAuth — it authenticates with a personal auth token (see authentication/bugsnag-authentication.yml). Scopes below are read verbatim from the RFC 8414 authorization-server metadata document, not inferred.
 docs: https://developer.smartbear.com/smartbear-mcp/docs/remote-mcp-servers
-flows: []
+flows:
+- authorization_code
+- refresh_token
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Bugsnag Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Bugsnag uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Bugsnag publishes 3 OAuth 2.0 scopes via the authorization_code and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Bugsnag API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Bugsnag
 provider_slug: bugsnag
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- api
+- openid
+- profile
+scopes:
+- description: Access to the BugSnag API on behalf of the authenticated user. Declared in scopes_supported; the provider publishes no per-resource breakdown of what it covers, so no finer decomposition is recorded here.
+  flows: []
+  scope: api
+- description: OpenID Connect sign-in scope, requesting an ID token.
+  flows: []
+  scope: openid
+- description: Standard OIDC profile claims for the authenticated user.
+  flows: []
+  scope: profile
 slug: bugsnag-scopes
 source_filename: bugsnag-scopes.yml
 source_heading: OAuth Scopes
@@ -183,7 +197,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: https://oauth.bugsnag.com/.well-known/oauth-authorization-server\ndocs: https://developer.smartbear.com/smartbear-mcp/docs/remote-mcp-servers\ndescription: >-\n  BugSnag's OAuth surface is the authorization server behind the remote MCP\n  server (bugsnag.mcp.smartbear.com). The REST Data Access API itself does not\n  use OAuth — it authenticates with a personal auth token (see\n  authentication/bugsnag-authentication.yml). Scopes below are read verbatim\n  from the RFC 8414 authorization-server metadata document, not inferred.\nauthorization_server: https://oauth.bugsnag.com\nissuer: https://oauth.bugsnag.com\nendpoints:\n  authorization: https://oauth.bugsnag.com/authorize\n  token: https://oauth.bugsnag.com/token\n  registration: https://oauth.bugsnag.com/register\n  jwks: https://oauth.bugsnag.com/.well-known/jwks.json\nflows:\n  - authorization_code\n  - refresh_token\npkce:\n  required_methods:\n    - S256\ndynamic_client_registration:\
   \ true\ntoken_endpoint_auth_methods:\n  - client_secret_post\n  - none\nscopes:\n  - name: api\n    description: >-\n      Access to the BugSnag API on behalf of the authenticated user. Declared in\n      scopes_supported; the provider publishes no per-resource breakdown of what\n      it covers, so no finer decomposition is recorded here.\n  - name: openid\n    description: OpenID Connect sign-in scope, requesting an ID token.\n  - name: profile\n    description: Standard OIDC profile claims for the authenticated user.\nscope_count: 3\nnotes:\n  - >-\n    scopes_supported is coarse — one `api` scope covers the whole surface. An\n    agent cannot request read-only access to BugSnag over OAuth today.\n  - >-\n    The authorization server advertises no /.well-known/openid-configuration\n    (404) despite supporting the openid scope.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/scopes/bugsnag-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes · authorization_code/refresh_token
 tags:
 - Monitoring
 - Observability
@@ -192,5 +206,6 @@ tags:
 - Distributed Tracing
 - Developer Tools
 - SmartBear
+token_bound: false
 token_urls: []
 ---

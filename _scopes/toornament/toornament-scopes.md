@@ -108,6 +108,7 @@ tags:
 - Tournaments
 - Brackets
 - Competitions
+token_bound: false
 token_urls:
 - https://api.toornament.com/oauth/v2/token
 ---

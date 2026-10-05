@@ -39,5 +39,6 @@ tags:
 - Artificial Intelligence
 - Revenue Management
 - E-Commerce
+token_bound: false
 token_urls: []
 ---

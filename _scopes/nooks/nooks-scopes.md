@@ -269,6 +269,7 @@ tags:
 - CRM Integration
 - Agents
 - MCP
+token_bound: false
 token_urls:
 - https://oauth.nooks.in/oauth/token
 ---

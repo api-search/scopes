@@ -34,16 +34,20 @@ method: derived
 name: Kelvin Scopes
 name_suffix: OAuth Scopes
 note: 'kelvin does not run OAuth 2.0 — there is no authorization server, no securityScheme of type oauth2 and no scopes map in either spec, so derive-oauth-scopes.py finds nothing. Authorization is nevertheless scope-based: the team API key carries scopes, and the specification''s 403 descriptions name one of them explicitly and refer to others generically ("Scope manquant"). Only the scope kelvin actually names is recorded below; the rest are recorded as an unenumerated set rather than guessed.'
-overview: 'Kelvin uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Kelvin publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Kelvin API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Kelvin
 provider_slug: kelvin
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- catalog:read
+scopes:
+- description: Read the team's enabled catalogue of work gestures, services and pricing references.
+  flows: []
+  scope: catalog:read
 slug: kelvin-scopes
 source_filename: kelvin-scopes.yml
 source_heading: OAuth Scopes
@@ -52,7 +56,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: >-\n  openapi/ke
   \ operations\n  grants:\n  - GET /api/v3/catalog/enabled/gestures\n  - GET /api/v3/catalog/enabled/references\n  - GET /api/v3/catalog/enabled/services\n  description: >-\n    Read the team's enabled catalogue of work gestures, services and pricing\n    references.\nunenumerated_scopes:\n  count: unknown\n  evidence:\n  - description: 'Forbidden - Scope manquant ou document désactivé pour l''équipe.'\n    operations:\n    - POST /api/v3/simulations/{simulation_id}/documents/report\n    - POST /api/v3/simulations/{simulation_id}/documents/contribution-framework\n    - POST /api/v3/simulations/{simulation_id}/documents/dimensioning-note\n    - POST /api/v3/simulations/{simulation_id}/documents/sworn-statement\n  - description: 'Forbidden - Scope manquant ou devis désactivés pour l''équipe.'\n    operations:\n    - POST /api/v3/simulations/{simulation_id}/documents/commercial-offer\n  note: >-\n    Document generation and quote generation are gated by scopes whose names kelvin\n    does not\
   \ publish, and the same 403 also fires when the feature is merely disabled\n    for the team. A caller cannot determine from the response which of the two applies,\n    and cannot request a scope by name because no name exists in the documentation.\nentitlement_tiers:\n  note: >-\n    The specification's tags double as commercial offers — \"Endpoints disponibles dans\n    l'offre Simulateur\", \"Endpoints disponibles dans l'offre Qualification\", plus a\n    Documents group. Access therefore depends on the purchased offer as well as the\n    scope on the key. See plans/kelvin-plans-pricing.yml.\n  tiers:\n  - name: Simulateur\n    operations: 6\n  - name: Qualification\n    operations: 12\n  - name: Documents\n    operations: 7\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/scopes/kelvin-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Company
 - Energy
@@ -64,5 +68,6 @@ tags:
 - Sales Enablement
 - France
 - Sustainability
+token_bound: false
 token_urls: []
 ---

@@ -116,6 +116,7 @@ tags:
 - MCP
 - Prebid
 - AdTech
+token_bound: false
 token_urls:
 - https://yieldmo-cuba.auth.us-east-1.amazoncognito.com/oauth2/token
 ---

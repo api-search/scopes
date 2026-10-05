@@ -66,6 +66,7 @@ tags:
 - Data Replication
 - Google Cloud
 - Streaming
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

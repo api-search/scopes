@@ -67,8 +67,8 @@ tags:
 - Body Scan
 - Diagnostics
 - Consumer Health
-- OpenID Connect
 - Sweden
+token_bound: false
 token_urls:
 - https://account.nekohealth.com/connect/token
 ---

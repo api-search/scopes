@@ -107,6 +107,7 @@ tags:
 - Civic Engagement
 - Webhook
 - Authentication
+token_bound: false
 token_urls:
 - https://api.hustle.com/v3/oauth/token
 ---

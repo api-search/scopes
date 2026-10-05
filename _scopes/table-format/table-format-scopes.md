@@ -87,6 +87,7 @@ tags:
 - ACID Transactions
 - Schema Evolution
 - Time Travel
+token_bound: false
 token_urls:
 - /v1/oauth/tokens
 ---

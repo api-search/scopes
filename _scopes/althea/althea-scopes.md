@@ -68,6 +68,7 @@ tags:
 - Skincare
 - Agentic Commerce
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/9377939535/oauth/token
 ---

@@ -98,6 +98,7 @@ tags:
 - Spatial Analysis
 - Geocoding
 - Routing
+token_bound: false
 token_urls:
 - https://www.arcgis.com/sharing/rest/oauth2/token
 ---

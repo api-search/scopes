@@ -132,6 +132,7 @@ tags:
 - Open Source
 - AGPL
 - Canvas
+token_bound: false
 token_urls:
 - https://canvas.instructure.com/login/oauth2/token
 ---

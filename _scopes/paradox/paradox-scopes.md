@@ -114,6 +114,7 @@ tags:
 - Recruiting
 - SMS
 - Talent Acquisition
+token_bound: false
 token_urls:
 - /auth/token
 ---

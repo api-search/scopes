@@ -70,6 +70,7 @@ tags:
 - Universal Commerce Protocol
 - Shopify
 - Manufacturing
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/3092321/oauth/token
 ---

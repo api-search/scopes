@@ -222,26 +222,46 @@ api_specs:
   slug: edge-impulse-white-labels-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/openapi/edge-impulse-white-labels-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://studio.edgeimpulse.com/v1/oauth/authorize
 description: 'OAuth 2.0 scopes declared by the Edge Impulse Studio API. There are exactly three, and all three are OIDC identity scopes — openid, email, profile. Edge Impulse declares NO resource or permission scopes: nothing in the scope set distinguishes reading a project from deleting one, or a dataset from an organization. Authorization is carried entirely by the credential type instead (project API key vs user JWT) and by per-operation checks, which is why the OAuth surface cannot be used to hand an agent a least-privilege token.'
 docs: https://docs.edgeimpulse.com/apis/studio#api-authentication-types
-flows: []
+flows:
+- authorizationCode
+- implicit
+- password
+- clientCredentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Edge Impulse Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Edge Impulse uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Edge Impulse publishes 3 OAuth 2.0 scopes via the authorizationCode, implicit, password, and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Edge Impulse API on a user''s behalf.
+
+
+  Tokens are issued from https://studio.edgeimpulse.com/v1/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Edge Impulse
 provider_slug: edge-impulse
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- openid
+- email
+- profile
+scopes:
+- description: Access to basic profile information.
+  flows: []
+  scope: openid
+- description: Access to email address.
+  flows: []
+  scope: email
+- description: Access to full profile information.
+  flows: []
+  scope: profile
 slug: edge-impulse-scopes
 source_filename: edge-impulse-scopes.yml
 source_heading: OAuth Scopes
@@ -250,7 +270,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://studio.
   - clientCredentials\nscope_count: 3\nscopes:\n- name: openid\n  description: Access to basic profile information.\n  category: identity\n- name: email\n  description: Access to email address.\n  category: identity\n- name: profile\n  description: Access to full profile information.\n  category: identity\nresource_scopes: []\nfindings:\n- All four OAuth flows advertise the same three scopes — including implicit and password, which are discouraged\n  by OAuth 2.1.\n- The authorizationUrl and tokenUrl are declared as relative paths (/v1/oauth/authorize, /v1/oauth/token)\n  in the spec; resolved against the declared server they are https://studio.edgeimpulse.com/v1/oauth/*.\n- No /.well-known/openid-configuration or /.well-known/oauth-authorization-server document is served on\n  any Edge Impulse host (probed 2026-09-06, all 404), so an OAuth client cannot discover these endpoints\n  automatically.\n- The OAuth2 scheme is absent from the specs harvested into this repo and present in the live\
   \ published\n  spec, so it is a recent addition.\nrelated:\n  authentication: authentication/edge-impulse-authentication.yml\n  well_known: well-known/edge-impulse-well-known.yml\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edge-impulse/refs/heads/main/scopes/edge-impulse-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes · authorizationCode/implicit/password/clientCredentials
 tags:
 - Artificial Intelligence
 - Machine Learning
@@ -263,5 +283,7 @@ tags:
 - Developer Tools
 - Real-Time
 - A2A
-token_urls: []
+token_bound: false
+token_urls:
+- https://studio.edgeimpulse.com/v1/oauth/token
 ---

@@ -114,6 +114,7 @@ tags:
 - Photo Studio Management
 - E-Commerce
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://auth.shootproof.com/oauth2/authorization/token
 ---

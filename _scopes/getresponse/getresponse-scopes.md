@@ -375,6 +375,7 @@ tags:
 - Autoresponders
 - Contacts
 - Marketing
+token_bound: false
 token_urls:
 - https://api.getresponse.com/v3/token
 ---

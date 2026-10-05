@@ -86,6 +86,7 @@ tags:
 - Agents
 - Webhook
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://authn.read.ai/oauth2/token
 ---

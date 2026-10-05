@@ -11,16 +11,40 @@ method: probed
 name: Grafana Loki Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Grafana Loki uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Grafana Loki publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Grafana Loki API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Grafana Loki
 provider_slug: grafana-loki
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- grafana:read
+- grafana:query
+- grafana:write
+- logs:read
+- logs:write
+- logs:delete
+scopes:
+- description: Read Grafana resources through the hosted Grafana Cloud MCP server.
+  flows: []
+  scope: grafana:read
+- description: Execute datasource queries through the hosted Grafana Cloud MCP server. This is the scope the Loki query tools (query_loki_logs, query_loki_stats, query_loki_patterns, list_loki_label_names, list_loki_label_values) run under.
+  flows: []
+  scope: grafana:query
+- description: Write Grafana resources through the hosted Grafana Cloud MCP server.
+  flows: []
+  scope: grafana:write
+- description: Read/query logs for a tenant on Grafana Cloud Logs or Grafana Enterprise Logs.
+  flows: []
+  scope: logs:read
+- description: Push logs for a tenant on Grafana Cloud Logs or Grafana Enterprise Logs.
+  flows: []
+  scope: logs:write
+- description: Required on the access policy behind the token used with the log deletion endpoints (POST/GET/DELETE /loki/api/v1/delete) for the tenant named in the Basic auth user field.
+  flows: []
+  scope: logs:delete
 slug: grafana-loki-scopes
 source_filename: grafana-loki-scopes.yml
 source_heading: OAuth Scopes
@@ -30,7 +54,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: https://mcp.grafa
   \  - name: logs:read\n    vocabulary: grafana-cloud-access-policy\n    description: Read/query logs for a tenant on Grafana Cloud Logs or Grafana Enterprise Logs.\n    source: https://grafana.com/docs/loki/latest/reference/loki-http-api/\n  - name: logs:write\n    vocabulary: grafana-cloud-access-policy\n    description: Push logs for a tenant on Grafana Cloud Logs or Grafana Enterprise Logs.\n    source: https://grafana.com/docs/loki/latest/reference/loki-http-api/\n  - name: logs:delete\n    vocabulary: grafana-cloud-access-policy\n    description: >-\n      Required on the access policy behind the token used with the log deletion endpoints\n      (POST/GET/DELETE /loki/api/v1/delete) for the tenant named in the Basic auth user field.\n    source: https://grafana.com/docs/loki/latest/reference/loki-http-api/\nrbac_scopes_mcp:\n  note: >-\n    Inside Grafana, every Loki MCP tool additionally requires the RBAC action datasources:query\n    scoped to the Loki datasource UID (datasources:uid:loki-uid).\n\
   \  action: datasources:query\n  scope: 'datasources:uid:loki-uid'\nscope_count: 6\ndocs:\n  - https://grafana.com/docs/grafana-cloud/ai-tools/mcp-servers/cloud-mcp/\n  - https://grafana.com/docs/loki/latest/reference/loki-http-api/\nchecked: '2026-08-27'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grafana-loki/refs/heads/main/scopes/grafana-loki-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - Company
 - Logs
@@ -44,5 +68,6 @@ tags:
 - Telemetry
 - Kubernetes
 - Cloud-Native
+token_bound: false
 token_urls: []
 ---

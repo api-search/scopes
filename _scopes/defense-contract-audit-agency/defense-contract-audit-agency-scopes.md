@@ -57,5 +57,6 @@ tags:
 - CAGE Code
 - Unique Entity Identifier
 - Locator
+token_bound: false
 token_urls: []
 ---

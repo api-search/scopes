@@ -110,6 +110,7 @@ tags:
 - Real Estate
 - Automotive
 - France
+token_bound: false
 token_urls:
 - https://auth.kleio.ai/oauth/token
 ---

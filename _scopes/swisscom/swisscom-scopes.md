@@ -87,6 +87,7 @@ tags:
 - Digital Signature
 - eSIM
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://sign.swisscom.ch/realms/swisscom-public/protocol/openid-connect/token
 ---

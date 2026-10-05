@@ -351,6 +351,7 @@ tags:
 - Observability
 - Framework
 - A2A
+token_bound: false
 token_urls:
 - /api/oauth/token
 ---

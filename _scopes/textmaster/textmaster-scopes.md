@@ -275,6 +275,7 @@ tags:
 - Webhook
 - Authentication
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://api.textmaster.com/oauth/token
 ---

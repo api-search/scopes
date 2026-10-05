@@ -400,6 +400,7 @@ tags:
 - Product Development
 - Requirements
 - Agile
+token_bound: false
 token_urls:
 - https://{account-domain}.aha.io/oauth/token
 ---

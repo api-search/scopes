@@ -101,6 +101,7 @@ tags:
 - Cloud Connectivity
 - Ordering
 - Ticketing
+token_bound: false
 token_urls:
 - https://auth.api.zayo.com/oauth/token
 ---

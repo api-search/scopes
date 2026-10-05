@@ -114,6 +114,7 @@ tags:
 - Open Access
 - Figshare
 - OAI-PMH
+token_bound: false
 token_urls:
 - https://api.figshare.com/v2/token
 ---

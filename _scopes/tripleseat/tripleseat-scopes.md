@@ -118,6 +118,7 @@ tags:
 - Leads
 - Webhook
 - Sales
+token_bound: false
 token_urls:
 - https://api.tripleseat.com/oauth/token
 ---

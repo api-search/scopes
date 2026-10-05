@@ -74,6 +74,7 @@ tags:
 - Wellness
 - Webhook
 - Authentication
+token_bound: false
 token_urls:
 - https://api.myfitnesspal.com/v2/oauth2/token
 ---

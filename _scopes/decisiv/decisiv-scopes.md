@@ -508,6 +508,7 @@ tags:
 - Dealer Management
 - JSON:API
 - Webhook
+token_bound: false
 token_urls:
 - https://login.decisiv.net/oauth/token
 - https://portal.decisivapps.com/oauth/token

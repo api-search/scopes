@@ -149,6 +149,7 @@ tags:
 - Audience Targeting
 - Conversions API
 - Social Marketing
+token_bound: false
 token_urls:
 - https://www.linkedin.com/oauth/v2/accessToken
 ---

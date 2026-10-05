@@ -105,6 +105,7 @@ tags:
 - OCR
 - Microsoft
 - REST
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/token
 ---

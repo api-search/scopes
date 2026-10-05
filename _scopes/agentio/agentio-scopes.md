@@ -56,6 +56,7 @@ tags:
 - MCP
 - Agents
 - Analytics
+token_bound: false
 token_urls:
 - https://api.agentio.com/o/token
 ---

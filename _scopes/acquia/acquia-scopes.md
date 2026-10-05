@@ -636,6 +636,8 @@ tags:
 - Cloud Hosting
 - Headless
 - Content Management
+- Headless CMS
+token_bound: false
 token_urls:
 - https://accounts.acquia.com/api/token
 ---

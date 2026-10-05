@@ -152,6 +152,7 @@ tags:
 - Australia
 - Digital Bank
 - Product Reference Data
+token_bound: false
 token_urls:
 - https://secure.cdr.alex.com.au/connect/token
 ---

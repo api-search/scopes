@@ -129,5 +129,6 @@ tags:
 - MENA
 - Money Transfer
 - Wallets
+token_bound: false
 token_urls: []
 ---

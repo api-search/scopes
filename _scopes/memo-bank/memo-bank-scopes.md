@@ -174,6 +174,7 @@ tags:
 - Webhook
 - MCP
 - France
+token_bound: false
 token_urls:
 - /oauth2/token
 - https://api.memo.bank/oauth2/token

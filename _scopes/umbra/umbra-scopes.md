@@ -143,6 +143,7 @@ tags:
 - Defense and Intelligence
 - Company
 - Satellite
+token_bound: false
 token_urls:
 - https://auth.canopy.umbra.space/oauth/token
 ---

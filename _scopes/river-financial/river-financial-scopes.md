@@ -75,6 +75,7 @@ tags:
 - Financial Services
 - Banking
 - Authentication
+token_bound: false
 token_urls:
 - https://river.com/oauth2/token
 ---

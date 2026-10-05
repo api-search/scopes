@@ -12,26 +12,49 @@ api_specs:
   slug: icon-aircraft-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/openapi/icon-aircraft-search-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://shopify.com/authentication/376732/oauth/authorize
 description: ''
 docs: https://store.iconaircraft.com/.well-known/oauth-authorization-server
-flows: []
+flows:
+- authorization_code
+- refresh_token
+- urn:ietf:params:oauth:grant-type:jwt-bearer
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Icon Aircraft Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'ICON Aircraft uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'ICON Aircraft publishes 4 OAuth 2.0 scopes via the authorization_code, refresh_token, and urn:ietf:params:oauth:grant-type:jwt-bearer flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the ICON Aircraft API on a user''s behalf.
+
+
+  Tokens are issued from https://shopify.com/authentication/376732/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: ICON Aircraft
 provider_slug: icon-aircraft
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- customer-account-api:full
+- customer-account-mcp-api:full
+scopes:
+- description: Standard OpenID Connect scope requesting an ID token for the signed-in shopper.
+  flows: []
+  scope: openid
+- description: Releases the shopper's email address as an OIDC claim.
+  flows: []
+  scope: email
+- description: Full access to the Shopify Customer Account API for the authenticated shopper — their own orders, addresses and payment methods on the Shop ICON store.
+  flows: []
+  scope: customer-account-api:full
+- description: Full access to the Shopify customer-account MCP API for the authenticated shopper. This is the scope an agent would present on buyer-scoped UCP tools such as get_order; tools/list and the catalog tools do not require it.
+  flows: []
+  scope: customer-account-mcp-api:full
 slug: icon-aircraft-scopes
 source_filename: icon-aircraft-scopes.yml
 source_heading: OAuth Scopes
@@ -40,7 +63,7 @@ source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: well-known/icon-a
   token_endpoint: https://shopify.com/authentication/376732/oauth/token\nprotected_resources:\n- https://store.iconaircraft.com\n- https://store.iconaircraft.com/api/ucp/mcp\nflows:\n- authorization_code\n- refresh_token\n- urn:ietf:params:oauth:grant-type:jwt-bearer\npkce:\n- S256\nscope_count: 4\nscopes:\n- name: openid\n  description: Standard OpenID Connect scope requesting an ID token for the signed-in shopper.\n  category: identity\n  grants_access_to_icon_data: false\n- name: email\n  description: Releases the shopper's email address as an OIDC claim.\n  category: identity\n  grants_access_to_icon_data: false\n- name: customer-account-api:full\n  description: >-\n    Full access to the Shopify Customer Account API for the authenticated shopper — their own\n    orders, addresses and payment methods on the Shop ICON store.\n  category: buyer\n  grants_access_to_icon_data: false\n- name: customer-account-mcp-api:full\n  description: >-\n    Full access to the Shopify customer-account\
   \ MCP API for the authenticated shopper. This is the\n    scope an agent would present on buyer-scoped UCP tools such as get_order; tools/list and the\n    catalog tools do not require it.\n  category: buyer\n  grants_access_to_icon_data: false\nnotes:\n- >-\n  These are platform scopes defined by Shopify, exposed under ICON Aircraft's storefront domain and\n  bound to ICON's merchant id 376732. ICON did not author them and does not extend them.\n- >-\n  There is no scope, on any server, that grants a developer access to ICON Aircraft product,\n  aircraft, order or service data. The company operates no such API.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/scopes/icon-aircraft-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes · authorization_code/refresh_token/urn:ietf:params:oauth:grant-type:jwt-bearer
 tags:
 - Company
 - Aerospace
@@ -55,5 +78,7 @@ tags:
 - E-Commerce
 - Content
 - Agentic Commerce
-token_urls: []
+token_bound: false
+token_urls:
+- https://shopify.com/authentication/376732/oauth/token
 ---

@@ -165,6 +165,7 @@ tags:
 - Southeast Asia
 - Webhook
 - Authentication
+token_bound: false
 token_urls:
 - https://accounts.go-jek.com/oauth2/token
 ---

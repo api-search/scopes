@@ -59,6 +59,7 @@ tags:
 - E-Signature
 - Compliance
 - Fintech
+token_bound: false
 token_urls:
 - https://app.advicepay.com/oauth2/access_token
 ---

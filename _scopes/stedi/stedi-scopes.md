@@ -154,16 +154,20 @@ method: probed
 name: Stedi Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Stedi uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Stedi publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Stedi API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Stedi
 provider_slug: stedi
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- mcp:operator
+scopes:
+- description: The single scope advertised in scopes_supported. Grants an OAuth-authenticated MCP client the two tools the Stedi MCP server exposes (search_for_payer, eligibility_check) at the permission level of the authorizing account member.
+  flows: []
+  scope: mcp:operator
 slug: stedi-scopes
 source_filename: stedi-scopes.yml
 source_heading: OAuth Scopes
@@ -172,7 +176,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: https://mcp.us.st
   \  token_endpoint: https://oauth.us.stedi.com/oauth2/token\n  jwks_uri: https://tokens.prod.saas.stedi.com/v1/.well-known/jwks.json\n  grant_types_supported: [authorization_code, refresh_token]\n  response_types_supported: [code]\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [none]\n  client_id_metadata_document_supported: true\n  dynamic_client_registration: false\n  dynamic_client_registration_note: >\n    No registration_endpoint is advertised. Stedi instead sets\n    client_id_metadata_document_supported: true, so a client identifies itself with a hosted\n    client-ID metadata document rather than by registering.\nscopes:\n- name: mcp:operator\n  description: >\n    The single scope advertised in scopes_supported. Grants an OAuth-authenticated MCP client the\n    two tools the Stedi MCP server exposes (search_for_payer, eligibility_check) at the\n    permission level of the authorizing account member.\n  source: scopes_supported\n  surface:\
   \ https://mcp.us.stedi.com/mcp2\nscope_count: 1\naccess_controls_outside_oauth:\n  model: account roles\n  note: >\n    Stedi documents that OAuth MCP access requires the Operator role or above and a plan that\n    includes healthcare eligibility, that SSO is not supported on the OAuth endpoint (email +\n    password only), and that sessions expire after 30 days. REST API keys inherit the\n    permissions of the account member who created them and keep those permissions even if that\n    member's role later changes. None of this is expressed as OAuth scopes.\n  docs: https://www.stedi.com/docs/healthcare/mcp-server\nrelated:\n  authentication: authentication/stedi-authentication.yml\n  mcp: mcp/stedi-mcp.yml\n  conformance: conformance/stedi-conformance.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/scopes/stedi-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - EDI
 - Electronic Data Interchange
@@ -185,5 +189,6 @@ tags:
 - Revenue Cycle Management
 - B2B Integration
 - Health Insurance
+token_bound: false
 token_urls: []
 ---

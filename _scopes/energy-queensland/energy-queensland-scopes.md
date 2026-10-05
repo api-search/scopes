@@ -171,6 +171,7 @@ tags:
 - Solar
 - DER
 - Open Data
+token_bound: false
 token_urls:
 - not publicly discoverable (authenticated CDR Register only)
 ---

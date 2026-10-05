@@ -68,6 +68,7 @@ tags:
 - Cloud Development Environments
 - DevOps
 - Automation
+token_bound: false
 token_urls:
 - https://auth.niteshift.dev/oauth2/token
 ---

@@ -203,6 +203,7 @@ tags:
 - Marketing
 - Retail
 - A2A
+token_bound: false
 token_urls:
 - https://api.criteo.com/oauth2/token
 ---

@@ -57,6 +57,7 @@ tags:
 - Marketplace
 - Strain
 - E-Commerce
+token_bound: false
 token_urls:
 - https://api.leafly.com/oauth/token
 ---

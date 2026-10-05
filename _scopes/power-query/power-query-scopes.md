@@ -18,26 +18,71 @@ api_specs:
   slug: power-query-query-execution-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-query-execution-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: 'Microsoft Entra ID delegated scopes governing the Power Query (Fabric Dataflow) REST surface. Fabric draws a generic/specific distinction: generic `Item.*` scopes grant a token over any item type, specific `Dataflow.*` scopes narrow it to dataflows. Scopes apply ONLY to delegated, on-behalf-of-user access; service principals and managed identities are governed by Fabric admin controls and workspace permissions instead. The scopes are not declared in the published Swagger — they are carried in each operation''s `Required Delegated Scopes` prose section, which is where the list below was read from.'
 docs: https://learn.microsoft.com/en-us/rest/api/fabric/articles/scopes
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Power Query Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Power Query uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Power Query publishes 10 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Power Query API on a user''s behalf.
+
+
+  Tokens are issued from https://login.microsoftonline.com/common/oauth2/v2.0/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Power Query
 provider_slug: power-query
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 10
+scope_names:
+- Dataflow.Read.All
+- Dataflow.ReadWrite.All
+- Dataflow.Execute.All
+- Dataflow.Reshare.All
+- Workspace.Read.All
+- Workspace.ReadWrite.All
+- Item.Read.All
+- Item.ReadWrite.All
+- Item.Execute.All
+- Item.Reshare.All
+scopes:
+- description: Read all dataflows the signed-in user has access to.
+  flows: []
+  scope: Dataflow.Read.All
+- description: Read and write all dataflows the signed-in user has access to.
+  flows: []
+  scope: Dataflow.ReadWrite.All
+- description: Execute dataflows the signed-in user has access to.
+  flows: []
+  scope: Dataflow.Execute.All
+- description: Reshare dataflows the signed-in user has access to. Documented by the Fabric scopes article as part of the <itemType>.Reshare.All pattern; no Dataflow operation in the published spec was observed requiring it.
+  flows: []
+  scope: Dataflow.Reshare.All
+- description: Read the workspaces the signed-in user has access to.
+  flows: []
+  scope: Workspace.Read.All
+- description: Read and write the workspaces the signed-in user has access to.
+  flows: []
+  scope: Workspace.ReadWrite.All
+- description: Read all Fabric items of any type the signed-in user has access to.
+  flows: []
+  scope: Item.Read.All
+- description: Read and write all Fabric items of any type.
+  flows: []
+  scope: Item.ReadWrite.All
+- description: Execute all Fabric items.
+  flows: []
+  scope: Item.Execute.All
+- description: Reshare all Fabric items.
+  flows: []
+  scope: Item.Reshare.All
 slug: power-query-scopes
 source_filename: power-query-scopes.yml
 source_heading: OAuth Scopes
@@ -48,7 +93,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://learn.m
   \  - name: Item.ReadWrite.All\n    kind: generic\n    description: Read and write all Fabric items of any type.\n    verified_on:\n      - Items_CreateDataflow\n      - Items_UpdateDataflow\n      - Items_DeleteDataflow\n      - Items_GetDataflowDefinition\n      - Items_UpdateDataflowDefinition\n      - Items_GetDataflow\n  - name: Item.Execute.All\n    kind: generic\n    description: Execute all Fabric items.\n    verified_on:\n      - QueryExecution_ExecuteQuery\n  - name: Item.Reshare.All\n    kind: generic\n    description: Reshare all Fabric items.\n    verified_on: []\nunverified_operations:\n  - operation: BackgroundJobs_RunOnDemandExecute\n    reason: >-\n      No reference page was located under\n      /rest/api/fabric/dataflow/background-jobs/ for this operation on 2026-08-29,\n      so its Required Delegated Scopes block could not be read. Not inferred.\n  - operation: BackgroundJobs_RunOnDemandApplyChanges\n    reason: Same as above.\nnotes:\n  - >-\n    Every operation additionally\
   \ requires a Fabric workspace role. A token\n    carrying Dataflow.ReadWrite.All does not by itself permit creating a dataflow\n    — the caller must also hold the contributor workspace role.\n  - >-\n    The full delegated-scope catalog is enumerated in the Azure portal under\n    App registrations > Add permissions > Power BI Service.\nevidence:\n  - url: https://learn.microsoft.com/en-us/rest/api/fabric/articles/scopes\n    status: 200\n  - url: https://learn.microsoft.com/en-us/rest/api/fabric/dataflow/items/create-dataflow\n    status: 200\n  - url: https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration\n    status: 200\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/scopes/power-query-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 10 scopes · authorization_code
 tags:
 - Business Intelligence
 - Data Integration
@@ -61,5 +106,7 @@ tags:
 - M Language
 - Data Connectors
 - Self-Service ETL
-token_urls: []
+token_bound: false
+token_urls:
+- https://login.microsoftonline.com/common/oauth2/v2.0/token
 ---

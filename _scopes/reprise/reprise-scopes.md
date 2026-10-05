@@ -58,6 +58,7 @@ tags:
 - MCP
 - Agent Tooling
 - Demo Analytics
+token_bound: false
 token_urls:
 - https://app.getreprise.com/r/mcp/oauth/token
 ---

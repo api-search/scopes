@@ -68,6 +68,7 @@ tags:
 - MCP
 - Shopify
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/69560926386/oauth/token
 ---

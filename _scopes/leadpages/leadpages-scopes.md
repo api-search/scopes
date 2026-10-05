@@ -116,6 +116,7 @@ tags:
 - Agents
 - Analytics
 - A2A
+token_bound: false
 token_urls:
 - https://leadpages.com/api/mcp/oauth/token
 ---

@@ -417,6 +417,7 @@ tags:
 - Performance Monitoring
 - Real-Time Monitoring
 - Monitoring
+token_bound: false
 token_urls:
 - https://sentry.io/oauth/token/
 ---

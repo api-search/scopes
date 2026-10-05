@@ -421,6 +421,7 @@ tags:
 - Lending
 - Compliance
 - Small Business
+token_bound: false
 token_urls:
 - https://api.toq.io/iam/oauth/token
 ---

@@ -226,16 +226,80 @@ method: probed
 name: Adobe Experience Cloud Scopes
 name_suffix: OAuth Scopes
 note: 'The OpenAPI contracts in this repo declare NO oauth2 securityScheme — they declare http/bearer plus an apiKey header — so derive-oauth-scopes.py produced nothing. Every scope below therefore comes from a live discovery document, not from the spec. That is the stronger evidence, and it is why this artifact is method: probed rather than derived.'
-overview: 'Adobe Experience Cloud uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Adobe Experience Cloud publishes 16 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Adobe Experience Cloud API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Adobe Experience Cloud
 provider_slug: adobe-experience-cloud
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 16
+scope_names:
+- openid
+- email
+- profile
+- AdobeID
+- read_organizations
+- additional_info
+- additional_info.ownerOrg
+- additional_info.projectedProductContext
+- aem.sites
+- aem.assets.author
+- aem.assets.delivery
+- aem.fragments.management
+- aem.folders
+- aem.repository
+- aem.contentai
+- aem.adobe.experimental
+scopes:
+- description: OpenID Connect base scope.
+  flows: []
+  scope: openid
+- description: Release the authenticated user's email address.
+  flows: []
+  scope: email
+- description: Release the authenticated user's profile claims.
+  flows: []
+  scope: profile
+- description: Adobe ID identity scope — the base scope for every Adobe API call.
+  flows: []
+  scope: AdobeID
+- description: Read the IMS organizations the user belongs to.
+  flows: []
+  scope: read_organizations
+- description: Additional IMS profile information.
+  flows: []
+  scope: additional_info
+- description: The owning IMS organization of the authenticated identity.
+  flows: []
+  scope: additional_info.ownerOrg
+- description: The user's projected product entitlements. This is the scope that carries Experience Cloud product authorization — it is what turns an authenticated Adobe ID into an identity that may call Analytics or CJA.
+  flows: []
+  scope: additional_info.projectedProductContext
+- description: AEM Sites — pages and site content.
+  flows: []
+  scope: aem.sites
+- description: Author-tier access to AEM Assets.
+  flows: []
+  scope: aem.assets.author
+- description: Delivery-tier access to AEM Assets.
+  flows: []
+  scope: aem.assets.delivery
+- description: Content fragment management — create, read, patch fragments and models.
+  flows: []
+  scope: aem.fragments.management
+- description: Folder operations.
+  flows: []
+  scope: aem.folders
+- description: Repository-level access.
+  flows: []
+  scope: aem.repository
+- description: Content AI indexes — keyword, semantic, hybrid and natural-language search.
+  flows: []
+  scope: aem.contentai
+- description: Experimental AEM capabilities.
+  flows: []
+  scope: aem.adobe.experimental
 slug: adobe-experience-cloud-scopes
 source_filename: adobe-experience-cloud-scopes.yml
 source_heading: OAuth Scopes
@@ -248,7 +312,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://oauth.ado
   \    servers:\n      - aem\n    description: Delivery-tier access to AEM Assets.\n  - name: aem.fragments.management\n    kind: product\n    product: Adobe Experience Manager\n    servers:\n      - aem\n    description: Content fragment management — create, read, patch fragments and models.\n  - name: aem.folders\n    kind: product\n    product: Adobe Experience Manager\n    servers:\n      - aem\n    description: Folder operations.\n  - name: aem.repository\n    kind: product\n    product: Adobe Experience Manager\n    servers:\n      - aem\n    description: Repository-level access.\n  - name: aem.contentai\n    kind: product\n    product: Adobe Experience Manager Content AI\n    servers:\n      - aem\n    description: Content AI indexes — keyword, semantic, hybrid and natural-language search.\n  - name: aem.adobe.experimental\n    kind: product\n    product: Adobe Experience Manager\n    servers:\n      - aem\n    description: Experimental AEM capabilities.\ngaps:\n  - >-\n    Analytics,\
   \ Target, Campaign, Journey Optimizer and Experience Platform publish no\n    fine-grained OAuth scopes. Authorization for those products is granted out-of-band as\n    product profiles in the Adobe Admin Console and surfaces to the token only as\n    additional_info.projectedProductContext. An agent cannot request least-privilege access\n    to Adobe Analytics the way it can to AEM Sites.\n  - >-\n    The OpenAPI contracts declare bearer + apiKey rather than an oauth2 flow, so the scopes\n    above are invisible to any tool that reads only the spec.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/scopes/adobe-experience-cloud-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 16 scopes
 tags:
 - Analytics
 - Customer Experience
@@ -256,5 +320,6 @@ tags:
 - Personalization
 - Campaign Management
 - Journey Orchestration
+token_bound: false
 token_urls: []
 ---

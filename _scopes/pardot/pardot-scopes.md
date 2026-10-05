@@ -58,6 +58,7 @@ tags:
 - Email Marketing
 - Salesforce
 - Account Engagement
+token_bound: false
 token_urls:
 - https://login.salesforce.com/services/oauth2/token
 ---

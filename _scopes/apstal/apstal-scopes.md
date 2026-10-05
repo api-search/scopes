@@ -72,6 +72,7 @@ tags:
 - Agent Skills
 - Bot Detection
 - Core Web Vitals
+token_bound: false
 token_urls:
 - https://apstal.com/api/auth/token
 ---

@@ -9,16 +9,32 @@ method: probed
 name: Actively Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Actively uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Actively publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Actively API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Actively
 provider_slug: actively
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+scopes:
+- description: Standard OIDC scope. Requests an ID token identifying the authenticated Actively user.
+  flows: []
+  scope: openid
+- description: Standard OIDC scope. Grants access to basic profile claims via https://auth.actively.ai/oauth2/userinfo.
+  flows: []
+  scope: profile
+- description: Standard OIDC scope. Grants access to the user's email address claim.
+  flows: []
+  scope: email
+- description: Standard OIDC scope. Requests a refresh token so an agent can maintain a long-lived session against the MCP server without re-consent.
+  flows: []
+  scope: offline_access
 slug: actively-scopes
 source_filename: actively-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +44,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://auth.acti
   \ access, and a security reviewer cannot tell from the\n  token what an agent is permitted to read or write.\n- >-\n  This matters more than usual for this provider: the product connects\n  autonomous per-account agents to CRM-derived revenue data in third-party AI\n  clients (ChatGPT, Claude, Cowork). Scope granularity is the control surface\n  a customer would use to bound that, and it is not published.\n- >-\n  Publishing resource-specific scopes (e.g. accounts:read, strategy:read,\n  memory:write) in scopes_supported would be a low-cost, high-value addition\n  and is the single clearest gap in an otherwise spec-clean OAuth\n  implementation.\nevidence:\n- fetched: '2026-08-13'\n  url: https://auth.actively.ai/.well-known/oauth-authorization-server\n  http_status: 200\n  quote: '\"scopes_supported\": [\"email\", \"offline_access\", \"openid\", \"profile\"]'\n- fetched: '2026-08-13'\n  url: https://auth.actively.ai/.well-known/openid-configuration\n  http_status: 200\n  quote: '\"scopes_supported\"\
   : [\"email\", \"offline_access\", \"openid\", \"profile\"]'\n- fetched: '2026-08-13'\n  url: https://api.actively.ai/.well-known/oauth-authorization-server\n  http_status: 200\n  note: >-\n    The api-host mirror omits scopes_supported entirely, so the auth host is\n    the authoritative source.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/actively/refs/heads/main/scopes/actively-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Company
 - Ai Apps
@@ -40,5 +56,6 @@ tags:
 - Authentication
 - Sales Intelligence
 - Enterprise Software
+token_bound: false
 token_urls: []
 ---

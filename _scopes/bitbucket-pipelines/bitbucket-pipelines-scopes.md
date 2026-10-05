@@ -320,6 +320,7 @@ tags:
 - Hosted
 - Self-Hosted Runners
 - Developer Tools
+token_bound: false
 token_urls:
 - https://bitbucket.org/site/oauth2/access_token
 ---

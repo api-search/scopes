@@ -139,7 +139,6 @@ tags:
 - Healthcare
 - FHIR
 - DICOM
-- MedTech
 - IoMT
 - Health Data
 - HIPAA
@@ -147,6 +146,7 @@ tags:
 - Cloud
 - Azure
 - Microsoft
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/token
 ---

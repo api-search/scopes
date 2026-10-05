@@ -154,16 +154,24 @@ method: probed
 name: Flagsmith Scopes
 name_suffix: OAuth Scopes
 note: 'Read from the provider''s own RFC 8414 metadata rather than derived — derive-oauth-scopes.py finds nothing because the OpenAPI declares its security schemes as apiKey/http and never as oauth2, so the OAuth surface is invisible from the contract alone. It is only discoverable from the .well-known documents, which is exactly why they were probed. Two scopes, coarse-grained: there is no per-resource or read/write split, so an agent granted `mcp` can reach every tool the deployment exposes, and one granted `admin-api` can reach the Management API within the granting user''s own permissions. Fine-grained restriction is done with Flagsmith''s RBAC roles and permission groups, not with OAuth scopes.'
-overview: 'Flagsmith uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Flagsmith publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Flagsmith API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Flagsmith
 provider_slug: flagsmith
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- mcp
+- admin-api
+scopes:
+- description: Access to the Flagsmith MCP server at https://mcp.flagsmith.com. This is the scope an MCP client requests during the interactive OAuth flow. Confirmed independently by the RFC 9728 protected-resource document on the MCP host, whose scopes_supported is [mcp].
+  flows: []
+  scope: mcp
+- description: Access to the Flagsmith Management API at https://api.flagsmith.com/api/v1. Requests act with the permissions of the authorising user — the provider states administrator privileges are not required and that any organisation member can use the Management API within the scope of their own permissions.
+  flows: []
+  scope: admin-api
 slug: flagsmith-scopes
 source_filename: flagsmith-scopes.yml
 source_heading: OAuth Scopes
@@ -172,7 +180,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: https://api.flags
   \ OAuth surface is invisible from the contract alone. It is only discoverable from the\n  .well-known documents, which is exactly why they were probed. Two scopes, coarse-grained: there is\n  no per-resource or read/write split, so an agent granted `mcp` can reach every tool the deployment\n  exposes, and one granted `admin-api` can reach the Management API within the granting user's own\n  permissions. Fine-grained restriction is done with Flagsmith's RBAC roles and permission groups,\n  not with OAuth scopes.\nscopes:\n- name: mcp\n  description: >-\n    Access to the Flagsmith MCP server at https://mcp.flagsmith.com. This is the scope an MCP client\n    requests during the interactive OAuth flow. Confirmed independently by the RFC 9728\n    protected-resource document on the MCP host, whose scopes_supported is [mcp].\n  surface: https://mcp.flagsmith.com\n  granularity: coarse\n  evidence: https://mcp.flagsmith.com/.well-known/oauth-protected-resource\n- name: admin-api\n  description:\
   \ >-\n    Access to the Flagsmith Management API at https://api.flagsmith.com/api/v1. Requests act with the\n    permissions of the authorising user — the provider states administrator privileges are not\n    required and that any organisation member can use the Management API within the scope of their\n    own permissions.\n  surface: https://api.flagsmith.com/api/v1\n  granularity: coarse\n  evidence: https://docs.flagsmith.com/integrating-with-flagsmith/flagsmith-api-overview/management-api/\neffective_authorization:\n  model: RBAC\n  note: >-\n    The real authorization boundary is Flagsmith's own role/permission system (Permissions tag, 34\n    operations; custom roles and permission groups on Enterprise), layered under whichever OAuth\n    scope or API key was presented. An OAuth token never widens what its user could already do.\n  see: authentication/flagsmith-authentication.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/scopes/flagsmith-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Feature Flags
 - Remote Config
@@ -186,5 +194,6 @@ tags:
 - Software-as-a-Service
 - MCP
 - Agent Ready
+token_bound: false
 token_urls: []
 ---

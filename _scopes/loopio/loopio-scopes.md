@@ -90,17 +90,23 @@ api_specs:
   slug: loopio-webhooks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-webhooks-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://api.loopio.com/oauth2/authorize
 description: ''
 docs: https://developer.loopio.com/docs/loopio-api/c56ffe1fdae3e-getting-started-with-the-loopio-api
-flows: []
+flows:
+- authorizationCode
+- clientCredentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Loopio Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Loopio publishes 52 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Loopio API on a user''s behalf.
+overview: 'Loopio publishes 52 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Loopio API on a user''s behalf.
+
+
+  Tokens are issued from https://api.loopio.com/oauth2/access_token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -380,7 +386,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: https://api.loo
   \  - createUser\n  - updateUser\n- scope: webhook:delete\n  description: Delete webhook subscriptions\n  flows:\n  - authorizationCode\n  - clientCredentials\n  in_openapi: true\n  advertised_by_authorization_server: true\n  operation_count: 1\n  operations:\n  - cancelWebhookSubscription\n- scope: webhook:read\n  description: View webhook subscriptions\n  flows:\n  - authorizationCode\n  - clientCredentials\n  in_openapi: true\n  advertised_by_authorization_server: true\n  operation_count: 2\n  operations:\n  - getWebhookSubscription\n  - listWebhookSubscriptions\n- scope: webhook:write\n  description: Create & edit webhook subscriptions\n  flows:\n  - authorizationCode\n  - clientCredentials\n  in_openapi: true\n  advertised_by_authorization_server: true\n  operation_count: 3\n  operations:\n  - createWebhookSubscription\n  - refreshWebhookSigningSecret\n  - updateWebhookSubscription\n- scope: zendesk:write\n  in_openapi: false\n  advertised_by_authorization_server: true\n  operation_count:\
   \ 0\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/scopes/loopio-scopes.yml
-summary_line: 52 scopes
+summary_line: 52 scopes · authorizationCode/clientCredentials
 tags:
 - Company
 - RFP
@@ -394,5 +400,7 @@ tags:
 - Documents
 - Webhook
 - Software-as-a-Service
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.loopio.com/oauth2/access_token
 ---

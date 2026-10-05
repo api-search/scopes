@@ -74,6 +74,7 @@ tags:
 - Mission Software
 - Edge AI
 - ITAR
+token_bound: false
 token_urls:
 - https://api.developer.anduril.com/oauth/token
 ---

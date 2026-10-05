@@ -65,6 +65,7 @@ tags:
 - EDR
 - SOC Automation
 - MCP
+token_bound: false
 token_urls:
 - https://portal.deepinstinct.com/oauth/token
 ---

@@ -103,6 +103,7 @@ tags:
 - Sales Intelligence
 - Artificial Intelligence
 - Marketing Technology
+token_bound: false
 token_urls:
 - https://auth.6sense.com/oauth2/v1/apps/agentic/P32lusHUPY06hG8MJtqJnKEmq7hJ/MS3CTIZ4l7VZ4pFeraAIy18Y6wIVN/token
 ---

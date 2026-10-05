@@ -49,5 +49,6 @@ tags:
 - Mobile Payments
 - Payments
 - Tokenization
+token_bound: false
 token_urls: []
 ---

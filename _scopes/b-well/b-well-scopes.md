@@ -95,6 +95,7 @@ tags:
 - Patient Access
 - Health Records
 - MCP
+token_bound: false
 token_urls:
 - https://fhir-bwell.auth.us-east-1.amazoncognito.com/oauth2/token
 - https://client-sandbox-fhir.auth.us-east-1.amazoncognito.com/oauth2/token

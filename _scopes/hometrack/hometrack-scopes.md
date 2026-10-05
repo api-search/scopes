@@ -169,6 +169,7 @@ tags:
 - Climate Risk
 - Lending
 - Surveying
+token_bound: false
 token_urls:
 - https://hometrack-prod.eu.auth0.com/oauth/token
 ---

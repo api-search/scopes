@@ -300,7 +300,8 @@ api_specs:
   slug: deutsche-bank-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deutsche-bank/refs/heads/main/openapi/deutsche-bank-transactions-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://simulator-api.db.com/gw/oidc/oauth2/authorize
 description: The published Deutsche Bank dbAPI OAuth 2.0 scope reference, harvested verbatim from the scope metadata document the developer portal itself renders on its Available Scopes page. 42 scopes across 8 functional groups. Scopes are requested against the dbAPI OIDC provider (issuer https://simulator-api.db.com/gw/oidc/ in simulation, https://api.db.com in production) using the authorization code, authorization code with PKCE, client credentials or refresh token grant, depending on the API.
 docs: https://developer.db.com/apidocumentation/oauthflows/scopes
 flows: []
@@ -310,16 +311,187 @@ method: searched
 name: Deutsche Bank Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Deutsche Bank uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Deutsche Bank publishes 42 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Deutsche Bank API on a user''s behalf.
+
+
+  Tokens are issued from https://simulator-api.db.com/gw/oidc/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Deutsche Bank
 provider_slug: deutsche-bank
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 42
+scope_names:
+- read_accounts
+- read_accounts_list
+- read_transactions
+- rent_analysis
+- income_analysis
+- open_cash_account
+- open_escrow_account
+- read_credit_cards_list_with_details
+- read_credit_card_transactions
+- offline_access
+- openid
+- investments_report
+- read_assets
+- read_performances
+- read_security_accounts_list
+- read_security_transactions
+- order_securities
+- open_esp_securities_account
+- request_private_loans
+- request_loans
+- transaction_notifications
+- investments_orders_status_notification
+- instant_sepa_credit_transfers
+- sepa_credit_transfers
+- sepa_direct_debit_core
+- bulk_instant_sepa_credit_transfers
+- sepa_direct_debit_B2B
+- bulk_sepa_credit_transfers
+- read_ownership_information
+- read_additional_organization_data
+- verify_account_ownership
+- read_partners_legi
+- read_check_information
+- read_legal_representatives_data
+- read_customer_data
+- read_partners
+- read_additional_personal_data
+- read_addresses
+- age_certificate
+- reserve_branch_customer_number
+- read_brand
+- create_processing_orders
+scopes:
+- description: Grants read access to all basic cash account data like the current balance and a general account overview for the given customer
+  flows: []
+  scope: read_accounts
+- description: Grants read access to basic cash account data and a general account overview for the given customer
+  flows: []
+  scope: read_accounts_list
+- description: Grants read access to transactions for cash accounts (current and deposit) for the given customer. The API provides in default up to 13 months of transaction history
+  flows: []
+  scope: read_transactions
+- description: Check rent payments
+  flows: []
+  scope: rent_analysis
+- description: Check income payments
+  flows: []
+  scope: income_analysis
+- description: Cash account openings
+  flows: []
+  scope: open_cash_account
+- description: Escrow account openings
+  flows: []
+  scope: open_escrow_account
+- description: Grants read access to credit card data
+  flows: []
+  scope: read_credit_cards_list_with_details
+- description: Read your credit card transaction data
+  flows: []
+  scope: read_credit_card_transactions
+- description: Request an OAuth2 Refresh Token
+  flows: []
+  scope: offline_access
+- description: Request access to OpenId Connect functionality
+  flows: []
+  scope: openid
+- description: Generate investments report for the given customer
+  flows: []
+  scope: investments_report
+- description: Grants read access to asset summary of a portfolio group.
+  flows: []
+  scope: read_assets
+- description: Grants read access to performance overview of a portfolio.
+  flows: []
+  scope: read_performances
+- description: Grants read access to security account data
+  flows: []
+  scope: read_security_accounts_list
+- description: Grants read access to all security transactions for the given customer
+  flows: []
+  scope: read_security_transactions
+- description: Order securities
+  flows: []
+  scope: order_securities
+- description: Open ESP securities accounts
+  flows: []
+  scope: open_esp_securities_account
+- description: Request private loans
+  flows: []
+  scope: request_private_loans
+- description: Request loans
+  flows: []
+  scope: request_loans
+- description: Enable the transaction subscription feature
+  flows: []
+  scope: transaction_notifications
+- description: Enable the investments orders subscription feature
+  flows: []
+  scope: investments_orders_status_notification
+- description: Initiate and check status of instant SEPA credit transfers
+  flows: []
+  scope: instant_sepa_credit_transfers
+- description: Initiate and check status of SEPA Credit Transfers
+  flows: []
+  scope: sepa_credit_transfers
+- description: Initiate and check status of SEPA Direct Debit Core
+  flows: []
+  scope: sepa_direct_debit_core
+- description: Initiate and check status of bulk SEPA instant credit transfers
+  flows: []
+  scope: bulk_instant_sepa_credit_transfers
+- description: Initiate and check status of SEPA Direct Debit B2B
+  flows: []
+  scope: sepa_direct_debit_B2B
+- description: Bulk SEPA Credit Transfers with status check
+  flows: []
+  scope: bulk_sepa_credit_transfers
+- description: Information about ultimate beneficiary owners
+  flows: []
+  scope: read_ownership_information
+- description: Grants read access to additional organizational information about a partner representing a company. The additional data contains legal form, industry, local court, stakeholders and tax identification.
+  flows: []
+  scope: read_additional_organization_data
+- description: Performs account verification for the given customer.
+  flows: []
+  scope: verify_account_ownership
+- description: Grants read access to legitimation data of the current partner/customer. This data is only available for natural persons. Legitimation data contains information, e.g. about the document type, document number and document issue date for the given customer.
+  flows: []
+  scope: read_partners_legi
+- description: Know-Your-Customer Information
+  flows: []
+  scope: read_check_information
+- description: Information about legal representatives
+  flows: []
+  scope: read_legal_representatives_data
+- description: Performs personal data verification for the given customer.
+  flows: []
+  scope: read_customer_data
+- description: Grants read access to basic data of the current partner/customer. The basic partner data contains, among other information, the first name, the surname and the birthdate for the given customer. There is some overlap between our /partners endpoint and the /userinfo endpoint provided by OpenID connect.
+  flows: []
+  scope: read_partners
+- description: Grants read access to additional data about the partner. The additional data currently contains the tax identifications for the given customer.
+  flows: []
+  scope: read_additional_personal_data
+- description: 'Grants read access to address data for the given customer. Two address types are currently supported: business address and private address.'
+  flows: []
+  scope: read_addresses
+- description: Grants a check of a person's age, when compared against a specific minimum age
+  flows: []
+  scope: age_certificate
+- description: Reserve Branch Customer Number
+  flows: []
+  scope: reserve_branch_customer_number
+- description: Grants permission to get data from the /brand endpoint. Only available with client credential grant flow right now.
+  flows: []
+  scope: read_brand
+- description: Grants permission to post data with the /processingOrders endpoint. Only available with client credential grant flow right now.
+  flows: []
+  scope: create_processing_orders
 slug: deutsche-bank-scopes
 source_filename: deutsche-bank-scopes.yml
 source_heading: OAuth Scopes
@@ -334,7 +506,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   \   description: \"Reserve Branch Customer Number\"\n  - name: read_brand\n    group: reference_data\n    description: \"Grants permission to get data from the /brand endpoint. Only available with client credential grant flow right now.\"\n  - name: create_processing_orders\n    group: uncategorized_scopes\n    description: \"Grants permission to post data with the /processingOrders endpoint. Only available with client credential grant flow right now.\"\ngroups: [{\"id\": \"banking\", \"name\": \"Banking\"}, {\"id\": \"credit_cards\", \"name\": \"Credit Cards\"}, {\"id\": \"default\", \"name\": \"Default\"}, {\"id\": \"investment_portfolio\", \"name\": \"Investment Portfolio\"}, {\"id\": \"lending\", \"name\": \"Lending\"}, {\"id\": \"notification\", \"name\": \"Notification\"}, {\"id\": \"payments\", \"name\": \"Payments\"}, {\"id\": \"reference_data\", \"name\": \"Reference Data\"}, {\"id\": \"uncategorized_scopes\", \"name\": \"Uncategorized Scopes\", \"default\": true}]\nmaintainers:\n\
   \  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deutsche-bank/refs/heads/main/scopes/deutsche-bank-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 42 scopes
 tags:
 - Banking
 - Finance
@@ -348,5 +520,7 @@ tags:
 - Merchant Solutions
 - Germany
 - Financial Services
-token_urls: []
+token_bound: false
+token_urls:
+- https://simulator-api.db.com/gw/oidc/oauth2/token
 ---

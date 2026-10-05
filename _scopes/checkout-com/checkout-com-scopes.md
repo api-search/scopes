@@ -97,6 +97,8 @@ tags:
 - Acquiring
 - Cross-Border
 - Agentic Commerce
+- Payment Processing
+token_bound: false
 token_urls:
 - https://access.checkout.com/connect/token
 ---

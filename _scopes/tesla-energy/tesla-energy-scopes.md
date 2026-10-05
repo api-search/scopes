@@ -127,6 +127,7 @@ tags:
 - Grid Services
 - Home Energy
 - Utility Scale
+token_bound: false
 token_urls:
 - https://auth.tesla.com/oauth2/v3/token
 ---

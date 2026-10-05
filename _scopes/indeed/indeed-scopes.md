@@ -77,6 +77,7 @@ tags:
 - Job Search
 - Job
 - Recruiting
+token_bound: false
 token_urls:
 - https://apis.indeed.com/oauth/v2/tokens
 ---

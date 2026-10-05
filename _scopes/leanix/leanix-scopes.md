@@ -72,6 +72,7 @@ tags:
 - IT Portfolio Management
 - Application Portfolio
 - Technology Risk
+token_bound: false
 token_urls:
 - /services/mtm/v1/oauth2/token
 ---

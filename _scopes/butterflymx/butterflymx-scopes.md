@@ -165,6 +165,7 @@ tags:
 - smart-locks
 - Authentication
 - Webhook
+token_bound: false
 token_urls:
 - https://accounts.butterflymx.com/oauth/token
 ---

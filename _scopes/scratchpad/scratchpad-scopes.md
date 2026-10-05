@@ -66,6 +66,7 @@ tags:
 - MCP
 - Agents
 - Sales Intelligence
+token_bound: false
 token_urls:
 - https://mcp.clearskies.cc/oauth/token
 ---

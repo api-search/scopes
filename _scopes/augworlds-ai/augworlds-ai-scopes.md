@@ -9,16 +9,40 @@ method: probed
 name: Augworlds Ai Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Travel World uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Travel World publishes 6 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Travel World API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Travel World
 provider_slug: augworlds-ai
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 6
+scope_names:
+- mcp:tools:list
+- mcp:tk:read
+- mcp:brandlanes:read
+- mcp:search:read
+- mcp:profile:apply
+- mcp:observations:write
+scopes:
+- description: Enumerate the MCP server's tools (the MCP tools/list method). Name-derived; the provider publishes no description.
+  flows: []
+  scope: mcp:tools:list
+- description: Read access to the "tk" resource family. The provider does not expand the abbreviation anywhere public; it is not guessed here.
+  flows: []
+  scope: mcp:tk:read
+- description: Read access to the "brandlanes" resource family. Name-derived; likely the direct-from-travel-partner offers the site markets as "buy direct — no middleman", but the provider does not say so.
+  flows: []
+  scope: mcp:brandlanes:read
+- description: Read access to search — the flight and hotel search the public docs describe. Name-derived.
+  flows: []
+  scope: mcp:search:read
+- description: Apply the member's saved profile (loyalty programs and travel preferences, per the public docs) to results. Name-derived; a write-shaped verb.
+  flows: []
+  scope: mcp:profile:apply
+- description: Write access to the "observations" resource family. Name-derived; the provider publishes no description.
+  flows: []
+  scope: mcp:observations:write
 slug: augworlds-ai-scopes
 source_filename: augworlds-ai-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +52,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: https://travel.au
   \  resource_documentation: https://augworlds.ai/mcp\nscope_count: 6\nscopes:\n- name: mcp:tools:list\n  family: tools\n  access: list\n  description: Enumerate the MCP server's tools (the MCP tools/list method). Name-derived; the provider publishes no description.\n- name: mcp:tk:read\n  family: tk\n  access: read\n  description: Read access to the \"tk\" resource family. The provider does not expand the abbreviation anywhere public; it is not guessed here.\n- name: mcp:brandlanes:read\n  family: brandlanes\n  access: read\n  description: Read access to the \"brandlanes\" resource family. Name-derived; likely the direct-from-travel-partner offers the site markets as \"buy direct — no middleman\", but the provider does not say so.\n- name: mcp:search:read\n  family: search\n  access: read\n  description: Read access to search — the flight and hotel search the public docs describe. Name-derived.\n- name: mcp:profile:apply\n  family: profile\n  access: apply\n  description: Apply the member's\
   \ saved profile (loyalty programs and travel preferences, per the public docs) to results. Name-derived; a write-shaped verb.\n- name: mcp:observations:write\n  family: observations\n  access: write\n  description: Write access to the \"observations\" resource family. Name-derived; the provider publishes no description.\nnotes:\n- The A2A agent card's bearer scheme carries an empty scope list; the OAuth scopes above apply to the MCP resource only.\n- token_endpoint_auth_methods_supported is [none], so every registered client is a public client relying on PKCE.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/augworlds-ai/refs/heads/main/scopes/augworlds-ai-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 6 scopes
 tags:
 - Company
 - Travel
@@ -40,5 +64,6 @@ tags:
 - AI Agents
 - Authentication
 - Marketplace
+token_bound: false
 token_urls: []
 ---

@@ -55,6 +55,7 @@ tags:
 - SMART on FHIR
 - US Core
 - Clinical Data
+token_bound: false
 token_urls:
 - https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
 ---

@@ -111,6 +111,7 @@ tags:
 - SMART on FHIR
 - Clinical
 - Interoperability
+token_bound: false
 token_urls:
 - https://api.medplum.com/oauth2/token
 ---

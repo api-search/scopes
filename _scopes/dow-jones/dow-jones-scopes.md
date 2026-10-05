@@ -368,6 +368,7 @@ tags:
 - Screening
 - Due Diligence
 - Media Monitoring
+token_bound: false
 token_urls:
 - https://sso.accounts.dowjones.com/oauth/token
 - https://accounts.dowjones.com/oauth2/v1/token

@@ -90,6 +90,7 @@ tags:
 - Agents
 - MCP
 - A2A
+token_bound: false
 token_urls:
 - https://quote-api.smklog.com/oauth/token
 ---

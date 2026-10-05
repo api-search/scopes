@@ -229,6 +229,7 @@ tags:
 - E-Commerce
 - Sports
 - Concerts
+token_bound: false
 token_urls:
 - https://account.stubhub.com/oauth2/token
 ---

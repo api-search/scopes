@@ -104,6 +104,7 @@ tags:
 - Fintech
 - Core Banking
 - Cloud-Native
+token_bound: false
 token_urls:
 - https://api.pismo.io/passport/v2/oauth/token
 ---

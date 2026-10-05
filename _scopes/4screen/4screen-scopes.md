@@ -1,5 +1,6 @@
 ---
-authorization_urls: []
+authorization_urls:
+- https://api.4screen.com/auth/realms/fourscreen/protocol/openid-connect/auth
 description: 'The complete scopes_supported list advertised by 4.screen''s Keycloak realm. Two of these are first-party business scopes that map directly onto 4.screen''s two-sided marketplace — the demand side (advertisers and businesses buying in-car placements) and the supply side (automakers and mobility service providers serving them). The rest are Keycloak/OIDC standard scopes. NOTE: which scope each API operation requires is NOT published — there is no public API reference — so the descriptions of the two first-party scopes below are marked inferred and must not be read as documented behaviour.'
 docs: ''
 flows: []
@@ -9,16 +10,75 @@ method: probed
 name: 4Screen Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: '4.screen uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: '4.screen publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the 4.screen API on a user''s behalf.
+
+
+  Tokens are issued from https://api.4screen.com/auth/realms/fourscreen/protocol/openid-connect/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: 4.screen
 provider_slug: 4screen
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- demand-client-scope
+- supply-operations-client-scope
+- service_account
+- openid
+- profile
+- email
+- phone
+- address
+- offline_access
+- acr
+- basic
+- roles
+- web-origins
+- microprofile-jwt
+scopes:
+- description: INFERRED, not documented. 4.screen's own naming for the demand side of its marketplace — the businesses, brands and agencies that buy Branded Pins, Sponsored Search, Recommendations and Detail Screen placements. This is the scope the 4.screen customer portal client would carry.
+  flows: []
+  scope: demand-client-scope
+- description: INFERRED, not documented. 4.screen's own naming for the supply side — the automaker/OEM and mobility-service-provider integrations that render 4.screen content inside an infotainment system, plus the operational tooling around them.
+  flows: []
+  scope: supply-operations-client-scope
+- description: Keycloak service-account scope, used by client_credentials machine clients. Present in the realm's scopes_supported list.
+  flows: []
+  scope: service_account
+- description: Required to request an ID token (OpenID Connect Core 1.0).
+  flows: []
+  scope: openid
+- description: name, given_name, family_name, preferred_username claims.
+  flows: []
+  scope: profile
+- description: email claim.
+  flows: []
+  scope: email
+- description: phone_number claims.
+  flows: []
+  scope: phone
+- description: address claim.
+  flows: []
+  scope: address
+- description: Issues a refresh token usable while the user is offline.
+  flows: []
+  scope: offline_access
+- description: Authentication Context Class Reference claim (acr_values 0 and 1 advertised).
+  flows: []
+  scope: acr
+- description: Keycloak default client scope carrying sub and auth_time.
+  flows: []
+  scope: basic
+- description: Realm and client role mappings in the token.
+  flows: []
+  scope: roles
+- description: CORS allowed-origins mapper.
+  flows: []
+  scope: web-origins
+- description: Eclipse MicroProfile JWT claims (upn, groups).
+  flows: []
+  scope: microprofile-jwt
 slug: 4screen-scopes
 source_filename: 4screen-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +88,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: https://api.4scre
   \ machine clients.\n      Present in the realm's scopes_supported list.\n\n  - name: openid\n    category: oidc-standard\n    documented: true\n    description: Required to request an ID token (OpenID Connect Core 1.0).\n  - name: profile\n    category: oidc-standard\n    documented: true\n    description: name, given_name, family_name, preferred_username claims.\n  - name: email\n    category: oidc-standard\n    documented: true\n    description: email claim.\n  - name: phone\n    category: oidc-standard\n    documented: true\n    description: phone_number claims.\n  - name: address\n    category: oidc-standard\n    documented: true\n    description: address claim.\n  - name: offline_access\n    category: oidc-standard\n    documented: true\n    description: Issues a refresh token usable while the user is offline.\n  - name: acr\n    category: keycloak-default\n    documented: true\n    description: Authentication Context Class Reference claim (acr_values 0 and 1 advertised).\n  - name:\
   \ basic\n    category: keycloak-default\n    documented: true\n    description: Keycloak default client scope carrying sub and auth_time.\n  - name: roles\n    category: keycloak-default\n    documented: true\n    description: Realm and client role mappings in the token.\n  - name: web-origins\n    category: keycloak-default\n    documented: true\n    description: CORS allowed-origins mapper.\n  - name: microprofile-jwt\n    category: keycloak-default\n    documented: true\n    description: Eclipse MicroProfile JWT claims (upn, groups).\n\ngaps:\n  - >-\n    No scopes/permissions reference page exists on any public 4.screen surface.\n    docs: is null for that reason, not because the search was skipped —\n    docs.4screen.com and developer.4screen.com do not resolve in DNS, and\n    4screen.com has no developer section in its sitemap.\n  - >-\n    Operation-to-scope mapping is unavailable because api.4screen.com returns\n    401 on every springdoc/OpenAPI path and on /graphql.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/4screen/refs/heads/main/scopes/4screen-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Company
 - Advertising
@@ -41,5 +101,7 @@ tags:
 - Navigation
 - Marketing
 - Germany
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.4screen.com/auth/realms/fourscreen/protocol/openid-connect/token
 ---

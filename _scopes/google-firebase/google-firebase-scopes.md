@@ -65,6 +65,7 @@ tags:
 - Mobile
 - Real-Time Database
 - Identity Federation
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

@@ -75,6 +75,7 @@ tags:
 - Pipelines
 - Release Management
 - CI/CD
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

@@ -9,16 +9,72 @@ method: probed
 name: Leap Finance Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Leap Finance uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Leap Finance publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Leap Finance API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Leap Finance
 provider_slug: leap-finance
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- offline_access
+- name
+- given_name
+- family_name
+- nickname
+- email_verified
+- picture
+- created_at
+- identities
+scopes:
+- description: Requests an ID Token and identifies the request as an OIDC request.
+  flows: []
+  scope: openid
+- description: Requests the default profile claims (name, family_name, given_name, nickname, picture, updated_at and related).
+  flows: []
+  scope: profile
+- description: Requests the email and email_verified claims.
+  flows: []
+  scope: email
+- description: Requests the address claim.
+  flows: []
+  scope: address
+- description: Requests the phone_number and phone_number_verified claims.
+  flows: []
+  scope: phone
+- description: Requests a refresh token so the client can obtain tokens without the user present.
+  flows: []
+  scope: offline_access
+- description: Requests the name claim.
+  flows: []
+  scope: name
+- description: Requests the given_name claim.
+  flows: []
+  scope: given_name
+- description: Requests the family_name claim.
+  flows: []
+  scope: family_name
+- description: Requests the nickname claim.
+  flows: []
+  scope: nickname
+- description: Requests the email_verified boolean claim.
+  flows: []
+  scope: email_verified
+- description: Requests the picture claim.
+  flows: []
+  scope: picture
+- description: Requests the account creation timestamp claim.
+  flows: []
+  scope: created_at
+- description: Requests the identities array describing linked identity-provider accounts.
+  flows: []
+  scope: identities
 slug: leap-finance-scopes
 source_filename: leap-finance-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +84,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: >-\n  scopes_supp
   \    description: Requests the phone_number and phone_number_verified claims.\n  - name: offline_access\n    standard: OpenID Connect Core 1.0\n    description: Requests a refresh token so the client can obtain tokens without the user present.\n  - name: name\n    standard: OIDC standard claim exposed as a scope by Auth0\n    description: Requests the name claim.\n  - name: given_name\n    standard: OIDC standard claim exposed as a scope by Auth0\n    description: Requests the given_name claim.\n  - name: family_name\n    standard: OIDC standard claim exposed as a scope by Auth0\n    description: Requests the family_name claim.\n  - name: nickname\n    standard: OIDC standard claim exposed as a scope by Auth0\n    description: Requests the nickname claim.\n  - name: email_verified\n    standard: OIDC standard claim exposed as a scope by Auth0\n    description: Requests the email_verified boolean claim.\n  - name: picture\n    standard: OIDC standard claim exposed as a scope by Auth0\n\
   \    description: Requests the picture claim.\n  - name: created_at\n    standard: Auth0 profile claim\n    description: Requests the account creation timestamp claim.\n  - name: identities\n    standard: Auth0 profile claim\n    description: >-\n      Requests the identities array describing linked identity-provider accounts.\n\nfindings:\n  resource_scopes: 0\n  note: >-\n    The absence of any resource-specific scope is itself the finding. A provider that\n    exposed a programmatic API through this tenant would register an Auth0 API and\n    advertise its permissions here. Leap Finance advertises only identity scopes,\n    which is consistent with the tenant existing solely to log borrowers and staff\n    into first-party web applications.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leap-finance/refs/heads/main/scopes/leap-finance-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Company
 - Financial Services
@@ -39,5 +95,6 @@ tags:
 - Consumer Finance
 - Study Abroad
 - India
+token_bound: false
 token_urls: []
 ---

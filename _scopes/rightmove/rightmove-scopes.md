@@ -59,5 +59,6 @@ tags:
 - Rentals
 - Commercial Real Estate
 - Data Feed
+token_bound: false
 token_urls: []
 ---

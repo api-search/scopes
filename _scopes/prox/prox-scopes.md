@@ -76,6 +76,7 @@ tags:
 - Knowledge Base
 - Documentation
 - Agents
+token_bound: false
 token_urls:
 - https://signin.useprox.com/oauth2/token
 ---

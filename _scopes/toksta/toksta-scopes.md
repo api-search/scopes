@@ -97,5 +97,6 @@ tags:
 - Creator Data
 - MCP
 - Brand Monitoring
+token_bound: false
 token_urls: []
 ---

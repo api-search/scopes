@@ -165,6 +165,7 @@ tags:
 - LLM
 - No-Code
 - Developer Tools
+token_bound: false
 token_urls:
 - https://api.gumloop.com/oauth/token
 ---

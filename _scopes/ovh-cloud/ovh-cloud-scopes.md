@@ -65,6 +65,7 @@ tags:
 - Compute
 - Servers
 - Hosting
+token_bound: false
 token_urls:
 - https://us.ovhcloud.com/auth/oauth2/token
 ---

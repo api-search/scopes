@@ -104,6 +104,7 @@ tags:
 - OMS
 - WMS
 - Japan
+token_bound: false
 token_urls:
 - https://app2.logiless.com/oauth2/token
 ---

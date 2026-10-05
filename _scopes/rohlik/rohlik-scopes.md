@@ -62,6 +62,7 @@ tags:
 - MCP
 - Authentication
 - Europe
+token_bound: false
 token_urls:
 - https://identity.rohlik.cz/oauth2/token
 ---

@@ -126,6 +126,7 @@ tags:
 - API Security
 - Threat Detection
 - Data Security
+token_bound: false
 token_urls:
 - https://auth.upwind.io/oauth/token
 ---

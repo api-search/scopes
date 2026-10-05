@@ -57,5 +57,6 @@ tags:
 - Firewall
 - Network Security
 - Threat Protection
+token_bound: false
 token_urls: []
 ---

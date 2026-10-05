@@ -198,6 +198,7 @@ tags:
 - Cellular
 - Track and Trace
 - Location
+token_bound: false
 token_urls:
 - https://auth.reelables.com/oauth2/token
 ---

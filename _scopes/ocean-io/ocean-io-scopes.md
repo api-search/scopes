@@ -103,6 +103,7 @@ tags:
 - Segmentation
 - Go-To-Market
 - MCP
+token_bound: false
 token_urls:
 - https://api.ocean.io/oauth/token
 ---

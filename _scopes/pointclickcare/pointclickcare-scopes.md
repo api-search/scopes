@@ -98,6 +98,7 @@ tags:
 - FHIR
 - Senior Care
 - Interoperability
+token_bound: false
 token_urls:
 - https://login.pointclickcare.com/oauth2/token
 ---

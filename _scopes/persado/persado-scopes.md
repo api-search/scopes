@@ -69,6 +69,7 @@ tags:
 - MCP
 - Compliance
 - Financial Services
+token_bound: false
 token_urls:
 - https://myaccount.persado.com/realms/persado-portal/protocol/openid-connect/token
 ---

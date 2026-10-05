@@ -101,6 +101,7 @@ tags:
 - Agents
 - RSS
 - Analytics
+token_bound: false
 token_urls:
 - https://substack.com/oauth/token
 ---

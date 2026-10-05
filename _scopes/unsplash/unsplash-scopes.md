@@ -129,6 +129,7 @@ tags:
 - Creative
 - Open Source
 - Media
+token_bound: false
 token_urls:
 - https://unsplash.com/oauth/token
 ---

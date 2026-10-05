@@ -183,6 +183,7 @@ tags:
 - Publishing
 - Webhook
 - Acquired
+token_bound: false
 token_urls:
 - https://accounts.cmp.optimizely.com/o/oauth2/v1/token
 ---

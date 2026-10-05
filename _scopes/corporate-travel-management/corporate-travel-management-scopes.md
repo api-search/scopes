@@ -118,6 +118,7 @@ tags:
 - Booking
 - Hotels
 - Meetings and Events
+token_bound: false
 token_urls:
 - https://travelctm-au-production.au.auth0.com/oauth/token
 ---

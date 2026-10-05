@@ -173,5 +173,6 @@ tags:
 - Block Explorer
 - Fintech
 - Webhook
+token_bound: false
 token_urls: []
 ---

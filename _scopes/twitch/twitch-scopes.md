@@ -541,6 +541,8 @@ tags:
 - Video
 - Twitch
 - Real-Time
+- Live Streaming
+token_bound: false
 token_urls:
 - https://id.twitch.tv/oauth2/token
 ---

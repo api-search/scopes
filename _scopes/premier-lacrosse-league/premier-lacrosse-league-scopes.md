@@ -84,6 +84,7 @@ tags:
 - Agentic Commerce
 - GraphQL
 - Fantasy Sports
+token_bound: false
 token_urls:
 - https://account.premierlacrosseleague.com/authentication/oauth/token
 ---

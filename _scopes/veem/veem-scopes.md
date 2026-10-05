@@ -140,6 +140,7 @@ tags:
 - Wallets
 - Fintech
 - Global Payments
+token_bound: false
 token_urls:
 - https://api.veem.com/oauth/token
 ---

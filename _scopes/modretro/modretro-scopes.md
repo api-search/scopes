@@ -70,6 +70,7 @@ tags:
 - MCP
 - Universal Commerce Protocol
 - Open Source Hardware
+token_bound: false
 token_urls:
 - https://orders.modretro.com/authentication/oauth/token
 ---

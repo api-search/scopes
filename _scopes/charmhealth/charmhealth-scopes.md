@@ -172,6 +172,7 @@ tags:
 - Patients
 - SMART on FHIR
 - US Core
+token_bound: false
 token_urls:
 - https://ehr2.charmtracker.com/oauth/v2/token
 ---

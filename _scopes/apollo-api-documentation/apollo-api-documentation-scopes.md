@@ -94,16 +94,284 @@ method: probed
 name: Apollo Api Documentation Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Apollo API Documentation uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Apollo API Documentation publishes 67 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Apollo API Documentation API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Apollo API Documentation
 provider_slug: apollo-api-documentation
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 67
+scope_names:
+- read_user_profile
+- app_scopes
+- people_match
+- people_bulk_match
+- organizations_enrich
+- organizations_bulk_enrich
+- organizations_job_posting
+- mixed_people_api_search
+- mixed_companies_search
+- organizations_search
+- webhook_result_read
+- contact_read
+- contact_write
+- contact_update
+- contacts_search
+- contacts_bulk_create
+- account_write
+- account_update
+- account_bulk_create
+- opportunity_read
+- opportunity_write
+- opportunities_list
+- emailer_campaign_read
+- emailer_campaigns_search
+- emailer_campaigns_create
+- emailer_campaigns_update
+- emailer_campaigns_approve
+- emailer_campaigns_add_contact_ids
+- emailer_campaigns_remove_or_stop_contact_ids
+- emailer_campaigns_activity_feed
+- emailer_schedules_list
+- emailer_messages_search
+- emailer_messages_create
+- emailer_messages_send_now
+- emailer_messages_email_send_status
+- emailer_messages_get_content
+- email_accounts_list
+- email_account_purchase_list
+- email_account_purchase_create
+- domain_purchase_list
+- domain_purchase_create
+- domain_authentication_status
+- tasks_create
+- tasks_list
+- report_sync
+- agent_task
+- context_center_read
+- context_center_write
+- custom_objects_read
+- custom_objects_write
+- custom_field_write
+- custom_fields_list
+- api_usage_stats_read
+- credit_usage_stats_read
+- users_list
+- conversation_intelligence_search
+- conversation_intelligence_show
+- tags_list
+- lists_create
+- lists_update
+- lists_add_entities
+- lists_remove_entities
+- website_visitors_read
+- website_visitor_domain_tracker_read
+- website_visitor_domain_tracker_update
+- website_visitor_domain_tracker_send_install_email
+- website_visitor_domain_tracker_install_script
+scopes:
+- description: Basic user info. Added by Apollo to every app by default.
+  flows: []
+  scope: read_user_profile
+- description: Umbrella grant covering all scopes selected during app registration.
+  flows: []
+  scope: app_scopes
+- description: People enrichment.
+  flows: []
+  scope: people_match
+- description: Bulk people enrichment.
+  flows: []
+  scope: people_bulk_match
+- description: Organization enrichment.
+  flows: []
+  scope: organizations_enrich
+- description: Bulk organization enrichment.
+  flows: []
+  scope: organizations_bulk_enrich
+- description: Organization job postings.
+  flows: []
+  scope: organizations_job_posting
+- description: People API search.
+  flows: []
+  scope: mixed_people_api_search
+- description: Organization search.
+  flows: []
+  scope: mixed_companies_search
+- description: Organization search (alternate grant).
+  flows: []
+  scope: organizations_search
+- description: Poll asynchronous webhook results.
+  flows: []
+  scope: webhook_result_read
+- description: Read a saved contact.
+  flows: []
+  scope: contact_read
+- description: Create contacts.
+  flows: []
+  scope: contact_write
+- description: Update contacts.
+  flows: []
+  scope: contact_update
+- description: Search saved contacts.
+  flows: []
+  scope: contacts_search
+- description: Bulk create contacts.
+  flows: []
+  scope: contacts_bulk_create
+- description: Create accounts.
+  flows: []
+  scope: account_write
+- description: Update accounts.
+  flows: []
+  scope: account_update
+- description: Bulk create accounts.
+  flows: []
+  scope: account_bulk_create
+- description: Read a deal.
+  flows: []
+  scope: opportunity_read
+- description: Create or update a deal.
+  flows: []
+  scope: opportunity_write
+- description: List deals.
+  flows: []
+  scope: opportunities_list
+- description: Read a sequence.
+  flows: []
+  scope: emailer_campaign_read
+- description: Search sequences.
+  flows: []
+  scope: emailer_campaigns_search
+- description: Create a sequence.
+  flows: []
+  scope: emailer_campaigns_create
+- description: Update a sequence.
+  flows: []
+  scope: emailer_campaigns_update
+- description: Activate a sequence.
+  flows: []
+  scope: emailer_campaigns_approve
+- description: Add contacts to a sequence.
+  flows: []
+  scope: emailer_campaigns_add_contact_ids
+- description: Remove or stop contacts in a sequence.
+  flows: []
+  scope: emailer_campaigns_remove_or_stop_contact_ids
+- description: Contact sequence activity.
+  flows: []
+  scope: emailer_campaigns_activity_feed
+- description: List email schedules.
+  flows: []
+  scope: emailer_schedules_list
+- description: Search outreach emails.
+  flows: []
+  scope: emailer_messages_search
+- description: Create an email draft.
+  flows: []
+  scope: emailer_messages_create
+- description: Send an email now.
+  flows: []
+  scope: emailer_messages_send_now
+- description: Check email send status.
+  flows: []
+  scope: emailer_messages_email_send_status
+- description: Get email content.
+  flows: []
+  scope: emailer_messages_get_content
+- description: List connected mailboxes.
+  flows: []
+  scope: email_accounts_list
+- description: Browse purchasable mailboxes for cold email.
+  flows: []
+  scope: email_account_purchase_list
+- description: Purchase a mailbox for cold email.
+  flows: []
+  scope: email_account_purchase_create
+- description: Browse purchasable sending domains.
+  flows: []
+  scope: domain_purchase_list
+- description: Purchase a sending domain.
+  flows: []
+  scope: domain_purchase_create
+- description: Check SPF/DKIM/DMARC status for a sending domain.
+  flows: []
+  scope: domain_authentication_status
+- description: Create tasks.
+  flows: []
+  scope: tasks_create
+- description: Search or list tasks.
+  flows: []
+  scope: tasks_list
+- description: Query the analytics report.
+  flows: []
+  scope: report_sync
+- description: Agent task execution.
+  flows: []
+  scope: agent_task
+- description: Read Context Center data.
+  flows: []
+  scope: context_center_read
+- description: Write Context Center data.
+  flows: []
+  scope: context_center_write
+- description: Read custom object records.
+  flows: []
+  scope: custom_objects_read
+- description: Create or update custom objects.
+  flows: []
+  scope: custom_objects_write
+- description: Create or update a custom field.
+  flows: []
+  scope: custom_field_write
+- description: List custom fields.
+  flows: []
+  scope: custom_fields_list
+- description: View API usage stats and rate limits.
+  flows: []
+  scope: api_usage_stats_read
+- description: View credit usage stats.
+  flows: []
+  scope: credit_usage_stats_read
+- description: List workspace users.
+  flows: []
+  scope: users_list
+- description: Search conversations.
+  flows: []
+  scope: conversation_intelligence_search
+- description: Get conversation info.
+  flows: []
+  scope: conversation_intelligence_show
+- description: List tags.
+  flows: []
+  scope: tags_list
+- description: Create a list.
+  flows: []
+  scope: lists_create
+- description: Update a list.
+  flows: []
+  scope: lists_update
+- description: Add records to a list.
+  flows: []
+  scope: lists_add_entities
+- description: Remove records from a list.
+  flows: []
+  scope: lists_remove_entities
+- description: Read website-visitor intent data.
+  flows: []
+  scope: website_visitors_read
+- description: Read website visitor domain tracker config.
+  flows: []
+  scope: website_visitor_domain_tracker_read
+- description: Update website visitor domain tracker config.
+  flows: []
+  scope: website_visitor_domain_tracker_update
+- description: Email the visitor-tracker install script.
+  flows: []
+  scope: website_visitor_domain_tracker_send_install_email
+- description: Retrieve the visitor-tracker install script.
+  flows: []
+  scope: website_visitor_domain_tracker_install_script
 slug: apollo-api-documentation-scopes
 source_filename: apollo-api-documentation-scopes.yml
 source_heading: OAuth Scopes
@@ -119,7 +387,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.apoll
   \ description: Read website visitor domain tracker config.}\n  - {name: website_visitor_domain_tracker_update, description: Update website visitor domain tracker config.}\n  - {name: website_visitor_domain_tracker_send_install_email, description: Email the visitor-tracker install script.}\n  - {name: website_visitor_domain_tracker_install_script, description: Retrieve the visitor-tracker install script.}\nnotes:\n  - >-\n    `operation:` is a derived cross-reference to the operationId in\n    openapi/_original/apollo-api-documentation-apollo-rest-api-openapi.json where the scope name and the\n    endpoint path are the same resource. Scopes with no `operation:` have no matching public REST operation —\n    they grant MCP-only or app-only capability (custom objects, Context Center, website visitors, domain and\n    mailbox purchasing, agent_task).\n  - >-\n    Example authorization URL published by Apollo:\n    https://app.apollo.io/#/oauth/authorize?client_id=<id>&redirect_uri=<uri>&response_type=code&scope=contacts_search%20person_read&state=xxxx\n\
   \  - >-\n    Apollo warns that editing an app's scopes after registration requires repeating the whole authorization\n    flow.\nmaintainers:\n  - FN: Kin Lane\n    email: info@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/scopes/apollo-api-documentation-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 67 scopes
 tags:
 - API Documentation
 - Sales Intelligence
@@ -131,5 +399,6 @@ tags:
 - MCP
 - Agents
 - Go-To-Market
+token_bound: false
 token_urls: []
 ---

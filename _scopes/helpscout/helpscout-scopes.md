@@ -97,6 +97,7 @@ tags:
 - Live Chat
 - Knowledge Base
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://api.helpscout.net/v2/oauth2/token
 ---

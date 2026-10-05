@@ -46,16 +46,32 @@ method: probed
 name: Target Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Target uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Target publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Target API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Target
 provider_slug: target
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- profile
+- openid_client_registration
+scopes:
+- description: Request an ID token; required for any OpenID Connect flow.
+  flows: []
+  scope: openid
+- description: Release the subject's email address claim to the client.
+  flows: []
+  scope: email
+- description: Release the subject's profile claims to the client.
+  flows: []
+  scope: profile
+- description: Permits dynamic client registration against the issuer's registration_endpoint (/openid/connect/register). Advertised on both issuers.
+  flows: []
+  scope: openid_client_registration
 slug: target-scopes
 source_filename: target-scopes.yml
 source_heading: OAuth Scopes
@@ -64,7 +80,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: https://oauth.iam
   scope_count: 4\nscopes:\n- name: openid\n  description: Request an ID token; required for any OpenID Connect flow.\n  issuers:\n  - https://oauth.iam.target.com\n  - https://oauth.iam.partnersonline.com\n- name: email\n  description: Release the subject's email address claim to the client.\n  issuers:\n  - https://oauth.iam.target.com\n  - https://oauth.iam.partnersonline.com\n- name: profile\n  description: Release the subject's profile claims to the client.\n  issuers:\n  - https://oauth.iam.target.com\n  - https://oauth.iam.partnersonline.com\n- name: openid_client_registration\n  description: >-\n    Permits dynamic client registration against the issuer's registration_endpoint\n    (/openid/connect/register). Advertised on both issuers.\n  issuers:\n  - https://oauth.iam.target.com\n  - https://oauth.iam.partnersonline.com\nclaims_supported:\n- sub\n- iss\n- auth_time\n- acr\n- aud\n- azp\n- exp\n- c_hash\n- at_hash\n- nonce\ngaps:\n- No resource/API scopes are published anonymously;\
   \ the API catalog behind developer.target.com\n  returns HTTP 401 without a key.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/scopes/target-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Fortune 100
 - E-Commerce
@@ -73,5 +89,6 @@ tags:
 - Inventory
 - Stores
 - Order
+token_bound: false
 token_urls: []
 ---

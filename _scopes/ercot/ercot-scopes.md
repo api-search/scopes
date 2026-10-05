@@ -290,6 +290,7 @@ tags:
 - Demand Response
 - Open Data
 - ERCOT
+token_bound: false
 token_urls:
 - https://ercotb2c.b2clogin.com/ercotb2c.onmicrosoft.com/B2C_1_PUBAPI-ROPC-FLOW/oauth2/v2.0/token
 ---

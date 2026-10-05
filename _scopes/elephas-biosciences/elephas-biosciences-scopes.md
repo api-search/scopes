@@ -60,6 +60,7 @@ tags:
 - Clinical Research
 - Laboratory
 - Medical Devices
+token_bound: false
 token_urls:
 - https://na.login.elephas.com/bf865bf1-740f-49ec-922c-9b2c233faa13/b2c_1a_smart_hrd_susi/oauth2/v2.0/token
 ---

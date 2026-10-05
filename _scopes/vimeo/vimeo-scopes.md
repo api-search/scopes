@@ -110,6 +110,7 @@ tags:
 - Live Streaming
 - Media
 - OTT
+token_bound: false
 token_urls:
 - https://api.vimeo.com/oauth/access_token
 - https://api.vimeo.com/oauth/authorize/client

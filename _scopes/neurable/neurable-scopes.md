@@ -92,6 +92,6 @@ tags:
 - cognitive-analytics
 - Health Data
 - Authentication
-- OpenID Connect
+token_bound: false
 token_urls: []
 ---

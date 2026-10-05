@@ -215,6 +215,7 @@ tags:
 - Time and Billing
 - Webhook
 - Authentication
+token_bound: false
 token_urls:
 - https://api.lawmatics.com/oauth/token
 ---

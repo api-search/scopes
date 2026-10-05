@@ -89,6 +89,7 @@ tags:
 - Booking
 - Corporate Travel
 - Airports
+token_bound: false
 token_urls:
 - https://baexternalid.ciamlogin.com/45c0456f-2aef-40f6-847e-d3d957348527/oauth2/v2.0/token
 ---

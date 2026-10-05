@@ -105,6 +105,7 @@ tags:
 - Media
 - News
 - Radio
+token_bound: false
 token_urls:
 - https://authorization.api.npr.org/v2/token
 ---

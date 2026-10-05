@@ -92,6 +92,7 @@ tags:
 - Inventory
 - Procurement
 - Recipes
+token_bound: false
 token_urls:
 - https://api.apicbase.com/oauth/token/
 ---

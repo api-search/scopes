@@ -67,6 +67,7 @@ tags:
 - Health and Wellness
 - Subscription
 - Shopify
+token_bound: false
 token_urls:
 - https://account.daily-harvest.com/authentication/oauth/token
 ---

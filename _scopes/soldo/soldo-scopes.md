@@ -619,6 +619,7 @@ tags:
 - Prepaid Cards
 - Payments
 - Banking
+token_bound: false
 token_urls:
 - https://api.soldo.com/oauth/authorize
 ---

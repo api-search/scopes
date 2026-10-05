@@ -268,6 +268,7 @@ tags:
 - MarTech
 - Webhook
 - Authentication
+token_bound: false
 token_urls:
 - /oauth/token
 ---

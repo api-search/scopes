@@ -117,6 +117,7 @@ tags:
 - Storage
 - Cloud Infrastructure
 - HPE
+token_bound: false
 token_urls:
 - /oauth/token
 ---

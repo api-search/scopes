@@ -100,6 +100,7 @@ tags:
 - Video
 - Transcripts
 - Experience Metrics
+token_bound: false
 token_urls:
 - https://auth.usertesting.com/oauth2/aus1p3vtd8vtm4Bxv0h8/v1/token
 ---

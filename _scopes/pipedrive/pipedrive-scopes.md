@@ -488,6 +488,7 @@ tags:
 - Pipeline Management
 - Software-as-a-Service
 - Small Business
+token_bound: false
 token_urls:
 - https://oauth.pipedrive.com/oauth/token
 ---

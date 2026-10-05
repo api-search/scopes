@@ -111,6 +111,7 @@ tags:
 - Device Sync
 - SMS
 - File Transfer
+token_bound: false
 token_urls:
 - https://api.pushbullet.com/oauth2/token
 ---

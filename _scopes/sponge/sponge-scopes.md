@@ -135,5 +135,6 @@ tags:
 - Fintech
 - Cards
 - On-Ramp
+token_bound: false
 token_urls: []
 ---

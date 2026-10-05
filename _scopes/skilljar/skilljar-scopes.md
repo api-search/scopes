@@ -979,6 +979,7 @@ tags:
 - Certification
 - Webhook
 - Enrollment
+token_bound: false
 token_urls:
 - https://api.skilljar.com/v2/auth/token
 ---

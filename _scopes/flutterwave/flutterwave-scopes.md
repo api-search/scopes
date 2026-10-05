@@ -182,6 +182,7 @@ tags:
 - Virtual Accounts
 - Chargebacks
 - Multi-Currency
+token_bound: false
 token_urls:
 - https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
 ---

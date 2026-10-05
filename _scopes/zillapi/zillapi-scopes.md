@@ -100,6 +100,7 @@ tags:
 - MCP
 - AI Agents
 - REST API
+token_bound: false
 token_urls:
 - https://api.zillapi.com/oauth/token
 ---

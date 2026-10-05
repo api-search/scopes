@@ -84,5 +84,6 @@ tags:
 - Webhook
 - MCP
 - JSON:API
+token_bound: false
 token_urls: []
 ---

@@ -83,6 +83,7 @@ tags:
 - Project Management
 - Code Generation
 - Team Collaboration
+token_bound: false
 token_urls:
 - https://lightsprint.ai/oauth/token
 ---

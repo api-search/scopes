@@ -72,6 +72,7 @@ tags:
 - Edge Computing
 - Commerce
 - MCP
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/85535392078/oauth/token
 ---

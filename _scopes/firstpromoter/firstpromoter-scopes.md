@@ -190,16 +190,24 @@ method: probed
 name: Firstpromoter Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'FirstPromoter uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'FirstPromoter publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the FirstPromoter API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: FirstPromoter
 provider_slug: firstpromoter
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- user
+- mcp
+scopes:
+- description: Advertised in scopes_supported on both authorization servers. FirstPromoter publishes no description for it; recorded as advertised, not as documented.
+  flows: []
+  scope: user
+- description: The scope the MCP protected resource requires. Advertised by both authorization servers and named in the RFC 9728 protected-resource metadata for https://mcp.firstpromoter.com.
+  flows: []
+  scope: mcp
 slug: firstpromoter-scopes
 source_filename: firstpromoter-scopes.yml
 source_heading: OAuth Scopes
@@ -209,7 +217,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  https://api
   \  http_status: 200\n  spec: RFC 9728\n  authorization_servers:\n    - https://mcp.firstpromoter.com\n  scopes_supported:\n    - mcp\n  bearer_methods_supported:\n    - header\nscopes:\n  - name: user\n    description: >-\n      Advertised in scopes_supported on both authorization servers. FirstPromoter publishes no\n      description for it; recorded as advertised, not as documented.\n    source: RFC 8414 authorization server metadata\n    documented: false\n  - name: mcp\n    description: >-\n      The scope the MCP protected resource requires. Advertised by both authorization servers and\n      named in the RFC 9728 protected-resource metadata for https://mcp.firstpromoter.com.\n    source: RFC 8414 + RFC 9728 metadata\n    documented: false\nscope_count: 2\ngranularity: coarse\nfindings:\n  - >-\n    Two scopes for a 179-operation API and a 53-tool MCP server. There is no per-resource or\n    read/write separation - an agent granted mcp holds the whole documented tool surface, including\n\
   \    every mutation the server exposes.\n  - >-\n    No scopes/permissions reference page exists in the documentation, so the only public source for\n    these values is the machine-readable metadata probed here.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/scopes/firstpromoter-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Affiliate Marketing
 - Referral Tracking
@@ -224,5 +232,6 @@ tags:
 - Webhook
 - MCP
 - A2A
+token_bound: false
 token_urls: []
 ---

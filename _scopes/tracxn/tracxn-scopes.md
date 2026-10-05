@@ -16,16 +16,20 @@ method: probed
 name: Tracxn Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Tracxn uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Tracxn publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the Tracxn API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Tracxn
 provider_slug: tracxn
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- read
+scopes:
+- description: Read access to the Tracxn private-market dataset through the MCP server — companies, legal entities, funding rounds, acquisitions, investors, IPOs, time series, locations and sectors. Advertised in scopes_supported by both the authorization-server and protected-resource metadata. The sole scope Tracxn defines.
+  flows: []
+  scope: read
 slug: tracxn-scopes
 source_filename: tracxn-scopes.yml
 source_heading: OAuth Scopes
@@ -35,7 +39,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: >-\n  https://pla
   \ acquisitions, investors, IPOs, time series, locations\n      and sectors. Advertised in scopes_supported by both the authorization-server and\n      protected-resource metadata. The sole scope Tracxn defines.\n    surface: mcp\n    grants: All 11 published MCP tools (see mcp/tracxn-mcp.yml)\n    write: false\nscope_count: 1\nnotes:\n  - >-\n    token_endpoint_auth_methods_supported is [\"none\"], i.e. public clients — correct for\n    desktop/CLI MCP clients that cannot hold a secret, and consistent with the mandatory PKCE\n    S256 requirement.\n  - >-\n    Dynamic client registration is open at /auth/2.0/mcp/register, which is why a generic MCP\n    client can connect with nothing but the server URL.\n  - >-\n    The issuer and the resource are the same URL (https://platform.tracxn.com/mcp) — the MCP\n    server is its own authorization server rather than delegating to a separate platform IdP.\n  - >-\n    Entitlement, not scope, is the real access boundary: Tracxn's troubleshooting\
   \ guide tells\n    users that tools may appear but return errors when \"your subscription covers the data\n    you're querying (e.g. financials may require a higher tier)\". A `read` token does not\n    imply access to every dataset.\n  - >-\n    The REST API (accessToken header) has NO scopes and is not represented here. See\n    authentication/tracxn-authentication.yml.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tracxn/refs/heads/main/scopes/tracxn-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - Company
 - Cloud Saas
@@ -46,5 +50,6 @@ tags:
 - Company Data
 - Investor
 - Funding
+token_bound: false
 token_urls: []
 ---

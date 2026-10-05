@@ -96,6 +96,7 @@ tags:
 - Research Repository
 - Library
 - Identity Federation
+token_bound: false
 token_urls:
 - https://oauth.ccxp.nthu.edu.tw/v1.1/token.php
 ---

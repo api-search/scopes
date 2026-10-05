@@ -85,6 +85,7 @@ tags:
 - Financial Services
 - Insurance
 - Asset Management
+token_bound: false
 token_urls:
 - https://api.allianz.com.au/oauth2/token
 ---

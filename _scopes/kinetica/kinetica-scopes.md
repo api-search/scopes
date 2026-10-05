@@ -70,6 +70,7 @@ tags:
 - Agent-Native
 - RAG
 - A2A
+token_bound: false
 token_urls:
 - https://app.toolbelt.ai/oauth/token
 ---

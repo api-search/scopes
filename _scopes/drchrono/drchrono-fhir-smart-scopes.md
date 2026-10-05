@@ -36,7 +36,8 @@ api_specs:
   slug: drchrono-practice-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-practice-management-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://drchrono-fhir.everhealthsoftware.com/core/connect/authorize
 description: SMART App Launch scopes advertised by the DrChrono SMART on FHIR R4 authorization server, read verbatim from the scopes_supported array of the server's own smart-configuration discovery document on 2026-08-14. These are a SEPARATE vocabulary from the DrChrono REST v4 OAuth scopes in scopes/drchrono-scopes.yml — a token from one authorization server is not valid against the other.
 docs: https://drchrono-fhirpresentation.everhealthsoftware.com/drchrono/498711/r4/Home/ApiDocumentation
 flows: []
@@ -47,6 +48,9 @@ name: Drchrono Fhir Smart Scopes
 name_suffix: OAuth Scopes
 note: ''
 overview: 'drchrono publishes 233 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the drchrono API on a user''s behalf.
+
+
+  Tokens are issued from https://drchrono-fhir.everhealthsoftware.com/core/connect/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -1030,5 +1034,7 @@ tags:
 - ONC Certified
 - Telehealth
 - Revenue Cycle Management
-token_urls: []
+token_bound: false
+token_urls:
+- https://drchrono-fhir.everhealthsoftware.com/core/connect/token
 ---

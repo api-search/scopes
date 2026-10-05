@@ -317,6 +317,7 @@ tags:
 - Agent-Native
 - Agent Governance
 - Enterprise Automation
+token_bound: false
 token_urls:
 - https://platform.happyrobot.ai/api/mcp/token
 - https://docs.happyrobot.ai/mcp/oauth/token

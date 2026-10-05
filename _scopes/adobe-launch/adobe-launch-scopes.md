@@ -219,23 +219,47 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/
-flows: []
+flows:
+- client_credentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Adobe Launch Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Adobe Launch uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Adobe Launch publishes 5 OAuth 2.0 scopes via the client_credentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Adobe Launch API on a user''s behalf.
+
+
+  Tokens are issued from https://ims-na1.adobelogin.com/ims/token/v3.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Adobe Launch
 provider_slug: adobe-launch
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- openid
+- AdobeID
+- read_organizations
+- additional_info.projectedProductContext
+- additional_info.roles
+scopes:
+- description: OpenID Connect base scope; issues an ID token alongside the access token.
+  flows: []
+  scope: openid
+- description: Core Adobe identity scope required by every Adobe IMS credential.
+  flows: []
+  scope: AdobeID
+- description: Read the organizations the technical account belongs to; resolves the IMS Org ID sent in x-gw-ims-org-id.
+  flows: []
+  scope: read_organizations
+- description: Returns the product entitlements attached to the technical account. This is what actually decides whether the credential can reach Experience Platform Tags and which properties it may act on.
+  flows: []
+  scope: additional_info.projectedProductContext
+- description: Returns the roles assigned to the technical account. Commonly present on Experience Platform credentials.
+  flows: []
+  scope: additional_info.roles
 slug: adobe-launch-scopes
 source_filename: adobe-launch-scopes.yml
 source_heading: OAuth Scopes
@@ -244,12 +268,14 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://e
   \ an OAuth\n  Server-to-Server credential; the exact string is copied verbatim from the\n  credential screen for the project rather than composed by the developer.\n  Authorization for a given property is NOT expressed as a scope: it is\n  resolved from the IMS organization in x-gw-ims-org-id and the product profile\n  the technical account belongs to.\nscheme_declared_in_spec: false\nscope_count: 5\nscopes:\n  - name: openid\n    description: OpenID Connect base scope; issues an ID token alongside the access token.\n    required: true\n  - name: AdobeID\n    description: Core Adobe identity scope required by every Adobe IMS credential.\n    required: true\n  - name: read_organizations\n    description: Read the organizations the technical account belongs to; resolves the IMS Org ID sent in x-gw-ims-org-id.\n    required: true\n  - name: additional_info.projectedProductContext\n    description: >-\n      Returns the product entitlements attached to the technical account. This\n      is\
   \ what actually decides whether the credential can reach Experience\n      Platform Tags and which properties it may act on.\n    required: true\n  - name: additional_info.roles\n    description: Returns the roles assigned to the technical account. Commonly present on Experience Platform credentials.\n    required: false\nauthorization_model:\n  style: entitlement + product profile, not per-scope\n  note: >-\n    Reactor authorization is enforced by the Admin Console product profile\n    (\"Tags\" / \"Data Collection\" rights: platform read, develop, approve,\n    publish, manage extensions, manage environments) applied to the IMS\n    organization named in x-gw-ims-org-id. Those rights are not exposed as\n    OAuth scopes and cannot be requested at token time.\n  rights_reference: https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/scopes/adobe-launch-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes · client_credentials
 tags:
 - Data Collection
 - Edge Network
 - Event Forwarding
 - Marketing Technology
 - Tag Management
-token_urls: []
+token_bound: false
+token_urls:
+- https://ims-na1.adobelogin.com/ims/token/v3
 ---

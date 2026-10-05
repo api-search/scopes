@@ -102,6 +102,7 @@ tags:
 - Mobile Engagement
 - Push Notifications
 - User Behavior
+token_bound: false
 token_urls:
 - https://mcp.clevertap.com/oauth/token
 ---

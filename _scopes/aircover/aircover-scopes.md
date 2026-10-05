@@ -75,6 +75,7 @@ tags:
 - Meetings
 - Transcription
 - Authentication
+token_bound: false
 token_urls:
 - https://api.aircover.ai/oauth/token
 ---

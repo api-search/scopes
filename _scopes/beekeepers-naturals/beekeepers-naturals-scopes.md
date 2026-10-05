@@ -70,6 +70,7 @@ tags:
 - Agentic Commerce
 - Universal Commerce Protocol
 - MCP
+token_bound: false
 token_urls:
 - https://account.beekeepersnaturals.com/authentication/oauth/token
 ---

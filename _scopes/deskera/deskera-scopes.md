@@ -65,6 +65,7 @@ tags:
 - Invoicing
 - Small Business
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://bifrost-us.deskera.com/oauth/token
 ---

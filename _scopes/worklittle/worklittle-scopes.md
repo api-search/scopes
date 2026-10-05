@@ -198,6 +198,7 @@ tags:
 - Job Board
 - Webhook
 - MCP
+token_bound: false
 token_urls:
 - https://api.worklittle.com/oauth/token
 ---

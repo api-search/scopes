@@ -73,6 +73,7 @@ tags:
 - Application Performance Monitoring
 - Developer Tools
 - MCP
+token_bound: false
 token_urls:
 - https://dash-api.embrace.io/oauth/token
 ---

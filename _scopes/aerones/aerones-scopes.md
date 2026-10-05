@@ -1261,6 +1261,7 @@ tags:
 - Energy
 - Maintenance
 - Latvia
+token_bound: false
 token_urls:
 - https://sso.aerones.com/realms/aerones/protocol/openid-connect/token
 ---

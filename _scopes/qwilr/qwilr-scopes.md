@@ -53,6 +53,7 @@ tags:
 - Webhook
 - MCP
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://api.qwilr.com/oauth/token
 ---

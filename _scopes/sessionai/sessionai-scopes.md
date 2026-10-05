@@ -77,6 +77,7 @@ tags:
 - Event
 - Real-Time
 - MCP
+token_bound: false
 token_urls:
 - https://jsaqyxhgmkgcyaocjnzz.supabase.co/auth/v1/oauth/token
 ---

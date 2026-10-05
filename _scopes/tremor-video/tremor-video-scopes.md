@@ -86,6 +86,7 @@ tags:
 - Programmatic
 - CTV
 - Video Advertising
+token_bound: false
 token_urls:
 - https://services.amobee.com/accounts/v1/api/token
 ---

@@ -58,6 +58,7 @@ tags:
 - Adaptive Learning
 - Compliance Training
 - Webhook
+token_bound: false
 token_urls:
 - https://www.drillster.com/daas/oauth/token
 ---

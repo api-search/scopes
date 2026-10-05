@@ -9,16 +9,56 @@ method: probed
 name: United Arab Emirates University Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'United Arab Emirates University uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'United Arab Emirates University publishes 10 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the United Arab Emirates University API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: United Arab Emirates University
 provider_slug: united-arab-emirates-university
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 10
+scope_names:
+- openid
+- profile
+- email
+- phone
+- address
+- registry.user
+- registry.author
+- registry.link
+- registry.mount
+- registry.realpath
+scopes:
+- description: Required to obtain an ID token from the UAEU identity service.
+  flows: []
+  scope: openid
+- description: Basic profile claims — name, family_name, given_name, preferred_username, picture, locale, updated_at.
+  flows: []
+  scope: profile
+- description: email and email_verified claims.
+  flows: []
+  scope: email
+- description: phone_number and phone_number_verified claims.
+  flows: []
+  scope: phone
+- description: Structured address claim — street_address, locality, region, postal_code, country.
+  flows: []
+  scope: address
+- description: WSO2 Identity Server registry scope — user-level registry access.
+  flows: []
+  scope: registry.user
+- description: WSO2 Identity Server registry scope — authoring access.
+  flows: []
+  scope: registry.author
+- description: WSO2 Identity Server registry scope — symbolic link operations.
+  flows: []
+  scope: registry.link
+- description: WSO2 Identity Server registry scope — mount operations.
+  flows: []
+  scope: registry.mount
+- description: WSO2 Identity Server registry scope — real path resolution.
+  flows: []
+  scope: registry.realpath
 slug: united-arab-emirates-university-scopes
 source_filename: united-arab-emirates-university-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +67,7 @@ source_yaml: "---\naid: united-arab-emirates-university\nname: United Arab Emira
   \    standard: openid-connect\n    description: email and email_verified claims.\n  - name: phone\n    standard: openid-connect\n    description: phone_number and phone_number_verified claims.\n  - name: address\n    standard: openid-connect\n    description: Structured address claim — street_address, locality, region, postal_code, country.\n  - name: registry.user\n    standard: none\n    description: WSO2 Identity Server registry scope — user-level registry access.\n  - name: registry.author\n    standard: none\n    description: WSO2 Identity Server registry scope — authoring access.\n  - name: registry.link\n    standard: none\n    description: WSO2 Identity Server registry scope — symbolic link operations.\n  - name: registry.mount\n    standard: none\n    description: WSO2 Identity Server registry scope — mount operations.\n  - name: registry.realpath\n    standard: none\n    description: WSO2 Identity Server registry scope — real path resolution.\nclaims_supported_count: 29\ncoverage_note:\
   \ >-\n  This is the complete advertised scope set. UAEU publishes no API-product scope\n  vocabulary because it publishes no API product; these scopes govern access to\n  its internal SSO, not to institutional data.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/scopes/united-arab-emirates-university-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 10 scopes
 tags:
 - University
 - Higher Education
@@ -41,5 +81,6 @@ tags:
 - OAI-PMH
 - SCIM
 - SAML
+token_bound: false
 token_urls: []
 ---

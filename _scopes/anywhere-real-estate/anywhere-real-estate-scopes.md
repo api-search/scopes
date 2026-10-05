@@ -53,5 +53,7 @@ tags:
 - Relocation
 - Leads
 - Transaction
+- Residential
+token_bound: false
 token_urls: []
 ---

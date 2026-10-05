@@ -73,6 +73,7 @@ tags:
 - Leap
 - Ocean SDK
 - SAPI
+token_bound: false
 token_urls:
 - https://cloud.dwavesys.com/leap/oauth/token
 ---

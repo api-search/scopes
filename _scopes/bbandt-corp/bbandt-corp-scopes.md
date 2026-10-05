@@ -281,6 +281,7 @@ tags:
 - Truist
 - BB&T
 - Fortune 500
+token_bound: false
 token_urls:
 - https://apidev-sandbox.truist.com/commercial/auth/v1/oauth/token
 - https://api-sandbox.truist.com/commercial/auth/v1/oauth/token

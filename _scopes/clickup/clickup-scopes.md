@@ -270,5 +270,6 @@ tags:
 - Chat
 - Time Tracking
 - MCP
+token_bound: false
 token_urls: []
 ---

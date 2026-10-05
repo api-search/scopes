@@ -238,16 +238,152 @@ method: probed
 name: Textql Scopes
 name_suffix: OAuth Scopes
 note: Read verbatim from TextQL's live OAuth 2.1 authorization-server metadata document, not derived from an OpenAPI securityScheme — the published OpenAPIs declare only bearer/apiKey schemes and carry no oauth2 flows, so derive-oauth-scopes.py found nothing. The scope list below is what the provider actually advertises at the discovery endpoint. Scope DESCRIPTIONS are not published; the resource each scope governs is stated from the matching platform surface and is marked as inferred where it is not spelled out in the docs.
-overview: 'TextQL uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'TextQL publishes 34 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the TextQL API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: TextQL
 provider_slug: textql
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 34
+scope_names:
+- openid
+- profile
+- email
+- api:read
+- api:write
+- mcp:tools
+- mcp:read
+- mcp:write
+- agent:read
+- agent:write
+- chat:read
+- chat:write
+- connector:read
+- connector:write
+- connector:raw_sql
+- context:read
+- context:write
+- context_policy:read
+- context_policy:write
+- dashboard:read
+- dashboard:write
+- dataset:read
+- dataset:write
+- feed:read
+- feed:write
+- observability:read
+- observability:write
+- ontology:read
+- ontology:write
+- playbook:read
+- playbook:write
+- sandbox:read
+- sandbox:write
+- usage:read
+scopes:
+- description: OpenID Connect — request an ID token.
+  flows: []
+  scope: openid
+- description: Basic profile claims (name, given_name, family_name, picture).
+  flows: []
+  scope: profile
+- description: Email address and verification status.
+  flows: []
+  scope: email
+- description: Read access to the platform API.
+  flows: []
+  scope: api:read
+- description: Write access to the platform API.
+  flows: []
+  scope: api:write
+- description: Call Ana's MCP tools. This is the only scope declared by the /mcp protected-resource metadata document, so it is the scope an MCP client actually needs.
+  flows: []
+  scope: mcp:tools
+- description: Read registered external MCP server configuration.
+  flows: []
+  scope: mcp:read
+- description: Register, toggle and delete external MCP servers in Ana's context.
+  flows: []
+  scope: mcp:write
+- description: Read agents (long-running monitors that watch data and post to the feed).
+  flows: []
+  scope: agent:read
+- description: Create, edit and trigger agents.
+  flows: []
+  scope: agent:write
+- description: Read chats/threads, messages, cells and generated assets.
+  flows: []
+  scope: chat:read
+- description: Create chats, ask questions, stream and cancel runs.
+  flows: []
+  scope: chat:write
+- description: List connectors and connector types.
+  flows: []
+  scope: connector:read
+- description: Create, test, update and delete connectors, and manage connector access grants.
+  flows: []
+  scope: connector:write
+- description: Execute raw SQL against a connector. Broken out as its own scope because organizations can turn raw SQL off entirely and query only through TQL and the Ontology.
+  flows: []
+  scope: connector:raw_sql
+- description: Read the organization/role/personal context stack.
+  flows: []
+  scope: context:read
+- description: Author and edit context files.
+  flows: []
+  scope: context:write
+- description: Read context policies.
+  flows: []
+  scope: context_policy:read
+- description: Write context policies.
+  flows: []
+  scope: context_policy:write
+- description: Read dashboards and data apps.
+  flows: []
+  scope: dashboard:read
+- description: Create, update and publish dashboards and data apps.
+  flows: []
+  scope: dashboard:write
+- description: Read datasets.
+  flows: []
+  scope: dataset:read
+- description: Create and modify datasets.
+  flows: []
+  scope: dataset:write
+- description: Read the shared activity feed agents and teams publish insights to.
+  flows: []
+  scope: feed:read
+- description: Post to the feed.
+  flows: []
+  scope: feed:write
+- description: Read observability data for the platform.
+  flows: []
+  scope: observability:read
+- description: Configure observability.
+  flows: []
+  scope: observability:write
+- description: Read the Ontology semantic layer and its pending changes.
+  flows: []
+  scope: ontology:read
+- description: Propose, approve, deny and restore Ontology changes.
+  flows: []
+  scope: ontology:write
+- description: Read playbooks (scheduled automated analyses).
+  flows: []
+  scope: playbook:read
+- description: Create, update, run, deploy and delete playbooks.
+  flows: []
+  scope: playbook:write
+- description: Read sandcastle status, files and execution history.
+  flows: []
+  scope: sandbox:read
+- description: Start and stop sandcastles, execute code, load data and upload files.
+  flows: []
+  scope: sandbox:write
+- description: Read usage/consumption (ACU) data.
+  flows: []
+  scope: usage:read
 slug: textql-scopes
 source_filename: textql-scopes.yml
 source_heading: OAuth Scopes
@@ -258,7 +394,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: https://app.textq
   \ Write context policies.\n- name: dashboard:read\n  category: dashboards\n  description: Read dashboards and data apps.\n- name: dashboard:write\n  category: dashboards\n  description: Create, update and publish dashboards and data apps.\n- name: dataset:read\n  category: datasets\n  description: Read datasets.\n- name: dataset:write\n  category: datasets\n  description: Create and modify datasets.\n- name: feed:read\n  category: feed\n  description: Read the shared activity feed agents and teams publish insights to.\n- name: feed:write\n  category: feed\n  description: Post to the feed.\n- name: observability:read\n  category: observability\n  description: Read observability data for the platform.\n- name: observability:write\n  category: observability\n  description: Configure observability.\n- name: ontology:read\n  category: ontology\n  description: Read the Ontology semantic layer and its pending changes.\n- name: ontology:write\n  category: ontology\n  description: Propose, approve,\
   \ deny and restore Ontology changes.\n- name: playbook:read\n  category: playbooks\n  description: Read playbooks (scheduled automated analyses).\n- name: playbook:write\n  category: playbooks\n  description: Create, update, run, deploy and delete playbooks.\n- name: sandbox:read\n  category: sandbox\n  description: Read sandcastle status, files and execution history.\n- name: sandbox:write\n  category: sandbox\n  description: Start and stop sandcastles, execute code, load data and upload files.\n- name: usage:read\n  category: billing\n  description: Read usage/consumption (ACU) data.\ninferred_descriptions: true\ninferred_note: >-\n  TextQL publishes scope NAMES at the discovery endpoint but no scope reference page with\n  descriptions. Each description above states the platform surface the scope name maps to, read from\n  the matching API reference section. The names, the count and the grouping are provider-published\n  fact; the one-line descriptions are ours.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/textql/refs/heads/main/scopes/textql-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 34 scopes
 tags:
 - Company
 - Artificial Intelligence
@@ -272,5 +408,6 @@ tags:
 - Data Warehouse
 - Enterprise
 - A2A
+token_bound: false
 token_urls: []
 ---

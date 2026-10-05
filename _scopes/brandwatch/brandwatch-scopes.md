@@ -104,6 +104,7 @@ tags:
 - Consumer Intelligence
 - Brand Management
 - Sentiment Analysis
+token_bound: false
 token_urls:
 - https://api.brandwatch.com/oauth/token
 ---

@@ -373,6 +373,7 @@ tags:
 - Fulfillment
 - Shopping
 - Authentication
+token_bound: false
 token_urls:
 - https://merchant.wish.com/api/v3/oauth/access_token
 ---

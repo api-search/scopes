@@ -115,6 +115,7 @@ tags:
 - Compliance
 - White Label
 - Retirement Technology
+token_bound: false
 token_urls:
 - https://auth.partner.iralogix.com/oauth/token
 ---

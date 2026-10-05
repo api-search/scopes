@@ -67,6 +67,7 @@ tags:
 - Wearables
 - E-Commerce
 - Agentic Commerce
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/76759498890/oauth/token
 ---

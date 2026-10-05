@@ -794,6 +794,7 @@ tags:
 - Messaging
 - Delivery
 - Russia
+token_bound: false
 token_urls:
 - https://api.avito.ru/token
 - https://pro.autoteka.ru/token

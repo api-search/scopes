@@ -73,6 +73,7 @@ tags:
 - Lakehouse
 - Open Source
 - Table Format
+token_bound: false
 token_urls:
 - /v1/oauth/tokens
 ---

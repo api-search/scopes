@@ -126,6 +126,7 @@ tags:
 - MitID
 - Nordic
 - Document Workflow
+token_bound: false
 token_urls:
 - https://oauth2.scrive.com/oauth2/token
 ---

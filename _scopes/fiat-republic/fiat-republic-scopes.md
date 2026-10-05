@@ -55,5 +55,6 @@ tags:
 - KYC
 - SEPA
 - Faster Payments
+token_bound: false
 token_urls: []
 ---

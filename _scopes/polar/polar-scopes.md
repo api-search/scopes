@@ -175,6 +175,7 @@ tags:
 - Sensors
 - Bluetooth
 - Wellness
+token_bound: false
 token_urls:
 - https://polarremote.com/v2/oauth2/token
 - https://auth.polar.com/oauth/token

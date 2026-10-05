@@ -72,6 +72,7 @@ tags:
 - MCP
 - GraphQL
 - France
+token_bound: false
 token_urls:
 - https://account.underdog.shop/authentication/oauth/token
 ---

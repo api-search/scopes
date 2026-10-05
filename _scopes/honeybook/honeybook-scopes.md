@@ -169,6 +169,7 @@ tags:
 - Scheduling
 - Creative Entrepreneurs
 - Small Business
+token_bound: false
 token_urls:
 - https://api.honeybook.com/oauth/token
 ---

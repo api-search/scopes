@@ -142,6 +142,7 @@ tags:
 - Government
 - Conveyancing
 - PropTech
+token_bound: false
 token_urls:
 - https://sign-on.app.landgate.wa.gov.au/as/token.oauth2
 ---

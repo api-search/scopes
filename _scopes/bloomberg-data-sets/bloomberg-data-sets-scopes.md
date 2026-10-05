@@ -65,6 +65,7 @@ tags:
 - Historical Data
 - Financial Data
 - Data Licensing
+token_bound: false
 token_urls:
 - https://login.bloomberg.com/api/oauth/token
 ---

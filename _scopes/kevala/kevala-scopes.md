@@ -9,16 +9,72 @@ method: probed
 name: Kevala Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Kevala uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Kevala publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Kevala API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Kevala
 provider_slug: kevala
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 14
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+- name
+- given_name
+- family_name
+- nickname
+- email_verified
+- picture
+- created_at
+- identities
+- phone
+- address
+scopes:
+- description: OpenID Connect authentication; requested by the Kevala platform application.
+  flows: []
+  scope: openid
+- description: Basic profile claims; requested by the Kevala platform application.
+  flows: []
+  scope: profile
+- description: Email address claim; requested by the Kevala platform application.
+  flows: []
+  scope: email
+- description: Refresh-token issuance; requested by the Kevala platform application.
+  flows: []
+  scope: offline_access
+- description: Advertised in the tenant's scopes_supported.
+  flows: []
+  scope: name
+- description: Advertised in the tenant's scopes_supported.
+  flows: []
+  scope: given_name
+- description: Advertised in the tenant's scopes_supported.
+  flows: []
+  scope: family_name
+- description: Advertised in the tenant's scopes_supported.
+  flows: []
+  scope: nickname
+- description: Advertised in the tenant's scopes_supported.
+  flows: []
+  scope: email_verified
+- description: Advertised in the tenant's scopes_supported.
+  flows: []
+  scope: picture
+- description: Advertised in the tenant's scopes_supported.
+  flows: []
+  scope: created_at
+- description: Advertised in the tenant's scopes_supported.
+  flows: []
+  scope: identities
+- description: Advertised in the tenant's scopes_supported.
+  flows: []
+  scope: phone
+- description: Advertised in the tenant's scopes_supported.
+  flows: []
+  scope: address
 slug: kevala-scopes
 source_filename: kevala-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +83,7 @@ source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: >-\n  https://app
   \ true\n- name: profile\n  description: Basic profile claims; requested by the Kevala platform application.\n  requested_by_platform: true\n- name: email\n  description: Email address claim; requested by the Kevala platform application.\n  requested_by_platform: true\n- name: offline_access\n  description: Refresh-token issuance; requested by the Kevala platform application.\n  requested_by_platform: true\n- name: name\n  description: Advertised in the tenant's scopes_supported.\n  requested_by_platform: false\n- name: given_name\n  description: Advertised in the tenant's scopes_supported.\n  requested_by_platform: false\n- name: family_name\n  description: Advertised in the tenant's scopes_supported.\n  requested_by_platform: false\n- name: nickname\n  description: Advertised in the tenant's scopes_supported.\n  requested_by_platform: false\n- name: email_verified\n  description: Advertised in the tenant's scopes_supported.\n  requested_by_platform: false\n- name: picture\n  description:\
   \ Advertised in the tenant's scopes_supported.\n  requested_by_platform: false\n- name: created_at\n  description: Advertised in the tenant's scopes_supported.\n  requested_by_platform: false\n- name: identities\n  description: Advertised in the tenant's scopes_supported.\n  requested_by_platform: false\n- name: phone\n  description: Advertised in the tenant's scopes_supported.\n  requested_by_platform: false\n- name: address\n  description: Advertised in the tenant's scopes_supported.\n  requested_by_platform: false\napi_resource_scopes:\n  published: false\n  note: >-\n    No resource-server permission list is published. The gated OpenAPI at\n    https://api.kevala.com/der/openapi/ would carry them; it returns 403 to anonymous callers.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kevala/refs/heads/main/scopes/kevala-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 14 scopes
 tags:
 - Company
 - Energy
@@ -41,5 +97,6 @@ tags:
 - Carbon Accounting
 - Electric Vehicles
 - Sustainability
+token_bound: false
 token_urls: []
 ---

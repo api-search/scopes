@@ -111,6 +111,7 @@ tags:
 - Fitness
 - Timing
 - Fundraising
+token_bound: false
 token_urls:
 - https://runsignup.com/OAuth/Token
 ---

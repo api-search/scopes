@@ -117,6 +117,7 @@ tags:
 - Syndication
 - Data Management
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://app.salsify.com/oauth/token
 ---

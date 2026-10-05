@@ -110,5 +110,6 @@ tags:
 - Money Transfer
 - Confirmation of Payee
 - Open Banking
+token_bound: false
 token_urls: []
 ---

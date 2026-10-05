@@ -308,6 +308,7 @@ tags:
 - Commercial Banking
 - Treasury Management
 - Account Validation
+token_bound: false
 token_urls:
 - https://open-api.bmofg.com/open-banking/commercial-sb/oauth20/token
 - https://api2-sit2.bmogc.net/open-banking2/commercial-sb/oauth20/token

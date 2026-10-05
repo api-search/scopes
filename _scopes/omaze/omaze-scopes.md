@@ -2,23 +2,40 @@
 authorization_urls: []
 description: The OAuth 2.0 / OpenID Connect scopes advertised by the Shopify Customer Accounts authorization server behind the Omaze UK and German storefronts. Both markets advertise an identical set. These are the provider's own published values, read straight from the discovery document — none are inferred, and no scope descriptions beyond what the standard defines are asserted, because Omaze publishes no scope reference page of its own.
 docs: ''
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Omaze Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Omaze uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Omaze publishes 4 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Omaze API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Omaze
 provider_slug: omaze
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- customer-account-api:full
+- customer-account-mcp-api:full
+scopes:
+- description: Standard OpenID Connect scope. Requests an ID token identifying the authenticated Omaze customer.
+  flows: []
+  scope: openid
+- description: Standard OpenID Connect scope. Releases the `email` and `email_verified` claims for the authenticated customer.
+  flows: []
+  scope: email
+- description: Full access to the Shopify Customer Account API on behalf of the signed-in customer — the account surface behind /account on the storefront (orders, entries, subscriptions, profile).
+  flows: []
+  scope: customer-account-api:full
+- description: Full access to the authenticated Customer Account MCP surface. This is the agent-facing counterpart to `customer-account-api:full`, and is distinct from the anonymous UCP shopping MCP endpoint at /api/ucp/mcp.
+  flows: []
+  scope: customer-account-mcp-api:full
 slug: omaze-scopes
 source_filename: omaze-scopes.yml
 source_heading: OAuth Scopes
@@ -27,7 +44,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: >-\n  scopes_supp
   \    pkce_required: true\n    code_challenge_methods:\n      - S256\nscopes:\n  - name: openid\n    description: >-\n      Standard OpenID Connect scope. Requests an ID token identifying the\n      authenticated Omaze customer.\n    standard: OpenID Connect Core 1.0\n  - name: email\n    description: >-\n      Standard OpenID Connect scope. Releases the `email` and `email_verified`\n      claims for the authenticated customer.\n    standard: OpenID Connect Core 1.0\n  - name: 'customer-account-api:full'\n    description: >-\n      Full access to the Shopify Customer Account API on behalf of the signed-in\n      customer — the account surface behind /account on the storefront (orders,\n      entries, subscriptions, profile).\n    standard: Shopify Customer Accounts\n  - name: 'customer-account-mcp-api:full'\n    description: >-\n      Full access to the authenticated Customer Account MCP surface. This is the\n      agent-facing counterpart to `customer-account-api:full`, and is distinct\n\
   \      from the anonymous UCP shopping MCP endpoint at /api/ucp/mcp.\n    standard: Shopify Customer Accounts\n    note: >-\n      Notable: Omaze's identity layer advertises an MCP-scoped grant. An agent\n      holding this scope acts as the customer against their own account, not as\n      an anonymous shopper.\nclaims_supported:\n  - iss\n  - sub\n  - aud\n  - exp\n  - iat\n  - nonce\n  - sid\n  - email\n  - email_verified\ndocs: null\ndocs_note: >-\n  Omaze publishes no scope/permission reference page. The authoritative source\n  for these values is the live discovery document; Shopify documents the\n  underlying scopes at https://shopify.dev/docs/api/customer.\nauthentication: ../authentication/omaze-authentication.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omaze/refs/heads/main/scopes/omaze-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes · authorization_code
 tags:
 - Company
 - Charity
@@ -42,5 +59,6 @@ tags:
 - Shopify
 - United Kingdom
 - Germany
+token_bound: false
 token_urls: []
 ---

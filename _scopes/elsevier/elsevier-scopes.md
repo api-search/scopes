@@ -190,16 +190,156 @@ method: probed
 name: Elsevier Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Elsevier uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Elsevier publishes 35 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Elsevier API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Elsevier
 provider_slug: elsevier
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 35
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- els_universal_identity
+- els_universal_access
+- els_auth_info
+- els_idp_info
+- els_analytics_info
+- els_idp_analytics_attrs
+- els_user_roles
+- els_sa_discover
+- individual_identity
+- institutional_association
+- universal
+- urn:com:elsevier:idp:policy:product:indv_identity
+- urn:com:elsevier:idp:policy:product:inst_assoc
+- urn:com:elsevier:idp:policy:product:force_sign_in
+- urn:com:elsevier:idp:policy:product:user_roles
+- urn:com:elsevier:idp:policy:product:salutation
+- urn:com:elsevier:idp:policy:product:formal_email
+- urn:com:elsevier:idp:policy:feature:attribute:country
+- urn:idp:policy:universal:attribute:name
+- urn:idp:policy:feature:security:password:strongPassword
+- urn:idp:policy:product:confirmation:emailconfirmation
+- urn:idp:policy:product:confirmation:EAPI:emailconfirmation
+- urn:idp:policy:product:confirmation:SD:emailconfirmation
+- urn:idp:policy:product:confirmation:OSC:emailconfirmation
+- urn:idp:policy:product:confirmation:MDY:emailconfirmation
+- urn:idp:policy:product:confirmation:IDMIG:emailconfirmation
+- urn:idp:policy:product:SD:idp_user_linking_attribute
+- urn:idp:policy:product:PURE:idp_user_linking_attribute
+- Demo_rel2020.11
+- Demo_rel2020.12
+scopes:
+- description: OpenID Connect — request an id_token.
+  flows: []
+  scope: openid
+- description: Standard OIDC profile claims (name, given_name, family_name, picture, updated_at).
+  flows: []
+  scope: profile
+- description: Standard OIDC email and email_verified claims.
+  flows: []
+  scope: email
+- description: Standard OIDC address claim.
+  flows: []
+  scope: address
+- description: Standard OIDC phone claim.
+  flows: []
+  scope: phone
+- description: Elsevier universal identity information (els_universal_identity_info claim).
+  flows: []
+  scope: els_universal_identity
+- description: Elsevier universal access attributes.
+  flows: []
+  scope: els_universal_access
+- description: Authentication context — auth_time, auth_token, auth_failure. Requested by the developer portal's own client (client_id ELSAPI-PROD) on the sign-in redirect.
+  flows: []
+  scope: els_auth_info
+- description: Identity-provider metadata for the session (idp_info claim).
+  flows: []
+  scope: els_idp_info
+- description: Analytics attributes attached to the identity (analytics_info claim). Also requested by ELSAPI-PROD.
+  flows: []
+  scope: els_analytics_info
+- description: Identity-provider analytics attributes (idp_analytics_attrs claim).
+  flows: []
+  scope: els_idp_analytics_attrs
+- description: Roles held by the user (user_roles claim).
+  flows: []
+  scope: els_user_roles
+- description: Seamless-access / institution-discovery attribute release.
+  flows: []
+  scope: els_sa_discover
+- description: Individual (person-level) identity, as distinct from institutional association.
+  flows: []
+  scope: individual_identity
+- description: The institution the user is associated with (inst_assoc, inst_acct_* claims).
+  flows: []
+  scope: institutional_association
+- description: Elsevier universal identity umbrella scope.
+  flows: []
+  scope: universal
+- description: Policy scope requiring individual identity to be established. Requested by ELSAPI-PROD on the developer-portal sign-in.
+  flows: []
+  scope: urn:com:elsevier:idp:policy:product:indv_identity
+- description: Policy scope requiring institutional association to be established.
+  flows: []
+  scope: urn:com:elsevier:idp:policy:product:inst_assoc
+- description: Policy scope forcing an interactive sign-in rather than silent session reuse.
+  flows: []
+  scope: urn:com:elsevier:idp:policy:product:force_sign_in
+- description: Policy scope releasing user roles.
+  flows: []
+  scope: urn:com:elsevier:idp:policy:product:user_roles
+- description: Policy scope releasing the salutation claim.
+  flows: []
+  scope: urn:com:elsevier:idp:policy:product:salutation
+- description: Policy scope releasing the formal email address.
+  flows: []
+  scope: urn:com:elsevier:idp:policy:product:formal_email
+- description: Policy scope releasing the country attribute.
+  flows: []
+  scope: urn:com:elsevier:idp:policy:feature:attribute:country
+- description: Policy scope releasing the name attribute.
+  flows: []
+  scope: urn:idp:policy:universal:attribute:name
+- description: Policy scope asserting the strong-password requirement was met.
+  flows: []
+  scope: urn:idp:policy:feature:security:password:strongPassword
+- description: Email-confirmation policy, generic.
+  flows: []
+  scope: urn:idp:policy:product:confirmation:emailconfirmation
+- description: Email-confirmation policy scoped to EAPI — the Elsevier developer/API portal. This is the scope that ties this authorization server to dev.elsevier.com.
+  flows: []
+  scope: urn:idp:policy:product:confirmation:EAPI:emailconfirmation
+- description: Email-confirmation policy scoped to ScienceDirect.
+  flows: []
+  scope: urn:idp:policy:product:confirmation:SD:emailconfirmation
+- description: Email-confirmation policy scoped to OSC.
+  flows: []
+  scope: urn:idp:policy:product:confirmation:OSC:emailconfirmation
+- description: Email-confirmation policy scoped to MDY (Mendeley).
+  flows: []
+  scope: urn:idp:policy:product:confirmation:MDY:emailconfirmation
+- description: Email-confirmation policy scoped to the identity-migration product.
+  flows: []
+  scope: urn:idp:policy:product:confirmation:IDMIG:emailconfirmation
+- description: ScienceDirect user-linking attribute release.
+  flows: []
+  scope: urn:idp:policy:product:SD:idp_user_linking_attribute
+- description: Pure user-linking attribute release.
+  flows: []
+  scope: urn:idp:policy:product:PURE:idp_user_linking_attribute
+- description: A demonstration scope left in the production advertisement. Recorded because it is in the provider's own document, not because it is usable.
+  flows: []
+  scope: Demo_rel2020.11
+- description: A second demonstration scope, as above.
+  flows: []
+  scope: Demo_rel2020.12
 slug: elsevier-scopes
 source_filename: elsevier-scopes.yml
 source_heading: OAuth Scopes
@@ -215,7 +355,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: https://id.elsevi
   \  standard: false\n  description: Pure user-linking attribute release.\n- name: Demo_rel2020.11\n  standard: false\n  description: >-\n    A demonstration scope left in the production advertisement. Recorded because it is in the\n    provider's own document, not because it is usable.\n- name: Demo_rel2020.12\n  standard: false\n  description: A second demonstration scope, as above.\ngaps:\n- >-\n  No scope in this list maps to a Research Products API operation. There is no\n  scopes_supported entry for Scopus, ScienceDirect content, SciVal, Embase, Engineering\n  Village or SUSHI.\n- >-\n  Elsevier's own auth guide says \"We offer an oauth implementation for developers wanting to\n  integrate ScienceDirect and/or Scopus content into client-side applications requiring access\n  to user level (rather than institutional) content\", but publishes no client-registration\n  path, no grant walkthrough and no scope for it. The mechanism is discoverable here; the\n  product documentation for it\
   \ is not.\n- >-\n  api.elsevier.com serves no /.well-known/oauth-protected-resource, so a client that finds a\n  401 there has no RFC 9728 pointer back to this authorization server. The link between the\n  two was established here by following the developer portal's sign-in redirect, not by any\n  document Elsevier publishes.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/scopes/elsevier-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 35 scopes
 tags:
 - Content
 - Journals
@@ -226,5 +366,6 @@ tags:
 - Elsevier
 - Publishing
 - Scholarly Publishing
+token_bound: false
 token_urls: []
 ---

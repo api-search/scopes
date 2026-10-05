@@ -2,7 +2,9 @@
 authorization_urls: []
 description: ''
 docs: ''
-flows: []
+flows:
+- client_credentials
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: probed
@@ -41,5 +43,6 @@ tags:
 - Collateral Management
 - Risk Management
 - Regulated
+token_bound: false
 token_urls: []
 ---

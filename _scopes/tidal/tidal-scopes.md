@@ -634,6 +634,7 @@ tags:
 - Audio
 - Block
 - Square
+token_bound: false
 token_urls:
 - https://auth.tidal.com/v1/oauth2/token
 ---

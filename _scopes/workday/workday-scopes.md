@@ -563,6 +563,7 @@ tags:
 - Financial Management
 - HCM
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://wd2-impl-services1.workday.com/ccx/oauth2/{tenant}/token
 ---

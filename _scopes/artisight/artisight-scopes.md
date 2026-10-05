@@ -54,6 +54,7 @@ tags:
 - Machine Learning
 - Patient Monitoring
 - IoT
+token_bound: false
 token_urls:
 - https://artisight.com/oauth/token
 ---

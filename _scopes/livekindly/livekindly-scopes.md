@@ -75,6 +75,7 @@ tags:
 - Retail
 - Content
 - Newsroom
+token_bound: false
 token_urls:
 - https://thelivekindlyco.com/oauth/token
 ---

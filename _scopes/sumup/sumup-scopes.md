@@ -174,6 +174,7 @@ tags:
 - Fintech
 - Mobile Payments
 - Online Payments
+token_bound: false
 token_urls:
 - https://api.sumup.com/token
 ---

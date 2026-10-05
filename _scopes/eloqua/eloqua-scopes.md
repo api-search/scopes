@@ -1014,6 +1014,7 @@ tags:
 - Forms
 - Reporting
 - B2B Marketing
+token_bound: false
 token_urls:
 - https://login.eloqua.com/auth/oauth2/token
 ---

@@ -50,5 +50,6 @@ tags:
 - Coaching
 - Artificial Intelligence
 - MCP Server
+token_bound: false
 token_urls: []
 ---

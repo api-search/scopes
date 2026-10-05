@@ -108,7 +108,8 @@ api_specs:
   slug: covatic-chat-gpt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/openapi/covatic-chat-gpt-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://clienttoolsapi.auth.eu-west-2.amazoncognito.com/oauth2/authorize
 description: ''
 docs: ''
 flows: []
@@ -118,16 +119,35 @@ method: probed
 name: Covatic Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Covatic uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Covatic publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Covatic API on a user''s behalf.
+
+
+  Tokens are issued from https://clienttoolsapi.auth.eu-west-2.amazoncognito.com/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Covatic
 provider_slug: covatic
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- phone
+- profile
+scopes:
+- description: Standard OIDC scope; requests an ID token for the authenticated Covatic platform user.
+  flows: []
+  scope: openid
+- description: Releases the user's email address claim.
+  flows: []
+  scope: email
+- description: Releases the user's phone number claim.
+  flows: []
+  scope: phone
+- description: Releases standard profile claims for the user.
+  flows: []
+  scope: profile
 slug: covatic-scopes
 source_filename: covatic-scopes.yml
 source_heading: OAuth Scopes
@@ -136,7 +156,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: https://cognito-i
   \ an ID token for the authenticated Covatic platform user.\n  source: openid-configuration.scopes_supported\n- name: email\n  description: Releases the user's email address claim.\n  source: openid-configuration.scopes_supported\n- name: phone\n  description: Releases the user's phone number claim.\n  source: openid-configuration.scopes_supported\n- name: profile\n  description: Releases standard profile claims for the user.\n  source: openid-configuration.scopes_supported\nresource_server_scopes:\n  declared: false\n  note: >-\n    Cognito resource servers can define custom scopes (e.g. `covatic/campaigns.read`)\n    and they would appear in `scopes_supported`. None do, so authorization inside the\n    API is enforced by role and tenant (client_id) rather than by OAuth scope.\nauthorization_notes: >-\n  Coarse-grained access is managed through company/client association and roles —\n  /api/v1/user/create-users-with-roles, /api/v1/user/update-user-association,\n  /api/v1/user/clients/default/{default_client_id}.\
   \ The role names are not published.\ngaps_for_the_provider:\n- Define a Cognito resource server with read/write scopes per resource family\n  (profiles, traits, campaigns, users, company) so tokens can be least-privilege.\n- Declare an `oauth2` or `openIdConnect` securityScheme in the OpenAPI and attach\n  scopes per operation, instead of a bare HTTPBearer.\ncross_links:\n  authentication: authentication/covatic-authentication.yml\n  openid_configuration: well-known/covatic-openid-configuration.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/scopes/covatic-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Company
 - AdTech
@@ -154,5 +174,7 @@ tags:
 - Media
 - B Corp
 - United Kingdom
-token_urls: []
+token_bound: false
+token_urls:
+- https://clienttoolsapi.auth.eu-west-2.amazoncognito.com/oauth2/token
 ---

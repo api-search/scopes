@@ -131,5 +131,6 @@ tags:
 - Price Reporting
 - Rare Earths
 - Supply Chain
+token_bound: false
 token_urls: []
 ---

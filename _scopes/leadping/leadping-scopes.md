@@ -184,16 +184,32 @@ method: probed
 name: Leadping Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Leadping uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Leadping publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Leadping API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Leadping
 provider_slug: leadping
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+scopes:
+- description: Requests an ID token and establishes the OIDC authentication flow.
+  flows: []
+  scope: openid
+- description: Requests the end-user's default profile claims (name, picture, updated_at and similar).
+  flows: []
+  scope: profile
+- description: Requests the end-user's email and email_verified claims.
+  flows: []
+  scope: email
+- description: Requests a refresh token so the client can obtain new access tokens without the user present.
+  flows: []
+  scope: offline_access
 slug: leadping-scopes
 source_filename: leadping-scopes.yml
 source_heading: OAuth Scopes
@@ -206,7 +222,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: https://leadping.
   \ a \"leads:read permission\" in the PROSE of its securityScheme description\n    (a2a/leadping-agent-card.json), and its skill securityRequirements carry an EMPTY scope list. So a\n    permission name exists in Leadping's world but appears in no machine-readable scope registry, in\n    no securityScheme in the OpenAPI, and in neither discovery document. This is the single clearest\n    scope gap in the profile.\n  - >-\n    The two authorization documents disagree on offline_access (see the scope note above).\n  - No scopes or permissions reference page is published; https://leadping.ai/docs/scopes 404s.\nprobes:\n  - url: https://leadping.ai/.well-known/oauth-authorization-server\n    status: 200\n    fetched: '2026-09-03'\n  - url: https://api.leadping.ai/.well-known/oauth-protected-resource\n    status: 200\n    fetched: '2026-09-03'\n  - url: https://leadping.ai/.well-known/openid-configuration\n    status: 200\n    fetched: '2026-09-03'\n  - url: https://leadping.ai/docs/scopes\n\
   \    status: 404\n    fetched: '2026-09-03'\n  - url: https://leadping.ai/docs/permissions\n    status: 404\n    fetched: '2026-09-03'\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/scopes/leadping-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Lead Management
 - Sales & marketing automation
@@ -224,5 +240,6 @@ tags:
 - Suppression & opt-out
 - Webhook
 - A2A
+token_bound: false
 token_urls: []
 ---

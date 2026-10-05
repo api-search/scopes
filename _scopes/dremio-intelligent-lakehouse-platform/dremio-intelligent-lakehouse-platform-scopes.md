@@ -122,6 +122,7 @@ tags:
 - Apache Iceberg
 - SQL
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://login.dremio.cloud/oauth/token
 ---

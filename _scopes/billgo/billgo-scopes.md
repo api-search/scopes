@@ -83,6 +83,7 @@ tags:
 - Virtual Cards
 - Fintech
 - GraphQL
+token_bound: false
 token_urls:
 - https://exchange-login.billgo.com/oauth2/default/v1/token
 ---

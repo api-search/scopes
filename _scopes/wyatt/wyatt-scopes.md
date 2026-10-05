@@ -39,5 +39,6 @@ tags:
 - Agentic Commerce
 - MCP
 - South Korea
+token_bound: false
 token_urls: []
 ---

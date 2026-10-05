@@ -72,6 +72,7 @@ tags:
 - Shopify
 - E-Commerce
 - MCP
+token_bound: false
 token_urls:
 - https://account.elysiumhealth.com/authentication/oauth/token
 ---

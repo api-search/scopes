@@ -55,6 +55,7 @@ tags:
 - ODM
 - OEM
 - China
+token_bound: false
 token_urls:
 - https://cloudapi-oauth.suunto.com/oauth/token
 ---

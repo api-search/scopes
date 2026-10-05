@@ -521,7 +521,7 @@ method: searched
 name: Druva Scopes
 name_suffix: OAuth Scopes
 note: 'Druva declares exactly ONE OAuth scope across its whole 970-operation estate: ''read'', on the client-credentials flow, in 11 of 19 specifications. The documentation is explicit that this is not an oversight but the design - ''The Client Credentials have access to all the OAuth Scopes by default'' - so scope is not the authorization boundary. The real boundary is the Druva console role attached to the API credential (Cloud Administrator, or the newer Cloud Admin Read Only role for the inSync Cloud and Platform APIs), which is not expressed in any contract. An agent therefore cannot request least privilege at the token endpoint; least privilege has to be provisioned by a human when the credential is minted. The separate MCP server at mcp.druva.com does scope properly - mcp:tools and mcp:resources - and is the only Druva surface where scope carries meaning.'
-overview: 'Druva uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Druva publishes 1 OAuth 2.0 scope via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Druva API on a user''s behalf.
 
 
   Tokens are issued from https://apis.druva.com/token.
@@ -586,9 +586,13 @@ schemes:
     tokenUrl: https://apis.druva.com/token
   name: BearerAuth
   source: openapi/druva-platform-openapi.json
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- read
+scopes:
+- description: Grants read access. The only scope declared in any Druva specification.
+  flows: []
+  scope: read
 slug: druva-scopes
 source_filename: druva-scopes.yml
 source_heading: OAuth Scopes
@@ -598,7 +602,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: openapi/druva-a
   \ OAuth2\n  source: openapi/druva-msp-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://apis.druva.com/msp/auth/v1/token\n- name: BearerAuth\n  source: openapi/druva-platform-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://apis.druva.com/token\nscopes:\n- name: read\n  description: Grants read access. The only scope declared in any Druva specification.\n  source: securitySchemes.OAuth2.flows.clientCredentials.scopes in 11 of 19 specs\ndocs: https://developer.druva.com/docs/authentication\nnote: 'Druva declares exactly ONE OAuth scope across its whole 970-operation estate: ''read'', on the\n  client-credentials flow, in 11 of 19 specifications. The documentation is explicit that this is not\n  an oversight but the design - ''The Client Credentials have access to all the OAuth Scopes by default''\n  - so scope is not the authorization boundary. The real boundary is the Druva console role attached to\n  the API credential (Cloud Administrator,\
   \ or the newer Cloud Admin Read Only role for the inSync Cloud\n  and Platform APIs), which is not expressed in any contract. An agent therefore cannot request least\n  privilege at the token endpoint; least privilege has to be provisioned by a human when the credential\n  is minted. The separate MCP server at mcp.druva.com does scope properly - mcp:tools and mcp:resources\n  - and is the only Druva surface where scope carries meaning.'\nmcp_scopes:\n- name: mcp:tools\n  source: https://mcp.druva.com/.well-known/oauth-authorization-server\n- name: mcp:resources\n  source: https://mcp.druva.com/.well-known/oauth-authorization-server\nauthorization_model:\n  style: role-based, provisioned out of band\n  roles:\n  - Cloud Administrator\n  - Cloud Admin Read Only\n  docs: https://help.druva.com/en/articles/8580838-create-and-manage-api-credentials\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/scopes/druva-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope · clientCredentials
 tags:
 - Backup
 - Cyber Resilience
@@ -612,6 +616,7 @@ tags:
 - Legal Hold
 - GovCloud
 - MCP
+token_bound: false
 token_urls:
 - https://apis.druva.com/token
 - https://govapis.druva.com/token

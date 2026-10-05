@@ -77,6 +77,7 @@ tags:
 - Automation
 - Developer Tools
 - Enterprise
+token_bound: false
 token_urls:
 - https://login.stilla.ai/oauth2/token
 ---

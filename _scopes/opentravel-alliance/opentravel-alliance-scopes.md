@@ -96,6 +96,7 @@ tags:
 - Channels
 - XML
 - JSON Schema
+token_bound: false
 token_urls:
 - https://opentravel.org/oauth/token
 ---

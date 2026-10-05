@@ -110,6 +110,7 @@ tags:
 - certification-testing
 - Retail Payments
 - estate-management
+token_bound: false
 token_urls:
 - auth/token
 ---

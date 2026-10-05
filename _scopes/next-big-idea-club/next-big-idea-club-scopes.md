@@ -65,9 +65,9 @@ tags:
 - Media
 - Subscription
 - Nonfiction
-- Podcasts
 - Education
 - Membership
+token_bound: false
 token_urls:
 - https://nextbigideaclub.com/oauth/token/
 ---

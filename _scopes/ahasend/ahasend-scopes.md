@@ -82,16 +82,220 @@ method: searched
 name: Ahasend Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'AhaSend uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'AhaSend publishes 51 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AhaSend API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: AhaSend
 provider_slug: ahasend
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 51
+scope_names:
+- accounts:read
+- accounts:write
+- accounts:billing
+- accounts:members:read
+- accounts:members:add
+- accounts:members:update
+- accounts:members:remove
+- domains:read
+- domains:write
+- domains:delete:{domain}
+- messages:send:all
+- messages:send:{domain}
+- messages:cancel:all
+- messages:cancel:{domain}
+- messages:read:all
+- messages:read:{domain}
+- webhooks:read:all
+- webhooks:write:all
+- webhooks:delete:all
+- webhooks:read:{domain}
+- webhooks:write:{domain}
+- webhooks:delete:{domain}
+- routes:read:all
+- routes:write:all
+- routes:delete:all
+- routes:read:{domain}
+- routes:write:{domain}
+- routes:delete:{domain}
+- smtp-credentials:read:all
+- smtp-credentials:write:all
+- smtp-credentials:delete:all
+- smtp-credentials:read:{domain}
+- smtp-credentials:write:{domain}
+- smtp-credentials:delete:{domain}
+- suppressions:read
+- suppressions:write
+- suppressions:delete
+- suppressions:wipe
+- api-keys:read
+- api-keys:write
+- api-keys:delete
+- sub-accounts:read
+- sub-accounts:write
+- sub-accounts:delete
+- sub-accounts:suspend
+- sub-accounts:usage
+- sub-account-api-keys:read
+- sub-account-api-keys:write
+- sub-account-api-keys:delete
+- statistics-transactional:read:all
+- statistics-transactional:read:{domain}
+scopes:
+- description: Read account information
+  flows: []
+  scope: accounts:read
+- description: Update account settings
+  flows: []
+  scope: accounts:write
+- description: Access billing information
+  flows: []
+  scope: accounts:billing
+- description: View account members
+  flows: []
+  scope: accounts:members:read
+- description: Add new account members
+  flows: []
+  scope: accounts:members:add
+- description: Update member permissions
+  flows: []
+  scope: accounts:members:update
+- description: Remove account members
+  flows: []
+  scope: accounts:members:remove
+- description: List and view domain information
+  flows: []
+  scope: domains:read
+- description: Add and update domains
+  flows: []
+  scope: domains:write
+- description: Delete a specific domain
+  flows: []
+  scope: domains:delete:{domain}
+- description: Send messages from any domain
+  flows: []
+  scope: messages:send:all
+- description: Send messages from a specific domain
+  flows: []
+  scope: messages:send:{domain}
+- description: Cancel messages from any domain
+  flows: []
+  scope: messages:cancel:all
+- description: Cancel messages from a specific domain
+  flows: []
+  scope: messages:cancel:{domain}
+- description: Read messages from any domain
+  flows: []
+  scope: messages:read:all
+- description: Read messages from a specific domain
+  flows: []
+  scope: messages:read:{domain}
+- description: Read webhooks for all domains
+  flows: []
+  scope: webhooks:read:all
+- description: Create/update webhooks for all domains
+  flows: []
+  scope: webhooks:write:all
+- description: Delete webhooks for all domains
+  flows: []
+  scope: webhooks:delete:all
+- description: Read webhooks for a specific domain
+  flows: []
+  scope: webhooks:read:{domain}
+- description: Create/update webhooks for a specific domain
+  flows: []
+  scope: webhooks:write:{domain}
+- description: Delete webhooks for a specific domain
+  flows: []
+  scope: webhooks:delete:{domain}
+- description: Read routes for all domains
+  flows: []
+  scope: routes:read:all
+- description: Create/update routes for all domains
+  flows: []
+  scope: routes:write:all
+- description: Delete routes for all domains
+  flows: []
+  scope: routes:delete:all
+- description: Read routes for a specific domain
+  flows: []
+  scope: routes:read:{domain}
+- description: Create/update routes for a specific domain
+  flows: []
+  scope: routes:write:{domain}
+- description: Delete routes for a specific domain
+  flows: []
+  scope: routes:delete:{domain}
+- description: Read SMTP credentials for all domains
+  flows: []
+  scope: smtp-credentials:read:all
+- description: Create/update SMTP credentials for all domains
+  flows: []
+  scope: smtp-credentials:write:all
+- description: Delete SMTP credentials for all domains
+  flows: []
+  scope: smtp-credentials:delete:all
+- description: Read SMTP credentials for a specific domain
+  flows: []
+  scope: smtp-credentials:read:{domain}
+- description: Create/update SMTP credentials for a specific domain
+  flows: []
+  scope: smtp-credentials:write:{domain}
+- description: Delete SMTP credentials for a specific domain
+  flows: []
+  scope: smtp-credentials:delete:{domain}
+- description: View suppression lists
+  flows: []
+  scope: suppressions:read
+- description: Add suppressions
+  flows: []
+  scope: suppressions:write
+- description: Remove specific suppressions
+  flows: []
+  scope: suppressions:delete
+- description: Clear the entire suppression list
+  flows: []
+  scope: suppressions:wipe
+- description: List and view API keys
+  flows: []
+  scope: api-keys:read
+- description: Create and update API keys
+  flows: []
+  scope: api-keys:write
+- description: Delete API keys
+  flows: []
+  scope: api-keys:delete
+- description: List and read sub accounts under the parent
+  flows: []
+  scope: sub-accounts:read
+- description: Create and update sub accounts
+  flows: []
+  scope: sub-accounts:write
+- description: Soft-delete sub accounts
+  flows: []
+  scope: sub-accounts:delete
+- description: Suspend and unsuspend sub accounts
+  flows: []
+  scope: sub-accounts:suspend
+- description: Read per-sub-account usage and allocated cost
+  flows: []
+  scope: sub-accounts:usage
+- description: List and read API keys owned by sub accounts
+  flows: []
+  scope: sub-account-api-keys:read
+- description: Create and update API keys owned by sub accounts
+  flows: []
+  scope: sub-account-api-keys:write
+- description: Delete API keys owned by sub accounts
+  flows: []
+  scope: sub-account-api-keys:delete
+- description: Read statistics for all domains
+  flows: []
+  scope: statistics-transactional:read:all
+- description: Read statistics for a specific domain
+  flows: []
+  scope: statistics-transactional:read:{domain}
 slug: ahasend-scopes
 source_filename: ahasend-scopes.yml
 source_heading: OAuth Scopes
@@ -105,12 +309,13 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: https://ahasend
   \ Delete API keys}\n  - {name: 'sub-accounts:read', description: List and read sub accounts under the parent}\n  - {name: 'sub-accounts:write', description: Create and update sub accounts}\n  - {name: 'sub-accounts:delete', description: Soft-delete sub accounts}\n  - {name: 'sub-accounts:suspend', description: Suspend and unsuspend sub accounts}\n  - {name: 'sub-accounts:usage', description: Read per-sub-account usage and allocated cost}\n  - {name: 'sub-account-api-keys:read', description: List and read API keys owned by sub accounts}\n  - {name: 'sub-account-api-keys:write', description: Create and update API keys owned by sub accounts}\n  - {name: 'sub-account-api-keys:delete', description: Delete API keys owned by sub accounts}\n  - {name: 'statistics-transactional:read:all', description: Read statistics for all domains, kind: global}\n  - {name: 'statistics-transactional:read:{domain}', description: Read statistics for a specific domain, kind: domain-specific}\nenforcement_notes:\n\
   \  - >-\n    Scopes are enforced per operation and, for domain-scoped keys, per resource — a route or\n    webhook is authorized against the domain it belongs to, not just against the caller.\n  - >-\n    Sub-account API keys are managed only with PARENT credentials holding the relevant\n    sub-account-api-keys:* scope. A sub account's own credentials cannot create or manage its\n    nested keys.\n  - >-\n    Scopes compose with IP allow lists: a key outside its allow list is rejected on every\n    endpoint regardless of the scopes it holds.\n  - >-\n    A scope failure and an IP-allow-list failure both return HTTP 403 with a free-text message\n    and no machine-distinguishable marker.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/scopes/ahasend-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 51 scopes
 tags:
 - Email
 - Transactional Email
 - Developer Tools
 - SMTP
 - Webhook
+token_bound: false
 token_urls: []
 ---

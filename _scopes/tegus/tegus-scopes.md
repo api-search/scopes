@@ -112,8 +112,8 @@ tags:
 - Transcripts
 - Private Markets
 - Equity Research
-- OpenID Connect
 - Acquired
+token_bound: false
 token_urls:
 - https://auth.tegus.com/oauth/token
 ---

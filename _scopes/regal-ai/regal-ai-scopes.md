@@ -153,6 +153,7 @@ tags:
 - CPaaS
 - Sales Dialer
 - Customer Engagement
+token_bound: false
 token_urls:
 - https://mcp.regal.ai/v1/external-mcp/token
 ---

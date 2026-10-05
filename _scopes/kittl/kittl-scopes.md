@@ -93,5 +93,6 @@ tags:
 - Artificial Intelligence
 - Mockups
 - Typography
+token_bound: false
 token_urls: []
 ---

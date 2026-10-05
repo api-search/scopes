@@ -141,6 +141,7 @@ tags:
 - Identity Management
 - Identity Security
 - Security
+token_bound: false
 token_urls:
 - https://{tenant}.api.identitynow.com/oauth/token
 ---

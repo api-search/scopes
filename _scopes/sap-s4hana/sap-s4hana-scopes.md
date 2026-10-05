@@ -92,6 +92,7 @@ tags:
 - S/4HANA
 - Sales
 - SAP
+token_bound: false
 token_urls:
 - https://{tenant}.authentication.{region}.hana.ondemand.com/oauth/token
 ---

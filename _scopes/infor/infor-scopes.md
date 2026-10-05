@@ -78,6 +78,7 @@ tags:
 - Supply Chain
 - Cloud
 - Integration
+token_bound: false
 token_urls:
 - https://inforos.infor.com/INFOR_DEV/as/token.oauth2
 ---

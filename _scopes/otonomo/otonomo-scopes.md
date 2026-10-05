@@ -60,6 +60,7 @@ tags:
 - IoT
 - Location
 - Connected Car
+token_bound: false
 token_urls:
 - https://api.otonomo.io/v1/oauth/token/
 ---

@@ -423,6 +423,7 @@ tags:
 - GraphQL
 - REST
 - Autodesk Platform Services
+token_bound: false
 token_urls:
 - https://developer.api.autodesk.com/authentication/v2/token
 - /authentication/v1/authenticate

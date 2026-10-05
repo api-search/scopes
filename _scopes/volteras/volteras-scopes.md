@@ -211,6 +211,8 @@ tags:
 - Energy
 - Mobility
 - Fleet Management
+- Telematics
+token_bound: false
 token_urls:
 - /v1/oauth2/token
 ---

@@ -63,6 +63,7 @@ tags:
 - Codebase Intelligence
 - Agents
 - Developer Experience
+token_bound: false
 token_urls:
 - https://api.us1.driverai.com/mcp/token
 ---

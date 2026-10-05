@@ -82,6 +82,7 @@ tags:
 - OpenID Connect
 - Healthcare
 - Financial Services
+token_bound: false
 token_urls:
 - https://verified.clearme.com/integrations/oauth2/token
 ---

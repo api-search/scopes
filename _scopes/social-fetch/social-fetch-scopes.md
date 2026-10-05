@@ -166,16 +166,36 @@ method: searched
 name: Social Fetch Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Social Fetch uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Social Fetch publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Social Fetch API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Social Fetch
 provider_slug: social-fetch
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 5
+scope_names:
+- openid
+- profile
+- email
+- offline_access
+- socialfetch:read
+scopes:
+- description: OpenID Connect authentication (issue an ID token).
+  flows: []
+  scope: openid
+- description: Access basic profile claims (name, picture, given/family name).
+  flows: []
+  scope: profile
+- description: Access email and email_verified claims.
+  flows: []
+  scope: email
+- description: Issue a refresh token for long-lived access.
+  flows: []
+  scope: offline_access
+- description: Read access to Social Fetch data operations — the scope MCP/OAuth clients request to call /v1 read routes on the user's behalf.
+  flows: []
+  scope: socialfetch:read
 slug: social-fetch-scopes
 source_filename: social-fetch-scopes.yml
 source_heading: OAuth Scopes
@@ -183,7 +203,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-11'\nmethod: searched\nsource: >-\n  OAuth 2.0 / OpenID Connect discovery documents served at\n  api.socialfetch.dev/.well-known/openid-configuration and\n  app.socialfetch.dev, plus docs/integrations/mcp.mdx. Read 2026-09-11.\ndocs: https://www.socialfetch.dev/docs/integrations/mcp.mdx\nauthorization_server: https://app.socialfetch.dev\ngrant_types:\n  - authorization_code\n  - client_credentials\n  - refresh_token\npkce: S256\nscopes:\n  - name: openid\n    description: OpenID Connect authentication (issue an ID token).\n  - name: profile\n    description: Access basic profile claims (name, picture, given/family name).\n  - name: email\n    description: Access email and email_verified claims.\n  - name: offline_access\n    description: Issue a refresh token for long-lived access.\n  - name: socialfetch:read\n    description: >-\n      Read access to Social Fetch data operations — the scope MCP/OAuth clients\n      request to call /v1 read routes on the\
   \ user's behalf.\nnotes: >-\n  The REST OpenAPI itself declares only an apiKey scheme (x-api-key, sfk_...); the\n  OAuth scopes above govern the hosted MCP endpoint and are advertised via the\n  served authorization-server metadata. scopes_supported is identical on the api\n  and app hosts.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/social-fetch/refs/heads/main/scopes/social-fetch-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 5 scopes
 tags:
 - Social Media
 - Web Scraping
@@ -198,5 +218,6 @@ tags:
 - TypeScript SDK
 - Transcripts
 - ads intelligence
+token_bound: false
 token_urls: []
 ---

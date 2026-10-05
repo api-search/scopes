@@ -127,6 +127,7 @@ tags:
 - RPA
 - Enterprise Automation
 - A2A
+token_bound: false
 token_urls:
 - https://vantage-us.abbyy.com/auth2/connect/token
 ---

@@ -84,6 +84,7 @@ tags:
 - Streaming
 - Licensing
 - Publishing
+token_bound: false
 token_urls:
 - https://auth.wmg.com/oauth/token
 ---

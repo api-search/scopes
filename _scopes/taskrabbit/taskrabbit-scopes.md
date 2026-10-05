@@ -76,6 +76,7 @@ tags:
 - Moving
 - Partner API
 - IKEA
+token_bound: false
 token_urls:
 - https://taskrabbit.auth0.com/oauth/token
 ---

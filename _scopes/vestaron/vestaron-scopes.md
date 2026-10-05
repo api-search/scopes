@@ -63,6 +63,7 @@ tags:
 - Sustainability
 - Pollinator Safety
 - Life Sciences
+token_bound: false
 token_urls:
 - https://vestaron.com/oauth/token
 ---

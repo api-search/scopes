@@ -120,6 +120,7 @@ tags:
 - Public Safety
 - Retail
 - Critical Infrastructure
+token_bound: false
 token_urls:
 - https://api.lvt.com/oauth2/v1/token
 ---

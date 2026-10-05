@@ -215,6 +215,7 @@ tags:
 - Media Production
 - Adobe
 - Content
+token_bound: false
 token_urls:
 - https://ims-na1.adobelogin.com/ims/token/v3
 ---

@@ -79,6 +79,7 @@ tags:
 - Salesforce
 - AI Coaching
 - Sales Automation
+token_bound: false
 token_urls:
 - https://app.ringdna.com/mcp/oauth/token
 ---

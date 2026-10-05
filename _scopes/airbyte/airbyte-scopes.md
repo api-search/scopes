@@ -199,6 +199,7 @@ tags:
 - Data Pipeline
 - Connectors
 - Data
+token_bound: false
 token_urls:
 - https://api.airbyte.com/v1/applications/token
 ---

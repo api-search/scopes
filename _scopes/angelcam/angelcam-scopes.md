@@ -517,6 +517,7 @@ tags:
 - ONVIF
 - Security
 - Webhook
+token_bound: false
 token_urls:
 - https://my.angelcam.com/oauth/token/
 - https://api.angelcam.com/oauth/token/

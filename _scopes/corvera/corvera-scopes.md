@@ -76,6 +76,7 @@ tags:
 - AI Agents
 - Analytics
 - Y Combinator
+token_bound: false
 token_urls:
 - https://mcp.corvera.ai/token
 ---

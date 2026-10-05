@@ -207,6 +207,7 @@ tags:
 - Simulation
 - Knowledge Base
 - Voice AI
+token_bound: false
 token_urls:
 - https://kind-prelude-27.authkit.app/oauth2/token
 ---

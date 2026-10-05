@@ -222,6 +222,7 @@ tags:
 - Fintech
 - Merchant Services
 - Europe
+token_bound: false
 token_urls:
 - https://id.teya.xyz/oauth/v2/oauth-token
 - https://id.teya.com/oauth/v2/oauth-token

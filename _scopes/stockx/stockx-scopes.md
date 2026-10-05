@@ -85,6 +85,7 @@ tags:
 - Selling
 - Order
 - Fashion
+token_bound: false
 token_urls:
 - https://accounts.stockx.com/oauth/token
 ---

@@ -80,6 +80,7 @@ tags:
 - Lead Generation
 - CRM
 - Prospecting
+token_bound: false
 token_urls:
 - https://mcp.eu.surfe.com/token
 ---

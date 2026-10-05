@@ -216,6 +216,7 @@ tags:
 - Canada
 - Fintech
 - Infrastructure
+token_bound: false
 token_urls:
 - /oauth2/token
 ---

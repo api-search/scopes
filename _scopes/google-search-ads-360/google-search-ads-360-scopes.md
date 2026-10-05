@@ -62,6 +62,7 @@ tags:
 - Reporting
 - Search Ads 360
 - Search Advertising
+token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token
 ---

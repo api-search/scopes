@@ -98,6 +98,7 @@ tags:
 - Membership
 - Payments
 - Class Management
+token_bound: false
 token_urls:
 - /api/v2/auth/token
 ---

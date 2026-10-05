@@ -63,6 +63,7 @@ tags:
 - Footwear
 - Direct to Consumer
 - Shopify
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/26030735465/oauth/token
 ---

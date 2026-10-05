@@ -242,6 +242,7 @@ tags:
 - Digital Sales Rooms
 - MCP
 - SCIM
+token_bound: false
 token_urls:
 - https://{subdomain}.showpad.biz/api/v3/oauth2/token
 - https://mcp.showpad.com/oauth/v1/token

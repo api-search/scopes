@@ -235,6 +235,7 @@ tags:
 - Mortgage
 - Digital Signing
 - Webhook
+token_bound: false
 token_urls:
 - https://auth.pexa.com.au/oauth/token
 - https://host.kubernetes.internal/auth/realms/pexa/protocol/openid-connect/token

@@ -105,5 +105,6 @@ tags:
 - Consumer Banking
 - Mutual Bank
 - Australia
+token_bound: false
 token_urls: []
 ---

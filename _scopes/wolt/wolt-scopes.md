@@ -51,6 +51,7 @@ tags:
 - Point-of-Sale
 - Restaurant
 - Delivery
+token_bound: false
 token_urls:
 - https://integrations-authentication-service.wolt.com/oauth2/token
 ---

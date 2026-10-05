@@ -9,16 +9,64 @@ method: probed
 name: Via Science Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Via Science uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Via Science publishes 12 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Via Science API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Via Science
 provider_slug: via-science
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 12
+scope_names:
+- openid
+- profile
+- email
+- address
+- phone
+- offline_access
+- roles
+- web-origins
+- acr
+- basic
+- microprofile-jwt
+- service_account
+scopes:
+- description: Required OpenID Connect scope; requests an ID token.
+  flows: []
+  scope: openid
+- description: Standard OIDC profile claims (name, given_name, family_name, preferred_username).
+  flows: []
+  scope: profile
+- description: Standard OIDC email claims.
+  flows: []
+  scope: email
+- description: Standard OIDC address claim.
+  flows: []
+  scope: address
+- description: Standard OIDC phone_number claims.
+  flows: []
+  scope: phone
+- description: Requests a refresh token usable while the user is offline.
+  flows: []
+  scope: offline_access
+- description: Keycloak client/realm role mappings in the token.
+  flows: []
+  scope: roles
+- description: Injects allowed CORS web origins into the token.
+  flows: []
+  scope: web-origins
+- description: Authentication Context Class Reference claim; carries the step-up level.
+  flows: []
+  scope: acr
+- description: Minimal claim set (sub, iss, aud, exp, iat, auth_time).
+  flows: []
+  scope: basic
+- description: Eclipse MicroProfile JWT claims (upn, groups).
+  flows: []
+  scope: microprofile-jwt
+- description: Claims for client_credentials service-account tokens.
+  flows: []
+  scope: service_account
 slug: via-science-scopes
 source_filename: via-science-scopes.yml
 source_heading: OAuth Scopes
@@ -28,7 +76,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: >-\n  scopes_supp
   \ 1.0\n  - name: roles\n    description: Keycloak client/realm role mappings in the token.\n    realms: [qt, ztf_demo]\n    standard: Keycloak default client scope\n  - name: web-origins\n    description: Injects allowed CORS web origins into the token.\n    realms: [qt, ztf_demo]\n    standard: Keycloak default client scope\n  - name: acr\n    description: Authentication Context Class Reference claim; carries the step-up level.\n    realms: [qt, ztf_demo]\n    standard: Keycloak default client scope\n  - name: basic\n    description: Minimal claim set (sub, iss, aud, exp, iat, auth_time).\n    realms: [qt, ztf_demo]\n    standard: Keycloak default client scope\n  - name: microprofile-jwt\n    description: Eclipse MicroProfile JWT claims (upn, groups).\n    realms: [qt, ztf_demo]\n    standard: Keycloak optional client scope\n  - name: service_account\n    description: Claims for client_credentials service-account tokens.\n    realms: [qt, ztf_demo]\n    standard: Keycloak optional client\
   \ scope\n\nscope_count: 12\nproduct_specific_scopes: 0\n\nacr_values_supported: ['0', '1']\nacr_note: >-\n  acr 0/1 is the hook ZTF step-up authentication uses — a sensitive operation is gated on a\n  higher authentication context, satisfied by a VIA Wallet signature rather than a second\n  password factor.\n\numa2:\n  supported: true\n  resource_registration_endpoint: https://auth.solvewithvia.com/auth/realms/ztf_demo/authz/protection/resource_set\n  permission_endpoint: https://auth.solvewithvia.com/auth/realms/ztf_demo/authz/protection/permission\n  policy_endpoint: https://auth.solvewithvia.com/auth/realms/ztf_demo/authz/protection/uma-policy\n  note: >-\n    UMA 2.0 is enabled on the realm, so fine-grained resource permissions exist at runtime\n    even though no static scope catalog is published.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/via-science/refs/heads/main/scopes/via-science-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 12 scopes
 tags:
 - Company
 - Security
@@ -44,5 +92,6 @@ tags:
 - Artificial Intelligence
 - Blockchain
 - OpenID Connect
+token_bound: false
 token_urls: []
 ---

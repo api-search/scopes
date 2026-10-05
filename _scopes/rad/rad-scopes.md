@@ -56,6 +56,7 @@ tags:
 - Monetization
 - GraphQL
 - MCP
+token_bound: false
 token_urls:
 - https://api.rad.live/oauth/token
 ---

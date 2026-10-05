@@ -109,6 +109,7 @@ tags:
 - Verifiable Credentials
 - Education
 - Open Source
+token_bound: false
 token_urls:
 - https://api.badgr.io/o/token
 ---

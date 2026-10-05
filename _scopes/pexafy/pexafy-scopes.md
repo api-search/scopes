@@ -101,6 +101,7 @@ tags:
 - MCP
 - Agent-Native
 - Content Licensing
+token_bound: false
 token_urls:
 - https://pexafy.com/oauth/token/
 ---

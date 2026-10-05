@@ -100,6 +100,7 @@ tags:
 - AML
 - Planning Data
 - Mortgage
+token_bound: false
 token_urls:
 - https://lmkmaster.eu.auth0.com/oauth/token
 ---

@@ -75,6 +75,7 @@ tags:
 - Redemptions
 - Fintech
 - Loyalty & Incentives
+token_bound: false
 token_urls:
 - https://accounts.xoxoday.com/chef/v1/oauth/token
 ---

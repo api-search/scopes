@@ -157,6 +157,7 @@ tags:
 - Eligibility
 - SSO
 - Identity Federation
+token_bound: false
 token_urls:
 - https://api.plansource.com/oauth/v2/token
 - https://api.plansource.com/sso/oauth2/token

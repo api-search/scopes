@@ -97,6 +97,7 @@ tags:
 - Mobile Observability
 - Observability
 - Session Replay
+token_bound: false
 token_urls:
 - https://api.luciq.ai/oauth/token
 ---

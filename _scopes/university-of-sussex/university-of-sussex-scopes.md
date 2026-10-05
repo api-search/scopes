@@ -82,6 +82,7 @@ tags:
 - Learning Management
 - Research
 - Open Access
+token_bound: false
 token_urls:
 - https://okta.sussex.ac.uk/oauth2/v1/token
 ---

@@ -163,6 +163,7 @@ tags:
 - Analytics
 - CRM Integration
 - Digital Sales Rooms
+token_bound: false
 token_urls:
 - https://pubapi.bigtincan.com/services/oauth2/token
 ---

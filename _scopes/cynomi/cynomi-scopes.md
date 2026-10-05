@@ -104,6 +104,7 @@ tags:
 - MSP
 - MSSP
 - Vulnerability Management
+token_bound: false
 token_urls:
 - https://auth.eu.cynomi.com/oauth/token
 ---

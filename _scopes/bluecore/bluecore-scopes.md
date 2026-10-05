@@ -115,5 +115,6 @@ tags:
 - Messaging
 - E-Commerce
 - Consent
+token_bound: false
 token_urls: []
 ---

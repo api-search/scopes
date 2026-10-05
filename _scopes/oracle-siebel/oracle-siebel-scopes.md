@@ -119,5 +119,6 @@ tags:
 - Sales Automation
 - Service Automation
 - Real-Time
+token_bound: false
 token_urls: []
 ---

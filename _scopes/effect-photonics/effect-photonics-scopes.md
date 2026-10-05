@@ -102,6 +102,7 @@ tags:
 - MCP
 - WordPress
 - Netherlands
+token_bound: false
 token_urls:
 - https://effectphotonics.com/oauth/token
 ---

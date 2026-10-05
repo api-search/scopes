@@ -270,7 +270,8 @@ api_specs:
   slug: lianlian-global-top-up-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/openapi/lianlian-global-top-up-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://global.lianlian.com/account/#/application-center/auth
 description: ''
 docs: https://developer.lianlianglobal.com/docs/lppe/b6b6c2d4906e9-authentication
 flows:
@@ -408,6 +409,7 @@ tags:
 - B2B Payments
 - Digital Wallet
 - China
+token_bound: false
 token_urls:
 - /oauth2/token
 ---

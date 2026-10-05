@@ -388,16 +388,28 @@ method: probed
 name: Medusa Scopes
 name_suffix: OAuth Scopes
 note: There is no per-tool or per-resource scope. Access to the MCP server is all-or-nothing on a Medusa Cloud account, so an agent cannot be granted the documentation-search tool without also being granted the feedback-submission tool.
-overview: 'Medusa uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Medusa publishes 3 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Medusa API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Medusa
 provider_slug: medusa
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- openid
+- email
+- profile
+scopes:
+- description: OpenID Connect — issue an ID token identifying the Medusa Cloud account.
+  flows: []
+  scope: openid
+- description: Access to the account's email address claim.
+  flows: []
+  scope: email
+- description: Access to the account's basic profile claims.
+  flows: []
+  scope: profile
 slug: medusa-scopes
 source_filename: medusa-scopes.yml
 source_heading: OAuth Scopes
@@ -406,7 +418,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: >-\n  https://doc
   \  issuer: https://docs.medusajs.com\n  authorization_endpoint: https://cloud.medusajs.com/oauth/authorize\n  token_endpoint: https://api.prod.medusajs.cloud/v1/oauth/token\n  registration_endpoint: https://docs.medusajs.com/oauth/register\n  jwks_uri: https://api.prod.medusajs.cloud/.well-known/jwks.json\n  grant_types_supported: [authorization_code, refresh_token]\n  response_types_supported: [code]\n  token_endpoint_auth_methods_supported: [none]\n  code_challenge_methods_supported: [S256]\n  dynamic_client_registration: true\nprotected_resource:\n  resource: https://docs.medusajs.com\n  authorization_servers: [https://docs.medusajs.com]\nscopes:\n  - name: openid\n    description: OpenID Connect — issue an ID token identifying the Medusa Cloud account.\n    source: oauth-authorization-server scopes_supported\n  - name: email\n    description: Access to the account's email address claim.\n    source: oauth-authorization-server scopes_supported\n  - name: profile\n    description: Access\
   \ to the account's basic profile claims.\n    source: oauth-authorization-server scopes_supported\nscope_count: 3\nalternative_credential:\n  type: personal access key\n  usage: Bearer token in the Authorization header, in place of the OAuth flow.\n  source: https://docs.medusajs.com/learn/introduction/build-with-llms-ai/mcp-server\nnote: >-\n  There is no per-tool or per-resource scope. Access to the MCP server is all-or-nothing on\n  a Medusa Cloud account, so an agent cannot be granted the documentation-search tool\n  without also being granted the feedback-submission tool.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medusa/refs/heads/main/scopes/medusa-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes
 tags:
 - E-Commerce
 - Headless Commerce
@@ -418,5 +430,6 @@ tags:
 - GraphQL
 - Agentic Commerce
 - MCP
+token_bound: false
 token_urls: []
 ---

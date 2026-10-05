@@ -86,6 +86,7 @@ tags:
 - Messaging
 - Community
 - Holding Company
+token_bound: false
 token_urls:
 - https://api.genius.com/oauth/token
 ---

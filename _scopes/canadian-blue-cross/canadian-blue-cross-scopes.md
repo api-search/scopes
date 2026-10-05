@@ -63,6 +63,7 @@ tags:
 - Carrier
 - Associations
 - No Public API
+token_bound: false
 token_urls:
 - https://pac.bluecross.ca/umbraco/delivery/api/v1/security/member/token
 ---

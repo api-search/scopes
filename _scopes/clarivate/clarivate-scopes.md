@@ -417,6 +417,7 @@ tags:
 - Publications
 - Research
 - Scholarly Communication
+token_bound: false
 token_urls:
 - https://api.clarivate.com/auth/steam/api/endnote/token
 ---

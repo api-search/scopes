@@ -193,6 +193,7 @@ tags:
 - Hospitality
 - Booking
 - Channel Manager
+token_bound: false
 token_urls:
 - https://api.ownerrez.com/oauth/access_token
 ---

@@ -141,23 +141,35 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: https://docs.cadasto.io/docs/guides/authentication
-flows: []
+flows:
+- clientCredentials
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Cadasto Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Cadasto uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Cadasto publishes 2 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Cadasto API on a user''s behalf.
+
+
+  Tokens are issued from https://{mycompany}.auth.prod.cadasto.io/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Cadasto
 provider_slug: cadasto
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- api.read
+- api.write
+scopes:
+- description: Read access to the Cadasto API surface. Documented as one of the two scopes advertised by scopes_supported and requested at credential issuance.
+  flows: []
+  scope: api.read
+- description: Write access to the Cadasto API surface. Documented as one of the two scopes advertised by scopes_supported and requested at credential issuance.
+  flows: []
+  scope: api.write
 slug: cadasto-scopes
 source_filename: cadasto-scopes.yml
 source_heading: OAuth Scopes
@@ -166,7 +178,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: >-\n  https://d
   \ Documented as one of the two scopes advertised by\n    scopes_supported and requested at credential issuance.\n- name: api.write\n  description: >-\n    Write access to the Cadasto API surface. Documented as one of the two scopes advertised by\n    scopes_supported and requested at credential issuance.\ngranularity: coarse\nnotes:\n  - >-\n    Only two scopes are published, and they are platform-wide read/write. There is no per-API\n    (EHR vs Demographic vs Admin), per-resource or per-operation scope in the public\n    documentation, so an agent granted api.write on a Cadasto tenant can also reach the Admin\n    API's physically destructive operations unless the tenant restricts them by some other\n    means the docs do not describe.\n  - >-\n    The docs say the live /.well-known/smart-configuration response \"may include additional\n    fields\"; a tenant's actual scopes_supported may be richer than the two documented here.\n    Confirming that requires an issued tenant, so it is\
   \ recorded as unknown rather than guessed.\n  - >-\n    SMART on openEHR is declared fully supported, but no SMART scope grammar\n    (patient/*.read, user/*.write, launch/patient) is published on a public Cadasto page.\ngaps:\n  - No scopes reference page exists; the two scope names appear only as examples inside the\n    authentication guide and the FAQ credential-request template.\n  - No scope-to-operation mapping is published.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cadasto/refs/heads/main/scopes/cadasto-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes · clientCredentials
 tags:
 - Healthcare
 - Health IT
@@ -181,5 +193,7 @@ tags:
 - MCP
 - Agent Skills
 - Netherlands
-token_urls: []
+token_bound: false
+token_urls:
+- https://{mycompany}.auth.prod.cadasto.io/oauth/token
 ---

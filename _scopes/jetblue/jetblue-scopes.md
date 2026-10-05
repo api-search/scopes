@@ -87,6 +87,7 @@ tags:
 - GDS
 - Booking
 - Loyalty
+token_bound: false
 token_urls:
 - https://accounts.jetblue.com/oauth2/v1/token
 ---

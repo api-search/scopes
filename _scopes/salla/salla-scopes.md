@@ -215,6 +215,7 @@ tags:
 - Saudi Arabia
 - Small Business
 - Storefront
+token_bound: false
 token_urls:
 - https://accounts.salla.sa/oauth2/token
 ---

@@ -57,6 +57,7 @@ tags:
 - Real Estate
 - Mortgage
 - Legal Tech
+token_bound: false
 token_urls:
 - https://api.proof.com/oauth/v2/token
 ---

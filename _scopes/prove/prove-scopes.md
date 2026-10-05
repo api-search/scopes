@@ -84,6 +84,7 @@ tags:
 - Phone Intelligence
 - KYC
 - Fraud Prevention
+token_bound: false
 token_urls:
 - https://api.prove.com/v3/token
 ---

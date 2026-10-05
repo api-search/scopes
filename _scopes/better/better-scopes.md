@@ -70,6 +70,7 @@ tags:
 - Financial Services
 - HELOC
 - Home Finance
+token_bound: false
 token_urls:
 - https://prod.bettermg.com/api/idp/token
 ---

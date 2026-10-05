@@ -95,6 +95,7 @@ tags:
 - Broadband
 - 5G
 - Carrier
+token_bound: false
 token_urls:
 - /oauth2/v1/token
 ---

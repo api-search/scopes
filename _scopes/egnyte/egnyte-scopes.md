@@ -106,6 +106,7 @@ tags:
 - Document Management
 - Governance
 - Data Security
+token_bound: false
 token_urls:
 - https://{domain}.egnyte.com/puboauth/token
 ---

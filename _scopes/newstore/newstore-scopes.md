@@ -437,6 +437,7 @@ tags:
 - Inventory
 - Store Operations
 - REST
+token_bound: false
 token_urls:
 - https://id.p.newstore.net/auth/realms/dodici-demo/protocol/openid-connect/token
 ---

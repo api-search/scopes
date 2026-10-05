@@ -145,6 +145,7 @@ tags:
 - Components
 - Assets
 - Webhook
+token_bound: false
 token_urls:
 - /v1/oauth/token
 ---

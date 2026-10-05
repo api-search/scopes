@@ -192,7 +192,7 @@ tags:
 - Regional Bank
 - Commercial Banking
 - Open Finance
-- Developer Portal
+token_bound: false
 token_urls:
 - https://developer.bankunited.com/aeh/services/oauth2/token
 ---

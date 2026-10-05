@@ -149,6 +149,7 @@ tags:
 - Pricing
 - Real Estate
 - Market Intelligence
+token_bound: false
 token_urls:
 - https://developers.beyondpricing.com/o/token/
 ---

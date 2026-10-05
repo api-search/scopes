@@ -104,6 +104,7 @@ tags:
 - Dining
 - Point-of-Sale
 - Marketplace
+token_bound: false
 token_urls:
 - https://auth.thefork.io/oauth/token
 ---

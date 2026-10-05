@@ -156,6 +156,7 @@ tags:
 - MCP
 - Agent-Native
 - MarTech
+token_bound: false
 token_urls:
 - https://mcp-auth.vidmob.com/v1/oauth2/token
 ---

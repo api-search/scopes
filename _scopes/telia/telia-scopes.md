@@ -103,6 +103,7 @@ tags:
 - TM Forum
 - MEF
 - Standards
+token_bound: false
 token_urls:
 - https://api-garden.teliacompany.com/v4/oauth/client_credential/accesstoken
 - https://api-garden-test.teliacompany.com/v4/oauth/client_credential/accesstoken

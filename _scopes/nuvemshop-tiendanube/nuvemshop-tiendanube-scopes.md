@@ -104,6 +104,7 @@ tags:
 - Latin America
 - Storefront
 - Apps Platform
+token_bound: false
 token_urls:
 - https://www.tiendanube.com/apps/authorize/token
 ---

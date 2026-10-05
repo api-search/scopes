@@ -85,6 +85,7 @@ tags:
 - Ledger
 - Fintech
 - United Kingdom
+token_bound: false
 token_urls:
 - https://auth.thoughtmachine.net/application/o/token/
 ---

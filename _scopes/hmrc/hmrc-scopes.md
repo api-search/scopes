@@ -79,6 +79,7 @@ tags:
 - Regulatory
 - Tax
 - United Kingdom
+token_bound: false
 token_urls:
 - https://api.service.hmrc.gov.uk/oauth/token
 ---

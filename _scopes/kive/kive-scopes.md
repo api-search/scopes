@@ -60,6 +60,7 @@ tags:
 - Image
 - Video
 - MCP
+token_bound: false
 token_urls:
 - https://mcp.kive.ai/oauth/token
 ---

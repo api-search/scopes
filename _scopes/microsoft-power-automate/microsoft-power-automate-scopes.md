@@ -91,6 +91,7 @@ tags:
 - RPA
 - Workflows
 - Workflow Automation
+token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/token
 ---

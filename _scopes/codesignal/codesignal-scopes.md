@@ -58,6 +58,7 @@ tags:
 - Education
 - GraphQL
 - Webhook
+token_bound: false
 token_urls:
 - https://codesignal.com/learn/api/v1/oauth/token
 ---

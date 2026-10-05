@@ -147,6 +147,7 @@ tags:
 - Wallet Screening
 - Risk Scoring
 - Analytics
+token_bound: false
 token_urls:
 - https://login.elliptic.co/oauth/token
 ---

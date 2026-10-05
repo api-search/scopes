@@ -186,7 +186,6 @@ tags:
 - MLS
 - OData
 - OneHome
-- OpenID Connect
 - Participant Reporting
 - Property Data
 - Real Estate
@@ -195,6 +194,7 @@ tags:
 - RETS
 - Tax Data
 - Trestle
+token_bound: false
 token_urls:
 - https://api.cotality.com/trestle/oidc/connect/token
 ---

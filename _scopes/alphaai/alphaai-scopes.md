@@ -93,6 +93,7 @@ tags:
 - MCP
 - LLM
 - Trading
+token_bound: false
 token_urls:
 - https://mcp.alphai.io/oauth/token
 ---

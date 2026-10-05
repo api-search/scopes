@@ -66,6 +66,7 @@ tags:
 - Website to API
 - Agent Tools
 - Y Combinator
+token_bound: false
 token_urls:
 - https://mcp.rindler.ai/auth/token
 ---

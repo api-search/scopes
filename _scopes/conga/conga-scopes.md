@@ -2266,6 +2266,8 @@ tags:
 - GraphQL
 - Billing
 - Approvals
+- Contract Management
+token_bound: false
 token_urls:
 - https://login-rls.congacloud.com/api/v1/auth/connect/token
 - https://login.conga.com/oauth/token

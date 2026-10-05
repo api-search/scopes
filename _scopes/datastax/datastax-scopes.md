@@ -206,5 +206,7 @@ tags:
 - Serverless
 - Streaming
 - Developer Tools
+- Vector Search
+token_bound: false
 token_urls: []
 ---

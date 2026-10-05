@@ -65,6 +65,7 @@ tags:
 - Personalization
 - Feature Flags
 - Artificial Intelligence
+token_bound: false
 token_urls:
 - https://api.kameleoon.com/oauth/token
 ---

@@ -185,6 +185,7 @@ tags:
 - Banking
 - Lending
 - Customer Engagement
+token_bound: false
 token_urls:
 - https://public.totalexpert.net/v1/token
 ---

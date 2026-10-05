@@ -66,26 +66,43 @@ api_specs:
   slug: line-shop-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-shop-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://access.line.me/oauth2/v2.1/authorize
 description: Scopes apply to LINE Login v2.1 — the end-user OAuth 2.0 / OpenID Connect surface — not to the Messaging API. Messaging API calls carry a channel access token, which is scoped to a channel and carries no scope claim at all; entitlement there is a property of the channel and the Official Account plan. Consequently no scope is derivable from the harvested OpenAPI documents, which declare only an HTTP Bearer scheme.
 docs: https://developers.line.biz/en/docs/line-login/integrate-line-login/
-flows: []
+flows:
+- authorization_code
 kind: oauth-scopes
 layout: scope
 method: searched
 name: Line Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'LINE uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'LINE publishes 3 OAuth 2.0 scopes via the authorization_code flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the LINE API on a user''s behalf.
+
+
+  Tokens are issued from https://api.line.me/oauth2/v2.1/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: LINE
 provider_slug: line
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 3
+scope_names:
+- profile
+- openid
+- email
+scopes:
+- description: Permission to get the user's profile — user ID, display name, profile image URL and status message. Displayed as a required permission on the consent screen when requested.
+  flows: []
+  scope: profile
+- description: Permission to obtain an ID token (JWT, ES256-signed) alongside the access token, turning the OAuth flow into an OpenID Connect authentication. Required for the userinfo endpoint.
+  flows: []
+  scope: openid
+- description: Permission to receive the user's email address in the ID token. Requires the openid scope and requires the channel to have applied for and been granted the email permission in the LINE Developers Console.
+  flows: []
+  scope: email
 slug: line-scopes
 source_filename: line-scopes.yml
 source_heading: OAuth Scopes
@@ -95,7 +112,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://a
   \    Permission to obtain an ID token (JWT, ES256-signed) alongside the access\n      token, turning the OAuth flow into an OpenID Connect authentication.\n      Required for the userinfo endpoint.\n    grants:\n      - ID token issuance\n      - GET https://api.line.me/oauth2/v2.1/userinfo\n  - name: email\n    description: >-\n      Permission to receive the user's email address in the ID token. Requires\n      the openid scope and requires the channel to have applied for and been\n      granted the email permission in the LINE Developers Console.\n    grants:\n      - email claim in the ID token\n    note: >-\n      Gated — the channel must submit an application before the scope can be\n      requested.\ncombinations_documented:\n  - scope: profile\n    id_token: false\n  - scope: profile openid\n    id_token: true\n  - scope: profile openid email\n    id_token: true\n    email_claim: true\n  - scope: openid\n    id_token: true\n  - scope: openid email\n    id_token: true\n    email_claim:\
   \ true\nchannel_access_tokens:\n  scoped: false\n  note: >-\n    The Channel Access Token API issues four token types — long-lived,\n    short-lived v2.0, JWT-assertion v2.1 and stateless v3 — none of which\n    carries an OAuth scope. Authorization is channel-level and plan-level:\n    corporate/partner-only endpoints return 403 \"Access to this API is not\n    available for your account\" rather than an insufficient_scope error.\n  see: authentication/line-authentication.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/scopes/line-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 3 scopes · authorization_code
 tags:
 - Messaging
 - Chatbots
@@ -107,5 +124,7 @@ tags:
 - Audiences
 - Analytics
 - Japan
-token_urls: []
+token_bound: false
+token_urls:
+- https://api.line.me/oauth2/v2.1/token
 ---

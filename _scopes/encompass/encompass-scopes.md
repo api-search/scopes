@@ -110,6 +110,7 @@ tags:
 - ICE Mortgage Technology
 - Ellie Mae
 - Lending
+token_bound: false
 token_urls:
 - https://api.elliemae.com/oauth2/v1/token
 ---

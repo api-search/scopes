@@ -108,6 +108,7 @@ tags:
 - Productivity
 - Video
 - Webhook
+token_bound: false
 token_urls:
 - https://keycloak.tldv.io/realms/mcp.tldv.io/protocol/openid-connect/token
 ---

@@ -74,6 +74,7 @@ tags:
 - Analytics
 - Freight Rates
 - Sonar
+token_bound: false
 token_urls:
 - https://api.freightwaves.com/oauth/token
 ---

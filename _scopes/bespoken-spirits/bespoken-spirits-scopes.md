@@ -72,6 +72,7 @@ tags:
 - Shopify
 - Retail
 - Manufacturing
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/75681399024/oauth/token
 ---

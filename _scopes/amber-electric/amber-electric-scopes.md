@@ -156,6 +156,7 @@ tags:
 - DER
 - Smart Metering
 - Wholesale Pricing
+token_bound: false
 token_urls:
 - https://secure.cdr.amber.com.au/connect/token
 ---

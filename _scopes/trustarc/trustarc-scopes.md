@@ -349,7 +349,6 @@ tags:
 - SCIM
 - Identity
 - Authentication
-- OpenID Connect
 - User Provisioning
 - Privacy Management
 - Consent Management
@@ -374,6 +373,7 @@ tags:
 - RegTech
 - Trust Center
 - Enterprise Saas
+token_bound: false
 token_urls:
 - https://login.truste.com/oauth/token
 ---

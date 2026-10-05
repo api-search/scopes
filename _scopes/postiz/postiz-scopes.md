@@ -238,6 +238,7 @@ tags:
 - Publishing
 - Analytics
 - A2A
+token_bound: false
 token_urls:
 - https://api.postiz.com/oauth/token
 ---

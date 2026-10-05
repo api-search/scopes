@@ -89,7 +89,7 @@ tags:
 - Donations
 - Volunteering
 - Authentication
-- OpenID Connect
+token_bound: false
 token_urls:
 - https://www.brightfunds.org/oauth/token
 ---

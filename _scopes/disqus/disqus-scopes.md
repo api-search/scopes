@@ -90,6 +90,7 @@ tags:
 - Publishing
 - Audience Engagement
 - Social
+token_bound: false
 token_urls:
 - https://disqus.com/api/oauth/2.0/access_token/
 ---

@@ -38,7 +38,7 @@ method: searched
 name: Flexpa Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Flexpa uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Flexpa publishes 2 OAuth 2.0 scopes via the authorizationCode, clientCredentials, and refreshToken flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Flexpa API on a user''s behalf.
 
 
   Tokens are issued from https://api.flexpa.com/oauth/token.
@@ -67,9 +67,17 @@ schemes:
   token_endpoint_auth_methods:
   - client_secret_basic
   - none
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- launch/patient
+- offline_access
+scopes:
+- description: SMART on FHIR standalone patient launch context. Required on every authorization URL; grants read access to the authorizing patient's compartment (Patient, Coverage, ExplanationOfBenefit and the clinical resources Flexpa derives).
+  flows: []
+  scope: launch/patient
+- description: Issues a refresh token so the application can continue retrieving the patient's data after the initial access token expires. Corresponds to the permission-offline SMART capability.
+  flows: []
+  scope: offline_access
 slug: flexpa-scopes
 source_filename: flexpa-scopes.yml
 source_heading: OAuth Scopes
@@ -78,13 +86,14 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://api.fle
   \   tokenUrl: https://api.flexpa.com/oauth/token\n    note: >-\n      Produces an Application Access Token (server-to-server), authenticated with\n      HTTP Basic using publishable key as username and secret key as password.\n  - flow: refreshToken\n    tokenUrl: https://api.flexpa.com/oauth/token\n  registration_endpoint: https://api.flexpa.com/oauth/register\n  jwks_uri: https://api.flexpa.com/.well-known/jwks.json\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  - none\nscopes:\n- name: launch/patient\n  description: >-\n    SMART on FHIR standalone patient launch context. Required on every\n    authorization URL; grants read access to the authorizing patient's compartment\n    (Patient, Coverage, ExplanationOfBenefit and the clinical resources Flexpa\n    derives).\n  required: true\n  surfaces:\n  - https://api.flexpa.com/fhir\n  - https://api.flexpa.com/mcp\n- name: offline_access\n  description: >-\n    Issues a refresh token so the application can continue retrieving\
   \ the\n    patient's data after the initial access token expires. Corresponds to the\n    permission-offline SMART capability.\n  required: false\n  surfaces:\n  - https://api.flexpa.com/fhir\n  - https://api.flexpa.com/mcp\nsmart_capabilities:\n- launch-standalone\n- client-public\n- client-confidential-symmetric\n- context-standalone-patient\n- permission-offline\n- permission-patient\nnotes: >-\n  Scope granularity is patient-compartment-wide; there is no per-resource scope\n  (no patient/ExplanationOfBenefit.read style scopes) and no scope that\n  distinguishes claims from clinical data. The MCP server at\n  https://api.flexpa.com/mcp is protected by the same two scopes, per\n  /.well-known/oauth-protected-resource.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/scopes/flexpa-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - Healthcare
 - FHIR
 - Patient Access
 - Claims Data
 - Health Insurance
+token_bound: false
 token_urls:
 - https://api.flexpa.com/oauth/token
 ---

@@ -137,6 +137,7 @@ tags:
 - Fintech
 - Money Transfer
 - Benefits
+token_bound: false
 token_urls:
 - https://auth.dailypay.com/oauth2/token
 ---

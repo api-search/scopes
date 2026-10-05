@@ -164,6 +164,7 @@ tags:
 - Human Resources
 - IDE
 - Integration
+token_bound: false
 token_urls:
 - https://{baseUrl}/oauth2/{tenant}/token
 ---

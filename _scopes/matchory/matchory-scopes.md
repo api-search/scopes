@@ -73,6 +73,7 @@ tags:
 - Market Intelligence
 - Risk Management
 - MCP
+token_bound: false
 token_urls:
 - https://discovery.matchory.com/auth/oauth/token
 ---

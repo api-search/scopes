@@ -148,6 +148,7 @@ tags:
 - Diagnosis
 - Telehealth
 - Authentication
+token_bound: false
 token_urls:
 - https://auth.sandbox.buoyhealth.com/oauth/token
 ---

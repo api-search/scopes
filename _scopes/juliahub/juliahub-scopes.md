@@ -83,6 +83,7 @@ tags:
 - Developer Tools
 - Package Registry
 - Company
+token_bound: false
 token_urls:
 - https://auth.juliahub.com/dex/token
 ---

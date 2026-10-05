@@ -73,6 +73,7 @@ tags:
 - Agent-Native
 - Catalog
 - Checkout
+token_bound: false
 token_urls:
 - https://account.brooklinen.com/authentication/oauth/token
 ---

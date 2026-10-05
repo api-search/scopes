@@ -743,6 +743,7 @@ tags:
 - Product
 - Marketplace
 - Fortune 500
+token_bound: false
 token_urls:
 - https://api.ebay.com/identity/v1/oauth2/token
 ---

@@ -116,6 +116,7 @@ tags:
 - Contact Management
 - Workflow Automation
 - Software-as-a-Service
+token_bound: false
 token_urls:
 - https://app.crmworkspace.com/oauth/token
 ---

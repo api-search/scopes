@@ -133,6 +133,7 @@ tags:
 - ACORD
 - Partner Gated
 - New Zealand
+token_bound: false
 token_urls:
 - https://idp.steadfast.com.au/oauth2/v1/token
 ---

@@ -127,6 +127,7 @@ tags:
 - Recruiting
 - Software-as-a-Service
 - Talent Acquisition
+token_bound: false
 token_urls:
 - https://{tenant}.workday.com/ccx/oauth2/token
 ---

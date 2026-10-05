@@ -252,26 +252,96 @@ api_specs:
   slug: ok-capsule-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/openapi/ok-capsule-users-api-openapi.yml
-authorization_urls: []
+authorization_urls:
+- https://storefront.okcapsule.app/oauth/authorize
 description: ''
 docs: https://okcapsule.com/mcp/developers
-flows: []
+flows:
+- authorization_code
+- refresh_token
 kind: oauth-scopes
 layout: scope
 method: probed
 name: Ok Capsule Scopes
 name_suffix: OAuth Scopes
 note: These scopes govern the MCP server (https://storefront.okcapsule.app/mcp), not the REST Core API V2. The REST API declares a single bearerAuth (http/JWT) securityScheme with no oauth2 flows and therefore has no scope surface; its permissions are role-based and managed in the client portal. The scope list here is read verbatim from the RFC 8414 discovery document (scopes_supported) and cross-checked against the provider's own scope table at https://okcapsule.com/mcp/developers. The provider states the discovery document is authoritative and that "scopes may be added or split", so clients should read it at runtime.
-overview: 'OK Capsule uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'OK Capsule publishes 16 OAuth 2.0 scopes via the authorization_code and refresh_token flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the OK Capsule API on a user''s behalf.
+
+
+  Tokens are issued from https://storefront.okcapsule.app/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: OK Capsule
 provider_slug: ok-capsule
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 16
+scope_names:
+- catalog:read
+- recommendations:read
+- orders:read
+- orders:write
+- orders:cancel
+- consumers:read
+- consumers:write
+- consumers:delete
+- fulfillments:read
+- meta:read
+- documents:write
+- orders:read:own
+- orders:write:own
+- orders:cancel:own
+- profile:read:own
+- profile:write:own
+scopes:
+- description: Brands, products, catalog, product intelligence, pack builder
+  flows: []
+  scope: catalog:read
+- description: Recommendation validation
+  flows: []
+  scope: recommendations:read
+- description: List/get orders, transaction logs, order status
+  flows: []
+  scope: orders:read
+- description: Create/update orders
+  flows: []
+  scope: orders:write
+- description: Cancel orders
+  flows: []
+  scope: orders:cancel
+- description: Get/list consumers
+  flows: []
+  scope: consumers:read
+- description: Create/update consumers
+  flows: []
+  scope: consumers:write
+- description: Delete consumers
+  flows: []
+  scope: consumers:delete
+- description: Fulfillments, shipping labels
+  flows: []
+  scope: fulfillments:read
+- description: Status lists
+  flows: []
+  scope: meta:read
+- description: Supplement-facts PDF generation
+  flows: []
+  scope: documents:write
+- description: Present in scopes_supported in the discovery document. The ":own" family is not documented in the provider's published scope table; the developer page states there is no consumer-facing sign-in yet, so these read as reserved for a future consumer persona.
+  flows: []
+  scope: orders:read:own
+- description: Reserved consumer-persona scope present in scopes_supported but not in the published scope table.
+  flows: []
+  scope: orders:write:own
+- description: Reserved consumer-persona scope present in scopes_supported but not in the published scope table.
+  flows: []
+  scope: orders:cancel:own
+- description: Reserved consumer-persona scope present in scopes_supported but not in the published scope table.
+  flows: []
+  scope: profile:read:own
+- description: Reserved consumer-persona scope present in scopes_supported but not in the published scope table.
+  flows: []
+  scope: profile:write:own
 slug: ok-capsule-scopes
 source_filename: ok-capsule-scopes.yml
 source_heading: OAuth Scopes
@@ -281,7 +351,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://storefron
   \ consumers\n  default_grant: true\n- name: consumers:delete\n  description: Delete consumers\n  default_grant: false\n  consent: opt-in\n  destructive: true\n- name: fulfillments:read\n  description: Fulfillments, shipping labels\n  default_grant: true\n- name: meta:read\n  description: Status lists\n  default_grant: true\n- name: documents:write\n  description: Supplement-facts PDF generation\n  default_grant: true\n- name: orders:read:own\n  description: >-\n    Present in scopes_supported in the discovery document. The \":own\" family is not documented in the\n    provider's published scope table; the developer page states there is no consumer-facing sign-in\n    yet, so these read as reserved for a future consumer persona.\n  default_grant: unknown\n- name: orders:write:own\n  description: Reserved consumer-persona scope present in scopes_supported but not in the published scope table.\n  default_grant: unknown\n- name: orders:cancel:own\n  description: Reserved consumer-persona scope\
   \ present in scopes_supported but not in the published scope table.\n  default_grant: unknown\n- name: profile:read:own\n  description: Reserved consumer-persona scope present in scopes_supported but not in the published scope table.\n  default_grant: unknown\n- name: profile:write:own\n  description: Reserved consumer-persona scope present in scopes_supported but not in the published scope table.\n  default_grant: unknown\nconsent_model: >-\n  Read access is the default grant; anything destructive is opt-in at the consent screen. The user\n  approves exactly what the client asked for, and one token is bound to exactly one workspace.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/scopes/ok-capsule-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 16 scopes · authorization_code/refresh_token
 tags:
 - Supplements
 - Nutrition
@@ -295,5 +365,7 @@ tags:
 - Agents
 - MCP
 - Telehealth
-token_urls: []
+token_bound: false
+token_urls:
+- https://storefront.okcapsule.app/oauth/token
 ---

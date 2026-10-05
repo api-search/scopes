@@ -218,6 +218,7 @@ tags:
 - Knowledge Management
 - Data Export
 - Canada
+token_bound: false
 token_urls:
 - https://{bot-handle}.ada.support/api/platform_integrations/oauth/token
 ---

@@ -68,6 +68,7 @@ tags:
 - Fashion
 - Shopify
 - MCP
+token_bound: false
 token_urls:
 - https://shopify.com/authentication/26757464148/oauth/token
 ---

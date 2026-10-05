@@ -93,6 +93,7 @@ tags:
 - Customs
 - Cargo
 - Shipping
+token_bound: false
 token_urls:
 - https://auth.portbase.com/oauth2/token
 ---

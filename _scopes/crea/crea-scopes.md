@@ -117,6 +117,7 @@ tags:
 - Industry Body
 - PropTech
 - Data Syndication
+token_bound: false
 token_urls:
 - https://identity.crea.ca/connect/token
 ---

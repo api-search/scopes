@@ -141,6 +141,7 @@ tags:
 - Monitoring
 - Developer Tools
 - Analytics
+token_bound: false
 token_urls:
 - https://mcp.agnost.ai/token
 ---

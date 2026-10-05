@@ -52,16 +52,20 @@ method: probed
 name: Developerhub Scopes
 name_suffix: OAuth Scopes
 note: 'The REST API declares no OAuth flows — it is X-Api-Key only. OAuth exists on exactly one surface: the hosted Editor MCP server at https://ai.developerhub.io/mcp, whose RFC 8414 / RFC 9728 discovery documents are served anonymously and declare a single scope. Alongside that, API keys carry a separate, finer-grained permission vocabulary that the OpenAPI names per operation; those are recorded here as api_key_permissions because they are not OAuth scopes.'
-overview: 'DeveloperHub uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'DeveloperHub publishes 1 OAuth 2.0 scope. Scopes are the fine-grained permissions an application requests at authorization time to act against the DeveloperHub API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: DeveloperHub
 provider_slug: developerhub
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 1
+scope_names:
+- editor
+scopes:
+- description: Act as the signed-in DeveloperHub editor on the Editor MCP server. The agent reaches only the projects that person can already edit, and only those with the Editor MCP server turned on.
+  flows: []
+  scope: editor
 slug: developerhub-scopes
 source_filename: developerhub-scopes.yml
 source_heading: OAuth Scopes
@@ -70,7 +74,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: >-\n  https://ai.
   \  registration_endpoint: https://ai.developerhub.io/register\n  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  response_types_supported:\n  - code\n  code_challenge_methods_supported:\n  - S256\n  token_endpoint_auth_methods_supported:\n  - client_secret_post\n  - none\n  dynamic_client_registration: true\n  document: well-known/developerhub-oauth-authorization-server.json\nprotected_resource:\n  resource: https://ai.developerhub.io/\n  resource_name: DeveloperHub\n  authorization_servers:\n  - https://ai.developerhub.io/\n  document: well-known/developerhub-oauth-protected-resource.json\nscope_count: 1\nscopes:\n- name: editor\n  description: >-\n    Act as the signed-in DeveloperHub editor on the Editor MCP server. The agent reaches only the\n    projects that person can already edit, and only those with the Editor MCP server turned on.\n  surface: https://ai.developerhub.io/mcp\n  source: oauth-authorization-server + oauth-protected-resource metadata\napi_key_permissions:\n\
   \  note: >-\n    Separate from OAuth. The OpenAPI names a permission on individual operations; only the changelog\n    operations state one explicitly, and no published permissions reference page enumerates the rest.\n  documented:\n  - name: changelog.edit\n    operations:\n    - create_changelog_post\n  - name: changelog.read\n    operations:\n    - list_changelog_posts\n  undocumented_note: >-\n    https://docs.developerhub.io/support-center/api-key says \"Each API Key can have different\n    permissions. Consult the API to know which permissions you need\", so the full permission\n    vocabulary is only visible in the key-creation UI.\n  docs: https://docs.developerhub.io/support-center/api-key\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/scopes/developerhub-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 1 scope
 tags:
 - API Reference
 - Developer Portal
@@ -80,5 +84,6 @@ tags:
 - Docs as Code
 - MCP
 - Agent Skills
+token_bound: false
 token_urls: []
 ---

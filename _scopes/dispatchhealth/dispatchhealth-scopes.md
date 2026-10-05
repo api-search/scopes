@@ -53,6 +53,7 @@ tags:
 - Medical Services
 - Telehealth
 - Digital Health
+token_bound: false
 token_urls:
 - https://www.dispatchhealth.com/oauth/token
 ---

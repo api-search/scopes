@@ -129,6 +129,7 @@ tags:
 - Fitness Tracking
 - Running
 - Sports
+token_bound: false
 token_urls:
 - https://www.strava.com/oauth/token
 ---

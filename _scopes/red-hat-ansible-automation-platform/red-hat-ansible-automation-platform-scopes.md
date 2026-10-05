@@ -2069,6 +2069,7 @@ tags:
 - Event-Driven Architecture
 - Infrastructure as Code
 - MCP
+token_bound: false
 token_urls:
 - /o/token/
 ---

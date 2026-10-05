@@ -122,5 +122,6 @@ tags:
 - Appliances
 - Consumer Finance
 - Fortune 1000
+token_bound: false
 token_urls: []
 ---

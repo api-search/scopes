@@ -290,6 +290,7 @@ tags:
 - Revenue Cycle Management
 - Patient Intake
 - Healthcare Compliance
+token_bound: false
 token_urls:
 - https://helloalleva.com/oauth/token
 ---
