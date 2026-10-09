@@ -44,15 +44,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-trust-score-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://developer.prove.com/tutorial/access-api-keys
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Prove Scopes
 name_suffix: OAuth Scopes
-note: Prove's API uses an OAuth 2.0 client_credentials flow with no published scopes - access is governed by the client_id/client_secret credentials themselves, and Prove's official server SDKs request tokens with an empty scope list (see https://developer.prove.com/tutorial/access-api-keys and https://github.com/prove-identity/prove-sdk-server-go).
+note: The contract declares an oauth2 clientCredentials flow with an empty scopes map and a bearerAuth scheme; no scopes or permissions reference is readable (developer.prove.com/tutorial/access-api-keys redirects to /login). Access is scoped per Portal project credential, not per OAuth scope.
 overview: 'Prove uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -67,7 +67,37 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.prove.com/v3/token
   name: oauth2
-  source: openapi/prove-openapi.yml
+  source: openapi/prove-auth-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.prove.com/v3/token
+  name: oauth2
+  source: openapi/prove-authentication-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.prove.com/v3/token
+  name: oauth2
+  source: openapi/prove-domain-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.prove.com/v3/token
+  name: oauth2
+  source: openapi/prove-identity-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.prove.com/v3/token
+  name: oauth2
+  source: openapi/prove-identity-verification-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.prove.com/v3/token
+  name: oauth2
+  source: openapi/prove-pre-fill-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.prove.com/v3/token
+  name: oauth2
+  source: openapi/prove-trust-score-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -75,7 +105,8 @@ slug: prove-scopes
 source_filename: prove-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/prove-openapi.yml\ndocs: https://developer.prove.com/tutorial/access-api-keys\nnote: Prove's API uses an OAuth 2.0 client_credentials flow with no published scopes\n  - access is governed by the client_id/client_secret credentials themselves, and\n  Prove's official server SDKs request tokens with an empty scope list (see\n  https://developer.prove.com/tutorial/access-api-keys and\n  https://github.com/prove-identity/prove-sdk-server-go).\nschemes:\n- name: oauth2\n  source: openapi/prove-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-08'\nmethod: none\nsource: openapi/prove-auth-api-openapi.yml, openapi/prove-authentication-api-openapi.yml, openapi/prove-domain-api-openapi.yml,\n  openapi/prove-identity-api-openapi.yml, openapi/prove-identity-verification-api-openapi.yml, openapi/prove-pre-fill-api-openapi.yml,\n  openapi/prove-trust-score-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/prove-auth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source: openapi/prove-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source: openapi/prove-domain-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source: openapi/prove-identity-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source:\
+  \ openapi/prove-identity-verification-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source: openapi/prove-pre-fill-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source: openapi/prove-trust-score-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\nscopes: []\nnote: The contract declares an oauth2 clientCredentials flow with an empty scopes map and a bearerAuth scheme; no\n  scopes or permissions reference is readable (developer.prove.com/tutorial/access-api-keys redirects to /login).\n  Access is scoped per Portal project credential, not per OAuth scope.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/scopes/prove-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

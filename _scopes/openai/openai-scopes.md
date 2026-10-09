@@ -412,7 +412,7 @@ tags:
 - OpenAI
 - Artificial Intelligence
 - Generative AI
-- Chatbots
+- Chatbot
 - Foundation Models
 - T1
 token_bound: false

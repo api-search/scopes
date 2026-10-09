@@ -1014,344 +1014,20 @@ api_specs:
   slug: telnyx-ips-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-ips-api-openapi.yml
-- filename: telnyx-ai-collections-api-openapi.yml
-  format: yaml
-  label: Telnyx AI Collections API
-  slug: telnyx-ai-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-ai-collections-api-openapi.yml
-- filename: telnyx-anthropic-messages-api-openapi.yml
-  format: yaml
-  label: Telnyx Anthropic Messages API
-  slug: telnyx-anthropic-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-anthropic-messages-api-openapi.yml
-- filename: telnyx-bot-signup-api-openapi.yml
-  format: yaml
-  label: Telnyx Bot Signup API
-  slug: telnyx-bot-signup-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-bot-signup-api-openapi.yml
-- filename: telnyx-cloudfs-filesystems-api-openapi.yml
-  format: yaml
-  label: Telnyx cloudfs filesystems API
-  slug: telnyx-cloudfs-filesystems-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-cloudfs-filesystems-api-openapi.yml
-- filename: telnyx-comments-api-openapi.yml
-  format: yaml
-  label: Telnyx Comments API
-  slug: telnyx-comments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-comments-api-openapi.yml
-- filename: telnyx-contents-api-openapi.yml
-  format: yaml
-  label: Telnyx Contents API
-  slug: telnyx-contents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-contents-api-openapi.yml
-- filename: telnyx-conversation-histories-api-openapi.yml
-  format: yaml
-  label: Telnyx Conversation Histories API
-  slug: telnyx-conversation-histories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-conversation-histories-api-openapi.yml
-- filename: telnyx-decision-models-api-openapi.yml
-  format: yaml
-  label: Telnyx Decision Models API
-  slug: telnyx-decision-models-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-decision-models-api-openapi.yml
-- filename: telnyx-dir-references-api-openapi.yml
-  format: yaml
-  label: Telnyx DIR References API
-  slug: telnyx-dir-references-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-dir-references-api-openapi.yml
-- filename: telnyx-display-identity-records-api-openapi.yml
-  format: yaml
-  label: Telnyx Display Identity Records API
-  slug: telnyx-display-identity-records-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-display-identity-records-api-openapi.yml
-- filename: telnyx-email-domain-dns-records-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Domain DNS Records API
-  slug: telnyx-email-domain-dns-records-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-domain-dns-records-api-openapi.yml
-- filename: telnyx-email-domains-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Domains API
-  slug: telnyx-email-domains-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-domains-api-openapi.yml
-- filename: telnyx-email-drafts-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Drafts API
-  slug: telnyx-email-drafts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-drafts-api-openapi.yml
-- filename: telnyx-email-events-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Events API
-  slug: telnyx-email-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-events-api-openapi.yml
-- filename: telnyx-email-inboxes-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Inboxes API
-  slug: telnyx-email-inboxes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-inboxes-api-openapi.yml
-- filename: telnyx-email-messages-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Messages API
-  slug: telnyx-email-messages-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-messages-api-openapi.yml
-- filename: telnyx-email-suppression-imports-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Suppression Imports API
-  slug: telnyx-email-suppression-imports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-suppression-imports-api-openapi.yml
-- filename: telnyx-email-suppressions-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Suppressions API
-  slug: telnyx-email-suppressions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-suppressions-api-openapi.yml
-- filename: telnyx-email-templates-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Templates API
-  slug: telnyx-email-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-templates-api-openapi.yml
-- filename: telnyx-email-threads-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Threads API
-  slug: telnyx-email-threads-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-threads-api-openapi.yml
-- filename: telnyx-email-unsubscribe-groups-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Unsubscribe Groups API
-  slug: telnyx-email-unsubscribe-groups-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-unsubscribe-groups-api-openapi.yml
-- filename: telnyx-email-validations-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Validations API
-  slug: telnyx-email-validations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-validations-api-openapi.yml
-- filename: telnyx-email-verification-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Verification API
-  slug: telnyx-email-verification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-verification-api-openapi.yml
-- filename: telnyx-email-webhooks-api-openapi.yml
-  format: yaml
-  label: Telnyx Email Webhooks API
-  slug: telnyx-email-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-email-webhooks-api-openapi.yml
-- filename: telnyx-functions-api-openapi.yml
-  format: yaml
-  label: Telnyx Functions API
-  slug: telnyx-functions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-functions-api-openapi.yml
-- filename: telnyx-infringement-claims-api-openapi.yml
-  format: yaml
-  label: Telnyx Infringement Claims API
-  slug: telnyx-infringement-claims-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-infringement-claims-api-openapi.yml
-- filename: telnyx-kv-keys-api-openapi.yml
-  format: yaml
-  label: Telnyx kv keys API
-  slug: telnyx-kv-keys-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-kv-keys-api-openapi.yml
-- filename: telnyx-kv-namespaces-api-openapi.yml
-  format: yaml
-  label: Telnyx kv namespaces API
-  slug: telnyx-kv-namespaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-kv-namespaces-api-openapi.yml
-- filename: telnyx-machine-payments-api-openapi.yml
-  format: yaml
-  label: Telnyx Machine Payments API
-  slug: telnyx-machine-payments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-machine-payments-api-openapi.yml
-- filename: telnyx-meeting-session-actions-api-openapi.yml
-  format: yaml
-  label: Telnyx Meeting Session Actions API
-  slug: telnyx-meeting-session-actions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-meeting-session-actions-api-openapi.yml
-- filename: telnyx-meeting-session-artifacts-api-openapi.yml
-  format: yaml
-  label: Telnyx Meeting Session Artifacts API
-  slug: telnyx-meeting-session-artifacts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-meeting-session-artifacts-api-openapi.yml
-- filename: telnyx-meeting-session-data-api-openapi.yml
-  format: yaml
-  label: Telnyx Meeting Session Data API
-  slug: telnyx-meeting-session-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-meeting-session-data-api-openapi.yml
-- filename: telnyx-meeting-session-webhooks-api-openapi.yml
-  format: yaml
-  label: Telnyx Meeting Session Webhooks API
-  slug: telnyx-meeting-session-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-meeting-session-webhooks-api-openapi.yml
-- filename: telnyx-meeting-sessions-api-openapi.yml
-  format: yaml
-  label: Telnyx Meeting Sessions API
-  slug: telnyx-meeting-sessions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-meeting-sessions-api-openapi.yml
-- filename: telnyx-memory-api-openapi.yml
-  format: yaml
-  label: Telnyx Memory API
-  slug: telnyx-memory-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-memory-api-openapi.yml
-- filename: telnyx-namespaces-api-openapi.yml
-  format: yaml
-  label: Telnyx Namespaces API
-  slug: telnyx-namespaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-namespaces-api-openapi.yml
-- filename: telnyx-noise-suppression-engines-api-openapi.yml
-  format: yaml
-  label: Telnyx Noise Suppression Engines API
-  slug: telnyx-noise-suppression-engines-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-noise-suppression-engines-api-openapi.yml
-- filename: telnyx-operations-api-openapi.yml
-  format: yaml
-  label: Telnyx Operations API
-  slug: telnyx-operations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-operations-api-openapi.yml
-- filename: telnyx-phone-number-batches-api-openapi.yml
-  format: yaml
-  label: Telnyx Phone Number Batches API
-  slug: telnyx-phone-number-batches-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-phone-number-batches-api-openapi.yml
-- filename: telnyx-phone-numbers-api-openapi.yml
-  format: yaml
-  label: Telnyx Phone Numbers API
-  slug: telnyx-phone-numbers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-phone-numbers-api-openapi.yml
-- filename: telnyx-pricing-api-openapi.yml
-  format: yaml
-  label: Telnyx Pricing API
-  slug: telnyx-pricing-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-pricing-api-openapi.yml
-- filename: telnyx-rcs-agents-api-openapi.yml
-  format: yaml
-  label: Telnyx RCS Agents API
-  slug: telnyx-rcs-agents-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-rcs-agents-api-openapi.yml
-- filename: telnyx-rcs-brands-api-openapi.yml
-  format: yaml
-  label: Telnyx RCS Brands API
-  slug: telnyx-rcs-brands-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-rcs-brands-api-openapi.yml
-- filename: telnyx-reference-data-api-openapi.yml
-  format: yaml
-  label: Telnyx Reference Data API
-  slug: telnyx-reference-data-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-reference-data-api-openapi.yml
-- filename: telnyx-reputation-api-openapi.yml
-  format: yaml
-  label: Telnyx Reputation API
-  slug: telnyx-reputation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-reputation-api-openapi.yml
-- filename: telnyx-research-api-openapi.yml
-  format: yaml
-  label: Telnyx Research API
-  slug: telnyx-research-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-research-api-openapi.yml
-- filename: telnyx-settings-api-openapi.yml
-  format: yaml
-  label: Telnyx Settings API
-  slug: telnyx-settings-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-settings-api-openapi.yml
-- filename: telnyx-sources-api-openapi.yml
-  format: yaml
-  label: Telnyx Sources API
-  slug: telnyx-sources-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-sources-api-openapi.yml
-- filename: telnyx-speech-to-text-capabilities-api-openapi.yml
-  format: yaml
-  label: Telnyx Speech To Text Capabilities API
-  slug: telnyx-speech-to-text-capabilities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-speech-to-text-capabilities-api-openapi.yml
-- filename: telnyx-spend-limits-api-openapi.yml
-  format: yaml
-  label: Telnyx Spend Limits API
-  slug: telnyx-spend-limits-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-spend-limits-api-openapi.yml
-- filename: telnyx-sql-databases-api-openapi.yml
-  format: yaml
-  label: Telnyx sql databases API
-  slug: telnyx-sql-databases-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-sql-databases-api-openapi.yml
-- filename: telnyx-voice-sdk-stats-api-openapi.yml
-  format: yaml
-  label: Telnyx Voice SDK Stats API
-  slug: telnyx-voice-sdk-stats-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-voice-sdk-stats-api-openapi.yml
-- filename: telnyx-web-search-api-openapi.yml
-  format: yaml
-  label: Telnyx Web Search API
-  slug: telnyx-web-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-web-search-api-openapi.yml
-- filename: telnyx-x402-api-openapi.yml
-  format: yaml
-  label: Telnyx X402 API
-  slug: telnyx-x402-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/openapi/telnyx-x402-api-openapi.yml
 authorization_urls:
 - https://api.telnyx.com/v2/oauth/authorize
 description: ''
-docs: ''
+docs: https://api.telnyx.com/.well-known/oauth-protected-resource
 flows:
 - authorizationCode
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Telnyx Scopes
 name_suffix: OAuth Scopes
-note: ''
-overview: 'Telnyx publishes 1 OAuth 2.0 scope via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Telnyx API on a user''s behalf.
+note: The contract declares a single `admin` scope; the served RFC 9728 protected-resource document lists 24 product-level read/write scopes (account_management, ai, authentication_and_access, billing, edge_compute, enterprise_integrations, fax, messaging, networking, ...). Descriptions are not published alongside the scope names.
+overview: 'Telnyx publishes 33 OAuth 2.0 scopes via the authorizationCode and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Telnyx API on a user''s behalf.
 
 
   Tokens are issued from https://api.telnyx.com/v2/oauth/token.
@@ -1369,23 +1045,1696 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.telnyx.com/v2/oauth/token
   name: oauthClientAuth
-  source: openapi/telnyx-openapi.yml
-scope_count: 1
+  source: openapi/telnyx-access-tokens-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-addresses-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-advanced-number-orders-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-assistants-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-audio-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-audit-logs-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-authentication-providers-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-autorechargepreferences-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-billing-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-billing-groups-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-brands-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-bucket-ssl-certificate-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-bucket-usage-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-bulk-phone-number-campaigns-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-bulk-phone-number-operations-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-bundles-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-call-commands-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-call-control-applications-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-call-information-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-call-recordings-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-callbacks-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-campaign-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-cdr-reports-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-cdr-usage-reports-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-charges-breakdown-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-charges-summary-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-chat-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-clusters-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-conference-commands-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-connections-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-conversations-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-country-coverage-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-coverage-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-credential-connections-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-credentials-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-csv-downloads-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-customer-service-record-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-data-migration-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-debugging-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-detail-records-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-dialogflow-integration-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-documents-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-dynamic-emergency-addresses-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-dynamic-emergency-endpoints-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-embeddings-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-enterprises-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-enum-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-external-connections-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-fine-tuning-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-fqdn-connections-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-fqdns-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-global-ips-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-hosted-numbers-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-inexplicit-number-orders-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-integration-secrets-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-integrations-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-inventory-level-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-invoices-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-ip-addresses-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-ip-connections-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-ip-ranges-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-ips-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-managed-accounts-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-mcp-servers-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-mdr-detail-reports-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-mdr-detailed-reports-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-mdr-usage-reports-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-media-storage-api-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-messages-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-messaging-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-messaging-url-domains-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-missions-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-mobile-network-operators-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-mobile-number-settings-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-mobile-phone-numbers-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-mobile-voice-connections-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-networks-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-notifications-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-number-lookup-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-number-portout-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-number-reputation-settings-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-number-settings-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-numbers-features-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-oauth-clients-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-oauth-discovery-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-oauth-grants-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-oauth-protocol-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-openai-chat-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-openai-embeddings-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-opt-out-management-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-organization-users-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-ota-updates-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-outbound-voice-profiles-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-phone-number-block-orders-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-phone-number-blocks-background-jobs-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-phone-number-campaigns-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-phone-number-configurations-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-phone-number-orders-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-phone-number-porting-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-phone-number-reservations-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-phone-number-search-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-porting-orders-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-presigned-object-urls-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-private-wireless-gateways-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-profiles-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-programmable-fax-applications-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-programmable-fax-commands-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-pronunciation-dictionaries-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-public-internet-gateways-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-push-credentials-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-queue-commands-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-rcs-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-regions-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-regulatory-requirements-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-reporting-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-reports-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-reputation-phone-numbers-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-requirement-groups-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-requirement-types-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-requirements-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-room-compositions-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-room-participants-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-room-recordings-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-room-sessions-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-rooms-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-rooms-client-tokens-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-session-analysis-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-seti-observability-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-shared-campaigns-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-short-codes-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-sim-card-actions-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-sim-card-group-actions-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-sim-card-groups-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-sim-card-orders-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-sim-cards-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-siprec-connectors-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-speech-to-text-batch-reports-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-speech-to-text-over-websockets-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-speech-to-text-usage-reports-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-stored-payment-transactions-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-telco-data-usage-reports-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-terms-of-service-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-texml-applications-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-texml-rest-commands-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-text-to-speech-commands-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-traffic-policy-profiles-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-uac-connections-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-usage-reports-beta-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-user-bundles-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-user-tags-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-useraddresses-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-verification-requests-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-verified-numbers-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-verify-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-virtual-cross-connects-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-voice-channels-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-voice-clones-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-voice-designs-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-voicemail-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-wdr-detail-reports-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-webhooks-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-whatsapp-business-accounts-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-whatsapp-message-templates-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-whatsapp-messaging-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-whatsapp-phone-numbers-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-wireguard-interfaces-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-wireless-blocklists-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-wireless-regions-api-openapi.yml
+- description: OAuth 2.0 authentication for Telnyx API and MCP integrations
+  flows:
+  - authorizationUrl: https://api.telnyx.com/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://api.telnyx.com/v2/oauth/token
+  name: oauthClientAuth
+  source: openapi/telnyx-x402-payment-transactions-api-openapi.yml
+scope_count: 33
 scope_names:
 - admin
+- account_management.read
+- account_management.write
+- ai.read
+- ai.write
+- authentication_and_access.read
+- billing.read
+- edge_compute.read
+- edge_compute.write
+- enterprise_integrations.read
+- enterprise_integrations.write
+- fax.read
+- fax.write
+- messaging.read
+- messaging.write
+- networking.read
+- networking.write
+- numbers.read
+- numbers.write
+- reporting.read
+- reporting.write
+- speech.read
+- speech.write
+- storage.read
+- storage.write
+- verify.read
+- verify.write
+- video.read
+- video.write
+- voice.read
+- voice.write
+- wireless.read
+- wireless.write
 scopes:
 - description: Administrative access to Telnyx resources
   flows:
   - authorizationCode
   - clientCredentials
   scope: admin
+- description: ''
+  flows: []
+  scope: account_management.read
+- description: ''
+  flows: []
+  scope: account_management.write
+- description: ''
+  flows: []
+  scope: ai.read
+- description: ''
+  flows: []
+  scope: ai.write
+- description: ''
+  flows: []
+  scope: authentication_and_access.read
+- description: ''
+  flows: []
+  scope: billing.read
+- description: ''
+  flows: []
+  scope: edge_compute.read
+- description: ''
+  flows: []
+  scope: edge_compute.write
+- description: ''
+  flows: []
+  scope: enterprise_integrations.read
+- description: ''
+  flows: []
+  scope: enterprise_integrations.write
+- description: ''
+  flows: []
+  scope: fax.read
+- description: ''
+  flows: []
+  scope: fax.write
+- description: ''
+  flows: []
+  scope: messaging.read
+- description: ''
+  flows: []
+  scope: messaging.write
+- description: ''
+  flows: []
+  scope: networking.read
+- description: ''
+  flows: []
+  scope: networking.write
+- description: ''
+  flows: []
+  scope: numbers.read
+- description: ''
+  flows: []
+  scope: numbers.write
+- description: ''
+  flows: []
+  scope: reporting.read
+- description: ''
+  flows: []
+  scope: reporting.write
+- description: ''
+  flows: []
+  scope: speech.read
+- description: ''
+  flows: []
+  scope: speech.write
+- description: ''
+  flows: []
+  scope: storage.read
+- description: ''
+  flows: []
+  scope: storage.write
+- description: ''
+  flows: []
+  scope: verify.read
+- description: ''
+  flows: []
+  scope: verify.write
+- description: ''
+  flows: []
+  scope: video.read
+- description: ''
+  flows: []
+  scope: video.write
+- description: ''
+  flows: []
+  scope: voice.read
+- description: ''
+  flows: []
+  scope: voice.write
+- description: ''
+  flows: []
+  scope: wireless.read
+- description: ''
+  flows: []
+  scope: wireless.write
 slug: telnyx-scopes
 source_filename: telnyx-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/telnyx-openapi.yml\nschemes:\n- name: oauthClientAuth\n  source: openapi/telnyx-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\nscopes:\n- scope: admin\n  description: Administrative access to Telnyx resources\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/telnyx-openapi.yml\n"
+source_yaml: "generated: '2026-10-08'\nmethod: searched\nsource: 'openapi/ (oauthClientAuth: admin) + https://api.telnyx.com/.well-known/oauth-protected-resource scopes_supported\n  (24 scopes, 200, 2026-10-08)'\nschemes:\n- name: oauthClientAuth\n  source: openapi/telnyx-access-tokens-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-addresses-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n\
+  - name: oauthClientAuth\n  source: openapi/telnyx-advanced-number-orders-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-assistants-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-audio-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n\
+  \  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-audit-logs-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-authentication-providers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-autorechargepreferences-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-billing-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-billing-groups-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n\
+  \  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-brands-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-bucket-ssl-certificate-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-bucket-usage-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-bulk-phone-number-campaigns-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-bulk-phone-number-operations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n\
+  \  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-bundles-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-call-commands-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-call-control-applications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n \
+  \   authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-call-information-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-call-recordings-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n\
+  \  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-callbacks-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-campaign-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-cdr-reports-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-cdr-usage-reports-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-charges-breakdown-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth\
+  \ 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-charges-summary-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-chat-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-clusters-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n\
+  \    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-conference-commands-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-connections-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n\
+  - name: oauthClientAuth\n  source: openapi/telnyx-conversations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-country-coverage-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-coverage-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n\
+  \  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-credential-connections-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-credentials-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-csv-downloads-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-customer-service-record-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-data-migration-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl:\
+  \ https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-debugging-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-detail-records-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-dialogflow-integration-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-documents-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-dynamic-emergency-addresses-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl:\
+  \ https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-dynamic-emergency-endpoints-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-embeddings-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-enterprises-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-enum-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-external-connections-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n\
+  \  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-fine-tuning-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-fqdn-connections-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-fqdns-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-global-ips-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-hosted-numbers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication\
+  \ for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-inexplicit-number-orders-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-integration-secrets-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-integrations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n\
+  \    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-inventory-level-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-invoices-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n\
+  - name: oauthClientAuth\n  source: openapi/telnyx-ip-addresses-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-ip-connections-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-ip-ranges-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n\
+  \  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-ips-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-managed-accounts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-mcp-servers-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-mdr-detail-reports-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-mdr-detailed-reports-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl:\
+  \ https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-mdr-usage-reports-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-media-storage-api-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-messages-api-openapi.yml\n  flows:\n\
+  \  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-messaging-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-messaging-url-domains-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n\
+  \  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-missions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-mobile-network-operators-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-mobile-number-settings-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n\
+  \    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-mobile-phone-numbers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-mobile-voice-connections-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n\
+  \  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-networks-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-notifications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-number-lookup-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-number-portout-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-number-reputation-settings-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description:\
+  \ OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-number-settings-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-numbers-features-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.telnyx.com/v2/oauth/authorize\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.telnyx.com/v2/oauth/token\n  description: OAuth 2.0 authentication for Telnyx API and MCP integrations\n- name: oauthClientAuth\n  source: openapi/telnyx-oauth-clients-api-openapi.yml\n  flows:\n\n\n# --- truncated at 32 KB (77 KB total) ---\n\
+  # Full source: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/scopes/telnyx-scopes.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/scopes/telnyx-scopes.yml
-summary_line: 1 scope · authorizationCode/clientCredentials
+summary_line: 33 scopes · authorizationCode/clientCredentials
 tags:
 - Communications
 - CPaaS
@@ -1393,6 +2742,12 @@ tags:
 - SMS
 - IoT
 - Telecommunications
+- Messaging
+- AI
+- MCP
+- Voice AI
+- Phone Numbers
+- Inference
 token_bound: false
 token_urls:
 - https://api.telnyx.com/v2/oauth/token

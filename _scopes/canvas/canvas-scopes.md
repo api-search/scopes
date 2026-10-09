@@ -858,6 +858,12 @@ api_specs:
   slug: canvas-jwts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/openapi/canvas-jwts-api-openapi.yml
+- filename: canvas-live-events-asyncapi.yml
+  format: yaml
+  label: Canvas Live Events
+  slug: canvas-live-events
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canvas/refs/heads/main/asyncapi/canvas-live-events-asyncapi.yml
 authorization_urls:
 - https://canvas.instructure.com/login/oauth2/auth
 description: ''
@@ -5406,6 +5412,10 @@ tags:
 - LTI
 - Open Source
 - REST
+- Learning Management
+- Higher Education
+- K-12
+- AGPL
 token_bound: false
 token_urls:
 - https://canvas.instructure.com/login/oauth2/token

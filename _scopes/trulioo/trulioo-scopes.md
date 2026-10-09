@@ -125,7 +125,7 @@ method: searched
 name: Trulioo Scopes
 name_suffix: OAuth Scopes
 note: Trulioo uses the OAuth2 client_credentials flow with service- and region-scoped values (for example docv.api.us for DocV in the US region); only the scopes above are documented publicly, and no full scope catalog is published (https://developer.trulioo.com/reference/authorization-2).
-overview: 'Trulioo publishes 3 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Trulioo API on a user''s behalf.
+overview: 'Trulioo publishes 12 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Trulioo API on a user''s behalf.
 
 
   Tokens are issued from https://auth-api.trulioo.com/connect/token.
@@ -171,11 +171,20 @@ schemes:
     tokenUrl: https://auth-api.trulioo.com/connect/token
   name: OAuth2
   source: openapi/trulioo-verifications-api-openapi.yml
-scope_count: 3
+scope_count: 12
 scope_names:
 - napi.api
 - workflow.studio.api
 - docv.api.us
+- read
+- verify
+- verification:create
+- kyb:submit
+- agent:write
+- domain:write
+- release:publish
+- release:revoke
+- sandbox:write
 scopes:
 - description: Grants access to the Normalized API (NAPI v3 / GlobalGateway KYC verifications). Set as the scope value alongside grant_type=client_credentials when requesting a bearer token from https://auth-api.trulioo.com/connect/token.
   flows: []
@@ -186,15 +195,46 @@ scopes:
 - description: Authorizes Identity Document Verification (DocV) operations in the US region. Trulioo's DocV scope parameter specifies both the region and the service the token may access.
   flows: []
   scope: docv.api.us
+- description: 'MCP: fetch records, statuses and reports (granted by default; request read alone for an analysis-only integration)'
+  flows: []
+  scope: read
+- description: 'MCP: run verifications and issue KYA credentials (granted by default)'
+  flows: []
+  scope: verify
+- description: MCP (protected-resource metadata for /mcp)
+  flows: []
+  scope: verification:create
+- description: MCP (protected-resource metadata for /mcp)
+  flows: []
+  scope: kyb:submit
+- description: 'MCP KYA: register, supersede and retire Digital Agent Profiles'
+  flows: []
+  scope: agent:write
+- description: 'MCP KYA: agent domain challenge and verification'
+  flows: []
+  scope: domain:write
+- description: 'MCP KYA: register and publish Agentic Releases'
+  flows: []
+  scope: release:publish
+- description: 'MCP KYA: permanently revoke an Agentic Release'
+  flows: []
+  scope: release:revoke
+- description: 'MCP: seed and reset sandbox scenarios'
+  flows: []
+  scope: sandbox:write
 slug: trulioo-scopes
 source_filename: trulioo-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\ndocs: https://developer.trulioo.com/reference/authentication\nsource: openapi/trulioo-business-verification-api-openapi.yml, openapi/trulioo-configuration-api-openapi.yml,\n  openapi/trulioo-connection-api-openapi.yml, openapi/trulioo-document-verification-api-openapi.yml,\n  openapi/trulioo-person-fraud-api-openapi.yml, openapi/trulioo-platform-api-openapi.yml, openapi/trulioo-verifications-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/trulioo-business-verification-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n- name: OAuth2\n  source: openapi/trulioo-configuration-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n- name: OAuth2\n  source: openapi/trulioo-connection-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n- name:\
-  \ OAuth2\n  source: openapi/trulioo-document-verification-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n- name: OAuth2\n  source: openapi/trulioo-person-fraud-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n- name: OAuth2\n  source: openapi/trulioo-platform-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.trulioo.com/customer/v2/auth/customer\n- name: OAuth2\n  source: openapi/trulioo-verifications-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n  description: Two-legged client credentials OAuth2 flow.\nscopes:\n- scope: napi.api\n  description: Grants access to the Normalized API (NAPI v3 / GlobalGateway KYC verifications).\n    Set as the scope value alongside grant_type=client_credentials when requesting\n    a bearer token from https://auth-api.trulioo.com/connect/token.\n\
-  \  sources:\n  - https://developer.trulioo.com/reference/authentication\n  - https://developer.trulioo.com/reference/authentication-recipe\n- scope: workflow.studio.api\n  description: Grants access to the Workflow Studio (Platform) API. Set as the scope\n    value with grant_type=client_credentials in the client-credentials token request.\n  sources:\n  - https://developer.trulioo.com/reference/authentication-recipe\n- scope: docv.api.us\n  description: Authorizes Identity Document Verification (DocV) operations in the\n    US region. Trulioo's DocV scope parameter specifies both the region and the service\n    the token may access.\n  sources:\n  - https://developer.trulioo.com/reference/authorization-2\nnote: Trulioo uses the OAuth2 client_credentials flow with service- and region-scoped\n  values (for example docv.api.us for DocV in the US region); only the scopes above\n  are documented publicly, and no full scope catalog is published (https://developer.trulioo.com/reference/authorization-2).\n"
+source_yaml: "generated: '2026-10-08'\nmethod: searched\ndocs: https://developer.trulioo.com/reference/authentication\nsource:\n- openapi/trulioo-business-verification-api-openapi.yml, openapi/trulioo-configuration-api-openapi.yml, openapi/trulioo-connection-api-openapi.yml,\n  openapi/trulioo-document-verification-api-openapi.yml, openapi/trulioo-person-fraud-api-openapi.yml, openapi/trulioo-platform-api-openapi.yml,\n  openapi/trulioo-verifications-api-openapi.yml\n- https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp\n- https://mcp.trulioo.com/.well-known/oauth-authorization-server\n- https://mcp.trulioo.com/developer/index.md\nschemes:\n- name: OAuth2\n  source: openapi/trulioo-business-verification-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n- name: OAuth2\n  source: openapi/trulioo-configuration-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n\
+  - name: OAuth2\n  source: openapi/trulioo-connection-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n- name: OAuth2\n  source: openapi/trulioo-document-verification-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n- name: OAuth2\n  source: openapi/trulioo-person-fraud-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n- name: OAuth2\n  source: openapi/trulioo-platform-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.trulioo.com/customer/v2/auth/customer\n- name: OAuth2\n  source: openapi/trulioo-verifications-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth-api.trulioo.com/connect/token\n  description: Two-legged client credentials OAuth2 flow.\nscopes:\n- scope: napi.api\n  description: Grants access to the Normalized API (NAPI\
+  \ v3 / GlobalGateway KYC verifications). Set as the scope\n    value alongside grant_type=client_credentials when requesting a bearer token from https://auth-api.trulioo.com/connect/token.\n  sources:\n  - https://developer.trulioo.com/reference/authentication\n  - https://developer.trulioo.com/reference/authentication-recipe\n- scope: workflow.studio.api\n  description: Grants access to the Workflow Studio (Platform) API. Set as the scope value with grant_type=client_credentials\n    in the client-credentials token request.\n  sources:\n  - https://developer.trulioo.com/reference/authentication-recipe\n- scope: docv.api.us\n  description: Authorizes Identity Document Verification (DocV) operations in the US region. Trulioo's DocV scope\n    parameter specifies both the region and the service the token may access.\n  sources:\n  - https://developer.trulioo.com/reference/authorization-2\n- scope: read\n  description: 'MCP: fetch records, statuses and reports (granted by default; request\
+  \ read alone for an analysis-only\n    integration)'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: verify\n  description: 'MCP: run verifications and issue KYA credentials (granted by default)'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: verification:create\n  description: MCP (protected-resource metadata for /mcp)\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: kyb:submit\n  description: MCP (protected-resource metadata for /mcp)\n  surface: https://mcp.trulioo.com/mcp\n\
+  \  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: agent:write\n  description: 'MCP KYA: register, supersede and retire Digital Agent Profiles'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: domain:write\n  description: 'MCP KYA: agent domain challenge and verification'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: release:publish\n  description: 'MCP KYA: register and publish Agentic Releases'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp\
+  \ (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: release:revoke\n  description: 'MCP KYA: permanently revoke an Agentic Release'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: sandbox:write\n  description: 'MCP: seed and reset sandbox scenarios'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\nnote: Trulioo uses the OAuth2 client_credentials flow with service- and region-scoped values (for example docv.api.us\n  for DocV in the US region); only the scopes above are documented publicly, and no full scope catalog is published\n  (https://developer.trulioo.com/reference/authorization-2).\n\
+  mcp_docs: https://mcp.trulioo.com/developer/#auth\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/scopes/trulioo-scopes.yml
-summary_line: 3 scopes · clientCredentials
+summary_line: 12 scopes · clientCredentials
 tags:
 - Identity Verification
 - KYC
