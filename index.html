@@ -3,6 +3,9 @@ layout: default
 meta_title: "OAuth Scopes Index — Browse API Permissions | APIs.io"
 meta_description: "Browse the OAuth 2.0 scopes published by API providers across the APIs.io network — the fine-grained permissions apps request at authorization time. Filter by provider or by scope string; indexed from provider OpenAPI security definitions on every network build."
 ---
+{%- comment -%} 2026-10-15: tombstone redirect stubs (retired or renamed providers) live in the same collection
+  and have no name, so looping over the raw collection printed one EMPTY row per stub and inflated every count. {%- endcomment -%}
+{%- assign live_items = site.scopes | where_exp: "i", "i.layout != 'redirect'" -%}
 
 <style>
   .page-hero { text-align: center; padding: 2rem 0 1.5rem; }
@@ -29,7 +32,7 @@ meta_description: "Browse the OAuth 2.0 scopes published by API providers across
 
 <div class="page-hero">
   <h1>OAuth Scopes</h1>
-  <p>Every OAuth 2.0 scope published by providers on the APIs.io network — the fine-grained permissions an application requests at authorization time. Indexed from provider OpenAPI security definitions (and documented scope references) across <strong>{{ site.scopes | size }}</strong> providers, refreshed on every network build.</p>
+  <p>Every OAuth 2.0 scope published by providers on the APIs.io network — the fine-grained permissions an application requests at authorization time. Indexed from provider OpenAPI security definitions (and documented scope references) across <strong>{{ live_items | size }}</strong> providers, refreshed on every network build.</p>
   <div class="method-tabs">
     <span class="method-tab active" data-method="">All</span>
     <span class="method-tab" data-method="searched">Docs-verified</span>
@@ -42,7 +45,7 @@ meta_description: "Browse the OAuth 2.0 scopes published by API providers across
 </div>
 
 <div class="item-list" id="item-list">
-  {% for s in site.scopes %}
+  {% for s in live_items %}
   <div class="item-row"
        data-name="{{ s.provider_name | downcase }} {{ s.name | downcase }}"
        data-scopes="{{ s.scope_names | join: ' ' | downcase }}"
