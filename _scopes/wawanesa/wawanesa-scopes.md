@@ -74,7 +74,6 @@ tags:
 - Claims
 - Policy Administration
 - CSIO
-- Partner Gated
 token_bound: false
 token_urls:
 - https://login.brokerplatform.wawanesa.com/oauth2/v1/token

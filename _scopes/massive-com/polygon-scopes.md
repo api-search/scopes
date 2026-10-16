@@ -505,6 +505,7 @@ tags:
 - Historical
 - Public APIs
 - Financial Data
+token_bound: false
 token_urls:
 - https://auth.massive.com/oauth2/token
 ---

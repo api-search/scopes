@@ -16,16 +16,52 @@ method: searched
 name: Lastdatabase Scopes
 name_suffix: OAuth Scopes
 note: All nine scopes are listed in scopes_supported of both the authorization-server and protected-resource metadata (HTTP 200). Only credits:read, people:search and email:verify are tied to a documented tool; the other six carry no published description.
-overview: 'LastDatabase uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'LastDatabase publishes 9 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the LastDatabase API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: LastDatabase
 provider_slug: lastdatabase
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 9
+scope_names:
+- profile:read
+- credits:read
+- people:search
+- companies:search
+- email:find
+- email:verify
+- phone:find
+- person:enrich
+- company:enrich
+scopes:
+- description: ''
+  flows: []
+  scope: profile:read
+- description: Read subscription record allowance (get_credits).
+  flows: []
+  scope: credits:read
+- description: Search B2B contacts and unlock an eligible contact (search_people
+  flows: []
+  scope: people:search
+- description: ''
+  flows: []
+  scope: companies:search
+- description: ''
+  flows: []
+  scope: email:find
+- description: Verify a supplied business email address (verify_email).
+  flows: []
+  scope: email:verify
+- description: ''
+  flows: []
+  scope: phone:find
+- description: ''
+  flows: []
+  scope: person:enrich
+- description: ''
+  flows: []
+  scope: company:enrich
 slug: lastdatabase-scopes
 source_filename: lastdatabase-scopes.yml
 source_heading: OAuth Scopes
@@ -64,7 +100,7 @@ source_yaml: 'generated: ''2026-09-23''
 
   '
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lastdatabase/refs/heads/main/scopes/lastdatabase-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 9 scopes
 tags:
 - Contact Data
 - Lead Generation
@@ -73,5 +109,6 @@ tags:
 - Data Enrichment
 - Sales Prospecting
 - MCP
+token_bound: false
 token_urls: []
 ---

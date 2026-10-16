@@ -98,6 +98,7 @@ tags:
 - Digital Asset Management
 - Customer Care
 - Emplifi
+token_bound: false
 token_urls:
 - https://api.emplifi.io/oauth2/0/token
 ---

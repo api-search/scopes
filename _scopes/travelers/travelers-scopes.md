@@ -86,6 +86,19 @@ tags:
 - Claims
 - Fintech
 - Fortune 500
+- Agency Distribution
+- Auto Insurance
+- Bond and Specialty
+- Business Insurance
+- Cyber Insurance
+- Dow Jones Industrial Average
+- Homeowners
+- Personal Insurance
+- Property and Casualty
+- Risk Management
+- Surety Bonds
+- Telematics
+- Workers Compensation
 token_bound: false
 token_urls:
 - https://api.travelers.com/oauth/token

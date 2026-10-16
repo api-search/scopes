@@ -66,8 +66,6 @@ tags:
 - Underwriting
 - Claims
 - Direct to Consumer
-- Partner Gated
-- No Public API
 token_bound: false
 token_urls:
 - https://auth.marshmallow.com/oauth2/token

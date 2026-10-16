@@ -127,7 +127,6 @@ tags:
 - Travel Insurance
 - New Zealand
 - NDIS
-- Partner Gated
 token_bound: false
 token_urls:
 - https://id.nib.com.au/oauth/token

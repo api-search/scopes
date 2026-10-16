@@ -406,8 +406,6 @@ tags:
 - Not-for-Profit
 - Claims
 - Member Services
-- Partner Gated
-- No Public API
 token_bound: false
 token_urls:
 - https://id.hcf.com.au/oauth2/v1/token

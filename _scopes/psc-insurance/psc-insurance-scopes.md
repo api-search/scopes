@@ -124,8 +124,6 @@ tags:
 - Commercial Insurance
 - Cyber Insurance
 - Intermediary
-- Partner Gated
-- No Public API
 token_bound: false
 token_urls:
 - https://login.pscinsurance.com.au/oauth/token

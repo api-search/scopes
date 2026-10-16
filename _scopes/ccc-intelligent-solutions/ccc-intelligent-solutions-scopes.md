@@ -118,7 +118,6 @@ tags:
 - Insurtech
 - Claims Technology
 - CIECA
-- Partner Gated
 - Authentication
 token_bound: false
 token_urls:

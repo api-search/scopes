@@ -77,7 +77,6 @@ tags:
 - Carrier
 - Policy Administration
 - Underwriting
-- Partner Gated
 token_bound: false
 token_urls:
 - https://apis.vitality.co.uk/oauth2/token

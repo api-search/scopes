@@ -94,6 +94,7 @@ tags:
 - Webhook
 - MCP
 - Small Business
+token_bound: false
 token_urls:
 - https://rrmjstsbidgkqibvzvzo.supabase.co/auth/v1/oauth/token
 ---

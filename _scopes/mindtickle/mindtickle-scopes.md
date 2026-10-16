@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: mindtickle-openapi-generated.yml
+  format: yaml
+  label: Mindtickle API
+  slug: mindtickle-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/_ae-authored/mindtickle-openapi-generated.yml
 authorization_urls:
 - https://app.mindtickle.com/api/users/v1/oauth/authorize
 description: 'Mindtickle publishes its OAuth 2.0 scope vocabulary anonymously in two places: scopes_supported in the RFC 8414 authorization-server metadata and scopes_supported in the RFC 9728 protected-resource metadata. Both lists are identical - seven scopes covering AI roleplays, call recordings, Copilot chat, digital sales rooms and search. Descriptions below are DERIVED from the scope name plus the matching product surface in Mindtickle''s own product pages; the provider publishes no prose scope reference, so the strings themselves are the only authoritative part.'

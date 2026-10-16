@@ -38,5 +38,6 @@ tags:
 - Clinical Data
 - Practice Management
 - HL7
+token_bound: false
 token_urls: []
 ---

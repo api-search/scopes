@@ -148,8 +148,8 @@ tags:
 - Open Banking
 - Payments
 - PSD2
-- SCA
 - STET
+- Strong Customer Authentication
 token_bound: false
 token_urls:
 - https://api.sandbox.cib.bnpparibas.com/oauth2/v1/token

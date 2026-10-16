@@ -69,6 +69,7 @@ tags:
 - Freight
 - GraphQL
 - Webhook
+token_bound: false
 token_urls:
 - https://mykargo.us.auth0.com/oauth/token
 ---

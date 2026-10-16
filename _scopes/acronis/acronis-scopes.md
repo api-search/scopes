@@ -439,16 +439,607 @@ method: derived
 name: Acronis Scopes
 name_suffix: OAuth Scopes
 note: Acronis publishes no scope descriptions in the specs — the scope strings are declared with empty descriptions, so every entry here carries the scope verbatim and the APIs that declare it, and nothing invented. Two scope strings are templates rather than literals (urn:acronis.com:event_manager:{cti_query}:publisher / :subscriber and urn:acronis.com::service_plans_manager:|cti.a.p.lic.service_plan.v1.0[type={plan type}]:reader) — the placeholder is filled with a CTI query at request time.
-overview: 'Acronis uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Acronis publishes 90 OAuth 2.0 scopes via the client_credentials, authorization_code, and password flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Acronis API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Acronis
 provider_slug: acronis
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 90
+scope_names:
+- acep::consumer
+- urn:acronis.com::acep::consumer
+- dr::support_operator
+- dr_backup_processor
+- infra_admin
+- partner_admin
+- root_admin
+- dr_service::admin
+- dr_service::vpn_appliance
+- dr_service::vpn_server
+- edr_mgmtsvc::admin
+- edr_mgmtsvc::automation
+- edr_mgmtsvc::event_searcher
+- edr_mgmtsvc::incident_change_notifier
+- edr_mgmtsvc::incident_commenter
+- edr_mgmtsvc::incident_graph_writer
+- edr_mgmtsvc::incidents_viewer
+- edr_mgmtsvc::reports_viewer
+- edr_mgmtsvc::response_executor
+- edr_mgmtsvc::security_analyst
+- edr_mgmtsvc::threat_feed_admin
+- edr_mgmtsvc::threat_feed_data_viewer
+- edr_mgmtsvc::threat_feed_settings_viewer
+- edr_mgmtsvc::viewer
+- protection::readonly
+- resource_manager::admin
+- urn:acronis.com::resource_manager::admin
+- urn:acronis.com::account-server::company_admin
+- urn:acronis.com::account-server::custom_role_manager
+- urn:acronis.com::account-server::custom_role_viewer
+- urn:acronis.com::account-server::legal_docs_signer
+- urn:acronis.com::account-server::managed_clients_admin
+- urn:acronis.com::account-server::oauth2_client_admin
+- urn:acronis.com::account-server::partner_admin
+- urn:acronis.com::account-server::readonly_admin
+- urn:acronis.com::account-server::replication_manager
+- urn:acronis.com::account-server::root_admin
+- urn:acronis.com::account-server::security_groups_admin
+- urn:acronis.com::account-server::security_groups_viewer
+- urn:acronis.com::account-server::tenant_admin
+- urn:acronis.com::account-server::tenant_viewer
+- urn:acronis.com::account-server::token_introspector
+- urn:acronis.com::account-server::unit_admin
+- urn:acronis.com::account-server::user_admin
+- urn:acronis.com::accounts::email_token_requester
+- urn:acronis.com::accounts::licensing_admin
+- urn:acronis.com::accounts::usage_reporter
+- urn:acronis.com::advanced_automation::advanced_automation_admin
+- urn:acronis.com::advanced_automation::advanced_automation_client
+- urn:acronis.com::advanced_automation::advanced_automation_client_manager
+- urn:acronis.com::advanced_automation::advanced_automation_director
+- urn:acronis.com::advanced_automation::advanced_automation_engineer
+- urn:acronis.com::advanced_automation::advanced_automation_finance
+- urn:acronis.com::advanced_automation::advanced_automation_finance_manager
+- urn:acronis.com::advanced_automation::advanced_automation_group_manager
+- urn:acronis.com::advanced_automation::advanced_automation_hr
+- urn:acronis.com::advanced_automation::advanced_automation_sales
+- urn:acronis.com::agent_manager::admin
+- urn:acronis.com::agent_manager::agent_registrar
+- urn:acronis.com::agent_manager::agent_unregistrar
+- urn:acronis.com::agent_manager::agent_update_reference_viewer
+- urn:acronis.com::agent_manager::agent_update_settings_modifier
+- urn:acronis.com::agent_manager::agent_update_settings_viewer
+- urn:acronis.com::agent_manager::agent_viewer
+- urn:acronis.com::alert_manager::admin
+- urn:acronis.com::alert_manager::viewer
+- urn:acronis.com::backup::backup_user
+- urn:acronis.com::backup::protection_admin
+- urn:acronis.com::files_cloud::sync_share_user
+- urn:acronis.com::policy_management::notify
+- urn:acronis.com::policy_management::read
+- urn:acronis.com::policy_manager::admin
+- urn:acronis.com::resource_management::read
+- urn:acronis.com::service_plans_manager::price_list_reader
+- urn:acronis.com::service_plans_manager::price_list_writer
+- urn:acronis.com::service_plans_manager:|cti.a.p.lic.service_plan.v1.0[type={plan type}]:reader
+- urn:acronis.com::service_plans_manager:|cti.a.p.lic.service_plan.v1.0[type={plan type}]:writer
+- urn:acronis.com::task_manager::admin
+- urn:acronis.com::task_manager::consumer
+- urn:acronis.com::task_manager::issuer
+- urn:acronis.com::task_manager::viewer
+- urn:acronis.com:audit:{role|permissions}
+- urn:acronis.com:event_manager:{cti_query}:publisher
+- urn:acronis.com:event_manager:{cti_query}:subscriber
+- vault_manager::admin
+- vault_manager::c2c_restore
+- vault_manager::core_restore
+- vault_manager::orphanage_readwrite
+- vault_manager::read
+- vault_manager::system_admin
+scopes:
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: acep::consumer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::acep::consumer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: dr::support_operator
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: dr_backup_processor
+- description: ''
+  flows:
+  - authorizationCode
+  - password
+  scope: infra_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: partner_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: root_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: dr_service::admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: dr_service::vpn_appliance
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: dr_service::vpn_server
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::admin
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::automation
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::event_searcher
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::incident_change_notifier
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::incident_commenter
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::incident_graph_writer
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::incidents_viewer
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::reports_viewer
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::response_executor
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::security_analyst
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::threat_feed_admin
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::threat_feed_data_viewer
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::threat_feed_settings_viewer
+- description: 'null'
+  flows:
+  - clientCredentials
+  scope: edr_mgmtsvc::viewer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: protection::readonly
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: resource_manager::admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::resource_manager::admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::company_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::custom_role_manager
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::custom_role_viewer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::legal_docs_signer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::managed_clients_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::oauth2_client_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::partner_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::readonly_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::replication_manager
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::root_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::security_groups_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::security_groups_viewer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::tenant_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::tenant_viewer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::token_introspector
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::unit_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::account-server::user_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::accounts::email_token_requester
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::accounts::licensing_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::accounts::usage_reporter
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::advanced_automation::advanced_automation_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::advanced_automation::advanced_automation_client
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::advanced_automation::advanced_automation_client_manager
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::advanced_automation::advanced_automation_director
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::advanced_automation::advanced_automation_engineer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::advanced_automation::advanced_automation_finance
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::advanced_automation::advanced_automation_finance_manager
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::advanced_automation::advanced_automation_group_manager
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::advanced_automation::advanced_automation_hr
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::advanced_automation::advanced_automation_sales
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::agent_manager::admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::agent_manager::agent_registrar
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::agent_manager::agent_unregistrar
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::agent_manager::agent_update_reference_viewer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::agent_manager::agent_update_settings_modifier
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::agent_manager::agent_update_settings_viewer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::agent_manager::agent_viewer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::alert_manager::admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::alert_manager::viewer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::backup::backup_user
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::backup::protection_admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::files_cloud::sync_share_user
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::policy_management::notify
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::policy_management::read
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::policy_manager::admin
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::resource_management::read
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::service_plans_manager::price_list_reader
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::service_plans_manager::price_list_writer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::service_plans_manager:|cti.a.p.lic.service_plan.v1.0[type={plan type}]:reader
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::service_plans_manager:|cti.a.p.lic.service_plan.v1.0[type={plan type}]:writer
+- description: ''
+  flows:
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::task_manager::admin
+- description: ''
+  flows:
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::task_manager::consumer
+- description: ''
+  flows:
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::task_manager::issuer
+- description: ''
+  flows:
+  - clientCredentials
+  - password
+  scope: urn:acronis.com::task_manager::viewer
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com:audit:{role|permissions}
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com:event_manager:{cti_query}:publisher
+- description: ''
+  flows:
+  - authorizationCode
+  - clientCredentials
+  - password
+  scope: urn:acronis.com:event_manager:{cti_query}:subscriber
+- description: ''
+  flows:
+  - authorizationCode
+  - password
+  scope: vault_manager::admin
+- description: ''
+  flows:
+  - authorizationCode
+  - password
+  scope: vault_manager::c2c_restore
+- description: ''
+  flows:
+  - authorizationCode
+  - password
+  scope: vault_manager::core_restore
+- description: ''
+  flows:
+  - authorizationCode
+  - password
+  scope: vault_manager::orphanage_readwrite
+- description: ''
+  flows:
+  - authorizationCode
+  - password
+  scope: vault_manager::read
+- description: ''
+  flows:
+  - authorizationCode
+  - password
+  scope: vault_manager::system_admin
 slug: acronis-scopes
 source_filename: acronis-scopes.yml
 source_heading: OAuth Scopes
@@ -471,7 +1062,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: derived\nsource: openapi/_origina
   \    flows:\n    - clientCredentials\n    - password\n    apis:\n    - tasks-v2\n  - scope: urn:acronis.com::task_manager::consumer\n    flows:\n    - clientCredentials\n    - password\n    apis:\n    - tasks-v2\n  - scope: urn:acronis.com::task_manager::issuer\n    flows:\n    - clientCredentials\n    - password\n    apis:\n    - tasks-v2\n  - scope: urn:acronis.com::task_manager::viewer\n    flows:\n    - clientCredentials\n    - password\n    apis:\n    - tasks-v2\n- service: audit\n  count: 1\n  scopes:\n  - scope: urn:acronis.com:audit:{role|permissions}\n    flows:\n    - authorizationCode\n    - clientCredentials\n    - password\n    apis:\n    - events-v1\n- service: event_manager\n  count: 2\n  scopes:\n  - scope: urn:acronis.com:event_manager:{cti_query}:publisher\n    flows:\n    - authorizationCode\n    - clientCredentials\n    - password\n    apis:\n    - events-v1\n  - scope: urn:acronis.com:event_manager:{cti_query}:subscriber\n    flows:\n    - authorizationCode\n    -\
   \ clientCredentials\n    - password\n    apis:\n    - events-v1\n- service: vault_manager\n  count: 6\n  scopes:\n  - scope: vault_manager::admin\n    flows:\n    - authorizationCode\n    - password\n    apis:\n    - vaultman-v1\n  - scope: vault_manager::c2c_restore\n    flows:\n    - authorizationCode\n    - password\n    apis:\n    - vaultman-v1\n  - scope: vault_manager::core_restore\n    flows:\n    - authorizationCode\n    - password\n    apis:\n    - vaultman-v1\n  - scope: vault_manager::orphanage_readwrite\n    flows:\n    - authorizationCode\n    - password\n    apis:\n    - vaultman-v1\n  - scope: vault_manager::read\n    flows:\n    - authorizationCode\n    - password\n    apis:\n    - vaultman-v1\n  - scope: vault_manager::system_admin\n    flows:\n    - authorizationCode\n    - password\n    apis:\n    - vaultman-v1\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/scopes/acronis-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 90 scopes · client_credentials/authorization_code/password
 tags:
 - Cybersecurity
 - Data Protection

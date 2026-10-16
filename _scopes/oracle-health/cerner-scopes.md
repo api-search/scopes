@@ -1916,6 +1916,7 @@ tags:
 - SMART Backend Services
 - SMART on FHIR
 - US Core
+token_bound: false
 token_urls:
 - https://authorization.cerner.com/tenants/{tenant}/hosts/fhir-ehr-code.cerner.com/protocols/oauth2/profiles/smart-v1/token
 ---

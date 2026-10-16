@@ -260,6 +260,8 @@ tags:
 - Asset Management
 - Property Management
 - Tenant Experience
+- Vertical Software
+- Software-as-a-Service
 token_bound: false
 token_urls:
 - https://sandbox.vts.com/oauth/token

@@ -280,23 +280,39 @@ method: probed
 name: Aiapplyd Scopes
 name_suffix: OAuth Scopes
 note: Only OpenID Connect identity scopes are advertised; no product-level permission scopes are published.
-overview: 'AI Applyd uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'AI Applyd publishes 4 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the AI Applyd API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: AI Applyd
 provider_slug: aiapplyd
 schemes: []
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 4
+scope_names:
+- openid
+- email
+- profile
+- offline_access
+scopes:
+- description: ''
+  flows: []
+  scope: openid
+- description: ''
+  flows: []
+  scope: email
+- description: ''
+  flows: []
+  scope: profile
+- description: ''
+  flows: []
+  scope: offline_access
 slug: aiapplyd-scopes
 source_filename: aiapplyd-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: probed\nsource:\n- https://mcp.aiapplyd.com/.well-known/oauth-protected-resource\n- https://mcp.aiapplyd.com/.well-known/oauth-authorization-server\nscopes:\n- name: openid\n  api: AI Applyd MCP Server\n- name: email\n  api: AI Applyd MCP Server\n- name: profile\n  api: AI Applyd MCP Server\n- name: offline_access\n  api: AI Applyd MCP Server\nnote: Only OpenID Connect identity scopes are advertised; no product-level permission scopes are published.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aiapplyd/refs/heads/main/scopes/aiapplyd-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 4 scopes
 tags:
 - Job Search
 - Recruiting
@@ -306,5 +322,6 @@ tags:
 - Artificial Intelligence
 - MCP
 - Automation
+token_bound: false
 token_urls: []
 ---

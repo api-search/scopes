@@ -526,6 +526,7 @@ tags:
 - Messaging
 - Analytics
 - Marketing
+token_bound: false
 token_urls:
 - https://example.com/oauth2/token
 - https://login.spredfast.com/v3/oauth/token
