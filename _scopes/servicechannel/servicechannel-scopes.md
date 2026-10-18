@@ -404,10 +404,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Servicechannel Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'ServiceChannel uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -424,14 +424,462 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://sb2login.servicechannel.com/oauth/token
   name: oauth2
-  source: openapi/servicechannel-fixxbook-openapi-original.json
+  source: openapi/servicechannel-afterhours-api-openapi.yml
 - description: OAuth2 Authorization
   flows:
   - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
     flow: authorizationCode
     tokenUrl: https://sb2login.servicechannel.com/oauth/token
   name: oauth2
-  source: openapi/servicechannel-service-automation-openapi-original.json
+  source: openapi/servicechannel-ai-agents-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-announcements-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-applicationaccess-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-asset-types-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-assets-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-assettaskresponse-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-attachments-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-batchrfp-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-branding-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-categories-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-checklists-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-classification-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-client-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-compliance-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-contracts-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-contractservicerates-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-ctools-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-currencies-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-dashboardsettings-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-donotdispatch-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-email-notifications-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-eula-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-feedback-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-gl-codes-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-invitation-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-invoices-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-issuelist-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-locationnotes-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-locations-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-locationsupply-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-mliconfiguration-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-mobiletheme-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-notes-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-notification-subscriptions-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-notification-web-hooks-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-outgoingxml-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-parts-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-plannedmaintenance-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-priorities-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-proposals-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-providerassignment-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-providers-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-push-notifications-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-refrigeranttracking-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-resolutioncodes-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-rfps-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-roles-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-scconnector-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-servicerequest-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-single-sign-on-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-site-audit-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-subscribers-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-supplyclick-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-survey-questions-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-templatefileshistory-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-trades-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-tradesmen-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-training-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-trucks-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-users-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-weather-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-work-orders-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-work-requests-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-workactivities-api-openapi.yml
+- description: OAuth2 Authorization
+  flows:
+  - authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://sb2login.servicechannel.com/oauth/token
+  name: oauth2
+  source: openapi/servicechannel-workrequestnote-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -439,7 +887,29 @@ slug: servicechannel-scopes
 source_filename: servicechannel-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/servicechannel-fixxbook-openapi-original.json, openapi/servicechannel-service-automation-openapi-original.json\nschemes:\n- name: oauth2\n  source: openapi/servicechannel-fixxbook-openapi-original.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-service-automation-openapi-original.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/servicechannel-afterhours-api-openapi.yml, openapi/servicechannel-ai-agents-api-openapi.yml,\n  openapi/servicechannel-announcements-api-openapi.yml, openapi/servicechannel-applicationaccess-api-openapi.yml,\n  openapi/servicechannel-asset-types-api-openapi.yml, openapi/servicechannel-assets-api-openapi.yml,\n  openapi/servicechannel-assettaskresponse-api-openapi.yml, openapi/servicechannel-attachments-api-openapi.yml,\n  openapi/servicechannel-batchrfp-api-openapi.yml, openapi/servicechannel-branding-api-openapi.yml,\n  openapi/servicechannel-categories-api-openapi.yml, openapi/servicechannel-checklists-api-openapi.yml,\n  openapi/servicechannel-classification-api-openapi.yml, openapi/servicechannel-client-api-openapi.yml,\n  openapi/servicechannel-compliance-api-openapi.yml, openapi/servicechannel-contracts-api-openapi.yml,\n  openapi/servicechannel-contractservicerates-api-openapi.yml, openapi/servicechannel-ctools-api-openapi.yml,\n\
+  \  openapi/servicechannel-currencies-api-openapi.yml, openapi/servicechannel-dashboardsettings-api-openapi.yml,\n  openapi/servicechannel-donotdispatch-api-openapi.yml, openapi/servicechannel-email-notifications-api-openapi.yml,\n  openapi/servicechannel-eula-api-openapi.yml, openapi/servicechannel-feedback-api-openapi.yml,\n  openapi/servicechannel-gl-codes-api-openapi.yml, openapi/servicechannel-invitation-api-openapi.yml,\n  openapi/servicechannel-invoices-api-openapi.yml, openapi/servicechannel-issuelist-api-openapi.yml,\n  openapi/servicechannel-locationnotes-api-openapi.yml, openapi/servicechannel-locations-api-openapi.yml,\n  openapi/servicechannel-locationsupply-api-openapi.yml, openapi/servicechannel-mliconfiguration-api-openapi.yml,\n  openapi/servicechannel-mobiletheme-api-openapi.yml, openapi/servicechannel-notes-api-openapi.yml,\n  openapi/servicechannel-notification-subscriptions-api-openapi.yml, openapi/servicechannel-notification-web-hooks-api-openapi.yml,\n  openapi/servicechannel-outgoingxml-api-openapi.yml,\
+  \ openapi/servicechannel-parts-api-openapi.yml,\n  openapi/servicechannel-plannedmaintenance-api-openapi.yml, openapi/servicechannel-priorities-api-openapi.yml,\n  openapi/servicechannel-proposals-api-openapi.yml, openapi/servicechannel-providerassignment-api-openapi.yml,\n  openapi/servicechannel-providers-api-openapi.yml, openapi/servicechannel-push-notifications-api-openapi.yml,\n  openapi/servicechannel-refrigeranttracking-api-openapi.yml, openapi/servicechannel-resolutioncodes-api-openapi.yml,\n  openapi/servicechannel-rfps-api-openapi.yml, openapi/servicechannel-roles-api-openapi.yml,\n  openapi/servicechannel-scconnector-api-openapi.yml, openapi/servicechannel-servicerequest-api-openapi.yml,\n  openapi/servicechannel-single-sign-on-api-openapi.yml, openapi/servicechannel-site-audit-api-openapi.yml,\n  openapi/servicechannel-subscribers-api-openapi.yml, openapi/servicechannel-supplyclick-api-openapi.yml,\n  openapi/servicechannel-survey-questions-api-openapi.yml, openapi/servicechannel-templatefileshistory-api-openapi.yml,\n\
+  \  openapi/servicechannel-trades-api-openapi.yml, openapi/servicechannel-tradesmen-api-openapi.yml,\n  openapi/servicechannel-training-api-openapi.yml, openapi/servicechannel-trucks-api-openapi.yml,\n  openapi/servicechannel-users-api-openapi.yml, openapi/servicechannel-weather-api-openapi.yml,\n  openapi/servicechannel-work-orders-api-openapi.yml, openapi/servicechannel-work-requests-api-openapi.yml,\n  openapi/servicechannel-workactivities-api-openapi.yml, openapi/servicechannel-workrequestnote-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/servicechannel-afterhours-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-ai-agents-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n\
+  \    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-announcements-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-applicationaccess-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-asset-types-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n\
+  \  source: openapi/servicechannel-assets-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-assettaskresponse-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-attachments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-batchrfp-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n\
+  \    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-branding-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-categories-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-checklists-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-classification-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-client-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-compliance-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-contracts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n\
+  \  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-contractservicerates-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-ctools-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-currencies-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-dashboardsettings-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-donotdispatch-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-email-notifications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-eula-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl:\
+  \ https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-feedback-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-gl-codes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-invitation-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-invoices-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-issuelist-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-locationnotes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-locations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl:\
+  \ https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-locationsupply-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-mliconfiguration-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-mobiletheme-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-notes-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-notification-subscriptions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-notification-web-hooks-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-outgoingxml-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n\
+  \    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-parts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-plannedmaintenance-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-priorities-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source:\
+  \ openapi/servicechannel-proposals-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-providerassignment-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-providers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-push-notifications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-refrigeranttracking-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-resolutioncodes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-rfps-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n\
+  \  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-roles-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-scconnector-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-servicerequest-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-single-sign-on-api-openapi.yml\n  flows:\n\
+  \  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-site-audit-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-subscribers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-supplyclick-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n\
+  \  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-survey-questions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-templatefileshistory-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-trades-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-tradesmen-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-training-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-trucks-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n\
+  \  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-weather-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-work-orders-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-work-requests-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-workactivities-api-openapi.yml\n  flows:\n\
+  \  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\n- name: oauth2\n  source: openapi/servicechannel-workrequestnote-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sb2login.servicechannel.com/oauth/authorize\n    tokenUrl: https://sb2login.servicechannel.com/oauth/token\n  description: OAuth2 Authorization\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicechannel/refs/heads/main/scopes/servicechannel-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

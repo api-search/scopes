@@ -71,7 +71,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agree-com/refs
 summary_line: 1 scope
 tags:
 - Agreements
-- Electronic Signature
+- E-Signature
 - Contract Management
 - Invoicing
 - Billing

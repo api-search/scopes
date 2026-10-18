@@ -170,8 +170,7 @@ tags:
 - Company
 - Payments
 - Banking
-- API
-- FinTech
+- Fintech
 token_bound: false
 token_urls:
 - https://auth.sandbox.openbankingplatform.com/connect/token

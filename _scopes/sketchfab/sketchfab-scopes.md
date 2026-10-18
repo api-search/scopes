@@ -128,8 +128,8 @@ tags:
 - Viewer
 - WebGL
 - glTF
-- AR
-- VR
+- Augmented Reality
+- Virtual Reality
 - Creative
 - Epic Games
 token_bound: false

@@ -100,7 +100,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Gitea
 - Git
-- Source Control
+- Version Control
 - DevOps
 - CI/CD
 - Code Hosting

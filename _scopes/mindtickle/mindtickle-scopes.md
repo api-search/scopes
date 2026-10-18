@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: mindtickle-openapi-generated.yml
+- filename: mindtickle-assethub-api-openapi.yml
   format: yaml
-  label: Mindtickle API
-  slug: mindtickle-api
+  label: Mindtickle Assethub API
+  slug: mindtickle-assethub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/_ae-authored/mindtickle-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-assethub-api-openapi.yml
+- filename: mindtickle-public-api-openapi.yml
+  format: yaml
+  label: Mindtickle Public API
+  slug: mindtickle-public-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-public-api-openapi.yml
+- filename: mindtickle-reports-api-openapi.yml
+  format: yaml
+  label: Mindtickle Reports API
+  slug: mindtickle-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-reports-api-openapi.yml
+- filename: mindtickle-services-api-openapi.yml
+  format: yaml
+  label: Mindtickle Services API
+  slug: mindtickle-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-services-api-openapi.yml
 authorization_urls:
 - https://app.mindtickle.com/api/users/v1/oauth/authorize
 description: 'Mindtickle publishes its OAuth 2.0 scope vocabulary anonymously in two places: scopes_supported in the RFC 8414 authorization-server metadata and scopes_supported in the RFC 9728 protected-resource metadata. Both lists are identical - seven scopes covering AI roleplays, call recordings, Copilot chat, digital sales rooms and search. Descriptions below are DERIVED from the scope name plus the matching product surface in Mindtickle''s own product pages; the provider publishes no prose scope reference, so the strings themselves are the only authoritative part.'
@@ -100,7 +118,7 @@ tags:
 - Sales Readiness
 - Coaching
 - Conversation Intelligence
-- Learning Management
+- LMS
 - Content Management
 - Call AI
 - Revenue Intelligence

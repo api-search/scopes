@@ -179,7 +179,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-lo
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/scopes/azure-logic-apps-scopes.yml
 summary_line: 1 scope · implicit
 tags:
-- Azure
+- Microsoft Azure
 - Integration
 - iPaaS
 - Workflows

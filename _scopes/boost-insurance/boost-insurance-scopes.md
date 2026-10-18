@@ -26,15 +26,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-quotes-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://learn.boostinsurance.com/docs/authentication
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Boost Insurance Scopes
 name_suffix: OAuth Scopes
-note: Boost uses the OAuth 2.0 Client Credentials grant with a Client ID and Client Secret, and does not publish any OAuth scopes; access is governed by partner credentials rather than scoped tokens (https://learn.boostinsurance.com/docs/authentication).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Boost Insurance uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -50,7 +50,25 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.insurtech.dev/auth/oauth2/token
   name: boostOAuth
-  source: openapi/boost-insurance-openapi.yml
+  source: openapi/boost-insurance-authentication-api-openapi.yml
+- description: OAuth 2.0 Client Credentials grant. Tokens are obtained from the Boost authentication endpoint and presented as a Bearer token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.insurtech.dev/auth/oauth2/token
+  name: boostOAuth
+  source: openapi/boost-insurance-claims-api-openapi.yml
+- description: OAuth 2.0 Client Credentials grant. Tokens are obtained from the Boost authentication endpoint and presented as a Bearer token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.insurtech.dev/auth/oauth2/token
+  name: boostOAuth
+  source: openapi/boost-insurance-policies-api-openapi.yml
+- description: OAuth 2.0 Client Credentials grant. Tokens are obtained from the Boost authentication endpoint and presented as a Bearer token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.insurtech.dev/auth/oauth2/token
+  name: boostOAuth
+  source: openapi/boost-insurance-quotes-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -58,7 +76,8 @@ slug: boost-insurance-scopes
 source_filename: boost-insurance-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/boost-insurance-openapi.yml\ndocs: https://learn.boostinsurance.com/docs/authentication\nnote: Boost uses the OAuth 2.0 Client Credentials grant with a Client ID and Client\n  Secret, and does not publish any OAuth scopes; access is governed by partner credentials\n  rather than scoped tokens (https://learn.boostinsurance.com/docs/authentication).\nschemes:\n- name: boostOAuth\n  source: openapi/boost-insurance-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.insurtech.dev/auth/oauth2/token\n  description: OAuth 2.0 Client Credentials grant. Tokens are obtained from the Boost authentication\n    endpoint and presented as a Bearer token.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/boost-insurance-authentication-api-openapi.yml, openapi/boost-insurance-claims-api-openapi.yml,\n  openapi/boost-insurance-policies-api-openapi.yml, openapi/boost-insurance-quotes-api-openapi.yml\nschemes:\n- name: boostOAuth\n  source: openapi/boost-insurance-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.insurtech.dev/auth/oauth2/token\n  description: OAuth 2.0 Client Credentials grant. Tokens are obtained from the Boost authentication\n    endpoint and presented as a Bearer token.\n- name: boostOAuth\n  source: openapi/boost-insurance-claims-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.insurtech.dev/auth/oauth2/token\n  description: OAuth 2.0 Client Credentials grant. Tokens are obtained from the Boost authentication\n    endpoint and presented as a Bearer token.\n- name: boostOAuth\n  source: openapi/boost-insurance-policies-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.insurtech.dev/auth/oauth2/token\n  description: OAuth 2.0 Client Credentials grant. Tokens are obtained from the Boost authentication\n    endpoint and presented as a Bearer token.\n- name: boostOAuth\n  source: openapi/boost-insurance-quotes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.insurtech.dev/auth/oauth2/token\n  description: OAuth 2.0 Client Credentials grant. Tokens are obtained from the Boost authentication\n    endpoint and presented as a Bearer token.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/scopes/boost-insurance-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -168,7 +168,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Contact Data
 - Prospecting
 - Intents

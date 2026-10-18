@@ -66,7 +66,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bice
 summary_line: 1 scope · implicit
 tags:
 - ArmTemplates
-- Azure
+- Microsoft Azure
 - Cloud
 - Deployment
 - DevOps

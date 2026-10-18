@@ -1228,7 +1228,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/
 summary_line: 191 scopes · authorizationCode
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - AI Governance
 - AI Observability
 - LLM Evaluation

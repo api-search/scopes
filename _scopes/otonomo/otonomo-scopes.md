@@ -19,10 +19,10 @@ flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Otonomo Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Otonomo uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -38,7 +38,13 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.otonomo.io/v1/oauth/token/
   name: oauth2
-  source: openapi/otonomo-fleet-openapi.yml
+  source: openapi/otonomo-eu-api-openapi.yml
+- description: 'OAuth2 client-credentials. Obtain a Bearer token from POST /v1/oauth/token/ then send it as Authorization: Bearer <token>.'
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.otonomo.io/v1/oauth/token/
+  name: oauth2
+  source: openapi/otonomo-us-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -46,7 +52,7 @@ slug: otonomo-scopes
 source_filename: otonomo-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/otonomo-fleet-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/otonomo-fleet-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.otonomo.io/v1/oauth/token/\n  description: 'OAuth2 client-credentials. Obtain a Bearer token from POST /v1/oauth/token/\n    then send it as Authorization: Bearer <token>.'\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/otonomo-eu-api-openapi.yml, openapi/otonomo-us-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/otonomo-eu-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.otonomo.io/v1/oauth/token/\n  description: 'OAuth2 client-credentials. Obtain a Bearer token from POST /v1/oauth/token/\n    then send it as Authorization: Bearer <token>.'\n- name: oauth2\n  source: openapi/otonomo-us-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.otonomo.io/v1/oauth/token/\n  description: 'OAuth2 client-credentials. Obtain a Bearer token from POST /v1/oauth/token/\n    then send it as Authorization: Bearer <token>.'\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/scopes/otonomo-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
@@ -59,7 +65,6 @@ tags:
 - Mobility
 - IoT
 - Location
-- Connected Car
 token_bound: false
 token_urls:
 - https://api.otonomo.io/v1/oauth/token/

@@ -56,15 +56,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-users-memberships-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://docs.scalekit.com/apis/
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Scalekit Scopes
 name_suffix: OAuth Scopes
-note: Scalekit's own API is secured with OAuth 2.0 client credentials and publishes no scopes for its endpoints; the scopes documented at https://docs.scalekit.com/guides/m2m/scopes/ are customer-defined permissions for their own API clients, not Scalekit API scopes (https://docs.scalekit.com/apis/).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Scalekit uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -79,7 +79,47 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://{environment}.scalekit.com/oauth/token
   name: oauth2ClientCredentials
-  source: openapi/scalekit-openapi.yml
+  source: openapi/scalekit-admin-portal-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{environment}.scalekit.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/scalekit-authentication-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{environment}.scalekit.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/scalekit-connected-accounts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{environment}.scalekit.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/scalekit-connections-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{environment}.scalekit.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/scalekit-directories-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{environment}.scalekit.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/scalekit-organization-settings-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{environment}.scalekit.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/scalekit-organizations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{environment}.scalekit.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/scalekit-roles-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{environment}.scalekit.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/scalekit-users-memberships-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -87,7 +127,9 @@ slug: scalekit-scopes
 source_filename: scalekit-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scalekit-openapi.yml\ndocs: https://docs.scalekit.com/apis/\nnote: Scalekit's own API is secured with OAuth 2.0 client credentials and publishes\n  no scopes for its endpoints; the scopes documented at\n  https://docs.scalekit.com/guides/m2m/scopes/ are customer-defined permissions\n  for their own API clients, not Scalekit API scopes\n  (https://docs.scalekit.com/apis/).\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/scalekit-admin-portal-api-openapi.yml, openapi/scalekit-authentication-api-openapi.yml,\n  openapi/scalekit-connected-accounts-api-openapi.yml, openapi/scalekit-connections-api-openapi.yml,\n  openapi/scalekit-directories-api-openapi.yml, openapi/scalekit-organization-settings-api-openapi.yml,\n  openapi/scalekit-organizations-api-openapi.yml, openapi/scalekit-roles-api-openapi.yml, openapi/scalekit-users-memberships-api-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-admin-portal-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-connected-accounts-api-openapi.yml\n  flows:\n\
+  \  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-connections-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-directories-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-organization-settings-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-organizations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-roles-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
+  \ https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-users-memberships-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/scopes/scalekit-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

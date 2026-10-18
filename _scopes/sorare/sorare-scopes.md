@@ -49,7 +49,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sorare/refs/he
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - GraphQL
 - Fantasy Sports
 - NFT

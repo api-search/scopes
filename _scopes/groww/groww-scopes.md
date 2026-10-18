@@ -44,10 +44,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Groww Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Groww uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -64,7 +64,42 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://api.groww.in/oauth2/v1/token
   name: oauth2
-  source: openapi/groww-trade-api-openapi.yml
+  source: openapi/groww-authentication-api-openapi.yml
+- description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server
+  flows:
+  - authorizationUrl: https://groww.in/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.groww.in/oauth2/v1/token
+  name: oauth2
+  source: openapi/groww-historical-data-api-openapi.yml
+- description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server
+  flows:
+  - authorizationUrl: https://groww.in/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.groww.in/oauth2/v1/token
+  name: oauth2
+  source: openapi/groww-live-data-api-openapi.yml
+- description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server
+  flows:
+  - authorizationUrl: https://groww.in/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.groww.in/oauth2/v1/token
+  name: oauth2
+  source: openapi/groww-margin-api-openapi.yml
+- description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server
+  flows:
+  - authorizationUrl: https://groww.in/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.groww.in/oauth2/v1/token
+  name: oauth2
+  source: openapi/groww-orders-api-openapi.yml
+- description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server
+  flows:
+  - authorizationUrl: https://groww.in/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.groww.in/oauth2/v1/token
+  name: oauth2
+  source: openapi/groww-portfolio-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -72,7 +107,9 @@ slug: groww-scopes
 source_filename: groww-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/groww-trade-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/groww-trade-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://groww.in/oauth/authorize\n    tokenUrl: https://api.groww.in/oauth2/v1/token\n  description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/groww-authentication-api-openapi.yml, openapi/groww-historical-data-api-openapi.yml,\n  openapi/groww-live-data-api-openapi.yml, openapi/groww-margin-api-openapi.yml, openapi/groww-orders-api-openapi.yml,\n  openapi/groww-portfolio-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/groww-authentication-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://groww.in/oauth/authorize\n    tokenUrl: https://api.groww.in/oauth2/v1/token\n  description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server\n- name: oauth2\n  source: openapi/groww-historical-data-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://groww.in/oauth/authorize\n    tokenUrl: https://api.groww.in/oauth2/v1/token\n  description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server\n\
+  - name: oauth2\n  source: openapi/groww-live-data-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://groww.in/oauth/authorize\n    tokenUrl: https://api.groww.in/oauth2/v1/token\n  description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server\n- name: oauth2\n  source: openapi/groww-margin-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://groww.in/oauth/authorize\n    tokenUrl: https://api.groww.in/oauth2/v1/token\n  description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server\n- name: oauth2\n  source: openapi/groww-orders-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://groww.in/oauth/authorize\n    tokenUrl: https://api.groww.in/oauth2/v1/token\n  description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server\n\
+  - name: oauth2\n  source: openapi/groww-portfolio-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://groww.in/oauth/authorize\n    tokenUrl: https://api.groww.in/oauth2/v1/token\n  description: OAuth2 authorization-code flow advertised at https://api.groww.in/.well-known/oauth-authorization-server\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/scopes/groww-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

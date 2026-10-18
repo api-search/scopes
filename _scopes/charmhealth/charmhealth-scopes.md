@@ -163,8 +163,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/charmhea
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/scopes/charmhealth-scopes.yml
 summary_line: 7 scopes · authorizationCode/clientCredentials
 tags:
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - Healthcare
 - HL7

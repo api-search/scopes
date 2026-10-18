@@ -78,7 +78,7 @@ tags:
 - File Shares
 - NFS
 - Cloud
-- Azure
+- Microsoft Azure
 - Server Message Block
 token_bound: false
 token_urls:

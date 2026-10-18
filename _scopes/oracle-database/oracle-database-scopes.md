@@ -230,17 +230,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/openapi/oracle-database-vector-database-vector-tables-api-openapi.yml
 authorization_urls:
 - /ords/{schema}/oauth/auth
+- /oauth/auth
 description: ''
-docs: https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/25.2/orddg/developing-REST-applications.html
+docs: ''
 flows:
 - clientCredentials
 - authorizationCode
+- implicit
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Oracle Database Scopes
 name_suffix: OAuth Scopes
-note: ORDS publishes no fixed OAuth scope catalog — scopes are the user-defined ORDS privilege names protecting each REST module (JWT scope claims must match the privilege name), per https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/25.2/orddg/developing-REST-applications.html.
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Oracle Database uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -258,12 +260,323 @@ schemes:
     flow: authorizationCode
     tokenUrl: /ords/{schema}/oauth/token
   name: oauth2
-  source: openapi/oracle-database-ords-openapi.yml
+  source: openapi/oracle-database-apex-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: /ords/{schema}/oauth/token
   name: oauth2
-  source: openapi/oracle-database-soda-openapi.yml
+  source: openapi/oracle-database-bulk-operations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-collections-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-data-dictionary-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-data-dictionary-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-data-guard-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-data-guard-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-data-pump-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-data-tools-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-documents-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-environment-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-general-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-general-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-indexes-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-metadata-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-monitoring-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-monitoring-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-open-service-broker-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-oracle-apex-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-oracle-transactional-event-queues-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-ords-rest-services-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-pdb-snapshots-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-performance-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-performance-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-pluggable-database-lifecycle-management-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-pluggable-databases-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-queries-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-rdf-graph-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-rdf-graph-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-rest-services-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /ords/{schema}/oauth/token
+  - authorizationUrl: /ords/{schema}/oauth/auth
+    flow: authorizationCode
+    tokenUrl: /ords/{schema}/oauth/token
+  name: oauth2
+  source: openapi/oracle-database-scheduler-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-vector-database-inference-operations-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-vector-database-models-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-vector-database-summary-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-vector-database-vector-indexes-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-vector-database-vector-operations-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-vector-database-vector-search-api-openapi.yml
+- flows:
+  - authorizationUrl: /oauth/auth
+    flow: implicit
+  - authorizationUrl: /oauth/auth
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/oracle-database-vector-database-vector-tables-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -271,8 +584,19 @@ slug: oracle-database-scopes
 source_filename: oracle-database-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/oracle-database-ords-openapi.yml, openapi/oracle-database-soda-openapi.yml\ndocs: https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/25.2/orddg/developing-REST-applications.html\nnote: ORDS publishes no fixed OAuth scope catalog — scopes are the user-defined ORDS\n  privilege names protecting each REST module (JWT scope claims must match the privilege\n  name), per https://docs.oracle.com/en/database/oracle/oracle-rest-data-services/25.2/orddg/developing-REST-applications.html.\nschemes:\n- name: oauth2\n  source: openapi/oracle-database-ords-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: oauth2\n  source: openapi/oracle-database-soda-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n\
-  scopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/oracle-database-apex-api-openapi.yml, openapi/oracle-database-bulk-operations-api-openapi.yml,\n  openapi/oracle-database-collections-api-openapi.yml, openapi/oracle-database-data-dictionary-api-openapi.yml,\n  openapi/oracle-database-data-guard-api-openapi.yml, openapi/oracle-database-data-pump-api-openapi.yml,\n  openapi/oracle-database-data-tools-api-openapi.yml, openapi/oracle-database-documents-api-openapi.yml,\n  openapi/oracle-database-environment-api-openapi.yml, openapi/oracle-database-general-api-openapi.yml,\n  openapi/oracle-database-indexes-api-openapi.yml, openapi/oracle-database-metadata-api-openapi.yml,\n  openapi/oracle-database-monitoring-api-openapi.yml, openapi/oracle-database-open-service-broker-api-openapi.yml,\n  openapi/oracle-database-oracle-apex-api-openapi.yml, openapi/oracle-database-oracle-transactional-event-queues-api-openapi.yml,\n  openapi/oracle-database-ords-rest-services-api-openapi.yml,\
+  \ openapi/oracle-database-pdb-snapshots-api-openapi.yml,\n  openapi/oracle-database-performance-api-openapi.yml, openapi/oracle-database-pluggable-database-lifecycle-management-api-openapi.yml,\n  openapi/oracle-database-pluggable-databases-api-openapi.yml, openapi/oracle-database-queries-api-openapi.yml,\n  openapi/oracle-database-rdf-graph-api-openapi.yml, openapi/oracle-database-rest-services-api-openapi.yml,\n  openapi/oracle-database-scheduler-api-openapi.yml, openapi/oracle-database-vector-database-inference-operations-api-openapi.yml,\n  openapi/oracle-database-vector-database-models-api-openapi.yml, openapi/oracle-database-vector-database-summary-api-openapi.yml,\n  openapi/oracle-database-vector-database-vector-indexes-api-openapi.yml, openapi/oracle-database-vector-database-vector-operations-api-openapi.yml,\n  openapi/oracle-database-vector-database-vector-search-api-openapi.yml, openapi/oracle-database-vector-database-vector-tables-api-openapi.yml\nschemes:\n- name: oauth2\n\
+  \  source: openapi/oracle-database-apex-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: oauth2\n  source: openapi/oracle-database-bulk-operations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n- name: oauth2\n  source: openapi/oracle-database-collections-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n- name: oauth2\n  source: openapi/oracle-database-data-dictionary-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-data-dictionary-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl:\
+  \ /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: oauth2\n  source: openapi/oracle-database-data-guard-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-data-guard-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: oauth2\n  source: openapi/oracle-database-data-pump-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n\
+  - name: OAuth2\n  source: openapi/oracle-database-data-tools-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: oauth2\n  source: openapi/oracle-database-documents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-environment-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: oauth2\n  source: openapi/oracle-database-general-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n\
+  - name: OAuth2\n  source: openapi/oracle-database-general-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: oauth2\n  source: openapi/oracle-database-indexes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n- name: oauth2\n  source: openapi/oracle-database-metadata-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n- name: oauth2\n  source: openapi/oracle-database-monitoring-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-monitoring-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl:\
+  \ /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: oauth2\n  source: openapi/oracle-database-open-service-broker-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-oracle-apex-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-oracle-transactional-event-queues-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n\
+  \  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-ords-rest-services-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: oauth2\n  source: openapi/oracle-database-pdb-snapshots-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: oauth2\n  source: openapi/oracle-database-performance-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-performance-api-openapi.yml\n\
+  \  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-pluggable-database-lifecycle-management-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: oauth2\n  source: openapi/oracle-database-pluggable-databases-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: oauth2\n  source: openapi/oracle-database-queries-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n- name: oauth2\n  source:\
+  \ openapi/oracle-database-rdf-graph-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-rdf-graph-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: oauth2\n  source: openapi/oracle-database-rest-services-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: oauth2\n  source: openapi/oracle-database-scheduler-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /ords/{schema}/oauth/token\n  - flow: authorizationCode\n\
+  \    authorizationUrl: /ords/{schema}/oauth/auth\n    tokenUrl: /ords/{schema}/oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-vector-database-inference-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-vector-database-models-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-vector-database-summary-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl:\
+  \ /oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-vector-database-vector-indexes-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-vector-database-vector-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-vector-database-vector-search-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/oracle-database-vector-database-vector-tables-api-openapi.yml\n\
+  \  flows:\n  - flow: implicit\n    authorizationUrl: /oauth/auth\n  - flow: authorizationCode\n    authorizationUrl: /oauth/auth\n    tokenUrl: /oauth/token\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/scopes/oracle-database-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
@@ -285,4 +609,5 @@ tags:
 token_bound: false
 token_urls:
 - /ords/{schema}/oauth/token
+- /oauth/token
 ---

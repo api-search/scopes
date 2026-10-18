@@ -56,15 +56,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/openapi/helpscout-workflows-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://developer.helpscout.com/mailbox-api/overview/authentication/
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Helpscout Scopes
 name_suffix: OAuth Scopes
-note: Help Scout's Mailbox API OAuth 2.0 (authorization code and client credentials flows) does not define or document any OAuth scopes; access is governed by the authorizing user's Help Scout account permissions (https://developer.helpscout.com/mailbox-api/overview/authentication/).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Help Scout uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -79,6 +79,51 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.helpscout.net/v2/oauth2/token
   name: oauth2
+  source: openapi/helpscout-conversations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.helpscout.net/v2/oauth2/token
+  name: oauth2
+  source: openapi/helpscout-customers-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.helpscout.net/v2/oauth2/token
+  name: oauth2
+  source: openapi/helpscout-mailboxes-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.helpscout.net/v2/oauth2/token
+  name: oauth2
+  source: openapi/helpscout-tags-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.helpscout.net/v2/oauth2/token
+  name: oauth2
+  source: openapi/helpscout-teams-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.helpscout.net/v2/oauth2/token
+  name: oauth2
+  source: openapi/helpscout-threads-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.helpscout.net/v2/oauth2/token
+  name: oauth2
+  source: openapi/helpscout-users-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.helpscout.net/v2/oauth2/token
+  name: oauth2
+  source: openapi/helpscout-webhooks-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.helpscout.net/v2/oauth2/token
+  name: oauth2
+  source: openapi/helpscout-workflows-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.helpscout.net/v2/oauth2/token
+  name: oauth2
   source: openapi/helpscout-openapi.yml
 scope_count: 0
 scope_names: []
@@ -87,11 +132,13 @@ slug: helpscout-scopes
 source_filename: helpscout-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/helpscout-openapi.yml\ndocs: https://developer.helpscout.com/mailbox-api/overview/authentication/\nnote: Help Scout's Mailbox API OAuth 2.0 (authorization code and client credentials\n  flows) does not define or document any OAuth scopes; access is governed by the\n  authorizing user's Help Scout account permissions (https://developer.helpscout.com/mailbox-api/overview/authentication/).\nschemes:\n- name: oauth2\n  source: openapi/helpscout-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/helpscout-conversations-api-openapi.yml, openapi/helpscout-customers-api-openapi.yml,\n  openapi/helpscout-mailboxes-api-openapi.yml, openapi/helpscout-openapi.yml, openapi/helpscout-tags-api-openapi.yml,\n  openapi/helpscout-teams-api-openapi.yml, openapi/helpscout-threads-api-openapi.yml, openapi/helpscout-users-api-openapi.yml,\n  openapi/helpscout-webhooks-api-openapi.yml, openapi/helpscout-workflows-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/helpscout-conversations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\n- name: oauth2\n  source: openapi/helpscout-customers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\n- name: oauth2\n  source: openapi/helpscout-mailboxes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\n\
+  - name: oauth2\n  source: openapi/helpscout-tags-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\n- name: oauth2\n  source: openapi/helpscout-teams-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\n- name: oauth2\n  source: openapi/helpscout-threads-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\n- name: oauth2\n  source: openapi/helpscout-users-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\n- name: oauth2\n  source: openapi/helpscout-webhooks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\n- name: oauth2\n  source: openapi/helpscout-workflows-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\n- name: oauth2\n\
+  \  source: openapi/helpscout-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.helpscout.net/v2/oauth2/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/scopes/helpscout-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Customer Support
+- Customer Service
 - Help Desk
 - Email
 - Live Chat

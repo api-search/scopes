@@ -140,7 +140,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightspace/re
 summary_line: 4 scopes · authorizationCode
 tags:
 - LMS
-- Learning Management System
 - EdTech
 - Education
 - Valence

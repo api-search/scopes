@@ -152,7 +152,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/he
 summary_line: 12 scopes · clientCredentials
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Messaging
 - Team Communication
 - Collaboration

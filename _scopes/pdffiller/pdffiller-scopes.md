@@ -123,7 +123,6 @@ tags:
 - Document Management
 - Form Builder
 - PDF Editing
-- Electronic Signature
 - Document Workflow
 token_bound: false
 token_urls:

@@ -1220,15 +1220,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/openapi/benchling-workflow-task-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://docs.benchling.com/docs/authentication
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: searched
+method: none
 name: Benchling Scopes
 name_suffix: OAuth Scopes
-note: 'Benchling defines NO OAuth scopes — confirmed twice over. The clientCredentials flow declares an empty `scopes: {}` object in both the v2 and the v3 OpenAPI, and the authentication docs state the model plainly: "anything a user has permission to do through the UI, the user''s API Key or OIDC token or application''s OAuth Bearer token has permission to do through the API." Authorization is membership-based, not scope-based.'
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Benchling uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -1248,9 +1248,75 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-aasequence-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-aasequenceschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-agent-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-analysis-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-analysistemplate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-analysistemplatedataframevariable-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-analysistemplatevariable-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-app-installation-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-appcanvas-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-appconfigvalue-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-apps-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-appsession-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1266,9 +1332,21 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-assembly-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-audit-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-audit-log-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1284,9 +1362,33 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-box-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-boxes-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-boxschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-bulk-export-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-chart-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1296,15 +1398,39 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-collaboration-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-configimporthistoryentry-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-connect-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-container-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-containers-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-containerschema-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1320,9 +1446,33 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-customentity-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-customentityschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-data-frames-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-dataframe-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-dataset-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1350,6 +1500,60 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-dnaoligo-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-dnaoligoschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-dnasequence-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-dnasequenceschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-documentexport-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-documentpart-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-dropdown-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-dropdownlinkfielddefinition-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-dropdownoption-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-dropdowns-api-openapi.yml
@@ -1362,9 +1566,51 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-entityschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-entries-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-entry-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-entryschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-entrysubtemplate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-entrytemplate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-enzyme-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-enzymelist-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1374,9 +1620,21 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-equipmentschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-events-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-eventsubscription-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1392,15 +1650,57 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-featurelibrary-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-featurelibraryitem-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-fieldset-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-file-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-files-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-folder-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-folders-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-germline-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-groupmembership-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1428,6 +1728,12 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-labeltemplate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-legacy-requests-api-openapi.yml
@@ -1446,9 +1752,57 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-legacyappinstallation-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-libraryparameterdefinition-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-limits-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-location-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-locations-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-locationschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-matrixplate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-matrixplateschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-mixture-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1458,9 +1812,27 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-mixtureschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-molecule-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-molecules-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-moleculeschema-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1476,9 +1848,51 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-nucleotidealignment-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-nucleotidemonomer-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-oligoconjugate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-oligoconjugateschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-oligoduplex-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-oligoduplexschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-oligos-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-organization-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1488,9 +1902,63 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-pipeline-step-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-pipelinestepdata-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-plate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-platedesigntemplate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-plates-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-plateschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-policy-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-predictionbatch-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-predictionjob-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-printer-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1500,15 +1968,213 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedure-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedureflowchart-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedureflowchartconfigversionproxy-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedureflowchartversion-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-proceduremethoddefinitionversion-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-proceduremethodexecutioninstance-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-proceduremethodexecutioninstanceassociation-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedureparameter-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedureparameterconfirmationvalue-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedureparametermeasuredvalue-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedureparameterplannedvalue-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedureparameterversion-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedurerun-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedureruncondition-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedurerunconditionreplicate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedurerunplan-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedurerunplancondition-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedurestepdefinitionversion-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-procedurestepexecutioninstance-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-project-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-projects-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-protein-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-proteinformat-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-proteinschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-proteinversion-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-reaction-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-registry-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-requestv2definition-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-requestv2submission-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-result-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-resultschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-review-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-reviewchange-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-reviewprocess-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-reviewprocessstage-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1524,9 +2190,105 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-rnaoligo-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-rnaoligoschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-rnasequence-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-rnasequenceschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-run-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-runschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-schemas-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-scratchfile-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-scratchplate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-search-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-serviceprincipal-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-sqldashboard-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-sqldashboardblock-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-stageentry-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-study-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-studyitemassociation-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-studyschema-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1536,9 +2298,51 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-team-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-teams-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-templatecollection-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-testdefinition-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-testorder-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-unit-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-unittype-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-user-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1548,15 +2352,39 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
-    tokenUrl: /oauth/token
-  name: oAuth
-  source: openapi/benchling-v3-openapi.yaml
-- description: OAuth2 Client Credentials flow intended for service access
-  flows:
-  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-warehouse-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-warehousecredential-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-warehousecustomview-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-wellplate-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-wellplateposition-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-wellplateschema-api-openapi.yml
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
@@ -1578,6 +2406,12 @@ schemes:
 - description: OAuth2 Client Credentials flow intended for service access
   flows:
   - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-workflow-task-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-workflow-task-groups-api-openapi.yml
@@ -1587,6 +2421,42 @@ schemes:
     tokenUrl: /api/v2/token
   name: oAuth
   source: openapi/benchling-workflow-tasks-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-workflowoutput-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-workflowoutputschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-workflowtaskgroup-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-workflowtaskschema-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-worklist-api-openapi.yml
+- description: OAuth2 Client Credentials flow intended for service access
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: oAuth
+  source: openapi/benchling-worksheet-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -1594,20 +2464,40 @@ slug: benchling-scopes
 source_filename: benchling-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-08-15'\nmethod: searched\nsource: openapi/benchling-v3-openapi.yaml + openapi/*.yml (securitySchemes) and the permissions section\n  of https://docs.benchling.com/docs/authentication, read 2026-08-15.\nschemes:\n- name: oAuth\n  source: openapi/benchling-aa-sequences-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-apps-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-assay-results-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-assay-runs-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
-  \ /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-audit-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-blobs-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-boxes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-codon-usage-tables-api-openapi.yml\n\
-  \  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-connect-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-containers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-custom-entities-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-custom-notations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service\
-  \ access\n- name: oAuth\n  source: openapi/benchling-data-frames-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-datasets-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dna-alignments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dna-oligos-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dna-sequences-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n\
-  \  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dropdowns-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-entities-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-entries-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-enzymes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-events-api-openapi.yml\n  flows:\n\
-  \  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-exports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-feature-libraries-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-files-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-folders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n\
-  \  source: openapi/benchling-instrument-queries-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-inventory-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-lab-automation-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-label-templates-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-legacy-requests-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n\
-  \  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-legacy-workflows-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-legacy-workflows-deprecated-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-locations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-mixtures-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-molecules-api-openapi.yml\n\
-  \  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-monomers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-nucleotide-alignments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-oligos-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-organizations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service\
-  \ access\n- name: oAuth\n  source: openapi/benchling-plates-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-printers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-projects-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-registry-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-rna-oligos-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description:\
-  \ OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-rna-sequences-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-schemas-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-tasks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-teams-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-users-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
-  \    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-v3-openapi.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-warehouse-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-workflow-flowchart-config-versions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-workflow-flowcharts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source:\
-  \ openapi/benchling-workflow-outputs-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-workflow-task-groups-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-workflow-tasks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\nscopes: []\ndocs: https://docs.benchling.com/docs/authentication\nscope_count: 0\nnote: 'Benchling defines NO OAuth scopes — confirmed twice over. The clientCredentials flow declares an\n  empty `scopes: {}` object in both the v2 and the v3 OpenAPI, and the authentication docs state the model\n  plainly: \"anything a user has permission to do through the UI,\
-  \ the user''s API Key or OIDC token or\n  application''s OAuth Bearer token has permission to do through the API.\" Authorization is membership-based,\n  not scope-based.'\nauthorization_model:\n  mechanism: organization / team / project membership\n  principals:\n  - user (API key or OIDC id token)\n  - Benchling App (service principal, client credentials)\n  default_app_access: A newly created app belongs to no organization, team or project and can access NO\n    data until an admin grants it membership.\n  revocation:\n    suspended_user: Suspending a user in Benchling invalidates their API key. Suspending them only in\n      the IdP does NOT.\n    archived_app: Archiving an app blocks API access; unarchiving restores it without a new client secret.\n    note: If a suspended user held an app's credentials, rotate the app client secret — apps are not tied\n      to a user and are not suspended with them.\n  docs: https://docs.benchling.com/docs/authentication\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/benchling-aa-sequences-api-openapi.yml, openapi/benchling-aasequence-api-openapi.yml,\n  openapi/benchling-aasequenceschema-api-openapi.yml, openapi/benchling-agent-api-openapi.yml,\n  openapi/benchling-analysis-api-openapi.yml, openapi/benchling-analysistemplate-api-openapi.yml,\n  openapi/benchling-analysistemplatedataframevariable-api-openapi.yml, openapi/benchling-analysistemplatevariable-api-openapi.yml,\n  openapi/benchling-app-installation-api-openapi.yml, openapi/benchling-appcanvas-api-openapi.yml,\n  openapi/benchling-appconfigvalue-api-openapi.yml, openapi/benchling-apps-api-openapi.yml,\n  openapi/benchling-appsession-api-openapi.yml, openapi/benchling-assay-results-api-openapi.yml,\n  openapi/benchling-assay-runs-api-openapi.yml, openapi/benchling-assembly-api-openapi.yml,\n  openapi/benchling-audit-api-openapi.yml, openapi/benchling-audit-log-api-openapi.yml, openapi/benchling-authentication-api-openapi.yml,\n\
+  \  openapi/benchling-blobs-api-openapi.yml, openapi/benchling-box-api-openapi.yml, openapi/benchling-boxes-api-openapi.yml,\n  openapi/benchling-boxschema-api-openapi.yml, openapi/benchling-bulk-export-api-openapi.yml,\n  openapi/benchling-chart-api-openapi.yml, openapi/benchling-codon-usage-tables-api-openapi.yml,\n  openapi/benchling-collaboration-api-openapi.yml, openapi/benchling-configimporthistoryentry-api-openapi.yml,\n  openapi/benchling-connect-api-openapi.yml, openapi/benchling-container-api-openapi.yml, openapi/benchling-containers-api-openapi.yml,\n  openapi/benchling-containerschema-api-openapi.yml, openapi/benchling-custom-entities-api-openapi.yml,\n  openapi/benchling-custom-notations-api-openapi.yml, openapi/benchling-customentity-api-openapi.yml,\n  openapi/benchling-customentityschema-api-openapi.yml, openapi/benchling-data-frames-api-openapi.yml,\n  openapi/benchling-dataframe-api-openapi.yml, openapi/benchling-dataset-api-openapi.yml, openapi/benchling-datasets-api-openapi.yml,\n\
+  \  openapi/benchling-dna-alignments-api-openapi.yml, openapi/benchling-dna-oligos-api-openapi.yml,\n  openapi/benchling-dna-sequences-api-openapi.yml, openapi/benchling-dnaoligo-api-openapi.yml,\n  openapi/benchling-dnaoligoschema-api-openapi.yml, openapi/benchling-dnasequence-api-openapi.yml,\n  openapi/benchling-dnasequenceschema-api-openapi.yml, openapi/benchling-documentexport-api-openapi.yml,\n  openapi/benchling-documentpart-api-openapi.yml, openapi/benchling-dropdown-api-openapi.yml,\n  openapi/benchling-dropdownlinkfielddefinition-api-openapi.yml, openapi/benchling-dropdownoption-api-openapi.yml,\n  openapi/benchling-dropdowns-api-openapi.yml, openapi/benchling-entities-api-openapi.yml, openapi/benchling-entityschema-api-openapi.yml,\n  openapi/benchling-entries-api-openapi.yml, openapi/benchling-entry-api-openapi.yml, openapi/benchling-entryschema-api-openapi.yml,\n  openapi/benchling-entrysubtemplate-api-openapi.yml, openapi/benchling-entrytemplate-api-openapi.yml,\n  openapi/benchling-enzyme-api-openapi.yml,\
+  \ openapi/benchling-enzymelist-api-openapi.yml, openapi/benchling-enzymes-api-openapi.yml,\n  openapi/benchling-equipmentschema-api-openapi.yml, openapi/benchling-events-api-openapi.yml,\n  openapi/benchling-eventsubscription-api-openapi.yml, openapi/benchling-exports-api-openapi.yml,\n  openapi/benchling-feature-libraries-api-openapi.yml, openapi/benchling-featurelibrary-api-openapi.yml,\n  openapi/benchling-featurelibraryitem-api-openapi.yml, openapi/benchling-fieldset-api-openapi.yml,\n  openapi/benchling-file-api-openapi.yml, openapi/benchling-files-api-openapi.yml, openapi/benchling-folder-api-openapi.yml,\n  openapi/benchling-folders-api-openapi.yml, openapi/benchling-germline-api-openapi.yml, openapi/benchling-groupmembership-api-openapi.yml,\n  openapi/benchling-instrument-queries-api-openapi.yml, openapi/benchling-inventory-api-openapi.yml,\n  openapi/benchling-lab-automation-api-openapi.yml, openapi/benchling-label-templates-api-openapi.yml,\n  openapi/benchling-labeltemplate-api-openapi.yml,\
+  \ openapi/benchling-legacy-requests-api-openapi.yml,\n  openapi/benchling-legacy-workflows-api-openapi.yml, openapi/benchling-legacy-workflows-deprecated-api-openapi.yml,\n  openapi/benchling-legacyappinstallation-api-openapi.yml, openapi/benchling-libraryparameterdefinition-api-openapi.yml,\n  openapi/benchling-limits-api-openapi.yml, openapi/benchling-location-api-openapi.yml, openapi/benchling-locations-api-openapi.yml,\n  openapi/benchling-locationschema-api-openapi.yml, openapi/benchling-matrixplate-api-openapi.yml,\n  openapi/benchling-matrixplateschema-api-openapi.yml, openapi/benchling-mixture-api-openapi.yml,\n  openapi/benchling-mixtures-api-openapi.yml, openapi/benchling-mixtureschema-api-openapi.yml,\n  openapi/benchling-molecule-api-openapi.yml, openapi/benchling-molecules-api-openapi.yml, openapi/benchling-moleculeschema-api-openapi.yml,\n  openapi/benchling-monomers-api-openapi.yml, openapi/benchling-nucleotide-alignments-api-openapi.yml,\n  openapi/benchling-nucleotidealignment-api-openapi.yml,\
+  \ openapi/benchling-nucleotidemonomer-api-openapi.yml,\n  openapi/benchling-oligoconjugate-api-openapi.yml, openapi/benchling-oligoconjugateschema-api-openapi.yml,\n  openapi/benchling-oligoduplex-api-openapi.yml, openapi/benchling-oligoduplexschema-api-openapi.yml,\n  openapi/benchling-oligos-api-openapi.yml, openapi/benchling-organization-api-openapi.yml,\n  openapi/benchling-organizations-api-openapi.yml, openapi/benchling-pipeline-step-api-openapi.yml,\n  openapi/benchling-pipelinestepdata-api-openapi.yml, openapi/benchling-plate-api-openapi.yml,\n  openapi/benchling-platedesigntemplate-api-openapi.yml, openapi/benchling-plates-api-openapi.yml,\n  openapi/benchling-plateschema-api-openapi.yml, openapi/benchling-policy-api-openapi.yml, openapi/benchling-predictionbatch-api-openapi.yml,\n  openapi/benchling-predictionjob-api-openapi.yml, openapi/benchling-printer-api-openapi.yml,\n  openapi/benchling-printers-api-openapi.yml, openapi/benchling-procedure-api-openapi.yml, openapi/benchling-procedureflowchart-api-openapi.yml,\n\
+  \  openapi/benchling-procedureflowchartconfigversionproxy-api-openapi.yml, openapi/benchling-procedureflowchartversion-api-openapi.yml,\n  openapi/benchling-proceduremethoddefinitionversion-api-openapi.yml, openapi/benchling-proceduremethodexecutioninstance-api-openapi.yml,\n  openapi/benchling-proceduremethodexecutioninstanceassociation-api-openapi.yml, openapi/benchling-procedureparameter-api-openapi.yml,\n  openapi/benchling-procedureparameterconfirmationvalue-api-openapi.yml, openapi/benchling-procedureparametermeasuredvalue-api-openapi.yml,\n  openapi/benchling-procedureparameterplannedvalue-api-openapi.yml, openapi/benchling-procedureparameterversion-api-openapi.yml,\n  openapi/benchling-procedurerun-api-openapi.yml, openapi/benchling-procedureruncondition-api-openapi.yml,\n  openapi/benchling-procedurerunconditionreplicate-api-openapi.yml, openapi/benchling-procedurerunplan-api-openapi.yml,\n  openapi/benchling-procedurerunplancondition-api-openapi.yml, openapi/benchling-procedurestepdefinitionversion-api-openapi.yml,\n\
+  \  openapi/benchling-procedurestepexecutioninstance-api-openapi.yml, openapi/benchling-project-api-openapi.yml,\n  openapi/benchling-projects-api-openapi.yml, openapi/benchling-protein-api-openapi.yml, openapi/benchling-proteinformat-api-openapi.yml,\n  openapi/benchling-proteinschema-api-openapi.yml, openapi/benchling-proteinversion-api-openapi.yml,\n  openapi/benchling-reaction-api-openapi.yml, openapi/benchling-registry-api-openapi.yml, openapi/benchling-requestv2definition-api-openapi.yml,\n  openapi/benchling-requestv2submission-api-openapi.yml, openapi/benchling-result-api-openapi.yml,\n  openapi/benchling-resultschema-api-openapi.yml, openapi/benchling-review-api-openapi.yml,\n  openapi/benchling-reviewchange-api-openapi.yml, openapi/benchling-reviewprocess-api-openapi.yml,\n  openapi/benchling-reviewprocessstage-api-openapi.yml, openapi/benchling-rna-oligos-api-openapi.yml,\n  openapi/benchling-rna-sequences-api-openapi.yml, openapi/benchling-rnaoligo-api-openapi.yml,\n  openapi/benchling-rnaoligoschema-api-openapi.yml,\
+  \ openapi/benchling-rnasequence-api-openapi.yml,\n  openapi/benchling-rnasequenceschema-api-openapi.yml, openapi/benchling-run-api-openapi.yml,\n  openapi/benchling-runschema-api-openapi.yml, openapi/benchling-schemas-api-openapi.yml, openapi/benchling-scratchfile-api-openapi.yml,\n  openapi/benchling-scratchplate-api-openapi.yml, openapi/benchling-search-api-openapi.yml,\n  openapi/benchling-serviceprincipal-api-openapi.yml, openapi/benchling-sqldashboard-api-openapi.yml,\n  openapi/benchling-sqldashboardblock-api-openapi.yml, openapi/benchling-stageentry-api-openapi.yml,\n  openapi/benchling-study-api-openapi.yml, openapi/benchling-studyitemassociation-api-openapi.yml,\n  openapi/benchling-studyschema-api-openapi.yml, openapi/benchling-tasks-api-openapi.yml, openapi/benchling-team-api-openapi.yml,\n  openapi/benchling-teams-api-openapi.yml, openapi/benchling-templatecollection-api-openapi.yml,\n  openapi/benchling-testdefinition-api-openapi.yml, openapi/benchling-testorder-api-openapi.yml,\n\
+  \  openapi/benchling-unit-api-openapi.yml, openapi/benchling-unittype-api-openapi.yml, openapi/benchling-user-api-openapi.yml,\n  openapi/benchling-users-api-openapi.yml, openapi/benchling-warehouse-api-openapi.yml, openapi/benchling-warehousecredential-api-openapi.yml,\n  openapi/benchling-warehousecustomview-api-openapi.yml, openapi/benchling-wellplate-api-openapi.yml,\n  openapi/benchling-wellplateposition-api-openapi.yml, openapi/benchling-wellplateschema-api-openapi.yml,\n  openapi/benchling-workflow-flowchart-config-versions-api-openapi.yml, openapi/benchling-workflow-flowcharts-api-openapi.yml,\n  openapi/benchling-workflow-outputs-api-openapi.yml, openapi/benchling-workflow-task-api-openapi.yml,\n  openapi/benchling-workflow-task-groups-api-openapi.yml, openapi/benchling-workflow-tasks-api-openapi.yml,\n  openapi/benchling-workflowoutput-api-openapi.yml, openapi/benchling-workflowoutputschema-api-openapi.yml,\n  openapi/benchling-workflowtaskgroup-api-openapi.yml, openapi/benchling-workflowtaskschema-api-openapi.yml,\n\
+  \  openapi/benchling-worklist-api-openapi.yml, openapi/benchling-worksheet-api-openapi.yml\nschemes:\n- name: oAuth\n  source: openapi/benchling-aa-sequences-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-aasequence-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-aasequenceschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-agent-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-analysis-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-analysistemplate-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-analysistemplatedataframevariable-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-analysistemplatevariable-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-app-installation-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials\
+  \ flow intended for service access\n- name: oAuth\n  source: openapi/benchling-appcanvas-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-appconfigvalue-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-apps-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-appsession-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-assay-results-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-assay-runs-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-assembly-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-audit-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-audit-log-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-authentication-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-blobs-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-box-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-boxes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-boxschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source:\
+  \ openapi/benchling-bulk-export-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-chart-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-codon-usage-tables-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-collaboration-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-configimporthistoryentry-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description:\
+  \ OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-connect-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-container-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-containers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-containerschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-custom-entities-api-openapi.yml\n  flows:\n\
+  \  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-custom-notations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-customentity-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-customentityschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-data-frames-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n\
+  - name: oAuth\n  source: openapi/benchling-dataframe-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dataset-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-datasets-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dna-alignments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dna-oligos-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description:\
+  \ OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dna-sequences-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dnaoligo-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dnaoligoschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dnasequence-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dnasequenceschema-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-documentexport-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-documentpart-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dropdown-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dropdownlinkfielddefinition-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for\
+  \ service access\n- name: oAuth\n  source: openapi/benchling-dropdownoption-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-dropdowns-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-entities-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-entityschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-entries-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n\
+  \  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-entry-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-entryschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-entrysubtemplate-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-entrytemplate-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-enzyme-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-enzymelist-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-enzymes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-equipmentschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-events-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name:\
+  \ oAuth\n  source: openapi/benchling-eventsubscription-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-exports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-feature-libraries-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-featurelibrary-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-featurelibraryitem-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n\
+  \  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-fieldset-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-file-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-files-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-folder-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-folders-api-openapi.yml\n  flows:\n  - flow:\
+  \ clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-germline-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-groupmembership-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-instrument-queries-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-inventory-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n\
+  \  source: openapi/benchling-lab-automation-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-label-templates-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-labeltemplate-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-legacy-requests-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-legacy-workflows-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n\
+  \  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-legacy-workflows-deprecated-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-legacyappinstallation-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-libraryparameterdefinition-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-limits-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-location-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-locations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-locationschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-matrixplate-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-matrixplateschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n\
+  - name: oAuth\n  source: openapi/benchling-mixture-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-mixtures-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-mixtureschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-molecule-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-molecules-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description:\
+  \ OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-moleculeschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-monomers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-nucleotide-alignments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v2/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-nucleotidealignment-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-nucleotidemonomer-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-oligoconjugate-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-oligoconjugateschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-oligoduplex-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for service access\n- name: oAuth\n  source: openapi/benchling-oligoduplexschema-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n  description: OAuth2 Client Credentials flow intended for\
+  \ service access\n- name: oAuth\n  source: openapi/benchling-oligos-api-openapi.yml\n  flows:\n\n\n# --- truncated at 32 KB (51 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/scopes/benchling-scopes.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/scopes/benchling-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

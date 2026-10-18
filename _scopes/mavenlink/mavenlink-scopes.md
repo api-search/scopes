@@ -694,6 +694,7 @@ tags:
 - MCP
 - Agent-Native
 - Company
+- A2A
 token_bound: false
 token_urls:
 - https://app.mavenlink.com/oauth/token

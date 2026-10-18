@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsof
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/scopes/microsoft-entra-scopes.yml
 summary_line: 13 scopes · authorizationCode/clientCredentials
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Azure AD
 - Entra

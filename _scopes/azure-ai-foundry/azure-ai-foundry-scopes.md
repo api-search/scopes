@@ -42,6 +42,12 @@ api_specs:
   slug: microsoft-azure-ai-foundry-workspaces-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-workspaces-api-openapi.yml
+- filename: azure-ai-foundry-decisions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure AI Foundry Decisions API
+  slug: azure-ai-foundry-decisions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-decisions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -91,7 +97,7 @@ tags:
 - Foundation Models
 - Machine Learning
 - Cloud
-- Azure
+- Microsoft Azure
 - A2A
 token_bound: false
 token_urls:

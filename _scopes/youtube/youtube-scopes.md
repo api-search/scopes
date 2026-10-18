@@ -248,6 +248,9 @@ tags:
 - Social
 - Streaming
 - Live Streaming
+- Channels
+- Playlists
+- Search
 token_bound: false
 token_urls:
 - https://oauth2.googleapis.com/token

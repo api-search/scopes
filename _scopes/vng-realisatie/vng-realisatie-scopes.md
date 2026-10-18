@@ -424,7 +424,7 @@ tags:
 - Netherlands
 - API Standards
 - Common Ground
-- Open Standards
+- Open Standard
 - Public Sector
 token_bound: false
 token_urls: []

@@ -21,16 +21,16 @@ api_specs:
 authorization_urls:
 - https://api.kameleoon.com/oauth/authorize
 description: ''
-docs: https://docs.kameleoon.com/developer-docs/apis/automation-api-rest/get-started/get-started
+docs: ''
 flows:
 - clientCredentials
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Kameleoon Scopes
 name_suffix: OAuth Scopes
-note: Kameleoon's Automation API uses OAuth 2.0 client credentials and authorization code flows but does not document any OAuth scopes; access is tied to the Kameleoon user account behind the API credentials (https://docs.kameleoon.com/developer-docs/apis/automation-api-rest/get-started/get-started).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Kameleoon uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -48,7 +48,23 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://api.kameleoon.com/oauth/token
   name: oauth2
-  source: openapi/kameleoon-openapi.yml
+  source: openapi/kameleoon-experiments-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.kameleoon.com/oauth/token
+  - authorizationUrl: https://api.kameleoon.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.kameleoon.com/oauth/token
+  name: oauth2
+  source: openapi/kameleoon-oauth-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.kameleoon.com/oauth/token
+  - authorizationUrl: https://api.kameleoon.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.kameleoon.com/oauth/token
+  name: oauth2
+  source: openapi/kameleoon-personalizations-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -56,7 +72,8 @@ slug: kameleoon-scopes
 source_filename: kameleoon-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kameleoon-openapi.yml\ndocs: https://docs.kameleoon.com/developer-docs/apis/automation-api-rest/get-started/get-started\nnote: >-\n  Kameleoon's Automation API uses OAuth 2.0 client credentials and authorization\n  code flows but does not document any OAuth scopes; access is tied to the\n  Kameleoon user account behind the API credentials\n  (https://docs.kameleoon.com/developer-docs/apis/automation-api-rest/get-started/get-started).\nschemes:\n- name: oauth2\n  source: openapi/kameleoon-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.kameleoon.com/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.kameleoon.com/oauth/authorize\n    tokenUrl: https://api.kameleoon.com/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/kameleoon-experiments-api-openapi.yml, openapi/kameleoon-oauth-api-openapi.yml,\n  openapi/kameleoon-personalizations-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/kameleoon-experiments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.kameleoon.com/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.kameleoon.com/oauth/authorize\n    tokenUrl: https://api.kameleoon.com/oauth/token\n- name: oauth2\n  source: openapi/kameleoon-oauth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.kameleoon.com/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.kameleoon.com/oauth/authorize\n    tokenUrl: https://api.kameleoon.com/oauth/token\n- name: oauth2\n  source: openapi/kameleoon-personalizations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.kameleoon.com/oauth/token\n\
+  \  - flow: authorizationCode\n    authorizationUrl: https://api.kameleoon.com/oauth/authorize\n    tokenUrl: https://api.kameleoon.com/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/scopes/kameleoon-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

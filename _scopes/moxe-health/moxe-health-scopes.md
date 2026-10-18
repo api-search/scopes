@@ -90,7 +90,7 @@ tags:
 - Clinical Data
 - Payers
 - Providers
-- EHR
+- Electronic Health Records
 - Health Data Exchange
 - Claims
 - Risk Adjustment

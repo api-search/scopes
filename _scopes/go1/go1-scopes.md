@@ -123,7 +123,6 @@ tags:
 - E-Learning
 - Corporate Training
 - Content
-- Learning Management
 - LMS
 - Education
 - Webhook

@@ -101,7 +101,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galxe/refs/hea
 summary_line: 12 scopes · authorizationCode
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Digital Identity
 - Credentials
 - Quests
@@ -109,7 +109,6 @@ tags:
 - GraphQL
 - Authentication
 - Blockchain
-- Web3
 token_bound: false
 token_urls:
 - https://api.galxe.com/oauth/auth/2/token

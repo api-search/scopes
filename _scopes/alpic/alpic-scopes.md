@@ -94,7 +94,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alpic/refs/hea
 summary_line: 3 scopes
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - MCP
 - Cloud Platform
 - Developer Tools

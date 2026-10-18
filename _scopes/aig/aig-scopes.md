@@ -81,7 +81,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Insurance
 - Financial Services
-- Property Casualty
+- Property and Casualty
 - Cyber Insurance
 - Enterprise
 - Fortune 100

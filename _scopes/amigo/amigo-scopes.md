@@ -690,7 +690,7 @@ tags:
 - Clinical
 - Conversational AI
 - FHIR
-- EHR
+- Electronic Health Records
 - HIPAA
 token_bound: false
 token_urls: []

@@ -72,7 +72,7 @@ summary_line: 4 scopes
 tags:
 - Company
 - Payments
-- Digital Wallets
+- Digital Wallet
 - Open Banking
 - QR Code Payments
 - Loyalty

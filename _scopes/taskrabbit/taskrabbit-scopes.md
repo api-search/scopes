@@ -32,15 +32,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-estimate-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://developer.taskrabbit.com/docs/getting-started
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Taskrabbit Scopes
 name_suffix: OAuth Scopes
-note: TaskRabbit's gated Partner API authenticates via Auth0 machine-to-machine OAuth2 client-credentials tokens issued during partner onboarding, and its documentation (https://developer.taskrabbit.com/docs/getting-started) publishes no OAuth scopes or scope-based permissions.
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'TaskRabbit uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -56,7 +56,31 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://taskrabbit.auth0.com/oauth/token
   name: oauth2
-  source: openapi/taskrabbit-openapi.yml
+  source: openapi/taskrabbit-delivery-api-openapi.yml
+- description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are issued during partner onboarding.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://taskrabbit.auth0.com/oauth/token
+  name: oauth2
+  source: openapi/taskrabbit-home-services-availability-api-openapi.yml
+- description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are issued during partner onboarding.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://taskrabbit.auth0.com/oauth/token
+  name: oauth2
+  source: openapi/taskrabbit-home-services-booking-api-openapi.yml
+- description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are issued during partner onboarding.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://taskrabbit.auth0.com/oauth/token
+  name: oauth2
+  source: openapi/taskrabbit-home-services-catalog-api-openapi.yml
+- description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are issued during partner onboarding.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://taskrabbit.auth0.com/oauth/token
+  name: oauth2
+  source: openapi/taskrabbit-home-services-estimate-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -64,7 +88,9 @@ slug: taskrabbit-scopes
 source_filename: taskrabbit-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/taskrabbit-openapi.yml\ndocs: https://developer.taskrabbit.com/docs/getting-started\nnote: TaskRabbit's gated Partner API authenticates via Auth0 machine-to-machine OAuth2\n  client-credentials tokens issued during partner onboarding, and its documentation\n  (https://developer.taskrabbit.com/docs/getting-started) publishes no OAuth scopes\n  or scope-based permissions.\nschemes:\n- name: oauth2\n  source: openapi/taskrabbit-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/taskrabbit-delivery-api-openapi.yml, openapi/taskrabbit-home-services-availability-api-openapi.yml,\n  openapi/taskrabbit-home-services-booking-api-openapi.yml, openapi/taskrabbit-home-services-catalog-api-openapi.yml,\n  openapi/taskrabbit-home-services-estimate-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/taskrabbit-delivery-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\n- name: oauth2\n  source: openapi/taskrabbit-home-services-availability-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\n- name: oauth2\n  source:\
+  \ openapi/taskrabbit-home-services-booking-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\n- name: oauth2\n  source: openapi/taskrabbit-home-services-catalog-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\n- name: oauth2\n  source: openapi/taskrabbit-home-services-estimate-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes,\
+  \ and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/scopes/taskrabbit-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

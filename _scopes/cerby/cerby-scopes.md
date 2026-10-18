@@ -104,7 +104,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerby/refs/hea
 summary_line: 17 scopes
 tags:
 - Identity
-- Access Management
+- Identity and Access Management
 - Security
 - Password Management
 - Provisioning

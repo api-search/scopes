@@ -67,10 +67,10 @@ flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Verdigris Technologies Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Verdigris Technologies uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -85,7 +85,52 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://auth.verdigris.co/oauth/token
   name: oauth2
-  source: openapi/verdigris-technologies-data-v4-openapi.json
+  source: openapi/verdigris-technologies-control-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.verdigris.co/oauth/token
+  name: oauth2
+  source: openapi/verdigris-technologies-current-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.verdigris.co/oauth/token
+  name: oauth2
+  source: openapi/verdigris-technologies-energy-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.verdigris.co/oauth/token
+  name: oauth2
+  source: openapi/verdigris-technologies-events-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.verdigris.co/oauth/token
+  name: oauth2
+  source: openapi/verdigris-technologies-forecast-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.verdigris.co/oauth/token
+  name: oauth2
+  source: openapi/verdigris-technologies-power-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.verdigris.co/oauth/token
+  name: oauth2
+  source: openapi/verdigris-technologies-power-factor-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.verdigris.co/oauth/token
+  name: oauth2
+  source: openapi/verdigris-technologies-total-harmonic-distortion-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.verdigris.co/oauth/token
+  name: oauth2
+  source: openapi/verdigris-technologies-voltage-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.verdigris.co/oauth/token
+  name: oauth2
+  source: openapi/verdigris-technologies-weather-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -93,7 +138,9 @@ slug: verdigris-technologies-scopes
 source_filename: verdigris-technologies-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/verdigris-technologies-data-v4-openapi.json\nschemes:\n- name: oauth2\n  source: openapi/verdigris-technologies-data-v4-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.verdigris.co/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/verdigris-technologies-control-api-openapi.yml, openapi/verdigris-technologies-current-api-openapi.yml,\n  openapi/verdigris-technologies-energy-api-openapi.yml, openapi/verdigris-technologies-events-api-openapi.yml,\n  openapi/verdigris-technologies-forecast-api-openapi.yml, openapi/verdigris-technologies-power-api-openapi.yml,\n  openapi/verdigris-technologies-power-factor-api-openapi.yml, openapi/verdigris-technologies-total-harmonic-distortion-api-openapi.yml,\n  openapi/verdigris-technologies-voltage-api-openapi.yml, openapi/verdigris-technologies-weather-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/verdigris-technologies-control-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.verdigris.co/oauth/token\n- name: oauth2\n  source: openapi/verdigris-technologies-current-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.verdigris.co/oauth/token\n\
+  - name: oauth2\n  source: openapi/verdigris-technologies-energy-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.verdigris.co/oauth/token\n- name: oauth2\n  source: openapi/verdigris-technologies-events-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.verdigris.co/oauth/token\n- name: oauth2\n  source: openapi/verdigris-technologies-forecast-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.verdigris.co/oauth/token\n- name: oauth2\n  source: openapi/verdigris-technologies-power-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.verdigris.co/oauth/token\n- name: oauth2\n  source: openapi/verdigris-technologies-power-factor-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.verdigris.co/oauth/token\n- name: oauth2\n  source: openapi/verdigris-technologies-total-harmonic-distortion-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://auth.verdigris.co/oauth/token\n- name: oauth2\n  source: openapi/verdigris-technologies-voltage-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.verdigris.co/oauth/token\n- name: oauth2\n  source: openapi/verdigris-technologies-weather-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.verdigris.co/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/scopes/verdigris-technologies-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

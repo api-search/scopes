@@ -32,15 +32,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-synchronizationruns-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://help.sap.com/docs/leanix/ea/authentication-to-sap-leanix-services
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Leanix Scopes
 name_suffix: OAuth Scopes
-note: SAP LeanIX OAuth 2.0 does not use published scopes; the client_credentials token response returns an empty scope value and access is governed by the permission role (Admin, Member, Viewer) of the technical user or API token encoded in the JWT (https://help.sap.com/docs/leanix/ea/authentication-to-sap-leanix-services).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'LeanIX uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -55,7 +55,27 @@ schemes:
   - flow: clientCredentials
     tokenUrl: /services/mtm/v1/oauth2/token
   name: token
-  source: openapi/leanix-openapi.json
+  source: openapi/leanix-configurations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /services/mtm/v1/oauth2/token
+  name: token
+  source: openapi/leanix-examples-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /services/mtm/v1/oauth2/token
+  name: token
+  source: openapi/leanix-fastsynchronizationruns-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /services/mtm/v1/oauth2/token
+  name: token
+  source: openapi/leanix-storages-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /services/mtm/v1/oauth2/token
+  name: token
+  source: openapi/leanix-synchronizationruns-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -63,7 +83,8 @@ slug: leanix-scopes
 source_filename: leanix-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/leanix-openapi.json\ndocs: https://help.sap.com/docs/leanix/ea/authentication-to-sap-leanix-services\nnote: >-\n  SAP LeanIX OAuth 2.0 does not use published scopes; the client_credentials\n  token response returns an empty scope value and access is governed by the\n  permission role (Admin, Member, Viewer) of the technical user or API token\n  encoded in the JWT\n  (https://help.sap.com/docs/leanix/ea/authentication-to-sap-leanix-services).\nschemes:\n- name: token\n  source: openapi/leanix-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /services/mtm/v1/oauth2/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/leanix-configurations-api-openapi.yml, openapi/leanix-examples-api-openapi.yml,\n  openapi/leanix-fastsynchronizationruns-api-openapi.yml, openapi/leanix-storages-api-openapi.yml,\n  openapi/leanix-synchronizationruns-api-openapi.yml\nschemes:\n- name: token\n  source: openapi/leanix-configurations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /services/mtm/v1/oauth2/token\n- name: token\n  source: openapi/leanix-examples-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /services/mtm/v1/oauth2/token\n- name: token\n  source: openapi/leanix-fastsynchronizationruns-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /services/mtm/v1/oauth2/token\n- name: token\n  source: openapi/leanix-storages-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /services/mtm/v1/oauth2/token\n- name: token\n  source: openapi/leanix-synchronizationruns-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: /services/mtm/v1/oauth2/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/scopes/leanix-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -172,7 +172,7 @@ tags:
 - Compliance
 - Biometrics
 - Transaction Monitoring
-- Crypto
+- Cryptocurrency
 token_bound: false
 token_urls: []
 ---

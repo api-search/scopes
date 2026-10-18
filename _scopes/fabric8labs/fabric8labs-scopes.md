@@ -52,7 +52,6 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Company
 - Advanced Manufacturing
-- Additive Manufacturing
 - 3D Printing
 - Metal 3D Printing
 - Electrochemical Additive Manufacturing

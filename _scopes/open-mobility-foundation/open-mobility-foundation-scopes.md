@@ -129,7 +129,7 @@ tags:
 - Company
 - Mobility
 - Open Source
-- Open Standards
+- Open Standard
 - Transportation
 - Cities
 - Micromobility

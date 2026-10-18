@@ -44,15 +44,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-prospects-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://docs.partners.daxko.com/tutorials/authentication/
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Zenplanner Scopes
 name_suffix: OAuth Scopes
-note: The Daxko Partners platform (which hosts the Zen Planner API) does not publish named OAuth permission scopes - its client_credentials token flow uses the scope field as a customer/client identifier rather than a permissions scope, per https://docs.partners.daxko.com/tutorials/authentication/.
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Zen Planner uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -68,7 +68,43 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token
   name: oauth2
-  source: openapi/zenplanner-openapi.yml
+  source: openapi/zenplanner-classes-api-openapi.yml
+- description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens from https://operations.oauth2.partners.daxko.com/token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token
+  name: oauth2
+  source: openapi/zenplanner-groups-api-openapi.yml
+- description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens from https://operations.oauth2.partners.daxko.com/token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token
+  name: oauth2
+  source: openapi/zenplanner-locations-api-openapi.yml
+- description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens from https://operations.oauth2.partners.daxko.com/token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token
+  name: oauth2
+  source: openapi/zenplanner-memberships-api-openapi.yml
+- description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens from https://operations.oauth2.partners.daxko.com/token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token
+  name: oauth2
+  source: openapi/zenplanner-people-api-openapi.yml
+- description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens from https://operations.oauth2.partners.daxko.com/token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token
+  name: oauth2
+  source: openapi/zenplanner-programs-api-openapi.yml
+- description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens from https://operations.oauth2.partners.daxko.com/token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token
+  name: oauth2
+  source: openapi/zenplanner-prospects-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -76,7 +112,10 @@ slug: zenplanner-scopes
 source_filename: zenplanner-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zenplanner-openapi.yml\ndocs: https://docs.partners.daxko.com/tutorials/authentication/\nnote: The Daxko Partners platform (which hosts the Zen Planner API) does not publish\n  named OAuth permission scopes - its client_credentials token flow uses the scope\n  field as a customer/client identifier rather than a permissions scope, per\n  https://docs.partners.daxko.com/tutorials/authentication/.\nschemes:\n- name: oauth2\n  source: openapi/zenplanner-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/zenplanner-classes-api-openapi.yml, openapi/zenplanner-groups-api-openapi.yml,\n  openapi/zenplanner-locations-api-openapi.yml, openapi/zenplanner-memberships-api-openapi.yml,\n  openapi/zenplanner-people-api-openapi.yml, openapi/zenplanner-programs-api-openapi.yml, openapi/zenplanner-prospects-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/zenplanner-classes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-groups-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n\
+  \  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-locations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-memberships-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token\
+  \ and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-people-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-programs-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-prospects-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/scopes/zenplanner-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -32,15 +32,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-status-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://developers.inflection.ai/docs/authentication
+docs: ''
 flows:
 - password
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Inflection Scopes
 name_suffix: OAuth Scopes
-note: Inflection AI does not use OAuth scopes; the developer API is authenticated with bearer API keys obtained from the developer portal, and no scopes or granular permissions are documented (https://developers.inflection.ai/docs/authentication).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Inflection AI uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -55,7 +55,27 @@ schemes:
   - flow: password
     tokenUrl: token
   name: OAuth2PasswordBearer
-  source: openapi/inflection-openapi.json
+  source: openapi/inflection-chat-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: token
+  name: OAuth2PasswordBearer
+  source: openapi/inflection-discovery-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: token
+  name: OAuth2PasswordBearer
+  source: openapi/inflection-embeddings-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: token
+  name: OAuth2PasswordBearer
+  source: openapi/inflection-external-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: token
+  name: OAuth2PasswordBearer
+  source: openapi/inflection-status-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -63,7 +83,8 @@ slug: inflection-scopes
 source_filename: inflection-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/inflection-openapi.json\ndocs: https://developers.inflection.ai/docs/authentication\nnote: >-\n  Inflection AI does not use OAuth scopes; the developer API is authenticated with\n  bearer API keys obtained from the developer portal, and no scopes or granular\n  permissions are documented (https://developers.inflection.ai/docs/authentication).\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-openapi.json\n  flows:\n  - flow: password\n    tokenUrl: token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/inflection-chat-api-openapi.yml, openapi/inflection-discovery-api-openapi.yml,\n  openapi/inflection-embeddings-api-openapi.yml, openapi/inflection-external-api-openapi.yml,\n  openapi/inflection-status-api-openapi.yml\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-chat-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-discovery-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-embeddings-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-external-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-status-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\nscopes: []\nnote: The OAuth2\
+  \ security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/scopes/inflection-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

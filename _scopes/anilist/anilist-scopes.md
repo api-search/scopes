@@ -15,16 +15,16 @@ api_specs:
 authorization_urls:
 - https://anilist.co/api/v2/oauth/authorize
 description: ''
-docs: https://docs.anilist.co/guide/auth/
+docs: ''
 flows:
 - authorizationCode
 - implicit
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Anilist Scopes
 name_suffix: OAuth Scopes
-note: AniList's OAuth2 does not use scopes — the auth docs state "Scopes are not supported. Access tokens provide (almost) full access to a user's data" (https://docs.anilist.co/guide/auth/).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'AniList uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -43,6 +43,24 @@ schemes:
   - authorizationUrl: https://anilist.co/api/v2/oauth/authorize
     flow: implicit
   name: oauth2
+  source: openapi/anilist-graph-ql-api-openapi.yml
+- description: AniList OAuth2 (no scopes supported)
+  flows:
+  - authorizationUrl: https://anilist.co/api/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://anilist.co/api/v2/oauth/token
+  - authorizationUrl: https://anilist.co/api/v2/oauth/authorize
+    flow: implicit
+  name: oauth2
+  source: openapi/anilist-oauth2-api-openapi.yml
+- description: AniList OAuth2 (no scopes supported)
+  flows:
+  - authorizationUrl: https://anilist.co/api/v2/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://anilist.co/api/v2/oauth/token
+  - authorizationUrl: https://anilist.co/api/v2/oauth/authorize
+    flow: implicit
+  name: oauth2
   source: openapi/anilist-openapi.yml
 scope_count: 0
 scope_names: []
@@ -51,7 +69,8 @@ slug: anilist-scopes
 source_filename: anilist-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/anilist-openapi.yml\ndocs: https://docs.anilist.co/guide/auth/\nnote: AniList's OAuth2 does not use scopes — the auth docs state \"Scopes are not\n  supported. Access tokens provide (almost) full access to a user's data\"\n  (https://docs.anilist.co/guide/auth/).\nschemes:\n- name: oauth2\n  source: openapi/anilist-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n    tokenUrl: https://anilist.co/api/v2/oauth/token\n  - flow: implicit\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n  description: AniList OAuth2 (no scopes supported)\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/anilist-graph-ql-api-openapi.yml, openapi/anilist-oauth2-api-openapi.yml, openapi/anilist-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/anilist-graph-ql-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n    tokenUrl: https://anilist.co/api/v2/oauth/token\n  - flow: implicit\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n  description: AniList OAuth2 (no scopes supported)\n- name: oauth2\n  source: openapi/anilist-oauth2-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n    tokenUrl: https://anilist.co/api/v2/oauth/token\n  - flow: implicit\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n  description: AniList OAuth2 (no scopes supported)\n- name: oauth2\n  source: openapi/anilist-openapi.yml\n  flows:\n  - flow: authorizationCode\n \
+  \   authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n    tokenUrl: https://anilist.co/api/v2/oauth/token\n  - flow: implicit\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n  description: AniList OAuth2 (no scopes supported)\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/scopes/anilist-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

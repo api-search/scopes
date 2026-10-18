@@ -94,7 +94,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Business Process
 - Collaboration
-- Diagrams
+- Diagramming
 - Enterprise
 - Flowcharts
 - Microsoft 365

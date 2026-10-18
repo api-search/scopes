@@ -51,7 +51,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Business Communications
 - Conversations
-- Customer Support
+- Customer Service
 - Google
 - Messaging
 token_bound: false

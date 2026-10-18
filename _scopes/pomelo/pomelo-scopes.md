@@ -38,15 +38,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/openapi/pomelo-users-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://developers.pomelo.la/en/api-reference/general/authorization
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Pomelo Scopes
 name_suffix: OAuth Scopes
-note: Pomelo's OAuth 2.0 uses the client_credentials grant (client_id, client_secret, audience only - no scope parameter), and while each API validates that the token's internally granted scopes (e.g. arg:cards:get-card in token response examples) match the required permissions, no public scopes reference is published (https://developers.pomelo.la/en/api-reference/general/authorization).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Pomelo uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -61,7 +61,32 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://auth.pomelo.la/oauth/token
   name: oauth2
-  source: openapi/pomelo-openapi.yml
+  source: openapi/pomelo-authentication-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.pomelo.la/oauth/token
+  name: oauth2
+  source: openapi/pomelo-card-accounts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.pomelo.la/oauth/token
+  name: oauth2
+  source: openapi/pomelo-cards-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.pomelo.la/oauth/token
+  name: oauth2
+  source: openapi/pomelo-transactions-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.pomelo.la/oauth/token
+  name: oauth2
+  source: openapi/pomelo-transfers-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.pomelo.la/oauth/token
+  name: oauth2
+  source: openapi/pomelo-users-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -69,7 +94,8 @@ slug: pomelo-scopes
 source_filename: pomelo-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pomelo-openapi.yml\ndocs: https://developers.pomelo.la/en/api-reference/general/authorization\nnote: Pomelo's OAuth 2.0 uses the client_credentials grant (client_id, client_secret,\n  audience only - no scope parameter), and while each API validates that the token's\n  internally granted scopes (e.g. arg:cards:get-card in token response examples) match\n  the required permissions, no public scopes reference is published\n  (https://developers.pomelo.la/en/api-reference/general/authorization).\nschemes:\n- name: oauth2\n  source: openapi/pomelo-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.pomelo.la/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/pomelo-authentication-api-openapi.yml, openapi/pomelo-card-accounts-api-openapi.yml,\n  openapi/pomelo-cards-api-openapi.yml, openapi/pomelo-transactions-api-openapi.yml, openapi/pomelo-transfers-api-openapi.yml,\n  openapi/pomelo-users-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/pomelo-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.pomelo.la/oauth/token\n- name: oauth2\n  source: openapi/pomelo-card-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.pomelo.la/oauth/token\n- name: oauth2\n  source: openapi/pomelo-cards-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.pomelo.la/oauth/token\n- name: oauth2\n  source: openapi/pomelo-transactions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.pomelo.la/oauth/token\n- name: oauth2\n  source: openapi/pomelo-transfers-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.pomelo.la/oauth/token\n- name: oauth2\n  source: openapi/pomelo-users-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.pomelo.la/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pomelo/refs/heads/main/scopes/pomelo-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

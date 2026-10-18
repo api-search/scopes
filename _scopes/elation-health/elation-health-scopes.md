@@ -1663,8 +1663,7 @@ summary_line: 154 scopes · clientCredentials/password
 tags:
 - Healthcare
 - United States
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

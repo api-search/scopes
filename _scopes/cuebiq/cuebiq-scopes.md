@@ -94,7 +94,7 @@ tags:
 - Company
 - Location-Intelligence
 - Marketing
-- Data-Analytics
+- Data Analytics
 - Footfall-Measurement
 token_bound: false
 token_urls:

@@ -20,15 +20,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/openapi/ariba-sourcing-groups-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://help.sap.com/docs/ariba-apis/help-for-sap-ariba-developer-portal/use-of-api-gateway-and-oauth-to-authenticate-applications
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Ariba Sourcing Scopes
 name_suffix: OAuth Scopes
-note: SAP Ariba APIs use a two-legged OAuth client credentials flow (grant_type=client_credentials) with no scope parameter; access is governed by per-API access requests, application keys, and realm approval rather than documented OAuth scopes (https://help.sap.com/docs/ariba-apis/help-for-sap-ariba-developer-portal/use-of-api-gateway-and-oauth-to-authenticate-applications).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Ariba Sourcing uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -44,6 +44,24 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.ariba.com/v2/oauth/token
   name: OAuth2
+  source: openapi/ariba-sourcing-approval-tasks-api-openapi.yml
+- description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token using client credentials.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.ariba.com/v2/oauth/token
+  name: OAuth2
+  source: openapi/ariba-sourcing-documents-api-openapi.yml
+- description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token using client credentials.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.ariba.com/v2/oauth/token
+  name: OAuth2
+  source: openapi/ariba-sourcing-groups-api-openapi.yml
+- description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token using client credentials.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.ariba.com/v2/oauth/token
+  name: OAuth2
   source: openapi/ariba-sourcing-external-approval-api.yaml
 scope_count: 0
 scope_names: []
@@ -52,7 +70,8 @@ slug: ariba-sourcing-scopes
 source_filename: ariba-sourcing-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ariba-sourcing-external-approval-api.yaml\ndocs: https://help.sap.com/docs/ariba-apis/help-for-sap-ariba-developer-portal/use-of-api-gateway-and-oauth-to-authenticate-applications\nnote: SAP Ariba APIs use a two-legged OAuth client credentials flow (grant_type=client_credentials)\n  with no scope parameter; access is governed by per-API access requests, application\n  keys, and realm approval rather than documented OAuth scopes (https://help.sap.com/docs/ariba-apis/help-for-sap-ariba-developer-portal/use-of-api-gateway-and-oauth-to-authenticate-applications).\nschemes:\n- name: OAuth2\n  source: openapi/ariba-sourcing-external-approval-api.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ariba.com/v2/oauth/token\n  description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token\n    using client credentials.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/ariba-sourcing-approval-tasks-api-openapi.yml, openapi/ariba-sourcing-documents-api-openapi.yml,\n  openapi/ariba-sourcing-external-approval-api.yaml, openapi/ariba-sourcing-groups-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/ariba-sourcing-approval-tasks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ariba.com/v2/oauth/token\n  description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token\n    using client credentials.\n- name: OAuth2\n  source: openapi/ariba-sourcing-documents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ariba.com/v2/oauth/token\n  description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token\n    using client credentials.\n- name: OAuth2\n  source: openapi/ariba-sourcing-groups-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n   \
+  \ tokenUrl: https://api.ariba.com/v2/oauth/token\n  description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token\n    using client credentials.\n- name: OAuth2\n  source: openapi/ariba-sourcing-external-approval-api.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ariba.com/v2/oauth/token\n  description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token\n    using client credentials.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/scopes/ariba-sourcing-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

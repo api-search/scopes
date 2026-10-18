@@ -357,15 +357,15 @@ api_specs:
 authorization_urls:
 - https://{account-domain}.aha.io/oauth/authorize
 description: ''
-docs: https://www.aha.io/api/oauth2
+docs: ''
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Aha Scopes
 name_suffix: OAuth Scopes
-note: Aha! OAuth 2.0 does not define or document any scopes; access tokens inherit the full permissions of the authorizing user's account role (https://www.aha.io/api/oauth2).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Aha.io uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -382,7 +382,413 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://{account-domain}.aha.io/oauth/token
   name: OAuth2
-  source: openapi/aha-openapi.json
+  source: openapi/aha-account-backups-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-attachments-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-audits-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-capacity-estimate-values-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-capacity-investments-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-capacity-scenarios-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-comments-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-competitors-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-creative-briefs-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-custom-field-options-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-custom-fields-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-custom-layouts-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-custom-pivots-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-custom-table-record-links-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-custom-table-records-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-deletions-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-epics-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-features-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-goals-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-historical-audits-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-idea-categories-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-idea-comments-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-idea-organizations-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-idea-portals-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-idea-subscriptions-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-idea-users-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-idea-votes-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-ideas-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-ideas-portal-user-subscriptions-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-ideas-portal-users-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-identity-providers-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-initiatives-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-integration-changes-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-integration-fields-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-integrations-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-key-results-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-me-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-notes-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-paid-seat-groups-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-personas-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-products-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-record-links-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-release-phases-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-releases-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-requirements-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-roll-up-releases-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-schedulable-changes-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-schedules-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-strategic-models-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-strategic-positionings-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-strategic-visions-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-team-members-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-team-memberships-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-teams-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-time-tracking-events-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-to-dos-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-users-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-webhooks-api-openapi.yml
+- description: OAuth2 authentication with bearer tokens
+  flows:
+  - authorizationUrl: https://{account-domain}.aha.io/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://{account-domain}.aha.io/oauth/token
+  name: OAuth2
+  source: openapi/aha-workflows-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -390,7 +796,27 @@ slug: aha-scopes
 source_filename: aha-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aha-openapi.json\ndocs: https://www.aha.io/api/oauth2\nnote: Aha! OAuth 2.0 does not define or document any scopes; access tokens inherit\n  the full permissions of the authorizing user's account role (https://www.aha.io/api/oauth2).\nschemes:\n- name: OAuth2\n  source: openapi/aha-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/aha-account-backups-api-openapi.yml, openapi/aha-attachments-api-openapi.yml,\n  openapi/aha-audits-api-openapi.yml, openapi/aha-capacity-estimate-values-api-openapi.yml,\n  openapi/aha-capacity-investments-api-openapi.yml, openapi/aha-capacity-scenarios-api-openapi.yml,\n  openapi/aha-comments-api-openapi.yml, openapi/aha-competitors-api-openapi.yml, openapi/aha-creative-briefs-api-openapi.yml,\n  openapi/aha-custom-field-options-api-openapi.yml, openapi/aha-custom-fields-api-openapi.yml,\n  openapi/aha-custom-layouts-api-openapi.yml, openapi/aha-custom-pivots-api-openapi.yml, openapi/aha-custom-table-record-links-api-openapi.yml,\n  openapi/aha-custom-table-records-api-openapi.yml, openapi/aha-deletions-api-openapi.yml, openapi/aha-epics-api-openapi.yml,\n  openapi/aha-features-api-openapi.yml, openapi/aha-goals-api-openapi.yml, openapi/aha-historical-audits-api-openapi.yml,\n  openapi/aha-idea-categories-api-openapi.yml,\
+  \ openapi/aha-idea-comments-api-openapi.yml, openapi/aha-idea-organizations-api-openapi.yml,\n  openapi/aha-idea-portals-api-openapi.yml, openapi/aha-idea-subscriptions-api-openapi.yml,\n  openapi/aha-idea-users-api-openapi.yml, openapi/aha-idea-votes-api-openapi.yml, openapi/aha-ideas-api-openapi.yml,\n  openapi/aha-ideas-portal-user-subscriptions-api-openapi.yml, openapi/aha-ideas-portal-users-api-openapi.yml,\n  openapi/aha-identity-providers-api-openapi.yml, openapi/aha-initiatives-api-openapi.yml, openapi/aha-integration-changes-api-openapi.yml,\n  openapi/aha-integration-fields-api-openapi.yml, openapi/aha-integrations-api-openapi.yml,\n  openapi/aha-key-results-api-openapi.yml, openapi/aha-me-api-openapi.yml, openapi/aha-notes-api-openapi.yml,\n  openapi/aha-paid-seat-groups-api-openapi.yml, openapi/aha-personas-api-openapi.yml, openapi/aha-products-api-openapi.yml,\n  openapi/aha-record-links-api-openapi.yml, openapi/aha-release-phases-api-openapi.yml, openapi/aha-releases-api-openapi.yml,\n\
+  \  openapi/aha-requirements-api-openapi.yml, openapi/aha-roll-up-releases-api-openapi.yml, openapi/aha-schedulable-changes-api-openapi.yml,\n  openapi/aha-schedules-api-openapi.yml, openapi/aha-strategic-models-api-openapi.yml, openapi/aha-strategic-positionings-api-openapi.yml,\n  openapi/aha-strategic-visions-api-openapi.yml, openapi/aha-team-members-api-openapi.yml, openapi/aha-team-memberships-api-openapi.yml,\n  openapi/aha-teams-api-openapi.yml, openapi/aha-time-tracking-events-api-openapi.yml, openapi/aha-to-dos-api-openapi.yml,\n  openapi/aha-users-api-openapi.yml, openapi/aha-webhooks-api-openapi.yml, openapi/aha-workflows-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/aha-account-backups-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-attachments-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-audits-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-capacity-estimate-values-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-capacity-investments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n\
+  \    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-capacity-scenarios-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-comments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-competitors-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n\
+  - name: OAuth2\n  source: openapi/aha-creative-briefs-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-custom-field-options-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-custom-fields-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-custom-layouts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n\
+  \    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-custom-pivots-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-custom-table-record-links-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-custom-table-records-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n\
+  \  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-deletions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-epics-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-features-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-goals-api-openapi.yml\n  flows:\n  -\
+  \ flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-historical-audits-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-idea-categories-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-idea-comments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl:\
+  \ https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-idea-organizations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-idea-portals-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-idea-subscriptions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n-\
+  \ name: OAuth2\n  source: openapi/aha-idea-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-idea-votes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-ideas-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-ideas-portal-user-subscriptions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n  \
+  \  authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-ideas-portal-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-identity-providers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-initiatives-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n\
+  \  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-integration-changes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-integration-fields-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-integrations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-key-results-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-me-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-notes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-paid-seat-groups-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n\
+  \  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-personas-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-products-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-record-links-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-release-phases-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-releases-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-requirements-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-roll-up-releases-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl:\
+  \ https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-schedulable-changes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-schedules-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-strategic-models-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name:\
+  \ OAuth2\n  source: openapi/aha-strategic-positionings-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-strategic-visions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-team-members-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-team-memberships-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n\
+  \    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-teams-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-time-tracking-events-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-to-dos-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n\
+  \  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-webhooks-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\n- name: OAuth2\n  source: openapi/aha-workflows-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{account-domain}.aha.io/oauth/authorize\n    tokenUrl: https://{account-domain}.aha.io/oauth/token\n  description: OAuth2 authentication with bearer tokens\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no\
+  \ scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aha/refs/heads/main/scopes/aha-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

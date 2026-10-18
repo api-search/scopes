@@ -190,6 +190,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Banking
+- A2A
 token_bound: false
 token_urls: []
 ---

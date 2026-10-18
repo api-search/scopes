@@ -87,7 +87,7 @@ summary_line: 14 scopes
 tags:
 - Company
 - Healthcare
-- Electronic Medical Records
+- Electronic Health Records
 - Practice Management
 - Physical Therapy
 - Rehabilitation Therapy

@@ -191,7 +191,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-te
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/scopes/azure-test-labs-scopes.yml
 summary_line: 1 scope · implicit
 tags:
-- Azure
+- Microsoft Azure
 - Development
 - Infrastructure
 - Labs

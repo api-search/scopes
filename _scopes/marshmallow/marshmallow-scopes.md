@@ -60,7 +60,7 @@ tags:
 - United Kingdom
 - Insurtech
 - Property and Casualty
-- Motor Insurance
+- Auto Insurance
 - Home Insurance
 - Telematics
 - Underwriting

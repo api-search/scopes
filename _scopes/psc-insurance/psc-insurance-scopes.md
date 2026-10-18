@@ -118,7 +118,7 @@ summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Insurance
 - Australia
-- Brokers
+- Brokerage
 - Insurance Brokerage
 - Property and Casualty
 - Commercial Insurance

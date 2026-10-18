@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: >-\n  https://sno
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/scopes/snowsignals-scopes.yml
 summary_line: 1 scope
 tags:
-- Crypto
+- Cryptocurrency
 - Market Data
 - Bitcoin
 - Analytics

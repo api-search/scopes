@@ -144,10 +144,10 @@ docs: ''
 flows: []
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Holidu Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Holidu uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -157,10 +157,10 @@ provider_slug: holidu
 schemes:
 - flows: []
   name: sec0
-  source: openapi/holidu-hapi-with-oauth20.json
+  source: openapi/holidu-test-api-openapi.yml
 - flows: []
   name: sec0
-  source: openapi/holidu-security-service-with-tokens.json
+  source: openapi/holidu-testa-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -168,7 +168,7 @@ slug: holidu-scopes
 source_filename: holidu-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/holidu-hapi-with-oauth20.json, openapi/holidu-security-service-with-tokens.json\nschemes:\n- name: sec0\n  source: openapi/holidu-hapi-with-oauth20.json\n  flows: []\n- name: sec0\n  source: openapi/holidu-security-service-with-tokens.json\n  flows: []\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/holidu-test-api-openapi.yml, openapi/holidu-testa-api-openapi.yml\nschemes:\n- name: sec0\n  source: openapi/holidu-test-api-openapi.yml\n  flows: []\n- name: sec0\n  source: openapi/holidu-testa-api-openapi.yml\n  flows: []\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/scopes/holidu-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

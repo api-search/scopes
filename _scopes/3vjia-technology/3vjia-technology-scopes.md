@@ -121,10 +121,10 @@ flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: 3Vjia Technology Scopes
 name_suffix: OAuth Scopes
-note: 'The OAuth 2.0 client_credentials grant on graph.3vjia.com defines NO scopes — the token carries the whole contracted surface and authorisation is enforced by what the enterprise''s contract enables, not by scope. No type: OAuthScopes pointer is emitted in apis.yml, because there is no scope surface to point at; authentication/3vjia-technology-authentication.yml carries the auth model. This file records the verified zero.'
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: '3vjia Technology uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -140,7 +140,115 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://graph.3vjia.com/oauth/token
   name: oauth2ClientCredentials
-  source: openapi/3vjia-technology-open-platform-openapi.yml
+  source: openapi/3vjia-technology-3d-show-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-3vjia-ai-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-accounts-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-aimes-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-asset-management-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-authorization-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-cad-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-chuangdian-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-common-services-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-dedicated-services-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-design-schemes-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-dms-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-dreamer-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-floor-plans-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-light-design-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-mos-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-products-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-quotation-api-openapi.yml
+- description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting invalidates the previous token.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://graph.3vjia.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/3vjia-technology-xuanchi-ai-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -148,8 +256,16 @@ slug: 3vjia-technology-scopes
 source_filename: 3vjia-technology-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/3vjia-technology-open-platform-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-open-platform-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\nscopes: []\nscope_count: 0\napis_yml_pointer: none\nnote: >-\n  The OAuth 2.0 client_credentials grant on graph.3vjia.com defines NO scopes — the token carries the\n  whole contracted surface and authorisation is enforced by what the enterprise's contract enables, not\n  by scope. No type: OAuthScopes pointer is emitted in apis.yml, because there is no scope surface to\n  point at; authentication/3vjia-technology-authentication.yml carries the auth model.\
-  \ This file records\n  the verified zero.\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/3vjia-technology-3d-show-api-openapi.yml, openapi/3vjia-technology-3vjia-ai-api-openapi.yml,\n  openapi/3vjia-technology-accounts-api-openapi.yml, openapi/3vjia-technology-aimes-api-openapi.yml,\n  openapi/3vjia-technology-asset-management-api-openapi.yml, openapi/3vjia-technology-authorization-api-openapi.yml,\n  openapi/3vjia-technology-cad-api-openapi.yml, openapi/3vjia-technology-chuangdian-api-openapi.yml,\n  openapi/3vjia-technology-common-services-api-openapi.yml, openapi/3vjia-technology-dedicated-services-api-openapi.yml,\n  openapi/3vjia-technology-design-schemes-api-openapi.yml, openapi/3vjia-technology-dms-api-openapi.yml,\n  openapi/3vjia-technology-dreamer-api-openapi.yml, openapi/3vjia-technology-floor-plans-api-openapi.yml,\n  openapi/3vjia-technology-light-design-api-openapi.yml, openapi/3vjia-technology-mos-api-openapi.yml,\n  openapi/3vjia-technology-products-api-openapi.yml, openapi/3vjia-technology-quotation-api-openapi.yml,\n\
+  \  openapi/3vjia-technology-xuanchi-ai-api-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-3d-show-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-3vjia-ai-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-accounts-api-openapi.yml\n  flows:\n\
+  \  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-aimes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-asset-management-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer\
+  \ + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-authorization-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-cad-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n\
+  \  source: openapi/3vjia-technology-chuangdian-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-common-services-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-dedicated-services-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n\
+  \  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-design-schemes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-dms-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token\
+  \ TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-dreamer-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-floor-plans-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-light-design-api-openapi.yml\n  flows:\n\
+  \  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-mos-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-products-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n\
+  \    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-quotation-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\n- name: oauth2ClientCredentials\n  source: openapi/3vjia-technology-xuanchi-ai-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://graph.3vjia.com/oauth/token\n  description: OAuth 2.0 client credentials. appId/appKey are issued after developer + application\n    approval at https://dev.3vjia.com/manage/my-app/developer. Token TTL 7200s; re-requesting\n    invalidates the previous token.\nscopes: []\nnote: The OAuth2 security\
+  \ scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3vjia-technology/refs/heads/main/scopes/3vjia-technology-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

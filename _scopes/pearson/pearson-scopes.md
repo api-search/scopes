@@ -187,7 +187,7 @@ tags:
 - EdTech
 - Qualifications
 - Testing
-- Learning Management
+- LMS
 - Workforce Skills
 token_bound: false
 token_urls:

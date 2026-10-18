@@ -74,7 +74,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/
 summary_line: 1 scope · clientCredentials
 tags:
 - 3D Printing
-- Additive Manufacturing
 - SLA
 - SLS
 - Hardware

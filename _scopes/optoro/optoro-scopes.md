@@ -133,10 +133,10 @@ flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Optoro Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Optoro uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -151,22 +151,32 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://auth.optiturn.com/oauth/token
   name: oAuth2
-  source: openapi/optoro-catalogs-openapi.yml
+  source: openapi/optoro-catalog-entry-updates-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://auth.optiturn.com/oauth/token
   name: oAuth2
-  source: openapi/optoro-drop-ship-openapi.yml
+  source: openapi/optoro-facilities-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://auth.optiturn.com/oauth/token
   name: oAuth2
-  source: openapi/optoro-facilities-openapi.yml
+  source: openapi/optoro-listings-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://auth.optiturn.com/oauth/token
   name: oAuth2
-  source: openapi/optoro-rtv-openapi.yml
+  source: openapi/optoro-orders-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.optiturn.com/oauth/token
+  name: oAuth2
+  source: openapi/optoro-shipments-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.optiturn.com/oauth/token
+  name: oAuth2
+  source: openapi/optoro-vendor-updates-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -174,7 +184,8 @@ slug: optoro-scopes
 source_filename: optoro-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-08-26'\nmethod: derived\nsource: openapi/optoro-catalogs-openapi.yml, openapi/optoro-drop-ship-openapi.yml, openapi/optoro-facilities-openapi.yml,\n  openapi/optoro-rtv-openapi.yml\nschemes:\n- name: oAuth2\n  source: openapi/optoro-catalogs-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.optiturn.com/oauth/token\n- name: oAuth2\n  source: openapi/optoro-drop-ship-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.optiturn.com/oauth/token\n- name: oAuth2\n  source: openapi/optoro-facilities-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.optiturn.com/oauth/token\n- name: oAuth2\n  source: openapi/optoro-rtv-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.optiturn.com/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/optoro-catalog-entry-updates-api-openapi.yml, openapi/optoro-facilities-api-openapi.yml,\n  openapi/optoro-listings-api-openapi.yml, openapi/optoro-orders-api-openapi.yml, openapi/optoro-shipments-api-openapi.yml,\n  openapi/optoro-vendor-updates-api-openapi.yml\nschemes:\n- name: oAuth2\n  source: openapi/optoro-catalog-entry-updates-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.optiturn.com/oauth/token\n- name: oAuth2\n  source: openapi/optoro-facilities-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.optiturn.com/oauth/token\n- name: oAuth2\n  source: openapi/optoro-listings-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.optiturn.com/oauth/token\n- name: oAuth2\n  source: openapi/optoro-orders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.optiturn.com/oauth/token\n- name: oAuth2\n\
+  \  source: openapi/optoro-shipments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.optiturn.com/oauth/token\n- name: oAuth2\n  source: openapi/optoro-vendor-updates-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.optiturn.com/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/scopes/optoro-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

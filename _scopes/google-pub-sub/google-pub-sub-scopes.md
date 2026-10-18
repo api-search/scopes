@@ -89,7 +89,7 @@ tags:
 - Event-Driven
 - Google Cloud
 - Messaging
-- Pub-Sub
+- Pub/Sub
 - Streaming
 token_bound: false
 token_urls:

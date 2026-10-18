@@ -62,7 +62,7 @@ tags:
 - Company
 - Consumer
 - Education
-- Online Learning
+- E-Learning
 - Dual Enrollment
 - E-Commerce
 - Shopify

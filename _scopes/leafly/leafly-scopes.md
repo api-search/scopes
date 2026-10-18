@@ -14,15 +14,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/openapi/leafly-status-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://docs.leafly.io/menu-integration-docs/v2.html
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Leafly Scopes
 name_suffix: OAuth Scopes
-note: Leafly's Menu Integration API V2 uses the OAuth2 client credentials grant with no published scopes - the upstream OpenAPI (https://docs.leafly.io/menu-integration-docs/v2.json) declares an empty scopes map and access is instead tied to a Leafly-issued menu_integration_key identifying the retailer.
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Leafly uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -37,7 +37,12 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.leafly.com/oauth/token
   name: OAuth2ClientCredentials
-  source: openapi/leafly-menu-integration-openapi.yml
+  source: openapi/leafly-menu-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.leafly.com/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/leafly-status-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -45,7 +50,7 @@ slug: leafly-scopes
 source_filename: leafly-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/leafly-menu-integration-openapi.yml\ndocs: https://docs.leafly.io/menu-integration-docs/v2.html\nnote: Leafly's Menu Integration API V2 uses the OAuth2 client credentials grant\n  with no published scopes - the upstream OpenAPI (https://docs.leafly.io/menu-integration-docs/v2.json)\n  declares an empty scopes map and access is instead tied to a Leafly-issued\n  menu_integration_key identifying the retailer.\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/leafly-menu-integration-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.leafly.com/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/leafly-menu-api-openapi.yml, openapi/leafly-status-api-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/leafly-menu-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.leafly.com/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/leafly-status-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.leafly.com/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/scopes/leafly-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -458,10 +458,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Onerail Scopes
 name_suffix: OAuth Scopes
-note: 'The Operations API declares an oauth2 securityScheme but publishes ZERO scopes: the flow object is empty and no operation carries an oauth2 security requirement with scopes. The spec itself states the authorizationUrl and tokenUrl values ("https://dummy-unused-url.com") are placeholders present only to satisfy the OpenAPI schema - OneRail validates access tokens minted by the customer''s own IdP (e.g. Okta) and the real IdP URLs are configured out of band per deployment. No scopes or permissions reference page exists on the OneRail Developer Hub. The practical authorization model is the organization App ID / API Key pair plus platform roles (Location/Ops User, View Only, Global Admin) assigned in the UI - see authentication/onerail-authentication.yml.'
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'OneRail uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -488,7 +488,1163 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://dummy-unused-url.com
   name: OAuth
-  source: openapi/onerail-operations-api-openapi.yml
+  source: openapi/onerail-api-auth-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-associatedlocation-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-authentication-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-blob-storage-api-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-box-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-bulk-approve-sla-template-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-bulk-send-sla-template-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-bulk-uploads-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-cancellation-reason-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-carrier-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-client-users-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-controltower-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-cost-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-decision-weight-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-decision-weight-default-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-delivery-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-delivery-attempt-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-delivery-exception-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-delivery-note-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-delivery-rating-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-deliverynotificationstatuses-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-deliveryviewing-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-dispatch-platform-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-dispatch-platform-setting-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-dobo-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-drivers-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-dynamicroutingconfig-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-exception-alert-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-file-type-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-fleet-assets-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-freight-audit-pay-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-health-check-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-holiday-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-home-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-location-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-locations-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-lp-contract-sla-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-lp-market-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-lp-self-onboarding-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-lpconfiguration-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-manifest-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-market-modifier-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-memwatch-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-order-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-organization-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-organizations-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-originpickupassociations-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-own-fleet-vehicle-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-pod-rating-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-powerbi-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-preference-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-product-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-profiler-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-ratecards-market-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-readiness-check-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-role-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-route-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-routestopnote-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-service-level-exception-conditions-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-service-level-triggers-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-shipmentid-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-shipper-contract-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-shipper-contract-sla-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-shipper-contract-sla-template-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-team-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-uploads-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-user-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-vehicle-status-api-openapi.yml
+- description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed
+
+    integrations). Clients obtain tokens from their own IdP outside of this API
+
+    and call endpoints with `Authorization: OAuth <access_token>`. The
+
+    `authorizationUrl` and `tokenUrl` values below are placeholders only to
+
+    satisfy the OpenAPI schema; this service does not call them directly and the
+
+    real IdP URLs are configured via environment and introspection logic in code.'
+  flows:
+  - authorizationUrl: https://dummy-unused-url.com
+    flow: authorizationCode
+    tokenUrl: https://dummy-unused-url.com
+  name: OAuth
+  source: openapi/onerail-visibility-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -496,8 +1652,39 @@ slug: onerail-scopes
 source_filename: onerail-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/onerail-operations-api-openapi.yml\nschemes:\n- name: OAuth\n  source: openapi/onerail-operations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: 'OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n\n    integrations). Clients obtain tokens from their own IdP outside of this API\n\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n\n    satisfy the OpenAPI schema; this service does not call them directly and the\n\n    real IdP URLs are configured via environment and introspection logic in code.'\nscopes: []\ndocs: null\nnote: 'The Operations API declares an oauth2 securityScheme but publishes ZERO scopes: the flow object\n  is empty and no operation carries an oauth2 security\
-  \ requirement with scopes. The spec itself states\n  the authorizationUrl and tokenUrl values (\"https://dummy-unused-url.com\") are placeholders present only\n  to satisfy the OpenAPI schema - OneRail validates access tokens minted by the customer''s own IdP (e.g.\n  Okta) and the real IdP URLs are configured out of band per deployment. No scopes or permissions reference\n  page exists on the OneRail Developer Hub. The practical authorization model is the organization App\n  ID / API Key pair plus platform roles (Location/Ops User, View Only, Global Admin) assigned in the UI\n  - see authentication/onerail-authentication.yml.'\nplaceholder_urls: true\nsearched: https://developer.onerail.io/hc/en-us - no scopes/permissions reference published\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/onerail-api-auth-api-openapi.yml, openapi/onerail-associatedlocation-api-openapi.yml,\n  openapi/onerail-authentication-api-openapi.yml, openapi/onerail-blob-storage-api-api-openapi.yml,\n  openapi/onerail-box-api-openapi.yml, openapi/onerail-bulk-approve-sla-template-api-openapi.yml,\n  openapi/onerail-bulk-send-sla-template-api-openapi.yml, openapi/onerail-bulk-uploads-api-openapi.yml,\n  openapi/onerail-cancellation-reason-api-openapi.yml, openapi/onerail-carrier-api-openapi.yml,\n  openapi/onerail-client-users-api-openapi.yml, openapi/onerail-controltower-api-openapi.yml,\n  openapi/onerail-cost-api-openapi.yml, openapi/onerail-decision-weight-api-openapi.yml, openapi/onerail-decision-weight-default-api-openapi.yml,\n  openapi/onerail-delivery-api-openapi.yml, openapi/onerail-delivery-attempt-api-openapi.yml,\n  openapi/onerail-delivery-exception-api-openapi.yml, openapi/onerail-delivery-note-api-openapi.yml,\n  openapi/onerail-delivery-rating-api-openapi.yml,\
+  \ openapi/onerail-deliverynotificationstatuses-api-openapi.yml,\n  openapi/onerail-deliveryviewing-api-openapi.yml, openapi/onerail-dispatch-platform-api-openapi.yml,\n  openapi/onerail-dispatch-platform-setting-api-openapi.yml, openapi/onerail-dobo-api-openapi.yml,\n  openapi/onerail-drivers-api-openapi.yml, openapi/onerail-dynamicroutingconfig-api-openapi.yml,\n  openapi/onerail-exception-alert-api-openapi.yml, openapi/onerail-file-type-api-openapi.yml,\n  openapi/onerail-fleet-assets-api-openapi.yml, openapi/onerail-freight-audit-pay-api-openapi.yml,\n  openapi/onerail-health-check-api-openapi.yml, openapi/onerail-holiday-api-openapi.yml, openapi/onerail-home-api-openapi.yml,\n  openapi/onerail-location-api-openapi.yml, openapi/onerail-locations-api-openapi.yml, openapi/onerail-lp-contract-sla-api-openapi.yml,\n  openapi/onerail-lp-market-api-openapi.yml, openapi/onerail-lp-self-onboarding-api-openapi.yml,\n  openapi/onerail-lpconfiguration-api-openapi.yml, openapi/onerail-manifest-api-openapi.yml,\n\
+  \  openapi/onerail-market-modifier-api-openapi.yml, openapi/onerail-memwatch-api-openapi.yml,\n  openapi/onerail-order-api-openapi.yml, openapi/onerail-organization-api-openapi.yml, openapi/onerail-organizations-api-openapi.yml,\n  openapi/onerail-originpickupassociations-api-openapi.yml, openapi/onerail-own-fleet-vehicle-api-openapi.yml,\n  openapi/onerail-pod-rating-api-openapi.yml, openapi/onerail-powerbi-api-openapi.yml, openapi/onerail-preference-api-openapi.yml,\n  openapi/onerail-product-api-openapi.yml, openapi/onerail-profiler-api-openapi.yml, openapi/onerail-ratecards-market-api-openapi.yml,\n  openapi/onerail-readiness-check-api-openapi.yml, openapi/onerail-role-api-openapi.yml, openapi/onerail-route-api-openapi.yml,\n  openapi/onerail-routestopnote-api-openapi.yml, openapi/onerail-service-level-exception-conditions-api-openapi.yml,\n  openapi/onerail-service-level-triggers-api-openapi.yml, openapi/onerail-shipmentid-api-openapi.yml,\n  openapi/onerail-shipper-contract-api-openapi.yml,\
+  \ openapi/onerail-shipper-contract-sla-api-openapi.yml,\n  openapi/onerail-shipper-contract-sla-template-api-openapi.yml, openapi/onerail-team-api-openapi.yml,\n  openapi/onerail-uploads-api-openapi.yml, openapi/onerail-user-api-openapi.yml, openapi/onerail-vehicle-status-api-openapi.yml,\n  openapi/onerail-visibility-api-openapi.yml\nschemes:\n- name: OAuth\n  source: openapi/onerail-api-auth-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment\
+  \ and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-associatedlocation-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-authentication-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated\
+  \ by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-blob-storage-api-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI\
+  \ schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-box-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-bulk-approve-sla-template-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n\
+  \    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-bulk-send-sla-template-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`.\
+  \ The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-bulk-uploads-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-cancellation-reason-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-carrier-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside\
+  \ of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-client-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and\
+  \ introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-controltower-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-cost-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations\
+  \ service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-decision-weight-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this\
+  \ service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-decision-weight-default-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-delivery-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n\
+  \    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-delivery-attempt-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`.\
+  \ The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-delivery-exception-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-delivery-note-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-delivery-rating-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP\
+  \ outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-deliverynotificationstatuses-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured\
+  \ via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-deliveryviewing-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-dispatch-platform-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0\
+  \ access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-dispatch-platform-setting-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders\
+  \ only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-dobo-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-drivers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n\
+  \    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-dynamicroutingconfig-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`.\
+  \ The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-exception-alert-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-file-type-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-fleet-assets-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside\
+  \ of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-freight-audit-pay-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment\
+  \ and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-health-check-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-holiday-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the\
+  \ Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-home-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this\
+  \ service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-location-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-locations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl:\
+  \ https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-lp-contract-sla-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl`\
+  \ and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-lp-market-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-lp-self-onboarding-api-openapi.yml\n  flows:\n\
+  \  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-lpconfiguration-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside\
+  \ of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-manifest-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection\
+  \ logic in code.\n- name: OAuth\n  source: openapi/onerail-market-modifier-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://dummy-unused-url.com\n    tokenUrl: https://dummy-unused-url.com\n  description: |-\n    OAuth 2.0 access token validated by the Operations service (e.g. Okta-backed\n    integrations). Clients obtain tokens from their own IdP outside of this API\n    and call endpoints with `Authorization: OAuth <access_token>`. The\n    `authorizationUrl` and `tokenUrl` values below are placeholders only to\n    satisfy the OpenAPI schema; this service does not call them directly and the\n    real IdP URLs are configured via environment and introspection logic in code.\n- name: OAuth\n  source: openapi/onerail-memwatch-api-openapi.yml\n  flows:\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/scopes/onerail-scopes.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/scopes/onerail-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

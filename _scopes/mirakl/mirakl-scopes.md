@@ -212,10 +212,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Mirakl Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Mirakl uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -232,21 +232,98 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://auth.mirakl.net/oauth/token
   name: OAuth-2
-  source: openapi/mirakl-mcm-operator-openapi.json
+  source: openapi/mirakl-channel-api-openapi.yml
 - description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
   flows:
   - authorizationUrl: https://auth.mirakl.net/authorize
     flow: authorizationCode
     tokenUrl: https://auth.mirakl.net/oauth/token
   name: OAuth-2
-  source: openapi/mirakl-mmp-operator-openapi.json
+  source: openapi/mirakl-invoicing-and-accounting-api-openapi.yml
 - description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
   flows:
   - authorizationUrl: https://auth.mirakl.net/authorize
     flow: authorizationCode
     tokenUrl: https://auth.mirakl.net/oauth/token
   name: OAuth-2
-  source: openapi/mirakl-mms-operator-openapi.json
+  source: openapi/mirakl-messages-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-multiple-shipments-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-offers-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-orders-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-picklists-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-platform-settings-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-products-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-promotions-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-returns-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-store-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-stores-api-openapi.yml
+- description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)
+  flows:
+  - authorizationUrl: https://auth.mirakl.net/authorize
+    flow: authorizationCode
+    tokenUrl: https://auth.mirakl.net/oauth/token
+  name: OAuth-2
+  source: openapi/mirakl-users-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -254,8 +331,13 @@ slug: mirakl-scopes
 source_filename: mirakl-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/mirakl-mcm-operator-openapi.json, openapi/mirakl-mmp-operator-openapi.json,\n  openapi/mirakl-mms-operator-openapi.json\nschemes:\n- name: OAuth-2\n  source: openapi/mirakl-mcm-operator-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-mmp-operator-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n\
-  - name: OAuth-2\n  source: openapi/mirakl-mms-operator-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/mirakl-channel-api-openapi.yml, openapi/mirakl-invoicing-and-accounting-api-openapi.yml,\n  openapi/mirakl-messages-api-openapi.yml, openapi/mirakl-multiple-shipments-api-openapi.yml,\n  openapi/mirakl-offers-api-openapi.yml, openapi/mirakl-orders-api-openapi.yml, openapi/mirakl-picklists-api-openapi.yml,\n  openapi/mirakl-platform-settings-api-openapi.yml, openapi/mirakl-products-api-openapi.yml,\n  openapi/mirakl-promotions-api-openapi.yml, openapi/mirakl-returns-api-openapi.yml, openapi/mirakl-store-api-openapi.yml,\n  openapi/mirakl-stores-api-openapi.yml, openapi/mirakl-users-api-openapi.yml\nschemes:\n- name: OAuth-2\n  source: openapi/mirakl-channel-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n\
+  - name: OAuth-2\n  source: openapi/mirakl-invoicing-and-accounting-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-messages-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-multiple-shipments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n\
+  \    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-offers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-orders-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n\
+  - name: OAuth-2\n  source: openapi/mirakl-picklists-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-platform-settings-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-products-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n\
+  \  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-promotions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-returns-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n\
+  - name: OAuth-2\n  source: openapi/mirakl-store-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-stores-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\n- name: OAuth-2\n  source: openapi/mirakl-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.mirakl.net/authorize\n    tokenUrl: https://auth.mirakl.net/oauth/token\n\
+  \  description: For more information, see our [Authentication System documentation](https://help.mirakl.com/docs/customers/page/topics/Mirakl/partners_integration/authentication_system.htm)\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/scopes/mirakl-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

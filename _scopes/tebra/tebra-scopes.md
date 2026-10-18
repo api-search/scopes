@@ -322,7 +322,7 @@ summary_line: 27 scopes · authorizationCode/clientCredentials
 tags:
 - Healthcare
 - Practice Management
-- EHR
+- Electronic Health Records
 - Medical Billing
 - Patient Engagement
 - Kareo

@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travelers/refs
 summary_line: 5 scopes · clientCredentials
 tags:
 - Insurance
-- Property Casualty
+- Property and Casualty
 - Commercial Insurance
 - Claims
 - Fintech
@@ -94,7 +94,6 @@ tags:
 - Dow Jones Industrial Average
 - Homeowners
 - Personal Insurance
-- Property and Casualty
 - Risk Management
 - Surety Bonds
 - Telematics

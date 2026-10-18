@@ -972,7 +972,7 @@ summary_line: 89 scopes · authorizationCode
 tags:
 - Company
 - Education
-- Learning Management System
+- LMS
 - Customer Education
 - Training
 - Online Courses

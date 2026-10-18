@@ -33,10 +33,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Shapeways Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Shapeways uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -55,7 +55,34 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://api.shapeways.com/oauth2/token
   name: oauth2
-  source: openapi/shapeways-openapi.yml
+  source: openapi/shapeways-cart-api-openapi.yml
+- description: OAuth 2.0. client_credentials for single-account apps; authorization_code (+ refresh_token) for multi-user apps.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.shapeways.com/oauth2/token
+  - authorizationUrl: https://api.shapeways.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.shapeways.com/oauth2/token
+  name: oauth2
+  source: openapi/shapeways-materials-api-openapi.yml
+- description: OAuth 2.0. client_credentials for single-account apps; authorization_code (+ refresh_token) for multi-user apps.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.shapeways.com/oauth2/token
+  - authorizationUrl: https://api.shapeways.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.shapeways.com/oauth2/token
+  name: oauth2
+  source: openapi/shapeways-models-api-openapi.yml
+- description: OAuth 2.0. client_credentials for single-account apps; authorization_code (+ refresh_token) for multi-user apps.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.shapeways.com/oauth2/token
+  - authorizationUrl: https://api.shapeways.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.shapeways.com/oauth2/token
+  name: oauth2
+  source: openapi/shapeways-orders-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -63,13 +90,14 @@ slug: shapeways-scopes
 source_filename: shapeways-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/shapeways-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/shapeways-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.shapeways.com/oauth2/authorize\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  description: OAuth 2.0. client_credentials for single-account apps; authorization_code (+\n    refresh_token) for multi-user apps.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/shapeways-cart-api-openapi.yml, openapi/shapeways-materials-api-openapi.yml,\n  openapi/shapeways-models-api-openapi.yml, openapi/shapeways-orders-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/shapeways-cart-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.shapeways.com/oauth2/authorize\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  description: OAuth 2.0. client_credentials for single-account apps; authorization_code (+\n    refresh_token) for multi-user apps.\n- name: oauth2\n  source: openapi/shapeways-materials-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.shapeways.com/oauth2/authorize\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  description:\
+  \ OAuth 2.0. client_credentials for single-account apps; authorization_code (+\n    refresh_token) for multi-user apps.\n- name: oauth2\n  source: openapi/shapeways-models-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.shapeways.com/oauth2/authorize\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  description: OAuth 2.0. client_credentials for single-account apps; authorization_code (+\n    refresh_token) for multi-user apps.\n- name: oauth2\n  source: openapi/shapeways-orders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.shapeways.com/oauth2/authorize\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  description: OAuth 2.0. client_credentials for single-account apps; authorization_code (+\n    refresh_token) for multi-user\
+  \ apps.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/scopes/shapeways-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - 3D Printing
-- Additive Manufacturing
 - Manufacturing
 - Prototyping
 - Hardware

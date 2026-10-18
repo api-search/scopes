@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/storage-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/scopes/google-cloud-transfer-service-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- Azure
+- Microsoft Azure
 - Cloud Storage
 - Data Transfer
 - Migration

@@ -283,10 +283,10 @@ flows:
 - password
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Open Food Facts Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Open Food Facts uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -301,7 +301,42 @@ schemes:
   - flow: password
     tokenUrl: auth
   name: OAuth2PasswordBearer
-  source: openapi/open-food-facts-folksonomy-openapi.json
+  source: openapi/open-food-facts-admin-property-management-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: auth
+  name: OAuth2PasswordBearer
+  source: openapi/open-food-facts-admin-value-management-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: auth
+  name: OAuth2PasswordBearer
+  source: openapi/open-food-facts-authentication-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: auth
+  name: OAuth2PasswordBearer
+  source: openapi/open-food-facts-keys-values-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: auth
+  name: OAuth2PasswordBearer
+  source: openapi/open-food-facts-product-tags-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: auth
+  name: OAuth2PasswordBearer
+  source: openapi/open-food-facts-products-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: auth
+  name: OAuth2PasswordBearer
+  source: openapi/open-food-facts-system-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: auth
+  name: OAuth2PasswordBearer
+  source: openapi/open-food-facts-user-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -309,7 +344,8 @@ slug: open-food-facts-scopes
 source_filename: open-food-facts-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/open-food-facts-folksonomy-openapi.json\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/open-food-facts-folksonomy-openapi.json\n  flows:\n  - flow: password\n    tokenUrl: auth\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/open-food-facts-admin-property-management-api-openapi.yml, openapi/open-food-facts-admin-value-management-api-openapi.yml,\n  openapi/open-food-facts-authentication-api-openapi.yml, openapi/open-food-facts-keys-values-api-openapi.yml,\n  openapi/open-food-facts-product-tags-api-openapi.yml, openapi/open-food-facts-products-api-openapi.yml,\n  openapi/open-food-facts-system-api-openapi.yml, openapi/open-food-facts-user-api-openapi.yml\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/open-food-facts-admin-property-management-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: auth\n- name: OAuth2PasswordBearer\n  source: openapi/open-food-facts-admin-value-management-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: auth\n- name: OAuth2PasswordBearer\n  source: openapi/open-food-facts-authentication-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: auth\n- name: OAuth2PasswordBearer\n\
+  \  source: openapi/open-food-facts-keys-values-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: auth\n- name: OAuth2PasswordBearer\n  source: openapi/open-food-facts-product-tags-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: auth\n- name: OAuth2PasswordBearer\n  source: openapi/open-food-facts-products-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: auth\n- name: OAuth2PasswordBearer\n  source: openapi/open-food-facts-system-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: auth\n- name: OAuth2PasswordBearer\n  source: openapi/open-food-facts-user-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: auth\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/scopes/open-food-facts-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

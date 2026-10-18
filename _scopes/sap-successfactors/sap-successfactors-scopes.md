@@ -50,15 +50,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://help.sap.com/docs/successfactors-platform/sap-successfactors-api-reference-guide-odata-v2/authentication-using-oauth-2-0
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Sap Successfactors Scopes
 name_suffix: OAuth Scopes
-note: SAP SuccessFactors OAuth 2.0 (SAML bearer assertion flow) does not use published OAuth scopes; access tokens carry an empty scope and API authorization is governed by the role-based permissions (RBP) of the user identified in the SAML assertion (https://help.sap.com/docs/successfactors-platform/sap-successfactors-api-reference-guide-odata-v2/authentication-using-oauth-2-0).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'SAP SuccessFactors uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -74,7 +74,49 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.successfactors.com/oauth/token
   name: oauth2
-  source: openapi/sap-successfactors-openapi.yml
+  source: openapi/sap-successfactors-empemployment-api-openapi.yml
+- description: OAuth 2.0 SAML bearer assertion flow.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.successfactors.com/oauth/token
+  name: oauth2
+  source: openapi/sap-successfactors-empjob-api-openapi.yml
+- description: OAuth 2.0 SAML bearer assertion flow.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.successfactors.com/oauth/token
+  name: oauth2
+  source: openapi/sap-successfactors-focompany-api-openapi.yml
+- description: OAuth 2.0 SAML bearer assertion flow.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.successfactors.com/oauth/token
+  name: oauth2
+  source: openapi/sap-successfactors-oauth-api-openapi.yml
+- description: OAuth 2.0 SAML bearer assertion flow.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.successfactors.com/oauth/token
+  name: oauth2
+  source: openapi/sap-successfactors-perperson-api-openapi.yml
+- description: OAuth 2.0 SAML bearer assertion flow.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.successfactors.com/oauth/token
+  name: oauth2
+  source: openapi/sap-successfactors-upsert-api-openapi.yml
+- description: OAuth 2.0 SAML bearer assertion flow.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.successfactors.com/oauth/token
+  name: oauth2
+  source: openapi/sap-successfactors-user-api-openapi.yml
+- description: OAuth 2.0 SAML bearer assertion flow.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.successfactors.com/oauth/token
+  name: oauth2
+  source: openapi/sap-successfactors-user-userid-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -82,7 +124,9 @@ slug: sap-successfactors-scopes
 source_filename: sap-successfactors-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sap-successfactors-openapi.yml\ndocs: https://help.sap.com/docs/successfactors-platform/sap-successfactors-api-reference-guide-odata-v2/authentication-using-oauth-2-0\nnote: >-\n  SAP SuccessFactors OAuth 2.0 (SAML bearer assertion flow) does not use\n  published OAuth scopes; access tokens carry an empty scope and API\n  authorization is governed by the role-based permissions (RBP) of the user\n  identified in the SAML assertion\n  (https://help.sap.com/docs/successfactors-platform/sap-successfactors-api-reference-guide-odata-v2/authentication-using-oauth-2-0).\nschemes:\n- name: oauth2\n  source: openapi/sap-successfactors-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/sap-successfactors-empemployment-api-openapi.yml, openapi/sap-successfactors-empjob-api-openapi.yml,\n  openapi/sap-successfactors-focompany-api-openapi.yml, openapi/sap-successfactors-oauth-api-openapi.yml,\n  openapi/sap-successfactors-perperson-api-openapi.yml, openapi/sap-successfactors-upsert-api-openapi.yml,\n  openapi/sap-successfactors-user-api-openapi.yml, openapi/sap-successfactors-user-userid-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/sap-successfactors-empemployment-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-empjob-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-focompany-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-oauth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-perperson-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-upsert-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-user-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n\
+  \  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-user-userid-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/scopes/sap-successfactors-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -39,15 +39,15 @@ api_specs:
 authorization_urls:
 - https://app.quartzy.com/oauth/authorize
 description: ''
-docs: https://docs.quartzy.com/api/
+docs: ''
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Quartzy Scopes
 name_suffix: OAuth Scopes
-note: Quartzy documents per-user AccessToken authentication (Access-Token header) and references OAuth2 in endpoint authorizations, but publishes no OAuth scopes or permission granularity (https://docs.quartzy.com/api/).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Quartzy uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -64,7 +64,42 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://api.quartzy.com/oauth/token
   name: oauth2
-  source: openapi/quartzy-openapi.yml
+  source: openapi/quartzy-inventory-items-api-openapi.yml
+- description: OAuth2 authorization for Quartzy API access.
+  flows:
+  - authorizationUrl: https://app.quartzy.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.quartzy.com/oauth/token
+  name: oauth2
+  source: openapi/quartzy-labs-api-openapi.yml
+- description: OAuth2 authorization for Quartzy API access.
+  flows:
+  - authorizationUrl: https://app.quartzy.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.quartzy.com/oauth/token
+  name: oauth2
+  source: openapi/quartzy-order-requests-api-openapi.yml
+- description: OAuth2 authorization for Quartzy API access.
+  flows:
+  - authorizationUrl: https://app.quartzy.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.quartzy.com/oauth/token
+  name: oauth2
+  source: openapi/quartzy-types-api-openapi.yml
+- description: OAuth2 authorization for Quartzy API access.
+  flows:
+  - authorizationUrl: https://app.quartzy.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.quartzy.com/oauth/token
+  name: oauth2
+  source: openapi/quartzy-user-api-openapi.yml
+- description: OAuth2 authorization for Quartzy API access.
+  flows:
+  - authorizationUrl: https://app.quartzy.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.quartzy.com/oauth/token
+  name: oauth2
+  source: openapi/quartzy-webhooks-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -72,7 +107,9 @@ slug: quartzy-scopes
 source_filename: quartzy-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quartzy-openapi.yml\ndocs: https://docs.quartzy.com/api/\nnote: Quartzy documents per-user AccessToken authentication (Access-Token header)\n  and references OAuth2 in endpoint authorizations, but publishes no OAuth scopes\n  or permission granularity (https://docs.quartzy.com/api/).\nschemes:\n- name: oauth2\n  source: openapi/quartzy-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.quartzy.com/oauth/authorize\n    tokenUrl: https://api.quartzy.com/oauth/token\n  description: OAuth2 authorization for Quartzy API access.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/quartzy-inventory-items-api-openapi.yml, openapi/quartzy-labs-api-openapi.yml,\n  openapi/quartzy-order-requests-api-openapi.yml, openapi/quartzy-types-api-openapi.yml, openapi/quartzy-user-api-openapi.yml,\n  openapi/quartzy-webhooks-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/quartzy-inventory-items-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.quartzy.com/oauth/authorize\n    tokenUrl: https://api.quartzy.com/oauth/token\n  description: OAuth2 authorization for Quartzy API access.\n- name: oauth2\n  source: openapi/quartzy-labs-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.quartzy.com/oauth/authorize\n    tokenUrl: https://api.quartzy.com/oauth/token\n  description: OAuth2 authorization for Quartzy API access.\n- name: oauth2\n  source: openapi/quartzy-order-requests-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n\
+  \    authorizationUrl: https://app.quartzy.com/oauth/authorize\n    tokenUrl: https://api.quartzy.com/oauth/token\n  description: OAuth2 authorization for Quartzy API access.\n- name: oauth2\n  source: openapi/quartzy-types-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.quartzy.com/oauth/authorize\n    tokenUrl: https://api.quartzy.com/oauth/token\n  description: OAuth2 authorization for Quartzy API access.\n- name: oauth2\n  source: openapi/quartzy-user-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.quartzy.com/oauth/authorize\n    tokenUrl: https://api.quartzy.com/oauth/token\n  description: OAuth2 authorization for Quartzy API access.\n- name: oauth2\n  source: openapi/quartzy-webhooks-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.quartzy.com/oauth/authorize\n    tokenUrl: https://api.quartzy.com/oauth/token\n  description: OAuth2 authorization for Quartzy\
+  \ API access.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/scopes/quartzy-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

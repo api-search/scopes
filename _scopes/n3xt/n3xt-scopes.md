@@ -134,7 +134,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/head
 summary_line: 8 scopes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Banking
 - Payments
 - Stablecoins

@@ -93,7 +93,7 @@ tags:
 - FHIR
 - SMART on FHIR
 - Interoperability
-- EHR
+- Electronic Health Records
 - Remote Monitoring
 - Health System
 - Terminology Services

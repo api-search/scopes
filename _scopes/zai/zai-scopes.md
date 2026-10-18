@@ -163,10 +163,10 @@ flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Zai Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Zai uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -182,13 +182,133 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
   name: oAuth2ClientCredentials
-  source: openapi/zai-assembly-api.json
+  source: openapi/zai-addresses-api-openapi.yml
 - description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
   flows:
   - flow: clientCredentials
     tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
   name: oAuth2ClientCredentials
-  source: openapi/zai-async-api.json
+  source: openapi/zai-authentication-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-bank-accounts-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-batch-transactions-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-bpay-accounts-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-callbacks-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-card-accounts-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-charges-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-companies-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-direct-debit-authorities-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-disbursements-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-fees-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-item-actions-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-items-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-marketplaces-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-requests-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-sub-wallets-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-token-auth-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-tools-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-transactions-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-users-api-openapi.yml
+- description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens
+  name: oAuth2ClientCredentials
+  source: openapi/zai-wallet-accounts-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -196,7 +316,14 @@ slug: zai-scopes
 source_filename: zai-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-24'\nmethod: derived\nsource: openapi/zai-assembly-api.json, openapi/zai-async-api.json\nschemes:\n- name: oAuth2ClientCredentials\n  source: openapi/zai-assembly-api.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-async-api.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/zai-addresses-api-openapi.yml, openapi/zai-authentication-api-openapi.yml, openapi/zai-bank-accounts-api-openapi.yml,\n  openapi/zai-batch-transactions-api-openapi.yml, openapi/zai-bpay-accounts-api-openapi.yml,\n  openapi/zai-callbacks-api-openapi.yml, openapi/zai-card-accounts-api-openapi.yml, openapi/zai-charges-api-openapi.yml,\n  openapi/zai-companies-api-openapi.yml, openapi/zai-direct-debit-authorities-api-openapi.yml,\n  openapi/zai-disbursements-api-openapi.yml, openapi/zai-fees-api-openapi.yml, openapi/zai-item-actions-api-openapi.yml,\n  openapi/zai-items-api-openapi.yml, openapi/zai-marketplaces-api-openapi.yml, openapi/zai-requests-api-openapi.yml,\n  openapi/zai-sub-wallets-api-openapi.yml, openapi/zai-token-auth-api-openapi.yml, openapi/zai-tools-api-openapi.yml,\n  openapi/zai-transactions-api-openapi.yml, openapi/zai-users-api-openapi.yml, openapi/zai-wallet-accounts-api-openapi.yml\nschemes:\n- name: oAuth2ClientCredentials\n\
+  \  source: openapi/zai-addresses-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-bank-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-batch-transactions-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-bpay-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-callbacks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-card-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
+  \ https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-charges-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-companies-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-direct-debit-authorities-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n\
+  \  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-disbursements-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-fees-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-item-actions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within\
+  \ https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-items-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-marketplaces-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-requests-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n\
+  - name: oAuth2ClientCredentials\n  source: openapi/zai-sub-wallets-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-token-auth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-tools-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-transactions-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-users-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\n- name: oAuth2ClientCredentials\n  source: openapi/zai-wallet-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://au-0000.sandbox.auth.assemblypay.com/tokens\n  description: Please refer to Authentication section within https://developer.assemblypayments.com/reference#authentication\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/scopes/zai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

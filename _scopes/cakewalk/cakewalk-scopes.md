@@ -55,9 +55,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
-- Access Management
+- Identity and Access Management
 - Identity Governance
-- IGA
 - AI Agents
 - Security
 - Access Control

@@ -92,15 +92,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-workflow-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://docs.langflow.org/api-keys-and-authentication
+docs: ''
 flows:
 - password
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Langflow Scopes
 name_suffix: OAuth Scopes
-note: Langflow does not publish OAuth scopes — API access is authorized via API keys that adopt the privileges of the creating user (superuser vs regular user roles), not scope-based permissions (https://docs.langflow.org/api-keys-and-authentication).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Langflow uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -115,7 +115,77 @@ schemes:
   - flow: password
     tokenUrl: api/v1/login
   name: OAuth2PasswordBearerCookie
-  source: openapi/langflow-openapi.yml
+  source: openapi/langflow-base-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-chat-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-files-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-flow-events-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-flows-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-health-check-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-log-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-mcp-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-mcp-projects-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-monitor-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-openai-responses-api-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-projects-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-traces-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-users-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: api/v1/login
+  name: OAuth2PasswordBearerCookie
+  source: openapi/langflow-workflow-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -123,7 +193,10 @@ slug: langflow-scopes
 source_filename: langflow-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/langflow-openapi.yml\ndocs: https://docs.langflow.org/api-keys-and-authentication\nnote: >-\n  Langflow does not publish OAuth scopes — API access is authorized via API keys that\n  adopt the privileges of the creating user (superuser vs regular user roles), not\n  scope-based permissions (https://docs.langflow.org/api-keys-and-authentication).\nschemes:\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/langflow-base-api-openapi.yml, openapi/langflow-chat-api-openapi.yml, openapi/langflow-files-api-openapi.yml,\n  openapi/langflow-flow-events-api-openapi.yml, openapi/langflow-flows-api-openapi.yml, openapi/langflow-health-check-api-openapi.yml,\n  openapi/langflow-log-api-openapi.yml, openapi/langflow-mcp-api-openapi.yml, openapi/langflow-mcp-projects-api-openapi.yml,\n  openapi/langflow-monitor-api-openapi.yml, openapi/langflow-openai-responses-api-api-openapi.yml,\n  openapi/langflow-projects-api-openapi.yml, openapi/langflow-traces-api-openapi.yml, openapi/langflow-users-api-openapi.yml,\n  openapi/langflow-workflow-api-openapi.yml\nschemes:\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-base-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-chat-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n\
+  - name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-files-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-flow-events-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-flows-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-health-check-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-log-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-mcp-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-mcp-projects-api-openapi.yml\n  flows:\n  - flow: password\n   \
+  \ tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-monitor-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-openai-responses-api-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-projects-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-traces-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-users-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-workflow-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and\
+  \ no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/scopes/langflow-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

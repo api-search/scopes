@@ -26,15 +26,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/openapi/charliehr-team-members-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://www.charliehr.com/api_docs/
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Charliehr Scopes
 name_suffix: OAuth Scopes
-note: CharlieHR does not publish OAuth scopes - the API docs (https://www.charliehr.com/api_docs/) show every endpoint authenticated with company-level client credentials sent as an Authorization header (Token token=client_id:client_secret), with no scope or permission-level system documented.
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'CharlieHR uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -50,7 +50,25 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://charliehr.com/oauth/token
   name: oauth2
-  source: openapi/charliehr-openapi.yml
+  source: openapi/charliehr-company-api-openapi.yml
+- description: OAuth 2.0. A Client ID and Client Secret issued in the CharlieHR app are exchanged for an access token, which is sent in the Authorization header of each request.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://charliehr.com/oauth/token
+  name: oauth2
+  source: openapi/charliehr-leave-absences-api-openapi.yml
+- description: OAuth 2.0. A Client ID and Client Secret issued in the CharlieHR app are exchanged for an access token, which is sent in the Authorization header of each request.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://charliehr.com/oauth/token
+  name: oauth2
+  source: openapi/charliehr-leave-allowances-api-openapi.yml
+- description: OAuth 2.0. A Client ID and Client Secret issued in the CharlieHR app are exchanged for an access token, which is sent in the Authorization header of each request.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://charliehr.com/oauth/token
+  name: oauth2
+  source: openapi/charliehr-team-members-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -58,7 +76,8 @@ slug: charliehr-scopes
 source_filename: charliehr-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/charliehr-openapi.yml\ndocs: https://www.charliehr.com/api_docs/\nnote: CharlieHR does not publish OAuth scopes - the API docs (https://www.charliehr.com/api_docs/)\n  show every endpoint authenticated with company-level client credentials sent as\n  an Authorization header (Token token=client_id:client_secret), with no scope or\n  permission-level system documented.\nschemes:\n- name: oauth2\n  source: openapi/charliehr-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://charliehr.com/oauth/token\n  description: OAuth 2.0. A Client ID and Client Secret issued in the CharlieHR app are exchanged\n    for an access token, which is sent in the Authorization header of each request.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/charliehr-company-api-openapi.yml, openapi/charliehr-leave-absences-api-openapi.yml,\n  openapi/charliehr-leave-allowances-api-openapi.yml, openapi/charliehr-team-members-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/charliehr-company-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://charliehr.com/oauth/token\n  description: OAuth 2.0. A Client ID and Client Secret issued in the CharlieHR app are exchanged\n    for an access token, which is sent in the Authorization header of each request.\n- name: oauth2\n  source: openapi/charliehr-leave-absences-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://charliehr.com/oauth/token\n  description: OAuth 2.0. A Client ID and Client Secret issued in the CharlieHR app are exchanged\n    for an access token, which is sent in the Authorization header of each request.\n- name: oauth2\n  source: openapi/charliehr-leave-allowances-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://charliehr.com/oauth/token\n  description: OAuth 2.0. A Client ID and Client Secret issued in the CharlieHR app are exchanged\n    for an access token, which is sent in the Authorization header of each request.\n- name: oauth2\n  source: openapi/charliehr-team-members-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://charliehr.com/oauth/token\n  description: OAuth 2.0. A Client ID and Client Secret issued in the CharlieHR app are exchanged\n    for an access token, which is sent in the Authorization header of each request.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/scopes/charliehr-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

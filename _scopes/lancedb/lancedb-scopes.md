@@ -26,15 +26,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-transaction-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://docs.lancedb.com/api-reference/rest
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Lancedb Scopes
 name_suffix: OAuth Scopes
-note: LanceDB does not publish OAuth scopes; all requests to LanceDB Cloud/Enterprise APIs authenticate with an x-api-key header and no scope-based permissions are documented (https://docs.lancedb.com/api-reference/rest).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'LanceDB uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -49,7 +49,22 @@ schemes:
   - flow: clientCredentials
     tokenUrl: /oauth/token
   name: OAuth2
-  source: openapi/lance-namespace-openapi.yaml
+  source: openapi/lancedb-materializedview-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/lancedb-namespace-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/lancedb-table-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/token
+  name: OAuth2
+  source: openapi/lancedb-transaction-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -57,7 +72,7 @@ slug: lancedb-scopes
 source_filename: lancedb-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lance-namespace-openapi.yaml\ndocs: https://docs.lancedb.com/api-reference/rest\nnote: LanceDB does not publish OAuth scopes; all requests to LanceDB Cloud/Enterprise\n  APIs authenticate with an x-api-key header and no scope-based permissions are\n  documented (https://docs.lancedb.com/api-reference/rest).\nschemes:\n- name: OAuth2\n  source: openapi/lance-namespace-openapi.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/lancedb-materializedview-api-openapi.yml, openapi/lancedb-namespace-api-openapi.yml,\n  openapi/lancedb-table-api-openapi.yml, openapi/lancedb-transaction-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/lancedb-materializedview-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/lancedb-namespace-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/lancedb-table-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/lancedb-transaction-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/scopes/lancedb-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

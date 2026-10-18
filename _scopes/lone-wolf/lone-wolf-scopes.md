@@ -495,7 +495,7 @@ tags:
 - CRM
 - MLS
 - Real Estate Agents
-- Brokers
+- Brokerage
 token_bound: false
 token_urls: []
 ---

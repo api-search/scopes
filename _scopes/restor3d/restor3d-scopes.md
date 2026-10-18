@@ -35,7 +35,6 @@ tags:
 - Health
 - Orthopedics
 - 3D Printing
-- Additive Manufacturing
 - Implants
 - Surgery
 - Artificial Intelligence

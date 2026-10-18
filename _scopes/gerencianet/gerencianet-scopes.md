@@ -218,19 +218,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/openapi/gerencianet-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: ''
+docs: https://dev.efipay.com.br/docs/api-pix/credenciais
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Gerencianet Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Efí Pay (Gerencianet) publishes 12 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Efí Pay (Gerencianet) API on a user''s behalf.
+overview: 'Efí Pay (Gerencianet) publishes 40 OAuth 2.0 scopes via the clientCredentials flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Efí Pay (Gerencianet) API on a user''s behalf.
 
 
-  Tokens are issued from https://cobrancas.api.efipay.com.br/v1/authorize.
+  Tokens are issued from https://pix.api.efipay.com.br/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -239,35 +239,220 @@ provider_slug: gerencianet
 schemes:
 - flows:
   - flow: clientCredentials
-    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize
-  name: oauth2ClientCredentials
-  source: openapi/efi-cobrancas-openapi.yml
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-account-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://abrircontas.api.efipay.com.br/v1/oauth/token
   name: oauth2Contas
-  source: openapi/efi-contas-openapi.yml
+  source: openapi/gerencianet-accounts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize
+  name: oauth2ClientCredentials
+  source: openapi/gerencianet-authorization-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://abrircontas.api.efipay.com.br/v1/oauth/token
+  name: oauth2Contas
+  source: openapi/gerencianet-authorization-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://extratos.api.efipay.com.br/v1/oauth/token
   name: oauth2Extratos
-  source: openapi/efi-extratos-openapi.yml
+  source: openapi/gerencianet-authorization-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token
   name: oauth2OpenFinance
-  source: openapi/efi-openfinance-openapi.yml
+  source: openapi/gerencianet-authorization-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://pagarcontas.api.efipay.com.br/v1/oauth/token
   name: oauth2Pagamentos
-  source: openapi/efi-pagamentos-openapi.yml
+  source: openapi/gerencianet-authorization-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://pix.api.efipay.com.br/oauth/token
   name: oauth2Pix
-  source: openapi/efi-pix-openapi.yml
-scope_count: 12
+  source: openapi/gerencianet-authorization-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-automatic-charges-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token
+  name: oauth2OpenFinance
+  source: openapi/gerencianet-automatic-pix-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pagarcontas.api.efipay.com.br/v1/oauth/token
+  name: oauth2Pagamentos
+  source: openapi/gerencianet-bill-payments-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token
+  name: oauth2OpenFinance
+  source: openapi/gerencianet-biometric-pix-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize
+  name: oauth2ClientCredentials
+  source: openapi/gerencianet-card-payments-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize
+  name: oauth2ClientCredentials
+  source: openapi/gerencianet-carnets-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize
+  name: oauth2ClientCredentials
+  source: openapi/gerencianet-charges-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token
+  name: oauth2OpenFinance
+  source: openapi/gerencianet-configuration-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-devolutions-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-due-charge-batches-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-due-charges-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-immediate-charges-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token
+  name: oauth2OpenFinance
+  source: openapi/gerencianet-immediate-pix-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-locations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-med-infractions-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize
+  name: oauth2ClientCredentials
+  source: openapi/gerencianet-notifications-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token
+  name: oauth2OpenFinance
+  source: openapi/gerencianet-participants-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize
+  name: oauth2ClientCredentials
+  source: openapi/gerencianet-payment-links-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-pix-keys-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-pix-send-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize
+  name: oauth2ClientCredentials
+  source: openapi/gerencianet-plans-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-qr-codes-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-receipts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-received-pix-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token
+  name: oauth2OpenFinance
+  source: openapi/gerencianet-recurring-pix-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-recurring-pix-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-reports-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token
+  name: oauth2OpenFinance
+  source: openapi/gerencianet-scheduled-pix-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://extratos.api.efipay.com.br/v1/oauth/token
+  name: oauth2Extratos
+  source: openapi/gerencianet-sftp-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-splits-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://extratos.api.efipay.com.br/v1/oauth/token
+  name: oauth2Extratos
+  source: openapi/gerencianet-statement-files-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://extratos.api.efipay.com.br/v1/oauth/token
+  name: oauth2Extratos
+  source: openapi/gerencianet-statement-schedules-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize
+  name: oauth2ClientCredentials
+  source: openapi/gerencianet-subscriptions-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://abrircontas.api.efipay.com.br/v1/oauth/token
+  name: oauth2Contas
+  source: openapi/gerencianet-webhooks-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://pix.api.efipay.com.br/oauth/token
+  name: oauth2Pix
+  source: openapi/gerencianet-webhooks-api-openapi.yml
+scope_count: 40
 scope_names:
 - cob.read
 - cob.write
@@ -281,6 +466,34 @@ scope_names:
 - pix.write
 - webhook.read
 - webhook.write
+- gn.pix.send.read
+- payloadlocation.write
+- payloadlocation.read
+- gn.pix.evp.write
+- gn.pix.evp.read
+- gn.settings.write
+- gn.settings.read
+- gn.reports.write
+- gn.reports.read
+- gn.split.read
+- gn.split.write
+- lotecobv.read
+- lotecobv.write
+- gn.infractions.write
+- gn.infractions.read
+- gn.receipts.read
+- rec.read
+- rec.write
+- solicrec.read
+- solicrec.write
+- cobr.read
+- cobr.write
+- payloadlocationrec.read
+- payloadlocationrec.write
+- webhookrec.read
+- webhookrec.write
+- webhookcobr.read
+- webhookcobr.write
 scopes:
 - description: Read immediate charges
   flows:
@@ -330,15 +543,151 @@ scopes:
   flows:
   - clientCredentials
   scope: webhook.write
+- description: Consultar pix enviado
+  flows:
+  - clientCredentials
+  scope: gn.pix.send.read
+- description: Alterar Payloads
+  flows:
+  - clientCredentials
+  scope: payloadlocation.write
+- description: Consultar Payloads
+  flows:
+  - clientCredentials
+  scope: payloadlocation.read
+- description: Alterar Chaves aleatórias
+  flows:
+  - clientCredentials
+  scope: gn.pix.evp.write
+- description: Consultar Chaves aleatórias
+  flows:
+  - clientCredentials
+  scope: gn.pix.evp.read
+- description: Alterar Configurações da API
+  flows:
+  - clientCredentials
+  scope: gn.settings.write
+- description: Consultar Configurações da API
+  flows:
+  - clientCredentials
+  scope: gn.settings.read
+- description: Solicitar relatórios
+  flows:
+  - clientCredentials
+  scope: gn.reports.write
+- description: Consultar relatórios
+  flows:
+  - clientCredentials
+  scope: gn.reports.read
+- description: Consultar configuração de venda (split pix)
+  flows:
+  - clientCredentials
+  scope: gn.split.read
+- description: Criar configuração de venda (split pix)
+  flows:
+  - clientCredentials
+  scope: gn.split.write
+- description: Alterar lote de cobranças com vencimento
+  flows:
+  - clientCredentials
+  scope: lotecobv.read
+- description: Consultar lote de cobranças com vencimento
+  flows:
+  - clientCredentials
+  scope: lotecobv.write
+- description: Submeter defesa de infração MED
+  flows:
+  - clientCredentials
+  scope: gn.infractions.write
+- description: Listar as infrações MED da conta
+  flows:
+  - clientCredentials
+  scope: gn.infractions.read
+- description: Baixar comprovante Pix
+  flows:
+  - clientCredentials
+  scope: gn.receipts.read
+- description: Consultar recorrências de Pix Automático
+  flows:
+  - clientCredentials
+  scope: rec.read
+- description: Alterar recorrências de Pix Automático
+  flows:
+  - clientCredentials
+  scope: rec.write
+- description: Consultar solicitações de Pix Automático
+  flows:
+  - clientCredentials
+  scope: solicrec.read
+- description: Alterar solicitações de Pix Automático
+  flows:
+  - clientCredentials
+  scope: solicrec.write
+- description: Consultar cobranças de Pix Automático
+  flows:
+  - clientCredentials
+  scope: cobr.read
+- description: Alterar cobranças de Pix Automático
+  flows:
+  - clientCredentials
+  scope: cobr.write
+- description: Consultar payloads de Pix Automático
+  flows:
+  - clientCredentials
+  scope: payloadlocationrec.read
+- description: Alterar payloads de Pix Automático
+  flows:
+  - clientCredentials
+  scope: payloadlocationrec.write
+- description: Consultar webhook recorrências de Pix Automático
+  flows:
+  - clientCredentials
+  scope: webhookrec.read
+- description: Alterar webhook de recorrências de Pix Automático
+  flows:
+  - clientCredentials
+  scope: webhookrec.write
+- description: Consultar webhook de cobranças de Pix Automático
+  flows:
+  - clientCredentials
+  scope: webhookcobr.read
+- description: Alterar webhook de cobranças de Pix Automático
+  flows:
+  - clientCredentials
+  scope: webhookcobr.write
 slug: gerencianet-scopes
 source_filename: gerencianet-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/efi-cobrancas-openapi.yml, openapi/efi-contas-openapi.yml, openapi/efi-extratos-openapi.yml,\n  openapi/efi-openfinance-openapi.yml, openapi/efi-pagamentos-openapi.yml, openapi/efi-pix-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/efi-cobrancas-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize\n- name: oauth2Contas\n  source: openapi/efi-contas-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://abrircontas.api.efipay.com.br/v1/oauth/token\n- name: oauth2Extratos\n  source: openapi/efi-extratos-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://extratos.api.efipay.com.br/v1/oauth/token\n- name: oauth2OpenFinance\n  source: openapi/efi-openfinance-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token\n- name: oauth2Pagamentos\n\
-  \  source: openapi/efi-pagamentos-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pagarcontas.api.efipay.com.br/v1/oauth/token\n- name: oauth2Pix\n  source: openapi/efi-pix-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\nscopes:\n- scope: cob.read\n  description: Read immediate charges\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-pix-openapi.yml\n- scope: cob.write\n  description: Create/update immediate charges\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-pix-openapi.yml\n- scope: cobv.read\n  description: Read due charges\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-pix-openapi.yml\n- scope: cobv.write\n  description: Create/update due charges\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-pix-openapi.yml\n- scope: gn.balance.read\n  description: Read account balance\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-pix-openapi.yml\n\
-  - scope: openfinance.payments.read\n  description: Read payment status\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-openfinance-openapi.yml\n- scope: openfinance.payments.write\n  description: Initiate payments\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-openfinance-openapi.yml\n- scope: pix.read\n  description: Read received Pix\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-pix-openapi.yml\n- scope: pix.send\n  description: Send Pix\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-pix-openapi.yml\n- scope: pix.write\n  description: Manage devolutions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-pix-openapi.yml\n- scope: webhook.read\n  description: Read webhook config\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-pix-openapi.yml\n- scope: webhook.write\n  description: Configure webhooks\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/efi-pix-openapi.yml\n"
+source_yaml: "generated: '2026-10-12'\nmethod: searched\nsource: https://dev.efipay.com.br/docs/api-pix/credenciais (Pix scope list) + openapi/gerencianet-account-api-openapi.yml,\n  openapi/gerencianet-accounts-api-openapi.yml, openapi/gerencianet-authorization-api-openapi.yml, openapi/gerencianet-automatic-charges-api-openapi.yml,\n  openapi/gerencianet-automatic-pix-api-openapi.yml, openapi/gerencianet-bill-payments-api-openapi.yml, openapi/gerencianet-biometric-pix-api-openapi.yml,\n  openapi/gerencianet-card-payments-api-openapi.yml, openapi/gerencianet-carnets-api-openapi.yml, openapi/gerencianet-charges-api-openapi.yml,\n  openapi/gerencianet-configuration-api-openapi.yml, openapi/gerencianet-devolutions-api-openapi.yml, openapi/gerencianet-due-charge-batches-api-openapi.yml,\n  openapi/gerencianet-due-charges-api-openapi.yml, openapi/gerencianet-immediate-charges-api-openapi.yml, openapi/gerencianet-immediate-pix-api-openapi.yml,\n  openapi/gerencianet-locations-api-openapi.yml,\
+  \ openapi/gerencianet-med-infractions-api-openapi.yml, openapi/gerencianet-notifications-api-openapi.yml,\n  openapi/gerencianet-participants-api-openapi.yml, openapi/gerencianet-payment-links-api-openapi.yml, openapi/gerencianet-pix-keys-api-openapi.yml,\n  openapi/gerencianet-pix-send-api-openapi.yml, openapi/gerencianet-plans-api-openapi.yml, openapi/gerencianet-qr-codes-api-openapi.yml,\n  openapi/gerencianet-receipts-api-openapi.yml, openapi/gerencianet-received-pix-api-openapi.yml, openapi/gerencianet-recurring-pix-api-openapi.yml,\n  openapi/gerencianet-reports-api-openapi.yml, openapi/gerencianet-scheduled-pix-api-openapi.yml, openapi/gerencianet-sftp-api-openapi.yml,\n  openapi/gerencianet-splits-api-openapi.yml, openapi/gerencianet-statement-files-api-openapi.yml, openapi/gerencianet-statement-schedules-api-openapi.yml,\n  openapi/gerencianet-subscriptions-api-openapi.yml, openapi/gerencianet-webhooks-api-openapi.yml\nschemes:\n- name: oauth2Pix\n  source: openapi/gerencianet-account-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Contas\n  source: openapi/gerencianet-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://abrircontas.api.efipay.com.br/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/gerencianet-authorization-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize\n- name: oauth2Contas\n  source: openapi/gerencianet-authorization-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://abrircontas.api.efipay.com.br/v1/oauth/token\n- name: oauth2Extratos\n  source: openapi/gerencianet-authorization-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://extratos.api.efipay.com.br/v1/oauth/token\n- name: oauth2OpenFinance\n  source: openapi/gerencianet-authorization-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token\n\
+  - name: oauth2Pagamentos\n  source: openapi/gerencianet-authorization-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pagarcontas.api.efipay.com.br/v1/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-authorization-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-automatic-charges-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2OpenFinance\n  source: openapi/gerencianet-automatic-pix-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token\n- name: oauth2Pagamentos\n  source: openapi/gerencianet-bill-payments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pagarcontas.api.efipay.com.br/v1/oauth/token\n- name: oauth2OpenFinance\n  source: openapi/gerencianet-biometric-pix-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/gerencianet-card-payments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize\n- name: oauth2ClientCredentials\n  source: openapi/gerencianet-carnets-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize\n- name: oauth2ClientCredentials\n  source: openapi/gerencianet-charges-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize\n- name: oauth2OpenFinance\n  source: openapi/gerencianet-configuration-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-devolutions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-due-charge-batches-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-due-charges-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-immediate-charges-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2OpenFinance\n  source: openapi/gerencianet-immediate-pix-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-locations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-med-infractions-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/gerencianet-notifications-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize\n- name: oauth2OpenFinance\n  source: openapi/gerencianet-participants-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/gerencianet-payment-links-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize\n- name: oauth2Pix\n  source: openapi/gerencianet-pix-keys-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-pix-send-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n\
+  - name: oauth2ClientCredentials\n  source: openapi/gerencianet-plans-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize\n- name: oauth2Pix\n  source: openapi/gerencianet-qr-codes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-receipts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-received-pix-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2OpenFinance\n  source: openapi/gerencianet-recurring-pix-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-recurring-pix-api-openapi.yml\n  flows:\n  - flow:\
+  \ clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-reports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2OpenFinance\n  source: openapi/gerencianet-scheduled-pix-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://openfinance.api.efipay.com.br/v1/oauth/token\n- name: oauth2Extratos\n  source: openapi/gerencianet-sftp-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://extratos.api.efipay.com.br/v1/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-splits-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\n- name: oauth2Extratos\n  source: openapi/gerencianet-statement-files-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://extratos.api.efipay.com.br/v1/oauth/token\n- name: oauth2Extratos\n\
+  \  source: openapi/gerencianet-statement-schedules-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://extratos.api.efipay.com.br/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/gerencianet-subscriptions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://cobrancas.api.efipay.com.br/v1/authorize\n- name: oauth2Contas\n  source: openapi/gerencianet-webhooks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://abrircontas.api.efipay.com.br/v1/oauth/token\n- name: oauth2Pix\n  source: openapi/gerencianet-webhooks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://pix.api.efipay.com.br/oauth/token\nscopes:\n- scope: cob.read\n  description: Read immediate charges\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-account-api-openapi.yml\n  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-charges-api-openapi.yml\n\
+  \  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n  - openapi/gerencianet-receipts-api-openapi.yml\n  - openapi/gerencianet-received-pix-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n- scope: cob.write\n  description: Create/update immediate charges\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-account-api-openapi.yml\n  - openapi/gerencianet-authorization-api-openapi.yml\n\
+  \  - openapi/gerencianet-automatic-charges-api-openapi.yml\n  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n  - openapi/gerencianet-receipts-api-openapi.yml\n  - openapi/gerencianet-received-pix-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n- scope: cobv.read\n  description: Read due charges\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-account-api-openapi.yml\n  -\
+  \ openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-charges-api-openapi.yml\n  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n  - openapi/gerencianet-receipts-api-openapi.yml\n  - openapi/gerencianet-received-pix-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n- scope: cobv.write\n  description: Create/update due charges\n  flows:\n  - clientCredentials\n  sources:\n\
+  \  - openapi/gerencianet-account-api-openapi.yml\n  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-charges-api-openapi.yml\n  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n  - openapi/gerencianet-receipts-api-openapi.yml\n  - openapi/gerencianet-received-pix-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n- scope: gn.balance.read\n  description: Read account\
+  \ balance\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-account-api-openapi.yml\n  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-charges-api-openapi.yml\n  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n  - openapi/gerencianet-receipts-api-openapi.yml\n  - openapi/gerencianet-received-pix-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n\
+  - scope: openfinance.payments.read\n  description: Read payment status\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-pix-api-openapi.yml\n  - openapi/gerencianet-biometric-pix-api-openapi.yml\n  - openapi/gerencianet-configuration-api-openapi.yml\n  - openapi/gerencianet-immediate-pix-api-openapi.yml\n  - openapi/gerencianet-participants-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-scheduled-pix-api-openapi.yml\n- scope: openfinance.payments.write\n  description: Initiate payments\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-pix-api-openapi.yml\n  - openapi/gerencianet-biometric-pix-api-openapi.yml\n  - openapi/gerencianet-configuration-api-openapi.yml\n  - openapi/gerencianet-immediate-pix-api-openapi.yml\n  - openapi/gerencianet-participants-api-openapi.yml\n\
+  \  - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-scheduled-pix-api-openapi.yml\n- scope: pix.read\n  description: Read received Pix\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-account-api-openapi.yml\n  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-charges-api-openapi.yml\n  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n  - openapi/gerencianet-receipts-api-openapi.yml\n  - openapi/gerencianet-received-pix-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n\
+  \  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n- scope: pix.send\n  description: Send Pix\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-account-api-openapi.yml\n  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-charges-api-openapi.yml\n  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n  - openapi/gerencianet-receipts-api-openapi.yml\n  - openapi/gerencianet-received-pix-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n\
+  \  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n- scope: pix.write\n  description: Manage devolutions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-account-api-openapi.yml\n  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-charges-api-openapi.yml\n  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n  - openapi/gerencianet-receipts-api-openapi.yml\n  - openapi/gerencianet-received-pix-api-openapi.yml\n \
+  \ - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n- scope: webhook.read\n  description: Read webhook config\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-account-api-openapi.yml\n  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-charges-api-openapi.yml\n  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n  - openapi/gerencianet-receipts-api-openapi.yml\n\
+  \  - openapi/gerencianet-received-pix-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n- scope: webhook.write\n  description: Configure webhooks\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/gerencianet-account-api-openapi.yml\n  - openapi/gerencianet-authorization-api-openapi.yml\n  - openapi/gerencianet-automatic-charges-api-openapi.yml\n  - openapi/gerencianet-devolutions-api-openapi.yml\n  - openapi/gerencianet-due-charge-batches-api-openapi.yml\n  - openapi/gerencianet-due-charges-api-openapi.yml\n  - openapi/gerencianet-immediate-charges-api-openapi.yml\n  - openapi/gerencianet-locations-api-openapi.yml\n  - openapi/gerencianet-med-infractions-api-openapi.yml\n  - openapi/gerencianet-pix-keys-api-openapi.yml\n  - openapi/gerencianet-pix-send-api-openapi.yml\n  - openapi/gerencianet-qr-codes-api-openapi.yml\n\
+  \  - openapi/gerencianet-receipts-api-openapi.yml\n  - openapi/gerencianet-received-pix-api-openapi.yml\n  - openapi/gerencianet-recurring-pix-api-openapi.yml\n  - openapi/gerencianet-reports-api-openapi.yml\n  - openapi/gerencianet-splits-api-openapi.yml\n  - openapi/gerencianet-webhooks-api-openapi.yml\n- scope: gn.pix.send.read\n  description: Consultar pix enviado\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: payloadlocation.write\n  description: Alterar Payloads\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: payloadlocation.read\n  description: Consultar Payloads\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: gn.pix.evp.write\n  description: Alterar Chaves aleatórias\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: gn.pix.evp.read\n\
+  \  description: Consultar Chaves aleatórias\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: gn.settings.write\n  description: Alterar Configurações da API\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: gn.settings.read\n  description: Consultar Configurações da API\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: gn.reports.write\n  description: Solicitar relatórios\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: gn.reports.read\n  description: Consultar relatórios\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: gn.split.read\n  description: Consultar configuração de venda (split pix)\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n\
+  - scope: gn.split.write\n  description: Criar configuração de venda (split pix)\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: lotecobv.read\n  description: Alterar lote de cobranças com vencimento\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: lotecobv.write\n  description: Consultar lote de cobranças com vencimento\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: gn.infractions.write\n  description: Submeter defesa de infração MED\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: gn.infractions.read\n  description: Listar as infrações MED da conta\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: gn.receipts.read\n  description: Baixar comprovante Pix\n  flows:\n  - clientCredentials\n\
+  \  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: rec.read\n  description: Consultar recorrências de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: rec.write\n  description: Alterar recorrências de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: solicrec.read\n  description: Consultar solicitações de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: solicrec.write\n  description: Alterar solicitações de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: cobr.read\n  description: Consultar cobranças de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: cobr.write\n  description: Alterar\
+  \ cobranças de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: payloadlocationrec.read\n  description: Consultar payloads de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: payloadlocationrec.write\n  description: Alterar payloads de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: webhookrec.read\n  description: Consultar webhook recorrências de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: webhookrec.write\n  description: Alterar webhook de recorrências de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: webhookcobr.read\n  description: Consultar webhook de cobranças de Pix Automático\n  flows:\n  - clientCredentials\n\
+  \  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\n- scope: webhookcobr.write\n  description: Alterar webhook de cobranças de Pix Automático\n  flows:\n  - clientCredentials\n  sources:\n  - https://dev.efipay.com.br/docs/api-pix/credenciais\ndocs: https://dev.efipay.com.br/docs/api-pix/credenciais\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/scopes/gerencianet-scopes.yml
-summary_line: 12 scopes · clientCredentials
+summary_line: 40 scopes · clientCredentials
 tags:
 - Payments
 - Pix
@@ -356,10 +705,10 @@ tags:
 - Fintech
 token_bound: false
 token_urls:
-- https://cobrancas.api.efipay.com.br/v1/authorize
+- https://pix.api.efipay.com.br/oauth/token
 - https://abrircontas.api.efipay.com.br/v1/oauth/token
+- https://cobrancas.api.efipay.com.br/v1/authorize
 - https://extratos.api.efipay.com.br/v1/oauth/token
 - https://openfinance.api.efipay.com.br/v1/oauth/token
 - https://pagarcontas.api.efipay.com.br/v1/oauth/token
-- https://pix.api.efipay.com.br/oauth/token
 ---

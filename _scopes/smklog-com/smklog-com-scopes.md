@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: smklog-com-agent-api-openapi.yml
+- filename: smklog-com-checkout-api-openapi.yml
   format: yaml
-  label: SMKlog Agent API
-  slug: smklog-com-agent-api
+  label: SMKlog Checkout API
+  slug: smklog-com-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-agent-api-openapi.yml
-- filename: smklog-com-quote-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-checkout-api-openapi.yml
+- filename: smklog-com-operations-api-openapi.yml
   format: yaml
-  label: SMKlog Quote API
-  slug: smklog-com-quote-api
+  label: SMKlog Operations API
+  slug: smklog-com-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-quote-api-openapi.yml
-- filename: smklog-com-status-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-operations-api-openapi.yml
+- filename: smklog-com-quotes-api-openapi.yml
   format: yaml
-  label: SMKlog Status API
-  slug: smklog-com-status-api
+  label: SMKlog Quotes API
+  slug: smklog-com-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-status-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/smklog-com/refs/heads/main/openapi/smklog-com-quotes-api-openapi.yml
 authorization_urls: []
 description: The OpenAPI declares no securitySchemes (0-working/derive-oauth-scopes.py found nothing to derive), because the API is open; OAuth exists only as an optional rate-limit tier. The RFC 8414 metadata publishes one scope, quote, one grant (client_credentials) and two token-endpoint auth methods. Registration is manual by email; there is no authorization endpoint, no user identity and no dynamic client registration.
 docs: https://smklog.com/auth.md

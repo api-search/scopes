@@ -44,7 +44,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alien/refs/hea
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Identity
 - Authentication
 - OpenID Connect

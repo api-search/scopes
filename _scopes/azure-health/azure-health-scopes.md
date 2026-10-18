@@ -144,7 +144,7 @@ tags:
 - HIPAA
 - HITRUST
 - Cloud
-- Azure
+- Microsoft Azure
 - Microsoft
 token_bound: false
 token_urls:

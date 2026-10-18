@@ -69,12 +69,12 @@ summary_line: 1 scope · clientCredentials
 tags:
 - Eventing
 - Event-Driven
-- Pub-Sub
+- Pub/Sub
 - Messaging
 - Webhook
 - CloudEvents
 - Cloud
-- Azure
+- Microsoft Azure
 token_bound: false
 token_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/token

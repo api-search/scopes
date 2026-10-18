@@ -1440,12 +1440,11 @@ source_yaml: "generated: '2026-09-12'\nmethod: derived\nsource: openapi/gluu-jan
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/scopes/gluu-scopes.yml
 summary_line: 162 scopes · clientCredentials
 tags:
-- Access Management
+- Identity and Access Management
 - Authentication
 - Authorization
 - Cedar
 - FIDO2
-- Identity and Access Management
 - Identities
 - Open Source
 - OpenID Connect

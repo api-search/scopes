@@ -223,7 +223,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinme/refs/he
 summary_line: 3 scopes · authorization_code/refresh_token/client_credentials/device_code
 tags:
 - Company
-- Crypto
 - Cryptocurrency
 - Payments
 - Bitcoin

@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-fu
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/scopes/microsoft-azure-functions-scopes.yml
 summary_line: 1 scope · implicit
 tags:
-- Azure
+- Microsoft Azure
 - Cloud
 - Compute
 - Event-Driven

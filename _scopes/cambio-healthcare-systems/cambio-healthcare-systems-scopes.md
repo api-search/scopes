@@ -85,7 +85,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Healthcare
 - Electronic Health Records
-- EHR
 - Clinical Decision Support
 - FHIR
 - HL7

@@ -100,8 +100,8 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Artificial Intelligence
 - Document AI
-- Azure
-- IDP
+- Microsoft Azure
+- Intelligent Document Processing
 - OCR
 - Microsoft
 - REST

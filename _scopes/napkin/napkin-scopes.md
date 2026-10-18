@@ -59,7 +59,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Visualization
-- Diagrams
+- Diagramming
 - Infographics
 - Presentations
 - Content Generation

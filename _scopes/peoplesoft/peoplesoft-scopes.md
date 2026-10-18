@@ -231,15 +231,15 @@ api_specs:
 authorization_urls:
 - https://{hostname}:{port}/psft/oauth/authorize
 description: ''
-docs: https://docs.oracle.com/cd/F30998_01/pt858pbr2/eng/pt/tsec/concept_UnderstandingOAuth2_0.html
+docs: ''
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Peoplesoft Scopes
 name_suffix: OAuth Scopes
-note: PeopleSoft OAuth 2.0 (PeopleTools 8.58+) publishes no scope catalog; authorization is enforced by PeopleSoft permission lists and roles tied to the user ID in the token's sub claim, with any scopes defined per deployment in the external identity provider (see https://docs.oracle.com/cd/F30998_01/pt858pbr2/eng/pt/tsec/concept_UnderstandingOAuth2_0.html).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'PeopleSoft uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -255,13 +255,13 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://{hostname}:{port}/psft/oauth/token
   name: oauth2
-  source: openapi/application-services-framework.yml
+  source: openapi/peoplesoft-resources-api-openapi.yml
 - flows:
   - authorizationUrl: https://{hostname}:{port}/psft/oauth/authorize
     flow: authorizationCode
     tokenUrl: https://{hostname}:{port}/psft/oauth/token
   name: oauth2
-  source: openapi/rest-api.yml
+  source: openapi/peoplesoft-services-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -269,8 +269,7 @@ slug: peoplesoft-scopes
 source_filename: peoplesoft-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/application-services-framework.yml, openapi/rest-api.yml\ndocs: https://docs.oracle.com/cd/F30998_01/pt858pbr2/eng/pt/tsec/concept_UnderstandingOAuth2_0.html\nnote: PeopleSoft OAuth 2.0 (PeopleTools 8.58+) publishes no scope catalog; authorization\n  is enforced by PeopleSoft permission lists and roles tied to the user ID in the\n  token's sub claim, with any scopes defined per deployment in the external identity\n  provider (see https://docs.oracle.com/cd/F30998_01/pt858pbr2/eng/pt/tsec/concept_UnderstandingOAuth2_0.html).\nschemes:\n- name: oauth2\n  source: openapi/application-services-framework.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{hostname}:{port}/psft/oauth/authorize\n    tokenUrl: https://{hostname}:{port}/psft/oauth/token\n- name: oauth2\n  source: openapi/rest-api.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{hostname}:{port}/psft/oauth/authorize\n\
-  \    tokenUrl: https://{hostname}:{port}/psft/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/peoplesoft-resources-api-openapi.yml, openapi/peoplesoft-services-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/peoplesoft-resources-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{hostname}:{port}/psft/oauth/authorize\n    tokenUrl: https://{hostname}:{port}/psft/oauth/token\n- name: oauth2\n  source: openapi/peoplesoft-services-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{hostname}:{port}/psft/oauth/authorize\n    tokenUrl: https://{hostname}:{port}/psft/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/scopes/peoplesoft-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

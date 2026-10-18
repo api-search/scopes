@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: >-\n  https://api
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/scopes/lumos-scopes.yml
 summary_line: 14 scopes · authorization_code
 tags:
-- Access Management
+- Identity and Access Management
 - Access Reviews
 - Deprovisioning
 - Identity Governance

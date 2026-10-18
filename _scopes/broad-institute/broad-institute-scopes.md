@@ -187,8 +187,8 @@ tags:
 - Biotechnology
 - Research
 - Genomics
-- OpenScience
-- Nonprofit
+- Open Science
+- Non-Profit
 token_bound: false
 token_urls:
 - OAUTH_TOKEN_URL

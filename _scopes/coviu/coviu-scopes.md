@@ -43,10 +43,10 @@ flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Coviu Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Coviu uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -61,7 +61,32 @@ schemes:
   - flow: clientCredentials
     tokenUrl: /v1/auth/token
   name: ClientCredentials
-  source: openapi/coviu-rest-api-openapi.json
+  source: openapi/coviu-auth-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /v1/auth/token
+  name: ClientCredentials
+  source: openapi/coviu-collections-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /v1/auth/token
+  name: ClientCredentials
+  source: openapi/coviu-participants-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /v1/auth/token
+  name: ClientCredentials
+  source: openapi/coviu-sessions-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /v1/auth/token
+  name: ClientCredentials
+  source: openapi/coviu-waiting-area-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /v1/auth/token
+  name: ClientCredentials
+  source: openapi/coviu-webhook-requests-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -69,7 +94,8 @@ slug: coviu-scopes
 source_filename: coviu-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-24'\nmethod: derived\nsource: openapi/coviu-rest-api-openapi.json\nschemes:\n- name: ClientCredentials\n  source: openapi/coviu-rest-api-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/coviu-auth-api-openapi.yml, openapi/coviu-collections-api-openapi.yml, openapi/coviu-participants-api-openapi.yml,\n  openapi/coviu-sessions-api-openapi.yml, openapi/coviu-waiting-area-api-openapi.yml, openapi/coviu-webhook-requests-api-openapi.yml\nschemes:\n- name: ClientCredentials\n  source: openapi/coviu-auth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\n- name: ClientCredentials\n  source: openapi/coviu-collections-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\n- name: ClientCredentials\n  source: openapi/coviu-participants-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\n- name: ClientCredentials\n  source: openapi/coviu-sessions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\n- name: ClientCredentials\n  source: openapi/coviu-waiting-area-api-openapi.yml\n  flows:\n\
+  \  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\n- name: ClientCredentials\n  source: openapi/coviu-webhook-requests-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/scopes/coviu-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

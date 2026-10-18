@@ -596,15 +596,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/openapi/kpn-graph-ql-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://developer.kpn.com/page/getting-started
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Kpn Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'KPN uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -618,143 +618,433 @@ schemes:
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
-  name: OAuth2
-  source: openapi/apidaze-voice-openapi.yml
+  name: oauth2
+  source: openapi/kpn-account-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/kpn-disturbance-check-openapi.yml
+  source: openapi/kpn-activation-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/kpn-high-level-design-ftth-openapi.yml
-- flows:
-  - flow: clientCredentials
-    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
-  name: oauth2
-  source: openapi/kpn-internet-speed-check-openapi.yml
-- flows:
-  - flow: clientCredentials
-    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
-  name: oauth2
-  source: openapi/kpn-ise-openapi.yml
-- flows:
-  - flow: clientCredentials
-    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
-  name: oauth2
-  source: openapi/kpn-lora-device-management-openapi.yml
-- flows:
-  - flow: clientCredentials
-    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
-  name: OAuth2
-  source: openapi/kpn-mobile-services-management-openapi.yml
+  source: openapi/kpn-alarm-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: OAuth2ClientCredentials
-  source: openapi/kpn-sd-lan-sd-wan-network-view-openapi.yml
+  source: openapi/kpn-appliance-configure-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
-  name: oauth2
-  source: openapi/kpn-servicenow-connect-openapi.yml
-- flows:
-  - flow: clientCredentials
-    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
-  name: oauth2
-  source: openapi/kpn-sim-swap-openapi.yml
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-appliance-monitor-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: OAuth2
-  source: openapi/kpn-sms-openapi.yml
-- flows:
-  - flow: clientCredentials
-    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
-  name: oauth2
-  source: openapi/kpn-tv-guide-openapi.yml
+  source: openapi/kpn-application-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: OAuth2
-  source: openapi/kpn-webhook-privacy-config-manager-openapi.yml
+  source: openapi/kpn-application-keys-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-applications-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-attachment-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-autologin-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: OAuth2
-  source: openapi/kpn-webhook-signing-keys-openapi.yml
+  source: openapi/kpn-callback-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/kpn-wholesale-broadband-access-fpi-cip-openapi.yml
+  source: openapi/kpn-cases-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/parley-secure-messenger-openapi.yml
+  source: openapi/kpn-catalog-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-cellulargateway-configure-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-cellulargateway-monitor-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/pollyhelp-knowledge-management-openapi.yml
+  source: openapi/kpn-config-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/registered-email-openapi.yml
+  source: openapi/kpn-configuration-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/tracebuzz-social-media-webcare-openapi.yml
+  source: openapi/kpn-default-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/vonage-messages-openapi.yml
+  source: openapi/kpn-device-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-devices-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-devicesecurity-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-emailing-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-endpoint-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-endpoint-group-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-events-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-graph-ql-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-identitygroup-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-insight-configure-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-insight-monitor-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-internaluser-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-item-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-jwt-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-meetings-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-messages-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-networks-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-number-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: OAuth2
-  source: openapi/vonage-number-insight-openapi.yml
-- flows:
-  - flow: clientCredentials
-    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
-  name: oauth2
-  source: openapi/vonage-phone-numbers-openapi.yml
+  source: openapi/kpn-organization-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: OAuth2
-  source: openapi/vonage-sms-openapi.yml
+  source: openapi/kpn-organization-keys-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-organizations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-packages-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-personal-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: OAuth2
-  source: openapi/vonage-verify-openapi.yml
+  source: openapi/kpn-register-webhook-demo-testing-only-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-request-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-address-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-block-sim-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-business-voice-mail-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-contract-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-contract-terminate-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-contracting-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-hardware-enrollment-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-hierarchy-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-invoice-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-order-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-separate-fixed-mobile-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-subscriber-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-template-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-threshold-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-track-and-trace-controller-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-rest-user-controller-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/vonage-voice-openapi.yml
+  source: openapi/kpn-results-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/weseedo-direct-openapi.yml
+  source: openapi/kpn-retrieve-job-result-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/weseedo-personal-openapi.yml
+  source: openapi/kpn-retrieve-sim-swap-date-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
   name: oauth2
-  source: openapi/xdroid-speech-to-text-openapi.yml
+  source: openapi/kpn-retrieve-transcription-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-routing-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-send-sms-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-sites-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-start-engineering-job-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-statistics-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-subscription-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-switch-configure-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-switch-monitor-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-task-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-team-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-team-keys-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-ticket-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-token-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-upload-audio-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-user-management-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-users-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-verify-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: oauth2
+  source: openapi/kpn-voice-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-voip-sip-api-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-webhook-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-wireless-configure-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2ClientCredentials
+  source: openapi/kpn-wireless-monitor-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials
+  name: OAuth2
+  source: openapi/kpn-xml-scripting-api-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -762,14 +1052,28 @@ slug: kpn-scopes
 source_filename: kpn-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-25'\nmethod: derived\nsource: openapi/apidaze-voice-openapi.yml, openapi/kpn-disturbance-check-openapi.yml, openapi/kpn-high-level-design-ftth-openapi.yml,\n  openapi/kpn-internet-speed-check-openapi.yml, openapi/kpn-ise-openapi.yml, openapi/kpn-lora-device-management-openapi.yml,\n  openapi/kpn-mobile-services-management-openapi.yml, openapi/kpn-sd-lan-sd-wan-network-view-openapi.yml, openapi/kpn-servicenow-connect-openapi.yml,\n  openapi/kpn-sim-swap-openapi.yml, openapi/kpn-sms-openapi.yml, openapi/kpn-tv-guide-openapi.yml, openapi/kpn-webhook-privacy-config-manager-openapi.yml,\n  openapi/kpn-webhook-signing-keys-openapi.yml, openapi/kpn-wholesale-broadband-access-fpi-cip-openapi.yml, openapi/parley-secure-messenger-openapi.yml,\n  openapi/pollyhelp-knowledge-management-openapi.yml, openapi/registered-email-openapi.yml, openapi/tracebuzz-social-media-webcare-openapi.yml,\n  openapi/vonage-messages-openapi.yml, openapi/vonage-number-insight-openapi.yml,\
-  \ openapi/vonage-phone-numbers-openapi.yml,\n  openapi/vonage-sms-openapi.yml, openapi/vonage-verify-openapi.yml, openapi/vonage-voice-openapi.yml, openapi/weseedo-direct-openapi.yml,\n  openapi/weseedo-personal-openapi.yml, openapi/xdroid-speech-to-text-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/apidaze-voice-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-disturbance-check-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-high-level-design-ftth-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-internet-speed-check-openapi.yml\n  flows:\n  -\
-  \ flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-ise-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-lora-device-management-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-mobile-services-management-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-sd-lan-sd-wan-network-view-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
-  - name: oauth2\n  source: openapi/kpn-servicenow-connect-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-sim-swap-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-sms-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-tv-guide-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-webhook-privacy-config-manager-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
-  - name: OAuth2\n  source: openapi/kpn-webhook-signing-keys-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-wholesale-broadband-access-fpi-cip-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/parley-secure-messenger-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/pollyhelp-knowledge-management-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/registered-email-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
-  \ https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/tracebuzz-social-media-webcare-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/vonage-messages-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/vonage-number-insight-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/vonage-phone-numbers-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/vonage-sms-openapi.yml\n\
-  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/vonage-verify-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/vonage-voice-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/weseedo-direct-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/weseedo-personal-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/xdroid-speech-to-text-openapi.yml\n\
-  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\nscopes: []\ndocs: https://developer.kpn.com/page/getting-started\nnotes:\n- 'KPN runs OAuth 2.0 client-credentials with NO scopes: no scope appears in any flow map or operation security\n  requirement across the 34 published definitions, and the developer documentation defines no scope or permission\n  reference.'\n- Authorisation is entitlement-based - a project is granted access by adding the relevant API product to it in the\n  developer portal dashboard.\n- The schemes below are retained because they carry the real token endpoints for each product.\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/kpn-account-api-openapi.yml, openapi/kpn-activation-api-openapi.yml, openapi/kpn-alarm-api-openapi.yml,\n  openapi/kpn-appliance-configure-api-openapi.yml, openapi/kpn-appliance-monitor-api-openapi.yml,\n  openapi/kpn-application-api-openapi.yml, openapi/kpn-application-keys-api-openapi.yml, openapi/kpn-applications-api-openapi.yml,\n  openapi/kpn-attachment-api-openapi.yml, openapi/kpn-autologin-api-openapi.yml, openapi/kpn-callback-api-openapi.yml,\n  openapi/kpn-cases-api-openapi.yml, openapi/kpn-catalog-api-openapi.yml, openapi/kpn-cellulargateway-configure-api-openapi.yml,\n  openapi/kpn-cellulargateway-monitor-api-openapi.yml, openapi/kpn-config-api-openapi.yml, openapi/kpn-configuration-api-openapi.yml,\n  openapi/kpn-default-api-openapi.yml, openapi/kpn-device-api-openapi.yml, openapi/kpn-devices-api-openapi.yml,\n  openapi/kpn-devicesecurity-api-openapi.yml, openapi/kpn-emailing-api-openapi.yml, openapi/kpn-endpoint-api-openapi.yml,\n\
+  \  openapi/kpn-endpoint-group-api-openapi.yml, openapi/kpn-events-api-openapi.yml, openapi/kpn-graph-ql-api-openapi.yml,\n  openapi/kpn-identitygroup-api-openapi.yml, openapi/kpn-insight-configure-api-openapi.yml,\n  openapi/kpn-insight-monitor-api-openapi.yml, openapi/kpn-internaluser-api-openapi.yml, openapi/kpn-item-api-openapi.yml,\n  openapi/kpn-jwt-api-openapi.yml, openapi/kpn-meetings-api-openapi.yml, openapi/kpn-messages-api-openapi.yml,\n  openapi/kpn-networks-api-openapi.yml, openapi/kpn-number-api-openapi.yml, openapi/kpn-organization-api-openapi.yml,\n  openapi/kpn-organization-keys-api-openapi.yml, openapi/kpn-organizations-api-openapi.yml,\n  openapi/kpn-packages-api-openapi.yml, openapi/kpn-personal-api-openapi.yml, openapi/kpn-register-webhook-demo-testing-only-api-openapi.yml,\n  openapi/kpn-request-api-openapi.yml, openapi/kpn-rest-address-controller-api-openapi.yml,\n  openapi/kpn-rest-block-sim-controller-api-openapi.yml, openapi/kpn-rest-business-voice-mail-controller-api-openapi.yml,\n\
+  \  openapi/kpn-rest-contract-controller-api-openapi.yml, openapi/kpn-rest-contract-terminate-controller-api-openapi.yml,\n  openapi/kpn-rest-contracting-controller-api-openapi.yml, openapi/kpn-rest-hardware-enrollment-controller-api-openapi.yml,\n  openapi/kpn-rest-hierarchy-controller-api-openapi.yml, openapi/kpn-rest-invoice-controller-api-openapi.yml,\n  openapi/kpn-rest-order-controller-api-openapi.yml, openapi/kpn-rest-separate-fixed-mobile-controller-api-openapi.yml,\n  openapi/kpn-rest-subscriber-controller-api-openapi.yml, openapi/kpn-rest-template-controller-api-openapi.yml,\n  openapi/kpn-rest-threshold-controller-api-openapi.yml, openapi/kpn-rest-track-and-trace-controller-api-openapi.yml,\n  openapi/kpn-rest-user-controller-api-openapi.yml, openapi/kpn-results-api-openapi.yml, openapi/kpn-retrieve-job-result-api-openapi.yml,\n  openapi/kpn-retrieve-sim-swap-date-api-openapi.yml, openapi/kpn-retrieve-transcription-api-openapi.yml,\n  openapi/kpn-routing-api-openapi.yml, openapi/kpn-send-sms-api-openapi.yml,\
+  \ openapi/kpn-sites-api-openapi.yml,\n  openapi/kpn-start-engineering-job-api-openapi.yml, openapi/kpn-statistics-api-openapi.yml,\n  openapi/kpn-subscription-api-openapi.yml, openapi/kpn-switch-configure-api-openapi.yml, openapi/kpn-switch-monitor-api-openapi.yml,\n  openapi/kpn-task-api-openapi.yml, openapi/kpn-team-api-openapi.yml, openapi/kpn-team-keys-api-openapi.yml,\n  openapi/kpn-ticket-api-openapi.yml, openapi/kpn-token-api-openapi.yml, openapi/kpn-upload-audio-api-openapi.yml,\n  openapi/kpn-user-management-api-openapi.yml, openapi/kpn-users-api-openapi.yml, openapi/kpn-verify-api-openapi.yml,\n  openapi/kpn-voice-api-openapi.yml, openapi/kpn-voip-sip-api-api-openapi.yml, openapi/kpn-webhook-api-openapi.yml,\n  openapi/kpn-wireless-configure-api-openapi.yml, openapi/kpn-wireless-monitor-api-openapi.yml,\n  openapi/kpn-xml-scripting-api-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/kpn-account-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
+  \ https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-activation-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-alarm-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-appliance-configure-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-appliance-monitor-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source:\
+  \ openapi/kpn-application-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-application-keys-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-applications-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-attachment-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-autologin-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
+  - name: OAuth2\n  source: openapi/kpn-callback-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-cases-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-catalog-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-cellulargateway-configure-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-cellulargateway-monitor-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n  \
+  \  tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-config-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-configuration-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-default-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-device-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-devices-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-devicesecurity-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-emailing-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-endpoint-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-endpoint-group-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n\
+  \  source: openapi/kpn-events-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-graph-ql-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-identitygroup-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-insight-configure-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-insight-monitor-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
+  - name: oauth2\n  source: openapi/kpn-internaluser-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-item-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-jwt-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-meetings-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-messages-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
+  - name: OAuth2ClientCredentials\n  source: openapi/kpn-networks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-number-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-organization-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-organization-keys-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-organizations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
+  - name: oauth2\n  source: openapi/kpn-packages-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-personal-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-register-webhook-demo-testing-only-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-request-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-address-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n\
+  - name: OAuth2\n  source: openapi/kpn-rest-block-sim-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-business-voice-mail-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-contract-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-contract-terminate-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-contracting-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-hardware-enrollment-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-hierarchy-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-invoice-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-order-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-separate-fixed-mobile-controller-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-subscriber-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-template-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-threshold-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-rest-track-and-trace-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n\
+  - name: OAuth2\n  source: openapi/kpn-rest-user-controller-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/grip/msm/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-results-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-retrieve-job-result-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-retrieve-sim-swap-date-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-retrieve-transcription-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
+  - name: oauth2\n  source: openapi/kpn-routing-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-send-sms-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-sites-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-start-engineering-job-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-statistics-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
+  - name: oauth2\n  source: openapi/kpn-subscription-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-switch-configure-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-switch-monitor-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-task-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-team-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
+  - name: OAuth2\n  source: openapi/kpn-team-keys-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-ticket-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-token-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-upload-audio-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-user-management-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
+  - name: oauth2\n  source: openapi/kpn-users-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-verify-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: oauth2\n  source: openapi/kpn-voice-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-voip-sip-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-webhook-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n\
+  - name: OAuth2ClientCredentials\n  source: openapi/kpn-wireless-configure-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2ClientCredentials\n  source: openapi/kpn-wireless-monitor-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\n- name: OAuth2\n  source: openapi/kpn-xml-scripting-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api-prd.kpn.com/oauth/client_credential/accesstoken?grant_type=client_credentials\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/scopes/kpn-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

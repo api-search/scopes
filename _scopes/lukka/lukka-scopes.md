@@ -223,7 +223,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\ndocs: https://apidocs.l
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lukka/refs/heads/main/scopes/lukka-scopes.yml
 summary_line: 9 scopes · clientCredentials/authorizationCode
 tags:
-- Crypto
+- Cryptocurrency
 - Digital Assets
 - Market Data
 - Reference Data

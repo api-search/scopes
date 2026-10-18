@@ -2004,10 +2004,9 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://fhir4.ecl
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/scopes/eclinicalworks-scopes.yml
 summary_line: 486 scopes
 tags:
-- EHR
+- Electronic Health Records
 - FHIR
 - Healthcare
-- Electronic Health Records
 - Practice Management
 - Clinical Data
 - Health Information Exchange

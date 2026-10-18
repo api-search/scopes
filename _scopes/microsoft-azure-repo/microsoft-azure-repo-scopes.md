@@ -114,9 +114,8 @@ tags:
 - DevOps
 - Git
 - Repositories
-- Source Control
-- TFVC
 - Version Control
+- TFVC
 token_bound: false
 token_urls:
 - https://app.vssps.visualstudio.com/oauth2/token

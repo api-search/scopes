@@ -258,7 +258,7 @@ tags:
 - Industrial Automation
 - Industrial Connectivity
 - Edge Computing
-- IIoT
+- Industrial IoT
 - u-OS
 - Manufacturing
 token_bound: false

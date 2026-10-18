@@ -82,7 +82,7 @@ tags:
 - Policy
 - Claims
 - Billing
-- P&C
+- Property and Casualty
 token_bound: false
 token_urls: []
 ---

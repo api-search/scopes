@@ -116,15 +116,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/openapi/alloy-com-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://developer.alloy.com/public/docs/authentication-guide
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Alloy Com Scopes
 name_suffix: OAuth Scopes
-note: Alloy's API uses OAuth 2.0 client_credentials (API token/secret exchanged for a one-hour bearer token) or Basic HTTP auth, and does not use or document OAuth scopes (https://developer.alloy.com/public/docs/authentication-guide).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Alloy uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -140,7 +140,61 @@ schemes:
   - flow: clientCredentials
     tokenUrl: /oauth/bearer
   name: oauth2
-  source: openapi/alloy-identity-api-openapi.yml
+  source: openapi/alloy-com-bank-accounts-api-openapi.yml
+- description: OAuth2 using a workflow token and secret to generate a bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/bearer
+  name: oauth2
+  source: openapi/alloy-com-documents-api-openapi.yml
+- description: OAuth2 using a workflow token and secret to generate a bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/bearer
+  name: oauth2
+  source: openapi/alloy-com-entities-api-openapi.yml
+- description: OAuth2 using a workflow token and secret to generate a bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/bearer
+  name: oauth2
+  source: openapi/alloy-com-entity-groups-api-openapi.yml
+- description: OAuth2 using a workflow token and secret to generate a bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/bearer
+  name: oauth2
+  source: openapi/alloy-com-evaluations-api-openapi.yml
+- description: OAuth2 using a workflow token and secret to generate a bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/bearer
+  name: oauth2
+  source: openapi/alloy-com-events-api-openapi.yml
+- description: OAuth2 using a workflow token and secret to generate a bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/bearer
+  name: oauth2
+  source: openapi/alloy-com-investigations-api-openapi.yml
+- description: OAuth2 using a workflow token and secret to generate a bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/bearer
+  name: oauth2
+  source: openapi/alloy-com-journeys-api-openapi.yml
+- description: OAuth2 using a workflow token and secret to generate a bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/bearer
+  name: oauth2
+  source: openapi/alloy-com-oauth-api-openapi.yml
+- description: OAuth2 using a workflow token and secret to generate a bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: /oauth/bearer
+  name: oauth2
+  source: openapi/alloy-com-transactions-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -148,7 +202,9 @@ slug: alloy-com-scopes
 source_filename: alloy-com-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/alloy-identity-api-openapi.yml\ndocs: https://developer.alloy.com/public/docs/authentication-guide\nnote: Alloy's API uses OAuth 2.0 client_credentials (API token/secret exchanged for a\n  one-hour bearer token) or Basic HTTP auth, and does not use or document OAuth scopes\n  (https://developer.alloy.com/public/docs/authentication-guide).\nschemes:\n- name: oauth2\n  source: openapi/alloy-identity-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/alloy-com-bank-accounts-api-openapi.yml, openapi/alloy-com-documents-api-openapi.yml,\n  openapi/alloy-com-entities-api-openapi.yml, openapi/alloy-com-entity-groups-api-openapi.yml,\n  openapi/alloy-com-evaluations-api-openapi.yml, openapi/alloy-com-events-api-openapi.yml, openapi/alloy-com-investigations-api-openapi.yml,\n  openapi/alloy-com-journeys-api-openapi.yml, openapi/alloy-com-oauth-api-openapi.yml, openapi/alloy-com-transactions-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/alloy-com-bank-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\n- name: oauth2\n  source: openapi/alloy-com-documents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\n- name: oauth2\n\
+  \  source: openapi/alloy-com-entities-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\n- name: oauth2\n  source: openapi/alloy-com-entity-groups-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\n- name: oauth2\n  source: openapi/alloy-com-evaluations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\n- name: oauth2\n  source: openapi/alloy-com-events-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\n- name: oauth2\n  source: openapi/alloy-com-investigations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
+  \ /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\n- name: oauth2\n  source: openapi/alloy-com-journeys-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\n- name: oauth2\n  source: openapi/alloy-com-oauth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\n- name: oauth2\n  source: openapi/alloy-com-transactions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/bearer\n  description: OAuth2 using a workflow token and secret to generate a bearer token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/scopes/alloy-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

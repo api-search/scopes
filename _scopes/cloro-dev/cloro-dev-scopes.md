@@ -74,7 +74,7 @@ summary_line: 3 scopes
 tags:
 - Company
 - Search
-- AI
+- Artificial Intelligence
 - Web Scraping
 - SERP
 - Generative Engine Optimization

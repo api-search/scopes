@@ -364,7 +364,7 @@ summary_line: 45 scopes
 tags:
 - Company
 - EdTech
-- Learning Management System
+- LMS
 - E-Learning
 - Training
 - Collaborative Learning

@@ -205,7 +205,7 @@ tags:
 - Change Data Capture
 - Integration Runtime
 - Cloud
-- Azure
+- Microsoft Azure
 - Data Factory
 token_bound: false
 token_urls: []

@@ -44,15 +44,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://www.learnworlds.dev/docs/api/b6b6c2d4906e9-authentication
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Learnworlds Scopes
 name_suffix: OAuth Scopes
-note: LearnWorlds API uses the OAuth2 client credentials grant (plus an Lw-Client header) and does not publish or use OAuth scopes; access is governed by school plan and API credentials (see https://www.learnworlds.dev/docs/api/b6b6c2d4906e9-authentication).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'LearnWorlds uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -68,7 +68,43 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token
   name: oauth2ClientCredentials
-  source: openapi/learnworlds-openapi.yml
+  source: openapi/learnworlds-courses-api-openapi.yml
+- description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for a bearer access token at the school token endpoint, then pass it as Authorization: Bearer ACCESS_TOKEN.'
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token
+  name: oauth2ClientCredentials
+  source: openapi/learnworlds-enrollments-api-openapi.yml
+- description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for a bearer access token at the school token endpoint, then pass it as Authorization: Bearer ACCESS_TOKEN.'
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token
+  name: oauth2ClientCredentials
+  source: openapi/learnworlds-payments-api-openapi.yml
+- description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for a bearer access token at the school token endpoint, then pass it as Authorization: Bearer ACCESS_TOKEN.'
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token
+  name: oauth2ClientCredentials
+  source: openapi/learnworlds-progress-api-openapi.yml
+- description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for a bearer access token at the school token endpoint, then pass it as Authorization: Bearer ACCESS_TOKEN.'
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token
+  name: oauth2ClientCredentials
+  source: openapi/learnworlds-tags-api-openapi.yml
+- description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for a bearer access token at the school token endpoint, then pass it as Authorization: Bearer ACCESS_TOKEN.'
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token
+  name: oauth2ClientCredentials
+  source: openapi/learnworlds-users-api-openapi.yml
+- description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for a bearer access token at the school token endpoint, then pass it as Authorization: Bearer ACCESS_TOKEN.'
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token
+  name: oauth2ClientCredentials
+  source: openapi/learnworlds-webhooks-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -76,7 +112,10 @@ slug: learnworlds-scopes
 source_filename: learnworlds-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/learnworlds-openapi.yml\ndocs: https://www.learnworlds.dev/docs/api/b6b6c2d4906e9-authentication\nnote: LearnWorlds API uses the OAuth2 client credentials grant (plus an Lw-Client\n  header) and does not publish or use OAuth scopes; access is governed by school\n  plan and API credentials (see https://www.learnworlds.dev/docs/api/b6b6c2d4906e9-authentication).\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/learnworlds-courses-api-openapi.yml, openapi/learnworlds-enrollments-api-openapi.yml,\n  openapi/learnworlds-payments-api-openapi.yml, openapi/learnworlds-progress-api-openapi.yml,\n  openapi/learnworlds-tags-api-openapi.yml, openapi/learnworlds-users-api-openapi.yml, openapi/learnworlds-webhooks-api-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-courses-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-enrollments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n\
+  \  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-payments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-progress-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it\
+  \ as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-tags-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-users-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-webhooks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/scopes/learnworlds-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -1015,7 +1015,6 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://drchrono-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/scopes/drchrono-fhir-smart-scopes.yml
 summary_line: 233 scopes
 tags:
-- EHR
 - Electronic Health Records
 - Healthcare
 - Medical Records

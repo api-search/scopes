@@ -76,7 +76,7 @@ tags:
 - OAI-PMH
 - Identity Federation
 - SAML
-- Learning Management
+- LMS
 - Machine Learning
 token_bound: false
 token_urls: []

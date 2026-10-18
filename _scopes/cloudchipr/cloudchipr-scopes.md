@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  https://mcp
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/scopes/cloudchipr-scopes.yml
 summary_line: 4 scopes
 tags:
-- Azure
+- Microsoft Azure
 - Cloud Cost Management
 - Cost Optimization
 - FinOps

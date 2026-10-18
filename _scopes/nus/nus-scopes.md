@@ -93,7 +93,7 @@ tags:
 - Research Repository
 - Course Catalog
 - Open Access
-- Learning Management
+- LMS
 token_bound: false
 token_urls: []
 ---

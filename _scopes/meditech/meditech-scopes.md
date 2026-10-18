@@ -102,7 +102,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- EHR
+- Electronic Health Records
 - Healthcare
 - FHIR
 - HL7

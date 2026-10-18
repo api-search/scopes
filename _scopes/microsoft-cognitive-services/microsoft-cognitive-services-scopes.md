@@ -52,7 +52,7 @@ tags:
 - Azure AI
 - Computer Vision
 - Speech
-- NLP
+- Natural Language Processing
 - OpenAI
 - Machine Learning
 token_bound: false

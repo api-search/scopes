@@ -120,7 +120,6 @@ tags:
 - Company
 - Cloud
 - Sales Enablement
-- Electronic Signature
 - E-Signature
 - Digital Sales Room
 - Document Management

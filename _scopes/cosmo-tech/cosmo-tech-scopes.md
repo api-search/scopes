@@ -50,10 +50,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Cosmo Tech Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Cosmo Tech uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -70,49 +70,49 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://example.com/token
   name: oAuth2AuthCode
-  source: openapi/cosmo-tech-dataset-openapi-original.yaml
+  source: openapi/cosmo-tech-dataset-api-openapi.yml
 - description: OAuth2 authentication
   flows:
   - authorizationUrl: https://example.com/authorize
     flow: authorizationCode
     tokenUrl: https://example.com/token
   name: oAuth2AuthCode
-  source: openapi/cosmo-tech-meta-openapi-original.yaml
+  source: openapi/cosmo-tech-meta-api-openapi.yml
 - description: OAuth2 authentication
   flows:
   - authorizationUrl: https://example.com/authorize
     flow: authorizationCode
     tokenUrl: https://example.com/token
   name: oAuth2AuthCode
-  source: openapi/cosmo-tech-organization-openapi-original.yaml
+  source: openapi/cosmo-tech-organization-api-openapi.yml
 - description: OAuth2 authentication
   flows:
   - authorizationUrl: https://example.com/authorize
     flow: authorizationCode
     tokenUrl: https://example.com/token
   name: oAuth2AuthCode
-  source: openapi/cosmo-tech-run-openapi-original.yaml
+  source: openapi/cosmo-tech-run-api-openapi.yml
 - description: OAuth2 authentication
   flows:
   - authorizationUrl: https://example.com/authorize
     flow: authorizationCode
     tokenUrl: https://example.com/token
   name: oAuth2AuthCode
-  source: openapi/cosmo-tech-runner-openapi-original.yaml
+  source: openapi/cosmo-tech-runner-api-openapi.yml
 - description: OAuth2 authentication
   flows:
   - authorizationUrl: https://example.com/authorize
     flow: authorizationCode
     tokenUrl: https://example.com/token
   name: oAuth2AuthCode
-  source: openapi/cosmo-tech-solution-openapi-original.yaml
+  source: openapi/cosmo-tech-solution-api-openapi.yml
 - description: OAuth2 authentication
   flows:
   - authorizationUrl: https://example.com/authorize
     flow: authorizationCode
     tokenUrl: https://example.com/token
   name: oAuth2AuthCode
-  source: openapi/cosmo-tech-workspace-openapi-original.yaml
+  source: openapi/cosmo-tech-workspace-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -120,9 +120,9 @@ slug: cosmo-tech-scopes
 source_filename: cosmo-tech-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/cosmo-tech-dataset-openapi-original.yaml, openapi/cosmo-tech-meta-openapi-original.yaml,\n  openapi/cosmo-tech-organization-openapi-original.yaml, openapi/cosmo-tech-run-openapi-original.yaml,\n  openapi/cosmo-tech-runner-openapi-original.yaml, openapi/cosmo-tech-solution-openapi-original.yaml,\n  openapi/cosmo-tech-workspace-openapi-original.yaml\nschemes:\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-dataset-openapi-original.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-meta-openapi-original.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-organization-openapi-original.yaml\n\
-  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-run-openapi-original.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-runner-openapi-original.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-solution-openapi-original.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-workspace-openapi-original.yaml\n\
-  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/cosmo-tech-dataset-api-openapi.yml, openapi/cosmo-tech-meta-api-openapi.yml,\n  openapi/cosmo-tech-organization-api-openapi.yml, openapi/cosmo-tech-run-api-openapi.yml, openapi/cosmo-tech-runner-api-openapi.yml,\n  openapi/cosmo-tech-solution-api-openapi.yml, openapi/cosmo-tech-workspace-api-openapi.yml\nschemes:\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-dataset-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-meta-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-organization-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n\
+  \    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-run-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-runner-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-solution-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-workspace-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/scopes/cosmo-tech-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

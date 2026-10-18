@@ -73,7 +73,7 @@ tags:
 - Data Science
 - Hedge Funds
 - GraphQL
-- Crypto
+- Cryptocurrency
 - Quantitative Finance
 - Tournament
 token_bound: false

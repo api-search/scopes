@@ -223,10 +223,10 @@ flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Egym Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'EGYM uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -241,7 +241,52 @@ schemes:
   - flow: clientCredentials
     tokenUrl: /api/v1/oauth/token
   name: partner
-  source: openapi/egym-equipment-vendor-standalone-openapi.yml
+  source: openapi/egym-cardio-test-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /api/v1/oauth/token
+  name: partner
+  source: openapi/egym-cardio-workouts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /api/v1/oauth/token
+  name: partner
+  source: openapi/egym-image-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /api/v1/oauth/token
+  name: partner
+  source: openapi/egym-machine-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /api/v1/oauth/token
+  name: partner
+  source: openapi/egym-open-exercise-workouts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /api/v1/oauth/token
+  name: partner
+  source: openapi/egym-partners-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /api/v1/oauth/token
+  name: partner
+  source: openapi/egym-resource-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /api/v1/oauth/token
+  name: partner
+  source: openapi/egym-statistics-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /api/v1/oauth/token
+  name: partner
+  source: openapi/egym-strength-workouts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: /api/v1/oauth/token
+  name: partner
+  source: openapi/egym-user-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -249,7 +294,9 @@ slug: egym-scopes
 source_filename: egym-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/egym-equipment-vendor-standalone-openapi.yml\nschemes:\n- name: partner\n  source: openapi/egym-equipment-vendor-standalone-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/egym-cardio-test-api-openapi.yml, openapi/egym-cardio-workouts-api-openapi.yml,\n  openapi/egym-image-api-openapi.yml, openapi/egym-machine-api-openapi.yml, openapi/egym-open-exercise-workouts-api-openapi.yml,\n  openapi/egym-partners-api-openapi.yml, openapi/egym-resource-api-openapi.yml, openapi/egym-statistics-api-openapi.yml,\n  openapi/egym-strength-workouts-api-openapi.yml, openapi/egym-user-api-openapi.yml\nschemes:\n- name: partner\n  source: openapi/egym-cardio-test-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\n- name: partner\n  source: openapi/egym-cardio-workouts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\n- name: partner\n  source: openapi/egym-image-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\n- name: partner\n  source: openapi/egym-machine-api-openapi.yml\n  flows:\n  -\
+  \ flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\n- name: partner\n  source: openapi/egym-open-exercise-workouts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\n- name: partner\n  source: openapi/egym-partners-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\n- name: partner\n  source: openapi/egym-resource-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\n- name: partner\n  source: openapi/egym-statistics-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\n- name: partner\n  source: openapi/egym-strength-workouts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\n- name: partner\n  source: openapi/egym-user-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /api/v1/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes,\
+  \ and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/scopes/egym-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

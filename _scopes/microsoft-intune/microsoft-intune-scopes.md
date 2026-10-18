@@ -86,7 +86,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-intu
 summary_line: 4 scopes · authorizationCode
 tags:
 - App Protection
-- Azure
+- Microsoft Azure
 - Compliance
 - Device Configuration
 - Endpoint Management

@@ -26,10 +26,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Bitfinder Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Bitfinder uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -46,7 +46,21 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.awair.is/v2/token
   name: oauth2
-  source: openapi/bitfinder-awair-openapi.yml
+  source: openapi/bitfinder-air-data-api-openapi.yml
+- description: OAuth 2.0 authorization-code flow for third-party access to Awair user data.
+  flows:
+  - authorizationUrl: https://oauth2.awair.is/v2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth2.awair.is/v2/token
+  name: oauth2
+  source: openapi/bitfinder-devices-api-openapi.yml
+- description: OAuth 2.0 authorization-code flow for third-party access to Awair user data.
+  flows:
+  - authorizationUrl: https://oauth2.awair.is/v2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth2.awair.is/v2/token
+  name: oauth2
+  source: openapi/bitfinder-user-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -54,7 +68,8 @@ slug: bitfinder-scopes
 source_filename: bitfinder-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/bitfinder-awair-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/bitfinder-awair-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth2.awair.is/v2/authorize\n    tokenUrl: https://oauth2.awair.is/v2/token\n  description: OAuth 2.0 authorization-code flow for third-party access to Awair user data.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/bitfinder-air-data-api-openapi.yml, openapi/bitfinder-devices-api-openapi.yml,\n  openapi/bitfinder-user-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/bitfinder-air-data-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth2.awair.is/v2/authorize\n    tokenUrl: https://oauth2.awair.is/v2/token\n  description: OAuth 2.0 authorization-code flow for third-party access to Awair user data.\n- name: oauth2\n  source: openapi/bitfinder-devices-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth2.awair.is/v2/authorize\n    tokenUrl: https://oauth2.awair.is/v2/token\n  description: OAuth 2.0 authorization-code flow for third-party access to Awair user data.\n- name: oauth2\n  source: openapi/bitfinder-user-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth2.awair.is/v2/authorize\n    tokenUrl: https://oauth2.awair.is/v2/token\n\
+  \  description: OAuth 2.0 authorization-code flow for third-party access to Awair user data.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/scopes/bitfinder-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

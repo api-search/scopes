@@ -46,7 +46,7 @@ summary_line: 4 scopes
 tags:
 - Company
 - Education
-- Learning Management System
+- LMS
 - Professional Education
 - Continuing Education
 - Certification

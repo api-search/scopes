@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/podbean-
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/scopes/podbean-scopes.yml
 summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Media
 - Audio

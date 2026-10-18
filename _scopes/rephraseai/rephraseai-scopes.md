@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: rephraseai-actor-api-openapi.yml
+  format: yaml
+  label: Rephrase.ai Actor API
+  slug: rephraseai-actor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rephraseai/refs/heads/main/openapi/rephraseai-actor-api-openapi.yml
+- filename: rephraseai-authentication-api-openapi.yml
+  format: yaml
+  label: Rephrase.ai Authentication API
+  slug: rephraseai-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rephraseai/refs/heads/main/openapi/rephraseai-authentication-api-openapi.yml
+- filename: rephraseai-video-api-openapi.yml
+  format: yaml
+  label: Rephrase.ai Video API
+  slug: rephraseai-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rephraseai/refs/heads/main/openapi/rephraseai-video-api-openapi.yml
+- filename: rephraseai-voice-api-openapi.yml
+  format: yaml
+  label: Rephrase.ai Voice API
+  slug: rephraseai-voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/rephraseai/refs/heads/main/openapi/rephraseai-voice-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://studio-rephrase-api.readme.io/reference/documentation
@@ -39,7 +64,7 @@ tags:
 - Artificial Intelligence
 - Generative AI
 - Video
-- Text-to-Video
+- Video Generation
 - Avatars
 - Media
 - Content Creation

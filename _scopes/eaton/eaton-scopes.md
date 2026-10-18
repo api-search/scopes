@@ -50,15 +50,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/openapi/eaton-organizations-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://api.em.eaton.com/docs
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Eaton Scopes
 name_suffix: OAuth Scopes
-note: Eaton's Smart Breaker API OAuth2 uses a scope-less client-credentials flow — tokens are issued from client ID + secret alongside an Em-Api-Subscription-Key header, with authorization governed by application/organization service accounts and user roles rather than documented OAuth scopes (https://api.em.eaton.com/docs).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Eaton uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -73,7 +73,42 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.em.eaton.com/oauth2/token
   name: OAuth2
-  source: openapi/smart-breaker-openapi.yml
+  source: openapi/eaton-authorization-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.em.eaton.com/oauth2/token
+  name: OAuth2
+  source: openapi/eaton-device-commands-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.em.eaton.com/oauth2/token
+  name: OAuth2
+  source: openapi/eaton-devices-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.em.eaton.com/oauth2/token
+  name: OAuth2
+  source: openapi/eaton-energy-data-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.em.eaton.com/oauth2/token
+  name: OAuth2
+  source: openapi/eaton-ev-only-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.em.eaton.com/oauth2/token
+  name: OAuth2
+  source: openapi/eaton-events-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.em.eaton.com/oauth2/token
+  name: OAuth2
+  source: openapi/eaton-locations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.em.eaton.com/oauth2/token
+  name: OAuth2
+  source: openapi/eaton-organizations-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -81,7 +116,8 @@ slug: eaton-scopes
 source_filename: eaton-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smart-breaker-openapi.yml\ndocs: https://api.em.eaton.com/docs\nnote: Eaton's Smart Breaker API OAuth2 uses a scope-less client-credentials flow — tokens are issued from client ID + secret alongside an Em-Api-Subscription-Key header, with authorization governed by application/organization service accounts and user roles rather than documented OAuth scopes (https://api.em.eaton.com/docs).\nschemes:\n- name: OAuth2\n  source: openapi/smart-breaker-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.em.eaton.com/oauth2/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/eaton-authorization-api-openapi.yml, openapi/eaton-device-commands-api-openapi.yml,\n  openapi/eaton-devices-api-openapi.yml, openapi/eaton-energy-data-api-openapi.yml, openapi/eaton-ev-only-api-openapi.yml,\n  openapi/eaton-events-api-openapi.yml, openapi/eaton-locations-api-openapi.yml, openapi/eaton-organizations-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/eaton-authorization-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.em.eaton.com/oauth2/token\n- name: OAuth2\n  source: openapi/eaton-device-commands-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.em.eaton.com/oauth2/token\n- name: OAuth2\n  source: openapi/eaton-devices-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.em.eaton.com/oauth2/token\n- name: OAuth2\n  source: openapi/eaton-energy-data-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://api.em.eaton.com/oauth2/token\n- name: OAuth2\n  source: openapi/eaton-ev-only-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.em.eaton.com/oauth2/token\n- name: OAuth2\n  source: openapi/eaton-events-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.em.eaton.com/oauth2/token\n- name: OAuth2\n  source: openapi/eaton-locations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.em.eaton.com/oauth2/token\n- name: OAuth2\n  source: openapi/eaton-organizations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.em.eaton.com/oauth2/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/scopes/eaton-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

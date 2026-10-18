@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/microsof
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/scopes/microsoft-azure-cache-for-redis-scopes.yml
 summary_line: 1 scope · implicit
 tags:
-- Azure
+- Microsoft Azure
 - Cache
 - Cloud Infrastructure
 - Datastore

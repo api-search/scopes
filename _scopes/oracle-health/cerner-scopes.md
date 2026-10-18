@@ -1898,7 +1898,6 @@ tags:
 - Cerner Millennium
 - Clinical Data
 - Code Console
-- EHR
 - Electronic Health Records
 - FHIR
 - Fortune 1000

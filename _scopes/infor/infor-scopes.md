@@ -21,10 +21,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Infor Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Infor uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -68,8 +68,8 @@ slug: infor-scopes
 source_filename: infor-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-13'\nmethod: derived\nsource: openapi/infor-ion-documents-api-openapi.yml, openapi/infor-m3-api-api-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/infor-ion-documents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n  description: Infor ION API Client Credentials grant\n- name: OAuth2AuthorizationCode\n  source: openapi/infor-ion-documents-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://inforos.infor.com/INFOR_DEV/as/authorization.oauth2\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n  description: Infor ION API Authorization Code grant\n- name: OAuth2ClientCredentials\n  source: openapi/infor-m3-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n  description: Infor ION API Client Credentials grant\n- name: OAuth2AuthorizationCode\n\
-  \  source: openapi/infor-m3-api-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://inforos.infor.com/INFOR_DEV/as/authorization.oauth2\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n  description: Infor ION API Authorization Code grant\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/infor-ion-documents-api-openapi.yml, openapi/infor-m3-api-api-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/infor-ion-documents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n  description: Infor ION API Client Credentials grant\n- name: OAuth2AuthorizationCode\n  source: openapi/infor-ion-documents-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://inforos.infor.com/INFOR_DEV/as/authorization.oauth2\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n  description: Infor ION API Authorization Code grant\n- name: OAuth2ClientCredentials\n  source: openapi/infor-m3-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n  description: Infor ION API Client Credentials grant\n- name: OAuth2AuthorizationCode\n\
+  \  source: openapi/infor-m3-api-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://inforos.infor.com/INFOR_DEV/as/authorization.oauth2\n    tokenUrl: https://inforos.infor.com/INFOR_DEV/as/token.oauth2\n  description: Infor ION API Authorization Code grant\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/scopes/infor-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

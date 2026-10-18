@@ -132,7 +132,7 @@ tags:
 - Authentication
 - Compliance
 - Enterprise
-- Identity Management
+- Identity and Access Management
 - Privacy
 - SAML
 - Security

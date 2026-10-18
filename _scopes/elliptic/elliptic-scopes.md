@@ -140,7 +140,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/
 summary_line: 2 scopes · authorizationCode
 tags:
 - Blockchain
-- Crypto
+- Cryptocurrency
 - Compliance
 - AML
 - Transaction Screening

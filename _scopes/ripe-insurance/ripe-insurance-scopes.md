@@ -83,7 +83,7 @@ tags:
 - Small Business Insurance
 - Underwriting
 - Direct to Consumer
-- Brokers
+- Brokerage
 token_bound: false
 token_urls:
 - https://www.ripeinsurance.co.uk/umbraco/delivery/api/v1/security/member/token

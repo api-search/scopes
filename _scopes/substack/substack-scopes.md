@@ -92,7 +92,7 @@ tags:
 - Creator Economy
 - Subscription
 - Email
-- Podcasting
+- Podcasts
 - Notes
 - Media
 - Independent Media

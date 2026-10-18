@@ -619,9 +619,9 @@ tags:
 - Retail
 - Subscription
 - Team
-- Terminal
 - Webhook
 - Payment Processing
+- Payment Terminals
 token_bound: false
 token_urls:
 - https://connect.squareup.com/oauth2/token

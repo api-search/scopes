@@ -111,7 +111,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/
 summary_line: 7 scopes · authorizationCode/implicit
 tags:
 - Advertising
-- AR
 - Augmented Reality
 - Marketing
 - Messaging

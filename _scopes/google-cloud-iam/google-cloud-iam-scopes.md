@@ -73,9 +73,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/scopes/google-cloud-iam-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- Access Management
-- Google Cloud
 - Identity and Access Management
+- Google Cloud
 - Identity
 - Permissions
 - Security

@@ -43,7 +43,7 @@ method: derived
 name: Esri Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Esri uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+overview: 'Esri publishes 2 OAuth 2.0 scopes via the clientCredentials and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Esri API on a user''s behalf.
 
 
   Tokens are issued from https://www.arcgis.com/sharing/rest/oauth2/token.
@@ -70,6 +70,24 @@ schemes:
   name: oauth2
   source: openapi/esri-geocoding-api-openapi.yml
 - flows:
+  - authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token
+  name: OAuth2
+  source: openapi/esri-geocoding-api-openapi.yml
+- flows:
+  - authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token
+  name: OAuth2
+  source: openapi/esri-places-api-openapi.yml
+- flows:
+  - authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token
+  name: OAuth2
+  source: openapi/esri-portal-api-openapi.yml
+- flows:
   - flow: clientCredentials
     tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token
   - authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize
@@ -77,17 +95,28 @@ schemes:
     tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token
   name: oauth2
   source: openapi/esri-routing-api-openapi.yml
-scope_count: 0
-scope_names: []
-scopes: []
+scope_count: 2
+scope_names:
+- openid
+- urn:arcgis:scope:root
+scopes:
+- description: OpenID Connect identity
+  flows:
+  - authorizationCode
+  scope: openid
+- description: Full access to ArcGIS Online
+  flows:
+  - authorizationCode
+  scope: urn:arcgis:scope:root
 slug: esri-scopes
 source_filename: esri-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-07'\nmethod: derived\nsource: openapi/esri-auth-api-openapi.yml, openapi/esri-geocoding-api-openapi.yml, openapi/esri-routing-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/esri-auth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: oauth2\n  source: openapi/esri-geocoding-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: oauth2\n  source: openapi/esri-routing-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n\
-  \  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/esri-auth-api-openapi.yml, openapi/esri-geocoding-api-openapi.yml, openapi/esri-places-api-openapi.yml,\n  openapi/esri-portal-api-openapi.yml, openapi/esri-routing-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/esri-auth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: oauth2\n  source: openapi/esri-geocoding-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: OAuth2\n  source: openapi/esri-geocoding-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: OAuth2\n  source: openapi/esri-places-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: OAuth2\n  source: openapi/esri-portal-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: oauth2\n  source: openapi/esri-routing-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n\
+  scopes:\n- scope: openid\n  description: OpenID Connect identity\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/esri-geocoding-api-openapi.yml\n  - openapi/esri-places-api-openapi.yml\n  - openapi/esri-portal-api-openapi.yml\n- scope: urn:arcgis:scope:root\n  description: Full access to ArcGIS Online\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/esri-geocoding-api-openapi.yml\n  - openapi/esri-places-api-openapi.yml\n  - openapi/esri-portal-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/scopes/esri-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes · clientCredentials/authorizationCode
 tags:
 - Geographic
 - Geospatial

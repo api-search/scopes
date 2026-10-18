@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spreaker
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/scopes/spreaker-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
-- Podcasting
+- Podcasts
 - Podcast Hosting
 - Audio
 - Media

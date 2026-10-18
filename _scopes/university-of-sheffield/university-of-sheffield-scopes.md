@@ -61,20 +61,20 @@ api_specs:
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/openapi/university-of-sheffield-users-api-openapi.yml
 authorization_urls: []
-description: 'The University of Sheffield''s own Sheffield Solar API declares an OAuth2 password flow but publishes an EMPTY scopes object — there is no scope vocabulary to record. Authorization is coarse: an operation is either open, or it requires an authenticated user, or it requires an administrator. This file records that absence rather than inventing scopes to fill it.'
+description: ''
 docs: ''
 flows:
 - password
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: University Of Sheffield Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'University of Sheffield uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
-  Tokens are issued from https://api.solar.sheffield.ac.uk/auth/jwt/login.
+  Tokens are issued from /auth/jwt/login.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
@@ -83,9 +83,54 @@ provider_slug: university-of-sheffield
 schemes:
 - flows:
   - flow: password
-    scopes_declared: 0
-    tokenUrl: https://api.solar.sheffield.ac.uk/auth/jwt/login
+    tokenUrl: /auth/jwt/login
   name: OAuth2PasswordBearer
+  source: openapi/university-of-sheffield-admin-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /auth/jwt/login
+  name: OAuth2PasswordBearer
+  source: openapi/university-of-sheffield-api-auth-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /auth/jwt/login
+  name: OAuth2PasswordBearer
+  source: openapi/university-of-sheffield-auth-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /auth/jwt/login
+  name: OAuth2PasswordBearer
+  source: openapi/university-of-sheffield-health-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /auth/jwt/login
+  name: OAuth2PasswordBearer
+  source: openapi/university-of-sheffield-metrics-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /auth/jwt/login
+  name: OAuth2PasswordBearer
+  source: openapi/university-of-sheffield-pvforecast-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /auth/jwt/login
+  name: OAuth2PasswordBearer
+  source: openapi/university-of-sheffield-pvlive-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /auth/jwt/login
+  name: OAuth2PasswordBearer
+  source: openapi/university-of-sheffield-pvlive-eu-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /auth/jwt/login
+  name: OAuth2PasswordBearer
+  source: openapi/university-of-sheffield-user-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /auth/jwt/login
+  name: OAuth2PasswordBearer
+  source: openapi/university-of-sheffield-users-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -93,8 +138,9 @@ slug: university-of-sheffield-scopes
 source_filename: university-of-sheffield-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "---\ngenerated: '2026-08-30'\nmethod: derived\nsource: openapi/university-of-sheffield-sheffield-solar-api-openapi.yml\nprovider: University of Sheffield\nx-operator: institution\ndescription: >-\n  The University of Sheffield's own Sheffield Solar API declares an OAuth2 password\n  flow but publishes an EMPTY scopes object — there is no scope vocabulary to record.\n  Authorization is coarse: an operation is either open, or it requires an\n  authenticated user, or it requires an administrator. This file records that\n  absence rather than inventing scopes to fill it.\nschemes:\n  - name: OAuth2PasswordBearer\n    flows:\n      - flow: password\n        tokenUrl: https://api.solar.sheffield.ac.uk/auth/jwt/login\n        scopes_declared: 0\nscopes: []\ncoarse_authorization_tiers:\n  - tier: open\n    description: No credential. PV_Live and PV_Live_EU read endpoints, and the gsp/pes/nuts lists.\n    evidence:\n      url: https://api.solar.sheffield.ac.uk/pvlive/api/v4/gsp/0\n\
-  \      status: 200\n  - tier: registered-user\n    description: Requires a registered identifier (X-User-Id header) or a JWT. PV_Forecast endpoints, /users/me.\n    evidence:\n      url: https://api.solar.sheffield.ac.uk/pvforecast/api/v4/gsp/0\n      status: 401\n  - tier: administrator\n    description: The /admin operations, which issue and revoke user tokens.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/university-of-sheffield-admin-api-openapi.yml, openapi/university-of-sheffield-api-auth-api-openapi.yml,\n  openapi/university-of-sheffield-auth-api-openapi.yml, openapi/university-of-sheffield-health-api-openapi.yml,\n  openapi/university-of-sheffield-metrics-api-openapi.yml, openapi/university-of-sheffield-pvforecast-api-openapi.yml,\n  openapi/university-of-sheffield-pvlive-api-openapi.yml, openapi/university-of-sheffield-pvlive-eu-api-openapi.yml,\n  openapi/university-of-sheffield-user-api-openapi.yml, openapi/university-of-sheffield-users-api-openapi.yml\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/university-of-sheffield-admin-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /auth/jwt/login\n- name: OAuth2PasswordBearer\n  source: openapi/university-of-sheffield-api-auth-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /auth/jwt/login\n- name: OAuth2PasswordBearer\n  source:\
+  \ openapi/university-of-sheffield-auth-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /auth/jwt/login\n- name: OAuth2PasswordBearer\n  source: openapi/university-of-sheffield-health-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /auth/jwt/login\n- name: OAuth2PasswordBearer\n  source: openapi/university-of-sheffield-metrics-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /auth/jwt/login\n- name: OAuth2PasswordBearer\n  source: openapi/university-of-sheffield-pvforecast-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /auth/jwt/login\n- name: OAuth2PasswordBearer\n  source: openapi/university-of-sheffield-pvlive-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /auth/jwt/login\n- name: OAuth2PasswordBearer\n  source: openapi/university-of-sheffield-pvlive-eu-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /auth/jwt/login\n- name: OAuth2PasswordBearer\n  source: openapi/university-of-sheffield-user-api-openapi.yml\n\
+  \  flows:\n  - flow: password\n    tokenUrl: /auth/jwt/login\n- name: OAuth2PasswordBearer\n  source: openapi/university-of-sheffield-users-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /auth/jwt/login\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/scopes/university-of-sheffield-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
@@ -112,5 +158,5 @@ tags:
 - Research Computing
 token_bound: false
 token_urls:
-- https://api.solar.sheffield.ac.uk/auth/jwt/login
+- /auth/jwt/login
 ---

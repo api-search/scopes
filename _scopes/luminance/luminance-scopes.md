@@ -133,10 +133,10 @@ flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Luminance Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Luminance uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -151,12 +151,72 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
   name: OAuth2
-  source: openapi/luminance-api-v1-3-openapi-original.yml
+  source: openapi/luminance-accounts-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
   name: OAuth2
-  source: openapi/luminance-api-v1-4-openapi-original.yml
+  source: openapi/luminance-annotations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-contract-creation-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-documents-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-folders-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-matter-versions-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-matters-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-projects-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-reviews-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-root-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-tasks-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-traffic-light-analysis-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-users-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token
+  name: OAuth2
+  source: openapi/luminance-workflows-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -164,7 +224,10 @@ slug: luminance-scopes
 source_filename: luminance-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/luminance-api-v1-3-openapi-original.yml, openapi/luminance-api-v1-4-openapi-original.yml\nschemes:\n- name: OAuth2\n  source: openapi/luminance-api-v1-3-openapi-original.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-api-v1-4-openapi-original.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/luminance-accounts-api-openapi.yml, openapi/luminance-annotations-api-openapi.yml,\n  openapi/luminance-contract-creation-api-openapi.yml, openapi/luminance-documents-api-openapi.yml,\n  openapi/luminance-folders-api-openapi.yml, openapi/luminance-matter-versions-api-openapi.yml,\n  openapi/luminance-matters-api-openapi.yml, openapi/luminance-projects-api-openapi.yml, openapi/luminance-reviews-api-openapi.yml,\n  openapi/luminance-root-api-openapi.yml, openapi/luminance-tasks-api-openapi.yml, openapi/luminance-traffic-light-analysis-api-openapi.yml,\n  openapi/luminance-users-api-openapi.yml, openapi/luminance-workflows-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/luminance-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-annotations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-contract-creation-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-documents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-folders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-matter-versions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-matters-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-projects-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-reviews-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-root-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-tasks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-traffic-light-analysis-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n  source: openapi/luminance-users-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\n- name: OAuth2\n\
+  \  source: openapi/luminance-workflows-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://moniker.app.luminance.com/auth/oauth2/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luminance/refs/heads/main/scopes/luminance-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -140,8 +140,7 @@ summary_line: 7 scopes · authorizationCode
 tags:
 - Healthcare
 - United Kingdom
-- EHR
-- EMR
+- Electronic Health Records
 - Interoperability
 - HL7
 - FHIR

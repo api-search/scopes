@@ -302,19 +302,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/openapi/fortanix-workflow-runs-api-openapi.yml
 authorization_urls: []
 description: ''
-docs:
-- name: Programmatic Access to Fortanix Armor IAM
-  url: https://support.fortanix.com/docs/programmatic-access-to-fortanix-armor-iam
-- name: Client Credentials Flow
-  url: https://support.fortanix.com/docs/fortanix-key-insight-aws-client-credentials-flow
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Fortanix Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Fortanix uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -325,13 +321,78 @@ overview: 'Fortanix uses OAuth 2.0 but publishes no discrete scopes — access i
 provider_name: Fortanix
 provider_slug: fortanix
 schemes:
-- api: fortanix:armor-key-insight
-  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
   flows:
   - flow: clientCredentials
     tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
   name: Oauth2ClientCredentials
-  source: openapi/fortanix-armor-key-insight-openapi-original.json
+  source: openapi/fortanix-authentication-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoveryawsreports-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoveryazurereports-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoveryconnection-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoverydsmreports-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoveryinventory-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoveryonpremreports-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoverypolicies-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoverypqcreports-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoveryscan-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoveryscaninventory-api-openapi.yml
+- description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token
+  name: Oauth2ClientCredentials
+  source: openapi/fortanix-discoveryservicesreports-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -339,8 +400,11 @@ slug: fortanix-scopes
 source_filename: fortanix-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-08-01'\nmethod: derived\nsource: openapi/fortanix-armor-key-insight-openapi-original.json\nschemes:\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-armor-key-insight-openapi-original.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n  api: fortanix:armor-key-insight\nscopes: []\ndocs:\n- name: Programmatic Access to Fortanix Armor IAM\n  url: https://support.fortanix.com/docs/programmatic-access-to-fortanix-armor-iam\n- name: Client Credentials Flow\n  url: https://support.fortanix.com/docs/fortanix-key-insight-aws-client-credentials-flow\nfinding: 'Fortanix publishes NO OAuth scopes. The single oauth2 securityScheme in the\n  catalog — Oauth2ClientCredentials on the Armor / Key Insight API — declares an empty\n  scopes map, and no operation attaches a scope requirement.\
-  \ The docs describe how to\n  obtain a client-credentials token (including via Okta and Auth0 as external authorization\n  servers) but publish no scope or permission reference page.'\nauthorization_model: 'Fortanix does not use scopes to express authorization anywhere\n  in its platform. DSM authorizes by GROUP MEMBERSHIP — an app or user may act on a\n  security object only if it belongs to that object''s group, with per-membership operation\n  restrictions — and by custom/external roles. CCM uses a JWT bearer token with no scope\n  claim documented. See authentication/fortanix-authentication.yml.'\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/fortanix-authentication-api-openapi.yml, openapi/fortanix-discoveryawsreports-api-openapi.yml,\n  openapi/fortanix-discoveryazurereports-api-openapi.yml, openapi/fortanix-discoveryconnection-api-openapi.yml,\n  openapi/fortanix-discoverydsmreports-api-openapi.yml, openapi/fortanix-discoveryinventory-api-openapi.yml,\n  openapi/fortanix-discoveryonpremreports-api-openapi.yml, openapi/fortanix-discoverypolicies-api-openapi.yml,\n  openapi/fortanix-discoverypqcreports-api-openapi.yml, openapi/fortanix-discoveryscan-api-openapi.yml,\n  openapi/fortanix-discoveryscaninventory-api-openapi.yml, openapi/fortanix-discoveryservicesreports-api-openapi.yml\nschemes:\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n\
+  - name: Oauth2ClientCredentials\n  source: openapi/fortanix-discoveryawsreports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-discoveryazurereports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-discoveryconnection-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n- name: Oauth2ClientCredentials\n\
+  \  source: openapi/fortanix-discoverydsmreports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-discoveryinventory-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-discoveryonpremreports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-discoverypolicies-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-discoverypqcreports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-discoveryscan-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-discoveryscaninventory-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\n- name: Oauth2ClientCredentials\n  source: openapi/fortanix-discoveryservicesreports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.armor.fortanix.com/api/v1/iam/session/oauth2/token\n  description: OAuth 2.0 client credential flow, see https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fortanix/refs/heads/main/scopes/fortanix-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -567,7 +567,7 @@ tags:
 - Payments
 - B2B
 - Fintech
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

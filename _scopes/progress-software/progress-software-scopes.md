@@ -391,10 +391,10 @@ flows:
 - password
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Progress Software Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Progress Software uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -410,7 +410,67 @@ schemes:
   - flow: password
     tokenUrl: http://localhost:8734/api/v1/token
   name: oauth2
-  source: openapi/progress-software-whatsup-gold-openapi-original.json
+  source: openapi/progress-software-credential-api-openapi.yml
+- description: OAuth2 Password Grant
+  flows:
+  - flow: password
+    tokenUrl: http://localhost:8734/api/v1/token
+  name: oauth2
+  source: openapi/progress-software-device-api-openapi.yml
+- description: OAuth2 Password Grant
+  flows:
+  - flow: password
+    tokenUrl: http://localhost:8734/api/v1/token
+  name: oauth2
+  source: openapi/progress-software-device-group-api-openapi.yml
+- description: OAuth2 Password Grant
+  flows:
+  - flow: password
+    tokenUrl: http://localhost:8734/api/v1/token
+  name: oauth2
+  source: openapi/progress-software-devicegroupreport-api-openapi.yml
+- description: OAuth2 Password Grant
+  flows:
+  - flow: password
+    tokenUrl: http://localhost:8734/api/v1/token
+  name: oauth2
+  source: openapi/progress-software-devicereport-api-openapi.yml
+- description: OAuth2 Password Grant
+  flows:
+  - flow: password
+    tokenUrl: http://localhost:8734/api/v1/token
+  name: oauth2
+  source: openapi/progress-software-devicerole-api-openapi.yml
+- description: OAuth2 Password Grant
+  flows:
+  - flow: password
+    tokenUrl: http://localhost:8734/api/v1/token
+  name: oauth2
+  source: openapi/progress-software-devicescan-api-openapi.yml
+- description: OAuth2 Password Grant
+  flows:
+  - flow: password
+    tokenUrl: http://localhost:8734/api/v1/token
+  name: oauth2
+  source: openapi/progress-software-error-api-openapi.yml
+- description: OAuth2 Password Grant
+  flows:
+  - flow: password
+    tokenUrl: http://localhost:8734/api/v1/token
+  name: oauth2
+  source: openapi/progress-software-monitor-api-openapi.yml
+- description: OAuth2 Password Grant
+  flows:
+  - flow: password
+    tokenUrl: http://localhost:8734/api/v1/token
+  name: oauth2
+  source: openapi/progress-software-pollers-api-openapi.yml
+- description: OAuth2 Password Grant
+  flows:
+  - flow: password
+    tokenUrl: http://localhost:8734/api/v1/token
+  name: oauth2
+  source: openapi/progress-software-product-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -418,7 +478,9 @@ slug: progress-software-scopes
 source_filename: progress-software-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-13'\nmethod: derived\nsource: openapi/progress-software-whatsup-gold-openapi-original.json\nschemes:\n- name: oauth2\n  source: openapi/progress-software-whatsup-gold-openapi-original.json\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n  description: OAuth2 Password Grant\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/progress-software-credential-api-openapi.yml, openapi/progress-software-device-api-openapi.yml,\n  openapi/progress-software-device-group-api-openapi.yml, openapi/progress-software-devicegroupreport-api-openapi.yml,\n  openapi/progress-software-devicereport-api-openapi.yml, openapi/progress-software-devicerole-api-openapi.yml,\n  openapi/progress-software-devicescan-api-openapi.yml, openapi/progress-software-error-api-openapi.yml,\n  openapi/progress-software-monitor-api-openapi.yml, openapi/progress-software-pollers-api-openapi.yml,\n  openapi/progress-software-product-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/progress-software-credential-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n  description: OAuth2 Password Grant\n- name: oauth2\n  source: openapi/progress-software-device-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n\
+  \  description: OAuth2 Password Grant\n- name: oauth2\n  source: openapi/progress-software-device-group-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n  description: OAuth2 Password Grant\n- name: oauth2\n  source: openapi/progress-software-devicegroupreport-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n  description: OAuth2 Password Grant\n- name: oauth2\n  source: openapi/progress-software-devicereport-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n  description: OAuth2 Password Grant\n- name: oauth2\n  source: openapi/progress-software-devicerole-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n  description: OAuth2 Password Grant\n- name: oauth2\n  source: openapi/progress-software-devicescan-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n\
+  \  description: OAuth2 Password Grant\n- name: oauth2\n  source: openapi/progress-software-error-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n  description: OAuth2 Password Grant\n- name: oauth2\n  source: openapi/progress-software-monitor-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n  description: OAuth2 Password Grant\n- name: oauth2\n  source: openapi/progress-software-pollers-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n  description: OAuth2 Password Grant\n- name: oauth2\n  source: openapi/progress-software-product-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: http://localhost:8734/api/v1/token\n  description: OAuth2 Password Grant\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/progress-software/refs/heads/main/scopes/progress-software-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

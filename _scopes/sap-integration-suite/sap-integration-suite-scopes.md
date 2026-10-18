@@ -68,15 +68,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/openapi/sap-integration-suite-variables-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://help.sap.com/docs/integration-suite/sap-integration-suite/tasks-and-permissions-556d5575d4b0483e85d4f3251f21d0ec
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Sap Integration Suite Scopes
 name_suffix: OAuth Scopes
-note: SAP Integration Suite APIs use OAuth 2.0 client credentials with role-based authorization rather than published OAuth scopes; access to each API resource is granted by assigning documented role templates (for example MonitoringDataRead or WorkspacePackagesRead) to the SAP BTP service instance, per https://help.sap.com/docs/integration-suite/sap-integration-suite/tasks-and-permissions-556d5575d4b0483e85d4f3251f21d0ec.
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'SAP Integration Suite uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -91,12 +91,57 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
   name: oauth2
-  source: openapi/sap-integration-suite-api-management-openapi.yml
+  source: openapi/sap-integration-suite-api-products-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
   name: oauth2
-  source: openapi/sap-integration-suite-cloud-integration-openapi.yml
+  source: openapi/sap-integration-suite-api-proxies-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
+  name: oauth2
+  source: openapi/sap-integration-suite-applications-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
+  name: oauth2
+  source: openapi/sap-integration-suite-developers-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
+  name: oauth2
+  source: openapi/sap-integration-suite-integration-flows-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
+  name: oauth2
+  source: openapi/sap-integration-suite-integration-packages-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
+  name: oauth2
+  source: openapi/sap-integration-suite-key-value-maps-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
+  name: oauth2
+  source: openapi/sap-integration-suite-message-processing-logs-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
+  name: oauth2
+  source: openapi/sap-integration-suite-runtime-artifacts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
+  name: oauth2
+  source: openapi/sap-integration-suite-service-endpoints-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token
+  name: oauth2
+  source: openapi/sap-integration-suite-variables-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -104,8 +149,10 @@ slug: sap-integration-suite-scopes
 source_filename: sap-integration-suite-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sap-integration-suite-api-management-openapi.yml, openapi/sap-integration-suite-cloud-integration-openapi.yml\ndocs: https://help.sap.com/docs/integration-suite/sap-integration-suite/tasks-and-permissions-556d5575d4b0483e85d4f3251f21d0ec\nnote: >-\n  SAP Integration Suite APIs use OAuth 2.0 client credentials with role-based\n  authorization rather than published OAuth scopes; access to each API resource\n  is granted by assigning documented role templates (for example\n  MonitoringDataRead or WorkspacePackagesRead) to the SAP BTP service instance,\n  per\n  https://help.sap.com/docs/integration-suite/sap-integration-suite/tasks-and-permissions-556d5575d4b0483e85d4f3251f21d0ec.\nschemes:\n- name: oauth2\n  source: openapi/sap-integration-suite-api-management-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n- name: oauth2\n  source: openapi/sap-integration-suite-cloud-integration-openapi.yml\n\
-  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/sap-integration-suite-api-products-api-openapi.yml, openapi/sap-integration-suite-api-proxies-api-openapi.yml,\n  openapi/sap-integration-suite-applications-api-openapi.yml, openapi/sap-integration-suite-developers-api-openapi.yml,\n  openapi/sap-integration-suite-integration-flows-api-openapi.yml, openapi/sap-integration-suite-integration-packages-api-openapi.yml,\n  openapi/sap-integration-suite-key-value-maps-api-openapi.yml, openapi/sap-integration-suite-message-processing-logs-api-openapi.yml,\n  openapi/sap-integration-suite-runtime-artifacts-api-openapi.yml, openapi/sap-integration-suite-service-endpoints-api-openapi.yml,\n  openapi/sap-integration-suite-variables-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/sap-integration-suite-api-products-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n- name: oauth2\n  source:\
+  \ openapi/sap-integration-suite-api-proxies-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n- name: oauth2\n  source: openapi/sap-integration-suite-applications-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n- name: oauth2\n  source: openapi/sap-integration-suite-developers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n- name: oauth2\n  source: openapi/sap-integration-suite-integration-flows-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n- name: oauth2\n  source: openapi/sap-integration-suite-integration-packages-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n\
+  - name: oauth2\n  source: openapi/sap-integration-suite-key-value-maps-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n- name: oauth2\n  source: openapi/sap-integration-suite-message-processing-logs-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n- name: oauth2\n  source: openapi/sap-integration-suite-runtime-artifacts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n- name: oauth2\n  source: openapi/sap-integration-suite-service-endpoints-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n- name: oauth2\n  source: openapi/sap-integration-suite-variables-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.sap.hana.ondemand.com/oauth/token\n\
+  scopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/scopes/sap-integration-suite-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

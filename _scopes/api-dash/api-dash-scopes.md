@@ -61,10 +61,10 @@ flows:
 - password
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Api Dash Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'API Dash uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -79,7 +79,47 @@ schemes:
   - flow: password
     tokenUrl: /login
   name: OAuth2PasswordBearer
-  source: openapi/api-dash-openapi.yml
+  source: openapi/api-dash-api-dash-apis-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /login
+  name: OAuth2PasswordBearer
+  source: openapi/api-dash-case-conversion-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /login
+  name: OAuth2PasswordBearer
+  source: openapi/api-dash-country-data-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /login
+  name: OAuth2PasswordBearer
+  source: openapi/api-dash-humanize-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /login
+  name: OAuth2PasswordBearer
+  source: openapi/api-dash-i-o-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /login
+  name: OAuth2PasswordBearer
+  source: openapi/api-dash-sse-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /login
+  name: OAuth2PasswordBearer
+  source: openapi/api-dash-text-conversion-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /login
+  name: OAuth2PasswordBearer
+  source: openapi/api-dash-user-authentication-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /login
+  name: OAuth2PasswordBearer
+  source: openapi/api-dash-user-data-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -87,7 +127,8 @@ slug: api-dash-scopes
 source_filename: api-dash-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-02'\nmethod: derived\nsource: openapi/api-dash-openapi.yml\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/api-dash-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /login\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/api-dash-api-dash-apis-api-openapi.yml, openapi/api-dash-case-conversion-api-openapi.yml,\n  openapi/api-dash-country-data-api-openapi.yml, openapi/api-dash-humanize-api-openapi.yml,\n  openapi/api-dash-i-o-api-openapi.yml, openapi/api-dash-sse-api-openapi.yml, openapi/api-dash-text-conversion-api-openapi.yml,\n  openapi/api-dash-user-authentication-api-openapi.yml, openapi/api-dash-user-data-api-openapi.yml\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/api-dash-api-dash-apis-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /login\n- name: OAuth2PasswordBearer\n  source: openapi/api-dash-case-conversion-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /login\n- name: OAuth2PasswordBearer\n  source: openapi/api-dash-country-data-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /login\n- name: OAuth2PasswordBearer\n  source: openapi/api-dash-humanize-api-openapi.yml\n  flows:\n\
+  \  - flow: password\n    tokenUrl: /login\n- name: OAuth2PasswordBearer\n  source: openapi/api-dash-i-o-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /login\n- name: OAuth2PasswordBearer\n  source: openapi/api-dash-sse-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /login\n- name: OAuth2PasswordBearer\n  source: openapi/api-dash-text-conversion-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /login\n- name: OAuth2PasswordBearer\n  source: openapi/api-dash-user-authentication-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /login\n- name: OAuth2PasswordBearer\n  source: openapi/api-dash-user-data-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /login\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/scopes/api-dash-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

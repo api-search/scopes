@@ -280,8 +280,6 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Behavioral Health
 - Electronic Health Records
-- EMR
-- EHR
 - Substance Use Disorder
 - Mental Health
 - Healthcare

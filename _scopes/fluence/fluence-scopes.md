@@ -240,7 +240,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/h
 summary_line: 34 scopes
 tags:
 - Company
-- Crypto Web3
+- Web3
 - Cloud Compute
 - DePIN
 - GPU
@@ -248,7 +248,6 @@ tags:
 - Virtual Machines
 - AI Infrastructure
 - Decentralized Cloud
-- Web3
 token_bound: false
 token_urls: []
 ---

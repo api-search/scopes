@@ -81,7 +81,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recurrency/ref
 summary_line: 4 scopes · clientCredentials/authorizationCode
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - ERP
 - Distribution
 - Wholesale

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: voucherify-openapi-generated.yml
+- filename: voucherify-vouchers-api-openapi.yml
   format: yaml
-  label: Voucherify API
-  slug: voucherify-api
+  label: Voucherify Vouchers API
+  slug: voucherify-vouchers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voucherify/refs/heads/main/openapi/_ae-authored/voucherify-openapi-generated.yml
+  url: https://raw.githubusercontent.com/api-evangelist/voucherify/refs/heads/main/openapi/voucherify-vouchers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -261,7 +261,6 @@ tags:
 - Incentives
 - Promotions
 - Loyalty
-- API
 token_bound: false
 token_urls:
 - https://{cluster}.voucherify.io/v1/oauth/token

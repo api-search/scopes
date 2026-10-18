@@ -152,10 +152,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Para T Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Paraşüt uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -171,7 +171,145 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://api.parasut.com/oauth/token
   name: parasut_auth
-  source: openapi/para-t-openapi-original.yml
+  source: openapi/para-t-accounts-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-apihome-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-bankfees-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-contacts-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-earchives-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-einvoiceinboxes-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-einvoices-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-employees-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-esmms-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-inventory-levels-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-item-categories-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-products-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-purchasebills-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-salaries-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-sales-invoices-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-sales-offers-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-shipment-documents-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-stock-updates-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-stockmovements-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-tags-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-taxes-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-trackablejobs-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-transactions-api-openapi.yml
+- flows:
+  - authorizationUrl: https://api.parasut.com/oauth/authorize
+    flow: authorizationCode
+    tokenUrl: https://api.parasut.com/oauth/token
+  name: parasut_auth
+  source: openapi/para-t-warehouses-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -179,7 +317,13 @@ slug: para-t-scopes
 source_filename: para-t-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/para-t-openapi-original.yml\nschemes:\n- name: parasut_auth\n  source: openapi/para-t-openapi-original.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/para-t-accounts-api-openapi.yml, openapi/para-t-apihome-api-openapi.yml, openapi/para-t-bankfees-api-openapi.yml,\n  openapi/para-t-contacts-api-openapi.yml, openapi/para-t-earchives-api-openapi.yml, openapi/para-t-einvoiceinboxes-api-openapi.yml,\n  openapi/para-t-einvoices-api-openapi.yml, openapi/para-t-employees-api-openapi.yml, openapi/para-t-esmms-api-openapi.yml,\n  openapi/para-t-inventory-levels-api-openapi.yml, openapi/para-t-item-categories-api-openapi.yml,\n  openapi/para-t-products-api-openapi.yml, openapi/para-t-purchasebills-api-openapi.yml, openapi/para-t-salaries-api-openapi.yml,\n  openapi/para-t-sales-invoices-api-openapi.yml, openapi/para-t-sales-offers-api-openapi.yml,\n  openapi/para-t-shipment-documents-api-openapi.yml, openapi/para-t-stock-updates-api-openapi.yml,\n  openapi/para-t-stockmovements-api-openapi.yml, openapi/para-t-tags-api-openapi.yml, openapi/para-t-taxes-api-openapi.yml,\n  openapi/para-t-trackablejobs-api-openapi.yml,\
+  \ openapi/para-t-transactions-api-openapi.yml,\n  openapi/para-t-warehouses-api-openapi.yml\nschemes:\n- name: parasut_auth\n  source: openapi/para-t-accounts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-apihome-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-bankfees-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-contacts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n\
+  - name: parasut_auth\n  source: openapi/para-t-earchives-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-einvoiceinboxes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-einvoices-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-employees-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-esmms-api-openapi.yml\n  flows:\n  - flow:\
+  \ authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-inventory-levels-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-item-categories-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-products-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-purchasebills-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n\
+  \    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-salaries-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-sales-invoices-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-sales-offers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-shipment-documents-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n \
+  \ source: openapi/para-t-stock-updates-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-stockmovements-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-tags-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-taxes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-trackablejobs-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n\
+  \    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-transactions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\n- name: parasut_auth\n  source: openapi/para-t-warehouses-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parasut.com/oauth/authorize\n    tokenUrl: https://api.parasut.com/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/scopes/para-t-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -133,7 +133,7 @@ summary_line: 25 scopes
 tags:
 - Fortune 1000
 - Insurance
-- Property and Casualty Insurance
+- Property and Casualty
 - Commercial Insurance
 - Workers Compensation
 - Auto Insurance

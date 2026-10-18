@@ -380,7 +380,7 @@ summary_line: 6 scopes
 tags:
 - Market Data
 - Historical Data
-- Crypto
+- Cryptocurrency
 - DeFi
 - Perpetuals
 - Derivatives

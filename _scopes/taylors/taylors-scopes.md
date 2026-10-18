@@ -8,15 +8,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-patrons-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://librarycatalogue.taylors.edu.my/api/v1/.html
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Taylors Scopes
 name_suffix: OAuth Scopes
-note: The Koha REST API behind the Taylor's Library catalog supports OAuth2 client credentials only and does not use OAuth scopes — API clients inherit the permissions of the patron they are tied to, and the API documentation states "We do not yet support OAuth Scopes or the Authorization Code grant flow" (https://librarycatalogue.taylors.edu.my/api/v1/.html).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Taylor''s University uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -31,7 +31,32 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token
   name: oauth2ClientCredentials
-  source: openapi/taylors-library-rest.yaml
+  source: openapi/taylors-checkouts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/taylors-holds-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/taylors-item-types-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/taylors-items-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/taylors-libraries-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/taylors-patrons-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -39,7 +64,8 @@ slug: taylors-scopes
 source_filename: taylors-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/taylors-library-rest.yaml\ndocs: https://librarycatalogue.taylors.edu.my/api/v1/.html\nnote: >-\n  The Koha REST API behind the Taylor's Library catalog supports OAuth2 client\n  credentials only and does not use OAuth scopes — API clients inherit the\n  permissions of the patron they are tied to, and the API documentation states\n  \"We do not yet support OAuth Scopes or the Authorization Code grant flow\"\n  (https://librarycatalogue.taylors.edu.my/api/v1/.html).\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/taylors-library-rest.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/taylors-checkouts-api-openapi.yml, openapi/taylors-holds-api-openapi.yml, openapi/taylors-item-types-api-openapi.yml,\n  openapi/taylors-items-api-openapi.yml, openapi/taylors-libraries-api-openapi.yml, openapi/taylors-patrons-api-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/taylors-checkouts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/taylors-holds-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/taylors-item-types-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/taylors-items-api-openapi.yml\n  flows:\n\
+  \  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/taylors-libraries-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/taylors-patrons-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/scopes/taylors-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -607,7 +607,7 @@ tags:
 - Video
 - Image
 - Webhook
-- Azure
+- Microsoft Azure
 token_bound: false
 token_urls:
 - https://login.mediavalet.com/connect/token

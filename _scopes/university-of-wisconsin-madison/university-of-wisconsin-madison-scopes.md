@@ -231,20 +231,159 @@ api_specs:
 authorization_urls: []
 description: ''
 docs: ''
-flows: []
+flows:
+- clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: University Of Wisconsin Madison Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'University of Wisconsin-Madison uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+
+
+  Tokens are issued from https://api.wisc.edu/oauth/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: University of Wisconsin-Madison
 provider_slug: university-of-wisconsin-madison
-schemes: []
+schemes:
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-academic-units-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-academicappointments-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-addresses-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-affiliations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-certificates-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-degrees-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-email-addresses-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-exports-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-groups-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-identifiers-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-jobs-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-journals-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-locations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-members-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-names-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-organizationstructures-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-other-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-people-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-phone-numbers-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-research-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-salary-structures-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-socialsecuritynumbers-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-standard-job-descriptions-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-supervisory-organizations-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-webhooks-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-wiscard-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.wisc.edu/oauth/token
+  name: OAuth2ClientCredentials
+  source: openapi/university-of-wisconsin-madison-worktags-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -252,8 +391,14 @@ slug: university-of-wisconsin-madison-scopes
 source_filename: university-of-wisconsin-madison-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-08-19'\nmethod: derived\nsource: openapi/ (12 contracts)\nx-operator: institution\nsummary:\n  scopes_declared: 0\n  detail: >-\n    UW-Madison declares ZERO OAuth scopes. Every one of the 10 contracts carrying\n    OAuth2ClientCredentials declares `scopes: {}` — an empty scope object — and no operation\n    attaches a scope requirement. This is a real, measurable gap, not missing data on our side:\n    authorization is decided outside the contract, by which Apigee API products a client\n    application has been manually approved for. The contracts therefore cannot tell a consumer\n    or an agent what a token will actually permit.\n  consequence: >-\n    Least-privilege is not expressible. A token is scoped by product grant, and the product\n    grant is not machine-readable from anything UW-Madison publishes.\nscopes: []\nauthorization_model:\n  mechanism: apigee-api-product\n  products_observed:\n  - name: api-team-manifest-api\n    display: Manifest API\n\
-  \    approval: manual\n  - name: eces-api-enterprise-billing\n    display: Enterprise Billing API\n    approval: manual\n  detail: >-\n    Read from the developer portal's own catalog endpoint\n    (/portals/api/sites/{siteId}/liveportal/apis). Every listed API product uses\n    approvalType \"manual\".\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/university-of-wisconsin-madison-academic-units-api-openapi.yml, openapi/university-of-wisconsin-madison-academicappointments-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-addresses-api-openapi.yml, openapi/university-of-wisconsin-madison-affiliations-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-certificates-api-openapi.yml, openapi/university-of-wisconsin-madison-degrees-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-email-addresses-api-openapi.yml, openapi/university-of-wisconsin-madison-exports-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-groups-api-openapi.yml, openapi/university-of-wisconsin-madison-identifiers-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-jobs-api-openapi.yml, openapi/university-of-wisconsin-madison-journals-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-locations-api-openapi.yml, openapi/university-of-wisconsin-madison-members-api-openapi.yml,\n\
+  \  openapi/university-of-wisconsin-madison-names-api-openapi.yml, openapi/university-of-wisconsin-madison-organizationstructures-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-other-api-openapi.yml, openapi/university-of-wisconsin-madison-people-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-phone-numbers-api-openapi.yml, openapi/university-of-wisconsin-madison-research-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-salary-structures-api-openapi.yml, openapi/university-of-wisconsin-madison-socialsecuritynumbers-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-standard-job-descriptions-api-openapi.yml, openapi/university-of-wisconsin-madison-supervisory-organizations-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-webhooks-api-openapi.yml, openapi/university-of-wisconsin-madison-wiscard-api-openapi.yml,\n  openapi/university-of-wisconsin-madison-worktags-api-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-academic-units-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-academicappointments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-addresses-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-affiliations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-certificates-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-degrees-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-email-addresses-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-exports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-groups-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-identifiers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-jobs-api-openapi.yml\n  flows:\n  - flow:\
+  \ clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-journals-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-locations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-members-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-names-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-organizationstructures-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-other-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-people-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-phone-numbers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-research-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-salary-structures-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
+  \ https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-socialsecuritynumbers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-standard-job-descriptions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-supervisory-organizations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-webhooks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-wiscard-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://api.wisc.edu/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/university-of-wisconsin-madison-worktags-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wisc.edu/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/scopes/university-of-wisconsin-madison-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
@@ -274,5 +419,6 @@ tags:
 - Finance
 - Curriculum
 token_bound: false
-token_urls: []
+token_urls:
+- https://api.wisc.edu/oauth/token
 ---

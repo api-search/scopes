@@ -58,7 +58,7 @@ tags:
 - Fintech
 - Stocks
 - Options
-- Crypto
+- Cryptocurrency
 - Market Data
 - AI Agents
 - MCP

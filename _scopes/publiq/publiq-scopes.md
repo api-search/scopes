@@ -276,7 +276,7 @@ summary_line: 4 scopes
 tags:
 - Company
 - Culture
-- Events
+- Event
 - Leisure
 - Belgium
 - Non-Profit

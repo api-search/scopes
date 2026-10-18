@@ -180,7 +180,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bridge/refs/he
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Stablecoins
 - Payments
 - Money Movement

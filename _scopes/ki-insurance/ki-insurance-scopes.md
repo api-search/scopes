@@ -229,7 +229,7 @@ tags:
 - Property and Casualty
 - Underwriting
 - Insurtech
-- Brokers
+- Brokerage
 - Algorithmic Underwriting
 - Reinsurance
 token_bound: false

@@ -50,15 +50,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://docs.shippingapi.pitneybowes.com/api/post-oauth-token.html
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Pitney Bowes Scopes
 name_suffix: OAuth Scopes
-note: Pitney Bowes Shipping APIs use the OAuth client_credentials grant with a Base64-encoded API key and secret, and do not publish user-selectable OAuth scopes; access is tied to the developer account credentials (https://docs.shippingapi.pitneybowes.com/api/post-oauth-token.html).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Pitney Bowes uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -73,7 +73,42 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://shipping-api.pitneybowes.com/oauth/token
   name: oauth2
-  source: openapi/pitney-bowes-openapi.yml
+  source: openapi/pitney-bowes-address-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token
+  name: oauth2
+  source: openapi/pitney-bowes-manifests-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token
+  name: oauth2
+  source: openapi/pitney-bowes-oauth-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token
+  name: oauth2
+  source: openapi/pitney-bowes-pickups-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token
+  name: oauth2
+  source: openapi/pitney-bowes-rating-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token
+  name: oauth2
+  source: openapi/pitney-bowes-reports-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token
+  name: oauth2
+  source: openapi/pitney-bowes-shipments-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token
+  name: oauth2
+  source: openapi/pitney-bowes-tracking-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -81,7 +116,8 @@ slug: pitney-bowes-scopes
 source_filename: pitney-bowes-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pitney-bowes-openapi.yml\ndocs: https://docs.shippingapi.pitneybowes.com/api/post-oauth-token.html\nnote: Pitney Bowes Shipping APIs use the OAuth client_credentials grant with a Base64-encoded\n  API key and secret, and do not publish user-selectable OAuth scopes; access is tied to\n  the developer account credentials (https://docs.shippingapi.pitneybowes.com/api/post-oauth-token.html).\nschemes:\n- name: oauth2\n  source: openapi/pitney-bowes-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/pitney-bowes-address-api-openapi.yml, openapi/pitney-bowes-manifests-api-openapi.yml,\n  openapi/pitney-bowes-oauth-api-openapi.yml, openapi/pitney-bowes-pickups-api-openapi.yml,\n  openapi/pitney-bowes-rating-api-openapi.yml, openapi/pitney-bowes-reports-api-openapi.yml,\n  openapi/pitney-bowes-shipments-api-openapi.yml, openapi/pitney-bowes-tracking-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/pitney-bowes-address-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-manifests-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-oauth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-pickups-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-rating-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-reports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-shipments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-tracking-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/scopes/pitney-bowes-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

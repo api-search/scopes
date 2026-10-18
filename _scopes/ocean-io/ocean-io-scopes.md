@@ -93,7 +93,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Sales Intelligence
 - B2B
-- Enrichment
+- Data Enrichment
 - Lookalike
 - Account Based Marketing
 - Prospecting

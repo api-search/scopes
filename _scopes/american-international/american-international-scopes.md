@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/american-inter
 summary_line: 13 scopes
 tags:
 - Insurance
-- Property Casualty
+- Property and Casualty
 - Cyber Insurance
 - Commercial Insurance
 - Global Insurance

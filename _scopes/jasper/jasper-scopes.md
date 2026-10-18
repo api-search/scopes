@@ -155,7 +155,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jasper/refs/he
 summary_line: 6 scopes · authorizationCode
 tags:
 - Company
-- Ai Ml
 - Artificial Intelligence
 - Content Generation
 - Marketing

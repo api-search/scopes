@@ -142,7 +142,6 @@ summary_line: 7 scopes
 tags:
 - Company
 - E-Signature
-- Electronic Signature
 - Documents
 - Digital Agreements
 - Signature Workflow

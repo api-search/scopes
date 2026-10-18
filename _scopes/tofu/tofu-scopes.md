@@ -75,7 +75,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tofu/refs/head
 summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 tags:
 - Company
-- Ai Ml
+- Artificial Intelligence
 - Marketing
 - Go-To-Market
 - Sales

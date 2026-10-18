@@ -361,10 +361,10 @@ flows:
 - password
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Galileo Technologies Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Galileo Technologies uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -379,7 +379,297 @@ schemes:
   - flow: password
     tokenUrl: https://api.galileo.ai/login
   name: OAuth2PasswordBearer
-  source: openapi/galileo-technologies-openapi-original.json
+  source: openapi/galileo-technologies-annotation-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-annotation-queue-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-annotation-queue-records-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-api-keys-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-assistant-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-audit-logs-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-auth-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-auto-metric-suggestions-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-code-metric-generation-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-component-views-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-custom-dashboards-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-data-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-dataset-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-datasets-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-experiment-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-experiment-group-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-experiment-tags-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-feedback-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-groups-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-health-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-integrations-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-jobs-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-llm-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-llm-integrations-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-log-stream-alert-settings-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-log-stream-alerts-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-log-stream-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-logstream-insights-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-metric-roll-up-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-models-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-organization-jobs-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-organizations-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-playground-prompts-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-playground-snapshots-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-playgrounds-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-pricing-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-project-settings-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-projects-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-prompts-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-protect-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-provider-management-api-integrations-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-rows-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-run-insights-settings-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-run-scorer-settings-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-run-tags-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-runs-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-scorer-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-scorer-feedback-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-stage-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-system-admin-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-system-users-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-system-users-authentication-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-tokenomics-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-trace-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-trends-dashboard-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-usage-limits-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-user-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-users-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: https://api.galileo.ai/login
+  name: OAuth2PasswordBearer
+  source: openapi/galileo-technologies-versions-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -387,7 +677,20 @@ slug: galileo-technologies-scopes
 source_filename: galileo-technologies-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/galileo-technologies-openapi-original.json\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-openapi-original.json\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/galileo-technologies-annotation-api-openapi.yml, openapi/galileo-technologies-annotation-queue-api-openapi.yml,\n  openapi/galileo-technologies-annotation-queue-records-api-openapi.yml, openapi/galileo-technologies-api-keys-api-openapi.yml,\n  openapi/galileo-technologies-assistant-api-openapi.yml, openapi/galileo-technologies-audit-logs-api-openapi.yml,\n  openapi/galileo-technologies-auth-api-openapi.yml, openapi/galileo-technologies-auto-metric-suggestions-api-openapi.yml,\n  openapi/galileo-technologies-code-metric-generation-api-openapi.yml, openapi/galileo-technologies-component-views-api-openapi.yml,\n  openapi/galileo-technologies-custom-dashboards-api-openapi.yml, openapi/galileo-technologies-data-api-openapi.yml,\n  openapi/galileo-technologies-dataset-api-openapi.yml, openapi/galileo-technologies-datasets-api-openapi.yml,\n  openapi/galileo-technologies-experiment-api-openapi.yml, openapi/galileo-technologies-experiment-group-api-openapi.yml,\n\
+  \  openapi/galileo-technologies-experiment-tags-api-openapi.yml, openapi/galileo-technologies-feedback-api-openapi.yml,\n  openapi/galileo-technologies-groups-api-openapi.yml, openapi/galileo-technologies-health-api-openapi.yml,\n  openapi/galileo-technologies-integrations-api-openapi.yml, openapi/galileo-technologies-jobs-api-openapi.yml,\n  openapi/galileo-technologies-llm-api-openapi.yml, openapi/galileo-technologies-llm-integrations-api-openapi.yml,\n  openapi/galileo-technologies-log-stream-alert-settings-api-openapi.yml, openapi/galileo-technologies-log-stream-alerts-api-openapi.yml,\n  openapi/galileo-technologies-log-stream-api-openapi.yml, openapi/galileo-technologies-logstream-insights-api-openapi.yml,\n  openapi/galileo-technologies-metric-roll-up-api-openapi.yml, openapi/galileo-technologies-models-api-openapi.yml,\n  openapi/galileo-technologies-organization-jobs-api-openapi.yml, openapi/galileo-technologies-organizations-api-openapi.yml,\n  openapi/galileo-technologies-playground-prompts-api-openapi.yml,\
+  \ openapi/galileo-technologies-playground-snapshots-api-openapi.yml,\n  openapi/galileo-technologies-playgrounds-api-openapi.yml, openapi/galileo-technologies-pricing-api-openapi.yml,\n  openapi/galileo-technologies-project-settings-api-openapi.yml, openapi/galileo-technologies-projects-api-openapi.yml,\n  openapi/galileo-technologies-prompts-api-openapi.yml, openapi/galileo-technologies-protect-api-openapi.yml,\n  openapi/galileo-technologies-provider-management-api-integrations-api-openapi.yml, openapi/galileo-technologies-rows-api-openapi.yml,\n  openapi/galileo-technologies-run-insights-settings-api-openapi.yml, openapi/galileo-technologies-run-scorer-settings-api-openapi.yml,\n  openapi/galileo-technologies-run-tags-api-openapi.yml, openapi/galileo-technologies-runs-api-openapi.yml,\n  openapi/galileo-technologies-scorer-api-openapi.yml, openapi/galileo-technologies-scorer-feedback-api-openapi.yml,\n  openapi/galileo-technologies-stage-api-openapi.yml, openapi/galileo-technologies-system-admin-api-openapi.yml,\n\
+  \  openapi/galileo-technologies-system-users-api-openapi.yml, openapi/galileo-technologies-system-users-authentication-api-openapi.yml,\n  openapi/galileo-technologies-tokenomics-api-openapi.yml, openapi/galileo-technologies-trace-api-openapi.yml,\n  openapi/galileo-technologies-trends-dashboard-api-openapi.yml, openapi/galileo-technologies-usage-limits-api-openapi.yml,\n  openapi/galileo-technologies-user-api-openapi.yml, openapi/galileo-technologies-users-api-openapi.yml,\n  openapi/galileo-technologies-versions-api-openapi.yml\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-annotation-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-annotation-queue-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-annotation-queue-records-api-openapi.yml\n\
+  \  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-api-keys-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-assistant-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-audit-logs-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-auth-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-auto-metric-suggestions-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-code-metric-generation-api-openapi.yml\n\
+  \  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-component-views-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-custom-dashboards-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-data-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-dataset-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-datasets-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-experiment-api-openapi.yml\n\
+  \  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-experiment-group-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-experiment-tags-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-feedback-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-groups-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-health-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-integrations-api-openapi.yml\n\
+  \  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-jobs-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-llm-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-llm-integrations-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-log-stream-alert-settings-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-log-stream-alerts-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-log-stream-api-openapi.yml\n\
+  \  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-logstream-insights-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-metric-roll-up-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-models-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-organization-jobs-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-organizations-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-playground-prompts-api-openapi.yml\n\
+  \  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-playground-snapshots-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-playgrounds-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-pricing-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-project-settings-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-projects-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-prompts-api-openapi.yml\n\
+  \  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-protect-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-provider-management-api-integrations-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-rows-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-run-insights-settings-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-run-scorer-settings-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source:\
+  \ openapi/galileo-technologies-run-tags-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-runs-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-scorer-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-scorer-feedback-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-stage-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-system-admin-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n\
+  \  source: openapi/galileo-technologies-system-users-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-system-users-authentication-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-tokenomics-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-trace-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-trends-dashboard-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-usage-limits-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n\
+  - name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-user-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-users-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\n- name: OAuth2PasswordBearer\n  source: openapi/galileo-technologies-versions-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.galileo.ai/login\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/scopes/galileo-technologies-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

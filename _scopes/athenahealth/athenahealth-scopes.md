@@ -359,7 +359,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athenahealth/r
 summary_line: 1 scope · clientCredentials/authorizationCode
 tags:
 - Healthcare
-- EHR
 - Electronic Health Records
 - Practice Management
 - Revenue Cycle Management

@@ -57,15 +57,15 @@ api_specs:
 authorization_urls:
 - https://your-phraseanet-instance/api/oauthv2/authorize
 description: ''
-docs: https://docs.phraseanet.com/4.1/en/Devel/API/V1/Authentication.html
+docs: ''
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Phraseanet Scopes
 name_suffix: OAuth Scopes
-note: Phraseanet's OAuth2 does not use or document scopes - access is governed by the authenticated user's rights and collection access within the self-hosted Phraseanet instance, with application registration and user-revocable access instead of scope grants (https://docs.phraseanet.com/4.1/en/Devel/API/V1/Authentication.html).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Phraseanet uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -82,7 +82,63 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://your-phraseanet-instance/api/oauthv2/token
   name: oauth2
-  source: openapi/phraseanet-openapi.yml
+  source: openapi/phraseanet-account-api-openapi.yml
+- description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.
+  flows:
+  - authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize
+    flow: authorizationCode
+    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token
+  name: oauth2
+  source: openapi/phraseanet-baskets-api-openapi.yml
+- description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.
+  flows:
+  - authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize
+    flow: authorizationCode
+    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token
+  name: oauth2
+  source: openapi/phraseanet-databoxes-api-openapi.yml
+- description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.
+  flows:
+  - authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize
+    flow: authorizationCode
+    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token
+  name: oauth2
+  source: openapi/phraseanet-feeds-api-openapi.yml
+- description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.
+  flows:
+  - authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize
+    flow: authorizationCode
+    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token
+  name: oauth2
+  source: openapi/phraseanet-metadata-api-openapi.yml
+- description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.
+  flows:
+  - authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize
+    flow: authorizationCode
+    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token
+  name: oauth2
+  source: openapi/phraseanet-quarantine-api-openapi.yml
+- description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.
+  flows:
+  - authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize
+    flow: authorizationCode
+    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token
+  name: oauth2
+  source: openapi/phraseanet-records-api-openapi.yml
+- description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.
+  flows:
+  - authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize
+    flow: authorizationCode
+    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token
+  name: oauth2
+  source: openapi/phraseanet-search-api-openapi.yml
+- description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.
+  flows:
+  - authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize
+    flow: authorizationCode
+    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token
+  name: oauth2
+  source: openapi/phraseanet-stories-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -90,7 +146,10 @@ slug: phraseanet-scopes
 source_filename: phraseanet-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/phraseanet-openapi.yml\ndocs: https://docs.phraseanet.com/4.1/en/Devel/API/V1/Authentication.html\nnote: Phraseanet's OAuth2 does not use or document scopes - access is governed by\n  the authenticated user's rights and collection access within the self-hosted\n  Phraseanet instance, with application registration and user-revocable access\n  instead of scope grants\n  (https://docs.phraseanet.com/4.1/en/Devel/API/V1/Authentication.html).\nschemes:\n- name: oauth2\n  source: openapi/phraseanet-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/phraseanet-account-api-openapi.yml, openapi/phraseanet-baskets-api-openapi.yml,\n  openapi/phraseanet-databoxes-api-openapi.yml, openapi/phraseanet-feeds-api-openapi.yml, openapi/phraseanet-metadata-api-openapi.yml,\n  openapi/phraseanet-quarantine-api-openapi.yml, openapi/phraseanet-records-api-openapi.yml,\n  openapi/phraseanet-search-api-openapi.yml, openapi/phraseanet-stories-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/phraseanet-account-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\n- name: oauth2\n  source: openapi/phraseanet-baskets-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n\
+  \    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\n- name: oauth2\n  source: openapi/phraseanet-databoxes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\n- name: oauth2\n  source: openapi/phraseanet-feeds-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\n- name: oauth2\n  source: openapi/phraseanet-metadata-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n\
+  \    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\n- name: oauth2\n  source: openapi/phraseanet-quarantine-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\n- name: oauth2\n  source: openapi/phraseanet-records-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\n- name: oauth2\n  source: openapi/phraseanet-search-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n\
+  \    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\n- name: oauth2\n  source: openapi/phraseanet-stories-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://your-phraseanet-instance/api/oauthv2/authorize\n    tokenUrl: https://your-phraseanet-instance/api/oauthv2/token\n  description: OAuth2. Register an application in Phraseanet to obtain a client id and secret.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/scopes/phraseanet-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

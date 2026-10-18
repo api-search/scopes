@@ -31,10 +31,10 @@ flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Incognia Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Incognia uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -50,7 +50,25 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.incognia.com/api/v2/token
   name: oauth2
-  source: openapi/incognia-openapi-original.yml
+  source: openapi/incognia-authentication-api-openapi.yml
+- description: OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by the credential's tenant.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.incognia.com/api/v2/token
+  name: oauth2
+  source: openapi/incognia-feedback-api-openapi.yml
+- description: OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by the credential's tenant.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.incognia.com/api/v2/token
+  name: oauth2
+  source: openapi/incognia-onboarding-api-openapi.yml
+- description: OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by the credential's tenant.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.incognia.com/api/v2/token
+  name: oauth2
+  source: openapi/incognia-transactions-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -58,7 +76,8 @@ slug: incognia-scopes
 source_filename: incognia-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/incognia-openapi-original.yml\nschemes:\n- name: oauth2\n  source: openapi/incognia-openapi-original.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.incognia.com/api/v2/token\n  description: OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by\n    the credential's tenant.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/incognia-authentication-api-openapi.yml, openapi/incognia-feedback-api-openapi.yml,\n  openapi/incognia-onboarding-api-openapi.yml, openapi/incognia-transactions-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/incognia-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.incognia.com/api/v2/token\n  description: OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by\n    the credential's tenant.\n- name: oauth2\n  source: openapi/incognia-feedback-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.incognia.com/api/v2/token\n  description: OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by\n    the credential's tenant.\n- name: oauth2\n  source: openapi/incognia-onboarding-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.incognia.com/api/v2/token\n  description:\
+  \ OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by\n    the credential's tenant.\n- name: oauth2\n  source: openapi/incognia-transactions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.incognia.com/api/v2/token\n  description: OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by\n    the credential's tenant.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/scopes/incognia-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

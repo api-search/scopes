@@ -57,15 +57,15 @@ api_specs:
 authorization_urls:
 - https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
 description: ''
-docs: https://developers.epidemicsound.com/docs/auth/
+docs: ''
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Epidemic Sound Scopes
 name_suffix: OAuth Scopes
-note: Epidemic Sound Connect uses OpenID Connect (authorization code + PKCE) but publishes no OAuth scopes reference — the auth docs (https://developers.epidemicsound.com/docs/auth/) show no scope parameter, and access is governed by the partnership agreement and the user's subscription tier rather than scopes (a token-response example shows only standard OIDC "email profile").
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Epidemic Sound uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -87,7 +87,103 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token
   name: EpidemicSoundConnectAuth
-  source: openapi/epidemic-sound-partner-content-api-openapi.yml
+  source: openapi/epidemic-sound-assets-api-openapi.yml
+- description: 'For users signing in with an Epidemic Sound account, user authentication is
+
+    handled with OpenID Connect, which is a layer on top of OAuth 2.0.
+
+
+    > **Example Header:** `Authorization: Bearer es-connect-token`'
+  flows:
+  - authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
+    flow: authorizationCode
+    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token
+  name: EpidemicSoundConnectAuth
+  source: openapi/epidemic-sound-authentication-api-openapi.yml
+- description: 'For users signing in with an Epidemic Sound account, user authentication is
+
+    handled with OpenID Connect, which is a layer on top of OAuth 2.0.
+
+
+    > **Example Header:** `Authorization: Bearer es-connect-token`'
+  flows:
+  - authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
+    flow: authorizationCode
+    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token
+  name: EpidemicSoundConnectAuth
+  source: openapi/epidemic-sound-beta-api-openapi.yml
+- description: 'For users signing in with an Epidemic Sound account, user authentication is
+
+    handled with OpenID Connect, which is a layer on top of OAuth 2.0.
+
+
+    > **Example Header:** `Authorization: Bearer es-connect-token`'
+  flows:
+  - authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
+    flow: authorizationCode
+    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token
+  name: EpidemicSoundConnectAuth
+  source: openapi/epidemic-sound-browse-search-api-openapi.yml
+- description: 'For users signing in with an Epidemic Sound account, user authentication is
+
+    handled with OpenID Connect, which is a layer on top of OAuth 2.0.
+
+
+    > **Example Header:** `Authorization: Bearer es-connect-token`'
+  flows:
+  - authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
+    flow: authorizationCode
+    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token
+  name: EpidemicSoundConnectAuth
+  source: openapi/epidemic-sound-reporting-api-openapi.yml
+- description: 'For users signing in with an Epidemic Sound account, user authentication is
+
+    handled with OpenID Connect, which is a layer on top of OAuth 2.0.
+
+
+    > **Example Header:** `Authorization: Bearer es-connect-token`'
+  flows:
+  - authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
+    flow: authorizationCode
+    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token
+  name: EpidemicSoundConnectAuth
+  source: openapi/epidemic-sound-safelisting-api-openapi.yml
+- description: 'For users signing in with an Epidemic Sound account, user authentication is
+
+    handled with OpenID Connect, which is a layer on top of OAuth 2.0.
+
+
+    > **Example Header:** `Authorization: Bearer es-connect-token`'
+  flows:
+  - authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
+    flow: authorizationCode
+    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token
+  name: EpidemicSoundConnectAuth
+  source: openapi/epidemic-sound-sound-effects-api-openapi.yml
+- description: 'For users signing in with an Epidemic Sound account, user authentication is
+
+    handled with OpenID Connect, which is a layer on top of OAuth 2.0.
+
+
+    > **Example Header:** `Authorization: Bearer es-connect-token`'
+  flows:
+  - authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
+    flow: authorizationCode
+    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token
+  name: EpidemicSoundConnectAuth
+  source: openapi/epidemic-sound-tracks-api-openapi.yml
+- description: 'For users signing in with an Epidemic Sound account, user authentication is
+
+    handled with OpenID Connect, which is a layer on top of OAuth 2.0.
+
+
+    > **Example Header:** `Authorization: Bearer es-connect-token`'
+  flows:
+  - authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
+    flow: authorizationCode
+    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token
+  name: EpidemicSoundConnectAuth
+  source: openapi/epidemic-sound-users-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -95,8 +191,12 @@ slug: epidemic-sound-scopes
 source_filename: epidemic-sound-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/epidemic-sound-partner-content-api-openapi.yml\ndocs: https://developers.epidemicsound.com/docs/auth/\nnote: Epidemic Sound Connect uses OpenID Connect (authorization code + PKCE) but publishes no OAuth scopes reference — the auth docs (https://developers.epidemicsound.com/docs/auth/) show no scope parameter, and access is governed by the partnership agreement and the user's subscription tier rather than scopes (a token-response example shows only standard OIDC \"email profile\").\nschemes:\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-partner-content-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication\
-  \ is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/epidemic-sound-assets-api-openapi.yml, openapi/epidemic-sound-authentication-api-openapi.yml,\n  openapi/epidemic-sound-beta-api-openapi.yml, openapi/epidemic-sound-browse-search-api-openapi.yml,\n  openapi/epidemic-sound-reporting-api-openapi.yml, openapi/epidemic-sound-safelisting-api-openapi.yml,\n  openapi/epidemic-sound-sound-effects-api-openapi.yml, openapi/epidemic-sound-tracks-api-openapi.yml,\n  openapi/epidemic-sound-users-api-openapi.yml\nschemes:\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-assets-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which\
+  \ is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-authentication-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-beta-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n\
+  \  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-browse-search-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-reporting-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n\
+  \    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-safelisting-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-sound-effects-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-tracks-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example\
+  \ Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/scopes/epidemic-sound-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

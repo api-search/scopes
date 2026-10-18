@@ -55,10 +55,10 @@ flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Zubale Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Zubale uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -73,7 +73,42 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.zubale.com/oauth2/token
   name: oauth2
-  source: openapi/zubale-openapi.yml
+  source: openapi/zubale-api-documentation-for-external-notification-handler-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.zubale.com/oauth2/token
+  name: oauth2
+  source: openapi/zubale-cancel-tasks-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.zubale.com/oauth2/token
+  name: oauth2
+  source: openapi/zubale-delivery-api-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.zubale.com/oauth2/token
+  name: oauth2
+  source: openapi/zubale-external-outbound-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.zubale.com/oauth2/token
+  name: oauth2
+  source: openapi/zubale-live-tracking-for-cencosud-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.zubale.com/oauth2/token
+  name: oauth2
+  source: openapi/zubale-picking-delivery-api-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.zubale.com/oauth2/token
+  name: oauth2
+  source: openapi/zubale-product-catalog-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.zubale.com/oauth2/token
+  name: oauth2
+  source: openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -81,7 +116,9 @@ slug: zubale-scopes
 source_filename: zubale-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/zubale-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/zubale-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/zubale-api-documentation-for-external-notification-handler-api-openapi.yml,\n  openapi/zubale-cancel-tasks-api-openapi.yml, openapi/zubale-delivery-api-api-openapi.yml,\n  openapi/zubale-external-outbound-api-openapi.yml, openapi/zubale-live-tracking-for-cencosud-api-openapi.yml,\n  openapi/zubale-picking-delivery-api-api-openapi.yml, openapi/zubale-product-catalog-api-openapi.yml,\n  openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/zubale-api-documentation-for-external-notification-handler-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-cancel-tasks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-delivery-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-external-outbound-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-live-tracking-for-cencosud-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-picking-delivery-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-product-catalog-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes,\
+  \ and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/scopes/zubale-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

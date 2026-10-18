@@ -82,10 +82,10 @@ flows:
 - implicit
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: La Poste Groupe Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'La Poste Groupe uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -101,12 +101,30 @@ schemes:
     flow: authorizationCode
     tokenUrl: /
   name: oauth2
-  source: openapi/la-poste-groupe-digiposte-openapi.json
+  source: openapi/la-poste-groupe-digiposte-api-openapi.yml
 - flows:
   - authorizationUrl: https://test.com
     flow: implicit
   name: default
-  source: openapi/la-poste-groupe-lettre-recommandee-en-ligne-openapi.json
+  source: openapi/la-poste-groupe-lh-pro-resources-api-openapi.yml
+- flows:
+  - authorizationUrl: /
+    flow: authorizationCode
+    tokenUrl: /
+  name: oauth2
+  source: openapi/la-poste-groupe-partner-api-openapi.yml
+- flows:
+  - authorizationUrl: /
+    flow: authorizationCode
+    tokenUrl: /
+  name: oauth2
+  source: openapi/la-poste-groupe-resend-purl-api-openapi.yml
+- flows:
+  - authorizationUrl: /
+    flow: authorizationCode
+    tokenUrl: /
+  name: oauth2
+  source: openapi/la-poste-groupe-user-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -114,8 +132,8 @@ slug: la-poste-groupe-scopes
 source_filename: la-poste-groupe-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-02'\nmethod: derived\nsource: openapi/la-poste-groupe-digiposte-openapi.json, openapi/la-poste-groupe-lettre-recommandee-en-ligne-openapi.json\nschemes:\n- name: oauth2\n  source: openapi/la-poste-groupe-digiposte-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /\n    tokenUrl: /\n- name: default\n  source: openapi/la-poste-groupe-lettre-recommandee-en-ligne-openapi.json\n  flows:\n  - flow: implicit\n    authorizationUrl: https://test.com\nscopes: []\nscope_count: 0\nfinding: >-\n  Both oauth2 declarations in this estate carry an EMPTY scopes map, and no scope or\n  permission reference page exists on developer.laposte.fr,\n  faq.developer.laposte.fr or documentation-okapi.laposte.fr (searched 2026-09-02).\n  Digiposte v3 uses client_credentials with no scope narrowing - a partner token is\n  all-or-nothing across memberships, certified deposit, organisation safes and\n  sharing. Lettre recommandee en ligne's oauth2 block is a\
-  \ springdoc placeholder\n  pointed at https://test.com and is not a real authorization surface.\n  Authorisation on the rest of the estate is not OAuth at all: it is a per-plan\n  X-Okapi-Key, where the PLAN (not a scope) decides which routes and methods the\n  key may call - the portal exposes that as filteredRoutes / filteredMethods /\n  filteredResourcesCount on each plan.\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/la-poste-groupe-digiposte-api-openapi.yml, openapi/la-poste-groupe-lh-pro-resources-api-openapi.yml,\n  openapi/la-poste-groupe-partner-api-openapi.yml, openapi/la-poste-groupe-resend-purl-api-openapi.yml,\n  openapi/la-poste-groupe-user-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/la-poste-groupe-digiposte-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /\n    tokenUrl: /\n- name: default\n  source: openapi/la-poste-groupe-lh-pro-resources-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://test.com\n- name: oauth2\n  source: openapi/la-poste-groupe-partner-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /\n    tokenUrl: /\n- name: oauth2\n  source: openapi/la-poste-groupe-resend-purl-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /\n    tokenUrl: /\n- name: oauth2\n  source: openapi/la-poste-groupe-user-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: /\n    tokenUrl: /\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/la-poste-groupe/refs/heads/main/scopes/la-poste-groupe-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

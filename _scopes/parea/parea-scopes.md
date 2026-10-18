@@ -8,15 +8,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/openapi/parea-parea-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://docs.parea.ai/api-reference/authentication
+docs: ''
 flows:
 - password
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Parea Scopes
 name_suffix: OAuth Scopes
-note: Parea authenticates with a per-organization API key passed in the x-api-key header (or SDK constructor); no OAuth scopes are used or documented (https://docs.parea.ai/api-reference/authentication).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Parea AI uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -31,7 +31,7 @@ schemes:
   - flow: password
     tokenUrl: token
   name: OAuth2PasswordBearer
-  source: openapi/parea-rest-api-openapi.yml
+  source: openapi/parea-parea-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -39,7 +39,7 @@ slug: parea-scopes
 source_filename: parea-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/parea-rest-api-openapi.yml\ndocs: https://docs.parea.ai/api-reference/authentication\nnote: Parea authenticates with a per-organization API key passed in the x-api-key\n  header (or SDK constructor); no OAuth scopes are used or documented\n  (https://docs.parea.ai/api-reference/authentication).\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/parea-rest-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/parea-parea-api-openapi.yml\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/parea-parea-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/scopes/parea-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -108,7 +108,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/adobe-si
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/scopes/adobe-sign-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
-- Electronic Signature
 - E-Signature
 - Document Workflow
 - Digital Signature

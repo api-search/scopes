@@ -132,7 +132,7 @@ tags:
 - Payments
 - Dining
 - Membership
-- Crypto
+- Cryptocurrency
 - Blockchain
 - Web3
 token_bound: false

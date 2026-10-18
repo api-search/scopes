@@ -88,7 +88,7 @@ summary_line: 2 scopes · clientCredentials/implicit
 tags:
 - Quantum
 - Quantum Computing
-- Azure
+- Microsoft Azure
 - Microsoft
 - Q#
 - QDK

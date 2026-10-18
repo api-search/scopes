@@ -117,10 +117,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Bigtincan Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Bigtincan uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -136,14 +136,235 @@ schemes:
   - flow: password
     tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
   name: oauth2_password
-  source: openapi/bigtincan-hub-api-openapi.json
+  source: openapi/bigtincan-admin-api-openapi.yml
 - description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
   flows:
   - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
     flow: authorizationCode
     tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
   name: oauth2_authorization_code
-  source: openapi/bigtincan-hub-api-openapi.json
+  source: openapi/bigtincan-admin-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-bookmark-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-bookmark-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-channel-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-channel-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-crm-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-crm-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-event-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-event-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-file-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-file-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-form-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-form-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-group-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-group-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-history-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-history-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-links-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-links-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-public-file-share-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-public-file-share-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-search-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-search-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-settings-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-settings-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-story-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-story-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-tab-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-tab-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-tag-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-tag-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-user-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-user-api-openapi.yml
+- description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with grant_type=password. Returns access_token + refresh_token. The As-User header is available only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - flow: password
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_password
+  source: openapi/bigtincan-user-metadata-api-openapi.yml
+- description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'
+  flows:
+  - authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token
+  name: oauth2_authorization_code
+  source: openapi/bigtincan-user-metadata-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -151,7 +372,23 @@ slug: bigtincan-scopes
 source_filename: bigtincan-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/bigtincan-hub-api-openapi.json\nschemes:\n- name: oauth2_password\n  source: openapi/bigtincan-hub-api-openapi.json\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-hub-api-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/bigtincan-admin-api-openapi.yml, openapi/bigtincan-bookmark-api-openapi.yml,\n  openapi/bigtincan-channel-api-openapi.yml, openapi/bigtincan-crm-api-openapi.yml, openapi/bigtincan-event-api-openapi.yml,\n  openapi/bigtincan-file-api-openapi.yml, openapi/bigtincan-form-api-openapi.yml, openapi/bigtincan-group-api-openapi.yml,\n  openapi/bigtincan-history-api-openapi.yml, openapi/bigtincan-links-api-openapi.yml, openapi/bigtincan-public-file-share-api-openapi.yml,\n  openapi/bigtincan-search-api-openapi.yml, openapi/bigtincan-settings-api-openapi.yml, openapi/bigtincan-story-api-openapi.yml,\n  openapi/bigtincan-tab-api-openapi.yml, openapi/bigtincan-tag-api-openapi.yml, openapi/bigtincan-user-api-openapi.yml,\n  openapi/bigtincan-user-metadata-api-openapi.yml\nschemes:\n- name: oauth2_password\n  source: openapi/bigtincan-admin-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n\
+  \  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-admin-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-bookmark-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns\
+  \ access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-bookmark-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-channel-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n\
+  - name: oauth2_authorization_code\n  source: openapi/bigtincan-channel-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-crm-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-crm-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n   \
+  \ authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-event-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-event-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n\
+  \  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-file-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-file-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n\
+  - name: oauth2_password\n  source: openapi/bigtincan-form-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-form-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-group-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n\
+  \  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-group-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-history-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns\
+  \ access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-history-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-links-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n\
+  - name: oauth2_authorization_code\n  source: openapi/bigtincan-links-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-public-file-share-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-public-file-share-api-openapi.yml\n  flows:\n  - flow:\
+  \ authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-search-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-search-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n\
+  \  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-settings-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-settings-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n\
+  - name: oauth2_password\n  source: openapi/bigtincan-story-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-story-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-tab-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n\
+  \  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-tab-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-tag-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token\
+  \ + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-tag-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-user-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n\
+  - name: oauth2_authorization_code\n  source: openapi/bigtincan-user-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_password\n  source: openapi/bigtincan-user-metadata-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Client ID + Client Secret + API Key exchanged at /services/oauth2/token with\n    grant_type=password. Returns access_token + refresh_token. The As-User header is available\n    only with this flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\n- name: oauth2_authorization_code\n  source: openapi/bigtincan-user-metadata-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n\
+  \    authorizationUrl: https://pubapi.bigtincan.com/services/oauth2/authorize\n    tokenUrl: https://pubapi.bigtincan.com/services/oauth2/token\n  description: 'Interactive Bigtincan Hub user login. The As-User header is disabled for this\n    flow. Source: https://pubapi.bigtincan.com/doc/interactive/'\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/scopes/bigtincan-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

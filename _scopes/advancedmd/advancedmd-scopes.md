@@ -906,8 +906,7 @@ summary_line: 128 scopes · authorizationCode/clientCredentials
 tags:
 - Healthcare
 - United States
-- EHR
-- EMR
+- Electronic Health Records
 - Practice Management
 - Medical Billing
 - FHIR

@@ -47,8 +47,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Healthcare
 - United States
-- EHR
-- EMR
+- Electronic Health Records
 - FHIR
 - HL7
 - Interoperability

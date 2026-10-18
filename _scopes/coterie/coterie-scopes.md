@@ -38,15 +38,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/openapi/coterie-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://docs.coterieinsurance.com/#authentication-guide
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Coterie Scopes
 name_suffix: OAuth Scopes
-note: Coterie does not document OAuth scopes; access is controlled by partner-issued Publishable and Secret API keys passed as a token in the Authorization header, with certain operations requiring the Secret key (https://docs.coterieinsurance.com/#authentication-guide).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Coterie Insurance uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -61,7 +61,32 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.coterieinsurance.com/v1/oauth/token
   name: oauth2
-  source: openapi/coterie-openapi.yml
+  source: openapi/coterie-applications-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token
+  name: oauth2
+  source: openapi/coterie-documents-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token
+  name: oauth2
+  source: openapi/coterie-industry-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token
+  name: oauth2
+  source: openapi/coterie-policies-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token
+  name: oauth2
+  source: openapi/coterie-quotes-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token
+  name: oauth2
+  source: openapi/coterie-webhooks-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -69,7 +94,8 @@ slug: coterie-scopes
 source_filename: coterie-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coterie-openapi.yml\ndocs: https://docs.coterieinsurance.com/#authentication-guide\nnote: Coterie does not document OAuth scopes; access is controlled by partner-issued\n  Publishable and Secret API keys passed as a token in the Authorization header,\n  with certain operations requiring the Secret key\n  (https://docs.coterieinsurance.com/#authentication-guide).\nschemes:\n- name: oauth2\n  source: openapi/coterie-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/coterie-applications-api-openapi.yml, openapi/coterie-documents-api-openapi.yml,\n  openapi/coterie-industry-api-openapi.yml, openapi/coterie-policies-api-openapi.yml, openapi/coterie-quotes-api-openapi.yml,\n  openapi/coterie-webhooks-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/coterie-applications-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token\n- name: oauth2\n  source: openapi/coterie-documents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token\n- name: oauth2\n  source: openapi/coterie-industry-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token\n- name: oauth2\n  source: openapi/coterie-policies-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token\n\
+  - name: oauth2\n  source: openapi/coterie-quotes-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token\n- name: oauth2\n  source: openapi/coterie-webhooks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.coterieinsurance.com/v1/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/scopes/coterie-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

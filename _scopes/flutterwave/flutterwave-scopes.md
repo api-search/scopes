@@ -116,15 +116,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/openapi/flutterwave-virtual-accounts-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://developer.flutterwave.com/docs/authentication
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Flutterwave Scopes
 name_suffix: OAuth Scopes
-note: Flutterwave's v4 API uses OAuth 2.0 client_credentials (client_id/client_secret via idp.flutterwave.com) without documented API permission scopes; token responses only carry default OIDC scopes such as "profile email" (https://developer.flutterwave.com/docs/authentication).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Flutterwave uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -139,12 +139,72 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
   name: OAuth2
+  source: openapi/flutterwave-account-resolution-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
   source: openapi/flutterwave-banks-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
   name: OAuth2
-  source: openapi/flutterwave-payments-api-openapi.yml
+  source: openapi/flutterwave-chargebacks-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-charges-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-customers-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-fees-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-mobilenetworks-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-orchestration-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-orders-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-payment-methods-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-rates-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-recipients-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-refunds-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-senders-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
@@ -159,7 +219,17 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
   name: OAuth2
+  source: openapi/flutterwave-virtual-accounts-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
   source: openapi/flutterwave-wallets-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token
+  name: OAuth2
+  source: openapi/flutterwave-webhooks-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -167,8 +237,11 @@ slug: flutterwave-scopes
 source_filename: flutterwave-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/flutterwave-banks-api-openapi.yml, openapi/flutterwave-payments-api-openapi.yml,\n  openapi/flutterwave-settlements-api-openapi.yml, openapi/flutterwave-transfers-api-openapi.yml,\n  openapi/flutterwave-wallets-api-openapi.yml\ndocs: https://developer.flutterwave.com/docs/authentication\nnote: Flutterwave's v4 API uses OAuth 2.0 client_credentials (client_id/client_secret\n  via idp.flutterwave.com) without documented API permission scopes; token responses\n  only carry default OIDC scopes such as \"profile email\"\n  (https://developer.flutterwave.com/docs/authentication).\nschemes:\n- name: OAuth2\n  source: openapi/flutterwave-banks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-payments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n\
-  - name: OAuth2\n  source: openapi/flutterwave-settlements-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-transfers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-wallets-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/flutterwave-account-resolution-api-openapi.yml, openapi/flutterwave-banks-api-openapi.yml,\n  openapi/flutterwave-chargebacks-api-openapi.yml, openapi/flutterwave-charges-api-openapi.yml,\n  openapi/flutterwave-customers-api-openapi.yml, openapi/flutterwave-fees-api-openapi.yml, openapi/flutterwave-mobilenetworks-api-openapi.yml,\n  openapi/flutterwave-orchestration-api-openapi.yml, openapi/flutterwave-orders-api-openapi.yml,\n  openapi/flutterwave-payment-methods-api-openapi.yml, openapi/flutterwave-rates-api-openapi.yml,\n  openapi/flutterwave-recipients-api-openapi.yml, openapi/flutterwave-refunds-api-openapi.yml,\n  openapi/flutterwave-senders-api-openapi.yml, openapi/flutterwave-settlements-api-openapi.yml,\n  openapi/flutterwave-transfers-api-openapi.yml, openapi/flutterwave-virtual-accounts-api-openapi.yml,\n  openapi/flutterwave-wallets-api-openapi.yml, openapi/flutterwave-webhooks-api-openapi.yml\nschemes:\n- name:\
+  \ OAuth2\n  source: openapi/flutterwave-account-resolution-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-banks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-chargebacks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-charges-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-customers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n\
+  - name: OAuth2\n  source: openapi/flutterwave-fees-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-mobilenetworks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-orchestration-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-orders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-payment-methods-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n\
+  - name: OAuth2\n  source: openapi/flutterwave-rates-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-recipients-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-refunds-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-senders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-settlements-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n\
+  - name: OAuth2\n  source: openapi/flutterwave-transfers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-virtual-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-wallets-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\n- name: OAuth2\n  source: openapi/flutterwave-webhooks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://idp.flutterwave.com/realms/flutterwave/protocol/openid-connect/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/scopes/flutterwave-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

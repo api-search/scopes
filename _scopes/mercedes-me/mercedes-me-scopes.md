@@ -259,7 +259,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/re
 summary_line: 38 scopes
 tags:
 - Automotive
-- Connected Car
 - Connected Vehicles
 - Daimler
 - Fleet Management

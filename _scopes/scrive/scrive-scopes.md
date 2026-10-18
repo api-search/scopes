@@ -119,7 +119,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/he
 summary_line: 6 scopes · authorizationCode
 tags:
 - E-Signature
-- Electronic Signing
 - Digital Identity
 - eID
 - BankID

@@ -197,7 +197,6 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://app.drc
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/scopes/drchrono-scopes.yml
 summary_line: 23 scopes · authorizationCode
 tags:
-- EHR
 - Electronic Health Records
 - Healthcare
 - Medical Records

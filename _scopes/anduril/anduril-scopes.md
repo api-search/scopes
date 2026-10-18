@@ -26,15 +26,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://developer.anduril.com/reference/rest/oauth/get-token
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Anduril Scopes
 name_suffix: OAuth Scopes
-note: Anduril Lattice uses the OAuth 2.0 client credentials flow with no published scope catalog; the token endpoint accepts no scope parameter and access is governed by partner-gated client credentials (https://developer.anduril.com/reference/rest/oauth/get-token).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Anduril Industries uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -50,7 +50,25 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.developer.anduril.com/oauth/token
   name: oauth2ClientCredentials
-  source: openapi/anduril-openapi.yml
+  source: openapi/anduril-entities-api-openapi.yml
+- description: OAuth 2.0 client credentials flow for service-to-service access.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.developer.anduril.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/anduril-oauth-api-openapi.yml
+- description: OAuth 2.0 client credentials flow for service-to-service access.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.developer.anduril.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/anduril-objects-api-openapi.yml
+- description: OAuth 2.0 client credentials flow for service-to-service access.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.developer.anduril.com/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/anduril-tasks-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -58,7 +76,8 @@ slug: anduril-scopes
 source_filename: anduril-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/anduril-openapi.yml\ndocs: https://developer.anduril.com/reference/rest/oauth/get-token\nnote: Anduril Lattice uses the OAuth 2.0 client credentials flow with no published\n  scope catalog; the token endpoint accepts no scope parameter and access is governed\n  by partner-gated client credentials (https://developer.anduril.com/reference/rest/oauth/get-token).\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/anduril-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.developer.anduril.com/oauth/token\n  description: OAuth 2.0 client credentials flow for service-to-service access.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/anduril-entities-api-openapi.yml, openapi/anduril-oauth-api-openapi.yml, openapi/anduril-objects-api-openapi.yml,\n  openapi/anduril-tasks-api-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/anduril-entities-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.developer.anduril.com/oauth/token\n  description: OAuth 2.0 client credentials flow for service-to-service access.\n- name: oauth2ClientCredentials\n  source: openapi/anduril-oauth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.developer.anduril.com/oauth/token\n  description: OAuth 2.0 client credentials flow for service-to-service access.\n- name: oauth2ClientCredentials\n  source: openapi/anduril-objects-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.developer.anduril.com/oauth/token\n  description: OAuth 2.0 client credentials flow for service-to-service\
+  \ access.\n- name: oauth2ClientCredentials\n  source: openapi/anduril-tasks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.developer.anduril.com/oauth/token\n  description: OAuth 2.0 client credentials flow for service-to-service access.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/scopes/anduril-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

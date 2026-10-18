@@ -63,15 +63,15 @@ api_specs:
 authorization_urls:
 - https://oauth.employmenthero.com/oauth2/authorize
 description: ''
-docs: https://developer.employmenthero.com/api-references
+docs: ''
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Employment Hero Scopes
 name_suffix: OAuth Scopes
-note: Employment Hero uses OAuth 2.0 scopes in URN form (e.g. urn:mainapp:organisations:read) selected once at application registration, but publishes no scopes reference — the docs state the scope list "will be provided by Employment Hero" via the Developer Portal (https://developer.employmenthero.com/api-references).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Employment Hero uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -87,7 +87,61 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth.employmenthero.com/oauth2/token
   name: oauth2
-  source: openapi/employment-hero-openapi.yml
+  source: openapi/employment-hero-bank-accounts-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth.employmenthero.com/oauth2/token
+  name: oauth2
+  source: openapi/employment-hero-certifications-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth.employmenthero.com/oauth2/token
+  name: oauth2
+  source: openapi/employment-hero-cost-centres-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth.employmenthero.com/oauth2/token
+  name: oauth2
+  source: openapi/employment-hero-custom-fields-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth.employmenthero.com/oauth2/token
+  name: oauth2
+  source: openapi/employment-hero-departments-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth.employmenthero.com/oauth2/token
+  name: oauth2
+  source: openapi/employment-hero-documents-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth.employmenthero.com/oauth2/token
+  name: oauth2
+  source: openapi/employment-hero-emergency-contacts-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth.employmenthero.com/oauth2/token
+  name: oauth2
+  source: openapi/employment-hero-employees-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth.employmenthero.com/oauth2/token
+  name: oauth2
+  source: openapi/employment-hero-forms-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://oauth.employmenthero.com/oauth2/token
+  name: oauth2
+  source: openapi/employment-hero-job-histories-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -95,7 +149,10 @@ slug: employment-hero-scopes
 source_filename: employment-hero-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/employment-hero-openapi.yml\ndocs: https://developer.employmenthero.com/api-references\nnote: >-\n  Employment Hero uses OAuth 2.0 scopes in URN form (e.g.\n  urn:mainapp:organisations:read) selected once at application registration,\n  but publishes no scopes reference — the docs state the scope list \"will be\n  provided by Employment Hero\" via the Developer Portal\n  (https://developer.employmenthero.com/api-references).\nschemes:\n- name: oauth2\n  source: openapi/employment-hero-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/employment-hero-bank-accounts-api-openapi.yml, openapi/employment-hero-certifications-api-openapi.yml,\n  openapi/employment-hero-cost-centres-api-openapi.yml, openapi/employment-hero-custom-fields-api-openapi.yml,\n  openapi/employment-hero-departments-api-openapi.yml, openapi/employment-hero-documents-api-openapi.yml,\n  openapi/employment-hero-emergency-contacts-api-openapi.yml, openapi/employment-hero-employees-api-openapi.yml,\n  openapi/employment-hero-forms-api-openapi.yml, openapi/employment-hero-job-histories-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/employment-hero-bank-accounts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-certifications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-cost-centres-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-custom-fields-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-departments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-documents-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-emergency-contacts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-employees-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-forms-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-job-histories-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/scopes/employment-hero-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

@@ -100,10 +100,8 @@ source_yaml: "generated: '2026-08-31'\nmethod: searched\nsource: https://www.jur
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/scopes/jurisign-scopes.yml
 summary_line: 5 scopes
 tags:
-- Electronic Signature
 - E-Signature
 - eIDAS
-- Document Signing
 - PDF
 - Webhook
 - OTP

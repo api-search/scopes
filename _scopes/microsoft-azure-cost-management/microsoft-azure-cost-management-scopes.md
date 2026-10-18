@@ -236,7 +236,7 @@ tags:
 - Forecasting
 - Chargebacks
 - Focus
-- Azure
+- Microsoft Azure
 - Reserved Instances
 token_bound: false
 token_urls: []

@@ -26,10 +26,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Community Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Community uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -44,9 +44,20 @@ schemes:
   - authorizationUrl: https://oauth-login.community.com/
     flow: authorizationCode
     tokenUrl: /oauth/v1/token
-    tokenUrl_absolute: https://api.community.com/oauth/v1/token
   name: oAuth
-  source: openapi/community-async-openapi-original.yml
+  source: openapi/community-member-data-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth-login.community.com/
+    flow: authorizationCode
+    tokenUrl: /oauth/v1/token
+  name: oAuth
+  source: openapi/community-messaging-api-openapi.yml
+- flows:
+  - authorizationUrl: https://oauth-login.community.com/
+    flow: authorizationCode
+    tokenUrl: /oauth/v1/token
+  name: oAuth
+  source: openapi/community-tags-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -54,8 +65,7 @@ slug: community-scopes
 source_filename: community-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/community-async-openapi-original.yml\nschemes:\n- name: oAuth\n  source: openapi/community-async-openapi-original.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth-login.community.com/\n    tokenUrl: /oauth/v1/token\n    tokenUrl_absolute: https://api.community.com/oauth/v1/token\nscopes: []\nscope_count: 0\ndocs: null\ndocs_search:\n  checked: '2026-08-13'\n  method: >-\n    Fetched every page listed in https://developer.community.com/llms.txt as\n    markdown and looked for a scopes / permissions reference.\n  result: >-\n    Community publishes NO OAuth scope or permission reference. The OpenAPI\n    oauth2 flow declares an empty scopes map, and the provider's own Python\n    Sample Code requests scope=[] when creating the OAuth session\n    (https://developer.community.com/reference/sample-code). Access is granted\n    per account seat by the Community team rather than by scope, so there\
-  \ is\n    nothing to enrich — the empty list is the finding, not a gap in the probe.\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/community-member-data-api-openapi.yml, openapi/community-messaging-api-openapi.yml,\n  openapi/community-tags-api-openapi.yml\nschemes:\n- name: oAuth\n  source: openapi/community-member-data-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth-login.community.com/\n    tokenUrl: /oauth/v1/token\n- name: oAuth\n  source: openapi/community-messaging-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth-login.community.com/\n    tokenUrl: /oauth/v1/token\n- name: oAuth\n  source: openapi/community-tags-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth-login.community.com/\n    tokenUrl: /oauth/v1/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/scopes/community-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

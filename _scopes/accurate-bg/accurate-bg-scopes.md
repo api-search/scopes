@@ -56,15 +56,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-verifications-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://accurate.readme.io/reference/authentication
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Accurate Bg Scopes
 name_suffix: OAuth Scopes
-note: Accurate's API authenticates via an OAuth 2.0 client-credentials exchange of a ClientID/ClientSecret pair from the developer portal, and no OAuth scopes are documented anywhere in the API reference or developer portal (https://accurate.readme.io/reference/authentication).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Accurate Background uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -80,7 +80,55 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.accuratebackground.com/v3/oauth/token
   name: oauth2ClientCredentials
-  source: openapi/accurate-bg-openapi.yml
+  source: openapi/accurate-bg-adjudication-api-openapi.yml
+- description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that authorizes subsequent requests.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.accuratebackground.com/v3/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/accurate-bg-candidates-api-openapi.yml
+- description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that authorizes subsequent requests.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.accuratebackground.com/v3/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/accurate-bg-documents-api-openapi.yml
+- description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that authorizes subsequent requests.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.accuratebackground.com/v3/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/accurate-bg-notifications-api-openapi.yml
+- description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that authorizes subsequent requests.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.accuratebackground.com/v3/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/accurate-bg-orders-api-openapi.yml
+- description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that authorizes subsequent requests.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.accuratebackground.com/v3/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/accurate-bg-packages-api-openapi.yml
+- description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that authorizes subsequent requests.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.accuratebackground.com/v3/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/accurate-bg-reports-api-openapi.yml
+- description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that authorizes subsequent requests.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.accuratebackground.com/v3/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/accurate-bg-utility-api-openapi.yml
+- description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that authorizes subsequent requests.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.accuratebackground.com/v3/oauth/token
+  name: oauth2ClientCredentials
+  source: openapi/accurate-bg-verifications-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -88,7 +136,11 @@ slug: accurate-bg-scopes
 source_filename: accurate-bg-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/accurate-bg-openapi.yml\ndocs: https://accurate.readme.io/reference/authentication\nnote: Accurate's API authenticates via an OAuth 2.0 client-credentials exchange of\n  a ClientID/ClientSecret pair from the developer portal, and no OAuth scopes are\n  documented anywhere in the API reference or developer portal\n  (https://accurate.readme.io/reference/authentication).\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/accurate-bg-adjudication-api-openapi.yml, openapi/accurate-bg-candidates-api-openapi.yml,\n  openapi/accurate-bg-documents-api-openapi.yml, openapi/accurate-bg-notifications-api-openapi.yml,\n  openapi/accurate-bg-orders-api-openapi.yml, openapi/accurate-bg-packages-api-openapi.yml,\n  openapi/accurate-bg-reports-api-openapi.yml, openapi/accurate-bg-utility-api-openapi.yml,\n  openapi/accurate-bg-verifications-api-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-adjudication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-candidates-api-openapi.yml\n\
+  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-documents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-notifications-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID\
+  \ / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-orders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-packages-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent\
+  \ requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-reports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-utility-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-verifications-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n\
+  \  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/scopes/accurate-bg-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

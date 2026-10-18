@@ -51,16 +51,16 @@ api_specs:
 authorization_urls:
 - /api/v2/auth/authorize
 description: ''
-docs: https://api.docs.momence.com/docs/getting-started
+docs: ''
 flows:
 - password
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Momence Scopes
 name_suffix: OAuth Scopes
-note: Momence OAuth2 does not define scopes - the API is always used as a specific user and all permissions are inferred from that user's Momence account role, per https://api.docs.momence.com/docs/getting-started and https://api.docs.momence.com/docs/authorization.
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Momence uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -78,7 +78,63 @@ schemes:
     flow: authorizationCode
     tokenUrl: /api/v2/auth/token
   name: OAuth2
-  source: openapi/momence-openapi.yml
+  source: openapi/momence-auth-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /api/v2/auth/token
+  - authorizationUrl: /api/v2/auth/authorize
+    flow: authorizationCode
+    tokenUrl: /api/v2/auth/token
+  name: OAuth2
+  source: openapi/momence-host-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /api/v2/auth/token
+  - authorizationUrl: /api/v2/auth/authorize
+    flow: authorizationCode
+    tokenUrl: /api/v2/auth/token
+  name: OAuth2
+  source: openapi/momence-host-checkout-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /api/v2/auth/token
+  - authorizationUrl: /api/v2/auth/authorize
+    flow: authorizationCode
+    tokenUrl: /api/v2/auth/token
+  name: OAuth2
+  source: openapi/momence-member-addresses-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /api/v2/auth/token
+  - authorizationUrl: /api/v2/auth/authorize
+    flow: authorizationCode
+    tokenUrl: /api/v2/auth/token
+  name: OAuth2
+  source: openapi/momence-member-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /api/v2/auth/token
+  - authorizationUrl: /api/v2/auth/authorize
+    flow: authorizationCode
+    tokenUrl: /api/v2/auth/token
+  name: OAuth2
+  source: openapi/momence-member-checkout-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /api/v2/auth/token
+  - authorizationUrl: /api/v2/auth/authorize
+    flow: authorizationCode
+    tokenUrl: /api/v2/auth/token
+  name: OAuth2
+  source: openapi/momence-member-host-api-openapi.yml
+- flows:
+  - flow: password
+    tokenUrl: /api/v2/auth/token
+  - authorizationUrl: /api/v2/auth/authorize
+    flow: authorizationCode
+    tokenUrl: /api/v2/auth/token
+  name: OAuth2
+  source: openapi/momence-member-sessions-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -86,7 +142,9 @@ slug: momence-scopes
 source_filename: momence-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/momence-openapi.yml\ndocs: https://api.docs.momence.com/docs/getting-started\nnote: Momence OAuth2 does not define scopes - the API is always used as a specific\n  user and all permissions are inferred from that user's Momence account role, per\n  https://api.docs.momence.com/docs/getting-started and\n  https://api.docs.momence.com/docs/authorization.\nschemes:\n- name: OAuth2\n  source: openapi/momence-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /api/v2/auth/token\n  - flow: authorizationCode\n    authorizationUrl: /api/v2/auth/authorize\n    tokenUrl: /api/v2/auth/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/momence-auth-api-openapi.yml, openapi/momence-host-api-openapi.yml, openapi/momence-host-checkout-api-openapi.yml,\n  openapi/momence-member-addresses-api-openapi.yml, openapi/momence-member-api-openapi.yml,\n  openapi/momence-member-checkout-api-openapi.yml, openapi/momence-member-host-api-openapi.yml,\n  openapi/momence-member-sessions-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/momence-auth-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /api/v2/auth/token\n  - flow: authorizationCode\n    authorizationUrl: /api/v2/auth/authorize\n    tokenUrl: /api/v2/auth/token\n- name: OAuth2\n  source: openapi/momence-host-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /api/v2/auth/token\n  - flow: authorizationCode\n    authorizationUrl: /api/v2/auth/authorize\n    tokenUrl: /api/v2/auth/token\n- name: OAuth2\n  source: openapi/momence-host-checkout-api-openapi.yml\n  flows:\n  - flow:\
+  \ password\n    tokenUrl: /api/v2/auth/token\n  - flow: authorizationCode\n    authorizationUrl: /api/v2/auth/authorize\n    tokenUrl: /api/v2/auth/token\n- name: OAuth2\n  source: openapi/momence-member-addresses-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /api/v2/auth/token\n  - flow: authorizationCode\n    authorizationUrl: /api/v2/auth/authorize\n    tokenUrl: /api/v2/auth/token\n- name: OAuth2\n  source: openapi/momence-member-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /api/v2/auth/token\n  - flow: authorizationCode\n    authorizationUrl: /api/v2/auth/authorize\n    tokenUrl: /api/v2/auth/token\n- name: OAuth2\n  source: openapi/momence-member-checkout-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /api/v2/auth/token\n  - flow: authorizationCode\n    authorizationUrl: /api/v2/auth/authorize\n    tokenUrl: /api/v2/auth/token\n- name: OAuth2\n  source: openapi/momence-member-host-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl:\
+  \ /api/v2/auth/token\n  - flow: authorizationCode\n    authorizationUrl: /api/v2/auth/authorize\n    tokenUrl: /api/v2/auth/token\n- name: OAuth2\n  source: openapi/momence-member-sessions-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /api/v2/auth/token\n  - flow: authorizationCode\n    authorizationUrl: /api/v2/auth/authorize\n    tokenUrl: /api/v2/auth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/scopes/momence-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

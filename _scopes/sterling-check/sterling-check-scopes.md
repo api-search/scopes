@@ -44,15 +44,15 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
-docs: https://sterling.readme.io/reference/authentication
+docs: ''
 flows:
 - clientCredentials
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Sterling Check Scopes
 name_suffix: OAuth Scopes
-note: Sterling's API uses OAuth2 client_credentials only (Base64 client_id:client_secret sent to the oauth token endpoint) and documents no scope parameter or scope list; access is governed by the Client ID/Client Secret issued per account and screening region (https://sterling.readme.io/reference/authentication).
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Sterling uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -68,7 +68,43 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://auth.sterlingcheck.app/oauth/token
   name: oAuth2ClientCredentials
-  source: openapi/sterling-check-openapi.yml
+  source: openapi/sterling-check-authentication-api-openapi.yml
+- description: OAuth2 client credentials grant using your Client ID and Client Secret.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.sterlingcheck.app/oauth/token
+  name: oAuth2ClientCredentials
+  source: openapi/sterling-check-candidates-api-openapi.yml
+- description: OAuth2 client credentials grant using your Client ID and Client Secret.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.sterlingcheck.app/oauth/token
+  name: oAuth2ClientCredentials
+  source: openapi/sterling-check-invites-api-openapi.yml
+- description: OAuth2 client credentials grant using your Client ID and Client Secret.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.sterlingcheck.app/oauth/token
+  name: oAuth2ClientCredentials
+  source: openapi/sterling-check-packages-api-openapi.yml
+- description: OAuth2 client credentials grant using your Client ID and Client Secret.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.sterlingcheck.app/oauth/token
+  name: oAuth2ClientCredentials
+  source: openapi/sterling-check-reports-api-openapi.yml
+- description: OAuth2 client credentials grant using your Client ID and Client Secret.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.sterlingcheck.app/oauth/token
+  name: oAuth2ClientCredentials
+  source: openapi/sterling-check-screenings-api-openapi.yml
+- description: OAuth2 client credentials grant using your Client ID and Client Secret.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://auth.sterlingcheck.app/oauth/token
+  name: oAuth2ClientCredentials
+  source: openapi/sterling-check-webhooks-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -76,7 +112,9 @@ slug: sterling-check-scopes
 source_filename: sterling-check-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sterling-check-openapi.yml\ndocs: https://sterling.readme.io/reference/authentication\nnote: Sterling's API uses OAuth2 client_credentials only (Base64 client_id:client_secret\n  sent to the oauth token endpoint) and documents no scope parameter or scope list;\n  access is governed by the Client ID/Client Secret issued per account and screening\n  region (https://sterling.readme.io/reference/authentication).\nschemes:\n- name: oAuth2ClientCredentials\n  source: openapi/sterling-check-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sterlingcheck.app/oauth/token\n  description: OAuth2 client credentials grant using your Client ID and Client Secret.\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/sterling-check-authentication-api-openapi.yml, openapi/sterling-check-candidates-api-openapi.yml,\n  openapi/sterling-check-invites-api-openapi.yml, openapi/sterling-check-packages-api-openapi.yml,\n  openapi/sterling-check-reports-api-openapi.yml, openapi/sterling-check-screenings-api-openapi.yml,\n  openapi/sterling-check-webhooks-api-openapi.yml\nschemes:\n- name: oAuth2ClientCredentials\n  source: openapi/sterling-check-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sterlingcheck.app/oauth/token\n  description: OAuth2 client credentials grant using your Client ID and Client Secret.\n- name: oAuth2ClientCredentials\n  source: openapi/sterling-check-candidates-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sterlingcheck.app/oauth/token\n  description: OAuth2 client credentials grant using your Client ID and Client Secret.\n- name: oAuth2ClientCredentials\n\
+  \  source: openapi/sterling-check-invites-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sterlingcheck.app/oauth/token\n  description: OAuth2 client credentials grant using your Client ID and Client Secret.\n- name: oAuth2ClientCredentials\n  source: openapi/sterling-check-packages-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sterlingcheck.app/oauth/token\n  description: OAuth2 client credentials grant using your Client ID and Client Secret.\n- name: oAuth2ClientCredentials\n  source: openapi/sterling-check-reports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sterlingcheck.app/oauth/token\n  description: OAuth2 client credentials grant using your Client ID and Client Secret.\n- name: oAuth2ClientCredentials\n  source: openapi/sterling-check-screenings-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sterlingcheck.app/oauth/token\n  description:\
+  \ OAuth2 client credentials grant using your Client ID and Client Secret.\n- name: oAuth2ClientCredentials\n  source: openapi/sterling-check-webhooks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sterlingcheck.app/oauth/token\n  description: OAuth2 client credentials grant using your Client ID and Client Secret.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/scopes/sterling-check-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

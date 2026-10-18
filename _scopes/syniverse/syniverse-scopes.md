@@ -291,10 +291,10 @@ flows:
 - implicit
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Syniverse Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Syniverse uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -309,17 +309,22 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://api.mt1.messaging-trust.syniverse.com/oauth2/token
   name: OAuth2
-  source: openapi/syniverse-messaging-trust-datafeed-openapi.yml
+  source: openapi/syniverse-mms-resolver-api-api-openapi.yml
 - flows:
   - flow: clientCredentials
     tokenUrl: https://api.mt1.messaging-trust.syniverse.com/oauth2/token
   name: OAuth2
-  source: openapi/syniverse-messaging-trust-resolve-openapi.yml
+  source: openapi/syniverse-reports-api-openapi.yml
+- flows:
+  - flow: clientCredentials
+    tokenUrl: https://api.mt1.messaging-trust.syniverse.com/oauth2/token
+  name: OAuth2
+  source: openapi/syniverse-text-resolver-api-api-openapi.yml
 - flows:
   - authorizationUrl: https://beta.api.syniverse.com/token
     flow: implicit
   name: default
-  source: openapi/syniverse-whitelisting-service-openapi.json
+  source: openapi/syniverse-whitelist-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -327,8 +332,8 @@ slug: syniverse-scopes
 source_filename: syniverse-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-25'\nmethod: derived\nsource: openapi/syniverse-messaging-trust-datafeed-openapi.yml, openapi/syniverse-messaging-trust-resolve-openapi.yml,\n  openapi/syniverse-whitelisting-service-openapi.json\nsummary: >-\n  Syniverse declares three oauth2 security schemes but publishes ZERO scopes. Every flow\n  carries an empty scopes map, no operation names a scope in its security requirement, and\n  the Developer Community documentation has no scopes or permissions reference page — the\n  docs and support knowledge base were searched on 2026-07-25 and none exists. Authorization\n  is coarse: an SDC application access token carries whatever entitlements the account\n  holds, and 403 Forbidden means \"credentials do not carry the entitlements\" rather than\n  \"missing scope\". Recorded as a genuine empty result, not a gap in the harvest.\nscopes_documented: false\ndocs: null\nschemes:\n- name: OAuth2\n  source: openapi/syniverse-messaging-trust-datafeed-openapi.yml\n\
-  \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.mt1.messaging-trust.syniverse.com/oauth2/token\n- name: OAuth2\n  source: openapi/syniverse-messaging-trust-resolve-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.mt1.messaging-trust.syniverse.com/oauth2/token\n- name: default\n  source: openapi/syniverse-whitelisting-service-openapi.json\n  flows:\n  - flow: implicit\n    authorizationUrl: https://beta.api.syniverse.com/token\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/syniverse-mms-resolver-api-api-openapi.yml, openapi/syniverse-reports-api-openapi.yml,\n  openapi/syniverse-text-resolver-api-api-openapi.yml, openapi/syniverse-whitelist-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/syniverse-mms-resolver-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.mt1.messaging-trust.syniverse.com/oauth2/token\n- name: OAuth2\n  source: openapi/syniverse-reports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.mt1.messaging-trust.syniverse.com/oauth2/token\n- name: OAuth2\n  source: openapi/syniverse-text-resolver-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.mt1.messaging-trust.syniverse.com/oauth2/token\n- name: default\n  source: openapi/syniverse-whitelist-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://beta.api.syniverse.com/token\nscopes:\
+  \ []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/scopes/syniverse-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

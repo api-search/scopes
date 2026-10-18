@@ -50,10 +50,10 @@ flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: Splitwise Scopes
 name_suffix: OAuth Scopes
-note: ''
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
 overview: 'Splitwise uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
 
 
@@ -87,7 +87,151 @@ schemes:
     flow: authorizationCode
     tokenUrl: /oauth/token
   name: OAuth
-  source: openapi/splitwise-openapi.json
+  source: openapi/splitwise-comments-api-openapi.yml
+- description: 'Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you''ll need to [register your app](https://secure.splitwise.com/apps). When you register, you''ll be given a key and secret.
+
+
+    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend
+
+    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the
+
+    [OAuth community site](https://oauth.net/code/#client-libraries).
+
+
+    For more information on using OAuth, check out the following resources:
+
+
+    - The OAuth community [getting started guide](https://oauth.net/getting-started/)
+
+    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)
+
+    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth'
+  flows:
+  - authorizationUrl: /oauth/authorize
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  name: OAuth
+  source: openapi/splitwise-expenses-api-openapi.yml
+- description: 'Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you''ll need to [register your app](https://secure.splitwise.com/apps). When you register, you''ll be given a key and secret.
+
+
+    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend
+
+    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the
+
+    [OAuth community site](https://oauth.net/code/#client-libraries).
+
+
+    For more information on using OAuth, check out the following resources:
+
+
+    - The OAuth community [getting started guide](https://oauth.net/getting-started/)
+
+    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)
+
+    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth'
+  flows:
+  - authorizationUrl: /oauth/authorize
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  name: OAuth
+  source: openapi/splitwise-friends-api-openapi.yml
+- description: 'Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you''ll need to [register your app](https://secure.splitwise.com/apps). When you register, you''ll be given a key and secret.
+
+
+    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend
+
+    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the
+
+    [OAuth community site](https://oauth.net/code/#client-libraries).
+
+
+    For more information on using OAuth, check out the following resources:
+
+
+    - The OAuth community [getting started guide](https://oauth.net/getting-started/)
+
+    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)
+
+    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth'
+  flows:
+  - authorizationUrl: /oauth/authorize
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  name: OAuth
+  source: openapi/splitwise-groups-api-openapi.yml
+- description: 'Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you''ll need to [register your app](https://secure.splitwise.com/apps). When you register, you''ll be given a key and secret.
+
+
+    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend
+
+    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the
+
+    [OAuth community site](https://oauth.net/code/#client-libraries).
+
+
+    For more information on using OAuth, check out the following resources:
+
+
+    - The OAuth community [getting started guide](https://oauth.net/getting-started/)
+
+    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)
+
+    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth'
+  flows:
+  - authorizationUrl: /oauth/authorize
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  name: OAuth
+  source: openapi/splitwise-notifications-api-openapi.yml
+- description: 'Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you''ll need to [register your app](https://secure.splitwise.com/apps). When you register, you''ll be given a key and secret.
+
+
+    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend
+
+    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the
+
+    [OAuth community site](https://oauth.net/code/#client-libraries).
+
+
+    For more information on using OAuth, check out the following resources:
+
+
+    - The OAuth community [getting started guide](https://oauth.net/getting-started/)
+
+    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)
+
+    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth'
+  flows:
+  - authorizationUrl: /oauth/authorize
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  name: OAuth
+  source: openapi/splitwise-other-api-openapi.yml
+- description: 'Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you''ll need to [register your app](https://secure.splitwise.com/apps). When you register, you''ll be given a key and secret.
+
+
+    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend
+
+    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the
+
+    [OAuth community site](https://oauth.net/code/#client-libraries).
+
+
+    For more information on using OAuth, check out the following resources:
+
+
+    - The OAuth community [getting started guide](https://oauth.net/getting-started/)
+
+    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)
+
+    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth'
+  flows:
+  - authorizationUrl: /oauth/authorize
+    flow: authorizationCode
+    tokenUrl: /oauth/token
+  name: OAuth
+  source: openapi/splitwise-users-api-openapi.yml
 scope_count: 0
 scope_names: []
 scopes: []
@@ -95,8 +239,15 @@ slug: splitwise-scopes
 source_filename: splitwise-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/splitwise-openapi.json\nschemes:\n- name: OAuth\n  source: openapi/splitwise-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\n  description: |-\n    Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you'll need to [register your app](https://secure.splitwise.com/apps). When you register, you'll be given a key and secret.\n\n    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend\n    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the\n    [OAuth community site](https://oauth.net/code/#client-libraries).\n\n    For more information on using OAuth, check out the following resources:\n\n    - The OAuth community [getting started guide](https://oauth.net/getting-started/)\n    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/)\
-  \ (great for debugging authorization issues)\n    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth\nscopes: []\n"
+source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/splitwise-comments-api-openapi.yml, openapi/splitwise-expenses-api-openapi.yml,\n  openapi/splitwise-friends-api-openapi.yml, openapi/splitwise-groups-api-openapi.yml, openapi/splitwise-notifications-api-openapi.yml,\n  openapi/splitwise-other-api-openapi.yml, openapi/splitwise-users-api-openapi.yml\nschemes:\n- name: OAuth\n  source: openapi/splitwise-comments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\n  description: |-\n    Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you'll need to [register your app](https://secure.splitwise.com/apps). When you register, you'll be given a key and secret.\n\n    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend\n    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries\
+  \ at the\n    [OAuth community site](https://oauth.net/code/#client-libraries).\n\n    For more information on using OAuth, check out the following resources:\n\n    - The OAuth community [getting started guide](https://oauth.net/getting-started/)\n    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)\n    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth\n- name: OAuth\n  source: openapi/splitwise-expenses-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\n  description: |-\n    Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you'll need to [register your app](https://secure.splitwise.com/apps). When you register, you'll be given a key and secret.\n\n    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly**\
+  \ recommend\n    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the\n    [OAuth community site](https://oauth.net/code/#client-libraries).\n\n    For more information on using OAuth, check out the following resources:\n\n    - The OAuth community [getting started guide](https://oauth.net/getting-started/)\n    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)\n    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth\n- name: OAuth\n  source: openapi/splitwise-friends-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\n  description: |-\n    Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you'll need to [register your app](https://secure.splitwise.com/apps). When you register, you'll\
+  \ be given a key and secret.\n\n    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend\n    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the\n    [OAuth community site](https://oauth.net/code/#client-libraries).\n\n    For more information on using OAuth, check out the following resources:\n\n    - The OAuth community [getting started guide](https://oauth.net/getting-started/)\n    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)\n    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth\n- name: OAuth\n  source: openapi/splitwise-groups-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\n  description: |-\n    Splitwise uses OAuth 2 with the authorization code\
+  \ flow. To connect via OAuth 2, you'll need to [register your app](https://secure.splitwise.com/apps). When you register, you'll be given a key and secret.\n\n    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend\n    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the\n    [OAuth community site](https://oauth.net/code/#client-libraries).\n\n    For more information on using OAuth, check out the following resources:\n\n    - The OAuth community [getting started guide](https://oauth.net/getting-started/)\n    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)\n    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth\n- name: OAuth\n  source: openapi/splitwise-notifications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
+  \ /oauth/authorize\n    tokenUrl: /oauth/token\n  description: |-\n    Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you'll need to [register your app](https://secure.splitwise.com/apps). When you register, you'll be given a key and secret.\n\n    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend\n    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the\n    [OAuth community site](https://oauth.net/code/#client-libraries).\n\n    For more information on using OAuth, check out the following resources:\n\n    - The OAuth community [getting started guide](https://oauth.net/getting-started/)\n    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)\n    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth\n\
+  - name: OAuth\n  source: openapi/splitwise-other-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\n  description: |-\n    Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you'll need to [register your app](https://secure.splitwise.com/apps). When you register, you'll be given a key and secret.\n\n    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend\n    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the\n    [OAuth community site](https://oauth.net/code/#client-libraries).\n\n    For more information on using OAuth, check out the following resources:\n\n    - The OAuth community [getting started guide](https://oauth.net/getting-started/)\n    - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)\n    -\
+  \ This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth\n- name: OAuth\n  source: openapi/splitwise-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\n  description: |-\n    Splitwise uses OAuth 2 with the authorization code flow. To connect via OAuth 2, you'll need to [register your app](https://secure.splitwise.com/apps). When you register, you'll be given a key and secret.\n\n    **Note**: OAuth can be a very confusing protocol to implement correctly, and we **strongly** recommend\n    that you use an existing OAuth library to connect to Splitwise. You can find a list of OAuth client libraries at the\n    [OAuth community site](https://oauth.net/code/#client-libraries).\n\n    For more information on using OAuth, check out the following resources:\n\n    - The OAuth community [getting started guide](https://oauth.net/getting-started/)\n \
+  \   - The oauth.com [OAuth 2.0 playground](https://www.oauth.com/playground/) (great for debugging authorization issues)\n    - This [old Splitwise blog post](https://blog.splitwise.com/2013/07/15/setting-up-oauth-for-the-splitwise-api/) about OAuth\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splitwise/refs/heads/main/scopes/splitwise-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:

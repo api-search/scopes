@@ -72,7 +72,7 @@ tags:
 - Threat Protection
 - Compliance
 - Vulnerability Management
-- Azure
+- Microsoft Azure
 token_bound: false
 token_urls: []
 ---
