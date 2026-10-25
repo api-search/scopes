@@ -78,7 +78,7 @@ docs: ''
 flows: []
 kind: oauth-scopes
 layout: scope
-method: derived
+method: none
 name: University Of Waterloo Scopes
 name_suffix: OAuth Scopes
 note: ''
@@ -96,7 +96,7 @@ slug: university-of-waterloo-scopes
 source_filename: university-of-waterloo-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "specification: API Commons Scopes\nspecificationVersion: '0.1'\nprovider: University of Waterloo\nproviderId: university-of-waterloo\ngenerated: '2026-09-01'\nmethod: derived\nsource: >-\n  https://openapi.data.uwaterloo.ca/swagger/v1/swagger.json (fetched 2026-09-01) — the live\n  first-party contract — plus live probes of https://openapi.data.uwaterloo.ca/v3/.\ndescription: >-\n  The University of Waterloo Open Data API has no authorization scopes. Its only security scheme is\n  a single API key in the X-API-KEY header, applied globally to all 48 operations, and there is no\n  OAuth flow, no consent surface and no per-resource authorization boundary. This file records that\n  absence explicitly so the gap is measured rather than inferred from a missing file.\nscopes: []\nsecurity_schemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Custom API key authentication\n  scopes: []\n  applied: >-\n    Globally, via a top-level security requirement\
+source_yaml: "specification: API Commons Scopes\nspecificationVersion: '0.1'\nprovider: University of Waterloo\nproviderId: university-of-waterloo\ngenerated: '2026-09-01'\nmethod: none\nsource: >-\n  https://openapi.data.uwaterloo.ca/swagger/v1/swagger.json (fetched 2026-09-01) — the live\n  first-party contract — plus live probes of https://openapi.data.uwaterloo.ca/v3/.\ndescription: >-\n  The University of Waterloo Open Data API has no authorization scopes. Its only security scheme is\n  a single API key in the X-API-KEY header, applied globally to all 48 operations, and there is no\n  OAuth flow, no consent surface and no per-resource authorization boundary. This file records that\n  absence explicitly so the gap is measured rather than inferred from a missing file.\nscopes: []\nsecurity_schemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Custom API key authentication\n  scopes: []\n  applied: >-\n    Globally, via a top-level security requirement\
   \ of [{apiKey: []}]. Every operation inherits it;\n    no operation declares its own.\nauthorization_model: >-\n  Binary. A valid key grants read access to the whole published surface; an absent or unissued key\n  is rejected with 401 on every path. Waterloo's separate, gated SourceAPI applies authorization\n  out of band — access is granted per data set by the responsible data stewards through a Jira\n  service-desk request, not through scopes carried in a token.\ngaps:\n- No OAuth 2.0 or OpenID Connect flow on the public Open Data API.\n- >-\n  No scope, role or claim vocabulary is published, so a client cannot request or reason about least\n  privilege.\n- >-\n  Key issuance is self-serve (POST /v3/Account/Register) and unscoped, so every issued key carries\n  identical authority.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/scopes/university-of-waterloo-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes

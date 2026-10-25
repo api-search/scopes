@@ -204,12 +204,6 @@ api_specs:
   slug: deputy-department-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-department-api-openapi.yml
-- filename: deputy-departments-api-openapi.yml
-  format: yaml
-  label: Deputy Departments API
-  slug: deputy-departments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-departments-api-openapi.yml
 - filename: deputy-deputy-reports-api-openapi.yml
   format: yaml
   label: Deputy Deputy Reports API
@@ -678,24 +672,6 @@ api_specs:
   slug: deputy-location-setting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-location-setting-api-openapi.yml
-- filename: deputy-locations-api-openapi.yml
-  format: yaml
-  label: Deputy Locations API
-  slug: deputy-locations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-locations-api-openapi.yml
-- filename: deputy-logged-in-user-details-api-openapi.yml
-  format: yaml
-  label: Deputy Logged in User Details API
-  slug: deputy-logged-in-user-details-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-logged-in-user-details-api-openapi.yml
-- filename: deputy-management-api-openapi.yml
-  format: yaml
-  label: Deputy Management API
-  slug: deputy-management-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-management-api-openapi.yml
 - filename: deputy-me-tab-api-openapi.yml
   format: yaml
   label: Deputy Me Tab API
@@ -786,12 +762,6 @@ api_specs:
   slug: deputy-pay-comparison-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-pay-comparison-api-openapi.yml
-- filename: deputy-pay-rates-api-openapi.yml
-  format: yaml
-  label: Deputy Pay Rates API
-  slug: deputy-pay-rates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-pay-rates-api-openapi.yml
 - filename: deputy-payperiod-api-openapi.yml
   format: yaml
   label: Deputy Pay Period API
@@ -906,12 +876,6 @@ api_specs:
   slug: deputy-rosteropen-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-rosteropen-api-openapi.yml
-- filename: deputy-rosters-api-openapi.yml
-  format: yaml
-  label: Deputy Rosters API
-  slug: deputy-rosters-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-rosters-api-openapi.yml
 - filename: deputy-rosterswap-api-openapi.yml
   format: yaml
   label: Deputy Roster Swap API
@@ -924,12 +888,6 @@ api_specs:
   slug: deputy-rostertemplate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-rostertemplate-api-openapi.yml
-- filename: deputy-sales-api-openapi.yml
-  format: yaml
-  label: Deputy Sales API
-  slug: deputy-sales-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-sales-api-openapi.yml
 - filename: deputy-salesdata-api-openapi.yml
   format: yaml
   label: Deputy Sales Data API
@@ -1254,12 +1212,6 @@ api_specs:
   slug: deputy-user-sso-link-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-user-sso-link-api-openapi.yml
-- filename: deputy-utility-request-api-openapi.yml
-  format: yaml
-  label: Deputy Utility request API
-  slug: deputy-utility-request-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-utility-request-api-openapi.yml
 - filename: deputy-weather-api-openapi.yml
   format: yaml
   label: Deputy Weather API
@@ -1278,18 +1230,66 @@ api_specs:
   slug: deputy-webhook-triggers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-webhook-triggers-api-openapi.yml
-- filename: deputy-webhooks-api-openapi.yml
-  format: yaml
-  label: Deputy Webhooks API
-  slug: deputy-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-webhooks-api-openapi.yml
 - filename: deputy-widget-api-openapi.yml
   format: yaml
   label: Deputy Widget API
   slug: deputy-widget-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-widget-api-openapi.yml
+- filename: deputy-departments-api-openapi.yml
+  format: yaml
+  label: Deputy Departments API
+  slug: deputy-departments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-departments-api-openapi.yml
+- filename: deputy-locations-api-openapi.yml
+  format: yaml
+  label: Deputy Locations API
+  slug: deputy-locations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-locations-api-openapi.yml
+- filename: deputy-logged-in-user-details-api-openapi.yml
+  format: yaml
+  label: Deputy Logged in User Details API
+  slug: deputy-logged-in-user-details-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-logged-in-user-details-api-openapi.yml
+- filename: deputy-management-api-openapi.yml
+  format: yaml
+  label: Deputy Management API
+  slug: deputy-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-management-api-openapi.yml
+- filename: deputy-pay-rates-api-openapi.yml
+  format: yaml
+  label: Deputy Pay Rates API
+  slug: deputy-pay-rates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-pay-rates-api-openapi.yml
+- filename: deputy-rosters-api-openapi.yml
+  format: yaml
+  label: Deputy Rosters API
+  slug: deputy-rosters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-rosters-api-openapi.yml
+- filename: deputy-sales-api-openapi.yml
+  format: yaml
+  label: Deputy Sales API
+  slug: deputy-sales-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-sales-api-openapi.yml
+- filename: deputy-utility-request-api-openapi.yml
+  format: yaml
+  label: Deputy Utility request API
+  slug: deputy-utility-request-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-utility-request-api-openapi.yml
+- filename: deputy-webhooks-api-openapi.yml
+  format: yaml
+  label: Deputy Webhooks API
+  slug: deputy-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/openapi/deputy-webhooks-api-openapi.yml
 - filename: deputy-custom-field-api-openapi.yml
   format: yaml
   label: Deputy Custom Field API
@@ -1299,12 +1299,12 @@ api_specs:
 authorization_urls:
 - https://once.deputy.com/my/oauth/login
 description: ''
-docs: ''
+docs: https://developer.deputy.com/docs/using-oauth-20
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Deputy Scopes
 name_suffix: OAuth Scopes
 note: ''
@@ -1328,7 +1328,7 @@ scope_count: 1
 scope_names:
 - longlife_refresh_token
 scopes:
-- description: Extended session
+- description: The only documented scope. The authorize, token and refresh requests always send scope=longlife_refresh_token "to ensure that you can retrieve access tokens in the future". Deputy has no per-resource OAuth scopes; access follows the authorising user's permissions in the install.
   flows:
   - authorizationCode
   scope: longlife_refresh_token
@@ -1336,7 +1336,7 @@ slug: deputy-scopes
 source_filename: deputy-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/deputy-v1-resource-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/deputy-v1-resource-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://once.deputy.com/my/oauth/login\n    tokenUrl: https://once.deputy.com/my/oauth/access_token\nscopes:\n- scope: longlife_refresh_token\n  description: Extended session\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/deputy-v1-resource-api-openapi.yml\n"
+source_yaml: "generated: '2026-10-21'\nmethod: searched\nsource: https://developer.deputy.com/docs/using-oauth-20.md\nschemes:\n- name: OAuth2\n  source: openapi/deputy-v1-resource-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://once.deputy.com/my/oauth/login\n    tokenUrl: https://once.deputy.com/my/oauth/access_token\nscopes:\n- scope: longlife_refresh_token\n  description: The only documented scope. The authorize, token and refresh requests always send scope=longlife_refresh_token \"to ensure that you can retrieve access tokens in the future\". Deputy has no\n    per-resource OAuth scopes; access follows the authorising user's permissions in the install.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/deputy-v1-resource-api-openapi.yml\nderived_from: openapi/deputy-v1-resource-api-openapi.yml\ndocs: https://developer.deputy.com/docs/using-oauth-20\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deputy/refs/heads/main/scopes/deputy-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:

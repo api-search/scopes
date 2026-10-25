@@ -60,101 +60,449 @@ api_specs:
   slug: employment-hero-job-histories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-job-histories-api-openapi.yml
-authorization_urls:
-- https://oauth.employmenthero.com/oauth2/authorize
+- filename: employment-hero-abasettings-api-openapi.yml
+  format: yaml
+  label: Employment Hero Aba Settings API
+  slug: employment-hero-abasettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-abasettings-api-openapi.yml
+- filename: employment-hero-authentication-api-openapi.yml
+  format: yaml
+  label: Employment Hero Authentication API
+  slug: employment-hero-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-authentication-api-openapi.yml
+- filename: employment-hero-award-api-openapi.yml
+  format: yaml
+  label: Employment Hero Award API
+  slug: employment-hero-award-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-award-api-openapi.yml
+- filename: employment-hero-benefitcategory-api-openapi.yml
+  format: yaml
+  label: Employment Hero Benefit Category API
+  slug: employment-hero-benefitcategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-benefitcategory-api-openapi.yml
+- filename: employment-hero-brand-api-openapi.yml
+  format: yaml
+  label: Employment Hero Brand API
+  slug: employment-hero-brand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-brand-api-openapi.yml
+- filename: employment-hero-business-api-openapi.yml
+  format: yaml
+  label: Employment Hero Business API
+  slug: employment-hero-business-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-business-api-openapi.yml
+- filename: employment-hero-contractor-api-openapi.yml
+  format: yaml
+  label: Employment Hero Contractor API
+  slug: employment-hero-contractor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-contractor-api-openapi.yml
+- filename: employment-hero-deductioncategories-api-openapi.yml
+  format: yaml
+  label: Employment Hero Deduction Categories API
+  slug: employment-hero-deductioncategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-deductioncategories-api-openapi.yml
+- filename: employment-hero-employee-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee API
+  slug: employment-hero-employee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employee-api-openapi.yml
+- filename: employment-hero-employeeaccess-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Access API
+  slug: employment-hero-employeeaccess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeeaccess-api-openapi.yml
+- filename: employment-hero-employeebankaccount-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Bank Account API
+  slug: employment-hero-employeebankaccount-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeebankaccount-api-openapi.yml
+- filename: employment-hero-employeebenefitcategory-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Benefit Category API
+  slug: employment-hero-employeebenefitcategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeebenefitcategory-api-openapi.yml
+- filename: employment-hero-employeebenefitsinkind-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Benefits In Kind API
+  slug: employment-hero-employeebenefitsinkind-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeebenefitsinkind-api-openapi.yml
+- filename: employment-hero-employeedocument-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Document API
+  slug: employment-hero-employeedocument-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeedocument-api-openapi.yml
+- filename: employment-hero-employeeearningslinesplit-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Earnings Line Split API
+  slug: employment-hero-employeeearningslinesplit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeeearningslinesplit-api-openapi.yml
+- filename: employment-hero-employeeexpensecategories-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Expense Categories API
+  slug: employment-hero-employeeexpensecategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeeexpensecategories-api-openapi.yml
+- filename: employment-hero-employeeexpenserequest-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Expense Request API
+  slug: employment-hero-employeeexpenserequest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeeexpenserequest-api-openapi.yml
+- filename: employment-hero-employeegainsorprofitsemployeeshareplan-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Gains Or Profits Employee Share Plan API
+  slug: employment-hero-employeegainsorprofitsemployeeshareplan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeegainsorprofitsemployeeshareplan-api-openapi.yml
+- filename: employment-hero-employeegroups-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Groups API
+  slug: employment-hero-employeegroups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeegroups-api-openapi.yml
+- filename: employment-hero-employeeincomefromoverseassubjecttotaxremission-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Income From Overseas Subject To Tax Remission API
+  slug: employment-hero-employeeincomefromoverseassubjecttotaxremission-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeeincomefromoverseassubjecttotaxremission-api-openapi.yml
+- filename: employment-hero-employeeincometaxbornebyemployer-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Income Tax Borne By Employer API
+  slug: employment-hero-employeeincometaxbornebyemployer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeeincometaxbornebyemployer-api-openapi.yml
+- filename: employment-hero-employeeiraslumpsum-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Iras Lump Sum API
+  slug: employment-hero-employeeiraslumpsum-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeeiraslumpsum-api-openapi.yml
+- filename: employment-hero-employeeleaveallowances-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Leave Allowances API
+  slug: employment-hero-employeeleaveallowances-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeeleaveallowances-api-openapi.yml
+- filename: employment-hero-employeeonboarding-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Onboarding API
+  slug: employment-hero-employeeonboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeeonboarding-api-openapi.yml
+- filename: employment-hero-employeepayrateschedule-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Pay Rate Schedule API
+  slug: employment-hero-employeepayrateschedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeepayrateschedule-api-openapi.yml
+- filename: employment-hero-employeequalifications-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Qualifications API
+  slug: employment-hero-employeequalifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeequalifications-api-openapi.yml
+- filename: employment-hero-employeerecurringtransactions-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Recurring Transactions API
+  slug: employment-hero-employeerecurringtransactions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeerecurringtransactions-api-openapi.yml
+- filename: employment-hero-employeereportingdimensionearningslinesplit-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Reporting Dimension Earnings Line Split API
+  slug: employment-hero-employeereportingdimensionearningslinesplit-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeereportingdimensionearningslinesplit-api-openapi.yml
+- filename: employment-hero-employeeselfmanagedsuperfund-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Self Managed Super Fund API
+  slug: employment-hero-employeeselfmanagedsuperfund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeeselfmanagedsuperfund-api-openapi.yml
+- filename: employment-hero-employeesuperfund-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employee Super Fund API
+  slug: employment-hero-employeesuperfund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employeesuperfund-api-openapi.yml
+- filename: employment-hero-employerliabilitycategories-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employer Liability Categories API
+  slug: employment-hero-employerliabilitycategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employerliabilitycategories-api-openapi.yml
+- filename: employment-hero-employingentities-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employing Entities API
+  slug: employment-hero-employingentities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employingentities-api-openapi.yml
+- filename: employment-hero-employmentagreement-api-openapi.yml
+  format: yaml
+  label: Employment Hero Employment Agreement API
+  slug: employment-hero-employmentagreement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-employmentagreement-api-openapi.yml
+- filename: employment-hero-ess-api-openapi.yml
+  format: yaml
+  label: Employment Hero Ess API
+  slug: employment-hero-ess-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-ess-api-openapi.yml
+- filename: employment-hero-invoices-api-openapi.yml
+  format: yaml
+  label: Employment Hero Invoices API
+  slug: employment-hero-invoices-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-invoices-api-openapi.yml
+- filename: employment-hero-leaveallowance-api-openapi.yml
+  format: yaml
+  label: Employment Hero Leave Allowance API
+  slug: employment-hero-leaveallowance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-leaveallowance-api-openapi.yml
+- filename: employment-hero-leavecategories-api-openapi.yml
+  format: yaml
+  label: Employment Hero Leave Categories API
+  slug: employment-hero-leavecategories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-leavecategories-api-openapi.yml
+- filename: employment-hero-leaverequests-api-openapi.yml
+  format: yaml
+  label: Employment Hero Leave Requests API
+  slug: employment-hero-leaverequests-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-leaverequests-api-openapi.yml
+- filename: employment-hero-location-api-openapi.yml
+  format: yaml
+  label: Employment Hero Location API
+  slug: employment-hero-location-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-location-api-openapi.yml
+- filename: employment-hero-lookupdata-api-openapi.yml
+  format: yaml
+  label: Employment Hero Lookup Data API
+  slug: employment-hero-lookupdata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-lookupdata-api-openapi.yml
+- filename: employment-hero-manager-api-openapi.yml
+  format: yaml
+  label: Employment Hero Manager API
+  slug: employment-hero-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-manager-api-openapi.yml
+- filename: employment-hero-other-api-openapi.yml
+  format: yaml
+  label: Employment Hero Other API
+  slug: employment-hero-other-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-other-api-openapi.yml
+- filename: employment-hero-paycategory-api-openapi.yml
+  format: yaml
+  label: Employment Hero Pay Category API
+  slug: employment-hero-paycategory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-paycategory-api-openapi.yml
+- filename: employment-hero-paycondition-api-openapi.yml
+  format: yaml
+  label: Employment Hero Pay Condition API
+  slug: employment-hero-paycondition-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-paycondition-api-openapi.yml
+- filename: employment-hero-payconditioncomparison-api-openapi.yml
+  format: yaml
+  label: Employment Hero Pay Condition Comparison API
+  slug: employment-hero-payconditioncomparison-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-payconditioncomparison-api-openapi.yml
+- filename: employment-hero-payescheme-api-openapi.yml
+  format: yaml
+  label: Employment Hero Paye Scheme API
+  slug: employment-hero-payescheme-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-payescheme-api-openapi.yml
+- filename: employment-hero-paymentsummary-api-openapi.yml
+  format: yaml
+  label: Employment Hero Payment Summary API
+  slug: employment-hero-paymentsummary-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-paymentsummary-api-openapi.yml
+- filename: employment-hero-payratetemplate-api-openapi.yml
+  format: yaml
+  label: Employment Hero Pay Rate Template API
+  slug: employment-hero-payratetemplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-payratetemplate-api-openapi.yml
+- filename: employment-hero-payrun-api-openapi.yml
+  format: yaml
+  label: Employment Hero Pay Run API
+  slug: employment-hero-payrun-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-payrun-api-openapi.yml
+- filename: employment-hero-payschedule-api-openapi.yml
+  format: yaml
+  label: Employment Hero Pay Schedule API
+  slug: employment-hero-payschedule-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-payschedule-api-openapi.yml
+- filename: employment-hero-pensionsettings-api-openapi.yml
+  format: yaml
+  label: Employment Hero Pension Settings API
+  slug: employment-hero-pensionsettings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-pensionsettings-api-openapi.yml
+- filename: employment-hero-publicholiday-api-openapi.yml
+  format: yaml
+  label: Employment Hero Public Holiday API
+  slug: employment-hero-publicholiday-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-publicholiday-api-openapi.yml
+- filename: employment-hero-qualifications-api-openapi.yml
+  format: yaml
+  label: Employment Hero Qualifications API
+  slug: employment-hero-qualifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-qualifications-api-openapi.yml
+- filename: employment-hero-reporting-api-openapi.yml
+  format: yaml
+  label: Employment Hero Reporting API
+  slug: employment-hero-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-reporting-api-openapi.yml
+- filename: employment-hero-reportingdimensions-api-openapi.yml
+  format: yaml
+  label: Employment Hero Reporting Dimensions API
+  slug: employment-hero-reportingdimensions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-reportingdimensions-api-openapi.yml
+- filename: employment-hero-reseller-api-openapi.yml
+  format: yaml
+  label: Employment Hero Reseller API
+  slug: employment-hero-reseller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-reseller-api-openapi.yml
+- filename: employment-hero-rostershift-api-openapi.yml
+  format: yaml
+  label: Employment Hero Roster Shift API
+  slug: employment-hero-rostershift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-rostershift-api-openapi.yml
+- filename: employment-hero-subcontractor-api-openapi.yml
+  format: yaml
+  label: Employment Hero Subcontractor API
+  slug: employment-hero-subcontractor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-subcontractor-api-openapi.yml
+- filename: employment-hero-superfund-api-openapi.yml
+  format: yaml
+  label: Employment Hero Super Fund API
+  slug: employment-hero-superfund-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-superfund-api-openapi.yml
+- filename: employment-hero-tieredleaveallowance-api-openapi.yml
+  format: yaml
+  label: Employment Hero Tiered Leave Allowance API
+  slug: employment-hero-tieredleaveallowance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-tieredleaveallowance-api-openapi.yml
+- filename: employment-hero-timeandattendance-api-openapi.yml
+  format: yaml
+  label: Employment Hero Time And Attendance API
+  slug: employment-hero-timeandattendance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-timeandattendance-api-openapi.yml
+- filename: employment-hero-timesheets-api-openapi.yml
+  format: yaml
+  label: Employment Hero Timesheets API
+  slug: employment-hero-timesheets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-timesheets-api-openapi.yml
+- filename: employment-hero-unavailability-api-openapi.yml
+  format: yaml
+  label: Employment Hero Unavailability API
+  slug: employment-hero-unavailability-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-unavailability-api-openapi.yml
+- filename: employment-hero-user-api-openapi.yml
+  format: yaml
+  label: Employment Hero User API
+  slug: employment-hero-user-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-user-api-openapi.yml
+- filename: employment-hero-webhook-api-openapi.yml
+  format: yaml
+  label: Employment Hero Webhook API
+  slug: employment-hero-webhook-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-webhook-api-openapi.yml
+- filename: employment-hero-whitelabel-api-openapi.yml
+  format: yaml
+  label: Employment Hero White Label API
+  slug: employment-hero-whitelabel-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-whitelabel-api-openapi.yml
+- filename: employment-hero-worktype-api-openapi.yml
+  format: yaml
+  label: Employment Hero Work Type API
+  slug: employment-hero-worktype-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-worktype-api-openapi.yml
+- filename: employment-hero-chart-of-accounts-api-openapi.yml
+  format: yaml
+  label: Employment Hero Chart Of Accounts API
+  slug: employment-hero-chart-of-accounts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/openapi/employment-hero-chart-of-accounts-api-openapi.yml
+authorization_urls: []
 description: ''
-docs: ''
-flows:
-- authorizationCode
+docs: https://developer.employmenthero.com/api-references/authentication/obtain-credentials.md
+flows: []
 kind: oauth-scopes
 layout: scope
-method: none
+method: searched
 name: Employment Hero Scopes
 name_suffix: OAuth Scopes
-note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
-overview: 'Employment Hero uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
-
-
-  Tokens are issued from https://oauth.employmenthero.com/oauth2/token.
+note: 'HR API: no scope list is published. "The scope list will be provided by Employment Hero. NOTE: For security and data sensitivity concerns, scopes are a one-time selection on application creation." The HR OpenAPI declares no scopes. The two scopes below come from the Payroll API swagger (oauth2 securityDefinition).'
+overview: 'Employment Hero publishes 2 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Employment Hero API on a user''s behalf.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Employment Hero
 provider_slug: employment-hero
-schemes:
-- flows:
-  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
-    flow: authorizationCode
-    tokenUrl: https://oauth.employmenthero.com/oauth2/token
-  name: oauth2
-  source: openapi/employment-hero-bank-accounts-api-openapi.yml
-- flows:
-  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
-    flow: authorizationCode
-    tokenUrl: https://oauth.employmenthero.com/oauth2/token
-  name: oauth2
-  source: openapi/employment-hero-certifications-api-openapi.yml
-- flows:
-  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
-    flow: authorizationCode
-    tokenUrl: https://oauth.employmenthero.com/oauth2/token
-  name: oauth2
-  source: openapi/employment-hero-cost-centres-api-openapi.yml
-- flows:
-  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
-    flow: authorizationCode
-    tokenUrl: https://oauth.employmenthero.com/oauth2/token
-  name: oauth2
-  source: openapi/employment-hero-custom-fields-api-openapi.yml
-- flows:
-  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
-    flow: authorizationCode
-    tokenUrl: https://oauth.employmenthero.com/oauth2/token
-  name: oauth2
-  source: openapi/employment-hero-departments-api-openapi.yml
-- flows:
-  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
-    flow: authorizationCode
-    tokenUrl: https://oauth.employmenthero.com/oauth2/token
-  name: oauth2
-  source: openapi/employment-hero-documents-api-openapi.yml
-- flows:
-  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
-    flow: authorizationCode
-    tokenUrl: https://oauth.employmenthero.com/oauth2/token
-  name: oauth2
-  source: openapi/employment-hero-emergency-contacts-api-openapi.yml
-- flows:
-  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
-    flow: authorizationCode
-    tokenUrl: https://oauth.employmenthero.com/oauth2/token
-  name: oauth2
-  source: openapi/employment-hero-employees-api-openapi.yml
-- flows:
-  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
-    flow: authorizationCode
-    tokenUrl: https://oauth.employmenthero.com/oauth2/token
-  name: oauth2
-  source: openapi/employment-hero-forms-api-openapi.yml
-- flows:
-  - authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize
-    flow: authorizationCode
-    tokenUrl: https://oauth.employmenthero.com/oauth2/token
-  name: oauth2
-  source: openapi/employment-hero-job-histories-api-openapi.yml
-scope_count: 0
-scope_names: []
-scopes: []
+schemes: []
+scope_count: 2
+scope_names:
+- read
+- write
+scopes:
+- description: Read access to protected resources
+  flows: []
+  scope: read
+- description: Write access to protected resources
+  flows: []
+  scope: write
 slug: employment-hero-scopes
 source_filename: employment-hero-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/employment-hero-bank-accounts-api-openapi.yml, openapi/employment-hero-certifications-api-openapi.yml,\n  openapi/employment-hero-cost-centres-api-openapi.yml, openapi/employment-hero-custom-fields-api-openapi.yml,\n  openapi/employment-hero-departments-api-openapi.yml, openapi/employment-hero-documents-api-openapi.yml,\n  openapi/employment-hero-emergency-contacts-api-openapi.yml, openapi/employment-hero-employees-api-openapi.yml,\n  openapi/employment-hero-forms-api-openapi.yml, openapi/employment-hero-job-histories-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/employment-hero-bank-accounts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-certifications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
-  \ https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-cost-centres-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-custom-fields-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-departments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-documents-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
-  \ https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-emergency-contacts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-employees-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-forms-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\n- name: oauth2\n  source: openapi/employment-hero-job-histories-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
-  \ https://oauth.employmenthero.com/oauth2/authorize\n    tokenUrl: https://oauth.employmenthero.com/oauth2/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
+source_yaml: "generated: '2026-10-20'\nmethod: searched\nsource: https://developer.employmenthero.com/api-references/authentication/obtain-credentials.md\ndocs: https://developer.employmenthero.com/api-references/authentication/obtain-credentials.md\nnote: >-\n  HR API: no scope list is published. \"The scope list will be provided by Employment Hero. NOTE: For security and data\n  sensitivity concerns, scopes are a one-time selection on application creation.\" The HR OpenAPI declares no scopes.\n  The two scopes below come from the Payroll API swagger (oauth2 securityDefinition).\nscopes:\n- name: read\n  description: Read access to protected resources\n  api: Employment Hero Payroll API\n  source: openapi/_original/employment-hero-payroll-au-swagger.json\n- name: write\n  description: Write access to protected resources\n  api: Employment Hero Payroll API\n  source: openapi/_original/employment-hero-payroll-au-swagger.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/scopes/employment-hero-scopes.yml
-summary_line: OAuth 2.0 · no documented scopes
+summary_line: 2 scopes
 tags:
 - Human Resources
 - HRIS
@@ -164,6 +512,5 @@ tags:
 - Workforce Management
 - Australia
 token_bound: false
-token_urls:
-- https://oauth.employmenthero.com/oauth2/token
+token_urls: []
 ---

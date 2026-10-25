@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: campaignmonitor-openapi-generated.yml
+  format: yaml
+  label: Campaign Monitor API
+  slug: campaignmonitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/campaignmonitor/refs/heads/main/openapi/_ae-authored/campaignmonitor-openapi-generated.yml
 authorization_urls:
 - https://api.createsend.com/oauth
 description: Campaign Monitor calls its OAuth 2.0 scopes "permissions". The complete list is published verbatim on the Getting Started page under "Permissions"; there is no OpenAPI and no /.well-known/oauth-authorization-server document, so this artifact was transcribed from the provider's own reference page rather than derived from a spec. Permissions are supplied on the authorize request as a single comma-separated `scope` query parameter (URL-encoded, e.g. SendCampaigns%2CViewReports).

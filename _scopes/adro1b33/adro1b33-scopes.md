@@ -186,6 +186,84 @@ api_specs:
   slug: adro1b33-verifier-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-verifier-api-openapi.yml
+- filename: adro1b33-agent-api-openapi.yml
+  format: yaml
+  label: ADRO Agent API
+  slug: adro1b33-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-agent-api-openapi.yml
+- filename: adro1b33-comment-notifications-api-openapi.yml
+  format: yaml
+  label: ADRO Comment Notifications API
+  slug: adro1b33-comment-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-comment-notifications-api-openapi.yml
+- filename: adro1b33-comment-threads-api-openapi.yml
+  format: yaml
+  label: ADRO Comment Threads API
+  slug: adro1b33-comment-threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-comment-threads-api-openapi.yml
+- filename: adro1b33-comments-api-openapi.yml
+  format: yaml
+  label: ADRO Comments API
+  slug: adro1b33-comments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-comments-api-openapi.yml
+- filename: adro1b33-cwt-api-openapi.yml
+  format: yaml
+  label: ADRO Cwt API
+  slug: adro1b33-cwt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-cwt-api-openapi.yml
+- filename: adro1b33-geometry-cleaning-api-openapi.yml
+  format: yaml
+  label: ADRO Geometry Cleaning API
+  slug: adro1b33-geometry-cleaning-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-geometry-cleaning-api-openapi.yml
+- filename: adro1b33-geometry-versions-api-openapi.yml
+  format: yaml
+  label: ADRO Geometry Versions API
+  slug: adro1b33-geometry-versions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-geometry-versions-api-openapi.yml
+- filename: adro1b33-internal-api-openapi.yml
+  format: yaml
+  label: ADRO Internal API
+  slug: adro1b33-internal-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-internal-api-openapi.yml
+- filename: adro1b33-landing-announcements-api-openapi.yml
+  format: yaml
+  label: ADRO Landing Announcements API
+  slug: adro1b33-landing-announcements-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-landing-announcements-api-openapi.yml
+- filename: adro1b33-marine-api-openapi.yml
+  format: yaml
+  label: ADRO Marine API
+  slug: adro1b33-marine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-marine-api-openapi.yml
+- filename: adro1b33-notifications-api-openapi.yml
+  format: yaml
+  label: ADRO Notifications API
+  slug: adro1b33-notifications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-notifications-api-openapi.yml
+- filename: adro1b33-special-offer-api-openapi.yml
+  format: yaml
+  label: ADRO Special Offer API
+  slug: adro1b33-special-offer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-special-offer-api-openapi.yml
+- filename: adro1b33-student-team-api-openapi.yml
+  format: yaml
+  label: ADRO Student Team API
+  slug: adro1b33-student-team-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adro1b33/refs/heads/main/openapi/adro1b33-student-team-api-openapi.yml
 authorization_urls:
 - https://shopify.com/authentication/67310649500/oauth/authorize
 description: ''

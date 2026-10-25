@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tellius-openapi-generated.yml
+  format: yaml
+  label: Tellius API
+  slug: tellius-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tellius/refs/heads/main/openapi/_ae-authored/tellius-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: https://help.tellius.com/kaiya/tellius-mcp-server

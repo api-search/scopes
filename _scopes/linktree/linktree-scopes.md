@@ -215,7 +215,6 @@ tags:
 - Analytics
 - MCP
 - Agents
-- Design Systems
 - Developer Tools
 - Australia
 token_bound: false

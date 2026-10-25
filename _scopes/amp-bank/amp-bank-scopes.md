@@ -38,6 +38,12 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/openapi/amp-bank-banking-payees-api-openapi.yml
 - filename: amp-bank-banking-products-api-openapi.yml
   format: yaml
+  label: AMP Bank GO Banking Products API
+  slug: amp-bank-go-banking-products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/openapi/amp-bank-banking-products-api-openapi.yml
+- filename: amp-bank-banking-products-api-openapi.yml
+  format: yaml
   label: AMP Bank Banking Products API
   slug: amp-bank-banking-products-api
   spec_type: OpenAPI

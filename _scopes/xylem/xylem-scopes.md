@@ -1,90 +1,77 @@
 ---
+api_specs:
+- filename: xylem-docview-api-openapi.yml
+  format: yaml
+  label: Xylem Doc View API
+  slug: xylem-docview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-docview-api-openapi.yml
+- filename: xylem-infor-api-openapi.yml
+  format: yaml
+  label: Xylem Infor API
+  slug: xylem-infor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-infor-api-openapi.yml
+- filename: xylem-mes-api-openapi.yml
+  format: yaml
+  label: Xylem MES API
+  slug: xylem-mes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-mes-api-openapi.yml
+- filename: xylem-mes-v2-api-openapi.yml
+  format: yaml
+  label: Xylem MES V2 API
+  slug: xylem-mes-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-mes-v2-api-openapi.yml
+- filename: xylem-nameplate-api-openapi.yml
+  format: yaml
+  label: Xylem Name Plate API
+  slug: xylem-nameplate-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-nameplate-api-openapi.yml
+- filename: xylem-serialcard-api-openapi.yml
+  format: yaml
+  label: Xylem Serial Card API
+  slug: xylem-serialcard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/openapi/xylem-serialcard-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
-flows: []
+flows:
+- password
 kind: oauth-scopes
 layout: scope
-method: probed
+method: none
 name: Xylem Scopes
 name_suffix: OAuth Scopes
-note: scopes_supported read verbatim from the Xylem Cloud (xCloud) Keycloak realm's OpenID Connect discovery document (HTTP 200, 2026-09-04). Xylem publishes no scopes or permissions reference page, so no descriptions beyond the standard OIDC/Keycloak meanings are asserted here — the two api:* entries are Xylem's own and are recorded exactly as advertised, including the trailing-colon entry, which appears to be an unfinished parent scope on the realm rather than a usable value. docs is null because no such page exists to link.
-overview: 'Xylem publishes 14 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Xylem API on a user''s behalf.
+note: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement references one.
+overview: 'Xylem uses OAuth 2.0 but publishes no discrete scopes — access is governed by the grant itself (e.g. client-credentials or role-based authorization) rather than per-scope consent.
+
+
+  Tokens are issued from /token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Xylem
 provider_slug: xylem
-schemes: []
-scope_count: 14
-scope_names:
-- openid
-- profile
-- email
-- address
-- phone
-- offline_access
-- roles
-- web-origins
-- acr
-- microprofile-jwt
-- basic
-- service_account
-- api:customer
-- 'api:customer:'
-scopes:
-- description: Required OIDC scope; requests an ID token.
-  flows: []
-  scope: openid
-- description: Standard OIDC claims — name, given_name, family_name, preferred_username.
-  flows: []
-  scope: profile
-- description: Standard OIDC email and email_verified claims.
-  flows: []
-  scope: email
-- description: Standard OIDC address claim.
-  flows: []
-  scope: address
-- description: Standard OIDC phone_number claims.
-  flows: []
-  scope: phone
-- description: Standard OIDC scope requesting a refresh token usable while the user is offline.
-  flows: []
-  scope: offline_access
-- description: Keycloak built-in — realm and client role mappings in the token.
-  flows: []
-  scope: roles
-- description: Keycloak built-in — allowed CORS web origins.
-  flows: []
-  scope: web-origins
-- description: Keycloak built-in — authentication context class reference claim.
-  flows: []
-  scope: acr
-- description: Keycloak built-in — Eclipse MicroProfile JWT claim set (upn, groups).
-  flows: []
-  scope: microprofile-jwt
-- description: Keycloak built-in — minimal claim set (sub, auth_time).
-  flows: []
-  scope: basic
-- description: Xylem realm scope. Advertised alongside the client_credentials grant; the shape a machine-to-machine integration would request. No published description.
-  flows: []
-  scope: service_account
-- description: Xylem realm scope naming customer-facing API access. No published description or operation mapping — Xylem ships no API reference this can be bound to.
-  flows: []
-  scope: api:customer
-- description: Advertised verbatim with a trailing colon. Recorded as found; it reads as an unfinished or parent scope on the realm rather than a requestable value.
-  flows: []
-  scope: 'api:customer:'
+schemes:
+- flows:
+  - flow: password
+    tokenUrl: /token
+  name: Apis Manager
+  source: openapi/xylem-apis-manager-openapi.yml
+scope_count: 0
+scope_names: []
+scopes: []
 slug: xylem-scopes
 source_filename: xylem-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: https://cloud.xylem.com/xcloud/auth/realms/xcloud/.well-known/openid-configuration\ndocs: null\nnote: >-\n  scopes_supported read verbatim from the Xylem Cloud (xCloud) Keycloak realm's OpenID\n  Connect discovery document (HTTP 200, 2026-09-04). Xylem publishes no scopes or\n  permissions reference page, so no descriptions beyond the standard OIDC/Keycloak\n  meanings are asserted here — the two api:* entries are Xylem's own and are recorded\n  exactly as advertised, including the trailing-colon entry, which appears to be an\n  unfinished parent scope on the realm rather than a usable value.\n  docs is null because no such page exists to link.\nissuer: https://cloud.xylem.com/xcloud/auth/realms/xcloud\nscope_count: 14\nscopes:\n  - name: openid\n    description: Required OIDC scope; requests an ID token.\n    standard: true\n  - name: profile\n    description: Standard OIDC claims — name, given_name, family_name, preferred_username.\n\
-  \    standard: true\n  - name: email\n    description: Standard OIDC email and email_verified claims.\n    standard: true\n  - name: address\n    description: Standard OIDC address claim.\n    standard: true\n  - name: phone\n    description: Standard OIDC phone_number claims.\n    standard: true\n  - name: offline_access\n    description: Standard OIDC scope requesting a refresh token usable while the user is offline.\n    standard: true\n  - name: roles\n    description: Keycloak built-in — realm and client role mappings in the token.\n    standard: false\n  - name: web-origins\n    description: Keycloak built-in — allowed CORS web origins.\n    standard: false\n  - name: acr\n    description: Keycloak built-in — authentication context class reference claim.\n    standard: false\n  - name: microprofile-jwt\n    description: Keycloak built-in — Eclipse MicroProfile JWT claim set (upn, groups).\n    standard: false\n  - name: basic\n    description: Keycloak built-in — minimal claim set\
-  \ (sub, auth_time).\n    standard: false\n  - name: service_account\n    description: >-\n      Xylem realm scope. Advertised alongside the client_credentials grant; the shape a\n      machine-to-machine integration would request. No published description.\n    standard: false\n    provider_defined: true\n  - name: api:customer\n    description: >-\n      Xylem realm scope naming customer-facing API access. No published description or\n      operation mapping — Xylem ships no API reference this can be bound to.\n    standard: false\n    provider_defined: true\n  - name: 'api:customer:'\n    description: >-\n      Advertised verbatim with a trailing colon. Recorded as found; it reads as an\n      unfinished or parent scope on the realm rather than a requestable value.\n    standard: false\n    provider_defined: true\n    anomaly: true\ngaps:\n  - No scopes or permissions reference page is published anywhere on xylem.com.\n  - >-\n    The two provider-defined api:* scopes carry no description\
-  \ and no operation list,\n    so an integrator cannot tell what api:customer actually authorizes.\n"
+source_yaml: "generated: '2026-10-19'\nmethod: none\nsource: openapi/xylem-apis-manager-openapi.yml\nschemes:\n- name: Apis Manager\n  source: openapi/xylem-apis-manager-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xylem/refs/heads/main/scopes/xylem-scopes.yml
-summary_line: 14 scopes
+summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Fortune 1000
 - Water
@@ -96,5 +83,6 @@ tags:
 - Wastewater
 - Manufacturing
 token_bound: false
-token_urls: []
+token_urls:
+- /token
 ---

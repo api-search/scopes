@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ge-vernova-openapi-generated.yml
+  format: yaml
+  label: Proficy Historian REST API
+  slug: ge-vernova-proficy-historian-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/openapi/_ae-authored/ge-vernova-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: https://www.gevernova.com/software/documentation/uaa/version2025/r_proficyauth_historian_groups_in_uaa.html
