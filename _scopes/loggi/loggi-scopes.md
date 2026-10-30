@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: loggi-authapi-api-openapi.yml
-  format: yaml
-  label: Loggi Auth API
-  slug: loggi-authapi-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-authapi-api-openapi.yml
 - filename: loggi-detailsapi-api-openapi.yml
   format: yaml
   label: Loggi Details API
@@ -60,6 +54,12 @@ api_specs:
   slug: loggi-trackingapi-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-trackingapi-api-openapi.yml
+- filename: loggi-oauth2token-api-openapi.yml
+  format: yaml
+  label: Loggi O Auth2 Token API
+  slug: loggi-oauth2token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-oauth2token-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

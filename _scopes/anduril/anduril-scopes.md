@@ -24,6 +24,12 @@ api_specs:
   slug: anduril-oauth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-oauth-api-openapi.yml
+- filename: anduril-video-api-openapi.yml
+  format: yaml
+  label: Anduril Industries Video API
+  slug: anduril-video-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-video-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

@@ -108,6 +108,12 @@ api_specs:
   slug: authenticx-workflows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-workflows-api-openapi.yml
+- filename: authenticx-scim-groups-api-openapi.yml
+  format: yaml
+  label: Authenticx (Scim) Groups API
+  slug: authenticx-scim-groups-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-scim-groups-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://authenticx.readme.io/reference/retrieving-an-access-token

@@ -71,7 +71,7 @@ summary_line: 1 scope · authorizationCode
 tags:
 - Developer Tools
 - CI/CD
-- Git
+- Version Control
 - Static Analysis
 - Merge Safety
 - AI Coding Agents

@@ -18,6 +18,24 @@ api_specs:
   slug: alphaai-symbols-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-symbols-api-openapi.yml
+- filename: alphaai-coverage-api-openapi.yml
+  format: yaml
+  label: AlphaAI Coverage API
+  slug: alphaai-coverage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-coverage-api-openapi.yml
+- filename: alphaai-radar-api-openapi.yml
+  format: yaml
+  label: AlphaAI Radar API
+  slug: alphaai-radar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-radar-api-openapi.yml
+- filename: alphaai-stories-api-openapi.yml
+  format: yaml
+  label: AlphaAI Stories API
+  slug: alphaai-stories-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/openapi/alphaai-stories-api-openapi.yml
 authorization_urls:
 - https://mcp.alphai.io/oauth/authorize
 description: AlphaAI's OAuth surface belongs to the MCP server, not the REST API. The REST OpenAPI declares only a bearer API key and no oauth2 scheme, so the mechanical derive pass (derive-oauth-scopes.py) correctly found nothing. The scopes below were read from the live RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata on the MCP host — both anonymous, both 200.

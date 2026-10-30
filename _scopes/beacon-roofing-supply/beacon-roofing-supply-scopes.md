@@ -48,12 +48,6 @@ api_specs:
   slug: beacon-roofing-supply-eagle-view-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/openapi/beacon-roofing-supply-eagle-view-order-api-openapi.yml
-- filename: beacon-roofing-supply-eagle-view-reports-api-openapi.yml
-  format: yaml
-  label: Beacon Roofing Supply Eagle View Reports API
-  slug: beacon-roofing-supply-eagle-view-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/openapi/beacon-roofing-supply-eagle-view-reports-api-openapi.yml
 - filename: beacon-roofing-supply-ev-measurement-to-order-api-openapi.yml
   format: yaml
   label: Beacon Roofing Supply EV Measurement to Order API
@@ -84,12 +78,6 @@ api_specs:
   slug: beacon-roofing-supply-hover-job-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/openapi/beacon-roofing-supply-hover-job-services-api-openapi.yml
-- filename: beacon-roofing-supply-idp-token-services-api-openapi.yml
-  format: yaml
-  label: Beacon Roofing Supply IDP Token Services API
-  slug: beacon-roofing-supply-idp-token-services-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/openapi/beacon-roofing-supply-idp-token-services-api-openapi.yml
 - filename: beacon-roofing-supply-integration-services-api-openapi.yml
   format: yaml
   label: Beacon Roofing Supply Integration Services API
@@ -174,12 +162,6 @@ api_specs:
   slug: beacon-roofing-supply-rebate-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/openapi/beacon-roofing-supply-rebate-services-api-openapi.yml
-- filename: beacon-roofing-supply-sales-order-hold-services-api-openapi.yml
-  format: yaml
-  label: Beacon Roofing Supply Sales Order Hold Services API
-  slug: beacon-roofing-supply-sales-order-hold-services-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/openapi/beacon-roofing-supply-sales-order-hold-services-api-openapi.yml
 - filename: beacon-roofing-supply-saved-order-services-api-openapi.yml
   format: yaml
   label: Beacon Roofing Supply Saved Order Services API
@@ -1056,6 +1038,18 @@ api_specs:
   slug: beacon-roofing-supply-validateuserbyemail-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/openapi/beacon-roofing-supply-validateuserbyemail-api-openapi.yml
+- filename: beacon-roofing-supply-eagleview-api-openapi.yml
+  format: yaml
+  label: Beacon Roofing Supply Eagle View API
+  slug: beacon-roofing-supply-eagleview-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/openapi/beacon-roofing-supply-eagleview-api-openapi.yml
+- filename: beacon-roofing-supply-eagleviewmeasurement-api-openapi.yml
+  format: yaml
+  label: Beacon Roofing Supply Eagle View Measurement API
+  slug: beacon-roofing-supply-eagleviewmeasurement-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/openapi/beacon-roofing-supply-eagleviewmeasurement-api-openapi.yml
 - filename: beacon-roofing-supply-cart-items-api-openapi.yml
   format: yaml
   label: Beacon Roofing Supply Cart Items API

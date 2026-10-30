@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/servicem
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/scopes/servicem8-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
-- Field Service
+- Field Service Management
 - Job Management
 - Trade
 - Scheduling

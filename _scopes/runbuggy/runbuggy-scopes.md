@@ -71,7 +71,7 @@ tags:
 - Vehicle Shipping
 - Marketplace
 - Supply Chain
-- Fleet
+- Fleet Management
 - TMS
 - Freight
 token_bound: false

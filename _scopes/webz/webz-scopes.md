@@ -41,7 +41,7 @@ tags:
 - deep-web
 - Cybersecurity
 - Threat Intelligence
-- Data Breach
+- Data Breaches
 - pii-monitoring
 - OSINT
 - reviews-data

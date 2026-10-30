@@ -106,7 +106,7 @@ tags:
 - Gas
 - Renewables
 - Developer Platform
-- Fleet
+- Fleet Management
 - Fuel Cards
 - Mobility
 - Retail Fuel

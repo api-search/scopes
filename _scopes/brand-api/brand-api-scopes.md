@@ -24,6 +24,12 @@ api_specs:
   slug: brand-api-viewer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-viewer-api-openapi.yml
+- filename: brand-api-agents-api-openapi.yml
+  format: yaml
+  label: Brand API (Brandfetch) Agents API
+  slug: brand-api-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-agents-api-openapi.yml
 authorization_urls:
 - https://developers.brandfetch.com/oauth/authorize
 description: ''

@@ -118,7 +118,6 @@ tags:
 - Company
 - Healthcare
 - Revenue Cycle Management
-- RCM
 - Medical Billing
 - Health IT
 - Eligibility Verification

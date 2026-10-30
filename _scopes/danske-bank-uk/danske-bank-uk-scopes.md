@@ -204,6 +204,12 @@ api_specs:
   slug: danske-bank-uk-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/openapi/danske-bank-uk-transactions-api-openapi.yml
+- filename: danske-bank-uk-misc-controller-api-openapi.yml
+  format: yaml
+  label: Danske Bank (UK) Misc Controller API
+  slug: danske-bank-uk-misc-controller-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/openapi/danske-bank-uk-misc-controller-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.danskebank.com/

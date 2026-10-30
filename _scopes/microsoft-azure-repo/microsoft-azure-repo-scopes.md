@@ -112,9 +112,8 @@ summary_line: 3 scopes · authorizationCode
 tags:
 - Developer Tools
 - DevOps
-- Git
-- Repositories
 - Version Control
+- Repositories
 - TFVC
 token_bound: false
 token_urls:

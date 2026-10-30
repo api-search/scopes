@@ -54,6 +54,36 @@ api_specs:
   slug: astrology-api-western-astrology-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-western-astrology-api-openapi.yml
+- filename: astrology-api-compatibility-api-openapi.yml
+  format: yaml
+  label: Astrology API Compatibility API
+  slug: astrology-api-compatibility-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-compatibility-api-openapi.yml
+- filename: astrology-api-compatibility-report-api-openapi.yml
+  format: yaml
+  label: Astrology API Compatibility Report API
+  slug: astrology-api-compatibility-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-compatibility-report-api-openapi.yml
+- filename: astrology-api-palm-query-api-openapi.yml
+  format: yaml
+  label: Astrology API Palm Query API
+  slug: astrology-api-palm-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-palm-query-api-openapi.yml
+- filename: astrology-api-palm-report-api-openapi.yml
+  format: yaml
+  label: Astrology API Palm Report API
+  slug: astrology-api-palm-report-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-palm-report-api-openapi.yml
+- filename: astrology-api-report-status-api-openapi.yml
+  format: yaml
+  label: Astrology API Report Status API
+  slug: astrology-api-report-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-report-status-api-openapi.yml
 authorization_urls: []
 description: The only OAuth surface AstrologyAPI operates is the MCP server. Its RFC 9728 protected-resource metadata declares exactly one scope. The REST API has no OAuth flow at all — it authenticates with HTTP Basic credentials or a wallet access token, neither of which carries scopes — so there is no scope model over the 216 REST operations. Nothing here was derived from a spec; the scope below was read from the provider's own live discovery document.
 docs: https://astrologyapi.com/developers/v1/mcp-server

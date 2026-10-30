@@ -176,7 +176,6 @@ tags:
 - Company
 - PLM
 - Quality Management
-- QMS
 - Product Information Management
 - Manufacturing
 - Salesforce

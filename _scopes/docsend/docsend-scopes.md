@@ -79,7 +79,7 @@ tags:
 - Document Sharing
 - Sales Enablement
 - Analytics
-- Data Room
+- Virtual Data Room
 - E-Signature
 - MCP
 - Dropbox

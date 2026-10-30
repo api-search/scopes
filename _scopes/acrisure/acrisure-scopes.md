@@ -60,7 +60,7 @@ tags:
 - Risk Management
 - Cybersecurity
 - Mortgage
-- Surety Bonds
+- Surety
 - MCP
 - Authentication
 token_bound: false

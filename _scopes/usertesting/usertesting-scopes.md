@@ -92,7 +92,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usertesting/re
 summary_line: 1 scope · clientCredentials
 tags:
 - Company
-- UX Research
+- User Research
 - Usability Testing
 - Human Insight
 - Customer Experience

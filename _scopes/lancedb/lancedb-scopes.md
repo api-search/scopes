@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/lancedb-mat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/scopes/lancedb-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Vector Database
+- Vector Search
 - Multi-Modal
 - Lance Format
 - Lakehouse
@@ -89,7 +89,6 @@ tags:
 - Columnar Storage
 - Arrow
 - AI Infrastructure
-- Vector Search
 token_bound: false
 token_urls:
 - /oauth/token

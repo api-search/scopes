@@ -18,6 +18,30 @@ api_specs:
   slug: infer-by-flow7-status-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-status-api-openapi.yml
+- filename: infer-by-flow7-generation-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Generation API
+  slug: infer-by-flow7-generation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-generation-api-openapi.yml
+- filename: infer-by-flow7-messages-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Messages API
+  slug: infer-by-flow7-messages-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-messages-api-openapi.yml
+- filename: infer-by-flow7-usage-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Usage API
+  slug: infer-by-flow7-usage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-usage-api-openapi.yml
+- filename: infer-by-flow7-chat-completions-api-openapi.yml
+  format: yaml
+  label: Infer by Flow7 Chat Completions API
+  slug: infer-by-flow7-chat-completions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/openapi/infer-by-flow7-chat-completions-api-openapi.yml
 authorization_urls: []
 description: Infer publishes a permission scope on its API keys, but it is NOT OAuth 2.0. There is no authorization server (both /.well-known/oauth-authorization-server and /.well-known/openid-configuration return 404), no token endpoint and no consent flow. The scope is a property attached to a workspace API key at creation time. This file records that honestly rather than leaving a documented permission model unrecorded.
 docs: ''

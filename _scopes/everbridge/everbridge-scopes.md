@@ -534,6 +534,24 @@ api_specs:
   slug: everbridge-variables-apis-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-variables-apis-api-openapi.yml
+- filename: everbridge-access-control-api-openapi.yml
+  format: yaml
+  label: Everbridge Access Control API
+  slug: everbridge-access-control-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-access-control-api-openapi.yml
+- filename: everbridge-agent-api-openapi.yml
+  format: yaml
+  label: Everbridge Agent API
+  slug: everbridge-agent-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-agent-api-openapi.yml
+- filename: everbridge-ita-api-openapi.yml
+  format: yaml
+  label: Everbridge ITA API
+  slug: everbridge-ita-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/openapi/everbridge-ita-api-openapi.yml
 authorization_urls: []
 description: OAuth 2.0 scopes for the Everbridge Suite token endpoint. These are the scope values Everbridge publishes verbatim in its authentication guide's request examples; Everbridge does not publish a separate scope-reference page, and the OpenAPI documents declare their security as an apiKey-shaped Authorization header (API_Authorizer) rather than an oauth2 securityScheme with a flows.scopes map, so this artifact could not be derived from the specs — derive-oauth-scopes.py returns zero oauth2 schemes.
 docs: https://developers.everbridge.net/home/docs/ebs-gs-guide-authentication-types

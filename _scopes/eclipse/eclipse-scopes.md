@@ -462,6 +462,18 @@ api_specs:
   slug: eclipse-working-group-application-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-working-group-application-api-openapi.yml
+- filename: eclipse-consistency-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Consistency API
+  slug: eclipse-consistency-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-consistency-api-api-openapi.yml
+- filename: eclipse-trusted-publishing-api-api-openapi.yml
+  format: yaml
+  label: Eclipse Foundation Trusted Publishing API
+  slug: eclipse-trusted-publishing-api-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/openapi/eclipse-trusted-publishing-api-api-openapi.yml
 authorization_urls:
 - https://accounts.eclipse.org/oauth2/authorize
 - https://accounts.php55.dev.docker/oauth2/authorize

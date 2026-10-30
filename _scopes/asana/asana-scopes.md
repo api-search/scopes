@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: asana-allocations-api-openapi.yml
-  format: yaml
-  label: Asana Allocations  API
-  slug: asana-allocations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-allocations-api-openapi.yml
 - filename: asana-attachments-api-openapi.yml
   format: yaml
   label: Asana Attachments  API
@@ -42,12 +36,6 @@ api_specs:
   slug: asana-jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-jobs-api-openapi.yml
-- filename: asana-memberships-api-openapi.yml
-  format: yaml
-  label: Asana Memberships  API
-  slug: asana-memberships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-memberships-api-openapi.yml
 - filename: asana-organization-exports-api-openapi.yml
   format: yaml
   label: Asana Organization Exports  API
@@ -90,12 +78,6 @@ api_specs:
   slug: asana-tags-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-tags-api-openapi.yml
-- filename: asana-task-templates-api-openapi.yml
-  format: yaml
-  label: Asana Task Templates  API
-  slug: asana-task-templates-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-task-templates-api-openapi.yml
 - filename: asana-tasks-api-openapi.yml
   format: yaml
   label: Asana Tasks  API
@@ -114,12 +96,6 @@ api_specs:
   slug: asana-time-periods-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-time-periods-api-openapi.yml
-- filename: asana-time-tracking-entries-api-openapi.yml
-  format: yaml
-  label: Asana Time Tracking Entries  API
-  slug: asana-time-tracking-entries-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-time-tracking-entries-api-openapi.yml
 - filename: asana-user-task-lists-api-openapi.yml
   format: yaml
   label: Asana User Task Lists  API

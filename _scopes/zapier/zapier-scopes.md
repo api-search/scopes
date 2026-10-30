@@ -166,10 +166,10 @@ tags:
 - Workflow Automation
 - Automation
 - No-Code
-- App Integration
+- App integration
 - AI workflow
-- Enterprise Security
-- Workflow Orchestration
+- Enterprise security
+- Workflow orchestration
 token_bound: false
 token_urls:
 - https://zapier.com/oauth/token/

@@ -47,7 +47,7 @@ tags:
 - Healthcare
 - Health Systems
 - Hospital at Home
-- Home Health
+- Home Care
 - Urgent Care
 - Care Delivery
 - Medical Services

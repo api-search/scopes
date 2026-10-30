@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/servicefusi
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/scopes/servicefusion-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Field Service
+- Field Service Management
 - Home Services
 - Contractors
 - Scheduling

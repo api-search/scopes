@@ -60,7 +60,6 @@ tags:
 - Company
 - MCP
 - AI Agents
-- Web Automation
 - Browser Automation
 - Structured Data
 - Website to API

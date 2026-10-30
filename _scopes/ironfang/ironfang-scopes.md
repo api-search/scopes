@@ -445,7 +445,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironfang/refs/
 summary_line: 10 scopes
 tags:
 - Developer Tools
-- screenshot-api
+- Screenshots
 - website screenshot
 - HTML to PDF
 - PDF API

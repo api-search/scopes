@@ -40,7 +40,7 @@ tags:
 - Computer Vision
 - Augmented Reality
 - Artificial Intelligence
-- Field Service
+- Field Service Management
 - Remote Support
 - Video
 - Telecommunications

@@ -66,6 +66,24 @@ api_specs:
   slug: fixture-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-users-api-openapi.yml
+- filename: fixture-custom-fields-api-openapi.yml
+  format: yaml
+  label: Fixture Custom Fields API
+  slug: fixture-custom-fields-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-custom-fields-api-openapi.yml
+- filename: fixture-lead-lists-api-openapi.yml
+  format: yaml
+  label: Fixture Lead Lists API
+  slug: fixture-lead-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-lead-lists-api-openapi.yml
+- filename: fixture-reporting-api-openapi.yml
+  format: yaml
+  label: Fixture Reporting API
+  slug: fixture-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-reporting-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://fixture.app/docs/authentication/scopes

@@ -5,73 +5,73 @@ api_specs:
   label: Apiable Companies API
   slug: apiable-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-companies-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-companies-api-openapi.yml
 - filename: apiable-custom-properties-api-openapi.yml
   format: yaml
   label: Apiable Custom Properties API
   slug: apiable-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-custom-properties-api-openapi.yml
 - filename: apiable-docs-api-openapi.yml
   format: yaml
   label: Apiable Docs API
   slug: apiable-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-docs-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-docs-api-openapi.yml
 - filename: apiable-files-api-openapi.yml
   format: yaml
   label: Apiable Files API
   slug: apiable-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-files-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-files-api-openapi.yml
 - filename: apiable-invitations-api-openapi.yml
   format: yaml
   label: Apiable Invitations API
   slug: apiable-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-invitations-api-openapi.yml
 - filename: apiable-plans-api-openapi.yml
   format: yaml
   label: Apiable Plans API
   slug: apiable-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-plans-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-plans-api-openapi.yml
 - filename: apiable-products-api-openapi.yml
   format: yaml
   label: Apiable Products API
   slug: apiable-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-products-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-products-api-openapi.yml
 - filename: apiable-subscriptions-api-openapi.yml
   format: yaml
   label: Apiable Subscriptions API
   slug: apiable-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-subscriptions-api-openapi.yml
 - filename: apiable-teams-api-openapi.yml
   format: yaml
   label: Apiable Teams API
   slug: apiable-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-teams-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-teams-api-openapi.yml
 - filename: apiable-users-api-openapi.yml
   format: yaml
   label: Apiable Users API
   slug: apiable-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-users-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-users-api-openapi.yml
 - filename: apiable-webhooks-api-openapi.yml
   format: yaml
   label: Apiable Webhooks API
   slug: apiable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-webhooks-api-openapi.yml
 - filename: apiable-server-info-api-openapi.yml
   format: yaml
   label: Apiable Server Info API
   slug: apiable-server-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/openapi/apiable-server-info-api-openapi.yml
+  url: https://artifacts.apis.io/apiable/openapi/apiable-server-info-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.apiable.io/docs/automation/webhooks/
@@ -126,7 +126,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: openapi/apiable-platform-api-openapi.json\ndocs: https://www.apiable.io/docs/automation/webhooks/\nnote: >-\n  Two scopes appear in the spec's per-operation security requirements; the clientCredentials flow\n  declares an EMPTY scopes map, so the spec alone does not enumerate them. The docs name a third,\n  apiable/admin, which no operation in the published spec requires. Apiable's own scope docs at\n  /docs/access-control/scopes/ describe scopes CUSTOMERS define for THEIR APIs (Resource Groups,\n  Active/Optional/Restricted plan states, Keycloak and Auth0 as issuers) — that is a product\n  feature, not the Platform API's own scope reference, and is recorded here only as context.\nschemes:\n  - name: oauth-cc\n    source: openapi/apiable-platform-api-openapi.json\n    description: 'OAuth 2.0: Client Credentials'\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://developer.apiable.io/api/oauth2/token\n \
   \       declared_scopes: 0\n        note: >-\n          The flow's scopes map is empty in the published spec; scopes are only discoverable from\n          each operation's security[] requirement.\nscopes:\n  - scope: apiable/platform\n    description: >-\n      Full Platform API management. Required by all 66 published operations — products, plans,\n      subscriptions, teams, users, companies, invitations, documentation, files and webhooks.\n    flows: [clientCredentials]\n    operations: 66\n    sources: [openapi/apiable-platform-api-openapi.json]\n  - scope: apiable/cicd\n    description: >-\n      CI/CD scope. Accepted as an alternative on the 35 documentation, webhook, custom-property,\n      file-upload and server-info operations — the set a pipeline needs to push an OpenAPI spec\n      into a portal documentation entry.\n    flows: [clientCredentials]\n    operations: 35\n    sources:\n      - openapi/apiable-platform-api-openapi.json\n      - https://www.apiable.io/docs/automation/ci-cd/\n\
   \  - scope: apiable/admin\n    description: >-\n      Named in the webhooks documentation as a third scope that authorizes webhook management.\n      Not referenced by any operation in the published OpenAPI.\n    flows: [clientCredentials]\n    operations: 0\n    sources: [https://www.apiable.io/docs/automation/webhooks/]\n    note: docs-only — absent from the published contract\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiable/refs/heads/main/scopes/apiable-scopes.yml
+source_yaml_url: https://artifacts.apis.io/apiable/scopes/apiable-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - Amazon API Gateway

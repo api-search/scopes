@@ -145,8 +145,8 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hasmcp/refs/he
 summary_line: 17 scopes · authorizationCode
 tags:
 - Company
-- No-code
-- Low-code
+- No-Code
+- Low-Code
 - MCP
 - API Gateway
 token_bound: false

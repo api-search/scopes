@@ -1,11 +1,101 @@
 ---
 api_specs:
-- filename: improvado-ask-api-openapi.yml
+- filename: improvado-accounts-api-openapi.yml
   format: yaml
-  label: Improvado Ask API
-  slug: improvado-ask-api
+  label: Improvado Accounts API
+  slug: improvado-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-ask-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-accounts-api-openapi.yml
+- filename: improvado-authentication-api-openapi.yml
+  format: yaml
+  label: Improvado Authentication API
+  slug: improvado-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-authentication-api-openapi.yml
+- filename: improvado-automated-recipes-api-openapi.yml
+  format: yaml
+  label: Improvado Automated Recipes API
+  slug: improvado-automated-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-automated-recipes-api-openapi.yml
+- filename: improvado-data-source-connections-api-openapi.yml
+  format: yaml
+  label: Improvado Data source connections API
+  slug: improvado-data-source-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-data-source-connections-api-openapi.yml
+- filename: improvado-data-sources-api-openapi.yml
+  format: yaml
+  label: Improvado Data sources API
+  slug: improvado-data-sources-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-data-sources-api-openapi.yml
+- filename: improvado-data-tables-api-openapi.yml
+  format: yaml
+  label: Improvado Data tables API
+  slug: improvado-data-tables-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-data-tables-api-openapi.yml
+- filename: improvado-destination-connections-api-openapi.yml
+  format: yaml
+  label: Improvado Destination connections API
+  slug: improvado-destination-connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-destination-connections-api-openapi.yml
+- filename: improvado-destinations-api-openapi.yml
+  format: yaml
+  label: Improvado Destinations API
+  slug: improvado-destinations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-destinations-api-openapi.yml
+- filename: improvado-extraction-templates-api-openapi.yml
+  format: yaml
+  label: Improvado Extraction templates API
+  slug: improvado-extraction-templates-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-extraction-templates-api-openapi.yml
+- filename: improvado-extracts-api-openapi.yml
+  format: yaml
+  label: Improvado Extracts API
+  slug: improvado-extracts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-extracts-api-openapi.yml
+- filename: improvado-iframe-api-openapi.yml
+  format: yaml
+  label: Improvado Iframe API
+  slug: improvado-iframe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-iframe-api-openapi.yml
+- filename: improvado-loads-api-openapi.yml
+  format: yaml
+  label: Improvado Loads API
+  slug: improvado-loads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-loads-api-openapi.yml
+- filename: improvado-recipes-api-openapi.yml
+  format: yaml
+  label: Improvado Recipes API
+  slug: improvado-recipes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-recipes-api-openapi.yml
+- filename: improvado-roles-api-openapi.yml
+  format: yaml
+  label: Improvado Roles API
+  slug: improvado-roles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-roles-api-openapi.yml
+- filename: improvado-webhooks-api-openapi.yml
+  format: yaml
+  label: Improvado Webhooks API
+  slug: improvado-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-webhooks-api-openapi.yml
+- filename: improvado-workspaces-api-openapi.yml
+  format: yaml
+  label: Improvado Workspaces API
+  slug: improvado-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-workspaces-api-openapi.yml
 authorization_urls:
 - https://report.improvado.io/api/dts/v2/oauth/o/authorize/
 description: ''

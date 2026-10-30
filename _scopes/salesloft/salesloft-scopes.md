@@ -813,7 +813,7 @@ tags:
 - Webhook
 - MCP
 - Agents
-- Dialer
+- Sales Dialer
 - Pipelines
 - Forecasting
 token_bound: false

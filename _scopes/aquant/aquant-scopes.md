@@ -182,7 +182,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Agents
-- Field Service
+- Field Service Management
 - Service Management
 - Manufacturing
 - Medical Devices

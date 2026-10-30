@@ -57,7 +57,7 @@ tags:
 - Generative AI
 - Computer Vision
 - Augmented Reality
-- visual-commerce
+- Visual Commerce
 - Artificial Intelligence
 - Machine Learning
 - Video Generation

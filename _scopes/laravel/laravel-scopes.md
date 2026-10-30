@@ -240,6 +240,24 @@ api_specs:
   slug: laravel-websocket-clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/openapi/laravel-websocket-clusters-api-openapi.yml
+- filename: laravel-edge-networks-api-openapi.yml
+  format: yaml
+  label: Laravel Edge Networks API
+  slug: laravel-edge-networks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/openapi/laravel-edge-networks-api-openapi.yml
+- filename: laravel-email-api-openapi.yml
+  format: yaml
+  label: Laravel Email API
+  slug: laravel-email-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/openapi/laravel-email-api-openapi.yml
+- filename: laravel-secrets-api-openapi.yml
+  format: yaml
+  label: Laravel Secrets API
+  slug: laravel-secrets-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/openapi/laravel-secrets-api-openapi.yml
 authorization_urls:
 - https://forge.laravel.com/oauth/authorize
 description: ''

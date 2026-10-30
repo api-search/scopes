@@ -181,7 +181,7 @@ tags:
 - Fintech
 - Financial Services
 - Ledger
-- double-entry-accounting
+- Double-Entry
 - Payments
 - Wallets
 - Lending

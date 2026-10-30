@@ -2047,7 +2047,6 @@ tags:
 - Event
 - Authentication
 - On-Site Check-In
-- Payments
 - Registration
 - REST API
 - SCIM

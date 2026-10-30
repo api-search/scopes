@@ -18,6 +18,12 @@ api_specs:
   slug: karumi-targets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-targets-api-openapi.yml
+- filename: karumi-chat-onboarding-api-openapi.yml
+  format: yaml
+  label: Karumi Chat onboarding API
+  slug: karumi-chat-onboarding-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-chat-onboarding-api-openapi.yml
 authorization_urls:
 - https://qmfmxcidbawbvkcstvio.supabase.co/auth/v1/oauth/authorize
 description: ''

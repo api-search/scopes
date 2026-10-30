@@ -91,7 +91,7 @@ tags:
 - Organic search
 - Web Crawling
 - Log Analysis
-- search-console
+- Search Console
 - Marketing Analytics
 - AI Search
 - Data Export

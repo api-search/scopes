@@ -96,12 +96,6 @@ api_specs:
   slug: cloudbees-target-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-target-groups-api-openapi.yml
-- filename: cloudbees-team-memberships-api-openapi.yml
-  format: yaml
-  label: CloudBees Team Memberships API
-  slug: cloudbees-team-memberships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-team-memberships-api-openapi.yml
 - filename: cloudbees-teams-api-openapi.yml
   format: yaml
   label: CloudBees Teams API
@@ -114,6 +108,12 @@ api_specs:
   slug: cloudbees-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-users-api-openapi.yml
+- filename: cloudbees-edge-runners-api-openapi.yml
+  format: yaml
+  label: CloudBees Edge runners API
+  slug: cloudbees-edge-runners-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-edge-runners-api-openapi.yml
 authorization_urls:
 - https://id.cloudbees.io/realms/cloudbees/protocol/openid-connect/auth
 description: ''

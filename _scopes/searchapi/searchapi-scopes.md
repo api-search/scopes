@@ -53,7 +53,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searchapi/refs
 summary_line: 1 scope
 tags:
 - Search
-- SERP API
+- SERP
 - Google Search
 - Web Scraping
 - Search data

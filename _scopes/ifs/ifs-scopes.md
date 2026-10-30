@@ -83,7 +83,7 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads
 summary_line: 2 scopes · clientCredentials/authorizationCode/authorizationCode+PKCE/password
 tags:
 - ERP
-- Field Service
+- Field Service Management
 - Asset Management
 - Manufacturing
 - Energy

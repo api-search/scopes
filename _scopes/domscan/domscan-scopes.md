@@ -210,6 +210,36 @@ api_specs:
   slug: domscan-whois-rdap-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/domscan/refs/heads/main/openapi/domscan-whois-rdap-api-openapi.yml
+- filename: domscan-business-verification-api-openapi.yml
+  format: yaml
+  label: DomScan Business Verification API
+  slug: domscan-business-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domscan/refs/heads/main/openapi/domscan-business-verification-api-openapi.yml
+- filename: domscan-healthcare-api-openapi.yml
+  format: yaml
+  label: DomScan Healthcare API
+  slug: domscan-healthcare-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domscan/refs/heads/main/openapi/domscan-healthcare-api-openapi.yml
+- filename: domscan-privacy-api-openapi.yml
+  format: yaml
+  label: DomScan Privacy API
+  slug: domscan-privacy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domscan/refs/heads/main/openapi/domscan-privacy-api-openapi.yml
+- filename: domscan-seo-api-openapi.yml
+  format: yaml
+  label: DomScan SEO API
+  slug: domscan-seo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domscan/refs/heads/main/openapi/domscan-seo-api-openapi.yml
+- filename: domscan-webhooks-api-openapi.yml
+  format: yaml
+  label: DomScan Webhooks API
+  slug: domscan-webhooks-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/domscan/refs/heads/main/openapi/domscan-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://domscan.net/mcp-domain-checker

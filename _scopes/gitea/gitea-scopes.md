@@ -99,7 +99,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/hea
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Gitea
-- Git
 - Version Control
 - DevOps
 - CI/CD

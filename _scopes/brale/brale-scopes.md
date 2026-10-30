@@ -30,12 +30,18 @@ api_specs:
   slug: brale-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-orders-api-openapi.yml
-- filename: brale-webhooks-api-openapi.yml
+- filename: brale-plaid-api-openapi.yml
   format: yaml
-  label: Brale Webhooks API
-  slug: brale-webhooks-api
+  label: Brale Plaid API
+  slug: brale-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-webhooks-api-openapi.yml
+  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-plaid-api-openapi.yml
+- filename: brale-transfers-api-openapi.yml
+  format: yaml
+  label: Brale Transfers API
+  slug: brale-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-transfers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''

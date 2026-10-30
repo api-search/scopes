@@ -84,7 +84,7 @@ tags:
 - Analytics
 - Reporting
 - Messaging
-- Listening
+- Social Listening
 token_bound: false
 token_urls:
 - https://identity.sproutsocial.com/oauth2/84e39c75-d770-45d9-90a9-7b79e3037d2c/v1/token

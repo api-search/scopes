@@ -114,6 +114,42 @@ api_specs:
   slug: flume-health-workersizes-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-workersizes-api-openapi.yml
+- filename: flume-health-account-access-api-openapi.yml
+  format: yaml
+  label: Flume Health Account Access API
+  slug: flume-health-account-access-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-account-access-api-openapi.yml
+- filename: flume-health-budget-api-openapi.yml
+  format: yaml
+  label: Flume Health Budget API
+  slug: flume-health-budget-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-budget-api-openapi.yml
+- filename: flume-health-context-conversations-api-openapi.yml
+  format: yaml
+  label: Flume Health Context Conversations API
+  slug: flume-health-context-conversations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-context-conversations-api-openapi.yml
+- filename: flume-health-context-grants-api-openapi.yml
+  format: yaml
+  label: Flume Health Context Grants API
+  slug: flume-health-context-grants-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-context-grants-api-openapi.yml
+- filename: flume-health-context-workspaces-api-openapi.yml
+  format: yaml
+  label: Flume Health Context Workspaces API
+  slug: flume-health-context-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-context-workspaces-api-openapi.yml
+- filename: flume-health-knowledge-api-openapi.yml
+  format: yaml
+  label: Flume Health Knowledge API
+  slug: flume-health-knowledge-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-knowledge-api-openapi.yml
 authorization_urls:
 - https://auth.flumehealth.com/authorize?audience=https://console.flumehealth.com/api
 description: ''

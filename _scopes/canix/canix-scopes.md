@@ -162,6 +162,12 @@ api_specs:
   slug: canix-weightunits-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/openapi/canix-weightunits-api-openapi.yml
+- filename: canix-incoming-transfers-api-openapi.yml
+  format: yaml
+  label: Canix Incoming Transfers API
+  slug: canix-incoming-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/openapi/canix-incoming-transfers-api-openapi.yml
 authorization_urls:
 - https://api.canix.com/oauth/authorize
 description: Canix's OAuth surface belongs to the MCP server, not to the REST API. The REST API in openapi/canix-openapi-original.yml declares a single apiKey scheme (X-API-KEY) and no oauth2 security scheme, so 0-working/derive-oauth-scopes.py finds nothing there. The scopes below were probed from Canix's own RFC 8414 authorization-server metadata, which advertises exactly one scope.

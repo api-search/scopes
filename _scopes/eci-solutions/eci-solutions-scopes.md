@@ -1305,7 +1305,7 @@ tags:
 - Distribution
 - E-Commerce
 - ERP
-- Field Service
+- Field Service Management
 - Inventory
 - Manufacturing
 - Payments

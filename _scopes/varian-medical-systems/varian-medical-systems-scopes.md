@@ -167,7 +167,7 @@ tags:
 - Oncology
 - Medical Devices
 - FHIR
-- Radiation Therapy
+- Radiation Oncology
 - Health IT
 - Fortune 1000
 token_bound: false

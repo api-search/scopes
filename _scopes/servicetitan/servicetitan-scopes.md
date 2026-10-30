@@ -480,7 +480,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/servicetita
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/scopes/servicetitan-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Field Service
+- Field Service Management
 - Trade
 - HVAC
 - Plumbing
