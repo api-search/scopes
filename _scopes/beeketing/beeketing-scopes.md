@@ -5,163 +5,163 @@ api_specs:
   label: Beeketing Abandoned Checkout API
   slug: beeketing-abandoned-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-abandoned-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-abandoned-checkout-api-openapi.yml
 - filename: beeketing-balance-api-openapi.yml
   format: yaml
   label: Beeketing Balance API
   slug: beeketing-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-balance-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-balance-api-openapi.yml
 - filename: beeketing-collect-api-openapi.yml
   format: yaml
   label: Beeketing Collect API
   slug: beeketing-collect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-collect-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-collect-api-openapi.yml
 - filename: beeketing-custom-collection-api-openapi.yml
   format: yaml
   label: Beeketing Custom Collection API
   slug: beeketing-custom-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-custom-collection-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-custom-collection-api-openapi.yml
 - filename: beeketing-customer-address-api-openapi.yml
   format: yaml
   label: Beeketing Customer Address API
   slug: beeketing-customer-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-customer-address-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-customer-address-api-openapi.yml
 - filename: beeketing-customer-api-openapi.yml
   format: yaml
   label: Beeketing Customer API
   slug: beeketing-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-customer-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-customer-api-openapi.yml
 - filename: beeketing-domain-api-openapi.yml
   format: yaml
   label: Beeketing Domain API
   slug: beeketing-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-domain-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-domain-api-openapi.yml
 - filename: beeketing-draftorder-api-openapi.yml
   format: yaml
   label: Beeketing Draft Order API
   slug: beeketing-draftorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-draftorder-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-draftorder-api-openapi.yml
 - filename: beeketing-fulfillment-api-openapi.yml
   format: yaml
   label: Beeketing Fulfillment API
   slug: beeketing-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-fulfillment-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-fulfillment-api-openapi.yml
 - filename: beeketing-fulfillmentservice-api-openapi.yml
   format: yaml
   label: Beeketing Fulfillment Service API
   slug: beeketing-fulfillmentservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-fulfillmentservice-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-fulfillmentservice-api-openapi.yml
 - filename: beeketing-metafield-api-openapi.yml
   format: yaml
   label: Beeketing Metafield API
   slug: beeketing-metafield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-metafield-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-metafield-api-openapi.yml
 - filename: beeketing-order-api-openapi.yml
   format: yaml
   label: Beeketing Order API
   slug: beeketing-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-order-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-order-api-openapi.yml
 - filename: beeketing-page-api-openapi.yml
   format: yaml
   label: Beeketing Page API
   slug: beeketing-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-page-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-page-api-openapi.yml
 - filename: beeketing-payment-simulator-api-openapi.yml
   format: yaml
   label: Beeketing Payment Simulator API
   slug: beeketing-payment-simulator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-payment-simulator-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-payment-simulator-api-openapi.yml
 - filename: beeketing-phuborderapi-api-openapi.yml
   format: yaml
   label: Beeketing Phub Order API
   slug: beeketing-phuborderapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-phuborderapi-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-phuborderapi-api-openapi.yml
 - filename: beeketing-pricerule-api-openapi.yml
   format: yaml
   label: Beeketing Price Rule API
   slug: beeketing-pricerule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-pricerule-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-pricerule-api-openapi.yml
 - filename: beeketing-product-api-openapi.yml
   format: yaml
   label: Beeketing Product API
   slug: beeketing-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-product-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-product-api-openapi.yml
 - filename: beeketing-product-image-api-openapi.yml
   format: yaml
   label: Beeketing Product Image API
   slug: beeketing-product-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-product-image-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-product-image-api-openapi.yml
 - filename: beeketing-product-variant-api-openapi.yml
   format: yaml
   label: Beeketing Product Variant API
   slug: beeketing-product-variant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-product-variant-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-product-variant-api-openapi.yml
 - filename: beeketing-redirect-api-openapi.yml
   format: yaml
   label: Beeketing Redirect API
   slug: beeketing-redirect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-redirect-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-redirect-api-openapi.yml
 - filename: beeketing-refund-api-openapi.yml
   format: yaml
   label: Beeketing Refund API
   slug: beeketing-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-refund-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-refund-api-openapi.yml
 - filename: beeketing-scripttag-api-openapi.yml
   format: yaml
   label: Beeketing Script Tag API
   slug: beeketing-scripttag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-scripttag-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-scripttag-api-openapi.yml
 - filename: beeketing-shop-api-openapi.yml
   format: yaml
   label: Beeketing Shop API
   slug: beeketing-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-shop-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-shop-api-openapi.yml
 - filename: beeketing-smartcollection-api-openapi.yml
   format: yaml
   label: Beeketing Smart Collection API
   slug: beeketing-smartcollection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-smartcollection-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-smartcollection-api-openapi.yml
 - filename: beeketing-transaction-api-openapi.yml
   format: yaml
   label: Beeketing Transaction API
   slug: beeketing-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-transaction-api-openapi.yml
 - filename: beeketing-webhook-api-openapi.yml
   format: yaml
   label: Beeketing Webhook API
   slug: beeketing-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-webhook-api-openapi.yml
 - filename: beeketing-discount-code-api-openapi.yml
   format: yaml
   label: Beeketing Discount Code API
   slug: beeketing-discount-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/openapi/beeketing-discount-code-api-openapi.yml
+  url: https://artifacts.apis.io/beeketing/openapi/beeketing-discount-code-api-openapi.yml
 authorization_urls:
 - https://{shop}.onshopbase.com/admin/oauth/authorize
 description: ''
@@ -297,7 +297,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ inventory, shipping,\n    analytics); others cover resources the spec DOES include. The twelve\n    abandoned-checkout operations declare read_orders / write_orders rather than\n    read_checkouts / write_checkouts, and all eleven price-rule and discount-code\n    operations declare APP_ACCESS_TOKEN with an EMPTY scope array rather than\n    read_price_rules / write_price_rules. An app therefore cannot tell from the\n    contract which scope the server actually enforces on those calls, and must\n    request from the docs list rather than from the spec.\nscopes:\n- {scope: read_themes, description: Read access to Asset and Theme}\n- {scope: write_themes, description: Write access to Asset and Theme}\n- {scope: read_products, description: Read Product, Product Variant, Product Image, Product Custom Collection}\n- {scope: write_products, description: Write Product, Product Variant, Product Image, Product Custom Collection}\n- {scope: read_product_listings, description: Read Product Listing\
   \ and Collection Listing}\n- {scope: read_inventory, description: Read Inventory Level and Inventory Item}\n- {scope: write_inventory, description: Write Inventory Level and Inventory Item}\n- {scope: read_customers, description: Read Customer Detail and Customer Group}\n- {scope: write_customers, description: Write Customer Detail and Customer Group}\n- {scope: read_orders, description: Read Order, Transaction and Fulfillment}\n- {scope: write_orders, description: Write Order, Transaction and Fulfillment}\n- {scope: read_fulfillments, description: Read Fulfillment Service}\n- {scope: write_fulfillments, description: Write Fulfillment Service}\n- {scope: read_script_tags, description: Read Script Tag}\n- {scope: write_script_tags, description: Write Script Tag}\n- {scope: read_content, description: Read Page and Redirect}\n- {scope: write_content, description: Write Page and Redirect}\n- {scope: read_shipping, description: Read Carrier Service, Shipping Rate, Country and Province}\n- {scope:\
   \ write_shipping, description: Write Carrier Service, Shipping Rate, Country and Province}\n- {scope: read_checkouts, description: Read Checkouts}\n- {scope: write_checkouts, description: Write Checkouts}\n- {scope: read_price_rules, description: Read Price Rules}\n- {scope: write_price_rules, description: Write Price Rules}\n- {scope: read_analytics, description: Read Analytics}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/scopes/beeketing-scopes.yml
+source_yaml_url: https://artifacts.apis.io/beeketing/scopes/beeketing-scopes.yml
 summary_line: 24 scopes · authorizationCode
 tags:
 - Company

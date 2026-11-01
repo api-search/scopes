@@ -5,31 +5,31 @@ api_specs:
   label: Azure Files Account API
   slug: azure-file-storage-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-account-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-account-api-openapi.yml
 - filename: azure-file-storage-directories-api-openapi.yml
   format: yaml
   label: Azure Files Directories API
   slug: azure-file-storage-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-directories-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-directories-api-openapi.yml
 - filename: azure-file-storage-files-api-openapi.yml
   format: yaml
   label: Azure Files API
   slug: azure-file-storage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-files-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-files-api-openapi.yml
 - filename: azure-file-storage-shares-api-openapi.yml
   format: yaml
   label: Azure Files Shares API
   slug: azure-file-storage-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-shares-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-shares-api-openapi.yml
 - filename: azure-file-storage-shares-api-openapi.yml
   format: yaml
   label: Azure File Storage Shares API
   slug: microsoft-azure-file-storage-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/openapi/azure-file-storage-shares-api-openapi.yml
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-shares-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -70,7 +70,7 @@ source_filename: azure-file-storage-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-file-storage-openapi.yml\nschemes:\n- name: entra\n  source: openapi/azure-file-storage-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0 bearer token\nscopes:\n- scope: https://storage.azure.com/.default\n  description: Azure Storage data plane access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/azure-file-storage-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/scopes/azure-file-storage-scopes.yml
+source_yaml_url: https://artifacts.apis.io/azure-file-storage/scopes/azure-file-storage-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Storage

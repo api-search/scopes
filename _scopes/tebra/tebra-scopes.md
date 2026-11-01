@@ -5,133 +5,133 @@ api_specs:
   label: Tebra Clinical API
   slug: tebra-clinical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-clinical-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-clinical-api-openapi.yml
 - filename: tebra-documents-api-openapi.yml
   format: yaml
   label: Tebra Documents API
   slug: tebra-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-documents-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-documents-api-openapi.yml
 - filename: tebra-patient-api-openapi.yml
   format: yaml
   label: Tebra Patient API
   slug: tebra-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-patient-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-patient-api-openapi.yml
 - filename: tebra-careteam-api-openapi.yml
   format: yaml
   label: Tebra Care Team API
   slug: tebra-careteam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-careteam-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-careteam-api-openapi.yml
 - filename: tebra-condition-api-openapi.yml
   format: yaml
   label: Tebra Condition API
   slug: tebra-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-condition-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-condition-api-openapi.yml
 - filename: tebra-device-api-openapi.yml
   format: yaml
   label: Tebra Device API
   slug: tebra-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-device-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-device-api-openapi.yml
 - filename: tebra-diagnosticreport-api-openapi.yml
   format: yaml
   label: Tebra Diagnostic Report API
   slug: tebra-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-diagnosticreport-api-openapi.yml
 - filename: tebra-encounter-api-openapi.yml
   format: yaml
   label: Tebra Encounter API
   slug: tebra-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-encounter-api-openapi.yml
 - filename: tebra-goal-api-openapi.yml
   format: yaml
   label: Tebra Goal API
   slug: tebra-goal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-goal-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-goal-api-openapi.yml
 - filename: tebra-immunization-api-openapi.yml
   format: yaml
   label: Tebra Immunization API
   slug: tebra-immunization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-immunization-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-immunization-api-openapi.yml
 - filename: tebra-location-api-openapi.yml
   format: yaml
   label: Tebra Location API
   slug: tebra-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-location-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-location-api-openapi.yml
 - filename: tebra-medication-api-openapi.yml
   format: yaml
   label: Tebra Medication API
   slug: tebra-medication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-medication-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-medication-api-openapi.yml
 - filename: tebra-observation-api-openapi.yml
   format: yaml
   label: Tebra Observation API
   slug: tebra-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-observation-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-observation-api-openapi.yml
 - filename: tebra-organization-api-openapi.yml
   format: yaml
   label: Tebra Organization API
   slug: tebra-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-organization-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-organization-api-openapi.yml
 - filename: tebra-practitioner-api-openapi.yml
   format: yaml
   label: Tebra Practitioner API
   slug: tebra-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-practitioner-api-openapi.yml
 - filename: tebra-procedure-api-openapi.yml
   format: yaml
   label: Tebra Procedure API
   slug: tebra-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-procedure-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-procedure-api-openapi.yml
 - filename: tebra-provenance-api-openapi.yml
   format: yaml
   label: Tebra Provenance API
   slug: tebra-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-provenance-api-openapi.yml
 - filename: tebra-allergy-intolerance-api-openapi.yml
   format: yaml
   label: Tebra Allergy Intolerance API
   slug: tebra-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-allergy-intolerance-api-openapi.yml
 - filename: tebra-care-plan-api-openapi.yml
   format: yaml
   label: Tebra Care plan API
   slug: tebra-care-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-care-plan-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-care-plan-api-openapi.yml
 - filename: tebra-document-reference-api-openapi.yml
   format: yaml
   label: Tebra Document Reference API
   slug: tebra-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-document-reference-api-openapi.yml
 - filename: tebra-medication-request-api-openapi.yml
   format: yaml
   label: Tebra Medication Request API
   slug: tebra-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-medication-request-api-openapi.yml
 - filename: tebra-practitioner-role-api-openapi.yml
   format: yaml
   label: Tebra Practitioner Role API
   slug: tebra-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/openapi/tebra-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/tebra/openapi/tebra-practitioner-role-api-openapi.yml
 authorization_urls:
 - https://fhir.prd.cloud.tebra.com/smartauth/oauth/authorize
 description: ''
@@ -317,7 +317,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/tebra-fh
   - scope: patient/Goal.read\n  description: Read the patient's goals.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: patient/Immunization.read\n  description: Read the patient's immunizations.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: patient/Location.read\n  description: Read location resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: patient/Medication.read\n  description: Read medication resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: patient/MedicationRequest.read\n  description: Read the patient's medication requests.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: patient/Observation.read\n  description: Read the patient's observations (vitals/labs/smoking status).\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n\
   - scope: patient/Organization.read\n  description: Read organization resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: patient/Patient.read\n  description: Read the patient's demographic record.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: patient/Practitioner.read\n  description: Read practitioner resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: patient/PractitionerRole.read\n  description: Read practitioner-role resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: patient/Procedure.read\n  description: Read the patient's procedures.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: patient/Provenance.read\n  description: Read provenance resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n\
   - scope: system/DocumentReference.read\n  description: Read document reference resources.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: system/Observation.read\n  description: Read observation resources.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n- scope: system/Patient.read\n  description: Read patient demographic records.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/tebra-fhir-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/scopes/tebra-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tebra/scopes/tebra-scopes.yml
 summary_line: 27 scopes · authorizationCode/clientCredentials
 tags:
 - Healthcare

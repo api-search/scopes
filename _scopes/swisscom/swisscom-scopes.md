@@ -5,19 +5,19 @@ api_specs:
   label: 'Swisscom Process: create API'
   slug: swisscom-process-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-process-create-api-openapi.yml
+  url: https://artifacts.apis.io/swisscom/openapi/swisscom-process-create-api-openapi.yml
 - filename: swisscom-process-read-api-openapi.yml
   format: yaml
   label: 'Swisscom Process: read API'
   slug: swisscom-process-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-process-read-api-openapi.yml
+  url: https://artifacts.apis.io/swisscom/openapi/swisscom-process-read-api-openapi.yml
 - filename: swisscom-signatures-api-openapi.yml
   format: yaml
   label: Swisscom Signatures API
   slug: swisscom-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/swisscom/openapi/swisscom-signatures-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://sign.swisscom.ch/docs/guide/authentication
@@ -70,7 +70,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: openapi/swisscom-sign-integration-api-openapi.json\ndocs: https://sign.swisscom.ch/docs/guide/authentication\nlegacy_docs: https://github.com/swisscom-api/doc/wiki/oauth-scopes.html\nschemes:\n- name: SwisscomSignOAuth2\n  source: openapi/swisscom-sign-integration-api-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://sign.swisscom.ch/realms/swisscom-public/protocol/openid-connect/token\n  description: OAuth 2.0 Client Credentials flow for accessing the Swisscom Sign Integration\n    API.\nscopes:\n- scope: sswp:process:create\n  description: Create, configure, and submit a new signature process including documents, invitees,\n    and signature options.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/swisscom-sign-integration-api-openapi.json\n- scope: sswp:process:read\n  description: Read process metadata or download associated documents.\n  flows:\n  - clientCredentials\n  sources:\n  -\
   \ openapi/swisscom-sign-integration-api-openapi.json\n- scope: sswp:process:read:all\n  description: Read metadata of all processes within the organization, with optional filtering.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/swisscom-sign-integration-api-openapi.json\nissuer: https://sign.swisscom.ch/realms/swisscom-public\njwks_uri: https://sign.swisscom.ch/realms/swisscom-public/protocol/openid-connect/certs\naudience: swisscom-sign-api\ntenancy_claim: organization_id\nscope_usage:\n- scope: sswp:process:create\n  operations: [create, setup, release, attach]\n- scope: sswp:process:read\n  operations: [open, getProcess, getStatus, getRecords, getFile, getFileContent]\n- scope: sswp:process:read:all\n  operations: [findAll]\ncredential_issuance: >-\n  Client id and secret are generated per subscription in the Swisscom Sign cockpit under the API\n  Credentials tab; TEST and production credentials are issued separately on their respective hosts.\nother_surfaces:\n- surface:\
   \ api.swisscom.com legacy gateway\n  docs: https://github.com/swisscom-api/doc/wiki/oauth-scopes.html\n  authorization_endpoint: https://consent.swisscom.com/c/oauth2/auth\n  token_endpoint: https://consent.swisscom.com/o/oauth2/token\n  convention: '<action>-<resource>, where action is read or write; space-delimited in the scope parameter'\n  published_examples:\n  - read-basicprofile\n  - read-phone\n  - read-email\n  - read-voip-callforwardings\n  - write-voip-callforwardings\n  note: >-\n    Documented in the swisscom-api wiki as examples, not as a complete scope registry. The full scope\n    list for the marketplace products sits behind the Swisscom login and is not machine-readable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/scopes/swisscom-scopes.yml
+source_yaml_url: https://artifacts.apis.io/swisscom/scopes/swisscom-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - Telecommunications

@@ -5,13 +5,13 @@ api_specs:
   label: Google Cloud Secret Manager Secret Versions API
   slug: google-cloud-secret-manager-secret-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/openapi/google-cloud-secret-manager-secret-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-secret-manager/openapi/google-cloud-secret-manager-secret-versions-api-openapi.yml
 - filename: google-cloud-secret-manager-secrets-api-openapi.yml
   format: yaml
   label: Google Cloud Secret Manager Secrets API
   slug: google-cloud-secret-manager-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/openapi/google-cloud-secret-manager-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-secret-manager/openapi/google-cloud-secret-manager-secrets-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -53,7 +53,7 @@ source_filename: google-cloud-secret-manager-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/scopes/google-cloud-secret-manager-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-secret-manager/scopes/google-cloud-secret-manager-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Configuration

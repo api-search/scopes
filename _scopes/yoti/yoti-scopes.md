@@ -5,37 +5,37 @@ api_specs:
   label: Yoti Accounts API
   slug: yoti-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/yoti/openapi/yoti-accounts-api-openapi.yml
 - filename: yoti-ai-api-openapi.yml
   format: yaml
   label: Yoti AI API
   slug: yoti-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-ai-api-openapi.yml
+  url: https://artifacts.apis.io/yoti/openapi/yoti-ai-api-openapi.yml
 - filename: yoti-oauth-api-openapi.yml
   format: yaml
   label: Yoti OAuth API
   slug: yoti-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/yoti/openapi/yoti-oauth-api-openapi.yml
 - filename: yoti-path-api-openapi.yml
   format: yaml
   label: Yoti Path API
   slug: yoti-path-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-path-api-openapi.yml
+  url: https://artifacts.apis.io/yoti/openapi/yoti-path-api-openapi.yml
 - filename: yoti-poa-api-openapi.yml
   format: yaml
   label: Yoti Poa API
   slug: yoti-poa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-poa-api-openapi.yml
+  url: https://artifacts.apis.io/yoti/openapi/yoti-poa-api-openapi.yml
 - filename: yoti-sessions-api-openapi.yml
   format: yaml
   label: Yoti Sessions API
   slug: yoti-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/openapi/yoti-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/yoti/openapi/yoti-sessions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -80,7 +80,7 @@ source_filename: yoti-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/yoti-openapi-generated.yml\nschemes:\n- name: OAuth2_Client_Credentials\n  source: openapi/yoti-openapi-generated.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.api.yoti.com/v1/oauth/token\nscopes:\n- scope: did:match\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/yoti-openapi-generated.yml\n- scope: poa:verify\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/yoti-openapi-generated.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yoti/refs/heads/main/scopes/yoti-scopes.yml
+source_yaml_url: https://artifacts.apis.io/yoti/scopes/yoti-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Company

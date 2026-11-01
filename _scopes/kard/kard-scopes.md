@@ -5,103 +5,103 @@ api_specs:
   label: Kard Attributions API
   slug: kard-attributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-attributions-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-attributions-api-openapi.yml
 - filename: kard-files-api-openapi.yml
   format: yaml
   label: Kard Files API
   slug: kard-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-files-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-files-api-openapi.yml
 - filename: kard-notifications-notifications-api-openapi.yml
   format: yaml
   label: Kard notifications > Notifications API
   slug: kard-notifications-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-notifications-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-notifications-notifications-api-openapi.yml
 - filename: kard-notifications-subscriptions-api-openapi.yml
   format: yaml
   label: Kard notifications > Subscriptions API
   slug: kard-notifications-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-notifications-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-notifications-subscriptions-api-openapi.yml
 - filename: kard-organizations-api-openapi.yml
   format: yaml
   label: Kard Organizations API
   slug: kard-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-organizations-api-openapi.yml
 - filename: kard-organizations-children-api-openapi.yml
   format: yaml
   label: Kard Organizations > Children API
   slug: kard-organizations-children-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-organizations-children-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-organizations-children-api-openapi.yml
 - filename: kard-organizations-contentstrategies-api-openapi.yml
   format: yaml
   label: Kard Organizations > ContentStrategies API
   slug: kard-organizations-contentstrategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-organizations-contentstrategies-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-organizations-contentstrategies-api-openapi.yml
 - filename: kard-organizations-placements-api-openapi.yml
   format: yaml
   label: Kard Organizations > Placements API
   slug: kard-organizations-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-organizations-placements-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-organizations-placements-api-openapi.yml
 - filename: kard-ping-api-openapi.yml
   format: yaml
   label: Kard Ping API
   slug: kard-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-ping-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-ping-api-openapi.yml
 - filename: kard-rewards-api-openapi.yml
   format: yaml
   label: Kard Rewards API
   slug: kard-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-rewards-api-openapi.yml
 - filename: kard-transactions-api-openapi.yml
   format: yaml
   label: Kard Transactions API
   slug: kard-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-transactions-api-openapi.yml
 - filename: kard-users-api-openapi.yml
   format: yaml
   label: Kard Users API
   slug: kard-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-users-api-openapi.yml
 - filename: kard-users-attributions-api-openapi.yml
   format: yaml
   label: Kard users > attributions API
   slug: kard-users-attributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-attributions-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-users-attributions-api-openapi.yml
 - filename: kard-users-rewards-api-openapi.yml
   format: yaml
   label: Kard users > Rewards API
   slug: kard-users-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-users-rewards-api-openapi.yml
 - filename: kard-users-uploads-api-openapi.yml
   format: yaml
   label: Kard users > uploads API
   slug: kard-users-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-users-uploads-api-openapi.yml
 - filename: kard-users-webview-api-openapi.yml
   format: yaml
   label: Kard users > WebView API
   slug: kard-users-webview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-users-webview-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-users-webview-api-openapi.yml
 - filename: kard-api-reference-api-openapi.yml
   format: yaml
   label: Kard API Reference API
   slug: kard-api-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/openapi/kard-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/kard/openapi/kard-api-reference-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.getkard.com/api/integration-guides/authentication
@@ -203,7 +203,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/kard-api-reference-openapi.yaml\ndocs: https://docs.getkard.com/api/integration-guides/authentication\nschemes:\n- name: OAuthScheme\n  source: openapi/kard-api-reference-openapi.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{client-subdomain}.getkard.com/v2/auth/token\nnotes: The OpenAPI declares an http/bearer scheme, but the docs and per-operation\n  'Required scopes' annotations show OAuth2 client_credentials with the scopes below.\n  Scopes harvested from the OpenAPI operation descriptions.\nscopes:\n- scope: transaction:read\n  description: Read transactions and matched/earned reward data.\n  flows:\n  - clientCredentials\n- scope: transaction:write\n  description: Submit incoming transactions for CLO matching.\n  flows:\n  - clientCredentials\n- scope: audit:read\n  description: Read transaction audit records.\n  flows:\n  - clientCredentials\n- scope: audit:write\n  description: Create transaction\
   \ audit records.\n  flows:\n  - clientCredentials\n- scope: user:read\n  description: Read enrolled user records.\n  flows:\n  - clientCredentials\n- scope: user:write\n  description: Create enrolled users.\n  flows:\n  - clientCredentials\n- scope: user:update\n  description: Update enrolled user records.\n  flows:\n  - clientCredentials\n- scope: user:delete\n  description: Delete enrolled user records.\n  flows:\n  - clientCredentials\n- scope: rewards:read\n  description: Read offers and locations available to a user.\n  flows:\n  - clientCredentials\n- scope: attributions:write\n  description: Create attribution events, activate and boost offers, activate placement\n    slots.\n  flows:\n  - clientCredentials\n- scope: notifications:read\n  description: List and read notification events and subscriptions.\n  flows:\n  - clientCredentials\n- scope: notifications:write\n  description: Create/update notification subscriptions and replay notifications.\n  flows:\n  - clientCredentials\n\
   - scope: files:write\n  description: Create and upload files / bulk transaction uploads.\n  flows:\n  - clientCredentials\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/scopes/kard-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kard/scopes/kard-scopes.yml
 summary_line: 13 scopes · clientCredentials
 tags:
 - Company

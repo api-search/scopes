@@ -5,55 +5,55 @@ api_specs:
   label: Medblocks Certificates API
   slug: medblocks-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-certificates-api-openapi.yml
 - filename: medblocks-connections-api-openapi.yml
   format: yaml
   label: Medblocks Connections API
   slug: medblocks-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-connections-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-connections-api-openapi.yml
 - filename: medblocks-events-api-openapi.yml
   format: yaml
   label: Medblocks Events API
   slug: medblocks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-events-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-events-api-openapi.yml
 - filename: medblocks-feeds-api-openapi.yml
   format: yaml
   label: Medblocks Feeds API
   slug: medblocks-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-feeds-api-openapi.yml
 - filename: medblocks-health-api-openapi.yml
   format: yaml
   label: Medblocks Health API
   slug: medblocks-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-health-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-health-api-openapi.yml
 - filename: medblocks-launch-contexts-api-openapi.yml
   format: yaml
   label: Medblocks Launch Contexts API
   slug: medblocks-launch-contexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-launch-contexts-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-launch-contexts-api-openapi.yml
 - filename: medblocks-patient-sessions-api-openapi.yml
   format: yaml
   label: Medblocks Patient Sessions API
   slug: medblocks-patient-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-patient-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-patient-sessions-api-openapi.yml
 - filename: medblocks-patients-api-openapi.yml
   format: yaml
   label: Medblocks Patients API
   slug: medblocks-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-patients-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-patients-api-openapi.yml
 - filename: medblocks-webhooks-api-openapi.yml
   format: yaml
   label: Medblocks Webhooks API
   slug: medblocks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/openapi/medblocks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/medblocks/openapi/medblocks-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://medblocks.com/docs/mcp
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: >-\n  https://app
   \ issues an ID token identifying the signed-in user.\n  category: identity\n- name: profile\n  description: Standard OIDC profile claims (name, picture, family_name, given_name).\n  category: identity\n- name: email\n  description: Standard OIDC email claims (email, email_verified).\n  category: identity\n- name: offline_access\n  description: Issues a refresh token so the client can keep access without re-prompting.\n  category: session\n- name: patients:read\n  description: Read patients (the \"people\" in the MCP surface) in the workspace.\n  category: patients\n  rest_equivalent: [api.listPatients, api.getPatient]\n- name: patients:write\n  description: Create, update and delete patients in the workspace.\n  category: patients\n  rest_equivalent: [api.createPatient, api.updatePatient, api.deletePatient]\n- name: patient_sessions:read\n  description: Read patient authorization sessions and their status.\n  category: patient-sessions\n  rest_equivalent: [api.listPatientSessionsForPatient,\
   \ api.retrievePatientSession]\n- name: patient_sessions:write\n  description: Start a patient authorization session against one or more sources.\n  category: patient-sessions\n  rest_equivalent: [api.initPatientSession]\n- name: connections:read\n  description: Read the EHR/FHIR source catalog and the workspace's configured connections.\n  category: connections\n  rest_equivalent: [api.listFhirSources, api.getFhirSource]\n- name: fhir:read\n  description: Read the patient's stored FHIR records.\n  category: records\n  rest_equivalent: [api.getPatientRecords]\nconsent_screen:\n  note: >-\n    Interactive OAuth users are shown three tick boxes rather than raw scopes. All three are\n    ticked by default and a user may grant fewer than requested; identity and workspace\n    visibility are granted without a prompt.\n  choices:\n  - label: Connect your healthcare facilities\n    default: on\n  - label: Read your health records\n    default: on\n  - label: Manage people and delete data\n   \
   \ default: on\n    destructive: true\napi_key_alternative: >-\n  A developer client may send an mb_sk_ API key as a bearer token instead of running the OAuth\n  flow. The docs state a key uses the permissions stamped on it rather than these consent\n  scopes, and that a key connection stays bound to the workspace that minted it.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medblocks/refs/heads/main/scopes/medblocks-scopes.yml
+source_yaml_url: https://artifacts.apis.io/medblocks/scopes/medblocks-scopes.yml
 summary_line: 10 scopes
 tags:
 - Health

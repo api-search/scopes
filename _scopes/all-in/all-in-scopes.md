@@ -40,7 +40,7 @@ source_filename: all-in-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://allinfood.com/.well-known/openid-configuration (scopes_supported, live)\nhost: allinfood.com\nauthorization_server: https://shopify.com/authentication/85598339372\nstandard: OpenID Connect / OAuth 2.0 (Shopify Customer Accounts)\nscopes:\n- name: openid\n  description: OpenID Connect authentication; issue an ID token identifying the customer.\n- name: email\n  description: Access the customer's email address and email_verified claim.\n- name: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the signed-in customer.\n- name: customer-account-mcp-api:full\n  description: Full access to the customer-account MCP API surface for agent-driven customer/commerce actions.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/all-in/refs/heads/main/scopes/all-in-scopes.yml
+source_yaml_url: https://artifacts.apis.io/all-in/scopes/all-in-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

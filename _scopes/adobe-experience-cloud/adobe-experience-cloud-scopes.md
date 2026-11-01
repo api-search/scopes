@@ -5,217 +5,217 @@ api_specs:
   label: Adobe I/O Events
   slug: io-events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/asyncapi/adobe-io-events-asyncapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/asyncapi/adobe-io-events-asyncapi.yml
 - filename: adobe-experience-cloud-activities-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Activities API
   slug: adobe-experience-cloud-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-activities-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-activities-api-openapi.yml
 - filename: adobe-experience-cloud-audiences-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Audiences API
   slug: adobe-experience-cloud-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-audiences-api-openapi.yml
 - filename: adobe-experience-cloud-batches-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Batches API
   slug: adobe-experience-cloud-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-batches-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-batches-api-openapi.yml
 - filename: adobe-experience-cloud-calculated-metrics-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Calculated Metrics API
   slug: adobe-experience-cloud-calculated-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-calculated-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-calculated-metrics-api-openapi.yml
 - filename: adobe-experience-cloud-campaign-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Campaign API
   slug: adobe-experience-cloud-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-campaign-api-openapi.yml
 - filename: adobe-experience-cloud-campaigns-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Campaigns API
   slug: adobe-experience-cloud-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-campaigns-api-openapi.yml
 - filename: adobe-experience-cloud-classes-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Classes API
   slug: adobe-experience-cloud-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-classes-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-classes-api-openapi.yml
 - filename: adobe-experience-cloud-collections-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Collections API
   slug: adobe-experience-cloud-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-collections-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-collections-api-openapi.yml
 - filename: adobe-experience-cloud-content-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Content API
   slug: adobe-experience-cloud-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-content-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-content-api-openapi.yml
 - filename: adobe-experience-cloud-content-templates-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Content Templates API
   slug: adobe-experience-cloud-content-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-content-templates-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-content-templates-api-openapi.yml
 - filename: adobe-experience-cloud-datasets-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Datasets API
   slug: adobe-experience-cloud-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-datasets-api-openapi.yml
 - filename: adobe-experience-cloud-date-ranges-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Date Ranges API
   slug: adobe-experience-cloud-date-ranges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-date-ranges-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-date-ranges-api-openapi.yml
 - filename: adobe-experience-cloud-decision-rules-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Decision Rules API
   slug: adobe-experience-cloud-decision-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-decision-rules-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-decision-rules-api-openapi.yml
 - filename: adobe-experience-cloud-delivery-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Delivery API
   slug: adobe-experience-cloud-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-delivery-api-openapi.yml
 - filename: adobe-experience-cloud-dimensions-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Dimensions API
   slug: adobe-experience-cloud-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-dimensions-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-dimensions-api-openapi.yml
 - filename: adobe-experience-cloud-environments-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Environments API
   slug: adobe-experience-cloud-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-environments-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-environments-api-openapi.yml
 - filename: adobe-experience-cloud-identities-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Identities API
   slug: adobe-experience-cloud-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-identities-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-identities-api-openapi.yml
 - filename: adobe-experience-cloud-journeys-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Journeys API
   slug: adobe-experience-cloud-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-journeys-api-openapi.yml
 - filename: adobe-experience-cloud-messages-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Messages API
   slug: adobe-experience-cloud-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-messages-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-messages-api-openapi.yml
 - filename: adobe-experience-cloud-metadata-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Metadata API
   slug: adobe-experience-cloud-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-metadata-api-openapi.yml
 - filename: adobe-experience-cloud-metrics-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Metrics API
   slug: adobe-experience-cloud-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-metrics-api-openapi.yml
 - filename: adobe-experience-cloud-offers-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Offers API
   slug: adobe-experience-cloud-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-offers-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-offers-api-openapi.yml
 - filename: adobe-experience-cloud-placements-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Placements API
   slug: adobe-experience-cloud-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-placements-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-placements-api-openapi.yml
 - filename: adobe-experience-cloud-profiles-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Profiles API
   slug: adobe-experience-cloud-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-profiles-api-openapi.yml
 - filename: adobe-experience-cloud-projects-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Projects API
   slug: adobe-experience-cloud-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-projects-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-projects-api-openapi.yml
 - filename: adobe-experience-cloud-properties-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Properties API
   slug: adobe-experience-cloud-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-properties-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-properties-api-openapi.yml
 - filename: adobe-experience-cloud-queries-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Queries API
   slug: adobe-experience-cloud-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-queries-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-queries-api-openapi.yml
 - filename: adobe-experience-cloud-report-suites-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Report Suites API
   slug: adobe-experience-cloud-report-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-report-suites-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-report-suites-api-openapi.yml
 - filename: adobe-experience-cloud-reports-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Reports API
   slug: adobe-experience-cloud-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-reports-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-reports-api-openapi.yml
 - filename: adobe-experience-cloud-sandboxes-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Sandboxes API
   slug: adobe-experience-cloud-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-sandboxes-api-openapi.yml
 - filename: adobe-experience-cloud-schemas-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Schemas API
   slug: adobe-experience-cloud-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-schemas-api-openapi.yml
 - filename: adobe-experience-cloud-segments-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Segments API
   slug: adobe-experience-cloud-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-segments-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-segments-api-openapi.yml
 - filename: adobe-experience-cloud-transactional-messages-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Transactional Messages API
   slug: adobe-experience-cloud-transactional-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-transactional-messages-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-transactional-messages-api-openapi.yml
 - filename: adobe-experience-cloud-users-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Users API
   slug: adobe-experience-cloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-users-api-openapi.yml
 - filename: adobe-experience-cloud-workflows-api-openapi.yml
   format: yaml
   label: Adobe Experience Cloud Workflows API
   slug: adobe-experience-cloud-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-cloud-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-experience-cloud/openapi/adobe-experience-cloud-workflows-api-openapi.yml
 authorization_urls: []
 description: 'OAuth scopes Adobe Experience Cloud actually advertises, read from live RFC 8414 / OpenID Connect discovery documents rather than from prose. Three authorization servers publish scopes_supported: Adobe IMS itself (the base identity scopes), the AEM MCP authorization server (the only place Adobe publishes fine-grained product scopes), and the Adobe Analytics / CJA MCP servers (which reuse the IMS base plus a product-context scope).'
 docs: https://developer.adobe.com/developer-console/docs/guides/authentication/
@@ -311,7 +311,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://oauth.ado
   \ IMS profile information.\n  - name: additional_info.ownerOrg\n    kind: identity\n    servers:\n      - aem\n    description: The owning IMS organization of the authenticated identity.\n  - name: additional_info.projectedProductContext\n    kind: entitlement\n    servers:\n      - aem\n      - aa-mcp\n      - cja-mcp\n    description: >-\n      The user's projected product entitlements. This is the scope that carries Experience\n      Cloud product authorization — it is what turns an authenticated Adobe ID into an\n      identity that may call Analytics or CJA.\n  - name: aem.sites\n    kind: product\n    product: Adobe Experience Manager\n    servers:\n      - aem\n    description: AEM Sites — pages and site content.\n  - name: aem.assets.author\n    kind: product\n    product: Adobe Experience Manager Assets\n    servers:\n      - aem\n    description: Author-tier access to AEM Assets.\n  - name: aem.assets.delivery\n    kind: product\n    product: Adobe Experience Manager Assets\n\
   \    servers:\n      - aem\n    description: Delivery-tier access to AEM Assets.\n  - name: aem.fragments.management\n    kind: product\n    product: Adobe Experience Manager\n    servers:\n      - aem\n    description: Content fragment management — create, read, patch fragments and models.\n  - name: aem.folders\n    kind: product\n    product: Adobe Experience Manager\n    servers:\n      - aem\n    description: Folder operations.\n  - name: aem.repository\n    kind: product\n    product: Adobe Experience Manager\n    servers:\n      - aem\n    description: Repository-level access.\n  - name: aem.contentai\n    kind: product\n    product: Adobe Experience Manager Content AI\n    servers:\n      - aem\n    description: Content AI indexes — keyword, semantic, hybrid and natural-language search.\n  - name: aem.adobe.experimental\n    kind: product\n    product: Adobe Experience Manager\n    servers:\n      - aem\n    description: Experimental AEM capabilities.\ngaps:\n  - >-\n    Analytics,\
   \ Target, Campaign, Journey Optimizer and Experience Platform publish no\n    fine-grained OAuth scopes. Authorization for those products is granted out-of-band as\n    product profiles in the Adobe Admin Console and surfaces to the token only as\n    additional_info.projectedProductContext. An agent cannot request least-privilege access\n    to Adobe Analytics the way it can to AEM Sites.\n  - >-\n    The OpenAPI contracts declare bearer + apiKey rather than an oauth2 flow, so the scopes\n    above are invisible to any tool that reads only the spec.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/scopes/adobe-experience-cloud-scopes.yml
+source_yaml_url: https://artifacts.apis.io/adobe-experience-cloud/scopes/adobe-experience-cloud-scopes.yml
 summary_line: 16 scopes
 tags:
 - Analytics

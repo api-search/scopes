@@ -5,37 +5,37 @@ api_specs:
   label: Wallapop Categories API
   slug: wallapop-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-categories-api-openapi.yml
+  url: https://artifacts.apis.io/wallapop/openapi/wallapop-categories-api-openapi.yml
 - filename: wallapop-delivery-api-openapi.yml
   format: yaml
   label: Wallapop Delivery API
   slug: wallapop-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/wallapop/openapi/wallapop-delivery-api-openapi.yml
 - filename: wallapop-disputes-api-openapi.yml
   format: yaml
   label: Wallapop Disputes API
   slug: wallapop-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/wallapop/openapi/wallapop-disputes-api-openapi.yml
 - filename: wallapop-items-api-openapi.yml
   format: yaml
   label: Wallapop Items API
   slug: wallapop-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-items-api-openapi.yml
+  url: https://artifacts.apis.io/wallapop/openapi/wallapop-items-api-openapi.yml
 - filename: wallapop-transactions-api-openapi.yml
   format: yaml
   label: Wallapop Transactions API
   slug: wallapop-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/wallapop/openapi/wallapop-transactions-api-openapi.yml
 - filename: wallapop-webhooks-api-openapi.yml
   format: yaml
   label: Wallapop Webhooks API
   slug: wallapop-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/openapi/wallapop-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/wallapop/openapi/wallapop-webhooks-api-openapi.yml
 authorization_urls:
 - https://iam.wallapop.com/realms/wallapop-connect/protocol/openid-connect/auth
 description: ''
@@ -94,7 +94,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/wallapop-items-openapi-original.yml, openapi/wallapop-transactions-openapi-original.yml,\n  openapi/wallapop-webhooks-openapi-original.yml\ndocs: https://developers.wallapop.com/pages/api-essentials/auth\nnotes: >-\n  The Wallapop Connect API does not use granular OAuth scopes: the auth guide\n  states \"Just request the code — no need to set extra OAuth scopes\", and the\n  OpenAPI oauth2 flows declare an empty scopes map. Token responses carry\n  scope \"offline_access\" (refresh-token capability). The Keycloak realm's OIDC\n  discovery (well-known/wallapop-openid-configuration.json) advertises the\n  standard realm scopes listed under realm_scopes_supported; these are\n  identity scopes, not API permission scopes.\nschemes:\n- name: oAuthWithPKCE\n  source: openapi/wallapop-items-openapi-original.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://iam.wallapop.com/realms/wallapop-connect/protocol/openid-connect/auth\n\
   \    tokenUrl: https://iam.wallapop.com/realms/wallapop-connect/protocol/openid-connect/token\n  description: The Items Connect API uses OAuth 2.0 Authorization Code flow with a Proof Key\n    for Code Exchange.\n- name: oAuthWithPKCE\n  source: openapi/wallapop-transactions-openapi-original.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://iam.wallapop.com/realms/wallapop-connect/protocol/openid-connect/auth\n    tokenUrl: https://iam.wallapop.com/realms/wallapop-connect/protocol/openid-connect/token\n  description: The Transactions Connect API uses OAuth 2.0 Authorization Code flow with a Proof\n    Key for Code Exchange.\n- name: oAuthWithPKCE\n  source: openapi/wallapop-webhooks-openapi-original.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://iam.wallapop.com/realms/wallapop-connect/protocol/openid-connect/auth\n    tokenUrl: https://iam.wallapop.com/realms/wallapop-connect/protocol/openid-connect/token\n  description: The Webhooks\
   \ Connect API utilizes the OAuth 2.0 Authorization Code flow with\n    Proof Key for Code Exchange (PKCE) for secure authentication and token exchange.\nscopes:\n- scope: offline_access\n  description: Refresh-token capability; the only scope returned on Connect API token responses.\n  flows: [authorizationCode]\n  sources: [https://developers.wallapop.com/pages/api-essentials/auth]\nrealm_scopes_supported:\n- openid\n- web-origins\n- roles\n- microprofile-jwt\n- profile\n- address\n- service_account\n- email\n- phone\n- offline_access\n- basic\n- acr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/scopes/wallapop-scopes.yml
+source_yaml_url: https://artifacts.apis.io/wallapop/scopes/wallapop-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

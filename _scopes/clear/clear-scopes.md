@@ -5,7 +5,7 @@ api_specs:
   label: CLEAR Verification Sessions API
   slug: clear-verification-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/openapi/clear-verification-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/clear/openapi/clear-verification-sessions-api-openapi.yml
 authorization_urls:
 - https://verified.clearme.com/integrations/oauth2/auth
 description: ''
@@ -70,7 +70,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/clear-verification-openapi.json\ndocs: https://docs.clearme.com/docs/oidc-identity-token\ndiscovery: well-known/clear-openid-configuration.json\nschemes:\n- name: OIDC\n  source: https://verified.clearme.com/integrations/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://verified.clearme.com/integrations/oauth2/auth\n    tokenUrl: https://verified.clearme.com/integrations/oauth2/token\n    pkce: S256\n  grant_types:\n  - authorization_code\n  - implicit\n  - client_credentials\n  - refresh_token\n  - urn:ietf:params:oauth:grant-type:device_code\n  token_endpoint_auth:\n  - client_secret_post\n  - client_secret_basic\n  - private_key_jwt\n  - none\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an identity token with verified member claims\n  flows:\n  - authorizationCode\n- scope: offline\n  description: Grants offline access (long-lived)\
   \ to the verification session\n  flows:\n  - authorizationCode\n- scope: offline_access\n  description: Issues a refresh token for renewing access without user re-interaction\n  flows:\n  - authorizationCode\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/scopes/clear-scopes.yml
+source_yaml_url: https://artifacts.apis.io/clear/scopes/clear-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

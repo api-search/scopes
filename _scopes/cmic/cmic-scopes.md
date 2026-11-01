@@ -5,37 +5,37 @@ api_specs:
   label: CMiC Cost Tracking API
   slug: cmic-cost-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-cost-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-cost-tracking-api-openapi.yml
 - filename: cmic-documents-api-openapi.yml
   format: yaml
   label: CMiC Documents API
   slug: cmic-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-documents-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-documents-api-openapi.yml
 - filename: cmic-equipment-api-openapi.yml
   format: yaml
   label: CMiC Equipment API
   slug: cmic-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-equipment-api-openapi.yml
 - filename: cmic-jobs-api-openapi.yml
   format: yaml
   label: CMiC Jobs API
   slug: cmic-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-jobs-api-openapi.yml
 - filename: cmic-projects-api-openapi.yml
   format: yaml
   label: CMiC Projects API
   slug: cmic-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-projects-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-projects-api-openapi.yml
 - filename: cmic-subcontractors-api-openapi.yml
   format: yaml
   label: CMiC Subcontractors API
   slug: cmic-subcontractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-subcontractors-api-openapi.yml
+  url: https://artifacts.apis.io/cmic/openapi/cmic-subcontractors-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -76,7 +76,7 @@ source_filename: cmic-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cmic-construction-erp-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cmic-construction-erp-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 client credentials for CMiC API access\nscopes:\n- scope: api://cmic/.default\n  description: Full CMiC API access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cmic-construction-erp-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/scopes/cmic-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cmic/scopes/cmic-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Construction

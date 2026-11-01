@@ -45,7 +45,7 @@ source_filename: macrofab-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://factory.macrofab.com/.well-known/openid-configuration\nnotes: >-\n  Scopes are taken from the scopes_supported field of MacroFab's live OpenID Connect\n  discovery document. The factory platform advertises only the standard OIDC scopes;\n  no product-specific permission scopes are published.\nschemes:\n  - name: OAuth2\n    source: well-known/macrofab-openid-configuration.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://factory.macrofab.com/oauth/authorize\n        tokenUrl: https://factory.macrofab.com/oauth/token\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication (issue an ID token)\n    flows: [authorizationCode]\n    sources: [well-known/macrofab-openid-configuration.json]\n  - scope: email\n    description: Access to the authenticated account's email address\n    flows: [authorizationCode]\n    sources: [well-known/macrofab-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macrofab/refs/heads/main/scopes/macrofab-scopes.yml
+source_yaml_url: https://artifacts.apis.io/macrofab/scopes/macrofab-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: blue-yonder Inventory API
   slug: blue-yonder-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/blue-yonder/openapi/blue-yonder-inventory-api-openapi.yml
 - filename: blue-yonder-orders-api-openapi.yml
   format: yaml
   label: blue-yonder Orders API
   slug: blue-yonder-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-orders-api-openapi.yml
+  url: https://artifacts.apis.io/blue-yonder/openapi/blue-yonder-orders-api-openapi.yml
 - filename: blue-yonder-receipts-api-openapi.yml
   format: yaml
   label: blue-yonder Receipts API
   slug: blue-yonder-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/blue-yonder/openapi/blue-yonder-receipts-api-openapi.yml
 - filename: blue-yonder-tasks-api-openapi.yml
   format: yaml
   label: blue-yonder Tasks API
   slug: blue-yonder-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/openapi/blue-yonder-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/blue-yonder/openapi/blue-yonder-tasks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -68,7 +68,7 @@ source_filename: blue-yonder-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blue-yonder-warehouse-management-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/blue-yonder-warehouse-management-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.blueyonder.example.com/oauth/token\nscopes:\n- scope: wms:read\n  description: Read warehouse data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/blue-yonder-warehouse-management-openapi.yml\n- scope: wms:write\n  description: Write warehouse data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/blue-yonder-warehouse-management-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/scopes/blue-yonder-scopes.yml
+source_yaml_url: https://artifacts.apis.io/blue-yonder/scopes/blue-yonder-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Supply Chain

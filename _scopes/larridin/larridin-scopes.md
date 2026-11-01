@@ -5,31 +5,31 @@ api_specs:
   label: Larridin Adoption API
   slug: larridin-adoption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-adoption-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-adoption-api-openapi.yml
 - filename: larridin-proficiency-api-openapi.yml
   format: yaml
   label: Larridin Proficiency API
   slug: larridin-proficiency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-proficiency-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-proficiency-api-openapi.yml
 - filename: larridin-surveys-api-openapi.yml
   format: yaml
   label: Larridin Surveys API
   slug: larridin-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-surveys-api-openapi.yml
 - filename: larridin-tools-api-openapi.yml
   format: yaml
   label: Larridin Tools API
   slug: larridin-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-tools-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-tools-api-openapi.yml
 - filename: larridin-workflow-intelligence-api-openapi.yml
   format: yaml
   label: Larridin Workflow Intelligence API
   slug: larridin-workflow-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-workflow-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-workflow-intelligence-api-openapi.yml
 authorization_urls:
 - https://login.larridin.com/oauth2/authorize
 description: ''
@@ -93,7 +93,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: well-known/larridin-oauth-authorization-server.json\ndocs: https://docs.larridin.com/api/mcp\nnotes: >-\n  The Scout REST API v1 does not use OAuth — it authenticates with a company API key and gates access\n  with a single named API-key scope, ANALYTICS. OAuth 2.0 applies to the beta MCP server, whose\n  authorization server publishes the four standard OIDC/OAuth scopes below. No Larridin-specific OAuth\n  scope names are published; nothing beyond what the metadata document advertises is asserted here.\nschemes:\n- name: larridinOAuth\n  source: well-known/larridin-oauth-authorization-server.json\n  issuer: https://login.larridin.com\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.larridin.com/oauth2/authorize\n    tokenUrl: https://login.larridin.com/oauth2/token\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://login.larridin.com/oauth2/device_authorization\n    tokenUrl: https://login.larridin.com/oauth2/token\n\
   scopes:\n- scope: openid\n  description: OpenID Connect authentication; issues an ID token identifying the signed-in Larridin user.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/larridin-oauth-authorization-server.json\n- scope: profile\n  description: Access to the signed-in user's basic profile claims.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/larridin-oauth-authorization-server.json\n- scope: email\n  description: Access to the signed-in user's email address claim.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/larridin-oauth-authorization-server.json\n- scope: offline_access\n  description: Issues a refresh token so the client can maintain access without re-prompting the user.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/larridin-oauth-authorization-server.json\napi_key_scopes:\n- scope: ANALYTICS\n  description: >-\n    Required on a company API key for every Scout API v1 endpoint. This is an API-key scope, not an\n \
   \   OAuth scope.\n  applies_to: https://scout-api.larridin.com/api/v1\n  sources:\n  - https://docs.larridin.com/api/scout-api-v1-reference\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/scopes/larridin-scopes.yml
+source_yaml_url: https://artifacts.apis.io/larridin/scopes/larridin-scopes.yml
 summary_line: 4 scopes · authorizationCode/deviceCode
 tags:
 - Company

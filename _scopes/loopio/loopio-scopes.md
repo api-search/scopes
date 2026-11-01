@@ -5,91 +5,91 @@ api_specs:
   label: Loopio Asynchronous API
   slug: loopio-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-asynchronous-api-openapi.yml
 - filename: loopio-crm-api-openapi.yml
   format: yaml
   label: Loopio CRM API
   slug: loopio-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-crm-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-crm-api-openapi.yml
 - filename: loopio-custom-project-fields-api-openapi.yml
   format: yaml
   label: Loopio Custom Project Fields API
   slug: loopio-custom-project-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-custom-project-fields-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-custom-project-fields-api-openapi.yml
 - filename: loopio-customers-api-openapi.yml
   format: yaml
   label: Loopio Customers API
   slug: loopio-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-customers-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-customers-api-openapi.yml
 - filename: loopio-files-api-openapi.yml
   format: yaml
   label: Loopio Files API
   slug: loopio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-files-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-files-api-openapi.yml
 - filename: loopio-library-entries-api-openapi.yml
   format: yaml
   label: Loopio Library Entries API
   slug: loopio-library-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-library-entries-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-library-entries-api-openapi.yml
 - filename: loopio-merge-variables-api-openapi.yml
   format: yaml
   label: Loopio Merge Variables API
   slug: loopio-merge-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-merge-variables-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-merge-variables-api-openapi.yml
 - filename: loopio-project-templates-api-openapi.yml
   format: yaml
   label: Loopio Project Templates API
   slug: loopio-project-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-project-templates-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-project-templates-api-openapi.yml
 - filename: loopio-projects-api-openapi.yml
   format: yaml
   label: Loopio Projects API
   slug: loopio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-projects-api-openapi.yml
 - filename: loopio-roles-api-openapi.yml
   format: yaml
   label: Loopio Roles API
   slug: loopio-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-roles-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-roles-api-openapi.yml
 - filename: loopio-stacks-api-openapi.yml
   format: yaml
   label: Loopio Stacks API
   slug: loopio-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-stacks-api-openapi.yml
 - filename: loopio-tags-api-openapi.yml
   format: yaml
   label: Loopio Tags API
   slug: loopio-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-tags-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-tags-api-openapi.yml
 - filename: loopio-teams-api-openapi.yml
   format: yaml
   label: Loopio Teams API
   slug: loopio-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-teams-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-teams-api-openapi.yml
 - filename: loopio-users-api-openapi.yml
   format: yaml
   label: Loopio Users API
   slug: loopio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-users-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-users-api-openapi.yml
 - filename: loopio-webhooks-api-openapi.yml
   format: yaml
   label: Loopio Webhooks API
   slug: loopio-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/openapi/loopio-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/loopio/openapi/loopio-webhooks-api-openapi.yml
 authorization_urls:
 - https://api.loopio.com/oauth2/authorize
 description: ''
@@ -385,7 +385,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: https://api.loo
   \ true\n  operation_count: 0\n- scope: scim.user:write\n  in_openapi: false\n  advertised_by_authorization_server: true\n  operation_count: 0\n- scope: unifiedAnswer:all\n  in_openapi: false\n  advertised_by_authorization_server: true\n  operation_count: 0\n- scope: user:delete\n  in_openapi: false\n  advertised_by_authorization_server: true\n  operation_count: 0\n- scope: user:read\n  description: List users, view user information\n  flows:\n  - authorizationCode\n  - clientCredentials\n  in_openapi: true\n  advertised_by_authorization_server: true\n  operation_count: 5\n  operations:\n  - getTeam\n  - getUser\n  - identifyUser\n  - listTeams\n  - listUsers\n- scope: user:write\n  description: Update user information\n  flows:\n  - authorizationCode\n  - clientCredentials\n  in_openapi: true\n  advertised_by_authorization_server: true\n  operation_count: 7\n  operations:\n  - bulkAssignRole\n  - bulkAssignUsersToTeams\n  - bulkRemoveUsers\n  - bulkResendActivationEmail\n  - bulkUserDisableByEmail\n\
   \  - createUser\n  - updateUser\n- scope: webhook:delete\n  description: Delete webhook subscriptions\n  flows:\n  - authorizationCode\n  - clientCredentials\n  in_openapi: true\n  advertised_by_authorization_server: true\n  operation_count: 1\n  operations:\n  - cancelWebhookSubscription\n- scope: webhook:read\n  description: View webhook subscriptions\n  flows:\n  - authorizationCode\n  - clientCredentials\n  in_openapi: true\n  advertised_by_authorization_server: true\n  operation_count: 2\n  operations:\n  - getWebhookSubscription\n  - listWebhookSubscriptions\n- scope: webhook:write\n  description: Create & edit webhook subscriptions\n  flows:\n  - authorizationCode\n  - clientCredentials\n  in_openapi: true\n  advertised_by_authorization_server: true\n  operation_count: 3\n  operations:\n  - createWebhookSubscription\n  - refreshWebhookSigningSecret\n  - updateWebhookSubscription\n- scope: zendesk:write\n  in_openapi: false\n  advertised_by_authorization_server: true\n  operation_count:\
   \ 0\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/scopes/loopio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/loopio/scopes/loopio-scopes.yml
 summary_line: 52 scopes · authorizationCode/clientCredentials
 tags:
 - Company

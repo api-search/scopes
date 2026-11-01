@@ -49,7 +49,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://runrun.it/.well-known/oauth-authorization-server\ndocs: https://runrun.it/api/documentation\nschemes:\n  - name: OAuth2\n    source: https://runrun.it/.well-known/oauth-authorization-server\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://runrun.it/api/v1.0/oauth/authorize\n        tokenUrl: https://runrun.it/api/v1.0/oauth/token\n        revocationUrl: https://runrun.it/api/v1.0/oauth/revoke\n        registrationUrl: https://runrun.it/mcp/oauth/register\n        code_challenge_methods: [S256]\n        token_endpoint_auth_methods: [client_secret_basic, client_secret_post, none]\nscopes:\n  - scope: all\n    description: Full access. The authorization server advertises a single coarse-grained scope (\"all\"); it does not publish a fine-grained scope taxonomy.\n    flows: [authorizationCode]\n    sources: [https://runrun.it/.well-known/oauth-authorization-server]\nnotes: >-\n  scopes_supported\
   \ in the OAuth 2.0 Authorization Server Metadata is [\"all\"].\n  This is the scope surface used by the hosted MCP server\n  (https://runrun.it/mcp), whose protected-resource metadata also advertises\n  scopes_supported: [\"all\"].\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nova-lima/refs/heads/main/scopes/nova-lima-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nova-lima/scopes/nova-lima-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

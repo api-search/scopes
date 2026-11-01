@@ -5,37 +5,37 @@ api_specs:
   label: Interactive Brokers Accounts API
   slug: interactive-brokers-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-accounts-api-openapi.yml
 - filename: interactive-brokers-contracts-api-openapi.yml
   format: yaml
   label: Interactive Brokers Contracts API
   slug: interactive-brokers-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-contracts-api-openapi.yml
 - filename: interactive-brokers-market-data-api-openapi.yml
   format: yaml
   label: Interactive Brokers Market Data API
   slug: interactive-brokers-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-market-data-api-openapi.yml
 - filename: interactive-brokers-orders-api-openapi.yml
   format: yaml
   label: Interactive Brokers Orders API
   slug: interactive-brokers-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-orders-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-orders-api-openapi.yml
 - filename: interactive-brokers-portfolio-api-openapi.yml
   format: yaml
   label: Interactive Brokers Portfolio API
   slug: interactive-brokers-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-portfolio-api-openapi.yml
 - filename: interactive-brokers-sessions-api-openapi.yml
   format: yaml
   label: Interactive Brokers Sessions API
   slug: interactive-brokers-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-sessions-api-openapi.yml
 authorization_urls:
 - https://www.interactivebrokers.com/authorize
 description: ''
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/interac
   \ description published.\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\n- scope: fee-templates.read\n  description: Listed in IBKR's documented token-request scope string; no individual\n    description published.\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\n- scope: fee-templates.write\n  description: Listed in IBKR's documented token-request scope string; no individual\n    description published.\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\n- scope: instructions.read\n  description: View fund transfer.\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\n- scope: instructions.write\n  description: Listed in IBKR's documented token-request scope string; no individual\n    description published.\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\n\
   - scope: statements.read\n  description: View client statement.\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\n- scope: transfers.read\n  description: Listed in IBKR's documented token-request scope string; no individual\n    description published.\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\n- scope: transfers.write\n  description: Transfer funds.\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\n- scope: sso-sessions.write\n  description: Create an SSO session used for placing trades (documented in prose\n    as \"sso.sessions.write\").\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\n- scope: sso-browser-sessions.write\n  description: Create an SSO session to the IBKR Portal.\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\n\
   - scope: enumerations.read\n  description: Listed in IBKR's documented token-request scope string; no individual\n    description published.\n  sources:\n  - https://www.interactivebrokers.com/campus/ibkr-api-page/web-api-account-management/\nnote: Scopes apply to the OAuth 2.0 client_credentials token request (POST https://api.ibkr.com/oauth2/api/v1/token\n  with private_key_jwt client assertion) documented on IBKR's Account Management Web\n  API page; the trading Web API docs do not publish additional scope values.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/scopes/interactive-brokers-scopes.yml
+source_yaml_url: https://artifacts.apis.io/interactive-brokers/scopes/interactive-brokers-scopes.yml
 summary_line: 18 scopes · authorizationCode
 tags:
 - Brokerage

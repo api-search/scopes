@@ -1,23 +1,29 @@
 ---
 api_specs:
+- filename: graphite-connect-openapi-generated.yml
+  format: yaml
+  label: Graphite Connect API
+  slug: graphite-connect-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/graphite-connect/openapi/_ae-authored/graphite-connect-openapi-generated.yml
 - filename: graphite-connect-oauth-api-openapi.yml
   format: yaml
   label: Graphite Connect OAuth API
   slug: graphite-connect-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-connect/refs/heads/main/openapi/graphite-connect-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/graphite-connect/openapi/graphite-connect-oauth-api-openapi.yml
 - filename: graphite-connect-profile-api-openapi.yml
   format: yaml
   label: Graphite Connect Profile API
   slug: graphite-connect-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-connect/refs/heads/main/openapi/graphite-connect-profile-api-openapi.yml
+  url: https://artifacts.apis.io/graphite-connect/openapi/graphite-connect-profile-api-openapi.yml
 - filename: graphite-connect-search-api-openapi.yml
   format: yaml
   label: Graphite Connect Search API
   slug: graphite-connect-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/graphite-connect/refs/heads/main/openapi/graphite-connect-search-api-openapi.yml
+  url: https://artifacts.apis.io/graphite-connect/openapi/graphite-connect-search-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -56,7 +62,7 @@ source_filename: graphite-connect-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: derived\nsource: openapi/graphite-connect-openapi-generated.yml\nschemes:\n- name: OAuth_2.0_Client_Credentials\n  source: openapi/graphite-connect-openapi-generated.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://app.graphiteconnect.com/api/oauth/token\nscopes:\n- name: default\n  description: No scopes defined in provider contract\n  source: openapi/_ae-authored/graphite-connect-openapi-generated.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/graphite-connect/refs/heads/main/scopes/graphite-connect-scopes.yml
+source_yaml_url: https://artifacts.apis.io/graphite-connect/scopes/graphite-connect-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Company

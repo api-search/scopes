@@ -5,175 +5,175 @@ api_specs:
   label: AngelCam Active Service API
   slug: angelcam-active-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-active-service-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-active-service-api-openapi.yml
 - filename: angelcam-angelcameras-api-openapi.yml
   format: yaml
   label: AngelCam Angelcameras API
   slug: angelcam-angelcameras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-angelcameras-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-angelcameras-api-openapi.yml
 - filename: angelcam-arrow-clients-api-openapi.yml
   format: yaml
   label: AngelCam Arrow Clients API
   slug: angelcam-arrow-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-arrow-clients-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-arrow-clients-api-openapi.yml
 - filename: angelcam-audio-message-api-openapi.yml
   format: yaml
   label: AngelCam Audio Message API
   slug: angelcam-audio-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-audio-message-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-audio-message-api-openapi.yml
 - filename: angelcam-broadcasting-api-openapi.yml
   format: yaml
   label: AngelCam Broadcasting API
   slug: angelcam-broadcasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-broadcasting-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-broadcasting-api-openapi.yml
 - filename: angelcam-camera-api-openapi.yml
   format: yaml
   label: AngelCam Camera API
   slug: angelcam-camera-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-camera-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-camera-api-openapi.yml
 - filename: angelcam-camera-guest-api-openapi.yml
   format: yaml
   label: AngelCam Camera Guest API
   slug: angelcam-camera-guest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-camera-guest-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-camera-guest-api-openapi.yml
 - filename: angelcam-camera-stream-detection-api-openapi.yml
   format: yaml
   label: AngelCam Camera Stream Detection API
   slug: angelcam-camera-stream-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-camera-stream-detection-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-camera-stream-detection-api-openapi.yml
 - filename: angelcam-client-api-openapi.yml
   format: yaml
   label: AngelCam Client API
   slug: angelcam-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-client-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-client-api-openapi.yml
 - filename: angelcam-clip-api-openapi.yml
   format: yaml
   label: AngelCam Clip API
   slug: angelcam-clip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-clip-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-clip-api-openapi.yml
 - filename: angelcam-event-api-openapi.yml
   format: yaml
   label: AngelCam Event API
   slug: angelcam-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-event-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-event-api-openapi.yml
 - filename: angelcam-incidents-api-openapi.yml
   format: yaml
   label: AngelCam Incidents API
   slug: angelcam-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-incidents-api-openapi.yml
 - filename: angelcam-location-api-openapi.yml
   format: yaml
   label: AngelCam Location API
   slug: angelcam-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-location-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-location-api-openapi.yml
 - filename: angelcam-order-api-openapi.yml
   format: yaml
   label: AngelCam Order API
   slug: angelcam-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-order-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-order-api-openapi.yml
 - filename: angelcam-public-camera-api-openapi.yml
   format: yaml
   label: AngelCam Public Camera API
   slug: angelcam-public-camera-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-public-camera-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-public-camera-api-openapi.yml
 - filename: angelcam-recording-api-openapi.yml
   format: yaml
   label: AngelCam Recording API
   slug: angelcam-recording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-recording-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-recording-api-openapi.yml
 - filename: angelcam-rts-messages-api-openapi.yml
   format: yaml
   label: AngelCam Rts Messages API
   slug: angelcam-rts-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-rts-messages-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-rts-messages-api-openapi.yml
 - filename: angelcam-rts-notification-methods-api-openapi.yml
   format: yaml
   label: AngelCam Rts Notification Methods API
   slug: angelcam-rts-notification-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-rts-notification-methods-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-rts-notification-methods-api-openapi.yml
 - filename: angelcam-rts-notification-rules-api-openapi.yml
   format: yaml
   label: AngelCam Rts Notification Rules API
   slug: angelcam-rts-notification-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-rts-notification-rules-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-rts-notification-rules-api-openapi.yml
 - filename: angelcam-rts-settings-api-openapi.yml
   format: yaml
   label: AngelCam Rts Settings API
   slug: angelcam-rts-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-rts-settings-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-rts-settings-api-openapi.yml
 - filename: angelcam-sensor-api-openapi.yml
   format: yaml
   label: AngelCam Sensor API
   slug: angelcam-sensor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-sensor-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-sensor-api-openapi.yml
 - filename: angelcam-service-api-openapi.yml
   format: yaml
   label: AngelCam Service API
   slug: angelcam-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-service-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-service-api-openapi.yml
 - filename: angelcam-shared-camera-api-openapi.yml
   format: yaml
   label: AngelCam Shared Camera API
   slug: angelcam-shared-camera-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-shared-camera-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-shared-camera-api-openapi.yml
 - filename: angelcam-shared-camera-clip-api-openapi.yml
   format: yaml
   label: AngelCam Shared Camera Clip API
   slug: angelcam-shared-camera-clip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-shared-camera-clip-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-shared-camera-clip-api-openapi.yml
 - filename: angelcam-shared-camera-recording-api-openapi.yml
   format: yaml
   label: AngelCam Shared Camera Recording API
   slug: angelcam-shared-camera-recording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-shared-camera-recording-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-shared-camera-recording-api-openapi.yml
 - filename: angelcam-space-api-openapi.yml
   format: yaml
   label: AngelCam Space API
   slug: angelcam-space-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-space-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-space-api-openapi.yml
 - filename: angelcam-speakers-api-openapi.yml
   format: yaml
   label: AngelCam Speakers API
   slug: angelcam-speakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-speakers-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-speakers-api-openapi.yml
 - filename: angelcam-stream-controls-api-openapi.yml
   format: yaml
   label: AngelCam Stream Controls API
   slug: angelcam-stream-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-stream-controls-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-stream-controls-api-openapi.yml
 - filename: angelcam-user-api-openapi.yml
   format: yaml
   label: AngelCam User API
   slug: angelcam-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-user-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-user-api-openapi.yml
 authorization_urls:
 - https://my.angelcam.com/oauth/authorize/
 description: ''
@@ -504,7 +504,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/angelca
   - scope: rts_arming_manage\n  description: Permission to arm and disarm RTS\n  flows:\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: rts_settings_access\n  description: Permission to access RTS settings\n  flows:\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: rts_settings_manage\n  description: Permission to manage RTS settings\n  flows:\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: sensor_access\n  description: Permission to list sensors and to get details of a specific sensor\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: sensor_manage\n  description: Permission to create, update and delete sensors\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: services_access\n  description: Permission to access available services\n  flows:\n  - authorizationCode\n  - password\n\
   \  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: sites_access\n  description: Permission to access sites\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: sites_manage\n  description: Permission to create, update and delete sites\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: space_access\n  description: Permission to list and activate spaces\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: space_permissions_access\n  description: Permission to view space permissions\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: speaker_access\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: speaker_manage\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: streams_detect\n  description: Permission to detect\
   \ camera streams\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: trials_access\n  description: Permission to access available trials\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: trials_activate\n  description: Permission to activate a trial\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: user_access\n  description: Permission to access user information\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\n- scope: user_delete\n  description: Permission to delete the current user account\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/angelcam-openapi-original.yml\ndocs: https://developers.angelcam.com/guides/authentication/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/scopes/angelcam-scopes.yml
+source_yaml_url: https://artifacts.apis.io/angelcam/scopes/angelcam-scopes.yml
 summary_line: 51 scopes · authorizationCode/password
 tags:
 - Company

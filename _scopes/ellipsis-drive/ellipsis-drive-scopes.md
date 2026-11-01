@@ -36,7 +36,7 @@ source_filename: ellipsis-drive-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.ellipsis-drive.com/developers/api-v3/oauth/authorization\ndocs: https://docs.ellipsis-drive.com/developers/api-v3/oauth/authorization\nschemes:\n- name: oauth2\n  source: docs\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.ellipsis-drive.com/v3/oauth/authorize\nscopes:\n- scope: projects\n  description: >-\n    Allows the use of all API calls except those in /settings/account. This is the default and\n    currently the only supported OAuth scope.\n  flows: [authorizationCode]\n  sources: [docs]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ellipsis-drive/refs/heads/main/scopes/ellipsis-drive-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ellipsis-drive/scopes/ellipsis-drive-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

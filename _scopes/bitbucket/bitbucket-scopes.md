@@ -5,139 +5,139 @@ api_specs:
   label: Bitbucket Addon API
   slug: bitbucket-addon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-addon-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-addon-api-openapi.yml
 - filename: bitbucket-branch-restrictions-api-openapi.yml
   format: yaml
   label: Bitbucket Branch restrictions API
   slug: bitbucket-branch-restrictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-branch-restrictions-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-branch-restrictions-api-openapi.yml
 - filename: bitbucket-branching-model-api-openapi.yml
   format: yaml
   label: Bitbucket Branching model API
   slug: bitbucket-branching-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-branching-model-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-branching-model-api-openapi.yml
 - filename: bitbucket-commit-statuses-api-openapi.yml
   format: yaml
   label: Bitbucket Commit statuses API
   slug: bitbucket-commit-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-commit-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-commit-statuses-api-openapi.yml
 - filename: bitbucket-commits-api-openapi.yml
   format: yaml
   label: Bitbucket Commits API
   slug: bitbucket-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-commits-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-commits-api-openapi.yml
 - filename: bitbucket-deployments-api-openapi.yml
   format: yaml
   label: Bitbucket Deployments API
   slug: bitbucket-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-deployments-api-openapi.yml
 - filename: bitbucket-downloads-api-openapi.yml
   format: yaml
   label: Bitbucket Downloads API
   slug: bitbucket-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-downloads-api-openapi.yml
 - filename: bitbucket-gpg-api-openapi.yml
   format: yaml
   label: Bitbucket GPG API
   slug: bitbucket-gpg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-gpg-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-gpg-api-openapi.yml
 - filename: bitbucket-issue-tracker-api-openapi.yml
   format: yaml
   label: Bitbucket Issue tracker API
   slug: bitbucket-issue-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-issue-tracker-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-issue-tracker-api-openapi.yml
 - filename: bitbucket-pipelines-api-openapi.yml
   format: yaml
   label: Bitbucket Pipelines API
   slug: bitbucket-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-pipelines-api-openapi.yml
 - filename: bitbucket-projects-api-openapi.yml
   format: yaml
   label: Bitbucket Projects API
   slug: bitbucket-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-projects-api-openapi.yml
 - filename: bitbucket-properties-api-openapi.yml
   format: yaml
   label: Bitbucket Properties API
   slug: bitbucket-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-properties-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-properties-api-openapi.yml
 - filename: bitbucket-refs-api-openapi.yml
   format: yaml
   label: Bitbucket Refs API
   slug: bitbucket-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-refs-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-refs-api-openapi.yml
 - filename: bitbucket-reports-api-openapi.yml
   format: yaml
   label: Bitbucket Reports API
   slug: bitbucket-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-reports-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-reports-api-openapi.yml
 - filename: bitbucket-repositories-api-openapi.yml
   format: yaml
   label: Bitbucket Repositories API
   slug: bitbucket-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-repositories-api-openapi.yml
 - filename: bitbucket-search-api-openapi.yml
   format: yaml
   label: Bitbucket Search API
   slug: bitbucket-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-search-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-search-api-openapi.yml
 - filename: bitbucket-snippets-api-openapi.yml
   format: yaml
   label: Bitbucket Snippets API
   slug: bitbucket-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-snippets-api-openapi.yml
 - filename: bitbucket-source-api-openapi.yml
   format: yaml
   label: Bitbucket Source API
   slug: bitbucket-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-source-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-source-api-openapi.yml
 - filename: bitbucket-ssh-api-openapi.yml
   format: yaml
   label: Bitbucket SSH API
   slug: bitbucket-ssh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-ssh-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-ssh-api-openapi.yml
 - filename: bitbucket-users-api-openapi.yml
   format: yaml
   label: Bitbucket Users API
   slug: bitbucket-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-users-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-users-api-openapi.yml
 - filename: bitbucket-webhooks-api-openapi.yml
   format: yaml
   label: Bitbucket Webhooks API
   slug: bitbucket-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-webhooks-api-openapi.yml
 - filename: bitbucket-workspaces-api-openapi.yml
   format: yaml
   label: Bitbucket Workspaces API
   slug: bitbucket-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-workspaces-api-openapi.yml
 - filename: bitbucket-pull-requests-api-openapi.yml
   format: yaml
   label: Bitbucket Pull Requests API
   slug: bitbucket-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/bitbucket/openapi/bitbucket-pull-requests-api-openapi.yml
 authorization_urls:
 - https://bitbucket.org/site/oauth2/authorize
 description: ''
@@ -309,7 +309,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bitbucke
   \  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: project:admin\n  description: Read and modify settings for projects in your workspace\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: pullrequest\n  description: Read your repositories and their pull requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: pullrequest:write\n  description: Read and modify your repositories and their pull requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: repository\n  description: Read your repositories\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: repository:admin\n  description: Administer your repositories\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope:\
   \ repository:delete\n  description: Delete your repositories\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: repository:write\n  description: Read and modify your repositories\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: runner\n  description: Access your workspaces/repositories' runners\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: runner:write\n  description: Access and edit your workspaces/repositories' runners\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: snippet\n  description: Read your snippets\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: snippet:write\n  description: Read and modify your snippets\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n\
   - scope: team\n  description: Read your team membership information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: team:write\n  description: Read and modify your team membership information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: test\n  description: Access your workspaces/repositories' test\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: test:write\n  description: Access and edit your workspaces/repositories' test\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: webhook\n  description: Read and modify your repositories' webhooks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n- scope: wiki\n  description: Read and modify your repositories' wikis\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bitbucket-cloud-rest-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/scopes/bitbucket-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bitbucket/scopes/bitbucket-scopes.yml
 summary_line: 26 scopes · authorizationCode
 tags:
 - Atlassian

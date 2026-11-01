@@ -5,31 +5,31 @@ api_specs:
   label: Autodesk Construction Cloud Companies API
   slug: autodesk-construction-cloud-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-companies-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-companies-api-openapi.yml
 - filename: autodesk-construction-cloud-issues-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Issues API
   slug: autodesk-construction-cloud-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issues-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-issues-api-openapi.yml
 - filename: autodesk-construction-cloud-projects-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Projects API
   slug: autodesk-construction-cloud-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-projects-api-openapi.yml
 - filename: autodesk-construction-cloud-users-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Users API
   slug: autodesk-construction-cloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-users-api-openapi.yml
 - filename: autodesk-construction-cloud-issue-types-api-openapi.yml
   format: yaml
   label: Autodesk Construction Cloud Issue Types API
   slug: autodesk-construction-cloud-issue-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/openapi/autodesk-construction-cloud-issue-types-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-construction-cloud/openapi/autodesk-construction-cloud-issue-types-api-openapi.yml
 authorization_urls:
 - https://developer.api.autodesk.com/authentication/v2/authorize
 description: ''
@@ -101,7 +101,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/acc-admin-openapi.yml, openapi/acc-issues-openapi.yml\nschemes:\n- name: oauth2ThreeLegged\n  source: openapi/acc-admin-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://developer.api.autodesk.com/authentication/v2/authorize\n    tokenUrl: https://developer.api.autodesk.com/authentication/v2/token\n- name: oauth2TwoLegged\n  source: openapi/acc-admin-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://developer.api.autodesk.com/authentication/v2/token\n- name: oauth2ThreeLegged\n  source: openapi/acc-issues-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://developer.api.autodesk.com/authentication/v2/authorize\n    tokenUrl: https://developer.api.autodesk.com/authentication/v2/token\nscopes:\n- scope: account:read\n  description: Read account data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/acc-admin-openapi.yml\n\
   - scope: account:write\n  description: Modify account data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/acc-admin-openapi.yml\n- scope: data:read\n  description: Read project data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/acc-admin-openapi.yml\n  - openapi/acc-issues-openapi.yml\n- scope: data:write\n  description: Write project data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/acc-admin-openapi.yml\n  - openapi/acc-issues-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/scopes/autodesk-construction-cloud-scopes.yml
+source_yaml_url: https://artifacts.apis.io/autodesk-construction-cloud/scopes/autodesk-construction-cloud-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
 - Construction

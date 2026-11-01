@@ -5,49 +5,49 @@ api_specs:
   label: Dokki Account API
   slug: dokki-one-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-account-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-account-api-openapi.yml
 - filename: dokki-one-agents-api-openapi.yml
   format: yaml
   label: Dokki Agents API
   slug: dokki-one-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-agents-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-agents-api-openapi.yml
 - filename: dokki-one-collaboration-api-openapi.yml
   format: yaml
   label: Dokki Collaboration API
   slug: dokki-one-collaboration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-collaboration-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-collaboration-api-openapi.yml
 - filename: dokki-one-core-api-openapi.yml
   format: yaml
   label: Dokki Core API
   slug: dokki-one-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-core-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-core-api-openapi.yml
 - filename: dokki-one-organizations-api-openapi.yml
   format: yaml
   label: Dokki Organizations API
   slug: dokki-one-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-organizations-api-openapi.yml
 - filename: dokki-one-publishing-api-openapi.yml
   format: yaml
   label: Dokki Publishing API
   slug: dokki-one-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-publishing-api-openapi.yml
 - filename: dokki-one-resources-api-openapi.yml
   format: yaml
   label: Dokki Resources API
   slug: dokki-one-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-resources-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-resources-api-openapi.yml
 - filename: dokki-one-search-api-openapi.yml
   format: yaml
   label: Dokki Search API
   slug: dokki-one-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/openapi/dokki-one-search-api-openapi.yml
+  url: https://artifacts.apis.io/dokki-one/openapi/dokki-one-search-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://dokki.one/pub/api/api-keys-and-scopes
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://dokki.o
   \      the scope only by naming it on each endpoint page)\n    documented_description: false\n    operations:\n    - createWorkItem\n    - deleteWorkItem\n    - updateWorkItem\n  - scope: workspace:read\n    resource: workspace\n    action: read\n    description: list accessible workspaces\n    documented_description: true\n    operations:\n    - getWorkspace\n    - listWorkspaces\n  - scope: workspace:write\n    resource: workspace\n    action: write\n    description: write access to workspace endpoints (inferred from the resource:action name; the reference documents\n      the scope only by naming it on each endpoint page)\n    documented_description: false\n    operations:\n    - archiveWorkspace\n    - createWorkspace\n    - updateWorkspace\n  - scope: workspace_template:read\n    resource: workspace_template\n    action: read\n    description: read access to workspace template endpoints (inferred from the resource:action name; the reference\n      documents the scope only by naming\
   \ it on each endpoint page)\n    documented_description: false\n    operations:\n    - getWorkspaceTemplate\n    - listWorkspaceTemplates\n  - scope: workspace_template:write\n    resource: workspace_template\n    action: write\n    description: write access to workspace template endpoints (inferred from the resource:action name; the reference\n      documents the scope only by naming it on each endpoint page)\n    documented_description: false\n    operations:\n    - createWorkspaceTemplate\n    - deleteWorkspaceTemplate\nno_scope_required:\n  operations:\n  - getCapabilities\n  - getMe\n  note: GET /api/v1/me and GET /api/v1/capabilities still require a valid credential; they need no specific scope.\noauth_scopes:\n  authorization_server: https://dokki.one (metadata at /.well-known/oauth-authorization-server; endpoints on Dokki's\n    Supabase Auth tenant)\n  scopes_supported:\n  - openid\n  - profile\n  - email\n  - phone\n  - offline_access\n  protected_resource_scopes_supported:\n\
   \  - openid\n  - email\n  - profile\n  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  code_challenge_methods_supported:\n  - S256\n  - plain\n  registration_endpoint: https://schcrwqbgkcmhdltwgcz.supabase.co/auth/v1/oauth/clients/register\n  consent_model: Personal / Organization / Workspace selection on the consent screen; reconnect to change the grant\n    — \"Do not assume that passing a different workspace_id can expand an existing grant.\"\nintegration_patterns_from_docs:\n  read_only_indexer:\n  - workspace:read\n  - resource:read\n  - content:read\n  - search:read\n  content_synchronizer:\n  - workspace:read\n  - resource:read\n  - content:read\n  - search:read\n  - content:write\n  ai_agent: start with read scopes, add one write scope at a time, require approval for publishing, sharing, deletion\n    or billing\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dokki-one/refs/heads/main/scopes/dokki-one-scopes.yml
+source_yaml_url: https://artifacts.apis.io/dokki-one/scopes/dokki-one-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Collaboration

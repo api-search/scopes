@@ -61,7 +61,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://ambrook.com/.well-known/oauth-authorization-server\ndocs: https://ambrook.com/.well-known/oauth-authorization-server\nschemes:\n- name: OAuth2\n  source: well-known/ambrook-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ambrook.com/oauth/mcp/authorize\n    tokenUrl: https://ambrook.com/api/v1/oauth/mcp/token\nscopes:\n- scope: mcp:readonly_graphql\n  description: Read-only access to the Ambrook GraphQL data surface via the MCP server\n  flows: [authorizationCode]\n  sources: [well-known/ambrook-oauth-authorization-server.json]\n- scope: mcp:gateway\n  description: MCP gateway access\n  flows: [authorizationCode]\n  sources: [well-known/ambrook-oauth-authorization-server.json]\n- scope: mcp:readonly_admin\n  description: Read-only administrative access via the MCP server\n  flows: [authorizationCode]\n  sources: [well-known/ambrook-oauth-authorization-server.json]\n\
   - scope: external_mcp:read\n  description: External MCP read access\n  flows: [authorizationCode]\n  sources: [well-known/ambrook-oauth-authorization-server.json]\n- scope: export:download\n  description: Download exported reports and data\n  flows: [authorizationCode]\n  sources: [well-known/ambrook-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambrook/refs/heads/main/scopes/ambrook-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ambrook/scopes/ambrook-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Company

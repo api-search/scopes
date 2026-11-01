@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://www.aventon.com/.well-known/openid-configuration\ndocs: https://www.aventon.com/.well-known/oauth-authorization-server\nnotes: >-\n  OAuth/OIDC scopes advertised by the Shopify Customer Account authorization\n  server on aventon.com. customer-account-mcp-api:full is the scope that unlocks\n  the agent/MCP commerce surface documented in /llms.txt.\nschemes:\n- name: shopifyCustomerAccountOIDC\n  source: well-known/aventon-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/15202468/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/15202468/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token identifying the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the authenticated customer's email address.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n\
   \  description: Full access to the Shopify Customer Account API on behalf of the signed-in customer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API - the agent/MCP commerce surface.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aventon/refs/heads/main/scopes/aventon-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aventon/scopes/aventon-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

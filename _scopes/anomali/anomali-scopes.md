@@ -5,7 +5,7 @@ api_specs:
   label: Anomali API
   slug: anomali-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anomali/refs/heads/main/openapi/_ae-authored/anomali-openapi-generated.yml
+  url: https://artifacts.apis.io/anomali/openapi/_ae-authored/anomali-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -79,7 +79,7 @@ source_yaml: 'name: Anomali OAuth scopes
   note: Scope names published only as scopes_supported in the protected-resource document; no descriptions are published.
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anomali/refs/heads/main/scopes/anomali-scopes.yml
+source_yaml_url: https://artifacts.apis.io/anomali/scopes/anomali-scopes.yml
 summary_line: 6 scopes
 tags:
 - Company

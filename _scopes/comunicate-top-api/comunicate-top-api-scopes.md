@@ -5,67 +5,67 @@ api_specs:
   label: Comunicate.top API Articles API
   slug: comunicate-top-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-articles-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-articles-api-openapi.yml
 - filename: comunicate-top-api-balance-and-reports-api-openapi.yml
   format: yaml
   label: Comunicate.top API Balance and reports API
   slug: comunicate-top-api-balance-and-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-balance-and-reports-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-balance-and-reports-api-openapi.yml
 - filename: comunicate-top-api-campaigns-api-openapi.yml
   format: yaml
   label: Comunicate.top API Campaigns API
   slug: comunicate-top-api-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-campaigns-api-openapi.yml
 - filename: comunicate-top-api-catalogue-api-openapi.yml
   format: yaml
   label: Comunicate.top API Catalogue API
   slug: comunicate-top-api-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-catalogue-api-openapi.yml
 - filename: comunicate-top-api-checks-api-openapi.yml
   format: yaml
   label: Comunicate.top API Checks API
   slug: comunicate-top-api-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-checks-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-checks-api-openapi.yml
 - filename: comunicate-top-api-domain-audit-api-openapi.yml
   format: yaml
   label: Comunicate.top API Domain audit API
   slug: comunicate-top-api-domain-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-domain-audit-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-domain-audit-api-openapi.yml
 - filename: comunicate-top-api-key-and-permissions-api-openapi.yml
   format: yaml
   label: Comunicate.top API Key and permissions API
   slug: comunicate-top-api-key-and-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-key-and-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-key-and-permissions-api-openapi.yml
 - filename: comunicate-top-api-media-api-openapi.yml
   format: yaml
   label: Comunicate.top API Media API
   slug: comunicate-top-api-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-media-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-media-api-openapi.yml
 - filename: comunicate-top-api-public-catalogue-api-openapi.yml
   format: yaml
   label: Comunicate.top API Public catalogue API
   slug: comunicate-top-api-public-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-public-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-public-catalogue-api-openapi.yml
 - filename: comunicate-top-api-publications-api-openapi.yml
   format: yaml
   label: Comunicate.top API Publications API
   slug: comunicate-top-api-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-publications-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-publications-api-openapi.yml
 - filename: comunicate-top-api-writing-orders-api-openapi.yml
   format: yaml
   label: Comunicate.top API Writing orders API
   slug: comunicate-top-api-writing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/openapi/comunicate-top-api-writing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/comunicate-top-api/openapi/comunicate-top-api-writing-orders-api-openapi.yml
 authorization_urls:
 - https://app.comunicate.top/api/v1/oauth/authorize
 description: ''
@@ -159,7 +159,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: searched\nsource: openapi/comunic
   \ (RFC 7591 dynamic client registration)\n    pkce: S256 required (OAuth 2.1)\n    description: >-\n      OAuth 2.1 with PKCE (S256). Dynamic client registration at\n      https://app.comunicate.top/api/v1/oauth/register. The access token is an API key and is\n      accepted everywhere an API key is.\nscopes:\n  - scope: CATALOG_READ\n    description: Read the publication catalogue and the campaign types.\n    flows: [authorizationCode]\n    sources: [openapi/comunicate-top-api-openapi-original.json]\n  - scope: ARTICLES_READ\n    description: Read the organization's articles.\n    flows: [authorizationCode]\n    sources: [openapi/comunicate-top-api-openapi-original.json]\n  - scope: ARTICLES_WRITE\n    description: Create and modify articles, import documents and from Drive, request writing orders.\n    flows: [authorizationCode]\n    sources: [openapi/comunicate-top-api-openapi-original.json]\n  - scope: MEDIA_WRITE\n    description: Upload images to the gallery.\n    flows: [authorizationCode]\n\
   \    sources: [openapi/comunicate-top-api-openapi-original.json]\n  - scope: PUBLICATIONS_READ\n    description: Read publications and their status.\n    flows: [authorizationCode]\n    sources: [openapi/comunicate-top-api-openapi-original.json]\n  - scope: PUBLICATIONS_WRITE\n    description: Request publication — the only permission that spends credits or money.\n    flows: [authorizationCode]\n    sources: [openapi/comunicate-top-api-openapi-original.json]\n  - scope: CAMPAIGNS_READ\n    description: Read campaigns.\n    flows: [authorizationCode]\n    sources: [openapi/comunicate-top-api-openapi-original.json]\n  - scope: CAMPAIGNS_WRITE\n    description: Create campaigns.\n    flows: [authorizationCode]\n    sources: [openapi/comunicate-top-api-openapi-original.json]\n  - scope: BALANCE_READ\n    description: Read the balance and the packages held.\n    flows: [authorizationCode]\n    sources: [openapi/comunicate-top-api-openapi-original.json]\n  - scope: REPORTS_READ\n    description:\
   \ Read reports over a period.\n    flows: [authorizationCode]\n    sources: [openapi/comunicate-top-api-openapi-original.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/comunicate-top-api/refs/heads/main/scopes/comunicate-top-api-scopes.yml
+source_yaml_url: https://artifacts.apis.io/comunicate-top-api/scopes/comunicate-top-api-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
 - Press Releases

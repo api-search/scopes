@@ -5,97 +5,97 @@ api_specs:
   label: availity Auth Attachments API
   slug: availity-auth-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-auth-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-auth-attachments-api-openapi.yml
 - filename: availity-claim-attachments-api-openapi.yml
   format: yaml
   label: availity Claim Attachments API
   slug: availity-claim-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-claim-attachments-api-openapi.yml
 - filename: availity-claim-status-api-openapi.yml
   format: yaml
   label: availity Claim Status API
   slug: availity-claim-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-status-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-claim-status-api-openapi.yml
 - filename: availity-eligibility-api-openapi.yml
   format: yaml
   label: availity Eligibility API
   slug: availity-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-eligibility-api-openapi.yml
 - filename: availity-enhanced-claim-status-api-openapi.yml
   format: yaml
   label: availity Enhanced Claim Status API
   slug: availity-enhanced-claim-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-enhanced-claim-status-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-enhanced-claim-status-api-openapi.yml
 - filename: availity-is-auth-required-api-openapi.yml
   format: yaml
   label: availity Is Auth Required API
   slug: availity-is-auth-required-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-is-auth-required-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-is-auth-required-api-openapi.yml
 - filename: availity-service-reviews-api-openapi.yml
   format: yaml
   label: availity Service Reviews API
   slug: availity-service-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-service-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-service-reviews-api-openapi.yml
 - filename: availity-availity-payer-list-api-openapi.yml
   format: yaml
   label: Availity Availity Payer List API
   slug: availity-availity-payer-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-availity-payer-list-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-availity-payer-list-api-openapi.yml
 - filename: availity-claim-statuses-api-openapi.yml
   format: yaml
   label: Availity Claim Statuses API
   slug: availity-claim-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-claim-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-claim-statuses-api-openapi.yml
 - filename: availity-configurations-api-openapi.yml
   format: yaml
   label: Availity Configurations API
   slug: availity-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-configurations-api-openapi.yml
 - filename: availity-coverages-api-openapi.yml
   format: yaml
   label: Availity Coverages API
   slug: availity-coverages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-coverages-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-coverages-api-openapi.yml
 - filename: availity-dental-claims-api-openapi.yml
   format: yaml
   label: Availity Dental Claims API
   slug: availity-dental-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-dental-claims-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-dental-claims-api-openapi.yml
 - filename: availity-dfs-api-openapi.yml
   format: yaml
   label: Availity Dfs API
   slug: availity-dfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-dfs-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-dfs-api-openapi.yml
 - filename: availity-institutional-claims-api-openapi.yml
   format: yaml
   label: Availity Institutional Claims API
   slug: availity-institutional-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-institutional-claims-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-institutional-claims-api-openapi.yml
 - filename: availity-patient-cost-estimator-2-0-0-professional-api-openapi.yml
   format: yaml
   label: Availity Patient Cost Estimator 2.0.0 Professional API
   slug: availity-patient-cost-estimator-2-0-0-professional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-patient-cost-estimator-2-0-0-professional-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-patient-cost-estimator-2-0-0-professional-api-openapi.yml
 - filename: availity-professional-claims-api-openapi.yml
   format: yaml
   label: Availity Professional Claims API
   slug: availity-professional-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/openapi/availity-professional-claims-api-openapi.yml
+  url: https://artifacts.apis.io/availity/openapi/availity-professional-claims-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.availity.com/blog/2025/3/25/availity-api-guide
@@ -171,7 +171,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/_harves
   \ no contract required.\n    product: healthcare-hipaa-transactions-demo\n  - scope: healthcare-hipaa-transactions-highvolume\n    kind: product\n    description: Healthcare HIPAA Transactions High Volume — the elevated-throughput variant of the core product.\n    product: healthcare-hipaa-transactions-highvolume\n  - scope: healthcare-hipaa-transactions-highvolume-standard\n    kind: plan\n    description: Standard plan tier within the High Volume product.\n    product: healthcare-hipaa-transactions-highvolume\n  - scope: healthcare-hipaa-transactions-highvolume-unlimited\n    kind: plan\n    description: >-\n      Unlimited plan tier within the High Volume product. No published quota; this tier is not\n      listed on the public catalogue page and is presumably contract-only.\n    product: healthcare-hipaa-transactions-highvolume\n  - scope: rcm-coverages\n    kind: product\n    description: >-\n      RCM Coverages — a revenue-cycle-management-specific entitlement over the Coverages\
   \ (270/271)\n      API. Declared in the Coverages Swagger but not offered as a public catalogue product; visible\n      only inside the machine-readable document.\n    product: rcm-coverages\n    declared_in:\n      - availity-coverages\n  - scope: rcm-coverages-standard\n    kind: plan\n    description: Standard plan tier within the RCM Coverages product.\n    product: rcm-coverages\n  - scope: aws-availity-payer-list\n    kind: product\n    description: >-\n      AWS Availity Payer List — a separately subscribable product exposing the payer list through an\n      AWS-hosted route at basePath /epdm-payer-list-aws/v1.\n    product: aws-availity-payer-list\n    declared_in:\n      - availity-aws-payer-list\n  - scope: aws-availity-payer-list-standard\n    kind: plan\n    description: Standard plan tier — 1,000,000 calls per day, 100 calls per second.\n    product: aws-availity-payer-list\nanomalies:\n  - >-\n    Every harvested document declares its operation-level requirement as\n    `security:\
   \ [{\"oauth2\": [\"hipaa\"]}]` — referencing a scope named \"hipaa\" that is NOT defined in\n    any securityDefinitions.scopes map. The scope vocabulary Availity actually issues at the token\n    endpoint is the product/plan vocabulary above. The \"hipaa\" reference appears to be a stale\n    literal in the gateway's spec-generation template. Recorded because a code generator reading\n    these specs will emit a token request for a scope Availity will not grant.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/scopes/availity-scopes.yml
+source_yaml_url: https://artifacts.apis.io/availity/scopes/availity-scopes.yml
 summary_line: 10 scopes
 tags:
 - Healthcare

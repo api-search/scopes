@@ -5,25 +5,25 @@ api_specs:
   label: Unify Analytics Events API
   slug: unify-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-events-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-events-api-openapi.yml
 - filename: unify-sequences-api-openapi.yml
   format: yaml
   label: Unify Sequences API
   slug: unify-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-sequences-api-openapi.yml
 - filename: unify-tasks-api-openapi.yml
   format: yaml
   label: Unify Tasks API
   slug: unify-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-tasks-api-openapi.yml
 - filename: unify-data-api-openapi.yml
   format: yaml
   label: Unify Data API
   slug: unify-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/openapi/unify-data-api-openapi.yml
+  url: https://artifacts.apis.io/unify/openapi/unify-data-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.unifygtm.com/developers/mcp/getting-started
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://auth.unif
   \ true\n  pkce_methods: [S256, plain]\n  token_endpoint_auth_methods: [client_secret_basic, client_secret_post, private_key_jwt, none]\n  dpop_signing_alg_values_supported: [ES256]\nprotected_resource:\n  resource: https://mcp.unifygtm.com/mcp\n  authorization_servers: [https://auth.unifygtm.com/]\n  bearer_methods_supported: [header]\n  spec: RFC 9728\n  file: well-known/unify-oauth-protected-resource.json\nflows:\n  - flow: authorizationCode\n    pkce: true\n    note: The path a Claude/Cursor/Codex MCP client uses when a person logs in to Unify.\n  - flow: deviceCode\n    grant: urn:ietf:params:oauth:grant-type:device_code\n  - flow: clientCredentials\n  - flow: refreshToken\n  - flow: tokenExchange\n    grant: urn:ietf:params:oauth:grant-type:token-exchange\n  - flow: implicit\n    note: Advertised by the tenant; not a path Unify documents for MCP.\nscopes:\n  - scope: openid\n    description: Standard OIDC scope requesting an ID token for the authenticated Unify user.\n    kind: identity\n\
   \  - scope: profile\n    description: Standard OIDC scope for the user's basic profile claims.\n    kind: identity\n  - scope: offline_access\n    description: Requests a refresh token so an MCP client can keep the connection alive without re-prompting.\n    kind: identity\n  - scope: email\n    description: The user's email address.\n    kind: identity\n  - scope: email_verified\n    kind: identity\n  - scope: name\n    kind: identity\n  - scope: given_name\n    kind: identity\n  - scope: family_name\n    kind: identity\n  - scope: nickname\n    kind: identity\n  - scope: picture\n    kind: identity\n  - scope: phone\n    kind: identity\n  - scope: address\n    kind: identity\n  - scope: created_at\n    kind: identity\n  - scope: identities\n    description: Linked identity-provider records for the user.\n    kind: identity\nalternative_auth:\n  - method: api-key\n    header: x-api-key\n    detail: >-\n      Unify documents an API-key alternative for MCP clients that cannot run the\n\
   \      OAuth flow. A key carries the full authority of the Unify user it belongs to\n      and is not scope-limited.\n    source: https://docs.unifygtm.com/developers/mcp/getting-started\ngaps:\n  - id: no-product-scopes\n    detail: >-\n      There is no way for a caller - human or agent - to request less than the full\n      authority of the authenticating user. Neither the OAuth server nor the API\n      key model offers a read-only or resource-limited grant, so least-privilege\n      delegation to an agent is not expressible today.\ncross_links:\n  authentication: authentication/unify-authentication.yml\n  mcp: mcp/unify-mcp.yml\n  well_known: well-known/unify-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/scopes/unify-scopes.yml
+source_yaml_url: https://artifacts.apis.io/unify/scopes/unify-scopes.yml
 summary_line: 14 scopes · authorizationCode/deviceCode/clientCredentials/refreshToken/tokenExchange/implicit
 tags:
 - Sales

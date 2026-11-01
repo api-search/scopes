@@ -46,7 +46,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.npmjs.com/package/@kevin.eu/kevin-platform-client (official SDK, startAuth example)\ndocs: https://developer.kevin.eu/platform/account-information\nschemes:\n- name: UserBearerToken\n  source: \"@kevin.eu/kevin-platform-client\"\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.kevin.eu/platform/auth\n    tokenUrl: https://api.kevin.eu/platform/auth/token\nscopes:\n- scope: payments\n  description: Initiate and manage payments on behalf of the authorizing user.\n  flows: [authorizationCode]\n  sources: [\"@kevin.eu/kevin-platform-client\"]\n- scope: accounts_basic\n  description: Read basic account information (Account Information Service).\n  flows: [authorizationCode]\n  sources: [\"@kevin.eu/kevin-platform-client\"]\nnotes: >-\n  Scopes `payments` and `accounts_basic` are the values documented in the\n  official SDK `startAuth` example. kevin.'s AIS surface (getAccounts,\n  getAccount,\
   \ getAccountTransactions, getAccountBalance) implies additional\n  account-detail/transaction/balance scopes, but only the two verbatim SDK\n  scopes are recorded here to avoid fabrication. Authorization/token URLs are the\n  documented api.kevin.eu platform host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kevin/refs/heads/main/scopes/kevin-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kevin/scopes/kevin-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

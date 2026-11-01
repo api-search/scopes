@@ -5,7 +5,7 @@ api_specs:
   label: Patronus Protect Scan API
   slug: patronus-protect-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patronus-protect/refs/heads/main/openapi/patronus-protect-scan-api-openapi.yml
+  url: https://artifacts.apis.io/patronus-protect/openapi/patronus-protect-scan-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -40,7 +40,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: probed\nsource: >-\n  Live RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-resource metadata at\n  control.patronus.studio/.well-known/ (saved verbatim under well-known/). No separate human scopes\n  reference page was reachable (docs host is Cloudflare JS-challenged).\noauth2:\n  authorization_server: https://control.patronus.studio\n  resource: https://control.patronus.studio/api\n  flow: authorizationCode\n  pkce: S256\nscopes:\n- name: scan:read\n  description: Read access to scan results / receipts on the Patronus control plane (MCP).\n- name: scan:write\n  description: Submit scans (text, URL, MCP-server audits) on the Patronus control plane (MCP).\nnote: >-\n  Both scopes are declared in scopes_supported of the authorization-server and protected-resource\n  metadata. Descriptions are inferred from the scope names and the Scan API surface; the provider\n  does not publish a reachable scope-reference page, so they are\
   \ not verbatim.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/patronus-protect/refs/heads/main/scopes/patronus-protect-scopes.yml
+source_yaml_url: https://artifacts.apis.io/patronus-protect/scopes/patronus-protect-scopes.yml
 summary_line: 2 scopes
 tags:
 - AI Safety

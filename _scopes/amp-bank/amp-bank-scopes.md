@@ -5,49 +5,49 @@ api_specs:
   label: AMP Bank Banking Account Balances API
   slug: amp-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/openapi/amp-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/amp-bank/openapi/amp-bank-banking-account-balances-api-openapi.yml
 - filename: amp-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: AMP Bank Banking Account Direct Debits API
   slug: amp-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/openapi/amp-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/amp-bank/openapi/amp-bank-banking-account-direct-debits-api-openapi.yml
 - filename: amp-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: AMP Bank Banking Account Scheduled Payments API
   slug: amp-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/openapi/amp-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/amp-bank/openapi/amp-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: amp-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: AMP Bank Banking Account Transactions API
   slug: amp-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/openapi/amp-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/amp-bank/openapi/amp-bank-banking-account-transactions-api-openapi.yml
 - filename: amp-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: AMP Bank Banking Accounts API
   slug: amp-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/openapi/amp-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/amp-bank/openapi/amp-bank-banking-accounts-api-openapi.yml
 - filename: amp-bank-banking-payees-api-openapi.yml
   format: yaml
   label: AMP Bank Banking Payees API
   slug: amp-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/openapi/amp-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/amp-bank/openapi/amp-bank-banking-payees-api-openapi.yml
 - filename: amp-bank-banking-products-api-openapi.yml
   format: yaml
   label: AMP Bank GO Banking Products API
   slug: amp-bank-go-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/openapi/amp-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/amp-bank/openapi/amp-bank-banking-products-api-openapi.yml
 - filename: amp-bank-banking-products-api-openapi.yml
   format: yaml
   label: AMP Bank Banking Products API
   slug: amp-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/openapi/amp-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/amp-bank/openapi/amp-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -95,7 +95,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/amp-bank-cds-banking-products-openapi.yml (x-scopes per operation) + DSB Consumer Data Standards\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\nsummary: >-\n  OAuth 2.0 authorisation scopes governing the accredited CDR consumer\n  data-sharing surface (accounts, balances, transactions, direct debits,\n  scheduled payments, payees). These are the standard DSB Consumer Data\n  Standards banking scopes, declared per-operation in the OpenAPI via the\n  x-scopes extension. They apply to the FAPI 1.0 Advanced / OpenID Connect\n  authorisation flow brokered by an Accredited Data Recipient (ADR) - NOT to\n  the public, unauthenticated Product Reference Data (PRD) surface, which needs\n  no scope. See authentication/amp-bank-authentication.yml for the auth profile.\nflow:\n  grant: authorization_code (FAPI 1.0 Advanced, OIDC, PAR, PKCE, mTLS-bound tokens)\n  registry: CDR Register / Data\
   \ Standards Body InfoSec profile\nscopes:\n- scope: bank:accounts.basic:read\n  description: >-\n    Read basic account information (account list, masked account numbers,\n    product category, balances) for accounts the consumer has authorised.\n  operations:\n  - listBankingAccounts\n  - listBankingBalancesBulk\n  - listBankingBalancesSpecificAccounts\n  - getBankingBalance\n- scope: bank:accounts.detail:read\n  description: >-\n    Read detailed account information (full account number, features, terms,\n    rates, addresses) for authorised accounts.\n  operations:\n  - getBankingAccountDetail\n- scope: bank:transactions:read\n  description: Read transaction data for authorised accounts.\n  operations:\n  - listBankingTransactions\n  - getBankingTransactionDetail\n- scope: bank:regular_payments:read\n  description: >-\n    Read direct debits, scheduled payments and instalment plans for authorised\n    accounts.\n  operations:\n  - listDirectDebits\n  - listDirectDebitsBulk\n  - listDirectDebitsSpecificAccounts\n\
   \  - listScheduledPayments\n  - listScheduledPaymentsBulk\n  - listScheduledPaymentsSpecificAccounts\n  - listInstalmentPlans\n  - listInstalmentPlansBulk\n- scope: bank:payees:read\n  description: Read the consumer's saved payee list for authorised accounts.\n  operations:\n  - listBankingPayees\n  - getBankingPayeeDetail\nnote: >-\n  Scope descriptions follow the DSB Consumer Data Standards authorisation-scopes\n  reference. AMP Bank implements the standard CDR banking scope set; it does not\n  define bank-proprietary scopes. The PRD product endpoints (listBankingProducts,\n  getBankingProductDetail) require no scope.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/scopes/amp-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/amp-bank/scopes/amp-bank-scopes.yml
 summary_line: 5 scopes
 tags:
 - Finance

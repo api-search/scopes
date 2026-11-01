@@ -5,25 +5,25 @@ api_specs:
   label: Android Orders API
   slug: android-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-orders-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-orders-api-openapi.yml
 - filename: android-purchases-api-openapi.yml
   format: yaml
   label: Android Purchases API
   slug: android-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-purchases-api-openapi.yml
 - filename: android-reviews-api-openapi.yml
   format: yaml
   label: Android Reviews API
   slug: android-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-reviews-api-openapi.yml
 - filename: android-subscriptions-api-openapi.yml
   format: yaml
   label: Android Subscriptions API
   slug: android-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-subscriptions-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -67,7 +67,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/google-play-developer-api.yml\ndocs: https://developers.google.com/android-publisher/authorization\nschemes:\n- name: oauth2\n  source: openapi/google-play-developer-api.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: >-\n    OAuth 2.0 authentication for the Google Play Developer API. Server-to-server\n    access uses a Google Cloud service account granted access in the Google Play\n    Console; the Web Server (authorizationCode) flow is documented for interactive\n    access. A single coarse-grained scope grants full API access.\nscopes:\n- scope: https://www.googleapis.com/auth/androidpublisher\n  short: androidpublisher\n  description: >-\n    View and manage your Google Play Developer account — full access to publishing,\n    purchases, subscriptions, reviews, and orders. This is the only\
   \ scope the API\n    exposes; per-resource authorization is enforced by Play Console account roles\n    and permissions, not by additional OAuth scopes.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-play-developer-api.yml\n  docs: https://developers.google.com/android-publisher/authorization\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/scopes/android-scopes.yml
+source_yaml_url: https://artifacts.apis.io/android/scopes/android-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Artificial Intelligence

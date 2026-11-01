@@ -5,7 +5,7 @@ api_specs:
   label: Splash API
   slug: splash-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/postman/splashthat-api.postman_collection.json
+  url: https://artifacts.apis.io/splashthat/postman/splashthat-api.postman_collection.json
 authorization_urls: []
 description: ''
 docs: ''
@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api-docs.splashthat.com/\nartifact_source: postman/splashthat-api.postman_collection.json\nnote: >\n  Splash publishes no OpenAPI and no scopes/permissions reference page, so\n  `derive-oauth-scopes.py` returns nothing. The single scope below is read\n  directly from Splash's own published token requests and token responses in\n  the \"Splash API v2.2\" Postman collection: every Access Token and Refresh\n  Token call sends `scope=user`, and every successful token response echoes\n  `\"scope\": \"user\"`. No other scope value appears anywhere in the published\n  contract. Splash's authorization granularity is carried by ROLES and\n  ADMIN PRIVILEGES on the account, not by OAuth scopes.\nscheme: SplashOAuth2\ntoken_url: https://api.splashthat.com/oauth/v2/token\nscope_count: 1\nscopes:\n  - scope: user\n    description: >\n      User-level access to the authenticated Splash account — the only scope\n      Splash issues.\
   \ Grants the token the same reach as the user whose\n      username/password was exchanged, across events, group contacts, contacts,\n      unsubscribes, team manager and forms.\n    flows: [password, refreshToken]\n    sources:\n      - postman/splashthat-api.postman_collection.json#Authentication/Access Token\n      - postman/splashthat-api.postman_collection.json#Authentication/Refresh Token\nnon_scope_authorization:\n  - name: Organization admin privilege\n    controls: PUT /contacts/:contact_id/anonymize\n    failure_status: 403\n  - name: Team Users view permission\n    controls: GET /v1/team-manager/users\n    failure_status: 403\n  - name: Team Manager roles\n    note: >\n      Roles are first-class objects (GET /v1/team-manager/roles) assigned per\n      user with group scoping — this, not OAuth scope, is where Splash's\n      permission model actually lives.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splashthat/refs/heads/main/scopes/splashthat-scopes.yml
+source_yaml_url: https://artifacts.apis.io/splashthat/scopes/splashthat-scopes.yml
 summary_line: 1 scope
 tags:
 - Event

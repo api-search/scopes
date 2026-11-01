@@ -5,37 +5,37 @@ api_specs:
   label: Connexis Cash Accounts API
   slug: connexis-cash-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-accounts-api-openapi.yml
 - filename: connexis-cash-balances-api-openapi.yml
   format: yaml
   label: Connexis Cash Balances API
   slug: connexis-cash-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-balances-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-balances-api-openapi.yml
 - filename: connexis-cash-beneficiaries-api-openapi.yml
   format: yaml
   label: Connexis Cash Beneficiaries API
   slug: connexis-cash-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-beneficiaries-api-openapi.yml
 - filename: connexis-cash-consents-api-openapi.yml
   format: yaml
   label: Connexis Cash Consents API
   slug: connexis-cash-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-consents-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-consents-api-openapi.yml
 - filename: connexis-cash-transactions-api-openapi.yml
   format: yaml
   label: Connexis Cash Transactions API
   slug: connexis-cash-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-transactions-api-openapi.yml
 - filename: connexis-cash-aisp-api-openapi.yml
   format: yaml
   label: Connexis Cash AISP API
   slug: connexis-cash-aisp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-aisp-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-aisp-api-openapi.yml
 authorization_urls:
 - https://api.cib.bnpparibas.com/oauth2/v1/authorize
 description: ''
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/connexis
   \ of https://docbox.etsi.org/ESI/Open/Latest_Drafts/ts_119495v000003_for-public-review.pdf)\n- name: oauth2\n  source: openapi/connexis-cash-accounts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.cib.bnpparibas.com/oauth2/v1/authorize\n    tokenUrl: https://api.cib.bnpparibas.com/oauth2/v1/token\n  - flow: clientCredentials\n    tokenUrl: https://api.cib.bnpparibas.com/oauth2/v1/token\n- name: oauth2\n  source: openapi/connexis-cash-balances-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.cib.bnpparibas.com/oauth2/v1/authorize\n    tokenUrl: https://api.cib.bnpparibas.com/oauth2/v1/token\n  - flow: clientCredentials\n    tokenUrl: https://api.cib.bnpparibas.com/oauth2/v1/token\n- name: oauth2\n  source: openapi/connexis-cash-beneficiaries-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.cib.bnpparibas.com/oauth2/v1/authorize\n    tokenUrl: https://api.cib.bnpparibas.com/oauth2/v1/token\n\
   \  - flow: clientCredentials\n    tokenUrl: https://api.cib.bnpparibas.com/oauth2/v1/token\n- name: oauth2\n  source: openapi/connexis-cash-consents-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.cib.bnpparibas.com/oauth2/v1/authorize\n    tokenUrl: https://api.cib.bnpparibas.com/oauth2/v1/token\n  - flow: clientCredentials\n    tokenUrl: https://api.cib.bnpparibas.com/oauth2/v1/token\n- name: oauth2\n  source: openapi/connexis-cash-transactions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.cib.bnpparibas.com/oauth2/v1/authorize\n    tokenUrl: https://api.cib.bnpparibas.com/oauth2/v1/token\n  - flow: clientCredentials\n    tokenUrl: https://api.cib.bnpparibas.com/oauth2/v1/token\nscopes:\n- scope: aisp\n  description: Access by an AISP to one given PSU's account\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/connexis-cash-account-information-psd2-stet-mock-openapi.yml\n\
   \  - openapi/connexis-cash-accounts-api-openapi.yml\n  - openapi/connexis-cash-balances-api-openapi.yml\n  - openapi/connexis-cash-beneficiaries-api-openapi.yml\n  - openapi/connexis-cash-consents-api-openapi.yml\n  - openapi/connexis-cash-transactions-api-openapi.yml\n- scope: cib-gb-account-information-psd2-stet-mock:piisp\n  description: Access by a PIISP to one given PSU's account to check payment coverage\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/connexis-cash-account-information-psd2-stet-mock-openapi.yml\n- scope: cib-gb-account-information-psd2-stet-mock:pisp\n  description: Access by a PISP to payments resources\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/connexis-cash-account-information-psd2-stet-mock-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/scopes/connexis-cash-scopes.yml
+source_yaml_url: https://artifacts.apis.io/connexis-cash/scopes/connexis-cash-scopes.yml
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
 - Account Information

@@ -5,91 +5,91 @@ api_specs:
   label: Langflow Base API
   slug: langflow-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-base-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-base-api-openapi.yml
 - filename: langflow-chat-api-openapi.yml
   format: yaml
   label: Langflow Chat API
   slug: langflow-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-chat-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-chat-api-openapi.yml
 - filename: langflow-files-api-openapi.yml
   format: yaml
   label: Langflow Files API
   slug: langflow-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-files-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-files-api-openapi.yml
 - filename: langflow-flow-events-api-openapi.yml
   format: yaml
   label: Langflow Flow Events API
   slug: langflow-flow-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-flow-events-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-flow-events-api-openapi.yml
 - filename: langflow-flows-api-openapi.yml
   format: yaml
   label: Langflow Flows API
   slug: langflow-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-flows-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-flows-api-openapi.yml
 - filename: langflow-health-check-api-openapi.yml
   format: yaml
   label: Langflow Health Check API
   slug: langflow-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-health-check-api-openapi.yml
 - filename: langflow-log-api-openapi.yml
   format: yaml
   label: Langflow Log API
   slug: langflow-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-log-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-log-api-openapi.yml
 - filename: langflow-mcp-api-openapi.yml
   format: yaml
   label: Langflow MCP API
   slug: langflow-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-mcp-api-openapi.yml
 - filename: langflow-mcp-projects-api-openapi.yml
   format: yaml
   label: Langflow MCP Projects API
   slug: langflow-mcp-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-mcp-projects-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-mcp-projects-api-openapi.yml
 - filename: langflow-monitor-api-openapi.yml
   format: yaml
   label: Langflow Monitor API
   slug: langflow-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-monitor-api-openapi.yml
 - filename: langflow-openai-responses-api-api-openapi.yml
   format: yaml
   label: Langflow OpenAI Responses API
   slug: langflow-openai-responses-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-openai-responses-api-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-openai-responses-api-api-openapi.yml
 - filename: langflow-projects-api-openapi.yml
   format: yaml
   label: Langflow Projects API
   slug: langflow-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-projects-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-projects-api-openapi.yml
 - filename: langflow-traces-api-openapi.yml
   format: yaml
   label: Langflow Traces API
   slug: langflow-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-traces-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-traces-api-openapi.yml
 - filename: langflow-users-api-openapi.yml
   format: yaml
   label: Langflow Users API
   slug: langflow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-users-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-users-api-openapi.yml
 - filename: langflow-workflow-api-openapi.yml
   format: yaml
   label: Langflow Workflow API
   slug: langflow-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/openapi/langflow-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/langflow/openapi/langflow-workflow-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -197,7 +197,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/langflow-ba
   - name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-files-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-flow-events-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-flows-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-health-check-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-log-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-mcp-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-mcp-projects-api-openapi.yml\n  flows:\n  - flow: password\n   \
   \ tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-monitor-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-openai-responses-api-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-projects-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-traces-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-users-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\n- name: OAuth2PasswordBearerCookie\n  source: openapi/langflow-workflow-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: api/v1/login\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and\
   \ no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/scopes/langflow-scopes.yml
+source_yaml_url: https://artifacts.apis.io/langflow/scopes/langflow-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Artificial Intelligence

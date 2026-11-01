@@ -5,55 +5,55 @@ api_specs:
   label: Experian Address Validation API
   slug: experian-address-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-address-validation-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-address-validation-api-openapi.yml
 - filename: experian-bulk-address-api-openapi.yml
   format: yaml
   label: Experian Bulk Address API
   slug: experian-bulk-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-bulk-address-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-bulk-address-api-openapi.yml
 - filename: experian-bulk-email-api-openapi.yml
   format: yaml
   label: Experian Bulk Email API
   slug: experian-bulk-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-bulk-email-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-bulk-email-api-openapi.yml
 - filename: experian-bulk-phone-api-openapi.yml
   format: yaml
   label: Experian Bulk Phone API
   slug: experian-bulk-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-bulk-phone-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-bulk-phone-api-openapi.yml
 - filename: experian-email-validation-api-openapi.yml
   format: yaml
   label: Experian Email Validation API
   slug: experian-email-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-email-validation-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-email-validation-api-openapi.yml
 - filename: experian-enrichment-api-openapi.yml
   format: yaml
   label: Experian Enrichment API
   slug: experian-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-enrichment-api-openapi.yml
 - filename: experian-identity-append-usa-only-api-openapi.yml
   format: yaml
   label: Experian Identity Append (USA only) API
   slug: experian-identity-append-usa-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-identity-append-usa-only-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-identity-append-usa-only-api-openapi.yml
 - filename: experian-phone-validation-api-openapi.yml
   format: yaml
   label: Experian Phone Validation API
   slug: experian-phone-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-phone-validation-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-phone-validation-api-openapi.yml
 - filename: experian-reverse-phone-append-usa-only-api-openapi.yml
   format: yaml
   label: Experian Reverse Phone Append (USA only) API
   slug: experian-reverse-phone-append-usa-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/openapi/experian-reverse-phone-append-usa-only-api-openapi.yml
+  url: https://artifacts.apis.io/experian/openapi/experian-reverse-phone-append-usa-only-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.experian.com/tutorials/oauth-20-tutorial
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: the OAuth/OIDC di
   \  scopes_supported: [openid]\n  grant_types_supported: [password]\n- issuer: https://uk-api.experian.com\n  platform: Experian Global Developer Platform (UK production)\n  document: well-known/experian-uk-api-openid-configuration.json\n  scopes_supported: [openid]\n  grant_types_supported: [password]\n- issuer: https://sandbox-uk-api.experian.com\n  platform: Experian Global Developer Platform (UK sandbox)\n  document: well-known/experian-sandbox-uk-api-openid-configuration.json\n  scopes_supported: [openid]\n  grant_types_supported: [password]\n- issuer: https://eu-api.experian.com\n  platform: Experian Global Developer Platform (EMEA production)\n  document: well-known/experian-eu-api-openid-configuration.json\n  scopes_supported: [openid]\n  grant_types_supported: [password]\n- issuer: https://sandbox-eu-api.experian.com\n  platform: Experian Global Developer Platform (EMEA sandbox)\n  document: well-known/experian-sandbox-eu-api-openid-configuration.json\n  scopes_supported: [openid]\n\
   \  grant_types_supported: [password]\n- issuer: https://sandbox-in-api.experian.com\n  platform: Experian Global Developer Platform (India sandbox)\n  document: well-known/experian-sandbox-in-api-openid-configuration.json\n  scopes_supported: [openid]\n  grant_types_supported: [password]\n- issuer: https://api.experian.com.au\n  platform: Experian Global Developer Platform (Australia production)\n  document: well-known/experian-api-au-openid-configuration.json\n  scopes_supported: [openid]\n  grant_types_supported: [password]\n- issuer: https://sandbox-api.experian.com.au\n  platform: Experian Global Developer Platform (Australia sandbox)\n  document: well-known/experian-sandbox-api-au-openid-configuration.json\n  scopes_supported: [openid]\n  grant_types_supported: [password]\n- issuer: https://sandbox-api.experian.com.sg\n  platform: Experian Global Developer Platform (Singapore sandbox)\n  document: well-known/experian-sandbox-api-sg-openid-configuration.json\n  scopes_supported: [openid]\n\
   \  grant_types_supported: [password]\nscopes: []\nscopes_note: The scopes[] list is deliberately empty. No Experian product scope exists to record, and\n  listing the OIDC profile scopes or the Okta admin scopes here would misrepresent them as API\n  permissions.\nagent_readiness_implication: 'An agent holding an Experian access token cannot determine from the\n  token, or from any discovery document, which products it may call. It finds out by calling and\n  reading the 403. The published 403 causes confirm this is the intended design — \"the token is valid,\n  but it is associated with another product or you have insufficient credits.\"'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/experian/refs/heads/main/scopes/experian-scopes.yml
+source_yaml_url: https://artifacts.apis.io/experian/scopes/experian-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

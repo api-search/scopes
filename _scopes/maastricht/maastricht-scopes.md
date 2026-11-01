@@ -5,7 +5,7 @@ api_specs:
   label: Maastricht University Harvesting API
   slug: maastricht-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/openapi/maastricht-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/maastricht/openapi/maastricht-harvesting-api-openapi.yml
 authorization_urls: []
 description: OAuth 2.0 / OpenID Connect scopes advertised by the Maastricht University ADFS identity provider. Read verbatim from the institution's own public discovery document on 2026-08-30 — not inferred and not a vendor's default list. These govern access to UM-affiliated relying parties; they are NOT scopes on a public data API, and Maastricht publishes no scoped public data API.
 docs: ''
@@ -72,7 +72,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "provider: Maastricht University\nproviderId: maastricht\ngenerated: '2026-08-30'\nmethod: probed\nsource: https://login.maastrichtuniversity.nl/adfs/.well-known/openid-configuration\ndescription: >-\n  OAuth 2.0 / OpenID Connect scopes advertised by the Maastricht University ADFS identity provider.\n  Read verbatim from the institution's own public discovery document on 2026-08-30 — not inferred\n  and not a vendor's default list. These govern access to UM-affiliated relying parties; they are\n  NOT scopes on a public data API, and Maastricht publishes no scoped public data API.\napi: Maastricht University ADFS (OpenID Connect)\nbaseURL: https://login.maastrichtuniversity.nl/adfs\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope requesting an ID token.\n- scope: profile\n  description: Standard OIDC profile claims.\n- scope: email\n  description: Standard OIDC email claim.\n- scope: allatclaims\n  description: ADFS scope returning all configured claims\
   \ for the relying party.\n- scope: aza\n  description: ADFS broker-client scope used for primary refresh-token flows.\n- scope: ugs\n  description: ADFS scope used by the Microsoft Universal Group Service.\n- scope: user_impersonation\n  description: Delegated access on behalf of the signed-in user.\n- scope: logon_cert\n  description: Issues a logon certificate for the authenticated user.\n- scope: vpn_cert\n  description: Issues a VPN certificate for the authenticated user.\n- scope: winhello_cert\n  description: Issues a Windows Hello for Business certificate.\nclaims:\n- aud\n- iss\n- iat\n- exp\n- auth_time\n- nonce\n- at_hash\n- c_hash\n- sub\n- upn\n- unique_name\n- pwd_url\n- pwd_exp\n- mfa_auth_time\n- sid\n- nbf\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/scopes/maastricht-scopes.yml
+source_yaml_url: https://artifacts.apis.io/maastricht/scopes/maastricht-scopes.yml
 summary_line: 10 scopes
 tags:
 - University

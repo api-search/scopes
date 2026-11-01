@@ -5,43 +5,43 @@ api_specs:
   label: Unsplash Collections API
   slug: unsplash-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-collections-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-collections-api-openapi.yml
 - filename: unsplash-current-user-api-openapi.yml
   format: yaml
   label: Unsplash Current User API
   slug: unsplash-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-current-user-api-openapi.yml
 - filename: unsplash-photos-api-openapi.yml
   format: yaml
   label: Unsplash Photos API
   slug: unsplash-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-photos-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-photos-api-openapi.yml
 - filename: unsplash-search-api-openapi.yml
   format: yaml
   label: Unsplash Search API
   slug: unsplash-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-search-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-search-api-openapi.yml
 - filename: unsplash-stats-api-openapi.yml
   format: yaml
   label: Unsplash Stats API
   slug: unsplash-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-stats-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-stats-api-openapi.yml
 - filename: unsplash-topics-api-openapi.yml
   format: yaml
   label: Unsplash Topics API
   slug: unsplash-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-topics-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-topics-api-openapi.yml
 - filename: unsplash-users-api-openapi.yml
   format: yaml
   label: Unsplash Users API
   slug: unsplash-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/openapi/unsplash-users-api-openapi.yml
+  url: https://artifacts.apis.io/unsplash/openapi/unsplash-users-api-openapi.yml
 authorization_urls:
 - https://unsplash.com/oauth/authorize
 description: ''
@@ -119,7 +119,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unsplash-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/unsplash-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://unsplash.com/oauth/authorize\n    tokenUrl: https://unsplash.com/oauth/token\nscopes:\n- scope: public\n  description: Read public data (default)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/unsplash-openapi.yml\n- scope: read_collections\n  description: Read collection data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/unsplash-openapi.yml\n- scope: read_photos\n  description: Read photo data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/unsplash-openapi.yml\n- scope: read_user\n  description: Read user profile data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/unsplash-openapi.yml\n- scope: write_collections\n  description: Create, update, delete collections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/unsplash-openapi.yml\n\
   - scope: write_likes\n  description: Like/unlike photos\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/unsplash-openapi.yml\n- scope: write_photos\n  description: Write photo data (update metadata)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/unsplash-openapi.yml\n- scope: write_user\n  description: Write user profile data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/unsplash-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/scopes/unsplash-scopes.yml
+source_yaml_url: https://artifacts.apis.io/unsplash/scopes/unsplash-scopes.yml
 summary_line: 8 scopes · authorizationCode
 tags:
 - Photos

@@ -5,7 +5,7 @@ api_specs:
   label: NewTqnia | Technology News, AI and Innovation News API
   slug: newtqnia-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/openapi/newtqnia-news-api-openapi.yml
+  url: https://artifacts.apis.io/newtqnia/openapi/newtqnia-news-api-openapi.yml
 authorization_urls:
 - https://newtqnia.com/oauth/authorize
 description: ''
@@ -46,7 +46,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: https://newtqnia.com/.well-known/oauth-authorization-server (HTTP 200) and https://newtqnia.com/.well-known/oauth-protected-resource (HTTP 200)\ndocs: https://newtqnia.com/en/connect\nnote: >-\n  derive-oauth-scopes.py found no oauth2 securitySchemes because the published OpenAPI\n  declares none - the REST contract is keyless. The OAuth surface belongs to the MCP\n  server and its scopes were read directly from the live RFC 8414 / RFC 9728 discovery\n  documents, not inferred.\n\nauthorization_server: https://newtqnia.com\nprotected_resource: https://newtqnia.com/mcp\nflows:\n  authorization_code:\n    authorization_url: https://newtqnia.com/oauth/authorize\n    token_url: https://newtqnia.com/oauth/token\n    refresh_supported: true\n    pkce_required_methods: [S256]\n\nscopes:\n- name: mcp:read\n  description: >-\n    Read-only access to published NewTqnia content over MCP - recent news, a single\n    article, a story timeline,\
   \ glossary terminology and explainers, each as title,\n    summary and canonical URL. This is what a signed-in reader's assistant receives.\n  source: oauth-authorization-server scopes_supported\n  maps_to_tools: [server_status, get_recent_news, get_news_by_id, get_timeline_by_id, search_terminology, search_explainers]\n- name: mcp:write\n  description: >-\n    Write access backing the editor/administrator content-drafting workflow the provider\n    documents in llms.txt. No write tool is exposed in the anonymous tools/list result -\n    all six live tools are annotated readOnlyHint:true - so the write surface this scope\n    protects is visible only to an authorized editor session.\n  source: oauth-authorization-server scopes_supported\n  maps_to_tools: []\n\nscope_count: 2\nbearer_methods_supported: [header]\ngaps:\n- >-\n  Scopes are coarse: one read and one write for the entire MCP surface, with no per-tool\n  or per-content-type granularity. An agent that only needs the glossary must\
   \ be granted\n  the same scope as one reading every article.\n- >-\n  There is no published scopes/permissions reference page on the site; the scope names\n  exist only in the discovery document.\n- >-\n  The two scopes are not referenced anywhere in the OpenAPI contract, so the REST and MCP\n  authorization models are documented in entirely separate places.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/scopes/newtqnia-scopes.yml
+source_yaml_url: https://artifacts.apis.io/newtqnia/scopes/newtqnia-scopes.yml
 summary_line: 2 scopes · authorization_code
 tags:
 - News API

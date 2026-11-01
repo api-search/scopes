@@ -5,13 +5,13 @@ api_specs:
   label: Nas Academy AI discovery API
   slug: nas-academy-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nas-academy/openapi/nas-academy-ai-discovery-api-openapi.yml
 - filename: nas-academy-developer-discovery-api-openapi.yml
   format: yaml
   label: Nas Academy Developer discovery API
   slug: nas-academy-developer-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/openapi/nas-academy-developer-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nas-academy/openapi/nas-academy-developer-discovery-api-openapi.yml
 authorization_urls:
 - https://auth.nas.com/oauth/authorize
 description: ''
@@ -81,7 +81,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://auth.nas.io/.well-known/oauth-authorization-server\ndocs: https://nas.com/auth.md\nschemes:\n  - name: OAuth2\n    type: oauth2\n    source: https://auth.nas.io/.well-known/oauth-authorization-server\n    issuer: https://auth.nas.com\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://auth.nas.com/oauth/authorize\n        tokenUrl: https://auth.nas.com/oauth/token\n        registrationUrl: https://auth.nas.com/oauth/register\n        revocationUrl: https://auth.nas.com/oauth/revoke\n        pkce: S256\n        grant_types: [authorization_code, refresh_token]\nscopes:\n  - scope: nas.communities.read\n    description: Read access to communities managed by the authenticated Nas user.\n  - scope: nas.communities.write\n    description: Write access to communities managed by the authenticated Nas user.\n  - scope: nas.members.read\n    description: Read access to community members. Required by\
   \ the list_members MCP tool.\n  - scope: nas.products.read\n    description: Read access to products in a community.\n  - scope: nas.products.write\n    description: Write access to products in a community.\n  - scope: nas.orders.read\n    description: Read access to physical product orders. Required by the list_physical_product_orders and get_physical_product_order MCP tools.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/scopes/nas-academy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nas-academy/scopes/nas-academy-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Company

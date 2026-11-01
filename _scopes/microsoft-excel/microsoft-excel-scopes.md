@@ -5,55 +5,55 @@ api_specs:
   label: Microsoft Excel Charts API
   slug: microsoft-excel-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-charts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-charts-api-openapi.yml
 - filename: microsoft-excel-functions-api-openapi.yml
   format: yaml
   label: Microsoft Excel Functions API
   slug: microsoft-excel-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-functions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-functions-api-openapi.yml
 - filename: microsoft-excel-named-items-api-openapi.yml
   format: yaml
   label: Microsoft Excel Named Items API
   slug: microsoft-excel-named-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-named-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-named-items-api-openapi.yml
 - filename: microsoft-excel-ranges-api-openapi.yml
   format: yaml
   label: Microsoft Excel Ranges API
   slug: microsoft-excel-ranges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-ranges-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-ranges-api-openapi.yml
 - filename: microsoft-excel-sessions-api-openapi.yml
   format: yaml
   label: Microsoft Excel Sessions API
   slug: microsoft-excel-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-sessions-api-openapi.yml
 - filename: microsoft-excel-table-columns-api-openapi.yml
   format: yaml
   label: Microsoft Excel Table Columns API
   slug: microsoft-excel-table-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-table-columns-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-table-columns-api-openapi.yml
 - filename: microsoft-excel-table-rows-api-openapi.yml
   format: yaml
   label: Microsoft Excel Table Rows API
   slug: microsoft-excel-table-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-table-rows-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-table-rows-api-openapi.yml
 - filename: microsoft-excel-tables-api-openapi.yml
   format: yaml
   label: Microsoft Excel Tables API
   slug: microsoft-excel-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-tables-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-tables-api-openapi.yml
 - filename: microsoft-excel-worksheets-api-openapi.yml
   format: yaml
   label: Microsoft Excel Worksheets API
   slug: microsoft-excel-worksheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/openapi/microsoft-excel-worksheets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel/openapi/microsoft-excel-worksheets-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -122,7 +122,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microsoft-excel-graph-api.yaml\ndocs: https://learn.microsoft.com/en-us/graph/permissions-reference\nnote: >-\n  Baseline (Files.Read, Files.ReadWrite) derived from the OpenAPI oauth2 flow; the .All and\n  Sites.* scopes added from the Microsoft Graph permissions reference — they are the\n  delegated permissions required to reach Excel workbooks beyond the signed-in user's own\n  files (shared files and SharePoint-hosted workbooks).\nschemes:\n- name: oauth2\n  source: openapi/microsoft-excel-graph-api.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Microsoft Identity Platform\nscopes:\n- scope: Files.Read\n  description: Read the signed-in user's files.\n  flows: [authorizationCode]\n  sources: [openapi/microsoft-excel-graph-api.yaml]\n\
   - scope: Files.ReadWrite\n  description: Read, create, update and delete the signed-in user's files.\n  flows: [authorizationCode]\n  sources: [openapi/microsoft-excel-graph-api.yaml]\n- scope: Files.Read.All\n  description: Read all files the signed-in user can access.\n  flows: [authorizationCode]\n  sources: [docs]\n- scope: Files.ReadWrite.All\n  description: Read, create, update and delete all files the signed-in user can access.\n  flows: [authorizationCode]\n  sources: [docs]\n- scope: Sites.Read.All\n  description: Read documents and list items in all site collections on behalf of the signed-in user (SharePoint-hosted workbooks).\n  flows: [authorizationCode]\n  sources: [docs]\n- scope: Sites.ReadWrite.All\n  description: Edit or delete documents and list items in all site collections on behalf of the signed-in user (SharePoint-hosted workbooks).\n  flows: [authorizationCode]\n  sources: [docs]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/scopes/microsoft-excel-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-excel/scopes/microsoft-excel-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Automation

@@ -5,67 +5,67 @@ api_specs:
   label: Reddit Account API
   slug: reddit-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-account-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-account-api-openapi.yml
 - filename: reddit-flair-api-openapi.yml
   format: yaml
   label: Reddit Flair API
   slug: reddit-flair-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-flair-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-flair-api-openapi.yml
 - filename: reddit-links-comments-api-openapi.yml
   format: yaml
   label: Reddit Links & Comments API
   slug: reddit-links-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-links-comments-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-links-comments-api-openapi.yml
 - filename: reddit-listings-api-openapi.yml
   format: yaml
   label: Reddit Listings API
   slug: reddit-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-listings-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-listings-api-openapi.yml
 - filename: reddit-messages-api-openapi.yml
   format: yaml
   label: Reddit Messages API
   slug: reddit-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-messages-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-messages-api-openapi.yml
 - filename: reddit-moderation-api-openapi.yml
   format: yaml
   label: Reddit Moderation API
   slug: reddit-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-moderation-api-openapi.yml
 - filename: reddit-search-api-openapi.yml
   format: yaml
   label: Reddit Search API
   slug: reddit-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-search-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-search-api-openapi.yml
 - filename: reddit-subreddits-api-openapi.yml
   format: yaml
   label: Reddit Subreddits API
   slug: reddit-subreddits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-subreddits-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-subreddits-api-openapi.yml
 - filename: reddit-users-api-openapi.yml
   format: yaml
   label: Reddit Users API
   slug: reddit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-users-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-users-api-openapi.yml
 - filename: reddit-wiki-api-openapi.yml
   format: yaml
   label: Reddit Wiki API
   slug: reddit-wiki-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-wiki-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-wiki-api-openapi.yml
 - filename: reddit-o-embed-api-openapi.yml
   format: yaml
   label: Reddit o Embed API
   slug: reddit-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/openapi/reddit-o-embed-api-openapi.yml
+  url: https://artifacts.apis.io/reddit/openapi/reddit-o-embed-api-openapi.yml
 authorization_urls:
 - https://www.reddit.com/api/v1/authorize
 description: ''
@@ -213,7 +213,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reddit-a
   \  sources:\n  - openapi/reddit-ads-api-openapi.yml\n- scope: edit\n  description: Edit and delete content\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: flair\n  description: Set user and link flair\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: history\n  description: Access voting history\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: identity\n  description: Access user identity\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: modconfig\n  description: Manage subreddit configuration\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: modflair\n  description: Manage subreddit flair\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: modlog\n  description: Access moderation log\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: modposts\n  description: Approve and remove content\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: modwiki\n  description: Manage wiki pages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: mysubreddits\n  description: Access subscribed subreddits\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: privatemessages\n  description: Access private messages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: read\n  description: Read content\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: report\n  description: Report content\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: save\n  description: Save and unsave content\n  flows:\n  - authorizationCode\n \
   \ sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: submit\n  description: Submit content\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: subscribe\n  description: Manage subscriptions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: vote\n  description: Vote on content\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: wikiedit\n  description: Edit wiki pages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n- scope: wikiread\n  description: Read wiki pages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/reddit-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/scopes/reddit-scopes.yml
+source_yaml_url: https://artifacts.apis.io/reddit/scopes/reddit-scopes.yml
 summary_line: 20 scopes · authorizationCode
 tags:
 - Reddit

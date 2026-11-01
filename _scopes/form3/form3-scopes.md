@@ -5,169 +5,169 @@ api_specs:
   label: Form3 Account Identification API
   slug: form3-accountidentification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-accountidentification-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-accountidentification-api-openapi.yml
 - filename: form3-accounts-api-openapi.yml
   format: yaml
   label: Form3 Accounts API
   slug: form3-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-accounts-api-openapi.yml
 - filename: form3-ace-api-openapi.yml
   format: yaml
   label: Form3 ACE API
   slug: form3-ace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-ace-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-ace-api-openapi.yml
 - filename: form3-audit-api-openapi.yml
   format: yaml
   label: Form3 Audit API
   slug: form3-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-audit-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-audit-api-openapi.yml
 - filename: form3-branches-api-openapi.yml
   format: yaml
   label: Form3 Branches API
   slug: form3-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-branches-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-branches-api-openapi.yml
 - filename: form3-branchidentification-api-openapi.yml
   format: yaml
   label: Form3 Branch Identification API
   slug: form3-branchidentification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-branchidentification-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-branchidentification-api-openapi.yml
 - filename: form3-claims-api-openapi.yml
   format: yaml
   label: Form3 Claims API
   slug: form3-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-claims-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-claims-api-openapi.yml
 - filename: form3-directdebitsreads-api-openapi.yml
   format: yaml
   label: Form3 Direct Debits Reads API
   slug: form3-directdebitsreads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-directdebitsreads-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-directdebitsreads-api-openapi.yml
 - filename: form3-mandates-api-openapi.yml
   format: yaml
   label: Form3 Mandates API
   slug: form3-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-mandates-api-openapi.yml
 - filename: form3-metrics-api-api-openapi.yml
   format: yaml
   label: Form3 Metrics API
   slug: form3-metrics-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-metrics-api-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-metrics-api-api-openapi.yml
 - filename: form3-name-verification-api-api-openapi.yml
   format: yaml
   label: Form3 Name Verification API
   slug: form3-name-verification-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-name-verification-api-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-name-verification-api-api-openapi.yml
 - filename: form3-oauth2-api-openapi.yml
   format: yaml
   label: Form3 Oauth2 API
   slug: form3-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-oauth2-api-openapi.yml
 - filename: form3-organisations-api-openapi.yml
   format: yaml
   label: Form3 Organisations API
   slug: form3-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-organisations-api-openapi.yml
 - filename: form3-paymentreads-api-openapi.yml
   format: yaml
   label: Form3 Payment Reads API
   slug: form3-paymentreads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-paymentreads-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-paymentreads-api-openapi.yml
 - filename: form3-paymentwrites-api-openapi.yml
   format: yaml
   label: Form3 Payment Writes API
   slug: form3-paymentwrites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-paymentwrites-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-paymentwrites-api-openapi.yml
 - filename: form3-platformsecurityapi-api-openapi.yml
   format: yaml
   label: Form3 Platformsecurityapi API
   slug: form3-platformsecurityapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-platformsecurityapi-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-platformsecurityapi-api-openapi.yml
 - filename: form3-public-keys-api-openapi.yml
   format: yaml
   label: Form3 Public Keys API
   slug: form3-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-public-keys-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-public-keys-api-openapi.yml
 - filename: form3-qualifiedtransactions-api-openapi.yml
   format: yaml
   label: Form3 Qualified Transactions API
   slug: form3-qualifiedtransactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-qualifiedtransactions-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-qualifiedtransactions-api-openapi.yml
 - filename: form3-query-api-api-openapi.yml
   format: yaml
   label: Form3 Query API
   slug: form3-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-query-api-api-openapi.yml
 - filename: form3-reports-api-openapi.yml
   format: yaml
   label: Form3 Reports API
   slug: form3-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-reports-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-reports-api-openapi.yml
 - filename: form3-roles-api-openapi.yml
   format: yaml
   label: Form3 Roles API
   slug: form3-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-roles-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-roles-api-openapi.yml
 - filename: form3-scheme-file-api-api-openapi.yml
   format: yaml
   label: Form3 Scheme File API
   slug: form3-scheme-file-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-scheme-file-api-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-scheme-file-api-api-openapi.yml
 - filename: form3-schememessages-api-openapi.yml
   format: yaml
   label: Form3 Scheme Messages API
   slug: form3-schememessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-schememessages-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-schememessages-api-openapi.yml
 - filename: form3-subscriptions-api-openapi.yml
   format: yaml
   label: Form3 Subscriptions API
   slug: form3-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-subscriptions-api-openapi.yml
 - filename: form3-transaction-file-api-api-openapi.yml
   format: yaml
   label: Form3 Transaction File API
   slug: form3-transaction-file-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-transaction-file-api-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-transaction-file-api-api-openapi.yml
 - filename: form3-users-api-openapi.yml
   format: yaml
   label: Form3 Users API
   slug: form3-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-users-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-users-api-openapi.yml
 - filename: form3-account-validation-api-openapi.yml
   format: yaml
   label: Form3 Account Validation API
   slug: form3-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-account-validation-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-account-validation-api-openapi.yml
 - filename: form3-direct-debits-api-openapi.yml
   format: yaml
   label: Form3 Direct Debits API
   slug: form3-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/openapi/form3-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/form3/openapi/form3-direct-debits-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -372,7 +372,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/form3-accou
   \    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-platformsecurityapi-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-public-keys-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-qualifiedtransactions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-query-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client\
   \ Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-reports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-roles-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-scheme-file-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-schememessages-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-subscriptions-api-openapi.yml\n  flows:\n  -\
   \ flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-transaction-file-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\n- name: OAuth2\n  source: openapi/form3-users-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.form3.tech/v1/oauth2/token\n  description: OAuth 2.0 with Client Credentials Grant type\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/scopes/form3-scopes.yml
+source_yaml_url: https://artifacts.apis.io/form3/scopes/form3-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Payments

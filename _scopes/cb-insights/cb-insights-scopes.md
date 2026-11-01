@@ -5,67 +5,67 @@ api_specs:
   label: CB Insights Authorization API
   slug: cb-insights-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-authorization-api-openapi.yml
 - filename: cb-insights-businessrelationships-api-openapi.yml
   format: yaml
   label: CB Insights Business Relationships API
   slug: cb-insights-businessrelationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-businessrelationships-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-businessrelationships-api-openapi.yml
 - filename: cb-insights-chatcbi-api-openapi.yml
   format: yaml
   label: CB Insights Chat CBI API
   slug: cb-insights-chatcbi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-chatcbi-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-chatcbi-api-openapi.yml
 - filename: cb-insights-firmographics-api-openapi.yml
   format: yaml
   label: CB Insights Firmographics API
   slug: cb-insights-firmographics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-firmographics-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-firmographics-api-openapi.yml
 - filename: cb-insights-managementandboard-api-openapi.yml
   format: yaml
   label: CB Insights Management And Board API
   slug: cb-insights-managementandboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-managementandboard-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-managementandboard-api-openapi.yml
 - filename: cb-insights-organizations-api-openapi.yml
   format: yaml
   label: CB Insights Organizations API
   slug: cb-insights-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-organizations-api-openapi.yml
 - filename: cb-insights-outlook-api-openapi.yml
   format: yaml
   label: CB Insights Outlook API
   slug: cb-insights-outlook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-outlook-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-outlook-api-openapi.yml
 - filename: cb-insights-revenue-api-openapi.yml
   format: yaml
   label: CB Insights Revenue API
   slug: cb-insights-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-revenue-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-revenue-api-openapi.yml
 - filename: cb-insights-scoutingreports-api-openapi.yml
   format: yaml
   label: CB Insights Scouting Reports API
   slug: cb-insights-scoutingreports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-scoutingreports-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-scoutingreports-api-openapi.yml
 - filename: cb-insights-strategymap-api-openapi.yml
   format: yaml
   label: CB Insights Strategy Map API
   slug: cb-insights-strategymap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-strategymap-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-strategymap-api-openapi.yml
 - filename: cb-insights-financial-transactions-api-openapi.yml
   format: yaml
   label: CB Insights Financial Transactions API
   slug: cb-insights-financial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/openapi/cb-insights-financial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cb-insights/openapi/cb-insights-financial-transactions-api-openapi.yml
 authorization_urls:
 - https://mcp.cbinsights.com/authorize
 description: ''
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.cbins
   \ to the client.\n  flows: [authorizationCode]\n  sources: [https://mcp.cbinsights.com/.well-known/oauth-authorization-server]\n- scope: profile\n  kind: identity\n  description: OpenID Connect claim scope — releases the end user's basic profile claims to the client.\n  flows: [authorizationCode]\n  sources: [https://mcp.cbinsights.com/.well-known/oauth-authorization-server]\nscope_count: 3\ndata_scope_count: 0\nprotected_resource:\n  resource: https://mcp.cbinsights.com/\n  authorization_servers:\n  - https://mcp.cbinsights.com/\n  scopes_supported:\n  - openid\n  - email\n  - profile\n  file: well-known/cb-insights-mcp-oauth-protected-resource.json\n  rfc: RFC 9728\n  note: >-\n    The 401 challenge from the MCP endpoint itself carries resource_metadata pointing at this document,\n    so an MCP client can discover the authorization server correctly. What it discovers, however, is a\n    scope set that cannot express least privilege over the data.\nsurfaces_without_scopes:\n- surface:\
   \ CB Insights API v2\n  base_url: https://api.cbinsights.com\n  auth: bespoke clientId/clientSecret POST to /v2/authorize returning a 24-hour bearer JWT\n  scopes: none — the token carries no scope claim and none is documented\n  source: https://api-docs.cbinsights.com/portal/docs/CBI-API/cbi-authentication\n- surface: CB Insights API v1\n  base_url: https://api.cbinsights.com\n  auth: GET /v1/authorize with clientId and clientSecret as query parameters\n  scopes: none\n  source: https://api-docs.cbinsights.com/docs/tutorials/authentication_flow/\ngaps:\n- No data scopes anywhere. An agent connecting through Claude, ChatGPT, Perplexity or Copilot receives\n  a token that identifies the seat; entitlement and credit spend follow the seat, not the grant, so the\n  user cannot consent to a narrower slice than \"everything this seat can see\".\n- No read-only scope, so there is no token-level distinction between reading firmographics and\n  generating a billable scouting report or ChatCBI response.\n\
   - No scope reference page exists in the developer documentation — the three scopes are discoverable\n  only from the RFC 8414 metadata document, never from prose.\n- No token revocation or introspection endpoint is advertised, so a scope grant cannot be audited or\n  withdrawn programmatically.\nx-evidence:\n- url: https://mcp.cbinsights.com/.well-known/oauth-authorization-server\n  status: 200\n  fetched: '2026-08-14'\n  content_type: application/json\n- url: https://mcp.cbinsights.com/.well-known/oauth-protected-resource\n  status: 200\n  fetched: '2026-08-09'\n  content_type: application/json\ncross_links:\n  authentication: authentication/cb-insights-authentication.yml\n  mcp: mcp/cb-insights-mcp.yml\n  well_known: well-known/cb-insights-well-known.yml\n  conformance: conformance/cb-insights-conformance.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/scopes/cb-insights-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cb-insights/scopes/cb-insights-scopes.yml
 summary_line: 3 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - Company

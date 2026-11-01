@@ -5,67 +5,67 @@ api_specs:
   label: Varian Medical Systems Condition API
   slug: varian-medical-systems-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-condition-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-condition-api-openapi.yml
 - filename: varian-medical-systems-diagnosticreport-api-openapi.yml
   format: yaml
   label: Varian Medical Systems DiagnosticReport API
   slug: varian-medical-systems-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-diagnosticreport-api-openapi.yml
 - filename: varian-medical-systems-goal-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Goal API
   slug: varian-medical-systems-goal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-goal-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-goal-api-openapi.yml
 - filename: varian-medical-systems-metadata-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Metadata API
   slug: varian-medical-systems-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-metadata-api-openapi.yml
 - filename: varian-medical-systems-observation-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Observation API
   slug: varian-medical-systems-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-observation-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-observation-api-openapi.yml
 - filename: varian-medical-systems-patient-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Patient API
   slug: varian-medical-systems-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-patient-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-patient-api-openapi.yml
 - filename: varian-medical-systems-procedure-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Procedure API
   slug: varian-medical-systems-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-procedure-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-procedure-api-openapi.yml
 - filename: varian-medical-systems-allergy-intolerance-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Allergy Intolerance API
   slug: varian-medical-systems-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-allergy-intolerance-api-openapi.yml
 - filename: varian-medical-systems-care-plan-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Care plan API
   slug: varian-medical-systems-care-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-care-plan-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-care-plan-api-openapi.yml
 - filename: varian-medical-systems-document-reference-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Document Reference API
   slug: varian-medical-systems-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-document-reference-api-openapi.yml
 - filename: varian-medical-systems-medication-request-api-openapi.yml
   format: yaml
   label: Varian Medical Systems Medication Request API
   slug: varian-medical-systems-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/openapi/varian-medical-systems-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/varian-medical-systems/openapi/varian-medical-systems-medication-request-api-openapi.yml
 authorization_urls:
 - https://varian-smart.dynamicfhir.com/core/connect/authorize
 description: ''
@@ -160,7 +160,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/varian-aria-fhir-openapi.yml\nschemes:\n- name: OAuthSMARTonFHIR\n  source: openapi/varian-aria-fhir-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://varian-smart.dynamicfhir.com/core/connect/authorize\n    tokenUrl: https://varian-smart.dynamicfhir.com/core/connect/token\n  description: SMART on FHIR OAuth 2.0 authorization\nscopes:\n- scope: launch/patient\n  description: Patient context launch\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n- scope: patient/AllergyIntolerance.read\n  description: Read allergy records\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n- scope: patient/CarePlan.read\n  description: Read care plans\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n- scope: patient/Condition.read\n  description: Read patient conditions/diagnoses\n  flows:\n\
   \  - authorizationCode\n  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n- scope: patient/DiagnosticReport.read\n  description: Read diagnostic reports\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n- scope: patient/DocumentReference.read\n  description: Read document references\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n- scope: patient/Goal.read\n  description: Read treatment goals\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n- scope: patient/MedicationRequest.read\n  description: Read medication requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n- scope: patient/Observation.read\n  description: Read patient observations/labs\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n- scope: patient/Patient.read\n  description: Read patient demographics\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n- scope: patient/Procedure.read\n  description: Read patient procedures\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/varian-aria-fhir-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/varian-medical-systems/refs/heads/main/scopes/varian-medical-systems-scopes.yml
+source_yaml_url: https://artifacts.apis.io/varian-medical-systems/scopes/varian-medical-systems-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
 - Healthcare

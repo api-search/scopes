@@ -5,37 +5,37 @@ api_specs:
   label: Zoho Creator Bulk Insert APIs API
   slug: zoho-creator-bulk-insert-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-bulk-insert-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-bulk-insert-apis-api-openapi.yml
 - filename: zoho-creator-bulk-read-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Bulk Read APIs API
   slug: zoho-creator-bulk-read-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-bulk-read-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-bulk-read-apis-api-openapi.yml
 - filename: zoho-creator-data-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Data APIs API
   slug: zoho-creator-data-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-data-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-data-apis-api-openapi.yml
 - filename: zoho-creator-file-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator File APIs API
   slug: zoho-creator-file-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-file-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-file-apis-api-openapi.yml
 - filename: zoho-creator-meta-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Meta APIs API
   slug: zoho-creator-meta-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-meta-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-meta-apis-api-openapi.yml
 - filename: zoho-creator-publish-apis-api-openapi.yml
   format: yaml
   label: Zoho Creator Publish APIs API
   slug: zoho-creator-publish-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/openapi/zoho-creator-publish-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-creator/openapi/zoho-creator-publish-apis-api-openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth?access_type=offline
 description: ''
@@ -123,7 +123,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nschemes:\n- name: oauth2\n  source: openapi/openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth?access_type=offline\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\nscopes:\n- scope: ZohoCreator.bulk.CREATE\n  description: Create a bulk read or bulk insert job.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoCreator.bulk.READ\n  description: Check the status or download the result of a bulk read or bulk insert job.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoCreator.dashboard.READ\n  description: Get applications.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoCreator.form.CREATE\n  description: Add records to a form.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoCreator.meta.application.READ\n\
   \  description: Get forms, reports in an application.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoCreator.meta.form.READ\n  description: Get list of fields in a form.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoCreator.report.CREATE\n  description: Upload file to a record in a report.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoCreator.report.DELETE\n  description: Delete records in a report.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoCreator.report.READ\n  description: Get records and download file in a report.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoCreator.report.UPDATE\n  description: Update records in a report.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/scopes/zoho-creator-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zoho-creator/scopes/zoho-creator-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
 - Low-Code

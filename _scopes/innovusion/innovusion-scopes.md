@@ -29,7 +29,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: https://seyond.com/.well-known/oauth-authorization-server\ndocs: null\nnote: >-\n  derive-oauth-scopes.py found no OpenAPI oauth2 securityScheme for this provider (there is no OpenAPI at\n  all). The scope list below is not derived — it is read verbatim from the RFC 8414 authorization-server\n  metadata and the RFC 9728 protected-resource metadata that seyond.com serves anonymously. Seyond\n  publishes no scopes or permissions reference page; a docs URL is recorded as null rather than guessed.\nauthorization_server: https://seyond.com\nscope_count: 1\nscopes:\n- name: mcp\n  description: >-\n    The only scope advertised by seyond.com's authorization server, and the only scope named in the\n    protected-resource metadata for https://seyond.com/wp-json/mcp/mcp-oauth-server. No finer-grained\n    scopes are published; per-tool authorization, if any, is not anonymously discoverable.\n  source: both scopes_supported arrays (authorization-server\
   \ and protected-resource metadata)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/innovusion/refs/heads/main/scopes/innovusion-scopes.yml
+source_yaml_url: https://artifacts.apis.io/innovusion/scopes/innovusion-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

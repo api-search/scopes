@@ -71,7 +71,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://juliahub.com/.well-known/openid-configuration\ndocs: https://help.juliahub.com/julia-api/stable/guides/authentication/\nschemes:\n- name: OAuth2\n  source: well-known/juliahub-openid-configuration.json\n  issuer: https://auth.juliahub.com/dex\n  flows:\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://auth.juliahub.com/dex/device/code\n    tokenUrl: https://auth.juliahub.com/dex/token\n  - flow: authorizationCode\n    authorizationUrl: https://auth.juliahub.com/dex/auth\n    tokenUrl: https://auth.juliahub.com/dex/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token.\n  flows: [deviceCode, authorizationCode]\n- scope: email\n  description: Access the user's email address and email_verified claim.\n  flows: [deviceCode, authorizationCode]\n- scope: profile\n  description: Access the user's profile claims (name, preferred_username, locale).\n  flows: [deviceCode,\
   \ authorizationCode]\n- scope: groups\n  description: Access the user's group memberships on JuliaHub.\n  flows: [deviceCode, authorizationCode]\n- scope: offline_access\n  description: Issue a refresh token so the client can renew access without re-authenticating.\n  flows: [deviceCode, authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juliahub/refs/heads/main/scopes/juliahub-scopes.yml
+source_yaml_url: https://artifacts.apis.io/juliahub/scopes/juliahub-scopes.yml
 summary_line: 5 scopes · deviceCode/authorizationCode
 tags:
 - Julia

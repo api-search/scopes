@@ -5,97 +5,97 @@ api_specs:
   label: Allica Bank Account Access API
   slug: allica-bank-account-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-account-access-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-account-access-api-openapi.yml
 - filename: allica-bank-accounts-api-openapi.yml
   format: yaml
   label: Allica Bank Accounts API
   slug: allica-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-accounts-api-openapi.yml
 - filename: allica-bank-balances-api-openapi.yml
   format: yaml
   label: Allica Bank Balances API
   slug: allica-bank-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-balances-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-balances-api-openapi.yml
 - filename: allica-bank-beneficiaries-api-openapi.yml
   format: yaml
   label: Allica Bank Beneficiaries API
   slug: allica-bank-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-beneficiaries-api-openapi.yml
 - filename: allica-bank-direct-debits-api-openapi.yml
   format: yaml
   label: Allica Bank Direct Debits API
   slug: allica-bank-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-direct-debits-api-openapi.yml
 - filename: allica-bank-domestic-payments-api-openapi.yml
   format: yaml
   label: Allica Bank Domestic Payments API
   slug: allica-bank-domestic-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-domestic-payments-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-domestic-payments-api-openapi.yml
 - filename: allica-bank-domestic-scheduled-payments-api-openapi.yml
   format: yaml
   label: Allica Bank Domestic Scheduled Payments API
   slug: allica-bank-domestic-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-domestic-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-domestic-scheduled-payments-api-openapi.yml
 - filename: allica-bank-domestic-standing-orders-api-openapi.yml
   format: yaml
   label: Allica Bank Domestic Standing Orders API
   slug: allica-bank-domestic-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-domestic-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-domestic-standing-orders-api-openapi.yml
 - filename: allica-bank-file-payments-api-openapi.yml
   format: yaml
   label: Allica Bank File Payments API
   slug: allica-bank-file-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-file-payments-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-file-payments-api-openapi.yml
 - filename: allica-bank-offers-api-openapi.yml
   format: yaml
   label: Allica Bank Offers API
   slug: allica-bank-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-offers-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-offers-api-openapi.yml
 - filename: allica-bank-parties-api-openapi.yml
   format: yaml
   label: Allica Bank Parties API
   slug: allica-bank-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-parties-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-parties-api-openapi.yml
 - filename: allica-bank-payment-details-api-openapi.yml
   format: yaml
   label: Allica Bank Payment Details API
   slug: allica-bank-payment-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-payment-details-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-payment-details-api-openapi.yml
 - filename: allica-bank-products-api-openapi.yml
   format: yaml
   label: Allica Bank Products API
   slug: allica-bank-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-products-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-products-api-openapi.yml
 - filename: allica-bank-scheduled-payments-api-openapi.yml
   format: yaml
   label: Allica Bank Scheduled Payments API
   slug: allica-bank-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-scheduled-payments-api-openapi.yml
 - filename: allica-bank-standing-orders-api-openapi.yml
   format: yaml
   label: Allica Bank Standing Orders API
   slug: allica-bank-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-standing-orders-api-openapi.yml
 - filename: allica-bank-transactions-api-openapi.yml
   format: yaml
   label: Allica Bank Transactions API
   slug: allica-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-transactions-api-openapi.yml
 authorization_urls:
 - https://secure.allica.bank/open-banking
 description: ''
@@ -235,7 +235,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/allica-
   \  flows: [authorizationCode, clientCredentials]\n  sources: [openapi/allica-bank-payment-initiation-openapi.yaml, OIDC discovery]\n- scope: fundsconfirmations\n  description: Confirm availability of funds on an account (Confirmation of Funds / CBPII).\n  flows: [authorizationCode, clientCredentials]\n  sources: [OIDC discovery]\n- scope: consents\n  description: Manage the consent lifecycle (account-access, payment, and funds-confirmation consents).\n  flows: [clientCredentials]\n  sources: [OIDC discovery]\n- scope: resources\n  description: General OBIE resource-access scope covering account resource discovery.\n  flows: [clientCredentials]\n  sources: [OIDC discovery]\n- scope: credit-cards-accounts\n  description: Access to credit-card account information resources (OBIE / Open Finance scope).\n  flows: [authorizationCode]\n  sources: [OIDC discovery]\n- scope: customers\n  description: Access to customer/party identity resources.\n  flows: [authorizationCode]\n  sources: [OIDC discovery]\n\
   - scope: loans\n  description: Access to loan account resources (Open Finance scope).\n  flows: [authorizationCode]\n  sources: [OIDC discovery]\n- scope: financings\n  description: Access to financing product resources (asset/commercial finance).\n  flows: [authorizationCode]\n  sources: [OIDC discovery]\n- scope: invoice-financings\n  description: Access to invoice-financing product resources.\n  flows: [authorizationCode]\n  sources: [OIDC discovery]\n- scope: unarranged-accounts-overdraft\n  description: Access to unarranged overdraft resources on accounts (Open Finance scope).\n  flows: [authorizationCode]\n  sources: [OIDC discovery]\n- scope: consumption\n  description: Access to consumption/usage resources (Open Finance scope).\n  flows: [authorizationCode]\n  sources: [OIDC discovery]\n- scope: lg\n  description: Bank guarantees (letters of guarantee) resource scope (Open Finance).\n  flows: [authorizationCode]\n  sources: [OIDC discovery]\n- scope: recurring-payments\n  description:\
   \ Recurring-payments resource scope.\n  flows: [authorizationCode, clientCredentials]\n  sources: [OIDC discovery]\n- scope: bank-fixed-incomes\n  description: Access to fixed-income investment product resources (Open Finance scope).\n  flows: [authorizationCode]\n  sources: [OIDC discovery]\n- scope: recurring-consent\n  description: Manage recurring/long-lived consent resources.\n  flows: [clientCredentials]\n  sources: [OIDC discovery]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/scopes/allica-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/allica-bank/scopes/allica-bank-scopes.yml
 summary_line: 17 scopes · clientCredentials/authorizationCode
 tags:
 - Financial Services

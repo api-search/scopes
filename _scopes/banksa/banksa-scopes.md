@@ -5,43 +5,43 @@ api_specs:
   label: BankSA Banking Account Balances API
   slug: banksa-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-account-balances-api-openapi.yml
 - filename: banksa-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: BankSA Banking Account Direct Debits API
   slug: banksa-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-account-direct-debits-api-openapi.yml
 - filename: banksa-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: BankSA Banking Account Scheduled Payments API
   slug: banksa-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-account-scheduled-payments-api-openapi.yml
 - filename: banksa-banking-account-transactions-api-openapi.yml
   format: yaml
   label: BankSA Banking Account Transactions API
   slug: banksa-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-account-transactions-api-openapi.yml
 - filename: banksa-banking-accounts-api-openapi.yml
   format: yaml
   label: BankSA Banking Accounts API
   slug: banksa-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-accounts-api-openapi.yml
 - filename: banksa-banking-payees-api-openapi.yml
   format: yaml
   label: BankSA Banking Payees API
   slug: banksa-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-payees-api-openapi.yml
 - filename: banksa-banking-products-api-openapi.yml
   format: yaml
   label: BankSA Banking Products API
   slug: banksa-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/openapi/banksa-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/banksa/openapi/banksa-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -114,7 +114,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\n  — the Consumer Data Right banking authorisation scopes. The harvested spec\n  declares no oauth2 securitySchemes (auth is defined by the separate CDR\n  Security Profile), so scopes are captured from the DSB Consumer Data Standards\n  that BankSA's data-holder host conforms to. The public Product Reference Data\n  endpoints require NO scope; every other endpoint in the spec requires the CDR\n  scope mapped below, granted only through a consumer's consent to an accredited\n  data recipient.\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\nschemes:\n- name: CDRConsumerDataSharing\n  source: openapi/banksa-cds-banking-products-openapi.yml\n  profile: FAPI 1.0 Advanced (CDR Security Profile)\n  flows:\n  - flow: authorizationCode\n    note: >-\n      Authorization/token endpoints are per-data-holder\
   \ and discovered by\n      accredited data recipients through the CDR Register, not published on a\n      public BankSA host.\nscopes:\n- scope: openid\n  description: OpenID Connect authentication of the consumer.\n  flows: [authorizationCode]\n- scope: profile\n  description: Basic OpenID Connect profile claims for the consenting consumer.\n  flows: [authorizationCode]\n- scope: bank:accounts.basic:read\n  description: Read the consumer's account list and basic account attributes.\n  endpoints:\n  - GET /banking/accounts\n  - GET /banking/accounts/balances\n  - GET /banking/accounts/{accountId}/balance\n- scope: bank:accounts.detail:read\n  description: Read full detail for a specific account (features, rates, terms).\n  endpoints:\n  - GET /banking/accounts/{accountId}\n- scope: bank:transactions:read\n  description: Read transactions for the consumer's accounts.\n  endpoints:\n  - GET /banking/accounts/{accountId}/transactions\n  - GET /banking/accounts/{accountId}/transactions/{transactionId}\n\
   - scope: bank:regular_payments:read\n  description: >-\n    Read direct debits, scheduled payments and instalment plans on the\n    consumer's accounts.\n  endpoints:\n  - GET /banking/accounts/{accountId}/direct-debits\n  - GET /banking/accounts/{accountId}/payments/scheduled\n  - GET /banking/accounts/{accountId}/payments/plans\n- scope: bank:payees:read\n  description: Read the consumer's saved payees.\n  endpoints:\n  - GET /banking/payees\n  - GET /banking/payees/{payeeId}\n- scope: common:customer.basic:read\n  description: Read the consumer's basic customer/contact information.\n- scope: common:customer.detail:read\n  description: Read the consumer's detailed customer information.\npublic_endpoints_no_scope:\n- GET /banking/products\n- GET /banking/products/{productId}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/scopes/banksa-scopes.yml
+source_yaml_url: https://artifacts.apis.io/banksa/scopes/banksa-scopes.yml
 summary_line: 9 scopes · authorizationCode
 tags:
 - Finance

@@ -5,43 +5,43 @@ api_specs:
   label: BCU Bank Banking Account Balances API
   slug: bcu-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-balances-api-openapi.yml
 - filename: bcu-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Account Direct Debits API
   slug: bcu-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-direct-debits-api-openapi.yml
 - filename: bcu-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Account Scheduled Payments API
   slug: bcu-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: bcu-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Account Transactions API
   slug: bcu-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-account-transactions-api-openapi.yml
 - filename: bcu-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Accounts API
   slug: bcu-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-accounts-api-openapi.yml
 - filename: bcu-bank-banking-payees-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Payees API
   slug: bcu-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-payees-api-openapi.yml
 - filename: bcu-bank-banking-products-api-openapi.yml
   format: yaml
   label: BCU Bank Banking Products API
   slug: bcu-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/openapi/bcu-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bcu-bank/openapi/bcu-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -94,7 +94,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/bcu-bank-cds-banking-products-openapi.yml (per-operation x-scopes)\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\nnotes: >-\n  The CDS Banking OpenAPI declares no components.securitySchemes, so the OAuth\n  scope surface is derived from the per-operation x-scopes extension in the spec\n  and enriched from the DSB Consumer Data Standards authorisation-scopes\n  reference. These are the standardised CDR banking data-cluster scopes granted\n  through the CDR consent flow to Accredited Data Recipients. The Product\n  Reference Data endpoints (listBankingProducts, getBankingProductDetail) are\n  public and require no scope.\nschemes:\n- name: OAuth2 (CDR authorization-code + PKCE, FAPI 1.0 Advanced)\n  source: DSB Consumer Data Standards Security Profile\n  flows:\n  - flow: authorizationCode\nscopes:\n- scope: bank:accounts.basic:read\n  description: Read basic account information\
   \ (account list, product category, masked account number, balances).\n  operations:\n  - listBankingAccounts\n  - listBankingBalancesBulk\n  - listBankingBalancesSpecificAccounts\n  - getBankingBalance\n- scope: bank:accounts.detail:read\n  description: Read detailed account information including features, fees, terms and account-holder details.\n  operations:\n  - getBankingAccountDetail\n- scope: bank:transactions:read\n  description: Read account transactions and transaction detail.\n  operations:\n  - listBankingTransactions\n  - getBankingTransactionDetail\n- scope: bank:regular_payments:read\n  description: Read regular payments - direct debits, scheduled payments and instalment plans.\n  operations:\n  - listDirectDebits\n  - listDirectDebitsBulk\n  - listDirectDebitsSpecificAccounts\n  - listScheduledPayments\n  - listScheduledPaymentsBulk\n  - listScheduledPaymentsSpecificAccounts\n  - listInstalmentPlans\n  - listInstalmentPlansBulk\n- scope: bank:payees:read\n  description:\
   \ Read saved payees.\n  operations:\n  - listBankingPayees\n  - getBankingPayeeDetail\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/scopes/bcu-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bcu-bank/scopes/bcu-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Finance

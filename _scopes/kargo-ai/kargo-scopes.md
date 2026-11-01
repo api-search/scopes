@@ -5,19 +5,19 @@ api_specs:
   label: Kargo Public GraphQL API
   slug: kargo-public-graphql-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/postman/kargo-public-graphql.postman_collection.json
+  url: https://artifacts.apis.io/kargo-ai/postman/kargo-public-graphql.postman_collection.json
 - filename: kargo-ai-documents-api-openapi.yml
   format: yaml
   label: Kargo Documents API
   slug: kargo-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/openapi/kargo-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/kargo-ai/openapi/kargo-ai-documents-api-openapi.yml
 - filename: kargo-ai-sku-master-api-openapi.yml
   format: yaml
   label: Kargo SKU Master API
   slug: kargo-ai-sku-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/openapi/kargo-ai-sku-master-api-openapi.yml
+  url: https://artifacts.apis.io/kargo-ai/openapi/kargo-ai-sku-master-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.kargo.ai/authentication
@@ -54,7 +54,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: https://mykargo.us.auth0.com/.well-known/openid-configuration\ndocs: https://docs.kargo.ai/authentication\nsummary:\n  api_scopes_published: false\n  note: 'Kargo''s public API uses the OAuth 2.0 client-credentials grant with an\n    `audience` of https://api.kargo.zone/public_graphql and no `scope` parameter.\n    Kargo publishes no scope or permission reference for the API audience, so there\n    are no API scopes to record. Authorization is enforced per business/facility on\n    the token (the OpenAPI documents a 403 \"Token lacks permission for the given\n    business/facility\"), not by scope.'\nschemes:\n- name: auth0-client-credentials\n  source: https://docs.kargo.ai/authentication\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://mykargo.us.auth0.com/oauth/token\n    audience: https://api.kargo.zone/public_graphql\nscopes: []\nauthorization_server_scopes_supported:\n  note: 'These are the OIDC scopes advertised\
   \ by Kargo''s Auth0 tenant discovery\n    document for interactive sign-in to the Kargo dashboard. They are Auth0 standard\n    OIDC scopes and do NOT gate the public API audience.'\n  values:\n  - openid\n  - profile\n  - offline_access\n  - name\n  - given_name\n  - family_name\n  - nickname\n  - email\n  - email_verified\n  - picture\n  - created_at\n  - identities\n  - phone\n  - address\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kargo-ai/refs/heads/main/scopes/kargo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kargo-ai/scopes/kargo-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

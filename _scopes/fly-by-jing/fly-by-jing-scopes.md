@@ -46,7 +46,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\ndocs: https://flybyjing.com/.well-known/openid-configuration\nsource: >-\n  scopes_supported advertised in the live OIDC discovery document for the Fly By\n  Jing storefront (Shopify Customer Account API).\nflow: authorization_code\nauthorization_endpoint: https://account.flybyjing.com/authentication/oauth/authorize\ntoken_endpoint: https://account.flybyjing.com/authentication/oauth/token\nscopes:\n- name: openid\n  description: OpenID Connect sign-in; returns an ID token identifying the customer.\n- name: email\n  description: Access to the authenticated customer's email address and email_verified claim.\n- name: 'customer-account-api:full'\n  description: >-\n    Full access to the Shopify Customer Account API for the signed-in customer\n    (orders, profile, addresses, subscriptions, and other account data).\n- name: 'customer-account-mcp-api:full'\n  description: >-\n    Full access to the Customer Account MCP API surface, exposing\
   \ the customer's\n    account data to MCP-based agents on behalf of the signed-in customer.\nnotes: >-\n  Scopes are defined and enforced by Shopify's Customer Account platform, not by\n  Fly By Jing directly. This is the storefront-facing customer identity surface;\n  there is no separate first-party OAuth server.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fly-by-jing/refs/heads/main/scopes/fly-by-jing-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fly-by-jing/scopes/fly-by-jing-scopes.yml
 summary_line: 4 scopes · authorization_code
 tags:
 - Company

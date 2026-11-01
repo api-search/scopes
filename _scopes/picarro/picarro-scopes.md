@@ -5,7 +5,7 @@ api_specs:
   label: Picarro Edge — SAM FOUP gRPC API
   slug: picarro-edge-sam-foup-grpc-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/asyncapi/picarro-sam-foup-asyncapi.yml
+  url: https://artifacts.apis.io/picarro/asyncapi/picarro-sam-foup-asyncapi.yml
 authorization_urls:
 - https://identity-prod.picarro.com/auth/realms/picarro/protocol/openid-connect/auth
 description: ''
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: https://identity-
   \      - flow: password\n        tokenUrl: https://identity-prod.picarro.com/auth/realms/picarro/protocol/openid-connect/token\n      - flow: clientCredentials\n        tokenUrl: https://identity-prod.picarro.com/auth/realms/picarro/protocol/openid-connect/token\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication; requests an ID token.\n    flows: [authorizationCode, implicit]\n    sources: [well-known/picarro-openid-configuration.json]\n  - scope: profile\n    description: Standard OIDC profile claims (name, given_name, family_name, preferred_username).\n    flows: [authorizationCode, implicit, password]\n    sources: [well-known/picarro-openid-configuration.json]\n  - scope: email\n    description: Standard OIDC email claim.\n    flows: [authorizationCode, implicit, password]\n    sources: [well-known/picarro-openid-configuration.json]\n  - scope: address\n    description: Standard OIDC address claim.\n    flows: [authorizationCode, implicit, password]\n    sources:\
   \ [well-known/picarro-openid-configuration.json]\n  - scope: phone\n    description: Standard OIDC phone_number claims.\n    flows: [authorizationCode, implicit, password]\n    sources: [well-known/picarro-openid-configuration.json]\n  - scope: roles\n    description: Keycloak realm/client role mappings in the access token.\n    flows: [authorizationCode, password, clientCredentials]\n    sources: [well-known/picarro-openid-configuration.json]\n  - scope: offline_access\n    description: Issues a refresh token usable while the user is offline.\n    flows: [authorizationCode, password]\n    sources: [well-known/picarro-openid-configuration.json]\n  - scope: web-origins\n    description: Keycloak scope that injects allowed CORS web origins into the token.\n    flows: [authorizationCode, implicit]\n    sources: [well-known/picarro-openid-configuration.json]\n  - scope: microprofile-jwt\n    description: Keycloak scope adding MicroProfile JWT claims (upn, groups).\n    flows: [authorizationCode,\
   \ clientCredentials]\n    sources: [well-known/picarro-openid-configuration.json]\nx-evidence:\n  fetched: '2026-08-02'\n  url: https://identity-prod.picarro.com/auth/realms/picarro/.well-known/openid-configuration\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picarro/refs/heads/main/scopes/picarro-scopes.yml
+source_yaml_url: https://artifacts.apis.io/picarro/scopes/picarro-scopes.yml
 summary_line: 9 scopes · authorizationCode/implicit/password/clientCredentials
 tags:
 - Company

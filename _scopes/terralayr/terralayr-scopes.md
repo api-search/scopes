@@ -45,7 +45,7 @@ source_filename: terralayr-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.trlyr.com/.well-known/openid-configuration\ndocs: https://www.trlyr.com/.well-known/openid-configuration\nschemes:\n- name: oauth2\n  source: well-known/terralayr-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.trlyr.com/umbraco/delivery/api/v1/security/member/authorize\n    tokenUrl: https://www.trlyr.com/umbraco/delivery/api/v1/security/member/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication for a site member\n  flows: [authorizationCode]\n  sources: [well-known/terralayr-openid-configuration.json]\n- scope: offline_access\n  description: Issue a refresh token so the client can act while the member is offline\n  flows: [authorizationCode]\n  sources: [well-known/terralayr-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terralayr/refs/heads/main/scopes/terralayr-scopes.yml
+source_yaml_url: https://artifacts.apis.io/terralayr/scopes/terralayr-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

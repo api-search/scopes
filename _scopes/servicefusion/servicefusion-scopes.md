@@ -5,55 +5,55 @@ api_specs:
   label: Service Fusion Calendar Tasks API
   slug: servicefusion-calendar-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-calendar-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-calendar-tasks-api-openapi.yml
 - filename: servicefusion-contacts-api-openapi.yml
   format: yaml
   label: Service Fusion Contacts API
   slug: servicefusion-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-contacts-api-openapi.yml
 - filename: servicefusion-customers-api-openapi.yml
   format: yaml
   label: Service Fusion Customers API
   slug: servicefusion-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-customers-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-customers-api-openapi.yml
 - filename: servicefusion-estimates-api-openapi.yml
   format: yaml
   label: Service Fusion Estimates API
   slug: servicefusion-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-estimates-api-openapi.yml
 - filename: servicefusion-invoices-api-openapi.yml
   format: yaml
   label: Service Fusion Invoices API
   slug: servicefusion-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-invoices-api-openapi.yml
 - filename: servicefusion-jobs-api-openapi.yml
   format: yaml
   label: Service Fusion Jobs API
   slug: servicefusion-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-jobs-api-openapi.yml
 - filename: servicefusion-payments-api-openapi.yml
   format: yaml
   label: Service Fusion Payments API
   slug: servicefusion-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-payments-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-payments-api-openapi.yml
 - filename: servicefusion-products-and-services-api-openapi.yml
   format: yaml
   label: Service Fusion Products and Services API
   slug: servicefusion-products-and-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-products-and-services-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-products-and-services-api-openapi.yml
 - filename: servicefusion-techs-and-users-api-openapi.yml
   format: yaml
   label: Service Fusion Techs and Users API
   slug: servicefusion-techs-and-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/openapi/servicefusion-techs-and-users-api-openapi.yml
+  url: https://artifacts.apis.io/servicefusion/openapi/servicefusion-techs-and-users-api-openapi.yml
 authorization_urls:
 - https://api.servicefusion.com/oauth/authorize
 description: ''
@@ -170,7 +170,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/servicefusi
   \ https://api.servicefusion.com/oauth/authorize\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  - flow: clientCredentials\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  description: OAuth 2.0. Access tokens are issued at https://api.servicefusion.com/oauth/access_token.\n- name: oauth2\n  source: openapi/servicefusion-invoices-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.servicefusion.com/oauth/authorize\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  - flow: clientCredentials\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  description: OAuth 2.0. Access tokens are issued at https://api.servicefusion.com/oauth/access_token.\n- name: oauth2\n  source: openapi/servicefusion-jobs-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.servicefusion.com/oauth/authorize\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  -\
   \ flow: clientCredentials\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  description: OAuth 2.0. Access tokens are issued at https://api.servicefusion.com/oauth/access_token.\n- name: oauth2\n  source: openapi/servicefusion-payments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.servicefusion.com/oauth/authorize\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  - flow: clientCredentials\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  description: OAuth 2.0. Access tokens are issued at https://api.servicefusion.com/oauth/access_token.\n- name: oauth2\n  source: openapi/servicefusion-products-and-services-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.servicefusion.com/oauth/authorize\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  - flow: clientCredentials\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  description:\
   \ OAuth 2.0. Access tokens are issued at https://api.servicefusion.com/oauth/access_token.\n- name: oauth2\n  source: openapi/servicefusion-techs-and-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.servicefusion.com/oauth/authorize\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  - flow: clientCredentials\n    tokenUrl: https://api.servicefusion.com/oauth/access_token\n  description: OAuth 2.0. Access tokens are issued at https://api.servicefusion.com/oauth/access_token.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicefusion/refs/heads/main/scopes/servicefusion-scopes.yml
+source_yaml_url: https://artifacts.apis.io/servicefusion/scopes/servicefusion-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Field Service Management

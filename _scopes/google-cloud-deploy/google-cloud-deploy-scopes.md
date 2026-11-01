@@ -5,25 +5,25 @@ api_specs:
   label: Google Cloud Deploy DeliveryPipelines API
   slug: google-cloud-deploy-deliverypipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-deliverypipelines-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-deliverypipelines-api-openapi.yml
 - filename: google-cloud-deploy-releases-api-openapi.yml
   format: yaml
   label: Google Cloud Deploy Releases API
   slug: google-cloud-deploy-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-releases-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-releases-api-openapi.yml
 - filename: google-cloud-deploy-rollouts-api-openapi.yml
   format: yaml
   label: Google Cloud Deploy Rollouts API
   slug: google-cloud-deploy-rollouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-rollouts-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-rollouts-api-openapi.yml
 - filename: google-cloud-deploy-targets-api-openapi.yml
   format: yaml
   label: Google Cloud Deploy Targets API
   slug: google-cloud-deploy-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/openapi/google-cloud-deploy-targets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-deploy/openapi/google-cloud-deploy-targets-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -65,7 +65,7 @@ source_filename: google-cloud-deploy-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloud-deploy-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cloud-deploy-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-deploy-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/scopes/google-cloud-deploy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-deploy/scopes/google-cloud-deploy-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Continuous Delivery

@@ -5,13 +5,13 @@ api_specs:
   label: Google Firebase Data API
   slug: google-firebase-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/openapi/google-firebase-data-api-openapi.yml
+  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-data-api-openapi.yml
 - filename: google-firebase-messages-api-openapi.yml
   format: yaml
   label: Google Firebase Messages API
   slug: google-firebase-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/openapi/google-firebase-messages-api-openapi.yml
+  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-messages-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -53,7 +53,7 @@ source_filename: google-firebase-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/firebase-cloud-messaging-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/firebase-cloud-messaging-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/firebase.messaging\n  description: Send FCM messages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/firebase-cloud-messaging-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/scopes/google-firebase-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-firebase/scopes/google-firebase-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Analytics

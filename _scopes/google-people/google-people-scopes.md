@@ -5,31 +5,31 @@ api_specs:
   label: Google People API
   slug: google-people-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/google-people-people-api-openapi.yml
+  url: https://artifacts.apis.io/google-people/openapi/google-people-people-api-openapi.yml
 - filename: google-people-people-batchget-api-openapi.yml
   format: yaml
   label: Google People:batchGet API
   slug: google-people-people-batchget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/google-people-people-batchget-api-openapi.yml
+  url: https://artifacts.apis.io/google-people/openapi/google-people-people-batchget-api-openapi.yml
 - filename: google-people-contact-groups-api-openapi.yml
   format: yaml
   label: Google People Contact Groups API
   slug: google-people-contact-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/google-people-contact-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-people/openapi/google-people-contact-groups-api-openapi.yml
 - filename: google-people-people-create-contact-api-openapi.yml
   format: yaml
   label: Google People People:create Contact API
   slug: google-people-people-create-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/google-people-people-create-contact-api-openapi.yml
+  url: https://artifacts.apis.io/google-people/openapi/google-people-people-create-contact-api-openapi.yml
 - filename: google-people-people-search-contacts-api-openapi.yml
   format: yaml
   label: Google People People:search Contacts API
   slug: google-people-people-search-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/openapi/google-people-people-search-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/google-people/openapi/google-people-people-search-contacts-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -76,7 +76,7 @@ source_filename: google-people-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/contacts\n  description: Manage contacts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n- scope: https://www.googleapis.com/auth/contacts.readonly\n  description: View contacts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/scopes/google-people-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-people/scopes/google-people-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Address Book

@@ -5,55 +5,55 @@ api_specs:
   label: Scalekit Admin Portal API
   slug: scalekit-admin-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-admin-portal-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-admin-portal-api-openapi.yml
 - filename: scalekit-authentication-api-openapi.yml
   format: yaml
   label: Scalekit Authentication API
   slug: scalekit-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-authentication-api-openapi.yml
 - filename: scalekit-connected-accounts-api-openapi.yml
   format: yaml
   label: Scalekit Connected Accounts API
   slug: scalekit-connected-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-connected-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-connected-accounts-api-openapi.yml
 - filename: scalekit-connections-api-openapi.yml
   format: yaml
   label: Scalekit Connections API
   slug: scalekit-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-connections-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-connections-api-openapi.yml
 - filename: scalekit-directories-api-openapi.yml
   format: yaml
   label: Scalekit Directories API
   slug: scalekit-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-directories-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-directories-api-openapi.yml
 - filename: scalekit-organization-settings-api-openapi.yml
   format: yaml
   label: Scalekit Organization Settings API
   slug: scalekit-organization-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-organization-settings-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-organization-settings-api-openapi.yml
 - filename: scalekit-organizations-api-openapi.yml
   format: yaml
   label: Scalekit Organizations API
   slug: scalekit-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-organizations-api-openapi.yml
 - filename: scalekit-roles-api-openapi.yml
   format: yaml
   label: Scalekit Roles API
   slug: scalekit-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-roles-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-roles-api-openapi.yml
 - filename: scalekit-users-memberships-api-openapi.yml
   format: yaml
   label: Scalekit Users & Memberships API
   slug: scalekit-users-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/openapi/scalekit-users-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/scalekit/openapi/scalekit-users-memberships-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -130,7 +130,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/scalekit-admin-portal-api-openapi.yml, openapi/scalekit-authentication-api-openapi.yml,\n  openapi/scalekit-connected-accounts-api-openapi.yml, openapi/scalekit-connections-api-openapi.yml,\n  openapi/scalekit-directories-api-openapi.yml, openapi/scalekit-organization-settings-api-openapi.yml,\n  openapi/scalekit-organizations-api-openapi.yml, openapi/scalekit-roles-api-openapi.yml, openapi/scalekit-users-memberships-api-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-admin-portal-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-connected-accounts-api-openapi.yml\n  flows:\n\
   \  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-connections-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-directories-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-organization-settings-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-organizations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-roles-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
   \ https://{environment}.scalekit.com/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/scalekit-users-memberships-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}.scalekit.com/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalekit/refs/heads/main/scopes/scalekit-scopes.yml
+source_yaml_url: https://artifacts.apis.io/scalekit/scopes/scalekit-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Authentication

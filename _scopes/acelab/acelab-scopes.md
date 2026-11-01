@@ -29,7 +29,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: https://docs.acelabusa.com/.well-known/oauth-authorization-server\ndocs: null\nnote: >-\n  The only OAuth scope Acelab publishes anywhere is the single scope advertised by the\n  authorization server backing the documentation MCP server on docs.acelabusa.com. There is no\n  scope or permissions reference page for the Acelab product API — that API answers\n  WWW-Authenticate: Bearer with no published authorization model at all. This file deliberately\n  records one scope rather than inventing a product-API scope surface.\nauthorization_server: https://docs.acelabusa.com/mcp/oauth\ngrant_types:\n- authorization_code\n- client_credentials\n- refresh_token\ncode_challenge_methods:\n- S256\ndynamic_client_registration: true\nscope_count: 1\nscopes:\n- name: mcp:search\n  description: >-\n    Search and retrieve Acelab documentation content through the MCP server at\n    https://docs.acelabusa.com/mcp. Anonymous callers can already\
   \ list and call the read-only\n    tools; this scope gates authenticated/private documentation content.\n  resource: https://docs.acelabusa.com\nx-evidence:\n  fetched: '2026-09-06'\n  url: https://docs.acelabusa.com/.well-known/oauth-authorization-server\n  http_status: 200\n  content_type: application/json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acelab/refs/heads/main/scopes/acelab-scopes.yml
+source_yaml_url: https://artifacts.apis.io/acelab/scopes/acelab-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

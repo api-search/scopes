@@ -5,13 +5,13 @@ api_specs:
   label: Lumen Technologies Bandwidth API
   slug: lumen-technologies-bandwidth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/openapi/lumen-technologies-bandwidth-api-openapi.yml
+  url: https://artifacts.apis.io/lumen-technologies/openapi/lumen-technologies-bandwidth-api-openapi.yml
 - filename: lumen-technologies-connections-api-openapi.yml
   format: yaml
   label: Lumen Technologies Connections API
   slug: lumen-technologies-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/openapi/lumen-technologies-connections-api-openapi.yml
+  url: https://artifacts.apis.io/lumen-technologies/openapi/lumen-technologies-connections-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -56,7 +56,7 @@ source_filename: lumen-technologies-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lumen-internet-on-demand-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/lumen-internet-on-demand-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.lumen.com/oauth2/token\nscopes:\n- scope: read\n  description: Read access to connections\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lumen-internet-on-demand-api-openapi.yml\n- scope: write\n  description: Write access to connections\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lumen-internet-on-demand-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/scopes/lumen-technologies-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lumen-technologies/scopes/lumen-technologies-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Bandwidth

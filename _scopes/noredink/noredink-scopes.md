@@ -40,7 +40,7 @@ source_filename: noredink-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: well-known/noredink-openid-configuration.json\ndocs: https://www.noredink.com/.well-known/openid-configuration\nschemes:\n- name: OAuth2\n  source: well-known/noredink-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.noredink.com/oauth/authorize\n    tokenUrl: https://www.noredink.com/oauth/token\nscopes:\n- scope: openid\n  description: >-\n    OpenID Connect authentication scope. Requests an ID token asserting the\n    user's identity (iss, sub, aud, exp, iat, roles claims) via the userinfo\n    endpoint.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/noredink-openid-configuration.json\nnotes: >-\n  NoRedInk's discovery document advertises a single OAuth 2.0 scope (`openid`).\n  Any additional partner/rostering scopes are not published in the public\n  discovery metadata.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noredink/refs/heads/main/scopes/noredink-scopes.yml
+source_yaml_url: https://artifacts.apis.io/noredink/scopes/noredink-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

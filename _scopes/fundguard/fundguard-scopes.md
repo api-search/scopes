@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: https://www.fundguard.com/.well-known/oauth-authorization-server\nnote: >-\n  Derived from published OAuth metadata rather than an OpenAPI (FundGuard publishes no spec). The\n  authorization server advertises exactly one scope. No scopes/permissions reference page exists on any\n  public FundGuard host; nothing beyond the advertised value is recorded.\nschemes:\n- name: mcp-oauth\n  source: well-known/fundguard-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.fundguard.com/oauth/authorize\n    tokenUrl: https://www.fundguard.com/oauth/token\nscopes:\n- scope: mcp\n  description: >-\n    Access the MCP server exposed at https://www.fundguard.com/wp-json/mcp/mcp-oauth-server. The scope is\n    advertised in both scopes_supported of the authorization-server metadata and scopes_supported of the\n    protected-resource metadata. No finer-grained scope decomposition is published.\n\
   \  flows: [authorizationCode]\n  sources:\n  - well-known/fundguard-oauth-authorization-server.json\n  - well-known/fundguard-oauth-protected-resource.json\nx-evidence:\n  fetched: '2026-08-01'\n  url: https://www.fundguard.com/.well-known/oauth-authorization-server\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundguard/refs/heads/main/scopes/fundguard-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fundguard/scopes/fundguard-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - investment-accounting

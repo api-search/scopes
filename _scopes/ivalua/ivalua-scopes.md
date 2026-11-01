@@ -28,7 +28,7 @@ source_filename: ivalua-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "name: Ivalua OAuth scopes\ngenerated: '2026-10-20'\nmethod: probed\nsource: https://portal.ivalua.com/.well-known/oauth-authorization-server\nscopes:\n  - name: offline_access\n    description: Listed in scopes_supported by both the authorization-server and protected-resource metadata on portal.ivalua.com.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/scopes/ivalua-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ivalua/scopes/ivalua-scopes.yml
 summary_line: 1 scope
 tags:
 - Procurement

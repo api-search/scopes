@@ -95,7 +95,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://ikas.dev/docs/intro\ndocs: https://ikas.dev/docs/intro\nschemes:\n- name: OAuth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{store_name}.myikas.com/api/admin/oauth/token\n  - flow: authorizationCode\nscopes:\n- scope: read_products\n  description: View products\n  flows: [clientCredentials, authorizationCode]\n- scope: write_products\n  description: Manage products\n  flows: [clientCredentials, authorizationCode]\n- scope: read_orders\n  description: View orders\n  flows: [clientCredentials, authorizationCode]\n- scope: write_orders\n  description: Manage orders\n  flows: [clientCredentials, authorizationCode]\n- scope: read_customers\n  description: View customers\n  flows: [clientCredentials, authorizationCode]\n- scope: write_customers\n  description: Manage customers\n  flows: [clientCredentials, authorizationCode]\n- scope: read_campaigns\n  description: View campaigns\n  flows: [clientCredentials,\
   \ authorizationCode]\n- scope: write_campaigns\n  description: Manage campaigns\n  flows: [clientCredentials, authorizationCode]\n- scope: read_inventories\n  description: View inventory levels\n  flows: [clientCredentials, authorizationCode]\n- scope: write_inventories\n  description: Manage inventory levels\n  flows: [clientCredentials, authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/scopes/ikas-ikas-teknoloji-as-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ikas-ikas-teknoloji-as/scopes/ikas-ikas-teknoloji-as-scopes.yml
 summary_line: 10 scopes · clientCredentials/authorizationCode
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Lacuna Music API Events
   slug: lacuna-lacuna-music-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-lacuna-music-api-api-openapi.yml
+  url: https://artifacts.apis.io/lacuna/openapi/lacuna-lacuna-music-api-api-openapi.yml
 - filename: lacuna-music-api-openapi.yml
   format: yaml
   label: Lacuna Music API
   slug: lacuna-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-music-api-openapi.yml
+  url: https://artifacts.apis.io/lacuna/openapi/lacuna-music-api-openapi.yml
 - filename: lacuna-account-api-openapi.yml
   format: yaml
   label: Lacuna Account API
   slug: lacuna-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-account-api-openapi.yml
+  url: https://artifacts.apis.io/lacuna/openapi/lacuna-account-api-openapi.yml
 authorization_urls:
 - https://www.lacuna.fm/oauth/authorize
 description: ''
@@ -83,7 +83,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://www.lacuna.fm/.well-known/oauth-authorization-server\ndocs: https://www.lacuna.fm/auth.md\nnote: >-\n  The published OpenAPI declares only `bearerAuth` (http bearer), so no scopes are derivable from the\n  spec. The OAuth scope surface is published instead in the RFC 8414 authorization-server metadata, the\n  RFC 9728 protected-resource metadata, the A2A agent card, and the MCP server card — all four agree.\nschemes:\n  - name: oauth2\n    source: well-known/lacuna-oauth-authorization-server.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://www.lacuna.fm/oauth/authorize\n        tokenUrl: https://www.lacuna.fm/oauth/token\n        code_challenge_methods_supported:\n          - S256\nscopes:\n  - scope: profile\n    description: Grants the profile scope — account identity.\n    flows: [authorizationCode]\n    sources:\n      - well-known/lacuna-oauth-authorization-server.json\n    \
   \  - a2a/lacuna-agent-card.json\n  - scope: music:generate\n    description: >-\n      Grants music generation. Required for music generation over REST, MCP and A2A alike\n      (scopes_required in both the agent-auth block and the MCP server card).\n    required: true\n    flows: [authorizationCode]\n    sources:\n      - well-known/lacuna-oauth-authorization-server.json\n      - well-known/lacuna-oauth-protected-resource.json\n      - mcp/lacuna-mcp-server-card.json\n      - a2a/lacuna-agent-card.json\n  - scope: livecoding:agent\n    description: Grants the livecoding:agent scope.\n    flows: [authorizationCode]\n    sources:\n      - well-known/lacuna-oauth-authorization-server.json\n      - a2a/lacuna-agent-card.json\n  - scope: music:agent\n    description: Grants the music:agent scope.\n    flows: [authorizationCode]\n    sources:\n      - well-known/lacuna-oauth-authorization-server.json\n      - a2a/lacuna-agent-card.json\n  - scope: lyrics:agent\n    description: Grants the lyrics:agent\
   \ scope.\n    flows: [authorizationCode]\n    sources:\n      - well-known/lacuna-oauth-authorization-server.json\n      - a2a/lacuna-agent-card.json\ngaps:\n  - >-\n    Lacuna publishes scope names but not a scopes/permissions reference page describing what each\n    agent scope (livecoding:agent, music:agent, lyrics:agent) actually authorizes. The metadata\n    descriptions are self-referential (\"Grants the X scope\").\nx-evidence:\n  fetched: '2026-08-09'\n  urls:\n    - url: https://www.lacuna.fm/.well-known/oauth-authorization-server\n      http_status: 200\n    - url: https://www.lacuna.fm/.well-known/oauth-protected-resource\n      http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/scopes/lacuna-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lacuna/scopes/lacuna-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - AI Music

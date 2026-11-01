@@ -34,7 +34,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api.oncockpit.ai/.well-known/ai-plugin.json\ndocs: null\nnote: >-\n  These are the only OAuth scopes this company publishes anywhere. They come verbatim from the\n  `auth.scope` field (\"read write\") of the live ChatGPT plugin manifest on its own API host. There\n  is no scopes/permissions reference page and no OpenAPI oauth2 securityScheme to derive a richer\n  set from, so the descriptions below are the coarse, literal meaning of the two tokens — nothing\n  further is claimed.\nscheme: oauth2\nauthorization_url: https://kalendar.ai/chatgpt/authorize_callback.json\nscope_count: 2\nscopes:\n- name: read\n  description: Read access to the authorizing user's KalendarAI/Cockpit account data.\n  source: ai-plugin.json auth.scope\n- name: write\n  description: Write access to the authorizing user's KalendarAI/Cockpit account data.\n  source: ai-plugin.json auth.scope\ngaps:\n- No per-resource or granular scopes are published.\n\
   - No consent screen or scope reference documentation is publicly reachable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/scopes/goomp-inc-kalendar-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/goomp-inc-kalendar-ai/scopes/goomp-inc-kalendar-ai-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company

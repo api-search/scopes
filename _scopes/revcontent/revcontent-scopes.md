@@ -5,67 +5,67 @@ api_specs:
   label: RevContent Access API
   slug: revcontent-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-access-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-access-api-openapi.yml
 - filename: revcontent-ccpa-api-openapi.yml
   format: yaml
   label: RevContent CCPA API
   slug: revcontent-ccpa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-ccpa-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-ccpa-api-openapi.yml
 - filename: revcontent-content-api-openapi.yml
   format: yaml
   label: RevContent Content API
   slug: revcontent-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-content-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-content-api-openapi.yml
 - filename: revcontent-conversions-api-openapi.yml
   format: yaml
   label: RevContent Conversions API
   slug: revcontent-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-conversions-api-openapi.yml
 - filename: revcontent-helpers-api-openapi.yml
   format: yaml
   label: RevContent Helpers API
   slug: revcontent-helpers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-helpers-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-helpers-api-openapi.yml
 - filename: revcontent-targeting-api-openapi.yml
   format: yaml
   label: RevContent Targeting API
   slug: revcontent-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-targeting-api-openapi.yml
 - filename: revcontent-widget-internal-content-api-openapi.yml
   format: yaml
   label: RevContent Widget Internal Content API
   slug: revcontent-widget-internal-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-internal-content-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-widget-internal-content-api-openapi.yml
 - filename: revcontent-widget-optimizer-api-openapi.yml
   format: yaml
   label: RevContent Widget Optimizer API
   slug: revcontent-widget-optimizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-optimizer-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-widget-optimizer-api-openapi.yml
 - filename: revcontent-campaigns-api-openapi.yml
   format: yaml
   label: RevContent Campaigns API
   slug: revcontent-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-campaigns-api-openapi.yml
 - filename: revcontent-widget-api-openapi.yml
   format: yaml
   label: RevContent Widget API
   slug: revcontent-widget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-widget-api-openapi.yml
 - filename: revcontent-subaccounts-api-openapi.yml
   format: yaml
   label: RevContent Subaccounts API
   slug: revcontent-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-subaccounts-api-openapi.yml
 authorization_urls: []
 description: 'RevContent''s OAuth 2.0 client-credentials token carries scopes, but they are NOT requestable and RevContent publishes no scopes reference page. The evidence is the token response the provider itself documents — `"scope": "advertiser publisher"` — cross-referenced against the per-operation `permission` marker on all 43 operations in the same contract. Two role scopes exist; a caller cannot narrow to one.'
 docs: https://help.revcontent.com/knowledge/publisher-advertiser-api-requests
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api.rev
   \ getDmas\n      - getLanguages\n      - getOperatingSystems\n      - getRegions\n      - getBoostWidgets\n      - postBoostWidgets\n      - getTargetsOptimizerWidgets\n      - postTargetsWidgetsOptimizerAdd\n      - postTargetsWidgetsOptimizerRemove\n  - scope: publisher\n    description: >-\n      The sell side. Widget inventory, geo and Sub ID reporting, and publisher-owned internal\n      content inside a widget.\n    flows: [clientCredentials]\n    operation_count: 6\n    operations:\n      - getAllWidgets\n      - getAllWidgetsGeo\n      - getSubIDStats\n      - getWidgetInternalContent\n      - postWidgetInternalContentAdd\n      - postWidgetInternalContentUpdate\n\nshared_operations:\n  description: Operations the contract marks as available to both roles.\n  advertiser_and_publisher:\n    - getOauthAccess\n    - getReactivateAccount\n    - addAccount\n    - editAccount\n    - listAccounts\n    - updateAccountStatus\n  unscoped:\n    description: >-\n      The three CCPA operations\
   \ declare no permission at all. postSubmitCCPARequest is documented\n      without a bearer token — it is issued from the consumer's browser with a `Cookie: __ID=…`\n      header — which makes it the one genuinely unauthenticated write in the API.\n    operations:\n      - postSubmitCCPARequest\n      - postUserData\n      - postUsersData\n\ngaps:\n  - No scopes or permissions reference page exists on revcontent.com or help.revcontent.com. The\n    scope values are only discoverable by reading the token response example inside the generated\n    API reference.\n  - Scopes cannot be narrowed. A credential entitled to both roles always receives both, so\n    least-privilege is not achievable through this API.\n  - >-\n    Sub-account access is not scoped at all. sub_account_id is a request parameter, so one token\n    reaches every child account of the parent.\n  - No /.well-known/oauth-authorization-server document (404), so neither the token endpoint nor the\n    supported scopes are programmatically\
   \ discoverable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/scopes/revcontent-scopes.yml
+source_yaml_url: https://artifacts.apis.io/revcontent/scopes/revcontent-scopes.yml
 summary_line: 2 scopes
 tags:
 - Native Advertising

@@ -5,103 +5,103 @@ api_specs:
   label: Orum Authentication API
   slug: orum-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-authentication-api-openapi.yml
 - filename: orum-balance-api-openapi.yml
   format: yaml
   label: Orum Balance API
   slug: orum-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-balance-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-balance-api-openapi.yml
 - filename: orum-book-transfers-api-openapi.yml
   format: yaml
   label: Orum Book Transfers API
   slug: orum-book-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-book-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-book-transfers-api-openapi.yml
 - filename: orum-businesses-api-openapi.yml
   format: yaml
   label: Orum Businesses API
   slug: orum-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-businesses-api-openapi.yml
 - filename: orum-cards-api-openapi.yml
   format: yaml
   label: Orum Cards API
   slug: orum-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-cards-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-cards-api-openapi.yml
 - filename: orum-configure-webhooks-api-openapi.yml
   format: yaml
   label: Orum Configure webhooks API
   slug: orum-configure-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-configure-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-configure-webhooks-api-openapi.yml
 - filename: orum-eligibility-api-openapi.yml
   format: yaml
   label: Orum Eligibility API
   slug: orum-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-eligibility-api-openapi.yml
 - filename: orum-external-accounts-api-openapi.yml
   format: yaml
   label: Orum External Accounts API
   slug: orum-external-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-external-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-external-accounts-api-openapi.yml
 - filename: orum-persons-api-openapi.yml
   format: yaml
   label: Orum Persons API
   slug: orum-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-persons-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-persons-api-openapi.yml
 - filename: orum-reports-api-openapi.yml
   format: yaml
   label: Orum Reports API
   slug: orum-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-reports-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-reports-api-openapi.yml
 - filename: orum-schedules-api-openapi.yml
   format: yaml
   label: Orum Schedules API
   slug: orum-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-schedules-api-openapi.yml
 - filename: orum-secure-webhooks-api-openapi.yml
   format: yaml
   label: Orum Secure webhooks API
   slug: orum-secure-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-secure-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-secure-webhooks-api-openapi.yml
 - filename: orum-subledgers-api-openapi.yml
   format: yaml
   label: Orum Subledgers API
   slug: orum-subledgers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-subledgers-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-subledgers-api-openapi.yml
 - filename: orum-transfer-groups-api-openapi.yml
   format: yaml
   label: Orum Transfer Groups API
   slug: orum-transfer-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-transfer-groups-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-transfer-groups-api-openapi.yml
 - filename: orum-transfers-api-openapi.yml
   format: yaml
   label: Orum Transfers API
   slug: orum-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-transfers-api-openapi.yml
 - filename: orum-trigger-webhooks-api-openapi.yml
   format: yaml
   label: Orum Trigger webhooks API
   slug: orum-trigger-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-trigger-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-trigger-webhooks-api-openapi.yml
 - filename: orum-verify-api-openapi.yml
   format: yaml
   label: Orum Verify API
   slug: orum-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/openapi/orum-verify-api-openapi.yml
+  url: https://artifacts.apis.io/orum/openapi/orum-verify-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.orum.io/guides/api-authentication
@@ -285,7 +285,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/orum-op
   \ openapi/orum-openapi-original.yml\n- scope: read:transfers\n  description: Read transfers\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: read:verify-accounts\n  description: Read verify accounts\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: read:webhook-configurations\n  description: Read webhook configurations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: read:webhook-secret\n  description: Read webhook secret\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:booktransfers\n  description: Write book transfers\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:businesses\n  description: Write businesses\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:cards\n  description: Write cards\n  flows:\n\
   \  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:external-accounts\n  description: Write external accounts\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:persons\n  description: Write persons\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:reports\n  description: Write reports\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:schedules\n  description: Write schedules\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:subledgers\n  description: Write subledgers\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:transfer-groups\n  description: Write transfer groups\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:transfers\n  description: Write transfers\n\
   \  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:verify-accounts\n  description: Write verify accounts\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:webhook-configurations\n  description: Write webhook configurations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n- scope: write:webhook-secret\n  description: Write webhook secret\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/orum-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orum/refs/heads/main/scopes/orum-scopes.yml
+source_yaml_url: https://artifacts.apis.io/orum/scopes/orum-scopes.yml
 summary_line: 29 scopes · clientCredentials
 tags:
 - Company

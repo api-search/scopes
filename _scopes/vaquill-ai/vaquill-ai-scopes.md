@@ -5,157 +5,157 @@ api_specs:
   label: Vaquill AI Board Watches API
   slug: vaquill-ai-board-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-board-watches-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-board-watches-api-openapi.yml
 - filename: vaquill-ai-chronology-api-openapi.yml
   format: yaml
   label: Vaquill AI Chronology API
   slug: vaquill-ai-chronology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-chronology-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-chronology-api-openapi.yml
 - filename: vaquill-ai-clients-api-openapi.yml
   format: yaml
   label: Vaquill AI Clients API
   slug: vaquill-ai-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-clients-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-clients-api-openapi.yml
 - filename: vaquill-ai-comparisons-api-openapi.yml
   format: yaml
   label: Vaquill AI Comparisons API
   slug: vaquill-ai-comparisons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-comparisons-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-comparisons-api-openapi.yml
 - filename: vaquill-ai-compliance-api-openapi.yml
   format: yaml
   label: Vaquill AI Compliance API
   slug: vaquill-ai-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-compliance-api-openapi.yml
 - filename: vaquill-ai-credits-api-openapi.yml
   format: yaml
   label: Vaquill AI Credits API
   slug: vaquill-ai-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-credits-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-credits-api-openapi.yml
 - filename: vaquill-ai-documents-api-openapi.yml
   format: yaml
   label: Vaquill AI Documents API
   slug: vaquill-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-documents-api-openapi.yml
 - filename: vaquill-ai-drafting-api-openapi.yml
   format: yaml
   label: Vaquill AI Drafting API
   slug: vaquill-ai-drafting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-drafting-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-drafting-api-openapi.yml
 - filename: vaquill-ai-facts-api-openapi.yml
   format: yaml
   label: Vaquill AI Facts API
   slug: vaquill-ai-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-facts-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-facts-api-openapi.yml
 - filename: vaquill-ai-folders-api-openapi.yml
   format: yaml
   label: Vaquill AI Folders API
   slug: vaquill-ai-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-folders-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-folders-api-openapi.yml
 - filename: vaquill-ai-india-credits-api-openapi.yml
   format: yaml
   label: Vaquill AI India Credits API
   slug: vaquill-ai-india-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-india-credits-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-india-credits-api-openapi.yml
 - filename: vaquill-ai-india-pricing-api-openapi.yml
   format: yaml
   label: Vaquill AI India Pricing API
   slug: vaquill-ai-india-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-india-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-india-pricing-api-openapi.yml
 - filename: vaquill-ai-indian-acts-and-legislation-api-openapi.yml
   format: yaml
   label: Vaquill AI Indian Acts and Legislation API
   slug: vaquill-ai-indian-acts-and-legislation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-indian-acts-and-legislation-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-indian-acts-and-legislation-api-openapi.yml
 - filename: vaquill-ai-matrices-api-openapi.yml
   format: yaml
   label: Vaquill AI Matrices API
   slug: vaquill-ai-matrices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-matrices-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-matrices-api-openapi.yml
 - filename: vaquill-ai-matter-summary-api-openapi.yml
   format: yaml
   label: Vaquill AI Matter summary API
   slug: vaquill-ai-matter-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-matter-summary-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-matter-summary-api-openapi.yml
 - filename: vaquill-ai-matters-api-openapi.yml
   format: yaml
   label: Vaquill AI Matters API
   slug: vaquill-ai-matters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-matters-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-matters-api-openapi.yml
 - filename: vaquill-ai-nda-triage-api-openapi.yml
   format: yaml
   label: Vaquill AI NDA triage API
   slug: vaquill-ai-nda-triage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-nda-triage-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-nda-triage-api-openapi.yml
 - filename: vaquill-ai-operations-api-openapi.yml
   format: yaml
   label: Vaquill AI Operations API
   slug: vaquill-ai-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-operations-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-operations-api-openapi.yml
 - filename: vaquill-ai-playbooks-api-openapi.yml
   format: yaml
   label: Vaquill AI Playbooks API
   slug: vaquill-ai-playbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-playbooks-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-playbooks-api-openapi.yml
 - filename: vaquill-ai-pricing-api-openapi.yml
   format: yaml
   label: Vaquill AI Pricing API
   slug: vaquill-ai-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-pricing-api-openapi.yml
 - filename: vaquill-ai-research-api-openapi.yml
   format: yaml
   label: Vaquill AI Research API
   slug: vaquill-ai-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-research-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-research-api-openapi.yml
 - filename: vaquill-ai-reviews-api-openapi.yml
   format: yaml
   label: Vaquill AI Reviews API
   slug: vaquill-ai-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-reviews-api-openapi.yml
 - filename: vaquill-ai-uploads-api-openapi.yml
   format: yaml
   label: Vaquill AI Uploads API
   slug: vaquill-ai-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-uploads-api-openapi.yml
 - filename: vaquill-ai-us-session-laws-api-openapi.yml
   format: yaml
   label: Vaquill AI US Session Laws API
   slug: vaquill-ai-us-session-laws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-us-session-laws-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-us-session-laws-api-openapi.yml
 - filename: vaquill-ai-us-statutes-api-openapi.yml
   format: yaml
   label: Vaquill AI US Statutes API
   slug: vaquill-ai-us-statutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-us-statutes-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-us-statutes-api-openapi.yml
 - filename: vaquill-ai-workflows-api-openapi.yml
   format: yaml
   label: Vaquill AI Workflows API
   slug: vaquill-ai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/openapi/vaquill-ai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/vaquill-ai/openapi/vaquill-ai-workflows-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.vaquill.ai/docs/workspace-api/authentication
@@ -337,7 +337,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: searched\nsource: https://www.vaq
   \ playbooks (write implies read on the same resource)\n  surface: workspace-api\n- name: playbooks:run\n  description: Start billable playbooks work (run does not imply read)\n  surface: workspace-api\n- name: matrices:read\n  description: Read matrices\n  surface: workspace-api\n- name: matrices:write\n  description: Create and update matrices (write implies read on the same resource)\n  surface: workspace-api\n- name: matrices:run\n  description: Start billable matrices work (run does not imply read)\n  surface: workspace-api\n- name: workflows:read\n  description: Read workflows\n  surface: workspace-api\n- name: workflows:write\n  description: Create and update workflows (write implies read on the same resource)\n  surface: workspace-api\n- name: workflows:run\n  description: Start billable workflows work (run does not imply read)\n  surface: workspace-api\n- name: research:read\n  description: Read research\n  surface: workspace-api\n- name: research:run\n  description: Start billable\
   \ research work (run does not imply read)\n  surface: workspace-api\n- name: nda:read\n  description: Read nda\n  surface: workspace-api\n- name: nda:run\n  description: Start billable nda work (run does not imply read)\n  surface: workspace-api\n- name: compliance:read\n  description: Read compliance\n  surface: workspace-api\n- name: compliance:run\n  description: Start billable compliance work (run does not imply read)\n  surface: workspace-api\n- name: facts:read\n  description: Read facts\n  surface: workspace-api\n- name: facts:run\n  description: Start billable facts work (run does not imply read)\n  surface: workspace-api\n- name: summaries:read\n  description: Read summaries\n  surface: workspace-api\n- name: summaries:run\n  description: Start billable summaries work (run does not imply read)\n  surface: workspace-api\n- name: chronology:read\n  description: Read chronology\n  surface: workspace-api\n- name: chronology:write\n  description: Create and update chronology (write\
   \ implies read on the same resource)\n  surface: workspace-api\n- name: exports:create\n  description: Create exports\n  surface: workspace-api\n- name: exports:read\n  description: Read exports\n  surface: workspace-api\n- name: operations:read\n  description: Read operations\n  surface: workspace-api\n- name: offline_access\n  description: Refresh-token access for the hosted MCP connector (OAuth 2.1 at https://mcp.vaquill.ai/mcp)\n  surface: mcp-oauth\n  source: well-known/mcp.vaquill.ai-oauth-authorization-server.json\naccepted_but_inert:\n- credentials:rotate\n- webhooks:read\n- webhooks:write\nnotes:\n- Write implies read on the same resource; run does not.\n- chronology:read/write are separate from matters:* on purpose; nda:* and compliance:* are separate from review:*.\n- A 403 insufficient-scope problem names the scopes needed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vaquill-ai/refs/heads/main/scopes/vaquill-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vaquill-ai/scopes/vaquill-ai-scopes.yml
 summary_line: 38 scopes
 tags:
 - Legal

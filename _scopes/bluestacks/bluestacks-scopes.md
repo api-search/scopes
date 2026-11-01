@@ -5,7 +5,7 @@ api_specs:
   label: now.gg Payments Server API
   slug: nowgg-payments-server-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluestacks/refs/heads/main/asyncapi/bluestacks-payments-asyncapi.yml
+  url: https://artifacts.apis.io/bluestacks/asyncapi/bluestacks-payments-asyncapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.now.gg/user-account-service/api-reference
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-08'\nmethod: searched\nsource: https://docs.now.gg/user-account-service/api-reference\ndocs: https://docs.now.gg/user-account-service/api-reference\nnote: >-\n  now.gg publishes no scopes or permissions reference page. The scope vocabulary below\n  is what the API reference itself documents: the `scope` claim inside a decoded\n  now.gg `token` is described as \"Scope of authorization: email/profile/authorization\".\n  Those three values are the entire published surface. No per-scope description, no\n  scope-request parameter, and no mapping from scope to endpoint is documented\n  anywhere, so the descriptions below are the docs' own wording and nothing more.\nschemes:\n- name: nowggOAuth2\n  source: https://docs.now.gg/user-account-service/api-reference\n  flows:\n  - flow: authorizationCode\n    tokenUrl: https://now.gg/accounts/oauth2/v1/token\n  - flow: refreshToken\n    tokenUrl: https://now.gg/accounts/oauth2/v1/token\nscopes:\n- scope: email\n  description:\
   \ Scope of authorization covering the player's email address.\n  evidence: '`scope` claim sample value in the decoded-token reference'\n  flows:\n  - authorizationCode\n- scope: profile\n  description: Scope of authorization covering the player's profile information.\n  evidence: enumerated in the `scope` claim description (email/profile/authorization)\n  flows:\n  - authorizationCode\n- scope: authorization\n  description: Scope of authorization covering authorization itself.\n  evidence: enumerated in the `scope` claim description (email/profile/authorization)\n  flows:\n  - authorizationCode\ngaps:\n- No scopes/permissions reference page exists; the vocabulary is only visible as a\n  sample claim value inside the token reference.\n- No documented way for a client to REQUEST a scope — no scope parameter appears in\n  the token or verify-token request bodies.\n- No mapping from scope to the endpoints it authorizes (userinfo vs sessioninfo).\n- The Payments API is key-authorized, not OAuth-scoped,\
   \ so none of these scopes apply\n  to it.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluestacks/refs/heads/main/scopes/bluestacks-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bluestacks/scopes/bluestacks-scopes.yml
 summary_line: 3 scopes · authorizationCode/refreshToken
 tags:
 - Company

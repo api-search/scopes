@@ -44,7 +44,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-22'\nmethod: searched\nsource: https://web.archive.org/web/20170219083244/https://studio.tab.com.au/intro/authentication/auth-code-grant.html\ndocs: https://studio.tab.com.au/intro/authentication/auth-code-grant.html\ndescription: \"Scopes named in the auth-code-grant example URL (scopes=account:balance,account:statement,bets). The docs say an application may request any subset of the scopes it has access to; no full scope reference was retrievable. Live TAB Studio docs (www.studio.tab.com.au) answered 403 Akamai Access Denied (geo-restricted) on 2026-10-22; content read from the Internet Archive snapshot of the provider's own docs, captured February 2017, and may be out of date.\"\nschemes:\n- name: TAB Digital API OAuth 2.0\n  type: oauth2\n  grant_types: [authorization_code, refresh_token]\n  authorizationUrl: https://api.beta.tab.com.au/oauth/authorize\n  tokenUrl: https://api.beta.tab.com.au/oauth/token\nscopes:\n- scope: account:balance\n  description:\
   \ Named in the documented authorize URL example; no description published.\n  schemes: [TAB Digital API OAuth 2.0]\n- scope: account:statement\n  description: Named in the documented authorize URL example; no description published.\n  schemes: [TAB Digital API OAuth 2.0]\n- scope: bets\n  description: Named in the documented authorize URL example; no description published.\n  schemes: [TAB Digital API OAuth 2.0]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tabcorp/refs/heads/main/scopes/tabcorp-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tabcorp/scopes/tabcorp-scopes.yml
 summary_line: 3 scopes
 tags:
 - Company

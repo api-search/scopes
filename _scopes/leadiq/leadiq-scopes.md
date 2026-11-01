@@ -5,25 +5,25 @@ api_specs:
   label: LeadIQ Account API
   slug: leadiq-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-account-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-account-api-openapi.yml
 - filename: leadiq-lists-api-openapi.yml
   format: yaml
   label: LeadIQ Lists API
   slug: leadiq-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-lists-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-lists-api-openapi.yml
 - filename: leadiq-prospects-api-openapi.yml
   format: yaml
   label: LeadIQ Prospects API
   slug: leadiq-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-prospects-api-openapi.yml
 - filename: leadiq-graph-ql-api-openapi.yml
   format: yaml
   label: LeadIQ Graph QL API
   slug: leadiq-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/openapi/leadiq-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-graph-ql-api-openapi.yml
 authorization_urls:
 - https://leadiq-mcp-prod.us.auth0.com/authorize
 description: ''
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://mcp.leadi
   \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://leadiq-mcp-prod.us.auth0.com/authorize\n    tokenUrl: https://leadiq-mcp-prod.us.auth0.com/oauth/token\n    pkce: [S256, plain]\n  - flow: clientCredentials\n    tokenUrl: https://leadiq-mcp-prod.us.auth0.com/oauth/token\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://leadiq-mcp-prod.us.auth0.com/oauth/device/code\n    tokenUrl: https://leadiq-mcp-prod.us.auth0.com/oauth/token\n  revocation_endpoint: https://leadiq-mcp-prod.us.auth0.com/oauth/revoke\n  jwks_uri: https://leadiq-mcp-prod.us.auth0.com/.well-known/jwks.json\nscopes:\n- scope: leadiq:api\n  description: >-\n    The single LeadIQ resource scope. Grants an MCP client access to the LeadIQ API\n    surface behind mcp.leadiq.com/mcp with the signed-in user's own account\n    permissions and credit balance. LeadIQ publishes no finer-grained per-tool or\n    read/write split — all seventeen MCP tools, including the Salesforce export write,\n    sit behind\
   \ this one scope.\n  flows: [authorizationCode]\n  sources: ['https://mcp.leadiq.com/.well-known/oauth-protected-resource']\n- scope: offline_access\n  description: Issues a refresh token so the MCP client can keep the connection alive without re-prompting the user.\n  flows: [authorizationCode]\n  sources: ['https://mcp.leadiq.com/.well-known/oauth-protected-resource']\nauthorization_server_scopes_supported:\n- openid\n- profile\n- offline_access\n- name\n- given_name\n- family_name\n- nickname\n- email\n- email_verified\n- picture\n- created_at\n- identities\n- phone\n- address\nauthorization_server_note: >-\n  Those are the Auth0 tenant's standard OIDC scopes advertised at\n  leadiq-mcp-prod.us.auth0.com/.well-known/oauth-authorization-server. They are\n  identity scopes, not LeadIQ resource scopes; only `leadiq:api` and `offline_access`\n  are named by the protected-resource document as required for the MCP resource.\nfindings:\n- >-\n  Coarse authorization. One resource scope covers\
   \ everything an agent can do,\n  including ExportProspectToSalesforce, which writes an irreversible record into the\n  customer's Salesforce org. There is no read-only scope an operator could grant to a\n  research agent.\nx-evidence:\n  fetched: '2026-08-13'\n  probes:\n  - {url: 'https://mcp.leadiq.com/.well-known/oauth-protected-resource', http_status: 200}\n  - {url: 'https://leadiq-mcp-prod.us.auth0.com/.well-known/oauth-authorization-server', http_status: 200}\n  - {url: 'https://mcp.leadiq.com/.well-known/oauth-authorization-server', http_status: 404}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/scopes/leadiq-scopes.yml
+source_yaml_url: https://artifacts.apis.io/leadiq/scopes/leadiq-scopes.yml
 summary_line: 2 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Sales Intelligence

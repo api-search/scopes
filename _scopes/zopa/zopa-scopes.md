@@ -5,73 +5,73 @@ api_specs:
   label: zopa Account Access API
   slug: zopa-account-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-account-access-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-account-access-api-openapi.yml
 - filename: zopa-accounts-api-openapi.yml
   format: yaml
   label: zopa Accounts API
   slug: zopa-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-accounts-api-openapi.yml
 - filename: zopa-balances-api-openapi.yml
   format: yaml
   label: zopa Balances API
   slug: zopa-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-balances-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-balances-api-openapi.yml
 - filename: zopa-beneficiaries-api-openapi.yml
   format: yaml
   label: zopa Beneficiaries API
   slug: zopa-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-beneficiaries-api-openapi.yml
 - filename: zopa-direct-debits-api-openapi.yml
   format: yaml
   label: zopa Direct Debits API
   slug: zopa-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-direct-debits-api-openapi.yml
 - filename: zopa-domestic-payments-api-openapi.yml
   format: yaml
   label: zopa Domestic Payments API
   slug: zopa-domestic-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-domestic-payments-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-domestic-payments-api-openapi.yml
 - filename: zopa-domestic-standing-orders-api-openapi.yml
   format: yaml
   label: zopa Domestic Standing Orders API
   slug: zopa-domestic-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-domestic-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-domestic-standing-orders-api-openapi.yml
 - filename: zopa-offers-api-openapi.yml
   format: yaml
   label: zopa Offers API
   slug: zopa-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-offers-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-offers-api-openapi.yml
 - filename: zopa-parties-api-openapi.yml
   format: yaml
   label: zopa Parties API
   slug: zopa-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-parties-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-parties-api-openapi.yml
 - filename: zopa-standing-orders-api-openapi.yml
   format: yaml
   label: zopa Standing Orders API
   slug: zopa-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-standing-orders-api-openapi.yml
 - filename: zopa-statements-api-openapi.yml
   format: yaml
   label: zopa Statements API
   slug: zopa-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-statements-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-statements-api-openapi.yml
 - filename: zopa-transactions-api-openapi.yml
   format: yaml
   label: zopa Transactions API
   slug: zopa-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/openapi/zopa-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/zopa/openapi/zopa-transactions-api-openapi.yml
 authorization_urls:
 - https://authserver.example/authorization
 description: ''
@@ -142,7 +142,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/zopa-account-info-openapi-original.yml, openapi/zopa-payment-initiation-openapi-original.yml\nschemes:\n- name: TPPOAuth2Security\n  source: openapi/zopa-account-info-openapi-original.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://authserver.example/token\n  description: TPP client credential authorisation flow with the ASPSP\n- name: PSUOAuth2Security\n  source: openapi/zopa-account-info-openapi-original.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://authserver.example/authorization\n    tokenUrl: https://authserver.example/token\n  description: OAuth flow, it is required when the PSU needs to perform SCA with the ASPSP when\n    a TPP wants to access an ASPSP resource owned by the PSU\n- name: TPPOAuth2Security\n  source: openapi/zopa-payment-initiation-openapi-original.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://authserver.example/token\n  description:\
   \ TPP client credential authorisation flow with the ASPSP\n- name: PSUOAuth2Security\n  source: openapi/zopa-payment-initiation-openapi-original.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://authserver.example/authorization\n    tokenUrl: https://authserver.example/token\n  description: OAuth flow, it is required when the PSU needs to perform SCA with the ASPSP when\n    a TPP wants to access an ASPSP resource owned by the PSU\nscopes:\n- scope: accounts\n  description: Ability to read Accounts information\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/zopa-account-info-openapi-original.yml\n- scope: payments\n  description: Generic payment scope\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/zopa-payment-initiation-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zopa/refs/heads/main/scopes/zopa-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zopa/scopes/zopa-scopes.yml
 summary_line: 2 scopes · clientCredentials/authorizationCode
 tags:
 - Company

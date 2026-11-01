@@ -5,31 +5,31 @@ api_specs:
   label: konfetti Account API
   slug: konfetti-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-account-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-account-api-openapi.yml
 - filename: konfetti-auth-api-openapi.yml
   format: yaml
   label: konfetti Auth API
   slug: konfetti-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-auth-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-auth-api-openapi.yml
 - filename: konfetti-catalog-api-openapi.yml
   format: yaml
   label: konfetti Catalog API
   slug: konfetti-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-catalog-api-openapi.yml
 - filename: konfetti-checkout-api-openapi.yml
   format: yaml
   label: konfetti Checkout API
   slug: konfetti-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-checkout-api-openapi.yml
 - filename: konfetti-requests-api-openapi.yml
   format: yaml
   label: konfetti Requests API
   slug: konfetti-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/openapi/konfetti-requests-api-openapi.yml
+  url: https://artifacts.apis.io/konfetti/openapi/konfetti-requests-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -81,7 +81,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: none\nsource: openapi/konfetti-account-api-openapi.yml, openapi/konfetti-auth-api-openapi.yml, openapi/konfetti-catalog-api-openapi.yml,\n  openapi/konfetti-checkout-api-openapi.yml, openapi/konfetti-requests-api-openapi.yml, openapi/konfetti-store-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/konfetti-account-api-openapi.yml\n  flows: []\n  description: OAuth 2.0 token endpoint confirmed at /v1/oauth/token (League OAuth2 Server).\n    No authorization endpoint, discovery document or scope reference is published, so no flows\n    are enumerated here.\n- name: oauth2\n  source: openapi/konfetti-auth-api-openapi.yml\n  flows: []\n  description: OAuth 2.0 token endpoint confirmed at /v1/oauth/token (League OAuth2 Server).\n    No authorization endpoint, discovery document or scope reference is published, so no flows\n    are enumerated here.\n- name: oauth2\n  source: openapi/konfetti-catalog-api-openapi.yml\n  flows: []\n  description:\
   \ OAuth 2.0 token endpoint confirmed at /v1/oauth/token (League OAuth2 Server).\n    No authorization endpoint, discovery document or scope reference is published, so no flows\n    are enumerated here.\n- name: oauth2\n  source: openapi/konfetti-checkout-api-openapi.yml\n  flows: []\n  description: OAuth 2.0 token endpoint confirmed at /v1/oauth/token (League OAuth2 Server).\n    No authorization endpoint, discovery document or scope reference is published, so no flows\n    are enumerated here.\n- name: oauth2\n  source: openapi/konfetti-requests-api-openapi.yml\n  flows: []\n  description: OAuth 2.0 token endpoint confirmed at /v1/oauth/token (League OAuth2 Server).\n    No authorization endpoint, discovery document or scope reference is published, so no flows\n    are enumerated here.\n- name: oauth2\n  source: openapi/konfetti-store-openapi.yml\n  flows: []\n  description: OAuth 2.0 token endpoint confirmed at /v1/oauth/token (League OAuth2 Server).\n    No authorization endpoint, discovery\
   \ document or scope reference is published, so no flows\n    are enumerated here.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/scopes/konfetti-scopes.yml
+source_yaml_url: https://artifacts.apis.io/konfetti/scopes/konfetti-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

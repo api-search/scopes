@@ -5,25 +5,25 @@ api_specs:
   label: HoneyBook Projects API
   slug: honeybook-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-projects-api-openapi.yml
+  url: https://artifacts.apis.io/honeybook/openapi/honeybook-projects-api-openapi.yml
 - filename: honeybook-contacts-api-openapi.yml
   format: yaml
   label: HoneyBook Contacts API
   slug: honeybook-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/honeybook/openapi/honeybook-contacts-api-openapi.yml
 - filename: honeybook-pipeline-api-openapi.yml
   format: yaml
   label: HoneyBook Pipeline API
   slug: honeybook-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/honeybook/openapi/honeybook-pipeline-api-openapi.yml
 - filename: honeybook-workspaces-api-openapi.yml
   format: yaml
   label: HoneyBook Workspaces API
   slug: honeybook-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/openapi/honeybook-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/honeybook/openapi/honeybook-workspaces-api-openapi.yml
 authorization_urls:
 - https://api.honeybook.com/oauth/authorize
 description: ''
@@ -133,7 +133,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/honeybook-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/honeybook-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.honeybook.com/oauth/authorize\n    tokenUrl: https://api.honeybook.com/oauth/token\n  description: Third-party integration guides reference OAuth 2.0 against api.honeybook.com,\n    but are inconsistent on the exact token endpoint and grant type and are not independently\n    verifiable. Modeled here as an authorization-code flow with refresh tokens, the most common\n    pattern for a user-data platform of this kind; treat as unverified.\nscopes:\n- scope: clients.read\n  description: Read clients and inquiries.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: clients.write\n  description: Create and update clients and inquiries.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope:\
   \ contracts.read\n  description: Read contracts.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: contracts.write\n  description: Create contracts.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: invoices.read\n  description: Read invoices.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: invoices.write\n  description: Create invoices.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: payments.read\n  description: Read payments.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: projects.read\n  description: Read projects and pipeline stage.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: projects.write\n  description: Create and update projects.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: proposals.read\n\
   \  description: Read proposals.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: proposals.write\n  description: Create proposals.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: scheduler.read\n  description: Read session types and bookings.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: scheduler.write\n  description: Create bookings.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n- scope: webhooks.write\n  description: Manage webhook subscriptions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/honeybook-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/scopes/honeybook-scopes.yml
+source_yaml_url: https://artifacts.apis.io/honeybook/scopes/honeybook-scopes.yml
 summary_line: 14 scopes · authorizationCode
 tags:
 - CRM

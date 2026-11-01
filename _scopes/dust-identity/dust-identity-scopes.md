@@ -5,175 +5,175 @@ api_specs:
   label: Dust Identity Auth API
   slug: dust-identity-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-auth-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-auth-api-openapi.yml
 - filename: dust-identity-bundles-api-openapi.yml
   format: yaml
   label: Dust Identity Bundles API
   slug: dust-identity-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-bundles-api-openapi.yml
 - filename: dust-identity-certificate-forms-api-openapi.yml
   format: yaml
   label: Dust Identity Certificate Forms API
   slug: dust-identity-certificate-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-certificate-forms-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-certificate-forms-api-openapi.yml
 - filename: dust-identity-certificates-api-openapi.yml
   format: yaml
   label: Dust Identity Certificates API
   slug: dust-identity-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-certificates-api-openapi.yml
 - filename: dust-identity-connections-api-openapi.yml
   format: yaml
   label: Dust Identity Connections API
   slug: dust-identity-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-connections-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-connections-api-openapi.yml
 - filename: dust-identity-events-api-openapi.yml
   format: yaml
   label: Dust Identity Events API
   slug: dust-identity-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-events-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-events-api-openapi.yml
 - filename: dust-identity-fabric-api-openapi.yml
   format: yaml
   label: Dust Identity Fabric API
   slug: dust-identity-fabric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-fabric-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-fabric-api-openapi.yml
 - filename: dust-identity-files-api-openapi.yml
   format: yaml
   label: Dust Identity Files API
   slug: dust-identity-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-files-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-files-api-openapi.yml
 - filename: dust-identity-metrics-api-openapi.yml
   format: yaml
   label: Dust Identity Metrics API
   slug: dust-identity-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-metrics-api-openapi.yml
 - filename: dust-identity-notifications-api-openapi.yml
   format: yaml
   label: Dust Identity Notifications API
   slug: dust-identity-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-notifications-api-openapi.yml
 - filename: dust-identity-org-admin-api-openapi.yml
   format: yaml
   label: Dust Identity Org Admin API
   slug: dust-identity-org-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-org-admin-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-org-admin-api-openapi.yml
 - filename: dust-identity-organizations-api-openapi.yml
   format: yaml
   label: Dust Identity Organizations API
   slug: dust-identity-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-organizations-api-openapi.yml
 - filename: dust-identity-sharing-api-openapi.yml
   format: yaml
   label: Dust Identity Sharing API
   slug: dust-identity-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-sharing-api-openapi.yml
 - filename: dust-identity-slices-api-openapi.yml
   format: yaml
   label: Dust Identity Slices API
   slug: dust-identity-slices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-slices-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-slices-api-openapi.yml
 - filename: dust-identity-system-api-openapi.yml
   format: yaml
   label: Dust Identity System API
   slug: dust-identity-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-system-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-system-api-openapi.yml
 - filename: dust-identity-tags-api-openapi.yml
   format: yaml
   label: Dust Identity Tags API
   slug: dust-identity-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-tags-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-tags-api-openapi.yml
 - filename: dust-identity-teams-api-openapi.yml
   format: yaml
   label: Dust Identity Teams API
   slug: dust-identity-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-teams-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-teams-api-openapi.yml
 - filename: dust-identity-templates-api-openapi.yml
   format: yaml
   label: Dust Identity Templates API
   slug: dust-identity-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-templates-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-templates-api-openapi.yml
 - filename: dust-identity-thread-links-api-openapi.yml
   format: yaml
   label: Dust Identity Thread Links API
   slug: dust-identity-thread-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-thread-links-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-thread-links-api-openapi.yml
 - filename: dust-identity-thread-relations-api-openapi.yml
   format: yaml
   label: Dust Identity Thread Relations API
   slug: dust-identity-thread-relations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-thread-relations-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-thread-relations-api-openapi.yml
 - filename: dust-identity-threads-api-openapi.yml
   format: yaml
   label: Dust Identity Threads API
   slug: dust-identity-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-threads-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-threads-api-openapi.yml
 - filename: dust-identity-transfers-api-openapi.yml
   format: yaml
   label: Dust Identity Transfers API
   slug: dust-identity-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-transfers-api-openapi.yml
 - filename: dust-identity-users-api-openapi.yml
   format: yaml
   label: Dust Identity Users API
   slug: dust-identity-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-users-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-users-api-openapi.yml
 - filename: dust-identity-composite-tags-api-openapi.yml
   format: yaml
   label: Dust Identity Composite Tags API
   slug: dust-identity-composite-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-composite-tags-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-composite-tags-api-openapi.yml
 - filename: dust-identity-fields-api-openapi.yml
   format: yaml
   label: Dust Identity Fields API
   slug: dust-identity-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-fields-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-fields-api-openapi.yml
 - filename: dust-identity-public-page-designs-api-openapi.yml
   format: yaml
   label: Dust Identity Public Page Designs API
   slug: dust-identity-public-page-designs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-public-page-designs-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-public-page-designs-api-openapi.yml
 - filename: dust-identity-public-pages-api-openapi.yml
   format: yaml
   label: Dust Identity Public Pages API
   slug: dust-identity-public-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-public-pages-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-public-pages-api-openapi.yml
 - filename: dust-identity-tamper-api-openapi.yml
   format: yaml
   label: Dust Identity Tamper API
   slug: dust-identity-tamper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-tamper-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-tamper-api-openapi.yml
 - filename: dust-identity-vlinks-api-openapi.yml
   format: yaml
   label: Dust Identity Vlinks API
   slug: dust-identity-vlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/openapi/dust-identity-vlinks-api-openapi.yml
+  url: https://artifacts.apis.io/dust-identity/openapi/dust-identity-vlinks-api-openapi.yml
 authorization_urls:
 - https://authd.dustid.io/api/auth/oauth2/authorize
 description: ''
@@ -270,7 +270,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: https://authd.dus
   \ This is the grant enterprise middleware\n      (SAP Integration Suite, MuleSoft, Boomi) is directed to use.\n  token_endpoint_auth_methods: [client_secret_basic, client_secret_post]\n  introspection_endpoint: https://authd.dustid.io/api/auth/oauth2/introspect\n  revocation_endpoint: https://authd.dustid.io/api/auth/oauth2/revoke\n  userinfo_endpoint: https://authd.dustid.io/api/auth/oauth2/userinfo\n  jwks_uri: https://authd.dustid.io/api/auth/jwks\n  end_session_endpoint: https://authd.dustid.io/api/auth/oauth2/end-session\n  id_token_signing_alg: [EdDSA]\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope — request an ID token.\n  flows: [authorizationCode]\n  standard: oidc\n  sources: [well-known/dust-identity-openid-configuration.json]\n- scope: email\n  description: Release the `email` and `email_verified` claims.\n  flows: [authorizationCode]\n  standard: oidc\n  sources: [well-known/dust-identity-openid-configuration.json]\n- scope: profile\n  description:\
   \ Release the `name`, `picture`, `given_name` and `family_name` claims.\n  flows: [authorizationCode]\n  standard: oidc\n  sources: [well-known/dust-identity-openid-configuration.json]\n- scope: offline_access\n  description: Issue a refresh token so the client can renew without user interaction.\n  flows: [authorizationCode, refreshToken]\n  standard: oidc\n  sources: [well-known/dust-identity-openid-configuration.json]\n- scope: read:widgets\n  description: null\n  flows: [authorizationCode]\n  standard: null\n  status: placeholder\n  sources: [well-known/dust-identity-openid-configuration.json]\n  note: >-\n    Advertised in scopes_supported but undocumented and unmapped to any DUST resource.\n    \"Widgets\" is the stock example scope of the auth library; DUST has no widget\n    resource. Do not build against it.\n- scope: write:widgets\n  description: null\n  flows: [authorizationCode]\n  standard: null\n  status: placeholder\n  sources: [well-known/dust-identity-openid-configuration.json]\n\
   \  note: See read:widgets — placeholder scope, not a DUST capability.\nclaims_supported: [sub, iss, aud, exp, iat, sid, scope, azp, email, email_verified,\n  name, picture, family_name, given_name]\nacr_values_supported: [urn:mace:incommon:iap:bronze]\nprompt_values_supported: [login, consent, create, select_account, none]\nauthorization_model:\n  api_authorization: team-membership\n  detail: >-\n    /api/v1/* authorization is evaluated for the caller acting in the team named by the\n    Dust-Ctx-Team-Id header — what it can list, read and write is that team's own records\n    plus whatever has been shared with it. OAuth scopes do not gate DUST API operations.\n  see: conventions/dust-identity-conventions.yml\nsummary:\n  scope_count: 6\n  oidc_standard_scopes: 4\n  dust_specific_scopes: 0\n  placeholder_scopes: 2\n  api_gated_by_scopes: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/scopes/dust-identity-scopes.yml
+source_yaml_url: https://artifacts.apis.io/dust-identity/scopes/dust-identity-scopes.yml
 summary_line: 6 scopes · authorizationCode/refreshToken/clientCredentials
 tags:
 - Authentication

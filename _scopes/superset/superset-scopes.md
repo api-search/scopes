@@ -53,7 +53,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://api.superset.sh/.well-known/oauth-authorization-server\ndocs: https://docs.superset.sh/mcp\nschemes:\n  - name: OAuth2.1\n    source: https://api.superset.sh/.well-known/oauth-authorization-server\n    issuer: https://api.superset.sh\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://api.superset.sh/api/auth/oauth2/authorize\n        tokenUrl: https://api.superset.sh/api/auth/oauth2/token\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication.\n    sources: [https://api.superset.sh/.well-known/oauth-authorization-server]\n  - scope: profile\n    description: Access to the user's basic profile.\n    sources: [https://api.superset.sh/.well-known/oauth-authorization-server]\n  - scope: email\n    description: Access to the user's email address.\n    sources: [https://api.superset.sh/.well-known/oauth-authorization-server]\n  - scope: offline_access\n    description: Issue\
   \ a refresh token for offline/long-lived access.\n    sources: [https://api.superset.sh/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superset/refs/heads/main/scopes/superset-scopes.yml
+source_yaml_url: https://artifacts.apis.io/superset/scopes/superset-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

@@ -38,7 +38,7 @@ source_filename: expeditors-international-of-washington-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: searched\nsource: https://help.expeditors.com/globalhelp/shipment_api/POST_oauth2_token.htm\ndocs: https://help.expeditors.com/globalhelp/shipment_api/data_types.htm\nnote: >-\n  The Tracking API issues a single-scope client-credentials token. Expeditors\n  documents no scope reference page and no per-resource permissions; the docs\n  state explicitly that \"this API has only one type of token\", which is why a\n  403 insufficient_scope \"should not occur\".\nschemes:\n  - name: OAuth2ClientCredentials\n    source: https://help.expeditors.com/globalhelp/shipment_api/POST_oauth2_token.htm\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://api.expeditors.com/tracking/v2/oauth2/token\nscopes:\n  - scope: application\n    description: Indicates the token is valid only for the Expeditors Tracking service. The only scope the API issues.\n    flows: [clientCredentials]\n    sources: [https://help.expeditors.com/globalhelp/shipment_api/data_types.htm]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/expeditors-international-of-washington/refs/heads/main/scopes/expeditors-international-of-washington-scopes.yml
+source_yaml_url: https://artifacts.apis.io/expeditors-international-of-washington/scopes/expeditors-international-of-washington-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Customs

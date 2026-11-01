@@ -5,31 +5,31 @@ api_specs:
   label: Quorum Software Leases API
   slug: quorum-leases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-leases-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-leases-api-openapi.yml
 - filename: quorum-owners-api-openapi.yml
   format: yaml
   label: Quorum Software Owners API
   slug: quorum-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-owners-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-owners-api-openapi.yml
 - filename: quorum-tracts-api-openapi.yml
   format: yaml
   label: Quorum Software Tracts API
   slug: quorum-tracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-tracts-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-tracts-api-openapi.yml
 - filename: quorum-wells-api-openapi.yml
   format: yaml
   label: Quorum Software Wells API
   slug: quorum-wells-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-wells-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-wells-api-openapi.yml
 - filename: quorum-division-orders-api-openapi.yml
   format: yaml
   label: Quorum Software Division Orders API
   slug: quorum-division-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/openapi/quorum-division-orders-api-openapi.yml
+  url: https://artifacts.apis.io/quorum/openapi/quorum-division-orders-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -74,7 +74,7 @@ source_filename: quorum-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quorum-land-management-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/quorum-land-management-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.quorumsoftware.com/oauth2/token\nscopes:\n- scope: land.read\n  description: Read land management data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/quorum-land-management-openapi.yml\n- scope: land.write\n  description: Write land management data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/quorum-land-management-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quorum/refs/heads/main/scopes/quorum-scopes.yml
+source_yaml_url: https://artifacts.apis.io/quorum/scopes/quorum-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Energy

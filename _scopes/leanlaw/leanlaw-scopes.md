@@ -5,61 +5,61 @@ api_specs:
   label: LeanLaw Client API
   slug: leanlaw-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-client-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-client-api-openapi.yml
 - filename: leanlaw-codes-api-openapi.yml
   format: yaml
   label: LeanLaw Codes API
   slug: leanlaw-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-codes-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-codes-api-openapi.yml
 - filename: leanlaw-expense-api-openapi.yml
   format: yaml
   label: LeanLaw Expense API
   slug: leanlaw-expense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-expense-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-expense-api-openapi.yml
 - filename: leanlaw-fixedfee-api-openapi.yml
   format: yaml
   label: LeanLaw Fixed Fee API
   slug: leanlaw-fixedfee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-fixedfee-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-fixedfee-api-openapi.yml
 - filename: leanlaw-invoice-api-openapi.yml
   format: yaml
   label: LeanLaw Invoice API
   slug: leanlaw-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-invoice-api-openapi.yml
 - filename: leanlaw-matter-api-openapi.yml
   format: yaml
   label: LeanLaw Matter API
   slug: leanlaw-matter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-matter-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-matter-api-openapi.yml
 - filename: leanlaw-practicearea-api-openapi.yml
   format: yaml
   label: LeanLaw Practice Area API
   slug: leanlaw-practicearea-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-practicearea-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-practicearea-api-openapi.yml
 - filename: leanlaw-user-api-openapi.yml
   format: yaml
   label: LeanLaw User API
   slug: leanlaw-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-user-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-user-api-openapi.yml
 - filename: leanlaw-custom-field-api-openapi.yml
   format: yaml
   label: LeanLaw Custom Field API
   slug: leanlaw-custom-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-custom-field-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-custom-field-api-openapi.yml
 - filename: leanlaw-time-entry-api-openapi.yml
   format: yaml
   label: LeanLaw Time entry API
   slug: leanlaw-time-entry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/openapi/leanlaw-time-entry-api-openapi.yml
+  url: https://artifacts.apis.io/leanlaw/openapi/leanlaw-time-entry-api-openapi.yml
 authorization_urls:
 - https://api.myleanlaw.co/oauth/authorize
 description: ''
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: https://api.leanl
   \  supported: true\n  code_challenge_methods: [S256, plain]\ntoken_endpoint_auth_methods:\n- none\n- client_secret_basic\n- client_secret_post\n- private_key_jwt\nscope_count: 16\nscopes:\n- name: openid\n  description: OpenID Connect authentication; issues an ID token (RS256).\n  source: openid-configuration\n- name: offline_access\n  description: Issue a refresh token so the agent can act after the initial session expires.\n  source: both\n- name: 'read:*'\n  description: Read access to every supported resource. Wildcard grant.\n  source: both\n- name: 'write:*'\n  description: Write access to every supported resource. Wildcard grant.\n  source: both\n- name: 'read:clients'\n  description: Read law-firm clients, including contact details when requested via select=contact.\n  source: both\n- name: 'write:clients'\n  description: Create, update and delete clients.\n  source: both\n- name: 'read:matters'\n  description: Read matters, their responsible/originator users, practice area and\
   \ LEDES configuration.\n  source: both\n- name: 'write:matters'\n  description: Create, update and delete matters. Creating a matter can also create the matching\n    QuickBooks Online customer/sub-customer for firms on the QBO integration.\n  source: both\n- name: 'read:time-entries'\n  description: Read billable time entries.\n  source: both\n- name: 'write:time-entries'\n  description: Create, update and delete time entries.\n  source: both\n- name: 'read:expenses'\n  description: Read matter expenses.\n  source: both\n- name: 'write:expenses'\n  description: Create, update and delete expenses.\n  source: both\n- name: 'read:fixed-fees'\n  description: Read fixed-fee (flat-fee) billable items.\n  source: both\n- name: 'write:fixed-fees'\n  description: Create, update and delete fixed fees.\n  source: both\n- name: 'read:invoices'\n  description: Read invoices. There is no write scope for invoices — the invoice surface is read-only.\n  source: both\n- name: 'read:balances'\n  description:\
   \ Read client account balances.\n  source: both\n- name: 'read:codes'\n  description: Read LEDES activity, task and expense code sets.\n  source: both\nobservations:\n- No write scope exists for invoices, balances or codes — those surfaces are read-only by design and\n  the scope list reflects it.\n- Trust accounts and settlements are explicitly excluded from the agent surface per\n  https://platform.leanlaw.io/agents, and no scope is published for them.\n- The `read:*` / `write:*` wildcards let a client request blanket access; a least-privilege\n  integration should request the specific resource scopes instead.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leanlaw/refs/heads/main/scopes/leanlaw-scopes.yml
+source_yaml_url: https://artifacts.apis.io/leanlaw/scopes/leanlaw-scopes.yml
 summary_line: 17 scopes · authorization_code/refresh_token
 tags:
 - Legal

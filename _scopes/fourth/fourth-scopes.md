@@ -37,7 +37,7 @@ source_filename: fourth-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://developer.fourth.com/en-gb/docs/authenticating-oauth\ndocs: https://developer.fourth.com/en-gb/docs/authenticating-oauth\nschemes:\n- name: OAuth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: '[ROOT]/oauth/connect/token'\nscopes:\n- scope: NotificationService\n  description: Access to the Fourth Notifications API.\n  flows: [clientCredentials]\n  api: Notifications API\nnotes: >-\n  Fourth documents OAuth scopes per-API on each reference page under the\n  Authentication heading; only NotificationService is given as a published\n  example in the OAuth guide. Additional per-API scopes exist on the individual\n  reference pages but production hosts/specs are not publicly disclosed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/scopes/fourth-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fourth/scopes/fourth-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Company

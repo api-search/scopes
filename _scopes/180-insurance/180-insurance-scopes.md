@@ -5,43 +5,43 @@ api_specs:
   label: 180 Insurance Cotações API
   slug: 180-insurance-cota-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-cota-es-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-cota-es-api-openapi.yml
 - filename: 180-insurance-produtos-api-openapi.yml
   format: yaml
   label: 180 Insurance Produtos API
   slug: 180-insurance-produtos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-produtos-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-produtos-api-openapi.yml
 - filename: 180-insurance-propostas-api-openapi.yml
   format: yaml
   label: 180 Insurance Propostas API
   slug: 180-insurance-propostas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-propostas-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-propostas-api-openapi.yml
 - filename: 180-insurance-renova-es-api-openapi.yml
   format: yaml
   label: 180 Insurance Renovações API
   slug: 180-insurance-renova-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-renova-es-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-renova-es-api-openapi.yml
 - filename: 180-insurance-sinistros-api-openapi.yml
   format: yaml
   label: 180 Insurance Sinistros API
   slug: 180-insurance-sinistros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-sinistros-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-sinistros-api-openapi.yml
 - filename: 180-insurance-vendas-api-openapi.yml
   format: yaml
   label: 180 Insurance Vendas API
   slug: 180-insurance-vendas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-vendas-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-vendas-api-openapi.yml
 - filename: 180-insurance-webhooks-api-openapi.yml
   format: yaml
   label: 180 Insurance Webhooks API
   slug: 180-insurance-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -77,7 +77,7 @@ source_filename: 180-insurance-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/180-insurance-sagas-api-openapi.yml\nschemes:\n- name: oauth\n  source: openapi/180-insurance-sagas-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://180s-staging.us.auth0.com/oauth/token\n  description: Adicione client_id e client_secret para obter um token válido.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/scopes/180-insurance-scopes.yml
+source_yaml_url: https://artifacts.apis.io/180-insurance/scopes/180-insurance-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

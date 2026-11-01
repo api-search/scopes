@@ -5,43 +5,43 @@ api_specs:
   label: V12 Documents API
   slug: v12-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-documents-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-documents-api-openapi.yml
 - filename: v12-findings-api-openapi.yml
   format: yaml
   label: V12 Findings API
   slug: v12-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-findings-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-findings-api-openapi.yml
 - filename: v12-me-api-openapi.yml
   format: yaml
   label: V12 Me API
   slug: v12-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-me-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-me-api-openapi.yml
 - filename: v12-members-api-openapi.yml
   format: yaml
   label: V12 Members API
   slug: v12-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-members-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-members-api-openapi.yml
 - filename: v12-repositories-api-openapi.yml
   format: yaml
   label: V12 Repositories API
   slug: v12-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-repositories-api-openapi.yml
 - filename: v12-runs-api-openapi.yml
   format: yaml
   label: V12 Runs API
   slug: v12-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-runs-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-runs-api-openapi.yml
 - filename: v12-steers-api-openapi.yml
   format: yaml
   label: V12 Steers API
   slug: v12-steers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/openapi/v12-steers-api-openapi.yml
+  url: https://artifacts.apis.io/v12/openapi/v12-steers-api-openapi.yml
 authorization_urls:
 - https://v12.sh/oauth/authorize
 description: ''
@@ -130,7 +130,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-19'\nmethod: derived\nsource: openapi/v12-openapi.json\nschemes:\n- name: oauth2\n  source: openapi/v12-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://v12.sh/oauth/authorize\n    tokenUrl: https://v12.sh/api/oauth/token\nscopes:\n- scope: findings:read\n  description: 'The inbox: findings, their status, reports and comments.'\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/v12-openapi.json\n- scope: findings:write\n  description: Change status, comment and update triage decisions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/v12-openapi.json\n- scope: repos:read\n  description: Repositories, branches, pull requests, tags and Steer instructions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/v12-openapi.json\n- scope: repos:write\n  description: Add public repositories to the workspace; owners can also add private repositories\n    granted by GitHub, create repositories V12 hosts and push\
   \ code to them.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/v12-openapi.json\n- scope: runs:manage\n  description: Cancel runs.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/v12-openapi.json\n- scope: runs:read\n  description: Runs, their progress and context documents.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/v12-openapi.json\n- scope: runs:share\n  description: Create, change and revoke guest links that open a run to people outside the organization.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/v12-openapi.json\n- scope: runs:write\n  description: Estimate and start runs; add or archive context documents.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/v12-openapi.json\n- scope: steers:write\n  description: Create, edit, archive and restore Steers. Archiving detaches them from Autopilot\n    rules; finding tags and run history are kept.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/v12-openapi.json\n- scope:\
   \ user:read\n  description: 'The member directory: usernames, emails and roles. Any key reads its own account,\n    organization and credit balance without it.'\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/v12-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v12/refs/heads/main/scopes/v12-scopes.yml
+source_yaml_url: https://artifacts.apis.io/v12/scopes/v12-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
 - Company

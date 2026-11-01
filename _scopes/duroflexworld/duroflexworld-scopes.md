@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: well-known/duroflexworld-openid-configuration.json\ndocs: https://shopify.dev/docs/api/customer\nschemes:\n- name: shopify-customer-account-oauth2\n  source: well-known/duroflexworld-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.duroflexworld.com/authentication/oauth/authorize\n    tokenUrl: https://account.duroflexworld.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the customer's email address and verification status.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the signed-in customer (orders, addresses, profile).\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access\
   \ to the Customer Account MCP API surface for agent-driven customer-account operations.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duroflexworld/refs/heads/main/scopes/duroflexworld-scopes.yml
+source_yaml_url: https://artifacts.apis.io/duroflexworld/scopes/duroflexworld-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

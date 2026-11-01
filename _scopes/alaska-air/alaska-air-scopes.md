@@ -5,49 +5,49 @@ api_specs:
   label: Alaska Airlines Airports API
   slug: alaska-air-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-airports-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-airports-api-openapi.yml
 - filename: alaska-air-flight-status-api-openapi.yml
   format: yaml
   label: Alaska Airlines Flight Status API
   slug: alaska-air-flight-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-flight-status-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-flight-status-api-openapi.yml
 - filename: alaska-air-members-api-openapi.yml
   format: yaml
   label: Alaska Airlines Members API
   slug: alaska-air-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-members-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-members-api-openapi.yml
 - filename: alaska-air-partner-miles-api-openapi.yml
   format: yaml
   label: Alaska Airlines Partner Miles API
   slug: alaska-air-partner-miles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-partner-miles-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-partner-miles-api-openapi.yml
 - filename: alaska-air-rates-api-openapi.yml
   format: yaml
   label: Alaska Airlines Rates API
   slug: alaska-air-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-rates-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-rates-api-openapi.yml
 - filename: alaska-air-schedules-api-openapi.yml
   format: yaml
   label: Alaska Airlines Schedules API
   slug: alaska-air-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-schedules-api-openapi.yml
 - filename: alaska-air-shipments-api-openapi.yml
   format: yaml
   label: Alaska Airlines Shipments API
   slug: alaska-air-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-shipments-api-openapi.yml
 - filename: alaska-air-transactions-api-openapi.yml
   format: yaml
   label: Alaska Airlines Transactions API
   slug: alaska-air-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/alaska-air/openapi/alaska-air-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -93,7 +93,7 @@ source_filename: alaska-air-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/alaska-air-mileage-plan-openapi.yaml\nschemes:\n- name: OAuth2\n  source: openapi/alaska-air-mileage-plan-openapi.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.alaskaair.com/oauth/token\n  description: OAuth 2.0 for Mileage Plan partner API access\nscopes:\n- scope: loyalty:read\n  description: Read member data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/alaska-air-mileage-plan-openapi.yaml\n- scope: loyalty:write\n  description: Report and manage miles\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/alaska-air-mileage-plan-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/scopes/alaska-air-scopes.yml
+source_yaml_url: https://artifacts.apis.io/alaska-air/scopes/alaska-air-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Airlines

@@ -5,43 +5,43 @@ api_specs:
   label: Bank of Sydney Banking Account Balances API
   slug: bank-of-sydney-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-account-balances-api-openapi.yml
 - filename: bank-of-sydney-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Account Direct Debits API
   slug: bank-of-sydney-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-account-direct-debits-api-openapi.yml
 - filename: bank-of-sydney-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Account Scheduled Payments API
   slug: bank-of-sydney-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-account-scheduled-payments-api-openapi.yml
 - filename: bank-of-sydney-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Account Transactions API
   slug: bank-of-sydney-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-account-transactions-api-openapi.yml
 - filename: bank-of-sydney-banking-accounts-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Accounts API
   slug: bank-of-sydney-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-accounts-api-openapi.yml
 - filename: bank-of-sydney-banking-payees-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Payees API
   slug: bank-of-sydney-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-payees-api-openapi.yml
 - filename: bank-of-sydney-banking-products-api-openapi.yml
   format: yaml
   label: Bank of Sydney Banking Products API
   slug: bank-of-sydney-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/openapi/bank-of-sydney-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-sydney/openapi/bank-of-sydney-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile
@@ -97,7 +97,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/bank-of-sydney-cds-banking-products-openapi.yml (x-scopes extension per operation)\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\nnote: >-\n  The harvested CDS banking spec declares scopes on each operation via the x-scopes\n  extension (not an OpenAPI oauth2 securityScheme), so the standard derive-oauth-scopes\n  pass yields nothing; these five CDR banking scopes are extracted from those x-scopes\n  values. Product Reference Data operations are public and require no scope. Scopes are\n  granted through the CDR authorisation server to Accredited Data Recipients under\n  consumer consent.\nschemes:\n  - name: cdrOAuth2\n    type: oauth2\n    flow: authorizationCode\n    source: openapi/bank-of-sydney-cds-banking-products-openapi.yml\nscopes:\n  - scope: bank:accounts.basic:read\n    description: Read basic account data - the list of accounts and their balances.\n    flows: [authorizationCode]\n\
   \    sources: [openapi/bank-of-sydney-cds-banking-products-openapi.yml]\n  - scope: bank:accounts.detail:read\n    description: Read detailed account data, including account numbers and product details for a specific account.\n    flows: [authorizationCode]\n    sources: [openapi/bank-of-sydney-cds-banking-products-openapi.yml]\n  - scope: bank:transactions:read\n    description: Read transaction data for authorised accounts.\n    flows: [authorizationCode]\n    sources: [openapi/bank-of-sydney-cds-banking-products-openapi.yml]\n  - scope: bank:payees:read\n    description: Read the consumer's saved payees.\n    flows: [authorizationCode]\n    sources: [openapi/bank-of-sydney-cds-banking-products-openapi.yml]\n  - scope: bank:regular_payments:read\n    description: Read regular payments - direct debits and scheduled payments.\n    flows: [authorizationCode]\n    sources: [openapi/bank-of-sydney-cds-banking-products-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/scopes/bank-of-sydney-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bank-of-sydney/scopes/bank-of-sydney-scopes.yml
 summary_line: 5 scopes
 tags:
 - Finance

@@ -5,91 +5,91 @@ api_specs:
   label: Astrada Bank Accounts API
   slug: astrada-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-accounts-api-openapi.yml
 - filename: astrada-bank-links-api-openapi.yml
   format: yaml
   label: Astrada Bank Links API
   slug: astrada-bank-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-links-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-links-api-openapi.yml
 - filename: astrada-bank-subscriptions-api-openapi.yml
   format: yaml
   label: Astrada Bank Subscriptions API
   slug: astrada-bank-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-subscriptions-api-openapi.yml
 - filename: astrada-bank-transactions-api-openapi.yml
   format: yaml
   label: Astrada Bank Transactions API
   slug: astrada-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bank-transactions-api-openapi.yml
 - filename: astrada-bin-lookup-api-openapi.yml
   format: yaml
   label: Astrada Bin Lookup API
   slug: astrada-bin-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-bin-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-bin-lookup-api-openapi.yml
 - filename: astrada-card-api-openapi.yml
   format: yaml
   label: Astrada Card API
   slug: astrada-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-card-api-openapi.yml
 - filename: astrada-card-subscription-api-openapi.yml
   format: yaml
   label: Astrada Card Subscription API
   slug: astrada-card-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-card-subscription-api-openapi.yml
 - filename: astrada-card-verification-api-openapi.yml
   format: yaml
   label: Astrada Card Verification API
   slug: astrada-card-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-card-verification-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-card-verification-api-openapi.yml
 - filename: astrada-enrollment-methods-api-openapi.yml
   format: yaml
   label: Astrada Enrollment Methods API
   slug: astrada-enrollment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-enrollment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-enrollment-methods-api-openapi.yml
 - filename: astrada-network-bulk-feeds-api-openapi.yml
   format: yaml
   label: Astrada Network Bulk Feeds API
   slug: astrada-network-bulk-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-network-bulk-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-network-bulk-feeds-api-openapi.yml
 - filename: astrada-subaccounts-api-openapi.yml
   format: yaml
   label: Astrada Subaccounts API
   slug: astrada-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-subaccounts-api-openapi.yml
 - filename: astrada-transaction-matches-api-openapi.yml
   format: yaml
   label: Astrada Transaction Matches API
   slug: astrada-transaction-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transaction-matches-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-transaction-matches-api-openapi.yml
 - filename: astrada-transaction-messages-api-openapi.yml
   format: yaml
   label: Astrada Transaction Messages API
   slug: astrada-transaction-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transaction-messages-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-transaction-messages-api-openapi.yml
 - filename: astrada-transactions-api-openapi.yml
   format: yaml
   label: Astrada Transactions API
   slug: astrada-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-transactions-api-openapi.yml
 - filename: astrada-webhooks-api-openapi.yml
   format: yaml
   label: Astrada Webhooks API
   slug: astrada-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/openapi/astrada-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/astrada/openapi/astrada-webhooks-api-openapi.yml
 authorization_urls:
 - https://api.astrada.co/auth/realms/{accountId}/protocol/openid-connect/token
 description: ''
@@ -297,7 +297,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/astrada-
   - scope: card-subscriptions:write\n  description: Create card subscription\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: card-verifications:read\n  description: Read Card verification\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: card-verifications:write\n  description: Create card verification\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: cardholder:read\n  description: Read Cardholder resources\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: cardholder:write\n  description: Write Cardholder resources\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: cards:read\n  description: Read Card resources\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: enrollment-methods:write\n  description: Write enrollment methods\n  flows:\n  - implicit\n  sources:\n\
   \  - openapi/astrada-openapi-original.json\n- scope: network-bulk-feeds:read\n  description: Read network bulk feed\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: network-bulk-feeds:write\n  description: Write network bulk feed\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: network-links:write\n  description: Write network link\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: simulation:write\n  description: Write sandbox simulations\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: subaccounts:read\n  description: Subaccounts read resource\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: subaccounts:write\n  description: Subaccounts write resource\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: transaction-messages:read\n  description: Read Transaction\
   \ Message resources\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: transactions:read\n  description: Read Transaction resources\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: webhooks:read\n  description: Read Webhook resources\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n- scope: webhooks:write\n  description: Write Webhook resources\n  flows:\n  - implicit\n  sources:\n  - openapi/astrada-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/scopes/astrada-scopes.yml
+source_yaml_url: https://artifacts.apis.io/astrada/scopes/astrada-scopes.yml
 summary_line: 34 scopes · implicit
 tags:
 - Company

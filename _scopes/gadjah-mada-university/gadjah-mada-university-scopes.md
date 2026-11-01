@@ -5,43 +5,43 @@ api_specs:
   label: Gadjah Mada University Discovery API
   slug: gadjah-mada-university-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-discovery-api-openapi.yml
 - filename: gadjah-mada-university-infra-api-openapi.yml
   format: yaml
   label: Gadjah Mada University Infra API
   slug: gadjah-mada-university-infra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-infra-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-infra-api-openapi.yml
 - filename: gadjah-mada-university-oai-pmh-api-openapi.yml
   format: yaml
   label: Gadjah Mada University OAI PMH API
   slug: gadjah-mada-university-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-oai-pmh-api-openapi.yml
 - filename: gadjah-mada-university-social-login-api-openapi.yml
   format: yaml
   label: Gadjah Mada University Social Login API
   slug: gadjah-mada-university-social-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-social-login-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-social-login-api-openapi.yml
 - filename: gadjah-mada-university-oauth2-api-openapi.yml
   format: yaml
   label: Gadjah Mada University O Auth2 API
   slug: gadjah-mada-university-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-oauth2-api-openapi.yml
 - filename: gadjah-mada-university-me-api-openapi.yml
   format: yaml
   label: Gadjah Mada University Me API
   slug: gadjah-mada-university-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-me-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-me-api-openapi.yml
 - filename: gadjah-mada-university-user-api-openapi.yml
   format: yaml
   label: Gadjah Mada University User API
   slug: gadjah-mada-university-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/openapi/gadjah-mada-university-user-api-openapi.yml
+  url: https://artifacts.apis.io/gadjah-mada-university/openapi/gadjah-mada-university-user-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -89,7 +89,7 @@ source_url: ''
 source_yaml: "---\ngenerated: '2026-09-01'\nmethod: searched\nsource: >-\n  Read verbatim on 2026-09-01 from UGM's own published discovery documents at\n  https://oauth.simaster.ugm.ac.id/.well-known/openid-configuration (200) and\n  /.well-known/oauth-authorization-server (200), cross-checked against\n  https://oauth.simaster.ugm.ac.id/openapi.json. Not inferred — the institution declares these.\nx-operator: institution\napi: gadjah-mada-university:ugm-id\n\nsummary:\n  count: 5\n  model: OpenID Connect standard scopes plus two UGM-specific resource scopes.\n  granularity: coarse\n  note: >-\n    Five scopes for twenty operations. The three OIDC standard scopes govern identity claims; the\n    two UGM scopes (user.read, userDetail.read) split \"basic profile\" from \"full Simaster profile\".\n    There is no write scope anywhere in the server — every declared scope is read-only, and every\n    resource operation in the OpenAPI is a GET. No per-unit, per-faculty or per-system scoping\n \
   \   exists, so a client granted userDetail.read reads the full Simaster record for whatever\n    subject it is authorized for.\n\nscopes:\n- scope: openid\n  standard: OpenID Connect Core\n  description: Requests an id_token and enables the OIDC UserInfo endpoint.\n  grants_access_to:\n  - GET /userinfo\n- scope: profile\n  standard: OpenID Connect Core\n  description: >-\n    Basic profile claims - name, given_name, family_name, picture, preferred_username, plus UGM's\n    non-standard unit_id claim.\n  claims: [name, given_name, family_name, picture, preferred_username, unit_id]\n- scope: email\n  standard: OpenID Connect Core\n  description: Email claims.\n  claims: [email, email_verified]\n- scope: user.read\n  standard: UGM-specific\n  description: Read the authenticated subject's basic user profile.\n  grants_access_to:\n  - GET /api/me\n- scope: userDetail.read\n  standard: UGM-specific\n  description: >-\n    Read the full Simaster user record, and read another user's record by\
   \ username. The broadest\n    scope the server issues.\n  grants_access_to:\n  - GET /user/me\n  - GET /user/username/{username}\n\ngaps:\n- No write, update or delete scope exists on any UGM ID operation.\n- No scope documentation outside the discovery document — no prose page explains what each grants.\n- No consent-screen copy or scope description strings are published.\n- No incremental or step-up authorization is described.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gadjah-mada-university/refs/heads/main/scopes/gadjah-mada-university-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gadjah-mada-university/scopes/gadjah-mada-university-scopes.yml
 summary_line: 5 scopes
 tags:
 - University

@@ -5,85 +5,85 @@ api_specs:
   label: Sign In Enterprise Batches API
   slug: sign-in-enterprise-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-batches-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-batches-api-openapi.yml
 - filename: sign-in-enterprise-capacities-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Capacities API
   slug: sign-in-enterprise-capacities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-capacities-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-capacities-api-openapi.yml
 - filename: sign-in-enterprise-groupvisits-api-openapi.yml
   format: yaml
   label: Sign In Enterprise GroupVisits API
   slug: sign-in-enterprise-groupvisits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-groupvisits-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-groupvisits-api-openapi.yml
 - filename: sign-in-enterprise-hosts-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Hosts API
   slug: sign-in-enterprise-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-hosts-api-openapi.yml
 - filename: sign-in-enterprise-invites-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Invites API
   slug: sign-in-enterprise-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-invites-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-invites-api-openapi.yml
 - filename: sign-in-enterprise-locations-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Locations API
   slug: sign-in-enterprise-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-locations-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-locations-api-openapi.yml
 - filename: sign-in-enterprise-packages-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Packages API
   slug: sign-in-enterprise-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-packages-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-packages-api-openapi.yml
 - filename: sign-in-enterprise-parking-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Parking API
   slug: sign-in-enterprise-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-parking-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-parking-api-openapi.yml
 - filename: sign-in-enterprise-registrations-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Registrations API
   slug: sign-in-enterprise-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-registrations-api-openapi.yml
 - filename: sign-in-enterprise-users-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Users API
   slug: sign-in-enterprise-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-users-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-users-api-openapi.yml
 - filename: sign-in-enterprise-watchlists-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Watchlists API
   slug: sign-in-enterprise-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-watchlists-api-openapi.yml
 - filename: sign-in-enterprise-audit-logs-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Audit Logs API
   slug: sign-in-enterprise-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-audit-logs-api-openapi.yml
 - filename: sign-in-enterprise-email-templates-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Email Templates API
   slug: sign-in-enterprise-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-email-templates-api-openapi.yml
 - filename: sign-in-enterprise-sign-ins-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Sign Ins API
   slug: sign-in-enterprise-sign-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-sign-ins-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-sign-ins-api-openapi.yml
 authorization_urls:
 - https://us.tractionguest.com/oauth/authorize
 description: ''
@@ -316,7 +316,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/sign-in
   \ 'admin:workflow_triggers:write', description: Create and update workflow triggers}\n- {scope: 'admin:workflow_emails:*', description: Full access to workflow emails}\n- {scope: 'admin:workflow_emails:read', description: Read workflow emails}\n- {scope: 'admin:workflow_emails:write', description: Create and update workflow emails}\n- {scope: 'audit_logs:*', description: Full access to audit logs}\n- {scope: 'audit_logs:read', description: Read audit logs}\n- {scope: 'batch_jobs:*', description: Full access to batch jobs}\n- {scope: 'batch_jobs:read', description: Read batch jobs}\n- {scope: 'batch_jobs:write', description: Create batch jobs}\n- {scope: 'custom_fields:*', description: Full access to custom fields}\n- {scope: 'custom_fields:read', description: Read custom fields}\n- {scope: 'custom_fields:write', description: Create and update custom fields}\n- {scope: 'devices:*', description: Full access to devices}\n- {scope: 'devices:read', description: Read devices}\n- {scope: 'devices:write',\
   \ description: Create and update devices}\n- {scope: 'watchlists:*', description: Full access to watchlists}\n- {scope: 'watchlists:read', description: Read watchlists}\n- {scope: 'watchlists:write', description: Create and update watchlists}\n- {scope: 'screening_providers:*', description: Full access to screening providers}\n- {scope: 'screening_providers:read', description: Read screening providers}\n- {scope: 'screening_providers:write', description: Configure screening providers}\n- {scope: 'users:*', description: Full access to users}\n- {scope: 'users:read', description: Read users}\n- {scope: 'users:write', description: Create and update users}\n- {scope: 'visitors:*', description: Full access to visitors}\n- {scope: 'visitors:read', description: Read visitors and sign-ins}\n- {scope: 'visitors:write', description: Create and update visitors and sign-ins}\n- {scope: 'parking:*', description: Full access to parking}\n- {scope: 'parking:read', description: Read parking lots and stalls}\n\
   - {scope: 'parking:write', description: Manage parking allocations}\n- {scope: 'locations:*', description: Full access to locations}\n- {scope: 'locations:read', description: Read locations}\n- {scope: 'locations:write', description: Create and update locations}\n- {scope: 'hosts:*', description: Full access to hosts}\n- {scope: 'hosts:read', description: Read hosts}\n- {scope: 'hosts:write', description: Create and update hosts}\n- {scope: 'email_templates:*', description: Full access to email templates}\n- {scope: 'email_templates:read', description: Read email templates}\n- {scope: 'email_templates:write', description: Create and update email templates}\n- {scope: 'registrations:*', description: Full access to registrations}\n- {scope: 'registrations:read', description: Read registrations}\n- {scope: 'capacities:*', description: Full access to capacity data}\n- {scope: 'capacities:read', description: Read location capacities and forecasts}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/scopes/sign-in-enterprise-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sign-in-enterprise/scopes/sign-in-enterprise-scopes.yml
 summary_line: 48 scopes · authorizationCode
 tags:
 - Company

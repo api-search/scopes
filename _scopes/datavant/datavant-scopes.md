@@ -5,49 +5,49 @@ api_specs:
   label: Datavant Configuration API
   slug: datavant-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-configuration-api-openapi.yml
 - filename: datavant-documents-api-openapi.yml
   format: yaml
   label: Datavant Documents API
   slug: datavant-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-documents-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-documents-api-openapi.yml
 - filename: datavant-order-queries-api-openapi.yml
   format: yaml
   label: Datavant Order Queries API
   slug: datavant-order-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-order-queries-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-order-queries-api-openapi.yml
 - filename: datavant-orders-api-openapi.yml
   format: yaml
   label: Datavant Orders API
   slug: datavant-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-orders-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-orders-api-openapi.yml
 - filename: datavant-prematch-api-openapi.yml
   format: yaml
   label: Datavant Prematch API
   slug: datavant-prematch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-prematch-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-prematch-api-openapi.yml
 - filename: datavant-projects-api-openapi.yml
   format: yaml
   label: Datavant Projects API
   slug: datavant-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-projects-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-projects-api-openapi.yml
 - filename: datavant-visits-api-openapi.yml
   format: yaml
   label: Datavant Visits API
   slug: datavant-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-visits-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-visits-api-openapi.yml
 - filename: datavant-oauth2-api-openapi.yml
   format: yaml
   label: Datavant Oauth2 API
   slug: datavant-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/openapi/datavant-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/datavant/openapi/datavant-oauth2-api-openapi.yml
 authorization_urls:
 - https://datavant.auth0.com/authorize
 description: ''
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: openapi/datavant-
   \        tokenUrl: https://api.datavant.io/v2/oauth2/token\n        refreshUrl: https://api.datavant.io/v2/oauth2/token\n        scopes_declared: 0\n  - name: auth0-oidc\n    source: well-known/datavant-openid-configuration.json\n    kind: identity\n    issuer: https://datavant.auth0.com/\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://datavant.auth0.com/authorize\n        tokenUrl: https://datavant.auth0.com/oauth/token\n        scopes_declared: 14\napi_scopes: []\napi_scope_count: 0\nidentity_scopes:\n  - scope: openid\n    description: Request an ID token (OIDC core).\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: profile\n    description: Basic profile claims.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: offline_access\n    description: Issue a refresh token.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n\
   \  - scope: name\n    description: Full name claim.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: given_name\n    description: Given name claim.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: family_name\n    description: Family name claim.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: nickname\n    description: Nickname claim.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: email\n    description: Email address claim.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: email_verified\n    description: Email verification status claim.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: picture\n    description: Profile picture claim.\n    flows: [authorizationCode]\n\
   \    sources: [well-known/datavant-openid-configuration.json]\n  - scope: created_at\n    description: Account creation timestamp claim.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: identities\n    description: Linked identity providers claim.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: phone\n    description: Phone number claim.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\n  - scope: address\n    description: Address claim.\n    flows: [authorizationCode]\n    sources: [well-known/datavant-openid-configuration.json]\nidentity_scope_count: 14\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/scopes/datavant-scopes.yml
+source_yaml_url: https://artifacts.apis.io/datavant/scopes/datavant-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Healthcare

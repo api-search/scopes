@@ -5,19 +5,19 @@ api_specs:
   label: Seamless.AI Public API
   slug: seamless-ai-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/_original/seamless-ai-public-api-openapi-original.json
+  url: https://artifacts.apis.io/seamless-ai/openapi/_original/seamless-ai-public-api-openapi-original.json
 - filename: seamless-ai-mcp-api-openapi.yml
   format: yaml
   label: Seamless.AI MCP API
   slug: seamless-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/seamless-ai/openapi/seamless-ai-mcp-api-openapi.yml
 - filename: seamless-ai-oauth-api-openapi.yml
   format: yaml
   label: Seamless.AI O Auth API
   slug: seamless-ai-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/openapi/seamless-ai-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/seamless-ai/openapi/seamless-ai-oauth-api-openapi.yml
 authorization_urls:
 - https://login.seamless.ai/oauth/authorize
 description: ''
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/_origin
   \ token_url: https://mcp.seamless.ai/mcp/token\n    registration_endpoint: https://mcp.seamless.ai/mcp/register\n    revocation_endpoint: https://mcp.seamless.ai/mcp/revoke\n    flow: authorizationCode\n    client_authentication: none\n    pkce: [S256]\n    dynamic_client_registration: true\n\nschemes:\n  - name: OAuth2\n    source: openapi/_original/seamless-ai-public-api-openapi-original.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://login.seamless.ai/oauth/authorize\n        tokenUrl: https://api.seamless.ai/api/client/v1/oauth/accessToken\n        scopes_declared: 0\n\nscopes:\n  - scope: publicAPI.v1.all\n    surface: rest\n    description: >-\n      Full access to the Seamless.AI Public API v1 — search, research, polling and org-data reads.\n      The only REST scope published.\n    flows: [authorizationCode]\n    sources: [https://docs.seamless.ai/authentication/oauth]\n    in_spec: false\n    enforcement: >-\n      A connection lacking it receives\
   \ HTTP 403 with `code: insufficientScope`. The documented\n      remedy is to re-authorize with this scope.\n  - scope: mcp.all\n    surface: mcp\n    description: Full MCP access — all 54 tools and all seamless:// resources the org is licensed for.\n    flows: [authorizationCode]\n    sources:\n      - https://mcp.seamless.ai/.well-known/oauth-protected-resource\n      - https://mcp.seamless.ai/.well-known/oauth-authorization-server\n    in_spec: true\n    in_spec_source: https://docs.seamless.ai/mcp-openapi.yaml\n    enforcement: >-\n      Advertised as the required scope in the WWW-Authenticate challenge returned by an\n      unauthenticated POST to https://mcp.seamless.ai/mcp (HTTP 401, verified 2026-08-14).\n\nsecondary_authorization:\n  mechanism: license entitlement\n  note: >-\n    Scope is not the only gate. Tool visibility on MCP is filtered per request by the org's\n    license — \"Connect\" for templates/email/calls/activity, \"Connect (full)\" for campaigns and\n    tasks\
   \ — and the REST API requires an active Public API license or returns HTTP 422\n    `missingLicense`. An access token carrying mcp.all still sees a smaller tool list on an\n    unlicensed org, so a client must not assume a fixed tool set.\n  see_also: mcp/seamless-ai-mcp.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/scopes/seamless-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/seamless-ai/scopes/seamless-ai-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - B2B

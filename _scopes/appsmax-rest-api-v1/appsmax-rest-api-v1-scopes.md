@@ -5,55 +5,55 @@ api_specs:
   label: AppsMax Access API
   slug: appsmax-rest-api-v1-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-access-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-access-api-openapi.yml
 - filename: appsmax-rest-api-v1-applications-api-openapi.yml
   format: yaml
   label: AppsMax Applications API
   slug: appsmax-rest-api-v1-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-applications-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-applications-api-openapi.yml
 - filename: appsmax-rest-api-v1-bots-api-openapi.yml
   format: yaml
   label: AppsMax Bots API
   slug: appsmax-rest-api-v1-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-bots-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-bots-api-openapi.yml
 - filename: appsmax-rest-api-v1-campaigns-api-openapi.yml
   format: yaml
   label: AppsMax Campaigns API
   slug: appsmax-rest-api-v1-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-campaigns-api-openapi.yml
 - filename: appsmax-rest-api-v1-funnels-api-openapi.yml
   format: yaml
   label: AppsMax Funnels API
   slug: appsmax-rest-api-v1-funnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-funnels-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-funnels-api-openapi.yml
 - filename: appsmax-rest-api-v1-interactive-menu-api-openapi.yml
   format: yaml
   label: AppsMax Interactive menu API
   slug: appsmax-rest-api-v1-interactive-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-interactive-menu-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-interactive-menu-api-openapi.yml
 - filename: appsmax-rest-api-v1-miniapps-api-openapi.yml
   format: yaml
   label: AppsMax Miniapps API
   slug: appsmax-rest-api-v1-miniapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-miniapps-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-miniapps-api-openapi.yml
 - filename: appsmax-rest-api-v1-organizations-api-openapi.yml
   format: yaml
   label: AppsMax Organizations API
   slug: appsmax-rest-api-v1-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-organizations-api-openapi.yml
 - filename: appsmax-rest-api-v1-subscribers-api-openapi.yml
   format: yaml
   label: AppsMax Subscribers API
   slug: appsmax-rest-api-v1-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/openapi/appsmax-rest-api-v1-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/appsmax-rest-api-v1/openapi/appsmax-rest-api-v1-subscribers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://appsmax.ru/developers/#scopes
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://appsmax
   \ are readable at GET /me.'\n\nscopes:\n  - scope: organizations:read\n    description: Read the current organization.\n    description_ru: Читать текущую организацию.\n    operations: [listOrganizations]\n  - scope: bots:read\n    description: Read the bot list and individual bot records.\n    description_ru: Читать список и карточки ботов.\n    operations: [listBots, getBot]\n  - scope: connections:read\n    description: Read the state of a bot's channel connection.\n    description_ru: Читать состояние подключения бота к каналу.\n    operations: [listBotConnections]\n  - scope: miniapps:read\n    description: Read mini apps.\n    description_ru: Читать мини-приложения.\n    operations: [listMiniapps]\n  - scope: funnels:read\n    description: Read funnels and scenarios.\n    description_ru: Читать сценарии и воронки.\n    operations: [listFunnels]\n  - scope: interactive_menu:read\n    description: Read interactive menu items.\n    description_ru: Читать элементы интерактивного меню.\n\
   \    operations: [listInteractiveMenuItems]\n  - scope: applications:read\n    description: Read customer requests (applications).\n    description_ru: Читать заявки.\n    operations: [listApplications, getApplication]\n  - scope: applications:write\n    description: Create customer requests and sync their tags.\n    description_ru: Создавать заявки и синхронизировать их теги.\n    operations: [createApplication, syncApplicationTags]\n  - scope: campaigns:read\n    description: Read campaigns.\n    description_ru: Читать кампании.\n    operations: [listCampaigns, getCampaign]\n  - scope: campaigns:write\n    description: Create campaigns and separately launch them.\n    description_ru: Создавать и отдельно запускать кампании.\n    operations: [createCampaign, runCampaign]\n  - scope: subscribers:read\n    description: Read subscribers.\n    description_ru: Читать подписчиков.\n    operations: [listSubscribers, getSubscriber]\n  - scope: subscribers:write\n    description: Create or update\
   \ subscribers.\n    description_ru: Создавать или обновлять подписчиков.\n    operations: [upsertSubscriber, updateSubscriber]\n\nunscoped_operations:\n  - operationId: ping\n    note: Requires a valid token but no scope.\n  - operationId: getCurrentApiContext\n    note: Requires a valid token but no scope; returns the token's own scopes and rate limit.\n\nsummary:\n  scope_count: 12\n  read_scopes: 8\n  write_scopes: 4\n  operations_covered: 19\n  operations_unscoped: 2\n\nx-evidence:\n  fetched: '2026-08-09'\n  urls:\n    - url: https://appsmax.ru/developers/\n      http_status: 200\n    - url: https://appsmax.ru/.well-known/api-onboarding\n      http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/scopes/appsmax-rest-api-v1-scopes.yml
+source_yaml_url: https://artifacts.apis.io/appsmax-rest-api-v1/scopes/appsmax-rest-api-v1-scopes.yml
 summary_line: 12 scopes
 tags:
 - Company

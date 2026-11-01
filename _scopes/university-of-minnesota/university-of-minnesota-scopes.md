@@ -5,43 +5,43 @@ api_specs:
   label: University of Minnesota Catchment API
   slug: university-of-minnesota-catchment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-catchment-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-catchment-api-openapi.yml
 - filename: university-of-minnesota-dataset-api-openapi.yml
   format: yaml
   label: University of Minnesota Dataset API
   slug: university-of-minnesota-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-dataset-api-openapi.yml
 - filename: university-of-minnesota-item-api-openapi.yml
   format: yaml
   label: University of Minnesota Item API
   slug: university-of-minnesota-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-item-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-item-api-openapi.yml
 - filename: university-of-minnesota-lake-api-openapi.yml
   format: yaml
   label: University of Minnesota Lake API
   slug: university-of-minnesota-lake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-lake-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-lake-api-openapi.yml
 - filename: university-of-minnesota-pedtools-api-openapi.yml
   format: yaml
   label: University of Minnesota Pedtools API
   slug: university-of-minnesota-pedtools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-pedtools-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-pedtools-api-openapi.yml
 - filename: university-of-minnesota-search-json-api-openapi.yml
   format: yaml
   label: University of Minnesota Search.json API
   slug: university-of-minnesota-search-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-search-json-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-search-json-api-openapi.yml
 - filename: university-of-minnesota-co-p-api-openapi.yml
   format: yaml
   label: University of Minnesota Co P API
   slug: university-of-minnesota-co-p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/openapi/university-of-minnesota-co-p-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-minnesota/openapi/university-of-minnesota-co-p-api-openapi.yml
 authorization_urls: []
 description: 'What authorization granularity the University''s programmable surfaces actually expose. Recorded including its absence: no University of Minnesota surface publishes an OAuth scope vocabulary, and pretending otherwise would credit the institution for a model it has not published.'
 docs: ''
@@ -69,7 +69,7 @@ source_url: ''
 source_yaml: "---\nname: University of Minnesota — authorization scopes\ndescription: >-\n  What authorization granularity the University's programmable surfaces actually expose. Recorded\n  including its absence: no University of Minnesota surface publishes an OAuth scope vocabulary,\n  and pretending otherwise would credit the institution for a model it has not published.\ngenerated: '2026-09-01'\nmethod: probed\nsource: >-\n  Read from the nine live GEMS Exchange OpenAPI 3.1 documents in openapi/_original/ (none declare\n  components.securitySchemes or security[]), from the DSpace 10.0 HAL root at\n  conservancy.umn.edu/server/api, and from the Common Good API classification table published at\n  sites.google.com/umn.edu/integration-apis/common-good-apis.\noauth_scopes_published: false\nscopes: []\nauthorization_model:\n  - surface: GEMS Informatics Exchange APIs\n    model: opaque-api-key\n    granularity: per-key, per-API\n    detail: >-\n      Each of the ten Exchange APIs is a separate\
   \ deployment behind the same gateway and the key\n      is presented as an `apikey` header. No scope, role or claim vocabulary is published; the\n      contracts declare no security scheme at all.\n  - surface: Common Good APIs\n    model: data-classification-tiers\n    granularity: per-API, per-data-custodian\n    detail: >-\n      The University does not sell scopes here — it grades APIs by institutional data\n      classification and approves access per requester. The four published tiers are the closest\n      thing to a scope vocabulary the institution operates.\n    tiers:\n      - public\n      - private\n      - restricted\n      - highly restricted\n    evidence:\n      - url: https://sites.google.com/umn.edu/integration-apis/common-good-apis\n        status: 200\n  - surface: UMedia Digital Collections JSON API\n    model: anonymous-read\n    granularity: none\n    detail: Fully open read; there is nothing to scope.\n  - surface: UMN Digital Conservancy / DRUM\n    model: dspace-groups\n\
   \    granularity: collection and item level, via DSpace's own authorization model\n    detail: >-\n      Discovery is anonymous, item-level reads require authentication, and the group model is\n      DSpace's, not a University-authored one.\n  - surface: Institutional identity (Shibboleth IdP)\n    model: saml-attribute-release\n    granularity: per-service-provider attribute release, eduPerson attributes scoped to umn.edu\n    detail: >-\n      For the great majority of University systems this — not an OAuth scope — is the real\n      authorization surface, and it is the one the institution genuinely operates.\n    evidence:\n      - url: https://mdq.incommon.org/entities/urn%3Amace%3Aincommon%3Aumn.edu\n        status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/scopes/university-of-minnesota-scopes.yml
+source_yaml_url: https://artifacts.apis.io/university-of-minnesota/scopes/university-of-minnesota-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: postcardmania-openapi-generated.yml
-  format: yaml
-  label: PostcardMania API
-  slug: postcardmania-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postcardmania/refs/heads/main/openapi/_ae-authored/postcardmania-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -37,14 +30,14 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postcardmania/refs/heads/main/scopes/postcardmania-scopes.yml
+source_yaml_url: https://artifacts.apis.io/postcardmania/scopes/postcardmania-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- direct-mail
-- marketing
-- advertising
-- api
-- integration
+- DirectMail
+- Marketing
+- API
+- Automation
+- SmallBusiness
 token_bound: false
 token_urls: []
 ---

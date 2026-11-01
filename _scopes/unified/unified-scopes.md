@@ -5,13 +5,13 @@ api_specs:
   label: Unified Health API
   slug: unified-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-health-api-openapi.yml
+  url: https://artifacts.apis.io/unified/openapi/unified-health-api-openapi.yml
 - filename: unified-unified-mcp-service-api-openapi.yml
   format: yaml
   label: Unified Unified Mcp Service API
   slug: unified-unified-mcp-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/openapi/unified-unified-mcp-service-api-openapi.yml
+  url: https://artifacts.apis.io/unified/openapi/unified-unified-mcp-service-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -42,7 +42,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: >-\n  https://mcp.unified.com/.well-known/oauth-authorization-server (scopes_supported) and\n  https://mcp.unified.com/.well-known/oauth-protected-resource/mcp (scopes_supported).\n  Probed 2026-09-02.\nnote: >-\n  Unified's authorization server advertises exactly one scope. Both the RFC 8414 authorization\n  server metadata and the RFC 9728 protected-resource descriptor for the MCP endpoint list\n  scopes_supported as [\"openid\"] and nothing else. There is no anonymous permissions or scope\n  reference page to enrich from — docs.unified.com is behind SSO — so this is the complete\n  published scope surface, not a partial read. Fine-grained authorization, if any, is expressed\n  inside the customer's Unified connection rather than in OAuth scope strings.\nauthorization_server: https://mcp.unified.com/\nresource: https://mcp.unified.com/mcp\ndocs: null\nscope_count: 1\nscopes:\n- name: openid\n  description: >-\n    Advertised\
   \ verbatim in scopes_supported by both discovery documents. No description is\n    published by the provider; the OIDC-standard meaning is assumed by the name only and is not\n    asserted here.\n  source: https://mcp.unified.com/.well-known/oauth-authorization-server\n  required_for:\n  - https://mcp.unified.com/mcp\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unified/refs/heads/main/scopes/unified-scopes.yml
+source_yaml_url: https://artifacts.apis.io/unified/scopes/unified-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

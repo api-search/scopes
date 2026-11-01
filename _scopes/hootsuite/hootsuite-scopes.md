@@ -5,121 +5,121 @@ api_specs:
   label: Hootsuite Analytics API
   slug: hootsuite-analytics-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-analytics-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-analytics-api-api-openapi.yml
 - filename: hootsuite-authentication-api-openapi.yml
   format: yaml
   label: Hootsuite Authentication API
   slug: hootsuite-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-authentication-api-openapi.yml
 - filename: hootsuite-comments-api-openapi.yml
   format: yaml
   label: Hootsuite Comments API
   slug: hootsuite-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-comments-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-comments-api-openapi.yml
 - filename: hootsuite-crm-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite CRM Rest API
   slug: hootsuite-crm-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-crm-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-crm-rest-api-api-openapi.yml
 - filename: hootsuite-crm-webhooks-api-openapi.yml
   format: yaml
   label: Hootsuite CRM Webhooks API
   slug: hootsuite-crm-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-crm-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-crm-webhooks-api-openapi.yml
 - filename: hootsuite-me-api-openapi.yml
   format: yaml
   label: Hootsuite Me API
   slug: hootsuite-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-me-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-me-api-openapi.yml
 - filename: hootsuite-media-api-openapi.yml
   format: yaml
   label: Hootsuite Media API
   slug: hootsuite-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-media-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-media-api-openapi.yml
 - filename: hootsuite-members-api-openapi.yml
   format: yaml
   label: Hootsuite Members API
   slug: hootsuite-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-members-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-members-api-openapi.yml
 - filename: hootsuite-messages-api-openapi.yml
   format: yaml
   label: Hootsuite Messages API
   slug: hootsuite-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-messages-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-messages-api-openapi.yml
 - filename: hootsuite-organizations-api-openapi.yml
   format: yaml
   label: Hootsuite Organizations API
   slug: hootsuite-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-organizations-api-openapi.yml
 - filename: hootsuite-proactive-messaging-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite Proactive Messaging Rest API
   slug: hootsuite-proactive-messaging-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-proactive-messaging-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-proactive-messaging-rest-api-api-openapi.yml
 - filename: hootsuite-queue-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite Queue Rest API
   slug: hootsuite-queue-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-queue-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-queue-rest-api-api-openapi.yml
 - filename: hootsuite-real-time-metrics-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite Real Time Metrics Rest API
   slug: hootsuite-real-time-metrics-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-real-time-metrics-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-real-time-metrics-rest-api-api-openapi.yml
 - filename: hootsuite-rest-api-authentication-api-openapi.yml
   format: yaml
   label: Hootsuite Rest API Authentication API
   slug: hootsuite-rest-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-rest-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-rest-api-authentication-api-openapi.yml
 - filename: hootsuite-scim-2-0-api-openapi.yml
   format: yaml
   label: Hootsuite SCIM 2.0 API
   slug: hootsuite-scim-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-scim-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-scim-2-0-api-openapi.yml
 - filename: hootsuite-social-profiles-api-openapi.yml
   format: yaml
   label: Hootsuite Social Profiles API
   slug: hootsuite-social-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-social-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-social-profiles-api-openapi.yml
 - filename: hootsuite-teams-api-openapi.yml
   format: yaml
   label: Hootsuite Teams API
   slug: hootsuite-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-teams-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-teams-api-openapi.yml
 - filename: hootsuite-user-presence-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite User Presence Rest API
   slug: hootsuite-user-presence-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-user-presence-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-user-presence-rest-api-api-openapi.yml
 - filename: hootsuite-vai-rest-api-api-openapi.yml
   format: yaml
   label: Hootsuite Vai Rest API
   slug: hootsuite-vai-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-vai-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-vai-rest-api-api-openapi.yml
 - filename: hootsuite-vai-webhooks-api-openapi.yml
   format: yaml
   label: Hootsuite Vai Webhooks API
   slug: hootsuite-vai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/openapi/hootsuite-vai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hootsuite/openapi/hootsuite-vai-webhooks-api-openapi.yml
 authorization_urls:
 - https://platform.hootsuite.com/oauth2/auth
 description: Hootsuite's OAuth scope surface is deliberately tiny - the authorization server advertises exactly two scopes - because scopes are not how Hootsuite authorizes. Access is decided by the caller's dashboard role (organization / team / social-network permissions), which Hootsuite publishes as a separate operation-by-operation permissions matrix. Both layers are recorded here, because holding the right scope is necessary and not sufficient.
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://p
   \  organization_levels:\n  - Admin or above\n  custom_organization_permissions:\n  - Manage Members\n  - Manage Teams\n  team_permissions:\n  - Admin OR Member in Team\n  custom_team_permissions:\n  - Manage Social Networks in the Team\n  social_network_levels:\n  - Limited or above\n  - Editor or above\n  custom_social_network_permissions:\n  - Basic Usage\n  - Publish Message\n  - Publish Message with Approval\n  examples:\n  - operation: POST /v1/messages\n    social_network_permission: Limited or above\n    custom: Publish Message OR Publish Message with Approval\n  - operation: DELETE /v1/messages/{messageId}\n    social_network_permission: Editor or above\n    custom: Publish Message (Scheduled) OR Publish Message with Approval (Pending)\n  - operation: POST /v1/members\n    organization_permission: Admin or above\n    custom: Manage Members\n  - operation: GET /v1/socialProfiles\n    social_network_permission: Limited or above\n    custom: Basic Usage\n  - operation: GET /v1/organizations/{organizationId}/teams\n\
   \    organization_permission: Admin or above\n    custom: Manage Teams\n  failure_codes:\n  - 4002 Insufficient permissions to view organization members\n  - 4003 Insufficient permissions to view member permissions\n  - 4004 Insufficient permissions to view member organizations\n  - 4005 Insufficient permissions to view team members\n  - 4006 Insufficient permissions to view team\n  - 4007 Insufficient permissions to create team\n  - 4008 Insufficient permissions to view team social profile\n  - 4009 Insufficient organization permissions\n  - 4010 Insufficient permissions to view organization teams\n  - 1037 The required scope to access this endpoint was not granted by the user\n  - 1201 Not authorized to make changes to organization\nmetadata_caveat: >-\n  https://platform.hootsuite.com/.well-known/oauth-protected-resource publishes scopes_supported as\n  a single string \"offline analytics:read\" rather than a two-element JSON array. A strict RFC 9728\n  client reads that as ONE scope\
   \ named \"offline analytics:read\" and will request it verbatim.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/scopes/hootsuite-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hootsuite/scopes/hootsuite-scopes.yml
 summary_line: 2 scopes · authorizationCode/clientCredentials
 tags:
 - Social Media

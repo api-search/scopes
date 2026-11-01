@@ -5,91 +5,91 @@ api_specs:
   label: Context.dev Brand Intelligence API
   slug: contextdev-brand-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-brand-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-brand-intelligence-api-openapi.yml
 - filename: contextdev-monitors-api-openapi.yml
   format: yaml
   label: Context.dev Monitors API
   slug: contextdev-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-monitors-api-openapi.yml
 - filename: contextdev-parsing-api-openapi.yml
   format: yaml
   label: Context.dev Parsing API
   slug: contextdev-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-parsing-api-openapi.yml
 - filename: contextdev-people-api-openapi.yml
   format: yaml
   label: Context.dev People API
   slug: contextdev-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-people-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-people-api-openapi.yml
 - filename: contextdev-utility-api-openapi.yml
   format: yaml
   label: Context.dev Utility API
   slug: contextdev-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-utility-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-utility-api-openapi.yml
 - filename: contextdev-web-extraction-api-openapi.yml
   format: yaml
   label: Context.dev Web Extraction API
   slug: contextdev-web-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-web-extraction-api-openapi.yml
 - filename: contextdev-web-scraping-api-openapi.yml
   format: yaml
   label: Context.dev Web Scraping API
   slug: contextdev-web-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-web-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-web-scraping-api-openapi.yml
 - filename: contextdev-agent-feedback-api-openapi.yml
   format: yaml
   label: Context.dev Agent Feedback API
   slug: contextdev-agent-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-agent-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-agent-feedback-api-openapi.yml
 - filename: contextdev-answers-api-openapi.yml
   format: yaml
   label: Context.dev Answers API
   slug: contextdev-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-answers-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-answers-api-openapi.yml
 - filename: contextdev-batches-api-openapi.yml
   format: yaml
   label: Context.dev Batches API
   slug: contextdev-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-batches-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-batches-api-openapi.yml
 - filename: contextdev-browser-profiles-api-openapi.yml
   format: yaml
   label: Context.dev Browser Profiles API
   slug: contextdev-browser-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-browser-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-browser-profiles-api-openapi.yml
 - filename: contextdev-logs-api-openapi.yml
   format: yaml
   label: Context.dev Logs API
   slug: contextdev-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-logs-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-logs-api-openapi.yml
 - filename: contextdev-news-api-openapi.yml
   format: yaml
   label: Context.dev News API
   slug: contextdev-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-news-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-news-api-openapi.yml
 - filename: contextdev-usage-api-openapi.yml
   format: yaml
   label: Context.dev Usage API
   slug: contextdev-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-usage-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-usage-api-openapi.yml
 - filename: contextdev-webhooks-api-openapi.yml
   format: yaml
   label: Context.dev Webhooks API
   slug: contextdev-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/openapi/contextdev-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/contextdev/openapi/contextdev-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.context.dev/auth.md
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://www.con
   \  registration_endpoint: https://mcp.context.dev/register\n  grant_types:\n  - authorization_code\n  - refresh_token\n  response_types:\n  - code\n  code_challenge_methods:\n  - S256\n  token_endpoint_auth_methods:\n  - client_secret_post\n  - none\n  dynamic_client_registration: true\n  protected_resource: https://mcp.context.dev/mcp\n  bearer_methods:\n  - header\n  added: '2026-08-14'\n  note: Discovered 2026-08-14. This is the browser sign-in flow an MCP client uses to reach https://mcp.context.dev/mcp\n    — distinct from the AgentAuth JWT-bearer/claim ceremony on www.context.dev, and distinct again from\n    the static ctxt_secret_ API key. Same two scopes across all three.\nscopes:\n- scope: api.read\n  description: Read access to Context.dev API endpoints (brand lookup, web scrape/crawl, search, enrichment,\n    and related read operations).\n  sources:\n  - well-known/contextdev-oauth-authorization-server.json\n  - well-known/contextdev-mcp-oauth-authorization-server.json\n \
   \ - well-known/contextdev-mcp-oauth-protected-resource-mcp.json\n  granted_by:\n  - AgentAuth (www.context.dev)\n  - MCP OAuth (mcp.context.dev)\n- scope: api.write\n  description: Write access for mutating API operations (e.g. creating/updating/deleting monitors). Agent\n    credentials are issued with both api.read and api.write after the claim ceremony.\n  sources:\n  - well-known/contextdev-oauth-authorization-server.json\n  - well-known/contextdev-mcp-oauth-authorization-server.json\n  - well-known/contextdev-mcp-oauth-protected-resource-mcp.json\n  granted_by:\n  - AgentAuth (www.context.dev)\n  - MCP OAuth (mcp.context.dev)\nnote: 'Context.dev exposes the SAME two scopes (api.read, api.write) through three different credential\n  paths: a static ctxt_secret_ API key (no scopes attached, full key privilege), the AgentAuth JWT-bearer/claim\n  ceremony on www.context.dev, and OAuth authorization_code + PKCE on mcp.context.dev for the hosted MCP\n  server. The OpenAPI declares only\
   \ bearerAuth (http bearer); the scope surface lives entirely in the\n  well-known metadata and auth.md, so a consumer reading the spec alone would not know scopes exist. Only\n  two scopes cover a 49-operation API, so the granularity is coarse — an api.write token can delete every\n  monitor and every batch.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextdev/refs/heads/main/scopes/contextdev-scopes.yml
+source_yaml_url: https://artifacts.apis.io/contextdev/scopes/contextdev-scopes.yml
 summary_line: 2 scopes
 tags:
 - Web Scraping

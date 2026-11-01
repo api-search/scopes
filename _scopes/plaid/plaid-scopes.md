@@ -5,43 +5,43 @@ api_specs:
   label: Plaid API
   slug: plaid-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-plaid-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-plaid-api-openapi.yml
 - filename: plaid-account-information-api-openapi.yml
   format: yaml
   label: Plaid Account Information API
   slug: plaid-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-account-information-api-openapi.yml
 - filename: plaid-account-statements-api-openapi.yml
   format: yaml
   label: Plaid Account Statements API
   slug: plaid-account-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-statements-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-account-statements-api-openapi.yml
 - filename: plaid-account-transactions-api-openapi.yml
   format: yaml
   label: Plaid Account Transactions API
   slug: plaid-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-account-transactions-api-openapi.yml
 - filename: plaid-asset-transfer-networks-information-api-openapi.yml
   format: yaml
   label: Plaid Asset Transfer Networks Information API
   slug: plaid-asset-transfer-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-asset-transfer-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-asset-transfer-networks-information-api-openapi.yml
 - filename: plaid-payment-networks-information-api-openapi.yml
   format: yaml
   label: Plaid Payment Networks Information API
   slug: plaid-payment-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-payment-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-payment-networks-information-api-openapi.yml
 - filename: plaid-personal-information-api-openapi.yml
   format: yaml
   label: Plaid Personal Information API
   slug: plaid-personal-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/openapi/plaid-personal-information-api-openapi.yml
+  url: https://artifacts.apis.io/plaid/openapi/plaid-personal-information-api-openapi.yml
 authorization_urls:
 - https://www.your-organization.com/authorize
 description: ''
@@ -112,7 +112,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: derived\nsource: openapi/plaid-core-exchange-openapi.yml, openapi/plaid-plaid-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/plaid-core-exchange-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.your-organization.com/authorize\n    tokenUrl: https://www.your-organization.com/token\n  description: 'This API uses an [OAuth 2.0 authorization code flow](https://plaid.com/core-exchange/docs/authentication/oauth-flow)\n    and accepts the resulting access token as a bearer token. For example, `curl -H ''Authorization:\n    Bearer <ACCESS&#95;TOKEN>''`.'\n- name: oauth2\n  source: openapi/plaid-plaid-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.plaid.com/oauth2/apiv2/token\n  description: The Plaid API supports client credentials, authorization code, and custom delegation\n    flows.\nscopes:\n- scope: Account\n  description: (optional) Read account data\n  flows:\n\
   \  - authorizationCode\n  sources:\n  - openapi/plaid-core-exchange-openapi.yml\n- scope: Customer\n  description: (optional) Read customer data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/plaid-core-exchange-openapi.yml\n- scope: Transactions\n  description: (optional) Read transaction data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/plaid-core-exchange-openapi.yml\n- scope: cra:read\n  description: Read CRA report data.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/plaid-plaid-api-openapi.yml\n- scope: user:write\n  description: Write user data.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/plaid-plaid-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/scopes/plaid-scopes.yml
+source_yaml_url: https://artifacts.apis.io/plaid/scopes/plaid-scopes.yml
 summary_line: 5 scopes · authorizationCode/clientCredentials
 tags:
 - Finance

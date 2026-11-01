@@ -5,7 +5,7 @@ api_specs:
   label: Fireflies.ai Transcripts API
   slug: fireflies-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/openapi/fireflies-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/fireflies/openapi/fireflies-transcripts-api-openapi.yml
 authorization_urls:
 - https://api.fireflies.ai/authorize
 - https://mcp.fireflies.ai/authorize
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://api.firef
   \ which is the URL the docs publish.\nscopes:\n- scope: profile\n  description: Basic Fireflies user profile. Declared in scopes_supported on both the authorization-server and protected-resource metadata.\n  flows: [authorizationCode]\n  sources: ['https://api.fireflies.ai/.well-known/oauth-authorization-server', 'https://api.fireflies.ai/.well-known/oauth-protected-resource']\n- scope: email\n  description: Fireflies account email address. Declared in scopes_supported on both metadata documents.\n  flows: [authorizationCode]\n  sources: ['https://api.fireflies.ai/.well-known/oauth-authorization-server', 'https://api.fireflies.ai/.well-known/oauth-protected-resource']\nscope_count: 2\nanalysis: >-\n  IMPORTANT GRANULARITY FINDING — the two published scopes are identity scopes only. There is no\n  scope that expresses read-vs-write, and no scope that names transcripts, meetings, channels,\n  soundbites, analytics or user administration. A consenting user therefore cannot grant an agent\n\
   \  read-only access: the same token that reads transcripts also drives the write tools\n  (fireflies_share_meeting, fireflies_create_soundbite, fireflies_update_meeting_title,\n  fireflies_move_meeting, fireflies_revoke_meeting_access). Authorization is enforced downstream by\n  Fireflies plan tier and meeting ownership/admin role, not by OAuth scope.\nprotected_resources:\n- resource: https://api.fireflies.ai/mcp\n  authorization_servers: ['https://api.fireflies.ai/']\n  scopes_supported: [profile, email]\n  documentation: https://docs.fireflies.ai/\n  spec: RFC 9728\n  file: ../well-known/fireflies-api-oauth-protected-resource.json\n- resource: https://mcp.fireflies.ai/mcp\n  authorization_servers: ['https://mcp.fireflies.ai/']\n  scopes_supported: [profile, email]\n  documentation: https://docs.fireflies.ai/\n  spec: RFC 9728\n  file: ../well-known/fireflies-mcp-oauth-protected-resource.json\nx-evidence:\n  fetched: '2026-08-14'\n  probes:\n  - {url: 'https://api.fireflies.ai/.well-known/oauth-authorization-server',\
   \ http_status: 200}\n  - {url: 'https://api.fireflies.ai/.well-known/oauth-protected-resource', http_status: 200}\n  - {url: 'https://mcp.fireflies.ai/.well-known/oauth-authorization-server', http_status: 200}\n  - {url: 'https://mcp.fireflies.ai/.well-known/oauth-protected-resource', http_status: 200}\n  - {url: 'https://api.fireflies.ai/.well-known/openid-configuration', http_status: 404}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/scopes/fireflies-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fireflies/scopes/fireflies-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Artificial Intelligence

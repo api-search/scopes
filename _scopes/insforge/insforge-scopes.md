@@ -5,67 +5,67 @@ api_specs:
   label: Insforge Admin API
   slug: insforge-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-admin-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-admin-api-openapi.yml
 - filename: insforge-channels-api-openapi.yml
   format: yaml
   label: Insforge Channels API
   slug: insforge-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-channels-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-channels-api-openapi.yml
 - filename: insforge-client-api-openapi.yml
   format: yaml
   label: Insforge Client API
   slug: insforge-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-client-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-client-api-openapi.yml
 - filename: insforge-configuration-api-openapi.yml
   format: yaml
   label: Insforge Configuration API
   slug: insforge-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-configuration-api-openapi.yml
 - filename: insforge-messages-api-openapi.yml
   format: yaml
   label: Insforge Messages API
   slug: insforge-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-messages-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-messages-api-openapi.yml
 - filename: insforge-payment-webhooks-api-openapi.yml
   format: yaml
   label: Insforge Payment Webhooks API
   slug: insforge-payment-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-payment-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-payment-webhooks-api-openapi.yml
 - filename: insforge-permissions-api-openapi.yml
   format: yaml
   label: Insforge Permissions API
   slug: insforge-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-permissions-api-openapi.yml
 - filename: insforge-razorpay-payments-api-openapi.yml
   format: yaml
   label: Insforge Razorpay Payments API
   slug: insforge-razorpay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-razorpay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-razorpay-payments-api-openapi.yml
 - filename: insforge-s3-access-keys-api-openapi.yml
   format: yaml
   label: Insforge S3 Access Keys API
   slug: insforge-s3-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-s3-access-keys-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-s3-access-keys-api-openapi.yml
 - filename: insforge-s3-protocol-api-openapi.yml
   format: yaml
   label: Insforge S3 Protocol API
   slug: insforge-s3-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-s3-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-s3-protocol-api-openapi.yml
 - filename: insforge-stripe-payments-api-openapi.yml
   format: yaml
   label: Insforge Stripe Payments API
   slug: insforge-stripe-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/openapi/insforge-stripe-payments-api-openapi.yml
+  url: https://artifacts.apis.io/insforge/openapi/insforge-stripe-payments-api-openapi.yml
 authorization_urls:
 - https://api.insforge.dev/api/oauth/v1/authorize
 description: ''
@@ -181,7 +181,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.insforge.dev/.well-known/oauth-authorization-server\ndocs: https://api.insforge.dev/.well-known/oauth-authorization-server\nnote: >-\n  OAuth 2.0 scopes are published by the InsForge authorization server metadata\n  (RFC 8414), not by the per-service OpenAPI specs (which declare bearer/api-key\n  auth). The authorization server also advertises an agent_auth block supporting\n  WorkOS ID-JAG identity_assertion for autonomous agent registration.\nschemes:\n- name: OAuth2\n  source: https://api.insforge.dev/.well-known/oauth-authorization-server\n  issuer: https://api.insforge.dev\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.insforge.dev/api/oauth/v1/authorize\n    tokenUrl: https://api.insforge.dev/api/oauth/v1/token\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://api.insforge.dev/api/oauth/v1/device_authorization\n    tokenUrl: https://api.insforge.dev/api/oauth/v1/token\n\
   \  registrationEndpoint: https://api.insforge.dev/api/oauth/v1/clients/register\n  revocationEndpoint: https://api.insforge.dev/api/oauth/v1/revoke\n  introspectionEndpoint: https://api.insforge.dev/api/oauth/v1/introspect\n  codeChallengeMethods: [S256, plain]\nscopes:\n- scope: user:read\n  description: Read the authenticated user's profile.\n  flows: [authorizationCode, deviceCode]\n- scope: organizations:read\n  description: Read organizations the user belongs to.\n  flows: [authorizationCode, deviceCode]\n- scope: organizations:write\n  description: Create and update organizations.\n  flows: [authorizationCode, deviceCode]\n- scope: organizations:delete\n  description: Delete organizations.\n  flows: [authorizationCode, deviceCode]\n- scope: projects:read\n  description: Read projects within an organization.\n  flows: [authorizationCode, deviceCode]\n- scope: projects:write\n  description: Create and update projects.\n  flows: [authorizationCode, deviceCode]\n- scope: projects:delete\n\
   \  description: Delete projects.\n  flows: [authorizationCode, deviceCode]\n- scope: projects.database:read\n  description: Read a project's database schema and records.\n  flows: [authorizationCode, deviceCode]\n- scope: projects.database:write\n  description: Write to a project's database schema and records.\n  flows: [authorizationCode, deviceCode]\n- scope: projects.storage:read\n  description: Read a project's storage buckets and objects.\n  flows: [authorizationCode, deviceCode]\n- scope: projects.storage:write\n  description: Write to a project's storage buckets and objects.\n  flows: [authorizationCode, deviceCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/scopes/insforge-scopes.yml
+source_yaml_url: https://artifacts.apis.io/insforge/scopes/insforge-scopes.yml
 summary_line: 11 scopes · authorizationCode/deviceCode
 tags:
 - Company

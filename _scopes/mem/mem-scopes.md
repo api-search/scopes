@@ -5,13 +5,13 @@ api_specs:
   label: Mem CoreApi__service-info API
   slug: mem-coreapi-service-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-coreapi-service-info-api-openapi.yml
+  url: https://artifacts.apis.io/mem/openapi/mem-coreapi-service-info-api-openapi.yml
 - filename: mem-external-api-openapi.yml
   format: yaml
   label: Mem External API
   slug: mem-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/openapi/mem-external-api-openapi.yml
+  url: https://artifacts.apis.io/mem/openapi/mem-external-api-openapi.yml
 authorization_urls:
 - https://mem.ai/oauth/consent
 description: ''
@@ -78,7 +78,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.mem.ai/.well-known/oauth-authorization-server\ndocs: https://docs.mem.ai/mcp/setup\nschemes:\n  - name: OAuth2\n    source: https://api.mem.ai/.well-known/oauth-authorization-server\n    issuer: https://api.mem.ai\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mem.ai/oauth/consent\n        tokenUrl: https://api.mem.ai/api/v2/oauth2/token\n        pkce: S256\n      - flow: clientCredentials\n        tokenUrl: https://api.mem.ai/api/v2/oauth2/token\n    registration_endpoint: https://api.mem.ai/oauth2/register\n    dynamic_client_registration: true\nscopes:\n  - scope: content.read\n    description: Read access to the user's Mem notes and collections.\n    flows: [authorizationCode, clientCredentials]\n    sources: [well-known/mem-oauth-authorization-server.json, well-known/mem-oauth-protected-resource.json]\n  - scope: content.write\n    description: Create, update, and organize the\
   \ user's Mem notes and collections.\n    flows: [authorizationCode, clientCredentials]\n    sources: [well-known/mem-oauth-authorization-server.json, well-known/mem-oauth-protected-resource.json]\n  - scope: profile.read\n    description: Read access to the user's Mem profile.\n    flows: [authorizationCode]\n    sources: [well-known/mem-openid-configuration.json]\n  - scope: profile.write\n    description: Write access to the user's Mem profile.\n    flows: [authorizationCode]\n    sources: [well-known/mem-openid-configuration.json]\nnotes: >-\n  Scopes are advertised via OAuth 2.0 Authorization Server Metadata (RFC 8414)\n  and OIDC discovery on api.mem.ai. The hosted MCP server (mcp.mem.ai) scopes\n  its protected resource to content.read + content.write. The REST API's own\n  OpenAPI securitySchemes declare bearer-token (API key) auth; OAuth 2.0 is the\n  mechanism used for the MCP server and third-party app connectors.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/scopes/mem-scopes.yml
+source_yaml_url: https://artifacts.apis.io/mem/scopes/mem-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
 - Company

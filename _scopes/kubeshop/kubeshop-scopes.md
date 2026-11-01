@@ -5,157 +5,157 @@ api_specs:
   label: Kubeshop Artifacts API
   slug: kubeshop-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-artifacts-api-openapi.yml
 - filename: kubeshop-cluster-resources-api-openapi.yml
   format: yaml
   label: Kubeshop Cluster Resources API
   slug: kubeshop-cluster-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-cluster-resources-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-cluster-resources-api-openapi.yml
 - filename: kubeshop-executions-api-openapi.yml
   format: yaml
   label: Kubeshop Executions API
   slug: kubeshop-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-executions-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-executions-api-openapi.yml
 - filename: kubeshop-executor-api-openapi.yml
   format: yaml
   label: Kubeshop Executor API
   slug: kubeshop-executor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-executor-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-executor-api-openapi.yml
 - filename: kubeshop-keymap-api-openapi.yml
   format: yaml
   label: Kubeshop Keymap API
   slug: kubeshop-keymap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-keymap-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-keymap-api-openapi.yml
 - filename: kubeshop-labels-api-openapi.yml
   format: yaml
   label: Kubeshop Labels API
   slug: kubeshop-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-labels-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-labels-api-openapi.yml
 - filename: kubeshop-logs-api-openapi.yml
   format: yaml
   label: Kubeshop Logs API
   slug: kubeshop-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-logs-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-logs-api-openapi.yml
 - filename: kubeshop-organizations-api-openapi.yml
   format: yaml
   label: Kubeshop Organizations API
   slug: kubeshop-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-organizations-api-openapi.yml
 - filename: kubeshop-repository-api-openapi.yml
   format: yaml
   label: Kubeshop Repository API
   slug: kubeshop-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-repository-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-repository-api-openapi.yml
 - filename: kubeshop-secrets-api-openapi.yml
   format: yaml
   label: Kubeshop Secrets API
   slug: kubeshop-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-secrets-api-openapi.yml
 - filename: kubeshop-status-pages-api-openapi.yml
   format: yaml
   label: Kubeshop Status Pages API
   slug: kubeshop-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-status-pages-api-openapi.yml
 - filename: kubeshop-tags-api-openapi.yml
   format: yaml
   label: Kubeshop Tags API
   slug: kubeshop-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-tags-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-tags-api-openapi.yml
 - filename: kubeshop-template-api-openapi.yml
   format: yaml
   label: Kubeshop Template API
   slug: kubeshop-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-template-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-template-api-openapi.yml
 - filename: kubeshop-templates-api-openapi.yml
   format: yaml
   label: Kubeshop Templates API
   slug: kubeshop-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-templates-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-templates-api-openapi.yml
 - filename: kubeshop-test-sources-api-openapi.yml
   format: yaml
   label: Kubeshop Test Sources API
   slug: kubeshop-test-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-test-sources-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-test-sources-api-openapi.yml
 - filename: kubeshop-test-suites-api-openapi.yml
   format: yaml
   label: Kubeshop Test Suites API
   slug: kubeshop-test-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-test-suites-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-test-suites-api-openapi.yml
 - filename: kubeshop-test-triggers-api-openapi.yml
   format: yaml
   label: Kubeshop Test Triggers API
   slug: kubeshop-test-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-test-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-test-triggers-api-openapi.yml
 - filename: kubeshop-test-workflows-api-openapi.yml
   format: yaml
   label: Kubeshop Test Workflows API
   slug: kubeshop-test-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-test-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-test-workflows-api-openapi.yml
 - filename: kubeshop-tests-api-openapi.yml
   format: yaml
   label: Kubeshop Tests API
   slug: kubeshop-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-tests-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-tests-api-openapi.yml
 - filename: kubeshop-users-api-openapi.yml
   format: yaml
   label: Kubeshop Users API
   slug: kubeshop-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-users-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-users-api-openapi.yml
 - filename: kubeshop-webhook-api-openapi.yml
   format: yaml
   label: Kubeshop Webhook API
   slug: kubeshop-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-webhook-api-openapi.yml
 - filename: kubeshop-webhook-template-api-openapi.yml
   format: yaml
   label: Kubeshop Webhook Template API
   slug: kubeshop-webhook-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-webhook-template-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-webhook-template-api-openapi.yml
 - filename: kubeshop-config-api-openapi.yml
   format: yaml
   label: Kubeshop Config API
   slug: kubeshop-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-config-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-config-api-openapi.yml
 - filename: kubeshop-debug-api-openapi.yml
   format: yaml
   label: Kubeshop Debug API
   slug: kubeshop-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-debug-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-debug-api-openapi.yml
 - filename: kubeshop-export-api-openapi.yml
   format: yaml
   label: Kubeshop Export API
   slug: kubeshop-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-export-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-export-api-openapi.yml
 - filename: kubeshop-pro-api-openapi.yml
   format: yaml
   label: Kubeshop Pro API
   slug: kubeshop-pro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/openapi/kubeshop-pro-api-openapi.yml
+  url: https://artifacts.apis.io/kubeshop/openapi/kubeshop-pro-api-openapi.yml
 authorization_urls:
 - https://api.testkube.io/mcp/auth/authorize
 description: ''
@@ -204,7 +204,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.testkube.io/.well-known/oauth-authorization-server\ndocs: https://docs.testkube.io/articles/mcp-security\nnote: >-\n  Testkube's three published OpenAPI documents declare no oauth2 security scheme — the\n  REST surface is bearer-token authenticated (see authentication/). The only OAuth\n  scope surface Testkube publishes is the OAuth 2.1 authorization server fronting the\n  MCP endpoint, discovered live at /.well-known/oauth-authorization-server and\n  /.well-known/oauth-protected-resource. Those scopes are recorded here verbatim.\nschemes:\n- name: TestkubeMCPOAuth\n  source: https://api.testkube.io/.well-known/oauth-authorization-server\n  issuer: https://api.testkube.io\n  applies_to: https://api.testkube.io/mcp\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.testkube.io/mcp/auth/authorize\n    tokenUrl: https://api.testkube.io/mcp/auth/token\n    revocationUrl: https://api.testkube.io/mcp/auth/revoke\n\
   \    registrationUrl: https://api.testkube.io/mcp/auth/register\n    pkce: S256\n    refresh_token: true\nscopes:\n- scope: mcp:full\n  description: >-\n    Full access to the Testkube MCP endpoint for the authorized organization and\n    environment. This is the only scope the authorization server advertises; Testkube\n    does not currently publish a finer-grained scope breakdown.\n  flows: [authorizationCode]\n  sources:\n  - https://api.testkube.io/.well-known/oauth-authorization-server\n  - https://api.testkube.io/.well-known/oauth-protected-resource\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/scopes/kubeshop-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kubeshop/scopes/kubeshop-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

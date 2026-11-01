@@ -5,55 +5,55 @@ api_specs:
   label: BlackRock Authorization Url:generate API
   slug: blackrock-authorizationurl-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-authorizationurl-generate-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-authorizationurl-generate-api-openapi.yml
 - filename: blackrock-studionotifications-api-openapi.yml
   format: yaml
   label: BlackRock Studio Notifications API
   slug: blackrock-studionotifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studionotifications-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studionotifications-api-openapi.yml
 - filename: blackrock-studionotifications-batchcreate-api-openapi.yml
   format: yaml
   label: BlackRock Studio Notifications:batch Create API
   slug: blackrock-studionotifications-batchcreate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studionotifications-batchcreate-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studionotifications-batchcreate-api-openapi.yml
 - filename: blackrock-studionotifications-filter-api-openapi.yml
   format: yaml
   label: BlackRock Studio Notifications:filter API
   slug: blackrock-studionotifications-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studionotifications-filter-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studionotifications-filter-api-openapi.yml
 - filename: blackrock-studiosubscriptions-api-openapi.yml
   format: yaml
   label: BlackRock Studio Subscriptions API
   slug: blackrock-studiosubscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studiosubscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studiosubscriptions-api-openapi.yml
 - filename: blackrock-studiosubscriptions-batchcreate-api-openapi.yml
   format: yaml
   label: BlackRock Studio Subscriptions:batch Create API
   slug: blackrock-studiosubscriptions-batchcreate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studiosubscriptions-batchcreate-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studiosubscriptions-batchcreate-api-openapi.yml
 - filename: blackrock-studiosubscriptions-filter-api-openapi.yml
   format: yaml
   label: BlackRock Studio Subscriptions:filter API
   slug: blackrock-studiosubscriptions-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studiosubscriptions-filter-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studiosubscriptions-filter-api-openapi.yml
 - filename: blackrock-token-checktokenexists-api-openapi.yml
   format: yaml
   label: BlackRock Token:check Token Exists API
   slug: blackrock-token-checktokenexists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-token-checktokenexists-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-token-checktokenexists-api-openapi.yml
 - filename: blackrock-token-generate-api-openapi.yml
   format: yaml
   label: BlackRock Token:generate API
   slug: blackrock-token-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-token-generate-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-token-generate-api-openapi.yml
 authorization_urls:
 - https://client.blackrock.com/api/oauth2/default/v1/authorize
 description: ''
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: derived\nsource: openapi/blackroc
   \    tokenUrl: https://client.blackrock.com/api/oauth2/default/v1/token\n  description: This API uses OAuth 2.0 with the access code flow.\n- name: OAuth2ClientCredentials\n  source: openapi/blackrock-studio-subscription-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://client.blackrock.com/api/oauth2/default/v1/token\n  description: This API uses OAuth 2.0 with the client credentials flow.\n- name: OAuth2AccessCode\n  source: openapi/blackrock-token-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://client.blackrock.com/api/oauth2/default/v1/authorize\n    tokenUrl: https://client.blackrock.com/api/oauth2/default/v1/token\n  description: This API uses OAuth 2.0 with the access code flow.\n- name: OAuth2ClientCredentials\n  source: openapi/blackrock-token-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://client.blackrock.com/api/oauth2/default/v1/token\n  description: This API uses OAuth 2.0 with the client\
   \ credentials flow.\nscopes:\n- scope: offline_access\n  description: This keeps you signed in to the app, even when you are not using it.\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/blackrock-studio-notification-openapi.yml\n  - openapi/blackrock-studio-subscription-openapi.yml\n  - openapi/blackrock-token-openapi.yml\n- scope: platform.infrastructure.token.v1.Token:read\n  description: non-sensitive read\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/blackrock-token-openapi.yml\n- scope: platform.studio.studio_notification.v1.StudioNotification\n  description: This grants access to all endpoints in the platform.studio.studio_notification.v1.StudioNotification\n    API\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/blackrock-studio-notification-openapi.yml\n- scope: platform.studio.studio_notification.v1.StudioSubscription\n  description: This grants access to all endpoints in the\
   \ platform.studio.studio_notification.v1.StudioSubscription\n    API\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/blackrock-studio-subscription-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/scopes/blackrock-scopes.yml
+source_yaml_url: https://artifacts.apis.io/blackrock/scopes/blackrock-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
 - Asset Management

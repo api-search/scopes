@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud CDN BackendServices API
   slug: google-cloud-cdn-backendservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/google-cloud-cdn-backendservices-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-cdn/openapi/google-cloud-cdn-backendservices-api-openapi.yml
 - filename: google-cloud-cdn-cache-invalidation-api-openapi.yml
   format: yaml
   label: Google Cloud CDN Cache Invalidation API
   slug: google-cloud-cdn-cache-invalidation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/google-cloud-cdn-cache-invalidation-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-cdn/openapi/google-cloud-cdn-cache-invalidation-api-openapi.yml
 - filename: google-cloud-cdn-url-maps-api-openapi.yml
   format: yaml
   label: Google Cloud CDN URL maps API
   slug: google-cloud-cdn-url-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/google-cloud-cdn-url-maps-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-cdn/openapi/google-cloud-cdn-url-maps-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -64,7 +64,7 @@ source_filename: google-cloud-cdn-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cdn-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cdn-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud Platform\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cdn-openapi.yml\n- scope: https://www.googleapis.com/auth/compute\n  description: Full access to Compute Engine\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cdn-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/scopes/google-cloud-cdn-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-cdn/scopes/google-cloud-cdn-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Caching

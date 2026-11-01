@@ -5,19 +5,19 @@ api_specs:
   label: Subspace AcceleratorService API
   slug: subspace-acceleratorservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-acceleratorservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-acceleratorservice-api-openapi.yml
 - filename: subspace-sipteleportservice-api-openapi.yml
   format: yaml
   label: Subspace SipTeleportService API
   slug: subspace-sipteleportservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-sipteleportservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-sipteleportservice-api-openapi.yml
 - filename: subspace-webrtccdnservice-api-openapi.yml
   format: yaml
   label: Subspace WebRtcCdnService API
   slug: subspace-webrtccdnservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-webrtccdnservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-webrtccdnservice-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -98,7 +98,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/subspace-openapi-original.yml\nschemes:\n- name: accessCode\n  source: openapi/subspace-openapi-original.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://id.subspace.com/oauth/token\nscopes:\n- scope: accelerators:read\n  description: allows reading details about provisioned PacketAccelerators\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/subspace-openapi-original.yml\n- scope: accelerators:write\n  description: allows administration of PacketAccelerators\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/subspace-openapi-original.yml\n- scope: console:access\n  description: allows access to the console\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/subspace-openapi-original.yml\n- scope: projects:read\n  description: allows reading details about projects\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/subspace-openapi-original.yml\n- scope: rtpspeed:read\n  description:\
   \ allows reading details about rtpspeed\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/subspace-openapi-original.yml\n- scope: rtpspeed:write\n  description: allows administration of rtpspeed\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/subspace-openapi-original.yml\n- scope: sipteleport:read\n  description: allows reading details about provisioned SIPTeleport\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/subspace-openapi-original.yml\n- scope: sipteleport:write\n  description: allows administration of SIPTeleport\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/subspace-openapi-original.yml\n- scope: webrtccdn:access\n  description: allows administration of WebRTC-CDN\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/subspace-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/scopes/subspace-scopes.yml
+source_yaml_url: https://artifacts.apis.io/subspace/scopes/subspace-scopes.yml
 summary_line: 9 scopes · clientCredentials
 tags:
 - Company

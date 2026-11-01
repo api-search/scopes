@@ -30,15 +30,14 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hitachi-vantara/refs/heads/main/scopes/hitachi-vantara-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hitachi-vantara/scopes/hitachi-vantara-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Company
 - Data Infrastructure
+- Storage
 - Hybrid Cloud
-- Enterprise Storage
-- Analytics
-- Sustainability
+- AI Services
+- Enterprise Solutions
 token_bound: false
 token_urls: []
 ---

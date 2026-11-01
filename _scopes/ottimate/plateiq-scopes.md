@@ -5,55 +5,55 @@ api_specs:
   label: Ottimate Accounts API
   slug: ottimate-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-accounts-api-openapi.yml
 - filename: ottimate-batch-api-openapi.yml
   format: yaml
   label: Ottimate Batch API
   slug: ottimate-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-batch-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-batch-api-openapi.yml
 - filename: ottimate-catalog-api-openapi.yml
   format: yaml
   label: Ottimate Catalog API
   slug: ottimate-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-catalog-api-openapi.yml
 - filename: ottimate-dimensions-api-openapi.yml
   format: yaml
   label: Ottimate Dimensions API
   slug: ottimate-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-dimensions-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-dimensions-api-openapi.yml
 - filename: ottimate-invoices-api-openapi.yml
   format: yaml
   label: Ottimate Invoices API
   slug: ottimate-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-invoices-api-openapi.yml
 - filename: ottimate-oauth-api-openapi.yml
   format: yaml
   label: Ottimate OAuth API
   slug: ottimate-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-oauth-api-openapi.yml
 - filename: ottimate-receipts-api-openapi.yml
   format: yaml
   label: Ottimate Receipts API
   slug: ottimate-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-receipts-api-openapi.yml
 - filename: ottimate-vendors-api-openapi.yml
   format: yaml
   label: Ottimate Vendors API
   slug: ottimate-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-vendors-api-openapi.yml
 - filename: ottimate-purchase-orders-api-openapi.yml
   format: yaml
   label: Ottimate Purchase Orders API
   slug: ottimate-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/openapi/ottimate-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ottimate/openapi/ottimate-purchase-orders-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.ottimate.com/auth
@@ -84,7 +84,7 @@ source_filename: plateiq-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.ottimate.com/auth.md\ndocs: https://docs.ottimate.com/auth\nprovider: plateiq\napi: Ottimate API\nflow: client_credentials\nnotes: >-\n  The Ottimate OAuth2 client-credentials flow currently supports a single scope.\n  The effective data an integration can reach is further constrained by the\n  API User's account/company/location scoping (see account-structure/scoping).\nscopes:\n- name: accounts.can_access_dashboard\n  description: >-\n    Grants the OAuth application access to the Ottimate dashboard data surface\n    for the provisioned API User. Currently the only supported OAuth scope.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ottimate/refs/heads/main/scopes/plateiq-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ottimate/scopes/plateiq-scopes.yml
 summary_line: 1 scope · client_credentials
 tags:
 - Company

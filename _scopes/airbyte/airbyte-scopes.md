@@ -5,19 +5,19 @@ api_specs:
   label: Airbyte Airbyte Marketing Site API
   slug: airbyte-airbyte-marketing-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/openapi/airbyte-airbyte-marketing-site-api-openapi.yml
+  url: https://artifacts.apis.io/airbyte/openapi/airbyte-airbyte-marketing-site-api-openapi.yml
 - filename: airbyte-well-known-api-openapi.yml
   format: yaml
   label: Airbyte .well Known API
   slug: airbyte-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/openapi/airbyte-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/airbyte/openapi/airbyte-well-known-api-openapi.yml
 - filename: airbyte-x402-api-openapi.yml
   format: yaml
   label: Airbyte X402 API
   slug: airbyte-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/openapi/airbyte-x402-api-openapi.yml
+  url: https://artifacts.apis.io/airbyte/openapi/airbyte-x402-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.airbyte.com/platform/using-airbyte/configuring-api-access
@@ -63,7 +63,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: https://airbyte.com/.well-known/openid-configuration\ndocs: https://docs.airbyte.com/platform/using-airbyte/configuring-api-access\nschemes:\n- name: clientCredentials\n  source: https://airbyte.com/.well-known/openid-configuration\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.airbyte.com/v1/applications/token\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope; returned in the client_credentials token.\n  flows: [clientCredentials]\n  sources: [https://airbyte.com/.well-known/openid-configuration]\n- scope: api\n  description: >-\n    Grants access to the Airbyte public API. Effective authorization is bound to\n    the permissions of the user that owns the Application (workspace/organization\n    RBAC), not to fine-grained OAuth scopes.\n  flows: [clientCredentials]\n  sources: [https://airbyte.com/.well-known/openid-configuration]\nnotes: >-\n  Airbyte exposes only the coarse OIDC scopes\
   \ 'openid' and 'api'. Access is\n  governed by workspace/organization RBAC roles attached to the Application's\n  owning user rather than by granular API scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/scopes/airbyte-scopes.yml
+source_yaml_url: https://artifacts.apis.io/airbyte/scopes/airbyte-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Data Integration

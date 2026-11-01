@@ -40,7 +40,7 @@ source_filename: machine0-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://app.machine0.io/.well-known/oauth-authorization-server\ndescription: >-\n  OAuth scopes advertised by machine0's authorization server metadata\n  (scopes_supported). These are OIDC-standard identity scopes gating the OAuth\n  authorization-code flow used by the CLI and MCP clients; machine0 does not\n  publish granular per-resource (VM/image) scopes — infrastructure authorization\n  is bound to the authenticated account rather than fine-grained scopes.\ndocs: https://docs.machine0.io/mcp/overview\nscopes:\n  - name: openid\n    description: OIDC authentication; issue an ID token identifying the account.\n  - name: profile\n    description: Access to the account's basic profile claims (name).\n  - name: email\n    description: Access to the account's email and email_verified claims.\n  - name: offline_access\n    description: Issue a refresh token for long-lived, non-interactive access.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/machine0/refs/heads/main/scopes/machine0-scopes.yml
+source_yaml_url: https://artifacts.apis.io/machine0/scopes/machine0-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

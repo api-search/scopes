@@ -52,7 +52,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://api.us1.driverai.com/.well-known/oauth-authorization-server\ndocs: https://www.driver.ai/docs/mcp-setup\nschemes:\n- name: oauth2\n  source: https://api.us1.driverai.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.us1.driverai.com/mcp/authorize\n    tokenUrl: https://api.us1.driverai.com/mcp/token\n    pkce: S256\nscopes:\n- scope: openid\n  description: OpenID Connect authentication of the acting user.\n  flows: [authorizationCode]\n- scope: profile\n  description: Access to the user's basic profile.\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the user's email address.\n  flows: [authorizationCode]\nnotes: >-\n  The MCP OAuth 2.1 authorization server advertises only identity scopes\n  (openid/profile/email). Resource authorization is enforced by Driver's\n  role-based access model (Source Admin / Source Member, direct or\
   \ team-\n  inherited), not by OAuth scopes. Personal access tokens inherit the user's\n  role; machine keys are granted per source.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/driver/refs/heads/main/scopes/driver-scopes.yml
+source_yaml_url: https://artifacts.apis.io/driver/scopes/driver-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

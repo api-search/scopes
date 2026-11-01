@@ -5,19 +5,19 @@ api_specs:
   label: Jeeng Management API
   slug: jeeng-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-management-api-openapi.yml
+  url: https://artifacts.apis.io/jeeng/openapi/jeeng-management-api-openapi.yml
 - filename: jeeng-reporting-api-openapi.yml
   format: yaml
   label: Jeeng Reporting API
   slug: jeeng-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/jeeng/openapi/jeeng-reporting-api-openapi.yml
 - filename: jeeng-revenuestripe-onmicrosoft-com-api-openapi.yml
   format: yaml
   label: Jeeng Revenuestripe.onmicrosoft.com API
   slug: jeeng-revenuestripe-onmicrosoft-com-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/openapi/jeeng-revenuestripe-onmicrosoft-com-api-openapi.yml
+  url: https://artifacts.apis.io/jeeng/openapi/jeeng-revenuestripe-onmicrosoft-com-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.jeeng.com/reference/getting-an-access-token
@@ -53,7 +53,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://developers.jeeng.com/reference/getting-an-access-token\ndocs: https://developers.jeeng.com/reference/getting-an-access-token\nidentity_provider: Microsoft Entra ID (Azure AD)\ntenant: revenuestripe.onmicrosoft.com\ntoken_url: https://login.microsoftonline.com/revenuestripe.onmicrosoft.com/oauth2/v2.0/token\nflow: client_credentials\nscheme: sec0\nscopes:\n- scope: api://revenuestripe.onmicrosoft.com/partners/.default\n  description: The single partner scope for the Jeeng / OpenWeb Email Monetization APIs. Grants the\n    permissions for all partner API endpoints — advertiser and publisher reporting, campaigns,\n    creatives, and the performance reports.\n  applies_to:\n  - openapi/jeeng-advertisers-openapi.yml\n  - openapi/jeeng-publishers-openapi.yml\n  required: true\n  source: https://developers.jeeng.com/reference/getting-an-access-token\nscope_count: 1\ngranularity: coarse\nnotes:\n- Jeeng publishes exactly one\
   \ scope. It is an Entra ID `.default` application scope, so consent is\n  granted at the application-registration level rather than per-endpoint; there is no read-only vs\n  write split, and no separate advertiser vs publisher scope.\n- 'Requesting any other scope is documented as the most common cause of an HTTP 401 with the message\n  \"Not authorized to this endpoint.\" Because a token issued for the wrong scope can still succeed on\n  some endpoints, the failure typically appears only on the performance report endpoints.'\n- >-\n  The OpenAPI `securitySchemes.sec0` object published for both APIs declares `type: oauth2` with an\n  empty `flows` object and therefore carries no machine-readable scope list; the scope above comes\n  from the provider's own authentication reference page.\nx-evidence:\n- url: https://developers.jeeng.com/reference/getting-an-access-token.md\n  http_status: 200\n  fetched: '2026-08-12'\n- url: https://login.microsoftonline.com/revenuestripe.onmicrosoft.com/v2.0/.well-known/openid-configuration\n\
   \  http_status: 200\n  fetched: '2026-08-12'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/scopes/jeeng-scopes.yml
+source_yaml_url: https://artifacts.apis.io/jeeng/scopes/jeeng-scopes.yml
 summary_line: 1 scope · client_credentials
 tags:
 - Company

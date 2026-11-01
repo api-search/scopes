@@ -50,7 +50,7 @@ source_filename: flipkart-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://seller.flipkart.com/api-docs/FMSAPI.html\ndocs: https://seller.flipkart.com/api-docs/FMSAPI.html\nschemes:\n- name: OAuth2\n  source: https://seller.flipkart.com/api-docs/FMSAPI.html\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.flipkart.net/oauth-service/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.flipkart.net/oauth-service/oauth/authorize\n    tokenUrl: https://api.flipkart.net/oauth-service/oauth/token\nscopes:\n- scope: Seller_Api\n  description: Access to the Flipkart Marketplace Seller APIs (listings, orders, shipments, returns, reports).\n  flows:\n  - clientCredentials\n  - authorizationCode\n- scope: Default\n  description: Default scope granted for basic authenticated access to the seller platform.\n  flows:\n  - clientCredentials\n  - authorizationCode\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flipkart/refs/heads/main/scopes/flipkart-scopes.yml
+source_yaml_url: https://artifacts.apis.io/flipkart/scopes/flipkart-scopes.yml
 summary_line: 2 scopes · clientCredentials/authorizationCode
 tags:
 - Company

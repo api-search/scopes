@@ -5,31 +5,31 @@ api_specs:
   label: Restream Channels API
   slug: restream-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-channels-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-channels-api-openapi.yml
 - filename: restream-events-api-openapi.yml
   format: yaml
   label: Restream Events API
   slug: restream-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-events-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-events-api-openapi.yml
 - filename: restream-platforms-api-openapi.yml
   format: yaml
   label: Restream Platforms API
   slug: restream-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-platforms-api-openapi.yml
 - filename: restream-stream-keys-api-openapi.yml
   format: yaml
   label: Restream Stream Keys API
   slug: restream-stream-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-stream-keys-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-stream-keys-api-openapi.yml
 - filename: restream-user-api-openapi.yml
   format: yaml
   label: Restream User API
   slug: restream-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/openapi/restream-user-api-openapi.yml
+  url: https://artifacts.apis.io/restream/openapi/restream-user-api-openapi.yml
 authorization_urls:
 - https://api.restream.io/oauth/authorize
 description: ''
@@ -102,7 +102,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/restream-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/restream-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.restream.io/oauth/authorize\n    tokenUrl: https://api.restream.io/oauth/token\nscopes:\n- scope: channels.read\n  description: Read channel information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/restream-openapi.yml\n- scope: channels.write\n  description: Update channel settings\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/restream-openapi.yml\n- scope: chat.read\n  description: Read chat messages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/restream-openapi.yml\n- scope: events.read\n  description: Read event information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/restream-openapi.yml\n- scope: events.write\n  description: Create and update events\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/restream-openapi.yml\n\
   - scope: profile.read\n  description: Read user profile information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/restream-openapi.yml\n- scope: stream.read\n  description: Read stream key information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/restream-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/scopes/restream-scopes.yml
+source_yaml_url: https://artifacts.apis.io/restream/scopes/restream-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Broadcast

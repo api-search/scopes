@@ -5,25 +5,25 @@ api_specs:
   label: Incognia Authentication API
   slug: incognia-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-authentication-api-openapi.yml
 - filename: incognia-feedback-api-openapi.yml
   format: yaml
   label: Incognia Feedback API
   slug: incognia-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-feedback-api-openapi.yml
 - filename: incognia-onboarding-api-openapi.yml
   format: yaml
   label: Incognia Onboarding API
   slug: incognia-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-onboarding-api-openapi.yml
 - filename: incognia-transactions-api-openapi.yml
   format: yaml
   label: Incognia Transactions API
   slug: incognia-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -78,7 +78,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/incognia-authentication-api-openapi.yml, openapi/incognia-feedback-api-openapi.yml,\n  openapi/incognia-onboarding-api-openapi.yml, openapi/incognia-transactions-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/incognia-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.incognia.com/api/v2/token\n  description: OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by\n    the credential's tenant.\n- name: oauth2\n  source: openapi/incognia-feedback-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.incognia.com/api/v2/token\n  description: OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by\n    the credential's tenant.\n- name: oauth2\n  source: openapi/incognia-onboarding-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.incognia.com/api/v2/token\n  description:\
   \ OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by\n    the credential's tenant.\n- name: oauth2\n  source: openapi/incognia-transactions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.incognia.com/api/v2/token\n  description: OAuth 2.0 client-credentials grant. No scopes are defined; access is scoped by\n    the credential's tenant.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/scopes/incognia-scopes.yml
+source_yaml_url: https://artifacts.apis.io/incognia/scopes/incognia-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

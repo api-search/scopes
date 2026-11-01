@@ -5,55 +5,55 @@ api_specs:
   label: Romit Application API
   slug: romit-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-application-api-openapi.yml
+  url: https://artifacts.apis.io/romit/openapi/romit-application-api-openapi.yml
 - filename: romit-banking-api-openapi.yml
   format: yaml
   label: Romit Banking API
   slug: romit-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-banking-api-openapi.yml
+  url: https://artifacts.apis.io/romit/openapi/romit-banking-api-openapi.yml
 - filename: romit-identity-api-openapi.yml
   format: yaml
   label: Romit Identity API
   slug: romit-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-identity-api-openapi.yml
+  url: https://artifacts.apis.io/romit/openapi/romit-identity-api-openapi.yml
 - filename: romit-invoice-api-openapi.yml
   format: yaml
   label: Romit Invoice API
   slug: romit-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/romit/openapi/romit-invoice-api-openapi.yml
 - filename: romit-plan-api-openapi.yml
   format: yaml
   label: Romit Plan API
   slug: romit-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-plan-api-openapi.yml
+  url: https://artifacts.apis.io/romit/openapi/romit-plan-api-openapi.yml
 - filename: romit-subscription-api-openapi.yml
   format: yaml
   label: Romit Subscription API
   slug: romit-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/romit/openapi/romit-subscription-api-openapi.yml
 - filename: romit-transfer-api-openapi.yml
   format: yaml
   label: Romit Transfer API
   slug: romit-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/romit/openapi/romit-transfer-api-openapi.yml
 - filename: romit-user-api-openapi.yml
   format: yaml
   label: Romit User API
   slug: romit-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-user-api-openapi.yml
+  url: https://artifacts.apis.io/romit/openapi/romit-user-api-openapi.yml
 - filename: romit-oauth-api-openapi.yml
   format: yaml
   label: Romit O Auth API
   slug: romit-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/openapi/romit-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/romit/openapi/romit-oauth-api-openapi.yml
 authorization_urls:
 - https://api.romit.io/v1/oauth
 description: ''
@@ -172,7 +172,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/romit-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/romit-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.romit.io/v1/oauth\n    tokenUrl: https://api.romit.io/v1/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.romit.io/v1/oauth/token\n  description: Romit used OAuth2. User-context flows (authorization_code / refresh_token) authorize\n    a customer against requested scopes; the client_credentials flow issues an application access\n    token. Access tokens are presented as an HTTP Bearer token.\nscopes:\n- scope: BANKING_READ\n  description: Read access to Banking\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: BANKING_WRITE\n  description: Write access to Banking\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: DEFAULT\n  description: Access to basic information\n  flows:\n\
   \  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/romit-openapi.yml\n- scope: IDENTITY_READ\n  description: Read access to Identity\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: IDENTITY_WRITE\n  description: Write access to Identity\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: INVOICE_READ\n  description: Read access to Invoice\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: INVOICE_WRITE\n  description: Write access to Invoice\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: PLAN_READ\n  description: Read access to Plan\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: PLAN_WRITE\n  description: Write access to Plan\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: SUBSCRIPTION_READ\n  description: Read access to Subscription\n  flows:\n \
   \ - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: SUBSCRIPTION_WRITE\n  description: Write access to Subscription\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: TRANSFER_READ\n  description: Read access to Transfer\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: TRANSFER_WRITE\n  description: Write access to Transfer\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: USER_READ\n  description: Read access to User\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n- scope: USER_WRITE\n  description: Write access to User\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/romit-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/romit/refs/heads/main/scopes/romit-scopes.yml
+source_yaml_url: https://artifacts.apis.io/romit/scopes/romit-scopes.yml
 summary_line: 15 scopes · authorizationCode/clientCredentials
 tags:
 - Company

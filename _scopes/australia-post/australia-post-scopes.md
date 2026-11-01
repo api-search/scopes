@@ -5,7 +5,7 @@ api_specs:
   label: Australia Post Endpoints API
   slug: australia-post-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/openapi/australia-post-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/australia-post/openapi/australia-post-endpoints-api-openapi.yml
 authorization_urls:
 - https://welcome.auspost.com.au/authorize
 description: ''
@@ -51,7 +51,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: derived\nsource: openapi/australia-post-international-export-tools-v3-openapi.yml\nschemes:\n- name: OIDCSecurity\n  source: openapi/australia-post-international-export-tools-v3-openapi.yml\n  flows:\n  - flow: clientCredentials\n  - flow: authorizationCode\n    authorizationUrl: https://welcome.auspost.com.au/authorize\n    tokenUrl: https://welcome.auspost.com.au/oauth/token\nscopes:\n- scope: https://scopes.auspost.com.au/auth/export-tools/v3/export.read\n  description: read permissions for International Export Tools API\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/australia-post-international-export-tools-v3-openapi.yml\ndocs: https://auspost.com.au/developers/help-support/about-our-apis/\nnote: The Developer Portal documents OAuth 2.0 Client Credentials and Authorisation Code (PKCE) credential types\n  but publishes no scope reference page; the only scope known is the one declared in the International\
   \ Export Tools\n  V3 contract.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/scopes/australia-post-scopes.yml
+source_yaml_url: https://artifacts.apis.io/australia-post/scopes/australia-post-scopes.yml
 summary_line: 1 scope · clientCredentials/authorizationCode
 tags:
 - Address Validation

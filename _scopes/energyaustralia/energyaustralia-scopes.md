@@ -5,55 +5,55 @@ api_specs:
   label: EnergyAustralia Data Holder Customers API
   slug: energyaustralia-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-data-holder-customers-api-openapi.yml
 - filename: energyaustralia-data-holder-operations-api-openapi.yml
   format: yaml
   label: EnergyAustralia Data Holder Operations API
   slug: energyaustralia-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-data-holder-operations-api-openapi.yml
 - filename: energyaustralia-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: EnergyAustralia Distributed Energy Resources API
   slug: energyaustralia-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-distributed-energy-resources-api-openapi.yml
 - filename: energyaustralia-electricity-service-points-api-openapi.yml
   format: yaml
   label: EnergyAustralia Electricity Service Points API
   slug: energyaustralia-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-electricity-service-points-api-openapi.yml
 - filename: energyaustralia-electricity-usage-api-openapi.yml
   format: yaml
   label: EnergyAustralia Electricity Usage API
   slug: energyaustralia-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-electricity-usage-api-openapi.yml
 - filename: energyaustralia-energy-account-balances-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Account Balances API
   slug: energyaustralia-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-account-balances-api-openapi.yml
 - filename: energyaustralia-energy-account-billing-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Account Billing API
   slug: energyaustralia-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-account-billing-api-openapi.yml
 - filename: energyaustralia-energy-accounts-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Accounts API
   slug: energyaustralia-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-accounts-api-openapi.yml
 - filename: energyaustralia-energy-plans-api-openapi.yml
   format: yaml
   label: EnergyAustralia Energy Plans API
   slug: energyaustralia-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/openapi/energyaustralia-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/energyaustralia/openapi/energyaustralia-energy-plans-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: derived\nsource: openapi/energyau
   \  operations: [getEnergyAccountPaymentSchedule]\n  sources: [openapi/energyaustralia-cds-energy-api-openapi.yml]\n- scope: energy:accounts.concessions:read\n  description: >-\n    Concessions and rebates applied to an energy account.\n  flows: [authorizationCode]\n  operations: [getEnergyAccountConcessions]\n  sources: [openapi/energyaustralia-cds-energy-api-openapi.yml]\n- scope: energy:billing:read\n  description: >-\n    Account balances, invoices and billing transactions — the widest-fanout energy\n    scope, backing nine operations across balance, invoice and billing resources.\n  flows: [authorizationCode]\n  operations:\n  - getEnergyAccountBalance\n  - listEnergyAccountBalancesBulk\n  - listEnergyAccountBalancesSpecificAccounts\n  - getEnergyAccountInvoices\n  - listEnergyAccountInvoicesBulk\n  - listEnergyInvoicesForSpecificAccounts\n  - getBillingForEnergyAccount\n  - listEnergyAccountBillingBulk\n  - listEnergyAccountBillingForSpecificAccounts\n  sources: [openapi/energyaustralia-cds-energy-api-openapi.yml]\n\
   - scope: energy:electricity.servicepoints.basic:read\n  description: >-\n    Basic electricity service point (NMI) data — service point id, classification,\n    jurisdiction and status.\n  flows: [authorizationCode]\n  operations: [listElectricityServicePoints]\n  sources: [openapi/energyaustralia-cds-energy-api-openapi.yml]\n- scope: energy:electricity.servicepoints.detail:read\n  description: >-\n    Detailed service point data including the NMI standing data held by AEMO as\n    secondary data holder — meters, registers and related participants.\n  flows: [authorizationCode]\n  operations: [getElectricityServicePointDetail]\n  sources: [openapi/energyaustralia-cds-energy-api-openapi.yml]\n- scope: energy:electricity.usage:read\n  description: >-\n    Interval and accumulated electricity usage reads for the consumer's service points.\n  flows: [authorizationCode]\n  operations:\n  - getElectricityServicePointUsage\n  - listElectricityUsageBulk\n  - listElectricityUsageForServicePoints\n\
   \  sources: [openapi/energyaustralia-cds-energy-api-openapi.yml]\n- scope: energy:electricity.der:read\n  description: >-\n    Distributed Energy Resource register data — solar PV, battery and inverter device\n    records associated with the consumer's service points.\n  flows: [authorizationCode]\n  operations:\n  - getElectricityDERForServicePoint\n  - listElectricityDERBulk\n  - listElectricityDERForSpecificServicePoints\n  sources: [openapi/energyaustralia-cds-energy-api-openapi.yml]\nunauthenticated_operations:\n  note: >-\n    These operations carry no `x-scopes` and are served publicly on the AER Energy Made\n    Easy CDR gateway at the EnergyAustralia brand path. Verified HTTP 200 on 2026-07-27.\n  operations: [listEnergyPlans, getEnergyPlanDetail, getStatus, getOutages]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/scopes/energyaustralia-scopes.yml
+source_yaml_url: https://artifacts.apis.io/energyaustralia/scopes/energyaustralia-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
 - Energy

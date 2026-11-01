@@ -5,13 +5,13 @@ api_specs:
   label: Azure Bastion Hosts API
   slug: microsoft-azure-bastion-bastion-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-bastion/refs/heads/main/openapi/microsoft-azure-bastion-bastion-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-bastion-hosts-api-openapi.yml
 - filename: microsoft-azure-bastion-operations-api-openapi.yml
   format: yaml
   label: Azure Bastion Operations API
   slug: microsoft-azure-bastion-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-bastion/refs/heads/main/openapi/microsoft-azure-bastion-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-operations-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -50,7 +50,7 @@ source_filename: microsoft-azure-bastion-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-bastion-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-bastion-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-bastion-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-bastion/refs/heads/main/scopes/microsoft-azure-bastion-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-bastion/scopes/microsoft-azure-bastion-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Bastion

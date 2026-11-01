@@ -40,7 +40,7 @@ source_filename: treasury-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://treasury.app/.well-known/oauth-authorization-server\nschemes:\n- name: OAuth2\n  source: well-known/treasury-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://treasury.app/oauth/authorize\n    tokenUrl: https://treasury.app/oauth/token\nscopes:\n- scope: mcp:connect\n  description: Connect to the Treasury Model Context Protocol (MCP) server at https://treasury.app/mcp.\n  flows: [authorizationCode]\n  sources: [well-known/treasury-oauth-authorization-server.json]\nnotes: >-\n  Only one scope (mcp:connect) is advertised in the authorization server\n  metadata; it gates access to the MCP server. Individual tool-level scopes, if\n  any, are not exposed in the discovery document.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treasury/refs/heads/main/scopes/treasury-scopes.yml
+source_yaml_url: https://artifacts.apis.io/treasury/scopes/treasury-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

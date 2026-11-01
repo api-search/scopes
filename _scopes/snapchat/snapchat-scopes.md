@@ -5,19 +5,19 @@ api_specs:
   label: Snapchat Conversion Events API
   slug: snapchat-conversion-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-conversion-events-api-openapi.yml
+  url: https://artifacts.apis.io/snapchat/openapi/snapchat-conversion-events-api-openapi.yml
 - filename: snapchat-user-profile-api-openapi.yml
   format: yaml
   label: Snapchat User Profile API
   slug: snapchat-user-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-user-profile-api-openapi.yml
+  url: https://artifacts.apis.io/snapchat/openapi/snapchat-user-profile-api-openapi.yml
 - filename: snapchat-oauth-api-openapi.yml
   format: yaml
   label: Snapchat O Auth API
   slug: snapchat-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/openapi/snapchat-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/snapchat/openapi/snapchat-oauth-api-openapi.yml
 authorization_urls: []
 description: 'Snap''s OAuth scope surface is deliberately narrow and splits across three authorization servers. Login Kit publishes four fully-qualified URI scopes covering identity only — Snap states plainly that Login Kit "does not provide access to personal user data, such as private messages, shared content or contacts". The Marketing API is coarse: one scope for the whole ads surface, with real authorization carried by Business Manager ROLES rather than scopes. The Ads MCP server has exactly one scope, snapads.read, matching its read-only release.'
 docs: https://developers.snap.com/snap-kit/login-kit/overview#scopes
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ false\n  conditional: Available only to applications with Camera Kit enabled.\n  sources:\n  - https://developers.snap.com/snap-kit/login-kit/overview\n- scope: https://auth.snapchat.com/oauth2/api/user\n  product: Login Kit\n  description: >-\n    Parent scope value observed in Snap's own documented token-endpoint response examples\n    (`\"scope\": \"https://auth.snapchat.com/oauth2/api/user\"`). Not listed in the scope table; it\n    appears to be the granted-scope form returned after exchange rather than a scope to request.\n  user_toggleable: null\n  note: Recorded because it appears verbatim in the docs, flagged because the docs do not define it.\n  sources:\n  - https://developers.snap.com/snap-kit/login-kit/overview\n- scope: snapads.read\n  product: Snapchat Ads MCP Server\n  description: >-\n    Read-only access to authorized Snapchat Ads data through https://mcp.snapchat.com/ads. The only\n    scope the MCP authorization server accepts — Snap's own docs warn that omitting\
   \ it causes the\n    bridge to request a default set the server rejects.\n  flows:\n  - authorizationCode\n  sources:\n  - https://developers.snap.com/marketing-api/Ads-MCP/connect-an-agent\n- scope: snapchat-marketing-api\n  product: Snapchat Marketing API\n  description: >-\n    Single coarse scope covering the entire Marketing API surface — organizations, ad accounts,\n    campaigns, ad squads, ads, creatives, media, audience segments, funding sources and\n    measurement. There is no read/write split and no per-resource scope.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/snapchat-ads-api-openapi.yml\nscope_count: 7\nauthorization_model_note: >-\n  Scopes are not where Marketing API authorization actually lives. Snap states \"the access token\n  reflects the user's permissions, so API calls are scoped to what that user can access\" — the\n  effective permission set comes from Business Manager roles (admin, member, and since 2026-07-01\n  agency_admin and agency_member),\
   \ not from the OAuth scope string. A least-privilege review of a\n  Snap integration has to look at roles, not at the scopes requested.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/scopes/snapchat-scopes.yml
+source_yaml_url: https://artifacts.apis.io/snapchat/scopes/snapchat-scopes.yml
 summary_line: 7 scopes · authorizationCode/implicit
 tags:
 - Advertising

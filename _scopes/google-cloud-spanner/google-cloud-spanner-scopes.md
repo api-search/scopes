@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud Spanner Databases API
   slug: google-cloud-spanner-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/google-cloud-spanner-databases-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-spanner/openapi/google-cloud-spanner-databases-api-openapi.yml
 - filename: google-cloud-spanner-instances-api-openapi.yml
   format: yaml
   label: Google Cloud Spanner Instances API
   slug: google-cloud-spanner-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/google-cloud-spanner-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-spanner/openapi/google-cloud-spanner-instances-api-openapi.yml
 - filename: google-cloud-spanner-sessions-api-openapi.yml
   format: yaml
   label: Google Cloud Spanner Sessions API
   slug: google-cloud-spanner-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/openapi/google-cloud-spanner-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-spanner/openapi/google-cloud-spanner-sessions-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -69,7 +69,7 @@ source_filename: google-cloud-spanner-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloud-spanner-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cloud-spanner-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Cloud Platform\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-spanner-openapi.yml\n- scope: https://www.googleapis.com/auth/spanner.admin\n  description: Administer Spanner databases\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-spanner-openapi.yml\n- scope: https://www.googleapis.com/auth/spanner.data\n  description: View and manage Spanner data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-spanner-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/scopes/google-cloud-spanner-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-spanner/scopes/google-cloud-spanner-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Database

@@ -32,7 +32,7 @@ source_filename: api-market-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: https://api.market/.well-known/oauth-authorization-server\nscopes:\n- name: mcp:use\n  description: Use the API.market MCP gateway (the only scope the protected-resource document for https://api.market/api/mcp/gateway\n    lists).\n- name: offline_access\n  description: Issue a refresh token (grant_types_supported includes refresh_token).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-market/refs/heads/main/scopes/api-market-scopes.yml
+source_yaml_url: https://artifacts.apis.io/api-market/scopes/api-market-scopes.yml
 summary_line: 2 scopes
 tags:
 - API Marketplace

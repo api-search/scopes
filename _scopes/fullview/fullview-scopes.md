@@ -5,7 +5,7 @@ api_specs:
   label: Fullview Bug Report API
   slug: fullview-bug-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/openapi/fullview-bug-report-api-openapi.yml
+  url: https://artifacts.apis.io/fullview/openapi/fullview-bug-report-api-openapi.yml
 authorization_urls:
 - https://auth.eu1.fullview.io/realms/fullview-idp-users-eu1/protocol/openid-connect/auth
 description: ''
@@ -94,7 +94,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://auth.eu1.fullview.io/realms/fullview-idp-users-eu1/.well-known/openid-configuration\ndocs: https://auth.eu1.fullview.io/realms/fullview-idp-users-eu1/.well-known/openid-configuration\nschemes:\n  - name: fullviewOIDC\n    source: https://auth.eu1.fullview.io/realms/fullview-idp-users-eu1/.well-known/openid-configuration\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://auth.eu1.fullview.io/realms/fullview-idp-users-eu1/protocol/openid-connect/auth\n        tokenUrl: https://auth.eu1.fullview.io/realms/fullview-idp-users-eu1/protocol/openid-connect/token\n      - flow: clientCredentials\n        tokenUrl: https://auth.eu1.fullview.io/realms/fullview-idp-users-eu1/protocol/openid-connect/token\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication; required to receive an ID token.\n  - scope: profile\n    description: Access to the user's basic profile claims.\n  - scope:\
   \ email\n    description: Access to the user's email claim.\n  - scope: address\n    description: Access to the user's address claim.\n  - scope: phone\n    description: Access to the user's phone claim.\n  - scope: roles\n    description: Include realm/client role mappings in the token.\n  - scope: offline_access\n    description: Issue a refresh token for offline access.\n  - scope: microprofile-jwt\n    description: MicroProfile JWT claims (groups, upn) for service authorization.\n  - scope: service_account\n    description: Scope associated with client-credentials service accounts.\n  - scope: web-origins\n    description: Allowed web origins claim for CORS.\n  - scope: acr\n    description: Authentication Context Class Reference handling.\n  - scope: basic\n    description: Keycloak basic client scope (sub, auth_time claims).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/scopes/fullview-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fullview/scopes/fullview-scopes.yml
 summary_line: 12 scopes · authorizationCode/clientCredentials
 tags:
 - Company

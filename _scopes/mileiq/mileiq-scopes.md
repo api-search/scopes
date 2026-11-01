@@ -5,13 +5,13 @@ api_specs:
   label: MileIQ Groups API
   slug: mileiq-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/openapi/mileiq-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mileiq/openapi/mileiq-groups-api-openapi.yml
 - filename: mileiq-users-api-openapi.yml
   format: yaml
   label: MileIQ Users API
   slug: mileiq-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/openapi/mileiq-users-api-openapi.yml
+  url: https://artifacts.apis.io/mileiq/openapi/mileiq-users-api-openapi.yml
 authorization_urls:
 - https://oauth2.mileiq.com/oauth2/auth
 description: ''
@@ -80,7 +80,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://developer.mileiq.com/api-reference/getting-started.md\ndocs: https://developer.mileiq.com/api-reference/getting-started\noidc_discovery: https://oauth2.mileiq.com/.well-known/openid-configuration\nnote: >-\n  The OpenAPI does not declare oauth2 flows or scopes; scopes are documented in the\n  developer portal (the getting-started OAuth example requests \"drives:read:all users:read\")\n  and enforced via 403 responses whose descriptions name the required scope. The\n  authorization server advertises the OIDC baseline scopes (openid, offline, offline_access).\nschemes:\n  - name: OAuth2\n    source: https://developer.mileiq.com/api-reference/getting-started\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://oauth2.mileiq.com/oauth2/auth\n        tokenUrl: https://oauth2.mileiq.com/oauth2/token\nscopes:\n  - scope: users:read\n    description: Read access to user profile information.\n    internal_name:\
   \ users_read\n    operations: [get_me, get_user]\n    sources: [https://developer.mileiq.com/api-reference/getting-started]\n  - scope: drives:read:all\n    description: Read access to a user's drive (mileage trip) records.\n    operations: [get_user_drives]\n    sources: [https://developer.mileiq.com/api-reference/getting-started]\n  - scope: groups:read\n    description: Read access to groups (teams) the authenticated user administers.\n    internal_name: groups_read\n    operations: [get_groups, get_group]\n    sources: [openapi/mileiq-external-openapi-original.json]\n  - scope: groups:read:reported-drives\n    description: Read access to drives reported to a group for review.\n    internal_name: groups_read_reported_drives\n    operations: [get_group_reported_drives]\n    sources: [openapi/mileiq-external-openapi-original.json]\n  - scope: openid\n    description: OIDC authentication; issue an ID token.\n    flows: [authorizationCode]\n    sources: [https://oauth2.mileiq.com/.well-known/openid-configuration]\n\
   \  - scope: offline_access\n    description: Issue a refresh token for offline access.\n    flows: [authorizationCode]\n    sources: [https://oauth2.mileiq.com/.well-known/openid-configuration]\n  - scope: offline\n    description: Legacy alias for offline_access advertised by the authorization server.\n    sources: [https://oauth2.mileiq.com/.well-known/openid-configuration]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mileiq/refs/heads/main/scopes/mileiq-scopes.yml
+source_yaml_url: https://artifacts.apis.io/mileiq/scopes/mileiq-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Company

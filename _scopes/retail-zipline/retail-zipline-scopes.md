@@ -29,7 +29,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://getzipline.com/.well-known/oauth-authorization-server\nsummary: >-\n  Zipline's authorization server advertises exactly one OAuth scope. There is no\n  published scope or permissions reference page — this list is read directly from\n  the RFC 8414 metadata document and the RFC 9728 protected-resource document,\n  which agree.\nauthorization_server: https://getzipline.com\ndocs: null\ndocs_note: No public scopes/permissions reference page exists on any Zipline host.\nscope_count: 1\nscopes:\n- name: mcp\n  description: >-\n    Grants an MCP client access to the Zipline MCP server at\n    https://getzipline.com/wp-json/mcp/mcp-oauth-server. The provider publishes\n    no finer-grained breakdown of what the scope authorizes; it is a single\n    coarse scope covering the whole resource.\n  source: scopes_supported in both the authorization-server and protected-resource metadata\nx-evidence:\n- url: https://getzipline.com/.well-known/oauth-authorization-server\n\
   \  http_status: 200\n  fetched: '2026-08-26'\n- url: https://getzipline.com/.well-known/oauth-protected-resource\n  http_status: 200\n  fetched: '2026-08-26'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retail-zipline/refs/heads/main/scopes/retail-zipline-scopes.yml
+source_yaml_url: https://artifacts.apis.io/retail-zipline/scopes/retail-zipline-scopes.yml
 summary_line: 1 scope
 tags:
 - Retail

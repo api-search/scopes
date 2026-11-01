@@ -5,175 +5,175 @@ api_specs:
   label: Greenhouse Applications API
   slug: greenhouse-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-applications-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-applications-api-openapi.yml
 - filename: greenhouse-candidates-api-openapi.yml
   format: yaml
   label: Greenhouse Candidates API
   slug: greenhouse-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-candidates-api-openapi.yml
 - filename: greenhouse-departments-api-openapi.yml
   format: yaml
   label: Greenhouse Departments API
   slug: greenhouse-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-departments-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-departments-api-openapi.yml
 - filename: greenhouse-education-api-openapi.yml
   format: yaml
   label: Greenhouse Education API
   slug: greenhouse-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-education-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-education-api-openapi.yml
 - filename: greenhouse-greenhouse-job-board-api-api-openapi.yml
   format: yaml
   label: Greenhouse Job Board API
   slug: greenhouse-greenhouse-job-board-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-greenhouse-job-board-api-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-greenhouse-job-board-api-api-openapi.yml
 - filename: greenhouse-jobs-api-openapi.yml
   format: yaml
   label: Greenhouse Jobs API
   slug: greenhouse-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-jobs-api-openapi.yml
 - filename: greenhouse-offices-api-openapi.yml
   format: yaml
   label: Greenhouse Offices API
   slug: greenhouse-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-offices-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-offices-api-openapi.yml
 - filename: greenhouse-prospects-api-openapi.yml
   format: yaml
   label: Greenhouse Prospects API
   slug: greenhouse-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-prospects-api-openapi.yml
 - filename: greenhouse-sections-api-openapi.yml
   format: yaml
   label: Greenhouse Sections API
   slug: greenhouse-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-sections-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-sections-api-openapi.yml
 - filename: greenhouse-tracking-api-openapi.yml
   format: yaml
   label: Greenhouse Tracking API
   slug: greenhouse-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-tracking-api-openapi.yml
 - filename: greenhouse-users-api-openapi.yml
   format: yaml
   label: Greenhouse Users API
   slug: greenhouse-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-users-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-users-api-openapi.yml
 - filename: greenhouse-graph-ql-api-openapi.yml
   format: yaml
   label: Greenhouse Graph QL API
   slug: greenhouse-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-graph-ql-api-openapi.yml
 - filename: greenhouse-activity-feed-api-openapi.yml
   format: yaml
   label: Greenhouse Activity Feed API
   slug: greenhouse-activity-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-activity-feed-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-activity-feed-api-openapi.yml
 - filename: greenhouse-approvals-api-openapi.yml
   format: yaml
   label: Greenhouse Approvals API
   slug: greenhouse-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-approvals-api-openapi.yml
 - filename: greenhouse-auth-api-openapi.yml
   format: yaml
   label: Greenhouse Auth API
   slug: greenhouse-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-auth-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-auth-api-openapi.yml
 - filename: greenhouse-custom-fields-api-openapi.yml
   format: yaml
   label: Greenhouse Custom Fields API
   slug: greenhouse-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-custom-fields-api-openapi.yml
 - filename: greenhouse-events-api-openapi.yml
   format: yaml
   label: Greenhouse Events API
   slug: greenhouse-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-events-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-events-api-openapi.yml
 - filename: greenhouse-job-openings-api-openapi.yml
   format: yaml
   label: Greenhouse Job Openings API
   slug: greenhouse-job-openings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-job-openings-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-openings-api-openapi.yml
 - filename: greenhouse-job-stages-api-openapi.yml
   format: yaml
   label: Greenhouse Job stages API
   slug: greenhouse-job-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-job-stages-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-stages-api-openapi.yml
 - filename: greenhouse-jobposts-api-openapi.yml
   format: yaml
   label: Greenhouse Job Posts API
   slug: greenhouse-jobposts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-jobposts-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-jobposts-api-openapi.yml
 - filename: greenhouse-offers-api-openapi.yml
   format: yaml
   label: Greenhouse Offers API
   slug: greenhouse-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-offers-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-offers-api-openapi.yml
 - filename: greenhouse-prospectpools-api-openapi.yml
   format: yaml
   label: Greenhouse Prospect Pools API
   slug: greenhouse-prospectpools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-prospectpools-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-prospectpools-api-openapi.yml
 - filename: greenhouse-rejectionreasons-api-openapi.yml
   format: yaml
   label: Greenhouse Rejection Reasons API
   slug: greenhouse-rejectionreasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-rejectionreasons-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-rejectionreasons-api-openapi.yml
 - filename: greenhouse-scheduledinterviews-api-openapi.yml
   format: yaml
   label: Greenhouse Scheduled Interviews API
   slug: greenhouse-scheduledinterviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-scheduledinterviews-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-scheduledinterviews-api-openapi.yml
 - filename: greenhouse-scorecards-api-openapi.yml
   format: yaml
   label: Greenhouse Scorecards API
   slug: greenhouse-scorecards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-scorecards-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-scorecards-api-openapi.yml
 - filename: greenhouse-sources-api-openapi.yml
   format: yaml
   label: Greenhouse Sources API
   slug: greenhouse-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-sources-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-sources-api-openapi.yml
 - filename: greenhouse-tags-api-openapi.yml
   format: yaml
   label: Greenhouse Tags API
   slug: greenhouse-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-tags-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-tags-api-openapi.yml
 - filename: greenhouse-testdelivery-api-openapi.yml
   format: yaml
   label: Greenhouse Test Delivery API
   slug: greenhouse-testdelivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-testdelivery-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-testdelivery-api-openapi.yml
 - filename: greenhouse-tests-api-openapi.yml
   format: yaml
   label: Greenhouse Tests API
   slug: greenhouse-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/openapi/greenhouse-tests-api-openapi.yml
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-tests-api-openapi.yml
 authorization_urls:
 - https://api.greenhouse.io/oauth/authorize
 description: ''
@@ -235,7 +235,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/greenhouse-ingestion-openapi.yml\ndocs: https://developers.greenhouse.io/candidate-ingestion.html\nnote: >-\n  The Candidate Ingestion API documents four OAuth permission scopes (they do not apply\n  when authenticating via Basic Auth). The Harvest API v3 also uses granular OAuth scopes\n  in the pattern harvest:<resource>:<action> (via auth.greenhouse.io), but Greenhouse\n  publishes no complete public list; only the two example scopes named in the Harvest\n  partner OAuth guide (https://harvestdocs.greenhouse.io/docs/harvest-partner-oauth)\n  are recorded here.\nschemes:\n- name: oauth2\n  source: openapi/greenhouse-ingestion-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.greenhouse.io/oauth/authorize\n    tokenUrl: https://api.greenhouse.io/oauth/token\nscopes:\n- scope: candidates.create\n  description: Create new candidates or prospects.\n  sources:\n  - https://developers.greenhouse.io/candidate-ingestion.html\n\
   - scope: candidates.view\n  description: View candidates imported via this partner.\n  sources:\n  - https://developers.greenhouse.io/candidate-ingestion.html\n- scope: jobs.view\n  description: View my jobs.\n  sources:\n  - https://developers.greenhouse.io/candidate-ingestion.html\n- scope: prospect_pools.view\n  description: Retrieve prospect pools and their stages for an organization.\n  sources:\n  - https://developers.greenhouse.io/candidate-ingestion.html\n- scope: harvest:candidates:list\n  description: List candidates via the Harvest API v3 (example scope named in the Harvest partner OAuth guide).\n  sources:\n  - https://harvestdocs.greenhouse.io/docs/harvest-partner-oauth\n- scope: harvest:job_posts:list\n  description: List job posts via the Harvest API v3 (example scope named in the Harvest partner OAuth guide).\n  sources:\n  - https://harvestdocs.greenhouse.io/docs/harvest-partner-oauth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/scopes/greenhouse-scopes.yml
+source_yaml_url: https://artifacts.apis.io/greenhouse/scopes/greenhouse-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Human Resources

@@ -5,145 +5,145 @@ api_specs:
   label: Flagsmith Flags API
   slug: flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-flags-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-flags-api-openapi.yml
 - filename: flagsmith-environments-api-openapi.yml
   format: yaml
   label: flagsmith Environments API
   slug: flagsmith-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-environments-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-environments-api-openapi.yml
 - filename: flagsmith-features-api-openapi.yml
   format: yaml
   label: flagsmith Features API
   slug: flagsmith-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-features-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-features-api-openapi.yml
 - filename: flagsmith-identities-api-openapi.yml
   format: yaml
   label: flagsmith Identities API
   slug: flagsmith-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-identities-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-identities-api-openapi.yml
 - filename: flagsmith-organisations-api-openapi.yml
   format: yaml
   label: flagsmith Organisations API
   slug: flagsmith-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-organisations-api-openapi.yml
 - filename: flagsmith-projects-api-openapi.yml
   format: yaml
   label: flagsmith Projects API
   slug: flagsmith-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-projects-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-projects-api-openapi.yml
 - filename: flagsmith-segments-api-openapi.yml
   format: yaml
   label: flagsmith Segments API
   slug: flagsmith-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-segments-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-segments-api-openapi.yml
 - filename: flagsmith-users-api-openapi.yml
   format: yaml
   label: flagsmith Users API
   slug: flagsmith-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-users-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-users-api-openapi.yml
 - filename: flagsmith-webhooks-api-openapi.yml
   format: yaml
   label: flagsmith Webhooks API
   slug: flagsmith-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-webhooks-api-openapi.yml
 - filename: flagsmith-admin-dashboard-api-openapi.yml
   format: yaml
   label: Flagsmith Admin dashboard API
   slug: flagsmith-admin-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-admin-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-admin-dashboard-api-openapi.yml
 - filename: flagsmith-analytics-api-openapi.yml
   format: yaml
   label: Flagsmith Analytics API
   slug: flagsmith-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-analytics-api-openapi.yml
 - filename: flagsmith-audit-api-openapi.yml
   format: yaml
   label: Flagsmith Audit API
   slug: flagsmith-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-audit-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-audit-api-openapi.yml
 - filename: flagsmith-authentication-api-openapi.yml
   format: yaml
   label: Flagsmith Authentication API
   slug: flagsmith-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-authentication-api-openapi.yml
 - filename: flagsmith-experimental-api-openapi.yml
   format: yaml
   label: Flagsmith Experimental API
   slug: flagsmith-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-experimental-api-openapi.yml
 - filename: flagsmith-feature-states-api-openapi.yml
   format: yaml
   label: Flagsmith Feature states API
   slug: flagsmith-feature-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-feature-states-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-feature-states-api-openapi.yml
 - filename: flagsmith-integrations-api-openapi.yml
   format: yaml
   label: Flagsmith Integrations API
   slug: flagsmith-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-integrations-api-openapi.yml
 - filename: flagsmith-mcp-api-openapi.yml
   format: yaml
   label: Flagsmith MCP API
   slug: flagsmith-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-mcp-api-openapi.yml
 - filename: flagsmith-metadata-api-openapi.yml
   format: yaml
   label: Flagsmith Metadata API
   slug: flagsmith-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-metadata-api-openapi.yml
 - filename: flagsmith-o-api-openapi.yml
   format: yaml
   label: Flagsmith O API
   slug: flagsmith-o-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-o-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-o-api-openapi.yml
 - filename: flagsmith-onboarding-api-openapi.yml
   format: yaml
   label: Flagsmith Onboarding API
   slug: flagsmith-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-onboarding-api-openapi.yml
 - filename: flagsmith-other-api-openapi.yml
   format: yaml
   label: Flagsmith Other API
   slug: flagsmith-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-other-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-other-api-openapi.yml
 - filename: flagsmith-permissions-api-openapi.yml
   format: yaml
   label: Flagsmith Permissions API
   slug: flagsmith-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-permissions-api-openapi.yml
 - filename: flagsmith-processor-api-openapi.yml
   format: yaml
   label: Flagsmith Processor API
   slug: flagsmith-processor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-processor-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-processor-api-openapi.yml
 - filename: flagsmith-sdk-api-openapi.yml
   format: yaml
   label: Flagsmith SDK API
   slug: flagsmith-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/openapi/flagsmith-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/flagsmith/openapi/flagsmith-sdk-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.flagsmith.com/integrating-with-flagsmith/mcp-server
@@ -179,7 +179,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: https://api.flagsmith.com/.well-known/oauth-authorization-server (HTTP 200, fetched 2026-09-17)\ndocs: https://docs.flagsmith.com/integrating-with-flagsmith/mcp-server\nauthorization_server: https://api.flagsmith.com\nissuer: https://api.flagsmith.com\nendpoints:\n  authorization: https://app.flagsmith.com/oauth/authorize/\n  token: https://api.flagsmith.com/o/token/\n  registration: https://api.flagsmith.com/o/register/\n  revocation: https://api.flagsmith.com/o/revoke_token/\n  introspection: https://api.flagsmith.com/o/introspect/\ngrant_types: [authorization_code, refresh_token]\nresponse_types: [code]\npkce: [S256]\ntoken_endpoint_auth_methods: [client_secret_basic, client_secret_post, none]\nscope_count: 2\nnote: >-\n  Read from the provider's own RFC 8414 metadata rather than derived — derive-oauth-scopes.py finds\n  nothing because the OpenAPI declares its security schemes as apiKey/http and never as oauth2, so\n  the\
   \ OAuth surface is invisible from the contract alone. It is only discoverable from the\n  .well-known documents, which is exactly why they were probed. Two scopes, coarse-grained: there is\n  no per-resource or read/write split, so an agent granted `mcp` can reach every tool the deployment\n  exposes, and one granted `admin-api` can reach the Management API within the granting user's own\n  permissions. Fine-grained restriction is done with Flagsmith's RBAC roles and permission groups,\n  not with OAuth scopes.\nscopes:\n- name: mcp\n  description: >-\n    Access to the Flagsmith MCP server at https://mcp.flagsmith.com. This is the scope an MCP client\n    requests during the interactive OAuth flow. Confirmed independently by the RFC 9728\n    protected-resource document on the MCP host, whose scopes_supported is [mcp].\n  surface: https://mcp.flagsmith.com\n  granularity: coarse\n  evidence: https://mcp.flagsmith.com/.well-known/oauth-protected-resource\n- name: admin-api\n  description:\
   \ >-\n    Access to the Flagsmith Management API at https://api.flagsmith.com/api/v1. Requests act with the\n    permissions of the authorising user — the provider states administrator privileges are not\n    required and that any organisation member can use the Management API within the scope of their\n    own permissions.\n  surface: https://api.flagsmith.com/api/v1\n  granularity: coarse\n  evidence: https://docs.flagsmith.com/integrating-with-flagsmith/flagsmith-api-overview/management-api/\neffective_authorization:\n  model: RBAC\n  note: >-\n    The real authorization boundary is Flagsmith's own role/permission system (Permissions tag, 34\n    operations; custom roles and permission groups on Enterprise), layered under whichever OAuth\n    scope or API key was presented. An OAuth token never widens what its user could already do.\n  see: authentication/flagsmith-authentication.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flagsmith/refs/heads/main/scopes/flagsmith-scopes.yml
+source_yaml_url: https://artifacts.apis.io/flagsmith/scopes/flagsmith-scopes.yml
 summary_line: 2 scopes
 tags:
 - Feature Flags

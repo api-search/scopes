@@ -5,43 +5,43 @@ api_specs:
   label: Google Cloud Platform Folders API
   slug: google-cloud-platform-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-folders-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-folders-api-openapi.yml
 - filename: google-cloud-platform-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Platform Operations API
   slug: google-cloud-platform-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-operations-api-openapi.yml
 - filename: google-cloud-platform-organizations-api-openapi.yml
   format: yaml
   label: Google Cloud Platform Organizations API
   slug: google-cloud-platform-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-organizations-api-openapi.yml
 - filename: google-cloud-platform-projects-api-openapi.yml
   format: yaml
   label: Google Cloud Platform Projects API
   slug: google-cloud-platform-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-projects-api-openapi.yml
 - filename: google-cloud-platform-tagbindings-api-openapi.yml
   format: yaml
   label: Google Cloud Platform TagBindings API
   slug: google-cloud-platform-tagbindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-tagbindings-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-tagbindings-api-openapi.yml
 - filename: google-cloud-platform-tagkeys-api-openapi.yml
   format: yaml
   label: Google Cloud Platform TagKeys API
   slug: google-cloud-platform-tagkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-tagkeys-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-tagkeys-api-openapi.yml
 - filename: google-cloud-platform-tag-values-api-openapi.yml
   format: yaml
   label: Google Cloud Platform Tag Values API
   slug: google-cloud-platform-tag-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-tag-values-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-tag-values-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -90,7 +90,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/cloud-resource-manager-openapi.yml\ndocs: https://developers.google.com/identity/protocols/oauth2/scopes\nnotes: >-\n  Google publishes the full OAuth 2.0 scope reference across all APIs at the\n  docs URL above. Cloud Resource Manager uses the two platform-wide scopes\n  below; most GCP services also accept the broad cloud-platform scope in\n  addition to any service-specific scopes.\nschemes:\n- name: oauth2\n  source: openapi/cloud-resource-manager-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication using Google Cloud service accounts or user credentials.\n    Supports both service-to-service and end-user authentication flows.\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to view and manage Google Cloud resources.\n\
   \  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-resource-manager-openapi.yml\n- scope: https://www.googleapis.com/auth/cloud-platform.read-only\n  description: Read-only access to view Google Cloud resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-resource-manager-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/scopes/google-cloud-platform-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-platform/scopes/google-cloud-platform-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - API Management

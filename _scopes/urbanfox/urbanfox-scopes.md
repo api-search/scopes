@@ -5,37 +5,37 @@ api_specs:
   label: UrbanFox Cases API
   slug: urbanfox-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-cases-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-cases-api-openapi.yml
 - filename: urbanfox-end-user-accounts-api-openapi.yml
   format: yaml
   label: UrbanFox End User Accounts API
   slug: urbanfox-end-user-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-end-user-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-end-user-accounts-api-openapi.yml
 - filename: urbanfox-metrics-api-openapi.yml
   format: yaml
   label: UrbanFox Metrics API
   slug: urbanfox-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-metrics-api-openapi.yml
 - filename: urbanfox-snippet-api-openapi.yml
   format: yaml
   label: UrbanFox Snippet API
   slug: urbanfox-snippet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-snippet-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-snippet-api-openapi.yml
 - filename: urbanfox-tenants-api-openapi.yml
   format: yaml
   label: UrbanFox Tenants API
   slug: urbanfox-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-tenants-api-openapi.yml
 - filename: urbanfox-oauth-api-openapi.yml
   format: yaml
   label: UrbanFox O Auth API
   slug: urbanfox-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.urbanfox.io/explanation/authentication-model
@@ -138,7 +138,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/urbanfox-customer-api-openapi.yml\ndocs: https://docs.urbanfox.io/explanation/authentication-model\nnotes: 'Scopes follow the pattern action:resource and are additive; each protected\n  operation declares its required scope in its OAuth 2.0 security requirement, and\n  tokens missing the required scope receive a 403. Tokens are tenant-bound: a token\n  for one tenant slug cannot read or modify another tenant''s data.'\nschemes:\n- name: oauth2\n  source: openapi/urbanfox-customer-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.demo-retail.urbanfox.io/v2/oauth/token\n  description: 'OAuth 2.0 client-credentials flow. Request a token from `POST /v2/oauth/token`\n    and send it as `Authorization: Bearer <access_token>`.'\nscopes:\n- scope: create:enduseraccount\n  description: Create an end-user account\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n\
   - scope: delete:enduseraccount\n  description: Delete an end-user account\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: read:case\n  description: Get a case\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: read:cases\n  description: List cases\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: read:enduseraccount\n  description: Get an end-user account\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: read:enduseraccounts\n  description: List end-user accounts\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: read:metrics\n  description: Get tenant metrics\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: read:snippet\n  description: Get integration snippets\n  flows:\n  - clientCredentials\n\
   \  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: read:tenant\n  description: Get tenant\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: read:tenant_auth_secret\n  description: Get tenant OAuth client credentials\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: update:case\n  description: Update a case\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: update:enduseraccount\n  description: Update an end-user account\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n- scope: update:tenant_auth_secret\n  description: Rotate tenant OAuth client secret\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/urbanfox-customer-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/scopes/urbanfox-scopes.yml
+source_yaml_url: https://artifacts.apis.io/urbanfox/scopes/urbanfox-scopes.yml
 summary_line: 13 scopes · clientCredentials
 tags:
 - Fraud Prevention

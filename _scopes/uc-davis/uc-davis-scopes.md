@@ -5,79 +5,79 @@ api_specs:
   label: PEAKS (CAES) — Access API
   slug: uc-davis-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-access-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-access-api-openapi.yml
 - filename: uc-davis-documents-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Documents API
   slug: uc-davis-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-documents-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-documents-api-openapi.yml
 - filename: uc-davis-equipment-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Equipment API
   slug: uc-davis-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-equipment-api-openapi.yml
 - filename: uc-davis-keys-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Keys API
   slug: uc-davis-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-keys-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-keys-api-openapi.yml
 - filename: uc-davis-keyserials-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — KeySerials API
   slug: uc-davis-keyserials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-keyserials-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-keyserials-api-openapi.yml
 - filename: uc-davis-people-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — People API
   slug: uc-davis-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-people-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-people-api-openapi.yml
 - filename: uc-davis-peopleadmin-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — PeopleAdmin API
   slug: uc-davis-peopleadmin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-peopleadmin-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-peopleadmin-api-openapi.yml
 - filename: uc-davis-spaces-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Spaces API
   slug: uc-davis-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-spaces-api-openapi.yml
 - filename: uc-davis-workstations-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Workstations API
   slug: uc-davis-workstations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-workstations-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-workstations-api-openapi.yml
 - filename: uc-davis-collection-api-openapi.yml
   format: yaml
   label: University of California, Davis Collection API
   slug: uc-davis-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-collection-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-collection-api-openapi.yml
 - filename: uc-davis-expert-api-openapi.yml
   format: yaml
   label: University of California, Davis Expert API
   slug: uc-davis-expert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-expert-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-expert-api-openapi.yml
 - filename: uc-davis-item-api-openapi.yml
   format: yaml
   label: University of California, Davis Item API
   slug: uc-davis-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-item-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-item-api-openapi.yml
 - filename: uc-davis-page-search-api-openapi.yml
   format: yaml
   label: University of California, Davis page search API
   slug: uc-davis-page-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-page-search-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-page-search-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -105,7 +105,7 @@ source_url: ''
 source_yaml: "# generated: 2026-08-19 | method: derived (PEAKS) + probed (SMART configuration)\n---\nname: University of California, Davis — authorization scopes\nslug: uc-davis\ngenerated: '2026-08-19'\nmethod: derived\nsource: Derived from security[] in openapi/_original/uc-davis-peaks.yaml, and probed from the UC Davis\n  Health SMART configuration.\napis:\n- api: PEAKS API\n  operator: institution\n  scheme: ApiKey (X-Auth-Token header)\n  method: derived\n  source: openapi/_original/uc-davis-peaks.yaml security[] entries\n  scopes:\n  - scheme: ApiKey\n    scope: AccessMasterAccess\n  - scheme: ApiKey\n    scope: AnyRole\n  - scheme: ApiKey\n    scope: DocumentMasterAccess\n  - scheme: ApiKey\n    scope: EquipMasterAccess\n  - scheme: ApiKey\n    scope: KeyMasterAccess\n  - scheme: ApiKey\n    scope: PersonManagerAccess\n  - scheme: ApiKey\n    scope: SpaceMasterAccess\n- api: UC Davis Health FHIR R4\n  operator: institution\n  contract_author: Epic Systems\n  scheme: OAuth 2.0 / SMART\
   \ on FHIR\n  method: probed\n  source: https://emrrp.ucdmc.ucdavis.edu/FHIR/api/FHIR/R4/.well-known/smart-configuration\n  authorization_endpoint: https://emrrp.ucdmc.ucdavis.edu/FHIR/oauth2/authorize\n  token_endpoint: https://emrrp.ucdmc.ucdavis.edu/FHIR/oauth2/token\n  scopes:\n  - scope: epic.scanning.dmsusername\n    source: smart-configuration scopes_supported\n  - scope: fhirUser\n    source: smart-configuration scopes_supported\n  - scope: launch\n    source: smart-configuration scopes_supported\n  - scope: openid\n    source: smart-configuration scopes_supported\n  - scope: profile\n    source: smart-configuration scopes_supported\n- api: Aggie Experts API\n  operator: institution\n  scheme: none\n  method: probed\n  source: https://experts.ucdavis.edu/api/\n  detail: The contract declares no securitySchemes and read operations answer anonymously (verified live).\n    The /api/miv/* operations describe an authenticated MIV user but no scheme is declared for them —\n    an undocumented\
   \ auth boundary.\n  scopes: []\n- api: DAMS API\n  operator: institution\n  scheme: none-declared\n  method: probed\n  source: https://digital.ucdavis.edu/api/\n  scopes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/scopes/uc-davis-scopes.yml
+source_yaml_url: https://artifacts.apis.io/uc-davis/scopes/uc-davis-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

@@ -51,7 +51,7 @@ source_filename: chill-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://chill.com/.well-known/openid-configuration\ndocs: https://chill.com/.well-known/openid-configuration\nschemes:\n- name: ShopifyCustomerAccountOAuth\n  source: well-known/chill-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/56172019867/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/56172019867/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication of the Shopify customer account\n- scope: email\n  description: Access to the customer's email address and verification status\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the signed-in buyer\n- scope: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API — enables agent-driven commerce (UCP) on behalf of the buyer\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chill/refs/heads/main/scopes/chill-scopes.yml
+source_yaml_url: https://artifacts.apis.io/chill/scopes/chill-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

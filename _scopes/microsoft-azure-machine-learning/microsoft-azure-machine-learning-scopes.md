@@ -5,13 +5,13 @@ api_specs:
   label: Azure Machine Learning Operations API
   slug: microsoft-azure-machine-learning-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/openapi/microsoft-azure-machine-learning-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-machine-learning/openapi/microsoft-azure-machine-learning-operations-api-openapi.yml
 - filename: microsoft-azure-machine-learning-workspaces-api-openapi.yml
   format: yaml
   label: Azure Machine Learning Workspaces API
   slug: microsoft-azure-machine-learning-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/openapi/microsoft-azure-machine-learning-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-machine-learning/openapi/microsoft-azure-machine-learning-workspaces-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -50,7 +50,7 @@ source_filename: microsoft-azure-machine-learning-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-machine-learning-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-machine-learning-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-machine-learning-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-machine-learning/refs/heads/main/scopes/microsoft-azure-machine-learning-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-machine-learning/scopes/microsoft-azure-machine-learning-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Artificial Intelligence

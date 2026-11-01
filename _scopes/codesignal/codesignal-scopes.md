@@ -5,7 +5,7 @@ api_specs:
   label: Codesignal Organization API
   slug: codesignal-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/openapi/codesignal-organization-api-openapi.yml
+  url: https://artifacts.apis.io/codesignal/openapi/codesignal-organization-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -45,7 +45,7 @@ source_filename: codesignal-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/codesignal-learn-openapi.json\nschemes:\n- name: oauth2\n  source: openapi/codesignal-learn-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://codesignal.com/learn/api/v1/oauth/token\nscopes:\n- scope: openid\n  description: basic scope\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/codesignal-learn-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/scopes/codesignal-scopes.yml
+source_yaml_url: https://artifacts.apis.io/codesignal/scopes/codesignal-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Company

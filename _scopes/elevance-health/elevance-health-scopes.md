@@ -5,31 +5,31 @@ api_specs:
   label: Elevance Health Claims API
   slug: elevance-health-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-claims-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-claims-api-openapi.yml
 - filename: elevance-health-conformance-api-openapi.yml
   format: yaml
   label: Elevance Health Conformance API
   slug: elevance-health-conformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-conformance-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-conformance-api-openapi.yml
 - filename: elevance-health-coverage-api-openapi.yml
   format: yaml
   label: Elevance Health Coverage API
   slug: elevance-health-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-coverage-api-openapi.yml
 - filename: elevance-health-patient-api-openapi.yml
   format: yaml
   label: Elevance Health Patient API
   slug: elevance-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-patient-api-openapi.yml
 - filename: elevance-health-provider-directory-api-openapi.yml
   format: yaml
   label: Elevance Health Provider Directory API
   slug: elevance-health-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-provider-directory-api-openapi.yml
 authorization_urls:
 - https://totalview.healthos.elevancehealth.com/oauth2.code/registered/api/v1/authorize
 - https://patient360.anthem.com/P360Member/identityserver/connect/authorize
@@ -1544,8 +1544,8 @@ source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: Anonymous GET of 
   \  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read access to Binary resources\n- scope: user/CarePlan.*\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read and write access to CarePlan resources\n- scope: user/CarePlan.read\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read access to CarePlan resources\n- scope: user/Claim.*\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read and write access to Claim resources\n- scope: user/Claim.read\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read access to Claim resources\n- scope: user/Condition.*\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n\
   \  description: user-scoped read and write access to Condition resources\n- scope: user/Condition.read\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read access to Condition resources\n- scope: user/Coverage.*\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read and write access to Coverage resources\n- scope: user/Coverage.read\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read access to Coverage resources\n- scope: user/Device.*\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read and write access to Device resources\n- scope: user/Device.read\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read access\
   \ to Device resources\n- scope: user/DiagnosticOrder.*\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read and write access to DiagnosticOrder resources\n- scope: user/DiagnosticOrder.read\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read access to DiagnosticOrder resources\n- scope: user/DiagnosticReport.*\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read and write access to DiagnosticReport resources\n- scope: user/DiagnosticReport.read\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read access to DiagnosticReport resources\n- scope: user/Encounter.*\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped\
-  \ read and write access to Encounter resources\n- scope: user/Encounter.read\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read access to Encounter resources\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/scopes/elevance-health-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/scopes/elevance-health-scopes.yml
+  \ read and write access to Encounter resources\n- scope: user/Encounter.read\n  flows: *id002\n  sources:\n  - well-known/elevance-health-patient360-smart-configuration.json\n  description: user-scoped read access to Encounter resources\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://artifacts.apis.io/elevance-health/scopes/elevance-health-scopes.yml\n"
+source_yaml_url: https://artifacts.apis.io/elevance-health/scopes/elevance-health-scopes.yml
 summary_line: 272 scopes · authorizationCode/clientCredentials
 tags:
 - Fortune 500

@@ -5,79 +5,79 @@ api_specs:
   label: Virto Commerce Catalog API
   slug: virto-commerce-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-catalog-api-openapi.yml
 - filename: virto-commerce-companies-and-contacts-api-openapi.yml
   format: yaml
   label: Virto Commerce Companies and Contacts API
   slug: virto-commerce-companies-and-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-companies-and-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-companies-and-contacts-api-openapi.yml
 - filename: virto-commerce-inventory-api-openapi.yml
   format: yaml
   label: Virto Commerce Inventory API
   slug: virto-commerce-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-inventory-api-openapi.yml
 - filename: virto-commerce-marketing-api-openapi.yml
   format: yaml
   label: Virto Commerce Marketing API
   slug: virto-commerce-marketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-marketing-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-marketing-api-openapi.yml
 - filename: virto-commerce-order-management-api-openapi.yml
   format: yaml
   label: Virto Commerce Order Management API
   slug: virto-commerce-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-order-management-api-openapi.yml
 - filename: virto-commerce-pricing-api-openapi.yml
   format: yaml
   label: Virto Commerce Pricing API
   slug: virto-commerce-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-pricing-api-openapi.yml
 - filename: virto-commerce-quotes-api-openapi.yml
   format: yaml
   label: Virto Commerce Quotes API
   slug: virto-commerce-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-quotes-api-openapi.yml
 - filename: virto-commerce-shopping-cart-api-openapi.yml
   format: yaml
   label: Virto Commerce Shopping Cart API
   slug: virto-commerce-shopping-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-shopping-cart-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-shopping-cart-api-openapi.yml
 - filename: virto-commerce-store-api-openapi.yml
   format: yaml
   label: Virto Commerce Store API
   slug: virto-commerce-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-store-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-store-api-openapi.yml
 - filename: virto-commerce-virtocommerce-platform-api-openapi.yml
   format: yaml
   label: Virto Commerce VirtoCommerce Platform API
   slug: virto-commerce-virtocommerce-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-virtocommerce-platform-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-virtocommerce-platform-api-openapi.yml
 - filename: virto-commerce-webhooks-api-openapi.yml
   format: yaml
   label: Virto Commerce Webhooks API
   slug: virto-commerce-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-webhooks-api-openapi.yml
 - filename: virto-commerce-returns-api-openapi.yml
   format: yaml
   label: Virto Commerce Returns API
   slug: virto-commerce-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-returns-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-returns-api-openapi.yml
 - filename: virto-commerce-event-bus-module-api-openapi.yml
   format: yaml
   label: Virto Commerce Event Bus module API
   slug: virto-commerce-event-bus-module-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/openapi/virto-commerce-event-bus-module-api-openapi.yml
+  url: https://artifacts.apis.io/virto-commerce/openapi/virto-commerce-event-bus-module-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.virtocommerce.org/platform/developer-guide/Fundamentals/Security/
@@ -561,7 +561,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: 'openapi/virto-
   \  - openapi/virto-commerce-virtocommerce-platform-api-openapi.yml\n- scope: pricing:create\n  sources:\n  - openapi/virto-commerce-pricing-api-openapi.yml\n- scope: pricing:delete\n  sources:\n  - openapi/virto-commerce-pricing-api-openapi.yml\n- scope: pricing:read\n  sources:\n  - openapi/virto-commerce-pricing-api-openapi.yml\n- scope: pricing:update\n  sources:\n  - openapi/virto-commerce-pricing-api-openapi.yml\n- scope: quote:create\n  sources:\n  - openapi/virto-commerce-quotes-api-openapi.yml\n- scope: quote:delete\n  sources:\n  - openapi/virto-commerce-quotes-api-openapi.yml\n- scope: quote:read\n  sources:\n  - openapi/virto-commerce-quotes-api-openapi.yml\n- scope: quote:update\n  sources:\n  - openapi/virto-commerce-quotes-api-openapi.yml\n- scope: return:delete\n  sources:\n  - openapi/virto-commerce-returns-api-openapi.yml\n- scope: return:read\n  sources:\n  - openapi/virto-commerce-returns-api-openapi.yml\n- scope: return:update\n  sources:\n  - openapi/virto-commerce-returns-api-openapi.yml\n\
   - scope: store:create\n  sources:\n  - openapi/virto-commerce-store-api-openapi.yml\n- scope: store:read\n  sources:\n  - openapi/virto-commerce-store-api-openapi.yml\n- scope: store:update\n  sources:\n  - openapi/virto-commerce-store-api-openapi.yml\n- scope: webhooks:delete\n  sources:\n  - openapi/virto-commerce-webhooks-api-openapi.yml\n- scope: webhooks:feed:read\n  sources:\n  - openapi/virto-commerce-webhooks-api-openapi.yml\n- scope: webhooks:read\n  sources:\n  - openapi/virto-commerce-webhooks-api-openapi.yml\n- scope: webhooks:update\n  sources:\n  - openapi/virto-commerce-webhooks-api-openapi.yml\ndocs: https://docs.virtocommerce.org/platform/developer-guide/Fundamentals/Security/\nscopes_supported_live:\n- openid\n- offline_access\nfinding: The OAuth2 securitySchemes declare an empty scopes map in every one of the 13 module documents,\n  and the live authorization server advertises only openid and offline_access. Virto Commerce does NOT\n  use OAuth scopes for API authorization\
   \ — access is governed by the platform permission system (colon-namespaced\n  strings such as webhooks:read, catalog:update) attached to roles. Any scope names listed below are derived\n  from the spec structure, not an authorization vocabulary a client can request.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/scopes/virto-commerce-scopes.yml
+source_yaml_url: https://artifacts.apis.io/virto-commerce/scopes/virto-commerce-scopes.yml
 summary_line: 84 scopes · password/clientCredentials
 tags:
 - B2B eCommerce

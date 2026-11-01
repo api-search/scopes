@@ -5,19 +5,19 @@ api_specs:
   label: StayingAPI Account API
   slug: stayingapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/stayingapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/stayingapi/openapi/stayingapi-account-api-openapi.yml
 - filename: stayingapi-data-api-openapi.yml
   format: yaml
   label: StayingAPI Data API
   slug: stayingapi-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/stayingapi-data-api-openapi.yml
+  url: https://artifacts.apis.io/stayingapi/openapi/stayingapi-data-api-openapi.yml
 - filename: stayingapi-jobs-api-openapi.yml
   format: yaml
   label: StayingAPI Jobs API
   slug: stayingapi-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/openapi/stayingapi-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/stayingapi/openapi/stayingapi-jobs-api-openapi.yml
 authorization_urls:
 - https://mcp.stayingapi.com/mcp/oauth/authorize
 description: StayingAPI's OAuth surface belongs to the hosted MCP server, not the REST API (REST uses a Bearer API key with no scopes). A single read scope is advertised by both the RFC 8414 authorization-server metadata and the RFC 9728 protected-resource metadata, which matches the server's posture of seven read-only tools.
@@ -66,7 +66,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://mcp.stayingapi.com/.well-known/oauth-authorization-server\ndocs: https://stayingapi.com/docs/mcp\ndescription: >-\n  StayingAPI's OAuth surface belongs to the hosted MCP server, not the REST API (REST uses a\n  Bearer API key with no scopes). A single read scope is advertised by both the RFC 8414\n  authorization-server metadata and the RFC 9728 protected-resource metadata, which matches\n  the server's posture of seven read-only tools.\nschemes:\n  - name: mcpOAuth\n    source: well-known/stayingapi-oauth-authorization-server.json\n    resource: https://mcp.stayingapi.com/mcp\n    authorization_servers:\n      - https://mcp.stayingapi.com/mcp/oauth\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.stayingapi.com/mcp/oauth/authorize\n        tokenUrl: https://mcp.stayingapi.com/mcp/oauth/token\n        registrationUrl: https://mcp.stayingapi.com/mcp/oauth/register\n        code_challenge_methods:\n\
   \          - S256\nscopes:\n  - scope: stays.read\n    description: >-\n      Read-only access to StayingAPI accommodation data through the MCP server — search,\n      availability, listing detail, price, cross-OTA price comparison, reviews and job\n      polling. No write scope is published; every MCP tool is read-only.\n    flows:\n      - authorizationCode\n    sources:\n      - well-known/stayingapi-oauth-authorization-server.json\n      - well-known/stayingapi-oauth-protected-resource.json\nnotes:\n  - The REST OpenAPI declares only http/bearer; it has no oauth2 securityScheme and therefore\n    no spec-derived scopes.\n  - >-\n    An insufficient-scope condition is present in the REST error catalog as sub-code\n    scope_insufficient (403 permission_denied).\nx-evidence:\n  - url: https://mcp.stayingapi.com/.well-known/oauth-authorization-server\n    http_status: 200\n  - url: https://mcp.stayingapi.com/.well-known/oauth-protected-resource\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/scopes/stayingapi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/stayingapi/scopes/stayingapi-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Travel

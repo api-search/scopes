@@ -5,19 +5,19 @@ api_specs:
   label: Code Ocean Capsules API
   slug: code-ocean-capsules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-capsules-api-openapi.yml
+  url: https://artifacts.apis.io/code-ocean/openapi/code-ocean-capsules-api-openapi.yml
 - filename: code-ocean-computations-api-openapi.yml
   format: yaml
   label: Code Ocean Computations API
   slug: code-ocean-computations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-computations-api-openapi.yml
+  url: https://artifacts.apis.io/code-ocean/openapi/code-ocean-computations-api-openapi.yml
 - filename: code-ocean-data-assets-api-openapi.yml
   format: yaml
   label: Code Ocean Data Assets API
   slug: code-ocean-data-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/openapi/code-ocean-data-assets-api-openapi.yml
+  url: https://artifacts.apis.io/code-ocean/openapi/code-ocean-data-assets-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.codeocean.com/user-guide/code-ocean-api/authentication
@@ -64,7 +64,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/code-ocean-openapi.yml\ndocs: https://docs.codeocean.com/user-guide/code-ocean-api/authentication\nnote: >-\n  Code Ocean authenticates with scoped personal access tokens (prefix cop_)\n  presented via HTTP Basic auth — not an OAuth2 authorization flow. Each token\n  is minted with per-resource permission scopes selected in the Access Tokens\n  UI (Account -> Access Tokens -> Generate New Token -> Select Scopes). The\n  scopes below are the resource permissions documented as API prerequisites;\n  the full enumerated list in the token UI is not published on a single docs\n  page.\nschemes:\n- name: accessToken\n  type: personal-access-token\n  transport: http-basic\n  source: openapi/code-ocean-openapi.yml\nscopes:\n- scope: Capsule - Read\n  description: Get capsule, list capsule computations, get app panel.\n  sources: [https://docs.codeocean.com/user-guide/code-ocean-api]\n- scope: Capsule - Write\n  description:\
   \ Delete archived capsule/pipeline, archive/unarchive capsule.\n  sources: [https://docs.codeocean.com/user-guide/code-ocean-api]\n- scope: Data Asset - Read\n  description: Get data asset, list data asset files, generate file URLs.\n  sources: [https://docs.codeocean.com/user-guide/code-ocean-api]\n- scope: Data Asset - Write\n  description: Create, update, archive, and delete data assets.\n  sources: [https://docs.codeocean.com/user-guide/code-ocean-api]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/scopes/code-ocean-scopes.yml
+source_yaml_url: https://artifacts.apis.io/code-ocean/scopes/code-ocean-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

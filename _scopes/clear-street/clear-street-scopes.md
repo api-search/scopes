@@ -5,133 +5,133 @@ api_specs:
   label: Clear Street API (Trades and Uploads)
   slug: legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/_original/clear-street-legacy-api-swagger.yml
+  url: https://artifacts.apis.io/clear-street/openapi/_original/clear-street-legacy-api-swagger.yml
 - filename: clear-street-accounts-api-openapi.yml
   format: yaml
   label: Clear Street Accounts API
   slug: clear-street-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-accounts-api-openapi.yml
 - filename: clear-street-api-version-api-openapi.yml
   format: yaml
   label: Clear Street API version API
   slug: clear-street-api-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-api-version-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-api-version-api-openapi.yml
 - filename: clear-street-calendar-api-openapi.yml
   format: yaml
   label: Clear Street Calendar API
   slug: clear-street-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-calendar-api-openapi.yml
 - filename: clear-street-entities-api-openapi.yml
   format: yaml
   label: Clear Street Entities API
   slug: clear-street-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-entities-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-entities-api-openapi.yml
 - filename: clear-street-holdings-api-openapi.yml
   format: yaml
   label: Clear Street Holdings API
   slug: clear-street-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-holdings-api-openapi.yml
 - filename: clear-street-instrument-data-api-openapi.yml
   format: yaml
   label: Clear Street Instrument Data API
   slug: clear-street-instrument-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-instrument-data-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-instrument-data-api-openapi.yml
 - filename: clear-street-instruments-api-openapi.yml
   format: yaml
   label: Clear Street Instruments API
   slug: clear-street-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-instruments-api-openapi.yml
 - filename: clear-street-inventories-api-openapi.yml
   format: yaml
   label: Clear Street Inventories API
   slug: clear-street-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-inventories-api-openapi.yml
 - filename: clear-street-locates-api-openapi.yml
   format: yaml
   label: Clear Street Locates API
   slug: clear-street-locates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-locates-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-locates-api-openapi.yml
 - filename: clear-street-margin-api-openapi.yml
   format: yaml
   label: Clear Street Margin API
   slug: clear-street-margin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-margin-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-margin-api-openapi.yml
 - filename: clear-street-margin-simulations-api-openapi.yml
   format: yaml
   label: Clear Street Margin Simulations API
   slug: clear-street-margin-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-margin-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-margin-simulations-api-openapi.yml
 - filename: clear-street-omni-ai-api-openapi.yml
   format: yaml
   label: Clear Street Omni AI API
   slug: clear-street-omni-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-omni-ai-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-omni-ai-api-openapi.yml
 - filename: clear-street-orders-api-openapi.yml
   format: yaml
   label: Clear Street Orders API
   slug: clear-street-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-orders-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-orders-api-openapi.yml
 - filename: clear-street-performance-api-openapi.yml
   format: yaml
   label: Clear Street Performance API
   slug: clear-street-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-performance-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-performance-api-openapi.yml
 - filename: clear-street-pnl-api-openapi.yml
   format: yaml
   label: Clear Street PNL API
   slug: clear-street-pnl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-pnl-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-pnl-api-openapi.yml
 - filename: clear-street-positions-api-openapi.yml
   format: yaml
   label: Clear Street Positions API
   slug: clear-street-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-positions-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-positions-api-openapi.yml
 - filename: clear-street-rates-api-openapi.yml
   format: yaml
   label: Clear Street Rates API
   slug: clear-street-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-rates-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-rates-api-openapi.yml
 - filename: clear-street-screener-api-openapi.yml
   format: yaml
   label: Clear Street Screener API
   slug: clear-street-screener-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-screener-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-screener-api-openapi.yml
 - filename: clear-street-trades-api-openapi.yml
   format: yaml
   label: Clear Street Trades API
   slug: clear-street-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-trades-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-trades-api-openapi.yml
 - filename: clear-street-uploads-api-openapi.yml
   format: yaml
   label: Clear Street Uploads API
   slug: clear-street-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-uploads-api-openapi.yml
 - filename: clear-street-watchlist-api-openapi.yml
   format: yaml
   label: Clear Street Watchlist API
   slug: clear-street-watchlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/openapi/clear-street-watchlist-api-openapi.yml
+  url: https://artifacts.apis.io/clear-street/openapi/clear-street-watchlist-api-openapi.yml
 authorization_urls:
 - https://api.clearstreet.com/oauth/mcp/authorize
 - https://auth.clearstreet.io/authorize
@@ -236,7 +236,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://docs.cl
   \  file: well-known/clear-street-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.clearstreet.io/authorize\n    tokenUrl: https://auth.clearstreet.io/oauth/token\nscopes:\n- scope: studio\n  description: Access to the Clear Street Studio prime-brokerage API.\n  audience: https://api.clearstreet.io\n  flows: [clientCredentials]\n  sources: ['https://docs.clearstreet.io/studio/docs/oauth2']\n- scope: openid\n  description: OIDC — issue an ID token identifying the authenticated subject.\n  flows: [authorizationCode]\n  sources: ['well-known/clear-street-mcp-oauth-protected-resource.json',\n    'well-known/clear-street-openid-configuration.json']\n- scope: offline_access\n  description: Issue a refresh token so the client can renew access without re-consent.\n  flows: [authorizationCode]\n  sources: ['well-known/clear-street-mcp-oauth-protected-resource.json',\n    'well-known/clear-street-openid-configuration.json']\n- scope: profile\n \
   \ description: OIDC standard claim set — name, nickname, picture, updated_at.\n  flows: [authorizationCode]\n  sources: ['well-known/clear-street-openid-configuration.json']\n- scope: email\n  description: OIDC standard claim — email and email_verified.\n  flows: [authorizationCode]\n  sources: ['well-known/clear-street-openid-configuration.json']\ntenant_scopes_supported:\n  source: well-known/clear-street-openid-configuration.json\n  note: >\n    The Auth0 tenant advertises the standard OIDC claim scopes below. They govern identity\n    claims on the login flow, not API authorization; the API-level scope is `studio`.\n  values: [openid, profile, offline_access, name, given_name, family_name, nickname, email,\n    email_verified, picture, created_at, identities, phone, address]\ngranularity:\n  per_resource_scopes: false\n  note: >\n    Clear Street does NOT publish per-resource or read/write-split OAuth scopes. Authorization\n    is coarse: a Studio credential inherits the full permission\
   \ set of the Studio account that\n    created it, and the Trading API uses an opaque bearer API key with no scope dimension at\n    all. Least-privilege delegation is not currently expressible.\nx-evidence:\n  fetched: '2026-08-02'\n  sources:\n  - {url: 'https://docs.clearstreet.io/studio/docs/oauth2', http_status: 200}\n  - {url: 'https://auth.clearstreet.io/.well-known/openid-configuration', http_status: 200}\n  - {url: 'https://api.clearstreet.com/oauth/mcp/.well-known/oauth-authorization-server', http_status: 200}\n  - {url: 'https://api.clearstreet.com/.well-known/oauth-protected-resource/v1/mcp', http_status: 200}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/scopes/clear-street-scopes.yml
+source_yaml_url: https://artifacts.apis.io/clear-street/scopes/clear-street-scopes.yml
 summary_line: 5 scopes · clientCredentials/authorizationCode
 tags:
 - Company

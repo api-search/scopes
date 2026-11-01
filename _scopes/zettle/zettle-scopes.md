@@ -5,13 +5,13 @@ api_specs:
   label: Zettle Accounts API
   slug: zettle-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zettle/openapi/zettle-accounts-api-openapi.yml
 - filename: zettle-payout-api-openapi.yml
   format: yaml
   label: Zettle Payout API
   slug: zettle-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/openapi/zettle-payout-api-openapi.yml
+  url: https://artifacts.apis.io/zettle/openapi/zettle-payout-api-openapi.yml
 authorization_urls:
 - https://oauth.zettle.com/authorize
 description: ''
@@ -54,7 +54,7 @@ source_filename: zettle-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zettle-finance-api-openapi.yaml\nschemes:\n- name: ZettleOauth\n  source: openapi/zettle-finance-api-openapi.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.zettle.com/authorize\n    tokenUrl: https://oauth.zettle.com/token\n  description: For more information, see the [OAuth API documentation](https://developer.zettle.com/docs/api/oauth/overview).\nscopes:\n- scope: READ:FINANCE\n  description: Access to read finance data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zettle-finance-api-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/scopes/zettle-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zettle/scopes/zettle-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Point-of-Sale

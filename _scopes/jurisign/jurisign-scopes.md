@@ -5,49 +5,49 @@ api_specs:
   label: JuriSign Account API
   slug: jurisign-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-account-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-account-api-openapi.yml
 - filename: jurisign-authentication-api-openapi.yml
   format: yaml
   label: JuriSign Authentication API
   slug: jurisign-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-authentication-api-openapi.yml
 - filename: jurisign-bulk-api-openapi.yml
   format: yaml
   label: JuriSign Bulk API
   slug: jurisign-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-bulk-api-openapi.yml
 - filename: jurisign-documents-api-openapi.yml
   format: yaml
   label: JuriSign Documents API
   slug: jurisign-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-documents-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-documents-api-openapi.yml
 - filename: jurisign-public-forms-api-openapi.yml
   format: yaml
   label: JuriSign Public Forms API
   slug: jurisign-public-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-public-forms-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-public-forms-api-openapi.yml
 - filename: jurisign-sign-requests-api-openapi.yml
   format: yaml
   label: JuriSign Sign Requests API
   slug: jurisign-sign-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-sign-requests-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-sign-requests-api-openapi.yml
 - filename: jurisign-templates-api-openapi.yml
   format: yaml
   label: JuriSign Templates API
   slug: jurisign-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-templates-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-templates-api-openapi.yml
 - filename: jurisign-webhooks-api-openapi.yml
   format: yaml
   label: JuriSign Webhooks API
   slug: jurisign-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.jurisign.fr/developpeurs
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-08-31'\nmethod: searched\nsource: https://www.jur
   \ getSignRequest, downloadSignedPdf, downloadProof, listTemplates, getTemplate, listBulkTemplates, getBulkTemplate, listBulkCampaigns, getBulkCampaign, exportBulkCampaignResults, listPublicForms, getPublicForm]\n- name: sign-requests:write\n  description: >-\n    Create, send, cancel and otherwise mutate signature requests, and also covers the templates and bulk-* write\n    endpoints.\n  operations: [createSignRequest, sendSignRequest, cancelSignRequest, createSignRequestFromTemplate, deleteTemplate, createBulkTemplate, updateBulkTemplate, deleteBulkTemplate, createBulkCampaign, launchBulkCampaign, cancelBulkCampaign, retryBulkCampaign, deleteBulkCampaign, createPublicForm, updatePublicForm, deletePublicForm, rotatePublicFormToken]\n- name: webhooks:manage\n  description: Manage webhook endpoints - list, create, update, delete, read delivery logs and regenerate secrets.\n  operations: [listWebhooks, createWebhook, updateWebhook, deleteWebhook, getWebhookLogs, regenerateWebhookSecret]\n\
   operation_mapping_note: >-\n  The spec names the five scopes and states the templates/bulk coverage rule, but does not annotate each operation\n  with its required scope. The per-scope `operations` lists above apply that stated rule to the operation set; they\n  are a faithful reading of the published rule, not a per-operation assertion by the provider. Least-privilege\n  callers should verify against a 403 in the sandbox.\nuse_case_published:\n  description: >-\n    The developer page frames scopes as a least-privilege pattern - \"Un jeton en lecture seule pour votre tableau\n    de bord, un autre en ecriture pour vos automatisations.\"\n  source: https://www.jurisign.fr/developpeurs\nunscoped_operations:\n  note: >-\n    Five operations sit outside the scope model. The three authentication operations issue or revoke the token\n    itself and so cannot require one; getStatus is unauthenticated; getAccountCredits is documented as scoped\n    strictly to the authenticated token's organization\
   \ but is not attributed to a named scope in the spec.\n  operations: [createToken, createSandboxToken, revokeToken, getStatus, getAccountCredits]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/scopes/jurisign-scopes.yml
+source_yaml_url: https://artifacts.apis.io/jurisign/scopes/jurisign-scopes.yml
 summary_line: 5 scopes
 tags:
 - E-Signature

@@ -5,13 +5,13 @@ api_specs:
   label: Azure Maps Geocoding API
   slug: microsoft-azure-maps-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/openapi/microsoft-azure-maps-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-maps/openapi/microsoft-azure-maps-geocoding-api-openapi.yml
 - filename: microsoft-azure-maps-search-api-openapi.yml
   format: yaml
   label: Azure Maps Search API
   slug: microsoft-azure-maps-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/openapi/microsoft-azure-maps-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-maps/openapi/microsoft-azure-maps-search-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -49,7 +49,7 @@ source_filename: microsoft-azure-maps-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-maps-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-maps-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\nscopes:\n- scope: user_impersonation\n  description: Impersonate user\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-maps-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/scopes/microsoft-azure-maps-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-maps/scopes/microsoft-azure-maps-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Geocoding

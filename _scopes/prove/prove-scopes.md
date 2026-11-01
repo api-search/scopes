@@ -5,43 +5,43 @@ api_specs:
   label: Prove Auth API
   slug: prove-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-auth-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-auth-api-openapi.yml
 - filename: prove-authentication-api-openapi.yml
   format: yaml
   label: Prove Authentication API
   slug: prove-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-authentication-api-openapi.yml
 - filename: prove-domain-api-openapi.yml
   format: yaml
   label: Prove Domain API
   slug: prove-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-domain-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-domain-api-openapi.yml
 - filename: prove-identity-api-openapi.yml
   format: yaml
   label: Prove Identity API
   slug: prove-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-identity-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-identity-api-openapi.yml
 - filename: prove-identity-verification-api-openapi.yml
   format: yaml
   label: Prove Identity Verification API
   slug: prove-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-identity-verification-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-identity-verification-api-openapi.yml
 - filename: prove-pre-fill-api-openapi.yml
   format: yaml
   label: Prove Pre-Fill API
   slug: prove-pre-fill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-pre-fill-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-pre-fill-api-openapi.yml
 - filename: prove-trust-score-api-openapi.yml
   format: yaml
   label: Prove Trust Score API
   slug: prove-trust-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-trust-score-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-trust-score-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -107,7 +107,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/prove-auth-api-openapi.yml, openapi/prove-authentication-api-openapi.yml, openapi/prove-domain-api-openapi.yml,\n  openapi/prove-identity-api-openapi.yml, openapi/prove-identity-verification-api-openapi.yml,\n  openapi/prove-pre-fill-api-openapi.yml, openapi/prove-trust-score-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/prove-auth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source: openapi/prove-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source: openapi/prove-domain-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source: openapi/prove-identity-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source:\
   \ openapi/prove-identity-verification-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source: openapi/prove-pre-fill-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\n- name: oauth2\n  source: openapi/prove-trust-score-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prove.com/v3/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/scopes/prove-scopes.yml
+source_yaml_url: https://artifacts.apis.io/prove/scopes/prove-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Identity Verification

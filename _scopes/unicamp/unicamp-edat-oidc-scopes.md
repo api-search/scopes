@@ -5,13 +5,13 @@ api_specs:
   label: University of Campinas Authorization API
   slug: unicamp-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/openapi/unicamp-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/unicamp/openapi/unicamp-authorization-api-openapi.yml
 - filename: unicamp-support-api-openapi.yml
   format: yaml
   label: University of Campinas Support API
   slug: unicamp-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/openapi/unicamp-support-api-openapi.yml
+  url: https://artifacts.apis.io/unicamp/openapi/unicamp-support-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -90,7 +90,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: https://seguranca.dados.unicamp.br/realms/edat/.well-known/openid-configuration\nnote: >-\n  scopes_supported as advertised by Unicamp's EDAT Keycloak realm on 2026-09-01. Institution\n  specific scopes (uecEmailAccount, department_number, minio-authorization) are Unicamp's own\n  realm configuration, not Keycloak defaults. Scope semantics are not documented publicly; the\n  descriptions below are read from the scope names and are marked as such.\nx-operator: institution\nscopes:\n- name: openid\n  description: Standard OIDC scope; required for an id_token.\n  method: derived\n- name: profile\n  description: Standard OIDC profile claims.\n  method: derived\n- name: phone\n  description: Standard OIDC phone claim.\n  method: derived\n- name: basic\n  description: Keycloak basic scope (sub, auth_time).\n  method: derived\n- name: acr\n  description: Authentication context class reference.\n  method: derived\n- name: groups\n  description:\
   \ Group membership claims.\n  method: derived\n- name: uecEmailAccount\n  description: Unicamp (UEC) institutional email account claim - realm-specific.\n  method: derived\n- name: department_number\n  description: Unicamp organisational unit / department number claim - realm-specific.\n  method: derived\n- name: minio-authorization\n  description: Authorization claims for the EDAT MinIO object store - realm-specific.\n  method: derived\n- name: service_account\n  description: Service-account (client_credentials) scope.\n  method: derived\n- name: Audience\n  description: Audience claim mapper - realm-specific.\n  method: derived\n- name: id\n  description: Identifier claim - realm-specific.\n  method: derived\n- name: type\n  description: Account type claim - realm-specific.\n  method: derived\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/scopes/unicamp-edat-oidc-scopes.yml
+source_yaml_url: https://artifacts.apis.io/unicamp/scopes/unicamp-edat-oidc-scopes.yml
 summary_line: 13 scopes
 tags:
 - Education

@@ -5,13 +5,13 @@ api_specs:
   label: Google Colab Files API
   slug: google-colab-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/openapi/google-colab-files-api-openapi.yml
+  url: https://artifacts.apis.io/google-colab/openapi/google-colab-files-api-openapi.yml
 - filename: google-colab-permissions-api-openapi.yml
   format: yaml
   label: Google Colab Permissions API
   slug: google-colab-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/openapi/google-colab-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/google-colab/openapi/google-colab-permissions-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -58,7 +58,7 @@ source_filename: google-colab-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/colab-drive-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/colab-drive-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/drive\n  description: Full Drive access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/colab-drive-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.file\n  description: Per-file access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/colab-drive-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/scopes/google-colab-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-colab/scopes/google-colab-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Collaboration

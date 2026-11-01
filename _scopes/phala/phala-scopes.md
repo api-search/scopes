@@ -5,61 +5,61 @@ api_specs:
   label: Phala Network Apps API
   slug: phala-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-apps-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-apps-api-openapi.yml
 - filename: phala-apps-kms-info-api-openapi.yml
   format: yaml
   label: Phala Network Apps Kms Info API
   slug: phala-apps-kms-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-apps-kms-info-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-apps-kms-info-api-openapi.yml
 - filename: phala-apps-pending-updates-api-openapi.yml
   format: yaml
   label: Phala Network Apps Pending Updates API
   slug: phala-apps-pending-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-apps-pending-updates-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-apps-pending-updates-api-openapi.yml
 - filename: phala-attestations-api-openapi.yml
   format: yaml
   label: Phala Network Attestations API
   slug: phala-attestations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-attestations-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-attestations-api-openapi.yml
 - filename: phala-cvms-api-openapi.yml
   format: yaml
   label: Phala Network CVMs API
   slug: phala-cvms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-cvms-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-cvms-api-openapi.yml
 - filename: phala-cvms-network-config-api-openapi.yml
   format: yaml
   label: Phala Network Cvms Network Config API
   slug: phala-cvms-network-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-cvms-network-config-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-cvms-network-config-api-openapi.yml
 - filename: phala-instance-types-api-openapi.yml
   format: yaml
   label: Phala Network Instance Types API
   slug: phala-instance-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-instance-types-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-instance-types-api-openapi.yml
 - filename: phala-kms-api-openapi.yml
   format: yaml
   label: Phala Network KMS API
   slug: phala-kms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-kms-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-kms-api-openapi.yml
 - filename: phala-ssh-keys-api-openapi.yml
   format: yaml
   label: Phala Network SSH Keys API
   slug: phala-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-ssh-keys-api-openapi.yml
 - filename: phala-webhooks-api-openapi.yml
   format: yaml
   label: Phala Network Webhooks API
   slug: phala-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/openapi/phala-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/phala/openapi/phala-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -94,7 +94,7 @@ source_filename: phala-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/phala-cloud-api-openapi.yml\nschemes:\n- name: OAuth2AuthorizationCodeBearer\n  source: openapi/phala-cloud-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    tokenUrl: token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phala/refs/heads/main/scopes/phala-scopes.yml
+source_yaml_url: https://artifacts.apis.io/phala/scopes/phala-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

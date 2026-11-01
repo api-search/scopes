@@ -50,7 +50,7 @@ source_filename: blueleaf-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://secure.blueleaf.com/.well-known/openid-configuration\nschemes:\n- name: OAuth2\n  source: well-known/blueleaf-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://secure.blueleaf.com/oauth/authorize\n    tokenUrl: https://secure.blueleaf.com/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the end user.\n  flows: [authorizationCode]\n  sources: [well-known/blueleaf-openid-configuration.json]\n- scope: email\n  description: Access to the user's email and email_verified claims.\n  flows: [authorizationCode]\n  sources: [well-known/blueleaf-openid-configuration.json]\n- scope: profile\n  description: Access to profile claims (name, given_name, family_name, preferred_username, bl_id, firm_id, firm_name, role).\n  flows: [authorizationCode]\n  sources: [well-known/blueleaf-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blueleaf/refs/heads/main/scopes/blueleaf-scopes.yml
+source_yaml_url: https://artifacts.apis.io/blueleaf/scopes/blueleaf-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

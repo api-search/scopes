@@ -5,67 +5,67 @@ api_specs:
   label: Shell Accounts API
   slug: shell-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-accounts-api-openapi.yml
 - filename: shell-cards-api-openapi.yml
   format: yaml
   label: Shell Cards API
   slug: shell-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-cards-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-cards-api-openapi.yml
 - filename: shell-catalogue-api-openapi.yml
   format: yaml
   label: Shell Catalogue API
   slug: shell-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-catalogue-api-openapi.yml
 - filename: shell-invoices-api-openapi.yml
   format: yaml
   label: Shell Invoices API
   slug: shell-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-invoices-api-openapi.yml
 - filename: shell-limits-api-openapi.yml
   format: yaml
   label: Shell Limits API
   slug: shell-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-limits-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-limits-api-openapi.yml
 - filename: shell-offers-api-openapi.yml
   format: yaml
   label: Shell Offers API
   slug: shell-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-offers-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-offers-api-openapi.yml
 - filename: shell-orders-api-openapi.yml
   format: yaml
   label: Shell Orders API
   slug: shell-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-orders-api-openapi.yml
 - filename: shell-points-api-openapi.yml
   format: yaml
   label: Shell Points API
   slug: shell-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-points-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-points-api-openapi.yml
 - filename: shell-products-api-openapi.yml
   format: yaml
   label: Shell Products API
   slug: shell-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-products-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-products-api-openapi.yml
 - filename: shell-sites-api-openapi.yml
   format: yaml
   label: Shell Sites API
   slug: shell-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-sites-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-sites-api-openapi.yml
 - filename: shell-transactions-api-openapi.yml
   format: yaml
   label: Shell Transactions API
   slug: shell-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -156,7 +156,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shell-b2b-mobility-openapi.yml, openapi/shell-loyalty-openapi.yml, openapi/shell-lubricants-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/shell-b2b-mobility-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shell.com/oauth/token\n- name: OAuth2\n  source: openapi/shell-loyalty-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shell.com/oauth/token\n- name: OAuth2\n  source: openapi/shell-lubricants-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shell.com/oauth/token\nscopes:\n- scope: loyalty.accounts\n  description: Manage loyalty accounts\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/shell-loyalty-openapi.yml\n- scope: loyalty.catalogue\n  description: Browse rewards catalogue\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/shell-loyalty-openapi.yml\n- scope: loyalty.points\n  description: Access\
   \ points data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/shell-loyalty-openapi.yml\n- scope: lubricants.orders\n  description: Manage lubricants orders\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/shell-lubricants-openapi.yml\n- scope: lubricants.products\n  description: Access product catalogue\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/shell-lubricants-openapi.yml\n- scope: mobility.cards\n  description: Manage fuel cards\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/shell-b2b-mobility-openapi.yml\n- scope: mobility.invoices\n  description: Access invoice data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/shell-b2b-mobility-openapi.yml\n- scope: mobility.sites\n  description: Query site data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/shell-b2b-mobility-openapi.yml\n- scope: mobility.transactions\n  description: Access transaction data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/shell-b2b-mobility-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/scopes/shell-scopes.yml
+source_yaml_url: https://artifacts.apis.io/shell/scopes/shell-scopes.yml
 summary_line: 9 scopes · clientCredentials
 tags:
 - Aviation

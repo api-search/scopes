@@ -30,16 +30,14 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pepperi/refs/heads/main/scopes/pepperi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pepperi/scopes/pepperi-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - B2B
 - Commerce
-- SalesAutomation
-- ECommerce
-- SaaS
-- Platform
+- Retail
+- Automation
 token_bound: false
 token_urls: []
 ---

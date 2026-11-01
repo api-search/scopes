@@ -5,97 +5,97 @@ api_specs:
   label: Omnisend Brands API
   slug: omnisend-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-brands-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-brands-api-openapi.yml
 - filename: omnisend-campaigns-api-openapi.yml
   format: yaml
   label: Omnisend Campaigns API
   slug: omnisend-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-campaigns-api-openapi.yml
 - filename: omnisend-contacts-api-openapi.yml
   format: yaml
   label: Omnisend Contacts API
   slug: omnisend-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-contacts-api-openapi.yml
 - filename: omnisend-events-api-openapi.yml
   format: yaml
   label: Omnisend Events API
   slug: omnisend-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-events-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-events-api-openapi.yml
 - filename: omnisend-images-api-openapi.yml
   format: yaml
   label: Omnisend Images API
   slug: omnisend-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-images-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-images-api-openapi.yml
 - filename: omnisend-products-api-openapi.yml
   format: yaml
   label: Omnisend Products API
   slug: omnisend-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-products-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-products-api-openapi.yml
 - filename: omnisend-segments-api-openapi.yml
   format: yaml
   label: Omnisend Segments API
   slug: omnisend-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-segments-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-segments-api-openapi.yml
 - filename: omnisend-automations-api-openapi.yml
   format: yaml
   label: Omnisend Automations API
   slug: omnisend-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-automations-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-automations-api-openapi.yml
 - filename: omnisend-event-metadata-api-openapi.yml
   format: yaml
   label: Omnisend Event Metadata API
   slug: omnisend-event-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-event-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-event-metadata-api-openapi.yml
 - filename: omnisend-batch-api-openapi.yml
   format: yaml
   label: Omnisend Batch API
   slug: omnisend-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-batch-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-batch-api-openapi.yml
 - filename: omnisend-email-content-api-openapi.yml
   format: yaml
   label: Omnisend Email Content API
   slug: omnisend-email-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-email-content-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-email-content-api-openapi.yml
 - filename: omnisend-email-templates-api-openapi.yml
   format: yaml
   label: Omnisend Email Templates API
   slug: omnisend-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-email-templates-api-openapi.yml
 - filename: omnisend-email-universal-layouts-api-openapi.yml
   format: yaml
   label: Omnisend Email Universal Layouts API
   slug: omnisend-email-universal-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-email-universal-layouts-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-email-universal-layouts-api-openapi.yml
 - filename: omnisend-product-categories-api-openapi.yml
   format: yaml
   label: Omnisend Product Categories API
   slug: omnisend-product-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-product-categories-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-product-categories-api-openapi.yml
 - filename: omnisend-reports-api-openapi.yml
   format: yaml
   label: Omnisend Reports API
   slug: omnisend-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-reports-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-reports-api-openapi.yml
 - filename: omnisend-statistics-api-openapi.yml
   format: yaml
   label: Omnisend Statistics API
   slug: omnisend-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-statistics-api-openapi.yml
 authorization_urls: []
 description: 'OAuth 2.0 scopes for Omnisend. The authoritative list is the provider''s own RFC 8414 authorization server metadata, which declares 26 scopes — six more than any OpenAPI contract exposes. The RFC 9728 protected-resource metadata on the MCP host declares a 22-scope subset: the four missing there (accounts.write, sessions.write, reports.read, brand-assets.write) are account-level scopes the MCP agent surface deliberately does not offer. Scope names are resource.action and map cleanly onto the API resources.'
 docs: https://api-docs.omnisend.com/reference/oauth
@@ -308,7 +308,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://mcp.omn
   \  source: https://mcp.omnisend.com/.well-known/oauth-authorization-server\n- scope: email-templates.read\n  description: Read email templates, email content and universal layouts\n  in_openapi: true\n  on_mcp: true\n  source: https://mcp.omnisend.com/.well-known/oauth-authorization-server\n- scope: email-templates.write\n  description: Create, update, delete and render email templates, content and universal layouts\n  in_openapi: true\n  on_mcp: true\n  source: https://mcp.omnisend.com/.well-known/oauth-authorization-server\n- scope: images.read\n  description: Read images\n  in_openapi: true\n  on_mcp: true\n  source: https://mcp.omnisend.com/.well-known/oauth-authorization-server\n- scope: images.write\n  description: Upload and delete images\n  in_openapi: true\n  on_mcp: true\n  source: https://mcp.omnisend.com/.well-known/oauth-authorization-server\n- scope: forms.read\n  description: Read sign-up forms and form reports\n  in_openapi: false\n  on_mcp: true\n  source: https://mcp.omnisend.com/.well-known/oauth-authorization-server\n\
   - scope: forms.write\n  description: Create and update sign-up forms\n  in_openapi: false\n  on_mcp: true\n  source: https://mcp.omnisend.com/.well-known/oauth-authorization-server\n- scope: brand-assets.read\n  description: Read brand assets\n  in_openapi: false\n  on_mcp: true\n  source: https://mcp.omnisend.com/.well-known/oauth-authorization-server\n- scope: brand-assets.write\n  description: Write brand assets. Not offered on the MCP surface.\n  in_openapi: false\n  on_mcp: false\n  source: https://mcp.omnisend.com/.well-known/oauth-authorization-server\nscope_count: 26\nnotes:\n- The OpenAPI contracts declare only contacts.read and contacts.write inside the Bearer securityScheme; every other\n  scope requirement is stated in prose in the per-operation description (\"**Scopes:** `campaigns.write`\"), not in\n  the machine-readable security block.\n- The Event Metadata API operations declare no scope in the spec at all — the derived entry \"none\" below is an artifact\n  of that omission,\
   \ not a claim that the operations are unauthenticated. The docs state events.write for create/update.\n- forms.read / forms.write and brand-assets.* have no published OpenAPI at all; the Forms surface is reachable only\n  through the MCP server.\n- Client credentials are not self-serve — the OAuth page asks integrators to submit a Google Form and promises credentials\n  in 1-3 business days. The MCP hosts advertise RFC 7591 dynamic client registration, which is a different and faster\n  path.\n- Access tokens are documented as effectively non-expiring (expires_in 9223372036) unless revoked.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/scopes/omnisend-scopes.yml
+source_yaml_url: https://artifacts.apis.io/omnisend/scopes/omnisend-scopes.yml
 summary_line: 20 scopes · clientCredentials
 tags:
 - Email Marketing

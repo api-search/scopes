@@ -5,31 +5,31 @@ api_specs:
   label: iec-cim Customers API
   slug: iec-cim-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-customers-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-customers-api-openapi.yml
 - filename: iec-cim-metering-api-openapi.yml
   format: yaml
   label: iec-cim Metering API
   slug: iec-cim-metering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-metering-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-metering-api-openapi.yml
 - filename: iec-cim-network-assets-api-openapi.yml
   format: yaml
   label: iec-cim Network Assets API
   slug: iec-cim-network-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-network-assets-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-network-assets-api-openapi.yml
 - filename: iec-cim-outages-api-openapi.yml
   format: yaml
   label: iec-cim Outages API
   slug: iec-cim-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-outages-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-outages-api-openapi.yml
 - filename: iec-cim-work-orders-api-openapi.yml
   format: yaml
   label: iec-cim Work Orders API
   slug: iec-cim-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/openapi/iec-cim-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/iec-cim/openapi/iec-cim-work-orders-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -74,7 +74,7 @@ source_filename: iec-cim-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/iec-cim-61968-distribution-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/iec-cim-61968-distribution-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.utility.example.com/oauth/token\nscopes:\n- scope: cim.read\n  description: Read CIM data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/iec-cim-61968-distribution-openapi.yml\n- scope: cim.write\n  description: Write CIM data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/iec-cim-61968-distribution-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iec-cim/refs/heads/main/scopes/iec-cim-scopes.yml
+source_yaml_url: https://artifacts.apis.io/iec-cim/scopes/iec-cim-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Energy

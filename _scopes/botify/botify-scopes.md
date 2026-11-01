@@ -5,49 +5,49 @@ api_specs:
   label: Botify Analysis API
   slug: botify-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/botify/openapi/botify-analysis-api-openapi.yml
 - filename: botify-collections-api-openapi.yml
   format: yaml
   label: Botify Collections API
   slug: botify-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-collections-api-openapi.yml
+  url: https://artifacts.apis.io/botify/openapi/botify-collections-api-openapi.yml
 - filename: botify-job-api-openapi.yml
   format: yaml
   label: Botify Job API
   slug: botify-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-job-api-openapi.yml
+  url: https://artifacts.apis.io/botify/openapi/botify-job-api-openapi.yml
 - filename: botify-keywordsgroups-api-openapi.yml
   format: yaml
   label: Botify Keywords Groups API
   slug: botify-keywordsgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-keywordsgroups-api-openapi.yml
+  url: https://artifacts.apis.io/botify/openapi/botify-keywordsgroups-api-openapi.yml
 - filename: botify-project-api-openapi.yml
   format: yaml
   label: Botify Project API
   slug: botify-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-project-api-openapi.yml
+  url: https://artifacts.apis.io/botify/openapi/botify-project-api-openapi.yml
 - filename: botify-projectquery-api-openapi.yml
   format: yaml
   label: Botify Project Query API
   slug: botify-projectquery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-projectquery-api-openapi.yml
+  url: https://artifacts.apis.io/botify/openapi/botify-projectquery-api-openapi.yml
 - filename: botify-user-api-openapi.yml
   format: yaml
   label: Botify User API
   slug: botify-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-user-api-openapi.yml
+  url: https://artifacts.apis.io/botify/openapi/botify-user-api-openapi.yml
 - filename: botify-data-source-api-openapi.yml
   format: yaml
   label: Botify Data Source API
   slug: botify-data-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/openapi/botify-data-source-api-openapi.yml
+  url: https://artifacts.apis.io/botify/openapi/botify-data-source-api-openapi.yml
 authorization_urls:
 - https://app.botify.com/oauth/authorize
 description: ''
@@ -84,7 +84,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-08'\nmethod: probed\nsource: https://app.botify.com/.well-known/oauth-authorization-server\ndocs: https://developers.botify.com/docs/getting-started\nnote: >-\n  Botify's OAuth surface exists only for its MCP server. The REST API at api.botify.com/v1 is not OAuth-based —\n  it uses a single per-user API token in the Authorization header with no scope concept at all\n  (see authentication/botify-authentication.yml). The authorization server at app.botify.com advertises exactly\n  one scope, and it is coarse: a single read-write grant over the whole MCP surface. There is no read-only\n  variant, no per-product (SiteCrawler / LogAnalyzer / RealKeywords) split, and no per-project scoping in the\n  published metadata.\nauthorization_server: https://app.botify.com/\nprotected_resources:\n- resource: https://mcp.botify.com/\n  resource_name: Botify Agents MCP\n  scopes_supported:\n  - mcp_read_write\nscopes:\n- name: mcp_read_write\n  description: >-\n    The only\
   \ scope advertised by the Botify authorization server. Granted to an MCP client after the\n    authorization-code + PKCE flow; combined read and write access to the Botify Agents MCP surface.\n    Botify publishes no further description of what it covers.\n  read_only: false\n  source: https://app.botify.com/.well-known/oauth-authorization-server\nflows:\n  authorization_code:\n    authorization_endpoint: https://app.botify.com/oauth/authorize\n    token_endpoint: https://app.botify.com/oauth/token/\n    pkce_methods:\n    - S256\n  refresh_token: true\nendpoints:\n  registration: https://app.botify.com/oauth/register/\n  revocation: https://app.botify.com/oauth/revoke/\n  introspection: https://app.botify.com/oauth/introspect/\ntoken_endpoint_auth_methods_supported:\n- client_secret_basic\n- client_secret_post\n- none\nx-evidence:\n  fetched: '2026-08-08'\n  probes:\n  - url: https://app.botify.com/.well-known/oauth-authorization-server\n    http_status: 200\n    content_type: application/json\n\
   \  - url: https://mcp.botify.com/.well-known/oauth-protected-resource\n    http_status: 200\n    content_type: application/json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/scopes/botify-scopes.yml
+source_yaml_url: https://artifacts.apis.io/botify/scopes/botify-scopes.yml
 summary_line: 1 scope · authorization_code
 tags:
 - SEO

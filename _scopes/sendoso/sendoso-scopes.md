@@ -5,43 +5,43 @@ api_specs:
   label: Sendoso Marketplace and SmartSend API
   slug: sendoso-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-marketplace-api-openapi.yml
 - filename: sendoso-webhooks-asyncapi.yml
   format: yaml
   label: Sendoso Webhooks
   slug: sendoso-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/asyncapi/sendoso-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/sendoso/asyncapi/sendoso-webhooks-asyncapi.yml
 - filename: sendoso-campaigns-api-openapi.yml
   format: yaml
   label: Sendoso Campaigns API
   slug: sendoso-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-campaigns-api-openapi.yml
 - filename: sendoso-sends-api-openapi.yml
   format: yaml
   label: Sendoso Sends API
   slug: sendoso-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-sends-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-sends-api-openapi.yml
 - filename: sendoso-smartsend-api-openapi.yml
   format: yaml
   label: Sendoso Smart Send API
   slug: sendoso-smartsend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-smartsend-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-smartsend-api-openapi.yml
 - filename: sendoso-teams-api-openapi.yml
   format: yaml
   label: Sendoso Teams API
   slug: sendoso-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-teams-api-openapi.yml
 - filename: sendoso-users-api-openapi.yml
   format: yaml
   label: Sendoso Users API
   slug: sendoso-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-users-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-users-api-openapi.yml
 authorization_urls:
 - https://app.sendoso.com/oauth/authorize
 description: ''
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \  - openapi/sendoso-core-api-openapi.yml\n  - openapi/sendoso-marketplace-api-openapi.yml\n- scope: public\n  description: Access the user's basic information.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sendoso-core-api-openapi.yml\n  - openapi/sendoso-marketplace-api-openapi.yml\n- scope: scim\n  description: Access the SCIM API.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sendoso-scim-api-openapi.yml\n- scope: smartsend\n  description: Access the smartsend API.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sendoso-core-api-openapi.yml\n  - openapi/sendoso-marketplace-api-openapi.yml\n- scope: update\n  description: Update the user's account details.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sendoso-core-api-openapi.yml\n  - openapi/sendoso-marketplace-api-openapi.yml\n- scope: write\n  description: Send gifts on the user's behalf.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sendoso-core-api-openapi.yml\n  - openapi/sendoso-marketplace-api-openapi.yml\n\
   request_format: >-\n  Scopes are requested as a space-separated list in the `scope` parameter of the authorization\n  request, e.g. `scope=write update`. Sendoso notes the user must grant each scope\n  individually.\noperation_requirements:\n  - scope: marketplace\n    operations: [getMarketplaceProducts, sendMarketplaceProduct]\n    source: https://developer.sendoso.com/marketplace/reference/products/get-products\n  - scope: smartsend\n    operations: [getGiftRecommendations, sendRecommendation, sendMarketplaceProduct]\n    source: https://developer.sendoso.com/marketplace/reference/recommendations/get-recommendations\n    note: sendMarketplaceProduct accepts either `marketplace` or `smartsend`.\n  - scope: scim\n    operations: [scimGetUsers, scimCreateUser, scimUpdateUser]\n    source: https://developer.sendoso.com/scim/overview/authentication\nmcp_scopes:\n  resource: https://app.sendoso.com/mcp\n  source: https://app.sendoso.com/.well-known/oauth-authorization-server/mcp\n  scopes_supported:\
   \ [openid, profile, email, offline_access]\n  note: >-\n    The MCP server's authorization server advertises OIDC scopes only — none of the\n    developer-API scopes (public/write/update/marketplace/smartsend/scim) appear in its\n    metadata, so MCP authorization is coarse-grained relative to the REST API.\ngaps:\n  - >-\n    Sendoso publishes no per-operation scope table for the Core API. The five Core scopes are\n    described in prose only (\"write: allows your application to send gifts on the user's\n    behalf\"), so which scope each Core operation actually requires is not documented.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/scopes/sendoso-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sendoso/scopes/sendoso-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Corporate Gifting

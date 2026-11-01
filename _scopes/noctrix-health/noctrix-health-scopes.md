@@ -29,7 +29,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://nidrarls.com/.well-known/oauth-authorization-server\nname: Noctrix Health OAuth scopes\ndescription: >-\n  The Nidra MCP authorization server advertises exactly one scope. Both the RFC 8414\n  Authorization Server Metadata and the RFC 9728 Protected Resource Metadata list the same\n  single value, and no scope reference page is published anywhere on either host, so this\n  list is complete as published rather than a sample.\nauthorization_server: https://nidrarls.com\nresource: https://nidrarls.com/wp-json/mcp/mcp-oauth-server\ndocs: null\ndocs_note: >-\n  No scopes/permissions reference page exists. Searched nidrarls.com (including its\n  llms.txt page inventory and .md twins) and noctrixhealth.com, which is bot-challenged.\nscope_count: 1\nscopes:\n- name: mcp\n  description: >-\n    Grants a client access to the Model Context Protocol server. Declared verbatim in\n    scopes_supported; the provider publishes no description,\
   \ and none is invented here.\n  source: /.well-known/oauth-authorization-server\n  applies_to: https://nidrarls.com/wp-json/mcp/mcp-oauth-server\n  granularity: coarse\n  note: >-\n    A single undifferentiated scope. There is no read/write split, so a consent screen\n    cannot tell a user what the grant will let an agent do.\nchecked: '2026-08-26'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noctrix-health/refs/heads/main/scopes/noctrix-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/noctrix-health/scopes/noctrix-health-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

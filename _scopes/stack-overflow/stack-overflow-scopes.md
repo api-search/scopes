@@ -5,61 +5,61 @@ api_specs:
   label: Stack Overflow Answers API
   slug: stack-overflow-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-answers-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-answers-api-openapi.yml
 - filename: stack-overflow-articles-api-openapi.yml
   format: yaml
   label: Stack Overflow Articles API
   slug: stack-overflow-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-articles-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-articles-api-openapi.yml
 - filename: stack-overflow-badges-api-openapi.yml
   format: yaml
   label: Stack Overflow Badges API
   slug: stack-overflow-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-badges-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-badges-api-openapi.yml
 - filename: stack-overflow-comments-api-openapi.yml
   format: yaml
   label: Stack Overflow Comments API
   slug: stack-overflow-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-comments-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-comments-api-openapi.yml
 - filename: stack-overflow-questions-api-openapi.yml
   format: yaml
   label: Stack Overflow Questions API
   slug: stack-overflow-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-questions-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-questions-api-openapi.yml
 - filename: stack-overflow-search-api-openapi.yml
   format: yaml
   label: Stack Overflow Search API
   slug: stack-overflow-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-search-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-search-api-openapi.yml
 - filename: stack-overflow-smes-api-openapi.yml
   format: yaml
   label: Stack Overflow SMEs API
   slug: stack-overflow-smes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-smes-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-smes-api-openapi.yml
 - filename: stack-overflow-tags-api-openapi.yml
   format: yaml
   label: Stack Overflow Tags API
   slug: stack-overflow-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-tags-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-tags-api-openapi.yml
 - filename: stack-overflow-user-groups-api-openapi.yml
   format: yaml
   label: Stack Overflow User Groups API
   slug: stack-overflow-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-user-groups-api-openapi.yml
 - filename: stack-overflow-users-api-openapi.yml
   format: yaml
   label: Stack Overflow Users API
   slug: stack-overflow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/openapi/stack-overflow-users-api-openapi.yml
+  url: https://artifacts.apis.io/stack-overflow/openapi/stack-overflow-users-api-openapi.yml
 authorization_urls:
 - https://stackoverflow.com/oauth
 description: ''
@@ -112,7 +112,7 @@ source_filename: stack-overflow-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stack-overflow-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/stack-overflow-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://stackoverflow.com/oauth\n    tokenUrl: https://stackoverflow.com/oauth/access_token/json\n  description: OAuth 2.0 authentication. Register an application at http://stackapps.com/apps/oauth\n    to obtain credentials.\nscopes:\n- scope: no_expiry\n  description: Issues an access token that does not expire\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/stack-overflow-openapi.yml\n- scope: private_info\n  description: Access a user's private information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/stack-overflow-openapi.yml\n- scope: write_access\n  description: Allows write access to a user's data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/stack-overflow-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stack-overflow/refs/heads/main/scopes/stack-overflow-scopes.yml
+source_yaml_url: https://artifacts.apis.io/stack-overflow/scopes/stack-overflow-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Answers

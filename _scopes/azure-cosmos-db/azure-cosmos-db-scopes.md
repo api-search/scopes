@@ -5,73 +5,73 @@ api_specs:
   label: Azure Cosmos DB Collections API
   slug: azure-cosmos-db-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-collections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-collections-api-openapi.yml
 - filename: azure-cosmos-db-databases-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Databases API
   slug: azure-cosmos-db-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-databases-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-databases-api-openapi.yml
 - filename: azure-cosmos-db-documents-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Documents API
   slug: azure-cosmos-db-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-documents-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-documents-api-openapi.yml
 - filename: azure-cosmos-db-offers-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Offers API
   slug: azure-cosmos-db-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-offers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-offers-api-openapi.yml
 - filename: azure-cosmos-db-permissions-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Permissions API
   slug: azure-cosmos-db-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-permissions-api-openapi.yml
 - filename: azure-cosmos-db-stored-procedures-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Stored Procedures API
   slug: azure-cosmos-db-stored-procedures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-stored-procedures-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-stored-procedures-api-openapi.yml
 - filename: azure-cosmos-db-triggers-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Triggers API
   slug: azure-cosmos-db-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-triggers-api-openapi.yml
 - filename: azure-cosmos-db-user-defined-functions-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB User Defined Functions API
   slug: azure-cosmos-db-user-defined-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-user-defined-functions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-user-defined-functions-api-openapi.yml
 - filename: azure-cosmos-db-users-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Users API
   slug: azure-cosmos-db-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-users-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-users-api-openapi.yml
 - filename: azure-cosmos-db-collections-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Collections API
   slug: microsoft-azure-cosmos-db-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-collections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-collections-api-openapi.yml
 - filename: azure-cosmos-db-databases-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Databases API
   slug: microsoft-azure-cosmos-db-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-databases-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-databases-api-openapi.yml
 - filename: azure-cosmos-db-documents-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Documents API
   slug: microsoft-azure-cosmos-db-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-documents-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-documents-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -112,7 +112,7 @@ source_filename: azure-cosmos-db-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-cosmos-db-openapi.yml\nschemes:\n- name: entra\n  source: openapi/azure-cosmos-db-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0 bearer token\nscopes:\n- scope: https://cosmos.azure.com/.default\n  description: Cosmos DB data plane access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/azure-cosmos-db-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/scopes/azure-cosmos-db-scopes.yml
+source_yaml_url: https://artifacts.apis.io/azure-cosmos-db/scopes/azure-cosmos-db-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Database

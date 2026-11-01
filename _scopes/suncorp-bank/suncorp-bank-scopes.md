@@ -5,43 +5,43 @@ api_specs:
   label: Suncorp Bank Banking Account Balances API
   slug: suncorp-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/openapi/suncorp-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/suncorp-bank/openapi/suncorp-bank-banking-account-balances-api-openapi.yml
 - filename: suncorp-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Suncorp Bank Banking Account Direct Debits API
   slug: suncorp-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/openapi/suncorp-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/suncorp-bank/openapi/suncorp-bank-banking-account-direct-debits-api-openapi.yml
 - filename: suncorp-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Suncorp Bank Banking Account Scheduled Payments API
   slug: suncorp-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/openapi/suncorp-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/suncorp-bank/openapi/suncorp-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: suncorp-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Suncorp Bank Banking Account Transactions API
   slug: suncorp-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/openapi/suncorp-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/suncorp-bank/openapi/suncorp-bank-banking-account-transactions-api-openapi.yml
 - filename: suncorp-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Suncorp Bank Banking Accounts API
   slug: suncorp-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/openapi/suncorp-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/suncorp-bank/openapi/suncorp-bank-banking-accounts-api-openapi.yml
 - filename: suncorp-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Suncorp Bank Banking Payees API
   slug: suncorp-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/openapi/suncorp-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/suncorp-bank/openapi/suncorp-bank-banking-payees-api-openapi.yml
 - filename: suncorp-bank-banking-products-api-openapi.yml
   format: yaml
   label: Suncorp Bank Banking Products API
   slug: suncorp-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/openapi/suncorp-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/suncorp-bank/openapi/suncorp-bank-banking-products-api-openapi.yml
 authorization_urls:
 - https://id-ob.suncorpbank.com.au/authorize
 description: ''
@@ -133,7 +133,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://id-ob.suncorpbank.com.au/.well-known/openid-configuration\n  (scopes_supported, live OIDC discovery, fetched 2026-07-20)\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-endpoints\nnotes: >-\n  Scopes govern the CDR-accredited (authenticated) consumer-data-sharing tier.\n  The public Product Reference Data API is unauthenticated and requires no scope.\n  Scope semantics are defined by the Australian Consumer Data Standards (CDS).\nschemes:\n- name: CDR OpenID Connect\n  source: well-known/suncorp-bank-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://id-ob.suncorpbank.com.au/authorize\n    tokenUrl: https://secure-id-ob.suncorpbank.com.au/token\n  - flow: clientCredentials\n    tokenUrl: https://secure-id-ob.suncorpbank.com.au/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the consumer.\n\
   \  flows: [authorizationCode]\n- scope: profile\n  description: Access to basic profile claims (name, given_name, family_name).\n  flows: [authorizationCode]\n- scope: bank:accounts.basic:read\n  description: Read basic banking account data (account list, masked identifiers, balances metadata).\n  flows: [authorizationCode]\n- scope: bank:accounts.detail:read\n  description: Read detailed banking account data (account numbers, features, terms).\n  flows: [authorizationCode]\n- scope: bank:transactions:read\n  description: Read banking account transactions.\n  flows: [authorizationCode]\n- scope: bank:payees:read\n  description: Read saved payees.\n  flows: [authorizationCode]\n- scope: bank:regular_payments:read\n  description: Read direct debits and scheduled/regular payments.\n  flows: [authorizationCode]\n- scope: common:customer.basic:read\n  description: Read basic customer data (name, contact type).\n  flows: [authorizationCode]\n- scope: common:customer.detail:read\n  description:\
   \ Read detailed customer data (contact details, organisation details).\n  flows: [authorizationCode]\n- scope: cdr:registration\n  description: Dynamic client registration for CDR Accredited Data Recipients.\n  flows: [clientCredentials]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/scopes/suncorp-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/suncorp-bank/scopes/suncorp-bank-scopes.yml
 summary_line: 10 scopes · authorizationCode/clientCredentials
 tags:
 - Finance

@@ -5,67 +5,67 @@ api_specs:
   label: ZnanyLekarz Addresses API
   slug: znanylekarz-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-addresses-api-openapi.yml
 - filename: znanylekarz-api-notification-callbacks-api-openapi.yml
   format: yaml
   label: ZnanyLekarz API Notification Callbacks API
   slug: znanylekarz-api-notification-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-api-notification-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-api-notification-callbacks-api-openapi.yml
 - filename: znanylekarz-bookings-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Bookings API
   slug: znanylekarz-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-bookings-api-openapi.yml
 - filename: znanylekarz-calendar-breaks-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Calendar Breaks API
   slug: znanylekarz-calendar-breaks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-calendar-breaks-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-calendar-breaks-api-openapi.yml
 - filename: znanylekarz-calendars-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Calendars API
   slug: znanylekarz-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-calendars-api-openapi.yml
 - filename: znanylekarz-doctors-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Doctors API
   slug: znanylekarz-doctors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-doctors-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-doctors-api-openapi.yml
 - filename: znanylekarz-facilities-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Facilities API
   slug: znanylekarz-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-facilities-api-openapi.yml
 - filename: znanylekarz-insurances-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Insurances API
   slug: znanylekarz-insurances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-insurances-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-insurances-api-openapi.yml
 - filename: znanylekarz-patient-presence-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Patient Presence API
   slug: znanylekarz-patient-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-patient-presence-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-patient-presence-api-openapi.yml
 - filename: znanylekarz-services-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Services API
   slug: znanylekarz-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-services-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-services-api-openapi.yml
 - filename: znanylekarz-slots-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Slots API
   slug: znanylekarz-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-slots-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-slots-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://integrations.docplanner.com/guide/fundamentals/authorization.html
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://integra
   n    \\\"token_type\\\": \\\"bearer\\\",\\n    \\\"scope\\\": null\\n}\\n```\\n\\nAnd then with every request\\\n    \\ in the `request header` you should add your bearer token like so:\\n\\n```\\nAuthorization: Bearer\\\n    \\ {access_token}\\n```\"\nscopes:\n- scope: integration\n  description: API integration\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/znanylekarz-integrations-api.yml\ndocs: https://integrations.docplanner.com/guide/fundamentals/authorization.html\nderived_from: openapi/znanylekarz-integrations-api.yml\nnote: 'The OAuth surface is deliberately flat: ONE scope, `integration`, requested at token exchange,\n  granting the whole API. There is no read/write split, no per-resource scope and no least-privilege story\n  — a token that can read a doctor''s calendar can also cancel their patients'' appointments. Authorization\n  is instead enforced out-of-band, by which facilities the API client is provisioned for (403 outside\n  that estate). Searched the docs\
   \ for a scope or permissions reference page; none exists beyond the single\n  scope named in the token example.'\nscope_count: 1\ngranularity: all-or-nothing\nleast_privilege_supported: false\nauthorization_model: Estate-based rather than scope-based. Each API client is provisioned against specific\n  facilities; operations on a facility, doctor or address outside that estate return 403.\nresponse_extensions_are_not_scopes:\n  note: The `with` query parameter values in this API are named like scopes — booking.patient, doctor.addresses,\n    address_service.public_insurance_flow — and the OpenAPI even calls their enum schemas *Scopes. They\n    are NOT OAuth scopes. They widen the response payload; they do not grant permission, and they are\n    not presented at the token endpoint. Recorded here so the naming does not later get mistaken for a\n    scope catalog.\n  documented_in: conventions/znanylekarz-conventions.yml (field_expansion)\n  docs: https://integrations.docplanner.com/guide/fundamentals/extensions.html\n\
   \  values:\n  - facility.doctors\n  - doctor.profile_url\n  - doctor.specializations\n  - doctor.addresses\n  - doctor.license_numbers\n  - address.booking_extra_fields\n  - address.online_only\n  - address.visit_payment\n  - address.commercial_type\n  - address.insurance_support\n  - address_service.allowed_patients\n  - address_service.custom_name\n  - address_service.public_insurance_flow\n  - booking.patient\n  - booking.address_service\n  - booking.presence\n  - booking.moving\n  - services.only_diagnostics\n  - slot.services\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/scopes/znanylekarz-scopes.yml
+source_yaml_url: https://artifacts.apis.io/znanylekarz/scopes/znanylekarz-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Company

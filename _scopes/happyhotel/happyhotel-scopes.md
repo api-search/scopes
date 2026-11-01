@@ -28,13 +28,13 @@ source_yaml: 'generated: ''2026-10-28''
   method: none
 
   scopes: []'
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happyhotel/refs/heads/main/scopes/happyhotel-scopes.yml
+source_yaml_url: https://artifacts.apis.io/happyhotel/scopes/happyhotel-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Company
+- Hotel
 - Revenue Management
-- Hospitality
 - SaaS
+- Hospitality
 - Pricing
 token_bound: false
 token_urls: []

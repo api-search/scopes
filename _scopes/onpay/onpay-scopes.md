@@ -5,37 +5,37 @@ api_specs:
   label: OnPay Company API
   slug: onpay-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-company-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-company-api-openapi.yml
 - filename: onpay-deductions-api-openapi.yml
   format: yaml
   label: OnPay Deductions API
   slug: onpay-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-deductions-api-openapi.yml
 - filename: onpay-employees-api-openapi.yml
   format: yaml
   label: OnPay Employees API
   slug: onpay-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-employees-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-employees-api-openapi.yml
 - filename: onpay-pay-runs-api-openapi.yml
   format: yaml
   label: OnPay Pay Runs API
   slug: onpay-pay-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-pay-runs-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-pay-runs-api-openapi.yml
 - filename: onpay-reports-api-openapi.yml
   format: yaml
   label: OnPay Reports API
   slug: onpay-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-reports-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-reports-api-openapi.yml
 - filename: onpay-user-api-openapi.yml
   format: yaml
   label: OnPay User API
   slug: onpay-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/openapi/onpay-user-api-openapi.yml
+  url: https://artifacts.apis.io/onpay/openapi/onpay-user-api-openapi.yml
 authorization_urls:
 - https://app.onpay.com/app/oauth/authorize
 description: ''
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: openapi/onpay-a
   \ https://app.onpay.com/app/oauth/token\nscopes:\n- scope: Owner\n  access_type: 1\n  description: OnPay company owner. Accepted on all 58 operations.\n  operations: 58\n  flows: [authorizationCode]\n  sources: [openapi/onpay-api-openapi.json]\n- scope: Approver\n  access_type: 2\n  description: Payroll approver. Accepted on all 58 operations, same reach as Owner in this spec.\n  operations: 58\n  flows: [authorizationCode]\n  sources: [openapi/onpay-api-openapi.json]\n- scope: Controller\n  access_type: 3\n  description: >-\n    Restricted role. Accepted on 8 operations only — employee deduction reads, recent notes,\n    termination and rehire, worksite reads, and pay-schedule dates.\n  operations: 8\n  flows: [authorizationCode]\n  sources: [openapi/onpay-api-openapi.json]\n- scope: Manager\n  access_type: 4\n  description: Restricted role. Accepted on the same 8 operations as Controller.\n  operations: 8\n  flows: [authorizationCode]\n  sources: [openapi/onpay-api-openapi.json]\n- scope:\
   \ Accountant\n  access_type: 5\n  description: >-\n    Declared in the securityScheme but required by ZERO operations in the published spec — an\n    accountant-scoped token authorizes nothing the document describes.\n  operations: 0\n  flows: [authorizationCode]\n  sources: [openapi/onpay-api-openapi.json]\n- scope: Employee\n  access_type: 6\n  description: >-\n    Self-service role. Accepted on 2 operations only — GET /employees/{employee_id}/deductions and\n    GET /user.\n  operations: 2\n  flows: [authorizationCode]\n  sources: [openapi/onpay-api-openapi.json]\ngaps:\n- No scopes/permissions reference page exists in the docs; the ReadMe hub's llms.txt lists every page\n  it has and there is no permissions article.\n- Roles are coarse — Owner and Approver both unlock every write in the API, including\n  POST /employees/{employee_id}/termination and PUT /employees/{employee_id}/bank-accounts. There is\n  no read-only grant an integration can request.\n- The Accountant role is declared\
   \ but unused, so its meaning cannot be verified from the contract.\nx-evidence:\n- url: https://onpay.readme.io/reference/authorization.md\n  http_status: 200\n  fetched: '2026-08-04'\n- url: https://onpay.readme.io/llms.txt\n  http_status: 200\n  fetched: '2026-08-04'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onpay/refs/heads/main/scopes/onpay-scopes.yml
+source_yaml_url: https://artifacts.apis.io/onpay/scopes/onpay-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Payroll

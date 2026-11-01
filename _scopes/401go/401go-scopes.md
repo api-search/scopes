@@ -5,61 +5,61 @@ api_specs:
   label: 401GO Affiliates & Firms API
   slug: 401go-affiliates-firms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-affiliates-firms-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-affiliates-firms-api-openapi.yml
 - filename: 401go-beneficiaries-api-openapi.yml
   format: yaml
   label: 401GO Beneficiaries API
   slug: 401go-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-beneficiaries-api-openapi.yml
 - filename: 401go-companies-plans-api-openapi.yml
   format: yaml
   label: 401GO Companies & Plans API
   slug: 401go-companies-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-companies-plans-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-companies-plans-api-openapi.yml
 - filename: 401go-contributions-payroll-api-openapi.yml
   format: yaml
   label: 401GO Contributions & Payroll API
   slug: 401go-contributions-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-contributions-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-contributions-payroll-api-openapi.yml
 - filename: 401go-documents-api-openapi.yml
   format: yaml
   label: 401GO Documents API
   slug: 401go-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-documents-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-documents-api-openapi.yml
 - filename: 401go-investments-portfolios-api-openapi.yml
   format: yaml
   label: 401GO Investments & Portfolios API
   slug: 401go-investments-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-investments-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-investments-portfolios-api-openapi.yml
 - filename: 401go-money-movement-api-openapi.yml
   format: yaml
   label: 401GO Money Movement API
   slug: 401go-money-movement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-money-movement-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-money-movement-api-openapi.yml
 - filename: 401go-notifications-api-openapi.yml
   format: yaml
   label: 401GO Notifications API
   slug: 401go-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-notifications-api-openapi.yml
 - filename: 401go-participants-api-openapi.yml
   format: yaml
   label: 401GO Participants API
   slug: 401go-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-participants-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-participants-api-openapi.yml
 - filename: 401go-retirement-planning-api-openapi.yml
   format: yaml
   label: 401GO Retirement Planning API
   slug: 401go-retirement-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-retirement-planning-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-retirement-planning-api-openapi.yml
 authorization_urls:
 - https://app.401go.com/api/o/authorize
 description: ''
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://app.401
   \ notifications, documents.\n  flows: [authorizationCode, clientCredentials]\n  sources: [openid-configuration, docs]\n- scope: participant:write\n  description: Create and update participant data — participant records, deferral elections,\n    beneficiaries, portfolio allocations, loan and disbursement and rollover requests.\n  flows: [authorizationCode, clientCredentials]\n  sources: [openid-configuration, docs]\n- scope: participant:billing\n  description: Access participant billing-related data.\n  flows: [authorizationCode, clientCredentials]\n  sources: [openid-configuration]\n- scope: company:read\n  description: Read company data — company list, plan provisions, employer match formulas,\n    investment options, company affiliates, participant census.\n  flows: [authorizationCode, clientCredentials]\n  sources: [openid-configuration, docs]\n- scope: company:write\n  description: Write company-scoped data, including payroll submission.\n  flows: [authorizationCode, clientCredentials]\n\
   \  sources: [openid-configuration]\n- scope: plan:read\n  description: Read 401(k) plan configuration.\n  flows: [authorizationCode, clientCredentials]\n  sources: [openid-configuration]\n- scope: plan:write\n  description: Create and update 401(k) plans via the plan-setup endpoints.\n  flows: [authorizationCode, clientCredentials]\n  sources: [openid-configuration]\n- scope: affiliate_firm:read\n  description: Read affiliate firm data — affiliates, fund lineups, pooled plans, pricing tiers.\n  flows: [authorizationCode, clientCredentials]\n  sources: [openid-configuration]\n- scope: affiliate_firm:write\n  description: Write affiliate firm data.\n  flows: [authorizationCode, clientCredentials]\n  sources: [openid-configuration]\n- scope: affiliate:read\n  description: Read individual affiliate (advisor) data, including pricing tiers.\n  flows: [authorizationCode, clientCredentials]\n  sources: [openid-configuration]\n- scope: affiliate:write\n  description: Write individual affiliate\
   \ (advisor) data.\n  flows: [authorizationCode, clientCredentials]\n  sources: [openid-configuration]\nx-evidence:\n  fetched: '2026-08-02'\n  url: https://app.401go.com/api/o/.well-known/openid-configuration\n  http_status: 200\n  scopes_found: 12\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/scopes/401go-scopes.yml
+source_yaml_url: https://artifacts.apis.io/401go/scopes/401go-scopes.yml
 summary_line: 12 scopes · authorizationCode/clientCredentials
 tags:
 - Company

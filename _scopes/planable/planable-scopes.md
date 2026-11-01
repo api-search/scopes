@@ -5,67 +5,67 @@ api_specs:
   label: Planable Campaigns API
   slug: planable-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-campaigns-api-openapi.yml
 - filename: planable-competitors-api-openapi.yml
   format: yaml
   label: Planable Competitors API
   slug: planable-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-competitors-api-openapi.yml
 - filename: planable-labels-api-openapi.yml
   format: yaml
   label: Planable Labels API
   slug: planable-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-labels-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-labels-api-openapi.yml
 - filename: planable-media-api-openapi.yml
   format: yaml
   label: Planable Media API
   slug: planable-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-media-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-media-api-openapi.yml
 - filename: planable-members-api-openapi.yml
   format: yaml
   label: Planable Members API
   slug: planable-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-members-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-members-api-openapi.yml
 - filename: planable-pages-api-openapi.yml
   format: yaml
   label: Planable Pages API
   slug: planable-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-pages-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-pages-api-openapi.yml
 - filename: planable-posts-api-openapi.yml
   format: yaml
   label: Planable Posts API
   slug: planable-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-posts-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-posts-api-openapi.yml
 - filename: planable-social-listening-api-openapi.yml
   format: yaml
   label: Planable Social Listening API
   slug: planable-social-listening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-social-listening-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-social-listening-api-openapi.yml
 - filename: planable-stories-api-openapi.yml
   format: yaml
   label: Planable Stories API
   slug: planable-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-stories-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-stories-api-openapi.yml
 - filename: planable-system-api-openapi.yml
   format: yaml
   label: Planable System API
   slug: planable-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-system-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-system-api-openapi.yml
 - filename: planable-workspaces-api-openapi.yml
   format: yaml
   label: Planable Workspaces API
   slug: planable-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-workspaces-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://planable.io/guides/planable-public-api/
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://api.plana
   \ approval and scheduling flow, so this scope does\n          not grant direct publication.\n        published_description: false\n      - name: analyze\n        description: Pull page-level and post-level metrics and trigger metric refreshes. Requires the workspace Analytics add-on.\n        published_description: false\n      - name: engage\n        description: Comment and inbox-side engagement surfaces. Requires the workspace Social Inbox add-on.\n        published_description: false\n  - surface: rest\n    model: bearer-token\n    token_prefix: pln_\n    header: 'Authorization: Bearer pln_...'\n    scopes:\n      - name: read\n        description: Fetch workspaces, pages, posts, media, labels and analytics. Cannot create or modify anything.\n        published_description: true\n      - name: write\n        description: Create and update content. Write implies read.\n        published_description: true\n    additional_access_dimension:\n      name: workspace access\n      description:\
   \ >-\n        Independent of scope, a token is scoped to all company workspaces or to an explicit subset\n        chosen at creation. Planable frames this as blast-radius control.\n    token_policy:\n      who_can_create: Company Owners and Administrators only (not delegatable)\n      max_active_tokens_per_company: 10\n      expiry_options: [30 days, 60 days, 90 days, 6 months, 1 year, Never]\n      rotation: manual — generate new, update the tool, revoke the old; no automated rotation in v1\n      revocation: immediate; revoked tokens are removed and cannot be restored\n      visibility: all Owners/Admins see all company tokens; there is no per-user token isolation\n\nx-evidence:\n  fetched: '2026-08-13'\n  probes:\n    - url: https://api.planable.io/.well-known/oauth-authorization-server\n      http_status: 200\n    - url: https://api.planable.io/.well-known/oauth-protected-resource/mcp\n      http_status: 200\n    - url: https://planable.io/guides/planable-public-api/\n      http_status:\
   \ 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/scopes/planable-scopes.yml
+source_yaml_url: https://artifacts.apis.io/planable/scopes/planable-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Social Media

@@ -5,25 +5,25 @@ api_specs:
   label: Loa Healthcare Pricing API Entities API
   slug: loa-healthcare-pricing-api-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/openapi/loa-healthcare-pricing-api-entities-api-openapi.yml
+  url: https://artifacts.apis.io/loa-healthcare-pricing-api/openapi/loa-healthcare-pricing-api-entities-api-openapi.yml
 - filename: loa-healthcare-pricing-api-entity-analytics-api-openapi.yml
   format: yaml
   label: Loa Healthcare Pricing API Entity Analytics API
   slug: loa-healthcare-pricing-api-entity-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/openapi/loa-healthcare-pricing-api-entity-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/loa-healthcare-pricing-api/openapi/loa-healthcare-pricing-api-entity-analytics-api-openapi.yml
 - filename: loa-healthcare-pricing-api-entity-updates-api-openapi.yml
   format: yaml
   label: Loa Healthcare Pricing API Entity Updates API
   slug: loa-healthcare-pricing-api-entity-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/openapi/loa-healthcare-pricing-api-entity-updates-api-openapi.yml
+  url: https://artifacts.apis.io/loa-healthcare-pricing-api/openapi/loa-healthcare-pricing-api-entity-updates-api-openapi.yml
 - filename: loa-healthcare-pricing-api-prices-api-openapi.yml
   format: yaml
   label: Loa Healthcare Pricing API Prices API
   slug: loa-healthcare-pricing-api-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/openapi/loa-healthcare-pricing-api-prices-api-openapi.yml
+  url: https://artifacts.apis.io/loa-healthcare-pricing-api/openapi/loa-healthcare-pricing-api-prices-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.loacare.com/mcp
@@ -61,7 +61,7 @@ source_filename: loa-healthcare-pricing-api-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: https://www.loacare.com/.well-known/oauth-protected-resource\ndocs: https://www.loacare.com/mcp\nnote: >-\n  OAuth applies to the MCP surface only; the REST OpenAPI declares a single optional apiKey scheme with\n  no oauth2 flows (derive-oauth-scopes found no spec-declared scopes). Scopes below are the identity\n  scopes the protected-resource metadata advertises — there are no resource-permission scopes; access\n  tiers (authenticated / suggestions / linked provider) are enforced per-account, not per-scope.\nauthorization_server: https://eknkfyyjqxuvgdzocccu.supabase.co/auth/v1\nscopes:\n  - name: openid\n    description: OpenID Connect authentication for MCP tool calls.\n  - name: email\n    description: Submitter email identity, used by reviewed update submissions.\n  - name: profile\n    description: Basic profile identity for linked-provider affiliation signals.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/scopes/loa-healthcare-pricing-api-scopes.yml
+source_yaml_url: https://artifacts.apis.io/loa-healthcare-pricing-api/scopes/loa-healthcare-pricing-api-scopes.yml
 summary_line: 3 scopes
 tags:
 - Healthcare

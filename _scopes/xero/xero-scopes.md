@@ -5,79 +5,79 @@ api_specs:
   label: Xero Accounting API
   slug: xero-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-accounting-api-openapi.yml
 - filename: xero-asset-api-openapi.yml
   format: yaml
   label: Xero Asset API
   slug: xero-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-asset-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-asset-api-openapi.yml
 - filename: xero-files-api-openapi.yml
   format: yaml
   label: Xero Files API
   slug: xero-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-files-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-files-api-openapi.yml
 - filename: xero-finance-api-openapi.yml
   format: yaml
   label: Xero Finance API
   slug: xero-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-finance-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-finance-api-openapi.yml
 - filename: xero-identity-api-openapi.yml
   format: yaml
   label: Xero Identity API
   slug: xero-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-identity-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-identity-api-openapi.yml
 - filename: xero-payrollau-api-openapi.yml
   format: yaml
   label: Xero PayrollAu API
   slug: xero-payrollau-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payrollau-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-payrollau-api-openapi.yml
 - filename: xero-payrollnz-api-openapi.yml
   format: yaml
   label: Xero PayrollNz API
   slug: xero-payrollnz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payrollnz-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-payrollnz-api-openapi.yml
 - filename: xero-payrolluk-api-openapi.yml
   format: yaml
   label: Xero PayrollUk API
   slug: xero-payrolluk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payrolluk-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-payrolluk-api-openapi.yml
 - filename: xero-project-api-openapi.yml
   format: yaml
   label: Xero Project API
   slug: xero-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-project-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-project-api-openapi.yml
 - filename: xero-accountdata-api-openapi.yml
   format: yaml
   label: Xero Account Data API
   slug: xero-accountdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-accountdata-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-accountdata-api-openapi.yml
 - filename: xero-feedconnections-api-openapi.yml
   format: yaml
   label: Xero Feed Connections API
   slug: xero-feedconnections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-feedconnections-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-feedconnections-api-openapi.yml
 - filename: xero-app-store-api-openapi.yml
   format: yaml
   label: Xero App Store API
   slug: xero-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-app-store-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-app-store-api-openapi.yml
 - filename: xero-bank-feeds-api-openapi.yml
   format: yaml
   label: Xero Bank Feeds API
   slug: xero-bank-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-bank-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-bank-feeds-api-openapi.yml
 authorization_urls:
 - https://login.xero.com/identity/connect/authorize
 description: ''
@@ -540,7 +540,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: searched\nsource: openapi/xero-ac
   \  sources:\n  - docs\n  docs_description: View budget summary BudgetSummary\n  status: new\n- scope: accounting.reports.executivesummary.read\n  sources:\n  - docs\n  docs_description: View executive summary ExecutiveSummary\n  status: new\n- scope: accounting.reports.profitandloss.read\n  sources:\n  - docs\n  docs_description: View profit and loss ProfitAndLoss\n  status: new\n- scope: accounting.reports.trialbalance.read\n  sources:\n  - docs\n  docs_description: View trial balance TrialBalance\n  status: new\n- scope: accounting.reports.taxreports.read\n  sources:\n  - docs\n  docs_description: View GST or BAS reports GSTReport, BASReport\n  status: new\n- scope: practicemanager.job\n  sources:\n  - docs\n  docs_description: View and manage your Practice Manager job data Access to job endpoints\n- scope: practicemanager.job.read\n  sources:\n  - docs\n  docs_description: View your Practice Manager job data As above but GET only\n- scope: practicemanager.client\n  sources:\n  - docs\n\
   \  docs_description: View and manage your Practice Manager client data Access to client endpoints and client group endpoints\n- scope: practicemanager.client.read\n  sources:\n  - docs\n  docs_description: View your Practice Manager client data As above but GET only\n- scope: practicemanager.staff\n  sources:\n  - docs\n  docs_description: View and manage your Practice Manager staff data Access to staff endpoints\n- scope: practicemanager.staff.read\n  sources:\n  - docs\n  docs_description: View your Practice Manager staff data As above but GET only\n- scope: practicemanager.time\n  sources:\n  - docs\n  docs_description: View and manage your Practice Manager time data Access to time endpoints\n- scope: practicemanager.time.read\n  sources:\n  - docs\n  docs_description: View your Practice Manager time data As above but GET only\n- scope: einvoicing\n  sources:\n  - docs\n  docs_description: View and manage registration information eInvoicing\n- scope: app.connections\n  sources:\n  -\
   \ docs\n  docs_description: View your connection data Access to Connections endpoint\n- scope: offline_access\n  sources:\n  - docs\n  docs_description: To get a refresh token, you must request the offline_access scope.\ndocs: https://developer.xero.com/documentation/guides/oauth2/scopes/\nnote: Broad scopes (accounting.transactions[.read], accounting.reports.read) are deprecated in favour of granular scopes; \"Broad scopes will remain available until September 2027.\" Docs scopes merged with\n  the spec-derived baseline.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/scopes/xero-scopes.yml
+source_yaml_url: https://artifacts.apis.io/xero/scopes/xero-scopes.yml
 summary_line: 68 scopes · authorizationCode/clientCredentials
 tags:
 - Accounting

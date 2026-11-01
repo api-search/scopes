@@ -29,7 +29,7 @@ source_filename: quantive-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: 2026-07-20\nmethod: searched\nsource: https://www.workboard.com/developer\napi: WorkBoard REST API (Quantive)\ndocs: https://www.workboard.com/developer\nflow: authorization_code\nnotes: >-\n  The WorkBoard REST API v1.0 documents a single coarse OAuth scope. No\n  fine-grained scope taxonomy is published, and no OpenAPI declares per-operation\n  scopes, so this is the complete documented set.\nscopes:\n- name: all\n  description: >-\n    Default scope value granting full access consistent with the authorizing\n    user's permissions. Documented as the default value for the scope parameter\n    in WorkBoard API v1.0.\n  default: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quantive/refs/heads/main/scopes/quantive-scopes.yml
+source_yaml_url: https://artifacts.apis.io/quantive/scopes/quantive-scopes.yml
 summary_line: 1 scope · authorization_code
 tags:
 - Company

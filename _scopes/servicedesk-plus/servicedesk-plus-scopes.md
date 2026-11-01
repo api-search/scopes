@@ -5,7 +5,7 @@ api_specs:
   label: ManageEngine ServiceDesk Plus Requests API
   slug: servicedesk-plus-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/openapi/servicedesk-plus-requests-api-openapi.yml
+  url: https://artifacts.apis.io/servicedesk-plus/openapi/servicedesk-plus-requests-api-openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''
@@ -68,7 +68,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/servicedesk-plus-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/servicedesk-plus-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\nscopes:\n- scope: SDPOnDemand.requests.ALL\n  description: Full access to requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicedesk-plus-openapi.yml\n- scope: SDPOnDemand.requests.CREATE\n  description: Create requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicedesk-plus-openapi.yml\n- scope: SDPOnDemand.requests.DELETE\n  description: Delete requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicedesk-plus-openapi.yml\n- scope: SDPOnDemand.requests.READ\n  description: Read-only access to requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicedesk-plus-openapi.yml\n- scope: SDPOnDemand.requests.UPDATE\n\
   \  description: Update requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicedesk-plus-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicedesk-plus/refs/heads/main/scopes/servicedesk-plus-scopes.yml
+source_yaml_url: https://artifacts.apis.io/servicedesk-plus/scopes/servicedesk-plus-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - ITSM

@@ -5,37 +5,37 @@ api_specs:
   label: Table Format Commits API
   slug: table-format-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-commits-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-commits-api-openapi.yml
 - filename: table-format-configuration-api-openapi.yml
   format: yaml
   label: Table Format Configuration API
   slug: table-format-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-configuration-api-openapi.yml
 - filename: table-format-namespaces-api-openapi.yml
   format: yaml
   label: Table Format Namespaces API
   slug: table-format-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-namespaces-api-openapi.yml
 - filename: table-format-tables-api-openapi.yml
   format: yaml
   label: Table Format Tables API
   slug: table-format-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-tables-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-tables-api-openapi.yml
 - filename: table-format-views-api-openapi.yml
   format: yaml
   label: Table Format Views API
   slug: table-format-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-views-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-views-api-openapi.yml
 - filename: table-format-oauth2-api-openapi.yml
   format: yaml
   label: Table Format O Auth2 API
   slug: table-format-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-oauth2-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -75,7 +75,7 @@ source_filename: table-format-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-iceberg-rest-catalog-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/apache-iceberg-rest-catalog-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/oauth/tokens\nscopes:\n- scope: catalog\n  description: Access catalog operations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/apache-iceberg-rest-catalog-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/scopes/table-format-scopes.yml
+source_yaml_url: https://artifacts.apis.io/table-format/scopes/table-format-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Data Lakehouse

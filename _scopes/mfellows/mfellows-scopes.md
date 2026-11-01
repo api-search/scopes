@@ -46,7 +46,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://moneyfellows.com/.well-known/openid-configuration\ndocs: https://moneyfellows.com/.well-known/openid-configuration\nnotes: >-\n  Scopes advertised by the published OpenID Connect discovery document for the\n  moneyfellows.com member-authentication server (Umbraco Content Delivery API).\n  Only the standard OIDC scopes are declared; no product-specific scopes are\n  published.\nschemes:\n- name: oauth2\n  source: well-known/mfellows-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://moneyfellows.com/umbraco/delivery/api/v1/security/member/authorize\n    tokenUrl: https://moneyfellows.com/umbraco/delivery/api/v1/security/member/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; request an ID token for the authenticated member.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/mfellows-openid-configuration.json\n- scope: offline_access\n\
   \  description: Issue a refresh token so the client can obtain new access tokens without re-authentication.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/mfellows-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mfellows/refs/heads/main/scopes/mfellows-scopes.yml
+source_yaml_url: https://artifacts.apis.io/mfellows/scopes/mfellows-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

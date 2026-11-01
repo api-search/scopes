@@ -5,31 +5,31 @@ api_specs:
   label: Inflection AI Chat API
   slug: inflection-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-chat-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-chat-api-openapi.yml
 - filename: inflection-discovery-api-openapi.yml
   format: yaml
   label: Inflection AI Discovery API
   slug: inflection-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-discovery-api-openapi.yml
 - filename: inflection-embeddings-api-openapi.yml
   format: yaml
   label: Inflection AI Embeddings API
   slug: inflection-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-embeddings-api-openapi.yml
 - filename: inflection-external-api-openapi.yml
   format: yaml
   label: Inflection AI External API
   slug: inflection-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-external-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-external-api-openapi.yml
 - filename: inflection-status-api-openapi.yml
   format: yaml
   label: Inflection AI Status API
   slug: inflection-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-status-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-status-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -85,7 +85,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/inflection-chat-api-openapi.yml, openapi/inflection-discovery-api-openapi.yml,\n  openapi/inflection-embeddings-api-openapi.yml, openapi/inflection-external-api-openapi.yml,\n  openapi/inflection-status-api-openapi.yml\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-chat-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-discovery-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-embeddings-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-external-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n- name: OAuth2PasswordBearer\n  source: openapi/inflection-status-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\nscopes: []\nnote: The OAuth2\
   \ security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/scopes/inflection-scopes.yml
+source_yaml_url: https://artifacts.apis.io/inflection/scopes/inflection-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Artificial Intelligence

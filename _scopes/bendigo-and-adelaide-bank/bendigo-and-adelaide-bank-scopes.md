@@ -5,85 +5,85 @@ api_specs:
   label: Bendigo and Adelaide Bank Accounts API
   slug: bendigo-and-adelaide-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-accounts-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-attachments-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Attachments API
   slug: bendigo-and-adelaide-bank-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-attachments-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-account-balances-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Account Balances API
   slug: bendigo-and-adelaide-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-account-balances-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Account Direct Debits API
   slug: bendigo-and-adelaide-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-account-direct-debits-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Account Scheduled Payments API
   slug: bendigo-and-adelaide-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Account Transactions API
   slug: bendigo-and-adelaide-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-account-transactions-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Accounts API
   slug: bendigo-and-adelaide-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-accounts-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Payees API
   slug: bendigo-and-adelaide-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-payees-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-products-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Products API
   slug: bendigo-and-adelaide-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-products-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-categories-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Categories API
   slug: bendigo-and-adelaide-bank-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-categories-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-categories-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-tags-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Tags API
   slug: bendigo-and-adelaide-bank-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-tags-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-tags-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-transactions-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Transactions API
   slug: bendigo-and-adelaide-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-transactions-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-utility-endpoints-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Utility endpoints API
   slug: bendigo-and-adelaide-bank-utility-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-utility-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-utility-endpoints-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-webhooks-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Webhooks API
   slug: bendigo-and-adelaide-bank-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-webhooks-api-openapi.yml
 authorization_urls:
 - https://api.up.com.au/oidc/authorize
 description: ''
@@ -179,7 +179,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.up.com.au/.well-known/openid-configuration\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#end-points\nnotes: >-\n  Scopes captured verbatim from the live CDR OIDC discovery document of the Up brand\n  (owned by Bendigo and Adelaide Bank). These are the standardised Australian Consumer\n  Data Right (CDR) banking + common data-cluster scopes governed by the Consumer Data\n  Standards. They apply to the AUTHENTICATED CDR data-sharing surface (accredited data\n  recipients only, via FAPI 1.0 Advanced / MTLS). The public Product Reference Data API\n  (GET /banking/products) is unauthenticated and requires no scope.\nschemes:\n- name: OpenIDConnect\n  type: openIdConnect\n  source: well-known/bendigo-and-adelaide-bank-up-openid-configuration.json\n  issuer: https://api.up.com.au\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.up.com.au/oidc/authorize\n    tokenUrl: https://secure.api.up.com.au/oidc/token\n\
   \    pushed_authorization_request_endpoint: https://secure.api.up.com.au/oidc/authorize/push\n    require_pushed_authorization_requests: true\n  - flow: clientCredentials\n    tokenUrl: https://secure.api.up.com.au/oidc/token\nscopes:\n- scope: openid\n  description: OIDC authentication; issue an ID token identifying the consumer.\n  flows: [authorizationCode]\n- scope: profile\n  description: Access to the consumer's basic OIDC profile claims.\n  flows: [authorizationCode]\n- scope: bank:accounts.basic:read\n  description: Read basic banking account data (account list and basic attributes).\n  flows: [authorizationCode]\n- scope: bank:accounts.detail:read\n  description: Read detailed banking account data (balances, account detail).\n  flows: [authorizationCode]\n- scope: bank:transactions:read\n  description: Read banking account transactions.\n  flows: [authorizationCode]\n- scope: bank:payees:read\n  description: Read saved payees.\n  flows: [authorizationCode]\n- scope: bank:regular_payments:read\n\
   \  description: Read direct debits and scheduled/regular payments.\n  flows: [authorizationCode]\n- scope: common:customer.basic:read\n  description: Read basic customer data (name, type).\n  flows: [authorizationCode]\n- scope: common:customer.detail:read\n  description: Read detailed customer data (contact details).\n  flows: [authorizationCode]\n- scope: cdr:registration\n  description: Dynamic client registration for accredited CDR data recipient software products.\n  flows: [clientCredentials]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/scopes/bendigo-and-adelaide-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bendigo-and-adelaide-bank/scopes/bendigo-and-adelaide-bank-scopes.yml
 summary_line: 10 scopes · authorizationCode/clientCredentials
 tags:
 - Finance

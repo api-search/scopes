@@ -40,7 +40,7 @@ source_filename: yello-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: https://www.wayup.com/.well-known/oauth-authorization-server\nnote: >-\n  The authorization server advertises exactly one scope. No scopes/permissions reference page was\n  found on wayup.com or yello.co, so no descriptions beyond the observed value are asserted.\nschemes:\n- name: wayup-mcp-oauth\n  source: well-known/yello-wayup-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.wayup.com/api/v1/oauth/o/authorize/\n    tokenUrl: https://www.wayup.com/api/v1/oauth/o/token/\nscopes:\n- scope: mcp\n  description: >-\n    The only scope advertised in scopes_supported by both the authorization-server metadata and the\n    protected-resource metadata; grants access to the WayUp MCP endpoint.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/yello-wayup-oauth-authorization-server.json\n  - well-known/yello-wayup-oauth-protected-resource.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yello/refs/heads/main/scopes/yello-scopes.yml
+source_yaml_url: https://artifacts.apis.io/yello/scopes/yello-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Talent Acquisition

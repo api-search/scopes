@@ -5,37 +5,37 @@ api_specs:
   label: Facebook Lead Ads Bulk Leads API
   slug: facebook-lead-ads-bulk-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-bulk-leads-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-bulk-leads-api-openapi.yml
 - filename: facebook-lead-ads-leadgen-forms-api-openapi.yml
   format: yaml
   label: Facebook Lead Ads Leadgen Forms API
   slug: facebook-lead-ads-leadgen-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-leadgen-forms-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-leadgen-forms-api-openapi.yml
 - filename: facebook-lead-ads-leads-api-openapi.yml
   format: yaml
   label: Facebook Lead Ads Leads API
   slug: facebook-lead-ads-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-leads-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-leads-api-openapi.yml
 - filename: facebook-lead-ads-meta-marketing-api-lead-ads-api-openapi.yml
   format: yaml
   label: Facebook Lead Ads Meta Marketing API Lead Ads API
   slug: facebook-lead-ads-meta-marketing-api-lead-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-meta-marketing-api-lead-ads-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-meta-marketing-api-lead-ads-api-openapi.yml
 - filename: facebook-lead-ads-subscribed-apps-api-openapi.yml
   format: yaml
   label: Facebook Lead Ads Subscribed Apps API
   slug: facebook-lead-ads-subscribed-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-subscribed-apps-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-subscribed-apps-api-openapi.yml
 - filename: facebook-lead-ads-subscriptions-api-openapi.yml
   format: yaml
   label: Facebook Lead Ads Subscriptions API
   slug: facebook-lead-ads-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-subscriptions-api-openapi.yml
 authorization_urls:
 - https://www.facebook.com/v22.0/dialog/oauth
 description: ''
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/faceboo
   \ — needed to resolve the page-id that owns the forms.\n    flows: [authorizationCode]\n    in_spec: true\n    sources: [openapi/facebook-lead-ads-openapi.yml]\n  - scope: pages_manage_ads\n    description: Manage ads associated with a Page.\n    flows: [authorizationCode]\n    in_spec: true\n    app_review_required: true\n    sources: [openapi/facebook-lead-ads-openapi.yml]\n  - scope: ads_management\n    description: >-\n      Required to read ad-level lead fields (ad_id, campaign_id) and for the full lead-data\n      permission set documented on the retrieval guide.\n    flows: [authorizationCode]\n    in_spec: false\n    sources: [https://developers.facebook.com/docs/marketing-api/guides/lead-ads/retrieving]\n  - scope: pages_read_engagement\n    description: >-\n      Required alongside ads_management for ad-level fields and for the full lead-data\n      permission set.\n    flows: [authorizationCode]\n    in_spec: false\n    sources: [https://developers.facebook.com/docs/marketing-api/guides/lead-ads/retrieving]\n\
   \  - scope: pages_manage_metadata\n    description: >-\n      Required to subscribe a Page to leadgen webhooks — the operations subscribeAppWebhook\n      and pageSubscribedApps in this repo.\n    flows: [authorizationCode]\n    in_spec: false\n    webhooks_only: true\n    sources: [https://developers.facebook.com/docs/marketing-api/guides/lead-ads/retrieving]\npermission_sets:\n  - use_case: Read ad-level fields (ad_id, campaign_id)\n    scopes: [ads_management, pages_read_engagement, pages_show_list]\n    plus_for_webhooks: [pages_manage_metadata]\n  - use_case: Read all lead data and ad-level data\n    scopes: [ads_management, leads_retrieval, pages_show_list, pages_read_engagement, pages_manage_ads]\n  - use_case: App Review submission for lead ads\n    scopes: [leads_retrieval, pages_manage_ads]\n    note: The two permissions Meta's lead ads guide names as requiring App Review.\naccess_levels:\n  detail: plans/facebook-lead-ads-plans-pricing.yml\n  levels:\n    - name: Standard Access\n\
   \      description: The permission works only for users who have a role on the app.\n    - name: Advanced Access\n      description: >-\n        The permission works for any app user; requires Business Verification and\n        App Review.\nsummary:\n  total: 6\n  in_spec: 3\n  docs_only: 3\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/scopes/facebook-lead-ads-scopes.yml
+source_yaml_url: https://artifacts.apis.io/facebook-lead-ads/scopes/facebook-lead-ads-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Advertising

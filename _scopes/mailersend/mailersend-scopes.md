@@ -5,43 +5,43 @@ api_specs:
   label: MailerSend Bulk Email API
   slug: mailersend-bulk-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-bulk-email-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-bulk-email-api-openapi.yml
 - filename: mailersend-domains-api-openapi.yml
   format: yaml
   label: MailerSend Domains API
   slug: mailersend-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-domains-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-domains-api-openapi.yml
 - filename: mailersend-email-api-openapi.yml
   format: yaml
   label: MailerSend Email API
   slug: mailersend-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-email-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-email-api-openapi.yml
 - filename: mailersend-messages-api-openapi.yml
   format: yaml
   label: MailerSend Messages API
   slug: mailersend-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-messages-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-messages-api-openapi.yml
 - filename: mailersend-sender-identities-api-openapi.yml
   format: yaml
   label: MailerSend Sender Identities API
   slug: mailersend-sender-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-sender-identities-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-sender-identities-api-openapi.yml
 - filename: mailersend-templates-api-openapi.yml
   format: yaml
   label: MailerSend Templates API
   slug: mailersend-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-templates-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-templates-api-openapi.yml
 - filename: mailersend-webhooks-api-openapi.yml
   format: yaml
   label: MailerSend Webhooks API
   slug: mailersend-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/openapi/mailersend-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mailersend/openapi/mailersend-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.mailersend.com/api/v1/account/tokens#possible-scopes
@@ -212,7 +212,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \  - {scope: suppressions_full, surface: api-token, description: Read and manage suppression lists.}\n  - {scope: sms_read, surface: api-token, description: Read SMS resources.}\n  - {scope: sms_full, surface: api-token, description: Read and manage SMS resources.}\n  - {scope: email_verification_read, surface: api-token, description: Read email verification lists and results.}\n  - {scope: email_verification_full, surface: api-token, description: Read and manage email verification.}\n  - {scope: inbounds_full, surface: api-token, description: Read and manage inbound routes.}\n  - {scope: recipients_read, surface: api-token, description: Read recipients.}\n  - {scope: recipients_full, surface: api-token, description: Read and manage recipients.}\n  - {scope: sender_identity_read, surface: api-token, description: Read sender identities.}\n  - {scope: sender_identity_full, surface: api-token, description: Read and manage sender identities.}\n  - {scope: users_read, surface: api-token, description:\
   \ Read account users.}\n  - {scope: users_full, surface: api-token, description: Read and manage account users.}\n  - {scope: smtp_users_read, surface: api-token, description: Read SMTP users.}\n  - {scope: smtp_users_full, surface: api-token, description: Read and manage SMTP users.}\n  - {scope: dmarc_monitoring_read, surface: api-token, description: Read DMARC monitors and reports.}\n  - {scope: dmarc_monitoring_full, surface: api-token, description: Read and manage DMARC monitoring.}\n  - {scope: blocklist_monitoring_read, surface: api-token, description: Read blocklist monitors.}\n  - {scope: blocklist_monitoring_full, surface: api-token, description: Read and manage blocklist monitoring.}\n  - {scope: whatsapp_full, surface: api-token, description: Full access to WhatsApp messaging resources.}\npattern:\n  shape: '<resource>_read | <resource>_full'\n  note: >-\n    A clean two-level read/full split per resource domain. Note the asymmetry: email, tokens, webhooks,\n    templates,\
   \ inbounds and whatsapp expose only `_full` — there is no read-only scope for sending, for\n    template access, or for token introspection, so a least-privilege agent cannot be given read-only\n    visibility into those domains.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/scopes/mailersend-scopes.yml
+source_yaml_url: https://artifacts.apis.io/mailersend/scopes/mailersend-scopes.yml
 summary_line: 30 scopes
 tags:
 - Email

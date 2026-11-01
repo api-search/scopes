@@ -5,31 +5,31 @@ api_specs:
   label: SnowSignals Notifications API
   slug: snowsignals-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/snowsignals/openapi/snowsignals-notifications-api-openapi.yml
 - filename: snowsignals-phase-api-openapi.yml
   format: yaml
   label: SnowSignals Phase API
   slug: snowsignals-phase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-phase-api-openapi.yml
+  url: https://artifacts.apis.io/snowsignals/openapi/snowsignals-phase-api-openapi.yml
 - filename: snowsignals-phases-api-openapi.yml
   format: yaml
   label: SnowSignals Phases API
   slug: snowsignals-phases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-phases-api-openapi.yml
+  url: https://artifacts.apis.io/snowsignals/openapi/snowsignals-phases-api-openapi.yml
 - filename: snowsignals-time-api-openapi.yml
   format: yaml
   label: SnowSignals Time API
   slug: snowsignals-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-time-api-openapi.yml
+  url: https://artifacts.apis.io/snowsignals/openapi/snowsignals-time-api-openapi.yml
 - filename: snowsignals-user-api-openapi.yml
   format: yaml
   label: SnowSignals User API
   slug: snowsignals-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/openapi/snowsignals-user-api-openapi.yml
+  url: https://artifacts.apis.io/snowsignals/openapi/snowsignals-user-api-openapi.yml
 authorization_urls:
 - https://snowsignals.io/oauth/authorize
 description: ''
@@ -64,7 +64,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: >-\n  https://snowsignals.io/.well-known/oauth-authorization-server (RFC 8414, fetched 2026-09-10) and\n  https://snowsignals.io/.well-known/oauth-protected-resource (RFC 9728); per-tool auth requirements\n  read from the live MCP tools/list (mcp/snowsignals-mcp-tools-list.json).\nnote: >-\n  The REST OpenAPI declares only apiKey schemes (url / nonce methods), so OAuth scopes are not in the\n  spec — the OAuth surface belongs to the MCP endpoint. One scope exists. Public client with PKCE\n  S256, dynamic client registration open at /v1/oauth/register, token endpoint auth method `none`.\nauthorization_server: https://snowsignals.io\nauthorization_endpoint: https://snowsignals.io/oauth/authorize\ntoken_endpoint: https://snowsignals.io/v1/oauth/token\nregistration_endpoint: https://snowsignals.io/v1/oauth/register\nprotected_resource: https://snowsignals.io/mcp\nscopes:\n- scope: daas:read\n  description: >-\n    Read access to\
   \ the metered/account MCP tools: get_phase, compose_phases (metered) and\n    get_notifications, get_balance, get_usage, deposit_poll (free but account-bound). The two\n    discovery tools (list_phase_meta, phase_resolution_stats) need no scope and no account.\n  operations:\n  - get_phase\n  - compose_phases\n  - get_notifications\n  - get_balance\n  - get_usage\n  - deposit_poll\nscope_count: 1\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowsignals/refs/heads/main/scopes/snowsignals-scopes.yml
+source_yaml_url: https://artifacts.apis.io/snowsignals/scopes/snowsignals-scopes.yml
 summary_line: 1 scope
 tags:
 - Cryptocurrency

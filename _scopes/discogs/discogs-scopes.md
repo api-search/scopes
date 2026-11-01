@@ -5,49 +5,49 @@ api_specs:
   label: Discogs Database API
   slug: discogs-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-database-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-database-api-openapi.yml
 - filename: discogs-image-api-openapi.yml
   format: yaml
   label: Discogs Image API
   slug: discogs-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-image-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-image-api-openapi.yml
 - filename: discogs-inventory-management-api-openapi.yml
   format: yaml
   label: Discogs Inventory Management API
   slug: discogs-inventory-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-inventory-management-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-inventory-management-api-openapi.yml
 - filename: discogs-marketplace-api-openapi.yml
   format: yaml
   label: Discogs Marketplace API
   slug: discogs-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-marketplace-api-openapi.yml
 - filename: discogs-user-collection-api-openapi.yml
   format: yaml
   label: Discogs User Collection API
   slug: discogs-user-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-collection-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-collection-api-openapi.yml
 - filename: discogs-user-identity-api-openapi.yml
   format: yaml
   label: Discogs User Identity API
   slug: discogs-user-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-identity-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-identity-api-openapi.yml
 - filename: discogs-user-lists-api-openapi.yml
   format: yaml
   label: Discogs User Lists API
   slug: discogs-user-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-lists-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-lists-api-openapi.yml
 - filename: discogs-user-wantlist-api-openapi.yml
   format: yaml
   label: Discogs User Wantlist API
   slug: discogs-user-wantlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/openapi/discogs-user-wantlist-api-openapi.yml
+  url: https://artifacts.apis.io/discogs/openapi/discogs-user-wantlist-api-openapi.yml
 authorization_urls:
 - https://discogs.com/oauth/authorize
 description: ''
@@ -95,7 +95,7 @@ source_filename: discogs-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/discogs-openapi-original.yml\nschemes:\n- name: OAuth1\n  source: openapi/discogs-openapi-original.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://discogs.com/oauth/authorize\n    tokenUrl: https://api.discogs.com/oauth/access_token\n  description: OAuth 1.0a flow modeled as OAuth2 for tooling. Required for write actions on\n    behalf of other users.\nscopes:\n- scope: read\n  description: Read user data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/discogs-openapi-original.yml\n- scope: write\n  description: Write/update user resources\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/discogs-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discogs/refs/heads/main/scopes/discogs-scopes.yml
+source_yaml_url: https://artifacts.apis.io/discogs/scopes/discogs-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Music

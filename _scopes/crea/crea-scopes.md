@@ -5,37 +5,37 @@ api_specs:
   label: CREA (REALTOR.ca) Destination API
   slug: crea-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-destination-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-destination-api-openapi.yml
 - filename: crea-lead-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Lead API
   slug: crea-lead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-lead-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-lead-api-openapi.yml
 - filename: crea-member-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Member API
   slug: crea-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-member-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-member-api-openapi.yml
 - filename: crea-office-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Office API
   slug: crea-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-office-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-office-api-openapi.yml
 - filename: crea-openhouse-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Open House API
   slug: crea-openhouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-openhouse-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-openhouse-api-openapi.yml
 - filename: crea-property-api-openapi.yml
   format: yaml
   label: CREA (REALTOR.ca) Property API
   slug: crea-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/openapi/crea-property-api-openapi.yml
+  url: https://artifacts.apis.io/crea/openapi/crea-property-api-openapi.yml
 authorization_urls:
 - https://identity.crea.ca/connect/authorize
 description: CREA publishes no scopes reference page, but the OpenID Connect discovery document at identity.crea.ca is served anonymously and enumerates every scope the shared authorization server will issue. Two of the five are documented in the API docs (DDFApi_Read and BoardDataApi.read); the other three are advertised by discovery only. Neither OpenAPI document declares an oauth2 securityScheme, so nothing here could be derived from the specs - this file is entirely searched.
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://identit
   \    tokenUrl: https://identity.crea.ca/connect/token\n    note: Advertised by discovery; not documented for the public DDF or Board APIs.\nscopes:\n- scope: DDFApi_Read\n  description: >-\n    Read access to the REALTOR.ca DDF Web API (OData v4 Property, Member, Office, OpenHouse,\n    Destination and the three Replication collections) and to the DDF Lead API endpoint. This\n    is the only scope documented for DDF; despite the _Read suffix it also covers the single\n    write operation, POST /v1/Lead/CreateLead.\n  flows: [clientCredentials]\n  documented: true\n  sources: [https://identity.crea.ca/.well-known/openid-configuration, 'https://ddfapi-docs.realtor.ca/']\n- scope: BoardDataApi.read\n  description: >-\n    Read access to the REALTOR.ca Board API roster endpoints (GET /Member, GET /Office and\n    their single-record forms) for a member board or association.\n  flows: [clientCredentials]\n  documented: true\n  sources: [https://identity.crea.ca/.well-known/openid-configuration,\
   \ 'https://boardapi-docs.realtor.ca/']\n- scope: OfferManagementApi.read.write\n  description: >-\n    Read and write access to a CREA Offer Management API. No public documentation, OpenAPI or\n    developer surface for this API could be found on 2026-07-26 - it is known only from this\n    discovery document, and corresponds to the offer-management product CREA has been rolling\n    out on REALTOR.ca. Recorded here because it is genuinely advertised, not because it is\n    consumable.\n  flows: [clientCredentials]\n  documented: false\n  sources: [https://identity.crea.ca/.well-known/openid-configuration]\n- scope: openid\n  description: Standard OpenID Connect scope; returns an id_token and the sub claim.\n  flows: [authorizationCode]\n  documented: false\n  sources: [https://identity.crea.ca/.well-known/openid-configuration]\n- scope: offline_access\n  description: Standard OAuth 2.0 scope requesting a refresh token. Not applicable to the documented client-credentials flows.\n  flows:\
   \ [authorizationCode]\n  documented: false\n  sources: [https://identity.crea.ca/.well-known/openid-configuration]\nclaims_supported: [sub, destinationid]\nclaims_note: >-\n  destinationid is the tenancy claim - it binds an issued DDF token to a specific Destination\n  (data feed), which is how CREA scopes a Technology Provider's merged feed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/scopes/crea-scopes.yml
+source_yaml_url: https://artifacts.apis.io/crea/scopes/crea-scopes.yml
 summary_line: 5 scopes · clientCredentials/authorizationCode
 tags:
 - Real Estate

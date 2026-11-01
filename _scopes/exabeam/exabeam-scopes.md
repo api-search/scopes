@@ -51,7 +51,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.us-west.exabeam.cloud/.well-known/oauth-authorization-server\ndocs: https://developers.exabeam.com/exabeam/docs/api-keys\nschemes:\n- name: OAuth2\n  source: https://api.us-west.exabeam.cloud/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.us-west.exabeam.cloud/oauth/authorize\n    tokenUrl: https://api.us-west.exabeam.cloud/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication.\n  flows: [authorizationCode]\n  sources: [well-known/exabeam-oauth-authorization-server.json]\n- scope: profile\n  description: Access to the authenticated principal's profile.\n  flows: [authorizationCode]\n  sources: [well-known/exabeam-oauth-authorization-server.json]\n- scope: offline_access\n  description: Issue a refresh token for continued (offline) access.\n  flows: [authorizationCode]\n  sources: [well-known/exabeam-oauth-authorization-server.json]\n\
   notes: >-\n  Scopes are taken verbatim from the published RFC 8414 authorization-server\n  metadata (scope: \"openid profile offline_access\"). Fine-grained,\n  product-level API permissions are governed by the role assigned to the API\n  key in the Exabeam console rather than by additional OAuth scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exabeam/refs/heads/main/scopes/exabeam-scopes.yml
+source_yaml_url: https://artifacts.apis.io/exabeam/scopes/exabeam-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

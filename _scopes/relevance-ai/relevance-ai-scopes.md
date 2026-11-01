@@ -5,187 +5,187 @@ api_specs:
   label: Relevance AI Agent Debug Configs API
   slug: relevance-ai-agent-debug-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-agent-debug-configs-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-agent-debug-configs-api-openapi.yml
 - filename: relevance-ai-agent-runtime-events-api-openapi.yml
   format: yaml
   label: Relevance AI Agent Runtime Events API
   slug: relevance-ai-agent-runtime-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-agent-runtime-events-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-agent-runtime-events-api-openapi.yml
 - filename: relevance-ai-agents-api-openapi.yml
   format: yaml
   label: Relevance AI Agents API
   slug: relevance-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-agents-api-openapi.yml
 - filename: relevance-ai-alarms-api-openapi.yml
   format: yaml
   label: Relevance AI Alarms API
   slug: relevance-ai-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-alarms-api-openapi.yml
 - filename: relevance-ai-analytics-api-openapi.yml
   format: yaml
   label: Relevance AI Analytics API
   slug: relevance-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-analytics-api-openapi.yml
 - filename: relevance-ai-apify-api-openapi.yml
   format: yaml
   label: Relevance AI Apify API
   slug: relevance-ai-apify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-apify-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-apify-api-openapi.yml
 - filename: relevance-ai-auth-api-openapi.yml
   format: yaml
   label: Relevance AI Auth API
   slug: relevance-ai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-auth-api-openapi.yml
 - filename: relevance-ai-billing-api-openapi.yml
   format: yaml
   label: Relevance AI Billing API
   slug: relevance-ai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-billing-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-billing-api-openapi.yml
 - filename: relevance-ai-branding-kit-api-openapi.yml
   format: yaml
   label: Relevance AI Branding Kit API
   slug: relevance-ai-branding-kit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-branding-kit-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-branding-kit-api-openapi.yml
 - filename: relevance-ai-branding-kits-api-openapi.yml
   format: yaml
   label: Relevance AI Branding Kits API
   slug: relevance-ai-branding-kits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-branding-kits-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-branding-kits-api-openapi.yml
 - filename: relevance-ai-chat-api-openapi.yml
   format: yaml
   label: Relevance AI Chat API
   slug: relevance-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-chat-api-openapi.yml
 - filename: relevance-ai-evals-api-openapi.yml
   format: yaml
   label: Relevance AI Evals API
   slug: relevance-ai-evals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-evals-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-evals-api-openapi.yml
 - filename: relevance-ai-fal-ai-api-openapi.yml
   format: yaml
   label: Relevance AI Fal AI API
   slug: relevance-ai-fal-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-fal-ai-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-fal-ai-api-openapi.yml
 - filename: relevance-ai-folders-api-openapi.yml
   format: yaml
   label: Relevance AI Folders API
   slug: relevance-ai-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-folders-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-folders-api-openapi.yml
 - filename: relevance-ai-integrations-api-openapi.yml
   format: yaml
   label: Relevance AI Integrations API
   slug: relevance-ai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-integrations-api-openapi.yml
 - filename: relevance-ai-inventor-api-openapi.yml
   format: yaml
   label: Relevance AI Inventor API
   slug: relevance-ai-inventor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-inventor-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-inventor-api-openapi.yml
 - filename: relevance-ai-knowledge-api-openapi.yml
   format: yaml
   label: Relevance AI Knowledge API
   slug: relevance-ai-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-knowledge-api-openapi.yml
 - filename: relevance-ai-marketplace-api-openapi.yml
   format: yaml
   label: Relevance AI Marketplace API
   slug: relevance-ai-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-marketplace-api-openapi.yml
 - filename: relevance-ai-mas-api-openapi.yml
   format: yaml
   label: Relevance AI Mas API
   slug: relevance-ai-mas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-mas-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-mas-api-openapi.yml
 - filename: relevance-ai-mas-store-api-openapi.yml
   format: yaml
   label: Relevance AI Mas Store API
   slug: relevance-ai-mas-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-mas-store-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-mas-store-api-openapi.yml
 - filename: relevance-ai-mcp-api-openapi.yml
   format: yaml
   label: Relevance AI MCP API
   slug: relevance-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-mcp-api-openapi.yml
 - filename: relevance-ai-organizations-api-openapi.yml
   format: yaml
   label: Relevance AI Organizations API
   slug: relevance-ai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-organizations-api-openapi.yml
 - filename: relevance-ai-projects-api-openapi.yml
   format: yaml
   label: Relevance AI Projects API
   slug: relevance-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-projects-api-openapi.yml
 - filename: relevance-ai-replicate-api-openapi.yml
   format: yaml
   label: Relevance AI Replicate API
   slug: relevance-ai-replicate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-replicate-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-replicate-api-openapi.yml
 - filename: relevance-ai-services-api-openapi.yml
   format: yaml
   label: Relevance AI Services API
   slug: relevance-ai-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-services-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-services-api-openapi.yml
 - filename: relevance-ai-studios-api-openapi.yml
   format: yaml
   label: Relevance AI Studios API
   slug: relevance-ai-studios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-studios-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-studios-api-openapi.yml
 - filename: relevance-ai-sync-api-openapi.yml
   format: yaml
   label: Relevance AI Sync API
   slug: relevance-ai-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-sync-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-sync-api-openapi.yml
 - filename: relevance-ai-sync-items-api-openapi.yml
   format: yaml
   label: Relevance AI Sync Items API
   slug: relevance-ai-sync-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-sync-items-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-sync-items-api-openapi.yml
 - filename: relevance-ai-syncs-api-openapi.yml
   format: yaml
   label: Relevance AI Syncs API
   slug: relevance-ai-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-syncs-api-openapi.yml
 - filename: relevance-ai-user-memory-api-openapi.yml
   format: yaml
   label: Relevance AI User Memory API
   slug: relevance-ai-user-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-user-memory-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-user-memory-api-openapi.yml
 - filename: relevance-ai-warmup-api-openapi.yml
   format: yaml
   label: Relevance AI Warmup API
   slug: relevance-ai-warmup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/openapi/relevance-ai-warmup-api-openapi.yml
+  url: https://artifacts.apis.io/relevance-ai/openapi/relevance-ai-warmup-api-openapi.yml
 authorization_urls: []
 description: 'The REST API declares no oauth2 security scheme — it authenticates with a static `Authorization: project:api_key` header and has no scope concept at all. The only OAuth surface is the MCP server, and its scope model is deliberately coarse: one scope, with real authorization carried by the caller''s project role rather than by scope strings.'
 docs: https://relevanceai.com/docs/integrations/mcp/mcp-server#access-control
@@ -213,7 +213,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: >-\n  https://mcp.relevanceai.com/.well-known/oauth-authorization-server,\n  https://mcp.relevanceai.com/.well-known/oauth-protected-resource,\n  https://relevanceai.com/docs/integrations/mcp/mcp-server\nprovider: Relevance AI\nproviderId: relevance-ai\ndescription: >-\n  The REST API declares no oauth2 security scheme — it authenticates with a static\n  `Authorization: project:api_key` header and has no scope concept at all. The only OAuth\n  surface is the MCP server, and its scope model is deliberately coarse: one scope, with real\n  authorization carried by the caller's project role rather than by scope strings.\nrest_api:\n  oauth2: false\n  scopes: []\n  detail: >-\n    derive-oauth-scopes.py over openapi/relevance-ai-openapi.json found 0 oauth2 flows across\n    566 operations. The single securityScheme is apiKey in header. An API key grants\n    unrestricted access to every resource in its project — the docs say so explicitly\
   \ — so\n    there is no way to issue a least-privilege REST credential.\nmcp:\n  authorization_server: https://mcp.relevanceai.com/\n  scopes_supported:\n    - name: claudeai\n      description: >-\n        The only scope the authorization server advertises, in both the authorization-server\n        and protected-resource metadata. It carries no capability semantics.\n  grant_types: [authorization_code, refresh_token]\n  pkce: S256\n  dynamic_client_registration: true\n  effective_authorization:\n    model: project role, enforced server-side\n    detail: >-\n      Because there is one scope, the real permission boundary is the caller's Relevance AI\n      project role, applied at consent time. Write and destructive tools are REMOVED from the\n      tool list server-side for restricted sessions rather than merely hidden client-side.\n    roles:\n      - role: Admin\n        access: full\n        can_opt_into_run_only: true\n      - role: Editor\n        access: full\n        can_opt_into_run_only:\
   \ true\n      - role: Member\n        access: full\n        can_opt_into_run_only: true\n      - role: Viewer\n        access: run-only\n        can_opt_into_run_only: forced\n      - role: Chat\n        access: chat-only\n        can_opt_into_run_only: forced\n    consent_toggle: >-\n      The OAuth consent screen shows a Run-Only mode toggle for Member, Editor and Admin,\n      defaulting to off (full access).\n    limitation: >-\n      Chat-role users cannot set up dynamic (user-level) OAuth connections via MCP.\n  session_scope: one Relevance AI project per authenticated connection\ndocs: https://relevanceai.com/docs/integrations/mcp/mcp-server#access-control\ngaps:\n  - REST API keys cannot be scoped or least-privileged; they are all-or-nothing per project.\n  - A single OAuth scope means a client cannot request narrower access than its role allows.\n  - No scope reference page is published; the scope name was read from the metadata document.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relevance-ai/refs/heads/main/scopes/relevance-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/relevance-ai/scopes/relevance-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - AI Agents

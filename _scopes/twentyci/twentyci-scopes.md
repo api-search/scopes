@@ -5,55 +5,55 @@ api_specs:
   label: TwentyCi Address Match API
   slug: twentyci-address-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-address-match-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-address-match-api-openapi.yml
 - filename: twentyci-agent-performance-api-openapi.yml
   format: yaml
   label: TwentyCi Agent Performance API
   slug: twentyci-agent-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-agent-performance-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-agent-performance-api-openapi.yml
 - filename: twentyci-authorisation-api-openapi.yml
   format: yaml
   label: TwentyCi Authorisation API
   slug: twentyci-authorisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-authorisation-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-authorisation-api-openapi.yml
 - filename: twentyci-categories-api-openapi.yml
   format: yaml
   label: TwentyCi Categories API
   slug: twentyci-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-categories-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-categories-api-openapi.yml
 - filename: twentyci-properties-api-openapi.yml
   format: yaml
   label: TwentyCi Properties API
   slug: twentyci-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-properties-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-properties-api-openapi.yml
 - filename: twentyci-schools-api-openapi.yml
   format: yaml
   label: TwentyCi Schools API
   slug: twentyci-schools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-schools-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-schools-api-openapi.yml
 - filename: twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
   format: yaml
   label: TwentyCi This is Now | Retail Propensity To Buy Goods API
   slug: twentyci-this-is-now-retail-propensity-to-buy-goods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
 - filename: twentyci-trigger-information-api-openapi.yml
   format: yaml
   label: TwentyCi Trigger Information API
   slug: twentyci-trigger-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-trigger-information-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-trigger-information-api-openapi.yml
 - filename: twentyci-uk-housing-market-metrics-api-openapi.yml
   format: yaml
   label: TwentyCi UK Housing Market Metrics API
   slug: twentyci-uk-housing-market-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-uk-housing-market-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-uk-housing-market-metrics-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -95,7 +95,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: derived\nsource: openapi/twentyci-twentyapi-openapi.json\nschemes:\n- name: twentyapiOAuth\n  source: openapi/twentyci-twentyapi-openapi.json\n  flows:\n  - flow: password\n    tokenUrl: https://api.twentyci.co.uk/oauth/token\n  description: 'OAuth 2.0 bearer token. TwentyCi''s documentation labels the scheme \"OAuth2\"\n    with flow \"Implicit\" but describes a resource-owner password-credentials exchange: POST\n    /oauth/token with client_id, client_secret, username, password, grant_type=password and\n    scope=* returns {token_type: Bearer, expires_in, access_token, refresh_token}. The token\n    is then sent as \"Authorization: Bearer <token-key>\". Modelled here as the password flow\n    because that is what the documented request body performs. No OpenID Connect discovery document\n    is served (/.well-known/openid-configuration returned 404).'\nscopes:\n- scope: '*'\n  description: Full access; the only scope value documented by TwentyCi.\n\
   \  flows:\n  - password\n  sources:\n  - openapi/twentyci-twentyapi-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/scopes/twentyci-scopes.yml
+source_yaml_url: https://artifacts.apis.io/twentyci/scopes/twentyci-scopes.yml
 summary_line: 1 scope · password
 tags:
 - Real Estate

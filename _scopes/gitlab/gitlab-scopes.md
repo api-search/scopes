@@ -5,97 +5,97 @@ api_specs:
   label: GitLab Admin API
   slug: gitlab-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-admin-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-admin-api-openapi.yml
 - filename: gitlab-application-api-openapi.yml
   format: yaml
   label: GitLab Application API
   slug: gitlab-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-application-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-application-api-openapi.yml
 - filename: gitlab-applications-api-openapi.yml
   format: yaml
   label: GitLab Applications API
   slug: gitlab-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-applications-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-applications-api-openapi.yml
 - filename: gitlab-authorization-api-openapi.yml
   format: yaml
   label: GitLab Authorization API
   slug: gitlab-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-authorization-api-openapi.yml
 - filename: gitlab-avatar-api-openapi.yml
   format: yaml
   label: GitLab Avatar API
   slug: gitlab-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-avatar-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-avatar-api-openapi.yml
 - filename: gitlab-broadcast-messages-api-openapi.yml
   format: yaml
   label: GitLab Broadcast Messages API
   slug: gitlab-broadcast-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-broadcast-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-broadcast-messages-api-openapi.yml
 - filename: gitlab-bulk-imports-api-openapi.yml
   format: yaml
   label: GitLab Bulk Imports API
   slug: gitlab-bulk-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-bulk-imports-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-bulk-imports-api-openapi.yml
 - filename: gitlab-groups-api-openapi.yml
   format: yaml
   label: GitLab Groups API
   slug: gitlab-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-groups-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-groups-api-openapi.yml
 - filename: gitlab-metadata-api-openapi.yml
   format: yaml
   label: GitLab Metadata API
   slug: gitlab-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-metadata-api-openapi.yml
 - filename: gitlab-project-webhooks-api-openapi.yml
   format: yaml
   label: GitLab Project Webhooks API
   slug: gitlab-project-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-project-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-project-webhooks-api-openapi.yml
 - filename: gitlab-projects-api-openapi.yml
   format: yaml
   label: GitLab Projects API
   slug: gitlab-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-projects-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-projects-api-openapi.yml
 - filename: gitlab-tokens-api-openapi.yml
   format: yaml
   label: GitLab Tokens API
   slug: gitlab-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-tokens-api-openapi.yml
 - filename: gitlab-user-info-api-openapi.yml
   format: yaml
   label: GitLab User Info API
   slug: gitlab-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-user-info-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-user-info-api-openapi.yml
 - filename: gitlab-version-api-openapi.yml
   format: yaml
   label: GitLab Version API
   slug: gitlab-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-version-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-version-api-openapi.yml
 - filename: gitlab-webhook-configuration-api-openapi.yml
   format: yaml
   label: GitLab Webhook Configuration API
   slug: gitlab-webhook-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-webhook-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-webhook-configuration-api-openapi.yml
 - filename: gitlab-webhook-events-api-openapi.yml
   format: yaml
   label: GitLab Webhook Events API
   slug: gitlab-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/openapi/gitlab-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab/openapi/gitlab-webhook-events-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.gitlab.com/integration/oauth_provider/
@@ -245,7 +245,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: https://gitlab.
   \  description: Read-only access to the authenticated user's profile through the /user API, including username, public email, and full name.\n- scope: create_runner\n  description: Grants create access to the runners.\n- scope: manage_runner\n  description: Grants access to manage the runners.\n- scope: k8s_proxy\n  description: Perform Kubernetes API calls using the agent for Kubernetes.\n- scope: self_rotate\n  description: Rotate the access token used to make the request. Documented via the live discovery metadata; not enumerated on the OAuth provider scopes page.\n- scope: mcp\n  description: Access to the GitLab Model Context Protocol (MCP) server at /api/v4/mcp for AI agents.\n- scope: mcp_orbit\n  description: Scope for the GitLab Orbit agent context surface (from live discovery metadata).\n- scope: read_repository\n  description: Read-only access to repositories on private projects using Git-over-HTTP or the Repository Files API.\n- scope: write_repository\n  description: Read-write\
   \ access to repositories on private projects using Git-over-HTTP.\n- scope: read_registry\n  description: Read-only access to container registry images on private projects.\n- scope: write_registry\n  description: Write access to container registry images on private projects.\n- scope: read_virtual_registry\n  description: Read-only access to container images through the dependency proxy.\n- scope: write_virtual_registry\n  description: Read, write, and delete access to container images through the dependency proxy.\n- scope: read_observability\n  description: Read-only access to GitLab Observability.\n- scope: write_observability\n  description: Write access to GitLab Observability.\n- scope: ai_features\n  description: Access to GitLab Duo related API endpoints.\n- scope: ai_workflows\n  description: Access to AI workflow endpoints (from live discovery metadata).\n- scope: sudo\n  description: Perform API actions as any user in the system (available only for administrators).\n- scope:\
   \ admin_mode\n  description: Perform API actions as an administrator when Admin Mode is enabled.\n- scope: read_service_ping\n  description: Download Service Ping payloads through the API when authenticated as an administrator.\n- scope: openid\n  description: Authenticate with GitLab using OpenID Connect; also grants read-only access to the user's profile and group memberships.\n- scope: profile\n  description: Read-only access to the user's profile data using OpenID Connect.\n- scope: email\n  description: Read-only access to the user's primary email address using OpenID Connect.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/scopes/gitlab-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gitlab/scopes/gitlab-scopes.yml
 summary_line: 25 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Code

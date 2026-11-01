@@ -46,7 +46,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://app.violetlabs.com/.well-known/oauth-authorization-server\ndocs: https://docs.violetlabs.com/ai/mcp\ndescription: >-\n  OAuth 2.0 scopes advertised by the Violet Labs authorization server. The\n  server (app.violetlabs.com) publishes a single scope, `mcp`, used to authorize\n  the hosted Model Context Protocol server against a selected workspace. The\n  REST Explore API itself is authorized by API key rather than OAuth scopes.\nschemes:\n- name: oauth2\n  source: well-known/violetlabs-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.violetlabs.com/api/oauth/authorize\n    tokenUrl: https://app.violetlabs.com/api/oauth/token\n    pkce: S256\n  - flow: clientCredentials\n    tokenUrl: https://app.violetlabs.com/api/oauth/token\nscopes:\n- scope: mcp\n  description: >-\n    Authorize the Violet hosted MCP server to access the selected workspace's\n    structured\
   \ data on the user's behalf.\n  flows: [authorizationCode, clientCredentials]\n  sources: [well-known/violetlabs-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/violetlabs/refs/heads/main/scopes/violetlabs-scopes.yml
+source_yaml_url: https://artifacts.apis.io/violetlabs/scopes/violetlabs-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
 - Company

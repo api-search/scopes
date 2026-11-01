@@ -5,25 +5,25 @@ api_specs:
   label: RubiConnect Campaigns API
   slug: rubiconnect-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-campaigns-api-openapi.yml
 - filename: rubiconnect-capabilities-api-openapi.yml
   format: yaml
   label: RubiConnect Capabilities API
   slug: rubiconnect-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-capabilities-api-openapi.yml
 - filename: rubiconnect-messages-api-openapi.yml
   format: yaml
   label: RubiConnect Messages API
   slug: rubiconnect-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-messages-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-messages-api-openapi.yml
 - filename: rubiconnect-webhooks-api-openapi.yml
   format: yaml
   label: RubiConnect Webhooks API
   slug: rubiconnect-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/openapi/rubiconnect-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/rubiconnect/openapi/rubiconnect-webhooks-api-openapi.yml
 authorization_urls:
 - https://console.rubiconnect.com/en/authorize
 description: ''
@@ -57,7 +57,7 @@ source_filename: rubiconnect-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-15'\nmethod: probed\nsource: https://console.rubiconnect.com/.well-known/oauth-authorization-server\nnote: >-\n  The REST OpenAPI declares only apiKey + http bearer security schemes (no oauth2 block), so no\n  scopes are derivable from the spec. OAuth 2.0 is used by the hosted MCP server and is described\n  only in the served authorization-server metadata, which advertises a single scope.\nauthorization_endpoint: https://console.rubiconnect.com/en/authorize\ntoken_endpoint: https://console.rubiconnect.com/api/oauth/token\nscopes:\n  - name: mcp\n    description: >-\n      Grants an OAuth client access to the RubiConnect hosted MCP server and its 18 messaging /\n      campaign / analytics tools, scoped to the authenticated account.\nscope_count: 1\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rubiconnect/refs/heads/main/scopes/rubiconnect-scopes.yml
+source_yaml_url: https://artifacts.apis.io/rubiconnect/scopes/rubiconnect-scopes.yml
 summary_line: 1 scope
 tags:
 - CPaaS

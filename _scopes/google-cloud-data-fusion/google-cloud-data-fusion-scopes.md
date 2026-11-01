@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud Data Fusion Instances API
   slug: google-cloud-data-fusion-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-fusion/openapi/google-cloud-data-fusion-instances-api-openapi.yml
 - filename: google-cloud-data-fusion-locations-api-openapi.yml
   format: yaml
   label: Google Cloud Data Fusion Locations API
   slug: google-cloud-data-fusion-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-locations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-fusion/openapi/google-cloud-data-fusion-locations-api-openapi.yml
 - filename: google-cloud-data-fusion-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Data Fusion Operations API
   slug: google-cloud-data-fusion-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/openapi/google-cloud-data-fusion-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-fusion/openapi/google-cloud-data-fusion-operations-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -59,7 +59,7 @@ source_filename: google-cloud-data-fusion-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-cloud-data-fusion-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-cloud-data-fusion-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud Platform\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-data-fusion-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-data-fusion/refs/heads/main/scopes/google-cloud-data-fusion-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-data-fusion/scopes/google-cloud-data-fusion-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Data Integration

@@ -46,7 +46,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://mcp.horizon3ai.com/.well-known/oauth-authorization-server\ndocs: https://docs.horizon3.ai/api/getting_started/authenticate/\nnotes: >-\n  The NodeZero GraphQL API uses API-key -> JWT bearer auth with coarse role-based\n  permissions (not per-scope). OAuth scopes below apply to the hosted MCP server's\n  OAuth 2.1 authorization server. API-key roles are captured as a permission model.\nschemes:\n- name: mcp-oauth2.1\n  source: https://mcp.horizon3ai.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth-proxy.horizon3ai.com/authorize\n    tokenUrl: https://oauth-proxy.horizon3ai.com/token\nscopes:\n- scope: read\n  description: Read access to NodeZero data via the MCP server.\n  flows: [authorizationCode]\n  sources: [https://mcp.horizon3ai.com/.well-known/oauth-authorization-server]\n- scope: write\n  description: Write / action access via the MCP server.\n\
   \  flows: [authorizationCode]\n  sources: [https://mcp.horizon3ai.com/.well-known/oauth-authorization-server]\napi_key_roles:\n- role: User\n  description: Basic read/write permissions; can run pentests and read results.\n- role: Read-only\n  description: Can read pentest results but cannot run pentests.\n- role: NodeZero Runner\n  description: Specialized, heavily restricted role for NodeZero Runner deployments.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/scopes/horizon3ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/horizon3ai/scopes/horizon3ai-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

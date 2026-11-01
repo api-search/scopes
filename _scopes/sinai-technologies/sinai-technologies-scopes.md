@@ -5,19 +5,19 @@ api_specs:
   label: Sinai Technologies Baseline forecasts API
   slug: sinai-technologies-baseline-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-baseline-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/sinai-technologies/openapi/sinai-technologies-baseline-forecasts-api-openapi.yml
 - filename: sinai-technologies-carbon-accounting-api-openapi.yml
   format: yaml
   label: Sinai Technologies Carbon accounting API
   slug: sinai-technologies-carbon-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-carbon-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/sinai-technologies/openapi/sinai-technologies-carbon-accounting-api-openapi.yml
 - filename: sinai-technologies-organization-management-api-openapi.yml
   format: yaml
   label: Sinai Technologies Organization management API
   slug: sinai-technologies-organization-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/openapi/sinai-technologies-organization-management-api-openapi.yml
+  url: https://artifacts.apis.io/sinai-technologies/openapi/sinai-technologies-organization-management-api-openapi.yml
 authorization_urls:
 - https://auth.sinai.com/oauth2/authorize
 description: ''
@@ -92,7 +92,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/sinai-technologies-openapi-original.yml\ndocs: https://docs.sinai.com/reference/accessing-the-api\nnotes: >-\n  Scopes are resource-URI style and apply to the Client Credentials flow; request\n  one or more as a space-separated `scope` parameter at the token endpoint. The\n  Authorization Code flow currently supports no scopes (access is governed by the\n  user's platform permissions). Docs enumerate an additional\n  `https://api.sinai.com/decarbonization_roadmap` scope alongside those in the\n  spec's flow map.\nschemes:\n- name: OAuth2ClientCredentialsProduction\n  source: openapi/sinai-technologies-openapi-original.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sinai.com/oauth2/token\n- name: OAuth2AuthCodeProduction\n  source: openapi/sinai-technologies-openapi-original.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.sinai.com/oauth2/authorize\n    tokenUrl:\
   \ https://auth.sinai.com/oauth2/token\nscopes:\n- scope: https://api.sinai.com/organization\n  description: Organization-level data and features\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sinai-technologies-openapi-original.yml\n- scope: https://api.sinai.com/carbon_accounting\n  description: Read/write access to carbon accounting data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sinai-technologies-openapi-original.yml\n- scope: https://api.sinai.com/baseline_forecasts\n  description: Read/write access to baseline forecasts data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sinai-technologies-openapi-original.yml\n- scope: https://api.sinai.com/transition_plan\n  description: Transition plan modeling and access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sinai-technologies-openapi-original.yml\n- scope: https://api.sinai.com/reduction_projects\n  description: Emissions reduction project data\n  flows:\n  - clientCredentials\n  sources:\n\
   \  - openapi/sinai-technologies-openapi-original.yml\n- scope: https://api.sinai.com/decarbonization_roadmap\n  description: Strategic decarbonization roadmap\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sinai-technologies-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/scopes/sinai-technologies-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sinai-technologies/scopes/sinai-technologies-scopes.yml
 summary_line: 6 scopes · clientCredentials/authorizationCode
 tags:
 - Company

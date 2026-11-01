@@ -40,7 +40,7 @@ source_filename: cru-kafe-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://www.crukafe.com/.well-known/openid-configuration (scopes_supported)\ndocs: https://shopify.dev/docs/api/customer\nprovider_note: >-\n  OAuth scopes advertised by the Shopify Customer Account OIDC discovery document served\n  on crukafe.com. Platform-standard Shopify customer-account scopes, not custom CRU Kafe scopes.\nscopes:\n- name: openid\n  description: OpenID Connect authentication; returns an ID token identifying the customer.\n- name: email\n  description: Access the authenticated customer's email address and verification status.\n- name: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the signed-in customer.\n- name: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API surface (agent-driven customer operations).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cru-kafe/refs/heads/main/scopes/cru-kafe-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cru-kafe/scopes/cru-kafe-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

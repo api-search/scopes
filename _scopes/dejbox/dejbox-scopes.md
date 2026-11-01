@@ -54,7 +54,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://customers.refectory.fr/.well-known/openid-configuration\ndocs: https://customers.refectory.fr/.well-known/openid-configuration\nnote: >-\n  Scopes advertised by the Refectory (Dejbox) OpenID Connect discovery document\n  (scopes_supported). Only the standard OIDC/offline scopes are publicly advertised;\n  no product/resource scope reference page is published.\nschemes:\n- name: OAuth2\n  source: well-known/dejbox-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://customers.refectory.fr/oauth2/auth\n    tokenUrl: https://customers.refectory.fr/oauth2/token\n  - flow: clientCredentials\n    tokenUrl: https://customers.refectory.fr/oauth2/token\nscopes:\n- scope: openid\n  description: Authenticate the end user and issue an ID token (OpenID Connect).\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/dejbox-openid-configuration.json\n- scope: offline_access\n  description:\
   \ Request a refresh token for offline (long-lived) access.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/dejbox-openid-configuration.json\n- scope: offline\n  description: Legacy offline-access alias advertised by the authorization server.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/dejbox-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dejbox/refs/heads/main/scopes/dejbox-scopes.yml
+source_yaml_url: https://artifacts.apis.io/dejbox/scopes/dejbox-scopes.yml
 summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
 - Company

@@ -5,271 +5,271 @@ api_specs:
   label: Marketo Campaigns API
   slug: marketo-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-campaigns-api-openapi.yml
 - filename: marketo-channels-api-openapi.yml
   format: yaml
   label: Marketo Channels API
   slug: marketo-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-channels-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-channels-api-openapi.yml
 - filename: marketo-email-templates-api-openapi.yml
   format: yaml
   label: Marketo Email  Templates API
   slug: marketo-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-email-templates-api-openapi.yml
 - filename: marketo-emails-api-openapi.yml
   format: yaml
   label: Marketo Emails API
   slug: marketo-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-emails-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-emails-api-openapi.yml
 - filename: marketo-file-contents-api-openapi.yml
   format: yaml
   label: Marketo File  Contents API
   slug: marketo-file-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-file-contents-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-file-contents-api-openapi.yml
 - filename: marketo-files-api-openapi.yml
   format: yaml
   label: Marketo Files API
   slug: marketo-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-files-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-files-api-openapi.yml
 - filename: marketo-folders-api-openapi.yml
   format: yaml
   label: Marketo Folders API
   slug: marketo-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-folders-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-folders-api-openapi.yml
 - filename: marketo-form-fields-api-openapi.yml
   format: yaml
   label: Marketo Form  Fields API
   slug: marketo-form-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-form-fields-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-form-fields-api-openapi.yml
 - filename: marketo-forms-api-openapi.yml
   format: yaml
   label: Marketo Forms API
   slug: marketo-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-forms-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-forms-api-openapi.yml
 - filename: marketo-landing-page-content-api-openapi.yml
   format: yaml
   label: Marketo Landing  Page  Content API
   slug: marketo-landing-page-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-landing-page-content-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-landing-page-content-api-openapi.yml
 - filename: marketo-landing-page-redirect-rules-api-openapi.yml
   format: yaml
   label: Marketo Landing  Page  Redirect  Rules API
   slug: marketo-landing-page-redirect-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-landing-page-redirect-rules-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-landing-page-redirect-rules-api-openapi.yml
 - filename: marketo-landing-page-templates-api-openapi.yml
   format: yaml
   label: Marketo Landing  Page  Templates API
   slug: marketo-landing-page-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-landing-page-templates-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-landing-page-templates-api-openapi.yml
 - filename: marketo-landing-pages-api-openapi.yml
   format: yaml
   label: Marketo Landing  Pages API
   slug: marketo-landing-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-landing-pages-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-landing-pages-api-openapi.yml
 - filename: marketo-programs-api-openapi.yml
   format: yaml
   label: Marketo Programs API
   slug: marketo-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-programs-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-programs-api-openapi.yml
 - filename: marketo-segments-api-openapi.yml
   format: yaml
   label: Marketo Segments API
   slug: marketo-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-segments-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-segments-api-openapi.yml
 - filename: marketo-smart-campaigns-api-openapi.yml
   format: yaml
   label: Marketo Smart  Campaigns API
   slug: marketo-smart-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-smart-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-smart-campaigns-api-openapi.yml
 - filename: marketo-smart-lists-api-openapi.yml
   format: yaml
   label: Marketo Smart  Lists API
   slug: marketo-smart-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-smart-lists-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-smart-lists-api-openapi.yml
 - filename: marketo-snippets-api-openapi.yml
   format: yaml
   label: Marketo Snippets API
   slug: marketo-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-snippets-api-openapi.yml
 - filename: marketo-static-lists-api-openapi.yml
   format: yaml
   label: Marketo Static  Lists API
   slug: marketo-static-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-static-lists-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-static-lists-api-openapi.yml
 - filename: marketo-tokens-api-openapi.yml
   format: yaml
   label: Marketo Tokens API
   slug: marketo-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-tokens-api-openapi.yml
 - filename: marketo-activities-api-openapi.yml
   format: yaml
   label: Marketo Activities API
   slug: marketo-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-activities-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-activities-api-openapi.yml
 - filename: marketo-bulk-export-activities-api-openapi.yml
   format: yaml
   label: Marketo Bulk Export Activities API
   slug: marketo-bulk-export-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-bulk-export-activities-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-bulk-export-activities-api-openapi.yml
 - filename: marketo-bulk-export-custom-objects-api-openapi.yml
   format: yaml
   label: Marketo Bulk Export Custom Objects API
   slug: marketo-bulk-export-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-bulk-export-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-bulk-export-custom-objects-api-openapi.yml
 - filename: marketo-bulk-export-leads-api-openapi.yml
   format: yaml
   label: Marketo Bulk Export Leads API
   slug: marketo-bulk-export-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-bulk-export-leads-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-bulk-export-leads-api-openapi.yml
 - filename: marketo-bulk-export-program-members-api-openapi.yml
   format: yaml
   label: Marketo Bulk Export Program Members API
   slug: marketo-bulk-export-program-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-bulk-export-program-members-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-bulk-export-program-members-api-openapi.yml
 - filename: marketo-bulk-import-custom-objects-api-openapi.yml
   format: yaml
   label: Marketo Bulk Import Custom Objects API
   slug: marketo-bulk-import-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-bulk-import-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-bulk-import-custom-objects-api-openapi.yml
 - filename: marketo-bulk-import-leads-api-openapi.yml
   format: yaml
   label: Marketo Bulk Import Leads API
   slug: marketo-bulk-import-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-bulk-import-leads-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-bulk-import-leads-api-openapi.yml
 - filename: marketo-bulk-import-program-members-api-openapi.yml
   format: yaml
   label: Marketo Bulk Import Program Members API
   slug: marketo-bulk-import-program-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-bulk-import-program-members-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-bulk-import-program-members-api-openapi.yml
 - filename: marketo-companies-api-openapi.yml
   format: yaml
   label: Marketo Companies API
   slug: marketo-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-companies-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-companies-api-openapi.yml
 - filename: marketo-custom-objects-api-openapi.yml
   format: yaml
   label: Marketo Custom Objects API
   slug: marketo-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-custom-objects-api-openapi.yml
 - filename: marketo-email-templates-new-api-openapi.yml
   format: yaml
   label: Marketo Email Templates (New) API
   slug: marketo-email-templates-new-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-email-templates-new-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-email-templates-new-api-openapi.yml
 - filename: marketo-emails-new-api-openapi.yml
   format: yaml
   label: Marketo Emails (New) API
   slug: marketo-emails-new-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-emails-new-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-emails-new-api-openapi.yml
 - filename: marketo-fragments-new-api-openapi.yml
   format: yaml
   label: Marketo Fragments (New) API
   slug: marketo-fragments-new-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-fragments-new-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-fragments-new-api-openapi.yml
 - filename: marketo-identity-api-openapi.yml
   format: yaml
   label: Marketo Identity API
   slug: marketo-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-identity-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-identity-api-openapi.yml
 - filename: marketo-leads-api-openapi.yml
   format: yaml
   label: Marketo Leads API
   slug: marketo-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-leads-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-leads-api-openapi.yml
 - filename: marketo-lists-api-openapi.yml
   format: yaml
   label: Marketo Lists API
   slug: marketo-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-lists-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-lists-api-openapi.yml
 - filename: marketo-named-account-lists-api-openapi.yml
   format: yaml
   label: Marketo Named Account Lists API
   slug: marketo-named-account-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-named-account-lists-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-named-account-lists-api-openapi.yml
 - filename: marketo-named-accounts-api-openapi.yml
   format: yaml
   label: Marketo Named Accounts API
   slug: marketo-named-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-named-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-named-accounts-api-openapi.yml
 - filename: marketo-opportunities-api-openapi.yml
   format: yaml
   label: Marketo Opportunities API
   slug: marketo-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-opportunities-api-openapi.yml
 - filename: marketo-persons-api-openapi.yml
   format: yaml
   label: Marketo Persons API
   slug: marketo-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-persons-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-persons-api-openapi.yml
 - filename: marketo-program-members-api-openapi.yml
   format: yaml
   label: Marketo Program Members API
   slug: marketo-program-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-program-members-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-program-members-api-openapi.yml
 - filename: marketo-tags-api-openapi.yml
   format: yaml
   label: Marketo Tags API
   slug: marketo-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-tags-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-tags-api-openapi.yml
 - filename: marketo-usage-api-openapi.yml
   format: yaml
   label: Marketo Usage API
   slug: marketo-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-usage-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-usage-api-openapi.yml
 - filename: marketo-user-management-api-openapi.yml
   format: yaml
   label: Marketo User Management API
   slug: marketo-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-user-management-api-openapi.yml
 - filename: marketo-salespersons-api-openapi.yml
   format: yaml
   label: Marketo Salespersons API
   slug: marketo-salespersons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/openapi/marketo-salespersons-api-openapi.yml
+  url: https://artifacts.apis.io/marketo/openapi/marketo-salespersons-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services
@@ -401,7 +401,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://experie
   \ — and a separate API-Only user per integration, because API call\n    usage and errors are tracked per user.\nscopes:\n  - scope: Approve Assets\n    description: Approve assets.\n  - scope: Execute Campaign\n    description: Request or Schedule a campaign.\n  - scope: Read-Only Activity\n    description: Retrieve lead activities.\n  - scope: Read-Only Activity Metadata\n    description: Retrieve lead activity metadata.\n  - scope: Read-Only Assets\n    description: Retrieve asset details.\n  - scope: Read-Only Campaign\n    description: Retrieve campaign details.\n  - scope: Read-Only Company\n    description: Retrieve company details.\n  - scope: Read-Only Custom Object\n    description: Retrieve custom object details.\n  - scope: Read-Only Lead\n    description: Retrieve lead details.\n  - scope: Read-Only Named Account\n    description: Retrieve named account details.\n  - scope: Read-Only Named Account List\n    description: Retrieve named account list details.\n  - scope: Read-Only\
   \ Opportunity\n    description: Retrieve opportunity details.\n  - scope: Read-Only Sales Person\n    description: Retrieve sales person details.\n  - scope: Read-Write Activity\n    description: Retrieve and create lead activities.\n  - scope: Read-Write Activity Metadata\n    description: Retrieve and create lead activity metadata.\n  - scope: Read-Write Assets\n    description: Retrieve, create, and update assets.\n  - scope: Read-Write Campaign\n    description: Retrieve, create, and update campaigns.\n  - scope: Read-Write Company\n    description: Retrieve, create, and update companies.\n  - scope: Read-Write Custom Object\n    description: Retrieve, create, and update custom objects.\n  - scope: Read-Write Lead\n    description: Retrieve, create, and update lead details.\n  - scope: Read-Write Named Account\n    description: Retrieve, create, and update named accounts.\n  - scope: Read-Write Named Account List\n    description: Retrieve, create, and update named account lists.\n\
   \  - scope: Read-Write Opportunity\n    description: Retrieve, create, and update opportunities.\n  - scope: Read-Write Sales Person\n    description: Retrieve, create, and update sales persons.\nscope_count: 24\nenforcement:\n  insufficient_permission_error: '603 Access denied'\n  note: >-\n    Individual operation descriptions in Adobe's specs name the permission they\n    require, e.g. \"Required Permissions: Read-Only Activity\" on\n    getExportActivitiesUsingGET.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/scopes/marketo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/marketo/scopes/marketo-scopes.yml
 summary_line: 24 scopes
 tags:
 - Adobe

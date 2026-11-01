@@ -5,31 +5,31 @@ api_specs:
   label: Azure Log Analytics Ingestion API
   slug: azure-log-analytics-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-ingestion-api-openapi.yml
 - filename: azure-log-analytics-query-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Query API
   slug: azure-log-analytics-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-query-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-query-api-openapi.yml
 - filename: azure-log-analytics-saved-searches-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Saved Searches API
   slug: azure-log-analytics-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-saved-searches-api-openapi.yml
 - filename: azure-log-analytics-tables-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Tables API
   slug: azure-log-analytics-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-tables-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-tables-api-openapi.yml
 - filename: azure-log-analytics-workspaces-api-openapi.yml
   format: yaml
   label: Azure Log Analytics Workspaces API
   slug: azure-log-analytics-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/azure-log-analytics/openapi/azure-log-analytics-workspaces-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -68,7 +68,7 @@ source_filename: azure-log-analytics-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-log-analytics-management-api.yaml\nschemes:\n- name: oauth2\n  source: openapi/azure-log-analytics-management-api.yaml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 implicit flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/azure-log-analytics-management-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/scopes/azure-log-analytics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/azure-log-analytics/scopes/azure-log-analytics-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Analytics

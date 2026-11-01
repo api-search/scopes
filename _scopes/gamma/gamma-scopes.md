@@ -46,7 +46,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://mcp.gamma.app/.well-known/oauth-protected-resource\ndocs: https://developers.gamma.app/mcp/mcp-tools-reference\nnotes: >-\n  OAuth scopes apply to the Gamma remote MCP server / OAuth surface. The REST\n  Generate API itself authenticates with an X-API-KEY header and has no scope\n  model. Scopes discovered from the RFC 9728 protected-resource metadata and the\n  RFC 8414 authorization-server metadata at auth.gamma.app.\nschemes:\n- name: OAuth2\n  source: https://auth.gamma.app/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.gamma.app/oauth/authorize\n    tokenUrl: https://auth.gamma.app/oauth/token\nscopes:\n- scope: generate\n  description: Create and generate gammas (presentations, documents, websites, social posts).\n  flows: [authorizationCode]\n  sources: [https://mcp.gamma.app/.well-known/oauth-protected-resource]\n- scope: gamma:read\n  description:\
   \ Read existing gammas, themes, folders, and analytics.\n  flows: [authorizationCode]\n  sources: [https://mcp.gamma.app/.well-known/oauth-protected-resource]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/scopes/gamma-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gamma/scopes/gamma-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

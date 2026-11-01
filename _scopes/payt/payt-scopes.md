@@ -5,121 +5,121 @@ api_specs:
   label: Payt Administrations API
   slug: payt-administrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-administrations-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-administrations-api-openapi.yml
 - filename: payt-companies-api-openapi.yml
   format: yaml
   label: Payt Companies API
   slug: payt-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-companies-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-companies-api-openapi.yml
 - filename: payt-contacts-api-openapi.yml
   format: yaml
   label: Payt Contacts API
   slug: payt-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-contacts-api-openapi.yml
 - filename: payt-credit-cases-api-openapi.yml
   format: yaml
   label: Payt Credit Cases API
   slug: payt-credit-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-credit-cases-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-credit-cases-api-openapi.yml
 - filename: payt-debtors-api-openapi.yml
   format: yaml
   label: Payt Debtors API
   slug: payt-debtors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-debtors-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-debtors-api-openapi.yml
 - filename: payt-files-api-openapi.yml
   format: yaml
   label: Payt Files API
   slug: payt-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-files-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-files-api-openapi.yml
 - filename: payt-invoices-api-openapi.yml
   format: yaml
   label: Payt Invoices API
   slug: payt-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-invoices-api-openapi.yml
 - filename: payt-messages-api-openapi.yml
   format: yaml
   label: Payt Messages API
   slug: payt-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-messages-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-messages-api-openapi.yml
 - filename: payt-notes-api-openapi.yml
   format: yaml
   label: Payt Notes API
   slug: payt-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-notes-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-notes-api-openapi.yml
 - filename: payt-notifications-api-openapi.yml
   format: yaml
   label: Payt Notifications API
   slug: payt-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-notifications-api-openapi.yml
 - filename: payt-order-lines-api-openapi.yml
   format: yaml
   label: Payt Order Lines API
   slug: payt-order-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-order-lines-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-order-lines-api-openapi.yml
 - filename: payt-orders-api-openapi.yml
   format: yaml
   label: Payt Orders API
   slug: payt-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-orders-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-orders-api-openapi.yml
 - filename: payt-payment-conditions-api-openapi.yml
   format: yaml
   label: Payt Payment Conditions API
   slug: payt-payment-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-payment-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-payment-conditions-api-openapi.yml
 - filename: payt-payment-plans-api-openapi.yml
   format: yaml
   label: Payt Payment Plans API
   slug: payt-payment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-payment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-payment-plans-api-openapi.yml
 - filename: payt-payments-api-openapi.yml
   format: yaml
   label: Payt Payments API
   slug: payt-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-payments-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-payments-api-openapi.yml
 - filename: payt-psp-mandates-api-openapi.yml
   format: yaml
   label: Payt Psp Mandates API
   slug: payt-psp-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-psp-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-psp-mandates-api-openapi.yml
 - filename: payt-psp-transactions-api-openapi.yml
   format: yaml
   label: Payt Psp Transactions API
   slug: payt-psp-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-psp-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-psp-transactions-api-openapi.yml
 - filename: payt-tasks-api-openapi.yml
   format: yaml
   label: Payt Tasks API
   slug: payt-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-tasks-api-openapi.yml
 - filename: payt-vat-rates-api-openapi.yml
   format: yaml
   label: Payt Vat Rates API
   slug: payt-vat-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-vat-rates-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-vat-rates-api-openapi.yml
 - filename: payt-signup-api-openapi.yml
   format: yaml
   label: Payt Signup API
   slug: payt-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/openapi/payt-signup-api-openapi.yml
+  url: https://artifacts.apis.io/payt/openapi/payt-signup-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.paytsoftware.com/authentication/permissions
@@ -147,7 +147,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.paytsoftware.com/authentication/permissions\ndocs: https://docs.paytsoftware.com/authentication/permissions\nmodel:\n  standard: oauth2\n  naming: '<resource>:<action>'\n  actions:\n  - read\n  - write\n  delimiter: space\n  notes: >-\n    Payt permissions are implemented as OAuth 2.0 scopes (RFC 6749 section 3.3);\n    the words \"permission\" and \"scope\" are used interchangeably. Scopes are\n    requested via the scope parameter on the authorize URL (space-separated) and\n    the granted set is returned on every token create and on token introspection.\n    Acting on a resource without its scope returns 403 with a body naming the\n    missing permission, e.g. {\"code\":\"forbidden\",\"message\":\"Missing permission:\n    invoices:write\"}. The full, current list of scopes is published only on the\n    application create/edit form inside the Payt UI (Connections page), not in the\n    public docs, so the list\
   \ below captures the scopes explicitly evidenced in the\n    documentation plus the resource families exposed by the API.\nconfirmed_scopes:\n- scope: debtors:read\n  evidence: authorize-URL example and webhook payload scoping note\n- scope: invoices:read\n  evidence: authorize-URL / token-response example (scope \"invoices:read debtors:read\")\n- scope: invoices:write\n  evidence: '403 error example (Missing permission: invoices:write)'\nresource_families:\n  note: >-\n    Each API resource family below is a candidate scope prefix under the\n    <resource>:read / <resource>:write model. Only the three scopes in\n    confirmed_scopes are documented verbatim; the rest are inferred from the API\n    surface and MUST be confirmed against the in-app application form before use.\n  prefixes:\n  - administrations\n  - companies\n  - contacts\n  - credit_cases\n  - debtors\n  - files\n  - invoices\n  - messages\n  - notes\n  - notifications\n  - order_lines\n  - orders\n  - payment_conditions\n\
   \  - payment_plans\n  - payments\n  - psp_mandates\n  - psp_transactions\n  - tasks\n  - vat_rates\nlifecycle:\n  add: >-\n    Adding a scope to an application does not retroactively grant it; users must\n    re-authorize to grant newly requested scopes.\n  remove: >-\n    Removing a scope immediately invalidates it across all existing tokens; those\n    endpoints then return 403 even for previously valid tokens.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/scopes/payt-scopes.yml
+source_yaml_url: https://artifacts.apis.io/payt/scopes/payt-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

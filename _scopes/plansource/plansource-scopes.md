@@ -5,55 +5,55 @@ api_specs:
   label: PlanSource ACA API
   slug: plansource-aca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-aca-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-aca-api-openapi.yml
 - filename: plansource-administrators-api-openapi.yml
   format: yaml
   label: PlanSource Administrators API
   slug: plansource-administrators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-administrators-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-administrators-api-openapi.yml
 - filename: plansource-collections-api-openapi.yml
   format: yaml
   label: PlanSource Collections API
   slug: plansource-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-collections-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-collections-api-openapi.yml
 - filename: plansource-coverage-api-openapi.yml
   format: yaml
   label: PlanSource Coverage API
   slug: plansource-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-coverage-api-openapi.yml
 - filename: plansource-demographic-api-openapi.yml
   format: yaml
   label: PlanSource Demographic API
   slug: plansource-demographic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-demographic-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-demographic-api-openapi.yml
 - filename: plansource-eoi-api-openapi.yml
   format: yaml
   label: PlanSource EOI API
   slug: plansource-eoi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-eoi-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-eoi-api-openapi.yml
 - filename: plansource-page-content-api-openapi.yml
   format: yaml
   label: PlanSource Page Content API
   slug: plansource-page-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-page-content-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-page-content-api-openapi.yml
 - filename: plansource-payroll-api-openapi.yml
   format: yaml
   label: PlanSource Payroll API
   slug: plansource-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-payroll-api-openapi.yml
 - filename: plansource-security-api-openapi.yml
   format: yaml
   label: PlanSource Security API
   slug: plansource-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/openapi/plansource-security-api-openapi.yml
+  url: https://artifacts.apis.io/plansource/openapi/plansource-security-api-openapi.yml
 authorization_urls:
 - https://api.plansource.com/sso/oauth2/authorize
 description: ''
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource:\n- openapi/plan
   \  - authorizationCode\n  surface: SSO\n  sources:\n  - well-known/plansource-openid-configuration.json\n- scope: profile\n  description: Standard OIDC profile claims\n  flows:\n  - authorizationCode\n  surface: SSO\n  sources:\n  - well-known/plansource-openid-configuration.json\n- scope: email\n  description: Standard OIDC email claim\n  flows:\n  - authorizationCode\n  surface: SSO\n  sources:\n  - well-known/plansource-openid-configuration.json\n- scope: address\n  description: Standard OIDC address claim\n  flows:\n  - authorizationCode\n  surface: SSO\n  sources:\n  - well-known/plansource-openid-configuration.json\n- scope: phone\n  description: Standard OIDC phone claim\n  flows:\n  - authorizationCode\n  surface: SSO\n  sources:\n  - well-known/plansource-openid-configuration.json\n- scope: admin_access\n  description: 'PlanSource-specific: administrator-level portal access'\n  flows:\n  - authorizationCode\n  surface: SSO\n  sources:\n  - well-known/plansource-openid-configuration.json\n\
   - scope: subscriber_access\n  description: 'PlanSource-specific: employee (subscriber) portal access'\n  flows:\n  - authorizationCode\n  surface: SSO\n  sources:\n  - well-known/plansource-openid-configuration.json\nanalysis:\n  granularity: none on the Admin API\n  note: The Admin API has exactly ONE scope, `admin_api_v2`, whose own description is \"Access to all endpoints\".\n    A token issued for a partner that only needs to read payroll deductions carries the same authority\n    as one that can terminate every coverage for every employee (PUT /coverage/subscriber/{subscriber_id}/terminate)\n    and disable administrators. There is no read-only scope, no per-domain scope (demographic / payroll\n    / coverage / EOI / administrator) and no way to least-privilege an integration. For an API carrying\n    HIPAA-regulated PHI across 80 operations, this is the single largest authorization gap in the profile.\n  contrast: The SSO surface does distinguish admin_access from subscriber_access,\
   \ so the concept exists\n    in the platform - it just has not been carried into the Admin API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/scopes/plansource-scopes.yml
+source_yaml_url: https://artifacts.apis.io/plansource/scopes/plansource-scopes.yml
 summary_line: 8 scopes · clientCredentials/authorizationCode
 tags:
 - Employee Benefits

@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://nimanow.com/.well-known/openid-configuration\ndocs: https://nimanow.com/.well-known/openid-configuration\nnote: >-\n  OAuth2/OIDC scopes advertised by Shopify's Customer Account API for the NIMA storefront\n  (scopes_supported in the store's OIDC discovery document). Platform-level, not a first-party\n  NIMA developer API.\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/nimasensor-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.nimanow.com/authentication/oauth/authorize\n    tokenUrl: https://account.nimanow.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication of the storefront customer.\n  flows:\n  - authorizationCode\n- scope: email\n  description: Access to the authenticated customer's email address.\n  flows:\n  - authorizationCode\n- scope: customer-account-api:full\n  description: Full\
   \ access to the Shopify Customer Account API for the signed-in customer.\n  flows:\n  - authorizationCode\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API for the signed-in customer.\n  flows:\n  - authorizationCode\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nimasensor/refs/heads/main/scopes/nimasensor-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nimasensor/scopes/nimasensor-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

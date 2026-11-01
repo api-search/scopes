@@ -5,13 +5,13 @@ api_specs:
   label: Deployxa Deployments API
   slug: deployxa-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/openapi/deployxa-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/deployxa/openapi/deployxa-deployments-api-openapi.yml
 - filename: deployxa-projects-api-openapi.yml
   format: yaml
   label: Deployxa Projects API
   slug: deployxa-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/openapi/deployxa-projects-api-openapi.yml
+  url: https://artifacts.apis.io/deployxa/openapi/deployxa-projects-api-openapi.yml
 authorization_urls:
 - https://deployxa.com/login
 - https://mcp.deployxa.com/oauth/authorize
@@ -112,7 +112,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://mcp.deployxa.com/.well-known/oauth-authorization-server\ndocs: https://deployxa.com/auth.md\nnote: >-\n  The OpenAPI declares no oauth2 securitySchemes; scopes are searched from the\n  provider's live RFC 8414 authorization-server metadata. The primary-domain\n  auth server advertises OIDC-style scopes; the MCP auth server advertises the\n  resource scopes. No per-scope prose descriptions are published — names only.\nschemes:\n  - name: Deployxa OAuth (deployxa.com)\n    source: https://deployxa.com/.well-known/oauth-authorization-server\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://deployxa.com/login\n        tokenUrl: https://deployxa.com/api/auth/token\n  - name: Deployxa MCP OAuth (mcp.deployxa.com)\n    source: https://mcp.deployxa.com/.well-known/oauth-authorization-server\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.deployxa.com/oauth/authorize\n\
   \        tokenUrl: https://mcp.deployxa.com/oauth/token\nscopes:\n  - scope: openid\n    flows: [authorizationCode]\n    sources: [https://deployxa.com/.well-known/oauth-authorization-server]\n  - scope: profile\n    flows: [authorizationCode]\n    sources: [https://deployxa.com/.well-known/oauth-authorization-server]\n  - scope: email\n    flows: [authorizationCode]\n    sources: [https://deployxa.com/.well-known/oauth-authorization-server]\n  - scope: projects:read\n    flows: [authorizationCode]\n    sources: [https://mcp.deployxa.com/.well-known/oauth-authorization-server]\n  - scope: projects:write\n    flows: [authorizationCode]\n    sources: [https://mcp.deployxa.com/.well-known/oauth-authorization-server]\n  - scope: deployments:read\n    flows: [authorizationCode]\n    sources: [https://mcp.deployxa.com/.well-known/oauth-authorization-server]\n  - scope: deployments:write\n    flows: [authorizationCode]\n    sources: [https://mcp.deployxa.com/.well-known/oauth-authorization-server]\n\
   \  - scope: domains:read\n    flows: [authorizationCode]\n    sources: [https://mcp.deployxa.com/.well-known/oauth-authorization-server]\n  - scope: domains:write\n    flows: [authorizationCode]\n    sources: [https://mcp.deployxa.com/.well-known/oauth-authorization-server]\n  - scope: logs:read\n    flows: [authorizationCode]\n    sources: [https://mcp.deployxa.com/.well-known/oauth-authorization-server]\n  - scope: billing:read\n    flows: [authorizationCode]\n    sources: [https://mcp.deployxa.com/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deployxa/refs/heads/main/scopes/deployxa-scopes.yml
+source_yaml_url: https://artifacts.apis.io/deployxa/scopes/deployxa-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
 - Platform-as-a-Service

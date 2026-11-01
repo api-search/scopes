@@ -5,25 +5,25 @@ api_specs:
   label: Microsoft Office 365 Calendar API
   slug: microsoft-office-365-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-calendar-api-openapi.yml
 - filename: microsoft-office-365-groups-api-openapi.yml
   format: yaml
   label: Microsoft Office 365 Groups API
   slug: microsoft-office-365-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-groups-api-openapi.yml
 - filename: microsoft-office-365-mail-api-openapi.yml
   format: yaml
   label: Microsoft Office 365 Mail API
   slug: microsoft-office-365-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-mail-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-mail-api-openapi.yml
 - filename: microsoft-office-365-users-api-openapi.yml
   format: yaml
   label: Microsoft Office 365 Users API
   slug: microsoft-office-365-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-users-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsof
   - scope: Directory.Read.All\n  description: Read directory data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: Directory.ReadWrite.All\n  description: Read and write directory data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: Group.Read.All\n  description: Read all groups\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: Group.ReadWrite.All\n  description: Read and write all groups\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: GroupMember.Read.All\n  description: Read all group memberships\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: GroupMember.ReadWrite.All\n  description: Read and write all group memberships\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: Mail.Read\n  description:\
   \ Read user mail\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: Mail.ReadBasic\n  description: Read user basic mail\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: Mail.ReadWrite\n  description: Read and write user mail\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: Mail.Send\n  description: Send mail as a user\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: User.Read\n  description: Sign in and read user profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: User.Read.All\n  description: Read all users' full profiles\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: User.ReadBasic.All\n  description: Read all users' basic profiles\n  flows:\n  - authorizationCode\n  sources:\n\
   \  - openapi/microsoft-graph-api-openapi.yml\n- scope: User.ReadWrite\n  description: Read and update your profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: User.ReadWrite.All\n  description: Read and write all users' full profiles\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n- scope: https://graph.microsoft.com/.default\n  description: Default scope for application permissions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microsoft-graph-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/scopes/microsoft-office-365-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-office-365/scopes/microsoft-office-365-scopes.yml
 summary_line: 18 scopes · authorizationCode/clientCredentials
 tags:
 - Cloud

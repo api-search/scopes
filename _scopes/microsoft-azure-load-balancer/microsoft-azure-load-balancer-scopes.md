@@ -5,13 +5,13 @@ api_specs:
   label: Azure Load Balancer Load Balancers API
   slug: microsoft-azure-load-balancer-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/openapi/microsoft-azure-load-balancer-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-load-balancer/openapi/microsoft-azure-load-balancer-load-balancers-api-openapi.yml
 - filename: microsoft-azure-load-balancer-operations-api-openapi.yml
   format: yaml
   label: Azure Load Balancer Operations API
   slug: microsoft-azure-load-balancer-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/openapi/microsoft-azure-load-balancer-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-load-balancer/openapi/microsoft-azure-load-balancer-operations-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -50,7 +50,7 @@ source_filename: microsoft-azure-load-balancer-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-load-balancer-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-load-balancer-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-load-balancer-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/scopes/microsoft-azure-load-balancer-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-load-balancer/scopes/microsoft-azure-load-balancer-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Microsoft Azure

@@ -5,25 +5,25 @@ api_specs:
   label: Hydro Ottawa Application Information API
   slug: hydro-ottawa-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/openapi/hydro-ottawa-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-ottawa/openapi/hydro-ottawa-applicationinformation-api-openapi.yml
 - filename: hydro-ottawa-authorization-api-openapi.yml
   format: yaml
   label: Hydro Ottawa Authorization API
   slug: hydro-ottawa-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/openapi/hydro-ottawa-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-ottawa/openapi/hydro-ottawa-authorization-api-openapi.yml
 - filename: hydro-ottawa-batch-api-openapi.yml
   format: yaml
   label: Hydro Ottawa Batch API
   slug: hydro-ottawa-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/openapi/hydro-ottawa-batch-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-ottawa/openapi/hydro-ottawa-batch-api-openapi.yml
 - filename: hydro-ottawa-usagepoint-api-openapi.yml
   format: yaml
   label: Hydro Ottawa Usage Point API
   slug: hydro-ottawa-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/openapi/hydro-ottawa-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-ottawa/openapi/hydro-ottawa-usagepoint-api-openapi.yml
 authorization_urls:
 - https://sandbox.greenbuttonalliance.org:8443/oauth/authorize
 description: ''
@@ -88,7 +88,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/hydro-ottawa-applicationinformation-api-openapi.yml, openapi/hydro-ottawa-authorization-api-openapi.yml,\n  openapi/hydro-ottawa-batch-api-openapi.yml, openapi/hydro-ottawa-usagepoint-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/hydro-ottawa-applicationinformation-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n- name: oauth2\n  source: openapi/hydro-ottawa-authorization-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n\
   - name: oauth2\n  source: openapi/hydro-ottawa-batch-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n- name: oauth2\n  source: openapi/hydro-ottawa-usagepoint-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/scopes/hydro-ottawa-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hydro-ottawa/scopes/hydro-ottawa-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Energy

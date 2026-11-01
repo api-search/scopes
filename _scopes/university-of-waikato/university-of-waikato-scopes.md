@@ -5,19 +5,19 @@ api_specs:
   label: University of Waikato Authentication API
   slug: university-of-waikato-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waikato/openapi/university-of-waikato-authentication-api-openapi.yml
 - filename: university-of-waikato-discovery-api-openapi.yml
   format: yaml
   label: University of Waikato Discovery API
   slug: university-of-waikato-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waikato/openapi/university-of-waikato-discovery-api-openapi.yml
 - filename: university-of-waikato-session-api-openapi.yml
   format: yaml
   label: University of Waikato Session API
   slug: university-of-waikato-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/openapi/university-of-waikato-session-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waikato/openapi/university-of-waikato-session-api-openapi.yml
 authorization_urls: []
 description: The complete authorization scope surface the University of Waikato publishes. The institution's own OpenID Connect provider declares three scopes in scopes_supported, and nothing else on the estate publishes a scope vocabulary — the DSpace REST API and OAI-PMH interface are anonymous reads, the One-Time Secret API is HTTP Basic with no scoping, and LTI 1.3 tool launches carry 1EdTech message claims rather than named OAuth scopes. Scopes here are transcribed from the provider's own discovery document; none is inferred.
 docs: https://api.svc.waikato.ac.nz/uowidp/v1/.well-known/openid-configuration
@@ -63,7 +63,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: https://api.svc.waikato.ac.nz/uowidp/v1/.well-known/openid-configuration\ndocs: https://api.svc.waikato.ac.nz/uowidp/v1/.well-known/openid-configuration\ndescription: >-\n  The complete authorization scope surface the University of Waikato publishes. The institution's\n  own OpenID Connect provider declares three scopes in scopes_supported, and nothing else on the\n  estate publishes a scope vocabulary — the DSpace REST API and OAI-PMH interface are anonymous\n  reads, the One-Time Secret API is HTTP Basic with no scoping, and LTI 1.3 tool launches carry\n  1EdTech message claims rather than named OAuth scopes. Scopes here are transcribed from the\n  provider's own discovery document; none is inferred.\nschemes:\n- name: uowidp\n  type: openIdConnect\n  operator: institution\n  issuer: https://api.svc.waikato.ac.nz/uowidp/v1\n  authorizationUrl: https://api.svc.waikato.ac.nz/uowidp/v1/auth\n  tokenUrl: https://api.svc.waikato.ac.nz/uowidp/v1/token\n\
   \  notes: >-\n    No incremental or resource-specific scopes are advertised. Access to a university system is\n    decided by the client registration ITS issues, not by scope selection at the authorization\n    endpoint.\nscopes:\n- scope: openid\n  scheme: uowidp\n  description: Required for OpenID Connect; requests an id_token identifying the university account.\n- scope: profile\n  scheme: uowidp\n  description: >-\n    Requests profile claims. The provider advertises claims_supported [iss, aud, nbf, exp, iat,\n    nonce, Username, name, ver, oid, sub]; `Username` and `name` are the profile-bearing claims.\n- scope: email\n  scheme: uowidp\n  description: Requests the university email address claim.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/scopes/university-of-waikato-scopes.yml
+source_yaml_url: https://artifacts.apis.io/university-of-waikato/scopes/university-of-waikato-scopes.yml
 summary_line: 3 scopes
 tags:
 - Education

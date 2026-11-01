@@ -5,49 +5,49 @@ api_specs:
   label: Pulsoid Features API
   slug: pulsoid-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-features-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-features-api-openapi.yml
 - filename: pulsoid-geometry-dash-api-openapi.yml
   format: yaml
   label: Pulsoid Geometry Dash API
   slug: pulsoid-geometry-dash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-geometry-dash-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-geometry-dash-api-openapi.yml
 - filename: pulsoid-heart-rate-api-openapi.yml
   format: yaml
   label: Pulsoid Heart Rate API
   slug: pulsoid-heart-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-heart-rate-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-heart-rate-api-openapi.yml
 - filename: pulsoid-profile-api-openapi.yml
   format: yaml
   label: Pulsoid Profile API
   slug: pulsoid-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-profile-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-profile-api-openapi.yml
 - filename: pulsoid-statistics-api-openapi.yml
   format: yaml
   label: Pulsoid Statistics API
   slug: pulsoid-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-statistics-api-openapi.yml
 - filename: pulsoid-token-api-openapi.yml
   format: yaml
   label: Pulsoid Token API
   slug: pulsoid-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-token-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-token-api-openapi.yml
 - filename: pulsoid-widgets-api-openapi.yml
   format: yaml
   label: Pulsoid Widgets API
   slug: pulsoid-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-widgets-api-openapi.yml
 - filename: pulsoid-oauth2-api-openapi.yml
   format: yaml
   label: Pulsoid O Auth2 API
   slug: pulsoid-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/openapi/pulsoid-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/pulsoid/openapi/pulsoid-oauth2-api-openapi.yml
 authorization_urls:
 - https://pulsoid.net/oauth2/authorize
 description: ''
@@ -139,7 +139,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pulsoid-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/pulsoid-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://pulsoid.net/oauth2/authorize\n  - flow: authorizationCode\n    authorizationUrl: https://pulsoid.net/oauth2/authorize\n    tokenUrl: https://pulsoid.net/oauth2/token\nscopes:\n- scope: data:heart_rate:read\n  description: Read heart rate data\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/pulsoid-openapi.yml\n- scope: data:heart_rate:write\n  description: Write heart rate data\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/pulsoid-openapi.yml\n- scope: data:room:read\n  description: Read room real-time data\n  flows:\n  - implicit\n  sources:\n  - openapi/pulsoid-openapi.yml\n- scope: data:statistics:read\n  description: Read heart rate statistics\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/pulsoid-openapi.yml\n\
   - scope: geometry_dash_mod:configuration:read\n  description: Read GD mod config\n  flows:\n  - implicit\n  sources:\n  - openapi/pulsoid-openapi.yml\n- scope: geometry_dash_mod:configuration:write\n  description: Update GD mod config\n  flows:\n  - implicit\n  sources:\n  - openapi/pulsoid-openapi.yml\n- scope: profile:read\n  description: Read profile\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/pulsoid-openapi.yml\n- scope: widgets:read\n  description: Read widgets\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/pulsoid-openapi.yml\n- scope: widgets:update\n  description: Create or update widgets\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/pulsoid-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pulsoid/refs/heads/main/scopes/pulsoid-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pulsoid/scopes/pulsoid-scopes.yml
 summary_line: 9 scopes · implicit/authorizationCode
 tags:
 - Heart Rate

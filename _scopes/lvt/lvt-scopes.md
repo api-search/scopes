@@ -5,55 +5,55 @@ api_specs:
   label: LVT Cameras API
   slug: lvt-cameras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-cameras-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-cameras-api-openapi.yml
 - filename: lvt-events-api-openapi.yml
   format: yaml
   label: LVT Events API
   slug: lvt-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-events-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-events-api-openapi.yml
 - filename: lvt-liveunits-api-openapi.yml
   format: yaml
   label: LVT Live Units API
   slug: lvt-liveunits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-liveunits-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-liveunits-api-openapi.yml
 - filename: lvt-locations-api-openapi.yml
   format: yaml
   label: LVT Locations API
   slug: lvt-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-locations-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-locations-api-openapi.yml
 - filename: lvt-media-api-openapi.yml
   format: yaml
   label: LVT Media API
   slug: lvt-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-media-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-media-api-openapi.yml
 - filename: lvt-streams-api-openapi.yml
   format: yaml
   label: LVT Streams API
   slug: lvt-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-streams-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-streams-api-openapi.yml
 - filename: lvt-talkdown-api-openapi.yml
   format: yaml
   label: LVT Talkdown API
   slug: lvt-talkdown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-talkdown-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-talkdown-api-openapi.yml
 - filename: lvt-webhooks-api-openapi.yml
   format: yaml
   label: LVT Webhooks API
   slug: lvt-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-webhooks-api-openapi.yml
 - filename: lvt-public-keys-api-openapi.yml
   format: yaml
   label: LVT Public Keys API
   slug: lvt-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/openapi/lvt-public-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lvt/openapi/lvt-public-keys-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -103,7 +103,7 @@ source_filename: lvt-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: derived\nsource: openapi/lvt-partner-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/lvt-partner-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.lvt.com/oauth2/v1/token\nscopes:\n- scope: account.cameras.manage\n  description: Edit a cameras data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lvt-partner-api-openapi.yml\n- scope: account.liveUnits.manage\n  description: Edit a live units data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lvt-partner-api-openapi.yml\n- scope: account.locations.manage\n  description: Edit a locations data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lvt-partner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lvt/refs/heads/main/scopes/lvt-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lvt/scopes/lvt-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - Company

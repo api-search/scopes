@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.vivoo.io/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/vivoo-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/85119664427/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/85119664427/oauth/token\nscopes:\n- scope: openid\n  description: Authenticate the customer and return an ID token (OpenID Connect).\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/vivoo-openid-configuration.json\n- scope: email\n  description: Access the customer's email address.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/vivoo-openid-configuration.json\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the signed-in\n    customer.\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - well-known/vivoo-openid-configuration.json\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API for agent-driven\n    interactions on behalf of the signed-in customer.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/vivoo-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vivoo/refs/heads/main/scopes/vivoo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vivoo/scopes/vivoo-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

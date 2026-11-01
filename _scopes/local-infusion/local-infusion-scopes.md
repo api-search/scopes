@@ -5,7 +5,7 @@ api_specs:
   label: Local Infusion MCP API
   slug: local-infusion-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/openapi/local-infusion-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/local-infusion/openapi/local-infusion-mcp-api-openapi.yml
 authorization_urls:
 - https://mylocalinfusion.com/oauth/authorize
 description: ''
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: derived\nsource: openapi/local-in
   \  - flow: authorizationCode\n    authorizationUrl: https://mylocalinfusion.com/oauth/authorize\n    tokenUrl: https://mylocalinfusion.com/oauth/token\n  description: OAuth 2.1 authorization-code + PKCE (S256), as advertised by the provider's RFC\n    8414 metadata at https://mylocalinfusion.com/.well-known/oauth-authorization-server (fetched\n    2026-08-25, HTTP 200). Guards the `mcp` namespace; the RFC 9728 protected-resource metadata\n    names https://mylocalinfusion.com/wp-json/mcp/mcp-oauth-server.\n- name: mcpOAuth2\n  source: openapi/local-infusion-root-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mylocalinfusion.com/oauth/authorize\n    tokenUrl: https://mylocalinfusion.com/oauth/token\n  description: OAuth 2.1 authorization-code + PKCE (S256), as advertised by the provider's RFC\n    8414 metadata at https://mylocalinfusion.com/.well-known/oauth-authorization-server (fetched\n    2026-08-25, HTTP 200). Guards the `mcp` namespace; the\
   \ RFC 9728 protected-resource metadata\n    names https://mylocalinfusion.com/wp-json/mcp/mcp-oauth-server.\n- name: mcpOAuth2\n  source: openapi/local-infusion-wp-abilities-v1-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mylocalinfusion.com/oauth/authorize\n    tokenUrl: https://mylocalinfusion.com/oauth/token\n  description: OAuth 2.1 authorization-code + PKCE (S256), as advertised by the provider's RFC\n    8414 metadata at https://mylocalinfusion.com/.well-known/oauth-authorization-server (fetched\n    2026-08-25, HTTP 200). Guards the `mcp` namespace; the RFC 9728 protected-resource metadata\n    names https://mylocalinfusion.com/wp-json/mcp/mcp-oauth-server.\n- name: mcpOAuth2\n  source: openapi/local-infusion-wp-v2-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mylocalinfusion.com/oauth/authorize\n    tokenUrl: https://mylocalinfusion.com/oauth/token\n  description: OAuth 2.1 authorization-code + PKCE\
   \ (S256), as advertised by the provider's RFC\n    8414 metadata at https://mylocalinfusion.com/.well-known/oauth-authorization-server (fetched\n    2026-08-25, HTTP 200). Guards the `mcp` namespace; the RFC 9728 protected-resource metadata\n    names https://mylocalinfusion.com/wp-json/mcp/mcp-oauth-server.\nscopes:\n- scope: mcp\n  description: Access the site's Model Context Protocol server.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/local-infusion-mcp-api-openapi.yml\n  - openapi/local-infusion-oembed-1-0-api-openapi.yml\n  - openapi/local-infusion-root-api-openapi.yml\n  - openapi/local-infusion-wp-abilities-v1-api-openapi.yml\n  - openapi/local-infusion-wp-v2-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/local-infusion/refs/heads/main/scopes/local-infusion-scopes.yml
+source_yaml_url: https://artifacts.apis.io/local-infusion/scopes/local-infusion-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

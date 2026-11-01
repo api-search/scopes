@@ -5,7 +5,7 @@ api_specs:
   label: Harmonic REST & GraphQL API
   slug: harmonic-rest-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/openapi/harmonic-ai-companies-api-openapi.yml
+  url: https://artifacts.apis.io/harmonic-ai/openapi/harmonic-ai-companies-api-openapi.yml
 authorization_urls:
 - https://mcp.api.harmonic.ai/authorize
 description: ''
@@ -54,7 +54,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://mcp.api.harmonic.ai/.well-known/oauth-authorization-server\ndocs: https://console.harmonic.ai/docs/api-reference/introduction\nschemes:\n  - name: oauth2\n    source: well-known/harmonic-ai-mcp-oauth-authorization-server.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.api.harmonic.ai/authorize\n        tokenUrl: https://mcp.api.harmonic.ai/token\n        pkce: S256\nscopes:\n  - scope: read\n    description: Read access to Harmonic data (companies, people, investors, saved searches, lists) via the OAuth-protected MCP server.\n    flows: [authorizationCode]\n    sources: [well-known/harmonic-ai-mcp-oauth-authorization-server.json]\n  - scope: write\n    description: Write access — create/update lists, list entries, and custom field values via the OAuth-protected MCP server.\n    flows: [authorizationCode]\n    sources: [well-known/harmonic-ai-mcp-oauth-authorization-server.json]\n\
   notes: >-\n  Scopes are advertised by the MCP OAuth authorization-server and protected-resource metadata\n  (scopes_supported: [read, write]). The REST/GraphQL API is API-key authenticated and exposes no\n  additional OAuth scope surface.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/scopes/harmonic-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/harmonic-ai/scopes/harmonic-ai-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Startup Intelligence

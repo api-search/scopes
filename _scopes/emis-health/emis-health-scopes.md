@@ -5,61 +5,61 @@ api_specs:
   label: EMIS Health Appointments API
   slug: emis-health-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-appointments-api-openapi.yml
 - filename: emis-health-cors-api-openapi.yml
   format: yaml
   label: EMIS Health CORS API
   slug: emis-health-cors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-cors-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-cors-api-openapi.yml
 - filename: emis-health-health-api-openapi.yml
   format: yaml
   label: EMIS Health API
   slug: emis-health-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-health-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-health-api-openapi.yml
 - filename: emis-health-medicalrecord-api-openapi.yml
   format: yaml
   label: EMIS Health Medical Record API
   slug: emis-health-medicalrecord-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-medicalrecord-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-medicalrecord-api-openapi.yml
 - filename: emis-health-organisation-api-openapi.yml
   format: yaml
   label: EMIS Health Organisation API
   slug: emis-health-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-organisation-api-openapi.yml
 - filename: emis-health-patient-api-openapi.yml
   format: yaml
   label: EMIS Health Patient API
   slug: emis-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-patient-api-openapi.yml
 - filename: emis-health-patientmatching-api-openapi.yml
   format: yaml
   label: EMIS Health Patient Matching API
   slug: emis-health-patientmatching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-patientmatching-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-patientmatching-api-openapi.yml
 - filename: emis-health-search-api-openapi.yml
   format: yaml
   label: EMIS Health Search API
   slug: emis-health-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-search-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-search-api-openapi.yml
 - filename: emis-health-swagger-api-openapi.yml
   format: yaml
   label: EMIS Health Swagger API
   slug: emis-health-swagger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-swagger-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-swagger-api-openapi.yml
 - filename: emis-health-user-api-openapi.yml
   format: yaml
   label: EMIS Health User API
   slug: emis-health-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-user-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-user-api-openapi.yml
 authorization_urls:
 - https://identity.stg.emis-x.uk/b205162c-c95a-4639-8076-bb1fcb152d2b/b2c_1a_clientcredentials/oauth2/authorize
 description: ''
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: openapi/emis-he
   \ https://identity.stg.emis-x.uk/b205162c-c95a-4639-8076-bb1fcb152d2b/b2c_1a_clientcredentials/oauth2/token\nscopes:\n- scope: papi-appt.read\n  description: Read Appointments\n  flows: [authorizationCode]\n  sources: [openapi/emis-health-partner-api-openapi.json]\n- scope: papi-appt.write\n  description: Write Appointments\n  flows: [authorizationCode]\n  sources: [openapi/emis-health-partner-api-openapi.json]\n- scope: papi-cr.read\n  description: Read Clinical Record\n  flows: [authorizationCode]\n  sources: [openapi/emis-health-partner-api-openapi.json]\n- scope: papi-cr.write\n  description: Write Clinical Record\n  flows: [authorizationCode]\n  sources: [openapi/emis-health-partner-api-openapi.json]\n- scope: papi-subjects.read\n  description: Read Subjects (patient demographics, matching, sequence)\n  flows: [authorizationCode]\n  sources: [openapi/emis-health-partner-api-openapi.json]\n- scope: papi-config.read\n  description: Read Config (organisation lookup, user details)\n \
   \ flows: [authorizationCode]\n  sources: [openapi/emis-health-partner-api-openapi.json]\n- scope: papi-searches.read\n  description: Read Searches (population/clinical searches)\n  flows: [authorizationCode]\n  sources: [openapi/emis-health-partner-api-openapi.json]\nauthorizations_claim_scopes:\n- scope: clinical-cr.read\n  description: Read the EMIS-X clinical record (authorizations JWT claim)\n  source: https://docs.partner.emis-x.uk/auth/\n- scope: clinical-cr.write\n  description: Write to the EMIS-X clinical record (authorizations JWT claim)\n  source: https://docs.partner.emis-x.uk/auth/\n- scope: agmt-agmt.read\n  description: Read partner agreement context (authorizations JWT claim)\n  source: https://docs.partner.emis-x.uk/auth/\n- scope: doc-app.addcode\n  description: Add a clinical code via a document/app context (authorizations JWT claim)\n  source: https://docs.partner.emis-x.uk/auth/\n- scope: doc-app.create\n  description: Create a document/app record (authorizations JWT\
   \ claim)\n  source: https://docs.partner.emis-x.uk/auth/\n- scope: term-prep.read\n  description: Read terminology preparation data (authorizations JWT claim)\n  source: https://docs.partner.emis-x.uk/auth/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/scopes/emis-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/emis-health/scopes/emis-health-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Healthcare

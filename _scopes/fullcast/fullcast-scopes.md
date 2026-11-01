@@ -5,25 +5,25 @@ api_specs:
   label: Fullcast Copilot API
   slug: fullcast-copilot-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-copilot-api-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-copilot-api-api-openapi.yml
 - filename: fullcast-mcp-info-api-openapi.yml
   format: yaml
   label: Fullcast Mcp Info API
   slug: fullcast-mcp-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-mcp-info-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-mcp-info-api-openapi.yml
 - filename: fullcast-well-known-api-openapi.yml
   format: yaml
   label: Fullcast .well Known API
   slug: fullcast-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-well-known-api-openapi.yml
 - filename: fullcast-oauth-api-openapi.yml
   format: yaml
   label: Fullcast OAUTH API
   slug: fullcast-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-oauth-api-openapi.yml
 authorization_urls:
 - https://assistant.fullcast.io/oauth/authorize
 - https://app.fullcast.io/mcp/authorize
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://assistant
   \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://assistant.fullcast.io/oauth/authorize\n    tokenUrl: https://assistant.fullcast.io/oauth/token\n    userinfoUrl: https://assistant.fullcast.io/oauth/userinfo\n    pkce: [plain, S256]\n    token_endpoint_auth_methods: [client_secret_post, none]\n- name: Fullcast MCP OAuth 2.1\n  issuer: https://app.fullcast.io/mcp\n  source: well-known/fullcast-app-mcp-oauth-authorization-server.json\n  dynamic_client_registration: https://app.fullcast.io/mcp/register\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.fullcast.io/mcp/authorize\n    tokenUrl: https://app.fullcast.io/mcp/token\n    pkce: [S256]\n    token_endpoint_auth_methods: [client_secret_post, none]\n  note: this issuer advertises no scopes_supported in its metadata\nscopes:\n- scope: openid\n  description: OpenID Connect subject identifier (standard scope meaning; not provider-documented)\n  flows: [authorizationCode]\n  sources: [https://assistant.fullcast.io/.well-known/oauth-authorization-server]\n\
   - scope: email\n  description: User email address (standard scope meaning; not provider-documented)\n  flows: [authorizationCode]\n  sources: [https://assistant.fullcast.io/.well-known/oauth-authorization-server]\n- scope: profile\n  description: Basic user profile claims (standard scope meaning; not provider-documented)\n  flows: [authorizationCode]\n  sources: [https://assistant.fullcast.io/.well-known/oauth-authorization-server]\n- scope: offline_access\n  description: Issue a refresh token for long-lived agent sessions\n  flows: [authorizationCode]\n  sources: [https://assistant.fullcast.io/.well-known/oauth-authorization-server]\n- scope: 'mcp:tools'\n  description: Call MCP tools on the Fullcast Assistant MCP server\n  flows: [authorizationCode]\n  sources: [https://assistant.fullcast.io/.well-known/oauth-protected-resource]\n- scope: 'mcp:resources'\n  description: Read MCP resources (the fullcast://resource/* guidance documents)\n  flows: [authorizationCode]\n  sources: [https://assistant.fullcast.io/.well-known/oauth-protected-resource]\n\
   - scope: 'mcp:prompts'\n  description: Read MCP prompts exposed by the server\n  flows: [authorizationCode]\n  sources: [https://assistant.fullcast.io/.well-known/oauth-protected-resource]\ngaps:\n- No scopes reference page is published for developers.\n- >-\n  Scopes are surface-level (mcp:tools covers all 17 verified tools), not capability-scoped.\n  There is no read-only scope, so an agent granted mcp:tools can call move_account and\n  end_coverage with the same token it uses to call get_account.\n- The app.fullcast.io/mcp issuer publishes no scopes_supported at all.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/scopes/fullcast-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fullcast/scopes/fullcast-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Company

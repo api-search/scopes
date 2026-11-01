@@ -5,25 +5,25 @@ api_specs:
   label: Zoho Writer Combine API
   slug: zoho-writer-combine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-combine-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-combine-api-openapi.yml
 - filename: zoho-writer-documents-api-openapi.yml
   format: yaml
   label: Zoho Writer Documents API
   slug: zoho-writer-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-documents-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-documents-api-openapi.yml
 - filename: zoho-writer-merge-api-openapi.yml
   format: yaml
   label: Zoho Writer Merge API
   slug: zoho-writer-merge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-merge-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-merge-api-openapi.yml
 - filename: zoho-writer-signatures-api-openapi.yml
   format: yaml
   label: Zoho Writer Signatures API
   slug: zoho-writer-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/openapi/zoho-writer-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-writer/openapi/zoho-writer-signatures-api-openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''
@@ -92,7 +92,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zoho-writer-openapi.json\nschemes:\n- name: OAuth2\n  source: openapi/zoho-writer-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\n  description: OAuth 2.0 authentication. Refer to https://www.zoho.com/writer/help/api/v1/oauth-2.html\n    for setup.\nscopes:\n- scope: WorkDrive.files.ALL\n  description: Access to WorkDrive files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-writer-openapi.json\n- scope: WorkDrive.organization.ALL\n  description: Organization-level WorkDrive access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-writer-openapi.json\n- scope: WorkDrive.workspace.ALL\n  description: Workspace-level WorkDrive access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-writer-openapi.json\n- scope: ZohoPC.files.ALL\n  description: Access to Zoho\
   \ personal cloud files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-writer-openapi.json\n- scope: ZohoWriter.documentEditor.ALL\n  description: Full access to document editor operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-writer-openapi.json\n- scope: ZohoWriter.merge.ALL\n  description: Full access to merge operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-writer-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-writer/refs/heads/main/scopes/zoho-writer-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zoho-writer/scopes/zoho-writer-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Documents

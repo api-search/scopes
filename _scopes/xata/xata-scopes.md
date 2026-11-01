@@ -5,73 +5,73 @@ api_specs:
   label: Xata API Keys API
   slug: xata-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-api-keys-api-openapi.yml
 - filename: xata-billing-api-openapi.yml
   format: yaml
   label: Xata Billing API
   slug: xata-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-billing-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-billing-api-openapi.yml
 - filename: xata-branches-api-openapi.yml
   format: yaml
   label: Xata Branches API
   slug: xata-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-branches-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-branches-api-openapi.yml
 - filename: xata-gateway-api-openapi.yml
   format: yaml
   label: Xata Gateway API
   slug: xata-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-gateway-api-openapi.yml
 - filename: xata-github-app-api-openapi.yml
   format: yaml
   label: Xata GitHub App API
   slug: xata-github-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-github-app-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-github-app-api-openapi.yml
 - filename: xata-logs-api-openapi.yml
   format: yaml
   label: Xata Logs API
   slug: xata-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-logs-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-logs-api-openapi.yml
 - filename: xata-marketplace-api-openapi.yml
   format: yaml
   label: Xata Marketplace API
   slug: xata-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-marketplace-api-openapi.yml
 - filename: xata-metrics-api-openapi.yml
   format: yaml
   label: Xata Metrics API
   slug: xata-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-metrics-api-openapi.yml
 - filename: xata-organizations-api-openapi.yml
   format: yaml
   label: Xata Organizations API
   slug: xata-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-organizations-api-openapi.yml
 - filename: xata-projects-api-openapi.yml
   format: yaml
   label: Xata Projects API
   slug: xata-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-projects-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-projects-api-openapi.yml
 - filename: xata-projects-webhooks-api-openapi.yml
   format: yaml
   label: Xata Projects Webhooks API
   slug: xata-projects-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-projects-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-projects-webhooks-api-openapi.yml
 - filename: xata-webhooks-api-openapi.yml
   format: yaml
   label: Xata Webhooks API
   slug: xata-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/openapi/xata-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/xata/openapi/xata-webhooks-api-openapi.yml
 authorization_urls:
 - https://auth.xata.io/realms/xata/protocol/openid-connect/auth
 description: ''
@@ -179,7 +179,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/xata-management-api-openapi.yml\nschemes:\n- name: xata\n  source: openapi/xata-management-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://auth.xata.io/realms/xata/protocol/openid-connect/auth\nscopes:\n- scope: branch:read\n  description: Read branch information\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: branch:write\n  description: Create and modify branches\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: credentials:read\n  description: Read credentials\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: credentials:write\n  description: Rotate credentials\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: invite:read\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: invite:write\n  sources:\n  - openapi/xata-management-api-openapi.yml\n\
   - scope: keys:read\n  description: Read API keys\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: keys:write\n  description: Create and manage API keys\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: logs:read\n  description: Read logs data\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: marketplace:write\n  description: Register with cloud marketplaces\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: metrics:read\n  description: Read metrics data\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: org:read\n  description: Read organization information\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: org:write\n  description: Create and modify organizations\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n\
   - scope: project:read\n  description: Read project information\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n- scope: project:write\n  description: Create and modify projects\n  flows:\n  - implicit\n  sources:\n  - openapi/xata-management-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xata/refs/heads/main/scopes/xata-scopes.yml
+source_yaml_url: https://artifacts.apis.io/xata/scopes/xata-scopes.yml
 summary_line: 15 scopes · implicit
 tags:
 - Database

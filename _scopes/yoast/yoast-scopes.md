@@ -5,55 +5,55 @@ api_specs:
   label: Yoast Pages API
   slug: yoast-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-pages-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-pages-api-openapi.yml
 - filename: yoast-posts-api-openapi.yml
   format: yaml
   label: Yoast Posts API
   slug: yoast-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-posts-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-posts-api-openapi.yml
 - filename: yoast-seo-head-api-openapi.yml
   format: yaml
   label: Yoast SEO Head API
   slug: yoast-seo-head-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-seo-head-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-seo-head-api-openapi.yml
 - filename: yoast-abilities-api-openapi.yml
   format: yaml
   label: Yoast SEO Abilities API
   slug: yoast-abilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-abilities-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-abilities-api-openapi.yml
 - filename: yoast-provisioning-account-api-openapi.yml
   format: yaml
   label: Yoast Provisioning Account API
   slug: yoast-provisioning-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-account-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-provisioning-account-api-openapi.yml
 - filename: yoast-provisioning-downloads-api-openapi.yml
   format: yaml
   label: Yoast Provisioning Downloads API
   slug: yoast-provisioning-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-provisioning-downloads-api-openapi.yml
 - filename: yoast-provisioning-users-api-openapi.yml
   format: yaml
   label: Yoast Provisioning Users API
   slug: yoast-provisioning-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-users-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-provisioning-users-api-openapi.yml
 - filename: yoast-schema-aggregator-api-openapi.yml
   format: yaml
   label: Yoast Schema Aggregator API
   slug: yoast-schema-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-schema-aggregator-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-schema-aggregator-api-openapi.yml
 - filename: yoast-subscription-provisioning-api-openapi.yml
   format: yaml
   label: Yoast Subscription Provisioning API
   slug: yoast-subscription-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-subscription-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-subscription-provisioning-api-openapi.yml
 authorization_urls:
 - https://my.yoast.com/api/oauth/auth
 description: ''
@@ -124,7 +124,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://my.yoast.com/.well-known/openid-configuration\ndocs: https://developer.yoast.com/features/wp-cli/auth/\nnote: >-\n  derive-oauth-scopes.py found no oauth2 securityScheme in any OpenAPI in this repo, and\n  that is correct — the MyYoast Provisioning API is Basic Auth. The scopes below are NOT\n  derived from a spec; they were read live from the MyYoast OpenID Connect discovery\n  document at https://my.yoast.com/.well-known/openid-configuration (HTTP 200,\n  application/json). They are the standard OIDC scope set: MyYoast issues identity\n  tokens for the Yoast SEO plugin's site/user authentication, and publishes no\n  product-specific scopes (nothing like seo:read or subscriptions:write). An integrator\n  cannot request granular Yoast permissions, because none are advertised.\nissuer: https://my.yoast.com\nschemes:\n  - name: MyYoast OpenID Connect\n    type: openIdConnect\n    source: well-known/yoast-openid-configuration.json\n\
   \    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://my.yoast.com/api/oauth/auth\n        tokenUrl: https://my.yoast.com/api/oauth/token\n        pkce: S256\n      - flow: clientCredentials\n        tokenUrl: https://my.yoast.com/api/oauth/token\n      - flow: refreshToken\n        tokenUrl: https://my.yoast.com/api/oauth/token\nscopes:\n  - name: openid\n    description: Standard OIDC scope; requests an ID token identifying the subject.\n    standard: true\n  - name: profile\n    description: Standard OIDC scope; basic profile claims.\n    standard: true\n  - name: email\n    description: Standard OIDC scope; email claims.\n    standard: true\n  - name: phone\n    description: Standard OIDC scope; phone claims.\n    standard: true\n  - name: address\n    description: Standard OIDC scope; address claims.\n    standard: true\n  - name: offline_access\n    description: Standard OIDC scope; requests a refresh token for long-lived access.\n    standard: true\nclaims_supported:\n\
   \  - sub\n  - sid\n  - auth_time\n  - iss\nscope_count: 6\nproduct_specific_scope_count: 0\ngaps:\n  - >-\n    Every advertised scope is a standard OIDC scope. MyYoast publishes no\n    product-permission scopes, so an authorized client's actual authority over Yoast\n    resources is not expressible or inspectable through the scope model.\nx-evidence:\n  fetched: '2026-08-13'\n  url: https://my.yoast.com/.well-known/openid-configuration\n  http_status: 200\n  content_type: application/json; charset=utf-8\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/scopes/yoast-scopes.yml
+source_yaml_url: https://artifacts.apis.io/yoast/scopes/yoast-scopes.yml
 summary_line: 6 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - SEO

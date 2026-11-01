@@ -40,7 +40,7 @@ source_filename: hockeystack-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://app.hockeystack.com/.well-known/oauth-authorization-server\ndocs: https://app.hockeystack.com/.well-known/oauth-protected-resource\nschemes:\n- name: OmniOAuth2\n  source: well-known/hockeystack-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://hockeystack.com/api/mcp/oauth/authorize\n    tokenUrl: https://hockeystack.com/api/mcp/oauth/token\nscopes:\n- scope: omni:tools\n  description: >-\n    Grants an OAuth client access to the HockeyStack Omni MCP tool surface\n    (revenue/marketing/account intelligence agent tools) on the protected\n    resource https://hockeystack.com/api/mcp/omni.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/hockeystack-oauth-authorization-server.json\nnotes: >-\n  Only one scope (omni:tools) is advertised in the authorization-server and\n  protected-resource discovery documents. No finer-grained scope reference is\n  published.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/scopes/hockeystack-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hockeystack/scopes/hockeystack-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

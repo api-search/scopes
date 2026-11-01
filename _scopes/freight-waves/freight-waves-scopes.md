@@ -5,19 +5,19 @@ api_specs:
   label: Freight Waves Authentication API
   slug: freight-waves-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/freight-waves/openapi/freight-waves-authentication-api-openapi.yml
 - filename: freight-waves-data-api-openapi.yml
   format: yaml
   label: Freight Waves Data API
   slug: freight-waves-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-data-api-openapi.yml
+  url: https://artifacts.apis.io/freight-waves/openapi/freight-waves-data-api-openapi.yml
 - filename: freight-waves-lookup-api-openapi.yml
   format: yaml
   label: Freight Waves Lookup API
   slug: freight-waves-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/openapi/freight-waves-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/freight-waves/openapi/freight-waves-lookup-api-openapi.yml
 authorization_urls:
 - https://api.freightwaves.com/oauth/authorize
 description: ''
@@ -61,7 +61,7 @@ source_filename: freight-waves-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: well-known/freight-waves-oauth-authorization-server.json\ndocs: https://api.freightwaves.com/.well-known/oauth-authorization-server\nnotes: >-\n  Scopes here belong to the FreightWaves hosted MCP server's OAuth 2.1\n  authorization server (issuer https://api.freightwaves.com), not the SONAR REST\n  API (which uses opaque bearer tokens with no scope surface).\nschemes:\n- name: mcpOAuth\n  source: well-known/freight-waves-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.freightwaves.com/oauth/authorize\n    tokenUrl: https://api.freightwaves.com/oauth/token\n    codeChallengeMethods: [S256]\nscopes:\n- scope: mcp:read\n  description: Read-only access to SONAR freight-market data through the MCP server.\n  flows: [authorizationCode]\n  sources: [well-known/freight-waves-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freight-waves/refs/heads/main/scopes/freight-waves-scopes.yml
+source_yaml_url: https://artifacts.apis.io/freight-waves/scopes/freight-waves-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

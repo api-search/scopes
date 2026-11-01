@@ -5,61 +5,61 @@ api_specs:
   label: Zapier Accounts API
   slug: zapier-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-accounts-api-openapi.yml
 - filename: zapier-actions-api-openapi.yml
   format: yaml
   label: Zapier Actions API
   slug: zapier-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-actions-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-actions-api-openapi.yml
 - filename: zapier-apps-api-openapi.yml
   format: yaml
   label: Zapier Apps API
   slug: zapier-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-apps-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-apps-api-openapi.yml
 - filename: zapier-authentications-api-openapi.yml
   format: yaml
   label: Zapier Authentications API
   slug: zapier-authentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-authentications-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-authentications-api-openapi.yml
 - filename: zapier-categories-api-openapi.yml
   format: yaml
   label: Zapier Categories API
   slug: zapier-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-categories-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-categories-api-openapi.yml
 - filename: zapier-experimental-api-openapi.yml
   format: yaml
   label: Zapier Experimental API
   slug: zapier-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-experimental-api-openapi.yml
 - filename: zapier-inputs-api-openapi.yml
   format: yaml
   label: Zapier Inputs API
   slug: zapier-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-inputs-api-openapi.yml
 - filename: zapier-outputs-api-openapi.yml
   format: yaml
   label: Zapier Outputs API
   slug: zapier-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-outputs-api-openapi.yml
 - filename: zapier-zap-templates-api-openapi.yml
   format: yaml
   label: Zapier Zap Templates API
   slug: zapier-zap-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-zap-templates-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-zap-templates-api-openapi.yml
 - filename: zapier-zaps-api-openapi.yml
   format: yaml
   label: Zapier Zaps API
   slug: zapier-zaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/openapi/zapier-zaps-api-openapi.yml
+  url: https://artifacts.apis.io/zapier/openapi/zapier-zaps-api-openapi.yml
 authorization_urls:
 - https://zapier.com/oauth/authorize/
 description: ''
@@ -157,7 +157,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zapier-partner-api.yml\nschemes:\n- name: OAuth\n  source: openapi/zapier-partner-api.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://zapier.com/oauth/authorize/\n    tokenUrl: https://zapier.com/oauth/token/\n  - flow: implicit\n    authorizationUrl: https://zapier.com/oauth/authorize/\n  description: 'See our OAuth2 authentication documentation here: https://docs.zapier.com/powered-by-zapier/api-reference/authentication'\nscopes:\n- scope: action:run\n  description: Run an Action\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/zapier-partner-api.yml\n- scope: authentication\n  description: Read Authentications\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/zapier-partner-api.yml\n- scope: authentication:write\n  description: Write Authentications\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/zapier-partner-api.yml\n\
   - scope: connection:read\n  sources:\n  - openapi/zapier-partner-api.yml\n- scope: connection:write\n  sources:\n  - openapi/zapier-partner-api.yml\n- scope: profile\n  description: Read profile information about the currently-authenticated user\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/zapier-partner-api.yml\n- scope: zap\n  description: Read Zaps\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/zapier-partner-api.yml\n- scope: zap:all\n  description: Read Zaps accessible to the account\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/zapier-partner-api.yml\n- scope: zap:runs\n  description: Read Zap Runs\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/zapier-partner-api.yml\n- scope: zap:write\n  description: Write Zaps\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/zapier-partner-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/scopes/zapier-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zapier/scopes/zapier-scopes.yml
 summary_line: 10 scopes · authorizationCode/implicit
 tags:
 - Zapier

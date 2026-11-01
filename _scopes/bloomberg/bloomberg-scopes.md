@@ -5,7 +5,7 @@ api_specs:
   label: Bloomberg BLPAPI Core
   slug: bloomberg-blpapi-core
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/openapi/bloomberg-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg/openapi/bloomberg-reference-data-api-openapi.yml
 authorization_urls:
 - https://login.bloomberg.com/api/oauth/authorize
 description: ''
@@ -63,7 +63,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: https://www.bloomberg.com/.well-known/oauth-authorization-server\ndocs: https://www.bloomberg.com/.well-known/openid-configuration\nnotes: >-\n  Bloomberg's BLPAPI OpenAPI projections declare no oauth2 securitySchemes (BLPAPI uses SDK\n  session/identity authorization). These scopes come from Bloomberg's published OAuth 2.0 /\n  OIDC authorization-server discovery metadata (endpoints on login.bloomberg.com), which fronts\n  Bloomberg web/console login and token issuance for HTTP-delivered services.\nschemes:\n  - name: BloombergOAuth\n    source: https://www.bloomberg.com/.well-known/oauth-authorization-server\n    issuer: https://www.bloomberg.com\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://login.bloomberg.com/api/oauth/authorize\n        tokenUrl: https://login.bloomberg.com/api/oauth/token\n        pkce: S256\n      - flow: refreshToken\n        tokenUrl: https://login.bloomberg.com/api/oauth/token\n\
   scopes:\n  - scope: openid\n    description: OpenID Connect authentication — issues an RS256-signed ID token for the Bloomberg identity.\n    flows: [authorizationCode]\n    sources: [https://www.bloomberg.com/.well-known/oauth-authorization-server]\n  - scope: user\n    description: Access to the authenticated Bloomberg user profile.\n    flows: [authorizationCode]\n    sources: [https://www.bloomberg.com/.well-known/oauth-authorization-server]\n  - scope: entitlements\n    description: Access to the user's Bloomberg product/data entitlements.\n    flows: [authorizationCode]\n    sources: [https://www.bloomberg.com/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/scopes/bloomberg-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bloomberg/scopes/bloomberg-scopes.yml
 summary_line: 3 scopes · authorizationCode/refreshToken
 tags:
 - Analytics

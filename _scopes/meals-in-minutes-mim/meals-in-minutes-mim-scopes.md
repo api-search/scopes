@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://mealsinminutes.co/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nschemes:\n- name: shopify-customer-accounts-oidc\n  source: well-known/meals-in-minutes-mim-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.mealsinminutes.co/authentication/oauth/authorize\n    tokenUrl: https://account.mealsinminutes.co/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token for the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the customer's email address claim.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in buyer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: >-\n    Full access to the Customer Account MCP API\
   \ — enables agent-driven commerce\n    (UCP MCP) actions on behalf of the authenticated buyer.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meals-in-minutes-mim/refs/heads/main/scopes/meals-in-minutes-mim-scopes.yml
+source_yaml_url: https://artifacts.apis.io/meals-in-minutes-mim/scopes/meals-in-minutes-mim-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

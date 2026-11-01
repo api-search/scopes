@@ -5,85 +5,85 @@ api_specs:
   label: Fixture Accounts API
   slug: fixture-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-accounts-api-openapi.yml
 - filename: fixture-activities-api-openapi.yml
   format: yaml
   label: Fixture Activities API
   slug: fixture-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-activities-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-activities-api-openapi.yml
 - filename: fixture-contacts-api-openapi.yml
   format: yaml
   label: Fixture Contacts API
   slug: fixture-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-contacts-api-openapi.yml
 - filename: fixture-deals-api-openapi.yml
   format: yaml
   label: Fixture Deals API
   slug: fixture-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-deals-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-deals-api-openapi.yml
 - filename: fixture-fixture-api-api-openapi.yml
   format: yaml
   label: Fixture API
   slug: fixture-fixture-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-fixture-api-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-fixture-api-api-openapi.yml
 - filename: fixture-leads-api-openapi.yml
   format: yaml
   label: Fixture Leads API
   slug: fixture-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-leads-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-leads-api-openapi.yml
 - filename: fixture-notes-api-openapi.yml
   format: yaml
   label: Fixture Notes API
   slug: fixture-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-notes-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-notes-api-openapi.yml
 - filename: fixture-pipelines-api-openapi.yml
   format: yaml
   label: Fixture Pipelines API
   slug: fixture-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-pipelines-api-openapi.yml
 - filename: fixture-task-statuses-api-openapi.yml
   format: yaml
   label: Fixture Task Statuses API
   slug: fixture-task-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-task-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-task-statuses-api-openapi.yml
 - filename: fixture-tasks-api-openapi.yml
   format: yaml
   label: Fixture Tasks API
   slug: fixture-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-tasks-api-openapi.yml
 - filename: fixture-users-api-openapi.yml
   format: yaml
   label: Fixture Users API
   slug: fixture-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-users-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-users-api-openapi.yml
 - filename: fixture-custom-fields-api-openapi.yml
   format: yaml
   label: Fixture Custom Fields API
   slug: fixture-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-custom-fields-api-openapi.yml
 - filename: fixture-lead-lists-api-openapi.yml
   format: yaml
   label: Fixture Lead Lists API
   slug: fixture-lead-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-lead-lists-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-lead-lists-api-openapi.yml
 - filename: fixture-reporting-api-openapi.yml
   format: yaml
   label: Fixture Reporting API
   slug: fixture-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-reporting-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://fixture.app/docs/authentication/scopes
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://fixture
   \ naming the scope.\n- Some operations require multiple scopes because they create resources across entities.\nscope_sets:\n- name: api-key\n  description: Fine-grained scopes assigned to a workspace API key at creation time.\n  source: https://fixture.app/docs/authentication/scopes\n  scopes:\n  - scope: contacts:read\n    description: View Contacts and their details\n  - scope: contacts:write\n    description: Create, update, and delete Contacts\n  - scope: accounts:read\n    description: View Accounts and their details\n  - scope: accounts:write\n    description: Create, update, and delete Accounts\n  - scope: deals:read\n    description: View Deals and their details\n  - scope: deals:write\n    description: Create, update, and delete Deals\n  - scope: users:read\n    description: View Team Users that can own Accounts and Deals\n  - scope: pipelines:read\n    description: View Pipelines and their Stages\n  - scope: leads:read\n    description: View Leads and their details\n  - scope:\
   \ leads:write\n    description: Create, update, and delete Leads\n  - scope: activities:read\n    description: View Activities and interaction history\n  - scope: activities:write\n    description: Create custom Activities\n  - scope: '*'\n    description: Full access to all resources\n- name: oauth\n  description: Scopes advertised by the Fixture Authorization Server metadata and required\n    by the remote MCP endpoint. Granted CRM and task scopes map onto the API key scope requirements.\n  issuer: https://beta-api.fixture.app\n  source: https://beta-api.fixture.app/.well-known/oauth-authorization-server\n  scopes:\n  - scope: crm:read\n    description: Read CRM records (Accounts, Contacts, Deals, Leads, Activities, Pipelines)\n  - scope: crm:write\n    description: Create and update CRM records\n  - scope: tasks:read\n    description: Read Tasks and Task Statuses\n  - scope: tasks:write\n    description: Create, update, and complete Tasks\n  - scope: users:read\n    description: Read\
   \ team Users\ncompound_requirements:\n- operation: convertLead\n  path: POST /api/v1/leads/{id}/convert\n  requires:\n  - scope: leads:write\n    always: true\n  - scope: accounts:write\n    always: true\n  - scope: contacts:write\n    always: true\n  - scope: deals:write\n    always: false\n    condition: only when create_deal is true\nmissing_scope_response:\n  status: 403\n  body:\n    error:\n      code: forbidden\n      message: 'Missing required scope: contacts:write'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/scopes/fixture-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fixture/scopes/fixture-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

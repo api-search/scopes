@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://www.cotopaxi.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nnotes: >-\n  OAuth scopes advertised by the Cotopaxi Shopify Customer Accounts\n  authorization server (scopes_supported in the live discovery documents).\nschemes:\n- name: ShopifyCustomerAccountsOAuth2\n  source: well-known/cotopaxi-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.cotopaxi.com/authentication/oauth/authorize\n    tokenUrl: https://account.cotopaxi.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token for the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the customer's email address and email_verified claim.\n  flows: [authorizationCode]\n- scope: 'customer-account-api:full'\n  description: Full access to the Shopify Customer Account API for\
   \ the signed-in customer (orders, profile, addresses).\n  flows: [authorizationCode]\n- scope: 'customer-account-mcp-api:full'\n  description: Full access to the authenticated Customer Account MCP API for the signed-in customer.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cotopaxi/refs/heads/main/scopes/cotopaxi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cotopaxi/scopes/cotopaxi-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

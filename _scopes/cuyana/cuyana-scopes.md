@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://www.cuyana.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nnotes: >-\n  scopes_supported published by the Shopify Customer Account OIDC discovery document served\n  on cuyana.com. customer-account-mcp-api:full is the scope gating the Customer Account MCP\n  surface.\nschemes:\n- name: ShopifyCustomerAccountOAuth\n  source: well-known/cuyana-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.cuyana.com/authentication/oauth/authorize\n    tokenUrl: https://account.cuyana.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication (issue an ID token).\n  flows: [authorizationCode]\n- scope: email\n  description: Access the customer's email address and email_verified claim.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account\
   \ API for the authenticated customer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API surface.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cuyana/refs/heads/main/scopes/cuyana-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cuyana/scopes/cuyana-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

@@ -5,43 +5,43 @@ api_specs:
   label: Macquarie Bank Banking Account Balances API
   slug: macquarie-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/macquarie-bank/openapi/macquarie-bank-banking-account-balances-api-openapi.yml
 - filename: macquarie-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Macquarie Bank Banking Account Direct Debits API
   slug: macquarie-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/macquarie-bank/openapi/macquarie-bank-banking-account-direct-debits-api-openapi.yml
 - filename: macquarie-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Macquarie Bank Banking Account Scheduled Payments API
   slug: macquarie-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/macquarie-bank/openapi/macquarie-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: macquarie-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Macquarie Bank Banking Account Transactions API
   slug: macquarie-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/macquarie-bank/openapi/macquarie-bank-banking-account-transactions-api-openapi.yml
 - filename: macquarie-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Macquarie Bank Banking Accounts API
   slug: macquarie-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/macquarie-bank/openapi/macquarie-bank-banking-accounts-api-openapi.yml
 - filename: macquarie-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Macquarie Bank Banking Payees API
   slug: macquarie-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/macquarie-bank/openapi/macquarie-bank-banking-payees-api-openapi.yml
 - filename: macquarie-bank-banking-products-api-openapi.yml
   format: yaml
   label: Macquarie Bank Banking Products API
   slug: macquarie-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/openapi/macquarie-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/macquarie-bank/openapi/macquarie-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -113,7 +113,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: |\n  Australian Consumer Data Right (CDR) authorisation scopes, DSB Consumer Data\n  Standards. Applies to the authenticated CDR Banking Data Sharing surface. The\n  harvested CDS OpenAPI declares no inline oauth2 securitySchemes (CDR scopes are\n  defined by the standards, not per data holder), so scopes are authored from the\n  Consumer Data Standards authorisation-scopes reference.\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\napplies_to: Macquarie Bank CDR Banking Data Sharing API\nschemes:\n- name: cdr-oidc\n  profile: FAPI 1.0 Advanced\n  flows:\n  - flow: authorizationCode\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; required for CDR consent flows.\n- scope: profile\n  description: Standard OIDC profile claim scope.\n- scope: bank:accounts.basic:read\n  description: Read masked account numbers and basic account details.\n- scope: bank:accounts.detail:read\n\
   \  description: Read full account and product-specific detail, including unmasked account numbers.\n- scope: bank:transactions:read\n  description: Read account transactions.\n- scope: bank:payees:read\n  description: Read saved payees.\n- scope: bank:regular_payments:read\n  description: Read direct debits and scheduled payments.\n- scope: common:customer.basic:read\n  description: Read basic customer (name, occupation) or organisation profile.\n- scope: common:customer.detail:read\n  description: Read detailed customer contact and identity information.\n- scope: cdr:registration\n  description: Dynamic client registration under the CDR Register (ADR onboarding).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/scopes/macquarie-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/macquarie-bank/scopes/macquarie-bank-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
 - Finance

@@ -5,133 +5,133 @@ api_specs:
   label: Origin Energy Account Import API
   slug: origin-energy-account-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-account-import-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-account-import-api-openapi.yml
 - filename: origin-energy-business-import-api-openapi.yml
   format: yaml
   label: Origin Energy Business Import API
   slug: origin-energy-business-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-business-import-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-business-import-api-openapi.yml
 - filename: origin-energy-data-holder-customers-api-openapi.yml
   format: yaml
   label: Origin Energy Data Holder Customers API
   slug: origin-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-data-holder-customers-api-openapi.yml
 - filename: origin-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: Origin Energy Data Holder Operations API
   slug: origin-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-data-holder-operations-api-openapi.yml
 - filename: origin-energy-data-import-api-openapi.yml
   format: yaml
   label: Origin Energy Data Import API
   slug: origin-energy-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-data-import-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-data-import-api-openapi.yml
 - filename: origin-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Origin Energy Distributed Energy Resources API
   slug: origin-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-distributed-energy-resources-api-openapi.yml
 - filename: origin-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: Origin Energy Electricity Service Points API
   slug: origin-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-electricity-service-points-api-openapi.yml
 - filename: origin-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: Origin Energy Electricity Usage API
   slug: origin-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-electricity-usage-api-openapi.yml
 - filename: origin-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: Origin Energy Account Balances API
   slug: origin-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-energy-account-balances-api-openapi.yml
 - filename: origin-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: Origin Energy Account Billing API
   slug: origin-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-energy-account-billing-api-openapi.yml
 - filename: origin-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: Origin Energy Accounts API
   slug: origin-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-energy-accounts-api-openapi.yml
 - filename: origin-energy-energy-plans-api-openapi.yml
   format: yaml
   label: Origin Energy Plans API
   slug: origin-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-energy-plans-api-openapi.yml
 - filename: origin-energy-external-client-healthcheck-api-openapi.yml
   format: yaml
   label: Origin Energy External Client Healthcheck API
   slug: origin-energy-external-client-healthcheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-external-client-healthcheck-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-external-client-healthcheck-api-openapi.yml
 - filename: origin-energy-external-events-api-openapi.yml
   format: yaml
   label: Origin Energy External Events API
   slug: origin-energy-external-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-external-events-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-external-events-api-openapi.yml
 - filename: origin-energy-orders-api-openapi.yml
   format: yaml
   label: Origin Energy Orders API
   slug: origin-energy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-orders-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-orders-api-openapi.yml
 - filename: origin-energy-post-account-import-api-openapi.yml
   format: yaml
   label: Origin Energy Post Account Import API
   slug: origin-energy-post-account-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-post-account-import-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-post-account-import-api-openapi.yml
 - filename: origin-energy-post-business-import-api-openapi.yml
   format: yaml
   label: Origin Energy Post Business Import API
   slug: origin-energy-post-business-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-post-business-import-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-post-business-import-api-openapi.yml
 - filename: origin-energy-query-api-openapi.yml
   format: yaml
   label: Origin Energy Query API
   slug: origin-energy-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-query-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-query-api-openapi.yml
 - filename: origin-energy-accounts-api-openapi.yml
   format: yaml
   label: Origin Energy Accounts API
   slug: origin-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-accounts-api-openapi.yml
 - filename: origin-energy-energetiq-public-key-api-openapi.yml
   format: yaml
   label: Origin Energy Energetiq Public Key API
   slug: origin-energy-energetiq-public-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-energetiq-public-key-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-energetiq-public-key-api-openapi.yml
 - filename: origin-energy-unbundled-network-charges-api-openapi.yml
   format: yaml
   label: Origin Energy Unbundled Network Charges API
   slug: origin-energy-unbundled-network-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-unbundled-network-charges-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-unbundled-network-charges-api-openapi.yml
 - filename: origin-energy-voice-api-openapi.yml
   format: yaml
   label: Origin Energy Voice API
   slug: origin-energy-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/openapi/origin-energy-voice-api-openapi.yml
+  url: https://artifacts.apis.io/origin-energy/openapi/origin-energy-voice-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.origin-kraken.energy/graphql/guides/basics/
@@ -648,7 +648,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: well-known/orig
   \  group: view\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: manage:contribution-agreements\n  group: manage\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: delete:mfa-device\n  group: delete\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: cancel:siteworks-appointments\n  group: cancel\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: set:payment-preference\n  group: set\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: query:goods-quotes\n  group: query\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: query:auto-topup-config\n  group: query\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: manage:ev\n  group: manage\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: create:payment-instructions\n  group:\
   \ create\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: redeem:loyalty-points\n  group: redeem\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: query:loyalty-points-balance\n  group: query\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: update:smart-meter-interest\n  group: update\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\n- scope: query:lifecycle-processes\n  group: query\n  sources:\n  - well-known/origin-energy-kraken-openid-configuration.json\ncdr_scopes:\n  note: Consumer Data Right consent scopes for the energy sector (energy:accounts.basic:read, energy:billing:read,\n    energy:electricity.usage:read, ...) are defined by the Data Standards Body and negotiated through\n    the CDR consent flow, not advertised on any anonymously reachable Origin endpoint. No Origin-hosted\n    CDR OIDC discovery document was found (public.mydata.cdr.originenergy.com.au/.well-known/openid-configuration\n\
   \    returned 404 on 2026-07-27), so they are deliberately not enumerated here.\n  docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/scopes/origin-energy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/origin-energy/scopes/origin-energy-scopes.yml
 summary_line: 113 scopes
 tags:
 - Energy

@@ -5,7 +5,7 @@ api_specs:
   label: Mollie API
   slug: mollie-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/openapi/mollie-openapi-original.yml
+  url: https://artifacts.apis.io/mollie/openapi/mollie-openapi-original.yml
 authorization_urls:
 - https://my.mollie.com/oauth2/authorize
 description: ''
@@ -361,7 +361,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://my.moll
   \ openapi/mollie-openapi-original.yml]\n- scope: shipments.read\n  resource: shipments\n  access: read\n  flows: [authorizationCode]\n  sources: [https://my.mollie.com/.well-known/oauth-authorization-server]\n- scope: shipments.write\n  resource: shipments\n  access: write\n  flows: [authorizationCode]\n  sources: [https://my.mollie.com/.well-known/oauth-authorization-server]\n- scope: subscriptions.read\n  resource: subscriptions\n  access: read\n  flows: [authorizationCode]\n  sources: [https://my.mollie.com/.well-known/oauth-authorization-server, openapi/mollie-openapi-original.yml]\n- scope: subscriptions.write\n  resource: subscriptions\n  access: write\n  flows: [authorizationCode]\n  sources: [https://my.mollie.com/.well-known/oauth-authorization-server, openapi/mollie-openapi-original.yml]\n- scope: terminals.read\n  resource: terminals\n  access: read\n  flows: [authorizationCode]\n  sources: [https://my.mollie.com/.well-known/oauth-authorization-server, openapi/mollie-openapi-original.yml]\n\
   - scope: terminals.write\n  resource: terminals\n  access: write\n  flows: [authorizationCode]\n  sources: [https://my.mollie.com/.well-known/oauth-authorization-server, openapi/mollie-openapi-original.yml]\n- scope: unmatched-credit-transfers.read\n  resource: unmatched-credit-transfers\n  access: read\n  flows: [authorizationCode]\n  sources: [https://my.mollie.com/.well-known/oauth-authorization-server, openapi/mollie-openapi-original.yml]\n- scope: unmatched-credit-transfers.write\n  resource: unmatched-credit-transfers\n  access: write\n  flows: [authorizationCode]\n  sources: [https://my.mollie.com/.well-known/oauth-authorization-server, openapi/mollie-openapi-original.yml]\n- scope: webhooks.read\n  resource: webhooks\n  access: read\n  flows: [authorizationCode]\n  sources: [https://my.mollie.com/.well-known/oauth-authorization-server, openapi/mollie-openapi-original.yml]\n- scope: webhooks.write\n  resource: webhooks\n  access: write\n  flows: [authorizationCode]\n  sources: [https://my.mollie.com/.well-known/oauth-authorization-server,\
   \ openapi/mollie-openapi-original.yml]"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/scopes/mollie-scopes.yml
+source_yaml_url: https://artifacts.apis.io/mollie/scopes/mollie-scopes.yml
 summary_line: 61 scopes · authorizationCode
 tags:
 - Company

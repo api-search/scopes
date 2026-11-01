@@ -5,19 +5,19 @@ api_specs:
   label: Samaya AI Organizations API
   slug: samaya-ai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/openapi/samaya-ai-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/samaya-ai/openapi/samaya-ai-organizations-api-openapi.yml
 - filename: samaya-ai-teams-api-openapi.yml
   format: yaml
   label: Samaya AI Teams API
   slug: samaya-ai-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/openapi/samaya-ai-teams-api-openapi.yml
+  url: https://artifacts.apis.io/samaya-ai/openapi/samaya-ai-teams-api-openapi.yml
 - filename: samaya-ai-users-api-openapi.yml
   format: yaml
   label: Samaya AI Users API
   slug: samaya-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/openapi/samaya-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/samaya-ai/openapi/samaya-ai-users-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -44,7 +44,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://mcp.samaya.ai/.well-known/oauth-protected-resource/mcp\nscope_count: 0\nscopes: []\nnote: >-\n  Samaya's MCP authorization server publishes RFC 9728 protected-resource metadata with an EMPTY\n  scopes_supported array, and the RFC 8414 authorization-server document declares no scopes_supported\n  key at all. This is a measured absence, not an unchecked field: the server runs OAuth 2.1 with\n  dynamic client registration and PKCE S256 but exposes no granular permission vocabulary, so an\n  agent connecting to it cannot request or be granted least privilege at the protocol level. The\n  published REST OpenAPI declares no oauth2 securityScheme (it uses a WorkOS bearer token), so it\n  contributes no scopes either.\nauthorization_server:\n  issuer: https://mcp.samaya.ai/\n  authorization_endpoint: https://mcp.samaya.ai/authorize\n  token_endpoint: https://mcp.samaya.ai/token\n  registration_endpoint: https://mcp.samaya.ai/register\n\
   \  revocation_endpoint: https://mcp.samaya.ai/revoke\n  code_challenge_methods_supported:\n  - S256\ndocs: null\nevidence:\n- url: https://mcp.samaya.ai/.well-known/oauth-protected-resource/mcp\n  status: 200\n  scopes_supported: []\n- url: https://mcp.samaya.ai/.well-known/oauth-authorization-server\n  status: 200\n  scopes_supported: absent\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samaya-ai/refs/heads/main/scopes/samaya-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/samaya-ai/scopes/samaya-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Artificial Intelligence

@@ -47,7 +47,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://mcp.jam.dev/.well-known/oauth-authorization-server\ndocs: https://jam.dev/docs/personal-access-tokens\nschemes:\n  - name: OAuth2\n    source: https://mcp.jam.dev/.well-known/oauth-authorization-server\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://api.jam.dev/oauth/authorize\n        tokenUrl: https://api.jam.dev/oauth/token\n        pkce: S256\nscopes:\n  - scope: mcp:read\n    description: Read access to Jam data (details, console logs, network requests, screenshots, transcripts, members, folders, recording links) via the MCP server and CLI.\n    flows: [authorizationCode]\n  - scope: mcp:write\n    description: Write access via the MCP server and CLI — create comments, move Jams between folders, create/update/revoke recording links.\n    flows: [authorizationCode]\nnotes: >-\n  Scopes are also selectable when minting Personal Access Tokens\n  (Settings -> MCP). Tokens carry the jam_pat_\
   \ prefix and are used as Bearer\n  credentials for headless/CI MCP clients.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jam/refs/heads/main/scopes/jam-scopes.yml
+source_yaml_url: https://artifacts.apis.io/jam/scopes/jam-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

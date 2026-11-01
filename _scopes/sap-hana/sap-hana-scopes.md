@@ -5,31 +5,31 @@ api_specs:
   label: SAP HANA Alerts API
   slug: sap-hana-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sap-hana/openapi/sap-hana-alerts-api-openapi.yml
 - filename: sap-hana-instance-mappings-api-openapi.yml
   format: yaml
   label: SAP HANA Instance Mappings API
   slug: sap-hana-instance-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-instance-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/sap-hana/openapi/sap-hana-instance-mappings-api-openapi.yml
 - filename: sap-hana-instances-api-openapi.yml
   format: yaml
   label: SAP HANA Instances API
   slug: sap-hana-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-instances-api-openapi.yml
+  url: https://artifacts.apis.io/sap-hana/openapi/sap-hana-instances-api-openapi.yml
 - filename: sap-hana-metering-api-openapi.yml
   format: yaml
   label: SAP HANA Metering API
   slug: sap-hana-metering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-metering-api-openapi.yml
+  url: https://artifacts.apis.io/sap-hana/openapi/sap-hana-metering-api-openapi.yml
 - filename: sap-hana-metrics-api-openapi.yml
   format: yaml
   label: SAP HANA Metrics API
   slug: sap-hana-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/sap-hana/openapi/sap-hana-metrics-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/sap-hana-al
   \  description: OAuth 2.0 authentication using SAP Business Technology Platform credentials.\n    Obtain an access token using client credentials flow with the UAA service URL, client ID,\n    and client secret from your SAP HANA Cloud service key. Access tokens expire after approximately\n    1799 seconds (30 minutes) and must be refreshed.\n- name: oauth2\n  source: openapi/sap-hana-instances-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{subdomain}.authentication.{region}.hana.ondemand.com/oauth/token\n  description: OAuth 2.0 authentication using SAP Business Technology Platform credentials.\n    Obtain an access token using client credentials flow with the UAA service URL, client ID,\n    and client secret from your SAP HANA Cloud service key. Access tokens expire after approximately\n    1799 seconds (30 minutes) and must be refreshed.\n- name: oauth2\n  source: openapi/sap-hana-metering-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
   \ https://{subdomain}.authentication.{region}.hana.ondemand.com/oauth/token\n  description: OAuth 2.0 authentication using SAP Business Technology Platform credentials.\n    Obtain an access token using client credentials flow with the UAA service URL, client ID,\n    and client secret from your SAP HANA Cloud service key. Access tokens expire after approximately\n    1799 seconds (30 minutes) and must be refreshed.\n- name: oauth2\n  source: openapi/sap-hana-metrics-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{subdomain}.authentication.{region}.hana.ondemand.com/oauth/token\n  description: OAuth 2.0 authentication using SAP Business Technology Platform credentials.\n    Obtain an access token using client credentials flow with the UAA service URL, client ID,\n    and client secret from your SAP HANA Cloud service key. Access tokens expire after approximately\n    1799 seconds (30 minutes) and must be refreshed.\nscopes: []\nnote: The OAuth2 security scheme(s)\
   \ in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/scopes/sap-hana-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sap-hana/scopes/sap-hana-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Analytics

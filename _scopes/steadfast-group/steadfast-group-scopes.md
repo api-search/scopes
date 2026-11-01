@@ -5,13 +5,13 @@ api_specs:
   label: Steadfast Group Address API
   slug: steadfast-group-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/openapi/steadfast-group-address-api-openapi.yml
+  url: https://artifacts.apis.io/steadfast-group/openapi/steadfast-group-address-api-openapi.yml
 - filename: steadfast-group-risk-api-openapi.yml
   format: yaml
   label: Steadfast Group Risk API
   slug: steadfast-group-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/openapi/steadfast-group-risk-api-openapi.yml
+  url: https://artifacts.apis.io/steadfast-group/openapi/steadfast-group-risk-api-openapi.yml
 authorization_urls:
 - https://idp.steadfast.com.au/oauth2/v1/authorize
 description: ''
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: https://idp.ste
   \ scope: email\n    description: Access to the end user's email and email_verified claims.\n    standard: OpenID Connect Core 1.0\n    flows: [authorizationCode, implicit, deviceCode, password]\n    sources: [well-known/steadfast-group-openid-configuration.json]\n  - scope: address\n    description: Access to the end user's address claim.\n    standard: OpenID Connect Core 1.0\n    flows: [authorizationCode, implicit, deviceCode, password]\n    sources: [well-known/steadfast-group-openid-configuration.json]\n  - scope: phone\n    description: Access to the end user's phone_number and phone_number_verified claims.\n    standard: OpenID Connect Core 1.0\n    flows: [authorizationCode, implicit, deviceCode, password]\n    sources: [well-known/steadfast-group-openid-configuration.json]\n  - scope: offline_access\n    description: Requests a refresh token so the client can obtain new access tokens without user interaction.\n    standard: OpenID Connect Core 1.0\n    flows: [authorizationCode,\
   \ deviceCode, password]\n    sources: [well-known/steadfast-group-openid-configuration.json]\n  - scope: groups\n    description: >-\n      Okta-specific scope returning the end user's group memberships as a claim. In a broker\n      network this is the likely carrier of brokerage/role entitlement, though no documentation\n      confirms how Steadfast populates it.\n    standard: Okta extension\n    flows: [authorizationCode, implicit, deviceCode, password]\n    sources: [well-known/steadfast-group-openid-configuration.json]\nclaims_supported:\n  - iss\n  - ver\n  - sub\n  - aud\n  - iat\n  - exp\n  - jti\n  - auth_time\n  - amr\n  - idp\n  - nonce\n  - name\n  - nickname\n  - preferred_username\n  - given_name\n  - middle_name\n  - family_name\n  - email\n  - email_verified\n  - profile\n  - zoneinfo\n  - locale\n  - address\n  - phone_number\n  - picture\n  - website\n  - gender\n  - birthdate\n  - updated_at\n  - at_hash\n  - c_hash\ngaps:\n  - >-\n    No business/domain scopes (quote,\
   \ bind, policy, claim) are advertised on the default\n    authorization server. Any partner-facing API scopes would live on a custom Okta\n    authorization server whose discovery path is not publicly enumerable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/scopes/steadfast-group-scopes.yml
+source_yaml_url: https://artifacts.apis.io/steadfast-group/scopes/steadfast-group-scopes.yml
 summary_line: 7 scopes · authorizationCode/implicit/deviceCode/password
 tags:
 - Insurance

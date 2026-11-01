@@ -5,43 +5,43 @@ api_specs:
   label: Loop Returns Cart API
   slug: loop-returns-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-cart-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-cart-api-openapi.yml
 - filename: loop-returns-destinations-api-openapi.yml
   format: yaml
   label: Loop Returns Destinations API
   slug: loop-returns-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-destinations-api-openapi.yml
 - filename: loop-returns-fraud-reports-api-openapi.yml
   format: yaml
   label: Loop Returns Fraud Reports API
   slug: loop-returns-fraud-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-fraud-reports-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-fraud-reports-api-openapi.yml
 - filename: loop-returns-label-requests-api-openapi.yml
   format: yaml
   label: Loop Returns Label Requests API
   slug: loop-returns-label-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-label-requests-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-label-requests-api-openapi.yml
 - filename: loop-returns-programmatic-webhooks-api-openapi.yml
   format: yaml
   label: Loop Returns Programmatic Webhooks API
   slug: loop-returns-programmatic-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-programmatic-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-programmatic-webhooks-api-openapi.yml
 - filename: loop-returns-return-actions-api-openapi.yml
   format: yaml
   label: Loop Returns Return Actions API
   slug: loop-returns-return-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-return-actions-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-return-actions-api-openapi.yml
 - filename: loop-returns-return-data-api-openapi.yml
   format: yaml
   label: Loop Returns Return Data API
   slug: loop-returns-return-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-return-data-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-return-data-api-openapi.yml
 authorization_urls:
 - https://oauth.loopreturns.com/authorize
 description: ''
@@ -116,7 +116,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/loop-returns-labels-openapi.yml, openapi/loop-returns-webhooks-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/loop-returns-labels-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.loopreturns.com/authorize\n    tokenUrl: https://oauth.loopreturns.com/oauth/token\n- name: oauth2\n  source: openapi/loop-returns-webhooks-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.loopreturns.com/authorize\n    tokenUrl: https://oauth.loopreturns.com/oauth/token\n  description: OAuth 2.0 authorization\nscopes:\n- scope: developer_tools\n  description: Access to developer tools including webhooks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/loop-returns-webhooks-openapi.yml\n- scope: label_requests:read\n  description: Read access to label requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/loop-returns-labels-openapi.yml\n\
   - scope: label_requests:write\n  description: Create and modify label requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/loop-returns-labels-openapi.yml\n- scope: labels:read\n  description: Read access to labels\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/loop-returns-labels-openapi.yml\n- scope: labels:write\n  description: Create and modify labels\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/loop-returns-labels-openapi.yml\n- scope: returns\n  description: Access to returns operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/loop-returns-labels-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/scopes/loop-returns-scopes.yml
+source_yaml_url: https://artifacts.apis.io/loop-returns/scopes/loop-returns-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Returns

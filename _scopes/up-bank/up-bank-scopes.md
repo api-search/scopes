@@ -5,85 +5,85 @@ api_specs:
   label: Up Accounts API
   slug: up-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-accounts-api-openapi.yml
 - filename: up-bank-attachments-api-openapi.yml
   format: yaml
   label: Up Attachments API
   slug: up-bank-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-attachments-api-openapi.yml
 - filename: up-bank-banking-account-balances-api-openapi.yml
   format: yaml
   label: Up Banking Account Balances API
   slug: up-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-balances-api-openapi.yml
 - filename: up-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Up Banking Account Direct Debits API
   slug: up-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-direct-debits-api-openapi.yml
 - filename: up-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Up Banking Account Scheduled Payments API
   slug: up-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: up-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Up Banking Account Transactions API
   slug: up-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-transactions-api-openapi.yml
 - filename: up-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Up Banking Accounts API
   slug: up-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-accounts-api-openapi.yml
 - filename: up-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Up Banking Payees API
   slug: up-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-payees-api-openapi.yml
 - filename: up-bank-banking-products-api-openapi.yml
   format: yaml
   label: Up Banking Products API
   slug: up-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-products-api-openapi.yml
 - filename: up-bank-categories-api-openapi.yml
   format: yaml
   label: Up Categories API
   slug: up-bank-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-categories-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-categories-api-openapi.yml
 - filename: up-bank-tags-api-openapi.yml
   format: yaml
   label: Up Tags API
   slug: up-bank-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-tags-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-tags-api-openapi.yml
 - filename: up-bank-transactions-api-openapi.yml
   format: yaml
   label: Up Transactions API
   slug: up-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-transactions-api-openapi.yml
 - filename: up-bank-utility-endpoints-api-openapi.yml
   format: yaml
   label: Up Utility endpoints API
   slug: up-bank-utility-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-utility-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-utility-endpoints-api-openapi.yml
 - filename: up-bank-webhooks-api-openapi.yml
   format: yaml
   label: Up Webhooks API
   slug: up-bank-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile
@@ -172,7 +172,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.up.com.au/.well-known/openid-configuration\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\ncontext: >-\n  These OAuth2 / OpenID Connect scopes are advertised by Up's Consumer Data\n  Right (CDR) OpenID Provider metadata at\n  https://api.up.com.au/.well-known/openid-configuration. They govern the CDR\n  data-sharing flow used by ACCREDITED DATA RECIPIENTS (not the personal\n  developer API, which uses a Personal Access Token). Access follows the CDR /\n  FAPI security profile: pushed authorization requests (required),\n  private_key_jwt client authentication, mTLS-bound access tokens, and the\n  authorization_code + client_credentials grants. The scope semantics are the\n  Australian CDR standard scopes defined by the Data Standards Body.\nschemes:\n  - name: CDR-OIDC\n    type: openIdConnect\n    openIdConnectUrl: https://api.up.com.au/.well-known/openid-configuration\n    issuer:\
   \ https://api.up.com.au\n    authorizationUrl: https://api.up.com.au/oidc/authorize\n    tokenUrl: https://secure.api.up.com.au/oidc/token\n    grant_types: [authorization_code, refresh_token, client_credentials]\n    source: https://api.up.com.au/.well-known/openid-configuration\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication; issue an ID token.\n    flows: [authorization_code]\n  - scope: profile\n    description: Access to basic OpenID profile claims (name, given_name, etc.).\n    flows: [authorization_code]\n  - scope: bank:accounts.basic:read\n    description: CDR — read basic banking account data (masked account numbers, balances).\n    flows: [authorization_code]\n  - scope: bank:accounts.detail:read\n    description: CDR — read detailed banking account data (full account numbers, features).\n    flows: [authorization_code]\n  - scope: bank:transactions:read\n    description: CDR — read banking transaction data.\n    flows: [authorization_code]\n  - scope:\
   \ bank:payees:read\n    description: CDR — read saved payees.\n    flows: [authorization_code]\n  - scope: bank:regular_payments:read\n    description: CDR — read direct debits and scheduled/regular payments.\n    flows: [authorization_code]\n  - scope: common:customer.basic:read\n    description: CDR — read basic customer data (name, occupation / organisation basics).\n    flows: [authorization_code]\n  - scope: common:customer.detail:read\n    description: CDR — read detailed customer data (contact details).\n    flows: [authorization_code]\n  - scope: cdr:registration\n    description: CDR dynamic client registration management.\n    flows: [client_credentials]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/scopes/up-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/up-bank/scopes/up-bank-scopes.yml
 summary_line: 10 scopes
 tags:
 - Finance

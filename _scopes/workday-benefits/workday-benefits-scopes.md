@@ -5,79 +5,79 @@ api_specs:
   label: Workday Benefits Benefit Enrollments API
   slug: workday-benefits-benefit-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-benefit-enrollments-api-openapi.yml
 - filename: workday-benefits-benefit-events-api-openapi.yml
   format: yaml
   label: Workday Benefits Benefit Events API
   slug: workday-benefits-benefit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-events-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-benefit-events-api-openapi.yml
 - filename: workday-benefits-benefit-plans-api-openapi.yml
   format: yaml
   label: Workday Benefits Benefit Plans API
   slug: workday-benefits-benefit-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-benefit-plans-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-benefit-plans-api-openapi.yml
 - filename: workday-benefits-dependents-api-openapi.yml
   format: yaml
   label: Workday Benefits Dependents API
   slug: workday-benefits-dependents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-dependents-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-dependents-api-openapi.yml
 - filename: workday-benefits-employee-benefits-api-openapi.yml
   format: yaml
   label: Workday Benefits Employee Benefits API
   slug: workday-benefits-employee-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-employee-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-employee-benefits-api-openapi.yml
 - filename: workday-benefits-time-off-plans-api-openapi.yml
   format: yaml
   label: Workday Benefits Time Off Plans API
   slug: workday-benefits-time-off-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-time-off-plans-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-time-off-plans-api-openapi.yml
 - filename: workday-benefits-06-15-2024-api-openapi.yml
   format: yaml
   label: Workday Benefits 06/15/2024 API
   slug: workday-benefits-06-15-2024-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-15-2024-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-06-15-2024-api-openapi.yml
 - filename: workday-benefits-06-15-2026-api-openapi.yml
   format: yaml
   label: Workday Benefits 06/15/2026 API
   slug: workday-benefits-06-15-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-15-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-06-15-2026-api-openapi.yml
 - filename: workday-benefits-06-30-2026-api-openapi.yml
   format: yaml
   label: Workday Benefits 06/30/2026 API
   slug: workday-benefits-06-30-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-06-30-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-06-30-2026-api-openapi.yml
 - filename: workday-benefits-08-17-2026-api-openapi.yml
   format: yaml
   label: Workday Benefits 08/17/2026 API
   slug: workday-benefits-08-17-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-08-17-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-08-17-2026-api-openapi.yml
 - filename: workday-benefits-09-09-2023-api-openapi.yml
   format: yaml
   label: Workday Benefits 09/09/2023 API
   slug: workday-benefits-09-09-2023-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-09-09-2023-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-09-09-2023-api-openapi.yml
 - filename: workday-benefits-employeeenrollmentevent-api-openapi.yml
   format: yaml
   label: Workday Benefits Employee Enrollment Event API
   slug: workday-benefits-employeeenrollmentevent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-employeeenrollmentevent-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-employeeenrollmentevent-api-openapi.yml
 - filename: workday-benefits-programs-api-openapi.yml
   format: yaml
   label: Workday Benefits Programs API
   slug: workday-benefits-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/openapi/workday-benefits-programs-api-openapi.yml
+  url: https://artifacts.apis.io/workday-benefits/openapi/workday-benefits-programs-api-openapi.yml
 authorization_urls:
 - https://<tenantAuthorizationHostname>
 description: ''
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: openapi/workday
   \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.workday.com/ccx/oauth2/{tenant}/token\n- name: OAuth2\n  source: openapi/workday-benefits-benefit-partner-openapi.json\n  flows:\n  - flow: implicit\n    authorizationUrl: https://<tenantAuthorizationHostname>\n- name: oauth2\n  source: openapi/workday-benefits-benefit-plans-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.workday.com/ccx/oauth2/{tenant}/token\n- name: oauth2\n  source: openapi/workday-benefits-dependents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.workday.com/ccx/oauth2/{tenant}/token\n- name: oauth2\n  source: openapi/workday-benefits-employee-benefits-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.workday.com/ccx/oauth2/{tenant}/token\n- name: oauth2\n  source: openapi/workday-benefits-time-off-plans-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.workday.com/ccx/oauth2/{tenant}/token\n\
   scopes:\n- scope: benefits\n  description: Access to Workday Benefits API\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/workday-benefits-benefit-enrollments-api-openapi.yml\n  - openapi/workday-benefits-benefit-events-api-openapi.yml\n  - openapi/workday-benefits-benefit-plans-api-openapi.yml\n  - openapi/workday-benefits-dependents-api-openapi.yml\n  - openapi/workday-benefits-employee-benefits-api-openapi.yml\n  - openapi/workday-benefits-time-off-plans-api-openapi.yml\ndocs: https://developer.workday.com/doc/GUID-6c598444-ce67-40d5-bd95-267ecfe439b8-enHYPHENus.md\nscope_model:\n  style: functional-area scopes granted at API client registration\n  detail: Workday scopes are Functional Area scopes selected when the API client is registered in the tenant, not\n    string scopes enumerated in the contract. Both production Benefits contracts declare an OAuth2 scheme whose\n    scopes object is EMPTY, so no scope string can be read from the machine-readable contract - the scope\
   \ that matters\n    for this surface is the Benefits functional area plus the security domains it carries.\n  contract_declared_scopes: 0\n  note: 'The single scope \"benefits\" listed below is derived from the API Evangelist-authored scaffold specs in\n    openapi/ (x-generated-from: documentation), NOT from a Workday-published scope reference. It is retained for\n    continuity and is flagged here so it is not mistaken for a provider-published scope string.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/scopes/workday-benefits-scopes.yml
+source_yaml_url: https://artifacts.apis.io/workday-benefits/scopes/workday-benefits-scopes.yml
 summary_line: 1 scope · implicit/clientCredentials
 tags:
 - Benefits

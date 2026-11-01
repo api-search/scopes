@@ -48,7 +48,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://mcp.instrumentl.com/.well-known/oauth-protected-resource\ndocs: https://www.instrumentl.com/.well-known/oauth-authorization-server\nschemes:\n  - name: OAuth2\n    source: https://www.instrumentl.com/.well-known/oauth-authorization-server\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://www.instrumentl.com/oauth/authorize\n        tokenUrl: https://www.instrumentl.com/oauth/token\n        refreshUrl: https://www.instrumentl.com/oauth/token\n        pkce: S256\nscopes:\n  - scope: mcp:read\n    description: Read access to Instrumentl data via the remote MCP server (mcp.instrumentl.com).\n    flows: [authorizationCode]\n    sources: [https://mcp.instrumentl.com/.well-known/oauth-protected-resource]\n  - scope: mcp:write\n    description: Write access to Instrumentl data via the remote MCP server (mcp.instrumentl.com).\n    flows: [authorizationCode]\n    sources: [https://mcp.instrumentl.com/.well-known/oauth-protected-resource]\n\
   notes: >-\n  Scopes are the two MCP scopes advertised by the OAuth authorization-server and\n  protected-resource discovery documents. Instrumentl publishes no public REST\n  API/OpenAPI, so these OAuth scopes govern the MCP surface only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instrumentl/refs/heads/main/scopes/instrumentl-scopes.yml
+source_yaml_url: https://artifacts.apis.io/instrumentl/scopes/instrumentl-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

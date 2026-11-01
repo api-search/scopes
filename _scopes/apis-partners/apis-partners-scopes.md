@@ -45,7 +45,7 @@ source_filename: apis-partners-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://apis.pe/.well-known/openid-configuration\nnote: >-\n  Scopes advertised by the Umbraco Delivery API member OIDC discovery document at apis.pe.\n  This is the CMS member-auth surface, not a business API of Apis Partners.\nschemes:\n- name: oauth2\n  source: well-known/apis-partners-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.apis.pe/umbraco/delivery/api/v1/security/member/authorize\n    tokenUrl: https://www.apis.pe/umbraco/delivery/api/v1/security/member/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token identifying the member.\n  flows: [authorizationCode]\n  sources: [well-known/apis-partners-openid-configuration.json]\n- scope: offline_access\n  description: Issues a refresh token so the client can obtain new access tokens without re-authentication.\n  flows: [authorizationCode]\n  sources: [well-known/apis-partners-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apis-partners/refs/heads/main/scopes/apis-partners-scopes.yml
+source_yaml_url: https://artifacts.apis.io/apis-partners/scopes/apis-partners-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

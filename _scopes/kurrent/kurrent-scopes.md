@@ -5,49 +5,49 @@ api_specs:
   label: Kurrent Admin API
   slug: kurrent-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-admin-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-admin-api-openapi.yml
 - filename: kurrent-gossip-api-openapi.yml
   format: yaml
   label: Kurrent Gossip API
   slug: kurrent-gossip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-gossip-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-gossip-api-openapi.yml
 - filename: kurrent-info-api-openapi.yml
   format: yaml
   label: Kurrent Info API
   slug: kurrent-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-info-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-info-api-openapi.yml
 - filename: kurrent-projections-api-openapi.yml
   format: yaml
   label: Kurrent Projections API
   slug: kurrent-projections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-projections-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-projections-api-openapi.yml
 - filename: kurrent-statistics-api-openapi.yml
   format: yaml
   label: Kurrent Statistics API
   slug: kurrent-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-statistics-api-openapi.yml
 - filename: kurrent-streams-api-openapi.yml
   format: yaml
   label: Kurrent Streams API
   slug: kurrent-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-streams-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-streams-api-openapi.yml
 - filename: kurrent-subscriptions-api-openapi.yml
   format: yaml
   label: Kurrent Subscriptions API
   slug: kurrent-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-subscriptions-api-openapi.yml
 - filename: kurrent-users-api-openapi.yml
   format: yaml
   label: Kurrent Users API
   slug: kurrent-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/openapi/kurrent-users-api-openapi.yml
+  url: https://artifacts.apis.io/kurrent/openapi/kurrent-users-api-openapi.yml
 authorization_urls:
 - https://identity.eventstore.com/authorize
 description: ''
@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://identit
   \  discovery:\n  - https://identity.eventstore.com/.well-known/openid-configuration\n  - https://identity.eventstore.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://identity.eventstore.com/authorize\n    tokenUrl: https://identity.eventstore.com/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://identity.eventstore.com/oauth/token\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://identity.eventstore.com/oauth/device/code\n    tokenUrl: https://identity.eventstore.com/oauth/token\n  endpoints:\n    userinfo: https://identity.eventstore.com/userinfo\n    jwks: https://identity.eventstore.com/.well-known/jwks.json\n    revocation: https://identity.eventstore.com/oauth/revoke\n    registration: https://identity.eventstore.com/oidc/register\n  pkce_methods: [S256, plain]\nscopes:\n- scope: openid\n  description: Request an ID token and authenticate the end user via OpenID Connect.\n  standard: openid-connect\n\
   - scope: profile\n  description: Access the end user's default profile claims.\n  standard: openid-connect\n- scope: offline_access\n  description: Request a refresh token so the client can obtain new access tokens without the user present.\n  standard: openid-connect\n- scope: email\n  description: Access the end user's email address claim.\n  standard: openid-connect\n- scope: email_verified\n  description: Access whether the end user's email address has been verified.\n- scope: name\n  description: Access the end user's full name claim.\n- scope: given_name\n  description: Access the end user's given name claim.\n- scope: family_name\n  description: Access the end user's family name claim.\n- scope: nickname\n  description: Access the end user's nickname claim.\n- scope: picture\n  description: Access the end user's profile picture claim.\n- scope: created_at\n  description: Access the timestamp at which the end user's account was created.\n- scope: identities\n  description: Access\
   \ the linked identity providers associated with the end user's account.\n- scope: phone\n  description: Access the end user's phone number claim.\n- scope: address\n  description: Access the end user's address claim.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/scopes/kurrent-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kurrent/scopes/kurrent-scopes.yml
 summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Company

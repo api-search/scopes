@@ -5,61 +5,61 @@ api_specs:
   label: Fulfil Authentication API
   slug: fulfil-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-authentication-api-openapi.yml
 - filename: fulfil-io-customers-api-openapi.yml
   format: yaml
   label: Fulfil Customers API
   slug: fulfil-io-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-customers-api-openapi.yml
 - filename: fulfil-io-inventory-stock-api-openapi.yml
   format: yaml
   label: Fulfil Inventory & Stock API
   slug: fulfil-io-inventory-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-inventory-stock-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-inventory-stock-api-openapi.yml
 - filename: fulfil-io-manufacturing-api-openapi.yml
   format: yaml
   label: Fulfil Manufacturing API
   slug: fulfil-io-manufacturing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-manufacturing-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-manufacturing-api-openapi.yml
 - filename: fulfil-io-model-interface-api-openapi.yml
   format: yaml
   label: Fulfil Model Interface API
   slug: fulfil-io-model-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-model-interface-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-model-interface-api-openapi.yml
 - filename: fulfil-io-products-variants-api-openapi.yml
   format: yaml
   label: Fulfil Products & Variants API
   slug: fulfil-io-products-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-products-variants-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-products-variants-api-openapi.yml
 - filename: fulfil-io-purchases-api-openapi.yml
   format: yaml
   label: Fulfil Purchases API
   slug: fulfil-io-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-purchases-api-openapi.yml
 - filename: fulfil-io-sales-orders-api-openapi.yml
   format: yaml
   label: Fulfil Sales Orders API
   slug: fulfil-io-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-sales-orders-api-openapi.yml
 - filename: fulfil-io-shipments-api-openapi.yml
   format: yaml
   label: Fulfil Shipments API
   slug: fulfil-io-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-shipments-api-openapi.yml
 - filename: fulfil-io-webhooks-api-openapi.yml
   format: yaml
   label: Fulfil Webhooks API
   slug: fulfil-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-webhooks-api-openapi.yml
 authorization_urls:
 - https://{merchant_id}.fulfil.io/oauth/authorize
 description: ''
@@ -106,7 +106,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/fulfil-io-openapi.yml\ndocs: https://developers.fulfil.io/rest_api/oauth/\nnote: Fulfil documents an OAuth 2.0 authorization code flow with scopes passed as a\n  comma-separated list, but does not publish a complete public scopes reference -\n  the current OAuth docs (https://developers.fulfil.io/rest_api/oauth/) redirect to\n  a workspace login; only the scopes shown in the official OAuth guide (archived)\n  and the official fulfil-python-api client examples are recorded here, which follow\n  a model:permission pattern (e.g. sale.channel:read) plus offline_access as an\n  access_type for offline tokens.\nschemes:\n- name: oauth2\n  source: openapi/fulfil-io-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{merchant_id}.fulfil.io/oauth/authorize\n    tokenUrl: https://{merchant_id}.fulfil.io/oauth/token\n  description: OAuth 2.0 authorization code flow for public apps.\nscopes:\n- scope:\
   \ user_session\n  description: Grants an API session acting on behalf of the authorizing user; shown\n    as the granted scope in the OAuth token response example in Fulfil's official\n    OAuth guide and used in the official Python client's OAuth session example.\n  sources:\n  - https://web.archive.org/web/20190308042755/http://developers.fulfil.io/getting-started/oauth2.html\n  - https://github.com/fulfilio/fulfil-python-api\n- scope: sale.channel:read\n  description: Read access to the sale.channel model; used in Fulfil's official\n    headless offline-access example, illustrating the model:permission scope pattern\n    Fulfil uses for granting access to individual ERP models.\n  sources:\n  - https://web.archive.org/web/20190308042755/http://developers.fulfil.io/getting-started/oauth2.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/scopes/fulfil-io-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fulfil-io/scopes/fulfil-io-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - ERP

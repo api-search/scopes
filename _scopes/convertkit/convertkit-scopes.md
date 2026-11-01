@@ -5,91 +5,91 @@ api_specs:
   label: Kit Accounts API
   slug: convertkit-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-accounts-api-openapi.yml
 - filename: convertkit-broadcasts-api-openapi.yml
   format: yaml
   label: Kit Broadcasts API
   slug: convertkit-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-broadcasts-api-openapi.yml
 - filename: convertkit-custom-fields-api-openapi.yml
   format: yaml
   label: Kit Custom Fields API
   slug: convertkit-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-custom-fields-api-openapi.yml
 - filename: convertkit-email-templates-api-openapi.yml
   format: yaml
   label: Kit Email Templates API
   slug: convertkit-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-email-templates-api-openapi.yml
 - filename: convertkit-forms-api-openapi.yml
   format: yaml
   label: Kit Forms API
   slug: convertkit-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-forms-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-forms-api-openapi.yml
 - filename: convertkit-posts-api-openapi.yml
   format: yaml
   label: Kit Posts API
   slug: convertkit-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-posts-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-posts-api-openapi.yml
 - filename: convertkit-purchases-api-openapi.yml
   format: yaml
   label: Kit Purchases API
   slug: convertkit-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-purchases-api-openapi.yml
 - filename: convertkit-segments-api-openapi.yml
   format: yaml
   label: Kit Segments API
   slug: convertkit-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-segments-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-segments-api-openapi.yml
 - filename: convertkit-sequence-emails-api-openapi.yml
   format: yaml
   label: Kit Sequence Emails API
   slug: convertkit-sequence-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-sequence-emails-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-sequence-emails-api-openapi.yml
 - filename: convertkit-sequences-api-openapi.yml
   format: yaml
   label: Kit Sequences API
   slug: convertkit-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-sequences-api-openapi.yml
 - filename: convertkit-snippets-api-openapi.yml
   format: yaml
   label: Kit Snippets API
   slug: convertkit-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-snippets-api-openapi.yml
 - filename: convertkit-subscribers-api-openapi.yml
   format: yaml
   label: Kit Subscribers API
   slug: convertkit-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-subscribers-api-openapi.yml
 - filename: convertkit-tags-api-openapi.yml
   format: yaml
   label: Kit Tags API
   slug: convertkit-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-tags-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-tags-api-openapi.yml
 - filename: convertkit-webhooks-api-openapi.yml
   format: yaml
   label: Kit Webhooks API
   slug: convertkit-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-webhooks-api-openapi.yml
 - filename: convertkit-account-api-openapi.yml
   format: yaml
   label: Kit Account API
   slug: convertkit-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/openapi/convertkit-account-api-openapi.yml
+  url: https://artifacts.apis.io/convertkit/openapi/convertkit-account-api-openapi.yml
 authorization_urls:
 - https://app.kit.com/oauth/authorize
 - https://api.kit.com/v4/oauth/authorize
@@ -168,7 +168,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api.kit
   \    by a client; the spec's oauth2 block appears stale. Neither has been edited\n    here.\nschemes:\n- name: OAuth2\n  source: https://api.kit.com/.well-known/oauth-authorization-server\n  probed: '2026-08-13'\n  http_status: 200\n  issuer: https://api.kit.com\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.kit.com/oauth/authorize\n    tokenUrl: https://api.kit.com/oauth/token\n  revocation_endpoint: https://api.kit.com/oauth/revoke\n  registration_endpoint: https://app.kit.com/oauth/register\n  response_types_supported: [code]\n  grant_types_supported: [authorization_code, refresh_token]\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [client_secret_post, none]\n  description: Live OAuth 2.0 authorization server metadata (RFC 8414).\n- name: OAuth2\n  source: openapi/_original/openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.kit.com/v4/oauth/authorize\n    tokenUrl: https://api.kit.com/v4/oauth/token\n\
   \  description: >-\n    As declared in components.securitySchemes across all 14 refined specs.\n    Endpoint URLs conflict with the live well-known document above.\nscopes:\n- scope: public\n  description: >-\n    The only scope Kit's live authorization server advertises\n    (scopes_supported: [\"public\"]). Kit does not document what it grants; in\n    practice a Kit OAuth token reaches the whole v4 surface the account is\n    entitled to, so this is a coarse, all-or-nothing grant rather than a\n    least-privilege scope model.\n  flows: [authorizationCode]\n  sources: [https://api.kit.com/.well-known/oauth-authorization-server]\n  authoritative: true\n- scope: read\n  description: Read access to Kit API v4, as declared in the OpenAPI oauth2 flow scopes map.\n  flows: [authorizationCode]\n  sources: [openapi/_original/openapi.json]\n  authoritative: false\n  note: Not advertised by the live authorization server.\n- scope: write\n  description: Write access to Kit API v4, as declared\
   \ in the OpenAPI oauth2 flow scopes map.\n  flows: [authorizationCode]\n  sources: [openapi/_original/openapi.json]\n  authoritative: false\n  note: Not advertised by the live authorization server.\ngranularity:\n  model: coarse\n  per_resource_scopes: false\n  note: >-\n    There is no per-resource or per-verb scope (no subscribers:read,\n    broadcasts:write). An agent granted a Kit token can send broadcasts and\n    delete data with the same credential it uses to read a subscriber count.\n    Kit mitigates this at the MCP layer with per-tool annotation hints\n    (destructiveHint) and client-side confirmation, not with scopes.\nresource_indicators:\n  protected_resource: https://app.kit.com/mcp\n  metadata: https://api.kit.com/.well-known/oauth-protected-resource\n  spec: RFC 9728\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/scopes/convertkit-scopes.yml
+source_yaml_url: https://artifacts.apis.io/convertkit/scopes/convertkit-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Email Marketing

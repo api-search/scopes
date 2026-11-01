@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://lifestyles.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nprovider_model: >-\n  OAuth 2.0 / OpenID Connect scopes advertised by the Shopify Customer Accounts\n  authorization server that backs the LifeStyles US storefront. These are the\n  scopes_supported values published in the store's own discovery document.\nauthorization_server: https://shopify.com/authentication/61038100706\nscopes:\n- name: openid\n  description: Request an ID token and authenticate the customer via OpenID Connect.\n- name: email\n  description: Access the authenticated customer's email address and its verification status.\n- name: 'customer-account-api:full'\n  description: >-\n    Full access to the Customer Account API on behalf of the signed-in customer -\n    orders, addresses, and account profile.\n- name: 'customer-account-mcp-api:full'\n  description: >-\n    Full access to the customer-account MCP\
   \ API on behalf of the signed-in customer,\n    enabling agent access to that customer's account surface.\ncount: 4\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lifestyles-healthcare/refs/heads/main/scopes/lifestyles-healthcare-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lifestyles-healthcare/scopes/lifestyles-healthcare-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

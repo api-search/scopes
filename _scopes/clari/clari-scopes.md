@@ -5,91 +5,91 @@ api_specs:
   label: Clari Activity API
   slug: clari-activity-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-activity-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-activity-api-api-openapi.yml
 - filename: clari-administrative-api-api-openapi.yml
   format: yaml
   label: Clari Administrative API
   slug: clari-administrative-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-administrative-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-administrative-api-api-openapi.yml
 - filename: clari-audit-api-api-openapi.yml
   format: yaml
   label: Clari Audit API
   slug: clari-audit-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-audit-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-audit-api-api-openapi.yml
 - filename: clari-bulk-export-framework-api-openapi.yml
   format: yaml
   label: Clari Bulk Export Framework API
   slug: clari-bulk-export-framework-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-bulk-export-framework-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-bulk-export-framework-api-openapi.yml
 - filename: clari-bulk-ingest-job-status-api-api-openapi.yml
   format: yaml
   label: Clari Bulk Ingest Job Status API
   slug: clari-bulk-ingest-job-status-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-bulk-ingest-job-status-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-bulk-ingest-job-status-api-api-openapi.yml
 - filename: clari-forecast-api-api-openapi.yml
   format: yaml
   label: Clari Forecast API
   slug: clari-forecast-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-forecast-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-forecast-api-api-openapi.yml
 - filename: clari-ingestion-api-api-openapi.yml
   format: yaml
   label: Clari Ingestion API
   slug: clari-ingestion-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-ingestion-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-ingestion-api-api-openapi.yml
 - filename: clari-opportunity-api-api-openapi.yml
   format: yaml
   label: Clari Opportunity API
   slug: clari-opportunity-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-opportunity-api-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-opportunity-api-api-openapi.yml
 - filename: clari-account-api-openapi.yml
   format: yaml
   label: Clari Account API
   slug: clari-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-account-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-account-api-openapi.yml
 - filename: clari-call-api-openapi.yml
   format: yaml
   label: Clari Call API
   slug: clari-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-call-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-call-api-openapi.yml
 - filename: clari-contact-api-openapi.yml
   format: yaml
   label: Clari Contact API
   slug: clari-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-contact-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-contact-api-openapi.yml
 - filename: clari-deal-api-openapi.yml
   format: yaml
   label: Clari Deal API
   slug: clari-deal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-deal-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-deal-api-openapi.yml
 - filename: clari-scorecard-api-openapi.yml
   format: yaml
   label: Clari Scorecard API
   slug: clari-scorecard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-scorecard-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-scorecard-api-openapi.yml
 - filename: clari-topics-api-openapi.yml
   format: yaml
   label: Clari Topics API
   slug: clari-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-topics-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-topics-api-openapi.yml
 - filename: clari-user-api-openapi.yml
   format: yaml
   label: Clari User API
   slug: clari-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/openapi/clari-user-api-openapi.yml
+  url: https://artifacts.apis.io/clari/openapi/clari-user-api-openapi.yml
 authorization_urls: []
 description: Clari's OAuth surface exists ONLY on the MCP server. Neither published OpenAPI declares an oauth2 securityScheme — the Revenue API uses an `apikey` header and the Copilot API uses `X-Api-Key` + `X-Api-Password`. The scopes below are read verbatim from the RFC 9728 / RFC 8414 metadata the Clari MCP gateway serves anonymously. They are standard OpenID Connect scopes; Clari publishes NO product-specific authorization scopes (nothing like forecast:read or calls:read), so a granted MCP token is not scoped by Clari data domain at the protocol level. Access is instead gated by tenant admin toggles and the user's own Clari permissions.
 docs: ''
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  https://mcp
   \ [RS256, RS384, RS512, ES256, ES384, ES512]\n  grant_types_supported:\n  - authorization_code\n  - implicit\n  - refresh_token\n  - password\n  - client_credentials\n  - urn:ietf:params:oauth:grant-type:device_code\n\nprotected_resource:\n  resource: https://mcp.clari.com/mcp\n  resource_name: Clari MCP Server\n  bearer_methods_supported: [header]\n\nscopes:\n- name: openid\n  description: Standard OIDC scope requesting an ID token. Required by the MCP resource.\n  required: true\n  source: protected-resource metadata (scopes_supported)\n  standard: openid-connect-core\n- name: profile\n  description: Standard OIDC scope granting basic profile claims about the authenticating Clari user.\n  required: true\n  source: protected-resource metadata (scopes_supported)\n  standard: openid-connect-core\n- name: email\n  description: Standard OIDC scope granting the user's email claim. Advertised by the authorization server; not required by the MCP resource.\n  required: false\n  source: authorization-server\
   \ metadata (scopes_supported)\n  standard: openid-connect-core\n- name: address\n  description: Standard OIDC address claim scope. Advertised by the authorization server only.\n  required: false\n  source: authorization-server metadata (scopes_supported)\n  standard: openid-connect-core\n- name: phone\n  description: Standard OIDC phone claim scope. Advertised by the authorization server only.\n  required: false\n  source: authorization-server metadata (scopes_supported)\n  standard: openid-connect-core\n- name: offline_access\n  description: Requests a refresh token so an agent can maintain a long-lived MCP session.\n  required: false\n  source: authorization-server metadata (scopes_supported)\n  standard: openid-connect-core\n- name: device_sso\n  description: Okta device single-sign-on scope, used with the device authorization grant.\n  required: false\n  source: authorization-server metadata (scopes_supported)\n  standard: okta-extension\n\ntoken_claims_supported:\n- ver\n- jti\n-\
   \ iss\n- aud\n- iat\n- exp\n- cid\n- uid\n- scp\n- sub\n\nfindings:\n- Product-scoped authorization is absent. Nothing in the published metadata lets a client request read-only access to, say, calls but not deals.\n- Consent granularity is therefore all-or-nothing at the protocol layer; least-privilege has to be enforced by the Clari admin toggles and the user's own role.\n- The authorization server advertises `implicit` and `password` grants, both discouraged by OAuth 2.1. An MCP client should use authorization_code + PKCE (S256), which is supported.\n- Dynamic client registration is open at https://mcp.clari.com/okta/clients, which is what allows Claude and ChatGPT to connect without a pre-provisioned client id.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/scopes/clari-scopes.yml
+source_yaml_url: https://artifacts.apis.io/clari/scopes/clari-scopes.yml
 summary_line: 7 scopes
 tags:
 - Revenue Operations

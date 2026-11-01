@@ -5,13 +5,13 @@ api_specs:
   label: Resistant AI Submission API
   slug: resistant-ai-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-submission-api-openapi.yml
+  url: https://artifacts.apis.io/resistant-ai/openapi/resistant-ai-submission-api-openapi.yml
 - filename: resistant-ai-tenants-api-openapi.yml
   format: yaml
   label: Resistant AI Tenants API
   slug: resistant-ai-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/resistant-ai/openapi/resistant-ai-tenants-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.resistant.ai/getting-started/authentication
@@ -56,7 +56,7 @@ source_filename: resistant-ai-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/resistant-ai-documents-openapi.json\ndocs: https://developers.resistant.ai/getting-started/authentication\nschemes:\n- name: OAuth2\n  source: openapi/resistant-ai-documents-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://eu.id.resistant.ai/oauth2/aus2un1hkrKhPjir4417/v1/token\nscopes:\n- scope: submissions.read\n  description: Read analysis results for a submission\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/resistant-ai-documents-openapi.json\n- scope: submissions.write\n  description: Create a new submission\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/resistant-ai-documents-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/scopes/resistant-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/resistant-ai/scopes/resistant-ai-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Company

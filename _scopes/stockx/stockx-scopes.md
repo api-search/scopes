@@ -5,25 +5,25 @@ api_specs:
   label: StockX Batch API
   slug: stockx-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-batch-api-openapi.yml
+  url: https://artifacts.apis.io/stockx/openapi/stockx-batch-api-openapi.yml
 - filename: stockx-catalog-api-openapi.yml
   format: yaml
   label: StockX Catalog API
   slug: stockx-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/stockx/openapi/stockx-catalog-api-openapi.yml
 - filename: stockx-listings-api-openapi.yml
   format: yaml
   label: StockX Listings API
   slug: stockx-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-listings-api-openapi.yml
+  url: https://artifacts.apis.io/stockx/openapi/stockx-listings-api-openapi.yml
 - filename: stockx-order-api-openapi.yml
   format: yaml
   label: StockX Order API
   slug: stockx-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/openapi/stockx-order-api-openapi.yml
+  url: https://artifacts.apis.io/stockx/openapi/stockx-order-api-openapi.yml
 authorization_urls:
 - https://accounts.stockx.com/authorize
 description: ''
@@ -71,7 +71,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://accounts.stockx.com/.well-known/openid-configuration\ndocs: https://developer.stockx.com/portal/authentication\nnote: >-\n  The StockX Public API OpenAPI declares only http-bearer + api-key security\n  schemes, but access tokens are minted by StockX's Auth0 tenant via the OAuth 2.0\n  Authorization Code flow. The authorization request must set audience to\n  gateway.stockx.com. Application-level authorization (catalog/selling/orders) is\n  governed by the developer program grant tied to the API key rather than by\n  granular OAuth scopes; the scopes below are the identity/session scopes the\n  Auth0 authorize endpoint accepts.\nschemes:\n- name: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.stockx.com/authorize\n    tokenUrl: https://accounts.stockx.com/oauth/token\n    audience: gateway.stockx.com\nscopes:\n- scope: openid\n  description: Issue an OpenID Connect ID token for\
   \ the authenticating StockX user.\n  flows: [authorizationCode]\n- scope: offline_access\n  description: Issue a refresh token so the application can obtain new access tokens without re-prompting the user.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stockx/refs/heads/main/scopes/stockx-scopes.yml
+source_yaml_url: https://artifacts.apis.io/stockx/scopes/stockx-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

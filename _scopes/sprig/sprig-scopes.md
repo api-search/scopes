@@ -5,31 +5,31 @@ api_specs:
   label: Sprig Purge API
   slug: sprig-purge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-purge-api-openapi.yml
+  url: https://artifacts.apis.io/sprig/openapi/sprig-purge-api-openapi.yml
 - filename: sprig-responses-api-openapi.yml
   format: yaml
   label: Sprig Responses API
   slug: sprig-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-responses-api-openapi.yml
+  url: https://artifacts.apis.io/sprig/openapi/sprig-responses-api-openapi.yml
 - filename: sprig-surveys-api-openapi.yml
   format: yaml
   label: Sprig Surveys API
   slug: sprig-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/sprig/openapi/sprig-surveys-api-openapi.yml
 - filename: sprig-themes-api-openapi.yml
   format: yaml
   label: Sprig Themes API
   slug: sprig-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-themes-api-openapi.yml
+  url: https://artifacts.apis.io/sprig/openapi/sprig-themes-api-openapi.yml
 - filename: sprig-users-api-openapi.yml
   format: yaml
   label: Sprig Users API
   slug: sprig-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/openapi/sprig-users-api-openapi.yml
+  url: https://artifacts.apis.io/sprig/openapi/sprig-users-api-openapi.yml
 authorization_urls:
 - https://app.sprig.com/oauth/authorize
 description: ''
@@ -94,7 +94,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://mcp.sprig.com/.well-known/oauth-authorization-server\ndocs: https://docs.sprig.com/docs/native-ai/sprig-mcp\nnotes: >-\n  Sprig's REST API (api.sprig.com) authenticates with a static API key\n  (Authorization: API-Key / Bearer). OAuth 2.0 scopes are published for the\n  Sprig MCP server (mcp.sprig.com), whose authorization server is api.sprig.com.\n  Scopes below are taken verbatim from the RFC 8414 / RFC 9728 discovery metadata.\nschemes:\n  - name: OAuth2\n    source: well-known/sprig-oauth-authorization-server.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://app.sprig.com/oauth/authorize\n        tokenUrl: https://api.sprig.com/oauth/token\n        registrationUrl: https://api.sprig.com/oauth/register\n        pkce: S256\nscopes:\n  - scope: environments:read\n    description: Read access to Sprig environments (product/environment metadata).\n    flows: [authorizationCode]\n  -\
   \ scope: surveys:read\n    description: Read access to survey/study configurations.\n    flows: [authorizationCode]\n  - scope: surveys:write\n    description: Create and modify surveys/studies (e.g. drafting studies from AI clients).\n    flows: [authorizationCode]\n  - scope: responses:read\n    description: Read access to study responses.\n    flows: [authorizationCode]\n  - scope: themes:read\n    description: Read access to AI-identified themes and their associated responses.\n    flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/scopes/sprig-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sprig/scopes/sprig-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Company

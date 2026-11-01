@@ -5,79 +5,79 @@ api_specs:
   label: Scrunch AI Agent Traffic API
   slug: scrunch-ai-agent-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-agent-traffic-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-agent-traffic-api-openapi.yml
 - filename: scrunch-ai-ai-referrals-api-openapi.yml
   format: yaml
   label: Scrunch AI AI Referrals API
   slug: scrunch-ai-ai-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-ai-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-ai-referrals-api-openapi.yml
 - filename: scrunch-ai-axp-render-api-openapi.yml
   format: yaml
   label: Scrunch AI Axp Render API
   slug: scrunch-ai-axp-render-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-axp-render-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-axp-render-api-openapi.yml
 - filename: scrunch-ai-brands-api-openapi.yml
   format: yaml
   label: Scrunch AI Brands API
   slug: scrunch-ai-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-brands-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-brands-api-openapi.yml
 - filename: scrunch-ai-orchestration-api-openapi.yml
   format: yaml
   label: Scrunch AI Orchestration API
   slug: scrunch-ai-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-orchestration-api-openapi.yml
 - filename: scrunch-ai-page-audits-api-openapi.yml
   format: yaml
   label: Scrunch AI Page Audits API
   slug: scrunch-ai-page-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-page-audits-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-page-audits-api-openapi.yml
 - filename: scrunch-ai-prompts-api-openapi.yml
   format: yaml
   label: Scrunch AI Prompts API
   slug: scrunch-ai-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-prompts-api-openapi.yml
 - filename: scrunch-ai-query-api-openapi.yml
   format: yaml
   label: Scrunch AI Query API
   slug: scrunch-ai-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-query-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-query-api-openapi.yml
 - filename: scrunch-ai-responses-api-openapi.yml
   format: yaml
   label: Scrunch AI Responses API
   slug: scrunch-ai-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-responses-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-responses-api-openapi.yml
 - filename: scrunch-ai-sitemap-api-openapi.yml
   format: yaml
   label: Scrunch AI Sitemap API
   slug: scrunch-ai-sitemap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-sitemap-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-sitemap-api-openapi.yml
 - filename: scrunch-ai-signals-api-openapi.yml
   format: yaml
   label: Scrunch AI Signals API
   slug: scrunch-ai-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-signals-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-signals-api-openapi.yml
 - filename: scrunch-ai-collections-api-openapi.yml
   format: yaml
   label: Scrunch AI Collections API
   slug: scrunch-ai-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-collections-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-collections-api-openapi.yml
 - filename: scrunch-ai-scrunch-data-api-api-openapi.yml
   format: yaml
   label: Scrunch AI Scrunch Data API
   slug: scrunch-ai-scrunch-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/openapi/scrunch-ai-scrunch-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/scrunch-ai/openapi/scrunch-ai-scrunch-data-api-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.scrunch.com/getting-started/authentication
@@ -115,7 +115,7 @@ source_filename: scrunch-ai-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/scrunch-ai-data-api-openapi.yml\ndocs: https://developers.scrunch.com/getting-started/authentication\nmodel: api-key-scopes\nnote: |\n  Scrunch does not use OAuth2 authorization flows for the Data API - scopes are attached\n  to organization-level API keys (Bearer tokens) at creation time and enforced per\n  operation via the HTTPBearer security scheme. These are the operational scopes the\n  OpenAPI security requirements reference and that the docs document as selectable key\n  scopes. (The separate hosted MCP server uses OAuth sign-in - see mcp/scrunch-ai-mcp.yml.)\nscheme: HTTPBearer\nscopes:\n- scope: query\n  description: Retrieve analytics and metrics (Query, Responses, Sitemap, Agent Traffic reads).\n- scope: configure\n  description: Update brand configuration - brands, competitors, personas, prompts, page audits.\n- scope: create-brand\n  description: Programmatically create new brands.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/scopes/scrunch-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/scrunch-ai/scopes/scrunch-ai-scopes.yml
 summary_line: 3 scopes
 tags:
 - Company

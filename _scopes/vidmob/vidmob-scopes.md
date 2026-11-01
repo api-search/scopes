@@ -5,25 +5,25 @@ api_specs:
   label: VidMob Media API
   slug: vidmob-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/openapi/vidmob-media-api-openapi.yml
+  url: https://artifacts.apis.io/vidmob/openapi/vidmob-media-api-openapi.yml
 - filename: vidmob-organization-api-openapi.yml
   format: yaml
   label: VidMob Organization API
   slug: vidmob-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/openapi/vidmob-organization-api-openapi.yml
+  url: https://artifacts.apis.io/vidmob/openapi/vidmob-organization-api-openapi.yml
 - filename: vidmob-scoring-api-openapi.yml
   format: yaml
   label: VidMob Scoring API
   slug: vidmob-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/openapi/vidmob-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/vidmob/openapi/vidmob-scoring-api-openapi.yml
 - filename: vidmob-workspaces-api-openapi.yml
   format: yaml
   label: VidMob Workspaces API
   slug: vidmob-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/openapi/vidmob-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/vidmob/openapi/vidmob-workspaces-api-openapi.yml
 authorization_urls:
 - https://acs.vidmob.com/oauth/authorize
 description: ''
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: https://vidmob-
   \    kind: api-key\n    sources: [https://vidmob-api-docs.readme.io/docs/authentication]\n  - scope: organization:read\n    description: >-\n      Workspace and ad-account reference data. A valid key with no specific scope already reaches\n      GET /v1/organization, GET /v1/permission and GET /v1/workspaces.\n    domain: organization\n    access: read\n    kind: api-key\n    sources: [https://help.vidmob.com/en/articles/15461399-vidmob-mcp-security-compliance-overview]\n  - scope: analytics:read\n    description: Media performance and KPI discovery. Exposed on the MCP surface only; no public REST operation.\n    domain: analytics\n    access: read\n    kind: api-key\n    sources: [https://help.vidmob.com/en/articles/15461399-vidmob-mcp-security-compliance-overview]\n  - scope: openid\n    description: OIDC subject identity on the MCP authorization server.\n    kind: oauth2\n    flows: [authorizationCode]\n    sources: [https://mcp-auth.vidmob.com/.well-known/openid-configuration]\n  -\
   \ scope: profile\n    kind: oauth2\n    flows: [authorizationCode]\n    sources: [https://mcp-auth.vidmob.com/.well-known/openid-configuration]\n  - scope: email\n    kind: oauth2\n    flows: [authorizationCode]\n    sources: [https://mcp-auth.vidmob.com/.well-known/openid-configuration]\n  - scope: phone\n    kind: oauth2\n    flows: [authorizationCode]\n    sources: [https://mcp-auth.vidmob.com/.well-known/openid-configuration]\n  - scope: offline_access\n    description: Issues a refresh token so an agent stays connected after the one-time interactive sign-in.\n    kind: oauth2\n    flows: [authorizationCode, refreshToken]\n    sources: [https://mcp-auth.vidmob.com/.well-known/openid-configuration]\n  - scope: full_access\n    description: >-\n      Advertised in the OIDC discovery document's scopes_supported but absent from the RFC 8414\n      oauth-authorization-server document and undocumented in the help center.\n    kind: oauth2\n    flows: [authorizationCode]\n    sources: [https://mcp-auth.vidmob.com/.well-known/openid-configuration]\n\
   withheld:\n  - scope: admin\n    reason: >-\n      Vidmob states administrative capabilities sit behind an internal-only admin scope that is never granted to\n      external partner credentials. Recorded for completeness; not obtainable by a customer.\n    sources: [https://help.vidmob.com/en/articles/15461399-vidmob-mcp-security-compliance-overview]\nx-evidence:\n  - fetched: '2026-08-05'\n    url: https://mcp-auth.vidmob.com/.well-known/oauth-authorization-server\n    http_status: 200\n  - fetched: '2026-08-05'\n    url: https://mcp-auth.vidmob.com/.well-known/openid-configuration\n    http_status: 200\n  - fetched: '2026-08-05'\n    url: https://vidmob-api-docs.readme.io/docs/authentication.md\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/scopes/vidmob-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vidmob/scopes/vidmob-scopes.yml
 summary_line: 12 scopes · authorizationCode/refreshToken/jwtBearer
 tags:
 - Creative Intelligence

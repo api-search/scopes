@@ -5,19 +5,19 @@ api_specs:
   label: Culture Amp Employees API
   slug: culture-amp-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-employees-api-openapi.yml
+  url: https://artifacts.apis.io/culture-amp/openapi/culture-amp-employees-api-openapi.yml
 - filename: culture-amp-performance-api-openapi.yml
   format: yaml
   label: Culture Amp Performance API
   slug: culture-amp-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-performance-api-openapi.yml
+  url: https://artifacts.apis.io/culture-amp/openapi/culture-amp-performance-api-openapi.yml
 - filename: culture-amp-surveys-api-openapi.yml
   format: yaml
   label: Culture Amp Surveys API
   slug: culture-amp-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/culture-amp/openapi/culture-amp-surveys-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.api.cultureamp.com/docs/customer-guide-authorization-scopes
@@ -76,7 +76,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: searched\nsource: https://docs.api.cultureamp.com/docs/customer-guide-authorization-scopes\ndocs: https://docs.api.cultureamp.com/docs/customer-guide-authorization-scopes\nschemes:\n- name: Oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.cultureamp.com/v1/oauth2/token\n  sources:\n  - openapi/culture-amp-employees-api-openapi.yml\n  - openapi/culture-amp-performance-api-openapi.yml\n  - openapi/culture-amp-surveys-api-openapi.yml\nscope_format: target-entity:<entity id>:<comma separated list of permissions>\ntarget_entities:\n- id: 8ed17dce-9eca-4383-a9e1-54f82c362b6d\n  description: The entity id to use when calling the production API\n- id: 79040b4d-3e2b-4480-a061-2e230eeb83b2\n  description: The entity id to use when calling the sandbox API\nscopes:\n- scope: employees-read\n  description: Provides access to basic employee data\n  flows:\n  - clientCredentials\n- scope: employee-demographics-read\n  description: Provides\
   \ access to employee demographic data\n  flows:\n  - clientCredentials\n- scope: performance-evaluations-read\n  description: Provides access to performance evaluation data\n  flows:\n  - clientCredentials\n- scope: surveys-read\n  description: Provides access to engagement survey data\n  flows:\n  - clientCredentials\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/scopes/culture-amp-scopes.yml
+source_yaml_url: https://artifacts.apis.io/culture-amp/scopes/culture-amp-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - Human Resources

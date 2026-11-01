@@ -5,37 +5,37 @@ api_specs:
   label: Google Vault Exports API
   slug: google-vault-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-exports-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-exports-api-openapi.yml
 - filename: google-vault-heldaccounts-api-openapi.yml
   format: yaml
   label: Google Vault HeldAccounts API
   slug: google-vault-heldaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-heldaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-heldaccounts-api-openapi.yml
 - filename: google-vault-holds-api-openapi.yml
   format: yaml
   label: Google Vault Holds API
   slug: google-vault-holds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-holds-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-holds-api-openapi.yml
 - filename: google-vault-matters-api-openapi.yml
   format: yaml
   label: Google Vault Matters API
   slug: google-vault-matters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-matters-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-matters-api-openapi.yml
 - filename: google-vault-operations-api-openapi.yml
   format: yaml
   label: Google Vault Operations API
   slug: google-vault-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-operations-api-openapi.yml
 - filename: google-vault-saved-queries-api-openapi.yml
   format: yaml
   label: Google Vault Saved Queries API
   slug: google-vault-saved-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/openapi/google-vault-saved-queries-api-openapi.yml
+  url: https://artifacts.apis.io/google-vault/openapi/google-vault-saved-queries-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: https://develop
   \      - vault.matters.create\n      - vault.matters.delete\n      - vault.matters.exports.create\n      - vault.matters.exports.delete\n      - vault.matters.holds.accounts.create\n      - vault.matters.holds.accounts.delete\n      - vault.matters.holds.addHeldAccounts\n      - vault.matters.holds.create\n      - vault.matters.holds.delete\n      - vault.matters.holds.removeHeldAccounts\n      - vault.matters.holds.update\n      - vault.matters.removePermissions\n      - vault.matters.reopen\n      - vault.matters.savedQueries.create\n      - vault.matters.savedQueries.delete\n      - vault.matters.undelete\n      - vault.matters.update\n      - vault.operations.cancel\n      - vault.operations.delete\n    note: >-\n      vault.matters.count is a read-shaped operation (it returns search counts) that Google\n      nonetheless gates behind the full ediscovery scope — a read-only token cannot call it.\n  - scope_set:\n      - https://www.googleapis.com/auth/ediscovery\n      - https://www.googleapis.com/auth/ediscovery.readonly\n\
   \    kind: read\n    count: 11\n    methods:\n      - vault.matters.exports.get\n      - vault.matters.exports.list\n      - vault.matters.get\n      - vault.matters.holds.accounts.list\n      - vault.matters.holds.get\n      - vault.matters.holds.list\n      - vault.matters.list\n      - vault.matters.savedQueries.get\n      - vault.matters.savedQueries.list\n      - vault.operations.get\n      - vault.operations.list\nleast_privilege:\n  guidance: >-\n    Google's own wording on the scopes page: \"choose the most narrowly focused scope possible\n    and avoid requesting scopes that your app doesn't require.\" An agent that only reads\n    matters, holds, saved queries, exports and operations needs ediscovery.readonly alone.\n  read_only_sufficient_for: 11\n  requires_full_scope: 22\n  sensitivity_note: >-\n    Google's master OAuth 2.0 scopes page lists both Vault scopes with a description only and\n    attaches no Sensitive/Restricted label to either, so no sensitivity class is asserted\
   \ here.\n    Checked 2026-09-12 against https://developers.google.com/identity/protocols/oauth2/scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/scopes/google-vault-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-vault/scopes/google-vault-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - eDiscovery

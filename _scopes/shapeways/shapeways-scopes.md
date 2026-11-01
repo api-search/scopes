@@ -5,25 +5,25 @@ api_specs:
   label: Shapeways Cart API
   slug: shapeways-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-cart-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-cart-api-openapi.yml
 - filename: shapeways-materials-api-openapi.yml
   format: yaml
   label: Shapeways Materials API
   slug: shapeways-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-materials-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-materials-api-openapi.yml
 - filename: shapeways-models-api-openapi.yml
   format: yaml
   label: Shapeways Models API
   slug: shapeways-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-models-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-models-api-openapi.yml
 - filename: shapeways-orders-api-openapi.yml
   format: yaml
   label: Shapeways Orders API
   slug: shapeways-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/openapi/shapeways-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shapeways/openapi/shapeways-orders-api-openapi.yml
 authorization_urls:
 - https://api.shapeways.com/oauth2/authorize
 description: ''
@@ -93,7 +93,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/shapeways-cart-api-openapi.yml, openapi/shapeways-materials-api-openapi.yml,\n  openapi/shapeways-models-api-openapi.yml, openapi/shapeways-orders-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/shapeways-cart-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.shapeways.com/oauth2/authorize\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  description: OAuth 2.0. client_credentials for single-account apps; authorization_code (+\n    refresh_token) for multi-user apps.\n- name: oauth2\n  source: openapi/shapeways-materials-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.shapeways.com/oauth2/authorize\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  description:\
   \ OAuth 2.0. client_credentials for single-account apps; authorization_code (+\n    refresh_token) for multi-user apps.\n- name: oauth2\n  source: openapi/shapeways-models-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.shapeways.com/oauth2/authorize\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  description: OAuth 2.0. client_credentials for single-account apps; authorization_code (+\n    refresh_token) for multi-user apps.\n- name: oauth2\n  source: openapi/shapeways-orders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.shapeways.com/oauth2/authorize\n    tokenUrl: https://api.shapeways.com/oauth2/token\n  description: OAuth 2.0. client_credentials for single-account apps; authorization_code (+\n    refresh_token) for multi-user\
   \ apps.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shapeways/refs/heads/main/scopes/shapeways-scopes.yml
+source_yaml_url: https://artifacts.apis.io/shapeways/scopes/shapeways-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

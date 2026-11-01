@@ -5,31 +5,31 @@ api_specs:
   label: Truora Account API
   slug: truora-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-account-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-account-api-openapi.yml
 - filename: truora-checks-api-openapi.yml
   format: yaml
   label: Truora Checks API
   slug: truora-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-checks-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-checks-api-openapi.yml
 - filename: truora-continuous-monitoring-api-openapi.yml
   format: yaml
   label: Truora Continuous Monitoring API
   slug: truora-continuous-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-continuous-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-continuous-monitoring-api-openapi.yml
 - filename: truora-digital-identity-api-openapi.yml
   format: yaml
   label: Truora Digital Identity API
   slug: truora-digital-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-digital-identity-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-digital-identity-api-openapi.yml
 - filename: truora-validators-api-openapi.yml
   format: yaml
   label: Truora Validators API
   slug: truora-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/openapi/truora-validators-api-openapi.yml
+  url: https://artifacts.apis.io/truora/openapi/truora-validators-api-openapi.yml
 authorization_urls:
 - https://pass.truora.com/authorize
 description: ''
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://dev.tru
   \    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://pass.truora.com/authorize\n        tokenUrl: https://api.pass.truora.com/v1/oauth2/token\n        userinfoUrl: https://api.pass.truora.com/v1/oauth2/userinfo\n      - flow: ciba\n        deviceAuthorizationUrl: https://api.pass.truora.com/v1/oauth2/bc-authorize\n        tokenUrl: https://api.pass.truora.com/v1/oauth2/token\n      - flow: refreshToken\n        tokenUrl: https://api.pass.truora.com/v1/oauth2/token\nscopes:\n  - scope: openid\n    description: Enables OpenID Connect base functionality and the stable user identifier.\n    flows: [authorizationCode, ciba]\n  - scope: email\n    description: User's email address and verification state.\n    flows: [authorizationCode, ciba]\n  - scope: phone\n    description: User's phone number and verification state.\n    flows: [authorizationCode, ciba]\n  - scope: profile\n    description: Basic profile — name, gender, birthdate, nationality.\n    flows: [authorizationCode,\
   \ ciba]\n  - scope: identity\n    description: Identity-verification status, document details, and verified name.\n    flows: [authorizationCode, ciba]\n  - scope: documents\n    description: All verified documents from the user. Requires binding_message in CIBA.\n    flows: [authorizationCode, ciba]\n  - scope: age\n    description: Age range, verification status, and birthdate.\n    flows: [authorizationCode, ciba]\n  - scope: address\n    description: User's address information.\n    flows: [authorizationCode, ciba]\n  - scope: background\n    description: Background-check outcome and trust level. Requires binding_message in CIBA.\n    flows: [authorizationCode, ciba]\n  - scope: biometric\n    description: Face-enrollment status, liveness verification, and confidence metrics.\n    flows: [authorizationCode, ciba]\n  - scope: verification\n    description: Overall verification status, methods used, and verification date.\n    flows: [authorizationCode, ciba]\n  - scope: contact\n  \
   \  description: Bundled contact info — email, phone, and communication preference.\n    flows: [authorizationCode, ciba]\n  - scope: nationality\n    description: User's nationality information.\n    flows: [authorizationCode, ciba]\n  - scope: \"document:<COUNTRY>:<TYPE>\"\n    description: Granular scope filtering released documents by country and document type.\n    flows: [authorizationCode, ciba]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truora/refs/heads/main/scopes/truora-scopes.yml
+source_yaml_url: https://artifacts.apis.io/truora/scopes/truora-scopes.yml
 summary_line: 14 scopes · authorizationCode/ciba/refreshToken
 tags:
 - Identity Verification

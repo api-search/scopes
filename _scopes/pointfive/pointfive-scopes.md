@@ -45,7 +45,7 @@ source_filename: pointfive-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://mcp.pointfive.co/.well-known/oauth-authorization-server\ndocs: https://www.pointfive.co/mcp\nschemes:\n- name: OAuth2\n  source: well-known/pointfive-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.pointfive.co/authorize\n    tokenUrl: https://mcp.pointfive.co/token\nscopes:\n- scope: api:read\n  description: Read access to PointFive data (opportunities, resources, anomalies, commitments).\n  flows: [authorizationCode]\n  sources: [well-known/pointfive-oauth-authorization-server.json]\n- scope: api:write\n  description: Write access to PointFive data.\n  flows: [authorizationCode]\n  sources: [well-known/pointfive-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pointfive/refs/heads/main/scopes/pointfive-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pointfive/scopes/pointfive-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

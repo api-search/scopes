@@ -5,19 +5,19 @@ api_specs:
   label: D-Wave Account API
   slug: d-wave-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-account-api-openapi.yml
+  url: https://artifacts.apis.io/d-wave/openapi/d-wave-account-api-openapi.yml
 - filename: d-wave-hybrid-api-openapi.yml
   format: yaml
   label: D-Wave Hybrid API
   slug: d-wave-hybrid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-hybrid-api-openapi.yml
+  url: https://artifacts.apis.io/d-wave/openapi/d-wave-hybrid-api-openapi.yml
 - filename: d-wave-regions-api-openapi.yml
   format: yaml
   label: D-Wave Regions API
   slug: d-wave-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/openapi/d-wave-regions-api-openapi.yml
+  url: https://artifacts.apis.io/d-wave/openapi/d-wave-regions-api-openapi.yml
 authorization_urls:
 - https://cloud.dwavesys.com/leap/oauth/authorize
 description: ''
@@ -59,7 +59,7 @@ source_filename: d-wave-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/d-wave-leap-account-api-openapi.yml\nschemes:\n- name: LeapOAuth\n  source: openapi/d-wave-leap-account-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://cloud.dwavesys.com/leap/oauth/authorize\n    tokenUrl: https://cloud.dwavesys.com/leap/oauth/token\nscopes:\n- scope: account\n  description: Read account, projects, and tokens\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/d-wave-leap-account-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/scopes/d-wave-scopes.yml
+source_yaml_url: https://artifacts.apis.io/d-wave/scopes/d-wave-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Quantum Computing

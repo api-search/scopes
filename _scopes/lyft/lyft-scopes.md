@@ -5,43 +5,43 @@ api_specs:
   label: lyft Concierge Rides API
   slug: lyft-concierge-rides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-concierge-rides-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-concierge-rides-api-openapi.yml
 - filename: lyft-cost-estimates-api-openapi.yml
   format: yaml
   label: lyft Cost Estimates API
   slug: lyft-cost-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-cost-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-cost-estimates-api-openapi.yml
 - filename: lyft-drivers-api-openapi.yml
   format: yaml
   label: lyft Drivers API
   slug: lyft-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-drivers-api-openapi.yml
 - filename: lyft-eta-api-openapi.yml
   format: yaml
   label: lyft ETA API
   slug: lyft-eta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-eta-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-eta-api-openapi.yml
 - filename: lyft-profile-api-openapi.yml
   format: yaml
   label: lyft Profile API
   slug: lyft-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-profile-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-profile-api-openapi.yml
 - filename: lyft-ride-types-api-openapi.yml
   format: yaml
   label: lyft Ride Types API
   slug: lyft-ride-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-ride-types-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-ride-types-api-openapi.yml
 - filename: lyft-rides-api-openapi.yml
   format: yaml
   label: lyft Rides API
   slug: lyft-rides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/openapi/lyft-rides-api-openapi.yml
+  url: https://artifacts.apis.io/lyft/openapi/lyft-rides-api-openapi.yml
 authorization_urls:
 - https://api.lyft.com/oauth/authorize
 description: 'The complete OAuth 2.0 scope vocabulary Lyft publishes for api.lyft.com, read verbatim from the provider''s own RFC 8414 authorization-server metadata. Lyft''s developer portal is login-gated, so this anonymous discovery document is the only public source for the scope vocabulary; no scope reference page is publicly readable and Lyft publishes no human-readable description for any individual scope, so none is recorded here. The family: grouping is our own, derived from the scope prefix.'
@@ -263,7 +263,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   \  family: other\n- scope: lyft_enterprise.admin_access\n  family: enterprise\n- scope: lyft_rewards.usage\n  family: memberships-and-rewards\n- scope: lyft_rider_mcp.read\n  family: agent/mcp\n- scope: memberships.updates_subscribe\n  family: memberships-and-rewards\n- scope: offline\n  family: openid-connect-and-core\n- scope: openid\n  family: openid-connect-and-core\n- scope: privileged.admin\n  family: privileged (partner-restricted)\n- scope: privileged.b2b_payouts.boomi_partner_records\n  family: privileged (partner-restricted)\n- scope: privileged.driver.tax.summary\n  family: privileged (partner-restricted)\n- scope: privileged.enterprise.dell_boomi\n  family: privileged (partner-restricted)\n- scope: privileged.enterprise.invoices\n  family: privileged (partner-restricted)\n- scope: privileged.enterprise.ride_program\n  family: privileged (partner-restricted)\n- scope: privileged.mobility.rides\n  family: privileged (partner-restricted)\n- scope: privileged.price.upfront\n  family:\
   \ privileged (partner-restricted)\n- scope: privileged.rides.additional_fields.drivers_license\n  family: privileged (partner-restricted)\n- scope: privileged.rides.dispatch\n  family: privileged (partner-restricted)\n- scope: privileged.wav_dispatch\n  family: privileged (partner-restricted)\n- scope: profile\n  family: openid-connect-and-core\n- scope: profile.email\n  family: profile\n- scope: profile.phone\n  family: profile\n- scope: public\n  family: openid-connect-and-core\n- scope: rides.active_ride\n  family: rider-rides\n- scope: rides.read\n  family: rider-rides\n- scope: rides.request\n  family: rider-rides\n- scope: rides.subscribe_all\n  family: rider-rides\n- scope: rides.subscribe_ride_receipt\n  family: rider-rides\n- scope: rides.subscribe_ride_request\n  family: rider-rides\n- scope: routes.read\n  family: rider-rides\n- scope: scopedurl\n  family: openid-connect-and-core\n- scope: tapi.atms.webhook\n  family: transportation-api\n- scope: transportation_api.trip_insights\n\
   \  family: transportation-api\n- scope: transportation_api.trips\n  family: transportation-api\n- scope: users.create\n  family: other\nnotes:\n- openid + profile + offline are present, but api.lyft.com serves no /.well-known/openid-configuration\n  (404), so the OIDC discovery document is absent even though OIDC scopes are advertised.\n- lyft_rider_mcp.read is an MCP-specific scope in the published vocabulary — first-party evidence that\n  an MCP surface exists behind authentication. No anonymously reachable MCP endpoint was found (see mcp/lyft-mcp.yml).\n- rides.subscribe_all, rides.subscribe_ride_request, rides.subscribe_ride_receipt, memberships.updates_subscribe\n  and tapi.atms.webhook are subscription/webhook scopes (see asyncapi/lyft-webhooks.yml).\n- The 18 operations in openapi/ are covered by a small part of this vocabulary; most scopes belong to\n  Lyft Business, enterprise, driver and privileged partner surfaces that publish no public contract.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/scopes/lyft-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lyft/scopes/lyft-scopes.yml
 summary_line: 47 scopes
 tags:
 - Transportation

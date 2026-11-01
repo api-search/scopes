@@ -5,73 +5,73 @@ api_specs:
   label: Diagnostic Robotics API Auth API
   slug: diagnostic-robotics-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-api-auth-api-openapi.yml
 - filename: diagnostic-robotics-dataset-upload-api-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Dataset Upload API
   slug: diagnostic-robotics-dataset-upload-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-dataset-upload-api-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-dataset-upload-api-api-openapi.yml
 - filename: diagnostic-robotics-default-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Default API
   slug: diagnostic-robotics-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-default-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-default-api-openapi.yml
 - filename: diagnostic-robotics-patient-profile-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Patient Profile API
   slug: diagnostic-robotics-patient-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-patient-profile-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-patient-profile-api-openapi.yml
 - filename: diagnostic-robotics-patients-v2-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Patients v2 API
   slug: diagnostic-robotics-patients-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-patients-v2-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-patients-v2-api-openapi.yml
 - filename: diagnostic-robotics-questions-v2-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Questions v2 API
   slug: diagnostic-robotics-questions-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-questions-v2-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-questions-v2-api-openapi.yml
 - filename: diagnostic-robotics-risk-adjustment-profile-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Risk Adjustment Profile API
   slug: diagnostic-robotics-risk-adjustment-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-risk-adjustment-profile-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-risk-adjustment-profile-api-openapi.yml
 - filename: diagnostic-robotics-risk-list-api-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Risk List API
   slug: diagnostic-robotics-risk-list-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-risk-list-api-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-risk-list-api-api-openapi.yml
 - filename: diagnostic-robotics-risk-profile-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Risk Profile API
   slug: diagnostic-robotics-risk-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-risk-profile-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-risk-profile-api-openapi.yml
 - filename: diagnostic-robotics-visits-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Visits API
   slug: diagnostic-robotics-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-visits-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-visits-api-openapi.yml
 - filename: diagnostic-robotics-visits-v2-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Visits v2 API
   slug: diagnostic-robotics-visits-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-visits-v2-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-visits-v2-api-openapi.yml
 - filename: diagnostic-robotics-widgets-api-api-openapi.yml
   format: yaml
   label: Diagnostic Robotics Widgets API
   slug: diagnostic-robotics-widgets-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/openapi/diagnostic-robotics-widgets-api-api-openapi.yml
+  url: https://artifacts.apis.io/diagnostic-robotics/openapi/diagnostic-robotics-widgets-api-api-openapi.yml
 authorization_urls:
 - https://digital-outreach.us.auth0.com/authorize?audience=dev-digital-outreach-api-identifier
 description: ''
@@ -115,7 +115,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: openapi/diagnostic-robotics-precision-population-health-openapi.yml\ndocs: https://docs.diagnosticrobotics.com/docs/proactive-patient-risk-feed-api/3y8qknbsqo42r-authentication\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/diagnostic-robotics-precision-population-health-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /api/oauth/token\n- name: OAuth2AuthorizationCodeBearer\n  source: openapi/diagnostic-robotics-precision-population-health-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://digital-outreach.us.auth0.com/authorize?audience=dev-digital-outreach-api-identifier\n    tokenUrl: https://digital-outreach.us.auth0.com/oauth/token\nscopes: []\nscope_count: 0\nnote: >-\n  Both OAuth 2.0 schemes declare an EMPTY scopes map in the published OpenAPI, and the authentication guide\n  documents no scopes, permissions or consent screen - a client_id/client_secret pair is exchanged\
   \ for a bearer\n  token that carries the full tenant grant. There is no published scope or permission reference page to search.\n  Authorization is therefore tenant-scoped rather than scope-scoped: an agent holding a token can read patient\n  risk profiles, patient demographics and HCC/RAF diagnosis data and can PATCH diagnoses, with no narrower grant\n  available. Recorded as an honest zero, not a gap in harvesting.\nsearched:\n  pages_checked:\n  - url: https://docs.diagnosticrobotics.com/docs/proactive-patient-risk-feed-api/3y8qknbsqo42r-authentication\n    status: 200\n    result: no scope reference\n  - url: https://digital-outreach.us.auth0.com/.well-known/openid-configuration\n    status: 404\n    result: Auth0 tenant no longer resolves, so scopes_supported cannot be read from discovery\n  checked: '2026-08-12'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/scopes/diagnostic-robotics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/diagnostic-robotics/scopes/diagnostic-robotics-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Health

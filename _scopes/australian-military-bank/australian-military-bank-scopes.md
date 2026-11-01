@@ -5,43 +5,43 @@ api_specs:
   label: Australian Military Bank Banking Account Balances API
   slug: australian-military-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-account-balances-api-openapi.yml
 - filename: australian-military-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Account Direct Debits API
   slug: australian-military-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-account-direct-debits-api-openapi.yml
 - filename: australian-military-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Account Scheduled Payments API
   slug: australian-military-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: australian-military-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Account Transactions API
   slug: australian-military-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-account-transactions-api-openapi.yml
 - filename: australian-military-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Accounts API
   slug: australian-military-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-accounts-api-openapi.yml
 - filename: australian-military-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Payees API
   slug: australian-military-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-payees-api-openapi.yml
 - filename: australian-military-bank-banking-products-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Products API
   slug: australian-military-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: OAuth2 authorization scopes for the consumer-authorized surface of Australian Military Bank's CDR (Consumer Data Right) Banking API. The bank declares no formal OpenAPI securitySchemes; scopes are published per-operation as `x-scopes` extensions in the Data Standards Body CDR Banking API (v1.36.0) that the bank implements as a registered ADI / CDR data holder. These scopes are granted only to CDR-accredited data recipients (ADRs) through the FAPI-profiled OAuth2/OIDC consent flow over mutual-TLS; the public Product Reference Data endpoints (listBankingProducts, getBankingProductDetail) require no scope and no auth.
 docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile
@@ -94,7 +94,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/australian-military-bank-cds-banking-products-openapi.yml\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\ndescription: >-\n  OAuth2 authorization scopes for the consumer-authorized surface of Australian\n  Military Bank's CDR (Consumer Data Right) Banking API. The bank declares no\n  formal OpenAPI securitySchemes; scopes are published per-operation as `x-scopes`\n  extensions in the Data Standards Body CDR Banking API (v1.36.0) that the bank\n  implements as a registered ADI / CDR data holder. These scopes are granted only\n  to CDR-accredited data recipients (ADRs) through the FAPI-profiled OAuth2/OIDC\n  consent flow over mutual-TLS; the public Product Reference Data endpoints\n  (listBankingProducts, getBankingProductDetail) require no scope and no auth.\nflow: authorization_code\ntoken_binding: mutualTLS\nprofile: FAPI 2.0 (AU-CDR)\nscopes:\n  - name: bank:accounts.basic:read\n\
   \    description: Read basic account information (account list and balances).\n    operations:\n      - listBankingAccounts\n      - listBankingBalancesBulk\n      - listBankingBalancesSpecificAccounts\n      - getBankingBalance\n  - name: bank:accounts.detail:read\n    description: Read detailed account information including account numbers and features.\n    operations:\n      - getBankingAccountDetail\n  - name: bank:transactions:read\n    description: Read transactions for authorized accounts.\n    operations:\n      - listBankingTransactions\n      - getBankingTransactionDetail\n  - name: bank:regular_payments:read\n    description: Read direct debits, scheduled payments, and instalment plans.\n    operations:\n      - listDirectDebits\n      - listDirectDebitsBulk\n      - listDirectDebitsSpecificAccounts\n      - listScheduledPayments\n      - listScheduledPaymentsBulk\n      - listScheduledPaymentsSpecificAccounts\n      - listInstalmentPlans\n      - listInstalmentPlansBulk\n\
   \  - name: bank:payees:read\n    description: Read saved payees.\n    operations:\n      - listBankingPayees\n      - getBankingPayeeDetail\n  - name: common:customer.basic:read\n    description: >-\n      Read basic customer identity information. Declared in the CDR common\n      standards for the customer endpoints; not present as an x-scopes value on\n      the banking paths in this spec but required in the CDR consent for\n      customer data.\n    operations: []\nnotes: >-\n  The public unauthenticated Product Reference Data surface (GET /banking/products\n  and GET /banking/products/{productId}) requires no OAuth scope. All scoped\n  operations are only exercisable by accredited data recipients registered with\n  the CDR Register; they are not callable from this public repo.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/scopes/australian-military-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/australian-military-bank/scopes/australian-military-bank-scopes.yml
 summary_line: 6 scopes · authorization_code
 tags:
 - Finance

@@ -5,13 +5,13 @@ api_specs:
   label: Simon Data Contacts API
   slug: simon-data-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/simon-data/openapi/simon-data-contacts-api-openapi.yml
 - filename: simon-data-events-api-openapi.yml
   format: yaml
   label: Simon Data Events API
   slug: simon-data-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/openapi/simon-data-events-api-openapi.yml
+  url: https://artifacts.apis.io/simon-data/openapi/simon-data-events-api-openapi.yml
 authorization_urls:
 - https://app.simondata.com/mcp/oauth/authorize
 description: ''
@@ -50,7 +50,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.simondata.com/reference/getting-started\ndocs: https://docs.simondata.com/reference/getting-started\nnote: >-\n  Simon Data publishes no OAuth scope vocabulary. The Audience API uses opaque bearer tokens issued by a Client\n  Solutions Manager, and the Event Ingestion API uses a shared partnerSecret in the payload — neither has a scope\n  surface. The one OAuth authorization server Simon does publish, the MCP metadata document at\n  https://app.simondata.com/.well-known/oauth-authorization-server, omits scopes_supported entirely. Recorded as a real\n  zero, not a gap.\nschemes:\n- name: mcp-oauth\n  source: well-known/simon-data-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.simondata.com/mcp/oauth/authorize\n    tokenUrl: https://app.simondata.com/mcp/oauth/token\n  description: MCP authorization server; scopes_supported is absent from the published metadata.\n\
   scopes: []\nscope_count: 0\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/scopes/simon-data-scopes.yml
+source_yaml_url: https://artifacts.apis.io/simon-data/scopes/simon-data-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Customer Data Platform

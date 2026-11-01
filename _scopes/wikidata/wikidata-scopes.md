@@ -5,31 +5,31 @@ api_specs:
   label: Wikidata Descriptions API
   slug: wikidata-descriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-descriptions-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-descriptions-api-openapi.yml
 - filename: wikidata-items-api-openapi.yml
   format: yaml
   label: Wikidata Items API
   slug: wikidata-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-items-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-items-api-openapi.yml
 - filename: wikidata-labels-api-openapi.yml
   format: yaml
   label: Wikidata Labels API
   slug: wikidata-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-labels-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-labels-api-openapi.yml
 - filename: wikidata-properties-api-openapi.yml
   format: yaml
   label: Wikidata Properties API
   slug: wikidata-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-properties-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-properties-api-openapi.yml
 - filename: wikidata-statements-api-openapi.yml
   format: yaml
   label: Wikidata Statements API
   slug: wikidata-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-statements-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-statements-api-openapi.yml
 authorization_urls:
 - https://www.mediawiki.org/w/index.php?title=Special:OAuth/authorize
 description: ''
@@ -76,7 +76,7 @@ source_filename: wikidata-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wikidata-mediawiki-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/wikidata-mediawiki-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.mediawiki.org/w/index.php?title=Special:OAuth/authorize\n    tokenUrl: https://www.mediawiki.org/w/index.php?title=Special:OAuth/token\nscopes:\n- scope: createeditmovepage\n  description: Create new items\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wikidata-mediawiki-openapi.yml\n- scope: editpage\n  description: Edit Wikidata items\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wikidata-mediawiki-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/scopes/wikidata-scopes.yml
+source_yaml_url: https://artifacts.apis.io/wikidata/scopes/wikidata-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Knowledge Graph

@@ -5,19 +5,19 @@ api_specs:
   label: StreamYard Broadcasts API
   slug: streamyard-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/streamyard/openapi/streamyard-broadcasts-api-openapi.yml
 - filename: streamyard-destinations-api-openapi.yml
   format: yaml
   label: StreamYard Destinations API
   slug: streamyard-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/streamyard/openapi/streamyard-destinations-api-openapi.yml
 - filename: streamyard-recordings-api-openapi.yml
   format: yaml
   label: StreamYard Recordings API
   slug: streamyard-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/streamyard/openapi/streamyard-recordings-api-openapi.yml
 authorization_urls:
 - https://streamyard.com/oauth/authorize
 description: ''
@@ -70,7 +70,7 @@ source_filename: streamyard-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/streamyard-openapi.yml\nschemes:\n- name: streamyardBearerAuth\n  source: openapi/streamyard-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://streamyard.com/oauth/authorize\n    tokenUrl: https://streamyard.com/oauth/token\n  description: OAuth 2.0 Bearer token. Authenticate via StreamYard's OAuth flow at https://streamyard.com/oauth/authorize.\nscopes:\n- scope: broadcasts\n  description: Create and manage broadcasts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/streamyard-openapi.yml\n- scope: destinations\n  description: View and manage streaming destinations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/streamyard-openapi.yml\n- scope: recordings\n  description: Access and download recordings\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/streamyard-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/scopes/streamyard-scopes.yml
+source_yaml_url: https://artifacts.apis.io/streamyard/scopes/streamyard-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Broadcasting

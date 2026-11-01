@@ -5,115 +5,115 @@ api_specs:
   label: Sonetel Account API
   slug: sonetel-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-account-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-account-api-openapi.yml
 - filename: sonetel-ai-integration-api-openapi.yml
   format: yaml
   label: Sonetel Ai Integration API
   slug: sonetel-ai-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-ai-integration-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-ai-integration-api-openapi.yml
 - filename: sonetel-ai-service-api-openapi.yml
   format: yaml
   label: Sonetel Ai Service API
   slug: sonetel-ai-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-ai-service-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-ai-service-api-openapi.yml
 - filename: sonetel-app-view-settings-api-openapi.yml
   format: yaml
   label: Sonetel App View Settings API
   slug: sonetel-app-view-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-app-view-settings-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-app-view-settings-api-openapi.yml
 - filename: sonetel-business-api-openapi.yml
   format: yaml
   label: Sonetel Business API
   slug: sonetel-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-business-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-business-api-openapi.yml
 - filename: sonetel-call-recording-api-openapi.yml
   format: yaml
   label: Sonetel Call Recording API
   slug: sonetel-call-recording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-call-recording-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-call-recording-api-openapi.yml
 - filename: sonetel-country-api-openapi.yml
   format: yaml
   label: Sonetel Country API
   slug: sonetel-country-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-country-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-country-api-openapi.yml
 - filename: sonetel-filemgr-api-openapi.yml
   format: yaml
   label: Sonetel Filemgr API
   slug: sonetel-filemgr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-filemgr-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-filemgr-api-openapi.yml
 - filename: sonetel-globaldata-api-openapi.yml
   format: yaml
   label: Sonetel Globaldata API
   slug: sonetel-globaldata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-globaldata-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-globaldata-api-openapi.yml
 - filename: sonetel-internal-api-openapi.yml
   format: yaml
   label: Sonetel Internal API
   slug: sonetel-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-internal-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-internal-api-openapi.yml
 - filename: sonetel-make-calls-api-openapi.yml
   format: yaml
   label: Sonetel Make Calls API
   slug: sonetel-make-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-make-calls-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-make-calls-api-openapi.yml
 - filename: sonetel-numberstocksummary-api-openapi.yml
   format: yaml
   label: Sonetel Numberstocksummary API
   slug: sonetel-numberstocksummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-numberstocksummary-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-numberstocksummary-api-openapi.yml
 - filename: sonetel-oauth-api-openapi.yml
   format: yaml
   label: Sonetel OAuth API
   slug: sonetel-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-oauth-api-openapi.yml
 - filename: sonetel-prompt-api-openapi.yml
   format: yaml
   label: Sonetel Prompt API
   slug: sonetel-prompt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-prompt-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-prompt-api-openapi.yml
 - filename: sonetel-textmgr-api-openapi.yml
   format: yaml
   label: Sonetel Textmgr API
   slug: sonetel-textmgr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-textmgr-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-textmgr-api-openapi.yml
 - filename: sonetel-transcription-api-openapi.yml
   format: yaml
   label: Sonetel Transcription API
   slug: sonetel-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-transcription-api-openapi.yml
 - filename: sonetel-tts-api-openapi.yml
   format: yaml
   label: Sonetel Tts API
   slug: sonetel-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-tts-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-tts-api-openapi.yml
 - filename: sonetel-usage-api-openapi.yml
   format: yaml
   label: Sonetel Usage API
   slug: sonetel-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-usage-api-openapi.yml
 - filename: sonetel-user-api-openapi.yml
   format: yaml
   label: Sonetel User API
   slug: sonetel-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/openapi/sonetel-user-api-openapi.yml
+  url: https://artifacts.apis.io/sonetel/openapi/sonetel-user-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -229,7 +229,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: derived\nsource: openapi/sonetel-
   \  description: Get an access token from the `/oauth/token` and pass it as a Bearer token in\n    the `Authorization` header.\n- name: Sonetel\n  source: openapi/sonetel-ai-file-manager-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.sonetel.com/SonetelAuth/beta\n- name: Sonetel\n  source: openapi/sonetel-ai-functions-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.sonetel.com/SonetelAuth/beta/oauth/token\n  description: Get an access token from the `/oauth/token` and pass it as a Bearer token in\n    the `Authorization` header.\n- name: Sonetel\n  source: openapi/sonetel-ai-prompt-manager-openapi.yml\n  flows:\n  - flow: password\n- name: grant_type\n  source: openapi/sonetel-ai-services-openapi.yml\n  flows:\n  - flow: password\n- name: Sonetel\n  source: openapi/sonetel-ai-text-manager-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.sonetel.com/SonetelAuth/beta/oauth/token\n  description: Get an access token from the `/oauth/token`\
   \ and pass it as a Bearer token in\n    the `Authorization` header.\n- name: Production\n  source: openapi/sonetel-make-calls-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.sonetel.com/SonetelAuth/beta/oauth/token\n- name: Production\n  source: openapi/sonetel-recorded-calls-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.sonetel.com/SonetelAuth/beta/oauth/token\n- name: Bearer\n  source: openapi/sonetel-text-to-speech-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.sonetel.com/SonetelAuth/beta/oauth/token\n  description: Get an access token from the `/oauth/token` and pass it as a Bearer token in\n    the `Authorization` header.\n- name: Sonetel Admin\n  source: openapi/sonetel-transcription-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.sonetel.com/SonetelAuth/beta\n- name: production\n  source: openapi/sonetel-usage-records-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.sonetel.com/SonetelAuth/beta/oauth/token\n\
   \  description: Get an access token from the `/oauth/token` and pass it as a Bearer token in\n    the `Authorization` header.\n- name: Production\n  source: openapi/sonetel-users-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.sonetel.com/SonetelAuth/beta/oauth/token\n- name: Production\n  source: openapi/sonetel-voice-apps-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.sonetel.com/SonetelAuth/beta/oauth/token\nscopes:\n- scope: account.admin.read\n  description: Account admin read\n  flows:\n  - password\n  sources:\n  - openapi/sonetel-recorded-calls-openapi.yml\n- scope: account.admin.write\n  description: Account admin write\n  flows:\n  - password\n  sources:\n  - openapi/sonetel-recorded-calls-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonetel/refs/heads/main/scopes/sonetel-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sonetel/scopes/sonetel-scopes.yml
 summary_line: 2 scopes · password
 tags:
 - Company

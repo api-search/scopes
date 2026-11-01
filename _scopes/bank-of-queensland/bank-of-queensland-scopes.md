@@ -5,43 +5,43 @@ api_specs:
   label: Bank of Queensland Banking Account Balances API
   slug: bank-of-queensland-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-account-balances-api-openapi.yml
 - filename: bank-of-queensland-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Account Direct Debits API
   slug: bank-of-queensland-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-account-direct-debits-api-openapi.yml
 - filename: bank-of-queensland-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Account Scheduled Payments API
   slug: bank-of-queensland-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-account-scheduled-payments-api-openapi.yml
 - filename: bank-of-queensland-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Account Transactions API
   slug: bank-of-queensland-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-account-transactions-api-openapi.yml
 - filename: bank-of-queensland-banking-accounts-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Accounts API
   slug: bank-of-queensland-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-accounts-api-openapi.yml
 - filename: bank-of-queensland-banking-payees-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Payees API
   slug: bank-of-queensland-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-payees-api-openapi.yml
 - filename: bank-of-queensland-banking-products-api-openapi.yml
   format: yaml
   label: Bank of Queensland Banking Products API
   slug: bank-of-queensland-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/openapi/bank-of-queensland-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-queensland/openapi/bank-of-queensland-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -119,7 +119,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/bank-of-queensland-banking-products-api-openapi.yml\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\n# The harvested DSB CDS Banking contract declares no oauth2 securitySchemes, so the\n# derive pass returned empty. These authorisation scopes are the mandated Australian\n# Consumer Data Right (CDR) banking scopes that BOQ, as an accredited data holder,\n# implements verbatim. The public Product Reference Data (PRD) surface needs NO scope\n# (unauthenticated); every scope below gates the consumer-authorized data-sharing APIs\n# accessed through the CDR / Accredited Data Recipient (ADR) model (OAuth2 + OIDC/FAPI,\n# authorization_code, MTLS-bound tokens). Authorization and token endpoints are the\n# holder's per-brand CDR InfoSec endpoints discovered via OIDC (not openly published).\nschemes:\n  - name: CDRAuthorizationCode\n    type: oauth2\n    flow: authorizationCode\n    fapi_profile:\
   \ FAPI 1.0 Advanced (Australia CDR security profile)\n    source: docs\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication (required for the CDR authorization flow).\n    flows: [authorizationCode]\n  - scope: profile\n    description: CDR consumer profile scope requested alongside the data scopes.\n    flows: [authorizationCode]\n  - scope: bank:accounts.basic:read\n    description: Read basic account information (account list and masked identifiers).\n    grants: [listBankingAccounts, getBankingBalance]\n    flows: [authorizationCode]\n  - scope: bank:accounts.detail:read\n    description: Read detailed account information including full account numbers and features.\n    grants: [getBankingAccountDetail]\n    flows: [authorizationCode]\n  - scope: bank:transactions:read\n    description: Read account transaction history and transaction detail.\n    grants: [listBankingTransactions, getBankingTransactionDetail]\n    flows: [authorizationCode]\n  - scope: bank:payees:read\n\
   \    description: Read saved payees for the consumer's accounts.\n    grants: [listBankingPayees]\n    flows: [authorizationCode]\n  - scope: bank:regular_payments:read\n    description: Read direct debits and scheduled/regular payments.\n    grants: [listDirectDebits, listScheduledPayments]\n    flows: [authorizationCode]\n  - scope: common:customer.basic:read\n    description: Read basic customer information (name and contact type).\n    flows: [authorizationCode]\n  - scope: common:customer.detail:read\n    description: Read detailed customer information including contact details.\n    flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/scopes/bank-of-queensland-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bank-of-queensland/scopes/bank-of-queensland-scopes.yml
 summary_line: 9 scopes
 tags:
 - Finance

@@ -5,61 +5,61 @@ api_specs:
   label: cogDepot A2a API
   slug: cogdepot-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-a2a-api-openapi.yml
 - filename: cogdepot-com-account-api-openapi.yml
   format: yaml
   label: cogDepot Account API
   slug: cogdepot-com-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-account-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-account-api-openapi.yml
 - filename: cogdepot-com-dashboard-api-openapi.yml
   format: yaml
   label: cogDepot Dashboard API
   slug: cogdepot-com-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-dashboard-api-openapi.yml
 - filename: cogdepot-com-deals-api-openapi.yml
   format: yaml
   label: cogDepot Deals API
   slug: cogdepot-com-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-deals-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-deals-api-openapi.yml
 - filename: cogdepot-com-discovery-api-openapi.yml
   format: yaml
   label: cogDepot Discovery API
   slug: cogdepot-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-discovery-api-openapi.yml
 - filename: cogdepot-com-listings-api-openapi.yml
   format: yaml
   label: cogDepot Listings API
   slug: cogdepot-com-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-listings-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-listings-api-openapi.yml
 - filename: cogdepot-com-meta-api-openapi.yml
   format: yaml
   label: cogDepot Meta API
   slug: cogdepot-com-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-meta-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-meta-api-openapi.yml
 - filename: cogdepot-com-reputation-api-openapi.yml
   format: yaml
   label: cogDepot Reputation API
   slug: cogdepot-com-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-reputation-api-openapi.yml
 - filename: cogdepot-com-threads-api-openapi.yml
   format: yaml
   label: cogDepot Threads API
   slug: cogdepot-com-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-threads-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-threads-api-openapi.yml
 - filename: cogdepot-com-webhooks-api-openapi.yml
   format: yaml
   label: cogDepot Webhooks API
   slug: cogdepot-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/openapi/cogdepot-com-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cogdepot-com/openapi/cogdepot-com-webhooks-api-openapi.yml
 authorization_urls:
 - https://mcp.cogdepot.com/oauth/authorize
 description: ''
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: >-\n  https://m
   \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.cogdepot.com/oauth/authorize\n    tokenUrl: https://mcp.cogdepot.com/oauth/token\n    refreshUrl: https://mcp.cogdepot.com/oauth/token\n    pkce: S256\n    grant_types: [authorization_code, refresh_token]\n    response_types: [code, token]\n    token_endpoint_auth_methods: [client_secret_basic, client_secret_post]\n    dynamic_client_registration: false\n  upstream_identity:\n    issuer: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_Iv3zkxuII\n    userinfo: https://cogdepot-production-auth-v2.auth.us-east-1.amazoncognito.com/oauth2/userInfo\n    revocation: https://cogdepot-production-auth-v2.auth.us-east-1.amazoncognito.com/oauth2/revoke\n    end_session: https://cogdepot-production-auth-v2.auth.us-east-1.amazoncognito.com/logout\n    sign_in_options: [Google, GitHub, email]\n    note: The hosted connector sign-in is a Cognito user pool with Google/GitHub SSO (changelog 2026-08-13, 2026-08-25).\nscopes:\n\
   - scope: cogdepot/read\n  description: Read the operator's account, listings, threads, deals and the public surfaces on their behalf.\n  flows: [authorizationCode]\n  sources: [well-known/cogdepot-com-mcp-oauth-authorization-server.json, well-known/cogdepot-com-mcp-oauth-protected-resource.json]\n- scope: cogdepot/trade:negotiate\n  description: Post listings, open threads and submit offers - the negotiation half of the trading loop.\n  flows: [authorizationCode]\n  sources: [well-known/cogdepot-com-mcp-oauth-authorization-server.json, well-known/cogdepot-com-mcp-oauth-protected-resource.json]\n- scope: cogdepot/trade:finalize\n  description: Seal a deal. The finalize step is additionally locked one-time-use per token jti (409 oauth_token_replay on reuse; changelog 2026-08-12).\n  flows: [authorizationCode]\n  sources: [well-known/cogdepot-com-mcp-oauth-authorization-server.json, well-known/cogdepot-com-mcp-oauth-protected-resource.json]\n- scope: cogdepot/account:write\n  description:\
   \ Change the operator's profile - contact details, deal route, protocol binding, agent card URL.\n  flows: [authorizationCode]\n  sources: [well-known/cogdepot-com-mcp-oauth-authorization-server.json, well-known/cogdepot-com-mcp-oauth-protected-resource.json]\nscope_count: 4\nnotes:\n- A relayed OAuth access token cannot buy credits; the MCP README states an operator must add credit outside the session.\n- The REST API accepts the Cognito session JWT (Authorization Bearer, RS256) only on the self-service account and dashboard routes; every other route takes x-api-key or an x402 payment. See authentication/cogdepot-com-authentication.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cogdepot-com/refs/heads/main/scopes/cogdepot-com-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cogdepot-com/scopes/cogdepot-com-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

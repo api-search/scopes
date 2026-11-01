@@ -5,85 +5,85 @@ api_specs:
   label: Thanx Account API
   slug: thanx-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-account-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-account-api-openapi.yml
 - filename: thanx-auth-api-openapi.yml
   format: yaml
   label: Thanx Auth API
   slug: thanx-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-auth-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-auth-api-openapi.yml
 - filename: thanx-baskets-api-openapi.yml
   format: yaml
   label: Thanx Baskets API
   slug: thanx-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-baskets-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-baskets-api-openapi.yml
 - filename: thanx-campaigns-api-openapi.yml
   format: yaml
   label: Thanx Campaigns API
   slug: thanx-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-campaigns-api-openapi.yml
 - filename: thanx-cards-api-openapi.yml
   format: yaml
   label: Thanx Cards API
   slug: thanx-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-cards-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-cards-api-openapi.yml
 - filename: thanx-gift-cards-api-openapi.yml
   format: yaml
   label: Thanx Gift Cards API
   slug: thanx-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-gift-cards-api-openapi.yml
 - filename: thanx-issuance-jobs-api-openapi.yml
   format: yaml
   label: Thanx Issuance Jobs API
   slug: thanx-issuance-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-issuance-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-issuance-jobs-api-openapi.yml
 - filename: thanx-locations-api-openapi.yml
   format: yaml
   label: Thanx Locations API
   slug: thanx-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-locations-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-locations-api-openapi.yml
 - filename: thanx-metadata-api-openapi.yml
   format: yaml
   label: Thanx Metadata API
   slug: thanx-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-metadata-api-openapi.yml
 - filename: thanx-points-api-openapi.yml
   format: yaml
   label: Thanx Points API
   slug: thanx-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-points-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-points-api-openapi.yml
 - filename: thanx-purchases-api-openapi.yml
   format: yaml
   label: Thanx Purchases API
   slug: thanx-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-purchases-api-openapi.yml
 - filename: thanx-rewards-api-openapi.yml
   format: yaml
   label: Thanx Rewards API
   slug: thanx-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-rewards-api-openapi.yml
 - filename: thanx-subscribers-api-openapi.yml
   format: yaml
   label: Thanx Subscribers API
   slug: thanx-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-subscribers-api-openapi.yml
 - filename: thanx-users-api-openapi.yml
   format: yaml
   label: Thanx Users API
   slug: thanx-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/openapi/thanx-users-api-openapi.yml
+  url: https://artifacts.apis.io/thanx/openapi/thanx-users-api-openapi.yml
 authorization_urls: []
 description: 'Thanx''s Partner API is scope-limited: each API credential is provisioned with an agreed-upon set of scopes granting access to a subset of endpoints, and every Partner endpoint page names the scope it requires. The scopes are NOT declared in an OpenAPI oauth2 securityScheme — running derive-oauth-scopes.py against openapi/ found zero oauth2 schemes and therefore zero scopes — so this catalog is read from the documentation, endpoint by endpoint. Scopes are introspectable at runtime: GET /partner/scopes returns the list the calling credential holds.'
 docs: https://docs.thanx.com/partner/metadata/get-scopes
@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://docs.than
   \    docs: https://docs.thanx.com/partner/tags/get-tags\n    note: Documented endpoint not yet captured in openapi/.\n  - name: tags.write\n    description: Create, update and delete attribute tags.\n    operations: []\n    endpoints: ['PUT /partner/tags', 'DELETE /partner/tags']\n    docs: https://docs.thanx.com/partner/tags/upsert-tags\n    note: Documented endpoints not yet captured in openapi/.\n  - name: feedbacks.read\n    description: Read guest feedback records for a merchant.\n    operations: []\n    endpoints: ['GET /partner/feedbacks']\n    docs: https://docs.thanx.com/partner/feedbacks/get-feedbacks\n    note: Documented endpoint not yet captured in openapi/.\n  - name: feedbacks.write\n    description: Respond to a guest feedback record.\n    operations: []\n    endpoints: ['POST /partner/feedbacks/{id}/response']\n    docs: https://docs.thanx.com/partner/feedbacks/feedback-response\n    note: Documented endpoint not yet captured in openapi/.\n  - name: promos.read\n    description:\
   \ Read promotions and the codes in a promotion's active pool.\n    operations: []\n    endpoints: ['GET /partner/promotions', 'GET /partner/promotions/{id}', 'GET /partner/promotions/{id}/codes']\n    docs: https://docs.thanx.com/partner/promotions/overview\n    note: Documented endpoints not yet captured in openapi/.\n  - name: promos.write\n    description: Create promotions and generate batches of single-use promotion codes.\n    operations: []\n    endpoints: ['POST /partner/promotions', 'POST /partner/promotions/{id}/codes']\n    docs: https://docs.thanx.com/partner/promotions/create-promotion\n    note: >-\n      Documented endpoints not yet captured in openapi/. Both accept X-Idempotency-Key — see\n      conventions/thanx-conventions.yml.\nconsumer_oauth:\n  grant_type: authorization_code\n  spec: RFC 6749 §4.1\n  scope_value: passwordless\n  endpoints:\n    - 'POST /oauth/authorize — passwordless flow, emails an auth code link'\n    - 'POST /oauth/authorize-cross-domain — issues\
   \ a code for an already-authenticated user, no email'\n    - 'POST /oauth/token — exchange authorization code for access token'\n    - 'POST /oauth/revoke — revoke an access token'\n  docs: https://docs.thanx.com/consumer/sso/overview\nsummary:\n  scope_count: 12\n  scopes_in_openapi: 0\n  scopes_documented: 12\n  gap: >-\n    Every Partner scope is documented in prose but none is declared in an OpenAPI\n    securityScheme, so no generated client or agent can enforce or discover them from the spec.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/scopes/thanx-scopes.yml
+source_yaml_url: https://artifacts.apis.io/thanx/scopes/thanx-scopes.yml
 summary_line: 12 scopes
 tags:
 - Restaurant

@@ -5,49 +5,49 @@ api_specs:
   label: WisdomTree Accruals API
   slug: wisdomtree-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-accruals-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-accruals-api-openapi.yml
 - filename: wisdomtree-dividend-payment-preferences-api-openapi.yml
   format: yaml
   label: WisdomTree Dividend Payment Preferences API
   slug: wisdomtree-dividend-payment-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-dividend-payment-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-dividend-payment-preferences-api-openapi.yml
 - filename: wisdomtree-fund-data-api-openapi.yml
   format: yaml
   label: WisdomTree Fund Data API
   slug: wisdomtree-fund-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-fund-data-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-fund-data-api-openapi.yml
 - filename: wisdomtree-orders-api-openapi.yml
   format: yaml
   label: WisdomTree Orders API
   slug: wisdomtree-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-orders-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-orders-api-openapi.yml
 - filename: wisdomtree-organizations-api-openapi.yml
   format: yaml
   label: WisdomTree Organizations API
   slug: wisdomtree-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-organizations-api-openapi.yml
 - filename: wisdomtree-statements-api-openapi.yml
   format: yaml
   label: WisdomTree Statements API
   slug: wisdomtree-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-statements-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-statements-api-openapi.yml
 - filename: wisdomtree-users-api-openapi.yml
   format: yaml
   label: WisdomTree Users API
   slug: wisdomtree-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-users-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-users-api-openapi.yml
 - filename: wisdomtree-wallets-api-openapi.yml
   format: yaml
   label: WisdomTree Wallets API
   slug: wisdomtree-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/openapi/wisdomtree-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/wisdomtree/openapi/wisdomtree-wallets-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -97,7 +97,7 @@ source_filename: wisdomtree-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/wisdomtree-connect-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/wisdomtree-connect-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://app.wisdomtreeconnect.com/o/token/\nscopes:\n- scope: groups\n  description: Access to your groups\n  flows:\n  - password\n  sources:\n  - openapi/wisdomtree-connect-openapi.yml\n- scope: read\n  description: Read scope\n  flows:\n  - password\n  sources:\n  - openapi/wisdomtree-connect-openapi.yml\n- scope: write\n  description: Write scope\n  flows:\n  - password\n  sources:\n  - openapi/wisdomtree-connect-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wisdomtree/refs/heads/main/scopes/wisdomtree-scopes.yml
+source_yaml_url: https://artifacts.apis.io/wisdomtree/scopes/wisdomtree-scopes.yml
 summary_line: 3 scopes · password
 tags:
 - Company

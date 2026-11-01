@@ -5,121 +5,121 @@ api_specs:
   label: Xquik Account API
   slug: xquik-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-account-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-account-api-openapi.yml
 - filename: xquik-api-api-keys-api-openapi.yml
   format: yaml
   label: Xquik API Keys API
   slug: xquik-api-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-api-keys-api-openapi.yml
 - filename: xquik-api-articles-api-openapi.yml
   format: yaml
   label: Xquik Articles API
   slug: xquik-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-articles-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-articles-api-openapi.yml
 - filename: xquik-api-communities-api-openapi.yml
   format: yaml
   label: Xquik Communities API
   slug: xquik-api-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-communities-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-communities-api-openapi.yml
 - filename: xquik-api-composition-api-openapi.yml
   format: yaml
   label: Xquik Composition API
   slug: xquik-api-composition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-composition-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-composition-api-openapi.yml
 - filename: xquik-api-draws-api-openapi.yml
   format: yaml
   label: Xquik Draws API
   slug: xquik-api-draws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-draws-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-draws-api-openapi.yml
 - filename: xquik-api-events-api-openapi.yml
   format: yaml
   label: Xquik Events API
   slug: xquik-api-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-events-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-events-api-openapi.yml
 - filename: xquik-api-extractions-api-openapi.yml
   format: yaml
   label: Xquik Extractions API
   slug: xquik-api-extractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-extractions-api-openapi.yml
 - filename: xquik-api-guest-wallets-api-openapi.yml
   format: yaml
   label: Xquik Guest Wallets API
   slug: xquik-api-guest-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-guest-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-guest-wallets-api-openapi.yml
 - filename: xquik-api-lists-api-openapi.yml
   format: yaml
   label: Xquik Lists API
   slug: xquik-api-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-lists-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-lists-api-openapi.yml
 - filename: xquik-api-media-api-openapi.yml
   format: yaml
   label: Xquik Media API
   slug: xquik-api-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-media-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-media-api-openapi.yml
 - filename: xquik-api-monitors-api-openapi.yml
   format: yaml
   label: Xquik Monitors API
   slug: xquik-api-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-monitors-api-openapi.yml
 - filename: xquik-api-subscribe-api-openapi.yml
   format: yaml
   label: Xquik Subscribe API
   slug: xquik-api-subscribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-subscribe-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-subscribe-api-openapi.yml
 - filename: xquik-api-support-api-openapi.yml
   format: yaml
   label: Xquik Support API
   slug: xquik-api-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-support-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-support-api-openapi.yml
 - filename: xquik-api-trends-api-openapi.yml
   format: yaml
   label: Xquik Trends API
   slug: xquik-api-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-trends-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-trends-api-openapi.yml
 - filename: xquik-api-tweets-api-openapi.yml
   format: yaml
   label: Xquik Tweets API
   slug: xquik-api-tweets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-tweets-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-tweets-api-openapi.yml
 - filename: xquik-api-users-api-openapi.yml
   format: yaml
   label: Xquik Users API
   slug: xquik-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-users-api-openapi.yml
 - filename: xquik-api-webhooks-api-openapi.yml
   format: yaml
   label: Xquik Webhooks API
   slug: xquik-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-webhooks-api-openapi.yml
 - filename: xquik-api-x-accounts-api-openapi.yml
   format: yaml
   label: Xquik X Accounts API
   slug: xquik-api-x-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-x-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-x-accounts-api-openapi.yml
 - filename: xquik-api-x-write-api-openapi.yml
   format: yaml
   label: Xquik X Write API
   slug: xquik-api-x-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-x-write-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-x-write-api-openapi.yml
 authorization_urls:
 - https://xquik.com/api/oauth/authorize
 description: Xquik's OAuth 2.1 scope surface, read from the provider's own RFC 8414 authorization-server metadata and RFC 9728 protected-resource metadata rather than from the OpenAPI (the spec declares the OAuth credential as an http bearer scheme, so it carries no oauth2 flow or scope map — deriving from the spec alone yields nothing). The live MCP 401 challenge advertises the same single scope, and the A2A agent card declares it too, so all three provider-published surfaces agree.
@@ -180,7 +180,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://xquik.com/.well-known/oauth-authorization-server\ndocs: https://docs.xquik.com/oauth/overview\ndescription: >-\n  Xquik's OAuth 2.1 scope surface, read from the provider's own RFC 8414 authorization-server\n  metadata and RFC 9728 protected-resource metadata rather than from the OpenAPI (the spec\n  declares the OAuth credential as an http bearer scheme, so it carries no oauth2 flow or\n  scope map — deriving from the spec alone yields nothing). The live MCP 401 challenge\n  advertises the same single scope, and the A2A agent card declares it too, so all three\n  provider-published surfaces agree.\nschemes:\n- name: oauth2\n  type: oauth2\n  spec: OAuth 2.1 with PKCE (S256)\n  issuer: https://xquik.com\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://xquik.com/api/oauth/authorize\n    tokenUrl: https://xquik.com/api/oauth/token\n    revocationUrl: https://xquik.com/api/oauth/revoke\n    registrationUrl:\
   \ https://xquik.com/api/oauth/register\n    grant_types: [authorization_code, refresh_token]\n    code_challenge_methods: [S256]\n    token_endpoint_auth_methods: [none, client_secret_post]\n    client_id_metadata_document_supported: true\n  sources:\n  - https://xquik.com/.well-known/oauth-authorization-server\n  - https://xquik.com/.well-known/oauth-protected-resource/mcp\n  - a2a/xquik-agent-card.json\nscopes:\n- scope: mcp:tools\n  description: Run approved Xquik MCP tools.\n  flows: [authorizationCode]\n  resources: [https://xquik.com/mcp]\n  sources:\n  - https://xquik.com/.well-known/oauth-authorization-server\n  - https://xquik.com/.well-known/oauth-protected-resource/mcp\n  - https://xquik.com/mcp (WWW-Authenticate challenge, scope=\"mcp:tools\")\nprotected_resources:\n- resource: https://xquik.com/mcp\n  name: Xquik MCP Server\n  authorization_servers: [https://xquik.com]\n  bearer_methods_supported: [header]\n  scopes_supported: [mcp:tools]\n  documentation: https://docs.xquik.com/mcp/overview\n\
   note: >-\n  One scope, not a granular permission model. An mcp:tools token inherits whatever the\n  underlying account may do; read/write separation is enforced by the credential type\n  (guest paid_reads key vs full account key) rather than by scope. The agent card carried\n  read/write scopes when this repo was first profiled on 2026-08-01; the live card now\n  carries mcp:tools, matching the authorization server.\nx-evidence:\n  fetched: '2026-08-13'\n  urls:\n  - url: https://xquik.com/.well-known/oauth-authorization-server\n    status: 200\n  - url: https://xquik.com/.well-known/oauth-protected-resource/mcp\n    status: 200\n  - url: https://xquik.com/mcp\n    status: 401\n    www_authenticate: Bearer realm=\"OAuth\", resource_metadata=\"https://xquik.com/.well-known/oauth-protected-resource/mcp\", scope=\"mcp:tools\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/scopes/xquik-scopes.yml
+source_yaml_url: https://artifacts.apis.io/xquik-api/scopes/xquik-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - social-media-data

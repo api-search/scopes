@@ -5,7 +5,7 @@ api_specs:
   label: Lili API
   slug: lili-lili-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/openapi/lili-lili-api-openapi.yml
+  url: https://artifacts.apis.io/lili/openapi/lili-lili-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://dev.lili.co/guides/lili-mcp-connect
@@ -34,7 +34,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: none\nsource: https://mcp.lili.co
   \  - refresh_token\n  code_challenge_methods_supported:\n  - S256\n  token_endpoint_auth_methods_supported:\n  - none\n  scopes_supported: null\nprotected_resource:\n  metadata: well-known/lili-mcp-oauth-protected-resource.json\n  metadata_http_status: 200\n  resource: https://mcp.lili.co\n  bearer_methods_supported:\n  - header\n  authorization_servers:\n  - https://mcp.lili.co\n  - https://mcp.lilibanking.com\n  - http://mcp.lilibanking.com:8080\n  - http://localhost:8080\n  - http://127.0.0.1:8080\n  hygiene_finding: Three of the six declared authorization_servers are non-production values (two localhost, one\n    plaintext http on the retired lilibanking domain) shipping in live RFC 9728 discovery metadata.\nscope_count: 0\nscopes: []\nscopes_note: '`scopes_supported` is absent from the RFC 8414 metadata and no scope, permission or consent reference\n  page exists anywhere on dev.lili.co or lili.co. This is recorded as a measured zero, not as an unchecked field.'\neffective_authorization:\n\
   \  model: user-identity\n  detail: 'Lili''s own documentation states that \"access tokens are scoped to the authenticated user\". The only\n    differentiation is USER TYPE, enforced server-side rather than by scope: a business user reaches their own account\n    without a businessUserId, while an accountant must pass businessUserId (or call select_customer) and is additionally\n    granted the nine Accountant Tools.'\n  revocation: https://mcp.lili.co/oauth/revoke\n  refresh: Refresh tokens are issued automatically; users typically log in once per device.\n  source: https://dev.lili.co/guides/lili-mcp-connect\nrest_api:\n  oauth2: false\n  note: The three partner REST APIs do not use OAuth at all — they authenticate with a static accessKey:secretKey\n    pair in the Authorization header, which carries no scope concept either. See authentication/lili-authentication.yml.\nchecked: '2026-08-25'\nnote: 'Probed: the OAuth authorization server declares no scopes (scopes_supported absent); recorded\
   \ as a checked\n  absence.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/scopes/lili-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lili/scopes/lili-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Banking

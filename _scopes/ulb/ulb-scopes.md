@@ -5,19 +5,19 @@ api_specs:
   label: Université libre de Bruxelles Group API
   slug: ulb-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-group-api-openapi.yml
+  url: https://artifacts.apis.io/ulb/openapi/ulb-group-api-openapi.yml
 - filename: ulb-oai-pmh-api-openapi.yml
   format: yaml
   label: Université libre de Bruxelles OAI PMH API
   slug: ulb-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/ulb/openapi/ulb-oai-pmh-api-openapi.yml
 - filename: ulb-scholar-api-openapi.yml
   format: yaml
   label: Université libre de Bruxelles Scholar API
   slug: ulb-scholar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-scholar-api-openapi.yml
+  url: https://artifacts.apis.io/ulb/openapi/ulb-scholar-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -44,7 +44,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "name: ULB Authorization Scopes\ngenerated: '2026-08-30'\nmethod: probed\nsource: >-\n  Live probes on 2026-08-30 of every ULB surface listed in authentication/ulb-authentication.yml,\n  plus the SAML metadata at https://auth.ulb.be/idp/metadata.\nx-operator: institution\nscopes: []\nsummary: >-\n  ULB defines no authorization scopes. Its two public machine-readable surfaces are unauthenticated\n  and therefore unscoped; its SAML identity provider expresses release policy through attribute\n  release and entity categories rather than through scopes, and the metadata carries no\n  RequestedAttribute set of its own.\nsaml_release_signals:\n  - name: REFEDS Research and Scholarship\n    value: http://refeds.org/category/research-and-scholarship\n    meaning: >-\n      ULB's IdP supports the R&S entity category, which commits it to releasing a bounded attribute\n      bundle (persistent identifier, person name, email, affiliation) to R&S-tagged service\n      providers without per-service\
   \ negotiation. This is the closest thing ULB publishes to a scope.\n    source: https://auth.ulb.be/idp/metadata\n    verified: '2026-08-30'\n  - name: shibmd:Scope\n    value: ulb.be\n    meaning: The single security domain the IdP is authoritative for; scoped attribute values are asserted only within `@ulb.be`.\n    source: https://auth.ulb.be/idp/metadata\n    verified: '2026-08-30'\n  - name: SIRTFI\n    value: https://refeds.org/sirtfi\n    meaning: >-\n      Security Incident Response Trust Framework for Federated Identity assurance certification —\n      an operational commitment, not an authorization scope, recorded here because it is the only\n      other machine-readable assurance ULB asserts.\n    source: https://auth.ulb.be/idp/metadata\n    verified: '2026-08-30'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/scopes/ulb-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ulb/scopes/ulb-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

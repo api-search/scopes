@@ -57,7 +57,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.sidecare.com/.well-known/openid-configuration\ndocs: https://www.sidecare.com/connexion-hub\nschemes:\n- name: sidecare-oidc\n  type: openIdConnect\n  source: well-known/sidecare-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.sidecare.com/accounts/oauth/authorizations\n    tokenUrl: https://www.sidecare.com/accounts/oauth/tokens\nscopes:\n- scope: openid\n  description: Required OpenID Connect scope; returns the subject identifier and an ID token.\n  flows: [authorizationCode]\n  sources: [well-known/sidecare-openid-configuration.json]\n- scope: profile\n  description: Access to the end-user's profile claims (name, given_name, family_name, birthdate, phone_number).\n  flows: [authorizationCode]\n  sources: [well-known/sidecare-openid-configuration.json]\n- scope: email\n  description: Access to the end-user's email and email_verified claims.\n  flows: [authorizationCode]\n\
   \  sources: [well-known/sidecare-openid-configuration.json]\n- scope: address\n  description: Access to the end-user's postal address claim.\n  flows: [authorizationCode]\n  sources: [well-known/sidecare-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sidecare/refs/heads/main/scopes/sidecare-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sidecare/scopes/sidecare-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

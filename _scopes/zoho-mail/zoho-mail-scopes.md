@@ -5,25 +5,25 @@ api_specs:
   label: Zoho Mail Accounts API
   slug: zoho-mail-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-accounts-api-openapi.yml
 - filename: zoho-mail-folders-api-openapi.yml
   format: yaml
   label: Zoho Mail Folders API
   slug: zoho-mail-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-folders-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-folders-api-openapi.yml
 - filename: zoho-mail-messages-api-openapi.yml
   format: yaml
   label: Zoho Mail Messages API
   slug: zoho-mail-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-messages-api-openapi.yml
 - filename: zoho-mail-organization-api-openapi.yml
   format: yaml
   label: Zoho Mail Organization API
   slug: zoho-mail-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/openapi/zoho-mail-organization-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-mail/openapi/zoho-mail-organization-api-openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''
@@ -116,7 +116,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nschemes:\n- name: OAuth2\n  source: openapi/openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\nscopes:\n- scope: ZohoMail.accounts\n  description: Access account settings\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoMail.accounts.READ\n  description: Read account details\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoMail.bookmarks\n  description: Access bookmarks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoMail.folders\n  description: Access folders\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoMail.labels\n  description: Access labels\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoMail.messages\n\
   \  description: Access email messages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoMail.notes\n  description: Access notes\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoMail.organization\n  description: Access organization settings\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoMail.organization.accounts\n  description: Admin access to user accounts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoMail.signatures\n  description: Access signatures\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoMail.tasks\n  description: Access tasks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/scopes/zoho-mail-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zoho-mail/scopes/zoho-mail-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
 - Email

@@ -5,25 +5,25 @@ api_specs:
   label: Trioptima Cycles API
   slug: trioptima-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-cycles-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-cycles-api-openapi.yml
 - filename: trioptima-results-api-openapi.yml
   format: yaml
   label: Trioptima Results API
   slug: trioptima-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-results-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-results-api-openapi.yml
 - filename: trioptima-risk-api-openapi.yml
   format: yaml
   label: Trioptima Risk API
   slug: trioptima-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-risk-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-risk-api-openapi.yml
 - filename: trioptima-trades-api-openapi.yml
   format: yaml
   label: Trioptima Trades API
   slug: trioptima-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/openapi/trioptima-trades-api-openapi.yml
+  url: https://artifacts.apis.io/trioptima/openapi/trioptima-trades-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -68,7 +68,7 @@ source_filename: trioptima-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/trioptima-trireduce-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/trioptima-trireduce-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.trireduce.com/oauth/token\nscopes:\n- scope: read\n  description: Read-only access to cycles, trades, and results\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trioptima-trireduce-api-openapi.yml\n- scope: write\n  description: Full access to submit trades, risk data, and confirmations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trioptima-trireduce-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/scopes/trioptima-scopes.yml
+source_yaml_url: https://artifacts.apis.io/trioptima/scopes/trioptima-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - CME Group

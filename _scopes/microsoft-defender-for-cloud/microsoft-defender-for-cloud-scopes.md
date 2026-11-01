@@ -5,25 +5,25 @@ api_specs:
   label: Microsoft Defender for Cloud Alerts API
   slug: microsoft-defender-for-cloud-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-alerts-api-openapi.yml
 - filename: microsoft-defender-for-cloud-assessments-api-openapi.yml
   format: yaml
   label: Microsoft Defender for Cloud Assessments API
   slug: microsoft-defender-for-cloud-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-assessments-api-openapi.yml
 - filename: microsoft-defender-for-cloud-pricings-api-openapi.yml
   format: yaml
   label: Microsoft Defender for Cloud Pricings API
   slug: microsoft-defender-for-cloud-pricings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-pricings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-pricings-api-openapi.yml
 - filename: microsoft-defender-for-cloud-securescores-api-openapi.yml
   format: yaml
   label: Microsoft Defender for Cloud SecureScores API
   slug: microsoft-defender-for-cloud-securescores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-securescores-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-securescores-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -62,7 +62,7 @@ source_filename: microsoft-defender-for-cloud-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-defender-for-cloud-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-defender-for-cloud-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth 2.0\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-defender-for-cloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/scopes/microsoft-defender-for-cloud-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-defender-for-cloud/scopes/microsoft-defender-for-cloud-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Cloud Security

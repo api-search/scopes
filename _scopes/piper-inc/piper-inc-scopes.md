@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.playpiper.in/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nnotes: >-\n  OAuth/OIDC scopes advertised by the Shopify Customer Account Authentication\n  server for the Piper store (id 9256256), from scopes_supported in the OIDC\n  discovery document.\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/piper-inc-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/9256256/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/9256256/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the customer's email address and verification status.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer\
   \ Account API on the buyer's behalf.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API for agent-driven commerce.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/piper-inc/refs/heads/main/scopes/piper-inc-scopes.yml
+source_yaml_url: https://artifacts.apis.io/piper-inc/scopes/piper-inc-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

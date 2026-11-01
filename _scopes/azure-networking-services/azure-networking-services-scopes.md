@@ -5,43 +5,43 @@ api_specs:
   label: Azure Networking Services Subnets API
   slug: azure-networking-services-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subnets-api-openapi.yml
 - filename: azure-networking-services-subscriptions-api-openapi.yml
   format: yaml
   label: Azure Networking Services Subscriptions API
   slug: azure-networking-services-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subscriptions-api-openapi.yml
 - filename: azure-networking-services-virtualnetworkpeerings-api-openapi.yml
   format: yaml
   label: Azure Networking Services VirtualNetworkPeerings API
   slug: azure-networking-services-virtualnetworkpeerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-virtualnetworkpeerings-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualnetworkpeerings-api-openapi.yml
 - filename: azure-networking-services-operations-api-openapi.yml
   format: yaml
   label: Azure Networking Operations API
   slug: microsoft-azure-networking-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-operations-api-openapi.yml
 - filename: azure-networking-services-subnets-api-openapi.yml
   format: yaml
   label: Azure Networking Subnets API
   slug: microsoft-azure-networking-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subnets-api-openapi.yml
 - filename: azure-networking-services-virtual-networks-api-openapi.yml
   format: yaml
   label: Azure Networking Virtual Networks API
   slug: microsoft-azure-networking-virtual-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-virtual-networks-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtual-networks-api-openapi.yml
 - filename: azure-networking-services-load-balancers-api-openapi.yml
   format: yaml
   label: Azure Networking Services Load Balancers API
   slug: azure-networking-services-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/openapi/azure-networking-services-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-load-balancers-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -86,7 +86,7 @@ source_filename: azure-networking-services-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-networking-services-load-balancer-openapi.yaml, openapi/azure-networking-services-virtual-network-openapi.yaml\nschemes:\n- name: azure_auth\n  source: openapi/azure-networking-services-load-balancer-openapi.yaml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/azure-networking-services-virtual-network-openapi.yaml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/azure-networking-services-load-balancer-openapi.yaml\n  - openapi/azure-networking-services-virtual-network-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/scopes/azure-networking-services-scopes.yml
+source_yaml_url: https://artifacts.apis.io/azure-networking-services/scopes/azure-networking-services-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Microsoft Azure

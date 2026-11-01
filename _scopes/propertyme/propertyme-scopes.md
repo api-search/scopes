@@ -5,37 +5,37 @@ api_specs:
   label: PropertyMe Connection API
   slug: propertyme-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-connection-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-connection-api-openapi.yml
 - filename: propertyme-scope-activities-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Activities API'
   slug: propertyme-scope-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-activities-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-activities-api-openapi.yml
 - filename: propertyme-scope-bills-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Bills API'
   slug: propertyme-scope-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-bills-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-bills-api-openapi.yml
 - filename: propertyme-scope-contacts-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Contacts API'
   slug: propertyme-scope-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-contacts-api-openapi.yml
 - filename: propertyme-scope-messages-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Messages API'
   slug: propertyme-scope-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-messages-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-messages-api-openapi.yml
 - filename: propertyme-scope-properties-api-openapi.yml
   format: yaml
   label: 'PropertyMe Scope: Properties API'
   slug: propertyme-scope-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/openapi/propertyme-scope-properties-api-openapi.yml
+  url: https://artifacts.apis.io/propertyme/openapi/propertyme-scope-properties-api-openapi.yml
 authorization_urls:
 - https://login.propertyme.com/connect/authorize
 description: ''
@@ -170,7 +170,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://login.p
   \ drive their state machines — schedule,\n      reschedule, inspect, close, reopen for inspections; approve, assign, complete, reject, reopen for\n      jobs — plus quotations and attachments. The largest write surface in the contract.\n    category: activity\n    operations: 22\n  - scope: transaction:read\n    description: Read the transaction dashboard aggregate over the trust ledger.\n    category: transaction\n    operations: 1\n  - scope: transaction:write\n    description: >-\n      Create a bill against the trust accounting ledger (POST /v1/bills). The only transaction-writing\n      operation in the published contract.\n    category: transaction\n    operations: 1\n  - scope: communication:read\n    description: Read the communications dashboard aggregate.\n    category: communication\n    operations: 1\n  - scope: communication:write\n    description: Advertised by the identity provider; no published operation requires it.\n    category: communication\n    operations: 0\n  -\
   \ scope: tenancy:write\n    description: >-\n      Advertised by the identity provider; no published operation requires it. Tenancies are read-only\n      in the public contract.\n    category: property\n    operations: 0\n  - scope: customer:read\n    description: Advertised by the identity provider; no published operation requires it.\n    category: customer\n    operations: 0\n  - scope: customer:write\n    description: Advertised by the identity provider; no published operation requires it.\n    category: customer\n    operations: 0\n  - scope: form:write\n    description: Advertised by the identity provider; no published operation requires it.\n    category: forms\n    operations: 0\n  - scope: ids:admin\n    description: >-\n      Identity-server administration scope. Advertised by the identity provider; not part of the public\n      integration surface.\n    category: administration\n    operations: 0\n  - scope: org-portal:api\n    description: >-\n      Organisation portal API\
   \ scope. Advertised by the identity provider; no published operation\n      requires it.\n    category: administration\n    operations: 0\nunscoped_operations:\n  count: 10\n  note: >-\n    Ten published operations carry no scope sentence in their description — DELETE\n    /v1/portfolios/disconnect (the consent seam, which the docs say invalidates the current access\n    token) plus nine job-task and attachment writes that in practice sit under activity:write. Recorded\n    as a documentation gap in the contract, not as unauthenticated access.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/scopes/propertyme-scopes.yml
+source_yaml_url: https://artifacts.apis.io/propertyme/scopes/propertyme-scopes.yml
 summary_line: 20 scopes · authorizationCode/clientCredentials/deviceCode/ciba
 tags:
 - Real Estate

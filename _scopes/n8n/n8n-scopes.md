@@ -5,133 +5,133 @@ api_specs:
   label: N8n Audit API
   slug: n8n-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-audit-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-audit-api-openapi.yml
 - filename: n8n-communitypackage-api-openapi.yml
   format: yaml
   label: N8n CommunityPackage API
   slug: n8n-communitypackage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-communitypackage-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-communitypackage-api-openapi.yml
 - filename: n8n-credential-api-openapi.yml
   format: yaml
   label: N8n Credential API
   slug: n8n-credential-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-credential-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-credential-api-openapi.yml
 - filename: n8n-datatable-api-openapi.yml
   format: yaml
   label: N8n DataTable API
   slug: n8n-datatable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-datatable-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-datatable-api-openapi.yml
 - filename: n8n-discover-api-openapi.yml
   format: yaml
   label: N8n Discover API
   slug: n8n-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-discover-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-discover-api-openapi.yml
 - filename: n8n-execution-api-openapi.yml
   format: yaml
   label: N8n Execution API
   slug: n8n-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-execution-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-execution-api-openapi.yml
 - filename: n8n-folders-api-openapi.yml
   format: yaml
   label: N8n Folders API
   slug: n8n-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-folders-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-folders-api-openapi.yml
 - filename: n8n-insights-api-openapi.yml
   format: yaml
   label: N8n Insights API
   slug: n8n-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-insights-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-insights-api-openapi.yml
 - filename: n8n-projects-api-openapi.yml
   format: yaml
   label: N8n Projects API
   slug: n8n-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-projects-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-projects-api-openapi.yml
 - filename: n8n-tags-api-openapi.yml
   format: yaml
   label: N8n Tags API
   slug: n8n-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-tags-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-tags-api-openapi.yml
 - filename: n8n-user-api-openapi.yml
   format: yaml
   label: N8n User API
   slug: n8n-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-user-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-user-api-openapi.yml
 - filename: n8n-variables-api-openapi.yml
   format: yaml
   label: N8n Variables API
   slug: n8n-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-variables-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-variables-api-openapi.yml
 - filename: n8n-workflow-api-openapi.yml
   format: yaml
   label: N8n Workflow API
   slug: n8n-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-workflow-api-openapi.yml
 - filename: n8n-evaluation-api-openapi.yml
   format: yaml
   label: n8n Evaluation API
   slug: n8n-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-evaluation-api-openapi.yml
 - filename: n8n-logstreaming-api-openapi.yml
   format: yaml
   label: n8n Log Streaming API
   slug: n8n-logstreaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-logstreaming-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-logstreaming-api-openapi.yml
 - filename: n8n-n8npackage-api-openapi.yml
   format: yaml
   label: n8n N8n Package API
   slug: n8n-n8npackage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-n8npackage-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-n8npackage-api-openapi.yml
 - filename: n8n-settingsldap-api-openapi.yml
   format: yaml
   label: n8n Settings Ldap API
   slug: n8n-settingsldap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-settingsldap-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-settingsldap-api-openapi.yml
 - filename: n8n-settingsotel-api-openapi.yml
   format: yaml
   label: n8n Settings Otel API
   slug: n8n-settingsotel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-settingsotel-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-settingsotel-api-openapi.yml
 - filename: n8n-settingsssooidc-api-openapi.yml
   format: yaml
   label: n8n Settings SSO Oidc API
   slug: n8n-settingsssooidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-settingsssooidc-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-settingsssooidc-api-openapi.yml
 - filename: n8n-settingsssosaml-api-openapi.yml
   format: yaml
   label: n8n Settings SSO Saml API
   slug: n8n-settingsssosaml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-settingsssosaml-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-settingsssosaml-api-openapi.yml
 - filename: n8n-security-policy-api-openapi.yml
   format: yaml
   label: n8n security policy API
   slug: n8n-security-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-security-policy-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-security-policy-api-openapi.yml
 - filename: n8n-source-control-api-openapi.yml
   format: yaml
   label: n8n Source Control API
   slug: n8n-source-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/openapi/n8n-source-control-api-openapi.yml
+  url: https://artifacts.apis.io/n8n/openapi/n8n-source-control-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.n8n.io/connect/n8n-api/authentication
@@ -430,7 +430,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: searched\ndocs: https://docs.n8n.
   \ description: Update the annotation tags assigned to an execution.}\n  - {scope: 'folder:create', description: Create a folder in a project.}\n  - {scope: 'folder:read', description: Retrieve a folder.}\n  - {scope: 'folder:list', description: List folders in a project.}\n  - {scope: 'folder:update', description: Update a folder.}\n  - {scope: 'folder:delete', description: Delete a folder.}\n  - {scope: 'insights:read', description: Read instance insights data (execution counts, failure rates, time saved, run time).}\n  - {scope: 'project:create', description: Create a project.}\n  - {scope: 'project:list', description: List projects.}\n  - {scope: 'project:update', description: Update a project.}\n  - {scope: 'project:delete', description: Delete a project.}\n  - {scope: 'securityAudit:generate', description: Generate a security audit report for the instance.}\n  - {scope: 'sourceControl:pull', description: Pull changes from the connected source control repository.}\n  - {scope: 'tag:create',\
   \ description: Create a tag in the global tag registry.}\n  - {scope: 'tag:read', description: Retrieve a tag.}\n  - {scope: 'tag:list', description: List tags.}\n  - {scope: 'tag:update', description: Update a tag.}\n  - {scope: 'tag:delete', description: Delete a tag.}\n  - {scope: 'user:create', description: Invite or create users on the instance.}\n  - {scope: 'user:read', description: Retrieve a user.}\n  - {scope: 'user:list', description: List users.}\n  - {scope: 'user:changeRole', description: Change a user's global (instance-level) role.}\n  - {scope: 'user:enforceMfa', description: Reserved scope; no /api/v1/ endpoint consumes it.}\n  - {scope: 'user:delete', description: Delete a user from the instance.}\n  - {scope: 'variable:create', description: Create an instance variable.}\n  - {scope: 'variable:list', description: List instance variables.}\n  - {scope: 'variable:update', description: Update an instance variable.}\n  - {scope: 'variable:delete', description: Delete an\
   \ instance variable.}\n  - {scope: 'workflow:create', description: Create a workflow.}\n  - {scope: 'workflow:read', description: Retrieve a workflow and its details.}\n  - {scope: 'workflow:list', description: List workflows.}\n  - {scope: 'workflow:update', description: Update a workflow.}\n  - {scope: 'workflow:delete', description: Delete, archive, or unarchive a workflow.}\n  - {scope: 'workflow:move', description: Transfer a workflow to another project.}\n  - {scope: 'workflow:activate', description: Activate/deactivate (publish/unpublish) a workflow.}\n  - {scope: 'workflowTags:list', description: Read the tags assigned to a workflow.}\n  - {scope: 'workflowTags:update', description: Update the tags assigned to a workflow.}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/scopes/n8n-scopes.yml
+source_yaml_url: https://artifacts.apis.io/n8n/scopes/n8n-scopes.yml
 summary_line: 67 scopes
 tags:
 - Agents

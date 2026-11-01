@@ -5,43 +5,43 @@ api_specs:
   label: HSBC Bank Australia Banking Account Balances API
   slug: hsbc-australia-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/hsbc-australia/openapi/hsbc-australia-banking-account-balances-api-openapi.yml
 - filename: hsbc-australia-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: HSBC Bank Australia Banking Account Direct Debits API
   slug: hsbc-australia-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/hsbc-australia/openapi/hsbc-australia-banking-account-direct-debits-api-openapi.yml
 - filename: hsbc-australia-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: HSBC Bank Australia Banking Account Scheduled Payments API
   slug: hsbc-australia-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hsbc-australia/openapi/hsbc-australia-banking-account-scheduled-payments-api-openapi.yml
 - filename: hsbc-australia-banking-account-transactions-api-openapi.yml
   format: yaml
   label: HSBC Bank Australia Banking Account Transactions API
   slug: hsbc-australia-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/hsbc-australia/openapi/hsbc-australia-banking-account-transactions-api-openapi.yml
 - filename: hsbc-australia-banking-accounts-api-openapi.yml
   format: yaml
   label: HSBC Bank Australia Banking Accounts API
   slug: hsbc-australia-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hsbc-australia/openapi/hsbc-australia-banking-accounts-api-openapi.yml
 - filename: hsbc-australia-banking-payees-api-openapi.yml
   format: yaml
   label: HSBC Bank Australia Banking Payees API
   slug: hsbc-australia-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/hsbc-australia/openapi/hsbc-australia-banking-payees-api-openapi.yml
 - filename: hsbc-australia-banking-products-api-openapi.yml
   format: yaml
   label: HSBC Bank Australia Banking Products API
   slug: hsbc-australia-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/openapi/hsbc-australia-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/hsbc-australia/openapi/hsbc-australia-banking-products-api-openapi.yml
 authorization_urls:
 - https://public.ob.hsbc.com.au/cds-au/v1/oauth2/authorize
 description: ''
@@ -119,7 +119,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://public.ob.hsbc.com.au/.well-known/openid-configuration\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#end-points\nnote: |\n  Scopes are published live in the HSBC Australia CDR OpenID Connect discovery\n  document (scopes_supported). They govern the AUTHENTICATED consumer data\n  sharing surface, which is restricted to Accredited Data Recipients (ADRs)\n  under the CDR register - not the public unauthenticated Product Reference\n  Data endpoints, which require no scopes. Scope semantics follow the DSB\n  Consumer Data Standards (Australia).\nschemes:\n- name: CDR OpenID Connect (FAPI)\n  source: https://public.ob.hsbc.com.au/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://public.ob.hsbc.com.au/cds-au/v1/oauth2/authorize\n    tokenUrl: https://mtls.ob.hsbc.com.au/cds-au/v1/oauth2/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication\
   \ (required).\n- scope: profile\n  description: CDR profile claims (name and related identity claims).\n- scope: bank:accounts.basic:read\n  description: Read basic account data - account name, type, and balance.\n- scope: bank:accounts.detail:read\n  description: Read detailed account data - account numbers and features.\n- scope: bank:transactions:read\n  description: Read account transactions.\n- scope: bank:payees:read\n  description: Read saved payees.\n- scope: bank:regular_payments:read\n  description: Read direct debits and scheduled/recurring payments.\n- scope: common:customer.basic:read\n  description: Read basic customer data - name and occupation.\n- scope: common:customer.detail:read\n  description: Read detailed customer data - contact details.\n- scope: cdr:registration\n  description: Dynamic client registration against the CDR register.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/scopes/hsbc-australia-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hsbc-australia/scopes/hsbc-australia-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
 - Finance

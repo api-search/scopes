@@ -5,103 +5,103 @@ api_specs:
   label: Ada Channels API
   slug: ada-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-channels-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-channels-api-openapi.yml
 - filename: ada-conversations-api-openapi.yml
   format: yaml
   label: Ada Conversations API
   slug: ada-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-conversations-api-openapi.yml
 - filename: ada-custominstructions-api-openapi.yml
   format: yaml
   label: Ada Custom Instructions API
   slug: ada-custominstructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-custominstructions-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-custominstructions-api-openapi.yml
 - filename: ada-deletechatterdata-api-openapi.yml
   format: yaml
   label: Ada Delete Chatter Data API
   slug: ada-deletechatterdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-deletechatterdata-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-deletechatterdata-api-openapi.yml
 - filename: ada-getdeletionjob-api-openapi.yml
   format: yaml
   label: Ada Get Deletion Job API
   slug: ada-getdeletionjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-getdeletionjob-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-getdeletionjob-api-openapi.yml
 - filename: ada-knowledge-api-openapi.yml
   format: yaml
   label: Ada Knowledge API
   slug: ada-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-knowledge-api-openapi.yml
 - filename: ada-knowledge-articles-api-openapi.yml
   format: yaml
   label: Ada knowledge > articles API
   slug: ada-knowledge-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-articles-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-knowledge-articles-api-openapi.yml
 - filename: ada-knowledge-sources-api-openapi.yml
   format: yaml
   label: Ada knowledge > sources API
   slug: ada-knowledge-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-sources-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-knowledge-sources-api-openapi.yml
 - filename: ada-knowledge-tags-api-openapi.yml
   format: yaml
   label: Ada knowledge > tags API
   slug: ada-knowledge-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-knowledge-tags-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-knowledge-tags-api-openapi.yml
 - filename: ada-messages-api-openapi.yml
   format: yaml
   label: Ada Messages API
   slug: ada-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-messages-api-openapi.yml
 - filename: ada-persona-api-openapi.yml
   format: yaml
   label: Ada Persona API
   slug: ada-persona-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-persona-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-persona-api-openapi.yml
 - filename: ada-platformintegrations-api-openapi.yml
   format: yaml
   label: Ada Platform Integrations API
   slug: ada-platformintegrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-platformintegrations-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-platformintegrations-api-openapi.yml
 - filename: ada-submitdeletionrequest-api-openapi.yml
   format: yaml
   label: Ada Submit Deletion Request API
   slug: ada-submitdeletionrequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-submitdeletionrequest-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-submitdeletionrequest-api-openapi.yml
 - filename: ada-variables-api-openapi.yml
   format: yaml
   label: Ada Variables API
   slug: ada-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-variables-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-variables-api-openapi.yml
 - filename: ada-audit-log-api-openapi.yml
   format: yaml
   label: Ada Audit Log API
   slug: ada-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-audit-log-api-openapi.yml
 - filename: ada-end-users-api-openapi.yml
   format: yaml
   label: Ada End Users API
   slug: ada-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-end-users-api-openapi.yml
 - filename: ada-webhook-management-api-openapi.yml
   format: yaml
   label: Ada Webhook Management API
   slug: ada-webhook-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/openapi/ada-webhook-management-api-openapi.yml
+  url: https://artifacts.apis.io/ada/openapi/ada-webhook-management-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.ada.cx/reference/integrations/getting-started
@@ -204,7 +204,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://docs.ad
   \ development AI Agent\n    returns:\n    - id\n    - client_secret\n    fields:\n    - oauth_callback_url\n    - scopes\nscopes:\n- scope: articles:read\n  description: Read knowledge articles.\n  flows:\n  - authorizationCode\n  sources:\n  - https://docs.ada.cx/reference/integrations/getting-started\n- scope: articles:write\n  description: Create, update and delete knowledge articles.\n  flows:\n  - authorizationCode\n  sources:\n  - https://docs.ada.cx/reference/integrations/getting-started\n- scope: article_tags:read\n  description: Read knowledge article tags.\n  flows:\n  - authorizationCode\n  sources:\n  - https://docs.ada.cx/reference/integrations/getting-started\n- scope: article_tags:write\n  description: Create, update and delete knowledge article tags.\n  flows:\n  - authorizationCode\n  sources:\n  - https://docs.ada.cx/reference/integrations/getting-started\n- scope: knowledge_sources:read\n  description: Read knowledge sources.\n  flows:\n  - authorizationCode\n  sources:\n\
   \  - https://docs.ada.cx/reference/integrations/getting-started\n- scope: knowledge_sources:write\n  description: Create, update and delete knowledge sources.\n  flows:\n  - authorizationCode\n  sources:\n  - https://docs.ada.cx/reference/integrations/getting-started\n- scope: platform_integration_installations:read\n  description: Read the integration's own installation records.\n  always_granted: true\n  note: Granted implicitly even when omitted from the `scopes` field at registration.\n  flows:\n  - authorizationCode\n  sources:\n  - https://docs.ada.cx/reference/integrations/getting-started\n- scope: platform_integration_installations:write\n  description: Update the integration's own installation status (e.g. mark it `complete`).\n  always_granted: true\n  note: Granted implicitly even when omitted from the `scopes` field at registration.\n  flows:\n  - authorizationCode\n  sources:\n  - https://docs.ada.cx/reference/integrations/getting-started\nscope_count: 8\ncoverage:\n  note:\
   \ >-\n    Ada states \"More scopes will become available as more APIs become available.\" Today the OAuth\n    scope vocabulary covers Knowledge and the integration's own installation record ONLY — end\n    users, conversations, channels, webhooks, persona, variables, custom instructions and the\n    audit log are reachable with an API key but have no OAuth scope, so a partner integration\n    cannot be granted access to them.\nmcp_authorization:\n  note: >-\n    The Ada MCP server also supports OAuth (https://<instance>/api/mcp/oauth) but does NOT use\n    these scopes. MCP access is governed by the connected user's Ada dashboard role\n    (Owner/Admin = writes, Agent/Read Only = reads). See mcp/ada-mcp.yml.\n  source: https://docs.ada.cx/mcp/introduction/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/scopes/ada-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ada/scopes/ada-scopes.yml
 summary_line: 8 scopes · authorizationCode/refreshToken
 tags:
 - Artificial Intelligence

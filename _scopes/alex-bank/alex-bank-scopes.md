@@ -5,43 +5,43 @@ api_specs:
   label: Alex Bank Banking Account Balances API
   slug: alex-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-account-balances-api-openapi.yml
 - filename: alex-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Account Direct Debits API
   slug: alex-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-account-direct-debits-api-openapi.yml
 - filename: alex-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Account Scheduled Payments API
   slug: alex-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: alex-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Account Transactions API
   slug: alex-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-account-transactions-api-openapi.yml
 - filename: alex-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Accounts API
   slug: alex-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-accounts-api-openapi.yml
 - filename: alex-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Payees API
   slug: alex-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-payees-api-openapi.yml
 - filename: alex-bank-banking-products-api-openapi.yml
   format: yaml
   label: Alex Bank Banking Products API
   slug: alex-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/openapi/alex-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/alex-bank/openapi/alex-bank-banking-products-api-openapi.yml
 authorization_urls:
 - https://public.cdr.alex.com.au/connect/authorize
 description: ''
@@ -140,7 +140,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://public.cdr.alex.com.au/.well-known/openid-configuration\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#cdr-scopes\nnote: >-\n  Scopes advertised by Alex Bank's CDR OpenID Provider (scopes_supported). These gate\n  the ACCC-accredited-data-recipient (ADR) consumer-data-sharing surface; the public\n  Product Reference Data endpoints require NO scope. Scope semantics are defined by the\n  DSB Consumer Data Standards, not by Alex Bank.\nschemes:\n- name: CDR-OAuth2-OIDC\n  source: https://public.cdr.alex.com.au/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://public.cdr.alex.com.au/connect/authorize\n    tokenUrl: https://secure.cdr.alex.com.au/connect/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token.\n  flows: [authorizationCode]\n- scope: profile\n  description: Basic end-user profile claims.\n  flows:\
   \ [authorizationCode]\n- scope: common:customer.basic:read\n  description: Read basic customer/organisation contact and identity details.\n  flows: [authorizationCode]\n- scope: common:customer.detail:read\n  description: Read detailed customer/organisation identity and contact details.\n  flows: [authorizationCode]\n- scope: cdr:registration\n  description: Dynamic client registration for accredited data recipients (CDR register).\n  flows: [clientCredentials]\n- scope: admin:metrics.basic:read\n  description: Read Get Metrics administrative endpoint (CDR reporting).\n  flows: [clientCredentials]\n- scope: admin:metadata:update\n  description: Trigger a metadata refresh from the CDR Register (admin).\n  flows: [clientCredentials]\n- scope: bank:accounts.basic:read\n  description: Read basic banking account data (account list, product category, nickname).\n  flows: [authorizationCode]\n- scope: bank:accounts.detail:read\n  description: Read detailed banking account data (features, fees,\
   \ address, holder detail).\n  flows: [authorizationCode]\n- scope: bank:transactions:read\n  description: Read banking account transactions.\n  flows: [authorizationCode]\n- scope: bank:payees:read\n  description: Read saved payees.\n  flows: [authorizationCode]\n- scope: bank:regular_payments:read\n  description: Read direct debits and scheduled/regular payments.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/scopes/alex-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/alex-bank/scopes/alex-bank-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
 - Finance

@@ -5,31 +5,31 @@ api_specs:
   label: Fellow Action Items API
   slug: fellow-action-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-action-items-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-action-items-api-openapi.yml
 - filename: fellow-notes-api-openapi.yml
   format: yaml
   label: Fellow Notes API
   slug: fellow-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-notes-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-notes-api-openapi.yml
 - filename: fellow-recordings-api-openapi.yml
   format: yaml
   label: Fellow Recordings API
   slug: fellow-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-recordings-api-openapi.yml
 - filename: fellow-users-api-openapi.yml
   format: yaml
   label: Fellow Users API
   slug: fellow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-users-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-users-api-openapi.yml
 - filename: fellow-webhooks-api-openapi.yml
   format: yaml
   label: Fellow Webhooks API
   slug: fellow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-webhooks-api-openapi.yml
 authorization_urls:
 - https://fellow.app/mcp/authorize
 description: ''
@@ -93,7 +93,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://fellow.app/.well-known/oauth-authorization-server\ndocs: https://developers.fellow.ai/reference/mcp-server\ncontext: >-\n  Fellow's OAuth scopes apply to the hosted MCP server (https://fellow.app/mcp), not\n  the REST Developer API (which uses X-API-KEY). Scopes are advertised in the RFC\n  8414 OAuth 2.0 Authorization Server Metadata document.\nschemes:\n- name: MCPOAuth\n  source: well-known/fellow-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://fellow.app/mcp/authorize\n    tokenUrl: https://fellow.app/mcp/token\n    pkce: S256\nscopes:\n- scope: read_calendar\n  description: Read the user's calendar events.\n  flows: [authorizationCode]\n- scope: read_meeting_content\n  description: Read meeting content — AI notes, summaries, and transcripts.\n  flows: [authorizationCode]\n- scope: read_action_items\n  description: Read action items the user can access.\n  flows:\
   \ [authorizationCode]\n- scope: read_channels\n  description: Read channels the user belongs to.\n  flows: [authorizationCode]\n- scope: write_meeting_agenda\n  description: Write/update meeting agenda content.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/scopes/fellow-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fellow/scopes/fellow-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Company

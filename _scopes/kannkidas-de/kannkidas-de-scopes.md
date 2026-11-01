@@ -5,31 +5,31 @@ api_specs:
   label: Kann KI das? Sponsoring Agent Agent API
   slug: kannkidas-de-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-agent-api-openapi.yml
+  url: https://artifacts.apis.io/kannkidas-de/openapi/kannkidas-de-agent-api-openapi.yml
 - filename: kannkidas-de-kann-ki-das-api-api-openapi.yml
   format: yaml
   label: Kann KI das? Sponsoring Agent Kann KI Das? API
   slug: kannkidas-de-kann-ki-das-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-kann-ki-das-api-api-openapi.yml
+  url: https://artifacts.apis.io/kannkidas-de/openapi/kannkidas-de-kann-ki-das-api-api-openapi.yml
 - filename: kannkidas-de-oauth-api-openapi.yml
   format: yaml
   label: Kann KI das? Sponsoring Agent OAuth API
   slug: kannkidas-de-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/kannkidas-de/openapi/kannkidas-de-oauth-api-openapi.yml
 - filename: kannkidas-de-search-api-openapi.yml
   format: yaml
   label: Kann KI das? Sponsoring Agent Search API
   slug: kannkidas-de-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-search-api-openapi.yml
+  url: https://artifacts.apis.io/kannkidas-de/openapi/kannkidas-de-search-api-openapi.yml
 - filename: kannkidas-de-slots-api-openapi.yml
   format: yaml
   label: Kann KI das? Sponsoring Agent Slots API
   slug: kannkidas-de-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/openapi/kannkidas-de-slots-api-openapi.yml
+  url: https://artifacts.apis.io/kannkidas-de/openapi/kannkidas-de-slots-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://kannkidas.de/auth.md
@@ -78,7 +78,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/kannkidas-de-openapi.yml\ndocs: https://kannkidas.de/auth.md\ndiscovery:\n  authorization_server_metadata: https://kannkidas.de/.well-known/oauth-authorization-server\n  protected_resource_metadata: https://kannkidas.de/.well-known/oauth-protected-resource\n  scopes_supported: [sponsorship:read, sponsorship:write]\n  note: Both served documents list exactly the two scopes the OpenAPI declares; the derived baseline and the docs agree.\nschemes:\n- name: oauth2\n  source: openapi/kannkidas-de-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://kannkidas.de/api/oauth/token\n    registrationUrl: https://kannkidas.de/api/agent/register\n    token_endpoint_auth_method: client_secret_basic\n    default_scope: sponsorship:read\nscopes:\n- scope: sponsorship:read\n  description: Read own purchase status\n  flows:\n  - clientCredentials\n  granted_by_default: true\n  operations: [getSponsorPurchase]\n  docs_note:\
   \ 'auth.md: registration grants only sponsorship:read by default; a token request without a scope parameter also defaults to read-only.'\n  sources:\n  - openapi/kannkidas-de-openapi.yml\n  - https://kannkidas.de/auth.md\n- scope: sponsorship:write\n  description: Create a confirmed checkout\n  flows:\n  - clientCredentials\n  granted_by_default: false\n  operations: [createSponsorPurchase]\n  docs_note: 'auth.md: request scopes [\"sponsorship:read\",\"sponsorship:write\"] explicitly at registration only when the buyer intends to create a checkout; AGENTS.md: use the smallest required scope.'\n  sources:\n  - openapi/kannkidas-de-openapi.yml\n  - https://kannkidas.de/auth.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kannkidas-de/refs/heads/main/scopes/kannkidas-de-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kannkidas-de/scopes/kannkidas-de-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Company

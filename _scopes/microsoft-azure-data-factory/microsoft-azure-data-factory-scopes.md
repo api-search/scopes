@@ -5,151 +5,151 @@ api_specs:
   label: Azure Data Factory Activityruns API
   slug: microsoft-azure-data-factory-activityruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-activityruns-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-activityruns-api-openapi.yml
 - filename: microsoft-azure-data-factory-credentials-api-openapi.yml
   format: yaml
   label: Azure Data Factory Credentials API
   slug: microsoft-azure-data-factory-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-credentials-api-openapi.yml
 - filename: microsoft-azure-data-factory-datasets-api-openapi.yml
   format: yaml
   label: Azure Data Factory Datasets API
   slug: microsoft-azure-data-factory-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-datasets-api-openapi.yml
 - filename: microsoft-azure-data-factory-factories-api-openapi.yml
   format: yaml
   label: Azure Data Factory Factories API
   slug: microsoft-azure-data-factory-factories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-factories-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-factories-api-openapi.yml
 - filename: microsoft-azure-data-factory-operations-api-openapi.yml
   format: yaml
   label: Azure Data Factory Operations API
   slug: microsoft-azure-data-factory-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-operations-api-openapi.yml
 - filename: microsoft-azure-data-factory-pipelineruns-api-openapi.yml
   format: yaml
   label: Azure Data Factory Pipelineruns API
   slug: microsoft-azure-data-factory-pipelineruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-pipelineruns-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-pipelineruns-api-openapi.yml
 - filename: microsoft-azure-data-factory-pipelines-api-openapi.yml
   format: yaml
   label: Azure Data Factory Pipelines API
   slug: microsoft-azure-data-factory-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-pipelines-api-openapi.yml
 - filename: microsoft-azure-data-factory-trigger-api-openapi.yml
   format: yaml
   label: Azure Data Factory Trigger API
   slug: microsoft-azure-data-factory-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-trigger-api-openapi.yml
 - filename: microsoft-azure-data-factory-triggerruns-api-openapi.yml
   format: yaml
   label: Azure Data Factory Triggerruns API
   slug: microsoft-azure-data-factory-triggerruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-triggerruns-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-triggerruns-api-openapi.yml
 - filename: microsoft-azure-data-factory-triggers-api-openapi.yml
   format: yaml
   label: Azure Data Factory Triggers API
   slug: microsoft-azure-data-factory-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-triggers-api-openapi.yml
 - filename: microsoft-azure-data-factory-changedatacapture-api-openapi.yml
   format: yaml
   label: Azure Data Factory Change Data Capture API
   slug: microsoft-azure-data-factory-changedatacapture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-changedatacapture-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-changedatacapture-api-openapi.yml
 - filename: microsoft-azure-data-factory-dataflowdebugsession-api-openapi.yml
   format: yaml
   label: Azure Data Factory Data Flow Debug Session API
   slug: microsoft-azure-data-factory-dataflowdebugsession-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-dataflowdebugsession-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-dataflowdebugsession-api-openapi.yml
 - filename: microsoft-azure-data-factory-dataflows-api-openapi.yml
   format: yaml
   label: Azure Data Factory Data Flows API
   slug: microsoft-azure-data-factory-dataflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-dataflows-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-dataflows-api-openapi.yml
 - filename: microsoft-azure-data-factory-exposurecontrol-api-openapi.yml
   format: yaml
   label: Azure Data Factory Exposure Control API
   slug: microsoft-azure-data-factory-exposurecontrol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-exposurecontrol-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-exposurecontrol-api-openapi.yml
 - filename: microsoft-azure-data-factory-globalparameters-api-openapi.yml
   format: yaml
   label: Azure Data Factory Global Parameters API
   slug: microsoft-azure-data-factory-globalparameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-globalparameters-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-globalparameters-api-openapi.yml
 - filename: microsoft-azure-data-factory-integrationruntimedisableinteractivequery-api-openapi.yml
   format: yaml
   label: Azure Data Factory Integration Runtime Disable Interactive Query API
   slug: microsoft-azure-data-factory-integrationruntimedisableinteractivequery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-integrationruntimedisableinteractivequery-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-integrationruntimedisableinteractivequery-api-openapi.yml
 - filename: microsoft-azure-data-factory-integrationruntimeenableinteractivequery-api-openapi.yml
   format: yaml
   label: Azure Data Factory Integration Runtime Enable Interactive Query API
   slug: microsoft-azure-data-factory-integrationruntimeenableinteractivequery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-integrationruntimeenableinteractivequery-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-integrationruntimeenableinteractivequery-api-openapi.yml
 - filename: microsoft-azure-data-factory-integrationruntimenodes-api-openapi.yml
   format: yaml
   label: Azure Data Factory Integration Runtime Nodes API
   slug: microsoft-azure-data-factory-integrationruntimenodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-integrationruntimenodes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-integrationruntimenodes-api-openapi.yml
 - filename: microsoft-azure-data-factory-integrationruntimeobjectmetadata-api-openapi.yml
   format: yaml
   label: Azure Data Factory Integration Runtime Object Metadata API
   slug: microsoft-azure-data-factory-integrationruntimeobjectmetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-integrationruntimeobjectmetadata-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-integrationruntimeobjectmetadata-api-openapi.yml
 - filename: microsoft-azure-data-factory-integrationruntimes-api-openapi.yml
   format: yaml
   label: Azure Data Factory Integration Runtimes API
   slug: microsoft-azure-data-factory-integrationruntimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-integrationruntimes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-integrationruntimes-api-openapi.yml
 - filename: microsoft-azure-data-factory-linkedservices-api-openapi.yml
   format: yaml
   label: Azure Data Factory Linked Services API
   slug: microsoft-azure-data-factory-linkedservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-linkedservices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-linkedservices-api-openapi.yml
 - filename: microsoft-azure-data-factory-managedprivateendpoints-api-openapi.yml
   format: yaml
   label: Azure Data Factory Managed Private Endpoints API
   slug: microsoft-azure-data-factory-managedprivateendpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-managedprivateendpoints-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-managedprivateendpoints-api-openapi.yml
 - filename: microsoft-azure-data-factory-managedvirtualnetworks-api-openapi.yml
   format: yaml
   label: Azure Data Factory Managed Virtual Networks API
   slug: microsoft-azure-data-factory-managedvirtualnetworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-managedvirtualnetworks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-managedvirtualnetworks-api-openapi.yml
 - filename: microsoft-azure-data-factory-privateendpointconnections-api-openapi.yml
   format: yaml
   label: Azure Data Factory Private End Point Connections API
   slug: microsoft-azure-data-factory-privateendpointconnections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-privateendpointconnections-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-privateendpointconnections-api-openapi.yml
 - filename: microsoft-azure-data-factory-privatelinkresources-api-openapi.yml
   format: yaml
   label: Azure Data Factory Private Link Resources API
   slug: microsoft-azure-data-factory-privatelinkresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/openapi/microsoft-azure-data-factory-privatelinkresources-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-data-factory/openapi/microsoft-azure-data-factory-privatelinkresources-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -192,7 +192,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: openapi/microso
   \ openapi/microsoft-azure-data-factory-integration-runtimes-api-openapi.yml,\n  openapi/microsoft-azure-data-factory-linked-services-api-openapi.yml, openapi/microsoft-azure-data-factory-managed-private-endpoints-api-openapi.yml,\n  openapi/microsoft-azure-data-factory-managed-virtual-networks-api-openapi.yml, openapi/microsoft-azure-data-factory-operations-api-openapi.yml,\n  openapi/microsoft-azure-data-factory-pipelineruns-api-openapi.yml, openapi/microsoft-azure-data-factory-pipelines-api-openapi.yml,\n  openapi/microsoft-azure-data-factory-private-endpoint-connections-api-openapi.yml, openapi/microsoft-azure-data-factory-private-link-resources-api-openapi.yml,\n  openapi/microsoft-azure-data-factory-trigger-api-openapi.yml, openapi/microsoft-azure-data-factory-triggerruns-api-openapi.yml,\n  openapi/microsoft-azure-data-factory-triggers-api-openapi.yml\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
   \  description: Azure Active Directory OAuth2 Flow.\n  declared_in: all 25 per-tag OpenAPI documents in openapi/ (identical definition in each)\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account against the Azure Service Management API.\n  flows:\n  - implicit\n  sources:\n  - openapi/_original/microsoft-azure-data-factory-datafactory-2018-06-01-swagger.json\ndocs: https://learn.microsoft.com/en-us/azure/data-factory/concepts-roles-permissions\nsearched_on: '2026-09-17'\nnote: Azure Data Factory has effectively ONE OAuth scope and it is not where the authorization decision is made.\n  user_impersonation is the single delegated permission on the Azure Service Management API; the real permission\n  model is Azure RBAC role assignment plus the Microsoft.DataFactory/* resource-provider actions those roles carry.\n  Searching Microsoft documentation for a Data Factory scope reference page confirms none exists, because there\n  is no scope catalogue to publish.\
   \ The rows below record that honestly rather than padding the artifact with invented\n  scopes.\nclient_credentials_scope:\n  value: https://management.azure.com/.default\n  note: The .default scope a service principal or managed identity requests for this audience.\nrbac_actions:\n  namespace: Microsoft.DataFactory/*\n  discovery_operation: Operations_List\n  note: The authoritative permission list is the resource-provider action list returned by GET /providers/Microsoft.DataFactory/operations?api-version=2018-06-01\n    (Operations_List), which enumerates every Microsoft.DataFactory/... action a role can grant. That endpoint,\n    not an OAuth scope table, is what an agent should read to reason about permissions here.\n  docs: https://learn.microsoft.com/en-us/azure/role-based-access-control/resource-provider-operations\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-data-factory/refs/heads/main/scopes/microsoft-azure-data-factory-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-data-factory/scopes/microsoft-azure-data-factory-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Data Integration

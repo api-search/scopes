@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://sourcebeauty.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nschemes:\n- name: ShopifyCustomerAccount\n  source: https://sourcebeauty.com/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/68449239327/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/68449239327/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the authenticated customer's email address.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the customer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API for\
   \ agent-driven customer-account operations.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/source-beauty/refs/heads/main/scopes/source-beauty-scopes.yml
+source_yaml_url: https://artifacts.apis.io/source-beauty/scopes/source-beauty-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

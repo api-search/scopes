@@ -5,55 +5,55 @@ api_specs:
   label: Temple Health Allergy Intolerance API
   slug: temple-health-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-allergy-intolerance-api-openapi.yml
 - filename: temple-health-bulk-data-api-openapi.yml
   format: yaml
   label: Temple Health Bulk Data API
   slug: temple-health-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-bulk-data-api-openapi.yml
 - filename: temple-health-condition-api-openapi.yml
   format: yaml
   label: Temple Health Condition API
   slug: temple-health-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-condition-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-condition-api-openapi.yml
 - filename: temple-health-document-reference-api-openapi.yml
   format: yaml
   label: Temple Health Document Reference API
   slug: temple-health-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-document-reference-api-openapi.yml
 - filename: temple-health-encounter-api-openapi.yml
   format: yaml
   label: Temple Health Encounter API
   slug: temple-health-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-encounter-api-openapi.yml
 - filename: temple-health-medication-request-api-openapi.yml
   format: yaml
   label: Temple Health Medication Request API
   slug: temple-health-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-medication-request-api-openapi.yml
 - filename: temple-health-metadata-api-openapi.yml
   format: yaml
   label: Temple Health Metadata API
   slug: temple-health-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-metadata-api-openapi.yml
 - filename: temple-health-observation-api-openapi.yml
   format: yaml
   label: Temple Health Observation API
   slug: temple-health-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-observation-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-observation-api-openapi.yml
 - filename: temple-health-patient-api-openapi.yml
   format: yaml
   label: Temple Health Patient API
   slug: temple-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/openapi/temple-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/temple-health/openapi/temple-health-patient-api-openapi.yml
 authorization_urls:
 - https://epicaccess.templehealth.org/FhirProxyPrd/oauth2/authorize
 description: ''
@@ -237,7 +237,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: Live GET https://
   \  - openapi/temple-health-medication-request-api-openapi.yml\n  - openapi/temple-health-metadata-api-openapi.yml\n  - openapi/temple-health-observation-api-openapi.yml\n  - openapi/temple-health-patient-api-openapi.yml\n  method: derived\n- scope: profile\n  description: OpenID Connect profile claim for the launching user\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/temple-health-smart-configuration.json\n  method: probed\n- scope: system/Patient.read\n  description: System-level Patient read (Bulk Data)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/temple-health-allergy-intolerance-api-openapi.yml\n  - openapi/temple-health-bulk-data-api-openapi.yml\n  - openapi/temple-health-condition-api-openapi.yml\n  - openapi/temple-health-document-reference-api-openapi.yml\n  - openapi/temple-health-encounter-api-openapi.yml\n  - openapi/temple-health-medication-request-api-openapi.yml\n  - openapi/temple-health-metadata-api-openapi.yml\n  - openapi/temple-health-observation-api-openapi.yml\n\
   \  - openapi/temple-health-patient-api-openapi.yml\n  method: derived\n- scope: user/Patient.read\n  description: Read Patient as the launching user\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/temple-health-allergy-intolerance-api-openapi.yml\n  - openapi/temple-health-bulk-data-api-openapi.yml\n  - openapi/temple-health-condition-api-openapi.yml\n  - openapi/temple-health-document-reference-api-openapi.yml\n  - openapi/temple-health-encounter-api-openapi.yml\n  - openapi/temple-health-medication-request-api-openapi.yml\n  - openapi/temple-health-metadata-api-openapi.yml\n  - openapi/temple-health-observation-api-openapi.yml\n  - openapi/temple-health-patient-api-openapi.yml\n  method: derived\nnotes:\n- 'Scope syntax is SMART App Launch: <context>/<Resource>.<permission>. permission-v1 (.read/.write) and\n  permission-v2 (.rs/.cruds) are BOTH declared, so either syntax is accepted.'\n- offline_access is declared via the permission-offline capability and is required for refresh\
   \ tokens.\n- system/* scopes apply only to the SMART Backend Services path (client_credentials + private_key_jwt)\n  used for Bulk Data, not to patient-facing apps.\n- No published scope reference page exists. Temple Health documents no scopes; Epic documents the scope\n  model generally at https://fhir.epic.com/Documentation. The endpoint itself is the only Temple-specific\n  source.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/scopes/temple-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/temple-health/scopes/temple-health-scopes.yml
 summary_line: 15 scopes · authorizationCode
 tags:
 - Academic Medical Center

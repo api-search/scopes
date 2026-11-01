@@ -11,19 +11,19 @@ api_specs:
   label: FreeAgent Contacts API
   slug: freeagent-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/freeagent/openapi/freeagent-contacts-api-openapi.yml
 - filename: freeagent-invoices-api-openapi.yml
   format: yaml
   label: FreeAgent Invoices API
   slug: freeagent-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/freeagent/openapi/freeagent-invoices-api-openapi.yml
 - filename: freeagent-bank-accounts-api-openapi.yml
   format: yaml
   label: FreeAgent Bank Accounts API
   slug: freeagent-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/freeagent/openapi/freeagent-bank-accounts-api-openapi.yml
 authorization_urls:
 - https://api.freeagent.com/v2/approve_app
 description: ''
@@ -82,7 +82,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/freeagent-bank-accounts-api-openapi.yml, openapi/freeagent-contacts-api-openapi.yml,\n  openapi/freeagent-invoices-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/freeagent-bank-accounts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.freeagent.com/v2/approve_app\n    tokenUrl: https://api.freeagent.com/v2/token_endpoint\n  description: |-\n    OAuth 2.0 authorization code flow. Access tokens valid for ~1 hour;\n    refresh tokens used to obtain new access tokens.\n- name: oauth2\n  source: openapi/freeagent-contacts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.freeagent.com/v2/approve_app\n    tokenUrl: https://api.freeagent.com/v2/token_endpoint\n  description: |-\n    OAuth 2.0 authorization code flow. Access tokens valid for ~1 hour;\n    refresh tokens used to obtain new access tokens.\n- name: oauth2\n  source: openapi/freeagent-invoices-api-openapi.yml\n\
   \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.freeagent.com/v2/approve_app\n    tokenUrl: https://api.freeagent.com/v2/token_endpoint\n  description: |-\n    OAuth 2.0 authorization code flow. Access tokens valid for ~1 hour;\n    refresh tokens used to obtain new access tokens.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/scopes/freeagent-scopes.yml
+source_yaml_url: https://artifacts.apis.io/freeagent/scopes/freeagent-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Accounting

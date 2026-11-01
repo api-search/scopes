@@ -41,7 +41,7 @@ source_filename: definite-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://api.definite.app/.well-known/oauth-authorization-server\ndocs: https://www.definite.app/docs/mcp/mcp\nschemes:\n- name: oauth2Mcp\n  source: /.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.definite.app/oauth/authorize\n    tokenUrl: https://api.definite.app/oauth/token\n    pkce: S256\nscopes:\n- scope: mcp\n  description: >-\n    Grants an OAuth-authorized MCP client access to the Definite Model Context\n    Protocol server tools (query, semantic layer, integrations, syncs, docs,\n    drive). The only scope advertised in the authorization-server metadata.\n  flows: [authorizationCode]\n  sources: [/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/definite/refs/heads/main/scopes/definite-scopes.yml
+source_yaml_url: https://artifacts.apis.io/definite/scopes/definite-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

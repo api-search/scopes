@@ -5,43 +5,43 @@ api_specs:
   label: Zoho People Attendance API
   slug: zoho-people-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-attendance-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-attendance-api-openapi.yml
 - filename: zoho-people-automation-api-openapi.yml
   format: yaml
   label: Zoho People Automation API
   slug: zoho-people-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-automation-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-automation-api-openapi.yml
 - filename: zoho-people-dashboard-api-openapi.yml
   format: yaml
   label: Zoho People Dashboard API
   slug: zoho-people-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-dashboard-api-openapi.yml
 - filename: zoho-people-employee-api-openapi.yml
   format: yaml
   label: Zoho People Employee API
   slug: zoho-people-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-employee-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-employee-api-openapi.yml
 - filename: zoho-people-forms-api-openapi.yml
   format: yaml
   label: Zoho People Forms API
   slug: zoho-people-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-forms-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-forms-api-openapi.yml
 - filename: zoho-people-leave-api-openapi.yml
   format: yaml
   label: Zoho People Leave API
   slug: zoho-people-leave-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-leave-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-leave-api-openapi.yml
 - filename: zoho-people-time-tracker-api-openapi.yml
   format: yaml
   label: Zoho People Time Tracker API
   slug: zoho-people-time-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/openapi/zoho-people-time-tracker-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-people/openapi/zoho-people-time-tracker-api-openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''
@@ -156,7 +156,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zoho-people-openapi.yml\nschemes:\n- name: ZohoOAuth2\n  source: openapi/zoho-people-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\n  description: |-\n    Zoho Accounts OAuth 2.0 — Authorization Code grant. Access tokens\n    live for 1 hour; refresh tokens are long-lived until revoked.\n    Scope syntax is `ZOHOPEOPLE.<scope>.<operation>` where scope is\n    one of employee, forms, dashboard, automation, timetracker,\n    attendance, leave; operation is ALL, READ, CREATE, UPDATE, or\n    DELETE.\nscopes:\n- scope: ZohoPeople.attendance.ALL\n  description: Full access to attendance operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.automation.ALL\n  description: Full access to automation / workflows\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.dashboard.ALL\n  description: Full access to dashboard reads\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.employee.ALL\n  description: Full access to employee records\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.forms.ALL\n  description: Full access to form records\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.forms.CREATE\n  description: Create form records\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.forms.READ\n  description: Read form records\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.forms.UPDATE\n  description: Update form records\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.leave.ALL\n\
   \  description: Full access to leave operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.leave.CREATE\n  description: Submit leave requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.leave.READ\n  description: Read leave records\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.leave.UPDATE\n  description: Update leave requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n- scope: ZohoPeople.timetracker.ALL\n  description: Full access to time-tracker operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/zoho-people-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/scopes/zoho-people-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zoho-people/scopes/zoho-people-scopes.yml
 summary_line: 13 scopes · authorizationCode
 tags:
 - Human Resources

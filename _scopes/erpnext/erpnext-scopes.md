@@ -5,19 +5,19 @@ api_specs:
   label: ERPNext Method API
   slug: erpnext-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/openapi/erpnext-method-api-openapi.yml
+  url: https://artifacts.apis.io/erpnext/openapi/erpnext-method-api-openapi.yml
 - filename: erpnext-naive-authentication-api-openapi.yml
   format: yaml
   label: ERPNext Naive Authentication API
   slug: erpnext-naive-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/openapi/erpnext-naive-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/erpnext/openapi/erpnext-naive-authentication-api-openapi.yml
 - filename: erpnext-resource-api-openapi.yml
   format: yaml
   label: ERPNext Resource API
   slug: erpnext-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/openapi/erpnext-resource-api-openapi.yml
+  url: https://artifacts.apis.io/erpnext/openapi/erpnext-resource-api-openapi.yml
 authorization_urls:
 - /method/frappe.integrations.oauth2.authorize
 description: ''
@@ -60,7 +60,7 @@ source_filename: erpnext-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yaml\nschemes:\n- name: oAuth2\n  source: openapi/openapi.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /method/frappe.integrations.oauth2.authorize\n    tokenUrl: /method/frappe.integrations.oauth2.get_token\n  description: \"This API uses OAuth 2 with the authorization code flow. \\n[More info]https://frappe.io/docs/user/en/guides/integration/using_oauth)\"\nscopes:\n- scope: all\n  description: Same permissions as the user who created the oAuth client\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/scopes/erpnext-scopes.yml
+source_yaml_url: https://artifacts.apis.io/erpnext/scopes/erpnext-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - ERP

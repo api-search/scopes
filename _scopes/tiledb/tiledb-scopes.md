@@ -5,115 +5,115 @@ api_specs:
   label: TileDB Array API
   slug: tiledb-array-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-array-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-array-api-openapi.yml
 - filename: tiledb-array-tasks-api-openapi.yml
   format: yaml
   label: TileDB Array Tasks API
   slug: tiledb-array-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-array-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-array-tasks-api-openapi.yml
 - filename: tiledb-assets-api-openapi.yml
   format: yaml
   label: TileDB Assets API
   slug: tiledb-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-assets-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-assets-api-openapi.yml
 - filename: tiledb-favorites-api-openapi.yml
   format: yaml
   label: TileDB Favorites API
   slug: tiledb-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-favorites-api-openapi.yml
 - filename: tiledb-files-api-openapi.yml
   format: yaml
   label: TileDB Files API
   slug: tiledb-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-files-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-files-api-openapi.yml
 - filename: tiledb-groups-api-openapi.yml
   format: yaml
   label: TileDB Groups API
   slug: tiledb-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-groups-api-openapi.yml
 - filename: tiledb-invitation-api-openapi.yml
   format: yaml
   label: TileDB Invitation API
   slug: tiledb-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-invitation-api-openapi.yml
 - filename: tiledb-notebook-api-openapi.yml
   format: yaml
   label: TileDB Notebook API
   slug: tiledb-notebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-notebook-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-notebook-api-openapi.yml
 - filename: tiledb-notebooks-api-openapi.yml
   format: yaml
   label: TileDB Notebooks API
   slug: tiledb-notebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-notebooks-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-notebooks-api-openapi.yml
 - filename: tiledb-organization-api-openapi.yml
   format: yaml
   label: TileDB Organization API
   slug: tiledb-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-organization-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-organization-api-openapi.yml
 - filename: tiledb-query-api-openapi.yml
   format: yaml
   label: TileDB Query API
   slug: tiledb-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-query-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-query-api-openapi.yml
 - filename: tiledb-registered-task-graphs-api-openapi.yml
   format: yaml
   label: TileDB Registered Task Graphs API
   slug: tiledb-registered-task-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-registered-task-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-registered-task-graphs-api-openapi.yml
 - filename: tiledb-sql-api-openapi.yml
   format: yaml
   label: TileDB Sql API
   slug: tiledb-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-sql-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-sql-api-openapi.yml
 - filename: tiledb-stats-api-openapi.yml
   format: yaml
   label: TileDB Stats API
   slug: tiledb-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-stats-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-stats-api-openapi.yml
 - filename: tiledb-task-graph-logs-api-openapi.yml
   format: yaml
   label: TileDB Task Graph Logs API
   slug: tiledb-task-graph-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-task-graph-logs-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-task-graph-logs-api-openapi.yml
 - filename: tiledb-task-graphs-api-openapi.yml
   format: yaml
   label: TileDB Task Graphs API
   slug: tiledb-task-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-task-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-task-graphs-api-openapi.yml
 - filename: tiledb-tasks-api-openapi.yml
   format: yaml
   label: TileDB Tasks API
   slug: tiledb-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-tasks-api-openapi.yml
 - filename: tiledb-udf-api-openapi.yml
   format: yaml
   label: TileDB Udf API
   slug: tiledb-udf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-udf-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-udf-api-openapi.yml
 - filename: tiledb-user-api-openapi.yml
   format: yaml
   label: TileDB User API
   slug: tiledb-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/openapi/tiledb-user-api-openapi.yml
+  url: https://artifacts.apis.io/tiledb/openapi/tiledb-user-api-openapi.yml
 authorization_urls:
 - https://oauth2.tiledb.com/oauth2/authorize
 description: ''
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: https://documen
   \ (POST /v1/token)\n  list_operation: getTokenScopes (GET /v1/tokens/scopes)\n  revoke_operation: revokeToken (DELETE /v1/tokens/{token})\n  default: '*'\n  default_expiry: 30 minutes when no expires value is supplied\n  source: openapi/tiledb-cloud-v1-openapi.yaml definitions.TokenScope\n  scopes:\n  - scope: '*'\n    description: All permissions. The default when no scope is supplied on a token request.\n  - scope: password_reset\n    description: Limited to the password-reset flow (POST /v1/user/password_reset).\n  - scope: confirm_email\n    description: Limited to the email-confirmation flow (POST /v1/user/confirm_email).\n  - scope: user:read\n    description: Read the authenticated user profile and user-scoped listings.\n  - scope: user:read-write\n    description: Read and modify the authenticated user profile.\n  - scope: user:admin\n    description: Administrative access to user records.\n  - scope: array:read\n    description: Read arrays, array schemas, metadata and array activity.\n\
   \  - scope: array:read-write\n    description: Read and write arrays, including register/deregister and metadata writes.\n  - scope: array:admin\n    description: Administrative access to arrays, including delete and sharing.\n  - scope: organization:read\n    description: Read organization profile and membership.\n  - scope: organization:read-write\n    description: Read and modify organization profile and membership.\n  - scope: organization:admin\n    description: Administrative access to an organization, including billing and deletion.\n  - scope: group:read\n    description: Read groups and group contents.\n  - scope: group:read-write\n    description: Read and modify groups and group contents.\n  - scope: group:admin\n    description: Administrative access to groups, including delete and sharing.\nrelated_permission_enums:\n  note: Not token scopes — the per-asset action enums the sharing/permission endpoints accept.\n  ArrayActions:\n  - read\n  - write\n  - edit\n  - read_array_logs\n\
   \  - read_array_info\n  - read_array_schema\n  GroupActions:\n  - read\n  - write\n  - edit\n  UDFActions:\n  - fetch_udf\n  - share_udf\n  TaskGraphActions:\n  - fetch_task_graph\n  - share_task_graph\n  NamespaceActions:\n  - read\n  - write\n  - create\n  - delete\n  - edit\n  - read_array_logs\n  - read_job_logs\n  - read_object_logs\n  - run_job\n  - delete_organization\n  - edit_organization\n  - edit_billing\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/scopes/tiledb-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tiledb/scopes/tiledb-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

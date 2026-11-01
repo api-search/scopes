@@ -5,115 +5,115 @@ api_specs:
   label: Webflow API and Documentation Asset Folders API
   slug: webflow-api-and-documentation-webflow-asset-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-asset-folders-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-asset-folders-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-assets-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Assets API
   slug: webflow-api-and-documentation-webflow-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-assets-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-assets-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-collections-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Collections API
   slug: webflow-api-and-documentation-webflow-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-collections-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-collections-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-comments-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Comments API
   slug: webflow-api-and-documentation-webflow-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-comments-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-comments-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-components-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Components API
   slug: webflow-api-and-documentation-webflow-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-components-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-components-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-custom-code-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Custom Code API
   slug: webflow-api-and-documentation-webflow-custom-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-custom-code-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-custom-code-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-forms-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Forms API
   slug: webflow-api-and-documentation-webflow-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-forms-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-forms-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-inventory-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Inventory API
   slug: webflow-api-and-documentation-webflow-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-inventory-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-items-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Items API
   slug: webflow-api-and-documentation-webflow-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-items-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-items-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-meta-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Meta API
   slug: webflow-api-and-documentation-webflow-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-meta-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-meta-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-orders-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Orders API
   slug: webflow-api-and-documentation-webflow-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-orders-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-orders-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-pages-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Pages API
   slug: webflow-api-and-documentation-webflow-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-pages-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-pages-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-products-skus-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Products & SKUs API
   slug: webflow-api-and-documentation-webflow-products-skus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-products-skus-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-products-skus-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-settings-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Settings API
   slug: webflow-api-and-documentation-webflow-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-settings-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-settings-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-site-activity-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Site Activity API
   slug: webflow-api-and-documentation-webflow-site-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-site-activity-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-site-activity-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-site-administration-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Site Administration API
   slug: webflow-api-and-documentation-webflow-site-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-site-administration-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-site-administration-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-sites-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Sites API
   slug: webflow-api-and-documentation-webflow-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-sites-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-sites-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-webhooks-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Webhooks API
   slug: webflow-api-and-documentation-webflow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-webhooks-api-openapi.yml
 - filename: webflow-api-and-documentation-webflow-workspce-audit-logs-api-openapi.yml
   format: yaml
   label: Webflow API and Documentation Workspce Audit Logs API
   slug: webflow-api-and-documentation-webflow-workspce-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/openapi/webflow-api-and-documentation-webflow-workspce-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/openapi/webflow-api-and-documentation-webflow-workspce-audit-logs-api-openapi.yml
 authorization_urls:
 - https://webflow.com/oauth/authorize
 description: ''
@@ -325,7 +325,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/webflow-
   \  - openapi/webflow-data-api-openapi.yml\n  - openapi/webflow-items-openapi.yml\n  - openapi/webflow-sites-openapi.yml\n  - openapi/webflow-webhooks-openapi.yml\n- scope: site_config:read\n  description: read site configuration data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/webflow-collections-openapi.yml\n  - openapi/webflow-data-api-openapi.yml\n  - openapi/webflow-items-openapi.yml\n  - openapi/webflow-sites-openapi.yml\n  - openapi/webflow-webhooks-openapi.yml\n- scope: site_config:write\n  description: write site configuration data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/webflow-collections-openapi.yml\n  - openapi/webflow-data-api-openapi.yml\n  - openapi/webflow-items-openapi.yml\n  - openapi/webflow-sites-openapi.yml\n  - openapi/webflow-webhooks-openapi.yml\n- scope: sites:read\n  description: read sites on the site\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/webflow-collections-openapi.yml\n  - openapi/webflow-data-api-openapi.yml\n\
   \  - openapi/webflow-items-openapi.yml\n  - openapi/webflow-sites-openapi.yml\n  - openapi/webflow-webhooks-openapi.yml\n- scope: sites:write\n  description: modify pages on the site\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/webflow-collections-openapi.yml\n  - openapi/webflow-data-api-openapi.yml\n  - openapi/webflow-items-openapi.yml\n  - openapi/webflow-sites-openapi.yml\n  - openapi/webflow-webhooks-openapi.yml\n- scope: users:read\n  description: read users on the site\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/webflow-collections-openapi.yml\n  - openapi/webflow-data-api-openapi.yml\n  - openapi/webflow-items-openapi.yml\n  - openapi/webflow-sites-openapi.yml\n  - openapi/webflow-webhooks-openapi.yml\n- scope: users:write\n  description: modify users on the site\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/webflow-collections-openapi.yml\n  - openapi/webflow-data-api-openapi.yml\n  - openapi/webflow-items-openapi.yml\n  - openapi/webflow-sites-openapi.yml\n\
   \  - openapi/webflow-webhooks-openapi.yml\n- scope: workspace:read\n  description: read workspace resource data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/webflow-collections-openapi.yml\n  - openapi/webflow-data-api-openapi.yml\n  - openapi/webflow-items-openapi.yml\n  - openapi/webflow-sites-openapi.yml\n  - openapi/webflow-webhooks-openapi.yml\n- scope: workspace:write\n  description: write workspace resource data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/webflow-collections-openapi.yml\n  - openapi/webflow-data-api-openapi.yml\n  - openapi/webflow-items-openapi.yml\n  - openapi/webflow-sites-openapi.yml\n  - openapi/webflow-webhooks-openapi.yml\n- scope: workspace_activity:read\n  sources:\n  - openapi/webflow-data-api-openapi.yml\n  - openapi/webflow-sites-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/scopes/webflow-api-and-documentation-webflow-scopes.yml
+source_yaml_url: https://artifacts.apis.io/webflow-api-and-documentation-webflow/scopes/webflow-api-and-documentation-webflow-scopes.yml
 summary_line: 29 scopes · authorizationCode
 tags:
 - CMS

@@ -59,7 +59,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://flaviar.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nnotes: >-\n  Scopes are advertised by Shopify's Customer Account authorization server\n  (issuer https://shopify.com/authentication/80863265050) for the Flaviar\n  storefront. This is a Shopify-managed OIDC authorization server, not a\n  Flaviar-owned scope registry.\nschemes:\n  - name: ShopifyCustomerAccount\n    type: oauth2\n    source: https://flaviar.com/.well-known/openid-configuration\n    issuer: https://shopify.com/authentication/80863265050\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://shopify.com/authentication/80863265050/oauth/authorize\n        tokenUrl: https://shopify.com/authentication/80863265050/oauth/token\n        pkce: S256\nscopes:\n  - scope: openid\n    description: OIDC authentication; issue an ID token for the customer.\n    flows: [authorizationCode]\n  - scope: email\n\
   \    description: Access the customer's email address claim.\n    flows: [authorizationCode]\n  - scope: customer-account-api:full\n    description: Full access to the Shopify Customer Account GraphQL API on behalf of the signed-in customer.\n    flows: [authorizationCode]\n  - scope: customer-account-mcp-api:full\n    description: Full access to the Shopify Customer Account MCP API on behalf of the signed-in customer.\n    flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flaviar/refs/heads/main/scopes/flaviar-scopes.yml
+source_yaml_url: https://artifacts.apis.io/flaviar/scopes/flaviar-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

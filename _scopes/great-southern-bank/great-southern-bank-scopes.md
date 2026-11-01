@@ -5,43 +5,43 @@ api_specs:
   label: Great Southern Bank Banking Account Balances API
   slug: great-southern-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-balances-api-openapi.yml
 - filename: great-southern-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Account Direct Debits API
   slug: great-southern-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-direct-debits-api-openapi.yml
 - filename: great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Account Scheduled Payments API
   slug: great-southern-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: great-southern-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Account Transactions API
   slug: great-southern-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-account-transactions-api-openapi.yml
 - filename: great-southern-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Accounts API
   slug: great-southern-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-accounts-api-openapi.yml
 - filename: great-southern-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Payees API
   slug: great-southern-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-payees-api-openapi.yml
 - filename: great-southern-bank-banking-products-api-openapi.yml
   format: yaml
   label: Great Southern Bank Banking Products API
   slug: great-southern-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/openapi/great-southern-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/great-southern-bank/openapi/great-southern-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://secure.
   \  description: Read detailed account information including account numbers and features.\n  flows: [authorizationCode]\n  sources: [openapi/great-southern-bank-cds-banking-products-openapi.yml]\n- scope: bank:transactions:read\n  description: Read account transaction history.\n  flows: [authorizationCode]\n  sources: [openapi/great-southern-bank-cds-banking-products-openapi.yml]\n- scope: bank:payees:read\n  description: Read saved payees.\n  flows: [authorizationCode]\n  sources: [openapi/great-southern-bank-cds-banking-products-openapi.yml]\n- scope: bank:regular_payments:read\n  description: Read direct debits and scheduled/regular payments.\n  flows: [authorizationCode]\n  sources: [openapi/great-southern-bank-cds-banking-products-openapi.yml]\n- scope: common:customer.basic:read\n  description: Read basic customer information (name, occupation / organisation basics).\n  flows: [authorizationCode]\n  sources: [well-known/great-southern-bank-openid-configuration.json]\n- scope: common:customer.detail:read\n\
   \  description: Read detailed customer information including contact details and addresses.\n  flows: [authorizationCode]\n  sources: [well-known/great-southern-bank-openid-configuration.json]\n- scope: cdr:registration\n  description: CDR dynamic client registration scope for accredited data recipient software products.\n  flows: [client_credentials]\n  sources: [well-known/great-southern-bank-openid-configuration.json]\n- scope: admin:metrics.basic:read\n  description: CDR admin scope for the DSB Get Metrics reporting endpoint (register/admin use).\n  flows: [client_credentials]\n  sources: [well-known/great-southern-bank-openid-configuration.json]\n- scope: admin:metadata:update\n  description: CDR admin scope for the Metadata Update endpoint (register/admin use).\n  flows: [client_credentials]\n  sources: [well-known/great-southern-bank-openid-configuration.json]\n- scope: openid\n  description: OpenID Connect base scope.\n  flows: [authorizationCode]\n  sources: [well-known/great-southern-bank-openid-configuration.json]\n\
   - scope: profile\n  description: OpenID Connect profile claims.\n  flows: [authorizationCode]\n  sources: [well-known/great-southern-bank-openid-configuration.json]\n- scope: offline_access\n  description: Request a refresh token for ongoing consented data sharing.\n  flows: [authorizationCode]\n  sources: [well-known/great-southern-bank-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/great-southern-bank/refs/heads/main/scopes/great-southern-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/great-southern-bank/scopes/great-southern-bank-scopes.yml
 summary_line: 13 scopes · authorizationCode
 tags:
 - Finance

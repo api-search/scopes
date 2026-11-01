@@ -5,31 +5,31 @@ api_specs:
   label: Google Kubernetes Engine Clusters API
   slug: google-kubernetes-engine-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-clusters-api-openapi.yml
 - filename: google-kubernetes-engine-google-kubernetes-engine-api-api-openapi.yml
   format: yaml
   label: Google Kubernetes Engine Google Kubernetes Engine API
   slug: google-kubernetes-engine-google-kubernetes-engine-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-google-kubernetes-engine-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-google-kubernetes-engine-api-api-openapi.yml
 - filename: google-kubernetes-engine-operations-api-openapi.yml
   format: yaml
   label: Google Kubernetes Engine Operations API
   slug: google-kubernetes-engine-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-operations-api-openapi.yml
 - filename: google-kubernetes-engine-serverconfig-api-openapi.yml
   format: yaml
   label: Google Kubernetes Engine ServerConfig API
   slug: google-kubernetes-engine-serverconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-serverconfig-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-serverconfig-api-openapi.yml
 - filename: google-kubernetes-engine-node-pools-api-openapi.yml
   format: yaml
   label: Google Kubernetes Engine Node Pools API
   slug: google-kubernetes-engine-node-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-node-pools-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-node-pools-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -71,7 +71,7 @@ source_filename: google-kubernetes-engine-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-kubernetes-engine-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-kubernetes-engine-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: View and manage Google Cloud data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-kubernetes-engine-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/scopes/google-kubernetes-engine-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-kubernetes-engine/scopes/google-kubernetes-engine-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Cloud-Native

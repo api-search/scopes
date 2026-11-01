@@ -5,43 +5,43 @@ api_specs:
   label: MOVE Bank Banking Account Balances API
   slug: move-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/move-bank/openapi/move-bank-banking-account-balances-api-openapi.yml
 - filename: move-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: MOVE Bank Banking Account Direct Debits API
   slug: move-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/move-bank/openapi/move-bank-banking-account-direct-debits-api-openapi.yml
 - filename: move-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: MOVE Bank Banking Account Scheduled Payments API
   slug: move-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/move-bank/openapi/move-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: move-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: MOVE Bank Banking Account Transactions API
   slug: move-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/move-bank/openapi/move-bank-banking-account-transactions-api-openapi.yml
 - filename: move-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: MOVE Bank Banking Accounts API
   slug: move-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/move-bank/openapi/move-bank-banking-accounts-api-openapi.yml
 - filename: move-bank-banking-payees-api-openapi.yml
   format: yaml
   label: MOVE Bank Banking Payees API
   slug: move-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/move-bank/openapi/move-bank-banking-payees-api-openapi.yml
 - filename: move-bank-banking-products-api-openapi.yml
   format: yaml
   label: MOVE Bank Banking Products API
   slug: move-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/openapi/move-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/move-bank/openapi/move-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\ndocs: https://consumerd
   \ Data operations (listBankingProducts, getBankingProductDetail)\n  require NO scope and NO token.\nscopes:\n- scope: openid\n  cluster: identity\n  description: OpenID Connect authentication; required to establish the CDR authorisation.\n  operations: []\n- scope: profile\n  cluster: identity\n  description: Standard OIDC profile claims within the CDR identity assertion.\n  operations: []\n- scope: bank:accounts.basic:read\n  cluster: Account balance and details (basic)\n  description: >\n    Read account name, type, and balance. Grants the bulk/specific balance\n    operations and the account list without full account numbers.\n  operations: [listBankingAccounts, listBankingBalancesBulk, listBankingBalancesSpecificAccounts, getBankingBalance]\n- scope: bank:accounts.detail:read\n  cluster: Account balance and details\n  description: >\n    Read full account detail including account/BSB numbers and product features.\n  operations: [getBankingAccountDetail]\n- scope: bank:transactions:read\n\
   \  cluster: Transaction details\n  description: Read transaction history and individual transaction detail for consented accounts.\n  operations: [listBankingTransactions, getBankingTransactionDetail]\n- scope: bank:payees:read\n  cluster: Saved payees\n  description: Read the consumer's saved payees and payee detail.\n  operations: [listBankingPayees, getBankingPayeeDetail]\n- scope: bank:regular_payments:read\n  cluster: Direct debits and scheduled payments\n  description: >\n    Read direct debit authorisations and scheduled/recurring payment arrangements.\n  operations: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts]\n- scope: common:customer.basic:read\n  cluster: Name and occupation\n  description: Read the consumer's basic customer profile (name, occupation).\n  operations: []\n- scope: common:customer.detail:read\n  cluster: Contact details\n  description: Read the\
   \ consumer's detailed contact information (address, phone, email).\n  operations: []\nnotes: >\n  Product Reference Data (PRD) is public and scope-free. All scoped operations\n  require ACCC accreditation as a Data Recipient plus explicit consumer consent\n  under the CDR consent model; scope grants are bounded by the consent duration\n  and the data clusters the consumer selected. Instalment-plan operations\n  (listInstalmentPlans*) sit within the accounts data clusters. See\n  authentication/move-bank-authentication.yml for the transport/token profile.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/scopes/move-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/move-bank/scopes/move-bank-scopes.yml
 summary_line: 9 scopes
 tags:
 - Finance

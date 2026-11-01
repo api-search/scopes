@@ -5,49 +5,49 @@ api_specs:
   label: SAP SuccessFactors EmpEmployment API
   slug: sap-successfactors-empemployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-empemployment-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-empemployment-api-openapi.yml
 - filename: sap-successfactors-empjob-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors EmpJob API
   slug: sap-successfactors-empjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-empjob-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-empjob-api-openapi.yml
 - filename: sap-successfactors-focompany-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors FOCompany API
   slug: sap-successfactors-focompany-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-focompany-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-focompany-api-openapi.yml
 - filename: sap-successfactors-perperson-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors PerPerson API
   slug: sap-successfactors-perperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-perperson-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-perperson-api-openapi.yml
 - filename: sap-successfactors-upsert-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors Upsert API
   slug: sap-successfactors-upsert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-upsert-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-upsert-api-openapi.yml
 - filename: sap-successfactors-user-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors User API
   slug: sap-successfactors-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-user-api-openapi.yml
 - filename: sap-successfactors-user-userid-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors User('{userId}') API
   slug: sap-successfactors-user-userid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-userid-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-user-userid-api-openapi.yml
 - filename: sap-successfactors-oauth-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors OAUTH API
   slug: sap-successfactors-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -127,7 +127,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/sap-successfactors-empemployment-api-openapi.yml, openapi/sap-successfactors-empjob-api-openapi.yml,\n  openapi/sap-successfactors-focompany-api-openapi.yml, openapi/sap-successfactors-oauth-api-openapi.yml,\n  openapi/sap-successfactors-perperson-api-openapi.yml, openapi/sap-successfactors-upsert-api-openapi.yml,\n  openapi/sap-successfactors-user-api-openapi.yml, openapi/sap-successfactors-user-userid-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/sap-successfactors-empemployment-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-empjob-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-focompany-api-openapi.yml\n\
   \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-oauth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-perperson-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-upsert-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-user-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n\
   \  description: OAuth 2.0 SAML bearer assertion flow.\n- name: oauth2\n  source: openapi/sap-successfactors-user-userid-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n  description: OAuth 2.0 SAML bearer assertion flow.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/scopes/sap-successfactors-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sap-successfactors/scopes/sap-successfactors-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - HCM

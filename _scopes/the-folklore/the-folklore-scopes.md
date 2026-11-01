@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://thefolklore.com/.well-known/openid-configuration\ndocs: https://thefolklore.com/.well-known/openid-configuration\nnote: >-\n  OAuth/OIDC scopes advertised by the Shopify Customer Account authorization\n  server that fronts The Folklore's storefront. Captured verbatim from the live\n  discovery document's scopes_supported.\nschemes:\n- name: shopifyCustomerAccountOIDC\n  issuer: https://shopify.com/authentication/63533449453\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/63533449453/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/63533449453/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the customer's email address and email_verified claim.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n \
   \ description: Full access to the Shopify Customer Account API on behalf of the signed-in customer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API — the agent-driven (UCP) commerce surface.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-folklore/refs/heads/main/scopes/the-folklore-scopes.yml
+source_yaml_url: https://artifacts.apis.io/the-folklore/scopes/the-folklore-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

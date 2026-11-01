@@ -5,109 +5,109 @@ api_specs:
   label: Discord Interactions API
   slug: discord-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-interactions-api-openapi.yml
 - filename: discord-webhook-events-api-openapi.yml
   format: yaml
   label: Discord Webhook Events API
   slug: discord-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-webhook-events-api-openapi.yml
 - filename: discord-applications-api-openapi.yml
   format: yaml
   label: Discord Applications API
   slug: discord-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-applications-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-applications-api-openapi.yml
 - filename: discord-channels-api-openapi.yml
   format: yaml
   label: Discord Channels API
   slug: discord-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-channels-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-channels-api-openapi.yml
 - filename: discord-gateway-api-openapi.yml
   format: yaml
   label: Discord Gateway API
   slug: discord-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-gateway-api-openapi.yml
 - filename: discord-guilds-api-openapi.yml
   format: yaml
   label: Discord Guilds API
   slug: discord-guilds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-guilds-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-guilds-api-openapi.yml
 - filename: discord-invites-api-openapi.yml
   format: yaml
   label: Discord Invites API
   slug: discord-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-invites-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-invites-api-openapi.yml
 - filename: discord-stage-instances-api-openapi.yml
   format: yaml
   label: Discord Stage Instances API
   slug: discord-stage-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-stage-instances-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-stage-instances-api-openapi.yml
 - filename: discord-sticker-packs-api-openapi.yml
   format: yaml
   label: Discord Sticker Packs API
   slug: discord-sticker-packs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-sticker-packs-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-sticker-packs-api-openapi.yml
 - filename: discord-stickers-api-openapi.yml
   format: yaml
   label: Discord Stickers API
   slug: discord-stickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-stickers-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-stickers-api-openapi.yml
 - filename: discord-users-api-openapi.yml
   format: yaml
   label: Discord Users API
   slug: discord-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-users-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-users-api-openapi.yml
 - filename: discord-voice-api-openapi.yml
   format: yaml
   label: Discord Voice API
   slug: discord-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-voice-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-voice-api-openapi.yml
 - filename: discord-webhooks-api-openapi.yml
   format: yaml
   label: Discord Webhooks API
   slug: discord-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-webhooks-api-openapi.yml
 - filename: discord-oauth2-api-openapi.yml
   format: yaml
   label: Discord Oauth2 API
   slug: discord-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-oauth2-api-openapi.yml
 - filename: discord-lobbies-api-openapi.yml
   format: yaml
   label: Discord Lobbies API
   slug: discord-lobbies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-lobbies-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-lobbies-api-openapi.yml
 - filename: discord-partner-sdk-api-openapi.yml
   format: yaml
   label: Discord Partner Sdk API
   slug: discord-partner-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-partner-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-partner-sdk-api-openapi.yml
 - filename: discord-skus-api-openapi.yml
   format: yaml
   label: Discord Skus API
   slug: discord-skus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-skus-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-skus-api-openapi.yml
 - filename: discord-soundboard-default-sounds-api-openapi.yml
   format: yaml
   label: Discord Soundboard Default Sounds API
   slug: discord-soundboard-default-sounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/openapi/discord-soundboard-default-sounds-api-openapi.yml
+  url: https://artifacts.apis.io/discord/openapi/discord-soundboard-default-sounds-api-openapi.yml
 authorization_urls:
 - discord.com/oauth2/authorize
 - https://discord.com/oauth2/authorize
@@ -393,7 +393,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/discord-
   - scope: rpc.notifications.read\n  description: for local rpc server access, this allows you to receive notifications pushed\n    out to the user - requires Discord approval\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/discord-openapi-original.yml\n- scope: rpc.screenshare.read\n  description: for local rpc server access, this allows you to read a user's screenshare status-\n    requires Discord approval\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/discord-openapi-original.yml\n- scope: rpc.screenshare.write\n  description: for local rpc server access, this allows you to update a user's screenshare settings-\n    requires Discord approval\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/discord-openapi-original.yml\n- scope: rpc.video.read\n  description: for local rpc server access, this allows you to read a user's video status -\n    requires\
   \ Discord approval\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/discord-openapi-original.yml\n- scope: rpc.video.write\n  description: for local rpc server access, this allows you to update a user's video settings\n    - requires Discord approval\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/discord-openapi-original.yml\n- scope: rpc.voice.read\n  description: for local rpc server access, this allows you to read a user's voice settings\n    and listen for voice events - requires Discord approval\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/discord-openapi-original.yml\n- scope: rpc.voice.write\n  description: for local rpc server access, this allows you to update a user's voice settings\n    - requires Discord approval\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/discord-openapi-original.yml\n\
   - scope: voice\n  description: allows your app to connect to voice on user's behalf and see all the voice members\n    - requires Discord approval\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/discord-openapi-original.yml\n- scope: webhook.incoming\n  description: this generates a webhook that is returned in the oauth token response for authorization\n    code grants\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/discord-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/scopes/discord-scopes.yml
+source_yaml_url: https://artifacts.apis.io/discord/scopes/discord-scopes.yml
 summary_line: 33 scopes · implicit/clientCredentials/authorizationCode
 tags:
 - Discord

@@ -5,97 +5,97 @@ api_specs:
   label: VATSIM Events API
   slug: vatsim-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-events-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-events-api-openapi.yml
 - filename: vatsim-metar-api-openapi.yml
   format: yaml
   label: VATSIM METAR API
   slug: vatsim-metar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-metar-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-metar-api-openapi.yml
 - filename: vatsim-airport-info-api-openapi.yml
   format: yaml
   label: VATSIM Airport info API
   slug: vatsim-airport-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-airport-info-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-airport-info-api-openapi.yml
 - filename: vatsim-atc-api-openapi.yml
   format: yaml
   label: VATSIM Atc API
   slug: vatsim-atc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-atc-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-atc-api-openapi.yml
 - filename: vatsim-audio-api-openapi.yml
   format: yaml
   label: VATSIM Audio API
   slug: vatsim-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-audio-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-audio-api-openapi.yml
 - filename: vatsim-community-api-openapi.yml
   format: yaml
   label: VATSIM Community API
   slug: vatsim-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-community-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-community-api-openapi.yml
 - filename: vatsim-data-feed-api-openapi.yml
   format: yaml
   label: VATSIM Data feed API
   slug: vatsim-data-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-data-feed-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-data-feed-api-openapi.yml
 - filename: vatsim-event-info-api-openapi.yml
   format: yaml
   label: VATSIM Event info API
   slug: vatsim-event-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-event-info-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-event-info-api-openapi.yml
 - filename: vatsim-events-api-openapi.yml
   format: yaml
   label: VATSIM Events API
   slug: vatsim-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-events-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-events-api-openapi.yml
 - filename: vatsim-members-api-openapi.yml
   format: yaml
   label: VATSIM Members API
   slug: vatsim-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-members-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-members-api-openapi.yml
 - filename: vatsim-metar-api-openapi.yml
   format: yaml
   label: VATSIM METAR API
   slug: vatsim-metar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-metar-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-metar-api-openapi.yml
 - filename: vatsim-orgs-api-openapi.yml
   format: yaml
   label: VATSIM Orgs API
   slug: vatsim-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-orgs-api-openapi.yml
 - filename: vatsim-servers-api-openapi.yml
   format: yaml
   label: VATSIM Servers API
   slug: vatsim-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-servers-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-servers-api-openapi.yml
 - filename: vatsim-user-api-openapi.yml
   format: yaml
   label: VATSIM User API
   slug: vatsim-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-user-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-user-api-openapi.yml
 - filename: vatsim-users-api-openapi.yml
   format: yaml
   label: VATSIM Users API
   slug: vatsim-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-users-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-users-api-openapi.yml
 - filename: vatsim-oauth2-api-openapi.yml
   format: yaml
   label: VATSIM O Auth2 API
   slug: vatsim-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-oauth2-api-openapi.yml
 authorization_urls:
 - /oauth/authorize
 description: ''
@@ -152,7 +152,7 @@ source_filename: vatsim-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/connect.yaml\nschemes:\n- name: connect\n  source: openapi/connect.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\nscopes:\n- scope: country\n  description: Read the user's country of residence\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/connect.yaml\n- scope: email\n  description: Read the user's email address\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/connect.yaml\n- scope: full_name\n  description: Read the user's full name\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/connect.yaml\n- scope: vatsim_details\n  description: Read the user's VATSIM ratings and divisions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/connect.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/scopes/vatsim-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vatsim/scopes/vatsim-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Aviation

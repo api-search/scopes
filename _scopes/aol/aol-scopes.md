@@ -5,13 +5,13 @@ api_specs:
   label: AOL OpenID Connect API
   slug: aol-openid-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/openapi/aol-openid-connect-api-openapi.yml
+  url: https://artifacts.apis.io/aol/openapi/aol-openid-connect-api-openapi.yml
 - filename: aol-oauth2-api-openapi.yml
   format: yaml
   label: AOL O Auth2 API
   slug: aol-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/openapi/aol-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/aol/openapi/aol-oauth2-api-openapi.yml
 authorization_urls:
 - https://api.login.aol.com/oauth2/request_auth
 description: ''
@@ -70,7 +70,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: https://api.login.aol.com/.well-known/openid-configuration\ndocs: https://developer.yahoo.com/oauth2/guide/openid_connect/\nnote: >-\n  Upgraded from derived (three scopes read out of this repo's OpenAPI) to probed\n  against AOL's own OpenID Connect discovery document, which advertises a fourth\n  scope, `openid2`, that the spec omits. AOL publishes no separate scope /\n  permissions reference page; `scopes_supported` in the discovery document is the\n  authoritative published list.\nschemes:\n- name: oauth2\n  source: https://api.login.aol.com/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.login.aol.com/oauth2/request_auth\n    tokenUrl: https://api.login.aol.com/oauth2/get_token\nscopes:\n- scope: openid\n  description: >-\n    OpenID Connect authentication. Requesting it makes the token response carry a\n    signed `id_token` and enables the userinfo endpoint.\n\
   \  flows:\n  - authorizationCode\n  sources:\n  - https://api.login.aol.com/.well-known/openid-configuration\n  - openapi/aol-oauth2-api-openapi.yml\n- scope: openid2\n  description: >-\n    Legacy OpenID 2.0 compatibility scope advertised by the AOL discovery\n    document for applications migrated from the pre-OIDC AOL/Oath identity stack.\n    Not present in this repo's OpenAPI; discovered by probe.\n  flows:\n  - authorizationCode\n  sources:\n  - https://api.login.aol.com/.well-known/openid-configuration\n- scope: profile\n  description: >-\n    Basic profile claims — name, given_name, family_name, locale, birthdate.\n  flows:\n  - authorizationCode\n  sources:\n  - https://api.login.aol.com/.well-known/openid-configuration\n  - openapi/aol-oauth2-api-openapi.yml\n- scope: email\n  description: Email address and the `email_verified` claim.\n  flows:\n  - authorizationCode\n  sources:\n  - https://api.login.aol.com/.well-known/openid-configuration\n  - openapi/aol-oauth2-api-openapi.yml\n\
   evidence:\n- url: https://api.login.aol.com/.well-known/openid-configuration\n  status: 200\n  fetched: '2026-09-02'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/scopes/aol-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aol/scopes/aol-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Digital Media

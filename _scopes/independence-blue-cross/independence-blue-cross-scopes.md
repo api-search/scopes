@@ -5,19 +5,19 @@ api_specs:
   label: Independence Blue Cross Formulary API
   slug: independence-blue-cross-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/openapi/independence-blue-cross-formulary-api-openapi.yml
+  url: https://artifacts.apis.io/independence-blue-cross/openapi/independence-blue-cross-formulary-api-openapi.yml
 - filename: independence-blue-cross-patient-access-api-openapi.yml
   format: yaml
   label: Independence Blue Cross Patient Access API
   slug: independence-blue-cross-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/openapi/independence-blue-cross-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/independence-blue-cross/openapi/independence-blue-cross-patient-access-api-openapi.yml
 - filename: independence-blue-cross-provider-directory-api-openapi.yml
   format: yaml
   label: Independence Blue Cross Provider Directory API
   slug: independence-blue-cross-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/openapi/independence-blue-cross-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/independence-blue-cross/openapi/independence-blue-cross-provider-directory-api-openapi.yml
 authorization_urls:
 - https://member.ibx.com/patientaccesssvc/oauth2/v1/authorize
 description: ''
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: >-\n  openapi/_or
   \ launch-standalone'\n    sources:\n      - openapi/_original/independence-blue-cross-patient-openapi.yml\n      - https://eapics.ibx.com/patient/v1/fhir/.well-known/smart-configuration\n  - scope: patient/*.read\n    description: >-\n      Read every patient-scoped FHIR R4 resource the Patient Access API exposes — Patient, Coverage,\n      ExplanationOfBenefit, AllergyIntolerance, CarePlan, Condition, DiagnosticReport, Encounter, Goal,\n      Immunization, Medication, MedicationDispense, MedicationRequest, Observation and Procedure. This\n      is a wildcard read scope; there is no published narrower per-resource alternative.\n    category: data-read\n    grants: protected health information\n    flows:\n      - authorizationCode\n    corroborated_by: 'smart-configuration capability: permission-patient'\n    sources:\n      - openapi/_original/independence-blue-cross-patient-openapi.yml\n      - https://eapics.ibx.com/patient/v1/fhir/.well-known/smart-configuration\n  - scope: openid\n\
   \    description: OpenID Connect identity for the authenticating member.\n    category: identity\n    flows:\n      - authorizationCode\n    corroborated_by: 'smart-configuration capability: sso-openid-connect'\n    sources:\n      - openapi/_original/independence-blue-cross-patient-openapi.yml\n      - https://eapics.ibx.com/patient/v1/fhir/.well-known/smart-configuration\n  - scope: offline_access\n    description: >-\n      Issue a refresh token so the application can continue reading after the access token expires\n      without re-prompting the member. Token lifetimes are not published, so this is effectively\n      required for any non-interactive refresh.\n    category: session\n    flows:\n      - authorizationCode\n    corroborated_by: 'smart-configuration capability: permission-offline'\n    sources:\n      - openapi/_original/independence-blue-cross-patient-openapi.yml\n      - https://eapics.ibx.com/patient/v1/fhir/.well-known/smart-configuration\nscope_count: 4\nwrite_scopes:\
   \ 0\nwrite_scopes_note: >-\n  There are none. All 60 published operations are GET, so no patient/*.write, user/*.* or system/*.*\n  scope exists on this surface.\nabsent_capabilities:\n  - capability: permission-user\n    implication: No user-level (provider-facing) scopes — this API is member-facing only.\n  - capability: permission-v2\n    implication: >-\n      SMART v2 granular scopes (patient/Observation.rs and friends) are not advertised. Only the v1\n      wildcard read scope is available, so an application cannot request least-privilege access to a\n      single resource type.\n  - capability: permission-offline-refresh / client-credentials\n    implication: >-\n      No SMART Backend Services / client_credentials flow. There is no bulk or system-level export\n      surface; every read is bound to one consenting member.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/scopes/independence-blue-cross-scopes.yml
+source_yaml_url: https://artifacts.apis.io/independence-blue-cross/scopes/independence-blue-cross-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Healthcare

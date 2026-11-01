@@ -5,7 +5,7 @@ api_specs:
   label: Google Docs Documents API
   slug: google-docs-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/openapi/google-docs-documents-api-openapi.yml
+  url: https://artifacts.apis.io/google-docs/openapi/google-docs-documents-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -69,7 +69,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-docs-api-v1-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-docs-api-v1-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for Google APIs.\nscopes:\n- scope: https://www.googleapis.com/auth/documents\n  description: View and manage your Google Docs documents\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n- scope: https://www.googleapis.com/auth/documents.readonly\n  description: View your Google Docs documents\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n- scope: https://www.googleapis.com/auth/drive\n  description: See, edit, create, and delete all of your Google Drive files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n\
   - scope: https://www.googleapis.com/auth/drive.file\n  description: View and manage Google Drive files and folders that you have opened or created\n    with this app\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.readonly\n  description: See and download all your Google Drive files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/scopes/google-docs-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-docs/scopes/google-docs-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Collaboration

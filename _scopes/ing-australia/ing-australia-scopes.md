@@ -5,43 +5,43 @@ api_specs:
   label: ING Australia Banking Account Balances API
   slug: ing-australia-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-account-balances-api-openapi.yml
 - filename: ing-australia-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: ING Australia Banking Account Direct Debits API
   slug: ing-australia-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-account-direct-debits-api-openapi.yml
 - filename: ing-australia-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: ING Australia Banking Account Scheduled Payments API
   slug: ing-australia-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-account-scheduled-payments-api-openapi.yml
 - filename: ing-australia-banking-account-transactions-api-openapi.yml
   format: yaml
   label: ING Australia Banking Account Transactions API
   slug: ing-australia-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-account-transactions-api-openapi.yml
 - filename: ing-australia-banking-accounts-api-openapi.yml
   format: yaml
   label: ING Australia Banking Accounts API
   slug: ing-australia-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-accounts-api-openapi.yml
 - filename: ing-australia-banking-payees-api-openapi.yml
   format: yaml
   label: ING Australia Banking Payees API
   slug: ing-australia-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-payees-api-openapi.yml
 - filename: ing-australia-banking-products-api-openapi.yml
   format: yaml
   label: ING Australia Banking Products API
   slug: ing-australia-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-products-api-openapi.yml
 authorization_urls:
 - https://id.ob.ing.com.au/authorize
 description: OAuth2 / OIDC scopes advertised in ING Australia's live CDR OpenID Provider metadata (scopes_supported). These are the standard Consumer Data Standards (CDS) banking and common authorisation scopes granted to Accredited Data Recipients through the CDR consent flow. The public PRD endpoints require no scope; every other endpoint requires the mapped bank:* scope (see x-scopes in the OpenAPI). Descriptions and endpoint mappings are from the CDS authorisation scopes reference.
@@ -130,7 +130,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://id.ob.ing.com.au/.well-known/openid-configuration\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\ndescription: >-\n  OAuth2 / OIDC scopes advertised in ING Australia's live CDR OpenID Provider\n  metadata (scopes_supported). These are the standard Consumer Data Standards\n  (CDS) banking and common authorisation scopes granted to Accredited Data\n  Recipients through the CDR consent flow. The public PRD endpoints require no\n  scope; every other endpoint requires the mapped bank:* scope (see x-scopes in\n  the OpenAPI). Descriptions and endpoint mappings are from the CDS authorisation\n  scopes reference.\nschemes:\n  - name: CDR-OAuth2\n    source: well-known/ing-australia-openid-configuration.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://id.ob.ing.com.au/authorize\n        tokenUrl: https://secure.ob.ing.com.au/token\nscopes:\n  - scope:\
   \ openid\n    description: OpenID Connect authentication; issue an ID token for the customer.\n    flows: [authorizationCode]\n  - scope: profile\n    description: Basic OIDC profile claims (name, given_name, family_name).\n    flows: [authorizationCode]\n  - scope: bank:accounts.basic:read\n    description: Read basic account information and balances (list/detail without full account numbers).\n    operations: [listBankingAccounts, listBankingBalancesBulk, listBankingBalancesSpecificAccounts, getBankingBalance]\n    flows: [authorizationCode]\n  - scope: bank:accounts.detail:read\n    description: Read detailed account information including account numbers and features.\n    operations: [getBankingAccountDetail]\n    flows: [authorizationCode]\n  - scope: bank:transactions:read\n    description: Read account transactions and transaction detail.\n    operations: [listBankingTransactions, getBankingTransactionDetail]\n    flows: [authorizationCode]\n  - scope: bank:payees:read\n    description:\
   \ Read the customer's saved/registered payees.\n    operations: [listBankingPayees, getBankingPayeeDetail]\n    flows: [authorizationCode]\n  - scope: bank:regular_payments:read\n    description: Read direct debits, scheduled payments and instalment plans.\n    operations: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts, listInstalmentPlans, listInstalmentPlansBulk]\n    flows: [authorizationCode]\n  - scope: common:customer.basic:read\n    description: Read basic customer information (name, occupation / organisation basics).\n    flows: [authorizationCode]\n  - scope: common:customer.detail:read\n    description: Read detailed customer information including contact details.\n    flows: [authorizationCode]\n  - scope: cdr:registration\n    description: Dynamic client registration management for the Accredited Data Recipient's software product.\n    flows: [clientCredentials]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/scopes/ing-australia-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ing-australia/scopes/ing-australia-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
 - Finance

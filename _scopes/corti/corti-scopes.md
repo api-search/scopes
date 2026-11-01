@@ -5,13 +5,13 @@ api_specs:
   label: Corti Speech to Text API
   slug: corti-speech-to-text-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/asyncapi/corti-transcribe-asyncapi.json
+  url: https://artifacts.apis.io/corti/asyncapi/corti-transcribe-asyncapi.json
 - filename: corti-stream-asyncapi.json
   format: json
   label: Corti Ambient Documentation API
   slug: corti-ambient-documentation-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/asyncapi/corti-stream-asyncapi.json
+  url: https://artifacts.apis.io/corti/asyncapi/corti-stream-asyncapi.json
 authorization_urls:
 - https://auth.eu.corti.app/realms/base/protocol/openid-connect/auth
 description: OAuth 2.0 scopes harvested from Corti's live Keycloak OpenID Connect discovery document (base realm). Corti issues short-lived (5 minute) access tokens via the client_credentials grant; streaming clients may request limited-scope tokens (e.g. "openid transcribe" or "openid streams"). Standard OIDC scopes (openid, profile, email, phone, address, offline_access, roles, groups) are omitted from the per-scope list below and noted under oidc_standard_scopes.
@@ -234,7 +234,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://auth.eu
   \ Delete transcripts}\n- {scope: 'documents:read', description: Read generated documents}\n- {scope: 'documents:write', description: Generate documents}\n- {scope: 'documents:update', description: Update documents}\n- {scope: 'documents:delete', description: Delete documents}\n- {scope: 'guided_documents:read', description: Read guided (structured) documents}\n- {scope: 'guided_documents:write', description: Generate guided documents}\n- {scope: 'guided_documents:update', description: Update guided documents}\n- {scope: 'guided_documents:delete', description: Delete guided documents}\n- {scope: 'guided_templates_sections:read', description: Read guided template sections}\n- {scope: 'guided_templates_sections:write', description: Create guided template sections}\n- {scope: 'guided_templates_sections:update', description: Update guided template sections}\n- {scope: 'guided_templates_sections:delete', description: Delete guided template sections}\n- {scope: 'templates:read', description:\
   \ Read document templates}\n- {scope: 'codes:read', description: Read predicted medical codes}\n- {scope: 'codes:write', description: Predict/generate medical codes}\n- {scope: 'codes:update', description: Update/select medical codes}\n- {scope: 'facts:read', description: Read facts extracted from interactions}\n- {scope: 'facts:write', description: Add/extract facts}\n- {scope: 'facts:update', description: Update facts}\n- {scope: 'transcribe', description: Access the real-time stateless speech-to-text (transcribe) WebSocket}\n- {scope: 'streams', description: Access the real-time ambient documentation (stream) WebSocket}\n- {scope: 'tools:write', description: Invoke stateless tools (e.g. coding, fact extraction)}\n- {scope: 'anonymize:write', description: Anonymize/de-identify content}\n- {scope: 'languages:read', description: List supported languages}\n- {scope: 'admin:read', description: Administration API read access}\n- {scope: 'admin:write', description: Administration API write\
   \ access}\n- {scope: 'admin-templates:read', description: Read admin-managed templates}\n- {scope: 'admin-logging:write', description: Manage admin logging configuration}\n- {scope: 'admin-retention:write', description: Manage data retention}\n- {scope: 'admin-retention-policy:write', description: Manage retention policy}\n- {scope: 'admin-caching:write', description: Manage caching configuration}\n- {scope: 'admin-db:write', description: Manage database configuration}\n- {scope: 'admin-triggers:write', description: Manage admin triggers}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/scopes/corti-scopes.yml
+source_yaml_url: https://artifacts.apis.io/corti/scopes/corti-scopes.yml
 summary_line: 44 scopes · clientCredentials/authorizationCode
 tags:
 - Company

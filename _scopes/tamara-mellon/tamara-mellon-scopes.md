@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: probed\nsource: https://shop.tamaramellon.com/.well-known/oauth-authorization-server\ndocs: https://shopify.dev/docs/api/customer\nnote: >-\n  These are the scopes advertised by the Shopify-operated Customer Account authorization server mounted\n  at Tamara Mellon's storefront host. They are Shopify platform scopes, not scopes Tamara Mellon\n  defined, and they are listed here because they are the complete set of OAuth scopes obtainable\n  against any host this company controls. Read verbatim from `scopes_supported`; none were inferred.\nissuer: https://shopify.com/authentication/11034464\nfirst_party: false\nscopes:\n- name: openid\n  description: OpenID Connect authentication; returns an ID token identifying the shopper.\n- name: email\n  description: Releases the shopper's email address and email_verified claim.\n- name: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the authenticated shopper.\n\
   - name: customer-account-mcp-api:full\n  description: >-\n    Full access to the Shopify Customer Account MCP API for the authenticated shopper - the\n    agent-facing projection of the customer account surface.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tamara-mellon/refs/heads/main/scopes/tamara-mellon-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tamara-mellon/scopes/tamara-mellon-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

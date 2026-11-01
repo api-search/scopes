@@ -24,14 +24,14 @@ source_filename: iternio-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-28'\nmethod: searched\nsource: https://abetterrouteplanner.com/resources/api\nscopes:\n  - get_telemetry\n  - set_telemetry\n  - get_plan\n  - vehicle_history"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iternio/refs/heads/main/scopes/iternio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/iternio/scopes/iternio-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
+- Company
 - EV
-- Route Planning
-- Navigation
+- Routing
 - API
-- Telemetry
+- Transportation
 token_bound: false
 token_urls: []
 ---

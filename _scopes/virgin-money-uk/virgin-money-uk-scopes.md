@@ -5,37 +5,37 @@ api_specs:
   label: Virgin Money UK ATM API
   slug: virgin-money-uk-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-atm-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-atm-api-openapi.yml
 - filename: virgin-money-uk-bca-api-openapi.yml
   format: yaml
   label: Virgin Money UK BCA API
   slug: virgin-money-uk-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-bca-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-bca-api-openapi.yml
 - filename: virgin-money-uk-branch-api-openapi.yml
   format: yaml
   label: Virgin Money UK Branch API
   slug: virgin-money-uk-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-branch-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-branch-api-openapi.yml
 - filename: virgin-money-uk-ccc-api-openapi.yml
   format: yaml
   label: Virgin Money UK CCC API
   slug: virgin-money-uk-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-ccc-api-openapi.yml
 - filename: virgin-money-uk-pca-api-openapi.yml
   format: yaml
   label: Virgin Money UK PCA API
   slug: virgin-money-uk-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-pca-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-pca-api-openapi.yml
 - filename: virgin-money-uk-sme-api-openapi.yml
   format: yaml
   label: Virgin Money UK SME API
   slug: virgin-money-uk-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/openapi/virgin-money-uk-sme-api-openapi.yml
+  url: https://artifacts.apis.io/virgin-money-uk/openapi/virgin-money-uk-sme-api-openapi.yml
 authorization_urls:
 - https://api.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/oidcapi/oauth2/authorize
 description: ''
@@ -99,7 +99,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: well-known/virgin-money-uk-openid-configuration.json\ndocs: https://developer.virginmoney.com/merged/oidc/\nnote: >-\n  Scopes taken verbatim from the live production OpenID Connect discovery document\n  (scopes_supported). These are the standard UK Open Banking / OBIE Read-Write\n  scopes governing AIS, PIS, and CBPII access.\nschemes:\n- name: OAuth2\n  source: well-known/virgin-money-uk-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/oidcapi/oauth2/authorize\n    tokenUrl: https://secureapi.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/oidcapi/oauth2/token\n  - flow: clientCredentials\n    tokenUrl: https://secureapi.prod.ob.virginmoney.com/vmpsd2-psd2prod/psd2-production/oidcapi/oauth2/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; required to obtain an ID token identifying\
   \ the consent.\n  flows: [authorizationCode]\n  sources: [well-known/virgin-money-uk-openid-configuration.json]\n- scope: accounts\n  description: >-\n    Account and Transaction Information (AIS) — read accounts, balances,\n    transactions, beneficiaries, standing orders, direct debits, statements.\n  flows: [authorizationCode, clientCredentials]\n  sources: [well-known/virgin-money-uk-openid-configuration.json]\n- scope: payments\n  description: >-\n    Payment Initiation (PIS) — initiate domestic/international immediate,\n    scheduled, and file payments.\n  flows: [authorizationCode, clientCredentials]\n  sources: [well-known/virgin-money-uk-openid-configuration.json]\n- scope: fundsconfirmations\n  description: >-\n    Confirmation of Funds (CBPII) — confirm whether sufficient funds are\n    available to make a card-based payment.\n  flows: [authorizationCode, clientCredentials]\n  sources: [well-known/virgin-money-uk-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/scopes/virgin-money-uk-scopes.yml
+source_yaml_url: https://artifacts.apis.io/virgin-money-uk/scopes/virgin-money-uk-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
 - Financial Services

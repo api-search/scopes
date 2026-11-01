@@ -5,7 +5,7 @@ api_specs:
   label: Parea AI Parea API
   slug: parea-parea-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/openapi/parea-parea-api-openapi.yml
+  url: https://artifacts.apis.io/parea/openapi/parea-parea-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -40,7 +40,7 @@ source_filename: parea-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/parea-parea-api-openapi.yml\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/parea-parea-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/scopes/parea-scopes.yml
+source_yaml_url: https://artifacts.apis.io/parea/scopes/parea-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - LLM

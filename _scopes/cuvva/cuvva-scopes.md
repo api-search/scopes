@@ -38,7 +38,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://github.com/cuvva/docs/blob/master/apis/auth.md\ndocs: https://github.com/cuvva/docs/blob/master/apis/auth.md\nmodel: >-\n  Cuvva's OAuth 2.0 implementation issues scoped access/refresh tokens. Scopes\n  follow an \"<audience>:<permission>\" naming convention. Scopes are optional on\n  refresh/authenticate; when omitted the scopes of the passed-in refresh token are\n  inherited. Only scopes observed verbatim in the public auth docs are recorded\n  here — Cuvva does not publish a complete scope reference.\nschemes:\n  - name: OAuth2\n    source: https://github.com/cuvva/docs/blob/master/apis/auth.md\n    flows:\n      - flow: authorizationCode\n      - flow: refreshToken\nscopes:\n  - scope: \"self:official_app\"\n    description: >-\n      Audience \"self\" (the acting user) with the official-app permission — the\n      scope granted to Cuvva's own first-party mobile apps, observed in the\n      authenticate response\
   \ example.\n    flows: [authorizationCode, refreshToken]\n    sources: [https://github.com/cuvva/docs/blob/master/apis/auth.md]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cuvva/refs/heads/main/scopes/cuvva-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cuvva/scopes/cuvva-scopes.yml
 summary_line: 1 scope · authorizationCode/refreshToken
 tags:
 - Company

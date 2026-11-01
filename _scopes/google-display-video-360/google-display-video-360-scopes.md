@@ -5,97 +5,97 @@ api_specs:
   label: Google Display & Video 360 Advertisers API
   slug: google-display-video-360-advertisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-advertisers-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-advertisers-api-openapi.yml
 - filename: google-display-video-360-combined-audiences-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Combined Audiences API
   slug: google-display-video-360-combined-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-combined-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-combined-audiences-api-openapi.yml
 - filename: google-display-video-360-custom-bidding-algorithms-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Custom Bidding Algorithms API
   slug: google-display-video-360-custom-bidding-algorithms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-custom-bidding-algorithms-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-custom-bidding-algorithms-api-openapi.yml
 - filename: google-display-video-360-custom-lists-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Custom Lists API
   slug: google-display-video-360-custom-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-custom-lists-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-custom-lists-api-openapi.yml
 - filename: google-display-video-360-first-party-and-partner-audiences-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 First Party and Partner Audiences API
   slug: google-display-video-360-first-party-and-partner-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-first-party-and-partner-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-first-party-and-partner-audiences-api-openapi.yml
 - filename: google-display-video-360-floodlight-groups-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Floodlight Groups API
   slug: google-display-video-360-floodlight-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-floodlight-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-floodlight-groups-api-openapi.yml
 - filename: google-display-video-360-google-audiences-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Google Audiences API
   slug: google-display-video-360-google-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-google-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-google-audiences-api-openapi.yml
 - filename: google-display-video-360-guaranteed-orders-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Guaranteed Orders API
   slug: google-display-video-360-guaranteed-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-guaranteed-orders-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-guaranteed-orders-api-openapi.yml
 - filename: google-display-video-360-inventory-source-groups-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Inventory Source Groups API
   slug: google-display-video-360-inventory-source-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-inventory-source-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-inventory-source-groups-api-openapi.yml
 - filename: google-display-video-360-inventory-sources-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Inventory Sources API
   slug: google-display-video-360-inventory-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-inventory-sources-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-inventory-sources-api-openapi.yml
 - filename: google-display-video-360-media-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Media API
   slug: google-display-video-360-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-media-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-media-api-openapi.yml
 - filename: google-display-video-360-partners-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Partners API
   slug: google-display-video-360-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-partners-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-partners-api-openapi.yml
 - filename: google-display-video-360-sdf-download-tasks-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 SDF Download Tasks API
   slug: google-display-video-360-sdf-download-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-sdf-download-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-sdf-download-tasks-api-openapi.yml
 - filename: google-display-video-360-sdf-upload-tasks-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 SDF Upload Tasks API
   slug: google-display-video-360-sdf-upload-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-sdf-upload-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-sdf-upload-tasks-api-openapi.yml
 - filename: google-display-video-360-targeting-types-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Targeting Types API
   slug: google-display-video-360-targeting-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-targeting-types-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-targeting-types-api-openapi.yml
 - filename: google-display-video-360-users-api-openapi.yml
   format: yaml
   label: Google Display & Video 360 Users API
   slug: google-display-video-360-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/openapi/google-display-video-360-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-display-video-360/openapi/google-display-video-360-users-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: 'The complete OAuth 2.0 scope surface for the Display & Video 360 API, taken from the auth.oauth2.scopes block of Google''s own Discovery Document rather than inferred from operation security requirements. Four scopes, all authorization-code flow, all issued by accounts.google.com. There is no read-only variant: display-video is read AND write AND delete in a single grant, which is the most consequential fact in this file for anyone binding an agent to this API.'
@@ -159,7 +159,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ scope on the token.\n    sources: [openapi/google-display-video-360-api-openapi.yml, discovery]\n  - scope: https://www.googleapis.com/auth/display-video-mediaplanning\n    description: Create, see, and edit Display & Video 360 Campaign entities and see billing invoices\n    flows: [authorizationCode]\n    grants: read+write on campaign entities, read on invoices\n    note: >-\n      The narrower of the two generally-grantable scopes. Covers the\n      campaign/insertion-order/line-item planning surface and invoice reads without the delete\n      authority the full display-video scope carries. Prefer it for planning and reporting.\n    sources: [openapi/google-display-video-360-api-openapi.yml, discovery]\n  - scope: https://www.googleapis.com/auth/display-video-user-management\n    description: 'Private Service: https://www.googleapis.com/auth/display-video-user-management'\n    flows: [authorizationCode]\n    grants: read+write on DV360 user profiles and role assignments\n    private:\
   \ true\n    note: >-\n      Google marks this a Private Service in its own Discovery Document — it is allowlist-gated\n      and not grantable by a standard OAuth client. It backs the /v4/users resource\n      (usersList, usersGet, usersCreate, usersPatch, usersDelete,\n      usersBulkEditAssignedUserRoles). Those operations are in the contract and will\n      authenticate, but will not authorize for a project that has not been allowlisted.\n    sources: [openapi/google-display-video-360-api-openapi.yml, discovery]\n  - scope: https://www.googleapis.com/auth/doubleclickbidmanager\n    description: View and manage your reports in DoubleClick Bid Manager\n    flows: [authorizationCode]\n    grants: read+write on Bid Manager reporting\n    note: >-\n      Reporting scope inherited from the Bid Manager API\n      (doubleclickbidmanager.googleapis.com), which is where DV360 reporting actually lives. It\n      is declared on this API's Discovery Document, but the reporting operations themselves\
   \ are\n      served by that sibling API rather than by displayvideo.googleapis.com.\n    sources: [discovery]\nscope_count: 4\nread_only_scope_available: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/scopes/google-display-video-360-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-display-video-360/scopes/google-display-video-360-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Campaign Management

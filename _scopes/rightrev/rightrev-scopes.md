@@ -40,7 +40,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  https://apis.rightrev.com/getting-started/authentication.md — the documented\n  token response returns scope \"profile email\". RightRev publishes no OpenAPI\n  oauth2 securityScheme, so these are the OpenID Connect scopes observed in the\n  Keycloak token response rather than a derived spec baseline.\ndocs: https://apis.rightrev.com/getting-started/authentication.md\ndescription: >-\n  RightRev authenticates through a per-tenant Keycloak (OpenID Connect) realm.\n  The documented token response grants the standard OIDC identity scopes; API\n  authorization beyond identity is governed by tenant/user role assignment\n  rather than fine-grained OAuth scopes.\nschemes:\n- name: RightRev OIDC (Keycloak)\n  type: oauth2\n  grant_types: [password, implicit]\n  tokenUrl: https://auth.rightrev.cloud/auth/realms/<tenant_id>/protocol/openid-connect/token\n  docs: https://apis.rightrev.com/getting-started/authentication.md\nscopes:\n\
   - scope: profile\n  description: Standard OpenID Connect profile claims for the authenticated user.\n- scope: email\n  description: Standard OpenID Connect email claim for the authenticated user.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rightrev/refs/heads/main/scopes/rightrev-scopes.yml
+source_yaml_url: https://artifacts.apis.io/rightrev/scopes/rightrev-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company

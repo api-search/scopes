@@ -5,43 +5,43 @@ api_specs:
   label: Bank First Banking Account Balances API
   slug: bank-first-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-account-balances-api-openapi.yml
 - filename: bank-first-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bank First Banking Account Direct Debits API
   slug: bank-first-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-account-direct-debits-api-openapi.yml
 - filename: bank-first-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bank First Banking Account Scheduled Payments API
   slug: bank-first-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-account-scheduled-payments-api-openapi.yml
 - filename: bank-first-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bank First Banking Account Transactions API
   slug: bank-first-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-account-transactions-api-openapi.yml
 - filename: bank-first-banking-accounts-api-openapi.yml
   format: yaml
   label: Bank First Banking Accounts API
   slug: bank-first-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-accounts-api-openapi.yml
 - filename: bank-first-banking-payees-api-openapi.yml
   format: yaml
   label: Bank First Banking Payees API
   slug: bank-first-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-payees-api-openapi.yml
 - filename: bank-first-banking-products-api-openapi.yml
   format: yaml
   label: Bank First Banking Products API
   slug: bank-first-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -103,7 +103,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/bank-first-cds-banking-products-openapi.yml\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\nnote: >-\n  The public PRD API requires NO scopes (unauthenticated). These scopes govern the\n  CDR consumer data sharing surface, which only Accredited Data Recipients may\n  request via the CDR consent flow. The scope set below is the CDR banking + common\n  scope family referenced by the x-scopes extension on the standard's operations.\nschemes:\n  - name: CDR-OAuth2-OIDC\n    type: oauth2\n    flow: authorizationCode\n    authorizationUrl: (per-holder, discovered via CDR Register / OIDC configuration)\n    tokenUrl: (per-holder, discovered via CDR Register / OIDC configuration)\n    source: openapi/bank-first-cds-banking-products-openapi.yml\nscopes:\n  - scope: bank:accounts.basic:read\n    description: Read basic account information (masked account numbers, product category, balances\
   \ context).\n    sources: [openapi/bank-first-cds-banking-products-openapi.yml]\n  - scope: bank:accounts.detail:read\n    description: Read detailed account information including account numbers and terms.\n    sources: [openapi/bank-first-cds-banking-products-openapi.yml]\n  - scope: bank:transactions:read\n    description: Read account transactions.\n    sources: [openapi/bank-first-cds-banking-products-openapi.yml]\n  - scope: bank:payees:read\n    description: Read saved payees.\n    sources: [openapi/bank-first-cds-banking-products-openapi.yml]\n  - scope: bank:regular_payments:read\n    description: Read direct debits and scheduled/regular payments.\n    sources: [openapi/bank-first-cds-banking-products-openapi.yml]\n  - scope: common:customer.basic:read\n    description: Read basic customer identity (name, organisation).\n    sources: [Consumer Data Standards]\n  - scope: common:customer.detail:read\n    description: Read detailed customer identity (contact details).\n    sources:\
   \ [Consumer Data Standards]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/scopes/bank-first-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bank-first/scopes/bank-first-scopes.yml
 summary_line: 7 scopes
 tags:
 - Finance

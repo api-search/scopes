@@ -45,7 +45,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.api.aspireapp.com/authentication\ndocs: https://docs.api.aspireapp.com/glossary\napi: Aspire API\nnotes: >-\n  Aspire API keys and OAuth tokens are granted scopes that limit which endpoints\n  a token may call. The docs enumerate transfers and quotes explicitly and note\n  that FX transfers require BOTH transfers and quotes. Additional product scopes\n  (cards, transactions/bank-feeds) are implied by the product surface but are\n  not exhaustively published; only documented scopes are recorded here.\nschemes:\n- name: OAuth2\n  source: https://docs.api.aspireapp.com/authentication\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.aspireapp.com/public/v1/login\n  - flow: authorizationCode\n    pkce: true\nscopes:\n- scope: transfers\n  description: >-\n    Create and manage payout/transfer operations. Required (together with\n    quotes) for FX transfers.\n  sources: [https://docs.api.aspireapp.com/authentication]\n\
   - scope: quotes\n  description: >-\n    Create foreign-exchange quotes (lock an exchange rate) prior to an FX\n    transfer. Required together with transfers for FX transfers.\n  sources: [https://docs.api.aspireapp.com/authentication]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aspire/refs/heads/main/scopes/aspire-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aspire/scopes/aspire-scopes.yml
 summary_line: 2 scopes · clientCredentials/authorizationCode
 tags:
 - Company

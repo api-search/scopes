@@ -5,91 +5,91 @@ api_specs:
   label: Nooks Accounts API
   slug: nooks-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-accounts-api-openapi.yml
 - filename: nooks-calls-api-openapi.yml
   format: yaml
   label: Nooks Calls API
   slug: nooks-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-calls-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-calls-api-openapi.yml
 - filename: nooks-emails-api-openapi.yml
   format: yaml
   label: Nooks Emails API
   slug: nooks-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-emails-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-emails-api-openapi.yml
 - filename: nooks-introspection-api-openapi.yml
   format: yaml
   label: Nooks Introspection API
   slug: nooks-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-introspection-api-openapi.yml
 - filename: nooks-mailboxes-api-openapi.yml
   format: yaml
   label: Nooks Mailboxes API
   slug: nooks-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-mailboxes-api-openapi.yml
 - filename: nooks-nooks-sequencing-api-api-openapi.yml
   format: yaml
   label: Nooks Sequencing API
   slug: nooks-nooks-sequencing-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-nooks-sequencing-api-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-nooks-sequencing-api-api-openapi.yml
 - filename: nooks-notes-api-openapi.yml
   format: yaml
   label: Nooks Notes API
   slug: nooks-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-notes-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-notes-api-openapi.yml
 - filename: nooks-prospects-api-openapi.yml
   format: yaml
   label: Nooks Prospects API
   slug: nooks-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-prospects-api-openapi.yml
 - filename: nooks-sequences-api-openapi.yml
   format: yaml
   label: Nooks Sequences API
   slug: nooks-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequences-api-openapi.yml
 - filename: nooks-sequencesteps-api-openapi.yml
   format: yaml
   label: Nooks Sequence Steps API
   slug: nooks-sequencesteps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequencesteps-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequencesteps-api-openapi.yml
 - filename: nooks-tasks-api-openapi.yml
   format: yaml
   label: Nooks Tasks API
   slug: nooks-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-tasks-api-openapi.yml
 - filename: nooks-users-api-openapi.yml
   format: yaml
   label: Nooks Users API
   slug: nooks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-users-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-users-api-openapi.yml
 - filename: nooks-call-dispositions-api-openapi.yml
   format: yaml
   label: Nooks Call Dispositions API
   slug: nooks-call-dispositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-call-dispositions-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-call-dispositions-api-openapi.yml
 - filename: nooks-email-templates-api-openapi.yml
   format: yaml
   label: Nooks Email Templates API
   slug: nooks-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-email-templates-api-openapi.yml
 - filename: nooks-sequence-states-api-openapi.yml
   format: yaml
   label: Nooks Sequence States API
   slug: nooks-sequence-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/openapi/nooks-sequence-states-api-openapi.yml
+  url: https://artifacts.apis.io/nooks/openapi/nooks-sequence-states-api-openapi.yml
 authorization_urls:
 - https://oauth.nooks.in/oauth/authorize
 description: ''
@@ -254,7 +254,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://oauth.n
   \  flows: [authorizationCode]\n- scope: calls:read\n  description: View your calls\n  flows: [authorizationCode]\n- scope: calls:write\n  description: Create and update calls\n  flows: [authorizationCode]\n- scope: call-dispositions:read\n  description: View call dispositions\n  flows: [authorizationCode]\n- scope: emails:read\n  description: View your emails\n  flows: [authorizationCode]\n- scope: emails:write\n  description: Create and update emails\n  flows: [authorizationCode]\n- scope: email-templates:read\n  description: View email templates\n  flows: [authorizationCode]\n- scope: mailboxes:read\n  description: View connected mailboxes\n  flows: [authorizationCode]\n- scope: users:read\n  description: View users in your workspace\n  flows: [authorizationCode]\n- scope: accounts:read\n  description: View accounts (companies) in your workspace\n  flows: [authorizationCode]\n- scope: notes:write\n  description: Create notes on CRM-backed prospects and accounts\n  flows: [authorizationCode]\n\
   - scope: opportunities:read\n  description: View opportunities (deals) in your workspace\n  flows: [authorizationCode]\n- scope: search:read\n  description: Search across your prospects, accounts, and other records\n  flows: [authorizationCode]\n- scope: coaching:read\n  description: >-\n    Published in the live authorization-server metadata `scopes_supported`. Not listed in the\n    OpenAPI scope table and has no corresponding REST operation in the published spec — read\n    access to AI Coaching data, reachable via the MCP server.\n  flows: [authorizationCode]\n- scope: teams:read\n  description: >-\n    Published in the live authorization-server metadata `scopes_supported`. Not listed in the\n    OpenAPI scope table and has no corresponding REST operation in the published spec.\n  flows: [authorizationCode]\n- scope: desktop-notes:read\n  description: >-\n    Published in the live authorization-server metadata `scopes_supported`. Not listed in the\n    OpenAPI scope table and has no\
   \ corresponding REST operation in the published spec.\n  flows: [authorizationCode]\ndivergence:\n  note: >-\n    The authorization server publishes 24 scopes; the OpenAPI scope table documents 21. The three\n    extras (coaching:read, teams:read, desktop-notes:read) are a real surface divergence — they\n    grant access that the published REST contract does not describe, and are the strongest hint\n    that the MCP server at mcp.nooks.in reaches capabilities the REST API does not expose.\n  metadata_only:\n  - coaching:read\n  - teams:read\n  - desktop-notes:read\nx-evidence:\n- url: https://oauth.nooks.in/.well-known/oauth-authorization-server\n  status: 200\n- url: https://mcp.nooks.in/.well-known/oauth-protected-resource\n  status: 200\n- url: https://developer.nooks.in/openapi.yml\n  status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/scopes/nooks-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nooks/scopes/nooks-scopes.yml
 summary_line: 24 scopes · authorizationCode
 tags:
 - Company

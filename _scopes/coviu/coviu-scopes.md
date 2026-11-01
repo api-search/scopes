@@ -5,37 +5,37 @@ api_specs:
   label: Coviu Auth API
   slug: coviu-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-auth-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-auth-api-openapi.yml
 - filename: coviu-collections-api-openapi.yml
   format: yaml
   label: Coviu Collections API
   slug: coviu-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-collections-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-collections-api-openapi.yml
 - filename: coviu-participants-api-openapi.yml
   format: yaml
   label: Coviu Participants API
   slug: coviu-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-participants-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-participants-api-openapi.yml
 - filename: coviu-sessions-api-openapi.yml
   format: yaml
   label: Coviu Sessions API
   slug: coviu-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-sessions-api-openapi.yml
 - filename: coviu-waiting-area-api-openapi.yml
   format: yaml
   label: Coviu Waiting Area API
   slug: coviu-waiting-area-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-waiting-area-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-waiting-area-api-openapi.yml
 - filename: coviu-webhook-requests-api-openapi.yml
   format: yaml
   label: Coviu Webhook Requests API
   slug: coviu-webhook-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/openapi/coviu-webhook-requests-api-openapi.yml
+  url: https://artifacts.apis.io/coviu/openapi/coviu-webhook-requests-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -96,7 +96,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/coviu-auth-api-openapi.yml, openapi/coviu-collections-api-openapi.yml, openapi/coviu-participants-api-openapi.yml,\n  openapi/coviu-sessions-api-openapi.yml, openapi/coviu-waiting-area-api-openapi.yml, openapi/coviu-webhook-requests-api-openapi.yml\nschemes:\n- name: ClientCredentials\n  source: openapi/coviu-auth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\n- name: ClientCredentials\n  source: openapi/coviu-collections-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\n- name: ClientCredentials\n  source: openapi/coviu-participants-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\n- name: ClientCredentials\n  source: openapi/coviu-sessions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\n- name: ClientCredentials\n  source: openapi/coviu-waiting-area-api-openapi.yml\n  flows:\n\
   \  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\n- name: ClientCredentials\n  source: openapi/coviu-webhook-requests-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/auth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/scopes/coviu-scopes.yml
+source_yaml_url: https://artifacts.apis.io/coviu/scopes/coviu-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Healthcare

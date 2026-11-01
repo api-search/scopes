@@ -29,7 +29,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://ossio.io/.well-known/oauth-authorization-server\nname: OSSIO OAuth Scopes\ndescription: >-\n  The single OAuth scope OSSIO's authorization server advertises. Read from the RFC 8414\n  metadata document and corroborated by the RFC 9728 protected-resource document, which\n  advertises the same scopes_supported for the MCP endpoint. There is no published scope\n  or permission reference page — this is the complete declared scope surface.\nauthorization_server: https://ossio.io\ndocs: null\nscopes:\n- name: mcp\n  description: >-\n    Grants an OAuth client access to the OSSIO site MCP server at\n    https://ossio.io/wp-json/mcp/mcp-oauth-server. The provider publishes no further\n    description and no finer-grained scopes; what the scope actually permits could only be\n    established by an authenticated tools/list introspection.\n  source: /.well-known/oauth-authorization-server scopes_supported\n  applies_to: https://ossio.io/wp-json/mcp/mcp-oauth-server\n\
   scope_count: 1\nnotes:\n- No sub-scopes, no read/write split, no resource-scoped grants are advertised.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ossio/refs/heads/main/scopes/ossio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ossio/scopes/ossio-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

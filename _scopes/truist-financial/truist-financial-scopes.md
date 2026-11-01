@@ -5,25 +5,25 @@ api_specs:
   label: Truist Financial Accounts API
   slug: truist-financial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-accounts-api-openapi.yml
 - filename: truist-financial-commercial-accounts-api-openapi.yml
   format: yaml
   label: Truist Financial Commercial Accounts API
   slug: truist-financial-commercial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-commercial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-commercial-accounts-api-openapi.yml
 - filename: truist-financial-commercial-transactions-api-openapi.yml
   format: yaml
   label: Truist Financial Commercial Transactions API
   slug: truist-financial-commercial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-commercial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-commercial-transactions-api-openapi.yml
 - filename: truist-financial-transactions-api-openapi.yml
   format: yaml
   label: Truist Financial Transactions API
   slug: truist-financial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-transactions-api-openapi.yml
 authorization_urls:
 - https://api.truist.com/oauth2/authorize
 description: ''
@@ -98,7 +98,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/truist-commercial-account-transactions-openapi.yml, openapi/truist-commercial-accounts-openapi.yml,\n  openapi/truist-personal-small-business-accounts-openapi.yml, openapi/truist-personal-small-business-transactions-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/truist-commercial-account-transactions-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.truist.com/oauth2/token\n- name: OAuth2\n  source: openapi/truist-commercial-accounts-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.truist.com/oauth2/token\n- name: OAuth2\n  source: openapi/truist-personal-small-business-accounts-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.truist.com/oauth2/authorize\n    tokenUrl: https://api.truist.com/oauth2/token\n- name: OAuth2\n  source: openapi/truist-personal-small-business-transactions-openapi.yml\n  flows:\n  - flow:\
   \ authorizationCode\n    authorizationUrl: https://api.truist.com/oauth2/authorize\n    tokenUrl: https://api.truist.com/oauth2/token\nscopes:\n- scope: accounts:read\n  description: Read access to account information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/truist-personal-small-business-accounts-openapi.yml\n- scope: commercial.accounts:read\n  description: Read access to commercial account information\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/truist-commercial-accounts-openapi.yml\n- scope: commercial.transactions:read\n  description: Read access to commercial transaction data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/truist-commercial-account-transactions-openapi.yml\n- scope: transactions:read\n  description: Read access to transaction data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/truist-personal-small-business-transactions-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/scopes/truist-financial-scopes.yml
+source_yaml_url: https://artifacts.apis.io/truist-financial/scopes/truist-financial-scopes.yml
 summary_line: 4 scopes · clientCredentials/authorizationCode
 tags:
 - Banking

@@ -5,25 +5,25 @@ api_specs:
   label: Cogny Reports API
   slug: cogny-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-reports-api-openapi.yml
 - filename: cogny-tickets-api-openapi.yml
   format: yaml
   label: Cogny Tickets API
   slug: cogny-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-tickets-api-openapi.yml
 - filename: cogny-warehouses-api-openapi.yml
   format: yaml
   label: Cogny Warehouses API
   slug: cogny-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-warehouses-api-openapi.yml
 - filename: cogny-webhooks-api-openapi.yml
   format: yaml
   label: Cogny Webhooks API
   slug: cogny-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/openapi/cogny-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cogny/openapi/cogny-webhooks-api-openapi.yml
 authorization_urls:
 - https://cogny.com/api/mcp/oauth/authorize
 description: ''
@@ -94,7 +94,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/cogny-openapi.yml\ndocs: https://cogny.com/docs/api-overview-authentication\nschemes:\n  - name: oauth2\n    source: well-known/cogny-oauth-authorization-server.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://cogny.com/api/mcp/oauth/authorize\n        tokenUrl: https://cogny.com/api/mcp/oauth/token\n    description: OAuth 2.1 (DCR + PKCE) for MCP clients.\nscopes:\n  # From the OAuth authorization-server metadata (MCP surface)\n  - {scope: read, description: Read access, source: well-known}\n  - {scope: write, description: Write access, source: well-known}\n  - {scope: 'tickets:read', description: Read tickets, source: well-known}\n  - {scope: 'tickets:write', description: Write tickets, source: well-known}\n  # From the REST API key-scope reference (docs)\n  - {scope: 'reports:read', description: Read growth reports, source: docs}\n  - {scope: 'reports:write', description: Create/cancel\
   \ growth reports, source: docs}\n  - {scope: 'warehouses:read', description: Read connected warehouses, source: docs}\n  - {scope: 'warehouses:write', description: Manage connected warehouses, source: docs}\nnotes: >-\n  Two scope surfaces: the OAuth MCP flow advertises read/write/tickets:*; the REST\n  API-key generator (Settings > API Keys) offers reports:*, tickets:read, warehouses:*.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cogny/refs/heads/main/scopes/cogny-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cogny/scopes/cogny-scopes.yml
 summary_line: 8 scopes · authorizationCode
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: Amdocs Billing API
   slug: amdocs-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-billing-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-billing-api-openapi.yml
 - filename: amdocs-customers-api-openapi.yml
   format: yaml
   label: Amdocs Customers API
   slug: amdocs-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-customers-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-customers-api-openapi.yml
 - filename: amdocs-products-api-openapi.yml
   format: yaml
   label: Amdocs Products API
   slug: amdocs-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-products-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-products-api-openapi.yml
 - filename: amdocs-subscriptions-api-openapi.yml
   format: yaml
   label: Amdocs Subscriptions API
   slug: amdocs-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-subscriptions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -78,7 +78,7 @@ source_filename: amdocs-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amdocs-connectx-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/amdocs-connectx-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.amdocs-dbs.com/oauth/token\nscopes:\n- scope: read:billing\n  description: Read billing data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/amdocs-connectx-openapi.yml\n- scope: read:customers\n  description: Read customer data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/amdocs-connectx-openapi.yml\n- scope: write:customers\n  description: Manage customers\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/amdocs-connectx-openapi.yml\n- scope: write:subscriptions\n  description: Manage subscriptions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/amdocs-connectx-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/scopes/amdocs-scopes.yml
+source_yaml_url: https://artifacts.apis.io/amdocs/scopes/amdocs-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - Telecommunications

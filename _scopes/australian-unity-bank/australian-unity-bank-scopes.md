@@ -5,43 +5,43 @@ api_specs:
   label: Australian Unity Bank Banking Account Balances API
   slug: australian-unity-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-balances-api-openapi.yml
 - filename: australian-unity-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Account Direct Debits API
   slug: australian-unity-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-direct-debits-api-openapi.yml
 - filename: australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Account Scheduled Payments API
   slug: australian-unity-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: australian-unity-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Account Transactions API
   slug: australian-unity-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-account-transactions-api-openapi.yml
 - filename: australian-unity-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Accounts API
   slug: australian-unity-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-accounts-api-openapi.yml
 - filename: australian-unity-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Payees API
   slug: australian-unity-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-payees-api-openapi.yml
 - filename: australian-unity-bank-banking-products-api-openapi.yml
   format: yaml
   label: Australian Unity Bank Banking Products API
   slug: australian-unity-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/openapi/australian-unity-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/australian-unity-bank/openapi/australian-unity-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -113,7 +113,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\nnotes: >-\n  The DSB Consumer Data Standards define the fixed authorisation-scope set that\n  every Australian ADI (including Australian Unity Bank, as a CDR data holder)\n  must honour for consumer-authorised banking data. Scopes are not declared in the\n  harvested CDS Banking OpenAPI (auth lives in the separate CDR InfoSec profile),\n  so this scope list is captured from the DSB standard, mapped to the operations\n  in openapi/australian-unity-bank-cds-banking-openapi.json. Product Reference\n  Data endpoints are public and require no scope.\nschemes:\n  - name: CDR-OIDC\n    type: openIdConnect\n    profile: FAPI 1.0 Advanced (CDR Security Profile)\n    flows: [authorizationCode, hybrid]\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication\
   \ (required by the CDR flow).\n  - scope: profile\n    description: Basic profile claims within the CDR consent.\n  - scope: common:customer.basic:read\n    description: Read basic customer/member identity data.\n  - scope: common:customer.detail:read\n    description: Read detailed customer/member data (contact details).\n  - scope: bank:accounts.basic:read\n    description: List accounts and read basic account and balance data.\n    operations: [listBankingAccounts, listBankingBalancesBulk, listBankingBalancesSpecificAccounts, getBankingBalance]\n  - scope: bank:accounts.detail:read\n    description: Read detailed account data.\n    operations: [getBankingAccountDetail]\n  - scope: bank:transactions:read\n    description: Read account transactions.\n    operations: [listBankingTransactions, getBankingTransactionDetail]\n  - scope: bank:regular_payments:read\n    description: Read direct debits, scheduled payments, and instalment plans.\n    operations: [listDirectDebits, listDirectDebitsBulk,\
   \ listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts, listInstalmentPlans, listInstalmentPlansBulk]\n  - scope: bank:payees:read\n    description: Read the member's saved payees.\n    operations: [listBankingPayees, getBankingPayeeDetail]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-unity-bank/refs/heads/main/scopes/australian-unity-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/australian-unity-bank/scopes/australian-unity-bank-scopes.yml
 summary_line: 9 scopes · authorizationCode/hybrid
 tags:
 - Finance

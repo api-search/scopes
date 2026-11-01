@@ -5,91 +5,91 @@ api_specs:
   label: 7shifts Availability API
   slug: 7shifts-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-availability-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-availability-api-openapi.yml
 - filename: 7shifts-companies-api-openapi.yml
   format: yaml
   label: 7shifts Companies API
   slug: 7shifts-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-companies-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-companies-api-openapi.yml
 - filename: 7shifts-departments-api-openapi.yml
   format: yaml
   label: 7shifts Departments API
   slug: 7shifts-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-departments-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-departments-api-openapi.yml
 - filename: 7shifts-identity-api-openapi.yml
   format: yaml
   label: 7shifts Identity API
   slug: 7shifts-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-identity-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-identity-api-openapi.yml
 - filename: 7shifts-locations-api-openapi.yml
   format: yaml
   label: 7shifts Locations API
   slug: 7shifts-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-locations-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-locations-api-openapi.yml
 - filename: 7shifts-reporting-api-openapi.yml
   format: yaml
   label: 7shifts Reporting API
   slug: 7shifts-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-reporting-api-openapi.yml
 - filename: 7shifts-roles-api-openapi.yml
   format: yaml
   label: 7shifts Roles API
   slug: 7shifts-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-roles-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-roles-api-openapi.yml
 - filename: 7shifts-sales-api-openapi.yml
   format: yaml
   label: 7shifts Sales API
   slug: 7shifts-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-sales-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-sales-api-openapi.yml
 - filename: 7shifts-shifts-api-openapi.yml
   format: yaml
   label: 7shifts Shifts API
   slug: 7shifts-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-shifts-api-openapi.yml
 - filename: 7shifts-time-off-api-openapi.yml
   format: yaml
   label: 7shifts Time Off API
   slug: 7shifts-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-time-off-api-openapi.yml
 - filename: 7shifts-time-punches-api-openapi.yml
   format: yaml
   label: 7shifts Time Punches API
   slug: 7shifts-time-punches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-time-punches-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-time-punches-api-openapi.yml
 - filename: 7shifts-users-api-openapi.yml
   format: yaml
   label: 7shifts Users API
   slug: 7shifts-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-users-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-users-api-openapi.yml
 - filename: 7shifts-wages-api-openapi.yml
   format: yaml
   label: 7shifts Wages API
   slug: 7shifts-wages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-wages-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-wages-api-openapi.yml
 - filename: 7shifts-webhooks-api-openapi.yml
   format: yaml
   label: 7shifts Webhooks API
   slug: 7shifts-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-webhooks-api-openapi.yml
 - filename: 7shifts-oauth-api-openapi.yml
   format: yaml
   label: 7shifts O Auth API
   slug: 7shifts-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/openapi/7shifts-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/7shifts/openapi/7shifts-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.7shifts.com/docs/oauth-authentication
@@ -199,7 +199,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/7shifts-openapi.yml\ndocs: https://developers.7shifts.com/docs/oauth-authentication\nschemes:\n- name: oauth2\n  source: openapi/7shifts-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.7shifts.com/oauth2/token\n  description: OAuth 2.0 with client_credentials, password, authorization_code, and refresh_token\n    grant types.\nscopes:\n- scope: companies:read\n  description: Reading or mutating company object.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: companies:write\n  description: Reading or mutating company object.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: departments:read\n  description: Reading or mutating departments.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: departments:write\n  description: Reading or mutating departments.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n\
   - scope: locations:read\n  description: Reading or mutating locations.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: locations:write\n  description: Reading or mutating locations.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: roles:read\n  description: Reading or mutating roles.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: roles:write\n  description: Reading or mutating roles.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: users:read\n  description: Reading or mutating users.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: users:write\n  description: Reading or mutating users.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: sales:read\n  description: Reading or mutating sales.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: sales:write\n\
   \  description: Reading or mutating sales.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: shifts:read\n  description: Reading or mutating shifts and schedule publishing.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: shifts:write\n  description: Reading or mutating shifts and schedule publishing.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: time_punches:read\n  description: Reading or mutating time punches.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: time_punches:write\n  description: Reading or mutating time punches.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: events:read\n  description: Reading or mutating schedule events.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n- scope: events:write\n  description: Reading or mutating schedule events.\n  sources:\n  - https://developers.7shifts.com/docs/oauth-authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/scopes/7shifts-scopes.yml
+source_yaml_url: https://artifacts.apis.io/7shifts/scopes/7shifts-scopes.yml
 summary_line: 18 scopes · clientCredentials
 tags:
 - Restaurant

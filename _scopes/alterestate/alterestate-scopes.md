@@ -5,31 +5,31 @@ api_specs:
   label: AlterEstate Agents API
   slug: alterestate-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-agents-api-openapi.yml
+  url: https://artifacts.apis.io/alterestate/openapi/alterestate-agents-api-openapi.yml
 - filename: alterestate-developments-api-openapi.yml
   format: yaml
   label: AlterEstate Developments API
   slug: alterestate-developments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-developments-api-openapi.yml
+  url: https://artifacts.apis.io/alterestate/openapi/alterestate-developments-api-openapi.yml
 - filename: alterestate-leads-api-openapi.yml
   format: yaml
   label: AlterEstate Leads API
   slug: alterestate-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-leads-api-openapi.yml
+  url: https://artifacts.apis.io/alterestate/openapi/alterestate-leads-api-openapi.yml
 - filename: alterestate-locations-api-openapi.yml
   format: yaml
   label: AlterEstate Locations API
   slug: alterestate-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-locations-api-openapi.yml
+  url: https://artifacts.apis.io/alterestate/openapi/alterestate-locations-api-openapi.yml
 - filename: alterestate-properties-api-openapi.yml
   format: yaml
   label: AlterEstate Properties API
   slug: alterestate-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/openapi/alterestate-properties-api-openapi.yml
+  url: https://artifacts.apis.io/alterestate/openapi/alterestate-properties-api-openapi.yml
 authorization_urls:
 - https://secure.alterestate.com/oauth/authorize/
 description: ''
@@ -72,7 +72,7 @@ source_filename: alterestate-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/alterestate-openapi.yml\ndocs: https://secure.alterestate.com/.well-known/oauth-authorization-server\nschemes:\n- name: oauth2\n  source: openapi/alterestate-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://secure.alterestate.com/oauth/authorize/\n    tokenUrl: https://secure.alterestate.com/oauth/token/\n  description: OAuth 2.0 authorization used by the AlterEstate (Brik/alterai) hosted MCP server.\nscopes:\n- scope: mcp\n  description: Access the AlterEstate hosted MCP server (secure.alterestate.com/api/v1/alterai/mcp/).\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/alterestate-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/scopes/alterestate-scopes.yml
+source_yaml_url: https://artifacts.apis.io/alterestate/scopes/alterestate-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

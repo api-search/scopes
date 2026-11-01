@@ -5,31 +5,31 @@ api_specs:
   label: Microsoft Copilot Change Notifications API
   slug: microsoft-copilot-change-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-change-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-copilot/openapi/microsoft-copilot-change-notifications-api-openapi.yml
 - filename: microsoft-copilot-chat-api-openapi.yml
   format: yaml
   label: Microsoft Copilot Chat API
   slug: microsoft-copilot-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-chat-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-copilot/openapi/microsoft-copilot-chat-api-openapi.yml
 - filename: microsoft-copilot-interaction-export-api-openapi.yml
   format: yaml
   label: Microsoft Copilot Interaction Export API
   slug: microsoft-copilot-interaction-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-interaction-export-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-copilot/openapi/microsoft-copilot-interaction-export-api-openapi.yml
 - filename: microsoft-copilot-retrieval-api-openapi.yml
   format: yaml
   label: Microsoft Copilot Retrieval API
   slug: microsoft-copilot-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-copilot/openapi/microsoft-copilot-retrieval-api-openapi.yml
 - filename: microsoft-copilot-search-api-openapi.yml
   format: yaml
   label: Microsoft Copilot Search API
   slug: microsoft-copilot-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-copilot/openapi/microsoft-copilot-search-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -93,7 +93,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-copilot-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-copilot-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Microsoft identity platform (Azure AD). Requires\n    a Microsoft 365 Copilot license for each user accessing Copilot API functionality.\nscopes:\n- scope: AIInteraction.Read.All\n  description: Read all AI interactions for compliance\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-copilot-openapi.yml\n- scope: Chat.Read\n  description: Read user chat messages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-copilot-openapi.yml\n- scope: ExternalItem.Read.All\n  description: Read external items from Copilot connectors\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/microsoft-copilot-openapi.yml\n- scope: Files.Read.All\n  description: Read all files the user can access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-copilot-openapi.yml\n- scope: Sites.Read.All\n  description: Read items in all site collections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-copilot-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/scopes/microsoft-copilot-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-copilot/scopes/microsoft-copilot-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Agents

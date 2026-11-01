@@ -5,61 +5,61 @@ api_specs:
   label: Wove Authentication API
   slug: wove-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-authentication-api-openapi.yml
 - filename: wove-documents-api-openapi.yml
   format: yaml
   label: Wove Documents API
   slug: wove-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-documents-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-documents-api-openapi.yml
 - filename: wove-query-bank-api-openapi.yml
   format: yaml
   label: Wove Query Bank API
   slug: wove-query-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-query-bank-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-query-bank-api-openapi.yml
 - filename: wove-rates-api-openapi.yml
   format: yaml
   label: Wove Rates API
   slug: wove-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-rates-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-rates-api-openapi.yml
 - filename: wove-shipments-api-openapi.yml
   format: yaml
   label: Wove Shipments API
   slug: wove-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-shipments-api-openapi.yml
 - filename: wove-sources-api-openapi.yml
   format: yaml
   label: Wove Sources API
   slug: wove-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-sources-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-sources-api-openapi.yml
 - filename: wove-tariffs-api-openapi.yml
   format: yaml
   label: Wove Tariffs API
   slug: wove-tariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-tariffs-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-tariffs-api-openapi.yml
 - filename: wove-testing-api-openapi.yml
   format: yaml
   label: Wove Testing API
   slug: wove-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-testing-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-testing-api-openapi.yml
 - filename: wove-tms-organizations-api-openapi.yml
   format: yaml
   label: Wove TMS Organizations API
   slug: wove-tms-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-tms-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-tms-organizations-api-openapi.yml
 - filename: wove-webhooks-api-openapi.yml
   format: yaml
   label: Wove Webhooks API
   slug: wove-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-webhooks-api-openapi.yml
 authorization_urls: []
 description: OAuth 2.0 scopes for the Wove External API, derived from the published OpenAPI at api.wove.com/api/docs. The API uses the client_credentials grant (POST /api/v1/external/auth/token) with an optional space-separated scope parameter; the spec's securityScheme is declared as http bearer (JWT), with the scope model expressed through the TokenRequest/TokenResponse schemas and per-operation 403 "requires <scope> scope" responses. Scope names below are exactly those named in the spec; Wove publishes no standalone scopes reference page.
 docs: ''
@@ -134,7 +134,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/wove-external-api-openapi-original.yml\ndescription: >-\n  OAuth 2.0 scopes for the Wove External API, derived from the published\n  OpenAPI at api.wove.com/api/docs. The API uses the client_credentials grant\n  (POST /api/v1/external/auth/token) with an optional space-separated scope\n  parameter; the spec's securityScheme is declared as http bearer (JWT), with\n  the scope model expressed through the TokenRequest/TokenResponse schemas and\n  per-operation 403 \"requires <scope> scope\" responses. Scope names below are\n  exactly those named in the spec; Wove publishes no standalone scopes\n  reference page.\nschemes:\n  - name: bearerAuth\n    type: http (bearer JWT) issued via OAuth 2.0 client_credentials\n    source: openapi/wove-external-api-openapi-original.yml\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://api.wove.com/api/v1/external/auth/token\n        revocationUrl: https://api.wove.com/api/v1/external/auth/revoke\n\
   scopes:\n  - scope: shipments:read\n    description: Read access to shipments (named in TokenRequest/TokenResponse scope examples).\n    sources: [openapi/wove-external-api-openapi-original.yml]\n  - scope: documents:read\n    description: Read access to documents (named in TokenRequest/TokenResponse scope examples).\n    sources: [openapi/wove-external-api-openapi-original.yml]\n  - scope: validation:create\n    description: Create document validation jobs (named in TokenRequest/TokenResponse scope examples).\n    sources: [openapi/wove-external-api-openapi-original.yml]\n  - scope: tariffs:read\n    description: Required for tariff lookup/search/batch-lookup operations (per-operation 403 responses).\n    sources: [openapi/wove-external-api-openapi-original.yml]\n  - scope: rates:read\n    description: Required for querying rates from query-bank sources (per-operation 403 response).\n    sources: [openapi/wove-external-api-openapi-original.yml]\n  - scope: sources:write\n    description:\
   \ Required for uploading and processing rate/document sources (per-operation 403 response).\n    sources: [openapi/wove-external-api-openapi-original.yml]\n  - scope: tms-organizations:read\n    description: Read access to TMS organizations (per-operation 403 responses).\n    sources: [openapi/wove-external-api-openapi-original.yml]\n  - scope: tms-organizations:write\n    description: Create/update/import TMS organizations (per-operation 403 responses).\n    sources: [openapi/wove-external-api-openapi-original.yml]\n  - scope: tms-organizations:delete\n    description: Delete TMS organizations (per-operation 403 response).\n    sources: [openapi/wove-external-api-openapi-original.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/scopes/wove-scopes.yml
+source_yaml_url: https://artifacts.apis.io/wove/scopes/wove-scopes.yml
 summary_line: 9 scopes · clientCredentials
 tags:
 - Company

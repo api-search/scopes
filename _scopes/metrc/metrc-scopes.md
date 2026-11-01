@@ -30,14 +30,14 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metrc/refs/heads/main/scopes/metrc-scopes.yml
+source_yaml_url: https://artifacts.apis.io/metrc/scopes/metrc-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Cannabis
+- Track-and-Trace
 - Compliance
-- Tracking
-- Software
+- API
 token_bound: false
 token_urls: []
 ---

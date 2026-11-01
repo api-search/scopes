@@ -5,37 +5,37 @@ api_specs:
   label: Ford Charging API
   slug: ford-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-charging-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-charging-api-openapi.yml
 - filename: ford-commands-api-openapi.yml
   format: yaml
   label: Ford Commands API
   slug: ford-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-commands-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-commands-api-openapi.yml
 - filename: ford-images-api-openapi.yml
   format: yaml
   label: Ford Images API
   slug: ford-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-images-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-images-api-openapi.yml
 - filename: ford-status-api-openapi.yml
   format: yaml
   label: Ford Status API
   slug: ford-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-status-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-status-api-openapi.yml
 - filename: ford-vehicles-api-openapi.yml
   format: yaml
   label: Ford Vehicles API
   slug: ford-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-vehicles-api-openapi.yml
 - filename: ford-oauth-api-openapi.yml
   format: yaml
   label: Ford O Auth API
   slug: ford-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/openapi/ford-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/ford/openapi/ford-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.ford.com/apis
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-09-10'\nmethod: searched\nsource: https://develop
   \ information, including tire pressure, oil life, and\n    Diesel exhaust system status.\n  kind: data-category\n  flows:\n  - authorizationCode\n  consent: vehicle owner, via FordPass account linking\n  sources:\n  - https://developer.ford.com/assets/i18n/en.json\n- scope: vehicleLocation\n  name: Vehicle Location\n  description: Positional and movement data, including GPS coordinates, compass direction, and wheel speed.\n  kind: data-category\n  flows:\n  - authorizationCode\n  consent: vehicle owner, via FordPass account linking\n  sources:\n  - https://developer.ford.com/assets/i18n/en.json\n- scope: vehicleSecurity\n  name: Vehicle Security\n  description: Status of security systems, including alarms, door locks, and window positions.\n  kind: data-category\n  flows:\n  - authorizationCode\n  consent: vehicle owner, via FordPass account linking\n  sources:\n  - https://developer.ford.com/assets/i18n/en.json\n- scope: dynamicCharging\n  name: Dynamic Charging\n  description: Dynamic\
   \ charging vehicle’s data includes start charging, stop charging, set vehicle home.\n  kind: data-category\n  flows:\n  - authorizationCode\n  consent: vehicle owner, via FordPass account linking\n  sources:\n  - https://developer.ford.com/assets/i18n/en.json\n- scope: vehicleCommands\n  name: Vehicle Commands\n  description: Commands to interact with the vehicle, such as lock and unlock.\n  kind: data-category\n  flows:\n  - authorizationCode\n  consent: vehicle owner, via FordPass account linking\n  sources:\n  - https://developer.ford.com/assets/i18n/en.json\n- scope: vehicleBasicInfo\n  name: Vehicle Basic Info\n  description: Vehicle identity information including VIN, Make, Model, Year, and Drivetrain configuration.\n  kind: data-category\n  flows:\n  - authorizationCode\n  consent: vehicle owner, via FordPass account linking\n  sources:\n  - https://developer.ford.com/assets/i18n/en.json\n- scope: customerInfo\n  name: Customer Information\n  description: Name and email address.\n\
   \  kind: data-category\n  flows:\n  - authorizationCode\n  consent: vehicle owner, via FordPass account linking\n  sources:\n  - https://developer.ford.com/assets/i18n/en.json\n- scope: rewards\n  name: Rewards Information\n  description: Ford/Lincoln Rewards member number and points information.\n  kind: data-category\n  flows:\n  - authorizationCode\n  consent: vehicle owner, via FordPass account linking\n  sources:\n  - https://developer.ford.com/assets/i18n/en.json\nx-evidence:\n- url: https://developer.ford.com/assets/i18n/en.json\n  http_status: 200\n  fetched: '2026-09-10'\n- url: https://dah2vb2cprod.b2clogin.com/914d88b1-3523-4bf6-9be4-1b96b4f6f919/B2C_1A_signup_signin_common/v2.0/.well-known/openid-configuration\n  http_status: 200\n  fetched: '2026-09-10'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/scopes/ford-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ford/scopes/ford-scopes.yml
 summary_line: 14 scopes
 tags:
 - Automobiles

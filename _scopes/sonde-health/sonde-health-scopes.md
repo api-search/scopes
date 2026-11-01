@@ -5,13 +5,13 @@ api_specs:
   label: Sonde Health Authentication API
   slug: sonde-health-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonde-health/refs/heads/main/openapi/sonde-health-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sonde-health/openapi/sonde-health-authentication-api-openapi.yml
 - filename: sonde-health-platform-api-openapi.yml
   format: yaml
   label: Sonde Health Platform API
   slug: sonde-health-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonde-health/refs/heads/main/openapi/sonde-health-platform-api-openapi.yml
+  url: https://artifacts.apis.io/sonde-health/openapi/sonde-health-platform-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://sondehealth.atlassian.net/wiki/spaces/SA/pages/2706931713/Authentication+Scopes
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-08-28'\nmethod: searched\nsource: https://sondehe
   \  service: InferenceService\n- name: sonde-platform/voice-feature-scores.write\n  description: Permission to create a job to infer voice-feature scores for a measure.\n  service: InferenceService\n- name: sonde-platform/voice-feature-scores.read\n  description: Permission to pull a voice-feature job and to get the voice-feature-scores.\n  service: InferenceService\n- name: sonde-platform/measures.read\n  description: Permission to read the particular measures permitted to you from MeasureService.\n  service: MeasureService\n- name: sonde-platform/measures.list\n  description: Permission to list the measures permitted to you from MeasureService.\n  service: MeasureService\n- name: sonde-platform/questionnaires.read\n  description: Permission to read questionnaire.\n  service: QuestionnaireManager\n- name: sonde-platform/questionnaires.write\n  description: Permission to create a questionnaire.\n  service: QuestionnaireManager\n  note: Observed in the Partner Questionnaire Creation use\
   \ case.\n- name: sonde-platform/questionnaire.write\n  description: Singular variant of the questionnaire-write scope observed in the questionnaire\n    creation docs alongside the plural form.\n  service: QuestionnaireManager\n  note: Both spellings appear in Sonde's published curl examples; recorded verbatim\n    rather than normalised.\n- name: sonde-platform/questionnaire-responses.write\n  description: Permission to submit responses of questionnaire.\n  service: QuestionnaireManager\n- name: sonde-platform/questionnaire-responses.read\n  description: Permission to read submitted questionnaire responses.\n  service: QuestionnaireManager\n- name: sonde-platform/transcriptions.write\n  description: Permission to create a transcribe job.\n  service: TranscriptionService\n- name: sonde-platform/transcriptions.read\n  description: Permission to poll (or read) a transcribe job (or transcript).\n  service: TranscriptionService\n- name: sonde-platform/reports.read\n  description: Read screening-result\
   \ reports.\n  service: ScreeningReports\n  source: openapi/sonde-health-screening-api-openapi.yaml\n- name: sonde-platform/screening-results.list\n  description: List screening results.\n  service: ScreeningReports\n  source: openapi/sonde-health-screening-api-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonde-health/refs/heads/main/scopes/sonde-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sonde-health/scopes/sonde-health-scopes.yml
 summary_line: 17 scopes · clientCredentials
 tags:
 - Company

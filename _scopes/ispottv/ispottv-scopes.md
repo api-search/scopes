@@ -5,7 +5,7 @@ api_specs:
   label: iSpot.tv API
   slug: ispottv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/openapi/_ae-authored/ispottv-openapi-generated.yml
+  url: https://artifacts.apis.io/ispottv/openapi/_ae-authored/ispottv-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -40,7 +40,7 @@ source_filename: ispottv-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: none\nsource: openapi/ispottv-openapi-generated.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/ispottv-openapi-generated.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ispot.tv/v4/oauth2/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/scopes/ispottv-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ispottv/scopes/ispottv-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

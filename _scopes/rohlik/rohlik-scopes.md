@@ -50,7 +50,7 @@ source_filename: rohlik-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://mcp.rohlik.cz/.well-known/oauth-protected-resource/mcp\ndocs: https://rohlik.cz/mcp-docs\nschemes:\n  - name: RohlikOAuth2\n    source: https://identity.rohlik.cz/.well-known/openid-configuration\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://identity.rohlik.cz/oauth2/authorize\n        tokenUrl: https://identity.rohlik.cz/oauth2/token\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication; issue an ID token for the signed-in Rohlik account.\n    flows: [authorizationCode]\n    sources: [https://mcp.rohlik.cz/.well-known/oauth-protected-resource/mcp]\n  - scope: email\n    description: Access the account's email address claim.\n    flows: [authorizationCode]\n    sources: [https://mcp.rohlik.cz/.well-known/oauth-protected-resource/mcp]\n  - scope: roles\n    description: Access the account's assigned roles claim.\n    flows: [authorizationCode]\n    sources: [https://mcp.rohlik.cz/.well-known/oauth-protected-resource/mcp]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rohlik/refs/heads/main/scopes/rohlik-scopes.yml
+source_yaml_url: https://artifacts.apis.io/rohlik/scopes/rohlik-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

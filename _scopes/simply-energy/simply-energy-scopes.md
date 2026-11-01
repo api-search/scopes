@@ -5,55 +5,55 @@ api_specs:
   label: Simply Energy Data Holder Customers API
   slug: simply-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-data-holder-customers-api-openapi.yml
 - filename: simply-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: Simply Energy Data Holder Operations API
   slug: simply-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-data-holder-operations-api-openapi.yml
 - filename: simply-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Simply Energy Distributed Energy Resources API
   slug: simply-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-distributed-energy-resources-api-openapi.yml
 - filename: simply-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: Simply Energy Electricity Service Points API
   slug: simply-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-electricity-service-points-api-openapi.yml
 - filename: simply-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: Simply Energy Electricity Usage API
   slug: simply-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-electricity-usage-api-openapi.yml
 - filename: simply-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: Simply Energy Account Balances API
   slug: simply-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-account-balances-api-openapi.yml
 - filename: simply-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: Simply Energy Account Billing API
   slug: simply-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-account-billing-api-openapi.yml
 - filename: simply-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: Simply Energy Accounts API
   slug: simply-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-accounts-api-openapi.yml
 - filename: simply-energy-energy-plans-api-openapi.yml
   format: yaml
   label: Simply Energy Plans API
   slug: simply-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/openapi/simply-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/simply-energy/openapi/simply-energy-energy-plans-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/simply-
   \ balances, invoices and payment history.\n  data_cluster_language: Billing payments and history\n  permission_language: Account balance; Payment method; Payment status; Charges, discounts,\n    credits; Billing date; Usage for billing period; Payment date; Invoice number\n  category: energy-billing\n  operations: [getEnergyAccountBalance, listEnergyAccountBalancesBulk, listEnergyAccountBalancesSpecificAccounts,\n    getEnergyAccountInvoices, listEnergyAccountInvoicesBulk, listEnergyInvoicesForSpecificAccounts,\n    getBillingForEnergyAccount, listEnergyAccountBillingBulk, listEnergyAccountBillingForSpecificAccounts]\n  sources: [openapi/simply-energy-cds-energy-openapi.yml]\n  flows: [authorizationCode]\n- scope: energy:electricity.servicepoints.basic:read\n  description: Electricity connection - the NMI standing data basic set.\n  data_cluster_language: Electricity connection\n  permission_language: National Meter Identifier (NMI); Customer type; Connection point details\n  category:\
   \ energy-servicepoints\n  operations: [listElectricityServicePoints]\n  sources: [openapi/simply-energy-cds-energy-openapi.yml]\n  flows: [authorizationCode]\n- scope: energy:electricity.servicepoints.detail:read\n  description: Electricity connection and meter - the NMI standing data detail set.\n  data_cluster_language: Electricity meter\n  permission_language: Supply address; Meter details; Associated service providers\n  category: energy-servicepoints\n  operations: [getElectricityServicePointDetail]\n  sources: [openapi/simply-energy-cds-energy-openapi.yml]\n  flows: [authorizationCode]\n- scope: energy:electricity.usage:read\n  description: Electricity usage reads for the consented service points.\n  data_cluster_language: Electricity usage\n  permission_language: Usage; Meter details\n  category: energy-usage\n  operations: [getElectricityServicePointUsage, listElectricityUsageBulk, listElectricityUsageForServicePoints]\n  sources: [openapi/simply-energy-cds-energy-openapi.yml]\n\
   \  flows: [authorizationCode]\n- scope: energy:electricity.der:read\n  description: Distributed energy resources - generation and storage devices behind the meter.\n  data_cluster_language: Energy generation and storage\n  permission_language: Generation information; Generation or storage device type; Device\n    characteristics; Devices that can operate without the grid; Energy conversion information\n  category: energy-der\n  operations: [getElectricityDERForServicePoint, listElectricityDERBulk, listElectricityDERForSpecificServicePoints]\n  sources: [openapi/simply-energy-cds-energy-openapi.yml]\n  flows: [authorizationCode]\nunscoped_operations:\n- {operationId: listEnergyPlans, reason: public unauthenticated generic tariff data}\n- {operationId: getEnergyPlanDetail, reason: public unauthenticated generic tariff data}\n- {operationId: getStatus, reason: public unauthenticated discovery endpoint}\n- {operationId: getOutages, reason: public unauthenticated discovery endpoint}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/scopes/simply-energy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/simply-energy/scopes/simply-energy-scopes.yml
 summary_line: 13 scopes · authorizationCode
 tags:
 - Energy

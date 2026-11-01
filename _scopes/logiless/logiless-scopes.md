@@ -5,55 +5,55 @@ api_specs:
   label: Logiless Articles API
   slug: logiless-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-articles-api-openapi.yml
+  url: https://artifacts.apis.io/logiless/openapi/logiless-articles-api-openapi.yml
 - filename: logiless-inbound-deliveries-api-openapi.yml
   format: yaml
   label: Logiless Inbound Deliveries API
   slug: logiless-inbound-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-inbound-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/logiless/openapi/logiless-inbound-deliveries-api-openapi.yml
 - filename: logiless-inter-warehouse-transfers-api-openapi.yml
   format: yaml
   label: Logiless Inter-Warehouse Transfers API
   slug: logiless-inter-warehouse-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-inter-warehouse-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/logiless/openapi/logiless-inter-warehouse-transfers-api-openapi.yml
 - filename: logiless-inventory-api-openapi.yml
   format: yaml
   label: Logiless Inventory API
   slug: logiless-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/logiless/openapi/logiless-inventory-api-openapi.yml
 - filename: logiless-locations-api-openapi.yml
   format: yaml
   label: Logiless Locations API
   slug: logiless-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-locations-api-openapi.yml
+  url: https://artifacts.apis.io/logiless/openapi/logiless-locations-api-openapi.yml
 - filename: logiless-outbound-deliveries-api-openapi.yml
   format: yaml
   label: Logiless Outbound Deliveries API
   slug: logiless-outbound-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-outbound-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/logiless/openapi/logiless-outbound-deliveries-api-openapi.yml
 - filename: logiless-sales-orders-api-openapi.yml
   format: yaml
   label: Logiless Sales Orders API
   slug: logiless-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/logiless/openapi/logiless-sales-orders-api-openapi.yml
 - filename: logiless-sales-returns-api-openapi.yml
   format: yaml
   label: Logiless Sales Returns API
   slug: logiless-sales-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-sales-returns-api-openapi.yml
+  url: https://artifacts.apis.io/logiless/openapi/logiless-sales-returns-api-openapi.yml
 - filename: logiless-suppliers-api-openapi.yml
   format: yaml
   label: Logiless Suppliers API
   slug: logiless-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/openapi/logiless-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/logiless/openapi/logiless-suppliers-api-openapi.yml
 authorization_urls:
 - https://app2.logiless.com/oauth/v2/auth
 description: ''
@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/logiless-ar
   \ tokens are valid\n    for 30 days. Tokens are issued per LOGILESS user and scoped to that user's merchant data.\n- name: oauth2\n  source: openapi/logiless-outbound-deliveries-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app2.logiless.com/oauth/v2/auth\n    tokenUrl: https://app2.logiless.com/oauth2/token\n  description: OAuth 2.0 authorization-code flow. Applications must be registered and reviewed\n    (3–5 business days) in the LOGILESS Developers console. Access and refresh tokens are valid\n    for 30 days. Tokens are issued per LOGILESS user and scoped to that user's merchant data.\n- name: oauth2\n  source: openapi/logiless-sales-orders-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app2.logiless.com/oauth/v2/auth\n    tokenUrl: https://app2.logiless.com/oauth2/token\n  description: OAuth 2.0 authorization-code flow. Applications must be registered and reviewed\n    (3–5 business days) in the LOGILESS\
   \ Developers console. Access and refresh tokens are valid\n    for 30 days. Tokens are issued per LOGILESS user and scoped to that user's merchant data.\n- name: oauth2\n  source: openapi/logiless-sales-returns-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app2.logiless.com/oauth/v2/auth\n    tokenUrl: https://app2.logiless.com/oauth2/token\n  description: OAuth 2.0 authorization-code flow. Applications must be registered and reviewed\n    (3–5 business days) in the LOGILESS Developers console. Access and refresh tokens are valid\n    for 30 days. Tokens are issued per LOGILESS user and scoped to that user's merchant data.\n- name: oauth2\n  source: openapi/logiless-suppliers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app2.logiless.com/oauth/v2/auth\n    tokenUrl: https://app2.logiless.com/oauth2/token\n  description: OAuth 2.0 authorization-code flow. Applications must be registered and reviewed\n    (3–5\
   \ business days) in the LOGILESS Developers console. Access and refresh tokens are valid\n    for 30 days. Tokens are issued per LOGILESS user and scoped to that user's merchant data.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/scopes/logiless-scopes.yml
+source_yaml_url: https://artifacts.apis.io/logiless/scopes/logiless-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Logistics

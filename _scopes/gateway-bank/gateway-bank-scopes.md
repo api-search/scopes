@@ -5,43 +5,43 @@ api_specs:
   label: Gateway Bank Banking Account Balances API
   slug: gateway-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-balances-api-openapi.yml
 - filename: gateway-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Account Direct Debits API
   slug: gateway-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-direct-debits-api-openapi.yml
 - filename: gateway-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Account Scheduled Payments API
   slug: gateway-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: gateway-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Account Transactions API
   slug: gateway-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-account-transactions-api-openapi.yml
 - filename: gateway-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Accounts API
   slug: gateway-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-accounts-api-openapi.yml
 - filename: gateway-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Payees API
   slug: gateway-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-payees-api-openapi.yml
 - filename: gateway-bank-banking-products-api-openapi.yml
   format: yaml
   label: Gateway Bank Banking Products API
   slug: gateway-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/openapi/gateway-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/gateway-bank/openapi/gateway-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -94,7 +94,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/gateway-bank-cds-banking-products-openapi.yml (x-scopes extensions)\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\nnote: Scopes are the standard CDR banking authorisation scopes carried on the CDS\n  operations via the x-scopes extension (the DSB spec does not declare OpenAPI\n  securitySchemes; it expresses authorisation via x-scopes). They apply only to the\n  authenticated consumer-data surface; the public PRD endpoints require no scope.\nschemes:\n- name: CDR-security-profile\n  type: openIdConnect\n  profile: FAPI 2.0 (CDR)\n  flows:\n  - flow: authorizationCode\nscopes:\n- scope: bank:accounts.basic:read\n  description: Read basic account information (account list and basic detail).\n  operations: [listBankingAccounts, listBankingBalancesBulk, listBankingBalancesSpecificAccounts,\n    getBankingBalance]\n- scope: bank:accounts.detail:read\n  description: Read detailed account\
   \ information.\n  operations: [getBankingAccountDetail]\n- scope: bank:transactions:read\n  description: Read account transactions.\n  operations: [listBankingTransactions, getBankingTransactionDetail]\n- scope: bank:payees:read\n  description: Read saved payees.\n  operations: [listBankingPayees, getBankingPayeeDetail]\n- scope: bank:regular_payments:read\n  description: Read direct debits and scheduled/regular payments.\n  operations: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts,\n    listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/scopes/gateway-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gateway-bank/scopes/gateway-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Finance

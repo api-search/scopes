@@ -44,7 +44,7 @@ source_filename: rad-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.rad.live/.well-known/oauth-authorization-server\ndocs: https://developers.rad.live/docs/getting-started/authentication\nschemes:\n- name: OAuth2\n  source: https://api.rad.live/.well-known/oauth-authorization-server\n  pkce: S256\n  grant_types: [authorization_code, refresh_token]\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.rad.live/oauth/authorize\n    tokenUrl: https://api.rad.live/oauth/token\nscopes:\n- scope: mcp:tools\n  description: Access to the Rad TV MCP tool surface (34 tools) for delegated agent access\n  flows: [authorizationCode]\n  sources: [well-known/rad-oauth-authorization-server.json]\nnotes:\n- >-\n  OAuth 2.1 delegated access is scoped for MCP clients. Direct API-key (Bearer)\n  access is unscoped and inherits the account's subscription-based permissions;\n  the GraphQL API itself does not advertise per-operation OAuth scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rad/refs/heads/main/scopes/rad-scopes.yml
+source_yaml_url: https://artifacts.apis.io/rad/scopes/rad-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

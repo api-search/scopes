@@ -5,43 +5,43 @@ api_specs:
   label: PTC ThingWorx WebSocket/AlwaysOn API
   slug: thingworx-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/asyncapi/ptc-thingworx-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/asyncapi/ptc-thingworx-websocket-asyncapi.yml
 - filename: ptc-thingworx-datashapes-api-openapi.yml
   format: yaml
   label: ptc-thingworx DataShapes API
   slug: ptc-thingworx-datashapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-datashapes-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-datashapes-api-openapi.yml
 - filename: ptc-thingworx-events-api-openapi.yml
   format: yaml
   label: ptc-thingworx Events API
   slug: ptc-thingworx-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-events-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-events-api-openapi.yml
 - filename: ptc-thingworx-properties-api-openapi.yml
   format: yaml
   label: ptc-thingworx Properties API
   slug: ptc-thingworx-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-properties-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-properties-api-openapi.yml
 - filename: ptc-thingworx-things-api-openapi.yml
   format: yaml
   label: ptc-thingworx Things API
   slug: ptc-thingworx-things-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-things-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-things-api-openapi.yml
 - filename: ptc-thingworx-thingtemplates-api-openapi.yml
   format: yaml
   label: ptc-thingworx ThingTemplates API
   slug: ptc-thingworx-thingtemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-thingtemplates-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-thingtemplates-api-openapi.yml
 - filename: ptc-thingworx-valuestreams-api-openapi.yml
   format: yaml
   label: ptc-thingworx ValueStreams API
   slug: ptc-thingworx-valuestreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/openapi/ptc-thingworx-valuestreams-api-openapi.yml
+  url: https://artifacts.apis.io/ptc-thingworx/openapi/ptc-thingworx-valuestreams-api-openapi.yml
 authorization_urls:
 - https://thingworx.example.com/oauth/authorize
 description: ''
@@ -83,7 +83,7 @@ source_filename: ptc-thingworx-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ptc-thingworx-rest-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/ptc-thingworx-rest-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://thingworx.example.com/oauth/authorize\n    tokenUrl: https://thingworx.example.com/oauth/token\nscopes:\n- scope: THINGWORX\n  description: Access ThingWorx REST API\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/ptc-thingworx-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ptc-thingworx/refs/heads/main/scopes/ptc-thingworx-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ptc-thingworx/scopes/ptc-thingworx-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Manufacturing

@@ -5,25 +5,25 @@ api_specs:
   label: Avis Budget Group Car Availability API
   slug: avis-budget-car-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-availability-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-car-availability-api-openapi.yml
 - filename: avis-budget-car-locations-api-openapi.yml
   format: yaml
   label: Avis Budget Group Car Locations API
   slug: avis-budget-car-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-locations-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-car-locations-api-openapi.yml
 - filename: avis-budget-car-reservation-api-openapi.yml
   format: yaml
   label: Avis Budget Group Car Reservation API
   slug: avis-budget-car-reservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-reservation-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-car-reservation-api-openapi.yml
 - filename: avis-budget-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Avis Budget Group Terms And Conditions API
   slug: avis-budget-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-terms-and-conditions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.avis.com/getting-started
@@ -59,7 +59,7 @@ source_filename: avis-budget-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-18'\nmethod: searched\nsource: openapi/avis-budget-rental-cars-openapi.yml\ndocs: https://developer.avis.com/getting-started\nschemes:\n- name: ABG-Access-Token\n  source: openapi/avis-budget-rental-cars-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://stage.abgapiservices.com/oauth/token/v2\n  description: OAuth 2.0 client credentials flow used to authenticate all API requests in this package.\nscopes: []\nscope_count: 0\nnote: >-\n  No scopes exist. The OpenAPI declares an empty `scopes` map on the clientCredentials flow, and the\n  Getting Started page documents the token exchange without any scope parameter; authorization is\n  per approved Client Application, not per scope. The Okta tenant named in the API's WWW-Authenticate\n  realm advertises only Okta's own platform scopes (okta.users.read etc.), which are not ABG API\n  scopes and are not recorded here.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/scopes/avis-budget-scopes.yml
+source_yaml_url: https://artifacts.apis.io/avis-budget/scopes/avis-budget-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Fortune 500

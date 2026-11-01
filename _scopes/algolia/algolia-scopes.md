@@ -5,85 +5,85 @@ api_specs:
   label: Algolia Search API
   slug: algolia-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-search-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-search-api-openapi.yml
 - filename: algolia-insights-api-openapi.yml
   format: yaml
   label: Algolia Insights API
   slug: algolia-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-insights-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-insights-api-openapi.yml
 - filename: algolia-recommend-api-openapi.yml
   format: yaml
   label: Algolia Recommend API
   slug: algolia-recommend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-recommend-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-recommend-api-openapi.yml
 - filename: algolia-analytics-api-openapi.yml
   format: yaml
   label: Algolia Analytics API
   slug: algolia-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-analytics-api-openapi.yml
 - filename: algolia-abtesting-v3-api-openapi.yml
   format: yaml
   label: Algolia A/B Testing API
   slug: algolia-a-b-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-abtesting-v3-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-abtesting-v3-api-openapi.yml
 - filename: algolia-personalization-api-openapi.yml
   format: yaml
   label: Algolia Personalization API
   slug: algolia-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-personalization-api-openapi.yml
 - filename: algolia-advanced-personalization-api-openapi.yml
   format: yaml
   label: Algolia Advanced Personalization API
   slug: algolia-advanced-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-advanced-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-advanced-personalization-api-openapi.yml
 - filename: algolia-crawler-api-openapi.yml
   format: yaml
   label: Algolia Crawler API
   slug: algolia-crawler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-crawler-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-crawler-api-openapi.yml
 - filename: algolia-ingestion-api-openapi.yml
   format: yaml
   label: Algolia Ingestion API
   slug: algolia-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-ingestion-api-openapi.yml
 - filename: algolia-query-suggestions-api-openapi.yml
   format: yaml
   label: Algolia Query Suggestions API
   slug: algolia-query-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-query-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-query-suggestions-api-openapi.yml
 - filename: algolia-composition-api-openapi.yml
   format: yaml
   label: Algolia Composition API
   slug: algolia-composition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-composition-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-composition-api-openapi.yml
 - filename: algolia-agent-studio-api-openapi.yml
   format: yaml
   label: Algolia Agent Studio API
   slug: algolia-agent-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-agent-studio-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-agent-studio-api-openapi.yml
 - filename: algolia-monitoring-api-openapi.yml
   format: yaml
   label: Algolia Monitoring API
   slug: algolia-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-monitoring-api-openapi.yml
 - filename: algolia-ab-testing-api-openapi.yml
   format: yaml
   label: Algolia Ab Testing API
   slug: algolia-ab-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/openapi/algolia-ab-testing-api-openapi.yml
+  url: https://artifacts.apis.io/algolia/openapi/algolia-ab-testing-api-openapi.yml
 authorization_urls: []
 description: 'Algolia''s REST APIs do NOT use OAuth - all 15 first-party OpenAPI documents declare apiKey-in-header (x-algolia-application-id + x-algolia-api-key) or, for the Crawler, HTTP Basic. Running derive-oauth-scopes.py over openapi/ finds zero oauth2 securitySchemes, correctly. OAuth exists in exactly one place in the estate: the Algolia Productivity MCP server. Its scope set was read from the RFC 9728 protected-resource metadata document, not inferred.'
 docs: ''
@@ -117,7 +117,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   \  revocation_endpoint: https://dashboard.algolia.com/2/oauth/token\n  grant_types:\n  - authorization_code\n  - refresh_token\n  response_types:\n  - code\n  pkce_methods:\n  - S256\n  client_auth_methods:\n  - none\n  dynamic_registration: true\n  scopes:\n  - name: public\n    description: 'The only scope Algolia advertises for the MCP resource. It is coarse by design: authorization is NOT carried\n      by the scope but by the signed-in user''s own Algolia permissions, which decide which applications and indices the agent\n      can reach. A single scope string therefore expands to a different effective permission set per user.'\n    source: scopes_supported in https://mcp.algolia.com/.well-known/oauth-protected-resource\n  probe:\n    url: https://mcp.algolia.com/mcp\n    http_status: 401\n    www_authenticate: Bearer resource_metadata=\"https://mcp.algolia.com/.well-known/oauth-protected-resource\", scope=\"public\"\neffective_authorization_model:\n  note: Where a scope string would\
   \ normally sit, Algolia puts an ACL on the API key. This is the real permission vocabulary\n    for the REST surface and every operation reference names the ACL it requires.\n  mechanism: api-key-acl\n  docs: https://www.algolia.com/doc/guides/security/api-keys/in-depth/api-key-restrictions\n  acls:\n  - search\n  - browse\n  - addObject\n  - deleteObject\n  - deleteIndex\n  - settings\n  - editSettings\n  - analytics\n  - recommendation\n  - usage\n  - logs\n  - seeUnretrievableAttributes\n  - listIndexes\n  acl_source: Enumerated from the ACL values documented on the API key restrictions page and used across the Search API operation\n    reference. Not read from a machine-readable enum - Algolia does not publish the ACL list as one.\n  restrictions:\n  - validUntil (expiry)\n  - restrictIndices\n  - restrictSources (IP)\n  - referers\n  - maxQueriesPerIPPerHour\n  - maxHitsPerQuery\n  secured_api_keys:\n    note: A search-only key can be signed client-side with embedded filters to produce\
   \ a per-end-user key, which is Algolia's\n      answer to per-tenant authorization without an authorization server.\n    docs: https://www.algolia.com/doc/guides/security/api-keys/how-to/user-restricted-access-to-data\n  limit: 5,000 API keys per application (documented service limit).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/scopes/algolia-scopes.yml
+source_yaml_url: https://artifacts.apis.io/algolia/scopes/algolia-scopes.yml
 summary_line: 1 scope
 tags:
 - Search

@@ -5,25 +5,25 @@ api_specs:
   label: BetGenius Booking V1 API
   slug: betgenius-bookingv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-bookingv1-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-bookingv1-api-openapi.yml
 - filename: betgenius-bookingv2-api-openapi.yml
   format: yaml
   label: BetGenius Booking V2 API
   slug: betgenius-bookingv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-bookingv2-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-bookingv2-api-openapi.yml
 - filename: betgenius-fixtures-api-openapi.yml
   format: yaml
   label: BetGenius Fixtures API
   slug: betgenius-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-fixtures-api-openapi.yml
 - filename: betgenius-regions-api-openapi.yml
   format: yaml
   label: BetGenius Regions API
   slug: betgenius-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/openapi/betgenius-regions-api-openapi.yml
+  url: https://artifacts.apis.io/betgenius/openapi/betgenius-regions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://geniussports.atlassian.net/wiki/spaces/BID/pages/3925901961/Match+State+Platform+APIs+Authentication
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://geniuss
   \ definition. Treat this as evidence that the scope model exists and what its\n  naming convention is, not as an exhaustive list.\nscheme:\n  name: OAuth2\n  flow: clientCredentials\n  token_url: https://auth.api.geniussports.com/oauth2/token\n  issuer: Amazon Cognito user pool in eu-west-1 (cognito-idp.eu-west-1.amazonaws.com)\n  applies_to: Match State Platform APIs, Access Control API, Schedule API, Statistics API\nnaming_convention: '<resource-server>/<resource>.<action>  e.g. matchstateapi/schedule.read'\ncompleteness: partial\nscopes:\n  - scope: matchstateapi/global\n    description: Global access marker on the Match State Platform resource server.\n  - scope: matchstateapi/live.read\n    description: Read live match state / live access tokens.\n  - scope: matchstateapi/live.post\n    description: Publish live match state (feed-provider side).\n  - scope: matchstateapi/schedule.read\n    description: Read the fixture coverage schedule (Schedule API GET).\n  - scope: matchstateapi/schedule.post\n\
   \    description: Publish fixture coverage schedule entries (feed-provider side).\n  - scope: matchstateapi/granularity.read\n    description: Read match-state source-id granularity settings.\n  - scope: matchstateapi/granularity.post\n    description: Write match-state source-id granularity settings.\n  - scope: matchstateapi/sport.10\n    description: Per-sport entitlement — sport id 10 is Football (soccer). Sport entitlements are granted individually.\n  - scope: matchstateapi/source.livestats\n    description: Per-source entitlement for the LiveStats data source.\n  - scope: matchstateapi/source.isd\n    description: Per-source entitlement for the ISD data source.\nobservations:\n  - >-\n    Entitlement is two-dimensional: a client is granted resource scopes (live/schedule/granularity,\n    read vs post) AND scalar entitlement scopes for each sport (`sport.<id>`) and each data source\n    (`source.<name>`). A sportsbook licensed for Football but not American Football carries\n    `sport.10`\
   \ and not `sport.17`.\n  - >-\n    Scopes are not requested per-call — the client_credentials grant returns whatever the issued\n    client is entitled to. There is no consent screen and no scope negotiation.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/scopes/betgenius-scopes.yml
+source_yaml_url: https://artifacts.apis.io/betgenius/scopes/betgenius-scopes.yml
 summary_line: 10 scopes
 tags:
 - Sportsbook

@@ -5,13 +5,13 @@ api_specs:
   label: Guardant Health Orders API
   slug: guardant-health-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/openapi/guardant-health-orders-api-openapi.yml
+  url: https://artifacts.apis.io/guardant-health/openapi/guardant-health-orders-api-openapi.yml
 - filename: guardant-health-results-api-openapi.yml
   format: yaml
   label: Guardant Health Results API
   slug: guardant-health-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/openapi/guardant-health-results-api-openapi.yml
+  url: https://artifacts.apis.io/guardant-health/openapi/guardant-health-results-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -53,7 +53,7 @@ source_filename: guardant-health-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/guardant-health-orders-api-openapi.yml, openapi/guardant-health-results-api-openapi.yml\nschemes:\n- name: partnerOAuth2\n  source: openapi/guardant-health-orders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://example.invalid/guardant-health/oauth/token\n  description: Placeholder. Partner-provisioned authentication is negotiated during EMR onboarding;\n    no public auth flow is documented.\n- name: partnerOAuth2\n  source: openapi/guardant-health-results-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://example.invalid/guardant-health/oauth/token\n  description: Placeholder. Partner-provisioned authentication is negotiated during EMR onboarding;\n    no public auth flow is documented.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/scopes/guardant-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/guardant-health/scopes/guardant-health-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Healthcare

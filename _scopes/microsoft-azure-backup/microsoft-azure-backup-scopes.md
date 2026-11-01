@@ -5,13 +5,13 @@ api_specs:
   label: Azure Backup Operations API
   slug: microsoft-azure-backup-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-backup/refs/heads/main/openapi/microsoft-azure-backup-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-backup/openapi/microsoft-azure-backup-operations-api-openapi.yml
 - filename: microsoft-azure-backup-vaults-api-openapi.yml
   format: yaml
   label: Azure Backup Vaults API
   slug: microsoft-azure-backup-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-backup/refs/heads/main/openapi/microsoft-azure-backup-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-backup/openapi/microsoft-azure-backup-vaults-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -50,7 +50,7 @@ source_filename: microsoft-azure-backup-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-backup-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-backup-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-backup-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-backup/refs/heads/main/scopes/microsoft-azure-backup-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-backup/scopes/microsoft-azure-backup-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Backup

@@ -5,19 +5,19 @@ api_specs:
   label: Travelers Claims API
   slug: travelers-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-claims-api-openapi.yml
+  url: https://artifacts.apis.io/travelers/openapi/travelers-claims-api-openapi.yml
 - filename: travelers-policies-api-openapi.yml
   format: yaml
   label: Travelers Policies API
   slug: travelers-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-policies-api-openapi.yml
+  url: https://artifacts.apis.io/travelers/openapi/travelers-policies-api-openapi.yml
 - filename: travelers-quoting-api-openapi.yml
   format: yaml
   label: Travelers Quoting API
   slug: travelers-quoting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/openapi/travelers-quoting-api-openapi.yml
+  url: https://artifacts.apis.io/travelers/openapi/travelers-quoting-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -77,7 +77,7 @@ source_filename: travelers-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/travelers-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/travelers-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.travelers.com/oauth/token\nscopes:\n- scope: claims:read\n  description: Read claim data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/travelers-openapi.yml\n- scope: claims:write\n  description: Submit and update claims\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/travelers-openapi.yml\n- scope: policies:read\n  description: Read policy data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/travelers-openapi.yml\n- scope: quotes:read\n  description: Read quote data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/travelers-openapi.yml\n- scope: quotes:write\n  description: Request quotes\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/travelers-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/scopes/travelers-scopes.yml
+source_yaml_url: https://artifacts.apis.io/travelers/scopes/travelers-scopes.yml
 summary_line: 5 scopes · clientCredentials
 tags:
 - Insurance

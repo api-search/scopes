@@ -5,79 +5,79 @@ api_specs:
   label: Canopy Connect Consent API
   slug: canopy-consent-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-consent-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-consent-api-api-openapi.yml
 - filename: canopy-enrichment-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Enrichment API
   slug: canopy-enrichment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-enrichment-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-enrichment-api-api-openapi.yml
 - filename: canopy-misc-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Misc API
   slug: canopy-misc-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-misc-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-misc-api-api-openapi.yml
 - filename: canopy-monitorings-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Monitorings API
   slug: canopy-monitorings-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-monitorings-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-monitorings-api-api-openapi.yml
 - filename: canopy-policy-check-team-setting-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Policy Check Team Setting API
   slug: canopy-policy-check-team-setting-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-policy-check-team-setting-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-policy-check-team-setting-api-api-openapi.yml
 - filename: canopy-policy-forms-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Policy Forms API
   slug: canopy-policy-forms-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-policy-forms-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-policy-forms-api-api-openapi.yml
 - filename: canopy-policy-search-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Policy Search API
   slug: canopy-policy-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-policy-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-policy-search-api-api-openapi.yml
 - filename: canopy-pulls-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Pulls API
   slug: canopy-pulls-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-pulls-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-pulls-api-api-openapi.yml
 - filename: canopy-servicings-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Servicings API
   slug: canopy-servicings-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-servicings-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-servicings-api-api-openapi.yml
 - filename: canopy-teams-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Teams API
   slug: canopy-teams-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-teams-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-teams-api-api-openapi.yml
 - filename: canopy-webhooks-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Webhooks API
   slug: canopy-webhooks-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-webhooks-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-webhooks-api-api-openapi.yml
 - filename: canopy-whitelabel-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Whitelabel API
   slug: canopy-whitelabel-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-whitelabel-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-whitelabel-api-api-openapi.yml
 - filename: canopy-widgets-api-api-openapi.yml
   format: yaml
   label: Canopy Connect Widgets API
   slug: canopy-widgets-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/openapi/canopy-widgets-api-api-openapi.yml
+  url: https://artifacts.apis.io/canopy/openapi/canopy-widgets-api-api-openapi.yml
 authorization_urls:
 - https://app.usecanopy.com/oauth2/authorize
 description: ''
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://docs.us
   \ and download the documents attached to a Pull.\n    operations:\n      - get-pull-by-id\n      - get-pulls\n      - get-document-by-id\n      - download-document-by-id\n      - post-pull-policy-check\n      - get-pull-policy-check-pdf\n  - name: read:policy_checks\n    description: Read Policy Check settings and evaluate/read Policy Check results.\n    operations:\n      - post-pull-policy-check\n      - get-pull-policy-check-pdf\n      - get-policy-check-team-settings\n  - name: write:policy_checks\n    description: Configure the Team's Policy Check settings and run a Policy Check on a Pull.\n    operations:\n      - post-pull-policy-check\n      - post-policy-check-team-settings\n  - name: read:webhooks\n    description: List webhooks. An App can only see webhooks it created itself.\n    operations:\n      - get-webhooks\n  - name: write:webhooks\n    description: Create, update and delete webhooks. An App can only modify webhooks it created itself.\n    operations:\n      - post-webhooks\n\
   \      - patch-webhook\n      - delete-webhook\n  - name: read:widgets\n    description: List widgets (links) and read a single widget.\n    operations:\n      - get-widgets\n      - get-widgetId\n  - name: write:widgets\n    description: Create, update and delete widgets, and upload a widget logo or icon.\n    operations:\n      - post-widgets\n      - patch-widgetId\n      - delete-widgetId\n      - put-widgetId-logo\n      - put-widgetId-icon\n  - name: read:driver_license_lookup\n    description: Call the driver licence enrichment lookup.\n    operations:\n      - get-enrichment-driverlicense\n  - name: read:driving_record_iq_lookup\n    description: Call the driving-record IQ enrichment lookup.\n    operations:\n      - get-enrichment-drivingrecordiq\n  - name: read:household_lookup\n    description: Call the household enrichment lookup.\n    operations:\n      - get-enrichment-household\n  - name: read:property_lookup\n    description: Call the ad-hoc property data lookup.\n    operations:\n\
   \      - get-property-data\n  - name: write:whitelabel\n    description: >-\n      Drive the white-label flows - collect consent, create and authenticate a\n      Pull, submit MFA/identity verification, mint reconnect tokens, and confirm\n      servicing actions.\n    operations:\n      - post-consent\n      - post-consent-and-connect\n      - post-connect\n      - post-idv\n      - post-idvoptions\n      - post-reconnect-token\n      - post-servicing-action\nuncovered_operations_note: >-\n  The provider's scope table covers 31 of the 54 published operations. The\n  Teams API, Monitorings API, Servicings API (list/create/read), Policy Search\n  API, Policy Forms API, Carriers, /tos, /health and\n  post-consent-and-documents appear in the OpenAPI but not in the Apps scope\n  table, which means they are reachable only with Basic (own-Team) credentials\n  as documented today.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/scopes/canopy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/canopy/scopes/canopy-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
 - Auto Insurance

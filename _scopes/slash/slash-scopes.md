@@ -5,157 +5,157 @@ api_specs:
   label: Slash Account API
   slug: slash-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-account-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-account-api-openapi.yml
 - filename: slash-agent-requests-api-openapi.yml
   format: yaml
   label: Slash Agent Requests API
   slug: slash-agent-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-agent-requests-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-agent-requests-api-openapi.yml
 - filename: slash-analytics-api-openapi.yml
   format: yaml
   label: Slash Analytics API
   slug: slash-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-analytics-api-openapi.yml
 - filename: slash-card-api-openapi.yml
   format: yaml
   label: Slash Card API
   slug: slash-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-card-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-card-api-openapi.yml
 - filename: slash-card-group-api-openapi.yml
   format: yaml
   label: Slash Card Group API
   slug: slash-card-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-card-group-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-card-group-api-openapi.yml
 - filename: slash-card-product-api-openapi.yml
   format: yaml
   label: Slash Card Product API
   slug: slash-card-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-card-product-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-card-product-api-openapi.yml
 - filename: slash-contact-api-openapi.yml
   format: yaml
   label: Slash Contact API
   slug: slash-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-contact-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-contact-api-openapi.yml
 - filename: slash-crypto-api-openapi.yml
   format: yaml
   label: Slash Crypto API
   slug: slash-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-crypto-api-openapi.yml
 - filename: slash-customer-api-openapi.yml
   format: yaml
   label: Slash Customer API
   slug: slash-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-customer-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-customer-api-openapi.yml
 - filename: slash-developer-account-api-openapi.yml
   format: yaml
   label: Slash Developer Account API
   slug: slash-developer-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-developer-account-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-developer-account-api-openapi.yml
 - filename: slash-developer-application-api-openapi.yml
   format: yaml
   label: Slash Developer Application API
   slug: slash-developer-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-developer-application-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-developer-application-api-openapi.yml
 - filename: slash-expense-report-api-openapi.yml
   format: yaml
   label: Slash Expense Report API
   slug: slash-expense-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-expense-report-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-expense-report-api-openapi.yml
 - filename: slash-fdx-api-openapi.yml
   format: yaml
   label: Slash Fdx API
   slug: slash-fdx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-fdx-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-fdx-api-openapi.yml
 - filename: slash-invoice-api-openapi.yml
   format: yaml
   label: Slash Invoice API
   slug: slash-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-invoice-api-openapi.yml
 - filename: slash-legal-entity-api-openapi.yml
   format: yaml
   label: Slash Legal Entity API
   slug: slash-legal-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-legal-entity-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-legal-entity-api-openapi.yml
 - filename: slash-merchant-api-openapi.yml
   format: yaml
   label: Slash Merchant API
   slug: slash-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-merchant-api-openapi.yml
 - filename: slash-merchant-category-api-openapi.yml
   format: yaml
   label: Slash Merchant Category API
   slug: slash-merchant-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-merchant-category-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-merchant-category-api-openapi.yml
 - filename: slash-task-api-openapi.yml
   format: yaml
   label: Slash Task API
   slug: slash-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-task-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-task-api-openapi.yml
 - filename: slash-tokens-api-openapi.yml
   format: yaml
   label: Slash Tokens API
   slug: slash-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-tokens-api-openapi.yml
 - filename: slash-transaction-api-openapi.yml
   format: yaml
   label: Slash Transaction API
   slug: slash-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-transaction-api-openapi.yml
 - filename: slash-transfer-api-openapi.yml
   format: yaml
   label: Slash Transfer API
   slug: slash-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-transfer-api-openapi.yml
 - filename: slash-transfers-api-openapi.yml
   format: yaml
   label: Slash Transfers API
   slug: slash-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-transfers-api-openapi.yml
 - filename: slash-virtual-account-api-openapi.yml
   format: yaml
   label: Slash Virtual Account API
   slug: slash-virtual-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-virtual-account-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-virtual-account-api-openapi.yml
 - filename: slash-webhook-api-openapi.yml
   format: yaml
   label: Slash Webhook API
   slug: slash-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-webhook-api-openapi.yml
 - filename: slash-well-known-api-openapi.yml
   format: yaml
   label: Slash .well Known API
   slug: slash-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-well-known-api-openapi.yml
 - filename: slash-oauth2-api-openapi.yml
   format: yaml
   label: Slash Oauth2 API
   slug: slash-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/openapi/slash-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/slash/openapi/slash-oauth2-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.slash.com/introduction
@@ -396,7 +396,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://api.sla
   \  group: legal_entity_scopes\n- name: legal_entity.api_key.modify\n  group: legal_entity_scopes\n- name: legal_entity.applications.view\n  group: legal_entity_scopes\n- name: legal_entity.applications.modify\n  group: legal_entity_scopes\n- name: legal_entity.permission_roles.view\n  group: legal_entity_scopes\n- name: legal_entity.automation_rules.view\n  group: legal_entity_scopes\n- name: legal_entity.automation_rules.modify\n  group: legal_entity_scopes\n- name: legal_entity.developer_account.view\n  group: legal_entity_scopes\n- name: legal_entity.developer_account.modify\n  group: legal_entity_scopes\n- name: legal_entity.cashback.view\n  group: legal_entity_scopes\n- name: legal_entity.cashback.modify\n  group: legal_entity_scopes\n- name: legal_entity.webhooks.view\n  group: legal_entity_scopes\n- name: legal_entity.webhooks.modify\n  group: legal_entity_scopes\n- name: legal_entity.ticket_reconciliation.view\n  group: legal_entity_scopes\n- name: legal_entity.analytics.view\n\
   \  group: legal_entity_scopes\n- name: legal_entity.transactions.crypto_deposit.accelerate\n  group: legal_entity_scopes\n- name: slash_accounts.view\n  group: slash_account_scopes\n- name: slash_accounts.home.view\n  group: slash_account_scopes\n- name: slash_accounts.cards.physical.view\n  group: slash_account_scopes\n- name: slash_accounts.cards.physical.modify\n  group: slash_account_scopes\n- name: slash_accounts.cards.virtual.view\n  group: slash_account_scopes\n- name: slash_accounts.cards.virtual.modify\n  group: slash_account_scopes\n- name: slash_accounts.incoming_transactions.view\n  group: slash_account_scopes\n- name: slash_accounts.transactions.view\n  group: slash_account_scopes\n- name: slash_accounts.transactions.ach_pull.initiate\n  group: slash_account_scopes\n- name: slash_accounts.transactions.ach_push.initiate\n  group: slash_account_scopes\n- name: slash_accounts.transactions.wire.initiate\n  group: slash_account_scopes\n- name: slash_accounts.transactions.between_accounts.initiate\n\
   \  group: slash_account_scopes\n- name: slash_accounts.transactions.rtp.initiate\n  group: slash_account_scopes\n- name: slash_accounts.balance.view\n  group: slash_account_scopes\n- name: slash_accounts.subaccounts.view\n  group: slash_account_scopes\n- name: slash_accounts.subaccounts.modify\n  group: slash_account_scopes\n- name: slash_accounts.merchant_allowlist.view\n  group: slash_account_scopes\n- name: slash_accounts.merchant_allowlist.modify\n  group: slash_account_scopes\n- name: slash_accounts.integrations.view\n  group: slash_account_scopes\n- name: slash_accounts.integrations.modify\n  group: slash_account_scopes\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/scopes/slash-scopes.yml
+source_yaml_url: https://artifacts.apis.io/slash/scopes/slash-scopes.yml
 summary_line: 52 scopes
 tags:
 - Company

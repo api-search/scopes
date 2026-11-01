@@ -5,61 +5,61 @@ api_specs:
   label: Braintree Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/asyncapi/braintree-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/braintree/asyncapi/braintree-webhooks-asyncapi.yml
 - filename: braintree-add-ons-api-openapi.yml
   format: yaml
   label: braintree Add-Ons API
   slug: braintree-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-add-ons-api-openapi.yml
 - filename: braintree-client-tokens-api-openapi.yml
   format: yaml
   label: braintree Client Tokens API
   slug: braintree-client-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-client-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-client-tokens-api-openapi.yml
 - filename: braintree-customers-api-openapi.yml
   format: yaml
   label: braintree Customers API
   slug: braintree-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-customers-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-customers-api-openapi.yml
 - filename: braintree-discounts-api-openapi.yml
   format: yaml
   label: braintree Discounts API
   slug: braintree-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-discounts-api-openapi.yml
 - filename: braintree-disputes-api-openapi.yml
   format: yaml
   label: braintree Disputes API
   slug: braintree-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-disputes-api-openapi.yml
 - filename: braintree-payment-methods-api-openapi.yml
   format: yaml
   label: braintree Payment Methods API
   slug: braintree-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-payment-methods-api-openapi.yml
 - filename: braintree-plans-api-openapi.yml
   format: yaml
   label: braintree Plans API
   slug: braintree-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-plans-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-plans-api-openapi.yml
 - filename: braintree-subscriptions-api-openapi.yml
   format: yaml
   label: braintree Subscriptions API
   slug: braintree-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-subscriptions-api-openapi.yml
 - filename: braintree-transactions-api-openapi.yml
   format: yaml
   label: braintree Transactions API
   slug: braintree-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/openapi/braintree-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/braintree/openapi/braintree-transactions-api-openapi.yml
 authorization_urls: []
 description: Braintree's OAuth 2.0 scopes. The core gateway authenticates with HTTP Basic API keys, so the OpenAPI securitySchemes declare no oauth2 flows and the derive pass finds none. OAuth is used by platforms/partners to connect separate Braintree accounts — on its own or with the Grant API and Shared Vault. The connect URL is generated server-side via the SDK (gateway.oauth.connectUrl), and the access token is exchanged from the returned authorization code; scopes are requested as a comma-delimited string (e.g. grant_payment_method,shared_vault_transactions).
 docs: https://developer.paypal.com/braintree/docs/guides/extend/oauth/overview
@@ -259,7 +259,7 @@ source_yaml: "generated: '2026-07-14'\nmethod: searched\nsource: https://develop
   \ OAuth]}\n  - {scope: 'customer:create', description: 'Create customers.', schemes: [Braintree OAuth]}\n  - {scope: 'customer:update', description: 'Update customers.', schemes: [Braintree OAuth]}\n  - {scope: 'customer:delete', description: 'Delete customers.', schemes: [Braintree OAuth]}\n  - {scope: 'customer:find', description: 'Retrieve a customer.', schemes: [Braintree OAuth]}\n  - {scope: 'customer:search', description: 'Search customers.', schemes: [Braintree OAuth]}\n  - {scope: 'payment_method:create', description: 'Vault a payment method.', schemes: [Braintree OAuth]}\n  - {scope: 'payment_method:update', description: 'Update a vaulted payment method.', schemes: [Braintree OAuth]}\n  - {scope: 'payment_method:delete', description: 'Delete a vaulted payment method.', schemes: [Braintree OAuth]}\n  - {scope: 'payment_method:find', description: 'Retrieve a vaulted payment method.', schemes: [Braintree OAuth]}\n  - {scope: 'subscription:create', description: 'Create subscriptions.',\
   \ schemes: [Braintree OAuth]}\n  - {scope: 'subscription:update', description: 'Update subscriptions.', schemes: [Braintree OAuth]}\n  - {scope: 'subscription:cancel', description: 'Cancel subscriptions.', schemes: [Braintree OAuth]}\n  - {scope: 'subscription:find', description: 'Retrieve a subscription.', schemes: [Braintree OAuth]}\n  - {scope: 'subscription:search', description: 'Search subscriptions.', schemes: [Braintree OAuth]}\n  - {scope: 'address:create', description: 'Create customer addresses.', schemes: [Braintree OAuth]}\n  - {scope: 'address:update', description: 'Update customer addresses.', schemes: [Braintree OAuth]}\n  - {scope: 'address:delete', description: 'Delete customer addresses.', schemes: [Braintree OAuth]}\n  - {scope: 'address:find', description: 'Retrieve a customer address.', schemes: [Braintree OAuth]}\n  - {scope: 'dispute:find', description: 'Retrieve a dispute.', schemes: [Braintree OAuth]}\n  - {scope: 'dispute:search', description: 'Search disputes.',\
   \ schemes: [Braintree OAuth]}\n  - {scope: 'dispute:accept', description: 'Accept a dispute.', schemes: [Braintree OAuth]}\n  - {scope: 'dispute:finalize', description: 'Finalize a dispute.', schemes: [Braintree OAuth]}\n  - {scope: 'dispute:add_evidence', description: 'Add evidence to a dispute.', schemes: [Braintree OAuth]}\n  - {scope: 'dispute:remove_evidence', description: 'Remove evidence from a dispute.', schemes: [Braintree OAuth]}\n  - {scope: 'client_token:generate', description: 'Generate client tokens for client SDK initialization.', schemes: [Braintree OAuth]}\n  - {scope: 'credit_card_verification:search', description: 'Search credit card verifications.', schemes: [Braintree OAuth]}\n  - {scope: 'credit_card:expiring_between', description: 'Find credit cards expiring within a date range.', schemes: [Braintree OAuth]}\n  - {scope: 'apple_pay:manage_web_domains', description: 'Manage registered Apple Pay web domains.', schemes: [Braintree OAuth]}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/scopes/braintree-scopes.yml
+source_yaml_url: https://artifacts.apis.io/braintree/scopes/braintree-scopes.yml
 summary_line: 40 scopes
 tags:
 - Payments

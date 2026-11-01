@@ -5,13 +5,13 @@ api_specs:
   label: Australian National University Harvesting API
   slug: anu-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/anu/openapi/anu-harvesting-api-openapi.yml
 - filename: anu-random-numbers-api-openapi.yml
   format: yaml
   label: Australian National University Random Numbers API
   slug: anu-random-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/openapi/anu-random-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/anu/openapi/anu-random-numbers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -38,7 +38,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: https://api.quantumnumbers.anu.edu.au\nx-operator: institution\nnote: >-\n  ANU exposes NO scoped authorization on any institution-operated API surface. This file\n  records that absence with the probes that established it, rather than being omitted — an\n  absent scopes file reads as \"not looked at\", and this was looked at.\n\n\n  The AQN API is a single-key, single-operation service: one static x-api-key grants the one\n  GET it offers, with no scope parameter, no consent screen and no partial grant. The legacy\n  QRNG endpoint and the OAI-PMH endpoint are unauthenticated. The only OAuth2 token endpoint\n  anywhere on an ANU host is the LTI 1.3 platform token endpoint inside Moodle\n  (https://wattlecourses.anu.edu.au/mod/lti/token.php), which issues tokens against\n  IMS Global LTI Advantage service scopes to registered LTI tools — not to outside developers,\n  and not through any public client-registration path.\nschemes:\
   \ []\nscopes: []\nnegative_probes:\n- url: https://api.quantumnumbers.anu.edu.au/\n  status: 403\n  finding: '{\"message\":\"Forbidden\"} — gateway key check only; no OAuth challenge, no WWW-Authenticate scope hint.'\n- url: https://www.anu.edu.au/.well-known/openid-configuration\n  status: 404\n  finding: No OIDC discovery document on the institutional domain.\n- url: https://wattlecourses.anu.edu.au/.well-known/openid-configuration\n  status: 404\n  finding: No OIDC discovery document on the LMS host either; the LTI endpoints are not advertised via .well-known.\n- url: https://developer.anu.edu.au/\n  status: 000\n  finding: Host does not resolve. No developer portal exists at the conventional address.\n- url: https://api.anu.edu.au/\n  status: 000\n  finding: Host does not resolve. There is no central institutional API gateway.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/scopes/anu-scopes.yml
+source_yaml_url: https://artifacts.apis.io/anu/scopes/anu-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

@@ -40,7 +40,7 @@ source_filename: grips-intelligence-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://app.gripsintelligence.com/.well-known/oauth-authorization-server\ndocs: https://app.gripsintelligence.com/.well-known/oauth-protected-resource/api/mcp\nschemes:\n- name: peekdDataMcpOAuth\n  source: https://app.gripsintelligence.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.gripsintelligence.com/authorize\n    tokenUrl: https://app.gripsintelligence.com/token\nscopes:\n- scope: mcp\n  description: >-\n    Access to the Peekd Data MCP server (https://app.gripsintelligence.com/api/mcp)\n    exposing Grips Intelligence e-commerce intelligence data to agents.\n  flows: [authorizationCode]\n  sources: [https://app.gripsintelligence.com/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/scopes/grips-intelligence-scopes.yml
+source_yaml_url: https://artifacts.apis.io/grips-intelligence/scopes/grips-intelligence-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

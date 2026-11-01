@@ -5,109 +5,109 @@ api_specs:
   label: Synthflow Chat API
   slug: synthflow-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-chat-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-chat-api-openapi.yml
 - filename: synthflow-contacts-api-openapi.yml
   format: yaml
   label: Synthflow Contacts API
   slug: synthflow-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-contacts-api-openapi.yml
 - filename: synthflow-mcp-api-openapi.yml
   format: yaml
   label: Synthflow MCP API
   slug: synthflow-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-mcp-api-openapi.yml
 - filename: synthflow-memory-stores-api-openapi.yml
   format: yaml
   label: Synthflow Memory Stores API
   slug: synthflow-memory-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-memory-stores-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-memory-stores-api-openapi.yml
 - filename: synthflow-actions-api-openapi.yml
   format: yaml
   label: Synthflow Actions API
   slug: synthflow-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-actions-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-actions-api-openapi.yml
 - filename: synthflow-analytics-api-openapi.yml
   format: yaml
   label: Synthflow Analytics API
   slug: synthflow-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-analytics-api-openapi.yml
 - filename: synthflow-assistants-api-openapi.yml
   format: yaml
   label: Synthflow Assistants API
   slug: synthflow-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-assistants-api-openapi.yml
 - filename: synthflow-calls-api-openapi.yml
   format: yaml
   label: Synthflow Calls API
   slug: synthflow-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-calls-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-calls-api-openapi.yml
 - filename: synthflow-knowledge-base-api-openapi.yml
   format: yaml
   label: Synthflow Knowledge Base API
   slug: synthflow-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-knowledge-base-api-openapi.yml
 - filename: synthflow-phonebooks-api-openapi.yml
   format: yaml
   label: Synthflow Phonebooks API
   slug: synthflow-phonebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phonebooks-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-phonebooks-api-openapi.yml
 - filename: synthflow-simulation-cases-api-openapi.yml
   format: yaml
   label: Synthflow Simulation Cases API
   slug: synthflow-simulation-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-cases-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulation-cases-api-openapi.yml
 - filename: synthflow-simulation-scenarios-api-openapi.yml
   format: yaml
   label: Synthflow Simulation Scenarios API
   slug: synthflow-simulation-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulation-scenarios-api-openapi.yml
 - filename: synthflow-simulation-suites-api-openapi.yml
   format: yaml
   label: Synthflow Simulation Suites API
   slug: synthflow-simulation-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-suites-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulation-suites-api-openapi.yml
 - filename: synthflow-simulations-api-openapi.yml
   format: yaml
   label: Synthflow Simulations API
   slug: synthflow-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulations-api-openapi.yml
 - filename: synthflow-subaccounts-api-openapi.yml
   format: yaml
   label: Synthflow Subaccounts API
   slug: synthflow-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-subaccounts-api-openapi.yml
 - filename: synthflow-voices-api-openapi.yml
   format: yaml
   label: Synthflow Voices API
   slug: synthflow-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-voices-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-voices-api-openapi.yml
 - filename: synthflow-phone-numbers-api-openapi.yml
   format: yaml
   label: Synthflow Phone Numbers API
   slug: synthflow-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-phone-numbers-api-openapi.yml
 - filename: synthflow-webhook-logs-api-openapi.yml
   format: yaml
   label: Synthflow Webhook Logs API
   slug: synthflow-webhook-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-webhook-logs-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-webhook-logs-api-openapi.yml
 authorization_urls:
 - https://kind-prelude-27.authkit.app/oauth2/authorize
 description: OAuth scopes reachable on the Synthflow estate. These belong to the MCP surface only — the REST Platform API declares no oauth2 security scheme and has no scope model at all (a single bearer API key carries full workspace authority). The scopes below are the IDENTITY scopes advertised by Synthflow's delegated authorization server; they are not Synthflow capability scopes, and no per-tool or per-resource scope is published.
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://kind-prel
   \  - scope: profile\n    description: 'Basic profile claims for the authenticated user.'\n    flows: [authorizationCode, deviceCode]\n    sources: ['https://kind-prelude-27.authkit.app/.well-known/oauth-authorization-server']\n  - scope: email\n    description: 'Email address claim for the authenticated user.'\n    flows: [authorizationCode, deviceCode]\n    sources: ['https://kind-prelude-27.authkit.app/.well-known/oauth-authorization-server']\n  - scope: offline_access\n    description: 'Issue a refresh token so an MCP client can keep the connection alive without re-prompting.'\n    flows: [authorizationCode, deviceCode, refreshToken]\n    sources: ['https://kind-prelude-27.authkit.app/.well-known/oauth-authorization-server']\n\nauthorization_model:\n  granularity: workspace\n  capability_scopes_published: false\n  note: >-\n    All four advertised scopes are identity scopes. Once authorized, the MCP session is\n    scoped to the connected workspace and carries the full published tool\
   \ set — including\n    delete_agent, delete_knowledge_base and batch_update_agents_by_filter. There is no\n    read-only grant, and a user cannot consent to a subset of tools at the OAuth layer.\n  compensating_control: >-\n    Synthflow pushes safety down to the tool layer instead: destructive tools require a\n    second call carrying confirmed=true, and the provider explicitly advises keeping write\n    and delete tools behind client-side approval. That is a real control, but it is\n    advisory and client-enforced, not an authorization-server boundary.\n  subaccount_targeting: 'Tools that accept workspace_id can act on a managed subaccount within the same session.'\n\nrest_api:\n  oauth2: false\n  scopes: none\n  note: >-\n    The REST Platform API uses a static bearer API key with no scopes. derive-oauth-scopes\n    would produce an empty file for the spec; this artifact exists because the MCP surface\n    genuinely has an OAuth model.\n\nx-evidence:\n  fetched: '2026-08-13'\n  probes:\n\
   \    - {url: 'https://mcp.synthflow.ai/.well-known/oauth-protected-resource', status: 200}\n    - {url: 'https://kind-prelude-27.authkit.app/.well-known/oauth-authorization-server', status: 200}\n    - {url: 'https://mcp.synthflow.ai/mcp', status: 401}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/scopes/synthflow-scopes.yml
+source_yaml_url: https://artifacts.apis.io/synthflow/scopes/synthflow-scopes.yml
 summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 tags:
 - Voice

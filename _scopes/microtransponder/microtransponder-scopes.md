@@ -34,7 +34,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://www.mobia.com/.well-known/oauth-authorization-server\nnote: >-\n  The full published scope surface. RFC 8414 metadata served by www.mobia.com declares\n  exactly one scope. There is no scope reference page — the provider has no developer\n  documentation — so this is the complete, verbatim set and nothing was inferred.\nauthorization_server: https://www.mobia.com\nprotected_resource: https://www.mobia.com/wp-json/mcp/mcp-oauth-server\nflows:\n- type: authorization_code\n  authorization_url: https://www.mobia.com/oauth/authorize\n  token_url: https://www.mobia.com/oauth/token\n  pkce: S256\nscope_count: 1\nscopes:\n- name: mcp\n  description: >-\n    The single scope declared in both the authorization-server metadata\n    (scopes_supported) and the protected-resource metadata. Grants an OAuth client access\n    to the site's Model Context Protocol endpoint. No finer-grained scopes are published.\n  source: /.well-known/oauth-authorization-server\n\
   docs: null\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microtransponder/refs/heads/main/scopes/microtransponder-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microtransponder/scopes/microtransponder-scopes.yml
 summary_line: 1 scope · authorization_code
 tags:
 - Company

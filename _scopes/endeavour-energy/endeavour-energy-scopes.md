@@ -5,13 +5,13 @@ api_specs:
   label: Endeavour Energy Catalog API
   slug: endeavour-energy-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/openapi/endeavour-energy-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/endeavour-energy/openapi/endeavour-energy-catalog-api-openapi.yml
 - filename: endeavour-energy-dataset-api-openapi.yml
   format: yaml
   label: Endeavour Energy Dataset API
   slug: endeavour-energy-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/openapi/endeavour-energy-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/endeavour-energy/openapi/endeavour-energy-dataset-api-openapi.yml
 authorization_urls:
 - https://data.endeavourenergy.com.au/oauth2/authorize/
 description: 'Endeavour Energy''s open data portal runs the Opendatasoft OAuth2 authorization-code flow, RFC 6749 compliant with RFC 6750 bearer tokens. The scope model is deliberately trivial: there is exactly ONE scope, `all`, and it is the only value the platform accepts. There is no read/write split, no per-dataset scope, and no least-privilege story — an authorized application gets whatever its authorizing user has. This is worth recording precisely because it is the opposite of a granular scope catalogue, and an agent planning consent needs to know that "all" is the only option.'
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  https://h
   \ An application registered here works\n        only against data.endeavourenergy.com.au.\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://data.endeavourenergy.com.au/oauth2/authorize/\n        tokenUrl: https://data.endeavourenergy.com.au/oauth2/token/\n        refresh_supported: true\n        authorize_params: [client_id, redirect_uri, 'response_type=code', scopes, state]\n        token_params: [client_id, client_secret, redirect_uri, 'grant_type=authorization_code', code, scopes, state]\n        client_auth_at_token_endpoint: 'form parameters or HTTP Basic (Authorization: Basic base64(client_id:client_secret))'\n        authorization_code_ttl: '1 hour — the 30-character code must be exchanged before it expires'\n        state_recommended: true\n    verified_live:\n      - {url: 'https://data.endeavourenergy.com.au/oauth2/authorize/', status: 302, note: 'exists; redirects to the portal login'}\n      - {url: 'https://data.endeavourenergy.com.au/oauth2/token/',\
   \ status: 405, note: 'exists; Method Not Allowed on GET, POST-only as documented'}\n    discovery:\n      well_known_oauth_authorization_server: 404\n      well_known_openid_configuration: 404\n      note: >-\n        No RFC 8414 metadata document. A client cannot discover these endpoints\n        programmatically; they are only in the vendor documentation.\n\nscopes:\n  - scope: all\n    description: >-\n      Full access to the data the authorizing user can see on this domain.\n      The published wording is unambiguous: \"a list of space-separated\n      requested scopes. Currently, only `all` is supported.\"\n    flows: [authorizationCode]\n    optional: true\n    sources: ['https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.html#section/Authentication/Using-OAuth2-authorization']\n\ngranularity:\n  scope_count: 1\n  read_write_split: false\n  per_dataset_scopes: false\n  least_privilege_possible: false\n  assessment: >-\n    On this domain the practical consequence is\
   \ small — all eight datasets are\n    public and readable anonymously, and the API is GET-only, so an `all` token\n    grants nothing an unauthenticated caller does not already have. The scope\n    model would matter on a portal with restricted datasets; here it is\n    effectively decorative.\n\nalternative_credentials:\n  note: >-\n    API keys carry the same problem in a sharper form: \"every API key\n    authenticates requests as coming from your user, which means they grant the\n    same rights (yours) to any person using them.\" Key permissions can only be\n    narrowed through the separate Automation API, whose surface on this host\n    (/api/management/v2/swagger.json) returns 401.\n\nrelated:\n  - authentication/endeavour-energy-authentication.yml\n  - well-known/endeavour-energy-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/scopes/endeavour-energy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/endeavour-energy/scopes/endeavour-energy-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Energy

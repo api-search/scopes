@@ -5,55 +5,55 @@ api_specs:
   label: microsoft-azure-cache-for-redis Operations API
   slug: microsoft-azure-cache-for-redis-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Linked Server API
   slug: microsoft-azure-cache-for-redis-linkedserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Redis Cache Access Policies API
   slug: microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Redis Cache Access Policy Assignments API
   slug: microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Redis Firewall Rules API
   slug: microsoft-azure-cache-for-redis-redisfirewallrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Redis Patch Schedules API
   slug: microsoft-azure-cache-for-redis-redispatchschedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-redisresources-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Redis Resources API
   slug: microsoft-azure-cache-for-redis-redisresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Subscriptions API
   slug: microsoft-azure-cache-for-redis-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-private-endpoint-connections-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Private Endpoint Connections API
   slug: microsoft-azure-cache-for-redis-private-endpoint-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/openapi/microsoft-azure-cache-for-redis-private-endpoint-connections-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-private-endpoint-connections-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/microsof
   \ Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-privateendpointconnections-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml\n  flows:\n  - flow: implicit\n\
   \    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml\n\
   \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-privateendpointconnections-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicies-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-rediscacheaccesspolicyassignments-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-redisfirewallrules-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-redispatchschedules-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml\n  - openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cache-for-redis/refs/heads/main/scopes/microsoft-azure-cache-for-redis-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/scopes/microsoft-azure-cache-for-redis-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Microsoft Azure

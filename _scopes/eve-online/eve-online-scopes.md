@@ -5,181 +5,181 @@ api_specs:
   label: EVE Online Alliance API
   slug: eve-online-alliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-alliance-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-alliance-api-openapi.yml
 - filename: eve-online-assets-api-openapi.yml
   format: yaml
   label: EVE Online Assets API
   slug: eve-online-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-assets-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-assets-api-openapi.yml
 - filename: eve-online-calendar-api-openapi.yml
   format: yaml
   label: EVE Online Calendar API
   slug: eve-online-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-calendar-api-openapi.yml
 - filename: eve-online-character-api-openapi.yml
   format: yaml
   label: EVE Online Character API
   slug: eve-online-character-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-character-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-character-api-openapi.yml
 - filename: eve-online-clones-api-openapi.yml
   format: yaml
   label: EVE Online Clones API
   slug: eve-online-clones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-clones-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-clones-api-openapi.yml
 - filename: eve-online-contacts-api-openapi.yml
   format: yaml
   label: EVE Online Contacts API
   slug: eve-online-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-contacts-api-openapi.yml
 - filename: eve-online-contracts-api-openapi.yml
   format: yaml
   label: EVE Online Contracts API
   slug: eve-online-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-contracts-api-openapi.yml
 - filename: eve-online-corporation-api-openapi.yml
   format: yaml
   label: EVE Online Corporation API
   slug: eve-online-corporation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-corporation-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-corporation-api-openapi.yml
 - filename: eve-online-dogma-api-openapi.yml
   format: yaml
   label: EVE Online Dogma API
   slug: eve-online-dogma-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-dogma-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-dogma-api-openapi.yml
 - filename: eve-online-faction-warfare-api-openapi.yml
   format: yaml
   label: EVE Online Faction Warfare API
   slug: eve-online-faction-warfare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-faction-warfare-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-faction-warfare-api-openapi.yml
 - filename: eve-online-fittings-api-openapi.yml
   format: yaml
   label: EVE Online Fittings API
   slug: eve-online-fittings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-fittings-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-fittings-api-openapi.yml
 - filename: eve-online-fleets-api-openapi.yml
   format: yaml
   label: EVE Online Fleets API
   slug: eve-online-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-fleets-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-fleets-api-openapi.yml
 - filename: eve-online-incursions-api-openapi.yml
   format: yaml
   label: EVE Online Incursions API
   slug: eve-online-incursions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-incursions-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-incursions-api-openapi.yml
 - filename: eve-online-industry-api-openapi.yml
   format: yaml
   label: EVE Online Industry API
   slug: eve-online-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-industry-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-industry-api-openapi.yml
 - filename: eve-online-insurance-api-openapi.yml
   format: yaml
   label: EVE Online Insurance API
   slug: eve-online-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-insurance-api-openapi.yml
 - filename: eve-online-killmails-api-openapi.yml
   format: yaml
   label: EVE Online Killmails API
   slug: eve-online-killmails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-killmails-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-killmails-api-openapi.yml
 - filename: eve-online-location-api-openapi.yml
   format: yaml
   label: EVE Online Location API
   slug: eve-online-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-location-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-location-api-openapi.yml
 - filename: eve-online-loyalty-api-openapi.yml
   format: yaml
   label: EVE Online Loyalty API
   slug: eve-online-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-loyalty-api-openapi.yml
 - filename: eve-online-mail-api-openapi.yml
   format: yaml
   label: EVE Online Mail API
   slug: eve-online-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-mail-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-mail-api-openapi.yml
 - filename: eve-online-market-api-openapi.yml
   format: yaml
   label: EVE Online Market API
   slug: eve-online-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-market-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-market-api-openapi.yml
 - filename: eve-online-planetary-interaction-api-openapi.yml
   format: yaml
   label: EVE Online Planetary Interaction API
   slug: eve-online-planetary-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-planetary-interaction-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-planetary-interaction-api-openapi.yml
 - filename: eve-online-routes-api-openapi.yml
   format: yaml
   label: EVE Online Routes API
   slug: eve-online-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-routes-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-routes-api-openapi.yml
 - filename: eve-online-search-api-openapi.yml
   format: yaml
   label: EVE Online Search API
   slug: eve-online-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-search-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-search-api-openapi.yml
 - filename: eve-online-skills-api-openapi.yml
   format: yaml
   label: EVE Online Skills API
   slug: eve-online-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-skills-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-skills-api-openapi.yml
 - filename: eve-online-sovereignty-api-openapi.yml
   format: yaml
   label: EVE Online Sovereignty API
   slug: eve-online-sovereignty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-sovereignty-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-sovereignty-api-openapi.yml
 - filename: eve-online-status-api-openapi.yml
   format: yaml
   label: EVE Online Status API
   slug: eve-online-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-status-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-status-api-openapi.yml
 - filename: eve-online-universe-api-openapi.yml
   format: yaml
   label: EVE Online Universe API
   slug: eve-online-universe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-universe-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-universe-api-openapi.yml
 - filename: eve-online-user-interface-api-openapi.yml
   format: yaml
   label: EVE Online User Interface API
   slug: eve-online-user-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-user-interface-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-user-interface-api-openapi.yml
 - filename: eve-online-wallet-api-openapi.yml
   format: yaml
   label: EVE Online Wallet API
   slug: eve-online-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-wallet-api-openapi.yml
 - filename: eve-online-wars-api-openapi.yml
   format: yaml
   label: EVE Online Wars API
   slug: eve-online-wars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/openapi/eve-online-wars-api-openapi.yml
+  url: https://artifacts.apis.io/eve-online/openapi/eve-online-wars-api-openapi.yml
 authorization_urls:
 - https://login.eveonline.com/v2/oauth/authorize
 description: ''
@@ -538,7 +538,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/eve-onli
   \ EVE SSO scope esi-mail.send_mail.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-markets.read_character_orders.v1\n  description: EVE SSO scope esi-markets.read_character_orders.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-markets.read_corporation_orders.v1\n  description: EVE SSO scope esi-markets.read_corporation_orders.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-markets.structure_markets.v1\n  description: EVE SSO scope esi-markets.structure_markets.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-planets.manage_planets.v1\n  description: EVE SSO scope esi-planets.manage_planets.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-planets.read_customs_offices.v1\n  description: EVE SSO scope esi-planets.read_customs_offices.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n\
   - scope: esi-search.search_structures.v1\n  description: EVE SSO scope esi-search.search_structures.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-skills.read_skillqueue.v1\n  description: EVE SSO scope esi-skills.read_skillqueue.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-skills.read_skills.v1\n  description: EVE SSO scope esi-skills.read_skills.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-ui.open_window.v1\n  description: EVE SSO scope esi-ui.open_window.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-ui.write_waypoint.v1\n  description: EVE SSO scope esi-ui.write_waypoint.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-universe.read_structures.v1\n  description: EVE SSO scope esi-universe.read_structures.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n\
   - scope: esi-wallet.read_character_wallet.v1\n  description: EVE SSO scope esi-wallet.read_character_wallet.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n- scope: esi-wallet.read_corporation_wallets.v1\n  description: EVE SSO scope esi-wallet.read_corporation_wallets.v1\n  flows:\n  - implicit\n  sources:\n  - openapi/eve-online-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/scopes/eve-online-scopes.yml
+source_yaml_url: https://artifacts.apis.io/eve-online/scopes/eve-online-scopes.yml
 summary_line: 63 scopes · implicit
 tags:
 - Authentication

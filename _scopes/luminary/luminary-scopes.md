@@ -5,37 +5,37 @@ api_specs:
   label: Luminary Documents API
   slug: luminary-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-documents-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-documents-api-openapi.yml
 - filename: luminary-entities-api-openapi.yml
   format: yaml
   label: Luminary Entities API
   slug: luminary-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-entities-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-entities-api-openapi.yml
 - filename: luminary-households-api-openapi.yml
   format: yaml
   label: Luminary Households API
   slug: luminary-households-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-households-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-households-api-openapi.yml
 - filename: luminary-individuals-api-openapi.yml
   format: yaml
   label: Luminary Individuals API
   slug: luminary-individuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-individuals-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-individuals-api-openapi.yml
 - filename: luminary-users-api-openapi.yml
   format: yaml
   label: Luminary Users API
   slug: luminary-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-users-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-users-api-openapi.yml
 - filename: luminary-valuations-api-openapi.yml
   format: yaml
   label: Luminary Valuations API
   slug: luminary-valuations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-valuations-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-valuations-api-openapi.yml
 authorization_urls:
 - https://auth.withluminary.com/oauth2/authorize
 description: ''
@@ -92,7 +92,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/luminary-openapi-original.yml\ndocs: https://api.withluminary.com/.well-known/oauth-authorization-server\nschemes:\n- name: oauth2Profiles\n  source: openapi/luminary-openapi-original.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.withluminary.com/oauth2/authorize\n    tokenUrl: https://auth.withluminary.com/oauth2/token\n  - flow: clientCredentials\n    tokenUrl: https://auth.withluminary.com/oauth2/token\n# The OpenAPI oauth2Profiles scheme declares empty scope maps (API access is\n# governed per-profile, not per-scope). The scopes below are the OIDC/OAuth\n# scopes advertised by the authorization server discovery documents\n# (scopes_supported in /.well-known/oauth-authorization-server).\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token.\n  sources: [https://auth.withluminary.com/.well-known/openid-configuration]\n- scope: profile\n  description:\
   \ Access to the authenticated user's basic profile claims.\n  sources: [https://auth.withluminary.com/.well-known/openid-configuration]\n- scope: email\n  description: Access to the authenticated user's email address claim.\n  sources: [https://auth.withluminary.com/.well-known/openid-configuration]\n- scope: offline_access\n  description: Issue a refresh token for long-lived access without re-consent.\n  sources: [https://auth.withluminary.com/.well-known/openid-configuration]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/scopes/luminary-scopes.yml
+source_yaml_url: https://artifacts.apis.io/luminary/scopes/luminary-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
 - Company

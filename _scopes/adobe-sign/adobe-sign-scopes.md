@@ -5,7 +5,7 @@ api_specs:
   label: Adobe Acrobat Sign Base URIs API
   slug: adobe-sign-base-uris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/openapi/adobe-sign-base-uris-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-sign/openapi/adobe-sign-base-uris-api-openapi.yml
 authorization_urls:
 - https://secure.adobesign.com/public/oauth/v2
 description: ''
@@ -105,7 +105,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/adobe-sign-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/adobe-sign-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://secure.adobesign.com/public/oauth/v2\n    tokenUrl: https://secure.adobesign.com/oauth/v2/token\n  description: OAuth 2.0 authorization-code flow. The authorization code is exchanged at POST\n    /oauth/v2/token for an access token (~3600s) and a refresh token. Scope modifiers :self,\n    :group, and :account determine the authorization level.\nscopes:\n- scope: agreement_read\n  description: Read agreements\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n- scope: agreement_send\n  description: Send agreements for signature\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n- scope: agreement_write\n  description: Create and modify agreements\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n\
   - scope: library_read\n  description: Read library templates\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n- scope: library_write\n  description: Create and modify library templates\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n- scope: user_login\n  description: Sign in as a user\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n- scope: user_read\n  description: Read user information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n- scope: user_write\n  description: Modify users\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n- scope: widget_read\n  description: Read widgets\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n- scope: widget_write\n  description: Create and modify widgets\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n- scope: workflow_read\n\
   \  description: Read workflows\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n- scope: workflow_write\n  description: Create and modify workflows\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-sign-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/scopes/adobe-sign-scopes.yml
+source_yaml_url: https://artifacts.apis.io/adobe-sign/scopes/adobe-sign-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
 - E-Signature

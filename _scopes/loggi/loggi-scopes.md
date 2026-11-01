@@ -5,61 +5,61 @@ api_specs:
   label: Loggi Details API
   slug: loggi-detailsapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-detailsapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-detailsapi-api-openapi.yml
 - filename: loggi-dropofflocationsapi-api-openapi.yml
   format: yaml
   label: Loggi Dropoff Locations API
   slug: loggi-dropofflocationsapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-dropofflocationsapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-dropofflocationsapi-api-openapi.yml
 - filename: loggi-integratorcompanyapi-api-openapi.yml
   format: yaml
   label: Loggi Integrator Company API
   slug: loggi-integratorcompanyapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-integratorcompanyapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-integratorcompanyapi-api-openapi.yml
 - filename: loggi-labelapi-api-openapi.yml
   format: yaml
   label: Loggi Label API
   slug: loggi-labelapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-labelapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-labelapi-api-openapi.yml
 - filename: loggi-packagecancelapi-api-openapi.yml
   format: yaml
   label: Loggi Package Cancel API
   slug: loggi-packagecancelapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-packagecancelapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-packagecancelapi-api-openapi.yml
 - filename: loggi-packageupdateapi-api-openapi.yml
   format: yaml
   label: Loggi Package Update API
   slug: loggi-packageupdateapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-packageupdateapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-packageupdateapi-api-openapi.yml
 - filename: loggi-quotationapi-api-openapi.yml
   format: yaml
   label: Loggi Quotation API
   slug: loggi-quotationapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-quotationapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-quotationapi-api-openapi.yml
 - filename: loggi-shipmentapi-api-openapi.yml
   format: yaml
   label: Loggi Shipment API
   slug: loggi-shipmentapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-shipmentapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-shipmentapi-api-openapi.yml
 - filename: loggi-trackingapi-api-openapi.yml
   format: yaml
   label: Loggi Tracking API
   slug: loggi-trackingapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-trackingapi-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-trackingapi-api-openapi.yml
 - filename: loggi-oauth2token-api-openapi.yml
   format: yaml
   label: Loggi O Auth2 Token API
   slug: loggi-oauth2token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/openapi/loggi-oauth2token-api-openapi.yml
+  url: https://artifacts.apis.io/loggi/openapi/loggi-oauth2token-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -139,7 +139,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/loggi-freight-price-quotation-openapi.yml, openapi/loggi-integrator-openapi.yml,\n  openapi/loggi-labels-openapi.yml, openapi/loggi-package-details-openapi.yml, openapi/loggi-package-openapi.yml,\n  openapi/loggi-pontos-openapi.yml, openapi/loggi-shipments-openapi.yml, openapi/loggi-tracking-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/loggi-freight-price-quotation-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.loggi.com/oauth2/token\n  description: Autenticação OAuth 2.0 para clientes da API.\n- name: OAuth2\n  source: openapi/loggi-integrator-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.loggi.com/oauth2/token\n  description: Autenticação OAuth 2.0 para clientes da API.\n- name: OAuth2\n  source: openapi/loggi-labels-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: oauth2/token\n  description: Autenticação OAuth 2.0 para clientes\
   \ da API.\n- name: OAuth2\n  source: openapi/loggi-package-details-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.loggi.com/oauth2/token\n  description: Autenticação OAuth 2.0 para clientes da API.\n- name: OAuth2\n  source: openapi/loggi-package-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.loggi.com/oauth2/token\n  description: Autenticação OAuth 2.0 para clientes da API.\n- name: OAuth2\n  source: openapi/loggi-pontos-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.loggi.com/oauth2/token\n  description: Autenticação OAuth 2.0 para clientes da API.\n- name: OAuth2\n  source: openapi/loggi-shipments-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.loggi.com/oauth2/token\n  description: Autenticação OAuth 2.0 para clientes da API.\n- name: OAuth2\n  source: openapi/loggi-tracking-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.loggi.com/oauth2/token\n\
   \  description: Autenticação OAuth 2.0 para clientes da API.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/scopes/loggi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/loggi/scopes/loggi-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

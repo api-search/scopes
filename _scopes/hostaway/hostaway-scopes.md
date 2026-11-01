@@ -5,61 +5,61 @@ api_specs:
   label: Hostaway Listings API
   slug: hostaway-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listings-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-listings-api-openapi.yml
 - filename: hostaway-reservations-api-openapi.yml
   format: yaml
   label: Hostaway Reservations API
   slug: hostaway-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-reservations-api-openapi.yml
 - filename: hostaway-calendar-api-openapi.yml
   format: yaml
   label: Hostaway Calendar API
   slug: hostaway-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-calendar-api-openapi.yml
 - filename: hostaway-webhooks-api-openapi.yml
   format: yaml
   label: Hostaway Webhooks API
   slug: hostaway-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-webhooks-api-openapi.yml
 - filename: hostaway-listing-amenities-api-openapi.yml
   format: yaml
   label: Hostaway Listing Amenities API
   slug: hostaway-listing-amenities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listing-amenities-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-listing-amenities-api-openapi.yml
 - filename: hostaway-listing-bed-types-api-openapi.yml
   format: yaml
   label: Hostaway Listing Bed Types API
   slug: hostaway-listing-bed-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listing-bed-types-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-listing-bed-types-api-openapi.yml
 - filename: hostaway-listing-images-api-openapi.yml
   format: yaml
   label: Hostaway Listing Images API
   slug: hostaway-listing-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-listing-images-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-listing-images-api-openapi.yml
 - filename: hostaway-reservation-coupons-api-openapi.yml
   format: yaml
   label: Hostaway Reservation Coupons API
   slug: hostaway-reservation-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservation-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-reservation-coupons-api-openapi.yml
 - filename: hostaway-reservation-fees-api-openapi.yml
   format: yaml
   label: Hostaway Reservation Fees API
   slug: hostaway-reservation-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservation-fees-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-reservation-fees-api-openapi.yml
 - filename: hostaway-reservation-units-api-openapi.yml
   format: yaml
   label: Hostaway Reservation Units API
   slug: hostaway-reservation-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/openapi/hostaway-reservation-units-api-openapi.yml
+  url: https://artifacts.apis.io/hostaway/openapi/hostaway-reservation-units-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -115,7 +115,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hostaway-calendar-api-openapi.yml, openapi/hostaway-listings-api-openapi.yml,\n  openapi/hostaway-reservations-api-openapi.yml, openapi/hostaway-webhooks-api-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/hostaway-calendar-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.hostaway.com/v1/accessTokens\n- name: OAuth2ClientCredentials\n  source: openapi/hostaway-listings-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.hostaway.com/v1/accessTokens\n- name: OAuth2ClientCredentials\n  source: openapi/hostaway-reservations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.hostaway.com/v1/accessTokens\n- name: OAuth2ClientCredentials\n  source: openapi/hostaway-webhooks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.hostaway.com/v1/accessTokens\nscopes:\n- scope: general\n\
   \  description: General API access scope\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/hostaway-calendar-api-openapi.yml\n  - openapi/hostaway-listings-api-openapi.yml\n  - openapi/hostaway-reservations-api-openapi.yml\n  - openapi/hostaway-webhooks-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/scopes/hostaway-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hostaway/scopes/hostaway-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Vacation Rentals

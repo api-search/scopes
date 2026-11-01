@@ -5,61 +5,61 @@ api_specs:
   label: Sana Assignments API
   slug: sana-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-assignments-api-openapi.yml
 - filename: sana-authentication-api-openapi.yml
   format: yaml
   label: Sana Authentication API
   slug: sana-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-authentication-api-openapi.yml
 - filename: sana-courses-api-openapi.yml
   format: yaml
   label: Sana Courses API
   slug: sana-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-courses-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-courses-api-openapi.yml
 - filename: sana-groups-api-openapi.yml
   format: yaml
   label: Sana Groups API
   slug: sana-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-groups-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-groups-api-openapi.yml
 - filename: sana-paths-api-openapi.yml
   format: yaml
   label: Sana Paths API
   slug: sana-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-paths-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-paths-api-openapi.yml
 - filename: sana-programs-api-openapi.yml
   format: yaml
   label: Sana Programs API
   slug: sana-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-programs-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-programs-api-openapi.yml
 - filename: sana-reporting-api-openapi.yml
   format: yaml
   label: Sana Reporting API
   slug: sana-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-reporting-api-openapi.yml
 - filename: sana-teamspaces-api-openapi.yml
   format: yaml
   label: Sana Teamspaces API
   slug: sana-teamspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-teamspaces-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-teamspaces-api-openapi.yml
 - filename: sana-users-api-openapi.yml
   format: yaml
   label: Sana Users API
   slug: sana-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-users-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-users-api-openapi.yml
 - filename: sana-x-api-api-openapi.yml
   format: yaml
   label: Sana x API
   slug: sana-x-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/openapi/sana-x-api-api-openapi.yml
+  url: https://artifacts.apis.io/sana/openapi/sana-x-api-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.sana.ai/api-docs/
@@ -104,7 +104,7 @@ source_filename: sana-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.sana.ai/api-docs/\ndocs: https://docs.sana.ai/api-docs/\nschemes:\n  - name: oauth2ClientCredentials\n    source: https://docs.sana.ai/api-docs/\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://{domain}.sana.ai/api/token\nscope_format: comma-separated\nscopes:\n  - scope: read\n    description: Read access. Required for all GET requests.\n    flows: [clientCredentials]\n    sources: [https://docs.sana.ai/api-docs/]\n  - scope: write\n    description: Write access. Required for all POST, PATCH, and DELETE requests.\n    flows: [clientCredentials]\n    sources: [https://docs.sana.ai/api-docs/]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/scopes/sana-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sana/scopes/sana-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Company

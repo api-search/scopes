@@ -5,13 +5,13 @@ api_specs:
   label: Rokwire Core Building Block API
   slug: rokwire-core-building-block
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-services-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/openapi/university-of-illinois-urbana-champaign-services-api-openapi.yml
 - filename: university-of-illinois-urbana-champaign-client-api-openapi.yml
   format: yaml
   label: Rokwire Gateway Building Block API
   slug: rokwire-gateway-building-block
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-client-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/openapi/university-of-illinois-urbana-champaign-client-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: derived\nsource: >-\n  openapi/_o
   \ of,\n    the named Permission objects.\ncarriers:\n- object: ServiceScope\n  where: components.schemas.ServiceScope\n  fields:\n    scope: the scope string itself\n    required: whether the registering service demands it rather than requests it\n    explanation: the human-readable justification shown to the user at consent time\n  detail: >-\n    ServiceScope is the consent-facing unit. A service registration declares the scopes it needs,\n    marks each required or optional, and supplies the explanation a person sees before approving.\n- object: ServiceReg.scopes[]\n  where: components.schemas.ServiceReg\n  detail: >-\n    The full service registration record — service_id, host, first_party, pub_key and the\n    ServiceScope[] the service asks for. This is where a scope enters the system.\n- object: ServiceAccount.scopes[]\n  where: components.schemas.ServiceAccount\n  detail: >-\n    A machine identity scoped to an app_id/org_id pair, carrying both permissions[] and scopes[].\n   \
   \ Third-party service accounts are distinguished from first-party by ServiceAccount.first_party.\n- object: AppOrgRole.scopes[]\n  where: components.schemas.AppOrgRole\n  detail: >-\n    A role within one application/organization, carrying permissions[] (Permission objects with\n    assigners[]) and scopes[]. Roles are granted to accounts through\n    POST /admin/application/accounts/{id}/roles.\nconsent_surface:\n  detail: >-\n    POST /services/auth/authorize-service returns either an access_token with approved_scopes[]\n    or, when the service is not yet authorized, the service_reg record including its\n    ScopeService[] — so the calling client can render the consent screen. This is a real,\n    machine-readable consent handshake and is the strongest agent-facing property in the estate.\nadministration:\n  paths:\n  - /admin/application/permissions\n  - /admin/application/roles\n  - /admin/application/roles/{id}/permissions\n  - /admin/application/accounts/{id}/permissions\n  - /admin/application/accounts/{id}/roles\n\
   \  - /system/permissions\n  detail: >-\n    Permissions and roles are administered through the Core Admin and System APIs. Every one of\n    these paths is bearer-gated; an unauthenticated call returns 401 with the Rokwire error\n    envelope.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/scopes/university-of-illinois-urbana-champaign-scopes.yml
+source_yaml_url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/scopes/university-of-illinois-urbana-champaign-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

@@ -5,139 +5,139 @@ api_specs:
   label: X Account Activity API
   slug: x-account-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-account-activity-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-account-activity-api-openapi.yml
 - filename: x-account-api-openapi.yml
   format: yaml
   label: X Account API
   slug: x-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-account-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-account-api-openapi.yml
 - filename: x-activity-api-openapi.yml
   format: yaml
   label: X Activity API
   slug: x-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-activity-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-activity-api-openapi.yml
 - filename: x-articles-api-openapi.yml
   format: yaml
   label: X Articles API
   slug: x-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-articles-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-articles-api-openapi.yml
 - filename: x-bots-api-openapi.yml
   format: yaml
   label: X Bots API
   slug: x-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-bots-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-bots-api-openapi.yml
 - filename: x-broadcasts-api-openapi.yml
   format: yaml
   label: X Broadcasts API
   slug: x-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-broadcasts-api-openapi.yml
 - filename: x-chat-api-openapi.yml
   format: yaml
   label: X Chat API
   slug: x-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-chat-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-chat-api-openapi.yml
 - filename: x-communities-api-openapi.yml
   format: yaml
   label: X Communities API
   slug: x-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-communities-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-communities-api-openapi.yml
 - filename: x-community-notes-api-openapi.yml
   format: yaml
   label: X Community Notes API
   slug: x-community-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-community-notes-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-community-notes-api-openapi.yml
 - filename: x-compliance-api-openapi.yml
   format: yaml
   label: X Compliance API
   slug: x-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-compliance-api-openapi.yml
 - filename: x-connections-api-openapi.yml
   format: yaml
   label: X Connections API
   slug: x-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-connections-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-connections-api-openapi.yml
 - filename: x-direct-messages-api-openapi.yml
   format: yaml
   label: X Direct Messages API
   slug: x-direct-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-direct-messages-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-direct-messages-api-openapi.yml
 - filename: x-general-api-openapi.yml
   format: yaml
   label: X General API
   slug: x-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-general-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-general-api-openapi.yml
 - filename: x-lists-api-openapi.yml
   format: yaml
   label: X Lists API
   slug: x-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-lists-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-lists-api-openapi.yml
 - filename: x-media-api-openapi.yml
   format: yaml
   label: X Media API
   slug: x-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-media-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-media-api-openapi.yml
 - filename: x-news-api-openapi.yml
   format: yaml
   label: X News API
   slug: x-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-news-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-news-api-openapi.yml
 - filename: x-posts-api-openapi.yml
   format: yaml
   label: X Posts API
   slug: x-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-posts-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-posts-api-openapi.yml
 - filename: x-spaces-api-openapi.yml
   format: yaml
   label: X Spaces API
   slug: x-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-spaces-api-openapi.yml
 - filename: x-stream-api-openapi.yml
   format: yaml
   label: X Stream API
   slug: x-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-stream-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-stream-api-openapi.yml
 - filename: x-trends-api-openapi.yml
   format: yaml
   label: X Trends API
   slug: x-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-trends-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-trends-api-openapi.yml
 - filename: x-usage-api-openapi.yml
   format: yaml
   label: X Usage API
   slug: x-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-usage-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-usage-api-openapi.yml
 - filename: x-users-api-openapi.yml
   format: yaml
   label: X Users API
   slug: x-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-users-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-users-api-openapi.yml
 - filename: x-webhooks-api-openapi.yml
   format: yaml
   label: X Webhooks API
   slug: x-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/openapi/x-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/x/openapi/x-webhooks-api-openapi.yml
 authorization_urls:
 - https://x.com/i/oauth2/authorize
 description: 'OAuth 2.0 scopes for the X API v2, reconciled across three authoritative sources X publishes: the securitySchemes block of its own OpenAPI, the RFC 8414 authorization server metadata at api.x.com, and the RFC 9728 protected-resource metadata that governs the hosted MCP server. The three lists DISAGREE, and the disagreement is recorded per scope rather than flattened.'
@@ -291,7 +291,7 @@ source_yaml: "generated: '2026-08-28'\nmethod: searched\nsource: openapi/_origin
   \ likes you can see.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: read\n- scope: like.write\n  description: Like and unlike Posts on your behalf.\n  in_spec: true\n  advertised_by_authorization_server: false\n  mcp_resource_scope: false\n  access: write\n- scope: list.read\n  description: View Lists, members, and followers of Lists you created or are a member of, including private\n    Lists.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: read\n- scope: list.write\n  description: Create and manage Lists on your behalf.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: write\n- scope: media.write\n  description: Upload media, such as photos and videos, on your behalf.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: false\n  access: write\n- scope: mute.read\n  description: View accounts you have\
   \ muted.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: read\n- scope: mute.write\n  description: Mute and unmute accounts on your behalf.\n  in_spec: true\n  advertised_by_authorization_server: false\n  mcp_resource_scope: false\n  access: write\n- scope: offline.access\n  description: Request a refresh token for the app.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: other\n- scope: space.read\n  description: View all Spaces you have access to.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: read\n- scope: timeline.read\n  description: View all Custom Timelines you can see.\n  in_spec: true\n  advertised_by_authorization_server: false\n  mcp_resource_scope: false\n  access: read\n- scope: tweet.moderate.write\n  description: Hide and unhide replies to your posts.\n  in_spec: true\n  advertised_by_authorization_server: false\n  mcp_resource_scope:\
   \ false\n  access: write\n- scope: tweet.read\n  description: View all posts you can see, including those from protected accounts.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: read\n- scope: tweet.write\n  description: Create and repost on your behalf.\n  in_spec: true\n  advertised_by_authorization_server: false\n  mcp_resource_scope: false\n  access: write\n- scope: users.read\n  description: View any account you can see, including protected accounts.\n  in_spec: true\n  advertised_by_authorization_server: true\n  mcp_resource_scope: true\n  access: read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x/refs/heads/main/scopes/x-scopes.yml
+source_yaml_url: https://artifacts.apis.io/x/scopes/x-scopes.yml
 summary_line: 29 scopes · authorizationCode
 tags:
 - Spaces

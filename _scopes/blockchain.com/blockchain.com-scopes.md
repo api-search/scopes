@@ -5,115 +5,115 @@ api_specs:
   label: Blockchain.com NFT Market API
   slug: blockchaincom-nft-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/_original/blockchain.com-nft-market-api-swagger.json
+  url: https://artifacts.apis.io/blockchain.com/openapi/_original/blockchain.com-nft-market-api-swagger.json
 - filename: blockchain.com-eligibility-api-openapi.yml
   format: yaml
   label: Blockchain.com Eligibility API
   slug: blockchain.com-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-eligibility-api-openapi.yml
 - filename: blockchain.com-nft-api-openapi.yml
   format: yaml
   label: Blockchain.com Nft API
   slug: blockchain.com-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-nft-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-nft-api-openapi.yml
 - filename: blockchain.com-nft-v2-api-openapi.yml
   format: yaml
   label: Blockchain.com Nft V2 API
   slug: blockchain.com-nft-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-nft-v2-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-nft-v2-api-openapi.yml
 - filename: blockchain.com-orders-api-openapi.yml
   format: yaml
   label: Blockchain.com Orders API
   slug: blockchain.com-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-orders-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-orders-api-openapi.yml
 - filename: blockchain.com-payments-api-openapi.yml
   format: yaml
   label: Blockchain.com Payments API
   slug: blockchain.com-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-payments-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-payments-api-openapi.yml
 - filename: blockchain.com-public-api-openapi.yml
   format: yaml
   label: Blockchain.com Public API
   slug: blockchain.com-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-public-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-public-api-openapi.yml
 - filename: blockchain.com-quote-api-openapi.yml
   format: yaml
   label: Blockchain.com Quote API
   slug: blockchain.com-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-quote-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-quote-api-openapi.yml
 - filename: blockchain.com-trading-api-openapi.yml
   format: yaml
   label: Blockchain.com Trading API
   slug: blockchain.com-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-trading-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-trading-api-openapi.yml
 - filename: blockchain.com-unauthenticated-api-openapi.yml
   format: yaml
   label: Blockchain.com Unauthenticated API
   slug: blockchain.com-unauthenticated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-unauthenticated-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-unauthenticated-api-openapi.yml
 - filename: blockchain-com-asyncapi.yml
   format: yaml
   label: Blockchain.com WebSocket APIs
   slug: blockchaincom-websocket-apis
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/asyncapi/blockchain-com-asyncapi.yml
+  url: https://artifacts.apis.io/blockchain.com/asyncapi/blockchain-com-asyncapi.yml
 - filename: blockchain.com-addresses-api-openapi.yml
   format: yaml
   label: Blockchain.com Addresses API
   slug: blockchain.com-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-addresses-api-openapi.yml
 - filename: blockchain.com-blocks-api-openapi.yml
   format: yaml
   label: Blockchain.com Blocks API
   slug: blockchain.com-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-blocks-api-openapi.yml
 - filename: blockchain.com-charts-api-openapi.yml
   format: yaml
   label: Blockchain.com Charts API
   slug: blockchain.com-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-charts-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-charts-api-openapi.yml
 - filename: blockchain.com-market-data-api-openapi.yml
   format: yaml
   label: Blockchain.com Market Data API
   slug: blockchain.com-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-market-data-api-openapi.yml
 - filename: blockchain.com-network-api-openapi.yml
   format: yaml
   label: Blockchain.com Network API
   slug: blockchain.com-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-network-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-network-api-openapi.yml
 - filename: blockchain.com-pools-api-openapi.yml
   format: yaml
   label: Blockchain.com Pools API
   slug: blockchain.com-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-pools-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-pools-api-openapi.yml
 - filename: blockchain.com-stats-api-openapi.yml
   format: yaml
   label: Blockchain.com Stats API
   slug: blockchain.com-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-stats-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-stats-api-openapi.yml
 - filename: blockchain.com-transactions-api-openapi.yml
   format: yaml
   label: Blockchain.com Transactions API
   slug: blockchain.com-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/openapi/blockchain.com-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/blockchain.com/openapi/blockchain.com-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.blockchain.com/oauth-resources
@@ -158,7 +158,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://docs.blockchain.com/oauth-resources/oauth-resources.md\ndocs: https://docs.blockchain.com/oauth-resources\nnote: >-\n  Blockchain.com operates an OAuth 2.0 resource gateway that lets a third-party\n  app read a user's custodial wallet data with the user's consent. No OpenAPI\n  declares these scopes and no /.well-known/oauth-authorization-server or\n  /.well-known/oauth-protected-resource document is served (both 404 on\n  api.blockchain.info/partner-resource-gateway), so the scopes below are\n  harvested from the published OAuth Resources documentation only. The\n  authorization server endpoints themselves are not publicly documented —\n  partners are onboarded directly by Blockchain.com.\nschemes:\n- name: OAuth2 Bearer\n  type: oauth2\n  token_type: bearer\n  in: header\n  parameter: Authorization\n  resource_server: https://api.blockchain.info/partner-resource-gateway\n  authorization_url: not publicly documented\n\
   \  token_url: not publicly documented\n  source: https://docs.blockchain.com/oauth-resources/oauth-resources.md\nscopes:\n- scope: read_transactions\n  description: >-\n    Retrieve the authenticated user's transaction history from their\n    Blockchain.com custodial wallet. Returns at most 30 days of history; types\n    are withdrawal, deposit and trade.\n  operation: GET /v1/transactions\n  sources: [https://docs.blockchain.com/oauth-resources/oauth-resources.md]\n- scope: read_balance\n  description: >-\n    Retrieve an overview of the authenticated user's account, including per-asset\n    symbol, fiat flag, quantity and current worth.\n  operation: GET /v1/balances\n  sources: [https://docs.blockchain.com/oauth-resources/oauth-resources.md]\nx-evidence:\n  fetched: '2026-08-02'\n  probes:\n  - url: https://api.blockchain.info/partner-resource-gateway/v1/balances\n    http_status: 401\n    note: endpoint is live and rejects anonymous requests\n  - url: https://api.blockchain.info/partner-resource-gateway/.well-known/oauth-authorization-server\n\
   \    http_status: 404\n  - url: https://api.blockchain.info/partner-resource-gateway/.well-known/oauth-protected-resource\n    http_status: 404\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/scopes/blockchain.com-scopes.yml
+source_yaml_url: https://artifacts.apis.io/blockchain.com/scopes/blockchain.com-scopes.yml
 summary_line: 2 scopes
 tags:
 - Cryptocurrency

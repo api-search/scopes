@@ -5,91 +5,91 @@ api_specs:
   label: Meddra Data Impact API
   slug: meddra-dataimpact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-dataimpact-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-dataimpact-api-openapi.yml
 - filename: meddra-details-api-openapi.yml
   format: yaml
   label: Meddra Details API
   slug: meddra-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-details-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-details-api-openapi.yml
 - filename: meddra-download-api-openapi.yml
   format: yaml
   label: Meddra Download API
   slug: meddra-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-download-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-download-api-openapi.yml
 - filename: meddra-export-api-openapi.yml
   format: yaml
   label: Meddra Export API
   slug: meddra-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-export-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-export-api-openapi.yml
 - filename: meddra-gettop-api-openapi.yml
   format: yaml
   label: Meddra Get Top API
   slug: meddra-gettop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-gettop-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-gettop-api-openapi.yml
 - filename: meddra-hierarchy-api-openapi.yml
   format: yaml
   label: Meddra Hierarchy API
   slug: meddra-hierarchy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-hierarchy-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-hierarchy-api-openapi.yml
 - filename: meddra-history-api-openapi.yml
   format: yaml
   label: Meddra History API
   slug: meddra-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-history-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-history-api-openapi.yml
 - filename: meddra-language-api-openapi.yml
   format: yaml
   label: Meddra Language API
   slug: meddra-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-language-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-language-api-openapi.yml
 - filename: meddra-release-api-openapi.yml
   format: yaml
   label: Meddra Release API
   slug: meddra-release-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-release-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-release-api-openapi.yml
 - filename: meddra-search-api-openapi.yml
   format: yaml
   label: Meddra Search API
   slug: meddra-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-search-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-search-api-openapi.yml
 - filename: meddra-smq-api-openapi.yml
   format: yaml
   label: Meddra SMQ API
   slug: meddra-smq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-smq-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-smq-api-openapi.yml
 - filename: meddra-status-api-openapi.yml
   format: yaml
   label: Meddra Status API
   slug: meddra-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-status-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-status-api-openapi.yml
 - filename: meddra-svalidation-api-openapi.yml
   format: yaml
   label: Meddra S Validation API
   slug: meddra-svalidation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-svalidation-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-svalidation-api-openapi.yml
 - filename: meddra-type-api-openapi.yml
   format: yaml
   label: Meddra Type API
   slug: meddra-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-type-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-type-api-openapi.yml
 - filename: meddra-versionr-api-openapi.yml
   format: yaml
   label: Meddra Version R API
   slug: meddra-versionr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-versionr-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-versionr-api-openapi.yml
 authorization_urls:
 - https://mid.meddra.org/connect/authorize
 description: ''
@@ -138,7 +138,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: https://mid.meddra.org/.well-known/openid-configuration\ndocs: https://www.meddra.org/meddra-apis\nnote: The OpenAPI declares one scope, meddraapi. The provider's own OIDC discovery document advertises three API-bearing\n  scopes on the same issuer; the other two are named there but are not referenced by the harvested MedDRA API contract,\n  so their exact grant is not documented publicly. The full scope list below is verbatim from scopes_supported.\nschemes:\n- name: oauth2\n  source: openapi/meddra-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://mid.meddra.org/connect/authorize\nscopes:\n- scope: meddraapi\n  description: Meddra API - full access\n  flows:\n  - implicit\n  sources:\n  - openapi/meddra-api-openapi.yml\n  - https://mid.meddra.org/.well-known/openid-configuration\n  note: The scope the MedDRA API OpenAPI requires on every authenticated operation.\n- scope: msmeddraapi\n  description:\
   \ null\n  flows:\n  - implicit\n  sources:\n  - https://mid.meddra.org/.well-known/openid-configuration\n  note: Advertised by the identity provider; not referenced by the published MedDRA API contract.\n- scope: meddrawapi\n  description: null\n  flows:\n  - implicit\n  sources:\n  - https://mid.meddra.org/.well-known/openid-configuration\n  note: Advertised by the identity provider; appears to serve the Web-Based Browser (WBB). Not referenced by the published\n    MedDRA API contract.\nissuer_scopes_supported:\n- openid\n- profile\n- role\n- Permission\n- username\n- st\n- wr\n- meddra\n- meddracrid\n- meddraint\n- meddraw\n- rc\n- email\n- userid\n- meddrawint\n- meddrawcrid\n- meddraapi\n- msmeddraapi\n- meddrawapi\n- offline_access\napi_scopes_detected:\n- meddraapi\n- msmeddraapi\n- meddrawapi\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/scopes/meddra-scopes.yml
+source_yaml_url: https://artifacts.apis.io/meddra/scopes/meddra-scopes.yml
 summary_line: 3 scopes · implicit
 tags:
 - Medical Terminology

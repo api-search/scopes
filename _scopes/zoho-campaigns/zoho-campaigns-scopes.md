@@ -5,7 +5,7 @@ api_specs:
   label: Zoho Campaigns Email API
   slug: zoho-campaigns-email-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-campaigns/refs/heads/main/postman/zoho-campaigns-email-api-collection.json
+  url: https://artifacts.apis.io/zoho-campaigns/postman/zoho-campaigns-email-api-collection.json
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.zoh
   \    module: Campaigns\n    description: To view, create, modify, and delete campaigns (READ, CREATE, UPDATE, DELETE)\n    composite_of:\n      - ZohoCampaigns.campaign.READ\n      - ZohoCampaigns.campaign.CREATE\n      - ZohoCampaigns.campaign.UPDATE\n      - ZohoCampaigns.campaign.DELETE\n    flows: [authorizationCode]\n  - scope: ZohoCampaigns.contact.CREATE\n    module: Contacts\n    description: To create contacts or mailing lists\n    flows: [authorizationCode]\n  - scope: ZohoCampaigns.contact.READ\n    module: Contacts\n    description: To view details or a report of contacts or mailing lists\n    flows: [authorizationCode]\n  - scope: ZohoCampaigns.contact.UPDATE\n    module: Contacts\n    description: To update contacts or mailing lists\n    flows: [authorizationCode]\n  - scope: ZohoCampaigns.contact.DELETE\n    module: Contacts\n    description: To delete mailing lists\n    flows: [authorizationCode]\n  - scope: ZohoCampaigns.contact.CREATE-UPDATE\n    module: Contacts\n  \
   \  description: To create and edit contacts or mailing lists (CREATE, UPDATE)\n    composite_of: [ZohoCampaigns.contact.CREATE, ZohoCampaigns.contact.UPDATE]\n    flows: [authorizationCode]\n  - scope: ZohoCampaigns.contact.WRITE\n    module: Contacts\n    description: To create, edit, and delete contacts or mailing lists (CREATE, UPDATE, DELETE)\n    composite_of:\n      - ZohoCampaigns.contact.CREATE\n      - ZohoCampaigns.contact.UPDATE\n      - ZohoCampaigns.contact.DELETE\n    flows: [authorizationCode]\n  - scope: ZohoCampaigns.contact.ALL\n    module: Contacts\n    description: To create, edit, view, and delete contacts or mailing lists (READ, CREATE, UPDATE, DELETE)\n    composite_of:\n      - ZohoCampaigns.contact.READ\n      - ZohoCampaigns.contact.CREATE\n      - ZohoCampaigns.contact.UPDATE\n      - ZohoCampaigns.contact.DELETE\n    flows: [authorizationCode]\n  - scope: ZohoCampaigns.emailapi.ALL\n    module: Email API\n    description: >-\n      The single scope selectable\
   \ when creating a Zoho Campaigns Email API key\n      (the Zoho-zapikey credential used by Email API v2).\n    source: https://www.zoho.com/campaigns/help/emailapi/authentication.html\n    flows: []\nidentity_scopes:\n  note: >-\n    The Zoho Accounts authorization server additionally advertises the standard\n    OIDC identity scopes in its discovery document.\n  source: well-known/zoho-campaigns-openid-configuration.json\n  scopes: [openid, email, profile, phone]\nsummary:\n  scope_count: 15\n  modules: [Campaigns, Contacts, Email API]\n  granularity: module + CRUD verb, with CREATE-UPDATE / WRITE / ALL composites\n  error_on_bad_scope: INVALID_SCOPE\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-campaigns/refs/heads/main/scopes/zoho-campaigns-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zoho-campaigns/scopes/zoho-campaigns-scopes.yml
 summary_line: 15 scopes · authorizationCode
 tags:
 - Email Marketing

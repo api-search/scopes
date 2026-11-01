@@ -5,19 +5,19 @@ api_specs:
   label: Cloud Academy Learning Management System API
   slug: cloud-academy-learning-management-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-learning-management-system-api-openapi.yml
+  url: https://artifacts.apis.io/cloud-academy/openapi/cloud-academy-learning-management-system-api-openapi.yml
 - filename: cloud-academy-organizations-api-openapi.yml
   format: yaml
   label: Cloud Academy Organizations API
   slug: cloud-academy-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cloud-academy/openapi/cloud-academy-organizations-api-openapi.yml
 - filename: cloud-academy-reports-api-openapi.yml
   format: yaml
   label: Cloud Academy Reports API
   slug: cloud-academy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/openapi/cloud-academy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cloud-academy/openapi/cloud-academy-reports-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -66,7 +66,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/cloud-academy-learning-management-system-api-openapi.yml, openapi/cloud-academy-organizations-api-openapi.yml,\n  openapi/cloud-academy-reports-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cloud-academy-learning-management-system-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://platform.qa.com/oauth2/token/\n  description: Insert your API key pair.<br/><br/>Enterprise members with Admin permissions\n    can generate and view their own API keys on the settings area of their Company Account [here](https://platform.qa.com/organizations/settings/api/).\n- name: oauth2\n  source: openapi/cloud-academy-organizations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://platform.qa.com/oauth2/token/\n  description: Insert your API key pair.<br/><br/>Enterprise members with Admin permissions\n    can generate and view their own API keys on the settings area of\
   \ their Company Account [here](https://platform.qa.com/organizations/settings/api/).\n- name: oauth2\n  source: openapi/cloud-academy-reports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://platform.qa.com/oauth2/token/\n  description: Insert your API key pair.<br/><br/>Enterprise members with Admin permissions\n    can generate and view their own API keys on the settings area of their Company Account [here](https://platform.qa.com/organizations/settings/api/).\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/scopes/cloud-academy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cloud-academy/scopes/cloud-academy-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

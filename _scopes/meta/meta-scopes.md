@@ -5,19 +5,19 @@ api_specs:
   label: Meta Custom Audiences API
   slug: meta-custom-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-custom-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/meta/openapi/meta-custom-audiences-api-openapi.yml
 - filename: meta-pages-api-openapi.yml
   format: yaml
   label: Meta Pages API
   slug: meta-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-pages-api-openapi.yml
+  url: https://artifacts.apis.io/meta/openapi/meta-pages-api-openapi.yml
 - filename: meta-users-api-openapi.yml
   format: yaml
   label: Meta Users API
   slug: meta-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-users-api-openapi.yml
+  url: https://artifacts.apis.io/meta/openapi/meta-users-api-openapi.yml
 authorization_urls:
 - https://www.facebook.com/v25.0/dialog/oauth
 description: Meta uses OAuth 2.0 "permissions" as its scope surface (Facebook Login / Graph API). The baseline (public_profile) was derived from openapi/meta-openapi.yml; the remaining entries are the canonical documented permissions from the Meta Permissions Reference (https://developers.facebook.com/docs/permissions). Most permissions require App Review before use in Production. This is a representative subset across the major products, not the full registry.
@@ -113,7 +113,7 @@ source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/meta-openapi.yml\ndocs: https://developers.facebook.com/docs/permissions\ndescription: >-\n  Meta uses OAuth 2.0 \"permissions\" as its scope surface (Facebook Login /\n  Graph API). The baseline (public_profile) was derived from\n  openapi/meta-openapi.yml; the remaining entries are the canonical documented\n  permissions from the Meta Permissions Reference\n  (https://developers.facebook.com/docs/permissions). Most permissions require\n  App Review before use in Production. This is a representative subset across\n  the major products, not the full registry.\nschemes:\n  - name: userAccessToken\n    source: openapi/meta-openapi.yml\n    flows:\n      - flow: implicit\n        authorizationUrl: https://www.facebook.com/v25.0/dialog/oauth\nscopes:\n  - scope: public_profile\n    description: Access basic profile info (name, profile picture).\n    flows: [implicit]\n    sources: [openapi/meta-openapi.yml]\n  - scope:\
   \ email\n    description: Access the person's primary email address.\n    product: facebook-login\n  - scope: pages_show_list\n    description: Read the list of Pages a person manages.\n    product: pages\n  - scope: pages_read_engagement\n    description: Read content, metadata, and engagement on Pages a person manages.\n    product: pages\n  - scope: pages_manage_posts\n    description: Create, edit, and delete Page posts.\n    product: pages\n  - scope: instagram_basic\n    description: Read an Instagram Business/Creator account profile and media.\n    product: instagram\n  - scope: instagram_content_publish\n    description: Publish media to an Instagram Business/Creator account.\n    product: instagram\n  - scope: instagram_manage_messages\n    description: Send and receive messages on Instagram.\n    product: instagram\n  - scope: ads_read\n    description: Read ad account campaigns, ad sets, ads, and insights.\n    product: marketing-api\n  - scope: ads_management\n    description:\
   \ Create and manage ads and audiences.\n    product: marketing-api\n  - scope: business_management\n    description: Read and manage business assets (Business Manager).\n    product: business\n  - scope: whatsapp_business_messaging\n    description: Send and receive WhatsApp messages via the Cloud API.\n    product: whatsapp\n  - scope: whatsapp_business_management\n    description: Manage WhatsApp Business accounts, phone numbers, and templates.\n    product: whatsapp\n  - scope: threads_basic\n    description: Read a Threads profile and content.\n    product: threads\n  - scope: threads_content_publish\n    description: Publish content to Threads.\n    product: threads\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/scopes/meta-scopes.yml
+source_yaml_url: https://artifacts.apis.io/meta/scopes/meta-scopes.yml
 summary_line: 15 scopes · implicit
 tags:
 - Meta

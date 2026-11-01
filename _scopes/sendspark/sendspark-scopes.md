@@ -5,25 +5,25 @@ api_specs:
   label: Sendspark DVM Bundles API
   slug: sendspark-dvm-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-dvm-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-dvm-bundles-api-openapi.yml
 - filename: sendspark-dynamics-campaign-api-openapi.yml
   format: yaml
   label: Sendspark Dynamics Campaign API
   slug: sendspark-dynamics-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-dynamics-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-dynamics-campaign-api-openapi.yml
 - filename: sendspark-webhook-api-openapi.yml
   format: yaml
   label: Sendspark Webhook API
   slug: sendspark-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-webhook-api-openapi.yml
 - filename: sendspark-workspace-api-openapi.yml
   format: yaml
   label: Sendspark Workspace API
   slug: sendspark-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/openapi/sendspark-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/sendspark/openapi/sendspark-workspace-api-openapi.yml
 authorization_urls:
 - https://auth.sendspark.com/oauth2/authorize
 description: ''
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource:\n- https://auth.s
   \ https://auth.sendspark.com/oauth2/authorize\n    tokenUrl: https://auth.sendspark.com/oauth2/token\n    pkce: [S256]\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://auth.sendspark.com/oauth2/device_authorization\n    grant: 'urn:ietf:params:oauth:grant-type:device_code'\n    tokenUrl: https://auth.sendspark.com/oauth2/token\n  - flow: refreshToken\n    tokenUrl: https://auth.sendspark.com/oauth2/token\n  endpoints:\n    jwks_uri: https://auth.sendspark.com/oauth2/jwks\n    introspection_endpoint: https://auth.sendspark.com/oauth2/introspection\n    registration_endpoint: https://auth.sendspark.com/oauth2/register\n  token_endpoint_auth_methods_supported: [none, client_secret_post, client_secret_basic]\n  dynamic_client_registration: true\n  client_id_metadata_document_supported: true\n  resource_indicators_supported: true\nscopes:\n- scope: openid\n  description: Standard OIDC scope requesting an ID token for the signed-in Sendspark user.\n  flows: [authorizationCode, deviceCode]\n\
   \  sources: [https://auth.sendspark.com/.well-known/openid-configuration]\n- scope: profile\n  description: Standard OIDC scope releasing the signed-in user's basic profile claims.\n  flows: [authorizationCode, deviceCode]\n  sources: [https://auth.sendspark.com/.well-known/openid-configuration]\n- scope: email\n  description: Standard OIDC scope releasing the signed-in user's email address.\n  flows: [authorizationCode, deviceCode]\n  sources: [https://auth.sendspark.com/.well-known/openid-configuration]\n- scope: offline_access\n  description: Requests a refresh token so the MCP connector can stay authorized without a repeat browser sign-in.\n  flows: [authorizationCode, deviceCode]\n  sources: [https://auth.sendspark.com/.well-known/openid-configuration]\nprotected_resource:\n  resource: https://apiv2.sendspark.com/api/mcp\n  authorization_servers: [https://auth.sendspark.com]\n  bearer_methods_supported: [header]\n  scopes_required: null\nfindings:\n- >-\n  Sendspark publishes only\
   \ the four standard OIDC scopes. There are NO\n  Sendspark-specific authorization scopes — no per-resource or per-action scope\n  such as campaigns:read or prospects:read. Authorization is coarse: a token\n  grants the signed-in user's identity, and the MCP server then enforces\n  read-only access to whatever workspaces that user belongs to. The\n  protected-resource metadata declares no required scopes.\n- >-\n  The authorization server supports dynamic client registration\n  (/oauth2/register) and RFC 8707 resource indicators, which is what lets an\n  arbitrary MCP client connect with no pre-provisioned client id.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/scopes/sendspark-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sendspark/scopes/sendspark-scopes.yml
 summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 tags:
 - Company

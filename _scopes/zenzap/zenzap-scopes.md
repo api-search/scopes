@@ -5,49 +5,49 @@ api_specs:
   label: ZenZap Agentic API
   slug: zenzap-agentic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-agentic-api-openapi.yml
+  url: https://artifacts.apis.io/zenzap/openapi/zenzap-agentic-api-openapi.yml
 - filename: zenzap-long-polling-api-openapi.yml
   format: yaml
   label: ZenZap Long Polling API
   slug: zenzap-long-polling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-long-polling-api-openapi.yml
+  url: https://artifacts.apis.io/zenzap/openapi/zenzap-long-polling-api-openapi.yml
 - filename: zenzap-members-api-openapi.yml
   format: yaml
   label: ZenZap Members API
   slug: zenzap-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-members-api-openapi.yml
+  url: https://artifacts.apis.io/zenzap/openapi/zenzap-members-api-openapi.yml
 - filename: zenzap-messages-api-openapi.yml
   format: yaml
   label: ZenZap Messages API
   slug: zenzap-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zenzap/openapi/zenzap-messages-api-openapi.yml
 - filename: zenzap-polls-api-openapi.yml
   format: yaml
   label: ZenZap Polls API
   slug: zenzap-polls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-polls-api-openapi.yml
+  url: https://artifacts.apis.io/zenzap/openapi/zenzap-polls-api-openapi.yml
 - filename: zenzap-tasks-api-openapi.yml
   format: yaml
   label: ZenZap Tasks API
   slug: zenzap-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/zenzap/openapi/zenzap-tasks-api-openapi.yml
 - filename: zenzap-topics-group-chats-channels-conversations-api-openapi.yml
   format: yaml
   label: ZenZap Topics (group chats/channels/conversations) API
   slug: zenzap-topics-group-chats-channels-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-topics-group-chats-channels-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/zenzap/openapi/zenzap-topics-group-chats-channels-conversations-api-openapi.yml
 - filename: zenzap-oauth-api-openapi.yml
   format: yaml
   label: ZenZap O Auth API
   slug: zenzap-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/openapi/zenzap-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/zenzap/openapi/zenzap-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.zenzap.co/api-reference/authentication
@@ -148,7 +148,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/zenzap-openapi-original.yml\ndocs: https://docs.zenzap.co/api-reference/authentication\nnotes: >-\n  Scopes are documented on the Authentication page and passed as a\n  space-separated subset to POST /oauth/token. Each endpoint requires a\n  specific scope.\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/zenzap-openapi-original.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zenzap.co/oauth/token\n  description: |-\n    OAuth 2.0 `client_credentials` grant for API-key bots. Use the `clientId` and `clientSecret` returned when the bot was created (or rotated) to mint short-lived access tokens. See [Authentication](/api-reference/authentication) for details.\n\n    Access tokens are bearer JWTs and expire after 1 hour. There is no refresh token — re-mint with the client credentials when the token expires.\nscopes:\n- scope: channel:list\n  description: List topics the bot belongs to\n\
   \  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n- scope: channel:read\n  description: Read topic metadata\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n- scope: channel:write\n  description: Create/update topics and manage members\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n- scope: member:read\n  description: List organization members\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n- scope: message:read\n  description: Read messages\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n- scope: message:send\n  description: Send messages\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n- scope: message:write\n  description: Edit / delete / mark-delivered / mark-read messages\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n\
   - scope: poll:write\n  description: Create polls and cast / retract votes\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n- scope: reaction:write\n  description: Add and remove reactions on messages\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n- scope: task:read\n  description: Read tasks\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n- scope: task:write\n  description: Create / update / delete tasks\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n- scope: updates:read\n  description: Long-poll for outbound events\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zenzap-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/scopes/zenzap-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zenzap/scopes/zenzap-scopes.yml
 summary_line: 12 scopes · clientCredentials
 tags:
 - Company

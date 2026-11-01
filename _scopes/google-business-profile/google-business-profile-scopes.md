@@ -5,7 +5,7 @@ api_specs:
   label: Google Business Profile Accounts API
   slug: google-business-profile-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/openapi/google-business-profile-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-business-profile/openapi/google-business-profile-accounts-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -47,7 +47,7 @@ source_filename: google-business-profile-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/business.manage\n  description: Manage business listings\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/scopes/google-business-profile-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-business-profile/scopes/google-business-profile-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Business Profiles

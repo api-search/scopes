@@ -5,25 +5,25 @@ api_specs:
   label: Google Campaign Manager Ads API
   slug: google-campaign-manager-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-ads-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-ads-api-openapi.yml
 - filename: google-campaign-manager-campaigns-api-openapi.yml
   format: yaml
   label: Google Campaign Manager Campaigns API
   slug: google-campaign-manager-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-campaigns-api-openapi.yml
 - filename: google-campaign-manager-placements-api-openapi.yml
   format: yaml
   label: Google Campaign Manager Placements API
   slug: google-campaign-manager-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-placements-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-placements-api-openapi.yml
 - filename: google-campaign-manager-reports-api-openapi.yml
   format: yaml
   label: Google Campaign Manager Reports API
   slug: google-campaign-manager-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/openapi/google-campaign-manager-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-campaign-manager/openapi/google-campaign-manager-reports-api-openapi.yml
 authorization_urls: []
 description: OAuth 2.0 scopes for the Campaign Manager 360 API. Baseline derived from the OpenAPI securitySchemes, then upgraded from the provider's own v5 Discovery Document (auth.oauth2.scopes, revision 20260721, HTTP 200 on 2026-08-13) — which declares a third scope the OpenAPI documents omit.
 docs: https://developers.google.com/doubleclick-advertisers/authorizing
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://dfarepo
   \ to user data on this API.\nscopes:\n  - scope: https://www.googleapis.com/auth/dfatrafficking\n    description: View and manage your DoubleClick Campaign Manager's (DCM) display ad campaigns\n    flows: [authorizationCode]\n    grants: >-\n      Read and write across the trafficking tree — accounts, advertisers,\n      campaigns, ads, creatives, placements, sites, event tags, targeting.\n    sources:\n      - https://dfareporting.googleapis.com/$discovery/rest?version=v5\n      - openapi/google-campaign-manager-ads-api-openapi.yml\n      - openapi/google-campaign-manager-campaigns-api-openapi.yml\n      - openapi/google-campaign-manager-placements-api-openapi.yml\n  - scope: https://www.googleapis.com/auth/dfareporting\n    description: View and manage DoubleClick for Advertisers reports\n    flows: [authorizationCode]\n    grants: >-\n      Report definitions, report runs, generated files, dimension values,\n      compatible fields.\n    sources:\n      - https://dfareporting.googleapis.com/$discovery/rest?version=v5\n\
   \      - openapi/google-campaign-manager-reports-api-openapi.yml\n  - scope: https://www.googleapis.com/auth/ddmconversions\n    description: Manage DoubleClick Digital Marketing conversions\n    flows: [authorizationCode]\n    grants: >-\n      Offline conversion upload and update (conversions.batchinsert,\n      conversions.batchupdate).\n    sources:\n      - https://dfareporting.googleapis.com/$discovery/rest?version=v5\n    note: >-\n      Declared by the provider's Discovery Document but absent from the OpenAPI\n      documents in this repository, which cover only the trafficking and\n      reporting subsets.\nsummary:\n  scope_count: 3\n  granularity: coarse\n  granularity_note: >-\n    Three scopes cover 67 resource collections. There is no read-only scope and\n    no per-resource scope — a token that can list campaigns can also delete\n    them. Least privilege is not expressible through this API's scope model;\n    it has to be enforced through Campaign Manager 360 user roles\
   \ instead.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/scopes/google-campaign-manager-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-campaign-manager/scopes/google-campaign-manager-scopes.yml
 summary_line: 3 scopes
 tags:
 - Advertising

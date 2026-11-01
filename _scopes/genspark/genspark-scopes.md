@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: well-known/genspark-openid-configuration.json\ndocs: https://www.genspark.ai/.well-known/openid-configuration\nschemes:\n- name: mcpOAuth\n  source: well-known/genspark-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.genspark.ai/api/mcp/oauth/authorize\n    tokenUrl: https://www.genspark.ai/api/mcp/oauth/token\nscopes:\n- scope: mcp:tools:read\n  description: List / discover the MCP tools the Genspark server exposes.\n  flows: [authorizationCode]\n  sources: [well-known/genspark-openid-configuration.json]\n- scope: mcp:tools:call\n  description: Invoke (call) Genspark MCP tools.\n  flows: [authorizationCode]\n  sources: [well-known/genspark-openid-configuration.json]\n- scope: mcp:resources:read\n  description: Read MCP resources exposed by the Genspark server.\n  flows: [authorizationCode]\n  sources: [well-known/genspark-openid-configuration.json]\n- scope: mcp:prompts:read\n\
   \  description: Read MCP prompts exposed by the Genspark server.\n  flows: [authorizationCode]\n  sources: [well-known/genspark-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/genspark/refs/heads/main/scopes/genspark-scopes.yml
+source_yaml_url: https://artifacts.apis.io/genspark/scopes/genspark-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

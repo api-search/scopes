@@ -5,43 +5,43 @@ api_specs:
   label: Bank of us Banking Account Balances API
   slug: bank-of-us-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-us/openapi/bank-of-us-banking-account-balances-api-openapi.yml
 - filename: bank-of-us-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bank of us Banking Account Direct Debits API
   slug: bank-of-us-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-us/openapi/bank-of-us-banking-account-direct-debits-api-openapi.yml
 - filename: bank-of-us-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bank of us Banking Account Scheduled Payments API
   slug: bank-of-us-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-us/openapi/bank-of-us-banking-account-scheduled-payments-api-openapi.yml
 - filename: bank-of-us-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bank of us Banking Account Transactions API
   slug: bank-of-us-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-us/openapi/bank-of-us-banking-account-transactions-api-openapi.yml
 - filename: bank-of-us-banking-accounts-api-openapi.yml
   format: yaml
   label: Bank of us Banking Accounts API
   slug: bank-of-us-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-us/openapi/bank-of-us-banking-accounts-api-openapi.yml
 - filename: bank-of-us-banking-payees-api-openapi.yml
   format: yaml
   label: Bank of us Banking Payees API
   slug: bank-of-us-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-us/openapi/bank-of-us-banking-payees-api-openapi.yml
 - filename: bank-of-us-banking-products-api-openapi.yml
   format: yaml
   label: Bank of us Banking Products API
   slug: bank-of-us-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/openapi/bank-of-us-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-us/openapi/bank-of-us-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -93,7 +93,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/bank-of-us-cds-banking-products-openapi.yml (x-scopes)\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\nnote: >-\n  The shared DSB CDS banking OpenAPI declares no oauth2 securityScheme (the CDR\n  Security Profile lives outside the spec), so these scopes are derived from the\n  per-operation x-scopes extension in the spec, which mirrors the CDR banking\n  authorisation-scopes registry. Scopes apply ONLY to the authenticated\n  consumer-data endpoints; the public Product Reference Data endpoints require no\n  scope.\nschemes:\n- name: CDR-OAuth2\n  source: CDR Security Profile (FAPI OAuth2 authorization code)\n  flows:\n  - flow: authorizationCode\nscopes:\n- scope: bank:accounts.basic:read\n  description: Read basic account information (account list, product category, balances at basic level).\n  sources: [openapi/bank-of-us-cds-banking-products-openapi.yml]\n- scope: bank:accounts.detail:read\n\
   \  description: Read detailed account information (account detail, features, addresses, MTLS-protected).\n  sources: [openapi/bank-of-us-cds-banking-products-openapi.yml]\n- scope: bank:transactions:read\n  description: Read account transactions and transaction detail.\n  sources: [openapi/bank-of-us-cds-banking-products-openapi.yml]\n- scope: bank:regular_payments:read\n  description: Read scheduled payments, direct debits and other regular payment arrangements.\n  sources: [openapi/bank-of-us-cds-banking-products-openapi.yml]\n- scope: bank:payees:read\n  description: Read saved payees.\n  sources: [openapi/bank-of-us-cds-banking-products-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/scopes/bank-of-us-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bank-of-us/scopes/bank-of-us-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Finance

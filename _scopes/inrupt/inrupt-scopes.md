@@ -5,19 +5,19 @@ api_specs:
   label: Inrupt Discovery API
   slug: inrupt-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/openapi/inrupt-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/inrupt/openapi/inrupt-discovery-api-openapi.yml
 - filename: inrupt-jsonkeys-api-openapi.yml
   format: yaml
   label: Inrupt Jsonkeys API
   slug: inrupt-jsonkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/openapi/inrupt-jsonkeys-api-openapi.yml
+  url: https://artifacts.apis.io/inrupt/openapi/inrupt-jsonkeys-api-openapi.yml
 - filename: inrupt-subscription-api-openapi.yml
   format: yaml
   label: Inrupt Subscription API
   slug: inrupt-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/openapi/inrupt-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/inrupt/openapi/inrupt-subscription-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.inrupt.com/guides/authentication-in-solid
@@ -57,7 +57,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: https://login.inrupt.com/.well-known/openid-configuration\ndocs: https://docs.inrupt.com/guides/authentication-in-solid\nissuer: https://login.inrupt.com\nnote: >-\n  Inrupt's Solid OpenID Provider advertises three scopes and no resource-level permission scopes.\n  This is by design and is the most important thing to understand about authorizing against ESS:\n  authorization is NOT carried in the OAuth scope. A token grants an identity (the WebID); what that\n  identity may read or write is decided separately by Access Control Policies on the resource and by\n  Access Grants, which are W3C Verifiable Credentials issued by the data subject. There is therefore\n  no scope reference page to enumerate, and the absence of granular scopes is not a documentation gap.\nscopes:\n- name: openid\n  description: Standard OpenID Connect scope requesting an ID token.\n  required: true\n- name: offline_access\n  description: Requests a refresh\
   \ token so a session can be restored without re-authenticating.\n- name: webid\n  description: >-\n    Solid-OIDC scope requesting the webid claim, which binds the token to the user's WebID URI. Present\n    in both scopes_supported and claims_supported.\nauthorization_model:\n  identity_scopes: OAuth/OIDC scopes above\n  resource_authorization:\n  - mechanism: Access Control Policy (ACP)\n    docs: https://docs.inrupt.com/security/authorization/acp\n    description: Policies on the Access Control Resource attached to each Pod resource.\n  - mechanism: Access Requests and Access Grants\n    docs: https://docs.inrupt.com/security/authorization/access-requests-grants\n    description: >-\n      Verifiable Credentials issued by the data subject naming grantee, resource, access modes and\n      purpose, with expiry and revocation. As of ESS 3.0 a grant acts as a receipt checked server-side.\n  access_modes:\n  - read\n  - write\n  - append\n  - control\n  mcp_restriction: >-\n    The MCP Resource\
   \ Service currently supports only the read access mode for requestAccess and\n    hasMatchingAccessGrant.\ntoken_endpoint_auth_methods:\n- client_secret_basic\n- client_secret_post\ngrant_types:\n- authorization_code\n- refresh_token\n- client_credentials\npkce:\n- plain\n- S256\ndpop_signing_algs:\n- RS256\n- ES256\ndynamic_client_registration: https://login.inrupt.com/registration\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inrupt/refs/heads/main/scopes/inrupt-scopes.yml
+source_yaml_url: https://artifacts.apis.io/inrupt/scopes/inrupt-scopes.yml
 summary_line: 3 scopes
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: HasMCP Providers API
   slug: hasmcp-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasmcp/refs/heads/main/openapi/hasmcp-providers-api-openapi.yml
+  url: https://artifacts.apis.io/hasmcp/openapi/hasmcp-providers-api-openapi.yml
 - filename: hasmcp-servers-api-openapi.yml
   format: yaml
   label: HasMCP Servers API
   slug: hasmcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasmcp/refs/heads/main/openapi/hasmcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/hasmcp/openapi/hasmcp-servers-api-openapi.yml
 - filename: hasmcp-variables-api-openapi.yml
   format: yaml
   label: HasMCP Variables API
   slug: hasmcp-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasmcp/refs/heads/main/openapi/hasmcp-variables-api-openapi.yml
+  url: https://artifacts.apis.io/hasmcp/openapi/hasmcp-variables-api-openapi.yml
 authorization_urls:
 - https://accounts.hasmcp.com/oauth2/auth
 description: ''
@@ -141,7 +141,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: derived\nsource: openapi/hasmcp-openapi.yaml\nschemes:\n- name: oauth2\n  source: openapi/hasmcp-openapi.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.hasmcp.com/oauth2/auth\n    tokenUrl: https://accounts.hasmcp.com/oauth2/token\nscopes:\n- scope: gitconnection:delete\n  description: Delete Git connection\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: gitconnection:list\n  description: List Git connections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: provider:create\n  description: Create provider\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: provider:delete\n  description: Delete provider\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: provider:list\n  description: List providers\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n\
   - scope: provider:read\n  description: Get provider\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: provider:update\n  description: Update provider\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: server:create\n  description: Create MCP server\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: server:create_token\n  description: Create MCP server token\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: server:delete\n  description: Delete MCP server\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: server:list\n  description: List MCP servers\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: server:read\n  description: Get MCP server\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: server:update\n  description: Update MCP\
   \ server\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: variable:create\n  description: Create variable\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: variable:delete\n  description: Delete variable\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: variable:list\n  description: List variables\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n- scope: variable:update\n  description: Update variable\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hasmcp-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hasmcp/refs/heads/main/scopes/hasmcp-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hasmcp/scopes/hasmcp-scopes.yml
 summary_line: 17 scopes · authorizationCode
 tags:
 - Company

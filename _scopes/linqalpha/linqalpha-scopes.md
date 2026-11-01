@@ -5,61 +5,61 @@ api_specs:
   label: LinqAlpha Briefing API
   slug: linqalpha-briefing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-briefing-api-openapi.yml
+  url: https://artifacts.apis.io/linqalpha/openapi/linqalpha-briefing-api-openapi.yml
 - filename: linqalpha-connectors-api-openapi.yml
   format: yaml
   label: LinqAlpha Connectors API
   slug: linqalpha-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/linqalpha/openapi/linqalpha-connectors-api-openapi.yml
 - filename: linqalpha-data-api-openapi.yml
   format: yaml
   label: LinqAlpha Data API
   slug: linqalpha-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-data-api-openapi.yml
+  url: https://artifacts.apis.io/linqalpha/openapi/linqalpha-data-api-openapi.yml
 - filename: linqalpha-feedback-api-openapi.yml
   format: yaml
   label: LinqAlpha Feedback API
   slug: linqalpha-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/linqalpha/openapi/linqalpha-feedback-api-openapi.yml
 - filename: linqalpha-mcp-api-openapi.yml
   format: yaml
   label: LinqAlpha MCP API
   slug: linqalpha-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/linqalpha/openapi/linqalpha-mcp-api-openapi.yml
 - filename: linqalpha-rms-api-openapi.yml
   format: yaml
   label: LinqAlpha RMS API
   slug: linqalpha-rms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-rms-api-openapi.yml
+  url: https://artifacts.apis.io/linqalpha/openapi/linqalpha-rms-api-openapi.yml
 - filename: linqalpha-search-api-openapi.yml
   format: yaml
   label: LinqAlpha Search API
   slug: linqalpha-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-search-api-openapi.yml
+  url: https://artifacts.apis.io/linqalpha/openapi/linqalpha-search-api-openapi.yml
 - filename: linqalpha-source-management-api-openapi.yml
   format: yaml
   label: LinqAlpha Source Management API
   slug: linqalpha-source-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-source-management-api-openapi.yml
+  url: https://artifacts.apis.io/linqalpha/openapi/linqalpha-source-management-api-openapi.yml
 - filename: linqalpha-status-api-openapi.yml
   format: yaml
   label: LinqAlpha Status API
   slug: linqalpha-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-status-api-openapi.yml
+  url: https://artifacts.apis.io/linqalpha/openapi/linqalpha-status-api-openapi.yml
 - filename: linqalpha-vault-api-openapi.yml
   format: yaml
   label: LinqAlpha Vault API
   slug: linqalpha-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/openapi/linqalpha-vault-api-openapi.yml
+  url: https://artifacts.apis.io/linqalpha/openapi/linqalpha-vault-api-openapi.yml
 authorization_urls:
 - https://api.linqalpha.com/oauth/authorize
 description: ''
@@ -110,7 +110,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.linqalpha.com/.well-known/oauth-authorization-server\ndocs: https://docs.linqalpha.com/api-reference/basic/mcp\nnote: >-\n  The published OpenAPI declares only the ApiKeyAuth (X-API-KEY) scheme, so no scopes are derivable\n  from the spec. The OAuth surface is discovered instead from RFC 8414 authorization server metadata\n  at api.linqalpha.com, which fronts the LinqAlpha MCP server.\nschemes:\n- name: LinqAlphaOAuth\n  type: oauth2\n  source: https://api.linqalpha.com/.well-known/oauth-authorization-server\n  issuer: https://api.linqalpha.com\n  registration_endpoint: https://api.linqalpha.com/oauth/register\n  dynamic_client_registration: true\n  token_endpoint_auth_methods_supported:\n  - none\n  code_challenge_methods_supported:\n  - S256\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.linqalpha.com/oauth/authorize\n    tokenUrl: https://api.linqalpha.com/oauth/token\nscopes:\n- scope:\
   \ mcp:tools\n  description: >-\n    Invoke the tools exposed by the LinqAlpha MCP server at https://api.linqalpha.com/v1/mcp.\n    This is the only scope advertised in scopes_supported.\n  flows:\n  - authorizationCode\n  sources:\n  - https://api.linqalpha.com/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/scopes/linqalpha-scopes.yml
+source_yaml_url: https://artifacts.apis.io/linqalpha/scopes/linqalpha-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

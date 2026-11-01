@@ -5,7 +5,7 @@ api_specs:
   label: LastDatabase Leads API
   slug: lastdatabase-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastdatabase/refs/heads/main/openapi/lastdatabase-leads-api-openapi.yml
+  url: https://artifacts.apis.io/lastdatabase/openapi/lastdatabase-leads-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://lastdatabase.com/docs/mcp
@@ -99,7 +99,7 @@ source_yaml: 'generated: ''2026-09-23''
   note: All nine scopes are listed in scopes_supported of both the authorization-server and protected-resource metadata (HTTP 200). Only credits:read, people:search and email:verify are tied to a documented tool; the other six carry no published description.
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lastdatabase/refs/heads/main/scopes/lastdatabase-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lastdatabase/scopes/lastdatabase-scopes.yml
 summary_line: 9 scopes
 tags:
 - Contact Data

@@ -5,43 +5,43 @@ api_specs:
   label: Datadog APM Spans API
   slug: datadog-apm-spans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-spans-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-spans-api-openapi.yml
 - filename: datadog-apm-spans-metrics-api-openapi.yml
   format: yaml
   label: Datadog APM Spans Metrics API
   slug: datadog-apm-spans-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-spans-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-spans-metrics-api-openapi.yml
 - filename: datadog-apm-apm-api-openapi.yml
   format: yaml
   label: Datadog APM API
   slug: datadog-apm-apm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-apm-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-apm-api-openapi.yml
 - filename: datadog-apm-apm-retention-filters-api-openapi.yml
   format: yaml
   label: Datadog APM Retention Filters API
   slug: datadog-apm-apm-retention-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-apm-retention-filters-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-apm-retention-filters-api-openapi.yml
 - filename: datadog-apm-service-definition-api-openapi.yml
   format: yaml
   label: Datadog APM Service Definition API
   slug: datadog-apm-service-definition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-service-definition-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-service-definition-api-openapi.yml
 - filename: datadog-apm-service-level-objective-corrections-api-openapi.yml
   format: yaml
   label: Datadog APM Service Level Objective Corrections API
   slug: datadog-apm-service-level-objective-corrections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-service-level-objective-corrections-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-service-level-objective-corrections-api-openapi.yml
 - filename: datadog-apm-service-level-objectives-api-openapi.yml
   format: yaml
   label: Datadog APM Service Level Objectives API
   slug: datadog-apm-service-level-objectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/openapi/datadog-apm-service-level-objectives-api-openapi.yml
+  url: https://artifacts.apis.io/datadog-apm/openapi/datadog-apm-service-level-objectives-api-openapi.yml
 authorization_urls:
 - /oauth2/v1/authorize
 description: ''
@@ -633,8 +633,8 @@ source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/datadog-
   \  - openapi/datadog-apm-service-definitions-api-openapi.yml\n  - openapi/datadog-apm-services-api-openapi.yml\n  - openapi/datadog-apm-slo-corrections-api-openapi.yml\n  - openapi/datadog-apm-slos-api-openapi.yml\n  - openapi/datadog-apm-spans-api-openapi.yml\n  - openapi/datadog-apm-spans-metrics-api-openapi.yml\n- scope: security_comments_read\n  description: Read comments of vulnerabilities.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/datadog-apm-retention-filters-api-openapi.yml\n  - openapi/datadog-apm-service-definitions-api-openapi.yml\n  - openapi/datadog-apm-services-api-openapi.yml\n  - openapi/datadog-apm-slo-corrections-api-openapi.yml\n  - openapi/datadog-apm-slos-api-openapi.yml\n  - openapi/datadog-apm-spans-api-openapi.yml\n  - openapi/datadog-apm-spans-metrics-api-openapi.yml\n- scope: security_monitoring_critical_assets_read\n  description: Read Critical Assets.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/datadog-apm-retention-filters-api-openapi.yml\n\
   \  - openapi/datadog-apm-service-definitions-api-openapi.yml\n  - openapi/datadog-apm-services-api-openapi.yml\n  - openapi/datadog-apm-spans-api-openapi.yml\n  - openapi/datadog-apm-spans-metrics-api-openapi.yml\n- scope: security_monitoring_critical_assets_write\n  description: Write Critical Assets.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/datadog-apm-retention-filters-api-openapi.yml\n  - openapi/datadog-apm-service-definitions-api-openapi.yml\n  - openapi/datadog-apm-services-api-openapi.yml\n  - openapi/datadog-apm-spans-api-openapi.yml\n  - openapi/datadog-apm-spans-metrics-api-openapi.yml\n- scope: security_monitoring_filters_read\n  description: Read Security Filters.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/datadog-apm-retention-filters-api-openapi.yml\n  - openapi/datadog-apm-service-definitions-api-openapi.yml\n  - openapi/datadog-apm-services-api-openapi.yml\n  - openapi/datadog-apm-slo-corrections-api-openapi.yml\n  - openapi/datadog-apm-slos-api-openapi.yml\n\
   \  - openapi/datadog-apm-spans-api-openapi.yml\n  - openapi/datadog-apm-spans-metrics-api-openapi.yml\n- scope: security_monitoring_filters_write\n  description: Create, edit, and delete Security Filters.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/datadog-apm-retention-filters-api-openapi.yml\n  - openapi/datadog-apm-service-definitions-api-openapi.yml\n  - openapi/datadog-apm-services-api-openapi.yml\n  - openapi/datadog-apm-slo-corrections-api-openapi.yml\n  - openapi/datadog-apm-slos-api-openapi.yml\n  - openapi/datadog-apm-spans-api-openapi.yml\n  - openapi/datadog-apm-spans-metrics-api-openapi.yml\n- scope: security_monitoring_findings_read\n  description: View a list of findings that include both misconfigurations and identity risks.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/datadog-apm-retention-filters-api-openapi.yml\n  - openapi/datadog-apm-service-definitions-api-openapi.yml\n  - openapi/datadog-apm-services-api-openapi.yml\n\n\n# --- truncated\
-  \ at 32 KB (46 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/scopes/datadog-apm-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/scopes/datadog-apm-scopes.yml
+  \ at 32 KB (46 KB total) ---\n# Full source: https://artifacts.apis.io/datadog-apm/scopes/datadog-apm-scopes.yml\n"
+source_yaml_url: https://artifacts.apis.io/datadog-apm/scopes/datadog-apm-scopes.yml
 summary_line: 96 scopes · authorizationCode
 tags:
 - APM

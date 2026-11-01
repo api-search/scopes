@@ -5,43 +5,43 @@ api_specs:
   label: Microsoft 365 Calendar API
   slug: microsoft-365-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-calendar-api-openapi.yml
 - filename: microsoft-365-files-api-openapi.yml
   format: yaml
   label: Microsoft 365 Files API
   slug: microsoft-365-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-files-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-files-api-openapi.yml
 - filename: microsoft-365-groups-api-openapi.yml
   format: yaml
   label: Microsoft 365 Groups API
   slug: microsoft-365-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-groups-api-openapi.yml
 - filename: microsoft-365-mail-api-openapi.yml
   format: yaml
   label: Microsoft 365 Mail API
   slug: microsoft-365-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-mail-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-mail-api-openapi.yml
 - filename: microsoft-365-me-api-openapi.yml
   format: yaml
   label: Microsoft 365 Me API
   slug: microsoft-365-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-me-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-me-api-openapi.yml
 - filename: microsoft-365-teams-api-openapi.yml
   format: yaml
   label: Microsoft 365 Teams API
   slug: microsoft-365-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-teams-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-teams-api-openapi.yml
 - filename: microsoft-365-users-api-openapi.yml
   format: yaml
   label: Microsoft 365 Users API
   slug: microsoft-365-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/openapi/microsoft-365-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365/openapi/microsoft-365-users-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -123,7 +123,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-365-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-365-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\nscopes:\n- scope: Calendars.Read\n  description: Read user calendars\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-openapi.yml\n- scope: Channel.ReadBasic.All\n  description: Read basic channel info\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-openapi.yml\n- scope: Files.Read.All\n  description: Read all files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-openapi.yml\n- scope: Group.Read.All\n  description:\
   \ Read all groups\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-openapi.yml\n- scope: Mail.Read\n  description: Read user mail\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-openapi.yml\n- scope: User.Read\n  description: Sign in and read user profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-openapi.yml\n- scope: User.ReadWrite.All\n  description: Read and write all users' full profiles\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-365-openapi.yml\n- scope: https://graph.microsoft.com/.default\n  description: Use app-registered Graph permissions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microsoft-365-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/scopes/microsoft-365-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-365/scopes/microsoft-365-scopes.yml
 summary_line: 8 scopes · authorizationCode/clientCredentials
 tags:
 - Productivity

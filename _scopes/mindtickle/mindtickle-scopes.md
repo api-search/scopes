@@ -5,25 +5,25 @@ api_specs:
   label: Mindtickle Assethub API
   slug: mindtickle-assethub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-assethub-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-assethub-api-openapi.yml
 - filename: mindtickle-public-api-openapi.yml
   format: yaml
   label: Mindtickle Public API
   slug: mindtickle-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-public-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-public-api-openapi.yml
 - filename: mindtickle-reports-api-openapi.yml
   format: yaml
   label: Mindtickle Reports API
   slug: mindtickle-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-reports-api-openapi.yml
 - filename: mindtickle-services-api-openapi.yml
   format: yaml
   label: Mindtickle Services API
   slug: mindtickle-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/openapi/mindtickle-services-api-openapi.yml
+  url: https://artifacts.apis.io/mindtickle/openapi/mindtickle-services-api-openapi.yml
 authorization_urls:
 - https://app.mindtickle.com/api/users/v1/oauth/authorize
 description: 'Mindtickle publishes its OAuth 2.0 scope vocabulary anonymously in two places: scopes_supported in the RFC 8414 authorization-server metadata and scopes_supported in the RFC 9728 protected-resource metadata. Both lists are identical - seven scopes covering AI roleplays, call recordings, Copilot chat, digital sales rooms and search. Descriptions below are DERIVED from the scope name plus the matching product surface in Mindtickle''s own product pages; the provider publishes no prose scope reference, so the strings themselves are the only authoritative part.'
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://app.mindt
   \ >-\n    Read access to call recordings, transcripts and conversation-intelligence\n    data - the same domain the Call AI public GraphQL API exposes. Derived label.\n  flows: [authorizationCode, clientCredentials]\n  sources: [well-known/mindtickle-oauth-authorization-server.json, well-known/mindtickle-oauth-protected-resource.json]\n- scope: read:copilot_chat\n  access: read\n  resource: Copilot\n  description: >-\n    Read access to Mindtickle Copilot chat. Derived label.\n  flows: [authorizationCode, clientCredentials]\n  sources: [well-known/mindtickle-oauth-authorization-server.json, well-known/mindtickle-oauth-protected-resource.json]\n- scope: read:rooms\n  access: read\n  resource: Digital Sales Room\n  description: >-\n    Read access to digital sales rooms and their buyer-engagement data. Derived label.\n  flows: [authorizationCode, clientCredentials]\n  sources: [well-known/mindtickle-oauth-authorization-server.json, well-known/mindtickle-oauth-protected-resource.json]\n-\
   \ scope: write:rooms\n  access: write\n  resource: Digital Sales Room\n  description: >-\n    Create or modify digital sales rooms. Derived label.\n  flows: [authorizationCode, clientCredentials]\n  sources: [well-known/mindtickle-oauth-authorization-server.json, well-known/mindtickle-oauth-protected-resource.json]\n- scope: read:search\n  access: read\n  resource: Platform search\n  description: >-\n    Read access to platform-wide search across content and readiness objects.\n    Derived label.\n  flows: [authorizationCode, clientCredentials]\n  sources: [well-known/mindtickle-oauth-authorization-server.json, well-known/mindtickle-oauth-protected-resource.json]\n\nsummary:\n  scope_count: 7\n  read_scopes: 5\n  write_scopes: 2\n  granularity: resource-and-verb\n  notes:\n  - >-\n    The scope vocabulary is shaped like an agent/assistant surface (roleplays,\n    Copilot chat, calls, rooms, search) rather than like the admin REST API\n    (users, groups, modules, reporting). No MCP endpoint\
   \ was found on any host -\n    every /mcp, /api/mcp, /sse and /copilot/mcp path returns the same generic\n    \"learner not authenticated\" 401 that a nonsense path returns, so no MCP\n    server is claimed.\n  - >-\n    Mindtickle publishes no human-readable scope reference. The strings are\n    authoritative; the descriptions here are derived and should be replaced if\n    the provider publishes a permissions page.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindtickle/refs/heads/main/scopes/mindtickle-scopes.yml
+source_yaml_url: https://artifacts.apis.io/mindtickle/scopes/mindtickle-scopes.yml
 summary_line: 7 scopes · authorizationCode/clientCredentials
 tags:
 - Sales Enablement

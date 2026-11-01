@@ -5,97 +5,97 @@ api_specs:
   label: Moody's Data Buffet API
   slug: data-buffet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-series-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-series-api-openapi.yml
 - filename: moodys-audit-api-openapi.yml
   format: yaml
   label: Moody's Audit API
   slug: moodys-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-audit-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-audit-api-openapi.yml
 - filename: moodys-dataseries-api-openapi.yml
   format: yaml
   label: Moody's Data Series API
   slug: moodys-dataseries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-dataseries-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-dataseries-api-openapi.yml
 - filename: moodys-forecast-api-openapi.yml
   format: yaml
   label: Moody's Forecast API
   slug: moodys-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-forecast-api-openapi.yml
 - filename: moodys-interpolation-api-openapi.yml
   format: yaml
   label: Moody's Interpolation API
   slug: moodys-interpolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-interpolation-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-interpolation-api-openapi.yml
 - filename: moodys-order-api-openapi.yml
   format: yaml
   label: Moody's Order API
   slug: moodys-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-order-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-order-api-openapi.yml
 - filename: moodys-project-api-openapi.yml
   format: yaml
   label: Moody's Project API
   slug: moodys-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-project-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-project-api-openapi.yml
 - filename: moodys-scenario-api-openapi.yml
   format: yaml
   label: Moody's Scenario API
   slug: moodys-scenario-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-scenario-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-scenario-api-openapi.yml
 - filename: moodys-seriessearch-api-openapi.yml
   format: yaml
   label: Moody's Series Search API
   slug: moodys-seriessearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-seriessearch-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-seriessearch-api-openapi.yml
 - filename: moodys-universe-api-openapi.yml
   format: yaml
   label: Moody's Universe API
   slug: moodys-universe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-universe-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-universe-api-openapi.yml
 - filename: moodys-vin-api-openapi.yml
   format: yaml
   label: Moody's Vin API
   slug: moodys-vin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-vin-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-vin-api-openapi.yml
 - filename: moodys-frequency-api-openapi.yml
   format: yaml
   label: Moody's Frequency API
   slug: moodys-frequency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-frequency-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-frequency-api-openapi.yml
 - filename: moodys-multiseries-api-openapi.yml
   format: yaml
   label: Moody's Multi Series API
   slug: moodys-multiseries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-multiseries-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-multiseries-api-openapi.yml
 - filename: moodys-vintage-api-openapi.yml
   format: yaml
   label: Moody's Vintage API
   slug: moodys-vintage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-vintage-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-vintage-api-openapi.yml
 - filename: moodys-file-types-api-openapi.yml
   format: yaml
   label: Moody's File Types API
   slug: moodys-file-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-file-types-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-file-types-api-openapi.yml
 - filename: moodys-health-check-api-openapi.yml
   format: yaml
   label: Moody's Health Check API
   slug: moodys-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-health-check-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -257,7 +257,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/moodys-audi
   - name: oauth2\n  source: openapi/moodys-reference-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/data/v1/oauth2/token\n  description: OAuth2 client credentials flow for authenticating API requests. Obtain client_id\n    and client_secret from your Moody's Analytics account.\n- name: oauth2\n  source: openapi/moodys-scenario-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/scenario-studio/v2/oauth2/token\n  description: OAuth2 Client Credentials\n- name: oauth2\n  source: openapi/moodys-search-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/data/v1/oauth2/token\n  description: OAuth2 client credentials flow for authenticating API requests. Obtain client_id\n    and client_secret from your Moody's Analytics account.\n- name: oauth2\n  source: openapi/moodys-series-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/data/v1/oauth2/token\n\
   \  description: OAuth2 client credentials flow for authenticating API requests. Obtain client_id\n    and client_secret from your Moody's Analytics account.\n- name: oauth2\n  source: openapi/moodys-seriessearch-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/scenario-studio/v2/oauth2/token\n  description: OAuth2 Client Credentials\n- name: oauth2\n  source: openapi/moodys-universe-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/scenario-studio/v2/oauth2/token\n  description: OAuth2 Client Credentials\n- name: oauth2\n  source: openapi/moodys-vin-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/autocycle/v1/oauth2/token\n  description: OAuth2 Client Credentials\n- name: oauth2\n  source: openapi/moodys-vintage-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.economy.com/data/v1/oauth2/token\n  description: OAuth2 Client\
   \ Credentials\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/scopes/moodys-scopes.yml
+source_yaml_url: https://artifacts.apis.io/moodys/scopes/moodys-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Climate Risk

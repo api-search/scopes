@@ -5,67 +5,67 @@ api_specs:
   label: Justworks Members API
   slug: justworks-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-members-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-members-api-openapi.yml
 - filename: justworks-company-api-openapi.yml
   format: yaml
   label: Justworks Company API
   slug: justworks-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-company-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-company-api-openapi.yml
 - filename: justworks-deductions-api-openapi.yml
   format: yaml
   label: Justworks Deductions API
   slug: justworks-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-deductions-api-openapi.yml
 - filename: justworks-webhooks-api-openapi.yml
   format: yaml
   label: Justworks Webhooks API
   slug: justworks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-webhooks-api-openapi.yml
 - filename: justworks-deduction-types-api-openapi.yml
   format: yaml
   label: Justworks Deduction Types API
   slug: justworks-deduction-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-deduction-types-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-deduction-types-api-openapi.yml
 - filename: justworks-payrolls-api-openapi.yml
   format: yaml
   label: Justworks Payrolls API
   slug: justworks-payrolls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-payrolls-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-payrolls-api-openapi.yml
 - filename: justworks-paystubs-api-openapi.yml
   format: yaml
   label: Justworks Paystubs API
   slug: justworks-paystubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-paystubs-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-paystubs-api-openapi.yml
 - filename: justworks-time-off-balances-api-openapi.yml
   format: yaml
   label: Justworks Time Off Balances API
   slug: justworks-time-off-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-balances-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-time-off-balances-api-openapi.yml
 - filename: justworks-time-off-policies-api-openapi.yml
   format: yaml
   label: Justworks Time Off Policies API
   slug: justworks-time-off-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-policies-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-time-off-policies-api-openapi.yml
 - filename: justworks-time-off-requests-api-openapi.yml
   format: yaml
   label: Justworks Time Off Requests API
   slug: justworks-time-off-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-time-off-requests-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-time-off-requests-api-openapi.yml
 - filename: justworks-oauth-api-openapi.yml
   format: yaml
   label: Justworks O Auth API
   slug: justworks-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/openapi/justworks-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/justworks/openapi/justworks-oauth-api-openapi.yml
 authorization_urls:
 - https://secure.justworks.com/oauth/authorize
 description: ''
@@ -211,7 +211,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/justwork
   \ company data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-company-api-openapi.yml\n- scope: company.detail:read\n  description: Read detailed company data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-company-api-openapi.yml\n- scope: deductions:read\n  description: Read deductions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-deductions-api-openapi.yml\n- scope: deductions:write\n  description: Create, update, and cancel deductions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-deductions-api-openapi.yml\n- scope: member.basic:read\n  description: Read basic member profile fields\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-members-api-openapi.yml\n- scope: member.detail:read\n  description: Read detailed member profile including history\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-members-api-openapi.yml\n- scope: member.dob:read\n  description: Read\
   \ date of birth\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-members-api-openapi.yml\n- scope: member.employment:read\n  description: Read employment records\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-members-api-openapi.yml\n- scope: member.pay:read\n  description: Read pay history\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-members-api-openapi.yml\n- scope: member.sex:read\n  description: Read sex assigned at birth\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-members-api-openapi.yml\n- scope: member.tax_id:read\n  description: Read U.S. tax identifier (SSN)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-members-api-openapi.yml\n- scope: payroll:read\n  description: Read payroll runs and fees\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-payroll-api-openapi.yml\n- scope: paystub:read\n  description: Read paystub detail\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/justworks-payroll-api-openapi.yml\n- scope: time_off:read\n  description: Read time-off policies, balances, and requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/justworks-time-off-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/justworks/refs/heads/main/scopes/justworks-scopes.yml
+source_yaml_url: https://artifacts.apis.io/justworks/scopes/justworks-scopes.yml
 summary_line: 15 scopes · authorizationCode
 tags:
 - PEO

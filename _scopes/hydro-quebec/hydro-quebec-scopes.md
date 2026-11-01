@@ -5,13 +5,13 @@ api_specs:
   label: Hydro-Québec Catalog API
   slug: hydro-quebec-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-quebec/openapi/hydro-quebec-catalog-api-openapi.yml
 - filename: hydro-quebec-dataset-api-openapi.yml
   format: yaml
   label: Hydro-Québec Dataset API
   slug: hydro-quebec-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/openapi/hydro-quebec-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/hydro-quebec/openapi/hydro-quebec-dataset-api-openapi.yml
 authorization_urls:
 - https://donnees.hydroquebec.com/oauth2/authorize/
 description: ''
@@ -73,7 +73,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.html (Using OAuth2 authorization)\ndocs: https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.html\nnote: >-\n  The harvested OpenAPI declares only an apiKey scheme, so the mechanical derive pass found no\n  oauth2 flows. The Opendatasoft platform that serves donnees.hydroquebec.com does implement\n  OAuth2, and both endpoints were verified live on the Hydro-Québec domain: /oauth2/authorize/\n  returned HTTP 302 and /oauth2/token/ returned HTTP 405 (POST only) on 2026-07-27. The scope\n  surface is deliberately minimal — the platform documents exactly one scope. This is an\n  authorization surface that exists but is undeclared in the machine-readable contract.\nundeclared_in_spec: true\nschemes:\n- name: oauth2\n  source: https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.html\n  rfc: [RFC 6749, RFC 6750]\n  token_type: Bearer\n  flows:\n \
   \ - flow: authorizationCode\n    authorizationUrl: https://donnees.hydroquebec.com/oauth2/authorize/\n    tokenUrl: https://donnees.hydroquebec.com/oauth2/token/\n    verified: '2026-07-27'\n    authorization_url_status: 302\n    token_url_status: 405\n    parameters: [client_id, redirect_uri, response_type, scope, state]\n    response_type: code\n    authorization_code_length: 30\n    authorization_code_ttl: 1 hour\n    refresh_supported: true\n    state_recommended: true\nscopes:\n- scope: all\n  description: >-\n    Full access to the platform APIs on behalf of the authorizing user. The platform documentation\n    states verbatim that \"Currently, only all is supported\" — there is no read/write or\n    per-resource scope decomposition.\n  flows: [authorizationCode]\n  sources: [https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.html]\nclient_registration:\n  self_service: true\n  url: https://donnees.hydroquebec.com/account/\n  tab: My applications\n  client_types: [confidential,\
   \ public]\n  domain_bound: true\n  domain_bound_note: >-\n    Applications are registered against one specific domain and can only access data on that\n    domain, so a client registered elsewhere cannot read donnees.hydroquebec.com.\napi_keys:\n  self_service: true\n  url: https://donnees.hydroquebec.com/account/\n  tab: My API keys\n  permissions_note: >-\n    By default an API key authenticates as the user who created it and grants that user's rights,\n    so keys must not be shared. Key permissions can be narrowed through the platform's API key\n    Automation API.\napplicability:\n  note: >-\n    None of this is required to read Hydro-Québec's open data. All 26 datasets are public and\n    anonymously callable. OAuth2 and API keys matter only for authenticated identity, per-user\n    quota, or access to a private catalog — which Hydro-Québec does not operate.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/scopes/hydro-quebec-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hydro-quebec/scopes/hydro-quebec-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Energy

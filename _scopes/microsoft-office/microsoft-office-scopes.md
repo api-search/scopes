@@ -5,19 +5,19 @@ api_specs:
   label: Microsoft Office Drive API
   slug: microsoft-office-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-drive-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office/openapi/microsoft-office-drive-api-openapi.yml
 - filename: microsoft-office-mail-api-openapi.yml
   format: yaml
   label: Microsoft Office Mail API
   slug: microsoft-office-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-mail-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office/openapi/microsoft-office-mail-api-openapi.yml
 - filename: microsoft-office-teams-api-openapi.yml
   format: yaml
   label: Microsoft Office Teams API
   slug: microsoft-office-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-teams-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office/openapi/microsoft-office-teams-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microso
   \  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-office-openapi.yml\n- scope: Files.Read\n  description: Read user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-office-openapi.yml\n- scope: Files.ReadWrite\n  description: Read and write user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-office-openapi.yml\n- scope: Mail.Read\n  description: Read user mail\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-office-openapi.yml\n- scope: Mail.Send\n  description: Send mail as user\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-office-openapi.yml\n- scope: Team.ReadBasic.All\n  description: Read basic team info\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-office-openapi.yml\n- scope: User.Read\n  description: Sign in and read user profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-office-openapi.yml\n- scope: Mail.ReadWrite\n  description:\
   \ Read and write access to user mail\n  flows:\n  - authorizationCode\n  sources:\n  - https://learn.microsoft.com/en-us/graph/permissions-reference\n- scope: Calendars.ReadWrite\n  description: Read and write user calendars\n  flows:\n  - authorizationCode\n  sources:\n  - https://learn.microsoft.com/en-us/graph/permissions-reference\n- scope: Contacts.Read\n  description: Read user contacts\n  flows:\n  - authorizationCode\n  sources:\n  - https://learn.microsoft.com/en-us/graph/permissions-reference\n- scope: Files.ReadWrite.All\n  description: Read and write all files the user can access\n  flows:\n  - authorizationCode\n  sources:\n  - https://learn.microsoft.com/en-us/graph/permissions-reference\n- scope: Sites.Read.All\n  description: Read items in all SharePoint site collections\n  flows:\n  - authorizationCode\n  sources:\n  - https://learn.microsoft.com/en-us/graph/permissions-reference\n- scope: Chat.Read\n  description: Read the user's Teams chat messages\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - https://learn.microsoft.com/en-us/graph/permissions-reference\n- scope: ChannelMessage.Read.All\n  description: Read user's Teams channel messages\n  flows:\n  - authorizationCode\n  sources:\n  - https://learn.microsoft.com/en-us/graph/permissions-reference\n- scope: offline_access\n  description: Maintain access to data via refresh tokens\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration\n- scope: openid\n  description: Sign the user in with OpenID Connect\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/scopes/microsoft-office-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-office/scopes/microsoft-office-scopes.yml
 summary_line: 16 scopes · authorizationCode
 tags:
 - Collaboration

@@ -5,61 +5,61 @@ api_specs:
   label: DeBank Account API
   slug: debank-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-account-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-account-api-openapi.yml
 - filename: debank-app-protocol-api-openapi.yml
   format: yaml
   label: DeBank App Protocol API
   slug: debank-app-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-app-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-app-protocol-api-openapi.yml
 - filename: debank-chain-api-openapi.yml
   format: yaml
   label: DeBank Chain API
   slug: debank-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-chain-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-chain-api-openapi.yml
 - filename: debank-cloud-api-openapi.yml
   format: yaml
   label: DeBank Cloud API
   slug: debank-cloud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-cloud-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-cloud-api-openapi.yml
 - filename: debank-official-api-openapi.yml
   format: yaml
   label: DeBank Official API
   slug: debank-official-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-official-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-official-api-openapi.yml
 - filename: debank-pool-api-openapi.yml
   format: yaml
   label: DeBank Pool API
   slug: debank-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-pool-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-pool-api-openapi.yml
 - filename: debank-protocol-api-openapi.yml
   format: yaml
   label: DeBank Protocol API
   slug: debank-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-protocol-api-openapi.yml
 - filename: debank-token-api-openapi.yml
   format: yaml
   label: DeBank Token API
   slug: debank-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-token-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-token-api-openapi.yml
 - filename: debank-user-api-openapi.yml
   format: yaml
   label: DeBank User API
   slug: debank-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-user-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-user-api-openapi.yml
 - filename: debank-wallet-api-openapi.yml
   format: yaml
   label: DeBank Wallet API
   slug: debank-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-wallet-api-openapi.yml
 authorization_urls:
 - https://debank.com/connect
 description: ''
@@ -124,7 +124,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://docs.cloud.debank.com/en/debank-connect/integration\ndocs: https://docs.cloud.debank.com/en/debank-connect/integration\nnote: OAuth 2.0 lives in DeBank Connect, not in the published Swagger — derive-oauth-scopes.py found zero oauth2\n  securitySchemes in openapi/, so this file is searched from the Connect integration guide. The DeBank Cloud Pro\n  API (pro-openapi.debank.com) is api-key only and has no scope surface.\nschemes:\n- name: DeBank Connect\n  source: https://docs.cloud.debank.com/en/debank-connect/integration\n  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  client_authentication: client_secret_basic (HTTP Basic with client_id/client_secret)\n  token_endpoint_auth_note: Documented as HTTPBasicAuth(client_id, client_secret) on a form-data POST.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://debank.com/connect\n    tokenUrl: https://api.connect.debank.com/oauth/token\n\
   \    refreshUrl: https://api.connect.debank.com/oauth/token\n    response_type: code\n    state_supported: true\n    pkce: false\n    token_type: Bearer\n    refresh_token: true\nscopes:\n- scope: user:base:read\n  description: Read the authorizing user's base profile — address, web3_id, name, avatar, on-chain birth time and\n    follower value.\n  flows:\n  - authorizationCode\n  api: GET https://api.connect.debank.com/v1/user\n  docs: https://docs.cloud.debank.com/en/debank-connect/api/user-base-data\n  sources:\n  - https://docs.cloud.debank.com/en/debank-connect/integration\n- scope: user:chain:read\n  description: Read the authorizing user's on-chain portfolio data.\n  flows:\n  - authorizationCode\n  docs: https://docs.cloud.debank.com/en/debank-connect/api/user-chain-data\n  sources:\n  - https://docs.cloud.debank.com/en/debank-connect/integration\n- scope: user:social:read\n  description: Read the authorizing user's social following data.\n  flows:\n  - authorizationCode\n  docs:\
   \ https://docs.cloud.debank.com/en/debank-connect/api/user-social-data\n  sources:\n  - https://docs.cloud.debank.com/en/debank-connect/integration\nscope_count: 3\ndiscovery:\n  oauth_authorization_server: null\n  openid_configuration: null\n  note: Neither /.well-known/oauth-authorization-server nor /.well-known/openid-configuration is served on api.connect.debank.com\n    (both 404, probed 2026-08-12), so the endpoints above are documented only in prose. Not OpenID Connect — no\n    id_token, no userinfo discovery.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/scopes/debank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/debank/scopes/debank-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Web3

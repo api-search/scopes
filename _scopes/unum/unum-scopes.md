@@ -5,37 +5,37 @@ api_specs:
   label: Unum Authentication API
   slug: unum-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-authentication-api-openapi.yml
 - filename: unum-billing-api-openapi.yml
   format: yaml
   label: Unum Billing API
   slug: unum-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-billing-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-billing-api-openapi.yml
 - filename: unum-eligibility-api-openapi.yml
   format: yaml
   label: Unum Eligibility API
   slug: unum-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-eligibility-api-openapi.yml
 - filename: unum-enrollment-api-openapi.yml
   format: yaml
   label: Unum Enrollment API
   slug: unum-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-enrollment-api-openapi.yml
 - filename: unum-evidence-of-insurability-api-openapi.yml
   format: yaml
   label: Unum Evidence of Insurability API
   slug: unum-evidence-of-insurability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-evidence-of-insurability-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-evidence-of-insurability-api-openapi.yml
 - filename: unum-leave-management-api-openapi.yml
   format: yaml
   label: Unum Leave Management API
   slug: unum-leave-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-leave-management-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-leave-management-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -116,7 +116,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unum-hr-connect-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/unum-hr-connect-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.unum.com/v1/oauth/token\nscopes:\n- scope: billing:read\n  description: Read billing invoices\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/unum-hr-connect-openapi.yml\n- scope: eligibility:read\n  description: Read member eligibility\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/unum-hr-connect-openapi.yml\n- scope: eligibility:write\n  description: Write member eligibility\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/unum-hr-connect-openapi.yml\n- scope: enrollment:read\n  description: Read enrollment elections\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/unum-hr-connect-openapi.yml\n- scope: enrollment:write\n  description: Write enrollment elections\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/unum-hr-connect-openapi.yml\n\
   - scope: eoi:read\n  description: Read EOI submissions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/unum-hr-connect-openapi.yml\n- scope: eoi:write\n  description: Write EOI submissions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/unum-hr-connect-openapi.yml\n- scope: leave:read\n  description: Read leave requests\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/unum-hr-connect-openapi.yml\n- scope: leave:write\n  description: Write leave requests\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/unum-hr-connect-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/scopes/unum-scopes.yml
+source_yaml_url: https://artifacts.apis.io/unum/scopes/unum-scopes.yml
 summary_line: 9 scopes · clientCredentials
 tags:
 - Insurance

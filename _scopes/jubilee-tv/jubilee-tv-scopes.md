@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://getjubileetv.com/.well-known/openid-configuration\nnotes: >-\n  OAuth 2.0 / OIDC scopes advertised by the Shopify Customer Accounts\n  authorization server for the getjubileetv.com storefront. These are the\n  platform-provided customer-account scopes (including the agentic\n  customer-account MCP scope), not scopes on a bespoke Jubilee TV developer API.\nschemes:\n- name: ShopifyCustomerAccountsOIDC\n  source: well-known/jubilee-tv-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/83104301340/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/83104301340/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication of the customer identity\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the authenticated customer's email address\n  flows: [authorizationCode]\n- scope: 'customer-account-api:full'\n\
   \  description: Full access to the Shopify Customer Account API on behalf of the customer\n  flows: [authorizationCode]\n- scope: 'customer-account-mcp-api:full'\n  description: Full access to the Shopify Customer Account MCP API for agent-driven access\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jubilee-tv/refs/heads/main/scopes/jubilee-tv-scopes.yml
+source_yaml_url: https://artifacts.apis.io/jubilee-tv/scopes/jubilee-tv-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: manhattan-associates Inbound API
   slug: manhattan-associates-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-inbound-api-openapi.yml
 - filename: manhattan-associates-inventory-api-openapi.yml
   format: yaml
   label: manhattan-associates Inventory API
   slug: manhattan-associates-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-inventory-api-openapi.yml
 - filename: manhattan-associates-orders-api-openapi.yml
   format: yaml
   label: manhattan-associates Orders API
   slug: manhattan-associates-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-orders-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-orders-api-openapi.yml
 - filename: manhattan-associates-outbound-api-openapi.yml
   format: yaml
   label: manhattan-associates Outbound API
   slug: manhattan-associates-outbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-outbound-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-outbound-api-openapi.yml
 - filename: manhattan-associates-promising-api-openapi.yml
   format: yaml
   label: manhattan-associates Promising API
   slug: manhattan-associates-promising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-promising-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-promising-api-openapi.yml
 - filename: manhattan-associates-returns-api-openapi.yml
   format: yaml
   label: manhattan-associates Returns API
   slug: manhattan-associates-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-returns-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-returns-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -101,7 +101,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/manhattan-associates-omni-openapi.yml, openapi/manhattan-associates-wms-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/manhattan-associates-omni-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.developer.manh.com/oauth2/token\n- name: OAuth2ClientCredentials\n  source: openapi/manhattan-associates-wms-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.developer.manh.com/oauth2/token\nscopes:\n- scope: inventory:read\n  description: Read inventory positions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/manhattan-associates-omni-openapi.yml\n- scope: orders:read\n  description: Read order data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/manhattan-associates-omni-openapi.yml\n- scope: orders:write\n  description: Create and modify orders\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/manhattan-associates-omni-openapi.yml\n\
   - scope: wms:read\n  description: Read warehouse data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/manhattan-associates-wms-openapi.yml\n- scope: wms:write\n  description: Write warehouse operations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/manhattan-associates-wms-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/scopes/manhattan-associates-scopes.yml
+source_yaml_url: https://artifacts.apis.io/manhattan-associates/scopes/manhattan-associates-scopes.yml
 summary_line: 5 scopes · clientCredentials
 tags:
 - Logistics

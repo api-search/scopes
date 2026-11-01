@@ -5,31 +5,31 @@ api_specs:
   label: aflac Claims API
   slug: aflac-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-claims-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-claims-api-openapi.yml
 - filename: aflac-eligibility-api-openapi.yml
   format: yaml
   label: aflac Eligibility API
   slug: aflac-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-eligibility-api-openapi.yml
 - filename: aflac-enrollment-api-openapi.yml
   format: yaml
   label: aflac Enrollment API
   slug: aflac-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-enrollment-api-openapi.yml
 - filename: aflac-groups-api-openapi.yml
   format: yaml
   label: aflac Groups API
   slug: aflac-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-groups-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-groups-api-openapi.yml
 - filename: aflac-policies-api-openapi.yml
   format: yaml
   label: aflac Policies API
   slug: aflac-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-policies-api-openapi.yml
+  url: https://artifacts.apis.io/aflac/openapi/aflac-policies-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -123,7 +123,7 @@ source_yaml: "# NOTE added 2026-09-04 by the enrichment pass. These scopes and t
   \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.enterprise-connect.aflac.com/oauth/token\n  description: OAuth 2.0 client credentials flow for server-to-server API access.\nscopes:\n- scope: claims:read\n  description: Read claim records\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aflac-claims-api-openapi.yml\n  - openapi/aflac-eligibility-api-openapi.yml\n  - openapi/aflac-enrollment-api-openapi.yml\n  - openapi/aflac-groups-api-openapi.yml\n  - openapi/aflac-policies-api-openapi.yml\n- scope: claims:write\n  description: Submit claims\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aflac-claims-api-openapi.yml\n  - openapi/aflac-eligibility-api-openapi.yml\n  - openapi/aflac-enrollment-api-openapi.yml\n  - openapi/aflac-groups-api-openapi.yml\n  - openapi/aflac-policies-api-openapi.yml\n- scope: eligibility:read\n  description: Verify eligibility\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aflac-claims-api-openapi.yml\n  - openapi/aflac-eligibility-api-openapi.yml\n\
   \  - openapi/aflac-enrollment-api-openapi.yml\n  - openapi/aflac-groups-api-openapi.yml\n  - openapi/aflac-policies-api-openapi.yml\n- scope: enrollment:read\n  description: Read enrollment records\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aflac-claims-api-openapi.yml\n  - openapi/aflac-eligibility-api-openapi.yml\n  - openapi/aflac-enrollment-api-openapi.yml\n  - openapi/aflac-groups-api-openapi.yml\n  - openapi/aflac-policies-api-openapi.yml\n- scope: enrollment:write\n  description: Create and update enrollments\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aflac-claims-api-openapi.yml\n  - openapi/aflac-eligibility-api-openapi.yml\n  - openapi/aflac-enrollment-api-openapi.yml\n  - openapi/aflac-groups-api-openapi.yml\n  - openapi/aflac-policies-api-openapi.yml\n- scope: groups:read\n  description: Read group records\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aflac-claims-api-openapi.yml\n  - openapi/aflac-eligibility-api-openapi.yml\n  - openapi/aflac-enrollment-api-openapi.yml\n\
   \  - openapi/aflac-groups-api-openapi.yml\n  - openapi/aflac-policies-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/scopes/aflac-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aflac/scopes/aflac-scopes.yml
 summary_line: 6 scopes · clientCredentials
 tags:
 - Fortune 500

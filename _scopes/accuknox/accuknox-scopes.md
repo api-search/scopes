@@ -36,7 +36,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://help.accuknox.com/integrations/oauth/\ndocs: https://help.accuknox.com/integrations/oauth/\nnote: >-\n  AccuKnox documents a real OAuth 2.0 authorization-code surface but publishes NO scope\n  vocabulary. Its OAuth page states that access is governed by role-based authentication on\n  the AccuKnox user profile, not by scopes on the token, and no scopes appear in any\n  authorization request example. scope_count is therefore an honest zero, and NO\n  `OAuthScopes` pointer is wired into apis.yml — a pointer of that name against a document\n  containing no scopes would assert a surface AccuKnox does not publish.\nscope_count: 0\nschemes:\n- name: oauth2\n  source: https://help.accuknox.com/integrations/oauth/\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://cspm.<tenant>.accuknox.com/api/v1/o/authorize/\n    tokenUrl: https://cspm.<tenant>.accuknox.com/api/v1/o/token/\nscopes: []\nauthorization_model:\n\
   \  style: role-based\n  evidence: >-\n    \"role based authentication\" on the AccuKnox user profile, per\n    https://help.accuknox.com/integrations/oauth/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accuknox/refs/heads/main/scopes/accuknox-scopes.yml
+source_yaml_url: https://artifacts.apis.io/accuknox/scopes/accuknox-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

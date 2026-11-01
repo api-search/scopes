@@ -5,25 +5,25 @@ api_specs:
   label: Community Health Systems Claims API
   slug: community-health-systems-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-claims-api-openapi.yml
+  url: https://artifacts.apis.io/community-health-systems/openapi/community-health-systems-claims-api-openapi.yml
 - filename: community-health-systems-formulary-api-openapi.yml
   format: yaml
   label: Community Health Systems Formulary API
   slug: community-health-systems-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-formulary-api-openapi.yml
+  url: https://artifacts.apis.io/community-health-systems/openapi/community-health-systems-formulary-api-openapi.yml
 - filename: community-health-systems-patient-api-openapi.yml
   format: yaml
   label: Community Health Systems Patient API
   slug: community-health-systems-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-patient-api-openapi.yml
+  url: https://artifacts.apis.io/community-health-systems/openapi/community-health-systems-patient-api-openapi.yml
 - filename: community-health-systems-practitioner-api-openapi.yml
   format: yaml
   label: Community Health Systems Practitioner API
   slug: community-health-systems-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/openapi/community-health-systems-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/community-health-systems/openapi/community-health-systems-practitioner-api-openapi.yml
 authorization_urls:
 - https://api.chs.net/oauth2/authorize
 description: ''
@@ -70,7 +70,7 @@ source_filename: community-health-systems-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chs-patient-access-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/chs-patient-access-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.chs.net/oauth2/authorize\n    tokenUrl: https://api.chs.net/oauth2/token\nscopes:\n- scope: launch/patient\n  description: Patient launch context\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/chs-patient-access-api-openapi.yml\n- scope: patient/*.read\n  description: Read access to patient data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/chs-patient-access-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/scopes/community-health-systems-scopes.yml
+source_yaml_url: https://artifacts.apis.io/community-health-systems/scopes/community-health-systems-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - CMS-9115-F

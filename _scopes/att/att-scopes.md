@@ -5,157 +5,157 @@ api_specs:
   label: AT&T Balance Management API
   slug: att-balance-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-balance-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-balance-management-api-openapi.yml
 - filename: att-device-management-api-openapi.yml
   format: yaml
   label: AT&T Device Management API
   slug: att-device-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-device-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-device-management-api-openapi.yml
 - filename: att-geographic-sites-api-openapi.yml
   format: yaml
   label: AT&T Geographic Sites API
   slug: att-geographic-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-geographic-sites-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-geographic-sites-api-openapi.yml
 - filename: att-inbox-management-api-openapi.yml
   format: yaml
   label: AT&T Inbox Management API
   slug: att-inbox-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-inbox-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-inbox-management-api-openapi.yml
 - filename: att-messages-api-openapi.yml
   format: yaml
   label: AT&T Messages API
   slug: att-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-messages-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-messages-api-openapi.yml
 - filename: att-number-management-api-openapi.yml
   format: yaml
   label: AT&T Number Management API
   slug: att-number-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-number-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-number-management-api-openapi.yml
 - filename: att-porting-api-openapi.yml
   format: yaml
   label: AT&T Porting API
   slug: att-porting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-porting-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-porting-api-openapi.yml
 - filename: att-product-orders-api-openapi.yml
   format: yaml
   label: AT&T Product Orders API
   slug: att-product-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-product-orders-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-product-orders-api-openapi.yml
 - filename: att-service-management-api-openapi.yml
   format: yaml
   label: AT&T Service Management API
   slug: att-service-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-service-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-service-management-api-openapi.yml
 - filename: att-subscriber-management-api-openapi.yml
   format: yaml
   label: AT&T Subscriber Management API
   slug: att-subscriber-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-subscriber-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-subscriber-management-api-openapi.yml
 - filename: att-order-management-api-openapi.yml
   format: yaml
   label: AT&T Order Management API
   slug: att-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-order-management-api-openapi.yml
 - filename: att-product-ordering-api-openapi.yml
   format: yaml
   label: AT&T Product Ordering API
   slug: att-product-ordering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-product-ordering-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-product-ordering-api-openapi.yml
 - filename: att-service-qualification-api-openapi.yml
   format: yaml
   label: AT&T Service Qualification API
   slug: att-service-qualification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-service-qualification-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-service-qualification-api-openapi.yml
 - filename: att-device-connectivity-api-openapi.yml
   format: yaml
   label: AT&T Device Connectivity API
   slug: att-device-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-device-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-device-connectivity-api-openapi.yml
 - filename: att-device-roaming-api-openapi.yml
   format: yaml
   label: AT&T Device Roaming API
   slug: att-device-roaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-device-roaming-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-device-roaming-api-openapi.yml
 - filename: att-network-metrics-api-openapi.yml
   format: yaml
   label: AT&T Network Metrics API
   slug: att-network-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-network-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-network-metrics-api-openapi.yml
 - filename: att-number-verification-api-openapi.yml
   format: yaml
   label: AT&T Number Verification API
   slug: att-number-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-number-verification-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-number-verification-api-openapi.yml
 - filename: att-qod-sessions-api-openapi.yml
   format: yaml
   label: AT&T Quality on Demand API
   slug: att-qod-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-qod-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-qod-sessions-api-openapi.yml
 - filename: att-sim-swap-api-openapi.yml
   format: yaml
   label: AT&T SIM Swap API
   slug: att-sim-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-sim-swap-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-sim-swap-api-openapi.yml
 - filename: att-threat-detection-api-openapi.yml
   format: yaml
   label: AT&T Threat Detection API
   slug: att-threat-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-threat-detection-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-threat-detection-api-openapi.yml
 - filename: att-threat-subscriptions-api-openapi.yml
   format: yaml
   label: AT&T Threat Subscriptions API
   slug: att-threat-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-threat-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-threat-subscriptions-api-openapi.yml
 - filename: att-device-status-api-openapi.yml
   format: yaml
   label: AT&T Device Status API
   slug: att-device-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-device-status-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-device-status-api-openapi.yml
 - filename: att-network-insights-api-openapi.yml
   format: yaml
   label: AT&T Network Insights API
   slug: att-network-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-network-insights-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-network-insights-api-openapi.yml
 - filename: att-quality-on-demand-api-openapi.yml
   format: yaml
   label: AT&T Quality on Demand API
   slug: att-quality-on-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-quality-on-demand-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-quality-on-demand-api-openapi.yml
 - filename: att-sms-api-openapi.yml
   format: yaml
   label: AT&T SMS API
   slug: att-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-sms-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-sms-api-openapi.yml
 - filename: att-oauth-api-openapi.yml
   format: yaml
   label: AT&T OAuth 2.0 API
   slug: att-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/openapi/att-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/att/openapi/att-oauth-api-openapi.yml
 authorization_urls:
 - https://api.att.com/oauth/v4/authorize
 description: ''
@@ -300,7 +300,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\ndocs: https://developer.
   - name: oauth2\n  source: openapi/_original/att-mobility-threat-anomaly-detection-api.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.att.com/oauth/v4/token\n  description: AT&T OAuth 2.0 for network security APIs\n- name: oauth2\n  source: openapi/_original/att-network-insights-api.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.att.com/oauth/v4/token\n  description: AT&T OAuth 2.0 for network APIs\n- name: oauth2\n  source: openapi/_original/att-number-verification-api.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.att.com/oauth/v4/token\n  description: AT&T OAuth 2.0 for CAMARA network APIs\n- name: oauth2\n  source: openapi/_original/att-quality-on-demand-api.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.att.com/oauth/v4/token\n  description: AT&T OAuth 2.0 for CAMARA network APIs\n- name: oauth2\n  source: openapi/_original/att-sim-swap-api.yaml\n  flows:\n  - flow: clientCredentials\n \
   \   tokenUrl: https://api.att.com/oauth/v4/token\n  description: AT&T OAuth 2.0 for CAMARA network APIs\nscopes:\n- scope: ADS\n  description: Access to Advertising APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/_original/att-sms-api.yaml\n- scope: IMMN\n  description: Send Message - send MMS and SMS messages on behalf of user\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/_original/att-in-app-messaging-api.yaml\n- scope: MIM\n  description: Message Inbox Management - read, update, and delete messages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/_original/att-in-app-messaging-api.yaml\n- scope: MMS\n  description: Access to MMS messaging APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/_original/att-sms-api.yaml\n- scope: SMS\n  description: Access to SMS messaging APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/_original/att-sms-api.yaml\n- scope: SPEECH\n  description: Access to Speech to Text APIs\n  flows:\n  - clientCredentials\n\
   \  sources:\n  - openapi/_original/att-sms-api.yaml\n- scope: STTC\n  description: Access to Speech to Text Custom APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/_original/att-sms-api.yaml\n- scope: TTS\n  description: Access to Text to Speech APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/_original/att-sms-api.yaml\n- scope: enterprise\n  description: Access AT&T enterprise connectivity APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/_original/att-enterprise-connectivity-apis.yaml\n- scope: network\n  description: Access AT&T network APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/_original/att-network-apis.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/att/refs/heads/main/scopes/att-scopes.yml
+source_yaml_url: https://artifacts.apis.io/att/scopes/att-scopes.yml
 summary_line: 10 scopes · authorizationCode/clientCredentials
 tags:
 - 5G

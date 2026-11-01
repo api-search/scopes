@@ -5,43 +5,43 @@ api_specs:
   label: ubank Banking Account Balances API
   slug: ubank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/ubank/openapi/ubank-banking-account-balances-api-openapi.yml
 - filename: ubank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: ubank Banking Account Direct Debits API
   slug: ubank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/ubank/openapi/ubank-banking-account-direct-debits-api-openapi.yml
 - filename: ubank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: ubank Banking Account Scheduled Payments API
   slug: ubank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ubank/openapi/ubank-banking-account-scheduled-payments-api-openapi.yml
 - filename: ubank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: ubank Banking Account Transactions API
   slug: ubank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ubank/openapi/ubank-banking-account-transactions-api-openapi.yml
 - filename: ubank-banking-accounts-api-openapi.yml
   format: yaml
   label: ubank Banking Accounts API
   slug: ubank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ubank/openapi/ubank-banking-accounts-api-openapi.yml
 - filename: ubank-banking-payees-api-openapi.yml
   format: yaml
   label: ubank Banking Payees API
   slug: ubank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/ubank/openapi/ubank-banking-payees-api-openapi.yml
 - filename: ubank-banking-products-api-openapi.yml
   format: yaml
   label: ubank Banking Products API
   slug: ubank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/openapi/ubank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/ubank/openapi/ubank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://cdr-support.zendesk.com/hc/en-us/articles/6402872869135-Authorisation-scopes
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  DSB Consu
   \ >-\n  The public Product Reference Data endpoints (listBankingProducts,\n  getBankingProductDetail) require NO scope and NO token - they are open and\n  unauthenticated. Scopes apply only to the consumer-authorised data-sharing\n  surface reached by an ADR after consent.\nschemes:\n- name: CDR-FAPI-OIDC\n  type: openIdConnect\n  grant: authorization_code (with PAR + PKCE, request object, FAPI 1.0 Advanced)\n  source: DSB Consumer Data Standards security profile\nscopes:\n- scope: openid\n  description: OIDC base scope required for the CDR authorisation code flow.\n  category: identity\n- scope: profile\n  description: OIDC profile scope requested as part of the CDR consent flow.\n  category: identity\n- scope: common:customer.basic:read\n  description: >-\n    Read the consumer's basic customer/contact details (name, occupation for\n    individuals; organisation basics for businesses).\n  category: common\n- scope: common:customer.detail:read\n  description: >-\n    Read the consumer's\
   \ detailed customer/contact details (phone, email,\n    residential/mailing address; extended organisation details).\n  category: common\n- scope: bank:accounts.basic:read\n  description: >-\n    Read the list of accounts and basic account attributes and balances.\n  category: banking\n  applies_to: [listBankingAccounts, listBankingBalancesBulk, listBankingBalancesSpecificAccounts, getBankingBalance]\n- scope: bank:accounts.detail:read\n  description: >-\n    Read the full detail for a single account (rates, features, fees, terms,\n    account numbers).\n  category: banking\n  applies_to: [getBankingAccountDetail]\n- scope: bank:transactions:read\n  description: >-\n    Read transactions for the consumer's authorised accounts, including\n    transaction detail.\n  category: banking\n  applies_to: [listBankingTransactions, getBankingTransactionDetail]\n- scope: bank:payees:read\n  description: Read the consumer's saved payees and payee detail.\n  category: banking\n  applies_to: [listBankingPayees,\
   \ getBankingPayeeDetail]\n- scope: bank:regular_payments:read\n  description: >-\n    Read the consumer's authorised direct debits and scheduled/recurring\n    payments.\n  category: banking\n  applies_to: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts]\nnotes:\n- >-\n    Per CDS data-minimisation rules an ADR must request the matching basic scope\n    whenever it requests a detail scope; detailed account authorisation is only\n    meaningful when bank:accounts.basic:read is also authorised.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/scopes/ubank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ubank/scopes/ubank-scopes.yml
 summary_line: 9 scopes
 tags:
 - Finance

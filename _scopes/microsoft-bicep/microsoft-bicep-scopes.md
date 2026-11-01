@@ -5,19 +5,19 @@ api_specs:
   label: Microsoft Bicep Deployments API
   slug: microsoft-bicep-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bicep/openapi/microsoft-bicep-deployments-api-openapi.yml
 - filename: microsoft-bicep-template-spec-versions-api-openapi.yml
   format: yaml
   label: Microsoft Bicep Template Spec Versions API
   slug: microsoft-bicep-template-spec-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-template-spec-versions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bicep/openapi/microsoft-bicep-template-spec-versions-api-openapi.yml
 - filename: microsoft-bicep-template-specs-api-openapi.yml
   format: yaml
   label: Microsoft Bicep Template Specs API
   slug: microsoft-bicep-template-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-template-specs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bicep/openapi/microsoft-bicep-template-specs-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -62,7 +62,7 @@ source_filename: microsoft-bicep-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-bicep-deployments-openapi.yml, openapi/microsoft-bicep-template-specs-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-bicep-deployments-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow\n- name: azure_auth\n  source: openapi/microsoft-bicep-template-specs-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-bicep-deployments-openapi.yml\n  - openapi/microsoft-bicep-template-specs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/scopes/microsoft-bicep-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-bicep/scopes/microsoft-bicep-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - ArmTemplates

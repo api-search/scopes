@@ -5,55 +5,55 @@ api_specs:
   label: Microsoft SharePoint Files API
   slug: sharepoint-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-files-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-files-api-openapi.yml
 - filename: sharepoint-items-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Items API
   slug: sharepoint-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-items-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-items-api-openapi.yml
 - filename: sharepoint-lists-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Lists API
   slug: sharepoint-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-lists-api-openapi.yml
 - filename: sharepoint-search-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Search API
   slug: sharepoint-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-search-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-search-api-openapi.yml
 - filename: sharepoint-sites-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Sites API
   slug: sharepoint-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-sites-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-sites-api-openapi.yml
 - filename: sharepoint-user-profiles-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint User Profiles API
   slug: sharepoint-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-user-profiles-api-openapi.yml
 - filename: sharepoint-batch-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint $batch API
   slug: microsoft-sharepoint-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-batch-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-batch-api-openapi.yml
 - filename: sharepoint-listitems-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint ListItems API
   slug: microsoft-sharepoint-listitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-listitems-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-listitems-api-openapi.yml
 - filename: sharepoint-site-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Site API
   slug: microsoft-sharepoint-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-site-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-site-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize
 description: ''
@@ -117,7 +117,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/sharepoint-rest-api.yaml\ndocs: https://learn.microsoft.com/en-us/graph/permissions-reference#sites-permissions\nnotes: >-\n  SharePoint permissions are Microsoft Graph / Microsoft Entra scopes. The Sites.* set below\n  is documented in the Microsoft Graph permissions reference. Both delegated and application\n  permission variants exist; Sites.Selected additionally supports per-site granular grants.\nschemes:\n- name: oauth2\n  source: openapi/sharepoint-rest-api.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n  description: OAuth 2.0 via Azure AD / Microsoft Identity Platform.\nscopes:\n- scope: Sites.FullControl.All\n  description: Full control of all site collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope:\
   \ Sites.Manage.All\n  description: Create, edit, and delete items and lists.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope: Sites.Read.All\n  description: Read all site collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope: Sites.ReadWrite.All\n  description: Read and write all site collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n- scope: Sites.Selected\n  description: Access only to specific SharePoint site collections granted explicitly by an admin (per-site authorization).\n  flows:\n  - authorizationCode\n  sources:\n  - https://learn.microsoft.com/en-us/graph/permissions-reference#sites-permissions\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/scopes/sharepoint-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sharepoint/scopes/sharepoint-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Collaboration

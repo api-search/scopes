@@ -5,37 +5,37 @@ api_specs:
   label: Southwest Power Pool Forecasting API
   slug: spp-forecasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-forecasting-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-forecasting-api-openapi.yml
 - filename: spp-monitoring-sets-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Monitoring Sets API
   slug: spp-monitoring-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-monitoring-sets-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-monitoring-sets-api-openapi.yml
 - filename: spp-seasonal-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Seasonal API
   slug: spp-seasonal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-seasonal-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-seasonal-api-openapi.yml
 - filename: spp-seasonal-overrides-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Seasonal Overrides API
   slug: spp-seasonal-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-seasonal-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-seasonal-overrides-api-openapi.yml
 - filename: spp-temporary-aar-exceptions-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Temporary AAR Exceptions API
   slug: spp-temporary-aar-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-temporary-aar-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-temporary-aar-exceptions-api-openapi.yml
 - filename: spp-realtime-api-openapi.yml
   format: yaml
   label: Southwest Power Pool Realtime API
   slug: spp-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/openapi/spp-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/spp/openapi/spp-realtime-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://trolie.energy/spec
@@ -149,7 +149,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: derived\nsource: openapi/trolie-s
   \ description: Support RFC8725 JWT tokens.\nscopes:\n- scope: read:forecast-proposals\n  description: Read Forecast rating proposals\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: read:monitoring-sets\n  description: Read monitoring sets\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: read:operating-snapshot\n  description: Read the ratings and limits snapshots in-use by the transmission provider\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: read:realtime-proposals\n  description: Read real-time rating proposals\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: read:regional-operating-snapshot\n  description: Read a Regional Operating Snapshot\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: read:seasonal-overrides\n  description: Read seasonal overrides\n\
   \  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: read:seasonal-proposals\n  description: Read seasonal rating proposals\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: read:temporary-aar-exceptions\n  description: Read temporary AAR exceptions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: write:forecast-proposals\n  description: Submit forecasted ratings\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: write:monitoring-sets\n  description: Write monitoring sets\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: write:realtime-proposals\n  description: Submit realtime ratings\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: write:regional-operating-snapshot\n  description: Write a Regional Operating Snapshot\n\
   \  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: write:seasonal-overrides\n  description: Write seasonal overrides\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: write:seasonal-proposals\n  description: Submit seasonal ratings\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n- scope: write:temporary-aar-exceptions\n  description: Write temporary AAR exceptions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-standard-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/scopes/spp-scopes.yml
+source_yaml_url: https://artifacts.apis.io/spp/scopes/spp-scopes.yml
 summary_line: 15 scopes · clientCredentials
 tags:
 - Energy

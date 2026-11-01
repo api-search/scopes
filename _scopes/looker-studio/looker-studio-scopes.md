@@ -5,67 +5,67 @@ api_specs:
   label: Looker Studio Assets API
   slug: looker-studio-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-assets-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-assets-api-openapi.yml
 - filename: looker-studio-authentication-api-openapi.yml
   format: yaml
   label: Looker Studio Authentication API
   slug: looker-studio-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-authentication-api-openapi.yml
 - filename: looker-studio-configuration-api-openapi.yml
   format: yaml
   label: Looker Studio Configuration API
   slug: looker-studio-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-configuration-api-openapi.yml
 - filename: looker-studio-data-api-openapi.yml
   format: yaml
   label: Looker Studio Data API
   slug: looker-studio-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-data-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-data-api-openapi.yml
 - filename: looker-studio-embed-api-openapi.yml
   format: yaml
   label: Looker Studio Embed API
   slug: looker-studio-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-embed-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-embed-api-openapi.yml
 - filename: looker-studio-manifest-api-openapi.yml
   format: yaml
   label: Looker Studio Manifest API
   slug: looker-studio-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-manifest-api-openapi.yml
 - filename: looker-studio-permissions-api-openapi.yml
   format: yaml
   label: Looker Studio Permissions API
   slug: looker-studio-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-permissions-api-openapi.yml
 - filename: looker-studio-reports-api-openapi.yml
   format: yaml
   label: Looker Studio Reports API
   slug: looker-studio-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-reports-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-reports-api-openapi.yml
 - filename: looker-studio-schema-api-openapi.yml
   format: yaml
   label: Looker Studio Schema API
   slug: looker-studio-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-schema-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-schema-api-openapi.yml
 - filename: looker-studio-visualization-api-openapi.yml
   format: yaml
   label: Looker Studio Visualization API
   slug: looker-studio-visualization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-visualization-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-visualization-api-openapi.yml
 - filename: looker-studio-o-embed-api-openapi.yml
   format: yaml
   label: Looker Studio o Embed API
   slug: looker-studio-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/openapi/looker-studio-o-embed-api-openapi.yml
+  url: https://artifacts.apis.io/looker-studio/openapi/looker-studio-o-embed-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -119,7 +119,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/looker-studio-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/looker-studio-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication with domain-wide delegation. Requires Google Workspace\n    or Cloud Identity organization.\nscopes:\n- scope: https://www.googleapis.com/auth/datastudio\n  description: Full access to manage Looker Studio assets and permissions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/looker-studio-api-openapi.yml\n- scope: https://www.googleapis.com/auth/datastudio.readonly\n  description: Read-only access to Looker Studio assets.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/looker-studio-api-openapi.yml\n- scope: https://www.googleapis.com/auth/userinfo.profile\n  description: Access to user profile information.\n\
   \  flows:\n  - authorizationCode\n  sources:\n  - openapi/looker-studio-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/scopes/looker-studio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/looker-studio/scopes/looker-studio-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Analytics

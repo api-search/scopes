@@ -5,13 +5,13 @@ api_specs:
   label: AniList O Auth2 API
   slug: anilist-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/openapi/anilist-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/anilist/openapi/anilist-oauth2-api-openapi.yml
 - filename: anilist-graph-ql-api-openapi.yml
   format: yaml
   label: AniList Graph QL API
   slug: anilist-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/openapi/anilist-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/anilist/openapi/anilist-graph-ql-api-openapi.yml
 authorization_urls:
 - https://anilist.co/api/v2/oauth/authorize
 description: ''
@@ -71,7 +71,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/anilist-graph-ql-api-openapi.yml, openapi/anilist-oauth2-api-openapi.yml, openapi/anilist-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/anilist-graph-ql-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n    tokenUrl: https://anilist.co/api/v2/oauth/token\n  - flow: implicit\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n  description: AniList OAuth2 (no scopes supported)\n- name: oauth2\n  source: openapi/anilist-oauth2-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n    tokenUrl: https://anilist.co/api/v2/oauth/token\n  - flow: implicit\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n  description: AniList OAuth2 (no scopes supported)\n- name: oauth2\n  source: openapi/anilist-openapi.yml\n  flows:\n  - flow: authorizationCode\n \
   \   authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n    tokenUrl: https://anilist.co/api/v2/oauth/token\n  - flow: implicit\n    authorizationUrl: https://anilist.co/api/v2/oauth/authorize\n  description: AniList OAuth2 (no scopes supported)\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/scopes/anilist-scopes.yml
+source_yaml_url: https://artifacts.apis.io/anilist/scopes/anilist-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Anime

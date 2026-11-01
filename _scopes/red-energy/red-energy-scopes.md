@@ -5,55 +5,55 @@ api_specs:
   label: Red Energy Data Holder Customers API
   slug: red-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-data-holder-customers-api-openapi.yml
 - filename: red-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: Red Energy Data Holder Operations API
   slug: red-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-data-holder-operations-api-openapi.yml
 - filename: red-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Red Energy Distributed Energy Resources API
   slug: red-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-distributed-energy-resources-api-openapi.yml
 - filename: red-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: Red Energy Electricity Service Points API
   slug: red-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-electricity-service-points-api-openapi.yml
 - filename: red-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: Red Energy Electricity Usage API
   slug: red-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-electricity-usage-api-openapi.yml
 - filename: red-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: Red Energy Account Balances API
   slug: red-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-energy-account-balances-api-openapi.yml
 - filename: red-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: Red Energy Account Billing API
   slug: red-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-energy-account-billing-api-openapi.yml
 - filename: red-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: Red Energy Accounts API
   slug: red-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-energy-accounts-api-openapi.yml
 - filename: red-energy-energy-plans-api-openapi.yml
   format: yaml
   label: Red Energy Plans API
   slug: red-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/openapi/red-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/red-energy/openapi/red-energy-energy-plans-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  Baseline 
   \    sources: [openapi/red-energy-cds-energy-openapi.yml]\n  - scope: energy:electricity.servicepoints.detail:read\n    name: Detailed Service Point Data\n    description: >-\n      Additional authorisation on top of Basic Service Point Data — supply\n      address, meter details and associated service providers. Only meaningful\n      when the basic scope is also authorised.\n    data_cluster_language: Electricity meter\n    operations: [getElectricityServicePointDetail]\n    sources: [openapi/red-energy-cds-energy-openapi.yml]\n  - scope: energy:electricity.usage:read\n    name: Electricity Usage Data\n    description: >-\n      Electricity usage data for service points, including basic and interval\n      meter reads. Additional authorisation on top of Basic Service Point Data.\n    data_cluster_language: Electricity usage\n    operations:\n      - listElectricityUsageBulk\n      - getElectricityServicePointUsage\n      - listElectricityUsageForServicePoints\n    sources: [openapi/red-energy-cds-energy-openapi.yml]\n\
   \  - scope: energy:electricity.der:read\n    name: Distributed Energy Resource Data\n    description: >-\n      Data about distributed energy resources at the customer's service points —\n      generation information, generation or storage device type, device\n      characteristics, islandable devices and energy conversion information.\n      Additional authorisation on top of Basic Service Point Data.\n    data_cluster_language: Energy generation and storage\n    operations:\n      - listElectricityDERBulk\n      - getElectricityDERForServicePoint\n      - listElectricityDERForSpecificServicePoints\n    sources: [openapi/red-energy-cds-energy-openapi.yml]\n\nunscoped_operations:\n  - operationId: listEnergyPlans\n    reason: Unauthenticated CDR Product Reference Data. No scope, no token, no accreditation.\n  - operationId: getEnergyPlanDetail\n    reason: Unauthenticated CDR Product Reference Data.\n  - operationId: getStatus\n    reason: Unauthenticated CDR Common Data Holder Operations\
   \ endpoint.\n  - operationId: getOutages\n    reason: Unauthenticated CDR Common Data Holder Operations endpoint.\n\nsecondary_data_holder_note: >-\n  Interval metering data behind energy:electricity.usage:read and the NMI\n  standing data behind the service point scopes ultimately originate with AEMO\n  as the CDR secondary data holder. Red Energy is the primary data holder for\n  the account, billing and tariff side and makes a Shared Responsibility Data\n  Request for the rest.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-energy/refs/heads/main/scopes/red-energy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/red-energy/scopes/red-energy-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
 - Energy

@@ -5,49 +5,49 @@ api_specs:
   label: Strava Activities API
   slug: strava-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-activities-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-activities-api-openapi.yml
 - filename: strava-athletes-api-openapi.yml
   format: yaml
   label: Strava Athletes API
   slug: strava-athletes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-athletes-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-athletes-api-openapi.yml
 - filename: strava-clubs-api-openapi.yml
   format: yaml
   label: Strava Clubs API
   slug: strava-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-clubs-api-openapi.yml
 - filename: strava-gear-api-openapi.yml
   format: yaml
   label: Strava Gear API
   slug: strava-gear-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-gear-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-gear-api-openapi.yml
 - filename: strava-routes-api-openapi.yml
   format: yaml
   label: Strava Routes API
   slug: strava-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-routes-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-routes-api-openapi.yml
 - filename: strava-segment-efforts-api-openapi.yml
   format: yaml
   label: Strava Segment Efforts API
   slug: strava-segment-efforts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-segment-efforts-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-segment-efforts-api-openapi.yml
 - filename: strava-segments-api-openapi.yml
   format: yaml
   label: Strava Segments API
   slug: strava-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-segments-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-segments-api-openapi.yml
 - filename: strava-streams-api-openapi.yml
   format: yaml
   label: Strava Streams API
   slug: strava-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/openapi/strava-streams-api-openapi.yml
+  url: https://artifacts.apis.io/strava/openapi/strava-streams-api-openapi.yml
 authorization_urls:
 - https://www.strava.com/oauth/authorize
 description: ''
@@ -121,7 +121,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/strava-openapi.yml\nschemes:\n- name: stravaBearerAuth\n  source: openapi/strava-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.strava.com/oauth/authorize\n    tokenUrl: https://www.strava.com/oauth/token\n  description: OAuth 2.0 Bearer token. Obtain via the authorization code flow at https://www.strava.com/oauth/authorize.\nscopes:\n- scope: activity:read\n  description: Read the user's activity data for activities that are visible to Everyone and\n    Followers\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/strava-openapi.yml\n- scope: activity:read_all\n  description: Same access as activity:read with the addition of activities with visibility\n    set to Only You\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/strava-openapi.yml\n- scope: activity:write\n  description: Access to create manual activities and uploads, and access to edit any activities\n \
   \   that are visible to the app\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/strava-openapi.yml\n- scope: profile:read_all\n  description: Read all profile information even if the user has set their profile visibility\n    to Followers or Only You\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/strava-openapi.yml\n- scope: profile:write\n  description: Update the user's weight and Functional Threshold Power (FTP), and access to\n    star or unstar segments on their behalf\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/strava-openapi.yml\n- scope: read\n  description: Read public segments, public routes, public profile data, public posts, public\n    events, club feeds, and leaderboards\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/strava-openapi.yml\n- scope: read_all\n  description: Read private routes, private segments, and private events for the user\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/strava-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strava/refs/heads/main/scopes/strava-scopes.yml
+source_yaml_url: https://artifacts.apis.io/strava/scopes/strava-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Cycling

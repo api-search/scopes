@@ -5,55 +5,55 @@ api_specs:
   label: TSB Bank ATM API
   slug: tsb-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-atm-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-atm-api-openapi.yml
 - filename: tsb-bank-authorization-server-apis-api-openapi.yml
   format: yaml
   label: TSB Bank Authorization Server APIs API
   slug: tsb-bank-authorization-server-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-authorization-server-apis-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-authorization-server-apis-api-openapi.yml
 - filename: tsb-bank-bca-api-openapi.yml
   format: yaml
   label: TSB Bank BCA API
   slug: tsb-bank-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-bca-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-bca-api-openapi.yml
 - filename: tsb-bank-branch-api-openapi.yml
   format: yaml
   label: TSB Bank Branch API
   slug: tsb-bank-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-branch-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-branch-api-openapi.yml
 - filename: tsb-bank-ccc-api-openapi.yml
   format: yaml
   label: TSB Bank CCC API
   slug: tsb-bank-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-ccc-api-openapi.yml
 - filename: tsb-bank-pca-api-openapi.yml
   format: yaml
   label: TSB Bank PCA API
   slug: tsb-bank-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-pca-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-pca-api-openapi.yml
 - filename: tsb-bank-resource-server-apis-api-openapi.yml
   format: yaml
   label: TSB Bank Resource Server APIs API
   slug: tsb-bank-resource-server-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-resource-server-apis-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-resource-server-apis-api-openapi.yml
 - filename: tsb-bank-sme-api-openapi.yml
   format: yaml
   label: TSB Bank SME API
   slug: tsb-bank-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-sme-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-sme-api-openapi.yml
 - filename: tsb-bank-token-server-apis-api-openapi.yml
   format: yaml
   label: TSB Bank Token Server APIs API
   slug: tsb-bank-token-server-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/openapi/tsb-bank-token-server-apis-api-openapi.yml
+  url: https://artifacts.apis.io/tsb-bank/openapi/tsb-bank-token-server-apis-api-openapi.yml
 authorization_urls:
 - https://apis.tsb.co.uk/auth/oauth/v2/authorize
 description: ''
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/tsb-ban
   scopes:\n- scope: openid\n  description: For access to OpenID Connect endpoints (required for OIDC flows).\n  flows: [implicit, authorizationCode]\n  sources: [openapi/tsb-bank-oauth-server-openapi.json, well-known/tsb-bank-openid-configuration.json]\n- scope: email\n  description: Access to the end-user email claim.\n  flows: [implicit, authorizationCode]\n  sources: [openapi/tsb-bank-oauth-server-openapi.json, well-known/tsb-bank-openid-configuration.json]\n- scope: profile\n  description: Access to the end-user profile claims.\n  flows: [implicit, authorizationCode]\n  sources: [openapi/tsb-bank-oauth-server-openapi.json, well-known/tsb-bank-openid-configuration.json]\n- scope: phone\n  description: Access to the end-user phone claim.\n  flows: [implicit]\n  sources: [openapi/tsb-bank-oauth-server-openapi.json]\n- scope: address\n  description: Access to the end-user address claim.\n  flows: [implicit]\n  sources: [openapi/tsb-bank-oauth-server-openapi.json]\n- scope: openid_client_registration\n\
   \  description: Dynamic client registration scope (OIDC/OBIE DCR at /openid/connect/register).\n  flows: [authorizationCode]\n  sources: [well-known/tsb-bank-openid-configuration.json]\n- scope: accounts\n  description: >-\n    OBIE Read/Write Account and Transaction Information (AIS) scope — read access\n    to accounts, balances, transactions, beneficiaries, standing orders, direct\n    debits, scheduled payments, and statements. OBIE standard scope; requires\n    onboarding.\n  flows: [authorizationCode]\n  sources: [obie-security-profile]\n- scope: payments\n  description: >-\n    OBIE Read/Write Payment Initiation (PIS) scope — initiate domestic and\n    scheduled payments, standing orders, and file payments. OBIE standard scope;\n    requires onboarding.\n  flows: [authorizationCode]\n  sources: [obie-security-profile]\n- scope: fundsconfirmations\n  description: >-\n    OBIE Read/Write Confirmation of Funds (CBPII) scope — confirm availability of\n    funds on a customer account\
   \ for a card-based payment instrument issuer. OBIE\n    standard scope; requires onboarding.\n  flows: [authorizationCode]\n  sources: [obie-security-profile]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/scopes/tsb-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tsb-bank/scopes/tsb-bank-scopes.yml
 summary_line: 9 scopes · implicit
 tags:
 - Financial Services

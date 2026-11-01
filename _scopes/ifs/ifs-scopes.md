@@ -5,25 +5,25 @@ api_specs:
   label: IFS Finance API
   slug: ifs-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-finance-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-finance-api-openapi.yml
 - filename: ifs-inventory-api-openapi.yml
   format: yaml
   label: IFS Inventory API
   slug: ifs-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-inventory-api-openapi.yml
 - filename: ifs-procurement-api-openapi.yml
   format: yaml
   label: IFS Procurement API
   slug: ifs-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-procurement-api-openapi.yml
 - filename: ifs-work-orders-api-openapi.yml
   format: yaml
   label: IFS Work Orders API
   slug: ifs-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/openapi/ifs-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ifs/openapi/ifs-work-orders-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/020_permission_sets/004_permission_set_overview/010_projections/
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: https://docs.if
   \ grants attached to the service user,\n  not by scope strings. Treat the scope list below as the complete published set — it is\n  short because the model is role-based, not scope-based.\nmodel: permission-sets\nschemes:\n- name: IFS IAM (OpenID Connect)\n  token_endpoint: https://<SYSTEM_URL>/auth/realms/<NAMESPACE>/protocol/openid-connect/token\n  flows:\n  - clientCredentials\n  - authorizationCode\n  - authorizationCode+PKCE\n  - password\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope. Required on the token request for external integration clients.\n  required: true\n  flows: [clientCredentials, authorizationCode, authorizationCode+PKCE, password]\n  source: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/040_iam_settings/035_iam_clients/020_authenticate_external_integration/300_client_credential_flow/\n- scope: microprofile-jwt\n  description: >-\n    Requests the MicroProfile JWT claim set IFS Cloud uses for role-based access. Required\n\
   \    alongside `openid` on the token request.\n  required: true\n  flows: [clientCredentials, authorizationCode, authorizationCode+PKCE, password]\n  source: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/040_iam_settings/035_iam_clients/020_authenticate_external_integration/300_client_credential_flow/\nscopes_returned_in_token:\n  observed: openid audience microprofile-jwt email profile\n  note: >-\n    The scope string IFS shows in its documented sample token response. `audience`, `email`\n    and `profile` are returned by the authorization server; only `openid microprofile-jwt`\n    is documented as required on the request.\nauthorization_beyond_scopes:\n- mechanism: Permission sets\n  description: Projection grants, per-page and per-navigator grants, and per-projection access levels granted to the user or service user.\n  docs: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/020_permission_sets/011_creating_permission_sets/010_projections/\n-\
   \ mechanism: Access Control Lists (ACL)\n  description: ACLs applied at projection level; projections can also be excluded outright.\n  docs: https://docs.ifs.com/techdocs/26r1/030_administration/010_security/008_data_access_control/020_apply_acl_to_projection/\n- mechanism: StandardEntity activation\n  description: StandardEntity-class APIs require explicit activation by a system administrator before they can be used at all.\n  docs: https://docs.ifs.com/policy/APIUsageCloud.pdf\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/scopes/ifs-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ifs/scopes/ifs-scopes.yml
 summary_line: 2 scopes · clientCredentials/authorizationCode/authorizationCode+PKCE/password
 tags:
 - ERP

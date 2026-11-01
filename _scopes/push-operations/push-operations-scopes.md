@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: push-operations-openapi-generated.yml
+  format: yaml
+  label: Push Operations API
+  slug: push-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/push-operations/openapi/_ae-authored/push-operations-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -27,17 +34,16 @@ source_yaml: 'generated: ''2026-10-28''
 
   method: none
 
-  scopes: []
-
-  '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/push-operations/refs/heads/main/scopes/push-operations-scopes.yml
+  scopes: []'
+source_yaml_url: https://artifacts.apis.io/push-operations/scopes/push-operations-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Payroll
 - HR
-- Restaurant
-- WorkforceManagement
+- Workforce Management
 - SaaS
+- Hospitality
+- Company
 token_bound: false
 token_urls: []
 ---

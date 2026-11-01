@@ -55,7 +55,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://auth.altscore.ai/.well-known/openid-configuration\ndocs: https://auth.altscore.ai/.well-known/openid-configuration\ndescription: >-\n  OAuth 2.0 / OpenID Connect scopes and grant types advertised by AltScore's\n  Frontegg-backed identity service. These are the identity-layer scopes exposed\n  through OIDC discovery; product/API authorization is enforced per-tenant on\n  the resource servers rather than through fine-grained OAuth scopes.\nschemes:\n- name: OpenIDConnect\n  source: https://auth.altscore.ai/.well-known/openid-configuration\n  issuer: https://auth.altscore.ai\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.altscore.ai/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: https://auth.altscore.ai/oauth/authorize\n    tokenUrl: https://auth.altscore.ai/oauth/token\ngrant_types_supported:\n- authorization_code\n- refresh_token\n- client_credentials\n- urn:ietf:params:oauth:grant-type:token-exchange\n\
   - urn:ietf:params:oauth:grant-type:device_code\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token.\n  flows: [authorizationCode]\n- scope: profile\n  description: Access to the user's basic profile claims.\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the user's email claim.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altscore/refs/heads/main/scopes/altscore-scopes.yml
+source_yaml_url: https://artifacts.apis.io/altscore/scopes/altscore-scopes.yml
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
 - Company

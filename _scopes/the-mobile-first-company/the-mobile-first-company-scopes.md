@@ -5,79 +5,79 @@ api_specs:
   label: The Mobile First Company Analytics API
   slug: the-mobile-first-company-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-analytics-api-openapi.yml
 - filename: the-mobile-first-company-calls-api-openapi.yml
   format: yaml
   label: The Mobile First Company Calls API
   slug: the-mobile-first-company-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-calls-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-calls-api-openapi.yml
 - filename: the-mobile-first-company-contacts-api-openapi.yml
   format: yaml
   label: The Mobile First Company Contacts API
   slug: the-mobile-first-company-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-contacts-api-openapi.yml
 - filename: the-mobile-first-company-conversations-api-openapi.yml
   format: yaml
   label: The Mobile First Company Conversations API
   slug: the-mobile-first-company-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-conversations-api-openapi.yml
 - filename: the-mobile-first-company-crm-api-openapi.yml
   format: yaml
   label: The Mobile First Company CRM API
   slug: the-mobile-first-company-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-crm-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-crm-api-openapi.yml
 - filename: the-mobile-first-company-partner-api-openapi.yml
   format: yaml
   label: The Mobile First Company Partner API
   slug: the-mobile-first-company-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-partner-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-partner-api-openapi.yml
 - filename: the-mobile-first-company-phone-numbers-api-openapi.yml
   format: yaml
   label: The Mobile First Company Phone Numbers API
   slug: the-mobile-first-company-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-phone-numbers-api-openapi.yml
 - filename: the-mobile-first-company-power-dialer-api-openapi.yml
   format: yaml
   label: The Mobile First Company Power Dialer API
   slug: the-mobile-first-company-power-dialer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-power-dialer-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-power-dialer-api-openapi.yml
 - filename: the-mobile-first-company-sms-api-openapi.yml
   format: yaml
   label: The Mobile First Company SMS API
   slug: the-mobile-first-company-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-sms-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-sms-api-openapi.yml
 - filename: the-mobile-first-company-summary-templates-api-openapi.yml
   format: yaml
   label: The Mobile First Company Summary Templates API
   slug: the-mobile-first-company-summary-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-summary-templates-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-summary-templates-api-openapi.yml
 - filename: the-mobile-first-company-tags-api-openapi.yml
   format: yaml
   label: The Mobile First Company Tags API
   slug: the-mobile-first-company-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-tags-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-tags-api-openapi.yml
 - filename: the-mobile-first-company-users-api-openapi.yml
   format: yaml
   label: The Mobile First Company Users API
   slug: the-mobile-first-company-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-users-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-users-api-openapi.yml
 - filename: the-mobile-first-company-webhooks-api-openapi.yml
   format: yaml
   label: The Mobile First Company Webhooks API
   slug: the-mobile-first-company-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/openapi/the-mobile-first-company-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/the-mobile-first-company/openapi/the-mobile-first-company-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://help.withallo.com/en/v2/api-reference/guides/authentication
@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\ndocs: https://help.with
   \ verbatim in the\n  OAuth authorization-server metadata; WEBHOOKS_READ_WRITE, BILLING and PARTNER\n  are documented in the API-key scope reference / partner endpoints but are not\n  listed in scopes_supported.\nscopes:\n- name: CONVERSATIONS_READ\n  source: oauth-metadata\n  description: Read calls, SMS, and conversation history.\n- name: CONVERSATIONS_WRITE\n  source: oauth-metadata\n  description: Write / mutate conversation items (e.g. update summaries, mark read/archived).\n- name: CONTACTS_READ\n  source: oauth-metadata\n  description: Read contact information.\n- name: CONTACTS_READ_WRITE\n  source: oauth-metadata\n  description: Read and write contact information.\n- name: SMS_SEND\n  source: oauth-metadata\n  description: Send SMS and MMS messages.\n- name: DIALING_QUEUE_READ_WRITE\n  source: oauth-metadata\n  description: Manage Power Dialer queues.\n- name: PHONE_NUMBERS_READ\n  source: oauth-metadata\n  description: List phone numbers and their capabilities.\n- name: TAGS_READ\n\
   \  source: oauth-metadata\n  description: List available tags.\n- name: TAGS_WRITE\n  source: oauth-metadata\n  description: Add and remove tags on conversation items.\n- name: USERS_READ\n  source: oauth-metadata\n  description: List team members and their roles.\n- name: CRM_READ\n  source: oauth-metadata\n  description: Read CRM people, companies, and deals.\n- name: CRM_WRITE\n  source: oauth-metadata\n  description: Create and update CRM people, companies, and deals.\n- name: CRM_DELETE\n  source: oauth-metadata\n  description: Delete CRM records (e.g. deals).\n- name: SUMMARY_TEMPLATES_READ\n  source: oauth-metadata\n  description: Read call summary templates.\n- name: SUMMARY_TEMPLATES_WRITE\n  source: oauth-metadata\n  description: Create, update, and delete call summary templates.\n- name: NOTES_READ\n  source: oauth-metadata\n  description: Read notes.\n- name: NOTES_WRITE\n  source: oauth-metadata\n  description: Create and update notes.\n- name: THREADS_READ\n  source: oauth-metadata\n\
   \  description: Read message threads.\n- name: THREADS_WRITE\n  source: oauth-metadata\n  description: Write / mutate message threads.\n- name: WEBHOOKS_READ_WRITE\n  source: docs\n  description: Create and manage webhook configurations.\n- name: BILLING\n  source: docs\n  description: Access billing and subscription information.\n- name: PARTNER\n  source: docs\n  description: >-\n    Reseller / partner scope required to provision and manage Allo accounts for\n    your customers (POST/GET/DELETE /v2/api/partner/accounts).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/scopes/the-mobile-first-company-scopes.yml
+source_yaml_url: https://artifacts.apis.io/the-mobile-first-company/scopes/the-mobile-first-company-scopes.yml
 summary_line: 22 scopes
 tags:
 - Company

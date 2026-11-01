@@ -5,43 +5,43 @@ api_specs:
   label: Rabobank Australia Banking Account Balances API
   slug: rabobank-australia-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/rabobank-australia/openapi/rabobank-australia-banking-account-balances-api-openapi.yml
 - filename: rabobank-australia-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Rabobank Australia Banking Account Direct Debits API
   slug: rabobank-australia-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/rabobank-australia/openapi/rabobank-australia-banking-account-direct-debits-api-openapi.yml
 - filename: rabobank-australia-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Rabobank Australia Banking Account Scheduled Payments API
   slug: rabobank-australia-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/rabobank-australia/openapi/rabobank-australia-banking-account-scheduled-payments-api-openapi.yml
 - filename: rabobank-australia-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Rabobank Australia Banking Account Transactions API
   slug: rabobank-australia-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/rabobank-australia/openapi/rabobank-australia-banking-account-transactions-api-openapi.yml
 - filename: rabobank-australia-banking-accounts-api-openapi.yml
   format: yaml
   label: Rabobank Australia Banking Accounts API
   slug: rabobank-australia-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/rabobank-australia/openapi/rabobank-australia-banking-accounts-api-openapi.yml
 - filename: rabobank-australia-banking-payees-api-openapi.yml
   format: yaml
   label: Rabobank Australia Banking Payees API
   slug: rabobank-australia-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/rabobank-australia/openapi/rabobank-australia-banking-payees-api-openapi.yml
 - filename: rabobank-australia-banking-products-api-openapi.yml
   format: yaml
   label: Rabobank Australia Banking Products API
   slug: rabobank-australia-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/openapi/rabobank-australia-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/rabobank-australia/openapi/rabobank-australia-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  Data Stan
   \ scopes; access is governed\n  by the CDR Register and accreditation regime.\nschemes:\n- name: cdr-oauth2-oidc-fapi\n  type: oauth2\n  scheme_detail: >-\n    OpenID Connect Hybrid flow, FAPI 1.0 Advanced security profile, PAR + PKCE,\n    mTLS-bound (sender-constrained) access tokens. Authorization/token endpoints\n    are discovered per data holder through the CDR Register, not published as a\n    self-serve developer endpoint.\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; required to obtain an ID token for the consent.\n  category: openid\n- scope: profile\n  description: OpenID Connect end-user profile claims permitted under the CDR.\n  category: openid\n- scope: common:customer.basic:read\n  description: Read basic customer information (name, occupation for individuals; agent/organisation basics for businesses).\n  category: common\n- scope: common:customer.detail:read\n  description: Read detailed customer information (contact details — phone, email, addresses\
   \ — in addition to basic).\n  category: common\n- scope: bank:accounts.basic:read\n  description: Read the list of accounts and basic account information (masked number, product category, balance).\n  category: banking\n- scope: bank:accounts.detail:read\n  description: Read detailed account information (full account attributes, features, rates, fees, deposit/lending detail).\n  category: banking\n- scope: bank:transactions:read\n  description: Read account transactions, including detail and description.\n  category: banking\n- scope: bank:payees:read\n  description: Read the consumer's saved payees (domestic, international, biller).\n  category: banking\n- scope: bank:regular_payments:read\n  description: Read direct debits and scheduled/regular payments configured on the consumer's accounts.\n  category: banking\n- scope: cdr:registration\n  description: Dynamic Client Registration (admin) scope used by accredited data recipients to manage their registration with the data holder.\n \
   \ category: admin\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/scopes/rabobank-australia-scopes.yml
+source_yaml_url: https://artifacts.apis.io/rabobank-australia/scopes/rabobank-australia-scopes.yml
 summary_line: 10 scopes
 tags:
 - Finance

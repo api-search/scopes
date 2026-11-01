@@ -5,7 +5,7 @@ api_specs:
   label: Duve API
   slug: duve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duve/refs/heads/main/openapi/_ae-authored/duve-openapi-generated.yml
+  url: https://artifacts.apis.io/duve/openapi/_ae-authored/duve-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -40,7 +40,7 @@ source_filename: duve-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-24'\nmethod: none\nsource: openapi/duve-openapi-generated.yml\nschemes:\n- name: client_credentials\n  source: openapi/duve-openapi-generated.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.duve.com/api/openapi/v1/oauth2/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duve/refs/heads/main/scopes/duve-scopes.yml
+source_yaml_url: https://artifacts.apis.io/duve/scopes/duve-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Hospitality

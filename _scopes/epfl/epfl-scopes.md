@@ -5,19 +5,19 @@ api_specs:
   label: EPFL Actu News API
   slug: actu-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/_original/epfl-actu.yaml
+  url: https://artifacts.apis.io/epfl/openapi/_original/epfl-actu.yaml
 - filename: epfl-memento.yaml
   format: yaml
   label: EPFL Memento Events API
   slug: memento-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/_original/epfl-memento.yaml
+  url: https://artifacts.apis.io/epfl/openapi/_original/epfl-memento.yaml
 - filename: epfl-primers-api-openapi.yml
   format: yaml
   label: EPFL Primers API
   slug: epfl-primers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/openapi/epfl-primers-api-openapi.yml
+  url: https://artifacts.apis.io/epfl/openapi/epfl-primers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  openapi/_or
   \    - {friendly_name: email, oid: urn:oid:0.9.2342.19200300.100.1.3}\n    - {friendly_name: givenName, oid: urn:oid:2.5.4.42}\n    - {friendly_name: surname, oid: urn:oid:2.5.4.4}\n    - {friendly_name: displayName, oid: urn:oid:2.16.840.1.113730.3.1.241}\n    - {friendly_name: eduPersonAffiliation, oid: 'urn:oid:1.3.6.1.4.1.5923.1.1.1.1'}\n    - {friendly_name: eduPersonTargetedID, oid: 'urn:oid:1.3.6.1.4.1.5923.1.1.1.10'}\n    - {friendly_name: eduPersonPrimaryOrgUnitDN, oid: 'urn:oid:1.3.6.1.4.1.5923.1.1.1.8'}\n    - {friendly_name: swissEduPersonUniqueID, oid: 'urn:oid:2.16.756.1.2.5.1.1.1'}\n    - {friendly_name: swissEduPersonHomeOrganization, oid: 'urn:oid:2.16.756.1.2.5.1.1.4'}\n    - {friendly_name: swissEduPersonHomeOrganizationType, oid: 'urn:oid:2.16.756.1.2.5.1.1.5'}\n    - {friendly_name: swissEduPersonStudyBranch3, oid: 'urn:oid:2.16.756.1.2.5.1.1.8'}\n    - {friendly_name: swissEduPersonStudyLevel, oid: 'urn:oid:2.16.756.1.2.5.1.1.9'}\n    - {friendly_name: swissEduPersonStaffCategory,\
   \ oid: 'urn:oid:2.16.756.1.2.5.1.1.10'}\n    - {friendly_name: swissEduPersonMatriculationNumber, oid: 'urn:oid:2.16.756.1.2.5.1.1.11'}\n    - {friendly_name: swissEduPersonCardUID, oid: 'urn:oid:2.16.756.1.2.5.1.1.12'}\n  - entity_id: https://companion.epfl.ch/shibboleth\n    operator: institution\n    status: live\n    status_note: 'companion.epfl.ch resolves to 128.178.218.80 and returns HTTP 200 (probed 2026-08-19).'\n    acs: https://companion.epfl.ch/Shibboleth.sso/SAML2/POST\n    requested_attributes:\n    - {friendly_name: eduPersonAffiliation, oid: 'urn:oid:1.3.6.1.4.1.5923.1.1.1.1'}\n    - {friendly_name: eduPersonScopedAffiliation, oid: 'urn:oid:1.3.6.1.4.1.5923.1.1.1.9'}\n    - {friendly_name: eduPersonTargetedID, oid: 'urn:oid:1.3.6.1.4.1.5923.1.1.1.10'}\n    - {friendly_name: email, oid: urn:oid:0.9.2342.19200300.100.1.3}\n    - {friendly_name: givenName, oid: urn:oid:2.5.4.42}\n    - {friendly_name: surname, oid: urn:oid:2.5.4.4}\n    - {friendly_name: swissEduPersonUniqueID,\
   \ oid: 'urn:oid:2.16.756.1.2.5.1.1.1'}\n    - {friendly_name: swissEduPersonHomeOrganization, oid: 'urn:oid:2.16.756.1.2.5.1.1.4'}\n    - {friendly_name: swissEduPersonHomeOrganizationType, oid: 'urn:oid:2.16.756.1.2.5.1.1.5'}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/scopes/epfl-scopes.yml
+source_yaml_url: https://artifacts.apis.io/epfl/scopes/epfl-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

@@ -5,49 +5,49 @@ api_specs:
   label: Agent API
   slug: agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-agent-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-agent-api-v1-api-openapi.yml
 - filename: gtm-copilot-api-v1-api-openapi.yml
   format: yaml
   label: Copilot API
   slug: copilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-copilot-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-copilot-api-v1-api-openapi.yml
 - filename: gtm-data-api-v1-api-openapi.yml
   format: yaml
   label: Data API
   slug: data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-data-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-data-api-v1-api-openapi.yml
 - filename: gtm-data-quality-api-v1-api-openapi.yml
   format: yaml
   label: Data Quality API
   slug: data-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-data-quality-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-data-quality-api-v1-api-openapi.yml
 - filename: gtm-studio-api-v1-api-openapi.yml
   format: yaml
   label: Studio API
   slug: studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-studio-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-studio-api-v1-api-openapi.yml
 - filename: gtm-marketing-api-v1-api-openapi.yml
   format: yaml
   label: Marketing API
   slug: marketing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-marketing-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-marketing-api-v1-api-openapi.yml
 - filename: gtm-platform-api-v1-api-openapi.yml
   format: yaml
   label: Platform API
   slug: platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-platform-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-platform-api-v1-api-openapi.yml
 - filename: gtm-vertical-datasets-api-v1-api-openapi.yml
   format: yaml
   label: Vertical Datasets API
   slug: vertical-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/openapi/gtm-vertical-datasets-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gtm/openapi/gtm-vertical-datasets-api-v1-api-openapi.yml
 authorization_urls:
 - https://login.zoominfo.com
 description: ''
@@ -273,7 +273,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: derived\nsource: openapi/gtm-agen
   \ api:data:company\n  description: Ability to search and enrich ZoomInfo Company data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-data-api-v1-api-openapi.yml\n- scope: api:data:contact\n  description: Ability to search and enrich ZoomInfo Contact data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-data-api-v1-api-openapi.yml\n- scope: api:data:intent\n  description: Ability to search and enrich ZoomInfo Intent data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-data-api-v1-api-openapi.yml\n- scope: api:data:lookup\n  description: Lookup ZoomInfo Data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-data-api-v1-api-openapi.yml\n- scope: api:data:news\n  description: Ability to search and enrich ZoomInfo News data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-data-api-v1-api-openapi.yml\n- scope: api:data:scoops\n  description: Ability to search and enrich ZoomInfo Scoop data\n  flows:\n  - authorizationCode\n \
   \ sources:\n  - openapi/gtm-data-api-v1-api-openapi.yml\n- scope: api:entitlement:read\n  description: Read User entitlements\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-platform-api-v1-api-openapi.yml\n- scope: api:gtm-config:manage\n  description: Manage GTM configuration data (create, update, delete)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-copilot-api-v1-api-openapi.yml\n- scope: api:gtm-config:read\n  description: Read GTM configuration data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-copilot-api-v1-api-openapi.yml\n- scope: api:gtm-data-model:manage\n  description: Ability to manage GTM Data Model entities, schemas, and data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-platform-api-v1-api-openapi.yml\n- scope: api:gtm-data-model:read\n  description: Ability to read GTM Data Model entities, schemas, and data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-platform-api-v1-api-openapi.yml\n- scope:\
   \ api:insights:read\n  description: Read Insights Data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-copilot-api-v1-api-openapi.yml\n- scope: api:recommendations:read\n  description: Read Copilot recommendation data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-copilot-api-v1-api-openapi.yml\n- scope: api:vertical-datasets:read\n  description: Ability to read Vertical Datasets API entities and data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-vertical-datasets-api-v1-api-openapi.yml\n- scope: api:workflows:execute\n  description: Execute Workflows\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-platform-api-v1-api-openapi.yml\n- scope: api:workflows:read\n  description: Read Workflows data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gtm-platform-api-v1-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gtm/refs/heads/main/scopes/gtm-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gtm/scopes/gtm-scopes.yml
 summary_line: 28 scopes · authorizationCode
 tags:
 - Company

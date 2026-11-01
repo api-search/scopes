@@ -5,55 +5,55 @@ api_specs:
   label: Vim Access Token Retrieval API
   slug: vim-access-token-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-access-token-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-access-token-retrieval-api-openapi.yml
 - filename: vim-applications-api-openapi.yml
   format: yaml
   label: Vim Applications API
   slug: vim-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-applications-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-applications-api-openapi.yml
 - filename: vim-appointments-api-openapi.yml
   format: yaml
   label: Vim Appointments API
   slug: vim-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-appointments-api-openapi.yml
 - filename: vim-authentication-api-openapi.yml
   format: yaml
   label: Vim Authentication API
   slug: vim-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-authentication-api-openapi.yml
 - filename: vim-chart-retrieval-api-openapi.yml
   format: yaml
   label: Vim Chart Retrieval API
   slug: vim-chart-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-chart-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-chart-retrieval-api-openapi.yml
 - filename: vim-get-patient-care-insights-api-openapi.yml
   format: yaml
   label: Vim Get Patient Care Insights API
   slug: vim-get-patient-care-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-get-patient-care-insights-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-get-patient-care-insights-api-openapi.yml
 - filename: vim-invitations-api-openapi.yml
   format: yaml
   label: Vim Invitations API
   slug: vim-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-invitations-api-openapi.yml
 - filename: vim-patient-care-insights-feedback-api-openapi.yml
   format: yaml
   label: Vim Patient Care Insights Feedback API
   slug: vim-patient-care-insights-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-patient-care-insights-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-patient-care-insights-feedback-api-openapi.yml
 - filename: vim-patient-identification-api-openapi.yml
   format: yaml
   label: Vim Patient Identification API
   slug: vim-patient-identification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-patient-identification-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-patient-identification-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://auth.getvim.com/.well-known/openid-configuration
@@ -112,7 +112,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: openapi/vim-data-source-openapi-original.json\ndocs: https://auth.getvim.com/.well-known/openid-configuration\n# The Data Source OpenAPI declares an oauth2 scheme with no populated scopes;\n# real client-credentials auth issues a bearer JWT (audience-scoped, not\n# scope-scoped). The Auth0 authorization server backing the Vim REST API\n# (auth.getvim.com) advertises the standard OIDC scopes below.\nschemes:\n  - name: service\n    type: oauth2\n    source: openapi/vim-data-source-openapi-original.json\n    flows:\n      - flow: implicit\n  - name: auth.getvim.com (Auth0 tenant)\n    type: oauth2\n    source: well-known/vim-openid-configuration.json\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://auth.getvim.com/oauth/token\nscopes:\n  - scope: openid\n    description: OIDC — issue an ID token.\n    sources: [well-known/vim-openid-configuration.json]\n  - scope: profile\n    description: Basic profile\
   \ claims.\n    sources: [well-known/vim-openid-configuration.json]\n  - scope: email\n    description: Email claim.\n    sources: [well-known/vim-openid-configuration.json]\n  - scope: offline_access\n    description: Issue a refresh token.\n    sources: [well-known/vim-openid-configuration.json]\nnotes: >-\n  scopes_supported at auth.getvim.com also includes name, given_name,\n  family_name, nickname, email_verified, picture, created_at, identities, phone,\n  address. Machine-to-machine Data Source access uses the client_credentials\n  grant with an audience rather than granular scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/scopes/vim-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vim/scopes/vim-scopes.yml
 summary_line: 4 scopes · implicit/clientCredentials
 tags:
 - Healthcare

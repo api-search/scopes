@@ -5,61 +5,61 @@ api_specs:
   label: TrainingPeaks Athlete API
   slug: trainingpeaks-athlete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-athlete-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-athlete-api-openapi.yml
 - filename: trainingpeaks-coach-api-openapi.yml
   format: yaml
   label: TrainingPeaks Coach API
   slug: trainingpeaks-coach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-coach-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-coach-api-openapi.yml
 - filename: trainingpeaks-events-api-openapi.yml
   format: yaml
   label: TrainingPeaks Events API
   slug: trainingpeaks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-events-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-events-api-openapi.yml
 - filename: trainingpeaks-file-api-openapi.yml
   format: yaml
   label: TrainingPeaks File API
   slug: trainingpeaks-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-file-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-file-api-openapi.yml
 - filename: trainingpeaks-info-api-openapi.yml
   format: yaml
   label: TrainingPeaks Info API
   slug: trainingpeaks-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-info-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-info-api-openapi.yml
 - filename: trainingpeaks-metrics-api-openapi.yml
   format: yaml
   label: TrainingPeaks Metrics API
   slug: trainingpeaks-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-metrics-api-openapi.yml
 - filename: trainingpeaks-nutrition-api-openapi.yml
   format: yaml
   label: TrainingPeaks Nutrition API
   slug: trainingpeaks-nutrition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-nutrition-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-nutrition-api-openapi.yml
 - filename: trainingpeaks-routes-api-openapi.yml
   format: yaml
   label: TrainingPeaks Routes API
   slug: trainingpeaks-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-routes-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-routes-api-openapi.yml
 - filename: trainingpeaks-webhooks-api-openapi.yml
   format: yaml
   label: TrainingPeaks Webhooks API
   slug: trainingpeaks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-webhooks-api-openapi.yml
 - filename: trainingpeaks-workouts-api-openapi.yml
   format: yaml
   label: TrainingPeaks Workouts API
   slug: trainingpeaks-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-workouts-api-openapi.yml
 authorization_urls:
 - https://oauth.trainingpeaks.com/OAuth/Authorize
 description: ''
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/training
   \  description: Read athlete events.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: events:write\n  description: Create athlete events.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: file:write\n  description: Upload activity files.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: metrics:read\n  description: Read athlete metrics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: metrics:write\n  description: Create athlete metrics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: nutrition:read\n  description: Read athlete nutrition entries.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: nutrition:write\n  description: Create, update, and delete nutrition entries.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n\
   - scope: routes:read\n  description: Read athlete routes.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: routes:write\n  description: Create athlete routes.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: webhook:read-subscriptions\n  description: List webhook subscriptions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: webhook:write-subscriptions\n  description: Create, update, and delete webhook subscriptions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: workouts:details\n  description: Read workout detail samples and post comments.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: workouts:plan\n  description: Create, update, and delete planned workouts.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: workouts:read\n\
   \  description: Read planned and completed workouts and analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n- scope: workouts:wod\n  description: Read Workout of the Day and structured workout files.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trainingpeaks-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/scopes/trainingpeaks-scopes.yml
+source_yaml_url: https://artifacts.apis.io/trainingpeaks/scopes/trainingpeaks-scopes.yml
 summary_line: 17 scopes · authorizationCode
 tags:
 - Fitness

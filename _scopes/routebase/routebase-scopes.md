@@ -5,31 +5,31 @@ api_specs:
   label: Routebase API Specs API
   slug: routebase-api-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-api-specs-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-api-specs-api-openapi.yml
 - filename: routebase-ci-test-runs-api-openapi.yml
   format: yaml
   label: Routebase CI & Test Runs API
   slug: routebase-ci-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-ci-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-ci-test-runs-api-openapi.yml
 - filename: routebase-docs-as-code-api-openapi.yml
   format: yaml
   label: Routebase Docs as Code API
   slug: routebase-docs-as-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-docs-as-code-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-docs-as-code-api-openapi.yml
 - filename: routebase-scim-api-openapi.yml
   format: yaml
   label: Routebase SCIM API
   slug: routebase-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-scim-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-scim-api-openapi.yml
 - filename: routebase-security-api-openapi.yml
   format: yaml
   label: Routebase Security API
   slug: routebase-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/openapi/routebase-security-api-openapi.yml
+  url: https://artifacts.apis.io/routebase/openapi/routebase-security-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.routebase.dev/api-keys/
@@ -57,7 +57,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-11'\nmethod: searched\nsource: |-\n  https://mcp.routebase.dev/.well-known/oauth-protected-resource and\n  https://api.routebase.dev/.well-known/oauth-protected-resource (identical\n  scopes_supported list), corroborated by https://docs.routebase.dev/api-keys/\n  which documents the same scope strings as API-key permissions.\ndocs: https://docs.routebase.dev/api-keys/\nmodel: |-\n  Scopes are the granular API-key/OAuth permissions, grouped by functional area and\n  formatted <area>:<action>. Keys default to full access or can be restricted to a\n  subset of scopes and projects. OIDC identity scopes (openid, profile, email, ...)\n  are served separately by the auth server metadata.\nauthorization_server: https://auth.routebase.dev/\nresource_scopes:\n- scope: projects:read\n- scope: projects:write\n- scope: projects:delete\n- scope: projects:manage-members\n- scope: specs:read\n- scope: specs:write\n- scope: specs:publish\n- scope: specs:delete\n- scope:\
   \ specs:branch\n- scope: specs:merge\n- scope: specs:review\n- scope: tests:read\n- scope: tests:write\n- scope: tests:execute\n- scope: security:read\n- scope: security:write\n- scope: security:execute\n- scope: mock-server:read\n- scope: mock-server:manage\n- scope: monitoring:read\n- scope: monitoring:write\n- scope: gateway:read\n- scope: gateway:write\n- scope: gateway:deploy\n- scope: catalog:read\n- scope: catalog:write\n- scope: docs:read\n- scope: docs:write\n- scope: docs:publish\n- scope: docs:manage-portal\n- scope: notifications:read\n- scope: notifications:manage\n- scope: ai:use\n- scope: ai:manage\n- scope: billing:read\n- scope: billing:manage\n- scope: org:manage-members\n- scope: org:manage-teams\n- scope: org:manage-settings\n- scope: org:manage-security\n- scope: org:manage-governance\n- scope: org:delete\noidc_scopes:\n  source: https://auth.routebase.dev/.well-known/openid-configuration\n  scopes_supported: [openid, profile, offline_access, name, given_name, family_name,\
   \ nickname, email, email_verified, picture, created_at, identities, phone, address]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routebase/refs/heads/main/scopes/routebase-scopes.yml
+source_yaml_url: https://artifacts.apis.io/routebase/scopes/routebase-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - API lifecycle management

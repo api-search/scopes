@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: https://mgemi.com/.well-known/openid-configuration\ndocs: https://mgemi.com/.well-known/oauth-authorization-server\nauthorization_server: https://shopify.com/authentication/13666484283\nnote: >-\n  Scopes are advertised by the Shopify Customer Account OIDC/RFC 8414 discovery documents\n  served on M.Gemi's own store host for M.Gemi's shop tenant. M.Gemi publishes no scope\n  reference page of its own; these are the values the server itself declares in\n  scopes_supported.\nscope_count: 4\nscopes:\n- name: openid\n  description: OpenID Connect sign-in; requests an ID token for the customer.\n- name: email\n  description: Access to the customer's email address and email_verified claim.\n- name: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in customer\n    of the M.Gemi store.\n- name: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account\
   \ MCP API for the signed-in\n    customer - the authenticated counterpart to the anonymous UCP commerce MCP endpoint.\nclaims_supported: [iss, sub, aud, exp, iat, nonce, sid, email, email_verified]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/m-gemi/refs/heads/main/scopes/m-gemi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/m-gemi/scopes/m-gemi-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

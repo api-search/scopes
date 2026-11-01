@@ -5,55 +5,55 @@ api_specs:
   label: Accurate Background Adjudication API
   slug: accurate-bg-adjudication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-adjudication-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-adjudication-api-openapi.yml
 - filename: accurate-bg-candidates-api-openapi.yml
   format: yaml
   label: Accurate Background Candidates API
   slug: accurate-bg-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-candidates-api-openapi.yml
 - filename: accurate-bg-documents-api-openapi.yml
   format: yaml
   label: Accurate Background Documents API
   slug: accurate-bg-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-documents-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-documents-api-openapi.yml
 - filename: accurate-bg-notifications-api-openapi.yml
   format: yaml
   label: Accurate Background Notifications API
   slug: accurate-bg-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-notifications-api-openapi.yml
 - filename: accurate-bg-orders-api-openapi.yml
   format: yaml
   label: Accurate Background Orders API
   slug: accurate-bg-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-orders-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-orders-api-openapi.yml
 - filename: accurate-bg-packages-api-openapi.yml
   format: yaml
   label: Accurate Background Packages API
   slug: accurate-bg-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-packages-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-packages-api-openapi.yml
 - filename: accurate-bg-reports-api-openapi.yml
   format: yaml
   label: Accurate Background Reports API
   slug: accurate-bg-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-reports-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-reports-api-openapi.yml
 - filename: accurate-bg-utility-api-openapi.yml
   format: yaml
   label: Accurate Background Utility API
   slug: accurate-bg-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-utility-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-utility-api-openapi.yml
 - filename: accurate-bg-verifications-api-openapi.yml
   format: yaml
   label: Accurate Background Verifications API
   slug: accurate-bg-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-verifications-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/accurate-bg
   \ / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-orders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-packages-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent\
   \ requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-reports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-utility-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\n- name: oauth2ClientCredentials\n  source: openapi/accurate-bg-verifications-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.accuratebackground.com/v3/oauth/token\n\
   \  description: Accurate API credentials are a ClientID / ClientSecret pair obtained from the\n    Accurate developer portal. Credentials are exchanged (HTTP Basic) for an access token that\n    authorizes subsequent requests.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/scopes/accurate-bg-scopes.yml
+source_yaml_url: https://artifacts.apis.io/accurate-bg/scopes/accurate-bg-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Background Checks

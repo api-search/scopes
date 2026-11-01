@@ -5,37 +5,37 @@ api_specs:
   label: apaleo Availability API
   slug: apaleo-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-availability-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-availability-api-openapi.yml
 - filename: apaleo-booking-api-openapi.yml
   format: yaml
   label: apaleo Booking API
   slug: apaleo-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-booking-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-booking-api-openapi.yml
 - filename: apaleo-finance-api-openapi.yml
   format: yaml
   label: apaleo Finance API
   slug: apaleo-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-finance-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-finance-api-openapi.yml
 - filename: apaleo-inventory-api-openapi.yml
   format: yaml
   label: apaleo Inventory API
   slug: apaleo-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-inventory-api-openapi.yml
 - filename: apaleo-rate-plan-api-openapi.yml
   format: yaml
   label: apaleo Rate Plan API
   slug: apaleo-rate-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-rate-plan-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-rate-plan-api-openapi.yml
 - filename: apaleo-settings-api-openapi.yml
   format: yaml
   label: apaleo Settings API
   slug: apaleo-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-settings-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-settings-api-openapi.yml
 authorization_urls:
 - https://identity.apaleo.com/connect/authorize
 description: ''
@@ -138,7 +138,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apaleo-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/apaleo-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://identity.apaleo.com/connect/token\n  - flow: authorizationCode\n    authorizationUrl: https://identity.apaleo.com/connect/authorize\n    tokenUrl: https://identity.apaleo.com/connect/token\n  description: apaleo uses OAuth 2.0. Obtain a bearer access token from the apaleo identity\n    provider and send it in the Authorization header as 'Bearer {token}'. The client-credentials\n    and authorization-code grants are supported.\nscopes:\n- scope: availability.manage\n  description: Manage availability\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/apaleo-openapi.yml\n- scope: availability.read\n  description: Read availability\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/apaleo-openapi.yml\n- scope: folios.manage\n\
   \  description: Manage folios, payments, and invoices\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/apaleo-openapi.yml\n- scope: folios.read\n  description: Read folios and finance data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/apaleo-openapi.yml\n- scope: rates.manage\n  description: Manage rate plans and rates\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/apaleo-openapi.yml\n- scope: rates.read\n  description: Read rate plans and rates\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/apaleo-openapi.yml\n- scope: reservations.manage\n  description: Create and manage reservations and bookings\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/apaleo-openapi.yml\n- scope: reservations.read\n  description: Read reservations and bookings\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/apaleo-openapi.yml\n\
   - scope: setup.manage\n  description: Manage inventory and configuration\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/apaleo-openapi.yml\n- scope: setup.read\n  description: Read inventory and configuration\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/apaleo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/scopes/apaleo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/apaleo/scopes/apaleo-scopes.yml
 summary_line: 10 scopes · clientCredentials/authorizationCode
 tags:
 - Hospitality

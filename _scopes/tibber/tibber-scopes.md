@@ -5,25 +5,25 @@ api_specs:
   label: Tibber Devices API
   slug: tibber-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-devices-api-openapi.yml
 - filename: tibber-history-api-openapi.yml
   format: yaml
   label: Tibber History API
   slug: tibber-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-history-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-history-api-openapi.yml
 - filename: tibber-homes-api-openapi.yml
   format: yaml
   label: Tibber Homes API
   slug: tibber-homes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-homes-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-homes-api-openapi.yml
 - filename: tibber-graph-ql-api-openapi.yml
   format: yaml
   label: Tibber Graph QL API
   slug: tibber-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-graph-ql-api-openapi.yml
 authorization_urls:
 - https://thewall.tibber.com/connect/authorize
 description: ''
@@ -118,7 +118,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tibber-data-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/tibber-data-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://thewall.tibber.com/connect/authorize\n    tokenUrl: https://thewall.tibber.com/connect/token\n  description: OAuth 2.0 Authorization Code Flow with optional PKCE.\nscopes:\n- scope: data-api-chargers-read\n  description: Read EV chargers and EVSE equipment.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n- scope: data-api-energy-systems-read\n  description: Read home batteries and hybrid systems.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n- scope: data-api-homes-read\n  description: List the user's homes.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n- scope: data-api-inverters-read\n  description: Read solar inverters.\n  flows:\n\
   \  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n- scope: data-api-thermostats-read\n  description: Read thermostats, heat pumps, and space heaters.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n- scope: data-api-user-read\n  description: Basic user context (required baseline).\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n- scope: data-api-vehicles-read\n  description: Read connected electric vehicles.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n- scope: email\n  description: User email.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n- scope: offline_access\n  description: Issue refresh tokens.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n- scope: openid\n  description: OpenID identity.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n\
   - scope: profile\n  description: User profile.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/scopes/tibber-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tibber/scopes/tibber-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
 - Energy

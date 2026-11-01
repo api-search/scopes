@@ -5,37 +5,37 @@ api_specs:
   label: drchrono Administrative API
   slug: drchrono-administrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-administrative-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-administrative-api-openapi.yml
 - filename: drchrono-audit-api-openapi.yml
   format: yaml
   label: drchrono Audit API
   slug: drchrono-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-audit-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-audit-api-openapi.yml
 - filename: drchrono-availability-api-openapi.yml
   format: yaml
   label: drchrono Availability API
   slug: drchrono-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-availability-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-availability-api-openapi.yml
 - filename: drchrono-billing-api-openapi.yml
   format: yaml
   label: drchrono Billing API
   slug: drchrono-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-billing-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-billing-api-openapi.yml
 - filename: drchrono-clinical-api-openapi.yml
   format: yaml
   label: drchrono Clinical API
   slug: drchrono-clinical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-clinical-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-clinical-api-openapi.yml
 - filename: drchrono-practice-management-api-openapi.yml
   format: yaml
   label: drchrono Practice Management API
   slug: drchrono-practice-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-practice-management-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-practice-management-api-openapi.yml
 authorization_urls:
 - https://app.drchrono.com/o/authorize/
 description: The 22 OAuth 2.0 scopes DrChrono declares on the drchrono_oauth2 security scheme of the OpenAPI it serves at https://app.drchrono.com/openapi-schema, with the scope-model narrative from the Authorization section of its API reference. Scopes take the form BASE_SCOPE:[read|write] over the bases user, calendar, patients, patients:summary, billing, clinical and labs, plus messages, tasks, settings and billing:patient-payment.
@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://app.drc
   \  - authorizationCode\n  sources:\n  - https://app.drchrono.com/api-docs/\n  - openapi/_original/drchrono-rest-api-openapi-schema.json\n- scope: patients:summary:read\n  description: View summary information about your patients. This includes patients' name, chart_id, age, and gender.\n  flows:\n  - authorizationCode\n  sources:\n  - https://app.drchrono.com/api-docs/\n  - openapi/_original/drchrono-rest-api-openapi-schema.json\n- scope: patients:summary:write\n  description: Create new patients and set their name, chart_id, age, and gender.\n  flows:\n  - authorizationCode\n  sources:\n  - https://app.drchrono.com/api-docs/\n  - openapi/_original/drchrono-rest-api-openapi-schema.json\n- scope: patients:write\n  description: Create patients and modify detailed patient information.\n  flows:\n  - authorizationCode\n  sources:\n  - https://app.drchrono.com/api-docs/\n  - openapi/_original/drchrono-rest-api-openapi-schema.json\n- scope: settings:read\n  description: View resources that requires\
   \ Settings permission, such as custom fields.\n  flows:\n  - authorizationCode\n  sources:\n  - https://app.drchrono.com/api-docs/\n  - openapi/_original/drchrono-rest-api-openapi-schema.json\n- scope: settings:write\n  description: Create resources that requires Settings permission, such as custom fields.\n  flows:\n  - authorizationCode\n  sources:\n  - https://app.drchrono.com/api-docs/\n  - openapi/_original/drchrono-rest-api-openapi-schema.json\n- scope: tasks:read\n  description: View tasks in your tasks center\n  flows:\n  - authorizationCode\n  sources:\n  - https://app.drchrono.com/api-docs/\n  - openapi/_original/drchrono-rest-api-openapi-schema.json\n- scope: tasks:write\n  description: Create and modify tasks in your tasks center\n  flows:\n  - authorizationCode\n  sources:\n  - https://app.drchrono.com/api-docs/\n  - openapi/_original/drchrono-rest-api-openapi-schema.json\n- scope: user:read\n  description: View your basic information.\n  flows:\n  - authorizationCode\n  sources:\n\
   \  - https://app.drchrono.com/api-docs/\n  - openapi/_original/drchrono-rest-api-openapi-schema.json\n- scope: user:write\n  description: Edit select account information, such as creating new exam rooms.\n  flows:\n  - authorizationCode\n  sources:\n  - https://app.drchrono.com/api-docs/\n  - openapi/_original/drchrono-rest-api-openapi-schema.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/scopes/drchrono-scopes.yml
+source_yaml_url: https://artifacts.apis.io/drchrono/scopes/drchrono-scopes.yml
 summary_line: 23 scopes · authorizationCode
 tags:
 - Electronic Health Records

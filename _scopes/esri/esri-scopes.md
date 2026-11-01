@@ -5,31 +5,31 @@ api_specs:
   label: Esri Auth API
   slug: esri-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-auth-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-auth-api-openapi.yml
 - filename: esri-geocoding-api-openapi.yml
   format: yaml
   label: Esri Geocoding API
   slug: esri-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-geocoding-api-openapi.yml
 - filename: esri-routing-api-openapi.yml
   format: yaml
   label: Esri Routing API
   slug: esri-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-routing-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-routing-api-openapi.yml
 - filename: esri-places-api-openapi.yml
   format: yaml
   label: Esri Places API
   slug: esri-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-places-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-places-api-openapi.yml
 - filename: esri-portal-api-openapi.yml
   format: yaml
   label: Esri Portal API
   slug: esri-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/openapi/esri-portal-api-openapi.yml
+  url: https://artifacts.apis.io/esri/openapi/esri-portal-api-openapi.yml
 authorization_urls:
 - https://www.arcgis.com/sharing/rest/oauth2/authorize
 description: ''
@@ -115,7 +115,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/esri-auth-api-openapi.yml, openapi/esri-geocoding-api-openapi.yml, openapi/esri-places-api-openapi.yml,\n  openapi/esri-portal-api-openapi.yml, openapi/esri-routing-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/esri-auth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: oauth2\n  source: openapi/esri-geocoding-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: OAuth2\n  source: openapi/esri-geocoding-api-openapi.yml\n\
   \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: OAuth2\n  source: openapi/esri-places-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: OAuth2\n  source: openapi/esri-portal-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n- name: oauth2\n  source: openapi/esri-routing-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://www.arcgis.com/sharing/rest/oauth2/authorize\n    tokenUrl: https://www.arcgis.com/sharing/rest/oauth2/token\n\
   scopes:\n- scope: openid\n  description: OpenID Connect identity\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/esri-geocoding-api-openapi.yml\n  - openapi/esri-places-api-openapi.yml\n  - openapi/esri-portal-api-openapi.yml\n- scope: urn:arcgis:scope:root\n  description: Full access to ArcGIS Online\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/esri-geocoding-api-openapi.yml\n  - openapi/esri-places-api-openapi.yml\n  - openapi/esri-portal-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/scopes/esri-scopes.yml
+source_yaml_url: https://artifacts.apis.io/esri/scopes/esri-scopes.yml
 summary_line: 2 scopes · clientCredentials/authorizationCode
 tags:
 - Geographic

@@ -38,7 +38,7 @@ source_filename: wolt-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.wolt.com/docs/authentication20\ndocs: https://developer.wolt.com/docs/authentication20\nschemes:\n- name: OAuth2\n  source: https://developer.wolt.com/docs/authentication20\n  flows:\n  - flow: authorizationCode\n    tokenUrl: https://integrations-authentication-service.wolt.com/oauth2/token\nscopes:\n- scope: offline\n  description: >-\n    Grants the offline access needed to obtain new access and refresh tokens\n    (issues a refresh token alongside the access token).\n  flows: [authorizationCode]\n  sources: [https://developer.wolt.com/docs/authentication20]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wolt/refs/heads/main/scopes/wolt-scopes.yml
+source_yaml_url: https://artifacts.apis.io/wolt/scopes/wolt-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

@@ -5,151 +5,151 @@ api_specs:
   label: OpenMercantil API Credentials API
   slug: openmercantil-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-api-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-api-credentials-api-openapi.yml
 - filename: openmercantil-billing-api-openapi.yml
   format: yaml
   label: OpenMercantil Billing API
   slug: openmercantil-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-billing-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-billing-api-openapi.yml
 - filename: openmercantil-borme-api-openapi.yml
   format: yaml
   label: OpenMercantil BORME API
   slug: openmercantil-borme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-borme-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-borme-api-openapi.yml
 - filename: openmercantil-companies-api-openapi.yml
   format: yaml
   label: OpenMercantil Companies API
   slug: openmercantil-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-companies-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-companies-api-openapi.yml
 - filename: openmercantil-datasets-api-openapi.yml
   format: yaml
   label: OpenMercantil Datasets API
   slug: openmercantil-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-datasets-api-openapi.yml
 - filename: openmercantil-graph-api-openapi.yml
   format: yaml
   label: OpenMercantil Graph API
   slug: openmercantil-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-graph-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-graph-api-openapi.yml
 - filename: openmercantil-integrations-api-openapi.yml
   format: yaml
   label: OpenMercantil Integrations API
   slug: openmercantil-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-integrations-api-openapi.yml
 - filename: openmercantil-legal-api-openapi.yml
   format: yaml
   label: OpenMercantil Legal API
   slug: openmercantil-legal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-legal-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-legal-api-openapi.yml
 - filename: openmercantil-persons-api-openapi.yml
   format: yaml
   label: OpenMercantil Persons API
   slug: openmercantil-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-persons-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-persons-api-openapi.yml
 - filename: openmercantil-public-procurement-api-openapi.yml
   format: yaml
   label: OpenMercantil Public Procurement API
   slug: openmercantil-public-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-public-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-public-procurement-api-openapi.yml
 - filename: openmercantil-search-api-openapi.yml
   format: yaml
   label: OpenMercantil Search API
   slug: openmercantil-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-search-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-search-api-openapi.yml
 - filename: openmercantil-sectors-api-openapi.yml
   format: yaml
   label: OpenMercantil Sectors API
   slug: openmercantil-sectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-sectors-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-sectors-api-openapi.yml
 - filename: openmercantil-sources-api-openapi.yml
   format: yaml
   label: OpenMercantil Sources API
   slug: openmercantil-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-sources-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-sources-api-openapi.yml
 - filename: openmercantil-support-api-openapi.yml
   format: yaml
   label: OpenMercantil Support API
   slug: openmercantil-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-support-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-support-api-openapi.yml
 - filename: openmercantil-system-api-openapi.yml
   format: yaml
   label: OpenMercantil System API
   slug: openmercantil-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-system-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-system-api-openapi.yml
 - filename: openmercantil-user-api-openapi.yml
   format: yaml
   label: OpenMercantil User API
   slug: openmercantil-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-user-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-user-api-openapi.yml
 - filename: openmercantil-webhooks-api-openapi.yml
   format: yaml
   label: OpenMercantil Webhooks API
   slug: openmercantil-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-webhooks-api-openapi.yml
 - filename: openmercantil-contracts-api-openapi.yml
   format: yaml
   label: OpenMercantil Contracts API
   slug: openmercantil-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-contracts-api-openapi.yml
 - filename: openmercantil-daily-api-openapi.yml
   format: yaml
   label: OpenMercantil Daily API
   slug: openmercantil-daily-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-daily-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-daily-api-openapi.yml
 - filename: openmercantil-export-api-openapi.yml
   format: yaml
   label: OpenMercantil Export API
   slug: openmercantil-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-export-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-export-api-openapi.yml
 - filename: openmercantil-geocode-api-openapi.yml
   format: yaml
   label: OpenMercantil Geocode API
   slug: openmercantil-geocode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-geocode-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-geocode-api-openapi.yml
 - filename: openmercantil-network-api-openapi.yml
   format: yaml
   label: OpenMercantil Network API
   slug: openmercantil-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-network-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-network-api-openapi.yml
 - filename: openmercantil-risk-signals-api-openapi.yml
   format: yaml
   label: OpenMercantil Risk Signals API
   slug: openmercantil-risk-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-risk-signals-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-risk-signals-api-openapi.yml
 - filename: openmercantil-score-api-openapi.yml
   format: yaml
   label: OpenMercantil Score API
   slug: openmercantil-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-score-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-score-api-openapi.yml
 - filename: openmercantil-stats-api-openapi.yml
   format: yaml
   label: OpenMercantil Stats API
   slug: openmercantil-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/openapi/openmercantil-stats-api-openapi.yml
+  url: https://artifacts.apis.io/openmercantil/openapi/openmercantil-stats-api-openapi.yml
 authorization_urls: []
 description: 'OpenMercantil publishes a real, named authorization scope registry — but it is NOT OAuth 2.0. Scopes attach to opaque `omk_*` API credentials issued from the account panel and presented as `X-API-Key` (or `Authorization: Bearer`). The registry is declared machine-readably in the OpenAPI document under `components.x-api-credential-scopes`, and 43 of the 139 operations carry an `x-api-credential-scope` naming the scope that selects the caller''s account quota for that route. There is no authorization server, no consent screen and no token exchange — a scope selects quota and read plane, it does not grant access a caller lacked, because the public read plane is anonymous by default.'
 docs: https://openmercantil.es/api/documentacion
@@ -204,7 +204,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: >-\n  openapi/_
   \  operation_count: 3\n    operations:\n      - getGrafoPersonaBySlug\n      - getPersonSearch\n      - getPersonaBySlug\n    note: >-\n      The narrowest and most sensitive plane. Responses are doubly redacted —\n      no DNI/NIE, no personal contact data — and natural persons appear only as\n      documentary mentions of published BORME acts, never as profiles.\n  - name: tenders:read\n    description: Sanitized public procurement projections.\n    operation_count: 4\n    operations:\n      - getTender\n      - getTenderStats\n      - listTenderSuppliers\n      - searchTenders\n  - name: legal:read\n    description: BOE mercantile-law corpus.\n    operation_count: 5\n    operations:\n      - getLegalActMap\n      - getLegalActMapByActo\n      - getLegalArticleByNormByN\n      - getLegalNormBySlug\n      - getLegalNorms\n  - name: integrations:read\n    description: Public integration capability catalog.\n    operation_count: 3\n    operations:\n      - getIntegration\n      - getSourcesFreshness\n\
   \      - listIntegrations\ncredential_lifecycle:\n  issuer: account panel (/mi-cuenta)\n  prefix: omk_\n  opaque: true\n  jwt: false\n  management_operations:\n    - listUserApiCredentials\n    - createUserApiCredential\n    - rotateUserApiCredential\n    - revokeUserApiCredential\n  secret_visibility: >-\n    The credential secret is returned once, in the original mutation response,\n    and is replayable only through an identical `Idempotency-Key` request\n    inside a 24-hour window. It is never returned by list or get.\n  rotation_supported: true\n  revocation_supported: true\n  transport_rules:\n    - 'Header only: X-API-Key, or Authorization: Bearer.'\n    - Never permitted in a query string (stated explicitly in the scheme description).\nunscoped_operations:\n  count: 96\n  note: >-\n    The remaining operations carry no x-api-credential-scope because they are\n    either account-plane (session cookie + CSRF, 65 User operations plus\n    billing, support and webhooks) or provider-callback\
   \ routes. Absence of a\n    scope on those is correct, not a gap.\nsee_also:\n  authentication: authentication/openmercantil-authentication.yml\n  conventions: conventions/openmercantil-conventions.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/scopes/openmercantil-scopes.yml
+source_yaml_url: https://artifacts.apis.io/openmercantil/scopes/openmercantil-scopes.yml
 summary_line: 6 scopes
 tags:
 - BDNS

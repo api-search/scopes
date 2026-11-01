@@ -5,73 +5,73 @@ api_specs:
   label: Fortellis Event Relay Data Plane Proxy (AsyncAPI)
   slug: fortellis-event-relay-data-plane
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/asyncapi/fortellis-event-relay-data-plane-proxy-asyncapi.yml
+  url: https://artifacts.apis.io/cdk-global/asyncapi/fortellis-event-relay-data-plane-proxy-asyncapi.yml
 - filename: fortellis-hello-world-asyncapi.yml
   format: yaml
   label: Fortellis AsyncAPI Hello World Reference
   slug: fortellis-async-hello-world
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/asyncapi/fortellis-hello-world-asyncapi.yml
+  url: https://artifacts.apis.io/cdk-global/asyncapi/fortellis-hello-world-asyncapi.yml
 - filename: cdk-global-adopt-api-openapi.yml
   format: yaml
   label: CDK Global Adopt API
   slug: cdk-global-adopt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-adopt-api-openapi.yml
+  url: https://artifacts.apis.io/cdk-global/openapi/cdk-global-adopt-api-openapi.yml
 - filename: cdk-global-adopt-delete-api-openapi.yml
   format: yaml
   label: CDK Global adopt delete API
   slug: cdk-global-adopt-delete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-adopt-delete-api-openapi.yml
+  url: https://artifacts.apis.io/cdk-global/openapi/cdk-global-adopt-delete-api-openapi.yml
 - filename: cdk-global-adopt-update-api-openapi.yml
   format: yaml
   label: CDK Global adopt update API
   slug: cdk-global-adopt-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-adopt-update-api-openapi.yml
+  url: https://artifacts.apis.io/cdk-global/openapi/cdk-global-adopt-update-api-openapi.yml
 - filename: cdk-global-cancel-api-openapi.yml
   format: yaml
   label: CDK Global Cancel API
   slug: cdk-global-cancel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-cancel-api-openapi.yml
+  url: https://artifacts.apis.io/cdk-global/openapi/cdk-global-cancel-api-openapi.yml
 - filename: cdk-global-create-api-openapi.yml
   format: yaml
   label: CDK Global Create API
   slug: cdk-global-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-create-api-openapi.yml
+  url: https://artifacts.apis.io/cdk-global/openapi/cdk-global-create-api-openapi.yml
 - filename: cdk-global-events-api-openapi.yml
   format: yaml
   label: CDK Global Events API
   slug: cdk-global-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-events-api-openapi.yml
+  url: https://artifacts.apis.io/cdk-global/openapi/cdk-global-events-api-openapi.yml
 - filename: cdk-global-manage-api-openapi.yml
   format: yaml
   label: CDK Global Manage API
   slug: cdk-global-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-manage-api-openapi.yml
+  url: https://artifacts.apis.io/cdk-global/openapi/cdk-global-manage-api-openapi.yml
 - filename: cdk-global-query-api-openapi.yml
   format: yaml
   label: CDK Global Query API
   slug: cdk-global-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-query-api-openapi.yml
+  url: https://artifacts.apis.io/cdk-global/openapi/cdk-global-query-api-openapi.yml
 - filename: cdk-global-service-booking-api-openapi.yml
   format: yaml
   label: CDK Global Service Booking API
   slug: cdk-global-service-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-service-booking-api-openapi.yml
+  url: https://artifacts.apis.io/cdk-global/openapi/cdk-global-service-booking-api-openapi.yml
 - filename: cdk-global-update-api-openapi.yml
   format: yaml
   label: CDK Global Update API
   slug: cdk-global-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/openapi/cdk-global-update-api-openapi.yml
+  url: https://artifacts.apis.io/cdk-global/openapi/cdk-global-update-api-openapi.yml
 authorization_urls:
 - https://identity.fortellis.io/oauth2/
 description: ''
@@ -135,7 +135,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fortellis-appointments-openapi.yml, openapi/fortellis-parts-store-openapi.yml,\n  openapi/fortellis-pet-adoption-openapi.yml, openapi/fortellis-user-service-openapi.yml\nschemes:\n- name: permission-model\n  source: openapi/fortellis-appointments-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://identity.fortellis.io/oauth2/\n- name: permission-model\n  source: openapi/fortellis-parts-store-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://identity.fortellis.io/oauth2/\n- name: permission-model\n  source: openapi/fortellis-pet-adoption-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://identity.fortellis.io/oauth2/\n- name: permission-model\n  source: openapi/fortellis-user-service-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://identity.fortellis.io/oauth2/\nscopes:\n- scope: anonymous\n  description: Create, Query, Update,\
   \ and Delete appointments\n  flows:\n  - implicit\n  sources:\n  - openapi/fortellis-appointments-openapi.yml\n  - openapi/fortellis-parts-store-openapi.yml\n  - openapi/fortellis-pet-adoption-openapi.yml\n  - openapi/fortellis-user-service-openapi.yml\n- scope: pets.adopt\n  description: permission to query, read, and adopt pets\n  flows:\n  - implicit\n  sources:\n  - openapi/fortellis-pet-adoption-openapi.yml\n- scope: pets.manage\n  description: permission to add, modify, and remove pets\n  flows:\n  - implicit\n  sources:\n  - openapi/fortellis-pet-adoption-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/scopes/cdk-global-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cdk-global/scopes/cdk-global-scopes.yml
 summary_line: 3 scopes · implicit
 tags:
 - Automotive

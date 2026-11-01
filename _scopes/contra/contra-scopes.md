@@ -5,7 +5,7 @@ api_specs:
   label: Contra Public Api
   slug: contra-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contra/refs/heads/main/openapi/contra-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/contra/openapi/contra-public-api-api-openapi.yml
 authorization_urls:
 - https://contra.com/api/mcp/oauth/authorize
 description: ''
@@ -47,7 +47,7 @@ source_filename: contra-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://contra.com/.well-known/openid-configuration\ndocs: https://contra.com/.well-known/oauth-protected-resource/mcp\nschemes:\n- name: McpOAuth2\n  source: well-known/contra-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://contra.com/api/mcp/oauth/authorize\n    tokenUrl: https://contra.com/api/mcp/oauth/token\nscopes:\n- scope: mcp:tools\n  description: >-\n    Grants an authorized client access to invoke the tools exposed by the\n    Contra MCP server (https://contra.com/mcp).\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/contra-openid-configuration.json\nnotes: >-\n  The Contra Public REST API uses a static X-API-Key header (no OAuth\n  scopes). OAuth scopes here apply only to the hosted MCP server, which\n  advertises a single scope, mcp:tools.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contra/refs/heads/main/scopes/contra-scopes.yml
+source_yaml_url: https://artifacts.apis.io/contra/scopes/contra-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

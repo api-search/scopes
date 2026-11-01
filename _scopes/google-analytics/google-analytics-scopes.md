@@ -5,73 +5,73 @@ api_specs:
   label: Google Analytics Accounts API
   slug: google-analytics-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-accounts-api-openapi.yml
 - filename: google-analytics-accountsummaries-api-openapi.yml
   format: yaml
   label: Google Analytics Account Summaries API
   slug: google-analytics-accountsummaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-accountsummaries-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-accountsummaries-api-openapi.yml
 - filename: google-analytics-data-api-openapi.yml
   format: yaml
   label: Google Analytics Data API
   slug: google-analytics-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-data-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-data-api-openapi.yml
 - filename: google-analytics-events-api-openapi.yml
   format: yaml
   label: Google Analytics Events API
   slug: google-analytics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-events-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-events-api-openapi.yml
 - filename: google-analytics-management-api-openapi.yml
   format: yaml
   label: Google Analytics Management API
   slug: google-analytics-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-management-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-management-api-openapi.yml
 - filename: google-analytics-metadata-api-openapi.yml
   format: yaml
   label: Google Analytics Metadata API
   slug: google-analytics-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-metadata-api-openapi.yml
 - filename: google-analytics-properties-api-openapi.yml
   format: yaml
   label: Google Analytics Properties API
   slug: google-analytics-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-properties-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-properties-api-openapi.yml
 - filename: google-analytics-provisioning-api-openapi.yml
   format: yaml
   label: Google Analytics Provisioning API
   slug: google-analytics-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-provisioning-api-openapi.yml
 - filename: google-analytics-reports-api-openapi.yml
   format: yaml
   label: Google Analytics Reports API
   slug: google-analytics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-reports-api-openapi.yml
 - filename: google-analytics-userdeletion-api-openapi.yml
   format: yaml
   label: Google Analytics User Deletion API
   slug: google-analytics-userdeletion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-userdeletion-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-userdeletion-api-openapi.yml
 - filename: google-analytics-validation-api-openapi.yml
   format: yaml
   label: Google Analytics Validation API
   slug: google-analytics-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-validation-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-validation-api-openapi.yml
 - filename: google-analytics-user-activity-api-openapi.yml
   format: yaml
   label: Google Analytics User Activity API
   slug: google-analytics-user-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-user-activity-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-user-activity-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.google.com/identity/protocols/oauth2/scopes
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ (v1alpha)\n  - scope: https://www.googleapis.com/auth/analytics.provision\n    description: Create a new Google Analytics account along with its default property and view\n    grants: write\n    apis:\n      - Google Analytics Admin API (accounts.provisionAccountTicket)\n      - Google Analytics Management API (v3, sunset)\n  - scope: https://www.googleapis.com/auth/analytics.user.deletion\n    description: Manage Google Analytics user deletion requests\n    grants: write\n    apis:\n      - Google Analytics User Deletion API (v3, sunset)\n      - Google Analytics Admin API v1alpha properties.submitUserDeletion\nby_api:\n  - api: Google Analytics Data API v1beta\n    host: https://analyticsdata.googleapis.com\n    scopes:\n      - https://www.googleapis.com/auth/analytics\n      - https://www.googleapis.com/auth/analytics.readonly\n    source: discovery/google-analytics-data-api.json\n  - api: Google Analytics Admin API v1beta\n    host: https://analyticsadmin.googleapis.com\n    scopes:\n\
   \      - https://www.googleapis.com/auth/analytics.edit\n      - https://www.googleapis.com/auth/analytics.readonly\n    source: discovery/google-analytics-admin-api.json\n  - api: Google Analytics Management API v3 (sunset 2024-07-01)\n    host: https://analytics.googleapis.com/analytics/v3\n    scopes:\n      - https://www.googleapis.com/auth/analytics\n      - https://www.googleapis.com/auth/analytics.edit\n      - https://www.googleapis.com/auth/analytics.readonly\n      - https://www.googleapis.com/auth/analytics.manage.users\n      - https://www.googleapis.com/auth/analytics.manage.users.readonly\n      - https://www.googleapis.com/auth/analytics.provision\n      - https://www.googleapis.com/auth/analytics.user.deletion\n    source: discovery/google-analytics-management-api-v3.json\n  - api: Measurement Protocol (GA4)\n    host: https://www.google-analytics.com/mp\n    scopes: []\n    note: >-\n      No OAuth. Authenticated by an api_secret query parameter minted per data stream\n\
   \      in the Google Analytics UI.\ngranularity_note: >-\n  Scopes are coarse. There is no per-property, per-resource or per-method scope: any\n  token carrying analytics.readonly can read every property the underlying identity\n  can reach, and analytics.edit can reconfigure all of them. Least-privilege for an\n  agent has to be enforced by which Google identity it impersonates, not by which\n  scope it holds.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/scopes/google-analytics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-analytics/scopes/google-analytics-scopes.yml
 summary_line: 7 scopes
 tags:
 - Analytics

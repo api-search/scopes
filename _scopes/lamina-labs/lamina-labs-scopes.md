@@ -46,7 +46,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.laminalabs.ai/.well-known/oauth-authorization-server\ndocs: https://app.laminalabs.ai/simi\nschemes:\n- name: LaminaOAuth\n  source: well-known/lamina-labs-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.laminalabs.ai/oauth/authorize\n    tokenUrl: https://api.laminalabs.ai/oauth/token\nscopes:\n- scope: jobs:create\n  description: Submit Simi video generation jobs.\n  flows: [authorizationCode]\n  sources: [well-known/lamina-labs-oauth-authorization-server.json]\n  mcp_tools: [simi_submit_video]\n  action_class: write\n- scope: jobs:read\n  description: Read Simi video job status and retrieve playback/download URLs.\n  flows: [authorizationCode]\n  sources: [well-known/lamina-labs-oauth-authorization-server.json]\n  mcp_tools: [simi_get_video]\n  action_class: read\nnotes:\n- The scope surface is small and cleanly split read/write, which maps one-to-one\
   \ onto\n  the two published MCP tools.\n- Scopes are advertised in `scopes_supported` on both discovery documents; no separate\n  scopes reference page is published.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lamina-labs/refs/heads/main/scopes/lamina-labs-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lamina-labs/scopes/lamina-labs-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

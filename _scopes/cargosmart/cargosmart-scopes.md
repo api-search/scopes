@@ -5,31 +5,31 @@ api_specs:
   label: CargoSmart Bookings API
   slug: cargosmart-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-bookings-api-openapi.yml
 - filename: cargosmart-containers-api-openapi.yml
   format: yaml
   label: CargoSmart Containers API
   slug: cargosmart-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-containers-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-containers-api-openapi.yml
 - filename: cargosmart-documents-api-openapi.yml
   format: yaml
   label: CargoSmart Documents API
   slug: cargosmart-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-documents-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-documents-api-openapi.yml
 - filename: cargosmart-shipments-api-openapi.yml
   format: yaml
   label: CargoSmart Shipments API
   slug: cargosmart-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-shipments-api-openapi.yml
 - filename: cargosmart-vessels-api-openapi.yml
   format: yaml
   label: CargoSmart Vessels API
   slug: cargosmart-vessels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-vessels-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-vessels-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -84,7 +84,7 @@ source_filename: cargosmart-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cargosmart-shipment-tracking-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cargosmart-shipment-tracking-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.cargosmart.com/oauth/token\nscopes:\n- scope: bookings:read\n  description: Read booking data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cargosmart-shipment-tracking-openapi.yml\n- scope: bookings:write\n  description: Create and manage bookings\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cargosmart-shipment-tracking-openapi.yml\n- scope: documents:read\n  description: Read shipping documents\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cargosmart-shipment-tracking-openapi.yml\n- scope: tracking:read\n  description: Read shipment tracking data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cargosmart-shipment-tracking-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/scopes/cargosmart-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cargosmart/scopes/cargosmart-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - Booking

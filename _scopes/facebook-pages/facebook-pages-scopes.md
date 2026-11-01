@@ -5,67 +5,67 @@ api_specs:
   label: Facebook Pages API Comments API
   slug: facebook-pages-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-comments-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-comments-api-openapi.yml
 - filename: facebook-pages-conversations-api-openapi.yml
   format: yaml
   label: Facebook Pages API Conversations API
   slug: facebook-pages-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-conversations-api-openapi.yml
 - filename: facebook-pages-feed-api-openapi.yml
   format: yaml
   label: Facebook Pages API Feed API
   slug: facebook-pages-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-feed-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-feed-api-openapi.yml
 - filename: facebook-pages-insights-api-openapi.yml
   format: yaml
   label: Facebook Pages API Insights API
   slug: facebook-pages-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-insights-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-insights-api-openapi.yml
 - filename: facebook-pages-me-api-openapi.yml
   format: yaml
   label: Facebook Pages API Me API
   slug: facebook-pages-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-me-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-me-api-openapi.yml
 - filename: facebook-pages-meta-graph-api-pages-api-openapi.yml
   format: yaml
   label: Facebook Pages API Meta Graph API Pages API
   slug: facebook-pages-meta-graph-api-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-meta-graph-api-pages-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-meta-graph-api-pages-api-openapi.yml
 - filename: facebook-pages-photos-api-openapi.yml
   format: yaml
   label: Facebook Pages API Photos API
   slug: facebook-pages-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-photos-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-photos-api-openapi.yml
 - filename: facebook-pages-posts-api-openapi.yml
   format: yaml
   label: Facebook Pages API Posts API
   slug: facebook-pages-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-posts-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-posts-api-openapi.yml
 - filename: facebook-pages-settings-api-openapi.yml
   format: yaml
   label: Facebook Pages API Settings API
   slug: facebook-pages-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-settings-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-settings-api-openapi.yml
 - filename: facebook-pages-subscribed-apps-api-openapi.yml
   format: yaml
   label: Facebook Pages API Subscribed Apps API
   slug: facebook-pages-subscribed-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-subscribed-apps-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-subscribed-apps-api-openapi.yml
 - filename: facebook-pages-tagged-api-openapi.yml
   format: yaml
   label: Facebook Pages API Tagged API
   slug: facebook-pages-tagged-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/openapi/facebook-pages-tagged-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-pages/openapi/facebook-pages-tagged-api-openapi.yml
 authorization_urls:
 - https://www.facebook.com/v22.0/dialog/oauth
 description: ''
@@ -143,7 +143,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/facebook-pages-openapi.yml\nschemes:\n- name: PageAccessToken\n  source: openapi/facebook-pages-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.facebook.com/v22.0/dialog/oauth\n    tokenUrl: https://graph.facebook.com/v22.0/oauth/access_token\n  description: |-\n    OAuth 2.0 Page access token. Granted scopes determine which\n    endpoints can be called. Send as a Bearer token or as the\n    access_token query parameter.\nscopes:\n- scope: pages_manage_engagement\n  description: Moderate comments and reactions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/facebook-pages-openapi.yml\n- scope: pages_manage_metadata\n  description: Manage Page settings and subscribed apps\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/facebook-pages-openapi.yml\n- scope: pages_manage_posts\n  description: Publish and edit posts\n  flows:\n  - authorizationCode\n  sources:\n  -\
   \ openapi/facebook-pages-openapi.yml\n- scope: pages_messaging\n  description: Send and receive Messenger messages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/facebook-pages-openapi.yml\n- scope: pages_read_engagement\n  description: Read Page content and engagement\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/facebook-pages-openapi.yml\n- scope: pages_read_user_content\n  description: Read user-generated content on a Page\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/facebook-pages-openapi.yml\n- scope: pages_show_list\n  description: List Pages the user manages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/facebook-pages-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/scopes/facebook-pages-scopes.yml
+source_yaml_url: https://artifacts.apis.io/facebook-pages/scopes/facebook-pages-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Social Media

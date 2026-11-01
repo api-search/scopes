@@ -5,253 +5,253 @@ api_specs:
   label: Fusio Account API
   slug: fusio-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-account-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-account-api-openapi.yml
 - filename: fusio-action-api-openapi.yml
   format: yaml
   label: Fusio Action API
   slug: fusio-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-action-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-action-api-openapi.yml
 - filename: fusio-agent-api-openapi.yml
   format: yaml
   label: Fusio Agent API
   slug: fusio-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-agent-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-agent-api-openapi.yml
 - filename: fusio-app-api-openapi.yml
   format: yaml
   label: Fusio App API
   slug: fusio-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-app-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-app-api-openapi.yml
 - filename: fusio-audit-api-openapi.yml
   format: yaml
   label: Fusio Audit API
   slug: fusio-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-audit-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-audit-api-openapi.yml
 - filename: fusio-authorization-api-openapi.yml
   format: yaml
   label: Fusio Authorization API
   slug: fusio-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-authorization-api-openapi.yml
 - filename: fusio-backup-api-openapi.yml
   format: yaml
   label: Fusio Backup API
   slug: fusio-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-backup-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-backup-api-openapi.yml
 - filename: fusio-bundle-api-openapi.yml
   format: yaml
   label: Fusio Bundle API
   slug: fusio-bundle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-bundle-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-bundle-api-openapi.yml
 - filename: fusio-category-api-openapi.yml
   format: yaml
   label: Fusio Category API
   slug: fusio-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-category-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-category-api-openapi.yml
 - filename: fusio-config-api-openapi.yml
   format: yaml
   label: Fusio Config API
   slug: fusio-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-config-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-config-api-openapi.yml
 - filename: fusio-connection-api-openapi.yml
   format: yaml
   label: Fusio Connection API
   slug: fusio-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-connection-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-connection-api-openapi.yml
 - filename: fusio-cronjob-api-openapi.yml
   format: yaml
   label: Fusio Cronjob API
   slug: fusio-cronjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-cronjob-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-cronjob-api-openapi.yml
 - filename: fusio-dashboard-api-openapi.yml
   format: yaml
   label: Fusio Dashboard API
   slug: fusio-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-dashboard-api-openapi.yml
 - filename: fusio-event-api-openapi.yml
   format: yaml
   label: Fusio Event API
   slug: fusio-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-event-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-event-api-openapi.yml
 - filename: fusio-firewall-api-openapi.yml
   format: yaml
   label: Fusio Firewall API
   slug: fusio-firewall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-firewall-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-firewall-api-openapi.yml
 - filename: fusio-form-api-openapi.yml
   format: yaml
   label: Fusio Form API
   slug: fusio-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-form-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-form-api-openapi.yml
 - filename: fusio-generator-api-openapi.yml
   format: yaml
   label: Fusio Generator API
   slug: fusio-generator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-generator-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-generator-api-openapi.yml
 - filename: fusio-grant-api-openapi.yml
   format: yaml
   label: Fusio Grant API
   slug: fusio-grant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-grant-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-grant-api-openapi.yml
 - filename: fusio-identity-api-openapi.yml
   format: yaml
   label: Fusio Identity API
   slug: fusio-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-identity-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-identity-api-openapi.yml
 - filename: fusio-log-api-openapi.yml
   format: yaml
   label: Fusio Log API
   slug: fusio-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-log-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-log-api-openapi.yml
 - filename: fusio-marketplace-api-openapi.yml
   format: yaml
   label: Fusio Marketplace API
   slug: fusio-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-marketplace-api-openapi.yml
 - filename: fusio-operation-api-openapi.yml
   format: yaml
   label: Fusio Operation API
   slug: fusio-operation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-operation-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-operation-api-openapi.yml
 - filename: fusio-page-api-openapi.yml
   format: yaml
   label: Fusio Page API
   slug: fusio-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-page-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-page-api-openapi.yml
 - filename: fusio-payment-api-openapi.yml
   format: yaml
   label: Fusio Payment API
   slug: fusio-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-payment-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-payment-api-openapi.yml
 - filename: fusio-plan-api-openapi.yml
   format: yaml
   label: Fusio Plan API
   slug: fusio-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-plan-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-plan-api-openapi.yml
 - filename: fusio-rate-api-openapi.yml
   format: yaml
   label: Fusio Rate API
   slug: fusio-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-rate-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-rate-api-openapi.yml
 - filename: fusio-role-api-openapi.yml
   format: yaml
   label: Fusio Role API
   slug: fusio-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-role-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-role-api-openapi.yml
 - filename: fusio-schema-api-openapi.yml
   format: yaml
   label: Fusio Schema API
   slug: fusio-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-schema-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-schema-api-openapi.yml
 - filename: fusio-scope-api-openapi.yml
   format: yaml
   label: Fusio Scope API
   slug: fusio-scope-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-scope-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-scope-api-openapi.yml
 - filename: fusio-sdk-api-openapi.yml
   format: yaml
   label: Fusio SDK API
   slug: fusio-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-sdk-api-openapi.yml
 - filename: fusio-specification-api-openapi.yml
   format: yaml
   label: Fusio Specification API
   slug: fusio-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-specification-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-specification-api-openapi.yml
 - filename: fusio-statistic-api-openapi.yml
   format: yaml
   label: Fusio Statistic API
   slug: fusio-statistic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-statistic-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-statistic-api-openapi.yml
 - filename: fusio-system-api-openapi.yml
   format: yaml
   label: Fusio System API
   slug: fusio-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-system-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-system-api-openapi.yml
 - filename: fusio-taxonomy-api-openapi.yml
   format: yaml
   label: Fusio Taxonomy API
   slug: fusio-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-taxonomy-api-openapi.yml
 - filename: fusio-tenant-api-openapi.yml
   format: yaml
   label: Fusio Tenant API
   slug: fusio-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-tenant-api-openapi.yml
 - filename: fusio-test-api-openapi.yml
   format: yaml
   label: Fusio Test API
   slug: fusio-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-test-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-test-api-openapi.yml
 - filename: fusio-token-api-openapi.yml
   format: yaml
   label: Fusio Token API
   slug: fusio-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-token-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-token-api-openapi.yml
 - filename: fusio-transaction-api-openapi.yml
   format: yaml
   label: Fusio Transaction API
   slug: fusio-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-transaction-api-openapi.yml
 - filename: fusio-trash-api-openapi.yml
   format: yaml
   label: Fusio Trash API
   slug: fusio-trash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-trash-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-trash-api-openapi.yml
 - filename: fusio-trigger-api-openapi.yml
   format: yaml
   label: Fusio Trigger API
   slug: fusio-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-trigger-api-openapi.yml
 - filename: fusio-user-api-openapi.yml
   format: yaml
   label: Fusio User API
   slug: fusio-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-user-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-user-api-openapi.yml
 - filename: fusio-webhook-api-openapi.yml
   format: yaml
   label: Fusio Webhook API
   slug: fusio-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/openapi/fusio-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/fusio/openapi/fusio-webhook-api-openapi.yml
 authorization_urls:
 - https://demo.fusio-project.org/authorization/authorize
 description: 'Fusio''s scope model is namespaced by category and then by resource: ''backend'' grants the whole backend surface, ''backend.operation'' grants only the operation resource within it, and the same shape repeats for ''consumer''. Scopes are instance data, not product constants - an operator creates their own alongside these through backend.scope.create - so this list is the 58 scopes Fusio''s own reference instance defines for its management surface. Personal access tokens can be issued against any subset.'
@@ -673,7 +673,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: openapi/fusio-a
   \  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/fusio-consumer.json\n- scope: consumer.plan\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/fusio-consumer.json\n- scope: consumer.scope\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/fusio-consumer.json\n- scope: consumer.token\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/fusio-consumer.json\n- scope: consumer.transaction\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/fusio-consumer.json\n- scope: consumer.webhook\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/fusio-consumer.json\n- scope: openid\n  description: OpenID scope\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/fusio-authorization.json\n- scope: system\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/fusio-system.json\n\
   provider: Fusio\nproviderId: fusio\ndocs: https://docs.fusio-project.org/docs/security/authorization\ndescription: 'Fusio''s scope model is namespaced by category and then by resource: ''backend'' grants\n  the whole backend surface, ''backend.operation'' grants only the operation resource within it, and the\n  same shape repeats for ''consumer''. Scopes are instance data, not product constants - an operator creates\n  their own alongside these through backend.scope.create - so this list is the 58 scopes Fusio''s own\n  reference instance defines for its management surface. Personal access tokens can be issued against\n  any subset.'\nnamespaces:\n- prefix: backend\n  grants: the entire backend management surface\n  narrower: backend.<resource>\n- prefix: consumer\n  grants: the entire developer-portal surface\n  narrower: consumer.<resource>\n- prefix: system\n  grants: meta, health, route table and spec generation\n- prefix: authorization\n  grants: token introspection and revocation\n\
   - prefix: openid\n  grants: OIDC claims when Fusio acts as an identity provider\n- prefix: default\n  grants: the scope every app receives; the only one advertised anonymously\nroles_note: Scopes are granted to a user through a ROLE (backend.role.*), and a role belongs to a category.\n  An operator assigns scopes to roles rather than to users directly.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/scopes/fusio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fusio/scopes/fusio-scopes.yml
 summary_line: 58 scopes · clientCredentials/authorizationCode
 tags:
 - API Management

@@ -11,7 +11,7 @@ api_specs:
   label: Formstack Partner API
   slug: formstack-partnerapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/openapi/formstack-partnerapi-api-openapi.yml
+  url: https://artifacts.apis.io/formstack/openapi/formstack-partnerapi-api-openapi.yml
 authorization_urls:
 - https://www.formstack.com/api/v2/oauth2/authorize
 description: ''
@@ -69,7 +69,7 @@ source_filename: formstack-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/formstack-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/formstack-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.formstack.com/api/v2/oauth2/authorize\n    tokenUrl: https://www.formstack.com/api/v2/oauth2/token\n  description: OAuth 2.0 authorization code flow.\nscopes:\n- scope: forms_read\n  description: Read forms\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/formstack-openapi.yml\n- scope: forms_write\n  description: Manage forms\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/formstack-openapi.yml\n- scope: submissions_read\n  description: Read submissions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/formstack-openapi.yml\n- scope: submissions_write\n  description: Manage submissions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/formstack-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/scopes/formstack-scopes.yml
+source_yaml_url: https://artifacts.apis.io/formstack/scopes/formstack-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Forms

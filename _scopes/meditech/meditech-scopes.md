@@ -5,49 +5,49 @@ api_specs:
   label: meditech Allergy API
   slug: meditech-allergy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-allergy-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-allergy-api-openapi.yml
 - filename: meditech-capability-api-openapi.yml
   format: yaml
   label: meditech Capability API
   slug: meditech-capability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-capability-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-capability-api-openapi.yml
 - filename: meditech-condition-api-openapi.yml
   format: yaml
   label: meditech Condition API
   slug: meditech-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-condition-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-condition-api-openapi.yml
 - filename: meditech-diagnostic-api-openapi.yml
   format: yaml
   label: meditech Diagnostic API
   slug: meditech-diagnostic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-diagnostic-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-diagnostic-api-openapi.yml
 - filename: meditech-encounter-api-openapi.yml
   format: yaml
   label: meditech Encounter API
   slug: meditech-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-encounter-api-openapi.yml
 - filename: meditech-medication-api-openapi.yml
   format: yaml
   label: meditech Medication API
   slug: meditech-medication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-medication-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-medication-api-openapi.yml
 - filename: meditech-observation-api-openapi.yml
   format: yaml
   label: meditech Observation API
   slug: meditech-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-observation-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-observation-api-openapi.yml
 - filename: meditech-patient-api-openapi.yml
   format: yaml
   label: meditech Patient API
   slug: meditech-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/openapi/meditech-patient-api-openapi.yml
+  url: https://artifacts.apis.io/meditech/openapi/meditech-patient-api-openapi.yml
 authorization_urls:
 - https://greenfield-prod-apis.meditech.com/oauth/authorize
 description: ''
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://greenfiel
   \  - system/ServiceRequest.rs\n  - system/ServiceRequest.rs?category=http://hl7.org/fhir/us/core/CodeSystem/us-core-category|care-experience-preference\n  - system/ServiceRequest.rs?category=http://hl7.org/fhir/us/core/CodeSystem/us-core-category|cognitive-status\n  - system/ServiceRequest.rs?category=http://hl7.org/fhir/us/core/CodeSystem/us-core-category|disability-status\n  - system/ServiceRequest.rs?category=http://hl7.org/fhir/us/core/CodeSystem/us-core-category|functional-status\n  - system/ServiceRequest.rs?category=http://hl7.org/fhir/us/core/CodeSystem/us-core-category|sdoh\n  - system/ServiceRequest.rs?category=http://hl7.org/fhir/us/core/CodeSystem/us-core-category|treatment-intervention-preference\n  - system/ServiceRequest.rs?category=http://snomed.info/sct|108252007\n  - system/ServiceRequest.rs?category=http://snomed.info/sct|363679005\n  - system/ServiceRequest.rs?category=http://snomed.info/sct|386053000\n  - system/ServiceRequest.rs?category=http://snomed.info/sct|387713003\n\
   \  - system/ServiceRequest.rs?category=http://snomed.info/sct|409063005\n  - system/ServiceRequest.rs?category=http://snomed.info/sct|409073007\n  - system/ServiceRequest.rs?category=http://snomed.info/sct|410606002\n  - system/Specimen.rs\n  - system/Task.rs\n  - system/ValueSet.r\ninternal_administrative_scopes_count: 377\ninternal_administrative_scopes_note: The remainder are infr-*/iops-*/mis-*/unv-* prefixed scopes that\n  read as MEDITECH-internal infrastructure/administration surface, not third-party app scopes. Full raw\n  list preserved verbatim in well-known/meditech-greenfield-smart-configuration.json (scopes_supported)\n  rather than duplicated here.\nlegacy_model_scopes:\n  note: The 5 scopes below are what this repo previously derived from an API Evangelist model of US Core\n    FHIR R4 (openapi/*-openapi.yml), kept for traceability. They are a strict subset of the confirmed\n    live list above.\n  scopes:\n  - scope: fhirUser\n    description: FHIR user claim\n  - scope:\
   \ launch\n    description: EHR launch context\n  - scope: openid\n    description: OpenID Connect identity\n  - scope: patient/*.read\n    description: Read access to all patient-owned resources\n  - scope: user/*.read\n    description: Practitioner read access to all resources\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/scopes/meditech-scopes.yml
+source_yaml_url: https://artifacts.apis.io/meditech/scopes/meditech-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

@@ -11,31 +11,31 @@ api_specs:
   label: Wix Cart API
   slug: wix-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-cart-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-cart-api-openapi.yml
 - filename: wix-checkout-api-openapi.yml
   format: yaml
   label: Wix Checkout API
   slug: wix-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-checkout-api-openapi.yml
 - filename: wix-orders-api-openapi.yml
   format: yaml
   label: Wix Orders API
   slug: wix-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-orders-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-orders-api-openapi.yml
 - filename: wix-products-api-openapi.yml
   format: yaml
   label: Wix Products API
   slug: wix-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-products-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-products-api-openapi.yml
 - filename: wix-oauth-api-openapi.yml
   format: yaml
   label: Wix O Auth API
   slug: wix-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-oauth-api-openapi.yml
 authorization_urls:
 - https://www.wix.com/installer/install
 description: ''
@@ -102,7 +102,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/wix-cart-api-openapi.yml, openapi/wix-checkout-api-openapi.yml, openapi/wix-oauth-api-openapi.yml,\n  openapi/wix-orders-api-openapi.yml, openapi/wix-products-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/wix-cart-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.wix.com/installer/install\n    tokenUrl: https://www.wixapis.com/oauth2/token\n  description: OAuth 2.0 for Wix third-party apps\n- name: oauth2\n  source: openapi/wix-checkout-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.wix.com/installer/install\n    tokenUrl: https://www.wixapis.com/oauth2/token\n  description: OAuth 2.0 for Wix third-party apps\n- name: oauth2\n  source: openapi/wix-oauth-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.wix.com/installer/install\n    tokenUrl: https://www.wixapis.com/oauth2/token\n  description:\
   \ OAuth 2.0 for Wix third-party apps\n- name: oauth2\n  source: openapi/wix-orders-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.wix.com/installer/install\n    tokenUrl: https://www.wixapis.com/oauth2/token\n  description: OAuth 2.0 for Wix third-party apps\n- name: oauth2\n  source: openapi/wix-products-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.wix.com/installer/install\n    tokenUrl: https://www.wixapis.com/oauth2/token\n  description: OAuth 2.0 for Wix third-party apps\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/scopes/wix-scopes.yml
+source_yaml_url: https://artifacts.apis.io/wix/scopes/wix-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - CMS

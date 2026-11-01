@@ -5,73 +5,73 @@ api_specs:
   label: Criteo Accounts API
   slug: criteo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-accounts-api-openapi.yml
 - filename: criteo-advertiser-api-openapi.yml
   format: yaml
   label: Criteo Advertiser API
   slug: criteo-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-advertiser-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-advertiser-api-openapi.yml
 - filename: criteo-analytics-api-openapi.yml
   format: yaml
   label: Criteo Analytics API
   slug: criteo-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-analytics-api-openapi.yml
 - filename: criteo-audience-api-openapi.yml
   format: yaml
   label: Criteo Audience API
   slug: criteo-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-audience-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-audience-api-openapi.yml
 - filename: criteo-balance-api-openapi.yml
   format: yaml
   label: Criteo Balance API
   slug: criteo-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-balance-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-balance-api-openapi.yml
 - filename: criteo-billing-api-openapi.yml
   format: yaml
   label: Criteo Billing API
   slug: criteo-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-billing-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-billing-api-openapi.yml
 - filename: criteo-campaign-api-openapi.yml
   format: yaml
   label: Criteo Campaign API
   slug: criteo-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-campaign-api-openapi.yml
 - filename: criteo-catalog-api-openapi.yml
   format: yaml
   label: Criteo Catalog API
   slug: criteo-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-catalog-api-openapi.yml
 - filename: criteo-creative-api-openapi.yml
   format: yaml
   label: Criteo Creative API
   slug: criteo-creative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-creative-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-creative-api-openapi.yml
 - filename: criteo-gateway-api-openapi.yml
   format: yaml
   label: Criteo Gateway API
   slug: criteo-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-gateway-api-openapi.yml
 - filename: criteo-reco-api-openapi.yml
   format: yaml
   label: Criteo Reco API
   slug: criteo-reco-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-reco-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-reco-api-openapi.yml
 - filename: criteo-segment-api-openapi.yml
   format: yaml
   label: Criteo Segment API
   slug: criteo-segment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-segment-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-segment-api-openapi.yml
 authorization_urls:
 - https://api.criteo.com/oauth2
 description: ''
@@ -208,7 +208,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/criteo-
   \ MarketingSolutions_Campaign_Manage\n  domain: Campaign\n  service: Marketing Solutions\n  level: Manage\n  description: Create and modify campaigns, ad sets, budgets, bids and MPO seller activation.\n  sources: [openapi/criteo-marketing-solutions-api-openapi.yml]\n- scope: MarketingSolutions_Audience_Read\n  domain: Audiences\n  service: Marketing Solutions\n  level: Read\n  description: Read audiences and audience segments and compute or estimate their sizes.\n  sources: [openapi/criteo-marketing-solutions-api-openapi.yml]\n- scope: MarketingSolutions_Audience_Manage\n  domain: Audiences\n  service: Marketing Solutions\n  level: Manage\n  description: Create and modify audiences and segments, and add/remove contact-list members.\n  sources: [openapi/criteo-marketing-solutions-api-openapi.yml]\n- scope: MarketingSolutions_Creative_Read\n  domain: Creative\n  service: Marketing Solutions\n  level: Read\n  description: Read creatives, ads, assets and coupons.\n  sources: [openapi/criteo-marketing-solutions-api-openapi.yml]\n\
   - scope: MarketingSolutions_Creative_Manage\n  domain: Creative\n  service: Marketing Solutions\n  level: Manage\n  description: Create and modify creatives, ads, assets and coupons.\n  sources: [openapi/criteo-marketing-solutions-api-openapi.yml]\n- scope: MarketingSolutions_Analytics_Read\n  domain: Analytics\n  service: Marketing Solutions\n  level: Read\n  description: Request and retrieve advertiser and campaign performance reports.\n  sources: [openapi/criteo-marketing-solutions-api-openapi.yml]\n- scope: MarketingSolutions_Reco_Read\n  domain: Reco\n  service: Marketing Solutions\n  level: Read\n  description: Read product recommendation configuration and product sets.\n  sources: [openapi/criteo-marketing-solutions-api-openapi.yml]\n- scope: MarketingSolutions_Reco_Manage\n  domain: Reco\n  service: Marketing Solutions\n  level: Manage\n  description: Create and modify product recommendation configuration and product sets.\n  sources: [openapi/criteo-marketing-solutions-api-openapi.yml]\n\
   \n# ---- Commerce Grid (2) ----\n- scope: CommerceGrid_Segment_Read\n  domain: Segment\n  service: Commerce Grid\n  level: Read\n  description: Read Commerce Grid audience segments.\n  sources: [openapi/criteo-commerce-grid-api-openapi.yml]\n- scope: CommerceGrid_Segment_Manage\n  domain: Segment\n  service: Commerce Grid\n  level: Manage\n  description: Create and modify Commerce Grid audience segments.\n  sources: [openapi/criteo-commerce-grid-api-openapi.yml]\n\nsummary:\n  scope_count: 22\n  naming_convention: <Service>_<Domain>_<Level>\n  services: [RetailMedia, MarketingSolutions, CommerceGrid]\n  levels: [Read, Manage]\n  read_scopes: 11\n  manage_scopes: 11\n  requested_at_token_time: false\n  bound_to_application: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/scopes/criteo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/criteo/scopes/criteo-scopes.yml
 summary_line: 22 scopes · clientCredentials/authorizationCode
 tags:
 - Advertising

@@ -5,19 +5,19 @@ api_specs:
   label: Huntington Bancshares Accounts API
   slug: huntington-bancshares-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-accounts-api-openapi.yml
 - filename: huntington-bancshares-payments-api-openapi.yml
   format: yaml
   label: Huntington Bancshares Payments API
   slug: huntington-bancshares-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-payments-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-payments-api-openapi.yml
 - filename: huntington-bancshares-transactions-api-openapi.yml
   format: yaml
   label: Huntington Bancshares Transactions API
   slug: huntington-bancshares-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -67,7 +67,7 @@ source_filename: huntington-bancshares-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/huntington-bank-treasury-management-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/huntington-bank-treasury-management-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.huntington.com/oauth/token\nscopes:\n- scope: accounts:read\n  description: Read account data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/huntington-bank-treasury-management-api-openapi.yml\n- scope: payments:write\n  description: Initiate payments\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/huntington-bank-treasury-management-api-openapi.yml\n- scope: transactions:read\n  description: Read transactions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/huntington-bank-treasury-management-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/scopes/huntington-bancshares-scopes.yml
+source_yaml_url: https://artifacts.apis.io/huntington-bancshares/scopes/huntington-bancshares-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - Banking

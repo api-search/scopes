@@ -40,7 +40,7 @@ source_filename: juul-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-23'\nmethod: probed\nsource: https://www.juul.com/.well-known/openid-configuration\nnote: >-\n  These are the scopes JUUL's own authorization server advertises in scopes_supported. JUUL publishes\n  no scope reference page and no developer documentation, so no description, grant, or consent copy\n  exists to attach — the names below are recorded verbatim and nothing is inferred about what they\n  authorize beyond what the names themselves say. This is a first-party sign-in surface, not a\n  developer-facing scope catalog.\ndocs: null\nscope_count: 4\nscopes:\n- name: conx_web\n  description: null\n- name: mobileapp\n  description: null\n- name: keychain\n  description: null\n- name: keychain-force-rebuild\n  description: null\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juul/refs/heads/main/scopes/juul-scopes.yml
+source_yaml_url: https://artifacts.apis.io/juul/scopes/juul-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

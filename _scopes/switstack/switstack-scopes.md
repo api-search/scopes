@@ -5,49 +5,49 @@ api_specs:
   label: Switstack Auth API
   slug: switstack-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-auth-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-auth-api-openapi.yml
 - filename: switstack-bom-api-openapi.yml
   format: yaml
   label: Switstack BOM API
   slug: switstack-bom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-bom-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-bom-api-openapi.yml
 - filename: switstack-config-api-openapi.yml
   format: yaml
   label: Switstack Config API
   slug: switstack-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-config-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-config-api-openapi.yml
 - filename: switstack-parser-api-openapi.yml
   format: yaml
   label: Switstack Parser API
   slug: switstack-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-parser-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-parser-api-openapi.yml
 - filename: switstack-payment-api-openapi.yml
   format: yaml
   label: Switstack Payment API
   slug: switstack-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-payment-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-payment-api-openapi.yml
 - filename: switstack-suite-api-openapi.yml
   format: yaml
   label: Switstack Suite API
   slug: switstack-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-suite-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-suite-api-openapi.yml
 - filename: switstack-test-api-openapi.yml
   format: yaml
   label: Switstack Test API
   slug: switstack-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-test-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-test-api-openapi.yml
 - filename: switstack-validation-api-openapi.yml
   format: yaml
   label: Switstack Validation API
   slug: switstack-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-validation-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-validation-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.switstack.io/switcloud/security_authentication/
@@ -92,7 +92,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource: openapi/switstack-switcloud-openapi.yml, openapi/switstack-swittest-openapi.yml\ndocs: https://docs.switstack.io/switcloud/security_authentication/\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/switstack-switcloud-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: auth/token\n  - flow: clientCredentials\n    tokenUrl: auth/token\n    source: https://docs.switstack.io/switcloud/security_authentication/\n- name: OAuth2PasswordBearer\n  source: openapi/switstack-swittest-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: auth/token\nscopes: []\nscope_count: 0\nnote: >-\n  Switstack publishes OAuth 2.0 but no scope vocabulary. Both OpenAPI documents declare the password flow with an\n  empty `scopes` map, and the Switcloud security & authentication page describes authorization as three named roles\n  (Super Admin, Organization Admin, Simple User) rather than delegatable scopes; Swittest documents two (Data,\n\
   \  Full). There is no published scopes/permissions reference page. The roles are recorded in\n  authentication/switstack-authentication.yml under authorization_model — an honest zero here, not an omission.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/scopes/switstack-scopes.yml
+source_yaml_url: https://artifacts.apis.io/switstack/scopes/switstack-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

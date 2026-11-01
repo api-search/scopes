@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://apizone.suunto.com/how-to-start\ndocs: https://apizone.suunto.com/how-to-start\nnotes: >-\n  Suunto does not publish a standalone scope reference page. The single scope\n  below is the one returned verbatim in the documented token response on the\n  quick-start page. Additional scopes may exist behind the partner-gated API\n  Zone; only the published value is recorded here.\nschemes:\n- name: SuuntoOAuth2\n  source: https://apizone.suunto.com/how-to-start\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://cloudapi-oauth.suunto.com/oauth/authorize\n    tokenUrl: https://cloudapi-oauth.suunto.com/oauth/token\nscopes:\n- scope: workout\n  description: >-\n    Access to the authorizing Suunto App user's workout data — FIT files with\n    summary, sample and GPS-track content — and the ability to push workouts and\n    routes back to the account.\n  flows:\n  - authorizationCode\n  sources:\n  - https://apizone.suunto.com/how-to-start\n\
   \  evidence: >-\n    Documented token response: {\"access_token\": \"<JWT_TOKEN>\", \"token_type\":\n    \"bearer\", \"refresh_token\": \"<JWT_REFRESH_TOKEN>\", \"expires_in\": 86400,\n    \"scope\": \"workout\"}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liesheng/refs/heads/main/scopes/liesheng-scopes.yml
+source_yaml_url: https://artifacts.apis.io/liesheng/scopes/liesheng-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

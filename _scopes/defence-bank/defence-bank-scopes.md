@@ -5,43 +5,43 @@ api_specs:
   label: Defence Bank Banking Account Balances API
   slug: defence-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/defence-bank/openapi/defence-bank-banking-account-balances-api-openapi.yml
 - filename: defence-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Defence Bank Banking Account Direct Debits API
   slug: defence-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/defence-bank/openapi/defence-bank-banking-account-direct-debits-api-openapi.yml
 - filename: defence-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Defence Bank Banking Account Scheduled Payments API
   slug: defence-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/defence-bank/openapi/defence-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: defence-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Defence Bank Banking Account Transactions API
   slug: defence-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/defence-bank/openapi/defence-bank-banking-account-transactions-api-openapi.yml
 - filename: defence-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Defence Bank Banking Accounts API
   slug: defence-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/defence-bank/openapi/defence-bank-banking-accounts-api-openapi.yml
 - filename: defence-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Defence Bank Banking Payees API
   slug: defence-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/defence-bank/openapi/defence-bank-banking-payees-api-openapi.yml
 - filename: defence-bank-banking-products-api-openapi.yml
   format: yaml
   label: Defence Bank Banking Products API
   slug: defence-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/openapi/defence-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/defence-bank/openapi/defence-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: CDR authorization scopes govern the authenticated consumer-data-sharing endpoints. They are captured from the per-operation x-scopes extension in the OpenAPI plus the Consumer Data Standards authorisation-scopes reference. The public Product Reference Data endpoints require no scope (unauthenticated). Scopes are granted by the consumer during CDR consent to an Accredited Data Recipient.
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -95,7 +95,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/defence-bank-cds-banking-products-openapi.yml (x-scopes per operation)\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\ndescription: >-\n  CDR authorization scopes govern the authenticated consumer-data-sharing endpoints.\n  They are captured from the per-operation x-scopes extension in the OpenAPI plus the\n  Consumer Data Standards authorisation-scopes reference. The public Product Reference\n  Data endpoints require no scope (unauthenticated). Scopes are granted by the consumer\n  during CDR consent to an Accredited Data Recipient.\nschemes:\n- name: CDR-FAPI-OAuth2\n  source: Consumer Data Standards security profile\n  flows:\n  - flow: authorizationCode\n    profile: FAPI / OIDC hybrid\nscopes:\n- scope: bank:accounts.basic:read\n  description: Read basic account information (account list, basic account detail).\n  operations: [listBankingAccounts, getBankingAccountDetail,\
   \ listBankingBalancesBulk, listBankingBalancesSpecificAccounts, getBankingBalance]\n- scope: bank:accounts.detail:read\n  description: Read detailed account information (account terms, features, and identifiers).\n  operations: [getBankingAccountDetail]\n- scope: bank:transactions:read\n  description: Read account transactions and transaction detail.\n  operations: [listBankingTransactions, getBankingTransactionDetail]\n- scope: bank:regular_payments:read\n  description: Read direct debits, scheduled payments, and instalment plans.\n  operations: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts, listInstalmentPlans, listInstalmentPlansBulk]\n- scope: bank:payees:read\n  description: Read saved payees.\n  operations: [listBankingPayees, getBankingPayeeDetail]\nnotes:\n  - Product Reference Data endpoints (listBankingProducts, getBankingProductDetail) are public and require no\
   \ scope.\n  - CDR also defines the openid and (via the register) profile scopes for the OIDC layer; the bank:* scopes above are the data-cluster scopes declared in this spec.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/scopes/defence-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/defence-bank/scopes/defence-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Finance

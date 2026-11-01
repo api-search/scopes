@@ -5,49 +5,49 @@ api_specs:
   label: Pitney Bowes Address API
   slug: pitney-bowes-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-address-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-address-api-openapi.yml
 - filename: pitney-bowes-manifests-api-openapi.yml
   format: yaml
   label: Pitney Bowes Manifests API
   slug: pitney-bowes-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-manifests-api-openapi.yml
 - filename: pitney-bowes-pickups-api-openapi.yml
   format: yaml
   label: Pitney Bowes Pickups API
   slug: pitney-bowes-pickups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-pickups-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-pickups-api-openapi.yml
 - filename: pitney-bowes-rating-api-openapi.yml
   format: yaml
   label: Pitney Bowes Rating API
   slug: pitney-bowes-rating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-rating-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-rating-api-openapi.yml
 - filename: pitney-bowes-reports-api-openapi.yml
   format: yaml
   label: Pitney Bowes Reports API
   slug: pitney-bowes-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-reports-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-reports-api-openapi.yml
 - filename: pitney-bowes-shipments-api-openapi.yml
   format: yaml
   label: Pitney Bowes Shipments API
   slug: pitney-bowes-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-shipments-api-openapi.yml
 - filename: pitney-bowes-tracking-api-openapi.yml
   format: yaml
   label: Pitney Bowes Tracking API
   slug: pitney-bowes-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-tracking-api-openapi.yml
 - filename: pitney-bowes-oauth-api-openapi.yml
   format: yaml
   label: Pitney Bowes OAUTH API
   slug: pitney-bowes-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -118,7 +118,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/pitney-bowes-address-api-openapi.yml, openapi/pitney-bowes-manifests-api-openapi.yml,\n  openapi/pitney-bowes-oauth-api-openapi.yml, openapi/pitney-bowes-pickups-api-openapi.yml,\n  openapi/pitney-bowes-rating-api-openapi.yml, openapi/pitney-bowes-reports-api-openapi.yml,\n  openapi/pitney-bowes-shipments-api-openapi.yml, openapi/pitney-bowes-tracking-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/pitney-bowes-address-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-manifests-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-oauth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-pickups-api-openapi.yml\n\
   \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-rating-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-reports-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-shipments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\n- name: oauth2\n  source: openapi/pitney-bowes-tracking-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://shipping-api.pitneybowes.com/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/scopes/pitney-bowes-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pitney-bowes/scopes/pitney-bowes-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Mailing

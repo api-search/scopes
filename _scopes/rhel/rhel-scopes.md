@@ -5,31 +5,31 @@ api_specs:
   label: Red Hat Enterprise Linux Advisories API
   slug: rhel-advisories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-advisories-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-advisories-api-openapi.yml
 - filename: rhel-oval-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux OVAL API
   slug: rhel-oval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-oval-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-oval-api-openapi.yml
 - filename: rhel-subscriptions-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux Subscriptions API
   slug: rhel-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-subscriptions-api-openapi.yml
 - filename: rhel-systems-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux Systems API
   slug: rhel-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-systems-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-systems-api-openapi.yml
 - filename: rhel-cves-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux CV Es API
   slug: rhel-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-cves-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-cves-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.redhat.com/en/documentation/red_hat_insights/1-latest/html/using_the_red_hat_insights_api/apis-authentication
@@ -69,7 +69,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/rhel-subscription-management-openapi.yml\ndocs: https://docs.redhat.com/en/documentation/red_hat_insights/1-latest/html/using_the_red_hat_insights_api/apis-authentication\nschemes:\n- name: OAuth2\n  source: openapi/rhel-subscription-management-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/token\nscopes:\n- scope: api.console\n  description: Grants a service account access to Red Hat Hybrid Cloud Console APIs\n    (Insights, Compliance, Vulnerability, Patch, Inventory, Remediations) via the\n    client_credentials grant against the Red Hat SSO token endpoint; fine-grained\n    permissions are managed through Hybrid Cloud Console User Access (RBAC) groups\n    rather than additional OAuth scopes.\n  sources:\n  - https://docs.redhat.com/en/documentation/red_hat_insights/1-latest/html/using_the_red_hat_insights_api/apis-authentication\n\
   note: api.console is the only OAuth scope Red Hat documents for its APIs; console.redhat.com\n  access control is RBAC-based, and the Subscription Management API instead uses\n  an offline-token refresh flow (client_id rhsm-api) with no scopes per https://access.redhat.com/articles/3626371.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/scopes/rhel-scopes.yml
+source_yaml_url: https://artifacts.apis.io/rhel/scopes/rhel-scopes.yml
 summary_line: 1 scope · password
 tags:
 - Automation

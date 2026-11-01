@@ -5,19 +5,19 @@ api_specs:
   label: Allowance Mandates API
   slug: allowance-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/allowance/openapi/allowance-mandates-api-openapi.yml
 - filename: allowance-pricing-api-openapi.yml
   format: yaml
   label: Allowance Pricing API
   slug: allowance-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/allowance/openapi/allowance-pricing-api-openapi.yml
 - filename: allowance-status-api-openapi.yml
   format: yaml
   label: Allowance Status API
   slug: allowance-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/openapi/allowance-status-api-openapi.yml
+  url: https://artifacts.apis.io/allowance/openapi/allowance-status-api-openapi.yml
 authorization_urls:
 - https://useallowance.com/oauth/authorize
 description: ''
@@ -70,7 +70,7 @@ source_filename: allowance-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/allowance-openapi-original.json\nschemes:\n- name: OAuth2\n  source: openapi/allowance-openapi-original.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://useallowance.com/oauth/authorize\n    tokenUrl: https://useallowance.com/oauth/token\n  description: OAuth2 authorization code flow (planned — not yet active)\nscopes:\n- scope: credentials:request\n  description: Request payment credentials against active mandates\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/allowance-openapi-original.json\n- scope: mandates:read\n  description: Read mandate details and status\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/allowance-openapi-original.json\n- scope: mandates:write\n  description: Propose and manage spending mandates\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/allowance-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/scopes/allowance-scopes.yml
+source_yaml_url: https://artifacts.apis.io/allowance/scopes/allowance-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

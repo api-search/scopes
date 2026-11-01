@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud Talent Solution Companies API
   slug: google-cloud-talent-solution-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/openapi/google-cloud-talent-solution-companies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-talent-solution/openapi/google-cloud-talent-solution-companies-api-openapi.yml
 - filename: google-cloud-talent-solution-jobs-api-openapi.yml
   format: yaml
   label: Google Cloud Talent Solution Jobs API
   slug: google-cloud-talent-solution-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/openapi/google-cloud-talent-solution-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-talent-solution/openapi/google-cloud-talent-solution-jobs-api-openapi.yml
 - filename: google-cloud-talent-solution-tenants-api-openapi.yml
   format: yaml
   label: Google Cloud Talent Solution Tenants API
   slug: google-cloud-talent-solution-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/openapi/google-cloud-talent-solution-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-talent-solution/openapi/google-cloud-talent-solution-tenants-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -64,7 +64,7 @@ source_filename: google-cloud-talent-solution-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n- scope: https://www.googleapis.com/auth/jobs\n  description: Manage job listings\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/scopes/google-cloud-talent-solution-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-talent-solution/scopes/google-cloud-talent-solution-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Google Cloud

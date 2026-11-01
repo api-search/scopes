@@ -5,13 +5,13 @@ api_specs:
   label: University of Twente Energy API
   slug: energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/openapi/university-of-twente-energy-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-twente/openapi/university-of-twente-energy-api-openapi.yml
 - filename: university-of-twente-dashboard-api-openapi.yml
   format: yaml
   label: University of Twente Dashboard API
   slug: university-of-twente-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/openapi/university-of-twente-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-twente/openapi/university-of-twente-dashboard-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -38,7 +38,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: openapi/_original/university-of-twente-energy-api-openapi.json\nx-operator: institution\nschemes: []\nscopes: []\nnote: >-\n  No scopes exist to record. The University of Twente Energy API declares no securitySchemes and\n  requires no authorization, so there is no OAuth flow, no scope vocabulary and no consent screen.\n  This file is written deliberately as an evidenced empty set rather than left absent, so the\n  absence reads as a measured fact rather than as an unfinished profile.\nfederated_scopes:\n  note: >-\n    The only scope vocabulary the university does emit belongs to its identity provider, not to\n    an API it publishes. The Entra ID tenant behind its SURFconext-federated IdP advertises the\n    standard OpenID Connect set in its discovery document.\n  source: https://login.microsoftonline.com/723246a1-c3f5-43c5-acdc-43adb404ac4d/v2.0/.well-known/openid-configuration\n  probed: '2026-09-01'\n  status: 200\n  scopes_supported:\
   \ [ openid, profile, email, offline_access ]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/scopes/university-of-twente-scopes.yml
+source_yaml_url: https://artifacts.apis.io/university-of-twente/scopes/university-of-twente-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

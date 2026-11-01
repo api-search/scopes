@@ -5,97 +5,97 @@ api_specs:
   label: Lev Account & Team API
   slug: lev-account-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-account-team-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-account-team-api-openapi.yml
 - filename: lev-api-keys-api-openapi.yml
   format: yaml
   label: Lev API Keys API
   slug: lev-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-api-keys-api-openapi.yml
 - filename: lev-billing-api-openapi.yml
   format: yaml
   label: Lev Billing API
   slug: lev-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-billing-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-billing-api-openapi.yml
 - filename: lev-companies-api-openapi.yml
   format: yaml
   label: Lev Companies API
   slug: lev-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-companies-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-companies-api-openapi.yml
 - filename: lev-contacts-api-openapi.yml
   format: yaml
   label: Lev Contacts API
   slug: lev-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-contacts-api-openapi.yml
 - filename: lev-deal-financials-api-openapi.yml
   format: yaml
   label: Lev Deal Financials API
   slug: lev-deal-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deal-financials-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deal-financials-api-openapi.yml
 - filename: lev-deal-properties-api-openapi.yml
   format: yaml
   label: Lev Deal Properties API
   slug: lev-deal-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deal-properties-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deal-properties-api-openapi.yml
 - filename: lev-deal-team-api-openapi.yml
   format: yaml
   label: Lev Deal Team API
   slug: lev-deal-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deal-team-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deal-team-api-openapi.yml
 - filename: lev-deals-api-openapi.yml
   format: yaml
   label: Lev Deals API
   slug: lev-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-deals-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-deals-api-openapi.yml
 - filename: lev-lender-directory-api-openapi.yml
   format: yaml
   label: Lev Lender Directory API
   slug: lev-lender-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-lender-directory-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-lender-directory-api-openapi.yml
 - filename: lev-lev-api-documentation-api-openapi.yml
   format: yaml
   label: Lev API Documentation API
   slug: lev-lev-api-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-lev-api-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-lev-api-documentation-api-openapi.yml
 - filename: lev-market-data-api-openapi.yml
   format: yaml
   label: Lev Market Data API
   slug: lev-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-market-data-api-openapi.yml
 - filename: lev-pipelines-api-openapi.yml
   format: yaml
   label: Lev Pipelines API
   slug: lev-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-pipelines-api-openapi.yml
 - filename: lev-placements-api-openapi.yml
   format: yaml
   label: Lev Placements API
   slug: lev-placements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-placements-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-placements-api-openapi.yml
 - filename: lev-quickstart-api-openapi.yml
   format: yaml
   label: Lev Quickstart API
   slug: lev-quickstart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-quickstart-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-quickstart-api-openapi.yml
 - filename: lev-term-sheets-api-openapi.yml
   format: yaml
   label: Lev Term Sheets API
   slug: lev-term-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/openapi/lev-term-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/lev/openapi/lev-term-sheets-api-openapi.yml
 authorization_urls:
 - https://auth.lev.com/authorize
 description: ''
@@ -184,7 +184,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.lev
   \ by getMe.\n- name: mcpOAuth\n  kind: oauth2\n  source: well-known/lev-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.lev.com/authorize\n    tokenUrl: https://auth.lev.com/oauth/token\nscopes:\n- scope: deals:read\n  description: Read access to deals and their sub-resources (financials, properties,\n    team, documents, vaults, checklists, memos, notes, indexed facts).\n  domain: deals\n  access: read\n  schemes:\n  - apiKeyScopes\n- scope: deals:write\n  description: Create, update, archive deals and write deal sub-resources including\n    notes, checklist tasks, and recorded index facts.\n  domain: deals\n  access: write\n  schemes:\n  - apiKeyScopes\n- scope: contacts:read\n  description: Read access to CRM contacts and contact notes.\n  domain: contacts\n  access: read\n  schemes:\n  - apiKeyScopes\n- scope: contacts:write\n  description: Create and update CRM contacts and contact notes.\n  domain: contacts\n  access: write\n\
   \  schemes:\n  - apiKeyScopes\n- scope: companies:read\n  description: Read access to CRM companies and company notes.\n  domain: companies\n  access: read\n  schemes:\n  - apiKeyScopes\n- scope: companies:write\n  description: Create and update CRM companies and company notes.\n  domain: companies\n  access: write\n  schemes:\n  - apiKeyScopes\n- scope: lenders:read\n  description: Read access to the lender directory, individual lender records, and\n    their lending programs. Read-only — the docs list no lenders:write counterpart.\n  domain: lenders\n  access: read\n  schemes:\n  - apiKeyScopes\n- scope: ai:actions\n  description: Gates AI-powered, credit-consuming actions separately from ordinary\n    reads and writes. Required by postContactsContactIdActionsUnlock, which reveals\n    an AI-recommended lender contact and charges credits.\n  domain: ai\n  access: action\n  schemes:\n  - apiKeyScopes\n- scope: openid\n  description: Standard OIDC scope requested by MCP clients during\
   \ the Auth0\n    authorization-code flow.\n  domain: oidc\n  access: identity\n  schemes:\n  - mcpOAuth\n- scope: email\n  description: Standard OIDC scope granting the user's email address to the MCP\n    client.\n  domain: oidc\n  access: identity\n  schemes:\n  - mcpOAuth\n- scope: offline_access\n  description: Requests a refresh token so the MCP client can silently refresh\n    without re-prompting the user.\n  domain: oidc\n  access: identity\n  schemes:\n  - mcpOAuth\nrelated:\n  authentication: authentication/lev-authentication.yml\n  well_known: well-known/lev-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/scopes/lev-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lev/scopes/lev-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
 - Company

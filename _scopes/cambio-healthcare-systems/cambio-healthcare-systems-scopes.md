@@ -5,31 +5,31 @@ api_specs:
   label: Cambio Healthcare Systems Booked Appointments API
   slug: cambio-healthcare-systems-booked-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-booked-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-booked-appointments-api-openapi.yml
 - filename: cambio-healthcare-systems-default-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems * API
   slug: cambio-healthcare-systems-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-default-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-default-api-openapi.yml
 - filename: cambio-healthcare-systems-payment-notice-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems Payment Notice API
   slug: cambio-healthcare-systems-payment-notice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-payment-notice-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-payment-notice-api-openapi.yml
 - filename: cambio-healthcare-systems-protocol-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems Protocol API
   slug: cambio-healthcare-systems-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-protocol-api-openapi.yml
 - filename: cambio-healthcare-systems-well-known-api-openapi.yml
   format: yaml
   label: Cambio Healthcare Systems .well Known API
   slug: cambio-healthcare-systems-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/openapi/cambio-healthcare-systems-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/cambio-healthcare-systems/openapi/cambio-healthcare-systems-well-known-api-openapi.yml
 authorization_urls:
 - https://api.openservices.cambio.se/auth/realms/COS/protocol/openid-connect/auth
 description: ''
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: https://api.opens
   \  - user/QuestionnaireResponse.d\n  - user/QuestionnaireResponse.r\n  - user/QuestionnaireResponse.rd\n  - user/QuestionnaireResponse.read\n  - user/QuestionnaireResponse.ru\n  - user/QuestionnaireResponse.rud\n  - user/QuestionnaireResponse.u\n  - user/QuestionnaireResponse.ud\n  - user/QuestionnaireResponse.write\n- resource: Referral\n  scope_count: 3\n  scopes:\n  - user/Referral-write\n  - user/Referral.*\n  - user/Referral.write\n- resource: Schedule\n  scope_count: 6\n  scopes:\n  - patient/Schedule.*\n  - patient/Schedule.read\n  - system/Schedule.*\n  - system/Schedule.read\n  - user/Schedule.*\n  - user/Schedule.read\n- resource: ServiceRequest\n  scope_count: 31\n  scopes:\n  - patient/ServiceRequest.*\n  - patient/ServiceRequest.c\n  - patient/ServiceRequest.cr\n  - patient/ServiceRequest.crs\n  - patient/ServiceRequest.cs\n  - patient/ServiceRequest.r\n  - patient/ServiceRequest.read\n  - patient/ServiceRequest.rs\n  - patient/ServiceRequest.s\n  - patient/ServiceRequest.write\n\
   \  - system/ServiceRequest.*\n  - system/ServiceRequest.c\n  - system/ServiceRequest.cr\n  - system/ServiceRequest.crs\n  - system/ServiceRequest.cs\n  - system/ServiceRequest.r\n  - system/ServiceRequest.read\n  - system/ServiceRequest.rs\n  - system/ServiceRequest.s\n  - system/ServiceRequest.write\n  - user/ServiceRequest-read\n  - user/ServiceRequest.*\n  - user/ServiceRequest.c\n  - user/ServiceRequest.cr\n  - user/ServiceRequest.crs\n  - user/ServiceRequest.cs\n  - user/ServiceRequest.r\n  - user/ServiceRequest.read\n  - user/ServiceRequest.rs\n  - user/ServiceRequest.s\n  - user/ServiceRequest.write\n- resource: Slot\n  scope_count: 10\n  scopes:\n  - patient/Slot.*\n  - patient/Slot.read\n  - patient/Slot.s\n  - system/Slot.*\n  - system/Slot.read\n  - system/Slot.s\n  - user/Slot-read\n  - user/Slot.*\n  - user/Slot.read\n  - user/Slot.s\n- resource: Task\n  scope_count: 16\n  scopes:\n  - patient/Task.*\n  - patient/Task.c\n  - patient/Task.cs\n  - patient/Task.read\n  - patient/Task.s\n\
   \  - system/Task.*\n  - system/Task.c\n  - system/Task.cs\n  - system/Task.read\n  - system/Task.s\n  - user/Task-read\n  - user/Task.*\n  - user/Task.c\n  - user/Task.cs\n  - user/Task.read\n  - user/Task.s\n- resource: VideoMeeting\n  scope_count: 6\n  scopes:\n  - patient/VideoMeeting.*\n  - patient/VideoMeeting.read\n  - system/VideoMeeting.*\n  - system/VideoMeeting.read\n  - user/VideoMeeting.*\n  - user/VideoMeeting.read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cambio-healthcare-systems/refs/heads/main/scopes/cambio-healthcare-systems-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cambio-healthcare-systems/scopes/cambio-healthcare-systems-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Healthcare

@@ -5,49 +5,49 @@ api_specs:
   label: Microsoft Active Directory App Role Assignments API
   slug: active-directory-app-role-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-app-role-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-app-role-assignments-api-openapi.yml
 - filename: active-directory-applications-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Applications API
   slug: active-directory-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-applications-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-applications-api-openapi.yml
 - filename: active-directory-groups-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Groups API
   slug: active-directory-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-groups-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-groups-api-openapi.yml
 - filename: active-directory-members-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Members API
   slug: active-directory-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-members-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-members-api-openapi.yml
 - filename: active-directory-owners-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Owners API
   slug: active-directory-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-owners-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-owners-api-openapi.yml
 - filename: active-directory-service-principals-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Service Principals API
   slug: active-directory-service-principals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-service-principals-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-service-principals-api-openapi.yml
 - filename: active-directory-users-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Users API
   slug: active-directory-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-users-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-users-api-openapi.yml
 - filename: active-directory-directory-roles-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Roles API
   slug: microsoft-active-directory-directory-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-directory-roles-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-directory-roles-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize
 description: ''
@@ -171,7 +171,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/active-d
   \ with Microsoft identity platform (Azure AD)\n- name: oauth2\n  source: openapi/active-directory-users-openapi.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n  description: OAuth2 with Microsoft identity platform (Azure AD)\nscopes:\n- scope: Application.Read.All\n  description: Read all applications\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/active-directory-applications-openapi.yaml\n- scope: Application.ReadWrite.All\n  description: Read and write all applications\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/active-directory-applications-openapi.yaml\n- scope: Directory.Read.All\n  description: Read directory data\n  flows:\n  - authorizationCode\n\
   \  - clientCredentials\n  sources:\n  - openapi/active-directory-applications-openapi.yaml\n  - openapi/active-directory-groups-openapi.yaml\n  - openapi/active-directory-users-openapi.yaml\n- scope: Directory.ReadWrite.All\n  description: Read and write directory data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/active-directory-groups-openapi.yaml\n  - openapi/active-directory-users-openapi.yaml\n- scope: Group.Read.All\n  description: Read all groups\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/active-directory-groups-openapi.yaml\n- scope: Group.ReadWrite.All\n  description: Read and write all groups\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/active-directory-groups-openapi.yaml\n- scope: User.Read\n  description: Read signed-in user's profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/active-directory-users-openapi.yaml\n- scope: User.Read.All\n  description:\
   \ Read all users' full profiles\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/active-directory-users-openapi.yaml\n- scope: User.ReadBasic.All\n  description: Read all users' basic profiles\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/active-directory-users-openapi.yaml\n- scope: User.ReadWrite\n  description: Read and write signed-in user's profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/active-directory-users-openapi.yaml\n- scope: User.ReadWrite.All\n  description: Read and write all users' full profiles\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/active-directory-users-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/scopes/active-directory-scopes.yml
+source_yaml_url: https://artifacts.apis.io/active-directory/scopes/active-directory-scopes.yml
 summary_line: 11 scopes · authorizationCode/clientCredentials
 tags:
 - Active Directory

@@ -5,25 +5,25 @@ api_specs:
   label: Toronto Hydro Application Information API
   slug: toronto-hydro-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/toronto-hydro/openapi/toronto-hydro-applicationinformation-api-openapi.yml
 - filename: toronto-hydro-authorization-api-openapi.yml
   format: yaml
   label: Toronto Hydro Authorization API
   slug: toronto-hydro-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/toronto-hydro/openapi/toronto-hydro-authorization-api-openapi.yml
 - filename: toronto-hydro-batch-api-openapi.yml
   format: yaml
   label: Toronto Hydro Batch API
   slug: toronto-hydro-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-batch-api-openapi.yml
+  url: https://artifacts.apis.io/toronto-hydro/openapi/toronto-hydro-batch-api-openapi.yml
 - filename: toronto-hydro-usagepoint-api-openapi.yml
   format: yaml
   label: Toronto Hydro Usage Point API
   slug: toronto-hydro-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/openapi/toronto-hydro-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/toronto-hydro/openapi/toronto-hydro-usagepoint-api-openapi.yml
 authorization_urls:
 - https://sandbox.greenbuttonalliance.org:8443/oauth/authorize
 description: ''
@@ -88,7 +88,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/toronto-hydro-applicationinformation-api-openapi.yml, openapi/toronto-hydro-authorization-api-openapi.yml,\n  openapi/toronto-hydro-batch-api-openapi.yml, openapi/toronto-hydro-usagepoint-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/toronto-hydro-applicationinformation-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n- name: oauth2\n  source: openapi/toronto-hydro-authorization-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n\
   - name: oauth2\n  source: openapi/toronto-hydro-batch-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n- name: oauth2\n  source: openapi/toronto-hydro-usagepoint-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/scopes/toronto-hydro-scopes.yml
+source_yaml_url: https://artifacts.apis.io/toronto-hydro/scopes/toronto-hydro-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Energy

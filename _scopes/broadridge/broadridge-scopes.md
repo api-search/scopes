@@ -5,25 +5,25 @@ api_specs:
   label: broadridge Accounts API
   slug: broadridge-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/broadridge/openapi/broadridge-accounts-api-openapi.yml
 - filename: broadridge-performance-api-openapi.yml
   format: yaml
   label: broadridge Performance API
   slug: broadridge-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-performance-api-openapi.yml
+  url: https://artifacts.apis.io/broadridge/openapi/broadridge-performance-api-openapi.yml
 - filename: broadridge-positions-api-openapi.yml
   format: yaml
   label: broadridge Positions API
   slug: broadridge-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-positions-api-openapi.yml
+  url: https://artifacts.apis.io/broadridge/openapi/broadridge-positions-api-openapi.yml
 - filename: broadridge-transactions-api-openapi.yml
   format: yaml
   label: broadridge Transactions API
   slug: broadridge-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/openapi/broadridge-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/broadridge/openapi/broadridge-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -73,7 +73,7 @@ source_filename: broadridge-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/broadridge-wealth-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/broadridge-wealth-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.broadridge.example.com/oauth/token\nscopes:\n- scope: accounts:read\n  description: Read account data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/broadridge-wealth-openapi.yml\n- scope: positions:read\n  description: Read position data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/broadridge-wealth-openapi.yml\n- scope: transactions:read\n  description: Read transaction data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/broadridge-wealth-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/scopes/broadridge-scopes.yml
+source_yaml_url: https://artifacts.apis.io/broadridge/scopes/broadridge-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - Fortune 1000

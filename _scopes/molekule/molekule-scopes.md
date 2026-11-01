@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: well-known/molekule-openid-configuration.json\ndocs: https://molekule.com/.well-known/openid-configuration\ndescription: >-\n  OAuth/OIDC scopes advertised by the Shopify Customer Account API OIDC\n  discovery document served from molekule.com. These gate buyer-account and\n  customer-account MCP access for the storefront.\nschemes:\n- name: shopifyCustomerAccountOIDC\n  source: well-known/molekule-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/70884294938/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/70884294938/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token for the buyer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the buyer's email address claim.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to\
   \ the Shopify Customer Account API for the signed-in buyer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API surface for agent-driven flows.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/molekule/refs/heads/main/scopes/molekule-scopes.yml
+source_yaml_url: https://artifacts.apis.io/molekule/scopes/molekule-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

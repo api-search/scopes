@@ -40,7 +40,7 @@ source_filename: alien-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://sso.alien-api.com/.well-known/openid-configuration\ndocs: https://docs.alien.org/sso-guide/oauth2-clients\nschemes:\n- name: OAuth2\n  source: https://sso.alien-api.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sso.alien-api.com/oauth/authorize\n    tokenUrl: https://sso.alien-api.com/oauth/token\nscopes:\n- scope: openid\n  description: >-\n    OpenID Connect authentication. Returns a verified, unique-human subject\n    (sub) tied to an Alien ID without exposing name, email, or documents.\n  flows: [authorizationCode]\n  sources: [https://sso.alien-api.com/.well-known/openid-configuration]\nnotes: >-\n  The authorization server advertises a single supported scope (openid) in its\n  discovery document (scopes_supported). Alien SSO deliberately minimizes scope\n  surface: it asserts proof-of-humanity, not personal-data claims.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alien/refs/heads/main/scopes/alien-scopes.yml
+source_yaml_url: https://artifacts.apis.io/alien/scopes/alien-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

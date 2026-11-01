@@ -5,37 +5,37 @@ api_specs:
   label: Pacific Gas and Electric Application Information API
   slug: pge-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-applicationinformation-api-openapi.yml
 - filename: pge-authorization-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Authorization API
   slug: pge-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-authorization-api-openapi.yml
 - filename: pge-batch-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Batch API
   slug: pge-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-batch-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-batch-api-openapi.yml
 - filename: pge-usagepoint-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Usage Point API
   slug: pge-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-usagepoint-api-openapi.yml
 - filename: pge-subscriptions-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Subscriptions API
   slug: pge-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-subscriptions-api-openapi.yml
 - filename: pge-usage-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Usage API
   slug: pge-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-usage-api-openapi.yml
 authorization_urls:
 - https://sharemydata.pge.com/myAuthorization
 - https://sandbox.greenbuttonalliance.org:8443/oauth/authorize
@@ -178,7 +178,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  https://w
   \    customer_selectable: false\n    always_returned: true\n  - scope: FB=40\n    name: Offline Authorization to complement OAuth\n    description: Authorization performed offline (manual paper CISR or Ops Portal).\n    customer_selectable: false\n    granted_when: Offline authorization created via the paper CISR form.\n  - scope: FB=46\n    name: Core RetailCustomer\n    description: Retrieve resources for a RetailCustomer.\n    customer_selectable: true\n    granted_when: Basic and/or Account Info and/or ProgramEnrollment Info authorized.\n  - scope: FB=47\n    name: REST for RetailCustomer Bulk\n    description: Retrieve resources in Bulk for RetailCustomers via REST.\n    customer_selectable: true\n    granted_when: Basic and/or Account Info and/or ProgramEnrollment Info authorized.\nadditional_scope:\n  parameter: AdditionalScope\n  format: Underscore-delimited list of customer-authorized selections.\n  values:\n    - value: Usage\n      description: Interval usage data for authorized\
   \ service agreements.\n    - value: Billing\n      description: Billing information including billed usage and cost.\n    - value: Basic\n      description: Basic customer information.\n    - value: Account\n      description: Account information.\n    - value: ProgramEnrollment\n      description: Demand response and other program enrollment information.\nauthorization_parameters:\n  - parameter: IntervalDuration\n    description: Authorized interval durations in seconds (published example 900_3600).\n  - parameter: BlockDuration\n    description: Block duration of returned data (published example Daily).\n  - parameter: HistoryLength\n    description: Third-party registered historical length.\n  - parameter: AccountCollection\n    description: Count of authorized service agreements.\n  - parameter: BR\n    description: Third-party identifier.\n  - parameter: dataCustodianId\n    description: Always PGE for Share My Data.\nnotes: >-\n  The mapping document also publishes worked example\
   \ scope strings per service\n  agreement type (Electric, Gas, Electric + Gas) for each combination of\n  authorized data groups; those rules are captured above under granted_when\n  rather than duplicated. FB numbers are ESPI-standard function blocks, so this\n  scope model is portable across Green Button Connect My Data data custodians.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/scopes/pge-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pge/scopes/pge-scopes.yml
 summary_line: 21 scopes · authorizationCode/clientCredentials
 tags:
 - Energy

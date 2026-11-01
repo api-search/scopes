@@ -30,14 +30,14 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fingrid/refs/heads/main/scopes/fingrid-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fingrid/scopes/fingrid-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Energy
-- Grid
+- Electricity
+- Transmission
 - Finland
-- Utilities
 token_bound: false
 token_urls: []
 ---

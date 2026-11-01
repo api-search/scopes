@@ -5,7 +5,7 @@ api_specs:
   label: Computop API
   slug: computop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/computop/refs/heads/main/openapi/_ae-authored/computop-openapi-generated.yml
+  url: https://artifacts.apis.io/computop/openapi/_ae-authored/computop-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -30,22 +30,21 @@ slug: computop-scopes
 source_filename: computop-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: 'generated: ''2026-10-27''
+source_yaml: 'generated: ''2026-10-28''
 
   method: none
 
   scopes: []
 
-  '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/computop/refs/heads/main/scopes/computop-scopes.yml
+  docs: null'
+source_yaml_url: https://artifacts.apis.io/computop/scopes/computop-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Payments
 - FinTech
-- PaymentGateway
-- Omnichannel
+- E-commerce
 - Germany
-- Company
+- SaaS
 token_bound: false
 token_urls: []
 ---

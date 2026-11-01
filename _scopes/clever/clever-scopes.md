@@ -5,61 +5,61 @@ api_specs:
   label: Clever Events API
   slug: clever-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-events-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-events-api-openapi.yml
 - filename: clever-assignments-api-openapi.yml
   format: yaml
   label: Clever Assignments API
   slug: clever-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-assignments-api-openapi.yml
 - filename: clever-courses-api-openapi.yml
   format: yaml
   label: Clever Courses API
   slug: clever-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-courses-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-courses-api-openapi.yml
 - filename: clever-districts-api-openapi.yml
   format: yaml
   label: Clever Districts API
   slug: clever-districts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-districts-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-districts-api-openapi.yml
 - filename: clever-resources-api-openapi.yml
   format: yaml
   label: Clever Resources API
   slug: clever-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-resources-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-resources-api-openapi.yml
 - filename: clever-schools-api-openapi.yml
   format: yaml
   label: Clever Schools API
   slug: clever-schools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-schools-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-schools-api-openapi.yml
 - filename: clever-sections-api-openapi.yml
   format: yaml
   label: Clever Sections API
   slug: clever-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-sections-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-sections-api-openapi.yml
 - filename: clever-submissions-api-openapi.yml
   format: yaml
   label: Clever Submissions API
   slug: clever-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-submissions-api-openapi.yml
 - filename: clever-terms-api-openapi.yml
   format: yaml
   label: Clever Terms API
   slug: clever-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-terms-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-terms-api-openapi.yml
 - filename: clever-users-api-openapi.yml
   format: yaml
   label: Clever Users API
   slug: clever-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/openapi/clever-users-api-openapi.yml
+  url: https://artifacts.apis.io/clever/openapi/clever-users-api-openapi.yml
 authorization_urls:
 - https://clever.com/oauth/authorize
 description: ''
@@ -130,7 +130,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\ndocs: https://dev.clever.com/docs/setting-up-district-sso\nnote: Clever manages scopes through application configuration rather than client-requested\n  scope parameters (https://dev.clever.com/docs/oidc-implementation); the documented\n  Clever Single Sign-On access tier scopes are listed below, while full Data API roster\n  access uses district-app tokens instead of OAuth scopes.\nsource: openapi/clever-data-api-openapi.yml, openapi/clever-events-api-openapi.yml, openapi/clever-lms-connect-api-openapi.yml\nschemes:\n- name: oauth\n  source: openapi/clever-data-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://clever.com/oauth/authorize\n    tokenUrl: https://clever.com/oauth/tokens\n- name: oauth\n  source: openapi/clever-events-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://clever.com/oauth/authorize\n    tokenUrl: https://clever.com/oauth/tokens\n- name:\
   \ oauth\n  source: openapi/clever-lms-connect-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://clever.com/oauth/authorize\n    tokenUrl: https://clever.com/oauth/tokens\nscopes:\n- scope: read:user_id\n  description: Read the authorizing user's Clever user identifier via the /me endpoint;\n    part of the Clever Single Sign-On access tier.\n  sources:\n  - https://dev.clever.com/docs/setting-up-district-sso\n- scope: read:students_basic\n  description: Read basic student information for the authorizing user; part of the\n    Clever Single Sign-On access tier.\n  sources:\n  - https://dev.clever.com/docs/setting-up-district-sso\n- scope: read:teachers_basic\n  description: Read basic teacher information for the authorizing user; part of the\n    Clever Single Sign-On access tier.\n  sources:\n  - https://dev.clever.com/docs/setting-up-district-sso\n- scope: read:school_admins_basic\n  description: Read basic school administrator information for the authorizing\
   \ user;\n    part of the Clever Single Sign-On access tier.\n  sources:\n  - https://dev.clever.com/docs/setting-up-district-sso\n- scope: read:district_admins_basic\n  description: Read basic district administrator information for the authorizing\n    user; part of the Clever Single Sign-On access tier.\n  sources:\n  - https://dev.clever.com/docs/setting-up-district-sso\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/scopes/clever-scopes.yml
+source_yaml_url: https://artifacts.apis.io/clever/scopes/clever-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Education

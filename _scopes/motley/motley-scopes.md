@@ -65,7 +65,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://app.motley.ai/.well-known/oauth-authorization-server\ndocs: https://clerk.com/docs/oauth/scoped-access\ndescription: >-\n  Motley Cloud exposes an OAuth 2.0 authorization server (RFC 8414 metadata,\n  backed by Clerk) at issuer https://app.motley.ai. Scopes are advertised in the\n  server metadata's scopes_supported. Authorization code flow with PKCE (S256);\n  dynamic client registration is supported.\nissuer: https://app.motley.ai\nschemes:\n- name: OAuth2\n  source: well-known/motley-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://clerk.motley.ai/oauth/authorize\n    tokenUrl: https://clerk.motley.ai/oauth/token\n    pkce: S256\nscopes:\n- scope: openid\n  description: OpenID Connect authentication (issue an ID token).\n- scope: profile\n  description: Access the user's basic profile claims (name).\n- scope: email\n  description: Access the user's email address.\n\
   - scope: public_metadata\n  description: Read the user's public metadata.\n- scope: private_metadata\n  description: Read the user's private metadata.\n- scope: offline_access\n  description: Issue a refresh token for long-lived, offline access.\n- scope: \"user:org:read\"\n  description: Read the user's organization membership/context.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/motley/refs/heads/main/scopes/motley-scopes.yml
+source_yaml_url: https://artifacts.apis.io/motley/scopes/motley-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Company

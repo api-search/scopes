@@ -5,25 +5,25 @@ api_specs:
   label: Typeform Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/asyncapi/typeform-asyncapi.yml
+  url: https://artifacts.apis.io/typeform/asyncapi/typeform-asyncapi.yml
 - filename: typeform-forms-api-openapi.yml
   format: yaml
   label: Typeform Forms API
   slug: typeform-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-forms-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-forms-api-openapi.yml
 - filename: typeform-images-api-openapi.yml
   format: yaml
   label: Typeform Images API
   slug: typeform-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-images-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-images-api-openapi.yml
 - filename: typeform-themes-api-openapi.yml
   format: yaml
   label: Typeform Themes API
   slug: typeform-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-themes-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-themes-api-openapi.yml
 authorization_urls:
 - https://api.typeform.com/oauth/authorize
 description: ''
@@ -91,7 +91,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/typeform-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/typeform-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.typeform.com/oauth/authorize\n    tokenUrl: https://api.typeform.com/oauth/token\nscopes:\n- scope: forms:read\n  description: Read forms\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/typeform-openapi.yml\n- scope: forms:write\n  description: Create and modify forms\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/typeform-openapi.yml\n- scope: images:read\n  description: Read images\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/typeform-openapi.yml\n- scope: images:write\n  description: Upload images\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/typeform-openapi.yml\n- scope: themes:read\n  description: Read themes\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/typeform-openapi.yml\n- scope: themes:write\n\
   \  description: Create and modify themes\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/typeform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/scopes/typeform-scopes.yml
+source_yaml_url: https://artifacts.apis.io/typeform/scopes/typeform-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Forms

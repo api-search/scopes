@@ -5,61 +5,61 @@ api_specs:
   label: Paylocity Background Check API
   slug: paylocity-background-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-background-check-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-background-check-api-openapi.yml
 - filename: paylocity-company-api-openapi.yml
   format: yaml
   label: Paylocity Company API
   slug: paylocity-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-company-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-company-api-openapi.yml
 - filename: paylocity-deductions-api-openapi.yml
   format: yaml
   label: Paylocity Deductions API
   slug: paylocity-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-deductions-api-openapi.yml
 - filename: paylocity-earnings-api-openapi.yml
   format: yaml
   label: Paylocity Earnings API
   slug: paylocity-earnings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-earnings-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-earnings-api-openapi.yml
 - filename: paylocity-employees-api-openapi.yml
   format: yaml
   label: Paylocity Employees API
   slug: paylocity-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-employees-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-employees-api-openapi.yml
 - filename: paylocity-lms-api-openapi.yml
   format: yaml
   label: Paylocity LMS API
   slug: paylocity-lms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-lms-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-lms-api-openapi.yml
 - filename: paylocity-payroll-api-openapi.yml
   format: yaml
   label: Paylocity Payroll API
   slug: paylocity-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-payroll-api-openapi.yml
 - filename: paylocity-scheduling-api-openapi.yml
   format: yaml
   label: Paylocity Scheduling API
   slug: paylocity-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-scheduling-api-openapi.yml
 - filename: paylocity-taxes-api-openapi.yml
   format: yaml
   label: Paylocity Taxes API
   slug: paylocity-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-taxes-api-openapi.yml
 - filename: paylocity-time-api-openapi.yml
   format: yaml
   label: Paylocity Time API
   slug: paylocity-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/openapi/paylocity-time-api-openapi.yml
+  url: https://artifacts.apis.io/paylocity/openapi/paylocity-time-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.paylocity.com/integrations/reference/authentication-weblink
@@ -100,7 +100,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/paylocity-openapi.yml\ndocs: https://developer.paylocity.com/integrations/reference/authentication-weblink\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/paylocity-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.paylocity.com/IdentityServer/connect/token\n  description: OAuth 2.0 client credentials grant. Credentials are provisioned by Paylocity.\nscopes:\n- scope: WebLinkAPI\n  description: Required scope for token requests to the Paylocity Weblink API via\n    the client credentials grant; the scope parameter of the token request must be\n    set to WebLinkAPI.\n  sources:\n  - https://developer.paylocity.com/integrations/reference/authentication-weblink\nnote: Paylocity's Next Gen Integrations API authentication docs (https://developer.paylocity.com/integrations/reference/authentication)\n  use the OAuth 2.0 client credentials grant without documenting granular scopes;\n\
   \  WebLinkAPI is the only documented scope value, required for the legacy Weblink API\n  token request.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/scopes/paylocity-scopes.yml
+source_yaml_url: https://artifacts.apis.io/paylocity/scopes/paylocity-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Human Resources

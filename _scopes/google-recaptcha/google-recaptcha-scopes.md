@@ -5,13 +5,13 @@ api_specs:
   label: Google reCAPTCHA Assessments API
   slug: google-recaptcha-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-recaptcha/refs/heads/main/openapi/google-recaptcha-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/google-recaptcha/openapi/google-recaptcha-assessments-api-openapi.yml
 - filename: google-recaptcha-keys-api-openapi.yml
   format: yaml
   label: Google reCAPTCHA Keys API
   slug: google-recaptcha-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-recaptcha/refs/heads/main/openapi/google-recaptcha-keys-api-openapi.yml
+  url: https://artifacts.apis.io/google-recaptcha/openapi/google-recaptcha-keys-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -53,7 +53,7 @@ source_filename: google-recaptcha-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/recaptcha-enterprise-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/recaptcha-enterprise-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/recaptcha-enterprise-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-recaptcha/refs/heads/main/scopes/google-recaptcha-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-recaptcha/scopes/google-recaptcha-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Abuse Prevention

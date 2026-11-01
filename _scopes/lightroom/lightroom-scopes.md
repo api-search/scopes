@@ -5,61 +5,61 @@ api_specs:
   label: Adobe Lightroom Album Assets API
   slug: lightroom-album-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-album-assets-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-album-assets-api-openapi.yml
 - filename: lightroom-albums-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Albums API
   slug: lightroom-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-albums-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-albums-api-openapi.yml
 - filename: lightroom-assets-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Assets API
   slug: lightroom-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-assets-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-assets-api-openapi.yml
 - filename: lightroom-auto-straighten-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Auto Straighten API
   slug: lightroom-auto-straighten-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-auto-straighten-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-auto-straighten-api-openapi.yml
 - filename: lightroom-auto-tone-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Auto Tone API
   slug: lightroom-auto-tone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-auto-tone-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-auto-tone-api-openapi.yml
 - filename: lightroom-catalog-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Catalog API
   slug: lightroom-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-catalog-api-openapi.yml
 - filename: lightroom-edit-image-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Edit Image API
   slug: lightroom-edit-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-edit-image-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-edit-image-api-openapi.yml
 - filename: lightroom-health-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Health API
   slug: lightroom-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-health-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-health-api-openapi.yml
 - filename: lightroom-presets-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Presets API
   slug: lightroom-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-presets-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-presets-api-openapi.yml
 - filename: lightroom-renditions-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Renditions API
   slug: lightroom-renditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-renditions-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-renditions-api-openapi.yml
 authorization_urls:
 - https://ims-na1.adobelogin.com/ims/authorize/v2
 description: ''
@@ -140,7 +140,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lightroom-albums-openapi.yml, openapi/lightroom-assets-openapi.yml, openapi/lightroom-catalog-openapi.yml,\n  openapi/lightroom-firefly-services-openapi.yml, openapi/lightroom-services-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/lightroom-albums-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ims-na1.adobelogin.com/ims/authorize/v2\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n- name: oauth2\n  source: openapi/lightroom-assets-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ims-na1.adobelogin.com/ims/authorize/v2\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n- name: oauth2\n  source: openapi/lightroom-catalog-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ims-na1.adobelogin.com/ims/authorize/v2\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n- name: oauth2\n  source:\
   \ openapi/lightroom-firefly-services-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n  description: OAuth 2.0 via Adobe IMS for Firefly Services\n- name: oauth2\n  source: openapi/lightroom-services-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ims-na1.adobelogin.com/ims/authorize/v2\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n  description: OAuth 2.0 authorization code flow via Adobe Identity Management System (IMS).\n    Partner applications must be registered in the Adobe Developer Console.\nscopes:\n- scope: firefly_api\n  description: Access Firefly Services APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lightroom-firefly-services-openapi.yml\n- scope: lr_partner_apis\n  description: Access Lightroom partner APIs\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/lightroom-albums-openapi.yml\n  - openapi/lightroom-assets-openapi.yml\n  - openapi/lightroom-catalog-openapi.yml\n\
   \  - openapi/lightroom-services-openapi.yml\n- scope: openid\n  description: OpenID Connect\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/lightroom-firefly-services-openapi.yml\n  - openapi/lightroom-services-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/scopes/lightroom-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lightroom/scopes/lightroom-scopes.yml
 summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
 - Cloud Storage

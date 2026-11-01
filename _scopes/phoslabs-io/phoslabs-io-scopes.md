@@ -5,43 +5,43 @@ api_specs:
   label: Phos Labs Audit API
   slug: phoslabs-io-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-audit-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-audit-api-openapi.yml
 - filename: phoslabs-io-copy-api-openapi.yml
   format: yaml
   label: Phos Labs Copy API
   slug: phoslabs-io-copy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-copy-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-copy-api-openapi.yml
 - filename: phoslabs-io-detect-biases-api-openapi.yml
   format: yaml
   label: Phos Labs Detect Biases API
   slug: phoslabs-io-detect-biases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-detect-biases-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-detect-biases-api-openapi.yml
 - filename: phoslabs-io-diagnose-api-openapi.yml
   format: yaml
   label: Phos Labs Diagnose API
   slug: phoslabs-io-diagnose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-diagnose-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-diagnose-api-openapi.yml
 - filename: phoslabs-io-fix-checkout-api-openapi.yml
   format: yaml
   label: Phos Labs Fix Checkout API
   slug: phoslabs-io-fix-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-fix-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-fix-checkout-api-openapi.yml
 - filename: phoslabs-io-pricing-api-openapi.yml
   format: yaml
   label: Phos Labs Pricing API
   slug: phoslabs-io-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-pricing-api-openapi.yml
 - filename: phoslabs-io-tools-api-openapi.yml
   format: yaml
   label: Phos Labs Tools API
   slug: phoslabs-io-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-tools-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-tools-api-openapi.yml
 authorization_urls:
 - https://mcp.phoslabs.io/authorize
 description: ''
@@ -98,7 +98,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://mcp.phoslabs.io/.well-known/oauth-authorization-server\ndocs: https://mcp.phoslabs.io/.well-known/oauth-protected-resource/mcp\nnote: >-\n  The OpenAPI declares no oauth2 scheme (derive-oauth-scopes.py found nothing), but the MCP server documents\n  OAuth 2.1 through its RFC 8414 / RFC 9728 discovery documents, which are the provider's only published\n  scope reference. One scope is declared and no human description of it is published anywhere; the name\n  suggests it exists to satisfy the Claude connector flow. No scopes reference page exists (/docs is 403).\nschemes:\n- name: mcp-oauth\n  type: oauth2\n  source: well-known/phoslabs-io-oauth-authorization-server.json\n  issuer: https://mcp.phoslabs.io/\n  resource: https://mcp.phoslabs.io/mcp\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.phoslabs.io/authorize\n    tokenUrl: https://mcp.phoslabs.io/token\n    refreshUrl: https://mcp.phoslabs.io/token\n\
   \    pkce: [S256]\n  registration_endpoint: https://mcp.phoslabs.io/register\n  revocation_endpoint: https://mcp.phoslabs.io/revoke\n  token_endpoint_auth_methods: [client_secret_post, client_secret_basic, none]\n  bearer_methods: [header]\nscopes:\n- scope: claudeai\n  description: null\n  flows: [authorizationCode]\n  sources: [well-known/phoslabs-io-oauth-authorization-server.json, well-known/phoslabs-io-oauth-protected-resource.json]\n  note: Declared in scopes_supported of both discovery documents; no published description.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/scopes/phoslabs-io-scopes.yml
+source_yaml_url: https://artifacts.apis.io/phoslabs-io/scopes/phoslabs-io-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

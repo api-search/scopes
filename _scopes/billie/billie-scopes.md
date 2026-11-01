@@ -5,31 +5,31 @@ api_specs:
   label: Billie Authentication API
   slug: billie-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-authentication-api-openapi.yml
 - filename: billie-back-end-order-creation-api-openapi.yml
   format: yaml
   label: Billie Back-end Order Creation API
   slug: billie-back-end-order-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-back-end-order-creation-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-back-end-order-creation-api-openapi.yml
 - filename: billie-captures-api-openapi.yml
   format: yaml
   label: Billie Captures API
   slug: billie-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-captures-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-captures-api-openapi.yml
 - filename: billie-front-end-order-creation-api-openapi.yml
   format: yaml
   label: Billie Front-end Order Creation API
   slug: billie-front-end-order-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-front-end-order-creation-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-front-end-order-creation-api-openapi.yml
 - filename: billie-order-management-api-openapi.yml
   format: yaml
   label: Billie Order Management API
   slug: billie-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-order-management-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -80,7 +80,7 @@ source_filename: billie-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/billie-direct-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/billie-direct-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /oauth/token\n  description: |-\n    This authentication mechanism is based on the OAuth 2.0 prototocol and requires a Client ID, a Client Secret Key and\n    in some cases also a user and password.\n\n    With these credentials, the client should request a token using the `POST /api/v1/oauth/token` endpoint,\n    which should be used in the `Authorization` header together with the `Bearer` challenge to authenticate all the requests.\n\n    > Example: `Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c`.\nscopes:\n- scope: default\n  description: default\n  flows:\n  - password\n  sources:\n  - openapi/billie-direct-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/scopes/billie-scopes.yml
+source_yaml_url: https://artifacts.apis.io/billie/scopes/billie-scopes.yml
 summary_line: 1 scope · password
 tags:
 - Company

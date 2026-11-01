@@ -5,67 +5,67 @@ api_specs:
   label: Aetna Endpoint API
   slug: aetna-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-endpoint-api-openapi.yml
 - filename: aetna-location-api-openapi.yml
   format: yaml
   label: Aetna Location API
   slug: aetna-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-location-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-location-api-openapi.yml
 - filename: aetna-organization-api-openapi.yml
   format: yaml
   label: Aetna Organization API
   slug: aetna-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-organization-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-organization-api-openapi.yml
 - filename: aetna-organizationaffiliation-api-openapi.yml
   format: yaml
   label: Aetna Organization Affiliation API
   slug: aetna-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-organizationaffiliation-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-organizationaffiliation-api-openapi.yml
 - filename: aetna-practitioner-api-openapi.yml
   format: yaml
   label: Aetna Practitioner API
   slug: aetna-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-practitioner-api-openapi.yml
 - filename: aetna-providerdirectorydata-api-openapi.yml
   format: yaml
   label: Aetna Providerdirectorydata API
   slug: aetna-providerdirectorydata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-providerdirectorydata-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-providerdirectorydata-api-openapi.yml
 - filename: aetna-patient-access-api-openapi.yml
   format: yaml
   label: Aetna Patient Access API
   slug: aetna-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-patient-access-api-openapi.yml
 - filename: aetna-provider-directory-api-openapi.yml
   format: yaml
   label: Aetna Provider Directory API
   slug: aetna-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-provider-directory-api-openapi.yml
 - filename: aetna-healthcare-service-api-openapi.yml
   format: yaml
   label: Aetna Healthcare Service API
   slug: aetna-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-healthcare-service-api-openapi.yml
 - filename: aetna-insurance-plan-api-openapi.yml
   format: yaml
   label: Aetna Insurance Plan API
   slug: aetna-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-insurance-plan-api-openapi.yml
 - filename: aetna-practitioner-role-api-openapi.yml
   format: yaml
   label: Aetna Practitioner Role API
   slug: aetna-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/openapi/aetna-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/aetna/openapi/aetna-practitioner-role-api-openapi.yml
 authorization_urls:
 - https://devpih1.int.aetna.com/healthcare/devpath1/v7/auth/oauth2/authorize
 - https://$(catalog.url)/v1/internal/fhirserver_auth/oauth2/authorize
@@ -939,7 +939,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: openapi/aetna-p
   \ Swagger is the un-substituted IBM API Connect template https://$(catalog.url)/v1/internal/fhirserver_auth/oauth2/token\n    - not a usable URL. The real endpoints are the ones above, read live from the smart-configuration documents.\n    Aetna's own token-generation PDF and both CapabilityStatements name /fhir/v1/fhirserver_auth/... without\n    the \"prod\" segment; both forms are recorded because Aetna publishes both.\nadvertised_scopes:\n  source: https://apif1.aetna.com/fhir/.well-known/smart-configuration scopes_supported\n  scopes:\n  - openid\n  - fhirUser\n  - profile\n  - launch/patient\n  - patient/*.read\ncapabilities:\n  source: smart-configuration capabilities + Patient Access CapabilityStatement security extensions\n  values:\n  - client-public\n  - client-confidential-symmetric\n  - sso-openid-connect\n  - launch-standalone\n  - context-standalone-patient\n  - permission-patient\n  code_challenge_methods_supported:\n  - S256\n  token_endpoint_auth_methods_supported:\n\
   \  - client_secret_basic\nscope_families:\n- family: patient/{Resource}.read\n  count: 27\n  description: Per-resource read on the patient in context. Declared per operation in the Swagger securityDefinitions.\n- family: patient/{Resource}.*\n  count: 27\n  description: Per-resource wildcard. Aetna declares these alongside .read even though the surface is read-only.\n- family: patient/*.read\n  description: Read every resource in the patient compartment. The scope Aetna's own token guide tells developers\n    to request, as \"launch/patient patient/*.read\".\n- family: patient/*.*\n  description: Wildcard on everything in the patient compartment.\n- family: Public / NonPII\n  description: Client-credentials scopes on the FHIR_Application_Oauth scheme used by the provider-directory\n    surface, which carries no member data.\ngrant_note: Aetna does not publish a scopes reference page. There is no page to link; the machine-readable\n  smart-configuration document is the closest thing and\
   \ is used as `docs`. Scope descriptions in the schemes[]\n  below are Aetna's own securityDefinitions text, which in many cases repeats the scope string verbatim rather\n  than describing it.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aetna/refs/heads/main/scopes/aetna-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aetna/scopes/aetna-scopes.yml
 summary_line: 54 scopes · authorizationCode/clientCredentials
 tags:
 - Health Insurance

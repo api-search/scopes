@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://functionofbeauty.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nnote: >-\n  Scopes advertised by the Shopify Customer Account API OpenID Connect discovery\n  document served on the Function of Beauty domain (scopes_supported). Captured\n  verbatim; descriptions are from Shopify's Customer Account API documentation.\nschemes:\n- name: shopifyCustomerAccount\n  source: well-known/function-of-beauty-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/69081399608/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/69081399608/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the customer's email address and email_verified claim.\n  flows: [authorizationCode]\n\
   - scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in customer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API for the signed-in customer.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/function-of-beauty/refs/heads/main/scopes/function-of-beauty-scopes.yml
+source_yaml_url: https://artifacts.apis.io/function-of-beauty/scopes/function-of-beauty-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

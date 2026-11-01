@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://im8health.com/.well-known/openid-configuration\ntype: OAuthScopes\ndescription: >-\n  OAuth 2.0 / OpenID Connect scopes advertised by the IM8 Health Shopify Customer\n  Account authorization server (scopes_supported in the store's OIDC discovery\n  document). These are Shopify platform Customer Account scopes exposed under the\n  im8health.com account host.\nauthorization_server: https://shopify.com/authentication/63744606375\nscopes:\n- name: openid\n  description: OpenID Connect sign-in; issue an ID token identifying the buyer.\n- name: email\n  description: Access the buyer's email address and verification status.\n- name: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in buyer.\n- name: customer-account-mcp-api:full\n  description: >-\n    Full access to the Customer Account MCP API — authorizes MCP-driven agents to\n    act on the buyer's account (orders,\
   \ profile) under the Customer Account API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/im8/refs/heads/main/scopes/im8-scopes.yml
+source_yaml_url: https://artifacts.apis.io/im8/scopes/im8-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

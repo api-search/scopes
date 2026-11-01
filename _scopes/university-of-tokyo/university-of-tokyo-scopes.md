@@ -5,31 +5,31 @@ api_specs:
   label: University of Tokyo Iiif API
   slug: university-of-tokyo-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-iiif-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-tokyo/openapi/university-of-tokyo-iiif-api-openapi.yml
 - filename: university-of-tokyo-items-api-openapi.yml
   format: yaml
   label: University of Tokyo Items API
   slug: university-of-tokyo-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-items-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-tokyo/openapi/university-of-tokyo-items-api-openapi.yml
 - filename: university-of-tokyo-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Tokyo Oai Pmh API
   slug: university-of-tokyo-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-tokyo/openapi/university-of-tokyo-oai-pmh-api-openapi.yml
 - filename: university-of-tokyo-records-api-openapi.yml
   format: yaml
   label: University of Tokyo Records API
   slug: university-of-tokyo-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-records-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-tokyo/openapi/university-of-tokyo-records-api-openapi.yml
 - filename: university-of-tokyo-search-api-openapi.yml
   format: yaml
   label: University of Tokyo Search API
   slug: university-of-tokyo-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/openapi/university-of-tokyo-search-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-tokyo/openapi/university-of-tokyo-search-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -57,7 +57,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource:\n  - https://repository.dl.itc.u-tokyo.ac.jp/oai?verb=Identify\n  - https://repository.dl.itc.u-tokyo.ac.jp/api/records/\n  - https://da.dl.itc.u-tokyo.ac.jp/portal/help/api\n  - https://metadata.gakunin.nii.ac.jp/gakunin-metadata.xml\noauth2: false\nscopes: []\nnote: >-\n  There are no OAuth 2.0 scopes to record. No OAuth authorization server, token endpoint or\n  scope vocabulary exists on any University of Tokyo host — /.well-known/oauth-authorization-server\n  and /.well-known/openid-configuration are absent, and every public surface answers\n  unauthenticated. This file exists to record that absence explicitly rather than leave the slot\n  empty and let a reader infer a gap in the profile.\n\n  The nearest equivalent to a scope model at this institution is SAML attribute release through\n  GakuNin — an IdP decides which attributes (eduPersonPrincipalName, eduPersonAffiliation,\n  eduPersonScopedAffiliation, and so on) it\
   \ releases to which Service Provider. That is an\n  authorization boundary, but it is a federation policy negotiated between entities, not a scope\n  a developer can request. The three University of Tokyo entities and their endpoints are\n  recorded in authentication/university-of-tokyo-authentication.yml.\nauthorization_model:\n  public_read:\n    surfaces:\n      - OAI-PMH (both endpoints)\n      - IIIF Presentation manifests and Image API\n      - Archives Portal item representations (_format=json|csv|bix)\n      - Repository /api/records/\n    control: >-\n      Open to anyone. The Archives Portal restricts what it exposes at the data layer instead —\n      only material for which reuse permission was obtained is served through the APIs, per the\n      university's own documentation. Per-record access is carried in the JPCOAR accessRights\n      field (\"open access\" on every sampled record).\n  federated:\n    surfaces:\n      - UTOL learning management system\n      - HPC Portal\
   \ (Wisteria / Miyabi)\n      - STEP10 course registration system\n      - Licensed library resources\n    control: SAML 2.0 attribute release via the university's GakuNin-registered Shibboleth IdPs.\n  edge_denied:\n    surfaces:\n      - https://da.dl.itc.u-tokyo.ac.jp/portal/search\n    control: >-\n      Apache-level HTTP 403 to external automated clients regardless of User-Agent. Not an\n      authorization scheme — no credential exists that would lift it.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/scopes/university-of-tokyo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/university-of-tokyo/scopes/university-of-tokyo-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

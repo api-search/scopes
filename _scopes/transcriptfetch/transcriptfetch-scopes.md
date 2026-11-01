@@ -5,13 +5,13 @@ api_specs:
   label: TranscriptFetch System API
   slug: transcriptfetch-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/openapi/transcriptfetch-system-api-openapi.yml
+  url: https://artifacts.apis.io/transcriptfetch/openapi/transcriptfetch-system-api-openapi.yml
 - filename: transcriptfetch-transcripts-api-openapi.yml
   format: yaml
   label: TranscriptFetch Transcripts API
   slug: transcriptfetch-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/openapi/transcriptfetch-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/transcriptfetch/openapi/transcriptfetch-transcripts-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://transcriptfetch.com/docs/mcp
@@ -62,7 +62,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: >-\n  https://transcriptfetch.com/.well-known/oauth-protected-resource and\n  https://clerk.transcriptfetch.com/.well-known/oauth-authorization-server (both HTTP\n  200, fetched 2026-09-09). The REST OpenAPI declares only bearerAuth (API key), so\n  derive-oauth-scopes.py found no oauth2 scheme; these scopes come from the served\n  OAuth metadata, which governs the MCP surface.\ndocs: https://transcriptfetch.com/docs/mcp\nsurface: MCP server (https://transcriptfetch.com/mcp) via Clerk-run OAuth; REST API uses bearer API keys without scopes.\nscopes:\n- name: openid\n  description: OpenID Connect authentication (standard OIDC scope).\n- name: profile\n  description: Access to basic profile claims (name, picture, preferred_username).\n- name: email\n  description: Access to the account email address and verification status.\n- name: offline_access\n  description: Refresh-token issuance for long-lived MCP client connections.\n-\
   \ name: public_metadata\n  description: Clerk user public metadata (authorization-server metadata; not documented per-endpoint by TranscriptFetch).\n- name: private_metadata\n  description: Clerk user private metadata (authorization-server metadata; not documented per-endpoint by TranscriptFetch).\nnotes:\n- The protected-resource document scopes_supported lists openid, profile, email, offline_access for the MCP resource.\n- Identity scopes only — API authorization is account/credit-based, not scope-partitioned; there are no per-tool or per-endpoint scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transcriptfetch/refs/heads/main/scopes/transcriptfetch-scopes.yml
+source_yaml_url: https://artifacts.apis.io/transcriptfetch/scopes/transcriptfetch-scopes.yml
 summary_line: 6 scopes
 tags:
 - Transcripts

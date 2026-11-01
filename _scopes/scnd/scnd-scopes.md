@@ -45,7 +45,7 @@ source_filename: scnd-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://features.scnd.com/v2.0/superadmin/oauth\ndocs: https://features.scnd.com/v2.0/superadmin/oauth\nnote: >-\n  Second's OAuth authorized-apps model exposes a coarse two-level permission\n  (\"scope\") selection rather than a fine-grained named-scope catalog. An\n  authorized app is granted one or both of the permissions below at registration.\n  No further per-resource scope reference is published in the docs.\nschemes:\n- name: OAuth2\n  flows: [clientCredentials, password, authorizationCode]\nscopes:\n- scope: private\n  description: Access to all frontend endpoints where a user auth is required.\n  flows: [password, authorizationCode]\n- scope: admin\n  description: Access to all backend endpoints where an admin (super-admin) auth is required.\n  flows: [clientCredentials, password, authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scnd/refs/heads/main/scopes/scnd-scopes.yml
+source_yaml_url: https://artifacts.apis.io/scnd/scopes/scnd-scopes.yml
 summary_line: 2 scopes · clientCredentials/password/authorizationCode
 tags:
 - Company

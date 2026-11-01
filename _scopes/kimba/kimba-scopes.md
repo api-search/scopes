@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://kimba.ai/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nnotes: >-\n  OAuth scopes advertised by the Shopify Customer Account API OIDC provider backing\n  the Kimba storefront (scopes_supported in the published openid-configuration).\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/kimba-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/76759498890/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/76759498890/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication (subject identifier).\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the customer's email address.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in buyer.\n  flows: [authorizationCode]\n\
   - scope: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API for agent-driven customer operations.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kimba/refs/heads/main/scopes/kimba-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kimba/scopes/kimba-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

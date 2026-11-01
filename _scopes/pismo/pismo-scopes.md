@@ -5,49 +5,49 @@ api_specs:
   label: Pismo Accounts API
   slug: pismo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-accounts-api-openapi.yml
 - filename: pismo-authorizations-api-openapi.yml
   format: yaml
   label: Pismo Authorizations API
   slug: pismo-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-authorizations-api-openapi.yml
 - filename: pismo-cards-api-openapi.yml
   format: yaml
   label: Pismo Cards API
   slug: pismo-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-cards-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-cards-api-openapi.yml
 - filename: pismo-customers-api-openapi.yml
   format: yaml
   label: Pismo Customers API
   slug: pismo-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-customers-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-customers-api-openapi.yml
 - filename: pismo-events-api-openapi.yml
   format: yaml
   label: Pismo Events API
   slug: pismo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-events-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-events-api-openapi.yml
 - filename: pismo-programs-api-openapi.yml
   format: yaml
   label: Pismo Programs API
   slug: pismo-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-programs-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-programs-api-openapi.yml
 - filename: pismo-statements-api-openapi.yml
   format: yaml
   label: Pismo Statements API
   slug: pismo-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-statements-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-statements-api-openapi.yml
 - filename: pismo-transactions-api-openapi.yml
   format: yaml
   label: Pismo Transactions API
   slug: pismo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/openapi/pismo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pismo/openapi/pismo-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.pismo.io/pismo-docs/docs/authentication-with-oauth2
@@ -95,7 +95,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/pismo-openapi.yml\ndocs: https://developers.pismo.io/pismo-docs/docs/authentication-with-oauth2\nnote: Pismo uses OAuth 2.0 client-credentials tokens with permission-group scopes\n  of the form pismo-v1:<resource>:<access>; only three example scopes are publicly\n  documented, and the complete list of API permission groups is only viewable by\n  customers inside Control Center per\n  https://developers.pismo.io/pismo-docs/docs/cc-api-permission-groups.\nschemes:\n- name: oauth2\n  source: openapi/pismo-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.pismo.io/passport/v2/oauth/token\nscopes:\n- scope: pismo-v1:accounts:rw\n  description: Read-write access to the accounts group of endpoints; documented as\n    an example permission-group scope in the OAuth2 authentication guide.\n  sources:\n  - https://developers.pismo.io/pismo-docs/docs/authentication-with-oauth2\n- scope: pismo-v1:cards:rw\n\
   \  description: Read-write access to the cards group of endpoints; documented as an\n    example permission-group scope in the OAuth2 authentication guide.\n  sources:\n  - https://developers.pismo.io/pismo-docs/docs/authentication-with-oauth2\n- scope: pismo-v1:bankaccounts:rw\n  description: Read-write access to the bank accounts group of endpoints; documented\n    as an example permission-group scope in the OAuth2 authentication guide.\n  sources:\n  - https://developers.pismo.io/pismo-docs/docs/authentication-with-oauth2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/scopes/pismo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pismo/scopes/pismo-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - Banking

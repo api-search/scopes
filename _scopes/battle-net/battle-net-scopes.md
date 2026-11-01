@@ -5,25 +5,25 @@ api_specs:
   label: Battle.net Card Backs API
   slug: battle-net-card-backs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-card-backs-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-card-backs-api-openapi.yml
 - filename: battle-net-cards-api-openapi.yml
   format: yaml
   label: Battle.net Cards API
   slug: battle-net-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-cards-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-cards-api-openapi.yml
 - filename: battle-net-decks-api-openapi.yml
   format: yaml
   label: Battle.net Decks API
   slug: battle-net-decks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-decks-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-decks-api-openapi.yml
 - filename: battle-net-metadata-api-openapi.yml
   format: yaml
   label: Battle.net Metadata API
   slug: battle-net-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/battle-net/openapi/battle-net-metadata-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://community.developer.battle.net/documentation/guides/using-oauth
@@ -76,7 +76,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/battle-net-hearthstone-game-data.yaml\ndocs: https://community.developer.battle.net/documentation/guides/using-oauth\nschemes:\n- name: oauth2\n  source: openapi/battle-net-hearthstone-game-data.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://oauth.battle.net/token\n  description: Battle.net OAuth 2.0 authentication. Use client credentials flow for game data\n    APIs.\nscopes:\n- scope: wow.profile\n  description: Access to a user's World of Warcraft characters.\n  sources:\n  - https://community.developer.battle.net/documentation/guides/using-oauth\n- scope: sc2.profile\n  description: Access to a user's StarCraft II profile.\n  sources:\n  - https://community.developer.battle.net/documentation/guides/using-oauth\n- scope: d3.profile\n  description: Access to a user's Diablo III profile.\n  sources:\n  - https://community.developer.battle.net/documentation/guides/using-oauth\n- scope: openid\n \
   \ description: Access details about a currently logged in user using OpenID Connect (OIDC).\n  sources:\n  - https://community.developer.battle.net/documentation/guides/using-oauth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/scopes/battle-net-scopes.yml
+source_yaml_url: https://artifacts.apis.io/battle-net/scopes/battle-net-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - Games

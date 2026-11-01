@@ -5,25 +5,25 @@ api_specs:
   label: Gravatar Avatars API
   slug: gravatar-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-avatars-api-openapi.yml
 - filename: gravatar-experimental-api-openapi.yml
   format: yaml
   label: Gravatar Experimental API
   slug: gravatar-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-experimental-api-openapi.yml
 - filename: gravatar-profiles-api-openapi.yml
   format: yaml
   label: Gravatar Profiles API
   slug: gravatar-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-profiles-api-openapi.yml
 - filename: gravatar-qr-code-api-openapi.yml
   format: yaml
   label: Gravatar Qr Code API
   slug: gravatar-qr-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/openapi/gravatar-qr-code-api-openapi.yml
+  url: https://artifacts.apis.io/gravatar/openapi/gravatar-qr-code-api-openapi.yml
 authorization_urls:
 - https://public-api.wordpress.com/oauth2/authorize
 description: ''
@@ -69,7 +69,7 @@ source_filename: gravatar-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/openapi.json\ndocs: https://docs.gravatar.com/api/oauth/\nschemes:\n- name: oauth\n  source: openapi/openapi.json\n  flows:\n  - flow: implicit\n    authorizationUrl: https://public-api.wordpress.com/oauth2/authorize\n  description: WordPress OAuth token to authenticate the request.\nscopes:\n- scope: auth\n  description: Required to work with any Gravatar endpoints; allows the user to authenticate.\n  sources:\n  - https://docs.gravatar.com/api/oauth/\n- scope: gravatar-profile:read\n  description: Allows access to the user's profile information, like avatar, about\n    info, or display name.\n  sources:\n  - https://docs.gravatar.com/api/oauth/\n- scope: gravatar-profile:manage\n  description: Allows editing the user's profile information, like avatar, about\n    info, or display name.\n  sources:\n  - https://docs.gravatar.com/api/oauth/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/scopes/gravatar-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gravatar/scopes/gravatar-scopes.yml
 summary_line: 3 scopes · implicit
 tags:
 - Avatars

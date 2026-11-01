@@ -5,169 +5,169 @@ api_specs:
   label: NextGen Healthcare Care Team API
   slug: nextgen-healthcare-careteam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-careteam-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-careteam-api-openapi.yml
 - filename: nextgen-healthcare-ccda-api-openapi.yml
   format: yaml
   label: NextGen Healthcare CCDA API
   slug: nextgen-healthcare-ccda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-ccda-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-ccda-api-openapi.yml
 - filename: nextgen-healthcare-condition-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Condition API
   slug: nextgen-healthcare-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-condition-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-condition-api-openapi.yml
 - filename: nextgen-healthcare-coverage-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Coverage API
   slug: nextgen-healthcare-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-coverage-api-openapi.yml
 - filename: nextgen-healthcare-device-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Device API
   slug: nextgen-healthcare-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-device-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-device-api-openapi.yml
 - filename: nextgen-healthcare-diagnosticreport-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Diagnostic Report API
   slug: nextgen-healthcare-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-diagnosticreport-api-openapi.yml
 - filename: nextgen-healthcare-encounter-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Encounter API
   slug: nextgen-healthcare-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-encounter-api-openapi.yml
 - filename: nextgen-healthcare-export-apis-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Export APIs API
   slug: nextgen-healthcare-export-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-export-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-export-apis-api-openapi.yml
 - filename: nextgen-healthcare-goal-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Goal API
   slug: nextgen-healthcare-goal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-goal-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-goal-api-openapi.yml
 - filename: nextgen-healthcare-group-apis-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Group APIs API
   slug: nextgen-healthcare-group-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-group-apis-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-group-apis-api-openapi.yml
 - filename: nextgen-healthcare-immunization-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Immunization API
   slug: nextgen-healthcare-immunization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-immunization-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-immunization-api-openapi.yml
 - filename: nextgen-healthcare-location-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Location API
   slug: nextgen-healthcare-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-location-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-location-api-openapi.yml
 - filename: nextgen-healthcare-medicationdispense-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Medication Dispense API
   slug: nextgen-healthcare-medicationdispense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-medicationdispense-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-medicationdispense-api-openapi.yml
 - filename: nextgen-healthcare-observation-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Observation API
   slug: nextgen-healthcare-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-observation-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-observation-api-openapi.yml
 - filename: nextgen-healthcare-organization-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Organization API
   slug: nextgen-healthcare-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-organization-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-organization-api-openapi.yml
 - filename: nextgen-healthcare-patient-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Patient API
   slug: nextgen-healthcare-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-patient-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-patient-api-openapi.yml
 - filename: nextgen-healthcare-patient-search-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Patient Search API
   slug: nextgen-healthcare-patient-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-patient-search-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-patient-search-api-openapi.yml
 - filename: nextgen-healthcare-practitioner-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Practitioner API
   slug: nextgen-healthcare-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-practitioner-api-openapi.yml
 - filename: nextgen-healthcare-procedure-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Procedure API
   slug: nextgen-healthcare-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-procedure-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-procedure-api-openapi.yml
 - filename: nextgen-healthcare-provenance-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Provenance API
   slug: nextgen-healthcare-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-provenance-api-openapi.yml
 - filename: nextgen-healthcare-relatedperson-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Related Person API
   slug: nextgen-healthcare-relatedperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-relatedperson-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-relatedperson-api-openapi.yml
 - filename: nextgen-healthcare-specimen-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Specimen API
   slug: nextgen-healthcare-specimen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-specimen-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-specimen-api-openapi.yml
 - filename: nextgen-healthcare-allergy-intolerance-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Allergy Intolerance API
   slug: nextgen-healthcare-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-allergy-intolerance-api-openapi.yml
 - filename: nextgen-healthcare-care-plan-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Care plan API
   slug: nextgen-healthcare-care-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-care-plan-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-care-plan-api-openapi.yml
 - filename: nextgen-healthcare-document-reference-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Document Reference API
   slug: nextgen-healthcare-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-document-reference-api-openapi.yml
 - filename: nextgen-healthcare-medication-administration-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Medication Administration API
   slug: nextgen-healthcare-medication-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-medication-administration-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-medication-administration-api-openapi.yml
 - filename: nextgen-healthcare-medication-request-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Medication Request API
   slug: nextgen-healthcare-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-medication-request-api-openapi.yml
 - filename: nextgen-healthcare-practitioner-role-api-openapi.yml
   format: yaml
   label: NextGen Healthcare Practitioner Role API
   slug: nextgen-healthcare-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/openapi/nextgen-healthcare-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/nextgen-healthcare/openapi/nextgen-healthcare-practitioner-role-api-openapi.yml
 authorization_urls:
 - https://fhir.nextgen.com/nge/prod/patient-oauth/authorize
 - https://idp-prod.prod.ngo.nextgenaws.net/auth/realms/nextgen/protocol/openid-connect/auth
@@ -268,7 +268,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: openapi/nextgen
   - scope: fhirUser\n  description: Return the fhirUser claim identifying the authorized user's FHIR resource\n  sources:\n  - fhir/nextgen-office-r4-smart-configuration.json\n- scope: launch\n  description: SMART EHR launch context\n  sources:\n  - fhir/nextgen-enterprise-r4-smart-configuration.json\n  - fhir/nextgen-office-r4-smart-configuration.json\n- scope: launch/patient\n  description: Request a patient-scoped access token (standalone launch)\n  sources:\n  - fhir/nextgen-enterprise-r4-smart-configuration.json\n  - fhir/nextgen-office-r4-smart-configuration.json\n- scope: launch/encounter\n  description: Request an encounter-scoped access token\n  sources:\n  - fhir/nextgen-enterprise-r4-smart-configuration.json\n  - fhir/nextgen-office-r4-smart-configuration.json\n- scope: patient/*.*\n  description: Full access to all FHIR resources in the patient compartment (Enterprise)\n  sources:\n  - fhir/nextgen-enterprise-r4-smart-configuration.json\n- scope: user/*.*\n  description: Full\
   \ access to all FHIR resources the user can see (Enterprise)\n  sources:\n  - fhir/nextgen-enterprise-r4-smart-configuration.json\n- scope: patient/[Resource].rs\n  description: SMART v2 granular read+search on a US Core resource in the patient compartment (Office; e.g. patient/Observation.rs)\n  sources:\n  - fhir/nextgen-office-r4-smart-configuration.json\n- scope: user/[Resource].rs\n  description: SMART v2 granular read+search on a US Core resource for the user (Office)\n  sources:\n  - fhir/nextgen-office-r4-smart-configuration.json\n- scope: system/[Resource].rs\n  description: SMART Backend Services granular read+search on a US Core resource (Office; client_credentials)\n  sources:\n  - fhir/nextgen-office-r4-smart-configuration.json\n- scope: patient/Observation.rs?category=laboratory\n  description: Category-filtered granular scope (Office advertises vital-signs, laboratory, social-history, survey,\n    imaging, exam, procedure, activity, therapy, functional-status, cognitive-status,\
   \ disability-status, sdoh variants)\n  sources:\n  - fhir/nextgen-office-r4-smart-configuration.json\ndocs_additional:\n- https://fhir.meditouchehr.com/api/fhir/r4/.well-known/smart-configuration\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/scopes/nextgen-healthcare-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nextgen-healthcare/scopes/nextgen-healthcare-scopes.yml
 summary_line: 12 scopes · authorizationCode/clientCredentials
 tags:
 - Healthcare

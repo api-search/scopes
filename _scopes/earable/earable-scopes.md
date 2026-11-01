@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://frenzband.com/.well-known/openid-configuration\nnotes: >-\n  OAuth/OIDC scopes advertised by the Shopify Customer Account API for the\n  frenzband.com storefront (scopes_supported in the OIDC discovery document).\n  Platform-provided by Shopify.\nschemes:\n- name: shopify-customer-account\n  source: https://frenzband.com/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.frenzband.com/authentication/oauth/authorize\n    tokenUrl: https://account.frenzband.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication of the storefront customer.\n  flows:\n  - authorizationCode\n- scope: email\n  description: Access to the authenticated customer's email address.\n  flows:\n  - authorizationCode\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in customer.\n\
   \  flows:\n  - authorizationCode\n- scope: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API surface for agent-driven customer actions.\n  flows:\n  - authorizationCode\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/earable/refs/heads/main/scopes/earable-scopes.yml
+source_yaml_url: https://artifacts.apis.io/earable/scopes/earable-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

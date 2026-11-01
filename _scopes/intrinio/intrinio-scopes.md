@@ -45,7 +45,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: searched\nsource: https://intrinio-mcp.intrinio.com/.well-known/oauth-authorization-server\nschemes:\n  - name: Intrinio MCP OAuth\n    source: well-known/intrinio-oauth-authorization-server.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://intrinio-mcp.intrinio.com/authorize\n        tokenUrl: https://intrinio-mcp.intrinio.com/token\n        refreshUrl: https://intrinio-mcp.intrinio.com/token\n    pkce: S256\n    dynamic_client_registration: https://intrinio-mcp.intrinio.com/register\n    revocation: https://intrinio-mcp.intrinio.com/revoke\nscopes:\n  - scope: intrinio\n    description: >-\n      Single advertised scope for the Intrinio MCP server (scopes_supported in the RFC 8414\n      authorization-server metadata and RFC 9728 protected-resource metadata). Grants access\n      to the Intrinio data catalog through the MCP surface; effective dataset entitlements\n      are governed by the account's subscription\
   \ tier, not by finer-grained OAuth scopes.\n    flows: [authorizationCode]\n    sources: [well-known/intrinio-oauth-authorization-server.json]\nnotes: >-\n  The core REST API (api-v2.intrinio.com) is API-key authenticated and exposes no OAuth\n  scope surface; this scope model applies to the hosted MCP server only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/scopes/intrinio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/intrinio/scopes/intrinio-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Finance

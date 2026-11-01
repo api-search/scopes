@@ -5,19 +5,19 @@ api_specs:
   label: Community Member Data API
   slug: community-member-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-member-data-api-openapi.yml
+  url: https://artifacts.apis.io/community/openapi/community-member-data-api-openapi.yml
 - filename: community-messaging-api-openapi.yml
   format: yaml
   label: Community Messaging API
   slug: community-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/community/openapi/community-messaging-api-openapi.yml
 - filename: community-tags-api-openapi.yml
   format: yaml
   label: Community Tags API
   slug: community-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-tags-api-openapi.yml
+  url: https://artifacts.apis.io/community/openapi/community-tags-api-openapi.yml
 authorization_urls:
 - https://oauth-login.community.com/
 description: ''
@@ -66,7 +66,7 @@ source_filename: community-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/community-member-data-api-openapi.yml, openapi/community-messaging-api-openapi.yml,\n  openapi/community-tags-api-openapi.yml\nschemes:\n- name: oAuth\n  source: openapi/community-member-data-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth-login.community.com/\n    tokenUrl: /oauth/v1/token\n- name: oAuth\n  source: openapi/community-messaging-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth-login.community.com/\n    tokenUrl: /oauth/v1/token\n- name: oAuth\n  source: openapi/community-tags-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth-login.community.com/\n    tokenUrl: /oauth/v1/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/scopes/community-scopes.yml
+source_yaml_url: https://artifacts.apis.io/community/scopes/community-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Messaging

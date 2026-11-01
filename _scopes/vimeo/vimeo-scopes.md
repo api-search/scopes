@@ -11,25 +11,25 @@ api_specs:
   label: Vimeo Albums API
   slug: vimeo-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-albums-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-albums-api-openapi.yml
 - filename: vimeo-channels-api-openapi.yml
   format: yaml
   label: Vimeo Channels API
   slug: vimeo-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-channels-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-channels-api-openapi.yml
 - filename: vimeo-users-api-openapi.yml
   format: yaml
   label: Vimeo Users API
   slug: vimeo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-users-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-users-api-openapi.yml
 - filename: vimeo-videos-api-openapi.yml
   format: yaml
   label: Vimeo Videos API
   slug: vimeo-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-videos-api-openapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-videos-api-openapi.yml
 authorization_urls:
 - https://api.vimeo.com/oauth/authorize
 description: ''
@@ -101,7 +101,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vimeo-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/vimeo-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.vimeo.com/oauth/authorize\n    tokenUrl: https://api.vimeo.com/oauth/access_token\n  - flow: clientCredentials\n    tokenUrl: https://api.vimeo.com/oauth/authorize/client\nscopes:\n- scope: create\n  description: Create albums, channels, etc.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/vimeo-openapi.yml\n- scope: delete\n  description: Delete videos, albums, channels\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/vimeo-openapi.yml\n- scope: edit\n  description: Edit videos, albums, channels\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/vimeo-openapi.yml\n- scope: private\n  description: Access private data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/vimeo-openapi.yml\n- scope: public\n  description: Access public data\n\
   \  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/vimeo-openapi.yml\n- scope: upload\n  description: Upload videos\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/vimeo-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/scopes/vimeo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vimeo/scopes/vimeo-scopes.yml
 summary_line: 6 scopes · authorizationCode/clientCredentials
 tags:
 - Video

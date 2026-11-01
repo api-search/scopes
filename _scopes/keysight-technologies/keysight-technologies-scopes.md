@@ -5,7 +5,7 @@ api_specs:
   label: Keysight Technologies API
   slug: keysight-technologies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysight-technologies/refs/heads/main/openapi/_ae-authored/keysight-technologies-openapi-generated.yml
+  url: https://artifacts.apis.io/keysight-technologies/openapi/_ae-authored/keysight-technologies-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: https://github.com/Keysight/cyperf-api-wrapper/blob/main/README.md#documentation-for-authorization
@@ -39,7 +39,7 @@ source_filename: keysight-technologies-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "name: Keysight CyPerf OAuth scopes\ngenerated: '2026-10-19'\nmethod: searched\nsource: https://github.com/Keysight/cyperf-api-wrapper/blob/main/README.md\ndocs: https://github.com/Keysight/cyperf-api-wrapper/blob/main/README.md#documentation-for-authorization\nscopes:\n- name: offline_access\n  description: Required.\n- name: openid\n  description: Required.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keysight-technologies/refs/heads/main/scopes/keysight-technologies-scopes.yml
+source_yaml_url: https://artifacts.apis.io/keysight-technologies/scopes/keysight-technologies-scopes.yml
 summary_line: 2 scopes
 tags:
 - Network Testing

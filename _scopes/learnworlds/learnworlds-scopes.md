@@ -5,43 +5,43 @@ api_specs:
   label: LearnWorlds Courses API
   slug: learnworlds-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-courses-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-courses-api-openapi.yml
 - filename: learnworlds-enrollments-api-openapi.yml
   format: yaml
   label: LearnWorlds Enrollments API
   slug: learnworlds-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-enrollments-api-openapi.yml
 - filename: learnworlds-payments-api-openapi.yml
   format: yaml
   label: LearnWorlds Payments API
   slug: learnworlds-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-payments-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-payments-api-openapi.yml
 - filename: learnworlds-progress-api-openapi.yml
   format: yaml
   label: LearnWorlds Progress API
   slug: learnworlds-progress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-progress-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-progress-api-openapi.yml
 - filename: learnworlds-tags-api-openapi.yml
   format: yaml
   label: LearnWorlds Tags API
   slug: learnworlds-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-tags-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-tags-api-openapi.yml
 - filename: learnworlds-users-api-openapi.yml
   format: yaml
   label: LearnWorlds Users API
   slug: learnworlds-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-users-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-users-api-openapi.yml
 - filename: learnworlds-webhooks-api-openapi.yml
   format: yaml
   label: LearnWorlds Webhooks API
   slug: learnworlds-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/openapi/learnworlds-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/learnworlds/openapi/learnworlds-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/learnworlds
   \  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-payments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-progress-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it\
   \ as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-tags-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-users-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\n- name: oauth2ClientCredentials\n  source: openapi/learnworlds-webhooks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
   \    tokenUrl: https://yourschool.learnworlds.com/admin/api/oauth2/access_token\n  description: 'OAuth2 client credentials flow. Exchange your client_id and client_secret for\n    a bearer access token at the school token endpoint, then pass it as Authorization: Bearer\n    ACCESS_TOKEN.'\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/scopes/learnworlds-scopes.yml
+source_yaml_url: https://artifacts.apis.io/learnworlds/scopes/learnworlds-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Online Courses

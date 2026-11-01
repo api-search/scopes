@@ -5,25 +5,25 @@ api_specs:
   label: SailPoint Access Profiles API
   slug: sailpoint-access-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-access-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-access-profiles-api-openapi.yml
 - filename: sailpoint-certifications-api-openapi.yml
   format: yaml
   label: SailPoint Certifications API
   slug: sailpoint-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-certifications-api-openapi.yml
 - filename: sailpoint-identities-api-openapi.yml
   format: yaml
   label: SailPoint Identities API
   slug: sailpoint-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-identities-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-identities-api-openapi.yml
 - filename: sailpoint-roles-api-openapi.yml
   format: yaml
   label: SailPoint Roles API
   slug: sailpoint-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/openapi/sailpoint-roles-api-openapi.yml
+  url: https://artifacts.apis.io/sailpoint/openapi/sailpoint-roles-api-openapi.yml
 authorization_urls:
 - https://{tenant}.identitynow.com/oauth/authorize
 description: ''
@@ -132,7 +132,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/identity-security-cloud-v3.yml\nschemes:\n- name: oauth2\n  source: openapi/identity-security-cloud-v3.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.api.identitynow.com/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: https://{tenant}.identitynow.com/oauth/authorize\n    tokenUrl: https://{tenant}.api.identitynow.com/oauth/token\n  description: OAuth 2.0 authentication. Use client credentials or authorization code flow to\n    obtain access tokens.\nscopes:\n- scope: idn:access-profile:manage\n  description: Manage access profiles\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/identity-security-cloud-v3.yml\n- scope: idn:access-profile:read\n  description: Read access profiles\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/identity-security-cloud-v3.yml\n- scope: idn:certification:manage\n  description: Manage\
   \ certifications\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/identity-security-cloud-v3.yml\n- scope: idn:certification:read\n  description: Read certifications\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/identity-security-cloud-v3.yml\n- scope: idn:entitlement:read\n  description: Read entitlements\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/identity-security-cloud-v3.yml\n- scope: idn:identity-profile:manage\n  description: Manage identity profiles\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/identity-security-cloud-v3.yml\n- scope: idn:identity-profile:read\n  description: Read identity profiles\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/identity-security-cloud-v3.yml\n- scope: idn:identity:read\n  description: Read identity information\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n\
   \  - openapi/identity-security-cloud-v3.yml\n- scope: idn:role-unchecked:manage\n  description: Manage roles\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/identity-security-cloud-v3.yml\n- scope: idn:role-unchecked:read\n  description: Read roles\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/identity-security-cloud-v3.yml\n- scope: idn:sources:read\n  description: Read sources\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/identity-security-cloud-v3.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/scopes/sailpoint-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sailpoint/scopes/sailpoint-scopes.yml
 summary_line: 11 scopes · clientCredentials/authorizationCode
 tags:
 - Access Governance

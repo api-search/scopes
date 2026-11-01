@@ -5,55 +5,55 @@ api_specs:
   label: Riot Awareness API
   slug: riot-awareness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-awareness-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-awareness-api-openapi.yml
 - filename: riot-breaches-api-openapi.yml
   format: yaml
   label: Riot Breaches API
   slug: riot-breaches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-breaches-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-breaches-api-openapi.yml
 - filename: riot-general-api-openapi.yml
   format: yaml
   label: Riot General API
   slug: riot-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-general-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-general-api-openapi.yml
 - filename: riot-groups-api-openapi.yml
   format: yaml
   label: Riot Groups API
   slug: riot-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-groups-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-groups-api-openapi.yml
 - filename: riot-inbox-api-openapi.yml
   format: yaml
   label: Riot Inbox API
   slug: riot-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-inbox-api-openapi.yml
 - filename: riot-scim-api-openapi.yml
   format: yaml
   label: Riot SCIM API
   slug: riot-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-scim-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-scim-api-openapi.yml
 - filename: riot-simulation-api-openapi.yml
   format: yaml
   label: Riot Simulation API
   slug: riot-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-simulation-api-openapi.yml
 - filename: riot-slash-api-openapi.yml
   format: yaml
   label: Riot Slash API
   slug: riot-slash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-slash-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-slash-api-openapi.yml
 - filename: riot-sonar-api-openapi.yml
   format: yaml
   label: Riot Sonar API
   slug: riot-sonar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-sonar-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-sonar-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.tryriot.com/
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: https://public-
   \ of that organization.\n  - level: workspace\n    description: >-\n      Workspace-scoped keys are restricted to a single workspace. Requests targeting a different workspace\n      through a `workspace_id` parameter are rejected with a 403 status code.\n  enforcement_status: 403\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  source: openapi/riot-public-api-openapi.yml\n  flows: []\nscopes:\n- scope: awareness:read\n  description: Read access to the awareness surface — courses, course settings and employee learning progress.\n  likely_operations:\n  - courses_get_paginated_DJESCNQ\n  - courses_get_statistics_DJESCNQ\n  - courses_get_employees_progress_DJESCNQ\n  - courses_get_course_statuses_of_employees_DJESCNQ\n  binding: inferred-from-tag\n  confidence: medium\n  sources:\n  - https://public-api.tryriot.com/openapi\n- scope: simulation:read\n  description: Read access to the phishing simulation surface — campaigns, attacks, attack events and login\
   \ domains.\n  likely_operations:\n  - campaigns_get_paginated_CWCTX3I\n  - campaigns_get_statistics_CWCTX3I\n  - attacks_get_paginated_KCLEOEQ\n  - attack_login_domains_get_attack_login_domain_paginated_XU5W4YI\n  binding: inferred-from-tag\n  confidence: medium\n  sources:\n  - https://public-api.tryriot.com/openapi\n- scope: breach:read\n  description: Read access to credential breach data and compromised employees.\n  likely_operations:\n  - breaches_get_paginated_FAUE35Y\n  - breaches_get_statistics_FAUE35Y\n  - breaches_get_breach_compromised_employees_FAUE35Y\n  binding: inferred-from-tag\n  confidence: medium\n  sources:\n  - https://public-api.tryriot.com/openapi\n- scope: workspace:read\n  description: Read access to organization and workspace metadata, employees, groups and domains.\n  likely_operations:\n  - organizations_get_XEBQFJQ\n  - employees_get_paginated_LRY7OLI\n  - employees_get_LRY7OLI\n  - employees_get_statistics_LRY7OLI\n  - groups_get_paginated_BOILCUA\n  - groups_get_group_employees_BOILCUA\n\
   \  - domains_get_paginated_domains_OOWLIAA\n  binding: inferred-from-tag\n  confidence: medium\n  sources:\n  - https://public-api.tryriot.com/openapi\ngaps:\n- >-\n  The documented scope list is introduced with \"such as\", so it may not be exhaustive. No scope is published\n  for the Inbox/Slash endpoints or for the SCIM 2.0 provisioning surface.\n- >-\n  No per-operation `security[]` scope requirements appear in the OpenAPI, so an agent cannot compute the\n  minimum scope set for a call from the machine-readable contract alone.\n- API keys are not self-service — the docs state customers must contact the technical team to acquire one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/scopes/riot-scopes.yml
+source_yaml_url: https://artifacts.apis.io/riot/scopes/riot-scopes.yml
 summary_line: 4 scopes
 tags:
 - Cybersecurity

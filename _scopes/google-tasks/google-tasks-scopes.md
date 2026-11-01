@@ -5,13 +5,13 @@ api_specs:
   label: Google Tasks Lists API
   slug: google-tasks-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/openapi/google-tasks-lists-api-openapi.yml
+  url: https://artifacts.apis.io/google-tasks/openapi/google-tasks-lists-api-openapi.yml
 - filename: google-tasks-users-api-openapi.yml
   format: yaml
   label: Google Tasks Users API
   slug: google-tasks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/openapi/google-tasks-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-tasks/openapi/google-tasks-users-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -58,7 +58,7 @@ source_filename: google-tasks-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tasks.yml\nschemes:\n- name: oauth2\n  source: openapi/tasks.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/tasks\n  description: Create, edit, organize, and delete all your tasks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tasks.yml\n- scope: https://www.googleapis.com/auth/tasks.readonly\n  description: View your tasks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/tasks.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/scopes/google-tasks-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-tasks/scopes/google-tasks-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Google

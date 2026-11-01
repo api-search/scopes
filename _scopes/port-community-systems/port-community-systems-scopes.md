@@ -5,31 +5,31 @@ api_specs:
   label: Port Community Systems CargoManifests API
   slug: port-community-systems-cargomanifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-cargomanifests-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-cargomanifests-api-openapi.yml
 - filename: port-community-systems-containers-api-openapi.yml
   format: yaml
   label: Port Community Systems Containers API
   slug: port-community-systems-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-containers-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-containers-api-openapi.yml
 - filename: port-community-systems-customsdeclarations-api-openapi.yml
   format: yaml
   label: Port Community Systems CustomsDeclarations API
   slug: port-community-systems-customsdeclarations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-customsdeclarations-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-customsdeclarations-api-openapi.yml
 - filename: port-community-systems-hazardouscargo-api-openapi.yml
   format: yaml
   label: Port Community Systems HazardousCargo API
   slug: port-community-systems-hazardouscargo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-hazardouscargo-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-hazardouscargo-api-openapi.yml
 - filename: port-community-systems-vesselcalls-api-openapi.yml
   format: yaml
   label: Port Community Systems VesselCalls API
   slug: port-community-systems-vesselcalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-vesselcalls-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-vesselcalls-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -84,7 +84,7 @@ source_filename: port-community-systems-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/portbase-port-community-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/portbase-port-community-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.portbase.com/oauth2/token\nscopes:\n- scope: customs.write\n  description: Submit customs declarations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/portbase-port-community-openapi.yml\n- scope: manifests.write\n  description: Submit cargo manifests\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/portbase-port-community-openapi.yml\n- scope: vessel-calls.read\n  description: Read vessel call data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/portbase-port-community-openapi.yml\n- scope: vessel-calls.write\n  description: Submit and update vessel calls\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/portbase-port-community-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/scopes/port-community-systems-scopes.yml
+source_yaml_url: https://artifacts.apis.io/port-community-systems/scopes/port-community-systems-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - Maritime

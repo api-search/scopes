@@ -5,37 +5,37 @@ api_specs:
   label: Buoy Health Complaints API
   slug: buoy-health-complaints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-complaints-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-complaints-api-openapi.yml
 - filename: buoy-health-intents-api-openapi.yml
   format: yaml
   label: Buoy Health Intents API
   slug: buoy-health-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-intents-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-intents-api-openapi.yml
 - filename: buoy-health-interviews-api-openapi.yml
   format: yaml
   label: Buoy Health Interviews API
   slug: buoy-health-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-interviews-api-openapi.yml
 - filename: buoy-health-queries-api-openapi.yml
   format: yaml
   label: Buoy Health Queries API
   slug: buoy-health-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-queries-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-queries-api-openapi.yml
 - filename: buoy-health-questions-api-openapi.yml
   format: yaml
   label: Buoy Health Questions API
   slug: buoy-health-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-questions-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-questions-api-openapi.yml
 - filename: buoy-health-results-api-openapi.yml
   format: yaml
   label: Buoy Health Results API
   slug: buoy-health-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/openapi/buoy-health-results-api-openapi.yml
+  url: https://artifacts.apis.io/buoy-health/openapi/buoy-health-results-api-openapi.yml
 authorization_urls:
 - https://auth.sandbox.buoyhealth.com/authorize
 description: ''
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-08-08'\nmethod: searched\nsource: https://auth.bu
   \ [well-known/buoy-health-openid-configuration.json]\n- scope: name\n  description: The subject's full name claim.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\n- scope: given_name\n  description: The subject's given name claim.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\n- scope: family_name\n  description: The subject's family name claim.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\n- scope: nickname\n  description: The subject's nickname claim.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\n- scope: email\n  description: The subject's email address claim.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\n- scope: email_verified\n  description: Whether the subject's email address has been verified.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\n\
   - scope: picture\n  description: The subject's profile picture claim.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\n- scope: created_at\n  description: When the subject's identity record was created.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\n- scope: identities\n  description: Linked identity-provider records for the subject.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\n- scope: phone\n  description: The subject's phone number claim.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\n- scope: address\n  description: The subject's address claim.\n  kind: oidc-identity\n  sources: [well-known/buoy-health-openid-configuration.json]\nx-evidence:\n- url: https://auth.buoyhealth.com/.well-known/openid-configuration\n  http_status: 200\n  fetched: '2026-08-08'\n- url: https://auth.buoyhealth.com/.well-known/oauth-authorization-server\n\
   \  http_status: 200\n  fetched: '2026-08-08'\n- url: https://auth.sandbox.buoyhealth.com/.well-known/openid-configuration\n  http_status: 200\n  fetched: '2026-08-08'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buoy-health/refs/heads/main/scopes/buoy-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/buoy-health/scopes/buoy-health-scopes.yml
 summary_line: 14 scopes · authorizationCode
 tags:
 - Symptom Checker

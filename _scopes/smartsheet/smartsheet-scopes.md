@@ -5,31 +5,31 @@ api_specs:
   label: Smartsheet Columns API
   slug: smartsheet-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-columns-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-columns-api-openapi.yml
 - filename: smartsheet-reports-api-openapi.yml
   format: yaml
   label: Smartsheet Reports API
   slug: smartsheet-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-reports-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-reports-api-openapi.yml
 - filename: smartsheet-rows-api-openapi.yml
   format: yaml
   label: Smartsheet Rows API
   slug: smartsheet-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-rows-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-rows-api-openapi.yml
 - filename: smartsheet-sheets-api-openapi.yml
   format: yaml
   label: Smartsheet Sheets API
   slug: smartsheet-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-sheets-api-openapi.yml
 - filename: smartsheet-webhooks-api-openapi.yml
   format: yaml
   label: Smartsheet Webhooks API
   slug: smartsheet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-webhooks-api-openapi.yml
 authorization_urls:
 - https://app.smartsheet.com/b/authorize
 description: ''
@@ -118,7 +118,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smartsheet-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/smartsheet-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.smartsheet.com/b/authorize\n    tokenUrl: https://api.smartsheet.com/2.0/token\n  description: Smartsheet OAuth 2.0 authorization.\nscopes:\n- scope: ADMIN_SHEETS\n  description: Sheet admin\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/smartsheet-openapi.yml\n- scope: ADMIN_USERS\n  description: User admin\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/smartsheet-openapi.yml\n- scope: ADMIN_WEBHOOKS\n  description: Webhook admin\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/smartsheet-openapi.yml\n- scope: ADMIN_WORKSPACES\n  description: Workspace admin\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/smartsheet-openapi.yml\n- scope: DELETE_SHEETS\n  description: Delete sheets\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/smartsheet-openapi.yml\n- scope: READ_CONTACTS\n  description: View contacts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/smartsheet-openapi.yml\n- scope: READ_SHEETS\n  description: View sheets\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/smartsheet-openapi.yml\n- scope: READ_USERS\n  description: View users\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/smartsheet-openapi.yml\n- scope: SHARE_SHEETS\n  description: Share sheets\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/smartsheet-openapi.yml\n- scope: WRITE_SHEETS\n  description: Edit sheets\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/smartsheet-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/scopes/smartsheet-scopes.yml
+source_yaml_url: https://artifacts.apis.io/smartsheet/scopes/smartsheet-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
 - Work Management

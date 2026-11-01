@@ -5,175 +5,175 @@ api_specs:
   label: Leadping Analytics API
   slug: leadping-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-analytics-api-openapi.yml
 - filename: leadping-automations-api-openapi.yml
   format: yaml
   label: Leadping Automations API
   slug: leadping-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-automations-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-automations-api-openapi.yml
 - filename: leadping-callevents-api-openapi.yml
   format: yaml
   label: Leadping Call Events API
   slug: leadping-callevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-callevents-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-callevents-api-openapi.yml
 - filename: leadping-calls-api-openapi.yml
   format: yaml
   label: Leadping Calls API
   slug: leadping-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-calls-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-calls-api-openapi.yml
 - filename: leadping-contact-api-openapi.yml
   format: yaml
   label: Leadping Contact API
   slug: leadping-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-contact-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-contact-api-openapi.yml
 - filename: leadping-conversations-api-openapi.yml
   format: yaml
   label: Leadping Conversations API
   slug: leadping-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-conversations-api-openapi.yml
 - filename: leadping-events-api-openapi.yml
   format: yaml
   label: Leadping Events API
   slug: leadping-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-events-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-events-api-openapi.yml
 - filename: leadping-feedback-api-openapi.yml
   format: yaml
   label: Leadping Feedback API
   slug: leadping-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-feedback-api-openapi.yml
 - filename: leadping-leads-api-openapi.yml
   format: yaml
   label: Leadping Leads API
   slug: leadping-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-leads-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-leads-api-openapi.yml
 - filename: leadping-leadstatuschanges-api-openapi.yml
   format: yaml
   label: Leadping Lead Status Changes API
   slug: leadping-leadstatuschanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-leadstatuschanges-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-leadstatuschanges-api-openapi.yml
 - filename: leadping-notifications-api-openapi.yml
   format: yaml
   label: Leadping Notifications API
   slug: leadping-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-notifications-api-openapi.yml
 - filename: leadping-organizations-api-openapi.yml
   format: yaml
   label: Leadping Organizations API
   slug: leadping-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-organizations-api-openapi.yml
 - filename: leadping-outbounddelivery-api-openapi.yml
   format: yaml
   label: Leadping Outbound Delivery API
   slug: leadping-outbounddelivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-outbounddelivery-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-outbounddelivery-api-openapi.yml
 - filename: leadping-sms-api-openapi.yml
   format: yaml
   label: Leadping Sms API
   slug: leadping-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-sms-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-sms-api-openapi.yml
 - filename: leadping-smsevents-api-openapi.yml
   format: yaml
   label: Leadping Sms Events API
   slug: leadping-smsevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-smsevents-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-smsevents-api-openapi.yml
 - filename: leadping-sources-api-openapi.yml
   format: yaml
   label: Leadping Sources API
   slug: leadping-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-sources-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-sources-api-openapi.yml
 - filename: leadping-suppressions-api-openapi.yml
   format: yaml
   label: Leadping Suppressions API
   slug: leadping-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-suppressions-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-suppressions-api-openapi.yml
 - filename: leadping-tags-api-openapi.yml
   format: yaml
   label: Leadping Tags API
   slug: leadping-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-tags-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-tags-api-openapi.yml
 - filename: leadping-telephony-api-openapi.yml
   format: yaml
   label: Leadping Telephony API
   slug: leadping-telephony-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-telephony-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-telephony-api-openapi.yml
 - filename: leadping-transactions-api-openapi.yml
   format: yaml
   label: Leadping Transactions API
   slug: leadping-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-transactions-api-openapi.yml
 - filename: leadping-usage-api-openapi.yml
   format: yaml
   label: Leadping Usage API
   slug: leadping-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-usage-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-usage-api-openapi.yml
 - filename: leadping-userdataexports-api-openapi.yml
   format: yaml
   label: Leadping User Data Exports API
   slug: leadping-userdataexports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-userdataexports-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-userdataexports-api-openapi.yml
 - filename: leadping-users-api-openapi.yml
   format: yaml
   label: Leadping Users API
   slug: leadping-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-users-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-users-api-openapi.yml
 - filename: leadping-wallets-api-openapi.yml
   format: yaml
   label: Leadping Wallets API
   slug: leadping-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-wallets-api-openapi.yml
 - filename: leadping-blogarticles-api-openapi.yml
   format: yaml
   label: Leadping Blog Articles API
   slug: leadping-blogarticles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-blogarticles-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-blogarticles-api-openapi.yml
 - filename: leadping-leadping-api-api-openapi.yml
   format: yaml
   label: Leadping Leadping API
   slug: leadping-leadping-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-leadping-api-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-leadping-api-api-openapi.yml
 - filename: leadping-lead-statuses-api-openapi.yml
   format: yaml
   label: Leadping Lead Statuses API
   slug: leadping-lead-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-lead-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-lead-statuses-api-openapi.yml
 - filename: leadping-payment-methods-api-openapi.yml
   format: yaml
   label: Leadping Payment Methods API
   slug: leadping-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-payment-methods-api-openapi.yml
 - filename: leadping-phone-numbers-api-openapi.yml
   format: yaml
   label: Leadping Phone Numbers API
   slug: leadping-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/openapi/leadping-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/leadping/openapi/leadping-phone-numbers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://leadping.ai/docs/api-authentication
@@ -221,7 +221,7 @@ source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: https://leadping.
   \ \"agent_auth\" block — outside the OAuth spec and\n    outside the scope vocabulary — that is the closest thing Leadping publishes to an agent\n    authorization surface.\n  skill: https://leadping.ai/auth.md\n  identity_endpoint: https://motivated-run-93.authkit.app/agent/identity\n  claim_endpoint: https://motivated-run-93.authkit.app/agent/identity/claim\n  revocation_endpoint: https://motivated-run-93.authkit.app/oauth2/revoke\n  identity_types_supported:\n    - identity_assertion\n  assertion_types_supported:\n    - verified_email\n  credential_types_supported:\n    - access_token\ngaps:\n  - >-\n    No resource-scope vocabulary. Nothing published lets a client request or a resource server\n    advertise least-privilege access to a Leadping capability — an access token is scoped by the\n    organization membership and role behind it, not by a requested scope. An agent cannot ask for\n    read-only access to leads and be granted exactly that.\n  - >-\n    The A2A Agent Card names\
   \ a \"leads:read permission\" in the PROSE of its securityScheme description\n    (a2a/leadping-agent-card.json), and its skill securityRequirements carry an EMPTY scope list. So a\n    permission name exists in Leadping's world but appears in no machine-readable scope registry, in\n    no securityScheme in the OpenAPI, and in neither discovery document. This is the single clearest\n    scope gap in the profile.\n  - >-\n    The two authorization documents disagree on offline_access (see the scope note above).\n  - No scopes or permissions reference page is published; https://leadping.ai/docs/scopes 404s.\nprobes:\n  - url: https://leadping.ai/.well-known/oauth-authorization-server\n    status: 200\n    fetched: '2026-09-03'\n  - url: https://api.leadping.ai/.well-known/oauth-protected-resource\n    status: 200\n    fetched: '2026-09-03'\n  - url: https://leadping.ai/.well-known/openid-configuration\n    status: 200\n    fetched: '2026-09-03'\n  - url: https://leadping.ai/docs/scopes\n\
   \    status: 404\n    fetched: '2026-09-03'\n  - url: https://leadping.ai/docs/permissions\n    status: 404\n    fetched: '2026-09-03'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadping/refs/heads/main/scopes/leadping-scopes.yml
+source_yaml_url: https://artifacts.apis.io/leadping/scopes/leadping-scopes.yml
 summary_line: 4 scopes
 tags:
 - Lead Management

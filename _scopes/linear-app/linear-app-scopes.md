@@ -56,7 +56,7 @@ source_filename: linear-app-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/linear-graphql-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/linear-graphql-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://linear.app/oauth/authorize\n    tokenUrl: https://api.linear.app/oauth/token\n  description: OAuth 2.0 authorization code flow\nscopes:\n- scope: issues:create\n  description: Create issues\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/linear-graphql-openapi.yml\n- scope: issues:read\n  description: Read issues\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/linear-graphql-openapi.yml\n- scope: read\n  description: Read access to all resources\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/linear-graphql-openapi.yml\n- scope: write\n  description: Write access to all resources\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/linear-graphql-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/scopes/linear-app-scopes.yml
+source_yaml_url: https://artifacts.apis.io/linear-app/scopes/linear-app-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Project Management

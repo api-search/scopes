@@ -5,31 +5,31 @@ api_specs:
   label: Allianz Future Cloud Platform Deployments API
   slug: allianz-future-cloud-platform-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-deployments-api-openapi.yml
 - filename: allianz-future-cloud-platform-infrastructure-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Infrastructure API
   slug: allianz-future-cloud-platform-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-infrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-infrastructure-api-openapi.yml
 - filename: allianz-future-cloud-platform-namespaces-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Namespaces API
   slug: allianz-future-cloud-platform-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-namespaces-api-openapi.yml
 - filename: allianz-future-cloud-platform-observability-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Observability API
   slug: allianz-future-cloud-platform-observability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-observability-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-observability-api-openapi.yml
 - filename: allianz-future-cloud-platform-services-api-openapi.yml
   format: yaml
   label: Allianz Future Cloud Platform Services API
   slug: allianz-future-cloud-platform-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-services-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-future-cloud-platform/openapi/allianz-future-cloud-platform-services-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -96,7 +96,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/allianz-future-cloud-platform-services.yaml\nschemes:\n- name: OAuth2\n  source: openapi/allianz-future-cloud-platform-services.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://platform.allianz.com/oauth2/token\n  description: OAuth2 for Allianz internal platform API access\nscopes:\n- scope: deployments:read\n  description: Read deployment history\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-future-cloud-platform-services.yaml\n- scope: deployments:write\n  description: Trigger deployments\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-future-cloud-platform-services.yaml\n- scope: infrastructure:write\n  description: Provision infrastructure resources\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-future-cloud-platform-services.yaml\n- scope: observability:read\n  description: Access platform metrics\n  flows:\n  - clientCredentials\n  sources:\n\
   \  - openapi/allianz-future-cloud-platform-services.yaml\n- scope: services:read\n  description: Read service definitions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-future-cloud-platform-services.yaml\n- scope: services:write\n  description: Register and manage services\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-future-cloud-platform-services.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/scopes/allianz-future-cloud-platform-scopes.yml
+source_yaml_url: https://artifacts.apis.io/allianz-future-cloud-platform/scopes/allianz-future-cloud-platform-scopes.yml
 summary_line: 6 scopes · clientCredentials
 tags:
 - Cloud Platform

@@ -5,43 +5,43 @@ api_specs:
   label: Police Bank Banking Account Balances API
   slug: police-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-account-balances-api-openapi.yml
 - filename: police-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Police Bank Banking Account Direct Debits API
   slug: police-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-account-direct-debits-api-openapi.yml
 - filename: police-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Police Bank Banking Account Scheduled Payments API
   slug: police-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: police-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Police Bank Banking Account Transactions API
   slug: police-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-account-transactions-api-openapi.yml
 - filename: police-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Police Bank Banking Accounts API
   slug: police-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-accounts-api-openapi.yml
 - filename: police-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Police Bank Banking Payees API
   slug: police-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-payees-api-openapi.yml
 - filename: police-bank-banking-products-api-openapi.yml
   format: yaml
   label: Police Bank Banking Products API
   slug: police-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/openapi/police-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/police-bank/openapi/police-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/police-b
   \ flow with PKCE, PAR, and\n    MTLS-bound tokens. Authorization/token endpoints are per-data-holder and\n    resolved from Police Bank's OIDC discovery document at authorisation time;\n    they are not published on the public PRD surface.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: null\n    tokenUrl: null\nscopes:\n- scope: bank:accounts.basic:read\n  description: >-\n    Basic account information - the list of a member's accounts plus balances.\n  flows: [authorizationCode]\n  operations: [listBankingAccounts, getBankingBalance, listBankingBalancesBulk, listBankingBalancesSpecificAccounts]\n  sources: [openapi/police-bank-cds-banking-products-openapi.yml]\n- scope: bank:accounts.detail:read\n  description: >-\n    Detailed account information - account numbers, features, fees, rates and\n    other account detail beyond the basic list.\n  flows: [authorizationCode]\n  operations: [getBankingAccountDetail]\n  sources: [openapi/police-bank-cds-banking-products-openapi.yml]\n\
   - scope: bank:transactions:read\n  description: >-\n    Transactions - the ability to read a member's transactions for authorised\n    accounts, including transaction detail.\n  flows: [authorizationCode]\n  operations: [listBankingTransactions, getBankingTransactionDetail]\n  sources: [openapi/police-bank-cds-banking-products-openapi.yml]\n- scope: bank:regular_payments:read\n  description: >-\n    Regular payments - direct debits, scheduled payments and instalment plans\n    configured on a member's accounts.\n  flows: [authorizationCode]\n  operations: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts, listInstalmentPlans, listInstalmentPlansBulk]\n  sources: [openapi/police-bank-cds-banking-products-openapi.yml]\n- scope: bank:payees:read\n  description: >-\n    Saved payees - the member's stored domestic, international and BPAY payees.\n  flows: [authorizationCode]\n  operations:\
   \ [listBankingPayees, getBankingPayeeDetail]\n  sources: [openapi/police-bank-cds-banking-products-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/police-bank/refs/heads/main/scopes/police-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/police-bank/scopes/police-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Finance

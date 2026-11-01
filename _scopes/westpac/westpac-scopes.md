@@ -11,43 +11,43 @@ api_specs:
   label: Westpac Banking Corporation Banking Account Balances API
   slug: westpac-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-balances-api-openapi.yml
 - filename: westpac-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Account Direct Debits API
   slug: westpac-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-direct-debits-api-openapi.yml
 - filename: westpac-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Account Scheduled Payments API
   slug: westpac-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-scheduled-payments-api-openapi.yml
 - filename: westpac-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Account Transactions API
   slug: westpac-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-transactions-api-openapi.yml
 - filename: westpac-banking-accounts-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Accounts API
   slug: westpac-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-accounts-api-openapi.yml
 - filename: westpac-banking-payees-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Payees API
   slug: westpac-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-payees-api-openapi.yml
 - filename: westpac-banking-products-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Products API
   slug: westpac-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/
@@ -94,7 +94,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: derived\nsource: openapi/_original/westpac-cds-banking-openapi.yml\ndocs: https://consumerdatastandardsaustralia.github.io/standards/\nnote: >-\n  Derived from the per-operation x-scopes extensions in the DSB CDR Banking API\n  (v1.36.0) contract held for Westpac. The contract declares no\n  securitySchemes, so derive-oauth-scopes.py found nothing; these scopes are\n  the CDR consent scopes an Accredited Data Recipient obtains through the CDR\n  OAuth 2.0 / FAPI consent flow. They are defined by the Data Standards Body,\n  not by Westpac. listBankingProducts and getBankingProductDetail carry no\n  scope and are public.\nscopes:\n  - name: bank:accounts.basic:read\n    operations: [listBankingAccounts, listBankingBalancesBulk, listBankingBalancesSpecificAccounts, getBankingBalance]\n  - name: bank:accounts.detail:read\n    operations: [getBankingAccountDetail]\n  - name: bank:transactions:read\n    operations: [listBankingTransactions, getBankingTransactionDetail]\n\
   \  - name: bank:regular_payments:read\n    operations: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts, listInstalmentPlans, listInstalmentPlansBulk]\n  - name: bank:payees:read\n    operations: [listBankingPayees, getBankingPayeeDetail]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/scopes/westpac-scopes.yml
+source_yaml_url: https://artifacts.apis.io/westpac/scopes/westpac-scopes.yml
 summary_line: 5 scopes
 tags:
 - Finance

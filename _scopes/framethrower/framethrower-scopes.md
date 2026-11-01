@@ -5,25 +5,25 @@ api_specs:
   label: FrameThrower Discovery API
   slug: framethrower-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-discovery-api-openapi.yml
 - filename: framethrower-films-api-openapi.yml
   format: yaml
   label: FrameThrower Films API
   slug: framethrower-films-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-films-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-films-api-openapi.yml
 - filename: framethrower-frames-api-openapi.yml
   format: yaml
   label: FrameThrower Frames API
   slug: framethrower-frames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-frames-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-frames-api-openapi.yml
 - filename: framethrower-search-api-openapi.yml
   format: yaml
   label: FrameThrower Search API
   slug: framethrower-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/openapi/framethrower-search-api-openapi.yml
+  url: https://artifacts.apis.io/framethrower/openapi/framethrower-search-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://github.com/framethrower-ai/framethrower-mcp
@@ -65,7 +65,7 @@ source_filename: framethrower-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: https://framethrower.ai/.well-known/oauth-authorization-server\ndocs: https://github.com/framethrower-ai/framethrower-mcp\nnote: Scopes are the OpenID Connect standard set advertised by the MCP authorization server; the REST API uses personal bearer tokens with no scopes.\nscopes:\n- name: openid\n  surface: mcp\n- name: profile\n  surface: mcp\n- name: email\n  surface: mcp\n- name: offline_access\n  surface: mcp\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/framethrower/refs/heads/main/scopes/framethrower-scopes.yml
+source_yaml_url: https://artifacts.apis.io/framethrower/scopes/framethrower-scopes.yml
 summary_line: 4 scopes
 tags:
 - Film

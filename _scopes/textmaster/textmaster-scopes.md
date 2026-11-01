@@ -5,121 +5,121 @@ api_specs:
   label: TextMaster Abilities API
   slug: textmaster-abilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-abilities-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-abilities-api-openapi.yml
 - filename: textmaster-api-templates-api-openapi.yml
   format: yaml
   label: TextMaster API Templates API
   slug: textmaster-api-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-api-templates-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-api-templates-api-openapi.yml
 - filename: textmaster-authors-api-openapi.yml
   format: yaml
   label: TextMaster Authors API
   slug: textmaster-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-authors-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-authors-api-openapi.yml
 - filename: textmaster-categories-api-openapi.yml
   format: yaml
   label: TextMaster Categories API
   slug: textmaster-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-categories-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-categories-api-openapi.yml
 - filename: textmaster-countries-api-openapi.yml
   format: yaml
   label: TextMaster Countries API
   slug: textmaster-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-countries-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-countries-api-openapi.yml
 - filename: textmaster-documents-api-openapi.yml
   format: yaml
   label: TextMaster Documents API
   slug: textmaster-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-documents-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-documents-api-openapi.yml
 - filename: textmaster-expertises-api-openapi.yml
   format: yaml
   label: TextMaster Expertises API
   slug: textmaster-expertises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-expertises-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-expertises-api-openapi.yml
 - filename: textmaster-glossaries-api-openapi.yml
   format: yaml
   label: TextMaster Glossaries API
   slug: textmaster-glossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-glossaries-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-glossaries-api-openapi.yml
 - filename: textmaster-invoices-api-openapi.yml
   format: yaml
   label: TextMaster Invoices API
   slug: textmaster-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-invoices-api-openapi.yml
 - filename: textmaster-languages-api-openapi.yml
   format: yaml
   label: TextMaster Languages API
   slug: textmaster-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-languages-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-languages-api-openapi.yml
 - filename: textmaster-locales-api-openapi.yml
   format: yaml
   label: TextMaster Locales API
   slug: textmaster-locales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-locales-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-locales-api-openapi.yml
 - filename: textmaster-my-authors-api-openapi.yml
   format: yaml
   label: TextMaster My Authors API
   slug: textmaster-my-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-my-authors-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-my-authors-api-openapi.yml
 - filename: textmaster-negotiated-contracts-api-openapi.yml
   format: yaml
   label: TextMaster Negotiated Contracts API
   slug: textmaster-negotiated-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-negotiated-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-negotiated-contracts-api-openapi.yml
 - filename: textmaster-projects-api-openapi.yml
   format: yaml
   label: TextMaster Projects API
   slug: textmaster-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-projects-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-projects-api-openapi.yml
 - filename: textmaster-receipts-api-openapi.yml
   format: yaml
   label: TextMaster Receipts API
   slug: textmaster-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-receipts-api-openapi.yml
 - filename: textmaster-support-messages-api-openapi.yml
   format: yaml
   label: TextMaster Support Messages API
   slug: textmaster-support-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-support-messages-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-support-messages-api-openapi.yml
 - filename: textmaster-transactions-api-openapi.yml
   format: yaml
   label: TextMaster Transactions API
   slug: textmaster-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-transactions-api-openapi.yml
 - filename: textmaster-uploadproperties-api-openapi.yml
   format: yaml
   label: TextMaster Upload Properties API
   slug: textmaster-uploadproperties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-uploadproperties-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-uploadproperties-api-openapi.yml
 - filename: textmaster-users-api-openapi.yml
   format: yaml
   label: TextMaster Users API
   slug: textmaster-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-users-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-users-api-openapi.yml
 - filename: textmaster-work-templates-api-openapi.yml
   format: yaml
   label: TextMaster Work Templates API
   slug: textmaster-work-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/openapi/textmaster-work-templates-api-openapi.yml
+  url: https://artifacts.apis.io/textmaster/openapi/textmaster-work-templates-api-openapi.yml
 authorization_urls:
 - https://api.textmaster.com/oauth/authorize
 description: ''
@@ -257,7 +257,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource: openapi/textmas
   \  operation_count: 1\n- scope: discussion:manage\n  description: Grants full access to team discussions.\n  operation_count: 2\n- scope: discussion:read\n  description: Grants read-only access to team discussions.\n  operation_count: 1\n- scope: discussion:write\n  description: Grants read/write access to team discussions.\n  operation_count: 2\n- scope: transaction:read\n  description: Grants read-only access to financial transactions.\n  operation_count: 3\n- scope: transaction:manage\n  description: >-\n    Full access to financial transactions. Referenced by the transactions, invoices and receipts\n    operations and requested by TextMaster's own Postman collection, but ABSENT from the published\n    scopes table.\n  docs_declared: false\n  operation_count: 3\n- scope: transaction:write\n  description: >-\n    Write access to financial transactions. Referenced by operation `security[]` and the Postman\n    collection, but ABSENT from the published scopes table.\n  docs_declared: false\n\
   \  operation_count: 3\n- scope: preferred_author:manage\n  description: Grants full access to client's preferred authors.\n  spec_description: Allow read & write access to My Authors\n  flows: [authorizationCode]\n  operation_count: 5\n- scope: preferred_author:read\n  description: Grants read-only access to client's preferred authors.\n  spec_description: Allow read access to My Authors\n  flows: [authorizationCode]\n  operation_count: 3\n- scope: preferred_author:write\n  description: Grants write access to client's preferred authors.\n  spec_description: Allow write access to My Authors\n  flows: [authorizationCode]\n  operation_count: 5\ngaps:\n  spec_omits:\n  - public\n  docs_omits:\n  - transaction:manage\n  - transaction:write\n  note: >-\n    Neither the spec nor the docs is complete on its own. Three scopes are recoverable only from\n    the union, which is why this artifact is searched rather than derived.\nconsent_model: >-\n  Requested scopes are shown to the user on the authorization\
   \ form. Users can grant less than was\n  requested and can edit token scopes after the flow completes, so applications must read the\n  granted `scope` attribute on the token and degrade gracefully. Applications may re-run the flow\n  to request additional permissions, which the user may deny.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/textmaster/refs/heads/main/scopes/textmaster-scopes.yml
+source_yaml_url: https://artifacts.apis.io/textmaster/scopes/textmaster-scopes.yml
 summary_line: 22 scopes · authorizationCode
 tags:
 - Company

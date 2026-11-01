@@ -5,37 +5,37 @@ api_specs:
   label: Podbean Analytics API
   slug: podbean-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-analytics-api-openapi.yml
 - filename: podbean-authentication-api-openapi.yml
   format: yaml
   label: Podbean Authentication API
   slug: podbean-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-authentication-api-openapi.yml
 - filename: podbean-episode-api-openapi.yml
   format: yaml
   label: Podbean Episode API
   slug: podbean-episode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-episode-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-episode-api-openapi.yml
 - filename: podbean-file-upload-api-openapi.yml
   format: yaml
   label: Podbean File Upload API
   slug: podbean-file-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-file-upload-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-file-upload-api-openapi.yml
 - filename: podbean-podcast-api-openapi.yml
   format: yaml
   label: Podbean Podcast API
   slug: podbean-podcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-podcast-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-podcast-api-openapi.yml
 - filename: podbean-o-embed-api-openapi.yml
   format: yaml
   label: Podbean o Embed API
   slug: podbean-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-o-embed-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-o-embed-api-openapi.yml
 authorization_urls:
 - https://api.podbean.com/v1/dialog/oauth
 description: ''
@@ -93,7 +93,7 @@ source_filename: podbean-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/podbean-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/podbean-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.podbean.com/v1/dialog/oauth\n    tokenUrl: https://api.podbean.com/v1/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.podbean.com/v1/oauth/token\n  description: OAuth 2.0. Register an app at developers.podbean.com to obtain a Client ID and\n    Secret.\nscopes:\n- scope: episode_publish\n  description: Publish and manage episodes.\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/podbean-openapi.yml\n- scope: episode_read\n  description: Read episodes.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/podbean-openapi.yml\n- scope: podcast_read\n  description: Read podcast profile and settings.\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/podbean-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/scopes/podbean-scopes.yml
+source_yaml_url: https://artifacts.apis.io/podbean/scopes/podbean-scopes.yml
 summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
 - Podcasts

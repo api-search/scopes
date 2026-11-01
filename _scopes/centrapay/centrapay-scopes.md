@@ -5,7 +5,7 @@ api_specs:
   label: Centrapay Payment Requests API
   slug: centrapay-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/openapi/centrapay-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/centrapay/openapi/centrapay-payment-requests-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.centrapay.com/api/auth
@@ -67,7 +67,7 @@ source_yaml: 'generated: ''2026-10-09''
   - name: profile
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centrapay/refs/heads/main/scopes/centrapay-scopes.yml
+source_yaml_url: https://artifacts.apis.io/centrapay/scopes/centrapay-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

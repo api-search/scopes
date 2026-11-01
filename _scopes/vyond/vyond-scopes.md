@@ -5,49 +5,49 @@ api_specs:
   label: Vyond Content Generation API
   slug: vyond-content-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-content-generation-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-content-generation-api-openapi.yml
 - filename: vyond-parameter-api-openapi.yml
   format: yaml
   label: Vyond Parameter API
   slug: vyond-parameter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-parameter-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-parameter-api-openapi.yml
 - filename: vyond-scim-api-openapi.yml
   format: yaml
   label: Vyond SCIM API
   slug: vyond-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-scim-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-scim-api-openapi.yml
 - filename: vyond-turbo-api-openapi.yml
   format: yaml
   label: Vyond Turbo API
   slug: vyond-turbo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-turbo-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-turbo-api-openapi.yml
 - filename: vyond-user-api-openapi.yml
   format: yaml
   label: Vyond User API
   slug: vyond-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-user-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-user-api-openapi.yml
 - filename: vyond-video-api-openapi.yml
   format: yaml
   label: Vyond Video API
   slug: vyond-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-video-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-video-api-openapi.yml
 - filename: vyond-video-export-api-openapi.yml
   format: yaml
   label: Vyond Video Export API
   slug: vyond-video-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-video-export-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-video-export-api-openapi.yml
 - filename: vyond-webhook-api-openapi.yml
   format: yaml
   label: Vyond Webhook API
   slug: vyond-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/openapi/vyond-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/vyond/openapi/vyond-webhook-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://api.vyond.com/doc/#tag/Introduction
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: https://api.vyo
   \    issued_at: Vyond app > Security > SCIM Provisioning > Authorization token\n    docs: https://help.vyond.com/hc/en-us/articles/32250964864660-SCIM-Provisioning\n  - name: Personal Access Token\n    surface: REST (https://api.vyond.com/rest/)\n    issued_at: Vyond app > profile icon > API tokens > Personal Access token\n    docs: https://help.vyond.com/hc/en-us/articles/51873650828052-How-do-I-use-the-Vyond-API\n    note: >-\n      Help Center states the API token page is currently hidden and access must be\n      requested from support@vyond.com.\n  - name: OAuth 2.0 access token\n    surface: REST (https://api.vyond.com/rest/)\n    note: >-\n      Documented in the Introduction as short-lived and refresh-token renewable.\n      No authorization endpoint, token endpoint, grant type or discovery document is\n      published. Vyond states \"Vyond will soon support API tokens in REST API\n      authentication.\"\nscopes:\n- scope: VYOND_GO\n  description: >-\n    Required to create Vyond\
   \ Go content generations. Absence returns 403\n    \"Forbidden - missing required VYOND_GO scope or invalid owner type\".\n  sources: [openapi/vyond-openapi-original.json]\n  operations:\n  - ContentGenerationController.createGeneration\n- scope: VIDEO_EXPORT\n  description: >-\n    Required to create a video export and to retrieve the resulting download URL.\n    Absence returns 403 \"Forbidden - missing required VIDEO_EXPORT scope or access\n    denied\".\n  sources: [openapi/vyond-openapi-original.json]\n  operations:\n  - VideoController.exportVideo\n  - VideoController.getVideoExportDownload\nunnamed_scope_requirements:\n- operations:\n  - ContentGenerationV2Controller.createGeneration\n  - ParameterController.getParameters\n  - TurboController.createTurbo\n  - TurboController.getTurbo\n  note: >-\n    These operations return 403 \"missing required scope\" but the scope name is not\n    published in the documentation. TurboController additionally requires a Turbo\n    license on the\
   \ account.\nowner_type_constraint: >-\n  Several operations (getUser, all webhook management, content generation v2 read)\n  return 403 \"invalid owner type (non-user token)\" — the token must be a user-owned\n  token, not an account/service token. This is an authorization dimension separate\n  from scope.\nx-evidence:\n  fetched: '2026-08-05'\n  url: https://api.vyond.com/doc/openapi.json\n  http_status: 200\n  probed_absent:\n  - {url: 'https://api.vyond.com/.well-known/oauth-authorization-server', status: 404}\n  - {url: 'https://api.vyond.com/.well-known/openid-configuration', status: 404}\n  - {url: 'https://api.vyond.com/oauth/token', status: 404}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/scopes/vyond-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vyond/scopes/vyond-scopes.yml
 summary_line: 2 scopes
 tags:
 - Video

@@ -32,7 +32,7 @@ source_filename: alterna-savings-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.alterna.ca/.well-known/openid-configuration\nnote: >-\n  OAuth2/OIDC scopes advertised by the Umbraco CMS Delivery API member-security\n  authorization server (website member login). These are the standard OIDC\n  baseline scopes, not banking/data-access scopes — Alterna exposes no\n  first-party banking API and documents no data-sharing scopes.\nscheme: umbraco_member_oidc\nscopes:\n- name: openid\n  description: Standard OpenID Connect scope; requests an ID token identifying the authenticated site member.\n- name: offline_access\n  description: Requests a refresh token so the client can obtain new access tokens without re-authenticating the member.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alterna-savings/refs/heads/main/scopes/alterna-savings-scopes.yml
+source_yaml_url: https://artifacts.apis.io/alterna-savings/scopes/alterna-savings-scopes.yml
 summary_line: 2 scopes
 tags:
 - Financial Services

@@ -57,7 +57,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://nextbigideaclub.com/.well-known/openid-configuration\ndocs: https://nextbigideaclub.com/.well-known/openid-configuration\nschemes:\n  - name: oauth2\n    software: WP OAuth Server\n    source: well-known/next-big-idea-club-openid-configuration.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://nextbigideaclub.com/oauth/authorize/\n        tokenUrl: https://nextbigideaclub.com/oauth/token/\nscopes:\n  - scope: openid\n    description: Authenticate the user and return an OpenID Connect ID token.\n    flows: [authorizationCode]\n    sources: [well-known/next-big-idea-club-openid-configuration.json]\n  - scope: profile\n    description: Access the member's basic profile information.\n    flows: [authorizationCode]\n    sources: [well-known/next-big-idea-club-openid-configuration.json]\n  - scope: email\n    description: Access the member's email address.\n    flows: [authorizationCode]\n\
   \    sources: [well-known/next-big-idea-club-openid-configuration.json]\n  - scope: basic\n    description: Basic account access.\n    flows: [authorizationCode]\n    sources: [well-known/next-big-idea-club-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/scopes/next-big-idea-club-scopes.yml
+source_yaml_url: https://artifacts.apis.io/next-big-idea-club/scopes/next-big-idea-club-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

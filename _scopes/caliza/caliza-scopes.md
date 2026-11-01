@@ -5,67 +5,67 @@ api_specs:
   label: Caliza Beneficiary V1 API
   slug: caliza-beneficiary-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-beneficiary-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-beneficiary-v1-api-openapi.yml
 - filename: caliza-integrator-capabilities-v1-api-openapi.yml
   format: yaml
   label: Caliza Integrator Capabilities V1 API
   slug: caliza-integrator-capabilities-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-integrator-capabilities-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-integrator-capabilities-v1-api-openapi.yml
 - filename: caliza-integrator-v1-api-openapi.yml
   format: yaml
   label: Caliza Integrator V1 API
   slug: caliza-integrator-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-integrator-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-integrator-v1-api-openapi.yml
 - filename: caliza-kyc-kyb-v1-api-openapi.yml
   format: yaml
   label: Caliza KYC/KYB V1 API
   slug: caliza-kyc-kyb-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-kyc-kyb-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-kyc-kyb-v1-api-openapi.yml
 - filename: caliza-payment-v1-api-openapi.yml
   format: yaml
   label: Caliza Payment V1 API
   slug: caliza-payment-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-payment-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-payment-v1-api-openapi.yml
 - filename: caliza-recipient-v1-api-openapi.yml
   format: yaml
   label: Caliza Recipient V1 API
   slug: caliza-recipient-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-recipient-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-recipient-v1-api-openapi.yml
 - filename: caliza-related-person-api-openapi.yml
   format: yaml
   label: Caliza Related Person API
   slug: caliza-related-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-related-person-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-related-person-api-openapi.yml
 - filename: caliza-terms-and-conditions-v1-api-openapi.yml
   format: yaml
   label: Caliza Terms and Conditions V1 API
   slug: caliza-terms-and-conditions-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-terms-and-conditions-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-terms-and-conditions-v1-api-openapi.yml
 - filename: caliza-transaction-v1-api-openapi.yml
   format: yaml
   label: Caliza Transaction V1 API
   slug: caliza-transaction-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-transaction-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-transaction-v1-api-openapi.yml
 - filename: caliza-transaction-v1-sandbox-api-openapi.yml
   format: yaml
   label: Caliza Transaction V1 Sandbox API
   slug: caliza-transaction-v1-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-transaction-v1-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-transaction-v1-sandbox-api-openapi.yml
 - filename: caliza-travel-rule-v1-api-openapi.yml
   format: yaml
   label: Caliza Travel Rule V1 API
   slug: caliza-travel-rule-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-travel-rule-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-travel-rule-v1-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.caliza.com/docs/authenticate
@@ -157,7 +157,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://api.caliza.com/auth/realms/caliza/.well-known/openid-configuration\ndocs: https://docs.caliza.com/docs/authenticate\nschemes:\n- name: OAuth2 (Keycloak realm \"caliza\")\n  source: well-known/caliza-openid-configuration.json\n  flows:\n  - flow: password\n    tokenUrl: https://api.caliza.com/auth/realms/caliza/protocol/openid-connect/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issues an ID token identifying the integrator.\n  flows: [password, authorizationCode]\n- scope: email\n  description: Access to the integrator's email claim.\n  flows: [password, authorizationCode]\n- scope: profile\n  description: Access to the integrator's profile claims (name, preferred_username).\n  flows: [password, authorizationCode]\n- scope: offline_access\n  description: Issues a refresh token for long-lived offline access.\n  flows: [password, authorizationCode]\n- scope: roles\n  description: Includes\
   \ realm/client role mappings in the token.\n  flows: [password, authorizationCode]\n- scope: address\n  description: Access to address claims.\n  flows: [authorizationCode]\n- scope: phone\n  description: Access to phone-number claims.\n  flows: [authorizationCode]\n- scope: web-origins\n  description: Populates allowed CORS web origins.\n  flows: [authorizationCode]\n- scope: microprofile-jwt\n  description: MicroProfile JWT claims mapping.\n  flows: [authorizationCode]\n- scope: acr\n  description: Authentication Context Class Reference claim.\n  flows: [authorizationCode]\nnotes: >-\n  Scopes are the standard Keycloak/OIDC scope set advertised by the realm\n  discovery document; the documented quickstart token response returns\n  \"scope\": \"email openid profile\". API-level authorization is enforced through\n  realm roles (e.g. ROLE_CREATE_TRANSACTIONS, ROLE_VIEW_ACTIVITY,\n  ROLE_MANAGE_PAYMENT_CONTACTS) carried inside the access-token JWT rather than\n  through granular OAuth resource\
   \ scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/scopes/caliza-scopes.yml
+source_yaml_url: https://artifacts.apis.io/caliza/scopes/caliza-scopes.yml
 summary_line: 10 scopes · password
 tags:
 - Company

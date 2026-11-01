@@ -5,49 +5,49 @@ api_specs:
   label: Bureau of Land Management Catalog API
   slug: bureau-of-land-management-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-catalog-api-openapi.yml
 - filename: bureau-of-land-management-collection-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Collection API
   slug: bureau-of-land-management-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-collection-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-collection-api-openapi.yml
 - filename: bureau-of-land-management-geoservice-beta-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Geoservice Beta API
   slug: bureau-of-land-management-geoservice-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-geoservice-beta-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-geoservice-beta-api-openapi.yml
 - filename: bureau-of-land-management-ogcitem-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Item API
   slug: bureau-of-land-management-ogcitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcitem-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcitem-api-openapi.yml
 - filename: bureau-of-land-management-ogcitemaggregation-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Item Aggregation API
   slug: bureau-of-land-management-ogcitemaggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcitemaggregation-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcitemaggregation-api-openapi.yml
 - filename: bureau-of-land-management-ogcroot-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Root API
   slug: bureau-of-land-management-ogcroot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcroot-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcroot-api-openapi.yml
 - filename: bureau-of-land-management-ogcrootconformance-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Ogc Root Conformance API
   slug: bureau-of-land-management-ogcrootconformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-ogcrootconformance-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-ogcrootconformance-api-openapi.yml
 - filename: bureau-of-land-management-queryable-api-openapi.yml
   format: yaml
   label: Bureau of Land Management Queryable API
   slug: bureau-of-land-management-queryable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/openapi/bureau-of-land-management-queryable-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-land-management/openapi/bureau-of-land-management-queryable-api-openapi.yml
 authorization_urls:
 - https://mlrs.blm.gov/services/oauth2/authorize
 - https://glorecords.blm.gov/services/oauth2/authorize
@@ -169,7 +169,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  well-known/
   \ https://blm-egis.maps.arcgis.com\n    source: well-known/bureau-of-land-management-blm-egis-arcgis-oauth-authorization-server.json\n    scope_authorship: esri-platform-default\n    note: The RFC 8414 document advertises no scopes_supported array at all.\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://blm-egis.maps.arcgis.com/sharing/rest/oauth2/authorize\n        tokenUrl: https://blm-egis.maps.arcgis.com/sharing/rest/oauth2/token\nscopes:\n  - scope: openid\n    description: OpenID Connect — issue an ID token.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n  - scope: profile\n    description: Basic profile claims.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n  - scope: email\n    description: Email claim.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n  - scope: address\n    description: Address claim.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n\
   \  - scope: phone\n    description: Phone claim.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n  - scope: id\n    description: Identity URL access.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n  - scope: api\n    description: Access the platform data API on behalf of the user.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n  - scope: web\n    description: Web session access.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n  - scope: refresh_token\n    description: Issue a refresh token.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n  - scope: offline_access\n    description: Long-lived access (alias of refresh_token on this platform).\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n  - scope: content\n    description: Content/document access.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\n\
   \  - scope: full\n    description: Full access to everything the user can reach.\n    flows: [authorizationCode]\n    sources: [mlrs-oidc, glorecords-oidc]\nplatform_default_scopes_not_wired_by_blm:\n  - custom_permissions\n  - visualforce\n  - lightning\n  - chatter_api\n  - wave_api\n  - eclair_api\n  - interaction_api\n  - chatbot_api\n  - einstein_gpt_api\n  - sfap_api\n  - scrt_api\n  - pardot_api\n  - user_registration_api\n  - pwdless_login_api\n  - forgot_password\n  - data_cloud_user_claims\n  - mcp_api\n  - cdp_api\n  - cdp_ingest_api\n  - cdp_query_api\n  - cdp_segment_api\n  - cdp_profile_api\n  - cdp_identityresolution_api\n  - cdp_calculated_insight_api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/scopes/bureau-of-land-management-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-land-management/scopes/bureau-of-land-management-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
 - Environment

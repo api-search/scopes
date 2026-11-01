@@ -5,37 +5,37 @@ api_specs:
   label: HL7 FHIR Bundle API
   slug: hl7-fhir-bundle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-bundle-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-bundle-api-openapi.yml
 - filename: hl7-fhir-condition-api-openapi.yml
   format: yaml
   label: HL7 FHIR Condition API
   slug: hl7-fhir-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-condition-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-condition-api-openapi.yml
 - filename: hl7-fhir-encounter-api-openapi.yml
   format: yaml
   label: HL7 FHIR Encounter API
   slug: hl7-fhir-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-encounter-api-openapi.yml
 - filename: hl7-fhir-observation-api-openapi.yml
   format: yaml
   label: HL7 FHIR Observation API
   slug: hl7-fhir-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-observation-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-observation-api-openapi.yml
 - filename: hl7-fhir-patient-api-openapi.yml
   format: yaml
   label: HL7 FHIR Patient API
   slug: hl7-fhir-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-patient-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-patient-api-openapi.yml
 - filename: hl7-fhir-medication-request-api-openapi.yml
   format: yaml
   label: HL7 FHIR Medication Request API
   slug: hl7-fhir-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/openapi/hl7-fhir-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/hl7-fhir/openapi/hl7-fhir-medication-request-api-openapi.yml
 authorization_urls:
 - https://auth.example.com/authorize
 description: ''
@@ -109,7 +109,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hl7-fhir-r4-openapi.yml\nschemes:\n- name: SMARTonFHIR\n  source: openapi/hl7-fhir-r4-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.example.com/authorize\n    tokenUrl: https://auth.example.com/token\n  description: SMART on FHIR OAuth 2.0 authorization\nscopes:\n- scope: launch/patient\n  description: Patient context launch\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hl7-fhir-r4-openapi.yml\n- scope: openid\n  description: OpenID Connect identity\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hl7-fhir-r4-openapi.yml\n- scope: patient/Condition.read\n  description: Read conditions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hl7-fhir-r4-openapi.yml\n- scope: patient/Encounter.read\n  description: Read encounters\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hl7-fhir-r4-openapi.yml\n- scope: patient/MedicationRequest.read\n  description:\
   \ Read medication requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hl7-fhir-r4-openapi.yml\n- scope: patient/Observation.read\n  description: Read observations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hl7-fhir-r4-openapi.yml\n- scope: patient/Patient.read\n  description: Read patient data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/hl7-fhir-r4-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/scopes/hl7-fhir-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hl7-fhir/scopes/hl7-fhir-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Clinical

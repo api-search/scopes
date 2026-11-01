@@ -5,37 +5,37 @@ api_specs:
   label: Search1API Account API
   slug: s1-dev-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s1-dev/refs/heads/main/openapi/s1-dev-account-api-openapi.yml
+  url: https://artifacts.apis.io/s1-dev/openapi/s1-dev-account-api-openapi.yml
 - filename: s1-dev-crawl-api-openapi.yml
   format: yaml
   label: Search1API Crawl API
   slug: s1-dev-crawl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s1-dev/refs/heads/main/openapi/s1-dev-crawl-api-openapi.yml
+  url: https://artifacts.apis.io/s1-dev/openapi/s1-dev-crawl-api-openapi.yml
 - filename: s1-dev-feedback-api-openapi.yml
   format: yaml
   label: Search1API Feedback API
   slug: s1-dev-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s1-dev/refs/heads/main/openapi/s1-dev-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/s1-dev/openapi/s1-dev-feedback-api-openapi.yml
 - filename: s1-dev-screenshot-api-openapi.yml
   format: yaml
   label: Search1API Screenshot API
   slug: s1-dev-screenshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s1-dev/refs/heads/main/openapi/s1-dev-screenshot-api-openapi.yml
+  url: https://artifacts.apis.io/s1-dev/openapi/s1-dev-screenshot-api-openapi.yml
 - filename: s1-dev-search-api-openapi.yml
   format: yaml
   label: Search1API Search API
   slug: s1-dev-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s1-dev/refs/heads/main/openapi/s1-dev-search-api-openapi.yml
+  url: https://artifacts.apis.io/s1-dev/openapi/s1-dev-search-api-openapi.yml
 - filename: s1-dev-system-api-openapi.yml
   format: yaml
   label: Search1API System API
   slug: s1-dev-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s1-dev/refs/heads/main/openapi/s1-dev-system-api-openapi.yml
+  url: https://artifacts.apis.io/s1-dev/openapi/s1-dev-system-api-openapi.yml
 authorization_urls: []
 description: 'OAuth 2.1 scopes advertised by the Search1API protected-resource metadata. Access is account-scoped rather than permission-scoped: a token maps to the same user and credit balance as an API key.'
 docs: https://s1.dev/auth.md
@@ -69,7 +69,7 @@ source_filename: s1-dev-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: searched\nsource: https://api.search1api.com/.well-known/oauth-protected-resource (scopes_supported); https://s1.dev/auth.md\ndocs: https://s1.dev/auth.md\ndescription: 'OAuth 2.1 scopes advertised by the Search1API protected-resource metadata. Access is account-scoped\n  rather than permission-scoped: a token maps to the same user and credit balance as an API key.'\nauthorization_server: https://clerk.s1.dev\nscopes:\n- name: openid\n  description: OpenID Connect identity of the authorizing Search1API account owner.\n- name: offline_access\n  description: 'Issues a refresh token; auth.md: \"a refresh token is issued only when offline_access is requested\".'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/s1-dev/refs/heads/main/scopes/s1-dev-scopes.yml
+source_yaml_url: https://artifacts.apis.io/s1-dev/scopes/s1-dev-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company

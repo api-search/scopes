@@ -5,25 +5,25 @@ api_specs:
   label: Allianz Certificates API
   slug: allianz-docs-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-certificates-api-openapi.yml
 - filename: allianz-docs-leads-api-openapi.yml
   format: yaml
   label: Allianz Leads API
   slug: allianz-docs-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-leads-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-leads-api-openapi.yml
 - filename: allianz-docs-policy-details-api-openapi.yml
   format: yaml
   label: Allianz Policy Details API
   slug: allianz-docs-policy-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-policy-details-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-policy-details-api-openapi.yml
 - filename: allianz-docs-price-estimates-api-openapi.yml
   format: yaml
   label: Allianz Price Estimates API
   slug: allianz-docs-price-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/openapi/allianz-docs-price-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-docs/openapi/allianz-docs-price-estimates-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -79,7 +79,7 @@ source_filename: allianz-docs-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/allianz-api-connect.yaml\nschemes:\n- name: OAuth2\n  source: openapi/allianz-api-connect.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.allianz.com.au/oauth2/token\n  description: OAuth2 client credentials flow for partner API access\nscopes:\n- scope: certificates\n  description: Access to certificate retrieval APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-api-connect.yaml\n- scope: lead_referral\n  description: Access to lead referral APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-api-connect.yaml\n- scope: policy_details\n  description: Access to policy detail APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-api-connect.yaml\n- scope: price_estimate\n  description: Access to price estimation APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-api-connect.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/scopes/allianz-docs-scopes.yml
+source_yaml_url: https://artifacts.apis.io/allianz-docs/scopes/allianz-docs-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - Financial Services

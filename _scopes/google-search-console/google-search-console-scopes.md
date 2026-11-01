@@ -5,37 +5,37 @@ api_specs:
   label: Google Search Console Search Analytics API
   slug: google-search-console-search-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-search-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-search-analytics-api-openapi.yml
 - filename: google-search-console-sitemaps-api-openapi.yml
   format: yaml
   label: Google Search Console Sitemaps API
   slug: google-search-console-sitemaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-sitemaps-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-sitemaps-api-openapi.yml
 - filename: google-search-console-sites-api-openapi.yml
   format: yaml
   label: Google Search Console Sites API
   slug: google-search-console-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-sites-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-sites-api-openapi.yml
 - filename: google-search-console-url-inspection-api-openapi.yml
   format: yaml
   label: Google Search Console URL Inspection API
   slug: google-search-console-url-inspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-url-inspection-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-url-inspection-api-openapi.yml
 - filename: google-search-console-urlnotifications-api-openapi.yml
   format: yaml
   label: Google Search Console URL Notifications API
   slug: google-search-console-urlnotifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-urlnotifications-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-urlnotifications-api-openapi.yml
 - filename: google-search-console-urltestingtools-api-openapi.yml
   format: yaml
   label: Google Search Console URL Testing Tools API
   slug: google-search-console-urltestingtools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-urltestingtools-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-urltestingtools-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://developer
   \ flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: 'Google OAuth 2.0. Authorization server metadata: https://accounts.google.com/.well-known/openid-configuration'\nscopes:\n- scope: https://www.googleapis.com/auth/indexing\n  description: Submit data to Google for indexing\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-search-console-indexing-api-openapi.yml\n- scope: https://www.googleapis.com/auth/webmasters\n  description: View and manage Search Console data for your verified sites\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-search-console-search-analytics-api-openapi.yml\n  - openapi/google-search-console-sitemaps-api-openapi.yml\n  - openapi/google-search-console-sites-api-openapi.yml\n  - openapi/google-search-console-url-inspection-api-openapi.yml\n  - openapi/google-search-console-url-testing-tools-api-openapi.yml\n- scope: https://www.googleapis.com/auth/webmasters.readonly\n\
   \  description: View Search Console data for your verified sites\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-search-console-search-analytics-api-openapi.yml\n  - openapi/google-search-console-sitemaps-api-openapi.yml\n  - openapi/google-search-console-sites-api-openapi.yml\n  - openapi/google-search-console-url-inspection-api-openapi.yml\n  - openapi/google-search-console-url-testing-tools-api-openapi.yml\nnotes:\n- >-\n  Three scopes across two hosts. webmasters and webmasters.readonly cover searchconsole.googleapis.com;\n  indexing is a separate scope for indexing.googleapis.com and is not interchangeable with them.\n- >-\n  urlTestingTools.mobileFriendlyTest.run declares NO scope in the Discovery document — the only\n  operation on this surface that does not require one.\n- >-\n  Scope alone is not access. Search Console authorizes per verified property: the token must belong\n  to an account that owns or is delegated on the property, and for the Indexing API the\
   \ service\n  account must be added as an Owner inside Search Console.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/scopes/google-search-console-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-search-console/scopes/google-search-console-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Analytics

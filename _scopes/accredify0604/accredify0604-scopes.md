@@ -5,139 +5,139 @@ api_specs:
   label: Accredify Batch Items API
   slug: accredify0604-batch-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-batch-items-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-batch-items-api-openapi.yml
 - filename: accredify0604-batches-api-openapi.yml
   format: yaml
   label: Accredify Batches API
   slug: accredify0604-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-batches-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-batches-api-openapi.yml
 - filename: accredify0604-courses-api-openapi.yml
   format: yaml
   label: Accredify Courses API
   slug: accredify0604-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-courses-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-courses-api-openapi.yml
 - filename: accredify0604-design-templates-api-openapi.yml
   format: yaml
   label: Accredify Design Templates API
   slug: accredify0604-design-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-design-templates-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-design-templates-api-openapi.yml
 - filename: accredify0604-document-templates-api-openapi.yml
   format: yaml
   label: Accredify Document Templates API
   slug: accredify0604-document-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-document-templates-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-document-templates-api-openapi.yml
 - filename: accredify0604-documents-api-openapi.yml
   format: yaml
   label: Accredify Documents API
   slug: accredify0604-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-documents-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-documents-api-openapi.yml
 - filename: accredify0604-email-templates-api-openapi.yml
   format: yaml
   label: Accredify Email Templates API
   slug: accredify0604-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-email-templates-api-openapi.yml
 - filename: accredify0604-external-app-integrations-api-openapi.yml
   format: yaml
   label: Accredify External App Integrations API
   slug: accredify0604-external-app-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-external-app-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-external-app-integrations-api-openapi.yml
 - filename: accredify0604-institutions-api-openapi.yml
   format: yaml
   label: Accredify Institutions API
   slug: accredify0604-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-institutions-api-openapi.yml
 - filename: accredify0604-issue-api-openapi.yml
   format: yaml
   label: Accredify Issue API
   slug: accredify0604-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-issue-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-issue-api-openapi.yml
 - filename: accredify0604-keys-api-openapi.yml
   format: yaml
   label: Accredify Keys API
   slug: accredify0604-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-keys-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-keys-api-openapi.yml
 - filename: accredify0604-oauth-2-0-api-openapi.yml
   format: yaml
   label: Accredify OAuth 2.0 API
   slug: accredify0604-oauth-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-oauth-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-oauth-2-0-api-openapi.yml
 - filename: accredify0604-openbadges-api-openapi.yml
   format: yaml
   label: Accredify Open Badges API
   slug: accredify0604-openbadges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-openbadges-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-openbadges-api-openapi.yml
 - filename: accredify0604-organization-groups-api-openapi.yml
   format: yaml
   label: Accredify Organization Groups API
   slug: accredify0604-organization-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-organization-groups-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-organization-groups-api-openapi.yml
 - filename: accredify0604-organization-roles-api-openapi.yml
   format: yaml
   label: Accredify Organization Roles API
   slug: accredify0604-organization-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-organization-roles-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-organization-roles-api-openapi.yml
 - filename: accredify0604-organization-users-api-openapi.yml
   format: yaml
   label: Accredify Organization Users API
   slug: accredify0604-organization-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-organization-users-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-organization-users-api-openapi.yml
 - filename: accredify0604-revoke-api-openapi.yml
   format: yaml
   label: Accredify Revoke API
   slug: accredify0604-revoke-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-revoke-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-revoke-api-openapi.yml
 - filename: accredify0604-templates-api-openapi.yml
   format: yaml
   label: Accredify Templates API
   slug: accredify0604-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-templates-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-templates-api-openapi.yml
 - filename: accredify0604-user-tokens-api-openapi.yml
   format: yaml
   label: Accredify User Tokens API
   slug: accredify0604-user-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-user-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-user-tokens-api-openapi.yml
 - filename: accredify0604-verification-api-openapi.yml
   format: yaml
   label: Accredify Verification API
   slug: accredify0604-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-verification-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-verification-api-openapi.yml
 - filename: accredify0604-workflow-runs-api-openapi.yml
   format: yaml
   label: Accredify Workflow Runs API
   slug: accredify0604-workflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-workflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-workflow-runs-api-openapi.yml
 - filename: accredify0604-workflows-api-openapi.yml
   format: yaml
   label: Accredify Workflows API
   slug: accredify0604-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-workflows-api-openapi.yml
 - filename: accredify0604-oauth-api-openapi.yml
   format: yaml
   label: Accredify O Auth API
   slug: accredify0604-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/openapi/accredify0604-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/accredify0604/openapi/accredify0604-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.nexus.accredify.io/auth.html
@@ -290,7 +290,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://docs.ne
   \  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n  - openapi/accredify0604-nexus-workflow-openapi.yaml\n- scope: documents:write\n  description: Ability to write documents\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n  - openapi/accredify0604-nexus-workflow-openapi.yaml\n- scope: groups:read\n  description: Ability to read groups\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n  - openapi/accredify0604-nexus-workflow-openapi.yaml\n- scope: groups:write\n  description: Ability to write groups\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n- scope: roles:read\n  description: Ability to read roles\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n- scope: run-workflow\n  description: Ability to run a specific workflow\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n\
   \  - openapi/accredify0604-nexus-workflow-openapi.yaml\n- scope: user-tokens:read\n  description: Ability to read user tokens\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n- scope: user-tokens:write\n  description: Ability to write user tokens\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n- scope: users:read\n  description: Ability to read users\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n  - openapi/accredify0604-nexus-workflow-openapi.yaml\n- scope: users:write\n  description: Ability to write users\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n- scope: verification-suite\n  description: Ability to access the verification suite APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n  - openapi/accredify0604-nexus-verification-openapi.yaml\n\
   \  - openapi/accredify0604-nexus-workflow-openapi.yaml\n- scope: webcomponent-verification\n  description: Ability to get the verification access from webcomponent\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n  - openapi/accredify0604-nexus-workflow-openapi.yaml\n- scope: workflow-runs:read\n  description: Ability to read workflow runs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n  - openapi/accredify0604-nexus-workflow-openapi.yaml\n- scope: workflows:read\n  description: Ability to read workflows\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n  - openapi/accredify0604-nexus-workflow-openapi.yaml\n- scope: workflows:write\n  description: Ability to write workflows\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/accredify0604-nexus-auth-openapi.yaml\n  - openapi/accredify0604-nexus-workflow-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accredify0604/refs/heads/main/scopes/accredify0604-scopes.yml
+source_yaml_url: https://artifacts.apis.io/accredify0604/scopes/accredify0604-scopes.yml
 summary_line: 20 scopes · clientCredentials
 tags:
 - Company

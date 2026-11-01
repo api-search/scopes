@@ -5,7 +5,7 @@ api_specs:
   label: Google Cloud Datastore Projects API
   slug: google-cloud-datastore-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/openapi/google-cloud-datastore-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-datastore/openapi/google-cloud-datastore-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -52,7 +52,7 @@ source_filename: google-cloud-datastore-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-cloud-datastore-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/google-cloud-datastore-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: cloud-platform\n  description: View and manage your data across Google Cloud Platform services\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-datastore-openapi.yml\n- scope: datastore\n  description: View and manage your Google Cloud Datastore data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-datastore-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/scopes/google-cloud-datastore-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-datastore/scopes/google-cloud-datastore-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - NoSQL

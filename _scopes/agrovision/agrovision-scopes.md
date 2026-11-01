@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: https://shop.fruitist.com/.well-known/openid-configuration\naid: agrovision-ucp-commerce\nprovider_of_record: >-\n  Shopify customer-account authorization server for this store's tenant\n  (issuer https://shopify.com/authentication/64996540577). Agrovision does not define or\n  document scopes of its own; these are read verbatim from scopes_supported in the discovery\n  document served on its storefront host.\nscope_count: 4\nscopes:\n- name: openid\n  description: Standard OpenID Connect scope requesting an ID token for the signed-in shopper.\n- name: email\n  description: Releases the shopper's email address and email_verified claim.\n- name: customer-account-api:full\n  description: >-\n    Full access to the Shopify Customer Account API for the authenticated shopper — orders,\n    addresses, payment methods and profile on this store.\n- name: customer-account-mcp-api:full\n  description: >-\n    Full access to the customer-account\
   \ MCP API for the authenticated shopper, i.e. the\n    authenticated counterpart of the anonymous UCP commerce MCP endpoint.\nclaims_supported:\n- iss\n- sub\n- aud\n- exp\n- iat\n- nonce\n- sid\n- email\n- email_verified\nnote: >-\n  The anonymous UCP MCP endpoint at /api/ucp/mcp requires none of these scopes for catalog,\n  cart or checkout construction; they gate shopper-identity-bound operations only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agrovision/refs/heads/main/scopes/agrovision-scopes.yml
+source_yaml_url: https://artifacts.apis.io/agrovision/scopes/agrovision-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

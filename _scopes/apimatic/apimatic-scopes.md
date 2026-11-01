@@ -5,25 +5,25 @@ api_specs:
   label: APIMatic Portals API
   slug: apimatic-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-docs-portal-api-openapi.yml
+  url: https://artifacts.apis.io/apimatic/openapi/apimatic-docs-portal-api-openapi.yml
 - filename: apimatic-sdk-api-openapi.yml
   format: yaml
   label: APIMatic SDK Generation API
   slug: apimatic-sdk-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/apimatic/openapi/apimatic-sdk-api-openapi.yml
 - filename: apimatic-transformation-api-openapi.yml
   format: yaml
   label: APIMatic Transformation API
   slug: apimatic-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/apimatic/openapi/apimatic-transformation-api-openapi.yml
 - filename: apimatic-validation-api-openapi.yml
   format: yaml
   label: APIMatic Validation API
   slug: apimatic-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-validation-api-openapi.yml
+  url: https://artifacts.apis.io/apimatic/openapi/apimatic-validation-api-openapi.yml
 authorization_urls:
 - https://chatbotapi.apimatic.io/authorize
 description: ''
@@ -77,7 +77,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-15'\nmethod: probed\nsource: https://chatbotapi.apimatic.io/.well-known/oauth-authorization-server\ndocs: null\nnote: >-\n  APIMatic's PLATFORM API has no OAuth surface — it authenticates with a custom Authorization\n  header carrying an Auth Key (see authentication/apimatic-authentication.yml). The only OAuth\n  scope APIMatic publishes belongs to its hosted MCP server, whose RFC 8414 and RFC 9728\n  discovery documents were fetched live on 2026-09-15. Recorded here because a scope an agent\n  can actually request is a scope, whichever surface serves it; it is NOT evidence of OAuth on\n  the Platform API.\napplies_to: mcp\nschemes:\n  - name: chatbotapi-mcp-oauth\n    source: https://chatbotapi.apimatic.io/.well-known/oauth-authorization-server\n    issuer: https://chatbotapi.apimatic.io\n    resource: https://chatbotapi.apimatic.io\n    token_endpoint_auth_methods_supported: [none]\n    code_challenge_methods_supported: [S256]\n    registration_endpoint:\
   \ https://chatbotapi.apimatic.io/register\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://chatbotapi.apimatic.io/authorize\n        tokenUrl: https://chatbotapi.apimatic.io/token\n      - flow: clientCredentials\n        tokenUrl: https://chatbotapi.apimatic.io/token\nscopes:\n  - scope: mcp:tools\n    description: >-\n      Call the tools exposed by the APIMatic Integration Agent MCP server (ask, update_activity,\n      model_search, endpoint_search). The only scope the authorization server advertises.\n    flows: [authorizationCode, clientCredentials]\n    sources: [https://chatbotapi.apimatic.io/.well-known/oauth-authorization-server]\nx-evidence:\n  fetched: '2026-09-15'\n  http_status: 200\n  note: >-\n    The MCP endpoint also answered an anonymous initialize and tools/list with HTTP 200, so this\n    OAuth surface is offered rather than enforced.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/scopes/apimatic-scopes.yml
+source_yaml_url: https://artifacts.apis.io/apimatic/scopes/apimatic-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
 - API Transformation

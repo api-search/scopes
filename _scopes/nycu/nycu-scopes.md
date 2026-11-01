@@ -5,13 +5,13 @@ api_specs:
   label: National Yang Ming Chiao Tung University Profile API
   slug: nycu-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/openapi/nycu-profile-api-openapi.yml
+  url: https://artifacts.apis.io/nycu/openapi/nycu-profile-api-openapi.yml
 - filename: nycu-oauth-api-openapi.yml
   format: yaml
   label: National Yang Ming Chiao Tung University O Auth API
   slug: nycu-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/openapi/nycu-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/nycu/openapi/nycu-oauth-api-openapi.yml
 authorization_urls: []
 description: 'The three scopes published by the NYCU OAuth service. NYCU splits them into non-sensitive (非機敏) and sensitive (機敏): any registered developer may request `profile`, while `name` and `status` must be justified on an in-console application form and approved by the Information Technology Service Center. The terms of service state that, in principle, only systems developed or operated by the university are granted the sensitive scopes.'
 docs: ''
@@ -50,7 +50,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "specification: API Commons Scopes\nspecificationVersion: '0.1'\nprovider: National Yang Ming Chiao Tung University\nproviderId: nycu\ngenerated: '2026-09-01'\nmethod: searched\nsource: https://id.nycu.edu.tw/docs/\nx-operator: institution\ndescription: >-\n  The three scopes published by the NYCU OAuth service. NYCU splits them into non-sensitive\n  (非機敏) and sensitive (機敏): any registered developer may request `profile`, while `name`\n  and `status` must be justified on an in-console application form and approved by the\n  Information Technology Service Center. The terms of service state that, in principle, only\n  systems developed or operated by the university are granted the sensitive scopes.\nscopes:\n  - name: profile\n    resource: Email, account name\n    endpoint: https://id.nycu.edu.tw/api/profile/\n    sensitivity: non-sensitive\n    approval_required: false\n  - name: name\n    resource: User's personal name, account name\n    endpoint: https://id.nycu.edu.tw/api/name/\n\
   \    sensitivity: sensitive\n    approval_required: true\n  - name: status\n    resource: Enrollment/employment status, account name\n    endpoint: https://id.nycu.edu.tw/api/status/\n    sensitivity: sensitive\n    approval_required: true\napproval:\n  process_url: https://id.nycu.edu.tw/apply/app\n  authority: NYCU Information Technology Service Center (資訊技術服務中心)\n  description: >-\n    Requested on the application's management page, stating the fields needed, the purpose, the\n    responsible unit and a contact. NYCU reserves the right to revoke, suspend or terminate a\n    client on security or misuse grounds.\nevidence:\n  - url: https://id.nycu.edu.tw/docs/\n    status: 200\n  - url: https://id.nycu.edu.tw/policy/\n    status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/scopes/nycu-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nycu/scopes/nycu-scopes.yml
 summary_line: 3 scopes
 tags:
 - Education

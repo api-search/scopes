@@ -5,55 +5,55 @@ api_specs:
   label: Hopae, Inc. Console - API Keys API
   slug: hopae-inc-console-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-console-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-console-api-keys-api-openapi.yml
 - filename: hopae-inc-providers-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Providers API
   slug: hopae-inc-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-providers-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-providers-api-openapi.yml
 - filename: hopae-inc-token-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Token API
   slug: hopae-inc-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-token-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-token-api-openapi.yml
 - filename: hopae-inc-verifications-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Verifications API
   slug: hopae-inc-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-verifications-api-openapi.yml
 - filename: hopae-inc-workspace-api-activation-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Activation API
   slug: hopae-inc-workspace-api-activation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-activation-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-activation-api-openapi.yml
 - filename: hopae-inc-workspace-api-apps-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Apps API
   slug: hopae-inc-workspace-api-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-apps-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-apps-api-openapi.yml
 - filename: hopae-inc-workspace-api-production-tests-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Production Tests API
   slug: hopae-inc-workspace-api-production-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-production-tests-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-production-tests-api-openapi.yml
 - filename: hopae-inc-workspace-api-workflows-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Workflows API
   slug: hopae-inc-workspace-api-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-workflows-api-openapi.yml
 - filename: hopae-inc-workspace-api-workspace-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Workspace API
   slug: hopae-inc-workspace-api-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-workspace-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.hopae.com/api-reference/oidc/well-known
@@ -126,7 +126,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://connect.hopae.com/.well-known/openid-configuration\ndocs: https://docs.hopae.com/api-reference/oidc/well-known\nnote: >-\n  The hConnect REST OpenAPI declares only HTTP basic + bearer security schemes (no\n  oauth2 block), but the OIDC OP surface (connect.hopae.com) publishes an OpenID\n  Connect discovery document that declares scopes_supported. These are the OIDC\n  request scopes used in the Authorization Code flow for browser-based sign-in.\nschemes:\n  - name: OpenID Connect (Hopae Connect OP)\n    type: openIdConnect\n    issuer: https://connect.hopae.com\n    authorization_endpoint: https://connect.hopae.com/auth\n    token_endpoint: https://connect.hopae.com/token\n    userinfo_endpoint: https://connect.hopae.com/userinfo\n    jwks_uri: https://connect.hopae.com/jwks\n    grant_types: [authorization_code, implicit, refresh_token]\nscopes:\n  - scope: openid\n    description: Required OIDC scope; requests an\
   \ ID token for the authenticated subject.\n    flows: [authorizationCode]\n  - scope: hopae\n    description: Hopae-specific scope granting access to Hopae Connect verification claims and provenance.\n    flows: [authorizationCode]\n  - scope: idv\n    description: Identity verification scope; grants the normalized eID verification result and level of assurance.\n    flows: [authorizationCode]\n  - scope: profile\n    description: Standard OIDC profile claims (name, given_name, family_name, birthdate, gender, locale, etc.).\n    flows: [authorizationCode]\n  - scope: email\n    description: Standard OIDC email + email_verified claims.\n    flows: [authorizationCode]\n  - scope: phone\n    description: Standard OIDC phone_number + phone_number_verified claims.\n    flows: [authorizationCode]\n  - scope: address\n    description: Standard OIDC address claim.\n    flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/scopes/hopae-inc-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hopae-inc/scopes/hopae-inc-scopes.yml
 summary_line: 7 scopes
 tags:
 - Company

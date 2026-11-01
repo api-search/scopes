@@ -5,43 +5,43 @@ api_specs:
   label: Unbounce Accounts API
   slug: unbounce-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-accounts-api-openapi.yml
 - filename: unbounce-domains-api-openapi.yml
   format: yaml
   label: Unbounce Domains API
   slug: unbounce-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-domains-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-domains-api-openapi.yml
 - filename: unbounce-leads-api-openapi.yml
   format: yaml
   label: Unbounce Leads API
   slug: unbounce-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-leads-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-leads-api-openapi.yml
 - filename: unbounce-meta-api-openapi.yml
   format: yaml
   label: Unbounce Meta API
   slug: unbounce-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-meta-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-meta-api-openapi.yml
 - filename: unbounce-pagegroups-api-openapi.yml
   format: yaml
   label: Unbounce PageGroups API
   slug: unbounce-pagegroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-pagegroups-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-pagegroups-api-openapi.yml
 - filename: unbounce-pages-api-openapi.yml
   format: yaml
   label: Unbounce Pages API
   slug: unbounce-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-pages-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-pages-api-openapi.yml
 - filename: unbounce-users-api-openapi.yml
   format: yaml
   label: Unbounce Users API
   slug: unbounce-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/openapi/unbounce-users-api-openapi.yml
+  url: https://artifacts.apis.io/unbounce/openapi/unbounce-users-api-openapi.yml
 authorization_urls:
 - https://api.unbounce.com/oauth/authorize
 - https://mcp.unbounce.com/authorize
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ registration: manual — OAuth applications are granted case-by-case via a request form\n  description: OAuth 2.0 Authorization Code; access tokens are short-lived JWTs.\n- name: mcp-oauth2\n  surface: MCP server (https://mcp.unbounce.com/mcp)\n  source: https://mcp.unbounce.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.unbounce.com/authorize\n    tokenUrl: https://mcp.unbounce.com/token\n    pkce: S256\n    refresh: supported\n  registration: dynamic — https://mcp.unbounce.com/register (RFC 7591)\n  description: OAuth 2.0 with PKCE and dynamic client registration, per the MCP authorization spec.\nscopes:\n- scope: full\n  surface: REST API v0.4\n  description: >-\n    \"Currently only (default) scope: 'full' is supported. Which provides access based on\n    the user's credentials.\" OAuth tokens grant exactly the permissions the authenticating\n    user already has — there is no narrowing.\n  flows: [authorizationCode]\n\
   \  sources: [https://developer.unbounce.com/getting_started/#Authorization]\n- scope: unbounce\n  surface: MCP server\n  description: >-\n    The single scope advertised by the MCP authorization server\n    (scopes_supported: [\"unbounce\"]) and demanded in its 401 WWW-Authenticate challenge.\n    Covers every one of the 37 tools, including the destructive ones.\n  flows: [authorizationCode]\n  sources: [https://mcp.unbounce.com/.well-known/oauth-authorization-server]\napi_key:\n  scoped: false\n  note: >-\n    The API key is not scoped at all — \"API keys currently act like Unbounce account\n    administrators\", granting read access to every account, sub-account, domain, page\n    group, page, lead and user an administrator can see.\ngaps:\n- No granular or least-privilege scopes on either surface; both are all-or-nothing.\n- No incremental authorization, no per-resource consent, no scope reference page.\n- An agent holding the `unbounce` MCP scope can delete pages, delete variants and\
   \ reset stats with no further consent step.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/scopes/unbounce-scopes.yml
+source_yaml_url: https://artifacts.apis.io/unbounce/scopes/unbounce-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Landing Pages

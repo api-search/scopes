@@ -5,67 +5,67 @@ api_specs:
   label: Google AdMob Accounts API
   slug: google-admob-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-accounts-api-openapi.yml
 - filename: google-admob-adapters-api-openapi.yml
   format: yaml
   label: Google AdMob Adapters API
   slug: google-admob-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adapters-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-adapters-api-openapi.yml
 - filename: google-admob-adsources-api-openapi.yml
   format: yaml
   label: Google AdMob Ad Sources API
   slug: google-admob-adsources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adsources-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-adsources-api-openapi.yml
 - filename: google-admob-adunitmappings-api-openapi.yml
   format: yaml
   label: Google AdMob Ad Unit Mappings API
   slug: google-admob-adunitmappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-adunitmappings-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-adunitmappings-api-openapi.yml
 - filename: google-admob-apps-api-openapi.yml
   format: yaml
   label: Google AdMob Apps API
   slug: google-admob-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-apps-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-apps-api-openapi.yml
 - filename: google-admob-campaignreport-api-openapi.yml
   format: yaml
   label: Google AdMob Campaign Report API
   slug: google-admob-campaignreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-campaignreport-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-campaignreport-api-openapi.yml
 - filename: google-admob-mediationabexperiments-api-openapi.yml
   format: yaml
   label: Google AdMob Mediation Ab Experiments API
   slug: google-admob-mediationabexperiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationabexperiments-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-mediationabexperiments-api-openapi.yml
 - filename: google-admob-mediationgroups-api-openapi.yml
   format: yaml
   label: Google AdMob Mediation Groups API
   slug: google-admob-mediationgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationgroups-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-mediationgroups-api-openapi.yml
 - filename: google-admob-mediationreport-api-openapi.yml
   format: yaml
   label: Google AdMob Mediation Report API
   slug: google-admob-mediationreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-mediationreport-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-mediationreport-api-openapi.yml
 - filename: google-admob-networkreport-api-openapi.yml
   format: yaml
   label: Google AdMob Network Report API
   slug: google-admob-networkreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-networkreport-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-networkreport-api-openapi.yml
 - filename: google-admob-ad-units-api-openapi.yml
   format: yaml
   label: Google AdMob Ad Units API
   slug: google-admob-ad-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/openapi/google-admob-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/google-admob/openapi/google-admob-ad-units-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -122,7 +122,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/google-admob-api-v1-openapi.yml, openapi/google-admob-api-v1beta-openapi.yml\nschemes:\n- name: GoogleOAuth2\n  source: openapi/google-admob-api-v1-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: Google OAuth 2.0 user authorization. AdMob does not support service accounts.\n- name: GoogleOAuth2\n  source: openapi/google-admob-api-v1beta-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: Google OAuth 2.0 user authorization. AdMob does not support service accounts.\nscopes:\n- scope: https://www.googleapis.com/auth/admob.readonly\n  description: See your AdMob data. Grants read access to account, app, ad unit, ad source, adapter, ad\n    unit mapping\
   \ and mediation group resources.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-admob-api-v1-openapi.yml\n  - openapi/google-admob-api-v1beta-openapi.yml\n- scope: https://www.googleapis.com/auth/admob.report\n  description: See your AdMob data. Grants access to generate network, mediation and campaign reports.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-admob-api-v1-openapi.yml\n  - openapi/google-admob-api-v1beta-openapi.yml\ndocs: https://developers.google.com/admob/api/v1/getting-started\nnotes: 'Scopes confirmed against Google''s own AdMob Discovery Document auth block (both v1 and v1beta\n  declare exactly these two) and the AdMob getting-started page on 2026-08-13. AdMob publishes only two\n  scopes and neither is a write scope: there is no admob.write. The v1beta write methods are authorized\n  by the same admob.readonly/admob.report tokens plus the consenting user''s AdMob account role, which\n  means SCOPE ALONE CANNOT CONSTRAIN AN AGENT\
   \ TO READ-ONLY on v1beta. To keep an agent read-only, restrict\n  it to the v1 channel, which has no write operations at all.'\nwrite_scope_published: false\nagent_note: Neither scope is write-scoped; v1beta writes ride on the same tokens. Channel choice, not\n  scope choice, is the read-only control.\ncross_links:\n  authentication: authentication/google-admob-authentication.yml\n  wellknown: well-known/google-admob-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/scopes/google-admob-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-admob/scopes/google-admob-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Ad Mediation

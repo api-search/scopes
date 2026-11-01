@@ -5,61 +5,61 @@ api_specs:
   label: Regal Reporting Webhooks
   slug: regal-reporting-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/asyncapi/regal-reporting-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/regal-ai/asyncapi/regal-reporting-webhooks-asyncapi.yml
 - filename: regal-ai-campaigns-api-openapi.yml
   format: yaml
   label: Regal Campaigns API
   slug: regal-ai-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-campaigns-api-openapi.yml
 - filename: regal-ai-dispositions-api-openapi.yml
   format: yaml
   label: Regal Dispositions API
   slug: regal-ai-dispositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-dispositions-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-dispositions-api-openapi.yml
 - filename: regal-ai-events-api-openapi.yml
   format: yaml
   label: Regal Events API
   slug: regal-ai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-events-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-events-api-openapi.yml
 - filename: regal-ai-messages-api-openapi.yml
   format: yaml
   label: Regal Messages API
   slug: regal-ai-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-messages-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-messages-api-openapi.yml
 - filename: regal-ai-users-api-openapi.yml
   format: yaml
   label: Regal Users API
   slug: regal-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-users-api-openapi.yml
 - filename: regal-ai-activephonenumbers-api-openapi.yml
   format: yaml
   label: Regal Active Phone Numbers API
   slug: regal-ai-activephonenumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-activephonenumbers-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-activephonenumbers-api-openapi.yml
 - filename: regal-ai-brandedphonenumbers-api-openapi.yml
   format: yaml
   label: Regal Branded Phone Numbers API
   slug: regal-ai-brandedphonenumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-brandedphonenumbers-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-brandedphonenumbers-api-openapi.yml
 - filename: regal-ai-businessprofiles-api-openapi.yml
   format: yaml
   label: Regal Business Profiles API
   slug: regal-ai-businessprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-businessprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-businessprofiles-api-openapi.yml
 - filename: regal-ai-callhandoffs-api-openapi.yml
   format: yaml
   label: Regal Call Handoffs API
   slug: regal-ai-callhandoffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-callhandoffs-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-callhandoffs-api-openapi.yml
 authorization_urls:
 - https://mcp.regal.ai/v1/external-mcp/authorize
 description: ''
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.regal
   applies_to: mcp/regal-ai-mcp.yml\nschemes:\n  - name: RegalMCPOAuth\n    type: oauth2\n    source: https://mcp.regal.ai/.well-known/oauth-authorization-server\n    issuer: https://mcp.regal.ai/\n    identity_provider: Okta\n    dynamic_client_registration: https://mcp.regal.ai/v1/external-mcp/register\n    code_challenge_methods: [S256]\n    token_endpoint_auth_methods: [client_secret_post, client_secret_basic]\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.regal.ai/v1/external-mcp/authorize\n        tokenUrl: https://mcp.regal.ai/v1/external-mcp/token\n        revocationUrl: https://mcp.regal.ai/v1/external-mcp/revoke\n      - flow: refreshToken\n        tokenUrl: https://mcp.regal.ai/v1/external-mcp/token\nscopes:\n  - scope: openid\n    description: OIDC authentication of the Regal user behind the MCP client.\n    flows: [authorizationCode]\n    sources: [https://mcp.regal.ai/.well-known/oauth-authorization-server]\n  - scope: profile\n    description:\
   \ Basic profile claims for the authenticated Regal user.\n    flows: [authorizationCode]\n    sources: [https://mcp.regal.ai/.well-known/oauth-authorization-server]\n  - scope: email\n    description: Email claim for the authenticated Regal user.\n    flows: [authorizationCode]\n    sources: [https://mcp.regal.ai/.well-known/oauth-authorization-server]\n  - scope: offline_access\n    description: Refresh-token issuance so the MCP client can keep a session without re-prompting.\n    flows: [authorizationCode, refreshToken]\n    sources: [https://mcp.regal.ai/.well-known/oauth-authorization-server]\nresource:\n  resource: https://mcp.regal.ai/v1/external-mcp/mcp\n  authorization_servers: [https://mcp.regal.ai/]\n  bearer_methods_supported: [header]\n  source: https://mcp.regal.ai/.well-known/oauth-protected-resource/v1/external-mcp/mcp\nauthorization_model:\n  boundary: brand\n  detail: >-\n    Regal states every MCP tool is scoped to the authenticated brand and that no\n    cross-tenant\
   \ access is possible. Write tools additionally require explicit human\n    approval at the client and only save drafts.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/scopes/regal-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/regal-ai/scopes/regal-ai-scopes.yml
 summary_line: 4 scopes · authorizationCode/refreshToken
 tags:
 - Artificial Intelligence

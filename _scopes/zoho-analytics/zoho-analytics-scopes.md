@@ -5,67 +5,67 @@ api_specs:
   label: Zoho Analytics Bulk Export - Asynchronous API
   slug: zoho-analytics-bulk-export-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-export-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-export-asynchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-export-synchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Export - Synchronous API
   slug: zoho-analytics-bulk-export-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-export-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-export-synchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-import-asynchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Asynchronous API
   slug: zoho-analytics-bulk-import-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-asynchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-import-batch-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Batch API
   slug: zoho-analytics-bulk-import-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-batch-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-batch-api-openapi.yml
 - filename: zoho-analytics-bulk-import-synchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Synchronous API
   slug: zoho-analytics-bulk-import-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-synchronous-api-openapi.yml
 - filename: zoho-analytics-data-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Data APIs API
   slug: zoho-analytics-data-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-data-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-data-apis-api-openapi.yml
 - filename: zoho-analytics-embed-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Embed APIs API
   slug: zoho-analytics-embed-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-embed-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-embed-apis-api-openapi.yml
 - filename: zoho-analytics-metadata-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Metadata APIs API
   slug: zoho-analytics-metadata-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-metadata-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-metadata-apis-api-openapi.yml
 - filename: zoho-analytics-modeling-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Modeling APIs API
   slug: zoho-analytics-modeling-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-modeling-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-modeling-apis-api-openapi.yml
 - filename: zoho-analytics-sharing-collaboration-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Sharing & Collaboration APIs API
   slug: zoho-analytics-sharing-collaboration-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-sharing-collaboration-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-sharing-collaboration-apis-api-openapi.yml
 - filename: zoho-analytics-user-management-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics User Management APIs API
   slug: zoho-analytics-user-management-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-user-management-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-user-management-apis-api-openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''
@@ -299,7 +299,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bulk-api
   \ Create modeling objects in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/modeling-api.json\n- scope: ZohoAnalytics.modeling.delete\n  description: Delete modeling objects in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/modeling-api.json\n- scope: ZohoAnalytics.modeling.read\n  sources:\n  - openapi/modeling-api.json\n- scope: ZohoAnalytics.modeling.update\n  description: Update modeling objects in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/modeling-api.json\n- scope: ZohoAnalytics.share.all\n  description: Full access to shared items in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/share-api.json\n- scope: ZohoAnalytics.share.create\n  description: Create shared items in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/share-api.json\n- scope: ZohoAnalytics.share.delete\n  description: Delete shared items in Zoho Analytics.\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/share-api.json\n- scope: ZohoAnalytics.share.read\n  description: Read shared items in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/share-api.json\n- scope: ZohoAnalytics.share.update\n  description: Update shared items in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/share-api.json\n- scope: ZohoAnalytics.usermanagement.all\n  description: Full access to user management in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/usermanagement-api.json\n- scope: ZohoAnalytics.usermanagement.create\n  description: Create user management data in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/usermanagement-api.json\n- scope: ZohoAnalytics.usermanagement.delete\n  description: Delete user management data in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/usermanagement-api.json\n- scope: ZohoAnalytics.usermanagement.read\n  description: Read\
   \ user management data in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/usermanagement-api.json\n- scope: ZohoAnalytics.usermanagement.update\n  description: Update user management data in Zoho Analytics.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/usermanagement-api.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/scopes/zoho-analytics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zoho-analytics/scopes/zoho-analytics-scopes.yml
 summary_line: 31 scopes · authorizationCode
 tags:
 - Business Intelligence

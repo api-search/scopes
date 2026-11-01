@@ -5,19 +5,19 @@ api_specs:
   label: Agent Ready MCP API
   slug: agent-ready-dev-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent-ready-dev/refs/heads/main/openapi/agent-ready-dev-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/agent-ready-dev/openapi/agent-ready-dev-mcp-api-openapi.yml
 - filename: agent-ready-dev-nlweb-api-openapi.yml
   format: yaml
   label: Agent Ready NL Web API
   slug: agent-ready-dev-nlweb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent-ready-dev/refs/heads/main/openapi/agent-ready-dev-nlweb-api-openapi.yml
+  url: https://artifacts.apis.io/agent-ready-dev/openapi/agent-ready-dev-nlweb-api-openapi.yml
 - filename: agent-ready-dev-scans-api-openapi.yml
   format: yaml
   label: Agent Ready Scans API
   slug: agent-ready-dev-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agent-ready-dev/refs/heads/main/openapi/agent-ready-dev-scans-api-openapi.yml
+  url: https://artifacts.apis.io/agent-ready-dev/openapi/agent-ready-dev-scans-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://agent-ready.dev/auth
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://agent-r
   \ at https://agent-ready.dev/dashboard/api-keys (Pro plan)\n  authorization_server_metadata: well-known/agent-ready-dev-oauth-authorization-server.json\n  protected_resource_metadata: well-known/agent-ready-dev-oauth-protected-resource.json\n  grant_types_supported: [urn:ietf:params:oauth:grant-type:api-key]\n  token_endpoint_auth_methods_supported: [none]\n  response_types_supported: [none]\n  bearer_methods_supported: [header]\n  dynamic_client_registration: false\n  revocation: dashboard only (no RFC 7009 endpoint)\nscopes:\n- scope: scan:read\n  description: Read scans — GET /api/v1/scans/{id}, GET /api/v1/scans, the get_scan MCP tool and A2A tasks/get. (Description inferred from the operation surface; the metadata publishes names only.)\n  sources: [well-known/agent-ready-dev-oauth-authorization-server.json, well-known/agent-ready-dev-oauth-protected-resource.json]\n  enforced: false\n- scope: scan:write\n  description: Start scans — POST /api/v1/scans and the scan_site MCP tool /\
   \ A2A skill.\n  sources: [well-known/agent-ready-dev-oauth-authorization-server.json, well-known/agent-ready-dev-oauth-protected-resource.json]\n  enforced: false\n- scope: ask:read\n  description: The NLWeb /api/v1/ask endpoint and the ask tool/skill — public today, no key required.\n  sources: [well-known/agent-ready-dev-oauth-authorization-server.json, well-known/agent-ready-dev-oauth-protected-resource.json]\n  enforced: false\n- scope: mcp\n  description: Access to the hosted MCP endpoint https://agent-ready.dev/api/v1/mcp (the resource named in the protected-resource metadata).\n  sources: [well-known/agent-ready-dev-oauth-authorization-server.json, well-known/agent-ready-dev-oauth-protected-resource.json]\n  enforced: false\neffective_permission_model:\n  basis: plan tier\n  tiers:\n    anonymous: ask, scanMcp, x402 lane, POST /api/scan (3 scans / 30 days per IP), MCP Apps endpoint tools/call\n    free_signed_in: web scans only (10 / 30 days); cannot mint API keys\n    pro: ar_live_\
   \ key — startScan, getScan, listScans, hosted MCP tools/call, A2A scan_site / tasks/get\n  docs: https://agent-ready.dev/pricing\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agent-ready-dev/refs/heads/main/scopes/agent-ready-dev-scopes.yml
+source_yaml_url: https://artifacts.apis.io/agent-ready-dev/scopes/agent-ready-dev-scopes.yml
 summary_line: 4 scopes
 tags:
 - Agents

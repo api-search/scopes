@@ -5,97 +5,97 @@ api_specs:
   label: Klarna Push Notifications
   slug: klarna-push-notifications
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/asyncapi/klarna-push-notifications-asyncapi.yml
+  url: https://artifacts.apis.io/klarna/asyncapi/klarna-push-notifications-asyncapi.yml
 - filename: klarna-captures-api-openapi.yml
   format: yaml
   label: Klarna Captures API
   slug: klarna-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-captures-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-captures-api-openapi.yml
 - filename: klarna-checkout-api-openapi.yml
   format: yaml
   label: Klarna Checkout API
   slug: klarna-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-checkout-api-openapi.yml
 - filename: klarna-customer-token-api-openapi.yml
   format: yaml
   label: Klarna Customer Token API
   slug: klarna-customer-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-customer-token-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-customer-token-api-openapi.yml
 - filename: klarna-hpp-api-openapi.yml
   format: yaml
   label: Klarna Hpp API
   slug: klarna-hpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-hpp-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-hpp-api-openapi.yml
 - filename: klarna-merchant-urls-address-update-api-openapi.yml
   format: yaml
   label: Klarna Merchant Urls.address Update API
   slug: klarna-merchant-urls-address-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchant-urls-address-update-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-merchant-urls-address-update-api-openapi.yml
 - filename: klarna-merchant-urls-country-change-api-openapi.yml
   format: yaml
   label: Klarna Merchant Urls.country Change API
   slug: klarna-merchant-urls-country-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchant-urls-country-change-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-merchant-urls-country-change-api-openapi.yml
 - filename: klarna-merchant-urls-shipping-option-update-api-openapi.yml
   format: yaml
   label: Klarna Merchant Urls.shipping Option Update API
   slug: klarna-merchant-urls-shipping-option-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchant-urls-shipping-option-update-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-merchant-urls-shipping-option-update-api-openapi.yml
 - filename: klarna-merchant-urls-validation-api-openapi.yml
   format: yaml
   label: Klarna Merchant Urls.validation API
   slug: klarna-merchant-urls-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchant-urls-validation-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-merchant-urls-validation-api-openapi.yml
 - filename: klarna-orders-api-openapi.yml
   format: yaml
   label: Klarna Orders API
   slug: klarna-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-orders-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-orders-api-openapi.yml
 - filename: klarna-payments-api-openapi.yml
   format: yaml
   label: Klarna Payments API
   slug: klarna-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-payments-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-payments-api-openapi.yml
 - filename: klarna-payouts-api-openapi.yml
   format: yaml
   label: Klarna Payouts API
   slug: klarna-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-payouts-api-openapi.yml
 - filename: klarna-refunds-api-openapi.yml
   format: yaml
   label: Klarna Refunds API
   slug: klarna-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-refunds-api-openapi.yml
 - filename: klarna-reports-api-openapi.yml
   format: yaml
   label: Klarna Reports API
   slug: klarna-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-reports-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-reports-api-openapi.yml
 - filename: klarna-transactions-api-openapi.yml
   format: yaml
   label: Klarna Transactions API
   slug: klarna-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-transactions-api-openapi.yml
 - filename: klarna-merchant-card-api-openapi.yml
   format: yaml
   label: Klarna Merchant Card API
   slug: klarna-merchant-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/openapi/klarna-merchant-card-api-openapi.yml
+  url: https://artifacts.apis.io/klarna/openapi/klarna-merchant-card-api-openapi.yml
 authorization_urls:
 - https://login.klarna.com/oauth2/auth
 description: OAuth 2.0 / OIDC scopes for Sign in with Klarna, read verbatim from Klarna's own OpenID Connect discovery document at login.klarna.com. Klarna's server-to-server REST APIs (Payments, Order Management, Settlements) do NOT use OAuth — they authenticate with HTTP Basic and an API key, so no scope surface exists there. Every scope below belongs to the consumer-authorization surface.
@@ -325,7 +325,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://login.k
   \ Date of birth with Klarna verification status (date_of_birth_verified).\n- scope: personalization:interests\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n  description: Consumer interest signals for personalization.\n- scope: payment:request:create\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n  description: Create a payment request for the signed-in consumer.\n- scope: payment:recurring\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n  description: Initiate recurring / merchant-initiated payments.\n- scope: payment:authorization:list\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n  description: List the consumer payment authorizations.\n- scope: customer:purchase_power\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n\
   \  description: Read the consumer purchase power / spending capacity.\n- scope: customer:account_management\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n  description: Manage the consumer Klarna account.\n- scope: customer:purchase_management\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n  description: Manage the consumer purchases.\n- scope: customer:prequalified_offers\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n  description: Read prequalified financing offers for the consumer.\n- scope: customer:login\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n  description: Authenticate the consumer (Sign in with Klarna).\n- scope: payment:customer_present\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n\
   \  description: Customer-present payment flow.\n- scope: payment:customer_not_present\n  flows:\n  - authorizationCode\n  sources:\n  - https://login.klarna.com/.well-known/openid-configuration\n  description: Customer-not-present (off-session) payment flow.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klarna/refs/heads/main/scopes/klarna-scopes.yml
+source_yaml_url: https://artifacts.apis.io/klarna/scopes/klarna-scopes.yml
 summary_line: 34 scopes · authorizationCode
 tags:
 - Fintech

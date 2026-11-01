@@ -5,49 +5,49 @@ api_specs:
   label: Trail Areas API
   slug: trail-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-areas-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-areas-api-openapi.yml
 - filename: trail-scores-api-openapi.yml
   format: yaml
   label: Trail Scores API
   slug: trail-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-scores-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-scores-api-openapi.yml
 - filename: trail-sites-api-openapi.yml
   format: yaml
   label: Trail Sites API
   slug: trail-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-sites-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-sites-api-openapi.yml
 - filename: trail-tags-api-openapi.yml
   format: yaml
   label: Trail Tags API
   slug: trail-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-tags-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-tags-api-openapi.yml
 - filename: trail-task-instances-api-openapi.yml
   format: yaml
   label: Trail Task Instances API
   slug: trail-task-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-task-instances-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-task-instances-api-openapi.yml
 - filename: trail-task-reports-api-openapi.yml
   format: yaml
   label: Trail Task Reports API
   slug: trail-task-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-task-reports-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-task-reports-api-openapi.yml
 - filename: trail-task-templates-api-openapi.yml
   format: yaml
   label: Trail Task Templates API
   slug: trail-task-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-task-templates-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-task-templates-api-openapi.yml
 - filename: trail-tasks-api-openapi.yml
   format: yaml
   label: Trail Tasks API
   slug: trail-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/openapi/trail-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/trail/openapi/trail-tasks-api-openapi.yml
 authorization_urls:
 - https://preprodidentity.accessacloud.com/connect/authorize
 description: ''
@@ -104,7 +104,7 @@ source_filename: trail-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/trail_evo_api_v1.yaml\nschemes:\n- name: oauth2\n  source: openapi/trail_evo_api_v1.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://preprodidentity.accessacloud.com/connect/authorize\n    tokenUrl: /api/evo_api/oauth/token\nscopes:\n- scope: access.trail.api\n  description: Trail API\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trail_evo_api_v1.yaml\n- scope: email\n  description: Email\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trail_evo_api_v1.yaml\n- scope: openid\n  description: OpenID\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trail_evo_api_v1.yaml\n- scope: profile\n  description: Profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/trail_evo_api_v1.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trail/refs/heads/main/scopes/trail-scopes.yml
+source_yaml_url: https://artifacts.apis.io/trail/scopes/trail-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

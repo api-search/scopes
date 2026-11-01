@@ -5,37 +5,37 @@ api_specs:
   label: Auphonic Info API
   slug: auphonic-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-info-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-info-api-openapi.yml
 - filename: auphonic-presets-api-openapi.yml
   format: yaml
   label: Auphonic Presets API
   slug: auphonic-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-presets-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-presets-api-openapi.yml
 - filename: auphonic-productions-api-openapi.yml
   format: yaml
   label: Auphonic Productions API
   slug: auphonic-productions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-productions-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-productions-api-openapi.yml
 - filename: auphonic-services-api-openapi.yml
   format: yaml
   label: Auphonic Services API
   slug: auphonic-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-services-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-services-api-openapi.yml
 - filename: auphonic-simple-api-api-openapi.yml
   format: yaml
   label: Auphonic Simple API
   slug: auphonic-simple-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-simple-api-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-simple-api-api-openapi.yml
 - filename: auphonic-user-api-openapi.yml
   format: yaml
   label: Auphonic User API
   slug: auphonic-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-user-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-user-api-openapi.yml
 authorization_urls:
 - https://auphonic.com/oauth2/authorize/
 description: ''
@@ -76,7 +76,7 @@ source_filename: auphonic-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/auphonic-openapi.yaml\nschemes:\n- name: oauth2\n  source: openapi/auphonic-openapi.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auphonic.com/oauth2/authorize/\n    tokenUrl: https://auphonic.com/oauth2/token/\n  - flow: password\n    tokenUrl: https://auphonic.com/oauth2/token/\n  description: OAuth 2.0 authentication for third-party applications.\n\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/scopes/auphonic-scopes.yml
+source_yaml_url: https://artifacts.apis.io/auphonic/scopes/auphonic-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Audio

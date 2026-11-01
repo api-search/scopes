@@ -5,37 +5,37 @@ api_specs:
   label: Infobip AI Hub API
   slug: infobip-ai-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-ai-hub-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-ai-hub-api-openapi.yml
 - filename: infobip-channels-api-openapi.yml
   format: yaml
   label: Infobip Channels API
   slug: infobip-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-channels-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-channels-api-openapi.yml
 - filename: infobip-connectivity-api-openapi.yml
   format: yaml
   label: Infobip Connectivity API
   slug: infobip-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-connectivity-api-openapi.yml
 - filename: infobip-customer-engagement-api-openapi.yml
   format: yaml
   label: Infobip Customer Engagement API
   slug: infobip-customer-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-customer-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-customer-engagement-api-openapi.yml
 - filename: infobip-platform-api-openapi.yml
   format: yaml
   label: Infobip Platform API
   slug: infobip-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-platform-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-platform-api-openapi.yml
 - filename: infobip-tools-api-openapi.yml
   format: yaml
   label: Infobip Tools API
   slug: infobip-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/openapi/infobip-tools-api-openapi.yml
+  url: https://artifacts.apis.io/infobip/openapi/infobip-tools-api-openapi.yml
 authorization_urls:
 - https://auth.infobip.com/realms/infobip/protocol/openid-connect/auth
 description: ''
@@ -757,8 +757,8 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: https://www.inf
   \ of logs related to Viber Bot Messages\n  group: viber-bot\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: viber-bot:manage\n  description: Enables access to all Viber Bot Messages API end-points\n  group: viber-bot\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: viber-bot:message:send\n  description: Enables sending of Viber Bot Messages\n  group: viber-bot\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: voice-message:logs:read\n  description: Enables access to logs of sent voice messages\n  group: voice-message\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: voice-message:manage\n  description: Enables management of all voice messages\n  group: voice-message\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: voice-message:message:send\n\
   \  description: Enables sendings of voice messages\n  group: voice-message\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: voice-reports:read\n  description: Enables access to voice reports\n  group: voice-reports\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: voice:logs:read\n  description: Enables reading of voice delivery reports\n  group: voice\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: voice:recording:delete\n  description: Enables deleting of voice recordings\n  group: voice\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: voice:recording:manage\n  description: Enables management of voice recordings\n  group: voice\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: voice:recording:read\n  description: Enables reading of voice\
   \ recordings\n  group: voice\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: web-push:manage\n  description: Allows management of web push notifications\n  group: web-push\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: web-push:send\n  description: Enables sending of web push notifications\n  group: web-push\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: web:sdk\n  description: Provides access to People and People events API endpoints accessed from client-side SDK\n  group: web\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: web:tracking:sdk\n  description: Enables tracking of website visitors through the Infobip Web SDK\n  group: web\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: webrtc:configuration:manage\n  description: Enables\
-  \ management of WebRTC configuration\n  group: webrtc\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: webrtc:identity:manage\n  description: Enables management of WebRTC identity configuration\n  group: webrtc\n  sources:\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/scopes/infobip-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/scopes/infobip-scopes.yml
+  \ management of WebRTC configuration\n  group: webrtc\n  sources:\n  - https://www.infobip.com/docs/essentials/api-essentials/api-authorization\n- scope: webrtc:identity:manage\n  description: Enables management of WebRTC identity configuration\n  group: webrtc\n  sources:\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/infobip/scopes/infobip-scopes.yml\n"
+source_yaml_url: https://artifacts.apis.io/infobip/scopes/infobip-scopes.yml
 summary_line: 159 scopes · clientCredentials/authorizationCode
 tags:
 - Telecommunications

@@ -5,61 +5,61 @@ api_specs:
   label: Digitised Objects Repository Search and Data API
   slug: digitised-objects
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-digitised-objects-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-digitised-objects-api-openapi.yml
 - filename: newcastle-entity-api-openapi.yml
   format: yaml
   label: Urban Observatory API (Urban Sciences Building) — Entity
   slug: urban-observatory-entity
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-entity-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-entity-api-openapi.yml
 - filename: newcastle-feed-api-openapi.yml
   format: yaml
   label: Urban Observatory API (Urban Sciences Building) — Feed
   slug: urban-observatory-feed
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-feed-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-feed-api-openapi.yml
 - filename: newcastle-summary-api-openapi.yml
   format: yaml
   label: Urban Observatory API (Urban Sciences Building) — Summary
   slug: urban-observatory-summary
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-summary-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-summary-api-openapi.yml
 - filename: newcastle-api-metadata-information-api-openapi.yml
   format: yaml
   label: Newcastle University API Metadata Information API
   slug: newcastle-api-metadata-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-api-metadata-information-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-api-metadata-information-api-openapi.yml
 - filename: newcastle-collections-api-openapi.yml
   format: yaml
   label: Newcastle University Collections API
   slug: newcastle-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-collections-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-collections-api-openapi.yml
 - filename: newcastle-contentdm-api-openapi.yml
   format: yaml
   label: Newcastle University CONTEN Tdm API
   slug: newcastle-contentdm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-contentdm-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-contentdm-api-openapi.yml
 - filename: newcastle-items-api-openapi.yml
   format: yaml
   label: Newcastle University Items API
   slug: newcastle-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-items-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-items-api-openapi.yml
 - filename: newcastle-tei-api-openapi.yml
   format: yaml
   label: Newcastle University TEI API
   slug: newcastle-tei-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-tei-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-tei-api-openapi.yml
 - filename: newcastle-time-series-api-openapi.yml
   format: yaml
   label: Newcastle University Time Series API
   slug: newcastle-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/openapi/newcastle-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle/openapi/newcastle-time-series-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -86,7 +86,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "name: Newcastle University — authorization scopes\naid: newcastle\ngenerated: '2026-08-30'\nmethod: derived\nx-evidence-method: probed\nsource: live probes of Newcastle University operated hosts, 2026-08-30\nscopes: []\nnote: >-\n  No institution-operated Newcastle University API defines authorization scopes. The Digitised\n  Objects Repository, the ECPPEC GraphQL API, the Urban Observatory API and the eTheses OAI-PMH\n  endpoint are all open and unauthenticated, so there is nothing to scope. The one scoped\n  authorization surface in the institution's footprint belongs to its Figshare tenant at\n  data.ncl.ac.uk, and those scopes are Figshare's, defined in Figshare's contract — recording them\n  here would credit Newcastle with a vendor's authorization design.\nreleased_attributes:\n  note: >-\n    The nearest institution-operated analogue to a scope is SAML attribute release from the\n    Shibboleth IdP at gateway.ncl.ac.uk. Attribute release policy is not published in the\
   \ public\n    federation metadata, so no attribute list is asserted here.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/scopes/newcastle-scopes.yml
+source_yaml_url: https://artifacts.apis.io/newcastle/scopes/newcastle-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

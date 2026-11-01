@@ -5,67 +5,67 @@ api_specs:
   label: Solera Assignment API
   slug: solera-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-assignment-api-openapi.yml
 - filename: solera-estimatereturn-api-openapi.yml
   format: yaml
   label: Solera Estimate Return API
   slug: solera-estimatereturn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-estimatereturn-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-estimatereturn-api-openapi.yml
 - filename: solera-getclaimimageresponse-api-openapi.yml
   format: yaml
   label: Solera Get Claim Image Response API
   slug: solera-getclaimimageresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getclaimimageresponse-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getclaimimageresponse-api-openapi.yml
 - filename: solera-getdocument-api-openapi.yml
   format: yaml
   label: Solera Get Document API
   slug: solera-getdocument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getdocument-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getdocument-api-openapi.yml
 - filename: solera-getdocuments-api-openapi.yml
   format: yaml
   label: Solera Get Documents API
   slug: solera-getdocuments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getdocuments-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getdocuments-api-openapi.yml
 - filename: solera-getimage-api-openapi.yml
   format: yaml
   label: Solera Get Image API
   slug: solera-getimage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getimage-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getimage-api-openapi.yml
 - filename: solera-getvaluation-api-openapi.yml
   format: yaml
   label: Solera Get Valuation API
   slug: solera-getvaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getvaluation-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getvaluation-api-openapi.yml
 - filename: solera-getvaluationresponse-api-openapi.yml
   format: yaml
   label: Solera Get Valuation Response API
   slug: solera-getvaluationresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-getvaluationresponse-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-getvaluationresponse-api-openapi.yml
 - filename: solera-gicintegration-api-openapi.yml
   format: yaml
   label: Solera GIC Integration API
   slug: solera-gicintegration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-gicintegration-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-gicintegration-api-openapi.yml
 - filename: solera-valuationreturn-api-openapi.yml
   format: yaml
   label: Solera Valuation Return API
   slug: solera-valuationreturn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-valuationreturn-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-valuationreturn-api-openapi.yml
 - filename: solera-version-api-openapi.yml
   format: yaml
   label: Solera Version API
   slug: solera-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/openapi/solera-version-api-openapi.yml
+  url: https://artifacts.apis.io/solera/openapi/solera-version-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: derived\nsource: openapi/solera-c
   \ password\n    tokenUrl: https://dispatch-login-demo.audatex.com/connect/token\n  description: Authorization using the JWT Bearer scheme\n- name: oauth2\n  source: openapi/solera-eapi-getdocument-openapi.json\n  flows:\n  - flow: password\n    tokenUrl: https://dispatch-login-demo.audatex.com/connect/token\n  description: Authorization using the JWT Bearer scheme\n- name: oauth2\n  source: openapi/solera-enterprise-assignment-prod-swagger.json\n  flows:\n  - flow: password\n    tokenUrl: https://dispatch-login.audatex.com/connect/token\n  description: Authorization using the JWT Bearer scheme\n- name: oauth2\n  source: openapi/solera-getdocuments-v1-openapi.json\n  flows:\n  - flow: password\n    tokenUrl: https://dispatch-login-demo.audatex.com/connect/token\n- name: oauth2\n  source: openapi/solera-getdocuments-v2-openapi.json\n  flows:\n  - flow: password\n    tokenUrl: https://dispatch-login-demo.audatex.com/connect/token\n- name: oauth2\n  source: openapi/solera-gic-integration-openapi.json\n\
   \  flows:\n  - flow: password\n    tokenUrl: https://dispatch-login-demo.audatex.com/connect/token\n  description: Authorization using the JWT Bearer scheme\nscopes:\n- scope: b2b.fnol.api\n  description: Audatex Assignment API Access\n  flows:\n  - password\n  sources:\n  - openapi/solera-claim-images-openapi.json\n  - openapi/solera-claim-images-prod-swagger.json\n  - openapi/solera-dashboard-assignment-openapi.json\n  - openapi/solera-eapi-getdocument-openapi.json\n  - openapi/solera-enterprise-assignment-prod-swagger.json\n  - openapi/solera-gic-integration-openapi.json\n- scope: b2b.fnol.documents\n  description: Audatex Assignment API Access\n  flows:\n  - password\n  sources:\n  - openapi/solera-getdocuments-v1-openapi.json\n  - openapi/solera-getdocuments-v2-openapi.json\n- scope: readAccess\n  sources:\n  - openapi/solera-dashboard-assignment-openapi.json\n  - openapi/solera-eapi-getdocument-openapi.json\n  - openapi/solera-getdocuments-v1-openapi.json\n  - openapi/solera-getdocuments-v2-openapi.json\n\
   \  - openapi/solera-gic-integration-openapi.json\n- scope: writeAccess\n  sources:\n  - openapi/solera-dashboard-assignment-openapi.json\n  - openapi/solera-eapi-getdocument-openapi.json\n  - openapi/solera-getdocuments-v1-openapi.json\n  - openapi/solera-getdocuments-v2-openapi.json\n  - openapi/solera-gic-integration-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/scopes/solera-scopes.yml
+source_yaml_url: https://artifacts.apis.io/solera/scopes/solera-scopes.yml
 summary_line: 4 scopes · password
 tags:
 - Insurance

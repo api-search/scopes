@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://www.amiparis.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/ami-paris-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/77478658352/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/77478658352/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication — issue an ID token for the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the customer's email address claim.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in customer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API surface for agent-driven customer\
   \ actions.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ami-paris/refs/heads/main/scopes/ami-paris-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ami-paris/scopes/ami-paris-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

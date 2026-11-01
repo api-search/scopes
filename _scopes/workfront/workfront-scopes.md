@@ -5,37 +5,37 @@ api_specs:
   label: Adobe Workfront Fields API
   slug: workfront-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-fields-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-fields-api-openapi.yml
 - filename: workfront-permissions-api-openapi.yml
   format: yaml
   label: Adobe Workfront Permissions API
   slug: workfront-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-permissions-api-openapi.yml
 - filename: workfront-record-types-api-openapi.yml
   format: yaml
   label: Adobe Workfront Record Types API
   slug: workfront-record-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-record-types-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-record-types-api-openapi.yml
 - filename: workfront-records-api-openapi.yml
   format: yaml
   label: Adobe Workfront Records API
   slug: workfront-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-records-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-records-api-openapi.yml
 - filename: workfront-views-api-openapi.yml
   format: yaml
   label: Adobe Workfront Views API
   slug: workfront-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-views-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-views-api-openapi.yml
 - filename: workfront-workspaces-api-openapi.yml
   format: yaml
   label: Adobe Workfront Workspaces API
   slug: workfront-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/openapi/workfront-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/workfront/openapi/workfront-workspaces-api-openapi.yml
 authorization_urls:
 - https://mcp.workfront.adobe.com/oauth/authorize
 description: ''
@@ -168,7 +168,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: https://mcp.workf
   \  issuer: https://mcp.workfront.adobe.com/mcp/v1\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.workfront.adobe.com/oauth/authorize\n    tokenUrl: https://mcp.workfront.adobe.com/oauth/token\n    pkce: [S256]\nscopes:\n- scope: AdobeID\n  description: Core Adobe IMS identity scope.\n  flows: [authorizationCode]\n- scope: openid\n  description: OpenID Connect — issue an ID token.\n  flows: [authorizationCode]\n- scope: profile\n  description: Access to the signed-in user's Adobe profile.\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the signed-in user's email address.\n  flows: [authorizationCode]\n- scope: additional_info.projectedProductContext\n  description: Adobe IMS product-context claim; resolves which Adobe products and organizations the\n    user is entitled to, including the Workfront instance.\n  flows: [authorizationCode]\n- scope: read_pc.workfront\n  description: Read the user's Workfront product context — the Workfront-specific\
   \ entitlement scope.\n  flows: [authorizationCode]\n- scope: read_organizations\n  description: Read the Adobe organizations (IMS orgs) the user belongs to.\n  flows: [authorizationCode]\n- scope: org.read\n  description: Read organization metadata.\n  flows: [authorizationCode]\n- scope: accounts.read\n  description: Read account information.\n  flows: [authorizationCode]\n- scope: session\n  description: Session management scope.\n  flows: [authorizationCode]\n- scope: read_pc\n  description: Read product context (generic).\n  flows: [authorizationCode]\n- scope: read_pc.acp\n  description: Read Adobe Cloud Platform product context.\n  flows: [authorizationCode]\n- scope: read_pc.dma_tartan\n  description: Read product context for the Adobe DMA (tartan) service group.\n  flows: [authorizationCode]\n- scope: aem.folders\n  description: Adobe Experience Manager folder access — used by the Workfront/AEM document tools.\n  flows: [authorizationCode]\n- scope: aem.assets.author\n  description:\
   \ Adobe Experience Manager Assets authoring access.\n  flows: [authorizationCode]\n- scope: aem.assets.delivery\n  description: Adobe Experience Manager Assets delivery access.\n  flows: [authorizationCode]\n- scope: ab.manage\n  description: Adobe App Builder management scope.\n  flows: [authorizationCode]\n- scope: creative_cloud\n  description: Creative Cloud access.\n  flows: [authorizationCode]\nx-evidence:\n  fetched: '2026-08-12'\n  urls:\n  - url: https://mcp.workfront.adobe.com/.well-known/oauth-authorization-server\n    http_status: 200\n  - url: https://mcp.workfront.adobe.com/.well-known/oauth-protected-resource\n    http_status: 200\n  - url: https://mcp.workfront.adobe.com/mcp/v1/workfront/.well-known/oauth-protected-resource\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/scopes/workfront-scopes.yml
+source_yaml_url: https://artifacts.apis.io/workfront/scopes/workfront-scopes.yml
 summary_line: 18 scopes · authorizationCode
 tags:
 - Company

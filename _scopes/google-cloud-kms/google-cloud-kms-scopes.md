@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud KMS Crypto Keys API
   slug: google-cloud-kms-crypto-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-crypto-keys-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-crypto-keys-api-openapi.yml
 - filename: google-cloud-kms-crypto-operations-api-openapi.yml
   format: yaml
   label: Google Cloud KMS Crypto Operations API
   slug: google-cloud-kms-crypto-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-crypto-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-crypto-operations-api-openapi.yml
 - filename: google-cloud-kms-key-rings-api-openapi.yml
   format: yaml
   label: Google Cloud KMS Key Rings API
   slug: google-cloud-kms-key-rings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-key-rings-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-key-rings-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -64,7 +64,7 @@ source_filename: google-cloud-kms-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n- scope: https://www.googleapis.com/auth/cloudkms\n  description: Manage KMS resources\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/scopes/google-cloud-kms-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-kms/scopes/google-cloud-kms-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Cryptography

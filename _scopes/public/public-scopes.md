@@ -47,7 +47,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://mcp.public.com/.well-known/oauth-protected-resource\ndocs: https://public.com/api/docs\nnote: >-\n  Scopes advertised by Public's hosted MCP server via its RFC 9728 OAuth 2.0\n  Protected Resource metadata. The MCP OAuth flow (used by Claude/ChatGPT\n  connectors) authorizes against the Public authorization server below. The\n  direct Trading API (api.public.com) instead uses personal secret keys\n  exchanged for short-lived bearer JWTs (see authentication/).\nschemes:\n- name: OAuth2\n  source: https://mcp.public.com/.well-known/oauth-protected-resource\n  authorization_servers:\n  - https://prod-api.154310543964.hellopublic.com/userapiauthservice/oauth2\n  bearer_methods_supported:\n  - header\nscopes:\n- scope: trading.read\n  description: Read access to accounts, portfolio, positions, and order/transaction history.\n  sources: [mcp.public.com oauth-protected-resource]\n- scope: trading.write\n  description: Place,\
   \ replace, and cancel orders and perform trading actions on the account.\n  sources: [mcp.public.com oauth-protected-resource]\n- scope: marketdata\n  description: Access real-time and historical market data (quotes, bars, option chains, greeks).\n  sources: [mcp.public.com oauth-protected-resource]\n- scope: openid\n  description: OpenID Connect authentication of the connecting user/agent.\n  sources: [mcp.public.com oauth-protected-resource]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/public/refs/heads/main/scopes/public-scopes.yml
+source_yaml_url: https://artifacts.apis.io/public/scopes/public-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

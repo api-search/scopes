@@ -5,43 +5,43 @@ api_specs:
   label: Vectara Agents API
   slug: vectara-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-agents-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-agents-api-openapi.yml
 - filename: vectara-authentication-api-openapi.yml
   format: yaml
   label: Vectara Authentication API
   slug: vectara-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-authentication-api-openapi.yml
 - filename: vectara-corpora-api-openapi.yml
   format: yaml
   label: Vectara Corpora API
   slug: vectara-corpora-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-corpora-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-corpora-api-openapi.yml
 - filename: vectara-documents-api-openapi.yml
   format: yaml
   label: Vectara Documents API
   slug: vectara-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-documents-api-openapi.yml
 - filename: vectara-pipelines-api-openapi.yml
   format: yaml
   label: Vectara Pipelines API
   slug: vectara-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-pipelines-api-openapi.yml
 - filename: vectara-query-api-openapi.yml
   format: yaml
   label: Vectara Query API
   slug: vectara-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-query-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-query-api-openapi.yml
 - filename: vectara-tools-api-openapi.yml
   format: yaml
   label: Vectara Tools API
   slug: vectara-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/openapi/vectara-tools-api-openapi.yml
+  url: https://artifacts.apis.io/vectara/openapi/vectara-tools-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -114,7 +114,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/vectara-agents-api-openapi.yml, openapi/vectara-authentication-api-openapi.yml,\n  openapi/vectara-corpora-api-openapi.yml, openapi/vectara-documents-api-openapi.yml, openapi/vectara-pipelines-api-openapi.yml,\n  openapi/vectara-query-api-openapi.yml, openapi/vectara-tools-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/vectara-agents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.vectara.io/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: OAuth2\n  source: openapi/vectara-authentication-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.vectara.io/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: OAuth2\n  source: openapi/vectara-corpora-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.vectara.io/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n\
   - name: OAuth2\n  source: openapi/vectara-documents-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.vectara.io/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: OAuth2\n  source: openapi/vectara-pipelines-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.vectara.io/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: OAuth2\n  source: openapi/vectara-query-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.vectara.io/oauth2/token\n  description: OAuth 2.0 client credentials flow.\n- name: OAuth2\n  source: openapi/vectara-tools-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.vectara.io/oauth2/token\n  description: OAuth 2.0 client credentials flow.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/scopes/vectara-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vectara/scopes/vectara-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Artificial Intelligence

@@ -5,73 +5,73 @@ api_specs:
   label: Sequel Analytics API
   slug: sequel-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-analytics-api-openapi.yml
 - filename: sequel-client-api-openapi.yml
   format: yaml
   label: Sequel Client API
   slug: sequel-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-client-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-client-api-openapi.yml
 - filename: sequel-company-api-openapi.yml
   format: yaml
   label: Sequel Company API
   slug: sequel-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-company-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-company-api-openapi.yml
 - filename: sequel-company-theme-api-openapi.yml
   format: yaml
   label: Sequel company theme API
   slug: sequel-company-theme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-company-theme-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-company-theme-api-openapi.yml
 - filename: sequel-company-theme-fonts-api-openapi.yml
   format: yaml
   label: Sequel company theme fonts API
   slug: sequel-company-theme-fonts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-company-theme-fonts-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-company-theme-fonts-api-openapi.yml
 - filename: sequel-company-theme-overrides-api-openapi.yml
   format: yaml
   label: Sequel company theme overrides API
   slug: sequel-company-theme-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-company-theme-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-company-theme-overrides-api-openapi.yml
 - filename: sequel-event-api-openapi.yml
   format: yaml
   label: Sequel Event API
   slug: sequel-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-event-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-event-api-openapi.yml
 - filename: sequel-event-theme-api-openapi.yml
   format: yaml
   label: Sequel event theme API
   slug: sequel-event-theme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-event-theme-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-event-theme-api-openapi.yml
 - filename: sequel-event-theme-overrides-api-openapi.yml
   format: yaml
   label: Sequel event theme overrides API
   slug: sequel-event-theme-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-event-theme-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-event-theme-overrides-api-openapi.yml
 - filename: sequel-media-api-openapi.yml
   format: yaml
   label: Sequel Media API
   slug: sequel-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-media-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-media-api-openapi.yml
 - filename: sequel-networking-api-openapi.yml
   format: yaml
   label: Sequel Networking API
   slug: sequel-networking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-networking-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-networking-api-openapi.yml
 - filename: sequel-platform-api-openapi.yml
   format: yaml
   label: Sequel Platform API
   slug: sequel-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/openapi/sequel-platform-api-openapi.yml
+  url: https://artifacts.apis.io/sequel/openapi/sequel-platform-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.introvoke.com/docs
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://api.intro
   \    and use the returned JWT as a bearer token; no `scope` parameter is documented and\n    no scope values are published. Authorization is therefore all-or-nothing per API\n    client — an agent holding a Sequel token can reach every operation that client's\n    company is entitled to, including destructive ones (deleteevent, deleteRegistrantById,\n    postClearChat). There is no way to issue a read-only API credential.\n- name: mcp-protected-resource\n  type: oauth2\n  resource: https://prod-api-elb.sequelvideo.com/api/mcp\n  resource_public_endpoint: https://api.introvoke.com/api/mcp\n  authorization_servers:\n  - https://login.introvoke.com\n  bearer_methods_supported:\n  - header\n  scopes:\n  - scope: openid\n    description: OpenID Connect — issue an ID token identifying the end user.\n    source: /.well-known/oauth-protected-resource\n  - scope: profile\n    description: Access the end user's basic profile claims.\n    source: /.well-known/oauth-protected-resource\n  - scope:\
   \ email\n    description: Access the end user's email address claim.\n    source: /.well-known/oauth-protected-resource\n  - scope: offline_access\n    description: Issue a refresh token so the MCP client can act without re-prompting.\n    source: /.well-known/oauth-protected-resource\n  note: >-\n    These are the four standard OIDC scopes the Auth0 tenant advertises for the\n    interactive user-login flow that fronts the MCP server. They authenticate the human;\n    they do NOT describe or constrain what the MCP tools may read. There is no\n    Sequel-specific scope (nothing like `transcripts:read` or `events:read`), so an MCP\n    client's data access is bounded by the account's own permissions rather than by a\n    consent-time grant the user can narrow.\ndiscovery:\n- path: /.well-known/oauth-protected-resource\n  host: api.introvoke.com\n  status: 200\n  spec: RFC 9728 (OAuth 2.0 Protected Resource Metadata)\n  file: well-known/sequel-oauth-protected-resource.json\n- path: /.well-known/oauth-authorization-server\n\
   \  host: api.introvoke.com\n  status: 200\n  spec: RFC 8414 (OAuth 2.0 Authorization Server Metadata)\n  file: well-known/sequel-oauth-authorization-server.json\nauthorization_server:\n  issuer: https://login.introvoke.com\n  provider: Auth0\n  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  code_challenge_methods_supported:\n  - S256\n  - plain\n  token_endpoint_auth_methods_supported:\n  - client_secret_post\n  - client_secret_basic\ncross_ref:\n  authentication: authentication/sequel-authentication.yml\n  mcp: mcp/sequel-mcp.yml\n  well_known: well-known/sequel-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequel/refs/heads/main/scopes/sequel-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sequel/scopes/sequel-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

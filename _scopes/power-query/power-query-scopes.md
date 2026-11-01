@@ -5,19 +5,19 @@ api_specs:
   label: Power Query Items API
   slug: power-query-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-items-api-openapi.yml
+  url: https://artifacts.apis.io/power-query/openapi/power-query-items-api-openapi.yml
 - filename: power-query-background-jobs-api-openapi.yml
   format: yaml
   label: Power Query Background Jobs API
   slug: power-query-background-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-background-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/power-query/openapi/power-query-background-jobs-api-openapi.yml
 - filename: power-query-query-execution-api-openapi.yml
   format: yaml
   label: Power Query Query Execution API
   slug: power-query-query-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/openapi/power-query-query-execution-api-openapi.yml
+  url: https://artifacts.apis.io/power-query/openapi/power-query-query-execution-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: 'Microsoft Entra ID delegated scopes governing the Power Query (Fabric Dataflow) REST surface. Fabric draws a generic/specific distinction: generic `Item.*` scopes grant a token over any item type, specific `Dataflow.*` scopes narrow it to dataflows. Scopes apply ONLY to delegated, on-behalf-of-user access; service principals and managed identities are governed by Fabric admin controls and workspace permissions instead. The scopes are not declared in the published Swagger — they are carried in each operation''s `Required Delegated Scopes` prose section, which is where the list below was read from.'
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://learn.m
   \    note: >-\n      The two schedule operations require Dataflow.Execute.All AND\n      Dataflow.ReadWrite.All together, not either/or.\n  - name: Dataflow.Reshare.All\n    kind: specific\n    description: >-\n      Reshare dataflows the signed-in user has access to. Documented by the\n      Fabric scopes article as part of the <itemType>.Reshare.All pattern; no\n      Dataflow operation in the published spec was observed requiring it.\n    verified_on: []\n  - name: Workspace.Read.All\n    kind: other\n    description: Read the workspaces the signed-in user has access to.\n    verified_on:\n      - Items_ListDataflows\n  - name: Workspace.ReadWrite.All\n    kind: other\n    description: Read and write the workspaces the signed-in user has access to.\n    verified_on:\n      - Items_ListDataflows\n  - name: Item.Read.All\n    kind: generic\n    description: Read all Fabric items of any type the signed-in user has access to.\n    verified_on:\n      - Items_GetDataflow\n      - Items_DiscoverDataflowParameters\n\
   \  - name: Item.ReadWrite.All\n    kind: generic\n    description: Read and write all Fabric items of any type.\n    verified_on:\n      - Items_CreateDataflow\n      - Items_UpdateDataflow\n      - Items_DeleteDataflow\n      - Items_GetDataflowDefinition\n      - Items_UpdateDataflowDefinition\n      - Items_GetDataflow\n  - name: Item.Execute.All\n    kind: generic\n    description: Execute all Fabric items.\n    verified_on:\n      - QueryExecution_ExecuteQuery\n  - name: Item.Reshare.All\n    kind: generic\n    description: Reshare all Fabric items.\n    verified_on: []\nunverified_operations:\n  - operation: BackgroundJobs_RunOnDemandExecute\n    reason: >-\n      No reference page was located under\n      /rest/api/fabric/dataflow/background-jobs/ for this operation on 2026-08-29,\n      so its Required Delegated Scopes block could not be read. Not inferred.\n  - operation: BackgroundJobs_RunOnDemandApplyChanges\n    reason: Same as above.\nnotes:\n  - >-\n    Every operation additionally\
   \ requires a Fabric workspace role. A token\n    carrying Dataflow.ReadWrite.All does not by itself permit creating a dataflow\n    — the caller must also hold the contributor workspace role.\n  - >-\n    The full delegated-scope catalog is enumerated in the Azure portal under\n    App registrations > Add permissions > Power BI Service.\nevidence:\n  - url: https://learn.microsoft.com/en-us/rest/api/fabric/articles/scopes\n    status: 200\n  - url: https://learn.microsoft.com/en-us/rest/api/fabric/dataflow/items/create-dataflow\n    status: 200\n  - url: https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration\n    status: 200\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n    url: https://apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/scopes/power-query-scopes.yml
+source_yaml_url: https://artifacts.apis.io/power-query/scopes/power-query-scopes.yml
 summary_line: 10 scopes · authorization_code
 tags:
 - Business Intelligence

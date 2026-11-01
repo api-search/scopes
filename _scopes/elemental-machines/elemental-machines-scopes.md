@@ -5,73 +5,73 @@ api_specs:
   label: Elemental Machines Alert Logs API
   slug: elemental-machines-alert-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-alert-logs-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-alert-logs-api-openapi.yml
 - filename: elemental-machines-alert-rules-api-openapi.yml
   format: yaml
   label: Elemental Machines Alert Rules API
   slug: elemental-machines-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-alert-rules-api-openapi.yml
 - filename: elemental-machines-authentication-api-openapi.yml
   format: yaml
   label: Elemental Machines Authentication API
   slug: elemental-machines-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-authentication-api-openapi.yml
 - filename: elemental-machines-groups-api-openapi.yml
   format: yaml
   label: Elemental Machines Groups API
   slug: elemental-machines-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-groups-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-groups-api-openapi.yml
 - filename: elemental-machines-machines-api-openapi.yml
   format: yaml
   label: Elemental Machines API
   slug: elemental-machines-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-machines-api-openapi.yml
 - filename: elemental-machines-machines-sample-stats-api-openapi.yml
   format: yaml
   label: Elemental Machines Sample Stats API
   slug: elemental-machines-machines-sample-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-sample-stats-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-machines-sample-stats-api-openapi.yml
 - filename: elemental-machines-machines-samples-api-openapi.yml
   format: yaml
   label: Elemental Machines Samples API
   slug: elemental-machines-machines-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-samples-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-machines-samples-api-openapi.yml
 - filename: elemental-machines-machines-usage-api-openapi.yml
   format: yaml
   label: Elemental Machines Usage API
   slug: elemental-machines-machines-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-machines-usage-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-machines-usage-api-openapi.yml
 - filename: elemental-machines-release-notes-api-openapi.yml
   format: yaml
   label: Elemental Machines Release Notes API
   slug: elemental-machines-release-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-release-notes-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-release-notes-api-openapi.yml
 - filename: elemental-machines-status-api-openapi.yml
   format: yaml
   label: Elemental Machines Status API
   slug: elemental-machines-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-status-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-status-api-openapi.yml
 - filename: elemental-machines-user-activities-api-openapi.yml
   format: yaml
   label: Elemental Machines User Activities API
   slug: elemental-machines-user-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-user-activities-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-user-activities-api-openapi.yml
 - filename: elemental-machines-users-api-openapi.yml
   format: yaml
   label: Elemental Machines Users API
   slug: elemental-machines-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/openapi/elemental-machines-users-api-openapi.yml
+  url: https://artifacts.apis.io/elemental-machines/openapi/elemental-machines-users-api-openapi.yml
 authorization_urls:
 - https://elementalmachines.com/oauth/authorize
 description: ''
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: >-\n  openapi/ele
   \ openapi/elemental-machines-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.elementalmachines.io/oauth/token\n    scopes: {}\n  scope_count: 0\n  description: >-\n    Resource Owner Password Credentials grant taking username, password, client_id, client_secret\n    and grant_type. The provider's Swagger 1.2 declaration for /oauth/token declares no scope\n    parameter and the authorizations block of the resource listing is null, so no scope can be\n    requested and none is returned.\n  authorization_model: >-\n    Tenancy-scoped, not scope-scoped. GET /api/machines/{uuid}.json and the alert-log operation both\n    declare 403 Forbidden, which is the customer-group boundary being enforced. A single token\n    carries every permission that user has.\n  risk_note: >-\n    An access token with no scope, carried in a query string, on a password grant, with no published\n    expiry — every one of the four is a downgrade from current OAuth practice, and together they\n\
   \    mean a leaked log line is a full-permission credential.\n- name: mcp_oauth\n  surface: WordPress MCP server\n  host: https://elementalmachines.com\n  source: https://elementalmachines.com/.well-known/oauth-authorization-server\n  http_status: 200\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://elementalmachines.com/oauth/authorize\n    tokenUrl: https://elementalmachines.com/oauth/token\n    refreshUrl: https://elementalmachines.com/oauth/token\n    revocationUrl: https://elementalmachines.com/oauth/revoke\n    pkce: S256\n    scopes:\n      mcp: >-\n        The single scope advertised in scopes_supported by both the authorization-server metadata\n        and the protected-resource metadata. Its meaning is not documented anywhere; it gates\n        https://elementalmachines.com/wp-json/mcp/mcp-oauth-server.\n  scope_count: 1\n  token_endpoint_auth_methods_supported: [none]\n  client_id_metadata_document_supported: true\n  dynamic_client_registration: false\n\
   docs: null\ndocs_note: >-\n  No scopes, permissions or access-control reference page is published. Neither\n  https://api.elementalmachines.io/ (the Swagger UI console) nor the Freshdesk knowledge base\n  documents what a token can and cannot reach.\ncross_links:\n  authentication: authentication/elemental-machines-authentication.yml\n  mcp: mcp/elemental-machines-mcp.yml\n  well_known: well-known/elemental-machines-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/scopes/elemental-machines-scopes.yml
+source_yaml_url: https://artifacts.apis.io/elemental-machines/scopes/elemental-machines-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - lab-operations

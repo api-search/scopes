@@ -5,25 +5,25 @@ api_specs:
   label: Hong Kong University of Science and Technology Buildings API
   slug: hkust-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-buildings-api-openapi.yml
 - filename: hkust-floors-api-openapi.yml
   format: yaml
   label: Hong Kong University of Science and Technology Floors API
   slug: hkust-floors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-floors-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-floors-api-openapi.yml
 - filename: hkust-nodes-api-openapi.yml
   format: yaml
   label: Hong Kong University of Science and Technology Nodes API
   slug: hkust-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-nodes-api-openapi.yml
 - filename: hkust-tags-api-openapi.yml
   format: yaml
   label: Hong Kong University of Science and Technology Tags API
   slug: hkust-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-tags-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-tags-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -51,7 +51,7 @@ source_url: ''
 source_yaml: "name: Hong Kong University of Science and Technology — authorization scopes\nprovider: Hong Kong University of Science and Technology\nproviderId: hkust\ngenerated: '2026-08-30'\nmethod: probed\nsource: >-\n  Live probes on 2026-08-30 across every HKUST API surface found. This file records an\n  ABSENCE that was checked for, not a scope catalog that exists.\nsummary: >-\n  HKUST publishes no scope vocabulary on any surface. There is no OAuth 2.0 or OpenID\n  Connect authorization server on any HKUST host probed, and therefore no scope strings to\n  catalog. Authorization on the surfaces that have any is coarse-grained and binary.\nsurfaces:\n  - surface: HKUST Path Advisor API\n    x-operator: institution\n    scopes: []\n    model: >-\n      None. Public routes are unauthenticated and unscoped; /connectors is a single\n      all-or-nothing gate returning 401 with no scheme advertised.\n  - surface: HKUST API Gateway (Azure API Management)\n    x-operator: tenant\n    scopes:\
   \ []\n    model: >-\n      Azure API Management Products, not scopes. Authorization granularity is the Product a\n      subscription key is approved against — HKUST names \"IoT Sensor Data\" and \"Sensor\n      Inventory\" — and the Product catalog is not enumerable without signing in, so the\n      full list cannot be verified from outside. A Product is closer to a plan than a scope\n      and carries no scope string a client can request.\n  - surface: HKUST Shibboleth Identity Provider\n    x-operator: institution\n    scopes: []\n    model: >-\n      SAML attribute release, not OAuth scopes. The federation-level equivalent is the\n      REFEDS Research & Scholarship entity category, which HKUST's IdP carries — that\n      governs which attribute bundle is released to a service provider. Per-service\n      attribute release policy is not published.\n    entityCategories:\n      - http://refeds.org/category/research-and-scholarship\n      - https://refeds.org/sirtfi\nmaintainers:\n  -\
   \ FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/scopes/hkust-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hkust/scopes/hkust-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

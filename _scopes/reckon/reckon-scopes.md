@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: reckon-openapi-generated.yml
-  format: yaml
-  label: Reckon API
-  slug: reckon-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reckon/refs/heads/main/openapi/_ae-authored/reckon-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -37,14 +30,14 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reckon/refs/heads/main/scopes/reckon-scopes.yml
+source_yaml_url: https://artifacts.apis.io/reckon/scopes/reckon-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Accounting
-- Payroll
-- Bookkeeping
 - Software
+- Small Business
 - Australia
+- New Zealand
 token_bound: false
 token_urls: []
 ---

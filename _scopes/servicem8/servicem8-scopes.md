@@ -5,67 +5,67 @@ api_specs:
   label: ServiceM8 Attachments API
   slug: servicem8-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-attachments-api-openapi.yml
 - filename: servicem8-badges-api-openapi.yml
   format: yaml
   label: ServiceM8 Badges API
   slug: servicem8-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-badges-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-badges-api-openapi.yml
 - filename: servicem8-clients-api-openapi.yml
   format: yaml
   label: ServiceM8 Clients API
   slug: servicem8-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-clients-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-clients-api-openapi.yml
 - filename: servicem8-job-activities-api-openapi.yml
   format: yaml
   label: ServiceM8 Job Activities API
   slug: servicem8-job-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-job-activities-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-job-activities-api-openapi.yml
 - filename: servicem8-job-contacts-api-openapi.yml
   format: yaml
   label: ServiceM8 Job Contacts API
   slug: servicem8-job-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-job-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-job-contacts-api-openapi.yml
 - filename: servicem8-jobs-api-openapi.yml
   format: yaml
   label: ServiceM8 Jobs API
   slug: servicem8-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-jobs-api-openapi.yml
 - filename: servicem8-materials-api-openapi.yml
   format: yaml
   label: ServiceM8 Materials API
   slug: servicem8-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-materials-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-materials-api-openapi.yml
 - filename: servicem8-queues-api-openapi.yml
   format: yaml
   label: ServiceM8 Queues API
   slug: servicem8-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-queues-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-queues-api-openapi.yml
 - filename: servicem8-staff-api-openapi.yml
   format: yaml
   label: ServiceM8 Staff API
   slug: servicem8-staff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-staff-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-staff-api-openapi.yml
 - filename: servicem8-vendors-api-openapi.yml
   format: yaml
   label: ServiceM8 Vendors API
   slug: servicem8-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-vendors-api-openapi.yml
 - filename: servicem8-webhooks-api-openapi.yml
   format: yaml
   label: ServiceM8 Webhooks API
   slug: servicem8-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-webhooks-api-openapi.yml
 authorization_urls:
 - https://go.servicem8.com/oauth/authorize
 description: ''
@@ -159,7 +159,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/servicem8-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/servicem8-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://go.servicem8.com/oauth/authorize\n    tokenUrl: https://go.servicem8.com/oauth/access_token\n  description: OAuth 2.0 for public add-ons. Access tokens expire after 3600 seconds.\nscopes:\n- scope: manage_customers\n  description: Read and write customers (companies)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicem8-openapi.yml\n- scope: manage_inventory\n  description: Read and write materials and inventory\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicem8-openapi.yml\n- scope: manage_jobs\n  description: Read and write jobs\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicem8-openapi.yml\n- scope: manage_schedule\n  description: Read and write scheduling and job activities\n  flows:\n  - authorizationCode\n \
   \ sources:\n  - openapi/servicem8-openapi.yml\n- scope: manage_staff\n  description: Read and write staff\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicem8-openapi.yml\n- scope: publish_email\n  description: Send email messages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicem8-openapi.yml\n- scope: publish_sms\n  description: Send SMS messages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicem8-openapi.yml\n- scope: read_customers\n  description: Read customers (companies)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicem8-openapi.yml\n- scope: read_jobs\n  description: Read jobs\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicem8-openapi.yml\n- scope: read_staff\n  description: Read staff\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicem8-openapi.yml\n- scope: vendor_logo\n  description: Read vendor account information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/servicem8-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/scopes/servicem8-scopes.yml
+source_yaml_url: https://artifacts.apis.io/servicem8/scopes/servicem8-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
 - Field Service Management

@@ -5,79 +5,79 @@ api_specs:
   label: Forage EBT SNAP Payments API
   slug: forage-ebt-snap-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-payments-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-payments-api-openapi.yml
 - filename: forage-bearer-tokens-api-openapi.yml
   format: yaml
   label: Forage Bearer Tokens API
   slug: forage-bearer-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-bearer-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-bearer-tokens-api-openapi.yml
 - filename: forage-card-details-api-openapi.yml
   format: yaml
   label: Forage Card Details API
   slug: forage-card-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-card-details-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-card-details-api-openapi.yml
 - filename: forage-custom-sessions-api-openapi.yml
   format: yaml
   label: Forage Custom Sessions API
   slug: forage-custom-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-custom-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-custom-sessions-api-openapi.yml
 - filename: forage-deferred-capture-api-openapi.yml
   format: yaml
   label: Forage Deferred Capture API
   slug: forage-deferred-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-deferred-capture-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-deferred-capture-api-openapi.yml
 - filename: forage-fully-hosted-sessions-api-openapi.yml
   format: yaml
   label: Forage Fully Hosted Sessions API
   slug: forage-fully-hosted-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-fully-hosted-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-fully-hosted-sessions-api-openapi.yml
 - filename: forage-order-payments-api-openapi.yml
   format: yaml
   label: Forage Order Payments API
   slug: forage-order-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-order-payments-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-order-payments-api-openapi.yml
 - filename: forage-order-refunds-api-openapi.yml
   format: yaml
   label: Forage Order Refunds API
   slug: forage-order-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-order-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-order-refunds-api-openapi.yml
 - filename: forage-orders-api-openapi.yml
   format: yaml
   label: Forage Orders API
   slug: forage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-orders-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-orders-api-openapi.yml
 - filename: forage-payment-methods-api-openapi.yml
   format: yaml
   label: Forage Payment Methods API
   slug: forage-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-payment-methods-api-openapi.yml
 - filename: forage-payment-refunds-api-openapi.yml
   format: yaml
   label: Forage Payment Refunds API
   slug: forage-payment-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-payment-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-payment-refunds-api-openapi.yml
 - filename: forage-reports-api-openapi.yml
   format: yaml
   label: Forage Reports API
   slug: forage-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-reports-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-reports-api-openapi.yml
 - filename: forage-sandbox-testing-api-openapi.yml
   format: yaml
   label: Forage Sandbox Testing API
   slug: forage-sandbox-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/openapi/forage-sandbox-testing-api-openapi.yml
+  url: https://artifacts.apis.io/forage/openapi/forage-sandbox-testing-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -146,7 +146,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/forage-payments-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/forage-payments-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: /o/token/\n  - flow: clientCredentials\n    tokenUrl: /o/token/\n  description: Pass the access token in the 'Authorization' header with the format \"Bearer ${token}\",\n    i.e. the word \"Bearer\" and your access token from the /o/token/ API, separated by whitespace.\nscopes:\n- scope: disbursement\n  description: Scope for tokens which can disburse money to merchants.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/forage-payments-api-openapi.yml\n- scope: hosted_checkout\n  description: Scope for tokens used by merchant applications which allow Forage to manage split\n    tender processing (i.e. EBT + Credit/Debit).\n  flows:\n  - password\n  sources:\n  - openapi/forage-payments-api-openapi.yml\n- scope: internal\n  description: Scope for tokens used\
   \ by Forage internal applications.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/forage-payments-api-openapi.yml\n- scope: pin-protected\n  description: Scope for tokens which can access secure storage.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/forage-payments-api-openapi.yml\n- scope: pinpad_only\n  description: Scope for tokens used by merchant applications which manage their own split tender\n    (i.e. Forage Checkout is used only for EBT processing).\n  flows:\n  - password\n  sources:\n  - openapi/forage-payments-api-openapi.yml\n- scope: reporting\n  sources:\n  - openapi/forage-payments-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/scopes/forage-scopes.yml
+source_yaml_url: https://artifacts.apis.io/forage/scopes/forage-scopes.yml
 summary_line: 6 scopes · password/clientCredentials
 tags:
 - Company

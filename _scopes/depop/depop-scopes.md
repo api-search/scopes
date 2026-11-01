@@ -5,85 +5,85 @@ api_specs:
   label: depop API status API
   slug: depop-api-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-api-status-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-api-status-api-openapi.yml
 - filename: depop-authentication-api-openapi.yml
   format: yaml
   label: depop Authentication API
   slug: depop-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-authentication-api-openapi.yml
 - filename: depop-docs-api-openapi.yml
   format: yaml
   label: depop Docs API
   slug: depop-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-docs-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-docs-api-openapi.yml
 - filename: depop-insights-api-openapi.yml
   format: yaml
   label: depop Insights API
   slug: depop-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-insights-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-insights-api-openapi.yml
 - filename: depop-orders-api-openapi.yml
   format: yaml
   label: depop Orders API
   slug: depop-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-orders-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-orders-api-openapi.yml
 - filename: depop-pricing-inspiration-api-openapi.yml
   format: yaml
   label: depop Pricing Inspiration API
   slug: depop-pricing-inspiration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-pricing-inspiration-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-pricing-inspiration-api-openapi.yml
 - filename: depop-products-api-openapi.yml
   format: yaml
   label: depop Products API
   slug: depop-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-api-openapi.yml
 - filename: depop-products-by-product-id-api-openapi.yml
   format: yaml
   label: depop Products - By Product ID API
   slug: depop-products-by-product-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-by-product-id-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-by-product-id-api-openapi.yml
 - filename: depop-products-by-sku-api-openapi.yml
   format: yaml
   label: depop Products - By SKU API
   slug: depop-products-by-sku-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-by-sku-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-by-sku-api-openapi.yml
 - filename: depop-products-by-slug-api-openapi.yml
   format: yaml
   label: depop Products - By Slug API
   slug: depop-products-by-slug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-by-slug-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-by-slug-api-openapi.yml
 - filename: depop-products-legacy-deprecated-api-openapi.yml
   format: yaml
   label: depop Products - Legacy (Deprecated) API
   slug: depop-products-legacy-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-legacy-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-legacy-deprecated-api-openapi.yml
 - filename: depop-shop-management-api-openapi.yml
   format: yaml
   label: depop Shop Management API
   slug: depop-shop-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-shop-management-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-shop-management-api-openapi.yml
 - filename: depop-seller-api-api-openapi.yml
   format: yaml
   label: depop Seller API
   slug: depop-seller-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-seller-api-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-seller-api-api-openapi.yml
 - filename: depop-webhook-configuration-api-openapi.yml
   format: yaml
   label: depop Webhook Configuration API
   slug: depop-webhook-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-webhook-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-webhook-configuration-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://partnerapi.depop.com/api-docs/concepts/authentication/
@@ -154,7 +154,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/depop-selling-openapi-original.yml\ndocs: https://partnerapi.depop.com/api-docs/concepts/authentication/\nnotes: >-\n  Scopes are documented in the OpenAPI info description and the authentication\n  concept page. The OpenAPI securitySchemes block declares only an http bearer\n  scheme, so scopes are captured here from the documented OAuth 2.0 model. API\n  key tokens implicitly hold all scopes; OAuth tokens are limited to those\n  granted. A 403 with error code insufficient_scope is returned when a required\n  scope is missing.\nschemes:\n- name: OAuth2\n  source: https://partnerapi.depop.com/api-docs/concepts/authentication/\n  flows:\n  - flow: authorizationCode\n    tokenUrl: https://partnerapi.depop.com/api/v1/oauth2/access-token/\nscopes:\n- scope: products_read\n  description: Read product information and listings.\n  flows: [authorizationCode]\n- scope: products_write\n  description: Create, update, or delete\
   \ products.\n  flows: [authorizationCode]\n- scope: orders_read\n  description: Read order information and order history.\n  flows: [authorizationCode]\n- scope: orders_write\n  description: Mark orders as shipped or process refunds.\n  flows: [authorizationCode]\n- scope: offers_read\n  description: Read offer pricing information (auto send / auto negotiate offer price).\n  flows: [authorizationCode]\n- scope: offers_write\n  description: Set or modify offer prices (auto send / auto negotiate offer price).\n  flows: [authorizationCode]\n- scope: shop_read\n  description: Read shop information including seller addresses and available shipping providers.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/scopes/depop-scopes.yml
+source_yaml_url: https://artifacts.apis.io/depop/scopes/depop-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Company

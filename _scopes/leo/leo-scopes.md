@@ -5,13 +5,13 @@ api_specs:
   label: LeO Public API
   slug: leo-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/openapi/leo-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/leo/openapi/leo-prospects-api-openapi.yml
 - filename: leo-health-api-openapi.yml
   format: yaml
   label: LeO Health API
   slug: leo-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/openapi/leo-health-api-openapi.yml
+  url: https://artifacts.apis.io/leo/openapi/leo-health-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.meetleo.com/mcp
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.meetl
   \  - header\nscope_count: 7\nscopes:\n- name: https://mcp.meetleo.com/prospects:read\n  resource_scope: true\n  description: >-\n    Read access to the LeO prospect graph -- firmographics, NAICS/NTEE class,\n    renewal dates, workers' comp, OSHA, DOT/FMCSA, Form 5500 and IRS 990 data.\n  method: derived\n  maps_to:\n  - ProspectsController_search\n  - ProspectsController_getById\n  source: openapi/leo-prospects-api-openapi.yml\n- name: https://mcp.meetleo.com/prospects:enrich\n  resource_scope: true\n  description: >-\n    Permission to queue a contact-enrichment job that resolves decision-maker\n    emails and titles and consumes credits.\n  method: derived\n  maps_to:\n  - ProspectsController_enrich\n  - JobsController_getJob\n  source: openapi/leo-prospects-api-openapi.yml, openapi/leo-jobs-api-openapi.yml\n- name: https://mcp.meetleo.com/account:read\n  resource_scope: true\n  description: >-\n    Read the authenticated identity, tenant, plan entitlements\n    (hasApiAccess / hasMcpAccess)\
   \ and credit balance.\n  method: derived\n  maps_to:\n  - AccountController_getAccount\n  - CreditsController_getCreditBalance\n  source: openapi/leo-account-api-openapi.yml, openapi/leo-credits-api-openapi.yml\n- name: openid\n  resource_scope: false\n  description: Standard OpenID Connect scope; requests an ID token.\n  method: probed\n- name: email\n  resource_scope: false\n  description: Standard OIDC claim scope. Advertised by the authorization server only.\n  method: probed\n- name: profile\n  resource_scope: false\n  description: Standard OIDC claim scope. Advertised by the authorization server only.\n  method: probed\n- name: aws.cognito.signin.user.admin\n  resource_scope: false\n  description: >-\n    AWS Cognito built-in scope granting the token holder self-service management\n    of its own user attributes. Not a LeO product scope.\n  method: probed\nobservations:\n- >-\n  The three LeO product scopes map one-to-one onto the three REST tag groups that\n  require authentication\
   \ (prospects, jobs+enrich, account+credits). Nothing in the\n  scope set corresponds to email sending, CRM writes or reporting, which supports\n  reading the compose_email / log_to_crm / daily_report steps in LeO's published\n  workflow illustration as client-side or third-party tools rather than LeO tools.\n- >-\n  Scope names are absolute resource URIs, the AWS Cognito resource-server\n  convention, so a client must request the full URI string, not a bare\n  \"prospects:read\".\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/scopes/leo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/leo/scopes/leo-scopes.yml
 summary_line: 7 scopes
 tags:
 - Company

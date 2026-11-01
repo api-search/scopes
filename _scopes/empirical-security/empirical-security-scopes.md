@@ -5,19 +5,19 @@ api_specs:
   label: Empirical Security CVE Groups API
   slug: empirical-security-cve-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cve-groups-api-openapi.yml
+  url: https://artifacts.apis.io/empirical-security/openapi/empirical-security-cve-groups-api-openapi.yml
 - filename: empirical-security-search-api-openapi.yml
   format: yaml
   label: Empirical Security Search API
   slug: empirical-security-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-search-api-openapi.yml
+  url: https://artifacts.apis.io/empirical-security/openapi/empirical-security-search-api-openapi.yml
 - filename: empirical-security-cves-api-openapi.yml
   format: yaml
   label: Empirical Security CV Es API
   slug: empirical-security-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cves-api-openapi.yml
+  url: https://artifacts.apis.io/empirical-security/openapi/empirical-security-cves-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.empiricalsecurity.com/authentication
@@ -58,7 +58,7 @@ source_filename: empirical-security-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/empirical-security-openapi.yml\ndocs: https://docs.empiricalsecurity.com/authentication\nschemes:\n- name: oauth2\n  source: openapi/empirical-security-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://empiricalsecurity.fusionauth.io/oauth2/token\n  description: OAuth 2.0 client credentials flow via FusionAuth. Exchange client ID/secret (HTTP\n    Basic) for a one-hour JWT access token, then send it as a Bearer token.\nscopes:\n- scope: target-entity:0c6d5dcc-8bf0-4cd1-bd65-066ef0422369\n  description: Access to the Empirical Security tenant/entity's CVE data.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/empirical-security-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/scopes/empirical-security-scopes.yml
+source_yaml_url: https://artifacts.apis.io/empirical-security/scopes/empirical-security-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Company

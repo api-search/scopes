@@ -5,229 +5,229 @@ api_specs:
   label: GoHarbor Health API
   slug: goharbor-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-health-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-health-api-openapi.yml
 - filename: goharbor-replication-api-openapi.yml
   format: yaml
   label: GoHarbor Replication API
   slug: goharbor-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-replication-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-replication-api-openapi.yml
 - filename: goharbor-scan-api-openapi.yml
   format: yaml
   label: GoHarbor Scan API
   slug: goharbor-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-scan-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-scan-api-openapi.yml
 - filename: goharbor-search-api-openapi.yml
   format: yaml
   label: GoHarbor Search API
   slug: goharbor-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-search-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-search-api-openapi.yml
 - filename: goharbor-artifact-api-openapi.yml
   format: yaml
   label: GoHarbor Artifact API
   slug: goharbor-artifact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-artifact-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-artifact-api-openapi.yml
 - filename: goharbor-configure-api-openapi.yml
   format: yaml
   label: GoHarbor Configure API
   slug: goharbor-configure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-configure-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-configure-api-openapi.yml
 - filename: goharbor-gc-api-openapi.yml
   format: yaml
   label: GoHarbor Gc API
   slug: goharbor-gc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-gc-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-gc-api-openapi.yml
 - filename: goharbor-icon-api-openapi.yml
   format: yaml
   label: GoHarbor Icon API
   slug: goharbor-icon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-icon-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-icon-api-openapi.yml
 - filename: goharbor-immutable-api-openapi.yml
   format: yaml
   label: GoHarbor Immutable API
   slug: goharbor-immutable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-immutable-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-immutable-api-openapi.yml
 - filename: goharbor-label-api-openapi.yml
   format: yaml
   label: GoHarbor Label API
   slug: goharbor-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-label-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-label-api-openapi.yml
 - filename: goharbor-ldap-api-openapi.yml
   format: yaml
   label: GoHarbor Ldap API
   slug: goharbor-ldap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-ldap-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-ldap-api-openapi.yml
 - filename: goharbor-member-api-openapi.yml
   format: yaml
   label: GoHarbor Member API
   slug: goharbor-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-member-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-member-api-openapi.yml
 - filename: goharbor-oidc-api-openapi.yml
   format: yaml
   label: GoHarbor Oidc API
   slug: goharbor-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-oidc-api-openapi.yml
 - filename: goharbor-permissions-api-openapi.yml
   format: yaml
   label: GoHarbor Permissions API
   slug: goharbor-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-permissions-api-openapi.yml
 - filename: goharbor-ping-api-openapi.yml
   format: yaml
   label: GoHarbor Ping API
   slug: goharbor-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-ping-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-ping-api-openapi.yml
 - filename: goharbor-preheat-api-openapi.yml
   format: yaml
   label: GoHarbor Preheat API
   slug: goharbor-preheat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-preheat-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-preheat-api-openapi.yml
 - filename: goharbor-project-api-openapi.yml
   format: yaml
   label: GoHarbor Project API
   slug: goharbor-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-project-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-project-api-openapi.yml
 - filename: goharbor-projectmetadata-api-openapi.yml
   format: yaml
   label: GoHarbor Project Metadata API
   slug: goharbor-projectmetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-projectmetadata-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-projectmetadata-api-openapi.yml
 - filename: goharbor-purge-api-openapi.yml
   format: yaml
   label: GoHarbor Purge API
   slug: goharbor-purge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-purge-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-purge-api-openapi.yml
 - filename: goharbor-quota-api-openapi.yml
   format: yaml
   label: GoHarbor Quota API
   slug: goharbor-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-quota-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-quota-api-openapi.yml
 - filename: goharbor-registry-api-openapi.yml
   format: yaml
   label: GoHarbor Registry API
   slug: goharbor-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-registry-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-registry-api-openapi.yml
 - filename: goharbor-repository-api-openapi.yml
   format: yaml
   label: GoHarbor Repository API
   slug: goharbor-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-repository-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-repository-api-openapi.yml
 - filename: goharbor-retention-api-openapi.yml
   format: yaml
   label: GoHarbor Retention API
   slug: goharbor-retention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-retention-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-retention-api-openapi.yml
 - filename: goharbor-robot-api-openapi.yml
   format: yaml
   label: GoHarbor Robot API
   slug: goharbor-robot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-robot-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-robot-api-openapi.yml
 - filename: goharbor-scan-data-export-api-openapi.yml
   format: yaml
   label: GoHarbor scan data export API
   slug: goharbor-scan-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-scan-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-scan-data-export-api-openapi.yml
 - filename: goharbor-scanall-api-openapi.yml
   format: yaml
   label: GoHarbor Scan All API
   slug: goharbor-scanall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-scanall-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-scanall-api-openapi.yml
 - filename: goharbor-scanner-api-openapi.yml
   format: yaml
   label: GoHarbor Scanner API
   slug: goharbor-scanner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-scanner-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-scanner-api-openapi.yml
 - filename: goharbor-schedule-api-openapi.yml
   format: yaml
   label: GoHarbor Schedule API
   slug: goharbor-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-schedule-api-openapi.yml
 - filename: goharbor-securityhub-api-openapi.yml
   format: yaml
   label: GoHarbor Securityhub API
   slug: goharbor-securityhub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-securityhub-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-securityhub-api-openapi.yml
 - filename: goharbor-statistic-api-openapi.yml
   format: yaml
   label: GoHarbor Statistic API
   slug: goharbor-statistic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-statistic-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-statistic-api-openapi.yml
 - filename: goharbor-systemcveallowlist-api-openapi.yml
   format: yaml
   label: GoHarbor System CVE Allowlist API
   slug: goharbor-systemcveallowlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-systemcveallowlist-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-systemcveallowlist-api-openapi.yml
 - filename: goharbor-user-api-openapi.yml
   format: yaml
   label: GoHarbor User API
   slug: goharbor-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-user-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-user-api-openapi.yml
 - filename: goharbor-webhook-api-openapi.yml
   format: yaml
   label: GoHarbor Webhook API
   slug: goharbor-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-webhook-api-openapi.yml
 - filename: goharbor-webhookjob-api-openapi.yml
   format: yaml
   label: GoHarbor Webhookjob API
   slug: goharbor-webhookjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-webhookjob-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-webhookjob-api-openapi.yml
 - filename: goharbor-audit-log-api-openapi.yml
   format: yaml
   label: GoHarbor Audit Log API
   slug: goharbor-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-audit-log-api-openapi.yml
 - filename: goharbor-job-service-api-openapi.yml
   format: yaml
   label: GoHarbor Job Service API
   slug: goharbor-job-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-job-service-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-job-service-api-openapi.yml
 - filename: goharbor-system-info-api-openapi.yml
   format: yaml
   label: GoHarbor System Info API
   slug: goharbor-system-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-system-info-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-system-info-api-openapi.yml
 - filename: goharbor-user-group-api-openapi.yml
   format: yaml
   label: GoHarbor User Group API
   slug: goharbor-user-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/openapi/goharbor-user-group-api-openapi.yml
+  url: https://artifacts.apis.io/goharbor/openapi/goharbor-user-group-api-openapi.yml
 authorization_urls: []
 description: 'Harbor''s scope surface is its robot-account permission model, not OAuth. A robot account (or a user role) is granted an explicit set of <action>:<resource> permissions, and Harbor publishes the exact API operations each permission unlocks. That published table — reproduced verbatim below — is the scope reference for this API: it is what you consult to give an agent or a pipeline the least privilege it needs. Permissions exist at two levels, system-wide and per-project, and a system robot account can carry both. There is no OAuth 2.0 authorization server and no scope string in an access token; the permission set is bound to the robot account at creation and presented as HTTP Basic credentials.'
 docs: ''
@@ -282,7 +282,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: https://goharbo
   \  label: Create Tag Retention (tag-retention)\n  level: project\n  operations:\n  - POST /retentions\n- permission: update:tag-retention\n  action: update\n  resource: tag-retention\n  label: Update Tag Retention (tag-retention)\n  level: project\n  operations:\n  - PUT /retentions/{id}\n  - POST /retentions/{id}/executions\n  - PATCH /retentions/{id}/executions/{eid}\n- permission: delete:tag-retention\n  action: delete\n  resource: tag-retention\n  label: Delete Tag Retention (tag-retention)\n  level: project\n  operations:\n  - DELETE /retentions/{id}\n- permission: list:robot-account\n  action: list\n  resource: robot-account\n  label: List Robot Account\n  level: project\n  operations:\n  - GET /robots\n- permission: create:robot-account\n  action: create\n  resource: robot-account\n  label: Create Robot Account\n  level: project\n  operations:\n  - POST /robots\n- permission: read:robot-account\n  action: read\n  resource: robot-account\n  label: Read Robot Account\n  level: project\n\
   \  operations:\n  - GET /robots/{robot_id}\n- permission: update:robot-account\n  action: update\n  resource: robot-account\n  label: Update Robot Account\n  level: project\n  operations:\n  - PUT /robots/{robot_id}\n- permission: delete:robot-account\n  action: delete\n  resource: robot-account\n  label: Delete Robot Account\n  level: project\n  operations:\n  - DELETE /robots/{robot_id}\n- permission: add:project-member\n  action: add\n  resource: project-member\n  label: Add Project Member\n  level: project\n  operations:\n  - POST /projects/{project_name_or_id}/members\n- permission: read:project-member\n  action: read\n  resource: project-member\n  label: Read Project Member\n  level: project\n  operations:\n  - GET /projects/{project_name_or_id}/members/{mid}\n- permission: update:project-member\n  action: update\n  resource: project-member\n  label: Update Project Member\n  level: project\n  operations:\n  - PUT /projects/{project_name_or_id}/members/{mid}\n- permission: delete:project-member\n\
   \  action: delete\n  resource: project-member\n  label: Delete Project Member\n  level: project\n  operations:\n  - DELETE /projects/{project_name_or_id}/members/{mid}\nintrospection:\n  operation: getCurrentUserPermissions\n  path: GET /users/current/permissions\n  note: The API can report the caller’s own effective permissions at runtime.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/scopes/goharbor-scopes.yml
+source_yaml_url: https://artifacts.apis.io/goharbor/scopes/goharbor-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Container Registry

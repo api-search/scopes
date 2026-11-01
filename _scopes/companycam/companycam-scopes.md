@@ -5,61 +5,61 @@ api_specs:
   label: CompanyCam Checklists API
   slug: companycam-checklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-checklists-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-checklists-api-openapi.yml
 - filename: companycam-company-api-openapi.yml
   format: yaml
   label: CompanyCam Company API
   slug: companycam-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-company-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-company-api-openapi.yml
 - filename: companycam-groups-api-openapi.yml
   format: yaml
   label: CompanyCam Groups API
   slug: companycam-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-groups-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-groups-api-openapi.yml
 - filename: companycam-photos-api-openapi.yml
   format: yaml
   label: CompanyCam Photos API
   slug: companycam-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-photos-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-photos-api-openapi.yml
 - filename: companycam-projects-api-openapi.yml
   format: yaml
   label: CompanyCam Projects API
   slug: companycam-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-projects-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-projects-api-openapi.yml
 - filename: companycam-tags-api-openapi.yml
   format: yaml
   label: CompanyCam Tags API
   slug: companycam-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-tags-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-tags-api-openapi.yml
 - filename: companycam-templates-api-openapi.yml
   format: yaml
   label: CompanyCam Templates API
   slug: companycam-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-templates-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-templates-api-openapi.yml
 - filename: companycam-users-api-openapi.yml
   format: yaml
   label: CompanyCam Users API
   slug: companycam-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-users-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-users-api-openapi.yml
 - filename: companycam-videos-api-openapi.yml
   format: yaml
   label: CompanyCam Videos API
   slug: companycam-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-videos-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-videos-api-openapi.yml
 - filename: companycam-webhooks-api-openapi.yml
   format: yaml
   label: CompanyCam Webhooks API
   slug: companycam-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-webhooks-api-openapi.yml
 authorization_urls:
 - https://app.companycam.com/oauth/authorize
 description: ''
@@ -322,7 +322,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://app.com
   \ description: Delete comments}\n- {scope: 'users:read', description: Read users}\n- {scope: 'users:write', description: Create and update users}\n- {scope: 'users:destroy', description: Delete users}\n- {scope: 'companies:read', description: Read company details}\n- {scope: 'companies:write', description: Update company details}\n- {scope: 'documents:read', description: Read project documents}\n- {scope: 'documents:write', description: Upload and update project documents}\n- {scope: 'documents:destroy', description: Delete project documents}\n- {scope: 'labels:read', description: Read project labels}\n- {scope: 'labels:write', description: Add project labels}\n- {scope: 'labels:destroy', description: Delete project labels}\n- {scope: 'tags:read', description: Read tags}\n- {scope: 'tags:write', description: Create and update tags}\n- {scope: 'tags:destroy', description: Delete tags}\n- {scope: 'webhooks:read', description: Read webhooks}\n- {scope: 'webhooks:write', description: Create\
   \ and update webhooks}\n- {scope: 'webhooks:destroy', description: Delete webhooks}\n- {scope: 'task_lists:read', description: Read task/checklist lists}\n- {scope: 'task_lists:write', description: Create and update task lists}\n- {scope: 'task_lists:destroy', description: Delete task lists}\n- {scope: 'project_tasks:read', description: Read project tasks}\n- {scope: 'project_tasks:write', description: Create and update project tasks}\n- {scope: 'project_tasks:destroy', description: Delete project tasks}\n- {scope: 'checklists:read', description: Read checklists}\n- {scope: 'checklists:write', description: Create checklists on projects}\n- {scope: 'checklists:destroy', description: Delete checklists}\n- {scope: 'assigned_users:read', description: Read users assigned to projects}\n- {scope: 'assigned_users:write', description: Assign users to projects}\n- {scope: 'assigned_users:destroy', description: Remove assigned users from projects}\n- {scope: 'collaborators:read', description: Read\
   \ project collaborators}\n- {scope: 'invitations:read', description: Read project invitations}\n- {scope: 'invitations:write', description: Create project collaboration invitations}\n- {scope: 'pages:read', description: Read pages}\n- {scope: 'groups:read', description: Read groups}\n- {scope: 'groups:write', description: Create and update groups}\n- {scope: 'groups:destroy', description: Delete groups}\n- {scope: 'project_groups:read', description: Read project groups}\n- {scope: 'project_groups:write', description: Manage project groups}\n- {scope: 'project_groups:destroy', description: Remove project groups}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/scopes/companycam-scopes.yml
+source_yaml_url: https://artifacts.apis.io/companycam/scopes/companycam-scopes.yml
 summary_line: 54 scopes · authorizationCode
 tags:
 - Company

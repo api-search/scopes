@@ -5,19 +5,19 @@ api_specs:
   label: Aircover Discovery API
   slug: aircover-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/aircover/openapi/aircover-discovery-api-openapi.yml
 - filename: aircover-mcp-api-openapi.yml
   format: yaml
   label: Aircover MCP API
   slug: aircover-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/aircover/openapi/aircover-mcp-api-openapi.yml
 - filename: aircover-oauth-api-openapi.yml
   format: yaml
   label: Aircover OAuth API
   slug: aircover-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/openapi/aircover-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/aircover/openapi/aircover-oauth-api-openapi.yml
 authorization_urls:
 - https://api.aircover.ai/oauth/authorize
 description: ''
@@ -61,7 +61,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://api.aircover.ai/.well-known/oauth-authorization-server\ndocs: https://www.aircover.ai/developers\nderived_from: openapi/aircover-openapi.yml\nissuer: https://api.aircover.ai\nschemes:\n- name: oauth2\n  source: openapi/aircover-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.aircover.ai/oauth/authorize\n    tokenUrl: https://api.aircover.ai/oauth/token\n  description: OAuth 2.0 authorization code flow with PKCE (S256) and dynamic client registration.\n    Scopes are granted per-client and always bounded by the authenticated user's own organization\n    permissions — an agent can never see more than the user who authorized it.\nscopes:\n- scope: mcp\n  description: >-\n    Access the MCP tool surface only: read access to meetings, transcripts, AI agent results, deal\n    qualification, reports, teams, and indexed documents. Does NOT grant account administration, billing,\n    user\
   \ management, or write access to CRM integrations.\n  access: read\n  flows:\n  - authorizationCode\n  sources:\n  - https://api.aircover.ai/.well-known/oauth-authorization-server (scopes_supported)\n  - openapi/aircover-openapi.yml\n  - https://www.aircover.ai/developers\npermission_model: >-\n  Layered. A token's scope caps what the client may request; every request is additionally bounded by the\n  authorizing user's own role and organization, so an agent can never see data the user could not.\n  Scopes are requested at authorization time; the developer page asks clients to request only what they\n  need. Tokens are revocable at any time via https://api.aircover.ai/oauth/revoke.\nscope_count: 1\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aircover/refs/heads/main/scopes/aircover-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aircover/scopes/aircover-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Sales Enablement

@@ -5,55 +5,55 @@ api_specs:
   label: makeup.land Brands API
   slug: makeup-land-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-brands-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-brands-api-openapi.yml
 - filename: makeup-land-cart-api-openapi.yml
   format: yaml
   label: makeup.land Cart API
   slug: makeup-land-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-cart-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-cart-api-openapi.yml
 - filename: makeup-land-customers-api-openapi.yml
   format: yaml
   label: makeup.land Customers API
   slug: makeup-land-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-customers-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-customers-api-openapi.yml
 - filename: makeup-land-gift-cards-api-openapi.yml
   format: yaml
   label: makeup.land Gift Cards API
   slug: makeup-land-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-gift-cards-api-openapi.yml
 - filename: makeup-land-orders-api-openapi.yml
   format: yaml
   label: makeup.land Orders API
   slug: makeup-land-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-orders-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-orders-api-openapi.yml
 - filename: makeup-land-payment-links-api-openapi.yml
   format: yaml
   label: makeup.land Payment Links API
   slug: makeup-land-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-payment-links-api-openapi.yml
 - filename: makeup-land-products-api-openapi.yml
   format: yaml
   label: makeup.land Products API
   slug: makeup-land-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-products-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-products-api-openapi.yml
 - filename: makeup-land-proposals-api-openapi.yml
   format: yaml
   label: makeup.land Proposals API
   slug: makeup-land-proposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-proposals-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-proposals-api-openapi.yml
 - filename: makeup-land-register-api-openapi.yml
   format: yaml
   label: makeup.land Register API
   slug: makeup-land-register-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/openapi/makeup-land-register-api-openapi.yml
+  url: https://artifacts.apis.io/makeup-land/openapi/makeup-land-register-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://makeup.land/auth.md
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/makeup-
   \  - https://makeup.land/.well-known/oauth-protected-resource\nscopes:\n- scope: full\n  description: Full read + write access. Default scope for first-party tokens.\n  operations: [listBrands, listProducts, getCustomer, upsertCustomer, patchCustomerTags, listCustomerOpportunities, getCustomerBestDeals, getCart, clearCart, addCartItem, patchCartItem, deleteCartItem, listOrders, listGiftCards, redeemGiftCard, listPaymentLinks, registerCustomer, listRegistrations, getRegistration, submitProposals]\n  sources:\n  - \"openapi x-scopes\"\n  - \"openapi security[]\"\n  - \"oauth-authorization-server\"\n  - \"oauth-protected-resource\"\n- scope: register\n  description: Issue new customer registrations and read registrations belonging to the token's registration_source. Restricted to the /register and /registrations endpoints (plus customer opportunities).\n  operations: [registerCustomer, listRegistrations, getRegistration, listCustomerOpportunities]\n  sources:\n  - \"openapi x-scopes\"\n \
   \ - \"openapi security[]\"\n  - \"oauth-authorization-server\"\n  - \"oauth-protected-resource\"\n- scope: giftcards\n  description: Redeem gift cards. Required only by POST /gift-cards/redeem. The public /gift-cards/validate endpoint requires no token.\n  operations: [redeemGiftCard]\n  sources:\n  - \"openapi x-scopes\"\n  - \"openapi security[]\"\n  - \"oauth-authorization-server\"\n  - \"oauth-protected-resource\"\n- scope: proposals\n  description: Submit catalog enrichment proposals to /proposals. Read-only against the rest of the catalog.\n  operations: [submitProposals]\n  sources:\n  - \"openapi x-scopes\"\n  - \"openapi security[]\"\n  - \"oauth-authorization-server\"\n  - \"oauth-protected-resource\"\n- scope: read_only\n  kind: flag\n  description: Marker for tokens whose read_only=true flag rejects every write with 403 read_only_token. Not negotiated at request time — set at token issuance.\n  operations: []\n  sources: [openapi x-scopes, oauth-authorization-server, oauth-protected-resource]\n\
   unauthenticated_operations:\n- validateGiftCard\n- listProducts (catalog filters only — bearer required once phone, include=inventory or relevant_to_phone is passed)\nselector_not_scope:\n  name: phoneIdentifier\n  note: The phone query/body parameter selects a customer and is declared as an apiKey securityScheme, but the provider's own description says it is not a credential and bearerAuth is always required alongside it.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/makeup-land/refs/heads/main/scopes/makeup-land-scopes.yml
+source_yaml_url: https://artifacts.apis.io/makeup-land/scopes/makeup-land-scopes.yml
 summary_line: 5 scopes
 tags:
 - Cosmetics

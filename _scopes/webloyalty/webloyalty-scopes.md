@@ -32,7 +32,7 @@ source_filename: webloyalty-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://webloyalty.co.uk/.well-known/oauth-authorization-server\nnote: >-\n  The authorization server advertises exactly one scope. There is no published\n  scope reference page — Webloyalty has no developer documentation of any kind —\n  so this is the complete, machine-advertised scope surface and nothing more is\n  inferred.\nissuer: https://webloyalty.co.uk\nauthorization_url: https://webloyalty.co.uk/oauth/authorize\ntoken_url: https://webloyalty.co.uk/oauth/token\nscope_count: 1\nscopes:\n- name: mcp\n  description: >-\n    Access the MCP resource at\n    https://webloyalty.co.uk/wp-json/mcp/mcp-oauth-server. Coarse-grained: the\n    server publishes no read/write split and no per-tool scopes.\n  resource: https://webloyalty.co.uk/wp-json/mcp/mcp-oauth-server\n  source: scopes_supported in the RFC 8414 metadata (and repeated in the RFC 9728\n    protected-resource metadata)\ndocs: null\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/scopes/webloyalty-scopes.yml
+source_yaml_url: https://artifacts.apis.io/webloyalty/scopes/webloyalty-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

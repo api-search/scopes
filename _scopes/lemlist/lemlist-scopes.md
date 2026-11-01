@@ -5,127 +5,127 @@ api_specs:
   label: lemlist Campaigns API
   slug: lemlist-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-campaigns-api-openapi.yml
 - filename: lemlist-sequences-api-openapi.yml
   format: yaml
   label: lemlist Sequences API
   slug: lemlist-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-sequences-api-openapi.yml
 - filename: lemlist-leads-api-openapi.yml
   format: yaml
   label: lemlist Leads API
   slug: lemlist-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-leads-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-leads-api-openapi.yml
 - filename: lemlist-people-database-api-openapi.yml
   format: yaml
   label: lemlist People Database API
   slug: lemlist-people-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-people-database-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-people-database-api-openapi.yml
 - filename: lemlist-enrich-api-openapi.yml
   format: yaml
   label: lemlist Enrich API
   slug: lemlist-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-enrich-api-openapi.yml
 - filename: lemlist-inbox-api-openapi.yml
   format: yaml
   label: lemlist Inbox API
   slug: lemlist-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-inbox-api-openapi.yml
 - filename: lemlist-contacts-api-openapi.yml
   format: yaml
   label: lemlist Contacts API
   slug: lemlist-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-contacts-api-openapi.yml
 - filename: lemlist-companies-api-openapi.yml
   format: yaml
   label: lemlist Companies API
   slug: lemlist-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-companies-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-companies-api-openapi.yml
 - filename: lemlist-signal-agents-api-openapi.yml
   format: yaml
   label: lemlist Signal Agents API
   slug: lemlist-signal-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-signal-agents-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-signal-agents-api-openapi.yml
 - filename: lemlist-webhooks-api-openapi.yml
   format: yaml
   label: lemlist Webhooks API
   slug: lemlist-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-webhooks-api-openapi.yml
 - filename: lemlist-unsubscribes-api-openapi.yml
   format: yaml
   label: lemlist Unsubscribes API
   slug: lemlist-unsubscribes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-unsubscribes-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-unsubscribes-api-openapi.yml
 - filename: lemlist-schedules-api-openapi.yml
   format: yaml
   label: lemlist Schedules API
   slug: lemlist-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-schedules-api-openapi.yml
 - filename: lemlist-tasks-api-openapi.yml
   format: yaml
   label: lemlist Tasks API
   slug: lemlist-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-tasks-api-openapi.yml
 - filename: lemlist-activities-api-openapi.yml
   format: yaml
   label: lemlist Activities API
   slug: lemlist-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-activities-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-activities-api-openapi.yml
 - filename: lemlist-team-api-openapi.yml
   format: yaml
   label: lemlist Team API
   slug: lemlist-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-team-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-team-api-openapi.yml
 - filename: lemlist-users-api-openapi.yml
   format: yaml
   label: lemlist Users API
   slug: lemlist-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-users-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-users-api-openapi.yml
 - filename: lemlist-email-accounts-api-openapi.yml
   format: yaml
   label: lemlist Email Accounts API
   slug: lemlist-email-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-email-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-email-accounts-api-openapi.yml
 - filename: lemlist-lemwarm-api-openapi.yml
   format: yaml
   label: lemlist Lemwarm API
   slug: lemlist-lemwarm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-lemwarm-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-lemwarm-api-openapi.yml
 - filename: lemlist-deliverability-alerts-api-openapi.yml
   format: yaml
   label: lemlist Deliverability Alerts API
   slug: lemlist-deliverability-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-deliverability-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-deliverability-alerts-api-openapi.yml
 - filename: lemlist-fields-api-openapi.yml
   format: yaml
   label: lemlist Fields API
   slug: lemlist-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-fields-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-fields-api-openapi.yml
 - filename: lemlist-stats-api-openapi.yml
   format: yaml
   label: lemlist Stats API
   slug: lemlist-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/openapi/lemlist-stats-api-openapi.yml
+  url: https://artifacts.apis.io/lemlist/openapi/lemlist-stats-api-openapi.yml
 authorization_urls:
 - https://app.lemlist.com/oauth/authorize
 description: ''
@@ -237,7 +237,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://app.lemli
   \ https://app.lemlist.com/oauth/token\n    code_challenge_methods:\n    - S256\nscope_count: 14\nscopes:\n- scope: campaigns:read\n  description: Read campaigns, their sequences metadata and stats\n  flows:\n  - authorizationCode\n- scope: campaigns:write\n  description: Create, update, start, pause and duplicate campaigns\n  flows:\n  - authorizationCode\n- scope: leads:read\n  description: Read leads in campaigns and look leads up by id or email\n  flows:\n  - authorizationCode\n- scope: leads:write\n  description: Create, update, pause, resume, unsubscribe and delete leads, and set\n    lead custom variables\n  flows:\n  - authorizationCode\n- scope: sequences:read\n  description: Read campaign sequences and their steps\n  flows:\n  - authorizationCode\n- scope: sequences:write\n  description: Add, update and delete sequence steps and A/B test variants\n  flows:\n  - authorizationCode\n- scope: team:read\n  description: Read team information, senders and remaining credits\n  flows:\n\
   \  - authorizationCode\n- scope: webhooks:read\n  description: List webhook subscriptions\n  flows:\n  - authorizationCode\n- scope: webhooks:write\n  description: Create and delete webhook subscriptions\n  flows:\n  - authorizationCode\n- scope: unsubscribes:read\n  description: Read unsubscribed contacts and variables\n  flows:\n  - authorizationCode\n- scope: unsubscribes:write\n  description: Unsubscribe and re-subscribe contacts and variables\n  flows:\n  - authorizationCode\n- scope: full_access\n  description: Full access to the lemlist account. This is the only scope the MCP\n    protected-resource metadata advertises as supported, so an MCP client authorizing\n    against https://app.lemlist.com/mcp requests full_access rather than the granular\n    set.\n  flows:\n  - authorizationCode\n- scope: openid\n  description: OIDC — issue an id_token for the authenticated user\n  flows:\n  - authorizationCode\n- scope: email\n  description: OIDC — include the user's email claim\n  flows:\n\
   \  - authorizationCode\nprotected_resources:\n- resource: https://app.lemlist.com/mcp\n  authorization_servers:\n  - https://app.lemlist.com\n  bearer_methods_supported:\n  - header\n  scopes_supported:\n  - full_access\n  source: https://app.lemlist.com/.well-known/oauth-protected-resource\ngap:\n  detail: >-\n    lemlist publishes 11 granular resource scopes plus full_access, but the MCP\n    protected-resource metadata lists only full_access as supported. An agent\n    connecting over MCP therefore cannot request least privilege today; the granular\n    scopes are only reachable through a direct OAuth client.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/scopes/lemlist-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lemlist/scopes/lemlist-scopes.yml
 summary_line: 14 scopes · authorizationCode
 tags:
 - Email Outreach

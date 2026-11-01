@@ -5,49 +5,49 @@ api_specs:
   label: PayStand Balances API
   slug: paystand-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-balances-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-balances-api-openapi.yml
 - filename: paystand-banks-api-openapi.yml
   format: yaml
   label: PayStand Banks API
   slug: paystand-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-banks-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-banks-api-openapi.yml
 - filename: paystand-oauth-api-openapi.yml
   format: yaml
   label: PayStand OAuth API
   slug: paystand-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-oauth-api-openapi.yml
 - filename: paystand-payers-api-openapi.yml
   format: yaml
   label: PayStand Payers API
   slug: paystand-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-payers-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-payers-api-openapi.yml
 - filename: paystand-payments-api-openapi.yml
   format: yaml
   label: PayStand Payments API
   slug: paystand-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-payments-api-openapi.yml
 - filename: paystand-refunds-api-openapi.yml
   format: yaml
   label: PayStand Refunds API
   slug: paystand-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-refunds-api-openapi.yml
 - filename: paystand-transfers-api-openapi.yml
   format: yaml
   label: PayStand Transfers API
   slug: paystand-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-transfers-api-openapi.yml
 - filename: paystand-withdrawals-api-openapi.yml
   format: yaml
   label: PayStand Withdrawals API
   slug: paystand-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/openapi/paystand-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/paystand/openapi/paystand-withdrawals-api-openapi.yml
 authorization_urls:
 - https://api.paystand.com/v3/api/v3/oauth/authorize
 description: ''
@@ -94,7 +94,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.paystand.com/.well-known/openid-configuration\ndocs: https://developers.paystand.com/reference/access-tokens\nschemes:\n- name: oauth2\n  source: https://api.paystand.com/.well-known/openid-configuration\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.paystand.com/v3/api/v3/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.paystand.com/v3/api/v3/oauth/authorize\n    tokenUrl: https://api.paystand.com/v3/api/v3/oauth/token\nscopes:\n- scope: auth\n  description: >-\n    The single scope Paystand advertises in its OpenID Connect discovery\n    document (scopes_supported) and documents on the Access Token page\n    (scope: auth). Access tokens are requested with grant_type=client_credentials.\n  flows: [clientCredentials, authorizationCode]\n  sources: [https://api.paystand.com/.well-known/openid-configuration]\nnotes: >-\n  Paystand exposes coarse OAuth scoping — a single\
   \ \"auth\" scope. Fine-grained\n  authorization is enforced by the claims/permissions embedded in the issued\n  token (claims_supported includes roles and permissions), not by OAuth scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paystand/refs/heads/main/scopes/paystand-scopes.yml
+source_yaml_url: https://artifacts.apis.io/paystand/scopes/paystand-scopes.yml
 summary_line: 1 scope · clientCredentials/authorizationCode
 tags:
 - Company

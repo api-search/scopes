@@ -5,7 +5,7 @@ api_specs:
   label: Parabol GraphQL API
   slug: parabol-graphql-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parabol/refs/heads/main/asyncapi/parabol-graphql-subscriptions-asyncapi.yml
+  url: https://artifacts.apis.io/parabol/asyncapi/parabol-graphql-subscriptions-asyncapi.yml
 authorization_urls: []
 description: ''
 docs: https://raw.githubusercontent.com/ParabolInc/parabol/master/llms.txt
@@ -101,7 +101,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: graphql/parabol-schema.graphql\ndocs: https://raw.githubusercontent.com/ParabolInc/parabol/master/llms.txt\nmodel: >-\n  Parabol Personal Access Tokens are scoped. Scopes are enforced in the GraphQL\n  schema via a `@scope(name: OAuthScopeEnum!)` directive on protected fields and\n  mutations. The enum below is the complete OAuthScopeEnum from the public\n  schema SDL; descriptions are from the published llms.txt scope table. These\n  are PAT scopes (not OAuth2 flow scopes) — Parabol has no OAuth2 flows yet.\nschemes:\n- name: PersonalAccessToken\n  type: pat-scoped\n  source: graphql/parabol-schema.graphql\n  directive: '@scope(name: OAuthScopeEnum!)'\nscopes:\n- scope: users:read\n  enum: USERS_READ\n  description: Read user data\n- scope: users:write\n  enum: USERS_WRITE\n  description: Update user data\n- scope: teams:read\n  enum: TEAMS_READ\n  description: Read team data\n- scope: teams:write\n  enum: TEAMS_WRITE\n  description:\
   \ Create and update teams\n- scope: orgs:read\n  enum: ORGS_READ\n  description: Read organization data\n- scope: orgs:write\n  enum: ORGS_WRITE\n  description: Update organization data\n- scope: meetings:read\n  enum: MEETINGS_READ\n  description: Read meeting data\n- scope: meetings:write\n  enum: MEETINGS_WRITE\n  description: Create and update meetings\n- scope: tasks:read\n  enum: TASKS_READ\n  description: Read task data\n- scope: tasks:write\n  enum: TASKS_WRITE\n  description: Create and update tasks\n- scope: templates:read\n  enum: TEMPLATES_READ\n  description: Read meeting template data\n- scope: templates:write\n  enum: TEMPLATES_WRITE\n  description: Create and update meeting templates\n- scope: pages:read\n  enum: PAGES_READ\n  description: Read page (document) data\n- scope: pages:write\n  enum: PAGES_WRITE\n  description: Create and update pages\n- scope: comments:read\n  enum: COMMENTS_READ\n  description: Read comment data\n- scope: comments:write\n  enum: COMMENTS_WRITE\n\
   \  description: Create and update comments\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parabol/refs/heads/main/scopes/parabol-scopes.yml
+source_yaml_url: https://artifacts.apis.io/parabol/scopes/parabol-scopes.yml
 summary_line: 16 scopes
 tags:
 - Company

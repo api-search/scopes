@@ -5,37 +5,37 @@ api_specs:
   label: microsoft-azure-private-link Operations API
   slug: microsoft-azure-private-link-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-operations-api-openapi.yml
 - filename: microsoft-azure-private-link-private-endpoints-api-openapi.yml
   format: yaml
   label: microsoft-azure-private-link Private Endpoints API
   slug: microsoft-azure-private-link-private-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml
 - filename: microsoft-azure-private-link-privatednszonegroups-api-openapi.yml
   format: yaml
   label: Microsoft Azure Private Link Private Dns Zone Groups API
   slug: microsoft-azure-private-link-privatednszonegroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-privatednszonegroups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-privatednszonegroups-api-openapi.yml
 - filename: microsoft-azure-private-link-privatelinkservice-api-openapi.yml
   format: yaml
   label: Microsoft Azure Private Link Private Link Service API
   slug: microsoft-azure-private-link-privatelinkservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-privatelinkservice-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-privatelinkservice-api-openapi.yml
 - filename: microsoft-azure-private-link-privatelinkservices-api-openapi.yml
   format: yaml
   label: Microsoft Azure Private Link Private Link Services API
   slug: microsoft-azure-private-link-privatelinkservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-privatelinkservices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-privatelinkservices-api-openapi.yml
 - filename: microsoft-azure-private-link-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Private Link Subscriptions API
   slug: microsoft-azure-private-link-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-subscriptions-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -80,7 +80,7 @@ source_filename: microsoft-azure-private-link-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/microsoft-azure-private-link-operations-api-openapi.yml, openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-private-link-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-private-link-operations-api-openapi.yml\n  - openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/scopes/microsoft-azure-private-link-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-private-link/scopes/microsoft-azure-private-link-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Networking

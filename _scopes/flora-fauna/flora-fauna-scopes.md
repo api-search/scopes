@@ -5,67 +5,67 @@ api_specs:
   label: FLORA Actions API
   slug: flora-fauna-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-actions-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-actions-api-openapi.yml
 - filename: flora-fauna-assets-api-openapi.yml
   format: yaml
   label: FLORA Assets API
   slug: flora-fauna-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-assets-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-assets-api-openapi.yml
 - filename: flora-fauna-canvas-api-openapi.yml
   format: yaml
   label: FLORA Canvas API
   slug: flora-fauna-canvas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-canvas-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-canvas-api-openapi.yml
 - filename: flora-fauna-feedback-api-openapi.yml
   format: yaml
   label: FLORA Feedback API
   slug: flora-fauna-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-feedback-api-openapi.yml
 - filename: flora-fauna-generations-api-openapi.yml
   format: yaml
   label: FLORA Generations API
   slug: flora-fauna-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-generations-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-generations-api-openapi.yml
 - filename: flora-fauna-models-api-openapi.yml
   format: yaml
   label: FLORA Models API
   slug: flora-fauna-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-models-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-models-api-openapi.yml
 - filename: flora-fauna-projects-api-openapi.yml
   format: yaml
   label: FLORA Projects API
   slug: flora-fauna-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-projects-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-projects-api-openapi.yml
 - filename: flora-fauna-runs-api-openapi.yml
   format: yaml
   label: FLORA Runs API
   slug: flora-fauna-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-runs-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-runs-api-openapi.yml
 - filename: flora-fauna-technique-runs-api-openapi.yml
   format: yaml
   label: FLORA Technique Runs API
   slug: flora-fauna-technique-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-technique-runs-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-technique-runs-api-openapi.yml
 - filename: flora-fauna-techniques-api-openapi.yml
   format: yaml
   label: FLORA Techniques API
   slug: flora-fauna-techniques-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-techniques-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-techniques-api-openapi.yml
 - filename: flora-fauna-workspaces-api-openapi.yml
   format: yaml
   label: FLORA Workspaces API
   slug: flora-fauna-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/openapi/flora-fauna-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/flora-fauna/openapi/flora-fauna-workspaces-api-openapi.yml
 authorization_urls: []
 description: 'FLORA publishes OAuth on two hosts and a scope vocabulary on only one of them, and neither vocabulary governs the REST API. This artifact records the real shape rather than manufacturing a scope list: the REST API is workspace-wide bearer-key auth with no scopes at all, the MCP authorization server omits scopes_supported entirely and delegates authorization to the signed-in user''s existing FLORA role, and the only enumerated scopes anywhere on a FLORA host are the Clerk platform scopes behind application sign-in.'
 docs: https://developer.flora.ai/mcp/authentication
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: >-\n  Live probes
   \ the Clerk platform scopes behind application sign-in.\nsurfaces:\n  - surface: REST API\n    base_url: https://app.flora.ai/api/v1\n    auth: http bearer (sk_live_)\n    oauth2: false\n    scope_count: 0\n    note: >-\n      An API key inherits the whole workspace. There is no scope, no read-only\n      key type, and no per-resource restriction — the blast radius of a leaked\n      key is every Technique, Project, Asset and billed run in that workspace.\n  - surface: MCP server\n    base_url: https://agents.flora.ai/mcp\n    auth: OAuth 2.1 + PKCE\n    oauth2: true\n    scope_count: 0\n    scopes_supported_published: false\n    evidence:\n      url: https://agents.flora.ai/.well-known/oauth-authorization-server\n      status: 200\n      finding: >-\n        The RFC 8414 document carries issuer, authorization/token/registration/\n        revocation endpoints, grant types, auth methods and PKCE methods — but no\n        scopes_supported member. A client therefore cannot request least-privilege\n\
   \        access; it takes whatever the user already has.\n    documented_authorization_model:\n      basis: the signed-in FLORA user's role in the connected workspace\n      granted_by_default:\n        - List and read Techniques, Projects, Workspaces, Assets, Models\n        - Create runs (billed in USD to the workspace)\n        - Upload assets\n      conditional:\n        - Create or modify Projects — only if the user's FLORA role allows it\n      never_granted:\n        - Manage billing\n        - Manage workspace members\n      denial_error: 403 forbidden\n  - surface: FLORA application sign-in\n    base_url: https://app.florafauna.ai\n    auth: OpenID Connect (Clerk, issuer https://clerk.flora.ai)\n    oauth2: true\n    scope_count: 6\n    evidence:\n      url: https://app.florafauna.ai/.well-known/openid-configuration\n      status: 200\n    scopes:\n      - {name: openid, description: 'OIDC: request an ID token.'}\n      - {name: profile, description: 'OIDC: basic profile claims\
   \ (name, preferred_username, picture).'}\n      - {name: email, description: 'OIDC: email and email_verified claims.'}\n      - {name: offline_access, description: 'OIDC: issue a refresh token.'}\n      - {name: public_metadata, description: 'Clerk: read the user''s public metadata object.'}\n      - {name: private_metadata, description: 'Clerk: read the user''s private metadata object.'}\n    note: >-\n      These are Clerk's scoped-access vocabulary (the document links\n      https://clerk.com/docs/oauth/scoped-access), not FLORA API permissions.\n      Recorded for completeness; do not read them as API authorization.\nsummary:\n  api_scope_count: 0\n  mcp_scope_count: 0\n  application_oidc_scope_count: 6\n  finding: >-\n    Neither callable FLORA surface publishes a scope vocabulary. The gap that\n    matters most is the MCP one: a code-execution server whose single `execute`\n    tool can spend real money on the user's workspace, granted with no scope\n    negotiation at all.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/scopes/flora-fauna-scopes.yml
+source_yaml_url: https://artifacts.apis.io/flora-fauna/scopes/flora-fauna-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Creative AI

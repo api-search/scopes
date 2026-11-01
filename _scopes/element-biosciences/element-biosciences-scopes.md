@@ -5,31 +5,31 @@ api_specs:
   label: Element Biosciences Execution Service API
   slug: element-biosciences-executionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-executionservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-executionservice-api-openapi.yml
 - filename: element-biosciences-instrumentservice-api-openapi.yml
   format: yaml
   label: Element Biosciences Instrument Service API
   slug: element-biosciences-instrumentservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-instrumentservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-instrumentservice-api-openapi.yml
 - filename: element-biosciences-runservice-api-openapi.yml
   format: yaml
   label: Element Biosciences Run Service API
   slug: element-biosciences-runservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-runservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-runservice-api-openapi.yml
 - filename: element-biosciences-storageconnectionservice-api-openapi.yml
   format: yaml
   label: Element Biosciences Storage Connection Service API
   slug: element-biosciences-storageconnectionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-storageconnectionservice-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-storageconnectionservice-api-openapi.yml
 - filename: element-biosciences-auth-service-api-openapi.yml
   format: yaml
   label: Element Biosciences Auth Service API
   slug: element-biosciences-auth-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/openapi/element-biosciences-auth-service-api-openapi.yml
+  url: https://artifacts.apis.io/element-biosciences/openapi/element-biosciences-auth-service-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.elembio.io/docs/elembio-cloud/api-keys/
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: https://docs.el
   \ RunService_GetRunDownloadCredentials]\n- scope: Executions\n  api_form: 'executions:*'\n  description: Unrestricted access to all analysis executions, including read, download, edit, and all other actions.\n  group: Executions\n- scope: Executions:Read\n  api_form: 'executions:read'\n  description: List and get executions metadata for all executions.\n  group: Executions\n  operations: [ExecutionService_ListExecutions, ExecutionService_GetExecution]\n- scope: Executions:Download\n  api_form: 'executions:download'\n  description: Browse and download executions files for all executions.\n  group: Executions\n  operations: [ExecutionService_ListExecutionFiles, ExecutionService_GetExecutionDownloadCredentials]\n- scope: Executions:Logs\n  api_form: 'executions:logs'\n  description: View logs for all executions.\n  group: Executions\n  operations: [ExecutionService_GetExecutionLogs]\n- scope: Instruments\n  api_form: 'instruments:*'\n  description: Unrestricted access to all instrument metadata.\n\
   \  group: Instruments\n- scope: Instruments:Read\n  api_form: 'instruments:read'\n  description: List and get instrument metadata for all instruments.\n  group: Instruments\n  operations: [InstrumentService_ListInstruments, InstrumentService_GetInstrument]\n- scope: Storage\n  api_form: 'storage:*'\n  description: Unrestricted access to all storage connections and data.\n  group: Storage\n- scope: Storage:Read\n  api_form: 'storage:read'\n  description: List and get storage metadata for all storage connections.\n  group: Storage\n  operations: [StorageConnectionService_ListStorageConnections, StorageConnectionService_GetStorageConnection]\n- scope: Storage:Download\n  api_form: 'storage:download[:connection_id]'\n  description: Browse and download storage files for all storage connections. Narrowable to a specific connection or path prefix.\n  group: Storage\n  operations: [StorageConnectionService_ListFiles, StorageConnectionService_GetDownloadCredentials]\n  resource_scopable: true\n\
   introspection:\n  operation: AuthService_GetAuth\n  path: GET /v1/auth\n  returns: [tenantId, scopes]\n  note: Call GET /v1/auth to confirm which tenant a key belongs to and which scopes it carries.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/element-biosciences/refs/heads/main/scopes/element-biosciences-scopes.yml
+source_yaml_url: https://artifacts.apis.io/element-biosciences/scopes/element-biosciences-scopes.yml
 summary_line: 12 scopes
 tags:
 - Company

@@ -41,31 +41,31 @@ api_specs:
   label: Factiva Content API
   slug: factiva-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-content-api-openapi.yml
 - filename: factiva-content-search-api-openapi.yml
   format: yaml
   label: Factiva Content Search API
   slug: factiva-content-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-content-search-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-content-search-api-openapi.yml
 - filename: factiva-default-api-openapi.yml
   format: yaml
   label: Factiva Default API
   slug: factiva-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-default-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-default-api-openapi.yml
 - filename: factiva-editions-api-openapi.yml
   format: yaml
   label: Factiva Editions API
   slug: factiva-editions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-editions-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-editions-api-openapi.yml
 - filename: factiva-newsletters-api-openapi.yml
   format: yaml
   label: Factiva Newsletters API
   slug: factiva-newsletters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/openapi/factiva-newsletters-api-openapi.yml
+  url: https://artifacts.apis.io/factiva/openapi/factiva-newsletters-api-openapi.yml
 authorization_urls:
 - https://sso.accounts.dowjones.com/authorize
 description: The Factiva APIs do not carry per-resource OAuth scopes. Scope on the Dow Jones identity service selects WHICH TOKENS the exchange returns (and whether a refresh token is issued), not which Factiva resources the caller may touch — entitlement to Factiva content is granted on the account/service-account by contract, outside the token. Recorded here because the scope strings are load-bearing for anyone implementing the flow, not because they are a permission model. None of the three harvested OpenAPI documents declares an oauth2 securityScheme, so the mechanical derive pass produced nothing.
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://account
   \    issuer: https://sso.accounts.dowjones.com/\n    flows:\n      - flow: password\n        tokenUrl: https://accounts.dowjones.com/oauth2/v1/token\n        note: The flow the Factiva Integration docs prescribe (connection=service-account).\n      - flow: authorizationCode\n        authorizationUrl: https://sso.accounts.dowjones.com/authorize\n        tokenUrl: https://sso.accounts.dowjones.com/oauth/token\n      - flow: implicit\n        authorizationUrl: https://sso.accounts.dowjones.com/authorize\nscopes:\n  - scope: openid\n    description: Required. Requests an OpenID Connect id_token from the identity service.\n    flows: [password, authorizationCode, implicit]\n    sources: [https://accounts.dowjones.com/.well-known/openid-configuration]\n  - scope: service_account_id\n    description: >-\n      Documented by Factiva for the service-account exchange. Combined with `openid`, it tells\n      the token endpoint to return the two AuthN tokens (id_token and access_token).\n    flows:\
   \ [password]\n    sources: [https://developer.dowjones.com/documents/factiva_integration-essentials-authentication]\n    note: >-\n      Documented by Factiva but not listed in the identity service's scopes_supported array.\n  - scope: offline_access\n    description: >-\n      Adds a refresh token to the response. When requested, the `device` parameter becomes\n      mandatory and acts as the identifier under which the refresh token can later be revoked.\n    flows: [password, authorizationCode]\n    sources:\n      - https://accounts.dowjones.com/.well-known/openid-configuration\n      - https://developer.dowjones.com/documents/factiva_integration-essentials-authentication\n  - scope: profile\n    description: Standard OIDC profile claims.\n    flows: [authorizationCode, implicit]\n    sources: [https://accounts.dowjones.com/.well-known/openid-configuration]\n  - scope: email\n    description: Standard OIDC email claim.\n    flows: [authorizationCode, implicit]\n    sources: [https://accounts.dowjones.com/.well-known/openid-configuration]\n\
   \  - scope: email_verified\n    description: Email verification claim.\n    flows: [authorizationCode, implicit]\n    sources: [https://accounts.dowjones.com/.well-known/openid-configuration]\n  - scope: given_name\n    description: Standard OIDC given-name claim.\n    flows: [authorizationCode, implicit]\n    sources: [https://accounts.dowjones.com/.well-known/openid-configuration]\n  - scope: family_name\n    description: Standard OIDC family-name claim.\n    flows: [authorizationCode, implicit]\n    sources: [https://accounts.dowjones.com/.well-known/openid-configuration]\nsummary:\n  scope_count: 8\n  resource_scopes: 0\n  authorization_model: >-\n    Contract/entitlement-based. Access to Factiva content sets is provisioned against the\n    account by Dow Jones; the token conveys identity, not per-resource permission.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/scopes/factiva-scopes.yml
+source_yaml_url: https://artifacts.apis.io/factiva/scopes/factiva-scopes.yml
 summary_line: 8 scopes · password/authorizationCode/implicit
 tags:
 - Artificial Intelligence

@@ -11,7 +11,7 @@ api_specs:
   label: HxGN EAM REST API
   slug: hxgn-eam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/openapi/hexagon-eam-ion-api-openapi.yml
+  url: https://artifacts.apis.io/hexagon/openapi/hexagon-eam-ion-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: scopes_supported 
   \ OIDC phone claim.\n  standard: true\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: offline_access\n  description: Standard OIDC scope requesting a refresh token usable while the user is offline.\n  standard: true\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: roles\n  description: Keycloak built-in scope adding realm and client role mappings to the token.\n  standard: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: web-origins\n  description: Keycloak built-in scope adding allowed CORS origins to the token.\n  standard: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: acr\n  description: Keycloak built-in scope carrying the authentication context class reference.\n  standard: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: basic\n  description: Keycloak built-in scope carrying the minimal sub/auth_time claim set.\n  standard: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n\
   - name: microprofile-jwt\n  description: Keycloak built-in scope emitting MicroProfile JWT claims (upn, groups).\n  standard: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: user\n  description: Hexagon-specific. Undocumented.\n  standard: false\n  documented: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: admin\n  description: Hexagon-specific. Undocumented - name implies elevated administrative access.\n  standard: false\n  documented: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: service_account\n  description: Hexagon-specific. Undocumented - name implies the non-interactive client_credentials identity.\n  standard: false\n  documented: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: hxdr_client_scope\n  description: Hexagon-specific HxDR client scope. Undocumented.\n  standard: false\n  documented: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: hxdr_claims\n  description:\
   \ Hexagon-specific HxDR claim set. Undocumented.\n  standard: false\n  documented: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: hxdr_be_system_user\n  description: Hexagon-specific HxDR back-end system-user scope. Undocumented - name implies a server-to-server\n    identity.\n  standard: false\n  documented: false\n  issuer: https://hxauth.com/auth/realms/geo-hxdr-prod\n- name: mcp\n  description: The single scope the GeoCloud MCP authorization server advertises, required as the bearer scope for\n    https://geocloud.hexagon.com/wp-json/mcp/mcp-oauth-server.\n  standard: false\n  documented: false\n  issuer: https://geocloud.hexagon.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/scopes/hexagon-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hexagon/scopes/hexagon-scopes.yml
 summary_line: 18 scopes
 tags:
 - Manufacturing

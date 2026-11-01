@@ -5,19 +5,19 @@ api_specs:
   label: Bitfinder Air Data API
   slug: bitfinder-air-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-air-data-api-openapi.yml
+  url: https://artifacts.apis.io/bitfinder/openapi/bitfinder-air-data-api-openapi.yml
 - filename: bitfinder-devices-api-openapi.yml
   format: yaml
   label: Bitfinder Devices API
   slug: bitfinder-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-devices-api-openapi.yml
+  url: https://artifacts.apis.io/bitfinder/openapi/bitfinder-devices-api-openapi.yml
 - filename: bitfinder-user-api-openapi.yml
   format: yaml
   label: Bitfinder User API
   slug: bitfinder-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-user-api-openapi.yml
+  url: https://artifacts.apis.io/bitfinder/openapi/bitfinder-user-api-openapi.yml
 authorization_urls:
 - https://oauth2.awair.is/v2/authorize
 description: ''
@@ -70,7 +70,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/bitfinder-air-data-api-openapi.yml, openapi/bitfinder-devices-api-openapi.yml,\n  openapi/bitfinder-user-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/bitfinder-air-data-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth2.awair.is/v2/authorize\n    tokenUrl: https://oauth2.awair.is/v2/token\n  description: OAuth 2.0 authorization-code flow for third-party access to Awair user data.\n- name: oauth2\n  source: openapi/bitfinder-devices-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth2.awair.is/v2/authorize\n    tokenUrl: https://oauth2.awair.is/v2/token\n  description: OAuth 2.0 authorization-code flow for third-party access to Awair user data.\n- name: oauth2\n  source: openapi/bitfinder-user-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth2.awair.is/v2/authorize\n    tokenUrl: https://oauth2.awair.is/v2/token\n\
   \  description: OAuth 2.0 authorization-code flow for third-party access to Awair user data.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/scopes/bitfinder-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bitfinder/scopes/bitfinder-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: Flint Agent Tasks API
   slug: flint-agent-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/openapi/flint-agent-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/flint/openapi/flint-agent-tasks-api-openapi.yml
 authorization_urls:
 - https://clerk.tryflint.com/oauth/authorize
 description: ''
@@ -71,7 +71,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://mcp.tryflint.com/.well-known/oauth-protected-resource\ndocs: https://clerk.tryflint.com/.well-known/oauth-authorization-server\nnote: >-\n  OAuth applies to Flint's hosted MCP server only (the REST Agent Tasks API uses\n  a bearer API key with no scope surface). The MCP protected-resource metadata\n  advertises openid + offline_access; the Clerk authorization server exposes the\n  full standard Clerk OIDC scope set below.\nschemes:\n  - name: mcpOAuth\n    source: https://mcp.tryflint.com\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://clerk.tryflint.com/oauth/authorize\n        tokenUrl: https://clerk.tryflint.com/oauth/token\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication; issue an ID token.\n    advertised_by_resource: true\n  - scope: offline_access\n    description: Issue a refresh token for long-lived access.\n    advertised_by_resource: true\n  - scope:\
   \ profile\n    description: Access the user's basic profile claims.\n  - scope: email\n    description: Access the user's email address.\n  - scope: public_metadata\n    description: Read the user's public metadata.\n  - scope: private_metadata\n    description: Read the user's private metadata.\n  - scope: \"user:org:read\"\n    description: Read the user's organization membership.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/scopes/flint-scopes.yml
+source_yaml_url: https://artifacts.apis.io/flint/scopes/flint-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Company

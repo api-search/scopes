@@ -5,43 +5,43 @@ api_specs:
   label: St.George Bank Banking Account Balances API
   slug: st-george-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-account-balances-api-openapi.yml
 - filename: st-george-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Account Direct Debits API
   slug: st-george-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-account-direct-debits-api-openapi.yml
 - filename: st-george-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Account Scheduled Payments API
   slug: st-george-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: st-george-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Account Transactions API
   slug: st-george-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-account-transactions-api-openapi.yml
 - filename: st-george-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Accounts API
   slug: st-george-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-accounts-api-openapi.yml
 - filename: st-george-bank-banking-payees-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Payees API
   slug: st-george-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-payees-api-openapi.yml
 - filename: st-george-bank-banking-products-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Products API
   slug: st-george-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#end-user-authorisation
@@ -117,7 +117,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  The harvested OpenAPI declares no oauth2 securitySchemes (shared DSB \"CDR\n  Banking API\" doc), so scopes cannot be derived from the spec. The scope set\n  below is the standard Consumer Data Right banking authorisation scope\n  registry defined by the DSB Consumer Data Standards, which St.George (a\n  Westpac CDR Data Holder) accepts on consented data-sharing requests.\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#end-user-authorisation\nreference: https://cdr-support.zendesk.com/hc/en-us/articles/900004582823-Requirement-for-Basic-and-Detailed-Scopes\nschemes:\n  - name: CDR-OAuth2\n    profile: FAPI 1.0 Advanced\n    detail: >-\n      Scopes are granted through the CDR consent flow (accredited Data\n      Recipients only) and bind a sharing arrangement. openid + profile are\n      requested alongside the CDR data scopes.\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication\
   \ (id_token).\n    flows: [authorizationCode]\n  - scope: profile\n    description: OpenID Connect basic profile claims.\n    flows: [authorizationCode]\n  - scope: bank:accounts.basic:read\n    description: Read account identifiers, product association and basic account attributes (balances excluded).\n    flows: [authorizationCode]\n    operations: [listBankingAccounts, listBankingBalancesBulk, listBankingBalancesSpecificAccounts, getBankingBalance]\n  - scope: bank:accounts.detail:read\n    description: Read detailed account information (features, rates, addresses); additive to bank:accounts.basic:read.\n    flows: [authorizationCode]\n    operations: [getBankingAccountDetail]\n  - scope: bank:transactions:read\n    description: Read transactions for consented accounts.\n    flows: [authorizationCode]\n    operations: [listBankingTransactions, getBankingTransactionDetail]\n  - scope: bank:payees:read\n    description: Read saved payees.\n    flows: [authorizationCode]\n    operations:\
   \ [listBankingPayees, getBankingPayeeDetail]\n  - scope: bank:regular_payments:read\n    description: Read direct debits, scheduled payments and instalment plans.\n    flows: [authorizationCode]\n    operations: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts, listInstalmentPlans, listInstalmentPlansBulk]\n  - scope: common:customer.basic:read\n    description: Read basic customer data (name / organisation).\n    flows: [authorizationCode]\n  - scope: common:customer.detail:read\n    description: Read detailed customer data (contact details); additive to common:customer.basic:read.\n    flows: [authorizationCode]\nnotes: >-\n  Product Reference Data (listBankingProducts / getBankingProductDetail) is\n  public and requires no scope. detail:read scopes only take effect when the\n  matching basic:read scope is also granted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/scopes/st-george-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/st-george-bank/scopes/st-george-bank-scopes.yml
 summary_line: 9 scopes
 tags:
 - Finance

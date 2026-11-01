@@ -5,19 +5,19 @@ api_specs:
   label: Rybbit Analytics API
   slug: rybbit-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/rybbit/openapi/rybbit-analytics-api-openapi.yml
 - filename: rybbit-event-tracking-api-openapi.yml
   format: yaml
   label: Rybbit Event Tracking API
   slug: rybbit-event-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-event-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/rybbit/openapi/rybbit-event-tracking-api-openapi.yml
 - filename: rybbit-sessions-api-openapi.yml
   format: yaml
   label: Rybbit Sessions API
   slug: rybbit-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/rybbit/openapi/rybbit-sessions-api-openapi.yml
 authorization_urls:
 - https://app.rybbit.io/api/auth/mcp/authorize
 description: Rybbit runs an OAuth 2.1 authorization server for its hosted MCP endpoint. It is NOT declared in any OpenAPI securityScheme — Rybbit publishes no OpenAPI — so this scope list was read directly off the RFC 8414 / RFC 9728 discovery documents the API host serves anonymously. The same `resource:action` scope vocabulary also governs scoped API keys created via POST /api/user/api-keys with a `permissions` object, so these scopes are the provider's single permission model for both credentials. derive-oauth-scopes.py finds nothing here (0 oauth2 schemes in the specs); this file is deliberately probed, not derived, and must not be overwritten by that script.
@@ -199,7 +199,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  https://app
   \ 'Create, update and delete conversion goals.', kind: resource}\n  - {scope: 'funnels:read', description: 'Read saved funnels and run ad-hoc funnel analysis.', kind: resource}\n  - {scope: 'funnels:write', description: 'Save, update and delete funnels.', kind: resource}\n  - {scope: 'dashboards:read', description: 'Read dashboard configuration.', kind: resource}\n  - {scope: 'dashboards:write', description: 'Modify dashboard configuration.', kind: resource}\n  - {scope: 'flags:read', description: 'Read feature flags.', kind: resource}\n  - {scope: 'flags:write', description: 'Create and modify feature flags.', kind: resource}\n  - {scope: 'experiments:read', description: 'Read experiments.', kind: resource}\n  - {scope: 'experiments:write', description: 'Create and modify experiments.', kind: resource}\n  - {scope: 'sites:read', description: 'Read site configuration and the list of accessible sites.', kind: resource}\n  - {scope: 'sites:write', description: 'Create sites, change site\
   \ configuration, and delete sites (admin/owner role also required).', kind: resource}\n  - {scope: 'gsc:read', description: 'Read the Google Search Console integration data.', kind: resource}\n  - {scope: 'gsc:write', description: 'Configure the Google Search Console integration.', kind: resource}\n  - {scope: 'org:read', description: 'Read organization members, roles, site access and teams.', kind: resource}\n  - {scope: 'org:write', description: 'Add members, change member site access, and create/update/delete teams (admin/owner role also required).', kind: resource}\n  - {scope: 'replay:read', description: 'Read session replay recordings and their rrweb event streams.', kind: resource}\n  - {scope: 'replay:write', description: 'Delete session replay recordings.', kind: resource}\n  - {scope: 'sql:read', description: 'Read-only ClickHouse SQL against the site-scoped scoped_events table, plus the query schema.', kind: resource}\n  - {scope: 'ingest:write', description: 'Write events into\
   \ the ingestion pipeline. Advertised by the authorization server; no MCP tool currently exposes it.', kind: resource}\n\nx-evidence:\n  - {url: 'https://app.rybbit.io/.well-known/oauth-authorization-server', http_status: 200, content_type: 'application/json'}\n  - {url: 'https://app.rybbit.io/.well-known/openid-configuration', http_status: 200, content_type: 'application/json'}\n  - {url: 'https://app.rybbit.io/.well-known/oauth-protected-resource', http_status: 200, content_type: 'application/json'}\nx-evidence-fetched: '2026-08-13'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/scopes/rybbit-scopes.yml
+source_yaml_url: https://artifacts.apis.io/rybbit/scopes/rybbit-scopes.yml
 summary_line: 29 scopes · authorizationCode
 tags:
 - Analytics

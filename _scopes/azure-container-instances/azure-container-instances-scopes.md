@@ -5,25 +5,25 @@ api_specs:
   label: Azure Container Instances Operations API
   slug: azure-container-instances-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-operations-api-openapi.yml
 - filename: azure-container-instances-subscriptions-api-openapi.yml
   format: yaml
   label: Azure Container Instances Subscriptions API
   slug: azure-container-instances-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-subscriptions-api-openapi.yml
 - filename: azure-container-instances-container-groups-api-openapi.yml
   format: yaml
   label: Azure Container Instances Container Groups API
   slug: microsoft-azure-container-instances-container-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-container-groups-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-container-groups-api-openapi.yml
 - filename: azure-container-instances-operations-api-openapi.yml
   format: yaml
   label: Azure Container Instances Operations API
   slug: microsoft-azure-container-instances-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/openapi/azure-container-instances-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-instances/openapi/azure-container-instances-operations-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -62,7 +62,7 @@ source_filename: azure-container-instances-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-container-instances-openapi.yaml\nschemes:\n- name: azure_auth\n  source: openapi/azure-container-instances-openapi.yaml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/azure-container-instances-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-instances/refs/heads/main/scopes/azure-container-instances-scopes.yml
+source_yaml_url: https://artifacts.apis.io/azure-container-instances/scopes/azure-container-instances-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Microsoft Azure

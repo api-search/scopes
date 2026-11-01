@@ -5,13 +5,13 @@ api_specs:
   label: Google Cloud Firestore Databases API
   slug: google-cloud-firestore-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/openapi/google-cloud-firestore-databases-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-firestore/openapi/google-cloud-firestore-databases-api-openapi.yml
 - filename: google-cloud-firestore-documents-api-openapi.yml
   format: yaml
   label: Google Cloud Firestore Documents API
   slug: google-cloud-firestore-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/openapi/google-cloud-firestore-documents-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-firestore/openapi/google-cloud-firestore-documents-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -58,7 +58,7 @@ source_filename: google-cloud-firestore-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloud-firestore-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cloud-firestore-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Cloud Platform\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-firestore-openapi.yml\n- scope: https://www.googleapis.com/auth/datastore\n  description: View and manage Firestore data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloud-firestore-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/scopes/google-cloud-firestore-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-firestore/scopes/google-cloud-firestore-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Database

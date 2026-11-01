@@ -5,49 +5,49 @@ api_specs:
   label: National Australia Bank (NAB) Gateway Payments API
   slug: national-australia-bank-gateway-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-gateway-payments-api-openapi.yml
+  url: https://artifacts.apis.io/national-australia-bank/openapi/national-australia-bank-gateway-payments-api-openapi.yml
 - filename: national-australia-bank-banking-account-balances-api-openapi.yml
   format: yaml
   label: National Australia Bank Banking Account Balances API
   slug: national-australia-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/national-australia-bank/openapi/national-australia-bank-banking-account-balances-api-openapi.yml
 - filename: national-australia-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: National Australia Bank Banking Account Direct Debits API
   slug: national-australia-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/national-australia-bank/openapi/national-australia-bank-banking-account-direct-debits-api-openapi.yml
 - filename: national-australia-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: National Australia Bank Banking Account Scheduled Payments API
   slug: national-australia-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/national-australia-bank/openapi/national-australia-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: national-australia-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: National Australia Bank Banking Account Transactions API
   slug: national-australia-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/national-australia-bank/openapi/national-australia-bank-banking-account-transactions-api-openapi.yml
 - filename: national-australia-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: National Australia Bank Banking Accounts API
   slug: national-australia-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/national-australia-bank/openapi/national-australia-bank-banking-accounts-api-openapi.yml
 - filename: national-australia-bank-banking-payees-api-openapi.yml
   format: yaml
   label: National Australia Bank Banking Payees API
   slug: national-australia-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/national-australia-bank/openapi/national-australia-bank-banking-payees-api-openapi.yml
 - filename: national-australia-bank-banking-products-api-openapi.yml
   format: yaml
   label: National Australia Bank Banking Products API
   slug: national-australia-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/openapi/national-australia-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/national-australia-bank/openapi/national-australia-bank-banking-products-api-openapi.yml
 authorization_urls:
 - https://openbank.api.nab.com.au/v1/idp/cdr/nab/authorise
 description: ''
@@ -153,7 +153,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://openbank.api.nab.com.au/.well-known/openid-configuration\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\n# CDR authorisation scopes advertised by NAB's live OIDC discovery document.\n# These govern the accredited consumer-data-sharing surface; the public Product\n# Reference Data endpoints require no scope. acr: urn:cds.au:cdr:2.\nschemes:\n  - name: CDR OAuth2 / OIDC\n    source: https://openbank.api.nab.com.au/.well-known/openid-configuration\n    issuer: https://openbank.api.nab.com.au\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://openbank.api.nab.com.au/v1/idp/cdr/nab/authorise\n        tokenUrl: https://openbank-secure.api.nab.com.au/v1/idp/cdr/nab/token\n        pushed_authorization_request_endpoint: https://openbank-secure.api.nab.com.au/v1/idp/cdr/nab/par\n        require_pushed_authorization_requests: true\n        require_signed_request_object:\
   \ true\n        code_challenge_methods: [S256]\n      - flow: clientCredentials\n        tokenUrl: https://openbank-secure.api.nab.com.au/v1/idp/cdr/nab/token\n      - flow: refreshToken\n        tokenUrl: https://openbank-secure.api.nab.com.au/v1/idp/cdr/nab/token\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication (id_token issuance).\n    flows: [authorizationCode]\n  - scope: profile\n    description: Basic profile claims.\n    flows: [authorizationCode]\n  - scope: offline_access\n    description: Issue a refresh token for ongoing data sharing within the arrangement.\n    flows: [authorizationCode]\n  - scope: bank:accounts.basic:read\n    description: Read basic account data (account list and basic details).\n    flows: [authorizationCode]\n  - scope: bank:accounts.detail:read\n    description: Read detailed account data.\n    flows: [authorizationCode]\n  - scope: bank:transactions:read\n    description: Read account transactions.\n    flows: [authorizationCode]\n\
   \  - scope: bank:payees:read\n    description: Read saved payees.\n    flows: [authorizationCode]\n  - scope: bank:regular_payments:read\n    description: Read direct debits and scheduled/regular payments.\n    flows: [authorizationCode]\n  - scope: common:customer.basic:read\n    description: Read basic customer data.\n    flows: [authorizationCode]\n  - scope: common:customer.detail:read\n    description: Read detailed customer data.\n    flows: [authorizationCode]\n  - scope: cdr:registration\n    description: Dynamic Client Registration under the CDR Register.\n    flows: [clientCredentials]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/scopes/national-australia-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/national-australia-bank/scopes/national-australia-bank-scopes.yml
 summary_line: 11 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - Finance

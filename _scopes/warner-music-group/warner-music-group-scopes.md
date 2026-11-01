@@ -5,25 +5,25 @@ api_specs:
   label: Warner Music Group Artists API
   slug: warner-music-group-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-artists-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-artists-api-openapi.yml
 - filename: warner-music-group-catalog-api-openapi.yml
   format: yaml
   label: Warner Music Group Catalog API
   slug: warner-music-group-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-catalog-api-openapi.yml
 - filename: warner-music-group-licenses-api-openapi.yml
   format: yaml
   label: Warner Music Group Licenses API
   slug: warner-music-group-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-licenses-api-openapi.yml
 - filename: warner-music-group-tracks-api-openapi.yml
   format: yaml
   label: Warner Music Group Tracks API
   slug: warner-music-group-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/openapi/warner-music-group-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/warner-music-group/openapi/warner-music-group-tracks-api-openapi.yml
 authorization_urls:
 - https://auth.wmg.com/oauth/authorize
 description: ''
@@ -76,7 +76,7 @@ source_filename: warner-music-group-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/warner-music-group-licensing-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/warner-music-group-licensing-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.wmg.com/oauth/authorize\n    tokenUrl: https://auth.wmg.com/oauth/token\n  description: OAuth 2.0 for WMG partner authentication\nscopes:\n- scope: catalog:read\n  description: Read catalog information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/warner-music-group-licensing-openapi.yml\n- scope: licenses:read\n  description: Read license requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/warner-music-group-licensing-openapi.yml\n- scope: licenses:write\n  description: Submit license requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/warner-music-group-licensing-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/scopes/warner-music-group-scopes.yml
+source_yaml_url: https://artifacts.apis.io/warner-music-group/scopes/warner-music-group-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Music

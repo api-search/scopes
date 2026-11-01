@@ -5,31 +5,31 @@ api_specs:
   label: Qatar University Client Registration API
   slug: qatar-client-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-client-registration-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-client-registration-api-openapi.yml
 - filename: qatar-discovery-api-openapi.yml
   format: yaml
   label: Qatar University Discovery API
   slug: qatar-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-discovery-api-openapi.yml
 - filename: qatar-oai-pmh-api-openapi.yml
   format: yaml
   label: Qatar University OAI PMH API
   slug: qatar-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-oai-pmh-api-openapi.yml
 - filename: qatar-openid-connect-api-openapi.yml
   format: yaml
   label: Qatar University OpenID Connect API
   slug: qatar-openid-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-openid-connect-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-openid-connect-api-openapi.yml
 - filename: qatar-oauth-api-openapi.yml
   format: yaml
   label: Qatar University O Auth API
   slug: qatar-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/openapi/qatar-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/qatar/openapi/qatar-oauth-api-openapi.yml
 authorization_urls: []
 description: 'Qatar University declares an authorization scope model on exactly one surface — its own OpenID Connect provider at sso.qu.edu.qa. Five scopes are supported, and they are the five standard OpenID Connect scopes with nothing institution-specific added: no scope distinguishes a student from staff, no scope names a system, and there is no read/write split. Thirty claims are supported, including the non-standard `groups` and `upn`, which is where any role information would actually travel.
 
@@ -62,7 +62,7 @@ source_yaml: "specification: API Evangelist Scopes\nspecificationVersion: '0.1'\
   \     - phone_number\n      - phone_number_verified\n      - groups\n      - upn\n    non_standard_claims:\n      - name: groups\n        note: >-\n          Not an OpenID Connect Core claim. In a WSO2 deployment this carries the user's\n          directory group membership, and it is the only route by which role or affiliation\n          information reaches a relying party — there is no scope that expresses it.\n      - name: upn\n        note: >-\n          User Principal Name, an Active Directory / Microsoft convention rather than an\n          OpenID Connect claim. Its presence indicates the identity store behind this provider\n          is an AD or LDAP directory.\n    gaps:\n      - >-\n        No institution-specific scopes. A university's interesting authorizations —\n        eduPersonAffiliation, student vs staff vs faculty, enrolment, entitlement — are not\n        expressible in this scope set. eduPerson attributes travel, if at all, over the SAML\n        side of the same provider,\
   \ where the published metadata declares no attribute release.\n      - >-\n        No read/write or least-privilege distinction on any scope.\n      - >-\n        Dynamic Client Registration is advertised, but with only these five scopes available\n        a dynamically registered client cannot request anything narrower than \"everything\n        about this person\".\n  - aid: 'qatar:qspace'\n    operator: tenant\n    model: none\n    note: >-\n      Anonymous OAI-PMH harvesting and anonymous DSpace 7.6 read operations. No scope model;\n      access is all-or-nothing and it is all. DSpace's own authorization model (EPerson, Group,\n      ResourcePolicy) governs writes, but it is not exposed as OAuth scopes and no public\n      account can reach it. Operator is tenant: qspace.qu.edu.qa CNAMEs to\n      qataru.cname.openrepository.com, a commercial hosted-DSpace service.\n  - aid: 'qatar:qupress-oai'\n    operator: institution\n    model: none\n    note: >-\n      Anonymous OAI-PMH harvesting\
   \ across nine journals. The adjacent OJS REST API uses a\n      per-user API token, not scopes, and is 403 to the public.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qatar/refs/heads/main/scopes/qatar-scopes.yml
+source_yaml_url: https://artifacts.apis.io/qatar/scopes/qatar-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Education

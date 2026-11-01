@@ -5,49 +5,49 @@ api_specs:
   label: Google Tag Manager Accounts API
   slug: google-tag-manager-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-accounts-api-openapi.yml
 - filename: google-tag-manager-containers-api-openapi.yml
   format: yaml
   label: Google Tag Manager Containers API
   slug: google-tag-manager-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-containers-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-containers-api-openapi.yml
 - filename: google-tag-manager-triggers-api-openapi.yml
   format: yaml
   label: Google Tag Manager Triggers API
   slug: google-tag-manager-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-triggers-api-openapi.yml
 - filename: google-tag-manager-user-permissions-api-openapi.yml
   format: yaml
   label: Google Tag Manager User Permissions API
   slug: google-tag-manager-user-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-user-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-user-permissions-api-openapi.yml
 - filename: google-tag-manager-variables-api-openapi.yml
   format: yaml
   label: Google Tag Manager Variables API
   slug: google-tag-manager-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-variables-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-variables-api-openapi.yml
 - filename: google-tag-manager-versions-api-openapi.yml
   format: yaml
   label: Google Tag Manager Versions API
   slug: google-tag-manager-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-versions-api-openapi.yml
 - filename: google-tag-manager-workspaces-api-openapi.yml
   format: yaml
   label: Google Tag Manager Workspaces API
   slug: google-tag-manager-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-workspaces-api-openapi.yml
 - filename: google-tag-manager-tag-manager-api-openapi.yml
   format: yaml
   label: Google Tag Manager Tag Manager API
   slug: google-tag-manager-tag-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-tag-manager-api-openapi.yml
+  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-tag-manager-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -121,7 +121,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/google-tag-manager-api-v2-openapi.yml\ndocs: https://developers.google.com/tag-platform/tag-manager/api/v2/authorization\nschemes:\n- name: oauth2\n  source: openapi/google-tag-manager-api-v2-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for Google Tag Manager API.\nscopes:\n- scope: tagmanager.delete.containers\n  description: Delete your Google Tag Manager containers.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-tag-manager-api-v2-openapi.yml\n- scope: tagmanager.edit.containers\n  description: Manage your Google Tag Manager container and its subcomponents, excluding versioning\n    and publishing.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-tag-manager-api-v2-openapi.yml\n- scope: tagmanager.edit.containerversions\n\
   \  description: Manage your Google Tag Manager container versions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-tag-manager-api-v2-openapi.yml\n- scope: tagmanager.manage.accounts\n  description: View and manage your Google Tag Manager accounts.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-tag-manager-api-v2-openapi.yml\n- scope: tagmanager.manage.users\n  description: Manage user permissions of your Google Tag Manager account and container.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-tag-manager-api-v2-openapi.yml\n- scope: tagmanager.publish\n  description: Publish your Google Tag Manager container versions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-tag-manager-api-v2-openapi.yml\n- scope: tagmanager.readonly\n  description: View your Google Tag Manager container and its subcomponents.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-tag-manager-api-v2-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/scopes/google-tag-manager-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-tag-manager/scopes/google-tag-manager-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Analytics

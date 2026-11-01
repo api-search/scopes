@@ -5,181 +5,181 @@ api_specs:
   label: SAP Emarsys Ac API
   slug: emarsys-ac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-ac-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-ac-api-openapi.yml
 - filename: emarsys-administrator-api-openapi.yml
   format: yaml
   label: SAP Emarsys Administrator API
   slug: emarsys-administrator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-administrator-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-administrator-api-openapi.yml
 - filename: emarsys-blocklist-api-openapi.yml
   format: yaml
   label: SAP Emarsys Blocklist API
   slug: emarsys-blocklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-blocklist-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-blocklist-api-openapi.yml
 - filename: emarsys-campaigns-api-openapi.yml
   format: yaml
   label: SAP Emarsys Campaigns API
   slug: emarsys-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-campaigns-api-openapi.yml
 - filename: emarsys-client-configuration-api-openapi.yml
   format: yaml
   label: SAP Emarsys Client Configuration API
   slug: emarsys-client-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-client-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-client-configuration-api-openapi.yml
 - filename: emarsys-client-configuration-test-api-openapi.yml
   format: yaml
   label: SAP Emarsys Client Configuration Test API
   slug: emarsys-client-configuration-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-client-configuration-test-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-client-configuration-test-api-openapi.yml
 - filename: emarsys-condition-api-openapi.yml
   format: yaml
   label: SAP Emarsys Condition API
   slug: emarsys-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-condition-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-condition-api-openapi.yml
 - filename: emarsys-contact-api-openapi.yml
   format: yaml
   label: SAP Emarsys Contact API
   slug: emarsys-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-contact-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-contact-api-openapi.yml
 - filename: emarsys-delivery-reports-api-openapi.yml
   format: yaml
   label: SAP Emarsys Delivery Reports API
   slug: emarsys-delivery-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-delivery-reports-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-delivery-reports-api-openapi.yml
 - filename: emarsys-email-api-openapi.yml
   format: yaml
   label: SAP Emarsys Email API
   slug: emarsys-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-email-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-email-api-openapi.yml
 - filename: emarsys-emailcategory-api-openapi.yml
   format: yaml
   label: SAP Emarsys Emailcategory API
   slug: emarsys-emailcategory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-emailcategory-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-emailcategory-api-openapi.yml
 - filename: emarsys-event-api-openapi.yml
   format: yaml
   label: SAP Emarsys Event API
   slug: emarsys-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-event-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-event-api-openapi.yml
 - filename: emarsys-export-api-openapi.yml
   format: yaml
   label: SAP Emarsys Export API
   slug: emarsys-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-export-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-export-api-openapi.yml
 - filename: emarsys-field-api-openapi.yml
   format: yaml
   label: SAP Emarsys Field API
   slug: emarsys-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-field-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-field-api-openapi.yml
 - filename: emarsys-file-api-openapi.yml
   format: yaml
   label: SAP Emarsys File API
   slug: emarsys-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-file-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-file-api-openapi.yml
 - filename: emarsys-filter-api-openapi.yml
   format: yaml
   label: SAP Emarsys Filter API
   slug: emarsys-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-filter-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-filter-api-openapi.yml
 - filename: emarsys-folder-api-openapi.yml
   format: yaml
   label: SAP Emarsys Folder API
   slug: emarsys-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-folder-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-folder-api-openapi.yml
 - filename: emarsys-form-api-openapi.yml
   format: yaml
   label: SAP Emarsys Form API
   slug: emarsys-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-form-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-form-api-openapi.yml
 - filename: emarsys-https-api-openapi.yml
   format: yaml
   label: 'SAP Emarsys Https: API'
   slug: emarsys-https-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-https-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-https-api-openapi.yml
 - filename: emarsys-inbound-messages-api-openapi.yml
   format: yaml
   label: SAP Emarsys Inbound Messages API
   slug: emarsys-inbound-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-inbound-messages-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-inbound-messages-api-openapi.yml
 - filename: emarsys-keyring-api-openapi.yml
   format: yaml
   label: SAP Emarsys Keyring API
   slug: emarsys-keyring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-keyring-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-keyring-api-openapi.yml
 - filename: emarsys-language-api-openapi.yml
   format: yaml
   label: SAP Emarsys Language API
   slug: emarsys-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-language-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-language-api-openapi.yml
 - filename: emarsys-outbound-message-sending-api-openapi.yml
   format: yaml
   label: SAP Emarsys Outbound Message Sending API
   slug: emarsys-outbound-message-sending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-outbound-message-sending-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-outbound-message-sending-api-openapi.yml
 - filename: emarsys-programresource-api-openapi.yml
   format: yaml
   label: SAP Emarsys Programresource API
   slug: emarsys-programresource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-programresource-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-programresource-api-openapi.yml
 - filename: emarsys-rds-api-openapi.yml
   format: yaml
   label: SAP Emarsys Rds API
   slug: emarsys-rds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-rds-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-rds-api-openapi.yml
 - filename: emarsys-settings-api-openapi.yml
   format: yaml
   label: SAP Emarsys Settings API
   slug: emarsys-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-settings-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-settings-api-openapi.yml
 - filename: emarsys-source-api-openapi.yml
   format: yaml
   label: SAP Emarsys Source API
   slug: emarsys-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-source-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-source-api-openapi.yml
 - filename: emarsys-trendreporting-api-openapi.yml
   format: yaml
   label: SAP Emarsys Trendreporting API
   slug: emarsys-trendreporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-trendreporting-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-trendreporting-api-openapi.yml
 - filename: emarsys-wishlist-api-openapi.yml
   format: yaml
   label: SAP Emarsys Wishlist API
   slug: emarsys-wishlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-wishlist-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-wishlist-api-openapi.yml
 - filename: emarsys-contact-list-api-openapi.yml
   format: yaml
   label: SAP Emarsys Contact List API
   slug: emarsys-contact-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/openapi/emarsys-contact-list-api-openapi.yml
+  url: https://artifacts.apis.io/emarsys/openapi/emarsys-contact-list-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings
@@ -869,8 +869,8 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/emarsys
   \  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: mediadb.file.create\n  description: Endpoint permission (mediadb) enabling POST /v2/file.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: mediadb.file.delete\n  description: Endpoint permission (mediadb) enabling POST /v2/file/{fileId}/delete.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: mediadb.file.get\n  description: Endpoint permission (mediadb) enabling GET /v2/file/{fileId}.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: mediadb.file.list\n  description: Endpoint permission (mediadb) enabling GET /v2/file.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: mediadb.folder.create\n  description:\
   \ Endpoint permission (mediadb) enabling POST /v2/folder.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: mediadb.folder.list\n  description: Endpoint permission (mediadb) enabling GET /v2/folder.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: program.abort\n  description: Endpoint permission (program / programresource) enabling POST /v2/ac/programs/{programId}/abort.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: program.delete\n  description: Endpoint permission (program / programresource) enabling POST /v2/ac/programs/{programId}/delete.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: program.get\n  description: Endpoint permission (program / programresource) enabling GET /v2/ac/programs.\n  sources:\n  -\
   \ https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: program.start\n  description: Endpoint permission (program / programresource) enabling POST /v2/ac/programs/entrypoints/{nodeType}/resources/{resourceId}/runs.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: programresource.list\n  description: Endpoint permission (program / programresource) enabling GET /v2/programresource.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: segment.contact.count\n  description: Endpoint permission (segment) enabling GET /v2/filter/{segmentId}/contacts/count.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: segment.contact.list\n  description: Endpoint permission (segment) enabling GET /v2/filter/{segmentId}/contacts.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n\
-  - scope: segment.contact.lookup\n  description: Endpoint permission (segment) enabling GET /v2/filter/{segmentId}/contacts/{contactId}.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: segment.contact.run\n  description: Endpoint permission (segment) enabling POST /v2/filter/{segmentId}/single_runs.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/scopes/emarsys-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/scopes/emarsys-scopes.yml
+  - scope: segment.contact.lookup\n  description: Endpoint permission (segment) enabling GET /v2/filter/{segmentId}/contacts/{contactId}.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n- scope: segment.contact.run\n  description: Endpoint permission (segment) enabling POST /v2/filter/{segmentId}/single_runs.\n  sources:\n  - https://dev.emarsys.com/docs/core-api-reference/ef41493bd7812-endpoint-permission-settings\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/emarsys/scopes/emarsys-scopes.yml\n"
+source_yaml_url: https://artifacts.apis.io/emarsys/scopes/emarsys-scopes.yml
 summary_line: 156 scopes · clientCredentials
 tags:
 - Marketing Automation

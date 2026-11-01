@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: 99-counties-openapi-generated.yml
+  format: yaml
+  label: 99 Counties API
+  slug: 99-counties-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/99-counties/openapi/_ae-authored/99-counties-openapi-generated.yml
 authorization_urls:
 - https://account.wallacefarms.com/authentication/oauth/authorize
 description: ''
@@ -56,7 +63,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://99counties.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/99-counties-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.wallacefarms.com/authentication/oauth/authorize\n    tokenUrl: https://account.wallacefarms.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token identifying the customer\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the customer's email address and verification status\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API (orders, addresses, subscriptions, membership)\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Customer\
   \ Account MCP API for agent-driven account operations\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/scopes/99-counties-scopes.yml
+source_yaml_url: https://artifacts.apis.io/99-counties/scopes/99-counties-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

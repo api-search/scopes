@@ -5,13 +5,13 @@ api_specs:
   label: Northern Powergrid Catalog API
   slug: northern-powergrid-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/openapi/northern-powergrid-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/northern-powergrid/openapi/northern-powergrid-catalog-api-openapi.yml
 - filename: northern-powergrid-dataset-api-openapi.yml
   format: yaml
   label: Northern Powergrid Dataset API
   slug: northern-powergrid-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/openapi/northern-powergrid-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/northern-powergrid/openapi/northern-powergrid-dataset-api-openapi.yml
 authorization_urls:
 - https://northernpowergrid.opendatasoft.com/oauth2/authorize/
 description: ''
@@ -60,7 +60,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: https://help.huwise.com/apis/ods-explore-v2/#section/Authentication/Using-OAuth2-authorization\ndocs: https://help.huwise.com/apis/ods-explore-v2/#section/Authentication/Using-OAuth2-authorization\nnote: >-\n  The OpenAPI for this API declares no oauth2 security scheme — it only carries the apikey query\n  parameter — so the mechanical derivation returned nothing. The platform documentation does\n  document a full OAuth 2.0 authorization-code flow for this API, and it publishes exactly one\n  scope. That single scope is recorded here verbatim; no scope taxonomy was invented. Both endpoints\n  were confirmed live on this portal host on 2026-07-27 (/oauth2/authorize/ -> 302,\n  /oauth2/token/ -> 405 to a GET, i.e. POST-only).\nschemes:\n- name: oauth2\n  source: https://help.huwise.com/apis/ods-explore-v2/#section/Authentication/Using-OAuth2-authorization\n  standards: [RFC 6749, RFC 6750]\n  flows:\n  - flow: authorizationCode\n\
   \    authorizationUrl: https://northernpowergrid.opendatasoft.com/oauth2/authorize/\n    tokenUrl: https://northernpowergrid.opendatasoft.com/oauth2/token/\n    refresh_supported: true\n    parameter_name: scopes\n    delimiter: space\nscopes:\n- scope: all\n  description: >-\n    Full access to the data the granting user can see on this domain. The platform documents this as\n    the only supported scope value; there is no finer-grained read/write split, and applications are\n    registered per domain so a grant never spans portals.\n  flows: [authorizationCode]\n  sources:\n  - https://help.huwise.com/apis/ods-explore-v2/#section/Authentication/Using-OAuth2-authorization\ncoverage:\n  scopes_published: 1\n  granularity: coarse\n  note: >-\n    A one-scope model on a read-only, GET-only API. Least-privilege delegation is not expressible\n    here; an agent granted \"all\" inherits everything its granting user can read on this portal.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/scopes/northern-powergrid-scopes.yml
+source_yaml_url: https://artifacts.apis.io/northern-powergrid/scopes/northern-powergrid-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Energy

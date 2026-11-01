@@ -5,73 +5,73 @@ api_specs:
   label: Resolve Access Keys API
   slug: resolve-access-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-access-keys-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-access-keys-api-openapi.yml
 - filename: resolve-charges-api-openapi.yml
   format: yaml
   label: Resolve Charges API
   slug: resolve-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-charges-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-charges-api-openapi.yml
 - filename: resolve-credit-notes-api-openapi.yml
   format: yaml
   label: Resolve Credit Notes API
   slug: resolve-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-credit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-credit-notes-api-openapi.yml
 - filename: resolve-customers-api-openapi.yml
   format: yaml
   label: Resolve Customers API
   slug: resolve-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-customers-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-customers-api-openapi.yml
 - filename: resolve-invoices-api-openapi.yml
   format: yaml
   label: Resolve Invoices API
   slug: resolve-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-invoices-api-openapi.yml
 - filename: resolve-merchants-api-openapi.yml
   format: yaml
   label: Resolve Merchants API
   slug: resolve-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-merchants-api-openapi.yml
 - filename: resolve-orders-api-openapi.yml
   format: yaml
   label: Resolve Orders API
   slug: resolve-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-orders-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-orders-api-openapi.yml
 - filename: resolve-payments-api-openapi.yml
   format: yaml
   label: Resolve Payments API
   slug: resolve-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-payments-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-payments-api-openapi.yml
 - filename: resolve-payout-transactions-api-openapi.yml
   format: yaml
   label: Resolve Payout Transactions API
   slug: resolve-payout-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-payout-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-payout-transactions-api-openapi.yml
 - filename: resolve-payouts-api-openapi.yml
   format: yaml
   label: Resolve Payouts API
   slug: resolve-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-payouts-api-openapi.yml
 - filename: resolve-shipments-api-openapi.yml
   format: yaml
   label: Resolve Shipments API
   slug: resolve-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-shipments-api-openapi.yml
 - filename: resolve-webhooks-api-openapi.yml
   format: yaml
   label: Resolve Webhooks API
   slug: resolve-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/openapi/resolve-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/resolve/openapi/resolve-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.resolvepay.com/guides/direct-api-access-and-authentication
@@ -113,7 +113,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/resolve-merchant-api-openapi.yaml\ndocs: https://docs.resolvepay.com/guides/direct-api-access-and-authentication\nnote: >-\n  The OpenAPI models auth as HTTP basic + bearer (JWT), but Resolve's OAuth\n  access keys (M2M) carry coarse-grained scopes documented in the auth guide and\n  the MCP tool reference. Read tools require merchant:read; write tools require\n  merchant:write.\nschemes:\n  - name: bearerAuth\n    source: openapi/resolve-merchant-api-openapi.yaml\n    type: oauth-access-key\n    token_url: https://app.resolvepay.com/api/access-keys/token\n    description: OAuth access keys created in Merchant Dashboard, exchanged for a JWT bearer token.\nscopes:\n  - scope: merchant:read\n    description: Read-only access to merchant resources (list/fetch customers, invoices, orders, charges, shipments, payments, payouts).\n    flows: [clientCredentials]\n    sources: [https://docs.resolvepay.com/guides/mcp-tools]\n\
   \  - scope: merchant:write\n    description: Write access to merchant resources (create/update/send/capture/void/cancel invoices, customers, orders, charges, shipments, credit checks, enrollment).\n    flows: [clientCredentials]\n    sources: [https://docs.resolvepay.com/guides/mcp-tools]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/scopes/resolve-scopes.yml
+source_yaml_url: https://artifacts.apis.io/resolve/scopes/resolve-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company

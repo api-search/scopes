@@ -5,55 +5,55 @@ api_specs:
   label: Inflection.io Contact Activity API
   slug: inflectionio-contact-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-contact-activity-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-contact-activity-api-openapi.yml
 - filename: inflectionio-contacts-api-openapi.yml
   format: yaml
   label: Inflection.io Contacts API
   slug: inflectionio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-contacts-api-openapi.yml
 - filename: inflectionio-emails-api-openapi.yml
   format: yaml
   label: Inflection.io Emails API
   slug: inflectionio-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-emails-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-emails-api-openapi.yml
 - filename: inflectionio-email-versions-api-openapi.yml
   format: yaml
   label: Inflection.io Email Versions API
   slug: inflectionio-email-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-email-versions-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-email-versions-api-openapi.yml
 - filename: inflectionio-journeys-api-openapi.yml
   format: yaml
   label: Inflection.io Journeys API
   slug: inflectionio-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-journeys-api-openapi.yml
 - filename: inflectionio-lists-api-openapi.yml
   format: yaml
   label: Inflection.io Lists API
   slug: inflectionio-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-lists-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-lists-api-openapi.yml
 - filename: inflectionio-organizations-api-openapi.yml
   format: yaml
   label: Inflection.io Organizations API
   slug: inflectionio-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-organizations-api-openapi.yml
 - filename: inflectionio-product-users-api-openapi.yml
   format: yaml
   label: Inflection.io Product Users API
   slug: inflectionio-product-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-product-users-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-product-users-api-openapi.yml
 - filename: inflectionio-stats-api-openapi.yml
   format: yaml
   label: Inflection.io Stats API
   slug: inflectionio-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-stats-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-stats-api-openapi.yml
 authorization_urls:
 - https://auth-v2.inflection.io/oauth2/authorize
 description: ''
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.in
   \ [S256]\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth-v2.inflection.io/oauth2/authorize\n    tokenUrl: https://auth-v2.inflection.io/oauth2/token\n    refreshUrl: https://auth-v2.inflection.io/oauth2/token\n    revocationUrl: https://auth-v2.inflection.io/oauth2/revoke\n    introspectionUrl: https://auth-v2.inflection.io/oauth2/introspect\n    jwksUri: https://auth-v2.inflection.io/oauth2/jwks\n    registrationUrl: https://auth-v2.inflection.io/client-app/connect/register\n    grant_types: [authorization_code, refresh_token]\n    token_endpoint_auth_methods: [client_secret_basic, client_secret_post, private_key_jwt]\nscopes:\n- scope: inflection_app\n  description: >-\n    The application scope required on every authorization request. Grants the connected app the\n    permissions of the user who authorized it — admins and members read and write, viewers are\n    read-only. Also the only scope advertised by the MCP protected-resource metadata.\n  flows: [authorizationCode]\n\
   \  required: true\n  sources:\n  - https://auth-v2.inflection.io/.well-known/oauth-authorization-server\n  - https://mcp.inflection.io/.well-known/oauth-protected-resource\n  - https://docs.inflection.io/agents/connected-apps-oauth\n- scope: profile\n  description: Advertised in the authorization server's scopes_supported. Not documented in the Connected Apps guide.\n  flows: [authorizationCode]\n  sources: [https://auth-v2.inflection.io/.well-known/oauth-authorization-server]\n- scope: email\n  description: Advertised in the authorization server's scopes_supported. Not documented in the Connected Apps guide.\n  flows: [authorizationCode]\n  sources: [https://auth-v2.inflection.io/.well-known/oauth-authorization-server]\npat_permissions:\n  note: >-\n    Personal Access Tokens are the other credential type and carry coarse permissions rather than OAuth\n    scopes. PATs do not work against the MCP server.\n  permissions:\n  - {name: READ, description: Required for every GET request.}\n\
   \  - {name: WRITE, description: Required for POST, PATCH and DELETE requests.}\ntoken_lifetimes:\n  oauth_access_token_seconds: 900\n  oauth_access_token_note: 15-minute access-token lifetime with refresh-token rotation and reuse detection (MCP trust page).\n  authorization_code_seconds: 300\n  authorization_code_note: Authorization codes are valid for 5 minutes and are single-use; reuse invalidates the session.\n  pat: long-lived until revoked\nsee:\n- authentication/inflectionio-authentication.yml\n- mcp/inflectionio-mcp.yml\n- well-known/inflectionio-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/scopes/inflectionio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/inflectionio/scopes/inflectionio-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

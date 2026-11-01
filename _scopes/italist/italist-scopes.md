@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://italist.com/.well-known/openid-configuration\ndocs: https://italist.com/.well-known/openid-configuration\nnote: >-\n  OAuth/OIDC scopes advertised by the Shopify Customer Account authorization server\n  serving italist.com. These govern the buyer's customer-account session, including\n  the customer-account MCP surface.\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: https://italist.com/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/70535250059/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/70535250059/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token.\n  flows: [authorizationCode]\n- scope: email\n  description: Access to the customer's email address and verification status.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description:\
   \ Full access to the Shopify Customer Account API for the signed-in buyer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API surface for the signed-in buyer.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/italist/refs/heads/main/scopes/italist-scopes.yml
+source_yaml_url: https://artifacts.apis.io/italist/scopes/italist-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

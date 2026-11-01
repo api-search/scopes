@@ -5,169 +5,169 @@ api_specs:
   label: BlueConic Audit Events API
   slug: blueconic-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-audit-events-api-openapi.yml
 - filename: blueconic-channels-api-openapi.yml
   format: yaml
   label: BlueConic Channels API
   slug: blueconic-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-channels-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-channels-api-openapi.yml
 - filename: blueconic-connections-api-openapi.yml
   format: yaml
   label: BlueConic Connections API
   slug: blueconic-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-connections-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-connections-api-openapi.yml
 - filename: blueconic-dialogues-api-openapi.yml
   format: yaml
   label: BlueConic Dialogues API
   slug: blueconic-dialogues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-dialogues-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-dialogues-api-openapi.yml
 - filename: blueconic-group-types-api-openapi.yml
   format: yaml
   label: BlueConic Group Types API
   slug: blueconic-group-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-group-types-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-group-types-api-openapi.yml
 - filename: blueconic-groups-api-openapi.yml
   format: yaml
   label: BlueConic Groups API
   slug: blueconic-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-groups-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-groups-api-openapi.yml
 - filename: blueconic-interaction-events-api-openapi.yml
   format: yaml
   label: BlueConic Interaction events API
   slug: blueconic-interaction-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-interaction-events-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-interaction-events-api-openapi.yml
 - filename: blueconic-interactions-api-openapi.yml
   format: yaml
   label: BlueConic Interactions API
   slug: blueconic-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-interactions-api-openapi.yml
 - filename: blueconic-lifecycles-api-openapi.yml
   format: yaml
   label: BlueConic Lifecycles API
   slug: blueconic-lifecycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-lifecycles-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-lifecycles-api-openapi.yml
 - filename: blueconic-listeners-api-openapi.yml
   format: yaml
   label: BlueConic Listeners API
   slug: blueconic-listeners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-listeners-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-listeners-api-openapi.yml
 - filename: blueconic-models-api-openapi.yml
   format: yaml
   label: BlueConic Models API
   slug: blueconic-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-models-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-models-api-openapi.yml
 - filename: blueconic-notebooks-api-openapi.yml
   format: yaml
   label: BlueConic Notebooks API
   slug: blueconic-notebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-notebooks-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-notebooks-api-openapi.yml
 - filename: blueconic-oauth-2-0-api-openapi.yml
   format: yaml
   label: BlueConic OAuth 2.0 API
   slug: blueconic-oauth-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-oauth-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-oauth-2-0-api-openapi.yml
 - filename: blueconic-objectives-api-openapi.yml
   format: yaml
   label: BlueConic Objectives API
   slug: blueconic-objectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-objectives-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-objectives-api-openapi.yml
 - filename: blueconic-pageview-events-api-openapi.yml
   format: yaml
   label: BlueConic Pageview events API
   slug: blueconic-pageview-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-pageview-events-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-pageview-events-api-openapi.yml
 - filename: blueconic-plugins-api-openapi.yml
   format: yaml
   label: BlueConic Plugins API
   slug: blueconic-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-plugins-api-openapi.yml
 - filename: blueconic-profile-events-api-openapi.yml
   format: yaml
   label: BlueConic Profile events API
   slug: blueconic-profile-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-profile-events-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-profile-events-api-openapi.yml
 - filename: blueconic-profiles-api-openapi.yml
   format: yaml
   label: BlueConic Profiles API
   slug: blueconic-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-profiles-api-openapi.yml
 - filename: blueconic-properties-api-openapi.yml
   format: yaml
   label: BlueConic Properties API
   slug: blueconic-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-properties-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-properties-api-openapi.yml
 - filename: blueconic-recommendations-api-openapi.yml
   format: yaml
   label: BlueConic Recommendations API
   slug: blueconic-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-recommendations-api-openapi.yml
 - filename: blueconic-reporting-api-openapi.yml
   format: yaml
   label: BlueConic Reporting API
   slug: blueconic-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-reporting-api-openapi.yml
 - filename: blueconic-roles-api-openapi.yml
   format: yaml
   label: BlueConic Roles API
   slug: blueconic-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-roles-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-roles-api-openapi.yml
 - filename: blueconic-segments-api-openapi.yml
   format: yaml
   label: BlueConic Segments API
   slug: blueconic-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-segments-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-segments-api-openapi.yml
 - filename: blueconic-stores-api-openapi.yml
   format: yaml
   label: BlueConic Stores API
   slug: blueconic-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-stores-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-stores-api-openapi.yml
 - filename: blueconic-timeline-event-rollups-api-openapi.yml
   format: yaml
   label: BlueConic Timeline event rollups API
   slug: blueconic-timeline-event-rollups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-timeline-event-rollups-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-timeline-event-rollups-api-openapi.yml
 - filename: blueconic-timeline-event-types-api-openapi.yml
   format: yaml
   label: BlueConic Timeline Event Types API
   slug: blueconic-timeline-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-timeline-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-timeline-event-types-api-openapi.yml
 - filename: blueconic-url-mappings-api-openapi.yml
   format: yaml
   label: BlueConic URL mappings API
   slug: blueconic-url-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-url-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-url-mappings-api-openapi.yml
 - filename: blueconic-users-api-openapi.yml
   format: yaml
   label: BlueConic Users API
   slug: blueconic-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/openapi/blueconic-users-api-openapi.yml
+  url: https://artifacts.apis.io/blueconic/openapi/blueconic-users-api-openapi.yml
 authorization_urls:
 - /rest/v2/oauth/authorize
 description: ''
@@ -320,7 +320,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/blueconi
   - scope: read:listeners\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:models\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:notebooks\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:objectives\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:plugins\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:profile-properties\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:profiles\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:roles\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:segments\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:timeline-event-types\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:timeline_event_rollups\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: read:url-mappings\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n\
   - scope: read:users\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: write:content_stores\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: write:groups\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: write:models\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: write:profile-properties\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: write:profiles\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\n- scope: write:url-mappings\n  sources:\n  - openapi/blueconic-rest-api-v2-openapi.yml\ndocs: https://support.blueconic.com/en/articles/247557-authorizing-applications-granting-external-applications-to-access-blueconic\ndocs_note: BlueConic documents the Scope SETTING but publishes no scope reference page enumerating the\n  scope strings — they are chosen in the tenant UI under Settings > Access management > Applications.\n  The 24 scopes below are therefore derived from the operation\
   \ security[] requirements in the published\n  OpenAPI, which is the only public enumeration that exists. method stays \"derived\" for that reason.\neffective_access: Scope alone does not determine access. For the client credentials flow the application\n  also has a \"Run as user\"; requests not permitted by that user are blocked and every action is logged\n  under that user in the audit event log. The app is further limited to the domains its related users\n  can reach, and an optional per-application IPv4/IPv6 allowlist can restrict the calling addresses.\nunscoped_operations: The OAuth 2.0 operations themselves (getToken, startAuthorizationCodeFlow, revokeToken)\n  and the public collection endpoints createEvent, createPageviewEvent, getInteractions and getRecommendationsPostJsonpAsync\n  declare no scope requirement in the specification.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blueconic/refs/heads/main/scopes/blueconic-scopes.yml
+source_yaml_url: https://artifacts.apis.io/blueconic/scopes/blueconic-scopes.yml
 summary_line: 27 scopes · clientCredentials/authorizationCode
 tags:
 - Customer Data Platform

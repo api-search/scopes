@@ -5,31 +5,31 @@ api_specs:
   label: Stacks Ai Analytics API
   slug: stacks-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-analytics-api-openapi.yml
 - filename: stacks-ai-knowledge-base-resources-api-openapi.yml
   format: yaml
   label: Stacks Ai Knowledge Base Resources API
   slug: stacks-ai-knowledge-base-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-base-resources-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-knowledge-base-resources-api-openapi.yml
 - filename: stacks-ai-knowledge-base-sync-api-openapi.yml
   format: yaml
   label: Stacks Ai Knowledge Base Sync API
   slug: stacks-ai-knowledge-base-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-base-sync-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-knowledge-base-sync-api-openapi.yml
 - filename: stacks-ai-knowledge-bases-api-openapi.yml
   format: yaml
   label: Stacks Ai Knowledge Bases API
   slug: stacks-ai-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-knowledge-bases-api-openapi.yml
 - filename: stacks-ai-run-flow-api-openapi.yml
   format: yaml
   label: Stacks Ai Run Flow API
   slug: stacks-ai-run-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/openapi/stacks-ai-run-flow-api-openapi.yml
+  url: https://artifacts.apis.io/stacks-ai/openapi/stacks-ai-run-flow-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -90,7 +90,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/stacks-ai-analytics-api-openapi.yml, openapi/stacks-ai-knowledge-base-resources-api-openapi.yml,\n  openapi/stacks-ai-knowledge-base-sync-api-openapi.yml, openapi/stacks-ai-knowledge-bases-api-openapi.yml,\n  openapi/stacks-ai-run-flow-api-openapi.yml\nschemes:\n- name: OAuth2PasswordBearer\n  source: openapi/stacks-ai-analytics-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n  description: Authorization header. [Learn how to get it](/docs/api-reference/how-to-get-credentials).\n- name: OAuth2PasswordBearer\n  source: openapi/stacks-ai-knowledge-base-resources-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n  description: Authorization header. [Learn how to get it](/docs/api-reference/how-to-get-credentials).\n- name: OAuth2PasswordBearer\n  source: openapi/stacks-ai-knowledge-base-sync-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n  description: Authorization\
   \ header. [Learn how to get it](/docs/api-reference/how-to-get-credentials).\n- name: OAuth2PasswordBearer\n  source: openapi/stacks-ai-knowledge-bases-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n  description: Authorization header. [Learn how to get it](/docs/api-reference/how-to-get-credentials).\n- name: OAuth2PasswordBearer\n  source: openapi/stacks-ai-run-flow-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: token\n  description: Authorization header. [Learn how to get it](/docs/api-reference/how-to-get-credentials).\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/scopes/stacks-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/stacks-ai/scopes/stacks-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

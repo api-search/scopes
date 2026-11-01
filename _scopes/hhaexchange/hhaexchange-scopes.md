@@ -5,19 +5,19 @@ api_specs:
   label: HHAeXchange Configuration API
   slug: hhaexchange-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/hhaexchange/openapi/hhaexchange-configuration-api-openapi.yml
 - filename: hhaexchange-internal-api-openapi.yml
   format: yaml
   label: HHAeXchange Internal API
   slug: hhaexchange-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-internal-api-openapi.yml
+  url: https://artifacts.apis.io/hhaexchange/openapi/hhaexchange-internal-api-openapi.yml
 - filename: hhaexchange-onboarding-api-openapi.yml
   format: yaml
   label: HHAeXchange Onboarding API
   slug: hhaexchange-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/openapi/hhaexchange-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/hhaexchange/openapi/hhaexchange-onboarding-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -57,7 +57,7 @@ source_filename: hhaexchange-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hhaexchange-fhir-openapi.yml\nschemes:\n- name: bearerAuth\n  source: openapi/hhaexchange-fhir-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.hhaexchange.com/v1/fhir/auth/token\nscopes:\n- scope: full_access\n  description: Read and write access for Internal Provider, Onboarding, and Rate limits.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/hhaexchange-fhir-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/scopes/hhaexchange-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hhaexchange/scopes/hhaexchange-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Home Care

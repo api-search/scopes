@@ -5,103 +5,103 @@ api_specs:
   label: SIMBA Chain Authentication API
   slug: simba-chain-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-authentication-api-openapi.yml
 - filename: simba-chain-bulk-users-import-requests-api-openapi.yml
   format: yaml
   label: SIMBA Chain Bulk Users Import Requests API
   slug: simba-chain-bulk-users-import-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-bulk-users-import-requests-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-bulk-users-import-requests-api-openapi.yml
 - filename: simba-chain-deviceappadmin-api-openapi.yml
   format: yaml
   label: SIMBA Chain Device App Admin API
   slug: simba-chain-deviceappadmin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-deviceappadmin-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-deviceappadmin-api-openapi.yml
 - filename: simba-chain-deviceappregistration-api-openapi.yml
   format: yaml
   label: SIMBA Chain Device App Registration API
   slug: simba-chain-deviceappregistration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-deviceappregistration-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-deviceappregistration-api-openapi.yml
 - filename: simba-chain-domains-api-openapi.yml
   format: yaml
   label: SIMBA Chain Domains API
   slug: simba-chain-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-domains-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-domains-api-openapi.yml
 - filename: simba-chain-events-api-openapi.yml
   format: yaml
   label: SIMBA Chain Events API
   slug: simba-chain-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-events-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-events-api-openapi.yml
 - filename: simba-chain-invites-api-openapi.yml
   format: yaml
   label: SIMBA Chain Invites API
   slug: simba-chain-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-invites-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-invites-api-openapi.yml
 - filename: simba-chain-organisations-api-openapi.yml
   format: yaml
   label: SIMBA Chain Organisations API
   slug: simba-chain-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-organisations-api-openapi.yml
 - filename: simba-chain-passkeys-api-openapi.yml
   format: yaml
   label: SIMBA Chain Passkeys API
   slug: simba-chain-passkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-passkeys-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-passkeys-api-openapi.yml
 - filename: simba-chain-permissions-api-openapi.yml
   format: yaml
   label: SIMBA Chain Permissions API
   slug: simba-chain-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-permissions-api-openapi.yml
 - filename: simba-chain-probes-api-openapi.yml
   format: yaml
   label: SIMBA Chain Probes API
   slug: simba-chain-probes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-probes-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-probes-api-openapi.yml
 - filename: simba-chain-roles-api-openapi.yml
   format: yaml
   label: SIMBA Chain Roles API
   slug: simba-chain-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-roles-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-roles-api-openapi.yml
 - filename: simba-chain-serviceadmin-api-openapi.yml
   format: yaml
   label: SIMBA Chain Service Admin API
   slug: simba-chain-serviceadmin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-serviceadmin-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-serviceadmin-api-openapi.yml
 - filename: simba-chain-templates-api-openapi.yml
   format: yaml
   label: SIMBA Chain Templates API
   slug: simba-chain-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-templates-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-templates-api-openapi.yml
 - filename: simba-chain-users-api-openapi.yml
   format: yaml
   label: SIMBA Chain Users API
   slug: simba-chain-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-users-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-users-api-openapi.yml
 - filename: simba-chain-client-credentials-api-openapi.yml
   format: yaml
   label: SIMBA Chain Client Credentials API
   slug: simba-chain-client-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-client-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-client-credentials-api-openapi.yml
 - filename: simba-chain-two-factor-api-openapi.yml
   format: yaml
   label: SIMBA Chain Two Factor API
   slug: simba-chain-two-factor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/openapi/simba-chain-two-factor-api-openapi.yml
+  url: https://artifacts.apis.io/simba-chain/openapi/simba-chain-two-factor-api-openapi.yml
 authorization_urls:
 - https://blocks.simbachain.com/api/member-service-validator/oauth/authorize
 description: 'SIMBA does NOT use OAuth scopes to express API authorization. The OpenAPI declares an authorizationCode flow with an EMPTY scopes map, and the authorization server advertises only the three standard OIDC identity scopes. All real authorization is carried by SIMBA''s own role-and-permission model, resolved per identity at GET /identity/{simba_id}/permissions/ and enforced by OPA middleware inside the platform (Blocks v24.1.1: "Implemented OPA middleware AuthZ"). An integrator sizing least-privilege access should read Roles and Permissions, not scopes.'
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  Baseline 
   \ discovery document.\n  - name: email\n    type: oidc-identity\n    description: Releases the email and email_verified claims.\n    source: scopes_supported in the OIDC discovery document.\n  - name: profile\n    type: oidc-identity\n    description: Releases the profile claims (first_name, last_name, name).\n    source: scopes_supported in the OIDC discovery document.\nclaims_supported:\n  - sub\n  - simba-id\n  - identity-urn\n  - simba_id\n  - identity_urn\n  - email\n  - email_verified\n  - first_name\n  - last_name\n  - name\n  - exp\n  - iat\n  - jti\n  - iss\n  - aud\n  - azp\n  - auth-flow\n  - auth-time\n  - typ\n  - fingerprint\n  - scope\nauthorization_model:\n  mechanism: roles and permissions (RBAC with attribute-scoped permissions), not OAuth scopes\n  permission_shape:\n    fields: [name, description, service, resource, action, is_org_scoped, resource_attributes, urls, effect]\n    note: >-\n      A Permission is a service/resource/action triple with an allow-or-deny `effect`,\
   \ optional\n      resource_attributes and the URL patterns it governs — closer to a policy statement than a scope.\n  role_kinds: [global, org-scoped, domain-scoped, custom]\n  role_inheritance: true\n  lookup_operations:\n    - get_permissions_permissions__get\n    - get_permission_permissions__permission_id__get\n    - get_identity_permissions_by_simba_id_identity__simba_id__permissions__get\n    - get_identities_permissions_identity_permissions__get\n    - get_roles_roles__get\n    - get_org_scoped_roles_organisations__organisation_name__roles__get\n  assignment_operations:\n    - update_organisation_user_account_roles_organisations__organisation_name__users__user_account_id__roles__put\n    - add_organisation_user_account_roles_organisations__organisation_name__users__user_account_id__roles_add__post\n    - remove_organisation_user_account_roles_organisations__organisation_name__users__user_account_id__roles_remove__delete\n    - update_client_credential_roles_organisations__organisation_name__client_credentials__client_id__roles__put\n\
   \    - update_device_app_roles_organisations__organisation_name__device_apps__device_app_name__roles__put\n  enforcement: OPA middleware (Open Policy Agent) inside the Blocks platform\n  docs: https://docs.simbachain.com/documentation/simba-build/managing-an-organization/user-roles-and-permissions\napplication_level_permissions:\n  note: >-\n    The dynamic contract API adds a second, separate authorization layer: a \"permissioned application\"\n    checks a remote user's group against the method being called, which is what error codes 2001-2010\n    report (NO_PERMISSIONS, NO_USER, METHOD_ACCESS_DENIED, WRITE_BLOCKCHAIN_DENIED, and so on). See\n    errors/simba-chain-problem-types.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/scopes/simba-chain-scopes.yml
+source_yaml_url: https://artifacts.apis.io/simba-chain/scopes/simba-chain-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

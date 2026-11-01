@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: https://www.aeratechnology.com/.well-known/oauth-authorization-server\nnote: >-\n  Scopes as advertised by Aera Technology's own RFC 8414 authorization-server\n  metadata and RFC 9728 protected-resource metadata. Aera publishes no scopes /\n  permissions reference page, so this is the complete publicly observable scope\n  surface — a single coarse scope. Nothing is inferred.\nschemes:\n- name: mcp-oauth\n  source: well-known/aera-technology-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.aeratechnology.com/oauth/authorize\n    tokenUrl: https://www.aeratechnology.com/oauth/token\nscopes:\n- scope: mcp\n  description: >-\n    Access the Aera Technology MCP server at\n    /wp-json/mcp/mcp-oauth-server. Advertised in both scopes_supported lists; no\n    finer-grained or per-tool scopes are published.\n  flows: [authorizationCode]\n  sources:\n  - well-known/aera-technology-oauth-authorization-server.json\n\
   \  - well-known/aera-technology-oauth-protected-resource.json\nx-evidence:\n  fetched: '2026-08-06'\n  probes:\n  - url: https://www.aeratechnology.com/.well-known/oauth-authorization-server\n    http_status: 200\n  - url: https://www.aeratechnology.com/.well-known/oauth-protected-resource\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aera-technology/refs/heads/main/scopes/aera-technology-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aera-technology/scopes/aera-technology-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

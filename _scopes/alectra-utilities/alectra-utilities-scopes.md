@@ -5,25 +5,25 @@ api_specs:
   label: Alectra Utilities Application Information API
   slug: alectra-utilities-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/alectra-utilities/openapi/alectra-utilities-applicationinformation-api-openapi.yml
 - filename: alectra-utilities-authorization-api-openapi.yml
   format: yaml
   label: Alectra Utilities Authorization API
   slug: alectra-utilities-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/alectra-utilities/openapi/alectra-utilities-authorization-api-openapi.yml
 - filename: alectra-utilities-batch-api-openapi.yml
   format: yaml
   label: Alectra Utilities Batch API
   slug: alectra-utilities-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-batch-api-openapi.yml
+  url: https://artifacts.apis.io/alectra-utilities/openapi/alectra-utilities-batch-api-openapi.yml
 - filename: alectra-utilities-usagepoint-api-openapi.yml
   format: yaml
   label: Alectra Utilities Usage Point API
   slug: alectra-utilities-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/openapi/alectra-utilities-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/alectra-utilities/openapi/alectra-utilities-usagepoint-api-openapi.yml
 authorization_urls:
 - https://sandbox.greenbuttonalliance.org:8443/oauth/authorize
 description: ''
@@ -88,7 +88,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/alectra-utilities-applicationinformation-api-openapi.yml, openapi/alectra-utilities-authorization-api-openapi.yml,\n  openapi/alectra-utilities-batch-api-openapi.yml, openapi/alectra-utilities-usagepoint-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/alectra-utilities-applicationinformation-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n- name: oauth2\n  source: openapi/alectra-utilities-authorization-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl:\
   \ https://sandbox.greenbuttonalliance.org:8443/oauth/token\n- name: oauth2\n  source: openapi/alectra-utilities-batch-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n- name: oauth2\n  source: openapi/alectra-utilities-usagepoint-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/authorize\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://sandbox.greenbuttonalliance.org:8443/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/scopes/alectra-utilities-scopes.yml
+source_yaml_url: https://artifacts.apis.io/alectra-utilities/scopes/alectra-utilities-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Energy

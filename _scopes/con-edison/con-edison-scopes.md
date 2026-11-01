@@ -5,85 +5,85 @@ api_specs:
   label: Con Edison Application Information API
   slug: con-edison-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-applicationinformation-api-openapi.yml
 - filename: con-edison-authorization-api-openapi.yml
   format: yaml
   label: Con Edison Authorization API
   slug: con-edison-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-authorization-api-openapi.yml
 - filename: con-edison-batch-api-openapi.yml
   format: yaml
   label: Con Edison Batch API
   slug: con-edison-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-batch-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-batch-api-openapi.yml
 - filename: con-edison-electricpowerusagesummary-api-openapi.yml
   format: yaml
   label: Con Edison Electric Power Usage Summary API
   slug: con-edison-electricpowerusagesummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-electricpowerusagesummary-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-electricpowerusagesummary-api-openapi.yml
 - filename: con-edison-intervalblock-api-openapi.yml
   format: yaml
   label: Con Edison Interval Block API
   slug: con-edison-intervalblock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-intervalblock-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-intervalblock-api-openapi.yml
 - filename: con-edison-localtimeparameters-api-openapi.yml
   format: yaml
   label: Con Edison Local Time Parameters API
   slug: con-edison-localtimeparameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-localtimeparameters-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-localtimeparameters-api-openapi.yml
 - filename: con-edison-meterreading-api-openapi.yml
   format: yaml
   label: Con Edison Meter Reading API
   slug: con-edison-meterreading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-meterreading-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-meterreading-api-openapi.yml
 - filename: con-edison-readingtype-api-openapi.yml
   format: yaml
   label: Con Edison Reading Type API
   slug: con-edison-readingtype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-readingtype-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-readingtype-api-openapi.yml
 - filename: con-edison-realtimebatch-api-openapi.yml
   format: yaml
   label: Con Edison Real Time Batch API
   slug: con-edison-realtimebatch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-realtimebatch-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-realtimebatch-api-openapi.yml
 - filename: con-edison-realtimeintervalblock-api-openapi.yml
   format: yaml
   label: Con Edison Real Time Interval Block API
   slug: con-edison-realtimeintervalblock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-realtimeintervalblock-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-realtimeintervalblock-api-openapi.yml
 - filename: con-edison-realtimereadingtype-api-openapi.yml
   format: yaml
   label: Con Edison Real Time Reading Type API
   slug: con-edison-realtimereadingtype-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-realtimereadingtype-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-realtimereadingtype-api-openapi.yml
 - filename: con-edison-retailcustomer-api-openapi.yml
   format: yaml
   label: Con Edison Retail Customer API
   slug: con-edison-retailcustomer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-retailcustomer-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-retailcustomer-api-openapi.yml
 - filename: con-edison-usagepoint-api-openapi.yml
   format: yaml
   label: Con Edison Usage Point API
   slug: con-edison-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-usagepoint-api-openapi.yml
 - filename: con-edison-service-status-api-openapi.yml
   format: yaml
   label: Con Edison Service Status API
   slug: con-edison-service-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/openapi/con-edison-service-status-api-openapi.yml
+  url: https://artifacts.apis.io/con-edison/openapi/con-edison-service-status-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.coned.com/en/accounts-billing/share-energy-usage-data/become-a-third-party
@@ -184,7 +184,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: https://www.con
   \ Interval Reading\n  block: 4\n  mandatory_for: [consumption]\n- scope: FB=5\n  name: Electricity Interval Metering\n  block: 5\n- scope: FB=7\n  name: Net Electricity Metering\n  block: 7\n- scope: FB=8\n  name: Forward and Reverse Electricity Metering\n  block: 8\n- scope: FB=10\n  name: Natural Gas Interval Metering\n  block: 10\n- scope: FB=15\n  name: Usage Summary\n  block: 15\n- scope: FB=16\n  name: Usage Summary with cost\n  block: 16\n- scope: FB=35\n  name: Usage Data Bulk\n  block: 35\n- scope: FB=51\n  name: Retail Customer Common\n  block: 51\n  mandatory_for: [retail-customer]\n- scope: FB=53\n  name: Retail Customer Connect My Data\n  block: 53\n  mandatory_for: [retail-customer]\n- scope: FB=56\n  name: Retail Customer Billing Information\n  block: 56\n- scope: FB=57\n  name: Retail Customer Account-Agreement Information\n  block: 57\n- scope: FB=58\n  name: Retail Customer Service-location Information\n  block: 58\n- scope: FB=60\n  name: Retail Customer Meter Information\n\
   \  block: 60\n- scope: FB=67\n  name: Retail Customer Bulk\n  block: 67\nmandatory_minimums:\n- use_case: Consumption\n  blocks: [1, 3, 4]\n- use_case: Billing\n  blocks: [1, 3]\n- use_case: Retail Customer\n  blocks: [51, 53]\npublished_scope_examples:\n- name: Consumption Electricity Scope\n  value: FB=1_3_4_5;IntervalDuration=Monthly_3600_900_300;BlockDuration=Monthly_Daily;HistoryLength=63072000;BR=000092\n- name: Consumption Electricity Net Scope\n  value: FB=1_3_4_7;IntervalDuration=Monthly_3600_900_300;BlockDuration=Monthly_Daily;HistoryLength=63072000;BR=000092\n- name: Consumption Gas Scope\n  value: FB=1_3_4_10;IntervalDuration=Monthly_3600_900_300;BlockDuration=Monthly_Daily;HistoryLength=63072000;BR=000092\n- name: Consumption Forward Reverse Scope\n  value: FB=1_3_4_8;IntervalDuration=Monthly_3600_900_300;BlockDuration=Monthly_Daily;HistoryLength=63072000;BR=000092\n- name: Billing Information Without Cost Scope\n  value: FB=1_3_15;IntervalDuration=Monthly;BlockDuration=Monthly;HistoryLength=63072000;BR=000092\n\
   - name: Billing Information With Cost Scope\n  value: FB=1_3_15_16;IntervalDuration=Monthly;BlockDuration=Monthly;HistoryLength=63072000;BR=000092\n- name: RetailCustomer Billing Account Scope\n  value: FB=51_53_56;BR=000092\n- name: RetailCustomer Meter Scope\n  value: FB=51_53_56_57_58_60;BR=000092\n- name: Multiple Scopes combined\n  value: FB=1_3_4_5_7_8_10_15_16_51_53_56_57_58_60;IntervalDuration=Monthly_3600_900_300;BlockDuration=Monthly_Daily;HistoryLength=63072000;BR=000092\n- name: Third-Party Client Access Token (client_credentials)\n  value: FB=34_35\n  note: The bulk/client-credentials scope published in section 3.3.2; FB_34 is not described in the document's functional-block table.\n- name: Refresh-token example\n  value: FB=1_3_4_5_7_10_15_16_51_53_56_57_58_60\nflows: [authorizationCode, refreshToken, clientCredentials]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/scopes/con-edison-scopes.yml
+source_yaml_url: https://artifacts.apis.io/con-edison/scopes/con-edison-scopes.yml
 summary_line: 17 scopes · authorizationCode/refreshToken/clientCredentials
 tags:
 - Energy

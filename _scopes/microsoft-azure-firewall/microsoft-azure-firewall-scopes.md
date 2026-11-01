@@ -5,13 +5,13 @@ api_specs:
   label: Azure Firewall Firewalls API
   slug: microsoft-azure-firewall-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/openapi/microsoft-azure-firewall-firewalls-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-firewalls-api-openapi.yml
 - filename: microsoft-azure-firewall-operations-api-openapi.yml
   format: yaml
   label: Azure Firewall Operations API
   slug: microsoft-azure-firewall-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/openapi/microsoft-azure-firewall-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-operations-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -50,7 +50,7 @@ source_filename: microsoft-azure-firewall-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-firewall-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-firewall-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-firewall-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-firewall/refs/heads/main/scopes/microsoft-azure-firewall-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-firewall/scopes/microsoft-azure-firewall-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Cloud Security

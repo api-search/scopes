@@ -30,7 +30,7 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paperchase/refs/heads/main/scopes/paperchase-scopes.yml
+source_yaml_url: https://artifacts.apis.io/paperchase/scopes/paperchase-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

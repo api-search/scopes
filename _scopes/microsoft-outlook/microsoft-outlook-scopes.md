@@ -5,19 +5,19 @@ api_specs:
   label: Microsoft Outlook Attachments API
   slug: microsoft-outlook-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/openapi/microsoft-outlook-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-outlook/openapi/microsoft-outlook-attachments-api-openapi.yml
 - filename: microsoft-outlook-mail-folders-api-openapi.yml
   format: yaml
   label: Microsoft Outlook Mail Folders API
   slug: microsoft-outlook-mail-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/openapi/microsoft-outlook-mail-folders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-outlook/openapi/microsoft-outlook-mail-folders-api-openapi.yml
 - filename: microsoft-outlook-messages-api-openapi.yml
   format: yaml
   label: Microsoft Outlook Messages API
   slug: microsoft-outlook-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/openapi/microsoft-outlook-messages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-outlook/openapi/microsoft-outlook-messages-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microso
   \ Mail.Read, description: Read user mail, flows: [authorizationCode], sources: [openapi/microsoft-graph-mail-api-openapi.yml]}\n  - {scope: Mail.ReadBasic, description: Read user basic mail (no body/attachments), flows: [authorizationCode], sources: [openapi/microsoft-graph-mail-api-openapi.yml]}\n  - {scope: Mail.Read.Shared, description: Read mail in shared mailboxes, flows: [authorizationCode], sources: [openapi/microsoft-graph-mail-api-openapi.yml]}\n  - {scope: Mail.ReadWrite, description: Read and write access to user mail, flows: [authorizationCode], sources: [openapi/microsoft-graph-mail-api-openapi.yml]}\n  - {scope: Mail.ReadWrite.Shared, description: Read and write mail in shared mailboxes, flows: [authorizationCode], sources: [openapi/microsoft-graph-mail-api-openapi.yml]}\n  - {scope: Mail.Send, description: Send mail as a user, flows: [authorizationCode], sources: [openapi/microsoft-graph-mail-api-openapi.yml]}\n  - {scope: Mail.Send.Shared, description: Send mail on behalf\
   \ of others, flows: [authorizationCode], sources: [docs]}\n  - {scope: MailboxSettings.Read, description: Read user mailbox settings (automatic replies, time zone, language), flows: [authorizationCode], sources: [docs]}\n  - {scope: MailboxSettings.ReadWrite, description: Read and write user mailbox settings, flows: [authorizationCode], sources: [docs]}\n  - {scope: MailboxFolder.Read, description: Read user mail folders, flows: [authorizationCode], sources: [docs]}\n  - {scope: MailboxFolder.ReadWrite, description: Read and write user mail folders, flows: [authorizationCode], sources: [docs]}\n  - {scope: Calendars.Read, description: Read user calendars, flows: [authorizationCode], sources: [docs]}\n  - {scope: Calendars.ReadWrite, description: Read and write user calendars, flows: [authorizationCode], sources: [docs]}\n  - {scope: Contacts.Read, description: Read user contacts, flows: [authorizationCode], sources: [docs]}\n  - {scope: Contacts.ReadWrite, description: Read and write user\
   \ contacts, flows: [authorizationCode], sources: [docs]}\n  - {scope: Tasks.Read, description: Read user tasks and to-do lists, flows: [authorizationCode], sources: [docs]}\n  - {scope: Tasks.ReadWrite, description: Create, read, update, delete user tasks and to-do lists, flows: [authorizationCode], sources: [docs]}\n  - {scope: People.Read, description: Read the signed-in user's relevant people list, flows: [authorizationCode], sources: [docs]}\n  - {scope: User.Read, description: Sign in and read the user's profile, flows: [authorizationCode], sources: [docs]}\n  - {scope: offline_access, description: Maintain access via refresh tokens, flows: [authorizationCode], sources: [docs]}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/scopes/microsoft-outlook-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-outlook/scopes/microsoft-outlook-scopes.yml
 summary_line: 20 scopes · authorizationCode
 tags:
 - Calendar

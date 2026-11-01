@@ -5,31 +5,31 @@ api_specs:
   label: Vanderbilt University Broadcasts API
   slug: vanderbilt-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/vanderbilt/openapi/vanderbilt-broadcasts-api-openapi.yml
 - filename: vanderbilt-metadata-api-openapi.yml
   format: yaml
   label: Vanderbilt University Metadata API
   slug: vanderbilt-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/vanderbilt/openapi/vanderbilt-metadata-api-openapi.yml
 - filename: vanderbilt-search-api-openapi.yml
   format: yaml
   label: Vanderbilt University Search API
   slug: vanderbilt-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-search-api-openapi.yml
+  url: https://artifacts.apis.io/vanderbilt/openapi/vanderbilt-search-api-openapi.yml
 - filename: vanderbilt-service-api-openapi.yml
   format: yaml
   label: Vanderbilt University Service API
   slug: vanderbilt-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-service-api-openapi.yml
+  url: https://artifacts.apis.io/vanderbilt/openapi/vanderbilt-service-api-openapi.yml
 - filename: vanderbilt-sparql-api-openapi.yml
   format: yaml
   label: Vanderbilt University SPARQL API
   slug: vanderbilt-sparql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/openapi/vanderbilt-sparql-api-openapi.yml
+  url: https://artifacts.apis.io/vanderbilt/openapi/vanderbilt-sparql-api-openapi.yml
 authorization_urls: []
 description: OAuth 2.0 / OpenID Connect scopes advertised by Vanderbilt's federated identity providers. Read directly from each provider's live OpenID Connect Discovery document; nothing here is inferred. Vanderbilt's three public read APIs are unauthenticated and define no scopes of their own.
 docs: ''
@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "---\nname: Vanderbilt University — OAuth Scopes\ndescription: >-\n  OAuth 2.0 / OpenID Connect scopes advertised by Vanderbilt's federated identity providers.\n  Read directly from each provider's live OpenID Connect Discovery document; nothing here is\n  inferred. Vanderbilt's three public read APIs are unauthenticated and define no scopes of\n  their own.\ngenerated: '2026-09-01'\nmethod: probed\nsource: >-\n  https://onevu.vanderbilt.edu/.well-known/openid-configuration and\n  https://login.microsoftonline.com/vanderbilt.edu/v2.0/.well-known/openid-configuration,\n  both fetched 2026-09-01, HTTP 200.\nproviders:\n  - provider: Vanderbilt Okta (OneVU)\n    operator: federation\n    issuer: https://onevu.vanderbilt.edu\n    scopes:\n      - { scope: openid, description: OpenID Connect authentication request. }\n      - { scope: profile, description: Basic profile claims. }\n      - { scope: email, description: Email address and verification status. }\n      - { scope: address,\
   \ description: Postal address claim. }\n      - { scope: phone, description: Phone number claim. }\n      - { scope: offline_access, description: Refresh token issuance. }\n      - { scope: groups, description: Okta group membership claim. }\n    grant_types:\n      - authorization_code\n      - implicit\n      - refresh_token\n      - password\n      - 'urn:ietf:params:oauth:grant-type:device_code'\n      - 'urn:openid:params:grant-type:ciba'\n  - provider: Vanderbilt Microsoft Entra ID\n    operator: federation\n    issuer: https://login.microsoftonline.com/ba5a7f39-e3be-4ab3-b450-67fa80faecad/v2.0\n    scopes:\n      - { scope: openid, description: OpenID Connect authentication request. }\n      - { scope: profile, description: Basic profile claims. }\n      - { scope: email, description: Email address claim. }\n      - { scope: offline_access, description: Refresh token issuance. }\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/scopes/vanderbilt-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vanderbilt/scopes/vanderbilt-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

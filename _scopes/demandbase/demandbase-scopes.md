@@ -5,97 +5,97 @@ api_specs:
   label: Demandbase Activities Management API
   slug: demandbase-activities-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-activities-management-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-activities-management-api-openapi.yml
 - filename: demandbase-asynchronous-batch-api-api-openapi.yml
   format: yaml
   label: Demandbase Asynchronous (Batch) API
   slug: demandbase-asynchronous-batch-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-asynchronous-batch-api-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-asynchronous-batch-api-api-openapi.yml
 - filename: demandbase-auth-api-openapi.yml
   format: yaml
   label: Demandbase Auth API
   slug: demandbase-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-auth-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-auth-api-openapi.yml
 - filename: demandbase-company-intent-api-openapi.yml
   format: yaml
   label: Demandbase Company Intent API
   slug: demandbase-company-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-company-intent-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-company-intent-api-openapi.yml
 - filename: demandbase-create-export-job-api-openapi.yml
   format: yaml
   label: Demandbase Create Export Job API
   slug: demandbase-create-export-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-create-export-job-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-create-export-job-api-openapi.yml
 - filename: demandbase-credit-usage-api-openapi.yml
   format: yaml
   label: Demandbase Credit Usage API
   slug: demandbase-credit-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-credit-usage-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-credit-usage-api-openapi.yml
 - filename: demandbase-custom-sources-api-openapi.yml
   format: yaml
   label: Demandbase Custom Sources API
   slug: demandbase-custom-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-custom-sources-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-custom-sources-api-openapi.yml
 - filename: demandbase-field-mappings-api-openapi.yml
   format: yaml
   label: Demandbase Field Mappings API
   slug: demandbase-field-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-field-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-field-mappings-api-openapi.yml
 - filename: demandbase-get-fields-api-openapi.yml
   format: yaml
   label: Demandbase Get Fields API
   slug: demandbase-get-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-get-fields-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-get-fields-api-openapi.yml
 - filename: demandbase-get-job-details-api-openapi.yml
   format: yaml
   label: Demandbase Get Job Details API
   slug: demandbase-get-job-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-get-job-details-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-get-job-details-api-openapi.yml
 - filename: demandbase-get-reference-data-api-openapi.yml
   format: yaml
   label: Demandbase Get Reference Data API
   slug: demandbase-get-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-get-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-get-reference-data-api-openapi.yml
 - filename: demandbase-import-job-api-openapi.yml
   format: yaml
   label: Demandbase Import Job API
   slug: demandbase-import-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-import-job-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-import-job-api-openapi.yml
 - filename: demandbase-reference-tables-api-openapi.yml
   format: yaml
   label: Demandbase Reference Tables API
   slug: demandbase-reference-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-reference-tables-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-reference-tables-api-openapi.yml
 - filename: demandbase-subscription-api-api-openapi.yml
   format: yaml
   label: Demandbase Subscription API
   slug: demandbase-subscription-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-subscription-api-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-subscription-api-api-openapi.yml
 - filename: demandbase-sync-api-api-openapi.yml
   format: yaml
   label: Demandbase Sync API
   slug: demandbase-sync-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-sync-api-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-sync-api-api-openapi.yml
 - filename: demandbase-user-management-api-openapi.yml
   format: yaml
   label: Demandbase User Management API
   slug: demandbase-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/openapi/demandbase-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/demandbase/openapi/demandbase-user-management-api-openapi.yml
 authorization_urls:
 - https://authentication.demandbase.com/oauth2/aus7fu7m8kDj90Z532p7/v1/authorize
 description: ''
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://g
   \ Demandbase One plus per-integration API Key Set permissions plus\n      the tenant's Export Collection entitlement. None of these are expressed as OAuth\n      scopes on the wire.\n  mcp:\n    oauth2: true\n    resource: https://gateway.demandbase.com/mcp/\n    authorization_servers:\n      - https://gateway.demandbase.com\nschemes:\n  - name: MCP gateway OAuth\n    source: well-known/demandbase-oauth-authorization-server.json\n    issuer: https://authentication.demandbase.com/oauth2/aus7fu7m8kDj90Z532p7\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://authentication.demandbase.com/oauth2/aus7fu7m8kDj90Z532p7/v1/authorize\n        tokenUrl: https://authentication.demandbase.com/oauth2/aus7fu7m8kDj90Z532p7/v1/token\n        registrationUrl: https://gateway.demandbase.com/mcp/v1/register\n        pkce: S256\nscope_count: 4\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication of the Demandbase user driving the MCP session.\n    flows:\
   \ [authorizationCode]\n    sources: [well-known/demandbase-oauth-protected-resource.json, well-known/demandbase-oauth-authorization-server.json]\n  - scope: profile\n    description: Basic profile claims for the authenticated Demandbase user.\n    flows: [authorizationCode]\n    sources: [well-known/demandbase-oauth-protected-resource.json, well-known/demandbase-oauth-authorization-server.json]\n  - scope: email\n    description: Email claim for the authenticated Demandbase user.\n    flows: [authorizationCode]\n    sources: [well-known/demandbase-oauth-protected-resource.json, well-known/demandbase-oauth-authorization-server.json]\n  - scope: offline_access\n    description: Refresh-token issuance so an agent session can outlive the initial access token.\n    flows: [authorizationCode]\n    sources: [well-known/demandbase-oauth-protected-resource.json, well-known/demandbase-oauth-authorization-server.json]\nobservation: >-\n  The MCP scope set is identity-only. There is no per-capability\
   \ scope — nothing that\n  separates \"read my accounts\" from \"read global company data\" from \"generate an account\n  brief\". Data-level authorization is enforced entirely by Demandbase One Permission Sets\n  after the token is presented, so the token itself carries no least-privilege signal an\n  agent operator can reason about or downscope.\nrelated:\n  - authentication/demandbase-authentication.yml\n  - well-known/demandbase-well-known.yml\n  - mcp/demandbase-mcp.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/scopes/demandbase-scopes.yml
+source_yaml_url: https://artifacts.apis.io/demandbase/scopes/demandbase-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Account Based Marketing

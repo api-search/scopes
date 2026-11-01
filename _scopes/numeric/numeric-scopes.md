@@ -57,7 +57,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://auth.numeric.io/.well-known/oauth-authorization-server\ndocs: https://api.numeric.io/.well-known/oauth-authorization-server\nschemes:\n- name: OAuth2\n  source: well-known/numeric-oauth-authorization-server.json\n  issuer: https://auth.numeric.io\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.numeric.io/oauth2/authorize\n    tokenUrl: https://auth.numeric.io/oauth2/token\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://auth.numeric.io/oauth2/device_authorization\n    tokenUrl: https://auth.numeric.io/oauth2/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token.\n  sources: [well-known/numeric-oauth-authorization-server.json]\n- scope: profile\n  description: Access to the user's basic profile claims.\n  sources: [well-known/numeric-oauth-authorization-server.json]\n- scope: email\n  description: Access to the user's email address claim.\n\
   \  sources: [well-known/numeric-oauth-authorization-server.json]\n- scope: offline_access\n  description: Issue a refresh token for long-lived, offline access.\n  sources: [well-known/numeric-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/scopes/numeric-scopes.yml
+source_yaml_url: https://artifacts.apis.io/numeric/scopes/numeric-scopes.yml
 summary_line: 4 scopes · authorizationCode/deviceCode
 tags:
 - Company

@@ -5,85 +5,85 @@ api_specs:
   label: Agnost AI Alerts API
   slug: agnost-ai-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-alerts-api-openapi.yml
 - filename: agnost-ai-api-keys-api-openapi.yml
   format: yaml
   label: Agnost AI API Keys API
   slug: agnost-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-api-keys-api-openapi.yml
 - filename: agnost-ai-auth-api-openapi.yml
   format: yaml
   label: Agnost AI Auth API
   slug: agnost-ai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-auth-api-openapi.yml
 - filename: agnost-ai-billing-api-openapi.yml
   format: yaml
   label: Agnost AI Billing API
   slug: agnost-ai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-billing-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-billing-api-openapi.yml
 - filename: agnost-ai-classification-api-openapi.yml
   format: yaml
   label: Agnost AI Classification API
   slug: agnost-ai-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-classification-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-classification-api-openapi.yml
 - filename: agnost-ai-connections-api-openapi.yml
   format: yaml
   label: Agnost AI Connections API
   slug: agnost-ai-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-connections-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-connections-api-openapi.yml
 - filename: agnost-ai-conversations-api-openapi.yml
   format: yaml
   label: Agnost AI Conversations API
   slug: agnost-ai-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-conversations-api-openapi.yml
 - filename: agnost-ai-dashboard-api-openapi.yml
   format: yaml
   label: Agnost AI Dashboard API
   slug: agnost-ai-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-dashboard-api-openapi.yml
 - filename: agnost-ai-onboarding-api-openapi.yml
   format: yaml
   label: Agnost AI Onboarding API
   slug: agnost-ai-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-onboarding-api-openapi.yml
 - filename: agnost-ai-organizations-api-openapi.yml
   format: yaml
   label: Agnost AI Organizations API
   slug: agnost-ai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-organizations-api-openapi.yml
 - filename: agnost-ai-sdk-api-openapi.yml
   format: yaml
   label: Agnost AI SDK API
   slug: agnost-ai-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-sdk-api-openapi.yml
 - filename: agnost-ai-sentiments-api-openapi.yml
   format: yaml
   label: Agnost AI Sentiments API
   slug: agnost-ai-sentiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-sentiments-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-sentiments-api-openapi.yml
 - filename: agnost-ai-sops-api-openapi.yml
   format: yaml
   label: Agnost AI SOPs API
   slug: agnost-ai-sops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-sops-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-sops-api-openapi.yml
 - filename: agnost-ai-system-api-openapi.yml
   format: yaml
   label: Agnost AI System API
   slug: agnost-ai-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/openapi/agnost-ai-system-api-openapi.yml
+  url: https://artifacts.apis.io/agnost-ai/openapi/agnost-ai-system-api-openapi.yml
 authorization_urls:
 - https://mcp.agnost.ai/authorize
 description: ''
@@ -128,7 +128,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://mcp.agnost.ai/.well-known/oauth-authorization-server\ndocs: https://docs.agnost.ai/agnost-mcp-server\n# The Agnost REST API itself uses header apiKey auth (x-org-id / x-api-key) and\n# JWT bearer, not OAuth2 — so there are no REST OAuth scopes. The only OAuth\n# surface is the hosted MCP server (OAuth 2.1, dynamic client registration),\n# which advertises a single scope.\nschemes:\n- name: MCP OAuth 2.1\n  source: https://mcp.agnost.ai/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.agnost.ai/authorize\n    tokenUrl: https://mcp.agnost.ai/token\n    registrationUrl: https://mcp.agnost.ai/register\n    pkce: S256\nscopes:\n- scope: agnost\n  description: >-\n    Grants an OAuth-authenticated MCP client read access to the signed-in user's\n    Agnost dashboard data (errors, intents, conversations, SOPs, sentiments) for\n    the organization they are logged\
   \ into.\n  flows: [authorizationCode]\n  sources: [https://mcp.agnost.ai/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agnost-ai/refs/heads/main/scopes/agnost-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/agnost-ai/scopes/agnost-ai-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

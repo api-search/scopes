@@ -5,13 +5,13 @@ api_specs:
   label: Electricity North West Catalog API
   slug: electricity-north-west-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/openapi/electricity-north-west-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/electricity-north-west/openapi/electricity-north-west-catalog-api-openapi.yml
 - filename: electricity-north-west-dataset-api-openapi.yml
   format: yaml
   label: Electricity North West Dataset API
   slug: electricity-north-west-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/openapi/electricity-north-west-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/electricity-north-west/openapi/electricity-north-west-dataset-api-openapi.yml
 authorization_urls:
 - https://electricitynorthwest.opendatasoft.com/oauth2/authorize/
 description: 'Neither OpenAPI document declares an oauth2 securityScheme — both declare only the `apikey` query parameter — so the mechanical derivation from the specs yields nothing. The vendor documentation, however, does document a full OAuth2 authorization-code flow against this domain, with a deliberately minimal scope model: exactly one scope, `all`. That is the entire scope surface. It is recorded here so the absence of granular scopes is on the record as a finding rather than as a gap in our harvesting.'
@@ -61,7 +61,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  https://help.opendatasoft.com/apis/ods-explore-v2/#section/Authentication —\n  the \"Using OAuth2 authorization\" section of the Opendatasoft (Huwise) Explore\n  API reference that governs the SP Electricity North West domain.\ndocs: https://help.opendatasoft.com/apis/ods-explore-v2/#section/Authentication\ndescription: >-\n  Neither OpenAPI document declares an oauth2 securityScheme — both declare only\n  the `apikey` query parameter — so the mechanical derivation from the specs\n  yields nothing. The vendor documentation, however, does document a full OAuth2\n  authorization-code flow against this domain, with a deliberately minimal scope\n  model: exactly one scope, `all`. That is the entire scope surface. It is\n  recorded here so the absence of granular scopes is on the record as a finding\n  rather than as a gap in our harvesting.\nspec_declared: false\nschemes:\n- name: OAuth2\n  source: https://help.opendatasoft.com/apis/ods-explore-v2/#section/Authentication\n\
   \  standards: [RFC 6749, RFC 6750]\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://electricitynorthwest.opendatasoft.com/oauth2/authorize/\n    tokenUrl: https://electricitynorthwest.opendatasoft.com/oauth2/token/\n    refresh: supported via refresh_token grant\n    parameter_name: scopes\n    delimiter: space\nscopes:\n- scope: all\n  description: >-\n    Full access to the data the authorizing user can see on this domain. The\n    documentation states plainly: \"a list of space-separated requested scopes.\n    Currently, only `all` is supported.\"\n  flows: [authorizationCode]\n  sources: [https://help.opendatasoft.com/apis/ods-explore-v2/#section/Authentication]\nnotes:\n- >-\n  There is no read/write split, no per-dataset scope and no per-resource scope.\n  Consent is all-or-nothing at the domain level, and an application registered\n  on one domain cannot reach another domain's data.\n- >-\n  API keys are the other authorization surface and they are not scoped\
   \ by\n  default either — a key inherits the creating user's full rights. Per-key\n  permissions can only be narrowed through the separate Automation API.\n- >-\n  Because every Explore operation is a read (GET only), the coarse scope model\n  is less consequential than it would be on a write-capable API — but it still\n  means an OAuth2 client cannot be least-privileged.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/scopes/electricity-north-west-scopes.yml
+source_yaml_url: https://artifacts.apis.io/electricity-north-west/scopes/electricity-north-west-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Energy

@@ -5,85 +5,85 @@ api_specs:
   label: VideoAmp Ad Measurements API
   slug: videoamp-admeasurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-admeasurements-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-admeasurements-api-openapi.yml
 - filename: videoamp-audiences-api-openapi.yml
   format: yaml
   label: VideoAmp Audiences API
   slug: videoamp-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-audiences-api-openapi.yml
 - filename: videoamp-campaigns-api-openapi.yml
   format: yaml
   label: VideoAmp Campaigns API
   slug: videoamp-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-campaigns-api-openapi.yml
 - filename: videoamp-consents-api-openapi.yml
   format: yaml
   label: VideoAmp Consents API
   slug: videoamp-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-consents-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-consents-api-openapi.yml
 - filename: videoamp-content-api-openapi.yml
   format: yaml
   label: VideoAmp Content API
   slug: videoamp-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-content-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-content-api-openapi.yml
 - filename: videoamp-currency-of-record-api-openapi.yml
   format: yaml
   label: VideoAmp Currency Of Record API
   slug: videoamp-currency-of-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-currency-of-record-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-currency-of-record-api-openapi.yml
 - filename: videoamp-datastreamtypes-api-openapi.yml
   format: yaml
   label: VideoAmp Data Stream Types API
   slug: videoamp-datastreamtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-datastreamtypes-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-datastreamtypes-api-openapi.yml
 - filename: videoamp-inventories-api-openapi.yml
   format: yaml
   label: VideoAmp Inventories API
   slug: videoamp-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-inventories-api-openapi.yml
 - filename: videoamp-library-api-openapi.yml
   format: yaml
   label: VideoAmp Library API
   slug: videoamp-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-library-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-library-api-openapi.yml
 - filename: videoamp-me-api-openapi.yml
   format: yaml
   label: VideoAmp Me API
   slug: videoamp-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-me-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-me-api-openapi.yml
 - filename: videoamp-plans-api-openapi.yml
   format: yaml
   label: VideoAmp Plans API
   slug: videoamp-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-plans-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-plans-api-openapi.yml
 - filename: videoamp-reports-api-openapi.yml
   format: yaml
   label: VideoAmp Reports API
   slug: videoamp-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-reports-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-reports-api-openapi.yml
 - filename: videoamp-shares-api-openapi.yml
   format: yaml
   label: VideoAmp Shares API
   slug: videoamp-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-shares-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-shares-api-openapi.yml
 - filename: videoamp-data-streams-api-openapi.yml
   format: yaml
   label: VideoAmp Data Streams API
   slug: videoamp-data-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/openapi/videoamp-data-streams-api-openapi.yml
+  url: https://artifacts.apis.io/videoamp/openapi/videoamp-data-streams-api-openapi.yml
 authorization_urls:
 - https://login.videoamp.com/authorize
 description: ''
@@ -149,7 +149,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/videoamp-public-api-openapi.yml\nschemes:\n- name: videoampOAuth\n  source: openapi/videoamp-public-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.videoamp.com/authorize\n    tokenUrl: https://login.videoamp.com/oauth/token\n  - flow: deviceAuthorization\n    tokenUrl: https://login.videoamp.com/oauth/token\n  description: OAuth 2.0 / OIDC via VideoAmp's Auth0 tenant at https://login.videoamp.com. Verified\n    from https://login.videoamp.com/.well-known/openid-configuration (HTTP 200) and https://api.videoamp.dev/.well-known/oauth-protected-resource/v1/mcp\n    (HTTP 200, RFC 9728). Bearer tokens are presented in the Authorization header.\nscopes:\n- scope: email\n  description: Email address claim\n  flows:\n  - authorizationCode\n  - deviceAuthorization\n  sources:\n  - openapi/videoamp-public-api-openapi.yml\n- scope: offline_access\n  description: Issue a refresh token\n\
   \  flows:\n  - authorizationCode\n  - deviceAuthorization\n  sources:\n  - openapi/videoamp-public-api-openapi.yml\n- scope: openid\n  description: OIDC subject identifier\n  flows:\n  - authorizationCode\n  - deviceAuthorization\n  sources:\n  - openapi/videoamp-public-api-openapi.yml\n- scope: profile\n  description: Basic profile claims\n  flows:\n  - authorizationCode\n  - deviceAuthorization\n  sources:\n  - openapi/videoamp-public-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/scopes/videoamp-scopes.yml
+source_yaml_url: https://artifacts.apis.io/videoamp/scopes/videoamp-scopes.yml
 summary_line: 4 scopes · authorizationCode/deviceAuthorization
 tags:
 - Media Measurement

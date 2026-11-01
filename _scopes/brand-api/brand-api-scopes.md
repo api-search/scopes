@@ -5,31 +5,31 @@ api_specs:
   label: Brand API (Brandfetch) Brands API
   slug: brand-api-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-brands-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-brands-api-openapi.yml
 - filename: brand-api-context-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Context API
   slug: brand-api-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-context-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-context-api-openapi.yml
 - filename: brand-api-search-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Search API
   slug: brand-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-search-api-openapi.yml
 - filename: brand-api-viewer-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Viewer API
   slug: brand-api-viewer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-viewer-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-viewer-api-openapi.yml
 - filename: brand-api-agents-api-openapi.yml
   format: yaml
   label: Brand API (Brandfetch) Agents API
   slug: brand-api-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/openapi/brand-api-agents-api-openapi.yml
+  url: https://artifacts.apis.io/brand-api/openapi/brand-api-agents-api-openapi.yml
 authorization_urls:
 - https://developers.brandfetch.com/oauth/authorize
 description: ''
@@ -83,7 +83,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://developers.brandfetch.com/.well-known/oauth-authorization-server\ndocs: https://docs.brandfetch.com/mcp/overview\nnote: >-\n  Brandfetch's OpenAPI declares no oauth2 security scheme — the REST API is bearer\n  API-key only — so derive-oauth-scopes.py correctly found nothing. The OAuth surface\n  exists solely for the MCP server, and its scope model is published anonymously in the\n  RFC 8414 authorization-server metadata. Exactly one scope is advertised. Read-only is\n  the whole authorization model: there is no write scope because the public product has\n  no write surface.\nschemes:\n  - name: brandfetch-mcp-oauth\n    type: oauth2\n    source: https://developers.brandfetch.com/.well-known/oauth-authorization-server\n    issuer: https://developers.brandfetch.com\n    applies_to: https://mcp.brandfetch.io/mcp\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://developers.brandfetch.com/oauth/authorize\n\
   \        tokenUrl: https://developers.brandfetch.com/api/oauth/token\n        registrationUrl: https://developers.brandfetch.com/api/oauth/register\n        pkce: [S256]\n        token_endpoint_auth_methods: [none]\n        response_types: [code]\nscopes:\n  - scope: read\n    description: >-\n      Read access to Brandfetch brand data through the MCP server. The only scope\n      advertised in scopes_supported; it covers every MCP tool (brand_search, get_brand,\n      get_brand_context, enrich_transaction, build_logo_urls, get_asset_base64,\n      send_feedback).\n    flows: [authorizationCode]\n    sources: [https://developers.brandfetch.com/.well-known/oauth-authorization-server]\nnon_oauth_credentials:\n  - {name: API key, transport: 'Authorization: Bearer <key>', scoped: false,\n     applies_to: [Brand API, Brand Context API, Transaction API, Viewer API]}\n  - {name: MCP token, prefix: 'bf1.', transport: 'Authorization: Bearer <token>', scoped: false,\n     applies_to: [MCP server],\
   \ note: 'Non-interactive alternative to the OAuth flow.'}\n  - {name: Client ID, transport: '?c=<client_id> query parameter', scoped: false,\n     applies_to: [Logo API, Brand Search API], note: 'Public, embeddable, not a secret.'}\nx-evidence:\n  fetched: '2026-08-14'\n  url: https://developers.brandfetch.com/.well-known/oauth-authorization-server\n  http_status: 200\n  content_type: application/json\n  file: ../well-known/brand-api-oauth-authorization-server.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/scopes/brand-api-scopes.yml
+source_yaml_url: https://artifacts.apis.io/brand-api/scopes/brand-api-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Brands

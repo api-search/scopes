@@ -5,31 +5,31 @@ api_specs:
   label: VeraDial Hooks API
   slug: veradial-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-hooks-api-openapi.yml
 - filename: veradial-keys-api-openapi.yml
   format: yaml
   label: VeraDial Keys API
   slug: veradial-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-keys-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-keys-api-openapi.yml
 - filename: veradial-lines-api-openapi.yml
   format: yaml
   label: VeraDial Lines API
   slug: veradial-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-lines-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-lines-api-openapi.yml
 - filename: veradial-me-api-openapi.yml
   format: yaml
   label: VeraDial Me API
   slug: veradial-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-me-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-me-api-openapi.yml
 - filename: veradial-samples-api-openapi.yml
   format: yaml
   label: VeraDial Samples API
   slug: veradial-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-samples-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-samples-api-openapi.yml
 authorization_urls:
 - https://rrmjstsbidgkqibvzvzo.supabase.co/auth/v1/oauth/authorize
 description: ''
@@ -83,7 +83,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: searched\nsource: https://api.veradial.com/.well-known/oauth-protected-resource\ndocs: https://veradial.com/for-agents\nnote: The MCP server advertises only OpenID Connect identity scopes; access is read-only and scoped to the\n  signed-in customer's own account rather than by fine-grained scopes.\nschemes:\n- name: mcpOAuth\n  source: well-known/api-veradial-com-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://rrmjstsbidgkqibvzvzo.supabase.co/auth/v1/oauth/authorize\n    tokenUrl: https://rrmjstsbidgkqibvzvzo.supabase.co/auth/v1/oauth/token\n    pkce: S256\nscopes:\n- scope: openid\n  description: OpenID Connect sign-in with the customer's VeraDial login.\n  flows: [authorizationCode]\n  sources: [well-known/api-veradial-com-oauth-protected-resource.json]\n- scope: email\n  description: The signed-in customer's email address.\n  flows: [authorizationCode]\n  sources: [well-known/api-veradial-com-oauth-protected-resource.json]\n\
   - scope: profile\n  description: The signed-in customer's basic profile.\n  flows: [authorizationCode]\n  sources: [well-known/api-veradial-com-oauth-protected-resource.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/scopes/veradial-scopes.yml
+source_yaml_url: https://artifacts.apis.io/veradial/scopes/veradial-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - AI Receptionist

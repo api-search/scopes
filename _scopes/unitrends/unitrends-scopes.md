@@ -5,67 +5,67 @@ api_specs:
   label: Unitrends Agents API
   slug: unitrends-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-agents-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-agents-api-openapi.yml
 - filename: unitrends-appliances-api-openapi.yml
   format: yaml
   label: Unitrends Appliances API
   slug: unitrends-appliances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-appliances-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-appliances-api-openapi.yml
 - filename: unitrends-assets-api-openapi.yml
   format: yaml
   label: Unitrends Assets API
   slug: unitrends-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-assets-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-assets-api-openapi.yml
 - filename: unitrends-backupiqalerts-api-openapi.yml
   format: yaml
   label: Unitrends BackupIqAlerts API
   slug: unitrends-backupiqalerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-backupiqalerts-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-backupiqalerts-api-openapi.yml
 - filename: unitrends-backups-api-openapi.yml
   format: yaml
   label: Unitrends Backups API
   slug: unitrends-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-backups-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-backups-api-openapi.yml
 - filename: unitrends-customers-api-openapi.yml
   format: yaml
   label: Unitrends Customers API
   slug: unitrends-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-customers-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-customers-api-openapi.yml
 - filename: unitrends-domains-api-openapi.yml
   format: yaml
   label: Unitrends Domains API
   slug: unitrends-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-domains-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-domains-api-openapi.yml
 - filename: unitrends-domainsentra-api-openapi.yml
   format: yaml
   label: Unitrends DomainsEntra API
   slug: unitrends-domainsentra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-domainsentra-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-domainsentra-api-openapi.yml
 - filename: unitrends-domainsv2-api-openapi.yml
   format: yaml
   label: Unitrends DomainsV2 API
   slug: unitrends-domainsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-domainsv2-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-domainsv2-api-openapi.yml
 - filename: unitrends-domainusers-api-openapi.yml
   format: yaml
   label: Unitrends DomainUsers API
   slug: unitrends-domainusers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-domainusers-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-domainusers-api-openapi.yml
 - filename: unitrends-domainusersv2-api-openapi.yml
   format: yaml
   label: Unitrends DomainUsersV2 API
   slug: unitrends-domainusersv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/openapi/unitrends-domainusersv2-api-openapi.yml
+  url: https://artifacts.apis.io/unitrends/openapi/unitrends-domainusersv2-api-openapi.yml
 authorization_urls:
 - https://login.backup.net/connect/authorize
 description: ''
@@ -118,7 +118,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://login.backup.net/.well-known/openid-configuration\ndocs: https://help.unitrends.kaseya.com/uniview-help/Content/MSP/public-api.htm\nnote: >-\n  The Public API OpenAPI declares only a Bearer header scheme (no oauth2 flows\n  or per-operation scopes), so the derive pass yields none. The identity\n  service behind it (login.backup.net, UniView / Unitrends MSP portal)\n  publishes its supported scopes via OIDC discovery; API access tokens are\n  obtained with the OAuth 2.0 client_credentials grant and visibility is\n  restricted by the tenant which issued the credentials rather than by\n  fine-grained scopes.\nschemes:\n- name: UniView Portal identity service\n  issuer: https://login.backup.net\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.backup.net/connect/token\n  - flow: authorizationCode\n    authorizationUrl: https://login.backup.net/connect/authorize\n    tokenUrl: https://login.backup.net/connect/token\n\
   scopes:\n- scope: openid\n  description: OpenID Connect authentication scope.\n  sources: [well-known/unitrends-openid-configuration.json]\n- scope: role\n  description: Role claims for the authenticated principal.\n  sources: [well-known/unitrends-openid-configuration.json]\n- scope: profile\n  description: Profile claims for the authenticated principal.\n  sources: [well-known/unitrends-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitrends/refs/heads/main/scopes/unitrends-scopes.yml
+source_yaml_url: https://artifacts.apis.io/unitrends/scopes/unitrends-scopes.yml
 summary_line: 3 scopes · clientCredentials/authorizationCode
 tags:
 - Company

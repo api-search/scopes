@@ -38,7 +38,7 @@ source_filename: solaris-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.solarisgroup.com/api-reference/authentication\ndocs: https://docs.solarisgroup.com/api-reference/authentication\nnote: >-\n  Solaris uses OAuth2 client-credentials with a single documented access scope\n  (\"partners\"). Fine-grained access is not expressed as OAuth scopes but as\n  per-partner \"policies\" granted by the Solaris Partner Manager per product and\n  use case (see permissions_model in authentication/). This file records the\n  one published OAuth scope; the policy-based permission grants are not\n  self-service and are not enumerated in public docs.\nschemes:\n  - name: OAuth2\n    source: https://docs.solarisgroup.com/api-reference/authentication\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://auth.solarisbank.de/oauth2/token\nscopes:\n  - scope: partners\n    description: Required scope for standard partner API access.\n    flows: [clientCredentials]\n    sources: [https://docs.solarisgroup.com/api-reference/authentication]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solaris/refs/heads/main/scopes/solaris-scopes.yml
+source_yaml_url: https://artifacts.apis.io/solaris/scopes/solaris-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Company

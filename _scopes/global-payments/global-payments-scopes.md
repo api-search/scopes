@@ -5,25 +5,25 @@ api_specs:
   label: Global Payments Disputes API
   slug: global-payments-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-disputes-api-openapi.yml
 - filename: global-payments-payment-methods-api-openapi.yml
   format: yaml
   label: Global Payments Payment Methods API
   slug: global-payments-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-payment-methods-api-openapi.yml
 - filename: global-payments-settlements-api-openapi.yml
   format: yaml
   label: Global Payments Settlements API
   slug: global-payments-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-settlements-api-openapi.yml
 - filename: global-payments-transactions-api-openapi.yml
   format: yaml
   label: Global Payments Transactions API
   slug: global-payments-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/openapi/global-payments-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/global-payments/openapi/global-payments-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -78,7 +78,7 @@ source_filename: global-payments-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/global-payments-unified-payments-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/global-payments-unified-payments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://apis.globalpay.com/oauth2/token\nscopes:\n- scope: payment-methods:read\n  description: Read payment methods\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/global-payments-unified-payments-api-openapi.yml\n- scope: payment-methods:write\n  description: Store payment methods\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/global-payments-unified-payments-api-openapi.yml\n- scope: transactions:read\n  description: Read transactions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/global-payments-unified-payments-api-openapi.yml\n- scope: transactions:write\n  description: Create transactions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/global-payments-unified-payments-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/scopes/global-payments-scopes.yml
+source_yaml_url: https://artifacts.apis.io/global-payments/scopes/global-payments-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - E-Commerce

@@ -5,43 +5,43 @@ api_specs:
   label: Regional Australia Bank Banking Account Balances API
   slug: regional-australia-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-account-balances-api-openapi.yml
 - filename: regional-australia-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Account Direct Debits API
   slug: regional-australia-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-account-direct-debits-api-openapi.yml
 - filename: regional-australia-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Account Scheduled Payments API
   slug: regional-australia-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: regional-australia-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Account Transactions API
   slug: regional-australia-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-account-transactions-api-openapi.yml
 - filename: regional-australia-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Accounts API
   slug: regional-australia-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-accounts-api-openapi.yml
 - filename: regional-australia-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Payees API
   slug: regional-australia-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-payees-api-openapi.yml
 - filename: regional-australia-bank-banking-products-api-openapi.yml
   format: yaml
   label: Regional Australia Bank Banking Products API
   slug: regional-australia-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/openapi/regional-australia-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/regional-australia-bank/openapi/regional-australia-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -102,7 +102,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/regional-australia-bank-cds-banking-products-openapi.yml\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\nnote: >-\n  Regional Australia Bank participates in Australia's Consumer Data Right (CDR)\n  as an accredited data holder. The public Product Reference Data (PRD) surface\n  is unauthenticated and requires NO scope. The authenticated consumer data\n  sharing operations defined by the shared CDS Banking API contract are secured\n  under the CDR security profile (OAuth2 / OpenID Connect, FAPI-aligned) and are\n  accessible only to accredited data recipients registered on the CDR Register.\n  The scopes below are the CDR banking authorisation scopes carried as `x-scopes`\n  extensions on the operations in the harvested CDS spec; they are the DSB\n  standard scopes, not a Regional-Australia-Bank-proprietary set.\nschemes:\n  - name: CDR-OAuth2-OIDC\n    type: oauth2\n    profile:\
   \ CDR security profile (FAPI 1.0 Advanced-aligned)\n    source: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\n    flows:\n      - flow: authorizationCode\n        note: >-\n          Authorization Code with PKCE; issuer/authorization/token endpoints are\n          published per data holder via OIDC discovery at the data holder's\n          CDR InfoSec baseURI (not exposed on the public PRD host).\nscopes:\n  - scope: bank:accounts.basic:read\n    description: Read basic banking account information (account list and summary).\n    flows: [authorizationCode]\n    sources: [openapi/regional-australia-bank-cds-banking-products-openapi.yml]\n  - scope: bank:accounts.detail:read\n    description: Read detailed banking account information for a specific account.\n    flows: [authorizationCode]\n    sources: [openapi/regional-australia-bank-cds-banking-products-openapi.yml]\n  - scope: bank:transactions:read\n    description: Read banking transactions for authorised\
   \ accounts.\n    flows: [authorizationCode]\n    sources: [openapi/regional-australia-bank-cds-banking-products-openapi.yml]\n  - scope: bank:regular_payments:read\n    description: Read scheduled payments and direct debits for authorised accounts.\n    flows: [authorizationCode]\n    sources: [openapi/regional-australia-bank-cds-banking-products-openapi.yml]\n  - scope: bank:payees:read\n    description: Read saved payees for authorised accounts.\n    flows: [authorizationCode]\n    sources: [openapi/regional-australia-bank-cds-banking-products-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regional-australia-bank/refs/heads/main/scopes/regional-australia-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/regional-australia-bank/scopes/regional-australia-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Finance

@@ -32,7 +32,7 @@ source_filename: makerme-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  ai.maker.co/.well-known/oauth-authorization-server and\n  oauth-protected-resource (scopes_supported), 2026-07-20\noauth:\n  issuer: https://ai.maker.co\n  resource: https://ai.maker.co/mcp\nscopes:\n- name: maker:read\n  description: >-\n    Read access to the connected Maker account — list and open projects, read\n    project insights, and screenshot previews.\n- name: maker:publish\n  description: >-\n    Publish and mutation access — edit copy, swap images, generate new sections,\n    create variants, set up A/B tests, and push changes live.\ndocs: https://docs.maker.co/features/use-maker-from-your-ai-assistant\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/makerme/refs/heads/main/scopes/makerme-scopes.yml
+source_yaml_url: https://artifacts.apis.io/makerme/scopes/makerme-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company

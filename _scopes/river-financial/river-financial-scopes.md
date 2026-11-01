@@ -66,7 +66,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://river.com/.well-known/openid-configuration\ndocs: https://river.com/.well-known/openid-configuration\nschemes:\n- name: OAuth2\n  source: https://river.com/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://river.com/oauth2/authorize\n    tokenUrl: https://river.com/oauth2/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the subject.\n  flows:\n  - authorizationCode\n- scope: offline_access\n  description: Issue a refresh token for long-lived access without user presence.\n  flows:\n  - authorizationCode\n- scope: balances:read\n  description: Read access to account cash and bitcoin balances.\n  flows:\n  - authorizationCode\n- scope: transactions:read\n  description: Read access to transaction history.\n  flows:\n  - authorizationCode\n- scope: identity:read\n  description: Read access to account holder identity\
   \ information.\n  flows:\n  - authorizationCode\n- scope: payment_networks:read\n  description: Read access to configured payment networks / payout rails.\n  flows:\n  - authorizationCode\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/scopes/river-financial-scopes.yml
+source_yaml_url: https://artifacts.apis.io/river-financial/scopes/river-financial-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Company

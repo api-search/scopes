@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud Run Jobs API
   slug: google-cloud-run-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/openapi/google-cloud-run-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-jobs-api-openapi.yml
 - filename: google-cloud-run-projects-api-openapi.yml
   format: yaml
   label: Google Cloud Run Projects API
   slug: google-cloud-run-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/openapi/google-cloud-run-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-projects-api-openapi.yml
 - filename: google-cloud-run-revisions-api-openapi.yml
   format: yaml
   label: Google Cloud Run Revisions API
   slug: google-cloud-run-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/openapi/google-cloud-run-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-run/openapi/google-cloud-run-revisions-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -64,7 +64,7 @@ source_filename: google-cloud-run-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-cloud-run-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-cloud-run-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud Platform\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-run-openapi.yml\n- scope: https://www.googleapis.com/auth/run\n  description: View and manage Cloud Run services\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-cloud-run-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/scopes/google-cloud-run-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-run/scopes/google-cloud-run-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Cloud Run

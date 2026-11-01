@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://skullcandy.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/skullcandy-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.skullcandy.com/authentication/oauth/authorize\n    tokenUrl: https://account.skullcandy.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope; issues an ID token identifying the customer.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/skullcandy-openid-configuration.json\n- scope: email\n  description: Grants access to the customer's email address and email_verified claim.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/skullcandy-openid-configuration.json\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in\
   \ customer (orders, addresses, profile).\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/skullcandy-openid-configuration.json\n- scope: customer-account-mcp-api:full\n  description: Full access to the customer-scoped Model Context Protocol surface of the Customer Account API.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/skullcandy-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skullcandy/refs/heads/main/scopes/skullcandy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/skullcandy/scopes/skullcandy-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

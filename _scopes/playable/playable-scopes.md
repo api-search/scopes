@@ -5,25 +5,25 @@ api_specs:
   label: Playable Campaigns API
   slug: playable-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/playable/openapi/playable-campaigns-api-openapi.yml
 - filename: playable-media-api-openapi.yml
   format: yaml
   label: Playable Media API
   slug: playable-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-media-api-openapi.yml
+  url: https://artifacts.apis.io/playable/openapi/playable-media-api-openapi.yml
 - filename: playable-user-api-openapi.yml
   format: yaml
   label: Playable User API
   slug: playable-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-user-api-openapi.yml
+  url: https://artifacts.apis.io/playable/openapi/playable-user-api-openapi.yml
 - filename: playable-oauth-api-openapi.yml
   format: yaml
   label: Playable OAUTH API
   slug: playable-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/openapi/playable-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/playable/openapi/playable-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://api.playable.com/
@@ -255,7 +255,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/playable
   \  provider_description: Grant right to\n  description: Campaign sms log\n  operations:\n  - GET /v1/campaign/{campaign}/sms-log/{smsLog}\n  description_method: derived-from-operation-summary\n- scope: campaigns.types.list\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/playable-api-openapi.yml\n  provider_description: Grant right to\n  description: Campaign types\n  operations:\n  - GET /v1/campaign-types\n  description_method: derived-from-operation-summary\n- scope: campaigns.types.view\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/playable-api-openapi.yml\n  provider_description: Grant right to\n  description: This API responds with a single campaign type resource.\n  operations:\n  - GET /v1/campaign-type/{campaignType}\n  description_method: derived-from-operation-summary\n- scope: campaigns.view\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/playable-api-openapi.yml\n  provider_description: Grant right to\n  description: Campaign Statistics Registrations;\
   \ Campaign Statistics Sessions; Campaign statistics; Show\n    a single campaign\n  operations:\n  - GET /v1/campaign/{campaign}\n  - GET /v1/campaign/{campaign}/statistics\n  - GET /v1/campaign/{campaign}/statistics/sessions\n  - GET /v1/campaign/{campaign}/statistics/registrations\n  description_method: derived-from-operation-summary\n- scope: campaigns.voucher.delete\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/playable-api-openapi.yml\n  provider_description: Grant right to\n  description: Delete Campaign vouchers\n  operations:\n  - DELETE /v1/campaign/voucher\n  description_method: derived-from-operation-summary\n- scope: campaigns.voucher.list\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/playable-api-openapi.yml\n  provider_description: Grant right to\n  description: Campaign vouchers\n  operations:\n  - GET /v1/campaign/{campaign}/vouchers\n  description_method: derived-from-operation-summary\n- scope: campaigns.voucher.view\n  flows:\n  - clientCredentials\n\
   \  sources:\n  - openapi/playable-api-openapi.yml\n  provider_description: Grant right to\n  description: Campaign voucher\n  operations:\n  - GET /v1/campaign/{campaign}/voucher/{voucher}\n  description_method: derived-from-operation-summary\n- scope: media.upload\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/playable-api-openapi.yml\n  provider_description: Grant right to\n  description: Upload media\n  operations:\n  - POST /v1/media/upload\n  description_method: derived-from-operation-summary\n- scope: user.create-login-token\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/playable-api-openapi.yml\n  provider_description: Grant right to\n  description: Create login user token\n  operations:\n  - POST /v1/user/create-login-token\n  description_method: derived-from-operation-summary\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/scopes/playable-scopes.yml
+source_yaml_url: https://artifacts.apis.io/playable/scopes/playable-scopes.yml
 summary_line: 37 scopes · clientCredentials
 tags:
 - Company

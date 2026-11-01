@@ -47,7 +47,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://www.radpowerbikes.com/.well-known/openid-configuration\nnote: >-\n  Scopes are read verbatim from the store's own OpenID Connect discovery document\n  (scopes_supported). Shopify Customer Accounts uses coarse full-access scopes rather than a\n  granular per-resource scope catalog; there is no published scope reference page for this\n  merchant because there is no public developer program.\nauthorization_server: https://shopify.com/authentication/7999645\nauthorization_endpoint: https://account.radpowerbikes.com/authentication/oauth/authorize\ntoken_endpoint: https://account.radpowerbikes.com/authentication/oauth/token\nflows:\n- authorization_code\n- refresh_token\nscope_count: 4\nscopes:\n- name: openid\n  description: Standard OIDC scope requesting an ID token for the authenticated customer.\n- name: email\n  description: Release the customer's email address and email_verified claim.\n- name: customer-account-api:full\n\
   \  description: Full access to the Shopify Customer Account API on behalf of the signed-in customer.\n- name: customer-account-mcp-api:full\n  description: >-\n    Full access to the Shopify Customer Account MCP API on behalf of the signed-in customer\n    — the authenticated, buyer-scoped counterpart to the anonymous storefront UCP MCP\n    endpoint.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rad-power-bikes/refs/heads/main/scopes/rad-power-bikes-scopes.yml
+source_yaml_url: https://artifacts.apis.io/rad-power-bikes/scopes/rad-power-bikes-scopes.yml
 summary_line: 4 scopes · authorization_code/refresh_token
 tags:
 - Company

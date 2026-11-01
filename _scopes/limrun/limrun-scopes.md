@@ -5,43 +5,43 @@ api_specs:
   label: Limrun Analytics API
   slug: limrun-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-analytics-api-openapi.yml
 - filename: limrun-android-instances-api-openapi.yml
   format: yaml
   label: Limrun Android Instances API
   slug: limrun-android-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-android-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-android-instances-api-openapi.yml
 - filename: limrun-assets-api-openapi.yml
   format: yaml
   label: Limrun Assets API
   slug: limrun-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-assets-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-assets-api-openapi.yml
 - filename: limrun-downloads-api-openapi.yml
   format: yaml
   label: Limrun Downloads API
   slug: limrun-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-downloads-api-openapi.yml
 - filename: limrun-gradle-instances-api-openapi.yml
   format: yaml
   label: Limrun Gradle Instances API
   slug: limrun-gradle-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-gradle-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-gradle-instances-api-openapi.yml
 - filename: limrun-ios-instances-api-openapi.yml
   format: yaml
   label: Limrun Ios Instances API
   slug: limrun-ios-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-ios-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-ios-instances-api-openapi.yml
 - filename: limrun-xcode-instances-api-openapi.yml
   format: yaml
   label: Limrun Xcode Instances API
   slug: limrun-xcode-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-xcode-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-xcode-instances-api-openapi.yml
 authorization_urls:
 - https://api.limrun.com/authn/oauth/authorize
 description: ''
@@ -88,7 +88,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.limrun.com/.well-known/oauth-authorization-server\ndocs: https://docs.limrun.com/docs/agents/mcp\nnotes: >-\n  Limrun's primary API authentication is a bearer org API key, not OAuth, so there is no\n  general-purpose scope surface. The one OAuth surface is the authorization server advertised at\n  api.limrun.com for MCP clients, which publishes a single supported scope. Captured from the live\n  RFC 8414 document; the provider does not publish a prose scopes reference page.\nschemes:\n- name: MCPOAuth\n  source: https://api.limrun.com/.well-known/oauth-authorization-server\n  issuer: https://api.limrun.com\n  dynamic_client_registration: true\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.limrun.com/authn/oauth/authorize\n    tokenUrl: https://api.limrun.com/authn/oauth/token\n    code_challenge_methods:\n    - S256\nscopes:\n- scope: mcp\n  description: >-\n    Access to Limrun's Model\
   \ Context Protocol surface. Advertised as the sole entry of\n    scopes_supported by the authorization-server metadata; the provider publishes no further\n    description of what the scope grants.\n  flows:\n  - authorizationCode\n  sources:\n  - https://api.limrun.com/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/scopes/limrun-scopes.yml
+source_yaml_url: https://artifacts.apis.io/limrun/scopes/limrun-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

@@ -5,133 +5,133 @@ api_specs:
   label: Upstox Charge API
   slug: upstox-charge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-charge-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-charge-api-openapi.yml
 - filename: upstox-events-controller-v-2-api-openapi.yml
   format: yaml
   label: Upstox Events Controller V 2 API
   slug: upstox-events-controller-v-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-events-controller-v-2-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-events-controller-v-2-api-openapi.yml
 - filename: upstox-expired-instrument-api-openapi.yml
   format: yaml
   label: Upstox Expired Instrument API
   slug: upstox-expired-instrument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-expired-instrument-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-expired-instrument-api-openapi.yml
 - filename: upstox-fundamentals-api-openapi.yml
   format: yaml
   label: Upstox Fundamentals API
   slug: upstox-fundamentals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-fundamentals-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-fundamentals-api-openapi.yml
 - filename: upstox-history-api-openapi.yml
   format: yaml
   label: Upstox History API
   slug: upstox-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-history-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-history-api-openapi.yml
 - filename: upstox-history-v3-api-openapi.yml
   format: yaml
   label: Upstox History V3 API
   slug: upstox-history-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-history-v3-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-history-v3-api-openapi.yml
 - filename: upstox-instruments-api-openapi.yml
   format: yaml
   label: Upstox Instruments API
   slug: upstox-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-instruments-api-openapi.yml
 - filename: upstox-ipo-api-openapi.yml
   format: yaml
   label: Upstox IPO API
   slug: upstox-ipo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-ipo-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-ipo-api-openapi.yml
 - filename: upstox-login-api-openapi.yml
   format: yaml
   label: Upstox Login API
   slug: upstox-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-login-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-login-api-openapi.yml
 - filename: upstox-market-holidays-and-timings-api-openapi.yml
   format: yaml
   label: Upstox Market Holidays and Timings API
   slug: upstox-market-holidays-and-timings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-market-holidays-and-timings-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-market-holidays-and-timings-api-openapi.yml
 - filename: upstox-market-quote-api-openapi.yml
   format: yaml
   label: Upstox Market Quote API
   slug: upstox-market-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-market-quote-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-market-quote-api-openapi.yml
 - filename: upstox-market-quote-v3-api-openapi.yml
   format: yaml
   label: Upstox Market Quote V3 API
   slug: upstox-market-quote-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-market-quote-v3-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-market-quote-v3-api-openapi.yml
 - filename: upstox-mutual-fund-api-openapi.yml
   format: yaml
   label: Upstox Mutual Fund API
   slug: upstox-mutual-fund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-mutual-fund-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-mutual-fund-api-openapi.yml
 - filename: upstox-news-api-openapi.yml
   format: yaml
   label: Upstox News API
   slug: upstox-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-news-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-news-api-openapi.yml
 - filename: upstox-options-api-openapi.yml
   format: yaml
   label: Upstox Options API
   slug: upstox-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-options-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-options-api-openapi.yml
 - filename: upstox-order-api-openapi.yml
   format: yaml
   label: Upstox Order API
   slug: upstox-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-order-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-order-api-openapi.yml
 - filename: upstox-payments-api-openapi.yml
   format: yaml
   label: Upstox PAYMENTS API
   slug: upstox-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-payments-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-payments-api-openapi.yml
 - filename: upstox-portfolio-api-openapi.yml
   format: yaml
   label: Upstox Portfolio API
   slug: upstox-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-portfolio-api-openapi.yml
 - filename: upstox-post-trade-api-openapi.yml
   format: yaml
   label: Upstox Post Trade API
   slug: upstox-post-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-post-trade-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-post-trade-api-openapi.yml
 - filename: upstox-trade-profit-and-loss-api-openapi.yml
   format: yaml
   label: Upstox Trade Profit And Loss API
   slug: upstox-trade-profit-and-loss-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-trade-profit-and-loss-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-trade-profit-and-loss-api-openapi.yml
 - filename: upstox-user-api-openapi.yml
   format: yaml
   label: Upstox User API
   slug: upstox-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-user-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-user-api-openapi.yml
 - filename: upstox-websocket-api-openapi.yml
   format: yaml
   label: Upstox Websocket API
   slug: upstox-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/openapi/upstox-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/upstox/openapi/upstox-websocket-api-openapi.yml
 authorization_urls:
 - https://api.upstox.com/v2/login/authorization/dialog
 description: 'Upstox declares exactly two OAuth scopes — read and write — in its OpenAPI securityScheme, and it publishes no scope reference page. There is no per-resource or per-operation scope vocabulary: an app either reads or it can also trade. The practical permissioning happens elsewhere — token type (standard vs extended vs Analytics Token), app configuration in the developer console, static-IP registration for algo order flow, and the user-controlled kill switch. An agent cannot request a narrow, least-privilege grant such as "portfolio read only" through the scope parameter.'
@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: >-\n  openapi/u
   - name: OAUTH2\n  source: openapi/upstox-developer-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.upstox.com/v2/login/authorization/dialog\n    tokenUrl: https://api.upstox.com/v2/login/authorization/token\nscopes:\n- scope: read\n  description: Read access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/upstox-developer-api-openapi.yml\n- scope: write\n  description: Write access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/upstox-developer-api-openapi.yml\nscope_count: 2\ngranularity: coarse\nalternative_permissioning:\n- mechanism: Analytics Token\n  effect: A read-only token with 1-year validity. Market data is unrestricted; account-scoped reads additionally require a registered static IP.\n  docs: https://upstox.com/developer/api-documentation/analytics-token\n- mechanism: extended_token\n  effect: A longer-lived token that is refused on some APIs, returning UDAPI100067.\n- mechanism: Sandbox token\n  effect: Scoped\
   \ to sandbox orders only; cannot be used against live endpoints.\n- mechanism: Static IP allowlist\n  effect: Order and algo-trading flow is constrained to registered primary and optional secondary IPs per the 5 May 2025 exchange circular.\n  docs: https://upstox.com/developer/api-documentation/update-app-static-ips\n- mechanism: Kill switch\n  effect: The end user can disable trading per segment, blocking new orders and cancelling pending ones regardless of the token's scope.\n  docs: https://upstox.com/developer/api-documentation/update-kill-switch\n- mechanism: MCP server boundary\n  effect: >-\n    The hosted MCP server is read-only by construction — it exposes no write tool at all, which is a\n    stronger guarantee than the write scope being withheld.\n  docs: mcp/upstox-mcp.yml\ngaps:\n- No published scopes or permissions reference page — the two scopes are discoverable only from the OpenAPI securityScheme.\n- No per-resource scopes (no orders:read, portfolio:read, funds:write equivalents).\n\
   - No incremental or step-up authorization documented.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upstox/refs/heads/main/scopes/upstox-scopes.yml
+source_yaml_url: https://artifacts.apis.io/upstox/scopes/upstox-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

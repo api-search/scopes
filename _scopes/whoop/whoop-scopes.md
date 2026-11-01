@@ -5,43 +5,43 @@ api_specs:
   label: WHOOP Activity ID Mapping API
   slug: whoop-activity-id-mapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-activity-id-mapping-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-activity-id-mapping-api-openapi.yml
 - filename: whoop-cycle-api-openapi.yml
   format: yaml
   label: WHOOP Cycle API
   slug: whoop-cycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-cycle-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-cycle-api-openapi.yml
 - filename: whoop-partner-api-openapi.yml
   format: yaml
   label: WHOOP Partner API
   slug: whoop-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-partner-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-partner-api-openapi.yml
 - filename: whoop-recovery-api-openapi.yml
   format: yaml
   label: WHOOP Recovery API
   slug: whoop-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-recovery-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-recovery-api-openapi.yml
 - filename: whoop-sleep-api-openapi.yml
   format: yaml
   label: WHOOP Sleep API
   slug: whoop-sleep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-sleep-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-sleep-api-openapi.yml
 - filename: whoop-user-api-openapi.yml
   format: yaml
   label: WHOOP User API
   slug: whoop-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-user-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-user-api-openapi.yml
 - filename: whoop-workout-api-openapi.yml
   format: yaml
   label: WHOOP Workout API
   slug: whoop-workout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/openapi/whoop-workout-api-openapi.yml
+  url: https://artifacts.apis.io/whoop/openapi/whoop-workout-api-openapi.yml
 authorization_urls:
 - https://api.prod.whoop.com/oauth/oauth2/auth
 description: ''
@@ -120,7 +120,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/whoop-openapi.yml\nschemes:\n- name: OAuth\n  source: openapi/whoop-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.prod.whoop.com/oauth/oauth2/auth\n    tokenUrl: https://api.prod.whoop.com/oauth/oauth2/token\n- name: Trusted Partner\n  source: openapi/whoop-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.prod.whoop.com/developer/v2/partner/token\nscopes:\n- scope: read:body_measurement\n  description: Read body measurements data, including height, weight, and max heart rate.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/whoop-openapi.yml\n- scope: read:cycles\n  description: Read cycles data, including day Strain and average heart rate during a physiological\n    cycle.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/whoop-openapi.yml\n- scope: read:profile\n  description: Read profile data, including name and email.\n  flows:\n\
   \  - authorizationCode\n  sources:\n  - openapi/whoop-openapi.yml\n- scope: read:recovery\n  description: Read Recovery data, including score, heart rate variability, and resting heart\n    rate.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/whoop-openapi.yml\n- scope: read:sleep\n  description: Read sleep data, including performance % and duration per sleep stage.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/whoop-openapi.yml\n- scope: read:workout\n  description: Read workout data, including activity Strain and average heart rate.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/whoop-openapi.yml\n- scope: whoop-partner/token\n  description: Read service requests and upload results.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/whoop-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/scopes/whoop-scopes.yml
+source_yaml_url: https://artifacts.apis.io/whoop/scopes/whoop-scopes.yml
 summary_line: 7 scopes · authorizationCode/clientCredentials
 tags:
 - Fitness

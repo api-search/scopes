@@ -5,79 +5,79 @@ api_specs:
   label: Qonto Cards API
   slug: qonto-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-cards-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-cards-api-openapi.yml
 - filename: qonto-client-invoices-api-openapi.yml
   format: yaml
   label: Qonto Client Invoices API
   slug: qonto-client-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-client-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-client-invoices-api-openapi.yml
 - filename: qonto-internal-transfers-api-openapi.yml
   format: yaml
   label: Qonto Internal Transfers API
   slug: qonto-internal-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-internal-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-internal-transfers-api-openapi.yml
 - filename: qonto-international-transfers-api-openapi.yml
   format: yaml
   label: Qonto International Transfers API
   slug: qonto-international-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-international-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-international-transfers-api-openapi.yml
 - filename: qonto-organizations-accounts-api-openapi.yml
   format: yaml
   label: Qonto Organizations & Accounts API
   slug: qonto-organizations-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-organizations-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-organizations-accounts-api-openapi.yml
 - filename: qonto-payment-links-api-openapi.yml
   format: yaml
   label: Qonto Payment Links API
   slug: qonto-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-payment-links-api-openapi.yml
 - filename: qonto-sepa-direct-debit-api-openapi.yml
   format: yaml
   label: Qonto SEPA Direct Debit API
   slug: qonto-sepa-direct-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-sepa-direct-debit-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-sepa-direct-debit-api-openapi.yml
 - filename: qonto-sepa-transfers-api-openapi.yml
   format: yaml
   label: Qonto SEPA Transfers API
   slug: qonto-sepa-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-sepa-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-sepa-transfers-api-openapi.yml
 - filename: qonto-supplier-invoices-api-openapi.yml
   format: yaml
   label: Qonto Supplier Invoices API
   slug: qonto-supplier-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-supplier-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-supplier-invoices-api-openapi.yml
 - filename: qonto-terminals-api-openapi.yml
   format: yaml
   label: Qonto Terminals API
   slug: qonto-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-terminals-api-openapi.yml
 - filename: qonto-webhooks-api-openapi.yml
   format: yaml
   label: Qonto Webhooks API
   slug: qonto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-webhooks-api-openapi.yml
 - filename: qonto-oauth-api-openapi.yml
   format: yaml
   label: Qonto O Auth API
   slug: qonto-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-oauth-api-openapi.yml
 - filename: qonto-transactions-and-statements-api-openapi.yml
   format: yaml
   label: Qonto Transactions and Statements API
   slug: qonto-transactions-and-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-transactions-and-statements-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-transactions-and-statements-api-openapi.yml
 authorization_urls:
 - https://oauth.qonto.com/oauth2/auth
 description: ''
@@ -295,7 +295,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/qonto-o
   \  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: membership.read\n  description: Read the authenticated membership\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: membership.write\n  description: Create memberships\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: offline_access\n  description: Issue a refresh token\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: openid\n  description: OpenID Connect ID token\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: organization.read\n  description: Read organization, accounts, memberships, labels, transactions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: payment.write\n  description: Create SEPA transfers and manage beneficiaries\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: payment_link.read\n\
   \  description: Read payment links\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: payment_link.write\n  description: Manage payment links\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: product.read\n  description: Read products\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: product.write\n  description: Manage products\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: sepa_direct_debit.read\n  description: Read SEPA Direct Debit collections/mandates\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: sepa_direct_debit.write\n  description: Manage SEPA Direct Debit mandates/subscriptions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: subscription.read\n  description: Read the organization subscription plan\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n\
   - scope: supplier_invoice.read\n  description: Read supplier invoices\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: supplier_invoice.write\n  description: Manage supplier invoices\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: team.read\n  description: Read teams\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: team.write\n  description: Create teams\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: terminal.read\n  description: Read terminals and terminal payments\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: terminal.write\n  description: Create terminal payments\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n- scope: webhook\n  description: Manage webhook subscriptions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/qonto-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/scopes/qonto-scopes.yml
+source_yaml_url: https://artifacts.apis.io/qonto/scopes/qonto-scopes.yml
 summary_line: 35 scopes · authorizationCode
 tags:
 - Business Banking

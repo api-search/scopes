@@ -5,19 +5,19 @@ api_specs:
   label: Litmus Hiring Invites API
   slug: litmus-hiring-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/openapi/litmus-hiring-invites-api-openapi.yml
+  url: https://artifacts.apis.io/litmus-hiring/openapi/litmus-hiring-invites-api-openapi.yml
 - filename: litmus-hiring-roles-api-openapi.yml
   format: yaml
   label: Litmus Hiring Roles API
   slug: litmus-hiring-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/openapi/litmus-hiring-roles-api-openapi.yml
+  url: https://artifacts.apis.io/litmus-hiring/openapi/litmus-hiring-roles-api-openapi.yml
 - filename: litmus-hiring-submissions-api-openapi.yml
   format: yaml
   label: Litmus Hiring Submissions API
   slug: litmus-hiring-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/openapi/litmus-hiring-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/litmus-hiring/openapi/litmus-hiring-submissions-api-openapi.yml
 authorization_urls:
 - https://clerk.litmushiring.com/oauth/authorize
 description: ''
@@ -83,7 +83,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: well-known/litmus-hiring-oauth-authorization-server.json\ndocs: https://clerk.com/docs/oauth/scoped-access\nnotes: >-\n  OAuth scopes apply to the hosted MCP server's Clerk OAuth flow (interactive\n  agent clients). The REST API itself is authenticated with an\n  organization-scoped bearer API key and does not expose a scope surface.\nschemes:\n  - name: clerkOAuth\n    source: well-known/litmus-hiring-oauth-authorization-server.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://clerk.litmushiring.com/oauth/authorize\n        tokenUrl: https://clerk.litmushiring.com/oauth/token\nscopes:\n  - scope: openid\n    description: OpenID Connect sign-in; issue an ID token identifying the user.\n  - scope: profile\n    description: Access the user's basic profile claims (name).\n  - scope: email\n    description: Access the user's email address.\n  - scope: public_metadata\n    description: Read the\
   \ user's public metadata.\n  - scope: private_metadata\n    description: Read the user's private metadata.\n  - scope: offline_access\n    description: Issue a refresh token for long-lived, non-interactive access.\n  - scope: 'user:org:read'\n    description: Read the user's organization membership and organization-scoped data.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/scopes/litmus-hiring-scopes.yml
+source_yaml_url: https://artifacts.apis.io/litmus-hiring/scopes/litmus-hiring-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Company

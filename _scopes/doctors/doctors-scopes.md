@@ -30,7 +30,7 @@ source_yaml: 'generated: ''2026-10-23''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doctors/refs/heads/main/scopes/doctors-scopes.yml
+source_yaml_url: https://artifacts.apis.io/doctors/scopes/doctors-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

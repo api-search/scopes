@@ -5,133 +5,133 @@ api_specs:
   label: Boxc CalculateDuty API
   slug: boxc-calculateduty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-calculateduty-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-calculateduty-api-openapi.yml
 - filename: boxc-classify-api-openapi.yml
   format: yaml
   label: Boxc Classify API
   slug: boxc-classify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-classify-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-classify-api-openapi.yml
 - filename: boxc-credentials-api-openapi.yml
   format: yaml
   label: Boxc Credentials API
   slug: boxc-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-credentials-api-openapi.yml
 - filename: boxc-customsproducts-api-openapi.yml
   format: yaml
   label: Boxc CustomsProducts API
   slug: boxc-customsproducts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-customsproducts-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-customsproducts-api-openapi.yml
 - filename: boxc-estimate-api-openapi.yml
   format: yaml
   label: Boxc Estimate API
   slug: boxc-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-estimate-api-openapi.yml
 - filename: boxc-inbound-api-openapi.yml
   format: yaml
   label: Boxc Inbound API
   slug: boxc-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-inbound-api-openapi.yml
 - filename: boxc-invoices-api-openapi.yml
   format: yaml
   label: Boxc Invoices API
   slug: boxc-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-invoices-api-openapi.yml
 - filename: boxc-labels-api-openapi.yml
   format: yaml
   label: Boxc Labels API
   slug: boxc-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-labels-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-labels-api-openapi.yml
 - filename: boxc-manifests-api-openapi.yml
   format: yaml
   label: Boxc Manifests API
   slug: boxc-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-manifests-api-openapi.yml
 - filename: boxc-orders-api-openapi.yml
   format: yaml
   label: Boxc Orders API
   slug: boxc-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-orders-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-orders-api-openapi.yml
 - filename: boxc-overpacks-api-openapi.yml
   format: yaml
   label: Boxc Overpacks API
   slug: boxc-overpacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-overpacks-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-overpacks-api-openapi.yml
 - filename: boxc-products-api-openapi.yml
   format: yaml
   label: Boxc Products API
   slug: boxc-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-products-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-products-api-openapi.yml
 - filename: boxc-reshipments-api-openapi.yml
   format: yaml
   label: Boxc Reshipments API
   slug: boxc-reshipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-reshipments-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-reshipments-api-openapi.yml
 - filename: boxc-returns-api-openapi.yml
   format: yaml
   label: Boxc Returns API
   slug: boxc-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-returns-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-returns-api-openapi.yml
 - filename: boxc-shipments-api-openapi.yml
   format: yaml
   label: Boxc Shipments API
   slug: boxc-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-shipments-api-openapi.yml
 - filename: boxc-shops-api-openapi.yml
   format: yaml
   label: Boxc Shops API
   slug: boxc-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-shops-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-shops-api-openapi.yml
 - filename: boxc-track-api-openapi.yml
   format: yaml
   label: Boxc Track API
   slug: boxc-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-track-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-track-api-openapi.yml
 - filename: boxc-users-api-openapi.yml
   format: yaml
   label: Boxc Users API
   slug: boxc-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-users-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-users-api-openapi.yml
 - filename: boxc-warehouses-api-openapi.yml
   format: yaml
   label: Boxc Warehouses API
   slug: boxc-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-warehouses-api-openapi.yml
 - filename: boxc-webhooks-api-openapi.yml
   format: yaml
   label: Boxc Webhooks API
   slug: boxc-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-webhooks-api-openapi.yml
 - filename: boxc-entry-points-api-openapi.yml
   format: yaml
   label: Boxc Entry Points API
   slug: boxc-entry-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-entry-points-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-entry-points-api-openapi.yml
 - filename: boxc-validate-address-api-openapi.yml
   format: yaml
   label: Boxc Validate Address API
   slug: boxc-validate-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/openapi/boxc-validate-address-api-openapi.yml
+  url: https://artifacts.apis.io/boxc/openapi/boxc-validate-address-api-openapi.yml
 authorization_urls:
 - https://accounts.boxc.com/auth/v1/authorize
 description: ''
@@ -267,7 +267,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://account
   - scope: write_shipments\n  description: Create, update, process and cancel shipments and labels.\n  flows: [authorizationCode]\n- scope: read_orders\n  description: Read access to orders and fulfillments.\n  flows: [authorizationCode]\n- scope: write_orders\n  description: Create, update, delete orders and change order status.\n  flows: [authorizationCode]\n- scope: read_products\n  description: Read access to products and SKUs.\n  flows: [authorizationCode]\n- scope: write_products\n  description: Create, update, delete products and SKUs.\n  flows: [authorizationCode]\n- scope: classify\n  description: Classify products for HS codes / customs (Classify resource).\n  flows: [authorizationCode]\n- scope: read_shops\n  description: Read access to connected shops.\n  flows: [authorizationCode]\n- scope: write_shops\n  description: Create, update, delete shop connections.\n  flows: [authorizationCode]\n- scope: read_webhooks\n  description: Read access to webhook subscriptions.\n  flows:\
   \ [authorizationCode]\n- scope: write_webhooks\n  description: Create, update, delete webhook subscriptions and queue events.\n  flows: [authorizationCode]\n- scope: returns\n  description: Access the Returns and Reshipments resources.\n  flows: [authorizationCode]\n- scope: billing\n  description: Access invoices and account balance / billing operations.\n  flows: [authorizationCode]\n- scope: validate\n  description: Validate addresses (ValidateAddress resource).\n  flows: [authorizationCode]\n- scope: read_credentials\n  description: Read access to stored carrier credentials.\n  flows: [authorizationCode]\n- scope: write_credentials\n  description: Create, update, delete carrier credentials.\n  flows: [authorizationCode]\nnotes: >-\n  Scopes are taken verbatim from the BoxC OIDC discovery document's scopes_supported.\n  A client's effective scope is configured in the BoxC account (OAuth 2.0 Client\n  Permissions) and inherited into issued tokens. The Calculate Duty resource additionally\n\
   \  requires a token minted with the documented `calculate` scope per the changelog\n  (v1.118); descriptions here are derived from the resource each scope governs.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/scopes/boxc-scopes.yml
+source_yaml_url: https://artifacts.apis.io/boxc/scopes/boxc-scopes.yml
 summary_line: 19 scopes · authorizationCode
 tags:
 - Company

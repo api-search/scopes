@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://beeline.co/.well-known/openid-configuration\ndocs: https://beeline.co/.well-known/openid-configuration\nnote: >-\n  OAuth scopes advertised by the Shopify customer-account OIDC provider on the\n  Beeline storefront. These are Shopify platform scopes for customer-account and\n  UCP MCP access, not first-party Beeline product-API scopes.\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: https://beeline.co/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/18978919/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/18978919/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the customer's email address and verification status.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n\
   \  description: Full access to the Shopify Customer Account API on behalf of the signed-in customer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API (agent-facing customer-account operations).\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beeline/refs/heads/main/scopes/beeline-scopes.yml
+source_yaml_url: https://artifacts.apis.io/beeline/scopes/beeline-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

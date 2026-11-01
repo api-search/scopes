@@ -29,7 +29,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: https://xage.com/.well-known/oauth-authorization-server\nnote: >-\n  The only OAuth scope Xage publishes anywhere is the single `mcp` scope advertised in the RFC 8414\n  authorization server metadata and echoed in the RFC 9728 protected resource metadata for the\n  WordPress MCP server on xage.com. No scope or permission reference exists for the Xage Fabric\n  Platform product API — that documentation is customer-only. Nothing here was derived from a spec;\n  there is no published OpenAPI.\nauthorization_server: https://xage.com\nscopes:\n- name: mcp\n  description: >-\n    Access the Model Context Protocol server at https://xage.com/wp-json/mcp/mcp-oauth-server.\n    Advertised verbatim as the sole entry in scopes_supported; no finer-grained description is\n    published, and no per-tool scopes are declared.\n  resource: https://xage.com/wp-json/mcp/mcp-oauth-server\n  evidence: https://xage.com/.well-known/oauth-authorization-server\n\
   scope_count: 1\ndocs: null\ndocs_note: No published scopes or permissions reference page.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xage/refs/heads/main/scopes/xage-scopes.yml
+source_yaml_url: https://artifacts.apis.io/xage/scopes/xage-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

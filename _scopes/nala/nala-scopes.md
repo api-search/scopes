@@ -5,31 +5,31 @@ api_specs:
   label: NALA Bank API
   slug: nala-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-bank-api-openapi.yml
+  url: https://artifacts.apis.io/nala/openapi/nala-bank-api-openapi.yml
 - filename: nala-lookup-api-openapi.yml
   format: yaml
   label: NALA Lookup API
   slug: nala-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/nala/openapi/nala-lookup-api-openapi.yml
 - filename: nala-payment-account-api-openapi.yml
   format: yaml
   label: NALA Payment Account API
   slug: nala-payment-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-payment-account-api-openapi.yml
+  url: https://artifacts.apis.io/nala/openapi/nala-payment-account-api-openapi.yml
 - filename: nala-payout-api-openapi.yml
   format: yaml
   label: NALA Payout API
   slug: nala-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-payout-api-openapi.yml
+  url: https://artifacts.apis.io/nala/openapi/nala-payout-api-openapi.yml
 - filename: nala-wallet-api-openapi.yml
   format: yaml
   label: NALA Wallet API
   slug: nala-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/openapi/nala-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/nala/openapi/nala-wallet-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.rafiki.com/reference/authentication#scopes
@@ -92,7 +92,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.rafiki.com/reference/authentication.md\ndocs: https://docs.rafiki.com/reference/authentication#scopes\napi: Rafiki API\nmodel: >-\n  Rafiki scopes are per-API-key permissions selected in the web portal at key\n  creation time (not OAuth2 flow scopes). Each endpoint documents the scope(s)\n  required to call it. Grant only the minimum scopes a key needs.\nscopes:\n  - scope: bank:read\n    description: List banks (financial institutions that own payment accounts).\n    operations: [List banks]\n  - scope: lookup:read\n    description: Look up metadata for a mobile money or bank account before payout.\n    operations: [Get lookups]\n  - scope: payment-account:read\n    description: List payment accounts (recipients).\n    operations: [List payment accounts]\n  - scope: payment-account:write\n    description: Create (or get-or-create) payment accounts. Also required to create payouts.\n    operations: [Create payment\
   \ accounts, Create payout]\n  - scope: payout:read\n    description: Read/list historical payouts and poll payout state.\n    operations: [Get payout, List payouts]\n  - scope: payout:write\n    description: Create payouts (send money). Requires payment-account:write as well.\n    operations: [Create payout]\n  - scope: wallet:read\n    description: List wallets and their currency balances.\n    operations: [List wallets]\n  - scope: statement:read\n    description: Read wallet statements and list statement lines.\n    operations: [Get statement, List statement lines]\n  - scope: statement:write\n    description: Create (generate) wallet statements.\n    operations: [Create statement]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/scopes/nala-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nala/scopes/nala-scopes.yml
 summary_line: 9 scopes
 tags:
 - Company

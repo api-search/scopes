@@ -5,37 +5,37 @@ api_specs:
   label: Financial Data Exchange (FDX) Account Information API
   slug: fdx-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-account-information-api-openapi.yml
 - filename: fdx-account-statements-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Account Statements API
   slug: fdx-account-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-statements-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-account-statements-api-openapi.yml
 - filename: fdx-account-transactions-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Account Transactions API
   slug: fdx-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-account-transactions-api-openapi.yml
 - filename: fdx-asset-transfer-networks-information-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Asset Transfer Networks Information API
   slug: fdx-asset-transfer-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-asset-transfer-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-asset-transfer-networks-information-api-openapi.yml
 - filename: fdx-payment-networks-information-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Payment Networks Information API
   slug: fdx-payment-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-payment-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-payment-networks-information-api-openapi.yml
 - filename: fdx-personal-information-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Personal Information API
   slug: fdx-personal-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-personal-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-personal-information-api-openapi.yml
 authorization_urls:
 - https://www.your-organization.com/authorize
 description: ''
@@ -104,7 +104,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fdx-corex-6.0.0.yaml, openapi/fdx-corex-6.2.0.yaml, openapi/fdx-corex-6.3.1.yaml\nschemes:\n- name: oauth2\n  source: openapi/fdx-corex-6.0.0.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.your-organization.com/authorize\n    tokenUrl: https://www.your-organization.com/token\n  description: 'This API uses an [OAuth2.0 authorization code flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow)\n    and accepts the resulting access token as a bearer token. For example,  `curl -H ''Authorization:\n    Bearer <ACCESS&#95;TOKEN|''`.'\n- name: oauth2\n  source: openapi/fdx-corex-6.2.0.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.your-organization.com/authorize\n    tokenUrl: https://www.your-organization.com/token\n  description: 'This API uses an [OAuth2.0 authorization code flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow)\n\
   \    and accepts the resulting access token as a bearer token. For example,  `curl -H ''Authorization:\n    Bearer <ACCESS&#95;TOKEN|''`.'\n- name: oauth2\n  source: openapi/fdx-corex-6.3.1.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.your-organization.com/authorize\n    tokenUrl: https://www.your-organization.com/token\n  description: 'This API uses an [OAuth2.0 authorization code flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow)\n    and accepts the resulting access token as a bearer token. For example,  `curl -H ''Authorization:\n    Bearer <ACCESS&#95;TOKEN|''`.'\nscopes:\n- scope: Account\n  description: (optional) Read account data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fdx-corex-6.0.0.yaml\n  - openapi/fdx-corex-6.2.0.yaml\n  - openapi/fdx-corex-6.3.1.yaml\n- scope: Customer\n  description: (optional) Read customer data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fdx-corex-6.0.0.yaml\n\
   \  - openapi/fdx-corex-6.2.0.yaml\n  - openapi/fdx-corex-6.3.1.yaml\n- scope: Transactions\n  description: (optional) Read transaction data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fdx-corex-6.0.0.yaml\n  - openapi/fdx-corex-6.2.0.yaml\n  - openapi/fdx-corex-6.3.1.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/scopes/fdx-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fdx/scopes/fdx-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Financial Data

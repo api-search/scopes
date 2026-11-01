@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://www.primary.com/.well-known/oauth-authorization-server\n  (scopes_supported) — Shopify Customer Account API\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/primary-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/30430134331/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/30430134331/oauth/token\nscopes:\n- scope: openid\n  description: OIDC authentication; issue an ID token for the signed-in customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the customer's email address claim.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the signed-in customer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account\
   \ MCP API for agent-driven customer operations.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/primary/refs/heads/main/scopes/primary-scopes.yml
+source_yaml_url: https://artifacts.apis.io/primary/scopes/primary-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

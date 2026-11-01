@@ -5,43 +5,43 @@ api_specs:
   label: Summerland Bank Banking Account Balances API
   slug: summerland-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-account-balances-api-openapi.yml
 - filename: summerland-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Account Direct Debits API
   slug: summerland-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-account-direct-debits-api-openapi.yml
 - filename: summerland-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Account Scheduled Payments API
   slug: summerland-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: summerland-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Account Transactions API
   slug: summerland-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-account-transactions-api-openapi.yml
 - filename: summerland-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Accounts API
   slug: summerland-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-accounts-api-openapi.yml
 - filename: summerland-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Payees API
   slug: summerland-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-payees-api-openapi.yml
 - filename: summerland-bank-banking-products-api-openapi.yml
   format: yaml
   label: Summerland Bank Banking Products API
   slug: summerland-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/openapi/summerland-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/summerland-bank/openapi/summerland-bank-banking-products-api-openapi.yml
 authorization_urls:
 - discovered-per-holder-via-oidc (/.well-known/openid-configuration on the CDR Resource/Auth base)
 description: ''
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/summerl
   \  - name: CDR-InfoSec-OAuth2\n    type: oauth2\n    source: openapi/summerland-bank-cds-banking-products-openapi.yml\n    profile: CDR InfoSec profile (FAPI 1.0 Advanced, OIDC Hybrid/PKCE, PAR, MTLS-bound tokens)\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: discovered-per-holder-via-oidc (/.well-known/openid-configuration on the CDR Resource/Auth base)\n        tokenUrl: discovered-per-holder-via-oidc\n        note: >-\n          Endpoints served on the bank's authenticated CDR Resource Base URI\n          (register-discovered by accredited data recipients). Authorization and\n          token endpoints are resolved through the holder's OIDC discovery\n          document, not published on the public PRD host.\nscopes:\n  - scope: bank:accounts.basic:read\n    description: >-\n      Read basic account information — account name, type, balance and masked\n      account number (Get Accounts, Get Account Balance, Get Bulk Balances,\n      Get Balances For Specific\
   \ Accounts).\n    flows: [authorizationCode]\n    operations:\n      - listBankingAccounts\n      - listBankingBalancesBulk\n      - listBankingBalancesSpecificAccounts\n      - getBankingBalance\n    sources: [openapi/summerland-bank-cds-banking-products-openapi.yml]\n  - scope: bank:accounts.detail:read\n    description: >-\n      Read detailed account information including account numbers, features,\n      fees, and specific account terms (Get Account Detail).\n    flows: [authorizationCode]\n    operations:\n      - getBankingAccountDetail\n    sources: [openapi/summerland-bank-cds-banking-products-openapi.yml]\n  - scope: bank:transactions:read\n    description: >-\n      Read account transactions and transaction detail, with amount/date/text\n      filters (Get Transactions For Account, Get Transaction Detail).\n    flows: [authorizationCode]\n    operations:\n      - listBankingTransactions\n      - getBankingTransactionDetail\n    sources: [openapi/summerland-bank-cds-banking-products-openapi.yml]\n\
   \  - scope: bank:regular_payments:read\n    description: >-\n      Read regular payments — direct debits, scheduled payments, and instalment\n      plans (Get Direct Debits, Get Scheduled Payments, Get Instalment Plans and\n      their bulk/specific-account variants).\n    flows: [authorizationCode]\n    operations:\n      - listDirectDebits\n      - listDirectDebitsBulk\n      - listDirectDebitsSpecificAccounts\n      - listScheduledPayments\n      - listScheduledPaymentsBulk\n      - listScheduledPaymentsSpecificAccounts\n      - listInstalmentPlans\n      - listInstalmentPlansBulk\n    sources: [openapi/summerland-bank-cds-banking-products-openapi.yml]\n  - scope: bank:payees:read\n    description: >-\n      Read the consumer's saved payees — domestic, international, and BPAY\n      (Get Payees, Get Payee Detail).\n    flows: [authorizationCode]\n    operations:\n      - listBankingPayees\n      - getBankingPayeeDetail\n    sources: [openapi/summerland-bank-cds-banking-products-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/scopes/summerland-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/summerland-bank/scopes/summerland-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Finance

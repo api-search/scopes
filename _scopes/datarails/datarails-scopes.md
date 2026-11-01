@@ -5,25 +5,25 @@ api_specs:
   label: Datarails Health API
   slug: datarails-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-health-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-health-api-openapi.yml
 - filename: datarails-ready-api-openapi.yml
   format: yaml
   label: Datarails Ready API
   slug: datarails-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-ready-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-ready-api-openapi.yml
 - filename: datarails-well-known-api-openapi.yml
   format: yaml
   label: Datarails .well Known API
   slug: datarails-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-well-known-api-openapi.yml
 - filename: datarails-oauth-api-openapi.yml
   format: yaml
   label: Datarails OAUTH API
   slug: datarails-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/openapi/datarails-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/datarails/openapi/datarails-oauth-api-openapi.yml
 authorization_urls:
 - https://mcp.datarails.com/authorize
 description: Datarails publishes exactly one OAuth scope. The FinanceOS MCP authorization server advertises scopes_supported ["datarails"] in both its RFC 8414 and its OIDC discovery documents — a single coarse scope that grants an agent the caller's whole readable FinanceOS surface. There is no read/write split, no per-table scope and no per-tool scope; granularity is delegated entirely to the tenant's in-app permission model and to per-tenant feature flags.
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://mcp.datarails.com/.well-known/oauth-authorization-server\ndocs: https://support.datarails.com/hc/en-us/articles/25849710214556-Datarails-FinanceOS-MCP-Server-Technical-Documentation\ndescription: >-\n  Datarails publishes exactly one OAuth scope. The FinanceOS MCP authorization\n  server advertises scopes_supported [\"datarails\"] in both its RFC 8414 and its\n  OIDC discovery documents — a single coarse scope that grants an agent the\n  caller's whole readable FinanceOS surface. There is no read/write split, no\n  per-table scope and no per-tool scope; granularity is delegated entirely to\n  the tenant's in-app permission model and to per-tenant feature flags.\n\nschemes:\n  - name: FinanceOS MCP OAuth 2.1\n    source: https://mcp.datarails.com/.well-known/oauth-authorization-server\n    issuer: https://mcp.datarails.com/\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.datarails.com/authorize\n\
   \        tokenUrl: https://mcp.datarails.com/token\n\nscopes:\n  - scope: datarails\n    description: >-\n      Access the authenticated user's Datarails FinanceOS data through the MCP\n      server. Read-only in effect: Datarails documents that the MCP connection\n      cannot create, update or delete records. Effective reach is bounded by\n      the user's existing Datarails permissions, enforced server-side.\n    flows: [authorizationCode]\n    sources:\n      - https://mcp.datarails.com/.well-known/oauth-authorization-server\n      - https://mcp.datarails.com/.well-known/openid-configuration\n\ngranularity:\n  scope_count: 1\n  read_write_split: false\n  resource_indicators: false\n  effective_controls:\n    - control: tenant entitlement\n      description: FinanceOS AI connector must be enabled for the tenant and the user (paid feature, gated by the CSM).\n    - control: in-app permissions\n      description: Server-side enforcement of the caller's existing Datarails data-access permissions.\n\
   \    - control: feature flag use_semantic_layer_v2\n      description: Default-deny gate on the get_business_metric_* data tools.\n    - control: feature flag mcp_use_llm_sql_tool\n      description: Gate on the free-form sql_query tool.\n  assessment: >-\n    A single scope means an agent-consent screen cannot express least\n    privilege — a user granting \"datarails\" grants every readable table. The\n    real least-privilege boundary lives outside OAuth, in Datarails' own\n    permission model.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/scopes/datarails-scopes.yml
+source_yaml_url: https://artifacts.apis.io/datarails/scopes/datarails-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

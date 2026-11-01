@@ -5,121 +5,121 @@ api_specs:
   label: Socket Alerts API
   slug: socket-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-alerts-api-openapi.yml
 - filename: socket-api-tokens-api-openapi.yml
   format: yaml
   label: Socket API Tokens API
   slug: socket-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-api-tokens-api-openapi.yml
 - filename: socket-audit-log-api-openapi.yml
   format: yaml
   label: Socket Audit Log API
   slug: socket-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-audit-log-api-openapi.yml
 - filename: socket-dependencies-api-openapi.yml
   format: yaml
   label: Socket Dependencies API
   slug: socket-dependencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-dependencies-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-dependencies-api-openapi.yml
 - filename: socket-deprecated-api-openapi.yml
   format: yaml
   label: Socket Deprecated API
   slug: socket-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-deprecated-api-openapi.yml
 - filename: socket-diff-scans-api-openapi.yml
   format: yaml
   label: Socket Diff Scans API
   slug: socket-diff-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-diff-scans-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-diff-scans-api-openapi.yml
 - filename: socket-fixes-api-openapi.yml
   format: yaml
   label: Socket Fixes API
   slug: socket-fixes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-fixes-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-fixes-api-openapi.yml
 - filename: socket-full-scans-api-openapi.yml
   format: yaml
   label: Socket Full Scans API
   slug: socket-full-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-full-scans-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-full-scans-api-openapi.yml
 - filename: socket-license-policy-api-openapi.yml
   format: yaml
   label: Socket License Policy API
   slug: socket-license-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-license-policy-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-license-policy-api-openapi.yml
 - filename: socket-metadata-api-openapi.yml
   format: yaml
   label: Socket Metadata API
   slug: socket-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-metadata-api-openapi.yml
 - filename: socket-org-settings-api-openapi.yml
   format: yaml
   label: Socket Org Settings API
   slug: socket-org-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-org-settings-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-org-settings-api-openapi.yml
 - filename: socket-org-snapshots-api-openapi.yml
   format: yaml
   label: Socket Org Snapshots API
   slug: socket-org-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-org-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-org-snapshots-api-openapi.yml
 - filename: socket-packages-api-openapi.yml
   format: yaml
   label: Socket Packages API
   slug: socket-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-packages-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-packages-api-openapi.yml
 - filename: socket-repo-labels-api-openapi.yml
   format: yaml
   label: Socket Repo Labels API
   slug: socket-repo-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-repo-labels-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-repo-labels-api-openapi.yml
 - filename: socket-repos-api-openapi.yml
   format: yaml
   label: Socket Repos API
   slug: socket-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-repos-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-repos-api-openapi.yml
 - filename: socket-security-policy-api-openapi.yml
   format: yaml
   label: Socket Security Policy API
   slug: socket-security-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-security-policy-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-security-policy-api-openapi.yml
 - filename: socket-telemetry-api-openapi.yml
   format: yaml
   label: Socket Telemetry API
   slug: socket-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-telemetry-api-openapi.yml
 - filename: socket-threat-feed-api-openapi.yml
   format: yaml
   label: Socket Threat Feed API
   slug: socket-threat-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-threat-feed-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-threat-feed-api-openapi.yml
 - filename: socket-triage-api-openapi.yml
   format: yaml
   label: Socket Triage API
   slug: socket-triage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-triage-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-triage-api-openapi.yml
 - filename: socket-webhooks-api-openapi.yml
   format: yaml
   label: Socket Webhooks API
   slug: socket-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/openapi/socket-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/socket/openapi/socket-webhooks-api-openapi.yml
 authorization_urls: []
 description: Socket authorizes REST API calls with organization API tokens that carry fine-grained token scopes (not OAuth2, but a documented permission model). Each endpoint declares the scopes it requires; a token missing a scope returns 403. Scopes below are harvested from the per-endpoint "requires the following org token scopes" notes in the Socket API reference.
 docs: https://docs.socket.dev/reference/creating-and-managing-api-tokens
@@ -288,7 +288,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.so
   \ download, and export (CSV/PDF) full scans and metadata.\n- scope: full-scans:delete\n  description: Delete a full scan.\n- scope: diff-scans:create\n  description: Create diff scans from repo HEAD or from two full scan IDs.\n- scope: diff-scans:list\n  description: List and read diff scans and their GitHub-flavored-markdown comments.\n- scope: diff-scans:delete\n  description: Delete a diff scan.\n- scope: alerts:list\n  description: List latest/historical alerts and the full scans associated with an alert.\n- scope: alert-resolution:list\n  description: List active alert resolutions for an organization.\n- scope: alert-resolution:read\n  description: Read a single alert resolution by UUID.\n- scope: alert-resolution:delete\n  description: Delete an alert resolution.\n- scope: triage:alerts-list\n  description: List alert triage actions for an organization.\n- scope: triage:alerts-update\n  description: Create, update, and delete alert triage actions.\n- scope: repo:list\n  description:\
   \ List and read repositories.\n- scope: repo:create\n  description: Create repositories.\n- scope: repo:update\n  description: Update repository details.\n- scope: repo:delete\n  description: Delete a repository and its scans.\n- scope: repo-label:list\n  description: List and read repository labels and label settings.\n- scope: repo-label:create\n  description: Create repository labels.\n- scope: repo-label:update\n  description: Associate/disassociate labels and update label names and settings.\n- scope: repo-label:delete\n  description: Delete a repository label and its associations.\n- scope: report:read\n  description: Export SBOMs (CycloneDX, SPDX, OpenVEX) for a scan.\n- scope: fixes:list\n  description: Fetch available fixes for vulnerabilities in a repo, scan, or manifest.\n- scope: security-policy:read\n  description: Read an organization's security policy.\n- scope: security-policy:update\n  description: Update an organization's security policy.\n- scope: license-policy:read\n\
   \  description: Read an organization's license policy.\n- scope: license-policy:update\n  description: Update an organization's license policy.\n- scope: historical:alerts-list\n  description: List historical alerts (Beta).\n- scope: historical:alerts-trend\n  description: Trend analytics of historical alerts (Beta).\n- scope: historical:dependencies-trend\n  description: Trend analytics of historical dependencies (Beta).\n- scope: historical:snapshots-list\n  description: List historical data snapshots (Beta).\n- scope: historical:snapshots-start\n  description: Start an on-demand historical snapshot job (Beta).\n- scope: threat-feed:list\n  description: Read the Socket threat feed (Enterprise plan with Threat Feed add-on).\n- scope: socket-basics:read\n  description: Read the Socket Basics CI/CD scanning configuration.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/socket/refs/heads/main/scopes/socket-scopes.yml
+source_yaml_url: https://artifacts.apis.io/socket/scopes/socket-scopes.yml
 summary_line: 34 scopes
 tags:
 - Company

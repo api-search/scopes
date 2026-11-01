@@ -5,19 +5,19 @@ api_specs:
   label: TypingDNA Advanced API
   slug: typingdna-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/typingdna/openapi/typingdna-advanced-api-openapi.yml
 - filename: typingdna-optional-api-openapi.yml
   format: yaml
   label: TypingDNA Optional API
   slug: typingdna-optional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-optional-api-openapi.yml
+  url: https://artifacts.apis.io/typingdna/openapi/typingdna-optional-api-openapi.yml
 - filename: typingdna-standard-api-openapi.yml
   format: yaml
   label: TypingDNA Standard API
   slug: typingdna-standard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/openapi/typingdna-standard-api-openapi.yml
+  url: https://artifacts.apis.io/typingdna/openapi/typingdna-standard-api-openapi.yml
 authorization_urls:
 - https://verify.typingdna.com/oidc/auth
 description: ''
@@ -81,7 +81,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://verify.typingdna.com/.well-known/openid-configuration\ndocs: https://verify.typingdna.com/docs/\nnote: >-\n  The Authentication API itself is HTTP Basic (apiKey/apiSecret) and has no\n  OAuth scope surface. The scopes below belong to the Verify 2FA OIDC\n  integration, whose live discovery document is captured in\n  well-known/typingdna-verify-openid-configuration.json.\nschemes:\n  - name: Verify 2FA OIDC\n    type: openIdConnect\n    issuer: https://verify.typingdna.com\n    source: well-known/typingdna-verify-openid-configuration.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://verify.typingdna.com/oidc/auth\n        tokenUrl: https://verify.typingdna.com/oidc/token\n      - flow: refreshToken\n        tokenUrl: https://verify.typingdna.com/oidc/token\n      - flow: deviceCode\n        grant: urn:ietf:params:oauth:grant-type:device_code\n      - flow: jwtBearer\n        grant:\
   \ urn:ietf:params:oauth:grant-type:jwt-bearer\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication; returns the id_token (RS256) asserting the typing-biometrics verification.\n    flows: [authorizationCode]\n    sources: [well-known/typingdna-verify-openid-configuration.json]\n  - scope: email\n    description: 'Release the email claims (email, email_verified) in the id_token/userinfo.'\n    flows: [authorizationCode]\n    sources: [well-known/typingdna-verify-openid-configuration.json]\n  - scope: profile\n    description: 'Release profile claims (name, given_name, family_name, locale, picture) in the id_token/userinfo.'\n    flows: [authorizationCode]\n    sources: [well-known/typingdna-verify-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/scopes/typingdna-scopes.yml
+source_yaml_url: https://artifacts.apis.io/typingdna/scopes/typingdna-scopes.yml
 summary_line: 3 scopes · authorizationCode/refreshToken/deviceCode/jwtBearer
 tags:
 - Company

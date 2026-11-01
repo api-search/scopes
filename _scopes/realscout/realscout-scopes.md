@@ -40,7 +40,7 @@ source_filename: realscout-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.realscout.com/.well-known/oauth-authorization-server\ndocs: https://www.realscout.com/.well-known/oauth-authorization-server\nschemes:\n  - name: OAuth2\n    source: well-known/realscout-oauth-authorization-server.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://www.realscout.com/oauth/authorize\n        tokenUrl: https://www.realscout.com/oauth/token\nscopes:\n  - scope: mcp\n    description: >-\n      Access to the RealScout admin MCP server (protected resource\n      api://realscout-admin-mcp). Declared in scopes_supported of the\n      authorization-server metadata.\n    flows: [authorizationCode]\n    sources: [well-known/realscout-oauth-authorization-server.json]\nnotes: >-\n  Only one scope (\"mcp\") is published in the authorization-server metadata. It\n  gates the hosted MCP server. No broader scope/permission reference is published.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realscout/refs/heads/main/scopes/realscout-scopes.yml
+source_yaml_url: https://artifacts.apis.io/realscout/scopes/realscout-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

@@ -30,15 +30,14 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sunsama/refs/heads/main/scopes/sunsama-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sunsama/scopes/sunsama-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Productivity
-- Planner
-- TaskManagement
-- CalendarIntegration
-- RemoteWork
+- Task Management
+- Calendar Integration
+- Remote Work
 token_bound: false
 token_urls: []
 ---

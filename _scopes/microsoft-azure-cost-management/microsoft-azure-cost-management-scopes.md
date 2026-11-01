@@ -5,91 +5,91 @@ api_specs:
   label: Azure Cost Management Exports API
   slug: microsoft-azure-cost-management-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-exports-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-exports-api-openapi.yml
 - filename: microsoft-azure-cost-management-operations-api-openapi.yml
   format: yaml
   label: Azure Cost Management Operations API
   slug: microsoft-azure-cost-management-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-operations-api-openapi.yml
 - filename: microsoft-azure-cost-management-alerts-api-openapi.yml
   format: yaml
   label: Azure Cost Management Alerts API
   slug: microsoft-azure-cost-management-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-alerts-api-openapi.yml
 - filename: microsoft-azure-cost-management-budgets-api-openapi.yml
   format: yaml
   label: Azure Cost Management Budgets API
   slug: microsoft-azure-cost-management-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-budgets-api-openapi.yml
 - filename: microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml
   format: yaml
   label: Azure Cost Management Cost Allocation Rule Definitions API
   slug: microsoft-azure-cost-management-costallocationruledefinitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml
 - filename: microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml
   format: yaml
   label: Azure Cost Management Generate Cost Details Report API
   slug: microsoft-azure-cost-management-generatecostdetailsreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-generatecostdetailsreport-api-openapi.yml
 - filename: microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml
   format: yaml
   label: Azure Cost Management Generate Detailed Cost Report Operation Results API
   slug: microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationresults-api-openapi.yml
 - filename: microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml
   format: yaml
   label: Azure Cost Management Generate Detailed Cost Report Operation Status API
   slug: microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-generatedetailedcostreportoperationstatus-api-openapi.yml
 - filename: microsoft-azure-cost-management-markuprules-api-openapi.yml
   format: yaml
   label: Azure Cost Management Markup Rules API
   slug: microsoft-azure-cost-management-markuprules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-markuprules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-markuprules-api-openapi.yml
 - filename: microsoft-azure-cost-management-providers-api-openapi.yml
   format: yaml
   label: Azure Cost Management Providers API
   slug: microsoft-azure-cost-management-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-providers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-providers-api-openapi.yml
 - filename: microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml
   format: yaml
   label: Azure Cost Management Scheduled Action Operation Group API
   slug: microsoft-azure-cost-management-scheduledactionoperationgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml
 - filename: microsoft-azure-cost-management-scheduledactions-api-openapi.yml
   format: yaml
   label: Azure Cost Management Scheduled Actions API
   slug: microsoft-azure-cost-management-scheduledactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-scheduledactions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-scheduledactions-api-openapi.yml
 - filename: microsoft-azure-cost-management-settings-api-openapi.yml
   format: yaml
   label: Azure Cost Management Settings API
   slug: microsoft-azure-cost-management-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-settings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-settings-api-openapi.yml
 - filename: microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml
   format: yaml
   label: Azure Cost Management View Operation Group API
   slug: microsoft-azure-cost-management-viewoperationgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml
 - filename: microsoft-azure-cost-management-views-api-openapi.yml
   format: yaml
   label: Azure Cost Management Views API
   slug: microsoft-azure-cost-management-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/openapi/microsoft-azure-cost-management-views-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-views-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -223,7 +223,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: openapi/microso
   \  - openapi/microsoft-azure-cost-management-providers-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-scheduledactions-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-settings-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-viewoperationgroup-api-openapi.yml\n  - openapi/microsoft-azure-cost-management-views-api-openapi.yml\ndocs:\n- https://learn.microsoft.com/en-us/entra/identity-platform/scopes-oidc\n- https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-client-creds-grant-flow\n- https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles/management-and-governance\ndocs_note: >-\n  The scope surface of this API is one scope wide and that is not an omission in the contract —\n  it is the Azure Resource Manager model. Entra ID issues a token for the RESOURCE\n  https://management.azure.com; the delegated form is user_impersonation,\
   \ and the application\n  form is the .default scope. Neither carries per-operation permission. What an accepted token\n  may actually do is decided afterwards by Azure RBAC role assignment at the {scope} in the\n  request path — Cost Management Reader for reads, Cost Management Contributor for writes. An\n  integrator looking for a fine-grained scope list will not find one, and should design around\n  role assignment instead.\nadditional_scopes:\n- scope: https://management.azure.com/.default\n  description: Application-permission scope for the client-credentials flow. The unattended /\n    service-principal path; not declared in the contract.\n  flows:\n  - client_credentials\n  source: https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-client-creds-grant-flow\n- scope: https://management.azure.com/user_impersonation\n  description: Fully qualified form of the delegated scope the contract declares as\n    user_impersonation.\n  flows:\n  - authorization_code\n  - implicit\n\
   authorization_after_token:\n  style: azure-rbac\n  roles:\n  - Cost Management Reader\n  - Cost Management Contributor\n  see: authentication/microsoft-azure-cost-management-authentication.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/scopes/microsoft-azure-cost-management-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-cost-management/scopes/microsoft-azure-cost-management-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Cost Management

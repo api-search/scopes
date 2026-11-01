@@ -5,139 +5,139 @@ api_specs:
   label: ETSI MEC 011 Edge Platform Application Enablement API
   slug: mec-011-edge-platform-application-enablement
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/MecServiceMgmtApi.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/MecServiceMgmtApi.yaml
 - filename: RniAPI.yaml
   format: yaml
   label: ETSI MEC 012 Radio Network Information API
   slug: mec-012-radio-network-information
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/RniAPI.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/RniAPI.yaml
 - filename: LocationAPI.yaml
   format: yaml
   label: ETSI MEC 013 Location API
   slug: mec-013-location
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/LocationAPI.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/LocationAPI.yaml
 - filename: UEidentityAPI.yaml
   format: yaml
   label: ETSI MEC 014 UE Identity API
   slug: mec-014-ue-identity
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/UEidentityAPI.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/UEidentityAPI.yaml
 - filename: BwManagementApi.yaml
   format: yaml
   label: ETSI MEC 015 Traffic Management APIs
   slug: mec-015-traffic-management
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/BwManagementApi.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/BwManagementApi.yaml
 - filename: UEAppInterfaceApi.yaml
   format: yaml
   label: ETSI MEC 016 UE Application Interface API
   slug: mec-016-ue-application-interface
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/UEAppInterfaceApi.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/UEAppInterfaceApi.yaml
 - filename: MEC01002_AppPkgMgmt.yaml
   format: yaml
   label: ETSI MEC 010-2 Application Package and Lifecycle Management APIs
   slug: mec-010-2-application-lifecycle-management
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/MEC01002_AppPkgMgmt.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/MEC01002_AppPkgMgmt.yaml
 - filename: MEC021_AppMobilityService.yaml
   format: yaml
   label: ETSI MEC 021 Application Mobility Service API
   slug: mec-021-application-mobility
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/MEC021_AppMobilityService.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/MEC021_AppMobilityService.yaml
 - filename: WlanInformationApi.yaml
   format: yaml
   label: ETSI MEC 028 WLAN Information API
   slug: mec-028-wlan-information
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/WlanInformationApi.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/WlanInformationApi.yaml
 - filename: MEC029_FAI.yaml
   format: yaml
   label: ETSI MEC 029 Fixed Access Information API
   slug: mec-029-fixed-access-information
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/MEC029_FAI.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/MEC029_FAI.yaml
 - filename: MEC030_V2XInformationServices.yaml
   format: yaml
   label: ETSI MEC 030 V2X Information Services API
   slug: mec-030-v2x-information-services
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/MEC030_V2XInformationServices.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/MEC030_V2XInformationServices.yaml
 - filename: MEC033_IoT.yaml
   format: yaml
   label: ETSI MEC 033 IoT API
   slug: mec-033-iot
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/MEC033_IoT.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/MEC033_IoT.yaml
 - filename: MEC040_fedEnablement.yaml
   format: yaml
   label: ETSI MEC 040 MEC Federation Enablement API
   slug: mec-040-federation-enablement
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/mec/MEC040_fedEnablement.yaml
+  url: https://artifacts.apis.io/etsi/openapi/mec/MEC040_fedEnablement.yaml
 - filename: APIVersion.yaml
   format: yaml
   label: ETSI NFV SOL002 / SOL003 VNF Lifecycle, Fault, Performance and Package Management APIs
   slug: nfv-sol002-sol003
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/nfv-sol002-sol003/SOL002/APIVersion/APIVersion.yaml
+  url: https://artifacts.apis.io/etsi/openapi/nfv-sol002-sol003/SOL002/APIVersion/APIVersion.yaml
 - filename: APIVersion.yaml
   format: yaml
   label: ETSI NFV SOL005 Os-Ma-nfvo Network Service Management APIs
   slug: nfv-sol005
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/nfv-sol005/SOL005/APIVersion/APIVersion.yaml
+  url: https://artifacts.apis.io/etsi/openapi/nfv-sol005/SOL005/APIVersion/APIVersion.yaml
 - filename: APIVersion.yaml
   format: yaml
   label: ETSI NFV SOL009 NFV-MANO Management APIs
   slug: nfv-sol009
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/nfv-sol009/SOL009/APIVersion/APIVersion.yaml
+  url: https://artifacts.apis.io/etsi/openapi/nfv-sol009/SOL009/APIVersion/APIVersion.yaml
 - filename: APIVersion.yaml
   format: yaml
   label: ETSI NFV SOL011 Or-Or Multi-Administrative-Domain APIs
   slug: nfv-sol011
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/nfv-sol011/SOL011/APIVersion/APIVersion.yaml
+  url: https://artifacts.apis.io/etsi/openapi/nfv-sol011/SOL011/APIVersion/APIVersion.yaml
 - filename: APIVersion.yaml
   format: yaml
   label: ETSI NFV SOL012 Policy Management API
   slug: nfv-sol012
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/nfv-sol012/SOL012/APIVersion/APIVersion.yaml
+  url: https://artifacts.apis.io/etsi/openapi/nfv-sol012/SOL012/APIVersion/APIVersion.yaml
 - filename: ngsi-ld-api-3.0.3.yaml
   format: yaml
   label: ETSI NGSI-LD API (ISG CIM)
   slug: ngsi-ld
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/ngsi-ld/ngsi-ld-api-3.0.3.yaml
+  url: https://artifacts.apis.io/etsi/openapi/ngsi-ld/ngsi-ld-api-3.0.3.yaml
 - filename: capif-access-control-policy.yaml
   format: yaml
   label: ETSI OpenCAPIF (3GPP CAPIF TS 29.222) APIs
   slug: opencapif
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/capif/capif-access-control-policy.yaml
+  url: https://artifacts.apis.io/etsi/openapi/capif/capif-access-control-policy.yaml
 - filename: openslice-camara-qod-provisioning.yaml
   format: yaml
   label: ETSI OpenSlice CAMARA-as-a-Service QoD Provisioning API
   slug: openslice-camara-qod-provisioning
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/camara/openslice-camara-qod-provisioning.yaml
+  url: https://artifacts.apis.io/etsi/openapi/camara/openslice-camara-qod-provisioning.yaml
 - filename: operator-platform-edge-cloud-management.yaml
   format: yaml
   label: ETSI Operator Platform Open Exposure Gateway API
   slug: operator-platform-open-exposure-gateway
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/camara/operator-platform-edge-cloud-management.yaml
+  url: https://artifacts.apis.io/etsi/openapi/camara/operator-platform-edge-cloud-management.yaml
 - filename: OpenSliceLCMRulesspecificationAPI.json
   format: json
   label: ETSI OpenSlice TM Forum Open APIs
   slug: openslice-tmforum-open-apis
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/openapi/openslice-tmf/OpenSliceLCMRulesspecificationAPI.json
+  url: https://artifacts.apis.io/etsi/openapi/openslice-tmf/OpenSliceLCMRulesspecificationAPI.json
 authorization_urls:
 - https://portal.openslice.eu/auth/realms/openslice/protocol/openid-connect/auth
 description: ''
@@ -253,7 +253,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: >-\n  derived f
   \  sources: [well-known/etsi-openslice-openid-configuration.json, well-known/etsi-forge-openid-configuration.json]\n- scope: profile\n  description: Standard OIDC profile claims\n  flows: [authorizationCode]\n  sources: [well-known/etsi-openslice-openid-configuration.json, well-known/etsi-forge-openid-configuration.json]\n- scope: email\n  description: Standard OIDC email claim\n  flows: [authorizationCode]\n  sources: [well-known/etsi-openslice-openid-configuration.json, well-known/etsi-forge-openid-configuration.json]\n- scope: roles\n  description: Keycloak realm/client role claims\n  flows: [authorizationCode]\n  sources: [well-known/etsi-openslice-openid-configuration.json]\n- scope: address\n  description: Standard OIDC address claim\n  flows: [authorizationCode]\n  sources: [well-known/etsi-openslice-openid-configuration.json]\n- scope: phone\n  description: Standard OIDC phone claim\n  flows: [authorizationCode]\n  sources: [well-known/etsi-openslice-openid-configuration.json]\n\
   - scope: microprofile-jwt\n  description: MicroProfile JWT claim mapper scope\n  flows: [authorizationCode]\n  sources: [well-known/etsi-openslice-openid-configuration.json]\n- scope: web-origins\n  description: Keycloak CORS web-origins scope\n  flows: [authorizationCode]\n  sources: [well-known/etsi-openslice-openid-configuration.json]\n- scope: offline_access\n  description: Issues a refresh token usable while the user is offline\n  flows: [authorizationCode]\n  sources: [well-known/etsi-openslice-openid-configuration.json]\ngitlab_platform_scopes:\n  note: >-\n    The two GitLab instances that host every machine-readable ETSI artefact are themselves OAuth\n    2.0 authorization servers. These are GitLab platform scopes, not ETSI-authored ones, but they\n    are the scopes any agent must request to write to forge.etsi.org or labs.etsi.org.\n  issuers: [https://forge.etsi.org/rep, https://labs.etsi.org/rep]\n  source: well-known/etsi-forge-openid-configuration.json\n  scopes: [api, read_api,\
   \ read_user, create_runner, manage_runner, k8s_proxy, self_rotate,\n    mcp, mcp_orbit, read_repository, write_repository, read_registry, write_registry,\n    read_virtual_registry, write_virtual_registry, read_observability, write_observability,\n    ai_features, sudo, admin_mode, read_service_ping, openid, profile, email, ai_workflows, 'user:*']\n  mcp_scopes:\n  - scope: mcp\n    description: Access the GitLab MCP server at /api/v4/mcp\n    protected_resource: well-known/etsi-forge-oauth-protected-resource.json\n  - scope: mcp_orbit\n    description: Access the GitLab Orbit MCP server at /api/v4/orbit/mcp\n    protected_resource: well-known/etsi-forge-oauth-protected-resource.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/scopes/etsi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/etsi/scopes/etsi-scopes.yml
 summary_line: 13 scopes · authorizationCode/clientCredentials
 tags:
 - Telecommunications

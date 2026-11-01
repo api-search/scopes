@@ -5,73 +5,73 @@ api_specs:
   label: Fourthwall Collections API
   slug: fourthwall-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-collections-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-collections-api-openapi.yml
 - filename: fourthwall-gifting-api-openapi.yml
   format: yaml
   label: Fourthwall Gifting API
   slug: fourthwall-gifting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-gifting-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-gifting-api-openapi.yml
 - filename: fourthwall-giveaways-api-openapi.yml
   format: yaml
   label: Fourthwall Giveaways API
   slug: fourthwall-giveaways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-giveaways-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-giveaways-api-openapi.yml
 - filename: fourthwall-memberships-api-openapi.yml
   format: yaml
   label: Fourthwall Memberships API
   slug: fourthwall-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-memberships-api-openapi.yml
 - filename: fourthwall-orders-api-openapi.yml
   format: yaml
   label: Fourthwall Orders API
   slug: fourthwall-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-orders-api-openapi.yml
 - filename: fourthwall-products-api-openapi.yml
   format: yaml
   label: Fourthwall Products API
   slug: fourthwall-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-products-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-products-api-openapi.yml
 - filename: fourthwall-promotions-api-openapi.yml
   format: yaml
   label: Fourthwall Promotions API
   slug: fourthwall-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-promotions-api-openapi.yml
 - filename: fourthwall-storefront-carts-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Carts API
   slug: fourthwall-storefront-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-carts-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-carts-api-openapi.yml
 - filename: fourthwall-storefront-collections-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Collections API
   slug: fourthwall-storefront-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-collections-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-collections-api-openapi.yml
 - filename: fourthwall-storefront-products-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Products API
   slug: fourthwall-storefront-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-products-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-products-api-openapi.yml
 - filename: fourthwall-storefront-shop-api-openapi.yml
   format: yaml
   label: Fourthwall Storefront Shop API
   slug: fourthwall-storefront-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-storefront-shop-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-storefront-shop-api-openapi.yml
 - filename: fourthwall-webhooks-api-openapi.yml
   format: yaml
   label: Fourthwall Webhooks API
   slug: fourthwall-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/openapi/fourthwall-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fourthwall/openapi/fourthwall-webhooks-api-openapi.yml
 authorization_urls:
 - https://auth.fourthwall.com/auth/realms/Fourthwall/protocol/openid-connect/auth
 description: ''
@@ -181,7 +181,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fourthwall-openapi.yml\nschemes:\n- name: oauth\n  source: openapi/fourthwall-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.fourthwall.com/auth/realms/Fourthwall/protocol/openid-connect/auth\n    tokenUrl: https://api.fourthwall.com/open-api/v1.0/platform/token\n  description: OAuth 2.0 for multi-shop platform apps.\nscopes:\n- scope: donation_read\n  description: Read donations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: giveaway_read\n  description: Read giveaways\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: giveaway_write\n  description: Write giveaways\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: memberships_read\n  description: Read memberships\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: memberships_write\n\
   \  description: Write memberships\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: offer_read\n  description: Read products, collections, and gifting\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: offer_write\n  description: Write products, collections, and gifting\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: order_read\n  description: Read orders\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: order_write\n  description: Write orders and fulfillments\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: promotions_read\n  description: Read promotions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: promotions_write\n  description: Write promotions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope:\
   \ shop_read\n  description: Read shop information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: webhook_read\n  description: Read webhooks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n- scope: webhook_write\n  description: Write webhooks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fourthwall-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/scopes/fourthwall-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fourthwall/scopes/fourthwall-scopes.yml
 summary_line: 14 scopes · authorizationCode
 tags:
 - Creator Commerce

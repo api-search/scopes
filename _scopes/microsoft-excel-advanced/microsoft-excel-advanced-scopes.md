@@ -5,55 +5,55 @@ api_specs:
   label: Microsoft Excel (Advanced) Charts API
   slug: microsoft-excel-advanced-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-charts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-charts-api-openapi.yml
 - filename: microsoft-excel-advanced-functions-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Functions API
   slug: microsoft-excel-advanced-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-functions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-functions-api-openapi.yml
 - filename: microsoft-excel-advanced-range-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Range API
   slug: microsoft-excel-advanced-range-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-range-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-range-api-openapi.yml
 - filename: microsoft-excel-advanced-sessions-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Sessions API
   slug: microsoft-excel-advanced-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-sessions-api-openapi.yml
 - filename: microsoft-excel-advanced-tables-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Tables API
   slug: microsoft-excel-advanced-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-tables-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-tables-api-openapi.yml
 - filename: microsoft-excel-advanced-worksheets-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Worksheets API
   slug: microsoft-excel-advanced-worksheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-worksheets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-worksheets-api-openapi.yml
 - filename: microsoft-excel-advanced-named-items-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Named Items API
   slug: microsoft-excel-advanced-named-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-named-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-named-items-api-openapi.yml
 - filename: microsoft-excel-advanced-table-columns-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Table Columns API
   slug: microsoft-excel-advanced-table-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-table-columns-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-table-columns-api-openapi.yml
 - filename: microsoft-excel-advanced-table-rows-api-openapi.yml
   format: yaml
   label: Microsoft Excel (Advanced) Table Rows API
   slug: microsoft-excel-advanced-table-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/openapi/microsoft-excel-advanced-table-rows-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-excel-advanced/openapi/microsoft-excel-advanced-table-rows-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -112,7 +112,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-excel-advanced-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-excel-advanced-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\nscopes:\n- scope: Files.Read\n  description: Read user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-openapi.yml\n- scope: Files.ReadWrite\n  description: Read and write user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-openapi.yml\n- scope: Sites.Read.All\n  description: Read items in all site collections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-openapi.yml\n- scope: Sites.ReadWrite.All\n  description: Read and write items in all site\
   \ collections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-excel-advanced-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-advanced/refs/heads/main/scopes/microsoft-excel-advanced-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-excel-advanced/scopes/microsoft-excel-advanced-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Automation

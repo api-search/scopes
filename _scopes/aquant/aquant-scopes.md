@@ -5,67 +5,67 @@ api_specs:
   label: Aquant Agent Data API
   slug: aquant-agent-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-agent-data-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-agent-data-api-openapi.yml
 - filename: aquant-asset-location-api-openapi.yml
   format: yaml
   label: Aquant Asset Location API
   slug: aquant-asset-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-asset-location-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-asset-location-api-openapi.yml
 - filename: aquant-health-api-openapi.yml
   format: yaml
   label: Aquant Health API
   slug: aquant-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-health-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-health-api-openapi.yml
 - filename: aquant-next-symptom-api-openapi.yml
   format: yaml
   label: Aquant Next Symptom API
   slug: aquant-next-symptom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-next-symptom-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-next-symptom-api-openapi.yml
 - filename: aquant-observation-existence-api-openapi.yml
   format: yaml
   label: Aquant Observation Existence API
   slug: aquant-observation-existence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-observation-existence-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-observation-existence-api-openapi.yml
 - filename: aquant-part-catalog-lookup-api-openapi.yml
   format: yaml
   label: Aquant Part Catalog Lookup API
   slug: aquant-part-catalog-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-catalog-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-part-catalog-lookup-api-openapi.yml
 - filename: aquant-part-info-api-openapi.yml
   format: yaml
   label: Aquant Part Info API
   slug: aquant-part-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-info-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-part-info-api-openapi.yml
 - filename: aquant-part-sources-api-openapi.yml
   format: yaml
   label: Aquant Part Sources API
   slug: aquant-part-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-part-sources-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-part-sources-api-openapi.yml
 - filename: aquant-preventive-maintenance-check-list-api-openapi.yml
   format: yaml
   label: Aquant Preventive Maintenance Check List API
   slug: aquant-preventive-maintenance-check-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-preventive-maintenance-check-list-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-preventive-maintenance-check-list-api-openapi.yml
 - filename: aquant-summary-report-api-openapi.yml
   format: yaml
   label: Aquant Summary Report API
   slug: aquant-summary-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-summary-report-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-summary-report-api-openapi.yml
 - filename: aquant-technician-proximity-api-openapi.yml
   format: yaml
   label: Aquant Technician Proximity API
   slug: aquant-technician-proximity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/openapi/aquant-technician-proximity-api-openapi.yml
+  url: https://artifacts.apis.io/aquant/openapi/aquant-technician-proximity-api-openapi.yml
 authorization_urls:
 - https://login.aquant.ai/oauth2/v1/authorize
 description: ''
@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: https://login.aqu
   \    tokenUrl: https://login.aquant.ai/oauth2/v1/token\n    pkce: S256\n  - flow: implicit\n    authorizationUrl: https://login.aquant.ai/oauth2/v1/authorize\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://login.aquant.ai/oauth2/v1/device/authorize\n    tokenUrl: https://login.aquant.ai/oauth2/v1/token\n  - flow: password\n    tokenUrl: https://login.aquant.ai/oauth2/v1/token\n  - flow: refreshToken\n    tokenUrl: https://login.aquant.ai/oauth2/v1/token\nscopes:\n- scope: openid\n  description: Required to obtain an ID token; identifies the request as an OpenID Connect request.\n  flows: [authorizationCode, implicit, deviceCode, password]\n  sources: [well-known/aquant-openid-configuration.json]\n- scope: profile\n  description: Access to default profile claims (name, family_name, given_name, locale, zoneinfo, updated_at).\n  flows: [authorizationCode, implicit, deviceCode, password]\n  sources: [well-known/aquant-openid-configuration.json]\n- scope: email\n  description: Access\
   \ to the email and email_verified claims.\n  flows: [authorizationCode, implicit, deviceCode, password]\n  sources: [well-known/aquant-openid-configuration.json]\n- scope: address\n  description: Access to the address claim.\n  flows: [authorizationCode, implicit, deviceCode, password]\n  sources: [well-known/aquant-openid-configuration.json]\n- scope: phone\n  description: Access to the phone_number and phone_number_verified claims.\n  flows: [authorizationCode, implicit, deviceCode, password]\n  sources: [well-known/aquant-openid-configuration.json]\n- scope: offline_access\n  description: Issues a refresh token so the client can renew access without re-prompting the user.\n  flows: [authorizationCode, deviceCode, password]\n  sources: [well-known/aquant-openid-configuration.json]\n- scope: groups\n  description: Includes the user's group memberships as a claim — the Okta-specific scope Aquant uses for role/tenant assignment.\n  flows: [authorizationCode, implicit, deviceCode, password]\n\
   \  sources: [well-known/aquant-openid-configuration.json]\ngaps:\n- >-\n  No API-level scope surface exists. The MCP server and the ACP/VoiceAI API authorize by\n  API key/secret and tenant_id, with no scope vocabulary published for either.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/scopes/aquant-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aquant/scopes/aquant-scopes.yml
 summary_line: 7 scopes · authorizationCode/implicit/deviceCode/password/refreshToken
 tags:
 - Company

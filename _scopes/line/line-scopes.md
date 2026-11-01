@@ -5,67 +5,67 @@ api_specs:
   label: LINE Channel Access Token API
   slug: line-channel-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-channel-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-channel-access-token-api-openapi.yml
 - filename: line-dummy-api-openapi.yml
   format: yaml
   label: LINE Dummy API
   slug: line-dummy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-dummy-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-dummy-api-openapi.yml
 - filename: line-insight-api-openapi.yml
   format: yaml
   label: LINE Insight API
   slug: line-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-insight-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-insight-api-openapi.yml
 - filename: line-liff-api-openapi.yml
   format: yaml
   label: LINE Liff API
   slug: line-liff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-liff-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-liff-api-openapi.yml
 - filename: line-line-module-api-openapi.yml
   format: yaml
   label: LINE Module API
   slug: line-line-module-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-line-module-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-line-module-api-openapi.yml
 - filename: line-line-module-attach-api-openapi.yml
   format: yaml
   label: LINE Module Attach API
   slug: line-line-module-attach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-line-module-attach-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-line-module-attach-api-openapi.yml
 - filename: line-manage-audience-api-openapi.yml
   format: yaml
   label: LINE Manage Audience API
   slug: line-manage-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-manage-audience-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-manage-audience-api-openapi.yml
 - filename: line-manage-audience-blob-api-openapi.yml
   format: yaml
   label: LINE Manage Audience Blob API
   slug: line-manage-audience-blob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-manage-audience-blob-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-manage-audience-blob-api-openapi.yml
 - filename: line-messaging-api-api-openapi.yml
   format: yaml
   label: LINE Messaging API
   slug: line-messaging-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-messaging-api-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-messaging-api-api-openapi.yml
 - filename: line-messaging-api-blob-api-openapi.yml
   format: yaml
   label: LINE Messaging API Blob API
   slug: line-messaging-api-blob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-messaging-api-blob-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-messaging-api-blob-api-openapi.yml
 - filename: line-shop-api-openapi.yml
   format: yaml
   label: LINE Shop API
   slug: line-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/openapi/line-shop-api-openapi.yml
+  url: https://artifacts.apis.io/line/openapi/line-shop-api-openapi.yml
 authorization_urls:
 - https://access.line.me/oauth2/v2.1/authorize
 description: Scopes apply to LINE Login v2.1 — the end-user OAuth 2.0 / OpenID Connect surface — not to the Messaging API. Messaging API calls carry a channel access token, which is scoped to a channel and carries no scope claim at all; entitlement there is a property of the channel and the Official Account plan. Consequently no scope is derivable from the harvested OpenAPI documents, which declare only an HTTP Bearer scheme.
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://a
   \    token_endpoint: https://api.line.me/oauth2/v2.1/token\n    revocation_endpoint: https://api.line.me/oauth2/v2.1/revoke\n    userinfo_endpoint: https://api.line.me/oauth2/v2.1/userinfo\n    jwks_uri: https://api.line.me/oauth2/v2.1/certs\n    response_types_supported: [code]\n    subject_types_supported: [pairwise]\n    id_token_signing_alg_values_supported: [ES256]\n    code_challenge_methods_supported: [S256]\n    pkce: >-\n      Supported and optional. Only S256 is accepted — the `plain` method is not\n      supported. A request without code_challenge simply does not use PKCE.\nscopes:\n  - name: profile\n    description: >-\n      Permission to get the user's profile — user ID, display name, profile\n      image URL and status message. Displayed as a required permission on the\n      consent screen when requested.\n    grants:\n      - GET https://api.line.me/v2/profile\n      - Access to userId, displayName, pictureUrl, statusMessage\n  - name: openid\n    description: >-\n  \
   \    Permission to obtain an ID token (JWT, ES256-signed) alongside the access\n      token, turning the OAuth flow into an OpenID Connect authentication.\n      Required for the userinfo endpoint.\n    grants:\n      - ID token issuance\n      - GET https://api.line.me/oauth2/v2.1/userinfo\n  - name: email\n    description: >-\n      Permission to receive the user's email address in the ID token. Requires\n      the openid scope and requires the channel to have applied for and been\n      granted the email permission in the LINE Developers Console.\n    grants:\n      - email claim in the ID token\n    note: >-\n      Gated — the channel must submit an application before the scope can be\n      requested.\ncombinations_documented:\n  - scope: profile\n    id_token: false\n  - scope: profile openid\n    id_token: true\n  - scope: profile openid email\n    id_token: true\n    email_claim: true\n  - scope: openid\n    id_token: true\n  - scope: openid email\n    id_token: true\n    email_claim:\
   \ true\nchannel_access_tokens:\n  scoped: false\n  note: >-\n    The Channel Access Token API issues four token types — long-lived,\n    short-lived v2.0, JWT-assertion v2.1 and stateless v3 — none of which\n    carries an OAuth scope. Authorization is channel-level and plan-level:\n    corporate/partner-only endpoints return 403 \"Access to this API is not\n    available for your account\" rather than an insufficient_scope error.\n  see: authentication/line-authentication.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/scopes/line-scopes.yml
+source_yaml_url: https://artifacts.apis.io/line/scopes/line-scopes.yml
 summary_line: 3 scopes · authorization_code
 tags:
 - Messaging

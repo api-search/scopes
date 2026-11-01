@@ -45,7 +45,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://hi52toys.com/.well-known/openid-configuration\ndocs: https://hi52toys.com/.well-known/oauth-authorization-server\nnote: >-\n  OAuth/OIDC scopes advertised by the Shopify customer-account authorization\n  server backing the 52TOYS storefront and its UCP agentic-commerce MCP endpoint.\n  Captured verbatim from scopes_supported in the live discovery document.\nschemes:\n- name: shopify-customer-account-oidc\n  issuer: https://shopify.com/authentication/77378748731\n  authorizationUrl: https://account.hi52toys.com/authentication/oauth/authorize\n  tokenUrl: https://account.hi52toys.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token for the customer.\n  sources: [well-known/52toys-openid-configuration.json]\n- scope: email\n  description: Access to the customer's email address and email_verified claim.\n  sources: [well-known/52toys-openid-configuration.json]\n\
   - scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on the shopper's behalf.\n  sources: [well-known/52toys-openid-configuration.json]\n- scope: customer-account-mcp-api:full\n  description: Full access to the customer-account MCP API for agent-driven commerce actions.\n  sources: [well-known/52toys-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/scopes/52toys-scopes.yml
+source_yaml_url: https://artifacts.apis.io/52toys/scopes/52toys-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

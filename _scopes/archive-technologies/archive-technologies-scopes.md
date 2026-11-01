@@ -41,7 +41,7 @@ source_filename: archive-technologies-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://app.archive.com/.well-known/oauth-authorization-server\ndocs: https://api-docs.archive.com\ndescription: >-\n  Archive's direct GraphQL API authenticates with a workspace-scoped bearer token, not\n  OAuth, so it exposes no scope surface. OAuth is used only by Archive's hosted MCP server,\n  whose RFC 8414 authorization-server metadata declares a single supported scope, \"mcp\".\nschemes:\n- name: mcpOAuth\n  type: oauth2\n  source: https://app.archive.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.archive.com/oauth/authorize\n    tokenUrl: https://app.archive.com/oauth/token\nscopes:\n- scope: mcp\n  description: >-\n    Grants an OAuth client access to the Archive MCP server (app.archive.com/api/v2/mcp),\n    which fronts the Archive GraphQL API on the authorized user's behalf.\n  flows: [authorizationCode]\n  sources: [https://app.archive.com/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/scopes/archive-technologies-scopes.yml
+source_yaml_url: https://artifacts.apis.io/archive-technologies/scopes/archive-technologies-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

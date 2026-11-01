@@ -5,13 +5,13 @@ api_specs:
   label: Commure Auth API
   slug: commure-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-auth-api-openapi.yml
+  url: https://artifacts.apis.io/commure/openapi/commure-auth-api-openapi.yml
 - filename: commure-fhir-api-openapi.yml
   format: yaml
   label: Commure FHIR API
   slug: commure-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/commure/openapi/commure-fhir-api-openapi.yml
 authorization_urls:
 - https://api-{tenant-id}.developer.commure.com/auth/authorize
 description: ''
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: searched\nsource: openapi/commure
   \      standard: false\n    - scope: openid\n      description: OpenID Connect authentication; returns an ID token.\n      standard: true\n    - scope: profile\n      description: OpenID Connect profile claims.\n      standard: true\n    - scope: email\n      description: OpenID Connect email claim.\n      standard: true\n    - scope: address\n      description: OpenID Connect address claim.\n      standard: true\n    - scope: phone\n      description: OpenID Connect phone_number claim.\n      standard: true\n    - scope: offline_access\n      description: Request a refresh token.\n      standard: true\n  - issuer: https://accounts.commure.com\n    kind: org\n    source: well-known/commure-accounts-oauth-authorization-server.json\n    commure_configured: false\n    scopes_summary: >-\n      Advertises 7 OIDC scopes (openid, email, profile, address, phone, offline_access, groups)\n      plus 78 okta.* management scopes (okta.users.*, okta.groups.*, okta.apps.*, okta.policies.*,\n      okta.logs.read,\
   \ ...). The okta.* set is Okta's own platform management API, identical in\n      every Okta org, and is NOT enumerated here because it says nothing about Commure - see the\n      verbatim document for the full list.\n    okta_platform_scope_count: 78\n    oidc_scope_count: 7\nx-searched:\n  fetched: '2026-08-15'\n  previous: '2026-07-31'\n  sources:\n  - https://www.postman.com/commure/commure/documentation/vp76tv7/commure-fhir-api\n  - postman/commure-fhir-api-collection.json\n  findings:\n  - Commure publishes no standalone scopes/permissions reference page. The only scope guidance\n    on the public surface is in the \"Commure FHIR API\" collection description, which documents\n    the starter scope set `openid email` against client id `smart_hello_world`.\n  - Commure's authorize endpoint documents the SMART EHR launch and standalone launch sequences,\n    so SMART App Launch resource scopes (patient/*.rs, user/*.rs, system/*.rs) are expected to\n    apply. Commure does NOT enumerate\
   \ them publicly - they are advertised per tenant in\n    /api/v1/r4/.well-known/smart-configuration (`scopes_supported`), which no reachable host\n    currently serves. No SMART resource scopes are asserted here rather than guessing them.\n  - The clientCredentials flow declares no scopes in the published contract.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/scopes/commure-scopes.yml
+source_yaml_url: https://artifacts.apis.io/commure/scopes/commure-scopes.yml
 summary_line: 5 scopes · authorizationCode/clientCredentials
 tags:
 - Healthcare

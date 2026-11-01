@@ -5,55 +5,55 @@ api_specs:
   label: Alinta Energy Data Holder Customers API
   slug: alinta-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-data-holder-customers-api-openapi.yml
 - filename: alinta-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: Alinta Energy Data Holder Operations API
   slug: alinta-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-data-holder-operations-api-openapi.yml
 - filename: alinta-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Alinta Energy Distributed Energy Resources API
   slug: alinta-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-distributed-energy-resources-api-openapi.yml
 - filename: alinta-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: Alinta Energy Electricity Service Points API
   slug: alinta-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-electricity-service-points-api-openapi.yml
 - filename: alinta-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: Alinta Energy Electricity Usage API
   slug: alinta-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-electricity-usage-api-openapi.yml
 - filename: alinta-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: Alinta Energy Account Balances API
   slug: alinta-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-account-balances-api-openapi.yml
 - filename: alinta-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: Alinta Energy Account Billing API
   slug: alinta-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-account-billing-api-openapi.yml
 - filename: alinta-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: Alinta Energy Accounts API
   slug: alinta-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-accounts-api-openapi.yml
 - filename: alinta-energy-energy-plans-api-openapi.yml
   format: yaml
   label: Alinta Energy Plans API
   slug: alinta-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-plans-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/alinta-
   \ for the customer's energy accounts — account balances, invoices and\n    billing transactions.\n  flows: [authorizationCode]\n  operations:\n  - getEnergyAccountBalance\n  - listEnergyAccountBalancesBulk\n  - listEnergyAccountBalancesSpecificAccounts\n  - getEnergyAccountInvoices\n  - listEnergyAccountInvoicesBulk\n  - listEnergyInvoicesForSpecificAccounts\n  - getBillingForEnergyAccount\n  - listEnergyAccountBillingBulk\n  - listEnergyAccountBillingForSpecificAccounts\n  sources: [openapi/alinta-energy-cds-energy-api-openapi.yml]\n- scope: energy:electricity.servicepoints.basic:read\n  description: >\n    Basic standing data for the customer's electricity service points, including the\n    National Meter Identifier (NMI). Excludes location and meter attributes.\n  flows: [authorizationCode]\n  operations: [listElectricityServicePoints]\n  sources: [openapi/alinta-energy-cds-energy-api-openapi.yml]\n- scope: energy:electricity.servicepoints.detail:read\n  description: >\n    Detailed\
   \ service point connection information including meter information. Additional\n    authorisation on top of the basic service point scope. Excludes meter usage data.\n  flows: [authorizationCode]\n  operations: [getElectricityServicePointDetail]\n  sources: [openapi/alinta-energy-cds-energy-api-openapi.yml]\n- scope: energy:electricity.usage:read\n  description: >\n    Electricity usage data for the customer's service points, including basic and\n    interval meter reads.\n  flows: [authorizationCode]\n  operations:\n  - getElectricityServicePointUsage\n  - listElectricityUsageBulk\n  - listElectricityUsageForServicePoints\n  sources: [openapi/alinta-energy-cds-energy-api-openapi.yml]\n- scope: energy:electricity.der:read\n  description: >\n    Distributed energy resource data for the customer's service points, as available in\n    AEMO's DER Register.\n  flows: [authorizationCode]\n  operations:\n  - getElectricityDERForServicePoint\n  - listElectricityDERBulk\n  - listElectricityDERForSpecificServicePoints\n\
   \  sources: [openapi/alinta-energy-cds-energy-api-openapi.yml]\n- scope: common:customer.basic:read\n  description: Basic information about the authorised customer (name or organisation, customer type).\n  flows: [authorizationCode]\n  operations: [getCustomer]\n  sources: [openapi/alinta-energy-cds-common-api-openapi.yml]\n- scope: common:customer.detail:read\n  description: >\n    Detailed customer information including contact details (phone numbers, email\n    addresses, physical addresses).\n  flows: [authorizationCode]\n  operations: [getCustomerDetail]\n  sources: [openapi/alinta-energy-cds-common-api-openapi.yml]\noidc_scopes:\n- scope: openid\n  description: Required OpenID Connect scope for the CDR authorisation flow.\n- scope: profile\n  description: Basic profile information of the authenticated end-user (CDR Profile Scope).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/scopes/alinta-energy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/alinta-energy/scopes/alinta-energy-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
 - Energy

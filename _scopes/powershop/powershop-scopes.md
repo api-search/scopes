@@ -5,55 +5,55 @@ api_specs:
   label: Powershop Data Holder Customers API
   slug: powershop-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-data-holder-customers-api-openapi.yml
 - filename: powershop-data-holder-operations-api-openapi.yml
   format: yaml
   label: Powershop Data Holder Operations API
   slug: powershop-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-data-holder-operations-api-openapi.yml
 - filename: powershop-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Powershop Distributed Energy Resources API
   slug: powershop-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-distributed-energy-resources-api-openapi.yml
 - filename: powershop-electricity-service-points-api-openapi.yml
   format: yaml
   label: Powershop Electricity Service Points API
   slug: powershop-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-electricity-service-points-api-openapi.yml
 - filename: powershop-electricity-usage-api-openapi.yml
   format: yaml
   label: Powershop Electricity Usage API
   slug: powershop-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-electricity-usage-api-openapi.yml
 - filename: powershop-energy-account-balances-api-openapi.yml
   format: yaml
   label: Powershop Energy Account Balances API
   slug: powershop-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-energy-account-balances-api-openapi.yml
 - filename: powershop-energy-account-billing-api-openapi.yml
   format: yaml
   label: Powershop Energy Account Billing API
   slug: powershop-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-energy-account-billing-api-openapi.yml
 - filename: powershop-energy-accounts-api-openapi.yml
   format: yaml
   label: Powershop Energy Accounts API
   slug: powershop-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-energy-accounts-api-openapi.yml
 - filename: powershop-energy-plans-api-openapi.yml
   format: yaml
   label: Powershop Energy Plans API
   slug: powershop-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-energy-plans-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  openapi/p
   - scope: energy:electricity.servicepoints.detail:read\n  description: >-\n    Read detailed electricity service point data — NMI standing data sourced\n    from AEMO as secondary data holder.\n  operations: [getElectricityServicePointDetail]\n  sources: [openapi/powershop-cdr-energy-api-openapi.json]\n- scope: energy:electricity.usage:read\n  description: >-\n    Read interval metering (usage) data for authorised service points, sourced\n    from AEMO as secondary data holder.\n  operations:\n  - getElectricityServicePointUsage\n  - listElectricityUsageBulk\n  - listElectricityUsageForServicePoints\n  sources: [openapi/powershop-cdr-energy-api-openapi.json]\n- scope: energy:electricity.der:read\n  description: >-\n    Read Distributed Energy Resource (rooftop solar, inverter and battery)\n    register data for authorised service points — approved capacity, phase\n    counts, islandable installation, protection mode, AC connections and DER\n    devices. Sourced from the AEMO DER register.\n\
   \  operations:\n  - getElectricityDERForServicePoint\n  - listElectricityDERBulk\n  - listElectricityDERForSpecificServicePoints\n  sources: [openapi/powershop-cdr-energy-api-openapi.json]\n- scope: common:customer.basic:read\n  description: >-\n    Read basic customer information — name or business/organisation name for the\n    authorising consumer.\n  operations: [getCustomer]\n  sources: [openapi/powershop-cdr-common-api-openapi.json]\n- scope: common:customer.detail:read\n  description: >-\n    Read detailed customer information — contact details, supply address, and\n    for business customers the business name and ABN.\n  operations: [getCustomerDetail]\n  sources: [openapi/powershop-cdr-common-api-openapi.json]\nunscoped_operations:\n  note: Public endpoints that declare no x-scopes and require no authorisation.\n  operations: [listEnergyPlans, getEnergyPlanDetail, getStatus, getOutages]\ndata_clusters_per_powershop_policy:\n  source: https://www.powershop.com.au/privacy-policy/cdr-policy\n\
   \  note: >-\n    Powershop's own CDR policy names the data it shares in consumer language,\n    which maps onto the scopes above.\n  clusters:\n  - Customer data — name, contact details, supply address, business name, ABN\n  - Account data — account number, creation date, identifiers, product data, payment arrangements, concessions and rebates\n  - Invoice and billing data\n  - AEMO data — metering (usage) data, NMI standing data, DER (solar) register data\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/scopes/powershop-scopes.yml
+source_yaml_url: https://artifacts.apis.io/powershop/scopes/powershop-scopes.yml
 summary_line: 11 scopes
 tags:
 - Energy

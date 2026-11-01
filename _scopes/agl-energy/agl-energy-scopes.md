@@ -5,55 +5,55 @@ api_specs:
   label: AGL Energy Data Holder Customers API
   slug: agl-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-data-holder-customers-api-openapi.yml
 - filename: agl-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: AGL Energy Data Holder Operations API
   slug: agl-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-data-holder-operations-api-openapi.yml
 - filename: agl-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: AGL Energy Distributed Energy Resources API
   slug: agl-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-distributed-energy-resources-api-openapi.yml
 - filename: agl-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: AGL Energy Electricity Service Points API
   slug: agl-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-electricity-service-points-api-openapi.yml
 - filename: agl-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: AGL Energy Electricity Usage API
   slug: agl-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-electricity-usage-api-openapi.yml
 - filename: agl-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: AGL Energy Account Balances API
   slug: agl-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-account-balances-api-openapi.yml
 - filename: agl-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: AGL Energy Account Billing API
   slug: agl-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-account-billing-api-openapi.yml
 - filename: agl-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: AGL Energy Accounts API
   slug: agl-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-accounts-api-openapi.yml
 - filename: agl-energy-energy-plans-api-openapi.yml
   format: yaml
   label: AGL Energy Plans API
   slug: agl-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/openapi/agl-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/agl-energy/openapi/agl-energy-energy-plans-api-openapi.yml
 authorization_urls: []
 description: The eleven CDR consent scopes that govern AGL's consumer energy data. These are not declared in an OpenAPI securityScheme — the harvested Consumer Data Standards documents ship an empty components.securitySchemes — they are carried per operation in the DSB's x-scopes extension and defined normatively in the standards. A consumer authorises a subset of these scopes through AGL's CDR consent flow; the Accredited Data Recipient's access token then carries only what was consented, for the duration the consumer chose.
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: derived\nsource: >-\n  x-scopes e
   \ [openapi/agl-energy-cds-energy-openapi.json]\n  operations:\n  - getEnergyAccountBalance\n  - listEnergyAccountBalancesBulk\n  - listEnergyAccountBalancesSpecificAccounts\n  - getEnergyAccountInvoices\n  - listEnergyAccountInvoicesBulk\n  - listEnergyInvoicesForSpecificAccounts\n  - getBillingForEnergyAccount\n  - listEnergyAccountBillingBulk\n  - listEnergyAccountBillingForSpecificAccounts\n- scope: energy:electricity.servicepoints.basic:read\n  description: The NMIs (service points) associated with the consumer, with basic status and classification.\n  sources: [openapi/agl-energy-cds-energy-openapi.json]\n  operations: [listElectricityServicePoints]\n- scope: energy:electricity.servicepoints.detail:read\n  description: Service point detail — meters, registers, distribution loss factor, related market participants, technical specifications.\n  sources: [openapi/agl-energy-cds-energy-openapi.json]\n  operations: [getElectricityServicePointDetail]\n- scope: energy:electricity.usage:read\n\
   \  description: Interval and basic meter reads for a service point — the consumption data itself.\n  sources: [openapi/agl-energy-cds-energy-openapi.json]\n  operations:\n  - getElectricityServicePointUsage\n  - listElectricityUsageBulk\n  - listElectricityUsageForServicePoints\n- scope: energy:electricity.der:read\n  description: Distributed Energy Resource register detail — solar PV, batteries, inverters, AC connections and protection modes.\n  sources: [openapi/agl-energy-cds-energy-openapi.json]\n  operations:\n  - getElectricityDERForServicePoint\n  - listElectricityDERBulk\n  - listElectricityDERForSpecificServicePoints\nunscoped_operations:\n  note: >-\n    Four operations carry no x-scopes because they are unauthenticated under the\n    Consumer Data Standards.\n  operations:\n  - {operationId: getStatus, surface: AGL CDR Discovery, auth: none}\n  - {operationId: getOutages, surface: AGL CDR Discovery, auth: none}\n  - {operationId: listEnergyPlans, surface: Product Reference Data\
   \ (AER-hosted), auth: none}\n  - {operationId: getEnergyPlanDetail, surface: Product Reference Data (AER-hosted), auth: none}\nsecondary_data_holder:\n  party: AEMO\n  role: >-\n    Secondary data holder for NMI standing data and metering data. AGL requests\n    it from AEMO on the consumer's behalf under the same consent; errors\n    propagated from AEMO are flagged with isSecondaryDataHolderError on the CDS\n    error object.\n  docs: https://www.aemo.com.au/energy-systems/electricity/cdr-at-aemo/about-cdr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agl-energy/refs/heads/main/scopes/agl-energy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/agl-energy/scopes/agl-energy-scopes.yml
 summary_line: 11 scopes
 tags:
 - Energy

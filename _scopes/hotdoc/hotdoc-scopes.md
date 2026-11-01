@@ -45,7 +45,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: https://www.hotdoc.com.au/.well-known/openid-configuration\ndocs: https://www.hotdoc.com.au/.well-known/openid-configuration\nnote: >-\n  HotDoc's OpenID Connect discovery document advertises a single OAuth 2.0 scope,\n  \"openid\". No broader resource/API scope surface (read/write per-resource scopes)\n  is published; the authorization server issues OIDC identity tokens whose claims\n  (practice_name, pms_software, access_level, company) carry the authorization\n  context rather than granular scopes. Additional scopes, if any, are gated behind\n  partner/clinic client registration and are not publicly documented.\nschemes:\n- name: HotDocOAuth2\n  source: well-known/hotdoc-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.hotdoc.com.au/oauth/authorize\n    tokenUrl: https://www.hotdoc.com.au/oauth/token\n  - flow: implicit\n    authorizationUrl: https://www.hotdoc.com.au/oauth/authorize\n\
   scopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token with the subject and profile claims.\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - well-known/hotdoc-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotdoc/refs/heads/main/scopes/hotdoc-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hotdoc/scopes/hotdoc-scopes.yml
 summary_line: 1 scope · authorizationCode/implicit
 tags:
 - Healthcare

@@ -5,181 +5,181 @@ api_specs:
   label: AutoContent API Content API
   slug: autocontent-api-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-content-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-content-api-openapi.yml
 - filename: autocontent-api-dedicated-account-api-openapi.yml
   format: yaml
   label: AutoContent API Dedicated Account API
   slug: autocontent-api-dedicated-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-dedicated-account-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-dedicated-account-api-openapi.yml
 - filename: autocontent-api-podcast-api-openapi.yml
   format: yaml
   label: AutoContent API Podcast API
   slug: autocontent-api-podcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-podcast-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-podcast-api-openapi.yml
 - filename: autocontent-api-share-api-openapi.yml
   format: yaml
   label: AutoContent API Share API
   slug: autocontent-api-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-share-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-share-api-openapi.yml
 - filename: autocontent-api-video-api-openapi.yml
   format: yaml
   label: AutoContent API Video API
   slug: autocontent-api-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-video-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-video-api-openapi.yml
 - filename: autocontent-api-account-api-openapi.yml
   format: yaml
   label: AutoContent API Account API
   slug: autocontent-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-account-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-account-api-openapi.yml
 - filename: autocontent-api-api-keys-api-openapi.yml
   format: yaml
   label: AutoContent API API Keys API
   slug: autocontent-api-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-api-keys-api-openapi.yml
 - filename: autocontent-api-asset-types-api-openapi.yml
   format: yaml
   label: AutoContent API Asset Types API
   slug: autocontent-api-asset-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-asset-types-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-asset-types-api-openapi.yml
 - filename: autocontent-api-assets-api-openapi.yml
   format: yaml
   label: AutoContent API Assets API
   slug: autocontent-api-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-assets-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-assets-api-openapi.yml
 - filename: autocontent-api-avatars-api-openapi.yml
   format: yaml
   label: AutoContent API Avatars API
   slug: autocontent-api-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-avatars-api-openapi.yml
 - filename: autocontent-api-billing-api-openapi.yml
   format: yaml
   label: AutoContent API Billing API
   slug: autocontent-api-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-billing-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-billing-api-openapi.yml
 - filename: autocontent-api-collections-api-openapi.yml
   format: yaml
   label: AutoContent API Collections API
   slug: autocontent-api-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-collections-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-collections-api-openapi.yml
 - filename: autocontent-api-content-loop-runs-api-openapi.yml
   format: yaml
   label: AutoContent API Content Loop Runs API
   slug: autocontent-api-content-loop-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-content-loop-runs-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-content-loop-runs-api-openapi.yml
 - filename: autocontent-api-content-loops-api-openapi.yml
   format: yaml
   label: AutoContent API Content Loops API
   slug: autocontent-api-content-loops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-content-loops-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-content-loops-api-openapi.yml
 - filename: autocontent-api-data-tables-api-openapi.yml
   format: yaml
   label: AutoContent API Data Tables API
   slug: autocontent-api-data-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-data-tables-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-data-tables-api-openapi.yml
 - filename: autocontent-api-deep-research-api-openapi.yml
   format: yaml
   label: AutoContent API Deep Research API
   slug: autocontent-api-deep-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-deep-research-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-deep-research-api-openapi.yml
 - filename: autocontent-api-documents-api-openapi.yml
   format: yaml
   label: AutoContent API Documents API
   slug: autocontent-api-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-documents-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-documents-api-openapi.yml
 - filename: autocontent-api-feeds-api-openapi.yml
   format: yaml
   label: AutoContent API Feeds API
   slug: autocontent-api-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-feeds-api-openapi.yml
 - filename: autocontent-api-files-api-openapi.yml
   format: yaml
   label: AutoContent API Files API
   slug: autocontent-api-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-files-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-files-api-openapi.yml
 - filename: autocontent-api-generations-api-openapi.yml
   format: yaml
   label: AutoContent API Generations API
   slug: autocontent-api-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-generations-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-generations-api-openapi.yml
 - filename: autocontent-api-infographics-api-openapi.yml
   format: yaml
   label: AutoContent API Infographics API
   slug: autocontent-api-infographics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-infographics-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-infographics-api-openapi.yml
 - filename: autocontent-api-models-api-openapi.yml
   format: yaml
   label: AutoContent API Models API
   slug: autocontent-api-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-models-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-models-api-openapi.yml
 - filename: autocontent-api-projects-api-openapi.yml
   format: yaml
   label: AutoContent API Projects API
   slug: autocontent-api-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-projects-api-openapi.yml
 - filename: autocontent-api-public-api-openapi.yml
   format: yaml
   label: AutoContent API Public API
   slug: autocontent-api-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-public-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-public-api-openapi.yml
 - filename: autocontent-api-quizzes-api-openapi.yml
   format: yaml
   label: AutoContent API Quizzes API
   slug: autocontent-api-quizzes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-quizzes-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-quizzes-api-openapi.yml
 - filename: autocontent-api-slide-decks-api-openapi.yml
   format: yaml
   label: AutoContent API Slide Decks API
   slug: autocontent-api-slide-decks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-slide-decks-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-slide-decks-api-openapi.yml
 - filename: autocontent-api-sources-api-openapi.yml
   format: yaml
   label: AutoContent API Sources API
   slug: autocontent-api-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-sources-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-sources-api-openapi.yml
 - filename: autocontent-api-voices-api-openapi.yml
   format: yaml
   label: AutoContent API Voices API
   slug: autocontent-api-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-voices-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-voices-api-openapi.yml
 - filename: autocontent-api-webhooks-api-openapi.yml
   format: yaml
   label: AutoContent API Webhooks API
   slug: autocontent-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-webhooks-api-openapi.yml
 - filename: autocontent-api-x-api-openapi.yml
   format: yaml
   label: AutoContent API X API
   slug: autocontent-api-x-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/openapi/autocontent-api-x-api-openapi.yml
+  url: https://artifacts.apis.io/autocontent-api/openapi/autocontent-api-x-api-openapi.yml
 authorization_urls: []
 description: Eight OAuth scopes across two products. The Platform API declares a required scope on every one of its 55 operations via x-required-scopes, so the mapping below is read from the contract rather than inferred. Two legacy scopes cover the older MCP resource.
 docs: https://autocontentapi.com/developers/api
@@ -241,7 +241,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: >-\n  scopes_supp
   \  - removeSource\n  - refreshSource\n  - recordAssetFeedback\n  - recordContentLoopRunFeedback\n  - createWebhook\n  - listWebhooks\n  - deleteWebhook\n- name: platform.generate\n  product: Platform API v1\n  description: >-\n    Spend money. Preview and create Generations and full-Asset edits, cancel Generations, run\n    Content Loops, and create or revoke custom Voices and Avatars.\n  spends: true\n  examples:\n  - previewGeneration\n  - createGeneration\n  - previewGenerationEdit\n  - createGenerationEdit\n  - cancelGeneration\n  - runContentLoop\n  - createVoice\n  - revokeVoice\n  - createAvatar\n  - revokeAvatar\n  note: >-\n    Content Loop create/update/archive require BOTH platform.write and platform.generate, because\n    a Loop is a standing authorization to spend.\n- name: platform.billing.read\n  product: Platform API v1\n  description: Read authoritative usage and prepaid service balance.\n  examples:\n  - getBillingUsage\n- name: platform.billing.write\n  product: Platform\
   \ API v1\n  description: >-\n    Create a prepaid Checkout session to add USD service balance. The docs call this the OAuth-only\n    prepayment endpoint.\n  examples:\n  - createPrepaymentSession\n  note: >-\n    NOT requested by the Platform MCP — the MCP WWW-Authenticate challenge asks only for\n    platform.read, platform.write, platform.generate and platform.billing.read, so an MCP client\n    cannot move money into the account.\n- name: platform.keys.write\n  product: Platform API v1\n  description: Mint, list and revoke scoped Platform API keys.\n  examples:\n  - createApiKey\n  - listApiKeys\n  - revokeApiKey\n  note: >-\n    Credential minting. Also outside the Platform MCP's requested scope set. listApiKeys requires\n    the write scope, so there is no read-only view of an account's keys.\n- name: content.create\n  product: Legacy AutoContent MCP\n  description: Create content through the legacy AutoContent MCP resource.\n  resource: https://mcp.autocontentapi.com/mcp\n- name:\
   \ content.status\n  product: Legacy AutoContent MCP\n  description: Read the status of legacy content requests.\n  resource: https://mcp.autocontentapi.com/mcp\nmcp_scope_sets:\n- endpoint: https://mcp.autocontentapi.com/v1\n  scopes: [platform.read, platform.write, platform.generate, platform.billing.read]\n  evidence: WWW-Authenticate header on an anonymous POST, 2026-09-04.\n- endpoint: https://mcp.autocontentapi.com/mcp\n  scopes: [content.create, content.status]\n  evidence: https://mcp.autocontentapi.com/.well-known/oauth-protected-resource\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/scopes/autocontent-api-scopes.yml
+source_yaml_url: https://artifacts.apis.io/autocontent-api/scopes/autocontent-api-scopes.yml
 summary_line: 8 scopes
 tags:
 - Artificial Intelligence

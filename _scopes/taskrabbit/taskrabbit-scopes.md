@@ -5,31 +5,31 @@ api_specs:
   label: TaskRabbit Delivery API
   slug: taskrabbit-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-delivery-api-openapi.yml
 - filename: taskrabbit-home-services-availability-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Availability API
   slug: taskrabbit-home-services-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-availability-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-availability-api-openapi.yml
 - filename: taskrabbit-home-services-booking-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Booking API
   slug: taskrabbit-home-services-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-booking-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-booking-api-openapi.yml
 - filename: taskrabbit-home-services-catalog-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Catalog API
   slug: taskrabbit-home-services-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-catalog-api-openapi.yml
 - filename: taskrabbit-home-services-estimate-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Estimate API
   slug: taskrabbit-home-services-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-estimate-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -91,7 +91,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/taskrabbit-delivery-api-openapi.yml, openapi/taskrabbit-home-services-availability-api-openapi.yml,\n  openapi/taskrabbit-home-services-booking-api-openapi.yml, openapi/taskrabbit-home-services-catalog-api-openapi.yml,\n  openapi/taskrabbit-home-services-estimate-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/taskrabbit-delivery-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\n- name: oauth2\n  source: openapi/taskrabbit-home-services-availability-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\n- name: oauth2\n  source:\
   \ openapi/taskrabbit-home-services-booking-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\n- name: oauth2\n  source: openapi/taskrabbit-home-services-catalog-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\n- name: oauth2\n  source: openapi/taskrabbit-home-services-estimate-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes,\
   \ and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/scopes/taskrabbit-scopes.yml
+source_yaml_url: https://artifacts.apis.io/taskrabbit/scopes/taskrabbit-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Gig Economy

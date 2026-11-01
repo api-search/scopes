@@ -5,55 +5,55 @@ api_specs:
   label: DIPS Account API
   slug: dips-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-account-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-account-api-openapi.yml
 - filename: dips-connect-api-openapi.yml
   format: yaml
   label: DIPS Connect API
   slug: dips-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-connect-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-connect-api-openapi.yml
 - filename: dips-consent-api-openapi.yml
   format: yaml
   label: DIPS Consent API
   slug: dips-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-consent-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-consent-api-openapi.yml
 - filename: dips-default-api-openapi.yml
   format: yaml
   label: DIPS * API
   slug: dips-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-default-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-default-api-openapi.yml
 - filename: dips-home-api-openapi.yml
   format: yaml
   label: DIPS Home API
   slug: dips-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-home-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-home-api-openapi.yml
 - filename: dips-login-api-openapi.yml
   format: yaml
   label: DIPS Login API
   slug: dips-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-login-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-login-api-openapi.yml
 - filename: dips-status-api-openapi.yml
   format: yaml
   label: DIPS Status API
   slug: dips-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-status-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-status-api-openapi.yml
 - filename: dips-well-known-api-openapi.yml
   format: yaml
   label: DIPS .well Known API
   slug: dips-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-well-known-api-openapi.yml
 - filename: dips-user-role-api-openapi.yml
   format: yaml
   label: DIPS User Role API
   slug: dips-user-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/openapi/dips-user-role-api-openapi.yml
+  url: https://artifacts.apis.io/dips/openapi/dips-user-role-api-openapi.yml
 authorization_urls:
 - https://api.dips.no/dips.oauth/connect/authorize
 description: ''
@@ -284,7 +284,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: https://api.dips.
   \  description: null\n- name: APPTYPE:public\n  description: null\n- name: azure-speech\n  description: null\n- name: openai-whisper\n  description: null\n- name: openai-gpt4o\n  description: null\n- name: dips-authorization-service.external-pip\n  description: null\n- name: dips-authorization-service.query/blockedforpatient\n  description: null\n- name: dips-servicebroker-referralstatus-service\n  description: null\n- name: HRAL\n  description: null\n- name: dips-sb-gatbookings\n  description: null\n- name: idmc\n  description: Access the IDMC service.\n- name: dips-anc-authorizationmanager-service/*.*\n  description: null\n- name: dips-anc-notificationmanager-service/*.*\n  description: null\n- name: dips-anc-notificationsender-service/*.*\n  description: null\n- name: dips\n  description: null\n- name: dips-iam-care-relation-service-api\n  description: null\n- name: dips-sb-worklist-service-api\n  description: null\n- name: surgery-webport-service-api\n  description: null\n- name: DI_PP_patientdata\n\
   \  description: null\n- name: pas-scheduling-gatintegration\n  description: null\n- name: dips-fhirr4-service-api\n  description: Access the DIPS FHIR R4 service API.\n- name: launch\n  description: SMART on FHIR EHR launch context.\n- name: dips-mobile\n  description: Access reserved for DIPS mobile clients.\n- name: dips-authorization-service.query/externaluser\n  description: null\n- name: smsservice\n  description: Access the DIPS SMS service.\n- name: dips-fhir-r4\n  description: Access the DIPS FHIR R4 API.\n- name: dips-fhir\n  description: Access the DIPS FHIR API (the scope named in the Open DIPS getting-started guide).\n- name: fhir-r4\n  description: Access the FHIR R4 service.\n- name: patient/*.read\n  description: SMART on FHIR read access to every resource in the patient compartment.\n- name: fhirUser\n  description: SMART on FHIR — identity of the user as a FHIR resource.\n- name: patient\n  description: SMART on FHIR patient compartment access.\n- name: surgery-plan-service-api\n\
   \  description: null\n- name: launch/patient\n  description: SMART on FHIR patient launch context.\n- name: MC_Logistics_PatientData\n  description: null\n- name: offline_access\n  description: Issue a refresh token so the client can renew access without re-prompting the user.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dips/refs/heads/main/scopes/dips-scopes.yml
+source_yaml_url: https://artifacts.apis.io/dips/scopes/dips-scopes.yml
 summary_line: 49 scopes
 tags:
 - Company

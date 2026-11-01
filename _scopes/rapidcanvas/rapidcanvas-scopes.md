@@ -57,7 +57,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://app.rapidcanvas.ai/.well-known/oauth-authorization-server\ndocs: https://app.rapidcanvas.ai/.well-known/oauth-authorization-server\nschemes:\n  - name: OAuth2\n    source: well-known/rapidcanvas-oauth-authorization-server.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://app.rapidcanvas.ai/oauth/authorize\n        tokenUrl: https://app.rapidcanvas.ai/oauth/token\n        pkce: S256\nscopes:\n  - scope: mcp\n    description: Access the RapidCanvas MCP gateway and invoke FastAPI-derived MCP tools.\n    flows: [authorizationCode]\n  - scope: openid\n    description: OpenID Connect authentication (issue an ID token).\n    flows: [authorizationCode]\n  - scope: profile\n    description: Access the signed-in user's basic profile.\n    flows: [authorizationCode]\n  - scope: email\n    description: Access the signed-in user's email address.\n    flows: [authorizationCode]\nnotes: >-\n  Scopes\
   \ are advertised in the RFC 8414 OAuth 2.0 Authorization Server Metadata\n  at app.rapidcanvas.ai. The `mcp` scope fronts the MCP gateway introduced in the\n  July 14, 2026 release (FastAPI endpoints exposed as MCP tools).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/scopes/rapidcanvas-scopes.yml
+source_yaml_url: https://artifacts.apis.io/rapidcanvas/scopes/rapidcanvas-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

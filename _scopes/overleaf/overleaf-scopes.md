@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: overleaf-openapi-generated.yml
+  format: yaml
+  label: Overleaf API
+  slug: overleaf-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/overleaf/openapi/_ae-authored/overleaf-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -28,14 +35,15 @@ source_yaml: 'generated: ''2026-10-28''
   method: none
 
   scopes: []'
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/overleaf/refs/heads/main/scopes/overleaf-scopes.yml
+source_yaml_url: https://artifacts.apis.io/overleaf/scopes/overleaf-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Company
 - Collaboration
 - LaTeX
-- OnlineEditor
+- Cloud
 - Academic
+- Writing
+- Company
 token_bound: false
 token_urls: []
 ---

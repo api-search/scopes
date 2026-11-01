@@ -5,61 +5,61 @@ api_specs:
   label: SimpliVity Backups API
   slug: simplivity-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-backups-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-backups-api-openapi.yml
 - filename: simplivity-cluster-groups-api-openapi.yml
   format: yaml
   label: SimpliVity Cluster Groups API
   slug: simplivity-cluster-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-cluster-groups-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-cluster-groups-api-openapi.yml
 - filename: simplivity-datastores-api-openapi.yml
   format: yaml
   label: SimpliVity Datastores API
   slug: simplivity-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-datastores-api-openapi.yml
 - filename: simplivity-external-stores-api-openapi.yml
   format: yaml
   label: SimpliVity External Stores API
   slug: simplivity-external-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-external-stores-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-external-stores-api-openapi.yml
 - filename: simplivity-hosts-api-openapi.yml
   format: yaml
   label: SimpliVity Hosts API
   slug: simplivity-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-hosts-api-openapi.yml
 - filename: simplivity-omnistack-clusters-api-openapi.yml
   format: yaml
   label: SimpliVity Omnistack Clusters API
   slug: simplivity-omnistack-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-omnistack-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-omnistack-clusters-api-openapi.yml
 - filename: simplivity-policies-api-openapi.yml
   format: yaml
   label: SimpliVity Policies API
   slug: simplivity-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-policies-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-policies-api-openapi.yml
 - filename: simplivity-security-api-openapi.yml
   format: yaml
   label: SimpliVity Security API
   slug: simplivity-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-security-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-security-api-openapi.yml
 - filename: simplivity-tasks-api-openapi.yml
   format: yaml
   label: SimpliVity Tasks API
   slug: simplivity-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-tasks-api-openapi.yml
 - filename: simplivity-virtual-machines-api-openapi.yml
   format: yaml
   label: SimpliVity Virtual Machines API
   slug: simplivity-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/openapi/simplivity-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/simplivity/openapi/simplivity-virtual-machines-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -104,7 +104,7 @@ source_filename: simplivity-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/simplivity-omnistack-openapi-original.json\nschemes:\n- name: OAuth2\n  source: openapi/simplivity-omnistack-openapi-original.json\n  flows:\n  - flow: password\n    tokenUrl: /oauth/token\nscopes:\n- scope: read\n  description: Grants read access\n  flows:\n  - password\n  sources:\n  - openapi/simplivity-omnistack-openapi-original.json\n- scope: write\n  description: Grants write access\n  flows:\n  - password\n  sources:\n  - openapi/simplivity-omnistack-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplivity/refs/heads/main/scopes/simplivity-scopes.yml
+source_yaml_url: https://artifacts.apis.io/simplivity/scopes/simplivity-scopes.yml
 summary_line: 2 scopes · password
 tags:
 - Company

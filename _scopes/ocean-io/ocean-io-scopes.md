@@ -5,49 +5,49 @@ api_specs:
   label: Ocean.io Autocomplete API
   slug: ocean-io-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-autocomplete-api-openapi.yml
 - filename: ocean-io-enrich-api-openapi.yml
   format: yaml
   label: Ocean.io Enrich API
   slug: ocean-io-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-enrich-api-openapi.yml
 - filename: ocean-io-lookup-api-openapi.yml
   format: yaml
   label: Ocean.io Lookup API
   slug: ocean-io-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-lookup-api-openapi.yml
 - filename: ocean-io-ocean-io-api-documentation-api-openapi.yml
   format: yaml
   label: Ocean.io API Documentation API
   slug: ocean-io-ocean-io-api-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-ocean-io-api-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-ocean-io-api-documentation-api-openapi.yml
 - filename: ocean-io-other-api-openapi.yml
   format: yaml
   label: Ocean.io Other API
   slug: ocean-io-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-other-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-other-api-openapi.yml
 - filename: ocean-io-reveal-api-openapi.yml
   format: yaml
   label: Ocean.io Reveal API
   slug: ocean-io-reveal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-reveal-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-reveal-api-openapi.yml
 - filename: ocean-io-search-api-openapi.yml
   format: yaml
   label: Ocean.io Search API
   slug: ocean-io-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-search-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-search-api-openapi.yml
 - filename: ocean-io-segmentation-api-openapi.yml
   format: yaml
   label: Ocean.io Segmentation API
   slug: ocean-io-segmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-segmentation-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-segmentation-api-openapi.yml
 authorization_urls: []
 description: Ocean.io publishes RFC 8414 OAuth 2.0 Authorization Server Metadata at https://api.ocean.io/.well-known/oauth-authorization-server (HTTP 200, application/json). The document advertises a client_credentials token endpoint and an EMPTY scopes_supported array, and no public documentation page describes the flow. The REST API itself is authenticated with a single unscoped account API token, and the OpenAPI declares no oauth2 security scheme. There is therefore no scope surface to enumerate — this file records that absence with the evidence, rather than inventing one.
 docs: ''
@@ -88,7 +88,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://api.ocean.io/.well-known/oauth-authorization-server\ndocs: null\ndescription: >-\n  Ocean.io publishes RFC 8414 OAuth 2.0 Authorization Server Metadata at\n  https://api.ocean.io/.well-known/oauth-authorization-server (HTTP 200, application/json). The\n  document advertises a client_credentials token endpoint and an EMPTY scopes_supported array, and no\n  public documentation page describes the flow. The REST API itself is authenticated with a single\n  unscoped account API token, and the OpenAPI declares no oauth2 security scheme. There is therefore\n  no scope surface to enumerate — this file records that absence with the evidence, rather than\n  inventing one.\nschemes:\n  - name: OAuth 2.0 (client credentials)\n    source: well-known/ocean-io-oauth-authorization-server.json\n    issuer: https://api.ocean.io\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://api.ocean.io/oauth/token\n        authorizationUrl:\
   \ null\n        token_endpoint_auth_methods_supported:\n          - client_secret_post\n        scopes: {}\nscopes: []\nscope_count: 0\nx-evidence:\n  - fetched: '2026-08-13'\n    url: https://api.ocean.io/.well-known/oauth-authorization-server\n    http_status: 200\n    content_type: application/json\n    finding: scopes_supported is an empty array\n  - fetched: '2026-08-13'\n    url: https://api.ocean.io/openapi.json\n    http_status: 200\n    finding: components.securitySchemes is absent; no oauth2 scheme declared\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/scopes/ocean-io-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ocean-io/scopes/ocean-io-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Sales Intelligence

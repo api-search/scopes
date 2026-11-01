@@ -5,133 +5,133 @@ api_specs:
   label: Hunter Account API
   slug: hunter-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-account-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-account-api-openapi.yml
 - filename: hunter-campaigns-api-openapi.yml
   format: yaml
   label: Hunter Campaigns API
   slug: hunter-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-campaigns-api-openapi.yml
 - filename: hunter-discover-api-openapi.yml
   format: yaml
   label: Hunter Discover API
   slug: hunter-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-discover-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-discover-api-openapi.yml
 - filename: hunter-leads-api-openapi.yml
   format: yaml
   label: Hunter Leads API
   slug: hunter-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-leads-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-leads-api-openapi.yml
 - filename: hunter-api-keys-api-openapi.yml
   format: yaml
   label: Hunter API Keys API
   slug: hunter-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-api-keys-api-openapi.yml
 - filename: hunter-companies-api-openapi.yml
   format: yaml
   label: Hunter Companies API
   slug: hunter-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-companies-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-companies-api-openapi.yml
 - filename: hunter-connected-apps-api-openapi.yml
   format: yaml
   label: Hunter Connected Apps API
   slug: hunter-connected-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-connected-apps-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-connected-apps-api-openapi.yml
 - filename: hunter-email-accounts-api-openapi.yml
   format: yaml
   label: Hunter Email Accounts API
   slug: hunter-email-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-email-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-email-accounts-api-openapi.yml
 - filename: hunter-enrichment-api-openapi.yml
   format: yaml
   label: Hunter Enrichment API
   slug: hunter-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-enrichment-api-openapi.yml
 - filename: hunter-feedback-api-openapi.yml
   format: yaml
   label: Hunter Feedback API
   slug: hunter-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-feedback-api-openapi.yml
 - filename: hunter-finder-api-openapi.yml
   format: yaml
   label: Hunter Finder API
   slug: hunter-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-finder-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-finder-api-openapi.yml
 - filename: hunter-lists-api-openapi.yml
   format: yaml
   label: Hunter Lists API
   slug: hunter-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-lists-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-lists-api-openapi.yml
 - filename: hunter-messages-api-openapi.yml
   format: yaml
   label: Hunter Messages API
   slug: hunter-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-messages-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-messages-api-openapi.yml
 - filename: hunter-multi-domain-search-api-openapi.yml
   format: yaml
   label: Hunter Multi-Domain Search API
   slug: hunter-multi-domain-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-multi-domain-search-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-multi-domain-search-api-openapi.yml
 - filename: hunter-sequences-api-openapi.yml
   format: yaml
   label: Hunter Sequences API
   slug: hunter-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-sequences-api-openapi.yml
 - filename: hunter-tags-api-openapi.yml
   format: yaml
   label: Hunter Tags API
   slug: hunter-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-tags-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-tags-api-openapi.yml
 - filename: hunter-team-api-openapi.yml
   format: yaml
   label: Hunter Team API
   slug: hunter-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-team-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-team-api-openapi.yml
 - filename: hunter-templates-api-openapi.yml
   format: yaml
   label: Hunter Templates API
   slug: hunter-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-templates-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-templates-api-openapi.yml
 - filename: hunter-usage-api-openapi.yml
   format: yaml
   label: Hunter Usage API
   slug: hunter-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-usage-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-usage-api-openapi.yml
 - filename: hunter-verifier-api-openapi.yml
   format: yaml
   label: Hunter Verifier API
   slug: hunter-verifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-verifier-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-verifier-api-openapi.yml
 - filename: hunter-views-api-openapi.yml
   format: yaml
   label: Hunter Views API
   slug: hunter-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-views-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-views-api-openapi.yml
 - filename: hunter-webhooks-api-openapi.yml
   format: yaml
   label: Hunter Webhooks API
   slug: hunter-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/openapi/hunter-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hunter/openapi/hunter-webhooks-api-openapi.yml
 authorization_urls:
 - https://hunter.io/oauth/authorize
 description: Hunter's OAuth surface is not described in the OpenAPI (which declares only API-key and bearer schemes) and is not written up in the API reference. It was discovered by probing RFC 8414 authorization-server metadata on hunter.io, which advertises exactly two coarse scopes. The remote MCP server at mcp.hunter.io publishes RFC 9728 protected-resource metadata naming the same two scopes and hunter.io as its authorization server.
@@ -198,7 +198,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://hunter.io/.well-known/oauth-authorization-server\ndocs: https://hunter.io/api-documentation/v2#authentication\ndescription: >-\n  Hunter's OAuth surface is not described in the OpenAPI (which declares only API-key and bearer\n  schemes) and is not written up in the API reference. It was discovered by probing RFC 8414\n  authorization-server metadata on hunter.io, which advertises exactly two coarse scopes.\n  The remote MCP server at mcp.hunter.io publishes RFC 9728 protected-resource metadata naming\n  the same two scopes and hunter.io as its authorization server.\nschemes:\n- name: OAuth2\n  source: https://hunter.io/.well-known/oauth-authorization-server\n  issuer: https://hunter.io\n  registration_endpoint: https://hunter.io/oauth/register\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [client_secret_basic, client_secret_post, none]\n  flows:\n  - flow: authorizationCode\n  \
   \  authorizationUrl: https://hunter.io/oauth/authorize\n    tokenUrl: https://hunter.io/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://hunter.io/oauth/token\n  - flow: refreshToken\n    tokenUrl: https://hunter.io/oauth/token\nscopes:\n- scope: read\n  description: >-\n    Read access. Granularity is not documented; Hunter publishes no scope reference page, so the\n    mapping from this scope to individual endpoints or MCP tools is not stated anywhere public.\n  flows: [authorizationCode, clientCredentials, refreshToken]\n  sources: [https://hunter.io/.well-known/oauth-authorization-server, https://mcp.hunter.io/.well-known/oauth-protected-resource]\n- scope: write\n  description: >-\n    Write access. Same caveat: no published scope-to-operation mapping, so a client cannot tell\n    which of the 100 MCP tools or 25 REST operations a \"write\" grant actually unlocks.\n  flows: [authorizationCode, clientCredentials, refreshToken]\n  sources: [https://hunter.io/.well-known/oauth-authorization-server,\
   \ https://mcp.hunter.io/.well-known/oauth-protected-resource]\ngaps:\n- id: no-scope-reference-page\n  detail: Hunter publishes no scopes/permissions reference page; the two scopes are only discoverable from the discovery documents.\n- id: coarse-granularity\n  detail: >-\n    Two scopes cover an API surface that includes destructive bulk deletes, CRM push and sending\n    email sequences. A \"write\" grant is effectively full account control.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/scopes/hunter-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hunter/scopes/hunter-scopes.yml
 summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - Contact Discovery

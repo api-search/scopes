@@ -5,25 +5,25 @@ api_specs:
   label: Karumi Analytics API
   slug: karumi-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-analytics-api-openapi.yml
 - filename: karumi-sessions-api-openapi.yml
   format: yaml
   label: Karumi Sessions API
   slug: karumi-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-sessions-api-openapi.yml
 - filename: karumi-targets-api-openapi.yml
   format: yaml
   label: Karumi Targets API
   slug: karumi-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-targets-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-targets-api-openapi.yml
 - filename: karumi-chat-onboarding-api-openapi.yml
   format: yaml
   label: Karumi Chat onboarding API
   slug: karumi-chat-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-chat-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-chat-onboarding-api-openapi.yml
 authorization_urls:
 - https://qmfmxcidbawbvkcstvio.supabase.co/auth/v1/oauth/authorize
 description: ''
@@ -97,7 +97,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://api.karumi.ai/.well-known/oauth-protected-resource\ndocs: https://www.karumi.ai/mcp-documentation\napplies_to: Karumi MCP Server (https://api.karumi.ai/mcp/)\nnote: >-\n  Karumi's OpenAPI declares no oauth2 security scheme — the Public API is API-key only.\n  The OAuth surface belongs to the MCP server, which advertises RFC 9728\n  protected-resource metadata and delegates to a Supabase Auth authorization server.\n  The scopes below are read verbatim from that authorization server's RFC 8414 metadata\n  (scopes_supported). They are Supabase's standard OIDC scope set, NOT Karumi-defined\n  permissions: Karumi publishes no scope or permission reference page. Per-tool\n  authorization is instead enforced two ways — server-side organization scoping (\"access\n  is scoped to the organization(s) your account belongs to\") and client-side confirmation\n  on the 13 write/destructive tools. That confirmation model is captured\
   \ in\n  mcp/karumi-mcp.yml, not here.\nschemes:\n- name: OAuth2\n  type: oauth2\n  authorization_server: https://qmfmxcidbawbvkcstvio.supabase.co/auth/v1\n  resource: https://api.karumi.ai/mcp\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://qmfmxcidbawbvkcstvio.supabase.co/auth/v1/oauth/authorize\n    tokenUrl: https://qmfmxcidbawbvkcstvio.supabase.co/auth/v1/oauth/token\n    code_challenge_methods:\n    - S256\n    - plain\n    grant_types:\n    - authorization_code\n    - refresh_token\n  sources:\n  - well-known/karumi-oauth-authorization-server.json\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issues an ID token identifying the Karumi\n    user.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/karumi-oauth-authorization-server.json\n- scope: profile\n  description: Basic profile claims (name, picture, preferred_username, updated_at).\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/karumi-oauth-authorization-server.json\n\
   - scope: email\n  description: Email address and email_verified claim.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/karumi-oauth-authorization-server.json\n- scope: phone\n  description: Phone number and phone_number_verified claim.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/karumi-oauth-authorization-server.json\n- scope: offline_access\n  description: Issues a refresh token so the MCP client can keep the connector alive\n    without re-consent.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/karumi-oauth-authorization-server.json\ngaps:\n- No Karumi-specific resource scopes (e.g. sessions:read, audiences:write) are published,\n  so an MCP client cannot request least-privilege access to a subset of the 37 tools.\n- No scopes/permissions reference page exists on karumi.ai.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/scopes/karumi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/karumi/scopes/karumi-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Company

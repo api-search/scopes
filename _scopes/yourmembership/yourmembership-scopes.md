@@ -5,37 +5,37 @@ api_specs:
   label: YourMembership Authentication API
   slug: yourmembership-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-authentication-api-openapi.yml
 - filename: yourmembership-certifications-api-openapi.yml
   format: yaml
   label: YourMembership Certifications API
   slug: yourmembership-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-certifications-api-openapi.yml
 - filename: yourmembership-commerce-and-sales-api-openapi.yml
   format: yaml
   label: YourMembership Commerce and Sales API
   slug: yourmembership-commerce-and-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-commerce-and-sales-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-commerce-and-sales-api-openapi.yml
 - filename: yourmembership-content-and-community-api-openapi.yml
   format: yaml
   label: YourMembership Content and Community API
   slug: yourmembership-content-and-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-content-and-community-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-content-and-community-api-openapi.yml
 - filename: yourmembership-events-api-openapi.yml
   format: yaml
   label: YourMembership Events API
   slug: yourmembership-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-events-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-events-api-openapi.yml
 - filename: yourmembership-members-api-openapi.yml
   format: yaml
   label: YourMembership Members API
   slug: yourmembership-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/openapi/yourmembership-members-api-openapi.yml
+  url: https://artifacts.apis.io/yourmembership/openapi/yourmembership-members-api-openapi.yml
 authorization_urls:
 - https://{your-ym-site}/lock.aspx
 description: ''
@@ -87,7 +87,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/yourmembership-openapi.yml\ndocs: https://www.yourmembership.com/wp-content/uploads/2021/02/YM_Getting_Started_OAuth_2021.pdf\nschemes:\n- name: oauth2\n  source: openapi/yourmembership-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://ws.yourmembership.com/Ams/Authenticate\n  - flow: authorizationCode\n    authorizationUrl: https://{your-ym-site}/lock.aspx\n    tokenUrl: https://ws.yourmembership.com/OAuth/GetAccessToken\n    source: https://www.yourmembership.com/wp-content/uploads/2021/02/YM_Getting_Started_OAuth_2021.pdf\n  description: OAuth authentication for the YM REST API, established via POST /Ams/Authenticate.\n    OAuth apps are configured in YM (API Configuration > OAuth Management); the member authorizes\n    the app at the site's lock.aspx page with app_id, redirect_uri, and scope parameters, the\n    returned code is exchanged at POST /OAuth/GetAccessToken, and the access token\
   \ is passed to\n    POST /Ams/Authenticate to create the API session (X-SS-ID header). The YMCareers API instead\n    uses an API_ACCESS_TOKEN (15-minute) Authorization header or a non-expiring X-API-KEY header.\nscopes:\n- scope: basic_profile\n  description: Grants access to the authorized member's basic profile information via the\n    BasicMemberProfile service (GET /Ams/{ClientID}/Member/{MemberID}/BasicMemberProfile).\n  sources:\n  - https://www.yourmembership.com/wp-content/uploads/2021/02/YM_Getting_Started_OAuth_2021.pdf\n- scope: full_profile\n  description: Grants access to the authorized member's full profile information via the\n    MemberProfile service; required when an app needs more than the basic profile fields.\n  sources:\n  - https://www.yourmembership.com/wp-content/uploads/2021/02/YM_Getting_Started_OAuth_2021.pdf\nnote: These two scopes are the only ones published in YourMembership's Getting Started with\n  OAuth guide; the REST API also exposes a GET /Ams/{ClientID}/OAuthScopes\
   \ metadata operation\n  (ScopeID, ScopeName, DisplayName, IsDefault, GranularScope) indicating scopes are managed\n  per-site in OAuth Management, but no additional scope values are publicly documented.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/scopes/yourmembership-scopes.yml
+source_yaml_url: https://artifacts.apis.io/yourmembership/scopes/yourmembership-scopes.yml
 summary_line: 2 scopes · clientCredentials/authorizationCode
 tags:
 - Membership Management

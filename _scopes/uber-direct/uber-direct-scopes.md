@@ -5,7 +5,7 @@ api_specs:
   label: Uber Direct Customers API
   slug: uber-direct-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/openapi/uber-direct-customers-api-openapi.yml
+  url: https://artifacts.apis.io/uber-direct/openapi/uber-direct-customers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -45,7 +45,7 @@ source_filename: uber-direct-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uber-direct-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/uber-direct-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.uber.com/oauth/v2/token\nscopes:\n- scope: eats.deliveries\n  description: Access to Uber Direct delivery operations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/uber-direct-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/scopes/uber-direct-scopes.yml
+source_yaml_url: https://artifacts.apis.io/uber-direct/scopes/uber-direct-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Logistics

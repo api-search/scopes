@@ -5,13 +5,13 @@ api_specs:
   label: Orchesty.io 2.0 API
   slug: 2.0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orchesty/refs/heads/main/openapi/_ae-authored/orchesty-2.0-openapi-generated.yml
+  url: https://artifacts.apis.io/orchesty/openapi/_ae-authored/orchesty-2.0-openapi-generated.yml
 - filename: orchesty-3.0-openapi-generated.yml
   format: yaml
   label: Orchesty.io 3.0 API
   slug: 3.0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orchesty/refs/heads/main/openapi/_ae-authored/orchesty-3.0-openapi-generated.yml
+  url: https://artifacts.apis.io/orchesty/openapi/_ae-authored/orchesty-3.0-openapi-generated.yml
 authorization_urls:
 - https://auth.wflow.com/oauth/authorize
 description: ''
@@ -71,7 +71,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: derived\nsource: openapi/orchesty-2.0-openapi-generated.yml, openapi/orchesty-3.0-openapi-generated.yml,\n  openapi/orchesty-openapi-generated.yml\nschemes:\n- name: OAuth2\n  source: openapi/orchesty-2.0-openapi-generated.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.wflow.com/oauth/authorize\n    tokenUrl: https://auth.wflow.com/oauth/token\n- name: OAuth2\n  source: openapi/orchesty-3.0-openapi-generated.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.wflow.com/oauth/authorize\n    tokenUrl: https://auth.wflow.com/oauth/token\n- name: OAuth2\n  source: openapi/orchesty-openapi-generated.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.wflow.com/oauth/authorize\n    tokenUrl: https://auth.wflow.com/oauth/token\nscopes:\n- scope: read_invoices\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/orchesty-2.0-openapi-generated.yml\n  - openapi/orchesty-3.0-openapi-generated.yml\n\
   \  - openapi/orchesty-openapi-generated.yml\n- scope: write_invoices\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/orchesty-2.0-openapi-generated.yml\n  - openapi/orchesty-3.0-openapi-generated.yml\n  - openapi/orchesty-openapi-generated.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orchesty/refs/heads/main/scopes/orchesty-scopes.yml
+source_yaml_url: https://artifacts.apis.io/orchesty/scopes/orchesty-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Integration

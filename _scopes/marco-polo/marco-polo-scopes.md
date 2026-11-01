@@ -40,7 +40,7 @@ source_filename: marco-polo-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://mcp.marcopolo.dev/.well-known/oauth-authorization-server\nprovider: marco-polo\ndocs: https://docs.marcopolo.dev/getting-started\nnote: >-\n  Scopes advertised by the MarcoPolo authorization server (WorkOS AuthKit) via\n  RFC 8414 metadata. These are the standard OIDC/OAuth scopes; MarcoPolo does not\n  publish application-specific resource scopes.\nscopes:\n- name: openid\n  description: OpenID Connect sign-in; issue an ID token.\n- name: profile\n  description: Access the user's basic profile claims.\n- name: email\n  description: Access the user's email address.\n- name: offline_access\n  description: Issue a refresh token for long-lived access.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marco-polo/refs/heads/main/scopes/marco-polo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/marco-polo/scopes/marco-polo-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

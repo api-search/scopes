@@ -5,97 +5,97 @@ api_specs:
   label: Improvado Accounts API
   slug: improvado-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-accounts-api-openapi.yml
 - filename: improvado-authentication-api-openapi.yml
   format: yaml
   label: Improvado Authentication API
   slug: improvado-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-authentication-api-openapi.yml
 - filename: improvado-automated-recipes-api-openapi.yml
   format: yaml
   label: Improvado Automated Recipes API
   slug: improvado-automated-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-automated-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-automated-recipes-api-openapi.yml
 - filename: improvado-data-source-connections-api-openapi.yml
   format: yaml
   label: Improvado Data source connections API
   slug: improvado-data-source-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-data-source-connections-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-data-source-connections-api-openapi.yml
 - filename: improvado-data-sources-api-openapi.yml
   format: yaml
   label: Improvado Data sources API
   slug: improvado-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-data-sources-api-openapi.yml
 - filename: improvado-data-tables-api-openapi.yml
   format: yaml
   label: Improvado Data tables API
   slug: improvado-data-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-data-tables-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-data-tables-api-openapi.yml
 - filename: improvado-destination-connections-api-openapi.yml
   format: yaml
   label: Improvado Destination connections API
   slug: improvado-destination-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-destination-connections-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-destination-connections-api-openapi.yml
 - filename: improvado-destinations-api-openapi.yml
   format: yaml
   label: Improvado Destinations API
   slug: improvado-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-destinations-api-openapi.yml
 - filename: improvado-extraction-templates-api-openapi.yml
   format: yaml
   label: Improvado Extraction templates API
   slug: improvado-extraction-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-extraction-templates-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-extraction-templates-api-openapi.yml
 - filename: improvado-extracts-api-openapi.yml
   format: yaml
   label: Improvado Extracts API
   slug: improvado-extracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-extracts-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-extracts-api-openapi.yml
 - filename: improvado-iframe-api-openapi.yml
   format: yaml
   label: Improvado Iframe API
   slug: improvado-iframe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-iframe-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-iframe-api-openapi.yml
 - filename: improvado-loads-api-openapi.yml
   format: yaml
   label: Improvado Loads API
   slug: improvado-loads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-loads-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-loads-api-openapi.yml
 - filename: improvado-recipes-api-openapi.yml
   format: yaml
   label: Improvado Recipes API
   slug: improvado-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-recipes-api-openapi.yml
 - filename: improvado-roles-api-openapi.yml
   format: yaml
   label: Improvado Roles API
   slug: improvado-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-roles-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-roles-api-openapi.yml
 - filename: improvado-webhooks-api-openapi.yml
   format: yaml
   label: Improvado Webhooks API
   slug: improvado-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-webhooks-api-openapi.yml
 - filename: improvado-workspaces-api-openapi.yml
   format: yaml
   label: Improvado Workspaces API
   slug: improvado-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-workspaces-api-openapi.yml
 authorization_urls:
 - https://report.improvado.io/api/dts/v2/oauth/o/authorize/
 description: ''
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://report.im
   \    challenge returned by the live endpoint.\n  flows: [authorizationCode]\n  audience: https://report.improvado.io/experimental/agent/api/mcp-customer/v1/invoke/\n  sources:\n  - https://report.improvado.io/.well-known/oauth-authorization-server\n  - https://report.improvado.io/.well-known/oauth-protected-resource/experimental/agent/api/mcp-customer/v1/invoke/\n  - https://improvado.io/docs-section-topic/improvado-mcp\n  documented_by_provider: true\n  provider_reference: >-\n    Improvado's Gemini CLI setup block instructs users to configure \"oauth\": {\"scopes\": [\"mcp:customer\"]}.\n- scope: mcp:internal\n  description: >-\n    Internal MCP access, advertised in the authorization server's scopes_supported. Not referenced in\n    any customer-facing documentation and not accepted by the customer MCP resource (whose\n    scopes_supported lists mcp:customer only). Recorded because the server advertises it; treated as\n    a first-party/internal scope, not a scope a third-party integrator\
   \ should request.\n  flows: [authorizationCode]\n  sources: [https://report.improvado.io/.well-known/oauth-authorization-server]\n  documented_by_provider: false\n- scope: introspection\n  description: >-\n    Token-introspection scope, advertised in scopes_supported and paired with the RFC 7662\n    introspection endpoint. Not documented in customer-facing material.\n  flows: [authorizationCode]\n  sources: [https://report.improvado.io/.well-known/oauth-authorization-server]\n  documented_by_provider: false\nsession:\n  ttl: 15 minutes\n  backing_store: Redis\n  scope_binding: workspace-scoped\n  source: https://improvado.io/docs-section-topic/improvado-mcp\n  note: >-\n    Improvado documents each MCP session as a workspace-scoped OAuth token with a 15-minute\n    Redis-backed TTL, stating that multi-tenant agent infrastructure maps 1:1 so cross-tenant leakage\n    is prevented by architecture. Distinct from the Embedded API v3's 30-minute Bearer token.\nnot_covered:\n  surface: https://embedded.improvado.io\
   \ (Embedded API v3)\n  reason: >-\n    The Embedded API v3 has no OAuth surface — HTTP Basic for workspace management and token minting,\n    30-minute opaque Bearer tokens for workspace-scoped resources. Its /.well-known/oauth-authorization-server\n    returns 404. See authentication/improvado-authentication.yml.\nx-evidence:\n- fetched: '2026-08-13'\n  url: https://report.improvado.io/.well-known/oauth-authorization-server\n  http_status: 200\n  content_type: application/json\n- fetched: '2026-08-13'\n  url: https://report.improvado.io/.well-known/oauth-protected-resource/experimental/agent/api/mcp-customer/v1/invoke/\n  http_status: 200\n  content_type: application/json\n- fetched: '2026-08-13'\n  url: https://report.improvado.io/experimental/agent/api/mcp-customer/v1/invoke/\n  http_status: 401\n  note: 'WWW-Authenticate: Bearer resource_metadata=\"...\", scope=\"mcp:customer\"'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/scopes/improvado-scopes.yml
+source_yaml_url: https://artifacts.apis.io/improvado/scopes/improvado-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

@@ -5,55 +5,55 @@ api_specs:
   label: Gitea Admin API
   slug: gitea-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-admin-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-admin-api-openapi.yml
 - filename: gitea-issue-api-openapi.yml
   format: yaml
   label: Gitea Issue API
   slug: gitea-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-issue-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-issue-api-openapi.yml
 - filename: gitea-miscellaneous-api-openapi.yml
   format: yaml
   label: Gitea Miscellaneous API
   slug: gitea-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-miscellaneous-api-openapi.yml
 - filename: gitea-notification-api-openapi.yml
   format: yaml
   label: Gitea Notification API
   slug: gitea-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-notification-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-notification-api-openapi.yml
 - filename: gitea-organization-api-openapi.yml
   format: yaml
   label: Gitea Organization API
   slug: gitea-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-organization-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-organization-api-openapi.yml
 - filename: gitea-package-api-openapi.yml
   format: yaml
   label: Gitea Package API
   slug: gitea-package-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-package-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-package-api-openapi.yml
 - filename: gitea-repository-api-openapi.yml
   format: yaml
   label: Gitea Repository API
   slug: gitea-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-repository-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-repository-api-openapi.yml
 - filename: gitea-settings-api-openapi.yml
   format: yaml
   label: Gitea Settings API
   slug: gitea-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-settings-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-settings-api-openapi.yml
 - filename: gitea-user-api-openapi.yml
   format: yaml
   label: Gitea User API
   slug: gitea-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-user-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-user-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.gitea.com/development/oauth2-provider
@@ -95,7 +95,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: well-known/gitea-openid-configuration.json\ndocs: https://docs.gitea.com/development/oauth2-provider\nnote: >-\n  Gitea exposes two distinct scope systems. (1) OAuth2 / OpenID Connect provider\n  scopes returned in the live openid-configuration. (2) Personal Access Token\n  (PAT) permission scopes, formatted <read|write>:<category>, plus a special\n  `all` scope. The Swagger 2.0 spec declares only apiKey/basic securityDefinitions\n  (no oauth2 flow object), so these scopes are documented rather than derivable\n  from the spec.\nschemes:\n  - name: OpenIDConnect\n    type: openIdConnect\n    issuer: https://gitea.com\n    authorizationUrl: https://gitea.com/login/oauth/authorize\n    tokenUrl: https://gitea.com/login/oauth/access_token\n    userinfoUrl: https://gitea.com/login/oauth/userinfo\n    introspectionUrl: https://gitea.com/login/oauth/introspect\n    jwksUri: https://gitea.com/login/oauth/keys\n    grantTypes: [authorization_code,\
   \ refresh_token]\n    pkce: [plain, S256]\n    source: well-known/gitea-openid-configuration.json\noidc_scopes:\n  - scope: openid\n    description: OpenID Connect authentication; issue an ID token.\n  - scope: profile\n    description: Access to the user's profile claims (name, preferred_username, picture, website, locale).\n  - scope: email\n    description: Access to the user's email and email_verified claims.\n  - scope: groups\n    description: Access to the user's group membership claim.\npat_scope_categories:\n  note: >-\n    Each category is grantable at read or write level, e.g. read:repository,\n    write:issue. The `all` scope grants read+write across every category.\n  levels: [read, write]\n  categories:\n    - activitypub\n    - admin\n    - issue\n    - misc\n    - notification\n    - organization\n    - package\n    - repository\n    - user\n  special:\n    - scope: all\n      description: Grants both read and write permission across all categories.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/scopes/gitea-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gitea/scopes/gitea-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Gitea

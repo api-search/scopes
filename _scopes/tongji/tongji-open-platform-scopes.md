@@ -5,37 +5,37 @@ api_specs:
   label: Tongji University AI Services API
   slug: tongji-ai-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-ai-services-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-ai-services-api-openapi.yml
 - filename: tongji-assets-and-procurement-api-openapi.yml
   format: yaml
   label: Tongji University Assets and Procurement API
   slug: tongji-assets-and-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-assets-and-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-assets-and-procurement-api-openapi.yml
 - filename: tongji-education-data-verification-api-openapi.yml
   format: yaml
   label: Tongji University Education Data Verification API
   slug: tongji-education-data-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-education-data-verification-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-education-data-verification-api-openapi.yml
 - filename: tongji-library-api-openapi.yml
   format: yaml
   label: Tongji University Library API
   slug: tongji-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-library-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-library-api-openapi.yml
 - filename: tongji-reference-metadata-api-openapi.yml
   format: yaml
   label: Tongji University Reference Metadata API
   slug: tongji-reference-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-reference-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-reference-metadata-api-openapi.yml
 - filename: tongji-research-api-openapi.yml
   format: yaml
   label: Tongji University Research API
   slug: tongji-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-research-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-research-api-openapi.yml
 authorization_urls: []
 description: 'Tongji University''s Open Platform publishes 491 OAuth scopes in its own OIDC discovery document — one scope per interface for most of the catalog, plus a smaller set of coarse resource-family scopes. This is unusually fine-grained scope design for a university-operated platform and it is machine-readable, which is why it is recorded here from the discovery document rather than from prose. The naming convention mirrors the route: scope `rt_research_patent` unlocks GET /v1/rt/research/patent, and scope `user_api` unlocks the /v1/rt/user/ prefix.'
 docs: ''
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: probed\nsource: Live fetch on 202
   - prefix: tools\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - tools\n- prefix: transcriptions\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - transcriptions\n- prefix: tts\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - tts\n- prefix: user\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - user\n- prefix: userId\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - userId\n- prefix: v1\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - v1\n- prefix: verify\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - verify_code\n- prefix: vl\n  count: 1\n\
   \  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - vl\n- prefix: weather\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - weather\n- prefix: wecom\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - wecom\n- prefix: welcome-task\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - welcome-task\n- prefix: welcome\n  count: 1\n  description: Resource-family scopes named after the interface group they unlock.\n  examples:\n  - welcome_task\nnotes: The `openplatform_*` family (54 scopes) governs the platform console's own administrative API —\n  adding documents, backends, data sources, business codes and call quotas. Those are operator scopes,\n  not campus-data scopes, and their presence in the public discovery document is a disclosure observation,\n  not\
   \ an access grant.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/scopes/tongji-open-platform-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tongji/scopes/tongji-open-platform-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

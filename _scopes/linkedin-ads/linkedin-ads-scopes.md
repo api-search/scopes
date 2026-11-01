@@ -5,31 +5,31 @@ api_specs:
   label: LinkedIn Marketing API AdBudgetPricing API
   slug: linkedin-ads-adbudgetpricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adbudgetpricing-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-adbudgetpricing-api-openapi.yml
 - filename: linkedin-ads-adtargetingfacets-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API AdTargetingFacets API
   slug: linkedin-ads-adtargetingfacets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adtargetingfacets-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-adtargetingfacets-api-openapi.yml
 - filename: linkedin-ads-ad-accounts-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Ad Accounts API
   slug: linkedin-ads-ad-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-ad-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-ad-accounts-api-openapi.yml
 - filename: linkedin-ads-ad-targeting-entities-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Ad Targeting Entities API
   slug: linkedin-ads-ad-targeting-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-ad-targeting-entities-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-ad-targeting-entities-api-openapi.yml
 - filename: linkedin-ads-audience-counts-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Audience Counts API
   slug: linkedin-ads-audience-counts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-audience-counts-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-audience-counts-api-openapi.yml
 authorization_urls:
 - https://www.linkedin.com/oauth/v2/authorization
 description: ''
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ member's basic profile.\n    flows: [authorizationCode]\n    sources:\n      - openapi/linkedin-ads-openapi.yml\n      - https://learn.microsoft.com/en-us/linkedin/marketing/authentication/lms-generate-an-access-token\n  - scope: rw_organization_admin\n    description: Manage the organization (Page) an application administers.\n    flows: [authorizationCode]\n    sources: [https://learn.microsoft.com/en-us/linkedin/marketing/authentication/lms-generate-an-access-token]\n  - scope: w_organization_social\n    description: Post, comment and react on behalf of an organization Page.\n    flows: [authorizationCode]\n    sources: [https://learn.microsoft.com/en-us/linkedin/marketing/authentication/lms-generate-an-access-token]\n  - scope: w_member_social\n    description: Post, comment and react on behalf of the authenticated member.\n    flows: [authorizationCode]\n    sources: [https://learn.microsoft.com/en-us/linkedin/marketing/authentication/lms-generate-an-access-token]\n  - scope: rw_events\n\
   \    description: Create and manage LinkedIn Events for the Event Management API.\n    flows: [authorizationCode]\n    sources: [https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes]\n  - scope: r_events\n    description: Read LinkedIn Events.\n    flows: [authorizationCode]\n    sources: [https://learn.microsoft.com/en-us/linkedin/marketing/integrations/recent-changes]\n  - scope: r_marketing_leadgen_automation\n    description: Read Lead Gen Form responses and manage lead notification subscriptions.\n    flows: [authorizationCode]\n    sources: [https://learn.microsoft.com/en-us/linkedin/marketing/lead-sync/leadsync]\n  - scope: openid\n    description: OpenID Connect sign-in; returns an RS256 id_token.\n    flows: [authorizationCode]\n    sources: [well-known/linkedin-ads-openid-configuration.json]\n  - scope: profile\n    description: OpenID Connect profile claims (name, given_name, family_name, picture, locale).\n    flows: [authorizationCode]\n    sources:\
   \ [well-known/linkedin-ads-openid-configuration.json]\n  - scope: email\n    description: OpenID Connect email and email_verified claims.\n    flows: [authorizationCode]\n    sources: [well-known/linkedin-ads-openid-configuration.json]\nconsent:\n  granularity: all-or-nothing per authorization request\n  re_auth_on_scope_change: true\n  guidance: Request the least number of scopes your integration needs.\n  docs: https://learn.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow\nx-evidence:\n  fetched: '2026-08-13'\n  checks:\n    - url: https://learn.microsoft.com/en-us/linkedin/marketing/authentication/lms-generate-an-access-token\n      http_status: 200\n    - url: https://www.linkedin.com/oauth/.well-known/openid-configuration\n      http_status: 200\n    - url: https://learn.microsoft.com/en-us/linkedin/shared/authentication/permissions\n      http_status: 404\n      note: No canonical permissions/scopes reference page is published at the expected path.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/scopes/linkedin-ads-scopes.yml
+source_yaml_url: https://artifacts.apis.io/linkedin-ads/scopes/linkedin-ads-scopes.yml
 summary_line: 13 scopes · authorizationCode
 tags:
 - Advertising

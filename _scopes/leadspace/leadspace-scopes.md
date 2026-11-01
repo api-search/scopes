@@ -5,31 +5,31 @@ api_specs:
   label: Leadspace Authorization API
   slug: leadspace-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-authorization-api-openapi.yml
 - filename: leadspace-discovery-api-openapi.yml
   format: yaml
   label: Leadspace Discovery API
   slug: leadspace-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-discovery-api-openapi.yml
 - filename: leadspace-enrichment-api-openapi.yml
   format: yaml
   label: Leadspace Enrichment API
   slug: leadspace-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-enrichment-api-openapi.yml
 - filename: leadspace-intent-api-openapi.yml
   format: yaml
   label: Leadspace Intent API
   slug: leadspace-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-intent-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-intent-api-openapi.yml
 - filename: leadspace-results-api-openapi.yml
   format: yaml
   label: Leadspace Results API
   slug: leadspace-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/openapi/leadspace-results-api-openapi.yml
+  url: https://artifacts.apis.io/leadspace/openapi/leadspace-results-api-openapi.yml
 authorization_urls:
 - https://stg-sk.us.auth0.com/authorize
 description: 'Leadspace now has exactly one OAuth scope surface, and it belongs to the MCP server — not to the v4 REST gateway. The scopes below are read verbatim from Leadspace''s own RFC 9728 protected-resource metadata. They are pure OIDC identity scopes: there is no Leadspace-specific authorization scope (nothing like `read:contacts` or `reveal:email`), so an MCP client''s token carries identity only and every entitlement decision — plan tier, credit balance, which reveals are permitted — is made server-side against the account.'
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://skprod.le
   \  type: oauth2\n  protocol: OAuth 2.1\n  flows:\n  - flow: authorizationCode\n    pkce: S256\n    authorizationUrl: https://stg-sk.us.auth0.com/authorize\n    tokenUrl: https://stg-sk.us.auth0.com/oauth/token\n    registrationUrl: https://stg-sk.us.auth0.com/oidc/register\n    dynamic_client_registration: true\n    grant_types:\n    - authorization_code\n    - refresh_token\n    token_endpoint_auth_methods:\n    - none\n    - client_secret_post\n  bearer_methods_supported:\n  - header\n  jwks_uri: https://stg-sk.us.auth0.com/.well-known/jwks.json\n  source: https://skprod.leadspace.com/.well-known/oauth-protected-resource\nscopes:\n- scope: openid\n  description: OIDC — issue an ID token identifying the Leadspace user.\n  flows:\n  - authorizationCode\n  standard: true\n- scope: profile\n  description: OIDC — basic profile claims for the signed-in Leadspace user.\n  flows:\n  - authorizationCode\n  standard: true\n- scope: email\n  description: OIDC — email claim for the signed-in Leadspace\
   \ user.\n  flows:\n  - authorizationCode\n  standard: true\n- scope: offline_access\n  description: Issue a refresh token so the MCP client can keep the connector authorized between sessions.\n  flows:\n  - authorizationCode\n  standard: true\nv4_gateway:\n  scopes: []\n  note: >-\n    The enterprise v4 API (apigw.leadspace.com) uses an OAuth 2.0 resource-owner\n    password-credentials exchange with an `audience` of API_GATEWAY and issues a\n    24-hour bearer token. It documents no scopes at all — entitlement is bound to\n    the Program ID. See authentication/leadspace-authentication.yml.\nobservations:\n- No provider-defined authorization scopes exist. An agent holding a Leadspace MCP token cannot be constrained to read-only or to lookups-without-reveals by scope; the only spend control is the plan's credit allowance.\n- The production MCP resource advertises its authorization server as the Auth0 tenant `stg-sk.us.auth0.com`, whose subdomain reads as a staging tenant. Recorded as observed,\
   \ not interpreted.\nx-evidence:\n- url: https://skprod.leadspace.com/.well-known/oauth-protected-resource\n  http_status: 200\n  content_type: application/json\n  fetched: '2026-08-13'\n- url: https://skprod.leadspace.com/.well-known/oauth-authorization-server\n  http_status: 200\n  content_type: application/json\n  fetched: '2026-08-13'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/scopes/leadspace-scopes.yml
+source_yaml_url: https://artifacts.apis.io/leadspace/scopes/leadspace-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - MCP

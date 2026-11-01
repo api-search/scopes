@@ -5,151 +5,151 @@ api_specs:
   label: Gong Calls API
   slug: gong-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-calls-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-calls-api-openapi.yml
 - filename: gong-users-api-openapi.yml
   format: yaml
   label: Gong Users API
   slug: gong-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-users-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-users-api-openapi.yml
 - filename: gong-library-api-openapi.yml
   format: yaml
   label: Gong Library API
   slug: gong-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-library-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-library-api-openapi.yml
 - filename: gong-calls-api-openapi.yml
   format: yaml
   label: Gong Calls API
   slug: gong-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-calls-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-calls-api-openapi.yml
 - filename: gong-data-privacy-api-openapi.yml
   format: yaml
   label: Gong Data Privacy API
   slug: gong-data-privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-data-privacy-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-data-privacy-api-openapi.yml
 - filename: gong-digital-interactions-api-openapi.yml
   format: yaml
   label: Gong Digital Interactions API
   slug: gong-digital-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-digital-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-digital-interactions-api-openapi.yml
 - filename: gong-library-api-openapi.yml
   format: yaml
   label: Gong Library API
   slug: gong-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-library-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-library-api-openapi.yml
 - filename: gong-permission-profiles-api-openapi.yml
   format: yaml
   label: Gong Permission Profiles API
   slug: gong-permission-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-permission-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-permission-profiles-api-openapi.yml
 - filename: gong-users-api-openapi.yml
   format: yaml
   label: Gong Users API
   slug: gong-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-users-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-users-api-openapi.yml
 - filename: gong-accounts-enrich-api-openapi.yml
   format: yaml
   label: Gong Accounts Enrich API
   slug: gong-accounts-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-accounts-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-accounts-enrich-api-openapi.yml
 - filename: gong-auditing-api-openapi.yml
   format: yaml
   label: Gong Auditing API
   slug: gong-auditing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-auditing-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-auditing-api-openapi.yml
 - filename: gong-coaching-api-openapi.yml
   format: yaml
   label: Gong Coaching API
   slug: gong-coaching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-coaching-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-coaching-api-openapi.yml
 - filename: gong-contacts-enrich-api-openapi.yml
   format: yaml
   label: Gong Contacts Enrich API
   slug: gong-contacts-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-contacts-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-contacts-enrich-api-openapi.yml
 - filename: gong-crm-api-openapi.yml
   format: yaml
   label: Gong CRM API
   slug: gong-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-crm-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-crm-api-openapi.yml
 - filename: gong-engage-flows-api-openapi.yml
   format: yaml
   label: Gong Engage Flows API
   slug: gong-engage-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-engage-flows-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-engage-flows-api-openapi.yml
 - filename: gong-engagement-legacy-see-digital-interactions-api-openapi.yml
   format: yaml
   label: Gong Engagement (Legacy – See “Digital Interactions”) API
   slug: gong-engagement-legacy-see-digital-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-engagement-legacy-see-digital-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-engagement-legacy-see-digital-interactions-api-openapi.yml
 - filename: gong-entities-api-openapi.yml
   format: yaml
   label: Gong Entities API
   slug: gong-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-entities-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-entities-api-openapi.yml
 - filename: gong-integration-settings-api-openapi.yml
   format: yaml
   label: Gong Integration Settings API
   slug: gong-integration-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-integration-settings-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-integration-settings-api-openapi.yml
 - filename: gong-meetings-in-beta-phase-api-openapi.yml
   format: yaml
   label: Gong Meetings (in Beta Phase) API
   slug: gong-meetings-in-beta-phase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-meetings-in-beta-phase-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-meetings-in-beta-phase-api-openapi.yml
 - filename: gong-outcomes-api-openapi.yml
   format: yaml
   label: Gong Outcomes API
   slug: gong-outcomes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-outcomes-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-outcomes-api-openapi.yml
 - filename: gong-permissions-api-openapi.yml
   format: yaml
   label: Gong Permissions API
   slug: gong-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-permissions-api-openapi.yml
 - filename: gong-settings-api-openapi.yml
   format: yaml
   label: Gong Settings API
   slug: gong-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-settings-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-settings-api-openapi.yml
 - filename: gong-stats-api-openapi.yml
   format: yaml
   label: Gong Stats API
   slug: gong-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-stats-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-stats-api-openapi.yml
 - filename: gong-targets-api-openapi.yml
   format: yaml
   label: Gong Targets API
   slug: gong-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-targets-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-targets-api-openapi.yml
 - filename: gong-tasks-api-openapi.yml
   format: yaml
   label: Gong Tasks API
   slug: gong-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/openapi/gong-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/gong/openapi/gong-tasks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://help.gong.io/docs/create-an-app-for-gong
@@ -228,7 +228,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://h
   \  family: mcp\n  description: Read access to Gong Assistant AI insights over the MCP server.\n  schemes: [GongMCPOAuth2]\n  sources: [https://mcp.gong.io/.well-known/oauth-authorization-server]\n- scope: api:flows:read\n  family: api\n  description: >-\n    Read Gong Engage flows and flow folders, and list flows assigned to\n    prospects. Required by GET /v2/flows, GET /v2/flows/folders and\n    POST /v2/flows/prospects when using Bearer token authorization.\n  schemes: [GongOAuth2 (REST v2)]\n  operations: [listEngageFlows, listFlowFolders, listAssignedFlowsForProspects]\n  sources: [https://help.gong.io/docs/gong-engage-api-capabilities]\n- scope: api:calls:read:basic\n  family: api\n  description: Basic read access to call records. Named in Gong's documented token response example.\n  schemes: [GongOAuth2 (REST v2)]\n  sources: [https://help.gong.io/docs/create-an-app-for-gong]\n- scope: api:calls:create\n  family: api\n  description: Create/upload calls. Named in Gong's documented\
   \ token response example.\n  schemes: [GongOAuth2 (REST v2)]\n  sources: [https://help.gong.io/docs/create-an-app-for-gong]\nthird_party_attested:\n  note: >-\n    Scope strings published by integrators who have completed Gong's OAuth\n    review, NOT by Gong. Recorded for completeness and traceability; they are\n    not treated as provider-published and should be re-verified against Gong's\n    gated API reference before being relied on.\n  scopes:\n  - {scope: 'api:calls:read:extensive', source: 'https://docs.airbyte.com/integrations/sources/gong'}\n  - {scope: 'api:calls:read:transcript', source: 'https://docs.airbyte.com/integrations/sources/gong'}\n  - {scope: 'api:users:read', source: 'https://docs.airbyte.com/integrations/sources/gong'}\n  - {scope: 'api:stats:scorecards', source: 'https://docs.airbyte.com/integrations/sources/gong'}\n  - {scope: 'api:stats:interaction', source: 'https://docs.airbyte.com/integrations/sources/gong'}\n  - {scope: 'api:settings:scorecards:read', source:\
   \ 'https://docs.airbyte.com/integrations/sources/gong'}\ngap: >-\n  Gong publishes no consolidated scope/permission reference outside the\n  authenticated app. This is the single most useful thing Gong could publish for\n  agent and integrator onboarding: the mcp:* family is discoverable anonymously\n  from RFC 8414 metadata, while the far larger api:* family is not discoverable\n  at all.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/scopes/gong-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gong/scopes/gong-scopes.yml
 summary_line: 6 scopes
 tags:
 - Sales

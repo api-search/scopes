@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://account.nekohealth.com/.well-known/openid-configuration\ndocs: https://account.nekohealth.com/.well-known/oauth-authorization-server\nnote: >-\n  Scopes advertised by the Neko patient-app OIDC provider (Duende IdentityServer).\n  These are consumer/patient authentication scopes, not a third-party API\n  permission surface. Descriptions are standard OIDC meanings; api.backend is\n  Neko's own backend resource scope.\nschemes:\n- name: NekoOIDC\n  source: https://account.nekohealth.com/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.nekohealth.com/connect/authorize\n    tokenUrl: https://account.nekohealth.com/connect/token\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope; requests an ID token for the subject.\n  flows: [authorizationCode]\n- scope: profile\n  description: Access to the end-user's basic profile claims.\n  flows: [authorizationCode]\n\
   - scope: api.backend\n  description: Access to Neko's backend resource API used by the patient application.\n  flows: [authorizationCode]\n- scope: offline_access\n  description: Requests a refresh token for long-lived offline access.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neko-health/refs/heads/main/scopes/neko-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/neko-health/scopes/neko-health-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

@@ -5,49 +5,49 @@ api_specs:
   label: Emplifi Ads API
   slug: emplifi-io-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-ads-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-ads-api-openapi.yml
 - filename: emplifi-io-assets-api-openapi.yml
   format: yaml
   label: Emplifi Assets API
   slug: emplifi-io-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-assets-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-assets-api-openapi.yml
 - filename: emplifi-io-care-api-openapi.yml
   format: yaml
   label: Emplifi Care API
   slug: emplifi-io-care-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-care-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-care-api-openapi.yml
 - filename: emplifi-io-community-api-openapi.yml
   format: yaml
   label: Emplifi Community API
   slug: emplifi-io-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-community-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-community-api-openapi.yml
 - filename: emplifi-io-listening-api-openapi.yml
   format: yaml
   label: Emplifi Listening API
   slug: emplifi-io-listening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-listening-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-listening-api-openapi.yml
 - filename: emplifi-io-posts-api-openapi.yml
   format: yaml
   label: Emplifi Posts API
   slug: emplifi-io-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-posts-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-posts-api-openapi.yml
 - filename: emplifi-io-profile-metrics-api-openapi.yml
   format: yaml
   label: Emplifi Profile Metrics API
   slug: emplifi-io-profile-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-profile-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-profile-metrics-api-openapi.yml
 - filename: emplifi-io-reference-api-openapi.yml
   format: yaml
   label: Emplifi Reference API
   slug: emplifi-io-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/openapi/emplifi-io-reference-api-openapi.yml
+  url: https://artifacts.apis.io/emplifi-io/openapi/emplifi-io-reference-api-openapi.yml
 authorization_urls:
 - https://api.emplifi.io/oauth2/0/auth
 description: ''
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/emplifi-io-
   \  description: OAuth 2.0 authorization code flow. Create a Custom integration in Emplifi Settings\n    to obtain client credentials.\n- name: oauth2\n  source: openapi/emplifi-io-care-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.emplifi.io/oauth2/0/auth\n    tokenUrl: https://api.emplifi.io/oauth2/0/token\n  description: OAuth 2.0 authorization code flow. Create a Custom integration in Emplifi Settings\n    to obtain client credentials.\n- name: oauth2\n  source: openapi/emplifi-io-community-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.emplifi.io/oauth2/0/auth\n    tokenUrl: https://api.emplifi.io/oauth2/0/token\n  description: OAuth 2.0 authorization code flow. Create a Custom integration in Emplifi Settings\n    to obtain client credentials.\n- name: oauth2\n  source: openapi/emplifi-io-listening-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.emplifi.io/oauth2/0/auth\n\
   \    tokenUrl: https://api.emplifi.io/oauth2/0/token\n  description: OAuth 2.0 authorization code flow. Create a Custom integration in Emplifi Settings\n    to obtain client credentials.\n- name: oauth2\n  source: openapi/emplifi-io-posts-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.emplifi.io/oauth2/0/auth\n    tokenUrl: https://api.emplifi.io/oauth2/0/token\n  description: OAuth 2.0 authorization code flow. Create a Custom integration in Emplifi Settings\n    to obtain client credentials.\n- name: oauth2\n  source: openapi/emplifi-io-profile-metrics-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.emplifi.io/oauth2/0/auth\n    tokenUrl: https://api.emplifi.io/oauth2/0/token\n  description: OAuth 2.0 authorization code flow. Create a Custom integration in Emplifi Settings\n    to obtain client credentials.\n- name: oauth2\n  source: openapi/emplifi-io-reference-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n\
   \    authorizationUrl: https://api.emplifi.io/oauth2/0/auth\n    tokenUrl: https://api.emplifi.io/oauth2/0/token\n  description: OAuth 2.0 authorization code flow. Create a Custom integration in Emplifi Settings\n    to obtain client credentials.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emplifi-io/refs/heads/main/scopes/emplifi-io-scopes.yml
+source_yaml_url: https://artifacts.apis.io/emplifi-io/scopes/emplifi-io-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

@@ -5,49 +5,49 @@ api_specs:
   label: Zubale API Documentation for External Notification Handler API
   slug: zubale-api-documentation-for-external-notification-handler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-api-documentation-for-external-notification-handler-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-api-documentation-for-external-notification-handler-api-openapi.yml
 - filename: zubale-cancel-tasks-api-openapi.yml
   format: yaml
   label: Zubale Cancel tasks API
   slug: zubale-cancel-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-cancel-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-cancel-tasks-api-openapi.yml
 - filename: zubale-delivery-api-api-openapi.yml
   format: yaml
   label: Zubale Delivery API
   slug: zubale-delivery-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-delivery-api-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-delivery-api-api-openapi.yml
 - filename: zubale-external-outbound-api-openapi.yml
   format: yaml
   label: Zubale External outbound API
   slug: zubale-external-outbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-external-outbound-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-external-outbound-api-openapi.yml
 - filename: zubale-live-tracking-for-cencosud-api-openapi.yml
   format: yaml
   label: Zubale Live Tracking For Cencosud API
   slug: zubale-live-tracking-for-cencosud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-live-tracking-for-cencosud-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-live-tracking-for-cencosud-api-openapi.yml
 - filename: zubale-picking-delivery-api-api-openapi.yml
   format: yaml
   label: Zubale Picking & Delivery API
   slug: zubale-picking-delivery-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-picking-delivery-api-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-picking-delivery-api-api-openapi.yml
 - filename: zubale-product-catalog-api-openapi.yml
   format: yaml
   label: Zubale Product catalog API
   slug: zubale-product-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-product-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-product-catalog-api-openapi.yml
 - filename: zubale-webhook-payload-structure-for-order-notification-api-openapi.yml
   format: yaml
   label: 'Zubale Webhook: Payload Structure for Order Notification API'
   slug: zubale-webhook-payload-structure-for-order-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml
+  url: https://artifacts.apis.io/zubale/openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -119,7 +119,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/zubale-api-documentation-for-external-notification-handler-api-openapi.yml,\n  openapi/zubale-cancel-tasks-api-openapi.yml, openapi/zubale-delivery-api-api-openapi.yml,\n  openapi/zubale-external-outbound-api-openapi.yml, openapi/zubale-live-tracking-for-cencosud-api-openapi.yml,\n  openapi/zubale-picking-delivery-api-api-openapi.yml, openapi/zubale-product-catalog-api-openapi.yml,\n  openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/zubale-api-documentation-for-external-notification-handler-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-cancel-tasks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-delivery-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n\
   \    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-external-outbound-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-live-tracking-for-cencosud-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-picking-delivery-api-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-product-catalog-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\n- name: oauth2\n  source: openapi/zubale-webhook-payload-structure-for-order-notification-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.zubale.com/oauth2/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes,\
   \ and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zubale/refs/heads/main/scopes/zubale-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zubale/scopes/zubale-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

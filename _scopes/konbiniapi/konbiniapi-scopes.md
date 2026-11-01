@@ -5,31 +5,31 @@ api_specs:
   label: KonbiniAPI Instagram API
   slug: konbiniapi-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-instagram-api-openapi.yml
 - filename: konbiniapi-tiktok-api-openapi.yml
   format: yaml
   label: KonbiniAPI TikTok API
   slug: konbiniapi-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-tiktok-api-openapi.yml
 - filename: konbiniapi-x-api-openapi.yml
   format: yaml
   label: KonbiniAPI X API
   slug: konbiniapi-x-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-x-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-x-api-openapi.yml
 - filename: konbiniapi-reddit-api-openapi.yml
   format: yaml
   label: KonbiniAPI Reddit API
   slug: konbiniapi-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-reddit-api-openapi.yml
 - filename: konbiniapi-linked-in-api-openapi.yml
   format: yaml
   label: KonbiniAPI Linked In API
   slug: konbiniapi-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-linked-in-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-linked-in-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.konbiniapi.com/reference/mcp/overview
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://mcp.konbi
   \  - name: api_key\n    description: >-\n      Authorizes the MCP server to call KonbiniAPI on the account's behalf using its API key, and to\n      spend that account's credits. This is the only scope that grants data access, and it grants all\n      of it — there is no per-platform or read-only subdivision.\n    resource: https://mcp.konbiniapi.com\n    granted_by: protected-resource metadata\n    consequence: read\n  - name: offline_access\n    description: >-\n      Issues a refresh token so an agent can keep calling without the user present. Required for\n      unattended automation (Zapier, n8n, Make, Pipedream).\n    resource: https://mcp.konbiniapi.com\n    granted_by: protected-resource metadata\n    consequence: read\n  - name: openid\n    description: Standard OIDC scope; requests an ID token identifying the signed-in KonbiniAPI account.\n    resource: https://app.konbiniapi.com/api/auth\n    granted_by: authorization-server metadata\n    consequence: identity\n  - name: profile\n\
   \    description: Standard OIDC scope; releases name, picture, given_name and family_name claims.\n    resource: https://app.konbiniapi.com/api/auth\n    granted_by: authorization-server metadata\n    consequence: identity\n  - name: email\n    description: Standard OIDC scope; releases the email and email_verified claims.\n    resource: https://app.konbiniapi.com/api/auth\n    granted_by: authorization-server metadata\n    consequence: identity\ngrants:\n  - authorization_code\n  - client_credentials\n  - refresh_token\npkce:\n  - S256\nclaims_supported:\n  - sub\n  - iss\n  - aud\n  - exp\n  - iat\n  - sid\n  - scope\n  - azp\n  - email\n  - email_verified\n  - name\n  - picture\n  - family_name\n  - given_name\ngaps:\n  - >-\n    No read-only scope. Every KonbiniAPI operation is a read, so this costs nothing today, but it\n    also means a consumer cannot narrow a delegated token below \"all five platforms\".\n  - >-\n    No per-platform scope (e.g. tiktok:read). An agent granted api_key\
   \ can call LinkedIn and Reddit\n    even if it was authorized for a TikTok task.\n  - >-\n    No spend-limiting scope. api_key implies the ability to consume the account's entire credit\n    balance; the only ceiling is the plan.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/scopes/konbiniapi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/konbiniapi/scopes/konbiniapi-scopes.yml
 summary_line: 5 scopes
 tags:
 - Social Media

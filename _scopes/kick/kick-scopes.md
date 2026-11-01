@@ -49,7 +49,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://use.kick.co/.well-known/oauth-authorization-server\ndocs: https://docs.kick.co/ai/permissions-and-security.md\nschemes:\n- name: OAuth2\n  source: https://use.kick.co/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://use.kick.co/mcp/oauth/authorize\n    tokenUrl: https://use.kick.co/mcp/oauth/token\n    registrationUrl: https://use.kick.co/mcp/oauth/register\n    code_challenge_methods: [S256]\nscopes:\n- scope: mcp:read\n  description: Tool discovery and read-only calls against the Kick MCP server.\n  flows: [authorizationCode]\n  sources: [https://use.kick.co/.well-known/oauth-authorization-server]\n- scope: mcp:write\n  description: Tools that can change data; write tools are preview-first and require explicit confirmation.\n  flows: [authorizationCode]\n  sources: [https://use.kick.co/.well-known/oauth-authorization-server]\nnotes: >-\n  Scopes are those\
   \ advertised for the Kick MCP OAuth surface (RFC 8414 metadata +\n  the Permissions and Security docs). Kick has no public OpenAPI, so scopes are not\n  derived per-operation; the two coarse MCP scopes gate read vs. write across the\n  full tool roster.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kick/refs/heads/main/scopes/kick-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kick/scopes/kick-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

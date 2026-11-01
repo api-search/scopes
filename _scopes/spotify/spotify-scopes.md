@@ -5,91 +5,91 @@ api_specs:
   label: Spotify Albums API
   slug: spotify-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-albums-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-albums-api-openapi.yml
 - filename: spotify-artists-api-openapi.yml
   format: yaml
   label: Spotify Artists API
   slug: spotify-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-artists-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-artists-api-openapi.yml
 - filename: spotify-audiobooks-api-openapi.yml
   format: yaml
   label: Spotify Audiobooks API
   slug: spotify-audiobooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-audiobooks-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-audiobooks-api-openapi.yml
 - filename: spotify-categories-api-openapi.yml
   format: yaml
   label: Spotify Categories API
   slug: spotify-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-categories-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-categories-api-openapi.yml
 - filename: spotify-chapters-api-openapi.yml
   format: yaml
   label: Spotify Chapters API
   slug: spotify-chapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-chapters-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-chapters-api-openapi.yml
 - filename: spotify-episodes-api-openapi.yml
   format: yaml
   label: Spotify Episodes API
   slug: spotify-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-episodes-api-openapi.yml
 - filename: spotify-genres-api-openapi.yml
   format: yaml
   label: Spotify Genres API
   slug: spotify-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-genres-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-genres-api-openapi.yml
 - filename: spotify-library-api-openapi.yml
   format: yaml
   label: Spotify Library API
   slug: spotify-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-library-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-library-api-openapi.yml
 - filename: spotify-markets-api-openapi.yml
   format: yaml
   label: Spotify Markets API
   slug: spotify-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-markets-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-markets-api-openapi.yml
 - filename: spotify-player-api-openapi.yml
   format: yaml
   label: Spotify Player API
   slug: spotify-player-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-player-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-player-api-openapi.yml
 - filename: spotify-playlists-api-openapi.yml
   format: yaml
   label: Spotify Playlists API
   slug: spotify-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-playlists-api-openapi.yml
 - filename: spotify-search-api-openapi.yml
   format: yaml
   label: Spotify Search API
   slug: spotify-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-search-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-search-api-openapi.yml
 - filename: spotify-shows-api-openapi.yml
   format: yaml
   label: Spotify Shows API
   slug: spotify-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-shows-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-shows-api-openapi.yml
 - filename: spotify-tracks-api-openapi.yml
   format: yaml
   label: Spotify Tracks API
   slug: spotify-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-tracks-api-openapi.yml
 - filename: spotify-users-api-openapi.yml
   format: yaml
   label: Spotify Users API
   slug: spotify-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/openapi/spotify-users-api-openapi.yml
+  url: https://artifacts.apis.io/spotify/openapi/spotify-users-api-openapi.yml
 authorization_urls:
 - https://accounts.spotify.com/authorize
 description: ''
@@ -225,7 +225,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spotify-
   \ collaborative playlists.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: playlist-read-private\n  description: Access your private playlists.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: streaming\n  description: Play content and control playback on your other devices.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: ugc-image-upload\n  description: Upload images to Spotify on your behalf.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-follow-modify\n  description: Manage your saved content.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-follow-read\n  description: Access your followers and who you are following.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-library-modify\n\
   \  description: Manage your saved content.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-library-read\n  description: Access your saved content.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-modify-playback-state\n  description: Control playback on your Spotify clients and Spotify Connect devices.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-read-currently-playing\n  description: Read your currently playing content.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-read-email\n  description: Get your real email address.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-read-playback-position\n  description: Read your position in content you have played.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n\
   - scope: user-read-playback-state\n  description: Read your currently playing content and Spotify Connect devices information.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-read-private\n  description: Access your subscription details.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-read-recently-played\n  description: Access your recently played items.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n- scope: user-top-read\n  description: Read your top artists and content.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spotify-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/scopes/spotify-scopes.yml
+source_yaml_url: https://artifacts.apis.io/spotify/scopes/spotify-scopes.yml
 summary_line: 19 scopes · authorizationCode
 tags:
 - Music

@@ -5,91 +5,91 @@ api_specs:
   label: Chili Piper Availability API
   slug: chili-piper-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-availability-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-availability-api-openapi.yml
 - filename: chili-piper-chat-api-openapi.yml
   format: yaml
   label: Chili Piper Chat API
   slug: chili-piper-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-chat-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-chat-api-openapi.yml
 - filename: chili-piper-concierge-api-openapi.yml
   format: yaml
   label: Chili Piper Concierge API
   slug: chili-piper-concierge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-concierge-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-concierge-api-openapi.yml
 - filename: chili-piper-distribution-api-openapi.yml
   format: yaml
   label: Chili Piper Distribution API
   slug: chili-piper-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-distribution-api-openapi.yml
 - filename: chili-piper-distro-api-openapi.yml
   format: yaml
   label: Chili Piper Distro API
   slug: chili-piper-distro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-distro-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-distro-api-openapi.yml
 - filename: chili-piper-meeting-type-api-openapi.yml
   format: yaml
   label: Chili Piper Meeting Type API
   slug: chili-piper-meeting-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-meeting-type-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-meeting-type-api-openapi.yml
 - filename: chili-piper-meeting-type-reminder-api-openapi.yml
   format: yaml
   label: Chili Piper Meeting Type Reminder API
   slug: chili-piper-meeting-type-reminder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-meeting-type-reminder-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-meeting-type-reminder-api-openapi.yml
 - filename: chili-piper-meetings-api-openapi.yml
   format: yaml
   label: Chili Piper Meetings API
   slug: chili-piper-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-meetings-api-openapi.yml
 - filename: chili-piper-rule-api-openapi.yml
   format: yaml
   label: Chili Piper Rule API
   slug: chili-piper-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-rule-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-rule-api-openapi.yml
 - filename: chili-piper-team-api-openapi.yml
   format: yaml
   label: Chili Piper Team API
   slug: chili-piper-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-team-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-team-api-openapi.yml
 - filename: chili-piper-tenant-api-openapi.yml
   format: yaml
   label: Chili Piper Tenant API
   slug: chili-piper-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-tenant-api-openapi.yml
 - filename: chili-piper-user-api-openapi.yml
   format: yaml
   label: Chili Piper User API
   slug: chili-piper-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-user-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-user-api-openapi.yml
 - filename: chili-piper-workspace-api-openapi.yml
   format: yaml
   label: Chili Piper Workspace API
   slug: chili-piper-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-workspace-api-openapi.yml
 - filename: chili-piper-hand-off-api-openapi.yml
   format: yaml
   label: Chili Piper Hand off API
   slug: chili-piper-hand-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-hand-off-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-hand-off-api-openapi.yml
 - filename: chili-piper-scheduling-links-api-openapi.yml
   format: yaml
   label: Chili Piper Scheduling Links API
   slug: chili-piper-scheduling-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/openapi/chili-piper-scheduling-links-api-openapi.yml
+  url: https://artifacts.apis.io/chili-piper/openapi/chili-piper-scheduling-links-api-openapi.yml
 authorization_urls: []
 description: 'Chili Piper API access tokens are scoped in Command Center at issue time. Scope is a matrix: a permission verb is granted per API section, so a token can be limited to exactly the surface a script or agent needs. The published OpenAPI documents declare only the apiKeyAuth bearer scheme and carry no oauth2 scope maps, so the matrix below is transcribed from Chili Piper documentation rather than derived from a spec.'
 docs: https://help.chilipiper.com/hc/en-us/articles/35576029581971-Edge-API-References
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: https://help.ch
   \ cannot be retrieved later.\n  management: 'Tokens list shows Last Access, Created Date and Created By; tokens can be viewed for permissions, removed and deleted. Deleting a token revokes its access immediately.'\npermissions:\n  - {verb: Ping, description: Health/reachability check only.}\n  - {verb: Read, description: Read access to the granted sections.}\n  - {verb: Modify, description: Create and update access to the granted sections.}\n  - {verb: Remove, description: Delete access to the granted sections.}\nsections:\n  - {section: Health, description: Monitor the health of the application.}\n  - {section: Tenant, description: Organization tenant metadata.}\n  - {section: Rule, description: Create/update/delete and list routing rules.}\n  - {section: Workspace, description: Read workspaces, add and remove users.}\n  - {section: Team, description: Read teams, add and remove users.}\n  - {section: Distribution, description: List, update, publish and delete distributions.}\n  - {section:\
   \ Availability, description: Available slots of assignees in round-robin meetings.}\n  - {section: User, description: Read/find users, invite users, update licenses.}\n  - {section: CRM, description: Activity, cancel and no-show by CRM event ID.}\n  - {section: Meetings, description: Query, get, cancel, no-show, activity and CSV export.}\n  - {section: Concierge, description: Routers, routing, scheduling and logs.}\n  - {section: 'Scheduling Links', description: List, initialize and schedule across link types.}\n  - {section: Handoff, description: Initialize a handoff flow and schedule from a handoff session.}\nnamed_scopes_documented:\n  - scope: Concierge.schedule\n    description: >-\n      Required to run a Concierge router from outside the UI via the Edge API.\n    source: https://help.chilipiper.com/hc/en-us/articles/30935152032275-Using-Concierge-via-the-Edge-API\noauth:\n  used_by: MCP server (https://fire.chilipiper.com/api/fire-edge/v1/org/mcp)\n  flow: browser-based authorization,\
   \ Admin on a paid account only\n  dynamic_client_registration: 'Client ID and secret are left blank by the client; no registration step is documented.'\n  protected_resource_metadata: well-known/chili-piper-oauth-protected-resource.json\n  published_scope_list: none\n  note: >-\n    Chili Piper publishes no OAuth scope list for the MCP OAuth path. The documentation states the\n    OAuth grant carries the signing-in Admin's org-wide permissions, and recommends the API-key path\n    when a narrower permission scope than the Admin OAuth grant is needed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/scopes/chili-piper-scopes.yml
+source_yaml_url: https://artifacts.apis.io/chili-piper/scopes/chili-piper-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Scheduling

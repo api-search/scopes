@@ -5,115 +5,115 @@ api_specs:
   label: Bitvore Alert API
   slug: bitvore-alert-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-alert-api-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-alert-api-api-openapi.yml
 - filename: bitvore-bond-api-openapi.yml
   format: yaml
   label: Bitvore Bond API
   slug: bitvore-bond-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-bond-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-bond-api-openapi.yml
 - filename: bitvore-corporate-news-api-openapi.yml
   format: yaml
   label: Bitvore Corporate News API
   slug: bitvore-corporate-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-corporate-news-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-corporate-news-api-openapi.yml
 - filename: bitvore-datasets-api-api-openapi.yml
   format: yaml
   label: Bitvore Datasets API
   slug: bitvore-datasets-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-datasets-api-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-datasets-api-api-openapi.yml
 - filename: bitvore-economic-news-api-openapi.yml
   format: yaml
   label: Bitvore Economic News API
   slug: bitvore-economic-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-economic-news-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-economic-news-api-openapi.yml
 - filename: bitvore-entity-api-openapi.yml
   format: yaml
   label: Bitvore Entity API
   slug: bitvore-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-entity-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-entity-api-openapi.yml
 - filename: bitvore-filings-api-api-openapi.yml
   format: yaml
   label: Bitvore Filings API
   slug: bitvore-filings-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-filings-api-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-filings-api-api-openapi.yml
 - filename: bitvore-financial-filings-api-openapi.yml
   format: yaml
   label: Bitvore Financial Filings API
   slug: bitvore-financial-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-financial-filings-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-financial-filings-api-openapi.yml
 - filename: bitvore-identification-api-openapi.yml
   format: yaml
   label: Bitvore Identification API
   slug: bitvore-identification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-identification-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-identification-api-openapi.yml
 - filename: bitvore-intel-api-openapi.yml
   format: yaml
   label: Bitvore Intel API
   slug: bitvore-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-intel-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-intel-api-openapi.yml
 - filename: bitvore-muni-api-api-openapi.yml
   format: yaml
   label: Bitvore Muni API
   slug: bitvore-muni-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-muni-api-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-muni-api-api-openapi.yml
 - filename: bitvore-muni-news-api-openapi.yml
   format: yaml
   label: Bitvore Muni News API
   slug: bitvore-muni-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-muni-news-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-muni-news-api-openapi.yml
 - filename: bitvore-news-api-api-openapi.yml
   format: yaml
   label: Bitvore News API
   slug: bitvore-news-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-news-api-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-news-api-api-openapi.yml
 - filename: bitvore-organizations-api-api-openapi.yml
   format: yaml
   label: Bitvore Organizations API
   slug: bitvore-organizations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-organizations-api-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-organizations-api-api-openapi.yml
 - filename: bitvore-portfolio-api-openapi.yml
   format: yaml
   label: Bitvore Portfolio API
   slug: bitvore-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-portfolio-api-openapi.yml
 - filename: bitvore-portfolios-api-api-openapi.yml
   format: yaml
   label: Bitvore Portfolios API
   slug: bitvore-portfolios-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-portfolios-api-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-portfolios-api-api-openapi.yml
 - filename: bitvore-sentiment-scores-api-api-openapi.yml
   format: yaml
   label: Bitvore Sentiment Scores API
   slug: bitvore-sentiment-scores-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-sentiment-scores-api-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-sentiment-scores-api-api-openapi.yml
 - filename: bitvore-sentiment-scores-api-openapi.yml
   format: yaml
   label: Bitvore Sentiment Scores API
   slug: bitvore-sentiment-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-sentiment-scores-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-sentiment-scores-api-openapi.yml
 - filename: bitvore-oauth2-api-openapi.yml
   format: yaml
   label: Bitvore O Auth2 API
   slug: bitvore-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/openapi/bitvore-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/bitvore/openapi/bitvore-oauth2-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -163,7 +163,7 @@ source_filename: bitvore-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-07'\nmethod: derived\nsource: openapi/_original/bitvore-corporate-openapi.yml, openapi/_original/bitvore-legacy-openapi.yml, openapi/_original/bitvore-muni-openapi.yml\nschemes:\n- name: OAuth\n  source: openapi/_original/bitvore-corporate-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\n- name: OAuth\n  source: openapi/_original/bitvore-legacy-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\n- name: OAuth\n  source: openapi/_original/bitvore-muni-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bitvore.com/oauth/accesstoken\nscopes:\n- scope: Global\n  description: Includes all Bitvore APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/_original/bitvore-corporate-openapi.yml\n  - openapi/_original/bitvore-legacy-openapi.yml\n  - openapi/_original/bitvore-muni-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/scopes/bitvore-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bitvore/scopes/bitvore-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Financial Data

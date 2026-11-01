@@ -5,85 +5,85 @@ api_specs:
   label: Autodesk BIM 360 Account Users API
   slug: autodesk-bim360-account-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-account-users-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-account-users-api-openapi.yml
 - filename: autodesk-bim360-business-units-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Business Units API
   slug: autodesk-bim360-business-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-business-units-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-business-units-api-openapi.yml
 - filename: autodesk-bim360-companies-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Companies API
   slug: autodesk-bim360-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-companies-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-companies-api-openapi.yml
 - filename: autodesk-bim360-issue-attachments-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Attachments API
   slug: autodesk-bim360-issue-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-attachments-api-openapi.yml
 - filename: autodesk-bim360-issue-attribute-definitions-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Attribute Definitions API
   slug: autodesk-bim360-issue-attribute-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-attribute-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-attribute-definitions-api-openapi.yml
 - filename: autodesk-bim360-issue-attribute-mappings-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Attribute Mappings API
   slug: autodesk-bim360-issue-attribute-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-attribute-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-attribute-mappings-api-openapi.yml
 - filename: autodesk-bim360-issue-comments-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Comments API
   slug: autodesk-bim360-issue-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-comments-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-comments-api-openapi.yml
 - filename: autodesk-bim360-issue-root-cause-categories-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Root Cause Categories API
   slug: autodesk-bim360-issue-root-cause-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-root-cause-categories-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-root-cause-categories-api-openapi.yml
 - filename: autodesk-bim360-issue-types-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issue Types API
   slug: autodesk-bim360-issue-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issue-types-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issue-types-api-openapi.yml
 - filename: autodesk-bim360-issues-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issues API
   slug: autodesk-bim360-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issues-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issues-api-openapi.yml
 - filename: autodesk-bim360-issues-profile-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Issues Profile API
   slug: autodesk-bim360-issues-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-issues-profile-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-issues-profile-api-openapi.yml
 - filename: autodesk-bim360-project-users-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Project Users API
   slug: autodesk-bim360-project-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-project-users-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-project-users-api-openapi.yml
 - filename: autodesk-bim360-projects-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 Projects API
   slug: autodesk-bim360-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-projects-api-openapi.yml
 - filename: autodesk-bim360-user-projects-api-openapi.yml
   format: yaml
   label: Autodesk BIM 360 User Projects API
   slug: autodesk-bim360-user-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/openapi/autodesk-bim360-user-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autodesk-bim360/openapi/autodesk-bim360-user-projects-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/
@@ -208,7 +208,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\ndocs: https://aps.autod
   \ to read all the end user's data (viewable\n    and non-viewable) within the Autodesk ecosystem.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: data:write\n  description: The application will be able to create, update, and delete data on\n    behalf of the end user within the Autodesk ecosystem.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: data:create\n  description: The application will be able to create data on behalf of the end user\n    within the Autodesk ecosystem.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: data:search\n  description: The application will be able to search the end user's data within\n    the Autodesk ecosystem.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: bucket:create\n  description: The application will be able to create an OSS bucket it will own.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n\
   - scope: bucket:read\n  description: The application will be able to read the metadata and list contents\n    for OSS buckets that it has access to.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: bucket:update\n  description: The application will be able to set permissions and entitlements for\n    OSS buckets that it has permission to modify.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: bucket:delete\n  description: The application will be able to delete a bucket that it has permission\n    to delete.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: code:all\n  description: The application will be able to author and execute code on behalf\n    of the end user (e.g., scripts processed by the Design Automation API).\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: account:read\n  description: For Product\
   \ APIs, the application will be able to read the account\n    data the end user has entitlements to.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: account:write\n  description: For Product APIs, the application will be able to update the account\n    data the end user has entitlements to.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: openid\n  description: The application requires this scope to generate an id_token.\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n- scope: data:read:<URN_OF_RESOURCE>\n  description: Dynamic scope that allows the client to access only the specific resource\n    with the URN/Object ID specified by <URN_OF_RESOURCE> (a raw urn:adsk.* URN, not\n    Base64 encoded).\n  sources:\n  - https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/scopes/autodesk-bim360-scopes.yml
+source_yaml_url: https://artifacts.apis.io/autodesk-bim360/scopes/autodesk-bim360-scopes.yml
 summary_line: 17 scopes · clientCredentials/implicit/authorizationCode
 tags:
 - Construction

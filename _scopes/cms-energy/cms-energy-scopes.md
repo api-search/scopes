@@ -5,49 +5,49 @@ api_specs:
   label: CMS Energy Authorizations API
   slug: cms-energy-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-authorizations-api-openapi.yml
 - filename: cms-energy-bills-api-openapi.yml
   format: yaml
   label: CMS Energy Bills API
   slug: cms-energy-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-bills-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-bills-api-openapi.yml
 - filename: cms-energy-greenbutton-api-openapi.yml
   format: yaml
   label: CMS Energy GreenButton API
   slug: cms-energy-greenbutton-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-greenbutton-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-greenbutton-api-openapi.yml
 - filename: cms-energy-intervals-api-openapi.yml
   format: yaml
   label: CMS Energy Intervals API
   slug: cms-energy-intervals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-intervals-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-intervals-api-openapi.yml
 - filename: cms-energy-meters-api-openapi.yml
   format: yaml
   label: CMS Energy Meters API
   slug: cms-energy-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-meters-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-meters-api-openapi.yml
 - filename: cms-energy-outage-map-api-openapi.yml
   format: yaml
   label: Consumers Energy Outage Map ArcGIS REST API
   slug: cms-energy-outage-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-outage-map-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-outage-map-api-openapi.yml
 - filename: cms-energy-catalog-api-openapi.yml
   format: yaml
   label: CMS Energy Catalog API
   slug: cms-energy-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-catalog-api-openapi.yml
 - filename: cms-energy-service-dashboard-api-openapi.yml
   format: yaml
   label: CMS Energy Service Dashboard API
   slug: cms-energy-service-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/openapi/cms-energy-service-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/cms-energy/openapi/cms-energy-service-dashboard-api-openapi.yml
 authorization_urls: []
 description: Authorization scope reference for the Consumers Energy Green Button Connect My Data program. Green Button does not use OAuth scope as a flat list of strings — the scope value is a semicolon-separated parameter string whose required `FB` member is an underscore-joined list of ESPI Function Blocks. Recorded here as the provider documents it, not flattened into pseudo-scopes.
 docs: https://utilityapi.com/docs/greenbutton/scope
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://utility
   \ notifications are sent when FB 39 is in scope. Integer days or a named frequency.\n    type: option\n    default: billingPeriod\n    requestable: true\n  - scope: AdditionalScope\n    name: Additional scope options\n    description: Underscore-joined list of universal and utility-specific options.\n    type: option\n    default: ''\n    requestable: true\n  - scope: AdditionalScope=auth-sso\n    name: Consumers Energy single sign-on\n    description: >-\n      Authenticate the customer through Consumers Energy SSO (described in the docs as\n      OpenIDConnect). This is the default for CONSUMERSENERGY.\n    type: additional-scope\n    utility_specific: true\n    source: https://utilityapi.com/docs/utilities/consumersenergy\n  - scope: AdditionalScope=auth-test-{scenario}\n    name: Test-account authentication\n    description: >-\n      Bypass Consumers Energy SSO and authenticate as a published test scenario —\n      test_residential, test_commercial or test_empty.\n    type: additional-scope\n\
   \    utility_specific: true\n    source: https://utilityapi.com/docs/utilities/consumersenergy\ninformational_only:\n  note: Returned in the final scope string; cannot be requested in the authorization URL.\n  parameters:\n  - name: AccountCollection\n    description: How many UsagePoints the authorization covers.\n  - name: BR\n    description: The Bulk ID for the Bulk API.\n  - name: IntervalDuration\n    description: Interval length in seconds (900 = 15 minutes).\n  - name: BlockDuration\n    description: Interval chunk size in seconds, or a named frequency.\nfunction_block_reference:\n  note: >-\n    Only 4, 16, 39 and 51 are honoured in an authorization URL. The full ESPI table is returned in\n    the final scope string.\n  blocks:\n    1: Common\n    2: Download My Data\n    3: Connect My Data\n    4: Interval Metering\n    5: Interval Electricity Metering\n    6: Demand Electricity Metering\n    7: Net Metering\n    8: Forward and Reverse Metering\n    9: Register Values\n    10:\
   \ Gas\n    11: Water\n    12: Cost of Interval Data\n    13: Security and Privacy Classes\n    14: Authorization and Authentication (replaced by FB 31)\n    15: Usage Summary\n    16: Usage Summary with Cost\n    17: Power Quality Summary\n    39: PUSH Model\n    51: Core Retail Customer\ntoken_classes:\n  source: https://utilityapi.com/docs/greenbutton/api\n  classes:\n  - name: registration_access_token\n    grants: Registration endpoints (third-party ApplicationInformation)\n    lifetime: Does not expire unless rotated\n  - name: client_access_token\n    grants: Authorization endpoints and Bulk endpoints\n    issued_by: grant_type=client_credentials\n  - name: access_token\n    grants: Resource endpoints and Batch endpoints, scoped to one authorization\n    issued_by: grant_type=authorization_code\n    lifetime_seconds: 3600\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/scopes/cms-energy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cms-energy/scopes/cms-energy-scopes.yml
 summary_line: 10 scopes
 tags:
 - Electric

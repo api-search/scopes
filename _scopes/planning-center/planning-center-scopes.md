@@ -5,55 +5,55 @@ api_specs:
   label: Planning Center Calendar API
   slug: planning-center-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-calendar-api-openapi.yml
 - filename: planning-center-check-ins-api-openapi.yml
   format: yaml
   label: Planning Center Check-Ins API
   slug: planning-center-check-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-check-ins-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-check-ins-api-openapi.yml
 - filename: planning-center-giving-api-openapi.yml
   format: yaml
   label: Planning Center Giving API
   slug: planning-center-giving-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-giving-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-giving-api-openapi.yml
 - filename: planning-center-groups-api-openapi.yml
   format: yaml
   label: Planning Center Groups API
   slug: planning-center-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-groups-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-groups-api-openapi.yml
 - filename: planning-center-people-api-openapi.yml
   format: yaml
   label: Planning Center People API
   slug: planning-center-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-people-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-people-api-openapi.yml
 - filename: planning-center-publishing-api-openapi.yml
   format: yaml
   label: Planning Center Publishing API
   slug: planning-center-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-publishing-api-openapi.yml
 - filename: planning-center-registrations-api-openapi.yml
   format: yaml
   label: Planning Center Registrations API
   slug: planning-center-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-registrations-api-openapi.yml
 - filename: planning-center-services-api-openapi.yml
   format: yaml
   label: Planning Center Services API
   slug: planning-center-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-services-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-services-api-openapi.yml
 - filename: planning-center-webhooks-api-openapi.yml
   format: yaml
   label: Planning Center Webhooks API
   slug: planning-center-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/openapi/planning-center-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/planning-center/openapi/planning-center-webhooks-api-openapi.yml
 authorization_urls:
 - https://api.planningcenteronline.com/oauth/authorize
 description: ''
@@ -131,7 +131,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/planning-center-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/planning-center-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.planningcenteronline.com/oauth/authorize\n    tokenUrl: https://api.planningcenteronline.com/oauth/token\nscopes:\n- scope: calendar\n  description: Access the Calendar product\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/planning-center-openapi.yml\n- scope: check_ins\n  description: Access the Check-Ins product\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/planning-center-openapi.yml\n- scope: giving\n  description: Access the Giving product\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/planning-center-openapi.yml\n- scope: groups\n  description: Access the Groups product\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/planning-center-openapi.yml\n- scope: people\n  description: Access the People\
   \ product\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/planning-center-openapi.yml\n- scope: publishing\n  description: Access the Publishing product\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/planning-center-openapi.yml\n- scope: registrations\n  description: Access the Registrations product\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/planning-center-openapi.yml\n- scope: services\n  description: Access the Services product\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/planning-center-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/scopes/planning-center-scopes.yml
+source_yaml_url: https://artifacts.apis.io/planning-center/scopes/planning-center-scopes.yml
 summary_line: 8 scopes · authorizationCode
 tags:
 - Church Management

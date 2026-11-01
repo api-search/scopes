@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://jolyn.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nnote: >-\n  OAuth/OIDC scopes advertised by the Shopify Customer Account API OIDC discovery document\n  served for the JOLYN store. Captured verbatim from scopes_supported; descriptions per the\n  Shopify Customer Account API documentation.\nschemes:\n  - name: ShopifyCustomerAccount\n    source: well-known/jolynclothing-openid-configuration.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://account.jolyn.com/authentication/oauth/authorize\n        tokenUrl: https://account.jolyn.com/authentication/oauth/token\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication — issue an ID token for the customer.\n    flows: [authorizationCode]\n  - scope: email\n    description: Access the customer's email address claim.\n    flows: [authorizationCode]\n  - scope: customer-account-api:full\n\
   \    description: Full access to the Shopify Customer Account API for the authenticated customer (orders, addresses, profile).\n    flows: [authorizationCode]\n  - scope: customer-account-mcp-api:full\n    description: Full access to the Customer Account MCP API surface for agent-driven, buyer-authorized commerce.\n    flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jolynclothing/refs/heads/main/scopes/jolynclothing-scopes.yml
+source_yaml_url: https://artifacts.apis.io/jolynclothing/scopes/jolynclothing-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

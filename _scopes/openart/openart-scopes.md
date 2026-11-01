@@ -40,7 +40,7 @@ source_filename: openart-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://openart.ai/.well-known/oauth-authorization-server\ndocs: https://openart.ai/mcp\nschemes:\n- name: OAuth2\n  source: well-known/openart-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://openart.ai/suite/api/auth/oauth/authorize\n    tokenUrl: https://openart.ai/suite/api/auth/oauth/token\nscopes:\n- scope: full_access\n  description: >-\n    Full access to the authenticated OpenArt account and its capabilities\n    (image/video generation, model discovery, library, projects, account\n    credits/plan). This is the only scope OpenArt's OAuth server advertises\n    (scopes_supported: [full_access]); it is a coarse, all-or-nothing grant.\n  flows: [authorizationCode]\n  sources: [well-known/openart-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openart/refs/heads/main/scopes/openart-scopes.yml
+source_yaml_url: https://artifacts.apis.io/openart/scopes/openart-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

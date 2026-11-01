@@ -5,169 +5,169 @@ api_specs:
   label: Canvas Medical Appointment API
   slug: canvas-medical-appointment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-appointment-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-appointment-api-openapi.yml
 - filename: canvas-medical-careteam-api-openapi.yml
   format: yaml
   label: Canvas Medical CareTeam API
   slug: canvas-medical-careteam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-careteam-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-careteam-api-openapi.yml
 - filename: canvas-medical-claim-api-openapi.yml
   format: yaml
   label: Canvas Medical Claim API
   slug: canvas-medical-claim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-claim-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-claim-api-openapi.yml
 - filename: canvas-medical-communication-api-openapi.yml
   format: yaml
   label: Canvas Medical Communication API
   slug: canvas-medical-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-communication-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-communication-api-openapi.yml
 - filename: canvas-medical-condition-api-openapi.yml
   format: yaml
   label: Canvas Medical Condition API
   slug: canvas-medical-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-condition-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-condition-api-openapi.yml
 - filename: canvas-medical-consent-api-openapi.yml
   format: yaml
   label: Canvas Medical Consent API
   slug: canvas-medical-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-consent-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-consent-api-openapi.yml
 - filename: canvas-medical-coverage-api-openapi.yml
   format: yaml
   label: Canvas Medical Coverage API
   slug: canvas-medical-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-coverage-api-openapi.yml
 - filename: canvas-medical-diagnosticreport-api-openapi.yml
   format: yaml
   label: Canvas Medical DiagnosticReport API
   slug: canvas-medical-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-diagnosticreport-api-openapi.yml
 - filename: canvas-medical-encounter-api-openapi.yml
   format: yaml
   label: Canvas Medical Encounter API
   slug: canvas-medical-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-encounter-api-openapi.yml
 - filename: canvas-medical-goal-api-openapi.yml
   format: yaml
   label: Canvas Medical Goal API
   slug: canvas-medical-goal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-goal-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-goal-api-openapi.yml
 - filename: canvas-medical-immunization-api-openapi.yml
   format: yaml
   label: Canvas Medical Immunization API
   slug: canvas-medical-immunization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-immunization-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-immunization-api-openapi.yml
 - filename: canvas-medical-location-api-openapi.yml
   format: yaml
   label: Canvas Medical Location API
   slug: canvas-medical-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-location-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-location-api-openapi.yml
 - filename: canvas-medical-metadata-api-openapi.yml
   format: yaml
   label: Canvas Medical Metadata API
   slug: canvas-medical-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-metadata-api-openapi.yml
 - filename: canvas-medical-observation-api-openapi.yml
   format: yaml
   label: Canvas Medical Observation API
   slug: canvas-medical-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-observation-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-observation-api-openapi.yml
 - filename: canvas-medical-organization-api-openapi.yml
   format: yaml
   label: Canvas Medical Organization API
   slug: canvas-medical-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-organization-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-organization-api-openapi.yml
 - filename: canvas-medical-patient-api-openapi.yml
   format: yaml
   label: Canvas Medical Patient API
   slug: canvas-medical-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-patient-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-patient-api-openapi.yml
 - filename: canvas-medical-practitioner-api-openapi.yml
   format: yaml
   label: Canvas Medical Practitioner API
   slug: canvas-medical-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-practitioner-api-openapi.yml
 - filename: canvas-medical-procedure-api-openapi.yml
   format: yaml
   label: Canvas Medical Procedure API
   slug: canvas-medical-procedure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-procedure-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-procedure-api-openapi.yml
 - filename: canvas-medical-questionnaire-api-openapi.yml
   format: yaml
   label: Canvas Medical Questionnaire API
   slug: canvas-medical-questionnaire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-questionnaire-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-questionnaire-api-openapi.yml
 - filename: canvas-medical-questionnaireresponse-api-openapi.yml
   format: yaml
   label: Canvas Medical QuestionnaireResponse API
   slug: canvas-medical-questionnaireresponse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-questionnaireresponse-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-questionnaireresponse-api-openapi.yml
 - filename: canvas-medical-schedule-api-openapi.yml
   format: yaml
   label: Canvas Medical Schedule API
   slug: canvas-medical-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-schedule-api-openapi.yml
 - filename: canvas-medical-servicerequest-api-openapi.yml
   format: yaml
   label: Canvas Medical ServiceRequest API
   slug: canvas-medical-servicerequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-servicerequest-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-servicerequest-api-openapi.yml
 - filename: canvas-medical-slot-api-openapi.yml
   format: yaml
   label: Canvas Medical Slot API
   slug: canvas-medical-slot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-slot-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-slot-api-openapi.yml
 - filename: canvas-medical-task-api-openapi.yml
   format: yaml
   label: Canvas Medical Task API
   slug: canvas-medical-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-task-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-task-api-openapi.yml
 - filename: canvas-medical-allergy-intolerance-api-openapi.yml
   format: yaml
   label: Canvas Medical Allergy Intolerance API
   slug: canvas-medical-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-allergy-intolerance-api-openapi.yml
 - filename: canvas-medical-care-plan-api-openapi.yml
   format: yaml
   label: Canvas Medical Care plan API
   slug: canvas-medical-care-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-care-plan-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-care-plan-api-openapi.yml
 - filename: canvas-medical-document-reference-api-openapi.yml
   format: yaml
   label: Canvas Medical Document Reference API
   slug: canvas-medical-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-document-reference-api-openapi.yml
 - filename: canvas-medical-medication-request-api-openapi.yml
   format: yaml
   label: Canvas Medical Medication Request API
   slug: canvas-medical-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/openapi/canvas-medical-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/canvas-medical/openapi/canvas-medical-medication-request-api-openapi.yml
 authorization_urls:
 - https://{canvas-instance}.canvasmedical.com/auth/authorize/
 description: ''
@@ -326,7 +326,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/canvas-
   \ resources.\n  flows: [clientCredentials]\n  sources: [openapi/canvas-medical-fhir-api-openapi.yml]\n- scope: system/Task.*\n  description: Full access to Task; Task is system-context only.\n  flows: [clientCredentials]\n  sources: [docs]\n- scope: system/Plugins.*\n  description: Full access to plugin install, list and management endpoints.\n  flows: [clientCredentials]\n  sources: [docs]\nlaunch_and_identity_scopes:\n- scope: launch\n  description: Allows external app launches.\n- scope: launch/patient\n  description: Allows patient context.\n- scope: openid\n  description: OpenID Connect scope.\n- scope: fhirUser\n  description: Returns the authenticated user's FHIR identity.\n- scope: offline_access\n  description: Requests a refresh token.\noperation_scopes:\n  note: Some FHIR operations require a dedicated scope IN ADDITION to the resource scope. Available under both user/ and system/.\n  scopes:\n  - suffix: Claim.add-activity-log-item\n    operation: Add an activity log entry\
   \ to a Claim.\n  - suffix: DiagnosticReport.create-lab-report\n    operation: Create a lab report.\n  - suffix: Practitioner.send-reset-password-email\n    operation: Send a password-reset email to a practitioner.\npatient_scoped_tokens:\n  supported: true\n  mechanism: >-\n    A client-credentials token request that additionally carries `patient=<canvas patient id>` and a\n    space-separated list of patient/ scopes. The response echoes back patient, smart_style_url and\n    need_patient_banner.\n  enforcement: >-\n    Records referencing other patients cannot be retrieved with the token, and requests for resource\n    types absent from the token's scope — or types that do not support patient-scoped tokens — are\n    denied.\n  validation: >-\n    A request that includes the patient parameter but omits scope, or requests invalid scopes, is\n    rejected.\nrefresh_scope_rule: >-\n  On refresh_token grants the `scope` parameter must match the original grant or be a subset. If\n  omitted,\
   \ Canvas falls back to the application's default allowed scopes, which may fail with\n  invalid_scope.\nsmart_capabilities_observed:\n  source: https://fumage-apex.canvasmedical.com/.well-known/smart-configuration\n  fetched: '2026-08-14'\n  http_status: 200\n  values: [authorize-post, client-confidential-asymmetric, client-confidential-symmetric, client-public, context-banner, context-ehr-encounter, context-ehr-patient, context-standalone-patient, context-style, launch-ehr, launch-standalone, permission-offline, permission-patient, permission-user, permission-v1, permission-v2, sso-openid-connect]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/scopes/canvas-medical-scopes.yml
+source_yaml_url: https://artifacts.apis.io/canvas-medical/scopes/canvas-medical-scopes.yml
 summary_line: 20 scopes · clientCredentials/authorizationCode
 tags:
 - Electronic Health Records

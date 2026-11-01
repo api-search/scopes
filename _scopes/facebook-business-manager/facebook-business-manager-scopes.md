@@ -5,85 +5,85 @@ api_specs:
   label: Facebook Business Manager Ad Accounts API
   slug: facebook-business-manager-ad-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-accounts-api-openapi.yml
 - filename: facebook-business-manager-ad-creatives-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ad Creatives API
   slug: facebook-business-manager-ad-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-creatives-api-openapi.yml
 - filename: facebook-business-manager-ad-images-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ad Images API
   slug: facebook-business-manager-ad-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-images-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-images-api-openapi.yml
 - filename: facebook-business-manager-ad-sets-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ad Sets API
   slug: facebook-business-manager-ad-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-sets-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-sets-api-openapi.yml
 - filename: facebook-business-manager-ads-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ads API
   slug: facebook-business-manager-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ads-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ads-api-openapi.yml
 - filename: facebook-business-manager-campaigns-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Campaigns API
   slug: facebook-business-manager-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-campaigns-api-openapi.yml
 - filename: facebook-business-manager-comments-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Comments API
   slug: facebook-business-manager-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-comments-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-comments-api-openapi.yml
 - filename: facebook-business-manager-custom-audiences-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Custom Audiences API
   slug: facebook-business-manager-custom-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-custom-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-custom-audiences-api-openapi.yml
 - filename: facebook-business-manager-insights-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Insights API
   slug: facebook-business-manager-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-insights-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-insights-api-openapi.yml
 - filename: facebook-business-manager-page-insights-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Page Insights API
   slug: facebook-business-manager-page-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-page-insights-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-page-insights-api-openapi.yml
 - filename: facebook-business-manager-pages-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Pages API
   slug: facebook-business-manager-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-pages-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-pages-api-openapi.yml
 - filename: facebook-business-manager-photos-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Photos API
   slug: facebook-business-manager-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-photos-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-photos-api-openapi.yml
 - filename: facebook-business-manager-posts-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Posts API
   slug: facebook-business-manager-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-posts-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-posts-api-openapi.yml
 - filename: facebook-business-manager-videos-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Videos API
   slug: facebook-business-manager-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-videos-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-videos-api-openapi.yml
 authorization_urls: []
 description: 'Meta calls OAuth scopes "permissions" and publishes them in a single Permissions Reference for Meta Technologies APIs. Permissions are app-user-granted and gated by App Review; Advanced Access to any permission additionally requires Business Verification. The list below was read from that reference page on 2026-08-13, plus the machine-readable scopes_supported arrays served by Meta''s two MCP servers at /.well-known/oauth-protected-resource/{ads,devtools}. Note: derive-oauth-scopes.py produced nothing for this repo because the OpenAPI files in openapi/ declare a bearer http securityScheme rather than an oauth2 scheme with a scopes map — the scopes below are searched from the docs, not derived from a spec.'
 docs: https://developers.facebook.com/docs/permissions
@@ -462,7 +462,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ Threads profiles.\n  - name: threads_share_to_instagram\n    group: threads\n    description: Share Threads content to Instagram.\n  - name: threads_user_id\n    group: threads\n    description: Access the Threads user id.\n  - name: manage_app_solutions\n    group: apps\n    description: Manage app solutions on behalf of a business.\n  - name: manage_fundraisers\n    group: social\n    description: Create and manage fundraisers on behalf of the app user.\n  - name: user_age_range\n    group: user\n    description: The app user's age range bucket.\n  - name: user_birthday\n    group: user\n    description: The app user's birthday.\n  - name: user_friends\n    group: user\n    description: The app user's friends who also use the app.\n  - name: user_gender\n    group: user\n    description: The app user's gender.\n  - name: user_hometown\n    group: user\n    description: The app user's hometown.\n  - name: user_likes\n    group: user\n    description: Pages the app user has liked.\n\
   \  - name: user_link\n    group: user\n    description: The URL of the app user's Facebook profile.\n  - name: user_location\n    group: user\n    description: The app user's current city.\n  - name: user_messenger_contact\n    group: user\n    description: Contact the app user on Messenger following a defined interaction.\n  - name: user_photos\n    group: user\n    description: Photos the app user has uploaded or is tagged in.\n  - name: user_posts\n    group: user\n    description: Posts on the app user's timeline.\n  - name: user_videos\n    group: user\n    description: Videos the app user has uploaded or is tagged in.\n  - name: gaming_profile\n    group: gaming\n    description: Gaming-scoped profile access.\n  - name: gaming_user_locale\n    group: gaming\n    description: Gaming-scoped locale access.\n  - name: developer_tools_mcp_app_read\n    group: mcp\n    description: >-\n      Read access for the Meta Devtools MCP server. Sourced from\n      https://mcp.facebook.com/.well-known/oauth-protected-resource/devtools,\
   \ not from the Permissions\n      Reference page.\n  - name: developer_tools_mcp_app_management\n    group: mcp\n    description: >-\n      Management access for the Meta Devtools MCP server. Sourced from\n      https://mcp.facebook.com/.well-known/oauth-protected-resource/devtools.\nscope_count: 82\ncompleteness_note: >-\n  Meta's Permissions Reference is paginated A-Z in a partly client-rendered layout. The list above is what\n  was legible in the served markup on 2026-08-13 plus the two MCP servers' machine-readable scope arrays.\n  It is a large and representative sample, not a guaranteed exhaustive enumeration; treat\n  https://developers.facebook.com/docs/permissions as canonical.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/scopes/facebook-business-manager-scopes.yml
+source_yaml_url: https://artifacts.apis.io/facebook-business-manager/scopes/facebook-business-manager-scopes.yml
 summary_line: 85 scopes
 tags:
 - Advertising

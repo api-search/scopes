@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: >-\n  scopes_supported from https://shoppbsbiotech.com/.well-known/openid-configuration and\n  https://account.shoppbsbiotech.com/.well-known/openid-configuration (both HTTP 200, probed 2026-08-26).\nauthorization_server: https://shopify.com/authentication/71340753133\nprotected_resource: https://account.shoppbsbiotech.com\nnote: >-\n  These are the Shopify customer-account scopes advertised by the discovery document served on PBS\n  Biotech's own store hosts. There is no PBS Biotech-authored scope surface — the company publishes no\n  API of its own. No scope reference page is published; the descriptions below are the standard meanings\n  of the scope identifiers as advertised, not additional claims.\nscope_count: 4\nscopes:\n- name: openid\n  description: Standard OpenID Connect scope; requests an ID token for the signed-in buyer.\n- name: email\n  description: Standard OpenID Connect scope; releases the email and email_verified\
   \ claims.\n- name: 'customer-account-api:full'\n  description: Full access to the signed-in buyer's customer account (orders, addresses, profile).\n- name: 'customer-account-mcp-api:full'\n  description: >-\n    Full access to the customer-account MCP API for the signed-in buyer — the authenticated counterpart\n    to the anonymous storefront UCP/MCP endpoint.\nclaims_supported:\n- iss\n- sub\n- aud\n- exp\n- iat\n- nonce\n- sid\n- email\n- email_verified\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pbs-biotech/refs/heads/main/scopes/pbs-biotech-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pbs-biotech/scopes/pbs-biotech-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

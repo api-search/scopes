@@ -5,43 +5,43 @@ api_specs:
   label: University of Lisbon Campus Life API
   slug: university-of-lisbon-campus-life-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-campus-life-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-campus-life-api-openapi.yml
 - filename: university-of-lisbon-courses-api-openapi.yml
   format: yaml
   label: University of Lisbon Courses API
   slug: university-of-lisbon-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-courses-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-courses-api-openapi.yml
 - filename: university-of-lisbon-degrees-api-openapi.yml
   format: yaml
   label: University of Lisbon Degrees API
   slug: university-of-lisbon-degrees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-degrees-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-degrees-api-openapi.yml
 - filename: university-of-lisbon-domain-model-api-openapi.yml
   format: yaml
   label: University of Lisbon Domain Model API
   slug: university-of-lisbon-domain-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-domain-model-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-domain-model-api-openapi.yml
 - filename: university-of-lisbon-institution-api-openapi.yml
   format: yaml
   label: University of Lisbon Institution API
   slug: university-of-lisbon-institution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-institution-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-institution-api-openapi.yml
 - filename: university-of-lisbon-person-api-openapi.yml
   format: yaml
   label: University of Lisbon Person API
   slug: university-of-lisbon-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-person-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-person-api-openapi.yml
 - filename: university-of-lisbon-spaces-api-openapi.yml
   format: yaml
   label: University of Lisbon Spaces API
   slug: university-of-lisbon-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-spaces-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -68,7 +68,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "---\nname: University of Lisbon — Access Scopes\ngenerated: '2026-09-01'\nmethod: probed\nsource:\n  - https://fenix.tecnico.ulisboa.pt/oauth/userdialog\n  - https://fenixedu.org/dev/api/\nnote: >-\n  Written by API Evangelist. This file records an ABSENCE that was measured, not a\n  scope list. No scope names are invented here.\npublished_scopes: none\nfinding: >-\n  The FenixEdu deployment at Instituto Superior Tecnico runs Bennu OAuth 2.0 with a\n  working authorization and token endpoint, but it publishes no scope vocabulary. The\n  consent dialog at /oauth/userdialog renders per registered application, the human\n  documentation at fenixedu.org/dev/api/ names no scope strings, and there is no\n  discovery document — probed 2026-09-01, no /.well-known/oauth-authorization-server\n  and no /.well-known/openid-configuration under the API host. Consequently\n  components.securitySchemes.fenixOAuth.flows.authorizationCode.scopes in\n  openapi/university-of-lisbon-fenixedu-academic-api-openapi.yml\
   \ is deliberately an\n  empty object rather than a guessed list.\naccess_boundaries_observed:\n  - boundary: anonymous\n    description: >-\n      Institutional metadata, academic terms, contacts, degree and course catalog,\n      campus spaces and blueprints, parking, canteen, shuttle, serialized domain model.\n    evidence: 9 endpoints probed 2026-09-01, all 200 with no Authorization header.\n  - boundary: person-scoped, token required\n    description: >-\n      Personal profile, course enrolments, curriculum, class and evaluation calendars,\n      evaluation enrolment, tuition and payment records.\n    evidence:\n      url: https://fenix.tecnico.ulisboa.pt/api/fenix/v1/person\n      status: 401\n      body: '{\"error\":\"accessTokenInvalidFormat\",\"error_description\":\"Access Token not recognized.\"}'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/scopes/university-of-lisbon-scopes.yml
+source_yaml_url: https://artifacts.apis.io/university-of-lisbon/scopes/university-of-lisbon-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

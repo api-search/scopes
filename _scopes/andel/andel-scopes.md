@@ -5,13 +5,13 @@ api_specs:
   label: Andel Purchases API
   slug: andel-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/openapi/andel-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/andel/openapi/andel-purchases-api-openapi.yml
 - filename: andel-webhooks-api-openapi.yml
   format: yaml
   label: Andel Webhooks API
   slug: andel-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/openapi/andel-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/andel/openapi/andel-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://build.andel.org/dataexchange/overview/overview
@@ -47,7 +47,7 @@ source_filename: andel-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/andel-data-exchange-openapi.yaml\ndocs: https://build.andel.org/dataexchange/overview/overview\nissuer: Descope\ntoken_url: https://api.descope.com/oauth2/v1/apps/token\nschemes:\n- name: andelDescopeClientCredentials\n  grant: clientCredentials\n  token_url: https://api.descope.com/oauth2/v1/apps/token\nscopes:\n- scope: purchases:read\n  description: >-\n    Read access to member purchase events on the Data Exchange API. Required to\n    call GET /purchases and GET /purchases/{purchase_id}. Tokens additionally\n    carry a `plans` claim that scopes visibility to the plans the tenant is\n    authorized for.\n  grants:\n  - clientCredentials\n  operations:\n  - listPurchases\n  - getPurchase\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/scopes/andel-scopes.yml
+source_yaml_url: https://artifacts.apis.io/andel/scopes/andel-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: University of California, San Francisco Documents API
   slug: ucsf-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ucsf/openapi/ucsf-documents-api-openapi.yml
 - filename: ucsf-profiles-api-openapi.yml
   format: yaml
   label: University of California, San Francisco Profiles API
   slug: ucsf-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/openapi/ucsf-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/ucsf/openapi/ucsf-profiles-api-openapi.yml
 authorization_urls: []
 description: Authorization scopes across UCSF's institution-operated public surfaces.
 docs: ''
@@ -37,7 +37,7 @@ source_filename: ucsf-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "name: UCSF API Scopes\ndescription: >-\n  Authorization scopes across UCSF's institution-operated public surfaces.\ngenerated: '2026-08-19'\nmethod: probed\nsource:\n  - https://profilesdeveloper.ucsf.edu/json-api\n  - https://solr.idl.ucsf.edu/solr/ltdl3/query?q=*:*&rows=0&wt=json\nscopes: []\nfinding: >-\n  No scope system exists on either institution-operated public API. Both the UCSF Profiles JSON\n  API and the UCSF Industry Documents Library Solr API are anonymous, read-only, and undifferentiated\n  — every caller sees exactly the same corpus, and there is no token, consent screen, or permission\n  boundary to describe. This is an accurate absence, not a gap in the research: a public archive\n  and a public directory of researchers have nothing to scope. Scoped authorization at UCSF lives\n  behind the SAML identity provider (urn:mace:incommon:ucsf.edu) and behind the gated\n  unified-api.ucsf.edu gateway, neither of which publishes a machine-readable scope inventory.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucsf/refs/heads/main/scopes/ucsf-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ucsf/scopes/ucsf-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

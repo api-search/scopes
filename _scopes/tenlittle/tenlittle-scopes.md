@@ -52,7 +52,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://tenlittle.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\n# scopes_supported published verbatim by the Shopify Customer Account OIDC\n# discovery document served on the tenlittle.com domain. These are Shopify\n# platform scopes for shopper (customer-account) access, not a first-party\n# Ten Little API scope model.\nfirst_party: false\nprovider: Shopify (Customer Account API)\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/tenlittle-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/26030735465/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/26030735465/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication.\n  sources: [well-known/tenlittle-openid-configuration.json]\n- scope: email\n  description: Access to the customer's email address.\n  sources:\
   \ [well-known/tenlittle-openid-configuration.json]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in shopper.\n  sources: [well-known/tenlittle-openid-configuration.json]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API for the signed-in shopper.\n  sources: [well-known/tenlittle-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenlittle/refs/heads/main/scopes/tenlittle-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tenlittle/scopes/tenlittle-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

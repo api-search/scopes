@@ -5,25 +5,25 @@ api_specs:
   label: Microsoft Entra Applications API
   slug: microsoft-entra-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-applications-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-entra/openapi/microsoft-entra-applications-api-openapi.yml
 - filename: microsoft-entra-groups-api-openapi.yml
   format: yaml
   label: Microsoft Entra Groups API
   slug: microsoft-entra-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-entra/openapi/microsoft-entra-groups-api-openapi.yml
 - filename: microsoft-entra-users-api-openapi.yml
   format: yaml
   label: Microsoft Entra Users API
   slug: microsoft-entra-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-entra/openapi/microsoft-entra-users-api-openapi.yml
 - filename: microsoft-entra-service-principals-api-openapi.yml
   format: yaml
   label: Microsoft Entra Service Principals API
   slug: microsoft-entra-service-principals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-service-principals-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-entra/openapi/microsoft-entra-service-principals-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -131,7 +131,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-entra-graph-identity-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-entra-graph-identity-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Microsoft identity platform. Supports authorization\n    code flow for delegated permissions and client credentials flow for application permissions.\nscopes:\n- scope: Application.Read.All\n  description: Read all applications\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: Application.ReadWrite.All\n  description: Read and write all applications\n  flows:\n  - authorizationCode\n \
   \ sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: Directory.Read.All\n  description: Read directory data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: Directory.ReadWrite.All\n  description: Read and write directory data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: Group.Read.All\n  description: Read all groups\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: Group.ReadWrite.All\n  description: Read and write all groups\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: GroupMember.Read.All\n  description: Read all group memberships\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: GroupMember.ReadWrite.All\n  description: Read and write all group memberships\n\
   \  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: User.Read\n  description: Read the signed-in user's profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: User.Read.All\n  description: Read all users' profiles\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: User.ReadWrite\n  description: Read and update the signed-in user's profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: User.ReadWrite.All\n  description: Read and write all users' profiles\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n- scope: https://graph.microsoft.com/.default\n  description: Default scope for application permissions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/scopes/microsoft-entra-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-entra/scopes/microsoft-entra-scopes.yml
 summary_line: 13 scopes · authorizationCode/clientCredentials
 tags:
 - Identity and Access Management

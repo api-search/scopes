@@ -33,7 +33,7 @@ source_filename: connect-first-credit-union-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.connectfirstcu.com/.well-known/openid-configuration\nnote: >-\n  The only OAuth scopes advertised are the two standard OIDC scopes exposed by\n  Umbraco member authentication. No banking/data-access scopes exist; there is no\n  public developer authorization surface.\nissuer: https://www.connectfirstcu.com/\nflow: authorization_code\nscopes:\n- name: openid\n  description: Standard OpenID Connect scope requesting an ID token for the member.\n  standard: true\n- name: offline_access\n  description: Requests a refresh token so the member session can be renewed without re-authentication.\n  standard: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connect-first-credit-union/refs/heads/main/scopes/connect-first-credit-union-scopes.yml
+source_yaml_url: https://artifacts.apis.io/connect-first-credit-union/scopes/connect-first-credit-union-scopes.yml
 summary_line: 2 scopes · authorization_code
 tags:
 - Financial Services

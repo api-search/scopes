@@ -5,31 +5,31 @@ api_specs:
   label: Google Merchant Center Accounts API
   slug: google-merchant-center-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/google-merchant-center-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-merchant-center/openapi/google-merchant-center-accounts-api-openapi.yml
 - filename: google-merchant-center-inventories-api-openapi.yml
   format: yaml
   label: Google Merchant Center Inventories API
   slug: google-merchant-center-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/google-merchant-center-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/google-merchant-center/openapi/google-merchant-center-inventories-api-openapi.yml
 - filename: google-merchant-center-products-api-openapi.yml
   format: yaml
   label: Google Merchant Center Products API
   slug: google-merchant-center-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/google-merchant-center-products-api-openapi.yml
+  url: https://artifacts.apis.io/google-merchant-center/openapi/google-merchant-center-products-api-openapi.yml
 - filename: google-merchant-center-promotions-api-openapi.yml
   format: yaml
   label: Google Merchant Center Promotions API
   slug: google-merchant-center-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/google-merchant-center-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/google-merchant-center/openapi/google-merchant-center-promotions-api-openapi.yml
 - filename: google-merchant-center-reports-api-openapi.yml
   format: yaml
   label: Google Merchant Center Reports API
   slug: google-merchant-center-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/google-merchant-center-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-merchant-center/openapi/google-merchant-center-reports-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -71,7 +71,7 @@ source_filename: google-merchant-center-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/content\n  description: Manage Google Shopping data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/scopes/google-merchant-center-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-merchant-center/scopes/google-merchant-center-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - E-Commerce

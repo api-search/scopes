@@ -5,13 +5,13 @@ api_specs:
   label: Google Blogger Blogs API
   slug: google-blogger-blogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/openapi/google-blogger-blogs-api-openapi.yml
+  url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-blogs-api-openapi.yml
 - filename: google-blogger-users-api-openapi.yml
   format: yaml
   label: Google Blogger Users API
   slug: google-blogger-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/openapi/google-blogger-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-users-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -58,7 +58,7 @@ source_filename: google-blogger-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blogger.yml\nschemes:\n- name: oauth2\n  source: openapi/blogger.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/blogger\n  description: Manage your Blogger account\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/blogger.yml\n- scope: https://www.googleapis.com/auth/blogger.readonly\n  description: View your Blogger account\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/blogger.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/scopes/google-blogger-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-blogger/scopes/google-blogger-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Blogging

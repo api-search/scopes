@@ -5,7 +5,7 @@ api_specs:
   label: Microsoft Cognitive Services Image Analysis API
   slug: microsoft-cognitive-services-image-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-cognitive-services/refs/heads/main/openapi/microsoft-cognitive-services-image-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-cognitive-services/openapi/microsoft-cognitive-services-image-analysis-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -46,7 +46,7 @@ source_filename: microsoft-cognitive-services-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-cognitive-services-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-cognitive-services-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0\nscopes:\n- scope: https://cognitiveservices.azure.com/.default\n  description: Cognitive Services access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microsoft-cognitive-services-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-cognitive-services/refs/heads/main/scopes/microsoft-cognitive-services-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-cognitive-services/scopes/microsoft-cognitive-services-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Azure AI

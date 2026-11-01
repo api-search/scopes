@@ -5,25 +5,25 @@ api_specs:
   label: Bandcamp Account API
   slug: bandcamp-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-account-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-account-api-openapi.yml
 - filename: bandcamp-merch-orders-api-openapi.yml
   format: yaml
   label: Bandcamp Merch Orders API
   slug: bandcamp-merch-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-merch-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-merch-orders-api-openapi.yml
 - filename: bandcamp-sales-api-openapi.yml
   format: yaml
   label: Bandcamp Sales API
   slug: bandcamp-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-sales-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-sales-api-openapi.yml
 - filename: bandcamp-oauth-api-openapi.yml
   format: yaml
   label: Bandcamp O Auth API
   slug: bandcamp-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -73,7 +73,7 @@ source_filename: bandcamp-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/bandcamp-account-api-openapi.yml, openapi/bandcamp-merch-orders-api-openapi.yml,\n  openapi/bandcamp-oauth-api-openapi.yml, openapi/bandcamp-sales-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/bandcamp-account-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://bandcamp.com/oauth_token\n- name: oauth2\n  source: openapi/bandcamp-merch-orders-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://bandcamp.com/oauth_token\n- name: oauth2\n  source: openapi/bandcamp-oauth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://bandcamp.com/oauth_token\n- name: oauth2\n  source: openapi/bandcamp-sales-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://bandcamp.com/oauth_token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/scopes/bandcamp-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bandcamp/scopes/bandcamp-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Music

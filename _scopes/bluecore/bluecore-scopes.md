@@ -5,49 +5,49 @@ api_specs:
   label: Bluecore Authn API
   slug: bluecore-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-authn-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-authn-api-openapi.yml
 - filename: bluecore-campaignsapipublic-api-openapi.yml
   format: yaml
   label: Bluecore CampaignsAPIPublic API
   slug: bluecore-campaignsapipublic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-campaignsapipublic-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-campaignsapipublic-api-openapi.yml
 - filename: bluecore-direct-send-api-openapi.yml
   format: yaml
   label: Bluecore Direct send API
   slug: bluecore-direct-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-direct-send-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-direct-send-api-openapi.yml
 - filename: bluecore-eligibility-api-openapi.yml
   format: yaml
   label: Bluecore Eligibility API
   slug: bluecore-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-eligibility-api-openapi.yml
 - filename: bluecore-profile-api-openapi.yml
   format: yaml
   label: Bluecore Profile API
   slug: bluecore-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-profile-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-profile-api-openapi.yml
 - filename: bluecore-transactional-api-openapi.yml
   format: yaml
   label: Bluecore Transactional API
   slug: bluecore-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-transactional-api-openapi.yml
 - filename: bluecore-get-status-api-openapi.yml
   format: yaml
   label: Bluecore GET STATUS API
   slug: bluecore-get-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-get-status-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-get-status-api-openapi.yml
 - filename: bluecore-send-email-api-openapi.yml
   format: yaml
   label: Bluecore SEND EMAIL API
   slug: bluecore-send-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-send-email-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-send-email-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.bluecore.com/reference/authn_getaccesstoken
@@ -102,7 +102,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developers.bluecore.com/reference/authn_getaccesstoken\ndocs: https://developers.bluecore.com/reference/authn_getaccesstoken\nnotes: >-\n  Bluecore access tokens carry space-delimited scopes in `resource:verb` form (e.g.\n  `customers:write` grants write access to the Customers API), returned in the token\n  response `scope` field. In the per-operation OpenAPI the same permissions appear as\n  dot-form scope strings on each operation's GlooAuth security requirement. Both forms\n  are recorded below.\nscheme:\n  name: GlooAuth\n  flow: clientCredentials\n  token_url: https://auth.bluecore.com/oauth/token\nscopes:\n- scope: customers:read\n  spec_form: customers.read\n  description: Read access to Customer Profiles.\n  operations: [Profile_Get]\n- scope: customers:write\n  spec_form: customers.write\n  description: Create or update Customer Profiles (identifiers and attributes).\n  operations: [Profile_CreateOrUpdate]\n\
   - scope: eligibility:read\n  spec_form: eligibility.read\n  description: Read a customer's eligibility / subscription (consent) status.\n  operations: [Eligibility_Get]\n- scope: eligibility:write\n  spec_form: eligibility.write\n  description: Update a customer's eligibility / subscription (consent) status.\n  operations: [Eligibility_Update]\n- scope: directsend:write\n  spec_form: directsend.write\n  description: Create external direct-send campaigns in Bluecore. (API under construction.)\n  operations: [CampaignsAPIPublic_CreateDirectSendCampaign]\n- scope: direct_send:api\n  spec_form: direct_send.api\n  description: Send a direct message via a previously created direct-send campaign. (API under construction.)\n  operations: [DirectSend_Send]\n- scope: transactional:api\n  spec_form: transactional.api\n  description: Send transactional (email/SMS/MMS) messages and retrieve their delivery status.\n  operations: [Transactional_Send, Transactional_Get]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/scopes/bluecore-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bluecore/scopes/bluecore-scopes.yml
 summary_line: 7 scopes
 tags:
 - Company

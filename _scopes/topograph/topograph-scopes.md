@@ -5,43 +5,43 @@ api_specs:
   label: Topograph Billing API
   slug: topograph-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-billing-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-billing-api-openapi.yml
 - filename: topograph-billing-notifications-api-openapi.yml
   format: yaml
   label: Topograph Billing Notifications API
   slug: topograph-billing-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-billing-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-billing-notifications-api-openapi.yml
 - filename: topograph-data-api-openapi.yml
   format: yaml
   label: Topograph Data API
   slug: topograph-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-data-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-data-api-openapi.yml
 - filename: topograph-monitors-api-openapi.yml
   format: yaml
   label: Topograph Monitors API
   slug: topograph-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-monitors-api-openapi.yml
 - filename: topograph-pricing-api-openapi.yml
   format: yaml
   label: Topograph Pricing API
   slug: topograph-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-pricing-api-openapi.yml
 - filename: topograph-search-api-openapi.yml
   format: yaml
   label: Topograph Search API
   slug: topograph-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-search-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-search-api-openapi.yml
 - filename: topograph-workspaces-api-openapi.yml
   format: yaml
   label: Topograph Workspaces API
   slug: topograph-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/openapi/topograph-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/topograph/openapi/topograph-workspaces-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://topograph.co/developers/mcp
@@ -106,7 +106,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://api.topograph.co/.well-known/oauth-authorization-server\ndocs: https://topograph.co/developers/mcp\nnote: >-\n  The Topograph REST API authenticates with an x-api-key header and declares no OAuth2 scopes.\n  These OAuth 2.1 / OIDC scopes govern the designer / MCP surface, whose authorization server is\n  Clerk (clerk.topograph.co). Captured verbatim from the RFC 8414 metadata.\nschemes:\n- name: OAuth2.1\n  issuer: https://clerk.topograph.co\n  authorizationUrl: https://clerk.topograph.co/oauth/authorize\n  tokenUrl: https://clerk.topograph.co/oauth/token\n  flows: [authorizationCode, refreshToken]\n  pkce: S256\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token.\n- scope: profile\n  description: Access to the user's basic profile claims.\n- scope: email\n  description: Access to the user's email address.\n- scope: public_metadata\n  description: Read the user's public metadata.\n\
   - scope: private_metadata\n  description: Read the user's private metadata.\n- scope: offline_access\n  description: Issue a refresh token for offline access.\n- scope: user:org:read\n  description: Read the user's organization membership.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/topograph/refs/heads/main/scopes/topograph-scopes.yml
+source_yaml_url: https://artifacts.apis.io/topograph/scopes/topograph-scopes.yml
 summary_line: 7 scopes · authorizationCode/refreshToken
 tags:
 - Company

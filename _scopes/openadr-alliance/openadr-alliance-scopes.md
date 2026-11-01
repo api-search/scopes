@@ -5,55 +5,55 @@ api_specs:
   label: OpenADR Alliance Auth API
   slug: openadr-alliance-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-auth-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-auth-api-openapi.yml
 - filename: openadr-alliance-events-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Events API
   slug: openadr-alliance-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-events-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-events-api-openapi.yml
 - filename: openadr-alliance-mqtt-notifier-api-openapi.yml
   format: yaml
   label: OpenADR Alliance MQTT Notifier API
   slug: openadr-alliance-mqtt-notifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-mqtt-notifier-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-mqtt-notifier-api-openapi.yml
 - filename: openadr-alliance-notifiers-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Notifiers API
   slug: openadr-alliance-notifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-notifiers-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-notifiers-api-openapi.yml
 - filename: openadr-alliance-programs-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Programs API
   slug: openadr-alliance-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-programs-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-programs-api-openapi.yml
 - filename: openadr-alliance-reports-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Reports API
   slug: openadr-alliance-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-reports-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-reports-api-openapi.yml
 - filename: openadr-alliance-resources-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Resources API
   slug: openadr-alliance-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-resources-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-resources-api-openapi.yml
 - filename: openadr-alliance-subscriptions-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Subscriptions API
   slug: openadr-alliance-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-subscriptions-api-openapi.yml
 - filename: openadr-alliance-vens-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Vens API
   slug: openadr-alliance-vens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-vens-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-vens-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: derived\nsource: openapi/openadr-
   \ and BL can read all resources\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openadr-3-0-0-openapi.yaml\n  - openapi/openadr-3-0-1-openapi.yaml\n  - openapi/openadr-3-1-0-openapi.yaml\n  - openapi/openadr-3-1-1-openapi.yaml\n- scope: read_bl\n  description: BL can read BL-scoped notifier topic metadata\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openadr-3-1-0-openapi.yaml\n  - openapi/openadr-3-1-1-openapi.yaml\n- scope: read_targets\n  description: VENs may only read objects with targets by providing matching targets\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openadr-3-1-0-openapi.yaml\n  - openapi/openadr-3-1-1-openapi.yaml\n- scope: read_ven_objects\n  description: VENs may only read objects whose clientID matches their own\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openadr-3-1-0-openapi.yaml\n  - openapi/openadr-3-1-1-openapi.yaml\n- scope: write_events\n  description: Only BL can write to events\n  flows:\n  - clientCredentials\n\
   \  sources:\n  - openapi/openadr-3-0-0-openapi.yaml\n  - openapi/openadr-3-0-1-openapi.yaml\n  - openapi/openadr-3-1-0-openapi.yaml\n  - openapi/openadr-3-1-1-openapi.yaml\n- scope: write_programs\n  description: Only BL can write to programs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openadr-3-0-0-openapi.yaml\n  - openapi/openadr-3-0-1-openapi.yaml\n  - openapi/openadr-3-1-0-openapi.yaml\n  - openapi/openadr-3-1-1-openapi.yaml\n- scope: write_reports\n  description: only VENs can write to reports\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openadr-3-0-0-openapi.yaml\n  - openapi/openadr-3-0-1-openapi.yaml\n  - openapi/openadr-3-1-0-openapi.yaml\n  - openapi/openadr-3-1-1-openapi.yaml\n- scope: write_subscriptions\n  description: VENs and BL can write to subscriptions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openadr-3-0-0-openapi.yaml\n  - openapi/openadr-3-0-1-openapi.yaml\n  - openapi/openadr-3-1-0-openapi.yaml\n  - openapi/openadr-3-1-1-openapi.yaml\n\
   - scope: write_vens\n  description: VENS and BL can write to vens and resources\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openadr-3-0-0-openapi.yaml\n  - openapi/openadr-3-0-1-openapi.yaml\n  - openapi/openadr-3-1-0-openapi.yaml\n  - openapi/openadr-3-1-1-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/scopes/openadr-alliance-scopes.yml
+source_yaml_url: https://artifacts.apis.io/openadr-alliance/scopes/openadr-alliance-scopes.yml
 summary_line: 9 scopes · clientCredentials
 tags:
 - Energy

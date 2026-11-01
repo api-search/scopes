@@ -5,13 +5,13 @@ api_specs:
   label: Envato Market API
   slug: envato-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-market-api-openapi.yml
+  url: https://artifacts.apis.io/envato/openapi/envato-market-api-openapi.yml
 - filename: envato-search-api-openapi.yml
   format: yaml
   label: Envato Search API
   slug: envato-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/openapi/envato-search-api-openapi.yml
+  url: https://artifacts.apis.io/envato/openapi/envato-search-api-openapi.yml
 authorization_urls:
 - https://api.envato.com/authorization
 description: ''
@@ -136,7 +136,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: derived\nsource: openapi/envato-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/envato-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://api.envato.com/authorization\nscopes:\n- scope: default\n  description: View and search Envato sites\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: purchase:download\n  description: Download my purchased items\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: purchase:history\n  description: View my purchases of the app creator's items\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: purchase:list\n  description: List purchases I've made\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: purchase:verify\n  description: Verify purchases I've made\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: sale:history\n  description: View my items'\
   \ sales history\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: sale:verify\n  description: Verify purchases of my items\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: stat:total_community_earnings\n  description: Shows the total amount of community earnings on Envato Market\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: stat:total_items\n  description: Shows the total number of items available on Envato Market\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: stat:total_items_sold\n  description: Shows the total number of items sold on Envato Market\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: stat:total_users\n  description: View the total number of subscribed users to Envato Market\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: user:account\n  description: View my account profile details\n  flows:\n  -\
   \ implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: user:collections\n  description: View my public and private collections\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: user:email\n  description: View my email address\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: user:favourite_collection_add\n  description: Add item to favourite collection\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: user:financial\n  description: View my account financial history\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: user:statement\n  description: View my statement transactions\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n- scope: user:username\n  description: View my Envato Account username\n  flows:\n  - implicit\n  sources:\n  - openapi/envato-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/scopes/envato-scopes.yml
+source_yaml_url: https://artifacts.apis.io/envato/scopes/envato-scopes.yml
 summary_line: 18 scopes · implicit
 tags:
 - Stock Media

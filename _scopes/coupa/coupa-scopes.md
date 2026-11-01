@@ -5,25 +5,25 @@ api_specs:
   label: Coupa Invoices API
   slug: coupa-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-invoices-api-openapi.yml
 - filename: coupa-purchase-orders-api-openapi.yml
   format: yaml
   label: Coupa Purchase Orders API
   slug: coupa-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-purchase-orders-api-openapi.yml
 - filename: coupa-requisitions-api-openapi.yml
   format: yaml
   label: Coupa Requisitions API
   slug: coupa-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-requisitions-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-requisitions-api-openapi.yml
 - filename: coupa-suppliers-api-openapi.yml
   format: yaml
   label: Coupa Suppliers API
   slug: coupa-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-suppliers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -100,7 +100,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/coupa-core-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/coupa-core-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{instance}.coupahost.com/oauth2/token\n  description: OAuth 2.0 authentication. Coupa supports the client_credentials grant type. Obtain\n    client credentials from Coupa instance setup.\nscopes:\n- scope: core.invoices.read\n  description: Read invoices\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/coupa-core-api-openapi.yml\n- scope: core.invoices.write\n  description: Create and update invoices\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/coupa-core-api-openapi.yml\n- scope: core.purchase_orders.read\n  description: Read purchase orders\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/coupa-core-api-openapi.yml\n- scope: core.purchase_orders.write\n  description: Create and update purchase orders\n  flows:\n  - clientCredentials\n\
   \  sources:\n  - openapi/coupa-core-api-openapi.yml\n- scope: core.requisitions.read\n  description: Read requisitions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/coupa-core-api-openapi.yml\n- scope: core.requisitions.write\n  description: Create and update requisitions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/coupa-core-api-openapi.yml\n- scope: core.suppliers.read\n  description: Read suppliers\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/coupa-core-api-openapi.yml\n- scope: core.suppliers.write\n  description: Create and update suppliers\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/coupa-core-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/scopes/coupa-scopes.yml
+source_yaml_url: https://artifacts.apis.io/coupa/scopes/coupa-scopes.yml
 summary_line: 8 scopes · clientCredentials
 tags:
 - BSM

@@ -5,7 +5,7 @@ api_specs:
   label: Theta Lake API
   slug: theta-lake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/theta-lake/refs/heads/main/openapi/_original/theta-lake-openapi-original.yml
+  url: https://artifacts.apis.io/theta-lake/openapi/_original/theta-lake-openapi-original.yml
 authorization_urls: []
 description: ''
 docs: https://developer.thetalake.ai/
@@ -326,7 +326,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/theta-l
   - {scope: 'legal_matter:create', description: Create legal matters}\n- {scope: 'legal_matter:update', description: Update legal matters}\n- {scope: 'legal_matter:delete', description: Delete legal matters}\n- {scope: 'org_units:read', description: Read organizational units}\n- {scope: 'org_units:update', description: Update organizational units}\n- {scope: 'reconciliation:read', description: Read reconciliation data}\n- {scope: 'records:read', description: Read records}\n- {scope: 'retention_libraries:read', description: Read retention libraries}\n- {scope: 'retention_libraries:create', description: Create retention libraries}\n- {scope: 'retention_libraries:update', description: Update retention libraries}\n- {scope: 'retention_libraries:delete', description: Delete retention libraries}\n- {scope: 'roles:read', description: Read roles}\n- {scope: 'roles:create', description: Create roles}\n- {scope: 'roles:update', description: Update roles}\n- {scope: 'roles:delete', description: Delete\
   \ roles}\n- {scope: 'search:read', description: Read/run searches}\n- {scope: 'search:create', description: Create saved searches}\n- {scope: 'search:export', description: Export search results}\n- {scope: 'search:reset', description: Reset and re-enter a saved search}\n- {scope: 'storage_accounts:read', description: Read storage accounts}\n- {scope: 'supervision_spaces:read', description: Read supervision spaces}\n- {scope: 'supervision_spaces:create', description: Create supervision spaces}\n- {scope: 'supervision_spaces:update', description: Update supervision spaces}\n- {scope: 'supervision_spaces:delete', description: Delete supervision spaces}\n- {scope: 'user_groups:read', description: Read user groups}\n- {scope: 'user_groups:create', description: Create user groups}\n- {scope: 'user_groups:update', description: Update user groups}\n- {scope: 'user_groups:delete', description: Delete user groups}\n- {scope: 'users:read', description: Read users}\n- {scope: 'users:create', description:\
   \ Create users}\n- {scope: 'users:update', description: Update users}\n- {scope: 'users:delete', description: Delete users}\n- {scope: 'users:disable', description: Disable/enable users}\n- {scope: 'workflows:read', description: Read workflows}\n- {scope: 'workflows:use', description: Run/queue workflows}\n- {scope: 'workspace:read', description: Read workspace}\n- {scope: 'workspace:update', description: Update workspace}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/theta-lake/refs/heads/main/scopes/theta-lake-scopes.yml
+source_yaml_url: https://artifacts.apis.io/theta-lake/scopes/theta-lake-scopes.yml
 summary_line: 70 scopes · clientCredentials
 tags:
 - Communications Governance

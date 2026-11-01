@@ -5,7 +5,7 @@ api_specs:
   label: Memberstack API
   slug: memberstack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberstack/refs/heads/main/openapi/_ae-authored/memberstack-openapi-generated.yml
+  url: https://artifacts.apis.io/memberstack/openapi/_ae-authored/memberstack-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -37,14 +37,14 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memberstack/refs/heads/main/scopes/memberstack-scopes.yml
+source_yaml_url: https://artifacts.apis.io/memberstack/scopes/memberstack-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- membership
-- authentication
-- payments
-- webflow
-- api
+- Membership
+- Webflow
+- SaaS
+- Authentication
+- Payments
 token_bound: false
 token_urls: []
 ---

@@ -5,31 +5,31 @@ api_specs:
   label: The Trade Desk Advertiser API
   slug: trade-desk-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-advertiser-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-advertiser-api-openapi.yml
 - filename: trade-desk-deletionoptout-api-openapi.yml
   format: yaml
   label: The Trade Desk DeletionOptOut API
   slug: trade-desk-deletionoptout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-deletionoptout-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-deletionoptout-api-openapi.yml
 - filename: trade-desk-offlineconversion-api-openapi.yml
   format: yaml
   label: The Trade Desk OfflineConversion API
   slug: trade-desk-offlineconversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-offlineconversion-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-offlineconversion-api-openapi.yml
 - filename: trade-desk-ip-address-api-openapi.yml
   format: yaml
   label: The Trade Desk IP Address API
   slug: trade-desk-ip-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-ip-address-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-ip-address-api-openapi.yml
 - filename: trade-desk-third-party-api-openapi.yml
   format: yaml
   label: The Trade Desk Third Party API
   slug: trade-desk-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/openapi/trade-desk-third-party-api-openapi.yml
+  url: https://artifacts.apis.io/trade-desk/openapi/trade-desk-third-party-api-openapi.yml
 authorization_urls:
 - https://auth.thetradedesk.com/connect/authorize
 description: ''
@@ -460,7 +460,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://auth.thet
   \  description: Profile claims.\n- scope: email\n  description: Email claim.\n- scope: offline_access\n  description: Issue a refresh token.\n- scope: ttdapi\n  description: Access to The Trade Desk Platform API.\n- scope: activity.read_write\n- scope: ad_format.read\n- scope: ad_technology.read\n- scope: adgroup.activity.read\n- scope: adgroup.basic_read\n- scope: adgroup.basic_update\n- scope: adgroup.basic_write\n- scope: adgroup.delta.read\n- scope: adgroup.read_write\n- scope: advertiser.delta.read\n- scope: advertiser.overview.read\n- scope: advertiser.read\n- scope: advertiser.read_write\n- scope: advertiser_targeting.read\n- scope: audience.basic_read\n- scope: audience_workflows.write\n- scope: bidlist.basic_write\n- scope: bidlist.read_write\n- scope: billing_and_fees.write\n- scope: campaign.activity.read\n- scope: campaign.basic_read\n- scope: campaign.basic_write\n- scope: campaign.delta.read\n- scope: campaign.read_write\n- scope: campaign.write\n- scope: campaign_flight.create\n\
   - scope: campaign_flight.read\n- scope: category.read\n- scope: category_taxonomy.read\n- scope: comscore.read\n- scope: content.read\n- scope: contract.delta.read\n- scope: contract.partner.read\n- scope: contract.read_write\n- scope: contract_group.read_write\n- scope: creative.delta.read\n- scope: creative.read\n- scope: creative.read_write\n- scope: creative.write\n- scope: currency.read\n- scope: data_group.read\n- scope: delivery_profile.read\n- scope: delivery_profile.read_write\n- scope: delta.read\n- scope: device_make_model.read\n- scope: direct_url_targeting_category.read\n- scope: fees.basic_write\n- scope: fees.read\n- scope: fees.read_write\n- scope: first_party.read\n- scope: frequency_counter.update\n- scope: geo_segment.read\n- scope: label.read_write\n- scope: language.read\n- scope: metadata_and_queries.write\n- scope: mobile_application.read\n- scope: mobile_carrier.read\n- scope: my_reports.read_write\n- scope: nielsen.reporting_countries.read\n- scope: partner.overview.read\n\
   - scope: partner.read\n- scope: retail.write\n- scope: right_media_offer_type.read\n- scope: seller.read\n- scope: supply_vendor.read\n- scope: supply_vendor_publisher.read\n- scope: targeting.write\n- scope: tracking_tag.read\n- scope: universal_forecasting.generate\n- scope: weather_condition.read\n- scope: ttdui_refresh\n  description: Refresh the platform UI session.\n- scope: openpath\n  description: OpenPath access.\n- scope: openpath_ui\n- scope: openpass\n  description: OpenPass access.\n- scope: ttdops\n- scope: ttd_info\n- scope: ttdapi_elevated\n  description: Elevated Platform API access.\n- scope: manage_api_tokens\n  description: Create and revoke API tokens.\n- scope: ttd-dev-portal.access\n  description: Access to the developer portal.\n- scope: bidlist.read\n- scope: frequency_config.read\n- scope: datarate.read_write\n- scope: claudeai\n- scope: applications\n- scope: segment.update\n- scope: offline_access\n  description: Issue a refresh token.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/scopes/trade-desk-scopes.yml
+source_yaml_url: https://artifacts.apis.io/trade-desk/scopes/trade-desk-scopes.yml
 summary_line: 91 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Advertising

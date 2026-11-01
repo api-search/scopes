@@ -5,31 +5,31 @@ api_specs:
   label: Credly Badge Templates API
   slug: credly-badge-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-badge-templates-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-badge-templates-api-openapi.yml
 - filename: credly-events-api-openapi.yml
   format: yaml
   label: Credly Events API
   slug: credly-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-events-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-events-api-openapi.yml
 - filename: credly-issued-badges-api-openapi.yml
   format: yaml
   label: Credly Issued Badges API
   slug: credly-issued-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-issued-badges-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-issued-badges-api-openapi.yml
 - filename: credly-obi-recipients-api-openapi.yml
   format: yaml
   label: Credly OBI Recipients API
   slug: credly-obi-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-obi-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-obi-recipients-api-openapi.yml
 - filename: credly-organizations-api-openapi.yml
   format: yaml
   label: Credly Organizations API
   slug: credly-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-organizations-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -80,7 +80,7 @@ source_filename: credly-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/credly-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/credly-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.credly.com/oauth/token\n  description: OAuth 2.0 client_credentials grant. Tokens are short-lived (2 hours) and sent\n    as a Bearer token.\nscopes:\n- scope: issue\n  description: Issue and manage badges.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/credly-openapi.yml\n- scope: read\n  description: Read access to organization resources.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/credly-openapi.yml\n- scope: workforce\n  description: Access to employee/workforce data.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/credly-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/scopes/credly-scopes.yml
+source_yaml_url: https://artifacts.apis.io/credly/scopes/credly-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - Digital Credentials

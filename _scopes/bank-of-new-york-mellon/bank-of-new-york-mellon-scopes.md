@@ -5,31 +5,31 @@ api_specs:
   label: BNY Mellon Accounts API
   slug: bank-of-new-york-mellon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bank-of-new-york-mellon-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-new-york-mellon/openapi/bank-of-new-york-mellon-accounts-api-openapi.yml
 - filename: bank-of-new-york-mellon-balances-api-openapi.yml
   format: yaml
   label: BNY Mellon Balances API
   slug: bank-of-new-york-mellon-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bank-of-new-york-mellon-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-new-york-mellon/openapi/bank-of-new-york-mellon-balances-api-openapi.yml
 - filename: bank-of-new-york-mellon-funds-transfers-api-openapi.yml
   format: yaml
   label: BNY Mellon Funds Transfers API
   slug: bank-of-new-york-mellon-funds-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bank-of-new-york-mellon-funds-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-new-york-mellon/openapi/bank-of-new-york-mellon-funds-transfers-api-openapi.yml
 - filename: bank-of-new-york-mellon-payments-api-openapi.yml
   format: yaml
   label: BNY Mellon Payments API
   slug: bank-of-new-york-mellon-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bank-of-new-york-mellon-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-new-york-mellon/openapi/bank-of-new-york-mellon-payments-api-openapi.yml
 - filename: bank-of-new-york-mellon-transactions-api-openapi.yml
   format: yaml
   label: BNY Mellon Transactions API
   slug: bank-of-new-york-mellon-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bank-of-new-york-mellon-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-new-york-mellon/openapi/bank-of-new-york-mellon-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -90,7 +90,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bny-mellon-treasury-services-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/bny-mellon-treasury-services-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.bnymellon.com/oauth/token\nscopes:\n- scope: accounts:read\n  description: Read account data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bny-mellon-treasury-services-api-openapi.yml\n- scope: balances:read\n  description: Read balance data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bny-mellon-treasury-services-api-openapi.yml\n- scope: payments:write\n  description: Initiate and manage payments\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bny-mellon-treasury-services-api-openapi.yml\n- scope: transactions:read\n  description: Read transaction history\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bny-mellon-treasury-services-api-openapi.yml\n- scope: transfers:write\n\
   \  description: Initiate funds transfers\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bny-mellon-treasury-services-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/scopes/bank-of-new-york-mellon-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bank-of-new-york-mellon/scopes/bank-of-new-york-mellon-scopes.yml
 summary_line: 5 scopes · clientCredentials
 tags:
 - Asset Servicing

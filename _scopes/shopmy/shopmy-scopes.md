@@ -5,37 +5,37 @@ api_specs:
   label: ShopMy Catalog API
   slug: shopmy-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-catalog-api-openapi.yml
 - filename: shopmy-collections-api-openapi.yml
   format: yaml
   label: ShopMy Collections API
   slug: shopmy-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-collections-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-collections-api-openapi.yml
 - filename: shopmy-links-api-openapi.yml
   format: yaml
   label: ShopMy Links API
   slug: shopmy-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-links-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-links-api-openapi.yml
 - filename: shopmy-order-reporting-api-openapi.yml
   format: yaml
   label: ShopMy Order Reporting API
   slug: shopmy-order-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-order-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-order-reporting-api-openapi.yml
 - filename: shopmy-profile-api-openapi.yml
   format: yaml
   label: ShopMy Profile API
   slug: shopmy-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-profile-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-profile-api-openapi.yml
 - filename: shopmy-oauth-api-openapi.yml
   format: yaml
   label: ShopMy O Auth API
   slug: shopmy-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-oauth-api-openapi.yml
 authorization_urls:
 - https://shopmy.us/oauth
 description: ''
@@ -99,7 +99,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/shopmy-partners-openapi.yml\ndocs: https://docs.shopmy.us/reference/getting-started-with-your-api-1\nschemes:\n- name: oauth2\n  source: openapi/shopmy-partners-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopmy.us/oauth\n    tokenUrl: https://api.shopmy.us/v1/Partners/oauth-exchange-token\n  description: OAuth 2.0 authorization-code flow for acting on behalf of ShopMy users.\nscopes:\n- scope: read_collections\n  description: View shelf collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/shopmy-partners-openapi.yml\n- scope: read_links\n  description: View product links.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/shopmy-partners-openapi.yml\n- scope: read_profile\n  description: View public profile information.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/shopmy-partners-openapi.yml\n- scope: write_collections\n  description: Create\
   \ and edit collections.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/shopmy-partners-openapi.yml\n- scope: write_links\n  description: View and edit product links.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/shopmy-partners-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/scopes/shopmy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/shopmy/scopes/shopmy-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Company

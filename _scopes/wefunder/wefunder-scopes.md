@@ -5,79 +5,79 @@ api_specs:
   label: Wefunder Activity API
   slug: wefunder-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-activity-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-activity-api-openapi.yml
 - filename: wefunder-attribution-api-openapi.yml
   format: yaml
   label: Wefunder Attribution API
   slug: wefunder-attribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-attribution-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-attribution-api-openapi.yml
 - filename: wefunder-attribution-partners-api-openapi.yml
   format: yaml
   label: Wefunder Attribution Partners API
   slug: wefunder-attribution-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-attribution-partners-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-attribution-partners-api-openapi.yml
 - filename: wefunder-attribution-webhooks-api-openapi.yml
   format: yaml
   label: Wefunder Attribution Webhooks API
   slug: wefunder-attribution-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-attribution-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-attribution-webhooks-api-openapi.yml
 - filename: wefunder-campaigns-api-openapi.yml
   format: yaml
   label: Wefunder Campaigns API
   slug: wefunder-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-campaigns-api-openapi.yml
 - filename: wefunder-explore-api-openapi.yml
   format: yaml
   label: Wefunder Explore API
   slug: wefunder-explore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-explore-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-explore-api-openapi.yml
 - filename: wefunder-intents-api-openapi.yml
   format: yaml
   label: Wefunder Intents API
   slug: wefunder-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-intents-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-intents-api-openapi.yml
 - filename: wefunder-investments-api-openapi.yml
   format: yaml
   label: Wefunder Investments API
   slug: wefunder-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-investments-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-investments-api-openapi.yml
 - filename: wefunder-syndicate-deals-api-openapi.yml
   format: yaml
   label: Wefunder Syndicate Deals API
   slug: wefunder-syndicate-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-syndicate-deals-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-syndicate-deals-api-openapi.yml
 - filename: wefunder-syndicate-members-api-openapi.yml
   format: yaml
   label: Wefunder Syndicate Members API
   slug: wefunder-syndicate-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-syndicate-members-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-syndicate-members-api-openapi.yml
 - filename: wefunder-syndicate-statistics-api-openapi.yml
   format: yaml
   label: Wefunder Syndicate Statistics API
   slug: wefunder-syndicate-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-syndicate-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-syndicate-statistics-api-openapi.yml
 - filename: wefunder-syndicates-api-openapi.yml
   format: yaml
   label: Wefunder Syndicates API
   slug: wefunder-syndicates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-syndicates-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-syndicates-api-openapi.yml
 - filename: wefunder-users-api-openapi.yml
   format: yaml
   label: Wefunder Users API
   slug: wefunder-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/openapi/wefunder-users-api-openapi.yml
+  url: https://artifacts.apis.io/wefunder/openapi/wefunder-users-api-openapi.yml
 authorization_urls:
 - https://wefunder.com/oauth/authorize
 description: ''
@@ -200,7 +200,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/wefunde
   \  - flow: clientCredentials\n    tokenUrl: https://wefunder.com/oauth/token\n  description: OAuth 2.0 authorization with access tokens\nscopes:\n- scope: admin:attribution\n  description: Administrative access to attribution system (Tier 3 - Wefunder admins only)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:attribution:aggregate\n  description: Read aggregate attribution statistics (Tier 0)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:attribution:anonymized\n  description: Read anonymized attribution data (Tier 1 - requires approval)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:attribution:full\n  description: Read full attribution data with investor PII (Tier 2 - founders only)\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:campaigns\n  description: Read campaign\
   \ information for companies you founded\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:investments\n  description: Read user investment data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:offerings\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:profile\n  description: Read user profile information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:public\n  description: Read public deal data (explore offerings); requires no user context\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:spvs\n  description: View partner SPVs, their invites, sessions, and investments\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:syndicates\n  description: View syndicates, members, deals, and\
   \ portfolio\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: read:webhooks\n  description: View webhook subscriptions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: write:profile\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: write:spvs\n  description: Create and manage partner SPVs, invites, and investment sessions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: write:syndicates\n  description: Manage members, update settings, operate on deals\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n- scope: write:webhooks\n  description: Create, update, and delete webhook subscriptions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wefunder-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/scopes/wefunder-scopes.yml
+source_yaml_url: https://artifacts.apis.io/wefunder/scopes/wefunder-scopes.yml
 summary_line: 16 scopes · authorizationCode/clientCredentials
 tags:
 - Company

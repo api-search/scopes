@@ -5,7 +5,7 @@ api_specs:
   label: Nuvemshop Tiendanube API
   slug: nuvemshop-tiendanube-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuvemshop-tiendanube/refs/heads/main/asyncapi/nuvemshop-tiendanube-events-asyncapi.yml
+  url: https://artifacts.apis.io/nuvemshop-tiendanube/asyncapi/nuvemshop-tiendanube-events-asyncapi.yml
 authorization_urls:
 - https://www.tiendanube.com/apps/{app_id}/authorize
 description: ''
@@ -90,7 +90,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://tiendanube.github.io/api-documentation/authentication\ndocs: https://tiendanube.github.io/api-documentation/authentication\nschemes:\n- name: OAuth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.tiendanube.com/apps/{app_id}/authorize\n    tokenUrl: https://www.tiendanube.com/apps/authorize/token\nnotes: >-\n  Requesting any write scope implies the matching read scope. Scopes are granted\n  by the merchant at app authorization time and returned in the token response.\nscopes:\n- scope: read_content\n  description: Read access to store content pages.\n- scope: write_content\n  description: Write access to store content pages (implies read_content).\n- scope: read_products\n  description: Read access to products, variants, images and categories.\n- scope: write_products\n  description: Write access to products, variants, images and categories (implies read_products).\n- scope: read_customers\n\
   \  description: Read access to customers.\n- scope: write_customers\n  description: Write access to customers (implies read_customers).\n- scope: read_orders\n  description: Read access to orders.\n- scope: write_orders\n  description: Write access to orders (implies read_orders).\n- scope: read_coupons\n  description: Read access to coupons.\n- scope: write_coupons\n  description: Write access to coupons (implies read_coupons).\n- scope: write_scripts\n  description: Manage storefront scripts (no separate read scope).\n- scope: write_shipping\n  description: Manage shipping carriers (no separate read scope).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuvemshop-tiendanube/refs/heads/main/scopes/nuvemshop-tiendanube-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nuvemshop-tiendanube/scopes/nuvemshop-tiendanube-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
 - Company

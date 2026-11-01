@@ -5,49 +5,49 @@ api_specs:
   label: ZippyKid Account API
   slug: zippykid-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-account-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-account-api-openapi.yml
 - filename: zippykid-activity-api-openapi.yml
   format: yaml
   label: ZippyKid Activity API
   slug: zippykid-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-activity-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-activity-api-openapi.yml
 - filename: zippykid-auth-api-openapi.yml
   format: yaml
   label: ZippyKid Auth API
   slug: zippykid-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-auth-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-auth-api-openapi.yml
 - filename: zippykid-collaborators-api-openapi.yml
   format: yaml
   label: ZippyKid Collaborators API
   slug: zippykid-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-collaborators-api-openapi.yml
 - filename: zippykid-http-api-openapi.yml
   format: yaml
   label: 'ZippyKid http: API'
   slug: zippykid-http-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-http-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-http-api-openapi.yml
 - filename: zippykid-mu-plugins-api-openapi.yml
   format: yaml
   label: ZippyKid Mu Plugins API
   slug: zippykid-mu-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-mu-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-mu-plugins-api-openapi.yml
 - filename: zippykid-sites-api-openapi.yml
   format: yaml
   label: ZippyKid Sites API
   slug: zippykid-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-sites-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-sites-api-openapi.yml
 - filename: zippykid-zones-api-openapi.yml
   format: yaml
   label: ZippyKid Zones API
   slug: zippykid-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-zones-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-zones-api-openapi.yml
 authorization_urls:
 - https://my.pressable.com/auth/authorize
 description: ''
@@ -157,7 +157,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://my.pressable.com/documentation/api/v1/authentication.md\ndocs: https://my.pressable.com/documentation/api/v1\nschemes:\n- name: OAuth2ClientCredentials\n  source: https://my.pressable.com/documentation/api/v1/authentication.md\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://my.pressable.com/auth/token\n- name: MCPOAuth\n  source: https://my.pressable.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://my.pressable.com/auth/authorize\n    tokenUrl: https://my.pressable.com/auth/token\nscopes:\n# Permission-based scopes configured per access token in the control panel.\n- scope: Account (Read)\n  description: Read account profile, settings, add-ons, and activity logs.\n  flows: [clientCredentials]\n- scope: Account (Edit)\n  description: Modify account defaults (PHP version, datacenter) and add-ons.\n  flows: [clientCredentials]\n- scope: Sites\
   \ (Read)\n  description: List and read managed site details, backups, logs, plugins, and themes.\n  flows: [clientCredentials]\n- scope: Sites (Edit)\n  description: Create, update, delete, clone, enable/disable sites and manage plugins/themes/cache.\n  flows: [clientCredentials]\n- scope: Collaborators (Read)\n  description: List collaborators and their site access.\n  flows: [clientCredentials]\n- scope: Collaborators (Edit)\n  description: Add/remove collaborators and manage account- and site-level access.\n  flows: [clientCredentials]\n- scope: Domains (Read)\n  description: List site domains and DNS zones/records.\n  flows: [clientCredentials]\n- scope: Domains (Edit)\n  description: Add/remove domains, set primary domain, manage DNS records and SSL.\n  flows: [clientCredentials]\n- scope: Git (Read)\n  description: Read git configuration, branches, and deploy history.\n  flows: [clientCredentials]\n- scope: Git (Edit)\n  description: Connect/disconnect repositories, store tokens,\
   \ and trigger deployments.\n  flows: [clientCredentials]\n- scope: admin\n  description: Administrative access across account resources.\n  flows: [clientCredentials]\n- scope: owner\n  description: Full owner-level access to all account resources.\n  flows: [clientCredentials]\n- scope: mcp\n  description: Scope advertised by the MCP OAuth authorization server for agent access.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/scopes/zippykid-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zippykid/scopes/zippykid-scopes.yml
 summary_line: 13 scopes · clientCredentials/authorizationCode
 tags:
 - Company

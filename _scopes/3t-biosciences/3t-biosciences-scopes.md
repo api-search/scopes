@@ -30,7 +30,7 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3t-biosciences/refs/heads/main/scopes/3t-biosciences-scopes.yml
+source_yaml_url: https://artifacts.apis.io/3t-biosciences/scopes/3t-biosciences-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

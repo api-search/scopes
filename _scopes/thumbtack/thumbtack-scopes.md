@@ -5,61 +5,61 @@ api_specs:
   label: Thumbtack Authentication API
   slug: thumbtack-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-authentication-api-openapi.yml
 - filename: thumbtack-autocomplete-api-openapi.yml
   format: yaml
   label: Thumbtack Autocomplete API
   slug: thumbtack-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-autocomplete-api-openapi.yml
 - filename: thumbtack-categories-api-openapi.yml
   format: yaml
   label: Thumbtack Categories API
   slug: thumbtack-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-categories-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-categories-api-openapi.yml
 - filename: thumbtack-leads-api-openapi.yml
   format: yaml
   label: Thumbtack Leads API
   slug: thumbtack-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-leads-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-leads-api-openapi.yml
 - filename: thumbtack-messages-api-openapi.yml
   format: yaml
   label: Thumbtack Messages API
   slug: thumbtack-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-messages-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-messages-api-openapi.yml
 - filename: thumbtack-orders-api-openapi.yml
   format: yaml
   label: Thumbtack Orders API
   slug: thumbtack-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-orders-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-orders-api-openapi.yml
 - filename: thumbtack-pro-profiles-api-openapi.yml
   format: yaml
   label: Thumbtack Pro Profiles API
   slug: thumbtack-pro-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-pro-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-pro-profiles-api-openapi.yml
 - filename: thumbtack-pros-api-openapi.yml
   format: yaml
   label: Thumbtack Pros API
   slug: thumbtack-pros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-pros-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-pros-api-openapi.yml
 - filename: thumbtack-reviews-api-openapi.yml
   format: yaml
   label: Thumbtack Reviews API
   slug: thumbtack-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-reviews-api-openapi.yml
 - filename: thumbtack-testing-api-openapi.yml
   format: yaml
   label: Thumbtack Testing API
   slug: thumbtack-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/openapi/thumbtack-testing-api-openapi.yml
+  url: https://artifacts.apis.io/thumbtack/openapi/thumbtack-testing-api-openapi.yml
 authorization_urls:
 - https://www.thumbtack.com/services/partner-connect/
 description: ''
@@ -196,7 +196,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/thumbta
   - scope: demand::keywords.read\n  description: Read access to keywords (Demand API v4, client credentials flow).\n  sources:\n  - https://api.thumbtack.com/docs/demand_api.html\n- scope: messages\n  description: Pro API scope allowing partners to send messages on behalf of pros\n    to customers for given leads via the Messages endpoints.\n  sources:\n  - https://pro-api.thumbtack.com/docs/\n- scope: availability\n  description: Pro API scope for accessing pro availability functionality.\n  sources:\n  - https://pro-api.thumbtack.com/docs/\n- scope: bookings\n  description: Pro API scope for accessing bookings functionality.\n  sources:\n  - https://pro-api.thumbtack.com/docs/\n- scope: targeting\n  description: Pro API scope for managing a pro's targeting preferences for services\n    and categories (service-based and category-based targeting endpoints).\n  sources:\n  - https://pro-api.thumbtack.com/docs/\n- scope: openid\n  description: Required OpenID Connect scope; always returns\
   \ sub (user ID) plus standard\n    claims (iss, aud, exp, iat, at_hash).\n  sources:\n  - https://developers.thumbtack.com/docs/getting-started/authentication\n- scope: profile\n  description: Optional OpenID Connect scope returning the user's name, given_name,\n    family_name, picture, and zoneinfo.\n  sources:\n  - https://developers.thumbtack.com/docs/getting-started/authentication\n- scope: email\n  description: Optional OpenID Connect scope returning the user's email and email_verified\n    status.\n  sources:\n  - https://developers.thumbtack.com/docs/getting-started/authentication\n- scope: phone\n  description: Optional OpenID Connect scope returning the user's phone_number.\n  sources:\n  - https://developers.thumbtack.com/docs/getting-started/authentication\n- scope: offline_access\n  description: When included in the scope list for the authorization code flow, Thumbtack's\n    authorization server issues a refresh_token alongside the access_token.\n  sources:\n  - https://developers.thumbtack.com/docs/getting-started/authentication\n\
   note: \"Clients are provisioned either purely demand:: or purely supply:: prefixed\n  scopes, never a mix; per-route required scopes are listed in the API Reference\n  (https://developers.thumbtack.com/docs/getting-started/authentication).\"\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thumbtack/refs/heads/main/scopes/thumbtack-scopes.yml
+source_yaml_url: https://artifacts.apis.io/thumbtack/scopes/thumbtack-scopes.yml
 summary_line: 21 scopes · authorizationCode/clientCredentials
 tags:
 - Local Services

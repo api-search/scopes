@@ -5,31 +5,31 @@ api_specs:
   label: Teambridge Collections (Unified API) API
   slug: teambridge-collections-unified-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-collections-unified-api-api-openapi.yml
+  url: https://artifacts.apis.io/teambridge/openapi/teambridge-collections-unified-api-api-openapi.yml
 - filename: teambridge-documents-api-openapi.yml
   format: yaml
   label: Teambridge Documents API
   slug: teambridge-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-documents-api-openapi.yml
+  url: https://artifacts.apis.io/teambridge/openapi/teambridge-documents-api-openapi.yml
 - filename: teambridge-mappings-api-openapi.yml
   format: yaml
   label: Teambridge Mappings API
   slug: teambridge-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/teambridge/openapi/teambridge-mappings-api-openapi.yml
 - filename: teambridge-utilities-api-openapi.yml
   format: yaml
   label: Teambridge Utilities API
   slug: teambridge-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/teambridge/openapi/teambridge-utilities-api-openapi.yml
 - filename: teambridge-teambridge-external-api-api-openapi.yml
   format: yaml
   label: Teambridge External API
   slug: teambridge-teambridge-external-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-teambridge-external-api-api-openapi.yml
+  url: https://artifacts.apis.io/teambridge/openapi/teambridge-teambridge-external-api-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -69,7 +69,7 @@ source_filename: teambridge-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/teambridge-openapi-original.json\nschemes:\n- name: OAuth2\n  source: openapi/teambridge-openapi-original.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://teambridge.us.auth0.com/oauth/token\nscopes:\n- scope: write\n  description: Full access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/teambridge-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/scopes/teambridge-scopes.yml
+source_yaml_url: https://artifacts.apis.io/teambridge/scopes/teambridge-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Company

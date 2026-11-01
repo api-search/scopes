@@ -5,43 +5,43 @@ api_specs:
   label: Microsoft Visio API Application API
   slug: visio-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-application-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-application-api-openapi.yml
 - filename: visio-comments-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Comments API
   slug: visio-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-comments-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-comments-api-openapi.yml
 - filename: visio-documents-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Documents API
   slug: visio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-documents-api-openapi.yml
 - filename: visio-hyperlinks-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Hyperlinks API
   slug: visio-hyperlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-hyperlinks-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-hyperlinks-api-openapi.yml
 - filename: visio-pages-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Pages API
   slug: visio-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-pages-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-pages-api-openapi.yml
 - filename: visio-shape-data-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Shape Data API
   slug: visio-shape-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-shape-data-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-shape-data-api-openapi.yml
 - filename: visio-shapes-api-openapi.yml
   format: yaml
   label: Microsoft Visio API Shapes API
   slug: visio-shapes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/openapi/visio-shapes-api-openapi.yml
+  url: https://artifacts.apis.io/visio/openapi/visio-shapes-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -89,7 +89,7 @@ source_filename: visio-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-visio-graph-api.yaml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-visio-graph-api.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: OAuth 2.0 authorization using Microsoft Identity Platform\nscopes:\n- scope: Files.Read\n  description: Read user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-visio-graph-api.yaml\n- scope: Files.ReadWrite\n  description: Read and write user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-visio-graph-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/scopes/visio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/visio/scopes/visio-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Business Process

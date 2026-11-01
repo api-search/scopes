@@ -5,79 +5,79 @@ api_specs:
   label: Lilt Create API
   slug: lilt-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-create-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-create-api-openapi.yml
 - filename: lilt-documents-api-openapi.yml
   format: yaml
   label: Lilt Documents API
   slug: lilt-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-documents-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-documents-api-openapi.yml
 - filename: lilt-domains-api-openapi.yml
   format: yaml
   label: Lilt Domains API
   slug: lilt-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-domains-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-domains-api-openapi.yml
 - filename: lilt-files-api-openapi.yml
   format: yaml
   label: Lilt Files API
   slug: lilt-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-files-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-files-api-openapi.yml
 - filename: lilt-jobs-api-openapi.yml
   format: yaml
   label: Lilt Jobs API
   slug: lilt-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-jobs-api-openapi.yml
 - filename: lilt-languages-api-openapi.yml
   format: yaml
   label: Lilt Languages API
   slug: lilt-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-languages-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-languages-api-openapi.yml
 - filename: lilt-memories-api-openapi.yml
   format: yaml
   label: Lilt Memories API
   slug: lilt-memories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-memories-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-memories-api-openapi.yml
 - filename: lilt-projects-api-openapi.yml
   format: yaml
   label: Lilt Projects API
   slug: lilt-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-projects-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-projects-api-openapi.yml
 - filename: lilt-segments-api-openapi.yml
   format: yaml
   label: Lilt Segments API
   slug: lilt-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-segments-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-segments-api-openapi.yml
 - filename: lilt-translate-api-openapi.yml
   format: yaml
   label: Lilt Translate API
   slug: lilt-translate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-translate-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-translate-api-openapi.yml
 - filename: lilt-uploads-api-openapi.yml
   format: yaml
   label: Lilt Uploads API
   slug: lilt-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-uploads-api-openapi.yml
 - filename: lilt-webhook-configuration-api-openapi.yml
   format: yaml
   label: Lilt Webhook Configuration API
   slug: lilt-webhook-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-webhook-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-webhook-configuration-api-openapi.yml
 - filename: lilt-workflows-api-openapi.yml
   format: yaml
   label: Lilt Workflows API
   slug: lilt-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/openapi/lilt-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/lilt/openapi/lilt-workflows-api-openapi.yml
 authorization_urls:
 - https://blissful-celebration-62.authkit.app/oauth2/authorize
 description: The LILT REST API at api.lilt.com does NOT use OAuth — it authenticates with an organization API key over HTTP Basic (or a `key` query parameter), so it has no scope surface (see authentication/lilt-authentication.yml). The OAuth surface documented here belongs to LILT's hosted remote MCP server at mcp.lilt.com, whose RFC 8414 authorization-server metadata was fetched live. Authorization is delegated to WorkOS AuthKit; the advertised scopes are the standard OIDC set, so LILT does not expose per-capability translation scopes — tool-level authorization is enforced by the MCP server, not by scope.
@@ -155,7 +155,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://mcp.lilt.com/.well-known/oauth-authorization-server\ndocs: https://support.lilt.com/kb/LILT-mcp\ndescription: >-\n  The LILT REST API at api.lilt.com does NOT use OAuth — it authenticates with\n  an organization API key over HTTP Basic (or a `key` query parameter), so it\n  has no scope surface (see authentication/lilt-authentication.yml). The OAuth\n  surface documented here belongs to LILT's hosted remote MCP server at\n  mcp.lilt.com, whose RFC 8414 authorization-server metadata was fetched live.\n  Authorization is delegated to WorkOS AuthKit; the advertised scopes are the\n  standard OIDC set, so LILT does not expose per-capability translation scopes —\n  tool-level authorization is enforced by the MCP server, not by scope.\napplies_to: LILT MCP server (https://mcp.lilt.com/mcp)\nschemes:\n- name: MCPOAuth\n  type: oauth2\n  source: well-known/lilt-mcp-oauth-authorization-server.json\n  issuer: https://blissful-celebration-62.authkit.app\n\
   \  dynamic_client_registration: https://blissful-celebration-62.authkit.app/oauth2/register\n  jwks_uri: https://blissful-celebration-62.authkit.app/oauth2/jwks\n  introspection_endpoint: https://blissful-celebration-62.authkit.app/oauth2/introspection\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [none, client_secret_post, client_secret_basic]\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://blissful-celebration-62.authkit.app/oauth2/authorize\n    tokenUrl: https://blissful-celebration-62.authkit.app/oauth2/token\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://blissful-celebration-62.authkit.app/oauth2/device_authorization\n    tokenUrl: https://blissful-celebration-62.authkit.app/oauth2/token\n  - flow: refreshToken\n    tokenUrl: https://blissful-celebration-62.authkit.app/oauth2/token\nscopes:\n- scope: openid\n  description: OIDC — issue an ID token identifying the LILT MCP app user.\n  flows: [authorizationCode]\n\
   \  sources: [well-known/lilt-mcp-oauth-authorization-server.json]\n- scope: profile\n  description: OIDC — access the user's basic profile claims.\n  flows: [authorizationCode]\n  sources: [well-known/lilt-mcp-oauth-authorization-server.json]\n- scope: email\n  description: OIDC — access the user's email address claim.\n  flows: [authorizationCode]\n  sources: [well-known/lilt-mcp-oauth-authorization-server.json]\n- scope: offline_access\n  description: Issue a refresh token so the MCP host can act without re-prompting.\n  flows: [authorizationCode, refreshToken]\n  sources: [well-known/lilt-mcp-oauth-authorization-server.json]\nnotes:\n- >-\n  No LILT-specific (translation, job, model) scopes are advertised. Agent\n  capability is bounded by the MCP tool set in mcp/lilt-mcp.yml, not by scope.\n- >-\n  MCP app accounts at mcp.lilt.com are separate from lilt.com platform accounts.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lilt/refs/heads/main/scopes/lilt-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lilt/scopes/lilt-scopes.yml
 summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 tags:
 - Company

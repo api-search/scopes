@@ -5,97 +5,97 @@ api_specs:
   label: Sun Life Authorize API
   slug: sun-life-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-authorize-api-openapi.yml
 - filename: sun-life-callback-api-openapi.yml
   format: yaml
   label: Sun Life Callback API
   slug: sun-life-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-callback-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-callback-api-openapi.yml
 - filename: sun-life-coverage-api-openapi.yml
   format: yaml
   label: Sun Life Coverage API
   slug: sun-life-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-coverage-api-openapi.yml
 - filename: sun-life-endpoint-api-openapi.yml
   format: yaml
   label: Sun Life Endpoint API
   slug: sun-life-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-endpoint-api-openapi.yml
 - filename: sun-life-location-api-openapi.yml
   format: yaml
   label: Sun Life Location API
   slug: sun-life-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-location-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-location-api-openapi.yml
 - filename: sun-life-metadata-api-openapi.yml
   format: yaml
   label: Sun Life Metadata API
   slug: sun-life-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-metadata-api-openapi.yml
 - filename: sun-life-organization-api-openapi.yml
   format: yaml
   label: Sun Life Organization API
   slug: sun-life-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-organization-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-organization-api-openapi.yml
 - filename: sun-life-patient-api-openapi.yml
   format: yaml
   label: Sun Life Patient API
   slug: sun-life-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-patient-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-patient-api-openapi.yml
 - filename: sun-life-practitioner-api-openapi.yml
   format: yaml
   label: Sun Life Practitioner API
   slug: sun-life-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-practitioner-api-openapi.yml
 - filename: sun-life-relatedperson-api-openapi.yml
   format: yaml
   label: Sun Life Related Person API
   slug: sun-life-relatedperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-relatedperson-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-relatedperson-api-openapi.yml
 - filename: sun-life-token-api-openapi.yml
   format: yaml
   label: Sun Life Token API
   slug: sun-life-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-token-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-token-api-openapi.yml
 - filename: sun-life-tokenhook-api-openapi.yml
   format: yaml
   label: Sun Life Tokenhook API
   slug: sun-life-tokenhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-tokenhook-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-tokenhook-api-openapi.yml
 - filename: sun-life-well-known-api-openapi.yml
   format: yaml
   label: Sun Life .well Known API
   slug: sun-life-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-well-known-api-openapi.yml
 - filename: sun-life-healthcare-service-api-openapi.yml
   format: yaml
   label: Sun Life Healthcare Service API
   slug: sun-life-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-healthcare-service-api-openapi.yml
 - filename: sun-life-insurance-plan-api-openapi.yml
   format: yaml
   label: Sun Life Insurance Plan API
   slug: sun-life-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-insurance-plan-api-openapi.yml
 - filename: sun-life-practitioner-role-api-openapi.yml
   format: yaml
   label: Sun Life Practitioner Role API
   slug: sun-life-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/openapi/sun-life-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/sun-life/openapi/sun-life-practitioner-role-api-openapi.yml
 authorization_urls:
 - https://api.dentaquest.com/FhirPatientAccess/v1/authorize
 description: ''
@@ -162,7 +162,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: https://api.dentaquest.com/FhirPatientAccess/v1/.well-known/smart-configuration\ndocs: https://www.dentaquest.com/en/interoperability-api\nnote: SMART App Launch 1.0.0 scopes published by the DentaQuest FHIR Patient Access API (Sun Life U.S.\n  dental).\nschemes:\n- name: SMART on FHIR\n  source: well-known/sun-life-dentaquest-smart-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.dentaquest.com/FhirPatientAccess/v1/authorize\n    tokenUrl: https://api.dentaquest.com/FhirPatientAccess/v1/token\n  - flow: clientCredentials\n    tokenUrl: https://api.dentaquest.com/FhirPatientAccess/v1/token\nscopes:\n- scope: patient/*.read\n  description: Read access to every FHIR resource in the authorized patient compartment (Patient, Coverage,\n    Organization, Practitioner, RelatedPerson).\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/sun-life-dentaquest-smart-configuration.json\n\
   - scope: launch/patient\n  description: Request the standalone patient launch context so the app is bound to one member.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/sun-life-dentaquest-smart-configuration.json\n- scope: offline_access\n  description: Issue a refresh token so the app can keep reading after the member leaves the browser.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/sun-life-dentaquest-smart-configuration.json\n- scope: openid\n  description: OpenID Connect authentication; returns an id_token for the member.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/sun-life-dentaquest-smart-configuration.json\n- scope: fhirUser\n  description: Return the FHIR resource representing the authenticated user.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/sun-life-dentaquest-smart-configuration.json\nauthorization_server_scopes:\n  issuer: https://dentaquest-ciam.okta.com/oauth2/ausg07qa99xVdvh4Q4h7\n  scopes_supported:\n  - interclient_access\n\
   \  - openid\n  - profile\n  - email\n  - address\n  - phone\n  - offline_access\n  - device_sso\n  source: well-known/sun-life-dentaquest-okta-openid-configuration.json\n  note: Okta authorization-server scopes; the FHIR-facing scope set published for app developers is the\n    SMART list above.\nnot_offered:\n- scope: user/*.read\n  note: Not advertised in smart-configuration despite permission-user in capabilities.\n- scope: '*.write'\n  note: The Patient Access API is read-only; no write scopes are published.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/scopes/sun-life-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sun-life/scopes/sun-life-scopes.yml
 summary_line: 5 scopes · authorizationCode/clientCredentials
 tags:
 - Insurance

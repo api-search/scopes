@@ -5,55 +5,55 @@ api_specs:
   label: Flexport Bookings API
   slug: flexport-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-bookings-api-openapi.yml
 - filename: flexport-customs-api-openapi.yml
   format: yaml
   label: Flexport Customs API
   slug: flexport-customs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-customs-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-customs-api-openapi.yml
 - filename: flexport-documents-api-openapi.yml
   format: yaml
   label: Flexport Documents API
   slug: flexport-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-documents-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-documents-api-openapi.yml
 - filename: flexport-invoices-api-openapi.yml
   format: yaml
   label: Flexport Invoices API
   slug: flexport-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-invoices-api-openapi.yml
 - filename: flexport-network-api-openapi.yml
   format: yaml
   label: Flexport Network API
   slug: flexport-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-network-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-network-api-openapi.yml
 - filename: flexport-products-api-openapi.yml
   format: yaml
   label: Flexport Products API
   slug: flexport-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-products-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-products-api-openapi.yml
 - filename: flexport-shipments-api-openapi.yml
   format: yaml
   label: Flexport Shipments API
   slug: flexport-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-shipments-api-openapi.yml
 - filename: flexport-webhooks-api-openapi.yml
   format: yaml
   label: Flexport Webhooks API
   slug: flexport-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-webhooks-api-openapi.yml
 - filename: flexport-purchase-orders-api-openapi.yml
   format: yaml
   label: Flexport Purchase Orders API
   slug: flexport-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/openapi/flexport-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/flexport/openapi/flexport-purchase-orders-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes
@@ -182,7 +182,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/flexpor
   - scope: write_logistics_parcels\n  description: Purchase parcel labels and create/link master cartons.\n  sources:\n  - https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes\n- scope: read_logistics_returns\n  description: Read return shipments and their contents.\n  sources:\n  - https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes\n- scope: write_logistics_returns\n  description: Create and update return shipments.\n  sources:\n  - https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes\n- scope: read_logistics_warehouses\n  description: Read the list of warehouses available to the account. (2025-03 and later.)\n  sources:\n  - https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes\n- scope: read_logistics_webhooks\n  description: Read webhook subscriptions.\n  sources:\n  - https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes\n\
   - scope: write_logistics_webhooks\n  description: Create, update, and delete webhook subscriptions.\n  sources:\n  - https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes\n- scope: read_logistics_events\n  description: Read the event stream that backs webhook deliveries.\n  sources:\n  - https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes\n- scope: read_logistics_reports\n  description: Read generated reports.\n  sources:\n  - https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes\n- scope: write_logistics_reports\n  description: Request new reports.\n  sources:\n  - https://docs.logistics-api.flexport.com/2026-02/#section/Common-Resources/Permission-Scopes\n- scope: read_logistics_freight\n  description: Listed as an accepted scope value on the OAuth AuthorizationRedirect\n    call; covers experimental freight endpoints available only in the unstable API\n    version.\n \
   \ sources:\n  - https://docs.logistics-api.flexport.com/2023-10/tag/OAuth/\n- scope: write_logistics_freight\n  description: Listed as an accepted scope value on the OAuth AuthorizationRedirect\n    call; covers experimental freight endpoints available only in the unstable API\n    version.\n  sources:\n  - https://docs.logistics-api.flexport.com/2023-10/tag/OAuth/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexport/refs/heads/main/scopes/flexport-scopes.yml
+source_yaml_url: https://artifacts.apis.io/flexport/scopes/flexport-scopes.yml
 summary_line: 22 scopes · clientCredentials
 tags:
 - Logistics

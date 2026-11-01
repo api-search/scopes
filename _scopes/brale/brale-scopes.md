@@ -5,43 +5,43 @@ api_specs:
   label: Brale Accounts API
   slug: brale-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-accounts-api-openapi.yml
 - filename: brale-addresses-api-openapi.yml
   format: yaml
   label: Brale Addresses API
   slug: brale-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-addresses-api-openapi.yml
 - filename: brale-automations-api-openapi.yml
   format: yaml
   label: Brale Automations API
   slug: brale-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-automations-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-automations-api-openapi.yml
 - filename: brale-financial-institutions-api-openapi.yml
   format: yaml
   label: Brale Financial Institutions API
   slug: brale-financial-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-financial-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-financial-institutions-api-openapi.yml
 - filename: brale-orders-api-openapi.yml
   format: yaml
   label: Brale Orders API
   slug: brale-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-orders-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-orders-api-openapi.yml
 - filename: brale-plaid-api-openapi.yml
   format: yaml
   label: Brale Plaid API
   slug: brale-plaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-plaid-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-plaid-api-openapi.yml
 - filename: brale-transfers-api-openapi.yml
   format: yaml
   label: Brale Transfers API
   slug: brale-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/openapi/brale-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/brale/openapi/brale-transfers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -169,7 +169,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/brale-openapi-original.yml\nschemes:\n- name: oauth\n  source: openapi/brale-openapi-original.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.brale.xyz/oauth2/token\nscopes:\n- scope: accounts:read\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: accounts:write\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: addresses:read\n  description: Read address details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: addresses:write\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: automations:read\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: automations:write\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: financial-institutions:read\n  description: Read financial institution details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: financial-institutions:write\n\
   \  sources:\n  - openapi/brale-openapi-original.yml\n- scope: mints:write\n  description: Mint more of a specific token on chain\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: orders:read\n  description: Read order details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: redemptions:write\n  description: Redeem/burn a particular token on a specific chain\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: self_attested_tokens:burn\n  description: Burn attested tokens (tokenization accounts only)\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: self_attested_tokens:mint\n  description: Mint attested tokens (tokenization accounts only)\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: self_attested_tokens:read\n  sources:\n  - openapi/brale-openapi-original.yml\n\
   - scope: self_attested_tokens:transfer\n  description: Transfer attested tokens (tokenization accounts only)\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: tokens:read\n  description: Read token details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: transfers:read\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: transfers:write\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: webhooks:read\n  description: Read webhook subscriptions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n- scope: webhooks:write\n  description: Create and manage webhook subscriptions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/brale-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/scopes/brale-scopes.yml
+source_yaml_url: https://artifacts.apis.io/brale/scopes/brale-scopes.yml
 summary_line: 20 scopes · clientCredentials
 tags:
 - Company

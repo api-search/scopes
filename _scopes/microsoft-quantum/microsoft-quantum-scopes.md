@@ -5,31 +5,31 @@ api_specs:
   label: Microsoft Azure Quantum Offerings API
   slug: microsoft-quantum-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-offerings-api-openapi.yml
 - filename: microsoft-quantum-operations-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum Operations API
   slug: microsoft-quantum-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-operations-api-openapi.yml
 - filename: microsoft-quantum-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum Subscriptions API
   slug: microsoft-quantum-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-subscriptions-api-openapi.yml
 - filename: microsoft-quantum-suiteoffers-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum SuiteOffers API
   slug: microsoft-quantum-suiteoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-suiteoffers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-suiteoffers-api-openapi.yml
 - filename: microsoft-quantum-workspaces-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum Workspaces API
   slug: microsoft-quantum-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-workspaces-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -83,7 +83,7 @@ source_filename: microsoft-quantum-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-quantum-data-plane-openapi.json, openapi/azure-quantum-resource-manager-openapi.json\nschemes:\n- name: AzureEntraAuth\n  source: openapi/azure-quantum-data-plane-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Azure Entra OAuth2 Authentication\n- name: azure_auth\n  source: openapi/azure-quantum-resource-manager-openapi.json\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: https://quantum.microsoft.com/.default\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/azure-quantum-data-plane-openapi.json\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/azure-quantum-resource-manager-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/scopes/microsoft-quantum-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-quantum/scopes/microsoft-quantum-scopes.yml
 summary_line: 2 scopes · clientCredentials/implicit
 tags:
 - Quantum

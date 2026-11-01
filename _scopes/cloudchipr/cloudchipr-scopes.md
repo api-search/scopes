@@ -5,67 +5,67 @@ api_specs:
   label: CloudChipr Accounts API
   slug: cloudchipr-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-accounts-api-openapi.yml
 - filename: cloudchipr-budgets-api-openapi.yml
   format: yaml
   label: CloudChipr Budgets API
   slug: cloudchipr-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-budgets-api-openapi.yml
 - filename: cloudchipr-categories-api-openapi.yml
   format: yaml
   label: CloudChipr Categories API
   slug: cloudchipr-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-categories-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-categories-api-openapi.yml
 - filename: cloudchipr-custom-data-api-openapi.yml
   format: yaml
   label: CloudChipr Custom Data API
   slug: cloudchipr-custom-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-custom-data-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-custom-data-api-openapi.yml
 - filename: cloudchipr-dashboards-api-openapi.yml
   format: yaml
   label: CloudChipr Dashboards API
   slug: cloudchipr-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-dashboards-api-openapi.yml
 - filename: cloudchipr-filters-api-openapi.yml
   format: yaml
   label: CloudChipr Filters API
   slug: cloudchipr-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-filters-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-filters-api-openapi.yml
 - filename: cloudchipr-regions-api-openapi.yml
   format: yaml
   label: CloudChipr Regions API
   slug: cloudchipr-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-regions-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-regions-api-openapi.yml
 - filename: cloudchipr-resource-explorer-api-openapi.yml
   format: yaml
   label: CloudChipr Resource Explorer API
   slug: cloudchipr-resource-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-resource-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-resource-explorer-api-openapi.yml
 - filename: cloudchipr-resources-api-openapi.yml
   format: yaml
   label: CloudChipr Resources API
   slug: cloudchipr-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-resources-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-resources-api-openapi.yml
 - filename: cloudchipr-savings-opportunities-api-openapi.yml
   format: yaml
   label: CloudChipr Savings Opportunities API
   slug: cloudchipr-savings-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-savings-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-savings-opportunities-api-openapi.yml
 - filename: cloudchipr-widgets-api-openapi.yml
   format: yaml
   label: CloudChipr Widgets API
   slug: cloudchipr-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/openapi/cloudchipr-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/cloudchipr/openapi/cloudchipr-widgets-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  https://mcp
   \ and email_verified claims.\n  - name: offline_access\n    source: mcp-protected-resource\n    type: identity\n    description: Issue a refresh token so the MCP client can hold a long-lived session.\n\nauthorization_server_scopes_supported:\n  source: https://auth0.cloudchipr.com/.well-known/openid-configuration\n  note: >-\n    The Auth0 tenant advertises the full standard OIDC claim-scope set below. This is Auth0's\n    default advertisement for the tenant, NOT a CloudChipr-defined permission model - only the four\n    scopes in `scopes:` above are the ones the MCP resource actually declares.\n  values: [openid, profile, offline_access, name, given_name, family_name, nickname, email, email_verified, picture, created_at, identities, phone, address]\n\nauthorization_model:\n  style: role-based, server-side\n  scope_granularity: none\n  notes: >-\n    Neither surface exposes a per-resource or per-action scope. What an OAuth-authenticated MCP\n    session may see is decided by the user's\
   \ CloudChipr role and organization membership\n    (\"scoped to their permissions\" - https://cloudchipr.com/mcp), not by a scope granted at consent\n    time. An agent therefore cannot request a reduced permission set: it gets whatever its human's\n    account can see.\n  agent_risk: >-\n    There is no way to grant an agent read access to Billing Explorer while withholding Live\n    Resources, and no way to down-scope a token below the user's own role.\n\nunresolved:\n  - issue: 'API keys are documented as read-only, but the spec declares three mutating operations under the same ApiKey scheme.'\n    detail: >-\n      https://docs.cloudchipr.com/docs/api-keys states \"API keys provide read-only access to the\n      Cloudchipr API and your cloud resources\", while\n      openapi/cloudchipr-enterprise-api-openapi.yml declares POST /data-sources (201 create),\n      PUT /dimensions/category-structure (204) and POST /ingest/{destinationId} - all secured by\n      `ApiKey: []`. Either the\
   \ docs statement predates the custom-data write surface or those\n      operations require an entitlement the contract does not name. Recorded, not resolved.\n    checked: '2026-09-05'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/scopes/cloudchipr-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cloudchipr/scopes/cloudchipr-scopes.yml
 summary_line: 4 scopes
 tags:
 - Microsoft Azure

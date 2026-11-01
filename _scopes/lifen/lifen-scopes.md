@@ -5,43 +5,43 @@ api_specs:
   label: Lifen CommunicationRequest API
   slug: lifen-communicationrequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-communicationrequest-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-communicationrequest-api-openapi.yml
 - filename: lifen-coverage-api-openapi.yml
   format: yaml
   label: Lifen Coverage API
   slug: lifen-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-coverage-api-openapi.yml
 - filename: lifen-encounter-api-openapi.yml
   format: yaml
   label: Lifen Encounter API
   slug: lifen-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-encounter-api-openapi.yml
 - filename: lifen-organization-api-openapi.yml
   format: yaml
   label: Lifen Organization API
   slug: lifen-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-organization-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-organization-api-openapi.yml
 - filename: lifen-patient-api-openapi.yml
   format: yaml
   label: Lifen Patient API
   slug: lifen-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-patient-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-patient-api-openapi.yml
 - filename: lifen-practitioner-api-openapi.yml
   format: yaml
   label: Lifen Practitioner API
   slug: lifen-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-practitioner-api-openapi.yml
 - filename: lifen-token-api-openapi.yml
   format: yaml
   label: Lifen Token API
   slug: lifen-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/openapi/lifen-token-api-openapi.yml
+  url: https://artifacts.apis.io/lifen/openapi/lifen-token-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.lifen.fr/docs/platform-services-documentation
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://develop
   \ https://developer.lifen.fr/docs/access-patient-information\n- scope: APPOINTMENT_GAM_SEARCH\n  description: Access to the Appointment API Service — scheduled appointment data within a given\n    hospital.\n  grants:\n  - APPOINTMENT_READ\n  - APPOINTMENT_SEARCH\n  docs: https://developer.lifen.fr/docs/access-appointment-information\n- scope: SEND_TO_EHR\n  description: Access to the Send-documents-to-EHR API Service — push a medical document into a\n    hospital Electronic Health Record.\n  grants:\n  - ORGANIZATION_READ\n  - BINARY_CREATE\n  - COMMUNICATIONREQUEST_CREATE\n  - DOCUMENTREFERENCE_CREATE\n  docs: https://developer.lifen.fr/docs/send-a-document-to-the-ehr\n- scope: SEND_TO_MSS\n  description: Access to the MSS API Service — send a medical document to healthcare professionals\n    over the French MSSante secure-messaging network.\n  docs: https://developer.lifen.fr/docs/send-a-document-to-healthcare-professional\ntechnical_scopes:\n- scope: ORGANIZATION_READ\n  description:\
   \ Read an Organization (healthcare structure) resource.\n- scope: PATIENT_READ\n  description: Read a Patient resource by id.\n- scope: PATIENT_SEARCH\n  description: Search Patient resources.\n- scope: ENCOUNTER_READ\n  description: Read an Encounter (sejour) resource by id.\n- scope: ENCOUNTER_SEARCH\n  description: Search Encounter resources.\n- scope: APPOINTMENT_READ\n  description: Read an Appointment resource by id.\n- scope: APPOINTMENT_SEARCH\n  description: Search Appointment resources.\n- scope: BINARY_CREATE\n  description: Create a Binary resource (the document payload being sent).\n- scope: BINARY_READ\n  description: Read a Binary resource.\n  source: token response example, https://developer.lifen.fr/reference/authenticate-application\n- scope: BINARY_SEARCH\n  description: Search Binary resources.\n  source: token response example, https://developer.lifen.fr/reference/authenticate-application\n- scope: COMMUNICATIONREQUEST_CREATE\n  description: Create a CommunicationRequest\
   \ — the send operation for a document.\n- scope: DOCUMENTREFERENCE_CREATE\n  description: Create a DocumentReference describing the document being sent.\nsso_scopes:\n- scope: openid\n  description: OIDC base scope.\n- scope: profile\n  description: Profile claims.\n- scope: email\n  description: Email claim.\n- scope: address\n  description: Address claim.\n- scope: phone\n  description: Phone claim.\n- scope: offline_access\n  description: Refresh-token issuance.\nsso_scopes_source: https://authentication.lifen.fr/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/scopes/lifen-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lifen/scopes/lifen-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

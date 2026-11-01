@@ -5,145 +5,145 @@ api_specs:
   label: Cordial account attributes API
   slug: cordial-account-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-account-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-account-attributes-api-openapi.yml
 - filename: cordial-account-lists-api-openapi.yml
   format: yaml
   label: Cordial account lists API
   slug: cordial-account-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-account-lists-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-account-lists-api-openapi.yml
 - filename: cordial-account-monitor-export-api-openapi.yml
   format: yaml
   label: Cordial account monitor export API
   slug: cordial-account-monitor-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-account-monitor-export-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-account-monitor-export-api-openapi.yml
 - filename: cordial-alerts-api-openapi.yml
   format: yaml
   label: Cordial Alerts API
   slug: cordial-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-alerts-api-openapi.yml
 - filename: cordial-analytics-audiences-api-openapi.yml
   format: yaml
   label: Cordial analytics audiences API
   slug: cordial-analytics-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-analytics-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-analytics-audiences-api-openapi.yml
 - filename: cordial-analytics-messages-api-openapi.yml
   format: yaml
   label: Cordial analytics messages API
   slug: cordial-analytics-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-analytics-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-analytics-messages-api-openapi.yml
 - filename: cordial-audiencecount-api-openapi.yml
   format: yaml
   label: Cordial Audiencecount API
   slug: cordial-audiencecount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-audiencecount-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-audiencecount-api-openapi.yml
 - filename: cordial-automation-templates-api-openapi.yml
   format: yaml
   label: Cordial automation templates API
   slug: cordial-automation-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-automation-templates-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-automation-templates-api-openapi.yml
 - filename: cordial-batch-messages-api-openapi.yml
   format: yaml
   label: Cordial batch messages API
   slug: cordial-batch-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-batch-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-batch-messages-api-openapi.yml
 - filename: cordial-contact-activities-api-openapi.yml
   format: yaml
   label: Cordial contact activities API
   slug: cordial-contact-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-contact-activities-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-contact-activities-api-openapi.yml
 - filename: cordial-contact-activity-exports-api-openapi.yml
   format: yaml
   label: Cordial contact activity exports API
   slug: cordial-contact-activity-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-contact-activity-exports-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-contact-activity-exports-api-openapi.yml
 - filename: cordial-contact-exports-api-openapi.yml
   format: yaml
   label: Cordial contact exports API
   slug: cordial-contact-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-contact-exports-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-contact-exports-api-openapi.yml
 - filename: cordial-contact-imports-api-openapi.yml
   format: yaml
   label: Cordial contact imports API
   slug: cordial-contact-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-contact-imports-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-contact-imports-api-openapi.yml
 - filename: cordial-contacts-api-openapi.yml
   format: yaml
   label: Cordial Contacts API
   slug: cordial-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-contacts-api-openapi.yml
 - filename: cordial-data-jobs-api-openapi.yml
   format: yaml
   label: Cordial data jobs API
   slug: cordial-data-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-data-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-data-jobs-api-openapi.yml
 - filename: cordial-jobs-api-openapi.yml
   format: yaml
   label: Cordial Jobs API
   slug: cordial-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-jobs-api-openapi.yml
 - filename: cordial-message-content-includes-api-openapi.yml
   format: yaml
   label: Cordial message content includes API
   slug: cordial-message-content-includes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-message-content-includes-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-message-content-includes-api-openapi.yml
 - filename: cordial-orchestrations-api-openapi.yml
   format: yaml
   label: Cordial Orchestrations API
   slug: cordial-orchestrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-orchestrations-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-orchestrations-api-openapi.yml
 - filename: cordial-orders-api-openapi.yml
   format: yaml
   label: Cordial Orders API
   slug: cordial-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-orders-api-openapi.yml
 - filename: cordial-ordersimport-api-openapi.yml
   format: yaml
   label: Cordial Ordersimport API
   slug: cordial-ordersimport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-ordersimport-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-ordersimport-api-openapi.yml
 - filename: cordial-productimports-api-openapi.yml
   format: yaml
   label: Cordial Productimports API
   slug: cordial-productimports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-productimports-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-productimports-api-openapi.yml
 - filename: cordial-products-api-openapi.yml
   format: yaml
   label: Cordial Products API
   slug: cordial-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-products-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-products-api-openapi.yml
 - filename: cordial-programs-api-openapi.yml
   format: yaml
   label: Cordial Programs API
   slug: cordial-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-programs-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-programs-api-openapi.yml
 - filename: cordial-supplements-api-openapi.yml
   format: yaml
   label: Cordial Supplements API
   slug: cordial-supplements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-supplements-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-supplements-api-openapi.yml
 authorization_urls:
 - https://mcp.cordial.io/oauth/authorize
 description: ''
@@ -197,7 +197,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: https://mcp.cor
   \ oauth2\n  issuer: https://mcp.cordial.io\n  source: well-known/cordial-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.cordial.io/oauth/authorize\n    tokenUrl: https://mcp.cordial.io/oauth/token\n  registration_endpoint: https://mcp.cordial.io/oauth/register\n  resource: https://mcp.cordial.io\n\nscopes:\n- scope: read\n  description_source: api-evangelist\n  description: >-\n    Read access to Cordial account data through the MCP server — audiences, messages, analytics,\n    content, orchestrations, sculpt blocks and templates, reports, channels, data operations,\n    supplements, products and tags. The provider summarises the current grant as \"Read (writes coming\n    soon with human approval)\".\n  flows: [authorizationCode]\n  sources: [well-known/cordial-oauth-authorization-server.json]\n- scope: profile\n  description_source: api-evangelist\n  description: >-\n    Identity of the signed-in user and account, surfaced by\
   \ the `whoami` MCP tool and the\n    `cosdk whoami` CLI command.\n  flows: [authorizationCode]\n  sources: [well-known/cordial-oauth-authorization-server.json]\n\ngranularity:\n  scope_count: 2\n  assessment: >-\n    Coarse. Two scopes cover 56 tools across 17 domains, so a client that needs only audience counts\n    receives the same grant as one that can read every message, every contact attribute definition and\n    every AI insight report. There is no per-domain or per-tool scope, and no write scope exists yet.\n    When writes land, the announced control is human approval rather than scope separation — worth\n    tracking, because a read/write split is the natural place to add it.\n\nx-evidence:\n  fetched: '2026-08-04'\n  probes:\n  - {url: 'https://mcp.cordial.io/.well-known/oauth-authorization-server', http_status: 200, scopes_supported: [read, profile]}\n  - {url: 'https://mcp.cordial.io/.well-known/oauth-protected-resource', http_status: 200, scopes_supported: [read, profile]}\n\
   \  derive_script: 'derive-oauth-scopes.py cordial -> 0 oauth2 schemes in OpenAPI (expected; REST is Basic auth).'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/scopes/cordial-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cordial/scopes/cordial-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

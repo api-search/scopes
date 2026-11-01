@@ -5,109 +5,109 @@ api_specs:
   label: Shanghai Jiao Tong University Account API
   slug: shanghai-jiao-tong-university-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-account-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-account-api-openapi.yml
 - filename: shanghai-jiao-tong-university-asset-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Asset API
   slug: shanghai-jiao-tong-university-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-asset-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-asset-api-openapi.yml
 - filename: shanghai-jiao-tong-university-barcode-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Barcode API
   slug: shanghai-jiao-tong-university-barcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-barcode-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-barcode-api-openapi.yml
 - filename: shanghai-jiao-tong-university-calendar-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Calendar API
   slug: shanghai-jiao-tong-university-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-calendar-api-openapi.yml
 - filename: shanghai-jiao-tong-university-card-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Card API
   slug: shanghai-jiao-tong-university-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-card-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-card-api-openapi.yml
 - filename: shanghai-jiao-tong-university-education-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Education API
   slug: shanghai-jiao-tong-university-education-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-education-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-education-api-openapi.yml
 - filename: shanghai-jiao-tong-university-enterprise-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Enterprise API
   slug: shanghai-jiao-tong-university-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-enterprise-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-enterprise-api-openapi.yml
 - filename: shanghai-jiao-tong-university-faculty-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Faculty API
   slug: shanghai-jiao-tong-university-faculty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-faculty-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-faculty-api-openapi.yml
 - filename: shanghai-jiao-tong-university-file-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University File API
   slug: shanghai-jiao-tong-university-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-file-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-file-api-openapi.yml
 - filename: shanghai-jiao-tong-university-finance-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Finance API
   slug: shanghai-jiao-tong-university-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-finance-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-finance-api-openapi.yml
 - filename: shanghai-jiao-tong-university-mail-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Mail API
   slug: shanghai-jiao-tong-university-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-mail-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-mail-api-openapi.yml
 - filename: shanghai-jiao-tong-university-notification-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Notification API
   slug: shanghai-jiao-tong-university-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-notification-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-notification-api-openapi.yml
 - filename: shanghai-jiao-tong-university-paper-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Paper API
   slug: shanghai-jiao-tong-university-paper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-paper-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-paper-api-openapi.yml
 - filename: shanghai-jiao-tong-university-profile-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Profile API
   slug: shanghai-jiao-tong-university-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-profile-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-profile-api-openapi.yml
 - filename: shanghai-jiao-tong-university-signature-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Signature API
   slug: shanghai-jiao-tong-university-signature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-signature-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-signature-api-openapi.yml
 - filename: shanghai-jiao-tong-university-task-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Task API
   slug: shanghai-jiao-tong-university-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-task-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-task-api-openapi.yml
 - filename: shanghai-jiao-tong-university-undergraduate-teaching-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Undergraduate Teaching API
   slug: shanghai-jiao-tong-university-undergraduate-teaching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-undergraduate-teaching-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-undergraduate-teaching-api-openapi.yml
 - filename: shanghai-jiao-tong-university-unicode-api-openapi.yml
   format: yaml
   label: Shanghai Jiao Tong University Unicode API
   slug: shanghai-jiao-tong-university-unicode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/openapi/shanghai-jiao-tong-university-unicode-api-openapi.yml
+  url: https://artifacts.apis.io/shanghai-jiao-tong-university/openapi/shanghai-jiao-tong-university-unicode-api-openapi.yml
 authorization_urls:
 - https://jaccount.sjtu.edu.cn/oauth2/authorize
 description: ''
@@ -375,7 +375,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: https://develop
   \  value: 1<<41\n  description: Campus-card write operations — change the query password, report a card lost, top up\n    from a bound bank card.\n  flows:\n  - authorizationCode\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n- scope: income\n  value: 1<<42\n  description: Query the user's income information.\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n- scope: create_jaccount\n  value: 1<<43\n  description: Create a jAccount account.\n  flows:\n  - clientCredentials\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n- scope: edit_jaccount\n  value: 1<<44\n  description: Modify a jAccount account.\n  flows:\n  - authorizationCode\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n- scope: net_service_info\n  value: 1<<45\n  description: Read all personal network-service information for a specified user.\n  flows:\n  - authorizationCode\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n\
   - scope: connect_wechat\n  value: 1<<46\n  description: Bind a jAccount to a WeChat account.\n  flows:\n  - authorizationCode\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n- scope: connect_shmec\n  value: 1<<47\n  description: Bind a jAccount to a Shanghai Municipal Education Commission account.\n  flows:\n  - authorizationCode\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n- scope: print\n  value: 1<<48\n  description: Self-service printing.\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n- scope: connect_finance\n  value: 1<<49\n  description: Integrate with the finance appointment system.\n  flows:\n  - clientCredentials\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n- scope: student_affairs\n  value: 1<<50\n  description: Retrieve student-affairs information.\n  flows:\n  - clientCredentials\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n- scope:\
   \ bus\n  value: 1<<51\n  description: Read campus-bus and inter-campus shuttle timetables and real-time information.\n  flows:\n  - clientCredentials\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n- scope: calendar\n  value: 1<<52\n  description: Synchronise calendar information.\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - https://developer.sjtu.edu.cn/auth/oauth.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/scopes/shanghai-jiao-tong-university-scopes.yml
+source_yaml_url: https://artifacts.apis.io/shanghai-jiao-tong-university/scopes/shanghai-jiao-tong-university-scopes.yml
 summary_line: 40 scopes · authorizationCode/clientCredentials/password
 tags:
 - University

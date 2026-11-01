@@ -5,31 +5,31 @@ api_specs:
   label: Google Ad Manager Companies API
   slug: google-ad-manager-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-companies-api-openapi.yml
+  url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-companies-api-openapi.yml
 - filename: google-ad-manager-networks-api-openapi.yml
   format: yaml
   label: Google Ad Manager Networks API
   slug: google-ad-manager-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-networks-api-openapi.yml
+  url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-networks-api-openapi.yml
 - filename: google-ad-manager-orders-api-openapi.yml
   format: yaml
   label: Google Ad Manager Orders API
   slug: google-ad-manager-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-orders-api-openapi.yml
+  url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-orders-api-openapi.yml
 - filename: google-ad-manager-reports-run-api-openapi.yml
   format: yaml
   label: Google Ad Manager Reports:run API
   slug: google-ad-manager-reports-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-reports-run-api-openapi.yml
+  url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-reports-run-api-openapi.yml
 - filename: google-ad-manager-ad-units-api-openapi.yml
   format: yaml
   label: Google Ad Manager Ad Units API
   slug: google-ad-manager-ad-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/openapi/google-ad-manager-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-ad-units-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -71,7 +71,7 @@ source_filename: google-ad-manager-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/admanager\n  description: Manage Ad Manager data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-ad-manager/refs/heads/main/scopes/google-ad-manager-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-ad-manager/scopes/google-ad-manager-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Ad Manager

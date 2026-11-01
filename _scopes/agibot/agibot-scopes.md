@@ -44,7 +44,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: https://store-account.agibot.com/.well-known/openid-configuration\nnotes: Scopes are declared by the AGIBOT customer-account authorization server discovery document. They\n  apply to the store commerce surface only; the AimDK robot protocol defines no scopes.\nx-evidence:\n  fetched: '2026-08-06'\n  url: https://store-account.agibot.com/.well-known/openid-configuration\n  http_status: 200\nflows:\n- authorization_code\n- refresh_token\n- urn:ietf:params:oauth:grant-type:jwt-bearer\npkce_required_methods:\n- S256\nscopes:\n- name: openid\n  description: Request an OpenID Connect ID token for the signed-in AGIBOT store customer.\n- name: email\n  description: Read the customer’s email address and its verification state.\n- name: customer-account-api:full\n  description: Full access to the customer account API for the signed-in customer.\n- name: customer-account-mcp-api:full\n  description: Full access to the customer-account\
   \ MCP API — the customer-scoped half of the agent commerce\n    surface.\nclaims:\n- iss\n- sub\n- aud\n- exp\n- iat\n- nonce\n- sid\n- email\n- email_verified\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agibot/refs/heads/main/scopes/agibot-scopes.yml
+source_yaml_url: https://artifacts.apis.io/agibot/scopes/agibot-scopes.yml
 summary_line: 4 scopes · authorization_code/refresh_token/urn:ietf:params:oauth:grant-type:jwt-bearer
 tags:
 - Company

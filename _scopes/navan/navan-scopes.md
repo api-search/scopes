@@ -5,43 +5,43 @@ api_specs:
   label: Navan Bookings API
   slug: navan-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-bookings-api-openapi.yml
 - filename: navan-custom-fields-api-openapi.yml
   format: yaml
   label: Navan Custom Fields API
   slug: navan-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-custom-fields-api-openapi.yml
 - filename: navan-fees-and-adjustments-api-openapi.yml
   format: yaml
   label: Navan Fees and Adjustments API
   slug: navan-fees-and-adjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-fees-and-adjustments-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-fees-and-adjustments-api-openapi.yml
 - filename: navan-receipts-api-openapi.yml
   format: yaml
   label: Navan Receipts API
   slug: navan-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-receipts-api-openapi.yml
 - filename: navan-transactions-api-openapi.yml
   format: yaml
   label: Navan Transactions API
   slug: navan-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-transactions-api-openapi.yml
 - filename: navan-users-api-openapi.yml
   format: yaml
   label: Navan Users API
   slug: navan-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-users-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-users-api-openapi.yml
 - filename: navan-webhooks-api-openapi.yml
   format: yaml
   label: Navan Webhooks API
   slug: navan-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -108,7 +108,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/navan-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/navan-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://app.navan.com/ta-auth/oauth/token\n  description: 'OAuth 2.0 client-credentials flow. Generate a client_id / client_secret in the\n    Navan app under Settings > Integrations (API), then POST grant_type=client_credentials to\n    the token URL to obtain a Bearer access token. US token URL: https://app.navan.com/ta-auth/oauth/token\n    ; EU token URL: https://app-fra.navan.com/ta-auth/oauth/token . (Some integrations reference\n    an https://api.navan.com/ta-auth/oauth/token or /auth/v1/token variant; confirm the current\n    token URL in the Navan developer portal.)'\nscopes:\n- scope: bookings:read\n  description: Read booking (trip) data.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/navan-openapi.yml\n- scope: liquid:read\n  description: Read\
   \ expense data (transactions, fees, receipts, custom fields).\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/navan-openapi.yml\n- scope: liquid:write\n  description: Update expense data.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/navan-openapi.yml\n- scope: users:delete\n  description: Deactivate users.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/navan-openapi.yml\n- scope: users:read\n  description: Read user profiles.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/navan-openapi.yml\n- scope: users:write\n  description: Create and modify users.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/navan-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/scopes/navan-scopes.yml
+source_yaml_url: https://artifacts.apis.io/navan/scopes/navan-scopes.yml
 summary_line: 6 scopes · clientCredentials
 tags:
 - Corporate Travel

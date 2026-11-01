@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.kineuphorics.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nschemes:\n- name: shopifyCustomerAccountsOIDC\n  source: well-known/kin-euphorics-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.kineuphorics.com/authentication/oauth/authorize\n    tokenUrl: https://account.kineuphorics.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the customer.\n  flows: [authorizationCode]\n  sources: [well-known/kin-euphorics-openid-configuration.json]\n- scope: email\n  description: Access the customer's email address and email_verified claim.\n  flows: [authorizationCode]\n  sources: [well-known/kin-euphorics-openid-configuration.json]\n- scope: 'customer-account-api:full'\n  description: Full access to the Shopify Customer Account API for the authenticated shopper.\n\
   \  flows: [authorizationCode]\n  sources: [well-known/kin-euphorics-openid-configuration.json]\n- scope: 'customer-account-mcp-api:full'\n  description: Full access to the Shopify Customer Account MCP API for agent-driven account operations.\n  flows: [authorizationCode]\n  sources: [well-known/kin-euphorics-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kin-euphorics/refs/heads/main/scopes/kin-euphorics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kin-euphorics/scopes/kin-euphorics-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

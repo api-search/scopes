@@ -5,61 +5,61 @@ api_specs:
   label: Sponge Agents API
   slug: sponge-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-agents-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-agents-api-openapi.yml
 - filename: sponge-cards-api-openapi.yml
   format: yaml
   label: Sponge Cards API
   slug: sponge-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-cards-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-cards-api-openapi.yml
 - filename: sponge-fiat-api-openapi.yml
   format: yaml
   label: Sponge Fiat API
   slug: sponge-fiat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-fiat-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-fiat-api-openapi.yml
 - filename: sponge-mpp-api-openapi.yml
   format: yaml
   label: Sponge MPP API
   slug: sponge-mpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-mpp-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-mpp-api-openapi.yml
 - filename: sponge-payments-api-openapi.yml
   format: yaml
   label: Sponge Payments API
   slug: sponge-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-payments-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-payments-api-openapi.yml
 - filename: sponge-secrets-api-openapi.yml
   format: yaml
   label: Sponge Secrets API
   slug: sponge-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-secrets-api-openapi.yml
 - filename: sponge-sponge-card-api-openapi.yml
   format: yaml
   label: Sponge Card API
   slug: sponge-sponge-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-sponge-card-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-sponge-card-api-openapi.yml
 - filename: sponge-trading-api-openapi.yml
   format: yaml
   label: Sponge Trading API
   slug: sponge-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-trading-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-trading-api-openapi.yml
 - filename: sponge-transfers-api-openapi.yml
   format: yaml
   label: Sponge Transfers API
   slug: sponge-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-transfers-api-openapi.yml
 - filename: sponge-wallet-api-openapi.yml
   format: yaml
   label: Sponge Wallet API
   slug: sponge-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/openapi/sponge-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/sponge/openapi/sponge-wallet-api-openapi.yml
 authorization_urls: []
 description: Sponge's Wallet API is primarily bearer API-key authenticated, but the hosted MCP servers are fronted by an OAuth 2.0 / OIDC authorization server (dynamic client registration, S256 PKCE) whose discovery metadata advertises the scopes below. These scopes gate OAuth-connected MCP clients (e.g. Claude, ChatGPT).
 docs: https://docs.paysponge.com/wallet/mcp.md
@@ -118,7 +118,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://api.wallet.paysponge.com/.well-known/openid-configuration\ndocs: https://docs.paysponge.com/wallet/mcp.md\ndescription: >-\n  Sponge's Wallet API is primarily bearer API-key authenticated, but the hosted\n  MCP servers are fronted by an OAuth 2.0 / OIDC authorization server (dynamic\n  client registration, S256 PKCE) whose discovery metadata advertises the scopes\n  below. These scopes gate OAuth-connected MCP clients (e.g. Claude, ChatGPT).\nschemes:\n- name: OAuth2\n  type: oauth2\n  source: well-known/sponge-openid-configuration.json\n  issuer: https://api.wallet.paysponge.com\n  authorization_url: https://api.wallet.paysponge.com/oauth/authorize\n  token_url: https://api.wallet.paysponge.com/oauth/token\n  registration_url: https://api.wallet.paysponge.com/oauth/register\n  revocation_url: https://api.wallet.paysponge.com/oauth/revoke\n  grant_types: [authorization_code, refresh_token]\n  pkce: S256\nscopes:\n-\
   \ scope: openid\n  description: OpenID Connect authentication of the connecting agent identity.\n  sources: [well-known/sponge-openid-configuration.json]\n- scope: mcp:tools\n  description: Access to the Sponge MCP tool surface for the authorized agent.\n  sources: [well-known/sponge-openid-configuration.json]\n- scope: wallet:read\n  description: Read-only access to wallet addresses, balances, and transaction history.\n  sources: [well-known/sponge-openid-configuration.json]\n- scope: wallet:transfer\n  description: Authorize outbound transfers, swaps, and payments from the agent wallet.\n  sources: [well-known/sponge-openid-configuration.json]\n- scope: sponge:all\n  description: Full access to all Sponge wallet capabilities for the authorized agent.\n  sources: [well-known/sponge-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/scopes/sponge-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sponge/scopes/sponge-scopes.yml
 summary_line: 5 scopes
 tags:
 - Company

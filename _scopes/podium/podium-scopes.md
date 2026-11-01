@@ -5,163 +5,163 @@ api_specs:
   label: Podium Appointment API
   slug: podium-appointment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-appointment-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-appointment-api-openapi.yml
 - filename: podium-call-api-openapi.yml
   format: yaml
   label: Podium Call API
   slug: podium-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-call-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-call-api-openapi.yml
 - filename: podium-campaign-api-openapi.yml
   format: yaml
   label: Podium Campaign API
   slug: podium-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-campaign-api-openapi.yml
 - filename: podium-campaign-interaction-api-openapi.yml
   format: yaml
   label: Podium Campaign Interaction API
   slug: podium-campaign-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-campaign-interaction-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-campaign-interaction-api-openapi.yml
 - filename: podium-contact-api-openapi.yml
   format: yaml
   label: Podium Contact API
   slug: podium-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-contact-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-contact-api-openapi.yml
 - filename: podium-contact-attribute-api-openapi.yml
   format: yaml
   label: Podium Contact Attribute API
   slug: podium-contact-attribute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-contact-attribute-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-contact-attribute-api-openapi.yml
 - filename: podium-contact-tag-api-openapi.yml
   format: yaml
   label: Podium Contact Tag API
   slug: podium-contact-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-contact-tag-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-contact-tag-api-openapi.yml
 - filename: podium-conversation-api-openapi.yml
   format: yaml
   label: Podium Conversation API
   slug: podium-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-conversation-api-openapi.yml
 - filename: podium-conversation-assignee-api-openapi.yml
   format: yaml
   label: Podium Conversation Assignee API
   slug: podium-conversation-assignee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-conversation-assignee-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-conversation-assignee-api-openapi.yml
 - filename: podium-feedback-api-openapi.yml
   format: yaml
   label: Podium Feedback API
   slug: podium-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-feedback-api-openapi.yml
 - filename: podium-invoice-api-openapi.yml
   format: yaml
   label: Podium Invoice API
   slug: podium-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-invoice-api-openapi.yml
 - filename: podium-location-api-openapi.yml
   format: yaml
   label: Podium Location API
   slug: podium-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-location-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-location-api-openapi.yml
 - filename: podium-message-api-openapi.yml
   format: yaml
   label: Podium Message API
   slug: podium-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-message-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-message-api-openapi.yml
 - filename: podium-organization-api-openapi.yml
   format: yaml
   label: Podium Organization API
   slug: podium-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-organization-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-organization-api-openapi.yml
 - filename: podium-payment-api-openapi.yml
   format: yaml
   label: Podium Payment API
   slug: podium-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-payment-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-payment-api-openapi.yml
 - filename: podium-product-api-openapi.yml
   format: yaml
   label: Podium Product API
   slug: podium-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-product-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-product-api-openapi.yml
 - filename: podium-reader-api-openapi.yml
   format: yaml
   label: Podium Reader API
   slug: podium-reader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-reader-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-reader-api-openapi.yml
 - filename: podium-refund-api-openapi.yml
   format: yaml
   label: Podium Refund API
   slug: podium-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-refund-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-refund-api-openapi.yml
 - filename: podium-review-api-openapi.yml
   format: yaml
   label: Podium Review API
   slug: podium-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-review-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-review-api-openapi.yml
 - filename: podium-review-attribution-api-openapi.yml
   format: yaml
   label: Podium Review Attribution API
   slug: podium-review-attribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-review-attribution-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-review-attribution-api-openapi.yml
 - filename: podium-review-invite-api-openapi.yml
   format: yaml
   label: Podium Review Invite API
   slug: podium-review-invite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-review-invite-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-review-invite-api-openapi.yml
 - filename: podium-review-response-api-openapi.yml
   format: yaml
   label: Podium Review Response API
   slug: podium-review-response-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-review-response-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-review-response-api-openapi.yml
 - filename: podium-review-sites-summary-api-openapi.yml
   format: yaml
   label: Podium Review Sites Summary API
   slug: podium-review-sites-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-review-sites-summary-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-review-sites-summary-api-openapi.yml
 - filename: podium-review-summary-api-openapi.yml
   format: yaml
   label: Podium Review Summary API
   slug: podium-review-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-review-summary-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-review-summary-api-openapi.yml
 - filename: podium-template-api-openapi.yml
   format: yaml
   label: Podium Template API
   slug: podium-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-template-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-template-api-openapi.yml
 - filename: podium-user-api-openapi.yml
   format: yaml
   label: Podium User API
   slug: podium-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-user-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-user-api-openapi.yml
 - filename: podium-webhook-api-openapi.yml
   format: yaml
   label: Podium Webhook API
   slug: podium-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/openapi/podium-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/podium/openapi/podium-webhook-api-openapi.yml
 authorization_urls:
 - https://api.podium.com/oauth/authorize
 description: ''
@@ -334,7 +334,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://docs.po
   \  operations:\n  - feedback_creation.create\n  sources:\n  - openapi/podium-feedback-surveys-openapi.yml\n- scope: write_locations\n  description: Grant access to write locations.\n  documented: true\n  flows:\n  - authorizationCode\n  operations:\n  - location.update\n  sources:\n  - https://docs.podium.com/docs/oauth-scopes\n  - openapi/podium-accounts-openapi.yml\n- scope: write_messages\n  description: Grant access to write messages in the user's locations.\n  documented: true\n  flows:\n  - authorizationCode\n  operations:\n  - conversation.update\n  - conversation_assignee.update\n  - conversation_note.create_conversation_note\n  - message.import\n  - message.send\n  - message.send_with_attachment\n  sources:\n  - https://docs.podium.com/docs/oauth-scopes\n  - openapi/podium-conversations-openapi.yml\n  - openapi/podium-messenger-openapi.yml\n- scope: write_payments\n  description: Grant access to create payments for all the user's locations.\n  documented: true\n  flows:\n  - authorizationCode\n\
   \  operations:\n  - Refund.create\n  - invoice.cancel\n  - invoice.charge\n  - invoice.create\n  - invoice.refund\n  - invoice.setup\n  sources:\n  - https://docs.podium.com/docs/oauth-scopes\n  - openapi/podium-payments-openapi.yml\n- scope: write_products\n  description: Scope required by the operations listed below; not present on the published scopes reference\n    page.\n  documented: false\n  flows:\n  - authorizationCode\n  operations:\n  - Product.upload_images\n  - product_image.delete\n  sources:\n  - openapi/podium-products-openapi.yml\n- scope: write_reviews\n  description: Grant access to create reviews data for all the user's locations.\n  documented: true\n  flows:\n  - authorizationCode\n  operations:\n  - review_attribution.create\n  - review_attribution.delete\n  - review_invite.create\n  - review_response.create\n  - review_response.update\n  sources:\n  - https://docs.podium.com/docs/oauth-scopes\n  - openapi/podium-reviews-openapi.yml\n- scope: write_templates\n  description:\
   \ Scope required by the operations listed below; not present on the published scopes reference\n    page.\n  documented: false\n  flows:\n  - authorizationCode\n  operations:\n  - Template.create\n  - Template.delete\n  - Template.update\n  sources:\n  - openapi/podium-messenger-openapi.yml\n- scope: write_writebacks\n  description: Scope required by the operations listed below; not present on the published scopes reference\n    page.\n  documented: false\n  flows:\n  - authorizationCode\n  operations:\n  - lead_writeback.get\n  sources:\n  - openapi/podium-conversations-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/scopes/podium-scopes.yml
+source_yaml_url: https://artifacts.apis.io/podium/scopes/podium-scopes.yml
 summary_line: 25 scopes · authorizationCode
 tags:
 - Customer Communication

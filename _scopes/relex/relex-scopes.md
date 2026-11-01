@@ -5,43 +5,43 @@ api_specs:
   label: RELEX Solutions Environments API
   slug: relex-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-environments-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-environments-api-openapi.yml
 - filename: relex-events-api-openapi.yml
   format: yaml
   label: RELEX Solutions Events API
   slug: relex-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-events-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-events-api-openapi.yml
 - filename: relex-health-api-openapi.yml
   format: yaml
   label: RELEX Solutions Health API
   slug: relex-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-health-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-health-api-openapi.yml
 - filename: relex-master-data-api-openapi.yml
   format: yaml
   label: RELEX Solutions Master data API
   slug: relex-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-master-data-api-openapi.yml
 - filename: relex-metadata-api-openapi.yml
   format: yaml
   label: RELEX Solutions Metadata API
   slug: relex-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-metadata-api-openapi.yml
 - filename: relex-metrics-api-openapi.yml
   format: yaml
   label: RELEX Solutions Metrics API
   slug: relex-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-metrics-api-openapi.yml
 - filename: relex-transactions-api-openapi.yml
   format: yaml
   label: RELEX Solutions Transactions API
   slug: relex-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/openapi/relex-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/relex/openapi/relex-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.relexsolutions.com/api/retail-restapi-example-customer.html
@@ -295,7 +295,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://identit
   - scope: AccountSettingsView\n  group: application-permission\n- scope: MasterDataView\n  group: application-permission\n- scope: SystemSettingsView\n  group: application-permission\n- scope: ReportView\n  group: application-permission\n- scope: ScmView\n  group: application-permission\n- scope: PerformanceDataEdit\n  group: application-permission\n- scope: ManualOrdersView\n  group: application-permission\n- scope: ManualOrdersEdit\n  group: application-permission\n- scope: StoreVersionView\n  group: application-permission\n- scope: FloorPlanView\n  group: space-planning\n- scope: FloorPlanEdit\n  group: space-planning\n- scope: FloorPlanAutomationView\n  group: space-planning\n- scope: FloorPlanDeliveryView\n  group: space-planning\n- scope: FloorPlanDeliveryEdit\n  group: space-planning\n- scope: PlanogramView\n  group: space-planning\n- scope: PlanogramEdit\n  group: space-planning\n- scope: PlanogramAssignmentView\n  group: space-planning\n- scope: PlanogramDeliverySpaceView\n  group:\
   \ space-planning\n- scope: PlanogrammingDataIntegrationEdit\n  group: space-planning\n- scope: LocationLedAssignmentsView\n  group: space-planning\n- scope: MicroSpaceView\n  group: space-planning\n- scope: MicroSpaceEdit\n  group: space-planning\n- scope: MicroSpaceReviewsView\n  group: space-planning\n- scope: MicroSpaceWorkflowsView\n  group: space-planning\n- scope: GridEdit\n  group: space-planning\n- scope: PDREQ-7480\n  group: unknown\n  note: An internal ticket reference leaked into the public scope list. Recorded verbatim because\n    it is genuinely advertised; it is not a scope an integrator should request.\nidentity_provider:\n  product: RELEX Identity (Duende/IdentityServer-family)\n  issuers:\n  - https://identity.prod-eu.prod.cc.relexsolutions.com\n  - https://identity.prod-eu.prod.cc.relexsolutions.com/login/restapi_prod\n  - https://identity.prod-eu.prod.cc.relexsolutions.com/monitoring_api_prod\n  - https://identity.prod-us.prod.cc.relexsolutions.com\n  - https://identity.prod-us.prod.cc.relexsolutions.com/login/restapi_prod\n\
   \  - https://identity.prod-us.prod.cc.relexsolutions.com/monitoring_api_prod\n  grant_types_supported:\n  - authorization_code\n  - client_credentials\n  - refresh_token\n  - implicit\n  - password\n  - urn:ietf:params:oauth:grant-type:device_code\n  - urn:openid:params:grant-type:ciba\n  - urn:ietf:params:oauth:grant-type:token-exchange\n  token_endpoint_auth_methods_supported:\n  - client_secret_basic\n  - client_secret_post\n  code_challenge_methods_supported:\n  - plain\n  - S256\n  note: >-\n    The discovery documents advertise the full IdentityServer grant surface, including implicit and\n    resource-owner password, which are discouraged by OAuth 2.1. That is the IdP's capability list,\n    not what these two APIs use — both APIs use client_credentials only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/scopes/relex-scopes.yml
+source_yaml_url: https://artifacts.apis.io/relex/scopes/relex-scopes.yml
 summary_line: 51 scopes
 tags:
 - Supply Chain

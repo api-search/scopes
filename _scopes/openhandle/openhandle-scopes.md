@@ -5,37 +5,37 @@ api_specs:
   label: Openhandle Instagram API
   slug: openhandle-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-instagram-api-openapi.yml
 - filename: openhandle-reddit-api-openapi.yml
   format: yaml
   label: Openhandle Reddit API
   slug: openhandle-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-reddit-api-openapi.yml
 - filename: openhandle-test-data-api-openapi.yml
   format: yaml
   label: Openhandle Test Data API
   slug: openhandle-test-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-test-data-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-test-data-api-openapi.yml
 - filename: openhandle-tiktok-api-openapi.yml
   format: yaml
   label: Openhandle Tiktok API
   slug: openhandle-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-tiktok-api-openapi.yml
 - filename: openhandle-twitter-api-openapi.yml
   format: yaml
   label: Openhandle Twitter API
   slug: openhandle-twitter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-twitter-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-twitter-api-openapi.yml
 - filename: openhandle-utilities-api-openapi.yml
   format: yaml
   label: Openhandle Utilities API
   slug: openhandle-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-utilities-api-openapi.yml
 authorization_urls:
 - https://api.openhandle.dev/oauth/authorize
 description: ''
@@ -94,7 +94,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: searched\nsource: https://openhandle.dev/docs/mcp\nschemes:\n- name: OpenhandleMCPOAuth\n  source: openapi/openhandle-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.openhandle.dev/oauth/authorize\n    tokenUrl: https://api.openhandle.dev/oauth/token\n  description: OAuth grants for the MCP endpoint only. REST operations require OpenhandleKey.\nscopes:\n- scope: mcp\n  description: Read public social data through all MCP tools (legacy default).\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openhandle-openapi.yml\n- scope: read:instagram\n  description: Read public Instagram data through MCP tools.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openhandle-openapi.yml\n- scope: read:tiktok\n  description: Read public TikTok data through MCP tools.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openhandle-openapi.yml\n- scope: read:twitter\n  description: Read public X (Twitter)\
   \ data through MCP tools.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openhandle-openapi.yml\ndocs: https://openhandle.dev/docs/mcp\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/scopes/openhandle-scopes.yml
+source_yaml_url: https://artifacts.apis.io/openhandle/scopes/openhandle-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Social Data

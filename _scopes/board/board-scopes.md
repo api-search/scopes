@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://board.fun/.well-known/openid-configuration\nnotes: >-\n  OAuth/OIDC scopes advertised by Board's Shopify Customer Account authorization\n  server. The customer-account-mcp-api:full scope gates the UCP agent-commerce\n  MCP surface.\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: https://board.fun/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.board.fun/authentication/oauth/authorize\n    tokenUrl: https://account.board.fun/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the customer.\n  flows:\n  - authorizationCode\n- scope: email\n  description: Access the customer's email address and verification status.\n  flows:\n  - authorizationCode\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the buyer.\n  flows:\n\
   \  - authorizationCode\n- scope: customer-account-mcp-api:full\n  description: Full access to the customer-account MCP API surface (agent-driven commerce via UCP).\n  flows:\n  - authorizationCode\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/scopes/board-scopes.yml
+source_yaml_url: https://artifacts.apis.io/board/scopes/board-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

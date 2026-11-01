@@ -5,31 +5,31 @@ api_specs:
   label: Podio Applications API
   slug: podio-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-applications-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-applications-api-openapi.yml
 - filename: podio-hooks-api-openapi.yml
   format: yaml
   label: Podio Hooks API
   slug: podio-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-hooks-api-openapi.yml
 - filename: podio-items-api-openapi.yml
   format: yaml
   label: Podio Items API
   slug: podio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-items-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-items-api-openapi.yml
 - filename: podio-tasks-api-openapi.yml
   format: yaml
   label: Podio Tasks API
   slug: podio-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-tasks-api-openapi.yml
 - filename: podio-oauth-api-openapi.yml
   format: yaml
   label: Podio O Auth API
   slug: podio-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/openapi/podio-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/podio/openapi/podio-oauth-api-openapi.yml
 authorization_urls:
 - https://podio.com/oauth/authorize
 description: ''
@@ -88,7 +88,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/podio-openapi.yml\ndocs: https://developers.podio.com/authentication/scopes\nnote: >-\n  Podio scopes are parameterized as [scope]:[permission] pairs passed in the\n  OAuth scope query parameter. Scope types are global, user, org_[id],\n  space_[id], and app_[id]; permissions are read, write, delete, and all.\n  Scopes are hierarchical (e.g. space access implies equivalent app access;\n  user scope is decoupled). Omitting the scope parameter defaults to\n  global:all.\nschemes:\n- name: oauth2Authorization\n  source: openapi/podio-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://podio.com/oauth/authorize\n    tokenUrl: https://api.podio.com/oauth/token/v2\nscopes:\n- scope: global:all\n  description: >-\n    Full access to all accessible areas of Podio. This is the default scope\n    granted when the scope parameter is omitted or empty.\n  sources:\n  - https://developers.podio.com/authentication/scopes\n\
   - scope: 'user:[permission]'\n  description: >-\n    Access to areas related to the authenticated user, such as chat messages\n    through the Conversations API or personal tasks. Decoupled from the other\n    scopes and can be combined with them (space-separated). Permission is one\n    of read, write, delete, or all.\n  sources:\n  - https://developers.podio.com/authentication/scopes\n- scope: 'org_[id]:[permission]'\n  description: >-\n    Access to organizations; the user specifies which specific organizations\n    are made accessible. Permission is one of read, write, delete, or all.\n  sources:\n  - https://developers.podio.com/authentication/scopes\n- scope: 'space_[id]:[permission]'\n  description: >-\n    Access to spaces; the user specifies which specific spaces are made\n    accessible. Granting Space scope also implicitly grants the App scope\n    with identical permissions. Permission is one of read, write, delete, or\n    all.\n  sources:\n  - https://developers.podio.com/authentication/scopes\n\
   - scope: 'app_[id]:[permission]'\n  description: >-\n    Access to apps; the user specifies which specific apps are made\n    accessible. Permission is one of read, write, delete, or all.\n  sources:\n  - https://developers.podio.com/authentication/scopes\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/scopes/podio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/podio/scopes/podio-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Work Management

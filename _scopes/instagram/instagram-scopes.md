@@ -5,43 +5,43 @@ api_specs:
   label: Instagram Comments API
   slug: instagram-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-comments-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-comments-api-openapi.yml
 - filename: instagram-hashtags-api-openapi.yml
   format: yaml
   label: Instagram Hashtags API
   slug: instagram-hashtags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-hashtags-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-hashtags-api-openapi.yml
 - filename: instagram-insights-api-openapi.yml
   format: yaml
   label: Instagram Insights API
   slug: instagram-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-insights-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-insights-api-openapi.yml
 - filename: instagram-media-api-openapi.yml
   format: yaml
   label: Instagram Media API
   slug: instagram-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-media-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-media-api-openapi.yml
 - filename: instagram-mentions-api-openapi.yml
   format: yaml
   label: Instagram Mentions API
   slug: instagram-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-mentions-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-mentions-api-openapi.yml
 - filename: instagram-publishing-api-openapi.yml
   format: yaml
   label: Instagram Publishing API
   slug: instagram-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-publishing-api-openapi.yml
 - filename: instagram-users-api-openapi.yml
   format: yaml
   label: Instagram Users API
   slug: instagram-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-users-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-users-api-openapi.yml
 authorization_urls:
 - https://www.facebook.com/dialog/oauth
 - https://www.instagram.com/oauth/authorize
@@ -193,7 +193,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: https://develop
   \  app_review: true\n  flows: [authorizationCode]\n- scope: instagram_business_basic\n  description: Read an Instagram Business account profile's info and media.\n  family: instagram-login\n  app_review: true\n  flows: [authorizationCode]\n- scope: instagram_business_content_publish\n  description: Create organic feed photo and video posts on behalf of a business user.\n  family: instagram-login\n  app_review: true\n  flows: [authorizationCode]\n- scope: instagram_business_manage_comments\n  description: Create, update and delete comments on Instagram business accounts.\n  family: instagram-login\n  app_review: true\n  flows: [authorizationCode]\n- scope: instagram_business_manage_messages\n  description: Access messages on an Instagram professional account.\n  family: instagram-login\n  app_review: true\n  flows: [authorizationCode]\ncompanion_scopes:\n- scope: pages_show_list\n  description: List the Facebook Pages a user manages - needed to find the Page an Instagram account is linked\
   \ to.\n  family: facebook-login\n  required_for: Instagram API with Facebook Login\n- scope: pages_read_engagement\n  description: Read engagement data from Pages.\n  family: facebook-login\n  required_for: Instagram API with Facebook Login\n- scope: ads_management\n  description: Alternative to pages_read_engagement when Page access was granted through Business Manager.\n  family: facebook-login\n  required_for: IG Hashtag Search in some Business Manager configurations\n- scope: business_management\n  description: Alternative to pages_read_engagement when Page access was granted through Business Manager.\n  family: facebook-login\n  required_for: IG Hashtag Search in some Business Manager configurations\nfeatures:\n- name: Instagram Public Content Access\n  description: >-\n    A FEATURE, not a permission, and a separate App Review item. Required in addition to\n    instagram_basic for IG Hashtag Search.\n  applies_to:\n  - searchHashtag\n  - getHashtagTopMedia\n  - getHashtagRecentMedia\n\
   scope_count: 19\nobservations:\n- The two permission families are not interchangeable. instagram_business_* only works with\n  Instagram Login at graph.instagram.com; instagram_* only works with Facebook Login at\n  graph.facebook.com.\n- Hashtag search and business discovery are reachable ONLY through Facebook Login, and hashtag\n  search additionally needs the Instagram Public Content Access feature approved.\n- Every single instagram_* permission requires App Review. There is no read-only tier an app can\n  self-serve into for other people's accounts.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/scopes/instagram-scopes.yml
+source_yaml_url: https://artifacts.apis.io/instagram/scopes/instagram-scopes.yml
 summary_line: 19 scopes · authorizationCode
 tags:
 - Instagram

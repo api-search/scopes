@@ -5,37 +5,37 @@ api_specs:
   label: Candis Core Data API
   slug: candis-core-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-core-data-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-core-data-api-openapi.yml
 - filename: candis-exports-api-openapi.yml
   format: yaml
   label: Candis Exports API
   slug: candis-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-exports-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-exports-api-openapi.yml
 - filename: candis-invoices-api-openapi.yml
   format: yaml
   label: Candis Invoices API
   slug: candis-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-invoices-api-openapi.yml
 - filename: candis-organizations-api-openapi.yml
   format: yaml
   label: Candis Organizations API
   slug: candis-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-organizations-api-openapi.yml
 - filename: candis-purchase-requests-api-openapi.yml
   format: yaml
   label: Candis Purchase Requests API
   slug: candis-purchase-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-purchase-requests-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-purchase-requests-api-openapi.yml
 - filename: candis-reimbursements-api-openapi.yml
   format: yaml
   label: Candis Reimbursements API
   slug: candis-reimbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/openapi/candis-reimbursements-api-openapi.yml
+  url: https://artifacts.apis.io/candis/openapi/candis-reimbursements-api-openapi.yml
 authorization_urls:
 - https://id.my.candis.io/auth/realms/candis/protocol/openid-connect/auth
 description: ''
@@ -132,7 +132,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developer.candis.io/docs/access-token-scopes\ndocs: https://developer.candis.io/docs/access-token-scopes\noidc_discovery: https://id.my.candis.io/auth/realms/candis/.well-known/openid-configuration\nschemes:\n- name: oauth2\n  source: https://developer.candis.io/docs/how-to-authenticate\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://id.my.candis.io/auth/realms/candis/protocol/openid-connect/auth\n    tokenUrl: https://id.my.candis.io/auth/realms/candis/protocol/openid-connect/token\nnotes: >-\n  Scopes are requested as a space-delimited value in the OAuth scope parameter, e.g.\n  \"scope=offline_access core_data exports\". The exports and core_data scopes are marked\n  experimental (strict validation not yet enforced). email and profile are core scopes\n  enabled by default and need not be requested explicitly.\nscopes:\n- scope: exports\n  description: Access to the Export API (create/read exports\
   \ and exported postings, download export files).\n  status: experimental\n  flows: [authorizationCode]\n- scope: core_data\n  description: Access to the Core Data API (import/update general ledger accounts, cost dimensions, additional delivery costs, contacts).\n  status: experimental\n  flows: [authorizationCode]\n- scope: offline_access\n  description: Issues long-lived refresh tokens so token exchanges remain valid for an extended period (~6-24 months) without re-login; for long-running/background services.\n  flows: [authorizationCode, clientCredentials]\n- scope: service_account\n  description: Service-account (client-credentials) scope for machine-to-machine access.\n  flows: [clientCredentials]\n- scope: openid\n  description: Standard OpenID Connect scope (ID token).\n  flows: [authorizationCode]\n- scope: email\n  description: User email claim. Core scope, enabled by default.\n  default: true\n- scope: profile\n  description: User profile claims. Core scope, enabled by default.\n\
   \  default: true\n- scope: address\n  description: User address claims (OIDC).\n- scope: phone\n  description: User phone claims (OIDC).\n- scope: roles\n  description: Realm/client role claims (Keycloak).\n- scope: acr\n  description: Authentication Context Class Reference (OIDC).\n- scope: microprofile-jwt\n  description: MicroProfile JWT claims (Keycloak).\n- scope: web-origins\n  description: Allowed web origins claim (Keycloak).\nscopes_supported_from_discovery:\n- openid\n- basic\n- service_account\n- acr\n- microprofile-jwt\n- offline_access\n- core_data\n- roles\n- address\n- exports\n- phone\n- web-origins\n- email\n- profile\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/scopes/candis-scopes.yml
+source_yaml_url: https://artifacts.apis.io/candis/scopes/candis-scopes.yml
 summary_line: 13 scopes · authorizationCode
 tags:
 - Company

@@ -36,7 +36,7 @@ source_filename: vinkius-com-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: probed\nsource: https://edge.vinkius.com/.well-known/oauth-authorization-server\ndocs: https://vinkius.com/learn/en/tokens\ndescription: OAuth scopes advertised by the Vinkius Edge authorization server (the MCP resource server). Descriptions are not published; only the scope names are.\nauthorization_server: https://edge.vinkius.com\nauthorization_endpoint: https://edge.vinkius.com/oauth/authorize\ntoken_endpoint: https://edge.vinkius.com/oauth/token\nregistration_endpoint: https://edge.vinkius.com/oauth/register\ngrant_types: [authorization_code, refresh_token]\npkce: [S256]\nscopes:\n- name: mcp:read\n  description: null\n  note: Name only - the metadata document and docs publish no description.\n- name: mcp:write\n  description: null\n  note: Name only - the metadata document and docs publish no description.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vinkius-com/refs/heads/main/scopes/vinkius-com-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vinkius-com/scopes/vinkius-com-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company

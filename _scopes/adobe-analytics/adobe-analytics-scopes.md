@@ -5,175 +5,175 @@ api_specs:
   label: Adobe Analytics Livestream API
   slug: adobe-analytics-livestream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/asyncapi/adobe-analytics-livestream-asyncapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/asyncapi/adobe-analytics-livestream-asyncapi.yml
 - filename: adobe-analytics-annotations-api-openapi.yml
   format: yaml
   label: Adobe Analytics Annotations API
   slug: adobe-analytics-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-annotations-api-openapi.yml
 - filename: adobe-analytics-calculated-metrics-api-openapi.yml
   format: yaml
   label: Adobe Analytics Calculated Metrics API
   slug: adobe-analytics-calculated-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-calculated-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-calculated-metrics-api-openapi.yml
 - filename: adobe-analytics-date-ranges-api-openapi.yml
   format: yaml
   label: Adobe Analytics Date Ranges API
   slug: adobe-analytics-date-ranges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-date-ranges-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-date-ranges-api-openapi.yml
 - filename: adobe-analytics-dimensions-api-openapi.yml
   format: yaml
   label: Adobe Analytics Dimensions API
   slug: adobe-analytics-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-dimensions-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-dimensions-api-openapi.yml
 - filename: adobe-analytics-events-api-openapi.yml
   format: yaml
   label: Adobe Analytics Events API
   slug: adobe-analytics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-events-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-events-api-openapi.yml
 - filename: adobe-analytics-jobs-api-openapi.yml
   format: yaml
   label: Adobe Analytics Jobs API
   slug: adobe-analytics-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-jobs-api-openapi.yml
 - filename: adobe-analytics-metrics-api-openapi.yml
   format: yaml
   label: Adobe Analytics Metrics API
   slug: adobe-analytics-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-metrics-api-openapi.yml
 - filename: adobe-analytics-report-suites-api-openapi.yml
   format: yaml
   label: Adobe Analytics Report Suites API
   slug: adobe-analytics-report-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-report-suites-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-report-suites-api-openapi.yml
 - filename: adobe-analytics-reports-api-openapi.yml
   format: yaml
   label: Adobe Analytics Reports API
   slug: adobe-analytics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-reports-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-reports-api-openapi.yml
 - filename: adobe-analytics-segments-api-openapi.yml
   format: yaml
   label: Adobe Analytics Segments API
   slug: adobe-analytics-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-segments-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-segments-api-openapi.yml
 - filename: adobe-analytics-server-call-estimate-api-openapi.yml
   format: yaml
   label: Adobe Analytics Server Call Estimate API
   slug: adobe-analytics-server-call-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-server-call-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-server-call-estimate-api-openapi.yml
 - filename: adobe-analytics-account-api-openapi.yml
   format: yaml
   label: Adobe Analytics Account API
   slug: adobe-analytics-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-account-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-account-api-openapi.yml
 - filename: adobe-analytics-analytics-cloud-locations-account-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Cloud Locations Account API
   slug: adobe-analytics-analytics-cloud-locations-account-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-analytics-cloud-locations-account-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-analytics-cloud-locations-account-api-api-openapi.yml
 - filename: adobe-analytics-analytics-cloud-locations-location-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Cloud Locations Location API
   slug: adobe-analytics-analytics-cloud-locations-location-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-analytics-cloud-locations-location-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-analytics-cloud-locations-location-api-api-openapi.yml
 - filename: adobe-analytics-classification-dataset-api-openapi.yml
   format: yaml
   label: Adobe Analytics Classification Dataset API
   slug: adobe-analytics-classification-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-classification-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-classification-dataset-api-openapi.yml
 - filename: adobe-analytics-classification-job-api-openapi.yml
   format: yaml
   label: Adobe Analytics Classification Job API
   slug: adobe-analytics-classification-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-classification-job-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-classification-job-api-openapi.yml
 - filename: adobe-analytics-collections-suites-api-openapi.yml
   format: yaml
   label: Adobe Analytics Collections Suites API
   slug: adobe-analytics-collections-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-collections-suites-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-collections-suites-api-openapi.yml
 - filename: adobe-analytics-column-preset-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Column Preset API
   slug: adobe-analytics-column-preset-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-column-preset-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-column-preset-api-api-openapi.yml
 - filename: adobe-analytics-component-migration-api-openapi.yml
   format: yaml
   label: Adobe Analytics Component migration API
   slug: adobe-analytics-component-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-component-migration-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-component-migration-api-openapi.yml
 - filename: adobe-analytics-data-warehouse-report-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Data Warehouse Report API
   slug: adobe-analytics-data-warehouse-report-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-data-warehouse-report-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-data-warehouse-report-api-api-openapi.yml
 - filename: adobe-analytics-data-warehouse-scheduled-requests-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Data Warehouse Scheduled Requests API
   slug: adobe-analytics-data-warehouse-scheduled-requests-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-data-warehouse-scheduled-requests-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-data-warehouse-scheduled-requests-api-api-openapi.yml
 - filename: adobe-analytics-datafeed-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Datafeed API
   slug: adobe-analytics-datafeed-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-datafeed-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-datafeed-api-api-openapi.yml
 - filename: adobe-analytics-dimensions-mappings-api-openapi.yml
   format: yaml
   label: Adobe Analytics Dimensions mappings API
   slug: adobe-analytics-dimensions-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-dimensions-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-dimensions-mappings-api-openapi.yml
 - filename: adobe-analytics-job-api-openapi.yml
   format: yaml
   label: Adobe Analytics Job API
   slug: adobe-analytics-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-job-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-job-api-openapi.yml
 - filename: adobe-analytics-manage-api-api-openapi.yml
   format: yaml
   label: Adobe Analytics Manage API
   slug: adobe-analytics-manage-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-manage-api-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-manage-api-api-openapi.yml
 - filename: adobe-analytics-marketing-channels-api-openapi.yml
   format: yaml
   label: Adobe Analytics Marketing Channels API
   slug: adobe-analytics-marketing-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-marketing-channels-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-marketing-channels-api-openapi.yml
 - filename: adobe-analytics-metrics-mappings-api-openapi.yml
   format: yaml
   label: Adobe Analytics Metrics mappings API
   slug: adobe-analytics-metrics-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-metrics-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-metrics-mappings-api-openapi.yml
 - filename: adobe-analytics-virtual-report-suites-api-openapi.yml
   format: yaml
   label: Adobe Analytics Virtual Report Suites API
   slug: adobe-analytics-virtual-report-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-virtual-report-suites-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-analytics/openapi/adobe-analytics-virtual-report-suites-api-openapi.yml
 authorization_urls: []
 description: Adobe Analytics access tokens are issued by Adobe IMS (Identity Management System). The Adobe Analytics 2.0 REST OpenAPI declares its credential as an HTTP bearer scheme plus an x-api-key header and does NOT declare an inline oauth2 flow with a scope map, so the scopes below are not derivable from the spec. They are taken from the two RFC 8414 / RFC 9728 discovery documents the Adobe Analytics MCP server publishes anonymously — those are the authoritative machine-readable statement of what the Analytics OAuth surface accepts. Saved copies live in well-known/.
 docs: https://developer.adobe.com/analytics-apis/docs/2.0/guides/authentication/
@@ -214,7 +214,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  https://aa-
   \ https://aa-mcp.adobe.io\n  authorization_endpoint: https://ims-na1.adobelogin.com/ims/authorize/v2\n  token_endpoint: https://ims-na1.adobelogin.com/ims/token/v3\n  revocation_endpoint: https://ims-na1.adobelogin.com/ims/revoke\n  registration_endpoint: https://aa-mcp.adobe.io/register\n  grant_types_supported: [authorization_code]\n  response_types_supported: [code]\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [none]\n  files:\n    - well-known/adobe-analytics-aa-mcp-oauth-authorization-server.json\n    - well-known/adobe-analytics-aa-mcp-oauth-protected-resource.json\n    - well-known/adobe-analytics-ims-openid-configuration.json\n    - well-known/adobe-analytics-ims-oauth-authorization-server.json\nprotected_resource:\n  resource: https://aa-mcp.adobe.io/mcp\n  bearer_methods_supported: [header]\nscopes:\n  - name: openid\n    description: >-\n      Standard OpenID Connect scope; requests an ID token identifying the Adobe user.\n    standard:\
   \ true\n  - name: AdobeID\n    description: >-\n      Adobe IMS scope granting a token bound to the user's Adobe ID. Required on every\n      Adobe Analytics OAuth authorization.\n    standard: false\n  - name: additional_info.projectedProductContext\n    description: >-\n      Adobe IMS scope that projects the user's product entitlements (product profiles and\n      permission items) into the token. This is what carries the Adobe Analytics company\n      access and, for the MCP server, the \"MCP Access\" permission item.\n    standard: false\nauthorization:\n  model: >-\n    Scopes are coarse. Actual authorization is enforced downstream by Adobe Analytics\n    product profiles and permission items (report suite access, component access,\n    admin rights) attached to the authenticated user, not by fine-grained OAuth scopes.\n    There is no per-endpoint or per-resource scope on the Analytics 2.0 REST API.\n  credential_types:\n    - OAuth Server-to-Server (client credentials, Adobe Developer\
   \ Console)\n    - OAuth User Authentication (authorization code + PKCE, used by the MCP server)\nnotes: >-\n  No scopes/permissions reference page enumerating per-operation scopes is published for\n  the Adobe Analytics 2.0 API — the docs describe credential setup, not a scope catalog.\n  Recording that absence honestly rather than inventing per-operation scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/scopes/adobe-analytics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/adobe-analytics/scopes/adobe-analytics-scopes.yml
 summary_line: 3 scopes
 tags:
 - Adobe

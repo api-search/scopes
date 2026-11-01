@@ -49,7 +49,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.attain.kyocare.com/.well-known/openid-configuration\ndocs: https://api.attain.kyocare.com/.well-known/oauth-authorization-server\nnote: Scopes read verbatim from the published `scopes_supported` of the Attain platform\n  API discovery document. Kyo publishes no scope/permission reference page, so this is\n  the complete advertised scope surface — standard OIDC identity scopes only, with no\n  resource-level scopes exposed publicly.\nschemes:\n- name: oauth2\n  source: well-known/kyocare-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.attain.kyocare.com/oauth/authorize\n    tokenUrl: https://api.attain.kyocare.com/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.attain.kyocare.com/oauth/token\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope; requests an ID token asserting the end\n    user's identity.\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - well-known/kyocare-openid-configuration.json\n- scope: email\n  description: Releases the end user's email address and email_verified claim to the\n    client.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/kyocare-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyocare/refs/heads/main/scopes/kyocare-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kyocare/scopes/kyocare-scopes.yml
 summary_line: 2 scopes · authorizationCode/clientCredentials
 tags:
 - Company

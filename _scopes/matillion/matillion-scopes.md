@@ -5,55 +5,55 @@ api_specs:
   label: Matillion DPC Agents API
   slug: matillion-dpc-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-agents-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-agents-api-openapi.yml
 - filename: matillion-dpc-environments-api-openapi.yml
   format: yaml
   label: Matillion DPC Environments API
   slug: matillion-dpc-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-environments-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-environments-api-openapi.yml
 - filename: matillion-dpc-pipeline-executions-api-openapi.yml
   format: yaml
   label: Matillion DPC Pipeline Executions API
   slug: matillion-dpc-pipeline-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-pipeline-executions-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-pipeline-executions-api-openapi.yml
 - filename: matillion-dpc-projects-api-openapi.yml
   format: yaml
   label: Matillion DPC Projects API
   slug: matillion-dpc-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-projects-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-projects-api-openapi.yml
 - filename: matillion-dpc-schedules-api-openapi.yml
   format: yaml
   label: Matillion DPC Schedules API
   slug: matillion-dpc-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-schedules-api-openapi.yml
 - filename: matillion-etl-groups-projects-api-openapi.yml
   format: yaml
   label: Matillion ETL Groups & Projects API
   slug: matillion-etl-groups-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-groups-projects-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-groups-projects-api-openapi.yml
 - filename: matillion-etl-jobs-runs-api-openapi.yml
   format: yaml
   label: Matillion ETL Jobs & Runs API
   slug: matillion-etl-jobs-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-jobs-runs-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-jobs-runs-api-openapi.yml
 - filename: matillion-etl-schedules-api-openapi.yml
   format: yaml
   label: Matillion ETL Schedules API
   slug: matillion-etl-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-schedules-api-openapi.yml
 - filename: matillion-etl-tasks-api-openapi.yml
   format: yaml
   label: Matillion ETL Tasks API
   slug: matillion-etl-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-tasks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.maia.ai/docs/api-reference/maia-api-authentication
@@ -94,7 +94,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/matillion-openapi.yml\ndocs: https://docs.maia.ai/docs/api-reference/maia-api-authentication\nschemes:\n- name: dpc_oauth\n  source: openapi/matillion-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://id.core.matillion.com/oauth/dpc/token\n  description: 'Data Productivity Cloud OAuth2 client-credentials flow. Exchange your client\n    id and secret for a Bearer JWT at the token URL, requesting the audience https://api.matillion.com,\n    then send it as Authorization: Bearer <JWT>.'\nscopes:\n- scope: pipeline-execution\n  description: The only scope value documented for the Data Productivity Cloud (Maia)\n    API; it appears in the client-credentials token response. Callers do not request\n    scopes - effective permissions are governed by the account role assigned to the\n    API credential set, plus project and environment roles for non-Super Admin credentials.\n  sources:\n  - https://docs.maia.ai/docs/api-reference/maia-api-authentication\n\
   note: Matillion does not publish a scopes catalog; API access is permissioned via\n  roles on API credentials (account, project, and environment roles), and the token\n  response's scope is fixed at pipeline-execution (https://docs.maia.ai/docs/api-reference/maia-api-authentication).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/scopes/matillion-scopes.yml
+source_yaml_url: https://artifacts.apis.io/matillion/scopes/matillion-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Data Integration

@@ -5,43 +5,43 @@ api_specs:
   label: Bankwest Banking Account Balances API
   slug: bankwest-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-account-balances-api-openapi.yml
 - filename: bankwest-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bankwest Banking Account Direct Debits API
   slug: bankwest-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-account-direct-debits-api-openapi.yml
 - filename: bankwest-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bankwest Banking Account Scheduled Payments API
   slug: bankwest-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-account-scheduled-payments-api-openapi.yml
 - filename: bankwest-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bankwest Banking Account Transactions API
   slug: bankwest-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-account-transactions-api-openapi.yml
 - filename: bankwest-banking-accounts-api-openapi.yml
   format: yaml
   label: Bankwest Banking Accounts API
   slug: bankwest-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-accounts-api-openapi.yml
 - filename: bankwest-banking-payees-api-openapi.yml
   format: yaml
   label: Bankwest Banking Payees API
   slug: bankwest-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-payees-api-openapi.yml
 - filename: bankwest-banking-products-api-openapi.yml
   format: yaml
   label: Bankwest Banking Products API
   slug: bankwest-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/openapi/bankwest-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bankwest/openapi/bankwest-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/bankwes
   schemes:\n- name: cdrConsumerAuthorisation\n  type: openIdConnect\n  profile: FAPI 2.0\n  authorization_flow: authorizationCode + PAR (pushed authorization requests)\n  source: DSB Consumer Data Standards security profile\n  note: Bankwest publishes no self-onboarding path; access requires ACCC accreditation.\nscopes:\n- scope: bank:accounts.basic:read\n  description: >-\n    Basic bank account data — list of accounts and their balances (masked account\n    numbers, product category, nickname, balance amounts). Does not include full\n    account identifiers.\n  operations:\n  - listBankingAccounts\n  - listBankingBalancesBulk\n  - listBankingBalancesSpecificAccounts\n  - getBankingBalance\n  sources: [openapi/bankwest-cds-banking-products-openapi.yml]\n- scope: bank:accounts.detail:read\n  description: >-\n    Detailed bank account data — full account detail including unmasked account\n    number/BSB, features, fees, terms and address data for a single account.\n  operations:\n  - getBankingAccountDetail\n\
   \  sources: [openapi/bankwest-cds-banking-products-openapi.yml]\n- scope: bank:transactions:read\n  description: >-\n    Transactions for authorised accounts — list and detail of account transactions\n    with amount, date and description filtering.\n  operations:\n  - listBankingTransactions\n  - getBankingTransactionDetail\n  sources: [openapi/bankwest-cds-banking-products-openapi.yml]\n- scope: bank:regular_payments:read\n  description: >-\n    Regular payments data — authorised direct debits, scheduled/recurring payments\n    and instalment plans for the customer's accounts.\n  operations:\n  - listDirectDebits\n  - listDirectDebitsBulk\n  - listDirectDebitsSpecificAccounts\n  - listScheduledPayments\n  - listScheduledPaymentsBulk\n  - listScheduledPaymentsSpecificAccounts\n  - listInstalmentPlans\n  - listInstalmentPlansBulk\n  sources: [openapi/bankwest-cds-banking-products-openapi.yml]\n- scope: bank:payees:read\n  description: >-\n    Saved payees — the customer's saved domestic,\
   \ international and BPAY payees.\n  operations:\n  - listBankingPayees\n  - getBankingPayeeDetail\n  sources: [openapi/bankwest-cds-banking-products-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankwest/refs/heads/main/scopes/bankwest-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bankwest/scopes/bankwest-scopes.yml
 summary_line: 5 scopes
 tags:
 - Finance

@@ -5,19 +5,19 @@ api_specs:
   label: Salesforce Flow Definitions API
   slug: salesforce-flow-flow-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-flow-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-flow/openapi/salesforce-flow-flow-definitions-api-openapi.yml
 - filename: salesforce-flow-flow-interviews-api-openapi.yml
   format: yaml
   label: Salesforce Flow Interviews API
   slug: salesforce-flow-flow-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-flow-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-flow/openapi/salesforce-flow-flow-interviews-api-openapi.yml
 - filename: salesforce-flow-invocable-actions-api-openapi.yml
   format: yaml
   label: Salesforce Flow Invocable Actions API
   slug: salesforce-flow-invocable-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-invocable-actions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-flow/openapi/salesforce-flow-invocable-actions-api-openapi.yml
 authorization_urls:
 - https://login.salesforce.com/services/oauth2/authorize
 description: ''
@@ -64,7 +64,7 @@ source_filename: salesforce-flow-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/salesforce-flow-rest-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/salesforce-flow-rest-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.salesforce.com/services/oauth2/authorize\n    tokenUrl: https://login.salesforce.com/services/oauth2/token\nscopes:\n- scope: api\n  description: Access and manage your data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/salesforce-flow-rest-api-openapi.yml\n- scope: full\n  description: Full access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/salesforce-flow-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/scopes/salesforce-flow-scopes.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-flow/scopes/salesforce-flow-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Automation

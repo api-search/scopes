@@ -5,61 +5,61 @@ api_specs:
   label: Aladdin Studio Analytics API
   slug: aladdin-studio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-analytics-api-openapi.yml
 - filename: aladdin-studio-connections-api-openapi.yml
   format: yaml
   label: Aladdin Studio Connections API
   slug: aladdin-studio-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-connections-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-connections-api-openapi.yml
 - filename: aladdin-studio-datasets-api-openapi.yml
   format: yaml
   label: Aladdin Studio Datasets API
   slug: aladdin-studio-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-datasets-api-openapi.yml
 - filename: aladdin-studio-orders-api-openapi.yml
   format: yaml
   label: Aladdin Studio Orders API
   slug: aladdin-studio-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-orders-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-orders-api-openapi.yml
 - filename: aladdin-studio-portfolios-api-openapi.yml
   format: yaml
   label: Aladdin Studio Portfolios API
   slug: aladdin-studio-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-portfolios-api-openapi.yml
 - filename: aladdin-studio-positions-api-openapi.yml
   format: yaml
   label: Aladdin Studio Positions API
   slug: aladdin-studio-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-positions-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-positions-api-openapi.yml
 - filename: aladdin-studio-queries-api-openapi.yml
   format: yaml
   label: Aladdin Studio Queries API
   slug: aladdin-studio-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-queries-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-queries-api-openapi.yml
 - filename: aladdin-studio-research-api-openapi.yml
   format: yaml
   label: Aladdin Studio Research API
   slug: aladdin-studio-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-research-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-research-api-openapi.yml
 - filename: aladdin-studio-risk-api-openapi.yml
   format: yaml
   label: Aladdin Studio Risk API
   slug: aladdin-studio-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-risk-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-risk-api-openapi.yml
 - filename: aladdin-studio-securities-api-openapi.yml
   format: yaml
   label: Aladdin Studio Securities API
   slug: aladdin-studio-securities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-securities-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-securities-api-openapi.yml
 authorization_urls:
 - https://api.blackrock.com/oauth/authorize
 description: ''
@@ -157,7 +157,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aladdin-studio-data-cloud-openapi.yaml, openapi/aladdin-studio-graph-openapi.yaml,\n  openapi/aladdin-studio-investment-research-openapi.yaml, openapi/aladdin-studio-trading-openapi.yaml\nschemes:\n- name: OAuth2\n  source: openapi/aladdin-studio-data-cloud-openapi.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.blackrock.com/oauth/token\n  description: OAuth 2.0 with access tokens for Data Cloud authentication\n- name: OAuth2\n  source: openapi/aladdin-studio-graph-openapi.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.blackrock.com/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.blackrock.com/oauth/authorize\n    tokenUrl: https://api.blackrock.com/oauth/token\n  description: OAuth 2.0 authentication supporting client_credentials and refresh_token flows\n- name: OAuth2\n  source: openapi/aladdin-studio-investment-research-openapi.yaml\n  flows:\n\
   \  - flow: clientCredentials\n    tokenUrl: https://api.blackrock.com/oauth/token\n  description: OAuth 2.0 authentication for research data access\n- name: OAuth2\n  source: openapi/aladdin-studio-trading-openapi.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.blackrock.com/oauth/token\n  description: OAuth 2.0 authentication for trading operations\nscopes:\n- scope: adc:read\n  description: Read Data Cloud data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aladdin-studio-data-cloud-openapi.yaml\n- scope: analytics:read\n  description: Read analytics data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aladdin-studio-investment-research-openapi.yaml\n- scope: portfolio:read\n  description: Read portfolio data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/aladdin-studio-graph-openapi.yaml\n- scope: research:read\n  description: Read research data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aladdin-studio-investment-research-openapi.yaml\n\
   - scope: risk:read\n  description: Read risk analytics\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/aladdin-studio-graph-openapi.yaml\n- scope: trading:read\n  description: Read trading data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aladdin-studio-graph-openapi.yaml\n  - openapi/aladdin-studio-trading-openapi.yaml\n- scope: trading:write\n  description: Create and manage orders\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/aladdin-studio-graph-openapi.yaml\n  - openapi/aladdin-studio-trading-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/scopes/aladdin-studio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aladdin-studio/scopes/aladdin-studio-scopes.yml
 summary_line: 7 scopes · clientCredentials/authorizationCode
 tags:
 - Finance

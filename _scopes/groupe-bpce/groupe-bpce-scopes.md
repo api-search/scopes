@@ -5,43 +5,43 @@ api_specs:
   label: Groupe BPCE AISP API
   slug: groupe-bpce-aisp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-aisp-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-aisp-api-openapi.yml
 - filename: groupe-bpce-cbpii-api-openapi.yml
   format: yaml
   label: Groupe BPCE CBPII API
   slug: groupe-bpce-cbpii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-cbpii-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-cbpii-api-openapi.yml
 - filename: groupe-bpce-external-accounts-api-openapi.yml
   format: yaml
   label: Groupe BPCE External Accounts API
   slug: groupe-bpce-external-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-external-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-external-accounts-api-openapi.yml
 - filename: groupe-bpce-internal-accounts-api-openapi.yml
   format: yaml
   label: Groupe BPCE Internal Accounts API
   slug: groupe-bpce-internal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-internal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-internal-accounts-api-openapi.yml
 - filename: groupe-bpce-pisp-api-openapi.yml
   format: yaml
   label: Groupe BPCE PISP API
   slug: groupe-bpce-pisp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-pisp-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-pisp-api-openapi.yml
 - filename: groupe-bpce-registration-api-openapi.yml
   format: yaml
   label: Groupe BPCE Registration API
   slug: groupe-bpce-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-registration-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-registration-api-openapi.yml
 - filename: groupe-bpce-transfers-api-openapi.yml
   format: yaml
   label: Groupe BPCE Transfers API
   slug: groupe-bpce-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/openapi/groupe-bpce-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/groupe-bpce/openapi/groupe-bpce-transfers-api-openapi.yml
 authorization_urls:
 - /stet/psd2/oauth/authorize
 - /api/oauth/authorize
@@ -256,7 +256,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: searched\nsource: openapi/groupe-
   \ clientCredentials\n  sources:\n  - openapi/groupe-bpce-psd2-funds-availability-openapi.yml\n- scope: extended_transaction_history\n  description: Access by an AISP to a transaction history over more than the 90 last days\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/groupe-bpce-natixis-psd2-accounts-openapi.yml\n  - openapi/groupe-bpce-natixis-wealth-management-psd2-accounts-openapi.yml\n  - openapi/groupe-bpce-psd2-accounts-openapi.yml\n- scope: moneyTransfer.externalAccounts:READ\n  description: Scope for read External accounts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/groupe-bpce-open-finance-transfer-openapi.yml\n- scope: moneyTransfer.externalAccounts:WRITE\n  description: Scope for write External accounts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/groupe-bpce-open-finance-transfer-openapi.yml\n- scope: moneyTransfer.internalAccounts:READ\n  description: Scope for read Internal accounts\n  flows:\n  - authorizationCode\n  sources:\n  -\
   \ openapi/groupe-bpce-open-finance-transfer-openapi.yml\n- scope: moneyTransfer.transferRequests.confirmations:WRITE\n  description: Scope for transfer requests confirmations.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/groupe-bpce-open-finance-transfer-openapi.yml\n- scope: moneyTransfer.transferRequests:DELETE\n  description: Scope to delete transfer requests.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/groupe-bpce-open-finance-transfer-openapi.yml\n- scope: moneyTransfer.transferRequests:READ\n  description: Minimal scope for consultation of transfer requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/groupe-bpce-open-finance-transfer-openapi.yml\n- scope: moneyTransfer.transferRequests:WRITE\n  description: Scope to create or modify transfer requests\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/groupe-bpce-open-finance-transfer-openapi.yml\n- scope: pisp\n  description: Access by a PISP for posting a confirmation after authentication\
   \ of the PSU through OAUTH2 Authorization\n    Code\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/groupe-bpce-psd2-payments-openapi.yml\n- name: manageRegistration\n  description: Client-credentials scope for the PSD2 Registration API token (POST /token with generic client_id\n    \"PSD2_TPPRegister\", mutual TLS with QWAC). Not declared in the registration spec.\n  source: https://apistore.groupebpce.com/api/psd2-registration\ndocs: https://apistore.groupebpce.com/api/psd2-registration\nnotes: 'Registration payload field \"scope\": \"TPP scopes are comma separated, and possible values are : “aisp” and/or\n  “pisp” and/or “cbpii”\". AIS docs: Authorization Code /token requests \"shall be sent WITHOUT the « scope » parameter\";\n  client_credentials uses scope=aisp.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groupe-bpce/refs/heads/main/scopes/groupe-bpce-scopes.yml
+source_yaml_url: https://artifacts.apis.io/groupe-bpce/scopes/groupe-bpce-scopes.yml
 summary_line: 12 scopes · authorizationCode/clientCredentials
 tags:
 - Company

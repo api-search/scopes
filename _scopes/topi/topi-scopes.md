@@ -5,31 +5,31 @@ api_specs:
   label: Topi Catalog API
   slug: topi-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-catalog-api-openapi.yml
 - filename: topi-offer-api-openapi.yml
   format: yaml
   label: Topi Offer API
   slug: topi-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-offer-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-offer-api-openapi.yml
 - filename: topi-order-api-openapi.yml
   format: yaml
   label: Topi Order API
   slug: topi-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-order-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-order-api-openapi.yml
 - filename: topi-shipment-api-openapi.yml
   format: yaml
   label: Topi Shipment API
   slug: topi-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-shipment-api-openapi.yml
 - filename: topi-shipping-method-api-openapi.yml
   format: yaml
   label: Topi Shipping Method API
   slug: topi-shipping-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/openapi/topi-shipping-method-api-openapi.yml
+  url: https://artifacts.apis.io/topi/openapi/topi-shipping-method-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.topi.eu/docs/integration-guide/syncing-your-catalog
@@ -132,7 +132,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/topi-seller-api-openapi-original.yaml\ndocs: https://developer.topi.eu/docs/integration-guide/syncing-your-catalog\nschemes:\n- name: OAuth2Seller_header_Authorization\n  source: openapi/topi-seller-api-openapi-original.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://identity.topi.eu/oauth2/token\n  description: Read our [Integration Guide](https://developer.topi.eu/docs/get-started/introduction)\n    for detailed instructions on how to authenticate.\nscopes:\n- scope: seller-branding:read\n  description: read seller branding config\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n- scope: seller-catalog:edit\n  description: add product to catalog\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n- scope: seller-catalog:read\n  description: view and search catalog\n  flows:\n  - clientCredentials\n  sources:\n\
   \  - openapi/topi-seller-api-openapi-original.yaml\n- scope: seller-metrics:read\n  description: read metrics urls\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n- scope: seller-offer:edit\n  description: edit offer details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n- scope: seller-offer:read\n  description: read offer details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n- scope: seller-order:edit\n  description: edit order details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n- scope: seller-order:read\n  description: read order details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n- scope: seller-scenario-simulations:run\n  description: run scenario simulations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n\
   - scope: seller-shipment:edit\n  description: edit shipment details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n- scope: seller-shipping-method:edit\n  description: edit seller shipping method details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n- scope: seller-shipping-method:read\n  description: read seller shipping method details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n- scope: user-info:read\n  description: read user info\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/topi-seller-api-openapi-original.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/scopes/topi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/topi/scopes/topi-scopes.yml
 summary_line: 13 scopes · clientCredentials
 tags:
 - Company

@@ -5,43 +5,43 @@ api_specs:
   label: Beyond Bank Australia Banking Account Balances API
   slug: beyond-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-balances-api-openapi.yml
 - filename: beyond-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Account Direct Debits API
   slug: beyond-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-direct-debits-api-openapi.yml
 - filename: beyond-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Account Scheduled Payments API
   slug: beyond-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: beyond-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Account Transactions API
   slug: beyond-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-account-transactions-api-openapi.yml
 - filename: beyond-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Accounts API
   slug: beyond-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-accounts-api-openapi.yml
 - filename: beyond-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Payees API
   slug: beyond-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-payees-api-openapi.yml
 - filename: beyond-bank-banking-products-api-openapi.yml
   format: yaml
   label: Beyond Bank Australia Banking Products API
   slug: beyond-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/openapi/beyond-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-bank/openapi/beyond-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/beyond-b
   \ request\n  (with the mandatory `openid` and `profile` OIDC scopes and the CDR `cdr:registration`\n  where applicable); the token, authorization, and PAR endpoints live on Beyond Bank's CDR\n  identity server (advertised via the CDR Register and the holder's OIDC discovery document),\n  not on the public PRD host, so their URLs are not asserted here.\nschemes:\n  - name: cdr-oauth2-fapi\n    type: oauth2\n    profile: FAPI 1.0 Advanced (CDR security profile)\n    flows:\n      - flow: authorizationCode\n        note: >-\n          OIDC hybrid/authorization-code with PAR (Pushed Authorization Requests),\n          request object signing, and mTLS-bound tokens per the CDR FAPI profile.\n    source: openapi/beyond-bank-cds-banking-products-openapi.yml (x-scopes)\nscopes:\n  - scope: bank:accounts.basic:read\n    description: >-\n      Read account identifiers and balances — the account list and balance endpoints.\n      Grants basic account data without masked account numbers or product\
   \ detail.\n    operations: [listBankingAccounts, listBankingBalancesBulk, listBankingBalancesSpecificAccounts, getBankingBalance]\n  - scope: bank:accounts.detail:read\n    description: >-\n      Read detailed account information including masked account numbers, account terms,\n      features, addresses, and product-category detail.\n    operations: [getBankingAccountDetail]\n  - scope: bank:transactions:read\n    description: Read account transactions and transaction detail (with date/amount/text filters).\n    operations: [listBankingTransactions, getBankingTransactionDetail]\n  - scope: bank:regular_payments:read\n    description: >-\n      Read direct debits, scheduled payments, and instalment plans authorised against the\n      consumer's accounts.\n    operations: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts, listInstalmentPlans, listInstalmentPlansBulk]\n  - scope:\
   \ bank:payees:read\n    description: Read the consumer's saved payees (domestic, international, and BPAY payee types).\n    operations: [listBankingPayees, getBankingPayeeDetail]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-bank/refs/heads/main/scopes/beyond-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/beyond-bank/scopes/beyond-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Finance

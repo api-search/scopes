@@ -30,14 +30,14 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pcloud/refs/heads/main/scopes/pcloud-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pcloud/scopes/pcloud-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Company
 - Cloud Storage
-- File Management
-- Security
+- File Sync
 - Backup
+- Security
+- Collaboration
 token_bound: false
 token_urls: []
 ---

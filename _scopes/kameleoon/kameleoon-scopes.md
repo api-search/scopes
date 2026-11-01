@@ -5,19 +5,19 @@ api_specs:
   label: Kameleoon Experiments API
   slug: kameleoon-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-experiments-api-openapi.yml
 - filename: kameleoon-personalizations-api-openapi.yml
   format: yaml
   label: Kameleoon Personalizations API
   slug: kameleoon-personalizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-personalizations-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-personalizations-api-openapi.yml
 - filename: kameleoon-oauth-api-openapi.yml
   format: yaml
   label: Kameleoon O Auth API
   slug: kameleoon-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-oauth-api-openapi.yml
 authorization_urls:
 - https://api.kameleoon.com/oauth/authorize
 description: ''
@@ -74,7 +74,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/kameleoon-experiments-api-openapi.yml, openapi/kameleoon-oauth-api-openapi.yml,\n  openapi/kameleoon-personalizations-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/kameleoon-experiments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.kameleoon.com/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.kameleoon.com/oauth/authorize\n    tokenUrl: https://api.kameleoon.com/oauth/token\n- name: oauth2\n  source: openapi/kameleoon-oauth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.kameleoon.com/oauth/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.kameleoon.com/oauth/authorize\n    tokenUrl: https://api.kameleoon.com/oauth/token\n- name: oauth2\n  source: openapi/kameleoon-personalizations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.kameleoon.com/oauth/token\n\
   \  - flow: authorizationCode\n    authorizationUrl: https://api.kameleoon.com/oauth/authorize\n    tokenUrl: https://api.kameleoon.com/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/scopes/kameleoon-scopes.yml
+source_yaml_url: https://artifacts.apis.io/kameleoon/scopes/kameleoon-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Experimentation

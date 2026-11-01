@@ -5,7 +5,7 @@ api_specs:
   label: Plesk API
   slug: plesk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plesk/refs/heads/main/openapi/_ae-authored/plesk-openapi-generated.yml
+  url: https://artifacts.apis.io/plesk/openapi/_ae-authored/plesk-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -37,14 +37,15 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plesk/refs/heads/main/scopes/plesk-scopes.yml
+source_yaml_url: https://artifacts.apis.io/plesk/scopes/plesk-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- WebHosting
-- ServerManagement
-- ControlPanel
-- Cloud
+- Web Hosting
+- Server Management
+- Control Panel
+- Automation
+- WordPress
 token_bound: false
 token_urls: []
 ---

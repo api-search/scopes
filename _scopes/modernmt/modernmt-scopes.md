@@ -5,7 +5,7 @@ api_specs:
   label: ModernMT API
   slug: modernmt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modernmt/refs/heads/main/openapi/_ae-authored/modernmt-openapi-generated.yml
+  url: https://artifacts.apis.io/modernmt/openapi/_ae-authored/modernmt-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -37,14 +37,14 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modernmt/refs/heads/main/scopes/modernmt-scopes.yml
+source_yaml_url: https://artifacts.apis.io/modernmt/scopes/modernmt-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Translation
 - AI
-- Localization
+- Translation
 - API
+- Multilingual
 token_bound: false
 token_urls: []
 ---

@@ -5,103 +5,103 @@ api_specs:
   label: Unit Accounts API
   slug: unit-co-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-accounts-api-openapi.yml
 - filename: unit-co-api-tokens-api-openapi.yml
   format: yaml
   label: Unit API Tokens API
   slug: unit-co-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-api-tokens-api-openapi.yml
 - filename: unit-co-applications-api-openapi.yml
   format: yaml
   label: Unit Applications API
   slug: unit-co-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-applications-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-applications-api-openapi.yml
 - filename: unit-co-authorizations-api-openapi.yml
   format: yaml
   label: Unit Authorizations API
   slug: unit-co-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-authorizations-api-openapi.yml
 - filename: unit-co-cards-api-openapi.yml
   format: yaml
   label: Unit Cards API
   slug: unit-co-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-cards-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-cards-api-openapi.yml
 - filename: unit-co-checks-api-openapi.yml
   format: yaml
   label: Unit Checks API
   slug: unit-co-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-checks-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-checks-api-openapi.yml
 - filename: unit-co-counterparties-api-openapi.yml
   format: yaml
   label: Unit Counterparties API
   slug: unit-co-counterparties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-counterparties-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-counterparties-api-openapi.yml
 - filename: unit-co-credit-and-repayments-api-openapi.yml
   format: yaml
   label: Unit Credit and Repayments API
   slug: unit-co-credit-and-repayments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-credit-and-repayments-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-credit-and-repayments-api-openapi.yml
 - filename: unit-co-customers-api-openapi.yml
   format: yaml
   label: Unit Customers API
   slug: unit-co-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-customers-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-customers-api-openapi.yml
 - filename: unit-co-events-api-openapi.yml
   format: yaml
   label: Unit Events API
   slug: unit-co-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-events-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-events-api-openapi.yml
 - filename: unit-co-fees-and-rewards-api-openapi.yml
   format: yaml
   label: Unit Fees and Rewards API
   slug: unit-co-fees-and-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-fees-and-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-fees-and-rewards-api-openapi.yml
 - filename: unit-co-payments-api-openapi.yml
   format: yaml
   label: Unit Payments API
   slug: unit-co-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-payments-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-payments-api-openapi.yml
 - filename: unit-co-risk-and-fraud-api-openapi.yml
   format: yaml
   label: Unit Risk and Fraud API
   slug: unit-co-risk-and-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-risk-and-fraud-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-risk-and-fraud-api-openapi.yml
 - filename: unit-co-statements-api-openapi.yml
   format: yaml
   label: Unit Statements API
   slug: unit-co-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-statements-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-statements-api-openapi.yml
 - filename: unit-co-tax-forms-api-openapi.yml
   format: yaml
   label: Unit Tax Forms API
   slug: unit-co-tax-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-tax-forms-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-tax-forms-api-openapi.yml
 - filename: unit-co-transactions-api-openapi.yml
   format: yaml
   label: Unit Transactions API
   slug: unit-co-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-transactions-api-openapi.yml
 - filename: unit-co-webhooks-api-openapi.yml
   format: yaml
   label: Unit Webhooks API
   slug: unit-co-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/openapi/unit-co-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/unit-co/openapi/unit-co-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.unit.co/docs/api/using-the-api#scopes
@@ -316,7 +316,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://www.uni
   \ access: write, resource: Payments, accessible_using: [org, customer], sensitive: funds}\n  - {scope: payments-write-counterparty, access: write, resource: Payments to a counterparty, accessible_using: [org, customer], sensitive: funds}\n  - {scope: payments-write-linked-account, access: write, resource: Payments to a linked account, accessible_using: [org, customer], sensitive: funds}\n  - {scope: payments-write-ach-debit, access: write, resource: Payments ACH Debit, accessible_using: [org, customer], sensitive: funds}\n  - {scope: ach-payments-write, access: write, resource: Payments ACH, accessible_using: [org, customer], sensitive: funds}\n  - {scope: wire-payments-write, access: write, resource: Payments Wire, accessible_using: [org, customer], sensitive: funds}\n  - {scope: counterparties, access: read, resource: Counterparties, accessible_using: [org, customer]}\n  - {scope: counterparties-write, access: write, resource: Counterparties, accessible_using: [org, customer]}\n  - {scope:\
   \ events, access: read, resource: Events, accessible_using: [org, customer]}\n  - {scope: events-write, access: write, resource: Events, accessible_using: [org, customer]}\n  - {scope: webhooks, access: read, resource: Webhooks, accessible_using: [org]}\n  - {scope: webhooks-write, access: write, resource: Webhooks, accessible_using: [org]}\n  - {scope: authorization-requests, access: read, resource: Authorization Requests, accessible_using: [org]}\n  - {scope: authorization-requests-write, access: write, resource: Authorization Requests, accessible_using: [org]}\n  - {scope: batch-releases, access: read, resource: Batch Releases, accessible_using: [org]}\n  - {scope: batch-releases-write, access: write, resource: Batch Releases, accessible_using: [org]}\n  - {scope: check-deposits, access: read, resource: Check Deposits, accessible_using: [org, customer]}\n  - {scope: check-deposits-write, access: write, resource: Check Deposits, accessible_using: [org, customer]}\n  - {scope: check-payments,\
   \ access: read, resource: Check Payments, accessible_using: [org, customer]}\n  - {scope: check-payments-write, access: write, resource: Check Payments, accessible_using: [org, customer]}\n  - {scope: received-payments, access: read, resource: Received Payment, accessible_using: [org]}\n  - {scope: received-payments-write, access: write, resource: Received Payment, accessible_using: [org]}\n  - {scope: chargebacks, access: read, resource: Chargeback, accessible_using: [org]}\n  - {scope: chargebacks-write, access: write, resource: Chargeback, accessible_using: [org]}\n  - {scope: rewards, access: read, resource: Reward, accessible_using: [org]}\n  - {scope: rewards-write, access: write, resource: Reward, accessible_using: [org]}\n  - {scope: wire-drawdowns, access: read, resource: Wire Drawdowns, accessible_using: [org, customer]}\n  - {scope: wire-drawdowns-write, access: write, resource: Wire Drawdowns, accessible_using: [org, customer]}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/scopes/unit-co-scopes.yml
+source_yaml_url: https://artifacts.apis.io/unit-co/scopes/unit-co-scopes.yml
 summary_line: 46 scopes
 tags:
 - Fintech

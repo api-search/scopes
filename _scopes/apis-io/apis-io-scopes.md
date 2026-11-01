@@ -107,25 +107,25 @@ api_specs:
   label: APIs.io Provider Control API
   slug: apis-io-provider-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-provider-control-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-provider-control-api-openapi.yml
 - filename: apis-io-watches-api-openapi.yml
   format: yaml
   label: APIs.io Watches API
   slug: apis-io-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-watches-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-watches-api-openapi.yml
 - filename: apis-io-apis-api-openapi.yml
   format: yaml
   label: APIs.io APIs API
   slug: apis-io-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-apis-api-openapi.yml
 - filename: apis-io-prices-api-openapi.yml
   format: yaml
   label: APIs.io Prices API
   slug: apis-io-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/openapi/apis-io-prices-api-openapi.yml
+  url: https://artifacts.apis.io/apis-io/openapi/apis-io-prices-api-openapi.yml
 authorization_urls:
 - https://apis.io/api/v1/auth/authorize
 description: ''
@@ -179,7 +179,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-11'\nmethod: derived\nsource: openapi/apis-io-v1-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/apis-io-v1-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://apis.io/api/v1/auth/authorize\n    tokenUrl: https://apis.io/api/v1/auth/token\n  description: The machine path to the same tiers, and the better of the two options for an\n    agent. APIs.io runs its own OAuth 2.1 authorization server -- RFC 8414 metadata at /.well-known/oauth-authorization-server,\n    a JWKS at /.well-known/jwks.json, PKCE (S256 only), RFC 7591 dynamic client registration,\n    and RFC 8707 resource indicators -- so a client can earn access through a protocol handshake\n    instead of a human pasting a key. An access token resolves to the same tier and the same\n    per-user quota as that user's API key. Declared here as of 2026-08-30; the server has been\n    live since before that, and an agent reading this contract to decide how to authenticate\n\
   \    could not previously discover it.\nscopes:\n- scope: apis:pro\n  description: The tier-gated resources -- ratings, insights, demand depth, the Saved Workspace.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/apis-io-v1-openapi.yml\n- scope: apis:read\n  description: Read the catalog. Granted to every caller.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/apis-io-v1-openapi.yml\n- scope: offline_access\n  description: Issue a refresh token. Authorization-server scope only; no resource asks for\n    it.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/apis-io-v1-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/scopes/apis-io-scopes.yml
+source_yaml_url: https://artifacts.apis.io/apis-io/scopes/apis-io-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - API Aggregation

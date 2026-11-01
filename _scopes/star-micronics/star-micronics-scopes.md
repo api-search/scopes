@@ -30,15 +30,15 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/star-micronics/refs/heads/main/scopes/star-micronics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/star-micronics/scopes/star-micronics-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - POS
-- Printers
-- CloudPrinting
 - Hardware
-- DeveloperResources
+- Printing
+- Cloud
+- Technology
 token_bound: false
 token_urls: []
 ---

@@ -30,14 +30,10 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frank-energie/refs/heads/main/scopes/frank-energie-scopes.yml
+source_yaml_url: https://artifacts.apis.io/frank-energie/scopes/frank-energie-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Energy
-- Netherlands
-- Utilities
-- SmartEnergy
-- DynamicPricing
+- Company
 token_bound: false
 token_urls: []
 ---

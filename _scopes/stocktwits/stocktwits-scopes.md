@@ -5,55 +5,55 @@ api_specs:
   label: StockTwits Account API
   slug: stocktwits-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-account-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-account-api-openapi.yml
 - filename: stocktwits-deletions-api-openapi.yml
   format: yaml
   label: StockTwits Deletions API
   slug: stocktwits-deletions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-deletions-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-deletions-api-openapi.yml
 - filename: stocktwits-friendships-api-openapi.yml
   format: yaml
   label: StockTwits Friendships API
   slug: stocktwits-friendships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-friendships-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-friendships-api-openapi.yml
 - filename: stocktwits-graph-social-api-openapi.yml
   format: yaml
   label: StockTwits Graph (Social) API
   slug: stocktwits-graph-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-graph-social-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-graph-social-api-openapi.yml
 - filename: stocktwits-messages-api-openapi.yml
   format: yaml
   label: StockTwits Messages API
   slug: stocktwits-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-messages-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-messages-api-openapi.yml
 - filename: stocktwits-search-api-openapi.yml
   format: yaml
   label: StockTwits Search API
   slug: stocktwits-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-search-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-search-api-openapi.yml
 - filename: stocktwits-streams-api-openapi.yml
   format: yaml
   label: StockTwits Streams API
   slug: stocktwits-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-streams-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-streams-api-openapi.yml
 - filename: stocktwits-trending-api-openapi.yml
   format: yaml
   label: StockTwits Trending API
   slug: stocktwits-trending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-trending-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-trending-api-openapi.yml
 - filename: stocktwits-watchlists-api-openapi.yml
   format: yaml
   label: StockTwits Watchlists API
   slug: stocktwits-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/openapi/stocktwits-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/stocktwits/openapi/stocktwits-watchlists-api-openapi.yml
 authorization_urls:
 - https://api.stocktwits.com/api/2/oauth/authorize
 description: ''
@@ -121,7 +121,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/stocktwits-openapi-original.json\ndocs: https://api.stocktwits.com/developers/docs\nnotes: 'StockTwits OAuth 2.0 authorization-code scopes. `read` covers public data;\n  publish_messages / publish_watch_lists / follow_users / follow_stocks gate the write\n  operations. `watchlists` appears as an operation-level security requirement in the\n  spec. Some endpoints work unauthenticated with an app-level access_token query param.'\nschemes:\n- name: oauth2\n  source: openapi/stocktwits-openapi-original.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.stocktwits.com/api/2/oauth/authorize\n    tokenUrl: https://api.stocktwits.com/api/2/oauth/token\n  description: StockTwits uses OAuth 2.0 for authentication. Some endpoints are available without\n    authentication using just an access_token query parameter.\nscopes:\n- scope: follow_stocks\n  description: Follow and unfollow stocks\n  flows:\n\
   \  - authorizationCode\n  sources:\n  - openapi/stocktwits-openapi-original.json\n- scope: follow_users\n  description: Follow and unfollow users\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/stocktwits-openapi-original.json\n- scope: publish_messages\n  description: Create and interact with messages\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/stocktwits-openapi-original.json\n- scope: publish_watch_lists\n  description: Create and manage watchlists\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/stocktwits-openapi-original.json\n- scope: read\n  description: Read access to public data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/stocktwits-openapi-original.json\n- scope: watchlists\n  sources:\n  - openapi/stocktwits-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/scopes/stocktwits-scopes.yml
+source_yaml_url: https://artifacts.apis.io/stocktwits/scopes/stocktwits-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Company

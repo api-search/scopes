@@ -57,7 +57,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://hillhousehome.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/hill-house-openid-configuration.json\n  issuer: https://shopify.com/authentication/9321794\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.hillhousehome.com/authentication/oauth/authorize\n    tokenUrl: https://account.hillhousehome.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the customer.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the authenticated customer's email address.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in customer (orders, profile, addresses).\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n\
   \  description: Full access to the customer-scoped Customer Account MCP API for the signed-in customer.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hill-house/refs/heads/main/scopes/hill-house-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hill-house/scopes/hill-house-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

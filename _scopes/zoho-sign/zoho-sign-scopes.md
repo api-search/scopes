@@ -5,25 +5,25 @@ api_specs:
   label: Zoho Sign Accounts API
   slug: zoho-sign-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/openapi/zoho-sign-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-sign/openapi/zoho-sign-accounts-api-openapi.yml
 - filename: zoho-sign-requests-api-openapi.yml
   format: yaml
   label: Zoho Sign Requests API
   slug: zoho-sign-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/openapi/zoho-sign-requests-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-sign/openapi/zoho-sign-requests-api-openapi.yml
 - filename: zoho-sign-templates-api-openapi.yml
   format: yaml
   label: Zoho Sign Templates API
   slug: zoho-sign-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/openapi/zoho-sign-templates-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-sign/openapi/zoho-sign-templates-api-openapi.yml
 - filename: zoho-sign-users-api-openapi.yml
   format: yaml
   label: Zoho Sign Users API
   slug: zoho-sign-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/openapi/zoho-sign-users-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-sign/openapi/zoho-sign-users-api-openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''
@@ -75,7 +75,7 @@ source_filename: zoho-sign-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.json\nschemes:\n- name: oauth2\n  source: openapi/openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\nscopes:\n- scope: ZohoSign.account.ALL\n  description: Account operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoSign.documents.ALL\n  description: All document operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n- scope: ZohoSign.templates.ALL\n  description: All template operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/scopes/zoho-sign-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zoho-sign/scopes/zoho-sign-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - E-Signature

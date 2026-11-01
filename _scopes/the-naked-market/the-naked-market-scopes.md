@@ -40,7 +40,7 @@ source_filename: the-naked-market-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://thenakedmarket.com/.well-known/openid-configuration (scopes_supported, live fetch)\nname: The Naked Market OAuth scopes\ndocs: https://shopify.dev/docs/api/customer\nnotes: >-\n  Scopes are published in the store's OIDC discovery document, served by Shopify Customer\n  Accounts for this storefront. They gate the Shopify Customer Account API and its MCP surface\n  for authenticated customers of this store.\nscopes:\n- scope: openid\n  description: OpenID Connect authentication (ID token issuance).\n- scope: email\n  description: Access to the customer's email address and verification status claims.\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the customer.\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API on behalf of the customer.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-naked-market/refs/heads/main/scopes/the-naked-market-scopes.yml
+source_yaml_url: https://artifacts.apis.io/the-naked-market/scopes/the-naked-market-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

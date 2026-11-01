@@ -30,15 +30,14 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hermes-germany/refs/heads/main/scopes/hermes-germany-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hermes-germany/scopes/hermes-germany-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Company
 - Logistics
-- Parcel Delivery
-- Germany
-- E-commerce
 - Shipping
+- Parcel
+- E‑commerce
+- Germany
 token_bound: false
 token_urls: []
 ---

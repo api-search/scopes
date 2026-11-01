@@ -44,7 +44,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://www.starfishspace.com/.well-known/oauth-authorization-server\ndocs: https://www.starfishspace.com/.well-known/oauth-protected-resource\nnote: >-\n  Scopes come from the provider's own RFC 8414 authorization-server metadata and RFC 9728\n  protected-resource metadata, not from an OpenAPI. The WordPress REST API itself declares no oauth2\n  security scheme; OAuth here guards the MCP server only.\nschemes:\n- name: mcp-oauth-server\n  source: https://www.starfishspace.com/.well-known/oauth-authorization-server\n  protected_resource: https://www.starfishspace.com/wp-json/mcp/mcp-oauth-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.starfishspace.com/oauth/authorize\n    tokenUrl: https://www.starfishspace.com/oauth/token\n    revocationUrl: https://www.starfishspace.com/oauth/revoke\n    pkce: S256\nscopes:\n- scope: mcp\n  description: >-\n    The single scope advertised by the Starfish\
   \ Space authorization server; grants access to the\n    MCP protected resource at /wp-json/mcp/mcp-oauth-server. The provider publishes no further\n    scope breakdown.\n  flows: [authorizationCode]\n  sources:\n  - https://www.starfishspace.com/.well-known/oauth-authorization-server\n  - https://www.starfishspace.com/.well-known/oauth-protected-resource\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/scopes/starfish-space-scopes.yml
+source_yaml_url: https://artifacts.apis.io/starfish-space/scopes/starfish-space-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

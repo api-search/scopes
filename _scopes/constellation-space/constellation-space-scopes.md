@@ -5,19 +5,19 @@ api_specs:
   label: Constellation Space Predictions API
   slug: constellation-space-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/constellation-space/openapi/constellation-space-predictions-api-openapi.yml
 - filename: constellation-space-telemetry-api-openapi.yml
   format: yaml
   label: Constellation Space Telemetry API
   slug: constellation-space-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/constellation-space/openapi/constellation-space-telemetry-api-openapi.yml
 - filename: constellation-space-topology-api-openapi.yml
   format: yaml
   label: Constellation Space Topology API
   slug: constellation-space-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-topology-api-openapi.yml
+  url: https://artifacts.apis.io/constellation-space/openapi/constellation-space-topology-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.constellation.space/connect/api-tokens
@@ -59,7 +59,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.constellation.space/connect/api-tokens\ndocs: https://docs.constellation.space/connect/api-tokens\nnote: >-\n  ConstellationOS uses scoped static bearer tokens (not an OAuth2 authorization\n  flow). Scopes are selected when a token is created in the console and gate the\n  API operations below.\nschemes:\n- name: bearerAuth\n  type: token-scopes\n  source: openapi/constellation-space-openapi.yml\nscopes:\n- scope: topology:read\n  description: Read the fleet topology graph. Enables GET /api/v1/topology/.\n  operations:\n  - getTopology\n  sources:\n  - openapi/constellation-space-openapi.yml\n- scope: telemetry:write\n  description: Ingest telemetry metrics. Enables POST /api/v1/telemetry/ingest.\n  operations:\n  - ingestTelemetry\n  sources:\n  - openapi/constellation-space-openapi.yml\n- scope: predictions:run\n  description: Run ML predictions. Enables POST /api/v1/predictions/.\n  operations:\n  - runPredictions\n\
   \  sources:\n  - openapi/constellation-space-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/scopes/constellation-space-scopes.yml
+source_yaml_url: https://artifacts.apis.io/constellation-space/scopes/constellation-space-scopes.yml
 summary_line: 3 scopes
 tags:
 - Company

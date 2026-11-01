@@ -5,67 +5,67 @@ api_specs:
   label: Ping Identity Configuration Management API
   slug: ping-identity-configuration-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-configuration-management-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-configuration-management-api-openapi.yml
 - filename: ping-identity-davinci-admin-application-flow-policies-api-openapi.yml
   format: yaml
   label: Ping Identity DaVinci Admin Application Flow Policies API
   slug: ping-identity-davinci-admin-application-flow-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-davinci-admin-application-flow-policies-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-davinci-admin-application-flow-policies-api-openapi.yml
 - filename: ping-identity-davinci-admin-applications-api-openapi.yml
   format: yaml
   label: Ping Identity DaVinci Admin Applications API
   slug: ping-identity-davinci-admin-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-davinci-admin-applications-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-davinci-admin-applications-api-openapi.yml
 - filename: ping-identity-davinci-admin-connector-instances-api-openapi.yml
   format: yaml
   label: Ping Identity DaVinci Admin Connector Instances API
   slug: ping-identity-davinci-admin-connector-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-davinci-admin-connector-instances-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-davinci-admin-connector-instances-api-openapi.yml
 - filename: ping-identity-davinci-admin-connectors-api-openapi.yml
   format: yaml
   label: Ping Identity DaVinci Admin Connectors API
   slug: ping-identity-davinci-admin-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-davinci-admin-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-davinci-admin-connectors-api-openapi.yml
 - filename: ping-identity-davinci-admin-flow-versions-api-openapi.yml
   format: yaml
   label: Ping Identity DaVinci Admin Flow Versions API
   slug: ping-identity-davinci-admin-flow-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-davinci-admin-flow-versions-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-davinci-admin-flow-versions-api-openapi.yml
 - filename: ping-identity-davinci-admin-flows-api-openapi.yml
   format: yaml
   label: Ping Identity DaVinci Admin Flows API
   slug: ping-identity-davinci-admin-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-davinci-admin-flows-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-davinci-admin-flows-api-openapi.yml
 - filename: ping-identity-davinci-admin-variables-api-openapi.yml
   format: yaml
   label: Ping Identity DaVinci Admin Variables API
   slug: ping-identity-davinci-admin-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-davinci-admin-variables-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-davinci-admin-variables-api-openapi.yml
 - filename: ping-identity-environments-api-openapi.yml
   format: yaml
   label: Ping Identity Environments API
   slug: ping-identity-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-environments-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-environments-api-openapi.yml
 - filename: ping-identity-flow-policies-api-openapi.yml
   format: yaml
   label: Ping Identity Flow Policies API
   slug: ping-identity-flow-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-flow-policies-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-flow-policies-api-openapi.yml
 - filename: ping-identity-total-identities-api-openapi.yml
   format: yaml
   label: Ping Identity Total Identities API
   slug: ping-identity-total-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/openapi/ping-identity-total-identities-api-openapi.yml
+  url: https://artifacts.apis.io/ping-identity/openapi/ping-identity-total-identities-api-openapi.yml
 authorization_urls:
 - /as/authorize
 description: ''
@@ -216,7 +216,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/ping-id
   \ their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n- scope: p1:read:userLinkedAccounts\n  description: Users can read linked accounts for their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n- scope: p1:delete:userLinkedAccounts\n  description: Users can delete linked accounts for their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n- scope: p1:create:pairingKey\n  description: Users can create a pairing key for their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n\
   - scope: p1:read:pairingKey\n  description: Users can read a pairing key for their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n- scope: p1:delete:pairingKey\n  description: Users can delete a pairing key for their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n- scope: p1:read:sessions\n  description: Users can read sessions for their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n- scope: p1:delete:sessions\n  description: Users can delete sessions for their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n\
   - scope: p1:read:userConsent\n  description: Users can read consents for their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n- scope: p1:verify:user\n  description: Users can verify their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n- scope: p1:read:oauthConsent\n  description: Users can read oauth scope consents for their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n- scope: p1:update:oauthConsent\n  description: Users can update oauth scope consents for their own user identity.\n  sources:\n  - https://developer.pingidentity.com/pingone-api/foundations/pingone-roles-scopes-and-permissions/access-services-through-scopes-and-roles/pingone-self-management-scopes.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/scopes/ping-identity-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ping-identity/scopes/ping-identity-scopes.yml
 summary_line: 26 scopes · clientCredentials/authorizationCode
 tags:
 - Identity
@@ -225,6 +225,8 @@ tags:
 - SSO
 - MFA
 - Identity Federation
+- OpenID Connect
+- Identity and Access Management
 token_bound: false
 token_urls:
 - /as/token

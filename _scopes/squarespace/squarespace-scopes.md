@@ -5,67 +5,67 @@ api_specs:
   label: Squarespace Orders API
   slug: squarespace-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-orders-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-orders-api-openapi.yml
 - filename: squarespace-products-api-openapi.yml
   format: yaml
   label: Squarespace Products API
   slug: squarespace-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-products-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-products-api-openapi.yml
 - filename: squarespace-inventory-api-openapi.yml
   format: yaml
   label: Squarespace Inventory API
   slug: squarespace-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-inventory-api-openapi.yml
 - filename: squarespace-profiles-api-openapi.yml
   format: yaml
   label: Squarespace Profiles API
   slug: squarespace-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-profiles-api-openapi.yml
 - filename: squarespace-transactions-api-openapi.yml
   format: yaml
   label: Squarespace Transactions API
   slug: squarespace-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-transactions-api-openapi.yml
 - filename: squarespace-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Squarespace Webhook Subscriptions API
   slug: squarespace-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-webhook-subscriptions-api-openapi.yml
 - filename: squarespace-site-api-openapi.yml
   format: yaml
   label: Squarespace Site API
   slug: squarespace-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-site-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-site-api-openapi.yml
 - filename: squarespace-analytics-api-openapi.yml
   format: yaml
   label: Squarespace Analytics API
   slug: squarespace-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-analytics-api-openapi.yml
 - filename: squarespace-contacts-api-openapi.yml
   format: yaml
   label: Squarespace Contacts API
   slug: squarespace-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-contacts-api-openapi.yml
 - filename: squarespace-discounts-api-openapi.yml
   format: yaml
   label: Squarespace Discounts API
   slug: squarespace-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-discounts-api-openapi.yml
 - filename: squarespace-websites-api-openapi.yml
   format: yaml
   label: Squarespace Websites API
   slug: squarespace-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-websites-api-openapi.yml
+  url: https://artifacts.apis.io/squarespace/openapi/squarespace-websites-api-openapi.yml
 authorization_urls: []
 description: Squarespace authorizes third-party applications (Squarespace Extensions) with OAuth 2.0 authorization code grant. The scope parameter on the authorize endpoint takes a COMMA-separated list of permission values — not the space-separated list RFC 6749 describes — and the confirmation page always presents the merchant's website(s) for selection because every scope is rooted at `website.*`. The scope list below is transcribed verbatim from the provider's OAuth guide. Note that the published OpenAPI declares only a single `http bearer` security scheme and no `oauth2` scheme, so these scopes exist ONLY in prose documentation and cannot be derived from the machine-readable contract — `derive-oauth-scopes.py` finds zero.
 docs: https://developers.squarespace.com/oauth
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \    description: >-\n      View customer contact information and address book entries; create, update, and delete\n      contacts and address book entries.\n    access: write\n    api: Contacts\n  - name: website.contacts.read\n    description: View customer contact information and address book entries.\n    access: read\n    api: Contacts\n  - name: website.discounts\n    description: View and manage discounts.\n    access: write\n    api: Discounts\n  - name: website.discounts.read\n    description: View discounts.\n    access: read\n    api: Discounts\napi_key_permissions:\n  note: >-\n    API keys are a separate authorization path from OAuth and use permission LEVELS selected in the\n    Squarespace admin (Settings > Advanced > Developer API Keys), not scope strings. Permissions on\n    an issued key or token can never be modified — a new key must be generated, and OAuth clients\n    must have the merchant re-initiate the connection.\n  source: https://developers.squarespace.com/commerce-apis/authentication-and-permissions\n\
   \  apis:\n    - api: Forms\n      levels: [read]\n      note: For Zapier integration only.\n    - api: Inventory\n      levels: [read, read-write]\n    - api: Orders\n      levels: [read, read-write]\n    - api: Products\n      levels: [read, read-write]\n    - api: Contacts\n      levels: [read, read-write]\n      note: API key support added 2026-06-17; previously OAuth only.\n    - api: Discounts\n      levels: [read, read-write]\n    - api: Webhook Subscriptions\n      levels: [read-write]\n      note: OAuth only — no API key path.\n    - api: Profiles\n      levels: [read]\n      note: Maintenance mode; new integrations should use Contacts.\n    - api: Transactions\n      levels: [read]\ngaps:\n  - The published OpenAPI declares no oauth2 securityScheme, so scopes are not machine-readable.\n  - >-\n    No scope is documented for the Webhook Subscriptions API even though it is OAuth-only; the docs\n    describe the permission by name but do not publish a website.* scope string for it.\n\
   \  - No scope is published for the Analytics API surfaced in the OpenAPI (POST /v1/analytics/transaction-summaries).\nevidence:\n  - url: https://developers.squarespace.com/oauth\n    status: 200\n  - url: https://developers.squarespace.com/commerce-apis/authentication-and-permissions\n    status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/scopes/squarespace-scopes.yml
+source_yaml_url: https://artifacts.apis.io/squarespace/scopes/squarespace-scopes.yml
 summary_line: 11 scopes · authorization_code
 tags:
 - Commerce

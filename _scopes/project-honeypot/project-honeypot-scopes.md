@@ -30,15 +30,14 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/project-honeypot/refs/heads/main/scopes/project-honeypot-scopes.yml
+source_yaml_url: https://artifacts.apis.io/project-honeypot/scopes/project-honeypot-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Company
-- anti-spam
-- security
-- open-source
-- community
-- ip-blocklist
+- Anti‑Spam
+- Security
+- Community
+- Fraud Prevention
+- Open Data
 token_bound: false
 token_urls: []
 ---

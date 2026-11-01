@@ -5,97 +5,97 @@ api_specs:
   label: Crowd.dev Advisories API
   slug: crowddev-advisories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-advisories-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-advisories-api-openapi.yml
 - filename: crowddev-affiliations-api-openapi.yml
   format: yaml
   label: Crowd.dev Affiliations API
   slug: crowddev-affiliations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-affiliations-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-affiliations-api-openapi.yml
 - filename: crowddev-contacts-api-openapi.yml
   format: yaml
   label: Crowd.dev Contacts API
   slug: crowddev-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-contacts-api-openapi.yml
 - filename: crowddev-dashboard-api-openapi.yml
   format: yaml
   label: Crowd.dev Dashboard API
   slug: crowddev-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-dashboard-api-openapi.yml
 - filename: crowddev-maintainer-roles-api-openapi.yml
   format: yaml
   label: Crowd.dev Maintainer Roles API
   slug: crowddev-maintainer-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-maintainer-roles-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-maintainer-roles-api-openapi.yml
 - filename: crowddev-member-affiliations-api-api-openapi.yml
   format: yaml
   label: Crowd.dev Member Affiliations API
   slug: crowddev-member-affiliations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-affiliations-api-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-member-affiliations-api-api-openapi.yml
 - filename: crowddev-member-identities-api-openapi.yml
   format: yaml
   label: Crowd.dev Member Identities API
   slug: crowddev-member-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-identities-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-member-identities-api-openapi.yml
 - filename: crowddev-member-organizations-api-api-openapi.yml
   format: yaml
   label: Crowd.dev Member Organizations API
   slug: crowddev-member-organizations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-organizations-api-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-member-organizations-api-api-openapi.yml
 - filename: crowddev-members-api-openapi.yml
   format: yaml
   label: Crowd.dev Members API
   slug: crowddev-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-members-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-members-api-openapi.yml
 - filename: crowddev-organizations-api-openapi.yml
   format: yaml
   label: Crowd.dev Organizations API
   slug: crowddev-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-organizations-api-openapi.yml
 - filename: crowddev-packages-api-openapi.yml
   format: yaml
   label: Crowd.dev Packages API
   slug: crowddev-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-packages-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-packages-api-openapi.yml
 - filename: crowddev-project-affiliations-api-openapi.yml
   format: yaml
   label: Crowd.dev Project Affiliations API
   slug: crowddev-project-affiliations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-project-affiliations-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-project-affiliations-api-openapi.yml
 - filename: crowddev-stewardship-actions-api-openapi.yml
   format: yaml
   label: Crowd.dev Stewardship Actions API
   slug: crowddev-stewardship-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-stewardship-actions-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-stewardship-actions-api-openapi.yml
 - filename: crowddev-stewardship-api-openapi.yml
   format: yaml
   label: Crowd.dev Stewardship API
   slug: crowddev-stewardship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-stewardship-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-stewardship-api-openapi.yml
 - filename: crowddev-stewardships-api-openapi.yml
   format: yaml
   label: Crowd.dev Stewardships API
   slug: crowddev-stewardships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-stewardships-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-stewardships-api-openapi.yml
 - filename: crowddev-work-experiences-api-openapi.yml
   format: yaml
   label: Crowd.dev Work Experiences API
   slug: crowddev-work-experiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-work-experiences-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-work-experiences-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://github.com/linuxfoundation/crowd.dev/blob/main/docs/adr/0016-akrites-cdp-public-api-authentication.md
@@ -228,7 +228,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://github.
   - scope: read:organizations\n  description: Look up organizations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/crowddev-cdp-public-openapi.yml\n- scope: read:packages\n  description: Read package detail\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/crowddev-cdp-akrites-external-openapi.yml\n- scope: read:project-affiliations\n  description: Read project affiliations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/crowddev-cdp-public-openapi.yml\n- scope: read:stewardships\n  description: Read package stewardship data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/crowddev-cdp-akrites-external-openapi.yml\n- scope: read:work-experiences\n  description: Read work experiences\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/crowddev-cdp-public-openapi.yml\n- scope: write:member-identities\n  description: Create and verify member identities\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/crowddev-cdp-public-openapi.yml\n- scope:\
   \ write:members\n  description: Create member profiles\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/crowddev-cdp-public-openapi.yml\n- scope: write:organizations\n  description: Create organizations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/crowddev-cdp-public-openapi.yml\n- scope: write:project-affiliations\n  description: Override project affiliations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/crowddev-cdp-public-openapi.yml\n- scope: write:work-experiences\n  description: Create, update, verify, and delete work experiences\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/crowddev-cdp-public-openapi.yml\n- scope: write:stewardships\n  description: Open, assign, escalate and update OSSPREY Program admin stewardship actions\n  flows:\n  - clientCredentials\n  status: declared-not-enforced\n  sources:\n  - openapi/crowddev-cdp-stewardships-openapi.yml\n  note: >-\n    Declared as required on all four stewardship write operations, but\
   \ the spec's own V1 note says\n    the scope \"is not yet added to the Auth0 staging tenant - scope enforcement is temporarily\n    disabled. See CM-1235.\" Recorded as declared, not as enforced.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/scopes/crowddev-scopes.yml
+source_yaml_url: https://artifacts.apis.io/crowddev/scopes/crowddev-scopes.yml
 summary_line: 17 scopes · clientCredentials
 tags:
 - Company

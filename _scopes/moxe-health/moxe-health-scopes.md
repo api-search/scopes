@@ -5,13 +5,13 @@ api_specs:
   label: Moxe Health Claims API
   slug: moxe-health-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-claims-api-openapi.yml
+  url: https://artifacts.apis.io/moxe-health/openapi/moxe-health-claims-api-openapi.yml
 - filename: moxe-health-patient-api-openapi.yml
   format: yaml
   label: Moxe Health Patient API
   slug: moxe-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/moxe-health/openapi/moxe-health-patient-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -81,7 +81,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/moxe-health-chart-retrieval-initiate-openapi.json, openapi/moxe-health-chart-retrieval-status-openapi.json,\n  openapi/moxe-health-claim-management-initiate-openapi.json, openapi/moxe-health-claim-management-status-openapi.json\nschemes:\n- name: moxe_auth\n  source: openapi/moxe-health-chart-retrieval-initiate-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://${environment}-api.moxehealth.com/oauth/token\n- name: moxe_auth\n  source: openapi/moxe-health-chart-retrieval-status-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://${environment}-api.moxehealth.com/oauth/token\n- name: moxe_auth\n  source: openapi/moxe-health-claim-management-initiate-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://${environment}-api.moxehealth.com/oauth/token\n- name: moxe_auth\n  source: openapi/moxe-health-claim-management-status-openapi.json\n  flows:\n  - flow:\
   \ clientCredentials\n    tokenUrl: https://${environment}-api.moxehealth.com/oauth/token\nscopes:\n- scope: read:claim-management-request\n  sources:\n  - openapi/moxe-health-claim-management-status-openapi.json\n- scope: read:patient-chart-request\n  description: get information on existing transactions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/moxe-health-chart-retrieval-initiate-openapi.json\n  - openapi/moxe-health-chart-retrieval-status-openapi.json\n  - openapi/moxe-health-claim-management-initiate-openapi.json\n  - openapi/moxe-health-claim-management-status-openapi.json\n- scope: write:claim-management-request\n  sources:\n  - openapi/moxe-health-claim-management-initiate-openapi.json\n- scope: write:patient-chart-request\n  description: create patient chart transactions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/moxe-health-chart-retrieval-initiate-openapi.json\n  - openapi/moxe-health-chart-retrieval-status-openapi.json\n  - openapi/moxe-health-claim-management-initiate-openapi.json\n\
   \  - openapi/moxe-health-claim-management-status-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/scopes/moxe-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/moxe-health/scopes/moxe-health-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - Healthcare

@@ -57,7 +57,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.mudflapinc.com/.well-known/oauth-authorization-server\ndocs: https://api.mudflapinc.com/.well-known/oauth-authorization-server\nschemes:\n- name: OAuth2\n  source: https://api.mudflapinc.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.mudflapinc.com/oauth/authorize\n    tokenUrl: https://api.mudflapinc.com/oauth/token\n  - flow: password\n    tokenUrl: https://api.mudflapinc.com/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an id_token identifying the end user.\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - https://api.mudflapinc.com/.well-known/oauth-authorization-server\n- scope: profile\n  description: Access to the end user's basic profile claims (name, preferred_username).\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - https://api.mudflapinc.com/.well-known/oauth-authorization-server\n\
   - scope: email\n  description: Access to the end user's email address claim.\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - https://api.mudflapinc.com/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mudflap/refs/heads/main/scopes/mudflap-scopes.yml
+source_yaml_url: https://artifacts.apis.io/mudflap/scopes/mudflap-scopes.yml
 summary_line: 3 scopes · authorizationCode/password
 tags:
 - Company

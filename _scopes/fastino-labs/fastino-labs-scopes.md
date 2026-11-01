@@ -5,25 +5,25 @@ api_specs:
   label: Fastino Labs Anthropic Compat API
   slug: fastino-labs-anthropic-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-anthropic-compat-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-anthropic-compat-api-openapi.yml
 - filename: fastino-labs-inference-api-openapi.yml
   format: yaml
   label: Fastino Labs Inference API
   slug: fastino-labs-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-inference-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-inference-api-openapi.yml
 - filename: fastino-labs-inference-history-api-openapi.yml
   format: yaml
   label: Fastino Labs Inference History API
   slug: fastino-labs-inference-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-inference-history-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-inference-history-api-openapi.yml
 - filename: fastino-labs-openai-compat-api-openapi.yml
   format: yaml
   label: Fastino Labs Openai Compat API
   slug: fastino-labs-openai-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-openai-compat-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-openai-compat-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://api.pioneer.ai/.well-known/oauth-protected-resource
@@ -74,7 +74,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.pioneer.ai/.well-known/openid-configuration\ndocs: https://api.pioneer.ai/.well-known/oauth-protected-resource\nnote: >-\n  Pioneer delegates OAuth2/OIDC to a Supabase authorization server. The Pioneer\n  REST API is primarily accessed with an X-API-Key (pio_sk_) key; the OAuth path\n  exposes only the standard OIDC scopes below. The OpenAPI itself declares the\n  bearer token as http/bearer (JWT), not an oauth2 scheme, so no resource-level\n  scopes are published beyond these.\nschemes:\n- name: Supabase-OIDC\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://pwgztilbkupvjmomwbjr.supabase.co/auth/v1/authorize\n  tokenUrl: https://pwgztilbkupvjmomwbjr.supabase.co/auth/v1/token\n  pkce: [S256, plain]\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token.\n- scope: profile\n  description: Access basic profile claims.\n- scope: email\n  description: Access the\
   \ user's email claim.\n- scope: offline_access\n  description: Issue a refresh token for long-lived access.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/scopes/fastino-labs-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fastino-labs/scopes/fastino-labs-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

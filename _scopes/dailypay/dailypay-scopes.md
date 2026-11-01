@@ -5,49 +5,49 @@ api_specs:
   label: DailyPay Accounts API
   slug: dailypay-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-accounts-api-openapi.yml
 - filename: dailypay-card-tokenization-api-openapi.yml
   format: yaml
   label: DailyPay Card Tokenization API
   slug: dailypay-card-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-card-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-card-tokenization-api-openapi.yml
 - filename: dailypay-health-api-openapi.yml
   format: yaml
   label: DailyPay Health API
   slug: dailypay-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-health-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-health-api-openapi.yml
 - filename: dailypay-jobs-api-openapi.yml
   format: yaml
   label: DailyPay Jobs API
   slug: dailypay-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-jobs-api-openapi.yml
 - filename: dailypay-organizations-api-openapi.yml
   format: yaml
   label: DailyPay Organizations API
   slug: dailypay-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-organizations-api-openapi.yml
 - filename: dailypay-paychecks-api-openapi.yml
   format: yaml
   label: DailyPay Paychecks API
   slug: dailypay-paychecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-paychecks-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-paychecks-api-openapi.yml
 - filename: dailypay-people-api-openapi.yml
   format: yaml
   label: DailyPay People API
   slug: dailypay-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-people-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-people-api-openapi.yml
 - filename: dailypay-transfers-api-openapi.yml
   format: yaml
   label: DailyPay Transfers API
   slug: dailypay-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/openapi/dailypay-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/dailypay/openapi/dailypay-transfers-api-openapi.yml
 authorization_urls:
 - https://auth.dailypay.com/oauth2/auth
 description: ''
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: openapi/dailypa
   \  sources:\n  - openapi/dailypay-rest-openapi-original.yml\n- scope: client:lookup\n  description: Read access to resources necessary to find a person by known identifiers.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/dailypay-rest-openapi-original.yml\n- scope: health:read\n  description: >-\n    Read access to the API health endpoint (GET /rest/health). Declared on the operation's security\n    requirement; not enumerated in either scheme's flow scopes map.\n  sources:\n  - openapi/dailypay-rest-openapi-original.yml\n- scope: user:read\n  description: >-\n    Read access to all relevant objects for a non-application user, including accounts, jobs,\n    people, transfers, and paychecks.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/dailypay-rest-openapi-original.yml\n- scope: user:read_write\n  description: >-\n    Read and write access to all relevant objects for a non-application user, including accounts,\n    jobs, people, transfers, and paychecks. Required\
   \ for createTransfer, createAccount,\n    deleteAccount, updateJob and updatePerson.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/dailypay-rest-openapi-original.yml\noidc_scopes:\n  source: https://auth.dailypay.com/.well-known/openid-configuration\n  supported:\n  - scope: openid\n    description: Standard OIDC scope; requests an ID token.\n  - scope: offline_access\n    description: Requests a refresh token so the application can refresh the user access token.\n  - scope: offline\n    description: Legacy alias advertised alongside offline_access by the authorization server.\ngranularity:\n  note: >-\n    Scope granularity is coarse. There is no per-resource scope family — a single user:read_write\n    scope grants write access to accounts, jobs, people and transfers alike, which means a token\n    obtained to add a bank account also carries the authority to move money. This is reflected in\n    agentic-access/dailypay-agentic-access.yml, where createTransfer is classified\
   \ as\n    physical-consequence under the same scope as low-risk profile updates.\ncoverage:\n  api_scopes: 5\n  oidc_scopes: 3\n  schemes: 2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/scopes/dailypay-scopes.yml
+source_yaml_url: https://artifacts.apis.io/dailypay/scopes/dailypay-scopes.yml
 summary_line: 5 scopes · clientCredentials/authorizationCode
 tags:
 - Company

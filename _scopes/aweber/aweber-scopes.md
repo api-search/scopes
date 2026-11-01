@@ -5,79 +5,79 @@ api_specs:
   label: AWeber Accounts API
   slug: aweber-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-accounts-api-openapi.yml
 - filename: aweber-broadcasts-api-openapi.yml
   format: yaml
   label: AWeber Broadcasts API
   slug: aweber-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-broadcasts-api-openapi.yml
 - filename: aweber-campaigns-api-openapi.yml
   format: yaml
   label: AWeber Campaigns API
   slug: aweber-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-campaigns-api-openapi.yml
 - filename: aweber-custom-fields-api-openapi.yml
   format: yaml
   label: AWeber Custom Fields API
   slug: aweber-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-custom-fields-api-openapi.yml
 - filename: aweber-landing-pages-api-openapi.yml
   format: yaml
   label: AWeber Landing Pages API
   slug: aweber-landing-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-landing-pages-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-landing-pages-api-openapi.yml
 - filename: aweber-lists-api-openapi.yml
   format: yaml
   label: AWeber Lists API
   slug: aweber-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-lists-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-lists-api-openapi.yml
 - filename: aweber-segments-api-openapi.yml
   format: yaml
   label: AWeber Segments API
   slug: aweber-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-segments-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-segments-api-openapi.yml
 - filename: aweber-subscribers-api-openapi.yml
   format: yaml
   label: AWeber Subscribers API
   slug: aweber-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-subscribers-api-openapi.yml
 - filename: aweber-integrations-api-openapi.yml
   format: yaml
   label: AWeber Integrations API
   slug: aweber-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-integrations-api-openapi.yml
 - filename: aweber-beta-endpoints-api-openapi.yml
   format: yaml
   label: AWeber Beta Endpoints API
   slug: aweber-beta-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-beta-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-beta-endpoints-api-openapi.yml
 - filename: aweber-oauth-1-0a-reference-api-openapi.yml
   format: yaml
   label: AWeber OAuth 1.0a Reference API
   slug: aweber-oauth-1-0a-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-oauth-1-0a-reference-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-oauth-1-0a-reference-api-openapi.yml
 - filename: aweber-oauth-2-0-reference-api-openapi.yml
   format: yaml
   label: AWeber OAuth 2.0 Reference API
   slug: aweber-oauth-2-0-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-oauth-2-0-reference-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-oauth-2-0-reference-api-openapi.yml
 - filename: aweber-webforms-api-openapi.yml
   format: yaml
   label: AWeber Webforms API
   slug: aweber-webforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/openapi/aweber-webforms-api-openapi.yml
+  url: https://artifacts.apis.io/aweber/openapi/aweber-webforms-api-openapi.yml
 authorization_urls:
 - https://auth.aweber.com/oauth2/authorize
 description: ''
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ [authorizationCode]\n    required_for: [add custom field, update custom field, delete custom field]\n  - scope: subscriber.read\n    description: Retrieve subscribers and their activity.\n    flows: [authorizationCode]\n    required_for: [get subscribers, get subscriber, get subscriber activity,\n                   get subscribers for message, find subscribers for account,\n                   find subscribers for list]\n    note: Also required (with account.read) to authorize a webhooks-enabled integration.\n  - scope: subscriber.write\n    description: Create, edit, delete, retrieve, search for, and move subscribers.\n    flows: [authorizationCode]\n    required_for: [add subscriber, move subscriber, update subscriber, delete subscriber]\n  - scope: subscriber.read-extended\n    description: >-\n      Previously required to retrieve subscriber PII such as name, email and IP address. That\n      functionality moved to the subscriber.read scope.\n    flows: [authorizationCode]\n    status:\
   \ deprecated\n    superseded_by: subscriber.read\n    deprecated_since: '2021-06-16'\n    note: >-\n      Still accepted, but equivalent to subscriber.read. Tokens that already held it were\n      implicitly granted subscriber.read.\n  - scope: email.read\n    description: Retrieve email activity related to broadcasts and follow-ups.\n    flows: [authorizationCode]\n    required_for: [get messages, get message, get broadcasts, get broadcast, get message opens,\n                   get message open, get message tracked events, get message tracked event,\n                   get total broadcasts, get campaigns, get campaign, find campaigns,\n                   get broadcast statistics, get broadcast statistic]\n  - scope: email.write\n    description: Create and send email broadcasts.\n    flows: [authorizationCode]\n    required_for: [create broadcast, update broadcast, delete broadcast, cancel broadcast,\n                   schedule broadcast]\n    note: >-\n      The AWeber customer must\
   \ additionally grant the \"Manage All Email Communications\"\n      permission; without it these calls return 403 \"Application not authorized to manage email.\"\n  - scope: landing-page.read\n    description: Retrieve landing pages.\n    flows: [authorizationCode]\n    required_for: [get landing pages, get landing page]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/scopes/aweber-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aweber/scopes/aweber-scopes.yml
 summary_line: 9 scopes · authorizationCode
 tags:
 - Email Marketing

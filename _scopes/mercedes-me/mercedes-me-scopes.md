@@ -5,67 +5,67 @@ api_specs:
   label: Mercedes-Benz Mercedes me Components API
   slug: mercedes-me-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-components-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-components-api-openapi.yml
 - filename: mercedes-me-configurations-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Configurations API
   slug: mercedes-me-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-configurations-api-openapi.yml
 - filename: mercedes-me-dealer-search-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Dealer search API
   slug: mercedes-me-dealer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-dealer-search-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-dealer-search-api-openapi.yml
 - filename: mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Diagnostic Trouble Code (DTC) Snapshots API
   slug: mercedes-me-diagnostic-trouble-code-dtc-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-diagnostic-trouble-code-dtc-snapshots-api-openapi.yml
 - filename: mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Diagnostic Trouble Codes (DTC's) API
   slug: mercedes-me-diagnostic-trouble-codes-dtc-s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-diagnostic-trouble-codes-dtc-s-api-openapi.yml
 - filename: mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Electronical Control Units (ECU's) API
   slug: mercedes-me-electronical-control-units-ecu-s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-electronical-control-units-ecu-s-api-openapi.yml
 - filename: mercedes-me-images-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Images API
   slug: mercedes-me-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-images-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-images-api-openapi.yml
 - filename: mercedes-me-perspectives-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Perspectives API
   slug: mercedes-me-perspectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-perspectives-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-perspectives-api-openapi.yml
 - filename: mercedes-me-references-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me References API
   slug: mercedes-me-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-references-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-references-api-openapi.yml
 - filename: mercedes-me-resources-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Resources API
   slug: mercedes-me-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-resources-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-resources-api-openapi.yml
 - filename: mercedes-me-saved-configurations-api-openapi.yml
   format: yaml
   label: Mercedes-Benz Mercedes me Saved configurations API
   slug: mercedes-me-saved-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/openapi/mercedes-me-saved-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/mercedes-me/openapi/mercedes-me-saved-configurations-api-openapi.yml
 authorization_urls: []
 description: The Mercedes-Benz connected-vehicle APIs authenticate against the Mercedes-Benz customer identity provider at https://id.mercedes-benz.com (PingFederate). Its OpenID Connect discovery document is public and unauthenticated, and it publishes the complete scopes_supported list — 81 scopes, of which 38 are Mercedes-Benz product scopes. This artifact records those scopes verbatim as probed, together with the API product each scope string names. Mercedes-Benz publishes NO OpenAPI securitySchemes for the connected-vehicle products (the four Swagger 2.0 documents in openapi/ carry no securityDefinitions at all), so the discovery document is the only machine-readable scope reference the provider publishes.
 docs: https://developer.mercedes-benz.com/content-page/oauth-documentation
@@ -255,7 +255,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: https://id.merced
   \ 'the \"euda\" segment plus the category name'\n  # --- Adjacent Mercedes-Benz products ---\n  - scope: mb:digital:eqready:userdata\n    product: EQ Ready\n    mapping_confidence: medium\n    mapping_basis: scope string names the Mercedes-Benz EQ Ready app\n  - scope: mb:service:incardelivery\n    product: In-car delivery service\n    mapping_confidence: medium\n    mapping_basis: scope string names the service\n  - scope: mb:company-id\n    product: Company identifier claim\n    mapping_confidence: medium\n    mapping_basis: matches the company-id claim in claims_supported\n  - scope: mb:internal\n    product: internal\n    mapping_confidence: high\n    mapping_basis: not for third-party use — published in discovery but named internal\n  - scope: mb:rduhackathon\n    product: hackathon scope\n    mapping_confidence: high\n    mapping_basis: scope string; not a production product\n  - scope: oneapi:vehicle:light\n    product: OneAPI vehicle (light)\n    mapping_confidence: low\n    mapping_basis:\
   \ scope string only\n  - scope: oneapi:testapi\n    product: OneAPI test\n    mapping_confidence: high\n    mapping_basis: test scope, not a production product\n  - scope: oneapi:nil\n    product: OneAPI placeholder\n    mapping_confidence: high\n    mapping_basis: placeholder scope\nstandard_scopes:\n  - openid\n  - profile\n  - email\n  - phone\n  - address\n  - offline_access\nnotes:\n  - >-\n    Scope-to-product mapping is stated with an explicit confidence on every row. Where Mercedes-Benz\n    publishes no readable reference for a scope string, the row says so rather than guessing —\n    the developer portal is a client-rendered SPA whose reference pages return an empty HTML shell\n    to any non-browser client, so the per-product scope tables could not be read.\n  - >-\n    The eleven Car Configurator / Dealer / Vehicle Images / Remote Diagnostic Support OpenAPI\n    documents in openapi/ authenticate with an API key, not OAuth — their 401 response description\n    reads \"Failed\
   \ to resolve API Key query parameter / Invalid API Key\". The OAuth scopes above\n    apply to the connected-vehicle product family, which publishes no OpenAPI.\n  - >-\n    The presence of an mb:vehicle:mbdata:euda:* scope family is a substantive finding: Mercedes-Benz\n    has provisioned EU Data Act in-vehicle data categories as first-class OAuth scopes on its\n    production identity provider.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/scopes/mercedes-me-scopes.yml
+source_yaml_url: https://artifacts.apis.io/mercedes-me/scopes/mercedes-me-scopes.yml
 summary_line: 38 scopes
 tags:
 - Automotive

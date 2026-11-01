@@ -5,13 +5,13 @@ api_specs:
   label: ShellRecharge Locations API
   slug: shellrecharge-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-locations-api-openapi.yml
+  url: https://artifacts.apis.io/shellrecharge/openapi/shellrecharge-locations-api-openapi.yml
 - filename: shellrecharge-sessions-api-openapi.yml
   format: yaml
   label: ShellRecharge Sessions API
   slug: shellrecharge-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/shellrecharge/openapi/shellrecharge-sessions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -54,7 +54,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/shellrecharge-locations-api-openapi.yml, openapi/shellrecharge-sessions-api-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/shellrecharge-locations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shell.com/v1/oauth/token\n  description: OAuth 2.0 client credentials grant. A bearer access token is obtained from the\n    Shell SSO token endpoint and sent in the Authorization header; a separate API client id/secret\n    pair is also required on functional requests.\n- name: OAuth2ClientCredentials\n  source: openapi/shellrecharge-sessions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.shell.com/v1/oauth/token\n  description: OAuth 2.0 client credentials grant. A bearer access token is obtained from the\n    Shell SSO token endpoint and sent in the Authorization header; a separate API client id/secret\n    pair is also required on\
   \ functional requests.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/scopes/shellrecharge-scopes.yml
+source_yaml_url: https://artifacts.apis.io/shellrecharge/scopes/shellrecharge-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - EV Charging

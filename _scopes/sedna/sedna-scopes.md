@@ -5,103 +5,103 @@ api_specs:
   label: SEDNA Authentication API
   slug: sedna-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-authentication-api-openapi.yml
 - filename: sedna-category-tag-api-api-openapi.yml
   format: yaml
   label: SEDNA Category Tag API
   slug: sedna-category-tag-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-category-tag-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-category-tag-api-api-openapi.yml
 - filename: sedna-comment-api-api-openapi.yml
   format: yaml
   label: SEDNA Comment API
   slug: sedna-comment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-comment-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-comment-api-api-openapi.yml
 - filename: sedna-company-api-api-openapi.yml
   format: yaml
   label: SEDNA Company API
   slug: sedna-company-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-company-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-company-api-api-openapi.yml
 - filename: sedna-contact-api-api-openapi.yml
   format: yaml
   label: SEDNA Contact API
   slug: sedna-contact-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-contact-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-contact-api-api-openapi.yml
 - filename: sedna-document-api-api-openapi.yml
   format: yaml
   label: SEDNA Document API
   slug: sedna-document-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-document-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-document-api-api-openapi.yml
 - filename: sedna-download-api-api-openapi.yml
   format: yaml
   label: SEDNA Download API
   slug: sedna-download-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-download-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-download-api-api-openapi.yml
 - filename: sedna-event-api-api-openapi.yml
   format: yaml
   label: SEDNA Event API
   slug: sedna-event-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-event-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-event-api-api-openapi.yml
 - filename: sedna-job-reference-api-api-openapi.yml
   format: yaml
   label: SEDNA Job Reference API
   slug: sedna-job-reference-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-job-reference-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-job-reference-api-api-openapi.yml
 - filename: sedna-keyword-api-api-openapi.yml
   format: yaml
   label: SEDNA Keyword API
   slug: sedna-keyword-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-keyword-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-keyword-api-api-openapi.yml
 - filename: sedna-message-api-api-openapi.yml
   format: yaml
   label: SEDNA Message API
   slug: sedna-message-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-message-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-message-api-api-openapi.yml
 - filename: sedna-saved-search-api-api-openapi.yml
   format: yaml
   label: SEDNA Saved Search API
   slug: sedna-saved-search-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-saved-search-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-saved-search-api-api-openapi.yml
 - filename: sedna-team-api-api-openapi.yml
   format: yaml
   label: SEDNA Team API
   slug: sedna-team-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-team-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-team-api-api-openapi.yml
 - filename: sedna-template-api-api-openapi.yml
   format: yaml
   label: SEDNA Template API
   slug: sedna-template-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-template-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-template-api-api-openapi.yml
 - filename: sedna-user-api-api-openapi.yml
   format: yaml
   label: SEDNA User API
   slug: sedna-user-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-user-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-user-api-api-openapi.yml
 - filename: sedna-vessel-api-api-openapi.yml
   format: yaml
   label: SEDNA Vessel API
   slug: sedna-vessel-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-vessel-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-vessel-api-api-openapi.yml
 - filename: sedna-workflow-api-api-openapi.yml
   format: yaml
   label: SEDNA Workflow API
   slug: sedna-workflow-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/openapi/sedna-workflow-api-api-openapi.yml
+  url: https://artifacts.apis.io/sedna/openapi/sedna-workflow-api-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -410,7 +410,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/sedna-op
   \ RETENTION_POLICY_DELETE\n  description: Delete retention policies\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: RETENTION_POLICY_READ\n  description: Read retention policies\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: RETENTION_POLICY_WRITE\n  description: Create and update retention policies\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: SAVEDSEARCH_DELETE\n  description: Remove saved searches\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: SAVEDSEARCH_READ\n  description: Read saved search details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: SAVEDSEARCH_WRITE\n  description: Create and update saved searches\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: TEAM_DELETE\n  description: Delete teams\n  flows:\n  - clientCredentials\n  sources:\n \
   \ - openapi/sedna-openapi.json\n- scope: TEAM_READ\n  description: Read team details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: TEAM_WRITE\n  description: Create and update teams\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: TEMPLATE_READ\n  description: Read templates\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: USER_DELETE\n  description: Archive users\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: USER_READ\n  description: Read user details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: USER_WRITE\n  description: Create and update users\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: WORKFLOW_DELETE\n  description: Delete workflows\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: WORKFLOW_READ\n  description:\
   \ Read workflow details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n- scope: WORKFLOW_WRITE\n  description: Create and update workflows\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/sedna-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/scopes/sedna-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sedna/scopes/sedna-scopes.yml
 summary_line: 53 scopes · clientCredentials
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Cometeer Collections API
   slug: cometeer-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/openapi/cometeer-collections-api-openapi.yml
+  url: https://artifacts.apis.io/cometeer/openapi/cometeer-collections-api-openapi.yml
 - filename: cometeer-products-api-openapi.yml
   format: yaml
   label: Cometeer Products API
   slug: cometeer-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/openapi/cometeer-products-api-openapi.yml
+  url: https://artifacts.apis.io/cometeer/openapi/cometeer-products-api-openapi.yml
 - filename: cometeer-search-api-openapi.yml
   format: yaml
   label: Cometeer Search API
   slug: cometeer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/openapi/cometeer-search-api-openapi.yml
+  url: https://artifacts.apis.io/cometeer/openapi/cometeer-search-api-openapi.yml
 authorization_urls:
 - https://shopify.com/authentication/74101293355/oauth/authorize
 description: ''
@@ -78,7 +78,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://cometeer.com/.well-known/openid-configuration\ndocs: https://cometeer.com/.well-known/oauth-authorization-server\nnote: >-\n  Scopes are read verbatim from the `scopes_supported` array published by the\n  authorization-server metadata served on Cometeer's own apex host. Cometeer\n  publishes no separate scope reference page — it is a direct-to-consumer\n  storefront, so the OAuth surface exists for shopper sign-in to the Cometeer\n  account/subscription portal rather than for third-party API authorization.\n  Descriptions below are the standard meanings of these identifiers; the\n  provider does not publish prose for them.\nschemes:\n- name: CometeerCustomerAccountOIDC\n  source: well-known/cometeer-openid-configuration.json\n  issuer: https://shopify.com/authentication/74101293355\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/74101293355/oauth/authorize\n    tokenUrl:\
   \ https://shopify.com/authentication/74101293355/oauth/token\n    pkce: S256\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope; requests an ID token identifying the shopper.\n  standard: OpenID Connect Core 1.0\n  flows: [authorizationCode]\n  sources: [well-known/cometeer-openid-configuration.json]\n- scope: email\n  description: Releases the shopper's `email` and `email_verified` claims.\n  standard: OpenID Connect Core 1.0\n  flows: [authorizationCode]\n  sources: [well-known/cometeer-openid-configuration.json]\n- scope: customer-account-api:full\n  description: Full access to the authenticated shopper's own customer account data (orders, subscriptions, addresses).\n  standard: Shopify Customer Account API\n  flows: [authorizationCode]\n  sources: [well-known/cometeer-openid-configuration.json]\n- scope: customer-account-mcp-api:full\n  description: Full access to the authenticated shopper's customer account through the MCP agent interface.\n  standard: Shopify\
   \ Customer Account MCP API\n  flows: [authorizationCode]\n  sources: [well-known/cometeer-openid-configuration.json]\nx-evidence:\n  fetched: '2026-08-01'\n  url: https://cometeer.com/.well-known/openid-configuration\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/scopes/cometeer-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cometeer/scopes/cometeer-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

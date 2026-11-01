@@ -5,31 +5,31 @@ api_specs:
   label: SmartRecruiters Applications API
   slug: smartrecruiters-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-applications-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-applications-api-openapi.yml
 - filename: smartrecruiters-candidates-api-openapi.yml
   format: yaml
   label: SmartRecruiters Candidates API
   slug: smartrecruiters-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-candidates-api-openapi.yml
 - filename: smartrecruiters-jobs-api-openapi.yml
   format: yaml
   label: SmartRecruiters Jobs API
   slug: smartrecruiters-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-jobs-api-openapi.yml
 - filename: smartrecruiters-postings-api-openapi.yml
   format: yaml
   label: SmartRecruiters Postings API
   slug: smartrecruiters-postings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-postings-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-postings-api-openapi.yml
 - filename: smartrecruiters-teams-api-openapi.yml
   format: yaml
   label: SmartRecruiters Teams API
   slug: smartrecruiters-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/openapi/smartrecruiters-teams-api-openapi.yml
+  url: https://artifacts.apis.io/smartrecruiters/openapi/smartrecruiters-teams-api-openapi.yml
 authorization_urls:
 - https://www.smartrecruiters.com/identity/oauth/allow
 description: ''
@@ -102,7 +102,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smartrecruiters-candidates-openapi.yml, openapi/smartrecruiters-jobs-openapi.yml,\n  openapi/smartrecruiters-posting-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/smartrecruiters-candidates-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.smartrecruiters.com/identity/oauth/token\n- name: OAuth2\n  source: openapi/smartrecruiters-jobs-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.smartrecruiters.com/identity/oauth/token\n- name: OAuth2\n  source: openapi/smartrecruiters-posting-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.smartrecruiters.com/identity/oauth/allow\n    tokenUrl: https://www.smartrecruiters.com/identity/oauth/token\nscopes:\n- scope: candidates.read\n  description: Read candidate data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/smartrecruiters-candidates-openapi.yml\n\
   \  - openapi/smartrecruiters-posting-openapi.yml\n- scope: candidates.write\n  description: Write candidate data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/smartrecruiters-candidates-openapi.yml\n  - openapi/smartrecruiters-posting-openapi.yml\n- scope: jobs.read\n  description: Read job data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/smartrecruiters-jobs-openapi.yml\n  - openapi/smartrecruiters-posting-openapi.yml\n- scope: jobs.write\n  description: Write job data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/smartrecruiters-jobs-openapi.yml\n  - openapi/smartrecruiters-posting-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/scopes/smartrecruiters-scopes.yml
+source_yaml_url: https://artifacts.apis.io/smartrecruiters/scopes/smartrecruiters-scopes.yml
 summary_line: 4 scopes · clientCredentials/authorizationCode
 tags:
 - Human Resources

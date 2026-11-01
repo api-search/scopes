@@ -5,31 +5,31 @@ api_specs:
   label: supernormal Agent Sessions API
   slug: supernormal-agent-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-agent-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-agent-sessions-api-openapi.yml
 - filename: supernormal-agents-api-openapi.yml
   format: yaml
   label: supernormal Agents API
   slug: supernormal-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-agents-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-agents-api-openapi.yml
 - filename: supernormal-calendar-events-api-openapi.yml
   format: yaml
   label: supernormal Calendar Events API
   slug: supernormal-calendar-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-calendar-events-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-calendar-events-api-openapi.yml
 - filename: supernormal-current-user-api-openapi.yml
   format: yaml
   label: supernormal Current User API
   slug: supernormal-current-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-current-user-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-current-user-api-openapi.yml
 - filename: supernormal-posts-api-openapi.yml
   format: yaml
   label: supernormal Posts API
   slug: supernormal-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/openapi/supernormal-posts-api-openapi.yml
+  url: https://artifacts.apis.io/supernormal/openapi/supernormal-posts-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.supernormal.com/api-reference/introduction
@@ -112,7 +112,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/supernormal-openapi-original.json\ndocs: https://docs.supernormal.com/api-reference/introduction\nnotes: >-\n  Supernormal exposes two scope surfaces. (1) API-key (X-API-TOKEN) scopes selected when\n  minting a key in account settings and enforced per-operation in the REST API — the spec\n  declares user/calendar_events scopes in the securityScheme x-scopes map and references\n  additional posts/agents/agent_sessions scopes in operation security requirements. (2) The\n  OAuth 2.0 authorization server (used for the MCP server) advertises its own scopes_supported\n  in RFC 8414 metadata. Both are captured below.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-TOKEN\n  source: openapi/supernormal-openapi-original.json\n- name: OAuth2\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://api.supernormal.com/oauth/authorize\n  tokenUrl: https://api.supernormal.com/oauth/token\n\
   \  source: well-known/supernormal-oauth-authorization-server.json\nscopes:\n# --- API-key (X-API-TOKEN) scopes ---\n- scope: user:read\n  description: Read user information.\n  surface: api-key\n  sources: [openapi/supernormal-openapi-original.json]\n- scope: calendar_events:read\n  description: Read calendar events.\n  surface: api-key\n  sources: [openapi/supernormal-openapi-original.json]\n- scope: calendar_events:write\n  description: Write calendar events (toggle whether a meeting is captured).\n  surface: api-key\n  sources: [openapi/supernormal-openapi-original.json]\n- scope: posts:read\n  description: Read the current user's meeting posts, notes, and transcripts.\n  surface: api-key\n  sources: [openapi/supernormal-openapi-original.json]\n- scope: agents:read\n  description: Read the current user's AI agents.\n  surface: api-key\n  sources: [openapi/supernormal-openapi-original.json]\n- scope: agents:write\n  description: Create, publish, and unpublish AI agents.\n  surface: api-key\n\
   \  sources: [openapi/supernormal-openapi-original.json]\n- scope: agent_sessions:read\n  description: Read an agent's sessions.\n  surface: api-key\n  sources: [openapi/supernormal-openapi-original.json]\n- scope: agent_sessions:write\n  description: Create an agent session.\n  surface: api-key\n  sources: [openapi/supernormal-openapi-original.json]\n# --- OAuth 2.0 authorization-server scopes (MCP) ---\n- scope: recordings:read\n  description: Read meeting recordings (OAuth / MCP surface).\n  surface: oauth\n  sources: [well-known/supernormal-oauth-authorization-server.json]\n- scope: projects:read\n  description: Read projects (OAuth / MCP surface).\n  surface: oauth\n  sources: [well-known/supernormal-oauth-authorization-server.json]\n- scope: projects:write\n  description: Write projects (OAuth / MCP surface).\n  surface: oauth\n  sources: [well-known/supernormal-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/scopes/supernormal-scopes.yml
+source_yaml_url: https://artifacts.apis.io/supernormal/scopes/supernormal-scopes.yml
 summary_line: 11 scopes
 tags:
 - Company

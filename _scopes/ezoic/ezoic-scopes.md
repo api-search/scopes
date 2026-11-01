@@ -5,49 +5,49 @@ api_specs:
   label: ezoic Access API
   slug: ezoic-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-access-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-access-api-openapi.yml
 - filename: ezoic-products-api-openapi.yml
   format: yaml
   label: ezoic Products API
   slug: ezoic-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-products-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-products-api-openapi.yml
 - filename: ezoic-purchases-api-openapi.yml
   format: yaml
   label: ezoic Purchases API
   slug: ezoic-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-purchases-api-openapi.yml
 - filename: ezoic-cdn-api-openapi.yml
   format: yaml
   label: ezoic CDN API
   slug: ezoic-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-cdn-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-cdn-api-openapi.yml
 - filename: ezoic-data-api-openapi.yml
   format: yaml
   label: ezoic Data API
   slug: ezoic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-data-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-data-api-openapi.yml
 - filename: ezoic-filters-api-openapi.yml
   format: yaml
   label: ezoic Filters API
   slug: ezoic-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-filters-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-filters-api-openapi.yml
 - filename: ezoic-reports-api-openapi.yml
   format: yaml
   label: ezoic Reports API
   slug: ezoic-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-reports-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-reports-api-openapi.yml
 - filename: ezoic-segments-api-openapi.yml
   format: yaml
   label: ezoic Segments API
   slug: ezoic-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/openapi/ezoic-segments-api-openapi.yml
+  url: https://artifacts.apis.io/ezoic/openapi/ezoic-segments-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.ezoic.com/docs/analytics-mcp/
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://token.ezo
   \ https://api.bidsystem.ai/.well-known/oauth-protected-resource\n  method: probed\nscope_count: 2\nscope_count_note: >-\n  Both are generic OIDC identity scopes discovered by probe, not an Ezoic authorization\n  vocabulary. No Ezoic-authored scope exists on any surface, and no scope reference page is\n  published.\npermissions:\n  note: >-\n    Authorization is enforced through Ezoic account roles rather than OAuth scopes.\n    Documented at https://docs.ezoic.com/docs/analytics-mcp/.\n  model:\n  - name: Analytics\n    effect: >-\n      A publisher user (a team member on someone else's Ezoic account) can connect the\n      Analytics MCP only if their Ezoic role includes analytics access — matching what\n      they can already see in the Ezoic dashboard. Account owners manage team permissions\n      under Account -> Privacy & Security -> Manage Users.\n    surface: https://analytics-mcp.ezoic.com/mcp\n  - name: 'API Access (per service)'\n    effect: >-\n      Not OAuth. Each API-gateway\
   \ service (Big Data Analytics, CDN, Subscriptions) is off\n      until a publisher turns it on under Settings -> API Access; the shared developerKey\n      can only call enabled services, and only for domains on its own account.\n    surface: https://api-gateway.ezoic.com\n    docs: https://docs.ezoic.com/docs/api/\nobservations:\n  strong:\n  - PKCE (S256) is the only code challenge method offered — no plain.\n  - DPoP sender-constrained tokens are supported (ES256).\n  - Dynamic client registration (RFC 7591) is available at /register, which is what lets an\n    MCP client connect without a pre-provisioned client_id.\n  - Token revocation (RFC 7009) is published.\n  notable:\n  - >-\n    A vendor-specific grant type is advertised on BOTH authorization servers —\n    urn:bidsystem:params:oauth:grant-type:adcp-client-recovery — indicating Ezoic's token\n    service fronts an Ad Context Protocol (AdCP) bidding client. No AdCP discovery\n    document is published on any host probed (/.well-known/adcp.json\
   \ 404s on both\n    ezoic.com and api.bidsystem.ai), so this is recorded as an observation, not as a\n    catalogued API. It is, however, the thread that led to the third MCP server.\n  - >-\n    The bidsystem.ai advertiser console carries a Chrome WebMCP origin-trial token\n    (feature \"WebMCP\", origin https://admin.bidsystem.ai:443, expiry 2026-11-17) — Ezoic is\n    trialling in-page agent tool exposure alongside its server-side MCP endpoints.\n  - No OIDC. /.well-known/openid-configuration 404s on both token.ezoic.com and\n    login.ezoic.com, yet id_token_signing_alg_values_supported is present in the OAuth\n    metadata — an OIDC-shaped field on a non-OIDC discovery document.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/scopes/ezoic-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ezoic/scopes/ezoic-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company

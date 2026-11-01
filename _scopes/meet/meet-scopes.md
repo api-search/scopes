@@ -5,31 +5,31 @@ api_specs:
   label: Google Meet Conference Records API
   slug: meet-conference-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-conference-records-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-conference-records-api-openapi.yml
 - filename: meet-participants-api-openapi.yml
   format: yaml
   label: Google Meet Participants API
   slug: meet-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-participants-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-participants-api-openapi.yml
 - filename: meet-recordings-api-openapi.yml
   format: yaml
   label: Google Meet Recordings API
   slug: meet-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-recordings-api-openapi.yml
 - filename: meet-spaces-api-openapi.yml
   format: yaml
   label: Google Meet Spaces API
   slug: meet-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-spaces-api-openapi.yml
 - filename: meet-transcripts-api-openapi.yml
   format: yaml
   label: Google Meet Transcripts API
   slug: meet-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/openapi/meet-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/meet/openapi/meet-transcripts-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -81,7 +81,7 @@ source_filename: meet-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/meet-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/meet-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/meetings.space.created\n  description: Create and manage meeting spaces created by the app\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/meet-openapi.yml\n- scope: https://www.googleapis.com/auth/meetings.space.readonly\n  description: Read meeting spaces\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/meet-openapi.yml\n- scope: https://www.googleapis.com/auth/meetings.space.settings\n  description: Manage meeting space settings\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/meet-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meet/refs/heads/main/scopes/meet-scopes.yml
+source_yaml_url: https://artifacts.apis.io/meet/scopes/meet-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Video Conferencing

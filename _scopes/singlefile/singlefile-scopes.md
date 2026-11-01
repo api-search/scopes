@@ -5,43 +5,43 @@ api_specs:
   label: SingleFile Documents API
   slug: singlefile-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-documents-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-documents-api-openapi.yml
 - filename: singlefile-entities-api-openapi.yml
   format: yaml
   label: SingleFile Entities API
   slug: singlefile-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-entities-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-entities-api-openapi.yml
 - filename: singlefile-jurisdictions-api-openapi.yml
   format: yaml
   label: SingleFile Jurisdictions API
   slug: singlefile-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-jurisdictions-api-openapi.yml
 - filename: singlefile-orders-api-openapi.yml
   format: yaml
   label: SingleFile Orders API
   slug: singlefile-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-orders-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-orders-api-openapi.yml
 - filename: singlefile-organizations-api-openapi.yml
   format: yaml
   label: SingleFile Organizations API
   slug: singlefile-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-organizations-api-openapi.yml
 - filename: singlefile-schemas-api-openapi.yml
   format: yaml
   label: SingleFile Schemas API
   slug: singlefile-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-schemas-api-openapi.yml
 - filename: singlefile-tasks-api-openapi.yml
   format: yaml
   label: SingleFile Tasks API
   slug: singlefile-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-tasks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -87,7 +87,7 @@ source_filename: singlefile-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/singlefile-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/singlefile-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.demo.singlefile.ai/o/token/\n  description: 'OAuth 2.0 Client Credentials flow. Exchange client_id/client_secret at the token\n    endpoint for a 1-hour bearer token; send it as Authorization: Bearer <token>.'\nscopes:\n- scope: read\n  description: Read access to entities, organizations, orders, documents, jurisdictions and\n    tasks\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/singlefile-openapi.yml\n- scope: write\n  description: Create and update entities, organizations, orders, documents and jurisdictions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/singlefile-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/scopes/singlefile-scopes.yml
+source_yaml_url: https://artifacts.apis.io/singlefile/scopes/singlefile-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Company

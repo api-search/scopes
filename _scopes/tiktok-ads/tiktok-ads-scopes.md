@@ -5,109 +5,109 @@ api_specs:
   label: TikTok Marketing API Account Management API
   slug: tiktok-ads-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-account-management-api-openapi.yml
 - filename: tiktok-ads-ad-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Ad API
   slug: tiktok-ads-ad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ad-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-ad-api-openapi.yml
 - filename: tiktok-ads-ads-management-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Ads Management API
   slug: tiktok-ads-ads-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ads-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-ads-management-api-openapi.yml
 - filename: tiktok-ads-app-management-api-openapi.yml
   format: yaml
   label: TikTok Marketing API APP Management API
   slug: tiktok-ads-app-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-app-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-app-management-api-openapi.yml
 - filename: tiktok-ads-audience-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Audience API
   slug: tiktok-ads-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-audience-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-audience-api-openapi.yml
 - filename: tiktok-ads-automated-rules-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Automated Rules API
   slug: tiktok-ads-automated-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-automated-rules-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-automated-rules-api-openapi.yml
 - filename: tiktok-ads-bc-api-openapi.yml
   format: yaml
   label: TikTok Marketing API BC API
   slug: tiktok-ads-bc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-bc-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-bc-api-openapi.yml
 - filename: tiktok-ads-campaign-creation-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Campaign Creation API
   slug: tiktok-ads-campaign-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-campaign-creation-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-campaign-creation-api-openapi.yml
 - filename: tiktok-ads-catalog-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Catalog API
   slug: tiktok-ads-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-catalog-api-openapi.yml
 - filename: tiktok-ads-comments-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Comments API
   slug: tiktok-ads-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-comments-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-comments-api-openapi.yml
 - filename: tiktok-ads-creative-management-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Creative Management API
   slug: tiktok-ads-creative-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-creative-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-creative-management-api-openapi.yml
 - filename: tiktok-ads-identity-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Identity API
   slug: tiktok-ads-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-identity-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-identity-api-openapi.yml
 - filename: tiktok-ads-measurement-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Measurement API
   slug: tiktok-ads-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-measurement-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-measurement-api-openapi.yml
 - filename: tiktok-ads-reporting-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Reporting API
   slug: tiktok-ads-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-reporting-api-openapi.yml
 - filename: tiktok-ads-store-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Store API
   slug: tiktok-ads-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-store-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-store-api-openapi.yml
 - filename: tiktok-ads-tool-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Tool API
   slug: tiktok-ads-tool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-tool-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-tool-api-openapi.yml
 - filename: tiktok-ads-video-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Video API
   slug: tiktok-ads-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-video-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-video-api-openapi.yml
 - filename: tiktok-ads-ad-group-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Ad Group API
   slug: tiktok-ads-ad-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ad-group-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-ad-group-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://business-api.tiktok.com/portal/docs?id=1753986142651394
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://busines
   \ and Delete Event Source Bind\n  endpoints:\n  - /catalog/eventsource/bind/\n  - /catalog/eventsource/unbind/\n  parent: '96'\n- scope: '970'\n  name: Get Feed\n  endpoints:\n  - /catalog/feed/get/\n  - /catalog/feed/log/\n  parent: '97'\n- scope: '971'\n  name: Post Feed\n  endpoints:\n  - /catalog/feed/create/\n  - /catalog/feed/update/\n  - /catalog/feed/delete/\n  - /catalog/feed/switch/\n  parent: '97'\n- scope: '12010100'\n  name: Leads Retrieval\n  endpoints:\n  - /page/field/get/\n  - /page/lead/get/\n  parent: '12010000'\n- scope: '12020100'\n  name: Test Leads\n  endpoints:\n  - /page/lead/mock/create/\n  - /page/lead/mock/get/\n  - /page/lead/mock/delete/\n  - /page/field/get/\n  - /page/lead/task/download/\n  - /page/lead/task/\n  parent: '12020000'\n- scope: '14010100'\n  name: Get Creator Basic Info\n  endpoints: []\n  parent: '14010000'\n- scope: '14010200'\n  name: Get Creator Insights\n  endpoints:\n  - /tcm/creator/public/\n  - /tcm/creator/authorized/\n  parent: '14010000'\n\
   - scope: '14020100'\n  name: Get Creator Media\n  endpoints:\n  - /tcm/creator/public/video/list/\n  - /tcm/creator/authorized/video/list/\n  parent: '14020000'\n- scope: '15010100'\n  name: Read Comments\n  endpoints:\n  - /comment/list/\n  - /comment/reference/\n  - /comment/task/create/\n  - /comment/task/check/\n  - /comment/task/download/\n  parent: '15010000'\n- scope: '15010200'\n  name: Write Comments\n  endpoints:\n  - /comment/status/update/\n  - /comment/delete/\n  - /comment/post/\n  parent: '15010000'\n- scope: '15020100'\n  name: Read Blocked Words\n  endpoints:\n  - /blockedword/list/\n  - /blockedword/task/create/\n  - /blockedword/task/check/\n  - /blockedword/task/download/\n  - /blockedword/check/\n  parent: '15020000'\n- scope: '15020200'\n  name: Write Blocked Words\n  endpoints:\n  - /blockedword/create/\n  - /blockedword/update/\n  - /blockedword/delete/\n  parent: '15020000'\n- scope: '18010100'\n  name: Get Business User Basic Info\n  endpoints:\n  - /business/get/\n\
   \  parent: '18010000'\n- scope: '18030100'\n  name: Get Business Comment\n  endpoints:\n  - /business/comment/reply/list/\n  - /business/comment/list/\n  parent: '18030000'\n- scope: '18030200'\n  name: Manage Business Comment\n  endpoints:\n  - /business/comment/create/\n  - /business/comment/delete/\n  - /business/comment/hide/\n  - /business/comment/reply/create/\n  - /business/comment/like/\n  parent: '18030000'\n- scope: '7050363942433996801'\n  name: Video Publish\n  endpoints:\n  - /business/video/publish/\n  - /business/hashtag/suggestion/\n  parent: '7044139020472942593'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/scopes/tiktok-ads-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tiktok-ads/scopes/tiktok-ads-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Advertising

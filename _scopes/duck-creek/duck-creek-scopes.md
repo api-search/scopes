@@ -5,31 +5,31 @@ api_specs:
   label: Duck Creek Billing API
   slug: duck-creek-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-billing-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-billing-api-openapi.yml
 - filename: duck-creek-claims-api-openapi.yml
   format: yaml
   label: Duck Creek Claims API
   slug: duck-creek-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-claims-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-claims-api-openapi.yml
 - filename: duck-creek-policies-api-openapi.yml
   format: yaml
   label: duck-creek Policies API
   slug: duck-creek-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policies-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-policies-api-openapi.yml
 - filename: duck-creek-products-api-openapi.yml
   format: yaml
   label: duck-creek Products API
   slug: duck-creek-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-products-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-products-api-openapi.yml
 - filename: duck-creek-quotes-api-openapi.yml
   format: yaml
   label: duck-creek Quotes API
   slug: duck-creek-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-quotes-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -91,7 +91,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/duck-creek-policy-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/duck-creek-policy-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.duckcreek.com/oauth/token\n  description: OAuth 2.0 for Duck Creek Anywhere API authentication\nscopes:\n- scope: billing:read\n  description: Read billing data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/duck-creek-policy-openapi.yml\n- scope: claims:read\n  description: Read claim data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/duck-creek-policy-openapi.yml\n- scope: claims:write\n  description: Create and update claims\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/duck-creek-policy-openapi.yml\n- scope: policies:read\n  description: Read policy data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/duck-creek-policy-openapi.yml\n- scope: policies:write\n  description: Create and modify policies\n \
   \ flows:\n  - clientCredentials\n  sources:\n  - openapi/duck-creek-policy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/scopes/duck-creek-scopes.yml
+source_yaml_url: https://artifacts.apis.io/duck-creek/scopes/duck-creek-scopes.yml
 summary_line: 5 scopes · clientCredentials
 tags:
 - Insurance

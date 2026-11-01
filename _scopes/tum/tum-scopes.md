@@ -5,19 +5,19 @@ api_specs:
   label: NavigaTUM
   slug: navigatum
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-locations-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-locations-api-openapi.yml
 - filename: tum-menu-api-openapi.yml
   format: yaml
   label: eat-api — Munich Student Canteen Menus
   slug: eat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-menu-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-menu-api-openapi.yml
 - filename: tum-campus-api-openapi.yml
   format: yaml
   label: Technical University of Munich Campus API
   slug: tum-campus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-campus-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-campus-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -481,7 +481,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: https://campus.tu
   \ co-int-cm-elements.read\n  class: campusonline\n- scope: co-int-cm-elements.write\n  class: campusonline\n- scope: co-int-course.read\n  class: campusonline\n- scope: co-int-course.write\n  class: campusonline\n- scope: co-int-final-elements-results.read\n  class: campusonline\n- scope: co-int-lectureship.read\n  class: campusonline\n- scope: co-int-xm-achievements.read\n  class: campusonline\n- scope: co-int-xm-course-dependency-resolver.read\n  class: campusonline\n- scope: co-int-xm-course-dependency-resolver.write\n  class: campusonline\n- scope: co-int-xm-grade.read\n  class: campusonline\n- scope: co-int-xm-recognition.read\n  class: campusonline\n- scope: co-int-xm-recognition.write\n  class: campusonline\n- scope: co-internal-study-personal.read\n  class: campusonline\n- scope: co-internal-study-static.read\n  class: campusonline\n- scope: co-lectureship.read\n  class: campusonline\n- scope: co-org.read\n  class: campusonline\n- scope: co-payments.read\n  class: campusonline\n\
   - scope: co-payments.write\n  class: campusonline\n- scope: co-plsql.read\n  class: campusonline\n- scope: co-plsql.write\n  class: campusonline\n- scope: co-public-rest-api-all.read\n  class: campusonline\n- scope: co-rc-pim-adapter-all.read\n  class: campusonline\n- scope: co-rc-pim-adapter-log.read\n  class: campusonline\n- scope: co-rc-pim-adapter-log.write\n  class: campusonline\n- scope: co-rc-pim-adapter.import\n  class: campusonline\n- scope: co-rc-pim-adapter.validation\n  class: campusonline\n- scope: co-semester.read\n  class: campusonline\n- scope: co-sm-idm.read\n  class: campusonline\n- scope: co-study-personal.read\n  class: campusonline\n- scope: co-study-static.read\n  class: campusonline\n- scope: co-subatomic-all.read\n  class: campusonline\n- scope: co-supersonic-all.read\n  class: campusonline\n- scope: co-sys-management-all.read\n  class: campusonline\n- scope: co-tm-core-all.read\n  class: campusonline\n- scope: connectum-all.read\n  class: campusonline\n- scope:\
   \ connectum-auth.read\n  class: campusonline\n- scope: connectum-module.read\n  class: campusonline\n- scope: connectum-rooms.read\n  class: campusonline\n- scope: email\n  class: oidc-standard\n- scope: euroteq-ooapi-all.read\n  class: campusonline\n- scope: exr-cm-exams.read\n  class: campusonline\n- scope: microprofile-jwt\n  class: oidc-standard\n- scope: offline_access\n  class: oidc-standard\n- scope: openid\n  class: oidc-standard\n- scope: phone\n  class: oidc-standard\n- scope: profile\n  class: oidc-standard\n- scope: roles\n  class: oidc-standard\n- scope: service_account\n  class: oidc-standard\n- scope: web-origins\n  class: oidc-standard\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/scopes/tum-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tum/scopes/tum-scopes.yml
 summary_line: 108 scopes
 tags:
 - University

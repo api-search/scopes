@@ -5,7 +5,7 @@ api_specs:
   label: Fasten Health Bridge API
   slug: fasten-health-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/openapi/fasten-health-bridge-api-openapi.yml
+  url: https://artifacts.apis.io/fasten-health/openapi/fasten-health-bridge-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.connect.fastenhealth.com/identity-proofing/bring-your-own-identity
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: >-\n  https://d
   \    spec: https://hl7.org/fhir/smart-app-launch/scopes-and-launch-context.html\n    note: >-\n      Only some EHRs report the granted scope; for those that do not, the field is omitted. In TEFCA\n      mode the scope is always present and always `patient/*.read`.\n\nscopes:\n  - scope: openid\n    description: Required OIDC scope for the Fasten Identity PAR request.\n    scheme: Fasten Identity (Pushed Authorization Request)\n    required: true\n    sources: [https://docs.connect.fastenhealth.com/identity-proofing/bring-your-own-identity]\n  - scope: profile\n    description: Required in the fixed `openid profile email` scope string for the PAR request.\n    scheme: Fasten Identity (Pushed Authorization Request)\n    required: true\n    sources: [https://docs.connect.fastenhealth.com/identity-proofing/bring-your-own-identity]\n  - scope: email\n    description: Required in the fixed `openid profile email` scope string for the PAR request.\n    scheme: Fasten Identity (Pushed Authorization\
   \ Request)\n    required: true\n    sources: [https://docs.connect.fastenhealth.com/identity-proofing/bring-your-own-identity]\n  - scope: patient/*.read\n    description: >-\n      SMART on FHIR patient-level read scope. Always granted in TEFCA mode; required for a\n      successful EHI export.\n    scheme: SMART on FHIR (granted by the patient's EHR)\n    sources: [https://docs.connect.fastenhealth.com/webhooks/events]\n  - scope: patient/Patient.read\n    description: >-\n      SMART on FHIR demographics read scope. Named in the `scope_patient_missing` failure reason as\n      an acceptable alternative to patient/*.read; its absence (patient unchecked \"Demographics\"\n      during consent) causes EHI export to fail.\n    scheme: SMART on FHIR (granted by the patient's EHR)\n    sources: [https://docs.connect.fastenhealth.com/webhooks/events]\n\ngaps:\n  - No OAuth authorization-server metadata document is reachable (identity host does not resolve).\n  - No scopes or permissions reference\
   \ page exists; scopes are scattered across guides.\n  - The Fasten Connect REST API has no per-scope authorization model — a private key is all-or-nothing.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/scopes/fasten-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fasten-health/scopes/fasten-health-scopes.yml
 summary_line: 5 scopes
 tags:
 - Healthcare

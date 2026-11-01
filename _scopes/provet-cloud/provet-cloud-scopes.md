@@ -5,43 +5,43 @@ api_specs:
   label: Provet Cloud Appointments API
   slug: provet-cloud-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-appointments-api-openapi.yml
 - filename: provet-cloud-billing-api-openapi.yml
   format: yaml
   label: Provet Cloud Billing API
   slug: provet-cloud-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-billing-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-billing-api-openapi.yml
 - filename: provet-cloud-clients-api-openapi.yml
   format: yaml
   label: Provet Cloud Clients API
   slug: provet-cloud-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-clients-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-clients-api-openapi.yml
 - filename: provet-cloud-consultations-api-openapi.yml
   format: yaml
   label: Provet Cloud Consultations API
   slug: provet-cloud-consultations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-consultations-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-consultations-api-openapi.yml
 - filename: provet-cloud-patients-api-openapi.yml
   format: yaml
   label: Provet Cloud Patients API
   slug: provet-cloud-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-patients-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-patients-api-openapi.yml
 - filename: provet-cloud-reference-data-api-openapi.yml
   format: yaml
   label: Provet Cloud Reference Data API
   slug: provet-cloud-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-reference-data-api-openapi.yml
 - filename: provet-cloud-webhooks-api-openapi.yml
   format: yaml
   label: Provet Cloud Webhooks API
   slug: provet-cloud-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/openapi/provet-cloud-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/provet-cloud/openapi/provet-cloud-webhooks-api-openapi.yml
 authorization_urls:
 - https://provetcloud.com/0/oauth2/authorize/
 description: ''
@@ -93,7 +93,7 @@ source_filename: provet-cloud-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/provet-cloud-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/provet-cloud-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://provetcloud.com/0/oauth2/token/\n  - flow: authorizationCode\n    authorizationUrl: https://provetcloud.com/0/oauth2/authorize/\n    tokenUrl: https://provetcloud.com/0/oauth2/token/\n  description: OAuth 2.0. Client Credentials for backend services; Authorization Code with PKCE\n    for user-facing apps. Token endpoint is https://provetcloud.com/<provet_id>/oauth2/token/\n    with scope \"restapi\".\nscopes:\n- scope: openid\n  description: Obtain additional user details.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/provet-cloud-openapi.yml\n- scope: restapi\n  description: Access the Provet Cloud REST API.\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/provet-cloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/provet-cloud/refs/heads/main/scopes/provet-cloud-scopes.yml
+source_yaml_url: https://artifacts.apis.io/provet-cloud/scopes/provet-cloud-scopes.yml
 summary_line: 2 scopes · clientCredentials/authorizationCode
 tags:
 - Veterinary

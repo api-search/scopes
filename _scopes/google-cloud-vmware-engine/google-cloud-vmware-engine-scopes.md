@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud VMware Engine Clusters API
   slug: google-cloud-vmware-engine-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-clusters-api-openapi.yml
 - filename: google-cloud-vmware-engine-privateclouds-api-openapi.yml
   format: yaml
   label: Google Cloud VMware Engine PrivateClouds API
   slug: google-cloud-vmware-engine-privateclouds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-privateclouds-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-privateclouds-api-openapi.yml
 - filename: google-cloud-vmware-engine-network-policies-api-openapi.yml
   format: yaml
   label: Google Cloud VMware Engine Network Policies API
   slug: google-cloud-vmware-engine-network-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-network-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-network-policies-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -59,7 +59,7 @@ source_filename: google-cloud-vmware-engine-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vmwareengine-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/vmwareengine-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud Platform\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/vmwareengine-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/scopes/google-cloud-vmware-engine-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-vmware-engine/scopes/google-cloud-vmware-engine-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Compute

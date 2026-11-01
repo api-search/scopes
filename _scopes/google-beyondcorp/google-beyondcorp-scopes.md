@@ -5,19 +5,19 @@ api_specs:
   label: Google BeyondCorp AppConnectors API
   slug: google-beyondcorp-appconnectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-appconnectors-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-appconnectors-api-openapi.yml
 - filename: google-beyondcorp-securitygateways-api-openapi.yml
   format: yaml
   label: Google BeyondCorp SecurityGateways API
   slug: google-beyondcorp-securitygateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-securitygateways-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-securitygateways-api-openapi.yml
 - filename: google-beyondcorp-app-connections-api-openapi.yml
   format: yaml
   label: Google BeyondCorp App Connections API
   slug: google-beyondcorp-app-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/openapi/google-beyondcorp-app-connections-api-openapi.yml
+  url: https://artifacts.apis.io/google-beyondcorp/openapi/google-beyondcorp-app-connections-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -59,7 +59,7 @@ source_filename: google-beyondcorp-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/beyondcorp-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/beyondcorp-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud resources\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/beyondcorp-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-beyondcorp/refs/heads/main/scopes/google-beyondcorp-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-beyondcorp/scopes/google-beyondcorp-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Access Control

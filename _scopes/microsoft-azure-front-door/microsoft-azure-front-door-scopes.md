@@ -5,13 +5,13 @@ api_specs:
   label: Azure Front Door Operations API
   slug: microsoft-azure-front-door-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/openapi/microsoft-azure-front-door-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-operations-api-openapi.yml
 - filename: microsoft-azure-front-door-profiles-api-openapi.yml
   format: yaml
   label: Azure Front Door Profiles API
   slug: microsoft-azure-front-door-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/openapi/microsoft-azure-front-door-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-profiles-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -50,7 +50,7 @@ source_filename: microsoft-azure-front-door-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-front-door-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-front-door-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-front-door-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/scopes/microsoft-azure-front-door-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-front-door/scopes/microsoft-azure-front-door-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - CDN

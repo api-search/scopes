@@ -5,13 +5,13 @@ api_specs:
   label: Otonomo EU API
   slug: otonomo-eu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-eu-api-openapi.yml
+  url: https://artifacts.apis.io/otonomo/openapi/otonomo-eu-api-openapi.yml
 - filename: otonomo-us-api-openapi.yml
   format: yaml
   label: Otonomo US API
   slug: otonomo-us-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/openapi/otonomo-us-api-openapi.yml
+  url: https://artifacts.apis.io/otonomo/openapi/otonomo-us-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -53,7 +53,7 @@ source_filename: otonomo-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/otonomo-eu-api-openapi.yml, openapi/otonomo-us-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/otonomo-eu-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.otonomo.io/v1/oauth/token/\n  description: 'OAuth2 client-credentials. Obtain a Bearer token from POST /v1/oauth/token/\n    then send it as Authorization: Bearer <token>.'\n- name: oauth2\n  source: openapi/otonomo-us-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.otonomo.io/v1/oauth/token/\n  description: 'OAuth2 client-credentials. Obtain a Bearer token from POST /v1/oauth/token/\n    then send it as Authorization: Bearer <token>.'\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/otonomo/refs/heads/main/scopes/otonomo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/otonomo/scopes/otonomo-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

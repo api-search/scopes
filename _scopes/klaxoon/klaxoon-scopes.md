@@ -5,25 +5,25 @@ api_specs:
   label: Klaxoon Adventures API
   slug: klaxoon-adventures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-adventures-api-openapi.yml
+  url: https://artifacts.apis.io/klaxoon/openapi/klaxoon-adventures-api-openapi.yml
 - filename: klaxoon-missions-api-openapi.yml
   format: yaml
   label: Klaxoon Missions API
   slug: klaxoon-missions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-missions-api-openapi.yml
+  url: https://artifacts.apis.io/klaxoon/openapi/klaxoon-missions-api-openapi.yml
 - filename: klaxoon-quizzes-api-openapi.yml
   format: yaml
   label: Klaxoon Quizzes API
   slug: klaxoon-quizzes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-quizzes-api-openapi.yml
+  url: https://artifacts.apis.io/klaxoon/openapi/klaxoon-quizzes-api-openapi.yml
 - filename: klaxoon-surveys-api-openapi.yml
   format: yaml
   label: Klaxoon Surveys API
   slug: klaxoon-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/openapi/klaxoon-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/klaxoon/openapi/klaxoon-surveys-api-openapi.yml
 authorization_urls:
 - https://access.klaxoon.com/auth
 description: ''
@@ -103,7 +103,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/klaxoon-openapi.yml\ndocs: https://developers.klaxoon.com/klaxoon/docs/scopes\nschemes:\n- name: OAuth2\n  source: openapi/klaxoon-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://access.klaxoon.com/auth\n    tokenUrl: https://access.klaxoon.com/token\n  description: OAuth 2.0 authorization-code flow against Klaxoon. Scopes are issued per integration\n    via the Klaxoon developer portal.\nscopes:\n- scope: identity:read\n  description: View profile informations of the authenticated user (email, first\n    name, last name).\n  sources:\n  - https://developers.klaxoon.com/klaxoon/docs/scopes\n- scope: auditlog:read\n  description: 'Read Audit Logs for an organization. Note: the authenticated user\n    authorizing your application must have a Company Admin role within the organization\n    for full access to the Company Audit Logs.'\n  sources:\n  - https://developers.klaxoon.com/klaxoon/docs/scopes\n\
   - scope: board:read\n  description: Read Boards and Board content of a Klaxoon user.\n  sources:\n  - https://developers.klaxoon.com/klaxoon/docs/scopes\n- scope: board:write\n  description: Create and modify Boards and Board content of a Klaxoon user.\n  sources:\n  - https://developers.klaxoon.com/klaxoon/docs/scopes\n- scope: quiz:read\n  description: Get the list of Quizzes of a Klaxoon user and informations on Quiz\n    participants and results.\n  sources:\n  - https://developers.klaxoon.com/klaxoon/docs/scopes\n- scope: survey:read\n  description: Get the list of Surveys of a Klaxoon user and informations on Survey\n    participants and results.\n  sources:\n  - https://developers.klaxoon.com/klaxoon/docs/scopes\n- scope: memo:read\n  description: Get the list of Memos of a Klaxoon user and informations on Memo participants\n    and results.\n  sources:\n  - https://developers.klaxoon.com/klaxoon/docs/scopes\n- scope: adventure:read\n  description: Get the list of Adventures of\
   \ a Klaxoon user and informations on Adventure\n    participants and results.\n  sources:\n  - https://developers.klaxoon.com/klaxoon/docs/scopes\n- scope: mission:read\n  description: Get the list of Missions of a Klaxoon user and informations on Mission\n    participants and results.\n  sources:\n  - https://developers.klaxoon.com/klaxoon/docs/scopes\n- scope: session:read\n  description: Get the list of Sessions of a Klaxoon user and informations on Session\n    participants and results.\n  sources:\n  - https://developers.klaxoon.com/klaxoon/docs/scopes\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klaxoon/refs/heads/main/scopes/klaxoon-scopes.yml
+source_yaml_url: https://artifacts.apis.io/klaxoon/scopes/klaxoon-scopes.yml
 summary_line: 10 scopes · authorizationCode
 tags:
 - Collaboration

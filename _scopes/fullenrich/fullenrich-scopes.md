@@ -5,25 +5,25 @@ api_specs:
   label: FullEnrich Account API
   slug: fullenrich-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-account-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-account-api-openapi.yml
 - filename: fullenrich-company-api-openapi.yml
   format: yaml
   label: FullEnrich Company API
   slug: fullenrich-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-company-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-company-api-openapi.yml
 - filename: fullenrich-contact-api-openapi.yml
   format: yaml
   label: FullEnrich Contact API
   slug: fullenrich-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-contact-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-contact-api-openapi.yml
 - filename: fullenrich-people-api-openapi.yml
   format: yaml
   label: FullEnrich People API
   slug: fullenrich-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/openapi/fullenrich-people-api-openapi.yml
+  url: https://artifacts.apis.io/fullenrich/openapi/fullenrich-people-api-openapi.yml
 authorization_urls:
 - https://app.fullenrich.com/oauth2/authorize
 - https://mcp.fullenrich.com/authorize
@@ -161,7 +161,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: >-\n  https://app
   \    action: read\n    description: Read saved lists of people/companies. (Inferred.)\n    flows: [authorizationCode, clientCredentials]\n    sources: [well-known/fullenrich-app-openid-configuration.json]\n  - scope: listing:write\n    resource: listing\n    action: write\n    description: Create and modify saved lists. (Inferred.)\n    flows: [authorizationCode, clientCredentials]\n    sources: [well-known/fullenrich-app-openid-configuration.json]\n  - scope: payment:read\n    resource: payment\n    action: read\n    description: Read billing and payment state. Read-only — no payment:write scope is offered. (Inferred.)\n    flows: [authorizationCode, clientCredentials]\n    sources: [well-known/fullenrich-app-openid-configuration.json]\n  - scope: token:read\n    resource: token\n    action: read\n    description: Read API keys / tokens issued for the workspace. (Inferred.)\n    flows: [authorizationCode, clientCredentials]\n    sources: [well-known/fullenrich-app-openid-configuration.json]\n\
   \  - scope: token:write\n    resource: token\n    action: write\n    description: Issue or revoke API keys / tokens. (Inferred.)\n    flows: [authorizationCode, clientCredentials]\n    sources: [well-known/fullenrich-app-openid-configuration.json]\n  - scope: api:mcp\n    resource: mcp\n    action: all\n    description: >-\n      Single coarse scope granted to an MCP client for the whole agent surface —\n      search, enrichment and export alike. There is no read-only variant, so an\n      agent authorized for search is also authorized to spend credits.\n    flows: [authorizationCode]\n    server: https://mcp.fullenrich.com\n    sources:\n      - well-known/fullenrich-mcp-oauth-protected-resource.json\n      - well-known/fullenrich-mcp-oauth-authorization-server.json\n\nobservations:\n  - >-\n    The application server's scopes are cleanly resource:action split, which is\n    good practice, but they are undocumented — an integrator cannot discover them\n    without reading the well-known\
   \ metadata.\n  - >-\n    The MCP server takes the opposite approach: one scope for everything. Agent\n    least-privilege is therefore not expressible on the MCP surface; the\n    preview-then-confirm pattern FullEnrich documents is a client-side convention,\n    not a scope boundary.\n\nx-evidence:\n  - url: https://app.fullenrich.com/.well-known/openid-configuration\n    http_status: 200\n  - url: https://mcp.fullenrich.com/.well-known/oauth-protected-resource\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/scopes/fullenrich-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fullenrich/scopes/fullenrich-scopes.yml
 summary_line: 14 scopes · authorizationCode/clientCredentials
 tags:
 - B2B Data

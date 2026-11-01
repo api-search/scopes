@@ -5,19 +5,19 @@ api_specs:
   label: Xoxoday Authentication API
   slug: xoxoday-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-authentication-api-openapi.yml
 - filename: xoxoday-gift-cards-api-openapi.yml
   format: yaml
   label: Xoxoday Gift Cards API
   slug: xoxoday-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-gift-cards-api-openapi.yml
 - filename: xoxoday-reward-links-api-openapi.yml
   format: yaml
   label: Xoxoday Reward Links API
   slug: xoxoday-reward-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/openapi/xoxoday-reward-links-api-openapi.yml
+  url: https://artifacts.apis.io/xoxoday/openapi/xoxoday-reward-links-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://xoxoday.gitbook.io/plum/developer-resources/storefront-integration/api-endpoints/authorization
@@ -61,7 +61,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/openapi.yml\ndocs: https://xoxoday.gitbook.io/plum/developer-resources/storefront-integration/api-endpoints/authorization\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://accounts.xoxoday.com/chef/v1/oauth/token\nscopes:\n- scope: user_session\n  description: Company scope used only for the case of Company access_token generation;\n    compulsory when the authorization request is for company session generation.\n  sources:\n  - https://xoxoday.gitbook.io/plum/developer-resources/storefront-integration/api-endpoints/authorization\n- scope: company_session\n  description: Company scope for StoreFront OAuth authorization requests.\n  sources:\n  - https://xoxoday.gitbook.io/plum/developer-resources/storefront-integration/api-endpoints/authorization\nnote: Scopes apply to Xoxoday's StoreFront authorization-code OAuth flow; the Rewards\n\
   \  API client-credentials flow (https://developers.xoxoday.com/docs/authentication-2)\n  documents no scopes, with access controlled by client credentials and IP whitelisting.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/scopes/xoxoday-scopes.yml
+source_yaml_url: https://artifacts.apis.io/xoxoday/scopes/xoxoday-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Rewards

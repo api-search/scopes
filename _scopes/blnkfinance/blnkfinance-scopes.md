@@ -5,49 +5,49 @@ api_specs:
   label: Blnk Finance Accounts API
   slug: blnkfinance-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-accounts-api-openapi.yml
 - filename: blnkfinance-backup-api-openapi.yml
   format: yaml
   label: Blnk Finance Backup API
   slug: blnkfinance-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-backup-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-backup-api-openapi.yml
 - filename: blnkfinance-balance-monitors-api-openapi.yml
   format: yaml
   label: Blnk Finance Balance Monitors API
   slug: blnkfinance-balance-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-balance-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-balance-monitors-api-openapi.yml
 - filename: blnkfinance-balances-api-openapi.yml
   format: yaml
   label: Blnk Finance Balances API
   slug: blnkfinance-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-balances-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-balances-api-openapi.yml
 - filename: blnkfinance-identities-api-openapi.yml
   format: yaml
   label: Blnk Finance Identities API
   slug: blnkfinance-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-identities-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-identities-api-openapi.yml
 - filename: blnkfinance-ledgers-api-openapi.yml
   format: yaml
   label: Blnk Finance Ledgers API
   slug: blnkfinance-ledgers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-ledgers-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-ledgers-api-openapi.yml
 - filename: blnkfinance-refund-transaction-api-openapi.yml
   format: yaml
   label: Blnk Finance Refund Transaction API
   slug: blnkfinance-refund-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-refund-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-refund-transaction-api-openapi.yml
 - filename: blnkfinance-transactions-api-openapi.yml
   format: yaml
   label: Blnk Finance Transactions API
   slug: blnkfinance-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/openapi/blnkfinance-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/blnkfinance/openapi/blnkfinance-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.blnkfinance.com/api-keys/scopes
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://d
   \ each resource's\n  documented operations actually support. mcp:read and mcp:write are named explicitly in the Cloud MCP\n  docs. No scope here was invented.\ndocumented_patterns:\n- {use_case: Read-only reporting, scopes: ['ledgers:read', 'balances:read']}\n- {use_case: Payment processing, scopes: ['transactions:write', 'balances:read']}\n- {use_case: Identity management, scopes: ['identities:write', 'identities:read']}\n- {use_case: Metadata updates, scopes: ['metadata:write']}\n- {use_case: Key administration, scopes: ['api-keys:read', 'api-keys:write', 'api-keys:delete']}\n- {use_case: AI agent over MCP, scopes: ['mcp:read', 'mcp:write']}\nguidance:\n  least_privilege: 'Blnk explicitly warns against *:* unless full access is genuinely needed.'\n  escalation_guard: 'A non-master key cannot grant scopes broader than its own (AUTH_SCOPE_ESCALATION, 403), since 0.14.3.'\n  owner_scoping: 'A non-master key is limited to its own owner_id for key management (AUTH_CROSS_OWNER_ACCESS, 403).'\n\
   \  master_key_only:\n  - Hook management (create, update, view, list, delete) -- scoped keys get AUTH_MASTER_KEY_REQUIRED 403.\nerrors:\n- {code: AUTH_INSUFFICIENT_PERMISSIONS, status: 403, meaning: The key is missing the scope required for that endpoint}\n- {code: AUTH_UNKNOWN_RESOURCE, status: 403, meaning: The request path does not map to a known Blnk resource}\n- {code: AUTH_MASTER_KEY_REQUIRED, status: 403, meaning: The endpoint requires the master key}\n- {code: AUTH_SCOPE_ESCALATION, status: 403, meaning: Attempt to grant scopes broader than the caller's}\noauth:\n  supported: true\n  surface: Blnk Cloud\n  metadata_document: well-known/blnkfinance-oauth-authorization-server.json\n  issuer: https://api.cloud.blnkfinance.com\n  authorization_endpoint: https://api.cloud.blnkfinance.com/oauth/authorize\n  token_endpoint: https://api.cloud.blnkfinance.com/oauth/token\n  grant_types: [authorization_code, refresh_token]\n  pkce: [S256, plain]\n  token_endpoint_auth_methods: [client_secret_post,\
   \ client_secret_basic]\n  docs: https://docs.blnkfinance.com/cloud/auth/oauth\n  note: >-\n    The RFC 8414 metadata document declares no scopes_supported field, so the OAuth scope vocabulary is\n    only discoverable from the docs (mcp:read / mcp:write are the ones named).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blnkfinance/refs/heads/main/scopes/blnkfinance-scopes.yml
+source_yaml_url: https://artifacts.apis.io/blnkfinance/scopes/blnkfinance-scopes.yml
 summary_line: 24 scopes
 tags:
 - Fintech

@@ -5,55 +5,55 @@ api_specs:
   label: Conta Azul Categorias API
   slug: conta-azul-categorias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-categorias-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-categorias-api-openapi.yml
 - filename: conta-azul-centro-de-custo-api-openapi.yml
   format: yaml
   label: Conta Azul Centro De Custo API
   slug: conta-azul-centro-de-custo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-centro-de-custo-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-centro-de-custo-api-openapi.yml
 - filename: conta-azul-conta-financeira-api-openapi.yml
   format: yaml
   label: Conta Azul Conta Financeira API
   slug: conta-azul-conta-financeira-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-conta-financeira-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-conta-financeira-api-openapi.yml
 - filename: conta-azul-contratos-api-openapi.yml
   format: yaml
   label: Conta Azul Contratos API
   slug: conta-azul-contratos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-contratos-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-contratos-api-openapi.yml
 - filename: conta-azul-financeiro-api-openapi.yml
   format: yaml
   label: Conta Azul Financeiro API
   slug: conta-azul-financeiro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-financeiro-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-financeiro-api-openapi.yml
 - filename: conta-azul-orcamentos-api-openapi.yml
   format: yaml
   label: Conta Azul Orcamentos API
   slug: conta-azul-orcamentos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-orcamentos-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-orcamentos-api-openapi.yml
 - filename: conta-azul-produto-api-openapi.yml
   format: yaml
   label: Conta Azul Produto API
   slug: conta-azul-produto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-produto-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-produto-api-openapi.yml
 - filename: conta-azul-protocolo-api-openapi.yml
   format: yaml
   label: Conta Azul Protocolo API
   slug: conta-azul-protocolo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-protocolo-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-protocolo-api-openapi.yml
 - filename: conta-azul-venda-api-openapi.yml
   format: yaml
   label: Conta Azul Venda API
   slug: conta-azul-venda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/openapi/conta-azul-venda-api-openapi.yml
+  url: https://artifacts.apis.io/conta-azul/openapi/conta-azul-venda-api-openapi.yml
 authorization_urls:
 - https://auth.contaazul.com/login
 description: ''
@@ -106,7 +106,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developers.contaazul.com/requestingcode + https://developers.contaazul.com/migration\ndocs: https://developers.contaazul.com/auth\nnote: >-\n  Conta Azul's Nova API uses a single FIXED scope string on the OAuth2\n  authorization request. Per the migration guide, requesting this scope grants\n  the developer access to ALL API contexts, so there is no per-resource scope\n  surface to enumerate. The OpenAPI specs do not declare oauth2 scopes (they\n  declare only the resulting bearer scheme); these scopes are captured from the\n  documented authorization flow.\nschemes:\n- name: OAuth2\n  source: docs (https://developers.contaazul.com/auth)\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.contaazul.com/login\n    tokenUrl: https://auth.contaazul.com/oauth2/token\nfixed_scope_string: openid profile aws.cognito.signin.user.admin\nscopes:\n- scope: openid\n  description: OpenID Connect authentication\
   \ (identity).\n  flows: [authorizationCode]\n- scope: profile\n  description: Access to the connected user's profile.\n  flows: [authorizationCode]\n- scope: aws.cognito.signin.user.admin\n  description: >-\n    AWS Cognito admin scope — grants full administrative access to all Conta\n    Azul API contexts for the authorizing tenant.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/scopes/conta-azul-scopes.yml
+source_yaml_url: https://artifacts.apis.io/conta-azul/scopes/conta-azul-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

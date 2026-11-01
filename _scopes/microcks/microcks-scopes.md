@@ -5,37 +5,37 @@ api_specs:
   label: Microcks Config API
   slug: microcks-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-config-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-config-api-openapi.yml
 - filename: microcks-job-api-openapi.yml
   format: yaml
   label: Microcks Job API
   slug: microcks-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-job-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-job-api-openapi.yml
 - filename: microcks-metrics-api-openapi.yml
   format: yaml
   label: Microcks Metrics API
   slug: microcks-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-metrics-api-openapi.yml
 - filename: microcks-mock-api-openapi.yml
   format: yaml
   label: Microcks Mock API
   slug: microcks-mock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-mock-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-mock-api-openapi.yml
 - filename: microcks-resources-api-openapi.yml
   format: yaml
   label: Microcks Resources API
   slug: microcks-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-resources-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-resources-api-openapi.yml
 - filename: microcks-test-api-openapi.yml
   format: yaml
   label: Microcks Test API
   slug: microcks-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/openapi/microcks-test-api-openapi.yml
+  url: https://artifacts.apis.io/microcks/openapi/microcks-test-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -86,7 +86,7 @@ source_filename: microcks-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microcks-openapi.yml\nschemes:\n- name: jwt-bearer\n  source: openapi/microcks-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://keycloak.example.com/realms/microcks/protocol/openid-connect/token\n  description: JWT Bearer acquired using OAuth 2 Authentication flow or Direct Access Grant\nscopes:\n- scope: admin\n  description: Administrator of the Microcks instance\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microcks-openapi.yml\n- scope: manager\n  description: Services & APIs content manager\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microcks-openapi.yml\n- scope: user\n  description: Simple authenticated user\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microcks-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/scopes/microcks-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microcks/scopes/microcks-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - API Testing

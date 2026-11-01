@@ -5,25 +5,25 @@ api_specs:
   label: Google Data Studio Assets API
   slug: google-data-studio-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/openapi/google-data-studio-assets-api-openapi.yml
+  url: https://artifacts.apis.io/google-data-studio/openapi/google-data-studio-assets-api-openapi.yml
 - filename: google-data-studio-embedding-api-openapi.yml
   format: yaml
   label: Google Data Studio Embedding API
   slug: google-data-studio-embedding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/openapi/google-data-studio-embedding-api-openapi.yml
+  url: https://artifacts.apis.io/google-data-studio/openapi/google-data-studio-embedding-api-openapi.yml
 - filename: google-data-studio-permissions-api-openapi.yml
   format: yaml
   label: Google Data Studio Permissions API
   slug: google-data-studio-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/openapi/google-data-studio-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/google-data-studio/openapi/google-data-studio-permissions-api-openapi.yml
 - filename: google-data-studio-reports-api-openapi.yml
   format: yaml
   label: Google Data Studio Reports API
   slug: google-data-studio-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/openapi/google-data-studio-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-data-studio/openapi/google-data-studio-reports-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -77,7 +77,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-data-studio-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-data-studio-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication. Requires domain-wide delegation configured by a Google\n    Workspace administrator.\nscopes:\n- scope: https://www.googleapis.com/auth/datastudio\n  description: Full read and write access to Looker Studio assets and permissions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-data-studio-api-openapi.yml\n- scope: https://www.googleapis.com/auth/datastudio.readonly\n  description: Read-only access to Looker Studio assets and permissions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-data-studio-api-openapi.yml\n- scope: https://www.googleapis.com/auth/userinfo.profile\n  description:\
   \ Access to user profile information.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-data-studio-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/scopes/google-data-studio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-data-studio/scopes/google-data-studio-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Analytics

@@ -57,7 +57,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://modcloth.com/.well-known/openid-configuration\ndocs: https://modcloth.com/.well-known/oauth-authorization-server\nschemes:\n- name: shopify-customer-account-oidc\n  issuer: https://shopify.com/authentication/55906042027\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://account.modcloth.com/authentication/oauth/authorize\n    tokenUrl: https://account.modcloth.com/authentication/oauth/token\n    pkce: S256\nscopes:\n- scope: openid\n  description: OpenID Connect — issue an ID token for the authenticated shopper.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the shopper's email address and email_verified claim.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in shopper (orders, profile, addresses).\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description:\
   \ Full access to the Customer Account MCP API — agent access to the shopper's account context.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modcloth/refs/heads/main/scopes/modcloth-scopes.yml
+source_yaml_url: https://artifacts.apis.io/modcloth/scopes/modcloth-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

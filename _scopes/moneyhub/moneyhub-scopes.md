@@ -5,121 +5,121 @@ api_specs:
   label: Moneyhub Accounts API
   slug: moneyhub-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-accounts-api-openapi.yml
 - filename: moneyhub-affordability-api-openapi.yml
   format: yaml
   label: Moneyhub Affordability API
   slug: moneyhub-affordability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-affordability-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-affordability-api-openapi.yml
 - filename: moneyhub-beneficiaries-api-openapi.yml
   format: yaml
   label: Moneyhub Beneficiaries API
   slug: moneyhub-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-beneficiaries-api-openapi.yml
 - filename: moneyhub-categories-api-openapi.yml
   format: yaml
   label: Moneyhub Categories API
   slug: moneyhub-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-categories-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-categories-api-openapi.yml
 - filename: moneyhub-categorise-transactions-api-openapi.yml
   format: yaml
   label: Moneyhub categorise transactions API
   slug: moneyhub-categorise-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-categorise-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-categorise-transactions-api-openapi.yml
 - filename: moneyhub-counterparties-api-openapi.yml
   format: yaml
   label: Moneyhub Counterparties API
   slug: moneyhub-counterparties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-counterparties-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-counterparties-api-openapi.yml
 - filename: moneyhub-holdings-api-openapi.yml
   format: yaml
   label: Moneyhub Holdings API
   slug: moneyhub-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-holdings-api-openapi.yml
 - filename: moneyhub-notification-thresholds-api-openapi.yml
   format: yaml
   label: Moneyhub notification thresholds API
   slug: moneyhub-notification-thresholds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-notification-thresholds-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-notification-thresholds-api-openapi.yml
 - filename: moneyhub-projects-api-openapi.yml
   format: yaml
   label: Moneyhub Projects API
   slug: moneyhub-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-projects-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-projects-api-openapi.yml
 - filename: moneyhub-regular-transactions-api-openapi.yml
   format: yaml
   label: Moneyhub regular transactions API
   slug: moneyhub-regular-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-regular-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-regular-transactions-api-openapi.yml
 - filename: moneyhub-rental-records-api-openapi.yml
   format: yaml
   label: Moneyhub rental records API
   slug: moneyhub-rental-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-rental-records-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-rental-records-api-openapi.yml
 - filename: moneyhub-savings-goals-api-openapi.yml
   format: yaml
   label: Moneyhub savings goals API
   slug: moneyhub-savings-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-savings-goals-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-savings-goals-api-openapi.yml
 - filename: moneyhub-spending-analysis-api-openapi.yml
   format: yaml
   label: Moneyhub spending analysis API
   slug: moneyhub-spending-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-spending-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-spending-analysis-api-openapi.yml
 - filename: moneyhub-spending-goals-api-openapi.yml
   format: yaml
   label: Moneyhub spending goals API
   slug: moneyhub-spending-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-spending-goals-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-spending-goals-api-openapi.yml
 - filename: moneyhub-standard-financial-statements-api-openapi.yml
   format: yaml
   label: Moneyhub Standard Financial Statements API
   slug: moneyhub-standard-financial-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-standard-financial-statements-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-standard-financial-statements-api-openapi.yml
 - filename: moneyhub-standing-orders-api-openapi.yml
   format: yaml
   label: Moneyhub standing orders API
   slug: moneyhub-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-standing-orders-api-openapi.yml
 - filename: moneyhub-statements-api-openapi.yml
   format: yaml
   label: Moneyhub Statements API
   slug: moneyhub-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-statements-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-statements-api-openapi.yml
 - filename: moneyhub-sync-api-openapi.yml
   format: yaml
   label: Moneyhub Sync API
   slug: moneyhub-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-sync-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-sync-api-openapi.yml
 - filename: moneyhub-tax-api-openapi.yml
   format: yaml
   label: Moneyhub Tax API
   slug: moneyhub-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-tax-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-tax-api-openapi.yml
 - filename: moneyhub-transactions-api-openapi.yml
   format: yaml
   label: Moneyhub Transactions API
   slug: moneyhub-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/openapi/moneyhub-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/moneyhub/openapi/moneyhub-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.moneyhubenterprise.com/docs/scopes
@@ -597,7 +597,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: https://identit
   \ Access to widget launch.\n- scope: reseller:create\n  description: Access to reseller create.\n- scope: consent_history:read\n  description: Access to consent history read.\n- scope: scim_user:write\n  description: Access to scim user write.\n- scope: scim_user:read\n  description: Access to scim user read.\n- scope: scim_user:subtenants:assign\n  description: Access to scim user subtenants assign.\n- scope: standard_financial_statement:write\n  description: Access to standard financial statement write.\n- scope: standard_financial_statement:read\n  description: Access to standard financial statement read.\n- scope: standard_financial_statement_restricted:read\n  description: Access to standard financial statement restricted read.\n- scope: collections_lite:write\n  description: Access to collections lite write.\n- scope: collections_lite_restricted:read\n  description: Access to collections lite restricted read.\n- scope: decisioning_journeys_restricted:write\n  description: Access\
   \ to decisioning journeys restricted write.\n- scope: savings_goals_ai:write\n  description: Access to savings goals ai write.\n- scope: categorisation\n  description: Access to categorisation.\n- scope: account_information_widget_restricted:read\n  description: Access to account information widget restricted read.\n- scope: caas:transactions:write\n  description: Access to caas transactions write.\n- scope: caas:transactions:read\n  description: Access to caas transactions read.\n- scope: caas:transactions:delete\n  description: Access to caas transactions delete.\n- scope: caas:transaction_splits:write\n  description: Access to caas transaction splits write.\n- scope: caas:transaction_splits:read\n  description: Access to caas transaction splits read.\n- scope: caas:transaction_splits:delete\n  description: Access to caas transaction splits delete.\n- scope: caas:enhanced_transactions:read\n  description: Access to caas enhanced transactions read.\n- scope: caas:regular_transactions:read\n\
   \  description: Access to caas regular transactions read.\n- scope: caas:categories:read\n  description: Access to caas categories read.\n- scope: caas:categories:write\n  description: Access to caas categories write.\n- scope: caas:categories:delete\n  description: Access to caas categories delete.\n- scope: caas:users:delete\n  description: Access to caas users delete.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/scopes/moneyhub-scopes.yml
+source_yaml_url: https://artifacts.apis.io/moneyhub/scopes/moneyhub-scopes.yml
 summary_line: 108 scopes
 tags:
 - Payments

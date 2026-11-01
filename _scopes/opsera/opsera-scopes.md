@@ -33,7 +33,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.opsera.io/api-platform-and-integration/opsera-api-platform\ndocs: https://docs.opsera.io/api-platform-and-integration/opsera-api-platform/personal-access-tokens\nmodel: personal-access-token-scopes\nnote: >-\n  Opsera Personal Access Tokens carry a single predefined scope selected at creation time. The\n  scope limits which family of APIs the token may call (a pipeline-scoped token can ONLY perform\n  pipeline actions). Scope match is combined with the token owner's RBAC before access is granted;\n  a mismatch or insufficient permission returns 403 Forbidden. These are token scopes on a JWT\n  bearer model, not OAuth2 authorization flows.\nscopes:\n  - scope: API Access\n    description: General access required to call the Opsera platform APIs (e.g. pipeline run/status, MCP server).\n    sources: [docs]\n  - scope: Pipeline Access\n    description: Permits pipeline actions such as triggering a run and reading run\
   \ status.\n    sources: [docs]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opsera/refs/heads/main/scopes/opsera-scopes.yml
+source_yaml_url: https://artifacts.apis.io/opsera/scopes/opsera-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company

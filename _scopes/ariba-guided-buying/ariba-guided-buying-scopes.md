@@ -5,13 +5,13 @@ api_specs:
   label: Ariba Guided Buying Requisitions API
   slug: ariba-guided-buying-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/openapi/ariba-guided-buying-requisitions-api-openapi.yml
+  url: https://artifacts.apis.io/ariba-guided-buying/openapi/ariba-guided-buying-requisitions-api-openapi.yml
 - filename: ariba-guided-buying-shops-api-openapi.yml
   format: yaml
   label: Ariba Guided Buying Shops API
   slug: ariba-guided-buying-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/openapi/ariba-guided-buying-shops-api-openapi.yml
+  url: https://artifacts.apis.io/ariba-guided-buying/openapi/ariba-guided-buying-shops-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -66,7 +66,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/ariba-guided-buying-asset-management-api.yaml, openapi/ariba-guided-buying-catalog-shop-api.yaml,\n  openapi/ariba-guided-buying-requisitions-api-openapi.yml, openapi/ariba-guided-buying-shops-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/ariba-guided-buying-requisitions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ariba.com/v2/oauth/token\n  description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token\n    using client credentials.\n- name: OAuth2\n  source: openapi/ariba-guided-buying-shops-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ariba.com/v2/oauth/token\n  description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token\n    using client credentials. Include the application key in the apikey header.\n- name: OAuth2\n  source: openapi/ariba-guided-buying-asset-management-api.yaml\n\
   \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ariba.com/v2/oauth/token\n  description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token\n    using client credentials.\n- name: OAuth2\n  source: openapi/ariba-guided-buying-catalog-shop-api.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ariba.com/v2/oauth/token\n  description: OAuth 2.0 authentication. Obtain access token from https://api.ariba.com/v2/oauth/token\n    using client credentials. Include the application key in the apikey header.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/scopes/ariba-guided-buying-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ariba-guided-buying/scopes/ariba-guided-buying-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - B2B

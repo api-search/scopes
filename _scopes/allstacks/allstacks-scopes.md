@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://app.allstacks.com/.well-known/oauth-authorization-server\ndocs: https://app.allstacks.com/.well-known/oauth-protected-resource\nschemes:\n- name: OAuth2\n  source: well-known/allstacks-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.allstacks.com/oauth/authorize/\n    tokenUrl: https://app.allstacks.com/oauth/token/\nscopes:\n- scope: connector\n  description: >-\n    Access granted to a registered connector/agent integration against the\n    Allstacks platform. This is the only scope advertised in the authorization\n    server and protected-resource metadata (scopes_supported: [\"connector\"]).\n  flows: [authorizationCode]\n  sources: [well-known/allstacks-oauth-authorization-server.json]\nnotes: >-\n  Scopes captured verbatim from Allstacks' live OAuth discovery metadata. The\n  platform publishes exactly one OAuth scope (\"connector\"); no broader scope /\n\
   \  permission reference is published publicly.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allstacks/refs/heads/main/scopes/allstacks-scopes.yml
+source_yaml_url: https://artifacts.apis.io/allstacks/scopes/allstacks-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

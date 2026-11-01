@@ -57,7 +57,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: well-known/better-openid-configuration.json\ndocs: https://better.com/.well-known/openid-configuration\nnote: >-\n  OIDC scopes advertised by the consumer sign-in identity provider (AWS Cognito).\n  These are standard OpenID Connect scopes, not developer-API permission scopes;\n  Better publishes no public developer API.\nschemes:\n- name: BetterOIDC\n  source: well-known/better-openid-configuration.json\n  issuer: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_ZQ2HayNPw\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://prod.bettermg.com/api/idp/sso\n    tokenUrl: https://prod.bettermg.com/api/idp/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the signed-in user.\n  flows: [authorizationCode]\n  sources: [well-known/better-openid-configuration.json]\n- scope: email\n  description: Access to the user's email address and email_verified claims.\n\
   \  flows: [authorizationCode]\n  sources: [well-known/better-openid-configuration.json]\n- scope: phone\n  description: Access to the user's phone_number and phone_number_verified claims.\n  flows: [authorizationCode]\n  sources: [well-known/better-openid-configuration.json]\n- scope: profile\n  description: Access to the user's default profile claims (name, etc.).\n  flows: [authorizationCode]\n  sources: [well-known/better-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/better/refs/heads/main/scopes/better-scopes.yml
+source_yaml_url: https://artifacts.apis.io/better/scopes/better-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

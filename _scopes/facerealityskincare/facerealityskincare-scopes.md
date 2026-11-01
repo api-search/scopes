@@ -45,7 +45,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://facerealityskincare.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\ndescription: >-\n  OAuth 2.0 scopes advertised by the Shopify Customer Account API discovery\n  document for Face Reality Skincare (scopes_supported). openid/email are\n  standard OIDC scopes; the customer-account-api and customer-account-mcp-api\n  full scopes gate access to the customer account GraphQL API and its MCP\n  surface respectively.\nschemes:\n- name: shopifyCustomerAccountOAuth\n  type: oauth2\n  authorizationUrl: https://account.facerealityskincare.com/authentication/oauth/authorize\n  tokenUrl: https://account.facerealityskincare.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope; returns an ID token identifying the customer.\n  schemes:\n  - shopifyCustomerAccountOAuth\n- scope: email\n  description: Access to the customer's email address and email_verified\
   \ claim.\n  schemes:\n  - shopifyCustomerAccountOAuth\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the signed-in customer.\n  schemes:\n  - shopifyCustomerAccountOAuth\n- scope: customer-account-mcp-api:full\n  description: Full access to the customer-account MCP surface on behalf of the signed-in customer.\n  schemes:\n  - shopifyCustomerAccountOAuth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facerealityskincare/refs/heads/main/scopes/facerealityskincare-scopes.yml
+source_yaml_url: https://artifacts.apis.io/facerealityskincare/scopes/facerealityskincare-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

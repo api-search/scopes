@@ -5,13 +5,13 @@ api_specs:
   label: Coresignal Collect API
   slug: coresignal-collect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-collect-api-openapi.yml
+  url: https://artifacts.apis.io/coresignal/openapi/coresignal-collect-api-openapi.yml
 - filename: coresignal-search-api-openapi.yml
   format: yaml
   label: Coresignal Search API
   slug: coresignal-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-search-api-openapi.yml
+  url: https://artifacts.apis.io/coresignal/openapi/coresignal-search-api-openapi.yml
 authorization_urls:
 - https://dashboard.coresignal.com/api/auth/oauth2/authorize
 description: ''
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  well-known/
   \    token_endpoint_auth_methods: [none, client_secret_basic, client_secret_post]\n    id_token_signing_alg: [RS256]\nscopes:\n  - scope: openid\n    description: Standard OIDC scope — request an ID token identifying the signed-in dashboard user.\n    flows: [authorizationCode]\n    sources: [well-known/coresignal-oauth-authorization-server.json]\n  - scope: profile\n    description: >-\n      Standard OIDC scope — name, given_name, family_name, picture claims for the dashboard user.\n    flows: [authorizationCode]\n    sources: [well-known/coresignal-oauth-authorization-server.json]\n  - scope: email\n    description: Standard OIDC scope — email and email_verified claims for the dashboard user.\n    flows: [authorizationCode]\n    sources: [well-known/coresignal-oauth-authorization-server.json]\n  - scope: offline_access\n    description: >-\n      Standard OIDC scope — issue a refresh token so the MCP client can keep the session alive without\n      re-prompting the user in the browser.\n\
   \    flows: [authorizationCode]\n    sources: [well-known/coresignal-oauth-authorization-server.json]\nresource_scopes:\n  resource: https://mcp.coresignal.com/mcp/v2\n  scopes_supported: []\n  bearer_methods_supported: [header]\n  interpretation: >-\n    The MCP resource declares an EMPTY scope list. Authorization is binary — a valid token for a team\n    grants every tool, including the credit-spending ones (entity_search at 20 credits, entity_fetch\n    at up to 20 credits per record, email_enrich at 10 credits per email). Spend control is handled by\n    the server's confirmation prompt before expensive calls, not by the token.\nclaims_supported: [sub, iss, aud, exp, iat, sid, scope, azp, email, email_verified, name, picture, family_name, given_name]\nrest_api_scopes:\n  present: false\n  note: >-\n    api.coresignal.com authenticates with a 32-character `apikey` header. Keys have no scopes and no\n    least-privilege model; entitlement is the plan attached to the account. Multiple\
   \ keys per account\n    can be generated and revoked, which is the only isolation mechanism available.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/scopes/coresignal-scopes.yml
+source_yaml_url: https://artifacts.apis.io/coresignal/scopes/coresignal-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials/refreshToken
 tags:
 - Agentic Search

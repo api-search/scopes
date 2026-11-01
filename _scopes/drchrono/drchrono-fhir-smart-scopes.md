@@ -5,37 +5,37 @@ api_specs:
   label: drchrono Administrative API
   slug: drchrono-administrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-administrative-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-administrative-api-openapi.yml
 - filename: drchrono-audit-api-openapi.yml
   format: yaml
   label: drchrono Audit API
   slug: drchrono-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-audit-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-audit-api-openapi.yml
 - filename: drchrono-availability-api-openapi.yml
   format: yaml
   label: drchrono Availability API
   slug: drchrono-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-availability-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-availability-api-openapi.yml
 - filename: drchrono-billing-api-openapi.yml
   format: yaml
   label: drchrono Billing API
   slug: drchrono-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-billing-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-billing-api-openapi.yml
 - filename: drchrono-clinical-api-openapi.yml
   format: yaml
   label: drchrono Clinical API
   slug: drchrono-clinical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-clinical-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-clinical-api-openapi.yml
 - filename: drchrono-practice-management-api-openapi.yml
   format: yaml
   label: drchrono Practice Management API
   slug: drchrono-practice-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-practice-management-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-practice-management-api-openapi.yml
 authorization_urls:
 - https://drchrono-fhir.everhealthsoftware.com/core/connect/authorize
 description: SMART App Launch scopes advertised by the DrChrono SMART on FHIR R4 authorization server, read verbatim from the scopes_supported array of the server's own smart-configuration discovery document on 2026-08-14. These are a SEPARATE vocabulary from the DrChrono REST v4 OAuth scopes in scopes/drchrono-scopes.yml — a token from one authorization server is not valid against the other.
@@ -1012,7 +1012,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://drchrono-
   \  access: n/a\n- scope: user/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|laboratory\n  access: n/a\n- scope: user/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|social-history\n  access: n/a\n- scope: user/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|vital-signs\n  access: n/a\n- scope: user/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|survey\n  access: n/a\n- scope: user/Observation.rs?category=http://hl7.org/fhir/us/core/CodeSystem/us-core-category|sdoh\n  access: n/a\n- scope: system/Condition.rs?category=http://terminology.hl7.org/CodeSystem/condition-category|encounter-diagnosis\n  access: n/a\n- scope: system/Condition.rs?category=http://hl7.org/fhir/us/core/CodeSystem/condition-category|health-concern\n  access: n/a\n- scope: system/Condition.rs?category=http://terminology.hl7.org/CodeSystem/condition-category|problem-list-item\n\
   \  access: n/a\n- scope: system/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|laboratory\n  access: n/a\n- scope: system/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|social-history\n  access: n/a\n- scope: system/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|vital-signs\n  access: n/a\n- scope: system/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|survey\n  access: n/a\n- scope: system/Observation.rs?category=http://hl7.org/fhir/us/core/CodeSystem/us-core-category|sdoh\n  access: n/a\n- scope: patient/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|procedure\n  access: n/a\n- scope: user/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|procedure\n  access: n/a\n- scope: system/Observation.rs?category=http://terminology.hl7.org/CodeSystem/observation-category|procedure\n  access:\
   \ n/a\n- scope: offline_access\n  access: n/a\nnotes:\n- Every resource scope advertised is .read — consistent with the CapabilityStatement, which declares only read and\n  search-type interactions. The FHIR surface is read-only.\n- permission-v1 and permission-v2 are both advertised as SMART capabilities, so both the v1 (patient/Observation.read)\n  and v2 (patient/Observation.rs) scope syntaxes may be accepted; only the v1 form appears in scopes_supported.\n- Scope grants are provisioned at client registration by an EHR vendor admin, not by dynamic client registration.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/scopes/drchrono-fhir-smart-scopes.yml
+source_yaml_url: https://artifacts.apis.io/drchrono/scopes/drchrono-fhir-smart-scopes.yml
 summary_line: 233 scopes
 tags:
 - Electronic Health Records

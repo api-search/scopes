@@ -5,79 +5,79 @@ api_specs:
   label: Algbra Accounts API
   slug: algbra-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-accounts-api-openapi.yml
 - filename: algbra-transactions-api-openapi.yml
   format: yaml
   label: Algbra Transactions API
   slug: algbra-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-transactions-api-openapi.yml
 - filename: algbra-automated-payments-api-openapi.yml
   format: yaml
   label: Algbra Automated Payments API
   slug: algbra-automated-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-automated-payments-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-automated-payments-api-openapi.yml
 - filename: algbra-cards-api-openapi.yml
   format: yaml
   label: Algbra Cards API
   slug: algbra-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-cards-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-cards-api-openapi.yml
 - filename: algbra-compliance-api-openapi.yml
   format: yaml
   label: Algbra Compliance API
   slug: algbra-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-compliance-api-openapi.yml
 - filename: algbra-customers-api-openapi.yml
   format: yaml
   label: Algbra Customers API
   slug: algbra-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-customers-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-customers-api-openapi.yml
 - filename: algbra-investments-api-openapi.yml
   format: yaml
   label: Algbra Investments API
   slug: algbra-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-investments-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-investments-api-openapi.yml
 - filename: algbra-onboarding-prospects-business-api-openapi.yml
   format: yaml
   label: Algbra Onboarding Prospects - Business API
   slug: algbra-onboarding-prospects-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-onboarding-prospects-business-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-onboarding-prospects-business-api-openapi.yml
 - filename: algbra-onboarding-prospects-personal-api-openapi.yml
   format: yaml
   label: Algbra Onboarding Prospects - Personal API
   slug: algbra-onboarding-prospects-personal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-onboarding-prospects-personal-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-onboarding-prospects-personal-api-openapi.yml
 - filename: algbra-partner-api-openapi.yml
   format: yaml
   label: Algbra Partner API
   slug: algbra-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-partner-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-partner-api-openapi.yml
 - filename: algbra-partners-api-openapi.yml
   format: yaml
   label: Algbra Partners API
   slug: algbra-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-partners-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-partners-api-openapi.yml
 - filename: algbra-payment-simulations-api-openapi.yml
   format: yaml
   label: Algbra Payment Simulations API
   slug: algbra-payment-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-payment-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-payment-simulations-api-openapi.yml
 - filename: algbra-payments-api-openapi.yml
   format: yaml
   label: Algbra Payments API
   slug: algbra-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/openapi/algbra-payments-api-openapi.yml
+  url: https://artifacts.apis.io/algbra/openapi/algbra-payments-api-openapi.yml
 authorization_urls:
 - https://secure.tell.systems/algbra/auth/oidc/authorize
 description: ''
@@ -145,7 +145,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: openapi/algbra-account-transaction-api-openapi.yml\ndocs: https://developer.algbralabs.com/open-banking-uk/introduction\nnote: >-\n  OAuth2 schemes/scope 'accounts' derived from the harvested AIS spec; the additional\n  OBIE scopes (openid, payments, fundsconfirmations) are documented in Algbra's Open\n  Banking security model and the OBIE Read/Write Standard for the PIS/CBPII surfaces,\n  which are not separately specified.\nschemes:\n- name: PSUOAuth2Security\n  source: openapi/algbra-account-transaction-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://secure.tell.systems/algbra/auth/oidc/authorize\n    tokenUrl: https://secure.tell.systems/algbra/auth/oidc/token\n  description: PSU authorization-code flow requiring SCA with the ASPSP.\n- name: TPPOAuth2Security\n  source: openapi/algbra-account-transaction-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://secure.tell.systems/algbra/auth/oidc/token\n\
   \  description: TPP client-credentials authorisation flow with the ASPSP.\nscopes:\n- scope: accounts\n  description: Read access to accounts, balances, beneficiaries and transactions (AIS).\n  flows: [authorizationCode, clientCredentials]\n  sources: [openapi/algbra-account-transaction-api-openapi.yml]\n- scope: openid\n  description: OpenID Connect authentication (id_token) as part of the FAPI flow.\n  flows: [authorizationCode]\n  sources: [docs]\n- scope: payments\n  description: Initiate payments on the customer's behalf (PIS) - documented, not separately specified.\n  flows: [authorizationCode, clientCredentials]\n  sources: [docs]\n- scope: fundsconfirmations\n  description: Confirm availability of funds (CBPII) - documented, not separately specified.\n  flows: [clientCredentials]\n  sources: [docs]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/scopes/algbra-scopes.yml
+source_yaml_url: https://artifacts.apis.io/algbra/scopes/algbra-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
 - Financial Services

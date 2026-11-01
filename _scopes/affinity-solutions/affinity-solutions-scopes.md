@@ -28,7 +28,7 @@ source_filename: affinity-solutions-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: https://www.affinity.solutions/.well-known/oauth-authorization-server\ndocs: null\ndocs_note: >-\n  The provider publishes no scopes or permissions reference page; these scopes are read from the\n  authorization-server and protected-resource metadata documents themselves.\nauthorization_server: https://www.affinity.solutions\nscopes:\n- name: mcp\n  description: >-\n    The single scope the authorization server advertises (scopes_supported) and the single scope the\n    protected-resource document attaches to the MCP endpoint. The provider publishes no per-tool or\n    per-resource scope breakdown; a finer-grained model, if one exists, is only visible after an\n    authenticated tools/list, which returns 401 anonymously.\n  resource: https://www.affinity.solutions/wp-json/mcp/mcp-oauth-server\n  source: both scopes_supported in the RFC 8414 document and scopes_supported in the RFC 9728 document\nscope_count: 1\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affinity-solutions/refs/heads/main/scopes/affinity-solutions-scopes.yml
+source_yaml_url: https://artifacts.apis.io/affinity-solutions/scopes/affinity-solutions-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

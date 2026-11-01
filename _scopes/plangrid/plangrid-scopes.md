@@ -5,31 +5,31 @@ api_specs:
   label: PlanGrid Batch API
   slug: plangrid-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-batch-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-batch-api-openapi.yml
 - filename: plangrid-me-api-openapi.yml
   format: yaml
   label: PlanGrid Me API
   slug: plangrid-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-me-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-me-api-openapi.yml
 - filename: plangrid-oauth-api-openapi.yml
   format: yaml
   label: PlanGrid OAuth API
   slug: plangrid-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-oauth-api-openapi.yml
 - filename: plangrid-projects-api-openapi.yml
   format: yaml
   label: PlanGrid Projects API
   slug: plangrid-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-projects-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-projects-api-openapi.yml
 - filename: plangrid-rate-limits-api-openapi.yml
   format: yaml
   label: PlanGrid Rate Limits API
   slug: plangrid-rate-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/openapi/plangrid-rate-limits-api-openapi.yml
+  url: https://artifacts.apis.io/plangrid/openapi/plangrid-rate-limits-api-openapi.yml
 authorization_urls:
 - https://io.plangrid.com/oauth/authorize
 description: ''
@@ -80,7 +80,7 @@ source_filename: plangrid-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://developer.plangrid.com/reference/oauth-scopes\ndocs: https://developer.plangrid.com/reference/oauth-scopes\nschemes:\n- name: OAuth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://io.plangrid.com/oauth/authorize\n    tokenUrl: https://io.plangrid.com/oauth/token\n  - flow: implicit\n    authorizationUrl: https://io.plangrid.com/oauth/authorize\nscopes:\n- scope: write:projects\n  description: >-\n    Allows the application access to view and manage project data on your behalf. This is the\n    default scope if no scope parameter is provided with an authorization request.\n  flows: [authorizationCode, implicit]\n- scope: read:profile\n  description: >-\n    Allows the application access to view the user profile, including UID, first name, last name,\n    and email. This scope is required to access the User Profile.\n  flows: [authorizationCode, implicit]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plangrid/refs/heads/main/scopes/plangrid-scopes.yml
+source_yaml_url: https://artifacts.apis.io/plangrid/scopes/plangrid-scopes.yml
 summary_line: 2 scopes · authorizationCode/implicit
 tags:
 - Company

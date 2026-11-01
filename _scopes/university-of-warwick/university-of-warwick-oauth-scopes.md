@@ -5,25 +5,25 @@ api_specs:
   label: University of Warwick Administration API
   slug: university-of-warwick-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/openapi/university-of-warwick-administration-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-warwick/openapi/university-of-warwick-administration-api-openapi.yml
 - filename: university-of-warwick-jobs-api-openapi.yml
   format: yaml
   label: University of Warwick Jobs API
   slug: university-of-warwick-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/openapi/university-of-warwick-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-warwick/openapi/university-of-warwick-jobs-api-openapi.yml
 - filename: university-of-warwick-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Warwick OAI PMH API
   slug: university-of-warwick-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/openapi/university-of-warwick-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-warwick/openapi/university-of-warwick-oai-pmh-api-openapi.yml
 - filename: university-of-warwick-timetabling-api-openapi.yml
   format: yaml
   label: University of Warwick Timetabling API
   slug: university-of-warwick-timetabling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/openapi/university-of-warwick-timetabling-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-warwick/openapi/university-of-warwick-timetabling-api-openapi.yml
 authorization_urls:
 - https://websignon.warwick.ac.uk/oauth/authorise
 description: ''
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: searched\nsource: https://warwick
   \    version: OAuth 1.0a\n    signature_algorithms: [RSA-SHA1, HMAC-SHA1]\n    flows:\n      - flow: threeLegged\n        requestTokenUrl: https://websignon.warwick.ac.uk/oauth/requestToken\n        authorizationUrl: https://websignon.warwick.ac.uk/oauth/authorise\n        accessTokenUrl: https://websignon.warwick.ac.uk/oauth/accessToken\nscopes:\n  - scope: urn:www2.warwick.ac.uk:sitebuilder2:read:service\n    service: Sitebuilder\n    description: Read access to Sitebuilder, Warwick's own institutional web content management system.\n    flows: [threeLegged]\n  - scope: urn:sitebuilder.warwick.ac.uk:sitebuilder2:edit:service\n    service: Sitebuilder\n    description: Edit access to Sitebuilder pages and content.\n    flows: [threeLegged]\n  - scope: urn:search.warwick.ac.uk:search:service\n    service: Warwick Search\n    description: Access to Warwick Search, the institution's own site and people search service.\n    flows: [threeLegged]\n  - scope: urn:files.warwick.ac.uk:files:service\n\
   \    service: Files.Warwick\n    description: Access to the Files.Warwick file storage service on the user's behalf.\n    flows: [threeLegged]\n  - scope: urn:blogs.warwick.ac.uk:blogbuilder:service\n    service: Warwick Blogs\n    description: Access to Warwick Blogs (BlogBuilder), the institution's own blogging platform.\n    flows: [threeLegged]\n  - scope: urn:forums.warwick.ac.uk:forums:service\n    service: Warwick Forums\n    description: Access to Warwick Forums on the user's behalf.\n    flows: [threeLegged]\n  - scope: urn:examtimetable.warwick.ac.uk:examtimetable:service\n    service: Exam Timetabling\n    description: Access to the user's exam timetable.\n    flows: [threeLegged]\n  - scope: urn:printercredits.warwick.ac.uk:printcredit:service\n    service: Printer Credits\n    description: Access to the user's campus printing credit balance.\n    flows: [threeLegged]\n  - scope: urn:websignon.warwick.ac.uk:sso:service\n    service: Web Sign-on\n    description: Access to the\
   \ user's Web Sign-on identity attributes.\n    flows: [threeLegged]\ncoverage:\n  scopes_total: 9\n  documented_by_provider: true\n  machine_readable: false\n  exhaustive: false\n  note: >-\n    Warwick explicitly labels its own table non-exhaustive. Further detail on retrieving user\n    information from Web Sign-on sits behind an access-restricted page open only to University\n    members and registered Web Sign-on developers, so the public scope inventory stops here.\nx-evidence:\n  - url: https://warwick.ac.uk/services/its/servicessupport/web/sign-on/help/oauth/apis/\n    status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/scopes/university-of-warwick-oauth-scopes.yml
+source_yaml_url: https://artifacts.apis.io/university-of-warwick/scopes/university-of-warwick-oauth-scopes.yml
 summary_line: 9 scopes · threeLegged
 tags:
 - University

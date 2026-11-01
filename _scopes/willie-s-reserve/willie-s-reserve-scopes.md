@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: https://williesreserve.com/.well-known/openid-configuration\ndescription: >-\n  OAuth 2.0 / OpenID Connect scopes advertised by the store's customer-account authorization\n  server, read from the scopes_supported array of the discovery document served on the company's\n  own domain. Derived from no OpenAPI — this store publishes none — so every value here is\n  verbatim from the provider's discovery document.\nissuer: https://shopify.com/authentication/59591163950\nscope_count: 4\nscopes:\n- name: openid\n  description: Standard OpenID Connect scope requesting an ID token for the authenticated customer.\n- name: email\n  description: Releases the customer's email and email_verified claims.\n- name: customer-account-api:full\n  description: Full access to the customer-account API for the authenticated customer.\n- name: customer-account-mcp-api:full\n  description: >-\n    Full access to the customer-account MCP API — the authenticated\
   \ counterpart to the anonymous\n    UCP/MCP storefront endpoint, covering the signed-in customer's own account context.\nnote: >-\n  These scopes govern the customer-account surface only. The anonymous UCP/MCP endpoint at\n  /api/ucp/mcp requires no scope and no token.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/willie-s-reserve/refs/heads/main/scopes/willie-s-reserve-scopes.yml
+source_yaml_url: https://artifacts.apis.io/willie-s-reserve/scopes/willie-s-reserve-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.start.gg/docs/oauth/scopes\ndocs: https://developer.start.gg/docs/oauth/scopes\nschemes:\n  - name: OAuth2\n    source: https://developer.start.gg/docs/oauth/oauth-overview\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://start.gg/oauth/authorize\n        tokenUrl: https://api.start.gg/oauth/access_token\nscopes:\n  - scope: user.identity\n    description: >-\n      Allows use of the currentUser query and all public fields for the user.\n      Any private fields require additional scopes.\n    flows: [authorizationCode]\n  - scope: user.email\n    description: >-\n      Allows use of the email field in the currentUser query. The\n      user.identity scope is also required for this to work.\n    flows: [authorizationCode]\n  - scope: tournament.manager\n    description: >-\n      Allows access to tournament seeding and bracket setup for tournaments\n      the current user has\
   \ access to.\n    flows: [authorizationCode]\n  - scope: tournament.reporter\n    description: >-\n      Allows access to set reporting for tournaments the current user has\n      access to.\n    flows: [authorizationCode]\nnotes: >-\n  start.gg notes that new scopes are still actively being developed, so this\n  list may grow. Scopes are requested by the third-party application and\n  approved by the resource owner at authentication time.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smashgg/refs/heads/main/scopes/smashgg-scopes.yml
+source_yaml_url: https://artifacts.apis.io/smashgg/scopes/smashgg-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

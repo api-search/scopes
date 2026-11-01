@@ -29,7 +29,7 @@ source_filename: voyager-space-holdings-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-18'\nmethod: searched\nsource: https://voyagertechnologies.com/.well-known/oauth-authorization-server\ndocs: null\nnote: >-\n  Read verbatim from scopes_supported in the provider's RFC 8414 metadata and confirmed by the RFC\n  9728 protected-resource document (both HTTP 200, 2026-09-18). The single scope belongs to the\n  WordPress MCP adapter's authorization server; there is no product API, no scopes reference page\n  and no finer-grained permission model published.\nscheme: mcpOAuth2\nflows:\n- authorizationCode\nscope_count: 1\nscopes:\n- name: mcp\n  description: Access the site's Model Context Protocol server (https://voyagertechnologies.com/wp-json/mcp/mcp-oauth-server).\n  resource: https://voyagertechnologies.com/wp-json/mcp/mcp-oauth-server\n  sources:\n  - https://voyagertechnologies.com/.well-known/oauth-authorization-server\n  - https://voyagertechnologies.com/.well-known/oauth-protected-resource\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voyager-space-holdings/refs/heads/main/scopes/voyager-space-holdings-scopes.yml
+source_yaml_url: https://artifacts.apis.io/voyager-space-holdings/scopes/voyager-space-holdings-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

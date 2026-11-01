@@ -5,49 +5,49 @@ api_specs:
   label: Wahoo Fitness Permissions API
   slug: wahoo-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-permissions-api-openapi.yml
 - filename: wahoo-plans-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Plans API
   slug: wahoo-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-plans-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-plans-api-openapi.yml
 - filename: wahoo-power-zones-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Power Zones API
   slug: wahoo-power-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-power-zones-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-power-zones-api-openapi.yml
 - filename: wahoo-routes-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Routes API
   slug: wahoo-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-routes-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-routes-api-openapi.yml
 - filename: wahoo-users-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Users API
   slug: wahoo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-users-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-users-api-openapi.yml
 - filename: wahoo-workout-file-uploads-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Workout File Uploads API
   slug: wahoo-workout-file-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-workout-file-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-workout-file-uploads-api-openapi.yml
 - filename: wahoo-workout-summaries-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Workout Summaries API
   slug: wahoo-workout-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-workout-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-workout-summaries-api-openapi.yml
 - filename: wahoo-workouts-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Workouts API
   slug: wahoo-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-workouts-api-openapi.yml
 authorization_urls:
 - https://api.wahooligan.com/oauth/authorize
 description: ''
@@ -147,7 +147,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wahoo-cloud-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/wahoo-cloud-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.wahooligan.com/oauth/authorize\n    tokenUrl: https://api.wahooligan.com/oauth/token\n  description: OAuth 2.0 Authorization Code (with PKCE option for public apps). Access tokens\n    are bearer tokens with a 2-hour TTL; refresh tokens are single-use. Starting 2026-01-01,\n    apps are limited to 10 unrevoked access tokens per user.\nscopes:\n- scope: email\n  description: Access the user's email address\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: offline_data\n  description: Receive webhook events while the app is closed\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: plans_read\n  description: Read workout plans\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: plans_write\n  description: Manage workout plans\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: power_zones_read\n  description: Read cycling power zones\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: power_zones_write\n  description: Manage cycling power zones\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: routes_read\n  description: Read GPS routes\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: routes_write\n  description: Manage GPS routes\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: user_read\n  description: Read user profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: user_write\n  description: Update user profile\n  flows:\n\
   \  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: workouts_read\n  description: Read workouts and summaries\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n- scope: workouts_write\n  description: Create/update/delete workouts and uploads\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/wahoo-cloud-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/scopes/wahoo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/wahoo/scopes/wahoo-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
 - Fitness

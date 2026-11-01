@@ -5,31 +5,31 @@ api_specs:
   label: SoundCloud Playlists API
   slug: soundcloud-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-playlists-api-openapi.yml
 - filename: soundcloud-search-api-openapi.yml
   format: yaml
   label: SoundCloud Search API
   slug: soundcloud-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-search-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-search-api-openapi.yml
 - filename: soundcloud-social-api-openapi.yml
   format: yaml
   label: SoundCloud Social API
   slug: soundcloud-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-social-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-social-api-openapi.yml
 - filename: soundcloud-tracks-api-openapi.yml
   format: yaml
   label: SoundCloud Tracks API
   slug: soundcloud-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-tracks-api-openapi.yml
 - filename: soundcloud-users-api-openapi.yml
   format: yaml
   label: SoundCloud Users API
   slug: soundcloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/openapi/soundcloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/soundcloud/openapi/soundcloud-users-api-openapi.yml
 authorization_urls:
 - https://secure.soundcloud.com/authorize
 description: ''
@@ -77,7 +77,7 @@ source_filename: soundcloud-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/soundcloud-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/soundcloud-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://secure.soundcloud.com/authorize\n    tokenUrl: https://secure.soundcloud.com/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://secure.soundcloud.com/oauth/token\n  description: |-\n    OAuth 2.1 with PKCE. Access tokens are short-lived (~1 hour). Use\n    Authorization: OAuth {ACCESS_TOKEN} on each request.\nscopes:\n- scope: non-expiring\n  description: Non-expiring refresh-token grant\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/soundcloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/scopes/soundcloud-scopes.yml
+source_yaml_url: https://artifacts.apis.io/soundcloud/scopes/soundcloud-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
 - Music

@@ -5,19 +5,19 @@ api_specs:
   label: Salesforce Marketing Cloud Assets API
   slug: salesforce-marketing-cloud-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-assets-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-assets-api-openapi.yml
 - filename: salesforce-marketing-cloud-contacts-api-openapi.yml
   format: yaml
   label: Salesforce Marketing Cloud Contacts API
   slug: salesforce-marketing-cloud-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-contacts-api-openapi.yml
 - filename: salesforce-marketing-cloud-journeys-api-openapi.yml
   format: yaml
   label: Salesforce Marketing Cloud Journeys API
   slug: salesforce-marketing-cloud-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-marketing-cloud/openapi/salesforce-marketing-cloud-journeys-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html
@@ -235,7 +235,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/salesfo
   \ access to tags.\n  sources:\n  - https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html\n- scope: event_notification_callback_create\n  description: Create Event Notification Service callbacks.\n  sources:\n  - https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html\n- scope: event_notification_callback_read\n  description: Read Event Notification Service callbacks.\n  sources:\n  - https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html\n- scope: event_notification_callback_update\n  description: Update Event Notification Service callbacks.\n  sources:\n  - https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html\n- scope: event_notification_callback_delete\n\
   \  description: Delete Event Notification Service callbacks.\n  sources:\n  - https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html\n- scope: event_notification_subscription_create\n  description: Create Event Notification Service subscriptions.\n  sources:\n  - https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html\n- scope: event_notification_subscription_read\n  description: Read Event Notification Service subscriptions.\n  sources:\n  - https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html\n- scope: event_notification_subscription_update\n  description: Update Event Notification Service subscriptions.\n  sources:\n  - https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html\n\
   - scope: event_notification_subscription_delete\n  description: Delete Event Notification Service subscriptions.\n  sources:\n  - https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_rest_permission_scopes/rest-permissions-and-scopes.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/scopes/salesforce-marketing-cloud-scopes.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-marketing-cloud/scopes/salesforce-marketing-cloud-scopes.yml
 summary_line: 42 scopes · clientCredentials
 tags:
 - Automation

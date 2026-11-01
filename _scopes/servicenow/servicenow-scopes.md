@@ -5,97 +5,97 @@ api_specs:
   label: ServiceNow Event Management Topic Open API
   slug: servicenow-event-management-topic-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/asyncapi/servicenow-events-asyncapi.yml
+  url: https://artifacts.apis.io/servicenow/asyncapi/servicenow-events-asyncapi.yml
 - filename: servicenow-aggregate-statistics-api-openapi.yml
   format: yaml
   label: ServiceNow Aggregate Statistics API
   slug: servicenow-aggregate-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-aggregate-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-aggregate-statistics-api-openapi.yml
 - filename: servicenow-attachments-api-openapi.yml
   format: yaml
   label: ServiceNow Attachments API
   slug: servicenow-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-attachments-api-openapi.yml
 - filename: servicenow-cart-api-openapi.yml
   format: yaml
   label: ServiceNow Cart API
   slug: servicenow-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-cart-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-cart-api-openapi.yml
 - filename: servicenow-catalog-items-api-openapi.yml
   format: yaml
   label: ServiceNow Catalog Items API
   slug: servicenow-catalog-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-catalog-items-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-catalog-items-api-openapi.yml
 - filename: servicenow-catalogs-api-openapi.yml
   format: yaml
   label: ServiceNow Catalogs API
   slug: servicenow-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-catalogs-api-openapi.yml
 - filename: servicenow-categories-api-openapi.yml
   format: yaml
   label: ServiceNow Categories API
   slug: servicenow-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-categories-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-categories-api-openapi.yml
 - filename: servicenow-change-tasks-api-openapi.yml
   format: yaml
   label: ServiceNow Change Tasks API
   slug: servicenow-change-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-change-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-change-tasks-api-openapi.yml
 - filename: servicenow-cmdb-instances-api-openapi.yml
   format: yaml
   label: ServiceNow CMDB Instances API
   slug: servicenow-cmdb-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-cmdb-instances-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-cmdb-instances-api-openapi.yml
 - filename: servicenow-contact-api-openapi.yml
   format: yaml
   label: ServiceNow Contact API
   slug: servicenow-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-contact-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-contact-api-openapi.yml
 - filename: servicenow-emergency-changes-api-openapi.yml
   format: yaml
   label: ServiceNow Emergency Changes API
   slug: servicenow-emergency-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-emergency-changes-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-emergency-changes-api-openapi.yml
 - filename: servicenow-import-sets-api-openapi.yml
   format: yaml
   label: ServiceNow Import Sets API
   slug: servicenow-import-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-import-sets-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-import-sets-api-openapi.yml
 - filename: servicenow-normal-changes-api-openapi.yml
   format: yaml
   label: ServiceNow Normal Changes API
   slug: servicenow-normal-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-normal-changes-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-normal-changes-api-openapi.yml
 - filename: servicenow-standard-changes-api-openapi.yml
   format: yaml
   label: ServiceNow Standard Changes API
   slug: servicenow-standard-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-standard-changes-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-standard-changes-api-openapi.yml
 - filename: servicenow-table-records-api-openapi.yml
   format: yaml
   label: ServiceNow Table Records API
   slug: servicenow-table-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-table-records-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-table-records-api-openapi.yml
 - filename: servicenow-trouble-ticket-api-openapi.yml
   format: yaml
   label: ServiceNow Trouble Ticket API
   slug: servicenow-trouble-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-trouble-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-trouble-ticket-api-openapi.yml
 authorization_urls:
 - https://{instance}.service-now.com/oauth_auth.do
 description: ''
@@ -212,7 +212,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/servicenow-
   \  flows:\n  - flow: password\n    tokenUrl: https://{instance}.service-now.com/oauth_token.do\n  description: OAuth 2.0 authentication using ServiceNow's OAuth provider.\n- name: oauth2\n  source: openapi/servicenow-change-tasks-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://{instance}.service-now.com/oauth_token.do\n  description: OAuth 2.0 authentication using ServiceNow's OAuth provider.\n- name: oauth2\n  source: openapi/servicenow-cmdb-instances-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://{instance}.service-now.com/oauth_token.do\n  description: OAuth 2.0 authentication using ServiceNow's OAuth provider.\n- name: oauth2\n  source: openapi/servicenow-emergency-changes-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://{instance}.service-now.com/oauth_token.do\n  description: OAuth 2.0 authentication using ServiceNow's OAuth provider.\n- name: oauth2\n  source: openapi/servicenow-import-sets-api-openapi.yml\n  flows:\n\
   \  - flow: password\n    tokenUrl: https://{instance}.service-now.com/oauth_token.do\n  description: OAuth 2.0 authentication using ServiceNow's OAuth provider.\n- name: oauth2\n  source: openapi/servicenow-normal-changes-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://{instance}.service-now.com/oauth_token.do\n  description: OAuth 2.0 authentication using ServiceNow's OAuth provider.\n- name: oauth2\n  source: openapi/servicenow-standard-changes-api-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://{instance}.service-now.com/oauth_token.do\n  description: OAuth 2.0 authentication using ServiceNow's OAuth provider.\n- name: oauth2\n  source: openapi/servicenow-table-records-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://{instance}.service-now.com/oauth_auth.do\n    tokenUrl: https://{instance}.service-now.com/oauth_token.do\n  - flow: password\n    tokenUrl: https://{instance}.service-now.com/oauth_token.do\n  description:\
   \ OAuth 2.0 authentication using ServiceNow's OAuth provider. Requires a registered\n    OAuth application on the instance.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/scopes/servicenow-scopes.yml
+source_yaml_url: https://artifacts.apis.io/servicenow/scopes/servicenow-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - ServiceNow

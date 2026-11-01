@@ -30,14 +30,15 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pstryk/refs/heads/main/scopes/pstryk-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pstryk/scopes/pstryk-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
+- Company
 - Energy
-- Electricity
-- DynamicPricing
-- MobileApp
+- Utilities
+- FinTech
 - Poland
+- DynamicPricing
 token_bound: false
 token_urls: []
 ---

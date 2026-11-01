@@ -5,49 +5,49 @@ api_specs:
   label: Green Button Alliance Application Information API
   slug: green-button-alliance-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-applicationinformation-api-openapi.yml
 - filename: green-button-alliance-authorization-api-openapi.yml
   format: yaml
   label: Green Button Alliance Authorization API
   slug: green-button-alliance-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-authorization-api-openapi.yml
 - filename: green-button-alliance-batch-api-openapi.yml
   format: yaml
   label: Green Button Alliance Batch API
   slug: green-button-alliance-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-batch-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-batch-api-openapi.yml
 - filename: green-button-alliance-datacustodian-integration-api-openapi.yml
   format: yaml
   label: Green Button Alliance DataCustodian Integration API
   slug: green-button-alliance-datacustodian-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-datacustodian-integration-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-datacustodian-integration-api-openapi.yml
 - filename: green-button-alliance-oauth2-client-management-api-openapi.yml
   format: yaml
   label: Green Button Alliance OAuth2 Client Management API
   slug: green-button-alliance-oauth2-client-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oauth2-client-management-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oauth2-client-management-api-openapi.yml
 - filename: green-button-alliance-oauth2-standard-api-openapi.yml
   format: yaml
   label: Green Button Alliance OAuth2 Standard API
   slug: green-button-alliance-oauth2-standard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oauth2-standard-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oauth2-standard-api-openapi.yml
 - filename: green-button-alliance-oidc-api-openapi.yml
   format: yaml
   label: Green Button Alliance OIDC API
   slug: green-button-alliance-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oidc-api-openapi.yml
 - filename: green-button-alliance-usagepoint-api-openapi.yml
   format: yaml
   label: Green Button Alliance Usage Point API
   slug: green-button-alliance-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-usagepoint-api-openapi.yml
 authorization_urls:
 - https://sandbox.greenbuttonalliance.org:8443/oauth/authorize
 description: Green Button does not use conventional string scopes such as "read:usage". The NAESB REQ.21 ESPI profile encodes the entire authorization request into a single structured OAuth 2.0 scope value built from Function Block ids plus data-shape parameters. GBA's own words on /function-blocks - "The NAESB REQ.21 ESPI standard uses Function Blocks to define the type of data a Utility can provide a Third Party service provider and the type of data a Third Party service provider requests from the Utility during the OAuth 2.0 access-token request process. The list of available Function Blocks a Utility supports is shown in the <scope> element field of the <ApplicationInformation> resource - and the resource may contain multiple <scope> entries." The harvested OpenAPI declares oauth2 with an EMPTY scopes map for both flows, so the scope vocabulary below comes from GBA's published Function Block catalog and from GBA's own wire-contract fixtures - not from the spec, and not invented.
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: openapi/green-b
   \ value: FB=1_3_4_5_10_11_35;BlockDuration=daily;BR=1\n    source: examples/green-button-alliance-token-response-bulk.json (client_credentials / Bulk grant)\n  - value: FB=44\n    source: >-\n      openapi/green-button-alliance-application-information-openapi.yml -\n      registration_access_token is \"generated in response to a Third Party OAuth 2.0\n      Client Credentials Request with FB=44 in the Scope parameter\" (FB_44 Manage\n      Authorization Resource).\nscopes: []\nscopes_note: >-\n  Deliberately empty. There is no flat scope-string list to enumerate: a Green\n  Button scope is composed at request time from the Function Block catalog plus the\n  parameters above. Enumerating a synthetic list of \"scopes\" here would fabricate a\n  vocabulary GBA does not publish. Use vocabulary/green-button-alliance-function-blocks.yml\n  as the scope vocabulary and the grammar block above as the composition rule.\ntoken_types:\n  source: https://www.greenbuttonalliance.org/access-tokens\n\
   \  types:\n  - name: access_token\n    description: >-\n      Allocated by the Data Custodian for individual account authorizations. The\n      normal access token used for accessing individual subscriptions.\n    obtained: During the Customer authorization process.\n  - name: refresh_token\n    description: >-\n      Allocated at the time of an authorization and used to renew an access_token\n      once it expires.\n    obtained: During the Customer authorization process.\n  - name: datacustodian_access_token\n    description: Access token used by trusted administrative accounts, allocated by administrative action by the Data Custodian.\n  - name: client_access_token\n    description: >-\n      Used by Third-Party applications to access bulk or multiple authorization\n      subscriptions; allocated at Third Party registration when the Data Custodian\n      provides Bulk data transfers. Obtained via the OAuth client_credentials flow.\n  - name: upload_access_token\n    description: >-\n\
   \      Used by Meter Data Management (backend) systems to upload/import data into a\n      Data Custodian; allocated by administrative action.\n  - name: registration_access_token\n    description: >-\n      Used by the Third Party to manage its ApplicationInformation (RFC 7592\n      registration management). Assigned during registration or minted via a\n      client_credentials request with FB=44.\nmember_sso_scopes:\n  note: >-\n    Separate and unrelated to energy data - these are the scopes of GBA's own\n    member single sign-on (association management), harvested from\n    well-known/green-button-alliance-openid-configuration.json.\n  source: https://www.greenbuttonalliance.org/.well-known/openid-configuration\n  scopes: [openid, email, profile]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/scopes/green-button-alliance-scopes.yml
+source_yaml_url: https://artifacts.apis.io/green-button-alliance/scopes/green-button-alliance-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Energy

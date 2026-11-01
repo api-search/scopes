@@ -28,7 +28,7 @@ source_filename: gigaio-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-21'\nmethod: probed\nsource: https://gigaio.com/.well-known/oauth-authorization-server\ndescription: >-\n  The complete published scope surface for GigaIO, read verbatim from the RFC 8414\n  authorization-server metadata document and corroborated by the RFC 9728\n  protected-resource document. One scope exists. GigaIO publishes no scopes or\n  permissions reference page; this is the whole of it.\nauthorization_server: https://gigaio.com\nprotected_resource: https://gigaio.com/wp-json/mcp/mcp-oauth-server\ndocs: null\ndocs_note: No public scopes/permissions reference page is published.\nscope_count: 1\nscopes:\n  - name: mcp\n    description: >-\n      Access the GigaIO Model Context Protocol server. Declared in\n      scopes_supported of both the authorization-server and protected-resource\n      metadata documents. The provider publishes no finer-grained read/write split.\n    source: https://gigaio.com/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gigaio/refs/heads/main/scopes/gigaio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gigaio/scopes/gigaio-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: Victoria University of Wellington Research Repository API
   slug: victoria-university-of-wellington-researchrepository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-researchrepository-api-openapi.yml
+  url: https://artifacts.apis.io/victoria-university-of-wellington/openapi/victoria-university-of-wellington-researchrepository-api-openapi.yml
 - filename: victoria-university-of-wellington-website-api-openapi.yml
   format: yaml
   label: Victoria University of Wellington Website API
   slug: victoria-university-of-wellington-website-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-website-api-openapi.yml
+  url: https://artifacts.apis.io/victoria-university-of-wellington/openapi/victoria-university-of-wellington-website-api-openapi.yml
 - filename: victoria-university-of-wellington-identity-federation-api-openapi.yml
   format: yaml
   label: Victoria University of Wellington Identity Federation API
   slug: victoria-university-of-wellington-identity-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/openapi/victoria-university-of-wellington-identity-federation-api-openapi.yml
+  url: https://artifacts.apis.io/victoria-university-of-wellington/openapi/victoria-university-of-wellington-identity-federation-api-openapi.yml
 authorization_urls: []
 description: 'Scope inventory for Te Herenga Waka—Victoria University of Wellington. The institution defines no OAuth scopes of its own: neither institution-operated surface is authenticated, so neither has scopes to define. The only scoping vocabulary the institution genuinely authors is its SAML attribute release, which is the identity-federation equivalent and is recorded here rather than left blank.'
 docs: ''
@@ -44,7 +44,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "specification: API Commons Scopes\nspecificationVersion: '0.1'\nprovider: Victoria University of Wellington\nproviderId: victoria-university-of-wellington\ngenerated: '2026-08-30'\nmethod: derived\nprobe_date: '2026-08-30'\nprobe_note: >-\n  Written by API Evangelist from live, unauthenticated probes. Every status code and payload\n  quoted below was observed on the date above; nothing here was published by the institution.\nsource: live probes, 2026-08-30\ndescription: >-\n  Scope inventory for Te Herenga Waka—Victoria University of Wellington. The institution defines no\n  OAuth scopes of its own: neither institution-operated surface is authenticated, so neither has\n  scopes to define. The only scoping vocabulary the institution genuinely authors is its SAML\n  attribute release, which is the identity-federation equivalent and is recorded here rather than\n  left blank.\noauth_scopes: []\nsaml_attribute_release:\n  operator: institution\n  entity_id: https://idp.vuw.ac.nz/idp/shibboleth\n\
   \  scope: vuw.ac.nz\n  entity_categories:\n  - http://refeds.org/category/research-and-scholarship\n  assurance:\n  - https://refeds.org/sirtfi\n  requested_attributes:\n  - friendly_name: mail\n    oid: urn:oid:0.9.2342.19200300.100.1.3\n  - friendly_name: schacHomeOrganization\n    oid: urn:oid:1.3.6.1.4.1.25178.1.2.9\n  - friendly_name: schacHomeOrganizationType\n    oid: urn:oid:1.3.6.1.4.1.25178.1.2.10\n  - friendly_name: auEduPersonSharedToken\n    oid: urn:oid:1.3.6.1.4.1.27856.1.2.5\n  evidence:\n    url: https://directory.tuakiri.ac.nz/metadata/tuakiri-metadata-signed.xml\n    status: 200\nnotes: >-\n  Tenant surfaces (Canvas, Symplectic Elements, Entra ID) carry their vendors' scope vocabularies,\n  not the university's, and are deliberately not restated here.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/scopes/victoria-university-of-wellington-scopes.yml
+source_yaml_url: https://artifacts.apis.io/victoria-university-of-wellington/scopes/victoria-university-of-wellington-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

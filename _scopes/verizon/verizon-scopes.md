@@ -5,31 +5,31 @@ api_specs:
   label: Verizon Accounts API
   slug: verizon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-accounts-api-openapi.yml
 - filename: verizon-callbacks-api-openapi.yml
   format: yaml
   label: Verizon Callbacks API
   slug: verizon-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-callbacks-api-openapi.yml
 - filename: verizon-devices-api-openapi.yml
   format: yaml
   label: Verizon Devices API
   slug: verizon-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-devices-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-devices-api-openapi.yml
 - filename: verizon-session-api-openapi.yml
   format: yaml
   label: Verizon Session API
   slug: verizon-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-session-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-session-api-openapi.yml
 - filename: verizon-sms-api-openapi.yml
   format: yaml
   label: Verizon SMS API
   slug: verizon-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-sms-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-sms-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -101,7 +101,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: derived\nsource: openapi/verizon-accounts-api-openapi.yml, openapi/verizon-callbacks-api-openapi.yml,\n  openapi/verizon-devices-api-openapi.yml, openapi/verizon-session-api-openapi.yml, openapi/verizon-sms-api-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-accounts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-callbacks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-devices-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-session-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl:\
   \ https://thingspace.verizon.com/api/m2m/v2/session/token\n- name: OAuth2ClientCredentials\n  source: openapi/verizon-sms-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token\nscopes:\n- scope: DISCOVERYREAD\n  description: Read discovery information\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/verizon-accounts-api-openapi.yml\n  - openapi/verizon-callbacks-api-openapi.yml\n  - openapi/verizon-devices-api-openapi.yml\n  - openapi/verizon-session-api-openapi.yml\n  - openapi/verizon-sms-api-openapi.yml\n- scope: EVENTSREAD\n  description: Read device events\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/verizon-accounts-api-openapi.yml\n  - openapi/verizon-callbacks-api-openapi.yml\n  - openapi/verizon-devices-api-openapi.yml\n  - openapi/verizon-session-api-openapi.yml\n  - openapi/verizon-sms-api-openapi.yml\n- scope: SERVICEPROFILEREAD\n  description: Read service profiles\n  flows:\n  -\
   \ clientCredentials\n  sources:\n  - openapi/verizon-accounts-api-openapi.yml\n  - openapi/verizon-callbacks-api-openapi.yml\n  - openapi/verizon-devices-api-openapi.yml\n  - openapi/verizon-session-api-openapi.yml\n  - openapi/verizon-sms-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/scopes/verizon-scopes.yml
+source_yaml_url: https://artifacts.apis.io/verizon/scopes/verizon-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - Wireless

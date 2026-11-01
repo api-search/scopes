@@ -5,37 +5,37 @@ api_specs:
   label: OpenTravel Alliance Facilities API
   slug: opentravel-alliance-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-facilities-api-openapi.yml
 - filename: opentravel-alliance-hospitalityfindhospitalityavailability-api-openapi.yml
   format: yaml
   label: OpenTravel Alliance Hospitality Find Hospitality Availability API
   slug: opentravel-alliance-hospitalityfindhospitalityavailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalityfindhospitalityavailability-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-hospitalityfindhospitalityavailability-api-openapi.yml
 - filename: opentravel-alliance-hospitalityoffers-api-openapi.yml
   format: yaml
   label: OpenTravel Alliance Hospitality Offers API
   slug: opentravel-alliance-hospitalityoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalityoffers-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-hospitalityoffers-api-openapi.yml
 - filename: opentravel-alliance-hospitalitypropertyoffers-api-openapi.yml
   format: yaml
   label: OpenTravel Alliance Hospitality Property Offers API
   slug: opentravel-alliance-hospitalitypropertyoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalitypropertyoffers-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-hospitalitypropertyoffers-api-openapi.yml
 - filename: opentravel-alliance-hospitalityretrievefacilityavailability-api-openapi.yml
   format: yaml
   label: OpenTravel Alliance Hospitality Retrieve Facility Availability API
   slug: opentravel-alliance-hospitalityretrievefacilityavailability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hospitalityretrievefacilityavailability-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-hospitalityretrievefacilityavailability-api-openapi.yml
 - filename: opentravel-alliance-hoteldescriptivecontents-api-openapi.yml
   format: yaml
   label: OpenTravel Alliance Hotel Descriptive Contents API
   slug: opentravel-alliance-hoteldescriptivecontents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/openapi/opentravel-alliance-hoteldescriptivecontents-api-openapi.yml
+  url: https://artifacts.apis.io/opentravel-alliance/openapi/opentravel-alliance-hoteldescriptivecontents-api-openapi.yml
 authorization_urls:
 - https://opentravel.org/oauth/authorize
 description: ''
@@ -78,7 +78,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-28'\nmethod: searched\nsource: https://opentravel.org/.well-known/oauth-authorization-server\ndocs: https://opentravel.org/.well-known/oauth-protected-resource\nnote: >-\n  The published OpenTravel Swagger 2.0 contracts declare no oauth2 security schemes, so\n  derive-oauth-scopes.py returned nothing for this provider. The scope surface below is the\n  real one advertised by the OAuth 2.1 authorization server that opentravel.org runs in front\n  of its Model Context Protocol endpoints. It is a single coarse scope; there is no per-tool\n  or per-resource scope decomposition published, and none is invented here.\nschemes:\n- name: opentravel-mcp-oauth\n  source: well-known/opentravel-alliance-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://opentravel.org/oauth/authorize\n    tokenUrl: https://opentravel.org/oauth/token\nscopes:\n- scope: mcp\n  description: >-\n    Access the OpenTravel Model Context Protocol\
   \ server at\n    https://opentravel.org/wp-json/mcp/mcp-oauth-server. Advertised as scopes_supported by\n    both the RFC 8414 authorization-server metadata and the RFC 9728 protected-resource\n    metadata.\n  flows: [authorizationCode]\n  sources:\n  - well-known/opentravel-alliance-oauth-authorization-server.json\n  - well-known/opentravel-alliance-oauth-protected-resource.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/scopes/opentravel-alliance-scopes.yml
+source_yaml_url: https://artifacts.apis.io/opentravel-alliance/scopes/opentravel-alliance-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Travel

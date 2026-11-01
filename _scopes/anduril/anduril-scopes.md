@@ -5,31 +5,31 @@ api_specs:
   label: Anduril Industries Entities API
   slug: anduril-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-entities-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-entities-api-openapi.yml
 - filename: anduril-objects-api-openapi.yml
   format: yaml
   label: Anduril Industries Objects API
   slug: anduril-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-objects-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-objects-api-openapi.yml
 - filename: anduril-tasks-api-openapi.yml
   format: yaml
   label: Anduril Industries Tasks API
   slug: anduril-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-tasks-api-openapi.yml
 - filename: anduril-oauth-api-openapi.yml
   format: yaml
   label: Anduril Industries O Auth API
   slug: anduril-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-oauth-api-openapi.yml
 - filename: anduril-video-api-openapi.yml
   format: yaml
   label: Anduril Industries Video API
   slug: anduril-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-video-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-video-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -84,7 +84,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/anduril-entities-api-openapi.yml, openapi/anduril-oauth-api-openapi.yml, openapi/anduril-objects-api-openapi.yml,\n  openapi/anduril-tasks-api-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/anduril-entities-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.developer.anduril.com/oauth/token\n  description: OAuth 2.0 client credentials flow for service-to-service access.\n- name: oauth2ClientCredentials\n  source: openapi/anduril-oauth-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.developer.anduril.com/oauth/token\n  description: OAuth 2.0 client credentials flow for service-to-service access.\n- name: oauth2ClientCredentials\n  source: openapi/anduril-objects-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.developer.anduril.com/oauth/token\n  description: OAuth 2.0 client credentials flow for service-to-service\
   \ access.\n- name: oauth2ClientCredentials\n  source: openapi/anduril-tasks-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.developer.anduril.com/oauth/token\n  description: OAuth 2.0 client credentials flow for service-to-service access.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/scopes/anduril-scopes.yml
+source_yaml_url: https://artifacts.apis.io/anduril/scopes/anduril-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Defense

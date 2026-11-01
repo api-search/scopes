@@ -30,14 +30,14 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/readysetauction/refs/heads/main/scopes/readysetauction-scopes.yml
+source_yaml_url: https://artifacts.apis.io/readysetauction/scopes/readysetauction-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Auction
-- Fundraising
-- Nonprofit
-- Software
-- Cloud
+- Auction Software
+- Event Management
+- Mobile Bidding
+- Online Auction
+- Guest Management
 token_bound: false
 token_urls: []
 ---

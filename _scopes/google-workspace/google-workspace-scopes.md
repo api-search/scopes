@@ -5,37 +5,37 @@ api_specs:
   label: Google Workspace Groups API
   slug: google-workspace-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-groups-api-openapi.yml
 - filename: google-workspace-users-api-openapi.yml
   format: yaml
   label: Google Workspace Users API
   slug: google-workspace-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-users-api-openapi.yml
 - filename: google-workspace-calendar-api-openapi.yml
   format: yaml
   label: Google Workspace APIs Calendar API
   slug: google-suites-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-calendar-api-openapi.yml
 - filename: google-workspace-drive-api-openapi.yml
   format: yaml
   label: Google Workspace APIs Drive API
   slug: google-suites-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-drive-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-drive-api-openapi.yml
 - filename: google-workspace-gmail-api-openapi.yml
   format: yaml
   label: Google Workspace APIs Gmail API
   slug: google-suites-gmail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-gmail-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-gmail-api-openapi.yml
 - filename: google-workspace-org-units-api-openapi.yml
   format: yaml
   label: Google Workspace Org Units API
   slug: google-workspace-org-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/google-workspace-org-units-api-openapi.yml
+  url: https://artifacts.apis.io/google-workspace/openapi/google-workspace-org-units-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -104,7 +104,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/admin-sdk-directory-api.yml\nschemes:\n- name: oauth2\n  source: openapi/admin-sdk-directory-api.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authorization for Google Workspace Admin operations.\nscopes:\n- scope: https://www.googleapis.com/auth/admin.directory.group\n  description: View and manage the provisioning of groups on your domain\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/admin-sdk-directory-api.yml\n- scope: https://www.googleapis.com/auth/admin.directory.group.readonly\n  description: View groups on your domain\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/admin-sdk-directory-api.yml\n- scope: https://www.googleapis.com/auth/admin.directory.orgunit\n  description: View and manage organization units on your domain\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/admin-sdk-directory-api.yml\n- scope: https://www.googleapis.com/auth/admin.directory.orgunit.readonly\n  description: View organization units on your domain\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/admin-sdk-directory-api.yml\n- scope: https://www.googleapis.com/auth/admin.directory.user\n  description: View and manage the provisioning of users on your domain\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/admin-sdk-directory-api.yml\n- scope: https://www.googleapis.com/auth/admin.directory.user.readonly\n  description: View users on your domain\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/admin-sdk-directory-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/scopes/google-workspace-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-workspace/scopes/google-workspace-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Calendar

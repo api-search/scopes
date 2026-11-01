@@ -5,67 +5,67 @@ api_specs:
   label: Open Payments Account Information Service (AIS) API
   slug: openpayments-io-account-information-service-ais-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-account-information-service-ais-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-account-information-service-ais-api-openapi.yml
 - filename: openpayments-io-aspsp-information-service-api-openapi.yml
   format: yaml
   label: Open Payments ASPSP Information Service API
   slug: openpayments-io-aspsp-information-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-aspsp-information-service-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-aspsp-information-service-api-openapi.yml
 - filename: openpayments-io-bankgiro-lookup-api-openapi.yml
   format: yaml
   label: Open Payments Bankgiro Lookup API
   slug: openpayments-io-bankgiro-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-bankgiro-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-bankgiro-lookup-api-openapi.yml
 - filename: openpayments-io-consent-service-api-openapi.yml
   format: yaml
   label: Open Payments Consent Service API
   slug: openpayments-io-consent-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-consent-service-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-consent-service-api-openapi.yml
 - filename: openpayments-io-fx-connect-api-openapi.yml
   format: yaml
   label: Open Payments FX Connect API
   slug: openpayments-io-fx-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-fx-connect-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-fx-connect-api-openapi.yml
 - filename: openpayments-io-iso-payments-api-openapi.yml
   format: yaml
   label: Open Payments ISO Payments API
   slug: openpayments-io-iso-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-iso-payments-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-iso-payments-api-openapi.yml
 - filename: openpayments-io-kyc-service-api-openapi.yml
   format: yaml
   label: Open Payments KYC Service API
   slug: openpayments-io-kyc-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-kyc-service-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-kyc-service-api-openapi.yml
 - filename: openpayments-io-payment-initiation-service-pis-api-openapi.yml
   format: yaml
   label: Open Payments Payment Initiation Service (PIS) API
   slug: openpayments-io-payment-initiation-service-pis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-payment-initiation-service-pis-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-payment-initiation-service-pis-api-openapi.yml
 - filename: openpayments-io-payout-service-api-openapi.yml
   format: yaml
   label: Open Payments Payout Service API
   slug: openpayments-io-payout-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-payout-service-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-payout-service-api-openapi.yml
 - filename: openpayments-io-sepa-direct-debit-api-openapi.yml
   format: yaml
   label: Open Payments SEPA Direct Debit API
   slug: openpayments-io-sepa-direct-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-sepa-direct-debit-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-sepa-direct-debit-api-openapi.yml
 - filename: openpayments-io-verification-of-payee-vop-api-openapi.yml
   format: yaml
   label: Open Payments Verification of Payee (VoP) API
   slug: openpayments-io-verification-of-payee-vop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/openapi/openpayments-io-verification-of-payee-vop-api-openapi.yml
+  url: https://artifacts.apis.io/openpayments-io/openapi/openpayments-io-verification-of-payee-vop-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -164,7 +164,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: derived\nsource: openapi/openpayments-io-openapi.yml\nschemes:\n- name: oAuth2Sandbox\n  source: openapi/openpayments-io-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.sandbox.openbankingplatform.com/connect/token\n- name: oAuth2Production\n  source: openapi/openpayments-io-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.openbankingplatform.com/connect/token\nscopes:\n- scope: accountinformation\n  description: Account Information\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: accountinformation bankgiroinformation corporate\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: accountinformation corporate\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: accountinformation private\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: aspspinformation\n  description: ASPSP Information\n  flows:\n  - clientCredentials\n\
   \  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: aspspinformation corporate\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: aspspinformation private\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: bankgiroinformation\n  description: Account Information Enrichment\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: corporate\n  description: Corporate accounts context\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: paymentinitiation\n  description: Payment Initiation\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: paymentinitiation corporate\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: paymentinitiation private\n  sources:\n  - openapi/openpayments-io-openapi.yml\n- scope: private\n  description: Private accounts context\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/openpayments-io-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openpayments-io/refs/heads/main/scopes/openpayments-io-scopes.yml
+source_yaml_url: https://artifacts.apis.io/openpayments-io/scopes/openpayments-io-scopes.yml
 summary_line: 13 scopes · clientCredentials
 tags:
 - Company

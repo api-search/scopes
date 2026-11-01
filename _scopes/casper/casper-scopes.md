@@ -52,7 +52,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://casper.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nnotes: >-\n  Scopes advertised by the Shopify Customer Account API OIDC discovery document for\n  the casper.com storefront. customer-account-mcp-api:full is the scope that grants\n  agentic (MCP) access to the customer account surface.\nschemes:\n- name: shopify-customer-account-oidc\n  source: well-known/casper-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/60822683729/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/60822683729/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token identifying the customer.\n- scope: email\n  description: Access the customer's email address and email_verified claim.\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer\
   \ Account API for the authenticated buyer.\n- scope: customer-account-mcp-api:full\n  description: Full agentic (MCP) access to the Customer Account API on behalf of the buyer.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/casper/refs/heads/main/scopes/casper-scopes.yml
+source_yaml_url: https://artifacts.apis.io/casper/scopes/casper-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

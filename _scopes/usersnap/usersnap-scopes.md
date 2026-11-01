@@ -5,25 +5,25 @@ api_specs:
   label: Usersnap Feedback API
   slug: usersnap-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-feedback-api-openapi.yml
 - filename: usersnap-pre-submit-api-openapi.yml
   format: yaml
   label: Usersnap Pre Submit API
   slug: usersnap-pre-submit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-pre-submit-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-pre-submit-api-openapi.yml
 - filename: usersnap-project-api-openapi.yml
   format: yaml
   label: Usersnap Project API
   slug: usersnap-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-project-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-project-api-openapi.yml
 - filename: usersnap-submit-api-openapi.yml
   format: yaml
   label: Usersnap Submit API
   slug: usersnap-submit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/openapi/usersnap-submit-api-openapi.yml
+  url: https://artifacts.apis.io/usersnap/openapi/usersnap-submit-api-openapi.yml
 authorization_urls:
 - https://id.usersnap.com/auth/oauth2/authorize
 description: ''
@@ -79,7 +79,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://id.usersnap.com/.well-known/oauth-authorization-server\ndocs: https://help.usersnap.com/docs/mcp-connector\nnotes: >-\n  OAuth scopes published in Usersnap's RFC 8414 authorization-server metadata\n  (issuer id.usersnap.com), used by the hosted MCP connector\n  (mcp.usersnap.com/mcp) via OAuth 2.1 authorization_code + PKCE (S256).\n  The platform REST API itself uses self-signed JWT bearer auth, not OAuth\n  (see authentication/usersnap-authentication.yml).\nschemes:\n  - name: usersnap-oauth\n    issuer: https://id.usersnap.com\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://id.usersnap.com/auth/oauth2/authorize\n        tokenUrl: https://id.usersnap.com/auth/oauth2/token\n        refresh_token: true\n        pkce: S256\n    revocationUrl: https://id.usersnap.com/auth/oauth2/revoke\n    registrationUrl: https://id.usersnap.com/auth/oauth2/register\n    token_endpoint_auth_methods: [client_secret_basic,\
   \ client_secret_post, none]\nscopes:\n  - scope: read:feedback\n    description: Read access to feedback data (as scoped to the authorizing user's permissions).\n    flows: [authorizationCode]\n    sources: [https://id.usersnap.com/.well-known/oauth-authorization-server]\n  - scope: write:opportunity\n    description: Create Opportunities and link feedback; cannot edit or delete existing feedback.\n    flows: [authorizationCode]\n    sources: [https://id.usersnap.com/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/scopes/usersnap-scopes.yml
+source_yaml_url: https://artifacts.apis.io/usersnap/scopes/usersnap-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

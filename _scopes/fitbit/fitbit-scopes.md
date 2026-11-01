@@ -5,19 +5,19 @@ api_specs:
   label: Fitbit User API
   slug: fitbit-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-user-api-openapi.yml
+  url: https://artifacts.apis.io/fitbit/openapi/fitbit-user-api-openapi.yml
 - filename: fitbit-foods-api-openapi.yml
   format: yaml
   label: Fitbit Foods API
   slug: fitbit-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-foods-api-openapi.yml
+  url: https://artifacts.apis.io/fitbit/openapi/fitbit-foods-api-openapi.yml
 - filename: fitbit-oauth2-api-openapi.yml
   format: yaml
   label: Fitbit Oauth2 API
   slug: fitbit-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/openapi/fitbit-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/fitbit/openapi/fitbit-oauth2-api-openapi.yml
 authorization_urls:
 - https://www.fitbit.com/oauth2/authorize
 description: ''
@@ -195,7 +195,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fitbit-a
   \  - openapi/fitbit-ecg-irn-api-openapi.yml\n- scope: location\n  description: GPS and other location data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n- scope: nutrition\n  description: Food and nutrition data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n  - openapi/fitbit-nutrition-api-openapi.yml\n  - openapi/fitbit-subscriptions-api-openapi.yml\n- scope: oxygen_saturation\n  description: SpO2 data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n  - openapi/fitbit-spo2-breathing-temperature-api-openapi.yml\n- scope: profile\n  description: User profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n  - openapi/fitbit-user-api-openapi.yml\n- scope: respiratory_rate\n  description: Breathing rate data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n  - openapi/fitbit-spo2-breathing-temperature-api-openapi.yml\n\
   - scope: settings\n  description: Account settings\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n  - openapi/fitbit-devices-api-openapi.yml\n  - openapi/fitbit-user-api-openapi.yml\n- scope: sleep\n  description: Sleep data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n  - openapi/fitbit-sleep-api-openapi.yml\n  - openapi/fitbit-subscriptions-api-openapi.yml\n- scope: social\n  description: Friends and leaderboard data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n  - openapi/fitbit-friends-api-openapi.yml\n- scope: temperature\n  description: Skin and core body temperature data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n  - openapi/fitbit-spo2-breathing-temperature-api-openapi.yml\n- scope: weight\n  description: Weight, BMI, and body fat data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n\
   \  - openapi/fitbit-body-api-openapi.yml\n  - openapi/fitbit-subscriptions-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/scopes/fitbit-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fitbit/scopes/fitbit-scopes.yml
 summary_line: 15 scopes · authorizationCode
 tags:
 - Wearables

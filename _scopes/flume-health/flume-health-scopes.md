@@ -5,151 +5,151 @@ api_specs:
   label: Flume Health Account Contracts API
   slug: flume-health-account-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-account-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-account-contracts-api-openapi.yml
 - filename: flume-health-accounts-api-openapi.yml
   format: yaml
   label: Flume Health Accounts API
   slug: flume-health-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-accounts-api-openapi.yml
 - filename: flume-health-automapjobs-api-openapi.yml
   format: yaml
   label: Flume Health Automap Jobs API
   slug: flume-health-automapjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-automapjobs-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-automapjobs-api-openapi.yml
 - filename: flume-health-connections-api-openapi.yml
   format: yaml
   label: Flume Health Connections API
   slug: flume-health-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-connections-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-connections-api-openapi.yml
 - filename: flume-health-context-discovery-api-openapi.yml
   format: yaml
   label: Flume Health Context Discovery API
   slug: flume-health-context-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-context-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-context-discovery-api-openapi.yml
 - filename: flume-health-context-graph-api-openapi.yml
   format: yaml
   label: Flume Health Context Graph API
   slug: flume-health-context-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-context-graph-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-context-graph-api-openapi.yml
 - filename: flume-health-context-knowledge-api-openapi.yml
   format: yaml
   label: Flume Health Context Knowledge API
   slug: flume-health-context-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-context-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-context-knowledge-api-openapi.yml
 - filename: flume-health-endpoint-maps-api-openapi.yml
   format: yaml
   label: Flume Health Endpoint Maps API
   slug: flume-health-endpoint-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-endpoint-maps-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-endpoint-maps-api-openapi.yml
 - filename: flume-health-endpoints-api-openapi.yml
   format: yaml
   label: Flume Health Endpoints API
   slug: flume-health-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-endpoints-api-openapi.yml
 - filename: flume-health-flags-api-openapi.yml
   format: yaml
   label: Flume Health Flags API
   slug: flume-health-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-flags-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-flags-api-openapi.yml
 - filename: flume-health-jobs-v2-api-openapi.yml
   format: yaml
   label: Flume Health Jobs v2 API
   slug: flume-health-jobs-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-jobs-v2-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-jobs-v2-api-openapi.yml
 - filename: flume-health-objects-api-openapi.yml
   format: yaml
   label: Flume Health Objects API
   slug: flume-health-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-objects-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-objects-api-openapi.yml
 - filename: flume-health-reports-api-openapi.yml
   format: yaml
   label: Flume Health Reports API
   slug: flume-health-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-reports-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-reports-api-openapi.yml
 - filename: flume-health-shards-api-openapi.yml
   format: yaml
   label: Flume Health Shards API
   slug: flume-health-shards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-shards-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-shards-api-openapi.yml
 - filename: flume-health-sourcefile-api-openapi.yml
   format: yaml
   label: Flume Health Source File API
   slug: flume-health-sourcefile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-sourcefile-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-sourcefile-api-openapi.yml
 - filename: flume-health-telemetry-api-openapi.yml
   format: yaml
   label: Flume Health Telemetry API
   slug: flume-health-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-telemetry-api-openapi.yml
 - filename: flume-health-transactions-api-openapi.yml
   format: yaml
   label: Flume Health Transactions API
   slug: flume-health-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-transactions-api-openapi.yml
 - filename: flume-health-users-api-openapi.yml
   format: yaml
   label: Flume Health Users API
   slug: flume-health-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-users-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-users-api-openapi.yml
 - filename: flume-health-workersizes-api-openapi.yml
   format: yaml
   label: Flume Health Worker Sizes API
   slug: flume-health-workersizes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-workersizes-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-workersizes-api-openapi.yml
 - filename: flume-health-account-access-api-openapi.yml
   format: yaml
   label: Flume Health Account Access API
   slug: flume-health-account-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-account-access-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-account-access-api-openapi.yml
 - filename: flume-health-budget-api-openapi.yml
   format: yaml
   label: Flume Health Budget API
   slug: flume-health-budget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-budget-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-budget-api-openapi.yml
 - filename: flume-health-context-conversations-api-openapi.yml
   format: yaml
   label: Flume Health Context Conversations API
   slug: flume-health-context-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-context-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-context-conversations-api-openapi.yml
 - filename: flume-health-context-grants-api-openapi.yml
   format: yaml
   label: Flume Health Context Grants API
   slug: flume-health-context-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-context-grants-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-context-grants-api-openapi.yml
 - filename: flume-health-context-workspaces-api-openapi.yml
   format: yaml
   label: Flume Health Context Workspaces API
   slug: flume-health-context-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-context-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-context-workspaces-api-openapi.yml
 - filename: flume-health-knowledge-api-openapi.yml
   format: yaml
   label: Flume Health Knowledge API
   slug: flume-health-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/openapi/flume-health-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/flume-health/openapi/flume-health-knowledge-api-openapi.yml
 authorization_urls:
 - https://auth.flumehealth.com/authorize?audience=https://console.flumehealth.com/api
 description: ''
@@ -258,7 +258,7 @@ source_yaml: "generated: '2026-08-16'\nmethod: probed\nsource: >-\n  https://aut
   \ scope.\n  kind: identity\n  sources: [well-known/flume-health-oauth-authorization-server.json]\n- scope: picture\n  description: Standard OIDC claim scope.\n  kind: identity\n  sources: [well-known/flume-health-oauth-authorization-server.json]\n- scope: created_at\n  description: Standard OIDC claim scope.\n  kind: identity\n  sources: [well-known/flume-health-oauth-authorization-server.json]\n- scope: identities\n  description: Standard OIDC claim scope (linked identity providers).\n  kind: identity\n  sources: [well-known/flume-health-oauth-authorization-server.json]\n- scope: phone\n  description: Standard OIDC claim scope.\n  kind: identity\n  sources: [well-known/flume-health-oauth-authorization-server.json]\n- scope: address\n  description: Standard OIDC claim scope.\n  kind: identity\n  sources: [well-known/flume-health-oauth-authorization-server.json]\n\nauthorization_beyond_scopes:\n- mechanism: account scoping\n  detail: The X-Flume-Account-ID request header selects the health-plan\
   \ account; 122 of 153 operations require it. Wrong or unpermitted account yields 403.\n- mechanism: Context Discovery sessions\n  detail: >-\n    Access to a customer's data estate for tooling is granted as a time-boxed, approver-gated session\n    (23 operations under /api/v1/context/discovery/). Grant types include subscription_access for AI CLI tools.\n    Sessions can be approved, denied, extended, cancelled and revoked, and launches are written to an audit log.\n    This — not OAuth scope — is where Flume expresses fine-grained agent authorization.\n- mechanism: query-engine grants\n  detail: /api/v1/users/{id}/query-engine-grant and /query-engine-revoke gate a user's access to the query engine.\n\nevidence:\n- url: https://auth.flumehealth.com/.well-known/oauth-authorization-server\n  http_status: 200\n- url: https://console.flumehealth.com/.well-known/oauth-protected-resource\n  http_status: 200\n- url: https://console.flumehealth.com/api/docs/docs.json\n  http_status: 200\nchecked:\
   \ '2026-08-16'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/scopes/flume-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/flume-health/scopes/flume-health-scopes.yml
 summary_line: 14 scopes · implicit
 tags:
 - Healthcare

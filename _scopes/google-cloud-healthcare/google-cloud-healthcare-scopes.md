@@ -5,7 +5,7 @@ api_specs:
   label: Google Cloud Healthcare Projects API
   slug: google-cloud-healthcare-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/openapi/google-cloud-healthcare-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-healthcare/openapi/google-cloud-healthcare-projects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -76,7 +76,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi-v1.yaml, openapi/openapi-v1beta1.yaml\nschemes:\n- name: Oauth2\n  source: openapi/openapi-v1.yaml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/openapi-v1.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/openapi-v1beta1.yaml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/openapi-v1beta1.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n\
   \  description: Oauth 2.0 authorizationCode authentication\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-healthcare\n  description: Read, write and manage healthcare data\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/openapi-v1.yaml\n  - openapi/openapi-v1beta1.yaml\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: See, edit, configure, and delete your Google Cloud data and see the email address\n    for your Google Account.\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/openapi-v1.yaml\n  - openapi/openapi-v1beta1.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/scopes/google-cloud-healthcare-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-healthcare/scopes/google-cloud-healthcare-scopes.yml
 summary_line: 2 scopes · implicit/authorizationCode
 tags:
 - Healthcare

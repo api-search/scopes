@@ -5,37 +5,37 @@ api_specs:
   label: Adobe Premiere Pro Elements API
   slug: adobe-premiere-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-elements-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-elements-api-openapi.yml
 - filename: adobe-premiere-libraries-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Libraries API
   slug: adobe-premiere-libraries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-libraries-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-libraries-api-openapi.yml
 - filename: adobe-premiere-representations-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Representations API
   slug: adobe-premiere-representations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-representations-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-representations-api-openapi.yml
 - filename: adobe-premiere-library-service-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service API
   slug: adobe-premiere-library-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-library-service-api-openapi.yml
 - filename: adobe-premiere-library-service-bookmarks-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service - Bookmarks API
   slug: adobe-premiere-library-service-bookmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-bookmarks-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-library-service-bookmarks-api-openapi.yml
 - filename: adobe-premiere-library-service-public-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service - Public API
   slug: adobe-premiere-library-service-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-public-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-library-service-public-api-openapi.yml
 authorization_urls:
 - https://ims-na1.adobelogin.com/ims/authorize/v2
 description: ''
@@ -106,7 +106,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: openapi/adobe-premiere-elements-api-openapi.yml, openapi/adobe-premiere-libraries-api-openapi.yml,\n  openapi/adobe-premiere-representations-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/adobe-premiere-elements-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ims-na1.adobelogin.com/ims/authorize/v2\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n- name: oauth2\n  source: openapi/adobe-premiere-libraries-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ims-na1.adobelogin.com/ims/authorize/v2\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n- name: oauth2\n  source: openapi/adobe-premiere-representations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ims-na1.adobelogin.com/ims/authorize/v2\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\nscopes:\n- scope: creative_sdk\n\
   \  description: Access Creative Cloud Libraries\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-premiere-elements-api-openapi.yml\n  - openapi/adobe-premiere-libraries-api-openapi.yml\n  - openapi/adobe-premiere-representations-api-openapi.yml\n- scope: openid\n  description: OpenID Connect\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-premiere-elements-api-openapi.yml\n  - openapi/adobe-premiere-libraries-api-openapi.yml\n  - openapi/adobe-premiere-representations-api-openapi.yml\n- scope: profile\n  description: User profile access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/adobe-premiere-elements-api-openapi.yml\n  - openapi/adobe-premiere-libraries-api-openapi.yml\n  - openapi/adobe-premiere-representations-api-openapi.yml\n- scope: AdobeID\n  description: >-\n    Core Adobe Identity Management System scope required alongside openid for an authorization-code\n    flow against Adobe IMS.\n  flows:\n  - authorizationCode\n  sources:\n\
   \  - https://developer.adobe.com/creative-cloud-libraries/docs/integrate/setup/oauth/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/scopes/adobe-premiere-scopes.yml
+source_yaml_url: https://artifacts.apis.io/adobe-premiere/scopes/adobe-premiere-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Adobe

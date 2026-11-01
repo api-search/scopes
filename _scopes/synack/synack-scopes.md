@@ -5,133 +5,133 @@ api_specs:
   label: Synack Assessment Groups API
   slug: synack-assessment-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assessment-groups-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assessment-groups-api-openapi.yml
 - filename: synack-assessment-lifecycle-api-openapi.yml
   format: yaml
   label: Synack Assessment Lifecycle API
   slug: synack-assessment-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assessment-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assessment-lifecycle-api-openapi.yml
 - filename: synack-assessments-api-openapi.yml
   format: yaml
   label: Synack Assessments API
   slug: synack-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assessments-api-openapi.yml
 - filename: synack-asset-relationships-api-openapi.yml
   format: yaml
   label: Synack Asset Relationships API
   slug: synack-asset-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-asset-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-asset-relationships-api-openapi.yml
 - filename: synack-assetproviders-api-openapi.yml
   format: yaml
   label: Synack Assetproviders API
   slug: synack-assetproviders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assetproviders-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assetproviders-api-openapi.yml
 - filename: synack-assets-api-openapi.yml
   format: yaml
   label: Synack Assets API
   slug: synack-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-assets-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-assets-api-openapi.yml
 - filename: synack-comments-api-openapi.yml
   format: yaml
   label: Synack Comments API
   slug: synack-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-comments-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-comments-api-openapi.yml
 - filename: synack-credentials-api-openapi.yml
   format: yaml
   label: Synack Credentials API
   slug: synack-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-credentials-api-openapi.yml
 - filename: synack-external-relationships-api-openapi.yml
   format: yaml
   label: Synack External Relationships API
   slug: synack-external-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-external-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-external-relationships-api-openapi.yml
 - filename: synack-health-api-openapi.yml
   format: yaml
   label: Synack Health API
   slug: synack-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-health-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-health-api-openapi.yml
 - filename: synack-hosts-api-openapi.yml
   format: yaml
   label: Synack Hosts API
   slug: synack-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-hosts-api-openapi.yml
 - filename: synack-missions-api-openapi.yml
   format: yaml
   label: Synack Missions API
   slug: synack-missions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-missions-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-missions-api-openapi.yml
 - filename: synack-patch-verifications-api-openapi.yml
   format: yaml
   label: Synack Patch Verifications API
   slug: synack-patch-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-patch-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-patch-verifications-api-openapi.yml
 - filename: synack-seeds-api-openapi.yml
   format: yaml
   label: Synack Seeds API
   slug: synack-seeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-seeds-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-seeds-api-openapi.yml
 - filename: synack-suspected-vulnerabilities-api-openapi.yml
   format: yaml
   label: Synack Suspected Vulnerabilities API
   slug: synack-suspected-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-suspected-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-suspected-vulnerabilities-api-openapi.yml
 - filename: synack-tags-api-openapi.yml
   format: yaml
   label: Synack Tags API
   slug: synack-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-tags-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-tags-api-openapi.yml
 - filename: synack-tests-api-openapi.yml
   format: yaml
   label: Synack Tests API
   slug: synack-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-tests-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-tests-api-openapi.yml
 - filename: synack-users-api-openapi.yml
   format: yaml
   label: Synack Users API
   slug: synack-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-users-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-users-api-openapi.yml
 - filename: synack-vulnerabilities-api-openapi.yml
   format: yaml
   label: Synack Vulnerabilities API
   slug: synack-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-vulnerabilities-api-openapi.yml
 - filename: synack-vulnerability-statuses-api-openapi.yml
   format: yaml
   label: Synack Vulnerability Statuses API
   slug: synack-vulnerability-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-vulnerability-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-vulnerability-statuses-api-openapi.yml
 - filename: synack-mobile-apps-api-openapi.yml
   format: yaml
   label: Synack Mobile Apps API
   slug: synack-mobile-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-mobile-apps-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-mobile-apps-api-openapi.yml
 - filename: synack-web-apps-api-openapi.yml
   format: yaml
   label: Synack Web Apps API
   slug: synack-web-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/openapi/synack-web-apps-api-openapi.yml
+  url: https://artifacts.apis.io/synack/openapi/synack-web-apps-api-openapi.yml
 authorization_urls:
 - login.synack.com
 description: ''
@@ -287,7 +287,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/synack-a
   \  - openapi/synack-vulns-openapi.yaml\n- scope: asset_scan_gr\n  description: Grants unrestricted read access to all assets. Including credential data of cloud\n    account assets.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-asset-v2-openapi.yaml\n  - openapi/synack-vulns-openapi.yaml\n- scope: asset_srt_lr\n  description: Grants per-listing read access to assets that may be read by SRTs.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-asset-v2-openapi.yaml\n  - openapi/synack-vulns-openapi.yaml\n- scope: asset_user_or\n  description: Grants user-level read access to asset stats that owned by a particular organization.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-asset-v2-openapi.yaml\n  - openapi/synack-vulns-openapi.yaml\n- scope: assetdiscovery_gr\n  description: Grants global-level to read seed groups and seeds.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-asset-discovery-openapi.yaml\n- scope: assetdiscovery_lr\n  description: Grants listing-level\
   \ to read seed groups and seeds.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-asset-discovery-openapi.yaml\n- scope: assetdiscovery_or\n  description: Grants organization-level to read seed groups and seeds.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-asset-discovery-openapi.yaml\n- scope: assetdiscovery_ow\n  description: Grants organization-level to create or modify seed groups and seeds.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-asset-discovery-openapi.yaml\n- scope: tag_gr\n  description: Grants global-level to read tags.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-tagging-openapi.yaml\n- scope: tag_gw\n  description: Grants global-level to create or modify tags.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-tagging-openapi.yaml\n- scope: tag_lr\n  sources:\n  - openapi/synack-tagging-openapi.yaml\n- scope: tag_lw\n  sources:\n  - openapi/synack-tagging-openapi.yaml\n- scope: tag_or\n  description: Grants organization-level\
   \ to read tags.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-tagging-openapi.yaml\n- scope: tag_ow\n  description: Grants organization-level to create or modify tags.\n  flows:\n  - implicit\n  sources:\n  - openapi/synack-tagging-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/scopes/synack-scopes.yml
+source_yaml_url: https://artifacts.apis.io/synack/scopes/synack-scopes.yml
 summary_line: 21 scopes · implicit
 tags:
 - Company

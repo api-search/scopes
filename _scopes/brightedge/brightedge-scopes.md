@@ -5,55 +5,55 @@ api_specs:
   label: BrightEdge Auth API
   slug: brightedge-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-auth-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-auth-api-openapi.yml
 - filename: brightedge-authorize-api-openapi.yml
   format: yaml
   label: BrightEdge Authorize API
   slug: brightedge-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-authorize-api-openapi.yml
 - filename: brightedge-feedback-api-openapi.yml
   format: yaml
   label: BrightEdge Feedback API
   slug: brightedge-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-feedback-api-openapi.yml
 - filename: brightedge-oauth-api-openapi.yml
   format: yaml
   label: BrightEdge OAuth API
   slug: brightedge-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-oauth-api-openapi.yml
 - filename: brightedge-ping-api-openapi.yml
   format: yaml
   label: BrightEdge Ping API
   slug: brightedge-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-ping-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-ping-api-openapi.yml
 - filename: brightedge-saml-api-openapi.yml
   format: yaml
   label: BrightEdge SAML API
   slug: brightedge-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-saml-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-saml-api-openapi.yml
 - filename: brightedge-sso-api-openapi.yml
   format: yaml
   label: BrightEdge SSO API
   slug: brightedge-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-sso-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-sso-api-openapi.yml
 - filename: brightedge-token-api-openapi.yml
   format: yaml
   label: BrightEdge Token API
   slug: brightedge-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-token-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-token-api-openapi.yml
 - filename: brightedge-well-known-api-openapi.yml
   format: yaml
   label: BrightEdge .well Known API
   slug: brightedge-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-well-known-api-openapi.yml
 authorization_urls:
 - https://mcp2.brightedge.com/authorize
 - https://mcp.brightedge.com/authorize
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.bri
   \ [none]\n- name: brightedge-mcp-marketplace-oauth\n  type: oauth2\n  source: https://mcp.brightedge.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.brightedge.com/authorize\n    tokenUrl: https://mcp.brightedge.com/token\n    pkce: S256\nscopes:\n- scope: openid\n  description: OpenID Connect subject identity; the only scope the protected-resource metadata\n    advertises as supported for the MCP resource.\n  flows: [authorizationCode]\n  sources:\n  - https://mcp2.brightedge.com/.well-known/oauth-protected-resource\n  - https://mcp2.brightedge.com/.well-known/oauth-authorization-server\n  - https://mcp.brightedge.com/.well-known/oauth-protected-resource\n  - https://mcp2-sse.brightedge.com/.well-known/oauth-protected-resource\n- scope: profile\n  description: Auth0 profile claims. Documented as part of the scope string clients send when\n    registering the BrightEdge MCP connector (Gemini Enterprise, Microsoft Copilot\
   \ Studio,\n    Relevance AI setup guides all state \"Scope openid profile email\").\n  flows: [authorizationCode]\n  sources:\n  - https://www.brightedge.com/brightedge-mcp\n  - https://mcp2.brightedge.com/.well-known/openid-configuration\n- scope: email\n  description: Auth0 email claim. Same source as profile.\n  flows: [authorizationCode]\n  sources:\n  - https://www.brightedge.com/brightedge-mcp\n  - https://mcp2.brightedge.com/.well-known/openid-configuration\nauthorization_server_scopes_supported:\n  note: The Auth0-backed OIDC discovery document advertises the standard Auth0 claim scope set.\n    These are identity claims, not BrightEdge data permissions — BrightEdge publishes no\n    per-tool or per-dataset scope vocabulary.\n  source: well-known/brightedge-mcp2-openid-configuration.json\n  scopes: [openid, profile, offline_access, name, given_name, family_name, nickname, email,\n    email_verified, picture, created_at, identities, phone, address]\ngaps:\n- No BrightEdge-specific\
   \ data scopes (e.g. read:keywords, read:datacube) are published; the MCP\n  server is described as read-only for the whole connected account rather than scoped per dataset.\n- Client credentials are not self-serve. The OAuth Client ID/Secret must be requested from a\n  BrightEdge Customer Success Manager or integrations@brightedge.com, and redirect URLs must be\n  allowlisted by BrightEdge before a connector will authenticate.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/scopes/brightedge-scopes.yml
+source_yaml_url: https://artifacts.apis.io/brightedge/scopes/brightedge-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

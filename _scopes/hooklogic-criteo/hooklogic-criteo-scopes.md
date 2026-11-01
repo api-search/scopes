@@ -5,49 +5,49 @@ api_specs:
   label: HookLogic (Criteo) Accounts API
   slug: hooklogic-criteo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-accounts-api-openapi.yml
 - filename: hooklogic-criteo-analytics-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Analytics API
   slug: hooklogic-criteo-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-analytics-api-openapi.yml
 - filename: hooklogic-criteo-audience-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Audience API
   slug: hooklogic-criteo-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-audience-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-audience-api-openapi.yml
 - filename: hooklogic-criteo-balance-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Balance API
   slug: hooklogic-criteo-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-balance-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-balance-api-openapi.yml
 - filename: hooklogic-criteo-billing-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Billing API
   slug: hooklogic-criteo-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-billing-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-billing-api-openapi.yml
 - filename: hooklogic-criteo-campaign-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Campaign API
   slug: hooklogic-criteo-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-campaign-api-openapi.yml
 - filename: hooklogic-criteo-catalog-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Catalog API
   slug: hooklogic-criteo-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-catalog-api-openapi.yml
 - filename: hooklogic-criteo-gateway-api-openapi.yml
   format: yaml
   label: HookLogic (Criteo) Gateway API
   slug: hooklogic-criteo-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/openapi/hooklogic-criteo-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/hooklogic-criteo/openapi/hooklogic-criteo-gateway-api-openapi.yml
 authorization_urls:
 - https://api.criteo.com/oauth2
 description: ''
@@ -192,7 +192,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://developer
   \    authorizationUrl: https://api.criteo.com/oauth2\n    tokenUrl: https://api.criteo.com/oauth2/token\n- name: oauth\n  source: openapi/hooklogic-criteo-balance-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.criteo.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.criteo.com/oauth2\n    tokenUrl: https://api.criteo.com/oauth2/token\n- name: oauth\n  source: openapi/hooklogic-criteo-billing-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.criteo.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.criteo.com/oauth2\n    tokenUrl: https://api.criteo.com/oauth2/token\n- name: oauth\n  source: openapi/hooklogic-criteo-campaign-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.criteo.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.criteo.com/oauth2\n    tokenUrl: https://api.criteo.com/oauth2/token\n\
   - name: oauth\n  source: openapi/hooklogic-criteo-catalog-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.criteo.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.criteo.com/oauth2\n    tokenUrl: https://api.criteo.com/oauth2/token\n- name: oauth\n  source: openapi/hooklogic-criteo-gateway-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.criteo.com/oauth2/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.criteo.com/oauth2\n    tokenUrl: https://api.criteo.com/oauth2/token\nscopes:\n- scope: RetailMedia_Accounts_Manage\n  sources:\n  - openapi/hooklogic-criteo-accounts-api-openapi.yml\n- scope: RetailMedia_Accounts_Read\n  sources:\n  - openapi/hooklogic-criteo-accounts-api-openapi.yml\n- scope: RetailMedia_Analytics_Read\n  sources:\n  - openapi/hooklogic-criteo-analytics-api-openapi.yml\n- scope: RetailMedia_Audience_Manage\n  sources:\n  - openapi/hooklogic-criteo-audience-api-openapi.yml\n\
   - scope: RetailMedia_Audience_Read\n  sources:\n  - openapi/hooklogic-criteo-audience-api-openapi.yml\n- scope: RetailMedia_Balance_Manage\n  sources:\n  - openapi/hooklogic-criteo-balance-api-openapi.yml\n- scope: RetailMedia_Balance_Read\n  sources:\n  - openapi/hooklogic-criteo-balance-api-openapi.yml\n- scope: RetailMedia_Billing_Read\n  sources:\n  - openapi/hooklogic-criteo-billing-api-openapi.yml\n- scope: RetailMedia_Campaign_Manage\n  sources:\n  - openapi/hooklogic-criteo-campaign-api-openapi.yml\n- scope: RetailMedia_Campaign_Read\n  sources:\n  - openapi/hooklogic-criteo-campaign-api-openapi.yml\n- scope: RetailMedia_Catalog_Manage\n  sources:\n  - openapi/hooklogic-criteo-catalog-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/scopes/hooklogic-criteo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hooklogic-criteo/scopes/hooklogic-criteo-scopes.yml
 summary_line: 11 scopes · clientCredentials/authorizationCode
 tags:
 - Company

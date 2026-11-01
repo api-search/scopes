@@ -5,13 +5,13 @@ api_specs:
   label: Virix Labs Account API
   slug: humanbrowser-cloud-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/openapi/humanbrowser-cloud-account-api-openapi.yml
+  url: https://artifacts.apis.io/humanbrowser-cloud/openapi/humanbrowser-cloud-account-api-openapi.yml
 - filename: humanbrowser-cloud-session-api-openapi.yml
   format: yaml
   label: Virix Labs Session API
   slug: humanbrowser-cloud-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/openapi/humanbrowser-cloud-session-api-openapi.yml
+  url: https://artifacts.apis.io/humanbrowser-cloud/openapi/humanbrowser-cloud-session-api-openapi.yml
 authorization_urls:
 - https://agent.humanbrowser.cloud/authorize
 description: ''
@@ -87,7 +87,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/humanbrowser-cloud-openapi.json\ndocs:\n- https://agent.humanbrowser.cloud/.well-known/oauth-authorization-server\n- https://agent.humanbrowser.cloud/.well-known/oauth-protected-resource\nsummary: >-\n  Two scope vocabularies from two OAuth surfaces that do not reference each other. The OpenAPI's oauth2\n  clientCredentials scheme declares session:run, account:read and account:topup and binds them per\n  operation — but its tokenUrl (https://agent.humanbrowser.cloud/oauth/token) 404s on GET and POST. The\n  live authorization server's RFC 8414 metadata on the same host declares mcp:run and mcp:read for the\n  MCP resource, with no per-tool binding published anywhere. Neither vocabulary is documented on a\n  scopes/permissions page (/docs/oauth 404). Every shipped integration uses the unscoped hb_live_ bearer\n  token instead.\nschemes:\n- name: oauth2\n  source: openapi/humanbrowser-cloud-openapi.json\n  flows:\n  -\
   \ flow: clientCredentials\n    tokenUrl: https://agent.humanbrowser.cloud/oauth/token\n    tokenUrl_status: 404 (GET and POST, 2026-09-19)\n  description: Least-privilege scoped access. Request only the scopes an agent needs.\n- name: mcp-oauth\n  source: well-known/humanbrowser-cloud-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://agent.humanbrowser.cloud/authorize\n    tokenUrl: https://agent.humanbrowser.cloud/token\n    pkce: S256\n  description: RFC 8414 metadata; resource https://agent.humanbrowser.cloud/mcp per RFC 9728.\nscopes:\n- scope: session:run\n  description: Spawn and drive browser sessions\n  flows:\n  - clientCredentials\n  operations: [runA2ATask]\n  sources:\n  - openapi/humanbrowser-cloud-openapi.json\n- scope: account:read\n  description: Read token balance, usage and account state\n  flows:\n  - clientCredentials\n  operations: [getAccount, getUsage]\n  sources:\n  - openapi/humanbrowser-cloud-openapi.json\n-\
   \ scope: account:topup\n  description: Create top-ups / purchases against the account\n  flows:\n  - clientCredentials\n  operations: [topUp]\n  sources:\n  - openapi/humanbrowser-cloud-openapi.json\n- scope: mcp:run\n  description: undocumented — by name, invoke MCP tools that run browser tasks\n  flows:\n  - authorizationCode\n  operations: []\n  sources:\n  - well-known/humanbrowser-cloud-oauth-authorization-server.json\n  - well-known/humanbrowser-cloud-oauth-protected-resource.json\n- scope: mcp:read\n  description: undocumented — by name, read-only MCP access\n  flows:\n  - authorizationCode\n  operations: []\n  sources:\n  - well-known/humanbrowser-cloud-oauth-authorization-server.json\n  - well-known/humanbrowser-cloud-oauth-protected-resource.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/scopes/humanbrowser-cloud-scopes.yml
+source_yaml_url: https://artifacts.apis.io/humanbrowser-cloud/scopes/humanbrowser-cloud-scopes.yml
 summary_line: 5 scopes · clientCredentials/authorizationCode
 tags:
 - Browser Automation

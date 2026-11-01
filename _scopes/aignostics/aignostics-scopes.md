@@ -5,7 +5,7 @@ api_specs:
   label: Aignostics Public API
   slug: aignostics-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/openapi/aignostics-public-api-openapi.yml
+  url: https://artifacts.apis.io/aignostics/openapi/aignostics-public-api-openapi.yml
 authorization_urls:
 - https://aignostics-platform.eu.auth0.com/authorize
 description: ''
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-14'\nmethod: searched\nsource: >-\n  openapi/a
   \  declared_scopes: 0\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://aignostics-platform.eu.auth0.com/authorize\n    tokenUrl: https://aignostics-platform.eu.auth0.com/oauth/token\n  - flow: deviceCode\n    tokenUrl: https://aignostics-platform.eu.auth0.com/oauth/token\n    requested_scope: offline_access\n    audience: https://aignostics-platform-samia\n    source: https://aignostics.readthedocs.io/en/latest/get_started_api.html\nidentity_scopes:\n  note: >-\n    These are the OIDC scopes the Auth0 tenant advertises. They govern the identity token, NOT access\n    to any Platform API resource, and are listed here only so the distinction is on the record.\n  source: https://aignostics-platform.eu.auth0.com/.well-known/openid-configuration\n  supported:\n  - openid\n  - profile\n  - offline_access\n  - name\n  - given_name\n  - family_name\n  - nickname\n  - email\n  - email_verified\n  - picture\n  - created_at\n  - identities\n  - phone\n  - address\nauthorization_model:\n\
   \  style: relationship-based (Zanzibar-shaped)\n  primitives:\n    resource_types: [run, item, output_artifact, share_token]\n    subject_types: [user, organization_admin, organization_user, share_token]\n    relations: [owner, editor, viewer]\n  creatable_through_api: [viewer]\n  note: >-\n    The access surface that scopes would normally cover is instead exposed as first-class API\n    resources - /v1/access/grants and /v1/access/share-tokens - which is a more expressive model than\n    scopes, and is auditable and revocable at runtime. The cost is that a bearer token carries no\n    intrinsic limit: an agent holding a user token can do everything that user can do, including\n    submitting billable runs, and there is no way to mint a read-only token for it. A share token is\n    the nearest equivalent, and it only covers reading an already-existing run.\ngaps:\n- id: no-least-privilege-token\n  detail: >-\n    With zero scopes, a delegated agent cannot be given a narrower credential\
   \ than the human it acts\n    for. Defining even two scopes - read and submit - would let an integrator hand an autonomous\n    client a token that cannot incur GPU cost.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/scopes/aignostics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aignostics/scopes/aignostics-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

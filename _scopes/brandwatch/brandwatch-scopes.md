@@ -5,43 +5,43 @@ api_specs:
   label: Brandwatch Client API
   slug: brandwatch-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-client-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-client-api-openapi.yml
 - filename: brandwatch-data-api-openapi.yml
   format: yaml
   label: Brandwatch Data API
   slug: brandwatch-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-data-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-data-api-openapi.yml
 - filename: brandwatch-me-api-openapi.yml
   format: yaml
   label: Brandwatch Me API
   slug: brandwatch-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-me-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-me-api-openapi.yml
 - filename: brandwatch-project-api-openapi.yml
   format: yaml
   label: Brandwatch Project API
   slug: brandwatch-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-project-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-project-api-openapi.yml
 - filename: brandwatch-projects-api-openapi.yml
   format: yaml
   label: Brandwatch Projects API
   slug: brandwatch-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-projects-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-projects-api-openapi.yml
 - filename: brandwatch-user-api-openapi.yml
   format: yaml
   label: Brandwatch User API
   slug: brandwatch-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-user-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-user-api-openapi.yml
 - filename: brandwatch-oauth-api-openapi.yml
   format: yaml
   label: Brandwatch OAUTH API
   slug: brandwatch-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/openapi/brandwatch-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/brandwatch/openapi/brandwatch-oauth-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developers.brandwatch.com/docs/authenticate
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/brandwa
   \        grant_type: api-password\nscopes:\n  - scope: read\n    description: null\n    flows:\n      - password\n    sources:\n      - https://developers.brandwatch.com/docs/authenticate\n    note: returned in the documented token response; Brandwatch publishes no definition\n  - scope: trust\n    description: null\n    flows:\n      - password\n    sources:\n      - https://developers.brandwatch.com/docs/authenticate\n    note: returned in the documented token response; Brandwatch publishes no definition\n  - scope: write\n    description: null\n    flows:\n      - password\n    sources:\n      - https://developers.brandwatch.com/docs/authenticate\n    note: returned in the documented token response; Brandwatch publishes no definition\nscope_count: 3\nplatform_sso_scopes:\n  applies_to: Brandwatch One human sign-in — NOT the Consumer Research API\n  issuer: https://signin.brandwatch.com/auth/realms/bwone\n  discovery: https://signin.brandwatch.com/auth/realms/bwone/.well-known/openid-configuration\n\
   \  file: well-known/brandwatch-openid-configuration.json\n  method: probed\n  note: >-\n    Recorded for completeness and kept strictly separate from the API scopes\n    above. These are the scopes advertised by Brandwatch's Keycloak realm for\n    browser sign-in to the product suite. An API client cannot request them and\n    they do not appear on an API token. They are listed here because they show\n    Brandwatch already models product and tenancy boundaries as OIDC scopes\n    (ci = Consumer Intelligence, smm = Social Media Management) — the exact\n    structure the API's opaque three-value scope string lacks.\n  scopes:\n    - openid\n    - profile\n    - email\n    - phone\n    - address\n    - roles\n    - basic\n    - acr\n    - offline_access\n    - web-origins\n    - microprofile-jwt\n    - service_account\n    - ci\n    - ci-context\n    - smm\n    - smm-context\n    - bwone-account-id\n    - bwone-organization-id\n  scope_count: 18\nselectable: false\nselectable_note: >-\n\
   \  The token request accepts no `scope` parameter. Scopes are a property of the\n  underlying Consumer Research user account, so an agent cannot obtain a\n  read-only token for a read-only task.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/scopes/brandwatch-scopes.yml
+source_yaml_url: https://artifacts.apis.io/brandwatch/scopes/brandwatch-scopes.yml
 summary_line: 3 scopes · password
 tags:
 - Analytics

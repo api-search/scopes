@@ -5,25 +5,25 @@ api_specs:
   label: tl;dv Meetings API
   slug: tl-dv-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/openapi/tl-dv-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/tl-dv/openapi/tl-dv-meetings-api-openapi.yml
 - filename: tl-dv-notes-api-openapi.yml
   format: yaml
   label: tl;dv Notes API
   slug: tl-dv-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/openapi/tl-dv-notes-api-openapi.yml
+  url: https://artifacts.apis.io/tl-dv/openapi/tl-dv-notes-api-openapi.yml
 - filename: tl-dv-system-api-openapi.yml
   format: yaml
   label: tl;dv System API
   slug: tl-dv-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/openapi/tl-dv-system-api-openapi.yml
+  url: https://artifacts.apis.io/tl-dv/openapi/tl-dv-system-api-openapi.yml
 - filename: tl-dv-transcripts-api-openapi.yml
   format: yaml
   label: tl;dv Transcripts API
   slug: tl-dv-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/openapi/tl-dv-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/tl-dv/openapi/tl-dv-transcripts-api-openapi.yml
 authorization_urls:
 - https://keycloak.tldv.io/realms/mcp.tldv.io/protocol/openid-connect/auth
 description: ''
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.tldv.
   \ found.\nresource:\n  identifier: https://mcp.tldv.io/\n  name: MCP Demo Server\n  metadata_file: well-known/tl-dv-oauth-protected-resource.json\nschemes:\n  - name: MCPOAuth\n    type: oauth2\n    source: https://mcp.tldv.io/.well-known/oauth-authorization-server\n    metadata_file: well-known/tl-dv-oauth-authorization-server.json\n    issuer: https://keycloak.tldv.io/realms/mcp.tldv.io\n    implementation: Keycloak\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://keycloak.tldv.io/realms/mcp.tldv.io/protocol/openid-connect/auth\n        tokenUrl: https://keycloak.tldv.io/realms/mcp.tldv.io/protocol/openid-connect/token\n        refreshUrl: https://keycloak.tldv.io/realms/mcp.tldv.io/protocol/openid-connect/token\n    grant_types_supported: [authorization_code, refresh_token]\n    response_types_supported:\n      - code\n      - none\n      - id_token\n      - token\n      - id_token token\n      - code id_token\n      - code token\n      - code id_token\
   \ token\n    code_challenge_methods_supported: [S256]\n    token_endpoint_auth_methods_supported: [client_secret_basic, client_secret_post, none]\n    registration_endpoint: https://keycloak.tldv.io/realms/mcp.tldv.io/clients-registrations/openid-connect\n    introspection_endpoint: https://keycloak.tldv.io/realms/mcp.tldv.io/protocol/openid-connect/token/introspect\n    revocation_endpoint: https://keycloak.tldv.io/realms/mcp.tldv.io/protocol/openid-connect/revoke\n    dynamic_client_registration: true\n    pkce_required: true\nscopes:\n  - scope: mcp:tools\n    description: >-\n      Invoke the tools exposed by the tl;dv MCP server (list-meetings,\n      get-meeting-metadata, get-transcript, get-highlights).\n    flows: [authorizationCode]\n    sources: [well-known/tl-dv-oauth-protected-resource.json]\n    granularity: coarse\n    note: >\n      A single all-or-nothing scope covering every tool. There is no read/write\n      split and no per-resource scoping, so a token that can list\
   \ meetings can\n      also pull full transcripts of them. Worth noting for agent delegation:\n      least-privilege is not expressible on this surface.\nsummary:\n  scope_count: 1\n  oauth2_flows: [authorizationCode]\n  pkce: S256\n  dynamic_client_registration: true\nx-evidence:\n  - url: https://mcp.tldv.io/.well-known/oauth-protected-resource\n    http_status: 200\n    fetched: '2026-08-14'\n  - url: https://mcp.tldv.io/.well-known/oauth-authorization-server\n    http_status: 200\n    fetched: '2026-08-14'\n  - url: https://mcp.tldv.io/mcp\n    http_status: 401\n    fetched: '2026-08-14'\n    note: WWW-Authenticate Bearer challenge naming the resource_metadata document.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/scopes/tl-dv-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tl-dv/scopes/tl-dv-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

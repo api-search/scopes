@@ -5,7 +5,7 @@ api_specs:
   label: NIFT Customers API
   slug: nift-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/openapi/nift-customers-api-openapi.yml
+  url: https://artifacts.apis.io/nift/openapi/nift-customers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://github.com/nift-sdks/nift-flow-sdk-docs/blob/main/docs/sdk/customer-status-server.md
@@ -51,7 +51,7 @@ source_filename: nift-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/nift-partners-openapi.yml\ndocs: https://github.com/nift-sdks/nift-flow-sdk-docs/blob/main/docs/sdk/customer-status-server.md\nschemes:\n- name: oauth2\n  source: openapi/nift-partners-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.gonift.com/oauth/token\n  description: OAuth 2.0 client credentials issued by Nift; token endpoint at /oauth/token.\nscopes:\n- scope: read:customers\n  description: Read access to customer status.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/nift-partners-openapi.yml\n- scope: write:customers\n  description: Submit customer deletion (anonymization) requests.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/nift-partners-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nift/refs/heads/main/scopes/nift-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nift/scopes/nift-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Company

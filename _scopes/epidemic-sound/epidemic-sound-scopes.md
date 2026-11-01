@@ -5,55 +5,55 @@ api_specs:
   label: Epidemic Sound Assets API
   slug: epidemic-sound-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-assets-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-assets-api-openapi.yml
 - filename: epidemic-sound-authentication-api-openapi.yml
   format: yaml
   label: Epidemic Sound Authentication API
   slug: epidemic-sound-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-authentication-api-openapi.yml
 - filename: epidemic-sound-beta-api-openapi.yml
   format: yaml
   label: Epidemic Sound Beta API
   slug: epidemic-sound-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-beta-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-beta-api-openapi.yml
 - filename: epidemic-sound-browse-search-api-openapi.yml
   format: yaml
   label: Epidemic Sound Browse & search API
   slug: epidemic-sound-browse-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-browse-search-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-browse-search-api-openapi.yml
 - filename: epidemic-sound-reporting-api-openapi.yml
   format: yaml
   label: Epidemic Sound Reporting API
   slug: epidemic-sound-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-reporting-api-openapi.yml
 - filename: epidemic-sound-safelisting-api-openapi.yml
   format: yaml
   label: Epidemic Sound Safelisting API
   slug: epidemic-sound-safelisting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-safelisting-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-safelisting-api-openapi.yml
 - filename: epidemic-sound-sound-effects-api-openapi.yml
   format: yaml
   label: Epidemic Sound Effects API
   slug: epidemic-sound-sound-effects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-sound-effects-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-sound-effects-api-openapi.yml
 - filename: epidemic-sound-tracks-api-openapi.yml
   format: yaml
   label: Epidemic Sound Tracks API
   slug: epidemic-sound-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-tracks-api-openapi.yml
 - filename: epidemic-sound-users-api-openapi.yml
   format: yaml
   label: Epidemic Sound Users API
   slug: epidemic-sound-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/openapi/epidemic-sound-users-api-openapi.yml
+  url: https://artifacts.apis.io/epidemic-sound/openapi/epidemic-sound-users-api-openapi.yml
 authorization_urls:
 - https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
 description: ''
@@ -197,7 +197,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/epidemic-so
   \    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-safelisting-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-sound-effects-api-openapi.yml\n\
   \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-tracks-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example\
   \ Header:** `Authorization: Bearer es-connect-token`\n- name: EpidemicSoundConnectAuth\n  source: openapi/epidemic-sound-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/scopes/epidemic-sound-scopes.yml
+source_yaml_url: https://artifacts.apis.io/epidemic-sound/scopes/epidemic-sound-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Music

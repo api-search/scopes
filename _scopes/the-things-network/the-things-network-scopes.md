@@ -5,349 +5,349 @@ api_specs:
   label: The Things Network / The Things Stack AppAs API
   slug: the-things-network-appas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-appas-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-appas-api-openapi.yml
 - filename: the-things-network-applicationaccess-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ApplicationAccess API
   slug: the-things-network-applicationaccess-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-applicationaccess-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-applicationaccess-api-openapi.yml
 - filename: the-things-network-applicationactivationsettingregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ApplicationActivationSettingRegistry API
   slug: the-things-network-applicationactivationsettingregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-applicationactivationsettingregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-applicationactivationsettingregistry-api-openapi.yml
 - filename: the-things-network-applicationpackageregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ApplicationPackageRegistry API
   slug: the-things-network-applicationpackageregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-applicationpackageregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-applicationpackageregistry-api-openapi.yml
 - filename: the-things-network-applicationpubsubregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ApplicationPubSubRegistry API
   slug: the-things-network-applicationpubsubregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-applicationpubsubregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-applicationpubsubregistry-api-openapi.yml
 - filename: the-things-network-applicationregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ApplicationRegistry API
   slug: the-things-network-applicationregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-applicationregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-applicationregistry-api-openapi.yml
 - filename: the-things-network-applicationupstorage-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ApplicationUpStorage API
   slug: the-things-network-applicationupstorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-applicationupstorage-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-applicationupstorage-api-openapi.yml
 - filename: the-things-network-applicationwebhookregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ApplicationWebhookRegistry API
   slug: the-things-network-applicationwebhookregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-applicationwebhookregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-applicationwebhookregistry-api-openapi.yml
 - filename: the-things-network-as-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack As API
   slug: the-things-network-as-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-as-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-as-api-openapi.yml
 - filename: the-things-network-asenddevicebatchregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack AsEndDeviceBatchRegistry API
   slug: the-things-network-asenddevicebatchregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-asenddevicebatchregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-asenddevicebatchregistry-api-openapi.yml
 - filename: the-things-network-asenddeviceregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack AsEndDeviceRegistry API
   slug: the-things-network-asenddeviceregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-asenddeviceregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-asenddeviceregistry-api-openapi.yml
 - filename: the-things-network-clientaccess-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ClientAccess API
   slug: the-things-network-clientaccess-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-clientaccess-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-clientaccess-api-openapi.yml
 - filename: the-things-network-clientregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ClientRegistry API
   slug: the-things-network-clientregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-clientregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-clientregistry-api-openapi.yml
 - filename: the-things-network-configuration-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Configuration API
   slug: the-things-network-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-configuration-api-openapi.yml
 - filename: the-things-network-contactinforegistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ContactInfoRegistry API
   slug: the-things-network-contactinforegistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-contactinforegistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-contactinforegistry-api-openapi.yml
 - filename: the-things-network-devicerepository-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack DeviceRepository API
   slug: the-things-network-devicerepository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-devicerepository-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-devicerepository-api-openapi.yml
 - filename: the-things-network-emailvalidationregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack EmailValidationRegistry API
   slug: the-things-network-emailvalidationregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-emailvalidationregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-emailvalidationregistry-api-openapi.yml
 - filename: the-things-network-enddevicebatchclaimingserver-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack EndDeviceBatchClaimingServer API
   slug: the-things-network-enddevicebatchclaimingserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-enddevicebatchclaimingserver-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-enddevicebatchclaimingserver-api-openapi.yml
 - filename: the-things-network-enddevicebatchregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack EndDeviceBatchRegistry API
   slug: the-things-network-enddevicebatchregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-enddevicebatchregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-enddevicebatchregistry-api-openapi.yml
 - filename: the-things-network-enddeviceclaimingserver-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack EndDeviceClaimingServer API
   slug: the-things-network-enddeviceclaimingserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-enddeviceclaimingserver-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-enddeviceclaimingserver-api-openapi.yml
 - filename: the-things-network-enddeviceqrcodegenerator-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack EndDeviceQRCodeGenerator API
   slug: the-things-network-enddeviceqrcodegenerator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-enddeviceqrcodegenerator-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-enddeviceqrcodegenerator-api-openapi.yml
 - filename: the-things-network-enddeviceregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack EndDeviceRegistry API
   slug: the-things-network-enddeviceregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-enddeviceregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-enddeviceregistry-api-openapi.yml
 - filename: the-things-network-enddeviceregistrysearch-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack EndDeviceRegistrySearch API
   slug: the-things-network-enddeviceregistrysearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-enddeviceregistrysearch-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-enddeviceregistrysearch-api-openapi.yml
 - filename: the-things-network-enddevicetemplateconverter-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack EndDeviceTemplateConverter API
   slug: the-things-network-enddevicetemplateconverter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-enddevicetemplateconverter-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-enddevicetemplateconverter-api-openapi.yml
 - filename: the-things-network-entityaccess-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack EntityAccess API
   slug: the-things-network-entityaccess-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-entityaccess-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-entityaccess-api-openapi.yml
 - filename: the-things-network-entityregistrysearch-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack EntityRegistrySearch API
   slug: the-things-network-entityregistrysearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-entityregistrysearch-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-entityregistrysearch-api-openapi.yml
 - filename: the-things-network-events-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Events API
   slug: the-things-network-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-events-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-events-api-openapi.yml
 - filename: the-things-network-gatewayaccess-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack GatewayAccess API
   slug: the-things-network-gatewayaccess-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-gatewayaccess-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-gatewayaccess-api-openapi.yml
 - filename: the-things-network-gatewaybatchaccess-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack GatewayBatchAccess API
   slug: the-things-network-gatewaybatchaccess-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-gatewaybatchaccess-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-gatewaybatchaccess-api-openapi.yml
 - filename: the-things-network-gatewaybatchregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack GatewayBatchRegistry API
   slug: the-things-network-gatewaybatchregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-gatewaybatchregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-gatewaybatchregistry-api-openapi.yml
 - filename: the-things-network-gatewayclaimingserver-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack GatewayClaimingServer API
   slug: the-things-network-gatewayclaimingserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-gatewayclaimingserver-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-gatewayclaimingserver-api-openapi.yml
 - filename: the-things-network-gatewayconfigurationservice-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack GatewayConfigurationService API
   slug: the-things-network-gatewayconfigurationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-gatewayconfigurationservice-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-gatewayconfigurationservice-api-openapi.yml
 - filename: the-things-network-gatewayqrcodegenerator-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack GatewayQRCodeGenerator API
   slug: the-things-network-gatewayqrcodegenerator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-gatewayqrcodegenerator-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-gatewayqrcodegenerator-api-openapi.yml
 - filename: the-things-network-gatewayregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack GatewayRegistry API
   slug: the-things-network-gatewayregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-gatewayregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-gatewayregistry-api-openapi.yml
 - filename: the-things-network-gs-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Gs API
   slug: the-things-network-gs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-gs-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-gs-api-openapi.yml
 - filename: the-things-network-gtwgs-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack GtwGs API
   slug: the-things-network-gtwgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-gtwgs-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-gtwgs-api-openapi.yml
 - filename: the-things-network-is-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Is API
   slug: the-things-network-is-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-is-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-is-api-openapi.yml
 - filename: the-things-network-js-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Js API
   slug: the-things-network-js-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-js-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-js-api-openapi.yml
 - filename: the-things-network-jsenddevicebatchregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack JsEndDeviceBatchRegistry API
   slug: the-things-network-jsenddevicebatchregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-jsenddevicebatchregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-jsenddevicebatchregistry-api-openapi.yml
 - filename: the-things-network-jsenddeviceregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack JsEndDeviceRegistry API
   slug: the-things-network-jsenddeviceregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-jsenddeviceregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-jsenddeviceregistry-api-openapi.yml
 - filename: the-things-network-managedgatewayconfigurationservice-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ManagedGatewayConfigurationService API
   slug: the-things-network-managedgatewayconfigurationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-managedgatewayconfigurationservice-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-managedgatewayconfigurationservice-api-openapi.yml
 - filename: the-things-network-managedgatewayethernetprofileconfigurationservice-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ManagedGatewayEthernetProfileConfigurationService API
   slug: the-things-network-managedgatewayethernetprofileconfigurationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-managedgatewayethernetprofileconfigurationservice-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-managedgatewayethernetprofileconfigurationservice-api-openapi.yml
 - filename: the-things-network-managedgatewaywifiprofileconfigurationservice-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack ManagedGatewayWiFiProfileConfigurationService API
   slug: the-things-network-managedgatewaywifiprofileconfigurationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-managedgatewaywifiprofileconfigurationservice-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-managedgatewaywifiprofileconfigurationservice-api-openapi.yml
 - filename: the-things-network-ns-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Ns API
   slug: the-things-network-ns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-ns-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-ns-api-openapi.yml
 - filename: the-things-network-nsenddevicebatchregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack NsEndDeviceBatchRegistry API
   slug: the-things-network-nsenddevicebatchregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-nsenddevicebatchregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-nsenddevicebatchregistry-api-openapi.yml
 - filename: the-things-network-nsenddeviceregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack NsEndDeviceRegistry API
   slug: the-things-network-nsenddeviceregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-nsenddeviceregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-nsenddeviceregistry-api-openapi.yml
 - filename: the-things-network-nsmacsettingsprofileregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack NsMACSettingsProfileRegistry API
   slug: the-things-network-nsmacsettingsprofileregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-nsmacsettingsprofileregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-nsmacsettingsprofileregistry-api-openapi.yml
 - filename: the-things-network-nsrelayconfigurationservice-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack NsRelayConfigurationService API
   slug: the-things-network-nsrelayconfigurationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-nsrelayconfigurationservice-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-nsrelayconfigurationservice-api-openapi.yml
 - filename: the-things-network-oauthauthorizationregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack OAuthAuthorizationRegistry API
   slug: the-things-network-oauthauthorizationregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-oauthauthorizationregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-oauthauthorizationregistry-api-openapi.yml
 - filename: the-things-network-organizationregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack OrganizationRegistry API
   slug: the-things-network-organizationregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-organizationregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-organizationregistry-api-openapi.yml
 - filename: the-things-network-pba-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Pba API
   slug: the-things-network-pba-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-pba-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-pba-api-openapi.yml
 - filename: the-things-network-userbookmarkregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack UserBookmarkRegistry API
   slug: the-things-network-userbookmarkregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-userbookmarkregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-userbookmarkregistry-api-openapi.yml
 - filename: the-things-network-userinvitationregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack UserInvitationRegistry API
   slug: the-things-network-userinvitationregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-userinvitationregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-userinvitationregistry-api-openapi.yml
 - filename: the-things-network-userregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack UserRegistry API
   slug: the-things-network-userregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-userregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-userregistry-api-openapi.yml
 - filename: the-things-network-usersessionregistry-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack UserSessionRegistry API
   slug: the-things-network-usersessionregistry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-usersessionregistry-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-usersessionregistry-api-openapi.yml
 - filename: the-things-network-notification-service-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Notification Service API
   slug: the-things-network-notification-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-notification-service-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-notification-service-api-openapi.yml
 - filename: the-things-network-organization-access-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack Organization Access API
   slug: the-things-network-organization-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-organization-access-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-organization-access-api-openapi.yml
 - filename: the-things-network-user-access-api-openapi.yml
   format: yaml
   label: The Things Network / The Things Stack User Access API
   slug: the-things-network-user-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/openapi/the-things-network-user-access-api-openapi.yml
+  url: https://artifacts.apis.io/the-things-network/openapi/the-things-network-user-access-api-openapi.yml
 authorization_urls: []
 description: 'The Things Stack Identity Server is a full OAuth 2.0 authorization server. Its scope surface is the "Rights" enum: every OAuth access token and every API key carries an explicit list of Rights, and the server checks the requested RPC against that list. The 70 Rights below are transcribed verbatim (name + doc comment) from rights.proto at tag v3.36.2 — they are the contract, not a reading of a marketing page. The harvested OpenAPI documents declare only the ApiKeyAuth scheme because the gRPC-gateway generator does not emit oauth2 securitySchemes; the OAuth flow is real and documented, and derive-oauth-scopes.py therefore found nothing to derive.'
 docs: https://www.thethingsindustries.com/docs/api/concepts/auth/
@@ -666,7 +666,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: https://github.
   \ The right to edit basic organization settings.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_SETTINGS_API_KEYS\n  entity: organization\n  description: The right to view and edit organization API keys.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_SETTINGS_MEMBERS\n  entity: organization\n  description: The right to view and edit organization members.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_DELETE\n  entity: organization\n  description: The right to delete organization.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_PURGE\n  entity: organization\n  description: The right to purge organization.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_APPLICATIONS_LIST\n  entity: organization\n  description: The right to list the applications the organization is a collaborator of.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_APPLICATIONS_CREATE\n  entity: organization\n  description: The right to create an application under the organization.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_GATEWAYS_LIST\n\
   \  entity: organization\n  description: The right to list the gateways the organization is a collaborator of.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_GATEWAYS_CREATE\n  entity: organization\n  description: The right to create a gateway under the organization.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_CLIENTS_LIST\n  entity: organization\n  description: The right to list the OAuth clients the organization is a collaborator of.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_CLIENTS_CREATE\n  entity: organization\n  description: The right to create an OAuth client under the organization.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_ADD_AS_COLLABORATOR\n  entity: organization\n  description: The right to add the organization as a collaborator on an existing entity.\n  pseudo: false\n- name: RIGHT_ORGANIZATION_ALL\n  entity: organization\n  description: The pseudo-right for all (current and future) organization rights.\n  pseudo: true\n- name: RIGHT_SEND_INVITES\n  entity: global\n  description:\
   \ The right to send invites to new users. Note that this is not prefixed with \"USER_\"; it\n    is not a right on the user entity.\n  pseudo: false\n- name: RIGHT_ALL\n  entity: global\n  description: The pseudo-right for all (current and future) possible rights.\n  pseudo: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/scopes/the-things-network-scopes.yml
+source_yaml_url: https://artifacts.apis.io/the-things-network/scopes/the-things-network-scopes.yml
 summary_line: 70 scopes
 tags:
 - LoRaWAN

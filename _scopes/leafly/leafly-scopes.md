@@ -5,13 +5,13 @@ api_specs:
   label: Leafly Menu API
   slug: leafly-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/openapi/leafly-menu-api-openapi.yml
+  url: https://artifacts.apis.io/leafly/openapi/leafly-menu-api-openapi.yml
 - filename: leafly-status-api-openapi.yml
   format: yaml
   label: Leafly Status API
   slug: leafly-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/openapi/leafly-status-api-openapi.yml
+  url: https://artifacts.apis.io/leafly/openapi/leafly-status-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -51,7 +51,7 @@ source_filename: leafly-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/leafly-menu-api-openapi.yml, openapi/leafly-status-api-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/leafly-menu-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.leafly.com/oauth/token\n- name: OAuth2ClientCredentials\n  source: openapi/leafly-status-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.leafly.com/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/scopes/leafly-scopes.yml
+source_yaml_url: https://artifacts.apis.io/leafly/scopes/leafly-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Cannabis

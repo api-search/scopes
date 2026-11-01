@@ -5,67 +5,67 @@ api_specs:
   label: Snov.io Authentication API
   slug: snov-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-authentication-api-openapi.yml
 - filename: snov-io-campaigns-api-openapi.yml
   format: yaml
   label: Snov.io Campaigns API
   slug: snov-io-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-campaigns-api-openapi.yml
 - filename: snov-io-crm-pipeline-api-openapi.yml
   format: yaml
   label: Snov.io CRM Pipeline API
   slug: snov-io-crm-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-crm-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-crm-pipeline-api-openapi.yml
 - filename: snov-io-domain-search-api-openapi.yml
   format: yaml
   label: Snov.io Domain Search API
   slug: snov-io-domain-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-domain-search-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-domain-search-api-openapi.yml
 - filename: snov-io-email-accounts-api-openapi.yml
   format: yaml
   label: Snov.io Email Accounts API
   slug: snov-io-email-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-accounts-api-openapi.yml
 - filename: snov-io-email-finder-api-openapi.yml
   format: yaml
   label: Snov.io Email Finder API
   slug: snov-io-email-finder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-finder-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-finder-api-openapi.yml
 - filename: snov-io-email-verification-api-openapi.yml
   format: yaml
   label: Snov.io Email Verification API
   slug: snov-io-email-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-verification-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-verification-api-openapi.yml
 - filename: snov-io-email-warm-up-api-openapi.yml
   format: yaml
   label: Snov.io Email Warm-up API
   slug: snov-io-email-warm-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-email-warm-up-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-warm-up-api-openapi.yml
 - filename: snov-io-prospects-api-openapi.yml
   format: yaml
   label: Snov.io Prospects API
   slug: snov-io-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-prospects-api-openapi.yml
 - filename: snov-io-user-api-openapi.yml
   format: yaml
   label: Snov.io User API
   slug: snov-io-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-user-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-user-api-openapi.yml
 - filename: snov-io-webhooks-api-openapi.yml
   format: yaml
   label: Snov.io Webhooks API
   slug: snov-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/openapi/snov-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-webhooks-api-openapi.yml
 authorization_urls:
 - https://app.snov.io/mcp/authorize
 description: 'Snov.io issues exactly ONE OAuth scope across its entire platform: "mcp", advertised by the authorization server on app.snov.io and required by the remote MCP server on mcp.snov.io. The REST API issues no scopes at all — its client_credentials exchange accepts no scope parameter and returns a token whose authority is derived entirely from the account''s subscription plan and credit balance.'
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: >-\n  https://app
   \ REST API\n    source: https://snov.io/api\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://api.snov.io/v1/oauth/access_token\n    scopes_supported: []\n    description: >-\n      POST client_id and client_secret to obtain a 3600-second Bearer token, then send it in the\n      Authorization header. No scope parameter is accepted and none is returned.\n    authorization_model: plan-derived\n    note: >-\n      Access is governed by the subscription tier (API access begins at the Starter plan) and by\n      the credit balance, not by any scope on the credential. There is no read-only credential,\n      no per-integration credential and no way to restrict a token to a subset of the surface.\n\n  - name: OAuth2AuthorizationCodeMCP\n    surface: MCP server\n    source: https://app.snov.io/.well-known/oauth-authorization-server\n    resource: https://mcp.snov.io/mcp\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://app.snov.io/mcp/authorize\n\
   \        tokenUrl: https://app.snov.io/back/mcp/oauth/token\n        registrationUrl: https://app.snov.io/back/mcp/oauth/register\n        pkce: S256\n    scopes_supported:\n      - mcp\n    description: >-\n      Public-client authorization code flow with PKCE and dynamic client registration. One\n      scope, granted or not granted.\n\nscopes:\n  - name: mcp\n    surface: MCP server\n    resource: https://mcp.snov.io/mcp\n    description: >-\n      Grants an authorized MCP client the full published Snov.io action surface — prospect\n      search and enrichment, list and folder management, email verification, the Sales CRM\n      (pipelines, deals, notes, loss reasons, tasks) and LinkedIn account setup and outreach.\n    read_write: both\n    source: https://app.snov.io/.well-known/oauth-authorization-server\n    evidence: 'scopes_supported: [\"mcp\"] in the RFC 8414 metadata; scope=\"mcp\" in the RFC 9728 WWW-Authenticate challenge from mcp.snov.io.'\n\nsummary:\n  scope_count: 1\n \
   \ granular_scopes: false\n  read_only_scope_available: false\n  finding: >-\n    A single all-or-nothing scope covering more than 100 actions, including irreversible\n    write actions — sending LinkedIn connection requests and InMails, deleting prospect lists,\n    marking deals lost. An account holder connecting an AI assistant cannot grant it read access\n    only, and cannot withhold LinkedIn outreach while allowing prospect search. This is the most\n    consequential authorization gap on the Snov.io agent surface.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/scopes/snov-io-scopes.yml
+source_yaml_url: https://artifacts.apis.io/snov-io/scopes/snov-io-scopes.yml
 summary_line: 1 scope · clientCredentials/authorizationCode
 tags:
 - Sales Automation

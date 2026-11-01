@@ -5,73 +5,73 @@ api_specs:
   label: Instructure ExternalTool API
   slug: instructure-externaltool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-externaltool-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-externaltool-api-openapi.yml
 - filename: instructure-lti-accountexternaltool-api-openapi.yml
   format: yaml
   label: Instructure Lti::AccountExternalTool API
   slug: instructure-lti-accountexternaltool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-accountexternaltool-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-accountexternaltool-api-openapi.yml
 - filename: instructure-lti-accountlookup-api-openapi.yml
   format: yaml
   label: Instructure Lti::AccountLookup API
   slug: instructure-lti-accountlookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-accountlookup-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-accountlookup-api-openapi.yml
 - filename: instructure-lti-dataservice-api-openapi.yml
   format: yaml
   label: Instructure Lti::DataService API
   slug: instructure-lti-dataservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-dataservice-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-dataservice-api-openapi.yml
 - filename: instructure-lti-ims-authentication-api-openapi.yml
   format: yaml
   label: Instructure Lti::IMS::Authentication API
   slug: instructure-lti-ims-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-ims-authentication-api-openapi.yml
 - filename: instructure-lti-ims-dynamicregistration-api-openapi.yml
   format: yaml
   label: Instructure Lti::IMS::DynamicRegistration API
   slug: instructure-lti-ims-dynamicregistration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-dynamicregistration-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-ims-dynamicregistration-api-openapi.yml
 - filename: instructure-lti-ims-lineitem-api-openapi.yml
   format: yaml
   label: Instructure Lti::IMS::LineItem API
   slug: instructure-lti-ims-lineitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-lineitem-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-ims-lineitem-api-openapi.yml
 - filename: instructure-lti-ims-namesandrole-api-openapi.yml
   format: yaml
   label: Instructure Lti::IMS::NamesAndRole API
   slug: instructure-lti-ims-namesandrole-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-namesandrole-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-ims-namesandrole-api-openapi.yml
 - filename: instructure-lti-ims-result-api-openapi.yml
   format: yaml
   label: Instructure Lti::IMS::Result API
   slug: instructure-lti-ims-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-ims-result-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-ims-result-api-openapi.yml
 - filename: instructure-lti-membershipservice-api-openapi.yml
   format: yaml
   label: Instructure Lti::MembershipService API
   slug: instructure-lti-membershipservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-membershipservice-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-membershipservice-api-openapi.yml
 - filename: instructure-lti-toolconfigurationsapi-api-openapi.yml
   format: yaml
   label: Instructure Lti::ToolConfigurationsApi API
   slug: instructure-lti-toolconfigurationsapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-lti-toolconfigurationsapi-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-lti-toolconfigurationsapi-api-openapi.yml
 - filename: instructure-security-api-openapi.yml
   format: yaml
   label: Instructure Security API
   slug: instructure-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/openapi/instructure-security-api-openapi.yml
+  url: https://artifacts.apis.io/instructure/openapi/instructure-security-api-openapi.yml
 authorization_urls:
 - https://{canvas_domain}/login/oauth2/auth
 description: ''
@@ -182,7 +182,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\ndocs: https://developer
   \  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n- scope: https://purl.imsglobal.org/spec/lti-nrps/scope/contextmembership.readonly\n  description: Can retrieve user data associated with the context the tool is installed\n    in (LTI Names and Role Provisioning Services).\n  sources:\n  - https://developerdocs.instructure.com/services/canvas/external-tools/lti/file.lti_dev_key_config\n  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n- scope: https://purl.imsglobal.org/spec/lti/scope/noticehandlers\n  description: Can register to receive asynchronous notifications from Canvas (LTI\n    Platform Notification Service).\n  sources:\n  - https://developerdocs.instructure.com/services/canvas/external-tools/lti/file.lti_dev_key_config\n  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n- scope: https://purl.imsglobal.org/spec/lti/scope/asset.readonly\n  description: Can retrieve submissions from Document\
   \ Processor Assignments (LTI\n    Asset Processor).\n  sources:\n  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n- scope: https://purl.imsglobal.org/spec/lti/scope/report\n  description: Can send reports for Document Processor Assignments (LTI Asset Processor).\n  sources:\n  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n- scope: https://purl.imsglobal.org/spec/lti/scope/eula/user\n  description: Can track if EULA has been accepted (LTI Asset Processor).\n  sources:\n  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n- scope: https://purl.imsglobal.org/spec/lti/scope/eula/deployment\n  description: Can reset EULA acceptance status (LTI Asset Processor).\n  sources:\n  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n- scope: https://canvas.instructure.com/lti/public_jwk/scope/update\n  description: Can update public jwk for LTI services.\n  sources:\n  - https://developerdocs.instructure.com/services/canvas/external-tools/lti/file.lti_dev_key_config\n\
   \  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n- scope: https://canvas.instructure.com/lti/account_lookup/scope/show\n  description: Can lookup Account information.\n  sources:\n  - https://developerdocs.instructure.com/services/canvas/external-tools/lti/file.registration\n  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n- scope: https://canvas.instructure.com/lti-ags/progress/scope/show\n  description: Can view Progress records associated with the context the tool is\n    installed in.\n  sources:\n  - https://developerdocs.instructure.com/services/canvas/external-tools/lti/file.registration\n  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n- scope: https://canvas.instructure.com/lti/page_content/show\n  description: Can view the content of a page the tool is launched from.\n  sources:\n  - https://github.com/instructure/canvas-lms/blob/master/lib/token_scopes.rb\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instructure/refs/heads/main/scopes/instructure-scopes.yml
+source_yaml_url: https://artifacts.apis.io/instructure/scopes/instructure-scopes.yml
 summary_line: 17 scopes · authorizationCode
 tags:
 - Enrollment

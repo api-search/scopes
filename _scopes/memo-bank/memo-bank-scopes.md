@@ -5,91 +5,91 @@ api_specs:
   label: Memo Bank Account assessments API
   slug: memo-bank-account-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-account-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-account-assessments-api-openapi.yml
 - filename: memo-bank-accounts-api-openapi.yml
   format: yaml
   label: Memo Bank Accounts API
   slug: memo-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-accounts-api-openapi.yml
 - filename: memo-bank-ais-api-openapi.yml
   format: yaml
   label: Memo Bank AIS API
   slug: memo-bank-ais-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-ais-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-ais-api-openapi.yml
 - filename: memo-bank-attachments-api-openapi.yml
   format: yaml
   label: Memo Bank Attachments API
   slug: memo-bank-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-attachments-api-openapi.yml
 - filename: memo-bank-collections-api-openapi.yml
   format: yaml
   label: Memo Bank Collections API
   slug: memo-bank-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-collections-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-collections-api-openapi.yml
 - filename: memo-bank-mandate-signature-requests-api-openapi.yml
   format: yaml
   label: Memo Bank Mandate signature requests API
   slug: memo-bank-mandate-signature-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-mandate-signature-requests-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-mandate-signature-requests-api-openapi.yml
 - filename: memo-bank-pis-api-openapi.yml
   format: yaml
   label: Memo Bank PIS API
   slug: memo-bank-pis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-pis-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-pis-api-openapi.yml
 - filename: memo-bank-sandbox-api-openapi.yml
   format: yaml
   label: Memo Bank Sandbox API
   slug: memo-bank-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-sandbox-api-openapi.yml
 - filename: memo-bank-transactions-api-openapi.yml
   format: yaml
   label: Memo Bank Transactions API
   slug: memo-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-transactions-api-openapi.yml
 - filename: memo-bank-transfers-api-openapi.yml
   format: yaml
   label: Memo Bank Transfers API
   slug: memo-bank-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-transfers-api-openapi.yml
 - filename: memo-bank-webhook-api-openapi.yml
   format: yaml
   label: Memo Bank Webhook API
   slug: memo-bank-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-webhook-api-openapi.yml
 - filename: memo-bank-webhooks-api-openapi.yml
   format: yaml
   label: Memo Bank Webhooks API
   slug: memo-bank-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-webhooks-api-openapi.yml
 - filename: memo-bank-wire-transfers-api-openapi.yml
   format: yaml
   label: Memo Bank Wire Transfers API
   slug: memo-bank-wire-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-wire-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-wire-transfers-api-openapi.yml
 - filename: memo-bank-ibans-api-openapi.yml
   format: yaml
   label: Memo Bank IBA Ns API
   slug: memo-bank-ibans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-ibans-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-ibans-api-openapi.yml
 - filename: memo-bank-oauth2-api-openapi.yml
   format: yaml
   label: Memo Bank O Auth2 API
   slug: memo-bank-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/openapi/memo-bank-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/memo-bank/openapi/memo-bank-oauth2-api-openapi.yml
 authorization_urls:
 - https://client.memo.bank/authorize
 description: ''
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource:\n- openapi/memo
   \  - cancelPayment\n  sources:\n  - openapi/memo-bank-nextgenpsd2-api-openapi.yml\nmarketplace_scopes: []\nmarketplace_scopes_note: >-\n  Deliberately empty. Memo Bank's Marketplace scope names are not published on any public page, and the MCP\n  connector - which uses this same OAuth system - documents its capability boundary in prose (\"can read\n  banking data and attach supporting documents, cannot initiate payments\") rather than as named scopes. The\n  connector's seven tools imply at least a read scope over accounts/IBANs/transactions/attachments and a\n  narrow attachment-write scope, but no scope STRING is published, so none is recorded. Inventing plausible\n  names such as \"accounts:read\" here would be fabrication.\nauthorization_boundaries:\n  workspace_consent: >-\n    Beyond scopes, the user selects which workspace(s) an application or connector may act on during the\n    authorization flow.\n  account_consent: >-\n    Access is further limited to the specific accounts the\
   \ user authorized; requesting resources outside\n    that set returns an error.\n  effective_model: >-\n    Three-dimensional - granted scopes AND authorized workspaces AND authorized accounts must all permit the\n    call. This is a stronger consent model than scopes alone, which is worth noting given the scope names\n    themselves are unpublished.\ngaps:\n- >-\n  No scopes or permissions reference page exists for the Marketplace/MCP OAuth system, despite applicants\n  being required to declare the scopes they need at registration.\n- >-\n  The Marketplace authentication page points at the main API documentation for \"the full list of available\n  API endpoints and their required scopes\", but the main API documentation contains no scope list and its 43\n  operations carry no per-operation OAuth scope requirements - the reference is circular.\n- >-\n  The NextGenPSD2 scopes are coarse: two scopes across 13 operations, with a single PIS scope covering both\n  payment initiation and cancellation.\n\
   - No RFC 8414 authorization-server metadata to expose scopes_supported programmatically.\ncross_links:\n  authentication: authentication/memo-bank-authentication.yml\n  mcp: mcp/memo-bank-mcp.yml\n  well_known: well-known/memo-bank-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/scopes/memo-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/memo-bank/scopes/memo-bank-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

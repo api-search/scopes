@@ -5,133 +5,133 @@ api_specs:
   label: Lightspeed Account API
   slug: lightspeed-pos-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-account-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-account-api-openapi.yml
 - filename: lightspeed-pos-brands-api-openapi.yml
   format: yaml
   label: Lightspeed Brands API
   slug: lightspeed-pos-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-brands-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-brands-api-openapi.yml
 - filename: lightspeed-pos-catalog-api-openapi.yml
   format: yaml
   label: Lightspeed Catalog API
   slug: lightspeed-pos-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-catalog-api-openapi.yml
 - filename: lightspeed-pos-customer-api-openapi.yml
   format: yaml
   label: Lightspeed Customer API
   slug: lightspeed-pos-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-customer-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-customer-api-openapi.yml
 - filename: lightspeed-pos-customers-api-openapi.yml
   format: yaml
   label: Lightspeed Customers API
   slug: lightspeed-pos-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-customers-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-customers-api-openapi.yml
 - filename: lightspeed-pos-financial-api-openapi.yml
   format: yaml
   label: Lightspeed Financial API
   slug: lightspeed-pos-financial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-financial-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-financial-api-openapi.yml
 - filename: lightspeed-pos-financialv2-api-openapi.yml
   format: yaml
   label: Lightspeed FinancialV2 API
   slug: lightspeed-pos-financialv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-financialv2-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-financialv2-api-openapi.yml
 - filename: lightspeed-pos-gift-cards-api-openapi.yml
   format: yaml
   label: Lightspeed Gift Cards API
   slug: lightspeed-pos-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-gift-cards-api-openapi.yml
 - filename: lightspeed-pos-id-cards-api-openapi.yml
   format: yaml
   label: Lightspeed ID Cards API
   slug: lightspeed-pos-id-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-id-cards-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-id-cards-api-openapi.yml
 - filename: lightspeed-pos-item-api-openapi.yml
   format: yaml
   label: Lightspeed Item API
   slug: lightspeed-pos-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-item-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-item-api-openapi.yml
 - filename: lightspeed-pos-items-api-openapi.yml
   format: yaml
   label: Lightspeed Items API
   slug: lightspeed-pos-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-items-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-items-api-openapi.yml
 - filename: lightspeed-pos-order-and-pay-api-openapi.yml
   format: yaml
   label: Lightspeed Order and Pay API
   slug: lightspeed-pos-order-and-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-order-and-pay-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-order-and-pay-api-openapi.yml
 - filename: lightspeed-pos-order-and-pay-webhook-api-openapi.yml
   format: yaml
   label: 'Lightspeed Order and Pay: Webhook API'
   slug: lightspeed-pos-order-and-pay-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-order-and-pay-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-order-and-pay-webhook-api-openapi.yml
 - filename: lightspeed-pos-pms-api-openapi.yml
   format: yaml
   label: Lightspeed PMS API
   slug: lightspeed-pos-pms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-pms-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-pms-api-openapi.yml
 - filename: lightspeed-pos-products-api-openapi.yml
   format: yaml
   label: Lightspeed Products API
   slug: lightspeed-pos-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-products-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-products-api-openapi.yml
 - filename: lightspeed-pos-reservations-for-platforms-api-openapi.yml
   format: yaml
   label: Lightspeed Reservations for Platforms API
   slug: lightspeed-pos-reservations-for-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-reservations-for-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-reservations-for-platforms-api-openapi.yml
 - filename: lightspeed-pos-rich-item-api-openapi.yml
   format: yaml
   label: Lightspeed Rich Item API
   slug: lightspeed-pos-rich-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-rich-item-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-rich-item-api-openapi.yml
 - filename: lightspeed-pos-sale-api-openapi.yml
   format: yaml
   label: Lightspeed Sale API
   slug: lightspeed-pos-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-sale-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-sale-api-openapi.yml
 - filename: lightspeed-pos-sales-api-openapi.yml
   format: yaml
   label: Lightspeed Sales API
   slug: lightspeed-pos-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-sales-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-sales-api-openapi.yml
 - filename: lightspeed-pos-staff-api-openapi.yml
   format: yaml
   label: Lightspeed Staff API
   slug: lightspeed-pos-staff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-staff-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-staff-api-openapi.yml
 - filename: lightspeed-pos-tax-breakdown-api-openapi.yml
   format: yaml
   label: Lightspeed Tax Breakdown API
   slug: lightspeed-pos-tax-breakdown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-tax-breakdown-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-tax-breakdown-api-openapi.yml
 - filename: lightspeed-pos-pms-integration-api-openapi.yml
   format: yaml
   label: Lightspeed PMS Integration API
   slug: lightspeed-pos-pms-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/openapi/lightspeed-pos-pms-integration-api-openapi.yml
+  url: https://artifacts.apis.io/lightspeed-pos/openapi/lightspeed-pos-pms-integration-api-openapi.yml
 authorization_urls:
 - /oauth/authorize
 - https://cloud.lightspeedapp.com/oauth/authorize.php
@@ -311,7 +311,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lightspe
   \  - authorizationCode\n  sources:\n  - openapi/lightspeed-pos-restaurant-k-series-openapi.yml\n- scope: products.read\n  description: Read products, brands, and inventory.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/lightspeed-pos-retail-x-series-openapi.yml\n- scope: products.write\n  description: Create or modify products, brands, and inventory.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/lightspeed-pos-retail-x-series-openapi.yml\n- scope: propertymanagement\n  description: Read and write Property Management System configurations.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/lightspeed-pos-restaurant-k-series-openapi.yml\n- scope: reservation-***\n  description: Platform reservations scope. The `***` will be replaced by the [platform-code](https://api-docs.lsk.lightspeed.app/operation/operation-reservation-servicesetbyplatformcode#operation-reservation-servicesetbyplatformcode-platform-code)\n    of the reservation platform.\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/lightspeed-pos-restaurant-k-series-openapi.yml\n- scope: reservation-platform-code\n  sources:\n  - openapi/lightspeed-pos-restaurant-k-series-openapi.yml\n- scope: reservations-api\n  description: |-\n    Configure *legacy* reservation integrations.\n    **Note:** This API will eventually be deprecated in favour of the new [Reservations for Platforms](https://api-docs.lsk.lightspeed.app/group/endpoint-reservations-for-platforms) API.\n    More information on the new reservations workflows can be found in the [Integration Guide](https://api-portal.lsk.lightspeed.app/category/reservations).\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/lightspeed-pos-restaurant-k-series-openapi.yml\n- scope: sales.read\n  description: Read sales transactions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/lightspeed-pos-retail-x-series-openapi.yml\n- scope: sales.write\n  description: Create or modify sales.\n  flows:\n  - authorizationCode\n  sources:\n \
   \ - openapi/lightspeed-pos-retail-x-series-openapi.yml\n- scope: staff-api\n  description: Read shift information, read and write user information.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/lightspeed-pos-restaurant-k-series-openapi.yml\n- scope: user-token-by-authorization-code\n  sources:\n  - openapi/lightspeed-pos-restaurant-k-series-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/scopes/lightspeed-pos-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lightspeed-pos/scopes/lightspeed-pos-scopes.yml
 summary_line: 24 scopes · authorizationCode
 tags:
 - Lightspeed

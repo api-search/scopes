@@ -5,31 +5,31 @@ api_specs:
   label: Spekit Searches API
   slug: spekit-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-searches-api-openapi.yml
+  url: https://artifacts.apis.io/spekit/openapi/spekit-searches-api-openapi.yml
 - filename: spekit-spek-reactions-api-openapi.yml
   format: yaml
   label: Spekit Spek Reactions API
   slug: spekit-spek-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-spek-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/spekit/openapi/spekit-spek-reactions-api-openapi.yml
 - filename: spekit-spek-views-api-openapi.yml
   format: yaml
   label: Spekit Spek Views API
   slug: spekit-spek-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-spek-views-api-openapi.yml
+  url: https://artifacts.apis.io/spekit/openapi/spekit-spek-views-api-openapi.yml
 - filename: spekit-user-activities-api-openapi.yml
   format: yaml
   label: Spekit User Activities API
   slug: spekit-user-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-user-activities-api-openapi.yml
+  url: https://artifacts.apis.io/spekit/openapi/spekit-user-activities-api-openapi.yml
 - filename: spekit-users-api-openapi.yml
   format: yaml
   label: Spekit Users API
   slug: spekit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/openapi/spekit-users-api-openapi.yml
+  url: https://artifacts.apis.io/spekit/openapi/spekit-users-api-openapi.yml
 authorization_urls:
 - https://mcp.spekit.co/authorize
 description: ''
@@ -93,7 +93,7 @@ source_url: https://mcp.spekit.co/.well-known/oauth-authorization-server
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.spekit.co/.well-known/oauth-authorization-server\nsources:\n- https://mcp.spekit.co/.well-known/oauth-authorization-server\n- https://mcp.spekit.co/.well-known/oauth-protected-resource/mcp\nnote: >-\n  The OAuth surface is the MCP connector, not the REST API — the published OpenAPI declares only\n  an apiKey scheme and no oauth2 flows, so derive-oauth-scopes.py found nothing. These scopes come\n  from Spekit's own RFC 8414 and RFC 9728 discovery documents, fetched anonymously. Spekit\n  publishes no scopes/permissions reference page in its help center; the scope set below is what\n  the authorization server itself advertises.\nschemes:\n- name: mcp-oauth2\n  source: https://mcp.spekit.co/.well-known/oauth-authorization-server\n  issuer: https://mcp.spekit.co/\n  resource: https://mcp.spekit.co/mcp\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://mcp.spekit.co/authorize\n    tokenUrl: https://mcp.spekit.co/token\n\
   \    registrationUrl: https://mcp.spekit.co/register\n    code_challenge_methods: [S256]\nscopes:\n- scope: openid\n  description: OpenID Connect — issue an ID token identifying the signing-in Spekit user.\n  flows: [authorizationCode]\n  sources: [https://mcp.spekit.co/.well-known/oauth-authorization-server]\n- scope: profile\n  description: Basic profile claims for the authenticated Spekit user.\n  flows: [authorizationCode]\n  sources: [https://mcp.spekit.co/.well-known/oauth-authorization-server]\n- scope: email\n  description: Email address of the authenticated Spekit user.\n  flows: [authorizationCode]\n  sources: [https://mcp.spekit.co/.well-known/oauth-authorization-server]\n- scope: read\n  description: >-\n    The only Spekit-specific scope advertised. Note the asymmetry — the connector ships 7 write\n    tools (create topic/content/company/deal room, create content from template, update content,\n    create deal room content) but the authorization server advertises no corresponding\
   \ write\n    scope. Write authority is not carried in the OAuth scope at all; it is decided server-side\n    from the signed-in user's Spekit role, and Spekit states there is no setting that forces the\n    connector read-only independent of that role. A client cannot request a read-only grant.\n  flows: [authorizationCode]\n  sources: [https://mcp.spekit.co/.well-known/oauth-authorization-server]\nscope_count: 4\ndocs: null\ndocs_note: No scopes or permissions reference page is published; scopes are only discoverable from the AS metadata document.\nchecked: '2026-08-14'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/scopes/spekit-scopes.yml
+source_yaml_url: https://artifacts.apis.io/spekit/scopes/spekit-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

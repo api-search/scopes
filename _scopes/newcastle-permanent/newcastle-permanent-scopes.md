@@ -5,55 +5,55 @@ api_specs:
   label: Newcastle Permanent Building Society Banking Account Balances API
   slug: newcastle-permanent-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-account-balances-api-openapi.yml
 - filename: newcastle-permanent-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Account Direct Debits API
   slug: newcastle-permanent-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-account-direct-debits-api-openapi.yml
 - filename: newcastle-permanent-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Account Scheduled Payments API
   slug: newcastle-permanent-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-account-scheduled-payments-api-openapi.yml
 - filename: newcastle-permanent-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Account Transactions API
   slug: newcastle-permanent-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-account-transactions-api-openapi.yml
 - filename: newcastle-permanent-banking-accounts-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Accounts API
   slug: newcastle-permanent-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-accounts-api-openapi.yml
 - filename: newcastle-permanent-banking-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking API
   slug: newcastle-permanent-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-api-openapi.yml
 - filename: newcastle-permanent-banking-payees-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Payees API
   slug: newcastle-permanent-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-payees-api-openapi.yml
 - filename: newcastle-permanent-banking-products-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Banking Products API
   slug: newcastle-permanent-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-banking-products-api-openapi.yml
 - filename: newcastle-permanent-common-api-openapi.yml
   format: yaml
   label: Newcastle Permanent Building Society Common API
   slug: newcastle-permanent-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/openapi/newcastle-permanent-common-api-openapi.yml
+  url: https://artifacts.apis.io/newcastle-permanent/openapi/newcastle-permanent-common-api-openapi.yml
 authorization_urls:
 - https://openbank.newcastlepermanent.com.au/oauth2/authorize
 description: ''
@@ -148,7 +148,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://openbank.newcastlepermanent.com.au/.well-known/openid-configuration\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\nnotes: >-\n  OAuth2 / OpenID Connect scopes advertised by Newcastle Permanent's live CDR\n  authorization server, harvested verbatim from its OpenID Connect discovery\n  document (scopes_supported). These are the standardised CDR banking + common\n  scopes; they gate the accredited-data-recipient (ADR) consumer-data-sharing\n  surface, NOT the public Product Reference Data endpoints (which are\n  unauthenticated). token_endpoint_auth_methods_supported = private_key_jwt and a\n  pushed_authorization_request_endpoint are present, consistent with the FAPI\n  security profile the CDS mandates.\nschemes:\n  - name: cdr-oidc\n    type: openIdConnect\n    issuer: https://openbank.newcastlepermanent.com.au\n    flows:\n      - flow: authorizationCode\n        authorizationUrl:\
   \ https://openbank.newcastlepermanent.com.au/oauth2/authorize\n        tokenUrl: https://openbank-secure.newcastlepermanent.com.au/oauth2/token\n        parEndpoint: https://openbank-secure.newcastlepermanent.com.au/api/openbanking/push-authorization/par\n        registrationEndpoint: https://openbank-secure.newcastlepermanent.com.au/open-banking/0.2/register\n        jwksUri: https://openbank.newcastlepermanent.com.au/oauth2/jwks\n        tokenEndpointAuthMethods: [private_key_jwt]\n    sources: [https://openbank.newcastlepermanent.com.au/.well-known/openid-configuration]\nscopes:\n  - {scope: openid, description: OpenID Connect authentication}\n  - {scope: profile, description: End-user profile claims}\n  - {scope: 'common:customer.basic:read', description: Read basic customer information (name, occupation)}\n  - {scope: 'common:customer.detail:read', description: Read detailed customer information (contact details)}\n  - {scope: 'bank:accounts.basic:read', description: Read basic banking\
   \ account information}\n  - {scope: 'bank:accounts.detail:read', description: Read detailed banking account information}\n  - {scope: 'bank:transactions:read', description: Read banking account transactions}\n  - {scope: 'bank:payees:read', description: Read saved payees}\n  - {scope: 'bank:regular_payments:read', description: Read direct debits and scheduled/regular payments}\n  - {scope: 'admin:metrics.basic:read', description: CDR admin metrics (Get Metrics) for the data holder}\n  - {scope: 'admin:metadata:update', description: CDR admin metadata update (register metadata refresh)}\n  - {scope: 'cdr:registration', description: Dynamic client registration for CDR software products}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/scopes/newcastle-permanent-scopes.yml
+source_yaml_url: https://artifacts.apis.io/newcastle-permanent/scopes/newcastle-permanent-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
 - Finance

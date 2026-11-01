@@ -5,49 +5,49 @@ api_specs:
   label: Publer Accounts API
   slug: publer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-accounts-api-openapi.yml
 - filename: publer-analytics-api-openapi.yml
   format: yaml
   label: Publer Analytics API
   slug: publer-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-analytics-api-openapi.yml
 - filename: publer-competitors-api-openapi.yml
   format: yaml
   label: Publer Competitors API
   slug: publer-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-competitors-api-openapi.yml
 - filename: publer-jobs-api-openapi.yml
   format: yaml
   label: Publer Jobs API
   slug: publer-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-jobs-api-openapi.yml
 - filename: publer-media-api-openapi.yml
   format: yaml
   label: Publer Media API
   slug: publer-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-media-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-media-api-openapi.yml
 - filename: publer-posts-api-openapi.yml
   format: yaml
   label: Publer Posts API
   slug: publer-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-posts-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-posts-api-openapi.yml
 - filename: publer-users-api-openapi.yml
   format: yaml
   label: Publer Users API
   slug: publer-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-users-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-users-api-openapi.yml
 - filename: publer-workspaces-api-openapi.yml
   format: yaml
   label: Publer Workspaces API
   slug: publer-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/openapi/publer-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/publer/openapi/publer-workspaces-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://publer.com/docs/getting-started/authentication.md
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://publer.co
   \  consequence: read\n- name: accounts\n  description: Retrieve the user's connected social accounts for the selected workspace.\n  required: true\n  required_note: Selected by default and mandatory on every key.\n  example_endpoints:\n  - GET /accounts\n  operations:\n  - listAccounts\n  consequence: read\n- name: posts\n  description: Manage the user's posts — list, schedule, publish, update and delete.\n  required: false\n  example_endpoints:\n  - GET /posts\n  - POST /posts/schedule\n  - POST /posts/schedule/publish\n  - PUT /posts/{id}\n  - DELETE /posts\n  - GET /job_status/{job_id}\n  operations:\n  - listPosts\n  - schedulePosts\n  - createPost\n  - updatePost\n  - deleteMultiplePosts\n  - getJobStatus\n  consequence: write\n  note: >-\n    A single scope covers both read and write on posts. There is no read-only\n    posts scope, so any integration that needs to LIST posts is also granted the\n    ability to PUBLISH and DELETE them. This is the sharpest least-privilege gap\n \
   \   in Publer's scope model.\n- name: media\n  description: Upload and list media assets in the workspace library.\n  required: false\n  example_endpoints:\n  - GET /media\n  - POST /media\n  - POST /media/from-url\n  operations:\n  - listMedia\n  - uploadAMediaFileDirectly\n  - uploadMediaFromURL\n  consequence: write\n- name: analytics\n  description: >-\n    Read analytics — charts, chart data, post insights, hashtag analysis, best\n    times to post, member activity and competitor analysis.\n  required: false\n  example_endpoints:\n  - GET /analytics/charts\n  - GET /analytics/chart_data\n  - GET /analytics/{account_id}/post_insights\n  - GET /analytics/{account_id}/best_times\n  - GET /analytics/{account_id}/hashtag_insights\n  - GET /analytics/members\n  - GET /competitors/{account_id}\n  operations:\n  - getAvailableAnalyticsCharts\n  - getAnalyticsChartData\n  - getPostInsights\n  - getBestTimesToPostForAccount\n  - getHashtagInsights\n  - getHashtagPerformingPosts\n  - getAnalyticsMembersData\n\
   \  - listCompetitors\n  - getCompetitorsAnalytics\n  consequence: read\n  note: >-\n    Named in the help center and MCP setup articles (\"select any additional\n    scopes ... such as Posts, Media, or Analytics\") but MISSING from the scope\n    table in the developer docs, which lists only workspaces, accounts, posts\n    and media. The analytics endpoints additionally return 403 \"requires\n    analytics access or paying subscription\", so scope alone is not sufficient.\n\ngaps:\n- The docs scope table omits `analytics`, which the help center documents.\n- No read-only variant of `posts` or `media`; read and write share one scope.\n- No scope is declared in the OpenAPI security requirements — the spec declares\n  only the apiKey scheme, so scope requirements are not machine-readable\n  per-operation. The operation mappings above are ours, derived from the docs.\n\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/scopes/publer-scopes.yml
+source_yaml_url: https://artifacts.apis.io/publer/scopes/publer-scopes.yml
 summary_line: 5 scopes
 tags:
 - Social Media

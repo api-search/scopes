@@ -5,31 +5,31 @@ api_specs:
   label: Arccos Golf Clubs API
   slug: arccos-golf-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-clubs-api-openapi.yml
 - filename: arccos-golf-courses-api-openapi.yml
   format: yaml
   label: Arccos Golf Courses API
   slug: arccos-golf-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-courses-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-courses-api-openapi.yml
 - filename: arccos-golf-rounds-api-openapi.yml
   format: yaml
   label: Arccos Golf Rounds API
   slug: arccos-golf-rounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-rounds-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-rounds-api-openapi.yml
 - filename: arccos-golf-users-api-openapi.yml
   format: yaml
   label: Arccos Golf Users API
   slug: arccos-golf-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-users-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-users-api-openapi.yml
 - filename: arccos-golf-webhooks-api-openapi.yml
   format: yaml
   label: Arccos Golf Webhooks API
   slug: arccos-golf-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-webhooks-api-openapi.yml
 authorization_urls:
 - https://signin.arccosgolf.com/login
 description: ''
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: >-\n  https://a
   \ - handle_get_one_user.get./v5/users/{userId}\n  - handle_search_rounds.get./v5/users/{userId}/rounds\n  - handle_get_one_round.get./v5/users/{userId}/rounds/{roundId}\n  - handle_get_round_stats.get./v5/users/{userId}/rounds/{roundId}/stats\n  - handle_search_clubs.get./v5/users/{userId}/clubs\n  - handle_get_one_club.get./v5/users/{userId}/clubs/{clubId}\n  note: >-\n    Also the scope that causes an id_token to be issued; its custom:arccosUserId claim is the {userId} path value.\n  sources:\n  - openapi/arccos-golf-on-course-data-api-openapi.yml\n  - https://api.arccosgolf.com/swagger.json\n- scope: arccos/read:users\n  description: Grants read users access\n  flows:\n  - authorizationCode\n  operations:\n  - handle_get_one_user.get./v5/users/{userId}\n  sources:\n  - openapi/arccos-golf-on-course-data-api-openapi.yml\n- scope: arccos/read:rounds\n  description: Grants read rounds access\n  flows:\n  - authorizationCode\n  operations:\n  - handle_search_rounds.get./v5/users/{userId}/rounds\n\
   \  - handle_get_one_round.get./v5/users/{userId}/rounds/{roundId}\n  - handle_get_round_stats.get./v5/users/{userId}/rounds/{roundId}/stats\n  sources:\n  - openapi/arccos-golf-on-course-data-api-openapi.yml\n- scope: arccos/read:clubs\n  description: Grants read clubs access\n  flows:\n  - authorizationCode\n  operations:\n  - handle_search_clubs.get./v5/users/{userId}/clubs\n  - handle_get_one_club.get./v5/users/{userId}/clubs/{clubId}\n  sources:\n  - openapi/arccos-golf-on-course-data-api-openapi.yml\nunscoped_operations:\n- operations:\n  - handle_search_courses.get./v5/courses\n  - handle_get_one_course.get./v5/courses/{courseId}\n  - handle_get_one_course_version.get./v5/courses/{courseId}/versions/{courseVersion}\n  note: Course-catalog reads declare no security requirement and were verified callable anonymously on 2026-08-06.\n- operations:\n  - handle_get_webhooks.get./v5/webhooks\n  - handle_create_webhook.post./v5/webhooks\n  - handle_delete_webhook.delete./v5/webhooks/{webhookId}\n\
   \  note: >-\n    Webhook registration uses HTTP Basic client credentials (BasicAuth), not the OAuth scope model — these are\n    client-level, not user-delegated, operations.\ngaps:\n- No write scopes are published; the delegated surface is read-only.\n- >-\n  There is no public scope-reference page separate from the Swagger UI; the scope list is only discoverable from\n  the spec's securityDefinitions and the \"Authorize\" dialog.\ncross_links:\n  authentication: authentication/arccos-golf-authentication.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/scopes/arccos-golf-scopes.yml
+source_yaml_url: https://artifacts.apis.io/arccos-golf/scopes/arccos-golf-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

@@ -5,43 +5,43 @@ api_specs:
   label: Qudos Bank Banking Account Balances API
   slug: qudos-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/qudos-bank/openapi/qudos-bank-banking-account-balances-api-openapi.yml
 - filename: qudos-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Qudos Bank Banking Account Direct Debits API
   slug: qudos-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/qudos-bank/openapi/qudos-bank-banking-account-direct-debits-api-openapi.yml
 - filename: qudos-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Qudos Bank Banking Account Scheduled Payments API
   slug: qudos-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/qudos-bank/openapi/qudos-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: qudos-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Qudos Bank Banking Account Transactions API
   slug: qudos-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/qudos-bank/openapi/qudos-bank-banking-account-transactions-api-openapi.yml
 - filename: qudos-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Qudos Bank Banking Accounts API
   slug: qudos-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/qudos-bank/openapi/qudos-bank-banking-accounts-api-openapi.yml
 - filename: qudos-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Qudos Bank Banking Payees API
   slug: qudos-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/qudos-bank/openapi/qudos-bank-banking-payees-api-openapi.yml
 - filename: qudos-bank-banking-products-api-openapi.yml
   format: yaml
   label: Qudos Bank Banking Products API
   slug: qudos-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/openapi/qudos-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/qudos-bank/openapi/qudos-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -96,7 +96,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/qudos-bank-cds-banking-products-openapi.yml (per-operation x-scopes)\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\nnote: >-\n  The public Product Reference Data operations (listBankingProducts,\n  getBankingProductDetail) are unauthenticated and carry no scope. All other\n  CDR banking operations require an ACCC-accredited data recipient to hold the\n  scope shown, granted via the customer's CDR consent under the Data Standards\n  Body FAPI security profile (OAuth 2.0 authorization code + OIDC, PKCE/PAR,\n  mutual TLS). Scopes and their consumer-facing data-language descriptions are\n  standardized across all Australian ADIs by the Consumer Data Standards; they\n  are not Qudos-specific. Discovery/trust is brokered by the ACCC CDR Register,\n  not a per-holder /.well-known/openid-configuration.\nschemes:\n- name: cdr-fapi\n  type: oauth2\n  flow: authorizationCode\n  profile:\
   \ FAPI 1.0 Advanced / FAPI 2.0\n  transport: mutualTLS\n  source: openapi/qudos-bank-cds-banking-products-openapi.yml\n  register: https://consumerdatastandardsaustralia.github.io/register/\nscopes:\n- scope: bank:accounts.basic:read\n  description: >-\n    Account name, type, and balance. Grants the basic banking account list and\n    balance surface.\n  operations: [listBankingAccounts, listBankingBalancesBulk, listBankingBalancesSpecificAccounts, getBankingBalance]\n  sources: [openapi/qudos-bank-cds-banking-products-openapi.yml]\n- scope: bank:accounts.detail:read\n  description: >-\n    Account numbers and features (account balance and details, including\n    account number, interest rates, fees, and features).\n  operations: [getBankingAccountDetail]\n  sources: [openapi/qudos-bank-cds-banking-products-openapi.yml]\n- scope: bank:transactions:read\n  description: >-\n    Transaction details, including incoming and outgoing transactions, amounts,\n    dates, descriptions, and other\
   \ party details.\n  operations: [listBankingTransactions, getBankingTransactionDetail]\n  sources: [openapi/qudos-bank-cds-banking-products-openapi.yml]\n- scope: bank:payees:read\n  description: >-\n    Saved payees, including names and account/BSB or PayID details of the\n    member's saved payees.\n  operations: [listBankingPayees, getBankingPayeeDetail]\n  sources: [openapi/qudos-bank-cds-banking-products-openapi.yml]\n- scope: bank:regular_payments:read\n  description: >-\n    Direct debits and scheduled payments, including recurring-payment\n    arrangements and instalment plans.\n  operations: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts, listInstalmentPlans, listInstalmentPlansBulk]\n  sources: [openapi/qudos-bank-cds-banking-products-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qudos-bank/refs/heads/main/scopes/qudos-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/qudos-bank/scopes/qudos-bank-scopes.yml
 summary_line: 5 scopes
 tags:
 - Finance

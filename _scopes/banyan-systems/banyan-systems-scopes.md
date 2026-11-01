@@ -5,61 +5,61 @@ api_specs:
   label: Banyan Systems Authentication API
   slug: banyan-systems-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-authentication-api-openapi.yml
 - filename: banyan-systems-card-linked-offer-api-openapi.yml
   format: yaml
   label: Banyan Systems Card Linked Offer API
   slug: banyan-systems-card-linked-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-card-linked-offer-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-card-linked-offer-api-openapi.yml
 - filename: banyan-systems-consent-api-openapi.yml
   format: yaml
   label: Banyan Systems Consent API
   slug: banyan-systems-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-consent-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-consent-api-openapi.yml
 - filename: banyan-systems-enriched-data-api-openapi.yml
   format: yaml
   label: Banyan Systems Enriched Data API
   slug: banyan-systems-enriched-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-enriched-data-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-enriched-data-api-openapi.yml
 - filename: banyan-systems-enriched-data-merchant-service-provider-api-openapi.yml
   format: yaml
   label: Banyan Systems Enriched Data - Merchant Service Provider API
   slug: banyan-systems-enriched-data-merchant-service-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-enriched-data-merchant-service-provider-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-enriched-data-merchant-service-provider-api-openapi.yml
 - filename: banyan-systems-history-api-openapi.yml
   format: yaml
   label: Banyan Systems History API
   slug: banyan-systems-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-history-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-history-api-openapi.yml
 - filename: banyan-systems-receipt-api-openapi.yml
   format: yaml
   label: Banyan Systems Receipt API
   slug: banyan-systems-receipt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-receipt-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-receipt-api-openapi.yml
 - filename: banyan-systems-tag-counter-api-openapi.yml
   format: yaml
   label: Banyan Systems Tag Counter API
   slug: banyan-systems-tag-counter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-tag-counter-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-tag-counter-api-openapi.yml
 - filename: banyan-systems-transaction-api-openapi.yml
   format: yaml
   label: Banyan Systems Transaction API
   slug: banyan-systems-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-transaction-api-openapi.yml
 - filename: banyan-systems-webhook-api-openapi.yml
   format: yaml
   label: Banyan Systems Webhook API
   slug: banyan-systems-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/openapi/banyan-systems-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/banyan-systems/openapi/banyan-systems-webhook-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -99,7 +99,7 @@ source_filename: banyan-systems-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/banyan-systems-rest-api-openapi.yml, openapi/banyan-systems-sensitive-data-vault-openapi.yml\nschemes:\n- name: bearerToken\n  source: openapi/banyan-systems-rest-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: bearerToken\n  source: openapi/banyan-systems-sensitive-data-vault-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/scopes/banyan-systems-scopes.yml
+source_yaml_url: https://artifacts.apis.io/banyan-systems/scopes/banyan-systems-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

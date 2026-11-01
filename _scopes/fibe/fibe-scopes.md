@@ -46,7 +46,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.fibe.in/.well-known/oauth-authorization-server\ndocs: https://www.fibe.in/mcp/\nschemes:\n- name: OAuth2\n  source: https://www.fibe.in/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.fibe.in/api/mcp/oauth/authorize\n    tokenUrl: https://www.fibe.in/api/mcp/oauth/token\nscopes:\n- scope: loan.read\n  description: Read access to a customer's loan and eligibility information.\n  flows: [authorizationCode]\n  sources: [https://www.fibe.in/.well-known/oauth-authorization-server]\n- scope: loan.apply\n  description: Submit or initiate a loan application on the customer's behalf.\n  flows: [authorizationCode]\n  sources: [https://www.fibe.in/.well-known/oauth-authorization-server]\nnotes: >-\n  Scopes are advertised verbatim in Fibe's RFC 8414 authorization-server metadata and\n  RFC 9728 protected-resource metadata for the MCP server. Descriptions are\
   \ curated\n  from the scope names; Fibe's /mcp/ documentation page was not reachable at probe time.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fibe/refs/heads/main/scopes/fibe-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fibe/scopes/fibe-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

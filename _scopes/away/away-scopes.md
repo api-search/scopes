@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://www.awaytravel.com/.well-known/openid-configuration\ndocs: https://www.awaytravel.com/.well-known/oauth-authorization-server\nschemes:\n- name: ShopifyCustomerAccounts\n  source: well-known/away-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.awaytravel.com/authentication/oauth/authorize\n    tokenUrl: https://accounts.awaytravel.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication — issue an ID token for the buyer.\n  flows: [authorizationCode]\n  sources: [well-known/away-openid-configuration.json]\n- scope: email\n  description: Access the buyer's email address and verification status.\n  flows: [authorizationCode]\n  sources: [well-known/away-openid-configuration.json]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the signed-in buyer.\n  flows:\
   \ [authorizationCode]\n  sources: [well-known/away-openid-configuration.json]\n- scope: customer-account-mcp-api:full\n  description: Full access to the customer-account MCP (agent-commerce) API for the signed-in buyer.\n  flows: [authorizationCode]\n  sources: [well-known/away-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/away/refs/heads/main/scopes/away-scopes.yml
+source_yaml_url: https://artifacts.apis.io/away/scopes/away-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

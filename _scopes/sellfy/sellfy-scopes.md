@@ -5,31 +5,31 @@ api_specs:
   label: Sellfy Content API
   slug: sellfy-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/openapi/sellfy-content-api-openapi.yml
+  url: https://artifacts.apis.io/sellfy/openapi/sellfy-content-api-openapi.yml
 - filename: sellfy-discovery-api-openapi.yml
   format: yaml
   label: Sellfy Discovery API
   slug: sellfy-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/openapi/sellfy-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/sellfy/openapi/sellfy-discovery-api-openapi.yml
 - filename: sellfy-feeds-api-openapi.yml
   format: yaml
   label: Sellfy Feeds API
   slug: sellfy-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/openapi/sellfy-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/sellfy/openapi/sellfy-feeds-api-openapi.yml
 - filename: sellfy-licenses-api-openapi.yml
   format: yaml
   label: Sellfy Licenses API
   slug: sellfy-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/openapi/sellfy-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/sellfy/openapi/sellfy-licenses-api-openapi.yml
 - filename: sellfy-ping-api-openapi.yml
   format: yaml
   label: Sellfy Ping API
   slug: sellfy-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/openapi/sellfy-ping-api-openapi.yml
+  url: https://artifacts.apis.io/sellfy/openapi/sellfy-ping-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -61,15 +61,14 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sellfy/refs/heads/main/scopes/sellfy-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sellfy/scopes/sellfy-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Company
 - e-commerce
-- online-store
 - digital-products
-- creator-tools
+- SaaS
 - payments
+- creators
 token_bound: false
 token_urls: []
 ---

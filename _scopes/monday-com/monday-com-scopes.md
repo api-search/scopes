@@ -11,7 +11,7 @@ api_specs:
   label: Monday.com Platform GraphQL API
   slug: monday-com-monday-com-platform-graphql-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/openapi/monday-com-monday-com-platform-graphql-api-api-openapi.yml
+  url: https://artifacts.apis.io/monday-com/openapi/monday-com-monday-com-platform-graphql-api-api-openapi.yml
 authorization_urls:
 - https://auth.monday.com/oauth2/authorize
 description: ''
@@ -84,7 +84,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/monday-com-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/monday-com-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.monday.com/oauth2/authorize\n    tokenUrl: https://auth.monday.com/oauth2/token\nscopes:\n- scope: boards:read\n  description: Read boards, items, columns, groups\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/monday-com-openapi.yml\n- scope: boards:write\n  description: Create and update boards, items, columns, groups\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/monday-com-openapi.yml\n- scope: notifications:write\n  description: Create notifications\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/monday-com-openapi.yml\n- scope: updates:write\n  description: Create updates and replies\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/monday-com-openapi.yml\n- scope: users:read\n  description: Read user, team, and\
   \ account information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/monday-com-openapi.yml\n- scope: webhooks:write\n  description: Create and manage webhooks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/monday-com-openapi.yml\n- scope: workspaces:read\n  description: Read workspaces\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/monday-com-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/scopes/monday-com-scopes.yml
+source_yaml_url: https://artifacts.apis.io/monday-com/scopes/monday-com-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Work Management

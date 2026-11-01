@@ -5,7 +5,7 @@ api_specs:
   label: Skyhigh Security Tenant API
   slug: skyhigh-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/openapi/skyhigh-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/skyhigh/openapi/skyhigh-tenant-api-openapi.yml
 authorization_urls:
 - http://com.shn/api/oauth/dialog
 description: ''
@@ -53,7 +53,7 @@ source_filename: skyhigh-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/skyhigh-incidents-openapi-original.yml\nschemes:\n- name: tenantAuth\n  source: openapi/skyhigh-incidents-openapi-original.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: http://com.shn/api/oauth/dialog\nscopes:\n- scope: read:data\n  description: Grants read access to all URL data used by authorized tenant.\n  flows:\n  - implicit\n  sources:\n  - openapi/skyhigh-incidents-openapi-original.yml\n- scope: read:users\n  description: Grants read access to all users within authorized tenant.\n  flows:\n  - implicit\n  sources:\n  - openapi/skyhigh-incidents-openapi-original.yml\n- scope: write:users\n  description: Grants read/write access to all users within authorized tenant.\n  flows:\n  - implicit\n  sources:\n  - openapi/skyhigh-incidents-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/scopes/skyhigh-scopes.yml
+source_yaml_url: https://artifacts.apis.io/skyhigh/scopes/skyhigh-scopes.yml
 summary_line: 3 scopes · implicit
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Poggio Labs API Tokens API
   slug: poggio-labs-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-api-tokens-api-openapi.yml
 - filename: poggio-labs-authentication-api-openapi.yml
   format: yaml
   label: Poggio Labs Authentication API
   slug: poggio-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-authentication-api-openapi.yml
 - filename: poggio-labs-goals-api-openapi.yml
   format: yaml
   label: Poggio Labs Goals API
   slug: poggio-labs-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-goals-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-goals-api-openapi.yml
 - filename: poggio-labs-organizations-api-openapi.yml
   format: yaml
   label: Poggio Labs Organizations API
   slug: poggio-labs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-organizations-api-openapi.yml
 - filename: poggio-labs-system-api-openapi.yml
   format: yaml
   label: Poggio Labs System API
   slug: poggio-labs-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-system-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-system-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.gkeeper.ai/docs/concepts/api-tokens
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.gk
   \ for goals owned by the token owner.\n- scope: goals:read:all\n  description: Read every goal visible to the token owner.\n  implies: [goals:read]\n- scope: goals:write:all\n  description: >-\n    Create goals, update metadata, and report status for every goal writable by the\n    token owner.\n  implies: [goals:write]\n- scope: labels:read\n  description: Read organization goal labels.\n- scope: labels:write\n  description: Create, update, and delete organization goal labels.\nrules:\n- All-goals scopes include the corresponding own-goals capability.\n- Write scopes do NOT imply read access.\n- Every token must carry at least one scope.\n- >-\n  authorizeApiToken denies capabilities absent from the registry and revalidates the\n  token owner's current authority on every request; removing that authority blocks the\n  token without requiring token replacement.\n- >-\n  API tokens cannot call token-management operations; those require an interactive\n  browser session.\ntoken_policy:\n\
   \  storage: SHA-256 hash of a 256-bit random secret\n  secret_visibility: returned in full once at creation; later responses expose only a prefix\n  expiry_days: {min: 1, max: 365, default: 90}\n  revocation: persistent and immediate\n  last_used_write_interval: 5 minutes\n  opaque: >-\n    API tokens are intentionally not JWTs so that revocation and current-policy checks\n    stay authoritative on every request.\nmcp_oauth_scopes:\n  supported: [goals:read, goals:write, labels:read, labels:write]\n  initial: [goals:read, labels:read]\n  note: >-\n    Configured on a hosted deployment via MCP_OAUTH_SCOPES_SUPPORTED /\n    MCP_OAUTH_INITIAL_SCOPES; see mcp/poggio-labs-goalkeeper-mcp.yml.\npoggio_platform_note: >-\n  The hosted Poggio platform API (api.poggio.io/v2) publishes OAuth 2.0 authorization\n  server metadata with no scopes_supported key at all, and its MCP protected-resource\n  metadata publishes scopes_supported as an EMPTY array — Poggio's hosted surface has no\n  scope vocabulary;\
   \ organization is inferred from the access token instead. This scopes\n  artifact therefore covers Goalkeeper only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/scopes/poggio-labs-goalkeeper-scopes.yml
+source_yaml_url: https://artifacts.apis.io/poggio-labs/scopes/poggio-labs-goalkeeper-scopes.yml
 summary_line: 6 scopes
 tags:
 - Company

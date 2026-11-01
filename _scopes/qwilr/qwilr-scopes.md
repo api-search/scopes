@@ -40,7 +40,7 @@ source_filename: qwilr-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.qwilr.com/.well-known/oauth-authorization-server\ndocs: https://mcp.qwilr.com/.well-known/oauth-protected-resource\nschemes:\n- name: mcpOAuth2\n  source: api.qwilr.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.qwilr.com/oauth/authorize\n    tokenUrl: https://api.qwilr.com/oauth/token\nscopes:\n- scope: mcp\n  description: >-\n    Grants an OAuth client access to the Qwilr hosted MCP server at\n    https://mcp.qwilr.com. This is the only scope advertised by Qwilr's\n    OAuth 2.0 authorization server metadata (scopes_supported).\n  flows:\n  - authorizationCode\n  sources:\n  - api.qwilr.com/.well-known/oauth-authorization-server\nnotes: >-\n  The REST API (api.qwilr.com/v1) uses opaque bearer JWT tokens generated in-app,\n  not OAuth scopes. The only documented OAuth scope surface is the single \"mcp\"\n  scope fronting the MCP server.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qwilr/refs/heads/main/scopes/qwilr-scopes.yml
+source_yaml_url: https://artifacts.apis.io/qwilr/scopes/qwilr-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

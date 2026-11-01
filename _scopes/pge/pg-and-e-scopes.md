@@ -5,37 +5,37 @@ api_specs:
   label: Pacific Gas and Electric Application Information API
   slug: pge-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-applicationinformation-api-openapi.yml
 - filename: pge-authorization-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Authorization API
   slug: pge-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-authorization-api-openapi.yml
 - filename: pge-batch-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Batch API
   slug: pge-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-batch-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-batch-api-openapi.yml
 - filename: pge-usagepoint-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Usage Point API
   slug: pge-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-usagepoint-api-openapi.yml
 - filename: pge-subscriptions-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Subscriptions API
   slug: pge-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-subscriptions-api-openapi.yml
 - filename: pge-usage-api-openapi.yml
   format: yaml
   label: Pacific Gas and Electric Usage API
   slug: pge-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/openapi/pge-usage-api-openapi.yml
+  url: https://artifacts.apis.io/pge/openapi/pge-usage-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://www.pge.com/en/save-energy-and-money/energy-saving-programs/smartmeter/third-party-companies.html
@@ -164,7 +164,7 @@ source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.
   \ Info for gas SAs.\n    customer_selectable: true\n  - scope: FB=13\n    name: Security and Privacy classes\n    description: HTTPS support. Always returned.\n    customer_selectable: false\n  - scope: FB=14\n    name: Authorization and Authentication (OAuth)\n    description: OAuth 2.0. Always returned.\n    customer_selectable: false\n  - scope: FB=15\n    name: Usage Summary\n    description: Billed total usage summary. Granted by Usage or Bill Info.\n    customer_selectable: true\n  - scope: FB=16\n    name: Usage Summary with Cost\n    description: Usage summary including dollar bill cost. Granted by Bill Info.\n    customer_selectable: true\n  - scope: FB=18\n    name: Multiple UsagePoints\n    description: Ability to authorize multiple service agreements. Always returned.\n    customer_selectable: false\n  - scope: FB=19\n    name: Partial update data\n    description: IntervalBlocks without full data sets (no UsagePoint/MeterReading). Always returned.\n    customer_selectable:\
   \ false\n  - scope: FB=31\n    name: Core REST Services\n    description: Third-party access to Subscription/Authorization. Always returned.\n    customer_selectable: false\n  - scope: FB=32\n    name: Resource Level REST\n    description: >-\n      Third-party access to UsagePoints, MeterReading and collections\n      (excludes ElectricPowerQualitySummary). Always returned.\n    customer_selectable: false\n  - scope: FB=35\n    name: REST for Bulk\n    description: Supports REST requests for Bulk. Always returned.\n    customer_selectable: false\n  - scope: FB=37\n    name: Query Parameters\n    description: published-max / published-min query parameters. Always returned.\n    customer_selectable: false\n  - scope: FB=38\n    name: On Demand Requests\n    description: Request without prior notification. Always returned.\n    customer_selectable: false\n  - scope: FB=39\n    name: Push model\n    description: >-\n      POST notification that data is ready, followed by a GET from the third\
   \ party.\n      Always returned. This is the webhook surface.\n    customer_selectable: false\n  - scope: FB=40\n    name: Offline Authorization to complement OAuth\n    description: Authorization performed offline (paper CISR or Ops Portal). Always returned.\n    customer_selectable: false\n  - scope: FB=46\n    name: Core RetailCustomer\n    description: >-\n      Retrieve resources for a RetailCustomer. Granted by Basic and/or Account Info and/or\n      Program Enrollment Info.\n    customer_selectable: true\n  - scope: FB=47\n    name: REST for RetailCustomer Bulk\n    description: >-\n      Retrieve resources in bulk for a RetailCustomer. Granted by Basic and/or Account Info.\n    customer_selectable: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pge/refs/heads/main/scopes/pg-and-e-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pge/scopes/pg-and-e-scopes.yml
 summary_line: 21 scopes · authorization_code/client_credentials/refresh_token
 tags:
 - Energy

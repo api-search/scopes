@@ -5,13 +5,13 @@ api_specs:
   label: University of Hong Kong Discovery API
   slug: hku-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/hku/openapi/hku-discovery-api-openapi.yml
 - filename: hku-oauth-api-openapi.yml
   format: yaml
   label: University of Hong Kong O Auth API
   slug: hku-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/hku/openapi/hku-oauth-api-openapi.yml
 authorization_urls:
 - https://adfs.hku.hk/adfs/oauth2/authorize/
 description: ''
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: https://adfs.hku.
   \    tokenUrl: https://adfs.hku.hk/adfs/oauth2/token/\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope — issues an ID token for the signed-in HKU account.\n  flows: [authorizationCode, clientCredentials, deviceCode]\n  sources: [well-known/hku-adfs-openid-configuration.json]\n- scope: profile\n  description: Releases profile claims (unique_name, upn) about the signed-in account.\n  flows: [authorizationCode]\n  sources: [well-known/hku-adfs-openid-configuration.json]\n- scope: email\n  description: Releases the account's email claim.\n  flows: [authorizationCode]\n  sources: [well-known/hku-adfs-openid-configuration.json]\n- scope: allatclaims\n  description: AD FS scope that copies all claims from the underlying authentication into the issued token.\n  flows: [authorizationCode]\n  sources: [well-known/hku-adfs-openid-configuration.json]\n- scope: aza\n  description: Microsoft broker scope used for primary refresh tokens on managed devices.\n  flows: [authorizationCode]\n\
   \  sources: [well-known/hku-adfs-openid-configuration.json]\n- scope: user_impersonation\n  description: Allows a relying party to act on behalf of the signed-in user.\n  flows: [authorizationCode]\n  sources: [well-known/hku-adfs-openid-configuration.json]\n- scope: logon_cert\n  description: Requests a logon certificate for certificate-based authentication.\n  flows: [authorizationCode]\n  sources: [well-known/hku-adfs-openid-configuration.json]\n- scope: winhello_cert\n  description: Requests a Windows Hello for Business certificate.\n  flows: [authorizationCode]\n  sources: [well-known/hku-adfs-openid-configuration.json]\n- scope: vpn_cert\n  description: Requests a VPN client certificate.\n  flows: [authorizationCode]\n  sources: [well-known/hku-adfs-openid-configuration.json]\nclaims:\n  supported: [aud, iss, iat, exp, auth_time, nonce, at_hash, c_hash, sub, upn, unique_name, pwd_url, pwd_exp, mfa_auth_time, sid, nbf]\n  source: https://adfs.hku.hk/adfs/.well-known/openid-configuration\n\
   samlAttributesReleased:\n  note: >-\n    The Shibboleth IdP at hkafidp.hku.hk declares the attributes it releases in its SAML metadata.\n    They are catalogued in vocabulary/hku-identity-attributes.yml.\n  source: https://hkafidp.hku.hk/idp/shibboleth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/scopes/hku-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hku/scopes/hku-scopes.yml
 summary_line: 9 scopes · authorizationCode/clientCredentials/deviceCode
 tags:
 - Education

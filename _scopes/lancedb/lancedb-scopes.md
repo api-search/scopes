@@ -5,25 +5,25 @@ api_specs:
   label: LanceDB MaterializedView API
   slug: lancedb-materializedview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-materializedview-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-materializedview-api-openapi.yml
 - filename: lancedb-namespace-api-openapi.yml
   format: yaml
   label: LanceDB Namespace API
   slug: lancedb-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-namespace-api-openapi.yml
 - filename: lancedb-table-api-openapi.yml
   format: yaml
   label: LanceDB Table API
   slug: lancedb-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-table-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-table-api-openapi.yml
 - filename: lancedb-transaction-api-openapi.yml
   format: yaml
   label: LanceDB Transaction API
   slug: lancedb-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/openapi/lancedb-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/lancedb/openapi/lancedb-transaction-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -73,7 +73,7 @@ source_filename: lancedb-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/lancedb-materializedview-api-openapi.yml, openapi/lancedb-namespace-api-openapi.yml,\n  openapi/lancedb-table-api-openapi.yml, openapi/lancedb-transaction-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/lancedb-materializedview-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/lancedb-namespace-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/lancedb-table-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\n- name: OAuth2\n  source: openapi/lancedb-transaction-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/scopes/lancedb-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lancedb/scopes/lancedb-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Vector Search

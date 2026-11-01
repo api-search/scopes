@@ -5,43 +5,43 @@ api_specs:
   label: Badgr Assertions API
   slug: badgr-assertions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-assertions-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-assertions-api-openapi.yml
 - filename: badgr-authentication-api-openapi.yml
   format: yaml
   label: Badgr Authentication API
   slug: badgr-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-authentication-api-openapi.yml
 - filename: badgr-backpack-api-openapi.yml
   format: yaml
   label: Badgr Backpack API
   slug: badgr-backpack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-backpack-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-backpack-api-openapi.yml
 - filename: badgr-badgeclasses-api-openapi.yml
   format: yaml
   label: Badgr BadgeClasses API
   slug: badgr-badgeclasses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-badgeclasses-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-badgeclasses-api-openapi.yml
 - filename: badgr-collections-api-openapi.yml
   format: yaml
   label: Badgr Collections API
   slug: badgr-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-collections-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-collections-api-openapi.yml
 - filename: badgr-issuers-api-openapi.yml
   format: yaml
   label: Badgr Issuers API
   slug: badgr-issuers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-issuers-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-issuers-api-openapi.yml
 - filename: badgr-users-api-openapi.yml
   format: yaml
   label: Badgr Users API
   slug: badgr-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/openapi/badgr-users-api-openapi.yml
+  url: https://artifacts.apis.io/badgr/openapi/badgr-users-api-openapi.yml
 authorization_urls:
 - https://api.badgr.io/o/authorize
 description: ''
@@ -99,7 +99,7 @@ source_filename: badgr-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/badgr-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/badgr-openapi.yml\n  flows:\n  - flow: password\n    tokenUrl: https://api.badgr.io/o/token\n  - flow: authorizationCode\n    authorizationUrl: https://api.badgr.io/o/authorize\n    tokenUrl: https://api.badgr.io/o/token\nscopes:\n- scope: rw:backpack\n  description: Read and write the earner backpack and collections\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/badgr-openapi.yml\n- scope: rw:issuer\n  description: Read and write issuers, badge classes, and assertions\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/badgr-openapi.yml\n- scope: rw:profile\n  description: Read and write the user profile\n  flows:\n  - authorizationCode\n  - password\n  sources:\n  - openapi/badgr-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/scopes/badgr-scopes.yml
+source_yaml_url: https://artifacts.apis.io/badgr/scopes/badgr-scopes.yml
 summary_line: 3 scopes · password/authorizationCode
 tags:
 - Digital Badges

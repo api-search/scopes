@@ -5,55 +5,55 @@ api_specs:
   label: bexio Accounting API
   slug: bexio-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-accounting-api-openapi.yml
 - filename: bexio-banking-api-openapi.yml
   format: yaml
   label: bexio Banking API
   slug: bexio-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-banking-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-banking-api-openapi.yml
 - filename: bexio-contacts-api-openapi.yml
   format: yaml
   label: bexio Contacts API
   slug: bexio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-contacts-api-openapi.yml
 - filename: bexio-files-api-openapi.yml
   format: yaml
   label: bexio Files API
   slug: bexio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-files-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-files-api-openapi.yml
 - filename: bexio-items-api-openapi.yml
   format: yaml
   label: bexio Items API
   slug: bexio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-items-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-items-api-openapi.yml
 - filename: bexio-payroll-api-openapi.yml
   format: yaml
   label: bexio Payroll API
   slug: bexio-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-payroll-api-openapi.yml
 - filename: bexio-projects-api-openapi.yml
   format: yaml
   label: bexio Projects API
   slug: bexio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-projects-api-openapi.yml
 - filename: bexio-purchase-api-openapi.yml
   format: yaml
   label: bexio Purchase API
   slug: bexio-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-purchase-api-openapi.yml
 - filename: bexio-sales-orders-api-openapi.yml
   format: yaml
   label: bexio Sales Orders API
   slug: bexio-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-sales-orders-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.bexio.com/
@@ -376,7 +376,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://auth.be
   \ and modify projects.}\n- {scope: task_show, description: Read tasks.}\n- {scope: task_edit, description: Create and modify tasks.}\n- {scope: monitoring_show, description: Read time-tracking / monitoring data.}\n- {scope: monitoring_edit, description: Create and modify time-tracking entries.}\n- {scope: payroll_employee_show, description: Read payroll employees.}\n- {scope: payroll_employee_edit, description: Create and modify payroll employees.}\n- {scope: payroll_absence_show, description: Read payroll absences.}\n- {scope: payroll_absence_edit, description: Create and modify payroll absences.}\n- {scope: payroll_paystub_show, description: Read paystubs.}\n- {scope: payroll_time_account_show, description: Read payroll time accounts.}\n- {scope: payroll_time_account_edit, description: Modify payroll time accounts.}\n- {scope: payroll_statistic_show, description: Read payroll statistics.}\n- {scope: bank_account_show, description: Read bank accounts.}\n- {scope: bank_account_edit, description:\
   \ Create and modify bank accounts.}\n- {scope: bank_payment_show, description: Read bank payments.}\n- {scope: bank_payment_edit, description: Create and modify bank payments.}\n- {scope: bill_banking_payment_edit, description: Create bill banking payments (pay supplier bills).}\n- {scope: file, description: Upload, list, and manage files and attachments.}\n- {scope: archive_show, description: Read archived documents.}\n- {scope: archive_edit, description: Modify archived documents.}\n- {scope: archive_settings_show, description: Read archive settings.}\n- {scope: archive_settings_edit, description: Modify archive settings.}\n- {scope: connected_clients_show, description: Read connected clients (accountant sharing).}\n- {scope: connected_clients_edit, description: Modify connected clients.}\n- {scope: pat_show, description: Read Personal Access Tokens.}\n- {scope: pat_edit, description: Create and modify Personal Access Tokens.}\n- {scope: roles, description: Access role assignments.}\n\
   - {scope: chat_edit, description: Modify chat.}\n- {scope: subscription_and_permissions, description: Read subscription and permission settings.}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/scopes/bexio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bexio/scopes/bexio-scopes.yml
 summary_line: 71 scopes
 tags:
 - Accounting

@@ -47,7 +47,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.wealth.com/advisor/authentication\ndocs: https://developer.wealth.com/advisor/authentication\nschemes:\n- name: AdvisorOAuth2\n  api: Wealth.com Advisor API\n  flows:\n  - flow: authorizationCode\n    pkce: true\n    note: Authorization/token URLs not published in public docs; discovered via advisor onboarding.\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the signed-in advisor user.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the advisor user's email address claim.\n  flows: [authorizationCode]\n- scope: profile\n  description: Access the advisor user's basic profile claims.\n  flows: [authorizationCode]\nnotes: >-\n  Wealth.com documents the standard OpenID Connect scopes (openid, email, profile) plus\n  \"any custom configured scopes\" negotiated per integration. A full custom-scope reference\n  is not published on the public developer\
   \ portal.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealthcom/refs/heads/main/scopes/wealthcom-scopes.yml
+source_yaml_url: https://artifacts.apis.io/wealthcom/scopes/wealthcom-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

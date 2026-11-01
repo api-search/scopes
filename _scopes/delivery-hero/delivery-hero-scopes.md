@@ -5,43 +5,43 @@ api_specs:
   label: Delivery Hero Authentication API
   slug: delivery-hero-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-authentication-api-openapi.yml
 - filename: delivery-hero-callback-api-openapi.yml
   format: yaml
   label: Delivery Hero Callback API
   slug: delivery-hero-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-callback-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-callback-api-openapi.yml
 - filename: delivery-hero-ordersestimation-api-openapi.yml
   format: yaml
   label: Delivery Hero OrdersEstimation API
   slug: delivery-hero-ordersestimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-ordersestimation-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-ordersestimation-api-openapi.yml
 - filename: delivery-hero-ordersmanagement-api-openapi.yml
   format: yaml
   label: Delivery Hero OrdersManagement API
   slug: delivery-hero-ordersmanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-ordersmanagement-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-ordersmanagement-api-openapi.yml
 - filename: delivery-hero-outlets-api-openapi.yml
   format: yaml
   label: Delivery Hero Outlets API
   slug: delivery-hero-outlets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-outlets-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-outlets-api-openapi.yml
 - filename: delivery-hero-proofs-api-openapi.yml
   format: yaml
   label: Delivery Hero Proofs API
   slug: delivery-hero-proofs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-proofs-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-proofs-api-openapi.yml
 - filename: delivery-hero-riderposition-api-openapi.yml
   format: yaml
   label: Delivery Hero RiderPosition API
   slug: delivery-hero-riderposition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-riderposition-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-riderposition-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://on-demand-rider-docs.deliveryhero.io/
@@ -76,7 +76,7 @@ source_filename: delivery-hero-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/delivery-hero-on-demand-rider-openapi.json\ndocs: https://on-demand-rider-docs.deliveryhero.io/\nnote: ODR OpenAPI declares only an apiKey Bearer scheme; OAuth2 client_credentials\n  + scopes are documented in the auth guide, not the spec. Scopes are provisioned\n  per client by ODR representatives.\nschemes:\n- name: OAuth2\n  flow: clientCredentials\n  tokenUrl: https://sts.deliveryhero.io/oauth2/token\n  assertion: urn:ietf:params:oauth:client-assertion-type:jwt-bearer\nscope_pattern: '{brand}.api.{country_code}.*'\nscopes:\n- scope: pandago.api.sg.*\n  description: 'Documented example: full ODR API access for the Pandago brand in Singapore'\n  flows:\n  - clientCredentials\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/scopes/delivery-hero-scopes.yml
+source_yaml_url: https://artifacts.apis.io/delivery-hero/scopes/delivery-hero-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

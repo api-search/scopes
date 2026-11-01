@@ -5,7 +5,7 @@ api_specs:
   label: Monte Carlo Graph QL API
   slug: monte-carlo-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/openapi/monte-carlo-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/monte-carlo/openapi/monte-carlo-graph-ql-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.getmontecarlo.com/docs/api-authentication#authenticating-with-oauth-client-credentials
@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-16'\nmethod: searched\nsource: https://docs.getmontecarlo.com/docs/api-authentication\ndocs: https://docs.getmontecarlo.com/docs/api-authentication#authenticating-with-oauth-client-credentials\nauthorization_servers:\n- issuer: https://auth.getmontecarlo.com\n  metadata: https://auth.getmontecarlo.com/.well-known/oauth-authorization-server\n- token_url: https://api.getmontecarlo.com/oauth2/token\n  note: Token URL shown for OAuth client-credentials clients of the GraphQL API.\nscopes:\n- scope: https://api.getmontecarlo.com/access\n  api: monte-carlo:graphql-api\n  description: API access scope requested in the client-credentials grant.\n- scope: https://instance.getmontecarlo.com/{instance_id}\n  api: monte-carlo:graphql-api\n  description: Instance-routing scope naming the deployment (e.g. us1, eu1); requested together with the access scope.\n- scope: offline_access\n  api: monte-carlo:mcp-server\n  description: Only scope advertised by the MCP protected-resource\
   \ metadata; issues refresh tokens.\n- scope: openid\n  api: auth\n  description: Advertised by auth.getmontecarlo.com.\n- scope: profile\n  api: auth\n  description: Advertised by auth.getmontecarlo.com.\n- scope: email\n  api: auth\n  description: Advertised by auth.getmontecarlo.com.\npermissions_note: >-\n  Fine-grained access is governed by Monte Carlo roles and authorization groups rather than OAuth scopes\n  (e.g. lineage/read; MCP requires Editor or above). See https://docs.getmontecarlo.com/docs/authorization.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monte-carlo/refs/heads/main/scopes/monte-carlo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/monte-carlo/scopes/monte-carlo-scopes.yml
 summary_line: 6 scopes
 tags:
 - Data Observability

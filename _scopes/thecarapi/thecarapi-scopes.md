@@ -5,67 +5,67 @@ api_specs:
   label: TheCarApi Auctions & history API
   slug: thecarapi-auctions-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-auctions-history-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-auctions-history-api-openapi.yml
 - filename: thecarapi-catalog-api-openapi.yml
   format: yaml
   label: TheCarApi Catalog API
   slug: thecarapi-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-catalog-api-openapi.yml
 - filename: thecarapi-european-classifieds-api-openapi.yml
   format: yaml
   label: TheCarApi European classifieds API
   slug: thecarapi-european-classifieds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-european-classifieds-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-european-classifieds-api-openapi.yml
 - filename: thecarapi-filter-facets-api-openapi.yml
   format: yaml
   label: TheCarApi Filter facets API
   slug: thecarapi-filter-facets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-filter-facets-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-filter-facets-api-openapi.yml
 - filename: thecarapi-health-contract-api-openapi.yml
   format: yaml
   label: TheCarApi Health & contract API
   slug: thecarapi-health-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-health-contract-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-health-contract-api-openapi.yml
 - filename: thecarapi-import-calculator-api-openapi.yml
   format: yaml
   label: TheCarApi Import calculator API
   slug: thecarapi-import-calculator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-import-calculator-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-import-calculator-api-openapi.yml
 - filename: thecarapi-market-intelligence-api-openapi.yml
   format: yaml
   label: TheCarApi Market intelligence API
   slug: thecarapi-market-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-market-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-market-intelligence-api-openapi.yml
 - filename: thecarapi-seo-helpers-api-openapi.yml
   format: yaml
   label: TheCarApi SEO helpers API
   slug: thecarapi-seo-helpers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-seo-helpers-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-seo-helpers-api-openapi.yml
 - filename: thecarapi-top-offers-api-openapi.yml
   format: yaml
   label: TheCarApi Top offers API
   slug: thecarapi-top-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-top-offers-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-top-offers-api-openapi.yml
 - filename: thecarapi-vehicle-details-api-openapi.yml
   format: yaml
   label: TheCarApi Vehicle details API
   slug: thecarapi-vehicle-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-vehicle-details-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-vehicle-details-api-openapi.yml
 - filename: thecarapi-search-and-discovery-api-openapi.yml
   format: yaml
   label: TheCarApi Search and Discovery API
   slug: thecarapi-search-and-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/openapi/thecarapi-search-and-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/thecarapi/openapi/thecarapi-search-and-discovery-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://thecarapi.com/docs/authentication
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://thecara
   \  - name: auctions\n    description: Auction detail, images, price history, and VIN history.\n  - name: details\n    description: Full vehicle details, including upstream fetches.\n  - name: top-offers\n    description: Auctions priced below their market reference.\n  - name: theparking\n    description: European classifieds feed, facets, and models.\n  - name: market\n    description: Cars.bg and auction market price snapshots.\n  - name: calculator\n    description: Import cost calculator and supported countries.\n  - name: ops\n    description: >-\n      Service health, the contract, and the API index. The provider warns that this group also\n      covers internal routes outside the published contract, which are unversioned and may change\n      without a changelog entry.\nlegacy_scopes:\n  - name: public\n    status: legacy-compatibility\n    description: >-\n      Legacy compatibility bundle — search facets, catalog, SEO, auctions, calculator and health —\n      preserved for older\
   \ integrations. New keys are issued against the groups above.\ndefault_grant:\n  enabled_by_default:\n    - /api/search\n    - /api/brands\n    - /api/models\n    - /api/years\n    - /api/fuels\n    - /api/countries\n    - /api/gearboxes\n    - /api/sites\n    - /load-models\n    - /api/facets\n    - /api/catalog/*\n    - /api/seo/*\n    - /api/auction/*\n    - /api/auction-images/*\n    - /api/calculator/*\n    - /api/top-offers\n    - /api/theparking/*\n    - /api/car-details\n    - /api/contract\n    - /api/health\n    - /\n  granted_on_request:\n    - /api/vin/{vin}/history\n    - /api/cars-bg-market\n    - /api/auction-market\n    - /api/listVehicles\n    - /listVehicles\n    - /api/search/auction-ids\n  no_key_required:\n    - /api/health/live\n    - /api/health/ready\ndiscovery:\n  startup_check: GET /api/contract\n  guidance: >-\n    The provider tells clients to call /api/contract once at process start and fail loudly if the\n    surface they depend on is absent — a missing scope\
   \ is a deployment problem, not a runtime one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/scopes/thecarapi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/thecarapi/scopes/thecarapi-scopes.yml
 summary_line: 10 scopes
 tags:
 - Automotive

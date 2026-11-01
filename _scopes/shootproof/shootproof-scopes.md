@@ -5,43 +5,43 @@ api_specs:
   label: ShootProof Clients API
   slug: shootproof-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-clients-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-clients-api-openapi.yml
 - filename: shootproof-contracts-api-openapi.yml
   format: yaml
   label: ShootProof Contracts API
   slug: shootproof-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-contracts-api-openapi.yml
 - filename: shootproof-events-galleries-api-openapi.yml
   format: yaml
   label: ShootProof Events & Galleries API
   slug: shootproof-events-galleries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-events-galleries-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-events-galleries-api-openapi.yml
 - filename: shootproof-orders-api-openapi.yml
   format: yaml
   label: ShootProof Orders API
   slug: shootproof-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-orders-api-openapi.yml
 - filename: shootproof-photos-api-openapi.yml
   format: yaml
   label: ShootProof Photos API
   slug: shootproof-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-photos-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-photos-api-openapi.yml
 - filename: shootproof-service-description-api-openapi.yml
   format: yaml
   label: ShootProof Service Description API
   slug: shootproof-service-description-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-service-description-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-service-description-api-openapi.yml
 - filename: shootproof-studios-api-openapi.yml
   format: yaml
   label: ShootProof Studios API
   slug: shootproof-studios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/openapi/shootproof-studios-api-openapi.yml
+  url: https://artifacts.apis.io/shootproof/openapi/shootproof-studios-api-openapi.yml
 authorization_urls:
 - https://auth.shootproof.com/oauth2/authorization/new
 description: ''
@@ -104,7 +104,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shootproof-openapi.yml\nschemes:\n- name: shootProofAuth\n  source: openapi/shootproof-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.shootproof.com/oauth2/authorization/new\n    tokenUrl: https://auth.shootproof.com/oauth2/authorization/token\nscopes:\n- scope: studio\n  description: read and write access to your Studio Panel data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/shootproof-openapi.yml\n- scope: studio.brand.read-only\n  description: read access to your Studio Panel Brand data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/shootproof-openapi.yml\n- scope: studio.info.read-only\n  description: read access to your Studio Panel account data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/shootproof-openapi.yml\n- scope: studio.order.lab-shipment.read-write\n  description: read and write access to your Studio Panel Order shipment data\n\
   \  flows:\n  - authorizationCode\n  sources:\n  - openapi/shootproof-openapi.yml\n- scope: studio.order.read-write\n  description: read and write access to your Studio Panel Order data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/shootproof-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shootproof/refs/heads/main/scopes/shootproof-scopes.yml
+source_yaml_url: https://artifacts.apis.io/shootproof/scopes/shootproof-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Photography

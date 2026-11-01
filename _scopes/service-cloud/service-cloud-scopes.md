@@ -5,19 +5,19 @@ api_specs:
   label: Salesforce Service Cloud APIs Bot API
   slug: service-cloud-bot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/openapi/service-cloud-bot-api-openapi.yml
+  url: https://artifacts.apis.io/service-cloud/openapi/service-cloud-bot-api-openapi.yml
 - filename: service-cloud-health-api-openapi.yml
   format: yaml
   label: Salesforce Service Cloud APIs Health API
   slug: service-cloud-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/openapi/service-cloud-health-api-openapi.yml
+  url: https://artifacts.apis.io/service-cloud/openapi/service-cloud-health-api-openapi.yml
 - filename: service-cloud-versions-api-openapi.yml
   format: yaml
   label: Salesforce Service Cloud APIs Versions API
   slug: service-cloud-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/openapi/service-cloud-versions-api-openapi.yml
+  url: https://artifacts.apis.io/service-cloud/openapi/service-cloud-versions-api-openapi.yml
 authorization_urls:
 - https://login.salesforce.com/services/oauth2/authorize
 description: ''
@@ -214,7 +214,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://l
   \    advertised_by: [login.salesforce.com]\n  - scope: chatter_api\n    description: Access the Connect REST API (Chatter/Connect).\n    advertised_by: [login.salesforce.com]\n  - scope: custom_permissions\n    description: Return the custom permissions in the org associated with the connected app.\n    advertised_by: [login.salesforce.com]\n  - scope: interaction_api\n    description: Interaction Studio / personalization API.\n    advertised_by: [login.salesforce.com]\n  - scope: wave_api\n    description: CRM Analytics (Wave/Tableau CRM) REST API.\n    advertised_by: [login.salesforce.com]\n  - scope: eclair_api\n    description: CRM Analytics Eclair chart API.\n    advertised_by: [login.salesforce.com]\n  - scope: pardot_api\n    description: Account Engagement (Pardot) API.\n    advertised_by: [login.salesforce.com]\n  - scope: scrt_api\n    description: Service Cloud Real-Time (SCRT) — the Messaging for In-App and Web transport.\n    advertised_by: [login.salesforce.com]\n    note:\
   \ The most Service-Cloud-specific scope in the list.\n  - scope: user_registration_api\n    advertised_by: [login.salesforce.com]\n  - scope: pwdless_login_api\n    description: Passwordless login API.\n    advertised_by: [login.salesforce.com]\n  - scope: forgot_password\n    advertised_by: [login.salesforce.com]\n  - scope: cdp_api\n    description: Data Cloud / CDP API.\n    advertised_by: [login.salesforce.com]\n  - scope: cdp_ingest_api\n    advertised_by: [login.salesforce.com]\n  - scope: cdp_query_api\n    advertised_by: [login.salesforce.com]\n  - scope: cdp_profile_api\n    advertised_by: [login.salesforce.com]\n  - scope: cdp_segment_api\n    advertised_by: [login.salesforce.com]\n  - scope: cdp_identityresolution_api\n    advertised_by: [login.salesforce.com]\n  - scope: cdp_calculated_insight_api\n    advertised_by: [login.salesforce.com]\n  - scope: data_cloud_user_claims\n    advertised_by: [login.salesforce.com]\nscope_count: 36\nleast_privilege:\n  note: >-\n    Scopes\
   \ are coarse. `api` grants everything the authenticated USER can reach — there is no\n    read-only or Case-only scope. Fine-grained restriction is enforced by the org's profile,\n    permission set and sharing rules on that user, not by the token. For agents, the practical\n    least-privilege lever is choosing the narrow hosted MCP server (sobject-reads or\n    sobject-mutations instead of sobject-all) and a purpose-built integration user.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/scopes/service-cloud-scopes.yml
+source_yaml_url: https://artifacts.apis.io/service-cloud/scopes/service-cloud-scopes.yml
 summary_line: 36 scopes · authorizationCode/implicit
 tags:
 - Cloud

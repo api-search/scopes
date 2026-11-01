@@ -30,14 +30,15 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openwb/refs/heads/main/scopes/openwb-scopes.yml
+source_yaml_url: https://artifacts.apis.io/openwb/scopes/openwb-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- EV
-- Charging
-- Open-source
-- Self-hosted
+- Energy
+- EVCharging
+- SmartHome
+- OpenSource
+- SelfHosted
 token_bound: false
 token_urls: []
 ---

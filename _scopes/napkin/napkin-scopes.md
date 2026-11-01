@@ -5,7 +5,7 @@ api_specs:
   label: Napkin Visuals API
   slug: napkin-visuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/openapi/napkin-visuals-api-openapi.yml
+  url: https://artifacts.apis.io/napkin/openapi/napkin-visuals-api-openapi.yml
 authorization_urls:
 - https://api.napkin.ai/v1/oauth/authorize
 description: ''
@@ -53,7 +53,7 @@ source_filename: napkin-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/napkin-openapi.yml\ndocs: https://api.napkin.ai/oauth-user-authentication\nschemes:\n  - name: oauth2\n    source: openapi/napkin-openapi.yml\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://api.napkin.ai/v1/oauth/authorize\n        tokenUrl: https://api.napkin.ai/v1/oauth/token\n        revokeUrl: https://api.napkin.ai/v1/oauth/revoke\nscopes:\n  - scope: user\n    description: Access to basic user profile information (email, name, user ID).\n    flows: [authorizationCode]\n    sources: [openapi/napkin-openapi.yml]\n  - scope: generation\n    description: Ability to create visual generations on behalf of the user.\n    flows: [authorizationCode]\n    sources: [openapi/napkin-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/napkin/refs/heads/main/scopes/napkin-scopes.yml
+source_yaml_url: https://artifacts.apis.io/napkin/scopes/napkin-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: Stay22 API
   slug: stay22-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stay22/refs/heads/main/openapi/_ae-authored/stay22-openapi-generated.yml
+  url: https://artifacts.apis.io/stay22/openapi/_ae-authored/stay22-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -37,14 +37,14 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stay22/refs/heads/main/scopes/stay22-scopes.yml
+source_yaml_url: https://artifacts.apis.io/stay22/scopes/stay22-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Travel
-- Affiliate
+- TravelTech
+- AffiliateMarketing
 - SaaS
-- Monetization
-- API
+- Events
+- Maps
 token_bound: false
 token_urls: []
 ---

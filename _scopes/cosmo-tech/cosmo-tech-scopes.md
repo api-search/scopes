@@ -5,43 +5,43 @@ api_specs:
   label: Cosmo Tech Dataset API
   slug: cosmo-tech-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-dataset-api-openapi.yml
 - filename: cosmo-tech-meta-api-openapi.yml
   format: yaml
   label: Cosmo Tech Meta API
   slug: cosmo-tech-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-meta-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-meta-api-openapi.yml
 - filename: cosmo-tech-organization-api-openapi.yml
   format: yaml
   label: Cosmo Tech Organization API
   slug: cosmo-tech-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-organization-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-organization-api-openapi.yml
 - filename: cosmo-tech-run-api-openapi.yml
   format: yaml
   label: Cosmo Tech Run API
   slug: cosmo-tech-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-run-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-run-api-openapi.yml
 - filename: cosmo-tech-runner-api-openapi.yml
   format: yaml
   label: Cosmo Tech Runner API
   slug: cosmo-tech-runner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-runner-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-runner-api-openapi.yml
 - filename: cosmo-tech-solution-api-openapi.yml
   format: yaml
   label: Cosmo Tech Solution API
   slug: cosmo-tech-solution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-solution-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-solution-api-openapi.yml
 - filename: cosmo-tech-workspace-api-openapi.yml
   format: yaml
   label: Cosmo Tech Workspace API
   slug: cosmo-tech-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/openapi/cosmo-tech-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/cosmo-tech/openapi/cosmo-tech-workspace-api-openapi.yml
 authorization_urls:
 - https://example.com/authorize
 description: ''
@@ -123,7 +123,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/cosmo-tech-dataset-api-openapi.yml, openapi/cosmo-tech-meta-api-openapi.yml,\n  openapi/cosmo-tech-organization-api-openapi.yml, openapi/cosmo-tech-run-api-openapi.yml, openapi/cosmo-tech-runner-api-openapi.yml,\n  openapi/cosmo-tech-solution-api-openapi.yml, openapi/cosmo-tech-workspace-api-openapi.yml\nschemes:\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-dataset-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-meta-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-organization-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n\
   \    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-run-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-runner-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-solution-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\n- name: oAuth2AuthCode\n  source: openapi/cosmo-tech-workspace-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
   \ https://example.com/authorize\n    tokenUrl: https://example.com/token\n  description: OAuth2 authentication\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/scopes/cosmo-tech-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cosmo-tech/scopes/cosmo-tech-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

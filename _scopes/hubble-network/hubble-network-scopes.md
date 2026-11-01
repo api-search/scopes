@@ -5,49 +5,49 @@ api_specs:
   label: Hubble Network API Keys API
   slug: hubble-network-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-api-keys-api-openapi.yml
 - filename: hubble-network-billing-api-openapi.yml
   format: yaml
   label: Hubble Network Billing API
   slug: hubble-network-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-billing-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-billing-api-openapi.yml
 - filename: hubble-network-devices-api-openapi.yml
   format: yaml
   label: Hubble Network Devices API
   slug: hubble-network-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-devices-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-devices-api-openapi.yml
 - filename: hubble-network-organizations-api-openapi.yml
   format: yaml
   label: Hubble Network Organizations API
   slug: hubble-network-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-organizations-api-openapi.yml
 - filename: hubble-network-packet-webhooks-api-openapi.yml
   format: yaml
   label: Hubble Network Packet Webhooks API
   slug: hubble-network-packet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-packet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-packet-webhooks-api-openapi.yml
 - filename: hubble-network-packets-api-openapi.yml
   format: yaml
   label: Hubble Network Packets API
   slug: hubble-network-packets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-packets-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-packets-api-openapi.yml
 - filename: hubble-network-platform-metrics-api-openapi.yml
   format: yaml
   label: Hubble Network Platform Metrics API
   slug: hubble-network-platform-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-platform-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-platform-metrics-api-openapi.yml
 - filename: hubble-network-satellite-api-openapi.yml
   format: yaml
   label: Hubble Network Satellite API
   slug: hubble-network-satellite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/openapi/hubble-network-satellite-api-openapi.yml
+  url: https://artifacts.apis.io/hubble-network/openapi/hubble-network-satellite-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://hubble.com/docs/api-specification/hubble-platform-api
@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: openapi/hubble-
   \ write\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n  - https://hubble.com/docs/api-specification/hubble-platform-api\n- scope: read-devices\n  description: View device information and status\n  access: read\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n  - https://hubble.com/docs/api-specification/hubble-platform-api\n- scope: write-devices\n  description: Register and manage devices\n  access: write\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n  - https://hubble.com/docs/api-specification/hubble-platform-api\n- scope: read-invitations\n  description: View pending invitations\n  access: read\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n  - https://hubble.com/docs/api-specification/hubble-platform-api\n- scope: write-invitations\n  description: Create and revoke user invitations\n  access: write\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n  - https://hubble.com/docs/api-specification/hubble-platform-api\n\
   - scope: read-packets\n  description: Access packet data and retrieval endpoints\n  access: read\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n  - https://hubble.com/docs/api-specification/hubble-platform-api\n- scope: read-platform-metrics\n  description: View platform metrics and analytics\n  access: read\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n  - https://hubble.com/docs/api-specification/hubble-platform-api\n- scope: read-billing-usage\n  description: View billing usage information\n  access: read\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n  - https://hubble.com/docs/api-specification/hubble-platform-api\n- scope: read-billing-invoices\n  description: View billing invoices\n  access: read\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n  - https://hubble.com/docs/api-specification/hubble-platform-api\n- scope: read-webhooks\n  description: View webhook configurations\n  access: read\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n\
   \  - https://hubble.com/docs/api-specification/hubble-platform-api\n- scope: write-webhooks\n  description: Create and manage webhook endpoints\n  access: write\n  sources:\n  - openapi/hubble-network-platform-openapi.yml\n  - https://hubble.com/docs/api-specification/hubble-platform-api\nexample_combinations:\n- name: Read-only\n  scopes:\n  - read-api-keys\n  - read-users\n  - read-devices\n- name: Device management\n  scopes:\n  - read-devices\n  - write-devices\n- name: User management\n  scopes:\n  - read-users\n  - write-users\n  - read-invitations\n  - write-invitations\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hubble-network/refs/heads/main/scopes/hubble-network-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hubble-network/scopes/hubble-network-scopes.yml
 summary_line: 16 scopes
 tags:
 - Company

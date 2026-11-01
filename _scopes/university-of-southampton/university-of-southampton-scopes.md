@@ -5,31 +5,31 @@ api_specs:
   label: University of Southampton Catalogue API
   slug: university-of-southampton-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-catalogue-api-openapi.yml
 - filename: university-of-southampton-datasets-api-openapi.yml
   format: yaml
   label: University of Southampton Datasets API
   slug: university-of-southampton-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-datasets-api-openapi.yml
 - filename: university-of-southampton-eprints-api-openapi.yml
   format: yaml
   label: University of Southampton Eprints API
   slug: university-of-southampton-eprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-eprints-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-eprints-api-openapi.yml
 - filename: university-of-southampton-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Southampton OAI PMH API
   slug: university-of-southampton-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-oai-pmh-api-openapi.yml
 - filename: university-of-southampton-resources-api-openapi.yml
   format: yaml
   label: University of Southampton Resources API
   slug: university-of-southampton-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/openapi/university-of-southampton-resources-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-southampton/openapi/university-of-southampton-resources-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -58,7 +58,7 @@ source_yaml: "---\ngenerated: '2026-08-30'\nmethod: probed\nsource: >-\n  Access
   \   Open harvesting. The repository's metadataPolicy grants free re-use of metadata for\n    not-for-profit purposes with attribution; its dataPolicy permits transient harvesting of full\n    items but requires permission for permanent harvesting and forbids commercial resale. That is\n    a licence boundary, not a technical scope — it is not enforced by the endpoint.\n  policy_boundaries:\n  - Metadata: free re-use, any medium, attribution via OAI identifier.\n  - Full items: transient robot harvesting permitted; permanent harvesting requires permission.\n  - Full items: commercial resale prohibited without formal permission of copyright holders.\n\n- surface: ePrints Soton REST\n  x-operator: institution\n  model: anonymous_open\n  scopes: []\n  detail: Open read of the eprint, user and subject datasets. No write surface is exposed.\n\n- surface: Shibboleth SAML Identity Provider\n  x-operator: institution\n  model: saml_attribute_release\n  scopes: []\n  detail: >-\n    Authorization\
   \ is expressed as SAML attribute release policy per registered service provider,\n    negotiated through the Jisc UK Access Management Federation, not as OAuth scopes. The\n    AttributeAuthorityDescriptor exposes SOAP AttributeQuery at\n    https://webauth.soton.ac.uk:8443/idp/profile/SAML2/SOAP/AttributeQuery. An application cannot\n    obtain an assertion or query attributes without first being registered in the federation, so\n    there is no self-service developer path.\n\n- surface: Elsevier Pure tenancy\n  x-operator: tenant\n  model: closed\n  scopes: []\n  detail: >-\n    Public web services return 403. Where Pure's REST API is enabled it is gated by an api-key\n    header, but that is Elsevier's model and it is switched off on this tenancy.\n\n- surface: Figshare tenancy\n  x-operator: tenant\n  model: vendor_managed\n  scopes: []\n  detail: >-\n    Figshare's own OAuth model applies; it is the vendor's authorization surface, not the\n    University's, and no Southampton-specific\
   \ scope set exists.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/scopes/university-of-southampton-scopes.yml
+source_yaml_url: https://artifacts.apis.io/university-of-southampton/scopes/university-of-southampton-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

@@ -59,7 +59,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://artofsport.com/.well-known/openid-configuration\nnote: >-\n  OAuth 2.0 / OIDC scopes are provided by the Shopify Customer Accounts authorization server exposed on\n  the Art of Sport storefront host (issuer https://shopify.com/authentication/26410184). These are\n  Shopify platform scopes for authenticated customer-account access, not a first-party Art of Sport API.\nschemes:\n- name: ShopifyCustomerAccounts\n  type: oauth2\n  source: well-known/artofsport-openid-configuration.json\n  issuer: https://shopify.com/authentication/26410184\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/26410184/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/26410184/oauth/token\n    pkce: S256\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token identifying the customer.\n  flows: [authorizationCode]\n- scope: email\n  description:\
   \ Access to the customer's email address and email_verified claim.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the signed-in customer.\n  flows: [authorizationCode]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API on behalf of the signed-in customer.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artofsport/refs/heads/main/scopes/artofsport-scopes.yml
+source_yaml_url: https://artifacts.apis.io/artofsport/scopes/artofsport-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

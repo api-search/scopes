@@ -5,85 +5,85 @@ api_specs:
   label: aedifion MQTT API
   slug: aedifion-mqtt-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/asyncapi/aedifion-mqtt-asyncapi.yml
+  url: https://artifacts.apis.io/aedifion/asyncapi/aedifion-mqtt-asyncapi.yml
 - filename: aedifion-ai-api-openapi.yml
   format: yaml
   label: Aedifion AI API
   slug: aedifion-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-ai-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-ai-api-openapi.yml
 - filename: aedifion-alert-api-openapi.yml
   format: yaml
   label: Aedifion Alert API
   slug: aedifion-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-alert-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-alert-api-openapi.yml
 - filename: aedifion-analytics-api-openapi.yml
   format: yaml
   label: Aedifion Analytics API
   slug: aedifion-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-analytics-api-openapi.yml
 - filename: aedifion-company-api-openapi.yml
   format: yaml
   label: Aedifion Company API
   slug: aedifion-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-company-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-company-api-openapi.yml
 - filename: aedifion-component-api-openapi.yml
   format: yaml
   label: Aedifion Component API
   slug: aedifion-component-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-component-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-component-api-openapi.yml
 - filename: aedifion-controls-api-openapi.yml
   format: yaml
   label: Aedifion Controls API
   slug: aedifion-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-controls-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-controls-api-openapi.yml
 - filename: aedifion-datapoint-api-openapi.yml
   format: yaml
   label: Aedifion Datapoint API
   slug: aedifion-datapoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-datapoint-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-datapoint-api-openapi.yml
 - filename: aedifion-meta-api-openapi.yml
   format: yaml
   label: Aedifion Meta API
   slug: aedifion-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-meta-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-meta-api-openapi.yml
 - filename: aedifion-project-api-openapi.yml
   format: yaml
   label: Aedifion Project API
   slug: aedifion-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-project-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-project-api-openapi.yml
 - filename: aedifion-realm-api-openapi.yml
   format: yaml
   label: Aedifion Realm API
   slug: aedifion-realm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-realm-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-realm-api-openapi.yml
 - filename: aedifion-task-api-openapi.yml
   format: yaml
   label: Aedifion Task API
   slug: aedifion-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-task-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-task-api-openapi.yml
 - filename: aedifion-user-api-openapi.yml
   format: yaml
   label: Aedifion User API
   slug: aedifion-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-user-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-user-api-openapi.yml
 - filename: aedifion-time-series-api-openapi.yml
   format: yaml
   label: Aedifion Time Series API
   slug: aedifion-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/openapi/aedifion-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/aedifion/openapi/aedifion-time-series-api-openapi.yml
 authorization_urls:
 - https://auth.aedifion.io/realms/aedifion/protocol/openid-connect/auth
 description: ''
@@ -187,7 +187,7 @@ source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: https://auth.aedi
   \  - flow: authorizationCode\n    authorizationUrl: https://auth.aedifion.io/realms/aedifion/protocol/openid-connect/auth\n    tokenUrl: https://auth.aedifion.io/realms/aedifion/protocol/openid-connect/token\n  - flow: password\n    tokenUrl: https://auth.aedifion.io/realms/aedifion/protocol/openid-connect/token\n  - flow: clientCredentials\n    tokenUrl: https://auth.aedifion.io/realms/aedifion/protocol/openid-connect/token\nscopes:\n- scope: openid\n  description: Use OpenID Connect (required). The only scope the OpenAPI itself declares.\n  flows: [implicit, authorizationCode]\n  sources: [openapi/aedifion-openapi.yml, well-known/aedifion-openid-configuration.json]\n- scope: profile\n  description: Basic profile claims (name, preferred_username, locale).\n  sources: [well-known/aedifion-openid-configuration.json]\n- scope: email\n  description: Email address and verification status.\n  sources: [well-known/aedifion-openid-configuration.json]\n- scope: address\n  description: Address\
   \ claim.\n  sources: [well-known/aedifion-openid-configuration.json]\n- scope: phone\n  description: Phone number claim.\n  sources: [well-known/aedifion-openid-configuration.json]\n- scope: roles\n  description: Realm and client role mappings, which carry the platform's RBAC assignments.\n  sources: [well-known/aedifion-openid-configuration.json]\n- scope: api\n  description: Access to the aedifion HTTP API as a resource.\n  sources: [well-known/aedifion-openid-configuration.json]\n- scope: offline_access\n  description: Issue a refresh token usable while the user is offline.\n  sources: [well-known/aedifion-openid-configuration.json]\n- scope: service_account\n  description: Client-credentials service account access.\n  sources: [well-known/aedifion-openid-configuration.json]\n- scope: basic\n  description: Keycloak basic scope (sub, auth_time claims).\n  sources: [well-known/aedifion-openid-configuration.json]\n- scope: acr\n  description: Authentication context class reference claim.\n\
   \  sources: [well-known/aedifion-openid-configuration.json]\n- scope: microprofile-jwt\n  description: MicroProfile JWT claims (upn, groups).\n  sources: [well-known/aedifion-openid-configuration.json]\n- scope: web-origins\n  description: CORS allowed origins claim.\n  sources: [well-known/aedifion-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aedifion/refs/heads/main/scopes/aedifion-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aedifion/scopes/aedifion-scopes.yml
 summary_line: 13 scopes · implicit/authorizationCode/password/clientCredentials
 tags:
 - Building Automation

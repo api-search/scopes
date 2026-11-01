@@ -5,67 +5,67 @@ api_specs:
   label: Monid API Keys API
   slug: monid-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-api-keys-api-openapi.yml
 - filename: monid-auth-api-openapi.yml
   format: yaml
   label: Monid Auth API
   slug: monid-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-auth-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-auth-api-openapi.yml
 - filename: monid-controls-api-openapi.yml
   format: yaml
   label: Monid Controls API
   slug: monid-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-controls-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-controls-api-openapi.yml
 - filename: monid-discover-api-openapi.yml
   format: yaml
   label: Monid Discover API
   slug: monid-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-discover-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-discover-api-openapi.yml
 - filename: monid-endpoints-api-openapi.yml
   format: yaml
   label: Monid Endpoints API
   slug: monid-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-endpoints-api-openapi.yml
 - filename: monid-inspect-api-openapi.yml
   format: yaml
   label: Monid Inspect API
   slug: monid-inspect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-inspect-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-inspect-api-openapi.yml
 - filename: monid-public-registry-api-openapi.yml
   format: yaml
   label: Monid Public Registry API
   slug: monid-public-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-public-registry-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-public-registry-api-openapi.yml
 - filename: monid-resources-api-openapi.yml
   format: yaml
   label: Monid Resources API
   slug: monid-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-resources-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-resources-api-openapi.yml
 - filename: monid-runs-api-openapi.yml
   format: yaml
   label: Monid Runs API
   slug: monid-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-runs-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-runs-api-openapi.yml
 - filename: monid-wallet-api-openapi.yml
   format: yaml
   label: Monid Wallet API
   slug: monid-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-wallet-api-openapi.yml
 - filename: monid-identities-api-openapi.yml
   format: yaml
   label: Monid Identities API
   slug: monid-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/openapi/monid-identities-api-openapi.yml
+  url: https://artifacts.apis.io/monid/openapi/monid-identities-api-openapi.yml
 authorization_urls:
 - https://clerk.app.monid.ai/oauth/authorize
 description: ''
@@ -133,7 +133,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://api.monid.ai/.well-known/openid-configuration\ndocs: https://monid.ai/docs/integrations/oauth.md\nschemes:\n- name: OAuth2\n  type: oauth2\n  provider: Clerk (clerk.app.monid.ai)\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://clerk.app.monid.ai/oauth/authorize\n    tokenUrl: https://clerk.app.monid.ai/oauth/token\n    revocationUrl: https://clerk.app.monid.ai/oauth/token/revoke\n    refreshSupported: true\n    pkce: S256\n  resource: https://api.monid.ai/v1\nscopes:\n- scope: openid\n  description: Required for OIDC. Enables ID tokens.\n  flows: [authorizationCode]\n- scope: profile\n  description: User's name and profile info.\n  flows: [authorizationCode]\n- scope: email\n  description: User's email address.\n  flows: [authorizationCode]\n- scope: offline_access\n  description: Return a refresh token so you can act while the user is offline.\n  flows: [authorizationCode]\n- scope: \"user:org:read\"\
   \n  description: Read the user's organizations and workspaces.\n  flows: [authorizationCode]\nnotes: >-\n  The OpenAPI declares only an HTTP bearer scheme (Monid API key `monid_live_...`\n  or a Clerk-issued JWT). OAuth 2.0 scoped access is documented separately and\n  advertised via the anonymous /.well-known/ discovery documents; agents obtain\n  a user-delegated access token with these scopes to act on the user's own\n  workspace. Authorization requests must include resource=https://api.monid.ai/v1.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/scopes/monid-scopes.yml
+source_yaml_url: https://artifacts.apis.io/monid/scopes/monid-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Company

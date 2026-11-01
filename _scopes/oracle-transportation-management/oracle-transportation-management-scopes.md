@@ -5,25 +5,25 @@ api_specs:
   label: Oracle Transportation Management Carriers API
   slug: oracle-transportation-management-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-transportation-management/openapi/oracle-transportation-management-carriers-api-openapi.yml
 - filename: oracle-transportation-management-locations-api-openapi.yml
   format: yaml
   label: Oracle Transportation Management Locations API
   slug: oracle-transportation-management-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-locations-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-transportation-management/openapi/oracle-transportation-management-locations-api-openapi.yml
 - filename: oracle-transportation-management-rates-api-openapi.yml
   format: yaml
   label: Oracle Transportation Management Rates API
   slug: oracle-transportation-management-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-rates-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-transportation-management/openapi/oracle-transportation-management-rates-api-openapi.yml
 - filename: oracle-transportation-management-shipment-orders-api-openapi.yml
   format: yaml
   label: Oracle Transportation Management Shipment Orders API
   slug: oracle-transportation-management-shipment-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-shipment-orders-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-transportation-management/openapi/oracle-transportation-management-shipment-orders-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -68,7 +68,7 @@ source_filename: oracle-transportation-management-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/oracle-otm-business-objects-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/oracle-otm-business-objects-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.oracle.com/oauth2/v1/token\nscopes:\n- scope: otm.read\n  description: Read OTM data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/oracle-otm-business-objects-openapi.yml\n- scope: otm.write\n  description: Write OTM data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/oracle-otm-business-objects-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/scopes/oracle-transportation-management-scopes.yml
+source_yaml_url: https://artifacts.apis.io/oracle-transportation-management/scopes/oracle-transportation-management-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Logistics

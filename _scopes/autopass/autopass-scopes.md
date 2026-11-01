@@ -5,19 +5,19 @@ api_specs:
   label: Autopass Locations API
   slug: autopass-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/openapi/autopass-locations-api-openapi.yml
+  url: https://artifacts.apis.io/autopass/openapi/autopass-locations-api-openapi.yml
 - filename: autopass-orders-api-openapi.yml
   format: yaml
   label: Autopass Orders API
   slug: autopass-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/openapi/autopass-orders-api-openapi.yml
+  url: https://artifacts.apis.io/autopass/openapi/autopass-orders-api-openapi.yml
 - filename: autopass-sessions-api-openapi.yml
   format: yaml
   label: Autopass Sessions API
   slug: autopass-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/openapi/autopass-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/autopass/openapi/autopass-sessions-api-openapi.yml
 authorization_urls:
 - https://api.autopass.xyz/oauth/authorize
 description: ''
@@ -63,7 +63,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://api.autopass.xyz/.well-known/openid-configuration\nschemes:\n  - name: autopassOAuth\n    source: https://api.autopass.xyz/.well-known/openid-configuration\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://api.autopass.xyz/oauth/authorize\n        tokenUrl: https://api.autopass.xyz/oauth/token\n      - flow: clientCredentials\n        tokenUrl: https://api.autopass.xyz/oauth/token\nscopes:\n  - scope: openid\n    description: >-\n      OpenID Connect authentication. Grants identity claims (sub, email, email_verified,\n      phone_number, phone_number_verified) via the userinfo endpoint and ID token.\n    flows: [authorizationCode]\n    sources: [https://api.autopass.xyz/.well-known/openid-configuration]\nnotes: >-\n  scopes_supported in the published OIDC discovery lists only \"openid\". Autopass does not\n  document additional resource scopes; partner authorization to the /pois, /site-sessions\n\
   \  and /orders resources is governed at the client/partner level rather than by OAuth scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/scopes/autopass-scopes.yml
+source_yaml_url: https://artifacts.apis.io/autopass/scopes/autopass-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:
 - Company

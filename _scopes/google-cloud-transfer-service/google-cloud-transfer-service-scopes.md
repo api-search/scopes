@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud Transfer Service TransferJobs API
   slug: google-cloud-transfer-service-transferjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-transferjobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-transferjobs-api-openapi.yml
 - filename: google-cloud-transfer-service-transferoperations-api-openapi.yml
   format: yaml
   label: Google Cloud Transfer Service TransferOperations API
   slug: google-cloud-transfer-service-transferoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-transferoperations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-transferoperations-api-openapi.yml
 - filename: google-cloud-transfer-service-agent-pools-api-openapi.yml
   format: yaml
   label: Google Cloud Transfer Service Agent Pools API
   slug: google-cloud-transfer-service-agent-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-agent-pools-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-agent-pools-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -59,7 +59,7 @@ source_filename: google-cloud-transfer-service-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/storage-transfer-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/storage-transfer-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud resources\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/storage-transfer-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/scopes/google-cloud-transfer-service-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-transfer-service/scopes/google-cloud-transfer-service-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Microsoft Azure

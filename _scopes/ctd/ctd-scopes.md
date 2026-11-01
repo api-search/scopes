@@ -34,7 +34,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://app.ctd.ai/.well-known/oauth-authorization-server + https://ctd.ai/integrations-mcp\ndocs: https://ctd.ai/integrations-mcp\noauth: true\nauthorization_server: https://app.ctd.ai/users-api\nflows:\n- authorization_code\npkce: S256\nscopes:\n- name: read\n  description: >-\n    Read access to your relationship graph — look up people and companies, resolve\n    warm paths to a target, natural-language path search, list ghost emails and the\n    activity feed, and see recent job changes across your network.\n- name: write\n  description: >-\n    Write access — create and send ghost emails, update path stages, run approver\n    actions (share/decline), and add or remove path participants.\nnotes: >-\n  read and write are the only scopes advertised by the OAuth authorization-server\n  metadata (scopes_supported). Scope descriptions are mapped from the documented\n  REST/MCP operation surface (GET operations = read; POST/PATCH\
   \ operations = write).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/scopes/ctd-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ctd/scopes/ctd-scopes.yml
 summary_line: 2 scopes · authorization_code
 tags:
 - Company

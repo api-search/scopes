@@ -5,31 +5,31 @@ api_specs:
   label: IBISWorld Business Environment API
   slug: ibisworld-business-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-business-environment-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-business-environment-api-openapi.yml
 - filename: ibisworld-classification-api-openapi.yml
   format: yaml
   label: IBISWorld Classification API
   slug: ibisworld-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-classification-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-classification-api-openapi.yml
 - filename: ibisworld-company-api-openapi.yml
   format: yaml
   label: IBISWorld Company API
   slug: ibisworld-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-company-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-company-api-openapi.yml
 - filename: ibisworld-downloads-api-openapi.yml
   format: yaml
   label: IBISWorld Downloads API
   slug: ibisworld-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-downloads-api-openapi.yml
 - filename: ibisworld-industry-api-openapi.yml
   format: yaml
   label: IBISWorld Industry API
   slug: ibisworld-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-industry-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-industry-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -90,7 +90,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/ibisworld-business-environment-api-openapi.yml, openapi/ibisworld-classification-api-openapi.yml,\n  openapi/ibisworld-company-api-openapi.yml, openapi/ibisworld-downloads-api-openapi.yml, openapi/ibisworld-industry-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/ibisworld-business-environment-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ibisworld.com/oauth/token\n  description: OAuth 2.0 bearer token authentication.\n- name: OAuth2\n  source: openapi/ibisworld-classification-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ibisworld.com/oauth/token\n  description: OAuth 2.0 bearer token authentication.\n- name: OAuth2\n  source: openapi/ibisworld-company-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ibisworld.com/oauth/token\n  description: OAuth 2.0 bearer token authentication.\n- name: OAuth2\n  source:\
   \ openapi/ibisworld-downloads-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ibisworld.com/oauth/token\n  description: OAuth 2.0 bearer token authentication.\n- name: OAuth2\n  source: openapi/ibisworld-industry-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.ibisworld.com/oauth/token\n  description: OAuth 2.0 bearer token authentication.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/scopes/ibisworld-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ibisworld/scopes/ibisworld-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Business Intelligence

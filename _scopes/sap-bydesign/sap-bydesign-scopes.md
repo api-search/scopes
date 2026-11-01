@@ -5,49 +5,49 @@ api_specs:
   label: SAP Business ByDesign Analytics API
   slug: sap-bydesign-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-analytics-api-openapi.yml
 - filename: sap-bydesign-crm-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign CRM API
   slug: sap-bydesign-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-crm-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-crm-api-openapi.yml
 - filename: sap-bydesign-financials-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Financials API
   slug: sap-bydesign-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-financials-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-financials-api-openapi.yml
 - filename: sap-bydesign-master-data-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Master Data API
   slug: sap-bydesign-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-master-data-api-openapi.yml
 - filename: sap-bydesign-procurement-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Procurement API
   slug: sap-bydesign-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-procurement-api-openapi.yml
 - filename: sap-bydesign-projects-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Projects API
   slug: sap-bydesign-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-projects-api-openapi.yml
 - filename: sap-bydesign-sales-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Sales API
   slug: sap-bydesign-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-sales-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-sales-api-openapi.yml
 - filename: sap-bydesign-supply-chain-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Supply Chain API
   slug: sap-bydesign-supply-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-supply-chain-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-supply-chain-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/35b-Multi-Tenancy-Provisioning-Connect-ByD.md
@@ -92,7 +92,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/sap-bydesign-odata-api.json\ndocs: https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/35b-Multi-Tenancy-Provisioning-Connect-ByD.md\nschemes:\n- name: oAuth2\n  source: openapi/sap-bydesign-odata-api.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.bydesign.cloud.sap/sap/bc/sec/oauth2/token\n  - flow: saml2Bearer\n    tokenUrl: https://{tenant}.bydesign.cloud.sap/sap/bc/sec/oauth2/token\n    description: OAuth 2.0 SAML Bearer assertion flow used for principal propagation\n      from SAP BTP and side-by-side extensions into SAP Business ByDesign.\n  description: OAuth 2.0 authentication for SAP Business ByDesign.\nnote: SAP Business ByDesign does not publish a full OAuth scopes catalog; scopes\n  are tenant-specific work center IDs granted to an OAuth 2.0 client registration\n  in the \"Application and User Management - OAuth 2.0 Client Registration\" work center\n\
   \  view, and UIWC:CC_HOME is the only scope ID documented publicly by SAP (see docs\n  URL).\nscopes:\n- scope: UIWC:CC_HOME\n  description: Home work center scope. SAP's official guidance states selecting scope\n    ID UIWC:CC_HOME \"is sufficient for most use cases\"; effective access to OData\n    services is determined by the work centers assigned to the OAuth client and the\n    propagated business user's authorizations.\n  sources:\n  - https://github.com/SAP-samples/partner-reference-application/blob/main/Tutorials/35b-Multi-Tenancy-Provisioning-Connect-ByD.md\n  - https://github.com/SAP-samples/sme-partner-reference-application/blob/main/Tutorials/04-ByD-Integration.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/scopes/sap-bydesign-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sap-bydesign/scopes/sap-bydesign-scopes.yml
 summary_line: 1 scope · clientCredentials/saml2Bearer
 tags:
 - ERP

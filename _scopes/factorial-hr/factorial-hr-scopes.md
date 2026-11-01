@@ -5,19 +5,19 @@ api_specs:
   label: Factorial Core::Employees::V2 API
   slug: factorial-hr-core-employees-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-employees-v2-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-core-employees-v2-api-openapi.yml
 - filename: factorial-hr-core-me-api-openapi.yml
   format: yaml
   label: Factorial Core::Me API
   slug: factorial-hr-core-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-core-me-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-core-me-api-openapi.yml
 - filename: factorial-hr-resources-api-openapi.yml
   format: yaml
   label: Factorial Resources API
   slug: factorial-hr-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/openapi/factorial-hr-resources-api-openapi.yml
+  url: https://artifacts.apis.io/factorial-hr/openapi/factorial-hr-resources-api-openapi.yml
 authorization_urls:
 - /oauth/authorize
 description: ''
@@ -64,7 +64,7 @@ source_filename: factorial-hr-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/factorial-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/factorial-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /oauth/authorize\n    tokenUrl: /oauth/token\nscopes:\n- scope: read\n  description: Required for all operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/factorial-openapi.yml\n- scope: write\n  description: Required for write operations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/factorial-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/scopes/factorial-hr-scopes.yml
+source_yaml_url: https://artifacts.apis.io/factorial-hr/scopes/factorial-hr-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Human Resources

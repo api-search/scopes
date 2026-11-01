@@ -5,49 +5,49 @@ api_specs:
   label: Nexthink Campaigns API
   slug: nexthink-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-campaigns-api-openapi.yml
 - filename: nexthink-device-deletions-api-openapi.yml
   format: yaml
   label: Nexthink Device Deletions API
   slug: nexthink-device-deletions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-device-deletions-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-device-deletions-api-openapi.yml
 - filename: nexthink-enrichment-api-openapi.yml
   format: yaml
   label: Nexthink Enrichment API
   slug: nexthink-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-enrichment-api-openapi.yml
 - filename: nexthink-execute-api-openapi.yml
   format: yaml
   label: Nexthink Execute API
   slug: nexthink-execute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-execute-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-execute-api-openapi.yml
 - filename: nexthink-export-api-openapi.yml
   format: yaml
   label: Nexthink Export API
   slug: nexthink-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-export-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-export-api-openapi.yml
 - filename: nexthink-handoff-api-api-openapi.yml
   format: yaml
   label: Nexthink Handoff API
   slug: nexthink-handoff-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-handoff-api-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-handoff-api-api-openapi.yml
 - filename: nexthink-remote-actions-api-openapi.yml
   format: yaml
   label: Nexthink Remote actions API
   slug: nexthink-remote-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-remote-actions-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-remote-actions-api-openapi.yml
 - filename: nexthink-workflows-api-openapi.yml
   format: yaml
   label: Nexthink Workflows API
   slug: nexthink-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-workflows-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.nexthink.com/api/getting-authentication-token
@@ -89,7 +89,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/nexthink-workflows-openapi.json\ndocs: https://docs.nexthink.com/api/getting-authentication-token\nschemes:\n- name: publicApiAuth\n  type: oauth2\n  source: openapi/nexthink-workflows-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{instance}-login.{region}.nexthink.cloud/oauth2/default/v1/token\nscopes:\n- scope: 'service:integration'\n  description: >-\n    Grant used for the OAuth 2.0 client-credentials token request that authorizes\n    an external integration to call the Nexthink public APIs. Passed as the\n    `scope` form field on the token endpoint. Feature-level access (Remote\n    Actions, Enrichment, Data Management, Workflows, Campaigns, NQL, Spark) is\n    controlled by the permissions selected when the OAuth client credential is\n    created in the Nexthink web interface, not by additional OAuth scopes.\n  flows: [clientCredentials]\n  sources: [docs.nexthink.com/api/getting-authentication-token]\n\
   notes: >-\n  Nexthink issues a single documented OAuth scope (service:integration). Fine-grained\n  authorization is enforced through per-credential API permissions (checkboxes in\n  Administration > API credentials), so the scope surface is intentionally flat.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/scopes/nexthink-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nexthink/scopes/nexthink-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Company

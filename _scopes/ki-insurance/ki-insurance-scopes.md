@@ -5,109 +5,109 @@ api_specs:
   label: Ki Insurance Administration API
   slug: ki-insurance-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-administration-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-administration-api-openapi.yml
 - filename: ki-insurance-broking-houses-api-openapi.yml
   format: yaml
   label: Ki Insurance Broking Houses API
   slug: ki-insurance-broking-houses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-broking-houses-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-broking-houses-api-openapi.yml
 - filename: ki-insurance-classes-of-business-api-openapi.yml
   format: yaml
   label: Ki Insurance Classes of Business API
   slug: ki-insurance-classes-of-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-classes-of-business-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-classes-of-business-api-openapi.yml
 - filename: ki-insurance-configuration-api-openapi.yml
   format: yaml
   label: Ki Insurance Configuration API
   slug: ki-insurance-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-configuration-api-openapi.yml
 - filename: ki-insurance-dashboard-api-openapi.yml
   format: yaml
   label: Ki Insurance Dashboard API
   slug: ki-insurance-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-dashboard-api-openapi.yml
 - filename: ki-insurance-facilities-api-openapi.yml
   format: yaml
   label: Ki Insurance Facilities API
   slug: ki-insurance-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-facilities-api-openapi.yml
 - filename: ki-insurance-indications-api-openapi.yml
   format: yaml
   label: Ki Insurance Indications API
   slug: ki-insurance-indications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-indications-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-indications-api-openapi.yml
 - filename: ki-insurance-leads-api-openapi.yml
   format: yaml
   label: Ki Insurance Leads API
   slug: ki-insurance-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-leads-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-leads-api-openapi.yml
 - filename: ki-insurance-market-leaders-api-openapi.yml
   format: yaml
   label: Ki Insurance Market Leaders API
   slug: ki-insurance-market-leaders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-market-leaders-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-market-leaders-api-openapi.yml
 - filename: ki-insurance-master-data-api-openapi.yml
   format: yaml
   label: Ki Insurance Master Data API
   slug: ki-insurance-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-master-data-api-openapi.yml
 - filename: ki-insurance-pipeline-api-openapi.yml
   format: yaml
   label: Ki Insurance Pipeline API
   slug: ki-insurance-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-pipeline-api-openapi.yml
 - filename: ki-insurance-quotes-api-openapi.yml
   format: yaml
   label: Ki Insurance Quotes API
   slug: ki-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-quotes-api-openapi.yml
 - filename: ki-insurance-risk-codes-api-openapi.yml
   format: yaml
   label: Ki Insurance Risk Codes API
   slug: ki-insurance-risk-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-risk-codes-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-risk-codes-api-openapi.yml
 - filename: ki-insurance-schedule-of-values-api-openapi.yml
   format: yaml
   label: Ki Insurance Schedule of Values API
   slug: ki-insurance-schedule-of-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-schedule-of-values-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-schedule-of-values-api-openapi.yml
 - filename: ki-insurance-slip-extraction-api-openapi.yml
   format: yaml
   label: Ki Insurance Slip Extraction API
   slug: ki-insurance-slip-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-slip-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-slip-extraction-api-openapi.yml
 - filename: ki-insurance-support-api-openapi.yml
   format: yaml
   label: Ki Insurance Support API
   slug: ki-insurance-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-support-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-support-api-openapi.yml
 - filename: ki-insurance-telemetry-api-openapi.yml
   format: yaml
   label: Ki Insurance Telemetry API
   slug: ki-insurance-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-telemetry-api-openapi.yml
 - filename: ki-insurance-users-api-openapi.yml
   format: yaml
   label: Ki Insurance Users API
   slug: ki-insurance-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/openapi/ki-insurance-users-api-openapi.yml
+  url: https://artifacts.apis.io/ki-insurance/openapi/ki-insurance-users-api-openapi.yml
 authorization_urls:
 - https://login.ki-insurance.com/authorize
 description: ''
@@ -219,7 +219,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: https://login.k
   \ Standard OIDC scope — phone_number claim.\n  flows: [authorizationCode]\n  sources: [https://login.ki-insurance.com/.well-known/openid-configuration]\n- scope: name\n  description: Auth0 profile sub-scope — name claim.\n  flows: [authorizationCode]\n  sources: [https://login.ki-insurance.com/.well-known/openid-configuration]\n- scope: given_name\n  description: Auth0 profile sub-scope — given_name claim.\n  flows: [authorizationCode]\n  sources: [https://login.ki-insurance.com/.well-known/openid-configuration]\n- scope: family_name\n  description: Auth0 profile sub-scope — family_name claim.\n  flows: [authorizationCode]\n  sources: [https://login.ki-insurance.com/.well-known/openid-configuration]\n- scope: nickname\n  description: Auth0 profile sub-scope — nickname claim.\n  flows: [authorizationCode]\n  sources: [https://login.ki-insurance.com/.well-known/openid-configuration]\n- scope: picture\n  description: Auth0 profile sub-scope — picture claim.\n  flows: [authorizationCode]\n\
   \  sources: [https://login.ki-insurance.com/.well-known/openid-configuration]\n- scope: email_verified\n  description: Auth0 profile sub-scope — email_verified claim.\n  flows: [authorizationCode]\n  sources: [https://login.ki-insurance.com/.well-known/openid-configuration]\n- scope: created_at\n  description: Auth0 profile sub-scope — created_at claim.\n  flows: [authorizationCode]\n  sources: [https://login.ki-insurance.com/.well-known/openid-configuration]\n- scope: identities\n  description: Auth0 profile sub-scope — linked identities claim.\n  flows: [authorizationCode]\n  sources: [https://login.ki-insurance.com/.well-known/openid-configuration]\nauthorization_model:\n  note: >-\n    Authorisation inside the Ki platform is role- and entitlement-based rather\n    than scope-based. The client bundle carries an admin surface\n    (/api/system/admin/*, /api/maxlinesizes, bulk user management) and a\n    per-user class-of-business entitlement (/api/user/{userId}/selected-cobs),\n    which\
   \ implies server-side role checks — the 403 handling in the client\n    confirms it. None of that is published as OAuth scopes.\ngaps:\n- No Ki-specific API scopes are published.\n- No scope-to-operation mapping exists; do not infer one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/scopes/ki-insurance-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ki-insurance/scopes/ki-insurance-scopes.yml
 summary_line: 14 scopes · authorizationCode
 tags:
 - Insurance

@@ -5,7 +5,7 @@ api_specs:
   label: Amber Electric Amber API
   slug: amber-electric-amber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/openapi/amber-electric-amber-api-openapi.yml
+  url: https://artifacts.apis.io/amber-electric/openapi/amber-electric-amber-api-openapi.yml
 authorization_urls:
 - https://public.cdr.amber.com.au/connect/authorize
 description: ''
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: https://public.
   \  description: Basic customer identity — name or organisation name and customer type.\n  flows: [authorizationCode]\n- scope: common:customer.detail:read\n  description: Detailed customer record including contact details and addresses.\n  flows: [authorizationCode]\n- scope: cdr:registration\n  description: Dynamic client registration management for an accredited data recipient's software product.\n  flows: [clientCredentials]\n- scope: admin:metrics.basic:read\n  description: Data-holder administration — read the CDR performance/availability metrics the standards require.\n  flows: [clientCredentials]\n- scope: admin:metadata:update\n  description: Data-holder administration — accept a metadata-update notification from the CDR Register.\n  flows: [clientCredentials]\n- scope: energy:electricity.servicepoints.basic:read\n  description: Basic electricity service point (NMI) records held for the consumer.\n  flows: [authorizationCode]\n- scope: energy:electricity.servicepoints.detail:read\n\
   \  description: Detailed service point records, including registered metering and network details.\n  flows: [authorizationCode]\n- scope: energy:electricity.usage:read\n  description: Interval-level electricity usage data for the consumer's service points.\n  flows: [authorizationCode]\n- scope: energy:electricity.der:read\n  description: Distributed energy resource records — solar, battery and inverter installation details.\n  flows: [authorizationCode]\n- scope: energy:accounts.basic:read\n  description: Basic energy account records held with the retailer.\n  flows: [authorizationCode]\n- scope: energy:accounts.detail:read\n  description: Detailed energy account records including plan and tariff detail.\n  flows: [authorizationCode]\n- scope: energy:accounts.paymentschedule:read\n  description: Payment schedules configured on the consumer's energy accounts.\n  flows: [authorizationCode]\n- scope: energy:accounts.concessions:read\n  description: Concessions and rebates applied to the\
   \ consumer's energy accounts.\n  flows: [authorizationCode]\n- scope: energy:billing:read\n  description: Billing and invoice history for the consumer's energy accounts.\n  flows: [authorizationCode]\nsummary:\n  scope_count: 16\n  energy_scopes: 9\n  common_scopes: 2\n  admin_scopes: 2\n  registration_scopes: 1\n  identity_scopes: 2\n  access_gate: accredited-only\n  note: >-\n    The presence of the complete energy cluster — service points, usage, DER,\n    accounts, payment schedule, concessions and billing — is the signature of a\n    full Consumer Data Standards energy build rather than a partial one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/scopes/amber-electric-scopes.yml
+source_yaml_url: https://artifacts.apis.io/amber-electric/scopes/amber-electric-scopes.yml
 summary_line: 16 scopes · authorizationCode/clientCredentials
 tags:
 - Energy

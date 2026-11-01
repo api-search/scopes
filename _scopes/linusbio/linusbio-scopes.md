@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: https://traced.life/.well-known/oauth-authorization-server\nnote: >-\n  Derived directly from the scopes_supported array of the RFC 8414 authorization server\n  metadata served on traced.life. LinusBio publishes no scope reference page; these are the\n  Shopify Customer Accounts scopes for the Traced storefront. No OpenAPI declaring oauth2\n  securitySchemes exists for this provider, so derive-oauth-scopes.py had no input.\nauthorization_server: https://shopify.com/authentication/70566805578\nprotected_resource: https://traced.life\nscope_count: 4\nscopes:\n- name: openid\n  description: Standard OIDC scope requesting an ID token for the authenticated customer.\n- name: email\n  description: Releases the email and email_verified claims for the authenticated customer.\n- name: customer-account-api:full\n  description: >-\n    Full access to the Shopify Customer Account API for the authenticated customer of the\n    traced.life\
   \ store (orders, addresses, profile).\n- name: customer-account-mcp-api:full\n  description: >-\n    Full access to the authenticated Customer Account MCP surface. This is a distinct,\n    credentialed MCP surface from the anonymous UCP commerce endpoint at\n    https://traced.life/api/ucp/mcp; its tool list was not probed because it requires\n    customer credentials.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linusbio/refs/heads/main/scopes/linusbio-scopes.yml
+source_yaml_url: https://artifacts.apis.io/linusbio/scopes/linusbio-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

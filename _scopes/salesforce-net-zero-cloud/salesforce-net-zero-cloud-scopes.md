@@ -5,43 +5,43 @@ api_specs:
   label: Salesforce Net Zero Cloud Carbon Emissions API
   slug: salesforce-net-zero-cloud-carbon-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-carbon-emissions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-carbon-emissions-api-openapi.yml
 - filename: salesforce-net-zero-cloud-emission-factors-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Emission Factors API
   slug: salesforce-net-zero-cloud-emission-factors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-emission-factors-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-emission-factors-api-openapi.yml
 - filename: salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Energy Consumption API
   slug: salesforce-net-zero-cloud-energy-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
 - filename: salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud ESG Reporting API
   slug: salesforce-net-zero-cloud-esg-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
 - filename: salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Sustainability Goals API
   slug: salesforce-net-zero-cloud-sustainability-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
 - filename: salesforce-net-zero-cloud-waste-management-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Waste Management API
   slug: salesforce-net-zero-cloud-waste-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-waste-management-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-waste-management-api-openapi.yml
 - filename: salesforce-net-zero-cloud-water-usage-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Water Usage API
   slug: salesforce-net-zero-cloud-water-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-water-usage-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-water-usage-api-openapi.yml
 authorization_urls:
 - https://login.salesforce.com/services/oauth2/authorize
 description: ''
@@ -83,7 +83,7 @@ source_filename: salesforce-net-zero-cloud-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/salesforce-net-zero-cloud-rest-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/salesforce-net-zero-cloud-rest-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.salesforce.com/services/oauth2/authorize\n    tokenUrl: https://login.salesforce.com/services/oauth2/token\nscopes:\n- scope: api\n  description: Access and manage your data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/salesforce-net-zero-cloud-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/scopes/salesforce-net-zero-cloud-scopes.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-net-zero-cloud/scopes/salesforce-net-zero-cloud-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Carbon Accounting

@@ -5,43 +5,43 @@ api_specs:
   label: BankVic Banking Account Balances API
   slug: bankvic-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bankvic/openapi/bankvic-banking-account-balances-api-openapi.yml
 - filename: bankvic-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: BankVic Banking Account Direct Debits API
   slug: bankvic-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bankvic/openapi/bankvic-banking-account-direct-debits-api-openapi.yml
 - filename: bankvic-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: BankVic Banking Account Scheduled Payments API
   slug: bankvic-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bankvic/openapi/bankvic-banking-account-scheduled-payments-api-openapi.yml
 - filename: bankvic-banking-account-transactions-api-openapi.yml
   format: yaml
   label: BankVic Banking Account Transactions API
   slug: bankvic-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bankvic/openapi/bankvic-banking-account-transactions-api-openapi.yml
 - filename: bankvic-banking-accounts-api-openapi.yml
   format: yaml
   label: BankVic Banking Accounts API
   slug: bankvic-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bankvic/openapi/bankvic-banking-accounts-api-openapi.yml
 - filename: bankvic-banking-payees-api-openapi.yml
   format: yaml
   label: BankVic Banking Payees API
   slug: bankvic-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bankvic/openapi/bankvic-banking-payees-api-openapi.yml
 - filename: bankvic-banking-products-api-openapi.yml
   format: yaml
   label: BankVic Banking Products API
   slug: bankvic-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/openapi/bankvic-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bankvic/openapi/bankvic-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/bankvic
   \    flows:\n      - flow: authorizationCode\n        note: >-\n          Authorization/token endpoints are published per Data Holder via the CDR\n          Register / holder OIDC discovery; BankVic acts as Data Holder. Tokens are\n          mTLS sender-constrained; consent is time-boxed and revocable.\nscopes:\n  - scope: openid\n    description: OIDC subject identifier; required to initiate a CDR authorisation.\n    flows: [authorizationCode]\n  - scope: profile\n    description: OIDC standard profile claims where consented.\n    flows: [authorizationCode]\n  - scope: bank:accounts.basic:read\n    description: Read basic account information (account list, type, balance summary).\n    operations: [listBankingAccounts, getBankingBalance, listBankingBalancesBulk, listBankingBalancesSpecificAccounts]\n    flows: [authorizationCode]\n  - scope: bank:accounts.detail:read\n    description: Read detailed account information (features, fees, account numbers).\n    operations: [getBankingAccountDetail]\n\
   \    flows: [authorizationCode]\n  - scope: bank:transactions:read\n    description: Read account transactions and transaction detail.\n    operations: [listBankingTransactions, getBankingTransactionDetail]\n    flows: [authorizationCode]\n  - scope: bank:regular_payments:read\n    description: Read direct debits, scheduled payments, and instalment plans.\n    operations: [listDirectDebits, listDirectDebitsBulk, listDirectDebitsSpecificAccounts, listScheduledPayments, listScheduledPaymentsBulk, listScheduledPaymentsSpecificAccounts, listInstalmentPlans, listInstalmentPlansBulk]\n    flows: [authorizationCode]\n  - scope: bank:payees:read\n    description: Read saved payees (domestic, biller, international).\n    operations: [listBankingPayees, getBankingPayeeDetail]\n    flows: [authorizationCode]\n  - scope: common:customer.basic:read\n    description: Read basic customer profile (name, occupation / organisation basics).\n    flows: [authorizationCode]\n  - scope: common:customer.detail:read\n\
   \    description: Read detailed customer profile (contact details, address).\n    flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankvic/refs/heads/main/scopes/bankvic-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bankvic/scopes/bankvic-scopes.yml
 summary_line: 9 scopes · authorizationCode
 tags:
 - Finance

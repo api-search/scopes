@@ -5,73 +5,73 @@ api_specs:
   label: Figma Files API
   slug: figma-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-files-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-files-api-openapi.yml
 - filename: figma-teams-api-openapi.yml
   format: yaml
   label: Figma Teams API
   slug: figma-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-teams-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-teams-api-openapi.yml
 - filename: figma-projects-api-openapi.yml
   format: yaml
   label: Figma Projects API
   slug: figma-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-projects-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-projects-api-openapi.yml
 - filename: figma-component-sets-api-openapi.yml
   format: yaml
   label: Figma Component Sets API
   slug: figma-component-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-component-sets-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-component-sets-api-openapi.yml
 - filename: figma-activity-logs-api-openapi.yml
   format: yaml
   label: Figma Activity Logs API
   slug: figma-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-activity-logs-api-openapi.yml
 - filename: figma-payments-api-openapi.yml
   format: yaml
   label: Figma Payments API
   slug: figma-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-payments-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-payments-api-openapi.yml
 - filename: figma-dev-resources-api-openapi.yml
   format: yaml
   label: Figma Dev Resources API
   slug: figma-dev-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-dev-resources-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-dev-resources-api-openapi.yml
 - filename: figma-comments-api-openapi.yml
   format: yaml
   label: Figma Comments API
   slug: figma-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-comments-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-comments-api-openapi.yml
 - filename: figma-components-api-openapi.yml
   format: yaml
   label: Figma Components API
   slug: figma-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-components-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-components-api-openapi.yml
 - filename: figma-keys-api-openapi.yml
   format: yaml
   label: Figma Keys API
   slug: figma-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-keys-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-keys-api-openapi.yml
 - filename: figma-library-analytics-api-openapi.yml
   format: yaml
   label: Figma Library Analytics API
   slug: figma-library-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-library-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-library-analytics-api-openapi.yml
 - filename: figma-users-api-openapi.yml
   format: yaml
   label: Figma Users API
   slug: figma-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/openapi/figma-users-api-openapi.yml
+  url: https://artifacts.apis.io/figma/openapi/figma-users-api-openapi.yml
 authorization_urls:
 - https://www.figma.com/oauth
 description: ''
@@ -224,7 +224,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/figma-ac
   - name: OAuth2\n  source: openapi/figma-me-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://www.figma.com/api/oauth/token\n- name: OAuth2\n  source: openapi/figma-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://www.figma.com/api/oauth/token\n- name: OAuth2\n  source: openapi/figma-rest-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://api.figma.com/v1/oauth/token\n  description: OAuth 2.0 authorization code flow for Figma. Applications must be registered\n    on the Figma developer portal.\n- name: OAuth2\n  source: openapi/figma-styles-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://www.figma.com/api/oauth/token\n- name: OAuth2\n  source: openapi/figma-teams-api-openapi.yml\n\
   \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://www.figma.com/api/oauth/token\nscopes:\n- scope: file_comments:write\n  description: Post and delete comments on files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-rest-api-openapi.yml\n- scope: file_dev_resources:read\n  description: Read dev resources on files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-rest-api-openapi.yml\n- scope: file_dev_resources:write\n  description: Write dev resources to files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-dev-resources-api-openapi.yml\n  - openapi/figma-files-api-openapi.yml\n  - openapi/figma-rest-api-openapi.yml\n- scope: file_variables:read\n  description: Read access to variables in files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-rest-api-openapi.yml\n- scope: file_variables:write\n  description: Write access to variables in files\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/figma-rest-api-openapi.yml\n- scope: files:read\n  description: Read files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-api-openapi.yml\n  - openapi/figma-component-sets-api-openapi.yml\n  - openapi/figma-files-api-openapi.yml\n  - openapi/figma-images-api-openapi.yml\n  - openapi/figma-me-api-openapi.yml\n  - openapi/figma-projects-api-openapi.yml\n  - openapi/figma-rest-api-openapi.yml\n  - openapi/figma-styles-api-openapi.yml\n  - openapi/figma-teams-api-openapi.yml\n- scope: library_analytics:read\n  description: Read library analytics\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-analytics-api-openapi.yml\n- scope: org:activity_log_read\n  description: Read organization activity logs\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-activity-logs-api-openapi.yml\n- scope: webhooks:write\n  description: Create and manage webhooks\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/figma-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/scopes/figma-scopes.yml
+source_yaml_url: https://artifacts.apis.io/figma/scopes/figma-scopes.yml
 summary_line: 9 scopes · authorizationCode
 tags:
 - Collaboration

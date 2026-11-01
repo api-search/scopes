@@ -5,97 +5,97 @@ api_specs:
   label: Goody Brands API
   slug: goody-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-brands-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-brands-api-openapi.yml
 - filename: goody-cards-api-openapi.yml
   format: yaml
   label: Goody Cards API
   slug: goody-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-cards-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-cards-api-openapi.yml
 - filename: goody-collections-api-openapi.yml
   format: yaml
   label: Goody Collections API
   slug: goody-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-collections-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-collections-api-openapi.yml
 - filename: goody-commerce-user-payment-methods-api-openapi.yml
   format: yaml
   label: Goody Commerce User Payment Methods API
   slug: goody-commerce-user-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-commerce-user-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-commerce-user-payment-methods-api-openapi.yml
 - filename: goody-me-api-openapi.yml
   format: yaml
   label: Goody Me API
   slug: goody-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-me-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-me-api-openapi.yml
 - filename: goody-order-activities-api-openapi.yml
   format: yaml
   label: Goody Order Activities API
   slug: goody-order-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-order-activities-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-order-activities-api-openapi.yml
 - filename: goody-order-batches-api-openapi.yml
   format: yaml
   label: Goody Order Batches API
   slug: goody-order-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-order-batches-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-order-batches-api-openapi.yml
 - filename: goody-orders-api-openapi.yml
   format: yaml
   label: Goody Orders API
   slug: goody-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-orders-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-orders-api-openapi.yml
 - filename: goody-payment-methods-api-openapi.yml
   format: yaml
   label: Goody Payment Methods API
   slug: goody-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-payment-methods-api-openapi.yml
 - filename: goody-products-api-openapi.yml
   format: yaml
   label: Goody Products API
   slug: goody-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-products-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-products-api-openapi.yml
 - filename: goody-webhooks-api-openapi.yml
   format: yaml
   label: Goody Webhooks API
   slug: goody-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-webhooks-api-openapi.yml
 - filename: goody-workspaces-api-openapi.yml
   format: yaml
   label: Goody Workspaces API
   slug: goody-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-workspaces-api-openapi.yml
 - filename: goody-categories-api-openapi.yml
   format: yaml
   label: Goody Categories API
   slug: goody-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-categories-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-categories-api-openapi.yml
 - filename: goody-gift-templates-api-openapi.yml
   format: yaml
   label: Goody Gift Templates API
   slug: goody-gift-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-gift-templates-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-gift-templates-api-openapi.yml
 - filename: goody-gifts-of-choice-api-openapi.yml
   format: yaml
   label: Goody Gifts of Choice API
   slug: goody-gifts-of-choice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-gifts-of-choice-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-gifts-of-choice-api-openapi.yml
 - filename: goody-shipping-countries-api-openapi.yml
   format: yaml
   label: Goody Shipping Countries API
   slug: goody-shipping-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/openapi/goody-shipping-countries-api-openapi.yml
+  url: https://artifacts.apis.io/goody/openapi/goody-shipping-countries-api-openapi.yml
 authorization_urls:
 - https://api.ongoody.com/oauth/authorize
 description: ''
@@ -154,7 +154,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: well-known/goody-oauth-authorization-server.json\ndocs: https://developer.ongoody.com/mcp/authentication\nschemes:\n- name: mcp_oauth2\n  source: well-known/goody-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.ongoody.com/oauth/authorize\n    tokenUrl: https://api.ongoody.com/oauth/token\n    pkce: S256\nscopes:\n- scope: mcp.read\n  description: >-\n    Read access via the MCP server / OAuth clients: list workspaces, search\n    the catalog and contacts, price and preview gifts, read orders.\n  flows: [authorizationCode]\n  sources: [well-known/goody-oauth-authorization-server.json]\n- scope: mcp.write\n  description: >-\n    Write access short of charging: create/update contacts and contact lists,\n    cancel orders, build previews, pause autogift rules, submit feedback.\n  flows: [authorizationCode]\n  sources: [well-known/goody-oauth-authorization-server.json]\n\
   - scope: mcp.gifts\n  description: >-\n    Send gifts / spend money: create an order batch (charges the payment\n    method) and create or activate autogift rules. Highest-consequence scope.\n  flows: [authorizationCode]\n  sources: [well-known/goody-oauth-authorization-server.json]\n- scope: chrome.write\n  description: >-\n    Scope used by Goody's browser extension / Chrome client integration.\n  flows: [authorizationCode]\n  sources: [well-known/goody-oauth-authorization-server.json]\nnotes: >-\n  The MCP permission model (Read / Write / Send gifts) maps directly onto the\n  three mcp.* scopes. The REST Commerce/Automation API itself uses a bearer\n  API key with no scope surface; these scopes govern the OAuth/MCP path only.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/scopes/goody-scopes.yml
+source_yaml_url: https://artifacts.apis.io/goody/scopes/goody-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

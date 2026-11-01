@@ -5,37 +5,37 @@ api_specs:
   label: TourRadar Bookings API
   slug: tourradar-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-bookings-api-openapi.yml
 - filename: tourradar-bulk-api-openapi.yml
   format: yaml
   label: TourRadar Bulk API
   slug: tourradar-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-bulk-api-openapi.yml
 - filename: tourradar-operators-api-openapi.yml
   format: yaml
   label: TourRadar Operators API
   slug: tourradar-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-operators-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-operators-api-openapi.yml
 - filename: tourradar-pricing-availability-api-openapi.yml
   format: yaml
   label: TourRadar Pricing & Availability API
   slug: tourradar-pricing-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-pricing-availability-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-pricing-availability-api-openapi.yml
 - filename: tourradar-taxonomy-api-openapi.yml
   format: yaml
   label: TourRadar Taxonomy API
   slug: tourradar-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-taxonomy-api-openapi.yml
 - filename: tourradar-tours-api-openapi.yml
   format: yaml
   label: TourRadar Tours API
   slug: tourradar-tours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/openapi/tourradar-tours-api-openapi.yml
+  url: https://artifacts.apis.io/tourradar/openapi/tourradar-tours-api-openapi.yml
 authorization_urls:
 - https://auth.tourradar.com/oauth2/authorize
 description: ''
@@ -170,7 +170,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://dashboard.api.b2b.tourradar.com/config.js\nnotes: >-\n  OAuth scope list published in the public config.js of the TourRadar partner\n  dashboard (dashboard.api.b2b.tourradar.com). Scopes follow an AWS Cognito\n  resource-server convention (com.tourradar.<resource>/<action>). Descriptions\n  below are mechanical readings of the scope identifier, not provider-authored\n  text. Notably, the com.tourradar.partners.openapi/read scope indicates an\n  OpenAPI definition is served to authenticated partners.\nschemes:\n  - name: TourRadarB2BOAuth\n    source: https://dashboard.api.b2b.tourradar.com/config.js\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://auth.tourradar.com/oauth2/authorize\n        tokenUrl: https://auth.tourradar.com/oauth2/token\nscopes:\n  - scope: com.tourradar.bookings.affiliate/read\n    description: Read affiliate bookings.\n  - scope: com.tourradar.bookings/read\n   \
   \ description: Read bookings.\n  - scope: com.tourradar.bookings/selfRead\n    description: Read the caller's own bookings.\n  - scope: com.tourradar.credentials/read\n    description: Read API credentials.\n  - scope: com.tourradar.credentials/write\n    description: Manage API credentials.\n  - scope: com.tourradar.operators/read\n    description: Read tour operator data.\n  - scope: com.tourradar.partners.apps/read\n    description: Read partner applications.\n  - scope: com.tourradar.partners.apps/write\n    description: Manage partner applications.\n  - scope: com.tourradar.partners.customizations/read\n    description: Read partner customizations.\n  - scope: com.tourradar.partners.customizations/write\n    description: Manage partner customizations.\n  - scope: com.tourradar.partners.domains/read\n    description: Read partner domains.\n  - scope: com.tourradar.partners.domains/write\n    description: Manage partner domains.\n  - scope: com.tourradar.partners.openapi/read\n    description:\
   \ Read the partner-facing OpenAPI definition.\n  - scope: com.tourradar.partners.payments.methods/read\n    description: Read partner payment methods.\n  - scope: com.tourradar.partners.payments.methods/write\n    description: Manage partner payment methods.\n  - scope: com.tourradar.partners.users/read\n    description: Read partner users.\n  - scope: com.tourradar.partners.users/selfWrite\n    description: Update the caller's own partner user profile.\n  - scope: com.tourradar.partners.users/write\n    description: Manage partner users.\n  - scope: com.tourradar.partners/admin\n    description: Administer the partner account.\n  - scope: com.tourradar.partners/read\n    description: Read partner account data.\n  - scope: com.tourradar.partners/write\n    description: Manage partner account data.\n  - scope: openid\n    description: OpenID Connect authentication.\n  - scope: email\n    description: OIDC email claim.\n  - scope: profile\n    description: OIDC profile claims.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tourradar/refs/heads/main/scopes/tourradar-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tourradar/scopes/tourradar-scopes.yml
 summary_line: 24 scopes · authorizationCode
 tags:
 - Travel

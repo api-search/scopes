@@ -54,7 +54,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://api.chalk.ai/.well-known/oauth-authorization-server\ndocs: https://docs.chalk.ai/docs/online-authentication\nschemes:\n- name: OAuth2\n  source: https://api.chalk.ai/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.chalk.ai/v1/oauth/authorize\n    tokenUrl: https://api.chalk.ai/v1/oauth/token\n  - flow: clientCredentials\n    tokenUrl: https://api.chalk.ai/v1/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication scope (openid-configuration discovery).\n  flows: [authorizationCode]\n  sources: [well-known/chalk-openid-configuration.json]\n- scope: mcp:read\n  description: Read access for Model Context Protocol (MCP) clients.\n  flows: [authorizationCode]\n  sources: [well-known/chalk-oauth-authorization-server.json]\n- scope: mcp:write\n  description: Write access for Model Context Protocol (MCP) clients.\n  flows: [authorizationCode]\n\
   \  sources: [well-known/chalk-oauth-authorization-server.json]\nnote: >-\n  Programmatic feature access via client_credentials does not use a documented scope surface;\n  fine-grained control is enforced through service-token RBAC tags (see authentication/chalk-authentication.yml),\n  not OAuth scopes. The scopes above are the published OAuth/MCP scopes.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/scopes/chalk-scopes.yml
+source_yaml_url: https://artifacts.apis.io/chalk/scopes/chalk-scopes.yml
 summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
 - Company

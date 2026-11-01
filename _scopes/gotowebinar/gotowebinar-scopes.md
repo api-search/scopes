@@ -5,79 +5,79 @@ api_specs:
   label: GoToWebinar Attendees API
   slug: gotowebinar-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-attendees-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-attendees-api-openapi.yml
 - filename: gotowebinar-co-organizers-api-openapi.yml
   format: yaml
   label: GoToWebinar Co-Organizers API
   slug: gotowebinar-co-organizers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-co-organizers-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-co-organizers-api-openapi.yml
 - filename: gotowebinar-panelists-api-openapi.yml
   format: yaml
   label: GoToWebinar Panelists API
   slug: gotowebinar-panelists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-panelists-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-panelists-api-openapi.yml
 - filename: gotowebinar-polls-api-openapi.yml
   format: yaml
   label: GoToWebinar Polls API
   slug: gotowebinar-polls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-polls-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-polls-api-openapi.yml
 - filename: gotowebinar-questions-api-openapi.yml
   format: yaml
   label: GoToWebinar Questions API
   slug: gotowebinar-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-questions-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-questions-api-openapi.yml
 - filename: gotowebinar-recordings-api-openapi.yml
   format: yaml
   label: GoToWebinar Recordings API
   slug: gotowebinar-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-recordings-api-openapi.yml
 - filename: gotowebinar-registrants-api-openapi.yml
   format: yaml
   label: GoToWebinar Registrants API
   slug: gotowebinar-registrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-registrants-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-registrants-api-openapi.yml
 - filename: gotowebinar-sessions-api-openapi.yml
   format: yaml
   label: GoToWebinar Sessions API
   slug: gotowebinar-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-sessions-api-openapi.yml
 - filename: gotowebinar-surveys-api-openapi.yml
   format: yaml
   label: GoToWebinar Surveys API
   slug: gotowebinar-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-surveys-api-openapi.yml
 - filename: gotowebinar-user-subscriptions-api-openapi.yml
   format: yaml
   label: GoToWebinar User Subscriptions API
   slug: gotowebinar-user-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-user-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-user-subscriptions-api-openapi.yml
 - filename: gotowebinar-webhooks-api-openapi.yml
   format: yaml
   label: GoToWebinar Webhooks API
   slug: gotowebinar-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-webhooks-api-openapi.yml
 - filename: gotowebinar-webinars-api-openapi.yml
   format: yaml
   label: GoToWebinar Webinars API
   slug: gotowebinar-webinars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-webinars-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-webinars-api-openapi.yml
 - filename: gotowebinar-recording-assets-api-openapi.yml
   format: yaml
   label: GoToWebinar Recording Assets API
   slug: gotowebinar-recording-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/openapi/gotowebinar-recording-assets-api-openapi.yml
+  url: https://artifacts.apis.io/gotowebinar/openapi/gotowebinar-recording-assets-api-openapi.yml
 authorization_urls:
 - https://authentication.logmeininc.com/oauth/authorize
 description: ''
@@ -132,7 +132,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gotowebinar-rest-openapi.yml, openapi/gotowebinar-webhooks-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/gotowebinar-rest-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://authentication.logmeininc.com/oauth/authorize\n    tokenUrl: https://authentication.logmeininc.com/oauth/token\n  description: OAuth 2.0 via the GoTo authentication service.\n- name: oauth2\n  source: openapi/gotowebinar-webhooks-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://authentication.logmeininc.com/oauth/authorize\n    tokenUrl: https://authentication.logmeininc.com/oauth/token\nscopes:\n- scope: collab\n  description: Collaboration / GoToWebinar scope.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gotowebinar-rest-openapi.yml\n  - openapi/gotowebinar-webhooks-openapi.yml\n- scope: identity:scim.me\n  description: Read the authenticated user's identity\
   \ (SCIM /me).\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gotowebinar-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/scopes/gotowebinar-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gotowebinar/scopes/gotowebinar-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Attendees

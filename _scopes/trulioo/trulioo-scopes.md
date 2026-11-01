@@ -5,115 +5,115 @@ api_specs:
   label: Trulioo Verifications API
   slug: trulioo-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-verifications-api-openapi.yml
 - filename: trulioo-configuration-api-openapi.yml
   format: yaml
   label: Trulioo Configuration API
   slug: trulioo-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-configuration-api-openapi.yml
 - filename: trulioo-connection-api-openapi.yml
   format: yaml
   label: Trulioo Connection API
   slug: trulioo-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-connection-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-connection-api-openapi.yml
 - filename: trulioo-business-verification-api-openapi.yml
   format: yaml
   label: Trulioo Business Verification API
   slug: trulioo-business-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-verification-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-verification-api-openapi.yml
 - filename: trulioo-person-fraud-api-openapi.yml
   format: yaml
   label: Trulioo Person Fraud API
   slug: trulioo-person-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-person-fraud-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-person-fraud-api-openapi.yml
 - filename: trulioo-document-verification-api-openapi.yml
   format: yaml
   label: Trulioo Identity Document Verification API
   slug: trulioo-document-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-document-verification-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-document-verification-api-openapi.yml
 - filename: trulioo-authentication-api-openapi.yml
   format: yaml
   label: Trulioo Authentication API
   slug: trulioo-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-authentication-api-openapi.yml
 - filename: trulioo-business-configuration-api-openapi.yml
   format: yaml
   label: Trulioo Business Configuration API
   slug: trulioo-business-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-configuration-api-openapi.yml
 - filename: trulioo-business-reports-api-openapi.yml
   format: yaml
   label: Trulioo Business Reports API
   slug: trulioo-business-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-reports-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-reports-api-openapi.yml
 - filename: trulioo-business-search-api-openapi.yml
   format: yaml
   label: Trulioo Business Search API
   slug: trulioo-business-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-business-search-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-business-search-api-openapi.yml
 - filename: trulioo-document-configuration-api-openapi.yml
   format: yaml
   label: Trulioo Document Configuration API
   slug: trulioo-document-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-document-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-document-configuration-api-openapi.yml
 - filename: trulioo-documents-api-openapi.yml
   format: yaml
   label: Trulioo Documents API
   slug: trulioo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-documents-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-documents-api-openapi.yml
 - filename: trulioo-end-clients-api-openapi.yml
   format: yaml
   label: Trulioo End Clients API
   slug: trulioo-end-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-end-clients-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-end-clients-api-openapi.yml
 - filename: trulioo-events-api-openapi.yml
   format: yaml
   label: Trulioo Events API
   slug: trulioo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-events-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-events-api-openapi.yml
 - filename: trulioo-flows-api-openapi.yml
   format: yaml
   label: Trulioo Flows API
   slug: trulioo-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-flows-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-flows-api-openapi.yml
 - filename: trulioo-known-faces-api-openapi.yml
   format: yaml
   label: Trulioo Known Faces API
   slug: trulioo-known-faces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-known-faces-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-known-faces-api-openapi.yml
 - filename: trulioo-sessions-api-openapi.yml
   format: yaml
   label: Trulioo Sessions API
   slug: trulioo-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-sessions-api-openapi.yml
 - filename: trulioo-transactions-api-openapi.yml
   format: yaml
   label: Trulioo Transactions API
   slug: trulioo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-transactions-api-openapi.yml
 - filename: trulioo-workflows-api-openapi.yml
   format: yaml
   label: Trulioo Workflows API
   slug: trulioo-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/openapi/trulioo-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/trulioo/openapi/trulioo-workflows-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.trulioo.com/reference/authentication
@@ -233,7 +233,7 @@ source_yaml: "generated: '2026-10-08'\nmethod: searched\ndocs: https://developer
   \  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: agent:write\n  description: 'MCP KYA: register, supersede and retire Digital Agent Profiles'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: domain:write\n  description: 'MCP KYA: agent domain challenge and verification'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: release:publish\n  description: 'MCP KYA: register and publish Agentic Releases'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp\
   \ (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: release:revoke\n  description: 'MCP KYA: permanently revoke an Agentic Release'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\n- scope: sandbox:write\n  description: 'MCP: seed and reset sandbox scenarios'\n  surface: https://mcp.trulioo.com/mcp\n  sources:\n  - https://mcp.trulioo.com/.well-known/oauth-protected-resource/mcp (scopes_supported, probed 2026-10-08)\n  - https://mcp.trulioo.com/developer/index.md (Scopes)\nnote: Trulioo uses the OAuth2 client_credentials flow with service- and region-scoped values (for example docv.api.us\n  for DocV in the US region); only the scopes above are documented publicly, and no full scope catalog is published\n  (https://developer.trulioo.com/reference/authorization-2).\n\
   mcp_docs: https://mcp.trulioo.com/developer/#auth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/scopes/trulioo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/trulioo/scopes/trulioo-scopes.yml
 summary_line: 12 scopes · clientCredentials
 tags:
 - Identity Verification

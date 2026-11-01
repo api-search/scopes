@@ -5,61 +5,61 @@ api_specs:
   label: Health Gorilla Binary API
   slug: health-gorilla-binary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-binary-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-binary-api-openapi.yml
 - filename: health-gorilla-coverage-api-openapi.yml
   format: yaml
   label: Health Gorilla Coverage API
   slug: health-gorilla-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-coverage-api-openapi.yml
 - filename: health-gorilla-diagnosticreport-api-openapi.yml
   format: yaml
   label: Health Gorilla DiagnosticReport API
   slug: health-gorilla-diagnosticreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-diagnosticreport-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-diagnosticreport-api-openapi.yml
 - filename: health-gorilla-observation-api-openapi.yml
   format: yaml
   label: Health Gorilla Observation API
   slug: health-gorilla-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-observation-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-observation-api-openapi.yml
 - filename: health-gorilla-patient-api-openapi.yml
   format: yaml
   label: Health Gorilla Patient API
   slug: health-gorilla-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-patient-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-patient-api-openapi.yml
 - filename: health-gorilla-practitioner-api-openapi.yml
   format: yaml
   label: Health Gorilla Practitioner API
   slug: health-gorilla-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-practitioner-api-openapi.yml
 - filename: health-gorilla-requestgroup-api-openapi.yml
   format: yaml
   label: Health Gorilla RequestGroup API
   slug: health-gorilla-requestgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-requestgroup-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-requestgroup-api-openapi.yml
 - filename: health-gorilla-servicerequest-api-openapi.yml
   format: yaml
   label: Health Gorilla ServiceRequest API
   slug: health-gorilla-servicerequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-servicerequest-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-servicerequest-api-openapi.yml
 - filename: health-gorilla-capability-statement-api-openapi.yml
   format: yaml
   label: Health Gorilla Capability Statement API
   slug: health-gorilla-capability-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-capability-statement-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-capability-statement-api-openapi.yml
 - filename: health-gorilla-document-reference-api-openapi.yml
   format: yaml
   label: Health Gorilla Document Reference API
   slug: health-gorilla-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/openapi/health-gorilla-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/health-gorilla/openapi/health-gorilla-document-reference-api-openapi.yml
 authorization_urls:
 - https://www.healthgorilla.com/oauth/authorize
 description: 'Health Gorilla''s OAuth scope surface is published in two places: the SMART App Launch configuration served anonymously from the API host, which enumerates the scopes the authorization server supports, and the Scopes & Access Control guide, which describes how scopes are assigned and enforced. Scopes are fixed at client registration — a client may request only scopes assigned during onboarding, cannot self-assign, cannot expand scope during token exchange, and cannot expand scope on refresh. The OpenAPI in openapi/ declares only a bearer http scheme with no oauth2 flows, so none of this is derivable from the spec; every scope below comes from the provider''s own discovery document or docs.'
@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://api.hea
   - scope: create_users\n  family: health-gorilla\n  description: >-\n    Permits provisioning of Health Gorilla users. Named in the Scopes & Access\n    Control guide as an example of a per-integration scope assigned at\n    registration; it is not advertised in the SMART configuration.\n  flows: [authorizationCode, clientCredentials]\n  sources: ['https://developer.healthgorilla.com/docs/scopes-access-control']\n- scope: place_orders\n  family: health-gorilla\n  description: >-\n    Permits submission of diagnostic (lab / radiology) orders. Appears as the\n    granted scope in the token response example in the OAuth 2.0 Authentication\n    reference; it is not advertised in the SMART configuration.\n  flows: [authorizationCode, clientCredentials]\n  sources: ['https://developer.healthgorilla.com/reference/oauth-20-authentication']\nenforcement:\n  assignment: >-\n    Scopes are configured at registration and bound to a specific client_id.\n    Additional API access requires a scope change\
   \ requested through Health Gorilla.\n  request_format: space-delimited list on the scope parameter\n  default_behavior: >-\n    If scope is omitted from the authorization request, the client's registered\n    default scopes are applied.\n  downscoping: The authorization server may issue a token with a subset of the requested scopes.\n  expansion: >-\n    Scope cannot be expanded during token exchange or refresh. For the\n    authorization code grant, the granted scope cannot exceed the scope requested\n    in the original authorization request.\n  two_layer_model: >-\n    OAuth scopes govern which APIs the client may call; user-level permissions\n    govern what data and operations are permitted inside the tenant. Both must be\n    satisfied. Scopes never grant access outside the token's tenant context.\n  failures: [insufficient_scope, invalid_client, invalid_grant]\ncompleteness:\n  note: >-\n    Health Gorilla does not publish an exhaustive scope reference. The SMART\n    configuration\
   \ lists nine supported scopes and the docs name two further\n    per-integration scopes by example, stating explicitly that \"the exact scopes\n    available to a client are defined at registration time and vary by\n    integration.\" No additional scopes were invented to fill the gap.\n  advertised_in_discovery: 9\n  named_in_docs_only: 2\nx-evidence:\n- {url: 'https://api.healthgorilla.com/.well-known/smart-configuration', http_status: 200, fetched: '2026-08-14'}\n- {url: 'https://developer.healthgorilla.com/docs/scopes-access-control.md', http_status: 200, fetched: '2026-08-14'}\n- {url: 'https://developer.healthgorilla.com/reference/oauth-20-authentication.md', http_status: 200, fetched: '2026-08-14'}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/scopes/health-gorilla-scopes.yml
+source_yaml_url: https://artifacts.apis.io/health-gorilla/scopes/health-gorilla-scopes.yml
 summary_line: 11 scopes · authorizationCode/implicit/clientCredentials/jwtBearer
 tags:
 - Health

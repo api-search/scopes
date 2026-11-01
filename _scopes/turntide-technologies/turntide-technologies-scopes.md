@@ -5,7 +5,7 @@ api_specs:
   label: Turntide Technologies Website (WordPress REST)
   slug: turntide-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/openapi/turntide-technologies-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/turntide-technologies/openapi/turntide-technologies-mcp-api-openapi.yml
 authorization_urls:
 - https://turntide.com/oauth/authorize
 description: ''
@@ -49,7 +49,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://turntide.com/.well-known/oauth-authorization-server\ndocs: https://turntide.com/.well-known/oauth-protected-resource\nscope_note: >-\n  The single scope \"mcp\" is not inferred — it is published verbatim as scopes_supported in the\n  live RFC 8414 authorization server metadata and repeated in the RFC 9728 protected resource\n  metadata. Turntide publishes no human-readable scope reference page; there is no broader\n  permission model, because the only OAuth-protected resource is the MCP endpoint.\nx-evidence:\n  fetched: '2026-08-02'\n  urls:\n  - {url: 'https://turntide.com/.well-known/oauth-authorization-server', http_status: 200}\n  - {url: 'https://turntide.com/.well-known/oauth-protected-resource', http_status: 200}\n  files:\n  - well-known/turntide-technologies-oauth-authorization-server.json\n  - well-known/turntide-technologies-oauth-protected-resource.json\nschemes:\n- name: mcpOAuth2\n  source: openapi/turntide-technologies-wordpress-rest-openapi.yml\n\
   \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://turntide.com/oauth/authorize\n    tokenUrl: https://turntide.com/oauth/token\n  description: OAuth 2.1 authorization server advertised at https://turntide.com/.well-known/oauth-authorization-server\n    (PKCE S256, scope 'mcp'); protects the MCP endpoint declared at https://turntide.com/.well-known/oauth-protected-resource\nscopes:\n- scope: mcp\n  description: Access the Turntide MCP server\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/turntide-technologies-wordpress-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/scopes/turntide-technologies-scopes.yml
+source_yaml_url: https://artifacts.apis.io/turntide-technologies/scopes/turntide-technologies-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

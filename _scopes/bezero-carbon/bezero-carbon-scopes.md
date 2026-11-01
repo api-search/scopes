@@ -5,13 +5,13 @@ api_specs:
   label: BeZero Carbon Projects API
   slug: bezero-carbon-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/openapi/bezero-carbon-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bezero-carbon/openapi/bezero-carbon-projects-api-openapi.yml
 - filename: bezero-carbon-ratings-api-openapi.yml
   format: yaml
   label: BeZero Carbon Ratings API
   slug: bezero-carbon-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/openapi/bezero-carbon-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/bezero-carbon/openapi/bezero-carbon-ratings-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -67,7 +67,7 @@ source_filename: bezero-carbon-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-07'\nmethod: derived\nsource: openapi/bezero-carbon-ratings-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/bezero-carbon-ratings-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.bezerocarbonmarkets.com/oauth2/token\n  description: This API uses OAuth 2 with Client Credentials\nscopes:\n- scope: bcm/v3.projects:list\n  description: list projects\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bezero-carbon-ratings-openapi.yml\n- scope: bcm/v3.ratings:details\n  description: read rating details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bezero-carbon-ratings-openapi.yml\n- scope: bcm/v3.ratings:list\n  description: list ratings\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bezero-carbon-ratings-openapi.yml\n- scope: bcm/v3.ratings:riskFactors\n  description: read rating risk factors\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bezero-carbon-ratings-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/scopes/bezero-carbon-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bezero-carbon/scopes/bezero-carbon-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - Company

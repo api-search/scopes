@@ -5,73 +5,73 @@ api_specs:
   label: Fluence Billing API
   slug: fluence-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-billing-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-billing-api-openapi.yml
 - filename: fluence-hardware-api-openapi.yml
   format: yaml
   label: Fluence Hardware API
   slug: fluence-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-hardware-api-openapi.yml
 - filename: fluence-prices-api-openapi.yml
   format: yaml
   label: Fluence Prices API
   slug: fluence-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-prices-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-prices-api-openapi.yml
 - filename: fluence-publicip-api-openapi.yml
   format: yaml
   label: Fluence PublicIP API
   slug: fluence-publicip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-publicip-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-publicip-api-openapi.yml
 - filename: fluence-service-api-openapi.yml
   format: yaml
   label: Fluence Service API
   slug: fluence-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-service-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-service-api-openapi.yml
 - filename: fluence-ssh-keys-api-openapi.yml
   format: yaml
   label: Fluence SSH keys API
   slug: fluence-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-ssh-keys-api-openapi.yml
 - filename: fluence-storage-api-openapi.yml
   format: yaml
   label: Fluence Storage API
   slug: fluence-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-storage-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-storage-api-openapi.yml
 - filename: fluence-subnets-api-openapi.yml
   format: yaml
   label: Fluence Subnets API
   slug: fluence-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-subnets-api-openapi.yml
 - filename: fluence-users-api-openapi.yml
   format: yaml
   label: Fluence Users API
   slug: fluence-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-users-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-users-api-openapi.yml
 - filename: fluence-vms-api-openapi.yml
   format: yaml
   label: Fluence V Ms API
   slug: fluence-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-vms-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-vms-api-openapi.yml
 - filename: fluence-vpcs-api-openapi.yml
   format: yaml
   label: Fluence VP Cs API
   slug: fluence-vpcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-vpcs-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-vpcs-api-openapi.yml
 - filename: fluence-security-group-api-openapi.yml
   format: yaml
   label: Fluence Security Group API
   slug: fluence-security-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-security-group-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-security-group-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://console.fluence.network/settings/api-keys
@@ -236,7 +236,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/fluence
   \    description: List virtual machines.\n  - scope: vm:request_access\n    description: Request access to a virtual machine.\n  - scope: storage:read\n    description: List and read storage volumes.\n  - scope: storage:write\n    description: Create, update, and delete storage volumes.\n  - scope: public_ip:read\n    description: List and read public IPs.\n  - scope: public_ip:write\n    description: Allocate, update, and release public IPs.\n  - scope: subnet:read\n    description: List and read subnets.\n  - scope: subnet:write\n    description: Create, update, and delete subnets.\n  - scope: vpc:read\n    description: List and read VPCs.\n  - scope: vpc:write\n    description: Create, update, and delete VPCs.\n  - scope: security_groups:read\n    description: List and read security groups.\n  - scope: security_groups:write\n    description: Create, update, and delete security groups.\n  - scope: ssh_key:create\n    description: Create an SSH key.\n  - scope: ssh_key:remove\n    description:\
   \ Delete an SSH key.\n  - scope: ssh_key:activate\n    description: Activate an SSH key.\n  - scope: ssh_key:deactivate\n    description: Deactivate an SSH key.\n  - scope: ssh_key:list\n    description: List SSH keys.\n  - scope: clusters:read\n    description: Read available compute clusters.\n  - scope: prices:read\n    description: Read compute, storage, and public-IP prices.\n  - scope: token:deposit\n    description: Deposit tokens to the account balance.\n  - scope: token:withdraw\n    description: Withdraw tokens from the account balance.\n  - scope: billing:top_up\n    description: Create a balance top-up.\n  - scope: billing:get_history\n    description: Read top-up history.\n  - scope: billing:get_spending_history\n    description: Read spending (charge) history.\n  - scope: billing:get_spending_aggregated\n    description: Read aggregated spending.\n  - scope: api_key:create\n    description: Create API keys.\n  - scope: api_key:remove\n    description: Delete API keys.\n \
   \ - scope: api_key:list\n    description: List API keys.\nadmin_scopes:\n  note: >-\n    Internal administrative scopes present in the PermissionScope enum (not grantable to\n    ordinary API keys): admin:users:*, admin:vms:*, admin:invites:*, admin:peers:*,\n    admin:default_images:*, admin:promo_codes:*, admin:basic_configuration:*,\n    admin:payment_methods:*, admin:payments:read, admin:security_groups:*, admin:storages:*,\n    admin:subnets:*, admin:public_ips:*, admin:vpcs:*, admin:clusters:*, admin:prices:*,\n    and the marketplace-backend scopes akash:* and spheron:*.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/scopes/fluence-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fluence/scopes/fluence-scopes.yml
 summary_line: 34 scopes
 tags:
 - Company

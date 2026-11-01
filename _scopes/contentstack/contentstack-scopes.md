@@ -5,199 +5,199 @@ api_specs:
   label: Contentstack Analytics API
   slug: analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-analytics-api-openapi.yml
 - filename: contentstack-accounts-api-openapi.yml
   format: yaml
   label: contentstack Accounts API
   slug: contentstack-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-accounts-api-openapi.yml
 - filename: contentstack-assets-api-openapi.yml
   format: yaml
   label: contentstack Assets API
   slug: contentstack-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-assets-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-assets-api-openapi.yml
 - filename: contentstack-attributes-api-openapi.yml
   format: yaml
   label: contentstack Attributes API
   slug: contentstack-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-attributes-api-openapi.yml
 - filename: contentstack-audiences-api-openapi.yml
   format: yaml
   label: contentstack Audiences API
   slug: contentstack-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-audiences-api-openapi.yml
 - filename: contentstack-audit-logs-api-openapi.yml
   format: yaml
   label: contentstack Audit Logs API
   slug: contentstack-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-audit-logs-api-openapi.yml
 - filename: contentstack-automations-api-openapi.yml
   format: yaml
   label: contentstack Automations API
   slug: contentstack-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-automations-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-automations-api-openapi.yml
 - filename: contentstack-brand-kits-api-openapi.yml
   format: yaml
   label: contentstack Brand Kits API
   slug: contentstack-brand-kits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-brand-kits-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-brand-kits-api-openapi.yml
 - filename: contentstack-content-types-api-openapi.yml
   format: yaml
   label: contentstack Content Types API
   slug: contentstack-content-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-content-types-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-content-types-api-openapi.yml
 - filename: contentstack-deployments-api-openapi.yml
   format: yaml
   label: contentstack Deployments API
   slug: contentstack-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-deployments-api-openapi.yml
 - filename: contentstack-entries-api-openapi.yml
   format: yaml
   label: contentstack Entries API
   slug: contentstack-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-entries-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-entries-api-openapi.yml
 - filename: contentstack-entry-variants-api-openapi.yml
   format: yaml
   label: contentstack Entry Variants API
   slug: contentstack-entry-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-entry-variants-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-entry-variants-api-openapi.yml
 - filename: contentstack-environments-api-openapi.yml
   format: yaml
   label: contentstack Environments API
   slug: contentstack-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-environments-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-environments-api-openapi.yml
 - filename: contentstack-events-api-openapi.yml
   format: yaml
   label: contentstack Events API
   slug: contentstack-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-events-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-events-api-openapi.yml
 - filename: contentstack-execution-logs-api-openapi.yml
   format: yaml
   label: contentstack Execution Logs API
   slug: contentstack-execution-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-execution-logs-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-execution-logs-api-openapi.yml
 - filename: contentstack-experiences-api-openapi.yml
   format: yaml
   label: contentstack Experiences API
   slug: contentstack-experiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-experiences-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-experiences-api-openapi.yml
 - filename: contentstack-file-uploads-api-openapi.yml
   format: yaml
   label: contentstack File Uploads API
   slug: contentstack-file-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-file-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-file-uploads-api-openapi.yml
 - filename: contentstack-geolocation-api-openapi.yml
   format: yaml
   label: contentstack Geolocation API
   slug: contentstack-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-geolocation-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-geolocation-api-openapi.yml
 - filename: contentstack-global-fields-api-openapi.yml
   format: yaml
   label: contentstack Global Fields API
   slug: contentstack-global-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-global-fields-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-global-fields-api-openapi.yml
 - filename: contentstack-llm-configuration-api-openapi.yml
   format: yaml
   label: contentstack LLM Configuration API
   slug: contentstack-llm-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-llm-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-llm-configuration-api-openapi.yml
 - filename: contentstack-manifest-api-openapi.yml
   format: yaml
   label: contentstack Manifest API
   slug: contentstack-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-manifest-api-openapi.yml
 - filename: contentstack-organizations-api-openapi.yml
   format: yaml
   label: contentstack Organizations API
   slug: contentstack-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-organizations-api-openapi.yml
 - filename: contentstack-projects-api-openapi.yml
   format: yaml
   label: contentstack Projects API
   slug: contentstack-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-projects-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-projects-api-openapi.yml
 - filename: contentstack-scim-groups-api-openapi.yml
   format: yaml
   label: contentstack SCIM Groups API
   slug: contentstack-scim-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-scim-groups-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-scim-groups-api-openapi.yml
 - filename: contentstack-scim-schema-discovery-api-openapi.yml
   format: yaml
   label: contentstack SCIM Schema Discovery API
   slug: contentstack-scim-schema-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-scim-schema-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-scim-schema-discovery-api-openapi.yml
 - filename: contentstack-scim-users-api-openapi.yml
   format: yaml
   label: contentstack SCIM Users API
   slug: contentstack-scim-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-scim-users-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-scim-users-api-openapi.yml
 - filename: contentstack-stacks-api-openapi.yml
   format: yaml
   label: contentstack Stacks API
   slug: contentstack-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-stacks-api-openapi.yml
 - filename: contentstack-synchronization-api-openapi.yml
   format: yaml
   label: contentstack Synchronization API
   slug: contentstack-synchronization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-synchronization-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-synchronization-api-openapi.yml
 - filename: contentstack-user-attributes-api-openapi.yml
   format: yaml
   label: contentstack User Attributes API
   slug: contentstack-user-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-user-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-user-attributes-api-openapi.yml
 - filename: contentstack-user-sessions-api-openapi.yml
   format: yaml
   label: contentstack User Sessions API
   slug: contentstack-user-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-user-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-user-sessions-api-openapi.yml
 - filename: contentstack-users-api-openapi.yml
   format: yaml
   label: contentstack Users API
   slug: contentstack-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-users-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-users-api-openapi.yml
 - filename: contentstack-variables-api-openapi.yml
   format: yaml
   label: contentstack Variables API
   slug: contentstack-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-variables-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-variables-api-openapi.yml
 - filename: contentstack-voice-profiles-api-openapi.yml
   format: yaml
   label: contentstack Voice Profiles API
   slug: contentstack-voice-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/openapi/contentstack-voice-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/contentstack/openapi/contentstack-voice-profiles-api-openapi.yml
 authorization_urls: []
 description: 'Contentstack OAuth 2.0 publishes a complete scope reference: 95 scopes documented on the OAuth Scopes page, of which 39 are additionally declared by the first-party MCP tool catalogue. Scope names follow a <resource>:<action> convention (cm.entry:write, launch.projects:read, personalize:manage) and the docs state which token type — user token or app token — each scope supports.'
 docs: https://www.contentstack.com/docs/developer-hub/oauth-scopes
@@ -660,7 +660,7 @@ source_yaml: "specification: API Commons OAuthScopes\nspecificationVersion: '0.1
   \ all workflow publishing rules\n  documented: true\n  used_by_mcp_tools: 1\n- name: cm.workflows.publishing-rules:write\n  group: Content Management\n  description: Create, update, remove workflow publishing rules\n  documented: true\n  used_by_mcp_tools: 0\n- name: launch.projects:delete\n  group: Launch\n  description: This scope lets you delete resources\n  documented: true\n  used_by_mcp_tools: 2\n- name: launch.projects:read\n  group: Launch\n  description: This scope lets you read resources\n  documented: true\n  used_by_mcp_tools: 15\n- name: launch.projects:write\n  group: Launch\n  description: This scope lets you create and update resources\n  documented: true\n  used_by_mcp_tools: 10\n- name: launch:manage\n  group: Launch\n  description: This scope lets you read, update, and manage resources\n  documented: true\n  used_by_mcp_tools: 0\n- name: organization.logs:read\n  group: Organization\n  description: View organization logs\n  documented: true\n  used_by_mcp_tools: 0\n\
   - name: organization.ownership:write\n  group: Organization\n  description: Create, update of organization ownership\n  documented: true\n  used_by_mcp_tools: 0\n- name: organization.roles:read\n  group: Organization\n  description: View organization level roles\n  documented: true\n  used_by_mcp_tools: 0\n- name: organization.share:read\n  group: Organization\n  description: View details of organization invitations shared with users\n  documented: true\n  used_by_mcp_tools: 0\n- name: organization.share:write\n  group: Organization\n  description: Update, remove organization invitation shares\n  documented: true\n  used_by_mcp_tools: 0\n- name: organization:read\n  group: Organization\n  description: View details of an organization\n  documented: true\n  used_by_mcp_tools: 0\n- name: organizations:read\n  group: Organization\n  description: View details of all organizations associated with the user\n  documented: true\n  used_by_mcp_tools: 0\n- name: personalize:manage\n  group: Personalize\n\
   \  description: Create, update, or delete Attribute, Audience, Experience, Event, and Experience Version, and update\n    Experiences Priority.\n  documented: true\n  used_by_mcp_tools: 12\n- name: personalize:read\n  group: Personalize\n  description: View Attributes, Audiences, Events, Experiences, Experiences Priority, Analytics Summary, Time-series\n    Analytics, Regions, Countries, and Cities.\n  documented: true\n  used_by_mcp_tools: 12\n- name: user.assignments:read\n  group: Other\n  description: View user assignments\n  documented: true\n  used_by_mcp_tools: 0\n- name: user:read\n  group: Other\n  description: View user details\n  documented: true\n  used_by_mcp_tools: 0\n- name: user:write\n  group: Other\n  description: Update user details\n  documented: true\n  used_by_mcp_tools: 0\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/scopes/contentstack-scopes.yml
+source_yaml_url: https://artifacts.apis.io/contentstack/scopes/contentstack-scopes.yml
 summary_line: 105 scopes · authorization_code
 tags:
 - Headless CMS

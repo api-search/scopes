@@ -5,13 +5,13 @@ api_specs:
   label: Recurrency E-Procurement API
   slug: recurrency-e-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/openapi/recurrency-e-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/recurrency/openapi/recurrency-e-procurement-api-openapi.yml
 - filename: recurrency-orders-api-openapi.yml
   format: yaml
   label: Recurrency Orders API
   slug: recurrency-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/openapi/recurrency-orders-api-openapi.yml
+  url: https://artifacts.apis.io/recurrency/openapi/recurrency-orders-api-openapi.yml
 authorization_urls:
 - https://login.recurrency.ai/authorize
 description: ''
@@ -77,7 +77,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/recurrency-openapi.yml\ndocs: https://recurrency.gitbook.io/recurrency/authentication/getting-an-access-token\nschemes:\n  - name: oauth2-api\n    source: openapi/recurrency-openapi.yml\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://api.recurrency.com/oauth/token\n    description: >-\n      OAuth 2.0 client-credentials for the e-procurement REST API. POST to the\n      token endpoint with grant_type=client_credentials plus\n      client_id/client_secret to receive a Bearer access token, valid for 7 days\n      (604800 seconds). Send it as `authorization: Bearer {token}`.\n  - name: oauth2-mcp\n    source: well-known/recurrency-oauth-authorization-server.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://login.recurrency.ai/authorize\n        tokenUrl: https://login.recurrency.ai/oauth/token\n    description: >-\n      Auth0-backed authorization-code + PKCE (S256)\
   \ flow securing the hosted MCP\n      server (api.recurrency.com/mcp, protected resource core-api.recurrency.ai).\nscopes:\n  - scope: recurrency:api:tenant\n    description: Tenant-scoped access to the Recurrency e-procurement REST API.\n    flows: [clientCredentials]\n    sources: [openapi/recurrency-openapi.yml]\n  - scope: recurrency:mcp:tenant:read\n    description: Read access to tenant data via the Recurrency MCP server.\n    flows: [authorizationCode]\n    sources: [well-known/recurrency-oauth-authorization-server.json]\n  - scope: recurrency:mcp:tenant:write\n    description: Write access to tenant data via the Recurrency MCP server.\n    flows: [authorizationCode]\n    sources: [well-known/recurrency-oauth-authorization-server.json]\n  - scope: recurrency:mcp:admin\n    description: Administrative access via the Recurrency MCP server.\n    flows: [authorizationCode]\n    sources: [well-known/recurrency-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/scopes/recurrency-scopes.yml
+source_yaml_url: https://artifacts.apis.io/recurrency/scopes/recurrency-scopes.yml
 summary_line: 4 scopes · clientCredentials/authorizationCode
 tags:
 - Company

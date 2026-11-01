@@ -5,37 +5,37 @@ api_specs:
   label: Spreaker Advertising API
   slug: spreaker-advertising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-advertising-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-advertising-api-openapi.yml
 - filename: spreaker-episodes-api-openapi.yml
   format: yaml
   label: Spreaker Episodes API
   slug: spreaker-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-episodes-api-openapi.yml
 - filename: spreaker-search-and-discovery-api-openapi.yml
   format: yaml
   label: Spreaker Search and Discovery API
   slug: spreaker-search-and-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-search-and-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-search-and-discovery-api-openapi.yml
 - filename: spreaker-shows-api-openapi.yml
   format: yaml
   label: Spreaker Shows API
   slug: spreaker-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-shows-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-shows-api-openapi.yml
 - filename: spreaker-statistics-api-openapi.yml
   format: yaml
   label: Spreaker Statistics API
   slug: spreaker-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-statistics-api-openapi.yml
 - filename: spreaker-users-api-openapi.yml
   format: yaml
   label: Spreaker Users API
   slug: spreaker-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/openapi/spreaker-users-api-openapi.yml
+  url: https://artifacts.apis.io/spreaker/openapi/spreaker-users-api-openapi.yml
 authorization_urls:
 - https://www.spreaker.com/oauth2/authorize
 description: ''
@@ -78,7 +78,7 @@ source_filename: spreaker-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spreaker-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/spreaker-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.spreaker.com/oauth2/authorize\n    tokenUrl: https://api.spreaker.com/oauth2/token\n  description: OAuth2. Authorize at https://www.spreaker.com/oauth2/authorize and exchange or\n    refresh tokens at https://api.spreaker.com/oauth2/token. Access tokens are sent as a Bearer\n    token in the Authorization header.\nscopes:\n- scope: basic\n  description: Basic access to the Spreaker API on behalf of the user.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/spreaker-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/scopes/spreaker-scopes.yml
+source_yaml_url: https://artifacts.apis.io/spreaker/scopes/spreaker-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Podcasts

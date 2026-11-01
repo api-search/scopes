@@ -5,19 +5,19 @@ api_specs:
   label: Microsoft Power Apps Accounts API
   slug: microsoft-power-apps-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/openapi/microsoft-power-apps-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-apps/openapi/microsoft-power-apps-accounts-api-openapi.yml
 - filename: microsoft-power-apps-contacts-api-openapi.yml
   format: yaml
   label: Microsoft Power Apps Contacts API
   slug: microsoft-power-apps-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/openapi/microsoft-power-apps-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-apps/openapi/microsoft-power-apps-contacts-api-openapi.yml
 - filename: microsoft-power-apps-entities-api-openapi.yml
   format: yaml
   label: Microsoft Power Apps Entities API
   slug: microsoft-power-apps-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/openapi/microsoft-power-apps-entities-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-apps/openapi/microsoft-power-apps-entities-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
 description: ''
@@ -66,7 +66,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-power-apps-dataverse-web-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-power-apps-dataverse-web-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication using Microsoft Entra ID (formerly Azure Active Directory).\n    Applications must be registered in Microsoft Entra ID and granted appropriate Dataverse\n    permissions.\nscopes:\n- scope: https://{organization}.crm.dynamics.com/.default\n  description: Full access to Dataverse environment\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-power-apps-dataverse-web-api-openapi.yml\n- scope: https://{organization}.crm.dynamics.com/user_impersonation\n  description: Access Dataverse as the signed-in user\n  flows:\n\
   \  - authorizationCode\n  sources:\n  - openapi/microsoft-power-apps-dataverse-web-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/scopes/microsoft-power-apps-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-power-apps/scopes/microsoft-power-apps-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Business Applications

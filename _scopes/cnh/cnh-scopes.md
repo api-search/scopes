@@ -5,43 +5,43 @@ api_specs:
   label: CNH Equipment API
   slug: cnh-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-equipment-api-openapi.yml
 - filename: cnh-farm-setup-api-openapi.yml
   format: yaml
   label: CNH Farm Setup API
   slug: cnh-farm-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-farm-setup-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-farm-setup-api-openapi.yml
 - filename: cnh-operations-api-openapi.yml
   format: yaml
   label: CNH Operations API
   slug: cnh-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-operations-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-operations-api-openapi.yml
 - filename: cnh-prescriptions-api-openapi.yml
   format: yaml
   label: CNH Prescriptions API
   slug: cnh-prescriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-prescriptions-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-prescriptions-api-openapi.yml
 - filename: cnh-tokens-api-openapi.yml
   format: yaml
   label: CNH Tokens API
   slug: cnh-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-tokens-api-openapi.yml
 - filename: cnh-vehicle-telemetry-api-openapi.yml
   format: yaml
   label: CNH Vehicle Telemetry API
   slug: cnh-vehicle-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-vehicle-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-vehicle-telemetry-api-openapi.yml
 - filename: cnh-webhooks-api-openapi.yml
   format: yaml
   label: CNH Webhooks API
   slug: cnh-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cnh/openapi/cnh-webhooks-api-openapi.yml
 authorization_urls:
 - https://develop.cnh.com/oauth/authorize
 description: ''
@@ -104,7 +104,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cnh-fieldops-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/cnh-fieldops-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://develop.cnh.com/oauth/authorize\n    tokenUrl: https://develop.cnh.com/oauth/token\nscopes:\n- scope: equipment\n  description: Access equipment metadata\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cnh-fieldops-openapi.yml\n- scope: farm\n  description: Access farm setup\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cnh-fieldops-openapi.yml\n- scope: prescriptions\n  description: Send prescription Rx files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cnh-fieldops-openapi.yml\n- scope: telemetry\n  description: Access vehicle telemetry data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cnh-fieldops-openapi.yml\n- scope: webhooks\n  description: Manage webhook subscriptions\n  flows:\n  - authorizationCode\n\
   \  sources:\n  - openapi/cnh-fieldops-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/scopes/cnh-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cnh/scopes/cnh-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Agriculture

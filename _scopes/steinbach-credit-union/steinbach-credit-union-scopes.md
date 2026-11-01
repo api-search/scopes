@@ -57,7 +57,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://online.scu.mb.ca/.well-known/openid-configuration\ndocs: https://online.scu.mb.ca/am/oauth2\nscope_note: >-\n  Scopes advertised by the ForgeRock/Ping AM OAuth2 server behind SCU's\n  members-only digital banking (issuer https://online.scu.mb.ca/am/oauth2).\n  These are the standard OIDC scopes plus the AM platform's identity-management\n  scopes; they are NOT a public developer-API permission surface. Captured from\n  scopes_supported in the anonymously published OIDC discovery document.\nschemes:\n- name: oauth2\n  source: well-known/steinbach-credit-union-openid-configuration.json\n  authorizationUrl: https://online.scu.mb.ca/am/oauth2/authorize\n  tokenUrl: https://online.scu.mb.ca/am/oauth2/steinbach_token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token.\n- scope: profile\n  description: Standard OIDC profile claims for the authenticated member.\n- scope: email\n  description:\
   \ Member email-address claim.\n- scope: address\n  description: Member postal-address claim.\n- scope: phone\n  description: Member phone-number claim.\n- scope: 'fr:idm:*'\n  description: ForgeRock Identity Management resource access (AM/IDM platform scope).\n- scope: am-introspect-all-tokens\n  description: ForgeRock AM administrative scope permitting introspection of all tokens.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steinbach-credit-union/refs/heads/main/scopes/steinbach-credit-union-scopes.yml
+source_yaml_url: https://artifacts.apis.io/steinbach-credit-union/scopes/steinbach-credit-union-scopes.yml
 summary_line: 7 scopes
 tags:
 - Financial Services

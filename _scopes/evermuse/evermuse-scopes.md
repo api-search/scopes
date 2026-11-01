@@ -5,7 +5,7 @@ api_specs:
   label: Evermuse Ingestion API
   slug: evermuse-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/openapi/evermuse-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/evermuse/openapi/evermuse-ingestion-api-openapi.yml
 authorization_urls:
 - https://api.evermuse.com/oauth/authorize
 description: ''
@@ -59,7 +59,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: well-known/evermuse-oauth-authorization-server.json\ndocs: https://docs.evermuse.com/authentication\nnote: |-\n  OAuth 2.1 scopes gate the hosted Evermuse MCP server (https://api.evermuse.com/api/mcp),\n  not the REST Ingestion API (which uses `x-api-key` keys carrying `api:read`/`api:write`\n  permissions). Scopes are advertised in the RFC 8414 authorization-server metadata and\n  the RFC 9728 protected-resource metadata.\nschemes:\n- name: EvermuseOAuth\n  source: well-known/evermuse-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.evermuse.com/oauth/authorize\n    tokenUrl: https://api.evermuse.com/oauth/token\n    pkce: S256\nscopes:\n- scope: mcp:read\n  description: Read access via the Evermuse MCP server (query customer evidence, roadmap, insights).\n  flows: [authorizationCode]\n  sources: [well-known/evermuse-oauth-authorization-server.json]\n- scope: mcp:write\n\
   \  description: Write access via the Evermuse MCP server.\n  flows: [authorizationCode]\n  sources: [well-known/evermuse-oauth-authorization-server.json]\n- scope: mcp:thirdparty\n  description: Third-party / delegated access via the Evermuse MCP server.\n  flows: [authorizationCode]\n  sources: [well-known/evermuse-oauth-authorization-server.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evermuse/refs/heads/main/scopes/evermuse-scopes.yml
+source_yaml_url: https://artifacts.apis.io/evermuse/scopes/evermuse-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

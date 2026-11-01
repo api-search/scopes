@@ -5,55 +5,55 @@ api_specs:
   label: Fundrise Acknowledgments API
   slug: fundrise-acknowledgments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-acknowledgments-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-acknowledgments-api-openapi.yml
 - filename: fundrise-authentication-api-openapi.yml
   format: yaml
   label: Fundrise Authentication API
   slug: fundrise-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-authentication-api-openapi.yml
 - filename: fundrise-clients-api-openapi.yml
   format: yaml
   label: Fundrise Clients API
   slug: fundrise-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-clients-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-clients-api-openapi.yml
 - filename: fundrise-holdings-api-openapi.yml
   format: yaml
   label: Fundrise Holdings API
   slug: fundrise-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-holdings-api-openapi.yml
 - filename: fundrise-investments-api-openapi.yml
   format: yaml
   label: Fundrise Investments API
   slug: fundrise-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-investments-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-investments-api-openapi.yml
 - filename: fundrise-liquidations-api-openapi.yml
   format: yaml
   label: Fundrise Liquidations API
   slug: fundrise-liquidations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-liquidations-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-liquidations-api-openapi.yml
 - filename: fundrise-offerings-api-openapi.yml
   format: yaml
   label: Fundrise Offerings API
   slug: fundrise-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-offerings-api-openapi.yml
 - filename: fundrise-tax-forms-api-openapi.yml
   format: yaml
   label: Fundrise Tax Forms API
   slug: fundrise-tax-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-tax-forms-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-tax-forms-api-openapi.yml
 - filename: fundrise-transactions-api-openapi.yml
   format: yaml
   label: Fundrise Transactions API
   slug: fundrise-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/openapi/fundrise-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fundrise/openapi/fundrise-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://connect.fundrise.com/#tag/Authentication
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: https://fundris
   \ values, so no named partner scopes are asserted here.\nauthorization_server:\n  issuer_host: fundrise.com\n  discovery: https://fundrise.com/.well-known/openid-configuration\n  authorization_endpoint: https://fundrise.com/oauth/authorize\n  token_endpoint: https://api.fundrise.com/oauth/token\n  response_types_supported:\n  - code\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  grant_types_observed:\n  - authorization_code\n  - refresh_token\nscopes:\n- scope: openid\n  description: >-\n    OpenID Connect authentication — requests an ID token asserting the end user's\n    identity. Published in scopes_supported of the Fundrise OIDC discovery document.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/fundrise-openid-configuration.json\n- scope: offline_access\n  description: >-\n    Requests a refresh token so the client can obtain new access tokens without the\n    end user being present. Published in scopes_supported of the Fundrise OIDC\n    discovery document,\
   \ and consistent with the non-expiring refresh token the\n    Connect API issues at Client creation.\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/fundrise-openid-configuration.json\nconnect_api_tokens:\n  operation: GetAccessToken\n  path: /v1/oauth/token\n  grant: refresh_token\n  response_schema: OAuth2AccessTokenResponse\n  scope_field_present: true\n  named_scopes_published: false\n  note: >-\n    Access tokens are scoped to a single Client rather than to named permission\n    scopes. Endpoint-level authorization is expressed instead by which of the two\n    security schemes an operation requires (PartnerBasicAuthentication vs\n    ClientBearerAuthentication), and Fundrise applies additional per-partner access\n    controls out of band — the Authentication tag states that documented capabilities\n    may be inaccessible until permissions are granted by connect@fundrise.com.\nx-evidence:\n- fetched: '2026-08-04'\n  url: https://fundrise.com/.well-known/openid-configuration\n\
   \  http_status: 200\n  content_type: application/json\n- fetched: '2026-08-04'\n  url: https://connect.fundrise.com/\n  http_status: 200\n  note: OpenAPI 3.1.0 extracted from the published Redocly documentation bundle.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/scopes/fundrise-scopes.yml
+source_yaml_url: https://artifacts.apis.io/fundrise/scopes/fundrise-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company

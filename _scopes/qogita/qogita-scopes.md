@@ -40,7 +40,7 @@ source_filename: qogita-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://api.qogita.com/.well-known/oauth-authorization-server\nschemes:\n- name: OAuth2\n  source: well-known/qogita-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.qogita.com/staff/oauth/authorize\n    tokenUrl: https://api.qogita.com/staff/oauth/token\nscopes:\n- scope: staff:mcp\n  description: Access to the Qogita Staff MCP server (Production).\n  flows: [authorizationCode]\n  sources: [well-known/qogita-oauth-authorization-server.json]\nnotes: >-\n  Single scope advertised by the authorization server metadata. This scope\n  governs the hosted MCP resource; Qogita's public REST API does not publish a\n  machine-readable scope reference.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qogita/refs/heads/main/scopes/qogita-scopes.yml
+source_yaml_url: https://artifacts.apis.io/qogita/scopes/qogita-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

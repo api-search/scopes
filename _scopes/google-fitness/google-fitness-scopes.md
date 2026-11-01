@@ -5,7 +5,7 @@ api_specs:
   label: Google Fit REST Users API
   slug: google-fitness-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/openapi/google-fitness-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-fitness/openapi/google-fitness-users-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -73,7 +73,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fitness.yml\nschemes:\n- name: oauth2\n  source: openapi/fitness.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/fitness.activity.read\n  description: View your activity information in Google Fit\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitness.yml\n- scope: https://www.googleapis.com/auth/fitness.activity.write\n  description: Add to your activity information in Google Fit\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitness.yml\n- scope: https://www.googleapis.com/auth/fitness.body.read\n  description: View body sensor information in Google Fit\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitness.yml\n- scope: https://www.googleapis.com/auth/fitness.body.write\n  description: Add body sensor information in Google\
   \ Fit\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitness.yml\n- scope: https://www.googleapis.com/auth/fitness.location.read\n  description: View your stored location data in Google Fit\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitness.yml\n- scope: https://www.googleapis.com/auth/fitness.location.write\n  description: Add to your location data in Google Fit\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/fitness.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/scopes/google-fitness-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-fitness/scopes/google-fitness-scopes.yml
 summary_line: 6 scopes · authorizationCode
 tags:
 - Activity Tracking

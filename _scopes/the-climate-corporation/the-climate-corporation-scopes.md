@@ -5,49 +5,49 @@ api_specs:
   label: The Climate Corporation Boundaries API
   slug: the-climate-corporation-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-boundaries-api-openapi.yml
 - filename: the-climate-corporation-exports-api-openapi.yml
   format: yaml
   label: The Climate Corporation Exports API
   slug: the-climate-corporation-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-exports-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-exports-api-openapi.yml
 - filename: the-climate-corporation-farmorganizations-api-openapi.yml
   format: yaml
   label: The Climate Corporation FarmOrganizations API
   slug: the-climate-corporation-farmorganizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-farmorganizations-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-farmorganizations-api-openapi.yml
 - filename: the-climate-corporation-fields-api-openapi.yml
   format: yaml
   label: The Climate Corporation Fields API
   slug: the-climate-corporation-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-fields-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-fields-api-openapi.yml
 - filename: the-climate-corporation-layers-api-openapi.yml
   format: yaml
   label: The Climate Corporation Layers API
   slug: the-climate-corporation-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-layers-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-layers-api-openapi.yml
 - filename: the-climate-corporation-operations-api-openapi.yml
   format: yaml
   label: The Climate Corporation Operations API
   slug: the-climate-corporation-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-operations-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-operations-api-openapi.yml
 - filename: the-climate-corporation-resourceowners-api-openapi.yml
   format: yaml
   label: The Climate Corporation ResourceOwners API
   slug: the-climate-corporation-resourceowners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-resourceowners-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-resourceowners-api-openapi.yml
 - filename: the-climate-corporation-uploads-api-openapi.yml
   format: yaml
   label: The Climate Corporation Uploads API
   slug: the-climate-corporation-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-uploads-api-openapi.yml
 authorization_urls:
 - https://climate.com/static/app-login/
 description: ''
@@ -211,7 +211,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/the-cli
   \  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: farmOrganizations:read\n  description: Required for retrieving farm organization information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: fields:read\n  description: Required for retrieving field and boundary information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: fields:write\n  description: Required for uploading field boundaries\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: imagery:write\n  description: Required for uploading imagery\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: operations:read\n  description: Required for retrieving operation information\n  flows:\n\
   \  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: plantingActivitySummary:read\n  description: Required for retrieving planting activity summary data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: platform\n  description: (DEPRECATED) Legacy scope used for some Platform APIs\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: resourceOwners:read\n  description: Required for retrieving resource owner information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: rx:write\n  description: Required for uploading prescriptions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: scouting:read\n  description: Required for retrieving user\\'s scouting\
   \ information\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: soil:write\n  description: Required for uploading soil sample results\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: standCount:write\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- scope: weedCount:write\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/scopes/the-climate-corporation-scopes.yml
+source_yaml_url: https://artifacts.apis.io/the-climate-corporation/scopes/the-climate-corporation-scopes.yml
 summary_line: 24 scopes · authorizationCode
 tags:
 - Company

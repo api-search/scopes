@@ -5,13 +5,13 @@ api_specs:
   label: Google Places API
   slug: google-places-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/openapi/google-places-places-api-openapi.yml
+  url: https://artifacts.apis.io/google-places/openapi/google-places-places-api-openapi.yml
 - filename: google-places-search-api-openapi.yml
   format: yaml
   label: Google Places Search API
   slug: google-places-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/openapi/google-places-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-places/openapi/google-places-search-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -54,7 +54,7 @@ source_filename: google-places-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 bearer token authorization for the Google Maps Platform.\nscopes:\n- scope: https://www.googleapis.com/auth/maps-platform.places\n  description: Access the Places API\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/scopes/google-places-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-places/scopes/google-places-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Restaurant

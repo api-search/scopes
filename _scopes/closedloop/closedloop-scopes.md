@@ -5,67 +5,67 @@ api_specs:
   label: ClosedLoop AI Analytics API
   slug: closedloop-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-analytics-api-openapi.yml
 - filename: closedloop-competitors-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Competitors API
   slug: closedloop-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-competitors-api-openapi.yml
 - filename: closedloop-context-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Context API
   slug: closedloop-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-context-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-context-api-openapi.yml
 - filename: closedloop-customers-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Customers API
   slug: closedloop-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-customers-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-customers-api-openapi.yml
 - filename: closedloop-features-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Features API
   slug: closedloop-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-features-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-features-api-openapi.yml
 - filename: closedloop-insights-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Insights API
   slug: closedloop-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-insights-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-insights-api-openapi.yml
 - filename: closedloop-integrations-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Integrations API
   slug: closedloop-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-integrations-api-openapi.yml
 - filename: closedloop-meta-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Meta API
   slug: closedloop-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-meta-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-meta-api-openapi.yml
 - filename: closedloop-products-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Products API
   slug: closedloop-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-products-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-products-api-openapi.yml
 - filename: closedloop-themes-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Themes API
   slug: closedloop-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-themes-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-themes-api-openapi.yml
 - filename: closedloop-usage-api-openapi.yml
   format: yaml
   label: ClosedLoop AI Usage API
   slug: closedloop-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/openapi/closedloop-usage-api-openapi.yml
+  url: https://artifacts.apis.io/closedloop/openapi/closedloop-usage-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://closedloop.sh/docs/account/mcp-service-clients
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: https://mcp.close
   \    read access to everything that team can see; there is no way to issue a narrower key. Since\n    every operation is a GET, the blast radius of a leaked key is disclosure, not modification.\nauthorization_servers:\n- issuer: https://mcp.closedloop.sh\n  region: us\n  documented: true\n  scopes_supported: [mcp:tools, mcp:read]\n- issuer: https://eu.mcp.closedloop.sh\n  region: eu\n  documented: true\n  scopes_supported: [mcp:tools, mcp:read]\n- issuer: https://api.closedloop.sh/mcp\n  region: us\n  documented: false\n  scopes_supported: [mcp:tools, mcp:read]\n- issuer: https://eu.api.closedloop.sh/mcp\n  region: eu\n  documented: false\n  scopes_supported: [mcp:tools, mcp:read]\nscopes:\n- name: mcp:tools\n  description: >-\n    Invoke MCP tools. Advertised in both scopes_supported (authorization-server metadata) and the\n    protected-resource metadata on every ClosedLoop AI MCP host.\n  published_description: null\n  published_description_note: The provider publishes no description\
   \ for this scope. Recorded as\n    null rather than guessed.\n  covers: >-\n    Presumed to gate the 12 documented tools (get_overview, get_facets, get_trends,\n    search_customers, get_customer, search_insights, get_insight, search_signals, get_signal,\n    get_competitors, search_opportunities, get_opportunity). NOT CONFIRMED -- tools/list is\n    OAuth-gated so the per-tool scope requirement could not be observed.\n- name: mcp:read\n  description: >-\n    Read access over the MCP surface. Advertised alongside mcp:tools on every host.\n  published_description: null\n  published_description_note: The provider publishes no description for this scope.\n  covers: >-\n    Relationship to mcp:tools is not documented. Since every MCP tool is itself a read, the two\n    scopes may overlap substantially. NOT CONFIRMED.\nscope_count: 2\nbearer_methods_supported: [header]\ngrant_types_supported: [authorization_code, refresh_token, client_credentials]\ngaps:\n- id: no-scope-reference-page\n  detail:\
   \ >-\n    There is no scopes or permissions reference page anywhere under https://closedloop.sh/docs. The\n    MCP service-clients guide explains how to obtain a credential but never states what each scope\n    grants or which scope a given tool requires. A security reviewer cannot answer \"what can this\n    token do\" from published material -- only from the two scope names in the metadata.\n- id: rest-has-no-scopes\n  detail: >-\n    A ClosedLoop AI REST key cannot be narrowed. There is no read-only-subset key, no per-resource\n    key, and no way to issue a key that can see insights but not customer CRM context and deal\n    values. For a product whose data includes named customers, ARR and deal values, that is the\n    most consequential authorization gap in the surface.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/scopes/closedloop-scopes.yml
+source_yaml_url: https://artifacts.apis.io/closedloop/scopes/closedloop-scopes.yml
 summary_line: 2 scopes
 tags:
 - Product Intelligence

@@ -5,7 +5,7 @@ api_specs:
   label: Salesforce Marketing Cloud Account Engagement (Pardot) Objects API
   slug: pardot-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/openapi/pardot-objects-api-openapi.yml
+  url: https://artifacts.apis.io/pardot/openapi/pardot-objects-api-openapi.yml
 authorization_urls:
 - https://login.salesforce.com/services/oauth2/authorize
 description: ''
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   schemes:\n- name: BearerAuth\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.salesforce.com/services/oauth2/authorize\n    tokenUrl: https://login.salesforce.com/services/oauth2/token\nscope_count: 1\nscopes:\n- scope: pardot_api\n  description: Access the Marketing Cloud Account Engagement (Pardot) API. Required on the connected app or\n    no OAuth flow other than username/password can be used with the Account Engagement API.\n  flows:\n  - authorizationCode\n  product: Account Engagement\n  sources:\n  - https://developer.salesforce.com/docs/marketing/pardot/guide/authentication.md\n  - https://login.salesforce.com/.well-known/openid-configuration\ncompanion_platform_scopes:\n- scope: refresh_token\n  description: Issue a refresh token so the integration can renew access without re-consent.\n- scope: offline_access\n  description: Equivalent to refresh_token; keeps the grant alive between sessions.\n- scope: api\n  description: Salesforce Platform API access\
   \ — needed when the same connected app also calls Salesforce REST/SOAP\n    objects for Account Engagement development.\n- scope: openid\n  description: OpenID Connect sign-in; returns an id_token.\nauthorization_model:\n  style: coarse scope + per-object role abilities\n  note: Object reference pages publish the required ability per operation (for example Prospect Create requires\n    \"Prospect > Prospects > Create\", and reading prospects not assigned to the API user requires \"Prospects\n    > Prospects > View prospects not assigned to self\").\n  source: https://developer.salesforce.com/docs/marketing/pardot/guide/prospect-v5.md\nall_authorization_server_scopes:\n- address\n- api\n- cdp_api\n- cdp_calculated_insight_api\n- cdp_identityresolution_api\n- cdp_ingest_api\n- cdp_profile_api\n- cdp_query_api\n- cdp_segment_api\n- chatbot_api\n- chatter_api\n- content\n- custom_permissions\n- data_cloud_user_claims\n- eclair_api\n- einstein_gpt_api\n- email\n- forgot_password\n- full\n-\
   \ id\n- interaction_api\n- lightning\n- mcp_api\n- offline_access\n- openid\n- pardot_api\n- phone\n- profile\n- pwdless_login_api\n- refresh_token\n- scrt_api\n- sfap_api\n- user_registration_api\n- visualforce\n- wave_api\n- web\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/scopes/pardot-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pardot/scopes/pardot-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Marketing Automation

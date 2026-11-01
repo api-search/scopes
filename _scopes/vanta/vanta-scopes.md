@@ -5,67 +5,67 @@ api_specs:
   label: Vanta Auditors API
   slug: vanta-auditors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-auditors-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-auditors-api-openapi.yml
 - filename: vanta-audits-api-openapi.yml
   format: yaml
   label: Vanta Audits API
   slug: vanta-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-audits-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-audits-api-openapi.yml
 - filename: vanta-authentication-api-openapi.yml
   format: yaml
   label: Vanta Authentication API
   slug: vanta-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-authentication-api-openapi.yml
 - filename: vanta-controls-api-openapi.yml
   format: yaml
   label: Vanta Controls API
   slug: vanta-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-controls-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-controls-api-openapi.yml
 - filename: vanta-documents-api-openapi.yml
   format: yaml
   label: Vanta Documents API
   slug: vanta-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-documents-api-openapi.yml
 - filename: vanta-integrations-api-openapi.yml
   format: yaml
   label: Vanta Integrations API
   slug: vanta-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-integrations-api-openapi.yml
 - filename: vanta-resources-api-openapi.yml
   format: yaml
   label: Vanta Resources API
   slug: vanta-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-resources-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-resources-api-openapi.yml
 - filename: vanta-tests-api-openapi.yml
   format: yaml
   label: Vanta Tests API
   slug: vanta-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-tests-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-tests-api-openapi.yml
 - filename: vanta-users-api-openapi.yml
   format: yaml
   label: Vanta Users API
   slug: vanta-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-users-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-users-api-openapi.yml
 - filename: vanta-vendors-api-openapi.yml
   format: yaml
   label: Vanta Vendors API
   slug: vanta-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-vendors-api-openapi.yml
 - filename: vanta-vulnerabilities-api-openapi.yml
   format: yaml
   label: Vanta Vulnerabilities API
   slug: vanta-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/openapi/vanta-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/vanta/openapi/vanta-vulnerabilities-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -147,7 +147,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vanta-auditor-openapi.yml, openapi/vanta-openapi.yml\nschemes:\n- name: oauth\n  source: openapi/vanta-auditor-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.vanta.com/oauth/token\n  description: Get an oauth token from the token url and use it as a bearer token to access\n    the Vanta API.\n- name: OAuth2\n  source: openapi/vanta-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.vanta.com/oauth/token\nscopes:\n- scope: auditor-api.audit:read\n  description: Grant read-only access to your audits\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/vanta-auditor-openapi.yml\n  - openapi/vanta-openapi.yml\n- scope: auditor-api.audit:write\n  description: Grant read-write access to your audits\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/vanta-auditor-openapi.yml\n- scope: auditor-api.auditor:read\n  description: Grant read-only access to your\
   \ auditors\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/vanta-auditor-openapi.yml\n  - openapi/vanta-openapi.yml\n- scope: auditor-api.auditor:write\n  description: Grant read-write access to your auditors\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/vanta-auditor-openapi.yml\n- scope: connectors.self:read-resource\n  description: Read connector resources\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/vanta-openapi.yml\n- scope: connectors.self:write-resource\n  description: Write connector resources\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/vanta-openapi.yml\n- scope: vanta.read\n  description: Read access to Vanta data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/vanta-openapi.yml\n- scope: vanta.write\n  description: Write access to Vanta data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/vanta-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vanta/refs/heads/main/scopes/vanta-scopes.yml
+source_yaml_url: https://artifacts.apis.io/vanta/scopes/vanta-scopes.yml
 summary_line: 8 scopes · clientCredentials
 tags:
 - Cybersecurity

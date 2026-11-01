@@ -5,55 +5,55 @@ api_specs:
   label: Archera Commitment Plans API
   slug: archera-commitment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-commitment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-commitment-plans-api-openapi.yml
 - filename: archera-commitments-api-openapi.yml
   format: yaml
   label: Archera Commitments API
   slug: archera-commitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-commitments-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-commitments-api-openapi.yml
 - filename: archera-exchanges-api-openapi.yml
   format: yaml
   label: Archera Exchanges API
   slug: archera-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-exchanges-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-exchanges-api-openapi.yml
 - filename: archera-metrics-api-openapi.yml
   format: yaml
   label: Archera Metrics API
   slug: archera-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-metrics-api-openapi.yml
 - filename: archera-orgs-api-openapi.yml
   format: yaml
   label: Archera Orgs API
   slug: archera-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-orgs-api-openapi.yml
 - filename: archera-resources-api-openapi.yml
   format: yaml
   label: Archera Resources API
   slug: archera-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-resources-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-resources-api-openapi.yml
 - filename: archera-uploads-api-openapi.yml
   format: yaml
   label: Archera Uploads API
   slug: archera-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-uploads-api-openapi.yml
 - filename: archera-well-known-api-openapi.yml
   format: yaml
   label: Archera Well-Known API
   slug: archera-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-well-known-api-openapi.yml
 - filename: archera-oauth-api-openapi.yml
   format: yaml
   label: Archera O Auth API
   slug: archera-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-oauth-api-openapi.yml
 authorization_urls:
 - https://api.archera.ai/oauth/authorize
 description: OAuth 2.0 scopes advertised by the Archera authorization server (scopes_supported) and echoed by the MCP protected-resource metadata at https://mcp.archera.ai/.well-known/oauth-protected-resource/mcp. The OpenAPI does not enumerate per-operation scope requirements, so scope-to-operation mapping is inferred from the read/write naming convention.
@@ -111,7 +111,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://api.archera.ai/.well-known/oauth-authorization-server\ndocs: https://docs.archera.ai/api-reference/public-api/oauth\ndescription: >-\n  OAuth 2.0 scopes advertised by the Archera authorization server\n  (scopes_supported) and echoed by the MCP protected-resource metadata at\n  https://mcp.archera.ai/.well-known/oauth-protected-resource/mcp. The OpenAPI\n  does not enumerate per-operation scope requirements, so scope-to-operation\n  mapping is inferred from the read/write naming convention.\nschemes:\n- name: oauth2\n  source: https://api.archera.ai/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.archera.ai/oauth/authorize\n    tokenUrl: https://api.archera.ai/oauth/token\nscopes:\n- scope: archera:read\n  description: Read access to Archera resources (commitment plans, commitments, metrics, resources, orgs).\n  flows: [authorizationCode]\n  sources: [https://api.archera.ai/.well-known/oauth-authorization-server]\n\
   - scope: archera:write\n  description: Write access to Archera resources (apply commitment plans, apply exchange recommendations, uploads).\n  flows: [authorizationCode]\n  sources: [https://api.archera.ai/.well-known/oauth-authorization-server]\n- scope: archera:admin\n  description: Administrative access to the Archera organization.\n  flows: [authorizationCode]\n  sources: [https://api.archera.ai/.well-known/oauth-authorization-server]\n- scope: archera:analytics\n  description: Access to analytics and reporting data.\n  flows: [authorizationCode]\n  sources: [https://api.archera.ai/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/scopes/archera-scopes.yml
+source_yaml_url: https://artifacts.apis.io/archera/scopes/archera-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

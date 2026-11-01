@@ -5,19 +5,19 @@ api_specs:
   label: Samu Meetings API
   slug: samu-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/openapi/samu-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/samu/openapi/samu-meetings-api-openapi.yml
 - filename: samu-threads-api-openapi.yml
   format: yaml
   label: Samu Threads API
   slug: samu-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/openapi/samu-threads-api-openapi.yml
+  url: https://artifacts.apis.io/samu/openapi/samu-threads-api-openapi.yml
 - filename: samu-usuarios-api-openapi.yml
   format: yaml
   label: Samu Usuarios API
   slug: samu-usuarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/openapi/samu-usuarios-api-openapi.yml
+  url: https://artifacts.apis.io/samu/openapi/samu-usuarios-api-openapi.yml
 authorization_urls:
 - https://api.samu.ai/oauth/authorize
 description: ''
@@ -71,7 +71,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://api.samu.ai/.well-known/oauth-authorization-server\nnote: >-\n  Samu's OpenAPI declares only an apiKey scheme and has no oauth2 flows, so\n  derive-oauth-scopes.py found nothing. The OAuth surface is real but lives\n  entirely in the MCP authorization server metadata on api.samu.ai, which is\n  served anonymously and is captured verbatim in well-known/. Samu publishes no\n  human-readable scope reference page.\nschemes:\n- name: MCP OAuth 2.1\n  source: well-known/samu-oauth-authorization-server.json\n  issuer: https://api.samu.ai\n  protected_resource: https://api.samu.ai/mcp\n  dynamic_client_registration: https://api.samu.ai/oauth/register\n  code_challenge_methods: [S256]\n  token_endpoint_auth_methods: [none]\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.samu.ai/oauth/authorize\n    tokenUrl: https://api.samu.ai/oauth/token\n    revocationUrl: https://api.samu.ai/oauth/revoke\n  - flow:\
   \ refreshToken\n    tokenUrl: https://api.samu.ai/oauth/token\nscopes:\n- scope: mcp:read\n  description: >-\n    The only scope advertised in scopes_supported. Read access for MCP clients to\n    the Samu MCP server. Samu publishes no per-scope description; this is the\n    scope string verbatim from the authorization-server metadata.\n  flows: [authorizationCode]\n  sources: [well-known/samu-oauth-authorization-server.json]\nx-evidence:\n  fetched: '2026-08-13'\n  url: https://api.samu.ai/.well-known/oauth-authorization-server\n  http_status: 200\n  content_type: application/json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/scopes/samu-scopes.yml
+source_yaml_url: https://artifacts.apis.io/samu/scopes/samu-scopes.yml
 summary_line: 1 scope · authorizationCode/refreshToken
 tags:
 - Company

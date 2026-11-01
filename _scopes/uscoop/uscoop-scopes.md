@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://tnuck.com/.well-known/openid-configuration\nschemes:\n- name: shopify-customer-accounts-oauth2\n  source: well-known/uscoop-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/63049990366/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/63049990366/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication (standard OIDC scope)\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/uscoop-openid-configuration.json\n- scope: email\n  description: Access to the customer's email address (standard OIDC scope)\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/uscoop-openid-configuration.json\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for this store\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/uscoop-openid-configuration.json\n\
   - scope: customer-account-mcp-api:full\n  description: Full access to the Shopify customer-account MCP API for this store\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/uscoop-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uscoop/refs/heads/main/scopes/uscoop-scopes.yml
+source_yaml_url: https://artifacts.apis.io/uscoop/scopes/uscoop-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

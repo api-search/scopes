@@ -40,7 +40,7 @@ source_filename: sonos-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.sonos.com/docs/authorize\ndocs: https://docs.sonos.com/docs/authorize\ndescription: >-\n  The Sonos Control API defines a single OAuth 2.0 scope. It is requested in the\n  authorize step and grants control over all players and groups in the\n  authenticated user's household(s).\nschemes:\n- name: SonosOAuth\n  source: https://docs.sonos.com/docs/authorize\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.sonos.com/login/v3/oauth\n    tokenUrl: https://api.sonos.com/login/v3/oauth/access\nscopes:\n- scope: playback-control-all\n  description: >-\n    Full control access to the household's Sonos system: read household/group\n    state and drive playback, volume, grouping, favorites, playlists, home\n    theater, audio clips, and cloud-queue sessions.\n  flows: [authorizationCode]\n  sources: [https://docs.sonos.com/docs/authorize]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonos/refs/heads/main/scopes/sonos-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sonos/scopes/sonos-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

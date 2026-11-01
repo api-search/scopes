@@ -5,163 +5,163 @@ api_specs:
   label: CloudKitchens Account Pairing Endpoints API
   slug: cloudkitchens-account-pairing-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-account-pairing-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-account-pairing-endpoints-api-openapi.yml
 - filename: cloudkitchens-account-pairing-webhooks-api-openapi.yml
   format: yaml
   label: CloudKitchens Account Pairing Webhooks API
   slug: cloudkitchens-account-pairing-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-account-pairing-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-account-pairing-webhooks-api-openapi.yml
 - filename: cloudkitchens-auth-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Auth Endpoints API
   slug: cloudkitchens-auth-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-auth-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-auth-endpoints-api-openapi.yml
 - filename: cloudkitchens-callback-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Callback Endpoints API
   slug: cloudkitchens-callback-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-callback-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-callback-endpoints-api-openapi.yml
 - filename: cloudkitchens-delivery-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Delivery Endpoints API
   slug: cloudkitchens-delivery-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-delivery-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-delivery-endpoints-api-openapi.yml
 - filename: cloudkitchens-delivery-webhooks-api-openapi.yml
   format: yaml
   label: CloudKitchens Delivery Webhooks API
   slug: cloudkitchens-delivery-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-delivery-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-delivery-webhooks-api-openapi.yml
 - filename: cloudkitchens-direct-orders-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Direct Orders Endpoints API
   slug: cloudkitchens-direct-orders-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-direct-orders-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-direct-orders-endpoints-api-openapi.yml
 - filename: cloudkitchens-finance-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Finance Endpoints API
   slug: cloudkitchens-finance-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-finance-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-finance-endpoints-api-openapi.yml
 - filename: cloudkitchens-inventory-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Inventory Endpoints API
   slug: cloudkitchens-inventory-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-inventory-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-inventory-endpoints-api-openapi.yml
 - filename: cloudkitchens-manager-loyalty-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Manager Loyalty Endpoints API
   slug: cloudkitchens-manager-loyalty-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-manager-loyalty-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-manager-loyalty-endpoints-api-openapi.yml
 - filename: cloudkitchens-manager-menu-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Manager Menu Endpoints API
   slug: cloudkitchens-manager-menu-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-manager-menu-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-manager-menu-endpoints-api-openapi.yml
 - filename: cloudkitchens-manager-order-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Manager Order Endpoints API
   slug: cloudkitchens-manager-order-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-manager-order-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-manager-order-endpoints-api-openapi.yml
 - filename: cloudkitchens-manager-orders-webhooks-api-openapi.yml
   format: yaml
   label: CloudKitchens Manager Orders Webhooks API
   slug: cloudkitchens-manager-orders-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-manager-orders-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-manager-orders-webhooks-api-openapi.yml
 - filename: cloudkitchens-manager-storefront-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Manager Storefront Endpoints API
   slug: cloudkitchens-manager-storefront-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-manager-storefront-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-manager-storefront-endpoints-api-openapi.yml
 - filename: cloudkitchens-menus-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Menus Endpoints API
   slug: cloudkitchens-menus-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-menus-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-menus-endpoints-api-openapi.yml
 - filename: cloudkitchens-menus-webhooks-api-openapi.yml
   format: yaml
   label: CloudKitchens Menus Webhooks API
   slug: cloudkitchens-menus-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-menus-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-menus-webhooks-api-openapi.yml
 - filename: cloudkitchens-orders-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Orders Endpoints API
   slug: cloudkitchens-orders-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-orders-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-orders-endpoints-api-openapi.yml
 - filename: cloudkitchens-orders-webhooks-api-openapi.yml
   format: yaml
   label: CloudKitchens Orders Webhooks API
   slug: cloudkitchens-orders-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-orders-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-orders-webhooks-api-openapi.yml
 - filename: cloudkitchens-organization-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Organization Endpoints API
   slug: cloudkitchens-organization-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-organization-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-organization-endpoints-api-openapi.yml
 - filename: cloudkitchens-ping-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Ping Endpoints API
   slug: cloudkitchens-ping-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-ping-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-ping-endpoints-api-openapi.yml
 - filename: cloudkitchens-ping-webhooks-api-openapi.yml
   format: yaml
   label: CloudKitchens Ping Webhooks API
   slug: cloudkitchens-ping-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-ping-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-ping-webhooks-api-openapi.yml
 - filename: cloudkitchens-reports-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Reports Endpoints API
   slug: cloudkitchens-reports-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-reports-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-reports-endpoints-api-openapi.yml
 - filename: cloudkitchens-reports-webhooks-api-openapi.yml
   format: yaml
   label: CloudKitchens Reports Webhooks API
   slug: cloudkitchens-reports-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-reports-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-reports-webhooks-api-openapi.yml
 - filename: cloudkitchens-reviews-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Reviews Endpoints API
   slug: cloudkitchens-reviews-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-reviews-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-reviews-endpoints-api-openapi.yml
 - filename: cloudkitchens-storefront-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Storefront Endpoints API
   slug: cloudkitchens-storefront-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-storefront-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-storefront-endpoints-api-openapi.yml
 - filename: cloudkitchens-storefront-webhooks-api-openapi.yml
   format: yaml
   label: CloudKitchens Storefront Webhooks API
   slug: cloudkitchens-storefront-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-storefront-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-storefront-webhooks-api-openapi.yml
 - filename: cloudkitchens-market-intel-endpoints-api-openapi.yml
   format: yaml
   label: CloudKitchens Market Intel Endpoints API
   slug: cloudkitchens-market-intel-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/openapi/cloudkitchens-market-intel-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/cloudkitchens/openapi/cloudkitchens-market-intel-endpoints-api-openapi.yml
 authorization_urls:
 - /v1/auth/oauth2/authorize
 description: ''
@@ -372,7 +372,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: https://develop
   \ a given store.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: orders.read\n  description: Permission to read orders and connected data.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: orders.update\n  description: Permission to create and update new orders for a given store.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: organization.read\n  description: Permission to read data for organization/brands/stores on behalf of a user.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: organization.service_integration\n  description: Permission to manage the your integration with a given store on behalf of a user.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: ping\n  description: Permission to ping the system.\n\
   \  flows:\n  - clientCredentials\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: reports.generate_report\n  description: Permission to request reports for given store(s) and period of time.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: reviews.reply\n  description: Permission to reply to reviews.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: store.read\n  description: Permission to query store information.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: storefront.store_availability\n  description: Permission to send the current state of store.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: storefront.store_hours_configuration\n  description: Permission to send the current store hours configuration.\n  flows:\n  - clientCredentials\n\
   \  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: storefront.store_pause_unpause\n  description: Permission to notify the result of a pause/unpause operation, after being requested by a webhook\n    event.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n- scope: stores.manage\n  description: Permission to onboard stores and update the identifier.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cloudkitchens-public-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/scopes/cloudkitchens-scopes.yml
+source_yaml_url: https://artifacts.apis.io/cloudkitchens/scopes/cloudkitchens-scopes.yml
 summary_line: 31 scopes · clientCredentials/authorizationCode
 tags:
 - Restaurant

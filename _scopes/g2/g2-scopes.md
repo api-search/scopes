@@ -5,169 +5,169 @@ api_specs:
   label: G2 Buyer Intent API
   slug: g2-buyer-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-buyer-intent-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-buyer-intent-api-openapi.yml
 - filename: g2-categories-api-openapi.yml
   format: yaml
   label: G2 Categories API
   slug: g2-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-categories-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-categories-api-openapi.yml
 - filename: g2-chat-gpt-plugin-api-openapi.yml
   format: yaml
   label: G2 Chat Gpt Plugin API
   slug: g2-chat-gpt-plugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-chat-gpt-plugin-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-chat-gpt-plugin-api-openapi.yml
 - filename: g2-competitors-api-openapi.yml
   format: yaml
   label: G2 Competitors API
   slug: g2-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-competitors-api-openapi.yml
 - filename: g2-credit-account-api-openapi.yml
   format: yaml
   label: G2 Credit Account API
   slug: g2-credit-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-credit-account-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-credit-account-api-openapi.yml
 - filename: g2-data-solutions-reviews-api-openapi.yml
   format: yaml
   label: G2 Data Solutions Reviews API
   slug: g2-data-solutions-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-data-solutions-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-data-solutions-reviews-api-openapi.yml
 - filename: g2-data-subscriptions-api-openapi.yml
   format: yaml
   label: G2 Data Subscriptions API
   slug: g2-data-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-data-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-data-subscriptions-api-openapi.yml
 - filename: g2-discussions-api-openapi.yml
   format: yaml
   label: G2 Discussions API
   slug: g2-discussions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-discussions-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-discussions-api-openapi.yml
 - filename: g2-downloads-api-openapi.yml
   format: yaml
   label: G2 Downloads API
   slug: g2-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-downloads-api-openapi.yml
 - filename: g2-g2-activate-api-openapi.yml
   format: yaml
   label: G2 G2 Activate API
   slug: g2-g2-activate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-g2-activate-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-g2-activate-api-openapi.yml
 - filename: g2-integration-reviews-api-openapi.yml
   format: yaml
   label: G2 Integration Reviews API
   slug: g2-integration-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-integration-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-integration-reviews-api-openapi.yml
 - filename: g2-market-signals-api-openapi.yml
   format: yaml
   label: G2 Market Signals API
   slug: g2-market-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-market-signals-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-market-signals-api-openapi.yml
 - filename: g2-medals-api-openapi.yml
   format: yaml
   label: G2 Medals API
   slug: g2-medals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-medals-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-medals-api-openapi.yml
 - filename: g2-performance-analytics-api-openapi.yml
   format: yaml
   label: G2 Performance Analytics API
   slug: g2-performance-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-performance-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-performance-analytics-api-openapi.yml
 - filename: g2-product-features-api-openapi.yml
   format: yaml
   label: G2 Product Features API
   slug: g2-product-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-product-features-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-product-features-api-openapi.yml
 - filename: g2-product-mappings-api-openapi.yml
   format: yaml
   label: G2 Product Mappings API
   slug: g2-product-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-product-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-product-mappings-api-openapi.yml
 - filename: g2-product-ratings-api-openapi.yml
   format: yaml
   label: G2 Product Ratings API
   slug: g2-product-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-product-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-product-ratings-api-openapi.yml
 - filename: g2-product-videos-api-openapi.yml
   format: yaml
   label: G2 Product Videos API
   slug: g2-product-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-product-videos-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-product-videos-api-openapi.yml
 - filename: g2-products-api-openapi.yml
   format: yaml
   label: G2 Products API
   slug: g2-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-products-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-products-api-openapi.yml
 - filename: g2-questions-api-openapi.yml
   format: yaml
   label: G2 Questions API
   slug: g2-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-questions-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-questions-api-openapi.yml
 - filename: g2-reports-api-openapi.yml
   format: yaml
   label: G2 Reports API
   slug: g2-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-reports-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-reports-api-openapi.yml
 - filename: g2-research-boards-api-openapi.yml
   format: yaml
   label: G2 Research Boards API
   slug: g2-research-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-research-boards-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-research-boards-api-openapi.yml
 - filename: g2-reviews-api-openapi.yml
   format: yaml
   label: G2 Reviews API
   slug: g2-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-reviews-api-openapi.yml
 - filename: g2-screenshots-api-openapi.yml
   format: yaml
   label: G2 Screenshots API
   slug: g2-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-screenshots-api-openapi.yml
 - filename: g2-snippets-api-openapi.yml
   format: yaml
   label: G2 Snippets API
   slug: g2-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-snippets-api-openapi.yml
 - filename: g2-users-api-openapi.yml
   format: yaml
   label: G2 Users API
   slug: g2-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-users-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-users-api-openapi.yml
 - filename: g2-vendors-api-openapi.yml
   format: yaml
   label: G2 Vendors API
   slug: g2-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-vendors-api-openapi.yml
 - filename: g2-video-reviews-api-openapi.yml
   format: yaml
   label: G2 Video Reviews API
   slug: g2-video-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/openapi/g2-video-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/g2/openapi/g2-video-reviews-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://documentation.g2.com/docs/g2-mcp-server#connect-directly-to-the-g2-mcp-server
@@ -282,7 +282,7 @@ source_yaml: "generated: '2026-08-29'\nmethod: searched\nsource: >-\n  openapi/g
   \ Modify Data Subscription records.\n    sources: [openapi]\n    write: true\n  - scope: data_subscriptions.write\n    description: Write Data Subscription records.\n    sources: [openapi]\n    write: true\n    note: Appears in per-operation security requirements but not in the securityScheme scope map.\n  - scope: performance_analytics.read\n    description: Read Performance Analytics data.\n    sources: [openapi]\n    note: Enforced with the 403 title \"Missing performance_analytics.read scope\" on 5 operations.\n  - scope: 'partner:partner-id.read'\n    description: Access records created in the Partner realm.\n    sources: [openapi]\n    note: Templated — substitute the caller's partner id.\n  - scope: g2_activate.read\n    description: Read G2 Activate locked/unlocked company records.\n    sources: [openapi-operation-security, openapi-error-titles]\n    note: Enforced with the 403 title \"Missing g2_activate.read scope\".\n  - scope: g2_activate.write\n    description: Spend credits\
   \ to unlock G2 Activate companies.\n    sources: [openapi-operation-security, openapi-error-titles]\n    write: true\n    billable: true\n    note: >-\n      The only scope in the contract that authorizes spending money. Enforced with the 403\n      title \"Missing g2_activate.write scope\".\n  - scope: snippets\n    description: Access review snippets.\n    sources: [openapi]\n  - scope: openid_admin\n    description: Administrative OpenID scope.\n    sources: [openid-configuration]\n  - scope: profile_admin\n    description: Administrative profile scope.\n    sources: [openid-configuration]\nscope_count: 18\noperational_notes:\n  - >-\n    Requested scopes must match the Read/Write Permissions enabled on the OAuth app in the\n    Developer Portal, or the token request fails with \"requested scope is invalid, unknown, or\n    malformed\". G2's documented remedy is to add scopes back one at a time.\n  - Request only the scopes an application requires; permissions are selected per endpoint\
   \ at app registration.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/g2/refs/heads/main/scopes/g2-scopes.yml
+source_yaml_url: https://artifacts.apis.io/g2/scopes/g2-scopes.yml
 summary_line: 18 scopes
 tags:
 - B2B

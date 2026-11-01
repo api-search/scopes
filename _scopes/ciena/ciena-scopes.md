@@ -5,25 +5,25 @@ api_specs:
   label: Ciena Alarms API
   slug: ciena-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/ciena/openapi/ciena-alarms-api-openapi.yml
 - filename: ciena-performance-api-openapi.yml
   format: yaml
   label: Ciena Performance API
   slug: ciena-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-performance-api-openapi.yml
+  url: https://artifacts.apis.io/ciena/openapi/ciena-performance-api-openapi.yml
 - filename: ciena-services-api-openapi.yml
   format: yaml
   label: Ciena Services API
   slug: ciena-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-services-api-openapi.yml
+  url: https://artifacts.apis.io/ciena/openapi/ciena-services-api-openapi.yml
 - filename: ciena-topology-api-openapi.yml
   format: yaml
   label: Ciena Topology API
   slug: ciena-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/openapi/ciena-topology-api-openapi.yml
+  url: https://artifacts.apis.io/ciena/openapi/ciena-topology-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -85,7 +85,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ciena-blue-planet-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/ciena-blue-planet-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.blueplanet.com/oauth/token\n  description: OAuth 2.0 authentication for Blue Planet API\nscopes:\n- scope: alarms:read\n  description: Read network alarms\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/ciena-blue-planet-openapi.yml\n- scope: performance:read\n  description: Read performance metrics\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/ciena-blue-planet-openapi.yml\n- scope: services:read\n  description: Read network services\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/ciena-blue-planet-openapi.yml\n- scope: services:write\n  description: Create and modify network services\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/ciena-blue-planet-openapi.yml\n- scope: topology:read\n  description: Read network\
   \ topology\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/ciena-blue-planet-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/scopes/ciena-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ciena/scopes/ciena-scopes.yml
 summary_line: 5 scopes · clientCredentials
 tags:
 - MEF

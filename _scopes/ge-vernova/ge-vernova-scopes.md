@@ -5,7 +5,7 @@ api_specs:
   label: Proficy Historian REST API
   slug: ge-vernova-proficy-historian-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/openapi/_ae-authored/ge-vernova-openapi-generated.yml
+  url: https://artifacts.apis.io/ge-vernova/openapi/_ae-authored/ge-vernova-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: https://www.gevernova.com/software/documentation/uaa/version2025/r_proficyauth_historian_groups_in_uaa.html
@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: https://www.gev
   \ to Configuration Hub and iFIX connection, database and model features.\n    product: Proficy iFIX\n  - scope: scada.fix.shared.OPERATORS\n    description: Run-mode-only access for a user in iFIX.\n    product: Proficy iFIX\n  - scope: scada.fix.shared.SUPERVISORS\n    description: WorkSpace run and configure mode, background task exit, and iFIX system shutdown.\n    product: Proficy iFIX\n  - scope: scada.proficy.admin\n    description: Access to the iFIX Projects panel and Deploy operations from Configuration Hub.\n    product: Proficy iFIX\nplant_applications_scopes:\n  note: >-\n    Plant Applications publishes a scope-per-application table (mes.<application>.user). Transcribed\n    verbatim; the \"applies to\" column names the Web Client application each scope unlocks.\n  source: https://www.gevernova.com/software/documentation/uaa/version2025/r_proficyauth_plantapps_groups_in_uaa.html\n  scopes:\n    - {scope: mes.activities.user, applies_to: Activities}\n    - {scope: mes.alarms.user,\
   \ applies_to: Alarms / Alarm Notifications}\n    - {scope: mes.analysis.user, applies_to: Analysis}\n    - {scope: mes.approval_cockpit.user, applies_to: Approval Cockpit}\n    - {scope: mes.autolog.user, applies_to: Autolog}\n    - {scope: mes.bom_editor.user, applies_to: BOM Editor}\n    - {scope: mes.configuration_management.user, applies_to: Configuration}\n    - {scope: mes.downtime.user, applies_to: Downtime}\n    - {scope: mes.engineeringChangeOrder.user, applies_to: Engineering Change Orders}\n    - {scope: mes.equipment.user, applies_to: OEE Dashboard}\n    - {scope: mes.genealogy.user, applies_to: Genealogy}\n    - {scope: mes.lineoverview.user, applies_to: Line Overview}\n    - {scope: mes.my_machines.user, applies_to: My Machines}\n    - {scope: mes.ncm_management.user, applies_to: Non Conformance}\n    - {scope: mes.operations.user, applies_to: Unit Operations}\n    - {scope: mes.operatorlog.user, applies_to: Operator Log}\n    - {scope: mes.order_management.user, applies_to:\
   \ Work Order Manager}\n    - {scope: mes.process_orders.user, applies_to: Process Orders}\n    - {scope: mes.property_definition.user, applies_to: Property Definition}\n    - {scope: mes.receiving_inspection.user, applies_to: Receiving Inspection}\n    - {scope: mes.reports.user, applies_to: Reports}\n    - {scope: mes.route_management.user, applies_to: Route Editor}\n    - {scope: mes.security_management.user, applies_to: Security}\n    - {scope: mes.time_booking.user, applies_to: Time Booking}\n    - {scope: mes.waste.user, applies_to: Waste}\n    - {scope: mes.work_queue.user, applies_to: Work Queue}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/scopes/ge-vernova-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ge-vernova/scopes/ge-vernova-scopes.yml
 summary_line: 27 scopes · password/clientCredentials
 tags:
 - Decarbonization

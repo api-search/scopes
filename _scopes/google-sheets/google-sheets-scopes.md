@@ -5,25 +5,25 @@ api_specs:
   label: Google Sheets API
   slug: google-sheets-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-sheets-api-openapi.yml
 - filename: google-sheets-spreadsheets-api-openapi.yml
   format: yaml
   label: Google Sheets Spreadsheets API
   slug: google-sheets-spreadsheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-spreadsheets-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-spreadsheets-api-openapi.yml
 - filename: google-sheets-values-api-openapi.yml
   format: yaml
   label: Google Sheets Values API
   slug: google-sheets-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-values-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-values-api-openapi.yml
 - filename: google-sheets-developer-metadata-api-openapi.yml
   format: yaml
   label: Google Sheets Developer Metadata API
   slug: google-sheets-developer-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-developer-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-developer-metadata-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -87,7 +87,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-sheets-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-sheets-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for accessing user spreadsheets.\nscopes:\n- scope: https://www.googleapis.com/auth/drive\n  description: Full access to Google Drive files.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-sheets-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.file\n  description: Access to files created or opened by the app.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-sheets-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.readonly\n  description: Read-only access to Google Drive files.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-sheets-openapi.yml\n- scope: https://www.googleapis.com/auth/spreadsheets\n\
   \  description: Read and write access to all spreadsheets.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-sheets-openapi.yml\n- scope: https://www.googleapis.com/auth/spreadsheets.readonly\n  description: Read-only access to all spreadsheets.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-sheets-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/scopes/google-sheets-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-sheets/scopes/google-sheets-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Google Workspace

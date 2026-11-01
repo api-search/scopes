@@ -5,55 +5,55 @@ api_specs:
   label: Azure Repos Commits API
   slug: microsoft-azure-repo-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-commits-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-commits-api-openapi.yml
 - filename: microsoft-azure-repo-items-api-openapi.yml
   format: yaml
   label: Azure Repos Items API
   slug: microsoft-azure-repo-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-items-api-openapi.yml
 - filename: microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
   format: yaml
   label: Azure Repos Pull Request Reviewers API
   slug: microsoft-azure-repo-pull-request-reviewers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
 - filename: microsoft-azure-repo-pull-request-threads-api-openapi.yml
   format: yaml
   label: Azure Repos Pull Request Threads API
   slug: microsoft-azure-repo-pull-request-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml
 - filename: microsoft-azure-repo-pull-requests-api-openapi.yml
   format: yaml
   label: Azure Repos Pull Requests API
   slug: microsoft-azure-repo-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pull-requests-api-openapi.yml
 - filename: microsoft-azure-repo-pushes-api-openapi.yml
   format: yaml
   label: Azure Repos Pushes API
   slug: microsoft-azure-repo-pushes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pushes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pushes-api-openapi.yml
 - filename: microsoft-azure-repo-refs-api-openapi.yml
   format: yaml
   label: Azure Repos Refs API
   slug: microsoft-azure-repo-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-refs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-refs-api-openapi.yml
 - filename: microsoft-azure-repo-repositories-api-openapi.yml
   format: yaml
   label: Azure Repos Repositories API
   slug: microsoft-azure-repo-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-repositories-api-openapi.yml
 - filename: microsoft-azure-repo-stats-api-openapi.yml
   format: yaml
   label: Azure Repos Stats API
   slug: microsoft-azure-repo-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-stats-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-stats-api-openapi.yml
 authorization_urls:
 - https://app.vssps.visualstudio.com/oauth2/authorize
 description: ''
@@ -107,7 +107,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-repo-git-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/azure-repo-git-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write for write operations.\nscopes:\n- scope: vso.code\n  description: Read source code and metadata about commits, changesets, branches, and other\n    version control artifacts\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/azure-repo-git-api-openapi.yml\n- scope: vso.code_manage\n  description: Read, create, manage, and delete repositories and branches\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/azure-repo-git-api-openapi.yml\n- scope: vso.code_write\n  description: Read,\
   \ create, and manage pull requests and code\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/azure-repo-git-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/scopes/microsoft-azure-repo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-repo/scopes/microsoft-azure-repo-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Developer Tools

@@ -45,7 +45,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.testsprite.com/cli/core/authentication\ndocs: https://docs.testsprite.com/cli/core/authentication\ndescription: >-\n  TestSprite API keys are scoped. These are API-key permission scopes (not OAuth2\n  flows — TestSprite issues no OAuth authorization/token endpoints). New and\n  grandfathered keys both default to the five scopes the CLI needs. Scope\n  enforcement surfaces as the AUTH_FORBIDDEN error / exit code 3 (see\n  errors/testsprite-error-codes.yml).\nscheme:\n  type: apiKey\n  binding: TestSprite API key\nscopes:\n  - scope: read:me\n    description: Identity and usage — `auth status`, `usage`.\n  - scope: read:projects\n    description: Read projects — `project list`, `project get`.\n  - scope: read:tests\n    description: Read tests, execution steps, results, and failure artifacts.\n  - scope: write:tests\n    description: >-\n      Create/update/delete tests and projects — test create, test create-batch,\n\
   \      test update, test delete, test delete-batch, test code put, test plan put,\n      project create, project update.\n  - scope: run:tests\n    description: Execute tests — test run, test wait, test rerun.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testsprite/refs/heads/main/scopes/testsprite-scopes.yml
+source_yaml_url: https://artifacts.apis.io/testsprite/scopes/testsprite-scopes.yml
 summary_line: 5 scopes
 tags:
 - Company

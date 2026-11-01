@@ -5,19 +5,19 @@ api_specs:
   label: Syft Data Export API
   slug: syft-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/openapi/syft-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/syft-data/openapi/syft-data-export-api-openapi.yml
 - filename: syft-data-lookup-api-openapi.yml
   format: yaml
   label: Syft Data Lookup API
   slug: syft-data-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/openapi/syft-data-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/syft-data/openapi/syft-data-lookup-api-openapi.yml
 - filename: syft-data-events-api-openapi.yml
   format: yaml
   label: Syft Data Event Collection API
   slug: syft-data-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/openapi/syft-data-events-api-openapi.yml
+  url: https://artifacts.apis.io/syft-data/openapi/syft-data-events-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.syftdata.com/ai-agents/connect
@@ -59,7 +59,7 @@ source_filename: syft-data-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://app.syftdata.com/.well-known/openid-configuration\ndocs: https://docs.syftdata.com/ai-agents/connect\nsummary: >-\n  OAuth scopes advertised by the Auth0 tenant (syft-studio.us.auth0.com) that\n  backs Syft app login and the MCP server OAuth flow. These are standard OIDC\n  scopes; the REST Lookup/Export APIs use a Server Secret Key rather than scoped\n  OAuth tokens.\nissuer: https://syft-studio.us.auth0.com/\nscopes:\n  - name: openid\n    description: OpenID Connect sign-in; issues an ID token.\n  - name: profile\n    description: Access to the user's basic profile claims.\n  - name: email\n    description: Access to the user's email address.\n  - name: offline_access\n    description: Issue a refresh token for long-lived sessions.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/scopes/syft-data-scopes.yml
+source_yaml_url: https://artifacts.apis.io/syft-data/scopes/syft-data-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

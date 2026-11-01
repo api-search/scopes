@@ -5,13 +5,13 @@ api_specs:
   label: Azure Kubernetes Service Agent Pools API
   slug: microsoft-azure-kubernetes-service-agent-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/openapi/microsoft-azure-kubernetes-service-agent-pools-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-kubernetes-service/openapi/microsoft-azure-kubernetes-service-agent-pools-api-openapi.yml
 - filename: microsoft-azure-kubernetes-service-managed-clusters-api-openapi.yml
   format: yaml
   label: Azure Kubernetes Service Managed Clusters API
   slug: microsoft-azure-kubernetes-service-managed-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/openapi/microsoft-azure-kubernetes-service-managed-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-kubernetes-service/openapi/microsoft-azure-kubernetes-service-managed-clusters-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -50,7 +50,7 @@ source_filename: microsoft-azure-kubernetes-service-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-kubernetes-service-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/azure-kubernetes-service-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/azure-kubernetes-service-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/scopes/microsoft-azure-kubernetes-service-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-kubernetes-service/scopes/microsoft-azure-kubernetes-service-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Microsoft Azure

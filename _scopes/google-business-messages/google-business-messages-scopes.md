@@ -5,7 +5,7 @@ api_specs:
   label: Google Business Messages Conversations API
   slug: google-business-messages-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-business-messages/refs/heads/main/openapi/google-business-messages-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/google-business-messages/openapi/google-business-messages-conversations-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -46,7 +46,7 @@ source_filename: google-business-messages-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/openapi.yml\ndocs: https://developers.google.com/business-communications/business-messages/guides/how-to/integrate/oauth\nnote: Google Business Messages was sunset on July 31, 2024; the API used a single\n  OAuth scope, documented in the OAuth guide and official client libraries.\nschemes:\n- name: OAuth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/businessmessages\n  description: Access the Business Messages API to send and receive messages and\n    manage conversations as an agent.\n  sources:\n  - https://developers.google.com/business-communications/business-messages/guides/how-to/integrate/oauth\n  - https://github.com/google-business-communications/nodejs-businessmessages\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-business-messages/refs/heads/main/scopes/google-business-messages-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-business-messages/scopes/google-business-messages-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Business Communications

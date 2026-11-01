@@ -5,67 +5,67 @@ api_specs:
   label: Lucca Employee Attributes API
   slug: lucca-employee-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-employee-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-employee-attributes-api-openapi.yml
 - filename: lucca-employee-job-qualifications-api-openapi.yml
   format: yaml
   label: Lucca Employee Job Qualifications API
   slug: lucca-employee-job-qualifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-employee-job-qualifications-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-employee-job-qualifications-api-openapi.yml
 - filename: lucca-employee-occupation-categories-api-openapi.yml
   format: yaml
   label: Lucca Employee Occupation Categories API
   slug: lucca-employee-occupation-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-employee-occupation-categories-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-employee-occupation-categories-api-openapi.yml
 - filename: lucca-employees-api-openapi.yml
   format: yaml
   label: Lucca Employees API
   slug: lucca-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-employees-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-employees-api-openapi.yml
 - filename: lucca-employments-api-openapi.yml
   format: yaml
   label: Lucca Employments API
   slug: lucca-employments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-employments-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-employments-api-openapi.yml
 - filename: lucca-events-api-openapi.yml
   format: yaml
   label: Lucca Events API
   slug: lucca-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-events-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-events-api-openapi.yml
 - filename: lucca-files-api-openapi.yml
   format: yaml
   label: Lucca Files API
   slug: lucca-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-files-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-files-api-openapi.yml
 - filename: lucca-organization-api-openapi.yml
   format: yaml
   label: Lucca Organization API
   slug: lucca-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-organization-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-organization-api-openapi.yml
 - filename: lucca-taxonomies-api-openapi.yml
   format: yaml
   label: Lucca Taxonomies API
   slug: lucca-taxonomies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-taxonomies-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-taxonomies-api-openapi.yml
 - filename: lucca-webhooks-api-openapi.yml
   format: yaml
   label: Lucca Webhooks API
   slug: lucca-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-webhooks-api-openapi.yml
 - filename: lucca-working-time-arrangements-api-openapi.yml
   format: yaml
   label: Lucca Working Time Arrangements API
   slug: lucca-working-time-arrangements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/openapi/lucca-working-time-arrangements-api-openapi.yml
+  url: https://artifacts.apis.io/lucca/openapi/lucca-working-time-arrangements-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -289,7 +289,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/lucca-ap
   \  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: legal-entities.readonly\n  description: Read [legal-entities](/api-reference/latest/organization/legal-entity).\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: legal-entities.readwrite\n  description: Create, update or delete [legal-entities](/api-reference/latest/organization/legal-entity).\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: occupation-categories.readonly\n  description: Read [occupation-categories](/api-reference/latest/employee-occupations/occupation-category).\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: occupation-categories.readwrite\n  description: Create, update or delete [occupation-categories](/api-reference/latest/employee-occupations/occupation-category).\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n\
   - scope: probationary-periods.readonly\n  description: Read [probationary-periods](/api-reference/latest/employments/probationary-period).\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: probationary-periods.readwrite\n  description: Create, update or delete [probationary-periods](/api-reference/latest/employments/probationary-period).\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: taxonomies.readonly\n  description: Read [taxonomies](/api-reference/latest/taxonomies/taxonomy) and [taxonomy-labels](/api-reference/latest/taxonomies/taxonomy-label).\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: taxonomies.readwrite\n  description: Create, update or delete [taxonomies](/api-reference/latest/taxonomies/taxonomy)\n    and [taxonomy-labels](/api-reference/latest/taxonomies/taxonomy-label).\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n\
   - scope: webhook-deliveries.readonly\n  description: Read webhook-deliveries.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: webhook-deliveries.readwrite\n  description: Send a ping event to a webhook-endpoint.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: webhook-endpoints.readonly\n  description: Read webhook-endpoints.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: webhook-endpoints.readwrite\n  description: Create and update webhook-endpoints.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n- scope: working-time-arrangements.readonly\n  description: Read working-time-arrangements.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lucca-api-2024-11-01.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucca/refs/heads/main/scopes/lucca-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lucca/scopes/lucca-scopes.yml
 summary_line: 36 scopes · clientCredentials
 tags:
 - Company

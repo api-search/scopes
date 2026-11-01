@@ -5,7 +5,7 @@ api_specs:
   label: A2 Biotherapeutics MCP API
   slug: a2-biotherapeutics-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/openapi/a2-biotherapeutics-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/a2-biotherapeutics/openapi/a2-biotherapeutics-mcp-api-openapi.yml
 authorization_urls:
 - https://www.a2bio.com/oauth/authorize
 description: ''
@@ -48,7 +48,7 @@ source_filename: a2-biotherapeutics-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/a2-biotherapeutics-wp-rest-openapi.yml\nschemes:\n- name: mcpOAuth2\n  source: openapi/a2-biotherapeutics-wp-rest-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.a2bio.com/oauth/authorize\n    tokenUrl: https://www.a2bio.com/oauth/token\n  description: OAuth 2.1 authorization-code + PKCE, as advertised by the provider's RFC 8414\n    metadata at https://www.a2bio.com/.well-known/oauth-authorization-server (fetched 2026-08-02,\n    HTTP 200). Guards the `mcp` namespace; the protected-resource metadata (RFC 9728) names\n    https://www.a2bio.com/wp-json/mcp/mcp-oauth-server.\nscopes:\n- scope: mcp\n  description: Access the site's Model Context Protocol server.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/a2-biotherapeutics-wp-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/a2-biotherapeutics/refs/heads/main/scopes/a2-biotherapeutics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/a2-biotherapeutics/scopes/a2-biotherapeutics-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

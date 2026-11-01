@@ -5,61 +5,61 @@ api_specs:
   label: ADT Access Codes API
   slug: adt-access-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-access-codes-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-access-codes-api-openapi.yml
 - filename: adt-access-control-api-openapi.yml
   format: yaml
   label: ADT Access Control API
   slug: adt-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-access-control-api-openapi.yml
 - filename: adt-automation-api-openapi.yml
   format: yaml
   label: ADT Automation API
   slug: adt-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-automation-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-automation-api-openapi.yml
 - filename: adt-devices-api-openapi.yml
   format: yaml
   label: ADT Devices API
   slug: adt-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-devices-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-devices-api-openapi.yml
 - filename: adt-events-api-openapi.yml
   format: yaml
   label: ADT Events API
   slug: adt-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-events-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-events-api-openapi.yml
 - filename: adt-reports-api-openapi.yml
   format: yaml
   label: ADT Reports API
   slug: adt-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-reports-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-reports-api-openapi.yml
 - filename: adt-security-systems-api-openapi.yml
   format: yaml
   label: ADT Security Systems API
   slug: adt-security-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-security-systems-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-security-systems-api-openapi.yml
 - filename: adt-sites-api-openapi.yml
   format: yaml
   label: ADT Sites API
   slug: adt-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-sites-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-sites-api-openapi.yml
 - filename: adt-users-api-openapi.yml
   format: yaml
   label: ADT Users API
   slug: adt-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-users-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-users-api-openapi.yml
 - filename: adt-video-api-openapi.yml
   format: yaml
   label: ADT Video API
   slug: adt-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-video-api-openapi.yml
+  url: https://artifacts.apis.io/adt/openapi/adt-video-api-openapi.yml
 authorization_urls:
 - https://auth.adt.com/services/oauth2/authorize
 description: ''
@@ -244,7 +244,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: https://auth.adt.
   scope_count: 36\nscopes:\n- scope: address\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: cdp_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: cdp_calculated_insight_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: cdp_identityresolution_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: cdp_ingest_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: cdp_profile_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: cdp_query_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: cdp_segment_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: chatbot_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: chatter_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: content\n  sources:\n  - well-known/adt-openid-configuration.json\n\
   - scope: custom_permissions\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: data_cloud_user_claims\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: eclair_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: einstein_gpt_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: email\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: forgot_password\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: full\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: id\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: interaction_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: lightning\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: mcp_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: offline_access\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: openid\n  sources:\n  - well-known/adt-openid-configuration.json\n\
   - scope: pardot_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: phone\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: profile\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: pwdless_login_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: refresh_token\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: scrt_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: sfap_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: user_registration_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: visualforce\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: wave_api\n  sources:\n  - well-known/adt-openid-configuration.json\n- scope: web\n  sources:\n  - well-known/adt-openid-configuration.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/scopes/adt-scopes.yml
+source_yaml_url: https://artifacts.apis.io/adt/scopes/adt-scopes.yml
 summary_line: 36 scopes · authorizationCode
 tags:
 - Access Control

@@ -5,85 +5,85 @@ api_specs:
   label: Relm Activities API
   slug: relmcrm-com-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-activities-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-activities-api-openapi.yml
 - filename: relmcrm-com-automations-api-openapi.yml
   format: yaml
   label: Relm Automations API
   slug: relmcrm-com-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-automations-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-automations-api-openapi.yml
 - filename: relmcrm-com-batch-api-openapi.yml
   format: yaml
   label: Relm Batch API
   slug: relmcrm-com-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-batch-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-batch-api-openapi.yml
 - filename: relmcrm-com-companies-api-openapi.yml
   format: yaml
   label: Relm Companies API
   slug: relmcrm-com-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-companies-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-companies-api-openapi.yml
 - filename: relmcrm-com-connections-api-openapi.yml
   format: yaml
   label: Relm Connections API
   slug: relmcrm-com-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-connections-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-connections-api-openapi.yml
 - filename: relmcrm-com-contacts-api-openapi.yml
   format: yaml
   label: Relm Contacts API
   slug: relmcrm-com-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-contacts-api-openapi.yml
 - filename: relmcrm-com-deals-api-openapi.yml
   format: yaml
   label: Relm Deals API
   slug: relmcrm-com-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-deals-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-deals-api-openapi.yml
 - filename: relmcrm-com-discovery-api-openapi.yml
   format: yaml
   label: Relm Discovery API
   slug: relmcrm-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-discovery-api-openapi.yml
 - filename: relmcrm-com-pipelines-api-openapi.yml
   format: yaml
   label: Relm Pipelines API
   slug: relmcrm-com-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-pipelines-api-openapi.yml
 - filename: relmcrm-com-registry-api-openapi.yml
   format: yaml
   label: Relm Registry API
   slug: relmcrm-com-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-registry-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-registry-api-openapi.yml
 - filename: relmcrm-com-search-api-openapi.yml
   format: yaml
   label: Relm Search API
   slug: relmcrm-com-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-search-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-search-api-openapi.yml
 - filename: relmcrm-com-sequences-api-openapi.yml
   format: yaml
   label: Relm Sequences API
   slug: relmcrm-com-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-sequences-api-openapi.yml
 - filename: relmcrm-com-templates-api-openapi.yml
   format: yaml
   label: Relm Templates API
   slug: relmcrm-com-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-templates-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-templates-api-openapi.yml
 - filename: relmcrm-com-webhooks-api-openapi.yml
   format: yaml
   label: Relm Webhooks API
   slug: relmcrm-com-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/openapi/relmcrm-com-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/relmcrm-com/openapi/relmcrm-com-webhooks-api-openapi.yml
 authorization_urls:
 - https://api.relmcrm.com/oauth/authorize
 description: ''
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/relmcrm
   \  version: OAuth 2.1 (authorization code + PKCE S256 + refresh-token rotation)\n  issuer: https://api.relmcrm.com\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.relmcrm.com/oauth/authorize\n    tokenUrl: https://api.relmcrm.com/oauth/token\n    refreshUrl: https://api.relmcrm.com/oauth/token\n  registration_endpoint: https://api.relmcrm.com/oauth/register\n  revocation_endpoint: https://api.relmcrm.com/oauth/revoke\n  grant_types_supported: [authorization_code, refresh_token]\n  response_types_supported: [code]\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [none, client_secret_post, client_secret_basic]\n  dynamic_client_registration: RFC 7591 — clients register themselves; the dashboard lists connected apps and disconnecting one revokes all of its access immediately (changelog v0.17.0)\n  discovery:\n    authorization_server: well-known/relmcrm-com-oauth-authorization-server.json\n    protected_resource: well-known/relmcrm-com-oauth-protected-resource.json\n\
   \    resource: https://api.relmcrm.com/mcp\n  live_only: true\n  description: 'OAuth 2.1 with PKCE (S256) and dynamic client registration (RFC 7591). Live mode only; test mode is API-key only. Discovery: /.well-known/oauth-authorization-server.'\nscopes:\n- scope: crm\n  description: Read and write the connected Relm workspace\n  access: read-write over contacts, companies, deals, activities, pipelines, registry, automations, sequences, templates, connections, webhooks, usage and settings\n  flows:\n  - authorizationCode\n  required_by: >-\n    every MCP tool (securitySchemes oauth2 / scopes [crm] on all 41 tools in mcp/relmcrm-com-mcp-tools-list.json);\n    the OpenAPI root security requirement; the agent card security[]\n  sources:\n  - openapi/relmcrm-com-openapi.yml\n  - well-known/relmcrm-com-oauth-authorization-server.json\n  - well-known/relmcrm-com-oauth-protected-resource.json\ngranularity_note: >-\n  Coarse by design for a workspace-scoped product; least-privilege for an agent\
   \ is achieved by the MCP tool\n  annotations (readOnlyHint / destructiveHint) that let a client gate confirmation, not by scope. An operator\n  who needs a read-only credential has no scope to ask for.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relmcrm-com/refs/heads/main/scopes/relmcrm-com-scopes.yml
+source_yaml_url: https://artifacts.apis.io/relmcrm-com/scopes/relmcrm-com-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - CRM

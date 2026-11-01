@@ -5,37 +5,37 @@ api_specs:
   label: TROLIE Forecasting API
   slug: trolie-forecasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-forecasting-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-forecasting-api-openapi.yml
 - filename: trolie-monitoring-sets-api-openapi.yml
   format: yaml
   label: TROLIE Monitoring Sets API
   slug: trolie-monitoring-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-monitoring-sets-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-monitoring-sets-api-openapi.yml
 - filename: trolie-seasonal-api-openapi.yml
   format: yaml
   label: TROLIE Seasonal API
   slug: trolie-seasonal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-seasonal-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-seasonal-api-openapi.yml
 - filename: trolie-seasonal-overrides-api-openapi.yml
   format: yaml
   label: TROLIE Seasonal Overrides API
   slug: trolie-seasonal-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-seasonal-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-seasonal-overrides-api-openapi.yml
 - filename: trolie-temporary-aar-exceptions-api-openapi.yml
   format: yaml
   label: TROLIE Temporary AAR Exceptions API
   slug: trolie-temporary-aar-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-temporary-aar-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-temporary-aar-exceptions-api-openapi.yml
 - filename: trolie-realtime-api-openapi.yml
   format: yaml
   label: TROLIE Realtime API
   slug: trolie-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/openapi/trolie-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/trolie/openapi/trolie-realtime-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -148,7 +148,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: derived\nsource: openapi/trolie-openapi.yml\nschemes:\n- name: oauth2-primary-flow\n  source: openapi/trolie-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://no-server/oauth2\n  description: Support RFC8725 JWT tokens.\nscopes:\n- scope: read:forecast-proposals\n  description: Read Forecast rating proposals\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: read:monitoring-sets\n  description: Read monitoring sets\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: read:operating-snapshot\n  description: Read the ratings and limits snapshots in-use by the transmission provider\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: read:realtime-proposals\n  description: Read real-time rating proposals\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: read:regional-operating-snapshot\n\
   \  description: Read a Regional Operating Snapshot\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: read:seasonal-overrides\n  description: Read seasonal overrides\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: read:seasonal-proposals\n  description: Read seasonal rating proposals\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: read:temporary-aar-exceptions\n  description: Read temporary AAR exceptions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: write:forecast-proposals\n  description: Submit forecasted ratings\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: write:monitoring-sets\n  description: Write monitoring sets\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: write:realtime-proposals\n  description: Submit realtime ratings\n  flows:\n  - clientCredentials\n\
   \  sources:\n  - openapi/trolie-openapi.yml\n- scope: write:regional-operating-snapshot\n  description: Write a Regional Operating Snapshot\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: write:seasonal-overrides\n  description: Write seasonal overrides\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: write:seasonal-proposals\n  description: Submit seasonal ratings\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n- scope: write:temporary-aar-exceptions\n  description: Write temporary AAR exceptions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/trolie-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trolie/refs/heads/main/scopes/trolie-scopes.yml
+source_yaml_url: https://artifacts.apis.io/trolie/scopes/trolie-scopes.yml
 summary_line: 15 scopes · clientCredentials
 tags:
 - Company

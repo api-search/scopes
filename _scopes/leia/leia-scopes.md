@@ -5,25 +5,25 @@ api_specs:
   label: Leia Media Transformation API
   slug: leia-media-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/openapi/leia-media-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/leia/openapi/leia-media-transformation-api-openapi.yml
 - filename: leia-product-pricing-api-openapi.yml
   format: yaml
   label: Leia Product Pricing API
   slug: leia-product-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/openapi/leia-product-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/leia/openapi/leia-product-pricing-api-openapi.yml
 - filename: leia-protocol-api-openapi.yml
   format: yaml
   label: Leia Protocol API
   slug: leia-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/openapi/leia-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/leia/openapi/leia-protocol-api-openapi.yml
 - filename: leia-storage-api-openapi.yml
   format: yaml
   label: Leia Storage API
   slug: leia-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/openapi/leia-storage-api-openapi.yml
+  url: https://artifacts.apis.io/leia/openapi/leia-storage-api-openapi.yml
 authorization_urls:
 - https://auth.immersity.ai/auth/realms/immersity/protocol/openid-connect/auth
 description: ''
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: https://auth.imme
   \  - flow: authorizationCode\n    authorizationUrl: https://auth.immersity.ai/auth/realms/immersity/protocol/openid-connect/auth\n    tokenUrl: https://auth.immersity.ai/auth/realms/immersity/protocol/openid-connect/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token.\n  kind: standard\n- scope: profile\n  description: Basic profile claims for the authenticated subject.\n  kind: standard\n- scope: email\n  description: Email address claim for the authenticated subject.\n  kind: standard\n- scope: address\n  description: Address claims for the authenticated subject.\n  kind: standard\n- scope: phone\n  description: Phone number claims for the authenticated subject.\n  kind: standard\n- scope: roles\n  description: Realm and client role claims.\n  kind: standard\n- scope: offline_access\n  description: Issue a refresh token usable while the user is offline.\n  kind: standard\n- scope: web-origins\n  description: CORS allowed-origins claim (Keycloak\
   \ built-in).\n  kind: standard\n- scope: acr\n  description: Authentication context class reference (Keycloak built-in).\n  kind: standard\n- scope: basic\n  description: Baseline token claims (Keycloak built-in).\n  kind: standard\n- scope: microprofile-jwt\n  description: MicroProfile JWT claim mapping (Keycloak built-in).\n  kind: standard\n- scope: service_account\n  description: Marks a machine-to-machine client-credentials service account token.\n  kind: platform\n- scope: leia-api-gateway\n  description: Access to the Leia/Immersity API gateway fronting the Immersity Cloud API.\n  kind: platform\n- scope: leia-storage-service\n  description: Access to Leia Storage, the presigned-URL upload/download service.\n  kind: platform\n- scope: product-price-service\n  description: Access to the product pricing service backing GET /api/v1/prices.\n  kind: platform\n- scope: payment-entitlement-service\n  description: Access to the credit/entitlement service that meters API consumption.\n\
   \  kind: platform\n- scope: immersity-sdk-developer\n  description: Developer entitlement for the gated Immersity SDK portal (support.immersity.ai/sdk).\n  kind: platform\n- scope: immersity-ai-mobile-backend\n  description: Backend access used by the Immersity AI mobile applications.\n  kind: platform\n- scope: device-management\n  description: Device registration and management for Immersity-enabled hardware.\n  kind: platform\n- scope: user-created-timestamp\n  description: Exposes the account creation timestamp as a token claim.\n  kind: platform\nx-evidence:\n  fetched: '2026-08-01'\n  url: https://auth.immersity.ai/auth/realms/immersity/.well-known/openid-configuration\n  http_status: 200\n  content_type: application/json\n  scope_count: 20\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/scopes/leia-scopes.yml
+source_yaml_url: https://artifacts.apis.io/leia/scopes/leia-scopes.yml
 summary_line: 20 scopes · clientCredentials/authorizationCode
 tags:
 - 3D

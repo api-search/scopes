@@ -40,7 +40,7 @@ source_filename: telleroo-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://partner-docs.telleroo.com/#authentication\ndocs: https://partner-docs.telleroo.com/\nschemes:\n- name: PartnerOAuth2\n  api: Telleroo Partner API\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://admin.telleroo.com/oauth\n    tokenUrl: https://api.telleroo.com/oauth/token\nscopes:\n- scope: create\n  description: >-\n    Permission to create pay runs on behalf of an authorizing client company.\n    This is the only scope Telleroo's Partner (Embedded Payments) API\n    currently documents; it is requested in the authorize URL as scope=create\n    and echoed back in the token response.\n  flows: [authorizationCode]\n  sources: [https://partner-docs.telleroo.com/]\nnotes: >-\n  The Business API (v1) does not use OAuth scopes; it authenticates with a\n  static Authorization token whose capability is set by token class\n  (Full Access vs Recipient Access), captured in\n  authentication/telleroo-authentication.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telleroo/refs/heads/main/scopes/telleroo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/telleroo/scopes/telleroo-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: Curie Catalog API
   slug: curie-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/openapi/curie-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/curie/openapi/curie-catalog-api-openapi.yml
 - filename: curie-products-api-openapi.yml
   format: yaml
   label: Curie Products API
   slug: curie-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/openapi/curie-products-api-openapi.yml
+  url: https://artifacts.apis.io/curie/openapi/curie-products-api-openapi.yml
 authorization_urls:
 - https://chat.curie.app/api/oauth/authorize
 description: ''
@@ -54,7 +54,7 @@ source_filename: curie-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/curie-openapi.json\ndocs: https://chat.curie.app/llms.txt\nschemes:\n- name: oauth2\n  source: openapi/curie-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://chat.curie.app/api/oauth/authorize\n    tokenUrl: https://chat.curie.app/api/oauth/token\n  description: OAuth 2.0 authorization code flow. Requires Curie Pro subscription.\nscopes:\n- scope: read:products\n  description: Search and view products in the catalog\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/curie-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/scopes/curie-scopes.yml
+source_yaml_url: https://artifacts.apis.io/curie/scopes/curie-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: Salesforce Knowledge Management Articles API
   slug: salesforce-knowledge-management-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-articles-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-knowledge-management/openapi/salesforce-knowledge-management-articles-api-openapi.yml
 - filename: salesforce-knowledge-management-categories-api-openapi.yml
   format: yaml
   label: Salesforce Knowledge Management Categories API
   slug: salesforce-knowledge-management-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-categories-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-knowledge-management/openapi/salesforce-knowledge-management-categories-api-openapi.yml
 - filename: salesforce-knowledge-management-search-api-openapi.yml
   format: yaml
   label: Salesforce Knowledge Management Search API
   slug: salesforce-knowledge-management-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-search-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-knowledge-management/openapi/salesforce-knowledge-management-search-api-openapi.yml
 - filename: salesforce-knowledge-management-suggestions-api-openapi.yml
   format: yaml
   label: Salesforce Knowledge Management Suggestions API
   slug: salesforce-knowledge-management-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-knowledge-management/openapi/salesforce-knowledge-management-suggestions-api-openapi.yml
 authorization_urls:
 - https://login.salesforce.com/services/oauth2/authorize
 description: ''
@@ -70,7 +70,7 @@ source_filename: salesforce-knowledge-management-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/salesforce-knowledge-management-rest-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/salesforce-knowledge-management-rest-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.salesforce.com/services/oauth2/authorize\n    tokenUrl: https://login.salesforce.com/services/oauth2/token\nscopes:\n- scope: api\n  description: Access and manage your data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/salesforce-knowledge-management-rest-api-openapi.yml\n- scope: full\n  description: Full access\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/salesforce-knowledge-management-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/scopes/salesforce-knowledge-management-scopes.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-knowledge-management/scopes/salesforce-knowledge-management-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Articles

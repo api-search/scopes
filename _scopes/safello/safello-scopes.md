@@ -5,43 +5,43 @@ api_specs:
   label: Safello Account API
   slug: safello-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-account-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-account-api-openapi.yml
 - filename: safello-auth-api-openapi.yml
   format: yaml
   label: Safello Auth API
   slug: safello-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-auth-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-auth-api-openapi.yml
 - filename: safello-compliance-api-openapi.yml
   format: yaml
   label: Safello Compliance API
   slug: safello-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-compliance-api-openapi.yml
 - filename: safello-market-api-openapi.yml
   format: yaml
   label: Safello Market API
   slug: safello-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-market-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-market-api-openapi.yml
 - filename: safello-orders-api-openapi.yml
   format: yaml
   label: Safello Orders API
   slug: safello-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-orders-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-orders-api-openapi.yml
 - filename: safello-prices-api-openapi.yml
   format: yaml
   label: Safello Prices API
   slug: safello-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-prices-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-prices-api-openapi.yml
 - filename: safello-wallet-api-openapi.yml
   format: yaml
   label: Safello Wallet API
   slug: safello-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-wallet-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://safello.github.io/safello-api/docs/getting-started/tokens
@@ -133,7 +133,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/safello-institutional-openapi.json\ndocs: https://safello.github.io/safello-api/docs/getting-started/tokens\nauthorization_server_metadata: https://api.safello.com/.well-known/oauth-authorization-server\nschemes:\n- name: OAuth2\n  source: openapi/safello-institutional-openapi.json\n  flows:\n  - flow: urn:safello:params:oauth:grant-type:bankid\n    tokenUrl: /oauth2/token\n  - flow: clientCredentials\n    tokenUrl: /oauth2/token\n  - flow: authorizationCode\n    tokenUrl: /oauth2/token\nscopes:\n- scope: account.bank-account\n  description: View and modify users bank accounts.\n  flows:\n  - authorizationCode\n  - urn:safello:params:oauth:grant-type:bankid\n  sources:\n  - openapi/safello-institutional-openapi.json\n- scope: account.bank-account:read\n  description: View users bank accounts.\n  flows:\n  - authorizationCode\n  - urn:safello:params:oauth:grant-type:bankid\n  sources:\n  - openapi/safello-institutional-openapi.json\n\
   - scope: account.base\n  description: View and modify base information of accounts.\n  flows:\n  - authorizationCode\n  - urn:safello:params:oauth:grant-type:bankid\n  sources:\n  - openapi/safello-institutional-openapi.json\n- scope: account.base:read\n  description: View base information of accounts.\n  flows:\n  - authorizationCode\n  - urn:safello:params:oauth:grant-type:bankid\n  sources:\n  - openapi/safello-institutional-openapi.json\n- scope: market\n  description: View market data.\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - urn:safello:params:oauth:grant-type:bankid\n  sources:\n  - openapi/safello-institutional-openapi.json\n- scope: order\n  description: View and create orders.\n  flows:\n  - authorizationCode\n  - urn:safello:params:oauth:grant-type:bankid\n  sources:\n  - openapi/safello-institutional-openapi.json\n- scope: order:read\n  description: View orders.\n  flows:\n  - authorizationCode\n  - urn:safello:params:oauth:grant-type:bankid\n  sources:\n\
   \  - openapi/safello-institutional-openapi.json\n- scope: wallet\n  description: View and modify wallet.\n  flows:\n  - authorizationCode\n  - urn:safello:params:oauth:grant-type:bankid\n  sources:\n  - openapi/safello-institutional-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/scopes/safello-scopes.yml
+source_yaml_url: https://artifacts.apis.io/safello/scopes/safello-scopes.yml
 summary_line: 8 scopes · urn:safello:params:oauth:grant-type:bankid/clientCredentials/authorizationCode
 tags:
 - Company

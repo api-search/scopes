@@ -5,25 +5,25 @@ api_specs:
   label: Zendesk Sell (Sales CRM) API
   slug: sales-crm-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/collections/zendesk-sell.postman_collection.json
+  url: https://artifacts.apis.io/zendesk-sell/collections/zendesk-sell.postman_collection.json
 - filename: zendesk-sell-contacts-api-openapi.yml
   format: yaml
   label: Zendesk Sell Contacts API
   slug: zendesk-sell-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/zendesk-sell/openapi/zendesk-sell-contacts-api-openapi.yml
 - filename: zendesk-sell-deals-api-openapi.yml
   format: yaml
   label: Zendesk Sell Deals API
   slug: zendesk-sell-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-deals-api-openapi.yml
+  url: https://artifacts.apis.io/zendesk-sell/openapi/zendesk-sell-deals-api-openapi.yml
 - filename: zendesk-sell-leads-api-openapi.yml
   format: yaml
   label: Zendesk Sell Leads API
   slug: zendesk-sell-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-leads-api-openapi.yml
+  url: https://artifacts.apis.io/zendesk-sell/openapi/zendesk-sell-leads-api-openapi.yml
 authorization_urls:
 - https://api.getbase.com/oauth2/authorize
 description: ''
@@ -90,7 +90,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_original/zendesk-sell-openapi.yml\ndocs: https://developer.zendesk.com/api-reference/sales-crm/authentication/introduction/\nreference: https://developer.zendesk.com/api-reference/sales-crm/authentication/reference/\nschemes:\n- name: oauth2\n  source: openapi/_original/zendesk-sell-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.getbase.com/oauth2/authorize\n    tokenUrl: https://api.getbase.com/oauth2/token\n  - flow: implicit\n    authorizationUrl: https://api.getbase.com/oauth2/authorize\n  - flow: password\n    tokenUrl: https://api.getbase.com/oauth2/token\n  description: >-\n    OAuth 2.0 (authorization code, implicit, password, and refresh token grants).\nscope_count: 3\nscopes:\n- scope: read\n  description: >-\n    \"Grant read-only access to all your data, except for the account and user info.\"\n  flows: [authorizationCode, implicit, password]\n  sources:\n  - https://developer.zendesk.com/api-reference/sales-crm/authentication/introduction/\n\
   \  - openapi/_original/zendesk-sell-openapi.yml\n- scope: write\n  description: >-\n    Write access to all your data, except for the account and user info.\n  flows: [authorizationCode, implicit, password]\n  sources:\n  - https://developer.zendesk.com/api-reference/sales-crm/authentication/introduction/\n  - openapi/_original/zendesk-sell-openapi.yml\n- scope: profile\n  description: >-\n    Read-only access to account and user information.\n  flows: [authorizationCode, implicit, password]\n  sources:\n  - https://developer.zendesk.com/api-reference/sales-crm/authentication/introduction/\n  note: >-\n    Documented by Zendesk but ABSENT from the OpenAPI in openapi/ — found by reading the\n    authentication docs, not the spec.\ngranularity: coarse\ngranularity_note: >-\n  Three account-wide scopes only. There is no per-resource or per-verb scoping (no\n  read:leads / write:deals), so any token that can write a note can also delete every deal.\n  `insufficient_scope` (HTTP 403) is the\
   \ error returned when a token lacks the scope.\nx-evidence:\n- url: https://developer.zendesk.com/api-reference/sales-crm/authentication/introduction/\n  status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/scopes/zendesk-sell-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zendesk-sell/scopes/zendesk-sell-scopes.yml
 summary_line: 3 scopes · authorizationCode/implicit/password
 tags:
 - CRM

@@ -40,7 +40,7 @@ source_filename: lightyear-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.lightyear.com/.well-known/oauth-authorization-server\ndocs: null\nnotes: >-\n  Lightyear publishes no scopes/permissions reference page. The single scope below is the only one\n  advertised in the RFC 8414 authorization server metadata (scopes_supported), for an internal MCP\n  integration. No scope descriptions are published by the provider.\nschemes:\n- name: internal-mcp\n  source: well-known/lightyear-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.lightyear.com/oauth2/internal-mcp/authorize\n    tokenUrl: https://api.lightyear.com/oauth2/internal-mcp/token\nscopes:\n- scope: mcp\n  description: null\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/lightyear-oauth-authorization-server.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightyear/refs/heads/main/scopes/lightyear-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lightyear/scopes/lightyear-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

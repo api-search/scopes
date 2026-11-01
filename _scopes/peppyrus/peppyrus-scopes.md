@@ -1,23 +1,4 @@
 ---
-api_specs:
-- filename: peppyrus-message-api-openapi.yml
-  format: yaml
-  label: Peppyrus Message API
-  slug: peppyrus-message-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peppyrus/refs/heads/main/openapi/peppyrus-message-api-openapi.yml
-- filename: peppyrus-organization-api-openapi.yml
-  format: yaml
-  label: Peppyrus Organization API
-  slug: peppyrus-organization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peppyrus/refs/heads/main/openapi/peppyrus-organization-api-openapi.yml
-- filename: peppyrus-peppol-api-openapi.yml
-  format: yaml
-  label: Peppyrus Peppol API
-  slug: peppyrus-peppol-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peppyrus/refs/heads/main/openapi/peppyrus-peppol-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -51,15 +32,15 @@ source_yaml: 'generated: ''2026-10-27''
   note: "The OpenAPI spec does not define OAuth2 scopes and no documentation page was found."
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peppyrus/refs/heads/main/scopes/peppyrus-scopes.yml
+source_yaml_url: https://artifacts.apis.io/peppyrus/scopes/peppyrus-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- e-invoicing
+- Company
 - Peppol
+- E‑invoicing
 - API
-- Belgium
-- SaaS
 - Free
+- Developer-friendly
 token_bound: false
 token_urls: []
 ---

@@ -5,25 +5,25 @@ api_specs:
   label: Allianz Trade Claims API
   slug: allianz-trade-online-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-claims-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-trade-online/openapi/allianz-trade-online-claims-api-openapi.yml
 - filename: allianz-trade-online-company-grade-api-openapi.yml
   format: yaml
   label: Allianz Trade Company Grade API
   slug: allianz-trade-online-company-grade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-company-grade-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-trade-online/openapi/allianz-trade-online-company-grade-api-openapi.yml
 - filename: allianz-trade-online-payment-overdues-api-openapi.yml
   format: yaml
   label: Allianz Trade Payment Overdues API
   slug: allianz-trade-online-payment-overdues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-payment-overdues-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-trade-online/openapi/allianz-trade-online-payment-overdues-api-openapi.yml
 - filename: allianz-trade-online-policy-api-openapi.yml
   format: yaml
   label: Allianz Trade Policy API
   slug: allianz-trade-online-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/openapi/allianz-trade-online-policy-api-openapi.yml
+  url: https://artifacts.apis.io/allianz-trade-online/openapi/allianz-trade-online-policy-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -119,7 +119,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/allianz-trade-claims.yaml, openapi/allianz-trade-company-grade.yaml, openapi/allianz-trade-payment-overdues.yaml,\n  openapi/allianz-trade-policy.yaml\nschemes:\n- name: OAuth2\n  source: openapi/allianz-trade-claims.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.allianz-trade.com/oauth2/token\n  description: OAuth2 client credentials for Allianz Trade API access\n- name: OAuth2\n  source: openapi/allianz-trade-company-grade.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.allianz-trade.com/oauth2/token\n  description: OAuth2 client credentials for Allianz Trade API access\n- name: OAuth2\n  source: openapi/allianz-trade-payment-overdues.yaml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.allianz-trade.com/oauth2/token\n  description: OAuth2 client credentials for Allianz Trade API access\n- name: OAuth2\n  source: openapi/allianz-trade-policy.yaml\n  flows:\n\
   \  - flow: clientCredentials\n    tokenUrl: https://api.allianz-trade.com/oauth2/token\n  description: OAuth2 client credentials for Allianz Trade API access\nscopes:\n- scope: claims:read\n  description: Read insurance claims\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-trade-claims.yaml\n- scope: claims:write\n  description: Submit and manage insurance claims\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-trade-claims.yaml\n- scope: grades:read\n  description: Read company grades\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-trade-company-grade.yaml\n- scope: grades:write\n  description: Request company grades\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-trade-company-grade.yaml\n- scope: overdues:read\n  description: Read payment overdues\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-trade-payment-overdues.yaml\n- scope: overdues:write\n  description: Report and manage payment overdues\n\
   \  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-trade-payment-overdues.yaml\n- scope: policy:read\n  description: Read policy details\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-trade-policy.yaml\n- scope: policy:write\n  description: Manage policy configurations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/allianz-trade-policy.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/scopes/allianz-trade-online-scopes.yml
+source_yaml_url: https://artifacts.apis.io/allianz-trade-online/scopes/allianz-trade-online-scopes.yml
 summary_line: 8 scopes · clientCredentials
 tags:
 - Credit Insurance

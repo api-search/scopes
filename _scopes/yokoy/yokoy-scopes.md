@@ -5,133 +5,133 @@ api_specs:
   label: Yokoy Card account API
   slug: yokoy-card-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-card-account-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-card-account-api-openapi.yml
 - filename: yokoy-company-card-api-openapi.yml
   format: yaml
   label: Yokoy Company card API
   slug: yokoy-company-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-company-card-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-company-card-api-openapi.yml
 - filename: yokoy-cost-center-api-openapi.yml
   format: yaml
   label: Yokoy Cost center API
   slug: yokoy-cost-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-cost-center-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-cost-center-api-openapi.yml
 - filename: yokoy-daily-statement-api-openapi.yml
   format: yaml
   label: Yokoy Daily statement API
   slug: yokoy-daily-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-daily-statement-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-daily-statement-api-openapi.yml
 - filename: yokoy-expense-api-openapi.yml
   format: yaml
   label: Yokoy Expense API
   slug: yokoy-expense-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-expense-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-expense-api-openapi.yml
 - filename: yokoy-expense-category-api-openapi.yml
   format: yaml
   label: Yokoy Expense category API
   slug: yokoy-expense-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-expense-category-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-expense-category-api-openapi.yml
 - filename: yokoy-external-invoice-api-openapi.yml
   format: yaml
   label: Yokoy External invoice API
   slug: yokoy-external-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-external-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-external-invoice-api-openapi.yml
 - filename: yokoy-finance-export-api-openapi.yml
   format: yaml
   label: Yokoy Finance export API
   slug: yokoy-finance-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-finance-export-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-finance-export-api-openapi.yml
 - filename: yokoy-fx-rates-api-openapi.yml
   format: yaml
   label: Yokoy FX rates API
   slug: yokoy-fx-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-fx-rates-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-fx-rates-api-openapi.yml
 - filename: yokoy-goods-receipt-api-openapi.yml
   format: yaml
   label: Yokoy Goods receipt API
   slug: yokoy-goods-receipt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-goods-receipt-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-goods-receipt-api-openapi.yml
 - filename: yokoy-invoice-api-openapi.yml
   format: yaml
   label: Yokoy Invoice API
   slug: yokoy-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-invoice-api-openapi.yml
 - filename: yokoy-invoice-category-api-openapi.yml
   format: yaml
   label: Yokoy Invoice category API
   slug: yokoy-invoice-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-invoice-category-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-invoice-category-api-openapi.yml
 - filename: yokoy-invoice-payment-terms-api-openapi.yml
   format: yaml
   label: Yokoy Invoice payment terms API
   slug: yokoy-invoice-payment-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-invoice-payment-terms-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-invoice-payment-terms-api-openapi.yml
 - filename: yokoy-legal-entity-api-openapi.yml
   format: yaml
   label: Yokoy Legal entity API
   slug: yokoy-legal-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-legal-entity-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-legal-entity-api-openapi.yml
 - filename: yokoy-policy-api-openapi.yml
   format: yaml
   label: Yokoy Policy API
   slug: yokoy-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-policy-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-policy-api-openapi.yml
 - filename: yokoy-purchase-order-api-openapi.yml
   format: yaml
   label: Yokoy Purchase order API
   slug: yokoy-purchase-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-purchase-order-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-purchase-order-api-openapi.yml
 - filename: yokoy-supplier-api-openapi.yml
   format: yaml
   label: Yokoy Supplier API
   slug: yokoy-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-supplier-api-openapi.yml
 - filename: yokoy-tag-api-openapi.yml
   format: yaml
   label: Yokoy Tag API
   slug: yokoy-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-tag-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-tag-api-openapi.yml
 - filename: yokoy-tax-rates-api-openapi.yml
   format: yaml
   label: Yokoy Tax rates API
   slug: yokoy-tax-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-tax-rates-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-tax-rates-api-openapi.yml
 - filename: yokoy-transaction-api-openapi.yml
   format: yaml
   label: Yokoy Transaction API
   slug: yokoy-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-transaction-api-openapi.yml
 - filename: yokoy-trip-api-openapi.yml
   format: yaml
   label: Yokoy Trip API
   slug: yokoy-trip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-trip-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-trip-api-openapi.yml
 - filename: yokoy-user-api-openapi.yml
   format: yaml
   label: Yokoy User API
   slug: yokoy-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/openapi/yokoy-user-api-openapi.yml
+  url: https://artifacts.apis.io/yokoy/openapi/yokoy-user-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -346,8 +346,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/yokoy-card-
   \ header. Set the content-type to\n    `application/x-www-form-urlencoded` and specify\n    `grant_type=client_credentials` in the body.\n\n    > Note: For the Yokoy test environment, use `https://accounts.test.yokoy.ai/oauth2/token` instead.\n\n    Example request for the client ID `ClientId` and client\n    secret `ClientSecret`:\n    ```\n    POST https://accounts.yokoy.ai/oauth2/token\n    Authorization: Basic Q2xpZW50SWQ6Q2xpZW50U2VjcmV0\n    Content-Type: application/x-www-form-urlencoded\n    grant_type=client_credentials\n    ```\n    In this example, the string `Q2xpZW50SWQ6Q2xpZW50U2VjcmV0` is\n    obtained by base64-encoding the string\n    `ClientId:ClientSecret`, as required for basic access authentication.\n\n    > Note: Yokoy does not require or use scopes.\n\n\n    The JSON response contains the access token in the attribute\n    `access_token`. The response also contains the expiration in\n    seconds.\n\n    Example response:\n    ```\n    {\n        \"access_token\"\
   : \"SOME_KEY\",\n        \"expires_in\": 3900,\n        \"token_type\": \"Bearer\"\n    }\n    ```\n\n    **2. Pass the bearer token**\n\n    Pass the access token from step 1 as a bearer token in subsequent requests to the API.\n\n    Example header field for the example response from step 1:\n    ```\n    Authorization: Bearer 4lDvPkrBF87WHuyvlINQD\n    ```\n\n    For more information, see (Authentication & authorization)[https://developer.yokoy.ai/docs/overview/authentication].\n- name: OAuth2\n  source: openapi/yokoy-purchase-order-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://accounts[.test].yokoy.ai/oauth2/token\n  description: |-\n    Authentication to the Yokoy API relies on the standard OAuth2 client credentials flow.\n\n    **1. Obtain an access token**\n\n    Perform a `POST` request to\n    `https://accounts.yokoy.ai/oauth2/token`. Pass the client ID\n    and client secret as username and password in a basic auth\n    header. Set the content-type\
   \ to\n    `application/x-www-form-urlencoded` and specify\n    `grant_type=client_credentials` in the body.\n\n    > Note: For the Yokoy test environment, use `https://accounts.test.yokoy.ai/oauth2/token` instead.\n\n    Example request for the client ID `ClientId` and client\n    secret `ClientSecret`:\n    ```\n    POST https://accounts.yokoy.ai/oauth2/token\n    Authorization: Basic Q2xpZW50SWQ6Q2xpZW50U2VjcmV0\n    Content-Type: application/x-www-form-urlencoded\n    grant_type=client_credentials\n    ```\n    In this example, the string `Q2xpZW50SWQ6Q2xpZW50U2VjcmV0` is\n    obtained by base64-encoding the string\n    `ClientId:ClientSecret`, as required for basic access authentication.\n\n    > Note: Yokoy does not require or use scopes.\n\n\n    The JSON response contains the access token in the attribute\n    `access_token`. The response also contains the expiration in\n    seconds.\n\n    Example response:\n    ```\n    {\n        \"access_token\": \"SOME_KEY\",\n        \"expires_in\"\
-  : 3900,\n        \"token_type\": \"Bearer\"\n    }\n    ```\n\n    **2. Pass the bearer token**\n\n    Pass the access token from step 1 as a bearer token in subsequent requests to the API.\n\n    Example header field for the example response from step 1:\n    ```\n    Authorization: Bearer 4lDvPkrBF87WHuyvlINQD\n    ```\n\n    For more information, see (Authentication & authorization)[https://developer.yokoy.ai/docs/overview/authentication].\n- name: OAuth2\n  source: openapi/yokoy-supplier-api-openapi.yml\n  flows:\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/scopes/yokoy-scopes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/scopes/yokoy-scopes.yml
+  : 3900,\n        \"token_type\": \"Bearer\"\n    }\n    ```\n\n    **2. Pass the bearer token**\n\n    Pass the access token from step 1 as a bearer token in subsequent requests to the API.\n\n    Example header field for the example response from step 1:\n    ```\n    Authorization: Bearer 4lDvPkrBF87WHuyvlINQD\n    ```\n\n    For more information, see (Authentication & authorization)[https://developer.yokoy.ai/docs/overview/authentication].\n- name: OAuth2\n  source: openapi/yokoy-supplier-api-openapi.yml\n  flows:\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/yokoy/scopes/yokoy-scopes.yml\n"
+source_yaml_url: https://artifacts.apis.io/yokoy/scopes/yokoy-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

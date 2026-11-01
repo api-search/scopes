@@ -57,7 +57,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://footway.com/.well-known/openid-configuration\ndocs: https://footway.com/.well-known/oauth-authorization-server\nschemes:\n- name: ShopifyCustomerAccount\n  source: well-known/footway-openid-configuration.json\n  issuer: https://shopify.com/authentication/89171296584\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/89171296584/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/89171296584/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token identifying the customer.\n  flows: [authorizationCode]\n  sources: [well-known/footway-openid-configuration.json]\n- scope: email\n  description: Access to the customer's email address and email_verified claim.\n  flows: [authorizationCode]\n  sources: [well-known/footway-openid-configuration.json]\n- scope: customer-account-api:full\n  description: Full access to the\
   \ Shopify Customer Account API on behalf of the signed-in customer.\n  flows: [authorizationCode]\n  sources: [well-known/footway-openid-configuration.json]\n- scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API, enabling agent-driven account operations for the signed-in customer.\n  flows: [authorizationCode]\n  sources: [well-known/footway-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/footway/refs/heads/main/scopes/footway-scopes.yml
+source_yaml_url: https://artifacts.apis.io/footway/scopes/footway-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

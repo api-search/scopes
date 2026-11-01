@@ -5,31 +5,31 @@ api_specs:
   label: Granular (Corteva Agriscience) Activities API
   slug: granular-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-activities-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-activities-api-openapi.yml
 - filename: granular-crops-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Crops API
   slug: granular-crops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-crops-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-crops-api-openapi.yml
 - filename: granular-farms-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Farms API
   slug: granular-farms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-farms-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-farms-api-openapi.yml
 - filename: granular-fields-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Fields API
   slug: granular-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-fields-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-fields-api-openapi.yml
 - filename: granular-financials-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Financials API
   slug: granular-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-financials-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-financials-api-openapi.yml
 authorization_urls:
 - https://auth.granular.ag/oauth/authorize
 description: ''
@@ -76,7 +76,7 @@ source_filename: granular-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/granular-farm-management-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/granular-farm-management-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.granular.ag/oauth/authorize\n    tokenUrl: https://auth.granular.ag/oauth/token\nscopes:\n- scope: read\n  description: Read farm data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/granular-farm-management-openapi.yml\n- scope: write\n  description: Write farm data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/granular-farm-management-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/scopes/granular-scopes.yml
+source_yaml_url: https://artifacts.apis.io/granular/scopes/granular-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Agriculture

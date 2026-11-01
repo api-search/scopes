@@ -30,14 +30,14 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipworks/refs/heads/main/scopes/shipworks-scopes.yml
+source_yaml_url: https://artifacts.apis.io/shipworks/scopes/shipworks-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- shipping
-- logistics
-- e-commerce
-- fulfillment
-- software
+- Shipping
+- E-commerce
+- Logistics
+- Software
+- Integration
 token_bound: false
 token_urls: []
 ---

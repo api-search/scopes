@@ -5,25 +5,25 @@ api_specs:
   label: Yardi Canada Components API
   slug: yardi-canada-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-components-api-openapi.yml
+  url: https://artifacts.apis.io/yardi-canada/openapi/yardi-canada-components-api-openapi.yml
 - filename: yardi-canada-incidents-api-openapi.yml
   format: yaml
   label: Yardi Canada Incidents API
   slug: yardi-canada-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/yardi-canada/openapi/yardi-canada-incidents-api-openapi.yml
 - filename: yardi-canada-maintenance-api-openapi.yml
   format: yaml
   label: Yardi Canada Maintenance API
   slug: yardi-canada-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/yardi-canada/openapi/yardi-canada-maintenance-api-openapi.yml
 - filename: yardi-canada-status-api-openapi.yml
   format: yaml
   label: Yardi Canada Status API
   slug: yardi-canada-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-status-api-openapi.yml
+  url: https://artifacts.apis.io/yardi-canada/openapi/yardi-canada-status-api-openapi.yml
 authorization_urls:
 - https://mcp.virtuoso.ai/oauth/authorize
 description: ''
@@ -94,7 +94,7 @@ source_url: https://mcp.virtuoso.ai/.well-known/oauth-authorization-server
 source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://mcp.virtuoso.ai/.well-known/oauth-authorization-server\nsources:\n  - https://mcp.virtuoso.ai/.well-known/oauth-authorization-server\n  - https://mcp.virtuoso.ai/.well-known/oauth-protected-resource\nsummary: >-\n  Yardi's only published OAuth scope vocabulary belongs to the Yardi Virtuoso MCP\n  server, and it is deliberately thin: four standard OIDC/OAuth scopes, no\n  product-domain scopes. That is the whole authorization story an agent can read\n  anonymously. Data authorization is not expressed as scopes at all — Yardi states\n  the connector \"authenticates through Yardi, so data access automatically follows\n  existing user permissions\", which means the Voyager/Breeze/RentCafe role of the\n  signed-in Yardi user is the real permission boundary. No scope reference page is\n  published; the metadata document is the reference.\nschemes:\n  - name: virtuoso-mcp-oauth\n    type: oauth2\n    source: https://mcp.virtuoso.ai/.well-known/oauth-authorization-server\n\
   \    issuer: https://mcp.virtuoso.ai\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.virtuoso.ai/oauth/authorize\n        tokenUrl: https://mcp.virtuoso.ai/oauth/token\n        registrationUrl: https://mcp.virtuoso.ai/oauth/register\n        pkce: [S256]\n        grant_types: [authorization_code, refresh_token]\n        token_endpoint_auth_methods: [client_secret_post, client_secret_basic, none]\nscopes:\n  - scope: openid\n    description: Standard OpenID Connect scope; requests an ID token for the signed-in Yardi user.\n    flows: [authorizationCode]\n    sources: [https://mcp.virtuoso.ai/.well-known/oauth-authorization-server]\n  - scope: profile\n    description: Standard OIDC scope for basic profile claims about the signed-in Yardi user.\n    flows: [authorizationCode]\n    sources: [https://mcp.virtuoso.ai/.well-known/oauth-authorization-server]\n  - scope: email\n    description: Standard OIDC scope for the signed-in user's email claim.\n    flows:\
   \ [authorizationCode]\n    sources: [https://mcp.virtuoso.ai/.well-known/oauth-authorization-server]\n  - scope: offline_access\n    description: Requests a refresh token so the agent can keep operating without re-consent.\n    flows: [authorizationCode]\n    sources: [https://mcp.virtuoso.ai/.well-known/oauth-authorization-server]\nnotes:\n  - No product-domain scopes (property, lease, ledger, work-order) are published; the connector is declared Read & Write with no scope-level separation of the two.\n  - No OAuth surface of any kind exists on www.yardi.com or www.yardibreeze.ca — /.well-known/openid-configuration and /.well-known/oauth-authorization-server both 404 there.\n  - The Voyager Standard Interfaces and the RentCafe API are not OAuth; they use a contract-issued access token (see authentication/).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/scopes/yardi-canada-scopes.yml
+source_yaml_url: https://artifacts.apis.io/yardi-canada/scopes/yardi-canada-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Real Estate

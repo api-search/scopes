@@ -5,43 +5,43 @@ api_specs:
   label: Yieldmo Canned Reports API
   slug: yieldmo-canned-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-canned-reports-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-canned-reports-api-openapi.yml
 - filename: yieldmo-dcs-api-openapi.yml
   format: yaml
   label: Yieldmo Dcs API
   slug: yieldmo-dcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-dcs-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-dcs-api-openapi.yml
 - filename: yieldmo-manage-api-openapi.yml
   format: yaml
   label: Yieldmo Manage API
   slug: yieldmo-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-manage-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-manage-api-openapi.yml
 - filename: yieldmo-mcp-api-openapi.yml
   format: yaml
   label: Yieldmo MCP API
   slug: yieldmo-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-mcp-api-openapi.yml
 - filename: yieldmo-ping-api-openapi.yml
   format: yaml
   label: Yieldmo Ping API
   slug: yieldmo-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-ping-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-ping-api-openapi.yml
 - filename: yieldmo-register-api-openapi.yml
   format: yaml
   label: Yieldmo Register API
   slug: yieldmo-register-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-register-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-register-api-openapi.yml
 - filename: yieldmo-well-known-api-openapi.yml
   format: yaml
   label: Yieldmo .well Known API
   slug: yieldmo-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/openapi/yieldmo-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/yieldmo/openapi/yieldmo-well-known-api-openapi.yml
 authorization_urls:
 - https://yieldmo-cuba.auth.us-east-1.amazoncognito.com/oauth2/authorize
 description: ''
@@ -99,7 +99,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: >-\n  https://api.yieldmo.com/.well-known/oauth-authorization-server (scopes_supported) and\n  https://api.yieldmo.com/.well-known/oauth-protected-resource (scopes_supported for the resource)\ndocs: null\ndocs_note: >-\n  Yieldmo publishes no scopes or permissions reference page. Everything below was read off the\n  provider's own OAuth discovery documents. The OpenAPI at openapi/yieldmo-dcs-mcp-openapi.json\n  declares no securitySchemes at all, so no operation-level scope requirements can be derived —\n  the scope surface is identity-only.\n\nschemes:\n  - name: mcp-oauth2\n    source: well-known/yieldmo-oauth-authorization-server.json\n    issuer: https://api.yieldmo.com/dcs/mcp\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://yieldmo-cuba.auth.us-east-1.amazoncognito.com/oauth2/authorize\n        tokenUrl: https://yieldmo-cuba.auth.us-east-1.amazoncognito.com/oauth2/token\n\nscopes:\n  - scope:\
   \ openid\n    description: Standard OpenID Connect scope; returns the subject identifier. The only scope the protected resource itself advertises as required.\n    flows: [authorizationCode, implicit]\n    required_by_resource: true\n    sources:\n      - well-known/yieldmo-oauth-authorization-server.json\n      - well-known/yieldmo-oauth-protected-resource.json\n  - scope: profile\n    description: Standard OpenID Connect scope; returns basic profile claims.\n    flows: [authorizationCode, implicit]\n    required_by_resource: false\n    sources: [well-known/yieldmo-oauth-authorization-server.json]\n  - scope: email\n    description: Standard OpenID Connect scope; returns the email claim.\n    flows: [authorizationCode, implicit]\n    required_by_resource: false\n    sources: [well-known/yieldmo-oauth-authorization-server.json]\n\nanalysis: >-\n  All three scopes are the stock OpenID Connect set emitted by an Amazon Cognito user pool. Yieldmo\n  has defined NO resource-server scopes of\
   \ its own — there is no read/write split, no per-report or\n  per-advertiser scope, and no scope that constrains which campaigns or advertisers a token can\n  reach. Authorization for the 19 campaign-reporting operations is therefore entirely implicit in\n  the identity, enforced server-side and invisible to the client. An agent cannot request least\n  privilege against this API because no narrower privilege is offered.\n\nscope_count: 3\nprovider_defined_scope_count: 0\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/scopes/yieldmo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/yieldmo/scopes/yieldmo-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Advertising

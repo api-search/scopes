@@ -45,7 +45,7 @@ source_filename: nara-organics-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://nara.com/.well-known/oauth-authorization-server (scopes_supported) + https://nara.com/.well-known/openid-configuration\ndocs: https://shopify.dev/docs/api/customer\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  type: openIdConnect\n  authorizationUrl: https://account.nara.com/authentication/oauth/authorize\n  tokenUrl: https://account.nara.com/authentication/oauth/token\n  source: well-known/nara-organics-openid-configuration.json\nscopes:\n- scope: openid\n  description: OIDC authentication of the customer account.\n- scope: email\n  description: Access to the customer's email address.\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in customer.\n- scope: customer-account-mcp-api:full\n  description: Full access to the Customer Account MCP API surface for agent-driven access.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/scopes/nara-organics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nara-organics/scopes/nara-organics-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

@@ -5,103 +5,103 @@ api_specs:
   label: Unqork Applications API
   slug: unqork-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-applications-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-applications-api-openapi.yml
 - filename: unqork-authentication-api-openapi.yml
   format: yaml
   label: Unqork Authentication API
   slug: unqork-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-authentication-api-openapi.yml
 - filename: unqork-credentials-api-openapi.yml
   format: yaml
   label: Unqork Credentials API
   slug: unqork-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-credentials-api-openapi.yml
 - filename: unqork-data-collections-api-openapi.yml
   format: yaml
   label: Unqork Data Collections API
   slug: unqork-data-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-data-collections-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-data-collections-api-openapi.yml
 - filename: unqork-data-model-records-api-openapi.yml
   format: yaml
   label: Unqork Data Model Records API
   slug: unqork-data-model-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-data-model-records-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-data-model-records-api-openapi.yml
 - filename: unqork-global-variables-api-openapi.yml
   format: yaml
   label: Unqork Global Variables API
   slug: unqork-global-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-global-variables-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-global-variables-api-openapi.yml
 - filename: unqork-groups-api-openapi.yml
   format: yaml
   label: Unqork Groups API
   slug: unqork-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-groups-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-groups-api-openapi.yml
 - filename: unqork-logs-api-openapi.yml
   format: yaml
   label: Unqork Logs API
   slug: unqork-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-logs-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-logs-api-openapi.yml
 - filename: unqork-modules-api-openapi.yml
   format: yaml
   label: Unqork Modules API
   slug: unqork-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-modules-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-modules-api-openapi.yml
 - filename: unqork-promotions-api-openapi.yml
   format: yaml
   label: Unqork Promotions API
   slug: unqork-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-promotions-api-openapi.yml
 - filename: unqork-query-api-openapi.yml
   format: yaml
   label: Unqork Query API
   slug: unqork-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-query-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-query-api-openapi.yml
 - filename: unqork-revisions-api-openapi.yml
   format: yaml
   label: Unqork Revisions API
   slug: unqork-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-revisions-api-openapi.yml
 - filename: unqork-search-configs-api-openapi.yml
   format: yaml
   label: Unqork Search Configs API
   slug: unqork-search-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-search-configs-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-search-configs-api-openapi.yml
 - filename: unqork-submissions-api-openapi.yml
   format: yaml
   label: Unqork Submissions API
   slug: unqork-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-submissions-api-openapi.yml
 - filename: unqork-transforms-api-openapi.yml
   format: yaml
   label: Unqork Transforms API
   slug: unqork-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-transforms-api-openapi.yml
 - filename: unqork-users-api-openapi.yml
   format: yaml
   label: Unqork Users API
   slug: unqork-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-users-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-users-api-openapi.yml
 - filename: unqork-workflow-api-openapi.yml
   format: yaml
   label: Unqork Workflow API
   slug: unqork-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/openapi/unqork-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/unqork/openapi/unqork-workflow-api-openapi.yml
 authorization_urls: []
 description: 'Unqork''s Customer API is OAuth 2.0, but it is NOT scope-based. The OpenAPI declares exactly one scope — the placeholder `none` with the description `N/A` — on both flows, and no operation requests a scope in its `security[]` requirement. Authorization is instead RBAC: what a token can do is decided by the Express or Creator roles bound to the credential that minted it, in Administration → API Access Management. This file records that honestly rather than presenting a one-entry placeholder list as a scope surface.'
 docs: https://docs.unqork.io/docs/api-access-management
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-07-31'\nmethod: searched\nsource: openapi/unqork-
   \ password]\n    sources: [openapi/unqork-customer-api-openapi.yml]\n    note: >-\n      Declared in both flow `scopes` maps. It is a placeholder required by the\n      OpenAPI schema, not a grantable permission — requesting it confers nothing\n      and omitting it costs nothing.\n\npermission_model:\n  mechanism: Role-based access control (RBAC)\n  docs: https://docs.unqork.io/docs/api-access-management\n  surfaces:\n    - name: Express\n      credential_requires: At least one Express Role\n      role_admin: https://docs.unqork.io/docs/express-role-administration\n      permissions_reference: https://docs.unqork.io/docs/express-permissions\n      governs: End-user-facing resources — submissions, workflow execution\n    - name: Creator\n      credential_requires: At least one Creator Role\n      role_admin: https://docs.unqork.io/docs/creator-role-administration\n      permissions_reference: https://docs.unqork.io/docs/creator-permissions\n      governs: Design-time resources — modules,\
   \ applications, promotions, credentials\n  per_operation_authorization: >-\n    Operation descriptions in the OpenAPI carry an \"### Authorization Required:\"\n    line naming the role needed (e.g. \"Designer Administrator\"). That prose is the\n    de-facto permission reference for the API — there is no machine-readable\n    permission map.\n  least_privilege: >-\n    Because there are no scopes, a token cannot be narrowed at request time.\n    Least privilege must be provisioned: create a credential bound to the\n    narrowest role that satisfies the job, one credential per integration.\n  credential_binding:\n    expiration_days: {min: 1, max: 730, ui_default: 90}\n    lockout: Five failed client-secret attempts lock the credential for 30 minutes\n    revocable: true (Creator credentials)\n    statuses: [ACTIVE, EXPIRES SOON, EXPIRED, REVOKED, LOCKED]\n\ndiscovery:\n  oauth_authorization_server_metadata: false\n  note: >-\n    No RFC 8414 /.well-known/oauth-authorization-server document\
   \ is served on any\n    Unqork host, so the token endpoint and supported grants are discoverable only\n    from the OpenAPI securityScheme description and the docs.\n\nrelated:\n  authentication: authentication/unqork-authentication.yml\n  conventions: conventions/unqork-conventions.yml\n  well_known: well-known/unqork-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unqork/refs/heads/main/scopes/unqork-scopes.yml
+source_yaml_url: https://artifacts.apis.io/unqork/scopes/unqork-scopes.yml
 summary_line: 1 scope · clientCredentials/password
 tags:
 - Company

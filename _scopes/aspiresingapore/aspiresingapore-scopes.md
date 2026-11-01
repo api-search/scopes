@@ -5,7 +5,7 @@ api_specs:
   label: Aspiresingapore Public API
   slug: aspiresingapore-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aspiresingapore/refs/heads/main/openapi/aspiresingapore-public-api-openapi.yml
+  url: https://artifacts.apis.io/aspiresingapore/openapi/aspiresingapore-public-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -44,7 +44,7 @@ source_filename: aspiresingapore-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: derived\nsource: openapi/aspiresingapore-openapi-generated.yml\nschemes:\n- name: API_Key_client_credentials\n  source: openapi/aspiresingapore-openapi-generated.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.aspireapp.com/public/v1/login\nscopes:\n  - name: none\n    description: No scopes defined\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aspiresingapore/refs/heads/main/scopes/aspiresingapore-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aspiresingapore/scopes/aspiresingapore-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Finance

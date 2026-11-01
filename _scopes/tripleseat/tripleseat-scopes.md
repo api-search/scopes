@@ -5,43 +5,43 @@ api_specs:
   label: Tripleseat Accounts API
   slug: tripleseat-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-accounts-api-openapi.yml
 - filename: tripleseat-contacts-api-openapi.yml
   format: yaml
   label: Tripleseat Contacts API
   slug: tripleseat-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-contacts-api-openapi.yml
 - filename: tripleseat-events-api-openapi.yml
   format: yaml
   label: Tripleseat Events API
   slug: tripleseat-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-events-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-events-api-openapi.yml
 - filename: tripleseat-leads-api-openapi.yml
   format: yaml
   label: Tripleseat Leads API
   slug: tripleseat-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-leads-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-leads-api-openapi.yml
 - filename: tripleseat-locations-api-openapi.yml
   format: yaml
   label: Tripleseat Locations API
   slug: tripleseat-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-locations-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-locations-api-openapi.yml
 - filename: tripleseat-sites-api-openapi.yml
   format: yaml
   label: Tripleseat Sites API
   slug: tripleseat-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-sites-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-sites-api-openapi.yml
 - filename: tripleseat-users-api-openapi.yml
   format: yaml
   label: Tripleseat Users API
   slug: tripleseat-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/openapi/tripleseat-users-api-openapi.yml
+  url: https://artifacts.apis.io/tripleseat/openapi/tripleseat-users-api-openapi.yml
 authorization_urls:
 - https://api.tripleseat.com/oauth/authorize
 description: ''
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/triples
   \ by a refresh token. OAuth 1.0 is deprecated and discontinued\n    on July 1, 2026.\nscopes:\n- scope: read\n  description: Read access to the Tripleseat API; requested in the documented OAuth\n    2.0 authorization flow (scope=read write) and returned in token responses.\n  sources:\n  - https://support.tripleseat.com/hc/en-us/articles/19394408627479-API-Authentication\n  - https://support.tripleseat.com/hc/en-us/articles/35211389645079-OAuth-1-0-to-OAuth-2-0-Migration-Guide-for-Tripleseat-API\n- scope: write\n  description: Write access to the Tripleseat API; requested in the documented OAuth\n    2.0 authorization flow (scope=read write) and returned in token responses.\n  sources:\n  - https://support.tripleseat.com/hc/en-us/articles/19394408627479-API-Authentication\n  - https://support.tripleseat.com/hc/en-us/articles/35211389645079-OAuth-1-0-to-OAuth-2-0-Migration-Guide-for-Tripleseat-API\n- scope: events:read\n  description: Granular read scope for events, shown in the OAuth 1.0-to-2.0\
   \ token\n    exchange example response; returned scopes are determined by the OAuth 2.0\n    application's configuration.\n  sources:\n  - https://support.tripleseat.com/hc/en-us/articles/35211389645079-OAuth-1-0-to-OAuth-2-0-Migration-Guide-for-Tripleseat-API\n- scope: events:write\n  description: Granular write scope for events, shown in the OAuth 1.0-to-2.0 token\n    exchange example response; returned scopes are determined by the OAuth 2.0\n    application's configuration.\n  sources:\n  - https://support.tripleseat.com/hc/en-us/articles/35211389645079-OAuth-1-0-to-OAuth-2-0-Migration-Guide-for-Tripleseat-API\n- scope: leads:read\n  description: Granular read scope for leads, shown in the OAuth 1.0-to-2.0 token\n    exchange example response; returned scopes are determined by the OAuth 2.0\n    application's configuration.\n  sources:\n  - https://support.tripleseat.com/hc/en-us/articles/35211389645079-OAuth-1-0-to-OAuth-2-0-Migration-Guide-for-Tripleseat-API\n- scope: leads:write\n\
   \  description: Granular write scope for leads, shown in the OAuth 1.0-to-2.0 token\n    exchange example response; returned scopes are determined by the OAuth 2.0\n    application's configuration.\n  sources:\n  - https://support.tripleseat.com/hc/en-us/articles/35211389645079-OAuth-1-0-to-OAuth-2-0-Migration-Guide-for-Tripleseat-API\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/scopes/tripleseat-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tripleseat/scopes/tripleseat-scopes.yml
 summary_line: 6 scopes · clientCredentials/authorizationCode
 tags:
 - Restaurant

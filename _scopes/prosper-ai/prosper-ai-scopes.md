@@ -5,37 +5,37 @@ api_specs:
   label: Prosper AI API Keys API
   slug: prosper-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/prosper-ai/openapi/prosper-ai-api-keys-api-openapi.yml
 - filename: prosper-ai-call-logs-api-openapi.yml
   format: yaml
   label: Prosper AI Call Logs API
   slug: prosper-ai-call-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-call-logs-api-openapi.yml
+  url: https://artifacts.apis.io/prosper-ai/openapi/prosper-ai-call-logs-api-openapi.yml
 - filename: prosper-ai-campaigns-api-openapi.yml
   format: yaml
   label: Prosper AI Campaigns API
   slug: prosper-ai-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/prosper-ai/openapi/prosper-ai-campaigns-api-openapi.yml
 - filename: prosper-ai-live-calls-api-openapi.yml
   format: yaml
   label: Prosper AI Live Calls API
   slug: prosper-ai-live-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-live-calls-api-openapi.yml
+  url: https://artifacts.apis.io/prosper-ai/openapi/prosper-ai-live-calls-api-openapi.yml
 - filename: prosper-ai-status-api-openapi.yml
   format: yaml
   label: Prosper AI Status API
   slug: prosper-ai-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-status-api-openapi.yml
+  url: https://artifacts.apis.io/prosper-ai/openapi/prosper-ai-status-api-openapi.yml
 - filename: prosper-ai-targets-api-openapi.yml
   format: yaml
   label: Prosper AI Targets API
   slug: prosper-ai-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/openapi/prosper-ai-targets-api-openapi.yml
+  url: https://artifacts.apis.io/prosper-ai/openapi/prosper-ai-targets-api-openapi.yml
 authorization_urls:
 - https://voice.getprosperapp.com/mcp/authorize
 description: ''
@@ -77,7 +77,7 @@ source_filename: prosper-ai-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://voice.getprosperapp.com/.well-known/oauth-authorization-server\ndocs: https://voice.getprosperapp.com/.well-known/oauth-authorization-server\nnote: >-\n  OAuth scopes here belong to the hosted MCP OAuth server (issuer\n  https://voice.getprosperapp.com/mcp). The REST API uses API-key auth and\n  declares no OAuth scopes in its OpenAPI.\nschemes:\n- name: MCP OAuth2\n  source: https://voice.getprosperapp.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://voice.getprosperapp.com/mcp/authorize\n    tokenUrl: https://voice.getprosperapp.com/mcp/token\nscopes:\n- scope: read\n  description: Read access to Prosper resources exposed through the MCP server\n  flows: [authorizationCode]\n  sources: [https://voice.getprosperapp.com/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/scopes/prosper-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/prosper-ai/scopes/prosper-ai-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

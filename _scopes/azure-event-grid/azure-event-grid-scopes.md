@@ -5,25 +5,25 @@ api_specs:
   label: Azure Event Grid Namespace Topics API
   slug: azure-event-grid-namespace-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-namespace-topics-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-namespace-topics-api-openapi.yml
 - filename: azure-event-grid-publish-api-openapi.yml
   format: yaml
   label: Azure Event Grid Publish API
   slug: azure-event-grid-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-publish-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-publish-api-openapi.yml
 - filename: azure-event-grid-operations-api-openapi.yml
   format: yaml
   label: Azure Event Grid Operations API
   slug: microsoft-azure-event-grid-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-operations-api-openapi.yml
 - filename: azure-event-grid-topics-api-openapi.yml
   format: yaml
   label: Azure Event Grid Topics API
   slug: microsoft-azure-event-grid-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/openapi/azure-event-grid-topics-api-openapi.yml
+  url: https://artifacts.apis.io/azure-event-grid/openapi/azure-event-grid-topics-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -64,7 +64,7 @@ source_filename: azure-event-grid-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-event-grid-openapi.yml\nschemes:\n- name: entra\n  source: openapi/azure-event-grid-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0 bearer token\nscopes:\n- scope: https://eventgrid.azure.net/.default\n  description: Publish/receive Event Grid events\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/azure-event-grid-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/scopes/azure-event-grid-scopes.yml
+source_yaml_url: https://artifacts.apis.io/azure-event-grid/scopes/azure-event-grid-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Eventing

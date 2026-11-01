@@ -5,25 +5,25 @@ api_specs:
   label: Lucent Insights API
   slug: lucent-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-insights-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-insights-api-openapi.yml
 - filename: lucent-issues-api-openapi.yml
   format: yaml
   label: Lucent Issues API
   slug: lucent-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-issues-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-issues-api-openapi.yml
 - filename: lucent-sdk-api-openapi.yml
   format: yaml
   label: Lucent Sdk API
   slug: lucent-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-sdk-api-openapi.yml
 - filename: lucent-signals-api-openapi.yml
   format: yaml
   label: Lucent Signals API
   slug: lucent-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-signals-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-signals-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.lucenthq.com/api-reference/authentication
@@ -69,7 +69,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.lucenthq.com/mcp/oauth\ndocs: https://docs.lucenthq.com/api-reference/authentication\nwell_known:\n- well-known/lucent-oauth-authorization-server.json\n- well-known/lucent-oauth-protected-resource.json\nnote: >-\n  Scopes govern the Data API bearer tokens and the OAuth 2.1 authorization server that\n  fronts the MCP endpoint. The OpenAPI declares an http bearer scheme (lucentBearer); the\n  scope model is documented in the auth/OAuth docs and advertised in RFC 8414/9728 metadata.\nschemes:\n- name: OAuth2.1\n  type: oauth2\n  authorizationUrl: https://app.lucenthq.com/oauth/authorize\n  tokenUrl: https://app.lucenthq.com/api/oauth/token\n  registrationUrl: https://app.lucenthq.com/api/oauth/register\n  revocationUrl: https://app.lucenthq.com/api/oauth/revoke\n  grant_types: [authorization_code, refresh_token]\n  pkce: S256\n  dynamic_client_registration: true\nscopes:\n- scope: read:lucent\n  description: Read\
   \ access to all Data API read endpoints and the four read MCP tools (list_issues, get_issue, list_signals, list_insights). Included with every token.\n  grants: [listIssues, getIssue, listSignals, listInsights]\n- scope: write:issues\n  description: Permits updating issue status via PATCH /api/v1/issues/{issueId} and the update_issue MCP tool. Must be explicitly requested in the OAuth flow or enabled at API-key creation (\"Allow issue status updates\").\n  grants: [updateIssueStatus]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/scopes/lucent-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lucent/scopes/lucent-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company

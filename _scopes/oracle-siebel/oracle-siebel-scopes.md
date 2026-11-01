@@ -5,67 +5,67 @@ api_specs:
   label: Oracle Siebel Event Pub/Sub API
   slug: oracle-siebel-event-pubsub-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/asyncapi/oracle-siebel-event-pubsub-asyncapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/asyncapi/oracle-siebel-event-pubsub-asyncapi.yml
 - filename: oracle-siebel-accounts-api-openapi.yml
   format: yaml
   label: Oracle Siebel Accounts API
   slug: oracle-siebel-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/openapi/oracle-siebel-accounts-api-openapi.yml
 - filename: oracle-siebel-activities-api-openapi.yml
   format: yaml
   label: Oracle Siebel Activities API
   slug: oracle-siebel-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-activities-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/openapi/oracle-siebel-activities-api-openapi.yml
 - filename: oracle-siebel-business-services-api-openapi.yml
   format: yaml
   label: Oracle Siebel Business Services API
   slug: oracle-siebel-business-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-business-services-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/openapi/oracle-siebel-business-services-api-openapi.yml
 - filename: oracle-siebel-contacts-api-openapi.yml
   format: yaml
   label: Oracle Siebel Contacts API
   slug: oracle-siebel-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/openapi/oracle-siebel-contacts-api-openapi.yml
 - filename: oracle-siebel-metadata-api-openapi.yml
   format: yaml
   label: Oracle Siebel Metadata API
   slug: oracle-siebel-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/openapi/oracle-siebel-metadata-api-openapi.yml
 - filename: oracle-siebel-opportunities-api-openapi.yml
   format: yaml
   label: Oracle Siebel Opportunities API
   slug: oracle-siebel-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/openapi/oracle-siebel-opportunities-api-openapi.yml
 - filename: oracle-siebel-orders-api-openapi.yml
   format: yaml
   label: Oracle Siebel Orders API
   slug: oracle-siebel-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-orders-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/openapi/oracle-siebel-orders-api-openapi.yml
 - filename: oracle-siebel-products-api-openapi.yml
   format: yaml
   label: Oracle Siebel Products API
   slug: oracle-siebel-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-products-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/openapi/oracle-siebel-products-api-openapi.yml
 - filename: oracle-siebel-repository-api-openapi.yml
   format: yaml
   label: Oracle Siebel Repository API
   slug: oracle-siebel-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-repository-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/openapi/oracle-siebel-repository-api-openapi.yml
 - filename: oracle-siebel-service-requests-api-openapi.yml
   format: yaml
   label: Oracle Siebel Service Requests API
   slug: oracle-siebel-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/openapi/oracle-siebel-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-siebel/openapi/oracle-siebel-service-requests-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.oracle.com/cd/G30562_01/books/Secur/c-Using-OAuth-with-REST-Inbound-Web-Services.html
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ nothing for this artifact to enumerate, and enumerating\n  plausible scope strings would fabricate a contract that does not exist.\nfinding: no-published-scope-registry\nauthorization_model:\n  primary: siebel-responsibilities-positions-and-view-mode\n  description: >-\n    Real authorization in Siebel is data-level, not scope-level. The\n    authenticated user's responsibilities, position and organization determine\n    which records are visible, refined per request by the ViewMode query\n    parameter. Two callers presenting tokens with identical scopes can legally\n    see completely different data.\n  scope_role: >-\n    Where scopes exist at all, they are a coarse gate in front of Siebel, not a\n    permission model inside it.\nschemes:\n  - name: oauth2\n    declared_in:\n      - openapi/oracle-siebel-accounts-api-openapi.yml\n      - openapi/oracle-siebel-activities-api-openapi.yml\n      - openapi/oracle-siebel-business-services-api-openapi.yml\n      - openapi/oracle-siebel-contacts-api-openapi.yml\n\
   \      - openapi/oracle-siebel-metadata-api-openapi.yml\n      - openapi/oracle-siebel-opportunities-api-openapi.yml\n      - openapi/oracle-siebel-orders-api-openapi.yml\n      - openapi/oracle-siebel-products-api-openapi.yml\n      - openapi/oracle-siebel-repository-api-openapi.yml\n      - openapi/oracle-siebel-service-requests-api-openapi.yml\n    declared_scopes: 0\n    note: >-\n      Every one of the ten specs declares an oauth2 scheme with an EMPTY scopes\n      map. That is consistent with the documentation: there is no Siebel scope\n      vocabulary to declare. The authorizationUrl and tokenUrl carried in those\n      schemes are placeholders — Siebel exposes no such endpoints. See\n      authentication/oracle-siebel-authentication.yml (spec_discrepancy).\nmcp_scope_note: >-\n  The Siebel AI Connectors MCP runtime does have a scope hook —\n  security.jwt.required-scope in application.yaml — but the value is chosen by\n  the deploying customer, so it too is deployment-specific\
   \ rather than published.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/scopes/oracle-siebel-scopes.yml
+source_yaml_url: https://artifacts.apis.io/oracle-siebel/scopes/oracle-siebel-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - CRM

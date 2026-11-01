@@ -5,103 +5,103 @@ api_specs:
   label: BB&T Corp (Truist) Account Information API
   slug: bbandt-corp-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-account-information-api-openapi.yml
 - filename: bbandt-corp-account-transactions-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Account Transactions API
   slug: bbandt-corp-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-account-transactions-api-openapi.yml
 - filename: bbandt-corp-commercial-account-balance-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Commercial Account Balance API
   slug: bbandt-corp-commercial-account-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-commercial-account-balance-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-commercial-account-balance-api-openapi.yml
 - filename: bbandt-corp-commercial-account-transactions-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Commercial Account Transactions API
   slug: bbandt-corp-commercial-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-commercial-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-commercial-account-transactions-api-openapi.yml
 - filename: bbandt-corp-commercial-accounts-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Commercial Accounts API
   slug: bbandt-corp-commercial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-commercial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-commercial-accounts-api-openapi.yml
 - filename: bbandt-corp-credit-transfers-account-list-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Credit Transfers Account List API
   slug: bbandt-corp-credit-transfers-account-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-credit-transfers-account-list-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-credit-transfers-account-list-api-openapi.yml
 - filename: bbandt-corp-credit-transfers-acknowledge-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Credit Transfers Acknowledge API
   slug: bbandt-corp-credit-transfers-acknowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-credit-transfers-acknowledge-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-credit-transfers-acknowledge-api-openapi.yml
 - filename: bbandt-corp-credit-transfers-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Credit Transfers API
   slug: bbandt-corp-credit-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-credit-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-credit-transfers-api-openapi.yml
 - filename: bbandt-corp-credit-transfers-approval-reject-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Credit Transfers Approval/Reject API
   slug: bbandt-corp-credit-transfers-approval-reject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-credit-transfers-approval-reject-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-credit-transfers-approval-reject-api-openapi.yml
 - filename: bbandt-corp-event-notification-subscriptions-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Event Notification Subscriptions API
   slug: bbandt-corp-event-notification-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-event-notification-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-event-notification-subscriptions-api-openapi.yml
 - filename: bbandt-corp-event-notifications-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Event Notifications API
   slug: bbandt-corp-event-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-event-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-event-notifications-api-openapi.yml
 - filename: bbandt-corp-location-information-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Location Information API
   slug: bbandt-corp-location-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-location-information-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-location-information-api-openapi.yml
 - filename: bbandt-corp-money-movement-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Money Movement API
   slug: bbandt-corp-money-movement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-money-movement-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-money-movement-api-openapi.yml
 - filename: bbandt-corp-oauth-2-0-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) OAuth 2.0 API
   slug: bbandt-corp-oauth-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-oauth-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-oauth-2-0-api-openapi.yml
 - filename: bbandt-corp-personal-information-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Personal Information API
   slug: bbandt-corp-personal-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-personal-information-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-personal-information-api-openapi.yml
 - filename: bbandt-corp-recipients-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) Recipients API
   slug: bbandt-corp-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-recipients-api-openapi.yml
 - filename: bbandt-corp-user-consent-api-openapi.yml
   format: yaml
   label: BB&T Corp (Truist) User Consent API
   slug: bbandt-corp-user-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/openapi/bbandt-corp-user-consent-api-openapi.yml
+  url: https://artifacts.apis.io/bbandt-corp/openapi/bbandt-corp-user-consent-api-openapi.yml
 authorization_urls:
 - https://apidev-sandbox.truist.com/commercial/auth/v1/oauth/authorize
 - https://api-sandbox.truist.com/commercial/auth/v1/oauth/authorize
@@ -272,7 +272,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: derived\nsource: openapi/bbandt-c
   \ Scope required to access account contact\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bbandt-corp-retail-accounts-contact-openapi.yml\n  - openapi/bbandt-corp-retail-customers-openapi.yml\n- scope: PAYMENT_SUPPORT\n  description: Scope required to access payment networks supported by the account\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bbandt-corp-retail-payment-networks-openapi.yml\n- scope: TRANSACTIONS\n  description: Scope required to access account transactions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bbandt-corp-retail-accounts-transaction-openapi.yml\n- scope: address\n  description: This scope value requests access to the email and email_verified Claims.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bbandt-corp-retail-auth-oauth-openapi.yml\n- scope: email\n  description: This scope value requests access to the phone_number and phone_number_verified Claims.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bbandt-corp-retail-auth-oauth-openapi.yml\n\
   - scope: phone\n  description: This scope value requests access to the address Claim\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bbandt-corp-retail-auth-oauth-openapi.yml\n- scope: profile\n  description: This scope value requests access to the End-User's default profile Claims, which are:name, family_name,\n    given_name, middle_name, zoneinfo, locale, and updated_at.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bbandt-corp-retail-auth-oauth-openapi.yml\n- scope: read:accounts\n  description: Scope is requied to access account balance data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bbandt-corp-commercial-account-balance-openapi.yml\n  - openapi/bbandt-corp-commercial-account-transactions-openapi.yml\n  - openapi/bbandt-corp-commercial-accounts-openapi.yml\n  - openapi/bbandt-corp-commercial-credit-transfers-oas-v2-openapi.yml\n- scope: read:payments\n  description: Scope required to read payment details\n  flows:\n  - authorizationCode\n  sources:\n\
   \  - openapi/bbandt-corp-commercial-credit-transfers-oas-v2-openapi.yml\n- scope: write:payments\n  description: Scope required to create or update payments\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/bbandt-corp-commercial-credit-transfers-oas-v2-openapi.yml\ndocs: https://developer.truist.com/api/retail-oauth-authentication/documentation\nnote: Two scope vocabularies coexist. The retail (FDX) APIs use resource scopes — ACCOUNT_BASIC (account list), ACCOUNT_DETAILED\n  (account detail), TRANSACTIONS, CUSTOMER_CONTACT, PAYMENT_SUPPORT — plus the standard OIDC scopes profile, email, phone\n  and address. The commercial APIs use verb:resource scopes — read:accounts, read:payments, write:payments. Scope descriptions\n  are taken verbatim from the specs; note that Truist swapped the descriptions of the email/phone/address OIDC scopes\n  in retail-auth-oauth.yaml, which is a defect in their contract, not in this reading.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bbandt-corp/refs/heads/main/scopes/bbandt-corp-scopes.yml
+source_yaml_url: https://artifacts.apis.io/bbandt-corp/scopes/bbandt-corp-scopes.yml
 summary_line: 12 scopes · authorizationCode
 tags:
 - Banking

@@ -5,37 +5,37 @@ api_specs:
   label: REALTOR.ca Destination API
   slug: realtor-ca-destination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-destination-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-destination-api-openapi.yml
 - filename: realtor-ca-lead-api-openapi.yml
   format: yaml
   label: REALTOR.ca Lead API
   slug: realtor-ca-lead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-lead-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-lead-api-openapi.yml
 - filename: realtor-ca-member-api-openapi.yml
   format: yaml
   label: REALTOR.ca Member API
   slug: realtor-ca-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-member-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-member-api-openapi.yml
 - filename: realtor-ca-office-api-openapi.yml
   format: yaml
   label: REALTOR.ca Office API
   slug: realtor-ca-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-office-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-office-api-openapi.yml
 - filename: realtor-ca-openhouse-api-openapi.yml
   format: yaml
   label: REALTOR.ca Open House API
   slug: realtor-ca-openhouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-openhouse-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-openhouse-api-openapi.yml
 - filename: realtor-ca-property-api-openapi.yml
   format: yaml
   label: REALTOR.ca Property API
   slug: realtor-ca-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/openapi/realtor-ca-property-api-openapi.yml
+  url: https://artifacts.apis.io/realtor-ca/openapi/realtor-ca-property-api-openapi.yml
 authorization_urls:
 - https://identity.crea.ca/connect/authorize
 description: ''
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: >-\n  https://i
   \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://identity.crea.ca/connect/token\n    authorizationUrl: https://identity.crea.ca/connect/authorize\nscopes:\n- scope: DDFApi_Read\n  description: >-\n    Read access to the REALTOR.ca DDF Web API — the Property, Member, Office, OpenHouse and\n    Destination OData resources and their Replication endpoints, restricted to the Destinations\n    entitled to the calling data feed. This is the only scope CREA documents, and the only one a\n    DDF integrator requests.\n  flows: [clientCredentials]\n  documented: true\n  sources: [https://ddfapi-docs.realtor.ca/#section/Authorization]\n- scope: openid\n  description: Standard OpenID Connect scope; returns an ID token for interactive flows.\n  flows: [authorizationCode, implicit]\n  documented: false\n  sources: [https://identity.crea.ca/.well-known/openid-configuration]\n- scope: offline_access\n  description: Standard OAuth 2.0 scope requesting a refresh token. Not applicable to the\
   \ documented client_credentials DDF flow.\n  flows: [authorizationCode]\n  documented: false\n  sources: [https://identity.crea.ca/.well-known/openid-configuration]\n- scope: OfferManagementApi.read.write\n  description: >-\n    Read/write access to a CREA offer-management API. Advertised by identity.crea.ca but CREA\n    publishes no documentation, no host and no key-issuance path for it — offerapi.crea.ca and\n    offermanagement-docs.realtor.ca do not resolve.\n  flows: [clientCredentials]\n  documented: false\n  undocumented_product: true\n  sources: [https://identity.crea.ca/.well-known/openid-configuration]\n- scope: BoardDataApi.read\n  description: >-\n    Read access to a CREA board-data API. Advertised by identity.crea.ca but undocumented —\n    boarddataapi.crea.ca and boarddata-docs.realtor.ca do not resolve.\n  flows: [clientCredentials]\n  documented: false\n  undocumented_product: true\n  sources: [https://identity.crea.ca/.well-known/openid-configuration]\nsummary:\n  total:\
   \ 5\n  documented: 1\n  granularity: >-\n    Coarse. One read scope covers the entire national listing pool; entitlement is enforced not by\n    scope but by the `destinationid` claim bound to the credential — a feed sees only the\n    Destinations a member or broker owner linked to it. There is no per-resource, per-board or\n    per-field scope.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/scopes/realtor-ca-scopes.yml
+source_yaml_url: https://artifacts.apis.io/realtor-ca/scopes/realtor-ca-scopes.yml
 summary_line: 5 scopes · clientCredentials
 tags:
 - Real Estate

@@ -5,7 +5,7 @@ api_specs:
   label: Taylor's Library Koha REST API
   slug: library-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/openapi/taylors-patrons-api-openapi.yml
+  url: https://artifacts.apis.io/taylors/openapi/taylors-patrons-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -66,7 +66,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/taylors-checkouts-api-openapi.yml, openapi/taylors-holds-api-openapi.yml, openapi/taylors-item-types-api-openapi.yml,\n  openapi/taylors-items-api-openapi.yml, openapi/taylors-libraries-api-openapi.yml, openapi/taylors-patrons-api-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/taylors-checkouts-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/taylors-holds-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/taylors-item-types-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/taylors-items-api-openapi.yml\n  flows:\n\
   \  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/taylors-libraries-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\n- name: oauth2ClientCredentials\n  source: openapi/taylors-patrons-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://librarycatalogue.taylors.edu.my/api/v1/oauth/token\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/scopes/taylors-scopes.yml
+source_yaml_url: https://artifacts.apis.io/taylors/scopes/taylors-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Education

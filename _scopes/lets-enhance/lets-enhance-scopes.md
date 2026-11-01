@@ -5,19 +5,19 @@ api_specs:
   label: Let's Enhance Image API
   slug: lets-enhance-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-image-api-openapi.yml
+  url: https://artifacts.apis.io/lets-enhance/openapi/lets-enhance-image-api-openapi.yml
 - filename: lets-enhance-storage-api-openapi.yml
   format: yaml
   label: Let's Enhance Storage API
   slug: lets-enhance-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-storage-api-openapi.yml
+  url: https://artifacts.apis.io/lets-enhance/openapi/lets-enhance-storage-api-openapi.yml
 - filename: lets-enhance-video-api-openapi.yml
   format: yaml
   label: Let's Enhance Video API
   slug: lets-enhance-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-video-api-openapi.yml
+  url: https://artifacts.apis.io/lets-enhance/openapi/lets-enhance-video-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.claid.ai/authentication
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/lets-en
   \    upload edit, natural-language AI edit, AI fashion models, and image generation.\n  dashboard_group: Image editing\n  operations:\n  - POST /v1/image/edit\n  - POST /v1/image/edit/async\n  - GET /v1/image/edit/async/{task_id}\n  - POST /v1/image/edit/batch\n  - GET /v1/image/edit/batch/{task_id}\n  - POST /v1/image/edit/upload\n  - POST /v1/image/ai-edit\n  - GET /v1/image/ai-edit/{ai_edit_id}\n  - POST /v1/image/ai-fashion-models\n  - GET /v1/image/ai-fashion-models/{processing_request_id}\n  - POST /v1/image/generate\n  sources:\n  - openapi/lets-enhance-claid-openapi.json\n- scope: image_generation\n  description: AI background scene creation.\n  dashboard_group: Image editing\n  operations:\n  - POST /v1/scene/create\n  sources:\n  - openapi/lets-enhance-claid-openapi.json\n- scope: video_generation\n  description: Image-to-video generation and job status retrieval.\n  dashboard_group: Image editing\n  operations:\n  - POST /v1/video/generate\n  - GET /v1/video/generate/{animation_id}\n\
   \  sources:\n  - openapi/lets-enhance-claid-openapi.json\n- scope: storage\n  description: >-\n    Storage connector management — list storage types, and create, read, update and delete\n    connected AWS S3, Google Cloud Storage and web folder storages.\n  dashboard_group: Storage\n  operations:\n  - GET /v1/storage/storage-types\n  - GET /v1/storage/storages\n  - POST /v1/storage/storages\n  - GET /v1/storage/storages/{storage_id}\n  - PATCH /v1/storage/storages/{storage_id}\n  - DELETE /v1/storage/storages/{storage_id}\n  sources:\n  - openapi/lets-enhance-claid-openapi.json\ndashboard_permission_groups:\n- name: Storage\n  scopes:\n  - storage\n- name: Image editing\n  scopes:\n  - image_editing\n  - image_generation\n  - video_generation\n- name: Admin\n  description: Both Storage and Image editing permissions.\n  scopes:\n  - storage\n  - image_editing\n  - image_generation\n  - video_generation\nguidance: >-\n  Claid recommends creating API keys with the minimal permission scopes\
   \ necessary for the use case.\n  A request made with a key lacking the required scope returns HTTP 403 \"Not enough permissions\".\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/scopes/lets-enhance-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lets-enhance/scopes/lets-enhance-scopes.yml
 summary_line: 4 scopes · password
 tags:
 - Company

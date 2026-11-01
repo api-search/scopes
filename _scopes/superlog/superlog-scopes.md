@@ -5,25 +5,25 @@ api_specs:
   label: Superlog API keys API
   slug: superlog-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-api-keys-api-openapi.yml
 - filename: superlog-github-integration-api-openapi.yml
   format: yaml
   label: Superlog GitHub integration API
   slug: superlog-github-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-github-integration-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-github-integration-api-openapi.yml
 - filename: superlog-projects-api-openapi.yml
   format: yaml
   label: Superlog Projects API
   slug: superlog-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-projects-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-projects-api-openapi.yml
 - filename: superlog-telemetry-read-api-openapi.yml
   format: yaml
   label: Superlog Telemetry read API
   slug: superlog-telemetry-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/openapi/superlog-telemetry-read-api-openapi.yml
+  url: https://artifacts.apis.io/superlog/openapi/superlog-telemetry-read-api-openapi.yml
 authorization_urls:
 - https://api.superlog.sh/oauth/authorize
 description: ''
@@ -78,7 +78,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://api.superlog.sh/.well-known/oauth-authorization-server\ndocs: https://docs.superlog.sh/api/mcp-overview\nnote: >-\n  The Management REST API (/api/v1/*) uses opaque Bearer management keys, not OAuth, and has\n  no scope surface. OAuth 2.0 applies to the Superlog MCP server, whose authorization-server\n  metadata advertises authorization-code + PKCE (S256), refresh tokens, and dynamic client\n  registration. Token-level scoping is also documented for Personal Access Tokens.\nschemes:\n- name: OAuth2 (MCP)\n  source: https://api.superlog.sh/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.superlog.sh/oauth/authorize\n    tokenUrl: https://api.superlog.sh/oauth/token\n    registrationUrl: https://api.superlog.sh/oauth/register\n    pkce: S256\nscopes:\n- scope: mcp:read\n  description: Read access advertised by the MCP OAuth protected-resource / authorization-server\
   \ metadata.\n  flows: [authorizationCode]\n  sources: [https://api.superlog.sh/.well-known/oauth-protected-resource]\n- scope: superlog:telemetry\n  description: >-\n    Telemetry-only token scope — limits an MCP token to the telemetry and project tools\n    (query_logs, query_traces, query_metrics, list_services) with no dashboard/alert/agent access.\n  flows: [pat]\n  sources: [https://docs.superlog.sh/api/mcp-overview]\n- scope: full-access\n  description: Default token scope granting all MCP tools (telemetry, incidents, dashboards, alerts, agent config).\n  flows: [pat]\n  sources: [https://docs.superlog.sh/api/mcp-overview]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superlog/refs/heads/main/scopes/superlog-scopes.yml
+source_yaml_url: https://artifacts.apis.io/superlog/scopes/superlog-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company

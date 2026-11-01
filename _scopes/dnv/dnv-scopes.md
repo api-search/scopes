@@ -5,19 +5,19 @@ api_specs:
   label: DNV Certificates API
   slug: dnv-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/openapi/dnv-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/dnv/openapi/dnv-certificates-api-openapi.yml
 - filename: dnv-surveys-api-openapi.yml
   format: yaml
   label: DNV Surveys API
   slug: dnv-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/openapi/dnv-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/dnv/openapi/dnv-surveys-api-openapi.yml
 - filename: dnv-vessels-api-openapi.yml
   format: yaml
   label: DNV Vessels API
   slug: dnv-vessels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/openapi/dnv-vessels-api-openapi.yml
+  url: https://artifacts.apis.io/dnv/openapi/dnv-vessels-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -58,7 +58,7 @@ source_filename: dnv-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dnv-class-status-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/dnv-class-status-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/dnvglb2cprod.onmicrosoft.com/oauth2/token\n  description: OAuth 2.0 via Azure AD B2C. Tokens obtained from https://login.microsoftonline.com/dnvglb2cprod.onmicrosoft.com/oauth2/token\n    using client credentials grant with resource ID c916a223-f3d4-4d43-b709-cfcd77ff4a05.\nscopes:\n- scope: class_status:read\n  description: Read vessel classification status\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/dnv-class-status-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/scopes/dnv-scopes.yml
+source_yaml_url: https://artifacts.apis.io/dnv/scopes/dnv-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Maritime

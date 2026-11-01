@@ -30,14 +30,15 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hidrive/refs/heads/main/scopes/hidrive-scopes.yml
+source_yaml_url: https://artifacts.apis.io/hidrive/scopes/hidrive-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Cloud Storage
-- File Sharing
-- S3 Compatible
 - German
-- Enterprise
+- Data Protection
+- AES-256 Encryption
+- Business
+- Individual
 token_bound: false
 token_urls: []
 ---

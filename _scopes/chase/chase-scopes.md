@@ -5,67 +5,67 @@ api_specs:
   label: Chase Rewards Balance API
   slug: rewards-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-rewards-balance-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-rewards-balance-api-openapi.yml
 - filename: chase-accounts-api-openapi.yml
   format: yaml
   label: Chase Accounts API
   slug: chase-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-accounts-api-openapi.yml
 - filename: chase-consents-api-openapi.yml
   format: yaml
   label: Chase Consents API
   slug: chase-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-consents-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-consents-api-openapi.yml
 - filename: chase-customers-api-openapi.yml
   format: yaml
   label: Chase Customers API
   slug: chase-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-customers-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-customers-api-openapi.yml
 - filename: chase-enrollments-api-openapi.yml
   format: yaml
   label: Chase Enrollments API
   slug: chase-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-enrollments-api-openapi.yml
 - filename: chase-merchants-api-openapi.yml
   format: yaml
   label: Chase Merchants API
   slug: chase-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-merchants-api-openapi.yml
 - filename: chase-orders-api-openapi.yml
   format: yaml
   label: Chase Orders API
   slug: chase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-orders-api-openapi.yml
 - filename: chase-refunds-api-openapi.yml
   format: yaml
   label: Chase Refunds API
   slug: chase-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-refunds-api-openapi.yml
 - filename: chase-statements-api-openapi.yml
   format: yaml
   label: Chase Statements API
   slug: chase-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-statements-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-statements-api-openapi.yml
 - filename: chase-tax-forms-api-openapi.yml
   format: yaml
   label: Chase Tax Forms API
   slug: chase-tax-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-tax-forms-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-tax-forms-api-openapi.yml
 - filename: chase-transactions-api-openapi.yml
   format: yaml
   label: Chase Transactions API
   slug: chase-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-transactions-api-openapi.yml
 authorization_urls:
 - https://api.chase.com/oauth2/authorize
 description: ''
@@ -187,7 +187,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/chase-ac
   \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.chase.com/oauth2/token\n- name: oauth2\n  source: openapi/chase-loyalty-pay-with-points-order-service-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.chase.com/oauth2/token\n- name: oauth2\n  source: openapi/chase-loyalty-pci-merchant-relationship-manager-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.chase.com/oauth2/token\n- name: oauth2\n  source: openapi/chase-rewards-balance-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.chase.com/oauth2/token\nscopes:\n- scope: accounts.read\n  description: Read account data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/chase-account-and-customer-information-api-openapi.yml\n- scope: consents.read\n  description: Read consents\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/chase-account-aggregation-user-consent-api-openapi.yml\n- scope: consents.write\n  description:\
   \ Manage consents\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/chase-account-aggregation-user-consent-api-openapi.yml\n- scope: customers.read\n  description: Read customer profile\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/chase-account-and-customer-information-api-openapi.yml\n- scope: enrollments.write\n  description: Manage enrollments\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/chase-loyalty-pay-with-points-enrollment-service-api-openapi.yml\n- scope: merchants.write\n  description: Manage merchants\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/chase-loyalty-pci-merchant-relationship-manager-api-openapi.yml\n- scope: orders.write\n  description: Create and modify orders\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/chase-loyalty-pay-with-points-order-service-api-openapi.yml\n- scope: rewards.read\n  description: Read rewards balances\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/chase-rewards-balance-api-openapi.yml\n\
   - scope: statements.read\n  description: Read statements\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/chase-account-and-customer-information-api-openapi.yml\n- scope: tax-forms.read\n  description: Read tax forms\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/chase-account-and-customer-information-api-openapi.yml\n- scope: transactions.read\n  description: Read transactions\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/chase-account-and-customer-information-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/scopes/chase-scopes.yml
+source_yaml_url: https://artifacts.apis.io/chase/scopes/chase-scopes.yml
 summary_line: 11 scopes · authorizationCode/clientCredentials
 tags:
 - Account Aggregation

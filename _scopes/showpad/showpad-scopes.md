@@ -5,133 +5,133 @@ api_specs:
   label: Showpad Assets API
   slug: showpad-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-assets-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-assets-api-openapi.yml
 - filename: showpad-channels-api-openapi.yml
   format: yaml
   label: Showpad Channels API
   slug: showpad-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-channels-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-channels-api-openapi.yml
 - filename: showpad-comments-api-openapi.yml
   format: yaml
   label: Showpad Comments API
   slug: showpad-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-comments-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-comments-api-openapi.yml
 - filename: showpad-crm-api-openapi.yml
   format: yaml
   label: Showpad CRM API
   slug: showpad-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-crm-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-crm-api-openapi.yml
 - filename: showpad-divisionpermissions-api-openapi.yml
   format: yaml
   label: Showpad Divisionpermissions API
   slug: showpad-divisionpermissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-divisionpermissions-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-divisionpermissions-api-openapi.yml
 - filename: showpad-divisions-api-openapi.yml
   format: yaml
   label: Showpad Divisions API
   slug: showpad-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-divisions-api-openapi.yml
 - filename: showpad-exports-api-openapi.yml
   format: yaml
   label: Showpad Exports API
   slug: showpad-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-exports-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-exports-api-openapi.yml
 - filename: showpad-generic-api-openapi.yml
   format: yaml
   label: Showpad Generic API
   slug: showpad-generic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-generic-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-generic-api-openapi.yml
 - filename: showpad-locale-api-openapi.yml
   format: yaml
   label: Showpad Locale API
   slug: showpad-locale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-locale-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-locale-api-openapi.yml
 - filename: showpad-mutual-action-plan-api-openapi.yml
   format: yaml
   label: Showpad Mutual Action Plan API
   slug: showpad-mutual-action-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-mutual-action-plan-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-mutual-action-plan-api-openapi.yml
 - filename: showpad-recommendations-api-openapi.yml
   format: yaml
   label: Showpad Recommendations API
   slug: showpad-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-recommendations-api-openapi.yml
 - filename: showpad-shared-space-templates-api-openapi.yml
   format: yaml
   label: Showpad Shared Space Templates API
   slug: showpad-shared-space-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-shared-space-templates-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-shared-space-templates-api-openapi.yml
 - filename: showpad-shared-spaces-api-openapi.yml
   format: yaml
   label: Showpad Shared Spaces API
   slug: showpad-shared-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-shared-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-shared-spaces-api-openapi.yml
 - filename: showpad-shared-spaces-quick-actions-api-openapi.yml
   format: yaml
   label: Showpad Shared Spaces Quick Actions API
   slug: showpad-shared-spaces-quick-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-shared-spaces-quick-actions-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-shared-spaces-quick-actions-api-openapi.yml
 - filename: showpad-shares-api-openapi.yml
   format: yaml
   label: Showpad Shares API
   slug: showpad-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-shares-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-shares-api-openapi.yml
 - filename: showpad-tag-categories-api-openapi.yml
   format: yaml
   label: Showpad Tag Categories API
   slug: showpad-tag-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-tag-categories-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-tag-categories-api-openapi.yml
 - filename: showpad-tags-api-openapi.yml
   format: yaml
   label: Showpad Tags API
   slug: showpad-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-tags-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-tags-api-openapi.yml
 - filename: showpad-themes-api-openapi.yml
   format: yaml
   label: Showpad Themes API
   slug: showpad-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-themes-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-themes-api-openapi.yml
 - filename: showpad-tickets-api-openapi.yml
   format: yaml
   label: Showpad Tickets API
   slug: showpad-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-tickets-api-openapi.yml
 - filename: showpad-users-api-openapi.yml
   format: yaml
   label: Showpad Users API
   slug: showpad-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-users-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-users-api-openapi.yml
 - filename: showpad-user-groups-api-openapi.yml
   format: yaml
   label: Showpad User Groups API
   slug: showpad-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-user-groups-api-openapi.yml
 - filename: showpad-user-permissions-api-openapi.yml
   format: yaml
   label: Showpad User Permissions API
   slug: showpad-user-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/openapi/showpad-user-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/showpad/openapi/showpad-user-permissions-api-openapi.yml
 authorization_urls:
 - https://{subdomain}.showpad.biz/api/v3/oauth2/authorize
 - https://mcp.showpad.com/oauth/v1/auth
@@ -229,7 +229,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: openapi/showpad
   \  - scope: write_user_management\n    description: Allows write access for user data (includes users, usergroups and user permissions).\n    flows: [password, authorizationCode]\n    surfaces: [rest, mcp]\n    sources:\n      - openapi/showpad-v3-openapi-original.yml\n      - https://developer.showpad.com/docs/apis/concepts/authentication\n      - well-known/showpad-oauth-protected-resource.json\n  - scope: read_contentprofile_management\n    description: >-\n      Allows read access for content profile-related resources (content profiles, assets,\n      tags, tickets and comments).\n    flows: [password, authorizationCode]\n    surfaces: [rest, mcp]\n    sources:\n      - openapi/showpad-v3-openapi-original.yml\n      - https://developer.showpad.com/docs/apis/concepts/authentication\n      - well-known/showpad-oauth-protected-resource.json\n  - scope: write_contentprofile_management\n    description: >-\n      Allows write access for content profile-related resources (content profiles,\
   \ assets,\n      tags, tickets and comments).\n    flows: [password, authorizationCode]\n    surfaces: [rest, mcp]\n    sources:\n      - openapi/showpad-v3-openapi-original.yml\n      - https://developer.showpad.com/docs/apis/concepts/authentication\n      - well-known/showpad-oauth-protected-resource.json\n  - scope: read_division_management\n    description: Allows read access for Division-related resources (Divisions and Division permissions).\n    flows: [password, authorizationCode]\n    surfaces: [rest, mcp]\n    sources:\n      - openapi/showpad-v3-openapi-original.yml\n      - https://developer.showpad.com/docs/apis/concepts/authentication\n      - well-known/showpad-oauth-protected-resource.json\n  - scope: write_division_management\n    description: Allows write access for Division-related resources (Divisions and Division permissions).\n    flows: [password, authorizationCode]\n    surfaces: [rest, mcp]\n    sources:\n      - openapi/showpad-v3-openapi-original.yml\n      -\
   \ https://developer.showpad.com/docs/apis/concepts/authentication\n      - well-known/showpad-oauth-protected-resource.json\n  - scope: appsdb_online_integrations\n    description: Enables usage of AppsDB without a Showpad App. This feature requires activation.\n    flows: []\n    surfaces: [rest]\n    sources:\n      - https://developer.showpad.com/docs/apis/concepts/authentication\n    note: Documented on the authentication page only; absent from the OpenAPI flow scope maps.\nspec_anomalies:\n  - scope: read_content_profile_management\n    detail: >-\n      Appears once in a v3 operation security requirement but is not declared in either oauth2\n      flow's scopes map and does not appear in Showpad's scope reference. Almost certainly a\n      typo for read_contentprofile_management. Recorded, not corrected.\n    source: openapi/showpad-v3-openapi-original.yml\nscope_count: 8\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/scopes/showpad-scopes.yml
+source_yaml_url: https://artifacts.apis.io/showpad/scopes/showpad-scopes.yml
 summary_line: 8 scopes · password/authorizationCode
 tags:
 - Sales Enablement

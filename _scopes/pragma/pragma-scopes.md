@@ -48,7 +48,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.firstlook.gg/developers/api/\ndocs: https://docs.firstlook.gg/developers/api/\nnotes: >-\n  FirstLook External API tokens are scoped: each token is granted one or more of\n  the permission categories below at creation time (Settings -> Developer). These\n  are the documented scope groups; the exact machine scope strings are enumerated\n  in the Swagger UI at https://api.firstlook.gg/external/swagger-ui/.\nschemes:\n  - name: FirstLookApiToken\n    type: apiKey\n    source: https://docs.firstlook.gg/developers/api/\nscopes:\n  - scope: players.query\n    description: Search players with filters.\n    sources: [https://docs.firstlook.gg/developers/api/]\n  - scope: players.lookup\n    description: Fetch a single player, or find-or-create a player.\n    sources: [https://docs.firstlook.gg/developers/api/]\n  - scope: analytics.events.write\n    description: Record analytics events — send sessions, counters, and durations\
   \ (requires the Retention feature).\n    sources: [https://docs.firstlook.gg/developers/api/]\n  - scope: surveys.read\n    description: List and export surveys.\n    sources: [https://docs.firstlook.gg/developers/api/]\n  - scope: creators.read\n    description: Search creators and read the public creator leaderboard.\n    sources: [https://docs.firstlook.gg/developers/api/]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pragma/refs/heads/main/scopes/pragma-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pragma/scopes/pragma-scopes.yml
 summary_line: 5 scopes
 tags:
 - Company

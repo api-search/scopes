@@ -5,7 +5,7 @@ api_specs:
   label: Keller Williams Search API
   slug: keller-williams-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/openapi/keller-williams-search-api-openapi.yml
+  url: https://artifacts.apis.io/keller-williams/openapi/keller-williams-search-api-openapi.yml
 authorization_urls:
 - https://partners.api.kw.com/idp/authorize
 description: ''
@@ -233,7 +233,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: https://partner
   \    documented: false\n    note: Browser/CORS-flavoured variant of read_all_listings.\n  - scope: read_all_listings_zendesk\n    family: listings\n    documented: false\n    note: Zendesk-integration variant of read_all_listings.\n  - scope: read_user_listings\n    family: listings\n    documented: false\n  - scope: read_syndicated_listings\n    family: listings\n    documented: false\n  # --- Remaining server-advertised scopes -----------------------------\n  - scope: delete_task\n    family: tasks\n    documented: false\n  - scope: read_all_task_productive\n    family: tasks\n    documented: false\n  - scope: write_all_task_productive\n    family: tasks\n    documented: false\n  - scope: read_all_contact_productive\n    family: contacts\n    documented: false\n  - scope: write_all_contact_productive\n    family: contacts\n    documented: false\n  - scope: read_all_user\n    family: users\n    documented: false\n  - scope: read_all_users_lw\n    family: users\n    documented: false\n\
   \    note: >-\n      The \"lw\" variant, presumed Livian / LW line of business.\n  - scope: read_all_associates\n    family: users\n    documented: false\n  - scope: read_all_organization\n    family: organizations\n    documented: false\n  - scope: read_opportunity\n    family: opportunities\n    documented: false\n  - scope: read_recruit\n    family: recruiting\n    documented: false\n  - scope: write_recruit\n    family: recruiting\n    documented: false\n  - scope: read_agent_marketing_profile\n    family: marketing\n    documented: false\n  - scope: read_user_marketing_profile\n    family: marketing\n    documented: false\n  - scope: read_all_orgs_marketing_profile\n    family: marketing\n    documented: false\n  - scope: webrand\n    family: marketing\n    documented: false\n    note: Undocumented; name suggests the KW web-branding/agent-site surface.\ndocumented_but_not_advertised:\n  - scope: read_user\n    description: \"Read KW User Information — named in the DevHub Getting Started\
   \ product list, but absent from the discovery document's scopes_supported.\"\n    docs: https://developer.kw.com/getting-started\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/scopes/keller-williams-scopes.yml
+source_yaml_url: https://artifacts.apis.io/keller-williams/scopes/keller-williams-scopes.yml
 summary_line: 40 scopes · authorizationCode/implicit/clientCredentials/tokenExchange/jwtBearer
 tags:
 - Real Estate

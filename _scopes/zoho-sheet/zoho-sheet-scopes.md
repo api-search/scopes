@@ -5,7 +5,7 @@ api_specs:
   label: Zoho Sheet Workbook API
   slug: zoho-sheet-workbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/openapi/zoho-sheet-workbook-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-sheet/openapi/zoho-sheet-workbook-api-openapi.yml
 authorization_urls:
 - https://accounts.zoho.com/oauth/v2/auth
 description: ''
@@ -63,7 +63,7 @@ source_filename: zoho-sheet-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: oauthToken\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\n  - flow: implicit\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n  - flow: clientCredentials\n    tokenUrl: https://accounts.zoho.com/oauth/v3/device/token\n  description: Zoho OAuth 2.0 authentication\nscopes:\n- scope: ZohoSheet.dataAPI.READ\n  description: Read spreadsheet data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/openapi.yml\n- scope: ZohoSheet.dataAPI.UPDATE\n  description: Write and update spreadsheet data\n  flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/scopes/zoho-sheet-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zoho-sheet/scopes/zoho-sheet-scopes.yml
 summary_line: 2 scopes · authorizationCode/implicit/clientCredentials
 tags:
 - Spreadsheets

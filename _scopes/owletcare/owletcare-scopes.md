@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://owletcare.com/.well-known/openid-configuration\nnotes: >-\n  Scopes advertised by the Shopify Customer Account OIDC discovery document\n  served at owletcare.com (scopes_supported). This is Shopify's Customer\n  Account API scope set, not a first-party Owlet API.\nschemes:\n- name: ShopifyCustomerAccountOIDC\n  source: well-known/owletcare-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://b2b.owletcare.com/authentication/oauth/authorize\n    tokenUrl: https://b2b.owletcare.com/authentication/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token.\n  flows: [authorizationCode]\n- scope: email\n  description: Access the authenticated customer's email address.\n  flows: [authorizationCode]\n- scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in customer.\n  flows: [authorizationCode]\n\
   - scope: customer-account-mcp-api:full\n  description: Full access to the Shopify Customer Account MCP API for the signed-in customer.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/owletcare/refs/heads/main/scopes/owletcare-scopes.yml
+source_yaml_url: https://artifacts.apis.io/owletcare/scopes/owletcare-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

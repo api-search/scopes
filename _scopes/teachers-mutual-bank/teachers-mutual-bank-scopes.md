@@ -5,43 +5,43 @@ api_specs:
   label: Teachers Mutual Bank Banking Account Balances API
   slug: teachers-mutual-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-account-balances-api-openapi.yml
 - filename: teachers-mutual-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Account Direct Debits API
   slug: teachers-mutual-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-account-direct-debits-api-openapi.yml
 - filename: teachers-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Account Scheduled Payments API
   slug: teachers-mutual-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: teachers-mutual-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Account Transactions API
   slug: teachers-mutual-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-account-transactions-api-openapi.yml
 - filename: teachers-mutual-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Accounts API
   slug: teachers-mutual-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-accounts-api-openapi.yml
 - filename: teachers-mutual-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Payees API
   slug: teachers-mutual-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-payees-api-openapi.yml
 - filename: teachers-mutual-bank-banking-products-api-openapi.yml
   format: yaml
   label: Teachers Mutual Bank Banking Products API
   slug: teachers-mutual-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/openapi/teachers-mutual-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/teachers-mutual-bank/openapi/teachers-mutual-bank-banking-products-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes
@@ -90,7 +90,7 @@ source_url: ''
 source_yaml: "specification: API Commons OAuth Scopes\nspecificationVersion: '0.1'\ngenerated: '2026-07-21'\nmethod: derived\nprovider: Teachers Mutual Bank\nproviderId: teachers-mutual-bank\nsource: openapi/teachers-mutual-bank-cds-banking-products-openapi.yml (x-scopes) + Consumer Data Standards authorisation scopes\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#authorisation-scopes\nnote: >-\n  The public Product Reference Data (PRD) surface is unauthenticated and carries no\n  scopes. The consumer data-sharing channel (accounts, balances, transactions, direct\n  debits, scheduled payments, payees) is authorised via the CDR OAuth2 / OpenID Connect\n  FAPI 1.0 profile. Each protected operation declares its required authorisation scope\n  through the CDR `x-scopes` OpenAPI extension in the captured contract. The five banking\n  scopes below are the standard DSB Consumer Data Standards authorisation scopes; scope\n  strings and per-operation requirements are taken verbatim\
   \ from the harvested spec, and\n  descriptions follow the published Consumer Data Standards. Teachers Mutual Bank does not\n  define custom scopes beyond the shared DSB banking scope set.\ntags:\n- CDR\n- Open Banking\n- OAuth2\n- FAPI\n- Authorisation Scopes\nflow: authorizationCode\nscopes:\n- scope: bank:accounts.basic:read\n  description: >-\n    Account name, type, account holder(s), and balance. Basic account information used\n    to list a consumer's banking accounts and read account and bulk balances.\n  operations:\n  - listBankingAccounts\n  - getBankingBalance\n  - listBankingBalancesBulk\n  - listBankingBalancesSpecificAccounts\n- scope: bank:accounts.detail:read\n  description: >-\n    Detailed account information including account numbers, features, rates, fees, and\n    other account-specific detail beyond the basic profile.\n  operations:\n  - getBankingAccountDetail\n- scope: bank:transactions:read\n  description: >-\n    Transaction details for authorised accounts, including\
   \ amounts, dates, descriptions,\n    and per-transaction detail.\n  operations:\n  - listBankingTransactions\n  - getBankingTransactionDetail\n- scope: bank:regular_payments:read\n  description: >-\n    Direct debits, scheduled payments, and instalment plans configured against a\n    consumer's authorised accounts.\n  operations:\n  - listDirectDebits\n  - listDirectDebitsBulk\n  - listDirectDebitsSpecificAccounts\n  - listScheduledPayments\n  - listScheduledPaymentsBulk\n  - listScheduledPaymentsSpecificAccounts\n  - listInstalmentPlans\n  - listInstalmentPlansBulk\n- scope: bank:payees:read\n  description: >-\n    Saved payees stored by the consumer, returned only where the consumer has authorised\n    sharing of their payee list.\n  operations:\n  - listBankingPayees\n  - getBankingPayeeDetail\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teachers-mutual-bank/refs/heads/main/scopes/teachers-mutual-bank-scopes.yml
+source_yaml_url: https://artifacts.apis.io/teachers-mutual-bank/scopes/teachers-mutual-bank-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - CDR

@@ -5,13 +5,13 @@ api_specs:
   label: CCH Tagetik Financial Data API
   slug: tagetik-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/tagetik-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/tagetik/openapi/tagetik-financial-data-api-openapi.yml
 - filename: tagetik-metadata-api-openapi.yml
   format: yaml
   label: CCH Tagetik Metadata API
   slug: tagetik-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/openapi/tagetik-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/tagetik/openapi/tagetik-metadata-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -51,7 +51,7 @@ source_filename: tagetik-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cch-tagetik-odata-openapi.yml\nschemes:\n- name: OAuth2ClientCredentials\n  source: openapi/cch-tagetik-odata-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{environment}/oauth2/token\nscopes:\n- scope: read\n  description: Read access to financial and analytical data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/cch-tagetik-odata-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/scopes/tagetik-scopes.yml
+source_yaml_url: https://artifacts.apis.io/tagetik/scopes/tagetik-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Analytics

@@ -5,37 +5,37 @@ api_specs:
   label: Wells Fargo ACH Payments API
   slug: ach-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-ach-payments-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-ach-payments-api-openapi.yml
 - filename: wells-fargo-accounts-api-openapi.yml
   format: yaml
   label: wells-fargo Accounts API
   slug: wells-fargo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-accounts-api-openapi.yml
 - filename: wells-fargo-payment-batches-api-openapi.yml
   format: yaml
   label: wells-fargo Payment Batches API
   slug: wells-fargo-payment-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-payment-batches-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-payment-batches-api-openapi.yml
 - filename: wells-fargo-payment-returns-api-openapi.yml
   format: yaml
   label: wells-fargo Payment Returns API
   slug: wells-fargo-payment-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-payment-returns-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-payment-returns-api-openapi.yml
 - filename: wells-fargo-payments-api-openapi.yml
   format: yaml
   label: wells-fargo Payments API
   slug: wells-fargo-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-payments-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-payments-api-openapi.yml
 - filename: wells-fargo-transactions-api-openapi.yml
   format: yaml
   label: wells-fargo Transactions API
   slug: wells-fargo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/openapi/wells-fargo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/wells-fargo/openapi/wells-fargo-transactions-api-openapi.yml
 authorization_urls:
 - https://api.wellsfargo.com/oauth2/authorize
 description: ''
@@ -107,7 +107,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wells-fargo-account-transactions-api-openapi.yml, openapi/wells-fargo-ach-payments-api-openapi.yml,\n  openapi/wells-fargo-gateway-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/wells-fargo-account-transactions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wellsfargo.com/oauth2/token\n- name: oauth2\n  source: openapi/wells-fargo-ach-payments-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.wellsfargo.com/oauth2/token\n- name: oauth2\n  source: openapi/wells-fargo-gateway-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.wellsfargo.com/oauth2/authorize\n    tokenUrl: https://api.wellsfargo.com/oauth2/token\nscopes:\n- scope: accounts:read\n  description: Read account information and balances\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/wells-fargo-account-transactions-api-openapi.yml\n\
   \  - openapi/wells-fargo-gateway-api-openapi.yml\n- scope: payments:read\n  description: Read payment information and status\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/wells-fargo-ach-payments-api-openapi.yml\n- scope: payments:write\n  description: Initiate and cancel payments\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/wells-fargo-ach-payments-api-openapi.yml\n  - openapi/wells-fargo-gateway-api-openapi.yml\n- scope: transactions:read\n  description: Read transaction history and details\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/wells-fargo-account-transactions-api-openapi.yml\n  - openapi/wells-fargo-gateway-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/scopes/wells-fargo-scopes.yml
+source_yaml_url: https://artifacts.apis.io/wells-fargo/scopes/wells-fargo-scopes.yml
 summary_line: 4 scopes · clientCredentials/authorizationCode
 tags:
 - Fortune 100

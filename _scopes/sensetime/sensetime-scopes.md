@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: well-known/sensetime-openid-configuration.json\ndocs: https://platform.sensenova.cn/.well-known/openid-configuration\nschemes:\n- name: SenseCoreOIDC\n  source: well-known/sensetime-openid-configuration.json\n  issuer: https://signin.sensecore.cn/\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://signin.sensecore.cn/oauth2/auth\n    tokenUrl: https://signin.sensecore.cn/oauth2/token\n  - flow: clientCredentials\n    tokenUrl: https://signin.sensecore.cn/oauth2/token\nscopes:\n- scope: openid\n  description: OpenID Connect sign-in; issue an ID token identifying the subject.\n  flows: [authorizationCode, implicit]\n  sources: [well-known/sensetime-openid-configuration.json]\n- scope: offline\n  description: Request offline access (issue a refresh token).\n  flows: [authorizationCode]\n  sources: [well-known/sensetime-openid-configuration.json]\n- scope: offline_access\n  description: Standard OIDC offline\
   \ access; issue a refresh token for long-lived access.\n  flows: [authorizationCode]\n  sources: [well-known/sensetime-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sensetime/refs/heads/main/scopes/sensetime-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sensetime/scopes/sensetime-scopes.yml
 summary_line: 3 scopes · authorizationCode/clientCredentials
 tags:
 - Company

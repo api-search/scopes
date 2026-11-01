@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://innovist.com/.well-known/openid-configuration\ndocs: https://innovist.com/.well-known/oauth-authorization-server\nnotes: >-\n  OAuth/OIDC scopes captured verbatim from the store's live discovery documents\n  (scopes_supported). These are Shopify customer-account identity scopes, plus\n  the customer-account MCP API scope that backs agent-driven commerce.\nschemes:\n- name: shopifyCustomerAccountOIDC\n  source: well-known/innovist-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://shopify.com/authentication/3960733763/oauth/authorize\n    tokenUrl: https://shopify.com/authentication/3960733763/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; issue an ID token for the customer.\n  flows:\n  - authorizationCode\n- scope: email\n  description: Access the customer's email address and email_verified claim.\n  flows:\n  - authorizationCode\n-\
   \ scope: customer-account-api:full\n  description: Full access to the Shopify Customer Account API on behalf of the signed-in customer.\n  flows:\n  - authorizationCode\n- scope: customer-account-mcp-api:full\n  description: Full access to the customer-account MCP API used for agent-driven commerce.\n  flows:\n  - authorizationCode\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/innovist/refs/heads/main/scopes/innovist-scopes.yml
+source_yaml_url: https://artifacts.apis.io/innovist/scopes/innovist-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

@@ -5,49 +5,49 @@ api_specs:
   label: Forecast.Solar Chart API
   slug: forecast-solar-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forecast-solar/refs/heads/main/openapi/forecast-solar-chart-api-openapi.yml
+  url: https://artifacts.apis.io/forecast-solar/openapi/forecast-solar-chart-api-openapi.yml
 - filename: forecast-solar-clear-sky-api-openapi.yml
   format: yaml
   label: Forecast.Solar Clear sky API
   slug: forecast-solar-clear-sky-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forecast-solar/refs/heads/main/openapi/forecast-solar-clear-sky-api-openapi.yml
+  url: https://artifacts.apis.io/forecast-solar/openapi/forecast-solar-clear-sky-api-openapi.yml
 - filename: forecast-solar-forecast-api-openapi.yml
   format: yaml
   label: Forecast.Solar Forecast API
   slug: forecast-solar-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forecast-solar/refs/heads/main/openapi/forecast-solar-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/forecast-solar/openapi/forecast-solar-forecast-api-openapi.yml
 - filename: forecast-solar-history-api-openapi.yml
   format: yaml
   label: Forecast.Solar History API
   slug: forecast-solar-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forecast-solar/refs/heads/main/openapi/forecast-solar-history-api-openapi.yml
+  url: https://artifacts.apis.io/forecast-solar/openapi/forecast-solar-history-api-openapi.yml
 - filename: forecast-solar-misc-api-openapi.yml
   format: yaml
   label: Forecast.Solar Misc API
   slug: forecast-solar-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forecast-solar/refs/heads/main/openapi/forecast-solar-misc-api-openapi.yml
+  url: https://artifacts.apis.io/forecast-solar/openapi/forecast-solar-misc-api-openapi.yml
 - filename: forecast-solar-professional-api-openapi.yml
   format: yaml
   label: Forecast.Solar Professional API
   slug: forecast-solar-professional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forecast-solar/refs/heads/main/openapi/forecast-solar-professional-api-openapi.yml
+  url: https://artifacts.apis.io/forecast-solar/openapi/forecast-solar-professional-api-openapi.yml
 - filename: forecast-solar-public-api-openapi.yml
   format: yaml
   label: Forecast.Solar Public API
   slug: forecast-solar-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forecast-solar/refs/heads/main/openapi/forecast-solar-public-api-openapi.yml
+  url: https://artifacts.apis.io/forecast-solar/openapi/forecast-solar-public-api-openapi.yml
 - filename: forecast-solar-weather-api-openapi.yml
   format: yaml
   label: Forecast.Solar Weather API
   slug: forecast-solar-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forecast-solar/refs/heads/main/openapi/forecast-solar-weather-api-openapi.yml
+  url: https://artifacts.apis.io/forecast-solar/openapi/forecast-solar-weather-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -79,15 +79,14 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forecast-solar/refs/heads/main/scopes/forecast-solar-scopes.yml
+source_yaml_url: https://artifacts.apis.io/forecast-solar/scopes/forecast-solar-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Solar
-- Energy
-- Forecast
-- Weather
-- API
 - Company
+- Solar
+- Forecast
+- API
+- Renewable Energy
 token_bound: false
 token_urls: []
 ---

@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://developer.parallelmarkets.com/docs/1.x/server/scopes\ndocs: https://developer.parallelmarkets.com/docs/1.x/server/scopes\nschemes:\n- name: oauth2AuthorizationCode\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.parallelmarkets.com/v1/oauth/authorize\n    tokenUrl: https://api.parallelmarkets.com/v1/oauth/token\nscopes:\n- scope: profile\n  description: >-\n    Access to the Profile API and basic information about an individual or business.\n    This scope should always be included.\n  flows: [authorizationCode]\n- scope: accreditation_status\n  description: >-\n    Access to the Accreditations API and the full accreditation history for an\n    individual or business.\n  flows: [authorizationCode]\n- scope: identity\n  description: >-\n    Access to the Identity API and detailed KYC/AML data, contact information,\n    identity documents, and Taxpayer Identification Certification\
   \ (W-9).\n  flows: [authorizationCode]\n- scope: blockchain\n  description: >-\n    Access to the Blockchain API and information about confirmed wallets and\n    Parallel Identity (PID) Token ownership.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/scopes/parallel-markets-scopes.yml
+source_yaml_url: https://artifacts.apis.io/parallel-markets/scopes/parallel-markets-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

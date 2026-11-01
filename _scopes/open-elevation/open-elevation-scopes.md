@@ -30,7 +30,7 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-elevation/refs/heads/main/scopes/open-elevation-scopes.yml
+source_yaml_url: https://artifacts.apis.io/open-elevation/scopes/open-elevation-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

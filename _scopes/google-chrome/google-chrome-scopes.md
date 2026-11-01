@@ -5,37 +5,37 @@ api_specs:
   label: Google Chrome App Details API
   slug: google-chrome-app-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-app-details-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-app-details-api-openapi.yml
 - filename: google-chrome-reports-api-openapi.yml
   format: yaml
   label: Google Chrome Reports API
   slug: google-chrome-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-reports-api-openapi.yml
 - filename: google-chrome-telemetry-devices-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Devices API
   slug: google-chrome-telemetry-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-devices-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-devices-api-openapi.yml
 - filename: google-chrome-telemetry-events-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Events API
   slug: google-chrome-telemetry-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-events-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-events-api-openapi.yml
 - filename: google-chrome-telemetry-notification-configs-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Notification Configs API
   slug: google-chrome-telemetry-notification-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-notification-configs-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-notification-configs-api-openapi.yml
 - filename: google-chrome-telemetry-users-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Users API
   slug: google-chrome-telemetry-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-users-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -89,7 +89,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-chrome-management-api-openapi.json\nschemes:\n- name: oauth2\n  source: openapi/google-chrome-management-api-openapi.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: Google OAuth 2.0 authentication. Requires appropriate Chrome Management API scopes.\nscopes:\n- scope: https://www.googleapis.com/auth/chrome.management.appdetails.readonly\n  description: View Chrome app details\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-chrome-management-api-openapi.json\n- scope: https://www.googleapis.com/auth/chrome.management.reports.readonly\n  description: View Chrome browser and device reports\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-chrome-management-api-openapi.json\n- scope: https://www.googleapis.com/auth/chrome.management.telemetry.readonly\n \
   \ description: View Chrome telemetry data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-chrome-management-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/scopes/google-chrome-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-chrome/scopes/google-chrome-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Browser

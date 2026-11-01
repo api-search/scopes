@@ -5,85 +5,85 @@ api_specs:
   label: Dealogic Admin API
   slug: dealogic-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-admin-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-admin-api-openapi.yml
 - filename: dealogic-data-api-openapi.yml
   format: yaml
   label: Dealogic Data API
   slug: dealogic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-data-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-data-api-openapi.yml
 - filename: dealogic-dcmdeal-api-openapi.yml
   format: yaml
   label: Dealogic Dcm Deal API
   slug: dealogic-dcmdeal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-dcmdeal-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-dcmdeal-api-openapi.yml
 - filename: dealogic-entity-navigation-api-openapi.yml
   format: yaml
   label: Dealogic Entity Navigation API
   slug: dealogic-entity-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-entity-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-entity-navigation-api-openapi.yml
 - filename: dealogic-levfinmarketupdate-api-openapi.yml
   format: yaml
   label: Dealogic Levfin Market Update API
   slug: dealogic-levfinmarketupdate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-levfinmarketupdate-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-levfinmarketupdate-api-openapi.yml
 - filename: dealogic-loandeal-api-openapi.yml
   format: yaml
   label: Dealogic Loan Deal API
   slug: dealogic-loandeal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-loandeal-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-loandeal-api-openapi.yml
 - filename: dealogic-organizationspacprofile-api-openapi.yml
   format: yaml
   label: Dealogic Organization Spac Profile API
   slug: dealogic-organizationspacprofile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-organizationspacprofile-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-organizationspacprofile-api-openapi.yml
 - filename: dealogic-related-entities-api-openapi.yml
   format: yaml
   label: Dealogic Related Entities API
   slug: dealogic-related-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-related-entities-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-related-entities-api-openapi.yml
 - filename: dealogic-reportdata-api-openapi.yml
   format: yaml
   label: Dealogic Report Data API
   slug: dealogic-reportdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-reportdata-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-reportdata-api-openapi.yml
 - filename: dealogic-root-entity-api-openapi.yml
   format: yaml
   label: Dealogic Root Entity API
   slug: dealogic-root-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-root-entity-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-root-entity-api-openapi.yml
 - filename: dealogic-spac-admin-api-openapi.yml
   format: yaml
   label: Dealogic Spac Admin API
   slug: dealogic-spac-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-spac-admin-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-spac-admin-api-openapi.yml
 - filename: dealogic-spac-reader-api-openapi.yml
   format: yaml
   label: Dealogic Spac Reader API
   slug: dealogic-spac-reader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-spac-reader-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-spac-reader-api-openapi.yml
 - filename: dealogic-spac-writer-api-openapi.yml
   format: yaml
   label: Dealogic Spac Writer API
   slug: dealogic-spac-writer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-spac-writer-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-spac-writer-api-openapi.yml
 - filename: dealogic-test-api-openapi.yml
   format: yaml
   label: Dealogic Test API
   slug: dealogic-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/openapi/dealogic-test-api-openapi.yml
+  url: https://artifacts.apis.io/dealogic/openapi/dealogic-test-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://iongroup.com/analytics/data-portal/apis-data-feeds/
@@ -126,7 +126,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://login.dealogic.com/.well-known/openid-configuration (HTTP 200, fetched 2026-09-05); baseline\n  derived by derive-oauth-scopes.py from the eight harvested OpenAPI documents\ndocs: https://iongroup.com/analytics/data-portal/apis-data-feeds/\nauthorization_server:\n  issuer: https://login.dealogic.com\n  authorization_endpoint: https://login.dealogic.com/as/authorization.oauth2\n  token_endpoint: https://login.dealogic.com/as/token.oauth2\nnote: Every harvested spec declares oauth2 with an EMPTY scopes map, so nothing is derivable from the\n  contracts. The scopes below are the authorization server's own scopes_supported list, read from the\n  OIDC discovery document. Dealogic publishes no per-product scope reference page; entitlement to a given\n  dataset is granted on the licence, not by a scope string.\nscope_count: 4\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope; requests an ID token.\n \
   \ source: oidc-discovery\n- scope: profile\n  description: Standard OpenID Connect scope; requests the end user's basic profile claims.\n  source: oidc-discovery\n- scope: email\n  description: Standard OpenID Connect scope; requests the end user's email claim.\n  source: oidc-discovery\n- scope: dealogic\n  description: Dealogic's single product scope. It is the only non-standard scope the authorization server\n    advertises; the Dealogic APIs do not decompose access into per-resource or read/write scopes.\n  source: oidc-discovery\nclaims_supported:\n- idp\n- sub\ngranularity:\n  verdict: coarse\n  detail: One product scope for the whole Dealogic API estate. An agent cannot request read-only access,\n    nor access to one dataset (SPAC, Bank, Company, Sponsor, Reporting) without the rest; separation is\n    enforced by licence entitlement server-side, not by the token.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dealogic/refs/heads/main/scopes/dealogic-scopes.yml
+source_yaml_url: https://artifacts.apis.io/dealogic/scopes/dealogic-scopes.yml
 summary_line: 4 scopes
 tags:
 - Analytics

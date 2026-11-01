@@ -5,31 +5,31 @@ api_specs:
   label: Athelas Auth API
   slug: athelas-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-auth-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-auth-api-openapi.yml
 - filename: athelas-patients-api-openapi.yml
   format: yaml
   label: Athelas Patients API
   slug: athelas-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-patients-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-patients-api-openapi.yml
 - filename: athelas-prescribers-api-openapi.yml
   format: yaml
   label: Athelas Prescribers API
   slug: athelas-prescribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-prescribers-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-prescribers-api-openapi.yml
 - filename: athelas-sites-api-openapi.yml
   format: yaml
   label: Athelas Sites API
   slug: athelas-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-sites-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-sites-api-openapi.yml
 - filename: athelas-test-types-api-openapi.yml
   format: yaml
   label: Athelas Test Types API
   slug: athelas-test-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-test-types-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-test-types-api-openapi.yml
 authorization_urls:
 - https://onc.api.staging-ehr.athelas.com/authorize
 description: ''
@@ -196,7 +196,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.at
   \  description: Issue a refresh token\n  group: context\n- scope: launch\n  description: EHR launch context\n  group: context\n- scope: launch/patient\n  description: Standalone patient launch context\n  group: context\n- scope: patient/AllergyIntolerance.rs\n  description: Allergy and intolerance records\n  group: patient\n- scope: patient/CarePlan.rs\n  description: Care plans\n  group: patient\n- scope: patient/CareTeam.rs\n  description: Care team members\n  group: patient\n- scope: patient/Condition.rs\n  description: All conditions (problems, diagnoses, health concerns)\n  group: patient\n- scope: patient/Coverage.rs\n  description: Insurance coverage\n  group: patient\n- scope: patient/Device.rs\n  description: Implantable devices\n  group: patient\n- scope: patient/DiagnosticReport.rs\n  description: Diagnostic reports (lab, notes)\n  group: patient\n- scope: patient/DocumentReference.rs\n  description: Clinical documents and chart notes\n  group: patient\n- scope: patient/Encounter.rs\n\
   \  description: Encounters and visits\n  group: patient\n- scope: patient/Goal.rs\n  description: Health goals\n  group: patient\n- scope: patient/Immunization.rs\n  description: Immunization records\n  group: patient\n- scope: patient/Location.rs\n  description: Practice locations\n  group: patient\n- scope: patient/MedicationDispense.rs\n  description: Medication dispense records\n  group: patient\n- scope: patient/MedicationRequest.rs\n  description: Medication requests and prescriptions\n  group: patient\n- scope: patient/Observation.rs\n  description: All observations (vitals, labs, surveys, SDOH)\n  group: patient\n- scope: patient/Organization.rs\n  description: Organizations\n  group: patient\n- scope: patient/Patient.rs\n  description: Patient demographics\n  group: patient\n- scope: patient/Practitioner.rs\n  description: Practitioners\n  group: patient\n- scope: patient/PractitionerRole.rs\n  description: Practitioner roles\n  group: patient\n- scope: patient/Procedure.rs\n\
   \  description: Procedures\n  group: patient\n- scope: patient/Provenance.rs\n  description: Provenance (data source/attribution) records\n  group: patient\n- scope: patient/RelatedPerson.rs\n  description: Related persons\n  group: patient\n- scope: patient/ServiceRequest.rs\n  description: Service requests\n  group: patient\n- scope: patient/Specimen.rs\n  description: Specimens\n  group: patient\n- scope: system/*.rs\n  description: System-level read-search across all resources (Backend Services / bulk data)\n  group: system\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/scopes/athelas-scopes.yml
+source_yaml_url: https://artifacts.apis.io/athelas/scopes/athelas-scopes.yml
 summary_line: 31 scopes · authorizationCode/clientCredentials
 tags:
 - Company

@@ -5,79 +5,79 @@ api_specs:
   label: Starlink Telemetry Stream API
   slug: starlink-telemetry-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/asyncapi/starlink-telemetry-asyncapi.yml
+  url: https://artifacts.apis.io/starlink/asyncapi/starlink-telemetry-asyncapi.yml
 - filename: starlink-account-api-openapi.yml
   format: yaml
   label: Starlink Account API
   slug: starlink-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-account-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-account-api-openapi.yml
 - filename: starlink-addresses-api-openapi.yml
   format: yaml
   label: Starlink Addresses API
   slug: starlink-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-addresses-api-openapi.yml
 - filename: starlink-billing-api-openapi.yml
   format: yaml
   label: Starlink Billing API
   slug: starlink-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-billing-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-billing-api-openapi.yml
 - filename: starlink-contacts-api-openapi.yml
   format: yaml
   label: Starlink Contacts API
   slug: starlink-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-contacts-api-openapi.yml
 - filename: starlink-data-pools-api-openapi.yml
   format: yaml
   label: Starlink Data Pools API
   slug: starlink-data-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-data-pools-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-data-pools-api-openapi.yml
 - filename: starlink-flights-api-openapi.yml
   format: yaml
   label: Starlink Flights API
   slug: starlink-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-flights-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-flights-api-openapi.yml
 - filename: starlink-managed-accounts-api-openapi.yml
   format: yaml
   label: Starlink Managed Accounts API
   slug: starlink-managed-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-managed-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-managed-accounts-api-openapi.yml
 - filename: starlink-managed-api-openapi.yml
   format: yaml
   label: Starlink Managed API
   slug: starlink-managed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-managed-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-managed-api-openapi.yml
 - filename: starlink-mobile-api-openapi.yml
   format: yaml
   label: Starlink Mobile API
   slug: starlink-mobile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-mobile-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-mobile-api-openapi.yml
 - filename: starlink-routers-api-openapi.yml
   format: yaml
   label: Starlink Routers API
   slug: starlink-routers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-routers-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-routers-api-openapi.yml
 - filename: starlink-service-lines-api-openapi.yml
   format: yaml
   label: Starlink Service Lines API
   slug: starlink-service-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-service-lines-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-service-lines-api-openapi.yml
 - filename: starlink-user-terminals-api-openapi.yml
   format: yaml
   label: Starlink User Terminals API
   slug: starlink-user-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/openapi/starlink-user-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/starlink/openapi/starlink-user-terminals-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://starlink.readme.io/docs/api-v2-service-accounts
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: searched\nsource: https://starlin
   \  sources: [well-known/starlink-openid-configuration.json]\n- scope: profile\n  description: Standard profile claims (name, family_name, given_name, picture, locale, updated_at)\n  flows: [authorizationCode, implicit]\n  sources: [well-known/starlink-openid-configuration.json]\n- scope: group\n  description: Group membership claim\n  flows: [authorizationCode, implicit]\n  sources: [well-known/starlink-openid-configuration.json]\npermissions:\n  model: role-based access control on the V2 service account\n  source: openapi/starlink-public-api-v2-openapi.json\n  entries:\n  - permission: Account information\n    levels: [View, Edit]\n    covers:\n    - GET /public/v2/account\n    - GET/POST /public/v2/addresses\n    - 'GET/PUT /public/v2/addresses/{addressReferenceId}'\n  - permission: Service plan\n    levels: [View, Edit]\n    covers: [service lines, products, data usage, data pools, data blocks, top-ups, proration]\n  - permission: Device management\n    levels: [View, Edit]\n    covers:\
   \ [user terminal inventory on the account]\n  - permission: Device command and configuration\n    levels: [View, Edit]\n    covers: [router configs, TLS configs, local content, sandbox clients and heartbeat, reboots, public IP, L2VPN read]\n  - permission: Device configuration assignment\n    levels: [Edit]\n    covers: [assigning router and user terminal configs, setting L2VPN VLANs]\n  - permission: Device telemetry\n    levels: [View]\n    covers: [POST /public/v2/telemetry/stream, POST /public/v2/telemetry/query]\n  - permission: Financial\n    levels: [View]\n    covers: [invoices, invoice details, account balance]\n  - permission: User management\n    levels: [Edit]\n    covers: [GET /public/v2/contacts]\n  - permission: Admin Only - API User Management\n    levels: [Edit]\n    covers: [create, update and delete contacts]\n  - permission: Managed Account Information\n    levels: [View]\n    covers: [managed account tree and managed account queries]\n  - permission: Aviation flight\
   \ status management\n    levels: [Edit]\n    covers: [POST /public/v2/flights/status]\n  - permission: Gated Feature - Starlink Mobile Data\n    levels: [View]\n    covers: [mobile radio access network, timeseries and map data]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/scopes/starlink-scopes.yml
+source_yaml_url: https://artifacts.apis.io/starlink/scopes/starlink-scopes.yml
 summary_line: 5 scopes · clientCredentials
 tags:
 - Non-Terrestrial Network

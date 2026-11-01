@@ -5,31 +5,31 @@ api_specs:
   label: Red Hat Satellite Content Views API
   slug: red-hat-satellite-content-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-content-views-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-content-views-api-openapi.yml
 - filename: red-hat-satellite-hosts-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Hosts API
   slug: red-hat-satellite-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-hosts-api-openapi.yml
 - filename: red-hat-satellite-lifecycle-environments-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Lifecycle Environments API
   slug: red-hat-satellite-lifecycle-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml
 - filename: red-hat-satellite-organizations-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Organizations API
   slug: red-hat-satellite-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-organizations-api-openapi.yml
 - filename: red-hat-satellite-subscriptions-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Subscriptions API
   slug: red-hat-satellite-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-subscriptions-api-openapi.yml
 authorization_urls:
 - https://satellite.example.com/users/extlogin
 description: ''
@@ -88,7 +88,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/red-hat-satellite-content-views-api-openapi.yml, openapi/red-hat-satellite-hosts-api-openapi.yml,\n  openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml, openapi/red-hat-satellite-organizations-api-openapi.yml,\n  openapi/red-hat-satellite-subscriptions-api-openapi.yml\nschemes:\n- name: oAuth2\n  source: openapi/red-hat-satellite-content-views-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://satellite.example.com/users/extlogin\n  description: OAuth 2.0 Personal Access Token authentication for Satellite users.\n- name: oAuth2\n  source: openapi/red-hat-satellite-hosts-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://satellite.example.com/users/extlogin\n  description: OAuth 2.0 Personal Access Token authentication for Satellite users.\n- name: oAuth2\n  source: openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml\n  flows:\n  - flow: implicit\n\
   \    authorizationUrl: https://satellite.example.com/users/extlogin\n  description: OAuth 2.0 Personal Access Token authentication for Satellite users.\n- name: oAuth2\n  source: openapi/red-hat-satellite-organizations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://satellite.example.com/users/extlogin\n  description: OAuth 2.0 Personal Access Token authentication for Satellite users.\n- name: oAuth2\n  source: openapi/red-hat-satellite-subscriptions-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://satellite.example.com/users/extlogin\n  description: OAuth 2.0 Personal Access Token authentication for Satellite users.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/scopes/red-hat-satellite-scopes.yml
+source_yaml_url: https://artifacts.apis.io/red-hat-satellite/scopes/red-hat-satellite-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Configuration Management

@@ -5,13 +5,13 @@ api_specs:
   label: Google Slides Pages API
   slug: google-slides-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/openapi/google-slides-pages-api-openapi.yml
+  url: https://artifacts.apis.io/google-slides/openapi/google-slides-pages-api-openapi.yml
 - filename: google-slides-presentations-api-openapi.yml
   format: yaml
   label: Google Slides Presentations API
   slug: google-slides-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/openapi/google-slides-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/google-slides/openapi/google-slides-presentations-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -85,7 +85,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-slides-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/google-slides-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: Google OAuth 2.0 authentication. Requires one of the following scopes depending\n    on the operation.\nscopes:\n- scope: https://www.googleapis.com/auth/drive\n  description: See, edit, create, and delete all of your Google Drive files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-slides-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.file\n  description: See, edit, create, and delete only the specific Google Drive files you use with\n    this app\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-slides-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.readonly\n  description: See\
   \ and download all your Google Drive files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-slides-api-openapi.yml\n- scope: https://www.googleapis.com/auth/presentations\n  description: See, edit, create, and delete all your Google Slides presentations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-slides-api-openapi.yml\n- scope: https://www.googleapis.com/auth/presentations.readonly\n  description: See all your Google Slides presentations\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-slides-api-openapi.yml\n- scope: https://www.googleapis.com/auth/spreadsheets\n  description: See, edit, create, and delete all your Google Sheets spreadsheets\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-slides-api-openapi.yml\n- scope: https://www.googleapis.com/auth/spreadsheets.readonly\n  description: See all your Google Sheets spreadsheets\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-slides-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/scopes/google-slides-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-slides/scopes/google-slides-scopes.yml
 summary_line: 7 scopes · authorizationCode
 tags:
 - Collaboration

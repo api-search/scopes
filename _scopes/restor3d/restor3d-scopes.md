@@ -28,7 +28,7 @@ source_filename: restor3d-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: >-\n  scopes_supported in https://www.restor3d.com/.well-known/oauth-authorization-server (HTTP 200)\n  and https://www.restor3d.com/.well-known/oauth-protected-resource (HTTP 200), fetched\n  2026-08-26. No scope reference page exists to enrich from - restor3d publishes no developer\n  documentation.\napi: restor3d Website Content API (WordPress REST + MCP)\ndocs: null\nscope_count: 1\nscopes:\n- name: mcp\n  description: >-\n    The single scope the authorization server advertises. It gates the Model Context Protocol\n    resource https://www.restor3d.com/wp-json/mcp/mcp-oauth-server. The metadata documents publish\n    no finer-grained scopes and no per-tool or per-content-type scoping; what a granted `mcp` token\n    is actually permitted to do cannot be determined without an authenticated session, and is not\n    asserted here.\n  resource: https://www.restor3d.com/wp-json/mcp/mcp-oauth-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restor3d/refs/heads/main/scopes/restor3d-scopes.yml
+source_yaml_url: https://artifacts.apis.io/restor3d/scopes/restor3d-scopes.yml
 summary_line: 1 scope
 tags:
 - Medical Devices

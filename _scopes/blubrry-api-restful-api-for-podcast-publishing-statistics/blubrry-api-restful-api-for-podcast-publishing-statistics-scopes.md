@@ -5,19 +5,19 @@ api_specs:
   label: Blubrry API Episode API
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-episode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-episode-api-openapi.yml
+  url: https://artifacts.apis.io/blubrry-api-restful-api-for-podcast-publishing-statistics/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-episode-api-openapi.yml
 - filename: blubrry-api-restful-api-for-podcast-publishing-statistics-media-api-openapi.yml
   format: yaml
   label: Blubrry API Media API
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-media-api-openapi.yml
+  url: https://artifacts.apis.io/blubrry-api-restful-api-for-podcast-publishing-statistics/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-media-api-openapi.yml
 - filename: blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api-openapi.yml
   format: yaml
   label: Blubrry API Statistics API
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/blubrry-api-restful-api-for-podcast-publishing-statistics/openapi/blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api-openapi.yml
 authorization_urls:
 - https://api.blubrry.com/oauth2/authorize
 description: ''
@@ -58,7 +58,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://blubrry.com/developer/api/oauth-2/\ndocs: https://blubrry.com/developer/api/oauth-2/\nnote: >-\n  Blubrry's OAuth 2.0 implementation does not use or document scopes. The published token\n  response on https://blubrry.com/developer/api/oauth-2/ returns \"scope\": null, and access is\n  granted at the level of the whole Blubrry account authorized during the authorization-code\n  flow. There is no scope reference page and the OpenAPI declares no oauth2 scopes. An honest\n  zero, not a gap in our search.\nscope_count: 0\nscopes_supported: false\nschemes:\n- name: OAuth2\n  source: https://blubrry.com/developer/api/oauth-2/\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.blubrry.com/oauth2/authorize\n    tokenUrl: https://api.blubrry.com/oauth2/token\n  description: |-\n    OAuth 2.0 Bearer token, account-wide. Tokens expire after one hour; refresh tokens do\n    not expire. No scope parameter is\
   \ accepted or returned.\nscopes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/scopes/blubrry-api-restful-api-for-podcast-publishing-statistics-scopes.yml
+source_yaml_url: https://artifacts.apis.io/blubrry-api-restful-api-for-podcast-publishing-statistics/scopes/blubrry-api-restful-api-for-podcast-publishing-statistics-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Podcasts

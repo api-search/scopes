@@ -30,7 +30,7 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acadia-healthcare/refs/heads/main/scopes/acadia-healthcare-scopes.yml
+source_yaml_url: https://artifacts.apis.io/acadia-healthcare/scopes/acadia-healthcare-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Behavioral Health

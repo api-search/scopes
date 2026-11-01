@@ -56,7 +56,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://candyclub.com/.well-known/openid-configuration\ndocs: https://candyclub.com/.well-known/openid-configuration\nschemes:\n  - name: ShopifyCustomerAccountOIDC\n    source: well-known/candyclub-openid-configuration.json\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://account.candyclub.com/authentication/oauth/authorize\n        tokenUrl: https://account.candyclub.com/authentication/oauth/token\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication; issues an ID token for the customer.\n    flows: [authorizationCode]\n    sources: [well-known/candyclub-openid-configuration.json]\n  - scope: email\n    description: Access to the customer's email address and email_verified claim.\n    flows: [authorizationCode]\n    sources: [well-known/candyclub-openid-configuration.json]\n  - scope: customer-account-api:full\n    description: Full access to the Shopify Customer Account\
   \ API on behalf of the signed-in customer.\n    flows: [authorizationCode]\n    sources: [well-known/candyclub-openid-configuration.json]\n  - scope: customer-account-mcp-api:full\n    description: Full access to the Customer Account MCP API for agent-driven commerce (UCP shopping endpoint).\n    flows: [authorizationCode]\n    sources: [well-known/candyclub-openid-configuration.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/candyclub/refs/heads/main/scopes/candyclub-scopes.yml
+source_yaml_url: https://artifacts.apis.io/candyclub/scopes/candyclub-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company

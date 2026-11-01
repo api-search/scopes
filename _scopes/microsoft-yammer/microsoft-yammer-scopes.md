@@ -5,55 +5,55 @@ api_specs:
   label: Microsoft Yammer Files API
   slug: microsoft-yammer-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-files-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-files-api-openapi.yml
 - filename: microsoft-yammer-groups-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Groups API
   slug: microsoft-yammer-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-groups-api-openapi.yml
 - filename: microsoft-yammer-messages-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Messages API
   slug: microsoft-yammer-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-messages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-messages-api-openapi.yml
 - filename: microsoft-yammer-networks-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Networks API
   slug: microsoft-yammer-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-networks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-networks-api-openapi.yml
 - filename: microsoft-yammer-search-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Search API
   slug: microsoft-yammer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-search-api-openapi.yml
 - filename: microsoft-yammer-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Subscriptions API
   slug: microsoft-yammer-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-subscriptions-api-openapi.yml
 - filename: microsoft-yammer-threads-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Threads API
   slug: microsoft-yammer-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-threads-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-threads-api-openapi.yml
 - filename: microsoft-yammer-topics-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Topics API
   slug: microsoft-yammer-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-topics-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-topics-api-openapi.yml
 - filename: microsoft-yammer-users-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Users API
   slug: microsoft-yammer-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-users-api-openapi.yml
 authorization_urls:
 - https://www.yammer.com/dialog/oauth
 description: ''
@@ -100,7 +100,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nsource: openapi/microsoft-yammer-openapi.yml\ndocs: https://learn.microsoft.com/en-us/rest/api/yammer/app-registration\nnote: Legacy Yammer OAuth 2.0 tokens carry no granular scopes (a token grants full\n  access as the authorizing user), and legacy app registrations are restricted as\n  of July 1, 2025. Microsoft now directs developers to Entra applications, where\n  the Yammer API exposes delegated permissions only — no application permissions\n  are supported (https://learn.microsoft.com/en-us/rest/api/yammer/app-registration).\nschemes:\n- name: OAuth2\n  source: openapi/microsoft-yammer-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.yammer.com/dialog/oauth\n    tokenUrl: https://www.yammer.com/oauth2/access_token.json\n  description: Yammer OAuth 2.0 legacy tokens or Microsoft Entra tokens. Delegated access only.\nscopes:\n- scope: access_as_user\n  description: Delegated Entra permission\
   \ for the Yammer API; allows the application\n    to read and write to the Viva Engage (Yammer) platform on behalf of the signed-in\n    user. The permission Microsoft's app-registration guide says to select for Entra\n    applications calling the legacy Yammer REST APIs.\n  sources:\n  - https://learn.microsoft.com/en-us/rest/api/yammer/app-registration\n- scope: user_impersonation\n  description: Delegated Entra permission for the Yammer API used with AAD/Entra\n    tokens; allows the application to access the Yammer platform as the signed-in\n    user (used by the Yammer-API-with-AAD-tokens flow, requested as\n    https://api.yammer.com/user_impersonation).\n  sources:\n  - https://techcommunity.microsoft.com/blog/viva_engage_blog/yammer-api-with-aad-tokens-postman-collection/857923\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/scopes/microsoft-yammer-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-yammer/scopes/microsoft-yammer-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Enterprise Social

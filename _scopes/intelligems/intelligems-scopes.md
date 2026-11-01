@@ -5,55 +5,55 @@ api_specs:
   label: Intelligems Create Custom Event API
   slug: intelligems-create-custom-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-create-custom-event-api-openapi.yml
+  url: https://artifacts.apis.io/intelligems/openapi/intelligems-create-custom-event-api-openapi.yml
 - filename: intelligems-create-experience-api-openapi.yml
   format: yaml
   label: Intelligems Create Experience API
   slug: intelligems-create-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-create-experience-api-openapi.yml
+  url: https://artifacts.apis.io/intelligems/openapi/intelligems-create-experience-api-openapi.yml
 - filename: intelligems-fetch-experience-data-api-openapi.yml
   format: yaml
   label: Intelligems Fetch Experience Data API
   slug: intelligems-fetch-experience-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-fetch-experience-data-api-openapi.yml
+  url: https://artifacts.apis.io/intelligems/openapi/intelligems-fetch-experience-data-api-openapi.yml
 - filename: intelligems-fetch-experience-list-api-openapi.yml
   format: yaml
   label: Intelligems Fetch Experience List API
   slug: intelligems-fetch-experience-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-fetch-experience-list-api-openapi.yml
+  url: https://artifacts.apis.io/intelligems/openapi/intelligems-fetch-experience-list-api-openapi.yml
 - filename: intelligems-fetch-sitewide-analytics-api-openapi.yml
   format: yaml
   label: Intelligems Fetch Sitewide Analytics API
   slug: intelligems-fetch-sitewide-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-fetch-sitewide-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/intelligems/openapi/intelligems-fetch-sitewide-analytics-api-openapi.yml
 - filename: intelligems-get-experience-export-api-openapi.yml
   format: yaml
   label: Intelligems Get Experience Export API
   slug: intelligems-get-experience-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-get-experience-export-api-openapi.yml
+  url: https://artifacts.apis.io/intelligems/openapi/intelligems-get-experience-export-api-openapi.yml
 - filename: intelligems-get-holiday-benchmark-data-api-openapi.yml
   format: yaml
   label: Intelligems Get Holiday Benchmark Data API
   slug: intelligems-get-holiday-benchmark-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-get-holiday-benchmark-data-api-openapi.yml
+  url: https://artifacts.apis.io/intelligems/openapi/intelligems-get-holiday-benchmark-data-api-openapi.yml
 - filename: intelligems-perform-experience-action-api-openapi.yml
   format: yaml
   label: Intelligems Perform Experience Action API
   slug: intelligems-perform-experience-action-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-perform-experience-action-api-openapi.yml
+  url: https://artifacts.apis.io/intelligems/openapi/intelligems-perform-experience-action-api-openapi.yml
 - filename: intelligems-update-experience-api-openapi.yml
   format: yaml
   label: Intelligems Update Experience API
   slug: intelligems-update-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/openapi/intelligems-update-experience-api-openapi.yml
+  url: https://artifacts.apis.io/intelligems/openapi/intelligems-update-experience-api-openapi.yml
 authorization_urls:
 - https://ai.intelligems.io/oauth/authorize
 description: ''
@@ -111,7 +111,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://ai.intelligems.io/.well-known/oauth-protected-resource\ndocs: https://docs.intelligems.io/developer-resources/mcp-server\nnote: >-\n  Intelligems' OAuth surface is the hosted MCP server, not the External API (which is\n  API-key only — see authentication/intelligems-authentication.yml). The scope set below\n  is read verbatim from the RFC 9728 protected-resource metadata the server publishes\n  anonymously; Intelligems does not document a scopes/permissions reference page, and the\n  metadata advertises exactly one scope. No OpenAPI in this repo declares an oauth2\n  securityScheme, so nothing here is derived from a spec.\nschemes:\n  - name: mcp-oauth2\n    type: oauth2\n    surface: https://ai.intelligems.io/mcp\n    source: https://ai.intelligems.io/.well-known/oauth-authorization-server\n    issuer: https://ai.intelligems.io\n    dynamic_client_registration: true\n    registration_endpoint: https://ai.intelligems.io/oauth/register\n\
   \    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://ai.intelligems.io/oauth/authorize\n        tokenUrl: https://ai.intelligems.io/oauth/token\n        pkce: [S256]\n        grant_types: [authorization_code, refresh_token]\n        token_endpoint_auth_methods: [client_secret_post, client_secret_basic, none]\nscopes:\n  - scope: member\n    description: >-\n      The only scope advertised by the MCP protected-resource metadata. Grants an\n      authenticated organization member's access to that organization's Intelligems\n      data through the MCP tools; per-tool scoping is done with the optional\n      `organization` parameter each tool accepts, not with additional OAuth scopes.\n    flows: [authorizationCode]\n    sources: [https://ai.intelligems.io/.well-known/oauth-protected-resource]\nbearer_methods_supported: [header]\nresource: https://ai.intelligems.io/mcp\nx-evidence:\n  - {url: 'https://ai.intelligems.io/.well-known/oauth-authorization-server', status:\
   \ 200, fetched: '2026-08-13'}\n  - {url: 'https://ai.intelligems.io/.well-known/oauth-protected-resource', status: 200, fetched: '2026-08-13'}\n  - {url: 'https://ai.intelligems.io/mcp', status: 401, fetched: '2026-08-13',\n     note: 'POST tools/list returns WWW-Authenticate: Bearer realm=\"mcp\" — live tool schemas are auth-gated.'}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/scopes/intelligems-scopes.yml
+source_yaml_url: https://artifacts.apis.io/intelligems/scopes/intelligems-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

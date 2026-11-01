@@ -5,31 +5,31 @@ api_specs:
   label: Google Cloud Storage BucketAccessControls API
   slug: gcp-cloud-storage-bucketaccesscontrols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-bucketaccesscontrols-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-bucketaccesscontrols-api-openapi.yml
 - filename: gcp-cloud-storage-buckets-api-openapi.yml
   format: yaml
   label: Google Cloud Storage Buckets API
   slug: gcp-cloud-storage-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-buckets-api-openapi.yml
 - filename: gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
   format: yaml
   label: Google Cloud Storage DefaultObjectAccessControls API
   slug: gcp-cloud-storage-defaultobjectaccesscontrols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
 - filename: gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
   format: yaml
   label: Google Cloud Storage ObjectAccessControls API
   slug: gcp-cloud-storage-objectaccesscontrols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
 - filename: gcp-cloud-storage-objects-api-openapi.yml
   format: yaml
   label: Google Cloud Storage Objects API
   slug: gcp-cloud-storage-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-objects-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objects-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
@@ -93,7 +93,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gcp-cloud-storage-json-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/gcp-cloud-storage-json-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for Google Cloud APIs\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: View and manage your data across Google Cloud services\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gcp-cloud-storage-json-api-openapi.yml\n- scope: https://www.googleapis.com/auth/cloud-platform.read-only\n  description: View your data across Google Cloud services\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gcp-cloud-storage-json-api-openapi.yml\n- scope: https://www.googleapis.com/auth/devstorage.full_control\n  description: Full control of Cloud Storage resources\n  flows:\n\
   \  - authorizationCode\n  sources:\n  - openapi/gcp-cloud-storage-json-api-openapi.yml\n- scope: https://www.googleapis.com/auth/devstorage.read_only\n  description: View your data in Cloud Storage\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gcp-cloud-storage-json-api-openapi.yml\n- scope: https://www.googleapis.com/auth/devstorage.read_write\n  description: Manage your data in Cloud Storage\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/gcp-cloud-storage-json-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/scopes/gcp-cloud-storage-scopes.yml
+source_yaml_url: https://artifacts.apis.io/gcp-cloud-storage/scopes/gcp-cloud-storage-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:
 - Archival

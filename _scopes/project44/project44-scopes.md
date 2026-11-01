@@ -5,25 +5,25 @@ api_specs:
   label: project44 Shipments API
   slug: project44-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-shipments-api-openapi.yml
 - filename: project44-status-api-openapi.yml
   format: yaml
   label: project44 Status API
   slug: project44-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-status-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-status-api-openapi.yml
 - filename: project44-tracking-api-openapi.yml
   format: yaml
   label: project44 Tracking API
   slug: project44-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-tracking-api-openapi.yml
 - filename: project44-webhooks-api-openapi.yml
   format: yaml
   label: project44 Webhooks API
   slug: project44-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -73,7 +73,7 @@ source_filename: project44-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/project44-tracking-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/project44-tracking-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.project44.com/api/v4/oauth2/token\nscopes:\n- scope: tracking.read\n  description: Read shipment tracking data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/project44-tracking-openapi.yml\n- scope: tracking.write\n  description: Create and manage shipments\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/project44-tracking-openapi.yml\n- scope: webhooks.write\n  description: Manage webhook subscriptions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/project44-tracking-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/scopes/project44-scopes.yml
+source_yaml_url: https://artifacts.apis.io/project44/scopes/project44-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - Logistics

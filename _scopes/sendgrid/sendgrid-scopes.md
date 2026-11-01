@@ -5,379 +5,379 @@ api_specs:
   label: SendGrid Account API
   slug: sendgrid-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-account-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-account-api-openapi.yml
 - filename: sendgrid-account-state-api-openapi.yml
   format: yaml
   label: SendGrid Account State API
   slug: sendgrid-account-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-account-state-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-account-state-api-openapi.yml
 - filename: sendgrid-alerts-api-openapi.yml
   format: yaml
   label: SendGrid Alerts API
   slug: sendgrid-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-alerts-api-openapi.yml
 - filename: sendgrid-api-keys-api-openapi.yml
   format: yaml
   label: SendGrid API Keys API
   slug: sendgrid-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-api-keys-api-openapi.yml
 - filename: sendgrid-blocks-api-openapi.yml
   format: yaml
   label: SendGrid Blocks API
   slug: sendgrid-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-blocks-api-openapi.yml
 - filename: sendgrid-bounces-api-openapi.yml
   format: yaml
   label: SendGrid Bounces API
   slug: sendgrid-bounces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-bounces-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-bounces-api-openapi.yml
 - filename: sendgrid-bulk-email-address-validation-api-openapi.yml
   format: yaml
   label: SendGrid Bulk Email Address Validation API
   slug: sendgrid-bulk-email-address-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-bulk-email-address-validation-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-bulk-email-address-validation-api-openapi.yml
 - filename: sendgrid-campaigns-api-api-openapi.yml
   format: yaml
   label: SendGrid Campaigns API
   slug: sendgrid-campaigns-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-campaigns-api-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-campaigns-api-api-openapi.yml
 - filename: sendgrid-categories-api-openapi.yml
   format: yaml
   label: SendGrid Categories API
   slug: sendgrid-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-categories-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-categories-api-openapi.yml
 - filename: sendgrid-contacts-api-openapi.yml
   format: yaml
   label: SendGrid Contacts API
   slug: sendgrid-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-contacts-api-openapi.yml
 - filename: sendgrid-custom-fields-api-openapi.yml
   format: yaml
   label: SendGrid Custom Fields API
   slug: sendgrid-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-custom-fields-api-openapi.yml
 - filename: sendgrid-designs-api-openapi.yml
   format: yaml
   label: SendGrid Designs API
   slug: sendgrid-designs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-designs-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-designs-api-openapi.yml
 - filename: sendgrid-domain-authentication-api-openapi.yml
   format: yaml
   label: SendGrid Domain Authentication API
   slug: sendgrid-domain-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-domain-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-domain-authentication-api-openapi.yml
 - filename: sendgrid-email-activity-api-openapi.yml
   format: yaml
   label: SendGrid Email Activity API
   slug: sendgrid-email-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-email-activity-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-email-activity-api-openapi.yml
 - filename: sendgrid-email-address-validation-api-openapi.yml
   format: yaml
   label: SendGrid Email Address Validation API
   slug: sendgrid-email-address-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-email-address-validation-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-email-address-validation-api-openapi.yml
 - filename: sendgrid-enforced-tls-api-openapi.yml
   format: yaml
   label: SendGrid Enforced TLS API
   slug: sendgrid-enforced-tls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-enforced-tls-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-enforced-tls-api-openapi.yml
 - filename: sendgrid-engagement-quality-api-openapi.yml
   format: yaml
   label: SendGrid Engagement Quality API
   slug: sendgrid-engagement-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-engagement-quality-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-engagement-quality-api-openapi.yml
 - filename: sendgrid-event-webhook-api-openapi.yml
   format: yaml
   label: SendGrid Event Webhook API
   slug: sendgrid-event-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-event-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-event-webhook-api-openapi.yml
 - filename: sendgrid-external-integration-endpoints-api-openapi.yml
   format: yaml
   label: SendGrid External Integration Endpoints API
   slug: sendgrid-external-integration-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-external-integration-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-external-integration-endpoints-api-openapi.yml
 - filename: sendgrid-global-suppressions-api-openapi.yml
   format: yaml
   label: SendGrid Global Suppressions API
   slug: sendgrid-global-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-global-suppressions-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-global-suppressions-api-openapi.yml
 - filename: sendgrid-invalid-emails-api-openapi.yml
   format: yaml
   label: SendGrid Invalid Emails API
   slug: sendgrid-invalid-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-invalid-emails-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-invalid-emails-api-openapi.yml
 - filename: sendgrid-ip-access-management-api-openapi.yml
   format: yaml
   label: SendGrid IP Access Management API
   slug: sendgrid-ip-access-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-ip-access-management-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-ip-access-management-api-openapi.yml
 - filename: sendgrid-ip-address-management-api-openapi.yml
   format: yaml
   label: SendGrid IP Address Management API
   slug: sendgrid-ip-address-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-ip-address-management-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-ip-address-management-api-openapi.yml
 - filename: sendgrid-ip-addresses-api-openapi.yml
   format: yaml
   label: SendGrid IP Addresses API
   slug: sendgrid-ip-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-ip-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-ip-addresses-api-openapi.yml
 - filename: sendgrid-ip-pools-api-openapi.yml
   format: yaml
   label: SendGrid IP Pools API
   slug: sendgrid-ip-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-ip-pools-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-ip-pools-api-openapi.yml
 - filename: sendgrid-ip-warmup-api-openapi.yml
   format: yaml
   label: SendGrid IP Warmup API
   slug: sendgrid-ip-warmup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-ip-warmup-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-ip-warmup-api-openapi.yml
 - filename: sendgrid-link-branding-api-openapi.yml
   format: yaml
   label: SendGrid Link Branding API
   slug: sendgrid-link-branding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-link-branding-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-link-branding-api-openapi.yml
 - filename: sendgrid-lists-api-openapi.yml
   format: yaml
   label: SendGrid Lists API
   slug: sendgrid-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-lists-api-openapi.yml
 - filename: sendgrid-mail-batch-api-openapi.yml
   format: yaml
   label: SendGrid Mail Batch API
   slug: sendgrid-mail-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-mail-batch-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-mail-batch-api-openapi.yml
 - filename: sendgrid-mail-send-api-openapi.yml
   format: yaml
   label: SendGrid Mail Send API
   slug: sendgrid-mail-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-mail-send-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-mail-send-api-openapi.yml
 - filename: sendgrid-mail-settings-api-openapi.yml
   format: yaml
   label: SendGrid Mail Settings API
   slug: sendgrid-mail-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-mail-settings-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-mail-settings-api-openapi.yml
 - filename: sendgrid-offering-api-openapi.yml
   format: yaml
   label: SendGrid Offering API
   slug: sendgrid-offering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-offering-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-offering-api-openapi.yml
 - filename: sendgrid-parse-webhook-api-openapi.yml
   format: yaml
   label: SendGrid Parse Webhook API
   slug: sendgrid-parse-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-parse-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-parse-webhook-api-openapi.yml
 - filename: sendgrid-partner-settings-api-openapi.yml
   format: yaml
   label: SendGrid Partner Settings API
   slug: sendgrid-partner-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-partner-settings-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-partner-settings-api-openapi.yml
 - filename: sendgrid-point-delete-system-api-openapi.yml
   format: yaml
   label: SendGrid Point Delete System API
   slug: sendgrid-point-delete-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-point-delete-system-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-point-delete-system-api-openapi.yml
 - filename: sendgrid-recipients-api-openapi.yml
   format: yaml
   label: SendGrid Recipients API
   slug: sendgrid-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-recipients-api-openapi.yml
 - filename: sendgrid-reverse-dns-api-openapi.yml
   format: yaml
   label: SendGrid Reverse DNS API
   slug: sendgrid-reverse-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-reverse-dns-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-reverse-dns-api-openapi.yml
 - filename: sendgrid-scheduled-sends-api-openapi.yml
   format: yaml
   label: SendGrid Scheduled Sends API
   slug: sendgrid-scheduled-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-scheduled-sends-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-scheduled-sends-api-openapi.yml
 - filename: sendgrid-scopes-api-openapi.yml
   format: yaml
   label: SendGrid Scopes API
   slug: sendgrid-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-scopes-api-openapi.yml
 - filename: sendgrid-segmenting-contacts-api-openapi.yml
   format: yaml
   label: SendGrid Segmenting Contacts API
   slug: sendgrid-segmenting-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-segmenting-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-segmenting-contacts-api-openapi.yml
 - filename: sendgrid-segmenting-contacts-v2-api-openapi.yml
   format: yaml
   label: SendGrid Segmenting Contacts V2 API
   slug: sendgrid-segmenting-contacts-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-segmenting-contacts-v2-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-segmenting-contacts-v2-api-openapi.yml
 - filename: sendgrid-segments-api-openapi.yml
   format: yaml
   label: SendGrid Segments API
   slug: sendgrid-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-segments-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-segments-api-openapi.yml
 - filename: sendgrid-send-test-email-api-openapi.yml
   format: yaml
   label: SendGrid Send Test Email API
   slug: sendgrid-send-test-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-send-test-email-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-send-test-email-api-openapi.yml
 - filename: sendgrid-sender-identities-api-openapi.yml
   format: yaml
   label: SendGrid Sender Identities API
   slug: sendgrid-sender-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-sender-identities-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-sender-identities-api-openapi.yml
 - filename: sendgrid-sender-verification-api-openapi.yml
   format: yaml
   label: SendGrid Sender Verification API
   slug: sendgrid-sender-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-sender-verification-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-sender-verification-api-openapi.yml
 - filename: sendgrid-senders-api-openapi.yml
   format: yaml
   label: SendGrid Senders API
   slug: sendgrid-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-senders-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-senders-api-openapi.yml
 - filename: sendgrid-single-sends-api-openapi.yml
   format: yaml
   label: SendGrid Single Sends API
   slug: sendgrid-single-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-single-sends-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-single-sends-api-openapi.yml
 - filename: sendgrid-spam-reports-api-openapi.yml
   format: yaml
   label: SendGrid Spam Reports API
   slug: sendgrid-spam-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-spam-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-spam-reports-api-openapi.yml
 - filename: sendgrid-sso-certificates-api-openapi.yml
   format: yaml
   label: SendGrid SSO Certificates API
   slug: sendgrid-sso-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-sso-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-sso-certificates-api-openapi.yml
 - filename: sendgrid-sso-settings-api-openapi.yml
   format: yaml
   label: SendGrid SSO Settings API
   slug: sendgrid-sso-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-sso-settings-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-sso-settings-api-openapi.yml
 - filename: sendgrid-sso-teammates-api-openapi.yml
   format: yaml
   label: SendGrid SSO Teammates API
   slug: sendgrid-sso-teammates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-sso-teammates-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-sso-teammates-api-openapi.yml
 - filename: sendgrid-stats-api-openapi.yml
   format: yaml
   label: SendGrid Stats API
   slug: sendgrid-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-stats-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-stats-api-openapi.yml
 - filename: sendgrid-subuser-statistics-api-openapi.yml
   format: yaml
   label: SendGrid Subuser Statistics API
   slug: sendgrid-subuser-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-subuser-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-subuser-statistics-api-openapi.yml
 - filename: sendgrid-subuser-website-access-api-openapi.yml
   format: yaml
   label: SendGrid Subuser Website Access API
   slug: sendgrid-subuser-website-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-subuser-website-access-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-subuser-website-access-api-openapi.yml
 - filename: sendgrid-subusers-api-openapi.yml
   format: yaml
   label: SendGrid Subusers API
   slug: sendgrid-subusers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-subusers-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-subusers-api-openapi.yml
 - filename: sendgrid-suppressions-api-openapi.yml
   format: yaml
   label: SendGrid Suppressions API
   slug: sendgrid-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-suppressions-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-suppressions-api-openapi.yml
 - filename: sendgrid-teammates-api-openapi.yml
   format: yaml
   label: SendGrid Teammates API
   slug: sendgrid-teammates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-teammates-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-teammates-api-openapi.yml
 - filename: sendgrid-templates-api-openapi.yml
   format: yaml
   label: SendGrid Templates API
   slug: sendgrid-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-templates-api-openapi.yml
 - filename: sendgrid-templates-versions-api-openapi.yml
   format: yaml
   label: SendGrid Templates Versions API
   slug: sendgrid-templates-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-templates-versions-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-templates-versions-api-openapi.yml
 - filename: sendgrid-tracking-api-openapi.yml
   format: yaml
   label: SendGrid Tracking API
   slug: sendgrid-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-tracking-api-openapi.yml
 - filename: sendgrid-unsubscribe-groups-api-openapi.yml
   format: yaml
   label: SendGrid Unsubscribe Groups API
   slug: sendgrid-unsubscribe-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-unsubscribe-groups-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-unsubscribe-groups-api-openapi.yml
 - filename: sendgrid-users-api-api-openapi.yml
   format: yaml
   label: SendGrid Users API
   slug: sendgrid-users-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-users-api-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-users-api-api-openapi.yml
 - filename: sendgrid-webhook-security-api-openapi.yml
   format: yaml
   label: SendGrid Webhook Security API
   slug: sendgrid-webhook-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/openapi/sendgrid-webhook-security-api-openapi.yml
+  url: https://artifacts.apis.io/sendgrid/openapi/sendgrid-webhook-security-api-openapi.yml
 authorization_urls: []
 description: 'SendGrid''s permission scopes. IMPORTANT QUALIFIER: these are NOT OAuth 2.0 scopes. SendGrid runs no OAuth2/OIDC authorization server for API access — the derive-oauth-scopes pass over the 63 OpenAPI documents in this repo found ZERO oauth2 securitySchemes, and /.well-known/oauth-authorization-server on api.sendgrid.com returns 403. What SendGrid publishes instead is a fixed vocabulary of dot-notation PERMISSION scopes attached to an API key at creation time and sent as a bearer token. They occupy the same role as OAuth scopes — they bound what a credential may do — and are recorded here under that type so an agent can reason about least privilege, with the distinction stated rather than papered over. Scopes are read programmatically from the API Key Permissions API (GET /v3/scopes, openapi/sendgrid-scopes-api-openapi.yml), which returns the scopes the authenticated user may grant, and are assigned through the API Keys API (POST /v3/api_keys with a scopes[] array).'
 docs: https://www.twilio.com/docs/sendgrid/api-reference/api-key-permissions
@@ -1158,7 +1158,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://www.twi
   \ API authorization mechanism and mints no scopes.\nsee_also:\n  authentication: authentication/sendgrid-authentication.yml\n  conformance: conformance/sendgrid-conformance.yml\n  openapi: openapi/sendgrid-scopes-api-openapi.yml\nscopes:\n- *id001\n- *id002\n- *id003\n- *id004\n- *id005\n- *id006\n- *id007\n- *id008\n- *id009\n- *id010\n- *id011\n- *id012\n- *id013\n- *id014\n- *id015\n- *id016\n- *id017\n- *id018\n- *id019\n- *id020\n- *id021\n- *id022\n- *id023\n- *id024\n- *id025\n- *id026\n- *id027\n- *id028\n- *id029\n- *id030\n- *id031\n- *id032\n- *id033\n- *id034\n- *id035\n- *id036\n- *id037\n- *id038\n- *id039\n- *id040\n- *id041\n- *id042\n- *id043\n- *id044\n- *id045\n- *id046\n- *id047\n- *id048\n- *id049\n- *id050\n- *id051\n- *id052\n- *id053\n- *id054\n- *id055\n- *id056\n- *id057\n- *id058\n- *id059\n- *id060\n- *id061\n- *id062\n- *id063\n- *id064\n- *id065\n- *id066\n- *id067\n- *id068\n- *id069\n- *id070\n- *id071\n- *id072\n- *id073\n- *id074\n- *id075\n- *id076\n\
   - *id077\n- *id078\n- *id079\n- *id080\n- *id081\n- *id082\n- *id083\n- *id084\n- *id085\n- *id086\n- *id087\n- *id088\n- *id089\n- *id090\n- *id091\n- *id092\n- *id093\n- *id094\n- *id095\n- *id096\n- *id097\n- *id098\n- *id099\n- *id100\n- *id101\n- *id102\n- *id103\n- *id104\n- *id105\n- *id106\n- *id107\n- *id108\n- *id109\n- *id110\n- *id111\n- *id112\n- *id113\n- *id114\n- *id115\n- *id116\n- *id117\n- *id118\n- *id119\n- *id120\n- *id121\n- *id122\n- *id123\n- *id124\n- *id125\n- *id126\n- *id127\n- *id128\n- *id129\n- *id130\n- *id131\n- *id132\n- *id133\n- *id134\n- *id135\n- *id136\n- *id137\n- *id138\n- *id139\n- *id140\n- *id141\n- *id142\n- *id143\n- *id144\n- *id145\n- *id146\n- *id147\n- *id148\n- *id149\n- *id150\n- *id151\n- *id152\n- *id153\n- *id154\n- *id155\n- *id156\n- *id157\n- *id158\n- *id159\n- *id160\n- *id161\n- *id162\n- *id163\n- *id164\n- *id165\n- *id166\n- *id167\n- *id168\n- *id169\n- *id170\n- *id171\n- *id172\n- *id173\n- *id174\n- *id175\n- *id176\n\
   - *id177\n- *id178\n- *id179\n- *id180\n- *id181\n- *id182\n- *id183\n- *id184\n- *id185\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/scopes/sendgrid-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sendgrid/scopes/sendgrid-scopes.yml
 summary_line: 185 scopes
 tags:
 - Email

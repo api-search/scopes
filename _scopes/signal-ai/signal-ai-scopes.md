@@ -5,67 +5,67 @@ api_specs:
   label: Signal AI Affinity API
   slug: signal-ai-affinity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-affinity-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-affinity-api-openapi.yml
 - filename: signal-ai-categories-api-openapi.yml
   format: yaml
   label: Signal AI Categories API
   slug: signal-ai-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-categories-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-categories-api-openapi.yml
 - filename: signal-ai-content-metrics-api-openapi.yml
   format: yaml
   label: Signal AI Content Metrics API
   slug: signal-ai-content-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-content-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-content-metrics-api-openapi.yml
 - filename: signal-ai-content-search-api-openapi.yml
   format: yaml
   label: Signal AI Content Search API
   slug: signal-ai-content-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-content-search-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-content-search-api-openapi.yml
 - filename: signal-ai-entities-api-openapi.yml
   format: yaml
   label: Signal AI Entities API
   slug: signal-ai-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-entities-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-entities-api-openapi.yml
 - filename: signal-ai-events-api-openapi.yml
   format: yaml
   label: Signal AI Events API
   slug: signal-ai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-events-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-events-api-openapi.yml
 - filename: signal-ai-openapi-json-api-openapi.yml
   format: yaml
   label: Signal AI Openapi.json API
   slug: signal-ai-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-openapi-json-api-openapi.yml
 - filename: signal-ai-publication-sources-api-openapi.yml
   format: yaml
   label: Signal AI Publication sources API
   slug: signal-ai-publication-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-publication-sources-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-publication-sources-api-openapi.yml
 - filename: signal-ai-risk-events-api-openapi.yml
   format: yaml
   label: Signal AI Risk Events API
   slug: signal-ai-risk-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-risk-events-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-risk-events-api-openapi.yml
 - filename: signal-ai-topics-api-openapi.yml
   format: yaml
   label: Signal AI Topics API
   slug: signal-ai-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-topics-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-topics-api-openapi.yml
 - filename: signal-ai-organisation-api-openapi.yml
   format: yaml
   label: Signal AI Organisation API
   slug: signal-ai-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/openapi/signal-ai-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/signal-ai/openapi/signal-ai-organisation-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://api.signal-ai.com/docs
@@ -213,7 +213,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://api.signa
   \  - clientCredentials\n  sources:\n  - openapi/signal-ai-affinity-api-openapi.yml\n  - openapi/signal-ai-categories-api-openapi.yml\n  - openapi/signal-ai-content-metrics-api-openapi.yml\n  - openapi/signal-ai-content-search-api-openapi.yml\n  - openapi/signal-ai-entities-api-openapi.yml\n  - openapi/signal-ai-events-api-openapi.yml\n  - openapi/signal-ai-openapi-json-api-openapi.yml\n  - openapi/signal-ai-organisation-api-openapi.yml\n  - openapi/signal-ai-publication-sources-api-openapi.yml\n  - openapi/signal-ai-risk-events-api-openapi.yml\n  - openapi/signal-ai-topics-api-openapi.yml\n\nenrichment:\n  generated: '2026-08-13'\n  method: searched\n  docs: https://api.signal-ai.com/docs\n  notes: >-\n    Signal AI publishes no standalone scopes or permissions reference page. The\n    authoritative list is the OpenAPI securityScheme itself, which the API serves\n    unauthenticated at https://api.signal-ai.com/openapi.json; the reference at\n    https://api.signal-ai.com/docs renders\
   \ those same six API scopes inline via a\n    ReDoc security-definitions injection. `manage-organisation` is NEW in the live\n    spec since this repository last harvested it and is described as \"granted to\n    organisation administrators\".\n  scope_count: 7\n  additional_scopes:\n  - scope: openid\n    description: Standard OIDC scope on the Keycloak realm `signal`.\n    issuer: https://login.signal-ai.com/auth/realms/signal\n    surface: mcp\n    source: https://mcp.signal-ai.com/.well-known/oauth-protected-resource\n  - scope: mcp:tools\n    description: >-\n      Grants access to the tools exposed by Signal AI's hosted MCP server at\n      https://mcp.signal-ai.com. Declared in scopes_supported of the RFC 9728\n      protected-resource metadata; not present in the REST OpenAPI.\n    surface: mcp\n    source: https://mcp.signal-ai.com/.well-known/oauth-protected-resource\n  - scope: offline_access\n    description: Standard OIDC refresh-token scope advertised on the MCP resource.\n\
   \    surface: mcp\n    source: https://mcp.signal-ai.com/.well-known/oauth-protected-resource\n  authorization_server: https://login.signal-ai.com/auth/realms/signal\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/scopes/signal-ai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/signal-ai/scopes/signal-ai-scopes.yml
 summary_line: 7 scopes · clientCredentials
 tags:
 - Company

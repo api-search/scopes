@@ -5,79 +5,79 @@ api_specs:
   label: Lakekeeper Generic Table (Data) API
   slug: lakekeeper-generic-table-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-generic-table-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-generic-table-api-openapi.yml
 - filename: lakekeeper-authorization-api-openapi.yml
   format: yaml
   label: Lakekeeper Authorization API
   slug: lakekeeper-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-authorization-api-openapi.yml
 - filename: lakekeeper-catalog-api-api-openapi.yml
   format: yaml
   label: Lakekeeper Catalog API
   slug: lakekeeper-catalog-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-catalog-api-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-catalog-api-api-openapi.yml
 - filename: lakekeeper-configuration-api-api-openapi.yml
   format: yaml
   label: Lakekeeper Configuration API
   slug: lakekeeper-configuration-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-configuration-api-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-configuration-api-api-openapi.yml
 - filename: lakekeeper-oauth2-api-api-openapi.yml
   format: yaml
   label: Lakekeeper OAuth2 API
   slug: lakekeeper-oauth2-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-oauth2-api-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-oauth2-api-api-openapi.yml
 - filename: lakekeeper-permissions-cedar-api-openapi.yml
   format: yaml
   label: Lakekeeper Permissions Cedar API
   slug: lakekeeper-permissions-cedar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-permissions-cedar-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-permissions-cedar-api-openapi.yml
 - filename: lakekeeper-permissions-openfga-api-openapi.yml
   format: yaml
   label: Lakekeeper Permissions Openfga API
   slug: lakekeeper-permissions-openfga-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-permissions-openfga-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-permissions-openfga-api-openapi.yml
 - filename: lakekeeper-project-api-openapi.yml
   format: yaml
   label: Lakekeeper Project API
   slug: lakekeeper-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-project-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-project-api-openapi.yml
 - filename: lakekeeper-role-api-openapi.yml
   format: yaml
   label: Lakekeeper Role API
   slug: lakekeeper-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-role-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-role-api-openapi.yml
 - filename: lakekeeper-server-api-openapi.yml
   format: yaml
   label: Lakekeeper Server API
   slug: lakekeeper-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-server-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-server-api-openapi.yml
 - filename: lakekeeper-tasks-api-openapi.yml
   format: yaml
   label: Lakekeeper Tasks API
   slug: lakekeeper-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-tasks-api-openapi.yml
 - filename: lakekeeper-user-api-openapi.yml
   format: yaml
   label: Lakekeeper User API
   slug: lakekeeper-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-user-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-user-api-openapi.yml
 - filename: lakekeeper-warehouse-api-openapi.yml
   format: yaml
   label: Lakekeeper Warehouse API
   slug: lakekeeper-warehouse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/openapi/lakekeeper-warehouse-api-openapi.yml
+  url: https://artifacts.apis.io/lakekeeper/openapi/lakekeeper-warehouse-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -123,7 +123,7 @@ source_filename: lakekeeper-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: derived\nsource: openapi/lakekeeper-catalog-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/lakekeeper-catalog-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /v1/oauth/tokens\n  description: |-\n    This scheme is used for OAuth2 authorization.\n\n    For unauthorized requests, services should return an appropriate 401 or 403 response. Implementations must not return altered success (200) responses when a request is unauthenticated or unauthorized.\n    If a separate authorization server is used, substitute the tokenUrl with the full token path of the external authorization server, and use the resulting token to access the resources defined in the spec.\nscopes:\n- scope: catalog\n  description: Allows interacting with the Config and Catalog APIs\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/lakekeeper-catalog-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/scopes/lakekeeper-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lakekeeper/scopes/lakekeeper-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Apache Iceberg

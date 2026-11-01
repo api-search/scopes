@@ -5,67 +5,67 @@ api_specs:
   label: Simpplr Alerts API
   slug: simpplr-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-alerts-api-openapi.yml
 - filename: simpplr-analytics-api-openapi.yml
   format: yaml
   label: Simpplr Analytics API
   slug: simpplr-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-analytics-api-openapi.yml
 - filename: simpplr-audience-api-openapi.yml
   format: yaml
   label: Simpplr Audience API
   slug: simpplr-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-audience-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-audience-api-openapi.yml
 - filename: simpplr-blogs-api-openapi.yml
   format: yaml
   label: Simpplr Blogs API
   slug: simpplr-blogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-blogs-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-blogs-api-openapi.yml
 - filename: simpplr-carousels-api-openapi.yml
   format: yaml
   label: Simpplr Carousels API
   slug: simpplr-carousels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-carousels-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-carousels-api-openapi.yml
 - filename: simpplr-contents-api-openapi.yml
   format: yaml
   label: Simpplr Contents API
   slug: simpplr-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-contents-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-contents-api-openapi.yml
 - filename: simpplr-notifications-api-openapi.yml
   format: yaml
   label: Simpplr Notifications API
   slug: simpplr-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-notifications-api-openapi.yml
 - filename: simpplr-people-api-openapi.yml
   format: yaml
   label: Simpplr People API
   slug: simpplr-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-people-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-people-api-openapi.yml
 - filename: simpplr-search-api-openapi.yml
   format: yaml
   label: Simpplr Search API
   slug: simpplr-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-search-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-search-api-openapi.yml
 - filename: simpplr-simpplr-api-gw-search-people-by-id-api-openapi.yml
   format: yaml
   label: Simpplr Simpplr Api Gw Search People By Id API
   slug: simpplr-simpplr-api-gw-search-people-by-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-simpplr-api-gw-search-people-by-id-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-simpplr-api-gw-search-people-by-id-api-openapi.yml
 - filename: simpplr-sites-api-openapi.yml
   format: yaml
   label: Simpplr Sites API
   slug: simpplr-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-sites-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-sites-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -103,7 +103,7 @@ source_filename: simpplr-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/simpplr-api-gateway-openapi.yml, openapi/simpplr-api-gw-file-upload-openapi.yml,\n  openapi/simpplr-api-gw-search-people-by-id-openapi.yml, openapi/simpplr-staging-openapi.yml\nschemes:\n- name: sec0\n  source: openapi/simpplr-api-gateway-openapi.yml\n  flows: []\n- name: sec0\n  source: openapi/simpplr-api-gw-file-upload-openapi.yml\n  flows: []\n- name: sec0\n  source: openapi/simpplr-api-gw-search-people-by-id-openapi.yml\n  flows: []\n- name: sec0\n  source: openapi/simpplr-staging-openapi.yml\n  flows: []\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/scopes/simpplr-scopes.yml
+source_yaml_url: https://artifacts.apis.io/simpplr/scopes/simpplr-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company

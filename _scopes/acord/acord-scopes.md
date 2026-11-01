@@ -5,25 +5,25 @@ api_specs:
   label: ACORD Claims API
   slug: acord-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-claims-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-claims-api-openapi.yml
 - filename: acord-party-api-openapi.yml
   format: yaml
   label: ACORD Party API
   slug: acord-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-party-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-party-api-openapi.yml
 - filename: acord-policy-api-openapi.yml
   format: yaml
   label: ACORD Policy API
   slug: acord-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-policy-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-policy-api-openapi.yml
 - filename: acord-underwriting-api-openapi.yml
   format: yaml
   label: ACORD Underwriting API
   slug: acord-underwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-underwriting-api-openapi.yml
+  url: https://artifacts.apis.io/acord/openapi/acord-underwriting-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -95,7 +95,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: derived\nsource: openapi/acord-claims-api-openapi.yml, openapi/acord-party-api-openapi.yml, openapi/acord-policy-api-openapi.yml,\n  openapi/acord-underwriting-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/acord-claims-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\n- name: oauth2\n  source: openapi/acord-party-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\n- name: oauth2\n  source: openapi/acord-policy-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\n- name: oauth2\n  source: openapi/acord-underwriting-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.insurer-internal.example.com/oauth/token\nscopes:\n- scope: read:claims\n  description: Read claim data\n  flows:\n \
   \ - clientCredentials\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n  - openapi/acord-underwriting-api-openapi.yml\n- scope: read:policies\n  description: Read policy data\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n  - openapi/acord-underwriting-api-openapi.yml\n- scope: write:claims\n  description: Submit and update claims\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n  - openapi/acord-underwriting-api-openapi.yml\n- scope: write:policies\n  description: Create and modify policies\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/acord-claims-api-openapi.yml\n  - openapi/acord-party-api-openapi.yml\n  - openapi/acord-policy-api-openapi.yml\n\
   \  - openapi/acord-underwriting-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/scopes/acord-scopes.yml
+source_yaml_url: https://artifacts.apis.io/acord/scopes/acord-scopes.yml
 summary_line: 4 scopes · clientCredentials
 tags:
 - Claims

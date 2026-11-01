@@ -5,73 +5,73 @@ api_specs:
   label: AhaSend Accounts API
   slug: ahasend-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-accounts-api-openapi.yml
 - filename: ahasend-api-keys-api-openapi.yml
   format: yaml
   label: AhaSend API Keys API
   slug: ahasend-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-api-keys-api-openapi.yml
 - filename: ahasend-domains-api-openapi.yml
   format: yaml
   label: AhaSend Domains API
   slug: ahasend-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-domains-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-domains-api-openapi.yml
 - filename: ahasend-email-api-openapi.yml
   format: yaml
   label: AhaSend Email API
   slug: ahasend-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-email-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-email-api-openapi.yml
 - filename: ahasend-messages-api-openapi.yml
   format: yaml
   label: AhaSend Messages API
   slug: ahasend-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-messages-api-openapi.yml
 - filename: ahasend-routes-api-openapi.yml
   format: yaml
   label: AhaSend Routes API
   slug: ahasend-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-routes-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-routes-api-openapi.yml
 - filename: ahasend-smtp-credentials-api-openapi.yml
   format: yaml
   label: AhaSend SMTP Credentials API
   slug: ahasend-smtp-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-smtp-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-smtp-credentials-api-openapi.yml
 - filename: ahasend-statistics-api-openapi.yml
   format: yaml
   label: AhaSend Statistics API
   slug: ahasend-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-statistics-api-openapi.yml
 - filename: ahasend-suppressions-api-openapi.yml
   format: yaml
   label: AhaSend Suppressions API
   slug: ahasend-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-suppressions-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-suppressions-api-openapi.yml
 - filename: ahasend-utility-api-openapi.yml
   format: yaml
   label: AhaSend Utility API
   slug: ahasend-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-utility-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-utility-api-openapi.yml
 - filename: ahasend-webhooks-api-openapi.yml
   format: yaml
   label: AhaSend Webhooks API
   slug: ahasend-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-webhooks-api-openapi.yml
 - filename: ahasend-subaccounts-api-openapi.yml
   format: yaml
   label: AhaSend Subaccounts API
   slug: ahasend-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-subaccounts-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://ahasend.com/docs/api-reference/scopes
@@ -308,7 +308,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: https://ahasend
   \ Delete SMTP credentials for all domains, kind: global}\n  - {name: 'smtp-credentials:read:{domain}', description: Read SMTP credentials for a specific domain, kind: domain-specific}\n  - {name: 'smtp-credentials:write:{domain}', description: Create/update SMTP credentials for a specific domain, kind: domain-specific}\n  - {name: 'smtp-credentials:delete:{domain}', description: Delete SMTP credentials for a specific domain, kind: domain-specific}\n  - {name: 'suppressions:read', description: View suppression lists}\n  - {name: 'suppressions:write', description: Add suppressions}\n  - {name: 'suppressions:delete', description: Remove specific suppressions}\n  - {name: 'suppressions:wipe', description: Clear the entire suppression list, note: Separated from suppressions:delete on purpose — the wipe is irreversible.}\n  - {name: 'api-keys:read', description: List and view API keys}\n  - {name: 'api-keys:write', description: Create and update API keys}\n  - {name: 'api-keys:delete', description:\
   \ Delete API keys}\n  - {name: 'sub-accounts:read', description: List and read sub accounts under the parent}\n  - {name: 'sub-accounts:write', description: Create and update sub accounts}\n  - {name: 'sub-accounts:delete', description: Soft-delete sub accounts}\n  - {name: 'sub-accounts:suspend', description: Suspend and unsuspend sub accounts}\n  - {name: 'sub-accounts:usage', description: Read per-sub-account usage and allocated cost}\n  - {name: 'sub-account-api-keys:read', description: List and read API keys owned by sub accounts}\n  - {name: 'sub-account-api-keys:write', description: Create and update API keys owned by sub accounts}\n  - {name: 'sub-account-api-keys:delete', description: Delete API keys owned by sub accounts}\n  - {name: 'statistics-transactional:read:all', description: Read statistics for all domains, kind: global}\n  - {name: 'statistics-transactional:read:{domain}', description: Read statistics for a specific domain, kind: domain-specific}\nenforcement_notes:\n\
   \  - >-\n    Scopes are enforced per operation and, for domain-scoped keys, per resource — a route or\n    webhook is authorized against the domain it belongs to, not just against the caller.\n  - >-\n    Sub-account API keys are managed only with PARENT credentials holding the relevant\n    sub-account-api-keys:* scope. A sub account's own credentials cannot create or manage its\n    nested keys.\n  - >-\n    Scopes compose with IP allow lists: a key outside its allow list is rejected on every\n    endpoint regardless of the scopes it holds.\n  - >-\n    A scope failure and an IP-allow-list failure both return HTTP 403 with a free-text message\n    and no machine-distinguishable marker.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/scopes/ahasend-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ahasend/scopes/ahasend-scopes.yml
 summary_line: 51 scopes
 tags:
 - Email

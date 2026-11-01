@@ -5,25 +5,25 @@ api_specs:
   label: Demodesk Externally recorded demos API
   slug: demodesk-externally-recorded-demos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-externally-recorded-demos-api-openapi.yml
+  url: https://artifacts.apis.io/demodesk/openapi/demodesk-externally-recorded-demos-api-openapi.yml
 - filename: demodesk-recordings-api-openapi.yml
   format: yaml
   label: Demodesk Recordings API
   slug: demodesk-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/demodesk/openapi/demodesk-recordings-api-openapi.yml
 - filename: demodesk-users-api-openapi.yml
   format: yaml
   label: Demodesk Users API
   slug: demodesk-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-users-api-openapi.yml
+  url: https://artifacts.apis.io/demodesk/openapi/demodesk-users-api-openapi.yml
 - filename: demodesk-demodesk-public-api-api-openapi.yml
   format: yaml
   label: Demodesk Public API
   slug: demodesk-demodesk-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/openapi/demodesk-demodesk-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/demodesk/openapi/demodesk-demodesk-public-api-api-openapi.yml
 authorization_urls:
 - https://demodesk.com/oauth/authorize
 description: ''
@@ -70,7 +70,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://demodesk.com/.well-known/oauth-authorization-server\ndocs: https://demodesk.com/mcp\nnote: >-\n  Demodesk's REST API authenticates with a Bearer API key and declares no OAuth2\n  scopes in its OpenAPI. OAuth2 is used by the hosted MCP server\n  (https://demodesk.com/mcp); its authorization-server metadata publishes a\n  single scope. Captured from the live well-known document, not the OpenAPI.\nschemes:\n- name: OAuth2 (MCP)\n  source: https://demodesk.com/.well-known/oauth-authorization-server\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://demodesk.com/oauth/authorize\n    tokenUrl: https://demodesk.com/oauth/token\n    registrationUrl: https://demodesk.com/oauth/register\n    revocationUrl: https://demodesk.com/oauth/revoke\n    introspectionUrl: https://demodesk.com/oauth/introspect\n    pkce: S256\nscopes:\n- scope: mcp:tools\n  description: Access to the Demodesk MCP server tool surface (the\
   \ v2 API capabilities).\n  flows: [authorizationCode]\n  sources: [https://demodesk.com/.well-known/oauth-authorization-server]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/scopes/demodesk-scopes.yml
+source_yaml_url: https://artifacts.apis.io/demodesk/scopes/demodesk-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

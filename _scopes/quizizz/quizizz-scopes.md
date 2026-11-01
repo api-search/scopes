@@ -29,7 +29,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: >-\n  scopes_supported in https://wayground.com/.well-known/oauth-authorization-server and\n  https://wayground.com/.well-known/oauth-protected-resource (both HTTP 200, 2026-08-26).\ndocs: null\ndocs_note: >-\n  Wayground publishes no scopes or permissions reference page. Searched wayground.com,\n  help.wayground.com and support.wayground.com; nothing documents the OAuth surface at all.\nscope_count: 1\nscopes:\n- name: full_access\n  description: >-\n    Verbatim from the provider's own metadata. Wayground does not state what it grants; from\n    the protected-resource document it is the scope required to call\n    https://wayground.com/_quizizzmcp/main/mcp.\n  resource: https://wayground.com/_quizizzmcp/main/mcp\n  granularity: coarse\nnote: >-\n  A single all-or-nothing scope is the finding. An agent authorising against Wayground's MCP\n  server cannot request less than everything the scope covers, and cannot tell from any\n\
   \  published source what \"everything\" is.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quizizz/refs/heads/main/scopes/quizizz-scopes.yml
+source_yaml_url: https://artifacts.apis.io/quizizz/scopes/quizizz-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

@@ -5,91 +5,91 @@ api_specs:
   label: Profound Agents API
   slug: profound-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-agents-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-agents-api-openapi.yml
 - filename: profound-beta-api-openapi.yml
   format: yaml
   label: Profound Beta API
   slug: profound-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-beta-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-beta-api-openapi.yml
 - filename: profound-bot-traffic-reports-api-openapi.yml
   format: yaml
   label: Profound Bot Traffic Reports API
   slug: profound-bot-traffic-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-bot-traffic-reports-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-bot-traffic-reports-api-openapi.yml
 - filename: profound-categories-api-openapi.yml
   format: yaml
   label: Profound Categories API
   slug: profound-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-categories-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-categories-api-openapi.yml
 - filename: profound-content-api-openapi.yml
   format: yaml
   label: Profound Content API
   slug: profound-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-content-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-content-api-openapi.yml
 - filename: profound-content-optimization-api-openapi.yml
   format: yaml
   label: Profound Content optimization API
   slug: profound-content-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-content-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-content-optimization-api-openapi.yml
 - filename: profound-documents-api-openapi.yml
   format: yaml
   label: Profound Documents API
   slug: profound-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-documents-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-documents-api-openapi.yml
 - filename: profound-human-referrals-api-openapi.yml
   format: yaml
   label: Profound Human Referrals API
   slug: profound-human-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-human-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-human-referrals-api-openapi.yml
 - filename: profound-integrations-api-openapi.yml
   format: yaml
   label: Profound Integrations API
   slug: profound-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-integrations-api-openapi.yml
 - filename: profound-knowledge-bases-api-openapi.yml
   format: yaml
   label: Profound Knowledge bases API
   slug: profound-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-knowledge-bases-api-openapi.yml
 - filename: profound-openai-ads-api-openapi.yml
   format: yaml
   label: Profound OpenAI Ads API
   slug: profound-openai-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-openai-ads-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-openai-ads-api-openapi.yml
 - filename: profound-organization-api-openapi.yml
   format: yaml
   label: Profound Organization API
   slug: profound-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-organization-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-organization-api-openapi.yml
 - filename: profound-projects-api-openapi.yml
   format: yaml
   label: Profound Projects API
   slug: profound-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-projects-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-projects-api-openapi.yml
 - filename: profound-prompts-api-openapi.yml
   format: yaml
   label: Profound Prompts API
   slug: profound-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-prompts-api-openapi.yml
 - filename: profound-reports-api-openapi.yml
   format: yaml
   label: Profound Reports API
   slug: profound-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/openapi/profound-reports-api-openapi.yml
+  url: https://artifacts.apis.io/profound/openapi/profound-reports-api-openapi.yml
 authorization_urls:
 - https://auth.tryprofound.com/oauth2/authorize
 description: ''
@@ -169,7 +169,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://mcp.trypr
   \    tokenUrl: https://auth.tryprofound.com/oauth2/token\n    pkce: [S256]\n  - flow: deviceCode\n    deviceAuthorizationUrl: https://auth.tryprofound.com/oauth2/device_authorization\n    grantType: urn:ietf:params:oauth:grant-type:device_code\n  - flow: refreshToken\n    tokenUrl: https://auth.tryprofound.com/oauth2/token\n  endpoints:\n    registration: https://auth.tryprofound.com/oauth2/register\n    introspection: https://auth.tryprofound.com/oauth2/introspection\n    jwks: https://auth.tryprofound.com/oauth2/jwks\n  dynamic_client_registration: true\n  client_id_metadata_document_supported: true\n  response_types_supported: [code]\n  response_modes_supported: [query]\nscopes:\n- scope: openid\n  description: OIDC identity — issue an ID token for the signed-in Profound user.\n  flows: [authorizationCode]\n  sources: [https://mcp.tryprofound.com/.well-known/oauth-authorization-server]\n- scope: profile\n  description: Basic profile claims for the signed-in Profound user.\n  flows:\
   \ [authorizationCode]\n  sources: [https://mcp.tryprofound.com/.well-known/oauth-authorization-server]\n- scope: email\n  description: Email address claim for the signed-in Profound user.\n  flows: [authorizationCode]\n  sources: [https://mcp.tryprofound.com/.well-known/oauth-authorization-server]\n- scope: offline_access\n  description: Issue a refresh token so the MCP client can maintain a long-lived session.\n  flows: [authorizationCode, refreshToken]\n  sources: [https://mcp.tryprofound.com/.well-known/oauth-authorization-server]\nprotected_resource:\n  resource: https://mcp.tryprofound.com/mcp\n  resource_name: profound_mcp\n  authorization_servers: [https://auth.tryprofound.com]\n  bearer_methods_supported: [header]\ngaps:\n- No resource/permission scopes (e.g. reports:read, agents:write) are published.\n- The REST API has no OAuth surface at all; API keys carry all of an organization's read access with no scoping.\nx-evidence:\n  fetched: '2026-08-13'\n  probes:\n  - url: https://mcp.tryprofound.com/.well-known/oauth-authorization-server\n\
   \    http_status: 200\n  - url: https://mcp.tryprofound.com/.well-known/oauth-protected-resource\n    http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/scopes/profound-scopes.yml
+source_yaml_url: https://artifacts.apis.io/profound/scopes/profound-scopes.yml
 summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 tags:
 - Company

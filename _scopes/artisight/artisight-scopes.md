@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: https://artisight.com/.well-known/oauth-authorization-server\ndocs: null\nnote: Derived scopes were not available (no OpenAPI in this repo). These scopes are\n  taken verbatim from the live RFC 8414 authorization-server metadata and the RFC 9728\n  protected-resource metadata Artisight serves from artisight.com. Artisight publishes\n  no scopes/permissions reference page.\nschemes:\n- name: mcp-oauth\n  source: well-known/artisight-oauth-authorization-server.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://artisight.com/oauth/authorize\n    tokenUrl: https://artisight.com/oauth/token\nscopes:\n- scope: mcp\n  description: Access to the WordPress MCP server at https://artisight.com/wp-json/mcp/mcp-oauth-server\n    and its backing WordPress Abilities. The only scope advertised by the authorization\n    server; there is no finer-grained read/write split published.\n  flows: [authorizationCode]\n  sources:\n\
   \  - well-known/artisight-oauth-authorization-server.json\n  - well-known/artisight-oauth-protected-resource.json\nx-evidence:\n  fetched: '2026-08-02'\n  url: https://artisight.com/.well-known/oauth-authorization-server\n  http_status: 200\n  scopes_supported: [mcp]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artisight/refs/heads/main/scopes/artisight-scopes.yml
+source_yaml_url: https://artifacts.apis.io/artisight/scopes/artisight-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

@@ -29,7 +29,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: https://beacons.ai/.well-known/oauth-authorization-server + https://beacons.ai/.well-known/oauth-protected-resource\ndocs: null\ndocs_note: >-\n  Beacons publishes no scopes/permissions reference page. Both discovery documents\n  independently advertise the same single scope, so the list below is complete as\n  published — but the meaning of the scope is undocumented and the description is\n  therefore limited to what the name and the protected resource state.\nissuer: https://beacons.ai\nresource: https://beacons.ai/api/v001/creator/mcp\nscope_count: 1\nscopes:\n- name: mcp:read\n  resource: https://beacons.ai/api/v001/creator/mcp\n  access: read\n  description: >-\n    Read access to the Beacons Creator MCP resource. Advertised by both\n    scopes_supported arrays; no scope description is published by the provider.\n  source: /.well-known/oauth-authorization-server, /.well-known/oauth-protected-resource\nobservations:\n- No\
   \ write scope is advertised, so the published agent surface is read-only.\n- Scope naming follows the MCP convention (`mcp:<action>`) rather than a\n  resource-per-scope model.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beaconsai/refs/heads/main/scopes/beaconsai-scopes.yml
+source_yaml_url: https://artifacts.apis.io/beaconsai/scopes/beaconsai-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

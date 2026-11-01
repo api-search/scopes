@@ -5,13 +5,13 @@ api_specs:
   label: Doximity OpenID Connect API
   slug: doximity-openid-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-openid-connect-api-openapi.yml
+  url: https://artifacts.apis.io/doximity/openapi/doximity-openid-connect-api-openapi.yml
 - filename: doximity-oauth-api-openapi.yml
   format: yaml
   label: Doximity O Auth API
   slug: doximity-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/doximity/openapi/doximity-oauth-api-openapi.yml
 authorization_urls:
 - https://auth.doximity.com/oauth/authorize
 description: ''
@@ -156,7 +156,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://auth.doximity.com/.well-known/openid-configuration\ndocs: https://www.doximity.com/developers/documentation\nschemes:\n- name: doximityOAuth\n  type: oauth2\n  source: https://auth.doximity.com/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth.doximity.com/oauth/authorize\n    tokenUrl: https://auth.doximity.com/oauth/token\nscopes:\n- scope: openid\n  description: Enables the OpenID Connect id_token to be returned. Default scope, always supported.\n  flows: [authorizationCode]\n- scope: profile:read:basic\n  description: Grants access to name, given_name, family_name, middle_name, credentials, profile_photo_url, and specialty.\n  flows: [authorizationCode]\n- scope: profile:read:email\n  description: Read the member's email address.\n  flows: [authorizationCode]\n- scope: profile:read:dialer_phone\n  description: Read the member's Doximity Dialer phone number.\n\
   \  flows: [authorizationCode]\n- scope: profile:read:experience\n  description: Read the member's professional experience.\n  flows: [authorizationCode]\n- scope: profile:read:office\n  description: Read the member's office information.\n  flows: [authorizationCode]\n- scope: profile:read:permissions\n  description: Read the member's permissions.\n  flows: [authorizationCode]\n- scope: profile:read:private_contact\n  description: Read the member's private contact information.\n  flows: [authorizationCode]\n- scope: search\n  description: Search the Doximity member directory.\n  flows: [authorizationCode]\n- scope: dialer\n  description: Access to Doximity Dialer functionality.\n  flows: [authorizationCode]\n- scope: docsgpt:access\n  description: Access to DocsGPT.\n  flows: [authorizationCode]\n- scope: hipaa:identified\n  description: Access identified data under HIPAA.\n  flows: [authorizationCode]\n- scope: jobs:read\n  description: Read job data.\n  flows: [authorizationCode]\n- scope:\
   \ colleagues:read\n  description: Read the member's colleagues.\n  flows: [authorizationCode]\n- scope: colleagues:write\n  description: Modify the member's colleagues.\n  flows: [authorizationCode]\n- scope: login_context:inferred\n  description: Access inferred login context.\n  flows: [authorizationCode]\n- scope: sessions:linked\n  description: Access linked sessions.\n  flows: [authorizationCode]\n- scope: activities:read:cards\n  description: Read activity cards.\n  flows: [authorizationCode]\n- scope: activities:read:comments\n  description: Read activity comments.\n  flows: [authorizationCode]\n- scope: activities:read:likes\n  description: Read activity likes.\n  flows: [authorizationCode]\n- scope: activities:write:likes\n  description: Write activity likes.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/scopes/doximity-scopes.yml
+source_yaml_url: https://artifacts.apis.io/doximity/scopes/doximity-scopes.yml
 summary_line: 21 scopes · authorizationCode
 tags:
 - Company

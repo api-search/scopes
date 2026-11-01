@@ -5,79 +5,79 @@ api_specs:
   label: Nursa Clinicians API
   slug: nursa-clinicians-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-clinicians-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-clinicians-api-openapi.yml
 - filename: nursa-downloads-api-openapi.yml
   format: yaml
   label: Nursa Downloads API
   slug: nursa-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-downloads-api-openapi.yml
 - filename: nursa-facilities-api-openapi.yml
   format: yaml
   label: Nursa Facilities API
   slug: nursa-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-facilities-api-openapi.yml
 - filename: nursa-facilities-webhooks-api-openapi.yml
   format: yaml
   label: Nursa Facilities webhooks API
   slug: nursa-facilities-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-facilities-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-facilities-webhooks-api-openapi.yml
 - filename: nursa-licenses-api-openapi.yml
   format: yaml
   label: Nursa Licenses API
   slug: nursa-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-licenses-api-openapi.yml
 - filename: nursa-marketplace-api-openapi.yml
   format: yaml
   label: Nursa Marketplace API
   slug: nursa-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-marketplace-api-openapi.yml
 - filename: nursa-scheduled-shifts-api-openapi.yml
   format: yaml
   label: Nursa Scheduled shifts API
   slug: nursa-scheduled-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-scheduled-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-scheduled-shifts-api-openapi.yml
 - filename: nursa-shift-reports-api-openapi.yml
   format: yaml
   label: Nursa Shift reports API
   slug: nursa-shift-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-shift-reports-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-shift-reports-api-openapi.yml
 - filename: nursa-shift-requests-api-openapi.yml
   format: yaml
   label: Nursa Shift requests API
   slug: nursa-shift-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-shift-requests-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-shift-requests-api-openapi.yml
 - filename: nursa-shifts-api-openapi.yml
   format: yaml
   label: Nursa Shifts API
   slug: nursa-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-shifts-api-openapi.yml
 - filename: nursa-support-api-openapi.yml
   format: yaml
   label: Nursa Support API
   slug: nursa-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-support-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-support-api-openapi.yml
 - filename: nursa-user-webhooks-api-openapi.yml
   format: yaml
   label: Nursa User webhooks API
   slug: nursa-user-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-user-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-user-webhooks-api-openapi.yml
 - filename: nursa-webhook-logs-api-openapi.yml
   format: yaml
   label: Nursa Webhook logs API
   slug: nursa-webhook-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/openapi/nursa-webhook-logs-api-openapi.yml
+  url: https://artifacts.apis.io/nursa/openapi/nursa-webhook-logs-api-openapi.yml
 authorization_urls:
 - https://auth.nursa.com/oidc/authorize
 description: ''
@@ -230,7 +230,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: https://docs.nu
   \ Policy\n  description: User allows your application to manage the communication policy on their behalf.\n  category: resource\n  advertised_in_discovery: false\n- scope: communication-policy:read\n  name: View Communication Policy\n  description: User allows your application to read the communication policy on their behalf.\n  category: resource\n  advertised_in_discovery: false\n- scope: permissions:write\n  name: Manage Permissions\n  description: User allows your application to manage the user permissions under an organization on their behalf.\n  category: resource\n  advertised_in_discovery: false\n- scope: permissions:read\n  name: View Permissions\n  description: User allows your application to read the user permissions under an organization on their behalf.\n  category: resource\n  advertised_in_discovery: false\n- scope: integrations:write\n  name: Manage Integrations\n  description: User allows your application to manage the integration settings of the organization on their\
   \ behalf.\n  category: resource\n  advertised_in_discovery: false\n- scope: oidc-application:write\n  name: Manage OIDC Applications\n  description: User allows your application to manage the OpenID Connect applications of the organization on their behalf.\n  category: resource\n  advertised_in_discovery: false\n- scope: oidc-application:read\n  name: View OIDC Applications\n  description: User allows your application to read the OpenID Connect applications of the organization on their behalf.\n  category: resource\n  advertised_in_discovery: false\ncoverage:\n  total: 27\n  openid: 7\n  resource: 20\n  read_write_pairs: 9\n  write_only: 1\ngaps:\n- >-\n  No operation-to-scope binding is published anywhere machine-readable. The docs say \"The API\n  documentation will define which scopes will be requested for each endpoint\", but the OpenAPI's\n  only security requirement is `public-api: []` — an empty scope array on all 40 operations. An\n  agent or client cannot compute least privilege\
   \ from the contract.\n- >-\n  `integrations:write` has no matching `integrations:read`, unlike every other resource family.\nx-evidence:\n  fetched: '2026-08-04'\n  urls:\n  - url: https://docs.nursa.com/docs/Integration%20Guideline/Scopes/\n    status: 200\n  - url: https://auth.nursa.com/oidc/.well-known/openid-configuration\n    status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nursa/refs/heads/main/scopes/nursa-scopes.yml
+source_yaml_url: https://artifacts.apis.io/nursa/scopes/nursa-scopes.yml
 summary_line: 26 scopes · authorizationCode/clientCredentials
 tags:
 - Company

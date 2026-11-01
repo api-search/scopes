@@ -5,49 +5,49 @@ api_specs:
   label: The Hog Company Search API
   slug: the-hog-company-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-company-search-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-company-search-api-openapi.yml
 - filename: the-hog-deep-research-api-openapi.yml
   format: yaml
   label: The Hog Deep Research API
   slug: the-hog-deep-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-deep-research-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-deep-research-api-openapi.yml
 - filename: the-hog-enrichments-api-openapi.yml
   format: yaml
   label: The Hog Enrichments API
   slug: the-hog-enrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-enrichments-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-enrichments-api-openapi.yml
 - filename: the-hog-monitors-api-openapi.yml
   format: yaml
   label: The Hog Monitors API
   slug: the-hog-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-monitors-api-openapi.yml
 - filename: the-hog-operations-api-openapi.yml
   format: yaml
   label: The Hog Operations API
   slug: the-hog-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-operations-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-operations-api-openapi.yml
 - filename: the-hog-people-search-api-openapi.yml
   format: yaml
   label: The Hog People Search API
   slug: the-hog-people-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-people-search-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-people-search-api-openapi.yml
 - filename: the-hog-scrapers-api-openapi.yml
   format: yaml
   label: The Hog Scrapers API
   slug: the-hog-scrapers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-scrapers-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-scrapers-api-openapi.yml
 - filename: the-hog-search-api-openapi.yml
   format: yaml
   label: The Hog Search API
   slug: the-hog-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-search-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-search-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.thehog.ai/guides/use-mcp
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://mcp.theho
   \ https://mcp.thehog.ai/\n  authorization_servers: [https://clerk.thehog.ai]\n  authorization_data_types_supported: [oauth_scope]\n  authorization_data_locations_supported: [header, body]\n  source: https://mcp.thehog.ai/.well-known/oauth-protected-resource\n\nscopes:\n  - name: openid\n    kind: identity\n    description: OpenID Connect base scope; requests an ID token for the signed-in user.\n  - name: profile\n    kind: identity\n    description: Basic profile claims for the signed-in user (name).\n  - name: email\n    kind: identity\n    description: The signed-in user's email address claim.\n  - name: public_metadata\n    kind: identity\n    description: Clerk public user metadata attached to the account.\n  - name: private_metadata\n    kind: identity\n    description: Clerk private user metadata attached to the account.\n  - name: offline_access\n    kind: session\n    description: >-\n      Issues a refresh token so the MCP client can keep the connection alive without\n      re-prompting\
   \ the user.\n  - name: user:org:read\n    kind: organization\n    description: >-\n      Read the organizations the user belongs to. This is the scope that lets the MCP\n      connect flow present the organization picker -- The Hog bills and rate-limits\n      per organization-and-user, so the selected org determines which balance the\n      agent's calls are charged against.\n\ngaps:\n  - >-\n    No resource scopes. Nothing in scopes_supported distinguishes read from write,\n    search from enrichment, or monitors from scrapers. An agent granted MCP access\n    holds the full published tool surface for the selected organization.\n  - >-\n    No scope model on the REST API. The OpenAPI declares only apiKey schemes, so REST\n    consumers get all-or-nothing credentials with no per-capability narrowing.\n  - >-\n    Spend, not scope, is the control. The published cost boundary is the customer-set\n    spend cap on the pricing page, not an authorization boundary.\n\nrefs:\n  authentication:\
   \ authentication/the-hog-authentication.yml\n  well_known: well-known/the-hog-well-known.yml\n  mcp: mcp/the-hog-mcp.yml\n  plans: plans/the-hog-plans-pricing.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/scopes/the-hog-scopes.yml
+source_yaml_url: https://artifacts.apis.io/the-hog/scopes/the-hog-scopes.yml
 summary_line: 7 scopes
 tags:
 - Company

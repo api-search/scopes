@@ -5,55 +5,55 @@ api_specs:
   label: Jefferson Health Endpoint API
   slug: jefferson-health-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-endpoint-api-openapi.yml
 - filename: jefferson-health-location-api-openapi.yml
   format: yaml
   label: Jefferson Health Location API
   slug: jefferson-health-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-location-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-location-api-openapi.yml
 - filename: jefferson-health-organization-api-openapi.yml
   format: yaml
   label: Jefferson Health Organization API
   slug: jefferson-health-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-organization-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-organization-api-openapi.yml
 - filename: jefferson-health-practitioner-api-openapi.yml
   format: yaml
   label: Jefferson Health Practitioner API
   slug: jefferson-health-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-practitioner-api-openapi.yml
 - filename: jefferson-health-organizationaffiliation-api-openapi.yml
   format: yaml
   label: Jefferson Health Organization Affiliation API
   slug: jefferson-health-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-organizationaffiliation-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-organizationaffiliation-api-openapi.yml
 - filename: jefferson-health-system-level-operations-api-openapi.yml
   format: yaml
   label: Jefferson Health System Level Operations API
   slug: jefferson-health-system-level-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-system-level-operations-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-system-level-operations-api-openapi.yml
 - filename: jefferson-health-healthcare-service-api-openapi.yml
   format: yaml
   label: Jefferson Health Healthcare Service API
   slug: jefferson-health-healthcare-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-healthcare-service-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-healthcare-service-api-openapi.yml
 - filename: jefferson-health-insurance-plan-api-openapi.yml
   format: yaml
   label: Jefferson Health Insurance Plan API
   slug: jefferson-health-insurance-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-insurance-plan-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-insurance-plan-api-openapi.yml
 - filename: jefferson-health-practitioner-role-api-openapi.yml
   format: yaml
   label: Jefferson Health Practitioner Role API
   slug: jefferson-health-practitioner-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/openapi/jefferson-health-practitioner-role-api-openapi.yml
+  url: https://artifacts.apis.io/jefferson-health/openapi/jefferson-health-practitioner-role-api-openapi.yml
 authorization_urls:
 - https://fhir.jefferson.edu/FHIRProxy/oauth2/authorize
 description: 'SMART on FHIR scope surface for the Thomas Jefferson University Hospital FHIR R4 endpoint. Note the important discrepancy recorded below: the server''s own discovery document advertises only five scopes in scopes_supported, none of them resource scopes. The patient/, user/ and system/ resource scopes are real and required, but they are granted per registered application at Epic rather than enumerated in discovery — so an agent that trusts scopes_supported alone will conclude, wrongly, that no clinical data can be requested.'
@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: probed\nsource: https://fhir.jeff
   \  - authorizationCode\n  advertised: false\n  sources:\n  - openapi/_original/jefferson-health-tjuh-fhir-r4-api-openapi.yml\n- scope: user/Patient.read\n  description: Read Patient as the launching user (provider context).\n  kind: user-resource\n  resource: Patient\n  flows:\n  - authorizationCode\n  advertised: false\n  sources:\n  - openapi/_original/jefferson-health-tjuh-fhir-r4-api-openapi.yml\n- scope: system/Patient.read\n  description: System-level Patient read for backend services, used by the Bulk Data group export.\n  kind: system-resource\n  resource: Patient\n  flows:\n  - clientCredentials\n  - jwtBearer\n  advertised: false\n  advertised_note: Backed by grant_types_supported client_credentials + urn:ietf:params:oauth:grant-type:jwt-bearer and private_key_jwt\n    client authentication in the live discovery document.\n  sources:\n  - well-known/jefferson-health-tjuh-openid-configuration.json\n  - openapi/_original/jefferson-health-tjuh-fhir-r4-api-openapi.yml\nscope_count:\
   \ 15\nadvertised_scope_count: 5\njhp_provider_directory:\n  server: https://providerfhirapi.healthpartnersplans.com\n  scopes: []\n  note: No scopes. The Da Vinci Plan-Net directory is anonymous — verified with an unauthenticated HTTP 200 on GET /Practitioner?_count=2.\n    Its CapabilityStatement advertises SMART oauth-uris pointing at appgallery.healthpartnersplans.com, but those belong to\n    the separate Jefferson Health Plans Patient Access API.\ngaps:\n- Neither Jefferson Health nor Jefferson Health Plans publishes a scopes or permissions reference page of its own. Integrators\n  are pointed at Epic's generic documentation and at the per-app scope selection in the Epic on FHIR app registration form,\n  so the authoritative scope list for any given application is visible only inside that application's own registration.\n- 'The Jefferson Health Plans Patient Access API scope set could not be probed: its SMART configuration endpoint returns an\n  HTML portal shell rather than a discovery\
   \ document.'\ndocs_additional:\n- https://hl7.org/fhir/smart-app-launch/scopes-and-launch-context.html\n- https://www.jeffersonhealthplans.com/home/about-us/interoperability/authentication-and-data-endpoints/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/scopes/jefferson-health-scopes.yml
+source_yaml_url: https://artifacts.apis.io/jefferson-health/scopes/jefferson-health-scopes.yml
 summary_line: 15 scopes · authorizationCode
 tags:
 - Academic Medical Center

@@ -5,49 +5,49 @@ api_specs:
   label: UserTesting Clip API
   slug: usertesting-clip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-clip-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-clip-api-openapi.yml
 - filename: usertesting-general-session-data-api-openapi.yml
   format: yaml
   label: UserTesting General Session Data API
   slug: usertesting-general-session-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-general-session-data-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-general-session-data-api-openapi.yml
 - filename: usertesting-highlightreel-api-openapi.yml
   format: yaml
   label: UserTesting Highlightreel API
   slug: usertesting-highlightreel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-highlightreel-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-highlightreel-api-openapi.yml
 - filename: usertesting-qxscore-data-api-openapi.yml
   format: yaml
   label: UserTesting QXscore Data API
   slug: usertesting-qxscore-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-qxscore-data-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-qxscore-data-api-openapi.yml
 - filename: usertesting-session-api-openapi.yml
   format: yaml
   label: UserTesting Session API
   slug: usertesting-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-session-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-session-api-openapi.yml
 - filename: usertesting-studies-api-openapi.yml
   format: yaml
   label: UserTesting Studies API
   slug: usertesting-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-studies-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-studies-api-openapi.yml
 - filename: usertesting-video-data-api-openapi.yml
   format: yaml
   label: UserTesting Video Data API
   slug: usertesting-video-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-video-data-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-video-data-api-openapi.yml
 - filename: usertesting-workspaces-api-openapi.yml
   format: yaml
   label: UserTesting Workspaces API
   slug: usertesting-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-workspaces-api-openapi.yml
 authorization_urls: []
 description: OAuth scopes for the UserTesting APIs. The OpenAPI models only the resulting bearer JWT (http/bearer), so no scopes are derivable from the spec; this file captures the scope surface documented in the Authorization guide and the Okta authorization-server metadata saved in well-known/usertesting-oauth-authorization-server.json. The API-specific scope surface is a single read scope — the platform's authorization server additionally lists standard OIDC scopes that are not used by the Results/Legacy APIs.
 docs: https://developer.usertesting.com/docs/authorization
@@ -88,7 +88,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.usertesting.com/docs/authorization\ndocs: https://developer.usertesting.com/docs/authorization\ndescription: >-\n  OAuth scopes for the UserTesting APIs. The OpenAPI models only the resulting bearer JWT\n  (http/bearer), so no scopes are derivable from the spec; this file captures the scope\n  surface documented in the Authorization guide and the Okta authorization-server metadata\n  saved in well-known/usertesting-oauth-authorization-server.json. The API-specific scope\n  surface is a single read scope — the platform's authorization server additionally lists\n  standard OIDC scopes that are not used by the Results/Legacy APIs.\nschemes:\n- name: oauth2ClientCredentials\n  source: https://developer.usertesting.com/docs/authorization\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.usertesting.com/oauth2/aus1p3vtd8vtm4Bxv0h8/v1/token\nscopes:\n- scope: studies:read\n  description: >-\n   \
   \ Read access to test/study results (session summaries and details, transcripts, videos,\n    clips, highlight reels, QXscores) across the workspaces the API user belongs to. The only\n    scope the API docs instruct clients to request.\n  flows: [clientCredentials]\n  sources: [https://developer.usertesting.com/docs/authorization]\nauthorization_server_scopes:\n  note: >-\n    scopes_supported advertised by the Okta authorization server (RFC 8414 metadata); standard\n    OIDC scopes, not API data scopes.\n  scopes: [openid, profile, email, address, phone, offline_access, device_sso]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/scopes/usertesting-scopes.yml
+source_yaml_url: https://artifacts.apis.io/usertesting/scopes/usertesting-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Company

@@ -30,15 +30,14 @@ source_yaml: 'generated: ''2026-10-28''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/go-e/refs/heads/main/scopes/go-e-scopes.yml
+source_yaml_url: https://artifacts.apis.io/go-e/scopes/go-e-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- EV
-- Charging
-- Hardware
-- Energy
-- SmartHome
 - Company
+- EV Charging
+- Hardware
+- Sustainability
+- Reseller
 token_bound: false
 token_urls: []
 ---

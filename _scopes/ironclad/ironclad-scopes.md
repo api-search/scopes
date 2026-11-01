@@ -5,73 +5,73 @@ api_specs:
   label: Ironclad Authorization API
   slug: ironclad-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-authorization-api-openapi.yml
 - filename: ironclad-entities-api-openapi.yml
   format: yaml
   label: Ironclad Entities API
   slug: ironclad-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-entities-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-entities-api-openapi.yml
 - filename: ironclad-exports-api-openapi.yml
   format: yaml
   label: Ironclad Exports API
   slug: ironclad-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-exports-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-exports-api-openapi.yml
 - filename: ironclad-groups-api-openapi.yml
   format: yaml
   label: Ironclad Groups API
   slug: ironclad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-groups-api-openapi.yml
 - filename: ironclad-obligations-api-openapi.yml
   format: yaml
   label: Ironclad Obligations API
   slug: ironclad-obligations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-obligations-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-obligations-api-openapi.yml
 - filename: ironclad-records-api-openapi.yml
   format: yaml
   label: Ironclad Records API
   slug: ironclad-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-records-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-records-api-openapi.yml
 - filename: ironclad-resources-api-openapi.yml
   format: yaml
   label: Ironclad Resources API
   slug: ironclad-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-resources-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-resources-api-openapi.yml
 - filename: ironclad-schemas-api-openapi.yml
   format: yaml
   label: Ironclad Schemas API
   slug: ironclad-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-schemas-api-openapi.yml
 - filename: ironclad-search-api-openapi.yml
   format: yaml
   label: Ironclad Search API
   slug: ironclad-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-search-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-search-api-openapi.yml
 - filename: ironclad-users-api-openapi.yml
   format: yaml
   label: Ironclad Users API
   slug: ironclad-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-users-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-users-api-openapi.yml
 - filename: ironclad-webhooks-api-openapi.yml
   format: yaml
   label: Ironclad Webhooks API
   slug: ironclad-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-webhooks-api-openapi.yml
 - filename: ironclad-workflows-api-openapi.yml
   format: yaml
   label: Ironclad Workflows API
   slug: ironclad-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/openapi/ironclad-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad/openapi/ironclad-workflows-api-openapi.yml
 authorization_urls:
 - https://na1.ironcladapp.com/oauth/authorize
 description: ''
@@ -480,7 +480,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ironclad
   \  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.readSignStatus\n  description: Read Sign Status\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.readSignatures\n  description: Read Workflow Signatures\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.readTurnHistory\n  description: Read Workflow Turn History\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.readWorkflows\n  description: Read Workflows\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.remindSigners\n  description: Remind Signers\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n\
   - scope: public.workflows.revertToReview\n  description: Revert Workflows to Review\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.scheduleSendSignatureRequest\n  description: Schedule Send Signature Request\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.sendSignatureRequests\n  description: Send Signature Requests\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.updateApprovals\n  description: Update Workflow Approvals\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.updateRoleAssignment\n  description: Update Workflow Role Assignment\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n\
   - scope: public.workflows.updateScheduledSignatureRequest\n  description: Update Scheduled Signature Request\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.updateSignaturePacket\n  description: Update Signature Packet\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.updateSigners\n  description: Update Signers\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.updateWorkflows\n  description: Update Workflows\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n- scope: public.workflows.uploadSignedDocuments\n  description: Upload Signed Workflow Documents\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/ironclad-public-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/scopes/ironclad-scopes.yml
+source_yaml_url: https://artifacts.apis.io/ironclad/scopes/ironclad-scopes.yml
 summary_line: 60 scopes · authorizationCode/clientCredentials
 tags:
 - Contract Lifecycle Management

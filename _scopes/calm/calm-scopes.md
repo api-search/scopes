@@ -5,13 +5,13 @@ api_specs:
   label: Calm Authentication API
   slug: calm-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/openapi/calm-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/calm/openapi/calm-authentication-api-openapi.yml
 - filename: calm-subscriptions-api-openapi.yml
   format: yaml
   label: Calm Subscriptions API
   slug: calm-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/openapi/calm-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/calm/openapi/calm-subscriptions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://partner.calm.com/docs/api
@@ -57,7 +57,7 @@ source_filename: calm-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/calm-partner-api-openapi.yml\ndocs: https://partner.calm.com/docs/api\nnotes: >-\n  The Partner API documents a single comma-delimited scope string\n  \"b2b.users.integrate,b2b.subscription.cancel\" requested at the /v0/authorize\n  client-credentials endpoint.\nschemes:\n- name: CalmOAuth2\n  source: openapi/calm-partner-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.calm.com/v0/authorize\n  description: OAuth 2.0 client-credentials grant against the Calm auth service.\nscopes:\n- scope: b2b.subscription.cancel\n  description: Cancel partner-user Calm subscriptions.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/calm-partner-api-openapi.yml\n- scope: b2b.users.integrate\n  description: Provision and link partner users to Calm subscriptions.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/calm-partner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/scopes/calm-scopes.yml
+source_yaml_url: https://artifacts.apis.io/calm/scopes/calm-scopes.yml
 summary_line: 2 scopes · clientCredentials
 tags:
 - Company

@@ -5,79 +5,79 @@ api_specs:
   label: Lightfield Accounts API
   slug: lightfield-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-accounts-api-openapi.yml
 - filename: lightfield-auth-api-openapi.yml
   format: yaml
   label: Lightfield Auth API
   slug: lightfield-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-auth-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-auth-api-openapi.yml
 - filename: lightfield-contacts-api-openapi.yml
   format: yaml
   label: Lightfield Contacts API
   slug: lightfield-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-contacts-api-openapi.yml
 - filename: lightfield-emails-api-openapi.yml
   format: yaml
   label: Lightfield Emails API
   slug: lightfield-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-emails-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-emails-api-openapi.yml
 - filename: lightfield-files-api-openapi.yml
   format: yaml
   label: Lightfield Files API
   slug: lightfield-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-files-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-files-api-openapi.yml
 - filename: lightfield-lists-api-openapi.yml
   format: yaml
   label: Lightfield Lists API
   slug: lightfield-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-lists-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-lists-api-openapi.yml
 - filename: lightfield-meetings-api-openapi.yml
   format: yaml
   label: Lightfield Meetings API
   slug: lightfield-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-meetings-api-openapi.yml
 - filename: lightfield-members-api-openapi.yml
   format: yaml
   label: Lightfield Members API
   slug: lightfield-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-members-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-members-api-openapi.yml
 - filename: lightfield-notes-api-openapi.yml
   format: yaml
   label: Lightfield Notes API
   slug: lightfield-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-notes-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-notes-api-openapi.yml
 - filename: lightfield-objects-api-openapi.yml
   format: yaml
   label: Lightfield Objects API
   slug: lightfield-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-objects-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-objects-api-openapi.yml
 - filename: lightfield-opportunities-api-openapi.yml
   format: yaml
   label: Lightfield Opportunities API
   slug: lightfield-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-opportunities-api-openapi.yml
 - filename: lightfield-tasks-api-openapi.yml
   format: yaml
   label: Lightfield Tasks API
   slug: lightfield-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-tasks-api-openapi.yml
 - filename: lightfield-workflow-run-api-openapi.yml
   format: yaml
   label: Lightfield Workflow Run API
   slug: lightfield-workflow-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-workflow-run-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-workflow-run-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://docs.lightfield.app/using-the-api/scopes/
@@ -217,7 +217,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/lightfi
   scope_convention: '<object>:<create|update|read>'\nscopes:\n- scope: accounts:create\n  description: Create accounts\n- scope: accounts:update\n  description: Update accounts\n- scope: accounts:read\n  description: Read accounts\n- scope: contacts:create\n  description: Create contacts\n- scope: contacts:update\n  description: Update contacts\n- scope: contacts:read\n  description: Read contacts\n- scope: opportunities:create\n  description: Create opportunities\n- scope: opportunities:update\n  description: Update opportunities\n- scope: opportunities:read\n  description: Read opportunities\n- scope: meetings:create\n  description: Create meetings\n- scope: meetings:update\n  description: Update meetings\n- scope: meetings:read\n  description: Read meetings\n- scope: tasks:create\n  description: Create tasks\n- scope: tasks:update\n  description: Update tasks\n- scope: tasks:read\n  description: Read tasks\n- scope: notes:create\n  description: Create notes\n- scope: notes:update\n  description:\
   \ Update notes\n- scope: notes:read\n  description: Read notes\n- scope: lists:create\n  description: Create lists\n- scope: lists:update\n  description: Update lists\n- scope: lists:read\n  description: Read lists\n- scope: files:create\n  description: Create, complete, and cancel file uploads\n- scope: files:read\n  description: Read files and signed download URLs\n- scope: emails:create\n  description: Send emails through connected mailboxes\n- scope: emails:read\n  description: Read synced emails\n- scope: members:read\n  description: Read members\nscope_count: 26\noauth_scopes:\n  context: hosted MCP server (https://mcp.lightfield.app/mcp)\n  issuer: https://api.stytch.lightfield.app\n  metadata: well-known/lightfield-oauth-authorization-server.json\n  scopes:\n  - scope: openid\n    description: OpenID Connect authentication\n  - scope: offline_access\n    description: Refresh-token issuance for long-lived agent sessions\nenforcement:\n  insufficient_scope_status: 403\n  insufficient_scope_type:\
   \ forbidden\nguidance:\n- Grant only the scopes an integration requires; restrict to read-only scopes where no mutation is\n  needed.\n- Create dedicated keys per integration so access can be revoked independently.\n- Rotate keys periodically; revocation is immediate and permanent.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/scopes/lightfield-scopes.yml
+source_yaml_url: https://artifacts.apis.io/lightfield/scopes/lightfield-scopes.yml
 summary_line: 26 scopes
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Crunchbase Autocomplete API
   slug: crunchbase-data-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-autocomplete-api-openapi.yml
 - filename: crunchbase-data-deleted-entities-api-openapi.yml
   format: yaml
   label: Crunchbase Deleted Entities API
   slug: crunchbase-data-deleted-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-deleted-entities-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-deleted-entities-api-openapi.yml
 - filename: crunchbase-data-entity-api-openapi.yml
   format: yaml
   label: Crunchbase Entity API
   slug: crunchbase-data-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-entity-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-entity-api-openapi.yml
 - filename: crunchbase-data-metadata-api-openapi.yml
   format: yaml
   label: Crunchbase Metadata API
   slug: crunchbase-data-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-metadata-api-openapi.yml
 - filename: crunchbase-data-search-api-openapi.yml
   format: yaml
   label: Crunchbase Search API
   slug: crunchbase-data-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/openapi/crunchbase-data-search-api-openapi.yml
+  url: https://artifacts.apis.io/crunchbase-data/openapi/crunchbase-data-search-api-openapi.yml
 authorization_urls:
 - https://www.crunchbase.com/oauth/authorize
 description: 'The REST Data API has no OAuth surface at all - it is a single account-level API key (X-cb-user-key) with no scopes, so the six published OpenAPI documents declare no oauth2 security scheme and derive-oauth-scopes.py correctly finds nothing. The OAuth surface belongs entirely to the MCP server: mcp.crunchbase.com is an RFC 9728 protected resource whose authorization server is www.crunchbase.com, and both metadata documents are anonymously readable. The scopes below are read verbatim from those two live documents, not from the specs.'
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: https://www.crunc
   \ - NOT the REST Data API\nschemes:\n- name: OAuth 2.1\n  source: https://www.crunchbase.com/.well-known/oauth-authorization-server\n  issuer: https://www.crunchbase.com\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.crunchbase.com/oauth/authorize\n    tokenUrl: https://oauth.crunchbase.com/token\n    revocationUrl: https://oauth.crunchbase.com/revoke\n  grant_types:\n  - authorization_code\n  - refresh_token\n  response_types:\n  - code\n  pkce_methods:\n  - plain\n  - S256\n  token_endpoint_auth_methods:\n  - client_secret_post\n  - none\nscopes:\n- scope: offline_access\n  description: >-\n    Issues a refresh token so the client can keep calling the MCP server after the\n    access token expires without re-prompting the user.\n  advertised_by:\n  - https://www.crunchbase.com/.well-known/oauth-authorization-server\n  - https://mcp.crunchbase.com/.well-known/oauth-protected-resource\n  flows:\n  - authorizationCode\n- scope: lists.read\n  description: >-\n\
   \    Read access to the signed-in user's Crunchbase saved lists. Backs the\n    cb_list_query and cb_list_get MCP tools.\n  advertised_by:\n  - https://www.crunchbase.com/.well-known/oauth-authorization-server\n  flows:\n  - authorizationCode\nnotes: >-\n  Two scopes only, and the pair is narrower than the tool surface it fronts: the MCP\n  Tool Reference documents cb_list_create and cb_list_add_entities as write\n  operations against Crunchbase lists, but no lists.write scope is advertised in\n  either metadata document, and the protected-resource document at\n  mcp.crunchbase.com advertises offline_access alone. Data access itself is not\n  scoped - it is governed by the MCP seat assigned to the user's account, which\n  Crunchbase documents as carrying its highest level of data access including\n  predictions and insights. Dynamic Client Registration is explicitly not supported;\n  clients either present a Client ID Metadata Document or use a client_id/secret\n  pre-registered by a Crunchbase\
   \ CSM.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/scopes/crunchbase-data-scopes.yml
+source_yaml_url: https://artifacts.apis.io/crunchbase-data/scopes/crunchbase-data-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Company Data

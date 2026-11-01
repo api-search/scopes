@@ -5,61 +5,61 @@ api_specs:
   label: Triodos Bank UK Account Information Service API
   slug: triodos-bank-uk-account-information-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-account-information-service-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-account-information-service-api-openapi.yml
 - filename: triodos-bank-uk-authorization-endpoint-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Authorization Endpoint API
   slug: triodos-bank-uk-authorization-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-authorization-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-authorization-endpoint-api-openapi.yml
 - filename: triodos-bank-uk-client-registration-endpoint-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Client Registration Endpoint API
   slug: triodos-bank-uk-client-registration-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-client-registration-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-client-registration-endpoint-api-openapi.yml
 - filename: triodos-bank-uk-configuration-endpoint-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Configuration Endpoint API
   slug: triodos-bank-uk-configuration-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-configuration-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-configuration-endpoint-api-openapi.yml
 - filename: triodos-bank-uk-confirmation-of-funds-service-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Confirmation of Funds Service API
   slug: triodos-bank-uk-confirmation-of-funds-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-confirmation-of-funds-service-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-confirmation-of-funds-service-api-openapi.yml
 - filename: triodos-bank-uk-extended-account-information-service-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Extended Account Information Service API
   slug: triodos-bank-uk-extended-account-information-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-extended-account-information-service-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-extended-account-information-service-api-openapi.yml
 - filename: triodos-bank-uk-initial-access-token-service-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Initial Access Token Service API
   slug: triodos-bank-uk-initial-access-token-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-initial-access-token-service-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-initial-access-token-service-api-openapi.yml
 - filename: triodos-bank-uk-payment-initiation-service-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Payment Initiation Service API
   slug: triodos-bank-uk-payment-initiation-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-payment-initiation-service-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-payment-initiation-service-api-openapi.yml
 - filename: triodos-bank-uk-token-endpoint-api-openapi.yml
   format: yaml
   label: Triodos Bank UK Token Endpoint API
   slug: triodos-bank-uk-token-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-token-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-token-endpoint-api-openapi.yml
 - filename: triodos-bank-uk-userinfo-endpoint-api-openapi.yml
   format: yaml
   label: Triodos Bank UK UserInfo Endpoint API
   slug: triodos-bank-uk-userinfo-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/openapi/triodos-bank-uk-userinfo-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/triodos-bank-uk/openapi/triodos-bank-uk-userinfo-endpoint-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://developer.triodos.com/docs/authorisation
@@ -115,7 +115,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: https://developer.triodos.com/docs/authorisation\ndocs: https://developer.triodos.com/docs/authorisation\nnotes: >-\n  Scopes are documented in the Triodos authorisation guide, not in the OpenAPI\n  securitySchemes (which the Berlin Group template leaves empty). Following\n  NextGenPSD2, the resource scope is dynamic and bound to a specific consent or\n  payment resource id, so access is scoped per-resource rather than per-tenant.\nschemes:\n- name: openid-connect\n  flow: authorizationCode\n  authorizationUrl: https://api.triodos.com/auth/{tenant}/v1/auth\n  tokenUrl: https://api.triodos.com/auth/{tenant}/v1/token\nscopes:\n- scope: openid\n  description: Standard OpenID Connect scope; always requested to start the SCA flow.\n  flows: [authorizationCode]\n- scope: offline_access\n  description: >-\n    Requests a refresh token for long-lived (recurring) account access. Added\n    automatically to the scaRedirect link when\
   \ recurring account access is\n    requested.\n  flows: [authorizationCode]\n- scope: 'AIS:{consent-id}'\n  description: >-\n    Account Information Service access bound to a specific registered consent\n    resource id (e.g. AIS:5e70106a-...). Grants read access to the accounts,\n    balances, and transactions covered by that consent.\n  flows: [authorizationCode]\n- scope: 'PIS:{payment-id}'\n  description: >-\n    Payment Initiation Service authorisation bound to a specific payment resource\n    id (e.g. PIS:5e70106a-...). Authorises execution of that single payment.\n  flows: [authorizationCode]\n- scope: 'PIIS:{consent-id}'\n  description: >-\n    Confirmation of Funds (CBPII/PIIS) access bound to a specific funds-\n    confirmation consent resource id. Grants the right to query availability of\n    funds on the covered account.\n  flows: [authorizationCode]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triodos-bank-uk/refs/heads/main/scopes/triodos-bank-uk-scopes.yml
+source_yaml_url: https://artifacts.apis.io/triodos-bank-uk/scopes/triodos-bank-uk-scopes.yml
 summary_line: 5 scopes
 tags:
 - Financial Services

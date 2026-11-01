@@ -5,31 +5,31 @@ api_specs:
   label: Alliance Data Systems (Bread Financial Holdings) Buyers API
   slug: alliance-data-systems-buyers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-buyers-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-buyers-api-openapi.yml
 - filename: alliance-data-systems-carts-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Carts API
   slug: alliance-data-systems-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-carts-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-carts-api-openapi.yml
 - filename: alliance-data-systems-payment-options-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Payment Options API
   slug: alliance-data-systems-payment-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-payment-options-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-payment-options-api-openapi.yml
 - filename: alliance-data-systems-shipping-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Shipping API
   slug: alliance-data-systems-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-shipping-api-openapi.yml
 - filename: alliance-data-systems-transactions-api-openapi.yml
   format: yaml
   label: Alliance Data Systems (Bread Financial Holdings) Transactions API
   slug: alliance-data-systems-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/openapi/alliance-data-systems-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/alliance-data-systems/openapi/alliance-data-systems-transactions-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -80,7 +80,7 @@ source_filename: alliance-data-systems-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bread-pay-platform-openapi.yml\nschemes:\n- name: oauth2ClientCredentials\n  source: openapi/bread-pay-platform-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.platform.breadpayments.com/auth/sso/token\n  description: OAuth 2.0 Client Credentials flow using API + Secret keys issued from the Bread\n    Merchant Portal.\nscopes:\n- scope: buyers:read\n  description: Read buyer records\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bread-pay-platform-openapi.yml\n- scope: transactions:read\n  description: Read transactions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bread-pay-platform-openapi.yml\n- scope: transactions:write\n  description: Create, authorize, settle, refund transactions\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/bread-pay-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/scopes/alliance-data-systems-scopes.yml
+source_yaml_url: https://artifacts.apis.io/alliance-data-systems/scopes/alliance-data-systems-scopes.yml
 summary_line: 3 scopes · clientCredentials
 tags:
 - Financial Services

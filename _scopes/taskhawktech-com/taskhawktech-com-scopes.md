@@ -5,31 +5,31 @@ api_specs:
   label: TaskHawk Systems Billing API
   slug: taskhawktech-com-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-billing-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-billing-api-openapi.yml
 - filename: taskhawktech-com-governance-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Governance API
   slug: taskhawktech-com-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-governance-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-governance-api-openapi.yml
 - filename: taskhawktech-com-media-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Media API
   slug: taskhawktech-com-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-media-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-media-api-openapi.yml
 - filename: taskhawktech-com-shield-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Shield API
   slug: taskhawktech-com-shield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-shield-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-shield-api-openapi.yml
 - filename: taskhawktech-com-signup-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Signup API
   slug: taskhawktech-com-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/openapi/taskhawktech-com-signup-api-openapi.yml
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-signup-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -85,7 +85,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://governance.taskhawktech.com/.well-known/oauth-authorization-server (RFC 8414 metadata, fetched 2026-09-19;\n  saved as well-known/taskhawktech-com-oauth-authorization-server.json)\ndocs: null\nnote: The OpenAPI declares ONLY an apiKey scheme (X-API-Key), so derive-oauth-scopes.py found nothing to derive.\n  These scopes come from the provider's published authorization-server metadata. No scopes reference page exists;\n  descriptions below are limited to what the scope name plus the matching REST operation make evident, and are marked\n  accordingly. The scopes are NOT referenced by any operation's security requirement in the contract.\nauthorization_server:\n  issuer: https://governance.taskhawktech.com\n  authorization_endpoint: https://governance.taskhawktech.com/oauth/authorize\n  token_endpoint: https://governance.taskhawktech.com/oauth/token\n  jwks_uri: https://governance.taskhawktech.com/.well-known/jwks.json\n\
   \  grant_types:\n  - authorization_code\n  - client_credentials\n  - urn:ietf:params:oauth:grant-type:jwt-bearer\n  response_types:\n  - code\n  - token\n  token_endpoint_auth_methods:\n  - client_secret_post\n  signing_alg:\n  - ES256\nscopes:\n- name: governance:verify\n  description: Action verification — matches operation verify-action (POST /governance/verify).\n  operations:\n  - verify-action\n  confidence: medium (name match; not bound in the OpenAPI)\n- name: governance:attest\n  description: Provenance attestation — matches attest-action (POST /governance/attest).\n  operations:\n  - attest-action\n  confidence: medium\n- name: governance:bind\n  description: Intent binding — matches bind-intent (POST /governance/bind).\n  operations:\n  - bind-intent\n  confidence: medium\n- name: governance:entitlements\n  description: null\n  operations: []\n  confidence: low — no public operation; likely plan/entitlement lookup\n- name: governance:scim\n  description: null\n  operations:\
   \ []\n  confidence: low — implies a SCIM provisioning surface; no /scim path is published or probed\n- name: governance:logout\n  description: null\n  operations: []\n  confidence: low\n- name: governance:gtr\n  description: null\n  operations: []\n  confidence: low — acronym not expanded anywhere public\nscope_count: 7\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskhawktech-com/refs/heads/main/scopes/taskhawktech-com-scopes.yml
+source_yaml_url: https://artifacts.apis.io/taskhawktech-com/scopes/taskhawktech-com-scopes.yml
 summary_line: 7 scopes
 tags:
 - AI Governance

@@ -5,13 +5,13 @@ api_specs:
   label: Zhejiang University Catalog API
   slug: zhejiang-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/openapi/zhejiang-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/zhejiang/openapi/zhejiang-catalog-api-openapi.yml
 - filename: zhejiang-repositories-api-openapi.yml
   format: yaml
   label: Zhejiang University Repositories API
   slug: zhejiang-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/openapi/zhejiang-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/zhejiang/openapi/zhejiang-repositories-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -38,7 +38,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "# Zhejiang University — authorization scopes\ngenerated: '2026-08-19'\nmethod: probed\nsource: Live probes 2026-08-19 of zju.edu.cn hosts.\nx-operator: institution\nscopes: []\nfinding: >-\n  No scope vocabulary exists on any institution-operated ZJU surface. The public\n  mirror service is unauthenticated and therefore has no scopes. The CAS SSO platform\n  and the Shibboleth IdP are federation surfaces, not OAuth authorization servers:\n  Shibboleth expresses release policy as SAML attribute release, not as scopes, and\n  the attribute-release policy is not published on the public metadata endpoint.\n  No OAuth 2.0 authorization server, discovery document, or scope list was found.\nprobes:\n  - url: https://idp.zju.edu.cn/idp/shibboleth\n    status: 200\n    detail: SAML metadata; no scope vocabulary. AttributeService advertised, policy not published.\n  - url: https://zjuam.zju.edu.cn/cas/login?locale=en\n    status: 200\n    detail: CAS interactive login; no scope model.\n\
   \  - url: https://mirrors.zju.edu.cn/mirrorz.json\n    status: 200\n    detail: Anonymous read; no authorization layer.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/scopes/zhejiang-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zhejiang/scopes/zhejiang-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - University

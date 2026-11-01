@@ -5,31 +5,31 @@ api_specs:
   label: XRHealth Auth API
   slug: xrhealth-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-auth-api-openapi.yml
+  url: https://artifacts.apis.io/xrhealth/openapi/xrhealth-auth-api-openapi.yml
 - filename: xrhealth-me-api-openapi.yml
   format: yaml
   label: XRHealth Me API
   slug: xrhealth-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-me-api-openapi.yml
+  url: https://artifacts.apis.io/xrhealth/openapi/xrhealth-me-api-openapi.yml
 - filename: xrhealth-openapi-json-api-openapi.yml
   format: yaml
   label: XRHealth Openapi.json API
   slug: xrhealth-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/xrhealth/openapi/xrhealth-openapi-json-api-openapi.yml
 - filename: xrhealth-well-known-api-openapi.yml
   format: yaml
   label: XRHealth .well Known API
   slug: xrhealth-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/xrhealth/openapi/xrhealth-well-known-api-openapi.yml
 - filename: xrhealth-xrhealth-platform-api-api-openapi.yml
   format: yaml
   label: XRHealth XRHealth Platform API
   slug: xrhealth-xrhealth-platform-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/openapi/xrhealth-xrhealth-platform-api-api-openapi.yml
+  url: https://artifacts.apis.io/xrhealth/openapi/xrhealth-xrhealth-platform-api-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -64,7 +64,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: derived\nsource: openapi/xrhealth-platform-openapi.yml\ndocs: null\ncomplete: false\nschemes: []\nschemes_note: >-\n  No oauth2 securityScheme is declared in the document, so 0-working/derive-oauth-scopes.py finds\n  nothing and writes nothing. This file records the scope evidence the contract carries anyway,\n  because the API is OAuth-shaped in every respect except its securityScheme declaration:\n  /auth/public/token accepts grant_type authorization_code and refresh_token, PKCE S256 is required,\n  and both TokenResponse and MeResponse carry scopes.\nscope_carriers:\n- schema: TokenResponse\n  field: scope\n  form: space-delimited string\n  required: true\n- schema: MeResponse\n  field: scopes\n  form: array of string\n  required: true\nscopes:\n- scope: 'patient:login'\n  description: null\n  source: 'openapi/xrhealth-platform-openapi.yml -> components.schemas.TokenResponse.properties.scope.example'\n  confidence: medium\n- scope: 'patient:read'\n\
   \  description: null\n  source: 'openapi/xrhealth-platform-openapi.yml -> components.schemas.TokenResponse.properties.scope.example'\n  confidence: medium\nnote: >-\n  These two scope names are read from the provider's own published EXAMPLE value\n  (\"patient:login patient:read\") and are the only scope strings XRHealth publishes anywhere. They\n  are recorded with confidence medium and complete: false: an example is evidence that the\n  patient:<verb> namespace is real, not evidence that these are the only two scopes, and no scope\n  descriptions are published. A scopes/permissions reference page would live behind the\n  invitation-only developer portal at https://developer.xr.health/, where every documentation path\n  probed on 2026-09-04 returned 404 to an unauthenticated client. Nothing here is invented.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xrhealth/refs/heads/main/scopes/xrhealth-scopes.yml
+source_yaml_url: https://artifacts.apis.io/xrhealth/scopes/xrhealth-scopes.yml
 summary_line: 2 scopes
 tags:
 - Health

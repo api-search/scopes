@@ -5,127 +5,127 @@ api_specs:
   label: Acquia Account API
   slug: acquia-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-account-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-account-api-openapi.yml
 - filename: acquia-agreements-api-openapi.yml
   format: yaml
   label: Acquia Agreements API
   slug: acquia-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-agreements-api-openapi.yml
 - filename: acquia-application-performance-monitoring-services-api-openapi.yml
   format: yaml
   label: Acquia Application Performance Monitoring Services API
   slug: acquia-application-performance-monitoring-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-application-performance-monitoring-services-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-application-performance-monitoring-services-api-openapi.yml
 - filename: acquia-applications-api-openapi.yml
   format: yaml
   label: Acquia Applications API
   slug: acquia-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-applications-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-applications-api-openapi.yml
 - filename: acquia-cloud-ide-api-openapi.yml
   format: yaml
   label: Acquia Cloud IDE API
   slug: acquia-cloud-ide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-cloud-ide-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-cloud-ide-api-openapi.yml
 - filename: acquia-codebases-api-openapi.yml
   format: yaml
   label: Acquia Codebases API
   slug: acquia-codebases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-codebases-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-codebases-api-openapi.yml
 - filename: acquia-current-system-health-api-openapi.yml
   format: yaml
   label: Acquia Current system health API
   slug: acquia-current-system-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-current-system-health-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-current-system-health-api-openapi.yml
 - filename: acquia-distributions-api-openapi.yml
   format: yaml
   label: Acquia Distributions API
   slug: acquia-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-distributions-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-distributions-api-openapi.yml
 - filename: acquia-email-api-openapi.yml
   format: yaml
   label: Acquia Email API
   slug: acquia-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-email-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-email-api-openapi.yml
 - filename: acquia-environments-api-openapi.yml
   format: yaml
   label: Acquia Environments API
   slug: acquia-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-environments-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-environments-api-openapi.yml
 - filename: acquia-identity-providers-api-openapi.yml
   format: yaml
   label: Acquia Identity Providers API
   slug: acquia-identity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-identity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-identity-providers-api-openapi.yml
 - filename: acquia-invite-api-openapi.yml
   format: yaml
   label: Acquia Invite API
   slug: acquia-invite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-invite-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-invite-api-openapi.yml
 - filename: acquia-messages-api-openapi.yml
   format: yaml
   label: Acquia Messages API
   slug: acquia-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-messages-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-messages-api-openapi.yml
 - filename: acquia-notifications-api-openapi.yml
   format: yaml
   label: Acquia Notifications API
   slug: acquia-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-notifications-api-openapi.yml
 - filename: acquia-options-api-openapi.yml
   format: yaml
   label: Acquia Options API
   slug: acquia-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-options-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-options-api-openapi.yml
 - filename: acquia-organizations-api-openapi.yml
   format: yaml
   label: Acquia Organizations API
   slug: acquia-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-organizations-api-openapi.yml
 - filename: acquia-private-networks-api-openapi.yml
   format: yaml
   label: Acquia Private Networks API
   slug: acquia-private-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-private-networks-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-private-networks-api-openapi.yml
 - filename: acquia-subscriptions-api-openapi.yml
   format: yaml
   label: Acquia Subscriptions API
   slug: acquia-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-subscriptions-api-openapi.yml
 - filename: acquia-teams-and-permissions-api-openapi.yml
   format: yaml
   label: Acquia Teams and Permissions API
   slug: acquia-teams-and-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-teams-and-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-teams-and-permissions-api-openapi.yml
 - filename: acquia-authentication-api-openapi.yml
   format: yaml
   label: Acquia Authentication API
   slug: acquia-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-authentication-api-openapi.yml
 - filename: acquia-content-api-openapi.yml
   format: yaml
   label: Acquia Content API
   slug: acquia-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-content-api-openapi.yml
+  url: https://artifacts.apis.io/acquia/openapi/acquia-content-api-openapi.yml
 authorization_urls: []
 description: ''
 docs:
@@ -624,7 +624,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\ndocs:\n- https://dev.ac
   \ the site''s\n    Public access setting is Yes. Reading UNPUBLISHED content requires content:administer.'\n  mcp_note: 'Acquia''s MCP reference reports 16 scopes_supported in the MCP resource-metadata document\n    - a subset of the 22 below - and records that scope gating was NOT observable in its own verification:\n    a client_credentials token issued without a scope parameter called every tool successfully.'\n  scopes:\n  - name: content:administer\n    description: 'Content CRUD over JSON:API: create, update and delete entries. There is no read-only\n      content scope.'\n  - name: content_type:administer\n    description: Content types (bundles).\n  - name: content_type:administer_fields\n    description: Fields on content types.\n  - name: page_template:administer\n    description: Page templates.\n  - name: media:administer\n    description: Media entries.\n  - name: media_type:administer\n    description: Media types.\n  - name: taxonomy:administer\n    description: Taxonomy\
   \ vocabularies and terms.\n  - name: taxonomy:administer_fields\n    description: Fields on taxonomy terms.\n  - name: menu:administer\n    description: Menus.\n  - name: site_settings:administer\n    description: Site settings.\n  - name: canvas:page:read\n    description: Read Canvas pages.\n  - name: canvas:page:create\n    description: Create Canvas pages.\n  - name: canvas:page:edit\n    description: Edit Canvas pages.\n  - name: canvas:page:delete\n    description: Delete Canvas pages.\n  - name: canvas:page_region\n    description: Canvas page regions.\n  - name: canvas:content_template\n    description: Canvas content templates.\n  - name: canvas:asset_library\n    description: 'Drupal Canvas CLI: asset library access for downloading and uploading components.'\n  - name: canvas:js_component\n    description: 'Drupal Canvas CLI: JS component access for downloading and uploading components.'\n  - name: canvas:brand_kit\n    description: Canvas brand kits.\n  - name: canvas:media:view\n\
   \    description: View media from Canvas.\n  - name: canvas:media:image:create\n    description: Create images from Canvas.\n  - name: member\n    description: Basic member access.\nscope_count: 23\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/scopes/acquia-scopes.yml
+source_yaml_url: https://artifacts.apis.io/acquia/scopes/acquia-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:
 - Content

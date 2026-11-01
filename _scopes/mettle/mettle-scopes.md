@@ -5,37 +5,37 @@ api_specs:
   label: Mettle ATM API
   slug: mettle-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-atm-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-atm-api-openapi.yml
 - filename: mettle-bca-api-openapi.yml
   format: yaml
   label: Mettle BCA API
   slug: mettle-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-bca-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-bca-api-openapi.yml
 - filename: mettle-branch-api-openapi.yml
   format: yaml
   label: Mettle Branch API
   slug: mettle-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-branch-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-branch-api-openapi.yml
 - filename: mettle-ccc-api-openapi.yml
   format: yaml
   label: Mettle CCC API
   slug: mettle-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-ccc-api-openapi.yml
 - filename: mettle-pca-api-openapi.yml
   format: yaml
   label: Mettle PCA API
   slug: mettle-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-pca-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-pca-api-openapi.yml
 - filename: mettle-sme-api-openapi.yml
   format: yaml
   label: Mettle SME API
   slug: mettle-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-sme-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-sme-api-openapi.yml
 authorization_urls:
 - https://secure1.natwest.com/as/authorization.oauth2
 description: ''
@@ -99,7 +99,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: searched\nsource: >-\n  https://secure1.natwest.com/.well-known/openid-configuration (scopes_supported)\n  filtered to Mettle's OBIE Read/Write products\ndocs: https://www.bankofapis.com/products/accounts/documentation/mettle\nnotes: >-\n  The NatWest Group OpenID Provider advertises a very large enterprise scope set;\n  the scopes below are the OBIE Read/Write standard scopes that apply to Mettle's\n  published AIS/PIS/CBPII products. A token request passes one or more of the\n  scopes the TPP has been granted, plus openid for the OIDC id_token.\nschemes:\n- name: OpenBankingOAuth2\n  source: https://secure1.natwest.com/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://secure1.natwest.com/as/authorization.oauth2\n    tokenUrl: https://secure1t.natwest.com/as/token.oauth2\n  - flow: clientCredentials\n    tokenUrl: https://secure1t.natwest.com/as/token.oauth2\nscopes:\n- scope: openid\n  description:\
   \ OpenID Connect - issue an id_token binding the consent (openbanking_intent_id).\n  flows: [authorizationCode]\n- scope: accounts\n  description: Account & Transaction Information (AIS) - read accounts, balances, transactions, and related resources.\n  flows: [authorizationCode, clientCredentials]\n  product: mettle-account-transaction-api\n- scope: payments\n  description: Payment Initiation (PIS) - create and submit domestic and other payment orders from a customer's account.\n  flows: [authorizationCode, clientCredentials]\n  product: mettle-payment-initiation-api\n- scope: fundsconfirmations\n  description: Confirmation of Funds (CBPII) - confirm whether funds are available on a customer's account.\n  flows: [authorizationCode, clientCredentials]\n  product: mettle-confirmation-of-funds-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/scopes/mettle-scopes.yml
+source_yaml_url: https://artifacts.apis.io/mettle/scopes/mettle-scopes.yml
 summary_line: 4 scopes · authorizationCode/clientCredentials
 tags:
 - Financial Services

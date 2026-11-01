@@ -5,109 +5,109 @@ api_specs:
   label: PEXA Exchange API
   slug: pexa-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/_original/pexa-exchange-api-swagger.json
+  url: https://artifacts.apis.io/pexa/openapi/_original/pexa-exchange-api-swagger.json
 - filename: pexa-billing-api-openapi.yml
   format: yaml
   label: PEXA Billing API
   slug: pexa-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-billing-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-billing-api-openapi.yml
 - filename: pexa-conversation-api-openapi.yml
   format: yaml
   label: PEXA Conversation API
   slug: pexa-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-conversation-api-openapi.yml
 - filename: pexa-document-api-openapi.yml
   format: yaml
   label: PEXA Document API
   slug: pexa-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-document-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-document-api-openapi.yml
 - filename: pexa-invitation-api-openapi.yml
   format: yaml
   label: PEXA Invitation API
   slug: pexa-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-invitation-api-openapi.yml
 - filename: pexa-landtitle-api-openapi.yml
   format: yaml
   label: PEXA Landtitle API
   slug: pexa-landtitle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-landtitle-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-landtitle-api-openapi.yml
 - filename: pexa-notification-api-openapi.yml
   format: yaml
   label: PEXA Notification API
   slug: pexa-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-notification-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-notification-api-openapi.yml
 - filename: pexa-notification-service-api-openapi.yml
   format: yaml
   label: PEXA Notification Service [$] API
   slug: pexa-notification-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-notification-service-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-notification-service-api-openapi.yml
 - filename: pexa-notificationregistration-api-openapi.yml
   format: yaml
   label: PEXA Notification Registration API
   slug: pexa-notificationregistration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-notificationregistration-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-notificationregistration-api-openapi.yml
 - filename: pexa-project-api-openapi.yml
   format: yaml
   label: PEXA Project API
   slug: pexa-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-project-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-project-api-openapi.yml
 - filename: pexa-settlement-api-openapi.yml
   format: yaml
   label: PEXA Settlement API
   slug: pexa-settlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-settlement-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-settlement-api-openapi.yml
 - filename: pexa-standalone-discharge-experience-api-openapi.yml
   format: yaml
   label: PEXA Standalone Discharge Experience API
   slug: pexa-standalone-discharge-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-standalone-discharge-experience-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-standalone-discharge-experience-api-openapi.yml
 - filename: pexa-subscriber-api-openapi.yml
   format: yaml
   label: PEXA Subscriber API
   slug: pexa-subscriber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-subscriber-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-subscriber-api-openapi.yml
 - filename: pexa-titlesearch-api-openapi.yml
   format: yaml
   label: PEXA Title Search API
   slug: pexa-titlesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-titlesearch-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-titlesearch-api-openapi.yml
 - filename: pexa-user-api-openapi.yml
   format: yaml
   label: PEXA User API
   slug: pexa-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-user-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-user-api-openapi.yml
 - filename: pexa-workspace-api-openapi.yml
   format: yaml
   label: PEXA Workspace API
   slug: pexa-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-workspace-api-openapi.yml
 - filename: pexa-workspaces-api-openapi.yml
   format: yaml
   label: PEXA Workspaces API
   slug: pexa-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-workspaces-api-openapi.yml
 - filename: pexa-health-check-api-openapi.yml
   format: yaml
   label: PEXA Health Check API
   slug: pexa-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-health-check-api-openapi.yml
 authorization_urls:
 - https://host.kubernetes.internal/auth/realms/pexa/protocol/openid-connect/auth
 - https://'{{auth2_env}}'/authorize
@@ -222,7 +222,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nsource: openapi/pexa-no
   \ registrations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/pexa-notification-service-openapi.yaml\n- scope: create:notification_registrations_secret_rotation\n  description: Rotate shared secret\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/pexa-notification-service-openapi.yaml\n- scope: delete:notification_registrations\n  description: Delete registrations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/pexa-notification-service-openapi.yaml\n- scope: edit:notification_registrations\n  description: Edit registrations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/pexa-notification-service-openapi.yaml\n- scope: view:notification_registrations\n  description: View registrations\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/pexa-notification-service-openapi.yaml\n- scope: '{{api_scope}}'\n  description: API scope\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/pexa-standalone-discharge-experience-api-openapi.yaml\n\
   docs: https://developer.pexa.com.au/Exchange/docs/documentation/\ndocs_note: PEXA does not publish a single consolidated scopes reference page. Scopes are declared per endpoint in\n  the developer portal API reference (login-gated) and, for the Notification Service, restated in the PEXA Webhooks\n  Guide. The Exchange Swagger 2.0 contracts declare no securityDefinitions at all, so Exchange scope names do not\n  appear in any machine-readable artifact - the only Exchange scope PEXA publishes in the open is the worked example\n  au_pub_tst_pexa_conversation_api_v2_read.\nnaming_conventions:\n- family: notification-service\n  pattern: <verb>:notification_registrations[_<qualifier>]\n  source: openapi/pexa-notification-service-openapi.yaml + https://developer.pexa.com.au/Webhooks/docs/definitions/webhooks/\n  environments: the same five scope names apply in both non-prod and prod\n- family: projects\n  pattern: au:projects:<resource>:<read|write>\n  source: openapi/pexa-projects-api-v4-openapi.yaml\n\
   - family: exchange\n  pattern: au_<visibility>_<env>_pexa_<api>_<version>_<read|write>\n  example: au_pub_tst_pexa_conversation_api_v2_read\n  source: https://developer.pexa.com.au/Exchange/docs/documentation/\n  note: Environment appears to be encoded in the scope name itself (tst), so scope strings differ between test and\n    production.\ntoken_request: Scope is passed on the OAuth 2.0 token request (client_credentials) or on the authorize request (authorization_code);\n  each endpoint requires specific scopes.\nunresolved:\n- scope: '{{api_scope}}'\n  source: openapi/pexa-standalone-discharge-experience-api-openapi.yaml\n  note: Unresolved template shipped in the contract, not a real scope name. Recorded verbatim rather than guessed.\nscope_count: 11\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/scopes/pexa-scopes.yml
+source_yaml_url: https://artifacts.apis.io/pexa/scopes/pexa-scopes.yml
 summary_line: 11 scopes · clientCredentials/authorizationCode
 tags:
 - Real Estate

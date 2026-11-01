@@ -5,13 +5,13 @@ api_specs:
   label: Google Cloud Armor SecurityPolicyRules API
   slug: google-cloud-armor-securitypolicyrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/google-cloud-armor-securitypolicyrules-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-armor/openapi/google-cloud-armor-securitypolicyrules-api-openapi.yml
 - filename: google-cloud-armor-security-policies-api-openapi.yml
   format: yaml
   label: Google Cloud Armor Security Policies API
   slug: google-cloud-armor-security-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/openapi/google-cloud-armor-security-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-armor/openapi/google-cloud-armor-security-policies-api-openapi.yml
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
@@ -58,7 +58,7 @@ source_filename: google-cloud-armor-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/cloud-platform\n  description: Full access to Google Cloud Platform resources\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n- scope: https://www.googleapis.com/auth/compute\n  description: Manage your Google Compute Engine resources\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-armor/refs/heads/main/scopes/google-cloud-armor-scopes.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-armor/scopes/google-cloud-armor-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - DDoS Protection

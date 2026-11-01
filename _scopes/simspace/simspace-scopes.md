@@ -33,7 +33,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: https://simspace.com/.well-known/oauth-authorization-server\ndocs: null\nnote: >-\n  The only OAuth scope surface SimSpace publishes anonymously is the one declared in\n  its RFC 8414 authorization-server metadata and echoed in its RFC 9728\n  protected-resource metadata. It carries a single scope. SimSpace publishes no scopes\n  or permissions reference page for the platform API; if the platform API uses scopes,\n  they are documented only inside the authenticated portal.\nschemes:\n- name: oauth2-mcp\n  source: https://simspace.com/.well-known/oauth-authorization-server\n  authorization_url: https://simspace.com/oauth/authorize\n  token_url: https://simspace.com/oauth/token\nscopes:\n- name: mcp\n  description: Access the MCP server surface at https://simspace.com/wp-json/mcp/mcp-oauth-server\n  source: scopes_supported in RFC 8414 authorization-server metadata and RFC 9728\n    protected-resource metadata\n  applies_to: https://simspace.com/wp-json/mcp/mcp-oauth-server\n\
   scope_count: 1\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simspace/refs/heads/main/scopes/simspace-scopes.yml
+source_yaml_url: https://artifacts.apis.io/simspace/scopes/simspace-scopes.yml
 summary_line: 1 scope
 tags:
 - Company

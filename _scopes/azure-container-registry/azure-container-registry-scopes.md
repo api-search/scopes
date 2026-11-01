@@ -5,49 +5,49 @@ api_specs:
   label: Azure Container Registry Operation API
   slug: azure-container-registry-operation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-operation-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-operation-api-openapi.yml
 - filename: azure-container-registry-registries-api-openapi.yml
   format: yaml
   label: Azure Container Registry Registries API
   slug: azure-container-registry-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-registries-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-registries-api-openapi.yml
 - filename: azure-container-registry-replications-api-openapi.yml
   format: yaml
   label: Azure Container Registry Replications API
   slug: azure-container-registry-replications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-replications-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-replications-api-openapi.yml
 - filename: azure-container-registry-webhooks-api-openapi.yml
   format: yaml
   label: Azure Container Registry Webhooks API
   slug: azure-container-registry-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-webhooks-api-openapi.yml
 - filename: azure-container-registry-blobs-api-openapi.yml
   format: yaml
   label: Azure Container Registry Blobs API
   slug: microsoft-azure-container-registry-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-blobs-api-openapi.yml
 - filename: azure-container-registry-manifests-api-openapi.yml
   format: yaml
   label: Azure Container Registry Manifests API
   slug: microsoft-azure-container-registry-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-manifests-api-openapi.yml
 - filename: azure-container-registry-repositories-api-openapi.yml
   format: yaml
   label: Azure Container Registry Repositories API
   slug: microsoft-azure-container-registry-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-repositories-api-openapi.yml
 - filename: azure-container-registry-tags-api-openapi.yml
   format: yaml
   label: Azure Container Registry Tags API
   slug: microsoft-azure-container-registry-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/openapi/azure-container-registry-tags-api-openapi.yml
+  url: https://artifacts.apis.io/azure-container-registry/openapi/azure-container-registry-tags-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -86,7 +86,7 @@ source_filename: azure-container-registry-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-container-registry-openapi.yaml\nschemes:\n- name: azure_auth\n  source: openapi/azure-container-registry-openapi.yaml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/azure-container-registry-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-container-registry/refs/heads/main/scopes/azure-container-registry-scopes.yml
+source_yaml_url: https://artifacts.apis.io/azure-container-registry/scopes/azure-container-registry-scopes.yml
 summary_line: 1 scope · implicit
 tags:
 - Microsoft Azure

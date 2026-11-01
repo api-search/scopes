@@ -5,25 +5,25 @@ api_specs:
   label: ID.me applications API
   slug: applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-applications-openapi-generated.yml
+  url: https://artifacts.apis.io/idme/openapi/_ae-authored/idme-applications-openapi-generated.yml
 - filename: idme-core-openapi-generated.yml
   format: yaml
   label: ID.me core API
   slug: core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-core-openapi-generated.yml
+  url: https://artifacts.apis.io/idme/openapi/_ae-authored/idme-core-openapi-generated.yml
 - filename: idme-document-passback-openapi-generated.yml
   format: yaml
   label: ID.me document passback API
   slug: document-passback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-document-passback-openapi-generated.yml
+  url: https://artifacts.apis.io/idme/openapi/_ae-authored/idme-document-passback-openapi-generated.yml
 - filename: idme-services-openapi-generated.yml
   format: yaml
   label: ID.me services API
   slug: services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/openapi/_ae-authored/idme-services-openapi-generated.yml
+  url: https://artifacts.apis.io/idme/openapi/_ae-authored/idme-services-openapi-generated.yml
 authorization_urls:
 - https://api.id.me/oauth/authorize
 description: ''
@@ -106,7 +106,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://api.id.me/oidc/.well-known/openid-configuration\ndocs: https://docs.id.me/integrations/configurations/configuration-standards\nschemes:\n- name: OAuth2\n  source: well-known/idme-openid-configuration.json\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.id.me/oauth/authorize\n    tokenUrl: https://api.id.me/oauth/token\nscopes:\n- scope: openid\n  description: OpenID Connect authentication; returns an ID token.\n  sources: [well-known/idme-openid-configuration.json]\n# ID.me maps \"scope\" to a verification policy/community group. The discovery doc\n# advertises only `openid`; the following are the standard community/affiliation\n# scope values documented in the configuration standards reference.\n- scope: military\n  description: Members and dependents of the uniformed services.\n  group: community\n- scope: responder\n  description: Active and retired members of the first responder community.\n\
   \  group: community\n- scope: student\n  description: Members actively enrolled in accredited public/private universities or colleges.\n  group: community\n- scope: teacher\n  description: Members of the teaching community.\n  group: community\n- scope: government\n  description: Members employed by federal, state, or local governments.\n  group: community\n- scope: employee\n  description: Members employed by partnering companies.\n  group: community\n- scope: hospital_employee\n  description: Members employed by hospitals and healthcare systems.\n  group: community\n- scope: alumni\n  description: Members with degrees from accredited institutions.\n  group: community\n- scope: nurse\n  description: Members of the nursing community.\n  group: community\n- scope: medical\n  description: Members of the medical professional community.\n  group: community\nauthn_context:\n- value: mfa\n  description: Multi-factor authentication.\n- value: kba_replacement\n  description: Identity proofing\
   \ requiring one piece of evidence.\n- value: fortified_identity\n  description: Identity proofing requiring two pieces of evidence.\n- value: http://idmanagement.gov\n  description: NIST IAL2/AAL2 identity assurance.\nnotes: >-\n  Canadian community equivalents also exist (military_canada, responder_canada,\n  student_canada, teacher_canada, government_canada, nurse_canada, doctor_canada,\n  alumni_canada). Scopes resolve to policies configured per client application.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/scopes/idme-scopes.yml
+source_yaml_url: https://artifacts.apis.io/idme/scopes/idme-scopes.yml
 summary_line: 11 scopes · authorizationCode
 tags:
 - Company

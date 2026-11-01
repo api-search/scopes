@@ -5,73 +5,73 @@ api_specs:
   label: SocialListeningAPI Discourse API
   slug: sociallisteningapi-discourse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-discourse-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-discourse-api-openapi.yml
 - filename: sociallisteningapi-facebook-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Facebook API
   slug: sociallisteningapi-facebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-facebook-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-facebook-api-openapi.yml
 - filename: sociallisteningapi-google-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Google API
   slug: sociallisteningapi-google-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-google-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-google-api-openapi.yml
 - filename: sociallisteningapi-instagram-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Instagram API
   slug: sociallisteningapi-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-instagram-api-openapi.yml
 - filename: sociallisteningapi-meta-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Meta API
   slug: sociallisteningapi-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-meta-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-meta-api-openapi.yml
 - filename: sociallisteningapi-pinterest-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Pinterest API
   slug: sociallisteningapi-pinterest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-pinterest-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-pinterest-api-openapi.yml
 - filename: sociallisteningapi-reddit-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Reddit API
   slug: sociallisteningapi-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-reddit-api-openapi.yml
 - filename: sociallisteningapi-tiktok-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Tiktok API
   slug: sociallisteningapi-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-tiktok-api-openapi.yml
 - filename: sociallisteningapi-x-api-openapi.yml
   format: yaml
   label: SocialListeningAPI X API
   slug: sociallisteningapi-x-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-x-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-x-api-openapi.yml
 - filename: sociallisteningapi-youtube-api-openapi.yml
   format: yaml
   label: SocialListeningAPI YouTube API
   slug: sociallisteningapi-youtube-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-youtube-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-youtube-api-openapi.yml
 - filename: sociallisteningapi-hacker-news-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Hacker News API
   slug: sociallisteningapi-hacker-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-hacker-news-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-hacker-news-api-openapi.yml
 - filename: sociallisteningapi-linked-in-api-openapi.yml
   format: yaml
   label: SocialListeningAPI Linked In API
   slug: sociallisteningapi-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/openapi/sociallisteningapi-linked-in-api-openapi.yml
+  url: https://artifacts.apis.io/sociallisteningapi/openapi/sociallisteningapi-linked-in-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: https://sociallisteningapi.com/mcp
@@ -105,7 +105,7 @@ source_filename: sociallisteningapi-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: probed\nsource: https://api.sociallisteningapi.com/.well-known/oauth-protected-resource/mcp (HTTP 200) and /.well-known/oauth-authorization-server\n  (HTTP 200); WWW-Authenticate on POST /mcp names scope=\"mcp\"\ndocs: https://sociallisteningapi.com/mcp\napplies_to: Remote MCP server (the REST API uses an x-api-key header, no scopes)\nscopes:\n- name: mcp\n  description: Scope advertised in scopes_supported and requested in the WWW-Authenticate challenge of the MCP endpoint\n    (no published description).\n- name: mcp:search\n  description: Scope advertised in scopes_supported of the MCP protected-resource and authorization-server metadata\n    (no published description).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sociallisteningapi/refs/heads/main/scopes/sociallisteningapi-scopes.yml
+source_yaml_url: https://artifacts.apis.io/sociallisteningapi/scopes/sociallisteningapi-scopes.yml
 summary_line: 2 scopes
 tags:
 - Social Listening

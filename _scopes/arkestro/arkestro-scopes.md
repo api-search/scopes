@@ -5,7 +5,7 @@ api_specs:
   label: Arkestro Webhooks API
   slug: arkestro-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/openapi/arkestro-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/arkestro/openapi/arkestro-webhooks-api-openapi.yml
 authorization_urls:
 - https://api.arkestro.com/oauth/authorize
 description: ''
@@ -63,7 +63,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: https://api.arkestro.com/.well-known/oauth-authorization-server\nnote: >-\n  These scopes are not derivable from the OpenAPI — the published spec declares only an\n  apiKey scheme. They come from Arkestro's live RFC 8414 authorization-server metadata and\n  govern the remote MCP server at https://api.arkestro.com/api/v2/mcp, not the REST API V2.\n  Arkestro publishes no scope reference page; descriptions below are the plain reading of\n  the scope names and are marked as such rather than quoted from documentation.\nschemes:\n- name: OAuth2\n  source: well-known/arkestro-oauth-authorization-server.json\n  issuer: https://api.arkestro.com\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.arkestro.com/oauth/authorize\n    tokenUrl: https://api.arkestro.com/oauth/token\n    pkce_required: true\n    code_challenge_methods:\n    - S256\nscopes:\n- scope: mcp:read\n  description: Read access through the MCP server.\n\
   \  description_source: inferred-from-scope-name\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/arkestro-oauth-authorization-server.json\n- scope: mcp:write\n  description: Write access through the MCP server.\n  description_source: inferred-from-scope-name\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/arkestro-oauth-authorization-server.json\n- scope: offline_access\n  description: Issue a refresh token so the client can act without the user present.\n  description_source: standard-oidc-scope\n  flows:\n  - authorizationCode\n  sources:\n  - well-known/arkestro-oauth-authorization-server.json\ncoverage:\n  scopes_published: 3\n  granularity: coarse\n  note: >-\n    Two functional scopes for an entire procurement platform. A read/write split alone\n    cannot express least privilege across events, awards, purchase orders, supplier\n    organizations and analytics — an agent granted mcp:write to schedule an event also\n    holds whatever write reach the server\
   \ exposes over awards and purchase orders.\nx-evidence:\n- url: https://api.arkestro.com/.well-known/oauth-authorization-server\n  http_status: 200\n  fetched: '2026-08-06'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/scopes/arkestro-scopes.yml
+source_yaml_url: https://artifacts.apis.io/arkestro/scopes/arkestro-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:
 - Procurement

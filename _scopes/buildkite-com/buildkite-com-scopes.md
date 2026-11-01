@@ -5,115 +5,115 @@ api_specs:
   label: Buildkite Access Token API
   slug: buildkite-com-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-access-token-api-openapi.yml
 - filename: buildkite-com-agent-tokens-api-openapi.yml
   format: yaml
   label: Buildkite Agent Tokens API
   slug: buildkite-com-agent-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-agent-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-agent-tokens-api-openapi.yml
 - filename: buildkite-com-agents-api-openapi.yml
   format: yaml
   label: Buildkite Agents API
   slug: buildkite-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-agents-api-openapi.yml
 - filename: buildkite-com-annotations-api-openapi.yml
   format: yaml
   label: Buildkite Annotations API
   slug: buildkite-com-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-annotations-api-openapi.yml
 - filename: buildkite-com-artifacts-api-openapi.yml
   format: yaml
   label: Buildkite Artifacts API
   slug: buildkite-com-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-artifacts-api-openapi.yml
 - filename: buildkite-com-builds-api-openapi.yml
   format: yaml
   label: Buildkite Builds API
   slug: buildkite-com-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-builds-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-builds-api-openapi.yml
 - filename: buildkite-com-clusters-api-openapi.yml
   format: yaml
   label: Buildkite Clusters API
   slug: buildkite-com-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-clusters-api-openapi.yml
 - filename: buildkite-com-emojis-api-openapi.yml
   format: yaml
   label: Buildkite Emojis API
   slug: buildkite-com-emojis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-emojis-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-emojis-api-openapi.yml
 - filename: buildkite-com-jobs-api-openapi.yml
   format: yaml
   label: Buildkite Jobs API
   slug: buildkite-com-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-jobs-api-openapi.yml
 - filename: buildkite-com-meta-api-openapi.yml
   format: yaml
   label: Buildkite Meta API
   slug: buildkite-com-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-meta-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-meta-api-openapi.yml
 - filename: buildkite-com-metrics-api-openapi.yml
   format: yaml
   label: Buildkite Metrics API
   slug: buildkite-com-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-metrics-api-openapi.yml
 - filename: buildkite-com-organizations-api-openapi.yml
   format: yaml
   label: Buildkite Organizations API
   slug: buildkite-com-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-organizations-api-openapi.yml
 - filename: buildkite-com-pipeline-templates-api-openapi.yml
   format: yaml
   label: Buildkite Pipeline Templates API
   slug: buildkite-com-pipeline-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-pipeline-templates-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-pipeline-templates-api-openapi.yml
 - filename: buildkite-com-pipelines-api-openapi.yml
   format: yaml
   label: Buildkite Pipelines API
   slug: buildkite-com-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-pipelines-api-openapi.yml
 - filename: buildkite-com-queues-api-openapi.yml
   format: yaml
   label: Buildkite Queues API
   slug: buildkite-com-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-queues-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-queues-api-openapi.yml
 - filename: buildkite-com-rules-api-openapi.yml
   format: yaml
   label: Buildkite Rules API
   slug: buildkite-com-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-rules-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-rules-api-openapi.yml
 - filename: buildkite-com-stacks-api-openapi.yml
   format: yaml
   label: Buildkite Stacks API
   slug: buildkite-com-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-stacks-api-openapi.yml
 - filename: buildkite-com-teams-api-openapi.yml
   format: yaml
   label: Buildkite Teams API
   slug: buildkite-com-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-teams-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-teams-api-openapi.yml
 - filename: buildkite-com-user-api-openapi.yml
   format: yaml
   label: Buildkite User API
   slug: buildkite-com-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/openapi/buildkite-com-user-api-openapi.yml
+  url: https://artifacts.apis.io/buildkite-com/openapi/buildkite-com-user-api-openapi.yml
 authorization_urls: []
 description: Buildkite REST API access tokens are Bearer tokens (not OAuth2 authorization-code flows), but they carry a rich, granular scope surface configured per token. This artifact captures the full documented scope list verbatim from the managing-api-tokens reference. GraphQL access is a separate boolean toggle ("Enable GraphQL API access") rather than a scope — it is full-access with no further granular restriction.
 docs: https://buildkite.com/docs/apis/managing-api-tokens
@@ -311,7 +311,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/buildki
   \ of rules.}\n  - {scope: write_rules, description: Create or delete rules.}\n  - {scope: read_teams, description: List teams.}\n  - {scope: write_teams, description: Create, update, and delete teams.}\n  - {scope: read_organizations, description: List and retrieve details of organizations.}\n  - {scope: write_organizations, description: Update organization settings.}\n  - {scope: read_organization_settings, description: Read organization's API security and pipeline settings.}\n  - {scope: write_organization_settings, description: Update organization's API security and pipeline settings.}\n  - {scope: read_organization_repository_connections, description: List and retrieve details of connected source control integrations.}\n  - {scope: read_notification_services, description: List and retrieve notification services.}\n  - {scope: write_notification_services, description: Create, update, delete, enable, and disable notification services.}\n  - {scope: read_user, description: Retrieve basic\
   \ details of the user.}\n  - {scope: read_audit_events, description: List and retrieve details of audit log events (Enterprise plan only).}\n  - {scope: read_secrets_details, description: List and retrieve details about secrets.}\n  - {scope: write_secrets, description: Create, update, and delete secrets.}\n  - {scope: read_suites, description: Retrieve suite information (Test Engine).}\n  - {scope: write_suites, description: Create suites (Test Engine).}\n  - {scope: read_test_plan, description: Retrieve test plan information (Test Engine).}\n  - {scope: write_test_plan, description: Create test plan (Test Engine).}\n  - {scope: read_registries, description: List and retrieve details of package registries.}\n  - {scope: write_registries, description: Create and update package registries.}\n  - {scope: delete_registries, description: Delete package registries.}\n  - {scope: read_packages, description: List and retrieve details of packages.}\n  - {scope: write_packages, description: Create\
   \ packages.}\n  - {scope: delete_packages, description: Delete packages.}\n  - {scope: read_portals, description: List and retrieve details of GraphQL Portals.}\n  - {scope: write_portals, description: Create, update, and delete GraphQL Portals.}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/scopes/buildkite-com-scopes.yml
+source_yaml_url: https://artifacts.apis.io/buildkite-com/scopes/buildkite-com-scopes.yml
 summary_line: 42 scopes
 tags:
 - CI/CD

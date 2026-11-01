@@ -5,97 +5,97 @@ api_specs:
   label: AAA AI Agents API
   slug: aaaai-me-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-agents-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-agents-api-openapi.yml
 - filename: aaaai-me-approvals-api-openapi.yml
   format: yaml
   label: AAA AI Approvals API
   slug: aaaai-me-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-approvals-api-openapi.yml
 - filename: aaaai-me-auth-api-openapi.yml
   format: yaml
   label: AAA AI Auth API
   slug: aaaai-me-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-auth-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-auth-api-openapi.yml
 - filename: aaaai-me-chat-api-openapi.yml
   format: yaml
   label: AAA AI Chat API
   slug: aaaai-me-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-chat-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-chat-api-openapi.yml
 - filename: aaaai-me-code-api-openapi.yml
   format: yaml
   label: AAA AI Code API
   slug: aaaai-me-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-code-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-code-api-openapi.yml
 - filename: aaaai-me-cognitive-scaling-api-openapi.yml
   format: yaml
   label: AAA AI Cognitive Scaling API
   slug: aaaai-me-cognitive-scaling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-cognitive-scaling-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-cognitive-scaling-api-openapi.yml
 - filename: aaaai-me-cron-api-openapi.yml
   format: yaml
   label: AAA AI Cron API
   slug: aaaai-me-cron-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-cron-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-cron-api-openapi.yml
 - filename: aaaai-me-debug-api-openapi.yml
   format: yaml
   label: AAA AI Debug API
   slug: aaaai-me-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-debug-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-debug-api-openapi.yml
 - filename: aaaai-me-deep-agent-api-openapi.yml
   format: yaml
   label: AAA AI Deep Agent API
   slug: aaaai-me-deep-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-deep-agent-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-deep-agent-api-openapi.yml
 - filename: aaaai-me-dynamic-experts-api-openapi.yml
   format: yaml
   label: AAA AI Dynamic Experts API
   slug: aaaai-me-dynamic-experts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-dynamic-experts-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-dynamic-experts-api-openapi.yml
 - filename: aaaai-me-experts-api-openapi.yml
   format: yaml
   label: AAA AI Experts API
   slug: aaaai-me-experts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-experts-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-experts-api-openapi.yml
 - filename: aaaai-me-health-api-openapi.yml
   format: yaml
   label: AAA AI Health API
   slug: aaaai-me-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-health-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-health-api-openapi.yml
 - filename: aaaai-me-nodes-api-openapi.yml
   format: yaml
   label: AAA AI Nodes API
   slug: aaaai-me-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-nodes-api-openapi.yml
 - filename: aaaai-me-settings-api-openapi.yml
   format: yaml
   label: AAA AI Settings API
   slug: aaaai-me-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-settings-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-settings-api-openapi.yml
 - filename: aaaai-me-user-api-openapi.yml
   format: yaml
   label: AAA AI User API
   slug: aaaai-me-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-user-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-user-api-openapi.yml
 - filename: aaaai-me-video-api-openapi.yml
   format: yaml
   label: AAA AI Video API
   slug: aaaai-me-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/openapi/aaaai-me-video-api-openapi.yml
+  url: https://artifacts.apis.io/aaaai-me/openapi/aaaai-me-video-api-openapi.yml
 authorization_urls:
 - https://web.aaaai.me/
 description: ''
@@ -203,7 +203,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://aaaai.m
   \ https://aaaai.me/register.html\n  registration_note: A human sign-up page, not RFC 7591 dynamic client registration.\n  agent_auth:\n    supported_identity_types: [human, service]\n    credential_types: [api_key, session, oauth]\n- name: openid-configuration (OIDC Discovery metadata)\n  source: well-known/aaaai-me-openid-configuration.json\n  issuer: https://web.aaaai.me\n  served_from: https://aaaai.me/.well-known/openid-configuration\n  jwks_uri: https://web.aaaai.me/.well-known/jwks.json\n  jwks_status: 404\n  response_types_supported: [code, id_token, token]\n  id_token_signing_alg_values_supported: [RS256]\n  token_endpoint_auth_methods_supported: [client_secret_post, client_secret_basic, none]\nscopes:\n- scope: openid\n  description: OpenID Connect authentication (declared in both documents).\n  flows: [authorizationCode]\n  sources: [well-known/aaaai-me-oauth-authorization-server.json, well-known/aaaai-me-openid-configuration.json]\n- scope: profile\n  description: Profile claims\
   \ (declared in both documents; not described further by the provider).\n  flows: [authorizationCode]\n  sources: [well-known/aaaai-me-oauth-authorization-server.json, well-known/aaaai-me-openid-configuration.json]\n- scope: email\n  description: Email claim (declared in both documents).\n  flows: [authorizationCode]\n  sources: [well-known/aaaai-me-oauth-authorization-server.json, well-known/aaaai-me-openid-configuration.json]\n- scope: api\n  description: Access to the platform API (resource https://web.aaaai.me/api per the protected-resource document). Declared in the authorization-server and protected-resource documents only.\n  flows: [authorizationCode]\n  sources: [well-known/aaaai-me-oauth-authorization-server.json, well-known/aaaai-me-oauth-protected-resource.json]\n- scope: offline_access\n  description: Refresh tokens (declared in the OpenID Provider metadata only).\n  flows: [authorizationCode]\n  sources: [well-known/aaaai-me-openid-configuration.json]\nprotected_resource:\n\
   \  source: well-known/aaaai-me-oauth-protected-resource.json\n  resource: https://web.aaaai.me/api\n  authorization_servers: [https://web.aaaai.me]\n  scopes_supported: [openid, profile, email, api]\n  bearer_methods_supported: [header, body]\n  resource_signing_alg_values_supported: [RS256]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aaaai-me/refs/heads/main/scopes/aaaai-me-scopes.yml
+source_yaml_url: https://artifacts.apis.io/aaaai-me/scopes/aaaai-me-scopes.yml
 summary_line: 5 scopes · authorizationCode/refreshToken/password
 tags:
 - Artificial Intelligence

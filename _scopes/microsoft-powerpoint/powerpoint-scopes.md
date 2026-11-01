@@ -5,7 +5,7 @@ api_specs:
   label: Microsoft PowerPoint Drive Items API
   slug: microsoft-powerpoint-drive-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-powerpoint/refs/heads/main/openapi/microsoft-powerpoint-drive-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-powerpoint/openapi/microsoft-powerpoint-drive-items-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/v2.0/authorize
 description: ''
@@ -68,7 +68,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/powerpoint-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/powerpoint-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: |-\n    Microsoft Graph uses Microsoft Entra ID (Azure AD) OAuth 2.0.\n    Apps require delegated or application permissions such as Files.Read,\n    Files.ReadWrite, Sites.Read.All, or Sites.ReadWrite.All.\nscopes:\n- scope: Files.Read\n  description: Read user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/powerpoint-openapi.yml\n- scope: Files.ReadWrite\n  description: Read and write user files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/powerpoint-openapi.yml\n- scope: Sites.Read.All\n  description: Read items in all site collections\n  flows:\n  - authorizationCode\n  sources:\n  -\
   \ openapi/powerpoint-openapi.yml\n- scope: Sites.ReadWrite.All\n  description: Read and write items in all site collections\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/powerpoint-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-powerpoint/refs/heads/main/scopes/powerpoint-scopes.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-powerpoint/scopes/powerpoint-scopes.yml
 summary_line: 4 scopes · authorizationCode
 tags:
 - Microsoft Office

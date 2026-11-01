@@ -5,85 +5,85 @@ api_specs:
   label: Diaspora Aspects API
   slug: diaspora-aspects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-aspects-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-aspects-api-openapi.yml
 - filename: diaspora-comments-api-openapi.yml
   format: yaml
   label: Diaspora Comments API
   slug: diaspora-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-comments-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-comments-api-openapi.yml
 - filename: diaspora-contacts-api-openapi.yml
   format: yaml
   label: Diaspora Contacts API
   slug: diaspora-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-contacts-api-openapi.yml
 - filename: diaspora-conversations-api-openapi.yml
   format: yaml
   label: Diaspora Conversations API
   slug: diaspora-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-conversations-api-openapi.yml
 - filename: diaspora-likes-api-openapi.yml
   format: yaml
   label: Diaspora Likes API
   slug: diaspora-likes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-likes-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-likes-api-openapi.yml
 - filename: diaspora-notifications-api-openapi.yml
   format: yaml
   label: Diaspora Notifications API
   slug: diaspora-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-notifications-api-openapi.yml
 - filename: diaspora-photos-api-openapi.yml
   format: yaml
   label: Diaspora Photos API
   slug: diaspora-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-photos-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-photos-api-openapi.yml
 - filename: diaspora-post-interactions-api-openapi.yml
   format: yaml
   label: Diaspora Post interactions API
   slug: diaspora-post-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-post-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-post-interactions-api-openapi.yml
 - filename: diaspora-posts-api-openapi.yml
   format: yaml
   label: Diaspora Posts API
   slug: diaspora-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-posts-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-posts-api-openapi.yml
 - filename: diaspora-reshares-api-openapi.yml
   format: yaml
   label: Diaspora Reshares API
   slug: diaspora-reshares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-reshares-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-reshares-api-openapi.yml
 - filename: diaspora-search-api-openapi.yml
   format: yaml
   label: Diaspora Search API
   slug: diaspora-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-search-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-search-api-openapi.yml
 - filename: diaspora-streams-api-openapi.yml
   format: yaml
   label: Diaspora Streams API
   slug: diaspora-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-streams-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-streams-api-openapi.yml
 - filename: diaspora-tag-followings-api-openapi.yml
   format: yaml
   label: Diaspora Tag followings API
   slug: diaspora-tag-followings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-tag-followings-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-tag-followings-api-openapi.yml
 - filename: diaspora-users-api-openapi.yml
   format: yaml
   label: Diaspora Users API
   slug: diaspora-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-users-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-users-api-openapi.yml
 authorization_urls: []
 description: diaspora* implements access scopes as defined by OAuth 2.0 (RFC 6749 §3.3), which OpenID Connect Core 1.0 builds on. A client requests a set of scopes when it requests an access token; the granted set may differ from the requested set. Every API endpoint requires at least one granted scope — a request carrying a token without the endpoint's scope returns 403 with no content. For some resources (posts, photos) the required scope depends on the visibility of the data (public vs private), and for others (streams) the granted scope set determines which data the response contains.
 docs: https://diaspora.github.io/api-documentation/scopes.html
@@ -180,7 +180,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://d
   \ contacts of contacts when allowed by the contact's aspect setting, and include contacts hidden\n    from public search in user search results.\n  operations:\n  - getAspects\n  - getAspectsByAspectId\n  - getAspectsByAspectIdContacts\n- name: contacts:modify\n  origin: diaspora\n  description: >-\n    Add new aspects, rename aspects and change aspect properties, delete aspects, and add or remove\n    a person to/from aspects. Also covers blocking and unblocking a user.\n  operations:\n  - createAspects\n  - updateAspectsByAspectId\n  - deleteAspectsByAspectId\n  - createAspectsByAspectIdContacts\n  - deleteAspectsByAspectIdContactsByPersonGuid\n  - createUsersByPersonGuidBlock\n  - deleteUsersByPersonGuidBlock\n- name: conversations\n  origin: diaspora\n  description: >-\n    Gives access to private messaging — create conversations and send private messages.\n  operations:\n  - getConversations\n  - getConversationsByConversationGuid\n  - createConversations\n  - deleteConversationsByConversationGuid\n\
   \  - updateConversationsByConversationGuid\n  - getConversationsByConversationGuidMessages\n  - createConversationsByConversationGuidMessages\n- name: interactions\n  origin: diaspora\n  description: >-\n    Create and delete comments, report posts and comments, post and remove likes, subscribe to and\n    mute posts, hide posts from streams, and vote in polls. Read access to the underlying post must\n    also be present (public:read for public posts, private:read for private posts).\n  operations:\n  - createPostsByPostGuidComments\n  - deletePostsByPostGuidCommentsByCommentGuid\n  - createPostsByPostGuidCommentsByCommentGuidReport\n  - createPostsByPostGuidLikes\n  - deletePostsByPostGuidLikes\n  - createPostsByPostGuidCommentsByCommentGuidLikes\n  - deletePostsByPostGuidCommentsByCommentGuidLikes\n  - createPostsByPostGuidReport\n  - createPostsByPostGuidSubscribe\n  - createPostsByPostGuidMute\n  - createPostsByPostGuidHide\n  - createPostsByPostGuidVote\n- name: notifications\n  origin:\
   \ diaspora\n  description: Gives access to reading notifications.\n  operations:\n  - getNotifications\n  - getNotificationsByNotificationId\n  - updateNotificationsByNotificationId\n- name: tags:read\n  origin: diaspora\n  description: Gives access to reading tag followings and reading the tags stream.\n  operations:\n  - getTagFollowings\n- name: tags:modify\n  origin: diaspora\n  description: Gives access to creation and deletion of tag followings.\n  operations:\n  - createTagFollowings\n  - deleteTagFollowingsByTagName\n\ndependencies:\n- scope: private:read\n  requires:\n  - contacts:read\n- scope: private:modify\n  requires:\n  - contacts:read\n\nenforcement:\n  insufficient_scope_status: 403\n  insufficient_scope_body: none\n  unauthenticated_status: 401\n\nrelated:\n  authentication: authentication/diaspora-authentication.yml\n  openapi: openapi/diaspora-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/scopes/diaspora-scopes.yml
+source_yaml_url: https://artifacts.apis.io/diaspora/scopes/diaspora-scopes.yml
 summary_line: 16 scopes
 tags:
 - Company

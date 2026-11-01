@@ -5,49 +5,49 @@ api_specs:
   label: drupal Comments API
   slug: drupal-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-comments-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-comments-api-openapi.yml
 - filename: drupal-files-api-openapi.yml
   format: yaml
   label: drupal Files API
   slug: drupal-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-files-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-files-api-openapi.yml
 - filename: drupal-node-articles-api-openapi.yml
   format: yaml
   label: drupal Node Articles API
   slug: drupal-node-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-node-articles-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-node-articles-api-openapi.yml
 - filename: drupal-node-pages-api-openapi.yml
   format: yaml
   label: drupal Node Pages API
   slug: drupal-node-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-node-pages-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-node-pages-api-openapi.yml
 - filename: drupal-nodes-api-openapi.yml
   format: yaml
   label: drupal Nodes API
   slug: drupal-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-nodes-api-openapi.yml
 - filename: drupal-taxonomy-terms-api-openapi.yml
   format: yaml
   label: drupal Taxonomy Terms API
   slug: drupal-taxonomy-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-taxonomy-terms-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-taxonomy-terms-api-openapi.yml
 - filename: drupal-taxonomy-vocabularies-api-openapi.yml
   format: yaml
   label: drupal Taxonomy Vocabularies API
   slug: drupal-taxonomy-vocabularies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-taxonomy-vocabularies-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-taxonomy-vocabularies-api-openapi.yml
 - filename: drupal-users-api-openapi.yml
   format: yaml
   label: drupal Users API
   slug: drupal-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/openapi/drupal-users-api-openapi.yml
+  url: https://artifacts.apis.io/drupal/openapi/drupal-users-api-openapi.yml
 authorization_urls:
 - https://example.com/oauth/authorize
 description: ''
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: derived\nsource: openapi/drupal-c
   \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-node-pages-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-nodes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 authentication via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-taxonomy-terms-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 via the\
   \ Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-taxonomy-vocabularies-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 authentication via the Simple OAuth module.\n- name: oAuth2\n  source: openapi/drupal-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n  description: OAuth 2.0 via the Simple OAuth module.\nscopes:\n- scope: content\n  description: Access and manage content entities\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/drupal-comments-api-openapi.yml\n  - openapi/drupal-files-api-openapi.yml\n  - openapi/drupal-node-articles-api-openapi.yml\n  - openapi/drupal-node-pages-api-openapi.yml\n  - openapi/drupal-nodes-api-openapi.yml\n  - openapi/drupal-taxonomy-terms-api-openapi.yml\n  - openapi/drupal-taxonomy-vocabularies-api-openapi.yml\n\
   \  - openapi/drupal-users-api-openapi.yml\n- scope: user\n  description: Access and manage user entities\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/drupal-comments-api-openapi.yml\n  - openapi/drupal-files-api-openapi.yml\n  - openapi/drupal-node-articles-api-openapi.yml\n  - openapi/drupal-node-pages-api-openapi.yml\n  - openapi/drupal-nodes-api-openapi.yml\n  - openapi/drupal-taxonomy-terms-api-openapi.yml\n  - openapi/drupal-taxonomy-vocabularies-api-openapi.yml\n  - openapi/drupal-users-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/scopes/drupal-scopes.yml
+source_yaml_url: https://artifacts.apis.io/drupal/scopes/drupal-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
 - Content Management

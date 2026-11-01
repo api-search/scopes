@@ -41,7 +41,7 @@ source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: scopes_supported in live https://babymori.com/.well-known/openid-configuration (Shopify Customer Account API)\nissuer: https://shopify.com/authentication/6726617\nnote: >-\n  OAuth 2.0 / OIDC scopes advertised by the Shopify Customer Account API\n  discovery document for this store. customer-account-mcp-api:full authorizes\n  the authenticated Customer Account MCP surface; the anonymous storefront MCP\n  at /api/mcp requires no scope.\nscopes:\n- name: openid\n  description: Standard OpenID Connect scope; returns an ID token identifying the signed-in customer.\n- name: email\n  description: Grants access to the customer's email and email_verified claims.\n- name: customer-account-api:full\n  description: Full access to the Shopify Customer Account API for the signed-in customer (orders, profile, addresses).\n- name: customer-account-mcp-api:full\n  description: Full access to the authenticated Customer Account MCP API surface\
   \ for the signed-in customer.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mori/refs/heads/main/scopes/mori-scopes.yml
+source_yaml_url: https://artifacts.apis.io/mori/scopes/mori-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company

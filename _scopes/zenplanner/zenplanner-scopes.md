@@ -5,43 +5,43 @@ api_specs:
   label: Zen Planner Classes API
   slug: zenplanner-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-classes-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-classes-api-openapi.yml
 - filename: zenplanner-groups-api-openapi.yml
   format: yaml
   label: Zen Planner Groups API
   slug: zenplanner-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-groups-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-groups-api-openapi.yml
 - filename: zenplanner-locations-api-openapi.yml
   format: yaml
   label: Zen Planner Locations API
   slug: zenplanner-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-locations-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-locations-api-openapi.yml
 - filename: zenplanner-memberships-api-openapi.yml
   format: yaml
   label: Zen Planner Memberships API
   slug: zenplanner-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-memberships-api-openapi.yml
 - filename: zenplanner-people-api-openapi.yml
   format: yaml
   label: Zen Planner People API
   slug: zenplanner-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-people-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-people-api-openapi.yml
 - filename: zenplanner-programs-api-openapi.yml
   format: yaml
   label: Zen Planner Programs API
   slug: zenplanner-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-programs-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-programs-api-openapi.yml
 - filename: zenplanner-prospects-api-openapi.yml
   format: yaml
   label: Zen Planner Prospects API
   slug: zenplanner-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/openapi/zenplanner-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/zenplanner/openapi/zenplanner-prospects-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: none\nsource: openapi/zenplanner-
   \  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-locations-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-memberships-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token\
   \ and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-people-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-programs-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\n- name: oauth2\n  source: openapi/zenplanner-prospects-api-openapi.yml\n\
   \  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.partners.daxko.com/v3/partners/oauth2/token\n  description: OAuth 2.0 against the Daxko Partners token service. Partner/API access tokens\n    are obtained from https://api.partners.daxko.com/v3/partners/oauth2/token and member tokens\n    from https://operations.oauth2.partners.daxko.com/token.\nscopes: []\nnote: The OAuth2 security scheme(s) in the OpenAPI declare no scopes, and no security requirement\n  references one.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenplanner/refs/heads/main/scopes/zenplanner-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zenplanner/scopes/zenplanner-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Fitness

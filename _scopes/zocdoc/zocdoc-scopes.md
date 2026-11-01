@@ -5,79 +5,79 @@ api_specs:
   label: Zocdoc Appointments API
   slug: zocdoc-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-appointments-api-openapi.yml
 - filename: zocdoc-calendar-integration-timeslots-api-openapi.yml
   format: yaml
   label: Zocdoc Calendar Integration Timeslots API
   slug: zocdoc-calendar-integration-timeslots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-calendar-integration-timeslots-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-calendar-integration-timeslots-api-openapi.yml
 - filename: zocdoc-credentials-api-openapi.yml
   format: yaml
   label: Zocdoc Credentials API
   slug: zocdoc-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-credentials-api-openapi.yml
 - filename: zocdoc-facilities-api-openapi.yml
   format: yaml
   label: Zocdoc Facilities API
   slug: zocdoc-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-facilities-api-openapi.yml
 - filename: zocdoc-insurance-reference-api-openapi.yml
   format: yaml
   label: Zocdoc Insurance Reference API
   slug: zocdoc-insurance-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-insurance-reference-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-insurance-reference-api-openapi.yml
 - filename: zocdoc-provider-locations-api-openapi.yml
   format: yaml
   label: Zocdoc Provider Locations API
   slug: zocdoc-provider-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-provider-locations-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-provider-locations-api-openapi.yml
 - filename: zocdoc-providers-api-openapi.yml
   format: yaml
   label: Zocdoc Providers API
   slug: zocdoc-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-providers-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-providers-api-openapi.yml
 - filename: zocdoc-reference-api-openapi.yml
   format: yaml
   label: Zocdoc Reference API
   slug: zocdoc-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-reference-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-reference-api-openapi.yml
 - filename: zocdoc-schedulable-entities-api-openapi.yml
   format: yaml
   label: Zocdoc Schedulable Entities API
   slug: zocdoc-schedulable-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-schedulable-entities-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-schedulable-entities-api-openapi.yml
 - filename: zocdoc-webhook-api-openapi.yml
   format: yaml
   label: Zocdoc Webhook API
   slug: zocdoc-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-webhook-api-openapi.yml
 - filename: zocdoc-reviews-api-openapi.yml
   format: yaml
   label: Zocdoc Reviews API
   slug: zocdoc-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-reviews-api-openapi.yml
 - filename: zocdoc-specialties-api-openapi.yml
   format: yaml
   label: Zocdoc Specialties API
   slug: zocdoc-specialties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-specialties-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-specialties-api-openapi.yml
 - filename: zocdoc-visit-reasons-api-openapi.yml
   format: yaml
   label: Zocdoc Visit Reasons API
   slug: zocdoc-visit-reasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/openapi/zocdoc-visit-reasons-api-openapi.yml
+  url: https://artifacts.apis.io/zocdoc/openapi/zocdoc-visit-reasons-api-openapi.yml
 authorization_urls:
 - https://auth.zocdoc.com/authorize
 description: ''
@@ -453,7 +453,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: derived\nsource: openapi/zocdoc-a
   - scope: external.credential.rotate\n  description: Rotate the authenticated client secret.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zocdoc-credentials-api-openapi.yml\n- scope: external.partner_consent.write\n  description: Revoke your partner-connect consent grants.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zocdoc-appointments-api-openapi.yml\n  - openapi/zocdoc-calendar-integration-timeslots-api-openapi.yml\n  - openapi/zocdoc-facilities-api-openapi.yml\n  - openapi/zocdoc-insurance-reference-api-openapi.yml\n  - openapi/zocdoc-provider-locations-api-openapi.yml\n  - openapi/zocdoc-providers-api-openapi.yml\n  - openapi/zocdoc-reference-api-openapi.yml\n  - openapi/zocdoc-reviews-api-openapi.yml\n  - openapi/zocdoc-schedulable-entities-api-openapi.yml\n  - openapi/zocdoc-specialties-api-openapi.yml\n  - openapi/zocdoc-visit-reasons-api-openapi.yml\n  - openapi/zocdoc-webhook-api-openapi.yml\n- scope: external.provider_insurance.write\n  description:\
   \ Update the insurance accepted by a provider.\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/zocdoc-appointments-api-openapi.yml\n  - openapi/zocdoc-calendar-integration-timeslots-api-openapi.yml\n  - openapi/zocdoc-credentials-api-openapi.yml\n  - openapi/zocdoc-facilities-api-openapi.yml\n  - openapi/zocdoc-insurance-reference-api-openapi.yml\n  - openapi/zocdoc-provider-locations-api-openapi.yml\n  - openapi/zocdoc-providers-api-openapi.yml\n  - openapi/zocdoc-reference-api-openapi.yml\n  - openapi/zocdoc-reviews-api-openapi.yml\n  - openapi/zocdoc-schedulable-entities-api-openapi.yml\n  - openapi/zocdoc-specialties-api-openapi.yml\n  - openapi/zocdoc-visit-reasons-api-openapi.yml\n  - openapi/zocdoc-webhook-api-openapi.yml\n- scope: external.schedulable_entity.read\n  description: Read schedulable entities.\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/zocdoc-appointments-api-openapi.yml\n  - openapi/zocdoc-calendar-integration-timeslots-api-openapi.yml\n\
   \  - openapi/zocdoc-credentials-api-openapi.yml\n  - openapi/zocdoc-facilities-api-openapi.yml\n  - openapi/zocdoc-insurance-reference-api-openapi.yml\n  - openapi/zocdoc-provider-locations-api-openapi.yml\n  - openapi/zocdoc-providers-api-openapi.yml\n  - openapi/zocdoc-reference-api-openapi.yml\n  - openapi/zocdoc-reviews-api-openapi.yml\n  - openapi/zocdoc-schedulable-entities-api-openapi.yml\n  - openapi/zocdoc-specialties-api-openapi.yml\n  - openapi/zocdoc-visit-reasons-api-openapi.yml\n  - openapi/zocdoc-webhook-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/scopes/zocdoc-scopes.yml
+source_yaml_url: https://artifacts.apis.io/zocdoc/scopes/zocdoc-scopes.yml
 summary_line: 10 scopes · clientCredentials/authorizationCode
 tags:
 - Healthcare

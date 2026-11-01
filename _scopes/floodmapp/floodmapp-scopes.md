@@ -40,7 +40,7 @@ source_filename: floodmapp-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: >-\n  Observed OAuth2 authorization request from api.floodmapp.com to AWS Cognito\n  (login.floodmapp.com/oauth2/authorize).\nschemes:\n  - name: cognitoOAuth2\n    provider: AWS Cognito\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://login.floodmapp.com/oauth2/authorize\n        tokenUrl: https://login.floodmapp.com/oauth2/token\nscopes:\n  - scope: openid\n    description: OpenID Connect authentication; returns an ID token identifying the authenticated principal.\n    flows: [authorizationCode]\n    sources: [observed authorization request]\nnotes: >-\n  Only the standard OIDC 'openid' scope was observed in the public authorization\n  redirect. FloodMapp does not publish a scopes/permissions reference; any\n  resource-server scopes are provisioned privately per customer. Not fabricated\n  beyond the single observed scope.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/scopes/floodmapp-scopes.yml
+source_yaml_url: https://artifacts.apis.io/floodmapp/scopes/floodmapp-scopes.yml
 summary_line: 1 scope · authorizationCode
 tags:
 - Company

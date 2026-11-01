@@ -30,14 +30,14 @@ source_yaml: 'generated: ''2026-10-27''
   scopes: []
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rallyup/refs/heads/main/scopes/rallyup-scopes.yml
+source_yaml_url: https://artifacts.apis.io/rallyup/scopes/rallyup-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
+- Company
 - Fundraising
 - Nonprofit
 - SaaS
-- Events
-- OnlinePlatform
+- DigitalPlatform
 token_bound: false
 token_urls: []
 ---
