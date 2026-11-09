@@ -117,7 +117,7 @@ tags:
 - Digital Sales Rooms
 - Data Rooms
 - Client Portals
-- Integrations
+- Integration
 - Secure Sharing
 token_bound: false
 token_urls:

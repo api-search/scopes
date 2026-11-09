@@ -102,6 +102,7 @@ tags:
 - Legal Tech
 - Document AI
 - Family Office
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

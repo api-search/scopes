@@ -64,11 +64,11 @@ source_yaml: 'generated: ''2026-10-27''
 source_yaml_url: https://artifacts.apis.io/sellfy/scopes/sellfy-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- e-commerce
-- digital-products
-- SaaS
-- payments
-- creators
+- E-Commerce
+- Digital Products
+- Software-as-a-Service
+- Payments
+- Creators
 token_bound: false
 token_urls: []
 ---

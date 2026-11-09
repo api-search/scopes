@@ -254,7 +254,6 @@ source_yaml_url: https://artifacts.apis.io/print-one/scopes/print-one-scopes.yml
 summary_line: 30 scopes · authorizationCode
 tags:
 - Postcards
-- API
 - Direct Mail
 - Marketing
 - Automation

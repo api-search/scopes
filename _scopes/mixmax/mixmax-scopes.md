@@ -84,7 +84,7 @@ tags:
 - MCP
 - Agents
 - Webhook
-- Authentication
+- OAuth
 - Sales Engagement
 - Email
 - Sales
@@ -92,6 +92,7 @@ tags:
 - Productivity
 - Meetings
 - Sequences
+- Authentication
 token_bound: false
 token_urls: []
 ---

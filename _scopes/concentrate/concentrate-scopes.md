@@ -71,11 +71,10 @@ source_yaml_url: https://artifacts.apis.io/concentrate/scopes/concentrate-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - LLM
-- Gateway
+- Gateways
 - Platform
-- API
 token_bound: false
 token_urls: []
 ---

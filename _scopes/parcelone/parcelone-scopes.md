@@ -84,7 +84,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Logistics
 - Shipping
-- E-commerce
+- E-Commerce
 - Fulfillment
 - International
 token_bound: false

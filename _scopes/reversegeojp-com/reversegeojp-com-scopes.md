@@ -43,7 +43,6 @@ tags:
 - Company
 - Geocoding
 - Japan
-- API
 - Location
 token_bound: false
 token_urls: []

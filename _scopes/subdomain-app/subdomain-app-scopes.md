@@ -34,9 +34,8 @@ source_yaml_url: https://artifacts.apis.io/subdomain-app/scopes/subdomain-app-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Security
-- Subdomain
+- Sub Domain
 - Discovery
-- API
 - Free
 token_bound: false
 token_urls: []

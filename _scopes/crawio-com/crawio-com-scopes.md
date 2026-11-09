@@ -39,7 +39,6 @@ source_yaml_url: https://artifacts.apis.io/crawio-com/scopes/crawio-com-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Web Scraping
-- API
 - Proxy
 - Anti-Bot
 - Data Extraction

@@ -1979,7 +1979,7 @@ tags:
 - Hospitality Cloud
 - Hotels
 - Housing
-- Authentication
+- OAuth
 - Passkeys
 - Reservations
 - RFP
@@ -1989,6 +1989,7 @@ tags:
 - Supplier Network
 - Venues
 - Venue Sourcing
+- Authentication
 token_bound: false
 token_urls:
 - https://api-platform.cvent.com/ea/oauth2/token

@@ -35,11 +35,11 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Food
-- Beverage
-- CPG
+- Beverages
+- Consumer Packaged Goods
 - PLM
-- Supply-Chain
-- Quality-Management
+- Supply Chain
+- Quality Management
 token_bound: false
 token_urls: []
 ---

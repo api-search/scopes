@@ -34,8 +34,7 @@ tags:
 - Travel
 - Flights
 - Price-Tracking
-- Data-Analytics
-- Free-Tool
+- Data Analytics
 token_bound: false
 token_urls: []
 ---

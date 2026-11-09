@@ -104,10 +104,11 @@ tags:
 - IoT
 - Security
 - Webhook
-- Authentication
+- OAuth
 - Schlage
 - Von Duprin
 - ENGAGE
+- Authentication
 token_bound: false
 token_urls:
 - https://account.schlage.com/OAuth2/token

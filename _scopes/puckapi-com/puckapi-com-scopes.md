@@ -75,7 +75,6 @@ tags:
 - Sports
 - Hockey
 - Data
-- API
 - Statistics
 token_bound: false
 token_urls: []

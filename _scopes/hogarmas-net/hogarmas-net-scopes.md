@@ -37,7 +37,7 @@ tags:
 - Chile
 - B2B
 - Marketplace
-- Products
+- Product
 token_bound: false
 token_urls: []
 ---

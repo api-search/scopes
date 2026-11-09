@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Insurance
-- Workers' Compensation
+- Workers Compensation
 - Wearables
 - Safety
 - Technology

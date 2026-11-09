@@ -65,7 +65,7 @@ source_yaml_url: https://artifacts.apis.io/ayushrai-site/scopes/ayushrai-site-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Engineering
 - Consulting
 - Portfolio

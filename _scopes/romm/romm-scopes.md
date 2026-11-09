@@ -348,9 +348,9 @@ source_yaml_url: https://artifacts.apis.io/romm/scopes/romm-scopes.yml
 summary_line: 22 scopes · password
 tags:
 - Company
-- OpenSource
-- RetroGaming
-- MediaManagement
+- Open Source
+- Retro Gaming
+- Media Management
 - Docker
 token_bound: false
 token_urls:

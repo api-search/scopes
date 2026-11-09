@@ -36,8 +36,7 @@ tags:
 - Android
 - Emulator
 - Cloud
-- DeveloperTools
-- API
+- Developer Tools
 token_bound: false
 token_urls: []
 ---

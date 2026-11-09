@@ -61,8 +61,7 @@ tags:
 - Company
 - Finance
 - SEC
-- InsiderTrading
-- API
+- Insider Trading
 token_bound: false
 token_urls: []
 ---

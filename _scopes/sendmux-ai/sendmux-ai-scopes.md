@@ -376,7 +376,7 @@ summary_line: 52 scopes · authorizationCode
 tags:
 - Company
 - Email
-- AI
+- Artificial Intelligence
 - Agents
 - Integration
 token_bound: false

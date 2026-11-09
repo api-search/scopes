@@ -41,10 +41,10 @@ source_yaml_url: https://artifacts.apis.io/computop/scopes/computop-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Payments
-- FinTech
-- E-commerce
+- Fintech
+- E-Commerce
 - Germany
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

@@ -35,8 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Telemetry
 - SDK
-- OpenSource
-- DataEngineering
+- Open Source
+- Data Engineering
 - Mozilla
 token_bound: false
 token_urls: []

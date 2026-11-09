@@ -36,7 +36,7 @@ tags:
 - Fintech
 - Investment
 - Private-Market
-- Accredited-Investors
+- Accredited Investors
 - Platform
 - Company
 token_bound: false

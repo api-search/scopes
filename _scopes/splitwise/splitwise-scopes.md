@@ -258,6 +258,7 @@ tags:
 - Bill Splitting
 - Payments
 - REST API
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

@@ -95,9 +95,9 @@ source_yaml_url: https://artifacts.apis.io/nginx-proxy-manager/scopes/nginx-prox
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- OpenSource
+- Open Source
 - Docker
-- Nginx
+- NGINX
 - Proxy
 - SSL
 token_bound: false

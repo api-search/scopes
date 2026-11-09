@@ -41,10 +41,9 @@ source_yaml_url: https://artifacts.apis.io/tpsclear-co-uk/scopes/tpsclear-co-uk-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Telecommunications
-- UK
+- United Kingdom
 - HubSpot
 - Phone Screening
-- API
 - Compliance
 token_bound: false
 token_urls: []

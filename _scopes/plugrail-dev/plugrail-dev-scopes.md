@@ -35,9 +35,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - MCP
-- Public-Data
+- Public Data
 - Japan
-- AI-Integration
+- AI Integration
 token_bound: false
 token_urls: []
 ---

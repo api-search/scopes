@@ -40,6 +40,7 @@ tags:
 - Agentic Payments
 - Machine Payments Protocol
 - x402
+- OAuth
 - Authentication
 token_bound: false
 token_urls: []

@@ -106,8 +106,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - DePIN
-- DataAPI
-- Crypto
+- Data API
+- Cryptocurrency
 - Telemetry
 - Analytics
 token_bound: false

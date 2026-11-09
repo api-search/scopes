@@ -41,10 +41,10 @@ source_yaml_url: https://artifacts.apis.io/core-think/scopes/core-think-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Neurosymbolic
 - Platform
-- MachineLearning
+- Machine Learning
 token_bound: false
 token_urls: []
 ---

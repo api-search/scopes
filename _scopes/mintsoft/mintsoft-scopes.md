@@ -35,8 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Warehouse
 - Logistics
-- SaaS
-- E-commerce
+- Software-as-a-Service
+- E-Commerce
 - Fulfilment
 - Company
 token_bound: false

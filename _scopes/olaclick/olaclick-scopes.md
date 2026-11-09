@@ -129,9 +129,9 @@ source_yaml_url: https://artifacts.apis.io/olaclick/scopes/olaclick-scopes.yml
 summary_line: 23 scopes
 tags:
 - Restaurant
-- POS
-- AI
-- SaaS
+- Point-of-Sale
+- Artificial Intelligence
+- Software-as-a-Service
 - Delivery
 token_bound: false
 token_urls: []

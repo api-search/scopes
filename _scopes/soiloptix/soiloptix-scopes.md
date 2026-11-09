@@ -120,7 +120,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Agriculture
 - Soil-Analysis
-- Precision-Agriculture
+- Precision Agriculture
 - Mapping
 - Technology
 token_bound: false

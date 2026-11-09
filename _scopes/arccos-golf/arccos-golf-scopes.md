@@ -103,9 +103,10 @@ tags:
 - Geospatial
 - Consumer Hardware
 - Webhook
-- Authentication
+- OAuth
 - MCP
 - E-Commerce
+- Authentication
 token_bound: false
 token_urls:
 - https://api.arccosgolf.com/oauth2/token

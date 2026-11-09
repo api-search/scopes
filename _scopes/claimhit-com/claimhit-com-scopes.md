@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/claimhit-com/scopes/claimhit-com-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Patent
+- Patents
 - Intelligence
-- LegalTech
+- Legal Tech
 - IP
 token_bound: false
 token_urls: []

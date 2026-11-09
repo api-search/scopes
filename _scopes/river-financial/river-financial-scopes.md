@@ -74,6 +74,7 @@ tags:
 - Cryptocurrency
 - Financial Services
 - Banking
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

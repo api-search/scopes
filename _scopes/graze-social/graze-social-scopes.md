@@ -34,8 +34,7 @@ tags:
 - Social
 - FeedBuilder
 - Bluesky
-- API
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

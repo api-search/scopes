@@ -69,10 +69,10 @@ source_yaml_url: https://artifacts.apis.io/appdeploy-ai/scopes/appdeploy-ai-scop
 summary_line: 3 scopes · authorizationCode
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Deployment
 - Platform
-- LowCode
+- Low-Code
 - Automation
 token_bound: false
 token_urls:

@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/junct-dev/scopes/junct-dev-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - MCP
 - API Tools
 - Platform

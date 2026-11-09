@@ -67,6 +67,8 @@ tags:
 - Data Lineage
 - Monitoring
 - AI Observability
+- Data Monitoring
+- GraphQL
 token_bound: false
 token_urls: []
 ---

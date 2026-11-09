@@ -53,9 +53,8 @@ source_yaml_url: https://artifacts.apis.io/ignav-com/scopes/ignav-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Flight
+- Flights
 - Travel
-- API
 - Pricing
 - Data
 token_bound: false

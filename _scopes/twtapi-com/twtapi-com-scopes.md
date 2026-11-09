@@ -82,11 +82,10 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Twitter
 - X
-- API
 - Data
 - Search
 - Monitoring
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

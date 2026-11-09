@@ -243,6 +243,8 @@ tags:
 - Challenger Bank
 - Business Banking
 - Fintech
+- Digital Banking
+- Small Business
 token_bound: false
 token_urls:
 - https://authserver.example/token

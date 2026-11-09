@@ -41,9 +41,9 @@ source_yaml_url: https://artifacts.apis.io/aopx-fr/scopes/aopx-fr-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Search
-- AI
+- Artificial Intelligence
 - Routing
-- Benchmark
+- Benchmarks
 - Evidence
 token_bound: false
 token_urls: []

@@ -41,11 +41,10 @@ source_yaml_url: https://artifacts.apis.io/chorusresearch-io/scopes/chorusresear
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Survey
-- AI
+- Surveys
+- Artificial Intelligence
 - Research
 - MCP
-- API
 - Automation
 token_bound: false
 token_urls: []

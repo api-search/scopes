@@ -36,7 +36,6 @@ tags:
 - SimOps
 - Engineering
 - Simulation
-- Data-driven
 - Connectivity
 token_bound: false
 token_urls: []

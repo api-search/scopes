@@ -35,11 +35,11 @@ source_yaml_url: https://artifacts.apis.io/agentage-io/scopes/agentage-io-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
 - Collaboration
 - Privacy
-- EU-Hosted
+- EU-hosted
 token_bound: false
 token_urls: []
 ---

@@ -34,10 +34,9 @@ source_yaml_url: https://artifacts.apis.io/rowb-app/scopes/rowb-app-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tools
-- Deterministic
-- No-Auth
+- No Auth
 token_bound: false
 token_urls: []
 ---

@@ -119,9 +119,9 @@ source_yaml_url: https://artifacts.apis.io/canarics-com/scopes/canarics-com-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Voice
-- Sales-Intelligence
+- Sales Intelligence
 - Enterprise
 token_bound: false
 token_urls: []

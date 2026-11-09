@@ -41,9 +41,9 @@ source_yaml_url: https://artifacts.apis.io/lnx-net/scopes/lnx-net-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Link-in-bio
+- Link in Bio
 - Creator Tools
-- SaaS
+- Software-as-a-Service
 - Social Media
 - Analytics
 token_bound: false

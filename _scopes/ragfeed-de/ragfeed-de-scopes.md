@@ -34,11 +34,10 @@ source_yaml_url: https://artifacts.apis.io/ragfeed-de/scopes/ragfeed-de-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Web Scraping
-- API
-- AI Data
+- Ai Data
 - EU Hosting
 - Compliance
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

@@ -46,11 +46,10 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/indieml-app/scopes/indieml-app-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- NLP
-- Text-Analysis
-- Machine-Learning
-- API
+- Artificial Intelligence
+- Natural Language Processing
+- Text Analysis
+- Machine Learning
 token_bound: false
 token_urls: []
 ---

@@ -66,9 +66,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Fintech
-- Asset-Backed-Finance
+- Asset-Backed Finance
 - Real-Time
-- API
 token_bound: false
 token_urls: []
 ---

@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Fundraising
 - Mobile
-- Nonprofit
+- Non-Profit
 - P2P
 - Messaging
 token_bound: false

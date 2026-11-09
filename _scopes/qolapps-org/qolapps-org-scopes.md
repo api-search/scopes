@@ -36,8 +36,8 @@ tags:
 - iOS
 - Android
 - Privacy
-- Developer
-- Apps
+- Developers
+- Application
 token_bound: false
 token_urls: []
 ---

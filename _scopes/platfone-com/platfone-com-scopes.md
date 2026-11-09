@@ -73,7 +73,6 @@ tags:
 - Company
 - Telecommunications
 - SMS
-- API
 - Temporary-Numbers
 token_bound: false
 token_urls: []

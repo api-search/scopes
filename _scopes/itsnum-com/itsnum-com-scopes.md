@@ -42,9 +42,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Travel
 - eSIM
-- Telecom
+- Telecommunications
 - Marketplace
-- API
 - Company
 token_bound: false
 token_urls: []

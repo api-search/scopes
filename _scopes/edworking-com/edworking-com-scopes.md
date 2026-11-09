@@ -41,7 +41,7 @@ tags:
 - Collaboration
 - Productivity
 - Workspace
-- AI
+- Artificial Intelligence
 - Task Management
 token_bound: false
 token_urls: []

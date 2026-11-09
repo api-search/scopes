@@ -673,8 +673,7 @@ tags:
 - Veterinary
 - Software
 - Cloud
-- API
-- PracticeManagement
+- Practice Management
 token_bound: false
 token_urls: []
 ---

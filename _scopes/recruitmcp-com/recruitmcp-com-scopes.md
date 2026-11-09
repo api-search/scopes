@@ -89,10 +89,9 @@ source_yaml_url: https://artifacts.apis.io/recruitmcp-com/scopes/recruitmcp-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Recruitment
-- API
+- Recruiting
 - MCP
-- HR
+- Human Resources
 token_bound: false
 token_urls: []
 ---

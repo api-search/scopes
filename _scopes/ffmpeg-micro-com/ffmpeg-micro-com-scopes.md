@@ -77,11 +77,10 @@ source_yaml_url: https://artifacts.apis.io/ffmpeg-micro-com/scopes/ffmpeg-micro-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Video
-- API
 - Automation
 - FFmpeg
 - Cloud
-- MediaProcessing
+- Media Processing
 token_bound: false
 token_urls: []
 ---

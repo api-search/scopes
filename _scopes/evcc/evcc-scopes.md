@@ -101,11 +101,11 @@ source_yaml_url: https://artifacts.apis.io/evcc/scopes/evcc-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- EV
-- SmartCharging
-- OpenSource
-- EnergyManagement
-- HomeAutomation
+- Electric Vehicles
+- Smart Charging
+- Open Source
+- Energy Management
+- Home Automation
 token_bound: false
 token_urls: []
 ---

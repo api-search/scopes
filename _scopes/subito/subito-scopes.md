@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Marketplace
 - Classifieds
-- E-commerce
+- E-Commerce
 - Italy
 - Recommerce
 token_bound: false

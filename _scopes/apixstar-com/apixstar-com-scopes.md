@@ -43,8 +43,7 @@ tags:
 - Company
 - Reddit
 - Data
-- API
-- Developer
+- Developers
 - Analytics
 token_bound: false
 token_urls: []

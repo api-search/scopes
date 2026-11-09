@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Staff Augmentation
 - Nearshore
-- LATAM
+- Latin America
 - Recruiting
 - Startup Advisory
 token_bound: false

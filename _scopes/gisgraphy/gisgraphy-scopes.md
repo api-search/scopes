@@ -43,9 +43,8 @@ tags:
 - Company
 - Geocoding
 - Geolocation
-- OpenSource
+- Open Source
 - Maps
-- API
 token_bound: false
 token_urls: []
 ---

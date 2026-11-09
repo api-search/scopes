@@ -78,8 +78,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Transport
-- API
-- UK
+- United Kingdom
 - Ireland
 token_bound: false
 token_urls: []

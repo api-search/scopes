@@ -36,6 +36,12 @@ api_specs:
   slug: agree-com-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agree-com/openapi/agree-com-webhooks-api-openapi.yml
+- filename: agree-com-subscriptions-api-openapi.yml
+  format: yaml
+  label: Agree.com Subscriptions API
+  slug: agree-com-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agree-com/openapi/agree-com-subscriptions-api-openapi.yml
 authorization_urls: []
 description: Agree.com's OAuth 2.1 authorization server advertises exactly one scope. It governs the hosted MCP server and nothing else - the REST API uses an unscoped bearer API key and has no OAuth surface at all.
 docs: ''

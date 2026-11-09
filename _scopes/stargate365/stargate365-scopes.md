@@ -36,8 +36,7 @@ tags:
 - Company
 - Analytics
 - Data
-- Surf
-- API
+- SURF
 token_bound: false
 token_urls: []
 ---

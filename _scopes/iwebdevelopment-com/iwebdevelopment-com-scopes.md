@@ -36,8 +36,8 @@ tags:
 - Accounting
 - Automation
 - Integration
-- FinTech
-- E-commerce
+- Fintech
+- E-Commerce
 token_bound: false
 token_urls: []
 ---

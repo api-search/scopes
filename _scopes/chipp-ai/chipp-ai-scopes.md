@@ -34,11 +34,11 @@ source_yaml_url: https://artifacts.apis.io/chipp-ai/scopes/chipp-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- SaaS
+- Software-as-a-Service
 - HIPAA
-- SOC2
+- SOC 2
 token_bound: false
 token_urls: []
 ---

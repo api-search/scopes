@@ -188,7 +188,7 @@ tags:
 - Rendering
 - GPU
 - Blender
-- AI
+- Artificial Intelligence
 - Cloud
 token_bound: false
 token_urls: []

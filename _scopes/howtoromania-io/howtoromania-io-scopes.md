@@ -37,7 +37,7 @@ tags:
 - Data
 - Finance
 - Legal
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

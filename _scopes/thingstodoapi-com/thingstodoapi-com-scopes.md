@@ -64,10 +64,9 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/thingstodoapi-com/scopes/thingstodoapi-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Events
+- Event
 - Local
-- API
-- AI
+- Artificial Intelligence
 - JSON
 - MCP
 token_bound: false

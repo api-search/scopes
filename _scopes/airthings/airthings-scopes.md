@@ -121,7 +121,7 @@ source_yaml_url: https://artifacts.apis.io/airthings/scopes/airthings-scopes.yml
 summary_line: 2 scopes · authorizationCode/clientCredentials
 tags:
 - Company
-- AirQuality
+- Air Quality
 - Radon
 - Sensors
 - IoT

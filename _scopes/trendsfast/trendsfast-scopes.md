@@ -58,11 +58,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://trendsf
 source_yaml_url: https://artifacts.apis.io/trendsfast/scopes/trendsfast-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- API
 - Trends
-- SocialMedia
+- Social Media
 - Search
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

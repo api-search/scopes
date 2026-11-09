@@ -58,10 +58,10 @@ source_yaml: "generated: '2026-10-28'\nmethod: searched\nsource: https://docs.he
 source_yaml_url: https://artifacts.apis.io/heymarvin/scopes/heymarvin-scopes.yml
 summary_line: 6 scopes
 tags:
-- AI
-- CustomerInsights
+- Artificial Intelligence
+- Customer Insights
 - Analytics
-- SaaS
+- Software-as-a-Service
 - Platform
 token_bound: false
 token_urls: []

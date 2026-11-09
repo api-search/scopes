@@ -61,7 +61,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Advertising
-- AI
+- Artificial Intelligence
 - Marketing
 - Automation
 token_bound: false

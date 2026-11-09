@@ -190,8 +190,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Grants
-- SaaS
-- Nonprofit
+- Software-as-a-Service
+- Non-Profit
 - Funding
 token_bound: false
 token_urls: []

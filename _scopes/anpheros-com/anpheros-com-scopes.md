@@ -161,10 +161,9 @@ source_yaml_url: https://artifacts.apis.io/anpheros-com/scopes/anpheros-com-scop
 summary_line: 11 scopes · authorizationCode/clientCredentials
 tags:
 - Health
-- Digital-Health
+- Digital Health
 - FHIR
-- Medical-Records
-- API
+- Medical Records
 token_bound: false
 token_urls:
 - https://platform.anpheros.com/oauth/token

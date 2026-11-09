@@ -131,8 +131,7 @@ source_yaml_url: https://artifacts.apis.io/pricklymails-com/scopes/pricklymails-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Email Verification
-- API
-- SaaS
+- Software-as-a-Service
 - Data Validation
 - EU-hosted
 token_bound: false

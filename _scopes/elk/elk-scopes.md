@@ -39,6 +39,7 @@ tags:
 - Social Media
 - Web-Client
 - Progressive Web App
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

@@ -122,7 +122,7 @@ tags:
 - Payments
 - Blockchain
 - Web3
-- API-Marketplace
+- API Marketplace
 - USDC
 token_bound: false
 token_urls: []

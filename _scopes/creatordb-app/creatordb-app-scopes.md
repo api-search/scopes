@@ -73,7 +73,6 @@ tags:
 - Company
 - Creator Data
 - Influencer Marketing
-- API
 - Analytics
 - Asia
 token_bound: false

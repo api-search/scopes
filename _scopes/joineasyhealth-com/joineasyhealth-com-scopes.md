@@ -35,8 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Health
 - Healthcare
-- API
-- SaaS
+- Software-as-a-Service
 - Insurance
 token_bound: false
 token_urls: []

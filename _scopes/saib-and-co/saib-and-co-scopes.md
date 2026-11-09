@@ -76,6 +76,7 @@ tags:
 - Wellness
 - Retail
 - Cafe24
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

@@ -124,10 +124,9 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/bol-com/scopes/bol-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- e-commerce
-- retail
-- marketplace
-- API
+- E-Commerce
+- Retail
+- Marketplace
 - Netherlands
 token_bound: false
 token_urls: []

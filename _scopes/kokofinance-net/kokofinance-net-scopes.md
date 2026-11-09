@@ -84,8 +84,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Fintech
-- Credit-Card
-- API
+- Credit Cards
 - MCP
 token_bound: false
 token_urls: []

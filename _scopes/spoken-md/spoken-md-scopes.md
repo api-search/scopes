@@ -1,53 +1,17 @@
 ---
 api_specs:
-- filename: spoken-md-balance-api-openapi.yml
-  format: yaml
-  label: spoken-md Balance API
-  slug: spoken-md-balance-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-balance-api-openapi.yml
-- filename: spoken-md-buy-api-openapi.yml
-  format: yaml
-  label: spoken-md Buy API
-  slug: spoken-md-buy-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-buy-api-openapi.yml
-- filename: spoken-md-following-api-openapi.yml
-  format: yaml
-  label: spoken-md Following API
-  slug: spoken-md-following-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-following-api-openapi.yml
-- filename: spoken-md-new-api-openapi.yml
-  format: yaml
-  label: spoken-md New API
-  slug: spoken-md-new-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-new-api-openapi.yml
-- filename: spoken-md-podcasts-api-openapi.yml
-  format: yaml
-  label: spoken-md Podcasts API
-  slug: spoken-md-podcasts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-podcasts-api-openapi.yml
-- filename: spoken-md-search-api-openapi.yml
-  format: yaml
-  label: spoken-md Search API
-  slug: spoken-md-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-search-api-openapi.yml
-- filename: spoken-md-top-up-api-openapi.yml
-  format: yaml
-  label: spoken-md Top Up API
-  slug: spoken-md-top-up-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-top-up-api-openapi.yml
 - filename: spoken-md-transcripts-api-openapi.yml
   format: yaml
-  label: spoken-md Transcripts API
-  slug: spoken-md-transcripts-api
+  label: Podcast Transcripts API
+  slug: podcast-transcripts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-transcripts-api-openapi.yml
+- filename: spoken-md-well-known-openapi.json
+  format: json
+  label: Podcast Transcripts API .well-known API
+  slug: podcast-transcripts-api-well-known-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/spoken-md/openapi/_original/spoken-md-well-known-openapi.json
 authorization_urls: []
 description: ''
 docs: ''
@@ -76,12 +40,10 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://spoken.
 source_yaml_url: https://artifacts.apis.io/spoken-md/scopes/spoken-md-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Company
-- API
-- Podcast
+- Podcasts
 - Transcripts
-- AI
-- Audio
+- Markdown
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

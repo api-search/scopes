@@ -44,8 +44,7 @@ tags:
 - Social
 - Solana
 - Protocol
-- API
-- Developer
+- Developers
 token_bound: false
 token_urls: []
 ---

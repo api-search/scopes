@@ -89,11 +89,11 @@ source_yaml_url: https://artifacts.apis.io/pyungyo-com/scopes/pyungyo-com-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- telecom
-- mobile
-- Korea
-- price-comparison
-- open-api
+- Telecommunications
+- Mobile
+- South Korea
+- Price Comparison
+- OpenAPI
 token_bound: false
 token_urls: []
 ---

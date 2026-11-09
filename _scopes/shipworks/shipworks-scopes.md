@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/shipworks/scopes/shipworks-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Shipping
-- E-commerce
+- E-Commerce
 - Logistics
 - Software
 - Integration

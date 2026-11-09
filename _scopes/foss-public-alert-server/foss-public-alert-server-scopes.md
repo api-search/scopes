@@ -42,7 +42,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Alert
-- OpenSource
+- Open Source
 - Monitoring
 - Public
 token_bound: false

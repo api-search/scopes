@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - API Monitoring
 - AI Integration
-- SaaS
+- Software-as-a-Service
 - Alerts
 - Developer Tools
 token_bound: false

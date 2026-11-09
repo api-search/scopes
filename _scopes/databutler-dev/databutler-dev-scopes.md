@@ -42,7 +42,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Data
-- API
 - Tax
 - Reference
 token_bound: false

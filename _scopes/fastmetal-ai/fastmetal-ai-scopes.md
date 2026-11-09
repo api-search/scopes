@@ -53,8 +53,7 @@ source_yaml_url: https://artifacts.apis.io/fastmetal-ai/scopes/fastmetal-ai-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- API
+- Artificial Intelligence
 - Platform
 - Cloud
 token_bound: false

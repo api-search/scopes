@@ -170,11 +170,11 @@ source_yaml_url: https://artifacts.apis.io/rendobar-com/scopes/rendobar-com-scop
 summary_line: 14 scopes
 tags:
 - Company
-- VideoProcessing
+- Video Processing
 - FFmpeg
-- AI
+- Artificial Intelligence
 - Serverless
-- MediaAPI
+- Media API
 token_bound: false
 token_urls: []
 ---

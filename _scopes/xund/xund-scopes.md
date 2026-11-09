@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/xund/scopes/xund-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Health
-- AI
+- Artificial Intelligence
 - Healthcare
 - Diagnostics
-- Risk-Assessment
+- Risk Assessment
 token_bound: false
 token_urls: []
 ---

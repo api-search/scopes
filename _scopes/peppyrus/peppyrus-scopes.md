@@ -36,11 +36,9 @@ source_yaml_url: https://artifacts.apis.io/peppyrus/scopes/peppyrus-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Peppol
-- E‑invoicing
-- API
+- PEPPOL
+- E-Invoicing
 - Free
-- Developer-friendly
 token_bound: false
 token_urls: []
 ---

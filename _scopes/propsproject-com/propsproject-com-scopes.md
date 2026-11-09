@@ -35,10 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Asset Management
-- API
-- Startup
+- Startups
 - Inventory
-- Developer Friendly
 token_bound: false
 token_urls: []
 ---

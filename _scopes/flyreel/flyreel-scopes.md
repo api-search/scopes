@@ -54,8 +54,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Insurance
-- Risk
-- API
+- Risk Management
 - Data
 - Analytics
 token_bound: false

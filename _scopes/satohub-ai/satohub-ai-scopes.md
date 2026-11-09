@@ -161,10 +161,10 @@ source_yaml_url: https://artifacts.apis.io/satohub-ai/scopes/satohub-ai-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Blockchain
-- Crypto
-- Agent
+- Cryptocurrency
+- Agents
 token_bound: false
 token_urls: []
 ---

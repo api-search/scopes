@@ -42,8 +42,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Instagram
 - Search
-- Enrichment
-- API
+- Data Enrichment
 - Social Media
 token_bound: false
 token_urls: []

@@ -12,6 +12,12 @@ api_specs:
   slug: microsoft-azure-signalr-signalr-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-signalr-api-openapi.yml
+- filename: microsoft-azure-signalr-general-api-openapi.yml
+  format: yaml
+  label: Azure SignalR Service General API
+  slug: microsoft-azure-signalr-general-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-general-api-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -36,6 +42,18 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
+  source: openapi/microsoft-azure-signalr-operations-api-openapi.yml
+- description: Azure Active Directory OAuth2 Flow
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/microsoft-azure-signalr-signalr-api-openapi.yml
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
   source: openapi/microsoft-azure-signalr-openapi.yml
 scope_count: 1
 scope_names:
@@ -49,7 +67,8 @@ slug: microsoft-azure-signalr-scopes
 source_filename: microsoft-azure-signalr-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-signalr-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-signalr-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-signalr-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-signalr-openapi.yml, openapi/microsoft-azure-signalr-operations-api-openapi.yml,\n  openapi/microsoft-azure-signalr-signalr-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-signalr-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-signalr-signalr-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow\n- name: azure_auth\n  source: openapi/microsoft-azure-signalr-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n\
+  \  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-signalr-openapi.yml\n  - openapi/microsoft-azure-signalr-operations-api-openapi.yml\n  - openapi/microsoft-azure-signalr-signalr-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-signalr/scopes/microsoft-azure-signalr-scopes.yml
 summary_line: 1 scope · implicit
 tags:

@@ -34,10 +34,9 @@ source_yaml_url: https://artifacts.apis.io/songbrain-ai/scopes/songbrain-ai-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Music
 - Video
-- API
 token_bound: false
 token_urls: []
 ---

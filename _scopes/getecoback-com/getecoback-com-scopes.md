@@ -35,9 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Energy
-- Home
+- Homes
 - Climate
-- Advice
 - Savings
 token_bound: false
 token_urls: []

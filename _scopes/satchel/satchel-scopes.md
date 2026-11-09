@@ -36,10 +36,10 @@ tags:
 - Company
 - Education
 - EdTech
-- SaaS
-- LearningPlatform
+- Software-as-a-Service
+- Learning Platform
 - HomeworkManagement
-- UK
+- United Kingdom
 token_bound: false
 token_urls: []
 ---

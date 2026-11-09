@@ -41,10 +41,10 @@ source_yaml_url: https://artifacts.apis.io/blacklabeltec-com/scopes/blacklabelte
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Software
-- AI
+- Artificial Intelligence
 - Automation
 - Cybersecurity
-- CustomSoftware
+- Custom Software
 token_bound: false
 token_urls: []
 ---

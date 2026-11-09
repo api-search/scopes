@@ -155,8 +155,7 @@ source_yaml_url: https://artifacts.apis.io/fatheron-dev/scopes/fatheron-dev-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Platform
-- API
-- DeveloperTools
+- Developer Tools
 - Identity
 - Mail
 token_bound: false

@@ -143,9 +143,9 @@ source_yaml_url: https://artifacts.apis.io/bithuman-ai/scopes/bithuman-ai-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Avatar
-- Real-time
+- Artificial Intelligence
+- Avatars
+- Real-Time
 - Platform
 token_bound: false
 token_urls: []

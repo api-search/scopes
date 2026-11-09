@@ -35,8 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - PDF
 - Analytics
-- API
-- SaaS
+- Software-as-a-Service
 - Engagement
 token_bound: false
 token_urls: []

@@ -76,10 +76,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/api-stock-com/scopes/api-stock-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Machine Learning
 - LLM
-- API
 - Platform
 token_bound: false
 token_urls: []

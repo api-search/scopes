@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: https://tweetapi.
 source_yaml_url: https://artifacts.apis.io/tweetapi/scopes/tweetapi-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- twitter
+- Twitter
 - X
 - Social Media
 - Social Data
@@ -63,7 +63,7 @@ tags:
 - Developer Tools
 - MCP
 - Agent-Native
-- llms-txt
+- Llms.txt
 - REST API
 token_bound: false
 token_urls:

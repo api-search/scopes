@@ -89,10 +89,10 @@ source_yaml_url: https://artifacts.apis.io/gatherhq-com/scopes/gatherhq-com-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Buyer-Intelligence
-- Market-Research
+- Buyer Intelligence
+- Market Research
 - GTM-Tools
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

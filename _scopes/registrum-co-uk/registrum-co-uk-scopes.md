@@ -42,8 +42,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Companies House
 - Financial Data
-- JSON API
-- UK
+- JSON:API
+- United Kingdom
 - Business Intelligence
 token_bound: false
 token_urls: []

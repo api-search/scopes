@@ -33,9 +33,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/hugo-team/scopes/hugo-team-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- Customer Support
-- SaaS
+- Artificial Intelligence
+- Customer Service
+- Software-as-a-Service
 - Automation
 - Enterprise
 token_bound: false

@@ -41,11 +41,10 @@ source_yaml_url: https://artifacts.apis.io/pingfyr-com/scopes/pingfyr-com-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
 - Scheduling
-- Notifications
-- Webhooks
-- AI
+- Notification
+- Webhook
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

@@ -1446,6 +1446,7 @@ tags:
 - Cedar
 - FIDO2
 - Identities
+- OAuth
 - Open Source
 - OpenID Connect
 - SCIM

@@ -36,7 +36,7 @@ tags:
 - Company
 - Elevation
 - Geospatial
-- Open-Source
+- Open Source
 - Free
 token_bound: false
 token_urls: []

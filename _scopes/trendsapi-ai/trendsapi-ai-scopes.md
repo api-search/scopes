@@ -44,7 +44,6 @@ tags:
 - Data
 - Trends
 - Analytics
-- API
 - Marketing
 token_bound: false
 token_urls: []

@@ -281,7 +281,7 @@ source_yaml_url: https://artifacts.apis.io/repowise-dev/scopes/repowise-dev-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Code Intelligence
-- AI
+- Artificial Intelligence
 - Open Source
 - Developer Tools
 - MCP

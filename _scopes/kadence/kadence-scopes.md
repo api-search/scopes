@@ -118,6 +118,7 @@ tags:
 - Visitor Management
 - Workplace Analytics
 - Facilities
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

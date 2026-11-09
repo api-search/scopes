@@ -117,9 +117,8 @@ source_yaml_url: https://artifacts.apis.io/recallsapi-com/scopes/recallsapi-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
 - Recall
-- E-commerce
+- E-Commerce
 - Safety
 - US-Agencies
 token_bound: false

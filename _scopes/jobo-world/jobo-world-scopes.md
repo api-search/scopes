@@ -41,8 +41,7 @@ source_yaml_url: https://artifacts.apis.io/jobo-world/scopes/jobo-world-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Job Data
-- API
-- Recruitment
+- Recruiting
 - Platform
 - Data Infrastructure
 token_bound: false

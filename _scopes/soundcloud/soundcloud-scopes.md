@@ -83,9 +83,10 @@ tags:
 - Music
 - Streaming
 - Audio
-- Authentication
+- OAuth
 - Tracks
 - Playlists
+- Authentication
 token_bound: false
 token_urls:
 - https://secure.soundcloud.com/oauth/token

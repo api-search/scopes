@@ -83,11 +83,11 @@ source_yaml_url: https://artifacts.apis.io/shlink/scopes/shlink-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- URL-Shortener
+- URL Shorteners
 - PHP
 - Self-Hosted
-- Open-Source
-- REST-API
+- Open Source
+- REST API
 token_bound: false
 token_urls: []
 ---

@@ -61,8 +61,8 @@ tags:
 - Standards
 - Certification
 - Interoperability
-- Digital-Twin
-- Data-Exchange
+- Digital Twin
+- Data Exchange
 token_bound: false
 token_urls: []
 ---

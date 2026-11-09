@@ -54,9 +54,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Email
 - Verification
-- API
-- SaaS
-- DataQuality
+- Software-as-a-Service
+- Data Quality
 token_bound: false
 token_urls: []
 ---

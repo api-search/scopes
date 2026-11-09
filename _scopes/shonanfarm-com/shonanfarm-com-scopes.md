@@ -34,9 +34,6 @@ source_yaml_url: https://artifacts.apis.io/shonanfarm-com/scopes/shonanfarm-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Stub
-- Unknown
-- API
 - Placeholder
 token_bound: false
 token_urls: []

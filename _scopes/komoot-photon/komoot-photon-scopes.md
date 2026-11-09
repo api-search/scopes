@@ -33,12 +33,12 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/komoot-photon/scopes/komoot-photon-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- geocoding
-- openstreetmap
-- search
-- typeahead
-- open-source
-- location
+- Geocoding
+- OpenStreetMap
+- Search
+- Typeahead
+- Open Source
+- Location
 token_bound: false
 token_urls: []
 ---

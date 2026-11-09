@@ -47,10 +47,9 @@ source_yaml_url: https://artifacts.apis.io/poof-bg/scopes/poof-bg-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
-- BackgroundRemoval
-- ImageProcessing
-- VideoProcessing
+- Background Removal
+- Image Processing
+- Video Processing
 token_bound: false
 token_urls: []
 ---

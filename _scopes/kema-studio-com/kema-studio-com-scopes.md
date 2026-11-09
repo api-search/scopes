@@ -35,9 +35,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Software
 - Management
-- AI
+- Artificial Intelligence
 - Portugal
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

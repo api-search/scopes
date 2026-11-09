@@ -37,7 +37,7 @@ tags:
 - Hosting
 - Business
 - Germany
-- Provider
+- Providers
 token_bound: false
 token_urls: []
 ---

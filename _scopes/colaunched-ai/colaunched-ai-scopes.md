@@ -35,9 +35,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Business
-- Startup
+- Startups
 - Idea-Generation
-- Market-Research
+- Market Research
 token_bound: false
 token_urls: []
 ---

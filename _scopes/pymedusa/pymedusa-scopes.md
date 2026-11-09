@@ -37,7 +37,7 @@ tags:
 - TV
 - Media
 - Automation
-- OpenSource
+- Open Source
 - Python
 token_bound: false
 token_urls: []

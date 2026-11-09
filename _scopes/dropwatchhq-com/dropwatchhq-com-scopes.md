@@ -37,7 +37,7 @@ tags:
 - Collectibles
 - Alerts
 - Restock
-- E-commerce
+- E-Commerce
 - Community
 token_bound: false
 token_urls: []

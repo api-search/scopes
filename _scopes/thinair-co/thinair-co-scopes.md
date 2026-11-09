@@ -113,11 +113,10 @@ source_yaml_url: https://artifacts.apis.io/thinair-co/scopes/thinair-co-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- fleet-management
-- telematics
-- logistics
-- compliance
-- API
+- Fleet Management
+- Telematics
+- Logistics
+- Compliance
 token_bound: false
 token_urls: []
 ---

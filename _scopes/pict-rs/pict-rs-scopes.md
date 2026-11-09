@@ -36,8 +36,7 @@ tags:
 - Image Hosting
 - Rust
 - Open Source
-- API
-- Self-hosted
+- Self-Hosted
 token_bound: false
 token_urls: []
 ---

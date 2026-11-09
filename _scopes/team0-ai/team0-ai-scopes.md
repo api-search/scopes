@@ -28,9 +28,9 @@ source_yaml_url: https://artifacts.apis.io/team0-ai/scopes/team0-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Enterprise
-- KnowledgeManagement
+- Knowledge Management
 - Automation
 token_bound: false
 token_urls: []

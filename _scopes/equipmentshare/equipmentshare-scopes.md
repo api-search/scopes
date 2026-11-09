@@ -58,6 +58,7 @@ tags:
 - Equipment Rental
 - GraphQL
 - Developer Platform
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

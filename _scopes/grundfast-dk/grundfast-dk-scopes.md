@@ -34,9 +34,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://grundfa
 source_yaml_url: https://artifacts.apis.io/grundfast-dk/scopes/grundfast-dk-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- RealEstate
+- Real Estate
 - Geodata
-- API
 - Denmark
 - Compatibility
 token_bound: false

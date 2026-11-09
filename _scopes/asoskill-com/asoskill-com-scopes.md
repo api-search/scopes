@@ -88,8 +88,7 @@ summary_line: 2 scopes · authorizationCode
 tags:
 - Company
 - ASO
-- AppStore
-- API
+- App Store
 - Data
 token_bound: false
 token_urls:

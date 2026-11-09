@@ -40,7 +40,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Email Verification
-- API
 - Data Validation
 - Deliverability
 - Bulk

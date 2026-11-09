@@ -137,8 +137,9 @@ tags:
 - token-data
 - NFT
 - Ethereum
-- Authentication
+- OAuth
 - Market Data
+- Authentication
 token_bound: false
 token_urls:
 - https://api.connect.debank.com/oauth/token

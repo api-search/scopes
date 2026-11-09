@@ -137,9 +137,9 @@ source_yaml_url: https://artifacts.apis.io/broadcastwell-com/scopes/broadcastwel
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AnswerOperations
-- SaaS
+- Software-as-a-Service
 - Marketing
 token_bound: false
 token_urls: []

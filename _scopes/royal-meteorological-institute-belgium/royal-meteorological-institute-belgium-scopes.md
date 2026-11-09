@@ -37,7 +37,7 @@ tags:
 - Climate
 - Meteorology
 - Belgium
-- PublicSector
+- Public Sector
 token_bound: false
 token_urls: []
 ---

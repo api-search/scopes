@@ -58,7 +58,6 @@ tags:
 - Cloud Computing
 - Media
 - Publishing
-- Bilingual
 token_bound: false
 token_urls:
 - https://newtqnia.com/oauth/token

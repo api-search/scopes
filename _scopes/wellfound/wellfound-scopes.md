@@ -40,8 +40,9 @@ tags:
 - Startups
 - MCP
 - Agent-Native
-- Authentication
+- OAuth
 - AI Sourcing
+- Authentication
 token_bound: false
 token_urls: []
 ---

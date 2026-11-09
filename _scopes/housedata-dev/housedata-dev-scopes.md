@@ -40,9 +40,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/housedata-dev/scopes/housedata-dev-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- RealEstate
+- Real Estate
 - Zillow
-- DataAPI
+- Data API
 - US
 - Property
 token_bound: false

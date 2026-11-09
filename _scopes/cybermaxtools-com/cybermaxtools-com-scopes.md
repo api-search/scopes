@@ -41,8 +41,8 @@ source_yaml_url: https://artifacts.apis.io/cybermaxtools-com/scopes/cybermaxtool
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Games
-- AI
-- Data APIs
+- Artificial Intelligence
+- Data API
 - Creator Kits
 - Marketplace
 token_bound: false

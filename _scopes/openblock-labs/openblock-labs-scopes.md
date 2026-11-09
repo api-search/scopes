@@ -50,9 +50,10 @@ tags:
 - AI Agents
 - Developer Tools
 - Automation
-- Authentication
+- OAuth
 - MCP
 - Identity Federation
+- Authentication
 token_bound: false
 token_urls: []
 ---

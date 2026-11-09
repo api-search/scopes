@@ -35,8 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - MCP
 - Transit
-- Open-Data
-- AI-Tools
+- Open Data
+- AI Tools
 - City-Data
 - Company
 token_bound: false

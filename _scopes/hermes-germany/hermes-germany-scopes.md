@@ -36,7 +36,7 @@ tags:
 - Logistics
 - Shipping
 - Parcel
-- E‑commerce
+- E-Commerce
 - Germany
 token_bound: false
 token_urls: []

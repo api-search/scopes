@@ -722,8 +722,8 @@ tags:
 - Data
 - Analytics
 - Automation
-- Dashboard
-- AI
+- Dashboards
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

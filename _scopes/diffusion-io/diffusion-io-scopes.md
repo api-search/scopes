@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Enterprise
 - SoftwareFactory
-- AI
+- Artificial Intelligence
 - Automation
 - Platform
 token_bound: false

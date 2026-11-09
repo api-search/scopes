@@ -71,9 +71,8 @@ source_yaml_url: https://artifacts.apis.io/hasdata-com/scopes/hasdata-com-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Web Scraping
-- Data Pipelines
-- AI
-- API
+- Data Pipeline
+- Artificial Intelligence
 - Automation
 token_bound: false
 token_urls: []

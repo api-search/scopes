@@ -66,11 +66,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - PDF
-- API
-- DocumentGeneration
-- SaaS
-- DeveloperFriendly
-- AI
+- Document Generation
+- Software-as-a-Service
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

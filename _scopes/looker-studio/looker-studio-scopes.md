@@ -94,7 +94,14 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
-  source: openapi/looker-studio-api-openapi.yml
+  source: openapi/looker-studio-assets-api-openapi.yml
+- description: OAuth 2.0 authentication with domain-wide delegation. Requires Google Workspace or Cloud Identity organization.
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  source: openapi/looker-studio-permissions-api-openapi.yml
 scope_count: 3
 scope_names:
 - https://www.googleapis.com/auth/datastudio
@@ -117,8 +124,8 @@ slug: looker-studio-scopes
 source_filename: looker-studio-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/looker-studio-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/looker-studio-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication with domain-wide delegation. Requires Google Workspace\n    or Cloud Identity organization.\nscopes:\n- scope: https://www.googleapis.com/auth/datastudio\n  description: Full access to manage Looker Studio assets and permissions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/looker-studio-api-openapi.yml\n- scope: https://www.googleapis.com/auth/datastudio.readonly\n  description: Read-only access to Looker Studio assets.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/looker-studio-api-openapi.yml\n- scope: https://www.googleapis.com/auth/userinfo.profile\n  description: Access to user profile information.\n\
-  \  flows:\n  - authorizationCode\n  sources:\n  - openapi/looker-studio-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/looker-studio-assets-api-openapi.yml, openapi/looker-studio-permissions-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/looker-studio-assets-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication with domain-wide delegation. Requires Google Workspace\n    or Cloud Identity organization.\n- name: oauth2\n  source: openapi/looker-studio-permissions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication with domain-wide delegation. Requires Google Workspace\n    or Cloud Identity organization.\nscopes:\n- scope: https://www.googleapis.com/auth/datastudio\n  description: Full access to manage Looker\
+  \ Studio assets and permissions.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/looker-studio-assets-api-openapi.yml\n  - openapi/looker-studio-permissions-api-openapi.yml\n- scope: https://www.googleapis.com/auth/datastudio.readonly\n  description: Read-only access to Looker Studio assets.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/looker-studio-assets-api-openapi.yml\n  - openapi/looker-studio-permissions-api-openapi.yml\n- scope: https://www.googleapis.com/auth/userinfo.profile\n  description: Access to user profile information.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/looker-studio-assets-api-openapi.yml\n  - openapi/looker-studio-permissions-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/looker-studio/scopes/looker-studio-scopes.yml
 summary_line: 3 scopes · authorizationCode
 tags:

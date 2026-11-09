@@ -120,8 +120,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Accounting
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 - Ledger
 token_bound: false
 token_urls: []

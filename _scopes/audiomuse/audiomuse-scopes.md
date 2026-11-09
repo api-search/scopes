@@ -34,11 +34,11 @@ source_yaml_url: https://artifacts.apis.io/audiomuse/scopes/audiomuse-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Music
-- AI
-- OpenSource
+- Artificial Intelligence
+- Open Source
 - Self-Hosted
 - Playlist
-- AudioAnalysis
+- Audio Analysis
 token_bound: false
 token_urls: []
 ---

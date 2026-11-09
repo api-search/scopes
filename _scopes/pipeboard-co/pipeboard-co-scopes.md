@@ -42,7 +42,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Advertising
 - Marketing
-- AI
+- Artificial Intelligence
 - Automation
 - MCP
 token_bound: false

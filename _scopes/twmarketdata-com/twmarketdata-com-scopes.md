@@ -62,7 +62,6 @@ tags:
 - Finance
 - Market Data
 - Taiwan
-- API
 token_bound: false
 token_urls: []
 ---

@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/elliat-nl/scopes/elliat-nl-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Developer
+- Developers
 - JavaScript
 - XML
 - Fonto

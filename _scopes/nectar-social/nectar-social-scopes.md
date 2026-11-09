@@ -150,6 +150,7 @@ tags:
 - Social Commerce
 - MCP
 - Agents
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

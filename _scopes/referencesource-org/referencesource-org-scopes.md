@@ -36,8 +36,7 @@ tags:
 - Data
 - Catalog
 - Reference
-- OpenData
-- API
+- Open Data
 token_bound: false
 token_urls: []
 ---

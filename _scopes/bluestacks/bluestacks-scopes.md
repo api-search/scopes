@@ -74,6 +74,7 @@ tags:
 - Developer Platform
 - App Distribution
 - Advertising
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

@@ -148,8 +148,8 @@ source_yaml_url: https://artifacts.apis.io/studiomeyer-io/scopes/studiomeyer-io-
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- AI
-- Web-Design
+- Artificial Intelligence
+- Web Design
 - MCP
 - Mallorca
 token_bound: false

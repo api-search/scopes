@@ -163,8 +163,9 @@ tags:
 - Visitor Management
 - IoT
 - smart-locks
-- Authentication
+- OAuth
 - Webhook
+- Authentication
 token_bound: false
 token_urls:
 - https://accounts.butterflymx.com/oauth/token

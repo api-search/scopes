@@ -148,6 +148,7 @@ tags:
 - Real-Time
 - Streaming
 - WebSocket
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

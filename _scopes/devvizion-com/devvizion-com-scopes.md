@@ -36,7 +36,7 @@ tags:
 - Company
 - Freelance
 - Web Development
-- Developer
+- Developers
 - Portfolio
 token_bound: false
 token_urls: []

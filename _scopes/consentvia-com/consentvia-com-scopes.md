@@ -36,8 +36,8 @@ tags:
 - Company
 - Planning
 - Worksheets
-- UK
-- PublicSector
+- United Kingdom
+- Public Sector
 - Tools
 token_bound: false
 token_urls: []

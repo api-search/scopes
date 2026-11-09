@@ -61,7 +61,6 @@ tags:
 - Sports
 - MMA
 - Data
-- API
 - Odds
 token_bound: false
 token_urls: []

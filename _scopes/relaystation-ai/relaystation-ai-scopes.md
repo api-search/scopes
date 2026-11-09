@@ -41,9 +41,9 @@ source_yaml_url: https://artifacts.apis.io/relaystation-ai/scopes/relaystation-a
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data-Relay
-- Real-time
+- Real-Time
 - Cloud
 token_bound: false
 token_urls: []

@@ -104,7 +104,6 @@ tags:
 - Weather
 - Data
 - Forecasting
-- API
 - Climate
 token_bound: false
 token_urls: []

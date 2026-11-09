@@ -195,12 +195,13 @@ tags:
 - Healthcare
 - Hospital System
 - MyChart
-- Authentication
+- OAuth
 - Patient Access
 - Provider Directory
 - SMART on FHIR
 - US Core
 - USCDI
+- Authentication
 token_bound: false
 token_urls:
 - https://fhir.jefferson.edu/FHIRProxy/oauth2/token

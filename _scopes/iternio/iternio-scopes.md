@@ -28,9 +28,8 @@ source_yaml_url: https://artifacts.apis.io/iternio/scopes/iternio-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- EV
+- Electric Vehicles
 - Routing
-- API
 - Transportation
 token_bound: false
 token_urls: []

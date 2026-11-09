@@ -70,7 +70,7 @@ tags:
 - GDPR
 - OpenAPI
 - MCP
-- llms-txt
+- Llms.txt
 - EU-hosted
 token_bound: false
 token_urls: []

@@ -42,8 +42,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - MobileSimulation
-- DeveloperTools
-- AI
+- Developer Tools
+- Artificial Intelligence
 - DeviceEmulation
 token_bound: false
 token_urls: []

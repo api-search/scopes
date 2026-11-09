@@ -34,11 +34,11 @@ source_yaml_url: https://artifacts.apis.io/ottobot-agency/scopes/ottobot-agency-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- WebDesign
+- Web Design
 - SEO
-- ContractorTools
-- ManagedServices
-- LocalMarketing
+- Contractor tools
+- Managed Service
+- Local Marketing
 token_bound: false
 token_urls: []
 ---

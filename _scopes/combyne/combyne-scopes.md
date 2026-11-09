@@ -34,7 +34,7 @@ tags:
 - Agriculture
 - Grain
 - Farming
-- SaaS
+- Software-as-a-Service
 - AgTech
 token_bound: false
 token_urls: []

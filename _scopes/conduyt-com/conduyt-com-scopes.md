@@ -654,8 +654,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - CRM
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Sales
 token_bound: false
 token_urls: []

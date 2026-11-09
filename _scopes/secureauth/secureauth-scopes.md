@@ -999,6 +999,7 @@ tags:
 - Identity
 - Authentication
 - Authorization
+- OAuth
 - Open Banking
 token_bound: false
 token_urls:

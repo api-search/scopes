@@ -9,12 +9,12 @@ api_specs:
 authorization_urls:
 - https://accounts.google.com/o/oauth2/auth
 description: ''
-docs: ''
+docs: https://developers.google.com/workspace/docs/api/auth
 flows:
 - authorizationCode
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Google Docs Scopes
 name_suffix: OAuth Scopes
 note: ''
@@ -67,8 +67,9 @@ slug: google-docs-scopes
 source_filename: google-docs-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-docs-api-v1-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-docs-api-v1-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for Google APIs.\nscopes:\n- scope: https://www.googleapis.com/auth/documents\n  description: View and manage your Google Docs documents\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n- scope: https://www.googleapis.com/auth/documents.readonly\n  description: View your Google Docs documents\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n- scope: https://www.googleapis.com/auth/drive\n  description: See, edit, create, and delete all of your Google Drive files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n\
-  - scope: https://www.googleapis.com/auth/drive.file\n  description: View and manage Google Drive files and folders that you have opened or created\n    with this app\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.readonly\n  description: See and download all your Google Drive files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: searched\nsource: https://developers.google.com/workspace/docs/api/auth\nschemes:\n- name: oauth2\n  source: openapi/google-docs-api-v1-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for Google APIs.\nscopes:\n- scope: https://www.googleapis.com/auth/documents\n  description: View and manage your Google Docs documents\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n  - https://developers.google.com/workspace/docs/api/auth\n  docs_description: See, edit, create, and delete all your Google Docs documents.\n  sensitivity: Sensitive\n- scope: https://www.googleapis.com/auth/documents.readonly\n  description: View your Google Docs documents\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n  - https://developers.google.com/workspace/docs/api/auth\n\
+  \  docs_description: See all your Google Docs documents.\n  sensitivity: Sensitive\n- scope: https://www.googleapis.com/auth/drive\n  description: See, edit, create, and delete all of your Google Drive files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n  - https://developers.google.com/workspace/docs/api/auth\n  docs_description: See, edit, create, and delete all of your Google Drive files.\n  sensitivity: Restricted\n- scope: https://www.googleapis.com/auth/drive.file\n  description: View and manage Google Drive files and folders that you have opened\n    or created with this app\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n  - https://developers.google.com/workspace/docs/api/auth\n  docs_description: See, edit, create, and delete only the specific Google Drive files\n    you use with this app.\n  sensitivity: Recommended Non-sensitive\n- scope: https://www.googleapis.com/auth/drive.readonly\n  description:\
+  \ See and download all your Google Drive files\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-docs-api-v1-openapi.yml\n  - https://developers.google.com/workspace/docs/api/auth\n  docs_description: See and download all your Google Drive files.\n  sensitivity: Restricted\ndocs: https://developers.google.com/workspace/docs/api/auth\n"
 source_yaml_url: https://artifacts.apis.io/google-docs/scopes/google-docs-scopes.yml
 summary_line: 5 scopes · authorizationCode
 tags:

@@ -88,6 +88,7 @@ tags:
 - Legal Tech
 - Case Management
 - Communications
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

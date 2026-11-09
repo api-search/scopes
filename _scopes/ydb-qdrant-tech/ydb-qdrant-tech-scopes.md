@@ -97,7 +97,6 @@ tags:
 - Company
 - Vector Search
 - Database
-- API
 - YDB
 - Qdrant
 token_bound: false

@@ -65,10 +65,9 @@ source_yaml_url: https://artifacts.apis.io/threadsnoop-com/scopes/threadsnoop-co
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Reddit
-- API
-- AI
+- Artificial Intelligence
 - MCP
-- Read‑only
+- Read Only
 token_bound: false
 token_urls: []
 ---

@@ -292,10 +292,10 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/run402-com/scopes/run402-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Infrastructure
 - Backend
-- Open-source
+- Open Source
 - Agents
 token_bound: false
 token_urls: []

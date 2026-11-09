@@ -53,10 +53,10 @@ source_yaml_url: https://artifacts.apis.io/docsbot-ai/scopes/docsbot-ai-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Chatbot
+- Artificial Intelligence
+- Chatbots
 - Automation
-- Customer Support
+- Customer Service
 token_bound: false
 token_urls: []
 ---

@@ -34,6 +34,8 @@ source_yaml_url: https://artifacts.apis.io/thousand-api-com/scopes/thousand-api-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
+- Data
+- Services
 token_bound: false
 token_urls: []
 ---

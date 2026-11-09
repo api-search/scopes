@@ -118,7 +118,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Bot
-- Chatbot
+- Chatbots
 - Recipes
 - Automation
 - Integration

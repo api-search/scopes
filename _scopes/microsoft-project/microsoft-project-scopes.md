@@ -106,6 +106,97 @@ schemes:
     flow: authorizationCode
     tokenUrl: https://login.microsoftonline.com/common/oauth2/token
   name: oauth2
+  source: openapi/microsoft-project-assignments-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-calendars-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-custom-fields-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-enterprise-project-types-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-event-handlers-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-lookup-tables-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-phases-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-projects-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-resources-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-stages-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-tasks-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-timesheets-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
+  source: openapi/microsoft-project-workflow-activities-api-openapi.yml
+- description: OAuth 2.0 authentication via Azure AD for SharePoint Online
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/token
+  name: oauth2
   source: openapi/microsoft-project-rest-api.yaml
 scope_count: 2
 scope_names:
@@ -124,7 +215,14 @@ slug: microsoft-project-scopes
 source_filename: microsoft-project-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-project-rest-api.yaml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-project-rest-api.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\nscopes:\n- scope: ProjectServer.Read\n  description: Read Project Server data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-project-rest-api.yaml\n- scope: ProjectServer.ReadWrite\n  description: Read and write Project Server data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-project-rest-api.yaml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-project-assignments-api-openapi.yml, openapi/microsoft-project-calendars-api-openapi.yml,\n  openapi/microsoft-project-custom-fields-api-openapi.yml, openapi/microsoft-project-enterprise-project-types-api-openapi.yml,\n  openapi/microsoft-project-event-handlers-api-openapi.yml, openapi/microsoft-project-lookup-tables-api-openapi.yml,\n  openapi/microsoft-project-phases-api-openapi.yml, openapi/microsoft-project-projects-api-openapi.yml,\n  openapi/microsoft-project-resources-api-openapi.yml, openapi/microsoft-project-rest-api.yaml,\n  openapi/microsoft-project-stages-api-openapi.yml, openapi/microsoft-project-tasks-api-openapi.yml,\n  openapi/microsoft-project-timesheets-api-openapi.yml, openapi/microsoft-project-workflow-activities-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-project-assignments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-calendars-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-custom-fields-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-enterprise-project-types-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-event-handlers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-lookup-tables-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-phases-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-projects-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-resources-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-stages-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-tasks-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-timesheets-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-workflow-activities-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n- name: oauth2\n  source: openapi/microsoft-project-rest-api.yaml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\nscopes:\n- scope: ProjectServer.Read\n  description: Read Project Server data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-project-assignments-api-openapi.yml\n  - openapi/microsoft-project-calendars-api-openapi.yml\n  - openapi/microsoft-project-custom-fields-api-openapi.yml\n  - openapi/microsoft-project-enterprise-project-types-api-openapi.yml\n  - openapi/microsoft-project-event-handlers-api-openapi.yml\n  - openapi/microsoft-project-lookup-tables-api-openapi.yml\n  - openapi/microsoft-project-phases-api-openapi.yml\n\
+  \  - openapi/microsoft-project-projects-api-openapi.yml\n  - openapi/microsoft-project-resources-api-openapi.yml\n  - openapi/microsoft-project-rest-api.yaml\n  - openapi/microsoft-project-stages-api-openapi.yml\n  - openapi/microsoft-project-tasks-api-openapi.yml\n  - openapi/microsoft-project-timesheets-api-openapi.yml\n  - openapi/microsoft-project-workflow-activities-api-openapi.yml\n- scope: ProjectServer.ReadWrite\n  description: Read and write Project Server data\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/microsoft-project-assignments-api-openapi.yml\n  - openapi/microsoft-project-calendars-api-openapi.yml\n  - openapi/microsoft-project-custom-fields-api-openapi.yml\n  - openapi/microsoft-project-enterprise-project-types-api-openapi.yml\n  - openapi/microsoft-project-event-handlers-api-openapi.yml\n  - openapi/microsoft-project-lookup-tables-api-openapi.yml\n  - openapi/microsoft-project-phases-api-openapi.yml\n  - openapi/microsoft-project-projects-api-openapi.yml\n\
+  \  - openapi/microsoft-project-resources-api-openapi.yml\n  - openapi/microsoft-project-rest-api.yaml\n  - openapi/microsoft-project-stages-api-openapi.yml\n  - openapi/microsoft-project-tasks-api-openapi.yml\n  - openapi/microsoft-project-timesheets-api-openapi.yml\n  - openapi/microsoft-project-workflow-activities-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-project/scopes/microsoft-project-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:

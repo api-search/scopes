@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/naturstrom/scopes/naturstrom-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Energy
-- Renewable
+- Renewables
 - Electricity
 - Germany
 - Sustainability

@@ -279,9 +279,8 @@ summary_line: 14 scopes
 tags:
 - Company
 - Finance
-- FinTech
-- PersonalFinance
-- API
+- Fintech
+- Personal Finance
 token_bound: false
 token_urls: []
 ---

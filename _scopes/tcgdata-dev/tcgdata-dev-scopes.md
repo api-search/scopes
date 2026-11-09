@@ -1,53 +1,11 @@
 ---
 api_specs:
-- filename: tcgdata-dev-account-api-openapi.yml
+- filename: tcgdata-dev-openapi-generated.yml
   format: yaml
-  label: tcgdata-dev Account API
-  slug: tcgdata-dev-account-api
+  label: tcgdata-dev API
+  slug: tcgdata-dev-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/tcgdata-dev/openapi/tcgdata-dev-account-api-openapi.yml
-- filename: tcgdata-dev-cards-api-openapi.yml
-  format: yaml
-  label: tcgdata-dev Cards API
-  slug: tcgdata-dev-cards-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/tcgdata-dev/openapi/tcgdata-dev-cards-api-openapi.yml
-- filename: tcgdata-dev-catalogue-api-openapi.yml
-  format: yaml
-  label: tcgdata-dev Catalogue API
-  slug: tcgdata-dev-catalogue-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/tcgdata-dev/openapi/tcgdata-dev-catalogue-api-openapi.yml
-- filename: tcgdata-dev-history-api-openapi.yml
-  format: yaml
-  label: tcgdata-dev History API
-  slug: tcgdata-dev-history-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/tcgdata-dev/openapi/tcgdata-dev-history-api-openapi.yml
-- filename: tcgdata-dev-images-api-openapi.yml
-  format: yaml
-  label: tcgdata-dev Images API
-  slug: tcgdata-dev-images-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/tcgdata-dev/openapi/tcgdata-dev-images-api-openapi.yml
-- filename: tcgdata-dev-japanese-catalogue-api-openapi.yml
-  format: yaml
-  label: tcgdata-dev Japanese catalogue API
-  slug: tcgdata-dev-japanese-catalogue-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/tcgdata-dev/openapi/tcgdata-dev-japanese-catalogue-api-openapi.yml
-- filename: tcgdata-dev-prices-api-openapi.yml
-  format: yaml
-  label: tcgdata-dev Prices API
-  slug: tcgdata-dev-prices-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/tcgdata-dev/openapi/tcgdata-dev-prices-api-openapi.yml
-- filename: tcgdata-dev-readable-urls-api-openapi.yml
-  format: yaml
-  label: tcgdata-dev Readable URLs API
-  slug: tcgdata-dev-readable-urls-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/tcgdata-dev/openapi/tcgdata-dev-readable-urls-api-openapi.yml
+  url: https://artifacts.apis.io/tcgdata-dev/openapi/_ae-authored/tcgdata-dev-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -84,10 +42,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Trading Cards
-- Pricing API
-- REST
-- Gaming
-- Data
+- Pricing
+- Europe
 token_bound: false
 token_urls: []
 ---

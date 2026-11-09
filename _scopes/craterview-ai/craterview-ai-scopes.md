@@ -70,11 +70,10 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/craterview-ai/scopes/craterview-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- ImageProcessing
-- AI
+- Image Processing
+- Artificial Intelligence
 - PhotoRestoration
 - Upscaling
-- API
 - Multimedia
 token_bound: false
 token_urls: []

@@ -86,6 +86,7 @@ summary_line: 13 scopes
 tags:
 - Company
 - Authentication
+- OAuth
 - SSO
 - Identity
 token_bound: false

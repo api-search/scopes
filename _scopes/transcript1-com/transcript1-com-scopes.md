@@ -43,7 +43,6 @@ tags:
 - Audio
 - Video
 - Transcription
-- API
 - MCP
 token_bound: false
 token_urls: []

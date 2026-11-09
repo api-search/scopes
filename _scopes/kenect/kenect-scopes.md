@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Automotive
 - Messaging
-- AI
+- Artificial Intelligence
 - Customer Engagement
 - Reputation Management
 token_bound: false

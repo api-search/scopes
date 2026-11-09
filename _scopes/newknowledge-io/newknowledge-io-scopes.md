@@ -43,7 +43,7 @@ tags:
 - Company
 - Disinformation
 - Research
-- AI
+- Artificial Intelligence
 - Austin
 token_bound: false
 token_urls: []

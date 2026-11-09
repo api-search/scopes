@@ -93,7 +93,7 @@ source_yaml_url: https://artifacts.apis.io/whatsync-app/scopes/whatsync-app-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - WhatsApp
-- AI
+- Artificial Intelligence
 - ChatGPT
 - Claude
 - Integration

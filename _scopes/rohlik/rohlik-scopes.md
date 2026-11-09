@@ -60,8 +60,9 @@ tags:
 - Delivery
 - Logistics
 - MCP
-- Authentication
+- OAuth
 - Europe
+- Authentication
 token_bound: false
 token_urls:
 - https://identity.rohlik.cz/oauth2/token

@@ -216,9 +216,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - QR Codes
 - Lead Capture
-- API
-- Webhooks
-- SDKs
+- Webhook
+- SDK
 token_bound: false
 token_urls: []
 ---

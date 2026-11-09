@@ -47,10 +47,10 @@ source_yaml_url: https://artifacts.apis.io/opensensors/scopes/opensensors-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- WorkplaceAnalytics
+- Workplace Analytics
 - RealEstateTech
 - IoT
-- DataAnalytics
+- Data Analytics
 token_bound: false
 token_urls: []
 ---

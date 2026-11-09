@@ -39,9 +39,9 @@ source_yaml_url: https://artifacts.apis.io/ringahuman-com/scopes/ringahuman-com-
 summary_line: 1 scope
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Telephony
-- LeadGeneration
+- Lead Generation
 - Compliance
 token_bound: false
 token_urls: []

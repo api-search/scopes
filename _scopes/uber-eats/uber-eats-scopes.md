@@ -104,8 +104,9 @@ tags:
 - Order
 - Fulfillment
 - Couriers
-- Authentication
+- OAuth
 - Delivery
+- Authentication
 token_bound: false
 token_urls:
 - https://auth.uber.com/oauth/v2/token

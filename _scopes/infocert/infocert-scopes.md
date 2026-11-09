@@ -850,7 +850,7 @@ summary_line: 13 scopes · clientCredentials/authorizationCode/password
 tags:
 - Company
 - Digital Trust
-- Electronic Signatures
+- E-Signature
 - Digital Identity
 - Certified Email
 - E-Invoicing

@@ -161,8 +161,8 @@ source_yaml_url: https://artifacts.apis.io/tenzro-xyz/scopes/tenzro-xyz-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Machine-Learning
+- Artificial Intelligence
+- Machine Learning
 - MCP
 - Platform
 - OpenAI-Compatible

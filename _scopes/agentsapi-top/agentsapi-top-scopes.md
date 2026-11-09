@@ -102,9 +102,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Blockchain
 - Risk Intelligence
-- API
-- Crypto
-- On-chain Data
+- Cryptocurrency
+- On-Chain Data
 token_bound: false
 token_urls: []
 ---

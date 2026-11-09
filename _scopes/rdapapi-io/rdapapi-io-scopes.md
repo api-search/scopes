@@ -79,8 +79,7 @@ tags:
 - Company
 - RDAP
 - Domain
-- API
-- Whois
+- WHOIS
 token_bound: false
 token_urls: []
 ---

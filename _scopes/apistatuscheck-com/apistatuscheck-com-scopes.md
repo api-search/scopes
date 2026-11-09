@@ -43,7 +43,6 @@ tags:
 - Company
 - API Monitoring
 - Outage Detection
-- Free Service
 - Developer Tools
 token_bound: false
 token_urls: []

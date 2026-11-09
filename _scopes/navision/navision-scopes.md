@@ -259,7 +259,7 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
   name: oauth2
-  source: openapi/admin-center-api.yml
+  source: openapi/navision-accounts-api-openapi.yml
 - description: OAuth 2.0 authentication via Microsoft Entra ID
   flows:
   - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
@@ -268,7 +268,7 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
   name: oauth2
-  source: openapi/automation-api.yml
+  source: openapi/navision-app-management-api-openapi.yml
 - description: OAuth 2.0 authentication via Microsoft Entra ID
   flows:
   - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
@@ -277,12 +277,327 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
   name: oauth2
-  source: openapi/business-central-api-v2.yml
+  source: openapi/navision-available-applications-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-companies-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-configuration-packages-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-countries-regions-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-currency-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-customer-payments-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-customers-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-dimensions-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-employees-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-environment-operations-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-environment-settings-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-environments-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-extension-deployment-status-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-extension-upload-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-extensions-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-features-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-item-categories-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-items-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-journals-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-notifications-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-payment-methods-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-payment-terms-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-permission-sets-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-profiles-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-purchase-invoices-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-purchase-orders-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-sales-invoices-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-sales-orders-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-scheduled-jobs-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-security-groups-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-storage-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-support-settings-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-update-management-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-users-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-vendor-payments-api-openapi.yml
+- description: OAuth 2.0 authentication via Microsoft Entra ID
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/navision-vendors-api-openapi.yml
 scope_count: 1
 scope_names:
 - https://api.businesscentral.dynamics.com/.default
 scopes:
-- description: Access Business Central Admin APIs
+- description: Access Business Central APIs
   flows:
   - authorizationCode
   - clientCredentials
@@ -291,8 +606,27 @@ slug: navision-scopes
 source_filename: navision-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/admin-center-api.yml, openapi/automation-api.yml, openapi/business-central-api-v2.yml\nschemes:\n- name: oauth2\n  source: openapi/admin-center-api.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/automation-api.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication\
-  \ via Microsoft Entra ID\n- name: oauth2\n  source: openapi/business-central-api-v2.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\nscopes:\n- scope: https://api.businesscentral.dynamics.com/.default\n  description: Access Business Central Admin APIs\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n  - openapi/admin-center-api.yml\n  - openapi/automation-api.yml\n  - openapi/business-central-api-v2.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/navision-accounts-api-openapi.yml, openapi/navision-app-management-api-openapi.yml,\n  openapi/navision-available-applications-api-openapi.yml, openapi/navision-companies-api-openapi.yml,\n  openapi/navision-configuration-packages-api-openapi.yml, openapi/navision-countries-regions-api-openapi.yml,\n  openapi/navision-currency-api-openapi.yml, openapi/navision-customer-payments-api-openapi.yml,\n  openapi/navision-customers-api-openapi.yml, openapi/navision-dimensions-api-openapi.yml, openapi/navision-employees-api-openapi.yml,\n  openapi/navision-environment-operations-api-openapi.yml, openapi/navision-environment-settings-api-openapi.yml,\n  openapi/navision-environments-api-openapi.yml, openapi/navision-extension-deployment-status-api-openapi.yml,\n  openapi/navision-extension-upload-api-openapi.yml, openapi/navision-extensions-api-openapi.yml,\n  openapi/navision-features-api-openapi.yml, openapi/navision-item-categories-api-openapi.yml,\n\
+  \  openapi/navision-items-api-openapi.yml, openapi/navision-journals-api-openapi.yml, openapi/navision-notifications-api-openapi.yml,\n  openapi/navision-payment-methods-api-openapi.yml, openapi/navision-payment-terms-api-openapi.yml,\n  openapi/navision-permission-sets-api-openapi.yml, openapi/navision-profiles-api-openapi.yml,\n  openapi/navision-purchase-invoices-api-openapi.yml, openapi/navision-purchase-orders-api-openapi.yml,\n  openapi/navision-sales-invoices-api-openapi.yml, openapi/navision-sales-orders-api-openapi.yml,\n  openapi/navision-scheduled-jobs-api-openapi.yml, openapi/navision-security-groups-api-openapi.yml,\n  openapi/navision-storage-api-openapi.yml, openapi/navision-support-settings-api-openapi.yml,\n  openapi/navision-update-management-api-openapi.yml, openapi/navision-users-api-openapi.yml,\n  openapi/navision-vendor-payments-api-openapi.yml, openapi/navision-vendors-api-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/navision-accounts-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-app-management-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-available-applications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-companies-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-configuration-packages-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-countries-regions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-currency-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth\
+  \ 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-customer-payments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-customers-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-dimensions-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-employees-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-environment-operations-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-environment-settings-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-environments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-extension-deployment-status-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-extension-upload-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n\
+  \  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-extensions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-features-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-item-categories-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-items-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-journals-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-notifications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-payment-methods-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-payment-terms-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-permission-sets-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description:\
+  \ OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-profiles-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-purchase-invoices-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-purchase-orders-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-sales-invoices-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-sales-orders-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-scheduled-jobs-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-security-groups-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n\
+  \    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-storage-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-support-settings-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth\
+  \ 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-update-management-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-vendor-payments-api-openapi.yml\n\
+  \  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n- name: oauth2\n  source: openapi/navision-vendors-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  description: OAuth 2.0 authentication via Microsoft Entra ID\nscopes:\n- scope: https://api.businesscentral.dynamics.com/.default\n  description: Access Business Central APIs\n  flows:\n  - authorizationCode\n  - clientCredentials\n  sources:\n\
+  \  - openapi/navision-accounts-api-openapi.yml\n  - openapi/navision-app-management-api-openapi.yml\n  - openapi/navision-available-applications-api-openapi.yml\n  - openapi/navision-companies-api-openapi.yml\n  - openapi/navision-configuration-packages-api-openapi.yml\n  - openapi/navision-countries-regions-api-openapi.yml\n  - openapi/navision-currency-api-openapi.yml\n  - openapi/navision-customer-payments-api-openapi.yml\n  - openapi/navision-customers-api-openapi.yml\n  - openapi/navision-dimensions-api-openapi.yml\n  - openapi/navision-employees-api-openapi.yml\n  - openapi/navision-environment-operations-api-openapi.yml\n  - openapi/navision-environment-settings-api-openapi.yml\n  - openapi/navision-environments-api-openapi.yml\n  - openapi/navision-extension-deployment-status-api-openapi.yml\n  - openapi/navision-extension-upload-api-openapi.yml\n  - openapi/navision-extensions-api-openapi.yml\n  - openapi/navision-features-api-openapi.yml\n  - openapi/navision-item-categories-api-openapi.yml\n\
+  \  - openapi/navision-items-api-openapi.yml\n  - openapi/navision-journals-api-openapi.yml\n  - openapi/navision-notifications-api-openapi.yml\n  - openapi/navision-payment-methods-api-openapi.yml\n  - openapi/navision-payment-terms-api-openapi.yml\n  - openapi/navision-permission-sets-api-openapi.yml\n  - openapi/navision-profiles-api-openapi.yml\n  - openapi/navision-purchase-invoices-api-openapi.yml\n  - openapi/navision-purchase-orders-api-openapi.yml\n  - openapi/navision-sales-invoices-api-openapi.yml\n  - openapi/navision-sales-orders-api-openapi.yml\n  - openapi/navision-scheduled-jobs-api-openapi.yml\n  - openapi/navision-security-groups-api-openapi.yml\n  - openapi/navision-storage-api-openapi.yml\n  - openapi/navision-support-settings-api-openapi.yml\n  - openapi/navision-update-management-api-openapi.yml\n  - openapi/navision-users-api-openapi.yml\n  - openapi/navision-vendor-payments-api-openapi.yml\n  - openapi/navision-vendors-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/navision/scopes/navision-scopes.yml
 summary_line: 1 scope · authorizationCode/clientCredentials
 tags:

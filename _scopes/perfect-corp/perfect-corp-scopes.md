@@ -51,7 +51,7 @@ tags:
 - Apparel
 - Jewelry
 - Watches
-- hair
+- Hair
 - Virtual Try-On
 - Image Editing
 - Generative AI

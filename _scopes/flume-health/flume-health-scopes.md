@@ -272,9 +272,10 @@ tags:
 - Knowledge Graph
 - MCP
 - Agent-Native
-- Authentication
+- OAuth
 - Data Engineering
 - Interoperability
+- Authentication
 token_bound: false
 token_urls: []
 ---

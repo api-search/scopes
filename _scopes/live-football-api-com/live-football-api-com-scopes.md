@@ -40,10 +40,9 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/live-football-api-com/scopes/live-football-api-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- API
 - Sports
 - Football
-- Real-time
+- Real-Time
 - Data
 token_bound: false
 token_urls: []

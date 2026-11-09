@@ -40,10 +40,10 @@ source_yaml_url: https://artifacts.apis.io/pinafly-com/scopes/pinafly-com-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Review
-- AI
+- Artificial Intelligence
 - Collaboration
 - Feedback
-- WebApp
+- Web App
 token_bound: false
 token_urls: []
 ---

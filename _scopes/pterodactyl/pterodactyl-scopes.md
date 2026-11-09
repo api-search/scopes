@@ -86,7 +86,6 @@ tags:
 - Game Server
 - Open Source
 - Docker
-- API
 token_bound: false
 token_urls: []
 ---

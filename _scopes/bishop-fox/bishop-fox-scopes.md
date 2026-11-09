@@ -86,6 +86,7 @@ tags:
 - Security Findings
 - Asset Discovery
 - Continuous Threat Exposure Management
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

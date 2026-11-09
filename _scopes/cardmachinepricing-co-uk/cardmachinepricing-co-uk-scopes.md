@@ -36,8 +36,8 @@ tags:
 - Company
 - Finance
 - Pricing
-- UK
-- Card-Machines
+- United Kingdom
+- Card Machines
 token_bound: false
 token_urls: []
 ---

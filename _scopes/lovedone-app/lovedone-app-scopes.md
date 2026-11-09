@@ -82,7 +82,7 @@ tags:
 - Family Care
 - Inbox
 - Healthcare
-- Communication
+- Communications
 - Privacy
 token_bound: false
 token_urls:

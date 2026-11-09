@@ -34,11 +34,11 @@ source_yaml_url: https://artifacts.apis.io/revmap/scopes/revmap-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- gaming
-- map
+- Gaming
+- Maps
 - civrevolution
-- open-source
-- interactive
+- Open Source
+- Interactive
 token_bound: false
 token_urls: []
 ---

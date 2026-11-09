@@ -77,9 +77,8 @@ source_yaml_url: https://artifacts.apis.io/aicdapi-com/scopes/aicdapi-com-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- CivicData
+- Civic Data
 - Government
-- API
 - MCP
 token_bound: false
 token_urls: []

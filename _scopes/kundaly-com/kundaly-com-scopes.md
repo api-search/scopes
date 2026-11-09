@@ -37,7 +37,7 @@ tags:
 - Astrology
 - Vedic
 - Western
-- Birth-Chart
+- BirthChart
 token_bound: false
 token_urls: []
 ---

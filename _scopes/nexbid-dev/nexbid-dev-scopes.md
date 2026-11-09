@@ -53,11 +53,11 @@ source_yaml_url: https://artifacts.apis.io/nexbid-dev/scopes/nexbid-dev-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Commerce
 - Advertising
 - Switzerland
-- OpenSource
+- Open Source
 token_bound: false
 token_urls: []
 ---

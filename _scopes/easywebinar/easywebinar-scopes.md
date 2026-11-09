@@ -85,9 +85,10 @@ tags:
 - Lead Generation
 - Automation
 - Identity
-- Authentication
+- OAuth
 - Software-as-a-Service
 - Identity Federation
+- Authentication
 token_bound: false
 token_urls:
 - https://app.easywebinar.com/oauth/token/

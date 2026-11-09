@@ -58,8 +58,9 @@ tags:
 - Natural Language Processing
 - Analytics
 - Content
-- Authentication
+- OAuth
 - Enterprise
+- Authentication
 token_bound: false
 token_urls: []
 ---

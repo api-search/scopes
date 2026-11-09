@@ -42,10 +42,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Education
-- UK
+- United Kingdom
 - School
 - Term-Dates
-- API
 token_bound: false
 token_urls: []
 ---

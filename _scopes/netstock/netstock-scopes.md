@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/netstock/scopes/netstock-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Supply Chain Planning
-- Inventory Management
+- Inventory
 - Demand Planning
-- AI
+- Artificial Intelligence
 - ERP Integration
 - Manufacturing
 - Retail

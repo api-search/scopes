@@ -119,9 +119,10 @@ tags:
 - Tax Data
 - Payroll
 - REST
-- Authentication
+- OAuth
 - FAPI
 - CFPB 1033
+- Authentication
 token_bound: false
 token_urls:
 - https://www.your-organization.com/token

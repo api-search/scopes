@@ -39,9 +39,9 @@ source_yaml_url: https://artifacts.apis.io/foundriesio/scopes/foundriesio-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - IoT
-- Embedded-Linux
-- Edge-Computing
-- Device-Management
+- Embedded Linux
+- Edge Computing
+- Device Management
 - Secure-Updates
 token_bound: false
 token_urls: []

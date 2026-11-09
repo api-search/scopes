@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/fruitscout/scopes/fruitscout-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Agriculture
-- AI
+- Artificial Intelligence
 - Crop-Management
 - Compliance
-- Field-Operations
+- Field Operations
 token_bound: false
 token_urls: []
 ---

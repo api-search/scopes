@@ -34,10 +34,9 @@ source_yaml_url: https://artifacts.apis.io/getcoconut-com/scopes/getcoconut-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- FinTech
+- Fintech
 - Accounting
-- SaaS
-- API
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

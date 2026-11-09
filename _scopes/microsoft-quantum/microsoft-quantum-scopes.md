@@ -35,15 +35,15 @@ authorization_urls:
 description: ''
 docs: ''
 flows:
-- clientCredentials
 - implicit
+- clientCredentials
 kind: oauth-scopes
 layout: scope
 method: derived
 name: Microsoft Quantum Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Microsoft Azure Quantum publishes 2 OAuth 2.0 scopes via the clientCredentials and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Azure Quantum API on a user''s behalf.
+overview: 'Microsoft Azure Quantum publishes 2 OAuth 2.0 scopes via the implicit and clientCredentials flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Microsoft Azure Quantum API on a user''s behalf.
 
 
   Tokens are issued from https://login.microsoftonline.com/common/oauth2/v2.0/token.
@@ -53,18 +53,36 @@ overview: 'Microsoft Azure Quantum publishes 2 OAuth 2.0 scopes via the clientCr
 provider_name: Microsoft Azure Quantum
 provider_slug: microsoft-quantum
 schemes:
-- description: Azure Entra OAuth2 Authentication
-  flows:
-  - flow: clientCredentials
-    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
-  name: AzureEntraAuth
-  source: openapi/azure-quantum-data-plane-openapi.json
 - description: Azure Active Directory OAuth2 Flow.
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
-  source: openapi/azure-quantum-resource-manager-openapi.json
+  source: openapi/microsoft-quantum-offerings-api-openapi.yml
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/microsoft-quantum-operations-api-openapi.yml
+- description: Azure Entra OAuth2 Authentication
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: AzureEntraAuth
+  source: openapi/microsoft-quantum-subscriptions-api-openapi.yml
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/microsoft-quantum-suiteoffers-api-openapi.yml
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/microsoft-quantum-workspaces-api-openapi.yml
 scope_count: 2
 scope_names:
 - https://quantum.microsoft.com/.default
@@ -82,9 +100,10 @@ slug: microsoft-quantum-scopes
 source_filename: microsoft-quantum-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-quantum-data-plane-openapi.json, openapi/azure-quantum-resource-manager-openapi.json\nschemes:\n- name: AzureEntraAuth\n  source: openapi/azure-quantum-data-plane-openapi.json\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Azure Entra OAuth2 Authentication\n- name: azure_auth\n  source: openapi/azure-quantum-resource-manager-openapi.json\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: https://quantum.microsoft.com/.default\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/azure-quantum-data-plane-openapi.json\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/azure-quantum-resource-manager-openapi.json\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-quantum-offerings-api-openapi.yml, openapi/microsoft-quantum-operations-api-openapi.yml,\n  openapi/microsoft-quantum-subscriptions-api-openapi.yml, openapi/microsoft-quantum-suiteoffers-api-openapi.yml,\n  openapi/microsoft-quantum-workspaces-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-quantum-offerings-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-quantum-operations-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: AzureEntraAuth\n  source: openapi/microsoft-quantum-subscriptions-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n\
+  \  description: Azure Entra OAuth2 Authentication\n- name: azure_auth\n  source: openapi/microsoft-quantum-suiteoffers-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-quantum-workspaces-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: https://quantum.microsoft.com/.default\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microsoft-quantum-subscriptions-api-openapi.yml\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-quantum-offerings-api-openapi.yml\n  - openapi/microsoft-quantum-operations-api-openapi.yml\n  - openapi/microsoft-quantum-suiteoffers-api-openapi.yml\n  - openapi/microsoft-quantum-workspaces-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-quantum/scopes/microsoft-quantum-scopes.yml
-summary_line: 2 scopes · clientCredentials/implicit
+summary_line: 2 scopes · implicit/clientCredentials
 tags:
 - Quantum
 - Quantum Computing

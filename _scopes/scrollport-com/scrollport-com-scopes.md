@@ -42,9 +42,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - AI Agents
 - API Tools
-- Pay‑per‑use
+- Pay-Per-Use
 - Search
-- Scraping
+- Web Scraping
 token_bound: false
 token_urls: []
 ---

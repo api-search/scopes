@@ -119,10 +119,11 @@ tags:
 - Crop Data
 - Field Boundaries
 - Harvest
-- Authentication
+- OAuth
 - Planting
 - Precision Agriculture
 - AgTech
+- Authentication
 token_bound: false
 token_urls:
 - https://api.climate.com/api/oauth/token

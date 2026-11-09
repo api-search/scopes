@@ -67,6 +67,7 @@ tags:
 - Reconciliation
 - MCP
 - Agent Skills
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

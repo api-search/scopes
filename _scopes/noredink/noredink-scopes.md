@@ -51,10 +51,11 @@ tags:
 - Writing
 - Literacy
 - K-12
-- Authentication
+- OAuth
 - SSO
 - Rostering
 - Identity
+- Authentication
 token_bound: false
 token_urls:
 - https://www.noredink.com/oauth/token

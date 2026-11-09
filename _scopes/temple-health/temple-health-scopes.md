@@ -251,7 +251,7 @@ tags:
 - Healthcare
 - Hospital System
 - MyChart
-- Authentication
+- OAuth
 - Patient Access
 - Price Transparency
 - R4
@@ -259,6 +259,7 @@ tags:
 - Temple University
 - US Core
 - USCDI
+- Authentication
 token_bound: false
 token_urls:
 - https://epicaccess.templehealth.org/FhirProxyPrd/oauth2/token

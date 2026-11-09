@@ -58,10 +58,10 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/agent-manager-dev/scopes/agent-manager-dev-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - Terminal
-- OpenSource
+- Open Source
 - Go
 token_bound: false
 token_urls: []

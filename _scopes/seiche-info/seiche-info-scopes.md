@@ -252,8 +252,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Finance
-- MarketData
-- OpenSource
+- Market Data
+- Open Source
 - Research
 token_bound: false
 token_urls: []

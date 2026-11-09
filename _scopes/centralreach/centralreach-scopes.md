@@ -67,6 +67,7 @@ tags:
 - Behavioral Health
 - Special Education
 - Billing
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

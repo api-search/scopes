@@ -95,9 +95,9 @@ source_yaml_url: https://artifacts.apis.io/argus-town/scopes/argus-town-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API-Monitoring
-- Cost-Management
-- Developer-Tools
+- API Monitoring
+- Cost Management
+- Developer Tools
 - MCP
 token_bound: false
 token_urls: []

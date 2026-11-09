@@ -273,8 +273,9 @@ tags:
 - Ecommerce Localization
 - Product Information Management
 - Webhook
-- Authentication
+- OAuth
 - Software-as-a-Service
+- Authentication
 token_bound: false
 token_urls:
 - https://api.textmaster.com/oauth/token

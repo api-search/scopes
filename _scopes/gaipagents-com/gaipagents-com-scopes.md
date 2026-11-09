@@ -77,8 +77,8 @@ source_yaml_url: https://artifacts.apis.io/gaipagents-com/scopes/gaipagents-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Agentic
+- Artificial Intelligence
+- AI Agents
 - MCP
 - A2A
 - OpenAPI

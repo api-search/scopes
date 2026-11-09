@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Media
 - Home-Theater
-- Open-Source
+- Open Source
 - Entertainment
 - Software
 token_bound: false

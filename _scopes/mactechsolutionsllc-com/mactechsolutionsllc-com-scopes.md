@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Cybersecurity
 - CMMC
-- NIST-800-171
+- NIST 800-171
 - DFARS
 - SDVOSB
 - Compliance

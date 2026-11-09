@@ -72,9 +72,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Machine Learning
-- NLP
+- Natural Language Processing
 - Classification
-- API
 - OpenAPI
 token_bound: false
 token_urls: []

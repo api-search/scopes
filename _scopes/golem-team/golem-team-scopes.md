@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/golem-team/scopes/golem-team-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
-- Agent
+- Agents
 - Detection
 - Response
 token_bound: false

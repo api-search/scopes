@@ -112,12 +112,12 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/simple-ai/scopes/simple-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Telephony
-- SaaS
+- Software-as-a-Service
 - Automation
-- ContactCenter
+- Contact Center
 token_bound: false
 token_urls: []
 ---

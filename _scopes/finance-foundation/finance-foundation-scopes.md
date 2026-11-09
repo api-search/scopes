@@ -138,9 +138,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Finance
 - Data
-- API
-- OpenData
-- AI
+- Open Data
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

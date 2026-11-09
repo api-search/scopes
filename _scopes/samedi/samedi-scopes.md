@@ -88,10 +88,11 @@ tags:
 - Appointments
 - Booking
 - Patient Engagement
-- Authentication
+- OAuth
 - FHIR
 - Telehealth
 - Germany
+- Authentication
 token_bound: false
 token_urls:
 - https://patient.samedi.de/oauth/token

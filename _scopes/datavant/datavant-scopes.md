@@ -116,8 +116,9 @@ tags:
 - Medical Records
 - Release of Information
 - Privacy
-- Authentication
+- OAuth
 - Health Information Exchange
+- Authentication
 token_bound: false
 token_urls:
 - https://api.datavant.io/v2/oauth2/token

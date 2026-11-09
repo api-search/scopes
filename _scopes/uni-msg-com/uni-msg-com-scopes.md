@@ -35,9 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Messaging
 - WhatsApp
-- API
 - Automation
-- BulkMessaging
+- Bulk Messaging
 token_bound: false
 token_urls: []
 ---

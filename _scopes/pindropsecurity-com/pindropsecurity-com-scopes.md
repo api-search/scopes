@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/pindropsecurity-com/scopes/pindropsec
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Security
-- FraudDetection
-- DeepfakeDefense
-- VoiceAuthentication
+- Fraud Prevention
+- Deepfake Defense
+- Voice Authentication
 - Enterprise
 token_bound: false
 token_urls: []

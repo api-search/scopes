@@ -34,8 +34,7 @@ source_yaml_url: https://artifacts.apis.io/powerline-ai/scopes/powerline-ai-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- APIs
+- Artificial Intelligence
 - Automation
 - Email
 - Productivity

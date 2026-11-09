@@ -115,7 +115,6 @@ tags:
 - Data
 - Finance
 - Prediction Markets
-- API
 - Backtesting
 token_bound: false
 token_urls: []

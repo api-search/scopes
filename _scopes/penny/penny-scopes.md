@@ -36,8 +36,8 @@ tags:
 - Fintech
 - Retirement
 - Pensions
-- MobileApp
-- FinancialPlanning
+- Mobile App
+- Financial Planning
 token_bound: false
 token_urls: []
 ---

@@ -107,8 +107,8 @@ source_yaml_url: https://artifacts.apis.io/surfingdog-ai/scopes/surfingdog-ai-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Agent-Ready
+- Artificial Intelligence
+- Agent Ready
 - Directory
 - Inbox
 token_bound: false

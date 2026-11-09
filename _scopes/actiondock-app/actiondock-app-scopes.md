@@ -34,11 +34,10 @@ source_yaml_url: https://artifacts.apis.io/actiondock-app/scopes/actiondock-app-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
-- AI
+- Artificial Intelligence
 - MCP
-- Gateway
-- Human-in-the-loop
+- Gateways
+- Human-in-the-Loop
 token_bound: false
 token_urls: []
 ---

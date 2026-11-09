@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/timeseerai/scopes/timeseerai-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Industrial
-- Data-Validation
+- Data Validation
 - IoT
 token_bound: false
 token_urls: []

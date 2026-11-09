@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/penguindriver-com/scopes/penguindrive
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Taiwan
 - Aggregator
 - Data

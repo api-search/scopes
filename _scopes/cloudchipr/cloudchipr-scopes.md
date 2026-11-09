@@ -114,6 +114,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  https://mcp
 source_yaml_url: https://artifacts.apis.io/cloudchipr/scopes/cloudchipr-scopes.yml
 summary_line: 4 scopes
 tags:
+- Amazon Web Services
 - Microsoft Azure
 - Cloud Cost Management
 - Cost Optimization

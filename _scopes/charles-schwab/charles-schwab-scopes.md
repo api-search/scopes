@@ -116,11 +116,12 @@ tags:
 - Financial Services
 - Investing
 - Market Data
-- Authentication
+- OAuth
 - Order
 - Trading
 - Fortune 500
 - Wealth Management
+- Authentication
 token_bound: false
 token_urls:
 - https://api.schwabapi.com/v1/oauth/token

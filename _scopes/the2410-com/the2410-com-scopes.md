@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/the2410-com/scopes/the2410-com-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - B2B
 - Web Development
-- AI
+- Artificial Intelligence
 - Automation
 token_bound: false
 token_urls: []

@@ -73,6 +73,7 @@ tags:
 - Food Diary
 - Wellness
 - Webhook
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

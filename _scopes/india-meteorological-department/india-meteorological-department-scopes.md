@@ -37,7 +37,7 @@ tags:
 - Weather
 - Meteorology
 - India
-- Public-Data
+- Public Data
 - Climate
 - Government
 token_bound: false

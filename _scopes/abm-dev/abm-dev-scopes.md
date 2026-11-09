@@ -88,7 +88,7 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/abm-dev/scopes/abm-dev-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Account-Based Marketing
+- Account Based Marketing
 - AI Agents
 - Data Enrichment
 - B2B

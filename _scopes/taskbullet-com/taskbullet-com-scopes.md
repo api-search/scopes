@@ -41,8 +41,8 @@ source_yaml_url: https://artifacts.apis.io/taskbullet-com/scopes/taskbullet-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- VirtualAssistant
-- SaaS
+- Virtual Assistant
+- Software-as-a-Service
 - USBusiness
 - Productivity
 token_bound: false

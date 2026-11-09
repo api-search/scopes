@@ -35,7 +35,7 @@ tags:
 - Automation
 - DevOps
 - Compliance
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

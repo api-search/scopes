@@ -147,7 +147,7 @@ tags:
 - Company
 - Insurance
 - Wholesale
-- Brokers
+- Brokerage
 - Specialty
 token_bound: false
 token_urls:

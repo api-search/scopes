@@ -46,11 +46,10 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/apihubs-ru/scopes/apihubs-ru-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- API
-- AI
+- Artificial Intelligence
 - Marketplace
 - Russian
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

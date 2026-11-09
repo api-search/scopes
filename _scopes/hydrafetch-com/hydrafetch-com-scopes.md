@@ -84,7 +84,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Web Scraping
 - Data Extraction
-- API
 - Automation
 - Markdown
 token_bound: false

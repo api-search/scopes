@@ -35,8 +35,8 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/hotapi-ai/scopes/hotapi-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- NSFW
+- Artificial Intelligence
+- Nsfw
 - Chat
 - Image Generation
 - Video Generation

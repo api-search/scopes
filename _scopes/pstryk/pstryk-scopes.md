@@ -36,9 +36,9 @@ tags:
 - Company
 - Energy
 - Utilities
-- FinTech
+- Fintech
 - Poland
-- DynamicPricing
+- Dynamic Pricing
 token_bound: false
 token_urls: []
 ---

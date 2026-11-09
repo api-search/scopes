@@ -36,7 +36,7 @@ tags:
 - Company
 - Venture
 - Techstars
-- Startup
+- Startups
 - Portfolio
 token_bound: false
 token_urls: []

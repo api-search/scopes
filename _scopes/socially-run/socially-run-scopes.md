@@ -122,7 +122,7 @@ tags:
 - Data API
 - JSON
 - MCP
-- AI-Agent
+- AI Agents
 token_bound: false
 token_urls: []
 ---

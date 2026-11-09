@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Document Management
 - Accounting
-- SaaS
+- Software-as-a-Service
 - Small Business
 - File Sharing
 token_bound: false

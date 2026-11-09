@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/go-tou-com/scopes/go-tou-com-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- EV
+- Electric Vehicles
 - Charging
 - Platform
-- SaaS
+- Software-as-a-Service
 - CPO
 token_bound: false
 token_urls: []

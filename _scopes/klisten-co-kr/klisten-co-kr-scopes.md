@@ -124,11 +124,10 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://klisten
 source_yaml_url: https://artifacts.apis.io/klisten-co-kr/scopes/klisten-co-kr-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - ToolGuard
 - MCP
 - Policy
-- API
 - Prepaid
 token_bound: false
 token_urls: []

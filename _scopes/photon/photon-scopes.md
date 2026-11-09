@@ -89,6 +89,7 @@ tags:
 - Clinical API
 - Digital Health
 - Benefit Check
+- OAuth
 - Authentication
 token_bound: false
 token_urls: []

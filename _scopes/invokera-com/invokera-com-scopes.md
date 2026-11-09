@@ -33,7 +33,7 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/invokera-com/scopes/invokera-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Platform
 - Tools

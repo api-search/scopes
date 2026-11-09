@@ -34,7 +34,6 @@ source_yaml_url: https://artifacts.apis.io/apished-com/scopes/apished-com-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
 - Modular
 - OpenAPI
 - MCP

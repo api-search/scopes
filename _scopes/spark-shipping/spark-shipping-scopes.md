@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/spark-shipping/scopes/spark-shipping-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Dropshipping
 - Automation
-- SaaS
+- Software-as-a-Service
 - Integration
 token_bound: false
 token_urls: []

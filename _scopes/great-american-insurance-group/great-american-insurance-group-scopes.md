@@ -37,7 +37,7 @@ tags:
 - Property
 - Casualty
 - Specialty
-- Financial-Services
+- Financial Services
 - Company
 token_bound: false
 token_urls: []

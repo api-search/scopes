@@ -36,7 +36,6 @@ tags:
 - Company
 - Bookmarking
 - Social
-- API
 - Productivity
 - Web
 token_bound: false

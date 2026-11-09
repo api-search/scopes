@@ -39,10 +39,10 @@ source_yaml_url: https://artifacts.apis.io/symbaiex-com/scopes/symbaiex-com-scop
 summary_line: 1 scope
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Research
 - OpenAPI
-- PublicData
+- Public Data
 token_bound: false
 token_urls: []
 ---

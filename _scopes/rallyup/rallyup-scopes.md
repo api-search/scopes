@@ -35,9 +35,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Fundraising
-- Nonprofit
-- SaaS
-- DigitalPlatform
+- Non-Profit
+- Software-as-a-Service
+- Digital Platform
 token_bound: false
 token_urls: []
 ---

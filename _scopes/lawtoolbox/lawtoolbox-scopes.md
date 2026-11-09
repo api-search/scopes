@@ -40,10 +40,10 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/lawtoolbox/scopes/lawtoolbox-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- LegalTech
+- Legal Tech
 - Calendar
-- MatterManagement
-- Microsoft365
+- Matter Management
+- Microsoft 365
 - Integration
 token_bound: false
 token_urls: []

@@ -38,9 +38,10 @@ tags:
 - CRM
 - Integration
 - Data Synchronization
-- Authentication
+- OAuth
 - Plugins
 - No-Code
+- Authentication
 token_bound: false
 token_urls: []
 ---

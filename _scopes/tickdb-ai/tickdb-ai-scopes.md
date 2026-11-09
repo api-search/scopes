@@ -90,9 +90,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Finance
-- Market-Data
-- Real-time
-- API
+- Market Data
+- Real-Time
 token_bound: false
 token_urls: []
 ---

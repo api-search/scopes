@@ -42,9 +42,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Audio
 - Transcription
-- AI
+- Artificial Intelligence
 - Video
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

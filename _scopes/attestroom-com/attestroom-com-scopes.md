@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Policy Management
 - Compliance
-- SaaS
+- Software-as-a-Service
 - US
 - Small Business
 token_bound: false

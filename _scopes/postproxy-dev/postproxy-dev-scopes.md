@@ -137,8 +137,7 @@ source_yaml_url: https://artifacts.apis.io/postproxy-dev/scopes/postproxy-dev-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Social Media
-- API
-- SaaS
+- Software-as-a-Service
 - Marketing
 - Automation
 token_bound: false

@@ -35,10 +35,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Booking
-- Local-Services
+- Local Services
 - MCP
 - Agent-Callable
-- API
 token_bound: false
 token_urls: []
 ---

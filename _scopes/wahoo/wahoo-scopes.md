@@ -163,6 +163,7 @@ tags:
 - Hardware
 - FIT Files
 - Webhook
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

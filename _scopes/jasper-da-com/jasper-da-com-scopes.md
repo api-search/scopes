@@ -152,7 +152,7 @@ source_yaml: "generated: '2026-10-23'\nmethod: derived\nsource: openapi/jasper-d
 source_yaml_url: https://artifacts.apis.io/jasper-da-com/scopes/jasper-da-com-scopes.yml
 summary_line: 2 scopes · authorizationCode
 tags:
-- AI
+- Artificial Intelligence
 - Marketing
 - Automation
 - Content

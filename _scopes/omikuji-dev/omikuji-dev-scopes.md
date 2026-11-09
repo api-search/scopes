@@ -44,7 +44,7 @@ tags:
 - Blog
 - Tools
 - Gadgets
-- Personal-Development
+- Personal Development
 token_bound: false
 token_urls: []
 ---

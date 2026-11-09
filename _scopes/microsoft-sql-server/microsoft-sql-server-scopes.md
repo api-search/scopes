@@ -18,6 +18,24 @@ api_specs:
   slug: microsoft-sql-server-data-api-builder-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-data-api-builder-api-openapi.yml
+- filename: microsoft-sql-server-databases-api-openapi.yml
+  format: yaml
+  label: Microsoft SQL Server Databases API
+  slug: microsoft-sql-server-databases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-databases-api-openapi.yml
+- filename: microsoft-sql-server-managedinstances-api-openapi.yml
+  format: yaml
+  label: Microsoft SQL Server Managed Instances API
+  slug: microsoft-sql-server-managedinstances-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-managedinstances-api-openapi.yml
+- filename: microsoft-sql-server-servers-api-openapi.yml
+  format: yaml
+  label: Microsoft SQL Server Servers API
+  slug: microsoft-sql-server-servers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-sql-server/openapi/microsoft-sql-server-servers-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -44,6 +62,24 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: oauth2
+  source: openapi/microsoft-sql-server-azure-sql-databases-api-openapi.yml
+- description: For Azure SQL management endpoints, authenticate via Microsoft Entra ID against https://management.azure.com/.default. Data API Builder endpoints can be configured to use anonymous, EasyAuth, JWT, or Microsoft Entra ID authentication depending on deployment.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-sql-server-azure-sql-servers-api-openapi.yml
+- description: For Azure SQL management endpoints, authenticate via Microsoft Entra ID against https://management.azure.com/.default. Data API Builder endpoints can be configured to use anonymous, EasyAuth, JWT, or Microsoft Entra ID authentication depending on deployment.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
+  source: openapi/microsoft-sql-server-data-api-builder-api-openapi.yml
+- description: For Azure SQL management endpoints, authenticate via Microsoft Entra ID against https://management.azure.com/.default. Data API Builder endpoints can be configured to use anonymous, EasyAuth, JWT, or Microsoft Entra ID authentication depending on deployment.
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: oauth2
   source: openapi/microsoft-sql-server-openapi.yml
 scope_count: 1
 scope_names:
@@ -57,7 +93,9 @@ slug: microsoft-sql-server-scopes
 source_filename: microsoft-sql-server-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-sql-server-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-sql-server-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: For Azure SQL management endpoints, authenticate via Microsoft Entra ID against\n    https://management.azure.com/.default. Data API Builder endpoints can be configured to use\n    anonymous, EasyAuth, JWT, or Microsoft Entra ID authentication depending on deployment.\nscopes:\n- scope: https://management.azure.com/.default\n  description: Manage Azure resources\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microsoft-sql-server-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-sql-server-azure-sql-databases-api-openapi.yml, openapi/microsoft-sql-server-azure-sql-servers-api-openapi.yml,\n  openapi/microsoft-sql-server-data-api-builder-api-openapi.yml, openapi/microsoft-sql-server-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/microsoft-sql-server-azure-sql-databases-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: For Azure SQL management endpoints, authenticate via Microsoft Entra ID against\n    https://management.azure.com/.default. Data API Builder endpoints can be configured to use\n    anonymous, EasyAuth, JWT, or Microsoft Entra ID authentication depending on deployment.\n- name: oauth2\n  source: openapi/microsoft-sql-server-azure-sql-servers-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n\
+  \  description: For Azure SQL management endpoints, authenticate via Microsoft Entra ID against\n    https://management.azure.com/.default. Data API Builder endpoints can be configured to use\n    anonymous, EasyAuth, JWT, or Microsoft Entra ID authentication depending on deployment.\n- name: oauth2\n  source: openapi/microsoft-sql-server-data-api-builder-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: For Azure SQL management endpoints, authenticate via Microsoft Entra ID against\n    https://management.azure.com/.default. Data API Builder endpoints can be configured to use\n    anonymous, EasyAuth, JWT, or Microsoft Entra ID authentication depending on deployment.\n- name: oauth2\n  source: openapi/microsoft-sql-server-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: For Azure SQL management endpoints,\
+  \ authenticate via Microsoft Entra ID against\n    https://management.azure.com/.default. Data API Builder endpoints can be configured to use\n    anonymous, EasyAuth, JWT, or Microsoft Entra ID authentication depending on deployment.\nscopes:\n- scope: https://management.azure.com/.default\n  description: Manage Azure resources\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/microsoft-sql-server-azure-sql-databases-api-openapi.yml\n  - openapi/microsoft-sql-server-azure-sql-servers-api-openapi.yml\n  - openapi/microsoft-sql-server-data-api-builder-api-openapi.yml\n  - openapi/microsoft-sql-server-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-sql-server/scopes/microsoft-sql-server-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:

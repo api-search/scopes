@@ -37,7 +37,7 @@ tags:
 - Email
 - SMS
 - Messaging
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

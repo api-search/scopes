@@ -108,7 +108,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Memory
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
 token_bound: false

@@ -95,12 +95,12 @@ source_yaml_url: https://artifacts.apis.io/compuute-se/scopes/compuute-se-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - MCP
 - Compliance
 - Sweden
-- AgenticAI
+- AI Agents
 token_bound: false
 token_urls: []
 ---

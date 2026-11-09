@@ -96,7 +96,7 @@ tags:
 - Authentication
 - Identity
 - Mozilla
-- OpenSource
+- Open Source
 token_bound: false
 token_urls: []
 ---

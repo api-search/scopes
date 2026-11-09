@@ -129,9 +129,8 @@ source_yaml_url: https://artifacts.apis.io/compsniper-com/scopes/compsniper-com-
 summary_line: 4 scopes
 tags:
 - Company
-- API
 - Marketplace
-- E-commerce
+- E-Commerce
 - Data
 - Collectibles
 token_bound: false

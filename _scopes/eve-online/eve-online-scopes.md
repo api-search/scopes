@@ -546,6 +546,7 @@ tags:
 - Gaming
 - Image
 - MMO
+- OAuth
 - REST
 - SSO
 - Static Data

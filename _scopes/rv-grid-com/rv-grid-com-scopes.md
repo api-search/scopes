@@ -41,10 +41,10 @@ source_yaml_url: https://artifacts.apis.io/rv-grid-com/scopes/rv-grid-com-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- DataGrid
+- Data Grid
 - JavaScript
-- UIComponent
-- OpenSource
+- UI Component
+- Open Source
 - ProVersion
 token_bound: false
 token_urls: []

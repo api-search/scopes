@@ -39,9 +39,9 @@ source_yaml_url: https://artifacts.apis.io/push-operations/scopes/push-operation
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Payroll
-- HR
+- Human Resources
 - Workforce Management
-- SaaS
+- Software-as-a-Service
 - Hospitality
 - Company
 token_bound: false

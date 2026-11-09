@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/7bridges/scopes/7bridges-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Supply Chain
-- SaaS
+- Software-as-a-Service
 - Logistics
-- AI
+- Artificial Intelligence
 - Platform
 token_bound: false
 token_urls: []

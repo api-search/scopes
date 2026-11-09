@@ -84,9 +84,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Geocoding
-- Address-Validation
-- Location-Data
-- API
+- Address Validation
+- Location Data
 token_bound: false
 token_urls: []
 ---

@@ -127,9 +127,8 @@ tags:
 - Company
 - Email
 - Address
-- SaaS
-- API
-- WebApp
+- Software-as-a-Service
+- Web App
 token_bound: false
 token_urls: []
 ---

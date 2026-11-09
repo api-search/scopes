@@ -47,6 +47,7 @@ tags:
 - Software-as-a-Service
 - MCP
 - Agent-Native
+- OAuth
 - Authentication
 token_bound: false
 token_urls: []

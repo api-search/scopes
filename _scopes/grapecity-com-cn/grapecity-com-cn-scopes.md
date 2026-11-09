@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/grapecity-com-cn/scopes/grapecity-com
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Software
-- Low-code
+- Low-Code
 - Developer Tools
 - Business Intelligence
 - China

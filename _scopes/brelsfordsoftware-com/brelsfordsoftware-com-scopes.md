@@ -37,7 +37,7 @@ tags:
 - Immunogenetics
 - Games
 - Directory
-- OpenData
+- Open Data
 token_bound: false
 token_urls: []
 ---

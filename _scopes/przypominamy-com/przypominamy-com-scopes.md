@@ -98,7 +98,6 @@ tags:
 - SMS
 - Communications
 - Poland
-- API
 - Messaging
 token_bound: false
 token_urls: []

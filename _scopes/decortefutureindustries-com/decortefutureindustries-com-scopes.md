@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/decortefutureindustries-com/scopes/de
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- HealthTech
-- DeepTech
-- UK
+- Health Tech
+- Deep Tech
+- United Kingdom
 - Cambridge
 - AudioAnalytics
 token_bound: false

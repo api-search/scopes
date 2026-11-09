@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Data
-- AI
+- Artificial Intelligence
 - Search
 - Business
 token_bound: false

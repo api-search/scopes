@@ -64,9 +64,8 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/kryptos-io/scopes/kryptos-io-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Crypto
+- Cryptocurrency
 - Finance
-- API
 - Portfolio
 - Tax
 token_bound: false

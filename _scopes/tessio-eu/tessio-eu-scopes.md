@@ -55,9 +55,8 @@ source_yaml_url: https://artifacts.apis.io/tessio-eu/scopes/tessio-eu-scopes.yml
 summary_line: 2 scopes
 tags:
 - Company
-- AgeVerification
+- Age Verification
 - EU
-- API
 - Identity
 token_bound: false
 token_urls: []

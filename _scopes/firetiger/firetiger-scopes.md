@@ -41,10 +41,8 @@ source_yaml_url: https://artifacts.apis.io/firetiger/scopes/firetiger-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Startup
-- Venture-Backed
+- Startups
 - Technology
-- API
 token_bound: false
 token_urls: []
 ---

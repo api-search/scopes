@@ -36,7 +36,6 @@ tags:
 - Mill Management
 - Software
 - Cloud
-- Operations
 - Inventory
 token_bound: false
 token_urls: []

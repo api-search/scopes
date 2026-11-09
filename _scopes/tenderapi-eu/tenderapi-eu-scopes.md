@@ -49,7 +49,6 @@ tags:
 - EU
 - Procurement
 - Tenders
-- API
 - Data
 token_bound: false
 token_urls: []

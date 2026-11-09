@@ -33,8 +33,8 @@ summary_line: 1 scope
 tags:
 - Company
 - Time Tracking
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Productivity
 token_bound: false
 token_urls: []

@@ -32,7 +32,6 @@ source_yaml_url: https://artifacts.apis.io/rohnelt-dev/scopes/rohnelt-dev-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Software Engineering
-- Operations
 - Consulting
 - Brazil
 - Logistics

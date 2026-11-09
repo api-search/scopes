@@ -70,7 +70,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Developer Tools
-- API
 - OpenAPI
 - MCP
 token_bound: false

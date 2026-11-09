@@ -249,6 +249,7 @@ tags:
 - Latin America
 - Emerging Markets
 - money-services-business
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

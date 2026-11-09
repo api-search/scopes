@@ -71,7 +71,7 @@ tags:
 - MCP
 - A2A
 - Webhook
-- llms-txt
+- Llms.txt
 - Agent-Native
 token_bound: false
 token_urls: []

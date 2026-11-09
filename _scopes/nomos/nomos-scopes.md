@@ -130,8 +130,9 @@ tags:
 - Metering
 - Smart Meter
 - Germany
-- Authentication
+- OAuth
 - Webhook
+- Authentication
 token_bound: false
 token_urls: []
 ---

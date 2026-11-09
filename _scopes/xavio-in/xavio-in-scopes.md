@@ -83,9 +83,6 @@ source_yaml_url: https://artifacts.apis.io/xavio-in/scopes/xavio-in-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
-- Stub
-- Unknown
 - Placeholder
 token_bound: false
 token_urls: []

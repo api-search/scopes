@@ -147,6 +147,7 @@ tags:
 - Patient Engagement
 - Diagnosis
 - Telehealth
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

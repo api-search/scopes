@@ -423,9 +423,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: derived\nsource: openapi/home-con
 source_yaml_url: https://artifacts.apis.io/home-connect/scopes/home-connect-scopes.yml
 summary_line: 63 scopes · authorizationCode
 tags:
-- smart home
-- appliances
-- connected devices
+- Smart Home
+- Appliances
+- Connected Devices
 token_bound: false
 token_urls:
 - https://api.home-connect.com/security/oauth/token

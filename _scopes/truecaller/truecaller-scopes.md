@@ -82,10 +82,11 @@ tags:
 - Caller ID
 - Phone Verification
 - Identity
-- Authentication
+- OAuth
 - Spam Detection
 - Communications
 - Mobile SDK
+- Authentication
 token_bound: false
 token_urls:
 - https://oauth-account-noneu.truecaller.com/v1/token

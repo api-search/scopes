@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/rivio/scopes/rivio-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Procurement
-- SaaS
+- Software-as-a-Service
 - B2B
 - Automation
 token_bound: false

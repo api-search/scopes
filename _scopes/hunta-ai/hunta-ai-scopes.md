@@ -105,9 +105,8 @@ source_yaml_url: https://artifacts.apis.io/hunta-ai/scopes/hunta-ai-scopes.yml
 summary_line: 4 scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
-- API
 - MCP
 - Attestable
 token_bound: false

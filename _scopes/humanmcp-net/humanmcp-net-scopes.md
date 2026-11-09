@@ -36,7 +36,6 @@ tags:
 - Company
 - Human
 - MCP
-- API
 - OpenAPI
 token_bound: false
 token_urls: []

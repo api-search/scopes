@@ -107,11 +107,12 @@ source_yaml_url: https://artifacts.apis.io/shopware/scopes/shopware-scopes.yml
 summary_line: 1 scope · clientCredentials/password
 tags:
 - E-Commerce
-- Open-Source
+- Open Source
 - Headless Commerce
 - B2B
-- B2C
+- Consumer
 - REST
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

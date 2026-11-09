@@ -48,9 +48,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Federation
-- OnPremise
+- On-Premises
 - Commerce
-- API
 token_bound: false
 token_urls: []
 ---

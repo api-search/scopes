@@ -158,11 +158,11 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/adcritter-com/scopes/adcritter-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Marketing
 - Advertising
 - Media Planning
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

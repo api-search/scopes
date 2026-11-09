@@ -35,7 +35,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Search
 - Autocomplete
-- API
 - SEO
 - Data
 - Company

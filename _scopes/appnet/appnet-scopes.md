@@ -81,8 +81,9 @@ tags:
 - Real-Time
 - Streaming
 - Developer Platform
-- Authentication
+- OAuth
 - Defunct
+- Authentication
 token_bound: false
 token_urls: []
 ---

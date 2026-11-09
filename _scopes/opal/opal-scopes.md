@@ -565,8 +565,9 @@ tags:
 - Approvals
 - Digital Asset Management
 - JSON:API
-- Authentication
+- OAuth
 - OpenAPI
+- Authentication
 token_bound: false
 token_urls:
 - /oauth2/token

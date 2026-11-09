@@ -90,7 +90,7 @@ source_yaml_url: https://artifacts.apis.io/paidsync-ai/scopes/paidsync-ai-scopes
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Advertising
 - Automation
 - Marketing

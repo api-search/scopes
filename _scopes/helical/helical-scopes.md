@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/helical/scopes/helical-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Biotech
-- AI
+- Biotechnology
+- Artificial Intelligence
 - Drug Discovery
 - Bioinformatics
 - Platform

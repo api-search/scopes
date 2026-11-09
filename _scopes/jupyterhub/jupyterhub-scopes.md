@@ -157,6 +157,7 @@ tags:
 - Hub
 - Multi-User
 - Notebooks
+- OAuth
 - Python
 token_bound: false
 token_urls:

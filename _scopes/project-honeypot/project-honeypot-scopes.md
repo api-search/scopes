@@ -33,7 +33,7 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/project-honeypot/scopes/project-honeypot-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Anti‑Spam
+- Anti-Spam
 - Security
 - Community
 - Fraud Prevention

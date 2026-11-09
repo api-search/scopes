@@ -33,10 +33,10 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/smirnovlabs-com/scopes/smirnovlabs-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Software Engineering
 - Custom Software
-- Fractional CTO
+- Fractional-CTO
 - Machine Learning
 token_bound: false
 token_urls: []

@@ -141,7 +141,6 @@ tags:
 - Fintech
 - Exchange
 - Payments
-- API
 token_bound: false
 token_urls: []
 ---

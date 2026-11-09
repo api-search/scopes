@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/earthcam/scopes/earthcam-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- webcam
-- construction
+- Webcam
+- Construction
 - visual-data
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

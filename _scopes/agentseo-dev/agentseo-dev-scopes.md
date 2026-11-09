@@ -179,10 +179,9 @@ source_yaml_url: https://artifacts.apis.io/agentseo-dev/scopes/agentseo-dev-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - SEO
-- AI
+- Artificial Intelligence
 - Search
-- API
-- DeveloperTools
+- Developer Tools
 token_bound: false
 token_urls: []
 ---

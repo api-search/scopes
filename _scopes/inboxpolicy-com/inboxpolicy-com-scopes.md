@@ -41,9 +41,8 @@ source_yaml_url: https://artifacts.apis.io/inboxpolicy-com/scopes/inboxpolicy-co
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- EmailVerification
-- API
-- AI
+- Email Verification
+- Artificial Intelligence
 - Payments
 - Pricing
 token_bound: false

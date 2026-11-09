@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/homeboost/scopes/homeboost-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- HomeAutomation
+- Home Automation
 - Energy
 - IoT
-- Startup
+- Startups
 - TrueVentures
 token_bound: false
 token_urls: []

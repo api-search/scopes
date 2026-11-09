@@ -41,8 +41,8 @@ source_yaml_url: https://artifacts.apis.io/modiqo/scopes/modiqo-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Workflow
+- Artificial Intelligence
+- Workflows
 - Automation
 - Platform
 token_bound: false

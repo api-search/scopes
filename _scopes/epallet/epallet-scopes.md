@@ -33,13 +33,13 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/epallet/scopes/epallet-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- e-commerce
-- wholesale
-- marketplace
+- E-Commerce
+- Wholesale
+- Marketplace
 - bulk-buying
-- logistics
+- Logistics
 - B2B
-- retail
+- Retail
 token_bound: false
 token_urls: []
 ---

@@ -47,10 +47,11 @@ tags:
 - Last Mile Delivery
 - Logistics
 - Webhook
-- Authentication
+- OAuth
 - Point-of-Sale
 - Restaurant
 - Delivery
+- Authentication
 token_bound: false
 token_urls:
 - https://integrations-authentication-service.wolt.com/oauth2/token

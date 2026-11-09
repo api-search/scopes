@@ -33,7 +33,7 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/instilus-com/scopes/instilus-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- eCommerce
+- E-Commerce
 - Valuation
 - Shopify
 - Tools

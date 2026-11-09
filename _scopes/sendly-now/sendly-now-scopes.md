@@ -485,7 +485,6 @@ source_yaml_url: https://artifacts.apis.io/sendly-now/scopes/sendly-now-scopes.y
 summary_line: 50 scopes · authorizationCode
 tags:
 - Email
-- API
 - Transactional Email
 - Marketing Campaigns
 - Workflow Automation

@@ -56,7 +56,7 @@ source_yaml_url: https://artifacts.apis.io/aicoolies-com/scopes/aicoolies-com-sc
 summary_line: 7 scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Directory
 - Reviews

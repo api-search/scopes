@@ -47,10 +47,10 @@ source_yaml_url: https://artifacts.apis.io/zeotap/scopes/zeotap-scopes.yml
 summary_line: 3 scopes
 tags:
 - Company
-- AI
-- Customer-Data-Platform
-- Data-Integration
-- Identity-Resolution
+- Artificial Intelligence
+- Customer Data Platform
+- Data Integration
+- Identity Resolution
 token_bound: false
 token_urls: []
 ---

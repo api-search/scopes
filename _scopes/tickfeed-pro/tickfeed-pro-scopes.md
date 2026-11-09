@@ -54,9 +54,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Finance
-- MarketData
-- API
-- Forex
+- Market Data
+- Foreign Exchange
 - Gold
 - MCP
 token_bound: false

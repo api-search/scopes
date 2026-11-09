@@ -48,7 +48,7 @@ source_yaml_url: https://artifacts.apis.io/adwhiz-ai/scopes/adwhiz-ai-scopes.yml
 summary_line: 5 scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Advertising
 - Google Ads
 - Meta Ads

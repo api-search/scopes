@@ -36,7 +36,7 @@ tags:
 - Company
 - Retail
 - Grocery
-- E‑commerce
+- E-Commerce
 - Europe
 token_bound: false
 token_urls: []

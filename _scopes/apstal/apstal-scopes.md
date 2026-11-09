@@ -65,7 +65,7 @@ tags:
 - MCP
 - Agent-Native
 - Cookieless
-- llms-txt
+- Llms.txt
 - BigQuery
 - GDPR
 - A2A

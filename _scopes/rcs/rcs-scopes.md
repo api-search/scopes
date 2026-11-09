@@ -36,7 +36,7 @@ tags:
 - Agriculture
 - Consulting
 - Training
-- Professional-Development
+- Professional Development
 - Australia
 token_bound: false
 token_urls: []

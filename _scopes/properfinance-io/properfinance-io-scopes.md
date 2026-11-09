@@ -35,9 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Finance
 - Reconciliation
-- API
 - Platform
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

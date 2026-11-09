@@ -35,7 +35,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Fantasy Sports
-- API
 - Sports
 - Football
 token_bound: false

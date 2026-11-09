@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: mctechnologies-presence-tasks-api-openapi.yml
-  format: yaml
-  label: Presence API
-  slug: presence-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mctechnologies-presence/openapi/mctechnologies-presence-tasks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -41,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/mctechnologies-presence/scopes/mctech
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- HumanVerification
-- AI
-- OnDemand
+- Human Verification
+- Artificial Intelligence
+- On-Demand
 - Inspection
 token_bound: false
 token_urls: []

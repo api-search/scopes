@@ -65,9 +65,8 @@ source_yaml_url: https://artifacts.apis.io/adsbiq-com/scopes/adsbiq-com-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Advertising
-- DataAnalytics
-- MarketingTechnology
-- API
+- Data Analytics
+- Marketing Technology
 - Company
 token_bound: false
 token_urls: []

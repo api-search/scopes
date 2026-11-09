@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/gt-bio/scopes/gt-bio-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Biotechnology
-- Genetic Medicines
-- AI
+- Genetic Medicine
+- Artificial Intelligence
 - Drug Delivery
-- Startup
+- Startups
 token_bound: false
 token_urls: []
 ---

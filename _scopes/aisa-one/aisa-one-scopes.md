@@ -389,11 +389,10 @@ source_yaml_url: https://artifacts.apis.io/aisa-one/scopes/aisa-one-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data
 - Platform
-- Knowledge-Graph
-- API
+- Knowledge Graph
 token_bound: false
 token_urls: []
 ---

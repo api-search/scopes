@@ -37,7 +37,7 @@ tags:
 - Software Integration
 - Electronic Filing
 - Compliance
-- Partner
+- Partners
 token_bound: false
 token_urls: []
 ---

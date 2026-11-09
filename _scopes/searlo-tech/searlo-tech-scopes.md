@@ -90,8 +90,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Search
 - SERP
-- API
-- AI
+- Artificial Intelligence
 - Data
 token_bound: false
 token_urls: []

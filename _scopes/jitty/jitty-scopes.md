@@ -37,7 +37,7 @@ tags:
 - Company
 - Real Estate
 - Home Buying
-- AI
+- Artificial Intelligence
 - Search
 - Marketplace
 token_bound: false

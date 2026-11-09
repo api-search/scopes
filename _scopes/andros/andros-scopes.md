@@ -35,9 +35,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Healthcare
-- ProviderNetwork
+- Provider Network
 - Credentialing
-- DataManagement
+- Data Management
 token_bound: false
 token_urls: []
 ---

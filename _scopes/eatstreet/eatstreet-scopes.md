@@ -48,6 +48,7 @@ tags:
 - Local Commerce
 - Consumer
 - Point-of-Sale
+- OAuth
 - Authentication
 token_bound: false
 token_urls: []

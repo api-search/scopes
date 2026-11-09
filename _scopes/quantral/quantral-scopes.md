@@ -35,7 +35,7 @@ tags:
 - Finance
 - Data
 - Analytics
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

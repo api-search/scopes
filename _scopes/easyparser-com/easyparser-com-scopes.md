@@ -47,11 +47,10 @@ source_yaml_url: https://artifacts.apis.io/easyparser-com/scopes/easyparser-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
 - Amazon
-- Scraping
-- Real-time
-- Data-Extraction
+- Web Scraping
+- Real-Time
+- Data Extraction
 token_bound: false
 token_urls: []
 ---

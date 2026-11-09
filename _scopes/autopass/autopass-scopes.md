@@ -72,8 +72,9 @@ tags:
 - Payments
 - Automotive
 - Financial Services
-- Authentication
+- OAuth
 - Taiwan
+- Authentication
 token_bound: false
 token_urls:
 - https://api.autopass.xyz/oauth/token

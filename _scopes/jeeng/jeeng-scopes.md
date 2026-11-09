@@ -68,6 +68,7 @@ tags:
 - Reporting
 - Analytics
 - OData
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

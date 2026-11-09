@@ -115,8 +115,9 @@ tags:
 - Pix
 - Brazil
 - FAPI
-- Authentication
+- OAuth
 - Financial Services
+- Authentication
 token_bound: false
 token_urls:
 - https://api-mtls.iniciador.com.br/token

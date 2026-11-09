@@ -66,7 +66,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - FoundryVTT
 - MCP
-- AI
+- Artificial Intelligence
 - Gaming
 - Automation
 token_bound: false

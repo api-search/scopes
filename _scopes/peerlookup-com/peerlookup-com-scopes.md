@@ -34,11 +34,11 @@ source_yaml_url: https://artifacts.apis.io/peerlookup-com/scopes/peerlookup-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Public API
+- Public APIs
 - MCP
 - Knowledge Sharing
 - Open Data
-- Board
+- Boards
 token_bound: false
 token_urls: []
 ---

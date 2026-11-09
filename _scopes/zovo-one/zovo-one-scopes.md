@@ -38,7 +38,7 @@ tags:
 - Productivity
 - Privacy
 - Free Tools
-- Developer
+- Developers
 token_bound: false
 token_urls: []
 ---

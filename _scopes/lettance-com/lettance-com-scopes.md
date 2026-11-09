@@ -43,7 +43,6 @@ tags:
 - Company
 - Leasing
 - Subscription
-- API
 - Automation
 token_bound: false
 token_urls: []

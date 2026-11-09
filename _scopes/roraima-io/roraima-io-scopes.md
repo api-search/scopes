@@ -37,7 +37,7 @@ tags:
 - Booking
 - Hospitality
 - SelfCheckIn
-- SaaS
+- Software-as-a-Service
 - DirectBookings
 token_bound: false
 token_urls: []

@@ -229,7 +229,7 @@ tags:
 - Company
 - Web Scraping
 - AI Agents
-- Search API
+- SERP
 - Data Extraction
 token_bound: false
 token_urls: []

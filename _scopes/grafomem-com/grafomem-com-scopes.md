@@ -248,7 +248,7 @@ tags:
 - Memory
 - Agents
 - Governance
-- AI
+- Artificial Intelligence
 - Runtime
 token_bound: false
 token_urls: []

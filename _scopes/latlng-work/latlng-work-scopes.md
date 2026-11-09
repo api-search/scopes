@@ -49,7 +49,6 @@ tags:
 - Company
 - Geocoding
 - Mapping
-- API
 - Location
 token_bound: false
 token_urls: []

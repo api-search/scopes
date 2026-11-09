@@ -50,7 +50,6 @@ tags:
 - Company
 - Telephony
 - Cloud
-- API
 - Communications
 token_bound: false
 token_urls: []

@@ -137,10 +137,10 @@ source_yaml_url: https://artifacts.apis.io/immix/scopes/immix-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- FinTech
-- Stablecoin
-- FX
-- AI
+- Fintech
+- Stablecoins
+- Foreign Exchange
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

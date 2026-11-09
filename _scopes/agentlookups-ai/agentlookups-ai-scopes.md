@@ -33,7 +33,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Public Records
 - Consumer Tools
-- API
 - Data
 - Beta
 token_bound: false

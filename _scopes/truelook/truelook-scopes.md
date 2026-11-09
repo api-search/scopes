@@ -35,10 +35,10 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Construction
 - Security
-- AI
+- Artificial Intelligence
 - Video
 - Monitoring
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

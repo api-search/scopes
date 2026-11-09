@@ -37,7 +37,6 @@ tags:
 - Sports Data
 - Odds
 - Statistics
-- API
 token_bound: false
 token_urls: []
 ---

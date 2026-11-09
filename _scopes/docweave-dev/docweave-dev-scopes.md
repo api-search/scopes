@@ -40,8 +40,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - PDF
 - Generation
-- API
-- AI
+- Artificial Intelligence
 - Developers
 token_bound: false
 token_urls: []

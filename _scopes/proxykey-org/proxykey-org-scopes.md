@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/proxykey-org/scopes/proxykey-org-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Security
-- API-Management
+- API Management
 - Encryption
-- Key-Vault
-- Developer-Tools
+- Key Vault
+- Developer Tools
 token_bound: false
 token_urls: []
 ---

@@ -46,10 +46,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/deapi-ai/scopes/deapi-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Generative AI
-- API
-- Open-source
+- Open Source
 - Image Generation
 - Text-to-Speech
 - Video Transcription

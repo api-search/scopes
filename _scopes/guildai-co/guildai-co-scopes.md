@@ -39,11 +39,11 @@ source_yaml_url: https://artifacts.apis.io/guildai-co/scopes/guildai-co-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Defense
 - Manufacturing
 - Aerospace
-- Startup
+- Startups
 token_bound: false
 token_urls: []
 ---

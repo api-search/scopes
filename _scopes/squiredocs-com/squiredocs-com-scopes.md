@@ -43,7 +43,7 @@ tags:
 - Open Source
 - Collaboration
 - AI Agents
-- Real-time
+- Real-Time
 - Documentation
 token_bound: false
 token_urls: []

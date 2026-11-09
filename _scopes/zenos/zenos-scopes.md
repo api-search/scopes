@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Robotics
-- AI
+- Artificial Intelligence
 - Industrial
 - Construction
 token_bound: false

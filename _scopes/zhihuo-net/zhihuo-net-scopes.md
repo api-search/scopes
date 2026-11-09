@@ -34,9 +34,6 @@ source_yaml_url: https://artifacts.apis.io/zhihuo-net/scopes/zhihuo-net-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
-- Stub
-- Unknown
 - Harvest
 token_bound: false
 token_urls: []

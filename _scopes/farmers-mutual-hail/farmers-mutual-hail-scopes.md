@@ -38,7 +38,7 @@ tags:
 - Agriculture
 - Hail
 - Crop
-- United-States
+- United States
 token_bound: false
 token_urls: []
 ---

@@ -84,7 +84,6 @@ tags:
 - eBay
 - Listings
 - Pricing
-- API
 - Reseller
 token_bound: false
 token_urls: []

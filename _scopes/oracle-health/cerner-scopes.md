@@ -1907,7 +1907,7 @@ tags:
 - Interoperability
 - Millennium Platform
 - Multi-Tenant
-- Authentication
+- OAuth
 - Oracle
 - Oracle Health
 - Patient Access
@@ -1915,6 +1915,7 @@ tags:
 - SMART Backend Services
 - SMART on FHIR
 - US Core
+- Authentication
 token_bound: false
 token_urls:
 - https://authorization.cerner.com/tenants/{tenant}/hosts/fhir-ehr-code.cerner.com/protocols/oauth2/profiles/smart-v1/token

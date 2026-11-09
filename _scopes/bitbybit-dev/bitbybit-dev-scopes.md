@@ -90,7 +90,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - 3D CAD
 - TypeScript
-- API
 - Platform
 - Creative Coding
 - Modeling

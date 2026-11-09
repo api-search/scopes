@@ -107,8 +107,9 @@ tags:
 - Quests
 - Loyalty
 - GraphQL
-- Authentication
+- OAuth
 - Blockchain
+- Authentication
 token_bound: false
 token_urls:
 - https://api.galxe.com/oauth/auth/2/token

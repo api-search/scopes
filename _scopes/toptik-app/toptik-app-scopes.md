@@ -41,7 +41,6 @@ source_yaml_url: https://artifacts.apis.io/toptik-app/scopes/toptik-app-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
 - TikTok
 - Data
 - Public

@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/scoreia-ai/scopes/scoreia-ai-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Benchmark
+- Artificial Intelligence
+- Benchmarks
 - MCP
 - Gaming
 token_bound: false

@@ -36,7 +36,6 @@ tags:
 - Company
 - Technology
 - Data
-- API
 - Placeholder
 token_bound: false
 token_urls: []

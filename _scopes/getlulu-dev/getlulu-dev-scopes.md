@@ -114,9 +114,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Advertising
 - Monetization
-- AI
+- Artificial Intelligence
 - MCP
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

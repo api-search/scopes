@@ -93,8 +93,9 @@ tags:
 - Media
 - Social
 - Writing
-- Authentication
+- OAuth
 - Deprecated API
+- Authentication
 token_bound: false
 token_urls:
 - https://api.medium.com/v1/tokens

@@ -37,7 +37,6 @@ tags:
 - Weather
 - Data
 - Visualization
-- API
 - Platform
 token_bound: false
 token_urls: []

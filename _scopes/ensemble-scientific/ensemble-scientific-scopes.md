@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Agriculture
 - Irrigation
-- Smart Farming
+- Smart Agriculture
 - IoT
 - Water Management
 - Canada

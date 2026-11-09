@@ -96,7 +96,7 @@ source_yaml_url: https://artifacts.apis.io/intentdocs-com/scopes/intentdocs-com-
 summary_line: 6 scopes · authorizationCode
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Spec-Driven
 - Platform
 - Automation

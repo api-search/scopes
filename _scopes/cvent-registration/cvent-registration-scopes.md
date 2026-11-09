@@ -2045,7 +2045,7 @@ tags:
 - Conferences
 - Event Management
 - Event
-- Authentication
+- OAuth
 - On-Site Check-In
 - Registration
 - REST API
@@ -2054,6 +2054,7 @@ tags:
 - SOAP
 - Ticketing
 - Webhook
+- Authentication
 token_bound: false
 token_urls:
 - https://api-platform.cvent.com/ea/oauth2/token

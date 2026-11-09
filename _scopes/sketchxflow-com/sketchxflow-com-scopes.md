@@ -620,11 +620,11 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/sketchxflow-com/scopes/sketchxflow-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- website-builder
-- design
+- Artificial Intelligence
+- Website Builder
+- Design
 - brand-consistency
-- low-code
+- Low-Code
 token_bound: false
 token_urls: []
 ---

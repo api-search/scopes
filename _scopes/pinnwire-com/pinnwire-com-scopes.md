@@ -44,8 +44,7 @@ tags:
 - Sports
 - Betting
 - Odds
-- Real-time
-- API
+- Real-Time
 token_bound: false
 token_urls: []
 ---

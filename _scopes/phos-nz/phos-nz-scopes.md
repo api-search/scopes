@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/phos-nz/scopes/phos-nz-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- RealEstate
-- PropertyManagement
+- Real Estate
+- Property Management
 - Wellington
 - NZ
 token_bound: false

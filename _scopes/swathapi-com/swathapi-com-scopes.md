@@ -77,10 +77,9 @@ source_yaml_url: https://artifacts.apis.io/swathapi-com/scopes/swathapi-com-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
 - Weather
 - Storm
-- AI
+- Artificial Intelligence
 - NOAA
 token_bound: false
 token_urls: []

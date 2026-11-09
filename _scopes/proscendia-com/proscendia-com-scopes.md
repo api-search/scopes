@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/proscendia-com/scopes/proscendia-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - Consultancy
-- OpenSource
+- Open Source
 - Automation
 token_bound: false
 token_urls: []

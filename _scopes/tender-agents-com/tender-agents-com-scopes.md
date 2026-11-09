@@ -132,11 +132,10 @@ source_yaml_url: https://artifacts.apis.io/tender-agents-com/scopes/tender-agent
 summary_line: 4 scopes · clientCredentials
 tags:
 - EU
-- procurement
-- tenders
-- API
-- AI
-- public-data
+- Procurement
+- Tenders
+- Artificial Intelligence
+- Public Data
 token_bound: false
 token_urls:
 - /oauth/token

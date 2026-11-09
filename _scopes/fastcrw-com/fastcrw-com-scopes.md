@@ -87,7 +87,7 @@ tags:
 - AI Agents
 - Rust
 - Open Source
-- Search API
+- SERP
 token_bound: false
 token_urls: []
 ---

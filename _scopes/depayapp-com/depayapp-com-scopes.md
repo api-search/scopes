@@ -42,10 +42,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Payments
-- Crypto
+- Cryptocurrency
 - Web3
-- FinTech
-- API
+- Fintech
 token_bound: false
 token_urls: []
 ---

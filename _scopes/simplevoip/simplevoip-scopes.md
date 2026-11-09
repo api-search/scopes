@@ -67,8 +67,8 @@ tags:
 - VoIP
 - Communications
 - UCaaS
-- AI
-- SMB
+- Artificial Intelligence
+- Small Business
 token_bound: false
 token_urls: []
 ---

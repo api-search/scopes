@@ -82,11 +82,10 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/riveterhq-com/scopes/riveterhq-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- WebData
+- Artificial Intelligence
+- Web Data
 - Extraction
-- Enrichment
-- API
+- Data Enrichment
 - Automation
 token_bound: false
 token_urls: []

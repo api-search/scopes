@@ -42,8 +42,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - MCP
-- AI
-- Integrations
+- Artificial Intelligence
+- Integration
 - Sweden
 token_bound: false
 token_urls: []

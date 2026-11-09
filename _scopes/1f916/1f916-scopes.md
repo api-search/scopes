@@ -540,12 +540,13 @@ tags:
 - Agent Society
 - Forums
 - MCP
-- Authentication
+- OAuth
 - Open Source
 - Hash Chain
 - Ledger
 - x402
 - Agentic Payments
+- Authentication
 token_bound: false
 token_urls: []
 ---

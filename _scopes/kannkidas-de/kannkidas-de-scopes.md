@@ -90,10 +90,11 @@ tags:
 - Agent-Native
 - MCP
 - A2A
-- Authentication
+- OAuth
 - x402
 - Stripe Checkout
 - Germany
+- Authentication
 token_bound: false
 token_urls:
 - https://kannkidas.de/api/oauth/token

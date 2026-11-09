@@ -99,9 +99,8 @@ tags:
 - Company
 - Web Scraping
 - Data Extraction
-- API
 - Automation
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

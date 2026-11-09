@@ -78,9 +78,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://vocenya
 source_yaml_url: https://artifacts.apis.io/vocenya-com/scopes/vocenya-com-scopes.yml
 summary_line: 11 scopes
 tags:
-- AI
-- Communication
-- CustomerService
+- Artificial Intelligence
+- Communications
+- Customer Service
 - Automation
 - Voice
 token_bound: false

@@ -212,7 +212,7 @@ tags:
 - Data
 - Finance
 - Quantitative
-- MarketData
+- Market Data
 token_bound: false
 token_urls: []
 ---

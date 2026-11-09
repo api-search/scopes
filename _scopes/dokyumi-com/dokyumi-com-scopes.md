@@ -38,10 +38,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/dokyumi-com/scopes/dokyumi-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Document-Parsing
-- API
+- Document Parsing
 - OCR
-- SaaS
+- Software-as-a-Service
 - Finance
 token_bound: false
 token_urls: []

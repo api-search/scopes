@@ -96,8 +96,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Software
-- DeveloperTools
-- APIs
+- Developer Tools
 - Integration
 token_bound: false
 token_urls: []

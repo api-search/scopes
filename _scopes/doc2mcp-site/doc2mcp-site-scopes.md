@@ -37,7 +37,7 @@ tags:
 - AI Integration
 - MCP
 - Developer Tools
-- No-code
+- No-Code
 token_bound: false
 token_urls: []
 ---

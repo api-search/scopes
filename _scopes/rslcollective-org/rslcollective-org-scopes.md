@@ -33,7 +33,7 @@ tags:
 - Collective Rights
 - Publishers
 - Royalties
-- Nonprofit
+- Non-Profit
 - RSL Standard
 token_bound: false
 token_urls: []

@@ -41,11 +41,11 @@ source_yaml_url: https://artifacts.apis.io/kvcore/scopes/kvcore-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- RealEstate
-- SaaS
+- Real Estate
+- Software-as-a-Service
 - CRM
-- Lead-Generation
-- Marketing-Automation
+- Lead Generation
+- Marketing Automation
 token_bound: false
 token_urls: []
 ---

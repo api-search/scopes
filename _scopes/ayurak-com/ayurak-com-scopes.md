@@ -41,10 +41,10 @@ source_yaml_url: https://artifacts.apis.io/ayurak-com/scopes/ayurak-com-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - Healthcare
-- EmergencyResponse
+- Emergency Response
 - Technology
 token_bound: false
 token_urls: []

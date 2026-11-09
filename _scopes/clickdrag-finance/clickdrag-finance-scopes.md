@@ -36,7 +36,6 @@ tags:
 - Finance
 - Cost Segregation
 - Real Estate
-- API
 - Tax
 token_bound: false
 token_urls: []

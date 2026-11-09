@@ -37,7 +37,7 @@ tags:
 - Materials
 - Foundry
 - Machinery
-- Supply-Chain
+- Supply Chain
 - Metallurgy
 token_bound: false
 token_urls: []

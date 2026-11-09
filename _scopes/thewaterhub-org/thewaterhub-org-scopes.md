@@ -41,8 +41,7 @@ tags:
 - Company
 - Water
 - Pricing
-- Dataset
-- API
+- Datasets
 token_bound: false
 token_urls: []
 ---

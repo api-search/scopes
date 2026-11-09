@@ -35,7 +35,7 @@ tags:
 - Real Estate
 - Property Listings
 - Italy
-- Marketplaces
+- Marketplace
 - Open Source
 token_bound: false
 token_urls: []

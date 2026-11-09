@@ -223,7 +223,7 @@ tags:
 - Marketing
 - MCP
 - Media
-- Authentication
+- OAuth
 - OpenAPI
 - Reporting
 - Retail
@@ -231,6 +231,7 @@ tags:
 - Sponsored Products
 - A2A
 - AdTech
+- Authentication
 token_bound: false
 token_urls:
 - https://api.criteo.com/oauth2/token

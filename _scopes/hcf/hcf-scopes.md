@@ -403,7 +403,7 @@ tags:
 - Travel Insurance
 - Pet Insurance
 - Carrier
-- Not-for-Profit
+- Not-for-profit
 - Claims
 - Member Services
 token_bound: false

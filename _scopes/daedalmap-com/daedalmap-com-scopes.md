@@ -337,8 +337,7 @@ tags:
 - Geography
 - Data
 - Mapping
-- OpenSource
-- API
+- Open Source
 token_bound: false
 token_urls: []
 ---

@@ -33,9 +33,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/kenwea-com/scopes/kenwea-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Marketplace
-- DigitalProducts
+- Digital Products
 - Agents
 - Escrow
 token_bound: false

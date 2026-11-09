@@ -378,10 +378,10 @@ source_yaml_url: https://artifacts.apis.io/sitegpt-ai/scopes/sitegpt-ai-scopes.y
 summary_line: 37 scopes
 tags:
 - Company
-- AI
-- Customer Support
-- Chatbot
-- SaaS
+- Artificial Intelligence
+- Customer Service
+- Chatbots
+- Software-as-a-Service
 - Automation
 token_bound: false
 token_urls: []

@@ -27,16 +27,15 @@ api_specs:
 authorization_urls:
 - https://accounts.google.com/o/oauth2/v2/auth
 description: ''
-docs: ''
-flows:
-- authorizationCode
+docs: https://developers.google.com/workspace/sheets/api/scopes
+flows: []
 kind: oauth-scopes
 layout: scope
-method: derived
+method: searched
 name: Google Sheets Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Google Sheets publishes 5 OAuth 2.0 scopes via the authorizationCode flow. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google Sheets API on a user''s behalf.
+overview: 'Google Sheets publishes 5 OAuth 2.0 scopes. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google Sheets API on a user''s behalf.
 
 
   Tokens are issued from https://oauth2.googleapis.com/token.
@@ -45,50 +44,38 @@ overview: 'Google Sheets publishes 5 OAuth 2.0 scopes via the authorizationCode 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Google Sheets
 provider_slug: google-sheets
-schemes:
-- description: OAuth 2.0 authentication for accessing user spreadsheets.
-  flows:
-  - authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth
-    flow: authorizationCode
-    tokenUrl: https://oauth2.googleapis.com/token
-  name: oauth2
-  source: openapi/google-sheets-openapi.yml
+schemes: []
 scope_count: 5
 scope_names:
-- https://www.googleapis.com/auth/drive
-- https://www.googleapis.com/auth/drive.file
 - https://www.googleapis.com/auth/drive.readonly
 - https://www.googleapis.com/auth/spreadsheets
+- https://www.googleapis.com/auth/drive.file
 - https://www.googleapis.com/auth/spreadsheets.readonly
+- https://www.googleapis.com/auth/drive
 scopes:
-- description: Full access to Google Drive files.
-  flows:
-  - authorizationCode
-  scope: https://www.googleapis.com/auth/drive
-- description: Access to files created or opened by the app.
-  flows:
-  - authorizationCode
-  scope: https://www.googleapis.com/auth/drive.file
-- description: Read-only access to Google Drive files.
-  flows:
-  - authorizationCode
+- description: See and download all your Google Drive files
+  flows: []
   scope: https://www.googleapis.com/auth/drive.readonly
-- description: Read and write access to all spreadsheets.
-  flows:
-  - authorizationCode
+- description: See, edit, create, and delete all your Google Sheets spreadsheets
+  flows: []
   scope: https://www.googleapis.com/auth/spreadsheets
-- description: Read-only access to all spreadsheets.
-  flows:
-  - authorizationCode
+- description: See, edit, create, and delete only the specific Google Drive files you use with this app
+  flows: []
+  scope: https://www.googleapis.com/auth/drive.file
+- description: See all your Google Sheets spreadsheets
+  flows: []
   scope: https://www.googleapis.com/auth/spreadsheets.readonly
+- description: See, edit, create, and delete all of your Google Drive files
+  flows: []
+  scope: https://www.googleapis.com/auth/drive
 slug: google-sheets-scopes
 source_filename: google-sheets-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-sheets-openapi.yml\nschemes:\n- name: oauth2\n  source: openapi/google-sheets-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for accessing user spreadsheets.\nscopes:\n- scope: https://www.googleapis.com/auth/drive\n  description: Full access to Google Drive files.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-sheets-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.file\n  description: Access to files created or opened by the app.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-sheets-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.readonly\n  description: Read-only access to Google Drive files.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-sheets-openapi.yml\n- scope: https://www.googleapis.com/auth/spreadsheets\n\
-  \  description: Read and write access to all spreadsheets.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-sheets-openapi.yml\n- scope: https://www.googleapis.com/auth/spreadsheets.readonly\n  description: Read-only access to all spreadsheets.\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-sheets-openapi.yml\n"
+source_yaml: "name: Google Sheets OAuth scopes\ngenerated: '2026-11-04'\nmethod: searched\nsource: https://developers.google.com/workspace/sheets/api/scopes; https://sheets.googleapis.com/$discovery/rest?version=v4 (auth.oauth2.scopes)\ndocs: https://developers.google.com/workspace/sheets/api/scopes\nauthorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\ntokenUrl: https://oauth2.googleapis.com/token\nscopes:\n- scope: https://www.googleapis.com/auth/drive.readonly\n  description: See and download all your Google Drive files\n- scope: https://www.googleapis.com/auth/spreadsheets\n  description: See, edit, create, and delete all your Google Sheets spreadsheets\n- scope: https://www.googleapis.com/auth/drive.file\n  description: See, edit, create, and delete only the specific Google Drive files you use with this app\n- scope: https://www.googleapis.com/auth/spreadsheets.readonly\n  description: See all your Google Sheets spreadsheets\n- scope: https://www.googleapis.com/auth/drive\n\
+  \  description: See, edit, create, and delete all of your Google Drive files\n"
 source_yaml_url: https://artifacts.apis.io/google-sheets/scopes/google-sheets-scopes.yml
-summary_line: 5 scopes · authorizationCode
+summary_line: 5 scopes
 tags:
 - Google Workspace
 - Productivity

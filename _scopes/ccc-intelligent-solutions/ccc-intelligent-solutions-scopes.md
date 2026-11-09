@@ -118,6 +118,7 @@ tags:
 - Insurtech
 - Claims Technology
 - CIECA
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

@@ -41,11 +41,10 @@ source_yaml_url: https://artifacts.apis.io/relaygpu-com/scopes/relaygpu-com-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Compute
 - GPU
 - Cloud
-- API
 token_bound: false
 token_urls: []
 ---

@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Networking
 - BOM
-- AI
+- Artificial Intelligence
 - Automation
 - Cloud
 token_bound: false

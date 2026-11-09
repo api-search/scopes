@@ -42,7 +42,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - YouTube
 - Transcripts
-- API
 - Bulk
 - MCP
 token_bound: false

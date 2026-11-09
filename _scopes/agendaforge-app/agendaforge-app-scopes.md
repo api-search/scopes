@@ -69,7 +69,7 @@ source_yaml_url: https://artifacts.apis.io/agendaforge-app/scopes/agendaforge-ap
 summary_line: 4 scopes
 tags:
 - Event Management
-- SaaS
+- Software-as-a-Service
 - AI-native
 - Conferences
 - Software

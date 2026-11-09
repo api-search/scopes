@@ -43,7 +43,7 @@ tags:
 - Animal Management
 - Electric Fencing
 - Weighing
-- EID
+- eID
 - Watering
 - Security
 token_bound: false

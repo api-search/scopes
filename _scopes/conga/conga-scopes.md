@@ -2267,6 +2267,7 @@ tags:
 - Billing
 - Approvals
 - Contract Management
+- Automation
 token_bound: false
 token_urls:
 - https://login-rls.congacloud.com/api/v1/auth/connect/token

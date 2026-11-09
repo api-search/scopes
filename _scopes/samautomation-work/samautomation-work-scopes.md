@@ -39,11 +39,10 @@ source_yaml_url: https://artifacts.apis.io/samautomation-work/scopes/samautomati
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Video
-- AI
+- Artificial Intelligence
 - JSON
 - Automation
 - Media
-- API
 token_bound: false
 token_urls: []
 ---

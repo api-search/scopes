@@ -34,11 +34,11 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://www.the
 source_yaml_url: https://artifacts.apis.io/theremotesuite-com/scopes/theremotesuite-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- employee-recognition
-- remote-work
-- team-engagement
-- culture
-- SaaS
+- Employee Recognition
+- Remote Work
+- Team Engagement
+- Culture
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

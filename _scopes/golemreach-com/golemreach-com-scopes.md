@@ -41,7 +41,7 @@ tags:
 - Company
 - Gaming
 - MMORPG
-- AI
+- Artificial Intelligence
 - Fantasy
 - Browser
 token_bound: false

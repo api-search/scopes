@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/deployit-ai/scopes/deployit-ai-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - DevOps
 - Analytics
-- Dashboard
+- Dashboards
 token_bound: false
 token_urls: []
 ---

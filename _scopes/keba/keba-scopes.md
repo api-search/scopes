@@ -38,7 +38,6 @@ tags:
 - Company
 - Automation
 - Industrial
-- DigitalSolutions
 - Energy
 token_bound: false
 token_urls: []

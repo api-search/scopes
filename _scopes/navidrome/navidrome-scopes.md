@@ -44,8 +44,8 @@ tags:
 - Music
 - Streaming
 - Self-Hosted
-- Open-Source
-- Media-Server
+- Open Source
+- Media Server
 token_bound: false
 token_urls: []
 ---

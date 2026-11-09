@@ -135,8 +135,7 @@ tags:
 - Company
 - Sports
 - Data
-- Real-time
-- API
+- Real-Time
 - Tennis
 token_bound: false
 token_urls: []

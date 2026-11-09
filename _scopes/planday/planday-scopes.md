@@ -373,6 +373,7 @@ tags:
 - Hospitality
 - Retail
 - REST
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

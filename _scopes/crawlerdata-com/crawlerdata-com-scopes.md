@@ -59,11 +59,10 @@ source_yaml_url: https://artifacts.apis.io/crawlerdata-com/scopes/crawlerdata-co
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Search
-- API
 - Google
 - SERP
 - Data
-- E-commerce
+- E-Commerce
 - SEO
 token_bound: false
 token_urls: []

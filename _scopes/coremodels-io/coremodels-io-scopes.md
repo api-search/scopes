@@ -43,8 +43,8 @@ source_yaml_url: https://artifacts.apis.io/coremodels-io/scopes/coremodels-io-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Data-Modeling
-- API-Platform
+- Data Modeling
+- API Platform
 - Integration
 - Schema-Mapping
 token_bound: false

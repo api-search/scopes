@@ -35,8 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - MCP
-- AI-Agents
-- API-Management
+- AI Agents
+- API Management
 - Hosting
 token_bound: false
 token_urls: []

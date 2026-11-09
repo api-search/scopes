@@ -259,6 +259,8 @@ tags:
 - Lending
 - AgTech
 - Brazil
+- Artificial Intelligence
+- Data
 token_bound: false
 token_urls:
 - https://auth.traive-prod.com/realms/traive-prod/protocol/openid-connect/token

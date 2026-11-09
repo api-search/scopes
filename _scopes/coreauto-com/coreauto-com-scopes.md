@@ -35,8 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Automation
-- AI
-- Workflow
+- Artificial Intelligence
+- Workflows
 - Technology
 - Platform
 token_bound: false

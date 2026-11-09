@@ -62,8 +62,9 @@ tags:
 - MCP
 - A2A
 - AI Agents
-- Authentication
+- OAuth
 - Marketplace
+- Authentication
 token_bound: false
 token_urls: []
 ---

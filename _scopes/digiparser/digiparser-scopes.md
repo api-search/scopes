@@ -53,11 +53,10 @@ source_yaml_url: https://artifacts.apis.io/digiparser/scopes/digiparser-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Document-Processing
-- API
+- Document Processing
 - Automation
-- Data-Extraction
-- AI
+- Data Extraction
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

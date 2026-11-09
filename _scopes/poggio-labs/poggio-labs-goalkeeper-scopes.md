@@ -109,6 +109,8 @@ tags:
 - Goals
 - Gong
 - Slack
+- Revenue
+- Automation
 token_bound: false
 token_urls: []
 ---

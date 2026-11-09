@@ -92,10 +92,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Email
-- Disposable-Email
-- API
+- Disposable Email
 - Security
-- Fraud-Prevention
+- Fraud Prevention
 token_bound: false
 token_urls: []
 ---

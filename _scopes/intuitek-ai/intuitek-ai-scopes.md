@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/intuitek-ai/scopes/intuitek-ai-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Research
 - Systems
 - Missouri

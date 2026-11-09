@@ -266,10 +266,9 @@ tags:
 - Fansly
 - Fanvue
 - 4based
-- API
 - Automation
 - CRM
-- Webhooks
+- Webhook
 - Pricing
 - Documentation
 token_bound: false

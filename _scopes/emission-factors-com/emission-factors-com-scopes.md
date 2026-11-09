@@ -129,7 +129,6 @@ tags:
 - Carbon
 - Energy
 - Sustainability
-- API
 token_bound: false
 token_urls: []
 ---

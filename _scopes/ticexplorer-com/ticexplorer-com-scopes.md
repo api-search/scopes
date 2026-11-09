@@ -82,7 +82,6 @@ summary_line: 1 scope
 tags:
 - Health
 - Finance
-- API
 - Transparency
 - Healthcare
 token_bound: false

@@ -36,8 +36,6 @@ tags:
 - Company
 - Technology
 - Placeholder
-- Unknown
-- Stub
 token_bound: false
 token_urls: []
 ---

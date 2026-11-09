@@ -37,7 +37,7 @@ tags:
 - Printing
 - WhatsApp
 - Quoting
-- SaaS
+- Software-as-a-Service
 - Singapore
 - Malaysia
 token_bound: false

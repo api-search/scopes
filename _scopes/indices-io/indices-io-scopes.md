@@ -41,9 +41,9 @@ source_yaml_url: https://artifacts.apis.io/indices-io/scopes/indices-io-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Infrastructure
-- Real-time
+- Real-Time
 - Security
 token_bound: false
 token_urls: []

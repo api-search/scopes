@@ -33,12 +33,11 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/valence-trade/scopes/valence-trade-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- fintech
-- trading
+- Fintech
+- Trading
 - algorithmic
-- y-combinator
-- startup
-- api
+- Y Combinator
+- Startups
 token_bound: false
 token_urls: []
 ---

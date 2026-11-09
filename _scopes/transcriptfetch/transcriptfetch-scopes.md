@@ -73,7 +73,7 @@ tags:
 - Instagram
 - Podcasts
 - MCP
-- llms-txt
+- Llms.txt
 - OpenAPI
 - Transcription
 - Video

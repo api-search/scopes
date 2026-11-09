@@ -32,11 +32,10 @@ source_yaml_url: https://artifacts.apis.io/attestvio-com/scopes/attestvio-com-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- HR
+- Human Resources
 - Compliance
-- SaaS
+- Software-as-a-Service
 - Software
-- API
 token_bound: false
 token_urls: []
 ---

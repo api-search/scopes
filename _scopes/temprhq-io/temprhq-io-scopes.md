@@ -38,10 +38,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://temprhq
 source_yaml_url: https://artifacts.apis.io/temprhq-io/scopes/temprhq-io-scopes.yml
 summary_line: 1 scope
 tags:
-- AI
+- Artificial Intelligence
 - Platform
 - Automation
-- DeveloperTools
+- Developer Tools
 - Cloud
 token_bound: false
 token_urls: []

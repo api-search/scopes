@@ -96,8 +96,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Data
-- AI
-- Real-time
+- Artificial Intelligence
+- Real-Time
 - MCP
 - Security
 token_bound: false

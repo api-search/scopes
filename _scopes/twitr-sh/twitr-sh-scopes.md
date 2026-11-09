@@ -83,11 +83,10 @@ source_yaml_url: https://artifacts.apis.io/twitr-sh/scopes/twitr-sh-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
 - X
 - Twitter
 - Pay-per-call
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

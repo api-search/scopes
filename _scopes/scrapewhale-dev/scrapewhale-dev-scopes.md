@@ -40,9 +40,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Data
 - Marketing
-- API
-- WebScraping
-- AI
+- Web Scraping
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

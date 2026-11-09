@@ -42,8 +42,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Video
 - Audio
-- MediaProcessing
-- CloudAPI
+- Media Processing
 - FFmpeg
 token_bound: false
 token_urls: []

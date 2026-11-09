@@ -80,7 +80,6 @@ tags:
 - Company
 - Digital Signing
 - eIDAS
-- API
 - Compliance
 token_bound: false
 token_urls:

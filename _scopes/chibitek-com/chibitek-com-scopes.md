@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/chibitek-com/scopes/chibitek-com-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- Managed Services
+- Artificial Intelligence
+- Managed Service
 - IT Support
 - Cloud
 token_bound: false

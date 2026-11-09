@@ -85,7 +85,6 @@ tags:
 - Company
 - Solar
 - Forecast
-- API
 - Renewable Energy
 token_bound: false
 token_urls: []

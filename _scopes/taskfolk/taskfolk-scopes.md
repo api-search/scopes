@@ -506,11 +506,12 @@ tags:
 - REST API
 - OpenAPI
 - Webhook
-- Authentication
+- OAuth
 - Agile
 - Sprints
 - OKRs
 - Developer Tools
+- Authentication
 token_bound: false
 token_urls:
 - https://taskfolk.ai/api/oauth/token

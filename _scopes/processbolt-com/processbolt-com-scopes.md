@@ -35,8 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - VRM
-- VendorRiskManagement
-- SaaS
+- Third-Party Risk Management
+- Software-as-a-Service
 - Healthcare
 - Finance
 token_bound: false

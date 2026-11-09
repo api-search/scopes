@@ -35,9 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Cannabis
-- Track-and-Trace
+- Track and Trace
 - Compliance
-- API
 token_bound: false
 token_urls: []
 ---

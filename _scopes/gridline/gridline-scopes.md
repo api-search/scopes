@@ -94,10 +94,10 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Onboarding
-- IdentityVerification
+- Identity Verification
 - KYC
 - eSigning
-- FraudDetection
+- Fraud Prevention
 - VideoKYC
 - DigitalOnboarding
 - Fintech

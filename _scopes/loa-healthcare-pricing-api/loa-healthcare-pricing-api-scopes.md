@@ -76,7 +76,7 @@ tags:
 - MCP
 - Agent-Native
 - OpenAPI
-- llms-txt
+- Llms.txt
 token_bound: false
 token_urls: []
 ---

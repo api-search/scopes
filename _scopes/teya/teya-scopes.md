@@ -222,6 +222,8 @@ tags:
 - Fintech
 - Merchant Services
 - Europe
+- Card Machines
+- Business Accounts
 token_bound: false
 token_urls:
 - https://id.teya.xyz/oauth/v2/oauth-token

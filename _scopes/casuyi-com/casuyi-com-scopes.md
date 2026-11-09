@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/casuyi-com/scopes/casuyi-com-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Mobile Apps
+- Mobile App
 - Privacy
 - Productivity
 - Health

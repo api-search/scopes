@@ -136,11 +136,11 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/superdocs-app/scopes/superdocs-app-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Document Editing
 - REST API
 - MCP
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

@@ -33,11 +33,11 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/intaker/scopes/intaker-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- LegalTech
-- Law-Firms
+- Artificial Intelligence
+- Legal Tech
+- Law Firms
 - Automation
-- Lead-Generation
+- Lead Generation
 - Company
 token_bound: false
 token_urls: []

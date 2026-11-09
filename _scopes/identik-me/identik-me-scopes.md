@@ -137,10 +137,9 @@ source_yaml_url: https://artifacts.apis.io/identik-me/scopes/identik-me-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- DigitalSignature
-- DocumentAutomation
+- Digital Signature
+- Document Automation
 - Argentina
-- API
 token_bound: false
 token_urls: []
 ---

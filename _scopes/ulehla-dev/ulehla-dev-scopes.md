@@ -33,9 +33,9 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/ulehla-dev/scopes/ulehla-dev-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Fullstack
+- Full-Stack
 - AI Engineer
-- Developer
+- Developers
 - Personal Site
 - Open Source
 token_bound: false

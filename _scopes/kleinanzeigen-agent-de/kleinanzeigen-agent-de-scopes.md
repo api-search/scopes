@@ -70,10 +70,9 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/kleinanzeigen-agent-de/scopes/kleinanzeigen-agent-de-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- API
 - Search
 - Monitoring
-- Market-Analysis
+- Market Analysis
 - Germany
 - Kleinanzeigen
 token_bound: false

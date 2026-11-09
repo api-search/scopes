@@ -59,7 +59,6 @@ tags:
 - Browser Fingerprinting
 - Privacy
 - Analytics
-- API
 - Device Identification
 token_bound: false
 token_urls: []

@@ -139,10 +139,10 @@ source_yaml_url: https://artifacts.apis.io/beatapi/scopes/beatapi-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
-- Unified-API
-- Data-Integration
+- Unified API
+- Data Integration
 token_bound: false
 token_urls: []
 ---

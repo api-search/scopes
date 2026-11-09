@@ -38,9 +38,9 @@ source_yaml_url: https://artifacts.apis.io/volunteerhub/scopes/volunteerhub-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Volunteer Management
-- Nonprofit
+- Non-Profit
 - Scheduling
-- Recruitment
+- Recruiting
 - Platform
 token_bound: false
 token_urls: []

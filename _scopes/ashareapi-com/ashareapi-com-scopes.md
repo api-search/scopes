@@ -52,8 +52,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Finance
-- Stock-Market
-- Data-API
+- Stock Market
+- Data API
 - China
 token_bound: false
 token_urls: []

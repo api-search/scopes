@@ -44,10 +44,10 @@ source_yaml_url: https://artifacts.apis.io/duve/scopes/duve-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Hospitality
-- GuestExperience
-- SaaS
-- AI
-- RevenueOptimization
+- Guest Experience
+- Software-as-a-Service
+- Artificial Intelligence
+- Revenue-Optimization
 - Company
 token_bound: false
 token_urls:

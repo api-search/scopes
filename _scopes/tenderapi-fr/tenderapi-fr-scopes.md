@@ -84,8 +84,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Procurement
-- PublicData
-- API
+- Public Data
 - France
 - Europe
 token_bound: false

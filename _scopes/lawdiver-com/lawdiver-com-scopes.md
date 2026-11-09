@@ -34,9 +34,8 @@ source_yaml_url: https://artifacts.apis.io/lawdiver-com/scopes/lawdiver-com-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- LegalTech
-- LegalResearch
-- API
+- Legal Tech
+- Legal Research
 - Free
 token_bound: false
 token_urls: []

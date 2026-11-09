@@ -89,6 +89,7 @@ tags:
 - MCP
 - Agent-Native
 - Open Banking
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

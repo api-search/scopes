@@ -41,7 +41,7 @@ source_yaml_url: https://artifacts.apis.io/hooklayer-dev/scopes/hooklayer-dev-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - MCP
-- AI
+- Artificial Intelligence
 - Video
 - Marketing
 - Analytics

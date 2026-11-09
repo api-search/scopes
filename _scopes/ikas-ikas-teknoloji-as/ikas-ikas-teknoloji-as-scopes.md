@@ -107,9 +107,10 @@ tags:
 - Inventory
 - GraphQL
 - Webhook
-- Authentication
+- OAuth
 - SDK
 - MCP
+- Authentication
 token_bound: false
 token_urls:
 - https://{store_name}.myikas.com/api/admin/oauth/token

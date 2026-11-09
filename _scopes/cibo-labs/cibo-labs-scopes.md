@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/cibo-labs/scopes/cibo-labs-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Agriculture
-- DataAnalytics
+- Data Analytics
 - Geospatial
-- SatelliteImagery
-- FarmManagement
+- Satellite Imagery
+- Farm Management
 token_bound: false
 token_urls: []
 ---

@@ -41,8 +41,7 @@ source_yaml_url: https://artifacts.apis.io/apione-store/scopes/apione-store-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - B2B
-- Enrichment
-- API
+- Data Enrichment
 - Data
 - GCC
 - MENA

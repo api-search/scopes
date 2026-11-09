@@ -42,7 +42,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Web Scraping
-- AI
+- Artificial Intelligence
 - Data
 - MCP
 token_bound: false

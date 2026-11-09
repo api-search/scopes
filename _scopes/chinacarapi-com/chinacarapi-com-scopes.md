@@ -42,9 +42,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Automotive
 - Data
-- API
 - China
-- UsedCars
+- Used Cars
 token_bound: false
 token_urls: []
 ---

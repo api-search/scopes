@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-10-21'\nmethod: none\nsource: openapi/firetail-op
 source_yaml_url: https://artifacts.apis.io/firetail/scopes/firetail-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Security
 - Governance
 - Platform

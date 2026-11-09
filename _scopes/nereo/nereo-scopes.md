@@ -52,11 +52,11 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/nereo/scopes/nereo-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Marketing
 - Creator Tools
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

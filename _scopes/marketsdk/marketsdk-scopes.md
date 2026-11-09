@@ -113,8 +113,7 @@ source_yaml_url: https://artifacts.apis.io/marketsdk/scopes/marketsdk-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Marketplace
-- API
-- SaaS
+- Software-as-a-Service
 - Payments
 - Trust
 token_bound: false

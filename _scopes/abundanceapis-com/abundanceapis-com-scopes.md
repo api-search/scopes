@@ -50,9 +50,8 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/abundanceapis-com/scopes/abundanceapis-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- APIs
-- DeveloperTools
-- DataValidation
+- Developer Tools
+- Data Validation
 - Geolocation
 - Finance
 - Utilities

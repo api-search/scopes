@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: arcwise-openapi-generated.yml
-  format: yaml
-  label: Arcwise API
-  slug: arcwise-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/arcwise/openapi/_ae-authored/arcwise-openapi-generated.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -41,10 +34,12 @@ source_yaml_url: https://artifacts.apis.io/arcwise/scopes/arcwise-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Metrics
 - Analytics
 - Decision-Making
+- Business Intelligence
+- Root Cause Analysis
 token_bound: false
 token_urls: []
 ---

@@ -36,7 +36,7 @@ source_yaml_url: https://artifacts.apis.io/savedthat-app/scopes/savedthat-app-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Video
-- AI
+- Artificial Intelligence
 - Search
 - Transcription
 - Productivity

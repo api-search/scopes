@@ -66,10 +66,9 @@ source_yaml_url: https://artifacts.apis.io/grabbit-live/scopes/grabbit-live-scop
 summary_line: 1 scope · authorizationCode
 tags:
 - Company
-- Screenshot
-- AI-Agent
+- Screenshots
+- AI Agents
 - Automation
-- API
 - Visual
 token_bound: false
 token_urls:

@@ -67,8 +67,7 @@ tags:
 - Company
 - Marketplace
 - Deals
-- E-commerce
-- API
+- E-Commerce
 token_bound: false
 token_urls: []
 ---

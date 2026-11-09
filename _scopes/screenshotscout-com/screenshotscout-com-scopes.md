@@ -41,10 +41,9 @@ source_yaml_url: https://artifacts.apis.io/screenshotscout-com/scopes/screenshot
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Screenshots
-- API
-- WebAutomation
-- DeveloperTools
-- SaaS
+- Browser Automation
+- Developer Tools
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

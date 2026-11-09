@@ -198,10 +198,11 @@ tags:
 - Employee Advocacy
 - Customer Service
 - SCIM
-- Authentication
+- OAuth
 - Webhook
 - Scheduling
 - Canada
+- Authentication
 token_bound: false
 token_urls:
 - https://platform.hootsuite.com/oauth2/token

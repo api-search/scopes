@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/star-micronics/scopes/star-micronics-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- POS
+- Point-of-Sale
 - Hardware
 - Printing
 - Cloud

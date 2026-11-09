@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/binstockly-com/scopes/binstockly-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Auto Parts
-- Inventory Management
+- Inventory
 - Software
 - Small Business
 - Free Tools

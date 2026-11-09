@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/rootz-global/scopes/rootz-global-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Quality
 - DataOwnership
-- ConfidentialComputing
+- Confidential Computing
 token_bound: false
 token_urls: []
 ---

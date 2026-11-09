@@ -33,11 +33,10 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/curlshot-com/scopes/curlshot-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Screenshot
-- API
+- Screenshots
 - Web
 - Automation
-- DeveloperTools
+- Developer Tools
 token_bound: false
 token_urls: []
 ---

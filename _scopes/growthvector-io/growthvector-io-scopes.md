@@ -36,7 +36,6 @@ tags:
 - SEO
 - Growth Marketing
 - Data Extraction
-- Web Tools
 - Small Business
 token_bound: false
 token_urls: []

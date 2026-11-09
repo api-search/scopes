@@ -74,11 +74,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://api.llc
 source_yaml_url: https://artifacts.apis.io/llcdrop/scopes/llcdrop-scopes.yml
 summary_line: 1 scope
 tags:
-- lead-generation
-- business-data
-- marketing
-- real-estate
-- api
+- Lead Generation
+- Business Data
+- Marketing
+- Real Estate
 token_bound: false
 token_urls: []
 ---

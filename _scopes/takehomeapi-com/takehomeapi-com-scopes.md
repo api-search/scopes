@@ -53,7 +53,7 @@ source_yaml_url: https://artifacts.apis.io/takehomeapi-com/scopes/takehomeapi-co
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- UK
+- United Kingdom
 - Finance
 - Tax
 - Payroll

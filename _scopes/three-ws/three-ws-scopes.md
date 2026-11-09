@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/three-ws/scopes/three-ws-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - 3D
 - Agents
 - Web3

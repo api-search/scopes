@@ -304,8 +304,9 @@ tags:
 - Telehealth
 - Health and Wellness
 - REST API
-- Authentication
+- OAuth
 - Webhook
+- Authentication
 token_bound: false
 token_urls:
 - https://login.id.janeapp.com/realms/jane_partner_sandbox/protocol/openid-connect/token

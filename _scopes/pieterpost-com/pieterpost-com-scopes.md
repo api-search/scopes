@@ -43,7 +43,6 @@ tags:
 - Mail
 - Postal
 - Printing
-- API
 - Letters
 - Postcards
 token_bound: false

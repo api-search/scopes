@@ -42,7 +42,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Customer Experience
 - CRM
-- AI
+- Artificial Intelligence
 - Automation
 - Contact Center
 token_bound: false

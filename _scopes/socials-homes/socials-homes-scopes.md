@@ -33,10 +33,10 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Housing
-- Rental
+- Rentals
 - International
 - WhatsApp
-- RealEstate
+- Real Estate
 token_bound: false
 token_urls: []
 ---

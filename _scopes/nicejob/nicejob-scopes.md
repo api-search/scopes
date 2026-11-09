@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/nicejob/scopes/nicejob-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Reputation Marketing
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Service Business
-- Customer Reviews
+- CustomerReviews
 token_bound: false
 token_urls: []
 ---

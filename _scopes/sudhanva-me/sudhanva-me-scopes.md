@@ -56,7 +56,7 @@ tags:
 - Engineering
 - Personal Site
 - San Francisco
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

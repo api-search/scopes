@@ -31,11 +31,11 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/opendtu/scopes/opendtu-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- solar
-- firmware
-- open-source
-- iot
-- energy-monitoring
+- Solar
+- Firmware
+- Open Source
+- IoT
+- Energy Monitoring
 token_bound: false
 token_urls: []
 ---

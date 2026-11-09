@@ -39,10 +39,10 @@ source_yaml_url: https://artifacts.apis.io/weflow/scopes/weflow-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - RevenueAI
-- RevOps
+- Revenue Operations
 - Salesforce
 - Automation
-- AI
+- Artificial Intelligence
 - Analytics
 token_bound: false
 token_urls: []

@@ -37,7 +37,7 @@ tags:
 - Game Development
 - Collaboration
 - Revenue Sharing
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

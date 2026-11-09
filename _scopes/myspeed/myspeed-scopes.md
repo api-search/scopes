@@ -36,7 +36,7 @@ tags:
 - Company
 - Internet
 - Monitoring
-- Open-Source
+- Open Source
 - Analytics
 token_bound: false
 token_urls: []

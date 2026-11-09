@@ -102,7 +102,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Finance
-- Crypto
+- Cryptocurrency
 - Trading
 - Automation
 - Solana

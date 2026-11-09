@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/developerpoetry-com/scopes/developerp
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Poetry
-- Developer
-- AI
+- Developers
+- Artificial Intelligence
 - Community
 - Platform
 token_bound: false

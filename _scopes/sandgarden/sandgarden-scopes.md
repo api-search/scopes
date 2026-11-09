@@ -36,7 +36,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Incubator
-- Startup
+- Startups
 - Technology
 token_bound: false
 token_urls: []

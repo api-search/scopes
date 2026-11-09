@@ -36,7 +36,6 @@ tags:
 - SMS
 - Messaging
 - Telecommunications
-- API
 - Russia
 token_bound: false
 token_urls: []

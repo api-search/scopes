@@ -33,10 +33,10 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/heru/scopes/heru-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- FinTech
-- TaxAutomation
+- Fintech
+- Tax Automation
 - Mexico
-- SaaS
+- Software-as-a-Service
 - Accounting
 token_bound: false
 token_urls: []

@@ -69,10 +69,9 @@ source_yaml_url: https://artifacts.apis.io/banksapi/scopes/banksapi-scopes.yml
 summary_line: 5 scopes · clientCredentials
 tags:
 - Banking
-- API
-- FinTech
+- Fintech
 - Payments
-- DataAnalytics
+- Data Analytics
 token_bound: false
 token_urls:
 - /auth/oauth2/token

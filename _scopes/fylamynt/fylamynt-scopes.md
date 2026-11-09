@@ -43,7 +43,7 @@ tags:
 - Company
 - Cloud
 - Automation
-- Incident-Response
+- Incident Response
 - Orchestration
 - Platform
 token_bound: false

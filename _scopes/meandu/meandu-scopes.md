@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Hospitality
-- SaaS
+- Software-as-a-Service
 - Payments
 - Reservations
 token_bound: false

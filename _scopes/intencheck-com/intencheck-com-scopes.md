@@ -97,9 +97,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: none\nsource: openapi/intencheck-
 source_yaml_url: https://artifacts.apis.io/intencheck-com/scopes/intencheck-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- NLP
-- TextAnalysis
+- Artificial Intelligence
+- Natural Language Processing
+- Text Analysis
 - Sentiment
 - Emotion
 token_bound: false

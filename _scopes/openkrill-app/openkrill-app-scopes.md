@@ -42,9 +42,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - MarineBiology
-- DataAnalytics
+- Data Analytics
 - EnvironmentalResearch
-- OpenData
+- Open Data
 token_bound: false
 token_urls: []
 ---

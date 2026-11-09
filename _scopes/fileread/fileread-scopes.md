@@ -33,10 +33,10 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/fileread/scopes/fileread-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- LegalTech
+- Artificial Intelligence
+- Legal Tech
 - Litigation
-- DataIntelligence
+- Data Intelligence
 - Automation
 token_bound: false
 token_urls: []

@@ -32,7 +32,6 @@ source_yaml_url: https://artifacts.apis.io/sendfaxfast-com/scopes/sendfaxfast-co
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Fax
-- API
 - Payments
 - Healthcare
 - Government

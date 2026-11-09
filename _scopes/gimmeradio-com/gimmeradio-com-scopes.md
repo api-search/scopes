@@ -35,7 +35,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Vinyl
 - Metal Music
-- Collections
+- Collection
 - Vinyl Club
 - Bundles
 token_bound: false

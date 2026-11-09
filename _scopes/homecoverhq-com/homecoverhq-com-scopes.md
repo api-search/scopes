@@ -55,8 +55,7 @@ tags:
 - Company
 - Insurance
 - Data
-- RealEstate
-- API
+- Real Estate
 token_bound: false
 token_urls: []
 ---

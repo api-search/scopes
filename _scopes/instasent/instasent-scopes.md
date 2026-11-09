@@ -305,7 +305,7 @@ tags:
 - SMS
 - RCS
 - WhatsApp
-- AI
+- Artificial Intelligence
 - Marketing
 token_bound: false
 token_urls:

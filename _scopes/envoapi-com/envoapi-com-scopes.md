@@ -44,7 +44,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Data Enrichment
 - B2B
-- API
 - LinkedIn
 - Email Verification
 token_bound: false

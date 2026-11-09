@@ -36,7 +36,7 @@ tags:
 - Company
 - Insurance
 - Small Business
-- FinTech
+- Fintech
 - US
 token_bound: false
 token_urls: []

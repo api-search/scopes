@@ -41,7 +41,7 @@ source_yaml_url: https://artifacts.apis.io/ipvolt-com/scopes/ipvolt-com-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Proxy
-- DeveloperTools
+- Developer Tools
 - Infrastructure
 - Networking
 - Data

@@ -37,7 +37,6 @@ tags:
 - Oncology
 - Biotechnology
 - Healthcare
-- Venture-backed
 token_bound: false
 token_urls: []
 ---

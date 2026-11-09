@@ -34,11 +34,10 @@ source_yaml_url: https://artifacts.apis.io/instapaper/scopes/instapaper-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- read-it-later
-- productivity
-- web-service
-- bookmarking
-- API
+- Read-it-later
+- Productivity
+- Web Service
+- Bookmarking
 token_bound: false
 token_urls: []
 ---

@@ -50,10 +50,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/sitey-my/scopes/sitey-my-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- WebsiteBuilder
-- NoSignUp
-- Subdomain
+- Artificial Intelligence
+- Website Builder
+- Sub Domain
 - MCP
 token_bound: false
 token_urls: []

@@ -36,8 +36,8 @@ tags:
 - Agriculture
 - Autonomous Vehicles
 - Tractor Retrofit
-- Precision Farming
-- AI
+- Precision Agriculture
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

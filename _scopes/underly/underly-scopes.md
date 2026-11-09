@@ -38,7 +38,7 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/underly/scopes/underly-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- FinTech
+- Fintech
 - Banking
 - Data Analysis
 - Lending

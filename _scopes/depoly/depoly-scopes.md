@@ -36,7 +36,7 @@ tags:
 - Company
 - Recycling
 - Plastics
-- CircularEconomy
+- Circular Economy
 - Technology
 token_bound: false
 token_urls: []

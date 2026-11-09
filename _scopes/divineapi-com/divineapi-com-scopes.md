@@ -39,9 +39,8 @@ source_yaml_url: https://artifacts.apis.io/divineapi-com/scopes/divineapi-com-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Astrology
-- API
 - Data
-- Developer
+- Developers
 - Platform
 token_bound: false
 token_urls: []

@@ -83,10 +83,9 @@ source_yaml_url: https://artifacts.apis.io/typesearch-ai/scopes/typesearch-ai-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Search
-- API
-- SaaS
+- Software-as-a-Service
 - Data
 token_bound: false
 token_urls: []

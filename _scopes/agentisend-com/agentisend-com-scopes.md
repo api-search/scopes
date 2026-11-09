@@ -209,8 +209,7 @@ tags:
 - Email
 - Transactional Email
 - AI Agents
-- API
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

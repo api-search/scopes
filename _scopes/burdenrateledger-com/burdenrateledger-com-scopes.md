@@ -49,8 +49,7 @@ tags:
 - Company
 - Labor
 - Calculator
-- SmallBusiness
-- API
+- Small Business
 token_bound: false
 token_urls: []
 ---

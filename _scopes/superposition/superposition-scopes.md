@@ -47,9 +47,9 @@ source_yaml_url: https://artifacts.apis.io/superposition/scopes/superposition-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Recruiting
-- Startup
+- Startups
 - Talent
 - Hiring
 token_bound: false

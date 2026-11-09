@@ -35,10 +35,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - HTTP
-- StatusCodes
-- DeveloperTools
-- API
-- OpenSource
+- Status-Codes
+- Developer Tools
+- Open Source
 token_bound: false
 token_urls: []
 ---

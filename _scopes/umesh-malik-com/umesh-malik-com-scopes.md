@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/umesh-malik-com/scopes/umesh-malik-co
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cloud
 - Observability
-- DeveloperTools
+- Developer Tools
 token_bound: false
 token_urls: []
 ---

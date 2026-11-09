@@ -100,7 +100,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - LLM
 - API Gateway
-- AI
+- Artificial Intelligence
 - Machine Learning
 - Developer Tools
 token_bound: false

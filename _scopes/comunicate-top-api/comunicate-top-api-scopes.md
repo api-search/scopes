@@ -174,6 +174,7 @@ tags:
 - MCP
 - Open Data
 - Webhook
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

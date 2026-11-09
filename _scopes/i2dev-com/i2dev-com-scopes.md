@@ -32,11 +32,11 @@ source_yaml_url: https://artifacts.apis.io/i2dev-com/scopes/i2dev-com-scopes.yml
 summary_line: 1 scope
 tags:
 - Company
-- DeveloperTools
-- VisualRegression
+- Developer Tools
+- Visual Regression
 - CI
-- OpenSource
-- SaaS
+- Open Source
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

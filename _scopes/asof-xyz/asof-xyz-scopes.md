@@ -39,10 +39,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Finance
-- Crypto
-- Wallet
+- Cryptocurrency
+- Wallets
 - Analytics
-- API
 token_bound: false
 token_urls: []
 ---

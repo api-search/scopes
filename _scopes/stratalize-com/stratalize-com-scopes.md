@@ -44,7 +44,7 @@ tags:
 - Construction
 - Project Controls
 - Schedule Management
-- AI
+- Artificial Intelligence
 - Compliance
 token_bound: false
 token_urls: []

@@ -492,10 +492,11 @@ tags:
 - E-Signature
 - Clickwrap
 - Artificial Intelligence
-- Authentication
+- OAuth
 - SCIM
 - Webhook
 - Contract Management
+- Authentication
 token_bound: false
 token_urls:
 - https://na1.ironcladapp.com/oauth/token

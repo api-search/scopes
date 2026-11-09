@@ -1338,6 +1338,7 @@ tags:
 - Authentication
 - Authorization
 - Identity
+- OAuth
 - OpenID Connect
 - SSO
 - Identity Federation

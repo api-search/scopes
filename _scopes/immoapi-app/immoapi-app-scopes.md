@@ -43,7 +43,6 @@ tags:
 - Real Estate
 - France
 - Data
-- API
 - Open Data
 - Property
 token_bound: false

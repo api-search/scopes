@@ -212,7 +212,7 @@ summary_line: 5 scopes · authorizationCode/clientCredentials
 tags:
 - Company
 - Digital Trust
-- Electronic Signature
+- E-Signature
 - Identity Verification
 - Digital Identity
 - Trust Services

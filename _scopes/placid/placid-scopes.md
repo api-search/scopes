@@ -42,8 +42,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Automation
 - Creative
-- API
-- Image-Generation
+- Image Generation
 - No-Code
 token_bound: false
 token_urls: []

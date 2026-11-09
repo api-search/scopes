@@ -699,6 +699,7 @@ tags:
 - Revenue Management
 - PMS
 - MCP
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

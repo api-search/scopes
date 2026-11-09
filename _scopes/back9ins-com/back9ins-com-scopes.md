@@ -41,10 +41,10 @@ source_yaml_url: https://artifacts.apis.io/back9ins-com/scopes/back9ins-com-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Insurance
-- InsurTech
-- SaaS
+- Insurtech
+- Software-as-a-Service
 - B2B
-- LifeInsurance
+- Life Insurance
 token_bound: false
 token_urls: []
 ---

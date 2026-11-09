@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/getmealticket-com/scopes/getmealticke
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Foodservice
+- Food Service
 - Profitability
-- SaaS
+- Software-as-a-Service
 - B2B
 token_bound: false
 token_urls: []

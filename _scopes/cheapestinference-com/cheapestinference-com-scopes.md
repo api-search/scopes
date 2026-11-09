@@ -54,11 +54,11 @@ source_yaml: 'name: CheapestInference scopes
 source_yaml_url: https://artifacts.apis.io/cheapestinference-com/scopes/cheapestinference-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Inference
 - LLM
-- Flat-rate
-- SaaS
+- Flat Rate
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

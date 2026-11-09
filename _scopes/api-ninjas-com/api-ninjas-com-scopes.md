@@ -881,10 +881,9 @@ source_yaml_url: https://artifacts.apis.io/api-ninjas-com/scopes/api-ninjas-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
 - Data
 - Finance
-- Developer
+- Developers
 token_bound: false
 token_urls: []
 ---

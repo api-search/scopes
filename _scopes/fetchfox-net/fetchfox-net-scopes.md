@@ -32,7 +32,6 @@ source_yaml_url: https://artifacts.apis.io/fetchfox-net/scopes/fetchfox-net-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Social Data
-- API
 - Media
 - YouTube
 - Instagram

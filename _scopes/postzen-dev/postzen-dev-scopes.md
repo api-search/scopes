@@ -112,11 +112,10 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/postzen-dev/scopes/postzen-dev-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- social-media
-- api
-- developer-tools
-- ai-agents
-- automation
+- Social Media
+- Developer Tools
+- AI Agents
+- Automation
 token_bound: false
 token_urls: []
 ---

@@ -240,8 +240,8 @@ tags:
 - Company
 - Payments
 - Fintech
-- Marketplaces
-- Digital Wallets
+- Marketplace
+- Digital Wallet
 - Payouts
 - Australia
 - PayTo

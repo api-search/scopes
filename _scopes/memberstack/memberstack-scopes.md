@@ -42,7 +42,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Membership
 - Webflow
-- SaaS
+- Software-as-a-Service
 - Authentication
 - Payments
 token_bound: false

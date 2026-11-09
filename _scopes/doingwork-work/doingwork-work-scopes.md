@@ -68,9 +68,8 @@ source_yaml_url: https://artifacts.apis.io/doingwork-work/scopes/doingwork-work-
 summary_line: 4 scopes · authorizationCode
 tags:
 - Company
-- Field Service
+- Field Service Management
 - Invoicing
-- API
 - Mobile
 token_bound: false
 token_urls:

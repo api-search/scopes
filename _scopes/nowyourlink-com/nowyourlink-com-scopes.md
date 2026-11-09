@@ -104,8 +104,7 @@ summary_line: 8 scopes
 tags:
 - Advertising
 - Marketplace
-- Auction
-- API
+- Auctions
 - Technology
 token_bound: false
 token_urls: []

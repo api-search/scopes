@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/acjlabs-com/scopes/acjlabs-com-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- AgenticCommerce
-- OpenSource
+- Artificial Intelligence
+- Agentic Commerce
+- Open Source
 - Australia
 token_bound: false
 token_urls: []

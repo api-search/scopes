@@ -69,11 +69,10 @@ source_yaml_url: https://artifacts.apis.io/ecommercedataapi-com/scopes/ecommerce
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- ecommerce
-- data
-- api
-- amazon
-- market-research
+- E-Commerce
+- Data
+- Amazon
+- Market Research
 token_bound: false
 token_urls: []
 ---

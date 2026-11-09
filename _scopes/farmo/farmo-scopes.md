@@ -35,8 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Agriculture
 - Industrial
-- SmartCity
-- RemoteMonitoring
+- Smart City
+- Remote Monitoring
 - Automation
 token_bound: false
 token_urls: []

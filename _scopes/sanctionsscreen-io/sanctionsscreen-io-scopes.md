@@ -36,8 +36,7 @@ tags:
 - Company
 - Sanctions
 - Compliance
-- API
-- FinTech
+- Fintech
 token_bound: false
 token_urls: []
 ---

@@ -37,7 +37,6 @@ tags:
 - IoT
 - Connectivity
 - Industrial
-- API
 token_bound: false
 token_urls: []
 ---

@@ -1,17 +1,41 @@
 ---
 api_specs:
+- filename: microsoft-azure-integration-services-azure-logic-apps-openapi.yml
+  format: yaml
+  label: Azure Logic Apps
+  slug: azure-logic-apps
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-logic-apps-openapi.yml
+- filename: microsoft-azure-integration-services-azure-service-bus-openapi.yml
+  format: yaml
+  label: Azure Service Bus
+  slug: azure-service-bus
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-service-bus-openapi.yml
+- filename: microsoft-azure-integration-services-azure-event-grid-openapi.yml
+  format: yaml
+  label: Azure Event Grid
+  slug: azure-event-grid
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-event-grid-openapi.yml
+- filename: microsoft-azure-integration-services-azure-event-hubs-openapi.yml
+  format: yaml
+  label: Azure Event Hubs
+  slug: azure-event-hubs
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-event-hubs-openapi.yml
 - filename: microsoft-azure-integration-services-operations-api-openapi.yml
   format: yaml
   label: Microsoft Azure Integration Services Operations API
   slug: microsoft-azure-integration-services-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-operations-api-openapi.yml
-- filename: microsoft-azure-integration-services-services-api-openapi.yml
+- filename: microsoft-azure-integration-services-azure-api-management-openapi.yml
   format: yaml
-  label: Microsoft Azure Integration Services API
+  label: Azure API Management
   slug: microsoft-azure-integration-services-services-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-services-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-api-management-openapi.yml
 authorization_urls:
 - https://login.microsoftonline.com/common/oauth2/authorize
 description: ''
@@ -36,12 +60,54 @@ schemes:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
   name: azure_auth
+  source: openapi/microsoft-azure-integration-services-azure-api-management-openapi.yml
+- description: Azure Active Directory OAuth2 Flow
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/microsoft-azure-integration-services-azure-event-grid-openapi.yml
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/microsoft-azure-integration-services-azure-event-hubs-openapi.yml
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/microsoft-azure-integration-services-azure-logic-apps-openapi.yml
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/microsoft-azure-integration-services-azure-service-bus-openapi.yml
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/microsoft-azure-integration-services-operations-api-openapi.yml
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
+  source: openapi/microsoft-azure-integration-services-services-api-openapi.yml
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+  name: azure_auth
   source: openapi/microsoft-azure-integration-services-openapi.yml
 scope_count: 1
 scope_names:
 - user_impersonation
 scopes:
-- description: Impersonate your user account
+- description: impersonate your user account
   flows:
   - implicit
   scope: user_impersonation
@@ -49,7 +115,10 @@ slug: microsoft-azure-integration-services-scopes
 source_filename: microsoft-azure-integration-services-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-integration-services-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-integration-services-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: Impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-integration-services-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-integration-services-azure-api-management-openapi.yml, openapi/microsoft-azure-integration-services-azure-event-grid-openapi.yml,\n  openapi/microsoft-azure-integration-services-azure-event-hubs-openapi.yml, openapi/microsoft-azure-integration-services-azure-logic-apps-openapi.yml,\n  openapi/microsoft-azure-integration-services-azure-service-bus-openapi.yml, openapi/microsoft-azure-integration-services-openapi.yml,\n  openapi/microsoft-azure-integration-services-operations-api-openapi.yml, openapi/microsoft-azure-integration-services-services-api-openapi.yml\nschemes:\n- name: azure_auth\n  source: openapi/microsoft-azure-integration-services-azure-api-management-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-integration-services-azure-event-grid-openapi.yml\n\
+  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow\n- name: azure_auth\n  source: openapi/microsoft-azure-integration-services-azure-event-hubs-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-integration-services-azure-logic-apps-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-integration-services-azure-service-bus-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-integration-services-operations-api-openapi.yml\n\
+  \  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-integration-services-services-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\n- name: azure_auth\n  source: openapi/microsoft-azure-integration-services-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n  description: Azure Active Directory OAuth2 Flow.\nscopes:\n- scope: user_impersonation\n  description: impersonate your user account\n  flows:\n  - implicit\n  sources:\n  - openapi/microsoft-azure-integration-services-azure-api-management-openapi.yml\n  - openapi/microsoft-azure-integration-services-azure-event-grid-openapi.yml\n  - openapi/microsoft-azure-integration-services-azure-event-hubs-openapi.yml\n\
+  \  - openapi/microsoft-azure-integration-services-azure-logic-apps-openapi.yml\n  - openapi/microsoft-azure-integration-services-azure-service-bus-openapi.yml\n  - openapi/microsoft-azure-integration-services-openapi.yml\n  - openapi/microsoft-azure-integration-services-operations-api-openapi.yml\n  - openapi/microsoft-azure-integration-services-services-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-integration-services/scopes/microsoft-azure-integration-services-scopes.yml
 summary_line: 1 scope · implicit
 tags:

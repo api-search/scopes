@@ -388,11 +388,12 @@ tags:
 - Course Catalog
 - Research Computing
 - Campus Life
-- Authentication
+- OAuth
 - OpenID Connect
 - SAML
 - Shibboleth
 - Payments
+- Authentication
 token_bound: false
 token_urls:
 - https://jaccount.sjtu.edu.cn/oauth2/token

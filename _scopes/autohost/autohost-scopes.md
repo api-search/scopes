@@ -81,11 +81,11 @@ source_yaml_url: https://artifacts.apis.io/autohost/scopes/autohost-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- IdentityVerification
-- BackgroundCheck
-- FraudDetection
+- Identity Verification
+- Background Checks
+- Fraud Prevention
 - Hospitality
-- RealEstate
+- Real Estate
 token_bound: false
 token_urls: []
 ---

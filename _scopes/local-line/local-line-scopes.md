@@ -32,10 +32,10 @@ source_yaml_url: https://artifacts.apis.io/local-line/scopes/local-line-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Agriculture
-- E-commerce
+- E-Commerce
 - Supply Chain
 - Food Tech
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

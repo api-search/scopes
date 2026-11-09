@@ -42,9 +42,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Blockchain
-- Crypto
-- Smart-Contracts
-- Developer-Platform
+- Cryptocurrency
+- Smart Contracts
+- Developer Platform
 token_bound: false
 token_urls: []
 ---

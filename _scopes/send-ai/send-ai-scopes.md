@@ -59,7 +59,7 @@ source_yaml_url: https://artifacts.apis.io/send-ai/scopes/send-ai-scopes.yml
 summary_line: 6 scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Document Processing
 - EDI
 - Supply Chain

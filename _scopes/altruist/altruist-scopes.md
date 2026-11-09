@@ -262,6 +262,7 @@ tags:
 - Financial Advisors
 - RIA
 - Investing
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

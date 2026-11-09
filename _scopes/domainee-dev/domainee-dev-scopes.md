@@ -84,10 +84,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/domainee-dev/scopes/domainee-dev-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- API
-- SaaS
-- Custom-Domains
-- Free-Tier
+- Software-as-a-Service
+- Custom Domains
+- Free Tier
 - MCP
 token_bound: false
 token_urls: []

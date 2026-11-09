@@ -31,10 +31,10 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://mypinpa
 source_yaml_url: https://artifacts.apis.io/mypinpal-com/scopes/mypinpal-com-scopes.yml
 summary_line: 1 scope
 tags:
-- AI
+- Artificial Intelligence
 - Productivity
 - Notes
-- Projects
+- Project
 - Sweden
 token_bound: false
 token_urls: []

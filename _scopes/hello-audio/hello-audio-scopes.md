@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: hello-audio-hello-audio-api-api-openapi.yml
-  format: yaml
-  label: Hello Audio API
-  slug: hello-audio-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/hello-audio/openapi/hello-audio-hello-audio-api-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -40,11 +33,11 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Audio
-- Podcast
-- SaaS
+- Podcasts
+- Software-as-a-Service
 - Private
 - Private Podcasts
-- Webhooks
+- Webhook
 - Zapier
 - Creator Economy
 token_bound: false

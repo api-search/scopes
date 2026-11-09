@@ -42,10 +42,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Finance
-- Market-Data
+- Market Data
 - A-Share
-- API
-- Python-SDK
+- Python SDK
 token_bound: false
 token_urls: []
 ---

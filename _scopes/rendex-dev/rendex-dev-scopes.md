@@ -71,9 +71,8 @@ source_yaml_url: https://artifacts.apis.io/rendex-dev/scopes/rendex-dev-scopes.y
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Rendering
-- Screenshot
+- Screenshots
 - PDF
-- API
 - Automation
 token_bound: false
 token_urls: []

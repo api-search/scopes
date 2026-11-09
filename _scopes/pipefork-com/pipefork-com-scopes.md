@@ -35,9 +35,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - API Builder
-- AI
+- Artificial Intelligence
 - MCP
-- Low-code
+- Low-Code
 - Integration
 token_bound: false
 token_urls: []

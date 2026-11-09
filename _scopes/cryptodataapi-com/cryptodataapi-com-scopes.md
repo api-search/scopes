@@ -263,11 +263,11 @@ source_yaml_url: https://artifacts.apis.io/cryptodataapi-com/scopes/cryptodataap
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Finance
 - Data
-- Real-time
-- Market-Data
+- Real-Time
+- Market Data
 token_bound: false
 token_urls: []
 ---

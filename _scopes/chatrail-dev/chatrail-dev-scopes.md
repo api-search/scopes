@@ -119,9 +119,8 @@ source_yaml_url: https://artifacts.apis.io/chatrail-dev/scopes/chatrail-dev-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - WhatsApp
-- API
 - Messaging
-- AI
+- Artificial Intelligence
 - Developers
 token_bound: false
 token_urls: []

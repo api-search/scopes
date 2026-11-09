@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/cymphony/scopes/cymphony-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Security
-- AI
+- Artificial Intelligence
 - Workforce
 - Identity
-- Threat-Detection
+- Threat Detection
 - Enterprise
 token_bound: false
 token_urls: []

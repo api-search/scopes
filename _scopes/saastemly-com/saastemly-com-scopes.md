@@ -36,8 +36,8 @@ tags:
 - Software Development
 - Custom Software
 - Web Applications
-- Mobile Apps
-- AI/ML
+- Mobile App
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

@@ -66,7 +66,7 @@ tags:
 - Agent-Native
 - Image-to-Video
 - Creative Production
-- Pay As You Go
+- Pay-as-you-go
 token_bound: false
 token_urls:
 - https://vujvontfztdzszylnsyc.supabase.co/auth/v1/oauth/token

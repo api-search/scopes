@@ -33,7 +33,7 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/screenshotagent-com/scopes/screenshotagent-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- Screenshot
+- Screenshots
 - Automation
 - UI
 - Documentation

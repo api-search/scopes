@@ -77,7 +77,7 @@ source_yaml_url: https://artifacts.apis.io/noerrands-com/scopes/noerrands-com-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
 - Productivity
 - Messaging

@@ -353,6 +353,8 @@ tags:
 - MCP
 - Platform
 - Identity Federation
+- OpenID Connect
+- Identity and Access Management
 token_bound: false
 token_urls:
 - /oauth2/v1/token

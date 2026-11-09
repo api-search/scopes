@@ -40,10 +40,10 @@ source_yaml: 'generated: ''2026-10-27''
 source_yaml_url: https://artifacts.apis.io/monerium/scopes/monerium-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- FinTech
+- Fintech
 - Payments
 - Blockchain
-- DigitalCurrency
+- Digital Currency
 - RegulatedMoney
 token_bound: false
 token_urls: []

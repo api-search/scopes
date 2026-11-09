@@ -326,6 +326,9 @@ tags:
 - Healthcare
 - Life Sciences
 - Research
+- Health
+- Data Management
+- Artificial Intelligence
 token_bound: false
 token_urls:
 - https://data.castoredc.com/api/oauth/token

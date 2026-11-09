@@ -91,9 +91,8 @@ tags:
 - Company
 - Finance
 - Data
-- API
 - Transcripts
-- EarningsCalls
+- Earnings Calls
 token_bound: false
 token_urls: []
 ---

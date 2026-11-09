@@ -33,12 +33,12 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/hatch-co/scopes/hatch-co-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- sleep
-- health
-- smart-home
-- iot
-- family
-- wellness
+- Sleep
+- Health
+- Smart Home
+- IoT
+- Family
+- Wellness
 token_bound: false
 token_urls: []
 ---

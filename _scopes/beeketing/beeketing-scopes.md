@@ -306,10 +306,11 @@ tags:
 - Marketing
 - Shopify Apps
 - REST API
-- Authentication
+- OAuth
 - Webhook
 - Themes
 - Payments
+- Authentication
 token_bound: false
 token_urls:
 - https://{shop}.onshopbase.com/admin/oauth/access_token.json

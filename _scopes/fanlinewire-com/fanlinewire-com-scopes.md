@@ -43,7 +43,7 @@ tags:
 - Sports
 - Betting
 - Odds API
-- Real-time
+- Real-Time
 - FanDuel
 - Data
 token_bound: false

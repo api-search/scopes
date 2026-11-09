@@ -61,7 +61,6 @@ tags:
 - Company
 - Payments
 - Fiscal
-- API
 - Ukraine
 token_bound: false
 token_urls: []

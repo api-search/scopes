@@ -46,12 +46,12 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/adrianhomelab-com/scopes/adrianhomelab-com-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- frontend
-- react
-- javascript
-- typescript
-- web-development
-- portfolio
+- Frontend
+- React
+- JavaScript
+- TypeScript
+- Web Development
+- Portfolio
 token_bound: false
 token_urls: []
 ---

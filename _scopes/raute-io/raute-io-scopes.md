@@ -50,7 +50,7 @@ tags:
 - Logistics
 - Delivery
 - Route Planning
-- AI
+- Artificial Intelligence
 - Fleet Management
 token_bound: false
 token_urls: []

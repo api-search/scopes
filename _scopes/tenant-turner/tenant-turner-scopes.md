@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/tenant-turner/scopes/tenant-turner-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Leasing
-- Property-Management
+- Property Management
 - Automation
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

@@ -172,10 +172,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Social
 - Data
-- API
 - X
 - Credit
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

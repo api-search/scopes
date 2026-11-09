@@ -30,6 +30,30 @@ api_specs:
   slug: microsoft-azure-file-storage-shares-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-shares-api-openapi.yml
+- filename: azure-file-storage-directory-api-openapi.yml
+  format: yaml
+  label: Azure Files Directory API
+  slug: azure-file-storage-directory-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-directory-api-openapi.yml
+- filename: azure-file-storage-file-api-openapi.yml
+  format: yaml
+  label: Azure Files File API
+  slug: azure-file-storage-file-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-file-api-openapi.yml
+- filename: azure-file-storage-service-api-openapi.yml
+  format: yaml
+  label: Azure Files Service API
+  slug: azure-file-storage-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-service-api-openapi.yml
+- filename: azure-file-storage-share-api-openapi.yml
+  format: yaml
+  label: Azure Files Share API
+  slug: azure-file-storage-share-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-file-storage/openapi/azure-file-storage-share-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -56,7 +80,25 @@ schemes:
   - flow: clientCredentials
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: entra
-  source: openapi/azure-file-storage-openapi.yml
+  source: openapi/azure-file-storage-account-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0 bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: entra
+  source: openapi/azure-file-storage-directories-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0 bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: entra
+  source: openapi/azure-file-storage-files-api-openapi.yml
+- description: Microsoft Entra ID OAuth 2.0 bearer token
+  flows:
+  - flow: clientCredentials
+    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  name: entra
+  source: openapi/azure-file-storage-shares-api-openapi.yml
 scope_count: 1
 scope_names:
 - https://storage.azure.com/.default
@@ -69,7 +111,8 @@ slug: azure-file-storage-scopes
 source_filename: azure-file-storage-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-file-storage-openapi.yml\nschemes:\n- name: entra\n  source: openapi/azure-file-storage-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0 bearer token\nscopes:\n- scope: https://storage.azure.com/.default\n  description: Azure Storage data plane access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/azure-file-storage-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/azure-file-storage-account-api-openapi.yml, openapi/azure-file-storage-directories-api-openapi.yml,\n  openapi/azure-file-storage-files-api-openapi.yml, openapi/azure-file-storage-shares-api-openapi.yml\nschemes:\n- name: entra\n  source: openapi/azure-file-storage-account-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0 bearer token\n- name: entra\n  source: openapi/azure-file-storage-directories-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0 bearer token\n- name: entra\n  source: openapi/azure-file-storage-files-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra\
+  \ ID OAuth 2.0 bearer token\n- name: entra\n  source: openapi/azure-file-storage-shares-api-openapi.yml\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n  description: Microsoft Entra ID OAuth 2.0 bearer token\nscopes:\n- scope: https://storage.azure.com/.default\n  description: Azure Storage data plane access\n  flows:\n  - clientCredentials\n  sources:\n  - openapi/azure-file-storage-account-api-openapi.yml\n  - openapi/azure-file-storage-directories-api-openapi.yml\n  - openapi/azure-file-storage-files-api-openapi.yml\n  - openapi/azure-file-storage-shares-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/azure-file-storage/scopes/azure-file-storage-scopes.yml
 summary_line: 1 scope · clientCredentials
 tags:

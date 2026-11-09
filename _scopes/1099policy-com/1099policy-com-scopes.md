@@ -45,8 +45,7 @@ tags:
 - Insurance
 - Compliance
 - Contractors
-- API
-- WorkersComp
+- Workers Comp
 token_bound: false
 token_urls: []
 ---

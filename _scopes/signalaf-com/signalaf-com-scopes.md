@@ -68,11 +68,11 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: \"https://signa
 source_yaml_url: https://artifacts.apis.io/signalaf-com/scopes/signalaf-com-scopes.yml
 summary_line: 4 scopes
 tags:
-- AI
+- Artificial Intelligence
 - Analytics
-- Leaderboard
+- Leaderboards
 - OpenAPI
-- PublicAPI
+- Public APIs
 token_bound: false
 token_urls: []
 ---

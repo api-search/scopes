@@ -432,8 +432,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Data
-- API
-- AI
+- Artificial Intelligence
 - Payments
 - MCP
 token_bound: false

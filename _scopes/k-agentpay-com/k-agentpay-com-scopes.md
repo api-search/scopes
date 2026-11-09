@@ -56,8 +56,7 @@ tags:
 - Travel
 - K-Pop
 - Data
-- API
-- Korea
+- South Korea
 token_bound: false
 token_urls: []
 ---

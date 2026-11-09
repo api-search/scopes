@@ -33,11 +33,11 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/tablethis-ai/scopes/tablethis-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
+- Artificial Intelligence
 - Database
 - Collaboration
 - Internal Apps
-- Low-code
+- Low-Code
 token_bound: false
 token_urls: []
 ---

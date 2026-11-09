@@ -42,9 +42,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - LawTech
-- LegalTech
+- Legal Tech
 - RegTech
-- AI
+- Artificial Intelligence
 token_bound: false
 token_urls: []
 ---

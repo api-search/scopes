@@ -149,9 +149,8 @@ source_yaml_url: https://artifacts.apis.io/ccapi-ai/scopes/ccapi-ai-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- API
-- Gateway
+- Artificial Intelligence
+- Gateways
 - Models
 - Platform
 token_bound: false

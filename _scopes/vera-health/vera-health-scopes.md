@@ -41,7 +41,7 @@ source_yaml_url: https://artifacts.apis.io/vera-health/scopes/vera-health-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Health
-- AI
+- Artificial Intelligence
 - Clinical Decision Support
 - Medical Knowledge
 - Healthcare

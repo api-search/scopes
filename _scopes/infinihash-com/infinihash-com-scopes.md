@@ -353,11 +353,11 @@ source_yaml_url: https://artifacts.apis.io/infinihash-com/scopes/infinihash-com-
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- FinTech
-- Crypto
+- Fintech
+- Cryptocurrency
 - Compliance
 - KYC
-- KYT
+- Transaction Monitoring
 - Infrastructure
 token_bound: false
 token_urls: []

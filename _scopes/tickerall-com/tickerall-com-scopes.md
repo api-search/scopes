@@ -84,8 +84,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Finance
 - Trading
-- API
-- Forex
+- Foreign Exchange
 - MT5
 - MT4
 token_bound: false

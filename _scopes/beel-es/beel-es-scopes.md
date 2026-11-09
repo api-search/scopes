@@ -520,11 +520,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: derived\nsource: openapi/beel-es-
 source_yaml_url: https://artifacts.apis.io/beel-es/scopes/beel-es-scopes.yml
 summary_line: 29 scopes · authorizationCode
 tags:
-- invoicing
+- Invoicing
 - Spain
-- API
-- fintech
-- SaaS
+- Fintech
+- Software-as-a-Service
 token_bound: false
 token_urls:
 - https://app.beel.es/api/oauth2/token

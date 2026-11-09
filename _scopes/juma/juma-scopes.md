@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/juma/scopes/juma-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketing
 - Automation
-- SaaS
+- Software-as-a-Service
 - Advertising
 token_bound: false
 token_urls: []

@@ -105,10 +105,9 @@ source_yaml_url: https://artifacts.apis.io/space-ocr-com/scopes/space-ocr-com-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - OCR
-- AI
-- Document-Processing
+- Artificial Intelligence
+- Document Processing
 - Field-Extraction
-- API
 token_bound: false
 token_urls: []
 ---

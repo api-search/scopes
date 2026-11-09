@@ -35,8 +35,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Neuroscience
-- Brain-Computer-Interface
-- AI
+- Brain-Computer Interface
+- Artificial Intelligence
 - EEG
 token_bound: false
 token_urls: []

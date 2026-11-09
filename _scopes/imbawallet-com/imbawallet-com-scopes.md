@@ -129,11 +129,11 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://api-doc
 source_yaml_url: https://artifacts.apis.io/imbawallet-com/scopes/imbawallet-com-scopes.yml
 summary_line: 16 scopes
 tags:
-- FinTech
+- Fintech
 - Payments
 - Cryptocurrency
-- VirtualCards
-- Wallet
+- Virtual Cards
+- Wallets
 token_bound: false
 token_urls: []
 ---

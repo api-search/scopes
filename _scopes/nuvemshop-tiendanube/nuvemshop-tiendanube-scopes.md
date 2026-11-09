@@ -100,10 +100,11 @@ tags:
 - Payments
 - Shipping
 - Webhook
-- Authentication
+- OAuth
 - Latin America
 - Storefront
 - Apps Platform
+- Authentication
 token_bound: false
 token_urls:
 - https://www.tiendanube.com/apps/authorize/token

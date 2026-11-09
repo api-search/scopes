@@ -35,7 +35,6 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Social Media
 - Advertising
-- API
 - Marketing
 - Automation
 token_bound: false

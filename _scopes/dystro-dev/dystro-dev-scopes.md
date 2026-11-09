@@ -119,8 +119,7 @@ source_yaml_url: https://artifacts.apis.io/dystro-dev/scopes/dystro-dev-scopes.y
 summary_line: 6 scopes
 tags:
 - Company
-- API
-- Developer
+- Developers
 - Technology
 - Integration
 token_bound: false

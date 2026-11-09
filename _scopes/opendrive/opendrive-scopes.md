@@ -33,11 +33,10 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/opendrive/scopes/opendrive-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- cloud-storage
-- backup
-- file-sync
-- collaboration
-- api
+- Cloud Storage
+- Backup
+- File Sync
+- Collaboration
 token_bound: false
 token_urls: []
 ---

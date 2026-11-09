@@ -41,10 +41,9 @@ source_yaml_url: https://artifacts.apis.io/octocrawl-dev/scopes/octocrawl-dev-sc
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- API
-- WebScraping
-- DataExtraction
-- SaaS
+- Web Scraping
+- Data Extraction
+- Software-as-a-Service
 - Automation
 token_bound: false
 token_urls: []

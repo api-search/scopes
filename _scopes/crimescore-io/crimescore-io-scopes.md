@@ -54,10 +54,9 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Safety
-- RealEstate
+- Real Estate
 - Data
 - Mapping
-- API
 token_bound: false
 token_urls: []
 ---

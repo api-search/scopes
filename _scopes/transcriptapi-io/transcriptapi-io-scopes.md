@@ -1,11 +1,53 @@
 ---
 api_specs:
-- filename: transcriptapi-io-openapi.json
-  format: json
-  label: TranscriptAPI
-  slug: transcriptapi
+- filename: transcriptapi-io-auth-api-openapi.yml
+  format: yaml
+  label: transcriptapi-io Auth API
+  slug: transcriptapi-io-auth-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/transcriptapi-io/openapi/transcriptapi-io-openapi.json
+  url: https://artifacts.apis.io/transcriptapi-io/openapi/transcriptapi-io-auth-api-openapi.yml
+- filename: transcriptapi-io-channels-api-openapi.yml
+  format: yaml
+  label: transcriptapi-io Channels API
+  slug: transcriptapi-io-channels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/transcriptapi-io/openapi/transcriptapi-io-channels-api-openapi.yml
+- filename: transcriptapi-io-health-api-openapi.yml
+  format: yaml
+  label: transcriptapi-io Health API
+  slug: transcriptapi-io-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/transcriptapi-io/openapi/transcriptapi-io-health-api-openapi.yml
+- filename: transcriptapi-io-playlists-api-openapi.yml
+  format: yaml
+  label: transcriptapi-io Playlists API
+  slug: transcriptapi-io-playlists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/transcriptapi-io/openapi/transcriptapi-io-playlists-api-openapi.yml
+- filename: transcriptapi-io-public-tools-api-openapi.yml
+  format: yaml
+  label: transcriptapi-io Public tools API
+  slug: transcriptapi-io-public-tools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/transcriptapi-io/openapi/transcriptapi-io-public-tools-api-openapi.yml
+- filename: transcriptapi-io-search-api-openapi.yml
+  format: yaml
+  label: transcriptapi-io Search API
+  slug: transcriptapi-io-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/transcriptapi-io/openapi/transcriptapi-io-search-api-openapi.yml
+- filename: transcriptapi-io-transcripts-api-openapi.yml
+  format: yaml
+  label: transcriptapi-io Transcripts API
+  slug: transcriptapi-io-transcripts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/transcriptapi-io/openapi/transcriptapi-io-transcripts-api-openapi.yml
+- filename: transcriptapi-io-webhooks-api-openapi.yml
+  format: yaml
+  label: transcriptapi-io Webhooks API
+  slug: transcriptapi-io-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/transcriptapi-io/openapi/transcriptapi-io-webhooks-api-openapi.yml
 authorization_urls: []
 description: ''
 docs: ''
@@ -40,10 +82,9 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/transcriptapi-io/scopes/transcriptapi-io-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
+- Company
 - YouTube
 - Transcripts
-- API
-- Video
 - Data
 token_bound: false
 token_urls: []

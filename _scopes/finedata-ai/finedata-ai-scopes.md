@@ -87,9 +87,9 @@ source_yaml_url: https://artifacts.apis.io/finedata-ai/scopes/finedata-ai-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
-- WebScraping
-- DataExtraction
+- Artificial Intelligence
+- Web Scraping
+- Data Extraction
 - MCP
 - LLM
 token_bound: false

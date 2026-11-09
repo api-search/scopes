@@ -36,7 +36,7 @@ tags:
 - Company
 - Agriculture
 - Software
-- SaaS
+- Software-as-a-Service
 - Agribusiness
 - Management
 - Technology

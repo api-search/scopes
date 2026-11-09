@@ -127,8 +127,7 @@ tags:
 - Company
 - Finance
 - Currency
-- ExchangeRates
-- API
+- Exchange Rates
 token_bound: false
 token_urls: []
 ---

@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/agenticshelf-ai/scopes/agenticshelf-a
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Commerce
 - MCP
 - Auditing

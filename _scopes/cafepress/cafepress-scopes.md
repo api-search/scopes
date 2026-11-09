@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/cafepress/scopes/cafepress-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- e-commerce
-- print-on-demand
-- custom merchandise
+- E-Commerce
+- Print on Demand
+- Custom Merchandise
 - online marketplace
 token_bound: false
 token_urls: []

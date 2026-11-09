@@ -53,9 +53,8 @@ source_yaml_url: https://artifacts.apis.io/dadata/scopes/dadata-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Data
-- API
 - Russian
-- DataEnrichment
+- Data Enrichment
 - AddressStandardization
 token_bound: false
 token_urls: []

@@ -68,7 +68,6 @@ tags:
 - Astronomy
 - Tides
 - Solar
-- API
 token_bound: false
 token_urls: []
 ---

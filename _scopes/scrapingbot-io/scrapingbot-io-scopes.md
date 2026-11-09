@@ -42,8 +42,7 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Web Scraping
-- API
-- AI
+- Artificial Intelligence
 - Data Extraction
 - Automation
 token_bound: false

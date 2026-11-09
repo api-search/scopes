@@ -57,6 +57,7 @@ tags:
 - Fintech
 - MCP
 - Agentic Commerce
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

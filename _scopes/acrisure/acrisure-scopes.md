@@ -62,6 +62,7 @@ tags:
 - Mortgage
 - Surety
 - MCP
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

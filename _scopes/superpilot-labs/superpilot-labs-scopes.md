@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/superpilot-labs/scopes/superpilot-lab
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Marketing
-- AI
+- Artificial Intelligence
 - Commerce
 - Automation
-- SaaS
+- Software-as-a-Service
 token_bound: false
 token_urls: []
 ---

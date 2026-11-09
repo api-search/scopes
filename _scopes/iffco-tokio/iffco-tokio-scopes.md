@@ -34,10 +34,10 @@ source_yaml_url: https://artifacts.apis.io/iffco-tokio/scopes/iffco-tokio-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Insurance
-- GeneralInsurance
+- General Insurance
 - India
-- JointVenture
-- FinancialServices
+- Joint Venture
+- Financial Services
 token_bound: false
 token_urls: []
 ---

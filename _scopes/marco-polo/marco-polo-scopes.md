@@ -50,6 +50,7 @@ tags:
 - AI Agents
 - Data Integration
 - Security
+- OAuth
 - Authentication
 token_bound: false
 token_urls: []

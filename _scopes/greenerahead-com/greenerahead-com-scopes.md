@@ -36,7 +36,7 @@ tags:
 - Company
 - ESG
 - Sustainability
-- CarbonAccounting
+- Carbon Accounting
 - ClimateStrategy
 token_bound: false
 token_urls: []

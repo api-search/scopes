@@ -977,6 +977,7 @@ tags:
 - CIAM
 - Authentication
 - Authorization
+- OAuth
 - OpenID Connect
 - Consent Management
 - Multi-Factor Authentication

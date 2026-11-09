@@ -101,10 +101,10 @@ source_yaml_url: https://artifacts.apis.io/lazyweb-com/scopes/lazyweb-com-scopes
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Growth
-- AI
-- No-code
+- Artificial Intelligence
+- No-Code
 token_bound: false
 token_urls: []
 ---

@@ -35,10 +35,10 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Company
 - Energy
-- EVCharging
-- SmartHome
-- OpenSource
-- SelfHosted
+- EV Charging
+- Smart Home
+- Open Source
+- Self-Hosted
 token_bound: false
 token_urls: []
 ---

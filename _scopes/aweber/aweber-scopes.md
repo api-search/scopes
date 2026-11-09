@@ -180,8 +180,9 @@ tags:
 - Web Forms
 - Segments
 - Webhook
-- Authentication
+- OAuth
 - Small Business
+- Authentication
 token_bound: false
 token_urls:
 - https://auth.aweber.com/oauth2/token

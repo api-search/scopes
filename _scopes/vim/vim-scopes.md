@@ -123,6 +123,7 @@ tags:
 - Interoperability
 - Value-Based Care
 - Care Gaps
+- OAuth
 - Authentication
 token_bound: false
 token_urls:

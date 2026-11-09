@@ -41,10 +41,9 @@ source_yaml_url: https://artifacts.apis.io/geocode-farm/scopes/geocode-farm-scop
 summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Geocoding
-- API
 - Location
 - Data
-- Service
+- Services
 token_bound: false
 token_urls: []
 ---

@@ -688,11 +688,11 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/huggingbay-xyz/scopes/huggingbay-xyz-scopes.yml
 summary_line: OAuth 2.0 · no documented scopes
 tags:
-- AI
-- Open-Source
+- Artificial Intelligence
+- Open Source
 - Models
 - Platform
-- Machine-Learning
+- Machine Learning
 token_bound: false
 token_urls: []
 ---

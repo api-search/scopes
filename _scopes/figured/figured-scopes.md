@@ -37,8 +37,8 @@ summary_line: OAuth 2.0 · no documented scopes
 tags:
 - Finance
 - Agriculture
-- FarmManagement
-- SaaS
+- Farm Management
+- Software-as-a-Service
 - Accounting
 token_bound: false
 token_urls: []

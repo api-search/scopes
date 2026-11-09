@@ -40,7 +40,7 @@ tags:
 - League-Management
 - Scheduling
 - Payments
-- Web-App
+- Web App
 token_bound: false
 token_urls: []
 ---

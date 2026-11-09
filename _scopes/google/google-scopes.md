@@ -403,88 +403,258 @@ api_specs:
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google/openapi/google-volumes-api-openapi.yml
 authorization_urls:
-- https://accounts.google.com/o/oauth2/v2/auth
 - https://accounts.google.com/o/oauth2/auth
+- https://accounts.google.com/o/oauth2/v2/auth
 description: ''
 docs: ''
 flows:
-- authorizationCode
 - implicit
+- authorizationCode
 kind: oauth-scopes
 layout: scope
 method: derived
 name: Google Scopes
 name_suffix: OAuth Scopes
 note: ''
-overview: 'Google publishes 18 OAuth 2.0 scopes via the authorizationCode and implicit flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google API on a user''s behalf.
+overview: 'Google publishes 18 OAuth 2.0 scopes via the implicit and authorizationCode flows. Scopes are the fine-grained permissions an application requests at authorization time to act against the Google API on a user''s behalf.
 
 
-  Tokens are issued from https://oauth2.googleapis.com/token.
+  Tokens are issued from https://accounts.google.com/o/oauth2/token.
 
 
   This index is generated from the provider''s OpenAPI security definitions (and, where available, its documented scope reference) and refreshes on every APIs.io network build. Browse every provider''s scopes at [scopes.apis.io](https://apis.io/scopes/).'
 provider_name: Google
 provider_slug: google
 schemes:
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-about-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-about-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-activity-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-activity-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-applications-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-applications-api-openapi.yml
 - description: OAuth 2.0 authentication for Google Books API
   flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth
     flow: authorizationCode
     tokenUrl: https://oauth2.googleapis.com/token
   name: OAuth2
-  source: openapi/books-api-openapi.yml
+  source: openapi/google-bookshelves-api-openapi.yml
 - description: Oauth 2.0 implicit authentication
   flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: implicit
   name: Oauth2
-  source: openapi/google-docs-api-openapi.yml
+  source: openapi/google-changes-api-openapi.yml
 - description: Oauth 2.0 authorizationCode authentication
   flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: authorizationCode
     tokenUrl: https://accounts.google.com/o/oauth2/token
   name: Oauth2c
-  source: openapi/google-docs-api-openapi.yml
+  source: openapi/google-changes-api-openapi.yml
 - description: Oauth 2.0 implicit authentication
   flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: implicit
   name: Oauth2
-  source: openapi/google-drive-activity-api-openapi.yml
+  source: openapi/google-channels-api-openapi.yml
 - description: Oauth 2.0 authorizationCode authentication
   flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: authorizationCode
     tokenUrl: https://accounts.google.com/o/oauth2/token
   name: Oauth2c
-  source: openapi/google-drive-activity-api-openapi.yml
+  source: openapi/google-channels-api-openapi.yml
 - description: Oauth 2.0 implicit authentication
   flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: implicit
   name: Oauth2
-  source: openapi/google-drive-api-openapi.yml
+  source: openapi/google-comments-api-openapi.yml
 - description: Oauth 2.0 authorizationCode authentication
   flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: authorizationCode
     tokenUrl: https://accounts.google.com/o/oauth2/token
   name: Oauth2c
-  source: openapi/google-drive-api-openapi.yml
+  source: openapi/google-comments-api-openapi.yml
 - description: Oauth 2.0 implicit authentication
   flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: implicit
   name: Oauth2
-  source: openapi/google-drive-labels-api-openapi.yml
+  source: openapi/google-documents-api-openapi.yml
 - description: Oauth 2.0 authorizationCode authentication
   flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: authorizationCode
     tokenUrl: https://accounts.google.com/o/oauth2/token
   name: Oauth2c
-  source: openapi/google-drive-labels-api-openapi.yml
+  source: openapi/google-documents-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-drives-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-drives-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-files-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-files-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-labels-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-labels-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-limits-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-limits-api-openapi.yml
+- description: OAuth 2.0 authentication for Google Books API
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: OAuth2
+  source: openapi/google-my-library-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-permissions-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-permissions-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-replies-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-replies-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-revisions-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-revisions-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-team-drives-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-team-drives-api-openapi.yml
+- description: Oauth 2.0 implicit authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: implicit
+  name: Oauth2
+  source: openapi/google-users-api-openapi.yml
+- description: Oauth 2.0 authorizationCode authentication
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    tokenUrl: https://accounts.google.com/o/oauth2/token
+  name: Oauth2c
+  source: openapi/google-users-api-openapi.yml
+- description: OAuth 2.0 authentication for Google Books API
+  flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth
+    flow: authorizationCode
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: OAuth2
+  source: openapi/google-volumes-api-openapi.yml
 scope_count: 18
 scope_names:
 - https://www.googleapis.com/auth/books
@@ -599,15 +769,27 @@ slug: google-scopes
 source_filename: google-scopes.yml
 source_heading: OAuth Scopes
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/books-api-openapi.yml, openapi/google-docs-api-openapi.yml, openapi/google-drive-activity-api-openapi.yml,\n  openapi/google-drive-api-openapi.yml, openapi/google-drive-labels-api-openapi.yml\nschemes:\n- name: OAuth2\n  source: openapi/books-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for Google Books API\n- name: Oauth2\n  source: openapi/google-docs-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-docs-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth\
-  \ 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-drive-activity-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-drive-activity-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-drive-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-drive-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description:\
-  \ Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-drive-labels-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-drive-labels-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\nscopes:\n- scope: https://www.googleapis.com/auth/books\n  description: Manage your Google Books library\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/books-api-openapi.yml\n- scope: https://www.googleapis.com/auth/documents\n  description: See, edit, create, and delete all your Google Docs documents\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-docs-api-openapi.yml\n- scope: https://www.googleapis.com/auth/documents.readonly\n\
-  \  description: See all your Google Docs documents\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-docs-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive\n  description: See, edit, create, and delete all of your Google Drive files\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-docs-api-openapi.yml\n  - openapi/google-drive-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.activity\n  description: View and add to the activity record of files in your Google Drive\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-activity-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.activity.readonly\n  description: View the activity record of files in your Google Drive\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-activity-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.admin.labels\n  description: See, edit,\
-  \ create, and delete all Google Drive labels in your organization, and\n    see your organization's label-related admin policies\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-labels-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.admin.labels.readonly\n  description: See all Google Drive labels and label-related admin policies in your organization\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-labels-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.appdata\n  description: See, create, and delete its own configuration data in your Google Drive\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.apps.readonly\n  description: View your Google Drive apps\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.file\n\
-  \  description: See, edit, create, and delete only the specific Google Drive files you use with\n    this app\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-docs-api-openapi.yml\n  - openapi/google-drive-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.labels\n  description: See, edit, create, and delete your Google Drive labels\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-labels-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.labels.readonly\n  description: See your Google Drive labels\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-labels-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.metadata\n  description: View and manage metadata of files in your Google Drive\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.metadata.readonly\n\
-  \  description: See information about your Google Drive files\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.photos.readonly\n  description: View the photos, videos and albums in your Google Photos\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.readonly\n  description: See and download all your Google Drive files\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-docs-api-openapi.yml\n  - openapi/google-drive-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.scripts\n  description: Modify your Google Apps Script scripts' behavior\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-drive-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/google-about-api-openapi.yml, openapi/google-activity-api-openapi.yml, openapi/google-applications-api-openapi.yml,\n  openapi/google-bookshelves-api-openapi.yml, openapi/google-changes-api-openapi.yml, openapi/google-channels-api-openapi.yml,\n  openapi/google-comments-api-openapi.yml, openapi/google-documents-api-openapi.yml, openapi/google-drives-api-openapi.yml,\n  openapi/google-files-api-openapi.yml, openapi/google-labels-api-openapi.yml, openapi/google-limits-api-openapi.yml,\n  openapi/google-my-library-api-openapi.yml, openapi/google-permissions-api-openapi.yml, openapi/google-replies-api-openapi.yml,\n  openapi/google-revisions-api-openapi.yml, openapi/google-team-drives-api-openapi.yml, openapi/google-users-api-openapi.yml,\n  openapi/google-volumes-api-openapi.yml\nschemes:\n- name: Oauth2\n  source: openapi/google-about-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n\
+  \  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-about-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-activity-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-activity-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-applications-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n\
+  \  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-applications-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: OAuth2\n  source: openapi/google-bookshelves-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for Google Books API\n- name: Oauth2\n  source: openapi/google-changes-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-changes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n\
+  \    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-channels-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-channels-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-comments-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-comments-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n\
+  \    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-documents-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-documents-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-drives-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-drives-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n\
+  \    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-files-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-files-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-labels-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-labels-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl:\
+  \ https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-limits-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-limits-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: OAuth2\n  source: openapi/google-my-library-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for Google Books API\n- name: Oauth2\n  source: openapi/google-permissions-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl:\
+  \ https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-permissions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-replies-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-replies-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-revisions-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl:\
+  \ https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-revisions-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-team-drives-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-team-drives-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: Oauth2\n  source: openapi/google-users-api-openapi.yml\n  flows:\n  - flow: implicit\n    authorizationUrl:\
+  \ https://accounts.google.com/o/oauth2/auth\n  description: Oauth 2.0 implicit authentication\n- name: Oauth2c\n  source: openapi/google-users-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n  description: Oauth 2.0 authorizationCode authentication\n- name: OAuth2\n  source: openapi/google-volumes-api-openapi.yml\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n  description: OAuth 2.0 authentication for Google Books API\nscopes:\n- scope: https://www.googleapis.com/auth/books\n  description: Manage your Google Books library\n  flows:\n  - authorizationCode\n  sources:\n  - openapi/google-bookshelves-api-openapi.yml\n  - openapi/google-my-library-api-openapi.yml\n  - openapi/google-volumes-api-openapi.yml\n- scope: https://www.googleapis.com/auth/documents\n\
+  \  description: See, edit, create, and delete all your Google Docs documents\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-documents-api-openapi.yml\n- scope: https://www.googleapis.com/auth/documents.readonly\n  description: See all your Google Docs documents\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-documents-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive\n  description: See, edit, create, and delete all of your Google Drive files\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-about-api-openapi.yml\n  - openapi/google-applications-api-openapi.yml\n  - openapi/google-changes-api-openapi.yml\n  - openapi/google-channels-api-openapi.yml\n  - openapi/google-comments-api-openapi.yml\n  - openapi/google-documents-api-openapi.yml\n  - openapi/google-drives-api-openapi.yml\n  - openapi/google-files-api-openapi.yml\n  - openapi/google-permissions-api-openapi.yml\n  - openapi/google-replies-api-openapi.yml\n\
+  \  - openapi/google-revisions-api-openapi.yml\n  - openapi/google-team-drives-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.activity\n  description: View and add to the activity record of files in your Google Drive\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-activity-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.activity.readonly\n  description: View the activity record of files in your Google Drive\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-activity-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.admin.labels\n  description: See, edit, create, and delete all Google Drive labels in your organization, and\n    see your organization's label-related admin policies\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-labels-api-openapi.yml\n  - openapi/google-limits-api-openapi.yml\n  - openapi/google-users-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.admin.labels.readonly\n\
+  \  description: See all Google Drive labels and label-related admin policies in your organization\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-labels-api-openapi.yml\n  - openapi/google-limits-api-openapi.yml\n  - openapi/google-users-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.appdata\n  description: See, create, and delete its own configuration data in your Google Drive\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-about-api-openapi.yml\n  - openapi/google-applications-api-openapi.yml\n  - openapi/google-changes-api-openapi.yml\n  - openapi/google-channels-api-openapi.yml\n  - openapi/google-comments-api-openapi.yml\n  - openapi/google-drives-api-openapi.yml\n  - openapi/google-files-api-openapi.yml\n  - openapi/google-permissions-api-openapi.yml\n  - openapi/google-replies-api-openapi.yml\n  - openapi/google-revisions-api-openapi.yml\n  - openapi/google-team-drives-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.apps.readonly\n\
+  \  description: View your Google Drive apps\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-about-api-openapi.yml\n  - openapi/google-applications-api-openapi.yml\n  - openapi/google-changes-api-openapi.yml\n  - openapi/google-channels-api-openapi.yml\n  - openapi/google-comments-api-openapi.yml\n  - openapi/google-drives-api-openapi.yml\n  - openapi/google-files-api-openapi.yml\n  - openapi/google-permissions-api-openapi.yml\n  - openapi/google-replies-api-openapi.yml\n  - openapi/google-revisions-api-openapi.yml\n  - openapi/google-team-drives-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.file\n  description: See, edit, create, and delete only the specific Google Drive files you use with\n    this app\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-about-api-openapi.yml\n  - openapi/google-applications-api-openapi.yml\n  - openapi/google-changes-api-openapi.yml\n  - openapi/google-channels-api-openapi.yml\n\
+  \  - openapi/google-comments-api-openapi.yml\n  - openapi/google-documents-api-openapi.yml\n  - openapi/google-drives-api-openapi.yml\n  - openapi/google-files-api-openapi.yml\n  - openapi/google-permissions-api-openapi.yml\n  - openapi/google-replies-api-openapi.yml\n  - openapi/google-revisions-api-openapi.yml\n  - openapi/google-team-drives-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.labels\n  description: See, edit, create, and delete your Google Drive labels\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-labels-api-openapi.yml\n  - openapi/google-limits-api-openapi.yml\n  - openapi/google-users-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.labels.readonly\n  description: See your Google Drive labels\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-labels-api-openapi.yml\n  - openapi/google-limits-api-openapi.yml\n  - openapi/google-users-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.metadata\n\
+  \  description: View and manage metadata of files in your Google Drive\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-about-api-openapi.yml\n  - openapi/google-applications-api-openapi.yml\n  - openapi/google-changes-api-openapi.yml\n  - openapi/google-channels-api-openapi.yml\n  - openapi/google-comments-api-openapi.yml\n  - openapi/google-drives-api-openapi.yml\n  - openapi/google-files-api-openapi.yml\n  - openapi/google-permissions-api-openapi.yml\n  - openapi/google-replies-api-openapi.yml\n  - openapi/google-revisions-api-openapi.yml\n  - openapi/google-team-drives-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.metadata.readonly\n  description: See information about your Google Drive files\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-about-api-openapi.yml\n  - openapi/google-applications-api-openapi.yml\n  - openapi/google-changes-api-openapi.yml\n  - openapi/google-channels-api-openapi.yml\n  - openapi/google-comments-api-openapi.yml\n\
+  \  - openapi/google-drives-api-openapi.yml\n  - openapi/google-files-api-openapi.yml\n  - openapi/google-permissions-api-openapi.yml\n  - openapi/google-replies-api-openapi.yml\n  - openapi/google-revisions-api-openapi.yml\n  - openapi/google-team-drives-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.photos.readonly\n  description: View the photos, videos and albums in your Google Photos\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-about-api-openapi.yml\n  - openapi/google-applications-api-openapi.yml\n  - openapi/google-changes-api-openapi.yml\n  - openapi/google-channels-api-openapi.yml\n  - openapi/google-comments-api-openapi.yml\n  - openapi/google-drives-api-openapi.yml\n  - openapi/google-files-api-openapi.yml\n  - openapi/google-permissions-api-openapi.yml\n  - openapi/google-replies-api-openapi.yml\n  - openapi/google-revisions-api-openapi.yml\n  - openapi/google-team-drives-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.readonly\n\
+  \  description: See and download all your Google Drive files\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-about-api-openapi.yml\n  - openapi/google-applications-api-openapi.yml\n  - openapi/google-changes-api-openapi.yml\n  - openapi/google-channels-api-openapi.yml\n  - openapi/google-comments-api-openapi.yml\n  - openapi/google-documents-api-openapi.yml\n  - openapi/google-drives-api-openapi.yml\n  - openapi/google-files-api-openapi.yml\n  - openapi/google-permissions-api-openapi.yml\n  - openapi/google-replies-api-openapi.yml\n  - openapi/google-revisions-api-openapi.yml\n  - openapi/google-team-drives-api-openapi.yml\n- scope: https://www.googleapis.com/auth/drive.scripts\n  description: Modify your Google Apps Script scripts' behavior\n  flows:\n  - authorizationCode\n  - implicit\n  sources:\n  - openapi/google-about-api-openapi.yml\n  - openapi/google-applications-api-openapi.yml\n  - openapi/google-changes-api-openapi.yml\n  - openapi/google-channels-api-openapi.yml\n\
+  \  - openapi/google-comments-api-openapi.yml\n  - openapi/google-drives-api-openapi.yml\n  - openapi/google-files-api-openapi.yml\n  - openapi/google-permissions-api-openapi.yml\n  - openapi/google-replies-api-openapi.yml\n  - openapi/google-revisions-api-openapi.yml\n  - openapi/google-team-drives-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google/scopes/google-scopes.yml
-summary_line: 18 scopes · authorizationCode/implicit
+summary_line: 18 scopes · implicit/authorizationCode
 tags:
 - Advertising
 - Cloud
@@ -622,6 +804,6 @@ tags:
 - A2A
 token_bound: false
 token_urls:
-- https://oauth2.googleapis.com/token
 - https://accounts.google.com/o/oauth2/token
+- https://oauth2.googleapis.com/token
 ---
